@@ -5,13 +5,13 @@ import xml.etree.ElementTree as ET
 
 # Set path to folder
 # Change this to the folder containing PDF files
-folder_path = os.path.expanduser('./../data/0001')
+folder_path = os.path.expanduser('./../data/no-problem/2011')
 
 
 # Function to extract paper id from file name (assumed pattern: hep-ex0001059)
 def extract_paper_id(file_name):
     [file_name, extension] = os.path.splitext(file_name)
-    if extension != '.pdf':
+    if extension != '.pdf' and extension != '.html':
         print(f"Invalid file format: {extension}")
         return None
 
@@ -45,6 +45,7 @@ def query_arxiv(paper_id):
 def query_oai_pmh(arxiv_id):
     oai_url = f"http://export.arxiv.org/oai2?verb=GetRecord&identifier=oai:arXiv.org:{arxiv_id}&metadataPrefix=arXiv"
     response = requests.get(oai_url)
+    license_url = None
 
     if response.status_code == 200:
         # Parse the XML response
@@ -66,12 +67,14 @@ def query_oai_pmh(arxiv_id):
 No license found for {arxiv_id}, but license
 something exists
 !!!!!!!!!!!!!!!!!!!!""")
+                return "License could not be parsed"
             print(f"No license found for {arxiv_id}")
+            return "No License"
 
-        return response.content
+        return license_url
     else:
         print(f"Error fetching data from OAI-PMH for {arxiv_id}")
-        return None
+        return "Error fetching data"
 
 
 # Function to parse XML and extract DOI if available
@@ -105,14 +108,12 @@ def process_paper(file_name):
 
     # paper_id = "2011.08688"  # example doi with active license
     # print(paper_id)
-
+    license = "Invalid Paper ID"
     if paper_id:
         print(f"Processing paper ID: {paper_id}")
 
         # Query OAI-PMH API
-        oai_data = query_oai_pmh(paper_id)
-        if oai_data:
-            print(f"OAI-PMH metadata retrieved for {paper_id}")
+        license = query_oai_pmh(paper_id)
 
         # Query arXiv API
         arxiv_data = query_arxiv(paper_id)
@@ -127,20 +128,24 @@ def process_paper(file_name):
                     print(f"DOI fetched from DataCite: {doi}")
                 else:
                     print("DOI not found in DataCite either.")
+    return license
 
 
 # Function to process multiple files
 def process_files(file_count, folder_path):
-    file_list = [f for f in os.listdir(folder_path) if f.endswith('.pdf')]
+    file_list = [f for f in os.listdir(folder_path) if f.endswith('.pdf') or f.endswith('.html')]
+    license_list = []
     if file_list:
         for i, file_name in enumerate(file_list[:file_count]):
             file_path = os.path.join(folder_path, file_name)
             file_size = os.path.getsize(file_path)
             print(f"\nProcessing file {i+1} of {file_count}: {file_name}")
             print(f"File size: {file_size / (1024 * 1024):.2f} MB")  # Size in MB
-            process_paper(file_name)
+            license_list.append(process_paper(file_name))
     else:
         print("No PDF files found in the folder.")
+    license_set = set(license_list)
+    print(license_set)
 
 
 # Ask user for number of files to process
