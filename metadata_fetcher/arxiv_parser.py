@@ -4,15 +4,31 @@ import requests
 import xml.etree.ElementTree as ET
 
 # Set path to folder
-folder_path = os.path.expanduser('~/Downloads/0001') # Change this to the folder containing PDF files
+# Change this to the folder containing PDF files
+folder_path = os.path.expanduser('./../data/0001')
+
 
 # Function to extract paper id from file name (assumed pattern: hep-ex0001059)
 def extract_paper_id(file_name):
-    pattern = r'([a-z-]+)(\d+)'
-    match = re.match(pattern, file_name)
+    [file_name, extension] = os.path.splitext(file_name)
+    if extension != '.pdf':
+        print(f"Invalid file format: {extension}")
+        return None
+
+    pattern0 = r'([a-z-]+)(\d+)'
+    match = re.match(pattern0, file_name)
     if match:
+        print("Match found in letter pattern")
         return f"{match.group(1)}/{match.group(2)}"
+
+    pattern1 = r'\d+\.\d+'
+    match = re.match(pattern1, file_name)
+    if match:
+        print("Match found in number pattern")
+        return file_name
+
     return None
+
 
 # Function to query arXiv API and fetch metadata
 def query_arxiv(paper_id):
@@ -24,27 +40,34 @@ def query_arxiv(paper_id):
         print(f"Error fetching data from arXiv for {paper_id}", arxiv_url)
         return None
 
+
 # Function to query OAI-PMH API for metadata and print license if it exists
 def query_oai_pmh(arxiv_id):
     oai_url = f"http://export.arxiv.org/oai2?verb=GetRecord&identifier=oai:arXiv.org:{arxiv_id}&metadataPrefix=arXiv"
     response = requests.get(oai_url)
-    
+
     if response.status_code == 200:
         # Parse the XML response
         root = ET.fromstring(response.content)
-        
+
         # Define namespaces for parsing
         ns = {'oai': 'http://www.openarchives.org/OAI/2.0/', 'arxiv': 'http://arxiv.org/OAI/arXiv/'}
-        
+
         # Find the license element in the XML
         license_tag = root.find('.//arxiv:license', ns)
-        
+
         if license_tag is not None:
             license_url = license_tag.text
             print(f"License found for {arxiv_id}: {license_url}")
         else:
+            resp_contents = response.content.decode("utf-8")
+            if resp_contents.find("license") != -1:
+                print(f"""!!!!!!!!!!!!!!!!!!!!
+No license found for {arxiv_id}, but license
+something exists
+!!!!!!!!!!!!!!!!!!!!""")
             print(f"No license found for {arxiv_id}")
-        
+
         return response.content
     else:
         print(f"Error fetching data from OAI-PMH for {arxiv_id}")
@@ -58,11 +81,12 @@ def extract_doi_from_arxiv(xml_data):
     doi = root.find('.//arxiv:doi', ns)
     return doi.text if doi is not None else None
 
+
 # Function to query DataCite API if DOI is missing
 def query_datacite(paper_id):
     datacite_url = f"https://api.datacite.org/dois?query=identifiers.identifier:{paper_id}%20AND%20identifiers.identifierType:arXiv"
     response = requests.get(datacite_url)
-    
+
     if response.status_code == 200:
         data = response.json()
         if data.get('data'):
@@ -71,17 +95,20 @@ def query_datacite(paper_id):
             print(f"No DOI found for {paper_id} in DataCite.")
     else:
         print(f"Error fetching data from DataCite for {paper_id}: {response.status_code}")
-    
+
     return None
+
 
 # Function to process a paper
 def process_paper(file_name):
-    paper_id = extract_paper_id(os.path.splitext(file_name)[0])
-    # paper_id = 2011.08688 example doi with active license
-    
+    paper_id = extract_paper_id(file_name)
+
+    # paper_id = "2011.08688"  # example doi with active license
+    # print(paper_id)
+
     if paper_id:
         print(f"Processing paper ID: {paper_id}")
-        
+
         # Query OAI-PMH API
         oai_data = query_oai_pmh(paper_id)
         if oai_data:
@@ -101,6 +128,7 @@ def process_paper(file_name):
                 else:
                     print("DOI not found in DataCite either.")
 
+
 # Function to process multiple files
 def process_files(file_count, folder_path):
     file_list = [f for f in os.listdir(folder_path) if f.endswith('.pdf')]
@@ -117,4 +145,4 @@ def process_files(file_count, folder_path):
 
 # Ask user for number of files to process
 num_files = int(input("Enter the number of files to process: "))
-process_files(num_files,folder_path)
+process_files(num_files, folder_path)
