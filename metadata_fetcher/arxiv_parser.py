@@ -1,12 +1,11 @@
+# Script to fetch metadata for papers in the no-problem dataset
 import os
 import re
 import requests
 import xml.etree.ElementTree as ET
 
-# Set path to folder
-# Change this to the folder containing PDF files
-folder_path = os.path.expanduser('./../data/no-problem/2011')
-
+# Set the base path to folder
+base_folder_path = os.path.expanduser('./../data/no-problem')
 
 # Function to extract paper id from file name (assumed pattern: hep-ex0001059)
 def extract_paper_id(file_name):
@@ -29,7 +28,6 @@ def extract_paper_id(file_name):
 
     return None
 
-
 # Function to query arXiv API and fetch metadata
 def query_arxiv(paper_id):
     arxiv_url = f"https://export.arxiv.org/api/query?id_list={paper_id}"
@@ -39,7 +37,6 @@ def query_arxiv(paper_id):
     else:
         print(f"Error fetching data from arXiv for {paper_id}", arxiv_url)
         return None
-
 
 # Function to query OAI-PMH API for metadata and print license if it exists
 def query_oai_pmh(arxiv_id):
@@ -64,8 +61,7 @@ def query_oai_pmh(arxiv_id):
             resp_contents = response.content.decode("utf-8")
             if resp_contents.find("license") != -1:
                 print(f"""!!!!!!!!!!!!!!!!!!!!
-No license found for {arxiv_id}, but license
-something exists
+No license found for {arxiv_id}, but license exists
 !!!!!!!!!!!!!!!!!!!!""")
                 return "License could not be parsed"
             print(f"No license found for {arxiv_id}")
@@ -76,14 +72,12 @@ something exists
         print(f"Error fetching data from OAI-PMH for {arxiv_id}")
         return "Error fetching data"
 
-
 # Function to parse XML and extract DOI if available
 def extract_doi_from_arxiv(xml_data):
     root = ET.fromstring(xml_data)
     ns = {'atom': 'http://www.w3.org/2005/Atom', 'arxiv': 'http://arxiv.org/schemas/atom'}
     doi = root.find('.//arxiv:doi', ns)
     return doi.text if doi is not None else None
-
 
 # Function to query DataCite API if DOI is missing
 def query_datacite(paper_id):
@@ -101,13 +95,10 @@ def query_datacite(paper_id):
 
     return None
 
-
 # Function to process a paper
 def process_paper(file_name):
     paper_id = extract_paper_id(file_name)
 
-    # paper_id = "2011.08688"  # example doi with active license
-    # print(paper_id)
     license = "Invalid Paper ID"
     if paper_id:
         print(f"Processing paper ID: {paper_id}")
@@ -130,7 +121,6 @@ def process_paper(file_name):
                     print("DOI not found in DataCite either.")
     return license
 
-
 # Function to process multiple files
 def process_files(file_count, folder_path):
     file_list = [f for f in os.listdir(folder_path) if f.endswith('.pdf') or f.endswith('.html')]
@@ -143,11 +133,38 @@ def process_files(file_count, folder_path):
             print(f"File size: {file_size / (1024 * 1024):.2f} MB")  # Size in MB
             license_list.append(process_paper(file_name))
     else:
-        print("No PDF files found in the folder.")
+        print("No PDF or HTML files found in the folder.")
+    
     license_set = set(license_list)
     print(license_set)
+    return license_set
 
+# Function to save the license set to a file
+def save_license_set(folder_name, license_set):
+    file_name = f"{folder_name}_licenses.txt"
+    with open(file_name, 'w') as f:
+        for license_item in license_set:
+            f.write(f"{license_item}\n")
+    print(f"License set saved to {file_name}")
 
-# Ask user for number of files to process
-num_files = int(input("Enter the number of files to process: "))
-process_files(num_files, folder_path)
+# Function to process all folders
+def process_all_folders(base_folder_path):
+    # List all folders in the base directory
+    for folder_name in os.listdir(base_folder_path):
+        folder_path = os.path.join(base_folder_path, folder_name)
+        
+        # Ensure it's a directory
+        if os.path.isdir(folder_path):
+            print(f"\nProcessing folder: {folder_name}")
+            
+            # Set to 25 for now for data collection
+            num_files = 25
+            
+            # Process files and get the license set
+            license_set = process_files(num_files, folder_path)
+            
+            # Save the license set to a file
+            save_license_set(folder_name, license_set)
+
+# Start processing all folders
+process_all_folders(base_folder_path)
