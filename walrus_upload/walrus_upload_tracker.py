@@ -18,7 +18,8 @@ def upload_pdf_to_walrus(pdf_file_path):
         # Get file size
         pdf_size = os.path.getsize(pdf_file_path)
 
-        # Part 1. Upload the file to the Walrus service
+        # MacOS Operating System
+        # Part 1. Upload the file to the Walrus service 
         store_json_command = f"""{{ "config" : "{PATH_TO_WALRUS_CONFIG}",
             "command" : {{ "store" :
             {{ "file" : "{pdf_file_path}", "epochs" : 2  }}}}
@@ -29,6 +30,27 @@ def upload_pdf_to_walrus(pdf_file_path):
             capture_output=True,
             input=store_json_command,
         )
+        # # Windows Operating System
+        # store_json_command = {
+        #     "config": PATH_TO_WALRUS_CONFIG,
+        #     "command": {
+        #         "store": {
+        #             "file": pdf_file_path,
+        #             "epochs": 2
+        #         }
+        #     }
+        # }
+
+        # json_payload = json.dumps(store_json_command)
+
+        # print(json_payload);
+
+        # result = subprocess.run(
+        #     [PATH_TO_WALRUS, "json"],
+        #     text=True,
+        #     capture_output=True,
+        #     input=json_payload,
+        # )
 
         assert result.returncode == 0
 
@@ -87,6 +109,6 @@ def process_pdfs(start_index=0, end_index=10, output_file="upload_log.txt"):
 
 if __name__ == "__main__":
     # Specify the range of files to upload
-    start_index = 11  # Starting from the 12th file (indexing starts at 0)
-    end_index = 20    # Ending at the 20th file
+    start_index = 41  # Starting from the 12th file (indexing starts at 0)
+    end_index = 42    # Ending at the 20th file
     process_pdfs(start_index=start_index, end_index=end_index)
