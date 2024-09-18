@@ -51,7 +51,7 @@ function App() {
             <header className="App-header">
                 <h1>PDF Viewer from Walrus</h1>
                 {pdfBlobUrl ? (
-                    <div style={{ width: '600px', height: '700px', overflow: 'auto', border: '1px solid gray', margin: '0 auto' }}>
+                    <div >
                         <Worker workerUrl={`https://unpkg.com/pdfjs-dist@3.11.174/build/pdf.worker.min.js`}>
                             <Viewer fileUrl={pdfBlobUrl} />
                         </Worker>
