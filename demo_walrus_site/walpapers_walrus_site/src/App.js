@@ -2,7 +2,7 @@ import React from 'react';
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import { createNetworkConfig, SuiClientProvider, WalletProvider } from '@mysten/dapp-kit';
 import { getFullnodeUrl } from '@mysten/sui/client';
-import PdfViewer from './PdfViewer';
+import HTMLViewer from './HTMLViewer';
 
 // Network configuration
 const { networkConfig } = createNetworkConfig({
@@ -18,7 +18,7 @@ export default function App() {
         <QueryClientProvider client={queryClient}>
             <SuiClientProvider networks={networkConfig} defaultNetwork="testnet">
                 <WalletProvider>
-                    <PdfViewer/>
+                    <HTMLViewer/>
                 </WalletProvider>
             </SuiClientProvider>
         </QueryClientProvider>
