@@ -5,11 +5,10 @@ import time
 import tempfile
 
 # Setting paths and configurations
-PATH_TO_PDFS = ".\\pdfs\\0001"
+PATH_TO_PDFS = "pdfs/0001"
 FULL_NODE_URL = "https://fullnode.testnet.sui.io:443"
-PATH_TO_WALRUS = "C:\\Users\\teo\\.cargo\\bin\\walrus"
-PATH_TO_WALRUS_CONFIG = os.path.expanduser("~\\.config\\walrus\\client_config.yaml")
-
+PATH_TO_WALRUS = "/usr/local/bin/walrus"
+PATH_TO_WALRUS_CONFIG = os.path.expanduser("~/.config/walrus/client_config.yaml")
 
 def upload_pdf_to_walrus(pdf_file_path):
     try:
@@ -19,27 +18,39 @@ def upload_pdf_to_walrus(pdf_file_path):
         # Get file size
         pdf_size = os.path.getsize(pdf_file_path)
 
+        # MacOS Operating System
         # Part 1. Upload the file to the Walrus service
-        store_json_command = {
-            "config": PATH_TO_WALRUS_CONFIG,
-            "command": {
-                "store": {
-                    "file": pdf_file_path,
-                    "epochs": 2
-                }
-            }
-        }
-
-        json_payload = json.dumps(store_json_command)
-
-        print(json_payload);
-
+        store_json_command = f"""{{ "config" : "{PATH_TO_WALRUS_CONFIG}",
+            "command" : {{ "store" :
+            {{ "file" : "{pdf_file_path}", "epochs" : 2  }}}}
+        }}"""
         result = subprocess.run(
             [PATH_TO_WALRUS, "json"],
             text=True,
             capture_output=True,
-            input=json_payload,
+            input=store_json_command,
         )
+        # # Windows Operating System
+        # store_json_command = {
+        #     "config": PATH_TO_WALRUS_CONFIG,
+        #     "command": {
+        #         "store": {
+        #             "file": pdf_file_path,
+        #             "epochs": 2
+        #         }
+        #     }
+        # }
+
+        # json_payload = json.dumps(store_json_command)
+
+        # print(json_payload);
+
+        # result = subprocess.run(
+        #     [PATH_TO_WALRUS, "json"],
+        #     text=True,
+        #     capture_output=True,
+        #     input=json_payload,
+        # )
 
         assert result.returncode == 0
 
@@ -100,6 +111,6 @@ def process_pdfs(start_index=0, end_index=10, output_file="upload_log.txt"):
 
 if __name__ == "__main__":
     # Specify the range of files to upload
-    start_index = 21  # Starting from the 12th file (indexing starts at 0)
-    end_index = 22  # Ending at the 20th file
+    start_index = 41  # Starting from the 12th file (indexing starts at 0)
+    end_index = 42    # Ending at the 20th file
     process_pdfs(start_index=start_index, end_index=end_index)
