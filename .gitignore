@@ -1,8 +1,19 @@
 data
+
+# OS files
 .DS_Store
+
+# Python venv
 **/venv
+
+# Metadata fetcher data
 metadata_fetcher/licenses/
 metadata_fetcher/final_licenses_list.txt
 metadata_fetcher/excel_metadata_results/
+
+# Walrus upload data
 walrus_upload/pdfs/
 walrus_upload/upload_log.txt
+
+# App pdf data
+app/public/pdf
