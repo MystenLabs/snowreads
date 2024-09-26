@@ -4,7 +4,11 @@ import PaperAbstract from '../components/paperComponents/PaperAbstract';
 import AccessPaperCard from '../components/paperComponents/AccessPaperCard';
 import { Spinner } from '../components/tools/Spinner';
 
-const AbstractPage: React.FC = () => {
+interface AbstractPageProps {
+  doi: string;
+}
+
+const AbstractPage: React.FC<AbstractPageProps> = ({ doi }) => {
   const [paperData, setPaperData] = useState<any>(null);
   const [isLoading, setIsLoading] = useState(true);
 
@@ -47,6 +51,7 @@ const AbstractPage: React.FC = () => {
       <main className="flex w-full min-h-screen bg-[#E4F0EF] px-[10%] py-6">
         <SidebarNav />
         <PaperAbstract
+          doi={doi}
           title={paperData.paperDummyData.title}
           submissionDate={paperData.paperDummyData.submissionDate}
           fileSize={paperData.paperDummyData.fileSize}

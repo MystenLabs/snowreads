@@ -80,10 +80,10 @@ const AccessPaperCard: React.FC<AccessPaperCardProps> = ({
         </a>
         <div className="mt-4 flex space-x-4">
           <a href={redditAddress} target="_blank" rel="noopener noreferrer">
-            <img src='../public/reddit.png' alt="Reddit" className="w-6 h-6" />
+            <img src='/reddit.png' alt="Reddit" className="w-6 h-6" />
           </a>
           <a href={kdeAddress} target="_blank" rel="noopener noreferrer">
-            <img src='../public/kde.png' alt="Kde" className="w-6 h-6" />
+            <img src='/kde.png' alt="Kde" className="w-6 h-6" />
           </a>
         </div>
       </div>
