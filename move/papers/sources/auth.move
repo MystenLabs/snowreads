@@ -10,6 +10,7 @@ public struct AdminCap has key {
     id: UID
 }
 
+/// AdminCapTransferred event is emitted when AdminCap is transferred.
 public struct AdminCapTransferred has copy, drop {
     cap_id: ID,
     from: address,
@@ -24,6 +25,7 @@ public fun new(pub: &Publisher, ctx: &mut TxContext): AdminCap {
     }
 }
 
+/// AdminCap emits event on transfer.
 public fun transfer(cap: AdminCap, to: address, ctx: &TxContext) {
     event::emit(AdminCapTransferred {
         cap_id: object::id(&cap),
