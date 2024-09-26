@@ -86,6 +86,7 @@ public fun remove_paper(
     _: &AdminCap,
     registry: &mut MetadataRegistry,
     doi: String
+// ): Metadata {
 ) {
     assert!(registry.doi_to_date.contains(doi), EPaperDoesNotExist);
     let published_date = registry.doi_to_date[doi];
@@ -93,6 +94,7 @@ public fun remove_paper(
     assert!(registry.doi_to_metadata.contains(doi), EPaperDoesNotExistUnexpected);
     registry.date_to_dois[published_date].remove(doi);
     registry.doi_to_date.remove(doi);
+    // registry.doi_to_metadata.remove(doi)
     let Metadata { id } = registry.doi_to_metadata.remove(doi);
     id.delete();
 }
