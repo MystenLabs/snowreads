@@ -9,6 +9,11 @@ export default {
       fontFamily: {
         sans: ['Inter', 'sans-serif'],
       },
+      colors: {
+        primary: {
+          DEFAULT: '#E4F0EF',
+        },
+      },
     },
   },
   plugins: [],

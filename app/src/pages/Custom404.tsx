@@ -9,7 +9,7 @@ const Custom404: React.FC = () => {
   };
 
   return (
-    <section className="flex flex-col items-center justify-center h-screen bg-[#E4F0EF] px-6">
+    <section className="flex flex-col items-center justify-center h-screen bg-primary px-6">
       <div className="relative bg-white p-10 rounded-lg shadow-md text-center">
         <img 
           src="/walrus.png" 

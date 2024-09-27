@@ -48,7 +48,7 @@ const AbstractPage: React.FC<AbstractPageProps> = ({ doi }) => {
     isLoading ? (
       <Spinner />
     ) : (
-      <main className="flex w-full min-h-screen bg-[#E4F0EF] px-[10%] py-6">
+      <main className="flex w-full min-h-screen bg-primary px-[10%] py-6">
         <SidebarNav />
         <PaperAbstract
           doi={doi}
