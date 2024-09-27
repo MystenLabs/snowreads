@@ -17,3 +17,6 @@ walrus_upload/upload_log.txt
 
 # App pdf data
 app/public/pdf
+
+# Rust build
+**/target
