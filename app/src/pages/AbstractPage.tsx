@@ -3,12 +3,11 @@ import SidebarNav from '../components/paperComponents/SideNavbar';
 import PaperAbstract from '../components/paperComponents/PaperAbstract';
 import AccessPaperCard from '../components/paperComponents/AccessPaperCard';
 import { Spinner } from '../components/tools/Spinner';
+import { IAbstractPageProps } from '../interfaces/IAbstractPageProps';
 
-interface AbstractPageProps {
-  doi: string;
-}
 
-const AbstractPage: React.FC<AbstractPageProps> = ({ doi }) => {
+
+const AbstractPage: React.FC<IAbstractPageProps> = ({ doi }) => {
   const [paperData, setPaperData] = useState<any>(null);
   const [isLoading, setIsLoading] = useState(true);
 

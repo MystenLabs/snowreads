@@ -1,18 +1,7 @@
 import React from 'react';
+import { IPaperAbstractProps } from '../../interfaces/IPaperAbstractProps';
 
-interface PaperAbstractProps {
-  doi: string;
-  title: string;
-  submissionDate: string;
-  fileSize: string;
-  authors: Array<{ name: string; link: string }>;
-  abstract: string;
-  subjects: string;
-  citation: string;
-  submissionHistory: string;
-}
-
-const PaperAbstract: React.FC<PaperAbstractProps> = ({
+const PaperAbstract: React.FC<IPaperAbstractProps> = ({
   doi,
   title,
   submissionDate,

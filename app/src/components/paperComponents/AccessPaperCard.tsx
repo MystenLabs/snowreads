@@ -1,16 +1,8 @@
 import React from 'react';
+import { IAccessPaperCardProps } from '../../interfaces/IAccessPaperCardProps';
 
-interface AccessPaperCardProps {
-  fullPaperLink: string;
-  formatsLink: string;
-  licenseLink: string;
-  references: Array<{ name: string; link: string }>;
-  bookmarkLink: string;
-  redditAddress: string;
-  kdeAddress: string;
-}
 
-const AccessPaperCard: React.FC<AccessPaperCardProps> = ({
+const AccessPaperCard: React.FC<IAccessPaperCardProps> = ({
   fullPaperLink,
   formatsLink,
   licenseLink,

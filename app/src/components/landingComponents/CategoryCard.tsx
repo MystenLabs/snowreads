@@ -1,15 +1,10 @@
 import React from 'react';
-import { Link } from 'react-router-dom'; // Import the Link component
+import { Link } from 'react-router-dom';
+import { ICategoryCardProps } from '../../interfaces/ICategoryCardProps';
 
-interface CategoryCardProps {
-  icon: string; // Icon image path
-  category: string;
-  title: string;
-  documents: number;
-  size: string;
-}
 
-const CategoryCard: React.FC<CategoryCardProps> = ({ icon, category, title, documents, size }) => {
+
+const CategoryCard: React.FC<ICategoryCardProps> = ({ icon, category, title, documents, size }) => {
   return (
     <Link 
       to={`/category/${category}`}
