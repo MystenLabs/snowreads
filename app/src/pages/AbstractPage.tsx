@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import SidebarNav from '../components/paperComponents/SideNavbar';
 import PaperAbstract from '../components/paperComponents/PaperAbstract';
 import AccessPaperCard from '../components/paperComponents/AccessPaperCard';
-import { Spinner } from '../components/tools/Spinner';
+import { Spinner } from '../components/common/Spinner';
 import { IAbstractPageProps } from '../interfaces/IAbstractPageProps';
 
 
