@@ -13,6 +13,9 @@ export default {
         primary: {
           DEFAULT: '#E4F0EF',
         },
+        secondary: {
+          DEFAULT: '#F7F7F7',
+        },
       },
     },
   },
