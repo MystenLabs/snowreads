@@ -1,7 +1,12 @@
 use clap::{arg, Parser};
-use color_eyre::{eyre::eyre, Result};
+use color_eyre::Result;
 use futures::future;
-use xml2json_rs::JsonBuilder;
+use metadata_mashup::{fetch_arxiv_api, fetch_datacite_api, fetch_oai_api};
+use serde_json::Value;
+use tracing::{error, info};
+
+const DEFAULT_RETRY_ATTEMPTS: &str = "3";
+const DEFAULT_RETRY_DELAY_MS: &str = "1000";
 
 /// Metadata Mashup
 /// Fetches arXiv paper metadata from
@@ -14,7 +19,7 @@ use xml2json_rs::JsonBuilder;
 struct Cli {
     /// The arXiv IDs of the papers to fetch metadata for.
     /// Multiple IDs can be provided separated by commas.
-    #[arg(long, value_delimiter=',')]
+    #[arg(long, value_delimiter = ',')]
     arxiv_ids: Vec<String>,
     /// The output JSON filename.
     #[arg(short, long)]
@@ -22,14 +27,26 @@ struct Cli {
     /// Batch size for the arXiv and DataCite APIs.
     #[arg(long, default_value = "10")]
     batch_size: usize,
+    /// Number of retry attempts for each API call.
+    #[arg(long, default_value = DEFAULT_RETRY_ATTEMPTS)]
+    retry_attempts: usize,
+    #[arg(long, default_value = DEFAULT_RETRY_DELAY_MS)]
+    retry_delay_ms: usize,
 }
 
 #[tokio::main]
 async fn main() -> Result<()> {
+    dotenvy::dotenv().ok();
+    tracing_subscriber::fmt::fmt()
+        .with_env_filter(tracing_subscriber::EnvFilter::from_default_env())
+        .init();
+
     let Cli {
         arxiv_ids,
         out_json,
         batch_size,
+        retry_attempts,
+        retry_delay_ms,
     } = Cli::parse();
 
     // Split arxiv_ids to batches of size `args.batch_size`
@@ -42,84 +59,49 @@ async fn main() -> Result<()> {
     for batch in arxiv_batches.into_iter() {
         let batch = batch.clone();
         tasks.push(tokio::spawn(async move {
-            let arxiv_api_ids = batch.join(",");
             // (identifiers.identifier:2011.08688%20AND%20identifiers.identifierType:arXiv)OR(identifiers.identifier:2408.00001%20AND%20identifiers.identifierType:arXiv)
-            let datacite_api_ids = if batch.len() > 1 {
-                "(identifiers.identifier:".to_string()
-                + &batch.join("%20AND%20identifiers.identifierType:arXiv)OR(identifiers.identifier:")
-                + "%20AND%20identifiers.identifierType:arXiv)"
-            } else {
-                "identifiers.identifier:".to_string() + &batch.first().ok_or(eyre!("Empty batch"))? + "%20AND%20identifiers.identifierType:arXiv"
-            };
 
-            let arxiv_xml =
-                reqwest::get(&format!("http://export.arxiv.org/api/query?id_list={}&max_results={}", arxiv_api_ids, batch_size))
-                    .await?
-                    .text()
-                    .await?;
-            let datacite_json = reqwest::get(&format!("https://api.datacite.org/dois?query={datacite_api_ids}"))
-                .await?
-                .text()
-                .await?;
-            let mut oai_xmls = vec![];
+            // For some reason rust doesn't allow us to use the `?` operator here
+            // let arxiv_xml = arxiv_xml_res?;
+
+            let arxiv_jsons =
+                fetch_arxiv_api(batch.as_slice(), retry_attempts, retry_delay_ms).await?;
+
+            let datacite_jsons =
+                fetch_datacite_api(batch.as_slice(), retry_attempts, retry_delay_ms).await?;
+
+            let mut oai_jsons = vec![];
             for id in batch {
-                // http://export.arxiv.org/oai2?verb=GetRecord&identifier=oai:arXiv.org:2011.08688&metadataPrefix=arXiv
-                oai_xmls.push(reqwest::get(&format!("http://export.arxiv.org/oai2?verb=GetRecord&identifier=oai:arXiv.org:{id}&metadataPrefix=arXiv"))
-                    .await?
-                    .text()
-                    .await?
-                );
+                let json_metadata =
+                    fetch_oai_api(id.as_str(), retry_attempts, retry_delay_ms).await?;
+                oai_jsons.push((id, json_metadata));
             }
-            // Split arXiv XMLs by <entry> tag and Datacite JSON by array elements
-            let mut arxiv_xmls = arxiv_xml.split("<entry>").map(|s| {
-                "<entry>".to_string() + s
-            }).skip(1)  // Skip first non entry
-            .collect::<Vec<String>>();
-            // Remove everything after </entry> from the last entry
-            let last_entry = arxiv_xmls.last_mut().ok_or(eyre!("No last entry"))?;
-            let last_entry_end = last_entry.find("</entry>").ok_or(eyre!("No </entry> in last entry"))?;
-            last_entry.truncate(last_entry_end + "</entry>".len());
 
-            let json_value = serde_json::from_str::<serde_json::Value>(&datacite_json)?;
-            let data = json_value["data"].as_array().ok_or(eyre!("Data is not an array"))?;
-            let datacite_jsons = data.iter().map(|d| {
-                serde_json::to_string_pretty(d).unwrap()
-            }).collect::<Vec<String>>();
-
-            // Convert XMLs to JSON
-            let arxiv_jsons = arxiv_xmls.into_iter().map(|xml| {
-                let json_builder = JsonBuilder::default(); // Not really sure if we need to create
-                                                           // a new JsonBuilder for each XML, but
-                                                           // keeping it safe for now.
-                json_builder.build_string_from_xml(&xml).map_err(|e| eyre!(e))
-            }).collect::<Result<Vec<String>>>()?;
-
-            let oai_jsons = oai_xmls.into_iter().map(|xml| {
-                let json_builder = JsonBuilder::default();
-                json_builder.build_string_from_xml(&xml).map_err(|e| eyre!(e))
-            }).collect::<Result<Vec<String>>>()?;
-
-
-
-
-            Ok::<(Vec<String>, Vec<String>, Vec<String>), color_eyre::eyre::Error>((arxiv_jsons, datacite_jsons, oai_jsons))
+            Ok::<
+                (
+                    Vec<(String, Value)>,
+                    Vec<(String, Value)>,
+                    Vec<(String, Value)>,
+                ),
+                color_eyre::eyre::Error,
+            >((arxiv_jsons, datacite_jsons, oai_jsons))
         }));
     }
 
     let results = future::join_all(tasks).await;
     for res in results.into_iter() {
-        let (arxiv_xmls, datacite_json, oai_xmls) = res??;
+        let (arxivs, datacites, oais) = res??;
         println!("arXiv XMLs:");
-        for arxiv_xml in arxiv_xmls {
-            println!("arXiv XML: {}", arxiv_xml);
+        for arxiv in arxivs {
+            println!("arXiv XML: {}: {:#?}", arxiv.0, arxiv.1);
         }
         println!("DataCite JSON:");
-        for datacite_json in datacite_json {
-            println!("DataCite JSON: {}", datacite_json);
+        for datacite in datacites {
+            println!("DataCite JSON: {}: {:#?}", datacite.0, datacite.1);
         }
         println!("OAI XMLs:");
-        for oai_xml in oai_xmls {
-            println!("OAI XML: {}", oai_xml);
+        for oai in oais {
+            println!("OAI XML: {}: {:#?}", oai.0, oai.1);
         }
     }
 
