@@ -1,15 +1,15 @@
 use color_eyre::{eyre::eyre, Result};
 use serde::{Deserialize, Serialize};
 use serde_json::Value;
-use tracing::{info, warn};
+use tracing::warn;
 use xml2json_rs::JsonBuilder;
 
 #[derive(Serialize, Deserialize, Debug, Clone)]
 pub struct Metadata {
-    arxiv_id: String,
-    arxiv: Value,
-    datacite: Value,
-    oai: Value,
+    pub arxiv_id: String,
+    pub arxiv: Option<Value>,
+    pub datacite: Option<Value>,
+    pub oai: Option<Value>,
 }
 
 pub async fn fetch_arxiv_api(
@@ -20,7 +20,7 @@ pub async fn fetch_arxiv_api(
     let arxiv_api_ids = batch.join(",");
 
     let mut arxiv_resp: Result<String> = Err(eyre!(""));
-    for i in 0..=retry_attempts {
+    for _ in 0..=retry_attempts {
         let response = reqwest::get(&format!(
             "http://export.arxiv.org/api/query?id_list={}&max_results={}",
             arxiv_api_ids,
@@ -80,13 +80,13 @@ pub async fn fetch_arxiv_api(
                 .ok_or(eyre!("No entry.id in arXiv JSON metadata"))?
                 .as_array()
                 .ok_or(eyre!("entry.id is not an array"))?;
-            
+
             if ids.len() > 1 {
                 return Err(eyre!("entry.id has more than one element"));
             }
 
             let Value::String(arxiv_id) = ids
-                .get(0)
+                .first()
                 .ok_or(eyre!("No entry.id[0] in arXiv JSON metadata"))?
             else {
                 return Err(eyre!("Unexpected type for entry.id in arXiv JSON metadata"));

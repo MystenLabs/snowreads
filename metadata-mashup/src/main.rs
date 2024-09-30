@@ -1,12 +1,14 @@
+use std::collections::HashMap;
+
 use clap::{arg, Parser};
+use color_eyre::eyre::eyre;
 use color_eyre::Result;
 use futures::future;
-use metadata_mashup::{fetch_arxiv_api, fetch_datacite_api, fetch_oai_api};
+use metadata_mashup::{fetch_arxiv_api, fetch_datacite_api, fetch_oai_api, Metadata};
 use serde_json::Value;
-use tracing::{error, info};
 
-const DEFAULT_RETRY_ATTEMPTS: &str = "3";
-const DEFAULT_RETRY_DELAY_MS: &str = "1000";
+const DEFAULT_RETRY_ATTEMPTS: &str = "5";
+const DEFAULT_RETRY_DELAY_MS: &str = "5000";
 
 /// Metadata Mashup
 /// Fetches arXiv paper metadata from
@@ -89,21 +91,37 @@ async fn main() -> Result<()> {
     }
 
     let results = future::join_all(tasks).await;
+    let mut hash_map: HashMap<String, Metadata> = HashMap::new();
     for res in results.into_iter() {
         let (arxivs, datacites, oais) = res??;
-        println!("arXiv XMLs:");
-        for arxiv in arxivs {
-            println!("arXiv XML: {}: {:#?}", arxiv.0, arxiv.1);
-        }
-        println!("DataCite JSON:");
-        for datacite in datacites {
-            println!("DataCite JSON: {}: {:#?}", datacite.0, datacite.1);
-        }
-        println!("OAI XMLs:");
-        for oai in oais {
-            println!("OAI XML: {}: {:#?}", oai.0, oai.1);
-        }
+
+        arxivs.into_iter().for_each(|(id, json)| {
+            let metadata = Metadata {
+                arxiv_id: id.clone(),
+                arxiv: Some(json),
+                datacite: None,
+                oai: None,
+            };
+            hash_map.insert(id, metadata);
+        });
+        datacites.into_iter().try_for_each(|(id, json)| {
+            hash_map
+                .get_mut(&id)
+                .ok_or(eyre!("No arXiv metadata for id {}", id))?
+                .datacite = Some(json);
+            Ok::<(), color_eyre::eyre::Error>(())
+        })?;
+        oais.into_iter().try_for_each(|(id, json)| {
+            hash_map
+                .get_mut(&id)
+                .ok_or(eyre!("No arXiv metadata for id {}", id))?
+                .oai = Some(json);
+            Ok::<(), color_eyre::eyre::Error>(())
+        })?;
     }
+
+    let json = serde_json::to_string_pretty(&hash_map)?;
+    std::fs::write(out_json, json)?;
 
     Ok(())
 }
