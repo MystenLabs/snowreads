@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 
 const Footer: React.FC = () => {
   return (
-    <footer className="bg-secondary border-t border-gray-300 p-5 flex justify-between items-center">
+    <footer className="bg-secondary border-t border-gray-300 p-5 flex justify-between items-center w-full">
       <div className="flex flex-col md:flex-row items-start md:items-center space-y-2 md:space-y-0 md:space-x-6 text-sm text-gray-600">
         <p>Copyright {new Date().getFullYear()} © Mysten Labs, Inc.</p>
         <div className="flex space-x-6">

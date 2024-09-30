@@ -1,67 +1,68 @@
 import CategoryCard from '../components/landingComponents/CategoryCard';
+import InformationPopup from '../components/landingComponents/InformationPopup';
 
 
 const LandingPage: React.FC = () => {
   const data = [
     {
-      icon: '/physics_icon.png',
-      category: 'Physics',
-      title: 'Curious Conjectures About Artificial Intelligence and Beyond',
+      icon: '/comp_sci_icon.png',
+      category: 'Computer Science',
+      title: 'Exploring the Edge of Artificial Intelligence Knowledge',
       documents: 34,
       size: '10.69MB',
     },
     {
       icon: '/physics_icon.png',
-      category: 'Mathematics',
-      title: 'Advanced Theories of Quantum Mechanics',
+      category: 'Physics',
+      title: 'Curious Conjectures About Artificial Intelligence and Beyond',
       documents: 12,
       size: '4.28MB',
     },
     {
-        icon: '/physics_icon.png',
-        category: 'Physics',
-        title: 'Curious Conjectures About Artificial Intelligence and Beyond',
+        icon: '/maths_icon.png',
+        category: 'Mathematics',
+        title: 'Dynamic Systems and Fractals: A Mathematical Odyssey',
         documents: 34,
         size: '10.69MB',
       },
       {
-        icon: '/physics_icon.png',
-        category: 'Mathematics',
-        title: 'Advanced Theories of Quantum Mechanics',
+        icon: '/quant_bio_icon.png',
+        category: 'Quantitative Biology',
+        title: 'The Math Behind the Cells: Unveiling Quantitative Biology Secrets',
         documents: 12,
         size: '4.28MB',
       },{
-        icon: '/physics_icon.png',
-        category: 'Physics',
+        icon: '/stats_icon.png',
+        category: 'Statistics',
+        title: `Machine Learning's Dark Side: The Unseen Consequences`,
+        documents: 34,
+        size: '10.69MB',
+      },
+      {
+        icon: '/econ_icon.png',
+        category: 'Economics',
+        title: 'From Adam Smith to AI: The Evolution of Theoretical Economics',
+        documents: 12,
+        size: '4.28MB',
+      },
+      {
+        icon: '/quant_fin_icon.png',
+        category: 'Quantitative Finance',
+        title: 'Beyond Black Swans: Exploring Quantitative Finance Frontiers',
+        documents: 12,
+        size: '4.28MB',
+      },
+      {
+        icon: '/econ_icon.png',
+        category: 'Economics',
         title: 'Curious Conjectures About Artificial Intelligence and Beyond',
         documents: 34,
         size: '10.69MB',
       },
       {
-        icon: '/physics_icon.png',
-        category: 'Mathematics',
-        title: 'Advanced Theories of Quantum Mechanics',
-        documents: 12,
-        size: '4.28MB',
-      },
-      {
-        icon: '/physics_icon.png',
-        category: 'Physics',
-        title: 'Curious Conjectures About Artificial Intelligence and Beyond',
-        documents: 34,
-        size: '10.69MB',
-      },
-      {
-        icon: '/physics_icon.png',
-        category: 'Mathematics',
-        title: 'Advanced Theories of Quantum Mechanics',
-        documents: 12,
-        size: '4.28MB',
-      },
-      {
-        icon: '/physics_icon.png',
-        category: 'Physics',
-        title: 'Curious Conjectures About Artificial Intelligence and Beyond',
+        icon: '/elect_eng_icon.png',
+        category: 'Electrical Engineering',
+        title: 'The Spark of Genius: Exploring Electrical Engineering Frontiers',
         documents: 34,
         size: '10.69MB',
       }
@@ -89,6 +90,7 @@ const LandingPage: React.FC = () => {
           />
         ))}
       </div>
+      <InformationPopup/>
     </div>
   );
   

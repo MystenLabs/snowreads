@@ -16,6 +16,12 @@ export default {
         secondary: {
           DEFAULT: '#F7F7F7',
         },
+        tertiary: {
+          DEFAULT: '#97F0E5',
+        },
+        quaternary: {
+          DEFAULT: '#C684F6',
+        },
       },
     },
   },
