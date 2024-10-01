@@ -2,7 +2,7 @@ import React from 'react';
 import { IPaperAbstractProps } from '../../interfaces/IPaperAbstractProps';
 
 const PaperAbstract: React.FC<IPaperAbstractProps> = ({
-  doi,
+  arxiv_id,
   title,
   submissionDate,
   fileSize,
@@ -19,7 +19,7 @@ const PaperAbstract: React.FC<IPaperAbstractProps> = ({
         <h1 id="article" className="text-3xl font-semibold mb-2 w-3/5">{title}</h1>
         <p className="text-sm text-gray-500 mb-2">Submitted on {submissionDate}</p>
         <p className="text-sm text-gray-500 mb-4">{fileSize}</p>
-        <p className="text-sm text-gray-500 mb-4">{doi}</p>
+        <p className="text-sm text-gray-500 mb-4">{arxiv_id}</p>
         <p className="text-[#8B28D2] mb-6">
           {authors.map((author, index) => (
             <span key={index}>
