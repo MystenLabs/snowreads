@@ -1,3 +1,3 @@
 export interface IAbstractPageProps {
-    doi: string;
+  arxiv_id: string;
   }

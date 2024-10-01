@@ -1,5 +1,5 @@
 export interface IPaperAbstractProps {
-    doi: string;
+    arxiv_id: string;
     title: string;
     submissionDate: string;
     fileSize: string;
