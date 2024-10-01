@@ -162,7 +162,6 @@ pub async fn fetch_datacite_api(
         }
     };
 
-    println!("{}", datacite_json);
     let Value::Array(entries) = serde_json::from_str::<serde_json::Value>(&datacite_json)
         .map_err(|e| eyre!("Error parsing DataCite JSON for ids {:#?}: {}", batch, e))?
         .get_mut("data")
