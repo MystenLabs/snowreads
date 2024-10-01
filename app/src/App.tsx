@@ -13,6 +13,7 @@ function App() {
             <Route path="/" element={<LandingPageLayout />} />
             <Route path="/abs/:doi" element={<PaperLayout />} />
             <Route path="/category/:title" element={<CategoryListLayout />} />
+            <Route path="/collection/:title" element={<CategoryListLayout collections={true}/>} />
             <Route path="*" element={<Custom404 />} />
           </Routes>
       </Router>

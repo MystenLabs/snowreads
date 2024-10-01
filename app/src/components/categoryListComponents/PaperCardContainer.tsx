@@ -41,8 +41,6 @@ const PaperCardContainer: React.FC<IPaperCardContainerProps> = ({
             </button>
           </div>
         </div>
-
-        {/* Cards */}
         {children}
       </div>
     </div>
