@@ -3,9 +3,7 @@ use std::collections::HashMap;
 use clap::{arg, Parser};
 use color_eyre::eyre::eyre;
 use color_eyre::Result;
-use futures::future;
 use metadata_mashup::{fetch_arxiv_api, fetch_datacite_api, fetch_oai_api, Metadata};
-use serde_json::Value;
 
 const DEFAULT_RETRY_ATTEMPTS: &str = "5";
 const DEFAULT_RETRY_DELAY_MS: &str = "5000";
@@ -40,6 +38,7 @@ struct Cli {
 async fn main() -> Result<()> {
     dotenvy::dotenv().ok();
     tracing_subscriber::fmt::fmt()
+        .with_ansi(false)
         .with_env_filter(tracing_subscriber::EnvFilter::from_default_env())
         .init();
 
@@ -51,51 +50,60 @@ async fn main() -> Result<()> {
         retry_delay_ms,
     } = Cli::parse();
 
+    // DataCite API starts paginating at 25
+    assert!(batch_size <= 25, "Batch size must be <= 25");
+
     // Split arxiv_ids to batches of size `args.batch_size`
     let mut arxiv_batches = vec![];
     for chunk in arxiv_ids.chunks(batch_size) {
         arxiv_batches.push(chunk.to_owned());
     }
 
-    let mut tasks = vec![];
-    for batch in arxiv_batches.into_iter() {
+    // let mut tasks = vec![];
+    for (i, batch) in arxiv_batches.into_iter().enumerate() {
         let batch = batch.clone();
-        tasks.push(tokio::spawn(async move {
-            // (identifiers.identifier:2011.08688%20AND%20identifiers.identifierType:arXiv)OR(identifiers.identifier:2408.00001%20AND%20identifiers.identifierType:arXiv)
-
-            // For some reason rust doesn't allow us to use the `?` operator here
-            // let arxiv_xml = arxiv_xml_res?;
-
-            let arxiv_jsons =
-                fetch_arxiv_api(batch.as_slice(), retry_attempts, retry_delay_ms).await?;
-
-            let datacite_jsons =
-                fetch_datacite_api(batch.as_slice(), retry_attempts, retry_delay_ms).await?;
-
-            let mut oai_jsons = vec![];
-            for id in batch {
-                let json_metadata =
-                    fetch_oai_api(id.as_str(), retry_attempts, retry_delay_ms).await?;
-                oai_jsons.push((id, json_metadata));
+        // tasks.push(tokio::spawn(async move {
+        let arxiv_jsons = match fetch_arxiv_api(batch.as_slice(), retry_attempts, retry_delay_ms).await {
+            Ok(jsons) => jsons,
+            Err(e) => {
+                tracing::error!("Error fetching arXiv metadata for arXiv IDs {:?}: {}", batch, e);
+                batch.iter().map(|id| {
+                    let mut error_json = serde_json::Map::new();
+                    error_json.insert("error".to_string(), serde_json::Value::String(e.to_string()));
+                    (id.clone(), serde_json::Value::Object(error_json))
+                }).collect()
             }
+        };
 
-            Ok::<
-                (
-                    Vec<(String, Value)>,
-                    Vec<(String, Value)>,
-                    Vec<(String, Value)>,
-                ),
-                color_eyre::eyre::Error,
-            >((arxiv_jsons, datacite_jsons, oai_jsons))
-        }));
-    }
+        let datacite_jsons = match
+            fetch_datacite_api(batch.as_slice(), retry_attempts, retry_delay_ms).await {
+            Ok(jsons) => jsons,
+            Err(e) => {
+                tracing::error!("Error fetching DataCite metadata for arXiv IDs {:?}: {}", batch, e);
+                batch.iter().map(|id| {
+                    let mut error_json = serde_json::Map::new();
+                    error_json.insert("error".to_string(), serde_json::Value::String(e.to_string()));
+                    (id.clone(), serde_json::Value::Object(error_json))
+                }).collect()
+            }
+        };
 
-    let results = future::join_all(tasks).await;
-    let mut hash_map: HashMap<String, Metadata> = HashMap::new();
-    for res in results.into_iter() {
-        let (arxivs, datacites, oais) = res??;
+        let mut oai_jsons = vec![];
+        for id in batch {
+            let json_metadata = match fetch_oai_api(id.as_str(), retry_attempts, retry_delay_ms).await {
+                Ok(json) => json,
+                Err(e) => {
+                    tracing::error!("Error fetching OAI metadata for arXiv ID {}: {}", id, e);
+                    let mut error_json = serde_json::Map::new();
+                    error_json.insert("error".to_string(), serde_json::Value::String(e.to_string()));
+                    serde_json::Value::Object(error_json)
+                }
+            };
+            oai_jsons.push((id, json_metadata));
+        }
 
-        arxivs.into_iter().for_each(|(id, json)| {
+        let mut hash_map: HashMap<String, Metadata> = HashMap::new();
+        arxiv_jsons.into_iter().for_each(|(id, json)| {
             let metadata = Metadata {
                 arxiv_id: id.clone(),
                 arxiv: Some(json),
@@ -104,24 +112,24 @@ async fn main() -> Result<()> {
             };
             hash_map.insert(id, metadata);
         });
-        datacites.into_iter().try_for_each(|(id, json)| {
+        datacite_jsons.into_iter().try_for_each(|(id, json)| {
             hash_map
                 .get_mut(&id)
                 .ok_or(eyre!("No arXiv metadata for id {}", id))?
                 .datacite = Some(json);
             Ok::<(), color_eyre::eyre::Error>(())
         })?;
-        oais.into_iter().try_for_each(|(id, json)| {
+        oai_jsons.into_iter().try_for_each(|(id, json)| {
             hash_map
                 .get_mut(&id)
                 .ok_or(eyre!("No arXiv metadata for id {}", id))?
                 .oai = Some(json);
             Ok::<(), color_eyre::eyre::Error>(())
         })?;
-    }
 
-    let json = serde_json::to_string_pretty(&hash_map)?;
-    std::fs::write(out_json, json)?;
+        let json = serde_json::to_string_pretty(&hash_map)?;
+        std::fs::write(out_json.clone() + &format!("_{}.json", i), json)?;
+    }
 
     Ok(())
 }

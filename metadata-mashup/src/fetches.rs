@@ -1,7 +1,7 @@
 use color_eyre::{eyre::eyre, Result};
 use serde::{Deserialize, Serialize};
 use serde_json::Value;
-use tracing::warn;
+use tracing::{error, warn};
 use xml2json_rs::JsonBuilder;
 
 #[derive(Serialize, Deserialize, Debug, Clone)]
@@ -48,7 +48,13 @@ pub async fn fetch_arxiv_api(
         );
         tokio::time::sleep(tokio::time::Duration::from_millis(retry_delay_ms as u64)).await;
     }
-    let arxiv_xml = arxiv_resp?;
+    let arxiv_xml = match arxiv_resp {
+        Ok(xml) => xml,
+        Err(e) => {
+            error!("Failed to fetch arXiv XML for ids {:#?}:\nError: {}", batch, e);
+            return Err(e);
+        }
+    };
 
     // Split arXiv XMLs by <entry> tag and Datacite JSON by array elements
     let mut arxiv_xmls = arxiv_xml
@@ -148,8 +154,15 @@ pub async fn fetch_datacite_api(
         );
         tokio::time::sleep(tokio::time::Duration::from_millis(retry_delay_ms as u64)).await;
     }
-    let datacite_json = datacite_resp?;
+    let datacite_json = match datacite_resp {
+        Ok(json) => json,
+        Err(e) => {
+            error!("Failed to fetch DataCite JSON for ids {:#?}:\nError: {}", batch, e);
+            return Err(e);
+        }
+    };
 
+    println!("{}", datacite_json);
     let Value::Array(entries) = serde_json::from_str::<serde_json::Value>(&datacite_json)
         .map_err(|e| eyre!("Error parsing DataCite JSON for ids {:#?}: {}", batch, e))?
         .get_mut("data")
@@ -217,9 +230,16 @@ pub async fn fetch_oai_api(
         );
         tokio::time::sleep(tokio::time::Duration::from_millis(retry_delay_ms as u64)).await;
     }
+    let oai_resp = match oai_resp {
+        Ok(xml) => xml,
+        Err(e) => {
+            error!("Failed to fetch OAI xml for id {}:\nError: {}", id, e);
+            return Err(e)
+        },
+    };
     let json_builder = JsonBuilder::default();
     let json_str = json_builder
-        .build_string_from_xml(&oai_resp?)
+        .build_string_from_xml(&oai_resp)
         .map_err(|e| eyre!(e))?;
     serde_json::from_str::<serde_json::Value>(&json_str)
         .map_err(|e| eyre!("Error parsing OAI JSON for id {}: {}", id, e))
