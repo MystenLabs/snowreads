@@ -55,7 +55,7 @@ const LandingPage: React.FC = () => {
       {
         icon: '/econ_icon.png',
         category: 'Economics',
-        title: 'Curious Conjectures About Artificial Intelligence and Beyond',
+        title: `Why Economics is Like Dating: It's All About Supply and Demand`,
         documents: 34,
         size: '10.69MB',
       },

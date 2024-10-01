@@ -11,5 +11,6 @@ export interface ICategoryListPageProps {
     categories: Array<{ id: string; label: string }>;
     papers: IPaper[]; 
     selected: string;
+    type: string;
   }
 

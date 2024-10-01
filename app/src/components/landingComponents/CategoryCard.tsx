@@ -20,7 +20,7 @@ const CategoryCard: React.FC<ICategoryCardProps> = ({ icon, category, title, doc
         </div>
         <div className="text-left max-w-[80%]">
           <span className="text-sm text-gray-500 block">{category}</span>
-          <h3 className="text-lg font-semibold text-gray-800 py-1">{title}</h3>
+          <Link className="text-lg font-semibold text-gray-800 py-1 hover:bg-secondary" to={`/collection/${title}`}>{title}</Link>
         </div>
       </div>
 
