@@ -1,0 +1,20 @@
+{
+  "id": "2407.00175",
+  "submitter": "Paul Kirk",
+  "authors": "Leiv R{\\o}nneberg, Vidhi Lalchand, Paul D. W. Kirk",
+  "title": "Permutation invariant multi-output Gaussian Processes for drug\n  combination prediction in cancer",
+  "comments": null,
+  "journal-ref": null,
+  "doi": null,
+  "report-no": null,
+  "categories": "q-bio.QM cs.LG stat.AP stat.ML",
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "abstract": "  Dose-response prediction in cancer is an active application field in machine\nlearning. Using large libraries of \\textit{in-vitro} drug sensitivity screens,\nthe goal is to develop accurate predictive models that can be used to guide\nexperimental design or inform treatment decisions. Building on previous work\nthat makes use of permutation invariant multi-output Gaussian Processes in the\ncontext of dose-response prediction for drug combinations, we develop a\nvariational approximation to these models. The variational approximation\nenables a more scalable model that provides uncertainty quantification and\nnaturally handles missing data. Furthermore, we propose using a deep generative\nmodel to encode the chemical space in a continuous manner, enabling prediction\nfor new drugs and new combinations. We demonstrate the performance of our model\nin a simple setting using a high-throughput dataset and show that the model is\nable to efficiently borrow information across outputs.\n",
+  "versions": [{ "version": "v1", "created": "Fri, 28 Jun 2024 18:28:38 GMT" }],
+  "update_date": "2024-07-02",
+  "authors_parsed": [
+    ["R\u00f8nneberg", "Leiv", ""],
+    ["Lalchand", "Vidhi", ""],
+    ["Kirk", "Paul D. W.", ""]
+  ]
+}
