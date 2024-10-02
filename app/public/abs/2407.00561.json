@@ -1,0 +1,21 @@
+{
+  "id": "2407.00561",
+  "submitter": "Chixiang Chen",
+  "authors": "Chixiang Chen, Jia Liang, Elynn Chen, Ming Wang",
+  "title": "Advancing Information Integration through Empirical Likelihood:\n  Selective Reviews and a New Idea",
+  "comments": null,
+  "journal-ref": null,
+  "doi": null,
+  "report-no": null,
+  "categories": "stat.ME stat.AP",
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "abstract": "  Information integration plays a pivotal role in biomedical studies by\nfacilitating the combination and analysis of independent datasets from multiple\nstudies, thereby uncovering valuable insights that might otherwise remain\nobscured due to the limited sample size in individual studies. However, sharing\nraw data from independent studies presents significant challenges, primarily\ndue to the need to safeguard sensitive participant information and the\ncumbersome paperwork involved in data sharing. In this article, we first\nprovide a selective review of recent methodological developments in information\nintegration via empirical likelihood, wherein only summary information is\nrequired, rather than the raw data. Following this, we introduce a new insight\nand a potentially promising framework that could broaden the application of\ninformation integration across a wider spectrum. Furthermore, this new\nframework offers computational convenience compared to classic empirical\nlikelihood-based methods. We provide numerical evaluations to assess its\nperformance and discuss various extensions in the end.\n",
+  "versions": [{ "version": "v1", "created": "Sun, 30 Jun 2024 02:08:00 GMT" }],
+  "update_date": "2024-07-02",
+  "authors_parsed": [
+    ["Chen", "Chixiang", ""],
+    ["Liang", "Jia", ""],
+    ["Chen", "Elynn", ""],
+    ["Wang", "Ming", ""]
+  ]
+}

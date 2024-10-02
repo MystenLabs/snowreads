@@ -1,0 +1,20 @@
+{
+  "id": "2407.00481",
+  "submitter": "Michael Mao Wang",
+  "authors": "Michael Wang and Lei Wang and Xiaohu You",
+  "title": "Machine-Type Communication Waveforms: An Exploration of New Dimensions",
+  "comments": "17 pages, 9 figures",
+  "journal-ref": null,
+  "doi": null,
+  "report-no": null,
+  "categories": "eess.SP",
+  "license": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+  "abstract": "  This paper derives a generalized class of waveforms with an application to\nmachine-type communication (MTC) while studying its underlying structural\ncharacteristics in relation to conventional modulation waveforms. First, a\ncanonical waveform of frequency-error tolerance is identified for a unified\npreamble and traffic signal design, ideal for MTC use as a composite waveform,\ncommonly known as a transmission burst. It is shown that the most widely used\nmodulation schemes for mIoT traffic signals, e.g., FSK and LoRa modulation, are\nsimply subsets of the canonical waveform. The intrinsic characteristics and\ndegrees of freedom the waveform offers are then explored. Most significantly, a\nnew waveform dimension is uncovered and exploited as additional degrees of\nfreedom for satisfying the MTC requirements, i.e., energy and resource\nefficiency and robustness. The corresponding benefits are evaluated\nanalytically and numerically in AWGN, frequency-flat, and selective channels.\nWe demonstrate that neither FSK nor LoRa can fully address the mIoT\nrequirements since neither fully exploits the degrees of freedom from the\nperspective of the generalized waveform class. Finally, a solution is devised\nto optimize energy and resource efficiency under various deployment\nenvironments and practical constraints while maintaining the low-complexity\nproperty.\n",
+  "versions": [{ "version": "v1", "created": "Sat, 29 Jun 2024 16:05:20 GMT" }],
+  "update_date": "2024-07-02",
+  "authors_parsed": [
+    ["Wang", "Michael", ""],
+    ["Wang", "Lei", ""],
+    ["You", "Xiaohu", ""]
+  ]
+}
