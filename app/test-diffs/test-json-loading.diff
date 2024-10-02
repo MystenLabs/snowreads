@@ -1,0 +1,50 @@
+diff --git a/app/src/App.tsx b/app/src/App.tsx
+index 846e0ed..d327210 100644
+--- a/app/src/App.tsx
++++ b/app/src/App.tsx
+@@ -3,11 +3,45 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+ import Custom404 from './pages/Custom404';
+ import LandingPageLayout from './layout/landingLayout/LandingPageLayout';
+ import CategoryListLayout from './layout/categoryListLayout/CategoryListLayout';
++import { useEffect, useState } from 'react';
+ 
+ 
+ function App() {
++  const [data, setData] = useState<any[]>([]);  // State to store fetched data
++  const [loading, setLoading] = useState(true);  // Loading state
++  const [error, setError] = useState<null | string>(null);  // Error state
++
++  useEffect(() => {
++    // Fetch the public JSON resource
++    fetch("/oai-metadata.json")  // Replace with the actual public API URL
++      .then((response) => {
++        if (response.ok) {
++          return response.json();
++        }
++        throw response;
++      })
++      .then((data) => {
++        console.log(data[0]);
++        setData(data);
++        setLoading(false);
++      })
++      .catch((error) => {
++        console.log(error);
++        setError(error);
++        setLoading(false);
++      });
++
++  }, []);
++    
+   return (
+     <div className='bg-primary'>
++      <div>
++        Loading: {loading.toString()}
++        <br />
++        Error: {error}
++        <br />
++        Data: {data?.length}
++      </div>
+       <Router>
+           <Routes>
+             <Route path="/" element={<LandingPageLayout />} />
