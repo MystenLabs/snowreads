@@ -1,10 +1,13 @@
 import React, { useState, useEffect } from 'react';
-import SidebarNav from '../components/paperComponents/SideNavbar';
+import SidebarNav from '../components/common/SideNavbar';
 import PaperAbstract from '../components/paperComponents/PaperAbstract';
 import AccessPaperCard from '../components/paperComponents/AccessPaperCard';
-import { Spinner } from '../components/tools/Spinner';
+import { Spinner } from '../components/common/Spinner';
+import { IAbstractPageProps } from '../interfaces/IAbstractPageProps';
 
-const AbstractPage: React.FC = () => {
+
+
+const AbstractPage: React.FC<IAbstractPageProps> = ({ arxiv_id }) => {
   const [paperData, setPaperData] = useState<any>(null);
   const [isLoading, setIsLoading] = useState(true);
 
@@ -44,9 +47,19 @@ const AbstractPage: React.FC = () => {
     isLoading ? (
       <Spinner />
     ) : (
-      <main className="flex w-full min-h-screen bg-[#E4F0EF] px-[10%] py-6">
-        <SidebarNav />
+      <main className="flex w-full min-h-screen bg-primary px-[10%] py-6">
+        <SidebarNav
+          sections={[
+            { id: 'article', label: 'Article' },
+            { id: 'subjects', label: 'Subjects' },
+            { id: 'cite-as', label: 'Cite As' },
+            { id: 'submission-history', label: 'Submission History' },
+            { id: 'more', label: 'More' }
+          ]}
+          type={'CONTENTS'}
+        />
         <PaperAbstract
+          arxiv_id={arxiv_id}
           title={paperData.paperDummyData.title}
           submissionDate={paperData.paperDummyData.submissionDate}
           fileSize={paperData.paperDummyData.fileSize}

@@ -1,11 +1,13 @@
-import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Header: React.FC = () => {
   return (
-    <header className="w-full bg-[#E4F0EF] border-b border-gray-300">
+    <header className="w-full bg-primary border-b border-gray-300">
       <div className="flex items-center p-4">
-      <div className="logo">
-          <img src="../public/logo.png" alt="Walrus Arxiv Logo" className="h-6" />
+        <div className="logo">
+          <Link to="/">
+            <img src="/logo.png" alt="Walrus Arxiv Logo" className="h-6" />
+          </Link>
         </div>
       </div>
     </header>
