@@ -3,8 +3,11 @@ use std::collections::HashMap;
 use clap::{arg, Parser};
 use color_eyre::eyre::eyre;
 use color_eyre::Result;
-use metadata_mashup::{arxiv::arxiv_get_summary, datacite::{datacite_get_abstract, datacite_take_descriptions}, fetch_arxiv_api, fetch_datacite_api, fetch_oai_api, oai::{oai_get_license, oai_take_abtract}, Metadata};
-use tracing::error;
+
+use metadata_mashup::Metadata;
+use metadata_mashup::arxiv::arxiv_take_summary;
+use metadata_mashup::datacite::datacite_take_descriptions;
+use metadata_mashup::{fetch_arxiv_api, fetch_datacite_api};
 
 const DEFAULT_RETRY_ATTEMPTS: &str = "5";
 const DEFAULT_RETRY_DELAY_MS: &str = "5000";
@@ -110,68 +113,64 @@ async fn main() -> Result<()> {
                 }
             };
 
-        let mut oai_jsons = vec![];
-        for id in batch {
-            let json_metadata =
-                match fetch_oai_api(id.as_str(), retry_attempts, retry_delay_ms).await {
-                    Ok(json) => json,
-                    Err(e) => {
-                        tracing::error!("Error fetching OAI metadata for arXiv ID {}: {}", id, e);
-                        let mut error_json = serde_json::Map::new();
-                        error_json.insert(
-                            "error".to_string(),
-                            serde_json::Value::String(e.to_string()),
-                        );
-                        serde_json::Value::Object(error_json)
-                    }
-                };
-            oai_jsons.push((id, json_metadata));
-        }
+        // let mut oai_jsons = vec![];
+        // for id in batch {
+        //     let json_metadata =
+        //         match fetch_oai_api(id.as_str(), retry_attempts, retry_delay_ms).await {
+        //             Ok(json) => json,
+        //             Err(e) => {
+        //                 tracing::error!("Error fetching OAI metadata for arXiv ID {}: {}", id, e);
+        //                 let mut error_json = serde_json::Map::new();
+        //                 error_json.insert(
+        //                     "error".to_string(),
+        //                     serde_json::Value::String(e.to_string()),
+        //                 );
+        //                 serde_json::Value::Object(error_json)
+        //             }
+        //         };
+        //     oai_jsons.push((id, json_metadata));
+        // }
 
         let mut hash_map: HashMap<String, Metadata> = HashMap::new();
-        let mut abstract_found = false;
-        arxiv_jsons.into_iter().for_each(|(id, json)| {
+        // let mut abstract_found = false;
+        arxiv_jsons.into_iter().for_each(|(id, mut json)| {
+            arxiv_take_summary(&mut json);
 
-            abstract_found = arxiv_get_summary(&json).is_some();
             let metadata = Metadata {
                 arxiv_id: id.clone(),
                 arxiv: Some(json),
                 datacite: None,
-                oai: None,
+                // oai: None,
             };
             hash_map.insert(id, metadata);
         });
         datacite_jsons.into_iter().try_for_each(|(id, mut json)| {
             // Remove duplicate abstract as it is already in arXiv metadata.
-            if abstract_found {
-                datacite_take_descriptions(&mut json);
-            } else {
-                abstract_found = datacite_get_abstract(&json).is_some();
-            }
+            datacite_take_descriptions(&mut json);
             hash_map
                 .get_mut(&id)
                 .ok_or(eyre!("No arXiv metadata for id {}", id))?
                 .datacite = Some(json);
             Ok::<(), color_eyre::eyre::Error>(())
         })?;
-        oai_jsons.into_iter().try_for_each(|(id, mut json)| {
-            // Check if a license exists.
-            oai_get_license(&json).unwrap_or_else(|| {
-                error!("Error getting OAI license for id {}", id);
-                &serde_json::Value::Null
-            });
-
-            // Remove duplicate abstract as it is already in arXiv or datacite metadata.
-            if abstract_found {
-                oai_take_abtract(&mut json);
-            }
-
-            hash_map
-                .get_mut(&id)
-                .ok_or(eyre!("No arXiv metadata for id {}", id))?
-                .oai = Some(json);
-            Ok::<(), color_eyre::eyre::Error>(())
-        })?;
+        // oai_jsons.into_iter().try_for_each(|(id, mut json)| {
+        //     // Check if a license exists.
+        //     oai_get_license(&json).unwrap_or_else(|| {
+        //         error!("Error getting OAI license for id {}", id);
+        //         &serde_json::Value::Null
+        //     });
+        //
+        //     // Remove duplicate abstract as it is already in arXiv or datacite metadata.
+        //     if abstract_found {
+        //         oai_take_abtract(&mut json);
+        //     }
+        //
+        //     hash_map
+        //         .get_mut(&id)
+        //         .ok_or(eyre!("No arXiv metadata for id {}", id))?
+        //         .oai = Some(json);
+        //     Ok::<(), color_eyre::eyre::Error>(())
+        // })?;
 
         let json = serde_json::to_string_pretty(&hash_map)?;
         std::fs::write(out_json.clone() + &format!("_{}.json", i), json)?;

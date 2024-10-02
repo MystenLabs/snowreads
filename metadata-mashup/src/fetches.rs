@@ -9,7 +9,7 @@ pub struct Metadata {
     pub arxiv_id: String,
     pub arxiv: Option<Value>,
     pub datacite: Option<Value>,
-    pub oai: Option<Value>,
+    // pub oai: Option<Value>,
 }
 
 pub async fn fetch_arxiv_api(
