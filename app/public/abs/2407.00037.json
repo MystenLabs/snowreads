@@ -1,16 +1,1 @@
-{
-  "id": "2407.00037",
-  "submitter": "Eric Yan",
-  "authors": "Eric Yan",
-  "title": "Information About Other Players in Mechanism Design",
-  "comments": "undergraduate thesis at Harvard College. comments welcome!",
-  "journal-ref": null,
-  "doi": null,
-  "report-no": null,
-  "categories": "econ.TH",
-  "license": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
-  "abstract": "  We show the existence of mechanism design settings where the social planner\nhas an interest in players receiving noisy signals about the types of other\nagents. When the social planner is interested only in partial implementation,\nany social choice rule that is incentive compatible after players receive\nadditional information about other agents was originally incentive compatible\nprior to the change in information structure. However, information about other\nagents can eliminate undesired equilibria in an implementing mechanism. Thus,\nthere are social choice rules which are not fully implementable in a given\ninformation environment that become fully implementable after players have\nadditional information about the types of other agents. We provide some general\nconditions under which an undesired equilibrium can be eliminated by additional\ninformation about other players.\n",
-  "versions": [{ "version": "v1", "created": "Tue, 28 May 2024 16:40:35 GMT" }],
-  "update_date": "2024-07-02",
-  "authors_parsed": [["Yan", "Eric", ""]]
-}
+{"id":"2407.00037","title":"Information About Other Players in Mechanism Design","authors":"Eric Yan","authorsParsed":[["Yan","Eric",""]],"versions":[{"version":"v1","created":"Tue, 28 May 2024 16:40:35 GMT"}],"updateDate":"2024-07-02","timestamp":1716914435000,"abstract":"  We show the existence of mechanism design settings where the social planner\nhas an interest in players receiving noisy signals about the types of other\nagents. When the social planner is interested only in partial implementation,\nany social choice rule that is incentive compatible after players receive\nadditional information about other agents was originally incentive compatible\nprior to the change in information structure. However, information about other\nagents can eliminate undesired equilibria in an implementing mechanism. Thus,\nthere are social choice rules which are not fully implementable in a given\ninformation environment that become fully implementable after players have\nadditional information about the types of other agents. We provide some general\nconditions under which an undesired equilibrium can be eliminated by additional\ninformation about other players.\n","subjects":["Economics/Theoretical Economics"],"license":"http://arxiv.org/licenses/nonexclusive-distrib/1.0/"}
