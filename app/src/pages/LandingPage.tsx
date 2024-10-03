@@ -19,66 +19,68 @@ const LandingPage: React.FC = () => {
       size: '4.28MB',
     },
     {
-        icon: '/maths_icon.png',
-        category: 'Mathematics',
-        title: 'Dynamic Systems and Fractals: A Mathematical Odyssey',
-        documents: 34,
-        size: '10.69MB',
-      },
-      {
-        icon: '/quant_bio_icon.png',
-        category: 'Quantitative Biology',
-        title: 'The Math Behind the Cells: Unveiling Quantitative Biology Secrets',
-        documents: 12,
-        size: '4.28MB',
-      },{
-        icon: '/stats_icon.png',
-        category: 'Statistics',
-        title: `Machine Learning's Dark Side: The Unseen Consequences`,
-        documents: 34,
-        size: '10.69MB',
-      },
-      {
-        icon: '/econ_icon.png',
-        category: 'Economics',
-        title: 'From Adam Smith to AI: The Evolution of Theoretical Economics',
-        documents: 12,
-        size: '4.28MB',
-      },
-      {
-        icon: '/quant_fin_icon.png',
-        category: 'Quantitative Finance',
-        title: 'Beyond Black Swans: Exploring Quantitative Finance Frontiers',
-        documents: 12,
-        size: '4.28MB',
-      },
-      {
-        icon: '/econ_icon.png',
-        category: 'Economics',
-        title: `Why Economics is Like Dating: It's All About Supply and Demand`,
-        documents: 34,
-        size: '10.69MB',
-      },
-      {
-        icon: '/elect_eng_icon.png',
-        category: 'Electrical Engineering',
-        title: 'The Spark of Genius: Exploring Electrical Engineering Frontiers',
-        documents: 34,
-        size: '10.69MB',
-      }
+      icon: '/maths_icon.png',
+      category: 'Mathematics',
+      title: 'Dynamic Systems and Fractals: A Mathematical Odyssey',
+      documents: 34,
+      size: '10.69MB',
+    },
+    {
+      icon: '/quant_bio_icon.png',
+      category: 'Quantitative Biology',
+      title: 'The Math Behind the Cells: Unveiling Quantitative Biology Secrets',
+      documents: 12,
+      size: '4.28MB',
+    },
+    {
+      icon: '/stats_icon.png',
+      category: 'Statistics',
+      title: `Machine Learning's Dark Side: The Unseen Consequences`,
+      documents: 34,
+      size: '10.69MB',
+    },
+    {
+      icon: '/econ_icon.png',
+      category: 'Economics',
+      title: 'From Adam Smith to AI: The Evolution of Theoretical Economics',
+      documents: 12,
+      size: '4.28MB',
+    },
+    {
+      icon: '/quant_fin_icon.png',
+      category: 'Quantitative Finance',
+      title: 'Beyond Black Swans: Exploring Quantitative Finance Frontiers',
+      documents: 12,
+      size: '4.28MB',
+    },
+    {
+      icon: '/econ_icon.png',
+      category: 'Economics',
+      title: `Why Economics is Like Dating: It's All About Supply and Demand`,
+      documents: 34,
+      size: '10.69MB',
+    },
+    {
+      icon: '/elect_eng_icon.png',
+      category: 'Electrical Engineering',
+      title: 'The Spark of Genius: Exploring Electrical Engineering Frontiers',
+      documents: 34,
+      size: '10.69MB',
+    }
   ];
 
   return (
-    <div className="flex flex-col items-center justify-start min-h-screen px-[20%] bg-primary pb-20">
+    <div className="flex flex-col items-center justify-start min-h-screen bg-primary pb-20">
       <img src="/walrus_globe.png" alt="Logo" className="w-full max-w-[350px] h-auto mb-8 p-10" />
       <div className='pb-10 flex flex-col items-center'>
-      <h1 className="text-2xl text-center">
-        <span>Spark Your Curiosity: Collections</span><br />
-        <span>That Challenge Your Thinking</span>
-      </h1>
-      <p className='text-xs p-3'>240 MB</p>
+        <h1 className="text-2xl text-center">
+          <span>Spark Your Curiosity: Collections</span><br />
+          <span>That Challenge Your Thinking</span>
+        </h1>
+        <p className='text-xs p-3'>240 MB</p>
       </div>
-      <div className="grid grid-cols-3 gap-5 w-full"> 
+
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 w-full px-4 sm:px-8 md:px-12 lg:px-0 lg:max-w-[1100px]">
         {data.map((item, index) => (
           <CategoryCard
             key={index}
@@ -87,13 +89,14 @@ const LandingPage: React.FC = () => {
             title={item.title}
             documents={item.documents}
             size={item.size}
+            className="w-full" 
           />
         ))}
       </div>
-      <InformationPopup/>
+
+      <InformationPopup />
     </div>
   );
-  
 };
 
 export default LandingPage;

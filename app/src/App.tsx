@@ -7,7 +7,7 @@ import CategoryListLayout from './layout/categoryListLayout/CategoryListLayout';
 
 function App() {
   return (
-    <div className='bg-primary'>
+    <div className='bg-primary '>
       <Router>
           <Routes>
             <Route path="/" element={<LandingPageLayout />} />

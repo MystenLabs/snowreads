@@ -12,7 +12,7 @@ const AccessPaperCard: React.FC<IAccessPaperCardProps> = ({
   kdeAddress,
 }) => {
   return (
-    <aside className="w-1/5 px-4">
+    <aside className="w-1/5 px-4 md: "  >
       <div className="bg-white p-4 shadow-lg rounded-lg border border-black">
         <h2 className="text-lg font-medium mb-4 border-b border-gray-300 pb-2">Access paper</h2>
         <ul className="space-y-2 mb-6">
