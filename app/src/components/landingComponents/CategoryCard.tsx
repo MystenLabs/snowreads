@@ -1,14 +1,12 @@
-import React from 'react';
 import { Link } from 'react-router-dom';
 import { ICategoryCardProps } from '../../interfaces/ICategoryCardProps';
 
-
-
-const CategoryCard: React.FC<ICategoryCardProps> = ({ icon, category, title, documents, size }) => {
+const CategoryCard: React.FC<ICategoryCardProps> = ({ icon, category, title, documents, size, className }) => {
   return (
     <Link 
       to={`/category/${category}`}
-      className="block p-4 rounded-lg text-center min-h-[180px] bg-white relative transform transition-transform duration-200 ease-in-out hover:scale-105 cursor-pointer" // Added hover effects
+      className={`block p-4 rounded-lg text-center min-h-[180px] bg-white relative transform transition-transform duration-200 ease-in-out hover:scale-105 cursor-pointer ${className} 
+                  w-full sm:w-full md:w-[90%] lg:w-auto`}  // Full width on mobile and tablet, constrained on desktop
     >
       <div className="flex">
         <div className="w-10 h-10 rounded-lg bg-teal-100 flex items-center justify-center mr-4">

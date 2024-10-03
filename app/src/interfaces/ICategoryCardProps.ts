@@ -4,4 +4,5 @@ export interface ICategoryCardProps {
   title: string;
   documents: number;
   size: string;
+  className?: string
 }

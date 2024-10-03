@@ -5,7 +5,7 @@ import { ICategoryListPageProps } from "../interfaces/ICategoryListPageProps";
 
 const CategoryListPage: React.FC<ICategoryListPageProps> = ({ categories, papers, selected, type }) => {
   return (
-    <div className="w-full min-h-screen bg-primary">
+    <div className="w-full min-h-screen bg-primary flex flex-col items-center">
       <div className="p-10 text-center">
         <div className="text-sm text-gray-600">Home</div>
         <div className="flex justify-center">
@@ -24,7 +24,7 @@ const CategoryListPage: React.FC<ICategoryListPageProps> = ({ categories, papers
         </div>
       </div>
 
-      <div className="flex w-full px-[10%] py-6">
+      <div className="flex w-full  py-6 lg:max-w-[1100px]">
         <SidebarNav sections={categories} type={type} initialActive={selected} />
         <div className="flex-1 py-4 px-7">
           <div className="flex justify-between items-center mb-6">

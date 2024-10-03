@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import SidebarNav from '../components/common/SideNavbar';
 import PaperAbstract from '../components/paperComponents/PaperAbstract';
-import AccessPaperCard from '../components/paperComponents/AccessPaperCard';
+// import AccessPaperCard from '../components/paperComponents/AccessPaperCard';
 import { Spinner } from '../components/common/Spinner';
 import { IAbstractPageProps } from '../interfaces/IAbstractPageProps';
 
@@ -47,38 +47,44 @@ const AbstractPage: React.FC<IAbstractPageProps> = ({ arxiv_id }) => {
     isLoading ? (
       <Spinner />
     ) : (
-      <main className="flex w-full min-h-screen bg-primary px-[10%] py-6">
-        <SidebarNav
-          sections={[
-            { id: 'article', label: 'Article' },
-            { id: 'subjects', label: 'Subjects' },
-            { id: 'cite-as', label: 'Cite As' },
-            { id: 'submission-history', label: 'Submission History' },
-            { id: 'more', label: 'More' }
-          ]}
-          type={'CONTENTS'}
-        />
-        <PaperAbstract
-          arxiv_id={arxiv_id}
-          title={paperData.paperDummyData.title}
-          submissionDate={paperData.paperDummyData.submissionDate}
-          fileSize={paperData.paperDummyData.fileSize}
-          authors={paperData.paperDummyData.authors}
-          abstract={paperData.paperDummyData.abstract}
-          subjects={paperData.paperDummyData.subjects}
-          citation={paperData.paperDummyData.citation}
-          submissionHistory={paperData.paperDummyData.submissionHistory}
-        />
-        <AccessPaperCard
-          fullPaperLink="https://example.com/pdf"
-          formatsLink="https://example.com/formats"
-          licenseLink="https://example.com/license"
-          references={paperData.referencesData}
-          bookmarkLink="https://example.com/bookmark"
-          redditAddress="https://reddit.com"
-          kdeAddress=""
-        />
+      <div className="flex flex-col items-center">
+        <main className="flex flex-col md:flex-row w-full min-h-screen bg-primary px-4 md:px-6  py-6 lg:max-w-[1100px]">
+          <SidebarNav
+            sections={[
+              { id: 'article', label: 'Article' },
+              { id: 'subjects', label: 'Subjects' },
+              { id: 'cite-as', label: 'Cite As' },
+              { id: 'submission-history', label: 'Submission History' },
+              { id: `/pdf/${arxiv_id}`, label: 'View PDF', url: `/pdf/${arxiv_id}` }
+            ]}
+            type={'CONTENTS'}
+            useExternalLink={true}
+          />
+          <PaperAbstract
+            arxiv_id={arxiv_id}
+            title={paperData.paperDummyData.title}
+            submissionDate={paperData.paperDummyData.submissionDate}
+            fileSize={paperData.paperDummyData.fileSize}
+            authors={paperData.paperDummyData.authors}
+            abstract={paperData.paperDummyData.abstract}
+            subjects={paperData.paperDummyData.subjects}
+            citation={paperData.paperDummyData.citation}
+            submissionHistory={paperData.paperDummyData.submissionHistory}  
+          />
+          {/* <AccessPaperCard
+            fullPaperLink="https://example.com/pdf"
+            formatsLink="https://example.com/formats"
+            licenseLink="https://example.com/license"
+            references={paperData.referencesData}
+            bookmarkLink="https://example.com/bookmark"
+            redditAddress="https://reddit.com"
+            kdeAddress=""
+          /> */}
       </main>
+    </div>
+
+
+
     )
   );
 };

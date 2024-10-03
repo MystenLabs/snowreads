@@ -55,8 +55,7 @@ const InformationPopup: React.FC = () => {
       <button
         ref={buttonRef}
         onClick={togglePopup}
-        className={`fixed bottom-20 right-6 rounded-full shadow-lg z-50 ${isOpen ? 'bg-black ' : ''}`}
-      >
+        className={`fixed bottom-40 right-8 sm:bottom-40 sm:right-8 md:bottom-20 md:right-6 lg:bottom-20 lg:right-6 rounded-full shadow-lg z-50 ${isOpen ? 'bg-black' : ''}`}>
         <img 
           src={isOpen ? "/x_icon.png" : "/walrus_popup.png"} 
           alt="Walrus logo" 
@@ -66,53 +65,56 @@ const InformationPopup: React.FC = () => {
 
       {isOpen && (
         <div
-        ref={modalRef}
-        className="fixed bottom-[140px] right-[20px] bg-secondary p-5 rounded-lg shadow-lg border border-black z-50 w-[530px] max-w-full"
-      >
-        <h2 className="text-2xl font-medium mb-4">How Walrus Works</h2>
-        <ul className="space-y-2">
-          <InformationPopupItem        
-            number="1"
-            iconSrc="/dollar_sign_icon.png"
-            iconAlt="Price"
-            iconBgColor="bg-tertiary"
-            iconSize='w3 h-4'
-            title="Price is Right"
-            description="Store gigabytes of data at a reasonable cost"
-          />
-          <InformationPopupItem        
-            number="2"
-            iconSrc="/double_check_icon.png"
-            iconAlt="Reliability"
-            iconBgColor="bg-quaternary"
-            iconSize='w-5 h-3'
-            title="Reliably yours"
-            description="Access your data, even during a zombie apocalypse"/>
-          <InformationPopupItem
-            number="3"
-            iconSrc="/lightning_icon.png"
-            iconAlt="Fast"
-            iconBgColor="bg-tertiary"
-            iconSize='w-3 h-4'
-            title="Lightning-fast"
-            description="High performance reads and writes for any application"
-          />
-          <InformationPopupItem
-           number="4"
-           iconSrc="/code_tag_icon.png"
-           iconAlt="Programmable"
-           iconBgColor="bg-quaternary"
-           iconSize='w-4 h-3'
-           title="Programmable"
-           description="Buy, trade, and version your storage resources as you like"
-         />
-        </ul>
-        <div className="flex justify-between mt-6 space-x-2">
-         <Button content={'LEARN MORE'}/>
-         <Button content={'GET STARTED'} primary/>
+          ref={modalRef}
+          className="fixed bottom-[220px] right-[20px] sm:bottom-[220px] md:bottom-[140px] lg:bottom-[140px] bg-secondary p-4 sm:p-5 rounded-lg shadow-lg border border-black z-50 w-[90%] sm:w-[530px] max-w-full"
+        >
+          <h2 className="text-lg sm:text-2xl font-medium mb-3 sm:mb-4">How Walrus Works</h2>
+          <ul className="space-y-1 sm:space-y-2">
+            <InformationPopupItem        
+              number="1"
+              iconSrc="/dollar_sign_icon.png"
+              iconAlt="Price"
+              iconBgColor="bg-tertiary"
+              iconSize="w3 h-4" 
+              title="Price is Right"
+              description="Store gigabytes of data at a reasonable cost"
+            />
+            <InformationPopupItem        
+              number="2"
+              iconSrc="/double_check_icon.png"
+              iconAlt="Reliability"
+              iconBgColor="bg-quaternary"
+              iconSize="w-5 h-3" 
+              title="Reliably yours"
+              description="Access your data, even during a zombie apocalypse"
+            />
+            <InformationPopupItem
+              number="3"
+              iconSrc="/lightning_icon.png"
+              iconAlt="Fast"
+              iconBgColor="bg-tertiary"
+              iconSize="w-3 h-4" 
+              title="Lightning-fast"
+              description="High performance reads and writes for any application"
+            />
+            <InformationPopupItem
+              number="4"
+              iconSrc="/code_tag_icon.png"
+              iconAlt="Programmable"
+              iconBgColor="bg-quaternary"
+              iconSize="w-4 h-3"  
+              title="Programmable"
+              description="Buy, trade, and version your storage resources as you like"
+            />
+          </ul>
+          <div className="flex flex-col sm:flex-row justify-between mt-4 sm:mt-6 space-y-2 sm:space-y-0 sm:space-x-2">
+            <Button content={'LEARN MORE'} href="https://www.walrus.xyz/"/>
+            <Button content={'GET STARTED'} primary href="https://discord.com/invite/walrusprotocol"/>
+          </div>
         </div>
-      </div>
       )}
+
+
     </div>
   );
 };

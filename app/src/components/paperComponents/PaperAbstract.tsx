@@ -13,7 +13,7 @@ const PaperAbstract: React.FC<IPaperAbstractProps> = ({
   submissionHistory
 }) => {
   return (
-    <section className="w-3/5 px-6">
+    <section className=" px-6 flex-grow lg:w-2/4 w-full md:w-3/4">
 
       <div className="p-6 rounded-lg">
         <h1 id="article" className="text-3xl font-semibold mb-2 w-3/5">{title}</h1>
