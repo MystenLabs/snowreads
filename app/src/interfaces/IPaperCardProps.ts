@@ -7,4 +7,5 @@ export interface IPaperCardProps {
       arxiv_id: string;
     };
     index: number;
+    hasVisibleIcon?: boolean;
   }

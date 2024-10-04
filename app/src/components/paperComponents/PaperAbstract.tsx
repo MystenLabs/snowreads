@@ -1,5 +1,6 @@
 import React from 'react';
 import { IPaperAbstractProps } from '../../interfaces/IPaperAbstractProps';
+import MobileNavigationBar from '../common/MobileNavigationBar';
 
 const PaperAbstract: React.FC<IPaperAbstractProps> = ({
   arxiv_id,
@@ -13,13 +14,19 @@ const PaperAbstract: React.FC<IPaperAbstractProps> = ({
   submissionHistory
 }) => {
   return (
-    <section className=" px-6 flex-grow lg:w-2/4 w-full md:w-3/4">
+    <section className="  flex-grow lg:w-2/4 w-full md:w-3/4">
 
-      <div className="p-6 rounded-lg">
+      <div className="py-6 px-5 rounded-lg">
         <h1 id="article" className="text-3xl font-semibold mb-2 w-3/5">{title}</h1>
-        <p className="text-sm text-gray-500 mb-2">Submitted on {submissionDate}</p>
+        <p className="text-sm text-gray-500 mb-2">Updated Oct 9 2024, Submitted on {submissionDate}</p>
         <p className="text-sm text-gray-500 mb-4">{fileSize}</p>
         <p className="text-sm text-gray-500 mb-4">{arxiv_id}</p>
+        <MobileNavigationBar options={[
+              { id: 'article', label: 'Article' },
+              { id: 'subjects', label: 'Subjects' },
+              { id: 'cite-as', label: 'Cite As' },
+              { id: 'submission-history', label: 'Submission History' },
+            ]} />
         <p className="text-[#8B28D2] mb-6">
           {authors.map((author, index) => (
             <span key={index}>

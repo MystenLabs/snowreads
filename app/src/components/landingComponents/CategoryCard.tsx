@@ -4,9 +4,9 @@ import { ICategoryCardProps } from '../../interfaces/ICategoryCardProps';
 const CategoryCard: React.FC<ICategoryCardProps> = ({ icon, category, title, documents, size, className }) => {
   return (
     <Link 
-      to={`/category/${category}`}
+      to={`/collection/${title}`}
       className={`block p-4 rounded-lg text-center min-h-[180px] bg-white relative transform transition-transform duration-200 ease-in-out hover:scale-105 cursor-pointer ${className} 
-                  w-full sm:w-full md:w-[90%] lg:w-auto`}  // Full width on mobile and tablet, constrained on desktop
+                  w-full sm:w-full md:w-[90%] lg:w-auto`} 
     >
       <div className="flex">
         <div className="w-10 h-10 rounded-lg bg-teal-100 flex items-center justify-center mr-4">
@@ -18,7 +18,7 @@ const CategoryCard: React.FC<ICategoryCardProps> = ({ icon, category, title, doc
         </div>
         <div className="text-left max-w-[80%]">
           <span className="text-sm text-gray-500 block">{category}</span>
-          <Link className="text-lg font-semibold text-gray-800 py-1 hover:bg-secondary" to={`/collection/${title}`}>{title}</Link>
+          <p className="text-lg font-semibold text-gray-800 py-1 " >{title}</p>
         </div>
       </div>
 
