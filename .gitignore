@@ -20,3 +20,6 @@ app/public/pdf
 
 # Rust build
 **/target
+
+# Node modules
+**/node_modules
