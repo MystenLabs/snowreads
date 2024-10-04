@@ -1,47 +1,32 @@
 import { IPaperCardContainerProps } from '../../interfaces/IPaperCardContainerProps';
+import { useNavigate } from 'react-router-dom';
 
 const PaperCardContainer: React.FC<IPaperCardContainerProps> = ({
   children,
-  documentCount,
-  sinceYear,
-  onFilterChange,
-  activeFilter,
+  cardTitle,
+  hasActionButton
 }) => {
+
+  const navigate = useNavigate();
+
   return (
     <div>
       <div className="bg-white border border-black rounded-lg p-6 space-y-4 mt-6">
         <div className="flex justify-between items-center mb-4">
           <div className="text-base font-medium">
-            {documentCount} Documents &nbsp; <span className="text-gray-600">Since {sinceYear}</span>
+            {cardTitle}
           </div>
-          <div className="flex space-x-4">
-            <button
-              className={`${
-                activeFilter === 'Recent' ? 'text-purple-600' : 'text-gray-600'
-              } hover:text-purple-600 text-sm`}
-              onClick={() => onFilterChange('Recent')}
-            >
-              Recent
-            </button>
-            <button
-              className={`${
-                activeFilter === 'New' ? 'text-purple-600' : 'text-gray-600'
-              } hover:text-purple-600 text-sm`}
-              onClick={() => onFilterChange('New')}
-            >
-              New
-            </button>
-            <button
-              className={`${
-                activeFilter === 'Current Month' ? 'text-purple-600' : 'text-gray-600'
-              } hover:text-purple-600 text-sm`}
-              onClick={() => onFilterChange('Current Month')}
-            >
-              Current Month
-            </button>
-          </div>
+          {hasActionButton ? (<div
+            className="text-sm font-medium text-gray-600 hover:underline cursor-pointer"
+            onClick={() => navigate(`/category/${cardTitle}`)}
+          >
+            View all
+          </div>) : ''}
         </div>
-        {children}
+        {/* Add padding-right and negative margin-right to push scrollbar right */}
+        <div className="overflow-y-auto pr-4" style={{ maxHeight: '600px', marginRight: '-1rem' }}>
+          {children}
+        </div>
       </div>
     </div>
   );

@@ -1,21 +1,15 @@
-import React from 'react';
 import { IAccessPaperCardProps } from '../../interfaces/IAccessPaperCardProps';
 
 
 const AccessPaperCard: React.FC<IAccessPaperCardProps> = ({
   fullPaperLink,
-  formatsLink,
   licenseLink,
-  references,
-  bookmarkLink,
-  redditAddress,
-  kdeAddress,
 }) => {
   return (
-    <aside className="w-1/5 px-4 md: "  >
-      <div className="bg-white p-4 shadow-lg rounded-lg border border-black">
+    <aside className="w-[200px] px-4 "  >
+      <div className="bg-white p-4  rounded-lg border border-black">
         <h2 className="text-lg font-medium mb-4 border-b border-gray-300 pb-2">Access paper</h2>
-        <ul className="space-y-2 mb-6">
+        <ul className="space-y-2 ">
           <li>
             <a 
               href={fullPaperLink} 
@@ -23,10 +17,10 @@ const AccessPaperCard: React.FC<IAccessPaperCardProps> = ({
               rel="noopener noreferrer" 
               className="text-black hover:underline"
             >
-              View Full Paper
+              View PDF
             </a>
           </li>
-          <li>
+          {/* <li>
             <a 
               href={formatsLink} 
               target="_blank" 
@@ -35,7 +29,7 @@ const AccessPaperCard: React.FC<IAccessPaperCardProps> = ({
             >
               Other Formats
             </a>
-          </li>
+          </li> */}
           <li>
             <a 
               href={licenseLink} 
@@ -47,7 +41,7 @@ const AccessPaperCard: React.FC<IAccessPaperCardProps> = ({
             </a>
           </li>
         </ul>
-        <h2 className="text-lg font-medium mb-4 border-b border-gray-300 pb-2">References & Citation</h2>
+        {/* <h2 className="text-lg font-medium mb-4 border-b border-gray-300 pb-2">References & Citation</h2>
         <ul className="space-y-2 mb-6">
           {references.map((ref, index) => (
             <li key={index}>
@@ -61,8 +55,8 @@ const AccessPaperCard: React.FC<IAccessPaperCardProps> = ({
               </a>
             </li>
           ))}
-        </ul>
-        <a 
+        </ul> */}
+        {/* <a 
           href={bookmarkLink} 
           target="_blank" 
           rel="noopener noreferrer" 
@@ -77,7 +71,7 @@ const AccessPaperCard: React.FC<IAccessPaperCardProps> = ({
           <a href={kdeAddress} target="_blank" rel="noopener noreferrer">
             <img src='/kde.png' alt="Kde" className="w-6 h-6" />
           </a>
-        </div>
+        </div> */}
       </div>
     </aside>
   );

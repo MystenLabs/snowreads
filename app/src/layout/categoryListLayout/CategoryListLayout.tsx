@@ -16,14 +16,21 @@ const CategoryListLayout: React.FC<ICategoryListLayout> = ({ collections }) => {
             selected={title!}
             type={"CATEGORIES"}
             categories={[
-              { id: 'Computer Science', label: 'Computer Science' },
-              { id: 'Physics', label: 'Physics' },
-              { id: 'Mathematics', label: 'Mathematics' },
+              { id: 'Artificial Intelligence', label: 'Artificial Intelligence' },
+              { id: 'Hardware Architecture', label: 'Hardware Architecture' },
+              { id: 'Computational Complexity', label: 'Computational Complexity' },
               { id: 'Quantitative Biology', label: 'Quantitative Biology' },
-              { id: 'Statistics', label: 'Statistics' },
-              { id: 'Economics', label: 'Economics' },
-              { id: 'Quantitative Finance', label: 'Quantitative Finance' },
-              { id: 'Electrical Engineering', label: 'Electrical Engineering and Systems Science' },
+              { id: 'Databases', label: 'Databases' },
+              { id: 'Digital Libraries', label: 'Digital Libraries' },
+              { id: 'Emerging Technologies', label: 'Emerging Technologies' },
+              { id: 'Graphics', label: 'Graphics' },
+              { id: 'Information Retrieval', label: 'Information Retrieval' },
+              { id: 'Multiagent Systems', label: 'Multiagent Systems' },
+              { id: 'Operating Systems', label: 'Operating Systems' },
+              { id: 'Programming Languages', label: 'Programming Languages' },
+              { id: 'Symbolic Computation', label: 'Symbolic Computation' },
+              { id: 'Software Engineering', label: 'Software Engineering' },
+              { id: 'Other Computer Science', label: 'Other Computer Science' },
             ]}
             papers={[
               {
