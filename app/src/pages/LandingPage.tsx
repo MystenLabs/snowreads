@@ -4,9 +4,12 @@ import InformationPopup from '../components/landingComponents/InformationPopup';
 import PaperCardContainer from '../components/categoryListComponents/PaperCardContainer';
 import { PaperCard } from '../components/categoryListComponents/PaperCard';
 import { Link } from 'react-router-dom';
+import { ISubCategory } from '../interfaces/IAllPapers';
 
-
-const LandingPage: React.FC = () => {
+const LandingPage = (props: {
+    artificialIntelligence: ISubCategory | null;
+    }
+) => {
 
   const [activeCategory, setActiveCategory] = useState("Computer Science");
   const categories = [
@@ -171,6 +174,21 @@ const LandingPage: React.FC = () => {
 
   ];
 
+  // Sort papers by most recent
+  props.artificialIntelligence?.papers.sort((lhs, rhs) => {
+    return rhs.timestamp - lhs.timestamp;
+  });
+  const artificial = (props.artificialIntelligence?.papers || []).map((paper) => {
+    return {
+      id: paper.id,
+      title: paper.title,
+      authors: paper.authorsParsed.map((author) => author.join(" ")).join(", "),
+      link: `/abs/${paper.id}`,
+      categories: "Artificial Intelligence",
+      arxiv_id: paper.id,
+    };
+  });
+
   return (
     <div className="flex flex-col items-center justify-start min-h-screen bg-primary pb-20">
       <img src="/walrus_globe.png" alt="Logo" className="w-full max-w-[350px] h-auto mb-8 p-10" />
@@ -221,7 +239,7 @@ const LandingPage: React.FC = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         {/* Make number of containers dynamic */}
         <PaperCardContainer cardTitle={"Artificial Intelligence"} hasActionButton={true}>
-          {papers.map((paper, index) => (
+          {artificial.map((paper, index) => (
             <PaperCard key={paper.id} paper={paper} index={index} hasVisibleIcon={true} />
           ))}
         </PaperCardContainer>

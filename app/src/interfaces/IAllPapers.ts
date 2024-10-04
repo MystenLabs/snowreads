@@ -5,660 +5,200 @@ export interface IPaperTrimmed {
     timestamp: number;
 };
 
+export interface ISubCategory {
+    count: number;
+    papers: IPaperTrimmed[];
+};
+
 export interface IAllPapers {
     count: number;
     "Astrophysics": {
         count: number;
-        "Astrophysics of Galaxies": {
-            count: number;
-            papers: IPaperTrimmed[];
-        };
-        "Cosmology and Nongalactic Astrophysics": {
-            count: number;
-            papers: IPaperTrimmed[];
-        };
-        "Earth and Planetary Astrophysics": {
-            count: number;
-            papers: IPaperTrimmed[];
-        };
-        "High Energy Astrophysical Phenomena": {
-            count: number;
-            papers: IPaperTrimmed[];
-        };
-        "Instrumentation and Methods for Astrophysics": {
-            count: number;
-            papers: IPaperTrimmed[];
-        };
-        "Solar and Stellar Astrophysics": {
-            count: number;
-            papers: IPaperTrimmed[];
-        };
+        "Astrophysics of Galaxies": ISubCategory;
+        "Cosmology and Nongalactic Astrophysics": ISubCategory;
+        "Earth and Planetary Astrophysics": ISubCategory;
+        "High Energy Astrophysical Phenomena": ISubCategory;
+        "Instrumentation and Methods for Astrophysics": ISubCategory;
+        "Solar and Stellar Astrophysics": ISubCategory;
     };
     "Condensed Matter": {
         count: number;
-        "Disordered Systems and Neural Networks": {
-            count: number;
-            papers: IPaperTrimmed[];
-        };
-        "Materials Science": {
-            count: number;
-            papers: IPaperTrimmed[];
-        };
-        "Mesoscale and Nanoscale Physics": {
-            count: number;
-            papers: IPaperTrimmed[];
-        };
-        "Other Condensed Matter": {
-            count: number;
-            papers: IPaperTrimmed[];
-        };
-        "Quantum Gases": {
-            count: number;
-            papers: IPaperTrimmed[];
-        };
-        "Soft Condensed Matter": {
-            count: number;
-            papers: IPaperTrimmed[];
-        };
-        "Statistical Mechanics": {
-            count: number;
-            papers: IPaperTrimmed[];
-        };
-        "Strongly Correlated Electrons": {
-            count: number;
-            papers: IPaperTrimmed[];
-        };
-        "Superconductivity": {
-            count: number;
-            papers: IPaperTrimmed[];
-        };
+        "Disordered Systems and Neural Networks": ISubCategory;
+        "Materials Science": ISubCategory;
+        "Mesoscale and Nanoscale Physics": ISubCategory;
+        "Other Condensed Matter": ISubCategory;
+        "Quantum Gases": ISubCategory;
+        "Soft Condensed Matter": ISubCategory;
+        "Statistical Mechanics": ISubCategory;
+        "Strongly Correlated Electrons": ISubCategory;
+        "Superconductivity": ISubCategory;
     };
     "Physics": {
         count: number;
-        "General Relativity and Quantum Cosmology": {
-            count: number;
-            papers: IPaperTrimmed[];
-        };
-        "High Energy Physics - Experiment": {
-            count: number;
-            papers: IPaperTrimmed[];
-        };
-        "High Energy Physics - Lattice": {
-            count: number;
-            papers: IPaperTrimmed[];
-        };
-        "High Energy Physics - Phenomenology": {
-            count: number;
-            papers: IPaperTrimmed[];
-        };
-        "High Energy Physics - Theory": {
-            count: number;
-            papers: IPaperTrimmed[];
-        };
-        "Mathematical Physics": {
-            count: number;
-            papers: IPaperTrimmed[];
-        };
-        "Nuclear Experiment": {
-            count: number;
-            papers: IPaperTrimmed[];
-        };
-        "Nuclear Theory": {
-            count: number;
-            papers: IPaperTrimmed[];
-        };
-        "Accelerator Physics": {
-            count: number;
-            papers: IPaperTrimmed[];
-        };
-        "Applied Physics": {
-            count: number;
-            papers: IPaperTrimmed[];
-        };
-        "Atmospheric and Oceanic Physics": {
-            count: number;
-            papers: IPaperTrimmed[];
-        };
-        "Atomic and Molecular Clusters": {
-            count: number;
-            papers: IPaperTrimmed[];
-        };
-        "Atomic Physics": {
-            count: number;
-            papers: IPaperTrimmed[];
-        };
-        "Biological Physics": {
-            count: number;
-            papers: IPaperTrimmed[];
-        };
-        "Chemical Physics": {
-            count: number;
-            papers: IPaperTrimmed[];
-        };
-        "Classical Physics": {
-            count: number;
-            papers: IPaperTrimmed[];
-        };
-        "Computational Physics": {
-            count: number;
-            papers: IPaperTrimmed[];
-        };
-        "Data Analysis, Statistics and Probability": {
-            count: number;
-            papers: IPaperTrimmed[];
-        };
-        "Fluid Dynamics": {
-            count: number;
-            papers: IPaperTrimmed[];
-        };
-        "General Physics": {
-            count: number;
-            papers: IPaperTrimmed[];
-        };
-        "Geophysics": {
-            count: number;
-            papers: IPaperTrimmed[];
-        };
-        "History and Philosophy of Physics": {
-            count: number;
-            papers: IPaperTrimmed[];
-        };
-        "Instrumentation and Detectors": {
-            count: number;
-            papers: IPaperTrimmed[];
-        };
-        "Medical Physics": {
-            count: number;
-            papers: IPaperTrimmed[];
-        };
-        "Optics": {
-            count: number;
-            papers: IPaperTrimmed[];
-        };
-        "Physics and Society": {
-            count: number;
-            papers: IPaperTrimmed[];
-        };
-        "Physics Education": {
-            count: number;
-            papers: IPaperTrimmed[];
-        };
-        "Plasma Physics": {
-            count: number;
-            papers: IPaperTrimmed[];
-        };
-        "Popular Physics": {
-            count: number;
-            papers: IPaperTrimmed[];
-        };
-        "Space Physics": {
-            count: number;
-            papers: IPaperTrimmed[];
-        };
-        "Quantum Physics": {
-            count: number;
-            papers: IPaperTrimmed[];
-        };
+        "General Relativity and Quantum Cosmology": ISubCategory;
+        "High Energy Physics - Experiment": ISubCategory;
+        "High Energy Physics - Lattice": ISubCategory;
+        "High Energy Physics - Phenomenology": ISubCategory;
+        "High Energy Physics - Theory": ISubCategory;
+        "Mathematical Physics": ISubCategory;
+        "Nuclear Experiment": ISubCategory;
+        "Nuclear Theory": ISubCategory;
+        "Accelerator Physics": ISubCategory;
+        "Applied Physics": ISubCategory;
+        "Atmospheric and Oceanic Physics": ISubCategory;
+        "Atomic and Molecular Clusters": ISubCategory;
+        "Atomic Physics": ISubCategory;
+        "Biological Physics": ISubCategory;
+        "Chemical Physics": ISubCategory;
+        "Classical Physics": ISubCategory;
+        "Computational Physics": ISubCategory;
+        "Data Analysis, Statistics and Probability": ISubCategory;
+        "Fluid Dynamics": ISubCategory;
+        "General Physics": ISubCategory;
+        "Geophysics": ISubCategory;
+        "History and Philosophy of Physics": ISubCategory;
+        "Instrumentation and Detectors": ISubCategory;
+        "Medical Physics": ISubCategory;
+        "Optics": ISubCategory;
+        "Physics and Society": ISubCategory;
+        "Physics Education": ISubCategory;
+        "Plasma Physics": ISubCategory;
+        "Popular Physics": ISubCategory;
+        "Space Physics": ISubCategory;
+        "Quantum Physics": ISubCategory;
 
     };
     "Nonlinear Sciences": {
         count: number;
-        "Adaptation and Self-Organizing Systems": {
-            count: number;
-            papers: IPaperTrimmed[];
-        };
-        "Cellular Automata and Lattice Gases": {
-            count: number;
-            papers: IPaperTrimmed[];
-        };
-        "Chaotic Dynamics": {
-            count: number;
-            papers: IPaperTrimmed[];
-        };
-        "Exactly Solvable and Integrable Systems": {
-            count: number;
-            papers: IPaperTrimmed[];
-        };
-        "Pattern Formation and Solitons": {
-            count: number;
-            papers: IPaperTrimmed[];
-        };
+        "Adaptation and Self-Organizing Systems": ISubCategory;
+        "Cellular Automata and Lattice Gases": ISubCategory;
+        "Chaotic Dynamics": ISubCategory;
+        "Exactly Solvable and Integrable Systems": ISubCategory;
+        "Pattern Formation and Solitons": ISubCategory;
     };
     "Mathematics": {
         count: number;
-        "Algebraic Geometry": {
-            count: number;
-            papers: IPaperTrimmed[];
-        };
-        "Algebraic Topology": {
-            count: number;
-            papers: IPaperTrimmed[];
-        };
-        "Analysis of PDEs": {
-            count: number;
-            papers: IPaperTrimmed[];
-        };
-        "Category Theory": {
-            count: number;
-            papers: IPaperTrimmed[];
-        };
-        "Classical Analysis and ODEs": {
-            count: number;
-            papers: IPaperTrimmed[];
-        };
-        "Combinatorics": {
-            count: number;
-            papers: IPaperTrimmed[];
-        };
-        "Commutative Algebra": {
-            count: number;
-            papers: IPaperTrimmed[];
-        };
-        "Complex Variables": {
-            count: number;
-            papers: IPaperTrimmed[];
-        };
-        "Differential Geometry": {
-            count: number;
-            papers: IPaperTrimmed[];
-        };
-        "Dynamical Systems": {
-            count: number;
-            papers: IPaperTrimmed[];
-        };
-        "Functional Analysis": {
-            count: number;
-            papers: IPaperTrimmed[];
-        };
-        "General Mathematics": {
-            count: number;
-            papers: IPaperTrimmed[];
-        };
-        "General Topology": {
-            count: number;
-            papers: IPaperTrimmed[];
-        };
-        "Geometric Topology": {
-            count: number;
-            papers: IPaperTrimmed[];
-        };
-        "Group Theory": {
-            count: number;
-            papers: IPaperTrimmed[];
-        };
-        "History and Overview": {
-            count: number;
-            papers: IPaperTrimmed[];
-        };
-        "Information Theory": {
-            count: number;
-            papers: IPaperTrimmed[];
-        };
-        "K-Theory and Homology": {
-            count: number;
-            papers: IPaperTrimmed[];
-        };
-        "Logic": {
-            count: number;
-            papers: IPaperTrimmed[];
-        };
-        "Mathematical Physics": {
-            count: number;
-            papers: IPaperTrimmed[];
-        };
-        "Metric Geometry": {
-            count: number;
-            papers: IPaperTrimmed[];
-        };
-        "Number Theory": {
-            count: number;
-            papers: IPaperTrimmed[];
-        };
-        "Numerical Analysis": {
-            count: number;
-            papers: IPaperTrimmed[];
-        };
-        "Operator Algebras": {
-            count: number;
-            papers: IPaperTrimmed[];
-        };
-        "Optimization and Control": {
-            count: number;
-            papers: IPaperTrimmed[];
-        };
-        "Probability": {
-            count: number;
-            papers: IPaperTrimmed[];
-        };
-        "Quantum Algebra": {
-            count: number;
-            papers: IPaperTrimmed[];
-        };
-        "Representation Theory": {
-            count: number;
-            papers: IPaperTrimmed[];
-        };
-        "Rings and Algebras": {
-            count: number;
-            papers: IPaperTrimmed[];
-        };
-        "Spectral Theory": {
-            count: number;
-            papers: IPaperTrimmed[];
-        };
-        "Statistics Theory": {
-            count: number;
-            papers: IPaperTrimmed[];
-        };
-        "Symplectic Geometry": {
-            count: number;
-            papers: IPaperTrimmed[];
-        };
+        "Algebraic Geometry": ISubCategory;
+        "Algebraic Topology": ISubCategory;
+        "Analysis of PDEs": ISubCategory;
+        "Category Theory": ISubCategory;
+        "Classical Analysis and ODEs": ISubCategory;
+        "Combinatorics": ISubCategory;
+        "Commutative Algebra": ISubCategory;
+        "Complex Variables": ISubCategory;
+        "Differential Geometry": ISubCategory;
+        "Dynamical Systems": ISubCategory;
+        "Functional Analysis": ISubCategory;
+        "General Mathematics": ISubCategory;
+        "General Topology": ISubCategory;
+        "Geometric Topology": ISubCategory;
+        "Group Theory": ISubCategory;
+        "History and Overview": ISubCategory;
+        "Information Theory": ISubCategory;
+        "K-Theory and Homology": ISubCategory;
+        "Logic": ISubCategory;
+        "Mathematical Physics": ISubCategory;
+        "Metric Geometry": ISubCategory;
+        "Number Theory": ISubCategory;
+        "Numerical Analysis": ISubCategory;
+        "Operator Algebras": ISubCategory;
+        "Optimization and Control": ISubCategory;
+        "Probability": ISubCategory;
+        "Quantum Algebra": ISubCategory;
+        "Representation Theory": ISubCategory;
+        "Rings and Algebras": ISubCategory;
+        "Spectral Theory": ISubCategory;
+        "Statistics Theory": ISubCategory;
+        "Symplectic Geometry": ISubCategory;
     };
-    "Computer Research Repository": {
+    "Computing Research Repository": {
         count: number;
-        "Artificial Intelligence": {
-            count: number;
-            papers: IPaperTrimmed[];
-        };
-        "Computation and Language": {
-            count: number;
-            papers: IPaperTrimmed[];
-        };
-        "Computational Complexity": {
-            count: number;
-            papers: IPaperTrimmed[];
-        };
-        "Computational Engineering, Finance, and Science": {
-            count: number;
-            papers: IPaperTrimmed[];
-        };
-        "Computational Geometry": {
-            count: number;
-            papers: IPaperTrimmed[];
-        };
-        "Computer Science and Game Theory": {
-            count: number;
-            papers: IPaperTrimmed[];
-        };
-        "Computer Vision and Pattern Recognition": {
-            count: number;
-            papers: IPaperTrimmed[];
-        };
-        "Computers and Society": {
-            count: number;
-            papers: IPaperTrimmed[];
-        };
-        "Cryptography and Security": {
-            count: number;
-            papers: IPaperTrimmed[];
-        };
-        "Data Structures and Algorithms": {
-            count: number;
-            papers: IPaperTrimmed[];
-        };
-        "Databases": {
-            count: number;
-            papers: IPaperTrimmed[];
-        };
-        "Digital Libraries": {
-            count: number;
-            papers: IPaperTrimmed[];
-        };
-        "Discrete Mathematics": {
-            count: number;
-            papers: IPaperTrimmed[];
-        };
-        "Distributed, Parallel, and Cluster Computing": {
-            count: number;
-            papers: IPaperTrimmed[];
-        };
-        "Emerging Technologies": {
-            count: number;
-            papers: IPaperTrimmed[];
-        };
-        "Formal Languages and Automata Theory": {
-            count: number;
-            papers: IPaperTrimmed[];
-        };
-        "General Literature": {
-            count: number;
-            papers: IPaperTrimmed[];
-        };
-        "Graphics": {
-            count: number;
-            papers: IPaperTrimmed[];
-        };
-        "Hardware Architecture": {
-            count: number;
-            papers: IPaperTrimmed[];
-        };
-        "Human-Computer Interaction": {
-            count: number;
-            papers: IPaperTrimmed[];
-        };
-        "Information Retrieval": {
-            count: number;
-            papers: IPaperTrimmed[];
-        };
-        "Information Theory": {
-            count: number;
-            papers: IPaperTrimmed[];
-        };
-        "Logic in Computer Science": {
-            count: number;
-            papers: IPaperTrimmed[];
-        };
-        "Machine Learning": {
-            count: number;
-            papers: IPaperTrimmed[];
-        };
-        "Mathematical Software": {
-            count: number;
-            papers: IPaperTrimmed[];
-        };
-        "Multiagent Systems": {
-            count: number;
-            papers: IPaperTrimmed[];
-        };
-        "Multimedia": {
-            count: number;
-            papers: IPaperTrimmed[];
-        };
-        "Networking and Internet Architecture": {
-            count: number;
-            papers: IPaperTrimmed[];
-        };
-        "Neural and Evolutionary Computing": {
-            count: number;
-            papers: IPaperTrimmed[];
-        };
-        "Numerical Analysis": {
-            count: number;
-            papers: IPaperTrimmed[];
-        };
-        "Operating Systems": {
-            count: number;
-            papers: IPaperTrimmed[];
-        };
-        "Other Computer Science": {
-            count: number;
-            papers: IPaperTrimmed[];
-        };
-        "Performance": {
-            count: number;
-            papers: IPaperTrimmed[];
-        };
-        "Programming Languages": {
-            count: number;
-            papers: IPaperTrimmed[];
-        };
-        "Robotics": {
-            count: number;
-            papers: IPaperTrimmed[];
-        };
-        "Social and Information Networks": {
-            count: number;
-            papers: IPaperTrimmed[];
-        };
-        "Software Engineering": {
-            count: number;
-            papers: IPaperTrimmed[];
-        };
-        "Sound": {
-            count: number;
-            papers: IPaperTrimmed[];
-        };
-        "Symbolic Computation": {
-            count: number;
-            papers: IPaperTrimmed[];
-        };
-        "Systems and Control": {
-            count: number;
-            papers: IPaperTrimmed[];
-        };
+        "Artificial Intelligence": ISubCategory;
+        "Computation and Language": ISubCategory;
+        "Computational Complexity": ISubCategory;
+        "Computational Engineering, Finance, and Science": ISubCategory;
+        "Computational Geometry": ISubCategory;
+        "Computer Science and Game Theory": ISubCategory;
+        "Computer Vision and Pattern Recognition": ISubCategory;
+        "Computers and Society": ISubCategory;
+        "Cryptography and Security": ISubCategory;
+        "Data Structures and Algorithms": ISubCategory;
+        "Databases": ISubCategory;
+        "Digital Libraries": ISubCategory;
+        "Discrete Mathematics": ISubCategory;
+        "Distributed, Parallel, and Cluster Computing": ISubCategory;
+        "Emerging Technologies": ISubCategory;
+        "Formal Languages and Automata Theory": ISubCategory;
+        "General Literature": ISubCategory;
+        "Graphics": ISubCategory;
+        "Hardware Architecture": ISubCategory;
+        "Human-Computer Interaction": ISubCategory;
+        "Information Retrieval": ISubCategory;
+        "Information Theory": ISubCategory;
+        "Logic in Computer Science": ISubCategory;
+        "Machine Learning": ISubCategory;
+        "Mathematical Software": ISubCategory;
+        "Multiagent Systems": ISubCategory;
+        "Multimedia": ISubCategory;
+        "Networking and Internet Architecture": ISubCategory;
+        "Neural and Evolutionary Computing": ISubCategory;
+        "Numerical Analysis": ISubCategory;
+        "Operating Systems": ISubCategory;
+        "Other Computer Science": ISubCategory;
+        "Performance": ISubCategory;
+        "Programming Languages": ISubCategory;
+        "Robotics": ISubCategory;
+        "Social and Information Networks": ISubCategory;
+        "Software Engineering": ISubCategory;
+        "Sound": ISubCategory;
+        "Symbolic Computation": ISubCategory;
+        "Systems and Control": ISubCategory;
     };
     "Quantitative Biology": {
         count: number;
-        "Biomolecules": {
-            count: number;
-            papers: IPaperTrimmed[];
-        };
-        "Cell Behavior": {
-            count: number;
-            papers: IPaperTrimmed[];
-        };
-        "Genomics": {
-            count: number;
-            papers: IPaperTrimmed[];
-        };
-        "Molecular Networks": {
-            count: number;
-            papers: IPaperTrimmed[];
-        };
-        "Neurons and Cognition": {
-            count: number;
-            papers: IPaperTrimmed[];
-        };
-        "Other Quantitative Biology": {
-            count: number;
-            papers: IPaperTrimmed[];
-        };
-        "Populations and Evolution": {
-            count: number;
-            papers: IPaperTrimmed[];
-        };
-        "Quantitative Methods": {
-            count: number;
-            papers: IPaperTrimmed[];
-        };
-        "Subcellular Processes": {
-            count: number;
-            papers: IPaperTrimmed[];
-        };
-        "Tissues and Organs": {
-            count: number;
-            papers: IPaperTrimmed[];
-        };
+        "Biomolecules": ISubCategory;
+        "Cell Behavior": ISubCategory;
+        "Genomics": ISubCategory;
+        "Molecular Networks": ISubCategory;
+        "Neurons and Cognition": ISubCategory;
+        "Other Quantitative Biology": ISubCategory;
+        "Populations and Evolution": ISubCategory;
+        "Quantitative Methods": ISubCategory;
+        "Subcellular Processes": ISubCategory;
+        "Tissues and Organs": ISubCategory;
     };
     "Quantitative Finance": {
         count: number;
-        "Computational Finance": {
-            count: number;
-            papers: IPaperTrimmed[];
-        };
-        "Economics": {
-            count: number;
-            papers: IPaperTrimmed[];
-        };
-        "General Finance": {
-            count: number;
-            papers: IPaperTrimmed[];
-        };
-        "Mathematical Finance": {
-            count: number;
-            papers: IPaperTrimmed[];
-        };
-        "Portfolio Management": {
-            count: number;
-            papers: IPaperTrimmed[];
-        };
-        "Pricing of Securities": {
-            count: number;
-            papers: IPaperTrimmed[];
-        };
-        "Risk Management": {
-            count: number;
-            papers: IPaperTrimmed[];
-        };
-        "Statistical Finance": {
-            count: number;
-            papers: IPaperTrimmed[];
-        };
-        "Trading and Market Microstructure": {
-            count: number;
-            papers: IPaperTrimmed[];
-        };
+        "Computational Finance": ISubCategory;
+        "Economics": ISubCategory;
+        "General Finance": ISubCategory;
+        "Mathematical Finance": ISubCategory;
+        "Portfolio Management": ISubCategory;
+        "Pricing of Securities": ISubCategory;
+        "Risk Management": ISubCategory;
+        "Statistical Finance": ISubCategory;
+        "Trading and Market Microstructure": ISubCategory;
     };
     "Statistics": {
         count: number;
-        "Applications": {
-            count: number;
-            papers: IPaperTrimmed[];
-        };
-        "Computation": {
-            count: number;
-            papers: IPaperTrimmed[];
-        };
-        "Machine Learning": {
-            count: number;
-            papers: IPaperTrimmed[];
-        };
-        "Methodology": {
-            count: number;
-            papers: IPaperTrimmed[];
-        };
-        "Other Statistics": {
-            count: number;
-            papers: IPaperTrimmed[];
-        };
-        "Statistics Theory": {
-            count: number;
-            papers: IPaperTrimmed[];
-        };
+        "Applications": ISubCategory;
+        "Computation": ISubCategory;
+        "Machine Learning": ISubCategory;
+        "Methodology": ISubCategory;
+        "Other Statistics": ISubCategory;
+        "Statistics Theory": ISubCategory;
     };
     "Electrical Engineering and Systems Science": {
         count: number;
-        "Audio and Speech Processing": {
-            count: number;
-            papers: IPaperTrimmed[];
-        };
-        "Image and Video Processing": {
-            count: number;
-            papers: IPaperTrimmed[];
-        };
-        "Signal Processing": {
-            count: number;
-            papers: IPaperTrimmed[];
-        };
-        "Systems and Control": {
-            count: number;
-            papers: IPaperTrimmed[];
-        };
+        "Audio and Speech Processing": ISubCategory;
+        "Image and Video Processing": ISubCategory;
+        "Signal Processing": ISubCategory;
+        "Systems and Control": ISubCategory;
     };
     "Economics": {
         count: number;
-        "Econometrics": {
-            count: number;
-            papers: IPaperTrimmed[];
-        };
-        "General Economics": {
-            count: number;
-            papers: IPaperTrimmed[];
-        };
-        "Theoretical Economics": {
-            count: number;
-            papers: IPaperTrimmed[];
-        };
+        "Econometrics": ISubCategory;
+        "General Economics": ISubCategory;
+        "Theoretical Economics": ISubCategory;
     };
 };
