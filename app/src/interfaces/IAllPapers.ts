@@ -66,7 +66,6 @@ export interface IAllPapers {
         "Popular Physics": ISubCategory;
         "Space Physics": ISubCategory;
         "Quantum Physics": ISubCategory;
-
     };
     "Nonlinear Sciences": {
         count: number;

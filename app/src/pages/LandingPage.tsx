@@ -7,9 +7,8 @@ import { Link } from 'react-router-dom';
 import { ISubCategory } from '../interfaces/IAllPapers';
 
 const LandingPage = (props: {
-    artificialIntelligence: ISubCategory | null;
-    }
-) => {
+  artificialIntelligence: ISubCategory | null;
+}) => {
 
   const [activeCategory, setActiveCategory] = useState("Computer Science");
   const categories = [
