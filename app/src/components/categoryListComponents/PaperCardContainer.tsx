@@ -5,6 +5,7 @@ const PaperCardContainer: React.FC<IPaperCardContainerProps> = ({
   children,
   cardTitle,
   hasActionButton,
+  count,
 }) => {
   const navigate = useNavigate();
 
@@ -31,6 +32,11 @@ const PaperCardContainer: React.FC<IPaperCardContainerProps> = ({
         >
           {children}
         </div>
+        {count ? (
+          <p className="text-sm font-base text-gray-600">{count} Documents</p>
+        ) : (
+          ""
+        )}
       </div>
     </div>
   );

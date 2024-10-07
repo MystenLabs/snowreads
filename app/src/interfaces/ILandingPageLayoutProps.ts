@@ -50,4 +50,5 @@ export interface ILandingPageLayoutProps {
       theoreticalEconomics: ISubCategory | null;
     };
   };
+  documentsCount: any;
 }

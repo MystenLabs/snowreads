@@ -15,6 +15,7 @@ function App() {
     useState<ISubCategory | null>(null); // 3rd
   const [computationalEngineering, setComputationalEngineering] =
     useState<ISubCategory | null>(null); // 4th
+  const [computerScienceCount, setComputerScienceCount] = useState<number>(0);
 
   const [
     generalRelativityAndQuantumCosmology,
@@ -26,6 +27,7 @@ function App() {
     useState<ISubCategory | null>(null); // 3rd
   const [highEnergyPhysicsPhenomenology, setHighEnergyPhysicsPhenomenology] =
     useState<ISubCategory | null>(null); // 4th
+  const [physicsCount, setPhysicsCount] = useState<number>(0);
 
   const [algebraicGeometry, setAlgebraicGeometry] =
     useState<ISubCategory | null>(null); // 1st subcategory of the Mathematics category
@@ -37,12 +39,15 @@ function App() {
   const [categoryTheory, setCategoryTheory] = useState<ISubCategory | null>(
     null
   ); // 4th
+  const [mathematicsCount, setMathematicsCount] = useState<number>(0);
 
   const [biomolecules, setBiomolecules] = useState<ISubCategory | null>(null); // 1st subcategory of the Quantitative Biology category
   const [cellBehavior, setCellBehavior] = useState<ISubCategory | null>(null); // 2nd
   const [genomics, setGenomics] = useState<ISubCategory | null>(null); // 3rd
   const [molecularNetworks, setMolecularNetworks] =
     useState<ISubCategory | null>(null); // 4th
+  const [quantitativeBiologyCount, setQuantitativeBiologyCount] =
+    useState<number>(0);
 
   const [computationalFinance, setComputationalFinance] =
     useState<ISubCategory | null>(null); // 1st subcategory of the Quantitative Finance category
@@ -53,6 +58,8 @@ function App() {
   ); // 3rd
   const [mathematicalFinance, setMathematicalFinance] =
     useState<ISubCategory | null>(null); // 4th
+  const [quantitativeFinanceCount, setQuantitativeFinanceCount] =
+    useState<number>(0);
 
   const [applications, setApplications] = useState<ISubCategory | null>(null); // 1st subcategory of the Statistics category
   const [computation, setComputation] = useState<ISubCategory | null>(null); // 2nd
@@ -60,6 +67,7 @@ function App() {
     null
   ); // 3rd
   const [methodology, setMethodology] = useState<ISubCategory | null>(null); // 4th
+  const [statisticsCount, setStatisticsCount] = useState<number>(0);
 
   const [audioAndSpeechProcessing, setAudioAndSpeechProcessing] =
     useState<ISubCategory | null>(null); // 1st subcategory of the Electrical Engineering and Systems Science category
@@ -70,13 +78,18 @@ function App() {
   ); // 3rd
   const [systemsAndControl, setSystemsAndControl] =
     useState<ISubCategory | null>(null); // 4th
+  const [
+    electricalEngineeringAndSystemsScienceCount,
+    setElectricalEngineeringAndSystemsScienceCount,
+  ] = useState<number>(0);
 
   const [econometrics, setEconometrics] = useState<ISubCategory | null>(null); // 1st subcategory of the Economics category
   const [generalEconomics, setGeneralEconomics] = useState<ISubCategory | null>(
     null
   ); // 2nd
   const [theoreticalEconomics, setTheoreticalEconomics] =
-    useState<ISubCategory | null>(null); //
+    useState<ISubCategory | null>(null); // 3rd
+  const [economicsCount, setEconomicsCount] = useState<number>(0);
 
   const [loading, setLoading] = useState(true); // Loading state
   const [error, setError] = useState<null | string>(null); // Error state
@@ -107,6 +120,7 @@ function App() {
             "Computational Engineering, Finance, and Science"
           ]
         );
+        setComputerScienceCount(data["Computing Research Repository"].count);
         //Physics category
         setGeneralRelativityAndQuantumCosmology(
           data["Physics"]["General Relativity and Quantum Cosmology"]
@@ -120,11 +134,13 @@ function App() {
         setHighEnergyPhysicsPhenomenology(
           data["Physics"]["High Energy Physics - Phenomenology"]
         );
+        setPhysicsCount(data["Physics"].count);
         //Mathematics category
         setAlgebraicGeometry(data["Mathematics"]["Algebraic Geometry"]);
         setAlgebraicTopology(data["Mathematics"]["Algebraic Topology"]);
         setAnalysisOfPDEs(data["Mathematics"]["Analysis of PDEs"]);
         setCategoryTheory(data["Mathematics"]["Category Theory"]);
+        setMathematicsCount(data["Mathematics"].count);
         //Quantitive biology category
         setBiomolecules(data["Quantitative Biology"]["Biomolecules"]);
         setCellBehavior(data["Quantitative Biology"]["Cell Behavior"]);
@@ -132,6 +148,7 @@ function App() {
         setMolecularNetworks(
           data["Quantitative Biology"]["Molecular Networks"]
         );
+        setQuantitativeBiologyCount(data["Quantitative Biology"].count);
         //Quantitive finance
         setComputationalFinance(
           data["Quantitative Finance"]["Computational Finance"]
@@ -143,11 +160,13 @@ function App() {
         setMathematicalFinance(
           data["Quantitative Finance"]["Mathematical Finance"]
         );
+        setQuantitativeFinanceCount(data["Quantitative Finance"].count);
         //Statistics
         setApplications(data["Statistics"]["Applications"]);
         setComputation(data["Statistics"]["Computation"]);
         setMachineLearning(data["Statistics"]["Machine Learning"]);
         setMethodology(data["Statistics"]["Methodology"]);
+        setStatisticsCount(data["Statistics"].count);
         //Electrical Engineering and Systems Science
         setAudioAndSpeechProcessing(
           data["Electrical Engineering and Systems Science"][
@@ -169,10 +188,14 @@ function App() {
             "Systems and Control"
           ]
         );
+        setElectricalEngineeringAndSystemsScienceCount(
+          data["Electrical Engineering and Systems Science"].count
+        );
         //Economics
         setEconometrics(data["Economics"]["Econometrics"]);
         setGeneralEconomics(data["Economics"]["General Economics"]);
         setTheoreticalEconomics(data["Economics"]["Theoretical Economics"]);
+        setEconomicsCount(data["Economics"].count);
 
         setLoading(false);
       })
@@ -182,6 +205,19 @@ function App() {
         setLoading(false);
       });
   }, []);
+
+  const documentsCount = {
+    "Computer Science": { count: computerScienceCount },
+    Physics: { count: physicsCount },
+    Mathematics: { count: mathematicsCount },
+    "Quantitative Biology": { count: quantitativeBiologyCount },
+    "Quantitative Finance": { count: quantitativeFinanceCount },
+    Statistics: { count: statisticsCount },
+    "Electrical Engineering and Systems Science": {
+      count: electricalEngineeringAndSystemsScienceCount,
+    },
+    Economics: { count: economicsCount },
+  };
 
   const allCategoriesSelectedData = {
     computerScience: {
@@ -240,10 +276,13 @@ function App() {
           <Route
             path="/"
             element={
-              <LandingPageLayout allCategories={allCategoriesSelectedData} />
+              <LandingPageLayout
+                allCategories={allCategoriesSelectedData}
+                documentsCount={documentsCount}
+              />
             }
           />
-          <Route path="/abs/:doi" element={<PaperLayout />} />
+          <Route path="/abs/:arxiv_id" element={<PaperLayout />} />
           <Route path="/category/:title" element={<CategoryListLayout />} />
           <Route
             path="/collection/:title"

@@ -7,7 +7,10 @@ import { Link } from "react-router-dom";
 import { ILandingPageLayoutProps } from "../interfaces/ILandingPageLayoutProps";
 import { ISubCategory } from "../interfaces/IAllPapers";
 
-const LandingPage: React.FC<ILandingPageLayoutProps> = ({ allCategories }) => {
+const LandingPage: React.FC<ILandingPageLayoutProps> = ({
+  allCategories,
+  documentsCount,
+}) => {
   type CategoryType =
     | "Computer Science"
     | "Physics"
@@ -116,24 +119,7 @@ const LandingPage: React.FC<ILandingPageLayoutProps> = ({ allCategories }) => {
     const result = s.replace(/([A-Z])/g, " $1");
     return result.charAt(0).toUpperCase() + result.slice(1);
   }
-  // Sort papers by most recent
-  allCategories.computerScience.artificialIntelligence?.papers.sort(
-    (lhs, rhs) => {
-      return rhs.timestamp - lhs.timestamp;
-    }
-  );
-  const artificial = (
-    allCategories.computerScience.artificialIntelligence?.papers || []
-  ).map((paper) => {
-    return {
-      id: paper.id,
-      title: paper.title,
-      authors: paper.authorsParsed.map((author) => author.join(" ")).join(", "),
-      link: `/abs/${paper.id}`,
-      categories: "Artificial Intelligence",
-      arxiv_id: paper.id,
-    };
-  });
+  // console.log(documentsCount[activeCategory].count);
 
   return (
     <div className="flex flex-col items-center justify-start min-h-screen bg-primary pb-20">
@@ -165,12 +151,12 @@ const LandingPage: React.FC<ILandingPageLayoutProps> = ({ allCategories }) => {
         ))}
       </div>
 
-      <div className="pt-20 pb-10 flex flex-col items-center">
+      <div className="pt-20 pb-10 flex flex-col items-center  max-w-[1200px]">
         <h1 className="text-3xl text-center">Browse All Categories</h1>
         <p className="text-sm pt-5">240 MB</p>
       </div>
 
-      <div className="flex flex-wrap justify-center gap-4 my-4 lg:px-60 md:px-40">
+      <div className="flex flex-wrap justify-center gap-4 my-4    max-w-[1200px]">
         {categories.map((category) => (
           <button
             key={category}
@@ -193,6 +179,7 @@ const LandingPage: React.FC<ILandingPageLayoutProps> = ({ allCategories }) => {
                   key={subCategoryName}
                   cardTitle={camelCaseToWords(subCategoryName)}
                   hasActionButton={true}
+                  count={subCategoryData.count}
                 >
                   {subCategoryData.papers.length > 0 ? (
                     subCategoryData.papers
@@ -208,6 +195,7 @@ const LandingPage: React.FC<ILandingPageLayoutProps> = ({ allCategories }) => {
                           link: `/abs/${paper.id}`,
                           arxiv_id: paper.id,
                         };
+
                         return (
                           <PaperCard
                             key={mappedPaper.id}
@@ -235,8 +223,8 @@ const LandingPage: React.FC<ILandingPageLayoutProps> = ({ allCategories }) => {
             >
               View all in {activeCategory}
             </Link>
-            <div className="text-sm font-medium text-gray-600 hover:underline cursor-pointer">
-              5,242 documents, 420MB
+            <div className="text-sm font-medium text-gray-600 ">
+              {documentsCount[activeCategory].count}
             </div>
           </div>
         </div>
