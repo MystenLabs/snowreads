@@ -44,7 +44,7 @@ if (!paper) {
 }
 
 if (!paper.license || !allowedLicenses.includes(paper.license)) {
-    console.log('Not allowed');
+    console.log(`License: ${paper.license} is not allowed`);
     process.exit(0);
 }
 console.log("Allowed");
