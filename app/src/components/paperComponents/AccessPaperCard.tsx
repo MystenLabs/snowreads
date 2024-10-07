@@ -1,20 +1,21 @@
-import { IAccessPaperCardProps } from '../../interfaces/IAccessPaperCardProps';
-
+import { IAccessPaperCardProps } from "../../interfaces/IAccessPaperCardProps";
 
 const AccessPaperCard: React.FC<IAccessPaperCardProps> = ({
   fullPaperLink,
   licenseLink,
 }) => {
   return (
-    <aside className="w-[200px] px-4 "  >
+    <aside className="w-[200px] px-4 ">
       <div className="bg-white p-4  rounded-lg border border-black">
-        <h2 className="text-lg font-medium mb-4 border-b border-gray-300 pb-2">Access paper</h2>
+        <h2 className="text-lg font-medium mb-4 border-b border-gray-300 pb-2">
+          Access paper
+        </h2>
         <ul className="space-y-2 ">
           <li>
-            <a 
-              href={fullPaperLink} 
-              target="_blank" 
-              rel="noopener noreferrer" 
+            <a
+              href={fullPaperLink}
+              target="_blank"
+              rel="noopener noreferrer"
               className="text-black hover:underline"
             >
               View PDF
@@ -31,10 +32,10 @@ const AccessPaperCard: React.FC<IAccessPaperCardProps> = ({
             </a>
           </li> */}
           <li>
-            <a 
-              href={licenseLink} 
-              target="_blank" 
-              rel="noopener noreferrer" 
+            <a
+              href={licenseLink}
+              target="_blank"
+              rel="noopener noreferrer"
               className="text-black hover:underline"
             >
               View License
