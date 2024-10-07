@@ -4,11 +4,10 @@ import InformationPopup from '../components/landingComponents/InformationPopup';
 import PaperCardContainer from '../components/categoryListComponents/PaperCardContainer';
 import { PaperCard } from '../components/categoryListComponents/PaperCard';
 import { Link } from 'react-router-dom';
-import { ISubCategory } from '../interfaces/IAllPapers';
+import { ILandingPageLayoutProps } from '../interfaces/ILandingPageLayoutProps';
 
-const LandingPage = (props: {
-  artificialIntelligence: ISubCategory | null;
-}) => {
+
+const LandingPage: React.FC<ILandingPageLayoutProps> = ({ allCategories }) => {
 
   const [activeCategory, setActiveCategory] = useState("Computer Science");
   const categories = [
@@ -174,10 +173,10 @@ const LandingPage = (props: {
   ];
 
   // Sort papers by most recent
-  props.artificialIntelligence?.papers.sort((lhs, rhs) => {
+  allCategories.computerScience.artificialIntelligence?.papers.sort((lhs, rhs) => {
     return rhs.timestamp - lhs.timestamp;
   });
-  const artificial = (props.artificialIntelligence?.papers || []).map((paper) => {
+  const artificial = (allCategories.computerScience.artificialIntelligence?.papers || []).map((paper) => {
     return {
       id: paper.id,
       title: paper.title,
@@ -237,6 +236,16 @@ const LandingPage = (props: {
     <div className="container mx-auto p-4 max-w-[1200px]">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         {/* Make number of containers dynamic */}
+        <PaperCardContainer cardTitle={"Artificial Intelligence"} hasActionButton={true}>
+          {artificial.map((paper, index) => (
+            <PaperCard key={paper.id} paper={paper} index={index} hasVisibleIcon={true} />
+          ))}
+        </PaperCardContainer>
+        <PaperCardContainer cardTitle={"Computation and Language"} hasActionButton={true}>
+          {papers.map((paper, index) => (
+            <PaperCard key={paper.id} paper={paper} index={index} hasVisibleIcon={true} />
+          ))}
+        </PaperCardContainer>
         <PaperCardContainer cardTitle={"Artificial Intelligence"} hasActionButton={true}>
           {artificial.map((paper, index) => (
             <PaperCard key={paper.id} paper={paper} index={index} hasVisibleIcon={true} />

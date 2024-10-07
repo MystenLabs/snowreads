@@ -1,15 +1,13 @@
 import Footer from '../Footer';
 import LandingPage from '../../pages/LandingPage';
-import { ISubCategory } from '../../interfaces/IAllPapers';
+import { ILandingPageLayoutProps } from '../../interfaces/ILandingPageLayoutProps';
 
-function LandingPageLayout({artificialIntelligence}: {
-    artificialIntelligence: ISubCategory | null;
-}) {
+const LandingPageLayout: React.FC<ILandingPageLayoutProps> = ({ allCategories }) => {
 
   return (
     <div className="flex flex-col h-screen">
       <div className="flex-grow overflow-y-auto">
-        <LandingPage artificialIntelligence={artificialIntelligence}/>
+        <LandingPage allCategories={allCategories}/>
       </div>
       <Footer />
     </div>
