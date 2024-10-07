@@ -1,4 +1,3 @@
 export interface ICategoryListLayout {
-    collections?: boolean;
-  }
-  
+  collections?: boolean;
+}

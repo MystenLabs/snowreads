@@ -1,6 +1,6 @@
-import React from 'react';
-import { useNavigate } from 'react-router-dom';
-import Header from '../layout/Header';
+import React from "react";
+import { useNavigate } from "react-router-dom";
+import Header from "../layout/Header";
 
 const Custom404: React.FC = () => {
   const navigate = useNavigate();
@@ -14,11 +14,10 @@ const Custom404: React.FC = () => {
       <Header />
       <section className="flex flex-col items-center justify-center h-screen bg-primary px-6">
         <div className="relative bg-white p-10 rounded-lg shadow-md text-center">
-          <img 
-            src="/walrus.png" 
-            alt="Walrus" 
+          <img
+            src="/walrus.png"
+            alt="Walrus"
             className="absolute w-40 -top-20 left-1/2 transform -translate-x-1/2 z-0"
-
           />
           <div className="relative z-10">
             <h1 className="text-4xl font-bold text-purple-600 mb-4">404</h1>
@@ -26,13 +25,16 @@ const Custom404: React.FC = () => {
             <p className="text-gray-600 mb-6">
               Oops! The page you're looking for doesn't exist or has been moved.
             </p>
-            <button 
+            <button
               onClick={handleGoBack}
               className="px-6 py-2 bg-purple-600 text-white rounded-lg shadow hover:bg-purple-700 transition duration-300 mb-4"
             >
               Go Back
             </button>
-            <a href="/" className="block text-purple-600 hover:underline text-sm">
+            <a
+              href="/"
+              className="block text-purple-600 hover:underline text-sm"
+            >
               Go to Homepage
             </a>
           </div>

@@ -1,7 +1,7 @@
-import Header from '../Header';
-import AbstractPage from '../../pages/AbstractPage';
-import { useParams } from 'react-router-dom';
-import Footer from '../Footer';
+import Header from "../Header";
+import AbstractPage from "../../pages/AbstractPage";
+import { useParams } from "react-router-dom";
+import Footer from "../Footer";
 
 function PaperLayout() {
   const { arxiv_id } = useParams<{ arxiv_id: string }>();

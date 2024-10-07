@@ -1,6 +1,6 @@
 export interface IButtonProps {
-    content: string;
-    onClick?: () => void;
-    primary?: boolean;
-    href?: string;
+  content: string;
+  onClick?: () => void;
+  primary?: boolean;
+  href?: string;
 }
