@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { ISidebarNavProps } from "../../interfaces/ISidebarNavProps";
+import { useNavigate, useParams } from "react-router-dom";
 
 const SidebarNav: React.FC<ISidebarNavProps> = ({
   sections,
@@ -8,10 +9,13 @@ const SidebarNav: React.FC<ISidebarNavProps> = ({
   activeColor = "#8B28D2",
   inactiveColor = "gray-900",
   hoverColor = "#8B28D2",
+  mode = "redirect", // Default mode is redirect
 }) => {
   const [activeLink, setActiveLink] = useState(
     initialActive || sections[0]?.id || ""
   );
+  const navigate = useNavigate();
+  const { category } = useParams();
 
   useEffect(() => {
     if (initialActive) {
@@ -21,6 +25,17 @@ const SidebarNav: React.FC<ISidebarNavProps> = ({
 
   const handleLinkClick = (sectionId: string) => {
     setActiveLink(sectionId);
+
+    if (mode === "redirect") {
+      // Default behavior - just update the anchor link
+      window.location.href = `#${sectionId}`;
+    } else if (mode === "fetch") {
+      // Change the URL and trigger a re-fetch based on the selected subcategory
+      if (category) {
+        // Update the URL with the selected subcategory
+        navigate(`/category/${category}/${sectionId}`);
+      }
+    }
   };
 
   return (

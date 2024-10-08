@@ -3,8 +3,10 @@ import { useNavigate } from "react-router-dom";
 
 const PaperCardContainer: React.FC<IPaperCardContainerProps> = ({
   children,
+  category,
   cardTitle,
   hasActionButton,
+  maxHeight,
   count,
 }) => {
   const navigate = useNavigate();
@@ -17,7 +19,7 @@ const PaperCardContainer: React.FC<IPaperCardContainerProps> = ({
           {hasActionButton ? (
             <div
               className="text-sm font-medium text-gray-600 hover:underline cursor-pointer"
-              onClick={() => navigate(`/category/${cardTitle}`)}
+              onClick={() => navigate(`/category/${category}/${cardTitle}`)}
             >
               View all
             </div>
@@ -28,7 +30,7 @@ const PaperCardContainer: React.FC<IPaperCardContainerProps> = ({
         {/* Add padding-right and negative margin-right to push scrollbar right */}
         <div
           className="overflow-y-auto pr-4"
-          style={{ maxHeight: "600px", marginRight: "-1rem" }}
+          style={{ maxHeight: maxHeight, marginRight: "-1rem" }}
         >
           {children}
         </div>

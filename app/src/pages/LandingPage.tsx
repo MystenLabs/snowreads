@@ -119,7 +119,6 @@ const LandingPage: React.FC<ILandingPageLayoutProps> = ({
     const result = s.replace(/([A-Z])/g, " $1");
     return result.charAt(0).toUpperCase() + result.slice(1);
   }
-  // console.log(documentsCount[activeCategory].count);
 
   return (
     <div className="flex flex-col items-center justify-start min-h-screen bg-primary pb-20">
@@ -177,9 +176,11 @@ const LandingPage: React.FC<ILandingPageLayoutProps> = ({
               subCategoryData ? (
                 <PaperCardContainer
                   key={subCategoryName}
+                  category={activeCategory}
                   cardTitle={camelCaseToWords(subCategoryName)}
                   hasActionButton={true}
                   count={subCategoryData.count}
+                  maxHeight="600px"
                 >
                   {subCategoryData.papers.length > 0 ? (
                     subCategoryData.papers
@@ -224,7 +225,7 @@ const LandingPage: React.FC<ILandingPageLayoutProps> = ({
               View all in {activeCategory}
             </Link>
             <div className="text-sm font-medium text-gray-600 ">
-              {documentsCount[activeCategory].count}
+              {documentsCount[activeCategory].count} Documents
             </div>
           </div>
         </div>

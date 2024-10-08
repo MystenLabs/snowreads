@@ -12,6 +12,12 @@ const AbstractPage: React.FC<IAbstractPageProps> = ({ arxiv_id }) => {
     string | null
   >(null);
 
+  const [abstractHeight, setAbstractHeight] = useState<number>(0);
+
+  const handleAbstractHeightChange = (height: number) => {
+    setAbstractHeight(height);
+  };
+
   useEffect(() => {
     // Fetch data from the {arxiv_id}.json file
     const fetchPaperData = async () => {
@@ -52,23 +58,14 @@ const AbstractPage: React.FC<IAbstractPageProps> = ({ arxiv_id }) => {
           })),
           abstract: data.abstract,
           subjects: data.subjects.join(", "),
+          license: data.license,
           citation: `arXiv:${data.id} [${data.subjects[0]}]`,
           submissionHistory: data.versions
             .map((version: any) => `[${version.version}] ${version.created}`)
             .join(", "),
         };
 
-        const referencesData = [
-          { name: "NASA ADS", link: "https://ui.adsabs.harvard.edu/" },
-          { name: "Google Scholar", link: "https://scholar.google.com/" },
-          {
-            name: "Semantic Scholar",
-            link: "https://www.semanticscholar.org/",
-          },
-          { name: "Export BibTeX Citation", link: "#" },
-        ];
-
-        setPaperData({ paperDetails, referencesData });
+        setPaperData({ paperDetails });
         setIsLoading(false);
       } catch (error) {
         console.error("Error fetching paper data:", error);
@@ -85,6 +82,7 @@ const AbstractPage: React.FC<IAbstractPageProps> = ({ arxiv_id }) => {
     <div className="flex flex-col items-center">
       <main className="flex flex-col md:flex-row w-full min-h-screen bg-primary px-4 md:px-6 py-6 lg:max-w-[1100px]">
         <SidebarNav
+          mode="redirect"
           sections={[
             { id: "article", label: "Article" },
             { id: "subjects", label: "Subjects" },
@@ -103,15 +101,12 @@ const AbstractPage: React.FC<IAbstractPageProps> = ({ arxiv_id }) => {
           citation={paperData.paperDetails.citation}
           submissionHistory={paperData.paperDetails.submissionHistory}
           submissionAndUpdateText={submissionAndUpdateText!}
+          license={paperData.paperDetails.license}
+          onAbstractHeightChange={handleAbstractHeightChange}
         />
         <AccessPaperCard
-          fullPaperLink="/pdf/hep-th0001021.pdf"
-          formatsLink="https://example.com/formats"
-          licenseLink="https://example.com/license"
-          references={paperData.referencesData}
-          bookmarkLink="https://example.com/bookmark"
-          redditAddress="https://reddit.com"
-          kdeAddress=""
+          fullPaperLink={`/pdf/${arxiv_id}`}
+          dynamicMarginTop={abstractHeight}
         />
       </main>
     </div>

@@ -7,8 +7,7 @@ interface IPaper {
   arxiv_id: string;
 }
 export interface ICategoryListPageProps {
-  categories: Array<{ id: string; label: string }>;
+  categories?: Array<{ id: string; label: string }>;
   papers: IPaper[];
-  selected: string;
   type: string;
 }
