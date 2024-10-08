@@ -1,7 +1,7 @@
 #!/bin/bash
 
-# Change this according to where you placed the tar files
 script_dir=$(dirname "$0")
+# Change this according to where you placed the tar files
 FOLDER_2407_PATH="${script_dir}/../data/2407"
 FOLDER_2408_PATH="${script_dir}/../data/2408"
 
