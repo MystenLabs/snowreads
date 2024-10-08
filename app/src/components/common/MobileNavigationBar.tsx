@@ -1,11 +1,15 @@
 import { useState, useEffect } from "react";
 import { IMobileNavigationBarProps } from "../../interfaces/ISidebarNavProps";
+import { useNavigate, useParams } from "react-router-dom";
 
 const MobileNavigationBar: React.FC<IMobileNavigationBarProps> = ({
   options,
+  mode = "scroll", // Default mode is scroll
 }) => {
   const [isOpen, setIsOpen] = useState(false);
   const [selectedOption, setSelectedOption] = useState<string | null>(null);
+  const navigate = useNavigate();
+  const { category } = useParams();
 
   useEffect(() => {
     if (options.length > 0) {
@@ -16,9 +20,18 @@ const MobileNavigationBar: React.FC<IMobileNavigationBarProps> = ({
   const handleOptionClick = (id: string) => {
     setSelectedOption(id);
     setIsOpen(false);
-    const targetElement = document.getElementById(id);
-    if (targetElement) {
-      targetElement.scrollIntoView({ behavior: "smooth" });
+
+    if (mode === "scroll") {
+      // Default behavior - scroll to the target element
+      const targetElement = document.getElementById(id);
+      if (targetElement) {
+        targetElement.scrollIntoView({ behavior: "smooth" });
+      }
+    } else if (mode === "fetch") {
+      // Change the URL and trigger a re-fetch based on the selected subcategory
+      if (category) {
+        navigate(`/category/${category}/${id}`);
+      }
     }
   };
 

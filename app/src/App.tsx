@@ -107,20 +107,20 @@ function App() {
         console.log(data);
         // Computer Science category
         setArtificialIntelligence(
-          data["Computing Research Repository"]["Artificial Intelligence"]
+          data["Computer Science"]["Artificial Intelligence"]
         );
         setComputationAndLanguage(
-          data["Computing Research Repository"]["Computation and Language"]
+          data["Computer Science"]["Computation and Language"]
         );
         setComputationalComplexity(
-          data["Computing Research Repository"]["Computational Complexity"]
+          data["Computer Science"]["Computational Complexity"]
         );
         setComputationalEngineering(
-          data["Computing Research Repository"][
+          data["Computer Science"][
             "Computational Engineering, Finance, and Science"
           ]
         );
-        setComputerScienceCount(data["Computing Research Repository"].count);
+        setComputerScienceCount(data["Computer Science"].count);
         //Physics category
         setGeneralRelativityAndQuantumCosmology(
           data["Physics"]["General Relativity and Quantum Cosmology"]
@@ -283,7 +283,11 @@ function App() {
             }
           />
           <Route path="/abs/:arxiv_id" element={<PaperLayout />} />
-          <Route path="/category/:title" element={<CategoryListLayout />} />
+          <Route path="/category/:category" element={<CategoryListLayout />} />
+          <Route
+            path="/category/:category/:subcategory"
+            element={<CategoryListLayout />}
+          />
           <Route
             path="/collection/:title"
             element={<CategoryListLayout collections={true} />}

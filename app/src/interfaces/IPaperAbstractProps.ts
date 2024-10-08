@@ -8,4 +8,6 @@ export interface IPaperAbstractProps {
   citation: string;
   submissionHistory: string;
   submissionAndUpdateText: string;
+  license: string;
+  onAbstractHeightChange: (height: number) => void;
 }

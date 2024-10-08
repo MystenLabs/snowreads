@@ -8,7 +8,9 @@ export interface ISidebarNavProps {
   inactiveColor?: string;
   hoverColor?: string;
   type: string;
+  mode?: "redirect" | "fetch";
 }
 export interface IMobileNavigationBarProps {
   options: { label: string; id: string }[];
+  mode?: "scroll" | "fetch";
 }
