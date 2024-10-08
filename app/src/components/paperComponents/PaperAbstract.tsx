@@ -16,7 +16,9 @@ const PaperAbstract: React.FC<IPaperAbstractProps> = ({
   onAbstractHeightChange,
 }) => {
   const abstractRef = useRef<HTMLParagraphElement>(null);
+
   const [abstractYPosition, setAbstractYPosition] = useState<number>(0);
+  console.log(abstractYPosition);
 
   useEffect(() => {
     if (abstractRef.current) {

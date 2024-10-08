@@ -91,9 +91,6 @@ function App() {
     useState<ISubCategory | null>(null); // 3rd
   const [economicsCount, setEconomicsCount] = useState<number>(0);
 
-  const [loading, setLoading] = useState(true); // Loading state
-  const [error, setError] = useState<null | string>(null); // Error state
-
   useEffect(() => {
     // Fetch the JSON resource
     fetch("/papers.json")
@@ -196,13 +193,10 @@ function App() {
         setGeneralEconomics(data["Economics"]["General Economics"]);
         setTheoreticalEconomics(data["Economics"]["Theoretical Economics"]);
         setEconomicsCount(data["Economics"].count);
-
-        setLoading(false);
       })
       .catch((error) => {
         console.log(error);
-        setError(error);
-        setLoading(false);
+        //setError(error);
       });
   }, []);
 
