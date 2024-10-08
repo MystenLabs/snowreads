@@ -1,1 +1,3 @@
 *.json
+!combine/oai-metadata.json
+!combine/package.json
