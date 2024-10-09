@@ -16,6 +16,12 @@ if ! command -v ts-node &> /dev/null; then
     exit 1
 fi
 
+# Make sure the script is run with more than 1 argument
+if [ "$#" -lt 1 ]; then
+    echo "Usage: $0 <tar_file> <tar_file> ..."
+    exit 1
+fi
+
 
 script_dir=$(dirname "$0")
 # Constants
