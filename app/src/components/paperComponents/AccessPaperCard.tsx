@@ -27,8 +27,12 @@ const AccessPaperCard: React.FC<IAccessPaperCardProps> = ({
 
   return (
     <aside
-      className="w-[200px] px-4"
-      style={isLargeScreen ? { marginTop: `${dynamicMarginTop - 80}px` } : {}}
+      className="md:w-[180px] "
+      style={
+        isLargeScreen && dynamicMarginTop
+          ? { marginTop: `${dynamicMarginTop - 80}px` }
+          : {}
+      }
     >
       <div className="bg-white p-4  rounded-lg border border-black">
         <h2 className="text-lg font-medium mb-4 border-b border-gray-300 pb-2">

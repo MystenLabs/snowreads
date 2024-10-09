@@ -1,3 +1,3 @@
 export interface ICategoryListLayout {
-  collections?: boolean;
+  label: string;
 }

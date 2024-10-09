@@ -9,5 +9,5 @@ interface IPaper {
 export interface ICategoryListPageProps {
   categories?: Array<{ id: string; label: string }>;
   papers: IPaper[];
-  type: string;
+  label: string;
 }

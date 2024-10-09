@@ -11,6 +11,7 @@ const AbstractPage: React.FC<IAbstractPageProps> = ({ arxiv_id }) => {
   const [submissionAndUpdateText, setSubmissionAndUpdateText] = useState<
     string | null
   >(null);
+  const [isSmallScreen, setIsSmallScreen] = useState<boolean>(false);
 
   const [abstractHeight, setAbstractHeight] = useState<number>(0);
 
@@ -76,6 +77,24 @@ const AbstractPage: React.FC<IAbstractPageProps> = ({ arxiv_id }) => {
     fetchPaperData();
   }, [arxiv_id]);
 
+  useEffect(() => {
+    // Function to check screen size and set the flag
+    const checkScreenSize = () => {
+      setIsSmallScreen(window.innerWidth < 768); // Set breakpoint for small screens
+    };
+
+    // Check screen size on initial render
+    checkScreenSize();
+
+    // Add event listener to handle window resize
+    window.addEventListener("resize", checkScreenSize);
+
+    // Cleanup event listener on component unmount
+    return () => {
+      window.removeEventListener("resize", checkScreenSize);
+    };
+  }, []);
+
   return isLoading ? (
     <Spinner />
   ) : (
@@ -88,8 +107,9 @@ const AbstractPage: React.FC<IAbstractPageProps> = ({ arxiv_id }) => {
             { id: "subjects", label: "Subjects" },
             { id: "cite-as", label: "Cite As" },
             { id: "submission-history", label: "Submission History" },
+            { id: "license", label: "License" },
           ]}
-          type={"CONTENTS"}
+          label={"CONTENTS"}
         />
         <PaperAbstract
           arxiv_id={arxiv_id}
@@ -104,10 +124,12 @@ const AbstractPage: React.FC<IAbstractPageProps> = ({ arxiv_id }) => {
           license={paperData.paperDetails.license}
           onAbstractHeightChange={handleAbstractHeightChange}
         />
-        <AccessPaperCard
-          fullPaperLink={`/pdf/${arxiv_id}`}
-          dynamicMarginTop={abstractHeight}
-        />
+        <div style={isSmallScreen ? { visibility: "hidden" } : {}}>
+          <AccessPaperCard
+            fullPaperLink={`/pdf/${arxiv_id}`}
+            dynamicMarginTop={abstractHeight}
+          />
+        </div>
       </main>
     </div>
   );

@@ -25,7 +25,7 @@ const findCorrectSubCategoryName = (
   return correctSubCategory || null; // Return the correct case or null if not found
 };
 
-const CategoryListPage: React.FC<ICategoryListPageProps> = ({ type }) => {
+const CategoryListPage: React.FC<ICategoryListPageProps> = ({ label }) => {
   const [activeTab, setActiveTab] = useState("DOCUMENTS");
   const { category, subcategory } = useParams();
   const navigate = useNavigate(); // To navigate to the default subcategory URL if missing
@@ -142,14 +142,14 @@ const CategoryListPage: React.FC<ICategoryListPageProps> = ({ type }) => {
                   id: subCategory,
                   label: subCategory,
                 }))}
-              type={type}
+              label={label}
               initialActive={correctSubcategoryLabel!}
             />
           )}
 
           <div className="flex-1 py-4 px-7">
             <div className="flex justify-between items-center mb-6">
-              {type === "CATEGORIES" ? (
+              {label != "COLLECTIONS" ? (
                 <h1 className="text-xl md:text-xl sm:text-xl lg:text-2xl font-base">
                   {subcategory}
                 </h1>
