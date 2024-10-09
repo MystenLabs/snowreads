@@ -277,14 +277,17 @@ function App() {
             }
           />
           <Route path="/abs/:arxiv_id" element={<PaperLayout />} />
-          <Route path="/category/:category" element={<CategoryListLayout />} />
+          <Route
+            path="/category/:category"
+            element={<CategoryListLayout label={"CATEGORIES"} />}
+          />
           <Route
             path="/category/:category/:subcategory"
-            element={<CategoryListLayout />}
+            element={<CategoryListLayout label={"CATEGORIES"} />}
           />
           <Route
             path="/collection/:title"
-            element={<CategoryListLayout collections={true} />}
+            element={<CategoryListLayout label={"COLLECTIONS"} />}
           />
           <Route path="*" element={<Custom404 />} />
         </Routes>

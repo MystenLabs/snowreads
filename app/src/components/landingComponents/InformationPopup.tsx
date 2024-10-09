@@ -4,7 +4,7 @@ import Button from "../common/Button";
 
 const InformationPopup: React.FC = () => {
   const modalRef = useRef<HTMLDivElement | null>(null);
-  const buttonRef = useRef<HTMLButtonElement | null>(null); // Add a reference for the button
+  const buttonRef = useRef<HTMLButtonElement | null>(null);
   const [isOpen, setIsOpen] = useState(false);
 
   const togglePopup = () => {

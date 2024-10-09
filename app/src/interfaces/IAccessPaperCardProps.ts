@@ -6,5 +6,5 @@ export interface IAccessPaperCardProps {
   bookmarkLink?: string;
   redditAddress?: string;
   kdeAddress?: string;
-  dynamicMarginTop: number;
+  dynamicMarginTop?: number;
 }

@@ -4,10 +4,7 @@ export interface ISidebarNavProps {
     label: string;
   }>;
   initialActive?: string;
-  activeColor?: string;
-  inactiveColor?: string;
-  hoverColor?: string;
-  type: string;
+  label: string;
   mode?: "redirect" | "fetch";
 }
 export interface IMobileNavigationBarProps {

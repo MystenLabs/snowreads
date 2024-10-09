@@ -1,6 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import { IPaperAbstractProps } from "../../interfaces/IPaperAbstractProps";
 import MobileNavigationBar from "../common/MobileNavigationBar";
+import AccessPaperCard from "./AccessPaperCard";
 
 const PaperAbstract: React.FC<IPaperAbstractProps> = ({
   arxiv_id,
@@ -39,6 +40,9 @@ const PaperAbstract: React.FC<IPaperAbstractProps> = ({
         <p className="text-sm text-gray-500 mb-2">{submissionAndUpdateText}</p>
         <p className="text-sm text-gray-500 mb-4">{fileSize}</p>
         <p className="text-sm text-gray-500 mb-4">{arxiv_id}</p>
+        <div className="md:hidden">
+          <AccessPaperCard fullPaperLink={`/pdf/${arxiv_id}`} />
+        </div>
         <MobileNavigationBar
           mode="scroll"
           options={[

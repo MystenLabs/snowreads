@@ -3,14 +3,14 @@ import Footer from "../Footer";
 import CategoryListPage from "../../pages/CategoryListPage";
 import { ICategoryListLayout } from "../../interfaces/ICategoryListLayout";
 
-const CategoryListLayout: React.FC<ICategoryListLayout> = ({ collections }) => {
+const CategoryListLayout: React.FC<ICategoryListLayout> = ({ label }) => {
   return (
     <div className="flex flex-col h-screen">
       <Header />
       <div className="flex-grow overflow-y-auto">
-        {!collections ? (
+        {label != "COLLECTIONS" ? (
           <CategoryListPage
-            type={"CATEGORIES"}
+            label={"CATEGORIES"}
             papers={[
               {
                 id: "1",
@@ -32,7 +32,7 @@ const CategoryListLayout: React.FC<ICategoryListLayout> = ({ collections }) => {
           />
         ) : (
           <CategoryListPage
-            type={"COLLECTIONS"}
+            label={"COLLECTIONS"}
             categories={[
               {
                 id: "Exploring the Edge of Artificial Intelligence Knowledge",
