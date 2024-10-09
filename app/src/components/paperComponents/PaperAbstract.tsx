@@ -41,7 +41,7 @@ const PaperAbstract: React.FC<IPaperAbstractProps> = ({
         <p className="text-sm text-gray-500 mb-4">{fileSize}</p>
         <p className="text-sm text-gray-500 mb-4">{arxiv_id}</p>
         <div className="md:hidden">
-          <AccessPaperCard fullPaperLink={`/pdf/${arxiv_id}`} />
+          <AccessPaperCard fullPaperLink={`/pdf/${arxiv_id}.pdf`} />
         </div>
         <MobileNavigationBar
           mode="scroll"
