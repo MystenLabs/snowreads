@@ -8,10 +8,10 @@ const Footer: React.FC = () => {
           Copyright {new Date().getFullYear()} © Mysten Labs, Inc.
         </p>
         <div className="flex space-x-4 justify-center">
-          <Link to="/terms" className="underline">
+          <Link to="/terms of service" className="underline">
             Terms of Service
           </Link>
-          <Link to="/privacy" className="underline">
+          <Link to="/privacy policy" className="underline">
             Privacy Policy
           </Link>
         </div>

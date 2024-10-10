@@ -24,19 +24,19 @@ const SidebarNav: React.FC<ISidebarNavProps> = ({
     setActiveLink(sectionId);
 
     if (mode === "redirect") {
-      // Default behavior - just update the anchor link
-      window.location.href = `#${sectionId}`;
+      // Redirect mode: Update URL with anchor link
+      window.location.hash = sectionId; // Using hash to navigate to the section
     } else if (mode === "fetch") {
-      // Change the URL and trigger a re-fetch based on the selected subcategory
+      // Fetch mode: Update URL and fetch the data, without using # symbol
       if (category) {
-        // Update the URL with the selected subcategory
-        navigate(`/category/${category}/${sectionId}`);
+        // Use navigate to change the URL and avoid adding #
+        navigate(`/category/${category}/${sectionId}`, { replace: true });
       }
     }
   };
 
   return (
-    <nav className="p-4 flex-col w-full md:w-1/4 hidden md:flex">
+    <nav className="p-4 flex-col w-full md:w-[250px] hidden md:flex">
       {label === "COLLECTIONS" ? (
         <h2 className="text-lg font-semibold mb-6">COLLECTIONS</h2>
       ) : label === "CATEGORIES" ? (
@@ -49,11 +49,13 @@ const SidebarNav: React.FC<ISidebarNavProps> = ({
         {sections.map((section) => (
           <li key={section.id}>
             <a
-              href={`#${section.id}`}
               className={`${
                 activeLink === section.id ? `text-[#8B28D2]` : `text-gray-900`
-              } hover:text-[#8B28D2]`}
-              onClick={() => handleLinkClick(section.id)}
+              } hover:text-[#8B28D2] cursor-pointer`}
+              onClick={(e) => {
+                e.preventDefault(); // Prevent default action
+                handleLinkClick(section.id);
+              }}
             >
               {section.label}
             </a>

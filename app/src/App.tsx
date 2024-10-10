@@ -5,6 +5,8 @@ import LandingPageLayout from "./layout/landingLayout/LandingPageLayout";
 import CategoryListLayout from "./layout/categoryListLayout/CategoryListLayout";
 import { useEffect, useState } from "react";
 import { ISubCategory } from "./interfaces/IAllPapers";
+import ToSPage from "./pages/ToSPage";
+import PrivacyPolicyPage from "./pages/PrivacyPolicyPage";
 
 function App() {
   const [artificialIntelligence, setArtificialIntelligence] =
@@ -289,6 +291,8 @@ function App() {
             path="/collection/:title"
             element={<CategoryListLayout label={"COLLECTIONS"} />}
           />
+          <Route path="/terms of service" element={<ToSPage />} />
+          <Route path="/privacy policy" element={<PrivacyPolicyPage />} />
           <Route path="*" element={<Custom404 />} />
         </Routes>
       </Router>

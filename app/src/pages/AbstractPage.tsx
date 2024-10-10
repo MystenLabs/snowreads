@@ -126,7 +126,7 @@ const AbstractPage: React.FC<IAbstractPageProps> = ({ arxiv_id }) => {
         />
         <div style={isSmallScreen ? { visibility: "hidden" } : {}}>
           <AccessPaperCard
-            fullPaperLink={`/pdf/${arxiv_id}`}
+            fullPaperLink={`/pdf/${arxiv_id}.pdf`}
             dynamicMarginTop={abstractHeight}
           />
         </div>

@@ -26,9 +26,7 @@ export const PaperCard: React.FC<IPaperCardProps> = ({
           <h2
             className={`text-sm sm:text-base font-medium ${isComplexMathTitle ? "break-all" : "break-words"} max-w-full`}
           >
-            <a href={paper.link} target="_blank" rel="noopener noreferrer">
-              {paper.title}
-            </a>
+            <a href={paper.link}>{paper.title}</a>
           </h2>
 
           <p className="text-gray-500 text-xs">{paper.authors}</p>

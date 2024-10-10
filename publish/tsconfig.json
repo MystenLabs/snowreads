@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+      "target": "ES2020",
+    "sourceMap": true,
+    "esModuleInterop": true,
+    "moduleResolution": "nodenext",
+    "lib": ["ES2020"],
+    "types": ["node"]
+  },
+  "exclude": [
+    "node_modules"
+  ],
+  "include": ["src/**/*.ts"]
+}
