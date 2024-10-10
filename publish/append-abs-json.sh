@@ -41,7 +41,11 @@ for pdf_file in "$@"; do
     # Check if jq returned any result
     if [ -z "$parsed_json" ]; then
         echo "No valid data found to append for file ${pdf_file}."
-        exit 1
+        echo "Appending only pdfSize and blobId."
+        id=$(basename "$pdf_file" .pdf)
+        abs_json="${script_dir}/../app/public/abs/${id}.json"
+        jq -c --arg blob_id "$blob_id" --arg pdf_size "$pdf_size" '. += {blobId: $blob_id, pdfSize: $pdf_size}' "${abs_json}" > "${abs_json}.tmp" && mv "${abs_json}.tmp" "${abs_json}"
+        continue;
     fi
 
     tx_digest=$(echo "$parsed_json" | jq -r '.txDigest')

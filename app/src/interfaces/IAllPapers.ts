@@ -7,13 +7,16 @@ export interface IPaperTrimmed {
 
 export interface ISubCategory {
   count: number;
+  size: number;
   papers: IPaperTrimmed[];
 }
 
 export interface IAllPapers {
   count: number;
+  size: number;
   Astrophysics: {
     count: number;
+    size: number;
     "Astrophysics of Galaxies": ISubCategory;
     "Cosmology and Nongalactic Astrophysics": ISubCategory;
     "Earth and Planetary Astrophysics": ISubCategory;
@@ -23,6 +26,7 @@ export interface IAllPapers {
   };
   "Condensed Matter": {
     count: number;
+    size: number;
     "Disordered Systems and Neural Networks": ISubCategory;
     "Materials Science": ISubCategory;
     "Mesoscale and Nanoscale Physics": ISubCategory;
@@ -35,6 +39,7 @@ export interface IAllPapers {
   };
   Physics: {
     count: number;
+    size: number;
     "General Relativity and Quantum Cosmology": ISubCategory;
     "High Energy Physics - Experiment": ISubCategory;
     "High Energy Physics - Lattice": ISubCategory;
@@ -69,6 +74,7 @@ export interface IAllPapers {
   };
   "Nonlinear Sciences": {
     count: number;
+    size: number;
     "Adaptation and Self-Organizing Systems": ISubCategory;
     "Cellular Automata and Lattice Gases": ISubCategory;
     "Chaotic Dynamics": ISubCategory;
@@ -77,6 +83,7 @@ export interface IAllPapers {
   };
   Mathematics: {
     count: number;
+    size: number;
     "Algebraic Geometry": ISubCategory;
     "Algebraic Topology": ISubCategory;
     "Analysis of PDEs": ISubCategory;
@@ -112,6 +119,7 @@ export interface IAllPapers {
   };
   "Computing Research Repository": {
     count: number;
+    size: number;
     "Artificial Intelligence": ISubCategory;
     "Computation and Language": ISubCategory;
     "Computational Complexity": ISubCategory;
@@ -155,6 +163,7 @@ export interface IAllPapers {
   };
   "Quantitative Biology": {
     count: number;
+    size: number;
     Biomolecules: ISubCategory;
     "Cell Behavior": ISubCategory;
     Genomics: ISubCategory;
@@ -168,6 +177,7 @@ export interface IAllPapers {
   };
   "Quantitative Finance": {
     count: number;
+    size: number;
     "Computational Finance": ISubCategory;
     Economics: ISubCategory;
     "General Finance": ISubCategory;
@@ -180,6 +190,7 @@ export interface IAllPapers {
   };
   Statistics: {
     count: number;
+    size: number;
     Applications: ISubCategory;
     Computation: ISubCategory;
     "Machine Learning": ISubCategory;
@@ -189,6 +200,7 @@ export interface IAllPapers {
   };
   "Electrical Engineering and Systems Science": {
     count: number;
+    size: number;
     "Audio and Speech Processing": ISubCategory;
     "Image and Video Processing": ISubCategory;
     "Signal Processing": ISubCategory;
@@ -196,6 +208,7 @@ export interface IAllPapers {
   };
   Economics: {
     count: number;
+    size: number;
     Econometrics: ISubCategory;
     "General Economics": ISubCategory;
     "Theoretical Economics": ISubCategory;

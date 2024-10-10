@@ -20,7 +20,7 @@ absToRemove.forEach((abs) => {
 
 for (const category in allPapers) {
     // Skip "count" at the top level
-    if (category === "count") continue;
+    if (category === "count" || category === "size") continue;
 
     // Ensure category is valid
     const categoryObj = allPapers[category];
@@ -31,7 +31,7 @@ for (const category in allPapers) {
     }
     for (const subCategory in categoryObj) {
         // Skip "count" in subcategories
-        if (subCategory === "count") continue;
+        if (subCategory === "count" || subCategory === "size") continue;
 
         if (typeof categoryObj[subCategory] !== "object") {
             console.error(`Subcategory ${subCategory} in category ${category} is not an object`);
