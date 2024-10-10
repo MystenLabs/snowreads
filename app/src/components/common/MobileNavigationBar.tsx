@@ -9,13 +9,20 @@ const MobileNavigationBar: React.FC<IMobileNavigationBarProps> = ({
   const [isOpen, setIsOpen] = useState(false);
   const [selectedOption, setSelectedOption] = useState<string | null>(null);
   const navigate = useNavigate();
-  const { category } = useParams();
+  const { category } = useParams(); // Get the category from the URL
 
   useEffect(() => {
-    if (options.length > 0) {
+    // Update the selected option based on the URL category parameter
+    if (category) {
+      const matchingOption = options.find((opt) => opt.id === category);
+      if (matchingOption) {
+        setSelectedOption(matchingOption.id); // Set selected option based on URL
+      }
+    } else if (options.length > 0) {
+      // Default to the first option if no category in URL
       setSelectedOption(options[0].id);
     }
-  }, [options]);
+  }, [category, options]);
 
   const handleOptionClick = (id: string) => {
     setSelectedOption(id);

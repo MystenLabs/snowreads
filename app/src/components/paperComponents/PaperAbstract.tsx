@@ -2,6 +2,7 @@ import React, { useEffect, useRef, useState } from "react";
 import { IPaperAbstractProps } from "../../interfaces/IPaperAbstractProps";
 import MobileNavigationBar from "../common/MobileNavigationBar";
 import AccessPaperCard from "./AccessPaperCard";
+import TopNavigationHistory from "../common/TopNavigationHistory";
 
 const PaperAbstract: React.FC<IPaperAbstractProps> = ({
   arxiv_id,
@@ -31,9 +32,35 @@ const PaperAbstract: React.FC<IPaperAbstractProps> = ({
     }
   }, []);
 
+  const getCategoryAndSubcategory = (subjects: string) => {
+    if (!subjects) return { category: "Home", subcategory: "" };
+
+    // Extract category and subcategory from subjects
+    const firstSubject = subjects.split(",")[0].trim();
+    const [category, subcategory] = firstSubject
+      .split("/")
+      .map((part) => part.trim());
+
+    // Replace "Computing Research Repository" with "Computer Science"
+    const categoryFormatted =
+      category === "Computing Research Repository"
+        ? "Computer Science"
+        : category;
+
+    return {
+      category: categoryFormatted || "Home",
+      subcategory: subcategory || "",
+    };
+  };
+  const { category, subcategory } = getCategoryAndSubcategory(subjects);
+
   return (
     <section className="  flex-grow lg:w-2/4 w-full md:w-3/4">
-      <div className="py-6 px-5 rounded-lg">
+      <TopNavigationHistory
+        categories={[category]}
+        subcategories={subcategory ? [subcategory] : undefined}
+      />
+      <div className="py-6 px-5">
         <h1 className="text-3xl font-semibold mb-2 max-w-[90%] break-words">
           {title}
         </h1>
@@ -41,7 +68,7 @@ const PaperAbstract: React.FC<IPaperAbstractProps> = ({
         <p className="text-sm text-gray-500 mb-4">{fileSize}</p>
         <p className="text-sm text-gray-500 mb-4">{arxiv_id}</p>
         <div className="md:hidden">
-          <AccessPaperCard fullPaperLink={`/pdf/${arxiv_id}`} />
+          <AccessPaperCard fullPaperLink={`/pdf/${arxiv_id}.pdf`} />
         </div>
         <MobileNavigationBar
           mode="scroll"

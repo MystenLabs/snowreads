@@ -1,6 +1,7 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import Header from "../layout/Header";
+import Footer from "../layout/Footer";
 
 const Custom404: React.FC = () => {
   const navigate = useNavigate();
@@ -10,9 +11,9 @@ const Custom404: React.FC = () => {
   };
 
   return (
-    <div>
+    <div className="flex flex-col min-h-screen">
       <Header />
-      <section className="flex flex-col items-center justify-center h-screen bg-primary px-6">
+      <section className="flex flex-col items-center justify-center flex-grow bg-primary px-6">
         <div className="relative bg-white p-10 rounded-lg shadow-md text-center">
           <img
             src="/walrus.png"
@@ -40,6 +41,7 @@ const Custom404: React.FC = () => {
           </div>
         </div>
       </section>
+      <Footer />
     </div>
   );
 };

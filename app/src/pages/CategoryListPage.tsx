@@ -97,7 +97,9 @@ const CategoryListPage: React.FC<ICategoryListPageProps> = ({ label }) => {
   return (
     <div className="w-full min-h-screen bg-primary flex flex-col items-center">
       <div className="pt-10 pb-5 text-center">
-        <div className="text-sm text-gray-600">Home </div>
+        <a href={"/"}>
+          <div className="text-sm text-gray-600">Home </div>{" "}
+        </a>
         <div className="flex justify-center">
           <div className="text-2xl md:text-2xl sm:text-2xl lg:text-3xl font-medium text-gray-900 p-2 max-w-xl w-full text-center">
             {category}
