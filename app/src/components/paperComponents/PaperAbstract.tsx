@@ -3,6 +3,7 @@ import { IPaperAbstractProps } from "../../interfaces/IPaperAbstractProps";
 import MobileNavigationBar from "../common/MobileNavigationBar";
 import AccessPaperCard from "./AccessPaperCard";
 import TopNavigationHistory from "../common/TopNavigationHistory";
+import { formatBytes } from "../../tools/utils";
 
 const PaperAbstract: React.FC<IPaperAbstractProps> = ({
   arxiv_id,
@@ -65,7 +66,9 @@ const PaperAbstract: React.FC<IPaperAbstractProps> = ({
           {title}
         </h1>
         <p className="text-sm text-gray-500 mb-2">{submissionAndUpdateText}</p>
-        <p className="text-sm text-gray-500 mb-4">{fileSize}</p>
+        <p className="text-sm text-gray-500 mb-4">
+          {formatBytes(Number(fileSize))}
+        </p>
         <p className="text-sm text-gray-500 mb-4">{arxiv_id}</p>
         <div className="md:hidden">
           <AccessPaperCard fullPaperLink={`/pdf/${arxiv_id}.pdf`} />
@@ -123,7 +126,14 @@ const PaperAbstract: React.FC<IPaperAbstractProps> = ({
         <h2 id="license" className="text-xl font-semibold py-4 w-3/5">
           License
         </h2>
-        <p className="text-gray-700 mb-4">{license}</p>
+        <a
+          href={license}
+          className="text-gray-700 mb-4 hover:underline"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          {license}
+        </a>
       </div>
     </section>
   );

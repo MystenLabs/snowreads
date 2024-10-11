@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import CategoryCard from "../components/landingComponents/CategoryCard";
 import InformationPopup from "../components/landingComponents/InformationPopup";
 import PaperCardContainer from "../components/categoryListComponents/PaperCardContainer";
@@ -6,10 +6,12 @@ import { PaperCard } from "../components/categoryListComponents/PaperCard";
 import { Link } from "react-router-dom";
 import { ILandingPageLayoutProps } from "../interfaces/ILandingPageLayoutProps";
 import { ISubCategory } from "../interfaces/IAllPapers";
+import { formatBytes } from "../tools/utils";
 
 const LandingPage: React.FC<ILandingPageLayoutProps> = ({
   allCategories,
   documentsCount,
+  papersSize,
 }) => {
   type CategoryType =
     | "Computer Science"
@@ -22,6 +24,7 @@ const LandingPage: React.FC<ILandingPageLayoutProps> = ({
     | "Economics";
   const [activeCategory, setActiveCategory] =
     useState<CategoryType>("Computer Science");
+  const [activeCategorySize, setActiveCategorySize] = useState<number>(0);
   const categories: CategoryType[] = [
     "Computer Science",
     "Physics",
@@ -120,6 +123,24 @@ const LandingPage: React.FC<ILandingPageLayoutProps> = ({
     return result.charAt(0).toUpperCase() + result.slice(1);
   }
 
+  useEffect(() => {
+    // Fetch the JSON resource
+    fetch("/papers.json")
+      .then((response) => {
+        if (response.ok) {
+          return response.json();
+        }
+        throw response;
+      })
+      .then((data) => {
+        setActiveCategorySize(data[activeCategory].size);
+      })
+      .catch((error) => {
+        console.log(error);
+        //setError(error);
+      });
+  }, [activeCategory, activeCategorySize]);
+
   return (
     <div className="flex flex-col items-center justify-start min-h-screen bg-primary pb-20">
       <img
@@ -133,7 +154,7 @@ const LandingPage: React.FC<ILandingPageLayoutProps> = ({
           <br />
           <span>That Challenge Your Thinking</span>
         </h1>
-        <p className="text-sm pt-5">240 MB</p>
+        <p className="text-sm pt-5">SIZE OF COLLECTIONS in GB</p>
       </div>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 w-full px-4 sm:px-8 md:px-12 lg:px-0 lg:max-w-[1100px] pb-10">
@@ -152,7 +173,7 @@ const LandingPage: React.FC<ILandingPageLayoutProps> = ({
 
       <div className="pt-20 pb-10 flex flex-col items-center  max-w-[1200px]">
         <h1 className="text-3xl text-center">Browse All Categories</h1>
-        <p className="text-sm pt-5">240 MB</p>
+        <p className="text-sm pt-5">{formatBytes(papersSize)}</p>
       </div>
 
       <div className="flex flex-wrap justify-center gap-4 my-4    max-w-[1200px]">
@@ -180,6 +201,7 @@ const LandingPage: React.FC<ILandingPageLayoutProps> = ({
                   cardTitle={camelCaseToWords(subCategoryName)}
                   hasActionButton={true}
                   count={subCategoryData.count}
+                  size={subCategoryData.size}
                   maxHeight="600px"
                 >
                   {subCategoryData.papers.length > 0 ? (
@@ -225,7 +247,8 @@ const LandingPage: React.FC<ILandingPageLayoutProps> = ({
               View all in {activeCategory}
             </Link>
             <div className="text-sm font-medium text-gray-600 ">
-              {documentsCount[activeCategory].count} Documents
+              {documentsCount[activeCategory].count} Documents,{" "}
+              {formatBytes(activeCategorySize)}
             </div>
           </div>
         </div>

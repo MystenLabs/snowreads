@@ -50,7 +50,7 @@ const AbstractPage: React.FC<IAbstractPageProps> = ({ arxiv_id }) => {
           submissionDate: new Date(
             data.versions[0].created
           ).toLocaleDateString(),
-          fileSize: "N/A", // TODO: Modify as needed
+          fileSize: data.pdfSize,
           authors: data.authorsParsed.map((author: string[]) => ({
             name: `${author[1]} ${author[0]}`,
             link: `https://www.google.com/search?q=${encodeURIComponent(

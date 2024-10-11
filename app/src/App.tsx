@@ -9,6 +9,7 @@ import ToSPage from "./pages/ToSPage";
 import PrivacyPolicyPage from "./pages/PrivacyPolicyPage";
 
 function App() {
+  const [papersSize, setPapersSize] = useState<number>(0);
   const [artificialIntelligence, setArtificialIntelligence] =
     useState<ISubCategory | null>(null); // 1st subcategory of the Computer Science category
   const [computationAndLanguage, setComputationAndLanguage] =
@@ -103,7 +104,7 @@ function App() {
         throw response;
       })
       .then((data) => {
-        console.log(data);
+        setPapersSize(data.size);
         // Computer Science category
         setArtificialIntelligence(
           data["Computer Science"]["Artificial Intelligence"]
@@ -275,6 +276,7 @@ function App() {
               <LandingPageLayout
                 allCategories={allCategoriesSelectedData}
                 documentsCount={documentsCount}
+                papersSize={papersSize}
               />
             }
           />

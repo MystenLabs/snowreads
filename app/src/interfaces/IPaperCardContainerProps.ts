@@ -4,5 +4,6 @@ export interface IPaperCardContainerProps {
   cardTitle: string;
   hasActionButton?: boolean;
   count?: number;
+  size?: number;
   maxHeight?: string;
 }

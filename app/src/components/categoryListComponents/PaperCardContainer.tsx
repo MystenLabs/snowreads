@@ -1,5 +1,6 @@
 import { IPaperCardContainerProps } from "../../interfaces/IPaperCardContainerProps";
 import { useNavigate } from "react-router-dom";
+import { formatBytes } from "../../tools/utils";
 
 const PaperCardContainer: React.FC<IPaperCardContainerProps> = ({
   children,
@@ -8,6 +9,7 @@ const PaperCardContainer: React.FC<IPaperCardContainerProps> = ({
   hasActionButton,
   maxHeight,
   count,
+  size,
 }) => {
   const navigate = useNavigate();
 
@@ -34,8 +36,10 @@ const PaperCardContainer: React.FC<IPaperCardContainerProps> = ({
         >
           {children}
         </div>
-        {count ? (
-          <p className="text-sm font-base text-gray-600">{count} Documents</p>
+        {count && size ? (
+          <p className="text-sm font-base text-gray-600 ">
+            {count} Documents, {formatBytes(size)}
+          </p>
         ) : (
           ""
         )}
