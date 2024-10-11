@@ -2,6 +2,7 @@ import Header from "../Header";
 import Footer from "../Footer";
 import CategoryListPage from "../../pages/CategoryListPage";
 import { ICategoryListLayout } from "../../interfaces/ICategoryListLayout";
+import CollectionListPage from "../../pages/CollectionListPage";
 
 const CategoryListLayout: React.FC<ICategoryListLayout> = ({ label }) => {
   return (
@@ -9,29 +10,9 @@ const CategoryListLayout: React.FC<ICategoryListLayout> = ({ label }) => {
       <Header />
       <div className="flex-grow overflow-y-auto">
         {label != "COLLECTIONS" ? (
-          <CategoryListPage
-            label={"CATEGORIES"}
-            papers={[
-              {
-                id: "1",
-                title: "Navigating Process Mining: A Case study using pm4py",
-                authors: "Ali Jidi, László Kovács",
-                link: `/abs/${2409.01294}`,
-                categories: "Artificial Intelligence",
-                arxiv_id: "2409.01294",
-              },
-              {
-                id: "2",
-                title: "Another Study in AI",
-                authors: "John Doe, Jane Smith",
-                link: `/abs/${2409.01295}`,
-                categories: "Artificial Intelligence",
-                arxiv_id: "2409.01295",
-              },
-            ]}
-          />
+          <CategoryListPage label={"CATEGORIES"} />
         ) : (
-          <CategoryListPage
+          <CollectionListPage
             label={"COLLECTIONS"}
             categories={[
               {
@@ -80,24 +61,6 @@ const CategoryListLayout: React.FC<ICategoryListLayout> = ({ label }) => {
                 id: "The Spark of Genius: Exploring Electrical Engineering Frontiers",
                 label:
                   "The Spark of Genius: Exploring Electrical Engineering Frontiers",
-              },
-            ]}
-            papers={[
-              {
-                id: "1",
-                title: "Navigating Process Mining: A Case study using pm4py",
-                authors: "Ali Jidi, László Kovács",
-                link: `/abs/${2409.01294}`,
-                categories: "Artificial Intelligence",
-                arxiv_id: "2409.01294",
-              },
-              {
-                id: "2",
-                title: "Another Study in AI",
-                authors: "John Doe, Jane Smith",
-                link: `/abs/${2409.01295}`,
-                categories: "Artificial Intelligence",
-                arxiv_id: "2409.01295",
               },
             ]}
           />

@@ -75,6 +75,7 @@ const PaperAbstract: React.FC<IPaperAbstractProps> = ({
         </div>
         <MobileNavigationBar
           mode="scroll"
+          label="CONTENTS"
           options={[
             { id: "article", label: "Article" },
             { id: "subjects", label: "Subjects" },

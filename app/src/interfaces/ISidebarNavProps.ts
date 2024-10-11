@@ -10,4 +10,5 @@ export interface ISidebarNavProps {
 export interface IMobileNavigationBarProps {
   options: { label: string; id: string }[];
   mode?: "scroll" | "fetch";
+  label: string;
 }

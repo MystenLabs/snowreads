@@ -51,70 +51,98 @@ const LandingPage: React.FC<ILandingPageLayoutProps> = ({
   };
   const activeSubcategories = subcategoriesMap[activeCategory];
 
+  const [collectionsSize, setCollectionsSize] = useState<number>(0);
+  const [computerScienceSize, setComputerScienceSize] = useState<number>(0);
+  const [computerScienceCount, setComputerScienceCount] = useState<number>(0);
+
+  const [physicsSize, setPhysicsSize] = useState<number>(0);
+  const [physicsCount, setPhysicsCount] = useState<number>(0);
+
+  const [mathematicsSize, setMathematicsSize] = useState<number>(0);
+  const [mathematicsCount, setMathematicsCount] = useState<number>(0);
+
+  const [quantBiologySize, setQuantBiologySize] = useState<number>(0);
+  const [quantBiologyCount, setQuantBiologyCount] = useState<number>(0);
+
+  const [statisticsSize, setStatisticsSize] = useState<number>(0);
+  const [statisticsCount, setStatisticsCount] = useState<number>(0);
+
+  const [economicsSize, setEconomicsSize] = useState<number>(0);
+  const [economicsCount, setEconomicsCount] = useState<number>(0);
+  const [economics2Size, setEconomics2Size] = useState<number>(0);
+  const [economics2Count, setEconomics2Count] = useState<number>(0);
+
+  const [quantFinanceSize, setQuantFinanceSize] = useState<number>(0);
+  const [quantFinanceCount, setQuantFinanceCount] = useState<number>(0);
+
+  const [electricalEngineeringSize, setElectricalEngineeringSize] =
+    useState<number>(0);
+  const [electricalEngineeringCount, setElectricalEngineeringCount] =
+    useState<number>(0);
   const collections = [
     {
       icon: "/comp_sci_icon.png",
       category: "Computer Science",
       title: "Exploring the Edge of Artificial Intelligence Knowledge",
-      documents: 34,
-      size: "10.69MB",
+      documents: computerScienceCount,
+      size: computerScienceSize,
     },
     {
       icon: "/physics_icon.png",
       category: "Physics",
       title: "Curious Conjectures About Artificial Intelligence and Beyond",
-      documents: 12,
-      size: "4.28MB",
+      documents: physicsCount,
+      size: physicsSize,
     },
     {
       icon: "/maths_icon.png",
       category: "Mathematics",
       title: "Dynamic Systems and Fractals: A Mathematical Odyssey",
-      documents: 34,
-      size: "10.69MB",
+      documents: mathematicsCount,
+      size: mathematicsSize,
     },
     {
       icon: "/quant_bio_icon.png",
       category: "Quantitative Biology",
       title:
         "The Math Behind the Cells: Unveiling Quantitative Biology Secrets",
-      documents: 12,
-      size: "4.28MB",
+      documents: quantBiologyCount,
+      size: quantBiologySize,
     },
     {
       icon: "/stats_icon.png",
       category: "Statistics",
       title: `Machine Learning's Dark Side: The Unseen Consequences`,
-      documents: 34,
-      size: "10.69MB",
+      documents: statisticsCount,
+      size: statisticsSize,
     },
     {
       icon: "/econ_icon.png",
       category: "Economics",
       title: "From Adam Smith to AI: The Evolution of Theoretical Economics",
-      documents: 12,
-      size: "4.28MB",
+      documents: economicsCount,
+      size: economicsSize,
     },
     {
       icon: "/quant_fin_icon.png",
       category: "Quantitative Finance",
       title: "Beyond Black Swans: Exploring Quantitative Finance Frontiers",
-      documents: 12,
-      size: "4.28MB",
+      documents: quantFinanceCount,
+      size: quantFinanceSize,
     },
     {
       icon: "/econ_icon.png",
       category: "Economics",
       title: `Why Economics is Like Dating: It's All About Supply and Demand`,
-      documents: 34,
-      size: "10.69MB",
+      documents: economics2Count,
+      size: economics2Size,
     },
     {
       icon: "/elect_eng_icon.png",
       category: "Electrical Engineering",
       title: "The Spark of Genius: Exploring Electrical Engineering Frontiers",
-      documents: 34,
-      size: "10.69MB",
+      documents: electricalEngineeringCount,
+      size: electricalEngineeringSize,
     },
   ];
 
@@ -141,6 +169,93 @@ const LandingPage: React.FC<ILandingPageLayoutProps> = ({
       });
   }, [activeCategory, activeCategorySize]);
 
+  useEffect(() => {
+    // Fetch the JSON resource for collections
+    fetch("/collections.json")
+      .then((response) => {
+        if (response.ok) {
+          return response.json();
+        }
+        throw response;
+      })
+      .then((data) => {
+        setCollectionsSize(data.size);
+        setComputerScienceSize(
+          data["Exploring the Edge of Artificial Intelligence Knowledge"].size
+        );
+        setComputerScienceCount(
+          data["Exploring the Edge of Artificial Intelligence Knowledge"].count
+        );
+        setPhysicsCount(
+          data["Curious Conjectures About Artificial Intelligence and Beyond"]
+            .count
+        );
+        setPhysicsSize(
+          data["Curious Conjectures About Artificial Intelligence and Beyond"]
+            .size
+        );
+        setMathematicsCount(
+          data["Dynamic Systems and Fractals: A Mathematical Odyssey"].count
+        );
+        setMathematicsSize(
+          data["Dynamic Systems and Fractals: A Mathematical Odyssey"].size
+        );
+        setQuantBiologyCount(
+          data[
+            "The Math Behind the Cells: Unveiling Quantitative Biology Secrets"
+          ].count
+        );
+        setQuantBiologySize(
+          data[
+            "The Math Behind the Cells: Unveiling Quantitative Biology Secrets"
+          ].size
+        );
+        setStatisticsCount(
+          data[`Machine Learning's Dark Side: The Unseen Consequences`].count
+        );
+        setStatisticsSize(
+          data[`Machine Learning's Dark Side: The Unseen Consequences`].size
+        );
+        setEconomicsCount(
+          data["From Adam Smith to AI: The Evolution of Theoretical Economics"]
+            .count
+        );
+        setEconomicsSize(
+          data["From Adam Smith to AI: The Evolution of Theoretical Economics"]
+            .size
+        );
+        setQuantFinanceCount(
+          data["Beyond Black Swans: Exploring Quantitative Finance Frontiers"]
+            .count
+        );
+        setQuantFinanceSize(
+          data["Beyond Black Swans: Exploring Quantitative Finance Frontiers"]
+            .size
+        );
+        setEconomics2Count(
+          data[`Why Economics is Like Dating: It's All About Supply and Demand`]
+            .count
+        );
+        setEconomics2Size(
+          data[`Why Economics is Like Dating: It's All About Supply and Demand`]
+            .size
+        );
+        setElectricalEngineeringCount(
+          data[
+            "The Spark of Genius: Exploring Electrical Engineering Frontiers"
+          ].count
+        );
+        setElectricalEngineeringSize(
+          data[
+            "The Spark of Genius: Exploring Electrical Engineering Frontiers"
+          ].size
+        );
+      })
+      .catch((error) => {
+        console.error("Error fetching collections data:", error);
+      });
+  }, []);
+
   return (
     <div className="flex flex-col items-center justify-start min-h-screen bg-primary pb-20">
       <img
@@ -154,7 +269,7 @@ const LandingPage: React.FC<ILandingPageLayoutProps> = ({
           <br />
           <span>That Challenge Your Thinking</span>
         </h1>
-        <p className="text-sm pt-5">SIZE OF COLLECTIONS in GB</p>
+        <p className="text-sm pt-5">{formatBytes(collectionsSize)}</p>
       </div>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 w-full px-4 sm:px-8 md:px-12 lg:px-0 lg:max-w-[1100px] pb-10">
@@ -165,7 +280,7 @@ const LandingPage: React.FC<ILandingPageLayoutProps> = ({
             category={item.category}
             title={item.title}
             documents={item.documents}
-            size={item.size}
+            size={Number(item.size)}
             className="w-full"
           />
         ))}
