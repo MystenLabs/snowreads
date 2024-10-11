@@ -16,8 +16,7 @@ function App() {
     useState<ISubCategory | null>(null); // 2nd
   const [computationalComplexity, setComputationalComplexity] =
     useState<ISubCategory | null>(null); // 3rd
-  const [computationalEngineering, setComputationalEngineering] =
-    useState<ISubCategory | null>(null); // 4th
+  const [robotics, setRobotics] = useState<ISubCategory | null>(null); // 4th
   const [computerScienceCount, setComputerScienceCount] = useState<number>(0);
 
   const [
@@ -115,11 +114,7 @@ function App() {
         setComputationalComplexity(
           data["Computer Science"]["Computational Complexity"]
         );
-        setComputationalEngineering(
-          data["Computer Science"][
-            "Computational Engineering, Finance, and Science"
-          ]
-        );
+        setRobotics(data["Computer Science"]["Robotics"]);
         setComputerScienceCount(data["Computer Science"].count);
         //Physics category
         setGeneralRelativityAndQuantumCosmology(
@@ -221,7 +216,7 @@ function App() {
       artificialIntelligence,
       computationAndLanguage,
       computationalComplexity,
-      computationalEngineering,
+      robotics,
     },
     physics: {
       generalRelativityAndQuantumCosmology,
@@ -290,7 +285,7 @@ function App() {
             element={<CategoryListLayout label={"CATEGORIES"} />}
           />
           <Route
-            path="/collection/:title"
+            path="/collection/:category"
             element={<CategoryListLayout label={"COLLECTIONS"} />}
           />
           <Route path="/terms of service" element={<ToSPage />} />

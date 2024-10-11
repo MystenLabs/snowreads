@@ -4,6 +4,7 @@ import { useNavigate, useParams } from "react-router-dom";
 
 const MobileNavigationBar: React.FC<IMobileNavigationBarProps> = ({
   options,
+  label,
   mode = "scroll", // Default mode is scroll
 }) => {
   const [isOpen, setIsOpen] = useState(false);
@@ -37,7 +38,13 @@ const MobileNavigationBar: React.FC<IMobileNavigationBarProps> = ({
     } else if (mode === "fetch") {
       // Change the URL and trigger a re-fetch based on the selected subcategory
       if (category) {
-        navigate(`/category/${category}/${id}`);
+        if (label === "COLLECTIONS") {
+          // Use navigate to change the URL and avoid adding #
+          navigate(`/collection/${id}`, { replace: true });
+        } else {
+          // Use navigate to change the URL and avoid adding #
+          navigate(`/category/${category}/${id}`, { replace: true });
+        }
       }
     }
   };

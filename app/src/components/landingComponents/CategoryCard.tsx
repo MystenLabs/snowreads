@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { ICategoryCardProps } from "../../interfaces/ICategoryCardProps";
+import { formatBytes } from "../../tools/utils";
 
 const CategoryCard: React.FC<ICategoryCardProps> = ({
   icon,
@@ -52,7 +53,7 @@ const CategoryCard: React.FC<ICategoryCardProps> = ({
 
       <div className="absolute bottom-4 left-4 flex w-full pr-4 text-xs text-gray-500">
         <span>{documents} Documents</span>
-        <span className="ml-5">{size}</span>
+        <span className="ml-5">{formatBytes(size)}</span>
       </div>
     </Link>
   );

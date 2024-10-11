@@ -6,7 +6,7 @@ export interface ILandingPageLayoutProps {
       artificialIntelligence: ISubCategory | null;
       computationAndLanguage: ISubCategory | null;
       computationalComplexity: ISubCategory | null;
-      computationalEngineering: ISubCategory | null;
+      robotics: ISubCategory | null;
     };
     physics: {
       generalRelativityAndQuantumCosmology: ISubCategory | null;

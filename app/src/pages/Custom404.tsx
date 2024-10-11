@@ -1,15 +1,8 @@
 import React from "react";
-import { useNavigate } from "react-router-dom";
 import Header from "../layout/Header";
 import Footer from "../layout/Footer";
 
 const Custom404: React.FC = () => {
-  const navigate = useNavigate();
-
-  const handleGoBack = () => {
-    navigate(-1); // Navigate to the previous page
-  };
-
   return (
     <div className="flex flex-col min-h-screen">
       <Header />
@@ -26,15 +19,9 @@ const Custom404: React.FC = () => {
             <p className="text-gray-600 mb-6">
               Oops! The page you're looking for doesn't exist or has been moved.
             </p>
-            <button
-              onClick={handleGoBack}
-              className="px-6 py-2 bg-purple-600 text-white rounded-lg shadow hover:bg-purple-700 transition duration-300 mb-4"
-            >
-              Go Back
-            </button>
             <a
               href="/"
-              className="block text-purple-600 hover:underline text-sm"
+              className="px-6 py-4 bg-purple-600 text-white rounded-lg shadow hover:bg-purple-700 transition duration-300 mb-4 "
             >
               Go to Homepage
             </a>

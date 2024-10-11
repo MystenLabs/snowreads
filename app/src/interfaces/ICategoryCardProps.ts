@@ -3,6 +3,6 @@ export interface ICategoryCardProps {
   category: string;
   title: string;
   documents: number;
-  size: string;
+  size: number;
   className?: string;
 }

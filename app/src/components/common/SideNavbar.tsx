@@ -29,8 +29,13 @@ const SidebarNav: React.FC<ISidebarNavProps> = ({
     } else if (mode === "fetch") {
       // Fetch mode: Update URL and fetch the data, without using # symbol
       if (category) {
-        // Use navigate to change the URL and avoid adding #
-        navigate(`/category/${category}/${sectionId}`, { replace: true });
+        if (label === "COLLECTIONS") {
+          // Use navigate to change the URL and avoid adding #
+          navigate(`/collection/${sectionId}`, { replace: true });
+        } else {
+          // Use navigate to change the URL and avoid adding #
+          navigate(`/category/${category}/${sectionId}`, { replace: true });
+        }
       }
     }
   };

@@ -42,8 +42,10 @@ const CategoryListPage: React.FC<ICategoryListPageProps> = ({ label }) => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    // Fetch the JSON resource
-    setLoading(true); // Start loading
+    // Start loading
+    setLoading(true);
+
+    // Fetch the JSON resource for categories
     fetch("/papers.json")
       .then((response) => {
         if (response.ok) {
@@ -54,6 +56,7 @@ const CategoryListPage: React.FC<ICategoryListPageProps> = ({ label }) => {
       .then((data) => {
         setAllCategories(data);
         setActiveCategorySize(data[category!].size);
+
         if (category) {
           let chosenSubcategory = subcategory;
 
@@ -119,11 +122,11 @@ const CategoryListPage: React.FC<ICategoryListPageProps> = ({ label }) => {
                 ? "bg-tertiary text-black"
                 : "bg-white text-black"
             }`}
-            onClick={() => setActiveTab("DOCUMENTS")}
+            // onClick={() => setActiveTab("DOCUMENTS")}
           >
             Documents
           </button>
-          <button
+          {/* <button
             className={`px-4 py-2 rounded-full ${
               activeTab === "ABOUT"
                 ? "bg-tertiary text-black"
@@ -132,7 +135,7 @@ const CategoryListPage: React.FC<ICategoryListPageProps> = ({ label }) => {
             onClick={() => setActiveTab("ABOUT")}
           >
             About
-          </button>
+          </button> */}
         </div>
       </div>
 
@@ -157,16 +160,13 @@ const CategoryListPage: React.FC<ICategoryListPageProps> = ({ label }) => {
 
           <div className="flex-1 py-4 px-7">
             <div className="flex justify-between items-center mb-6">
-              {label != "COLLECTIONS" ? (
-                <h1 className="text-xl md:text-xl sm:text-xl lg:text-2xl font-base">
-                  {subcategory}
-                </h1>
-              ) : (
-                ""
-              )}
+              <h1 className="text-xl md:text-xl sm:text-xl lg:text-2xl font-base">
+                {subcategory}
+              </h1>
             </div>
             <MobileNavigationBar
               mode="fetch"
+              label="CATEGORIES"
               options={Object.keys(
                 allCategories[category as keyof IAllPapers] || {}
               )
@@ -180,7 +180,9 @@ const CategoryListPage: React.FC<ICategoryListPageProps> = ({ label }) => {
               <Spinner />
             ) : (
               <PaperCardContainer
-                cardTitle={`${papers.length} Documents, ${formatBytes(activeSubcategorySize)}`}
+                cardTitle={`${papers.length} Documents, ${formatBytes(
+                  activeSubcategorySize
+                )}`}
                 maxHeight="1200px"
               >
                 {papers.length > 0 ? (
@@ -219,76 +221,14 @@ const CategoryListPage: React.FC<ICategoryListPageProps> = ({ label }) => {
       {activeTab === "ABOUT" && (
         <div className="flex flex-col items-center justify-center w-full h-full py-10">
           <p className="sm:text-sm md:text-base lg:text-base text-left max-w-2xl mb-4 px-5">
-            Welcome to the Computing Research Repository in WalrusArxiv. The
-            Computer Science section was established in 2024 through a
-            partnership of the Association for Computing Machinery, the
-            Networked Computer Science Technical Reference Library, and arXiv.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
+            imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae
+            scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices
+            nec congue eget, auctor vitae massa. Lorem ipsum dolor sit amet,
+            consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum
+            interdum, nisi lorem egestas odio, vitae scelerisque enim ligula
+            venenatis dolor.
           </p>
-
-          <h2 className="sm:text-xl md:text-2xl lg:text-2xl mb-6 text-left w-full max-w-2xl p-5">
-            Editorial Committee
-          </h2>
-
-          <p className="sm:text-sm md:text-base lg:text-base text-left max-w-2xl mb-4 px-5">
-            The editorial committee members serve as consultants to Cornell
-            University and to the arXiv Editorial Advisory Council. All arXiv
-            policy decisions are ultimately made by Cornell University.
-          </p>
-
-          <ul className="list-disc text-left space-y-2 max-w-2xl w-full pl-10 sm:pl-15 md:pl-15 lg:pl-20 pr-5">
-            <li className="text-xs sm:text-sm md:text-base lg:text-base">
-              Thomas Dietterich, Oregon State University (chair)
-            </li>
-            <li className="text-xs sm:text-sm md:text-base lg:text-base">
-              Krzysztof Apt, Centrum Wiskunde & Informatica, and University of
-              Amsterdam
-            </li>
-            <li className="text-xs sm:text-sm md:text-base lg:text-base">
-              Ron Boisvert, National Institute of Standards and Technology
-            </li>
-            <li className="text-xs sm:text-sm md:text-base lg:text-base">
-              Carol Hutchins, New York University
-            </li>
-            <li className="text-xs sm:text-sm md:text-base lg:text-base">
-              Scott Delman, Association for Computing Machinery
-            </li>
-            <li className="text-xs sm:text-sm md:text-base lg:text-base">
-              Jon Doyle, North Carolina State
-            </li>
-            <li className="text-xs sm:text-sm md:text-base lg:text-base">
-              Ed Fox, Virginia Tech
-            </li>
-            <li className="text-xs sm:text-sm md:text-base lg:text-base">
-              Lee Giles, The Pennsylvania State University
-            </li>
-            <li className="text-xs sm:text-sm md:text-base lg:text-base">
-              Joseph Halpern, Cornell University
-            </li>
-            <li className="text-xs sm:text-sm md:text-base lg:text-base">
-              Michael Lesk, Rutgers University
-            </li>
-            <li className="text-xs sm:text-sm md:text-base lg:text-base">
-              Andrew McCallum, University of Massachusetts, Amherst
-            </li>
-            <li className="text-xs sm:text-sm md:text-base lg:text-base">
-              Steve Minton, InferLink
-            </li>
-            <li className="text-xs sm:text-sm md:text-base lg:text-base">
-              Andrew Odlyzko, University of Minnesota
-            </li>
-            <li className="text-xs sm:text-sm md:text-base lg:text-base">
-              Michael O'Donnell, University of Chicago
-            </li>
-            <li className="text-xs sm:text-sm md:text-base lg:text-base">
-              Erik Sandewall, Linköping University, Sweden
-            </li>
-            <li className="text-xs sm:text-sm md:text-base lg:text-base">
-              Stuart Shieber, Harvard University
-            </li>
-            <li className="text-xs sm:text-sm md:text-base lg:text-base">
-              Jeff Ullman, Stanford University
-            </li>
-          </ul>
         </div>
       )}
     </div>
