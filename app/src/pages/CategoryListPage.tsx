@@ -7,6 +7,7 @@ import MobileNavigationBar from "../components/common/MobileNavigationBar";
 import { useParams, useNavigate } from "react-router-dom";
 import { IAllPapers, IPaperTrimmed } from "../interfaces/IAllPapers";
 import { Spinner } from "../components/common/Spinner";
+import { formatBytes } from "../tools/utils";
 
 // Helper function to find the correct case-sensitive subcategory name
 const findCorrectSubCategoryName = (
@@ -14,7 +15,7 @@ const findCorrectSubCategoryName = (
   categoryData: Record<string, any>
 ): string | null => {
   const subcategories = Object.keys(categoryData).filter(
-    (sub) => sub !== "count"
+    (sub) => sub !== "count" && sub !== "size"
   );
 
   // Normalize case and find the correct subcategory name
@@ -27,15 +28,17 @@ const findCorrectSubCategoryName = (
 
 const CategoryListPage: React.FC<ICategoryListPageProps> = ({ label }) => {
   const [activeTab, setActiveTab] = useState("DOCUMENTS");
+  const [activeCategorySize, setActiveCategorySize] = useState<number>(0);
   const { category, subcategory } = useParams();
   const navigate = useNavigate(); // To navigate to the default subcategory URL if missing
   const [papers, setPapers] = useState<IPaperTrimmed[]>([]);
   const [allCategories, setAllCategories] = useState<IAllPapers>(
     {} as IAllPapers
   );
-  const [correctSubcategoryLabel, setCorrectSubcategory] = useState<
-    string | null
-  >();
+  const [correctSubcategory, setCorrectSubcategory] = useState<string | null>(
+    null
+  );
+  const [activeSubcategorySize, setActiveSubcategorySize] = useState<number>(0);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
@@ -50,14 +53,14 @@ const CategoryListPage: React.FC<ICategoryListPageProps> = ({ label }) => {
       })
       .then((data) => {
         setAllCategories(data);
-
+        setActiveCategorySize(data[category!].size);
         if (category) {
           let chosenSubcategory = subcategory;
 
           // If no subcategory is provided, use the first available one
           if (!subcategory) {
             const subcategories = Object.keys(data[category]).filter(
-              (sub) => sub !== "count"
+              (sub) => sub !== "count" && sub !== "size"
             );
             if (subcategories.length > 0) {
               chosenSubcategory = subcategories[0];
@@ -80,6 +83,9 @@ const CategoryListPage: React.FC<ICategoryListPageProps> = ({ label }) => {
               const fetchedPapers =
                 data[category][correctSubcategory]?.papers || [];
               setPapers(fetchedPapers);
+              setActiveSubcategorySize(
+                data[category][correctSubcategory]?.size
+              );
             } else {
               console.error(`Subcategory "${chosenSubcategory}" not found.`);
               setPapers([]); // Set papers to empty array if no match is found
@@ -105,7 +111,7 @@ const CategoryListPage: React.FC<ICategoryListPageProps> = ({ label }) => {
             {category}
           </div>
         </div>
-        <p className="text-gray-600 mb-6">120 MB</p>
+        <p className="text-gray-600 mb-6">{formatBytes(activeCategorySize)}</p>
         <div className="flex justify-center space-x-4">
           <button
             className={`px-4 py-2 rounded-full ${
@@ -139,13 +145,13 @@ const CategoryListPage: React.FC<ICategoryListPageProps> = ({ label }) => {
               sections={Object.keys(
                 allCategories[category as keyof IAllPapers] || {}
               )
-                .filter((sub) => sub !== "count")
+                .filter((sub) => sub !== "count" && sub !== "size")
                 .map((subCategory) => ({
                   id: subCategory,
                   label: subCategory,
                 }))}
               label={label}
-              initialActive={correctSubcategoryLabel!}
+              initialActive={correctSubcategory!}
             />
           )}
 
@@ -164,7 +170,7 @@ const CategoryListPage: React.FC<ICategoryListPageProps> = ({ label }) => {
               options={Object.keys(
                 allCategories[category as keyof IAllPapers] || {}
               )
-                .filter((sub) => sub !== "count")
+                .filter((sub) => sub !== "count" && sub !== "size")
                 .map((subCategory) => ({
                   id: subCategory,
                   label: subCategory,
@@ -174,7 +180,7 @@ const CategoryListPage: React.FC<ICategoryListPageProps> = ({ label }) => {
               <Spinner />
             ) : (
               <PaperCardContainer
-                cardTitle={`${papers.length} Documents`}
+                cardTitle={`${papers.length} Documents, ${formatBytes(activeSubcategorySize)}`}
                 maxHeight="1200px"
               >
                 {papers.length > 0 ? (

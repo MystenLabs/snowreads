@@ -5,6 +5,7 @@ import { ILandingPageLayoutProps } from "../../interfaces/ILandingPageLayoutProp
 const LandingPageLayout: React.FC<ILandingPageLayoutProps> = ({
   allCategories,
   documentsCount,
+  papersSize,
 }) => {
   return (
     <div className="flex flex-col h-screen">
@@ -12,6 +13,7 @@ const LandingPageLayout: React.FC<ILandingPageLayoutProps> = ({
         <LandingPage
           allCategories={allCategories}
           documentsCount={documentsCount}
+          papersSize={papersSize}
         />
       </div>
       <Footer />
