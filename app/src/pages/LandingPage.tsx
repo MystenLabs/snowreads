@@ -257,7 +257,7 @@ const LandingPage: React.FC<ILandingPageLayoutProps> = ({
   }, []);
 
   return (
-    <div className="flex flex-col items-center justify-start min-h-screen bg-primary pb-20">
+    <div className="relative z-[1] flex flex-col items-center justify-start min-h-screen bg-primary pb-20">
       <img
         src="/walrus_globe.png"
         alt="Logo"
@@ -272,22 +272,26 @@ const LandingPage: React.FC<ILandingPageLayoutProps> = ({
         <p className="text-sm pt-5">{formatBytes(collectionsSize)}</p>
       </div>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 w-full px-4 sm:px-8 md:px-12 lg:px-0 lg:max-w-[1100px] pb-10">
-        {collections.map((item, index) => (
-          <CategoryCard
-            key={index}
-            icon={item.icon}
-            category={item.category}
-            title={item.title}
-            documents={item.documents}
-            size={Number(item.size)}
-            className="w-full"
-          />
-        ))}
+      <div className="overflow-hidden">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 w-full px-4 sm:px-8 md:px-12 lg:px-0 lg:max-w-[1100px] pb-10">
+          {collections.map((item, index) => (
+            <CategoryCard
+              key={index}
+              icon={item.icon}
+              category={item.category}
+              title={item.title}
+              documents={item.documents}
+              size={Number(item.size)}
+              className="w-full"
+            />
+          ))}
+        </div>
       </div>
 
-      <div className="pt-20 pb-10 flex flex-col items-center  max-w-[1200px]">
-        <h1 className="text-3xl text-center">Browse All Categories</h1>
+      <div className="pt-20 pb-10 flex flex-col items-center  max-w-[1100px]">
+        <h1 className="text-3xl text-center bg-primary rounded-lg px-3">
+          Browse All Categories
+        </h1>
         <p className="text-sm pt-5">{formatBytes(papersSize)}</p>
       </div>
 
@@ -303,6 +307,13 @@ const LandingPage: React.FC<ILandingPageLayoutProps> = ({
             {category}
           </button>
         ))}
+        <div className="absolute lg:top-[44%] lg:right-[20%] md:top-[50%] md:right-[2%] transform -translate-y-1/2 z-[-10] hidden md:block">
+          <img
+            src="/walrus_avatar.png"
+            alt="Background"
+            className="w-[300px] lg:w-[380px] h-auto object-cover"
+          />
+        </div>
       </div>
 
       <div className="container mx-auto p-4 max-w-[1200px]">

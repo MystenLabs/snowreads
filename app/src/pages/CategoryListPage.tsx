@@ -65,8 +65,9 @@ const CategoryListPage: React.FC<ICategoryListPageProps> = ({ label }) => {
             const subcategories = Object.keys(data[category]).filter(
               (sub) => sub !== "count" && sub !== "size"
             );
+            const sortedSubcategories = subcategories.sort();
             if (subcategories.length > 0) {
-              chosenSubcategory = subcategories[0];
+              chosenSubcategory = sortedSubcategories[0];
               // Navigate to the URL with the first subcategory
               navigate(`/category/${category}/${chosenSubcategory}`, {
                 replace: true,
@@ -149,6 +150,7 @@ const CategoryListPage: React.FC<ICategoryListPageProps> = ({ label }) => {
                 allCategories[category as keyof IAllPapers] || {}
               )
                 .filter((sub) => sub !== "count" && sub !== "size")
+                .sort((a, b) => a.localeCompare(b)) // Alphabetically sort categories
                 .map((subCategory) => ({
                   id: subCategory,
                   label: subCategory,
@@ -167,10 +169,12 @@ const CategoryListPage: React.FC<ICategoryListPageProps> = ({ label }) => {
             <MobileNavigationBar
               mode="fetch"
               label="CATEGORIES"
+              initialActive={correctSubcategory!}
               options={Object.keys(
                 allCategories[category as keyof IAllPapers] || {}
               )
                 .filter((sub) => sub !== "count" && sub !== "size")
+                .sort((a, b) => a.localeCompare(b)) // Alphabetically sort categories
                 .map((subCategory) => ({
                   id: subCategory,
                   label: subCategory,

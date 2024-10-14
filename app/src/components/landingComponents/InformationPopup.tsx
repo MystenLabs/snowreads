@@ -54,7 +54,7 @@ const InformationPopup: React.FC = () => {
       <button
         ref={buttonRef}
         onClick={togglePopup}
-        className={`fixed bottom-40 right-8 sm:bottom-40 sm:right-8 md:bottom-20 md:right-6 lg:bottom-20 lg:right-6 rounded-full shadow-lg z-50 ${isOpen ? "bg-black" : ""}`}
+        className={`fixed bottom-[120px] right-8 sm:bottom-[120px] sm:right-8 md:bottom-20 md:right-6 lg:bottom-20 lg:right-6 rounded-full shadow-lg z-50 ${isOpen ? "bg-black" : ""}`}
       >
         <img
           src={isOpen ? "/x_icon.png" : "/walrus_popup.png"}
@@ -66,7 +66,7 @@ const InformationPopup: React.FC = () => {
       {isOpen && (
         <div
           ref={modalRef}
-          className="fixed bottom-[220px] right-[20px] sm:bottom-[220px] md:bottom-[140px] lg:bottom-[140px] bg-secondary p-4 sm:p-5 rounded-lg shadow-lg border border-black z-50 w-[90%] sm:w-[530px] max-w-full"
+          className="fixed bottom-[180px] right-[20px] sm:bottom-[180px] md:bottom-[140px] lg:bottom-[140px] bg-secondary p-4 sm:p-5 rounded-lg shadow-lg border border-black z-50 w-[90%] sm:w-[530px] max-w-full"
         >
           <h2 className="text-lg sm:text-2xl font-medium mb-3 sm:mb-4">
             How Walrus Works

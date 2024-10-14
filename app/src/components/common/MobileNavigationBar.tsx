@@ -5,6 +5,7 @@ import { useNavigate, useParams } from "react-router-dom";
 const MobileNavigationBar: React.FC<IMobileNavigationBarProps> = ({
   options,
   label,
+  initialActive,
   mode = "scroll", // Default mode is scroll
 }) => {
   const [isOpen, setIsOpen] = useState(false);
@@ -59,7 +60,7 @@ const MobileNavigationBar: React.FC<IMobileNavigationBarProps> = ({
           {/* Display the label of the selected option */}
           {selectedOption
             ? options.find((opt) => opt.id === selectedOption)?.label
-            : "Select an option"}
+            : initialActive}
           <svg
             className="w-5 h-5 ml-2 -mr-1 text-gray-400"
             xmlns="http://www.w3.org/2000/svg"
