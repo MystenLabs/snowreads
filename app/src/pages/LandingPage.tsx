@@ -289,7 +289,9 @@ const LandingPage: React.FC<ILandingPageLayoutProps> = ({
       </div>
 
       <div className="pt-20 pb-10 flex flex-col items-center  max-w-[1100px]">
-        <h1 className="text-3xl text-center">Browse All Categories</h1>
+        <h1 className="text-3xl text-center bg-primary rounded-lg px-3">
+          Browse All Categories
+        </h1>
         <p className="text-sm pt-5">{formatBytes(papersSize)}</p>
       </div>
 
@@ -305,7 +307,7 @@ const LandingPage: React.FC<ILandingPageLayoutProps> = ({
             {category}
           </button>
         ))}
-        <div className="absolute lg:bottom-[1350px] lg:right-[350px] md:bottom-[1450px] md:right-[20px] transform -translate-y-1/2 z-[-10] hidden md:block">
+        <div className="absolute lg:top-[44%] lg:right-[20%] md:top-[50%] md:right-[2%] transform -translate-y-1/2 z-[-10] hidden md:block">
           <img
             src="/walrus_avatar.png"
             alt="Background"
