@@ -87,17 +87,17 @@ for pdf_file in $pdf_files; do
     fi
     
     object_id=$(echo "$walrus_resp" | jq -r '.newlyCreated.blobObject.id')
-    stored_epoch=$(echo "$walrus_resp" | jq -r '.newlyCreated.blobObject.storedEpoch')
+    registered_epoch=$(echo "$walrus_resp" | jq -r '.newlyCreated.blobObject.registeredEpoch')
     certified_epoch=$(echo "$walrus_resp" | jq -r '.newlyCreated.blobObject.certifiedEpoch')
     start_epoch=$(echo "$walrus_resp" | jq -r '.newlyCreated.blobObject.storage.startEpoch')
     end_epoch=$(echo "$walrus_resp" | jq -r '.newlyCreated.blobObject.storage.endEpoch')
-    if [ -z "$object_id" ] || [ -z "$stored_epoch" ] || [ -z "$certified_epoch" ] || [ -z "$start_epoch" ] || [ -z "$end_epoch" ]; then
+    if [ -z "$object_id" ] || [ -z "$registered_epoch" ] || [ -z "$certified_epoch" ] || [ -z "$start_epoch" ] || [ -z "$end_epoch" ]; then
         echo "Failed to parse resp for $pdf_file"
         exit 1
     fi
 
     # Append abs file with the new information
-    jq -c --arg object_id "$object_id" --arg stored_epoch "$stored_epoch" --arg certified_epoch "$certified_epoch" --arg start_epoch "$start_epoch" --arg end_epoch "$end_epoch" '. += {objectId: $object_id, storedEpoch: $stored_epoch, certifiedEpoch: $certified_epoch, startEpoch: $start_epoch, endEpoch: $end_epoch}' "$abs_file" > "$abs_file.tmp" && mv "$abs_file.tmp" "$abs_file"
+    jq -c --arg object_id "$object_id" --arg registered_epoch "$registered_epoch" --arg certified_epoch "$certified_epoch" --arg start_epoch "$start_epoch" --arg end_epoch "$end_epoch" '. += {objectId: $object_id, registeredEpoch: $registered_epoch, certifiedEpoch: $certified_epoch, startEpoch: $start_epoch, endEpoch: $end_epoch}' "$abs_file" > "$abs_file.tmp" && mv "$abs_file.tmp" "$abs_file"
 done
 
 echo "Store complete."
