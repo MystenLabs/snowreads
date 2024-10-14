@@ -33,12 +33,15 @@ const PaperAbstract: React.FC<IPaperAbstractProps> = ({
     }
   }, []);
 
-  const getCategoryAndSubcategory = (subjects: string) => {
-    if (!subjects) return { category: "Home", subcategory: "" };
+  const getCategoryAndSubcategoryFromCitation = (citation: string) => {
+    if (!citation) return { category: "Home", subcategory: "" };
 
-    // Extract category and subcategory from subjects
-    const firstSubject = subjects.split(",")[0].trim();
-    const [category, subcategory] = firstSubject
+    // Extract category and subcategory from citation
+    const citationParts = citation.match(/\[(.*?)\]/); // Extract text inside square brackets
+    if (!citationParts || citationParts.length < 2)
+      return { category: "Home", subcategory: "" };
+
+    const [category, subcategory] = citationParts[1]
       .split("/")
       .map((part) => part.trim());
 
@@ -53,7 +56,9 @@ const PaperAbstract: React.FC<IPaperAbstractProps> = ({
       subcategory: subcategory || "",
     };
   };
-  const { category, subcategory } = getCategoryAndSubcategory(subjects);
+
+  const { category, subcategory } =
+    getCategoryAndSubcategoryFromCitation(citation);
 
   return (
     <section className="  flex-grow lg:w-2/4 w-full md:w-3/4">
