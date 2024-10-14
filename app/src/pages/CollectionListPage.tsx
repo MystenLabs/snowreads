@@ -64,11 +64,11 @@ const CollectionListPage: React.FC<ICategoryListPageProps> = ({
                 ? "bg-tertiary text-black"
                 : "bg-white text-black"
             }`}
-            // onClick={() => setActiveTab("DOCUMENTS")}
+            onClick={() => setActiveTab("DOCUMENTS")}
           >
             Documents
           </button>
-          {/* <button
+          <button
             className={`px-4 py-2 rounded-full ${
               activeTab === "ABOUT"
                 ? "bg-tertiary text-black"
@@ -77,7 +77,7 @@ const CollectionListPage: React.FC<ICategoryListPageProps> = ({
             onClick={() => setActiveTab("ABOUT")}
           >
             About
-          </button> */}
+          </button>
         </div>
       </div>
 
@@ -145,6 +145,20 @@ const CollectionListPage: React.FC<ICategoryListPageProps> = ({
               </PaperCardContainer>
             )}
           </div>
+        </div>
+      )}
+      {/* Displaying this section when "About" tab is active */}
+      {activeTab === "ABOUT" && (
+        <div className="flex flex-col items-center justify-center w-full h-full py-10">
+          <p className="sm:text-sm md:text-base lg:text-base text-left max-w-2xl mb-4 px-5">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
+            imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae
+            scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices
+            nec congue eget, auctor vitae massa. Lorem ipsum dolor sit amet,
+            consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum
+            interdum, nisi lorem egestas odio, vitae scelerisque enim ligula
+            venenatis dolor.
+          </p>
         </div>
       )}
     </div>

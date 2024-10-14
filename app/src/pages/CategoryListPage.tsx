@@ -123,11 +123,11 @@ const CategoryListPage: React.FC<ICategoryListPageProps> = ({ label }) => {
                 ? "bg-tertiary text-black"
                 : "bg-white text-black"
             }`}
-            // onClick={() => setActiveTab("DOCUMENTS")}
+            onClick={() => setActiveTab("DOCUMENTS")}
           >
             Documents
           </button>
-          {/* <button
+          <button
             className={`px-4 py-2 rounded-full ${
               activeTab === "ABOUT"
                 ? "bg-tertiary text-black"
@@ -136,7 +136,7 @@ const CategoryListPage: React.FC<ICategoryListPageProps> = ({ label }) => {
             onClick={() => setActiveTab("ABOUT")}
           >
             About
-          </button> */}
+          </button>
         </div>
       </div>
 
