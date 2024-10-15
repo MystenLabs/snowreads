@@ -4,6 +4,7 @@ import PaperAbstract from "../components/paperComponents/PaperAbstract";
 import AccessPaperCard from "../components/paperComponents/AccessPaperCard";
 import { Spinner } from "../components/common/Spinner";
 import { IAbstractPageProps } from "../interfaces/IAbstractPageProps";
+import InformationPopup from "../components/landingComponents/InformationPopup";
 
 const AbstractPage: React.FC<IAbstractPageProps> = ({ arxiv_id }) => {
   const [paperData, setPaperData] = useState<any>(null);
@@ -131,6 +132,7 @@ const AbstractPage: React.FC<IAbstractPageProps> = ({ arxiv_id }) => {
           />
         </div>
       </main>
+      <InformationPopup />
     </div>
   );
 };

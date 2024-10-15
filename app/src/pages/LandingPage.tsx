@@ -272,20 +272,18 @@ const LandingPage: React.FC<ILandingPageLayoutProps> = ({
         <p className="text-sm pt-5">{formatBytes(collectionsSize)}</p>
       </div>
 
-      <div className="overflow-hidden">
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 w-full px-4 sm:px-8 md:px-12 lg:px-0 lg:max-w-[1100px] pb-10">
-          {collections.map((item, index) => (
-            <CategoryCard
-              key={index}
-              icon={item.icon}
-              category={item.category}
-              title={item.title}
-              documents={item.documents}
-              size={Number(item.size)}
-              className="w-full"
-            />
-          ))}
-        </div>
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 w-full px-4 sm:px-8 md:px-12 lg:px-0 lg:max-w-[1100px] pb-10">
+        {collections.map((item, index) => (
+          <CategoryCard
+            key={index}
+            icon={item.icon}
+            category={item.category}
+            title={item.title}
+            documents={item.documents}
+            size={Number(item.size)}
+            className="w-full"
+          />
+        ))}
       </div>
 
       <div className="pt-20 pb-10 flex flex-col items-center  max-w-[1100px]">

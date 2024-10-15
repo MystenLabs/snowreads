@@ -8,6 +8,7 @@ import { useParams, useNavigate } from "react-router-dom";
 import { IAllPapers, IPaperTrimmed } from "../interfaces/IAllPapers";
 import { Spinner } from "../components/common/Spinner";
 import { formatBytes } from "../tools/utils";
+import InformationPopup from "../components/landingComponents/InformationPopup";
 
 // Helper function to find the correct case-sensitive subcategory name
 const findCorrectSubCategoryName = (
@@ -235,6 +236,7 @@ const CategoryListPage: React.FC<ICategoryListPageProps> = ({ label }) => {
           </p>
         </div>
       )}
+      <InformationPopup />
     </div>
   );
 };

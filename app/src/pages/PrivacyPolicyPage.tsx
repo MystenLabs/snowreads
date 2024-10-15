@@ -1,6 +1,7 @@
 import { useNavigate } from "react-router-dom";
 import Header from "../layout/Header";
 import Footer from "../layout/Footer";
+import InformationPopup from "../components/landingComponents/InformationPopup";
 
 const PrivacyPolicyPage: React.FC = () => {
   const navigate = useNavigate();
@@ -45,6 +46,7 @@ const PrivacyPolicyPage: React.FC = () => {
             </button>
           </div>
         </div>
+        <InformationPopup />
       </section>
       <Footer />
     </div>

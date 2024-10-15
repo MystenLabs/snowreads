@@ -7,6 +7,7 @@ import MobileNavigationBar from "../components/common/MobileNavigationBar";
 import { useParams, useNavigate } from "react-router-dom";
 import { Spinner } from "../components/common/Spinner";
 import { formatBytes } from "../tools/utils";
+import InformationPopup from "../components/landingComponents/InformationPopup";
 
 const CollectionListPage: React.FC<ICategoryListPageProps> = ({
   label,
@@ -161,6 +162,7 @@ const CollectionListPage: React.FC<ICategoryListPageProps> = ({
           </p>
         </div>
       )}
+      <InformationPopup />
     </div>
   );
 };

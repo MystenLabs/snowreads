@@ -80,7 +80,10 @@ const MobileNavigationBar: React.FC<IMobileNavigationBarProps> = ({
 
       {isOpen && (
         <div className="absolute right-0 top-12 mt-2 w-56 rounded-lg shadow-lg bg-white ring-1 ring-black ring-opacity-5">
-          <div className="py-1" role="menu">
+          <div
+            className="py-1 max-h-48 overflow-y-scroll" // Set fixed height and make it scrollable
+            role="menu"
+          >
             {options.map((option) => (
               <a
                 key={option.id}

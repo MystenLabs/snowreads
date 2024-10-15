@@ -13,8 +13,8 @@ const CategoryCard: React.FC<ICategoryCardProps> = ({
   return (
     <Link
       to={`/collection/${title}`}
-      className={`block p-4 rounded-lg text-center min-h-[180px] bg-white relative transform transition-transform duration-200 ease-in-out hover:scale-105 cursor-pointer ${className} 
-                  w-full sm:w-full md:w-[90%] lg:w-auto`}
+      className={`block p-4 rounded-lg text-center min-h-[180px] bg-white relative transform transition-transform duration-200 ease-in-out hover:scale-105 cursor-pointer overflow-hidden
+        w-full sm:w-full md:w-[90%] lg:w-auto ${className}`}
     >
       {/* Conditionally apply the background images for different categories */}
       {category === "Computer Science" && (

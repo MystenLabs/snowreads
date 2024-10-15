@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "../layout/Header";
 import Footer from "../layout/Footer";
+import InformationPopup from "../components/landingComponents/InformationPopup";
 
 const Custom404: React.FC = () => {
   return (
@@ -27,6 +28,7 @@ const Custom404: React.FC = () => {
             </a>
           </div>
         </div>
+        <InformationPopup />
       </section>
       <Footer />
     </div>
