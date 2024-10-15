@@ -1,0 +1,289 @@
+use std::fs::{self, File};
+use std::io::{BufReader, BufWriter, Write};
+
+use add_paper::arxiv::Entry;
+use add_paper::categories::Categories;
+use add_paper::category::Category;
+use add_paper::collections::{Collection, Collections, Paper};
+use add_paper::oai::{OAIEntry, PaperVersion};
+use chrono::{DateTime, Utc};
+use clap::Parser;
+use color_eyre::eyre::{eyre, OptionExt};
+use color_eyre::Result;
+use serde::{Serialize, Serializer};
+use xml2json_rs::JsonBuilder;
+
+pub fn serialize_u64_as_string<S>(value: &u64, serializer: S) -> Result<S::Ok, S::Error>
+where
+    S: Serializer,
+{
+    value.to_string().serialize(serializer)
+}
+
+#[derive(Debug, Clone, Serialize)]
+#[serde(rename_all = "camelCase")]
+struct AbsJson {
+    id: String,
+    title: String,
+    authors: String,
+    authors_parsed: Vec<Vec<String>>,
+    versions: Vec<PaperVersion>,
+    update_date: String,
+    timestamp: u64,
+    #[serde(rename = "abstract")]
+    abstract_: String,
+    subjects: Vec<String>,
+    license: String,
+    #[serde(skip_serializing_if = "Option::is_none")]
+    blob_id: Option<String>,
+    #[serde(serialize_with = "serialize_u64_as_string")]
+    pdf_size: u64,
+}
+
+const OAI_JSON_METADATA_PATH: &'static str =
+    "/Users/nikos/Projects/Internal/wal-papers/data/arxiv-metadata-oai-snapshot.json";
+fn read_oai_json_file(file_path: &str) -> Result<Vec<OAIEntry>> {
+    // Open the file
+    let file = File::open(file_path)?;
+    // Create a buffered reader
+    let reader = BufReader::new(file);
+    // Deserialize the JSON into a Vec<Item>
+    let items: Vec<OAIEntry> = serde_json::from_reader(reader)?;
+    Ok(items)
+}
+
+impl<'a> Into<Paper> for &'a AbsJson {
+    fn into(self: &'a AbsJson) -> Paper {
+        Paper {
+            id: self.id.clone(),
+            title: self.title.clone(),
+            authors_parsed: self.authors_parsed.clone(),
+            timestamp: self.timestamp.clone(),
+        }
+    }
+}
+
+/// Add Paper
+/// Fetches necessary metadata from
+///     1. arXiv API
+///     2. DataCite API
+///     3. arXiv OAI API
+/// and paper and stores them inside ../app/public/ directory
+#[derive(Parser, Debug)]
+#[command(name = "add-paper")]
+struct Cli {
+    #[arg(short = 'i', long = "id")]
+    arxiv_id: String,
+    #[arg(short = 'c', long = "collection")]
+    collection: String,
+}
+
+#[tokio::main]
+async fn main() -> Result<()> {
+    let Cli {
+        arxiv_id,
+        collection: collection_name,
+    } = Cli::parse();
+    let arxiv_xml = reqwest::get(&format!(
+        "http://export.arxiv.org/api/query?id_list={}",
+        arxiv_id,
+    ))
+    .await?
+    .text()
+    .await?;
+
+    let mut arxiv_entry = arxiv_xml
+        .split("<entry>")
+        .map(|s| "<entry>".to_string() + s)
+        .skip(1)
+        .next()
+        .ok_or_eyre("No entry in arxiv response")?;
+    let arxiv_entry_end = arxiv_entry
+        .find("</entry>")
+        .ok_or_eyre("No </entry> in arxiv response")?;
+    arxiv_entry.truncate(arxiv_entry_end + "</entry>".len());
+    let arxiv_entry = arxiv_entry;
+
+    let mut arxiv_json = JsonBuilder::default().build_from_xml(&arxiv_entry)?;
+
+    let entry = arxiv_json
+        .get_mut("entry")
+        .ok_or_eyre("No entry inside arxiv_json")?
+        .take();
+
+    let entry = serde_json::from_value::<Entry>(entry)?;
+    let title = entry.title[0].clone();
+    let authors = entry
+        .author
+        .iter()
+        .map(|author| author.name[0].clone())
+        .collect::<Vec<String>>();
+    let authors = authors.join(", ");
+    let primary_category = entry.primary_category[0].dollar_sign.term;
+    let primary_category = serde_json::to_string(&primary_category)?;
+    let mut categories = primary_category.split("--").map(|s| s.to_string());
+    let parent_category = categories.next().ok_or_eyre("No parent category")?;
+    let child_category = categories.next().ok_or_eyre("No child category")?;
+    let parent_category = if parent_category.starts_with('"') {
+        parent_category[1..].to_string()
+    } else {
+        parent_category
+    };
+    let child_category = if child_category.ends_with('"') {
+        child_category[..child_category.len() - 1].to_string()
+    } else {
+        child_category
+    };
+    println!("parent_category: {}", parent_category);
+    println!("child_category: {}", child_category);
+
+    // let pretty = serde_json::to_string_pretty(&arxiv_json)?;
+    // println!("arxiv: {}", &pretty);
+
+    // let oai_xml = reqwest::get(&format!(
+    //     "http://export.arxiv.org/oai2?verb=GetRecord&identifier=oai:arXiv.org:{arxiv_id}&metadataPrefix=arXiv"
+    //     )).await?
+    //     .text()
+    //     .await?;
+
+    let items: Vec<OAIEntry> = read_oai_json_file(OAI_JSON_METADATA_PATH)?;
+
+    let oai_json = items
+        .into_iter()
+        .find(|item| item.id == arxiv_id)
+        .ok_or_eyre("Id not found inside oai json metadata")?;
+    let authors_parsed = oai_json.authors_parsed;
+
+    let versions = oai_json.versions;
+    let update_date = oai_json.update_date.unwrap_or("".to_string());
+    let subjects = oai_json.categories.split(" ").map(|s| s.to_string());
+    let subjects = subjects
+        .map(|s| {
+            println!("{}", s);
+            serde_json::from_str::<Category>(&format!("\"{s}\""))
+                .map_err(|e| eyre!("Could not parse category: {}", e))
+        })
+        .collect::<Result<Vec<Category>>>()?;
+    let subjects = subjects
+        .into_iter()
+        .map(|cat| {
+            let cat_str = serde_json::to_string(&cat)
+                .map_err(|e| eyre!("Could not serialize category: {}", e))?;
+            let mut replaced = cat_str.replace("--", "/");
+            if replaced.starts_with('"') {
+                replaced = replaced[1..].to_string();
+            }
+            if replaced.ends_with('"') {
+                replaced = replaced[..replaced.len() - 1].to_string();
+            }
+
+            Ok(replaced)
+        })
+        .collect::<Result<Vec<String>>>()?;
+
+    let published_date = versions
+        .iter()
+        .find(|version| version.version.as_str() == "v1")
+        .ok_or_eyre("No v1")?;
+    let published_date =
+        DateTime::parse_from_rfc2822(published_date.created.as_str())?.with_timezone(&Utc);
+    let timestamp = published_date.timestamp_millis() as u64;
+    println!("timestamp: {}", timestamp);
+    let abstract_ = oai_json.abstract_;
+    let license = oai_json
+        .license
+        .expect(&format!("Did not find license for paper {arxiv_id}"));
+    // let blob_id =
+    let pdf_size = std::fs::metadata(format!(
+        "/Users/nikos/Projects/Internal/wal-papers/app/public/pdf/{arxiv_id}.pdf"
+    ))?
+    .len();
+    let abs_json = AbsJson {
+        id: arxiv_id,
+        title,
+        authors,
+        authors_parsed,
+        versions,
+        update_date,
+        timestamp,
+        abstract_,
+        subjects,
+        license,
+        blob_id: None,
+        pdf_size,
+    };
+    println!("{}", serde_json::to_string(&abs_json)?);
+
+    let file = File::open(
+        "/Users/nikos/Projects/Internal/wal-papers-add-paper/app/public/collections.json",
+    )?;
+    let mut collections: Collections = serde_json::from_reader(BufReader::new(file))?;
+
+    if !collections.collections.contains_key(&collection_name) {
+        collections
+            .collections
+            .insert(collection_name.clone(), Collection::default());
+    }
+    let collection = collections.collections.get_mut(&collection_name).unwrap();
+
+    let paper: Paper = (&abs_json).into();
+    let new = collection.papers.insert(paper.clone());
+    assert!(new, "Paper already in collection");
+    collection.count += 1;
+    collection.size += abs_json.pdf_size;
+    collections.size += abs_json.pdf_size;
+    let file = File::create(
+        "/Users/nikos/Projects/Internal/wal-papers-add-paper/app/public/new_collections.json",
+    )?;
+    let mut writer = BufWriter::new(file);
+    serde_json::to_writer(&mut writer, &collections)?;
+    writer.flush()?;
+
+    fs::remove_file(
+        "/Users/nikos/Projects/Internal/wal-papers-add-paper/app/public/collections.json",
+    )?;
+    fs::rename(
+        "/Users/nikos/Projects/Internal/wal-papers-add-paper/app/public/new_collections.json",
+        "/Users/nikos/Projects/Internal/wal-papers-add-paper/app/public/collections.json",
+    )?;
+
+    let file =
+        File::open("/Users/nikos/Projects/Internal/wal-papers-add-paper/app/public/papers.json")?;
+    let mut categories_json: Categories = serde_json::from_reader(BufReader::new(file))?;
+
+    let parent_category = categories_json
+        .parent_categories
+        .get_mut(&parent_category)
+        .ok_or_eyre("Parent category not found in papers.json")?;
+    let child_category = parent_category
+        .child_categories
+        .get_mut(&child_category)
+        .ok_or_eyre("Child category not found in papers.json")?;
+    if child_category.papers.contains(&paper) {
+        println!("Paper already exists in papers.json");
+        return Ok(());
+    }
+    println!("Updating papers.json...");
+    child_category.papers.insert(paper);
+    child_category.count += 1;
+    child_category.size += abs_json.pdf_size;
+    parent_category.count += 1;
+    parent_category.size += abs_json.pdf_size;
+    categories_json.count += 1;
+    categories_json.size += abs_json.pdf_size;
+    let file = File::create(
+        "/Users/nikos/Projects/Internal/wal-papers-add-paper/app/public/new_papers.json",
+    )?;
+    let mut writer = BufWriter::new(file);
+    serde_json::to_writer(&mut writer, &categories_json)?;
+    writer.flush()?;
+
+    // fs::remove_file(
+    //     "/Users/nikos/Projects/Internal/wal-papers-add-paper/app/public/papers.json",
+    // )?;
+    // fs::rename(
+    //     "/Users/nikos/Projects/Internal/wal-papers-add-paper/app/public/new_papers.json",
+    //     "/Users/nikos/Projects/Internal/wal-papers-add-paper/app/public/papers.json",
+    // )?;
+    Ok(())
+}
