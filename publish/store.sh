@@ -29,7 +29,7 @@ fi
 
 N_EPOCHS=$N_EPOCHS
 if [ -z "$N_EPOCHS" ]; then
-    N_EPOCHS=100
+    N_EPOCHS=104
 fi
 
 script_dir=$(dirname "$0")
