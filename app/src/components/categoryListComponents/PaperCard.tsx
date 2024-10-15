@@ -15,7 +15,7 @@ export const PaperCard: React.FC<IPaperCardProps> = ({
   return (
     <a href={paper.link} className="block bg-secondary p-4 my-2 rounded-md">
       <div className="flex space-x-4 items-start">
-        <span className="text-sm font-medium">{index + 1}.</span>
+        {/* <span className="text-sm font-medium">{index + 1}.</span> */}
         {hasVisibleIcon ? (
           <img
             src="/paper_icon.png"
