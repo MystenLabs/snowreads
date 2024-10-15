@@ -22,21 +22,27 @@ Follow these steps to deploy **Walpapers**:
    cd wal-papers/publish
    ```
 
-3. **Run the untar script** to extract the PDFs and check their licenses:
+3. **Run the untar script** to extract the PDFs and check their licenses. This will copy all pdf files that have a license that permits redistribution to app/public/pdf/ directory.
 
    ```bash
-   ./untar-check.sh {path_to_your_tar_with_arixv_papers}
+   ./untar-check.sh {path_to_your_tar_with_arxiv_papers}
    ```
 
    This script extracts the PDF files and verifies that only appropriately licensed papers are uploaded.
 
-4. **Trim metadata** to remove unallowed papers:
+4. **Trim metadata** to remove any app/public/abs/<arxiv_id>.json files not having a corresponding pdf.
 
    ```bash
-   ts-node trim-metadata.js
+   node trim-metadata.js
    ```
 
-5. **Build the application**:
+5. **Run calc-size and colection-size** to update categories and collection size:
+   ```bash
+   node calc-size.js
+   ts-node collection-size.ts
+   ```
+    
+6. **Build the application**:
    Navigate to the `app` folder and run the following command:
 
    ```bash
@@ -44,7 +50,7 @@ Follow these steps to deploy **Walpapers**:
    npm run build
    ```
 
-6. **Run the site builder** to generate and upload the site:
+7. **Run the site builder** to generate and upload the site:
 
    ```bash
    {path_to_site_builder}/site-builder --config {path_to_config_file} builder-example.yaml publish {path_to_dist_folder}/dist
@@ -54,7 +60,7 @@ Follow these steps to deploy **Walpapers**:
    - `{path_to_config_file}`: Path to the configuration file (e.g., `builder-example.yaml`).
    - `{path_to_dist_folder}`: Path to the `dist` folder generated after the build.
 
-7. **Wait for the upload**: The process will generate Blob IDs for each resource and store them on Walrus. Once complete, the Walrus site URL and the new site object ID will appear.
+8. **Wait for the upload**: The process will generate Blob IDs for each resource and store them on Walrus. Once complete, the Walrus site URL and the new site object ID will appear.
 
 ## Note
 
