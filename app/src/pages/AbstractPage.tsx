@@ -1,9 +1,10 @@
 import React, { useState, useEffect } from "react";
 import SidebarNav from "../components/common/SideNavbar";
 import PaperAbstract from "../components/paperComponents/PaperAbstract";
-import AccessPaperCard from "../components/paperComponents/AccessPaperCard";
 import { Spinner } from "../components/common/Spinner";
 import { IAbstractPageProps } from "../interfaces/IAbstractPageProps";
+import InformationPopup from "../components/landingComponents/InformationPopup";
+import ViewPDFButton from "../components/paperComponents/ViewPDFButton";
 
 const AbstractPage: React.FC<IAbstractPageProps> = ({ arxiv_id }) => {
   const [paperData, setPaperData] = useState<any>(null);
@@ -125,12 +126,13 @@ const AbstractPage: React.FC<IAbstractPageProps> = ({ arxiv_id }) => {
           onAbstractHeightChange={handleAbstractHeightChange}
         />
         <div style={isSmallScreen ? { visibility: "hidden" } : {}}>
-          <AccessPaperCard
+          <ViewPDFButton
             fullPaperLink={`/pdf/${arxiv_id}.pdf`}
             dynamicMarginTop={abstractHeight}
           />
         </div>
       </main>
+      <InformationPopup />
     </div>
   );
 };

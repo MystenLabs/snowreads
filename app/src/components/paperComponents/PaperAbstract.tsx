@@ -1,9 +1,9 @@
 import React, { useEffect, useRef, useState } from "react";
 import { IPaperAbstractProps } from "../../interfaces/IPaperAbstractProps";
 import MobileNavigationBar from "../common/MobileNavigationBar";
-import AccessPaperCard from "./AccessPaperCard";
 import TopNavigationHistory from "../common/TopNavigationHistory";
 import { formatBytes } from "../../tools/utils";
+import ViewPDFButton from "./ViewPDFButton";
 
 const PaperAbstract: React.FC<IPaperAbstractProps> = ({
   arxiv_id,
@@ -32,6 +32,22 @@ const PaperAbstract: React.FC<IPaperAbstractProps> = ({
       onAbstractHeightChange(yPosition); // Pass the Y position to the parent
     }
   }, []);
+
+  const transformLicense = (licenseUrl: string): string => {
+    const licenseMap: Record<string, string> = {
+      "http://creativecommons.org/licenses/by-sa/4.0/":
+        "Creative Commons BY-SA 4.0",
+      "http://creativecommons.org/licenses/by/4.0/": "Creative Commons BY 4.0",
+      "http://creativecommons.org/publicdomain/zero/1.0/":
+        "Public Domain (CC0 1.0)",
+      "http://creativecommons.org/licenses/by-nc-sa/4.0/":
+        "Creative Commons BY-NC-SA 4.0",
+      "http://creativecommons.org/licenses/by-nc-nd/4.0/":
+        "Creative Commons BY-NC-ND 4.0",
+    };
+
+    return licenseMap[licenseUrl] || "Unknown License";
+  };
 
   const getCategoryAndSubcategoryFromCitation = (citation: string) => {
     if (!citation) return { category: "Home", subcategory: "" };
@@ -72,11 +88,12 @@ const PaperAbstract: React.FC<IPaperAbstractProps> = ({
         </h1>
         <p className="text-sm text-gray-500 mb-2">{submissionAndUpdateText}</p>
         <p className="text-sm text-gray-500 mb-4">
-          {formatBytes(Number(fileSize))}
+          {formatBytes(Number(fileSize))} of data saved on{" "}
+          <span className="text-quaternary">Walrus</span>
         </p>
         <p className="text-sm text-gray-500 mb-4">{arxiv_id}</p>
         <div className="md:hidden">
-          <AccessPaperCard fullPaperLink={`/pdf/${arxiv_id}.pdf`} />
+          <ViewPDFButton fullPaperLink={`/pdf/${arxiv_id}.pdf`} />
         </div>
         <MobileNavigationBar
           mode="scroll"
@@ -138,7 +155,7 @@ const PaperAbstract: React.FC<IPaperAbstractProps> = ({
           target="_blank"
           rel="noopener noreferrer"
         >
-          {license}
+          {transformLicense(license)}
         </a>
       </div>
     </section>

@@ -269,30 +269,34 @@ const LandingPage: React.FC<ILandingPageLayoutProps> = ({
           <br />
           <span>That Challenge Your Thinking</span>
         </h1>
-        <p className="text-sm pt-5">{formatBytes(collectionsSize)}</p>
+        <p className="text-sm pt-5">
+          {formatBytes(collectionsSize)} of data saved on{" "}
+          <span className="text-quaternary">Walrus</span>
+        </p>
       </div>
 
-      <div className="overflow-hidden">
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 w-full px-4 sm:px-8 md:px-12 lg:px-0 lg:max-w-[1100px] pb-10">
-          {collections.map((item, index) => (
-            <CategoryCard
-              key={index}
-              icon={item.icon}
-              category={item.category}
-              title={item.title}
-              documents={item.documents}
-              size={Number(item.size)}
-              className="w-full"
-            />
-          ))}
-        </div>
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 w-full px-4 sm:px-8 md:px-12 lg:px-0 lg:max-w-[1100px] pb-10">
+        {collections.map((item, index) => (
+          <CategoryCard
+            key={index}
+            icon={item.icon}
+            category={item.category}
+            title={item.title}
+            documents={item.documents}
+            size={Number(item.size)}
+            className="w-full"
+          />
+        ))}
       </div>
 
       <div className="pt-20 pb-10 flex flex-col items-center  max-w-[1100px]">
         <h1 className="text-3xl text-center bg-primary rounded-lg px-3">
           Browse All Categories
         </h1>
-        <p className="text-sm pt-5">{formatBytes(papersSize)}</p>
+        <p className="text-sm pt-5">
+          {formatBytes(papersSize)} of data saved on{" "}
+          <span className="text-quaternary">Walrus</span>
+        </p>
       </div>
 
       <div className="flex flex-wrap justify-center gap-4 my-4    max-w-[1200px]">
@@ -365,21 +369,21 @@ const LandingPage: React.FC<ILandingPageLayoutProps> = ({
         </div>
 
         <div className="bg-white border border-black rounded-lg p-4 space-y-4 mt-8">
-          <div className="flex justify-between items-center">
+          <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center space-y-4 sm:space-y-0">
             <Link
               className="text-base font-medium"
               to={`/category/${activeCategory}`}
             >
               View all in {activeCategory}
             </Link>
-            <div className="text-sm font-medium text-gray-600 ">
+            <div className="text-sm font-medium text-gray-600 sm:text-right">
               {documentsCount[activeCategory].count} Documents,{" "}
               {formatBytes(activeCategorySize)}
             </div>
           </div>
         </div>
       </div>
-
+      {/* <BackToTopButton /> */}
       <InformationPopup />
     </div>
   );

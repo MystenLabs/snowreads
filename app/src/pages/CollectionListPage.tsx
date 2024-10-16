@@ -7,6 +7,7 @@ import MobileNavigationBar from "../components/common/MobileNavigationBar";
 import { useParams, useNavigate } from "react-router-dom";
 import { Spinner } from "../components/common/Spinner";
 import { formatBytes } from "../tools/utils";
+import InformationPopup from "../components/landingComponents/InformationPopup";
 
 const CollectionListPage: React.FC<ICategoryListPageProps> = ({
   label,
@@ -46,16 +47,14 @@ const CollectionListPage: React.FC<ICategoryListPageProps> = ({
   return (
     <div className="w-full min-h-screen bg-primary flex flex-col items-center">
       <div className="pt-10 pb-5 text-center">
-        <a href={"/"}>
-          <div className="text-sm text-gray-600">Home </div>{" "}
-        </a>
         <div className="flex justify-center">
           <div className="text-2xl md:text-2xl sm:text-2xl lg:text-3xl font-medium text-gray-900 p-2 max-w-xl w-full text-center">
             {category}
           </div>
         </div>
-        <p className="text-gray-600 mb-6">
-          {formatBytes(activeCollectionSize)}
+        <p className="text-gray-600 mb-6 mt-3">
+          {formatBytes(activeCollectionSize)} of data saved on{" "}
+          <span className="text-quaternary">Walrus</span>
         </p>
         <div className="flex justify-center space-x-4">
           <button
@@ -100,49 +99,55 @@ const CollectionListPage: React.FC<ICategoryListPageProps> = ({
             {loading ? (
               <Spinner />
             ) : (
-              <PaperCardContainer
-                cardTitle={`${activeCollection?.papers.length} Documents, ${formatBytes(
-                  activeSubcategorySize
-                )}`}
-                maxHeight="1200px"
-              >
-                {activeCollection?.papers.length > 0 ? (
-                  activeCollection?.papers
-                    .sort(
-                      (
-                        lhs: { timestamp: number },
-                        rhs: { timestamp: number }
-                      ) => rhs.timestamp - lhs.timestamp
-                    ) // Sort by timestamp
-                    .map(
-                      (
-                        paper: { id: any; title: any; authorsParsed: any[][] },
-                        index: number
-                      ) => {
-                        const mappedPaper = {
-                          id: paper.id,
-                          title: paper.title,
-                          authors: paper.authorsParsed
-                            .map((author: any[]) => author.join(" "))
-                            .join(", "),
-                          link: `/abs/${paper.id}`,
-                          arxiv_id: paper.id,
-                        };
+              <div className="md:-mt-6 ">
+                <PaperCardContainer
+                  cardTitle={`${activeCollection?.papers.length} Documents, ${formatBytes(
+                    activeSubcategorySize
+                  )}`}
+                  maxHeight="1200px"
+                >
+                  {activeCollection?.papers.length > 0 ? (
+                    activeCollection?.papers
+                      .sort(
+                        (
+                          lhs: { timestamp: number },
+                          rhs: { timestamp: number }
+                        ) => rhs.timestamp - lhs.timestamp
+                      ) // Sort by timestamp
+                      .map(
+                        (
+                          paper: {
+                            id: any;
+                            title: any;
+                            authorsParsed: any[][];
+                          },
+                          index: number
+                        ) => {
+                          const mappedPaper = {
+                            id: paper.id,
+                            title: paper.title,
+                            authors: paper.authorsParsed
+                              .map((author: any[]) => author.join(" "))
+                              .join(", "),
+                            link: `/abs/${paper.id}`,
+                            arxiv_id: paper.id,
+                          };
 
-                        return (
-                          <PaperCard
-                            key={mappedPaper.id}
-                            paper={mappedPaper}
-                            index={index}
-                            hasVisibleIcon={true}
-                          />
-                        );
-                      }
-                    )
-                ) : (
-                  <p>No papers available</p>
-                )}
-              </PaperCardContainer>
+                          return (
+                            <PaperCard
+                              key={mappedPaper.id}
+                              paper={mappedPaper}
+                              index={index}
+                              hasVisibleIcon={true}
+                            />
+                          );
+                        }
+                      )
+                  ) : (
+                    <p>No papers available</p>
+                  )}
+                </PaperCardContainer>
+              </div>
             )}
           </div>
         </div>
@@ -161,6 +166,7 @@ const CollectionListPage: React.FC<ICategoryListPageProps> = ({
           </p>
         </div>
       )}
+      <InformationPopup />
     </div>
   );
 };
