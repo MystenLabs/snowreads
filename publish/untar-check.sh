@@ -61,8 +61,6 @@ for tar_file in "$@"; do
     fi
     # Remove the extracted folder
     rmdir "$TMP_FOLDER/$folder_name"
-    # Remove the tar file for space economy
-    rm "$tar_file"
 done
 
 echo "Extraction complete. All allowed pdfs have been extracted to $APP_PUBLIC_PDF_FOLDER"
