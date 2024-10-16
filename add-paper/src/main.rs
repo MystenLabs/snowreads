@@ -1,3 +1,4 @@
+use std::env;
 use std::fs::{self, File};
 use std::io::{BufReader, BufWriter, Write};
 
@@ -10,6 +11,7 @@ use chrono::{DateTime, Utc};
 use clap::Parser;
 use color_eyre::eyre::{eyre, OptionExt};
 use color_eyre::Result;
+use dotenvy::dotenv;
 use serde::{Serialize, Serializer};
 use xml2json_rs::JsonBuilder;
 
@@ -40,8 +42,6 @@ struct AbsJson {
     pdf_size: u64,
 }
 
-const OAI_JSON_METADATA_PATH: &'static str =
-    "/Users/nikos/Projects/Internal/wal-papers/data/arxiv-metadata-oai-snapshot.json";
 fn read_oai_json_file(file_path: &str) -> Result<Vec<OAIEntry>> {
     // Open the file
     let file = File::open(file_path)?;
@@ -80,10 +80,31 @@ struct Cli {
 
 #[tokio::main]
 async fn main() -> Result<()> {
+    dotenv().ok();
     let Cli {
         arxiv_id,
         collection: collection_name,
     } = Cli::parse();
+
+    let pdf_directory = env::var("PDF_PATH").expect("PDF_PATH not found in .env");
+    let abs_directory = env::var("ABS_PATH").expect("ABS_PATH not found in .env");
+    let public_directory = env::var("PUBLIC_PATH").expect("PUBLIC_PATH not found in .env");
+    let oai_json_metadata =
+        env::var("OAI_JSON_METADATA").expect("OAI_JSON_METADATA not found in .env");
+
+    // First download the file in case it doesn't exist:
+    let file_path = format!("{pdf_directory}/{arxiv_id}.pdf");
+    if fs::metadata(&file_path).is_err() {
+        let pdf_bytes = reqwest::get(format!("https://arxiv.org/pdf/{arxiv_id}"))
+            .await?
+            .bytes()
+            .await?;
+        let file = File::create(file_path)?;
+        let mut writer = BufWriter::new(file);
+        writer.write_all(&pdf_bytes)?;
+        writer.flush()?;
+    }
+
     let arxiv_xml = reqwest::get(&format!(
         "http://export.arxiv.org/api/query?id_list={}",
         arxiv_id,
@@ -124,7 +145,7 @@ async fn main() -> Result<()> {
     let mut categories = primary_category.split("--").map(|s| s.to_string());
     let parent_category = categories.next().ok_or_eyre("No parent category")?;
     let child_category = categories.next().ok_or_eyre("No child category")?;
-    let parent_category = if parent_category.starts_with('"') {
+    let mut parent_category = if parent_category.starts_with('"') {
         parent_category[1..].to_string()
     } else {
         parent_category
@@ -134,6 +155,10 @@ async fn main() -> Result<()> {
     } else {
         child_category
     };
+    // Rename of Computing Research Repository
+    if parent_category == "Computing Research Repository" {
+        parent_category = "Computer Science".to_string()
+    }
     println!("parent_category: {}", parent_category);
     println!("child_category: {}", child_category);
 
@@ -146,7 +171,7 @@ async fn main() -> Result<()> {
     //     .text()
     //     .await?;
 
-    let items: Vec<OAIEntry> = read_oai_json_file(OAI_JSON_METADATA_PATH)?;
+    let items: Vec<OAIEntry> = read_oai_json_file(&oai_json_metadata)?;
 
     let oai_json = items
         .into_iter()
@@ -194,10 +219,7 @@ async fn main() -> Result<()> {
         .license
         .expect(&format!("Did not find license for paper {arxiv_id}"));
     // let blob_id =
-    let pdf_size = std::fs::metadata(format!(
-        "/Users/nikos/Projects/Internal/wal-papers/app/public/pdf/{arxiv_id}.pdf"
-    ))?
-    .len();
+    let pdf_size = std::fs::metadata(format!("{pdf_directory}/{arxiv_id}.pdf"))?.len();
     let abs_json = AbsJson {
         id: arxiv_id,
         title,
@@ -212,11 +234,9 @@ async fn main() -> Result<()> {
         blob_id: None,
         pdf_size,
     };
-    println!("{}", serde_json::to_string(&abs_json)?);
+    // println!("{}", serde_json::to_string(&abs_json)?);
 
-    let file = File::open(
-        "/Users/nikos/Projects/Internal/wal-papers-add-paper/app/public/collections.json",
-    )?;
+    let file = File::open(format!("{public_directory}/collections.json"))?;
     let mut collections: Collections = serde_json::from_reader(BufReader::new(file))?;
 
     if !collections.collections.contains_key(&collection_name) {
@@ -228,27 +248,26 @@ async fn main() -> Result<()> {
 
     let paper: Paper = (&abs_json).into();
     let new = collection.papers.insert(paper.clone());
-    assert!(new, "Paper already in collection");
-    collection.count += 1;
-    collection.size += abs_json.pdf_size;
-    collections.size += abs_json.pdf_size;
-    let file = File::create(
-        "/Users/nikos/Projects/Internal/wal-papers-add-paper/app/public/new_collections.json",
-    )?;
-    let mut writer = BufWriter::new(file);
-    serde_json::to_writer(&mut writer, &collections)?;
-    writer.flush()?;
+    if new {
+        println!("Adding paper to collections.json...");
+        collection.count += 1;
+        collection.size += abs_json.pdf_size;
+        collections.size += abs_json.pdf_size;
+        let file = File::create(format!("{public_directory}/new_collections.json"))?;
+        let mut writer = BufWriter::new(file);
+        serde_json::to_writer(&mut writer, &collections)?;
+        writer.flush()?;
 
-    fs::remove_file(
-        "/Users/nikos/Projects/Internal/wal-papers-add-paper/app/public/collections.json",
-    )?;
-    fs::rename(
-        "/Users/nikos/Projects/Internal/wal-papers-add-paper/app/public/new_collections.json",
-        "/Users/nikos/Projects/Internal/wal-papers-add-paper/app/public/collections.json",
-    )?;
+        fs::remove_file(format!("{public_directory}/collections.json"))?;
+        fs::rename(
+            format!("{public_directory}/new_collections.json"),
+            format!("{public_directory}/collections.json"),
+        )?;
+    } else {
+        println!("Paper already in collections.json");
+    }
 
-    let file =
-        File::open("/Users/nikos/Projects/Internal/wal-papers-add-paper/app/public/papers.json")?;
+    let file = File::open(format!("{public_directory}/papers.json"))?;
     let mut categories_json: Categories = serde_json::from_reader(BufReader::new(file))?;
 
     let parent_category = categories_json
@@ -271,19 +290,21 @@ async fn main() -> Result<()> {
     parent_category.size += abs_json.pdf_size;
     categories_json.count += 1;
     categories_json.size += abs_json.pdf_size;
-    let file = File::create(
-        "/Users/nikos/Projects/Internal/wal-papers-add-paper/app/public/new_papers.json",
-    )?;
+    let file = File::create(format!("{public_directory}/new_papers.json"))?;
     let mut writer = BufWriter::new(file);
     serde_json::to_writer(&mut writer, &categories_json)?;
     writer.flush()?;
 
-    // fs::remove_file(
-    //     "/Users/nikos/Projects/Internal/wal-papers-add-paper/app/public/papers.json",
-    // )?;
-    // fs::rename(
-    //     "/Users/nikos/Projects/Internal/wal-papers-add-paper/app/public/new_papers.json",
-    //     "/Users/nikos/Projects/Internal/wal-papers-add-paper/app/public/papers.json",
-    // )?;
+    fs::remove_file(format!("{public_directory}/papers.json"))?;
+    fs::rename(
+        format!("{public_directory}/new_papers.json"),
+        format!("{public_directory}/papers.json"),
+    )?;
+
+    // Store abs
+    let file = File::create(&format!("{abs_directory}/{}.json", abs_json.id))?;
+    let mut writer = BufWriter::new(file);
+    serde_json::to_writer(&mut writer, &abs_json)?;
+    writer.flush()?;
     Ok(())
 }
