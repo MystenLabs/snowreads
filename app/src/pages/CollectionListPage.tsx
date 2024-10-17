@@ -8,6 +8,7 @@ import { useParams, useNavigate } from "react-router-dom";
 import { Spinner } from "../components/common/Spinner";
 import { formatBytes } from "../tools/utils";
 import InformationPopup from "../components/landingComponents/InformationPopup";
+import AudioSummaryContainer from "../components/categoryListComponents/AudioSummaryContainer";
 
 const CollectionListPage: React.FC<ICategoryListPageProps> = ({
   label,
@@ -43,6 +44,7 @@ const CollectionListPage: React.FC<ICategoryListPageProps> = ({
         setLoading(false);
       });
   }, [category, navigate]);
+  console.log(`/${category}.wav`);
 
   return (
     <div className="w-full min-h-screen bg-primary flex flex-col items-center">
@@ -100,6 +102,8 @@ const CollectionListPage: React.FC<ICategoryListPageProps> = ({
               <Spinner />
             ) : (
               <div className="md:-mt-6 ">
+                {/* Change to bucket address */}
+                <AudioSummaryContainer src={`/${category}.wav`} />
                 <PaperCardContainer
                   cardTitle={`${activeCollection?.papers.length} Documents, ${formatBytes(
                     activeSubcategorySize
@@ -156,13 +160,12 @@ const CollectionListPage: React.FC<ICategoryListPageProps> = ({
       {activeTab === "ABOUT" && (
         <div className="flex flex-col items-center justify-center w-full h-full py-10">
           <p className="sm:text-sm md:text-base lg:text-base text-left max-w-2xl mb-4 px-5">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
-            imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae
-            scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices
-            nec congue eget, auctor vitae massa. Lorem ipsum dolor sit amet,
-            consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum
-            interdum, nisi lorem egestas odio, vitae scelerisque enim ligula
-            venenatis dolor.
+            ​All papers are available under Creative Commons (CC) licenses.
+            <br />
+            ​Thank you to arXiv for use of its open access interoperability.
+            <br />
+            This service was not reviewed or approved by, nor does it
+            necessarily express or reflect the policies or opinions of, arXiv.
           </p>
         </div>
       )}

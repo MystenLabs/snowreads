@@ -5,7 +5,7 @@ const TopNavigationHistory: React.FC<ITopNavigationHistoryProps> = ({
   subcategories,
 }) => {
   return (
-    <nav className="py-4 px-5">
+    <nav className="py-4 px-5 overflow-hidden">
       <ul className="flex items-center text-sm md:text-base w-full space-x-1">
         <li>
           <a

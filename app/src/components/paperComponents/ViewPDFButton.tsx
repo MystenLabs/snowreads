@@ -35,7 +35,7 @@ const ViewPDFButton: React.FC<IViewPDFButtonProps> = ({
       }
     >
       <a href={fullPaperLink} target="_blank" rel="noopener noreferrer">
-        <button className="w-full bg-[#ede0f65b] text-[#8B28D2] border-2 border-solid border-[#8B28D2] hover:bg-[#8B28D2] hover:text-white p-2 rounded-lg">
+        <button className="w-full  text-[#8B28D2] border-2 border-solid border-[#8B28D2] hover:bg-[#8B28D2] hover:text-white p-2 rounded-lg">
           View PDF
         </button>
       </a>

@@ -6,7 +6,7 @@ const Header: React.FC = () => {
       <div className="flex items-center p-4">
         <div className="logo">
           <Link to="/">
-            <img src="/logo.png" alt="Walrus Arxiv Logo" className="h-6" />
+            <img src="/logo.png" alt="SnowReads Logo" className="h-6" />
           </Link>
         </div>
       </div>
