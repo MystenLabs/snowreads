@@ -70,6 +70,7 @@ for pdf_file in $pdf_files; do
     blob_id=$(echo "$walrus_resp" | jq -r '.newlyCreated.blobObject.blobId')
     if [ -z "$blob_id" ]; then
         echo "Failed to parse resp for $pdf_file"
+        echo $walrus_resp
         exit 1
     fi
 
