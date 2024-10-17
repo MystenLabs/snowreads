@@ -20,6 +20,65 @@ const PrivacyPolicyPage: React.FC = () => {
           <h1 className="text-4xl font-bold text-purple-600 mb-6 text-left">
             Privacy Policy
           </h1>
+          <MobileNavigationBar
+            label={"CONTENTS"}
+            options={[
+              { id: "scope", label: "1. SCOPE" },
+              {
+                id: "changes_to_our_privacy_policy",
+                label: "2. CHANGES TO OUR PRIVACY POLICY",
+              },
+              {
+                id: "personal_information_we_collect",
+                label: "3. PERSONAL INFORMATION WE COLLECT",
+              },
+              {
+                id: "how_we_use_your_information",
+                label: "4. HOW WE USE YOUR INFORMATION",
+              },
+              {
+                id: "how_we_disclose_your_information",
+                label: "5. HOW WE DISCLOSE YOUR INFORMATION",
+              },
+              {
+                id: "your_privacy_choices_and_rights",
+                label: "6. YOUR PRIVACY CHOICES AND RIGHTS",
+              },
+              {
+                id: "security_of_your_information",
+                label: "7. SECURITY OF YOUR INFORMATION",
+              },
+              {
+                id: "international_data_transfers",
+                label: "8. INTERNATIONAL DATA TRANSFERS",
+              },
+              {
+                id: "retention_of_personal_information",
+                label: "9. RETENTION OF PERSONAL INFORMATION",
+              },
+              {
+                id: "supplemental_notice_for_california_residents",
+                label: "10. SUPPLEMENTAL NOTICE FOR CALIFORNIA RESIDENTS",
+              },
+              {
+                id: "supplemental_notice_for_nevada_residents",
+                label: "11. SUPPLEMENTAL NOTICE FOR NEVADA RESIDENTS",
+              },
+              {
+                id: "children_information",
+                label: "12. CHILDREN’S INFORMATION",
+              },
+              {
+                id: "third_party_websites_applications",
+                label: "13. THIRD-PARTY’S WEBSITES/APPLICATIONS",
+              },
+              {
+                id: "supervisory_authority",
+                label: "14. SUPERVISORY AUTHORITY",
+              },
+              { id: "contact_us", label: "15. CONTACT US" },
+            ]}
+          ></MobileNavigationBar>
           <p className="text-gray-600 mb-6 text-left">
             <strong>Last Updated:</strong> June 18, 2024
           </p>
@@ -96,7 +155,7 @@ const PrivacyPolicyPage: React.FC = () => {
             label={"CONTENTS"}
             enlargeWidth={true}
           />
-          {/* <MobileNavigationBar></MobileNavigationBar> */}
+
           <section id="scope">
             <h2 className="text-2xl font-semibold text-left mb-4">1. SCOPE</h2>
             <p className="text-gray-600 mb-6 text-left">

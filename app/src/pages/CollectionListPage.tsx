@@ -20,6 +20,7 @@ const CollectionListPage: React.FC<ICategoryListPageProps> = ({
   const { category } = useParams();
   const navigate = useNavigate();
   const [activeSubcategorySize, setActiveSubcategorySize] = useState<number>(0);
+  const [wavBlobId, setWavBlobId] = useState<string>("");
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
@@ -44,7 +45,26 @@ const CollectionListPage: React.FC<ICategoryListPageProps> = ({
         setLoading(false);
       });
   }, [category, navigate]);
-  console.log(`/${category}.wav`);
+
+  useEffect(() => {
+    // Logic to fetch or generate the new wavBlobId based on the category
+    const newWavBlobId = getWavBlobIdForCategory(category!);
+    setWavBlobId(newWavBlobId);
+  }, [category]);
+
+  // Function to get wavBlobId based on category
+  const getWavBlobIdForCategory = (category: string): string => {
+    const categoryToWavBlobMap: { [key: string]: string } = {
+      "The Science of Everyday Decisions":
+        "bnXSt3dUe_lLXFq8tzaI3xlXesIqf2fb7_s16YxltGs",
+      "Scientific Wonder of Pop Culture":
+        "lQ0744AySj6VbrT2wQVh8Tc_iOyJg8VzfIJTgbwe8Ek",
+      "Is AI Fun": "pnwPpH0ttiEOH1vYF_GfMsHU8xI5tgIfXl_yQ7GSXFg",
+    };
+    return categoryToWavBlobMap[category] || "defaultBlobId";
+  };
+  console.log("category", category);
+  console.log("wavBlobId", wavBlobId);
 
   return (
     <div className="w-full min-h-screen bg-primary flex flex-col items-center">
@@ -103,7 +123,9 @@ const CollectionListPage: React.FC<ICategoryListPageProps> = ({
             ) : (
               <div className="md:-mt-6 ">
                 {/* Change to bucket address */}
-                <AudioSummaryContainer src={`/${category}.wav`} />
+                <AudioSummaryContainer
+                  src={`https://aggregator.walrus-testnet.walrus.space/v1/${wavBlobId}`}
+                />
                 <PaperCardContainer
                   cardTitle={`${activeCollection?.papers.length} Documents, ${formatBytes(
                     activeSubcategorySize
@@ -162,7 +184,19 @@ const CollectionListPage: React.FC<ICategoryListPageProps> = ({
           <p className="sm:text-sm md:text-base lg:text-base text-left max-w-2xl mb-4 px-5">
             ​All papers are available under Creative Commons (CC) licenses.
             <br />
-            ​Thank you to arXiv for use of its open access interoperability.
+            <br />
+            ​Thank you to{" "}
+            <span className="text-quaternary">
+              <a
+                href="https://arxiv.org/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                arXiv
+              </a>
+            </span>{" "}
+            for use of its open access interoperability.
+            <br />
             <br />
             This service was not reviewed or approved by, nor does it
             necessarily express or reflect the policies or opinions of, arXiv.
