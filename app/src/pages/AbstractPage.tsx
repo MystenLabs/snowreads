@@ -5,6 +5,7 @@ import { Spinner } from "../components/common/Spinner";
 import { IAbstractPageProps } from "../interfaces/IAbstractPageProps";
 import InformationPopup from "../components/landingComponents/InformationPopup";
 import ViewPDFButton from "../components/paperComponents/ViewPDFButton";
+import WalrusMetadataContainer from "../components/paperComponents/WalrusMetadataContainer";
 
 const AbstractPage: React.FC<IAbstractPageProps> = ({ arxiv_id }) => {
   const [paperData, setPaperData] = useState<any>(null);
@@ -65,6 +66,12 @@ const AbstractPage: React.FC<IAbstractPageProps> = ({ arxiv_id }) => {
           submissionHistory: data.versions
             .map((version: any) => `[${version.version}] ${version.created}`)
             .join(", "),
+          blobId: data.blobId,
+          objectId: data.objectId,
+          registeredEpoch: data.registeredEpoch,
+          certifiedEpoch: data.certifiedEpoch,
+          startEpoch: data.startEpoch,
+          endEpoch: data.endEpoch,
         };
 
         setPaperData({ paperDetails });
@@ -129,6 +136,14 @@ const AbstractPage: React.FC<IAbstractPageProps> = ({ arxiv_id }) => {
           <ViewPDFButton
             fullPaperLink={`/pdf/${arxiv_id}.pdf`}
             dynamicMarginTop={abstractHeight}
+          />
+          <WalrusMetadataContainer
+            blobId={paperData.paperDetails.blobId}
+            objectId={paperData.paperDetails.objectId}
+            registeredEpoch={paperData.paperDetails.registeredEpoch}
+            certifiedEpoch={paperData.paperDetails.certifiedEpoch}
+            startEpoch={paperData.paperDetails.startEpoch}
+            endEpoch={paperData.paperDetails.endEpoch}
           />
         </div>
       </main>

@@ -259,10 +259,13 @@ const LandingPage: React.FC<ILandingPageLayoutProps> = ({
   return (
     <div className="relative z-[1] flex flex-col items-center justify-start min-h-screen bg-primary pb-20">
       <img
-        src="/walrus_globe.png"
+        src="/logo_with_globe.png"
         alt="Logo"
-        className="w-full max-w-[350px] h-auto mb-8 p-10"
+        className="w-full max-w-[350px] h-auto p-10"
       />
+      <p className="text-xs -mt-8 pb-16 px-5 text-center">
+        A decentralized repository of open license scientific papers
+      </p>
       <div className="pb-10 flex flex-col items-center">
         <h1 className="text-3xl text-center">
           <span>Spark Your Curiosity: Collections</span>

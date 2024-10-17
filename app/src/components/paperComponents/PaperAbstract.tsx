@@ -4,6 +4,7 @@ import MobileNavigationBar from "../common/MobileNavigationBar";
 import TopNavigationHistory from "../common/TopNavigationHistory";
 import { formatBytes } from "../../tools/utils";
 import ViewPDFButton from "./ViewPDFButton";
+import WalrusMetadataContainer from "./WalrusMetadataContainer";
 
 const PaperAbstract: React.FC<IPaperAbstractProps> = ({
   arxiv_id,
@@ -157,6 +158,16 @@ const PaperAbstract: React.FC<IPaperAbstractProps> = ({
         >
           {transformLicense(license)}
         </a>
+      </div>
+      <div className="md:hidden px-5">
+        <WalrusMetadataContainer
+          blobId={""}
+          objectId=""
+          registeredEpoch={1}
+          certifiedEpoch={1}
+          startEpoch={1}
+          endEpoch={1}
+        />
       </div>
     </section>
   );
