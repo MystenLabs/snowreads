@@ -22,13 +22,13 @@ const CategoryCard: React.FC<ICategoryCardProps> = ({
           style={{ backgroundImage: `url('/disc_bg.png')` }}
         />
       )}
-      {title === "The Science of Everyday Decisions" && (
+      {title === "Is AI Fun?" && (
         <div
           className="absolute bottom-[-20px] right-[-30px] w-[150px] h-[150px] bg-no-repeat bg-contain"
           style={{ backgroundImage: `url('/laptop_bg.png')` }}
         />
       )}
-      {title === "Is AI Fun?" && (
+      {title === "The Science of Everyday Decisions" && (
         <div
           className="absolute bottom-[2px] right-[-87px] w-[180px] h-[180px] bg-no-repeat bg-contain"
           style={{ backgroundImage: `url('/globe_bg.png')` }}
