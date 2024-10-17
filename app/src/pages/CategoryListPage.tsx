@@ -210,7 +210,6 @@ const CategoryListPage: React.FC<ICategoryListPageProps> = ({ label }) => {
                         <PaperCard
                           key={mappedPaper.id}
                           paper={mappedPaper}
-                          index={index}
                           hasVisibleIcon={true}
                         />
                       );

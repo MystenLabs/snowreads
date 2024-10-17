@@ -4,7 +4,7 @@ import PaperAbstract from "../components/paperComponents/PaperAbstract";
 import { Spinner } from "../components/common/Spinner";
 import { IAbstractPageProps } from "../interfaces/IAbstractPageProps";
 import InformationPopup from "../components/landingComponents/InformationPopup";
-import ViewPDFButton from "../components/paperComponents/ViewPDFButton";
+import DownloadPDFButton from "../components/paperComponents/DownloadPDFButton";
 import WalrusMetadataContainer from "../components/paperComponents/WalrusMetadataContainer";
 
 const AbstractPage: React.FC<IAbstractPageProps> = ({ arxiv_id }) => {
@@ -130,11 +130,12 @@ const AbstractPage: React.FC<IAbstractPageProps> = ({ arxiv_id }) => {
           submissionHistory={paperData.paperDetails.submissionHistory}
           submissionAndUpdateText={submissionAndUpdateText!}
           license={paperData.paperDetails.license}
+          blobId={paperData.paperDetails.blobId}
           onAbstractHeightChange={handleAbstractHeightChange}
         />
         <div style={isSmallScreen ? { visibility: "hidden" } : {}}>
-          <ViewPDFButton
-            fullPaperLink={`/pdf/${arxiv_id}.pdf`}
+          <DownloadPDFButton
+            fullPaperLink={`https://aggregator.walrus-testnet.walrus.space/v1/${paperData.paperDetails.blobId}`}
             dynamicMarginTop={abstractHeight}
           />
           <WalrusMetadataContainer

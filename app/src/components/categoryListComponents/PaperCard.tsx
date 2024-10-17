@@ -2,7 +2,6 @@ import { IPaperCardProps } from "../../interfaces/IPaperCardProps";
 
 export const PaperCard: React.FC<IPaperCardProps> = ({
   paper,
-  index,
   hasVisibleIcon,
 }) => {
   // Some titles have complex math symbols that break the layout so it is needed to break them

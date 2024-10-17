@@ -51,7 +51,7 @@ const MobileNavigationBar: React.FC<IMobileNavigationBarProps> = ({
   };
 
   return (
-    <div className="relative w-full text-left md:hidden py-5">
+    <div className="relative w-full text-left md:hidden py-5 z-10">
       <div>
         <button
           onClick={() => setIsOpen(!isOpen)}

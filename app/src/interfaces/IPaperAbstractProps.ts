@@ -9,5 +9,6 @@ export interface IPaperAbstractProps {
   submissionHistory: string;
   submissionAndUpdateText: string;
   license: string;
+  blobId: string;
   onAbstractHeightChange: (height: number) => void;
 }
