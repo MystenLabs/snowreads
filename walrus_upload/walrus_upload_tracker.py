@@ -19,7 +19,7 @@ def upload_pdf_to_walrus(pdf_file_path):
         pdf_size = os.path.getsize(pdf_file_path)
 
         # MacOS Operating System
-        # Part 1. Upload the file to the Walrus service 
+        # Part 1. Upload the file to the Walrus service
         store_json_command = f"""{{ "config" : "{PATH_TO_WALRUS_CONFIG}",
             "command" : {{ "store" :
             {{ "file" : "{pdf_file_path}", "epochs" : 2  }}}}
@@ -85,6 +85,7 @@ def upload_pdf_to_walrus(pdf_file_path):
         print(f"Error uploading {pdf_file_path}: {str(e)}")
         return f"Error uploading {pdf_file_path}: {str(e)}\n"
 
+
 def process_pdfs(start_index=0, end_index=10, output_file="upload_log.txt"):
     # Get all the PDF files in the folder
     pdf_files = [f for f in os.listdir(PATH_TO_PDFS) if f.endswith('.pdf')]
@@ -106,6 +107,7 @@ def process_pdfs(start_index=0, end_index=10, output_file="upload_log.txt"):
         log_file.writelines(logs)
 
     print(f"Upload logs exported to {output_file}")
+
 
 if __name__ == "__main__":
     # Specify the range of files to upload

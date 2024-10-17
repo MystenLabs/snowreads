@@ -1,0 +1,19 @@
+{
+  "name": "json_stripper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "readjson": "ts-node src/stripJson.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^5.0.4"
+  },
+  "devDependencies": {
+    "@types/node": "^22.7.0",
+    "env-cmd": "^10.1.0",
+    "ts-node": "^10.9.1"
+  }
+}
