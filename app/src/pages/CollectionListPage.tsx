@@ -63,8 +63,6 @@ const CollectionListPage: React.FC<ICategoryListPageProps> = ({
     };
     return categoryToWavBlobMap[category] || "defaultBlobId";
   };
-  console.log("category", category);
-  console.log("wavBlobId", wavBlobId);
 
   return (
     <div className="w-full min-h-screen bg-primary flex flex-col items-center">
@@ -184,6 +182,16 @@ const CollectionListPage: React.FC<ICategoryListPageProps> = ({
       {activeTab === "ABOUT" && (
         <div className="flex flex-col items-center justify-center w-full h-full py-10">
           <p className="sm:text-sm md:text-base lg:text-base text-left max-w-2xl mb-4 px-5">
+            <br />
+            <span className="italic">
+              {category === "The Science of Everyday Decisions"
+                ? "Explore the science behind your everyday choices."
+                : category === "Scientific Wonder of Pop Culture"
+                  ? "A collection of cleverly crafted papers that blend research with the playful spirit of April Fools’ Day."
+                  : "Discover how artificial intelligence understands humor and how good a comedian it can be."}
+            </span>
+            <br />
+            <br />
             ​All papers are available under Creative Commons (CC) licenses.
             <br />
             <br />

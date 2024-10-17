@@ -20,9 +20,9 @@ const WalrusMetadataContainer: React.FC<IWalrusMetadataContainerProps> = ({
               href={`https://walruscan.com/testnet/blob/${blobId}`}
               target="_blank"
               rel="noopener noreferrer"
-              className="text-black hover:underline font-medium"
+              className="text-[#8B28D2] hover:underline font-medium"
             >
-              BlobId
+              Blob on Walrus
             </a>
           </li>
         )}
@@ -32,9 +32,9 @@ const WalrusMetadataContainer: React.FC<IWalrusMetadataContainerProps> = ({
               href={`https://testnet.suivision.xyz/object/${objectId}`}
               target="_blank"
               rel="noopener noreferrer"
-              className="text-black hover:underline font-medium"
+              className="text-[#8B28D2] hover:underline font-medium"
             >
-              ObjectId
+              Object on Sui
             </a>
           </li>
         )}
