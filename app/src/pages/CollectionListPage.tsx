@@ -71,7 +71,10 @@ const CollectionListPage: React.FC<ICategoryListPageProps> = ({
       <div className="pt-10 pb-5 text-center">
         <div className="flex justify-center">
           <div className="text-2xl md:text-2xl sm:text-2xl lg:text-3xl font-medium text-gray-900 p-2 max-w-xl w-full text-center">
-            {category}
+            {category!.endsWith("?")
+              ? category
+              : category +
+                (category!.toLowerCase().startsWith("is") ? "?" : "")}
           </div>
         </div>
         <p className="text-gray-600 mb-6 mt-3">
@@ -163,7 +166,6 @@ const CollectionListPage: React.FC<ICategoryListPageProps> = ({
                             <PaperCard
                               key={mappedPaper.id}
                               paper={mappedPaper}
-                              index={index}
                               hasVisibleIcon={true}
                             />
                           );

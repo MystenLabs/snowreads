@@ -16,51 +16,16 @@ const CategoryListLayout: React.FC<ICategoryListLayout> = ({ label }) => {
             label={"COLLECTIONS"}
             categories={[
               {
-                id: "Exploring the Edge of Artificial Intelligence Knowledge",
-                label:
-                  "Exploring the Edge of Artificial Intelligence Knowledge",
+                id: "The Science of Everyday Decisions",
+                label: "The Science of Everyday Decisions",
               },
               {
-                id: "Curious Conjectures About Artificial Intelligence and Beyond",
-                label:
-                  "Curious Conjectures About Artificial Intelligence and Beyond",
+                id: "Scientific Wonder of Pop Culture",
+                label: "Scientific Wonder of Pop Culture",
               },
               {
-                id: "Dynamic Systems and Fractals: A Mathematical Odyssey",
-                label: "Dynamic Systems and Fractals: A Mathematical Odyssey",
-              },
-              {
-                id: "The Math Behind the Cells: Unveiling Quantitative Biology Secrets",
-                label:
-                  "The Math Behind the Cells: Unveiling Quantitative Biology Secrets",
-              },
-              {
-                id: "The Math Behind the Cells: Unveiling Quantitative Biology Secrets",
-                label:
-                  "The Math Behind the Cells: Unveiling Quantitative Biology Secrets",
-              },
-              {
-                id: `Machine Learning's Dark Side: The Unseen Consequences`,
-                label: `Machine Learning's Dark Side: The Unseen Consequences`,
-              },
-              {
-                id: "From Adam Smith to AI: The Evolution of Theoretical Economics",
-                label:
-                  "From Adam Smith to AI: The Evolution of Theoretical Economics",
-              },
-              {
-                id: "Beyond Black Swans: Exploring Quantitative Finance Frontiers",
-                label:
-                  "Beyond Black Swans: Exploring Quantitative Finance Frontiers",
-              },
-              {
-                id: `Why Economics is Like Dating: It's All About Supply and Demand`,
-                label: `Why Economics is Like Dating: It's All About Supply and Demand`,
-              },
-              {
-                id: "The Spark of Genius: Exploring Electrical Engineering Frontiers",
-                label:
-                  "The Spark of Genius: Exploring Electrical Engineering Frontiers",
+                id: "Is AI Fun",
+                label: "Is AI Fun",
               },
             ]}
           />

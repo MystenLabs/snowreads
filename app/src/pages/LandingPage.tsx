@@ -52,97 +52,33 @@ const LandingPage: React.FC<ILandingPageLayoutProps> = ({
   const activeSubcategories = subcategoriesMap[activeCategory];
 
   const [collectionsSize, setCollectionsSize] = useState<number>(0);
-  const [computerScienceSize, setComputerScienceSize] = useState<number>(0);
-  const [computerScienceCount, setComputerScienceCount] = useState<number>(0);
+  const [collectionTSEDSize, setCollectionTSEDSize] = useState<number>(0);
+  const [ollectionTSEDCount, setCollectionTSEDCount] = useState<number>(0);
 
-  const [physicsSize, setPhysicsSize] = useState<number>(0);
-  const [physicsCount, setPhysicsCount] = useState<number>(0);
+  const [collectionSWPCSize, setCollectionSWPCSize] = useState<number>(0);
+  const [collectionSWPCCount, setCollectionSWPCCount] = useState<number>(0);
 
-  const [mathematicsSize, setMathematicsSize] = useState<number>(0);
-  const [mathematicsCount, setMathematicsCount] = useState<number>(0);
+  const [collectionIAIFSize, setCollectionIAIFSize] = useState<number>(0);
+  const [collectionIAIFCount, setCollectionIAIFCount] = useState<number>(0);
 
-  const [quantBiologySize, setQuantBiologySize] = useState<number>(0);
-  const [quantBiologyCount, setQuantBiologyCount] = useState<number>(0);
-
-  const [statisticsSize, setStatisticsSize] = useState<number>(0);
-  const [statisticsCount, setStatisticsCount] = useState<number>(0);
-
-  const [economicsSize, setEconomicsSize] = useState<number>(0);
-  const [economicsCount, setEconomicsCount] = useState<number>(0);
-  const [economics2Size, setEconomics2Size] = useState<number>(0);
-  const [economics2Count, setEconomics2Count] = useState<number>(0);
-
-  const [quantFinanceSize, setQuantFinanceSize] = useState<number>(0);
-  const [quantFinanceCount, setQuantFinanceCount] = useState<number>(0);
-
-  const [electricalEngineeringSize, setElectricalEngineeringSize] =
-    useState<number>(0);
-  const [electricalEngineeringCount, setElectricalEngineeringCount] =
-    useState<number>(0);
   const collections = [
     {
-      icon: "/comp_sci_icon.png",
-      category: "Computer Science",
-      title: "Exploring the Edge of Artificial Intelligence Knowledge",
-      documents: computerScienceCount,
-      size: computerScienceSize,
-    },
-    {
-      icon: "/physics_icon.png",
-      category: "Physics",
-      title: "Curious Conjectures About Artificial Intelligence and Beyond",
-      documents: physicsCount,
-      size: physicsSize,
-    },
-    {
       icon: "/maths_icon.png",
-      category: "Mathematics",
-      title: "Dynamic Systems and Fractals: A Mathematical Odyssey",
-      documents: mathematicsCount,
-      size: mathematicsSize,
-    },
-    {
-      icon: "/quant_bio_icon.png",
-      category: "Quantitative Biology",
-      title:
-        "The Math Behind the Cells: Unveiling Quantitative Biology Secrets",
-      documents: quantBiologyCount,
-      size: quantBiologySize,
-    },
-    {
-      icon: "/stats_icon.png",
-      category: "Statistics",
-      title: `Machine Learning's Dark Side: The Unseen Consequences`,
-      documents: statisticsCount,
-      size: statisticsSize,
-    },
-    {
-      icon: "/econ_icon.png",
-      category: "Economics",
-      title: "From Adam Smith to AI: The Evolution of Theoretical Economics",
-      documents: economicsCount,
-      size: economicsSize,
-    },
-    {
-      icon: "/quant_fin_icon.png",
-      category: "Quantitative Finance",
-      title: "Beyond Black Swans: Exploring Quantitative Finance Frontiers",
-      documents: quantFinanceCount,
-      size: quantFinanceSize,
-    },
-    {
-      icon: "/econ_icon.png",
-      category: "Economics",
-      title: `Why Economics is Like Dating: It's All About Supply and Demand`,
-      documents: economics2Count,
-      size: economics2Size,
+      title: "The Science of Everyday Decisions",
+      documents: ollectionTSEDCount,
+      size: collectionTSEDSize,
     },
     {
       icon: "/elect_eng_icon.png",
-      category: "Electrical Engineering",
-      title: "The Spark of Genius: Exploring Electrical Engineering Frontiers",
-      documents: electricalEngineeringCount,
-      size: electricalEngineeringSize,
+      title: "Scientific Wonder of Pop Culture",
+      documents: collectionSWPCCount,
+      size: collectionSWPCSize,
+    },
+    {
+      icon: "/comp_sci_icon.png",
+      title: "Is AI Fun?",
+      documents: collectionIAIFCount,
+      size: collectionIAIFSize,
     },
   ];
 
@@ -180,76 +116,12 @@ const LandingPage: React.FC<ILandingPageLayoutProps> = ({
       })
       .then((data) => {
         setCollectionsSize(data.size);
-        setComputerScienceSize(
-          data["Exploring the Edge of Artificial Intelligence Knowledge"].size
-        );
-        setComputerScienceCount(
-          data["Exploring the Edge of Artificial Intelligence Knowledge"].count
-        );
-        setPhysicsCount(
-          data["Curious Conjectures About Artificial Intelligence and Beyond"]
-            .count
-        );
-        setPhysicsSize(
-          data["Curious Conjectures About Artificial Intelligence and Beyond"]
-            .size
-        );
-        setMathematicsCount(
-          data["Dynamic Systems and Fractals: A Mathematical Odyssey"].count
-        );
-        setMathematicsSize(
-          data["Dynamic Systems and Fractals: A Mathematical Odyssey"].size
-        );
-        setQuantBiologyCount(
-          data[
-            "The Math Behind the Cells: Unveiling Quantitative Biology Secrets"
-          ].count
-        );
-        setQuantBiologySize(
-          data[
-            "The Math Behind the Cells: Unveiling Quantitative Biology Secrets"
-          ].size
-        );
-        setStatisticsCount(
-          data[`Machine Learning's Dark Side: The Unseen Consequences`].count
-        );
-        setStatisticsSize(
-          data[`Machine Learning's Dark Side: The Unseen Consequences`].size
-        );
-        setEconomicsCount(
-          data["From Adam Smith to AI: The Evolution of Theoretical Economics"]
-            .count
-        );
-        setEconomicsSize(
-          data["From Adam Smith to AI: The Evolution of Theoretical Economics"]
-            .size
-        );
-        setQuantFinanceCount(
-          data["Beyond Black Swans: Exploring Quantitative Finance Frontiers"]
-            .count
-        );
-        setQuantFinanceSize(
-          data["Beyond Black Swans: Exploring Quantitative Finance Frontiers"]
-            .size
-        );
-        setEconomics2Count(
-          data[`Why Economics is Like Dating: It's All About Supply and Demand`]
-            .count
-        );
-        setEconomics2Size(
-          data[`Why Economics is Like Dating: It's All About Supply and Demand`]
-            .size
-        );
-        setElectricalEngineeringCount(
-          data[
-            "The Spark of Genius: Exploring Electrical Engineering Frontiers"
-          ].count
-        );
-        setElectricalEngineeringSize(
-          data[
-            "The Spark of Genius: Exploring Electrical Engineering Frontiers"
-          ].size
-        );
+        setCollectionTSEDSize(data["The Science of Everyday Decisions"].size);
+        setCollectionTSEDCount(data["The Science of Everyday Decisions"].count);
+        setCollectionSWPCSize(data["Scientific Wonder of Pop Culture"].size);
+        setCollectionSWPCCount(data["Scientific Wonder of Pop Culture"].count);
+        setCollectionIAIFSize(data["Is AI Fun"].size);
+        setCollectionIAIFCount(data["Is AI Fun"].count);
       })
       .catch((error) => {
         console.error("Error fetching collections data:", error);
@@ -283,7 +155,6 @@ const LandingPage: React.FC<ILandingPageLayoutProps> = ({
           <CategoryCard
             key={index}
             icon={item.icon}
-            category={item.category}
             title={item.title}
             documents={item.documents}
             size={Number(item.size)}
@@ -292,7 +163,7 @@ const LandingPage: React.FC<ILandingPageLayoutProps> = ({
         ))}
       </div>
 
-      <div className="pt-20 pb-10 flex flex-col items-center  max-w-[1100px]">
+      <div className="pt-16 pb-10 flex flex-col items-center  max-w-[1100px]">
         <h1 className="text-3xl text-center bg-primary rounded-lg px-3">
           Browse All Categories
         </h1>
@@ -314,7 +185,7 @@ const LandingPage: React.FC<ILandingPageLayoutProps> = ({
             {category}
           </button>
         ))}
-        <div className="absolute lg:top-[44%] lg:right-[20%] md:top-[50%] md:right-[2%] transform -translate-y-1/2 z-[-10] hidden md:block">
+        <div className="absolute lg:top-[35%] lg:right-[20%] md:top-[40%] md:right-[2%] transform -translate-y-1/2 z-[-10] hidden md:block">
           <img
             src="/walrus_avatar.png"
             alt="Background"
@@ -356,7 +227,6 @@ const LandingPage: React.FC<ILandingPageLayoutProps> = ({
                           <PaperCard
                             key={mappedPaper.id}
                             paper={mappedPaper}
-                            index={index}
                             hasVisibleIcon={true}
                           />
                         );
