@@ -264,7 +264,7 @@ const LandingPage: React.FC<ILandingPageLayoutProps> = ({
         className="w-full max-w-[350px] h-auto p-10"
       />
       <p className="text-xs -mt-8 pb-16 px-5 text-center">
-        A decentralized repository of open license scientific papers
+        Curated collections of scientific papers stored on Walrus.
       </p>
       <div className="pb-10 flex flex-col items-center">
         <h1 className="text-3xl text-center">

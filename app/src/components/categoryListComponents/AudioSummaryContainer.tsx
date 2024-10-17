@@ -1,18 +1,8 @@
-import React, { useRef, useState, useEffect } from "react";
+import { useRef } from "react";
+import { IAudioSummaryProps } from "../../interfaces/IAudioSummaryProps";
 
-interface AudioSummaryProps {
-  src: string;
-}
-
-const AudioSummaryContainer: React.FC<AudioSummaryProps> = ({ src }) => {
+const AudioSummaryContainer: React.FC<IAudioSummaryProps> = ({ src }) => {
   const audioRef = useRef<HTMLAudioElement>(null);
-
-  // Function to format the duration in minutes and seconds
-  const formatDuration = (seconds: number): string => {
-    const minutes = Math.floor(seconds / 60);
-    const remainingSeconds = Math.floor(seconds % 60);
-    return `${minutes}min ${remainingSeconds}sec`;
-  };
 
   return (
     <div className="bg-white border border-black rounded-xl py-3 px-4 space-y-3 mt-2 min-w-[200px] h-fit">

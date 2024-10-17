@@ -30,6 +30,7 @@ const findCorrectSubCategoryName = (
 const CategoryListPage: React.FC<ICategoryListPageProps> = ({ label }) => {
   const [activeTab, setActiveTab] = useState("DOCUMENTS");
   const [activeCategorySize, setActiveCategorySize] = useState<number>(0);
+  const [activeCategoryCount, setActiveCategoryCount] = useState<number>(0);
   const { category, subcategory } = useParams();
   const navigate = useNavigate(); // To navigate to the default subcategory URL if missing
   const [papers, setPapers] = useState<IPaperTrimmed[]>([]);
@@ -57,6 +58,7 @@ const CategoryListPage: React.FC<ICategoryListPageProps> = ({ label }) => {
       .then((data) => {
         setAllCategories(data);
         setActiveCategorySize(data[category!].size);
+        setActiveCategoryCount(data[category!].count);
 
         if (category) {
           let chosenSubcategory = subcategory;
@@ -226,13 +228,27 @@ const CategoryListPage: React.FC<ICategoryListPageProps> = ({ label }) => {
       {activeTab === "ABOUT" && (
         <div className="flex flex-col items-center justify-center w-full h-full py-10">
           <p className="sm:text-sm md:text-base lg:text-base text-left max-w-2xl mb-4 px-5">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
-            imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae
-            scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices
-            nec congue eget, auctor vitae massa. Lorem ipsum dolor sit amet,
-            consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum
-            interdum, nisi lorem egestas odio, vitae scelerisque enim ligula
-            venenatis dolor.
+            This category includes {activeCategoryCount} papers with a total
+            size of {formatBytes(activeCategorySize)} stored on Walrus.
+            <br />
+            ​All papers are available under Creative Commons (CC) licenses.
+            <br />
+            <br />
+            ​Thank you to{" "}
+            <span className="text-quaternary">
+              <a
+                href="https://arxiv.org/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                arXiv
+              </a>
+            </span>{" "}
+            for use of its open access interoperability.
+            <br />
+            <br />
+            This service was not reviewed or approved by, nor does it
+            necessarily express or reflect the policies or opinions of, arXiv.
           </p>
         </div>
       )}

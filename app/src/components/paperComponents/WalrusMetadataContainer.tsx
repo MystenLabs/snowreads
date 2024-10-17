@@ -1,13 +1,6 @@
-interface WalrusMetadataContainerProps {
-  blobId?: string;
-  objectId?: string;
-  registeredEpoch?: number;
-  certifiedEpoch?: number;
-  startEpoch?: number;
-  endEpoch?: number;
-}
+import { IWalrusMetadataContainerProps } from "../../interfaces/IWalrusMetadataContainerProps";
 
-const WalrusMetadataContainer: React.FC<WalrusMetadataContainerProps> = ({
+const WalrusMetadataContainer: React.FC<IWalrusMetadataContainerProps> = ({
   blobId,
   objectId,
   registeredEpoch,
@@ -21,6 +14,18 @@ const WalrusMetadataContainer: React.FC<WalrusMetadataContainerProps> = ({
         Walrus Metadata
       </h2>
       <ul className="space-y-2">
+        {blobId && (
+          <li>
+            <a
+              href={`https://walruscan.com/testnet/blob/${blobId}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-black hover:underline font-medium"
+            >
+              BlobId
+            </a>
+          </li>
+        )}
         {objectId && (
           <li>
             <a
@@ -33,11 +38,7 @@ const WalrusMetadataContainer: React.FC<WalrusMetadataContainerProps> = ({
             </a>
           </li>
         )}
-        {blobId && (
-          <li className="break-all">
-            <span className="font-medium">BlobId:</span> <br /> {blobId}
-          </li>
-        )}
+
         {registeredEpoch !== undefined && (
           <li>
             <span className="font-medium">Registered Epoch: </span>
