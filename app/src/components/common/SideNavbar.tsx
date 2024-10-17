@@ -4,6 +4,7 @@ import { useNavigate, useParams } from "react-router-dom";
 
 const SidebarNav: React.FC<ISidebarNavProps> = ({
   sections,
+  enlargeWidth,
   initialActive = "",
   label,
   mode = "redirect", // Default mode is redirect
@@ -41,7 +42,9 @@ const SidebarNav: React.FC<ISidebarNavProps> = ({
   };
 
   return (
-    <nav className="p-4 flex-col w-full md:w-[250px] hidden md:flex">
+    <nav
+      className={`p-4 flex-col w-full ${enlargeWidth ? "md:w-full" : "md:w-[250px]"} hidden md:flex`}
+    >
       {label === "COLLECTIONS" ? (
         <h2 className="text-lg font-semibold mb-6">COLLECTIONS</h2>
       ) : label === "CATEGORIES" ? (

@@ -6,6 +6,7 @@ export interface ISidebarNavProps {
   initialActive?: string;
   label: string;
   mode?: "redirect" | "fetch";
+  enlargeWidth?: boolean;
 }
 export interface IMobileNavigationBarProps {
   options: { label: string; id: string }[];
