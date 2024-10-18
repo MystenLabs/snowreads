@@ -6,8 +6,9 @@ import Header from "../layout/Header";
 import Footer from "../layout/Footer";
 import { Spinner } from "../components/common/Spinner";
 
-// Set the workerSrc to the appropriate URL for the worker
-pdfjs.GlobalWorkerOptions.workerSrc = `https://cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
+// Set the workerSrc to the installed pdfjs-dist
+pdfjs.GlobalWorkerOptions.workerSrc =
+    '../../node_modules/pdfjs-dist/build/pdf.worker.mjs';
 
 const PDFViewerPage: React.FC = () => {
   const { fileUrl } = useParams<string>();
