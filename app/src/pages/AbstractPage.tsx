@@ -25,11 +25,33 @@ const AbstractPage: React.FC<IAbstractPageProps> = ({ arxiv_id }) => {
     // Fetch data from the {arxiv_id}.json file
     const fetchPaperData = async () => {
       try {
-        const response = await fetch(`/abs/${arxiv_id}.json`);
+        //   console.log(`Fetching /abs/${arxiv_id}.json`);
+        //   const resp_ws = await fetch("/ws-resources-copy.json");
+        //   const wsResources = await resp_ws.json();
+        //   const resource = wsResources.find((resource: { path: string; }) => {
+        //       return resource.path.includes(arxiv_id);
+        //   });
+        //
+        //   console.log(resource);
+        // const response = await fetch(`/abs/${arxiv_id}.json`);
+        // console.log("response:");
+        // console.log(response);
+        
+        const index_resp = await fetch("/index.json");
+        const index = await index_resp.json();
+        const withUnderscore = arxiv_id.replace(".", "_");
+        const metadataBlobId = index[withUnderscore];
+        console.log(metadataBlobId);
+        const response = await fetch(`https://aggregator.walrus-testnet.walrus.space/v1/${metadataBlobId}`);
+
         if (!response.ok) {
           throw new Error("Failed to fetch paper data");
         }
         const data = await response.json();
+
+        console.log("data");
+        console.log(data);
+
 
         // Extract the initial submission date and the latest update date
         const initialSubmissionDate = new Date(

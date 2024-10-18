@@ -211,7 +211,7 @@ const LandingPage: React.FC<ILandingPageLayoutProps> = ({
                   {subCategoryData.papers.length > 0 ? (
                     subCategoryData.papers
                       .sort((lhs, rhs) => rhs.timestamp - lhs.timestamp) // Sort by timestamp
-                      .map((paper, index) => {
+                      .map((paper) => {
                         // Map the IPaperTrimmed to the expected format
                         const mappedPaper = {
                           id: paper.id,

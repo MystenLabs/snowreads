@@ -195,7 +195,7 @@ const CategoryListPage: React.FC<ICategoryListPageProps> = ({ label }) => {
                 {papers.length > 0 ? (
                   papers
                     .sort((lhs, rhs) => rhs.timestamp - lhs.timestamp) // Sort by timestamp
-                    .map((paper, index) => {
+                    .map((paper) => {
                       const mappedPaper = {
                         id: paper.id,
                         title: paper.title,
