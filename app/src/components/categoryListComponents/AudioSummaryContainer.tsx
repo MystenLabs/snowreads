@@ -10,7 +10,7 @@ const AudioSummaryContainer: React.FC<IAudioSummaryProps> = ({ src }) => {
         <h2 className="text-lg font-normal p-1">{"Audio Summary"}</h2>
       </div>
       <audio ref={audioRef} className="w-full h-[40px] p-0 m-0" controls>
-        <source src={src} type="audio/wav" />
+        <source src={src} type="audio/mp3" />
         Your browser does not support the audio element.
       </audio>
       <p className="text-xs p-1 text-gray-500">
