@@ -3,10 +3,6 @@ import { IWalrusMetadataContainerProps } from "../../interfaces/IWalrusMetadataC
 const WalrusMetadataContainer: React.FC<IWalrusMetadataContainerProps> = ({
   blobId,
   objectId,
-  registeredEpoch,
-  certifiedEpoch,
-  startEpoch,
-  endEpoch,
 }) => {
   return (
     <div className="bg-white p-4 rounded-lg border border-black mt-5 max-w-[180px]">
@@ -20,7 +16,7 @@ const WalrusMetadataContainer: React.FC<IWalrusMetadataContainerProps> = ({
               href={`https://walruscan.com/testnet/blob/${blobId}`}
               target="_blank"
               rel="noopener noreferrer"
-              className="text-[#8B28D2] hover:underline font-medium"
+              className="hover:text-[#8B28D2]  font-medium"
             >
               Blob on Walrus
             </a>
@@ -32,33 +28,10 @@ const WalrusMetadataContainer: React.FC<IWalrusMetadataContainerProps> = ({
               href={`https://testnet.suivision.xyz/object/${objectId}`}
               target="_blank"
               rel="noopener noreferrer"
-              className="text-[#8B28D2] hover:underline font-medium"
+              className="hover:text-[#8B28D2]  font-medium"
             >
               Object on Sui
             </a>
-          </li>
-        )}
-
-        {registeredEpoch !== undefined && (
-          <li>
-            <span className="font-medium">Registered Epoch: </span>
-            {registeredEpoch}
-          </li>
-        )}
-        {certifiedEpoch !== undefined && (
-          <li>
-            <span className="font-medium">Certified Epoch: </span>
-            {certifiedEpoch}
-          </li>
-        )}
-        {startEpoch !== undefined && (
-          <li>
-            <span className="font-medium">Start Epoch: </span> {startEpoch}
-          </li>
-        )}
-        {endEpoch !== undefined && (
-          <li>
-            <span className="font-medium">End Epoch: </span> {endEpoch}
           </li>
         )}
       </ul>

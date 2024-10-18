@@ -18,6 +18,7 @@ const PaperAbstract: React.FC<IPaperAbstractProps> = ({
   submissionAndUpdateText,
   license,
   blobId,
+  objectId,
   onAbstractHeightChange,
 }) => {
   const abstractRef = useRef<HTMLParagraphElement>(null);
@@ -163,14 +164,7 @@ const PaperAbstract: React.FC<IPaperAbstractProps> = ({
         </a>
       </div>
       <div className="md:hidden px-5">
-        <WalrusMetadataContainer
-          blobId={""}
-          objectId=""
-          registeredEpoch={1}
-          certifiedEpoch={1}
-          startEpoch={1}
-          endEpoch={1}
-        />
+        <WalrusMetadataContainer blobId={blobId} objectId={objectId} />
       </div>
     </section>
   );
