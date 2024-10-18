@@ -147,7 +147,6 @@ const CollectionListPage: React.FC<ICategoryListPageProps> = ({
                             title: any;
                             authorsParsed: any[][];
                           },
-                          index: number
                         ) => {
                           const mappedPaper = {
                             id: paper.id,
