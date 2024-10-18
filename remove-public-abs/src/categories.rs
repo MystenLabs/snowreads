@@ -1,5 +1,6 @@
 use std::collections::{HashMap, HashSet};
 
+use color_eyre::{eyre::eyre, Result};
 use serde::{Deserialize, Serialize};
 
 #[derive(Debug, Clone, Deserialize, Serialize)]
@@ -48,10 +49,10 @@ struct WalrusBlobIdResp {
 }
 
 impl Paper {
-    pub fn replace_blob_id(&mut self, path: String) -> Option<String> {
+    pub fn replace_blob_id(&mut self, path: String) -> Result<Option<String>> {
 
 
-    let json_arg = format!(r#"'{{"command":{{"blobId":{{"file":"{path}"}}}}}}'"#);
+    let json_arg = format!(r#"{{"command":{{"blobId":{{"file":"{path}"}}}}}}"#);
     let output = std::process::Command::new("walrus")
         .arg("json")
         .arg(json_arg)
@@ -60,7 +61,7 @@ impl Paper {
     if !output.status.success() {
         let error = String::from_utf8_lossy(&output.stderr);
         println!("{error}");
-        assert!(false);
+        return Err(eyre!("{}", error))
     }
 
     let walrus_resp = String::from_utf8_lossy(&output.stdout);
@@ -68,7 +69,7 @@ impl Paper {
         .expect("Failed to parse walrus_resp")
         .blob_id;
 
-        self.metadata_blob_id.replace(blob_id)
+        Ok(self.metadata_blob_id.replace(blob_id))
     }
 }
 

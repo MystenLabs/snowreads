@@ -90,6 +90,8 @@ pub struct PaperVersion {
 //     collection: String,
 // }
 
+const RETRY_ATTEMPTS: usize = 100;
+
 #[tokio::main]
 async fn main() -> Result<()> {
     dotenv().ok();
@@ -104,18 +106,54 @@ async fn main() -> Result<()> {
     let mut categories: Categories = serde_json::from_reader(BufReader::new(file))?;
 
     let mut index = HashMap::new();
-    for (_parent_name, parent_category) in categories.parent_categories.iter_mut() {
-        for (_child_name, child_category) in parent_category.child_categories.iter_mut() {
-
+    let parents_len = categories.parent_categories.len();
+    let step = 1./(parents_len as f32);
+    let mut progress = 0.;
+    for (parent_name, parent_category) in categories.parent_categories.iter_mut() {
+        println!("Progress = {:.2}%", progress * 100.0);
+        progress += step;
+        for (child_name, child_category) in parent_category.child_categories.iter_mut() {
+            println!("Processing category {parent_name}/{child_name}");
             let mut new_papers = vec![];
             for paper in child_category.papers.iter() {
+                // println!("Processing paper {}", paper.id);
                 let mut new_paper = paper.clone();
-                let should_be_none = new_paper.replace_blob_id(format!("{abs_directory}/{}.json", paper.id));
-                if should_be_none.is_some() {
-                    println!("Replaced previous blob_id: {} with blob_id: {}", should_be_none.unwrap(), new_paper.metadata_blob_id.as_ref().unwrap());
+                let mut retries = RETRY_ATTEMPTS;
+                while retries > 0 {
+                    let should_be_none =
+                        new_paper.replace_blob_id(format!("{abs_directory}/{}.json", paper.id));
+                    if should_be_none.is_err() {
+                        retries -= 1;
+                        println!("Error during parsing blob-id for {abs_directory}/{}.json", paper.id);
+                        let err = should_be_none.err().unwrap();
+                        println!("Error: {}", err);
+                        if retries == 0 {
+                            println!(
+                                "Skipped paper {} because of {}",
+                                paper.id,
+                                err
+                            );
+                            println!("Retrying in 1 sec");
+                        }
+                
+                        tokio::time::sleep(tokio::time::Duration::from_secs(1)).await;
+                        continue;
+                    };
+                    let should_be_none = should_be_none.unwrap();
+                    if should_be_none.is_some() {
+                        println!(
+                            "Replaced previous blob_id: {} with blob_id: {}",
+                            should_be_none.unwrap(),
+                            new_paper.metadata_blob_id.as_ref().unwrap()
+                        );
+                    }
+                    index.insert(
+                        paper.id.clone(),
+                        new_paper.metadata_blob_id.clone().unwrap(),
+                    );
+                    new_papers.push(new_paper);
+                    break;
                 }
-                index.insert(paper.id.clone(), new_paper.metadata_blob_id.clone().unwrap());
-                new_papers.push(new_paper);
             }
             for paper in new_papers {
                 child_category.papers.replace(paper.clone());
