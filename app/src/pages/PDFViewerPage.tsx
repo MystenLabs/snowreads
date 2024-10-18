@@ -76,6 +76,7 @@ const PDFViewerPage: React.FC = () => {
         }
       } catch (error) {
         console.error("Error loading PDF:", error);
+
       }
     };
 
