@@ -96,9 +96,7 @@ const PaperAbstract: React.FC<IPaperAbstractProps> = ({
         </p>
         <p className="text-sm text-gray-500 mb-4">{arxiv_id}</p>
         <div className="md:hidden">
-          <ViewPDFButton
-            fullPaperLink={`https://aggregator.walrus-testnet.walrus.space/v1/${blobId}`}
-          />
+          <ViewPDFButton fullPaperLink={blobId} />
         </div>
         <MobileNavigationBar
           mode="scroll"

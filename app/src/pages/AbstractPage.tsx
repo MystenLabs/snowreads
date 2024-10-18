@@ -36,13 +36,15 @@ const AbstractPage: React.FC<IAbstractPageProps> = ({ arxiv_id }) => {
         // const response = await fetch(`/abs/${arxiv_id}.json`);
         // console.log("response:");
         // console.log(response);
-        
+
         const index_resp = await fetch("/index.json");
         const index = await index_resp.json();
         const withUnderscore = arxiv_id.replace(".", "_");
         const metadataBlobId = index[withUnderscore];
         console.log(metadataBlobId);
-        const response = await fetch(`https://aggregator.walrus-testnet.walrus.space/v1/${metadataBlobId}`);
+        const response = await fetch(
+          `https://aggregator.walrus-testnet.walrus.space/v1/${metadataBlobId}`
+        );
 
         if (!response.ok) {
           throw new Error("Failed to fetch paper data");
@@ -51,7 +53,6 @@ const AbstractPage: React.FC<IAbstractPageProps> = ({ arxiv_id }) => {
 
         console.log("data");
         console.log(data);
-
 
         // Extract the initial submission date and the latest update date
         const initialSubmissionDate = new Date(
@@ -158,7 +159,7 @@ const AbstractPage: React.FC<IAbstractPageProps> = ({ arxiv_id }) => {
         />
         <div style={isSmallScreen ? { visibility: "hidden" } : {}}>
           <ViewPDFButton
-            fullPaperLink={`https://aggregator.walrus-testnet.walrus.space/v1/${paperData.paperDetails.blobId}`}
+            fullPaperLink={paperData.paperDetails.blobId}
             dynamicMarginTop={abstractHeight}
           />
           <WalrusMetadataContainer

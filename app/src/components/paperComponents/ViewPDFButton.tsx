@@ -1,12 +1,12 @@
 import { useEffect, useState } from "react";
 import { IViewPDFButtonProps } from "../../interfaces/IViewPDFButtonProps";
-import { useNavigate } from "react-router-dom";
+// import { useNavigate } from "react-router-dom";
 
 const ViewPDFButton: React.FC<IViewPDFButtonProps> = ({
   fullPaperLink,
   dynamicMarginTop,
 }) => {
-  const navigate = useNavigate();
+  // const navigate = useNavigate();
   const [isLargeScreen, setIsLargeScreen] = useState<boolean>(false);
 
   useEffect(() => {
@@ -27,11 +27,11 @@ const ViewPDFButton: React.FC<IViewPDFButtonProps> = ({
     };
   }, []);
 
-  const handleViewPDF = () => {
-    // Encode the URL parameter to ensure it's safely passed
-    const encodedLink = encodeURIComponent(fullPaperLink);
-    navigate(`/pdf-viewer/${encodedLink}`);
-  };
+  // const handleViewPDF = () => {
+  //   // Encode the URL parameter to ensure it's safely passed
+  //   const encodedLink = encodeURIComponent(fullPaperLink);
+  //   navigate(`/pdf-viewer/${encodedLink}`);
+  // };
 
   return (
     <div
@@ -42,12 +42,12 @@ const ViewPDFButton: React.FC<IViewPDFButtonProps> = ({
           : {}
       }
     >
-      <button
-        className="w-full text-[#8B28D2] border-2 border-solid border-[#8B28D2] hover:bg-[#8B28D2] hover:text-white p-2 rounded-lg"
-        onClick={handleViewPDF}
+      <a
+        href={`https://aggregator.walrus-testnet.walrus.space/v1/${fullPaperLink}`}
+        className="w-full text-[#8B28D2] border-2 border-solid border-[#8B28D2] hover:bg-[#8B28D2] hover:text-white p-2 rounded-lg "
       >
-        View PDF
-      </button>
+        Download PDF{" "}
+      </a>
     </div>
   );
 };

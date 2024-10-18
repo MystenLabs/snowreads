@@ -7,8 +7,7 @@ import Footer from "../layout/Footer";
 import { Spinner } from "../components/common/Spinner";
 
 // Set the workerSrc to the installed pdfjs-dist
-pdfjs.GlobalWorkerOptions.workerSrc =
-  "../../node_modules/pdfjs-dist/build/pdf.worker.mjs";
+pdfjs.GlobalWorkerOptions.workerSrc = "/pdf.worker.mjs";
 
 const PDFViewerPage: React.FC = () => {
   const { fileUrl } = useParams<string>();
