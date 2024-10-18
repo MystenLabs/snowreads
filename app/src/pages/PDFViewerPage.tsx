@@ -8,7 +8,7 @@ import { Spinner } from "../components/common/Spinner";
 
 // Set the workerSrc to the installed pdfjs-dist
 pdfjs.GlobalWorkerOptions.workerSrc =
-    '../../node_modules/pdfjs-dist/build/pdf.worker.mjs';
+  "../../node_modules/pdfjs-dist/build/pdf.worker.mjs";
 
 const PDFViewerPage: React.FC = () => {
   const { fileUrl } = useParams<string>();
@@ -43,8 +43,8 @@ const PDFViewerPage: React.FC = () => {
           const dpr = window.devicePixelRatio || 1;
           const scale = window.innerWidth <= 768 ? 0.75 : 1.5; // Adjust scale based on screen size
 
-          // Calculate the effective rotation (add the page's rotation to your custom rotation, if any)
-          const rotation = (page.rotate || 0) % 360; // Handle any internal page rotation metadata
+          // Calculate the effective rotation (add the page's rotation to 0 and handle modulo 360)
+          const rotation = (page.rotate + 0) % 360; // Combine page rotation with any additional rotation
 
           // Get the viewport and respect any rotation metadata from the PDF
           const viewport = page.getViewport({ scale, rotation });
@@ -53,6 +53,12 @@ const PDFViewerPage: React.FC = () => {
           const context = canvas?.getContext("2d");
 
           if (canvas && context) {
+            // Clear the canvas before rendering
+            context.clearRect(0, 0, canvas.width, canvas.height);
+
+            // Reset any transformations applied to the context
+            context.setTransform(1, 0, 0, 1, 0, 0);
+
             // Scale canvas size for higher resolution
             const outputScale = dpr;
             canvas.width = Math.floor(viewport.width * outputScale);
@@ -64,20 +70,45 @@ const PDFViewerPage: React.FC = () => {
             context.fillRect(0, 0, canvas.width, canvas.height);
             context.restore();
 
-            // Scale the context for the device pixel ratio
+            // Apply the scaling and rotation
             context.scale(outputScale, outputScale);
+
+            // Translate the canvas based on the rotation
+            switch (rotation) {
+              case 90:
+                context.rotate((90 * Math.PI) / 180);
+                context.translate(0, -canvas.height / outputScale);
+                break;
+              case 180:
+                context.rotate((180 * Math.PI) / 180);
+                context.translate(
+                  -canvas.width / outputScale,
+                  -canvas.height / outputScale
+                );
+                break;
+              case 270:
+                context.rotate((270 * Math.PI) / 180);
+                context.translate(-canvas.width / outputScale, 0);
+                break;
+              default:
+                // No rotation needed for 0 degrees
+                break;
+            }
 
             const renderContext = {
               canvasContext: context,
               viewport,
             };
 
+            // Render the page and wait for it to complete
             await page.render(renderContext).promise;
+
+            // Reset transformation after rendering the page
+            context.setTransform(1, 0, 0, 1, 0, 0);
           }
         }
       } catch (error) {
         console.error("Error loading PDF:", error);
-
       }
     };
 
