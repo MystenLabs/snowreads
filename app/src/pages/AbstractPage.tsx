@@ -131,6 +131,7 @@ const AbstractPage: React.FC<IAbstractPageProps> = ({ arxiv_id }) => {
           submissionAndUpdateText={submissionAndUpdateText!}
           license={paperData.paperDetails.license}
           blobId={paperData.paperDetails.blobId}
+          objectId={paperData.paperDetails.objectId}
           onAbstractHeightChange={handleAbstractHeightChange}
         />
         <div style={isSmallScreen ? { visibility: "hidden" } : {}}>
@@ -141,10 +142,6 @@ const AbstractPage: React.FC<IAbstractPageProps> = ({ arxiv_id }) => {
           <WalrusMetadataContainer
             blobId={paperData.paperDetails.blobId}
             objectId={paperData.paperDetails.objectId}
-            registeredEpoch={paperData.paperDetails.registeredEpoch}
-            certifiedEpoch={paperData.paperDetails.certifiedEpoch}
-            startEpoch={paperData.paperDetails.startEpoch}
-            endEpoch={paperData.paperDetails.endEpoch}
           />
         </div>
       </main>

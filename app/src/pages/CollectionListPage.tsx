@@ -123,7 +123,6 @@ const CollectionListPage: React.FC<ICategoryListPageProps> = ({
               <Spinner />
             ) : (
               <div className="md:-mt-6 ">
-                {/* Change to bucket address */}
                 <AudioSummaryContainer
                   src={`https://aggregator.walrus-testnet.walrus.space/v1/${wavBlobId}`}
                 />
