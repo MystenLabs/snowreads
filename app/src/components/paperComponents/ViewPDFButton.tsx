@@ -1,10 +1,12 @@
 import { useEffect, useState } from "react";
-import { IDownloadPDFButtonProps } from "../../interfaces/IDownloadPDFButtonProps";
+import { IViewPDFButtonProps } from "../../interfaces/IViewPDFButtonProps";
+import { useNavigate } from "react-router-dom";
 
-const DownloadPDFButton: React.FC<IDownloadPDFButtonProps> = ({
+const ViewPDFButton: React.FC<IViewPDFButtonProps> = ({
   fullPaperLink,
   dynamicMarginTop,
 }) => {
+  const navigate = useNavigate();
   const [isLargeScreen, setIsLargeScreen] = useState<boolean>(false);
 
   useEffect(() => {
@@ -25,6 +27,12 @@ const DownloadPDFButton: React.FC<IDownloadPDFButtonProps> = ({
     };
   }, []);
 
+  const handleViewPDF = () => {
+    // Encode the URL parameter to ensure it's safely passed
+    const encodedLink = encodeURIComponent(fullPaperLink);
+    navigate(`/pdf-viewer/${encodedLink}`);
+  };
+
   return (
     <div
       className="md:w-[180px]"
@@ -34,13 +42,14 @@ const DownloadPDFButton: React.FC<IDownloadPDFButtonProps> = ({
           : {}
       }
     >
-      <a href={fullPaperLink} target="_blank" rel="noopener noreferrer">
-        <button className="w-full  text-[#8B28D2] border-2 border-solid border-[#8B28D2] hover:bg-[#8B28D2] hover:text-white p-2 rounded-lg">
-          Download PDF
-        </button>
-      </a>
+      <button
+        className="w-full text-[#8B28D2] border-2 border-solid border-[#8B28D2] hover:bg-[#8B28D2] hover:text-white p-2 rounded-lg"
+        onClick={handleViewPDF}
+      >
+        View PDF
+      </button>
     </div>
   );
 };
 
-export default DownloadPDFButton;
+export default ViewPDFButton;

@@ -3,7 +3,7 @@ import { IPaperAbstractProps } from "../../interfaces/IPaperAbstractProps";
 import MobileNavigationBar from "../common/MobileNavigationBar";
 import TopNavigationHistory from "../common/TopNavigationHistory";
 import { formatBytes } from "../../tools/utils";
-import DownloadPdfButton from "./DownloadPDFButton";
+import ViewPDFButton from "./ViewPDFButton";
 import WalrusMetadataContainer from "./WalrusMetadataContainer";
 
 const PaperAbstract: React.FC<IPaperAbstractProps> = ({
@@ -96,7 +96,7 @@ const PaperAbstract: React.FC<IPaperAbstractProps> = ({
         </p>
         <p className="text-sm text-gray-500 mb-4">{arxiv_id}</p>
         <div className="md:hidden">
-          <DownloadPdfButton
+          <ViewPDFButton
             fullPaperLink={`https://aggregator.walrus-testnet.walrus.space/v1/${blobId}`}
           />
         </div>

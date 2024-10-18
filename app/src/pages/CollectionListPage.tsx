@@ -56,10 +56,10 @@ const CollectionListPage: React.FC<ICategoryListPageProps> = ({
   const getWavBlobIdForCategory = (category: string): string => {
     const categoryToWavBlobMap: { [key: string]: string } = {
       "The Science of Everyday Decisions":
-        "bnXSt3dUe_lLXFq8tzaI3xlXesIqf2fb7_s16YxltGs",
+        "4OHVF4tu1Nq1itT78G5NqCYP3Ffra2QHV19cfDu9rfc",
       "Scientific Wonder of Pop Culture":
-        "lQ0744AySj6VbrT2wQVh8Tc_iOyJg8VzfIJTgbwe8Ek",
-      "Is AI Fun": "pnwPpH0ttiEOH1vYF_GfMsHU8xI5tgIfXl_yQ7GSXFg",
+        "nLkXsss6zqfehkBlwe4v5vZCe092hWxLPk9SK-IiWWA",
+      "Is AI Fun": "9QwHCR56V-mjax-uhOKILs1I9yg6C4rjtgeFckVohIM",
     };
     return categoryToWavBlobMap[category] || "defaultBlobId";
   };

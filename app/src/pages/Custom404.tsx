@@ -10,7 +10,7 @@ const Custom404: React.FC = () => {
       <section className="flex flex-col items-center justify-center flex-grow bg-primary px-6">
         <div className="relative bg-white p-10 rounded-lg shadow-md text-center">
           <img
-            src="/walrus.png"
+            src="/walrus_avatar.png"
             alt="Walrus"
             className="absolute w-40 -top-20 left-1/2 transform -translate-x-1/2 z-0"
           />
