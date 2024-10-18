@@ -8,6 +8,7 @@ import { ISubCategory } from "./interfaces/IAllPapers";
 import ToSPage from "./pages/ToSPage";
 import PrivacyPolicyPage from "./pages/PrivacyPolicyPage";
 import PDFViewerPage from "./pages/PDFViewerPage";
+import WhySnowReadsPage from "./pages/WhySnowReadsPage";
 
 function App() {
   const [papersSize, setPapersSize] = useState<number>(0);
@@ -290,8 +291,9 @@ function App() {
             element={<CategoryListLayout label={"COLLECTIONS"} />}
           />
           <Route path="/pdf-viewer/:fileUrl" element={<PDFViewerPage />} />
-          <Route path="/terms of service" element={<ToSPage />} />
-          <Route path="/privacy policy" element={<PrivacyPolicyPage />} />
+          <Route path="/why-snow-reads" element={<WhySnowReadsPage />} />
+          <Route path="/terms-of-service" element={<ToSPage />} />
+          <Route path="/privacy-policy" element={<PrivacyPolicyPage />} />
           <Route path="*" element={<Custom404 />} />
         </Routes>
       </Router>
