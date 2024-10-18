@@ -4,6 +4,7 @@ import * as pdfjs from "pdfjs-dist";
 import "pdfjs-dist/web/pdf_viewer.css";
 import Header from "../layout/Header";
 import Footer from "../layout/Footer";
+import { Spinner } from "../components/common/Spinner";
 
 // Set the workerSrc to the installed pdfjs-dist
 pdfjs.GlobalWorkerOptions.workerSrc =
