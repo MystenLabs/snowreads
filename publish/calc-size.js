@@ -1,7 +1,7 @@
 
 const fs = require('fs');
 
-const ABS_DIR = `${__dirname}/../app/public/abs/`
+const ABS_DIR = `${__dirname}/../data/abs-bak/`
 const PAPERS_JSON = `${__dirname}/../app/public/papers.json`
 
 let allPapers = JSON.parse(fs.readFileSync(PAPERS_JSON, 'utf8'));  // Read the file
