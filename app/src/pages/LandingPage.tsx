@@ -145,7 +145,7 @@ const LandingPage: React.FC<ILandingPageLayoutProps> = ({
           <span>That Challenge Your Thinking</span>
         </h1>
         <p className="text-sm pt-5">
-          {formatBytes(collectionsSize)} of data saved on{" "}
+          {formatBytes(papersSize + collectionsSize)} of data saved on{" "}
           <span className="text-quaternary">Walrus</span>
         </p>
       </div>
@@ -167,10 +167,6 @@ const LandingPage: React.FC<ILandingPageLayoutProps> = ({
         <h1 className="text-3xl text-center bg-primary rounded-lg px-3">
           Browse All Categories
         </h1>
-        <p className="text-sm pt-5">
-          {formatBytes(papersSize)} of data saved on{" "}
-          <span className="text-quaternary">Walrus</span>
-        </p>
       </div>
 
       <div className="flex flex-wrap justify-center gap-4 my-4    max-w-[1200px]">
