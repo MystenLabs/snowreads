@@ -6,7 +6,6 @@ import CategoryListLayout from "./layout/categoryListLayout/CategoryListLayout";
 import ToSPage from "./pages/ToSPage";
 import PrivacyPolicyPage from "./pages/PrivacyPolicyPage";
 import PDFViewerPage from "./pages/PDFViewerPage";
-import WhySnowReadsPage from "./pages/WhySnowReadsPage";
 
 function App() {
   return (
@@ -28,7 +27,6 @@ function App() {
             element={<CategoryListLayout label={"COLLECTIONS"} />}
           />
           <Route path="/pdf-viewer/:fileUrl" element={<PDFViewerPage />} />
-          <Route path="/why-snow-reads" element={<WhySnowReadsPage />} />
           <Route path="/terms-of-service" element={<ToSPage />} />
           <Route path="/privacy-policy" element={<PrivacyPolicyPage />} />
           <Route path="*" element={<Custom404 />} />
