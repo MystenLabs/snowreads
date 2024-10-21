@@ -2,10 +2,11 @@ import Footer from "../Footer";
 import LandingPage from "../../pages/LandingPage";
 import { useEffect, useState } from "react";
 import { ISubCategory } from "../../interfaces/IAllPapers";
+import { Spinner } from "../../components/common/Spinner";
 
 const LandingPageLayout: React.FC = () => {
   const [allPapersData, setAllPapersData] = useState<any>(null);
-  const [allColelctionsData, setAllCollectionsData] = useState<any>(null);
+  const [allCollectionsData, setAllCollectionsData] = useState<any>(null);
   const [papersSize, setPapersSize] = useState<number>(0);
   const [artificialIntelligence, setArtificialIntelligence] =
     useState<ISubCategory | null>(null); // 1st subcategory of the Computer Science category
@@ -278,13 +279,16 @@ const LandingPageLayout: React.FC = () => {
   return (
     <div className="flex flex-col h-screen">
       <div className="flex-grow overflow-y-auto">
+      { (allCollectionsData && allPapersData) ? (
         <LandingPage
           allCategories={allCategories}
           documentsCount={documentsCount}
           papersSize={papersSize}
           allPapersData={allPapersData}
-          allCollectionsData={allColelctionsData}
-        />
+          allCollectionsData={allCollectionsData}
+        /> )
+        : (<Spinner/>)
+      }
       </div>
       <Footer />
     </div>
