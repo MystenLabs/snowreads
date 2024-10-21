@@ -5,7 +5,7 @@ const WalrusMetadataContainer: React.FC<IWalrusMetadataContainerProps> = ({
   objectId,
 }) => {
   return (
-    <div className="bg-white p-4 rounded-lg border border-black mt-5 max-w-[180px]">
+    <div className="bg-white p-4 rounded-lg border border-black mt-5 ">
       <h2 className="text-lg font-medium mb-4 border-b border-gray-300 pb-2">
         Walrus Metadata
       </h2>
