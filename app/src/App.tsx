@@ -27,7 +27,7 @@ function App() {
             path="/collection/:category"
             element={<CategoryListLayout label={"COLLECTIONS"} />}
           />
-          <Route path="/pdf-viewer/:fileUrl" element={<PDFViewerPage />} />
+          <Route path="/pdf-viewer/:blobId" element={<PDFViewerPage />} />
           <Route path="/why-snow-reads" element={<WhySnowReadsPage />} />
           <Route path="/terms-of-service" element={<ToSPage />} />
           <Route path="/privacy-policy" element={<PrivacyPolicyPage />} />
