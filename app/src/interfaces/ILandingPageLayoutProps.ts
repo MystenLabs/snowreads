@@ -52,4 +52,6 @@ export interface ILandingPageLayoutProps {
   };
   documentsCount: any;
   papersSize: number;
+  allPapersData: any;
+  allCollectionsData: any;
 }

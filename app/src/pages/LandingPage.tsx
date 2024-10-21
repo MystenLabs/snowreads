@@ -12,6 +12,8 @@ const LandingPage: React.FC<ILandingPageLayoutProps> = ({
   allCategories,
   documentsCount,
   papersSize,
+  allPapersData,
+  allCollectionsData,
 }) => {
   type CategoryType =
     | "Computer Science"
@@ -88,44 +90,27 @@ const LandingPage: React.FC<ILandingPageLayoutProps> = ({
   }
 
   useEffect(() => {
-    // Fetch the JSON resource
-    fetch("/papers.json")
-      .then((response) => {
-        if (response.ok) {
-          return response.json();
-        }
-        throw response;
-      })
-      .then((data) => {
-        setActiveCategorySize(data[activeCategory].size);
-      })
-      .catch((error) => {
-        console.log(error);
-        //setError(error);
-      });
+    if (!allPapersData) return;
+    setActiveCategorySize(allPapersData[activeCategory].size);
   }, [activeCategory, activeCategorySize]);
 
   useEffect(() => {
-    // Fetch the JSON resource for collections
-    fetch("/collections.json")
-      .then((response) => {
-        if (response.ok) {
-          return response.json();
-        }
-        throw response;
-      })
-      .then((data) => {
-        setCollectionsSize(data.size);
-        setCollectionTSEDSize(data["The Science of Everyday Decisions"].size);
-        setCollectionTSEDCount(data["The Science of Everyday Decisions"].count);
-        setCollectionSWPCSize(data["Scientific Wonder of Pop Culture"].size);
-        setCollectionSWPCCount(data["Scientific Wonder of Pop Culture"].count);
-        setCollectionIAIFSize(data["Is AI Fun"].size);
-        setCollectionIAIFCount(data["Is AI Fun"].count);
-      })
-      .catch((error) => {
-        console.error("Error fetching collections data:", error);
-      });
+    if (!allCollectionsData) return;
+    setCollectionsSize(allCollectionsData.size);
+    setCollectionTSEDSize(
+      allCollectionsData["The Science of Everyday Decisions"].size
+    );
+    setCollectionTSEDCount(
+      allCollectionsData["The Science of Everyday Decisions"].count
+    );
+    setCollectionSWPCSize(
+      allCollectionsData["Scientific Wonder of Pop Culture"].size
+    );
+    setCollectionSWPCCount(
+      allCollectionsData["Scientific Wonder of Pop Culture"].count
+    );
+    setCollectionIAIFSize(allCollectionsData["Is AI Fun"].size);
+    setCollectionIAIFCount(allCollectionsData["Is AI Fun"].count);
   }, []);
 
   return (
