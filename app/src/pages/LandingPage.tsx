@@ -54,11 +54,15 @@ const LandingPage: React.FC<ILandingPageLayoutProps> = ({
   const activeSubcategories = subcategoriesMap[activeCategory];
 
   const collectionsSize = allCollectionsData.size;
-  const collectionTSEDSize = allCollectionsData["The Science of Everyday Decisions"].size;
-  const collectionTSEDCount = allCollectionsData["The Science of Everyday Decisions"].count;
+  const collectionTSEDSize =
+    allCollectionsData["The Science of Everyday Decisions"].size;
+  const collectionTSEDCount =
+    allCollectionsData["The Science of Everyday Decisions"].count;
 
-  const collectionSWPCSize = allCollectionsData["Scientific Wonder of Pop Culture"].size;
-  const collectionSWPCCount = allCollectionsData["Scientific Wonder of Pop Culture"].count;
+  const collectionSWPCSize =
+    allCollectionsData["Scientific Wonder of Pop Culture"].size;
+  const collectionSWPCCount =
+    allCollectionsData["Scientific Wonder of Pop Culture"].count;
   const collectionIAIFSize = allCollectionsData["Is AI Fun"].size;
   const collectionIAIFCount = allCollectionsData["Is AI Fun"].count;
 
