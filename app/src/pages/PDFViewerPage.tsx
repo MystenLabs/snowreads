@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from "react";
-import { useParams, useNavigate, Link } from "react-router-dom";
+import { useParams, Link } from "react-router-dom";
 import * as pdfjs from "pdfjs-dist";
 import "pdfjs-dist/web/pdf_viewer.css";
 import Footer from "../layout/Footer";
@@ -14,7 +14,6 @@ const PDFViewerPage: React.FC = () => {
   const [numPages, setNumPages] = useState<number | null>(null);
   const [timeoutReached, setTimeoutReached] = useState(false); // Track if 10 seconds passed
   const [isLoading, setIsLoading] = useState(false); // Resolve "Use different canvas or ensure previous operations were cancelled or completed."
-  const navigate = useNavigate();
 
   const canvasRefs = useRef<(HTMLCanvasElement | null)[]>([]); // Array of canvas refs for each page
 
