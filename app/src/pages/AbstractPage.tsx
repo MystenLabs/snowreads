@@ -159,7 +159,7 @@ const AbstractPage: React.FC<IAbstractPageProps> = ({ arxiv_id }) => {
         />
         <div style={isSmallScreen ? { visibility: "hidden" } : {}}>
           <ViewPDFButton
-            fullPaperLink={paperData.paperDetails.blobId}
+            pdfBlobId={paperData.paperDetails.blobId}
             dynamicMarginTop={abstractHeight}
           />
           <WalrusMetadataContainer

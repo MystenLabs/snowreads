@@ -3,7 +3,7 @@ import { IViewPDFButtonProps } from "../../interfaces/IViewPDFButtonProps";
 // import { useNavigate } from "react-router-dom";
 
 const ViewPDFButton: React.FC<IViewPDFButtonProps> = ({
-  fullPaperLink,
+  pdfBlobId,
   dynamicMarginTop,
 }) => {
   // const navigate = useNavigate();
@@ -43,10 +43,10 @@ const ViewPDFButton: React.FC<IViewPDFButtonProps> = ({
       }
     >
       <a
-        href={`https://aggregator.walrus-testnet.walrus.space/v1/${fullPaperLink}`}
+        href={`/pdf-viewer/${pdfBlobId}`}
         className="w-full text-[#8B28D2] border-2 border-solid border-[#8B28D2] hover:bg-[#8B28D2] hover:text-white p-2 rounded-lg "
       >
-        Download PDF{" "}
+        View PDF{" "}
       </a>
     </div>
   );
