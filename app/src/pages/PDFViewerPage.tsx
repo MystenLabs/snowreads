@@ -7,19 +7,20 @@ import Footer from "../layout/Footer";
 import { Spinner } from "../components/common/Spinner";
 
 // Set the workerSrc to the installed pdfjs-dist
-pdfjs.GlobalWorkerOptions.workerSrc = "/pdf.worker.mjs";
+pdfjs.GlobalWorkerOptions.workerSrc = "/pdf.worker.min.mjs";
 
 const PDFViewerPage: React.FC = () => {
-  const { fileUrl } = useParams<string>();
-  const decodedLink = decodeURIComponent(fileUrl!); //
+  const { blobId } = useParams<string>();
+  const blobIdDecoded = decodeURIComponent(blobId!); //
   const [numPages, setNumPages] = useState<number | null>(null);
   const [timeoutReached, setTimeoutReached] = useState(false); // Track if 10 seconds passed
+  const [isLoading, setIsLoading] = useState(false); // Resolve "Use different canvas or ensure previous operations were cancelled or completed."
   const navigate = useNavigate();
 
   const canvasRefs = useRef<(HTMLCanvasElement | null)[]>([]); // Array of canvas refs for each page
 
   useEffect(() => {
-    if (!decodedLink) return; // If no URL parameter is found, exit early
+    if (!blobIdDecoded) return; // If no URL parameter is found, exit early
 
     // Set a 10-second timeout to show the error message
     const timeout = setTimeout(() => {
@@ -30,7 +31,7 @@ const PDFViewerPage: React.FC = () => {
 
     const loadPDF = async () => {
       try {
-        const loadingTask = pdfjs.getDocument(decodedLink);
+        const loadingTask = pdfjs.getDocument(`https://aggregator.walrus-testnet.walrus.space/v1/${blobIdDecoded}`);
         const pdf = await loadingTask.promise;
         setNumPages(pdf.numPages); // Set numPages once the PDF is loaded
 
@@ -111,11 +112,14 @@ const PDFViewerPage: React.FC = () => {
       }
     };
 
-    loadPDF();
+    if (!isLoading) {
+      setIsLoading(true);
+      loadPDF();
+    }
     return () => {
       clearTimeout(timeout); // Clear timeout if PDF loads or component unmounts
     };
-  }, [decodedLink, numPages]);
+  }, [blobIdDecoded, numPages, isLoading]);
 
   return (
     <div>
@@ -130,7 +134,7 @@ const PDFViewerPage: React.FC = () => {
           </button>
 
           <a
-            href={decodedLink}
+            href={`https://aggregator.walrus-testnet.walrus.space/v1/${blobIdDecoded}`}
             download
             className={`text-sm border-2 border-solid p-[8px] rounded-lg ${
               !numPages

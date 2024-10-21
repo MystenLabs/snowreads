@@ -1,4 +1,4 @@
 export interface IViewPDFButtonProps {
-  fullPaperLink: string;
+  pdfBlobId: string;
   dynamicMarginTop?: number;
 }
