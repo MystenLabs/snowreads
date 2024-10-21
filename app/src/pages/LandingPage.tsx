@@ -53,21 +53,20 @@ const LandingPage: React.FC<ILandingPageLayoutProps> = ({
   };
   const activeSubcategories = subcategoriesMap[activeCategory];
 
-  const [collectionsSize, setCollectionsSize] = useState<number>(0);
-  const [collectionTSEDSize, setCollectionTSEDSize] = useState<number>(0);
-  const [ollectionTSEDCount, setCollectionTSEDCount] = useState<number>(0);
+  const collectionsSize = allCollectionsData.size;
+  const collectionTSEDSize = allCollectionsData["The Science of Everyday Decisions"].size;
+  const collectionTSEDCount = allCollectionsData["The Science of Everyday Decisions"].count;
 
-  const [collectionSWPCSize, setCollectionSWPCSize] = useState<number>(0);
-  const [collectionSWPCCount, setCollectionSWPCCount] = useState<number>(0);
-
-  const [collectionIAIFSize, setCollectionIAIFSize] = useState<number>(0);
-  const [collectionIAIFCount, setCollectionIAIFCount] = useState<number>(0);
+  const collectionSWPCSize = allCollectionsData["Scientific Wonder of Pop Culture"].size;
+  const collectionSWPCCount = allCollectionsData["Scientific Wonder of Pop Culture"].count;
+  const collectionIAIFSize = allCollectionsData["Is AI Fun"].size;
+  const collectionIAIFCount = allCollectionsData["Is AI Fun"].count;
 
   const collections = [
     {
       icon: "/maths_icon.png",
       title: "The Science of Everyday Decisions",
-      documents: ollectionTSEDCount,
+      documents: collectionTSEDCount,
       size: collectionTSEDSize,
     },
     {
@@ -99,31 +98,12 @@ const LandingPage: React.FC<ILandingPageLayoutProps> = ({
     setActiveCategorySize(allPapersData[activeCategory].size);
   }, [activeCategory, activeCategorySize]);
 
-  useEffect(() => {
-    if (!allCollectionsData) return;
-    setCollectionsSize(allCollectionsData.size);
-    setCollectionTSEDSize(
-      allCollectionsData["The Science of Everyday Decisions"].size
-    );
-    setCollectionTSEDCount(
-      allCollectionsData["The Science of Everyday Decisions"].count
-    );
-    setCollectionSWPCSize(
-      allCollectionsData["Scientific Wonder of Pop Culture"].size
-    );
-    setCollectionSWPCCount(
-      allCollectionsData["Scientific Wonder of Pop Culture"].count
-    );
-    setCollectionIAIFSize(allCollectionsData["Is AI Fun"].size);
-    setCollectionIAIFCount(allCollectionsData["Is AI Fun"].count);
-  }, []);
-
   return (
     <div className="relative z-[1] flex flex-col items-center justify-start min-h-screen bg-primary pb-20">
       <img
         src="/logo_with_globe.png"
         alt="Logo"
-        className="w-full max-w-[350px] h-auto p-10"
+        className="w-full min-w-[352px] min-h-[324px] max-w-[352px] h-auto p-10"
       />
       <p className="text-xs -mt-8  px-5 text-center">
         Curated collections of scientific papers stored on Walrus.

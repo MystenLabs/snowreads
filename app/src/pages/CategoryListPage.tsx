@@ -108,6 +108,10 @@ const CategoryListPage: React.FC<ICategoryListPageProps> = ({ label }) => {
   }, [category, subcategory, navigate]);
 
   return (
+  <>
+            {loading ? (
+              <Spinner />
+            ) : (
     <div className="w-full min-h-screen bg-primary flex flex-col items-center">
       <div className="pt-10 pb-5 text-center">
         <div className="flex justify-center">
@@ -183,9 +187,6 @@ const CategoryListPage: React.FC<ICategoryListPageProps> = ({ label }) => {
                   label: subCategory,
                 }))}
             />
-            {loading ? (
-              <Spinner />
-            ) : (
               <PaperCardContainer
                 cardTitle={`${papers.length} Documents, ${formatBytes(
                   activeSubcategorySize
@@ -218,7 +219,6 @@ const CategoryListPage: React.FC<ICategoryListPageProps> = ({ label }) => {
                   <p>No papers available</p>
                 )}
               </PaperCardContainer>
-            )}
           </div>
         </div>
       )}
@@ -253,6 +253,8 @@ const CategoryListPage: React.FC<ICategoryListPageProps> = ({ label }) => {
       )}
       <InformationPopup />
     </div>
+    )}
+    </>
   );
 };
 

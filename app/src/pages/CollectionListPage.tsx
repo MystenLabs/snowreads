@@ -64,7 +64,8 @@ const CollectionListPage: React.FC<ICategoryListPageProps> = ({
     return categoryToWavBlobMap[category] || "defaultBlobId";
   };
 
-  return (
+  return ( <>
+  { (activeCollectionSize) ? (
     <div className="w-full min-h-screen bg-primary flex flex-col items-center">
       <div className="pt-10 pb-5 text-center">
         <div className="flex justify-center">
@@ -213,7 +214,9 @@ const CollectionListPage: React.FC<ICategoryListPageProps> = ({
       )}
       <InformationPopup />
     </div>
-  );
+    ) : (<Spinner/>)
+  }
+  </>);
 };
 
 export default CollectionListPage;
