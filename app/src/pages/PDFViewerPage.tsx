@@ -1,8 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
-import { useParams, useNavigate } from "react-router-dom";
+import { useParams, useNavigate, Link } from "react-router-dom";
 import * as pdfjs from "pdfjs-dist";
 import "pdfjs-dist/web/pdf_viewer.css";
-import Header from "../layout/Header";
 import Footer from "../layout/Footer";
 import { Spinner } from "../components/common/Spinner";
 
@@ -31,7 +30,9 @@ const PDFViewerPage: React.FC = () => {
 
     const loadPDF = async () => {
       try {
-        const loadingTask = pdfjs.getDocument(`https://aggregator.walrus-testnet.walrus.space/v1/${blobIdDecoded}`);
+        const loadingTask = pdfjs.getDocument(
+          `https://aggregator.walrus-testnet.walrus.space/v1/${blobIdDecoded}`
+        );
         const pdf = await loadingTask.promise;
         setNumPages(pdf.numPages); // Set numPages once the PDF is loaded
 
@@ -123,16 +124,13 @@ const PDFViewerPage: React.FC = () => {
 
   return (
     <div>
-      <Header />
-      <div className="flex flex-col items-center justify-center p-2">
-        <div className="flex justify-between w-full max-w-screen-sm ">
-          <button
-            onClick={() => navigate(-1)}
-            className="bg-[#8B28D2] px-4 py-2 text-sm rounded-lg text-white hover:border-[#8B28D2] hover:bg-primary border-2 border-solid hover:text-[#8B28D2]"
-          >
-            Back
-          </button>
-
+      <header className="w-full bg-primary border-b border-gray-300">
+        <div className="flex items-center justify-between p-4">
+          <div className="logo">
+            <Link to="/">
+              <img src="/logo.png" alt="SnowReads Logo" className="h-6" />
+            </Link>
+          </div>
           <a
             href={`https://aggregator.walrus-testnet.walrus.space/v1/${blobIdDecoded}`}
             download
@@ -146,7 +144,8 @@ const PDFViewerPage: React.FC = () => {
             Download from Walrus
           </a>
         </div>
-
+      </header>
+      <div className="flex flex-col items-center justify-center p-2">
         {/* Show spinner while PDF is loading, but removing after 10 seconds */}
         {!numPages && !timeoutReached ? (
           <Spinner />
