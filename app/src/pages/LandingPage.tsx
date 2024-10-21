@@ -83,6 +83,11 @@ const LandingPage: React.FC<ILandingPageLayoutProps> = ({
       size: collectionIAIFSize,
     },
   ];
+  const [isPopupOpen, setIsPopupOpen] = useState(false);
+
+  const toggleInformationPopup = () => {
+    setIsPopupOpen((prev) => !prev);
+  };
 
   function camelCaseToWords(s: string) {
     const result = s.replace(/([A-Z])/g, " $1");
@@ -120,19 +125,32 @@ const LandingPage: React.FC<ILandingPageLayoutProps> = ({
         alt="Logo"
         className="w-full max-w-[350px] h-auto p-10"
       />
-      <p className="text-xs -mt-8 pb-16 px-5 text-center">
+      <p className="text-xs -mt-8  px-5 text-center">
         Curated collections of scientific papers stored on Walrus.
       </p>
+      <p className="text-base b-16 pt-10 text-center">
+        <span className="font-semibold">
+          {formatBytes(papersSize + collectionsSize)}
+        </span>{" "}
+        of data saved on{" "}
+        <span className="text-quaternary font-semibold">Walrus</span>
+      </p>
+      <p className="text-base pb-10 text-center">
+        SnowReads is published on Walrus Sites.{" "}
+        <span
+          className="text-gray-500 hover:cursor-pointer whitespace-nowrap"
+          onClick={toggleInformationPopup}
+        >
+          Learn more.
+        </span>
+      </p>
+
       <div className="pb-10 flex flex-col items-center">
         <h1 className="text-3xl text-center">
           <span>Spark Your Curiosity: Collections</span>
           <br />
           <span>That Challenge Your Thinking</span>
         </h1>
-        <p className="text-sm pt-5">
-          {formatBytes(papersSize + collectionsSize)} of data saved on{" "}
-          <span className="text-quaternary">Walrus</span>
-        </p>
       </div>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 w-full px-4 sm:px-8 md:px-12 lg:px-0 lg:max-w-[1100px] pb-10">
@@ -166,7 +184,7 @@ const LandingPage: React.FC<ILandingPageLayoutProps> = ({
             {category}
           </button>
         ))}
-        <div className="absolute lg:top-[35%] lg:right-[20%] md:top-[40%] md:right-[2%] transform -translate-y-1/2 z-[-10] hidden md:block">
+        <div className="absolute lg:top-[35%] lg:right-[20%] md:top-[40%] md:right-[2%] transform -translate-y-1/2 z-[-10] hidden md:block max-w-[1100px]">
           <img
             src="/walrus_avatar.png"
             alt="Background"
@@ -238,7 +256,10 @@ const LandingPage: React.FC<ILandingPageLayoutProps> = ({
         </div>
       </div>
       {/* <BackToTopButton /> */}
-      <InformationPopup />
+      <InformationPopup
+        isOpen={isPopupOpen}
+        togglePopup={toggleInformationPopup}
+      />
     </div>
   );
 };

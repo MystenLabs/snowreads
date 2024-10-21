@@ -6,7 +6,6 @@ import CategoryListLayout from "./layout/categoryListLayout/CategoryListLayout";
 import ToSPage from "./pages/ToSPage";
 import PrivacyPolicyPage from "./pages/PrivacyPolicyPage";
 import PDFViewerPage from "./pages/PDFViewerPage";
-import WhySnowReadsPage from "./pages/WhySnowReadsPage";
 
 function App() {
   return (
