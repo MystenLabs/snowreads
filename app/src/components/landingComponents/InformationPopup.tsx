@@ -86,7 +86,7 @@ const InformationPopup: React.FC<{
       {isOpen && (
         <div
           ref={modalRef}
-          className="fixed bottom-[180px] right-[20px] sm:bottom-[180px] md:bottom-[140px] lg:bottom-[140px] bg-secondary p-4 sm:p-5 rounded-lg shadow-lg border border-black z-50 w-[90%] sm:w-[530px] max-w-full"
+          className="fixed bottom-[80px] right-[20px] sm:bottom-[80px] md:bottom-[140px] lg:bottom-[140px] bg-secondary p-4 sm:p-5 rounded-lg shadow-lg border border-black z-50 w-[90%] sm:w-[530px] max-w-full"
         >
           <h2 className="text-lg sm:text-2xl font-medium mb-3 sm:mb-4">
             About SnowReads
