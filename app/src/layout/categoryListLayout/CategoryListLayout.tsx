@@ -6,7 +6,7 @@ import CollectionListPage from "../../pages/CollectionListPage";
 
 const CategoryListLayout: React.FC<ICategoryListLayout> = ({ label }) => {
   return (
-    <div className="flex flex-col h-screen">
+    <div className="flex flex-col md:h-screen">
       <Header />
       <div className="flex-grow overflow-y-auto">
         {label != "COLLECTIONS" ? (

@@ -57,10 +57,19 @@ const AbstractPage: React.FC<IAbstractPageProps> = ({ arxiv_id }) => {
         // Extract the initial submission date and the latest update date
         const initialSubmissionDate = new Date(
           data.versions[0].created
-        ).toLocaleDateString();
+        ).toLocaleDateString("en-GB", {
+          day: "2-digit",
+          month: "long",
+          year: "numeric",
+        });
+
         const latestUpdateDate = new Date(
           data.versions[data.versions.length - 1].created
-        ).toLocaleDateString();
+        ).toLocaleDateString("en-GB", {
+          day: "2-digit",
+          month: "long",
+          year: "numeric",
+        });
 
         // Construct the text conditionally
         const submissionAndUpdateText =

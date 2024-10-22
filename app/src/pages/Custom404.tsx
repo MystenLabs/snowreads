@@ -5,7 +5,7 @@ import InformationPopup from "../components/landingComponents/InformationPopup";
 
 const Custom404: React.FC = () => {
   return (
-    <div className="flex flex-col min-h-screen">
+    <div className="flex flex-col md:h-screen">
       <Header />
       <section className="flex flex-col items-center justify-center flex-grow bg-primary px-6">
         <div className="relative bg-white p-10 rounded-lg shadow-md text-center">
