@@ -107,6 +107,7 @@ const PaperAbstract: React.FC<IPaperAbstractProps> = ({
             { id: "cite-as", label: "Cite As" },
             { id: "submission-history", label: "Submission History" },
             { id: "license", label: "License" },
+            { id: "walrus-metadata", label: "Walrus Metadata" },
           ]}
         />
         <p className="text-[#8B28D2] mb-6">
@@ -161,7 +162,7 @@ const PaperAbstract: React.FC<IPaperAbstractProps> = ({
           {transformLicense(license)}
         </a>
       </div>
-      <div className="md:hidden px-5">
+      <div id="walrus-metadata" className="md:hidden px-5">
         <WalrusMetadataContainer blobId={blobId} objectId={objectId} />
       </div>
     </section>

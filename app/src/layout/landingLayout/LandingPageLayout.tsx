@@ -277,18 +277,19 @@ const LandingPageLayout: React.FC = () => {
     },
   };
   return (
-    <div className="flex flex-col h-screen">
+    <div className="flex flex-col md:h-screen">
       <div className="flex-grow overflow-y-auto">
-      { (allCollectionsData && allPapersData) ? (
-        <LandingPage
-          allCategories={allCategories}
-          documentsCount={documentsCount}
-          papersSize={papersSize}
-          allPapersData={allPapersData}
-          allCollectionsData={allCollectionsData}
-        /> )
-        : (<Spinner/>)
-      }
+        {allCollectionsData && allPapersData ? (
+          <LandingPage
+            allCategories={allCategories}
+            documentsCount={documentsCount}
+            papersSize={papersSize}
+            allPapersData={allPapersData}
+            allCollectionsData={allCollectionsData}
+          />
+        ) : (
+          <Spinner />
+        )}
       </div>
       <Footer />
     </div>

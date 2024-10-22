@@ -266,19 +266,19 @@ const TOSPage: React.FC = () => {
             B. Access,tamperwith,orusenon-publicareasoftheServices,MystenLabs’s
             computer systems, or the technical delivery systems of Mysten Labs’s
             providers; <br />
-            C. Attempttoprobe,scanortestthevulnerabilityofanyMystenLabssystemor
-            network or breach any security or authentication measures; <br />
-            D.
-            Avoid,bypass,remove,deactivate,impair,descrambleorotherwisecircumvent
-            any technological measure implemented by Mysten Labs or any of
-            Mysten Labs’s providers or any other third party (including another
-            user) to protect the Services; <br />
-            E.
-            AttempttoaccessorsearchtheServicesordownloadcontentfromtheServices
-            using any engine, software, tool, agent, device or mechanism
-            (including spiders, robots, crawlers, data mining tools or the like)
-            other than the software and/or search agents provided by Mysten Labs
-            or other generally available third-party web browsers; <br />
+            C. Attempt to probe,scan or test the vulnerability of any Mysten
+            Labs system or network or breach any security or authentication
+            measures; <br />
+            D. Avoid, bypass, remove, deactivate, impair, descramble or
+            otherwise circumvent any technological measure implemented by Mysten
+            Labs or any of Mysten Labs’s providers or any other third party
+            (including another user) to protect the Services; <br />
+            E. Attempt to access or search the Services or download content from
+            the Services using any engine, software, tool, agent, device or
+            mechanism (including spiders, robots, crawlers, data mining tools or
+            the like) other than the software and/or search agents provided by
+            Mysten Labs or other generally available third-party web browsers;{" "}
+            <br />
             F. Send any unsolicited or unauthorized advertising, promotional
             materials, email, junk mail, spam, chain letters or other form of
             solicitation;
@@ -286,10 +286,9 @@ const TOSPage: React.FC = () => {
             G. Use any meta tags or other hidden text or metadata utilizing a
             Mysten Labs trademark, logo URL or product name without Mysten
             Labs’s express written consent; <br />
-            H.
-            UsetheServices,oranyportionthereof,foranycommercialpurposeorforthe
-            benefit of any third party or in any manner not permitted by these
-            Terms; <br />
+            H. Use the Services, or any portion thereof,for any commercial
+            purpose or for the benefit of any third party or in any manner not
+            permitted by these Terms; <br />
             I. Forge any TCP/IP packet header or any part of the header
             information in any email or newsgroup posting, or in any way use the
             Services to send altered, deceptive or false source-identifying

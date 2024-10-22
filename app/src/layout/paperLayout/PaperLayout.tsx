@@ -7,7 +7,7 @@ function PaperLayout() {
   const { arxiv_id } = useParams<{ arxiv_id: string }>();
 
   return (
-    <div className="flex flex-col h-screen scroll-smooth">
+    <div className="flex flex-col md:h-screen scroll-smooth">
       <Header />
       <div className="flex-grow overflow-y-auto">
         <AbstractPage arxiv_id={arxiv_id!} />

@@ -70,19 +70,17 @@ const InformationPopup: React.FC<{
       <button
         ref={buttonRef}
         onClick={togglePopup}
-        className={`fixed bottom-[120px] right-8 sm:bottom-[120px] sm:right-8 md:bottom-20 md:right-6 lg:bottom-20 lg:right-6 rounded-full shadow-xl z-50 ${isOpen ? "bg-black" : "bg-white"}`}
+        className={`fixed bottom-[20px] right-8 sm:bottom-[20px] sm:right-8 md:bottom-20 md:right-6 lg:bottom-20 lg:right-6 rounded-full shadow-xl z-50 ${isOpen ? "bg-black" : "bg-white"}`}
       >
-        <div
-          className={`w-12 h-12 rounded-full  flex items-center justify-center ${
-            isOpen ? "bg-black" : "bg-tertiary"
-          }`}
-        >
-          <img
-            src={isOpen ? "/x_icon.png" : "/icon.png"}
-            alt="Walrus logo"
-            className={`${isOpen ? "w-10 h-10" : "w-7 h-7"}`}
-          />
-        </div>
+        {isOpen ? (
+          <div className="w-12 h-12 rounded-full flex items-center justify-center bg-[#0C0F1D]">
+            <img src="/x_icon.png" alt="Close button" className="w-10 h-10" />
+          </div>
+        ) : (
+          <div className="w-12 h-12 rounded-full flex items-center justify-center bg-tertiary">
+            <img src="/icon.png" alt="Walrus globe" className="w-7 h-7" />
+          </div>
+        )}
       </button>
 
       {isOpen && (
@@ -102,8 +100,9 @@ const InformationPopup: React.FC<{
               title="SnowReads"
               description="Curated collections of scientific papers stored on Walrus."
               accordionContent={[
-                "SnowReads is a series of curated collections of scientific papers, made accessible in a fully decentralized manner. It’s built on Walrus Sites, a platform that allows people to publish web apps directly on Walrus, a decentralized data storage network.",
-                "Everything on this web app—from the HTML to the images and the PDF files themselves—is stored on Walrus. SnowReads demonstrates how Walrus Sites can be a foundational tool for decentralized applications, delivering seamless end-to-end user experiences. Digital archives can preserve content for the long-term and remain globally accessible, secure, and resistant to data loss or censorship.",
+                "SnowReads is a series of curated collections of scientific papers, built with Walrus Sites, a platform that allows users to publish websites directly on Walrus, a decentralized data storage network.",
+                "Everything on this site—from the HTML to the images and the PDF files themselves—is stored on Walrus, demonstrating how Walrus Sites makes it easy to turn data blobs into high-quality user experiences.",
+                "SnowReads illustrates how Walrus and Walrus Sites can enable digital archives to preserve content for the long term while remaining globally accessible, secure, and resistant to data loss or censorship.",
               ]}
               isOpen={openAccordionIndex === 0} // Open if the index matches
               onToggle={() => handleAccordionToggle(0)} // Toggle function for this item
@@ -115,10 +114,9 @@ const InformationPopup: React.FC<{
               iconBgColor="bg-quaternary"
               iconSize="w-7 h-7"
               title="Walrus Sites"
-              description="Web apps hosted entirely on Walrus."
+              description="Web sites hosted entirely on Walrus."
               accordionContent={[
-                "Walrus Sites take decentralized storage to the next level by allowing people to host web apps entirely on Walrus. Once deployed, a Walrus Site lives on the decentralized network, accessible from anywhere in the world through portals like walrus.site.",
-                "These sites can also be linked to objects on Sui and additionally leverage Sui’s naming service, SuiNS, allowing each site to have a human-readable name instead of a long, complex URL.",
+                "Walrus Sites take decentralized storage to the next level by allowing users to host websites entirely on Walrus. Once deployed, a Walrus Site exists on the decentralized network, accessible from anywhere in the world through portals like walrus.site. These sites can also be linked to objects on Sui and additionally leverage Sui’s naming service, SuiNS, allowing each site to have a human-readable name instead of a long, complex URL.",
               ]}
               isOpen={openAccordionIndex === 2} // Open if the index matches
               onToggle={() => handleAccordionToggle(2)} // Toggle function for this item
@@ -132,7 +130,8 @@ const InformationPopup: React.FC<{
               title="Walrus"
               description="Decentralized data storage network."
               accordionContent={[
-                "Walrus is a decentralized data storage network. Unlike traditional cloud storage systems that rely on centralized providers, Walrus splits data into smaller pieces and distributes it across multiple nodes globally. Decentralization ensures the data is highly available and resilient to failures. Even if parts of the network go offline, the system can still retrieve the complete data.",
+                "Walrus is a decentralized data storage network. Unlike traditional cloud storage systems that rely on centralized providers, Walrus splits data into smaller pieces and distributes it across multiple nodes globally. This decentralization ensures that data is highly available and resilient to failures. Even if parts of the network go offline, the system can still retrieve complete data.",
+                "Walrus represents the next generation of decentralized data storage, built with learnings from the successes and challenges of earlier protocols like Filecoin and Arweave. Walrus offers fast writes and reads, as well as deletable blobs. Using the Sui Blockchain as a coordination layer, storage capacity is programmable and can be maintained and extended via smart contracts.",
               ]}
               isOpen={openAccordionIndex === 1} // Open if the index matches
               onToggle={() => handleAccordionToggle(1)} // Toggle function for this item
