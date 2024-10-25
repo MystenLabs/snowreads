@@ -83,7 +83,7 @@ These scripts were developed during different stages of publishing Snowreads and
 - remove-duplicate-papers.ts: Removes duplicate entries from `app/public/papers.json` in case of miss-handling.
 - <span>store.sh</span>: Stores papers to Walrus
 - trim-metadata.js: Removes metadata from papers not having a pdf in `PDF_DIR`.
-- <span>untar-check.sh</span>: Unpacks and keeps papers with a creative-commons license.
+- <span>untar-check.sh</span>: Unpacks papers downloaded from [arXiv S3 buckets](https://info.arxiv.org/help/bulk_data_s3.html) and keeps papers with a creative-commons license.
 
 ### add-paper
 
