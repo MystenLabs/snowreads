@@ -30,7 +30,7 @@ fi
 # 3. Check pdf size
 # 4. Upload or delete (depending on 2)
 # 5. Parse blob id from the response
-# 6. Append to detailed jsons the info at 5 and 3 (/public/abs/<arxiv_id>.json)
+# 6. Append to detailed jsons the info at 5 and 3 (../data/abs/<arxiv_id>.json)
 process_tar_files() {
     # Function arguments
     local upper_bound=$1
@@ -57,15 +57,15 @@ process_tar_files() {
                 echo "Deleting ${pdf}"
                 rm "${pdf}"
                 echo "Deleting metadata"
-                rm "${script_dir}/../app/public/abs/${arxiv_id}.json"
+                rm "${script_dir}/../data/abs/${arxiv_id}.json"
                 continue
             fi
 
             local pdf_size=$(stat -f "%z" ${pdf})
 
             # Moving pdf to public folder
-            mv "${pdf}" "${script_dir}/../app/public/pdf/${arxiv_id}.pdf"
-            local store_resp=$(walrus json "{\"command\":{\"store\":{\"file\":\"${script_dir}/../app/public/pdf/${arxiv_id}.pdf\"}}}")
+            mv "${pdf}" "${script_dir}/../data/pdf/${arxiv_id}.pdf"
+            local store_resp=$(walrus json "{\"command\":{\"store\":{\"file\":\"${script_dir}/../data/pdf/${arxiv_id}.pdf\"}}}")
 
             local blob_id=$(echo "$store_resp" | jq -r '.newlyCreated.blobObject.blobId // .alreadyCertified.blobId')
             if [[ -z "$blob_id" ]]; then
@@ -74,7 +74,7 @@ process_tar_files() {
             fi
 
             # Append size and blob_id to abs jsons
-            local detailed_json="${script_dir}/../app/public/abs/${arxiv_id}.json"
+            local detailed_json="${script_dir}/../data/abs/${arxiv_id}.json"
             jq -c --arg blob_id "$blob_id" --arg pdf_size "$pdf_size" '. += {blobId: $blob_id, pdfSize: $pdf_size}' "${detailed_json}" > "${detailed_json}.tmp" && mv "${detailed_json}.tmp" "${detailed_json}"
         done
         # Delete the tar file and the folder:
@@ -116,9 +116,9 @@ echo "Switching sui client to testnet."
 echo "Make sure you have enough testnet SUI."
 sui client switch --env testnet
 
-# If ../app/public/pdf folder does not exist create it.
-if [ ! -d "${script_dir}/../app/public/pdf" ]; then
-    mkdir "${script_dir}/../app/public/pdf"
+# If ../data/pdf folder does not exist create it.
+if [ ! -d "${script_dir}/../data/pdf" ]; then
+    mkdir "${script_dir}/../data/pdf"
 fi
 
 process_tar_files 152 "${FOLDER_2407_PATH}" "2407"

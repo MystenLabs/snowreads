@@ -2,19 +2,22 @@
 import * as fs from 'fs';
 import { parseCategory } from './parse-category';
 
-const MONTH = "2408";
-const N_FILES = 17452;
-let categoryObj = readJsonFile("categories.json");
-// const MONTH = "2407";
-// const N_FILES = 21795;
-// let categoryObj: any = { count: 0 };
+// First run with these parameters to store 2407 to new categories.json
+const MONTH = "2407";
+const N_FILES = 21795;
+let categoryObj: any = { count: 0 };
+
+// Then with these to append 2408 to categories.json
+// const MONTH = "2408";
+// const N_FILES = 17452;
+// let categoryObj = readJsonFile("categories.json");
 
 function readJsonFile(filePath: string): any {
     const jsonData = fs.readFileSync(filePath, 'utf8');  // Read the file
     return JSON.parse(jsonData);  // Parse and return the JSON content
 }
 
-const oaiData = readJsonFile("oai-metadata.json");
+const oaiData = readJsonFile(`${__dirname}/../data/oai-metadata.json`);
 const arxivData = readJsonFile(`combined-${MONTH}.json`);
 let uniqueLicenses: any = {};
 for (let i = 1; i < N_FILES; i++) {
@@ -107,7 +110,7 @@ for (let i = 1; i < N_FILES; i++) {
     });
 
     // get filesize of corresponding pdf:
-    // const pdfPath = `../../../app/public/pdf/${oaiEntry["id"]}.pdf`;
+    // const pdfPath = `../../../data/pdf/${oaiEntry["id"]}.pdf`;
     // const pdfSize = fs.statSync(pdfPath).size;
 
     const paper = {
@@ -126,8 +129,8 @@ for (let i = 1; i < N_FILES; i++) {
         // objectId
         // pdfSize
     };
-    // write to file in public/abs
-    fs.writeFileSync(`../../../app/public/abs/${MONTH}.${paddedNumber}.json`, JSON.stringify(paper), 'utf8');
+    // write to file in ../data
+    fs.writeFileSync(`../../../data/abs/${MONTH}.${paddedNumber}.json`, JSON.stringify(paper), 'utf8');
 
 }
 

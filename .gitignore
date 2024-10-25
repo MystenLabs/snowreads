@@ -1,5 +1,8 @@
 /data
 !/data/abs
+!/data/oai-metadata.json
+!/data/arxiv_src_manifest.xml
+!/data/arxiv_pdf_manifest.xml
 
 # OS files
 .DS_Store

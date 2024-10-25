@@ -33,11 +33,11 @@ if [ -z "$N_EPOCHS" ]; then
 fi
 
 script_dir=$(dirname "$0")
-APP_PUBLIC_PDF_FOLDER="${script_dir}/../app/public/pdf"
-APP_PUBLIC_ABS_FOLDER="${script_dir}/../app/public/abs"
+PDF_DIRECTORY="${script_dir}/../data/pdf"
+ABS_DIRECTORY="${script_dir}/../data/abs"
 
 # List all the pdf files and order them alphabetically
-pdf_files=$(ls -1 "$APP_PUBLIC_PDF_FOLDER" | sort)
+pdf_files=$(ls -1 "$PDF_DIRECTORY" | sort)
 
 # Find start_id and end_id
 start_id=$1
@@ -61,7 +61,7 @@ pdf_files=$(echo "$pdf_files" | tail -n +"$start_index" | head -n "$length")
 # Store all pdf files
 for pdf_file in $pdf_files; do
 
-    walrus_resp=$(walrus json "{\"command\":{\"store\":{\"file\":\"$APP_PUBLIC_PDF_FOLDER/$pdf_file\",\"epochs\":$N_EPOCHS}}}")
+    walrus_resp=$(walrus json "{\"command\":{\"store\":{\"file\":\"$PDF_DIRECTORY/$pdf_file\",\"epochs\":$N_EPOCHS}}}")
     if [ -z "$walrus_resp" ]; then
         echo "Failed to store $pdf_file"
         exit 1
@@ -75,7 +75,7 @@ for pdf_file in $pdf_files; do
     fi
 
     abs_file=$(echo "$pdf_file" | sed 's/pdf/json/')
-    abs_file="$APP_PUBLIC_ABS_FOLDER/$abs_file"
+    abs_file="$ABS_DIRECTORY/$abs_file"
     abs_blob_id=$(cat "$abs_file" | jq -r '.blobId')
     if [ -z "$abs_blob_id" ]; then
         echo "Failed to parse abs file for $pdf_file"

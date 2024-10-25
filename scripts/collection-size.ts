@@ -1,7 +1,7 @@
 import fs from 'fs';
 
 const COLLECTIONS_JSON = '../app/public/collections.json';
-const ABS_DIR = '../app/public/abs';
+const ABS_DIR = '../data/abs';
 
 let collections = JSON.parse(fs.readFileSync(COLLECTIONS_JSON, 'utf8'));
 

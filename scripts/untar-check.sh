@@ -26,11 +26,11 @@ fi
 script_dir=$(dirname "$0")
 # Constants
 TMP_FOLDER="${script_dir}/tmp"
-APP_PUBLIC_PDF_FOLDER="${script_dir}/../app/public/pdf"
+PDF_FOLDER="${script_dir}/../data/pdf"
 
 # Ensure the extract folder exists
 mkdir -p "$TMP_FOLDER"
-mkdir -p "$APP_PUBLIC_PDF_FOLDER"
+mkdir -p "$PDF_FOLDER"
 
 # Run pnpm install in the script directory
 echo "Running pnpm install in ${script_dir}"
@@ -54,7 +54,7 @@ for tar_file in "$@"; do
                 continue
             fi
             # Move the pdf to the public folder
-            mv "$pdf" "$APP_PUBLIC_PDF_FOLDER/$arxiv_id.pdf"
+            mv "$pdf" "$PDF_FOLDER/$arxiv_id.pdf"
         done
     else
         echo "Warning: $tar_file is not a valid file. Skipping."
@@ -63,4 +63,4 @@ for tar_file in "$@"; do
     rmdir "$TMP_FOLDER/$folder_name"
 done
 
-echo "Extraction complete. All allowed pdfs have been extracted to $APP_PUBLIC_PDF_FOLDER"
+echo "Extraction complete. All allowed pdfs have been extracted to $PDF_FOLDER"
