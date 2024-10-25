@@ -110,7 +110,7 @@ for (let i = 1; i < N_FILES; i++) {
     });
 
     // get filesize of corresponding pdf:
-    // const pdfPath = `../../../app/public/pdf/${oaiEntry["id"]}.pdf`;
+    // const pdfPath = `../../../data/pdf/${oaiEntry["id"]}.pdf`;
     // const pdfSize = fs.statSync(pdfPath).size;
 
     const paper = {
@@ -129,8 +129,8 @@ for (let i = 1; i < N_FILES; i++) {
         // objectId
         // pdfSize
     };
-    // write to file in public/abs
-    fs.writeFileSync(`../../../app/public/abs/${MONTH}.${paddedNumber}.json`, JSON.stringify(paper), 'utf8');
+    // write to file in ../data
+    fs.writeFileSync(`../../../data/abs/${MONTH}.${paddedNumber}.json`, JSON.stringify(paper), 'utf8');
 
 }
 

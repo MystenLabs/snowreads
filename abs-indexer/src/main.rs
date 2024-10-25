@@ -5,7 +5,7 @@ use std::io::{BufReader, BufWriter, Write};
 
 use color_eyre::Result;
 use dotenvy::dotenv;
-use remove_public_abs::categories::Categories;
+use abs_indexer::categories::Categories;
 use serde::{Deserialize, Serialize, Serializer};
 
 pub fn serialize_u64_as_string<S>(value: &u64, serializer: S) -> Result<S::Ok, S::Error>

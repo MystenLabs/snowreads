@@ -145,7 +145,7 @@ async function checkPdfBlob(absDirectory: string, pdfDirectory: string) {
 }
 
 const absDirectory = `${__dirname}/../data/abs`;
-const pdfDirectory = `${__dirname}/../data/pdf-bak`;
+const pdfDirectory = `${__dirname}/../data/pdf`;
 const indexFile = `${__dirname}/../app/public/index.json`;
 // checkIndexMetadataAndLicense(absDirectory, indexFile);
 // checkMetadataBlob(indexFile);

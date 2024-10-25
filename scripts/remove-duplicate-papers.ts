@@ -1,7 +1,7 @@
 
 import * as fs from 'fs';
 
-const ABS_DIR = `${__dirname}/../app/public/abs/`
+const ABS_DIR = `${__dirname}/../data/abs/`
 const PAPERS_JSON = `${__dirname}/../app/public/papers.json`
 const NEW_PAPERS_JSON = `${__dirname}/../app/public/new_papers.json`
 
