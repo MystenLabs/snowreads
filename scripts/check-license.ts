@@ -36,7 +36,7 @@ const argv = yargs(hideBin(process.argv))
 
 const arxivId = argv.arxiv_id;
 
-const oaiData = readJsonFile(`${__dirname}/../metadata-mashup/output/combine/oai-metadata.json`);
+const oaiData = readJsonFile(`${__dirname}/../data/oai-metadata.json`);
 const paper = oaiData[arxivId];
 if (!paper) {
     console.log('Not allowed');
