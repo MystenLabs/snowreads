@@ -167,6 +167,7 @@ const LandingPage: React.FC<ILandingPageLayoutProps> = ({
                             .join(", "),
                           link: `/abs/${paper.id}`,
                           arxiv_id: paper.id,
+                          metadataBlobId: paper.metadataBlobId
                         };
 
                         return (
