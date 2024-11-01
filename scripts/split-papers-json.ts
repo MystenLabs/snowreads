@@ -71,7 +71,7 @@ for (const categoryName in allPapers) {
         size: category.size,
         subCategories: []
     });
-    const categoryPart = categoryName.toLowerCase().replace(" ","-");
+    const categoryPart = categoryName.toLowerCase().replaceAll(" ","-");
     fs.mkdirSync(`${__dirname}/../app/public/papers/${categoryPart}`);
 
     for (const subCategoryName in category) {
@@ -79,7 +79,7 @@ for (const categoryName in allPapers) {
             continue;
         }
         const subCategory: SubCategory = category[subCategoryName];
-        const subCategoryPart = subCategoryName.toLowerCase().replace(" ","-") + '.json';
+        const subCategoryPart = subCategoryName.toLowerCase().replaceAll(" ","-") + '.json';
         let newCategory = newPapers.categories.find((newCategory) => newCategory.name === categoryName);
         if (!newCategory) {
             throw new Error(`Something went wrong. Could not find ${categoryName}`);

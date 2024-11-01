@@ -5,53 +5,22 @@ import PaperCardContainer from "../components/categoryListComponents/PaperCardCo
 import { PaperCard } from "../components/categoryListComponents/PaperCard";
 import { Link } from "react-router-dom";
 import { ILandingPageLayoutProps } from "../interfaces/ILandingPageLayoutProps";
-import { ISubCategory } from "../interfaces/IAllPapers";
+import { AllPapers, CategoryWithPapers } from "../interfaces/IAllPapers";
 import { formatBytes } from "../tools/utils";
+import { CategoryArg } from "../layout/landingLayout/LandingPageLayout";
 
 const LandingPage: React.FC<ILandingPageLayoutProps> = ({
-  allCategories,
-  documentsCount,
-  papersSize,
   allPapersData,
+  filledSubCategories,
   allCollectionsData,
+}: {
+  allPapersData: AllPapers;
+  filledSubCategories: CategoryArg[];
+  allCollectionsData: any;
 }) => {
-  type CategoryType =
-    | "Computer Science"
-    | "Physics"
-    | "Mathematics"
-    | "Quantitative Biology"
-    | "Quantitative Finance"
-    | "Statistics"
-    | "Electrical Engineering and Systems Science"
-    | "Economics";
   const [activeCategory, setActiveCategory] =
-    useState<CategoryType>("Computer Science");
+    useState<CategoryWithPapers | undefined>(allPapersData.categories.find((cat) => cat.name === "Computer Science"));
   const [activeCategorySize, setActiveCategorySize] = useState<number>(0);
-  const categories: CategoryType[] = [
-    "Computer Science",
-    "Physics",
-    "Mathematics",
-    "Quantitative Biology",
-    "Quantitative Finance",
-    "Statistics",
-    "Electrical Engineering and Systems Science",
-    "Economics",
-  ];
-  const subcategoriesMap: Record<
-    CategoryType,
-    Record<string, ISubCategory | null>
-  > = {
-    "Computer Science": allCategories.computerScience,
-    Physics: allCategories.physics,
-    Mathematics: allCategories.mathematics,
-    "Quantitative Biology": allCategories.quantitativeBiology,
-    "Quantitative Finance": allCategories.quantitativeFinance,
-    Statistics: allCategories.statistics,
-    "Electrical Engineering and Systems Science":
-      allCategories.electricalEngineeringAndSystemsScience,
-    Economics: allCategories.economics,
-  };
-  const activeSubcategories = subcategoriesMap[activeCategory];
 
   const collectionsSize = allCollectionsData.size;
   const collectionTSEDSize =
@@ -99,7 +68,7 @@ const LandingPage: React.FC<ILandingPageLayoutProps> = ({
 
   useEffect(() => {
     if (!allPapersData) return;
-    setActiveCategorySize(allPapersData[activeCategory].size);
+    setActiveCategorySize(allPapersData.categories.find((cat) => cat.name === activeCategory?.name)!.size);
   }, [activeCategory, activeCategorySize]);
 
   return (
@@ -114,7 +83,7 @@ const LandingPage: React.FC<ILandingPageLayoutProps> = ({
       </p>
       <p className="text-base b-16 pt-10 text-center">
         <span className="font-semibold">
-          {formatBytes(papersSize + collectionsSize)}
+          {formatBytes(allPapersData.size + collectionsSize)} {/* TODO Check: papers in collections should also exist inside allPapersData */}
         </span>{" "}
         of data saved on{" "}
         <span className="text-quaternary font-semibold">Walrus</span>
@@ -157,15 +126,14 @@ const LandingPage: React.FC<ILandingPageLayoutProps> = ({
       </div>
 
       <div className="flex flex-wrap justify-center gap-4 my-4    max-w-[1200px]">
-        {categories.map((category) => (
+        {filledSubCategories.map((catArg) => (
           <button
-            key={category}
-            onClick={() => setActiveCategory(category)}
-            className={`${
-              activeCategory === category ? "bg-tertiary" : "bg-white"
-            } text-black rounded-full px-4 py-2 tx-sm`}
+            key={catArg.categoryName}
+            onClick={() => setActiveCategory(allPapersData.categories.find((cat) => cat.name === catArg.categoryName))}
+            className={`${activeCategory?.name === catArg.categoryName ? "bg-tertiary" : "bg-white"
+              } text-black rounded-full px-4 py-2 tx-sm`}
           >
-            {category}
+            {catArg.categoryName}
           </button>
         ))}
         <div className="absolute lg:top-[35%] lg:right-[20%] md:top-[40%] md:right-[2%] transform -translate-y-1/2 z-[-10] hidden md:block max-w-[1100px]">
@@ -179,20 +147,20 @@ const LandingPage: React.FC<ILandingPageLayoutProps> = ({
 
       <div className="container mx-auto p-4 max-w-[1200px]">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-          {Object.entries(activeSubcategories).map(
-            ([subCategoryName, subCategoryData]) =>
-              subCategoryData ? (
+          {filledSubCategories.find((cat) => cat.categoryName === activeCategory?.name)?.subCategories.map(
+            (subCategoryName) =>
+              allPapersData.categories.find((cat) => cat.name == activeCategory?.name)?.subCategories.find((subCat) => subCat.name === subCategoryName) ? (
                 <PaperCardContainer
                   key={subCategoryName}
-                  category={activeCategory}
+                  category={activeCategory?.name}
                   cardTitle={camelCaseToWords(subCategoryName)}
                   hasActionButton={true}
-                  count={subCategoryData.count}
-                  size={subCategoryData.size}
+                  count={allPapersData.categories.find((cat) => cat.name == activeCategory?.name)?.subCategories.find((subCat) => subCat.name === subCategoryName)?.count}
+                  size={allPapersData.categories.find((cat) => cat.name == activeCategory?.name)?.subCategories.find((subCat) => subCat.name === subCategoryName)?.size}
                   maxHeight="600px"
                 >
-                  {subCategoryData.papers.length > 0 ? (
-                    subCategoryData.papers
+                  {allPapersData.categories.find((cat) => cat.name == activeCategory?.name)!.subCategories.find((subCat) => subCat.name === subCategoryName)!.papers.length > 0 ? (
+                    allPapersData.categories.find((cat) => cat.name == activeCategory?.name)!.subCategories.find((subCat) => subCat.name === subCategoryName)!.papers
                       .sort((lhs, rhs) => rhs.timestamp - lhs.timestamp) // Sort by timestamp
                       .map((paper) => {
                         // Map the IPaperTrimmed to the expected format
@@ -228,12 +196,12 @@ const LandingPage: React.FC<ILandingPageLayoutProps> = ({
           <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center space-y-4 sm:space-y-0">
             <Link
               className="text-base font-medium"
-              to={`/category/${activeCategory}`}
+              to={`/category/${activeCategory?.name}`}
             >
-              View all in {activeCategory}
+              View all in {activeCategory?.name}
             </Link>
             <div className="text-sm font-medium text-gray-600 sm:text-right">
-              {documentsCount[activeCategory].count} Documents,{" "}
+              {allPapersData.categories.find((cat) => cat.name == activeCategory?.name)?.count} Documents,{" "}
               {formatBytes(activeCategorySize)}
             </div>
           </div>
