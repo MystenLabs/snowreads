@@ -3,7 +3,7 @@ export interface IPaperTrimmed {
   title: string;
   authorsParsed: string[][];
   timestamp: number;
-  metadataBlobId?: string | null;
+  metadataBlobId: string;
 }
 
 export interface ISubCategory {
