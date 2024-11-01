@@ -61,11 +61,6 @@ const LandingPage: React.FC<ILandingPageLayoutProps> = ({
     setIsPopupOpen((prev) => !prev);
   };
 
-  function camelCaseToWords(s: string) {
-    const result = s.replace(/([A-Z])/g, " $1");
-    return result.charAt(0).toUpperCase() + result.slice(1);
-  }
-
   useEffect(() => {
     if (!allPapersData) return;
     setActiveCategorySize(allPapersData.categories.find((cat) => cat.name === activeCategory?.name)!.size);
@@ -153,7 +148,7 @@ const LandingPage: React.FC<ILandingPageLayoutProps> = ({
                 <PaperCardContainer
                   key={subCategoryName}
                   category={activeCategory?.name}
-                  cardTitle={camelCaseToWords(subCategoryName)}
+                  cardTitle={subCategoryName}
                   hasActionButton={true}
                   count={allPapersData.categories.find((cat) => cat.name == activeCategory?.name)?.subCategories.find((subCat) => subCat.name === subCategoryName)?.count}
                   size={allPapersData.categories.find((cat) => cat.name == activeCategory?.name)?.subCategories.find((subCat) => subCat.name === subCategoryName)?.size}

@@ -4,11 +4,6 @@ import { useEffect, useState } from "react";
 import { AllPapers, IPaperTrimmed } from "../../interfaces/IAllPapers";
 import { Spinner } from "../../components/common/Spinner";
 
-async function fetchPapersForSubCategory(path: string): Promise<IPaperTrimmed[]> {
-  const resp = await fetch(path);
-  return await resp.json();
-}
-
 export type CategoryArg = {
   categoryName: string;
   subCategories: string[]
@@ -79,6 +74,12 @@ const LANDING_PAGE_CATEGORIES: CategoryArg[] = [{
   ]
 }];
 
+async function fetchPapersForSubCategory(path: string): Promise<IPaperTrimmed[]> {
+  const resp = await fetch(path);
+  return await resp.json();
+}
+
+// This fills all papers for every category in LANDING_PAGE_CATEGORIES.
 async function updateAllPapers(allPapers: AllPapers) {
   let promises = [];
   for (const catArg of LANDING_PAGE_CATEGORIES) {

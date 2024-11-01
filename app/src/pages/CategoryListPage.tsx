@@ -5,38 +5,39 @@ import SidebarNav from "../components/common/SideNavbar";
 import { ICategoryListPageProps } from "../interfaces/ICategoryListPageProps";
 import MobileNavigationBar from "../components/common/MobileNavigationBar";
 import { useParams, useNavigate } from "react-router-dom";
-import { IAllPapers, IPaperTrimmed } from "../interfaces/IAllPapers";
+import { AllPapers, IPaperTrimmed } from "../interfaces/IAllPapers";
 import { Spinner } from "../components/common/Spinner";
 import { formatBytes } from "../tools/utils";
 import InformationPopup from "../components/landingComponents/InformationPopup";
 
-// Helper function to find the correct case-sensitive subcategory name
-const findCorrectSubCategoryName = (
-  subcategoryFromParams: string,
-  categoryData: Record<string, any>
-): string | null => {
-  const subcategories = Object.keys(categoryData).filter(
-    (sub) => sub !== "count" && sub !== "size"
-  );
 
-  // Normalize case and find the correct subcategory name
-  const correctSubCategory = subcategories.find(
-    (sub) => sub.toLowerCase() === subcategoryFromParams.toLowerCase()
-  );
+async function fetchPapersForSubCategory(path: string): Promise<IPaperTrimmed[]> {
+  const resp = await fetch(path);
+  return await resp.json();
+}
 
-  return correctSubCategory || null; // Return the correct case or null if not found
-};
+// This fills all papers for every category.
+async function updateSubCategoryPapers(allPapers: AllPapers, category: string, subCategory: string) {
+  const cat = allPapers.categories.find((cat) => cat.name === category);
+  if (!cat) {
+    throw `Category ${category} not found`;
+  }
+  const subCat = cat.subCategories.find((subCat) => subCat.name === subCategory);
+  if (!subCat) {
+    throw `SubCategory ${category}->${subCategory} not found`;
+  }
+  const dataPath = subCat.data;
+  subCat.papers = await fetchPapersForSubCategory(dataPath);
+}
 
 const CategoryListPage: React.FC<ICategoryListPageProps> = ({ label }) => {
   const [activeTab, setActiveTab] = useState("DOCUMENTS");
   const [activeCategorySize, setActiveCategorySize] = useState<number>(0);
   const [activeCategoryCount, setActiveCategoryCount] = useState<number>(0);
-  const { category, subcategory } = useParams();
+  let { category, subcategory } = useParams();
   const navigate = useNavigate(); // To navigate to the default subcategory URL if missing
   const [papers, setPapers] = useState<IPaperTrimmed[]>([]);
-  const [allCategories, setAllCategories] = useState<IAllPapers>(
-    {} as IAllPapers
-  );
+  const [allCategories, setAllCategories] = useState<AllPapers | null>(null);
   const [correctSubcategory, setCorrectSubcategory] = useState<string | null>(
     null
   );
@@ -55,50 +56,40 @@ const CategoryListPage: React.FC<ICategoryListPageProps> = ({ label }) => {
         }
         throw response;
       })
-      .then((data) => {
-        setAllCategories(data);
-        setActiveCategorySize(data[category!].size);
-        setActiveCategoryCount(data[category!].count);
+      .then(async (data: AllPapers) => {
 
-        if (category) {
-          let chosenSubcategory = subcategory;
-
-          // If no subcategory is provided, use the first available one
-          if (!subcategory) {
-            const subcategories = Object.keys(data[category]).filter(
-              (sub) => sub !== "count" && sub !== "size"
-            );
-            const sortedSubcategories = subcategories.sort();
-            if (subcategories.length > 0) {
-              chosenSubcategory = sortedSubcategories[0];
-              // Navigate to the URL with the first subcategory
-              navigate(`/category/${category}/${chosenSubcategory}`, {
-                replace: true,
-              });
-            }
-          }
-
-          if (chosenSubcategory) {
-            // Find the correct case-sensitive subcategory name
-            const correctSubcategory = findCorrectSubCategoryName(
-              chosenSubcategory,
-              data[category]
-            );
-            setCorrectSubcategory(correctSubcategory);
-
-            if (correctSubcategory) {
-              const fetchedPapers =
-                data[category][correctSubcategory]?.papers || [];
-              setPapers(fetchedPapers);
-              setActiveSubcategorySize(
-                data[category][correctSubcategory]?.size
-              );
-            } else {
-              console.error(`Subcategory "${chosenSubcategory}" not found.`);
-              setPapers([]); // Set papers to empty array if no match is found
-            }
-          }
+        if (!category) {
+          category = "Astrophysics"
         }
+        const cat = data.categories.find((cat) => cat.name === category);
+        if (!cat) {
+          throw `Category ${cat} not found`;
+        }
+        setActiveCategorySize(cat?.size ?? 0);
+        setActiveCategoryCount(cat?.count ?? 0);
+
+        // If no subcategory is provided, use the first available one
+        if (!subcategory) {
+          const sortedSubCats = cat.subCategories.sort((lhs, rhs) => lhs.name.localeCompare(rhs.name));
+          subcategory = sortedSubCats[0].name;
+        }
+        if (!subcategory) {
+          throw `Category ${category} did not have any subcategories`;
+        }
+        // Find the correct case-sensitive subcategory name
+        const found = cat.subCategories.find((subCat) => subCat.name.toLowerCase() === subcategory!.toLowerCase().trim());
+        if (!found) {
+          throw `SubCategory: ${category}/${subcategory} not found`;
+        }
+
+        setCorrectSubcategory(found.name);
+        setActiveSubcategorySize(
+          found.size
+        );
+        // This will fill the desired sub-category papers
+        await updateSubCategoryPapers(data, category, found.name);
+        setAllCategories(data);
+        setPapers(found.papers); // Now found has been updated to include papers
         setLoading(false); // Stop loading after fetching
       })
       .catch((error) => {
@@ -125,21 +116,19 @@ const CategoryListPage: React.FC<ICategoryListPageProps> = ({ label }) => {
             </p>
             <div className="flex justify-center space-x-4">
               <button
-                className={`px-4 py-2 rounded-full ${
-                  activeTab === "DOCUMENTS"
-                    ? "bg-tertiary text-black"
-                    : "bg-white text-black"
-                }`}
+                className={`px-4 py-2 rounded-full ${activeTab === "DOCUMENTS"
+                  ? "bg-tertiary text-black"
+                  : "bg-white text-black"
+                  }`}
                 onClick={() => setActiveTab("DOCUMENTS")}
               >
                 Documents
               </button>
               <button
-                className={`px-4 py-2 rounded-full ${
-                  activeTab === "ABOUT"
-                    ? "bg-tertiary text-black"
-                    : "bg-white text-black"
-                }`}
+                className={`px-4 py-2 rounded-full ${activeTab === "ABOUT"
+                  ? "bg-tertiary text-black"
+                  : "bg-white text-black"
+                  }`}
                 onClick={() => setActiveTab("ABOUT")}
               >
                 About
@@ -150,17 +139,15 @@ const CategoryListPage: React.FC<ICategoryListPageProps> = ({ label }) => {
           {/* Displaying this section when "Documents" tab is active */}
           {activeTab === "DOCUMENTS" && (
             <div className="flex w-full py-6 lg:max-w-[1100px]">
-              {category && allCategories[category as keyof IAllPapers] && (
+              {category && allCategories?.categories.find((cat) => cat.name === category) && (
                 <SidebarNav
                   mode="fetch"
-                  sections={Object.keys(
-                    allCategories[category as keyof IAllPapers] || {}
-                  )
-                    .filter((sub) => sub !== "count" && sub !== "size")
-                    .sort((a, b) => a.localeCompare(b)) // Alphabetically sort categories
+                  sections={
+                    allCategories.categories.find((cat) => cat.name == category)!.subCategories
+                    .sort((a, b) => a.name.localeCompare(b.name)) // Alphabetically sort categories
                     .map((subCategory) => ({
-                      id: subCategory,
-                      label: subCategory,
+                      id: subCategory.name,
+                      label: subCategory.name,
                     }))}
                   label={label}
                   initialActive={correctSubcategory!}
@@ -177,14 +164,12 @@ const CategoryListPage: React.FC<ICategoryListPageProps> = ({ label }) => {
                   mode="fetch"
                   label="CATEGORIES"
                   initialActive={correctSubcategory!}
-                  options={Object.keys(
-                    allCategories[category as keyof IAllPapers] || {}
-                  )
-                    .filter((sub) => sub !== "count" && sub !== "size")
-                    .sort((a, b) => a.localeCompare(b)) // Alphabetically sort categories
+                  options={
+                    allCategories!.categories.find((cat) => cat.name == category)!.subCategories
+                    .sort((a, b) => a.name.localeCompare(b.name)) // Alphabetically sort categories
                     .map((subCategory) => ({
-                      id: subCategory,
-                      label: subCategory,
+                      id: subCategory.name,
+                      label: subCategory.name,
                     }))}
                 />
                 <PaperCardContainer
@@ -230,10 +215,10 @@ const CategoryListPage: React.FC<ICategoryListPageProps> = ({ label }) => {
                 This category includes {activeCategoryCount} papers with a total
                 size of {formatBytes(activeCategorySize)} stored on Walrus.
                 <br />
-                ​All papers are available under Creative Commons (CC) licenses.
+                All papers are available under Creative Commons (CC) licenses.
                 <br />
                 <br />
-                ​Thank you to{" "}
+                Thank you to{" "}
                 <span className="text-quaternary">
                   <a
                     href="https://arxiv.org/"
