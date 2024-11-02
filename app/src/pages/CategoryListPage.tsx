@@ -190,6 +190,7 @@ const CategoryListPage: React.FC<ICategoryListPageProps> = ({ label }) => {
                             .join(", "),
                           link: `/abs/${paper.id}`,
                           arxiv_id: paper.id,
+                          metadataBlobId: paper.metadataBlobId
                         };
 
                         return (

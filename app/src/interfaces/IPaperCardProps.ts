@@ -5,6 +5,7 @@ export interface IPaperCardProps {
     authors: string;
     link: string;
     arxiv_id: string;
+    metadataBlobId?: string | null;
   };
   hasVisibleIcon?: boolean;
 }

@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { IPaperCardProps } from "../../interfaces/IPaperCardProps";
 
 export const PaperCard: React.FC<IPaperCardProps> = ({
@@ -12,29 +13,31 @@ export const PaperCard: React.FC<IPaperCardProps> = ({
   const isComplexMathTitle = mathSymbolsCount > 13 || underscoreCount > 3;
 
   return (
-    <a href={paper.link} className="block bg-secondary p-4 my-2 rounded-md">
-      <div className="flex space-x-4 items-start">
-        {/* <span className="text-sm font-medium">{index + 1}.</span> */}
-        {hasVisibleIcon ? (
-          <img
-            src="/paper_icon.png"
-            className="w-10 h-10 md:w-12 md:h-12 lg:w-16 lg:h-16"
-            alt="Paper Icon"
-          />
-        ) : null}
-        <div className="flex-1">
-          <p className="text-gray-500 text-xs">{paper.arxiv_id}</p>
-          <h2
-            className={`text-sm sm:text-base font-medium ${
-              isComplexMathTitle ? "break-all" : "break-words"
+  <Link
+    to={paper.link}
+    state={{ metadataBlobId: paper.metadataBlobId }}
+    className="block bg-secondary p-4 my-2 rounded-md">
+    <div className="flex space-x-4 items-start">
+      {/* <span className="text-sm font-medium">{index + 1}.</span> */}
+      {hasVisibleIcon ? (
+        <img
+          src="/paper_icon.png"
+          className="w-10 h-10 md:w-12 md:h-12 lg:w-16 lg:h-16"
+          alt="Paper Icon"
+        />
+      ) : null}
+      <div className="flex-1">
+        <p className="text-gray-500 text-xs">{paper.arxiv_id}</p>
+        <h2
+          className={`text-sm sm:text-base font-medium ${isComplexMathTitle ? "break-all" : "break-words"
             } max-w-full`}
-          >
-            {paper.title}
-          </h2>
+        >
+          {paper.title}
+        </h2>
 
-          <p className="text-gray-500 text-xs">{paper.authors}</p>
-        </div>
+        <p className="text-gray-500 text-xs">{paper.authors}</p>
       </div>
-    </a>
+    </div>
+  </Link>
   );
 };

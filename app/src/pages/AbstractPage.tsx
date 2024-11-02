@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { useLocation } from "react-router-dom";
 import SidebarNav from "../components/common/SideNavbar";
 import PaperAbstract from "../components/paperComponents/PaperAbstract";
 import { Spinner } from "../components/common/Spinner";
@@ -8,6 +9,8 @@ import ViewPDFButton from "../components/paperComponents/ViewPDFButton";
 import WalrusMetadataContainer from "../components/paperComponents/WalrusMetadataContainer";
 
 const AbstractPage: React.FC<IAbstractPageProps> = ({ arxiv_id }) => {
+  const location = useLocation();
+  let metadataBlobId = location.state?.metadataBlobId;
   const [paperData, setPaperData] = useState<any>(null);
   const [isLoading, setIsLoading] = useState(true);
   const [submissionAndUpdateText, setSubmissionAndUpdateText] = useState<
@@ -37,10 +40,16 @@ const AbstractPage: React.FC<IAbstractPageProps> = ({ arxiv_id }) => {
         // console.log("response:");
         // console.log(response);
 
-        const index_resp = await fetch("/index.json");
-        const index = await index_resp.json();
-        const withUnderscore = arxiv_id.replace(".", "_");
-        const metadataBlobId = index[withUnderscore];
+        if (!metadataBlobId) {
+          console.log("No state.metadataBlobId");
+          console.log("Fetching index.js");
+          const index_resp = await fetch("/index.json");
+          const index = await index_resp.json();
+          const withUnderscore = arxiv_id.replace(".", "_");
+          metadataBlobId = index[withUnderscore];
+        } else {
+          console.log("state.metadataBlobId already provided");
+        }
         console.log(metadataBlobId);
         const response = await fetch(
           `https://aggregator.walrus-testnet.walrus.space/v1/${metadataBlobId}`
