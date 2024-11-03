@@ -42,7 +42,7 @@ const Footer: React.FC = () => {
             className="w-7 h-7 hover:opacity-80"
           />
         </a>
-        {/* <a
+        <a
           href="https://github.com/MystenLabs/wal-papers"
           aria-label="GitHub"
           target="_blank"
@@ -53,7 +53,7 @@ const Footer: React.FC = () => {
             alt="GitHub logo"
             className="w-6 h-6 hover:opacity-80"
           />
-        </a> */}
+        </a>
       </div>
     </footer>
   );
