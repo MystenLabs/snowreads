@@ -253,9 +253,7 @@ const LandingPage: React.FC = () => {
         Curated collections of scientific papers stored on Walrus.
       </p>
       <p className="text-base b-16 pt-10 text-center">
-        <span className="font-semibold">
-          {formatBytes(allPapersData.size + allCollectionsData.size)}
-        </span>{" "}
+        <span className="font-semibold">{formatBytes(allPapersData.size)}</span>{" "}
         of data saved on{" "}
         <span className="text-quaternary font-semibold">Walrus</span>
       </p>
