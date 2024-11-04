@@ -137,7 +137,6 @@ const TOSPage: React.FC = () => {
             using the Services, you acknowledge and agree to the following:
             <br />
           </p>
-          {/* TODO */}
           <p className="text-gray-600 mb-6 text-left">
             (1) Mysten Labs disclaims all warranties, whether express, implied,
             or statutory, including but not limited to any warranties of
