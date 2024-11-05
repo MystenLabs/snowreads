@@ -1,5 +1,5 @@
 /data
-!/data/abs
+!/data/abs/**/*.json
 !/data/oai-metadata.json
 !/data/arxiv_src_manifest.xml
 !/data/arxiv_pdf_manifest.xml
