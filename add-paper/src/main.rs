@@ -1,3 +1,4 @@
+use std::collections::HashMap;
 use std::env;
 use std::fs::{self, File};
 use std::io::{BufReader, BufWriter, Write};
@@ -14,7 +15,6 @@ use color_eyre::eyre::{eyre, OptionExt};
 use color_eyre::Result;
 use dotenvy::dotenv;
 use serde::{Deserialize, Serialize, Serializer};
-use tokio::io::BufWriter;
 use xml2json_rs::JsonBuilder;
 
 pub fn serialize_u64_as_string<S>(value: &u64, serializer: S) -> Result<S::Ok, S::Error>
@@ -56,7 +56,7 @@ fn get_blob_id(file_path: &str) -> Result<BlobIdResponse> {
     let output = Command::new("walrus")
         .args([
             "json",
-            &format!(r#"'{{"command":{{"blobId":{{"file":"{file_path}"}}}}}}"#), // Use .arg to pass arguments
+            &format!(r#"{{"command":{{"blobId":{{"file":"{file_path}"}}}}}}"#),
         ])
         .output()?;
 
@@ -275,6 +275,21 @@ async fn main() -> Result<()> {
     writer.flush()?;
     let metadata_blob_id = get_blob_id(&file_path)?.blob_id;
 
+    // Update index
+    let file = File::open(&format!("{public_directory}/index.json"))?;
+    let mut index: HashMap<String, String> = serde_json::from_reader(BufReader::new(file))?;
+    let with_underscore = arxiv_id.clone().replace(".", "_");
+    index.insert(with_underscore, metadata_blob_id.clone());
+    let new_index_file = File::create(format!("{public_directory}/new_index.json"))?;
+    let mut writer = BufWriter::new(new_index_file);
+    serde_json::to_writer(&mut writer, &index)?;
+    writer.flush()?;
+    fs::remove_file(format!("{public_directory}/index.json"))?;
+    fs::rename(
+        format!("{public_directory}/new_index.json"),
+        format!("{public_directory}/index.json"),
+    )?;
+
     let file = File::open(format!("{public_directory}/collections.json"))?;
     let mut collections: Collections = serde_json::from_reader(BufReader::new(file))?;
 
@@ -327,9 +342,11 @@ async fn main() -> Result<()> {
         .find(|sub_cat| sub_cat.name == child_category)
         .ok_or_eyre("Child category not found in papers.json")?;
 
+    let par_cat_lower = parent_category.name.to_lowercase().replace(" ", "_");
+    let child_cat_lower = child_category.name.to_lowercase().replace(" ", "_");
     let sub_cat_path = format!(
-        "{public_directory}/{}/{}.json",
-        parent_category.name, child_category.name
+        "{public_directory}/papers/{}/{}.json",
+        par_cat_lower, child_cat_lower
     );
     let sub_cat_file = File::open(sub_cat_path.clone())?;
     let mut papers: Vec<Paper> = serde_json::from_reader(BufReader::new(sub_cat_file))?;
@@ -340,8 +357,8 @@ async fn main() -> Result<()> {
     println!("Updating papers.json...");
     papers.push(paper);
     let new_sub_cat_path = format!(
-        "{public_directory}/{}/{}_new.json",
-        parent_category.name, child_category.name
+        "{public_directory}/papers/{}/{}_new.json",
+        par_cat_lower, child_cat_lower
     );
     let new_sub_cat_file = File::create(new_sub_cat_path.clone())?;
     let mut writer = BufWriter::new(new_sub_cat_file);

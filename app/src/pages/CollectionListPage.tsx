@@ -125,9 +125,11 @@ const CollectionListPage: React.FC<ICategoryListPageProps> = ({
                   <Spinner />
                 ) : (
                   <div className="md:-mt-6 ">
+                  {wavBlobId !== "defaultBlobId" && 
                     <AudioSummaryContainer
                       src={`https://aggregator.walrus-testnet.walrus.space/v1/${wavBlobId}`}
                     />
+                  }
                     <PaperCardContainer
                       cardTitle={`${activeCollection?.papers.length} Documents, ${formatBytes(
                         activeSubcategorySize
@@ -155,6 +157,7 @@ const CollectionListPage: React.FC<ICategoryListPageProps> = ({
                                   .map((author: any[]) => author.join(" "))
                                   .join(", "),
                                 link: `/abs/${paper.id}`,
+                                metadataBlobId: paper.metadataBlobId,
                                 arxiv_id: paper.id,
                               };
 

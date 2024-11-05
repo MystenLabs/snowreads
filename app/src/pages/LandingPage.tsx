@@ -240,6 +240,12 @@ const LandingPage: React.FC = () => {
       documents: allCollectionsData["Is AI Fun"].count,
       size: allCollectionsData["Is AI Fun"].size,
     },
+    {
+      icon: "/comp_sci_icon.png",
+      title: "MystenLabs",
+      documents: allCollectionsData["MystenLabs"].count,
+      size: allCollectionsData["MystenLabs"].size,
+    },
   ];
 
   return (
