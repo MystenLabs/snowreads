@@ -242,9 +242,9 @@ const LandingPage: React.FC = () => {
     },
     {
       icon: "/comp_sci_icon.png",
-      title: "MystenLabs",
-      documents: allCollectionsData["MystenLabs"].count,
-      size: allCollectionsData["MystenLabs"].size,
+      title: "Mysten Labs Papers",
+      documents: allCollectionsData["Mysten Labs Papers"].count,
+      size: allCollectionsData["Mysten Labs Papers"].size,
     },
   ];
 
