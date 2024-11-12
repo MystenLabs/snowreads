@@ -25,6 +25,7 @@ pub struct Paper {
     pub title: String,
     pub authors_parsed: Vec<Vec<String>>,
     pub timestamp: u64,
+    pub metadata_blob_id: Option<String>
 }
 
 impl PartialEq for Paper {

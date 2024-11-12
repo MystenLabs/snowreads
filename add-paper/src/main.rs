@@ -1,6 +1,8 @@
+use std::collections::HashMap;
 use std::env;
 use std::fs::{self, File};
 use std::io::{BufReader, BufWriter, Write};
+use std::process::Command;
 
 use add_paper::arxiv::Entry;
 use add_paper::categories::Categories;
@@ -12,7 +14,7 @@ use clap::Parser;
 use color_eyre::eyre::{eyre, OptionExt};
 use color_eyre::Result;
 use dotenvy::dotenv;
-use serde::{Serialize, Serializer};
+use serde::{Deserialize, Serialize, Serializer};
 use xml2json_rs::JsonBuilder;
 
 pub fn serialize_u64_as_string<S>(value: &u64, serializer: S) -> Result<S::Ok, S::Error>
@@ -42,6 +44,33 @@ struct AbsJson {
     pdf_size: u64,
 }
 
+#[derive(Debug, Clone, Deserialize)]
+#[serde(rename_all = "camelCase")]
+struct BlobIdResponse {
+    pub blob_id: String,
+    pub file: String,
+    pub unencoded_length: u64,
+}
+
+fn get_blob_id(file_path: &str) -> Result<BlobIdResponse> {
+    let output = Command::new("walrus")
+        .args([
+            "json",
+            &format!(r#"{{"command":{{"blobId":{{"file":"{file_path}"}}}}}}"#),
+        ])
+        .output()?;
+
+    // Check if the command was successful
+    if output.status.success() {
+        Ok(serde_json::from_str(&String::from_utf8_lossy(
+            &output.stdout,
+        ))?)
+    } else {
+        let stderr = String::from_utf8_lossy(&output.stderr).to_string();
+        Err(eyre!(stderr))
+    }
+}
+
 fn read_oai_json_file(file_path: &str) -> Result<Vec<OAIEntry>> {
     // Open the file
     let file = File::open(file_path)?;
@@ -59,6 +88,7 @@ impl<'a> Into<Paper> for &'a AbsJson {
             title: self.title.clone(),
             authors_parsed: self.authors_parsed.clone(),
             timestamp: self.timestamp.clone(),
+            metadata_blob_id: None,
         }
     }
 }
@@ -218,10 +248,12 @@ async fn main() -> Result<()> {
     let license = oai_json
         .license
         .expect(&format!("Did not find license for paper {arxiv_id}"));
-    // let blob_id =
-    let pdf_size = std::fs::metadata(format!("{pdf_directory}/{arxiv_id}.pdf"))?.len();
+
+    let pdf_file_path = format!("{pdf_directory}/{arxiv_id}.pdf");
+    let blob_id = get_blob_id(&pdf_file_path)?.blob_id;
+    let pdf_size = std::fs::metadata(pdf_file_path)?.len();
     let abs_json = AbsJson {
-        id: arxiv_id,
+        id: arxiv_id.clone(),
         title,
         authors,
         authors_parsed,
@@ -231,10 +263,32 @@ async fn main() -> Result<()> {
         abstract_,
         subjects,
         license,
-        blob_id: None,
+        blob_id: Some(blob_id),
         pdf_size,
     };
-    // println!("{}", serde_json::to_string(&abs_json)?);
+
+    // Store abs
+    let file_path = format!("{abs_directory}/{}.json", abs_json.id);
+    let file = File::create(&file_path)?;
+    let mut writer = BufWriter::new(file);
+    serde_json::to_writer(&mut writer, &abs_json)?;
+    writer.flush()?;
+    let metadata_blob_id = get_blob_id(&file_path)?.blob_id;
+
+    // Update index
+    let file = File::open(&format!("{public_directory}/index.json"))?;
+    let mut index: HashMap<String, String> = serde_json::from_reader(BufReader::new(file))?;
+    let with_underscore = arxiv_id.clone().replace(".", "_");
+    index.insert(with_underscore, metadata_blob_id.clone());
+    let new_index_file = File::create(format!("{public_directory}/new_index.json"))?;
+    let mut writer = BufWriter::new(new_index_file);
+    serde_json::to_writer(&mut writer, &index)?;
+    writer.flush()?;
+    fs::remove_file(format!("{public_directory}/index.json"))?;
+    fs::rename(
+        format!("{public_directory}/new_index.json"),
+        format!("{public_directory}/index.json"),
+    )?;
 
     let file = File::open(format!("{public_directory}/collections.json"))?;
     let mut collections: Collections = serde_json::from_reader(BufReader::new(file))?;
@@ -246,7 +300,9 @@ async fn main() -> Result<()> {
     }
     let collection = collections.collections.get_mut(&collection_name).unwrap();
 
-    let paper: Paper = (&abs_json).into();
+    let mut paper: Paper = (&abs_json).into();
+    paper.metadata_blob_id = Some(metadata_blob_id);
+
     let new = collection.papers.insert(paper.clone());
     if new {
         println!("Adding paper to collections.json...");
@@ -271,19 +327,43 @@ async fn main() -> Result<()> {
     let mut categories_json: Categories = serde_json::from_reader(BufReader::new(file))?;
 
     let parent_category = categories_json
-        .parent_categories
-        .get_mut(&parent_category)
+        .categories
+        .iter_mut()
+        .find(|cat| cat.name == parent_category)
         .ok_or_eyre("Parent category not found in papers.json")?;
+    // .find(|p_cat| {
+    //     false
+    // })
+    //     p_cat.
+    // .get_mut(&parent_category)
     let child_category = parent_category
-        .child_categories
-        .get_mut(&child_category)
+        .sub_categories
+        .iter_mut()
+        .find(|sub_cat| sub_cat.name == child_category)
         .ok_or_eyre("Child category not found in papers.json")?;
-    if child_category.papers.contains(&paper) {
+
+    let par_cat_lower = parent_category.name.to_lowercase().replace(" ", "_");
+    let child_cat_lower = child_category.name.to_lowercase().replace(" ", "_");
+    let sub_cat_path = format!(
+        "{public_directory}/papers/{}/{}.json",
+        par_cat_lower, child_cat_lower
+    );
+    let sub_cat_file = File::open(sub_cat_path.clone())?;
+    let mut papers: Vec<Paper> = serde_json::from_reader(BufReader::new(sub_cat_file))?;
+    if papers.iter().find(|paper| paper.id == arxiv_id).is_some() {
         println!("Paper already exists in papers.json");
         return Ok(());
     }
     println!("Updating papers.json...");
-    child_category.papers.insert(paper);
+    papers.push(paper);
+    let new_sub_cat_path = format!(
+        "{public_directory}/papers/{}/{}_new.json",
+        par_cat_lower, child_cat_lower
+    );
+    let new_sub_cat_file = File::create(new_sub_cat_path.clone())?;
+    let mut writer = BufWriter::new(new_sub_cat_file);
+    serde_json::to_writer(&mut writer, &papers)?;
+    writer.flush()?;
     child_category.count += 1;
     child_category.size += abs_json.pdf_size;
     parent_category.count += 1;
@@ -295,16 +375,14 @@ async fn main() -> Result<()> {
     serde_json::to_writer(&mut writer, &categories_json)?;
     writer.flush()?;
 
+    fs::remove_file(sub_cat_path.clone())?;
+    fs::rename(new_sub_cat_path, sub_cat_path)?;
+
     fs::remove_file(format!("{public_directory}/papers.json"))?;
     fs::rename(
         format!("{public_directory}/new_papers.json"),
         format!("{public_directory}/papers.json"),
     )?;
 
-    // Store abs
-    let file = File::create(&format!("{abs_directory}/{}.json", abs_json.id))?;
-    let mut writer = BufWriter::new(file);
-    serde_json::to_writer(&mut writer, &abs_json)?;
-    writer.flush()?;
     Ok(())
 }

@@ -240,6 +240,12 @@ const LandingPage: React.FC = () => {
       documents: allCollectionsData["Is AI Fun"].count,
       size: allCollectionsData["Is AI Fun"].size,
     },
+    {
+      icon: "/mysten_labs_research_icon.svg",
+      title: "Mysten Labs Research",
+      documents: allCollectionsData["Mysten Labs Research"].count,
+      size: allCollectionsData["Mysten Labs Research"].size,
+    },
   ];
 
   return (
@@ -258,13 +264,11 @@ const LandingPage: React.FC = () => {
         <span className="text-quaternary font-semibold">Walrus</span>
       </p>
       <p className="text-base pb-10 text-center">
-        SnowReads is published on Walrus Sites.{" "}
-        <span
-          className="text-gray-500 hover:cursor-pointer whitespace-nowrap"
-          onClick={toggleInformationPopup}
-        >
-          Learn more.
-        </span>
+        SnowReads is published on{" "}
+        <u className="hover:cursor-pointer" onClick={toggleInformationPopup}>
+          Walrus Sites
+        </u>
+        .
       </p>
 
       <div className="pb-10 flex flex-col items-center">
@@ -275,7 +279,7 @@ const LandingPage: React.FC = () => {
         </h1>
       </div>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 w-full px-4 sm:px-8 md:px-12 lg:px-0 lg:max-w-[1100px] pb-10">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-5 w-full px-4 sm:px-8 md:px-12 max-w-[1024px] pb-10">
         {collections.map((item, index) => (
           <CategoryCard
             key={index}
@@ -310,7 +314,7 @@ const LandingPage: React.FC = () => {
             {catArg.categoryName}
           </button>
         ))}
-        <div className="absolute lg:top-[35%] lg:right-[20%] md:top-[40%] md:right-[2%] transform -translate-y-1/2 z-[-10] hidden md:block max-w-[1100px]">
+        <div className="absolute lg:top-[40%] lg:right-[20%] md:top-[40%] md:right-[2%] transform -translate-y-1/2 z-[-10] hidden md:block max-w-[1100px]">
           <img
             src="/walrus_avatar.png"
             alt="Background"

@@ -34,12 +34,18 @@ const CategoryCard: React.FC<ICategoryCardProps> = ({
           style={{ backgroundImage: `url('/globe_bg.png')` }}
         />
       )}
-
+      {title === "Mysten Labs Research" && (
+        <div
+          className="absolute bottom-[-6px] right-[-42px] w-[180px] h-[180px] bg-no-repeat bg-contain"
+          style={{ backgroundImage: `url('/mysten_labs_research_bg_img.svg')` }}
+        />
+      )}
+        
       <div className="flex py-2">
         <div className="w-11 h-11 rounded-lg bg-teal-100 flex items-center justify-center mr-4">
           <img src={icon} alt={`${title} icon`} className="w-5 h-5" />
         </div>
-        <div className="text-left max-w-[80%]">
+        <div className="text-left max-w-[70%]">
           <p className="text-xl font-semibold text-gray-800  ">{title}</p>
         </div>
       </div>

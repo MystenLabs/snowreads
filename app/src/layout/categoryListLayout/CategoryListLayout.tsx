@@ -27,6 +27,10 @@ const CategoryListLayout: React.FC<ICategoryListLayout> = ({ label }) => {
                 id: "Is AI Fun",
                 label: "Is AI Fun",
               },
+              {
+                id: "Mysten Labs Research",
+                label: "Mysten Labs Research"
+              }
             ]}
           />
         )}

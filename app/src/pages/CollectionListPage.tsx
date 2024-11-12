@@ -60,6 +60,7 @@ const CollectionListPage: React.FC<ICategoryListPageProps> = ({
       "Scientific Wonder of Pop Culture":
         "nLkXsss6zqfehkBlwe4v5vZCe092hWxLPk9SK-IiWWA",
       "Is AI Fun": "9QwHCR56V-mjax-uhOKILs1I9yg6C4rjtgeFckVohIM",
+      "Mysten Labs Research": "g56vpiiC2iJ2ZSeGDjW7lLGRO2w-m5ll7GMHmBmZL0A"
     };
     return categoryToWavBlobMap[category] || "defaultBlobId";
   };
@@ -125,9 +126,11 @@ const CollectionListPage: React.FC<ICategoryListPageProps> = ({
                   <Spinner />
                 ) : (
                   <div className="md:-mt-6 ">
+                  {wavBlobId !== "defaultBlobId" && 
                     <AudioSummaryContainer
                       src={`https://aggregator.walrus-testnet.walrus.space/v1/${wavBlobId}`}
                     />
+                  }
                     <PaperCardContainer
                       cardTitle={`${activeCollection?.papers.length} Documents, ${formatBytes(
                         activeSubcategorySize
@@ -155,6 +158,7 @@ const CollectionListPage: React.FC<ICategoryListPageProps> = ({
                                   .map((author: any[]) => author.join(" "))
                                   .join(", "),
                                 link: `/abs/${paper.id}`,
+                                metadataBlobId: paper.metadataBlobId,
                                 arxiv_id: paper.id,
                               };
 
@@ -186,7 +190,11 @@ const CollectionListPage: React.FC<ICategoryListPageProps> = ({
                     ? "Explore the science behind your everyday choices."
                     : category === "Scientific Wonder of Pop Culture"
                       ? "A collection of cleverly crafted papers that blend research with the playful spirit of April Fools’ Day."
-                      : "Discover how artificial intelligence understands humor and how good a comedian it can be."}
+                      : category === "Is AI Fun"
+                      ? "Discover how artificial intelligence understands humor and how good a comedian it can be."
+                        : category === "Mysten Labs Research"
+                        ? "A collection of papers published by Mysten Labs researchers."
+                        : ""}
                 </span>
                 <br />
                 <br />
