@@ -2,7 +2,7 @@ import React, { useEffect, useRef, useState } from "react";
 import { IPaperAbstractProps } from "../../interfaces/IPaperAbstractProps";
 import MobileNavigationBar from "../common/MobileNavigationBar";
 import TopNavigationHistory from "../common/TopNavigationHistory";
-import { formatBytes } from "../../tools/utils";
+import { formatBytes, latexToHtml } from "../../tools/utils";
 import ViewPDFButton from "./ViewPDFButton";
 import WalrusMetadataContainer from "./WalrusMetadataContainer";
 
@@ -86,8 +86,9 @@ const PaperAbstract: React.FC<IPaperAbstractProps> = ({
         subcategories={subcategory ? [subcategory] : undefined}
       />
       <div className="py-6 px-5">
-        <h1 className="text-3xl font-semibold mb-2 max-w-[90%] break-words">
-          {title}
+        <h1 className="text-3xl font-semibold mb-2 max-w-[90%] break-words"
+          dangerouslySetInnerHTML={{ __html: latexToHtml(title) }}
+        >
         </h1>
         <p className="text-sm text-gray-500 mb-2">{submissionAndUpdateText}</p>
         <p className="text-sm text-gray-500 mb-4">
@@ -129,8 +130,8 @@ const PaperAbstract: React.FC<IPaperAbstractProps> = ({
           id="article"
           ref={abstractRef}
           className="text-gray-700 leading-relaxed mb-6"
+          dangerouslySetInnerHTML={{ __html: latexToHtml(abstract) }}
         >
-          {abstract}
         </p>
 
         <h2 id="subjects" className="text-xl font-semibold py-4 w-3/5">

@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { IPaperCardProps } from "../../interfaces/IPaperCardProps";
+import { latexToHtml } from "../../tools/utils";
 
 export const PaperCard: React.FC<IPaperCardProps> = ({
   paper,
@@ -31,8 +32,8 @@ export const PaperCard: React.FC<IPaperCardProps> = ({
         <h2
           className={`text-sm sm:text-base font-medium ${isComplexMathTitle ? "break-all" : "break-words"
             } max-w-full`}
+          dangerouslySetInnerHTML={{ __html: latexToHtml(paper.title) }}
         >
-          {paper.title}
         </h2>
 
         <p className="text-gray-500 text-xs">{paper.authors}</p>

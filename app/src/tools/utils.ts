@@ -9,3 +9,18 @@ export const formatBytes = (bytes: number, decimals = 2) => {
 
   return parseFloat((bytes / Math.pow(k, i)).toFixed(dm)) + " " + sizes[i];
 };
+
+// Currently only supports simple-textit
+const MATCHERS = [{
+  name: 'simple-textit',
+  pattern: /\$\\textit{([^}]+)}\$/g,
+  replace: '<i>$1</i>'
+}];
+
+// Quick and easy way to replace some latex text to html
+export function latexToHtml(text: string): string {
+  for (const matcher of MATCHERS) {
+    text = text.replace(matcher.pattern, matcher.replace);
+  }
+  return text
+}
