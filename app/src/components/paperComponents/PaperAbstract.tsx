@@ -5,6 +5,8 @@ import TopNavigationHistory from "../common/TopNavigationHistory";
 import { formatBytes } from "../../tools/utils";
 import ViewPDFButton from "./ViewPDFButton";
 import WalrusMetadataContainer from "./WalrusMetadataContainer";
+import 'katex/dist/katex.min.css';
+import Latex from "react-latex-next";
 
 const PaperAbstract: React.FC<IPaperAbstractProps> = ({
   arxiv_id,
@@ -87,7 +89,7 @@ const PaperAbstract: React.FC<IPaperAbstractProps> = ({
       />
       <div className="py-6 px-5">
         <h1 className="text-3xl font-semibold mb-2 max-w-[90%] break-words">
-          {title}
+          <Latex>{title}</Latex>
         </h1>
         <p className="text-sm text-gray-500 mb-2">{submissionAndUpdateText}</p>
         <p className="text-sm text-gray-500 mb-4">
@@ -130,7 +132,7 @@ const PaperAbstract: React.FC<IPaperAbstractProps> = ({
           ref={abstractRef}
           className="text-gray-700 leading-relaxed mb-6"
         >
-          {abstract}
+          <Latex>{abstract}</Latex>
         </p>
 
         <h2 id="subjects" className="text-xl font-semibold py-4 w-3/5">
