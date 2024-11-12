@@ -1,4 +1,4 @@
-import { CategoryArg } from "../layout/landingLayout/LandingPageLayout";
+import { CategoryArg } from "../pages/LandingPage";
 import { AllPapers } from "./IAllPapers";
 
 export interface ILandingPageLayoutProps {
