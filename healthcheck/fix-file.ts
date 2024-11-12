@@ -3,9 +3,9 @@ import { exec } from 'child_process';
 import { promisify } from 'util';
 import { AllPapers, IPaperTrimmed } from '../app/src/interfaces/IAllPapers';
 
-const PDF_DIR = `${__dirname}/../data/pdf-bak`
-const ABS_DIR = `${__dirname}/../data/abs`
-const INDEX_FILE = `${__dirname}/../app/public/index.json`
+const PDF_DIR = `${__dirname}/../data/pdf-bak`;
+const ABS_DIR = `${__dirname}/../data/abs`;
+const INDEX_FILE = `${__dirname}/../app/public/index.json`;
 
 const ALLOWED_LICENSES = [
   'http://creativecommons.org/licenses/by-sa/4.0/',
