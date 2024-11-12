@@ -150,6 +150,7 @@ const CollectionListPage: React.FC<ICategoryListPageProps> = ({
                               id: any;
                               title: any;
                               authorsParsed: any[][];
+                              metadataBlobId: string;
                             }) => {
                               const mappedPaper = {
                                 id: paper.id,
