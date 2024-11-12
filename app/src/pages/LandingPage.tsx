@@ -265,7 +265,7 @@ const LandingPage: React.FC = () => {
       </p>
       <p className="text-base pb-10 text-center">
         SnowReads is published on{" "}
-        <u onClick={toggleInformationPopup}>
+        <u className="hover:cursor-pointer" onClick={toggleInformationPopup}>
           Walrus Sites
         </u>
         .
@@ -314,7 +314,7 @@ const LandingPage: React.FC = () => {
             {catArg.categoryName}
           </button>
         ))}
-        <div className="absolute lg:top-[35%] lg:right-[20%] md:top-[40%] md:right-[2%] transform -translate-y-1/2 z-[-10] hidden md:block max-w-[1100px]">
+        <div className="absolute lg:top-[40%] lg:right-[20%] md:top-[40%] md:right-[2%] transform -translate-y-1/2 z-[-10] hidden md:block max-w-[1100px]">
           <img
             src="/walrus_avatar.png"
             alt="Background"
