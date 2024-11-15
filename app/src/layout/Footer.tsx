@@ -43,7 +43,7 @@ const Footer: React.FC = () => {
           />
         </a>
         <a
-          href="https://github.com/MystenLabs/wal-papers"
+          href="https://github.com/MystenLabs/snowreads"
           aria-label="GitHub"
           target="_blank"
           rel="noopener noreferrer"
