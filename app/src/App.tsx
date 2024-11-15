@@ -6,8 +6,20 @@ import CategoryListLayout from "./layout/categoryListLayout/CategoryListLayout";
 import ToSPage from "./pages/ToSPage";
 import PrivacyPolicyPage from "./pages/PrivacyPolicyPage";
 import PDFViewerPage from "./pages/PDFViewerPage";
+import { useEffect } from "react";
+import * as amplitude from "@amplitude/analytics-browser";
 
 function App() {
+  useEffect(() => {
+    try {
+      amplitude.init("b9c388dd082e3727ee05f3d4b79e0edc", {
+        autocapture: true,
+        identityStorage: "none",
+      });
+    } catch (e) {
+      console.error("Amplitude initialization failed:", e);
+    }
+  }, []);
   return (
     <div className="bg-primary ">
       <Router>
