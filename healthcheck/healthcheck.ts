@@ -250,8 +250,8 @@ async function checkIndexMetadataAndLicense(absDirectory: string, pdfDirectory: 
     }
 }
 
-const ABS_DIRECTORY = `${__dirname}/../../wal-papers-upload/app/public/abs`;
-const PDF_DIRECTORY = `${__dirname}/../data/pdf-bak`;
+const ABS_DIRECTORY = `${__dirname}/../data/abs`;
+const PDF_DIRECTORY = `${__dirname}/../data/pdf`;
 const INDEX_FILE = `${__dirname}/../app/public/index.json`;
 const PAPERS_FILE = `${__dirname}/../app/public/papers.json`;
 checkIndexMetadataAndLicense(ABS_DIRECTORY, PDF_DIRECTORY, INDEX_FILE, PAPERS_FILE);
