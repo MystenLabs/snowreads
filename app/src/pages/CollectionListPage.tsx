@@ -128,7 +128,7 @@ const CollectionListPage: React.FC<ICategoryListPageProps> = ({
                   <div className="md:-mt-6 ">
                   {wavBlobId !== "defaultBlobId" && 
                     <AudioSummaryContainer
-                      src={`https://aggregator.walrus-testnet.walrus.space/v1/${wavBlobId}`}
+                      src={`https://aggregator.walrus-testnet.walrus.space/v1/blobs/${wavBlobId}`}
                     />
                   }
                     <PaperCardContainer
