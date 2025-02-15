@@ -49,8 +49,8 @@ function chunksBySize(pdfs: Record<string, FileData>, maxChunkSize: number, maxC
     return chunks;
 }
 
-function toWalrusJsonStoreCmd(chunk: string[]) {
-    return `RUST_LOG=off walrus json '{"ignoreResources":true,"gasBudget":5000000000,"command":{"store":{"epochs":${MAX_EPOCHS},"files":${JSON.stringify(chunk)}}}}'`;
+function toWalrusJsonStoreCmd(chunk: string[], prefix: string) {
+    return `RUST_LOG=off walrus json '{"ignoreResources":true,"gasBudget":5000000000,"command":{"store":{"epochs":${MAX_EPOCHS},"files":${JSON.stringify(chunk)}}}}' >> ${prefix}store.json`;
 }
 
 async function runPdf() {
@@ -60,7 +60,7 @@ async function runPdf() {
     const chunks = chunksBySize(filesToStore, MAX_TOTAL_BLOB_SIZE / 2, MAX_FILES_PER_COMMAND);
 
     for (const chunk of chunks) {
-        console.log(toWalrusJsonStoreCmd(chunk));
+        console.log(toWalrusJsonStoreCmd(chunk, 'pdf-'));
     }
 }
 
@@ -71,7 +71,7 @@ async function runAbs() {
     const chunks = chunksBySize(filesToStore, MAX_TOTAL_BLOB_SIZE / 2, MAX_FILES_PER_COMMAND);
 
     for (const chunk of chunks) {
-        console.log(toWalrusJsonStoreCmd(chunk));
+        console.log(toWalrusJsonStoreCmd(chunk, 'abs-'));
     }
 }
 
