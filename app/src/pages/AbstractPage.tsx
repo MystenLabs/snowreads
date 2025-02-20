@@ -52,7 +52,7 @@ const AbstractPage: React.FC<IAbstractPageProps> = ({ arxiv_id }) => {
         }
         console.log(metadataBlobId);
         const response = await fetch(
-          `https://aggregator.walrus-testnet.walrus.space/v1/${metadataBlobId}`
+          `https://aggregator.walrus-testnet.walrus.space/v1/blobs/${metadataBlobId}`
         );
 
         if (!response.ok) {
@@ -172,7 +172,6 @@ const AbstractPage: React.FC<IAbstractPageProps> = ({ arxiv_id }) => {
           submissionAndUpdateText={submissionAndUpdateText!}
           license={paperData.paperDetails.license}
           blobId={paperData.paperDetails.blobId}
-          objectId={paperData.paperDetails.objectId}
           onAbstractHeightChange={handleAbstractHeightChange}
         />
         <div style={isSmallScreen ? { visibility: "hidden" } : {}}>
@@ -182,7 +181,6 @@ const AbstractPage: React.FC<IAbstractPageProps> = ({ arxiv_id }) => {
           />
           <WalrusMetadataContainer
             blobId={paperData.paperDetails.blobId}
-            objectId={paperData.paperDetails.objectId}
           />
         </div>
       </main>

@@ -1,4 +1,5 @@
 /data
+!/data/mp3s/**/*.mp3
 !/data/abs/**/*.json
 !/data/oai-metadata.json
 !/data/arxiv_src_manifest.xml

@@ -31,6 +31,49 @@ Follow these steps to deploy **Walpapers**:
     site-builder --config $WALRUS_SITES_CONFIG publish ./dist/ --epochs $N_EPOCHS
     ```
 
+5. **Fetch the pdfs to upload**
+
+    One can download the pdfs via aws from the requester payer arXiv buckets. Example command:
+    ```bash
+    aws s3 cp s3://arxiv/pdf/arXiv_pdf_2407_001.tar ./ --request-payer
+    ```
+
+    Run `untar-check.sh` to untar the downloaded files and after checking the redistrubitability the license allow,
+    moves the filtered pdfs inside data/pdf directory
+    ```bash
+    ./untar-check.sh arXiv_pdf_2407_001.tar arXiv_pdf_2407_002.tar ...
+    ```
+
+    > Note that the collection papers include papers from non 2407 buckets.
+
+6. **Upload the metadata and pdfs**
+
+    Because the pdf and metadata files are too many, we upload them separately to walrus.
+    The files inside app/public directory point to the constant blob-ids these data have.
+
+    Edit `scripts/chunkify.ts`: `PDF_DIR` variable, to point to the place where the pdfs to upload is stored.
+    (If you used `untar-check.sh`
+
+    Then, from the `scripts` directory:
+    ```bash
+    ts-node chunkify > chunks.sh
+    ```
+    This will create the chunks.sh file which includes the commands to upload all the metadata and pdf files to Walrus.
+
+    ```bash
+    chmod +x ./chunks.sh
+    ./chunks.sh
+    ```
+
+    This will upload all json and pdf files to walrus.
+
+    Upload the notebookml recordings:
+    ```bash
+    walrus store data/mp3s/is_ai_fun.mp3 --epochs max
+    ```
+
+    Now all data necessary for the function of Snowreads, as well as Snowreads itself (step 4) is available on Walrus.
+
 ## Functional Details
 
 All the app's logic is contained in Walrus and Walrus-sites.
@@ -62,6 +105,10 @@ The React application that builds into the Snowreads site.
 
     [Arxiv manifest files](https://info.arxiv.org/help/bulk_data_s3.html)
 
+- mp3s
+
+    NotebookML recordings for papers inside collections.
+
 - oai-metadata.json
 
     A subset of the [Kaggle arXiv Dataset](https://www.kaggle.com/datasets/Cornell-University/arxiv/data)
@@ -72,41 +119,16 @@ Various scripts that run during the process of moving papers and paper-metadata 
 
 These scripts were developed during different stages of publishing Snowreads and during different designs. Many of them might be out-dated.
 
-- <span>append-abs-json.sh</span>: Appends blob-id and pdf-size to a metadata.json file
 - calc-size.js: Calculates the size of paper categories and edits papers.json to include this information
 - check-license.ts: Checks that the license of a paper is among some creative-commons one.
 - collection-size.ts: Similar to calc-size.js but for collections.
-- combine-datacite-arxiv.ts: Merges files created with [metadata-mashup](#metadata-mashup) into a single json.
-- combine-oai.ts: Merges output of the above script with `oai-metadata.json`.
 - parse-category.ts: "Renames" arXiv encoded category to a human readable name. eg. corr -> Computing Research Repository
-- <span>pre-publish.</span>sh: Unpacks arXiv pdfs downloaded from [S3](https://info.arxiv.org/help/bulk_data_s3.html) and uploads papers with a creative-commons license. Outdated.
-- remove-duplicate-papers.ts: Removes duplicate entries from `app/public/papers.json` in case of miss-handling.
-- <span>store.sh</span>: Stores papers to Walrus
-- trim-metadata.js: Removes metadata from papers not having a pdf in `PDF_DIR`.
 - <span>untar-check.sh</span>: Unpacks papers downloaded from [arXiv S3 buckets](https://info.arxiv.org/help/bulk_data_s3.html) and keeps papers with a creative-commons license.
-
-### add-paper
-
-CLI app to add a new paper to a Snowreads collection. Edits app/public/papers.json, app/public/collections.json and creates the paper-metadata json file.
-
-Does not include uploading the paper and its metadata to Walrus.
-
-### abs-indexer
-
-Calculates the blob-id of the paper metadata jsons and produces index.json linking paper arxiv-id to its metadata blob-id.
-
-### metadata-mashup
-
-Calls [arXiv metadata API](https://info.arxiv.org/help/api/index.html) and [DataCite API](https://support.datacite.org/docs/api) to collect paper metadata.
 
 ### healthcheck
 
 Manual tests for checking paper and paper-metadata availability and correctness.
 
-### prebuilt
-
-Converts `app/public/index.json` to a walrus-site `ws-resources.json`: `prebuilt` property in order to facilitate fetching arxiv-metadata by url. 🚧 WIP 🚧
-    
 ## Note
 
 Ensure that you have reviewed the Walrus documentation for details on usage, setup, and configuration: [Walrus Setup Guide](https://docs.walrus.site/usage/setup.html).

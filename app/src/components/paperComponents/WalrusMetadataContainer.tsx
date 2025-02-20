@@ -2,7 +2,6 @@ import { IWalrusMetadataContainerProps } from "../../interfaces/IWalrusMetadataC
 
 const WalrusMetadataContainer: React.FC<IWalrusMetadataContainerProps> = ({
   blobId,
-  objectId,
 }) => {
   return (
     <div className="bg-white p-4 rounded-lg border border-black mt-5 ">
@@ -19,18 +18,6 @@ const WalrusMetadataContainer: React.FC<IWalrusMetadataContainerProps> = ({
               className="hover:text-[#8B28D2]  font-medium"
             >
               Blob on Walrus
-            </a>
-          </li>
-        )}
-        {objectId && (
-          <li>
-            <a
-              href={`https://testnet.suivision.xyz/object/${objectId}`}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="hover:text-[#8B28D2]  font-medium"
-            >
-              Object on Sui
             </a>
           </li>
         )}

@@ -30,7 +30,7 @@ const PDFViewerPage: React.FC = () => {
     const loadPDF = async () => {
       try {
         const loadingTask = pdfjs.getDocument(
-          `https://aggregator.walrus-testnet.walrus.space/v1/${blobIdDecoded}`
+          `https://aggregator.walrus-testnet.walrus.space/v1/blobs/${blobIdDecoded}`
         );
         const pdf = await loadingTask.promise;
         setNumPages(pdf.numPages); // Set numPages once the PDF is loaded
@@ -131,7 +131,7 @@ const PDFViewerPage: React.FC = () => {
             </Link>
           </div>
           <a
-            href={`https://aggregator.walrus-testnet.walrus.space/v1/${blobIdDecoded}`}
+            href={`https://aggregator.walrus-testnet.walrus.space/v1/blobs/${blobIdDecoded}`}
             download
             className={`text-sm border-2 border-solid p-[8px] rounded-lg ${
               !numPages
