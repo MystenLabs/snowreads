@@ -1,0 +1,44 @@
+{
+  "id": "2412.06001",
+  "title": "M6: Multi-generator, Multi-domain, Multi-lingual and cultural,\n  Multi-genres, Multi-instrument Machine-Generated Music Detection Databases",
+  "authors": "Yupei Li, Hanqian Li, Lucia Specia, Bj\\\"orn W. Schuller",
+  "authorsParsed": [
+    [
+      "Li",
+      "Yupei",
+      ""
+    ],
+    [
+      "Li",
+      "Hanqian",
+      ""
+    ],
+    [
+      "Specia",
+      "Lucia",
+      ""
+    ],
+    [
+      "Schuller",
+      "Björn W.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 8 Dec 2024 17:23:03 GMT"
+    }
+  ],
+  "updateDate": "2024-12-10",
+  "timestamp": 1733678583000,
+  "abstract": "  Machine-generated music (MGM) has emerged as a powerful tool with\napplications in music therapy, personalised editing, and creative inspiration\nfor the music community. However, its unregulated use threatens the\nentertainment, education, and arts sectors by diminishing the value of\nhigh-quality human compositions. Detecting machine-generated music (MGMD) is,\ntherefore, critical to safeguarding these domains, yet the field lacks\ncomprehensive datasets to support meaningful progress. To address this gap, we\nintroduce \\textbf{M6}, a large-scale benchmark dataset tailored for MGMD\nresearch. M6 is distinguished by its diversity, encompassing multiple\ngenerators, domains, languages, cultural contexts, genres, and instruments. We\noutline our methodology for data selection and collection, accompanied by\ndetailed data analysis, providing all WAV form of music. Additionally, we\nprovide baseline performance scores using foundational binary classification\nmodels, illustrating the complexity of MGMD and the significant room for\nimprovement. By offering a robust and multifaceted resource, we aim to empower\nfuture research to develop more effective detection methods for MGM. We believe\nM6 will serve as a critical step toward addressing this societal challenge. The\ndataset and code will be freely available to support open collaboration and\ninnovation in this field.\n",
+  "subjects": [
+    "Computer Science/Sound",
+    "Computer Science/Multimedia",
+    "Electrical Engineering and Systems Science/Audio and Speech Processing"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "9rXGeYmRFpiq_FB8gwfKFLV_GWyd-4cM1lMEPK3p2Ls",
+  "pdfSize": "996810"
+}

@@ -1,0 +1,64 @@
+{
+  "id": "2412.05868",
+  "title": "Automated Extraction and Creation of FBS Design Reasoning Knowledge\n  Graphs from Structured Data in Product Catalogues Lacking Contextual\n  Information",
+  "authors": "Vijayalaxmi Sahadevan, Sushil Mario, Yash Jaiswal, Divyanshu Bajpai,\n  Vishal Singh, Hiralal Aggarwal, Suhas Suresh, Manjunath Maigur",
+  "authorsParsed": [
+    [
+      "Sahadevan",
+      "Vijayalaxmi",
+      ""
+    ],
+    [
+      "Mario",
+      "Sushil",
+      ""
+    ],
+    [
+      "Jaiswal",
+      "Yash",
+      ""
+    ],
+    [
+      "Bajpai",
+      "Divyanshu",
+      ""
+    ],
+    [
+      "Singh",
+      "Vishal",
+      ""
+    ],
+    [
+      "Aggarwal",
+      "Hiralal",
+      ""
+    ],
+    [
+      "Suresh",
+      "Suhas",
+      ""
+    ],
+    [
+      "Maigur",
+      "Manjunath",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 8 Dec 2024 09:20:25 GMT"
+    }
+  ],
+  "updateDate": "2024-12-10",
+  "timestamp": 1733649625000,
+  "abstract": "  Ontology-based knowledge graphs (KG) are desirable for effective knowledge\nmanagement and reuse in various decision making scenarios, including design.\nCreating and populating extensive KG based on specific ontological models can\nbe highly labour and time-intensive unless automated processes are developed\nfor knowledge extraction and graph creation. Most research and development on\nautomated extraction and creation of KG is based on extensive unstructured data\nsets that provide contextual information. However, some of the most useful\ninformation about the products and services of a company has traditionally been\nrecorded as structured data. Such structured data sets rarely follow a standard\nontology, do not capture explicit mapping of relationships between the\nentities, and provide no contextual information. Therefore, this research\nreports a method and digital workflow developed to address this gap. The\ndeveloped method and workflow employ rule-based techniques to extract and\ncreate a Function Behaviour-Structure (FBS) ontology-based KG from legacy\nstructured data, especially specification sheets and product catalogues. The\nsolution approach consists of two main components: a process for deriving\ncontext and context-based classification rules for FBS ontology concepts and a\nworkflow for populating and retrieving the FBS ontology-based KG. KG and\nNatural Language Processing (NLP) are used to automate knowledge extraction,\nrepresentation, and retrieval. The workflow's effectiveness is demonstrated via\npilot implementation in an industrial context. Insights gained from the pilot\nstudy are reported regarding the challenges and opportunities, including\ndiscussing the FBS ontology and concepts.\n",
+  "subjects": [
+    "Computer Science/Information Retrieval",
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Computation and Language"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "jJlCIg_sLZkNvoYspHSLCfAAnrQtTazmaIpnZXuY8l4",
+  "pdfSize": "1728489"
+}

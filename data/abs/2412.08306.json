@@ -1,0 +1,43 @@
+{
+  "id": "2412.08306",
+  "title": "Evaluating the Impact of Discriminative and Generative E2E Speech\n  Enhancement Models on Syllable Stress Preservation",
+  "authors": "Rangavajjala Sankara Bharadwaj, Jhansi Mallela, Sai Harshitha Aluru,\n  Chiranjeevi Yarra",
+  "authorsParsed": [
+    [
+      "Bharadwaj",
+      "Rangavajjala Sankara",
+      ""
+    ],
+    [
+      "Mallela",
+      "Jhansi",
+      ""
+    ],
+    [
+      "Aluru",
+      "Sai Harshitha",
+      ""
+    ],
+    [
+      "Yarra",
+      "Chiranjeevi",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 11 Dec 2024 11:36:24 GMT"
+    }
+  ],
+  "updateDate": "2024-12-12",
+  "timestamp": 1733916984000,
+  "abstract": "  Automatic syllable stress detection is a crucial component in\nComputer-Assisted Language Learning (CALL) systems for language learners.\nCurrent stress detection models are typically trained on clean speech, which\nmay not be robust in real-world scenarios where background noise is prevalent.\nTo address this, speech enhancement (SE) models, designed to enhance speech by\nremoving noise, might be employed, but their impact on preserving syllable\nstress patterns is not well studied. This study examines how different SE\nmodels, representing discriminative and generative modeling approaches, affect\nsyllable stress detection under noisy conditions. We assess these models by\napplying them to speech data with varying signal-to-noise ratios (SNRs) from 0\nto 20 dB, and evaluating their effectiveness in maintaining stress patterns.\nAdditionally, we explore different feature sets to determine which ones are\nmost effective for capturing stress patterns amidst noise. To further\nunderstand the impact of SE models, a human-based perceptual study is conducted\nto compare the perceived stress patterns in SE-enhanced speech with those in\nclean speech, providing insights into how well these models preserve syllable\nstress as perceived by listeners. Experiments are performed on English speech\ndata from non-native speakers of German and Italian. And the results reveal\nthat the stress detection performance is robust with the generative SE models\nwhen heuristic features are used. Also, the observations from the perceptual\nstudy are consistent with the stress detection outcomes under all SE models.\n",
+  "subjects": [
+    "Electrical Engineering and Systems Science/Audio and Speech Processing",
+    "Computer Science/Sound"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "1PGlUH1MqxxabfiVkNZuBSTyKngNVvLxQQTRGeeCHFI",
+  "pdfSize": "1151572"
+}

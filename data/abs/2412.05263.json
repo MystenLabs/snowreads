@@ -1,0 +1,62 @@
+{
+  "id": "2412.05263",
+  "title": "Mind the Time: Temporally-Controlled Multi-Event Video Generation",
+  "authors": "Ziyi Wu, Aliaksandr Siarohin, Willi Menapace, Ivan Skorokhodov, Yuwei\n  Fang, Varnith Chordia, Igor Gilitschenski, Sergey Tulyakov",
+  "authorsParsed": [
+    [
+      "Wu",
+      "Ziyi",
+      ""
+    ],
+    [
+      "Siarohin",
+      "Aliaksandr",
+      ""
+    ],
+    [
+      "Menapace",
+      "Willi",
+      ""
+    ],
+    [
+      "Skorokhodov",
+      "Ivan",
+      ""
+    ],
+    [
+      "Fang",
+      "Yuwei",
+      ""
+    ],
+    [
+      "Chordia",
+      "Varnith",
+      ""
+    ],
+    [
+      "Gilitschenski",
+      "Igor",
+      ""
+    ],
+    [
+      "Tulyakov",
+      "Sergey",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 6 Dec 2024 18:52:20 GMT"
+    }
+  ],
+  "updateDate": "2024-12-09",
+  "timestamp": 1733511140000,
+  "abstract": "  Real-world videos consist of sequences of events. Generating such sequences\nwith precise temporal control is infeasible with existing video generators that\nrely on a single paragraph of text as input. When tasked with generating\nmultiple events described using a single prompt, such methods often ignore some\nof the events or fail to arrange them in the correct order. To address this\nlimitation, we present MinT, a multi-event video generator with temporal\ncontrol. Our key insight is to bind each event to a specific period in the\ngenerated video, which allows the model to focus on one event at a time. To\nenable time-aware interactions between event captions and video tokens, we\ndesign a time-based positional encoding method, dubbed ReRoPE. This encoding\nhelps to guide the cross-attention operation. By fine-tuning a pre-trained\nvideo diffusion transformer on temporally grounded data, our approach produces\ncoherent videos with smoothly connected events. For the first time in the\nliterature, our model offers control over the timing of events in generated\nvideos. Extensive experiments demonstrate that MinT outperforms existing\nopen-source models by a large margin.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "ZO6cTrErJhSW3uyjA8oSNTE_usCVjAKt4uM8g4Z1B5k",
+  "pdfSize": "20936829"
+}

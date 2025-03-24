@@ -1,0 +1,58 @@
+{
+  "id": "2412.19841",
+  "title": "FlameGS: Reconstruct flame light field via Gaussian Splatting",
+  "authors": "Yunhao Shui, Fuhao Zhang, Can Gao, Hao Xue, Zhiyin Ma, Gang Xun,\n  Xuesong Li",
+  "authorsParsed": [
+    [
+      "Shui",
+      "Yunhao",
+      ""
+    ],
+    [
+      "Zhang",
+      "Fuhao",
+      ""
+    ],
+    [
+      "Gao",
+      "Can",
+      ""
+    ],
+    [
+      "Xue",
+      "Hao",
+      ""
+    ],
+    [
+      "Ma",
+      "Zhiyin",
+      ""
+    ],
+    [
+      "Xun",
+      "Gang",
+      ""
+    ],
+    [
+      "Li",
+      "Xuesong",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 24 Dec 2024 11:00:26 GMT"
+    }
+  ],
+  "updateDate": "2024-12-31",
+  "timestamp": 1735038026000,
+  "abstract": "  To address the time-consuming and computationally intensive issues of\ntraditional ART algorithms for flame combustion diagnosis, inspired by flame\nsimulation technology, we propose a novel representation method for flames. By\nmodeling the luminous process of flames and utilizing 2D projection images for\nsupervision, our experimental validation shows that this model achieves an\naverage structural similarity index of 0.96 between actual images and predicted\n2D projections, along with a Peak Signal-to-Noise Ratio of 39.05. Additionally,\nit saves approximately 34 times the computation time and about 10 times the\nmemory compared to traditional algorithms.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Electrical Engineering and Systems Science/Image and Video Processing"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "KzBOxE39kY2ccQ1vzk-SNA8Y5Mdu2mY4RBhmc1yLgoI",
+  "pdfSize": "477793"
+}

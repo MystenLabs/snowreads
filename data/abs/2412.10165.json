@@ -1,0 +1,40 @@
+{
+  "id": "2412.10165",
+  "title": "MiCull2 -- simulating mastitis transmission through milking order",
+  "authors": "Maya Gussmann (1), Carsten Kirkeby (1), Lars R\\\"onneg\\r{a}rd (2 and 3)\n  ((1) University of Copenhagen, (2) Swedish University of Agricultural\n  Sciences, (3) Dalarna University)",
+  "authorsParsed": [
+    [
+      "Gussmann",
+      "Maya",
+      "",
+      "2 and 3"
+    ],
+    [
+      "Kirkeby",
+      "Carsten",
+      "",
+      "2 and 3"
+    ],
+    [
+      "Rönnegård",
+      "Lars",
+      "",
+      "2 and 3"
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 13 Dec 2024 14:28:42 GMT"
+    }
+  ],
+  "updateDate": "2024-12-16",
+  "timestamp": 1734100122000,
+  "abstract": "  Contagious mastitis pathogens can be transmitted through milking. However,\npreviously published simulation models, such as MiCull, have not directly taken\nthis into account. We have reimplemented the MiCull model to model transmission\nof contagious mastitis pathogens through milking in a milking parlor. This\nadditional complexity requires a substantial increase in computations and a\nneed to structure the program code to make it more flexible for future use. The\naim of this paper was threefold: First, to implement the new model in a faster\nprogramming language; secondly, to describe the new model, in particular\ntransmission of a contagious mastitis pathogen through milking; and thirdly, to\ncompare three different milking order strategies in regards to prevalence and\nincidence of intramammary infections. For each scenario, 500 herds with 200\ncows each were simulated over 10 years. The model was calibrated using\navailable mastitis parameters from the literature. We hypothesized that milking\norder should have a considerable effect on disease transmission, especially if\nthe infected cows with clinical enter the milking parlor first and thereby have\na high risk of infecting the following cows. The milking order scenarios\nexamined were random milking order and milking clinical cases first, or last.\nUnexpectedly, there were no large differences between these scenarios for\nreasonably sized infection rates corresponding to a herd with a moderate level\nof clinical mastitis in the herd. Larger differences are expected to be found\nin herds with very high infection rates. We have developed a transmission\nsimulation model of mastitis pathogens using a new mode of transmission by\nmilking order. We expect that this new version of MiCull will be useful for\nboth researchers and advisors since it is flexible, can be fitted to various\nin-herd situations and the computations are fast.\n",
+  "subjects": [
+    "Quantitative Biology/Quantitative Methods"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "leSgaUClwkja65P1t6AqQnVV8FDPTLIGB632xzXfT5E",
+  "pdfSize": "1500836"
+}

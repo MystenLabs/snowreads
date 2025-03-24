@@ -1,0 +1,44 @@
+{
+  "id": "2412.15897",
+  "title": "Spiking Neural Belief Propagation Decoder for LDPC Codes with Small\n  Variable Node Degrees",
+  "authors": "Alexander von Bank, Eike-Manuel Edelmann, Jonathan Mandelbaum, and\n  Laurent Schmalen",
+  "authorsParsed": [
+    [
+      "von Bank",
+      "Alexander",
+      ""
+    ],
+    [
+      "Edelmann",
+      "Eike-Manuel",
+      ""
+    ],
+    [
+      "Mandelbaum",
+      "Jonathan",
+      ""
+    ],
+    [
+      "Schmalen",
+      "Laurent",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 20 Dec 2024 13:51:06 GMT"
+    }
+  ],
+  "updateDate": "2024-12-23",
+  "timestamp": 1734702666000,
+  "abstract": "  Spiking neural networks (SNNs) promise energy-efficient data processing by\nimitating the event-based behavior of biological neurons. In previous work, we\nintroduced the enlarge-likelihood-each-notable-amplitude spiking-neural-network\n(ELENA-SNN) decoder, a novel decoding algorithm for low-density parity-check\n(LDPC) codes. The decoder integrates SNNs into belief propagation (BP) decoding\nby approximating the check node (CN) update equation using SNNs. However, when\ndecoding LDPC codes with a small variable node(VN) degree, the approximation\ngets too rough, and the ELENA-SNN decoder does not yield good results. This\npaper introduces the multi-level ELENA-SNN (ML-ELENA-SNN) decoder, which is an\nextension of the ELENA-SNN decoder. Instead of a single SNN approximating the\nCN update, multiple SNNs are applied in parallel, resulting in a higher\nresolution and higher dynamic range of the exchanged messages. We show that the\nML-ELENA-SNN decoder performs similarly to the ubiquitous normalized min-sum\ndecoder for the (38400, 30720) regular LDPC code with a VN degree of dv = 3 and\na CN degree of dc = 15.\n",
+  "subjects": [
+    "Electrical Engineering and Systems Science/Signal Processing",
+    "Computer Science/Information Theory",
+    "Mathematics/Information Theory"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "MXq0y1BmSWSubtnK3oPT2lOsFqMXAIGwtbLlyfNX_Fk",
+  "pdfSize": "456925"
+}

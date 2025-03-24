@@ -1,0 +1,27 @@
+{
+  "id": "2412.14387",
+  "title": "Clinical Trials Ontology Engineering with Large Language Models",
+  "authors": "Berkan \\c{C}ak{\\i}r",
+  "authorsParsed": [
+    [
+      "Çakır",
+      "Berkan",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 18 Dec 2024 22:40:52 GMT"
+    }
+  ],
+  "updateDate": "2024-12-20",
+  "timestamp": 1734561652000,
+  "abstract": "  Managing clinical trial information is currently a significant challenge for\nthe medical industry, as traditional methods are both time-consuming and\ncostly. This paper proposes a simple yet effective methodology to extract and\nintegrate clinical trial data in a cost-effective and time-efficient manner.\nAllowing the medical industry to stay up-to-date with medical developments.\nComparing time, cost, and quality of the ontologies created by humans, GPT3.5,\nGPT4, and Llama3 (8b & 70b). Findings suggest that large language models (LLM)\nare a viable option to automate this process both from a cost and time\nperspective. This study underscores significant implications for medical\nresearch where real-time data integration from clinical trials could become the\nnorm.\n",
+  "subjects": [
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "Mm-V8GBI7s4LmrqC3RROqPgYufHMhSB4N98QbmQlC3M",
+  "pdfSize": "558537"
+}

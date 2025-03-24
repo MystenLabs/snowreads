@@ -1,0 +1,47 @@
+{
+  "id": "2412.09822",
+  "title": "Dynamic Try-On: Taming Video Virtual Try-on with Dynamic Attention\n  Mechanism",
+  "authors": "Jun Zheng, Jing Wang, Fuwei Zhao, Xujie Zhang, Xiaodan Liang",
+  "authorsParsed": [
+    [
+      "Zheng",
+      "Jun",
+      ""
+    ],
+    [
+      "Wang",
+      "Jing",
+      ""
+    ],
+    [
+      "Zhao",
+      "Fuwei",
+      ""
+    ],
+    [
+      "Zhang",
+      "Xujie",
+      ""
+    ],
+    [
+      "Liang",
+      "Xiaodan",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 13 Dec 2024 03:20:53 GMT"
+    }
+  ],
+  "updateDate": "2024-12-16",
+  "timestamp": 1734060053000,
+  "abstract": "  Video try-on stands as a promising area for its tremendous real-world\npotential. Previous research on video try-on has primarily focused on\ntransferring product clothing images to videos with simple human poses, while\nperforming poorly with complex movements. To better preserve clothing details,\nthose approaches are armed with an additional garment encoder, resulting in\nhigher computational resource consumption. The primary challenges in this\ndomain are twofold: (1) leveraging the garment encoder's capabilities in video\ntry-on while lowering computational requirements; (2) ensuring temporal\nconsistency in the synthesis of human body parts, especially during rapid\nmovements. To tackle these issues, we propose a novel video try-on framework\nbased on Diffusion Transformer(DiT), named Dynamic Try-On.\n  To reduce computational overhead, we adopt a straightforward approach by\nutilizing the DiT backbone itself as the garment encoder and employing a\ndynamic feature fusion module to store and integrate garment features. To\nensure temporal consistency of human body parts, we introduce a limb-aware\ndynamic attention module that enforces the DiT backbone to focus on the regions\nof human limbs during the denoising process. Extensive experiments demonstrate\nthe superiority of Dynamic Try-On in generating stable and smooth try-on\nresults, even for videos featuring complicated human postures.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "pt--AsZABlY3ucftO2vtxXptlsFNyTl8UclN5zZCdf0",
+  "pdfSize": "23839071"
+}

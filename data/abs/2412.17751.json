@@ -1,0 +1,38 @@
+{
+  "id": "2412.17751",
+  "title": "Group Testing with General Correlation Using Hypergraphs",
+  "authors": "Hesam Nikpey, Saswati Sarkar, Shirin Saeedi Bidokhti",
+  "authorsParsed": [
+    [
+      "Nikpey",
+      "Hesam",
+      ""
+    ],
+    [
+      "Sarkar",
+      "Saswati",
+      ""
+    ],
+    [
+      "Bidokhti",
+      "Shirin Saeedi",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 23 Dec 2024 18:03:49 GMT"
+    }
+  ],
+  "updateDate": "2024-12-24",
+  "timestamp": 1734977029000,
+  "abstract": "  Group testing, a problem with diverse applications across multiple\ndisciplines, traditionally assumes independence across nodes' states. Recent\nresearch, however, focuses on real-world scenarios that often involve\ncorrelations among nodes, challenging the simplifying assumptions made in\nexisting models. In this work, we consider a comprehensive model for arbitrary\nstatistical correlation among nodes' states. To capture and leverage these\ncorrelations effectively, we model the problem by hypergraphs, inspired by\n[GLS22], augmented by a probability mass function on the hyper-edges.\n  Using this model, we first design a novel greedy adaptive algorithm capable\nof conducting informative tests and dynamically updating the distribution.\nPerformance analysis provides upper bounds on the number of tests required,\nwhich depend solely on the entropy of the underlying probability distribution\nand the average number of infections. We demonstrate that the algorithm\nrecovers or improves upon all previously known results for group testing\nsettings with correlation. Additionally, we provide families of graphs where\nthe algorithm is order-wise optimal and give examples where the algorithm or\nits analysis is not tight. We then generalize the proposed framework of group\ntesting with general correlation in two directions, namely noisy group testing\nand semi-non-adaptive group testing. In both settings, we provide novel\ntheoretical bounds on the number of tests required.\n",
+  "subjects": [
+    "Computer Science/Information Theory",
+    "Mathematics/Information Theory"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "iuXnIhfMsTq3Gwa6v_YkZ3cHlfgtikIxUZp0zc_lZo4",
+  "pdfSize": "925139"
+}

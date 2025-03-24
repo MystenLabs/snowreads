@@ -1,0 +1,37 @@
+{
+  "id": "2412.10175",
+  "title": "Uncertainties in Signal Recovery from Heterogeneous and Convoluted Time\n  Series with Principal Component Analysis",
+  "authors": "Mariia Legenkaia, Laurent Bourdieu, R\\'emi Monasson",
+  "authorsParsed": [
+    [
+      "Legenkaia",
+      "Mariia",
+      ""
+    ],
+    [
+      "Bourdieu",
+      "Laurent",
+      ""
+    ],
+    [
+      "Monasson",
+      "Rémi",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 13 Dec 2024 14:44:32 GMT"
+    }
+  ],
+  "updateDate": "2024-12-16",
+  "timestamp": 1734101072000,
+  "abstract": "  Principal Component Analysis (PCA) is one of the most used tools for\nextracting low-dimensional representations of data, in particular for time\nseries. Performances are known to strongly depend on the quality (amount of\nnoise) and the quantity of data. We here investigate the impact of\nheterogeneities, often present in real data, on the reconstruction of\nlow-dimensional trajectories and of their associated modes. We focus in\nparticular on the effects of sample-to-sample fluctuations and of\ncomponent-dependent temporal convolution and noise in the measurements. We\nderive analytical predictions for the error on the reconstructed trajectory and\nthe confusion between the modes using the replica method in a high-dimensional\nsetting, in which the number and the dimension of the data are comparable. We\nfind in particular that sample-to-sample variability, is deleterious for the\nreconstruction of the signal trajectory, but beneficial for the inference of\nthe modes, and that the fluctuations in the temporal convolution kernels\nprevent perfect recovery of the latent modes even for very weak measurement\nnoise. Our predictions are corroborated by simulations with synthetic data for\na variety of control parameters.\n",
+  "subjects": [
+    "Statistics/Applications"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "ARgmbLHfM1_O6rBlI_otTBz2ScyazXSPuW-n37pnNLE",
+  "pdfSize": "1350179"
+}

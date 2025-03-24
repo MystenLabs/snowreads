@@ -1,0 +1,40 @@
+{
+  "id": "2412.19835",
+  "title": "Multi-Agent Q-Learning for Real-Time Load Balancing User Association and\n  Handover in Mobile Networks",
+  "authors": "Alireza Alizadeh, Byungju Lim, Mai Vu",
+  "authorsParsed": [
+    [
+      "Alizadeh",
+      "Alireza",
+      ""
+    ],
+    [
+      "Lim",
+      "Byungju",
+      ""
+    ],
+    [
+      "Vu",
+      "Mai",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 22 Dec 2024 11:22:01 GMT"
+    }
+  ],
+  "updateDate": "2024-12-31",
+  "timestamp": 1734866521000,
+  "abstract": "  As next generation cellular networks become denser, associating users with\nthe optimal base stations at each time while ensuring no base station is\noverloaded becomes critical for achieving stable and high network performance.\nWe propose multi-agent online Q-learning (QL) algorithms for performing\nreal-time load balancing user association and handover in dense cellular\nnetworks. The load balancing constraints at all base stations couple the\nactions of user agents, and we propose two multi-agent action selection\npolicies, one centralized and one distributed, to satisfy load balancing at\nevery learning step. In the centralized policy, the actions of UEs are\ndetermined by a central load balancer (CLB) running an algorithm based on\nswapping the worst connection to maximize the total learning reward. In the\ndistributed policy, each UE takes an action based on its local information by\nparticipating in a distributed matching game with the BSs to maximize the local\nreward. We then integrate these action selection policies into an online QL\nalgorithm that adapts in real-time to network dynamics including channel\nvariations and user mobility, using a reward function that considers a handover\ncost to reduce handover frequency. The proposed multi-agent QL algorithm\nfeatures low-complexity and fast convergence, outperforming 3GPP max-SINR\nassociation. Both policies adapt well to network dynamics at various UE speed\nprofiles from walking, running, to biking and suburban driving, illustrating\ntheir robustness and real-time adaptability.\n",
+  "subjects": [
+    "Electrical Engineering and Systems Science/Signal Processing",
+    "Computer Science/Machine Learning",
+    "Computer Science/Multiagent Systems",
+    "Computer Science/Networking and Internet Architecture"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "IwA-YiWf_lmqs3B7jdajqyYuTB9GAI_N3C6fwJ1teBE",
+  "pdfSize": "1532895"
+}

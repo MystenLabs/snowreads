@@ -1,0 +1,34 @@
+{
+  "id": "2412.16497",
+  "title": "Real-time Bangla Sign Language Translator",
+  "authors": "Rotan Hawlader Pranto, Shahnewaz Siddique",
+  "authorsParsed": [
+    [
+      "Pranto",
+      "Rotan Hawlader",
+      ""
+    ],
+    [
+      "Siddique",
+      "Shahnewaz",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 21 Dec 2024 05:56:32 GMT"
+    }
+  ],
+  "updateDate": "2024-12-24",
+  "timestamp": 1734760592000,
+  "abstract": "  The human body communicates through various meaningful gestures, with sign\nlanguage using hands being a prominent example. Bangla Sign Language\nTranslation (BSLT) aims to bridge communication gaps for the deaf and mute\ncommunity. Our approach involves using Mediapipe Holistic to gather key points,\nLSTM architecture for data training, and Computer Vision for realtime sign\nlanguage detection with an accuracy of 94%. Keywords=Recurrent Neural Network,\nLSTM, Computer Vision, Bangla font.\n",
+  "subjects": [
+    "Computer Science/Computation and Language",
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "HRz7HvSoJVhf0eJdqNavr_IySEvMsSMcyi6oliTmM38",
+  "pdfSize": "1328070"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "2412.17197",
+  "title": "Q-LIME $\\pi$: A Quantum-Inspired Extension to LIME",
+  "authors": "Nelson Col\\'on Vargas",
+  "authorsParsed": [
+    [
+      "Vargas",
+      "Nelson Colón",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 23 Dec 2024 00:20:11 GMT"
+    }
+  ],
+  "updateDate": "2024-12-24",
+  "timestamp": 1734913211000,
+  "abstract": "  Machine learning models offer powerful predictive capabilities but often lack\ntransparency. Local Interpretable Model-agnostic Explanations (LIME) addresses\nthis by perturbing features and measuring their impact on a model's output. In\ntext-based tasks, LIME typically removes present words (bits set to 1) to\nidentify high-impact tokens. We propose \\textbf{Q-LIME $\\pi$} (Quantum LIME\n$\\pi$), a quantum-inspired extension of LIME that encodes a binary feature\nvector in a quantum state, leveraging superposition and interference to explore\nlocal neighborhoods more efficiently. Our method focuses on flipping bits from\n$1 \\rightarrow 0$ to emulate LIME's ``removal'' strategy, and can be extended\nto $0 \\rightarrow 1$ where adding features is relevant. Experiments on subsets\nof the IMDb dataset demonstrate that Q-LIME $\\pi$ often achieves near-identical\ntop-feature rankings compared to classical LIME while exhibiting lower runtime\nin small- to moderate-dimensional feature spaces. This quantum-classical hybrid\napproach thus provides a new pathway for interpretable AI, suggesting that,\nwith further improvements in quantum hardware and methods, quantum parallelism\nmay facilitate more efficient local explanations for high-dimensional data.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "qkuDOhl87DVj7bCdTsZOc-seYBiwBPV4Tbg-qsHNQSc",
+  "pdfSize": "148662"
+}

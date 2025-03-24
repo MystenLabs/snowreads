@@ -1,0 +1,46 @@
+{
+  "id": "2412.00857",
+  "title": "Advanced Video Inpainting Using Optical Flow-Guided Efficient Diffusion",
+  "authors": "Bohai Gu, Hao Luo, Song Guo, Peiran Dong",
+  "authorsParsed": [
+    [
+      "Gu",
+      "Bohai",
+      ""
+    ],
+    [
+      "Luo",
+      "Hao",
+      ""
+    ],
+    [
+      "Guo",
+      "Song",
+      ""
+    ],
+    [
+      "Dong",
+      "Peiran",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 1 Dec 2024 15:45:26 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Sun, 12 Jan 2025 05:25:06 GMT"
+    }
+  ],
+  "updateDate": "2025-01-14",
+  "timestamp": 1733067926000,
+  "abstract": "  Recently, diffusion-based methods have achieved great improvements in the\nvideo inpainting task. However, these methods still face many challenges, such\nas maintaining temporal consistency and the time-consuming issue. This paper\nproposes an advanced video inpainting framework using optical Flow-guided\nEfficient Diffusion, called FloED. Specifically, FloED employs a dual-branch\narchitecture, where a flow branch first restores corrupted flow and a\nmulti-scale flow adapter provides motion guidance to the main inpainting\nbranch. Additionally, a training-free latent interpolation method is proposed\nto accelerate the multi-step denoising process using flow warping. Further\nintroducing a flow attention cache mechanism, FLoED efficiently reduces the\ncomputational cost brought by incorporating optical flow. Comprehensive\nexperiments in both background restoration and object removal tasks demonstrate\nthat FloED outperforms state-of-the-art methods from the perspective of both\nperformance and efficiency.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "3-D2YcW59odbm247fn5VHA-5DNQKWQ1okGns-5Ce6A4",
+  "pdfSize": "46302688"
+}

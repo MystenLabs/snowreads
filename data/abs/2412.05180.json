@@ -1,0 +1,52 @@
+{
+  "id": "2412.05180",
+  "title": "DreamColour: Controllable Video Colour Editing without Training",
+  "authors": "Chaitat Utintu, Pinaki Nath Chowdhury, Aneeshan Sain, Subhadeep Koley,\n  Ayan Kumar Bhunia, Yi-Zhe Song",
+  "authorsParsed": [
+    [
+      "Utintu",
+      "Chaitat",
+      ""
+    ],
+    [
+      "Chowdhury",
+      "Pinaki Nath",
+      ""
+    ],
+    [
+      "Sain",
+      "Aneeshan",
+      ""
+    ],
+    [
+      "Koley",
+      "Subhadeep",
+      ""
+    ],
+    [
+      "Bhunia",
+      "Ayan Kumar",
+      ""
+    ],
+    [
+      "Song",
+      "Yi-Zhe",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 6 Dec 2024 16:57:54 GMT"
+    }
+  ],
+  "updateDate": "2024-12-09",
+  "timestamp": 1733504274000,
+  "abstract": "  Video colour editing is a crucial task for content creation, yet existing\nsolutions either require painstaking frame-by-frame manipulation or produce\nunrealistic results with temporal artefacts. We present a practical,\ntraining-free framework that makes precise video colour editing accessible\nthrough an intuitive interface while maintaining professional-quality output.\nOur key insight is that by decoupling spatial and temporal aspects of colour\nediting, we can better align with users' natural workflow -- allowing them to\nfocus on precise colour selection in key frames before automatically\npropagating changes across time. We achieve this through a novel technical\nframework that combines: (i) a simple point-and-click interface merging\ngrid-based colour selection with automatic instance segmentation for precise\nspatial control, (ii) bidirectional colour propagation that leverages inherent\nvideo motion patterns, and (iii) motion-aware blending that ensures smooth\ntransitions even with complex object movements. Through extensive evaluation on\ndiverse scenarios, we demonstrate that our approach matches or exceeds\nstate-of-the-art methods while eliminating the need for training or specialized\nhardware, making professional-quality video colour editing accessible to\neveryone.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "Occ7f0QDEzoXMrlTqRigPs8dNnQi201Y8VyctHVB-yU",
+  "pdfSize": "43004073"
+}

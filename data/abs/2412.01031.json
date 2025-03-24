@@ -1,0 +1,68 @@
+{
+  "id": "2412.01031",
+  "title": "Evaluating Automated Radiology Report Quality through Fine-Grained\n  Phrasal Grounding of Clinical Findings",
+  "authors": "Razi Mahmood, Pingkun Yan, Diego Machado Reyes, Ge Wang, Mannudeep K.\n  Kalra, Parisa Kaviani, Joy T. Wu, Tanveer Syeda-Mahmood",
+  "authorsParsed": [
+    [
+      "Mahmood",
+      "Razi",
+      ""
+    ],
+    [
+      "Yan",
+      "Pingkun",
+      ""
+    ],
+    [
+      "Reyes",
+      "Diego Machado",
+      ""
+    ],
+    [
+      "Wang",
+      "Ge",
+      ""
+    ],
+    [
+      "Kalra",
+      "Mannudeep K.",
+      ""
+    ],
+    [
+      "Kaviani",
+      "Parisa",
+      ""
+    ],
+    [
+      "Wu",
+      "Joy T.",
+      ""
+    ],
+    [
+      "Syeda-Mahmood",
+      "Tanveer",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 2 Dec 2024 01:27:47 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Sat, 7 Dec 2024 23:21:54 GMT"
+    }
+  ],
+  "updateDate": "2024-12-10",
+  "timestamp": 1733102867000,
+  "abstract": "  Several evaluation metrics have been developed recently to automatically\nassess the quality of generative AI reports for chest radiographs based only on\ntextual information using lexical, semantic, or clinical named entity\nrecognition methods. In this paper, we develop a new method of report quality\nevaluation by first extracting fine-grained finding patterns capturing the\nlocation, laterality, and severity of a large number of clinical findings. We\nthen performed phrasal grounding to localize their associated anatomical\nregions on chest radiograph images. The textual and visual measures are then\ncombined to rate the quality of the generated reports. We present results that\ncompare this evaluation metric with other textual metrics on a gold standard\ndataset derived from the MIMIC collection and show its robustness and\nsensitivity to factual errors.\n",
+  "subjects": [
+    "Computer Science/Computation and Language",
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "y9RKPhR7BT22y5rMDu8pL6MzXIkSTZKhQc3VImkw6i4",
+  "pdfSize": "1252063"
+}

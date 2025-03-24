@@ -1,0 +1,38 @@
+{
+  "id": "2412.10289",
+  "title": "Strong Structural Bounds for MaxSAT: The Fine Details of Using\n  Neuromorphic and Quantum Hardware Accelerators",
+  "authors": "Max Bannach, Jai Grover, and Markus Hecher",
+  "authorsParsed": [
+    [
+      "Bannach",
+      "Max",
+      ""
+    ],
+    [
+      "Grover",
+      "Jai",
+      ""
+    ],
+    [
+      "Hecher",
+      "Markus",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 13 Dec 2024 17:18:08 GMT"
+    }
+  ],
+  "updateDate": "2024-12-18",
+  "timestamp": 1734110288000,
+  "abstract": "  Hardware accelerators like quantum annealers or neuromorphic chips are\ncapable of finding the ground state of a Hamiltonian. A promising route in\nutilizing these devices is via methods from automated reasoning: The problem at\nhand is first encoded into MaxSAT; then MaxSAT is reduced to Max2SAT; and\nfinally, Max2SAT is translated into a Hamiltonian. It was observed that\ndifferent encodings can dramatically affect the efficiency of the hardware\naccelerators. Yet, previous studies were only concerned with the size of the\nencodings rather than with syntactic or structural properties.\n  We establish structure-aware reductions between MaxSAT, Max2SAT, and the\nquadratic unconstrained binary optimization problem (QUBO) that underlies such\nhardware accelerators. All these problems turn out to be equivalent under\nlinear-time, treewidth-preserving reductions. As a consequence, we obtain tight\nlower bounds under ETH and SETH for Max2SAT and QUBO, as well as a new\ntime-optimal fixed-parameter algorithm for QUBO. While our results are tight up\nto a constant additive factor for the primal treewidth, we require a constant\nmultiplicative factor for the incidence treewidth. To close the emerging gap,\nwe supplement our results with novel time-optimal algorithms for fragments of\nMaxSAT based on model counting.\n",
+  "subjects": [
+    "Computer Science/Logic in Computer Science",
+    "Physics/Quantum Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "19SCnGrmDpxBDUK_25FkOlHPo6QnOkRssBU9gFV0m-Q",
+  "pdfSize": "316063"
+}

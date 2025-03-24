@@ -1,0 +1,48 @@
+{
+  "id": "2412.06060",
+  "title": "Steering Large Language Models to Evaluate and Amplify Creativity",
+  "authors": "Matthew Lyle Olson, Neale Ratzlaff, Musashi Hinck, Shao-yen Tseng,\n  Vasudev Lal",
+  "authorsParsed": [
+    [
+      "Olson",
+      "Matthew Lyle",
+      ""
+    ],
+    [
+      "Ratzlaff",
+      "Neale",
+      ""
+    ],
+    [
+      "Hinck",
+      "Musashi",
+      ""
+    ],
+    [
+      "Tseng",
+      "Shao-yen",
+      ""
+    ],
+    [
+      "Lal",
+      "Vasudev",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 8 Dec 2024 20:28:48 GMT"
+    }
+  ],
+  "updateDate": "2024-12-10",
+  "timestamp": 1733689728000,
+  "abstract": "  Although capable of generating creative text, Large Language Models (LLMs)\nare poor judges of what constitutes \"creativity\". In this work, we show that we\ncan leverage this knowledge of how to write creatively in order to better judge\nwhat is creative. We take a mechanistic approach that extracts differences in\nthe internal states of an LLM when prompted to respond \"boringly\" or\n\"creatively\" to provide a robust measure of creativity that corresponds\nstrongly with human judgment. We also show these internal state differences can\nbe applied to enhance the creativity of generated text at inference time.\n",
+  "subjects": [
+    "Computer Science/Computation and Language",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "z-JLfvQ-VkMZG0t0fEEqRMm0zBHVvHZaGtqUQf00AoA",
+  "pdfSize": "624044"
+}

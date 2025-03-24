@@ -1,0 +1,56 @@
+{
+  "id": "2412.16816",
+  "title": "The Interplay Between Electron Localization, Magnetic Order, and\n  Jahn-Teller Distortion that Dictates LiMnO$_2$ Phase Stability",
+  "authors": "Ronald L. Kam, Luca Binci, Aaron D. Kaplan, Kristin A. Persson, Nicola\n  Marzari, and Gerbrand Ceder",
+  "authorsParsed": [
+    [
+      "Kam",
+      "Ronald L.",
+      ""
+    ],
+    [
+      "Binci",
+      "Luca",
+      ""
+    ],
+    [
+      "Kaplan",
+      "Aaron D.",
+      ""
+    ],
+    [
+      "Persson",
+      "Kristin A.",
+      ""
+    ],
+    [
+      "Marzari",
+      "Nicola",
+      ""
+    ],
+    [
+      "Ceder",
+      "Gerbrand",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 22 Dec 2024 01:29:22 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Wed, 25 Dec 2024 01:26:18 GMT"
+    }
+  ],
+  "updateDate": "2024-12-30",
+  "timestamp": 1734830962000,
+  "abstract": "  The development of Mn-rich cathodes for Li-ion batteries promises to\nalleviate supply chain bottlenecks in battery manufacturing. Challenges in\nMn-rich cathodes arise from Jahn-Teller (JT) distortions of Mn$^{3+}$, Mn\nmigration, and phase transformations to spinel-like order, which can affect the\nelectrochemical performance. These phenomena motivate an ab initio\nre-examination of the thermodynamics of the LiMnO2 polymorphs. It is found that\nthe generalized gradient approximation (GGA - PBEsol) and meta-GGA (r2SCAN)\ndensity functionals with empirical on-site Hubbard U corrections yield spurious\nstable phases for LiMnO2, such as predicting a phase with gamma-LiFeO2-like\norder (g-LiMnO2) to be the ground state instead of the orthorhombic (Pmmn)\nphase, which is the experimentally known ground state. Accounting for the\nantiferromagnetic (AFM) order in each structure has a substantial effect on the\ntotal energies and resulting phase stability. By using hybrid-GGA (HSE06) and\nGGA with extended Hubbard parameters (on-site U and inter-site V) that are\nself-consistently determined, the experimentally observed LiMnO2 phase\nstability trends are recovered. The calculated Hubbard U in the experimentally\nobserved orthorhombic, layered, and spinel phases (around 5.8 eV) are\nsignificantly smaller than U in g-LiMnO2 and disordered layered structures\n(around 6.4 eV). The smaller values of U are correlated with a collinear\nordering of JT distortions, in which all $e_g$ orbitals are oriented in the\nsame direction. This cooperative JT effect leads to increased Mn-O covalency,\nwhich contributes to the greater electronic stability compared to the phases\nwith noncollinear JT arrangements, and also generate greater vibrational\nentropy, which helps stabilize these phases at high temperature. These phases\nare shown to be strongly insulating with large calculated band gaps > 3 eV,\ncomputed using HSE06 and $G_0W_0$.\n",
+  "subjects": [
+    "Condensed Matter/Materials Science"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "SJCwhDrsvA8MN_2gwxONBaZVAm6yZq1rvqV2Ym95jtE",
+  "pdfSize": "19768749"
+}

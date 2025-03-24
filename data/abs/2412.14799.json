@@ -1,0 +1,33 @@
+{
+  "id": "2412.14799",
+  "title": "Nonlinear soft mode action for the large-$p$ SYK model",
+  "authors": "Marta Bucca, M\\'ark Mezei",
+  "authorsParsed": [
+    [
+      "Bucca",
+      "Marta",
+      ""
+    ],
+    [
+      "Mezei",
+      "Márk",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 19 Dec 2024 12:41:25 GMT"
+    }
+  ],
+  "updateDate": "2024-12-20",
+  "timestamp": 1734612085000,
+  "abstract": "  The physics of the SYK model at low temperatures is dominated by a soft mode\ngoverned by the Schwarzian action. In arXiv:1604.07818 the linearised action\nwas derived from the soft mode contribution to the four-point function, and\nphysical arguments were presented for its nonlinear completion to the\nSchwarzian. In this paper, we give two derivations of the full nonlinear\neffective action in the large $p$ limit, where $p$ is the number of fermions in\nthe interaction terms of the Hamiltonian. The first derivation uses that the\ncollective field action of the large-$p$ SYK model is Liouville theory with a\nnon-conformal boundary condition that we study in conformal perturbation\ntheory. This derivation can be viewed as an explicit version of the\nrenormalisation group argument for the nonlinear soft mode action in\narXiv:1711.08467. The second derivation uses an Ansatz for how the soft mode\nembeds into the microscopic configuration space of the collective fields. We\ngeneralise our results for the large-$p$ SYK chain and obtain a \"Schwarzian\nchain\" effective action for it. These derivations showcase that the large-$p$\nSYK model is a rare system, in which there is sufficient control over the\nmicroscopic dynamics, so that an effective description can be derived for it\nwithout the need for extra assumptions or matching (in the effective field\ntheory sense).\n",
+  "subjects": [
+    "Physics/High Energy Physics - Theory",
+    "Condensed Matter/Strongly Correlated Electrons"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "Z_G8uBxwdthl3J6jgidegCWoEiun95S5UD4gvnn729g",
+  "pdfSize": "731130"
+}

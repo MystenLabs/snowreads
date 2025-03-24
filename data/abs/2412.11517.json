@@ -1,0 +1,42 @@
+{
+  "id": "2412.11517",
+  "title": "DART: An AIGT Detector using AMR of Rephrased Text",
+  "authors": "Hyeonchu Park, Byungjun Kim, Bugeun Kim",
+  "authorsParsed": [
+    [
+      "Park",
+      "Hyeonchu",
+      ""
+    ],
+    [
+      "Kim",
+      "Byungjun",
+      ""
+    ],
+    [
+      "Kim",
+      "Bugeun",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 16 Dec 2024 07:51:09 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Tue, 4 Feb 2025 10:52:02 GMT"
+    }
+  ],
+  "updateDate": "2025-02-05",
+  "timestamp": 1734335469000,
+  "abstract": "  As large language models (LLMs) generate more human-like texts, concerns\nabout the side effects of AI-generated texts (AIGT) have grown. So, researchers\nhave developed methods for detecting AIGT. However, two challenges remain.\nFirst, the performance of detecting black-box LLMs is low because existing\nmodels focus on probabilistic features. Second, most AIGT detectors have been\ntested on a single-candidate setting, which assumes that we know the origin of\nan AIGT and which may deviate from the real-world scenario. To resolve these\nchallenges, we propose DART, which consists of four steps: rephrasing, semantic\nparsing, scoring, and multiclass classification. We conducted three experiments\nto test the performance of DART. The experimental result shows that DART can\ndiscriminate multiple black-box LLMs without probabilistic features and the\norigin of AIGT.\n",
+  "subjects": [
+    "Computer Science/Computation and Language",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "IdLvmlv0WFbNLz9o2nJ_T7DwhrkeP8RYcvYeYHaO-dc",
+  "pdfSize": "725902"
+}

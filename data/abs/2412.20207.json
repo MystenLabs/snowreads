@@ -1,0 +1,37 @@
+{
+  "id": "2412.20207",
+  "title": "Robust Quickest Change Detection with Sampling Control",
+  "authors": "Yingze Hou, Hoda Bidkhori, and Taposh Banerjee",
+  "authorsParsed": [
+    [
+      "Hou",
+      "Yingze",
+      ""
+    ],
+    [
+      "Bidkhori",
+      "Hoda",
+      ""
+    ],
+    [
+      "Banerjee",
+      "Taposh",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 28 Dec 2024 16:37:18 GMT"
+    }
+  ],
+  "updateDate": "2024-12-31",
+  "timestamp": 1735403838000,
+  "abstract": "  The problem of quickest detection of a change in the distribution of a\nsequence of random variables is studied. The objective is to detect the change\nwith the minimum possible delay, subject to constraints on the rate of false\nalarms and the cost of observations used in the decision-making process. The\npost-change distribution of the data is known only within a distribution\nfamily. It is shown that if the post-change family has a distribution that is\nleast favorable in a well-defined sense, then a computationally efficient\nalgorithm can be designed that uses an on-off observation control strategy to\nsave the cost of observations. In addition, the algorithm can detect the change\nrobustly while avoiding unnecessary false alarms. It is shown that the\nalgorithm is also asymptotically robust optimal as the rate of false alarms\ngoes to zero for every fixed constraint on the cost of observations. The\nalgorithm's effectiveness is validated on simulated data and real public health\ndata.\n",
+  "subjects": [
+    "Statistics/Methodology"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "6uKNqu-QoOOiFGWZWGXm0EQu9VSTEuMDHVcdXsTCtIQ",
+  "pdfSize": "606840"
+}

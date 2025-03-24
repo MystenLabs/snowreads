@@ -1,0 +1,38 @@
+{
+  "id": "2412.03539",
+  "title": "NODE-AdvGAN: Improving the transferability and perceptual similarity of\n  adversarial examples by dynamic-system-driven adversarial generative model",
+  "authors": "Xinheng Xie, Yue Wu, Cuiyu He",
+  "authorsParsed": [
+    [
+      "Xie",
+      "Xinheng",
+      ""
+    ],
+    [
+      "Wu",
+      "Yue",
+      ""
+    ],
+    [
+      "He",
+      "Cuiyu",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 4 Dec 2024 18:36:09 GMT"
+    }
+  ],
+  "updateDate": "2024-12-05",
+  "timestamp": 1733337369000,
+  "abstract": "  Understanding adversarial examples is crucial for improving the model's\nrobustness, as they introduce imperceptible perturbations that deceive models.\nEffective adversarial examples, therefore, offer the potential to train more\nrobust models by removing their singularities. We propose NODE-AdvGAN, a novel\napproach that treats adversarial generation as a continuous process and employs\na Neural Ordinary Differential Equation (NODE) for simulating the dynamics of\nthe generator. By mimicking the iterative nature of traditional gradient-based\nmethods, NODE-AdvGAN generates smoother and more precise perturbations that\npreserve high perceptual similarity when added to benign images. We also\npropose a new training strategy, NODE-AdvGAN-T, which enhances transferability\nin black-box attacks by effectively tuning noise parameters during training.\nExperiments demonstrate that NODE-AdvGAN and NODE-AdvGAN-T generate more\neffective adversarial examples that achieve higher attack success rates while\npreserving better perceptual quality than traditional GAN-based methods.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "O4-_iSuL4MZoDJEjQdna8SjFPRjhUMDaCvUxeK4MT_U",
+  "pdfSize": "3358790"
+}

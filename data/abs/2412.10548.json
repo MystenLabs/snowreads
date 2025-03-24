@@ -1,0 +1,42 @@
+{
+  "id": "2412.10548",
+  "title": "Compact Probe Request Fingerprinting with Asymmetric Pairwise Boosting",
+  "authors": "Giovanni Baccichet, Fabio Palmese, Alessandro E.C. Redondi, Matteo\n  Cesana",
+  "authorsParsed": [
+    [
+      "Baccichet",
+      "Giovanni",
+      ""
+    ],
+    [
+      "Palmese",
+      "Fabio",
+      ""
+    ],
+    [
+      "Redondi",
+      "Alessandro E. C.",
+      ""
+    ],
+    [
+      "Cesana",
+      "Matteo",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 13 Dec 2024 20:49:45 GMT"
+    }
+  ],
+  "updateDate": "2024-12-17",
+  "timestamp": 1734122985000,
+  "abstract": "  Probe Requests are Wi-Fi management frames periodically sent by devices\nduring network discovery. Tracking Probe Requests over time offers insights\ninto movement patterns, traffic flows, and behavior trends, which are keys in\napplications such as urban planning, human mobility analysis, and retail\nanalytics. To protect user privacy, techniques such as MAC address\nrandomization are employed, periodically altering device MAC addresses to limit\ntracking. However, research has shown that these privacy measures can be\ncircumvented. By analyzing the Information Elements (IE) within the Probe\nRequest body, it is possible to fingerprint devices and track users over time.\nThis paper presents a machine learning-based approach for fingerprinting Wi-Fi\nProbe Requests in a compact fashion. We utilize Asymmetric Pairwise Boosting to\nlearn discriminating filters which are then used to process specific bit\nsequences in Probe Request frames, and quantize the results into a compact\nbinary format. Extensive evaluation on public datasets demonstrates a\ntwo-order-of-magnitude storage reduction compared to existing methods while\nmaintaining robust fingerprinting performance.\n",
+  "subjects": [
+    "Computer Science/Networking and Internet Architecture"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "F_0XOIbKU-EnrCjXAwYmp5564PizwxhanOB13hiKZLs",
+  "pdfSize": "392629"
+}

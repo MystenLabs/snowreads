@@ -1,0 +1,38 @@
+{
+  "id": "2412.15861",
+  "title": "On Robust Cross Domain Alignment",
+  "authors": "Anish Chakrabarty, Arkaprabha Basu, Swagatam Das",
+  "authorsParsed": [
+    [
+      "Chakrabarty",
+      "Anish",
+      ""
+    ],
+    [
+      "Basu",
+      "Arkaprabha",
+      ""
+    ],
+    [
+      "Das",
+      "Swagatam",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 20 Dec 2024 12:56:28 GMT"
+    }
+  ],
+  "updateDate": "2024-12-23",
+  "timestamp": 1734699388000,
+  "abstract": "  The Gromov-Wasserstein (GW) distance is an effective measure of alignment\nbetween distributions supported on distinct ambient spaces. Calculating\nessentially the mutual departure from isometry, it has found vast usage in\ndomain translation and network analysis. It has long been shown to be\nvulnerable to contamination in the underlying measures. All efforts to\nintroduce robustness in GW have been inspired by similar techniques in optimal\ntransport (OT), which predominantly advocate partial mass transport or\nunbalancing. In contrast, the cross-domain alignment problem being\nfundamentally different from OT, demands specific solutions to tackle diverse\napplications and contamination regimes. Deriving from robust statistics, we\ndiscuss three contextually novel techniques to robustify GW and its variants.\nFor each method, we explore metric properties and robustness guarantees along\nwith their co-dependencies and individual relations with the GW distance. For a\ncomprehensive view, we empirically validate their superior resilience to\ncontamination under real machine learning tasks against state-of-the-art\nmethods.\n",
+  "subjects": [
+    "Statistics/Machine Learning",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "OF14Mmgm2AUpigRqZxX0d4s8gJQQR7oQHx8hsUDO7zM",
+  "pdfSize": "6988116"
+}

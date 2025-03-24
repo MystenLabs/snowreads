@@ -1,0 +1,87 @@
+{
+  "id": "2412.13774",
+  "title": "Designing an LLM-Based Copilot for Manufacturing Equipment Selection",
+  "authors": "Jonas Werheid, Oleksandr Melnychuk, Hans Zhou, Meike Huber, Christoph\n  Rippe, Dominik Joosten, Zozan Keskin, Max Wittstamm, Sathya Subramani, Benny\n  Drescher, Amon G\\\"oppert, Anas Abdelrazeq, Robert H. Schmitt",
+  "authorsParsed": [
+    [
+      "Werheid",
+      "Jonas",
+      ""
+    ],
+    [
+      "Melnychuk",
+      "Oleksandr",
+      ""
+    ],
+    [
+      "Zhou",
+      "Hans",
+      ""
+    ],
+    [
+      "Huber",
+      "Meike",
+      ""
+    ],
+    [
+      "Rippe",
+      "Christoph",
+      ""
+    ],
+    [
+      "Joosten",
+      "Dominik",
+      ""
+    ],
+    [
+      "Keskin",
+      "Zozan",
+      ""
+    ],
+    [
+      "Wittstamm",
+      "Max",
+      ""
+    ],
+    [
+      "Subramani",
+      "Sathya",
+      ""
+    ],
+    [
+      "Drescher",
+      "Benny",
+      ""
+    ],
+    [
+      "Göppert",
+      "Amon",
+      ""
+    ],
+    [
+      "Abdelrazeq",
+      "Anas",
+      ""
+    ],
+    [
+      "Schmitt",
+      "Robert H.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 18 Dec 2024 12:11:39 GMT"
+    }
+  ],
+  "updateDate": "2024-12-19",
+  "timestamp": 1734523899000,
+  "abstract": "  Effective decision-making in automation equipment selection is critical for\nreducing ramp-up time and maintaining production quality, especially in the\nface of increasing product variation and market demands. However, limited\nexpertise and resource constraints often result in inefficiencies during the\nramp-up phase when new products are integrated into production lines. Existing\nmethods often lack structured and tailored solutions to support automation\nengineers in reducing ramp-up time, leading to compromises in quality. This\nresearch investigates whether large-language models (LLMs), combined with\nRetrieval-Augmented Generation (RAG), can assist in streamlining equipment\nselection in ramp-up planning. We propose a factual-driven copilot integrating\nLLMs with structured and semi-structured knowledge retrieval for three\ncomponent types (robots, feeders and vision systems), providing a guided and\ntraceable state-machine process for decision-making in automation equipment\nselection. The system was demonstrated to an industrial partner, who tested it\non three internal use-cases. Their feedback affirmed its capability to provide\nlogical and actionable recommendations for automation equipment. More\nspecifically, among 22 equipment prompts analyzed, 19 involved selecting the\ncorrect equipment while considering most requirements, and in 6 cases, all\nrequirements were fully met.\n",
+  "subjects": [
+    "Computer Science/Robotics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "X5EuxRtuotbhq5Z4a6WzppuV-4e6r1jO_tSdmDxVhV8",
+  "pdfSize": "323427"
+}

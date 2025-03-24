@@ -1,0 +1,38 @@
+{
+  "id": "2412.15439",
+  "title": "Uncertainty Estimation for Super-Resolution using ESRGAN",
+  "authors": "Maniraj Sai Adapa and Marco Zullich and Matias Valdenegro-Toro",
+  "authorsParsed": [
+    [
+      "Adapa",
+      "Maniraj Sai",
+      ""
+    ],
+    [
+      "Zullich",
+      "Marco",
+      ""
+    ],
+    [
+      "Valdenegro-Toro",
+      "Matias",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 19 Dec 2024 22:42:29 GMT"
+    }
+  ],
+  "updateDate": "2024-12-23",
+  "timestamp": 1734648149000,
+  "abstract": "  Deep Learning-based image super-resolution (SR) has been gaining traction\nwith the aid of Generative Adversarial Networks. Models like SRGAN and ESRGAN\nare constantly ranked between the best image SR tools. However, they lack\nprincipled ways for estimating predictive uncertainty. In the present work, we\nenhance these models using Monte Carlo-Dropout and Deep Ensemble, allowing the\ncomputation of predictive uncertainty. When coupled with a prediction,\nuncertainty estimates can provide more information to the model users,\nhighlighting pixels where the SR output might be uncertain, hence potentially\ninaccurate, if these estimates were to be reliable. Our findings suggest that\nthese uncertainty estimates are decently calibrated and can hence fulfill this\ngoal, while providing no performance drop with respect to the corresponding\nmodels without uncertainty estimation.\n",
+  "subjects": [
+    "Electrical Engineering and Systems Science/Image and Video Processing",
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+  "blobId": "pfhaAjxjPubDd73SBpdtEZx3ad0xXh_wcNbm9bAvN6c",
+  "pdfSize": "5943385"
+}

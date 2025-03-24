@@ -1,0 +1,27 @@
+{
+  "id": "2412.02008",
+  "title": "Stably computable relations and predicates",
+  "authors": "James Aspnes",
+  "authorsParsed": [
+    [
+      "Aspnes",
+      "James",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 2 Dec 2024 22:26:42 GMT"
+    }
+  ],
+  "updateDate": "2024-12-04",
+  "timestamp": 1733178402000,
+  "abstract": "  A population protocol stably computes a relation R(x,y) if its output always\nstabilizes and R(x,y) holds if and only if y is a possible output for input x.\nAlternatively, a population protocol computes a predicate R(<x,y>) on pairs\n<x,y> if its output stabilizes on the truth value of the predicate when given\n<x,y> as input.\n  We consider how stably computing R(x,y) and R(<x,y>) relate to each other. We\nshow that for population protocols running on a complete interaction graph with\nn>=2, if R(<x,y>) is a stably computable predicate such that R(x,y) holds for\nat least one y for each x, then R(x,y) is a stably computable relation. In\ncontrast, the converse is not necessarily true unless R(x,y) holds for exactly\none y for each x.\n",
+  "subjects": [
+    "Computer Science/Distributed, Parallel, and Cluster Computing"
+  ],
+  "license": "http://creativecommons.org/licenses/by-sa/4.0/",
+  "blobId": "J4R8vMB0ysjbV5ydgRuslN-DWkM1kpd8vFRBqYunw0E",
+  "pdfSize": "156348"
+}

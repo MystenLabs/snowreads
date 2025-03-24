@@ -1,0 +1,32 @@
+{
+  "id": "2412.06856",
+  "title": "A note on Diagonal sequences of integer partitions",
+  "authors": "Michael Neubauer and Harmony Vargas",
+  "authorsParsed": [
+    [
+      "Neubauer",
+      "Michael",
+      ""
+    ],
+    [
+      "Vargas",
+      "Harmony",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 8 Dec 2024 20:25:51 GMT"
+    }
+  ],
+  "updateDate": "2024-12-11",
+  "timestamp": 1733689551000,
+  "abstract": "  Let \\(\\mathcal{P}(n)\\) be the set of partitions of the positive integer\n\\(n\\). For \\(\\alpha=(\\alpha_1,...,\\alpha_t) \\in \\mathcal{P}(n)\\) define the\ndiagonal sequence \\(\\delta(\\alpha)=(d_k(\\alpha))_{k \\geq 1}\\) via \\(\nd_k(\\alpha) = \\big\\lvert \\{ i \\, \\rvert \\, 1 \\leq i \\leq k \\mbox{ and }\n\\alpha_i + i- 1\\geq k \\} \\big\\rvert.\\) We show that the set of all partitions\nin \\(\\mathcal{P}(n)\\) with the same diagonal sequence is a partially ordered\nset under majorization with unique maximal and minimal elements and we give an\nexplicit formula for the number of partitions with the same diagonal sequence.\n",
+  "subjects": [
+    "Mathematics/Combinatorics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "A2wtLF_lBgn3lf1zGwXC-mvwFMW1uprsr_cJ7fbij6c",
+  "pdfSize": "194850"
+}

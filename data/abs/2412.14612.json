@@ -1,0 +1,42 @@
+{
+  "id": "2412.14612",
+  "title": "KARRIEREWEGE: A Large Scale Career Path Prediction Dataset",
+  "authors": "Elena Senger, Yuri Campbell, Rob van der Goot, Barbara Plank",
+  "authorsParsed": [
+    [
+      "Senger",
+      "Elena",
+      ""
+    ],
+    [
+      "Campbell",
+      "Yuri",
+      ""
+    ],
+    [
+      "van der Goot",
+      "Rob",
+      ""
+    ],
+    [
+      "Plank",
+      "Barbara",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 19 Dec 2024 08:02:08 GMT"
+    }
+  ],
+  "updateDate": "2024-12-20",
+  "timestamp": 1734595328000,
+  "abstract": "  Accurate career path prediction can support many stakeholders, like job\nseekers, recruiters, HR, and project managers. However, publicly available data\nand tools for career path prediction are scarce. In this work, we introduce\nKARRIEREWEGE, a comprehensive, publicly available dataset containing over 500k\ncareer paths, significantly surpassing the size of previously available\ndatasets. We link the dataset to the ESCO taxonomy to offer a valuable resource\nfor predicting career trajectories. To tackle the problem of free-text inputs\ntypically found in resumes, we enhance it by synthesizing job titles and\ndescriptions resulting in KARRIEREWEGE+. This allows for accurate predictions\nfrom unstructured data, closely aligning with real-world application\nchallenges. We benchmark existing state-of-the-art (SOTA) models on our dataset\nand a prior benchmark and observe improved performance and robustness,\nparticularly for free-text use cases, due to the synthesized data.\n",
+  "subjects": [
+    "Computer Science/Computation and Language"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "ywaWBaOpweLcjSSNyS98Fi2oMLlgTRZrM0WDFZMyniU",
+  "pdfSize": "590225"
+}

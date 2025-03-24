@@ -1,0 +1,48 @@
+{
+  "id": "2412.08052",
+  "title": "CANDOR: Counterfactual ANnotated DOubly Robust Off-Policy Evaluation",
+  "authors": "Aishwarya Mandyam, Shengpu Tang, Jiayu Yao, Jenna Wiens, Barbara E.\n  Engelhardt",
+  "authorsParsed": [
+    [
+      "Mandyam",
+      "Aishwarya",
+      ""
+    ],
+    [
+      "Tang",
+      "Shengpu",
+      ""
+    ],
+    [
+      "Yao",
+      "Jiayu",
+      ""
+    ],
+    [
+      "Wiens",
+      "Jenna",
+      ""
+    ],
+    [
+      "Engelhardt",
+      "Barbara E.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 11 Dec 2024 02:59:46 GMT"
+    }
+  ],
+  "updateDate": "2024-12-12",
+  "timestamp": 1733885986000,
+  "abstract": "  Off-policy evaluation (OPE) provides safety guarantees by estimating the\nperformance of a policy before deployment. Recent work introduced IS+, an\nimportance sampling (IS) estimator that uses expert-annotated counterfactual\nsamples to improve behavior dataset coverage. However, IS estimators are known\nto have high variance; furthermore, the performance of IS+ deteriorates when\nannotations are imperfect. In this work, we propose a family of OPE estimators\ninspired by the doubly robust (DR) principle. A DR estimator combines IS with a\nreward model estimate, known as the direct method (DM), and offers favorable\nstatistical guarantees. We propose three strategies for incorporating\ncounterfactual annotations into a DR-inspired estimator and analyze their\nproperties under various realistic settings. We prove that using imperfect\nannotations in the DM part of the estimator best leverages the annotations, as\nopposed to using them in the IS part. To support our theoretical findings, we\nevaluate the proposed estimators in three contextual bandit environments. Our\nempirical results show that when the reward model is misspecified and the\nannotations are imperfect, it is most beneficial to use the annotations only in\nthe DM portion of a DR estimator. Based on these theoretical and empirical\ninsights, we provide a practical guide for using counterfactual annotations in\ndifferent realistic settings.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Statistics/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "9ow8ZiPtuwjqnKc95KoQJMdZWjNstwNmOaFjhcwhk-c",
+  "pdfSize": "1160523"
+}

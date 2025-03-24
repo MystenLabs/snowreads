@@ -1,0 +1,42 @@
+{
+  "id": "2412.11071",
+  "title": "A Note on Valid Inequalities for PageRank Optimization with Edge\n  Selection Constraints",
+  "authors": "Shang-Ru Yang, Yung-Han Liao, Chih-Ching Chien, Hao-Hsiang Wu",
+  "authorsParsed": [
+    [
+      "Yang",
+      "Shang-Ru",
+      ""
+    ],
+    [
+      "Liao",
+      "Yung-Han",
+      ""
+    ],
+    [
+      "Chien",
+      "Chih-Ching",
+      ""
+    ],
+    [
+      "Wu",
+      "Hao-Hsiang",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 15 Dec 2024 06:04:20 GMT"
+    }
+  ],
+  "updateDate": "2024-12-17",
+  "timestamp": 1734242660000,
+  "abstract": "  Cs\\'{a}ji, Jungers, and Blondel prove that while a PageRank optimization\nproblem with edge selection constraints is NP-hard, it can be solved optimally\nin polynomial time for the unconstrained case. This theoretical result is\naccompanied by several observations, which we leverage to develop valid\ninequalities in polynomial time for this class of NP-hard problems.\n",
+  "subjects": [
+    "Mathematics/Optimization and Control"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "1u1vgAtTHjGdgOiAK2CFEjNV_rMl_tzE7LM91dP1B38",
+  "pdfSize": "189575"
+}

@@ -1,0 +1,43 @@
+{
+  "id": "2412.02320",
+  "title": "Simulating Composite Fermion Excitons by Density Functional Theory and\n  Monte Carlo on a Disk",
+  "authors": "Yi Yang, Songyang Pu, Yayun Hu and Zi-Xiang Hu",
+  "authorsParsed": [
+    [
+      "Yang",
+      "Yi",
+      ""
+    ],
+    [
+      "Pu",
+      "Songyang",
+      ""
+    ],
+    [
+      "Hu",
+      "Yayun",
+      ""
+    ],
+    [
+      "Hu",
+      "Zi-Xiang",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 3 Dec 2024 09:35:26 GMT"
+    }
+  ],
+  "updateDate": "2024-12-04",
+  "timestamp": 1733218526000,
+  "abstract": "  The Kohn-Sham density functional method for the fractional quantum Hall (FQH)\neffect has recently been developed by mapping the strongly interacting\nelectrons into an auxiliary system of weakly interacting composite fermions\n(CFs) that experience a density-dependent effective magnetic field. This\napproach has been successfully applied to explore the edge rescontruction,\nfractional charge and fractional braiding statistics of quasiparticle\nexcitations. In this work, we investigate composite fermion excitons in the\nbulk of the disk geometry. By varying the separation of the\nquasiparticle-quasihole pairs and calculating their energy, we compare the\ndispersion of the magnetoroton mode with results from other numerical methods,\nsuch as exact diagonalization (ED) and Monte Carlo (MC) simulation.\nFurthermore, through an evaluation of the spectral function, we identify chiral\n``graviton'' excitations: a spin $-2$ mode for the particle-like Laughlin state\nand a spin $2$ mode for the hole-like Laughlin state. This method can be\nextended to construct neutral collective excitations for other fractional\nquantum Hall states in disk geometry.\n",
+  "subjects": [
+    "Condensed Matter/Strongly Correlated Electrons",
+    "Condensed Matter/Mesoscale and Nanoscale Physics"
+  ],
+  "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+  "blobId": "6QVcnJkcSBAbB0cuCKlbD1ITvYAi3euqAhVv_OqEB9E",
+  "pdfSize": "1187286"
+}

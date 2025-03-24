@@ -1,0 +1,32 @@
+{
+  "id": "2412.02528",
+  "title": "Bias Analysis of AI Models for Undergraduate Student Admissions",
+  "authors": "Kelly Van Busum and Shiaofen Fang",
+  "authorsParsed": [
+    [
+      "Van Busum",
+      "Kelly",
+      ""
+    ],
+    [
+      "Fang",
+      "Shiaofen",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 3 Dec 2024 16:21:37 GMT"
+    }
+  ],
+  "updateDate": "2024-12-04",
+  "timestamp": 1733242897000,
+  "abstract": "  Bias detection and mitigation is an active area of research in machine\nlearning. This work extends previous research done by the authors to provide a\nrigorous and more complete analysis of the bias found in AI predictive models.\nAdmissions data spanning six years was used to create an AI model to determine\nwhether a given student would be directly admitted into the School of Science\nunder various scenarios at a large urban research university. During this time,\nsubmission of standardized test scores as part of an application became\noptional which led to interesting questions about the impact of standardized\ntest scores on admission decisions. We developed and analyzed AI models to\nunderstand which variables are important in admissions decisions, and how the\ndecision to exclude test scores affects the demographics of the students who\nare admitted. We then evaluated the predictive models to detect and analyze\nbiases these models may carry with respect to three variables chosen to\nrepresent sensitive populations: gender, race, and whether a student was the\nfirst in his or her family to attend college. We also extended our analysis to\nshow that the biases detected were persistent. Finally, we included several\nfairness metrics in our analysis and discussed the uses and limitations of\nthese metrics.\n",
+  "subjects": [
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "w_YHUjXLoEXLOcVr6bXjW7iPt8LTgNKej5fqBLhLznI",
+  "pdfSize": "342792"
+}

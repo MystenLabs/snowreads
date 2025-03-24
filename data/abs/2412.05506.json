@@ -1,0 +1,53 @@
+{
+  "id": "2412.05506",
+  "title": "Confidence Diagram of Nonparametric Ranking for Uncertainty Assessment\n  in Large Language Models Evaluation",
+  "authors": "Zebin Wang, Yi Han, Ethan X. Fang, Lan Wang, Junwei Lu",
+  "authorsParsed": [
+    [
+      "Wang",
+      "Zebin",
+      ""
+    ],
+    [
+      "Han",
+      "Yi",
+      ""
+    ],
+    [
+      "Fang",
+      "Ethan X.",
+      ""
+    ],
+    [
+      "Wang",
+      "Lan",
+      ""
+    ],
+    [
+      "Lu",
+      "Junwei",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 7 Dec 2024 02:34:30 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Mon, 10 Feb 2025 15:26:28 GMT"
+    }
+  ],
+  "updateDate": "2025-02-11",
+  "timestamp": 1733538870000,
+  "abstract": "  We consider the inference for the ranking of large language models (LLMs).\nAlignment arises as a significant challenge to mitigate hallucinations in the\nuse of LLMs. Ranking LLMs has proven to be an effective tool to improve\nalignment based on the best-of-$N$ policy. In this paper, we propose a new\ninferential framework for hypothesis testing among the ranking for language\nmodels. Our framework is based on a nonparametric contextual ranking framework\ndesigned to assess large language models' domain-specific expertise, leveraging\nnonparametric scoring methods to account for their sensitivity to the prompts.\nTo characterize the combinatorial complexity of the ranking, we introduce a\nnovel concept of confidence diagram, which leverages a Hasse diagram to\nrepresent the entire confidence set of rankings by a single directed graph. We\nshow the validity of the proposed confidence diagram by advancing the Gaussian\nmultiplier bootstrap theory to accommodate the supremum of independent\nempirical processes that are not necessarily identically distributed. Extensive\nnumerical experiments conducted on both synthetic and real data demonstrate\nthat our approach offers valuable insight into the evaluation for the\nperformance of different LLMs across various medical domains.\n",
+  "subjects": [
+    "Statistics/Machine Learning",
+    "Computer Science/Machine Learning",
+    "Statistics/Methodology"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "ZqYSizAFQ-dpw2qesmYDVhs8KKAVFLqJBMkduKffGEc",
+  "pdfSize": "3022715"
+}

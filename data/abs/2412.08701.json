@@ -1,0 +1,65 @@
+{
+  "id": "2412.08701",
+  "title": "GalSBI: Phenomenological galaxy population model for cosmology using\n  simulation-based inference",
+  "authors": "Silvan Fischbacher, Tomasz Kacprzak, Luca Tortorelli, Beatrice Moser,\n  Alexandre Refregier, Patrick Gebhardt, Daniel Gruen",
+  "authorsParsed": [
+    [
+      "Fischbacher",
+      "Silvan",
+      ""
+    ],
+    [
+      "Kacprzak",
+      "Tomasz",
+      ""
+    ],
+    [
+      "Tortorelli",
+      "Luca",
+      ""
+    ],
+    [
+      "Moser",
+      "Beatrice",
+      ""
+    ],
+    [
+      "Refregier",
+      "Alexandre",
+      ""
+    ],
+    [
+      "Gebhardt",
+      "Patrick",
+      ""
+    ],
+    [
+      "Gruen",
+      "Daniel",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 11 Dec 2024 19:00:00 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Fri, 13 Dec 2024 15:39:19 GMT"
+    },
+    {
+      "version": "v3",
+      "created": "Wed, 29 Jan 2025 13:52:46 GMT"
+    }
+  ],
+  "updateDate": "2025-01-30",
+  "timestamp": 1733943600000,
+  "abstract": "  We present GalSBI, a phenomenological model of the galaxy population for\ncosmological applications using simulation-based inference. The model is based\non analytical parametrizations of galaxy luminosity functions, morphologies and\nspectral energy distributions. Model constraints are derived through iterative\nApproximate Bayesian Computation, by comparing Hyper Suprime-Cam deep field\nimages with simulations which include a forward model of instrumental,\nobservational and source extraction effects. We developed an emulator trained\non image simulations using a normalizing flow. We use it to accelerate the\ninference by predicting detection probabilities, including blending effects and\nphotometric properties of each object, while accounting for background and PSF\nvariations. This enables robustness tests for all elements of the forward model\nand the inference. The model demonstrates excellent performance when comparing\nphotometric properties from simulations with observed imaging data for key\nparameters such as magnitudes, colors and sizes. The redshift distribution of\nsimulated galaxies agrees well with high-precision photometric redshifts in the\nCOSMOS field within $1.5\\sigma$ for all magnitude cuts. Additionally, we\ndemonstrate how GalSBI's redshifts can be utilized for splitting galaxy\ncatalogs into tomographic bins, highlighting its potential for current and\nupcoming surveys. GalSBI is fully open-source, with the accompanying Python\npackage, $\\texttt{galsbi}$, offering an easy interface to quickly generate\nrealistic, survey-independent galaxy catalogs.\n",
+  "subjects": [
+    "Astrophysics/Cosmology and Nongalactic Astrophysics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "QLGGyTEdYW-EesHaqYS_5jDHWLcw3apBRiAhwcLNBLM",
+  "pdfSize": "4727422"
+}

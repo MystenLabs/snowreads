@@ -1,0 +1,47 @@
+{
+  "id": "2412.11768",
+  "title": "No More Adam: Learning Rate Scaling at Initialization is All You Need",
+  "authors": "Minghao Xu, Lichuan Xiang, Xu Cai, Hongkai Wen",
+  "authorsParsed": [
+    [
+      "Xu",
+      "Minghao",
+      ""
+    ],
+    [
+      "Xiang",
+      "Lichuan",
+      ""
+    ],
+    [
+      "Cai",
+      "Xu",
+      ""
+    ],
+    [
+      "Wen",
+      "Hongkai",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 16 Dec 2024 13:41:37 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Tue, 17 Dec 2024 09:30:44 GMT"
+    }
+  ],
+  "updateDate": "2024-12-18",
+  "timestamp": 1734356497000,
+  "abstract": "  In this work, we question the necessity of adaptive gradient methods for\ntraining deep neural networks. SGD-SaI is a simple yet effective enhancement to\nstochastic gradient descent with momentum (SGDM). SGD-SaI performs learning\nrate Scaling at Initialization (SaI) to distinct parameter groups, guided by\ntheir respective gradient signal-to-noise ratios (g-SNR). By adjusting learning\nrates without relying on adaptive second-order momentum, SGD-SaI helps prevent\ntraining imbalances from the very first iteration and cuts the optimizer's\nmemory usage by half compared to AdamW. Despite its simplicity and efficiency,\nSGD-SaI consistently matches or outperforms AdamW in training a variety of\nTransformer-based tasks, effectively overcoming a long-standing challenge of\nusing SGD for training Transformers. SGD-SaI excels in ImageNet-1K\nclassification with Vision Transformers(ViT) and GPT-2 pretraining for large\nlanguage models (LLMs, transformer decoder-only), demonstrating robustness to\nhyperparameter variations and practicality for diverse applications. We further\ntested its robustness on tasks like LoRA fine-tuning for LLMs and diffusion\nmodels, where it consistently outperforms state-of-the-art optimizers. From a\nmemory efficiency perspective, SGD-SaI achieves substantial memory savings for\noptimizer states, reducing memory usage by 5.93 GB for GPT-2 (1.5B parameters)\nand 25.15 GB for Llama2-7B compared to AdamW in full-precision training\nsettings.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "T53DiQrz09q1N-ekqd97uFBmUzB7AlNPy4We-lZdEY8",
+  "pdfSize": "3425105"
+}

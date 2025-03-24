@@ -1,0 +1,122 @@
+{
+  "id": "2412.11198",
+  "title": "GEM: A Generalizable Ego-Vision Multimodal World Model for Fine-Grained\n  Ego-Motion, Object Dynamics, and Scene Composition Control",
+  "authors": "Mariam Hassan, Sebastian Stapf, Ahmad Rahimi, Pedro M B Rezende,\n  Yasaman Haghighi, David Br\\\"uggemann, Isinsu Katircioglu, Lin Zhang, Xiaoran\n  Chen, Suman Saha, Marco Cannici, Elie Aljalbout, Botao Ye, Xi Wang, Aram\n  Davtyan, Mathieu Salzmann, Davide Scaramuzza, Marc Pollefeys, Paolo Favaro,\n  Alexandre Alahi",
+  "authorsParsed": [
+    [
+      "Hassan",
+      "Mariam",
+      ""
+    ],
+    [
+      "Stapf",
+      "Sebastian",
+      ""
+    ],
+    [
+      "Rahimi",
+      "Ahmad",
+      ""
+    ],
+    [
+      "Rezende",
+      "Pedro M B",
+      ""
+    ],
+    [
+      "Haghighi",
+      "Yasaman",
+      ""
+    ],
+    [
+      "Brüggemann",
+      "David",
+      ""
+    ],
+    [
+      "Katircioglu",
+      "Isinsu",
+      ""
+    ],
+    [
+      "Zhang",
+      "Lin",
+      ""
+    ],
+    [
+      "Chen",
+      "Xiaoran",
+      ""
+    ],
+    [
+      "Saha",
+      "Suman",
+      ""
+    ],
+    [
+      "Cannici",
+      "Marco",
+      ""
+    ],
+    [
+      "Aljalbout",
+      "Elie",
+      ""
+    ],
+    [
+      "Ye",
+      "Botao",
+      ""
+    ],
+    [
+      "Wang",
+      "Xi",
+      ""
+    ],
+    [
+      "Davtyan",
+      "Aram",
+      ""
+    ],
+    [
+      "Salzmann",
+      "Mathieu",
+      ""
+    ],
+    [
+      "Scaramuzza",
+      "Davide",
+      ""
+    ],
+    [
+      "Pollefeys",
+      "Marc",
+      ""
+    ],
+    [
+      "Favaro",
+      "Paolo",
+      ""
+    ],
+    [
+      "Alahi",
+      "Alexandre",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 15 Dec 2024 14:21:19 GMT"
+    }
+  ],
+  "updateDate": "2024-12-17",
+  "timestamp": 1734272479000,
+  "abstract": "  We present GEM, a Generalizable Ego-vision Multimodal world model that\npredicts future frames using a reference frame, sparse features, human poses,\nand ego-trajectories. Hence, our model has precise control over object\ndynamics, ego-agent motion and human poses. GEM generates paired RGB and depth\noutputs for richer spatial understanding. We introduce autoregressive noise\nschedules to enable stable long-horizon generations. Our dataset is comprised\nof 4000+ hours of multimodal data across domains like autonomous driving,\negocentric human activities, and drone flights. Pseudo-labels are used to get\ndepth maps, ego-trajectories, and human poses. We use a comprehensive\nevaluation framework, including a new Control of Object Manipulation (COM)\nmetric, to assess controllability. Experiments show GEM excels at generating\ndiverse, controllable scenarios and temporal consistency over long generations.\nCode, models, and datasets are fully open-sourced.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "iVWp0v-FgJmyh4Xv1wGBuJVMNqE-rg3t8Q0wD5t4xZ0",
+  "pdfSize": "35428186"
+}

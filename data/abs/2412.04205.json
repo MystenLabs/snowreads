@@ -1,0 +1,47 @@
+{
+  "id": "2412.04205",
+  "title": "A Context-aware Framework for Translation-mediated Conversations",
+  "authors": "Jos\\'e Pombal, Sweta Agrawal, Patrick Fernandes, Emmanouil Zaranis,\n  Andr\\'e F. T. Martins",
+  "authorsParsed": [
+    [
+      "Pombal",
+      "José",
+      ""
+    ],
+    [
+      "Agrawal",
+      "Sweta",
+      ""
+    ],
+    [
+      "Fernandes",
+      "Patrick",
+      ""
+    ],
+    [
+      "Zaranis",
+      "Emmanouil",
+      ""
+    ],
+    [
+      "Martins",
+      "André F. T.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 5 Dec 2024 14:41:05 GMT"
+    }
+  ],
+  "updateDate": "2024-12-06",
+  "timestamp": 1733409665000,
+  "abstract": "  Effective communication is fundamental to any interaction, yet challenges\narise when participants do not share a common language. Automatic translation\nsystems offer a powerful solution to bridge language barriers in such\nscenarios, but they introduce errors that can lead to misunderstandings and\nconversation breakdown. A key issue is that current systems fail to incorporate\nthe rich contextual information necessary to resolve ambiguities and omitted\ndetails, resulting in literal, inappropriate, or misaligned translations. In\nthis work, we present a framework to improve large language model-based\ntranslation systems by incorporating contextual information in bilingual\nconversational settings. During training, we leverage context-augmented\nparallel data, which allows the model to generate translations sensitive to\nconversational history. During inference, we perform quality-aware decoding\nwith context-aware metrics to select the optimal translation from a pool of\ncandidates. We validate both components of our framework on two task-oriented\ndomains: customer chat and user-assistant interaction. Across both settings,\nour framework consistently results in better translations than state-of-the-art\nsystems like GPT-4o and TowerInstruct, as measured by multiple automatic\ntranslation quality metrics on several language pairs. We also show that the\nresulting model leverages context in an intended and interpretable way,\nimproving consistency between the conveyed message and the generated\ntranslations.\n",
+  "subjects": [
+    "Computer Science/Computation and Language"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "YoMaZCYtmNCOeIZs8fQAdx33yCWmSV7GZ8TdnheQKzM",
+  "pdfSize": "1509671"
+}

@@ -1,0 +1,57 @@
+{
+  "id": "2412.19353",
+  "title": "SuperSalt: Equivariant Neural Network Force Fields for Multicomponent\n  Molten Salts System",
+  "authors": "Chen Shen, Siamak Attarian, Yixuan Zhang, Hongbin Zhang, Mark Asta,\n  Izabela Szlufarska, Dane Morgan",
+  "authorsParsed": [
+    [
+      "Shen",
+      "Chen",
+      ""
+    ],
+    [
+      "Attarian",
+      "Siamak",
+      ""
+    ],
+    [
+      "Zhang",
+      "Yixuan",
+      ""
+    ],
+    [
+      "Zhang",
+      "Hongbin",
+      ""
+    ],
+    [
+      "Asta",
+      "Mark",
+      ""
+    ],
+    [
+      "Szlufarska",
+      "Izabela",
+      ""
+    ],
+    [
+      "Morgan",
+      "Dane",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 26 Dec 2024 21:32:08 GMT"
+    }
+  ],
+  "updateDate": "2024-12-30",
+  "timestamp": 1735248728000,
+  "abstract": "  Molten salts are crucial for clean energy applications, yet exploring their\nthermophysical properties across diverse chemical space remains challenging. We\npresent the development of a machine learning interatomic potential (MLIP)\ncalled SuperSalt, which targets 11-cation chloride melts and captures the\nessential physics of molten salts with near-DFT accuracy. Using an efficient\nworkflow that integrates systems of one, two, and 11 components, the SuperSalt\npotential can accurately predict thermophysical properties such as density,\nbulk modulus, thermal expansion, and heat capacity. Our model is validated\nacross a broad chemical space, demonstrating excellent transferability. We\nfurther illustrate how Bayesian optimization combined with SuperSalt can\naccelerate the discovery of optimal salt compositions with desired properties.\nThis work provides a foundation for future studies that allows easy extensions\nto more complex systems, such as those containing additional elements.\nSuperSalt represents a shift towards a more universal, efficient, and accurate\nmodeling of molten salts for advanced energy applications.\n",
+  "subjects": [
+    "Condensed Matter/Materials Science"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "xA4ri47mQJ15N3qk7PZXvqgRvi6B9j_Tt2qWBOgckfE",
+  "pdfSize": "2782440"
+}

@@ -1,0 +1,38 @@
+{
+  "id": "2412.03668",
+  "title": "Hidden Markov graphical models with state-dependent generalized\n  hyperbolic distributions",
+  "authors": "Beatrice Foroni, Luca Merlo and Lea Petrella",
+  "authorsParsed": [
+    [
+      "Foroni",
+      "Beatrice",
+      ""
+    ],
+    [
+      "Merlo",
+      "Luca",
+      ""
+    ],
+    [
+      "Petrella",
+      "Lea",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 4 Dec 2024 19:01:45 GMT"
+    }
+  ],
+  "updateDate": "2024-12-06",
+  "timestamp": 1733338905000,
+  "abstract": "  In this paper we develop a novel hidden Markov graphical model to investigate\ntime-varying interconnectedness between different financial markets. To\nidentify conditional correlation structures under varying market conditions and\naccommodate stylized facts embedded in financial time series, we rely upon the\ngeneralized hyperbolic family of distributions with time-dependent parameters\nevolving according to a latent Markov chain. We exploit its location-scale\nmixture representation to build a penalized EM algorithm for estimating the\nstate-specific sparse precision matrices by means of an $L_1$ penalty. The\nproposed approach leads to regime-specific conditional correlation graphs that\nallow us to identify different degrees of network connectivity of returns over\ntime. The methodology's effectiveness is validated through simulation exercises\nunder different scenarios. In the empirical analysis we apply our model to\ndaily returns of a large set of market indexes, cryptocurrencies and commodity\nfutures over the period 2017-2023.\n",
+  "subjects": [
+    "Statistics/Methodology",
+    "Quantitative Finance/Statistical Finance"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "vC4uGVjqZIKiyPvgOiOf2VpvjH1EKpnJNb5IjPHmqkU",
+  "pdfSize": "891436"
+}

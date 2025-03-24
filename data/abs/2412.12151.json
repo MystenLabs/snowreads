@@ -1,0 +1,39 @@
+{
+  "id": "2412.12151",
+  "title": "SMARTCAL: An Approach to Self-Aware Tool-Use Evaluation and Calibration",
+  "authors": "Yuanhao Shen, Xiaodan Zhu, Lei Chen",
+  "authorsParsed": [
+    [
+      "Shen",
+      "Yuanhao",
+      ""
+    ],
+    [
+      "Zhu",
+      "Xiaodan",
+      ""
+    ],
+    [
+      "Chen",
+      "Lei",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 11 Dec 2024 06:09:12 GMT"
+    }
+  ],
+  "updateDate": "2024-12-18",
+  "timestamp": 1733897352000,
+  "abstract": "  The tool-use ability of Large Language Models (LLMs) has a profound impact on\na wide range of industrial applications. However, LLMs' self-control and\ncalibration capability in appropriately using tools remains understudied. The\nproblem is consequential as it raises potential risks of degraded performance\nand poses a threat to the trustworthiness of the models. In this paper, we\nconduct a study on a family of state-of-the-art LLMs on three datasets with two\nmainstream tool-use frameworks. Our study reveals the tool-abuse behavior of\nLLMs, a tendency for models to misuse tools with overconfidence. We also find\nthat this is a common issue regardless of model capability. Accordingly, we\npropose a novel approach, \\textit{SMARTCAL}, to mitigate the observed issues,\nand our results show an average of 8.6 percent increase in the QA performance\nand a 21.6 percent decrease in Expected Calibration Error (ECE) compared to\nbaseline models.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Software Engineering"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "KCIJQRuRk3cNa_RV25OUJW_eCYV22Wpap4LdFQMZZo8",
+  "pdfSize": "3643311"
+}

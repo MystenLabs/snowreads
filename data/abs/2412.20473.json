@@ -1,0 +1,42 @@
+{
+  "id": "2412.20473",
+  "title": "Toward Scene Graph and Layout Guided Complex 3D Scene Generation",
+  "authors": "Yu-Hsiang Huang, Wei Wang, Sheng-Yu Huang, Yu-Chiang Frank Wang",
+  "authorsParsed": [
+    [
+      "Huang",
+      "Yu-Hsiang",
+      ""
+    ],
+    [
+      "Wang",
+      "Wei",
+      ""
+    ],
+    [
+      "Huang",
+      "Sheng-Yu",
+      ""
+    ],
+    [
+      "Wang",
+      "Yu-Chiang Frank",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 29 Dec 2024 14:21:03 GMT"
+    }
+  ],
+  "updateDate": "2024-12-31",
+  "timestamp": 1735482063000,
+  "abstract": "  Recent advancements in object-centric text-to-3D generation have shown\nimpressive results. However, generating complex 3D scenes remains an open\nchallenge due to the intricate relations between objects. Moreover, existing\nmethods are largely based on score distillation sampling (SDS), which\nconstrains the ability to manipulate multiobjects with specific interactions.\nAddressing these critical yet underexplored issues, we present a novel\nframework of Scene Graph and Layout Guided 3D Scene Generation (GraLa3D). Given\na text prompt describing a complex 3D scene, GraLa3D utilizes LLM to model the\nscene using a scene graph representation with layout bounding box information.\nGraLa3D uniquely constructs the scene graph with single-object nodes and\ncomposite super-nodes. In addition to constraining 3D generation within the\ndesirable layout, a major contribution lies in the modeling of interactions\nbetween objects in a super-node, while alleviating appearance leakage across\nobjects within such nodes. Our experiments confirm that GraLa3D overcomes the\nabove limitations and generates complex 3D scenes closely aligned with text\nprompts.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "LOgznKK79KPkL-qvFFhwAyqeaxrfN2SZgcNjePSoh8c",
+  "pdfSize": "4273943"
+}

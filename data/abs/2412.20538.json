@@ -1,0 +1,47 @@
+{
+  "id": "2412.20538",
+  "title": "Exploiting Aggregation and Segregation of Representations for Domain\n  Adaptive Human Pose Estimation",
+  "authors": "Qucheng Peng, Ce Zheng, Zhengming Ding, Pu Wang, Chen Chen",
+  "authorsParsed": [
+    [
+      "Peng",
+      "Qucheng",
+      ""
+    ],
+    [
+      "Zheng",
+      "Ce",
+      ""
+    ],
+    [
+      "Ding",
+      "Zhengming",
+      ""
+    ],
+    [
+      "Wang",
+      "Pu",
+      ""
+    ],
+    [
+      "Chen",
+      "Chen",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 29 Dec 2024 17:59:45 GMT"
+    }
+  ],
+  "updateDate": "2024-12-31",
+  "timestamp": 1735495185000,
+  "abstract": "  Human pose estimation (HPE) has received increasing attention recently due to\nits wide application in motion analysis, virtual reality, healthcare, etc.\nHowever, it suffers from the lack of labeled diverse real-world datasets due to\nthe time- and labor-intensive annotation. To cope with the label deficiency\nissue, one common solution is to train the HPE models with easily available\nsynthetic datasets (source) and apply them to real-world data (target) through\ndomain adaptation (DA). Unfortunately, prevailing domain adaptation techniques\nwithin the HPE domain remain predominantly fixated on effecting alignment and\naggregation between source and target features, often sidestepping the crucial\ntask of excluding domain-specific representations. To rectify this, we\nintroduce a novel framework that capitalizes on both representation aggregation\nand segregation for domain adaptive human pose estimation. Within this\nframework, we address the network architecture aspect by disentangling\nrepresentations into distinct domain-invariant and domain-specific components,\nfacilitating aggregation of domain-invariant features while simultaneously\nsegregating domain-specific ones. Moreover, we tackle the discrepancy\nmeasurement facet by delving into various keypoint relationships and applying\nseparate aggregation or segregation mechanisms to enhance alignment. Extensive\nexperiments on various benchmarks, e.g., Human3.6M, LSP, H3D, and FreiHand,\nshow that our method consistently achieves state-of-the-art performance. The\nproject is available at \\url{https://github.com/davidpengucf/EPIC}.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "PTl3sF8T8BlwdX-CFrFI4mnW9_hpWGmpG1HcSS0JYIs",
+  "pdfSize": "11386165"
+}

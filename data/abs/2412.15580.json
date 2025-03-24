@@ -1,0 +1,32 @@
+{
+  "id": "2412.15580",
+  "title": "Cellular Dynamics of Herium-rich Detonation on sub-Chandrasekhar Mass\n  White Dwarf",
+  "authors": "Kazuya Iwata and Keiichi Maeda",
+  "authorsParsed": [
+    [
+      "Iwata",
+      "Kazuya",
+      ""
+    ],
+    [
+      "Maeda",
+      "Keiichi",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 20 Dec 2024 05:28:28 GMT"
+    }
+  ],
+  "updateDate": "2024-12-23",
+  "timestamp": 1734672508000,
+  "abstract": "  Most previous efforts for hydrodynamic studies on detonation in the context\nof Type Ia supernovae did not take into account the scale of the cellular\nstructure for a criterion in initiation, propagation, quenching, and the\nresolution requirement of detonation, whereas it is quite common to consider\ncell sizes in the discussion on terrestrial detonation in chemically reactive\nsystems. In our recent study, the terrestrial cell-based theories, which\nincorporates the cell-size data acquired in 2D simulations of helium detonation\nin the double-detonation model, were demonstrated to be a powerful diagnostics\nin reproducing the thresholds in the initiation and quenching provided by\nprevious studies. In the present study, 2D simulation results of the cellular\ndetonation in the base of white-dwarf (WD) envelope are described in detail, in\nterms of the dynamic wave morphology and chemical abundance structure. The\ncellular structure is observed at a range of upstream density and envelope\ncomposition explored in the present work. C/O contamination by the WD core\nmaterial reduces the cell width rapidly, as accelerated by the {\\alpha}-capture\nreaction. It is also indicated that nickel production could be significantly\ndelayed for the C/O-rich composition. The small cell width makes it extremely\ndemanding to resolve the detonation structure in full-star simulations of SNe\nIa; this could raise a concern on the robustness of the outcomes of some\nnumerical simulations in terms of the success and failure of detonation. This\nissue may be overcome by sub-grid modeling that incorporates the cellular\ndynamics acquired in resolved simulations.\n",
+  "subjects": [
+    "Astrophysics/High Energy Astrophysical Phenomena"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "pgS6ubtdrahVWSAbpDbDZ0wV9ALnPDmt1Jo6-Ir1bco",
+  "pdfSize": "5418396"
+}

@@ -1,0 +1,36 @@
+{
+  "id": "2412.10854",
+  "title": "The Monadic Grzegorczyk Logic",
+  "authors": "Guram Bezhanishvili and Mashiath Khan",
+  "authorsParsed": [
+    [
+      "Bezhanishvili",
+      "Guram",
+      ""
+    ],
+    [
+      "Khan",
+      "Mashiath",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 14 Dec 2024 15:02:35 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Tue, 17 Dec 2024 02:19:21 GMT"
+    }
+  ],
+  "updateDate": "2024-12-18",
+  "timestamp": 1734188555000,
+  "abstract": "  We develop a semantic criterion for determining whether a given monadic modal\nlogic axiomatizes the one-variable fragment of a predicate modal logic. We show\nthat the criterion applies to the monadic Grzegorczyk logic MGrz, thus\nestablishing that MGrz axiomatizes the one-variable fragment of the predicate\nGrzegorczyk logic QGrz. This we do by proving the finite model property of\nMGrz, which is achieved by strengthening the notion of a maximal point of a\ndescriptive MGrz-frame and by refining the existing selective filtration\nmethods.\n",
+  "subjects": [
+    "Mathematics/Logic"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "JhTJ9Hp5q1Qb0gR_SsyBBr3LXJ0RHRm5uwZ9dZ1eqTw",
+  "pdfSize": "395178"
+}

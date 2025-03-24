@@ -1,0 +1,37 @@
+{
+  "id": "2412.08040",
+  "title": "A hybrid Finite Element and Material Point Method for modeling\n  liquefaction-induced tailings dam failures",
+  "authors": "Brent Sordo, Ellen Rathje, Krishna Kumar",
+  "authorsParsed": [
+    [
+      "Sordo",
+      "Brent",
+      ""
+    ],
+    [
+      "Rathje",
+      "Ellen",
+      ""
+    ],
+    [
+      "Kumar",
+      "Krishna",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 11 Dec 2024 02:42:22 GMT"
+    }
+  ],
+  "updateDate": "2024-12-12",
+  "timestamp": 1733884942000,
+  "abstract": "  This paper presents a hybrid Finite Element Method (FEM) and Material Point\nMethod (MPM) approach for modeling liquefaction-induced tailings dam failures\nfrom initiation through runout. We apply this method to simulate the 1978\nMochikoshi tailings dam failure, which occurred due to seismic loading and\nliquefaction during an earthquake. Our approach leverages FEM to capture the\ninitial failure mechanism and MPM to simulate the subsequent runout, exploiting\nthe strength of each method in their respective phases of the failure process.\nWe investigate the impact of the FEM-to-MPM transfer time on runout results,\nidentifying an optimal transfer window. This window begins when liquefaction\nreaches a critical depth to fully trigger the failure and ends before excessive\nmesh deformation occurs. Our findings demonstrate that the properties of the\nliquefied tailings significantly influence runout predictions. Notably, we\nachieve runout distances comparable to the case history only when incorporating\nadditional strain-softening beyond the initial liquefaction-induced strength\nreduction. Our results demonstrate that the hybrid FEM-MPM method effectively\nmodels tailings dam failures associated with complex failure mechanisms and\nlarge runouts. This approach offers a promising tool for predicting the runout\nof seismic liquefaction-induced tailings dam failures, improving risk\nassessment and mitigation strategies in tailings dam management.\n",
+  "subjects": [
+    "Physics/Geophysics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "r5BtK4xBIa_w1LmPbydyRIT2nEKtYrAAUBm7eSMUVAg",
+  "pdfSize": "3316209"
+}

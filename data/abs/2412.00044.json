@@ -1,0 +1,28 @@
+{
+  "id": "2412.00044",
+  "title": "Creating Hierarchical Dispositions of Needs in an Agent",
+  "authors": "Tofara Moyo",
+  "authorsParsed": [
+    [
+      "Moyo",
+      "Tofara",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 23 Nov 2024 06:41:54 GMT"
+    }
+  ],
+  "updateDate": "2024-12-03",
+  "timestamp": 1732344114000,
+  "abstract": "  We present a novel method for learning hierarchical abstractions that\nprioritize competing objectives, leading to improved global expected rewards.\nOur approach employs a secondary rewarding agent with multiple scalar outputs,\neach associated with a distinct level of abstraction. The traditional agent\nthen learns to maximize these outputs in a hierarchical manner, conditioning\neach level on the maximization of the preceding level. We derive an equation\nthat orders these scalar values and the global reward by priority, inducing a\nhierarchy of needs that informs goal formation. Experimental results on the\nPendulum v1 environment demonstrate superior performance compared to a baseline\nimplementation.We achieved state of the art results.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "v8GoP1SK1OJ7pBWVvyGvWJuVq5r_XHdqCCcDmAKly8s",
+  "pdfSize": "260382"
+}

@@ -1,0 +1,34 @@
+{
+  "id": "2412.11932",
+  "title": "Uniform response theory of non-Hermitian systems: Non-Hermitian physics\n  beyond the exceptional point",
+  "authors": "Subhajyoti Bid and Henning Schomerus",
+  "authorsParsed": [
+    [
+      "Bid",
+      "Subhajyoti",
+      ""
+    ],
+    [
+      "Schomerus",
+      "Henning",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 16 Dec 2024 16:18:25 GMT"
+    }
+  ],
+  "updateDate": "2024-12-17",
+  "timestamp": 1734365905000,
+  "abstract": "  Non-Hermitian systems display remarkable response effects that reflect a\nvariety of distinct spectral scenarios, such as exceptional points where the\neigensystem becomes defective. However, present frameworks treat the different\nscenarios as separate cases, following the singular mathematical change between\nthe spectral decompositions from one scenario to another. This not only\ncomplicates the coherent description near the spectral singularities where the\nresponse qualitatively changes, but also impedes the application to practical\nsystems. Here we develop a general response theory of non-Hermitian systems\nthat uniformly applies across all spectral scenarios. We unravel this response\nby formulating uniform expansions of the spectral quantization condition and\nGreen's function, where both expansions exclusively involve directly calculable\ndata from the Hamiltonian. This data smoothly varies with external parameters\nas spectral singularities are approached, and nevertheless captures the\nqualitative differences of the response in these scenarios. We furthermore\npresent two direct applications of this framework. Firstly, we determine the\nprecise conditions for spectral degeneracies of geometric multiplicity greater\nthan unity, as well as the perturbative behavior around these cases. Secondly,\nwe formulate a hierarchy of spectral response strengths that varies\ncontinuously across all parameter space, and thereby also reliably determines\nthe response strength of exceptional points. Finally, we demonstrate both\ngenerally and in concrete examples that the previously inaccessible scenarios\nof higher geometric multiplicity result in unique variants of super-Lorentzian\nresponse. Our approach widens the scope of non-Hermitian response theory to\ncapture all spectral scenarios on an equal and uniform footing.\n",
+  "subjects": [
+    "Physics/Quantum Physics",
+    "Condensed Matter/Other Condensed Matter",
+    "Physics/Optics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "Qa7Sz64v9WdYkt8n4xdO3h_Rhz_wkP8hMDZi1dzlx-w",
+  "pdfSize": "2723629"
+}

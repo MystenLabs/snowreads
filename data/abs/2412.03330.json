@@ -1,0 +1,44 @@
+{
+  "id": "2412.03330",
+  "title": "Testing CPS with Design Assumptions-Based Metamorphic Relations and\n  Genetic Programming",
+  "authors": "Claudio Mandrioli, Seung Yeob Shin, Domenico Bianculli, Lionel Briand",
+  "authorsParsed": [
+    [
+      "Mandrioli",
+      "Claudio",
+      ""
+    ],
+    [
+      "Shin",
+      "Seung Yeob",
+      ""
+    ],
+    [
+      "Bianculli",
+      "Domenico",
+      ""
+    ],
+    [
+      "Briand",
+      "Lionel",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 4 Dec 2024 13:59:48 GMT"
+    }
+  ],
+  "updateDate": "2024-12-05",
+  "timestamp": 1733320788000,
+  "abstract": "  Cyber-Physical Systems (CPSs) software is used to enforce desired behaviours\non physical systems. To test the interaction between the CPS software and the\nsystem's physics, engineers provide traces of desired physical states and\nobserve traces of the actual physical states. CPS requirements describe how\nclosely the actual physical traces should track the desired traces. These\nrequirements are typically defined for specific, simple input traces such as\nstep or ramp sequences, and thus are not applicable to arbitrary inputs. This\nlimits the availability of oracles for CPSs. Our recent work proposes an\napproach to testing CPS using control-theoretical design assumptions instead of\nrequirements. This approach circumvents the oracle problem by leveraging the\ncontrol-theoretical guarantees that are provided when the design assumptions\nare satisfied. To address the test case generation and oracle problems,\nresearchers have proposed metamorphic testing, which is based on the study of\nrelations across tests, i.e., metamorphic relations (MRs). In this work, we\ndefine MRs based on the design assumptions and explore combinations of these\nMRs using genetic programming to generate CPS test cases. This enables the\ngeneration of CPS input traces with potentially arbitrary shapes, together with\nassociated expected output traces. We use the deviation from the expected\noutput traces to guide the generation of input traces that falsify the MRs. Our\nexperiment results show that the MR-falsification provides engineers with new\ninformation, helping them identify passed and failed test cases. Furthermore,\nwe show that the generation of traces that falsify the MRs is a non-trivial\nproblem, which is successfully addressed by our genetic search.\n",
+  "subjects": [
+    "Computer Science/Software Engineering",
+    "Computer Science/Systems and Control",
+    "Electrical Engineering and Systems Science/Systems and Control"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "ul9Y3CKKRSF1D5QeDUXgpCUZFj7NgSck00GqR9ce6Ng",
+  "pdfSize": "1165020"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2412.09404",
+  "title": "Opinion de-polarization of social networks with GNNs",
+  "authors": "Konstantinos Mylonas and Thrasyvoulos Spyropoulos",
+  "authorsParsed": [
+    [
+      "Mylonas",
+      "Konstantinos",
+      ""
+    ],
+    [
+      "Spyropoulos",
+      "Thrasyvoulos",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 12 Dec 2024 16:09:50 GMT"
+    }
+  ],
+  "updateDate": "2024-12-13",
+  "timestamp": 1734019790000,
+  "abstract": "  Nowadays, social media is the ground for political debate and exchange of\nopinions. There is a significant amount of research that suggests that social\nmedia are highly polarized. A phenomenon that is commonly observed is the echo\nchamber structure, where users are organized in polarized communities and form\nconnections only with similar-minded individuals, limiting themselves to\nconsume specific content. In this paper we explore a way to decrease the\npolarization of networks with two echo chambers. Particularly, we observe that\nif some users adopt a moderate opinion about a topic, the polarization of the\nnetwork decreases. Based on this observation, we propose an efficient algorithm\nto identify a good set of K users, such that if they adopt a moderate stance\naround a topic, the polarization is minimized. Our algorithm employs a Graph\nNeural Network and thus it can handle large graphs more effectively than other\napproaches\n",
+  "subjects": [
+    "Computer Science/Social and Information Networks",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "R1xsBb285Kvvjjzba5CmPBcvxQY-pOtt1lLW2yOaFR0",
+  "pdfSize": "2492823"
+}

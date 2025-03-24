@@ -1,0 +1,44 @@
+{
+  "id": "2412.12459",
+  "title": "LITA: An Efficient LLM-assisted Iterative Topic Augmentation Framework",
+  "authors": "Chia-Hsuan Chang, Jui-Tse Tsai, Yi-Hang Tsai, San-Yih Hwang",
+  "authorsParsed": [
+    [
+      "Chang",
+      "Chia-Hsuan",
+      ""
+    ],
+    [
+      "Tsai",
+      "Jui-Tse",
+      ""
+    ],
+    [
+      "Tsai",
+      "Yi-Hang",
+      ""
+    ],
+    [
+      "Hwang",
+      "San-Yih",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 17 Dec 2024 01:43:44 GMT"
+    }
+  ],
+  "updateDate": "2024-12-18",
+  "timestamp": 1734399824000,
+  "abstract": "  Topic modeling is widely used for uncovering thematic structures within text\ncorpora, yet traditional models often struggle with specificity and coherence\nin domain-focused applications. Guided approaches, such as SeededLDA and CorEx,\nincorporate user-provided seed words to improve relevance but remain\nlabor-intensive and static. Large language models (LLMs) offer potential for\ndynamic topic refinement and discovery, yet their application often incurs high\nAPI costs. To address these challenges, we propose the LLM-assisted Iterative\nTopic Augmentation framework (LITA), an LLM-assisted approach that integrates\nuser-provided seeds with embedding-based clustering and iterative refinement.\nLITA identifies a small number of ambiguous documents and employs an LLM to\nreassign them to existing or new topics, minimizing API costs while enhancing\ntopic quality. Experiments on two datasets across topic quality and clustering\nperformance metrics demonstrate that LITA outperforms five baseline models,\nincluding LDA, SeededLDA, CorEx, BERTopic, and PromptTopic. Our work offers an\nefficient and adaptable framework for advancing topic modeling and text\nclustering.\n",
+  "subjects": [
+    "Computer Science/Computation and Language",
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Information Retrieval"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "k46LRnNw09e-UjPRX8czpTWOt6XFpChchBuaAIugcVk",
+  "pdfSize": "1239765"
+}

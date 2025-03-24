@@ -1,0 +1,38 @@
+{
+  "id": "2412.05594",
+  "title": "Real-Time 3D Object Detection Using InnovizOne LiDAR and Low-Power\n  Hailo-8 AI Accelerator",
+  "authors": "Itay Krispin-Avraham, Roy Orfaig, Ben-Zion Bobrovsky",
+  "authorsParsed": [
+    [
+      "Krispin-Avraham",
+      "Itay",
+      ""
+    ],
+    [
+      "Orfaig",
+      "Roy",
+      ""
+    ],
+    [
+      "Bobrovsky",
+      "Ben-Zion",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 7 Dec 2024 09:19:55 GMT"
+    }
+  ],
+  "updateDate": "2024-12-10",
+  "timestamp": 1733563195000,
+  "abstract": "  Object detection is a significant field in autonomous driving. Popular\nsensors for this task include cameras and LiDAR sensors. LiDAR sensors offer\nseveral advantages, such as insensitivity to light changes, like in a dark\nsetting and the ability to provide 3D information in the form of point clouds,\nwhich include the ranges of objects. However, 3D detection methods, such as\nPointPillars, typically require high-power hardware. Additionally, most common\nspinning LiDARs are sparse and may not achieve the desired quality of object\ndetection in front of the car. In this paper, we present the feasibility of\nperforming real-time 3D object detection of cars using 3D point clouds from a\nLiDAR sensor, processed and deployed on a low-power Hailo-8 AI accelerator. The\nLiDAR sensor used in this study is the InnovizOne sensor, which captures\nobjects in higher quality compared to spinning LiDAR techniques, especially for\ndistant objects. We successfully achieved real-time inference at a rate of\napproximately 5Hz with a high accuracy of 0.91% F1 score, with only -0.2%\ndegradation compared to running the same model on an NVIDIA GeForce RTX 2080\nTi. This work demonstrates that effective real-time 3D object detection can be\nachieved on low-cost, low-power hardware, representing a significant step\ntowards more accessible autonomous driving technologies. The source code and\nthe pre-trained models are available at https://github.com/AIROTAU/\nPointPillarsHailoInnoviz/tree/main\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "2CEo0cBWHJZNzFI2uZwRwkNfPthOkPAcgyL7S0L_sDg",
+  "pdfSize": "3379983"
+}

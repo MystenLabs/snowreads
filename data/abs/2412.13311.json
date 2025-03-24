@@ -1,0 +1,42 @@
+{
+  "id": "2412.13311",
+  "title": "Productivity of Short Term Assets as a Signal of Future Stock\n  Performance",
+  "authors": "Veer Vohra, Devyani Vij, Jehil Mehta, Arman Ozcan",
+  "authorsParsed": [
+    [
+      "Vohra",
+      "Veer",
+      ""
+    ],
+    [
+      "Vij",
+      "Devyani",
+      ""
+    ],
+    [
+      "Mehta",
+      "Jehil",
+      ""
+    ],
+    [
+      "Ozcan",
+      "Arman",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 17 Dec 2024 20:26:51 GMT"
+    }
+  ],
+  "updateDate": "2024-12-19",
+  "timestamp": 1734467211000,
+  "abstract": "  This paper investigates cash productivity as a signal for future stock\nperformance, building on the cash-return framework of Faulkender and Wang\n(2006). Using financial and market data from WRDS, we calculate cash returns as\na proxy for operational efficiency and evaluate a long-only strategy applied to\nNasdaq-listed non-financial firms. Results show limited predictive power across\nthe broader Nasdaq universe but strong performance in a handpicked portfolio,\nwhich achieves significant positive alpha after controlling for the Fama-French\nthree factors. These findings underscore the importance of refined universe\nselection. While promising, the strategy requires further validation, including\nthe incorporation of transaction costs and performance testing across economic\ncycles. Our results suggest that cash productivity, when combined with other\ncomplementary signals and careful universe selection, can be a valuable tool\nfor generating excess returns.\n",
+  "subjects": [
+    "Quantitative Finance/Trading and Market Microstructure"
+  ],
+  "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+  "blobId": "CmRltP1f3jc4B3DX_x0lcTamYTpht8pZC8omp04GnEY",
+  "pdfSize": "791886"
+}

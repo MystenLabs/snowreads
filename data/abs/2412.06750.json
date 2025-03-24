@@ -1,0 +1,83 @@
+{
+  "id": "2412.06750",
+  "title": "Hydrogen intensity mapping with MeerKAT: Preserving cosmological signal\n  by optimising contaminant separation",
+  "authors": "Isabella P. Carucci, Jos\\'e L. Bernal, Steven Cunnington, Mario G.\n  Santos, Jingying Wang, Jos\\'e Fonseca, Keith Grainge, Melis O. Irfan, Yichao\n  Li, Alkistis Pourtsidou, Marta Spinelli, Laura Wolz",
+  "authorsParsed": [
+    [
+      "Carucci",
+      "Isabella P.",
+      ""
+    ],
+    [
+      "Bernal",
+      "José L.",
+      ""
+    ],
+    [
+      "Cunnington",
+      "Steven",
+      ""
+    ],
+    [
+      "Santos",
+      "Mario G.",
+      ""
+    ],
+    [
+      "Wang",
+      "Jingying",
+      ""
+    ],
+    [
+      "Fonseca",
+      "José",
+      ""
+    ],
+    [
+      "Grainge",
+      "Keith",
+      ""
+    ],
+    [
+      "Irfan",
+      "Melis O.",
+      ""
+    ],
+    [
+      "Li",
+      "Yichao",
+      ""
+    ],
+    [
+      "Pourtsidou",
+      "Alkistis",
+      ""
+    ],
+    [
+      "Spinelli",
+      "Marta",
+      ""
+    ],
+    [
+      "Wolz",
+      "Laura",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 9 Dec 2024 18:41:55 GMT"
+    }
+  ],
+  "updateDate": "2024-12-10",
+  "timestamp": 1733769715000,
+  "abstract": "  Removing contaminants is a delicate yet crucial step in neutral hydrogen (HI)\nintensity mapping, often considered the technique's greatest challenge. Here,\nwe address this challenge by analysing HI intensity maps of about $100$ deg$^2$\nat redshift $z\\approx0.4$ collected by the MeerKAT radio telescope, a SKA\nObservatory (SKAO) precursor, with a combined 10.5-hour observation. Using\nunsupervised statistical methods, we remove the contaminating foreground\nemission and systematically test step-by-step common pre-processing choices to\nfacilitate the cleaning process. We also introduce and test a novel multiscale\napproach, where data is redundantly decomposed into subsets referring to\ndifferent spatial scales (large and small), and the cleaning procedure is\nperformed independently. We confirm the detection of the HI cosmological signal\nin cross-correlation with an ancillary galactic data set without the need to\ncorrect for signal loss. In the best set-up reached, we constrain the HI\ndistribution through the combination of its cosmic abundance ($\\Omega_{\\rm\nHI}$) and linear clustering bias ($b_{\\rm HI}$) up to a cross-correlation\ncoefficient ($r$) and measure $\\Omega_{\\rm HI}b_{\\rm HI}r = [0.93 \\pm\n0.17]\\,\\times\\,10^{-3}$ with $\\approx6\\sigma$ confidence. The measurement is\nindependent of scale cuts at both edges of the probed scale range ($0.04\n\\lesssim k \\lesssim 0.3 \\,h$Mpc$^{-1}$), corroborating its robustness. Our new\npipeline has successfully found an optimal compromise in separating\ncontaminants without incurring a catastrophic signal loss, instilling more\nconfidence in the outstanding science we can deliver with MeerKAT on the path\ntowards HI intensity mapping surveys with the full SKAO.\n",
+  "subjects": [
+    "Astrophysics/Cosmology and Nongalactic Astrophysics",
+    "Astrophysics/Instrumentation and Methods for Astrophysics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "wfCLJ4VDRqNh2vegd0kzCoA8fMM_YVyVbmgVGbsgesI",
+  "pdfSize": "1762464"
+}

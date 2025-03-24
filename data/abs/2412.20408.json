@@ -1,0 +1,43 @@
+{
+  "id": "2412.20408",
+  "title": "Operator estimates in homogenization of L\\'evy-type operators with\n  periodic coefficients",
+  "authors": "Andrey Piatnitski, Vladimir Sloushch, Tatiana Suslina and Elena\n  Zhizhina",
+  "authorsParsed": [
+    [
+      "Piatnitski",
+      "Andrey",
+      ""
+    ],
+    [
+      "Sloushch",
+      "Vladimir",
+      ""
+    ],
+    [
+      "Suslina",
+      "Tatiana",
+      ""
+    ],
+    [
+      "Zhizhina",
+      "Elena",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 29 Dec 2024 09:16:58 GMT"
+    }
+  ],
+  "updateDate": "2024-12-31",
+  "timestamp": 1735463818000,
+  "abstract": "  The paper deals with homogenization of self-adjoint operators in $L_2(\\mathbb\nR^d)$ of the form $$ ({\\mathbb A}_\\eps u) (\\x) = \\int_{\\R^d} \\mu(\\x/\\eps,\n\\y/\\eps) \\frac{\\left( u(\\x) - u(\\y) \\right)}{|\\x - \\y|^{d+\\alpha}}\\,d\\y, $$\nwhere $0< \\alpha < 2$, and $\\eps>0$ is a small parameter. It is assumed that\nthe function $\\mu(\\x,\\y)$ is $\\Z^d$-periodic in each variable,\n$\\mu(\\x,\\y)=\\mu(\\y,\\x)$ for all $\\x$ and $\\y$, and $0< \\mu_- \\leqslant\n\\mu(\\x,\\y) \\leqslant \\mu_+< \\infty$. Under these assumptions we show that the\nresolvent $({\\mathbb A}_\\eps + I)^{-1}$ converges, as $\\eps\\to0$, in the\noperator norm in $L_2(\\R^d)$ to the resolvent $({\\mathbb A}^0 + I)^{-1}$ of the\nlimit operator ${\\mathbb A}^0$ given by $$ ({\\mathbb A}^0 u) (\\x) = \\int_{\\R^d}\n\\mu^0 \\frac{\\left( u(\\x) - u(\\y) \\right)}{|\\x - \\y|^{d+\\alpha}}\\,d\\y, $$ where\n$\\mu^0$ is the mean value of $\\mu(\\x,\\y)$. We also show that the operator norm\nof the discrepancy $\\|({\\mathbb A}_\\eps + I)^{-1} - (\\A^0 +\nI)^{-1}\\|_{L_2(\\mathbb R^d)\\to L_2(\\mathbb R^d)}$ can be estimated by\n$O(\\eps^\\alpha)$, if $0< \\alpha < 1$, by $O(\\eps (1 + | \\operatorname{ln}\n\\eps|)^2)$, if $ \\alpha =1$, and by $O(\\eps^{2- \\alpha})$, if $1< \\alpha < 2$.\n",
+  "subjects": [
+    "Mathematics/Analysis of PDEs",
+    "Mathematics/Functional Analysis"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "MbuYynkRefK6XLD5YmxY0sfduBpSj4lTBXtUR8_F-Fo",
+  "pdfSize": "278523"
+}

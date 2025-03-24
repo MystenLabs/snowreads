@@ -1,0 +1,42 @@
+{
+  "id": "2412.03980",
+  "title": "Comprehensive Audio Query Handling System with Integrated Expert Models\n  and Contextual Understanding",
+  "authors": "Vakada Naveen, Arvind Krishna Sridhar, Yinyi Guo, Erik Visser",
+  "authorsParsed": [
+    [
+      "Naveen",
+      "Vakada",
+      ""
+    ],
+    [
+      "Sridhar",
+      "Arvind Krishna",
+      ""
+    ],
+    [
+      "Guo",
+      "Yinyi",
+      ""
+    ],
+    [
+      "Visser",
+      "Erik",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 5 Dec 2024 08:56:54 GMT"
+    }
+  ],
+  "updateDate": "2024-12-06",
+  "timestamp": 1733389014000,
+  "abstract": "  This paper presents a comprehensive chatbot system designed to handle a wide\nrange of audio-related queries by integrating multiple specialized audio\nprocessing models. The proposed system uses an intent classifier, trained on a\ndiverse audio query dataset, to route queries about audio content to expert\nmodels such as Automatic Speech Recognition (ASR), Speaker Diarization, Music\nIdentification, and Text-to-Audio generation. A 3.8 B LLM model then takes\ninputs from an Audio Context Detection (ACD) module extracting audio event\ninformation from the audio and post processes text domain outputs from the\nexpert models to compute the final response to the user. We evaluated the\nsystem on custom audio tasks and MMAU sound set benchmarks. The custom datasets\nwere motivated by target use cases not covered in industry benchmarks and\nincluded ACD-timestamp-QA (Question Answering) as well as ACD-temporal-QA\ndatasets to evaluate timestamp and temporal reasoning questions, respectively.\nFirst we determined that a BERT based Intent Classifier outperforms LLM-fewshot\nintent classifier in routing queries. Experiments further show that our\napproach significantly improves accuracy on some custom tasks compared to\nstate-of-the-art Large Audio Language Models and outperforms models in the 7B\nparameter size range on the sound testset of the MMAU benchmark, thereby\noffering an attractive option for on device deployment.\n",
+  "subjects": [
+    "Electrical Engineering and Systems Science/Audio and Speech Processing"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "N8NWEim9GUJ3aaQtZjCy0btRgGAO06a5MWjFmcaX0q8",
+  "pdfSize": "924463"
+}

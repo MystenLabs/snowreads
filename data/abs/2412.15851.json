@@ -1,0 +1,28 @@
+{
+  "id": "2412.15851",
+  "title": "On the behavior of binary block-counting functions under addition",
+  "authors": "Bartosz Sobolewski",
+  "authorsParsed": [
+    [
+      "Sobolewski",
+      "Bartosz",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 20 Dec 2024 12:48:00 GMT"
+    }
+  ],
+  "updateDate": "2024-12-23",
+  "timestamp": 1734698880000,
+  "abstract": "  Let $\\mathsf{s}(n)$ denote the sum of binary digits of an integer $n \\geq 0$.\nIn the recent years there has been interest in the behavior of the differences\n$\\mathsf{s}(n+t)-\\mathsf{s}(n)$, where $t \\geq 0$ is an integer. In particular,\nSpiegelhofer and Wallner showed that for $t$ whose binary expansion contains\nsufficiently many blocks of $\\mathtt{1}$s the inequality $\\mathsf{s}(n+t)\n-\\mathsf{s}(n) \\geq 0$ holds for $n$ belonging to a set of asymptotic density\n$>1/2$, partially answering a question by Cusick. Furthermore, for such $t$ the\nvalues $\\mathsf{s}(n+t) - \\mathsf{s}(n)$ are approximately normally\ndistributed.\n  In this paper we consider a natural generalization to the family of\nblock-counting functions $N^w$, giving the number of occurrences of a block of\nbinary digits $w$ in the binary expansion. Our main result show that for any\n$w$ of length at least $2$ the distribution of the differences $N^w(n+t) -\nN^w(n)$ is close to a Gaussian when $t$ contains many blocks of $\\mathtt{1}$s\nin its binary expansion. This extends an earlier result by the author and\nSpiegelhofer for $w=\\mathtt{11}$.\n",
+  "subjects": [
+    "Mathematics/Number Theory",
+    "Mathematics/Combinatorics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "F4HlyPVAouF7_AhEZ0Kat61AwNH1USnXtxXiBE6Be50",
+  "pdfSize": "397471"
+}

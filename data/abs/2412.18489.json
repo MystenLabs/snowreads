@@ -1,0 +1,33 @@
+{
+  "id": "2412.18489",
+  "title": "An Overview and Discussion of the Suitability of Existing Speech\n  Datasets to Train Machine Learning Models for Collective Problem Solving",
+  "authors": "Gnaneswar Villuri, Alex Doboli",
+  "authorsParsed": [
+    [
+      "Villuri",
+      "Gnaneswar",
+      ""
+    ],
+    [
+      "Doboli",
+      "Alex",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 24 Dec 2024 15:22:10 GMT"
+    }
+  ],
+  "updateDate": "2024-12-25",
+  "timestamp": 1735053730000,
+  "abstract": "  This report characterized the suitability of existing datasets for devising\nnew Machine Learning models, decision making methods, and analysis algorithms\nto improve Collaborative Problem Solving and then enumerated requirements for\nfuture datasets to be devised. Problem solving was assumed to be performed in\nteams of about three, four members, which talked to each other. A dataset\nconsists of the speech recordings of such teams. The characterization\nmethodology was based on metrics that capture cognitive, social, and emotional\nactivities and situations. The report presented the analysis of a large group\nof datasets developed for Spoken Language Understanding, a research area with\nsome similarity to Collaborative Problem Solving.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "ifA7tCAN2cexEdfWdZMT-apNDmkrdGsPrhMJ8IIwcc4",
+  "pdfSize": "548090"
+}

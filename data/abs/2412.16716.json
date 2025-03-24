@@ -1,0 +1,42 @@
+{
+  "id": "2412.16716",
+  "title": "Resource Allocation Influence on Application Performance in Sliced\n  Testbeds",
+  "authors": "Rodrigo Moreira, Larissa F. Rodrigues Moreira, Tereza C. Carvalho and\n  Fl\\'avio de Oliveira Silva",
+  "authorsParsed": [
+    [
+      "Moreira",
+      "Rodrigo",
+      ""
+    ],
+    [
+      "Moreira",
+      "Larissa F. Rodrigues",
+      ""
+    ],
+    [
+      "Carvalho",
+      "Tereza C.",
+      ""
+    ],
+    [
+      "Silva",
+      "Flávio de Oliveira",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 21 Dec 2024 17:57:21 GMT"
+    }
+  ],
+  "updateDate": "2024-12-24",
+  "timestamp": 1734803841000,
+  "abstract": "  Modern network architectures have shaped market segments, governments, and\ncommunities with intelligent and pervasive applications. Ongoing digital\ntransformation through technologies such as softwarization, network slicing,\nand AI drives this evolution, along with research into Beyond 5G (B5G) and 6G\narchitectures. Network slices require seamless management, observability, and\nintelligent-native resource allocation, considering user satisfaction, cost\nefficiency, security, and energy. Slicing orchestration architectures have been\nextensively studied to accommodate these requirements, particularly in resource\nallocation for network slices. This study explored the observability of\nresource allocation regarding network slice performance in two nationwide\ntestbeds. We examined their allocation effects on slicing connectivity latency\nusing a partial factorial experimental method with Central Processing Unit\n(CPU) and memory combinations. The results reveal different resource impacts\nacross the testbeds, indicating a non-uniform influence on the CPU and memory\nwithin the same network slice.\n",
+  "subjects": [
+    "Computer Science/Performance"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "kJiNrxakUo8qJQXBSOf5YgHn7R-1eZi3Q1ZqOZfWGhA",
+  "pdfSize": "369159"
+}

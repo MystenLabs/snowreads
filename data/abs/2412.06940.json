@@ -1,0 +1,53 @@
+{
+  "id": "2412.06940",
+  "title": "Digital Twin-Empowered Voltage Control for Power Systems",
+  "authors": "Jiachen Xu, Yushuai Li, Torben Bach Pedersen, Yuqiang He, Kim\n  Guldstrand Larsen, Tianyi Li",
+  "authorsParsed": [
+    [
+      "Xu",
+      "Jiachen",
+      ""
+    ],
+    [
+      "Li",
+      "Yushuai",
+      ""
+    ],
+    [
+      "Pedersen",
+      "Torben Bach",
+      ""
+    ],
+    [
+      "He",
+      "Yuqiang",
+      ""
+    ],
+    [
+      "Larsen",
+      "Kim Guldstrand",
+      ""
+    ],
+    [
+      "Li",
+      "Tianyi",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 9 Dec 2024 19:33:07 GMT"
+    }
+  ],
+  "updateDate": "2024-12-11",
+  "timestamp": 1733772787000,
+  "abstract": "  Emerging digital twin technology has the potential to revolutionize voltage\ncontrol in power systems. However, the state-of-the-art digital twin method\nsuffers from low computational and sampling efficiency, which hinders its\napplications. To address this issue, we propose a Gumbel-Consistency Digital\nTwin (GC-DT) method that enhances voltage control with improved computational\nand sampling efficiency. First, the proposed method incorporates a Gumbel-based\nstrategy improvement that leverages the Gumbel-top trick to enhance\nnon-repetitive sampling actions and reduce the reliance on Monte Carlo Tree\nSearch simulations, thereby improving computational efficiency. Second, a\nconsistency loss function aligns predicted hidden states with actual hidden\nstates in the latent space, which increases both prediction accuracy and\nsampling efficiency. Experiments on IEEE 123-bus, 34-bus, and 13-bus systems\ndemonstrate that the proposed GC-DT outperforms the state-of-the-art DT method\nin both computational and sampling efficiency.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Electrical Engineering and Systems Science/Signal Processing"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "AurqG8U8oXGptO9YGV8cAKxKMc44cyhfYIj-MBZedUI",
+  "pdfSize": "358873"
+}

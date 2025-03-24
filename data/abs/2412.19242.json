@@ -1,0 +1,38 @@
+{
+  "id": "2412.19242",
+  "title": "Functional structural equation modeling with latent variables",
+  "authors": "Fatemeh Asgari, Valeria Vitelli, Uta Sailer",
+  "authorsParsed": [
+    [
+      "Asgari",
+      "Fatemeh",
+      ""
+    ],
+    [
+      "Vitelli",
+      "Valeria",
+      ""
+    ],
+    [
+      "Sailer",
+      "Uta",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 26 Dec 2024 14:57:14 GMT"
+    }
+  ],
+  "updateDate": "2024-12-30",
+  "timestamp": 1735225034000,
+  "abstract": "  Handling latent variables in Structural Equation Models (SEMs) in a case\nwhere both the latent variables and their corresponding indicators in the\nmeasurement error part of the model are random curves presents significant\nchallenges, especially with sparse data. In this paper, we develop a novel\nfamily of Functional Structural Equation Models (FSEMs) that incorporate latent\nvariables modeled as Gaussian Processes (GPs). The introduced FSEMs are built\nupon functional regression models having response variables modeled as\nunderlying GPs. The model flexibly adapts to cases when the random curves'\nrealizations are observed only over a sparse subset of the domain, and the\ninferential framework is based on a restricted maximum likelihood approach. The\nadvantage of this framework lies in its ability and flexibility in handling\nvarious data scenarios, including regularly and irregularly spaced points and\nthus missing data. To extract smooth estimates for the functional parameters,\nwe employ a penalized likelihood approach that selects the smoothing parameters\nusing a cross-validation method. We evaluate the performance of the proposed\nmodel using simulation studies and a real data example, which suggests that our\nmodel performs well in practice. The uncertainty associated with the estimates\nof the functional coefficients is also assessed by constructing confidence\nregions for each estimate. The goodness of fit indices that are commonly used\nto evaluate the fit of SEMs are developed for the FSEMs introduced in this\npaper. Overall, the proposed method is a promising approach for modeling\nfunctional data in SEMs with functional latent variables.\n",
+  "subjects": [
+    "Statistics/Methodology",
+    "Statistics/Applications"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "rAE15Ye11oFMa7Fg7kMsCMJlFgSaetd1HI9MvgUMMwQ",
+  "pdfSize": "1075715"
+}

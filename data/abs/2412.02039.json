@@ -1,0 +1,39 @@
+{
+  "id": "2412.02039",
+  "title": "Mutli-View 3D Reconstruction using Knowledge Distillation",
+  "authors": "Aditya Dutt, Ishikaa Lunawat and Manpreet Kaur",
+  "authorsParsed": [
+    [
+      "Dutt",
+      "Aditya",
+      ""
+    ],
+    [
+      "Lunawat",
+      "Ishikaa",
+      ""
+    ],
+    [
+      "Kaur",
+      "Manpreet",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 2 Dec 2024 23:46:31 GMT"
+    }
+  ],
+  "updateDate": "2024-12-04",
+  "timestamp": 1733183191000,
+  "abstract": "  Large Foundation Models like Dust3r can produce high quality outputs such as\npointmaps, camera intrinsics, and depth estimation, given stereo-image pairs as\ninput. However, the application of these outputs on tasks like Visual\nLocalization requires a large amount of inference time and compute resources.\nTo address these limitations, in this paper, we propose the use of a knowledge\ndistillation pipeline, where we aim to build a student-teacher model with\nDust3r as the teacher and explore multiple architectures of student models that\nare trained using the 3D reconstructed points output by Dust3r. Our goal is to\nbuild student models that can learn scene-specific representations and output\n3D points with replicable performance such as Dust3r. The data set we used to\ntrain our models is 12Scenes. We test two main architectures of models: a\nCNN-based architecture and a Vision Transformer based architecture. For each\narchitecture, we also compare the use of pre-trained models against models\nbuilt from scratch. We qualitatively compare the reconstructed 3D points output\nby the student model against Dust3r's and discuss the various features learned\nby the student model. We also perform ablation studies on the models through\nhyperparameter tuning. Overall, we observe that the Vision Transformer presents\nthe best performance visually and quantitatively.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "3rYah9BzCtT66elrjGLLnpeTEJPqVsOJAIseS4vkBkQ",
+  "pdfSize": "6485056"
+}

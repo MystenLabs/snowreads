@@ -1,0 +1,43 @@
+{
+  "id": "2412.03039",
+  "title": "MRNet: Multifaceted Resilient Networks for Medical Image-to-Image\n  Translation",
+  "authors": "Hyojeong Lee, Youngwan Jo, Inpyo Hong, Sanghyun Park",
+  "authorsParsed": [
+    [
+      "Lee",
+      "Hyojeong",
+      ""
+    ],
+    [
+      "Jo",
+      "Youngwan",
+      ""
+    ],
+    [
+      "Hong",
+      "Inpyo",
+      ""
+    ],
+    [
+      "Park",
+      "Sanghyun",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 4 Dec 2024 05:23:46 GMT"
+    }
+  ],
+  "updateDate": "2024-12-05",
+  "timestamp": 1733289826000,
+  "abstract": "  We propose a Multifaceted Resilient Network(MRNet), a novel architecture\ndeveloped for medical image-to-image translation that outperforms\nstate-of-the-art methods in MRI-to-CT and MRI-to-MRI conversion. MRNet\nleverages the Segment Anything Model (SAM) to exploit frequency-based features\nto build a powerful method for advanced medical image transformation. The\narchitecture extracts comprehensive multiscale features from diverse datasets\nusing a powerful SAM image encoder and performs resolution-aware feature fusion\nthat consistently integrates U-Net encoder outputs with SAM-derived features.\nThis fusion optimizes the traditional U-Net skip connection while leveraging\ntransformer-based contextual analysis. The translation is complemented by an\ninnovative dual-mask configuration incorporating dynamic attention patterns and\na specialized loss function designed to address regional mapping mismatches,\npreserving both the gross anatomy and tissue details. Extensive validation\nstudies have shown that MRNet outperforms state-of-the-art architectures,\nparticularly in maintaining anatomical fidelity and minimizing translation\nartifacts.\n",
+  "subjects": [
+    "Electrical Engineering and Systems Science/Image and Video Processing",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "jTqelboMnkuAyQgq--9TLJRGymfESib_8UV_bN1Tyd0",
+  "pdfSize": "1626761"
+}

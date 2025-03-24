@@ -1,0 +1,42 @@
+{
+  "id": "2412.17379",
+  "title": "Advanced Models for Hourly Marginal CO2 Emission Factor Estimation: A\n  Synergy between Fundamental and Statistical Approaches",
+  "authors": "Souhir Ben Amor, Smaranda Sgarciu, Taimyra BatzLineiro, Felix Muesgens",
+  "authorsParsed": [
+    [
+      "Amor",
+      "Souhir Ben",
+      ""
+    ],
+    [
+      "Sgarciu",
+      "Smaranda",
+      ""
+    ],
+    [
+      "BatzLineiro",
+      "Taimyra",
+      ""
+    ],
+    [
+      "Muesgens",
+      "Felix",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 23 Dec 2024 08:27:42 GMT"
+    }
+  ],
+  "updateDate": "2024-12-24",
+  "timestamp": 1734942462000,
+  "abstract": "  Global warming is caused by increasing concentrations of greenhouse gases,\nparticularly carbon dioxide (CO2). A metric used to quantify the change in CO2\nemissions is the marginal emission factor, defined as the marginal change in\nCO2 emissions resulting from a marginal change in electricity demand over a\nspecified period. This paper aims to present two methodologies to estimate the\nmarginal emission factor in a decarbonized electricity system with high\ntemporal resolution. First, we present an energy systems model that\nincrementally calculates the marginal emission factors. Second, we examine a\nMarkov Switching Dynamic Regression model, a statistical model designed to\nestimate marginal emission factors faster and use an incremental marginal\nemission factor as a benchmark to assess its precision. For the German\nelectricity market, we estimate the marginal emissions factor time series\nhistorically (2019, 2020) using Agora Energiewende and for the future (2025,\n2030, and 2040) using estimated energy system data. The results indicate that\nthe Markov Switching Dynamic Regression model is more accurate in estimating\nmarginal emission factors than the Dynamic Linear Regression models, which are\nfrequently used in the literature. Hence, the Markov Switching Dynamic\nRegression model is a simpler alternative to the computationally intensive\nincremental marginal emissions factor, especially when short-term marginal\nemissions factor estimation is needed. The results of the marginal emission\nfactor estimation are applied to an exemplary low-emission vehicle charging\nscenario to estimate CO2 savings by shifting the charge hours to those\ncorresponding to the lower marginal emissions factor. By implementing this\nemission-minimized charging approach, an average reduction of 31% in the\nmarginal emission factor was achieved over the 5 years.\n",
+  "subjects": [
+    "Economics/Econometrics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "RiboVQfxD_oey5U3oAancv6wAX-oF1qPRkTR3B-B0cw",
+  "pdfSize": "16629912"
+}

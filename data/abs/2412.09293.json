@@ -1,0 +1,27 @@
+{
+  "id": "2412.09293",
+  "title": "When to use simulated annealing for solving CVRP? A case study of fuel\n  deliveries in Poland",
+  "authors": "Vitalii Naumov",
+  "authorsParsed": [
+    [
+      "Naumov",
+      "Vitalii",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 12 Dec 2024 14:08:15 GMT"
+    }
+  ],
+  "updateDate": "2024-12-13",
+  "timestamp": 1734012495000,
+  "abstract": "  The paper addresses Capacitated Vehicle Routing Problem (CVRP) in the context\nof fuel delivery to gas stations. The CVRP aims to minimize total travel\ndistance for a fleet with limited capacity. Fuel delivery, however, introduces\nunique complexities within the CVRP framework. We propose a novel approach that\nintegrates the Simulated Annealing (SA) algorithm with a customized CVRP model\nspecifically designed for gas station networks. This model incorporates\nreal-world constraints like vehicle capacity, fuel demands at each station, and\nroad network distances. The paper outlines the design of SA-based CVRP model\nfor fuel delivery. We detail the objective function (minimizing distance) and\nthe SA's exploration mechanism for generating candidate solutions. To assess\nits effectiveness, the proposed approach undergoes computational tests in\nPoland's gas station network serviced by the Samat transportation company. We\ncompare the performance of our SA-based CVRP model with the conventional Mixed\nInteger Programming model for CVRP powered by Gurobi. The results aim to\ndemonstrate the efficacy of the proposed SA-based heuristic in finding\nefficient routes for fuel deliveries.\n",
+  "subjects": [
+    "Mathematics/Optimization and Control"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "U2SFB-POv2Yiq6HLcvTqqYkbV39FdYwEn-J1PWLh7PQ",
+  "pdfSize": "540396"
+}

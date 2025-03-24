@@ -1,0 +1,32 @@
+{
+  "id": "2412.10667",
+  "title": "A simple quantum simulation algorithm with near-optimal precision\n  scaling",
+  "authors": "Amir Kalev and Itay Hen",
+  "authorsParsed": [
+    [
+      "Kalev",
+      "Amir",
+      ""
+    ],
+    [
+      "Hen",
+      "Itay",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 14 Dec 2024 04:04:35 GMT"
+    }
+  ],
+  "updateDate": "2024-12-17",
+  "timestamp": 1734149075000,
+  "abstract": "  Quantum simulation is a foundational application for quantum computers,\nprojected to offer insights into complex quantum systems that are beyond the\nreach of classical computation. However, with the exception of Trotter-based\nmethods which suffer from suboptimal scaling with respect to simulation\nprecision, existing simulation techniques are for the most part too intricate\nto implement on early fault-tolerant quantum hardware. We propose a quantum\nHamiltonian dynamics simulation algorithm that aims to be both straightforward\nto implement and at the same time have near-optimal scaling in simulation\nprecision.\n",
+  "subjects": [
+    "Physics/Quantum Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "Ts2tttF7bQ7YYUqHr5BT4R9SMDSfwxgX989uePgd9Io",
+  "pdfSize": "444905"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "2412.19756",
+  "title": "Tree tilings in random regular graphs",
+  "authors": "Sahar Diskin, Ilay Hoshen, Maksim Zhukovskii",
+  "authorsParsed": [
+    [
+      "Diskin",
+      "Sahar",
+      ""
+    ],
+    [
+      "Hoshen",
+      "Ilay",
+      ""
+    ],
+    [
+      "Zhukovskii",
+      "Maksim",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 27 Dec 2024 17:35:47 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Wed, 12 Feb 2025 12:34:50 GMT"
+    }
+  ],
+  "updateDate": "2025-02-13",
+  "timestamp": 1735320947000,
+  "abstract": "  We show that for every $\\epsilon>0$ there exists a sufficiently large $d_0\\in\n\\mathbb{N}$ such that for every $d\\ge d_0$, whp the random $d$-regular graph\n$G(n,d)$ contains a $T$-factor for every tree $T$ on at most $(1-\\epsilon)d/\\ln\nd$ vertices. This is best possible since, for large enough integer $d$, whp\n$G(n,d)$ does not contain a $\\frac{(1+\\epsilon)d}{\\ln d}$-star-factor. Our\nmethod gives a randomised algorithm which whp finds said $T$-factor and whose\nexpected running time is $O(n^{1+o(1)})$, as well as an efficient deterministic\ncounterpart.\n",
+  "subjects": [
+    "Mathematics/Combinatorics",
+    "Mathematics/Probability"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "hWCUNjBEqrntCxmkjZDPkIjaByg2qwp2n28IzhQ-P6I",
+  "pdfSize": "386294"
+}

@@ -1,0 +1,58 @@
+{
+  "id": "2412.08012",
+  "title": "Of Dice and Games: A Theory of Generalized Boosting",
+  "authors": "Marco Bressan, Nataly Brukhim, Nicol\\`o Cesa-Bianchi, Emmanuel\n  Esposito, Yishay Mansour, Shay Moran, Maximilian Thiessen",
+  "authorsParsed": [
+    [
+      "Bressan",
+      "Marco",
+      ""
+    ],
+    [
+      "Brukhim",
+      "Nataly",
+      ""
+    ],
+    [
+      "Cesa-Bianchi",
+      "Nicolò",
+      ""
+    ],
+    [
+      "Esposito",
+      "Emmanuel",
+      ""
+    ],
+    [
+      "Mansour",
+      "Yishay",
+      ""
+    ],
+    [
+      "Moran",
+      "Shay",
+      ""
+    ],
+    [
+      "Thiessen",
+      "Maximilian",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 11 Dec 2024 01:38:32 GMT"
+    }
+  ],
+  "updateDate": "2024-12-12",
+  "timestamp": 1733881112000,
+  "abstract": "  Cost-sensitive loss functions are crucial in many real-world prediction\nproblems, where different types of errors are penalized differently; for\nexample, in medical diagnosis, a false negative prediction can lead to worse\nconsequences than a false positive prediction. However, traditional PAC\nlearning theory has mostly focused on the symmetric 0-1 loss, leaving\ncost-sensitive losses largely unaddressed. In this work, we extend the\ncelebrated theory of boosting to incorporate both cost-sensitive and\nmulti-objective losses. Cost-sensitive losses assign costs to the entries of a\nconfusion matrix, and are used to control the sum of prediction errors\naccounting for the cost of each error type. Multi-objective losses, on the\nother hand, simultaneously track multiple cost-sensitive losses, and are useful\nwhen the goal is to satisfy several criteria at once (e.g., minimizing false\npositives while keeping false negatives below a critical threshold). We develop\na comprehensive theory of cost-sensitive and multi-objective boosting,\nproviding a taxonomy of weak learning guarantees that distinguishes which\nguarantees are trivial (i.e., can always be achieved), which ones are boostable\n(i.e., imply strong learning), and which ones are intermediate, implying\nnon-trivial yet not arbitrarily accurate learning. For binary classification,\nwe establish a dichotomy: a weak learning guarantee is either trivial or\nboostable. In the multiclass setting, we describe a more intricate landscape of\nintermediate weak learning guarantees. Our characterization relies on a\ngeometric interpretation of boosting, revealing a surprising equivalence\nbetween cost-sensitive and multi-objective losses.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Statistics/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "Jdo8qvztpGkddfvzvdJIOyvjFCfcoMTqCQ0NW7alnxE",
+  "pdfSize": "1115372"
+}

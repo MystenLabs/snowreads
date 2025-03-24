@@ -1,0 +1,54 @@
+{
+  "id": "2412.09878",
+  "title": "SonicBoom: Contact Localization Using Array of Microphones",
+  "authors": "Moonyoung Lee, Uksang Yoo, Jean Oh, Jeffrey Ichnowski, George Kantor,\n  Oliver Kroemer",
+  "authorsParsed": [
+    [
+      "Lee",
+      "Moonyoung",
+      ""
+    ],
+    [
+      "Yoo",
+      "Uksang",
+      ""
+    ],
+    [
+      "Oh",
+      "Jean",
+      ""
+    ],
+    [
+      "Ichnowski",
+      "Jeffrey",
+      ""
+    ],
+    [
+      "Kantor",
+      "George",
+      ""
+    ],
+    [
+      "Kroemer",
+      "Oliver",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 13 Dec 2024 05:50:13 GMT"
+    }
+  ],
+  "updateDate": "2024-12-16",
+  "timestamp": 1734069013000,
+  "abstract": "  In cluttered environments where visual sensors encounter heavy occlusion,\nsuch as in agricultural settings, tactile signals can provide crucial spatial\ninformation for the robot to locate rigid objects and maneuver around them. We\nintroduce SonicBoom, a holistic hardware and learning pipeline that enables\ncontact localization through an array of contact microphones. While\nconventional sound source localization methods effectively triangulate sources\nin air, localization through solid media with irregular geometry and structure\npresents challenges that are difficult to model analytically. We address this\nchallenge through a feature engineering and learning based approach,\nautonomously collecting 18,000 robot interaction sound pairs to learn a mapping\nbetween acoustic signals and collision locations on the robot end effector\nlink. By leveraging relative features between microphones, SonicBoom achieves\nlocalization errors of 0.42cm for in distribution interactions and maintains\nrobust performance of 2.22cm error even with novel objects and contact\nconditions. We demonstrate the system's practical utility through haptic\nmapping of occluded branches in mock canopy settings, showing that acoustic\nbased sensing can enable reliable robot navigation in visually challenging\nenvironments.\n",
+  "subjects": [
+    "Computer Science/Robotics",
+    "Computer Science/Sound",
+    "Electrical Engineering and Systems Science/Audio and Speech Processing"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "H1x5-ZniUQw-ex5v33WzRw483qi1wOzafqeCj1MhcIk",
+  "pdfSize": "5287703"
+}

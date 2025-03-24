@@ -1,0 +1,47 @@
+{
+  "id": "2412.16433",
+  "title": "Exploring Noncollinear Magnetic Energy Landscapes with Bayesian\n  Optimization",
+  "authors": "Jakob Baumsteiger, Lorenzo Celiberti, Patrick Rinke, Milica\n  Todorovi\\'c and Cesare Franchini",
+  "authorsParsed": [
+    [
+      "Baumsteiger",
+      "Jakob",
+      ""
+    ],
+    [
+      "Celiberti",
+      "Lorenzo",
+      ""
+    ],
+    [
+      "Rinke",
+      "Patrick",
+      ""
+    ],
+    [
+      "Todorović",
+      "Milica",
+      ""
+    ],
+    [
+      "Franchini",
+      "Cesare",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 21 Dec 2024 01:39:49 GMT"
+    }
+  ],
+  "updateDate": "2024-12-24",
+  "timestamp": 1734745189000,
+  "abstract": "  The investigation of magnetic energy landscapes and the search for ground\nstates of magnetic materials using ab initio methods like density functional\ntheory (DFT) is a challenging task. Complex interactions, such as superexchange\nand spin-orbit coupling, make these calculations computationally expensive and\noften lead to non-trivial energy landscapes. Consequently, a comprehensive and\nsystematic investigation of large magnetic configuration spaces is often\nimpractical. We approach this problem by utilizing Bayesian Optimization, an\nactive machine learning scheme that has proven to be efficient in modeling\nunknown functions and finding global minima. Using this approach we can obtain\nthe magnetic contribution to the energy as a function of one or more spin\ncanting angles with relatively small numbers of DFT calculations. To assess the\ncapabilities and the efficiency of the approach we investigate the noncollinear\nmagnetic energy landscapes of selected materials containing 3d, 5d and 5f\nmagnetic ions: Ba$_3$MnNb$_2$O$_9$, LaMn$_2$Si$_2$, $\\beta$-MnO$_2$,\nSr$_2$IrO$_4$, UO$_2$ and Ba$_2$NaOsO$_6$. By comparing our results to previous\nab initio studies that followed more conventional approaches, we observe\nsignificant improvements in efficiency.\n",
+  "subjects": [
+    "Condensed Matter/Materials Science"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "WoWhRVmscx-SkJanXjRkKBu2pWzncI09q8oMstLLktw",
+  "pdfSize": "3137327"
+}

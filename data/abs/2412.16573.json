@@ -1,0 +1,103 @@
+{
+  "id": "2412.16573",
+  "title": "A Generalizable 3D Diffusion Framework for Low-Dose and Few-View Cardiac\n  SPECT",
+  "authors": "Huidong Xie, Weijie Gan, Wei Ji, Xiongchao Chen, Alaa Alashi,\n  Stephanie L. Thorn, Bo Zhou, Qiong Liu, Menghua Xia, Xueqi Guo, Yi-Hwa Liu,\n  Hongyu An, Ulugbek S. Kamilov, Ge Wang, Albert J. Sinusas, Chi Liu",
+  "authorsParsed": [
+    [
+      "Xie",
+      "Huidong",
+      ""
+    ],
+    [
+      "Gan",
+      "Weijie",
+      ""
+    ],
+    [
+      "Ji",
+      "Wei",
+      ""
+    ],
+    [
+      "Chen",
+      "Xiongchao",
+      ""
+    ],
+    [
+      "Alashi",
+      "Alaa",
+      ""
+    ],
+    [
+      "Thorn",
+      "Stephanie L.",
+      ""
+    ],
+    [
+      "Zhou",
+      "Bo",
+      ""
+    ],
+    [
+      "Liu",
+      "Qiong",
+      ""
+    ],
+    [
+      "Xia",
+      "Menghua",
+      ""
+    ],
+    [
+      "Guo",
+      "Xueqi",
+      ""
+    ],
+    [
+      "Liu",
+      "Yi-Hwa",
+      ""
+    ],
+    [
+      "An",
+      "Hongyu",
+      ""
+    ],
+    [
+      "Kamilov",
+      "Ulugbek S.",
+      ""
+    ],
+    [
+      "Wang",
+      "Ge",
+      ""
+    ],
+    [
+      "Sinusas",
+      "Albert J.",
+      ""
+    ],
+    [
+      "Liu",
+      "Chi",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 21 Dec 2024 10:33:31 GMT"
+    }
+  ],
+  "updateDate": "2024-12-24",
+  "timestamp": 1734777211000,
+  "abstract": "  Myocardial perfusion imaging using SPECT is widely utilized to diagnose\ncoronary artery diseases, but image quality can be negatively affected in\nlow-dose and few-view acquisition settings. Although various deep learning\nmethods have been introduced to improve image quality from low-dose or few-view\nSPECT data, previous approaches often fail to generalize across different\nacquisition settings, limiting their applicability in reality. This work\nintroduced DiffSPECT-3D, a diffusion framework for 3D cardiac SPECT imaging\nthat effectively adapts to different acquisition settings without requiring\nfurther network re-training or fine-tuning. Using both image and projection\ndata, a consistency strategy is proposed to ensure that diffusion sampling at\neach step aligns with the low-dose/few-view projection measurements, the image\ndata, and the scanner geometry, thus enabling generalization to different\nlow-dose/few-view settings. Incorporating anatomical spatial information from\nCT and total variation constraint, we proposed a 2.5D conditional strategy to\nallow the DiffSPECT-3D to observe 3D contextual information from the entire\nimage volume, addressing the 3D memory issues in diffusion model. We\nextensively evaluated the proposed method on 1,325 clinical 99mTc tetrofosmin\nstress/rest studies from 795 patients. Each study was reconstructed into 5\ndifferent low-count and 5 different few-view levels for model evaluations,\nranging from 1% to 50% and from 1 view to 9 view, respectively. Validated\nagainst cardiac catheterization results and diagnostic comments from nuclear\ncardiologists, the presented results show the potential to achieve low-dose and\nfew-view SPECT imaging without compromising clinical performance. Additionally,\nDiffSPECT-3D could be directly applied to full-dose SPECT images to further\nimprove image quality, especially in a low-dose stress-first cardiac SPECT\nimaging protocol.\n",
+  "subjects": [
+    "Electrical Engineering and Systems Science/Image and Video Processing",
+    "Physics/Medical Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "sA-h6OPI7ArZWZ6fF--yNdRX6m50ttSx6G2mFXalOTk",
+  "pdfSize": "3084771"
+}

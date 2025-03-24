@@ -1,0 +1,37 @@
+{
+  "id": "2412.12962",
+  "title": "Modified UNIFAC 2.0 -- A Group-Contribution Method Completed with\n  Machine Learning",
+  "authors": "Nicolas Hayer, Hans Hasse, Fabian Jirasek",
+  "authorsParsed": [
+    [
+      "Hayer",
+      "Nicolas",
+      ""
+    ],
+    [
+      "Hasse",
+      "Hans",
+      ""
+    ],
+    [
+      "Jirasek",
+      "Fabian",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 17 Dec 2024 14:46:06 GMT"
+    }
+  ],
+  "updateDate": "2024-12-18",
+  "timestamp": 1734446766000,
+  "abstract": "  Predicting thermodynamic properties of mixtures is a cornerstone of chemical\nengineering, yet conventional group-contribution (GC) methods like modified\nUNIFAC (Dortmund) remain limited by incomplete tables of pair-interaction\nparameters. To address this, we present modified UNIFAC 2.0, a hybrid model\nthat integrates a matrix completion method from machine learning into the GC\nframework, allowing for the simultaneous training of all pair-interaction\nparameters, including the prediction of parameters that cannot be fitted due to\nmissing data. Utilizing an extensive training set of more than 500,000\nexperimental data for activity coefficients and excess enthalpies from the\nDortmund Data Bank, modified UNIFAC 2.0 achieves improved accuracy compared to\nthe latest published version of modified UNIFAC (Dortmund) while significantly\nexpanding the predictive scope. Its flexible design allows updates with new\nexperimental data or customizations for specific applications. The new model\ncan easily be implemented in established simulation software with complete\nparameter tables readily available.\n",
+  "subjects": [
+    "Physics/Chemical Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "M9W8ps5NC5L2xiqq2cbXCD3XATNllB0FphCHI6WbYsE",
+  "pdfSize": "1002019"
+}

@@ -1,0 +1,37 @@
+{
+  "id": "2412.04937",
+  "title": "Who Speaks Next? Multi-party AI Discussion Leveraging the Systematics of\n  Turn-taking in Murder Mystery Games",
+  "authors": "Ryota Nonomura and Hiroki Mori",
+  "authorsParsed": [
+    [
+      "Nonomura",
+      "Ryota",
+      ""
+    ],
+    [
+      "Mori",
+      "Hiroki",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 6 Dec 2024 10:45:54 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Fri, 21 Feb 2025 04:08:06 GMT"
+    }
+  ],
+  "updateDate": "2025-02-24",
+  "timestamp": 1733481954000,
+  "abstract": "  Multi-agent systems utilizing large language models (LLMs) have shown great\npromise in achieving natural dialogue. However, smooth dialogue control and\nautonomous decision making among agents still remain challenges. In this study,\nwe focus on conversational norms such as adjacency pairs and turn-taking found\nin conversation analysis and propose a new framework called \"Murder Mystery\nAgents\" that applies these norms to AI agents' dialogue control. As an\nevaluation target, we employed the \"Murder Mystery\" game, a reasoning-type\ntable-top role-playing game that requires complex social reasoning and\ninformation manipulation. In this game, players need to unravel the truth of\nthe case based on fragmentary information through cooperation and bargaining.\nThe proposed framework integrates next speaker selection based on adjacency\npairs and a self-selection mechanism that takes agents' internal states into\naccount to achieve more natural and strategic dialogue. To verify the\neffectiveness of this new approach, we analyzed utterances that led to dialogue\nbreakdowns and conducted automatic evaluation using LLMs, as well as human\nevaluation using evaluation criteria developed for the Murder Mystery game.\nExperimental results showed that the implementation of the next speaker\nselection mechanism significantly reduced dialogue breakdowns and improved the\nability of agents to share information and perform logical reasoning. The\nresults of this study demonstrate that the systematics of turn-taking in human\nconversation are also effective in controlling dialogue among AI agents, and\nprovide design guidelines for more advanced multi-agent dialogue systems.\n",
+  "subjects": [
+    "Computer Science/Computation and Language",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "omaAs3PPaHFpLEol3WYylC5u855y-0ZEoXy-TIRVqqo",
+  "pdfSize": "1066608"
+}

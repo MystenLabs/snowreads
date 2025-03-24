@@ -1,0 +1,34 @@
+{
+  "id": "2412.06583",
+  "title": "Simulating a stellar contact binary merger -- II. Obtaining a light\n  curve",
+  "authors": "Roger Hatfull, Natalia Ivanova",
+  "authorsParsed": [
+    [
+      "Hatfull",
+      "Roger",
+      ""
+    ],
+    [
+      "Ivanova",
+      "Natalia",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 9 Dec 2024 15:36:54 GMT"
+    }
+  ],
+  "updateDate": "2024-12-10",
+  "timestamp": 1733758614000,
+  "abstract": "  Luminous Red Novae (LRNe) are enigmatic transient events distinguished by a\nrapid rise in luminosity, a plateau in luminosity, and spectra which become\nredder with time. The best-observed system before, during, and after the\noutburst is V1309 Sco. We model a candidate V1309 Sco progenitor binary\nconfiguration (1.52+0.16Msun) using the Smoothed Particle Hydrodynamics (SPH)\ncode StarSmasher with a modified energy equation that implements flux-limited\nemission-diffusion radiative transport in a Lagrangian case. We developed an\nimaging technique allowing us to capture the flux an observer would measure. In\nthis novel method, the outgoing radiative flux of each SPH particle in the\nobserver's direction is attenuated by other particles along the path to the\nobserver. We investigated how the light curve is affected in various models:\nwith and without dust formation; constant, Planck, or Rosseland mean opacities;\ndifferent donor star sizes; different companion star masses and types;\nradiative heating included in our modified energy equation; and different SPH\nsimulation resolutions. The resulting evolution in bolometric luminosity and\nspectrum peak temperature is in good agreement with V1309 Sco observations. Our\nsimulations rule out V1309 Sco models that do not assume dust formation.\n",
+  "subjects": [
+    "Astrophysics/Solar and Stellar Astrophysics",
+    "Astrophysics/Astrophysics of Galaxies",
+    "Astrophysics/High Energy Astrophysical Phenomena"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "ygkgW5pTQ6afQzsE2yjtFr9hsqFHST2Mynmbustwipo",
+  "pdfSize": "4947996"
+}

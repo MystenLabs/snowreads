@@ -1,0 +1,43 @@
+{
+  "id": "2412.04474",
+  "title": "NSTRI Global Collaborative Research Data Platform",
+  "authors": "Hyeonhoon Lee, Hanseul Kim, Kyungmin Cho, Hyung-Chul Lee",
+  "authorsParsed": [
+    [
+      "Lee",
+      "Hyeonhoon",
+      ""
+    ],
+    [
+      "Kim",
+      "Hanseul",
+      ""
+    ],
+    [
+      "Cho",
+      "Kyungmin",
+      ""
+    ],
+    [
+      "Lee",
+      "Hyung-Chul",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 16 Nov 2024 02:13:54 GMT"
+    }
+  ],
+  "updateDate": "2024-12-09",
+  "timestamp": 1731723234000,
+  "abstract": "  The National Strategic Technology Research Institute (NSTRI) Data Platform\noperated by Seoul National University Hospital (SNUH) addresses the challenge\nof accessing Korean healthcare data for international research. This platform\nprovides secure access to pseudonymized Korean healthcare data while\nintegrating international datasets, enabling the development of more equitable\nand generalizable machine learning models. The system features four key\nAI-powered components: an intelligent data search engine utilizing\ndomain-specific medical embeddings, a Korean-English medical translation\nsystem, a comprehensive drug search engine, and an LLM-powered medical research\nassistant. The platform implements containerized environments within a secure\nresearch pod architecture, ensuring data protection while maintaining research\nefficiency. The platform currently provides access to 10 distinct medical\ndatasets from SNUH, categorized by access permissions and standardized for\ncross-dataset analysis. This infrastructure enables global collaborative\nhealthcare research while maintaining strict data protection standards.\n",
+  "subjects": [
+    "Computer Science/Computers and Society",
+    "Computer Science/Information Retrieval"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "jcbrMtK_lSZ0OCzzqd37K0wf1xgIWrLT-5x0ih28tv0",
+  "pdfSize": "226355"
+}

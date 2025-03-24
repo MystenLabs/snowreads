@@ -1,0 +1,47 @@
+{
+  "id": "2412.07260",
+  "title": "DFREC: DeepFake Identity Recovery Based on Identity-aware Masked\n  Autoencoder",
+  "authors": "Peipeng Yu, Hui Gao, Zhitao Huang, Zhihua Xia, Chip-Hong Chang",
+  "authorsParsed": [
+    [
+      "Yu",
+      "Peipeng",
+      ""
+    ],
+    [
+      "Gao",
+      "Hui",
+      ""
+    ],
+    [
+      "Huang",
+      "Zhitao",
+      ""
+    ],
+    [
+      "Xia",
+      "Zhihua",
+      ""
+    ],
+    [
+      "Chang",
+      "Chip-Hong",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 10 Dec 2024 07:42:02 GMT"
+    }
+  ],
+  "updateDate": "2024-12-11",
+  "timestamp": 1733816522000,
+  "abstract": "  Recent advances in deepfake forensics have primarily focused on improving the\nclassification accuracy and generalization performance. Despite enormous\nprogress in detection accuracy across a wide variety of forgery algorithms,\nexisting algorithms lack intuitive interpretability and identity traceability\nto help with forensic investigation. In this paper, we introduce a novel\nDeepFake Identity Recovery scheme (DFREC) to fill this gap. DFREC aims to\nrecover the pair of source and target faces from a deepfake image to facilitate\ndeepfake identity tracing and reduce the risk of deepfake attack. It comprises\nthree key components: an Identity Segmentation Module (ISM), a Source Identity\nReconstruction Module (SIRM), and a Target Identity Reconstruction Module\n(TIRM). The ISM segments the input face into distinct source and target face\ninformation, and the SIRM reconstructs the source face and extracts latent\ntarget identity features with the segmented source information. The background\ncontext and latent target identity features are synergetically fused by a\nMasked Autoencoder in the TIRM to reconstruct the target face. We evaluate\nDFREC on six different high-fidelity face-swapping attacks on FaceForensics++,\nCelebaMegaFS and FFHQ-E4S datasets, which demonstrate its superior recovery\nperformance over state-of-the-art deepfake recovery algorithms. In addition,\nDFREC is the only scheme that can recover both pristine source and target faces\ndirectly from the forgery image with high fadelity.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "x3GB79nLdbRJkGzBlA9oFFIHXOGMl2xI9X_ZyZOBtNE",
+  "pdfSize": "3392858"
+}

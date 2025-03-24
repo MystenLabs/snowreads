@@ -1,0 +1,32 @@
+{
+  "id": "2412.01562",
+  "title": "Detection, Pose Estimation and Segmentation for Multiple Bodies: Closing\n  the Virtuous Circle",
+  "authors": "Miroslav Purkrabek and Jiri Matas",
+  "authorsParsed": [
+    [
+      "Purkrabek",
+      "Miroslav",
+      ""
+    ],
+    [
+      "Matas",
+      "Jiri",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 2 Dec 2024 14:50:15 GMT"
+    }
+  ],
+  "updateDate": "2024-12-03",
+  "timestamp": 1733151015000,
+  "abstract": "  Human pose estimation methods work well on separated people but struggle with\nmulti-body scenarios. Recent work has addressed this problem by conditioning\npose estimation with detected bounding boxes or bottom-up-estimated poses.\nUnfortunately, all of these approaches overlooked segmentation masks and their\nconnection to estimated keypoints. We condition pose estimation model by\nsegmentation masks instead of bounding boxes to improve instance separation.\nThis improves top-down pose estimation in multi-body scenarios but does not fix\ndetection errors. Consequently, we develop BBox-Mask-Pose (BMP), integrating\ndetection, segmentation and pose estimation into self-improving feedback loop.\nWe adapt detector and pose estimation model for conditioning by instance masks\nand use Segment Anything as pose-to-mask model to close the circle. With only\nsmall models, BMP is superior to top-down methods on OCHuman dataset and to\ndetector-free methods on COCO dataset, combining the best from both approaches\nand matching state of art performance in both settings. Code is available on\nhttps://mirapurkrabek.github.io/BBox-Mask-Pose.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "ucK3cfH41I32bZPkdagsGm841VMHcS82G0FKV3LmzcU",
+  "pdfSize": "8926634"
+}

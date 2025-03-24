@@ -1,0 +1,47 @@
+{
+  "id": "2412.09810",
+  "title": "The Complexity Dynamics of Grokking",
+  "authors": "Branton DeMoss, Silvia Sapora, Jakob Foerster, Nick Hawes, Ingmar\n  Posner",
+  "authorsParsed": [
+    [
+      "DeMoss",
+      "Branton",
+      ""
+    ],
+    [
+      "Sapora",
+      "Silvia",
+      ""
+    ],
+    [
+      "Foerster",
+      "Jakob",
+      ""
+    ],
+    [
+      "Hawes",
+      "Nick",
+      ""
+    ],
+    [
+      "Posner",
+      "Ingmar",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 13 Dec 2024 02:57:59 GMT"
+    }
+  ],
+  "updateDate": "2024-12-16",
+  "timestamp": 1734058679000,
+  "abstract": "  We investigate the phenomenon of generalization through the lens of\ncompression. In particular, we study the complexity dynamics of neural networks\nto explain grokking, where networks suddenly transition from memorizing to\ngeneralizing solutions long after over-fitting the training data. To this end\nwe introduce a new measure of intrinsic complexity for neural networks based on\nthe theory of Kolmogorov complexity. Tracking this metric throughout network\ntraining, we find a consistent pattern in training dynamics, consisting of a\nrise and fall in complexity. We demonstrate that this corresponds to\nmemorization followed by generalization. Based on insights from\nrate--distortion theory and the minimum description length principle, we lay\nout a principled approach to lossy compression of neural networks, and connect\nour complexity measure to explicit generalization bounds. Based on a careful\nanalysis of information capacity in neural networks, we propose a new\nregularization method which encourages networks towards low-rank\nrepresentations by penalizing their spectral entropy, and find that our\nregularizer outperforms baselines in total compression of the dataset.\n",
+  "subjects": [
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "DgjgE8wfMn90KN-Y0hIu67I_P-mysnsffQScfclm2cs",
+  "pdfSize": "6643300"
+}

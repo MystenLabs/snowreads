@@ -1,0 +1,44 @@
+{
+  "id": "2412.14384",
+  "title": "I0T: Embedding Standardization Method Towards Zero Modality Gap",
+  "authors": "Na Min An, Eunki Kim, James Thorne, Hyunjung Shim",
+  "authorsParsed": [
+    [
+      "An",
+      "Na Min",
+      ""
+    ],
+    [
+      "Kim",
+      "Eunki",
+      ""
+    ],
+    [
+      "Thorne",
+      "James",
+      ""
+    ],
+    [
+      "Shim",
+      "Hyunjung",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 18 Dec 2024 22:35:01 GMT"
+    }
+  ],
+  "updateDate": "2024-12-20",
+  "timestamp": 1734561301000,
+  "abstract": "  Contrastive Language-Image Pretraining (CLIP) enables zero-shot inference in\ndownstream tasks such as image-text retrieval and classification. However,\nrecent works extending CLIP suffer from the issue of modality gap, which arises\nwhen the image and text embeddings are projected to disparate manifolds,\ndeviating from the intended objective of image-text contrastive learning. We\ndiscover that this phenomenon is linked to the modality-specific characteristic\nthat each image/text encoder independently possesses and propose two methods to\naddress the modality gap: (1) a post-hoc embedding standardization method,\n$\\text{I0T}_{\\text{post}}$ that reduces the modality gap approximately to zero\nand (2) a trainable method, $\\text{I0T}_{\\text{async}}$, to alleviate the\nmodality gap problem by adding two normalization layers for each encoder. Our\nI0T framework can significantly reduce the modality gap while preserving the\noriginal embedding representations of trained models with their locked\nparameters. In practice, $\\text{I0T}_{\\text{post}}$ can serve as an alternative\nexplainable automatic evaluation metric of widely used CLIPScore (CLIP-S).\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "2Vkarz_m4UBqrxRMWl7gTjk67hM4kvry4LST_Q5t8UI",
+  "pdfSize": "4301445"
+}

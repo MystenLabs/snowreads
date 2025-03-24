@@ -1,0 +1,32 @@
+{
+  "id": "2412.02382",
+  "title": "Decentralized projected Riemannian stochastic recursive momentum method\n  for smooth optimization on compact submanifolds",
+  "authors": "Kangkang Deng and Jiang Hu",
+  "authorsParsed": [
+    [
+      "Deng",
+      "Kangkang",
+      ""
+    ],
+    [
+      "Hu",
+      "Jiang",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 3 Dec 2024 11:07:58 GMT"
+    }
+  ],
+  "updateDate": "2024-12-04",
+  "timestamp": 1733224078000,
+  "abstract": "  This work addresses the problem of decentralized optimization on a compact\nsubmanifold within a communication network comprising \\(n\\) nodes. Each node is\nassociated with a smooth, non-convex local cost function, and the collective\nobjective is to minimize the sum of these local cost functions. We focus on an\nonline scenario where local data arrives continuously in a streaming fashion,\neliminating the necessity for complete data storage. To tackle this problem, we\nintroduce a novel algorithm, the Decentralized Projected Riemannian Stochastic\nRecursive Momentum (DPRSRM) method. Our approach leverages hybrid local\nstochastic gradient estimators and utilizes network communication to maintain a\nconsensus on the global gradient. Notably, DPRSRM attains an oracle complexity\nof \\(\\mathcal{O}(\\epsilon^{-\\frac{3}{2}})\\), which surpasses the performance of\nexisting methods with complexities no better than\n\\(\\mathcal{O}(\\epsilon^{-2})\\). Each node in the network requires only\n\\(\\mathcal{O}(1)\\) gradient evaluations per iteration, avoiding the need for\nlarge batch gradient calculations or restarting procedures. Finally, we\nvalidate the superior performance of our proposed algorithm through numerical\nexperiments, including applications in principal component analysis and\nlow-rank matrix completion, demonstrating its advantages over state-of-the-art\napproaches.\n",
+  "subjects": [
+    "Mathematics/Optimization and Control"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "uLhzPob7BLg8MQet0y7ofwrw-4K_eC168Rv7DT-WQ1s",
+  "pdfSize": "1062225"
+}

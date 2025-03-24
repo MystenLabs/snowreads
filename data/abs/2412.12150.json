@@ -1,0 +1,49 @@
+{
+  "id": "2412.12150",
+  "title": "Rethinking Comprehensive Benchmark for Chart Understanding: A\n  Perspective from Scientific Literature",
+  "authors": "Lingdong Shen, Qigqi, Kun Ding, Gaofeng Meng, Shiming Xiang",
+  "authorsParsed": [
+    [
+      "Shen",
+      "Lingdong",
+      ""
+    ],
+    [
+      "Qigqi",
+      "",
+      ""
+    ],
+    [
+      "Ding",
+      "Kun",
+      ""
+    ],
+    [
+      "Meng",
+      "Gaofeng",
+      ""
+    ],
+    [
+      "Xiang",
+      "Shiming",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 11 Dec 2024 05:29:54 GMT"
+    }
+  ],
+  "updateDate": "2024-12-18",
+  "timestamp": 1733894994000,
+  "abstract": "  Scientific Literature charts often contain complex visual elements, including\nmulti-plot figures, flowcharts, structural diagrams and etc. Evaluating\nmultimodal models using these authentic and intricate charts provides a more\naccurate assessment of their understanding abilities. However, existing\nbenchmarks face limitations: a narrow range of chart types, overly simplistic\ntemplate-based questions and visual elements, and inadequate evaluation\nmethods. These shortcomings lead to inflated performance scores that fail to\nhold up when models encounter real-world scientific charts. To address these\nchallenges, we introduce a new benchmark, Scientific Chart QA (SCI-CQA), which\nemphasizes flowcharts as a critical yet often overlooked category. To overcome\nthe limitations of chart variety and simplistic visual elements, we curated a\ndataset of 202,760 image-text pairs from 15 top-tier computer science\nconferences papers over the past decade. After rigorous filtering, we refined\nthis to 37,607 high-quality charts with contextual information. SCI-CQA also\nintroduces a novel evaluation framework inspired by human exams, encompassing\n5,629 carefully curated questions, both objective and open-ended. Additionally,\nwe propose an efficient annotation pipeline that significantly reduces data\nannotation costs. Finally, we explore context-based chart understanding,\nhighlighting the crucial role of contextual information in solving previously\nunanswerable questions.\n",
+  "subjects": [
+    "Computer Science/Computation and Language",
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "D8OV21sHohFfy07yhRYeM5tydz31U4PijRuZ5LESDB8",
+  "pdfSize": "4698017"
+}

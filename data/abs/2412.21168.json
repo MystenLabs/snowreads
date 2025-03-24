@@ -1,0 +1,33 @@
+{
+  "id": "2412.21168",
+  "title": "Perfect stationary solutions of reaction-diffusion equations on lattices\n  and regular graphs",
+  "authors": "Vladim\\'ir \\v{S}v\\'igler and Jon\\'a\\v{s} Volek",
+  "authorsParsed": [
+    [
+      "Švígler",
+      "Vladimír",
+      ""
+    ],
+    [
+      "Volek",
+      "Jonáš",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 30 Dec 2024 18:44:30 GMT"
+    }
+  ],
+  "updateDate": "2024-12-31",
+  "timestamp": 1735584270000,
+  "abstract": "  Reaction-diffusion equations on infinite graphs can have an infinite number\nof stationary solutions. These solutions are generally described as roots of a\ncountable system of algebraic equations. As a generalization of periodic\nstationary solutions we present perfect stationary solutions, a special class\nof solutions with finite range in which the neighborhood values are determined\nprecisely by the value of the central vertex. The focus on the solutions which\nattain a finite number of values enables us to rewrite the countable algebraic\nsystem to a finite one. In this work, we define the notion of perfect\nstationary solutions and show its elementary properties. We further present\nresults from the theory of perfect colorings in order to prove the existence of\nthe solutions in the square, triangular and hexagonal grids; as a byproduct,\nthe existence of uncountable number of two-valued stationary solutions on these\ngrids is shown. These two-valued solutions can form highly aperiodic and highly\nirregular patterns. Finally, an application to a bistable reaction-diffusion\nequation on a square grid is presented.\n",
+  "subjects": [
+    "Mathematics/Dynamical Systems",
+    "Mathematics/Analysis of PDEs"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "a4KZzinKxPjLp37Zc0N4jjb6Z3By766-kk1Cah24izM",
+  "pdfSize": "763451"
+}

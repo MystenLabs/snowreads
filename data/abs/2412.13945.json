@@ -1,0 +1,28 @@
+{
+  "id": "2412.13945",
+  "title": "Restricted subgraphs of edge-colored graphs and applications",
+  "authors": "Benny Sudakov",
+  "authorsParsed": [
+    [
+      "Sudakov",
+      "Benny",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 18 Dec 2024 15:27:53 GMT"
+    }
+  ],
+  "updateDate": "2024-12-19",
+  "timestamp": 1734535673000,
+  "abstract": "  A properly edge-colored graph is a graph with a coloring of its edges such\nthat no vertex is incident to two or more edges of the same color. A subgraph\nis called rainbow if all its edges have different colors. The problem of\nfinding rainbow subgraphs or other restricted structures in edge-colored graphs\nhas a long history, dating back to Euler's work on Latin squares. It has also\nproven to be a powerful method for studying several well-known questions in\nother areas.\n  In this survey, we will provide a brief introduction to this topic, discuss\nseveral results in this area, and demonstrate their applications to problems in\ngraph decomposition, additive combinatorics, theoretical computer science, and\ncoding theory.\n",
+  "subjects": [
+    "Mathematics/Combinatorics",
+    "Computer Science/Discrete Mathematics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "ibQ0zP01aa3TLOGDJIT6mBFQXFZM0qcltaYRUsLxQ-0",
+  "pdfSize": "288961"
+}

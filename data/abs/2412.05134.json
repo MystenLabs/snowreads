@@ -1,0 +1,43 @@
+{
+  "id": "2412.05134",
+  "title": "How to Squeeze An Explanation Out of Your Model",
+  "authors": "Tiago Roxo and Joana C. Costa and Pedro R. M. In\\'acio and Hugo\n  Proen\\c{c}a",
+  "authorsParsed": [
+    [
+      "Roxo",
+      "Tiago",
+      ""
+    ],
+    [
+      "Costa",
+      "Joana C.",
+      ""
+    ],
+    [
+      "Inácio",
+      "Pedro R. M.",
+      ""
+    ],
+    [
+      "Proença",
+      "Hugo",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 6 Dec 2024 15:47:53 GMT"
+    }
+  ],
+  "updateDate": "2024-12-09",
+  "timestamp": 1733500073000,
+  "abstract": "  Deep learning models are widely used nowadays for their reliability in\nperforming various tasks. However, they do not typically provide the reasoning\nbehind their decision, which is a significant drawback, particularly for more\nsensitive areas such as biometrics, security and healthcare. The most commonly\nused approaches to provide interpretability create visual attention heatmaps of\nregions of interest on an image based on models gradient backpropagation.\nAlthough this is a viable approach, current methods are targeted toward image\nsettings and default/standard deep learning models, meaning that they require\nsignificant adaptations to work on video/multi-modal settings and custom\narchitectures. This paper proposes an approach for interpretability that is\nmodel-agnostic, based on a novel use of the Squeeze and Excitation (SE) block\nthat creates visual attention heatmaps. By including an SE block prior to the\nclassification layer of any model, we are able to retrieve the most influential\nfeatures via SE vector manipulation, one of the key components of the SE block.\nOur results show that this new SE-based interpretability can be applied to\nvarious models in image and video/multi-modal settings, namely biometrics of\nfacial features with CelebA and behavioral biometrics using Active Speaker\nDetection datasets. Furthermore, our proposal does not compromise model\nperformance toward the original task, and has competitive results with current\ninterpretability approaches in state-of-the-art object datasets, highlighting\nits robustness to perform in varying data aside from the biometric context.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "HCQlEAKHA-fO10Pb5j3BxoQI8BbYZDpKzRwE2tsi0ac",
+  "pdfSize": "23049499"
+}

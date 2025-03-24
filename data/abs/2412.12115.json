@@ -1,0 +1,33 @@
+{
+  "id": "2412.12115",
+  "title": "Rashomon effect in Educational Research: Why More is Better Than One for\n  Measuring the Importance of the Variables?",
+  "authors": "Jakub Kuzilek and Mustafa \\c{C}avu\\c{s}",
+  "authorsParsed": [
+    [
+      "Kuzilek",
+      "Jakub",
+      ""
+    ],
+    [
+      "Çavuş",
+      "Mustafa",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 2 Dec 2024 14:05:36 GMT"
+    }
+  ],
+  "updateDate": "2024-12-18",
+  "timestamp": 1733148336000,
+  "abstract": "  This study explores how the Rashomon effect influences variable importance in\nthe context of student demographics used for academic outcomes prediction. Our\nresearch follows the way machine learning algorithms are employed in\nEducational Data Mining, focusing on highlighting the so-called Rashomon\neffect. The study uses the Rashomon set of simple-yet-accurate models trained\nusing decision trees, random forests, light GBM, and XGBoost algorithms with\nthe Open University Learning Analytics Dataset. We found that the Rashomon set\nimproves the predictive accuracy by 2-6%. Variable importance analysis revealed\nmore consistent and reliable results for binary classification than multiclass\nclassification, highlighting the complexity of predicting multiple outcomes.\nKey demographic variables imd_band and highest_education were identified as\nvital, but their importance varied across courses, especially in course DDD.\nThese findings underscore the importance of model choice and the need for\ncaution in generalizing results, as different models can lead to different\nvariable importance rankings. The codes for reproducing the experiments are\navailable in the repository: https://anonymous.4open.science/r/JEDM_paper-DE9D.\n",
+  "subjects": [
+    "Computer Science/Computers and Society",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "JI8dVgKRTypc_jFY4dK51rrRGPFIqMZQASHXQ3QPDCA",
+  "pdfSize": "643374"
+}

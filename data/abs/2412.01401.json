@@ -1,0 +1,44 @@
+{
+  "id": "2412.01401",
+  "title": "Linear stimulus reconstruction works on the KU Leuven audiovisual,\n  gaze-controlled auditory attention decoding dataset",
+  "authors": "Simon Geirnaert, Iustina Rotaru, Tom Francart, Alexander Bertrand",
+  "authorsParsed": [
+    [
+      "Geirnaert",
+      "Simon",
+      ""
+    ],
+    [
+      "Rotaru",
+      "Iustina",
+      ""
+    ],
+    [
+      "Francart",
+      "Tom",
+      ""
+    ],
+    [
+      "Bertrand",
+      "Alexander",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 2 Dec 2024 11:35:49 GMT"
+    }
+  ],
+  "updateDate": "2024-12-03",
+  "timestamp": 1733139349000,
+  "abstract": "  In a recent paper, we presented the KU Leuven audiovisual, gaze-controlled\nauditory attention decoding (AV-GC-AAD) dataset, in which we recorded\nelectroencephalography (EEG) signals of participants attending to one out of\ntwo competing speakers under various audiovisual conditions. The main goal of\nthis dataset was to disentangle the direction of gaze from the direction of\nauditory attention, in order to reveal gaze-related shortcuts in existing\nspatial AAD algorithms that aim to decode the (direction of) auditory attention\ndirectly from the EEG. Various methods based on spatial AAD do not achieve\nsignificant above-chance performances on our AV-GC-AAD dataset, indicating that\npreviously reported results were mainly driven by eye gaze confounds in\nexisting datasets. Still, these adverse outcomes are often discarded for\nreasons that are attributed to the limitations of the AV-GC-AAD dataset, such\nas the limited amount of data to train a working model, too much data\nheterogeneity due to different audiovisual conditions, or participants\nallegedly being unable to focus their auditory attention under the complex\ninstructions. In this paper, we present the results of the linear stimulus\nreconstruction AAD algorithm and show that high AAD accuracy can be obtained\nwithin each individual condition and that the model generalizes across\nconditions, across new subjects, and even across datasets. Therefore, we\neliminate any doubts that the inadequacy of the AV-GC-AAD dataset is the\nprimary reason for the (spatial) AAD algorithms failing to achieve above-chance\nperformance when compared to other datasets. Furthermore, this report provides\na simple baseline evaluation procedure (including source code) that can serve\nas the minimal benchmark for all future AAD algorithms evaluated on this\ndataset.\n",
+  "subjects": [
+    "Electrical Engineering and Systems Science/Signal Processing",
+    "Computer Science/Sound",
+    "Electrical Engineering and Systems Science/Audio and Speech Processing"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "KVNl4hH7mQsu0_YsQMLiUtMb1QrnIIN8PJuWyJUMjEs",
+  "pdfSize": "581833"
+}

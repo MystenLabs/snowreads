@@ -1,0 +1,43 @@
+{
+  "id": "2412.14890",
+  "title": "Scale This, Not That: Investigating Key Dataset Attributes for Efficient\n  Speech Enhancement Scaling",
+  "authors": "Leying Zhang, Wangyou Zhang, Chenda Li, Yanmin Qian",
+  "authorsParsed": [
+    [
+      "Zhang",
+      "Leying",
+      ""
+    ],
+    [
+      "Zhang",
+      "Wangyou",
+      ""
+    ],
+    [
+      "Li",
+      "Chenda",
+      ""
+    ],
+    [
+      "Qian",
+      "Yanmin",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 19 Dec 2024 14:21:51 GMT"
+    }
+  ],
+  "updateDate": "2024-12-20",
+  "timestamp": 1734618111000,
+  "abstract": "  Recent speech enhancement models have shown impressive performance gains by\nscaling up model complexity and training data. However, the impact of dataset\nvariability (e.g. text, language, speaker, and noise) has been underexplored.\nAnalyzing each attribute individually is often challenging, as multiple\nattributes are usually entangled in commonly used datasets, posing a\nsignificant obstacle in understanding the distinct contributions of each\nattribute to the model's performance. To address this challenge, we propose a\ngeneration-training-evaluation framework that leverages zero-shot\ntext-to-speech systems to investigate the impact of controlled attribute\nvariations on speech enhancement performance. It enables us to synthesize\ntraining datasets in a scalable manner while carefully altering each attribute.\nBased on the proposed framework, we analyze the scaling effects of various\ndataset attributes on the performance of both discriminative and generative SE\nmodels. Extensive experiments on multi-domain corpora imply that acoustic\nattributes (e.g., speaker and noise) are much more important to current speech\nenhancement models than semantic attributes (e.g., language and text), offering\nnew insights for future research.\n",
+  "subjects": [
+    "Electrical Engineering and Systems Science/Audio and Speech Processing",
+    "Computer Science/Sound"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "4E_7MfXl2Yz3rCReSlzv7qL7MRZKgRwbFQtq3qxKhjQ",
+  "pdfSize": "2654297"
+}

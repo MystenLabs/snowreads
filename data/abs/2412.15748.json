@@ -1,0 +1,34 @@
+{
+  "id": "2412.15748",
+  "title": "Critique of Impure Reason: Unveiling the reasoning behaviour of medical\n  Large Language Models",
+  "authors": "Shamus Sim and Tyrone Chen",
+  "authorsParsed": [
+    [
+      "Sim",
+      "Shamus",
+      ""
+    ],
+    [
+      "Chen",
+      "Tyrone",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 20 Dec 2024 10:06:52 GMT"
+    }
+  ],
+  "updateDate": "2024-12-23",
+  "timestamp": 1734689212000,
+  "abstract": "  Background: Despite the current ubiquity of Large Language Models (LLMs)\nacross the medical domain, there is a surprising lack of studies which address\ntheir reasoning behaviour. We emphasise the importance of understanding\nreasoning behaviour as opposed to high-level prediction accuracies, since it is\nequivalent to explainable AI (XAI) in this context. In particular, achieving\nXAI in medical LLMs used in the clinical domain will have a significant impact\nacross the healthcare sector. Results: Therefore, we define the concept of\nreasoning behaviour in the specific context of medical LLMs. We then categorise\nand discuss the current state of the art of methods which evaluate reasoning\nbehaviour in medical LLMs. Finally, we propose theoretical frameworks which can\nempower medical professionals or machine learning engineers to gain insight\ninto the low-level reasoning operations of these previously obscure models.\nConclusion: The subsequent increased transparency and trust in medical machine\nlearning models by clinicians as well as patients will accelerate the\nintegration, application as well as further development of medical AI for the\nhealthcare system as a whole\n",
+  "subjects": [
+    "Computer Science/Computation and Language",
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "fZTTSesLy-kPmyavZc_8L9Ig74vz-ptjgbeYrT34rlo",
+  "pdfSize": "708941"
+}

@@ -1,0 +1,37 @@
+{
+  "id": "2412.11117",
+  "title": "Global existence and decay rates of strong solutions to the diffusion\n  approximation model in radiation hydrodynamics",
+  "authors": "Peng Jiang, Fucai Li, Jinkai Ni",
+  "authorsParsed": [
+    [
+      "Jiang",
+      "Peng",
+      ""
+    ],
+    [
+      "Li",
+      "Fucai",
+      ""
+    ],
+    [
+      "Ni",
+      "Jinkai",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 15 Dec 2024 08:35:52 GMT"
+    }
+  ],
+  "updateDate": "2024-12-17",
+  "timestamp": 1734251752000,
+  "abstract": "  In this paper, we study the global well-posedness and optimal time decay\nrates of strong solutions to the diffusion approximation model in radiation\nhydrodynamics in $\\mathbb{R}^3$. This model consists of the full compressible\nNavier-Stokes equations and the radiative diffusion equation which describes\nthe influence and interaction between thermal radiation and fluid motion.\nSupposing that the initial perturbation around the equilibrium is sufficiently\nsmall in $H^2$-norm, we obtain the global strong solutions by utilizing method\nof the frequency decomposition. Moreover, by performing Fourier analysis\ntechniques and using the delicate energy method, we consequently derive the\noptimal decay rates (including highest-order derivatives) of solutions for this\nmodel.\n",
+  "subjects": [
+    "Mathematics/Analysis of PDEs"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "EjgfEe2_tW2ojma2sdDkuh7EvsE9vko32o7_gzLo3B4",
+  "pdfSize": "341397"
+}

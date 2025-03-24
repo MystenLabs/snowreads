@@ -1,0 +1,37 @@
+{
+  "id": "2412.13926",
+  "title": "Finite groups with coprime non-linear codegrees",
+  "authors": "Ashkan Zarezadeh, Behrooz Khosravi, Zeinab Akhlaghi",
+  "authorsParsed": [
+    [
+      "Zarezadeh",
+      "Ashkan",
+      ""
+    ],
+    [
+      "Khosravi",
+      "Behrooz",
+      ""
+    ],
+    [
+      "Akhlaghi",
+      "Zeinab",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 18 Dec 2024 15:10:07 GMT"
+    }
+  ],
+  "updateDate": "2024-12-19",
+  "timestamp": 1734534607000,
+  "abstract": "  Given a finite group G with an irreducible character \\chi \\in Irr(G), the\ncodegree of \\chi is defined by cod(\\chi) = |G :\\ker \\chi|/\\chi(1). The set of\nnon-linear irreducible character codegrees of G is denoted by cod(G|G'). In\nthis note, we classify all finite groups G with |cod(G|G')|> 1 and for each\npair of distinct elements m, n \\in cod(G|G'), m and n are coprime.\n",
+  "subjects": [
+    "Mathematics/Group Theory"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "0oNifPjozYhFO35OYr8DWzrHfn1TQDQfYYg0K2p1nYo",
+  "pdfSize": "188556"
+}

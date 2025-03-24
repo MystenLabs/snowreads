@@ -1,0 +1,38 @@
+{
+  "id": "2412.10386",
+  "title": "Counterfactual Explanations for MITL Violations",
+  "authors": "Bernd Finkbeiner, Felix Jahn, Julian Siber",
+  "authorsParsed": [
+    [
+      "Finkbeiner",
+      "Bernd",
+      ""
+    ],
+    [
+      "Jahn",
+      "Felix",
+      ""
+    ],
+    [
+      "Siber",
+      "Julian",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 29 Nov 2024 12:13:40 GMT"
+    }
+  ],
+  "updateDate": "2024-12-17",
+  "timestamp": 1732882420000,
+  "abstract": "  MITL is a temporal logic that facilitates the verification of real-time\nsystems by expressing the critical timing constraints placed on these systems.\nMITL specifications can be checked against system models expressed as networks\nof timed automata. A violation of an MITL specification is then witnessed by a\ntimed trace of the network, i.e., an execution consisting of both discrete\nactions and real-valued delays between these actions. Finding and fixing the\nroot cause of such a violation requires significant manual effort since both\ndiscrete actions and real-time delays have to be considered. In this paper, we\npresent an automatic explanation method that eases this process by computing\nthe root causes for the violation of an MITL specification on the execution of\na network of timed automata. This method is based on newly developed\ndefinitions of counterfactual causality tailored to networks of timed automata\nin the style of Halpern and Pearl's actual causality. We present and evaluate a\nprototype implementation that demonstrates the efficacy of our method on\nseveral benchmarks from the literature.\n",
+  "subjects": [
+    "Computer Science/Logic in Computer Science",
+    "Computer Science/Formal Languages and Automata Theory"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "1sr5S32rBuopaSLyHJ6FvHIxkC6lOFxve8O3-NKJn68",
+  "pdfSize": "997312"
+}

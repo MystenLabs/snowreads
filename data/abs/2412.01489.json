@@ -1,0 +1,34 @@
+{
+  "id": "2412.01489",
+  "title": "One- and two-particle spectral gap identities for the symmetric\n  inclusion process and related models",
+  "authors": "Seonwoo Kim, Federico Sau",
+  "authorsParsed": [
+    [
+      "Kim",
+      "Seonwoo",
+      ""
+    ],
+    [
+      "Sau",
+      "Federico",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 2 Dec 2024 13:41:01 GMT"
+    }
+  ],
+  "updateDate": "2024-12-03",
+  "timestamp": 1733146861000,
+  "abstract": "  The symmetric inclusion process (SIP) models particles diffusing on a graph\nwith mutual attraction. We recently showed that, in the log-concave regime\n(where diffusivity dominates interaction), the spectral gap of the conservative\nSIP matches that of a single particle. In this paper, our main result\ndemonstrates that this identity generally fails outside this regime, but always\nholds for the non-conservative SIP, regardless of the interaction strength.\nWhen this one-particle spectral gap identity breaks down, we derive sharp\nbounds for the gap in terms of diffusivity, and reveal a two-particle spectral\ngap identity in the vanishing diffusivity limit. Our approach leverages the\nrigid eigenstructure of SIP, refined comparisons of Dirichlet forms for\narbitrary diffusivity and particle numbers, and techniques from slow-fast\nsystem analysis. These findings extend to the dual interacting diffusion known\nas Brownian energy process, and shed some light on the spectral gap behavior\nfor related Dirichlet-reversible systems on general, non-mean-field,\ngeometries.\n",
+  "subjects": [
+    "Mathematics/Probability",
+    "Physics/Mathematical Physics",
+    "Mathematics/Mathematical Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "0ma2mBPbAY05QlWCZgQ8UWOiCmcz9BfNBYJA68QylPM",
+  "pdfSize": "672010"
+}

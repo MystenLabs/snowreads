@@ -1,0 +1,37 @@
+{
+  "id": "2412.04977",
+  "title": "ORKG ASK: a Neuro-symbolic Scholarly Search and Exploration System",
+  "authors": "Allard Oelen, Mohamad Yaser Jaradeh, S\\\"oren Auer",
+  "authorsParsed": [
+    [
+      "Oelen",
+      "Allard",
+      ""
+    ],
+    [
+      "Jaradeh",
+      "Mohamad Yaser",
+      ""
+    ],
+    [
+      "Auer",
+      "Sören",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 6 Dec 2024 11:53:57 GMT"
+    }
+  ],
+  "updateDate": "2024-12-09",
+  "timestamp": 1733486037000,
+  "abstract": "  Purpose: Finding scholarly articles is a time-consuming and cumbersome\nactivity, yet crucial for conducting science. Due to the growing number of\nscholarly articles, new scholarly search systems are needed to effectively\nassist researchers in finding relevant literature.\n  Methodology: We take a neuro-symbolic approach to scholarly search and\nexploration by leveraging state-of-the-art components, including semantic\nsearch, Large Language Models (LLMs), and Knowledge Graphs (KGs). The semantic\nsearch component composes a set of relevant articles. From this set of\narticles, information is extracted and presented to the user.\n  Findings: The presented system, called ORKG ASK (Assistant for Scientific\nKnowledge), provides a production-ready search and exploration system. Our\npreliminary evaluation indicates that our proposed approach is indeed suitable\nfor the task of scholarly information retrieval.\n  Value: With ORKG ASK, we present a next-generation scholarly search and\nexploration system and make it available online. Additionally, the system\ncomponents are open source with a permissive license.\n",
+  "subjects": [
+    "Computer Science/Digital Libraries"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "iCHiZIgECUtWnLFNWkf9nVxmMQMrkwc4s-OLZLR4Nxg",
+  "pdfSize": "1713770"
+}

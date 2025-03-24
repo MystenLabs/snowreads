@@ -1,0 +1,48 @@
+{
+  "id": "2412.02435",
+  "title": "Sequential Payment Rules: Approximately Fair Budget Divisions via Simple\n  Spending Dynamics",
+  "authors": "Haris Aziz, Patrick Lederer, Xinhang Lu, Mashbat Suzuki, Jeremy Vollen",
+  "authorsParsed": [
+    [
+      "Aziz",
+      "Haris",
+      ""
+    ],
+    [
+      "Lederer",
+      "Patrick",
+      ""
+    ],
+    [
+      "Lu",
+      "Xinhang",
+      ""
+    ],
+    [
+      "Suzuki",
+      "Mashbat",
+      ""
+    ],
+    [
+      "Vollen",
+      "Jeremy",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 3 Dec 2024 13:16:55 GMT"
+    }
+  ],
+  "updateDate": "2024-12-04",
+  "timestamp": 1733231815000,
+  "abstract": "  In approval-based budget division, a budget needs to be distributed to some\ncandidates based on the voters' approval ballots over these candidates. In the\npursuit of simple, well-behaved, and approximately fair rules for this setting,\nwe introduce the class of sequential payment rules, where each voter controls a\npart of the budget and repeatedly spends his share on his approved candidates\nto determine the final distribution. We show that all sequential payment rules\nsatisfy a demanding population consistency notion and we identify two\nparticularly appealing rules within this class called the maximum payment rule\n(MP) and the $\\frac{1}{3}$-multiplicative sequential payment rule\n($\\frac{1}{3}$-MP). More specifically, we prove that (i) MP is, apart from one\nother rule, the only monotonic sequential payment rule and gives a\n$2$-approximation to a fairness notion called average fair share, and (ii)\n$\\frac{1}{3}$-MP gives a $\\frac{3}{2}$-approximation to average fair share,\nwhich is optimal among sequential payment rules.\n",
+  "subjects": [
+    "Computer Science/Computer Science and Game Theory",
+    "Economics/Theoretical Economics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "zdzbbpSmmlqQZWJatlIKvZT3rh4w0Y9IdPrMjQ6fx-w",
+  "pdfSize": "418170"
+}

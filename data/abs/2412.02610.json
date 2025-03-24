@@ -1,0 +1,37 @@
+{
+  "id": "2412.02610",
+  "title": "AI-Driven Resource Allocation Framework for Microservices in Hybrid\n  Cloud Platforms",
+  "authors": "Biman Barua and M. Shamim Kaiser",
+  "authorsParsed": [
+    [
+      "Barua",
+      "Biman",
+      ""
+    ],
+    [
+      "Kaiser",
+      "M. Shamim",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 3 Dec 2024 17:41:08 GMT"
+    }
+  ],
+  "updateDate": "2024-12-04",
+  "timestamp": 1733247668000,
+  "abstract": "  The increasing demand for scalable, efficient resource management in hybrid\ncloud environments has led to the exploration of AI-driven approaches for\ndynamic resource allocation. This paper presents an AI-driven framework for\nresource allocation among microservices in hybrid cloud platforms. The\nframework employs reinforcement learning (RL)-based resource utilization\noptimization to reduce costs and improve performance. The framework integrates\nAI models with cloud management tools to respond to challenges of dynamic\nscaling and cost-efficient low-latency service delivery. The reinforcement\nlearning model continuously adjusts provisioned resources as required by the\nmicroservices and predicts the future consumption trends to minimize both\nunder- and over-provisioning of resources. Preliminary simulation results\nindicate that using AI in the provision of resources related to costs can\nreduce expenditure by up to 30-40% compared to manual provisioning and\nthreshold-based auto-scaling approaches. It is also estimated that the\nefficiency in resource utilization is expected to improve by 20%-30% with a\ncorresponding latency cut of 15%-20% during the peak demand periods. This study\ncompares the AI-driven approach with existing static and rule-based resource\nallocation methods, demonstrating the capability of this new model to\noutperform them in terms of flexibility and real-time interests. The results\nindicate that reinforcement learning can make optimization of hybrid cloud\nplatforms even better, offering a 25-35% improvement in cost efficiency and the\npower of scaling for microservice-based applications. The proposed framework is\na strong and scalable solution to managing cloud resources in dynamic and\nperformance-critical environments.\n",
+  "subjects": [
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Computational Engineering, Finance, and Science",
+    "Computer Science/Performance",
+    "Computer Science/Software Engineering",
+    "Computer Science/Systems and Control",
+    "Electrical Engineering and Systems Science/Systems and Control"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "xRcyqHB06u4s_P3MR0G64kIk1dKfGJOBKmum3YpOx_M",
+  "pdfSize": "1537264"
+}

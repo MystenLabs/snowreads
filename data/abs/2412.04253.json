@@ -1,0 +1,41 @@
+{
+  "id": "2412.04253",
+  "title": "Hilbert's 10th Problem via Mordell curves",
+  "authors": "Somnath Jha, Debanjana Kundu and Dipramit Majumdar",
+  "authorsParsed": [
+    [
+      "Jha",
+      "Somnath",
+      ""
+    ],
+    [
+      "Kundu",
+      "Debanjana",
+      ""
+    ],
+    [
+      "Majumdar",
+      "Dipramit",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 5 Dec 2024 15:33:54 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Wed, 19 Feb 2025 03:59:39 GMT"
+    }
+  ],
+  "updateDate": "2025-02-20",
+  "timestamp": 1733412834000,
+  "abstract": "  We show that for $5/6$-th of all primes $p$, Hilbert's 10-th Problem is\nunsolvable for $\\mathbb{Q}(\\zeta_3, \\sqrt[3]{p})$. We also show that there is\nan infinite set $S$ of square free integers such tha Hilbert's 10-th Problem is\nunsolvable over the number fields $\\mathbb{Q}(\\zeta_3, \\sqrt{D}, \\sqrt[3]{p})$\nfor every $D \\in S$ and every prime $p \\equiv 2,5 \\pmod{9}$. We use the CM\nelliptic curves $Y^2=X^3-432D^2$ associated to the cube sum problem, with $D$\nvarying in suitable congruence class, in our proof.\n",
+  "subjects": [
+    "Mathematics/Number Theory"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "xYKVYJv_S-Th3QA_cpjRalFnYJ27Zz2fOYZyS-upDLE",
+  "pdfSize": "198252"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "2412.20661",
+  "title": "On Discrete Curvatures of Trees",
+  "authors": "Sawyer Jack Robertson",
+  "authorsParsed": [
+    [
+      "Robertson",
+      "Sawyer Jack",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 30 Dec 2024 02:38:24 GMT"
+    }
+  ],
+  "updateDate": "2024-12-31",
+  "timestamp": 1735526304000,
+  "abstract": "  There are several interweaving notions of discrete curvature on graphs. Many\napproaches utilize the optimal transportation metric on its probability simplex\nor the distance matrix of the graph. Since each of these ingredients is well\nunderstood when the underlying graph is a tree, in this note, we review\nexisting and obtain new formulas for three different types of curvature on\ngraphs. Along the way we obtain: a comparison result for the curvatures under\nconsideration, a degree-diameter theorem for trees, and a combinatorial\nidentity for certain sums of distances on trees.\n",
+  "subjects": [
+    "Mathematics/Combinatorics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "AorGrsqkt_qsHvIvfGUjs_wJHbJHDrJ6t3gKq3Sjq6A",
+  "pdfSize": "253905"
+}

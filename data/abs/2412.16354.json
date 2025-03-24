@@ -1,0 +1,34 @@
+{
+  "id": "2412.16354",
+  "title": "Wireless communications with user equipment mounted Reconfigurable\n  Intelligent Surfaces",
+  "authors": "I. Zakir Ahmed and Hamid Sadjadpour",
+  "authorsParsed": [
+    [
+      "Ahmed",
+      "I. Zakir",
+      ""
+    ],
+    [
+      "Sadjadpour",
+      "Hamid",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 20 Dec 2024 21:31:08 GMT"
+    }
+  ],
+  "updateDate": "2024-12-24",
+  "timestamp": 1734730268000,
+  "abstract": "  In traditional Reconfigurable Intelligent Surfaces (RIS) systems, the RIS is\nmounted on stationary structures like buildings, walls, or posts. They have\nshown promising results in enhancing the performance of wireless systems like\ncapacity and MSE in poor channel conditions. The traditional RIS is a\nmonolithic structure containing a large number of reflecting elements (passive\nor active). In this paper, we propose the idea of mounting a small number of\nRIS elements (usually between 2 to 4 ) on user equipment (UEs) like mobile\nphones, laptops, and tablets, to name a few. A joint coordinated optimization\nof phase shifts of all the passive RIS elements on the participating UEs is\nenvisioned to enhance the performance of wireless communication between an\nintended transmitter and receiver in the MSE sense. Given that the RIS elements\nare mounted on the UEs, the challenging channel estimation problem with RIS is\nsignificantly simplified. For the case when there is a line-of-sight (LOS)\nchannel and with a large number of participating RIS-mounted UEs, the LOS is\nconverted into a multipath-rich-scattering channel even for millimeter wave and\nTerahertz operating ranges that enable higher spatial multiplexing gains,\nthereby significantly improving the MSE performance compared to traditional RIS\nchannels. We support the above claims using simulations.\n",
+  "subjects": [
+    "Electrical Engineering and Systems Science/Signal Processing",
+    "Computer Science/Information Theory",
+    "Mathematics/Information Theory"
+  ],
+  "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+  "blobId": "iArWniR56U51dUrfymcNJOUsRJkEJKaqHTeud3gwDyo",
+  "pdfSize": "1587558"
+}

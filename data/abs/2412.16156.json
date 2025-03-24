@@ -1,0 +1,48 @@
+{
+  "id": "2412.16156",
+  "title": "Personalized Representation from Personalized Generation",
+  "authors": "Shobhita Sundaram, Julia Chae, Yonglong Tian, Sara Beery, Phillip\n  Isola",
+  "authorsParsed": [
+    [
+      "Sundaram",
+      "Shobhita",
+      ""
+    ],
+    [
+      "Chae",
+      "Julia",
+      ""
+    ],
+    [
+      "Tian",
+      "Yonglong",
+      ""
+    ],
+    [
+      "Beery",
+      "Sara",
+      ""
+    ],
+    [
+      "Isola",
+      "Phillip",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 20 Dec 2024 18:59:03 GMT"
+    }
+  ],
+  "updateDate": "2024-12-23",
+  "timestamp": 1734721143000,
+  "abstract": "  Modern vision models excel at general purpose downstream tasks. It is\nunclear, however, how they may be used for personalized vision tasks, which are\nboth fine-grained and data-scarce. Recent works have successfully applied\nsynthetic data to general-purpose representation learning, while advances in\nT2I diffusion models have enabled the generation of personalized images from\njust a few real examples. Here, we explore a potential connection between these\nideas, and formalize the challenge of using personalized synthetic data to\nlearn personalized representations, which encode knowledge about an object of\ninterest and may be flexibly applied to any downstream task relating to the\ntarget object. We introduce an evaluation suite for this challenge, including\nreformulations of two existing datasets and a novel dataset explicitly\nconstructed for this purpose, and propose a contrastive learning approach that\nmakes creative use of image generators. We show that our method improves\npersonalized representation learning for diverse downstream tasks, from\nrecognition to segmentation, and analyze characteristics of image generation\napproaches that are key to this gain.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "WiYEoaa3cVE2muV2eAk10wtNfzqEPvZ10-H-ttvPfdc",
+  "pdfSize": "20404758"
+}

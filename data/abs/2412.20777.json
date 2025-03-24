@@ -1,0 +1,56 @@
+{
+  "id": "2412.20777",
+  "title": "Estimating Large Global Significances with a New Monte Carlo\n  Extrapolation Method",
+  "authors": "Liangliang Chen, Yufei Chen, Gerry Bauer, Leonard G. Spiegel, Zhen Hu,\n  and Kai Yi",
+  "authorsParsed": [
+    [
+      "Chen",
+      "Liangliang",
+      ""
+    ],
+    [
+      "Chen",
+      "Yufei",
+      ""
+    ],
+    [
+      "Bauer",
+      "Gerry",
+      ""
+    ],
+    [
+      "Spiegel",
+      "Leonard G.",
+      ""
+    ],
+    [
+      "Hu",
+      "Zhen",
+      ""
+    ],
+    [
+      "Yi",
+      "Kai",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 30 Dec 2024 07:56:31 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Sat, 18 Jan 2025 15:49:29 GMT"
+    }
+  ],
+  "updateDate": "2025-01-22",
+  "timestamp": 1735545391000,
+  "abstract": "  In particle physics, it is needed to evaluate the possibility that excesses\nof events in mass spectra are due to statistical fluctuations as quantified by\nthe standards of local and global significances. Without prior knowledge of a\nparticle's mass, it is especially critical to estimate its global significance.\nThe usual approach is to count the number of times a significance limit is\nexceeded in a collection of simulated Monte Carlo (MC) 'toy experiments.' To\ndemonstrate this conventional method for global significance, we performed\nsimulation studies according to a recent Compact Muon Solenoid (CMS) result to\nshow its effectiveness. However, this counting method is not practical for\ncomputing large global significances. To address this problem, we developed a\nnew 'extrapolation' method to evaluate the global significance. We compared the\nglobal significance estimated by our new method with that of the conventional\napproach, and verified its feasibility and effectiveness. This method is also\napplicable for cases where only small toy MC samples are available. In this\napproach, the significance is calculated based on p-values, assuming\nsymmetrical Gaussian distributions.\n",
+  "subjects": [
+    "Physics/High Energy Physics - Experiment"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "Ej41TJnoMogQKjb1ocBDmBqxKLpOvgz63S5kYRcQ8LA",
+  "pdfSize": "3296887"
+}

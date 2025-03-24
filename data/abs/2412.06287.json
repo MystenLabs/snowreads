@@ -1,0 +1,71 @@
+{
+  "id": "2412.06287",
+  "title": "PediaBench: A Comprehensive Chinese Pediatric Dataset for Benchmarking\n  Large Language Models",
+  "authors": "Qian Zhang, Panfeng Chen, Jiali Li, Linkun Feng, Shuyu Liu, Heng Zhao,\n  Mei Chen, Hui Li, Yanhao Wang",
+  "authorsParsed": [
+    [
+      "Zhang",
+      "Qian",
+      ""
+    ],
+    [
+      "Chen",
+      "Panfeng",
+      ""
+    ],
+    [
+      "Li",
+      "Jiali",
+      ""
+    ],
+    [
+      "Feng",
+      "Linkun",
+      ""
+    ],
+    [
+      "Liu",
+      "Shuyu",
+      ""
+    ],
+    [
+      "Zhao",
+      "Heng",
+      ""
+    ],
+    [
+      "Chen",
+      "Mei",
+      ""
+    ],
+    [
+      "Li",
+      "Hui",
+      ""
+    ],
+    [
+      "Wang",
+      "Yanhao",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 9 Dec 2024 08:19:28 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Thu, 12 Dec 2024 01:20:14 GMT"
+    }
+  ],
+  "updateDate": "2024-12-13",
+  "timestamp": 1733732368000,
+  "abstract": "  The emergence of Large Language Models (LLMs) in the medical domain has\nstressed a compelling need for standard datasets to evaluate their\nquestion-answering (QA) performance. Although there have been several benchmark\ndatasets for medical QA, they either cover common knowledge across different\ndepartments or are specific to another department rather than pediatrics.\nMoreover, some of them are limited to objective questions and do not measure\nthe generation capacity of LLMs. Therefore, they cannot comprehensively assess\nthe QA ability of LLMs in pediatrics. To fill this gap, we construct\nPediaBench, the first Chinese pediatric dataset for LLM evaluation.\nSpecifically, it contains 4,565 objective questions and 1,632 subjective\nquestions spanning 12 pediatric disease groups. It adopts an integrated scoring\ncriterion based on different difficulty levels to thoroughly assess the\nproficiency of an LLM in instruction following, knowledge understanding,\nclinical case analysis, etc. Finally, we validate the effectiveness of\nPediaBench with extensive experiments on 20 open-source and commercial LLMs.\nThrough an in-depth analysis of experimental results, we offer insights into\nthe ability of LLMs to answer pediatric questions in the Chinese context,\nhighlighting their limitations for further improvements. Our code and data are\npublished at https://github.com/ACMISLab/PediaBench.\n",
+  "subjects": [
+    "Computer Science/Computation and Language"
+  ],
+  "license": "http://creativecommons.org/licenses/by-sa/4.0/",
+  "blobId": "t9_RRgQ6CMOgM7GK6GDJbfDWhBOSsDu5-ILjJC2JEWQ",
+  "pdfSize": "2390793"
+}

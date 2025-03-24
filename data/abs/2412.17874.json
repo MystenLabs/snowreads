@@ -1,0 +1,67 @@
+{
+  "id": "2412.17874",
+  "title": "Evaluating LLM Reasoning in the Operations Research Domain with ORQA",
+  "authors": "Mahdi Mostajabdaveh, Timothy T. Yu, Samarendra Chandan Bindu Dash,\n  Rindranirina Ramamonjison, Jabo Serge Byusa, Giuseppe Carenini, Zirui Zhou,\n  Yong Zhang",
+  "authorsParsed": [
+    [
+      "Mostajabdaveh",
+      "Mahdi",
+      ""
+    ],
+    [
+      "Yu",
+      "Timothy T.",
+      ""
+    ],
+    [
+      "Dash",
+      "Samarendra Chandan Bindu",
+      ""
+    ],
+    [
+      "Ramamonjison",
+      "Rindranirina",
+      ""
+    ],
+    [
+      "Byusa",
+      "Jabo Serge",
+      ""
+    ],
+    [
+      "Carenini",
+      "Giuseppe",
+      ""
+    ],
+    [
+      "Zhou",
+      "Zirui",
+      ""
+    ],
+    [
+      "Zhang",
+      "Yong",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 22 Dec 2024 09:10:34 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Sun, 9 Feb 2025 16:39:50 GMT"
+    }
+  ],
+  "updateDate": "2025-02-11",
+  "timestamp": 1734858634000,
+  "abstract": "  In this paper, we introduce and apply Operations Research Question Answering\n(ORQA), a new benchmark designed to assess the generalization capabilities of\nLarge Language Models (LLMs) in the specialized technical domain of Operations\nResearch (OR). This benchmark evaluates whether LLMs can emulate the knowledge\nand reasoning skills of OR experts when confronted with diverse and complex\noptimization problems. The dataset, developed by OR experts, features\nreal-world optimization problems that demand multistep reasoning to construct\ntheir mathematical models. Our evaluations of various open source LLMs, such as\nLLaMA 3.1, DeepSeek, and Mixtral, reveal their modest performance, highlighting\na gap in their ability to generalize to specialized technical domains. This\nwork contributes to the ongoing discourse on LLMs generalization capabilities,\noffering valuable insights for future research in this area. The dataset and\nevaluation code are publicly available.\n",
+  "subjects": [
+    "Computer Science/Computation and Language",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "aGCnm_u5XJtOmGIxoq8ZdpoDGleyFP-Vmdh2nRHFazQ",
+  "pdfSize": "4641769"
+}

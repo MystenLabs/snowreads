@@ -1,0 +1,42 @@
+{
+  "id": "2412.08304",
+  "title": "Robust entanglement measure for mixed quantum states",
+  "authors": "Dharmaraj Ramachandran, Aditya Dubey, Subrahmanyam S. G. Mantha,\n  Radhika Vathsan",
+  "authorsParsed": [
+    [
+      "Ramachandran",
+      "Dharmaraj",
+      ""
+    ],
+    [
+      "Dubey",
+      "Aditya",
+      ""
+    ],
+    [
+      "Mantha",
+      "Subrahmanyam S. G.",
+      ""
+    ],
+    [
+      "Vathsan",
+      "Radhika",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 11 Dec 2024 11:33:08 GMT"
+    }
+  ],
+  "updateDate": "2024-12-12",
+  "timestamp": 1733916788000,
+  "abstract": "  We introduce an entanglement measure, the Modified Bloch Norm ($MBN$), for\nfinite-dimensional bipartite mixed states, based on the improved Bloch matrix\ncriteria. $MBN$ is demonstrated to be effective in analyzing the dynamics of\nbound entanglement--a valuable resource for quantum protocols where free\nentanglement may not be available. Through examples, we illustrate the\napplications of $MBN$ in accurately estimating the Entanglement Sudden Death\n(ESD) time and detecting behaviour such as the freezing of bound entanglement.\nAdditionally, we show that the error rate for entanglement measured using state\nestimation from a limited number of measurement copies is significantly lower\nwhen using $MBN$ compared to negativity. This demonstrates the robustness of\n$MBN$ under practical constraints.\n",
+  "subjects": [
+    "Physics/Quantum Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "iuhpgYWacf6vMRzGFRA7MtAsMXNjEw-Gtb1vNnE48z0",
+  "pdfSize": "637204"
+}

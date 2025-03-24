@@ -1,0 +1,75 @@
+{
+  "id": "2412.05644",
+  "title": "Mixture of Hidden-Dimensions Transformer",
+  "authors": "Yilong Chen, Junyuan Shang, Zhengyu Zhang, Jiawei Sheng, Tingwen Liu,\n  Shuohuan Wang, Yu Sun, Hua Wu, Haifeng Wang",
+  "authorsParsed": [
+    [
+      "Chen",
+      "Yilong",
+      ""
+    ],
+    [
+      "Shang",
+      "Junyuan",
+      ""
+    ],
+    [
+      "Zhang",
+      "Zhengyu",
+      ""
+    ],
+    [
+      "Sheng",
+      "Jiawei",
+      ""
+    ],
+    [
+      "Liu",
+      "Tingwen",
+      ""
+    ],
+    [
+      "Wang",
+      "Shuohuan",
+      ""
+    ],
+    [
+      "Sun",
+      "Yu",
+      ""
+    ],
+    [
+      "Wu",
+      "Hua",
+      ""
+    ],
+    [
+      "Wang",
+      "Haifeng",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 7 Dec 2024 13:15:22 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Tue, 10 Dec 2024 10:13:59 GMT"
+    },
+    {
+      "version": "v3",
+      "created": "Mon, 16 Dec 2024 12:12:19 GMT"
+    }
+  ],
+  "updateDate": "2024-12-17",
+  "timestamp": 1733577322000,
+  "abstract": "  Transformer models encounter challenges in scaling hidden dimensions\nefficiently, as uniformly increasing them inflates computational and memory\ncosts while failing to emphasize the most relevant features for each token. For\nfurther understanding, we study hidden dimension sparsity and observe that\ntrained Transformers utilize only a small fraction of token dimensions,\nrevealing an \"activation flow\" pattern. Notably, there are shared\nsub-dimensions with sustained activation across multiple consecutive tokens and\nspecialized sub-dimensions uniquely activated for each token. To better model\ntoken-relevant sub-dimensions, we propose MoHD (Mixture of Hidden Dimensions),\na sparse conditional activation architecture. Particularly, MoHD employs shared\nsub-dimensions for common token features and a routing mechanism to dynamically\nactivate specialized sub-dimensions. To mitigate potential information loss\nfrom sparsity, we design activation scaling and group fusion mechanisms to\npreserve activation flow. In this way, MoHD expands hidden dimensions with\nnegligible increases in computation or parameters, efficient training and\ninference while maintaining performance. Evaluations across 10 NLP tasks show\nthat MoHD surpasses Vanilla Transformers in parameter efficiency and task\nperformance. It achieves 1.7% higher performance with 50% fewer activation\nparameters and 3.7% higher performance with a 3x parameter expansion at\nconstant activation cost. MOHD offers a new perspective for scaling the model,\nshowcasing the potential of hidden dimension sparsity to boost efficiency\n",
+  "subjects": [
+    "Computer Science/Computation and Language"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "9PzNtCmhmz1Bbkl9GTotzRHKAFX2NMB-n5DWlARc6z8",
+  "pdfSize": "2042559"
+}

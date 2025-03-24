@@ -1,0 +1,37 @@
+{
+  "id": "2412.05428",
+  "title": "A new special function related to a discrete Gauss-Poisson distribution\n  and some physics of the cell model with Curie-Weiss interactions",
+  "authors": "O. A. Dobush and M. A. Shpot",
+  "authorsParsed": [
+    [
+      "Dobush",
+      "O. A.",
+      ""
+    ],
+    [
+      "Shpot",
+      "M. A.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 6 Dec 2024 21:20:27 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Thu, 13 Feb 2025 10:35:15 GMT"
+    }
+  ],
+  "updateDate": "2025-02-14",
+  "timestamp": 1733520027000,
+  "abstract": "  Inspired by previous studies in statistical physics [see, in particular,\nKozitsky at al., A phase transition in a Curie-Weiss system with binary\ninteractions, Condens. Matter Phys. 23, 23502 (2020)] we introduce a discrete\nGauss-Poisson probability distribution function\n\\begin{equation}\\label{GPD}\\tag{A1} p_{GP}(n\n;z,r)=\\left[R(r;z)\\right]^{-1}\\frac{\\mbox{e}^{zn}}{n!}\\,\\mbox{e}^{-\\frac\n12\\,rn^2} \\end{equation} with support on $\\mathbb N_0$ and parameters\n$z\\in\\mathbb R$ and $r\\in\\mathbb R_+$. The probability mass function $p_{GP}(n\n;z,r)$ is normalized by the special function $R(r;z)$, given by the infinite\nsum \\begin{equation}\\label{R}\\tag{A2}\nR(r;z)=\\sum_{n=0}^\\infty\\frac{\\mbox{e}^{zn}}{n!}\\,\\mbox{e}^{-\\frac 12\\,rn^2},\n\\end{equation} possessing extremely intersting mathematical properties. We\npresent an asymptotic estimate $R^{(\\rm as)}(r;z\\gg1)$ for the function\n$R(r;z)$ with large arguments $z$, along with similar formulas for its\nlogarithm and logarithmic derivative. These functions exhibit very interesting\noscillatory behavior around their asymptotics, for parameters $r$ above some\nthreshold value $r^*$. Some implications of our findings are discussed in the\ncontext of the Curie-Weiss cell model of simple fluids.\n",
+  "subjects": [
+    "Condensed Matter/Statistical Mechanics",
+    "Mathematics/Classical Analysis and ODEs"
+  ],
+  "license": "http://creativecommons.org/licenses/by-sa/4.0/",
+  "blobId": "Hqr5hVD2ZKHu8S13sh4G5zEg4kbsu9Rp2vwLlGKVTSI",
+  "pdfSize": "419183"
+}

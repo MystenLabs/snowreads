@@ -1,0 +1,46 @@
+{
+  "id": "2412.11338",
+  "title": "A theoretical investigation provides an integrated understanding of the\n  complex regulatory network controlling Arabidopsis root hair patterning",
+  "authors": "Hayley Mills, George Janes, Anthony Bishopp, Natasha Savage",
+  "authorsParsed": [
+    [
+      "Mills",
+      "Hayley",
+      ""
+    ],
+    [
+      "Janes",
+      "George",
+      ""
+    ],
+    [
+      "Bishopp",
+      "Anthony",
+      ""
+    ],
+    [
+      "Savage",
+      "Natasha",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 15 Dec 2024 23:18:48 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Fri, 14 Feb 2025 14:50:29 GMT"
+    }
+  ],
+  "updateDate": "2025-02-17",
+  "timestamp": 1734304728000,
+  "abstract": "  A complex regulatory network controlling Arabidopsis root hair patterning has\nbeen defined using data collected over decades. The network, embedded in the\nroot epidermis, contains positive and negative feedback loops, cell-cell\nsignalling within the epidermal tissue, and receives positional signalling from\nunderlying tissue. While there are extensive data regarding individual\ncomponents and their interactions within the network, the sufficiency of the\nregulatory network to produce robust epidermal patterning is not clear, nor is\nit clear how individual components and interactions work together to ensure\ncorrect epidermal patterning. Mathematical modelling was used to address the\nquestions of sufficiency, and to gain an integrated understanding of collective\nbehaviour emerging from individual components and interactions within the\nregulatory network. Theoretical experiments were performed on a model of the\nroot hair patterning regulatory network. It was found that our current\nunderstanding of the epidermal patterning network was insufficient to reproduce\nexperimental data. The model was used to hypothesise the existence of an\nadditional negative feedback loop which, when added to the currently understood\nregulatory network, enabled the model to reproduce wild type and mutant root\nhair patterning. Results of theoretical experiments on the modified regulatory\nnetwork were used to; define an essential relationship between diffusive\nmovement of two cell-cell signalling proteins; show that directed movement\ndysregulation of another cell-cell signalling protein causes root hair\npatterning to appear as though it no longer receives positional cues; and show\nthat cooperativity or oligomerisation within the regulatory network's positive\nfeedback loop are essential. This work presents an integrated, exploration of\nthe regulatory network controlling epidermal root hair patterning in\nArabidopsis.\n",
+  "subjects": [
+    "Quantitative Biology/Molecular Networks"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "lOkkN-EyWC88-SLGwb-n4-pXDwo_R3Xg8KgzND497y0",
+  "pdfSize": "2024431"
+}

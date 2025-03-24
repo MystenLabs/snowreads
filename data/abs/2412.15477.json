@@ -1,0 +1,44 @@
+{
+  "id": "2412.15477",
+  "title": "Difficulty-aware Balancing Margin Loss for Long-tailed Recognition",
+  "authors": "Minseok Son, Inyong Koo, Jinyoung Park, Changick Kim",
+  "authorsParsed": [
+    [
+      "Son",
+      "Minseok",
+      ""
+    ],
+    [
+      "Koo",
+      "Inyong",
+      ""
+    ],
+    [
+      "Park",
+      "Jinyoung",
+      ""
+    ],
+    [
+      "Kim",
+      "Changick",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 20 Dec 2024 01:11:30 GMT"
+    }
+  ],
+  "updateDate": "2024-12-23",
+  "timestamp": 1734657090000,
+  "abstract": "  When trained with severely imbalanced data, deep neural networks often\nstruggle to accurately recognize classes with only a few samples. Previous\nstudies in long-tailed recognition have attempted to rebalance biased learning\nusing known sample distributions, primarily addressing different classification\ndifficulties at the class level. However, these approaches often overlook the\ninstance difficulty variation within each class. In this paper, we propose a\ndifficulty-aware balancing margin (DBM) loss, which considers both class\nimbalance and instance difficulty. DBM loss comprises two components: a\nclass-wise margin to mitigate learning bias caused by imbalanced class\nfrequencies, and an instance-wise margin assigned to hard positive samples\nbased on their individual difficulty. DBM loss improves class discriminativity\nby assigning larger margins to more difficult samples. Our method seamlessly\ncombines with existing approaches and consistently improves performance across\nvarious long-tailed recognition benchmarks.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "qsiL9wK9XTe1knRQQ8qMzdU8lnQG5R20ocr2UnpZjh4",
+  "pdfSize": "679931"
+}

@@ -1,0 +1,35 @@
+{
+  "id": "2412.19675",
+  "title": "DLScanner: A parameter space scanner package assisted by deep learning\n  methods",
+  "authors": "A. Hammad and Raymundo Ramos",
+  "authorsParsed": [
+    [
+      "Hammad",
+      "A.",
+      ""
+    ],
+    [
+      "Ramos",
+      "Raymundo",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 27 Dec 2024 14:52:42 GMT"
+    }
+  ],
+  "updateDate": "2024-12-30",
+  "timestamp": 1735311162000,
+  "abstract": "  In this paper, we introduce a scanner package enhanced by deep learning (DL)\ntechniques. The proposed package addresses two significant challenges\nassociated with previously developed DL-based methods: slow convergence in\nhigh-dimensional scans and the limited generalization of the DL network when\nmapping random points to the target space. To tackle the first issue, we\nutilize a similarity learning network that maps sampled points into a\nrepresentation space. In this space, in-target points are grouped together\nwhile out-target points are effectively pushed apart. This approach enhances\nthe scan convergence by refining the representation of sampled points. The\nsecond challenge is mitigated by integrating a dynamic sampling strategy.\nSpecifically, we employ a VEGAS mapping to adaptively suggest new points for\nthe DL network while also improving the mapping when more points are collected.\nOur proposed framework demonstrates substantial gains in both performance and\nefficiency compared to other scanning methods.\n",
+  "subjects": [
+    "Physics/High Energy Physics - Phenomenology",
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Physics/High Energy Physics - Experiment",
+    "Physics/High Energy Physics - Theory"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "4mgESaKYUa4Al8LuFG2WRKtl11keOUP31disO1s5U1s",
+  "pdfSize": "1863390"
+}

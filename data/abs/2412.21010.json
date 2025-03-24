@@ -1,0 +1,52 @@
+{
+  "id": "2412.21010",
+  "title": "Lowering In-Memory Footprint of Antenna Beams via Polynomial\n  Approximation",
+  "authors": "Ali Taqi, Karel Ad\\'amek, Quentin Gueuning, Maciej Serylak, Robert\n  Laing, Wesley Armour",
+  "authorsParsed": [
+    [
+      "Taqi",
+      "Ali",
+      ""
+    ],
+    [
+      "Adámek",
+      "Karel",
+      ""
+    ],
+    [
+      "Gueuning",
+      "Quentin",
+      ""
+    ],
+    [
+      "Serylak",
+      "Maciej",
+      ""
+    ],
+    [
+      "Laing",
+      "Robert",
+      ""
+    ],
+    [
+      "Armour",
+      "Wesley",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 30 Dec 2024 15:24:59 GMT"
+    }
+  ],
+  "updateDate": "2024-12-31",
+  "timestamp": 1735572299000,
+  "abstract": "  With the emergence of new radio telescopes promising larger fields of view at\nlower observation frequencies (e.g., SKA), addressing direction-dependent\neffects (DDE) (e.g., direction-specific beam responses), polarisation leakage,\nand pointing errors has become all the more important. Be it through\nA-projection or otherwise, addressing said effects often requires reliable\nrepresentations of antenna/station beams; yet, these require significant\namounts of computational memory as they are baseline-, frequency-, time-, and\npolarisation-dependent. A novel prototype is reported here to approximate\nantenna beams suitable for SKA-MID using Zernike polynomials. It is shown that\nbeam kernels can be well approximated, paving the way for future optimisations\ntowards facilitating more efficient beam-dependent solutions and approaches to\ntackling the aforementioned challenges, all of which are essential for\nlarge-scale radio telescopes.\n",
+  "subjects": [
+    "Astrophysics/Instrumentation and Methods for Astrophysics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "UJt57uuVqlDdhiEu-aYJNsWYZ4UU8TF6dHf38OiulIk",
+  "pdfSize": "5718777"
+}

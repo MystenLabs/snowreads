@@ -1,0 +1,88 @@
+{
+  "id": "2412.14215",
+  "title": "Generative AI Toolkit -- a framework for increasing the quality of\n  LLM-based applications over their whole life cycle",
+  "authors": "Jens Kohl, Luisa Gloger, Rui Costa, Otto Kruse, Manuel P. Luitz, David\n  Katz, Gonzalo Barbeito, Markus Schweier, Ryan French, Jonas Schroeder, Thomas\n  Riedl, Raphael Perri, and Youssef Mostafa",
+  "authorsParsed": [
+    [
+      "Kohl",
+      "Jens",
+      ""
+    ],
+    [
+      "Gloger",
+      "Luisa",
+      ""
+    ],
+    [
+      "Costa",
+      "Rui",
+      ""
+    ],
+    [
+      "Kruse",
+      "Otto",
+      ""
+    ],
+    [
+      "Luitz",
+      "Manuel P.",
+      ""
+    ],
+    [
+      "Katz",
+      "David",
+      ""
+    ],
+    [
+      "Barbeito",
+      "Gonzalo",
+      ""
+    ],
+    [
+      "Schweier",
+      "Markus",
+      ""
+    ],
+    [
+      "French",
+      "Ryan",
+      ""
+    ],
+    [
+      "Schroeder",
+      "Jonas",
+      ""
+    ],
+    [
+      "Riedl",
+      "Thomas",
+      ""
+    ],
+    [
+      "Perri",
+      "Raphael",
+      ""
+    ],
+    [
+      "Mostafa",
+      "Youssef",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 18 Dec 2024 10:40:00 GMT"
+    }
+  ],
+  "updateDate": "2024-12-20",
+  "timestamp": 1734518400000,
+  "abstract": "  As LLM-based applications reach millions of customers, ensuring their\nscalability and continuous quality improvement is critical for success.\nHowever, the current workflows for developing, maintaining, and operating\n(DevOps) these applications are predominantly manual, slow, and based on\ntrial-and-error. With this paper we introduce the Generative AI Toolkit, which\nautomates essential workflows over the whole life cycle of LLM-based\napplications. The toolkit helps to configure, test, continuously monitor and\noptimize Generative AI applications such as agents, thus significantly\nimproving quality while shortening release cycles. We showcase the\neffectiveness of our toolkit on representative use cases, share best practices,\nand outline future enhancements. Since we are convinced that our Generative AI\nToolkit is helpful for other teams, we are open sourcing it on and hope that\nothers will use, forward, adapt and improve\n",
+  "subjects": [
+    "Computer Science/Software Engineering",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "mdC-_GdtjK6CfawiqCpITPzMPL8P68UGqKTgYfKkp9c",
+  "pdfSize": "1534362"
+}

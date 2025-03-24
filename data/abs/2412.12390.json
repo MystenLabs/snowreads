@@ -1,0 +1,52 @@
+{
+  "id": "2412.12390",
+  "title": "Development of an End-to-end Machine Learning System with Application to\n  In-app Purchases",
+  "authors": "Dionysios Varelas, Elena Bonan, Lewis Anderson, Anders Englesson,\n  Christoffer {\\AA}hrling and Adrian Chmielewski-Anders",
+  "authorsParsed": [
+    [
+      "Varelas",
+      "Dionysios",
+      ""
+    ],
+    [
+      "Bonan",
+      "Elena",
+      ""
+    ],
+    [
+      "Anderson",
+      "Lewis",
+      ""
+    ],
+    [
+      "Englesson",
+      "Anders",
+      ""
+    ],
+    [
+      "Åhrling",
+      "Christoffer",
+      ""
+    ],
+    [
+      "Chmielewski-Anders",
+      "Adrian",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 16 Dec 2024 22:57:46 GMT"
+    }
+  ],
+  "updateDate": "2024-12-18",
+  "timestamp": 1734389866000,
+  "abstract": "  Machine learning (ML) systems have become vital in the mobile gaming\nindustry. Companies like King have been using them in production to optimize\nvarious parts of the gaming experience. One important area is in-app purchases:\npurchases made in the game by players in order to enhance and customize their\ngameplay experience. In this work we describe how we developed an ML system in\norder to predict when a player is expected to make their next in-app purchase.\nThese predictions are used to present offers to players. We briefly describe\nthe problem definition, modeling approach and results and then, in considerable\ndetail, outline the end-to-end ML system. We conclude with a reflection on\nchallenges encountered and plans for future work.\n",
+  "subjects": [
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "RrT_xBY3pIVSNc9NWg_R36EPhbrGmmyczJ8_-BESeHk",
+  "pdfSize": "1044517"
+}

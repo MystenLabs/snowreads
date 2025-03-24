@@ -1,0 +1,42 @@
+{
+  "id": "2412.18267",
+  "title": "NoiseHGNN: Synthesized Similarity Graph-Based Neural Network For Noised\n  Heterogeneous Graph Representation Learning",
+  "authors": "Xiong Zhang, Cheng Xie, Haoran Duan, Beibei Yu",
+  "authorsParsed": [
+    [
+      "Zhang",
+      "Xiong",
+      ""
+    ],
+    [
+      "Xie",
+      "Cheng",
+      ""
+    ],
+    [
+      "Duan",
+      "Haoran",
+      ""
+    ],
+    [
+      "Yu",
+      "Beibei",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 24 Dec 2024 08:27:33 GMT"
+    }
+  ],
+  "updateDate": "2024-12-25",
+  "timestamp": 1735028853000,
+  "abstract": "  Real-world graph data environments intrinsically exist noise (e.g., link and\nstructure errors) that inevitably disturb the effectiveness of graph\nrepresentation and downstream learning tasks. For homogeneous graphs, the\nlatest works use original node features to synthesize a similarity graph that\ncan correct the structure of the noised graph. This idea is based on the\nhomogeneity assumption, which states that similar nodes in the homogeneous\ngraph tend to have direct links in the original graph. However, similar nodes\nin heterogeneous graphs usually do not have direct links, which can not be used\nto correct the original noise graph. This causes a significant challenge in\nnoised heterogeneous graph learning. To this end, this paper proposes a novel\nsynthesized similarity-based graph neural network compatible with noised\nheterogeneous graph learning. First, we calculate the original feature\nsimilarities of all nodes to synthesize a similarity-based high-order graph.\nSecond, we propose a similarity-aware encoder to embed original and synthesized\ngraphs with shared parameters. Then, instead of graph-to-graph supervising, we\nsynchronously supervise the original and synthesized graph embeddings to\npredict the same labels. Meanwhile, a target-based graph extracted from the\nsynthesized graph contrasts the structure of the metapath-based graph extracted\nfrom the original graph to learn the mutual information. Extensive experiments\nin numerous real-world datasets show the proposed method achieves\nstate-of-the-art records in the noised heterogeneous graph learning tasks. In\nhighlights, +5$\\sim$6\\% improvements are observed in several noised datasets\ncompared with previous SOTA methods. The code and datasets are available at\nhttps://github.com/kg-cc/NoiseHGNN.\n",
+  "subjects": [
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "hOUJKlI-rS3cJ_KB4IzvYGF9WVS35L1e2qIX8IEjUdw",
+  "pdfSize": "1340313"
+}

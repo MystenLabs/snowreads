@@ -1,0 +1,38 @@
+{
+  "id": "2412.17233",
+  "title": "Totally positive skew-symmetric matrices",
+  "authors": "Jonathan Boretsky, Veronica Calvo Cortes and Yassine El Maazouz",
+  "authorsParsed": [
+    [
+      "Boretsky",
+      "Jonathan",
+      ""
+    ],
+    [
+      "Cortes",
+      "Veronica Calvo",
+      ""
+    ],
+    [
+      "Maazouz",
+      "Yassine El",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 23 Dec 2024 03:09:41 GMT"
+    }
+  ],
+  "updateDate": "2024-12-24",
+  "timestamp": 1734923381000,
+  "abstract": "  A matrix is totally positive if all of its minors are positive. This notion\nof positivity coincides with the type A version of Lusztig's more general total\npositivity in reductive real-split algebraic groups. Since skew-symmetric\nmatrices always have nonpositive entries, they are not totally positive in the\nclassical sense. The space of skew-symmetric matrices is an affine chart of the\northogonal Grassmannian $\\mathrm{OGr}(n,2n)$. Thus, we define a skew-symmetric\nmatrix to be totally positive if it lies in the totally positive orthogonal\nGrassmannian. We provide a positivity criterion for these matrices in terms of\na fixed collection of minors, and show that their Pfaffians have a remarkable\nsign pattern. The totally positive orthogonal Grassmannian is a CW cell complex\nand is subdivided into Richardson cells. We introduce a method to determine\nwhich cell a given point belongs to in terms of its associated matroid.\n",
+  "subjects": [
+    "Mathematics/Combinatorics",
+    "Mathematics/Algebraic Geometry"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "VnVvOnv470XGo1bZDleEw3jhWNtpDCDepUoV1ExYRgM",
+  "pdfSize": "536323"
+}

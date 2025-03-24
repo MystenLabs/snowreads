@@ -1,0 +1,56 @@
+{
+  "id": "2412.09237",
+  "title": "LMAgent: A Large-scale Multimodal Agents Society for Multi-user\n  Simulation",
+  "authors": "Yijun Liu, Wu Liu, Xiaoyan Gu, Yong Rui, Xiaodong He and Yongdong\n  Zhang",
+  "authorsParsed": [
+    [
+      "Liu",
+      "Yijun",
+      ""
+    ],
+    [
+      "Liu",
+      "Wu",
+      ""
+    ],
+    [
+      "Gu",
+      "Xiaoyan",
+      ""
+    ],
+    [
+      "Rui",
+      "Yong",
+      ""
+    ],
+    [
+      "He",
+      "Xiaodong",
+      ""
+    ],
+    [
+      "Zhang",
+      "Yongdong",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 12 Dec 2024 12:47:09 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Fri, 13 Dec 2024 03:33:38 GMT"
+    }
+  ],
+  "updateDate": "2024-12-16",
+  "timestamp": 1734007629000,
+  "abstract": "  The believable simulation of multi-user behavior is crucial for understanding\ncomplex social systems. Recently, large language models (LLMs)-based AI agents\nhave made significant progress, enabling them to achieve human-like\nintelligence across various tasks. However, real human societies are often\ndynamic and complex, involving numerous individuals engaging in multimodal\ninteractions. In this paper, taking e-commerce scenarios as an example, we\npresent LMAgent, a very large-scale and multimodal agents society based on\nmultimodal LLMs. In LMAgent, besides freely chatting with friends, the agents\ncan autonomously browse, purchase, and review products, even perform live\nstreaming e-commerce. To simulate this complex system, we introduce a\nself-consistency prompting mechanism to augment agents' multimodal\ncapabilities, resulting in significantly improved decision-making performance\nover the existing multi-agent system. Moreover, we propose a fast memory\nmechanism combined with the small-world model to enhance system efficiency,\nwhich supports more than 10,000 agent simulations in a society. Experiments on\nagents' behavior show that these agents achieve comparable performance to\nhumans in behavioral indicators. Furthermore, compared with the existing\nLLMs-based multi-agent system, more different and valuable phenomena are\nexhibited, such as herd behavior, which demonstrates the potential of LMAgent\nin credible large-scale social behavior simulations.\n",
+  "subjects": [
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "f-EbatuFN1CdSgzGNAK_TRumJu7I8FAfa0qkxmTEl7w",
+  "pdfSize": "6714946"
+}

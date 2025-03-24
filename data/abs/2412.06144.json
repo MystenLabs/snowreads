@@ -1,0 +1,42 @@
+{
+  "id": "2412.06144",
+  "title": "Hate Speech According to the Law: An Analysis for Effective Detection",
+  "authors": "Katerina Korre, John Pavlopoulos, Paolo Gajo, Alberto\n  Barr\\'on-Cede\\~no",
+  "authorsParsed": [
+    [
+      "Korre",
+      "Katerina",
+      ""
+    ],
+    [
+      "Pavlopoulos",
+      "John",
+      ""
+    ],
+    [
+      "Gajo",
+      "Paolo",
+      ""
+    ],
+    [
+      "Barrón-Cedeño",
+      "Alberto",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 9 Dec 2024 01:58:10 GMT"
+    }
+  ],
+  "updateDate": "2024-12-10",
+  "timestamp": 1733709490000,
+  "abstract": "  The issue of hate speech extends beyond the confines of the online realm. It\nis a problem with real-life repercussions, prompting most nations to formulate\nlegal frameworks that classify hate speech as a punishable offence. These legal\nframeworks differ from one country to another, contributing to the big chaos\nthat online platforms have to face when addressing reported instances of hate\nspeech. With the definitions of hate speech falling short in introducing a\nrobust framework, we turn our gaze onto hate speech laws. We consult the\nopinion of legal experts on a hate speech dataset and we experiment by\nemploying various approaches such as pretrained models both on hate speech and\nlegal data, as well as exploiting two large language models (Qwen2-7B-Instruct\nand Meta-Llama-3-70B). Due to the time-consuming nature of data acquisition for\nprosecutable hate speech, we use pseudo-labeling to improve our pretrained\nmodels. This study highlights the importance of amplifying research on\nprosecutable hate speech and provides insights into effective strategies for\ncombating hate speech within the parameters of legal frameworks. Our findings\nshow that legal knowledge in the form of annotations can be useful when\nclassifying prosecutable hate speech, yet more focus should be paid on the\ndifferences between the laws.\n",
+  "subjects": [
+    "Computer Science/Computation and Language"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "E969W17Hqw6_DsFtjKBeYdjmjF-KRJF0qTskX9BEjDY",
+  "pdfSize": "862757"
+}

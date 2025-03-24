@@ -1,0 +1,42 @@
+{
+  "id": "2412.11495",
+  "title": "Exploring More from Multiple Gait Modalities for Human Identification",
+  "authors": "Dongyang Jin, Chao Fan, Weihua Chen, and Shiqi Yu",
+  "authorsParsed": [
+    [
+      "Jin",
+      "Dongyang",
+      ""
+    ],
+    [
+      "Fan",
+      "Chao",
+      ""
+    ],
+    [
+      "Chen",
+      "Weihua",
+      ""
+    ],
+    [
+      "Yu",
+      "Shiqi",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 16 Dec 2024 07:15:13 GMT"
+    }
+  ],
+  "updateDate": "2024-12-17",
+  "timestamp": 1734333313000,
+  "abstract": "  The gait, as a kind of soft biometric characteristic, can reflect the\ndistinct walking patterns of individuals at a distance, exhibiting a promising\ntechnique for unrestrained human identification. With largely excluding\ngait-unrelated cues hidden in RGB videos, the silhouette and skeleton, though\nvisually compact, have acted as two of the most prevailing gait modalities for\na long time. Recently, several attempts have been made to introduce more\ninformative data forms like human parsing and optical flow images to capture\ngait characteristics, along with multi-branch architectures. However, due to\nthe inconsistency within model designs and experiment settings, we argue that a\ncomprehensive and fair comparative study among these popular gait modalities,\ninvolving the representational capacity and fusion strategy exploration, is\nstill lacking. From the perspectives of fine vs. coarse-grained shape and whole\nvs. pixel-wise motion modeling, this work presents an in-depth investigation of\nthree popular gait representations, i.e., silhouette, human parsing, and\noptical flow, with various fusion evaluations, and experimentally exposes their\nsimilarities and differences. Based on the obtained insights, we further\ndevelop a C$^2$Fusion strategy, consequently building our new framework\nMultiGait++. C$^2$Fusion preserves commonalities while highlighting differences\nto enrich the learning of gait features. To verify our findings and\nconclusions, extensive experiments on Gait3D, GREW, CCPG, and SUSTech1K are\nconducted. The code is available at https://github.com/ShiqiYu/OpenGait.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "wvr9I4jqqLIuCrIeeWV_o2PRUdCFzLda0gRUwaCXxpg",
+  "pdfSize": "756251"
+}

@@ -1,0 +1,44 @@
+{
+  "id": "2412.09609",
+  "title": "Axionic quantum criticality of generalized Weyl semimetals",
+  "authors": "Gabriel Malave, Rodrigo Soto-Garrido, Vladimir Juricic, Bitan Roy",
+  "authorsParsed": [
+    [
+      "Malave",
+      "Gabriel",
+      ""
+    ],
+    [
+      "Soto-Garrido",
+      "Rodrigo",
+      ""
+    ],
+    [
+      "Juricic",
+      "Vladimir",
+      ""
+    ],
+    [
+      "Roy",
+      "Bitan",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 12 Dec 2024 18:59:34 GMT"
+    }
+  ],
+  "updateDate": "2024-12-13",
+  "timestamp": 1734029974000,
+  "abstract": "  We formulate a field theoretic description for $d$-dimensional interacting\nnodal semimetals, featuring dispersion that scales with the linear ($n$th)\npower of momentum along $d_L$ ($d_M$) mutually orthogonal directions around a\nfew isolated points in the reciprocal space with $d_L+d_M=d$, and residing at\nthe brink of isotropic insulation, described by $N_b$-component bosonic order\nparameter fields. The resulting renormalization group (RG) procedure, tailored\nto capture the associated quantum critical phenomena, is controlled by a\n`small' parameter $\\epsilon=2-d_M$ and $1/N_f$, where $N_f$ is the number of\nidentical fermion copies (flavor number). When applied to three-dimensional\ninteracting general Weyl semimetals ($d_L=1$ and $d_M=2$), characterized by the\nAbelian monopole charge $n>1$, living at the shore of the axionic insulation\n($N_b=2$), a leading order RG analysis suggests Gaussian nature of the\nunderlying quantum phase transition, around which the critical exponents assume\nmean-field values. A traditional field theoretic RG analysis yields same\noutcomes for simple Weyl semimetals ($n=1$, $d_L=3$, and $d_M=0$).\nConsequently, emergent marginal Fermi liquids showcase only logarithmic\ncorrections to physical observables at intermediate scales of measurements.\n",
+  "subjects": [
+    "Condensed Matter/Strongly Correlated Electrons",
+    "Condensed Matter/Mesoscale and Nanoscale Physics",
+    "Physics/High Energy Physics - Theory"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "AnN4PpECzIrLjMAhihVARC7-E7ZOi91A-VNeSaFlF2I",
+  "pdfSize": "433491"
+}

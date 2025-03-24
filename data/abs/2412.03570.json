@@ -1,0 +1,32 @@
+{
+  "id": "2412.03570",
+  "title": "Sparse-view Pose Estimation and Reconstruction via Analysis by\n  Generative Synthesis",
+  "authors": "Qitao Zhao and Shubham Tulsiani",
+  "authorsParsed": [
+    [
+      "Zhao",
+      "Qitao",
+      ""
+    ],
+    [
+      "Tulsiani",
+      "Shubham",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 4 Dec 2024 18:59:24 GMT"
+    }
+  ],
+  "updateDate": "2024-12-05",
+  "timestamp": 1733338764000,
+  "abstract": "  Inferring the 3D structure underlying a set of multi-view images typically\nrequires solving two co-dependent tasks -- accurate 3D reconstruction requires\nprecise camera poses, and predicting camera poses relies on (implicitly or\nexplicitly) modeling the underlying 3D. The classical framework of analysis by\nsynthesis casts this inference as a joint optimization seeking to explain the\nobserved pixels, and recent instantiations learn expressive 3D representations\n(e.g., Neural Fields) with gradient-descent-based pose refinement of initial\npose estimates. However, given a sparse set of observed views, the observations\nmay not provide sufficient direct evidence to obtain complete and accurate 3D.\nMoreover, large errors in pose estimation may not be easily corrected and can\nfurther degrade the inferred 3D. To allow robust 3D reconstruction and pose\nestimation in this challenging setup, we propose SparseAGS, a method that\nadapts this analysis-by-synthesis approach by: a) including\nnovel-view-synthesis-based generative priors in conjunction with photometric\nobjectives to improve the quality of the inferred 3D, and b) explicitly\nreasoning about outliers and using a discrete search with a continuous\noptimization-based strategy to correct them. We validate our framework across\nreal-world and synthetic datasets in combination with several off-the-shelf\npose estimation systems as initialization. We find that it significantly\nimproves the base systems' pose accuracy while yielding high-quality 3D\nreconstructions that outperform the results from current multi-view\nreconstruction baselines.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by-sa/4.0/",
+  "blobId": "i_kDz0WbL_aATafRBUvrmOLhuYetankKugo907Qfyyk",
+  "pdfSize": "16173458"
+}

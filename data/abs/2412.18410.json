@@ -1,0 +1,112 @@
+{
+  "id": "2412.18410",
+  "title": "SPARC4 control system",
+  "authors": "Denis Bernardes, Orlando Verducci Junior, Francisco Rodrigues, Claudia\n  Vilega Rodrigues, Luciano Fraga, Eder Martioli, Clemens D. Gneiding, Andr\\'e\n  Luiz de Moura Alves, Juliano Rom\\~ao, Laerte Andrade, Leandro de Almeida, Ana\n  Carolina Mattiuci, Flavio Felipe Ribeiro, Wagner Schlindwein, Jesulino Bispo\n  dos Santos, Francisco Jose Jablonski, Julio Cesar Neves Campagnolo, Rene\n  Laporte",
+  "authorsParsed": [
+    [
+      "Bernardes",
+      "Denis",
+      ""
+    ],
+    [
+      "Junior",
+      "Orlando Verducci",
+      ""
+    ],
+    [
+      "Rodrigues",
+      "Francisco",
+      ""
+    ],
+    [
+      "Rodrigues",
+      "Claudia Vilega",
+      ""
+    ],
+    [
+      "Fraga",
+      "Luciano",
+      ""
+    ],
+    [
+      "Martioli",
+      "Eder",
+      ""
+    ],
+    [
+      "Gneiding",
+      "Clemens D.",
+      ""
+    ],
+    [
+      "Alves",
+      "André Luiz de Moura",
+      ""
+    ],
+    [
+      "Romão",
+      "Juliano",
+      ""
+    ],
+    [
+      "Andrade",
+      "Laerte",
+      ""
+    ],
+    [
+      "de Almeida",
+      "Leandro",
+      ""
+    ],
+    [
+      "Mattiuci",
+      "Ana Carolina",
+      ""
+    ],
+    [
+      "Ribeiro",
+      "Flavio Felipe",
+      ""
+    ],
+    [
+      "Schlindwein",
+      "Wagner",
+      ""
+    ],
+    [
+      "Santos",
+      "Jesulino Bispo dos",
+      ""
+    ],
+    [
+      "Jablonski",
+      "Francisco Jose",
+      ""
+    ],
+    [
+      "Campagnolo",
+      "Julio Cesar Neves",
+      ""
+    ],
+    [
+      "Laporte",
+      "Rene",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 24 Dec 2024 12:57:10 GMT"
+    }
+  ],
+  "updateDate": "2024-12-25",
+  "timestamp": 1735045030000,
+  "abstract": "  SPARC4 is a new astronomical instrument developed entirely by Brazilian\ninstitutions, currently installed on the 1.6-m Perkin-Elmer telescope of the\nPico dos Dias Observatory. It allows the user to perform photometric or\npolarimetric observations simultaneously in the four SDSS bands (g, r, i, and\nz). In this paper, we describe the control system developed for SPARC4. This\nsystem is composed of S4ACS, S4ICS, and S4GUI softwares and associated\nhardware. S4ACS is responsible for controlling the four EMCCD scientific\ncameras (one for each instrument band). S4ICS controls the sensors and motors\nresponsible for the moving parts of SPARC4. Finally, S4GUI is the interface\nused to perform observations, which includes the choice of instrument\nconfiguration and image acquisition parameters. S4GUI communicates with the\ninstrument subsystems and with some observatory facilities, needed during the\nobservations. Bench tests were performed for the determination of the overheads\nadded by SPARC4 control system in the acquisition of photometric and\npolarimetric series of images. In the photometric mode, SPARC4 allows the\nacquisition of a series of 1400 full-frame images, with a deadtime of 4.5 ms\nbetween images. Besides, several image series can be concatenated with a\ndeadtime of 450 ms plus the readout time of the last image. For the\npolarimetric mode, measurements can be obtained with a deadtime of 1.41 s plus\nthe image readout time between subsequent waveplate positions. For both\nphotometric and polarimetric modes, the user can choose among operating modes\nwith image readout times between 5.9 ms and 1.24 s, which ultimately defines\nthe instrument temporal performance.\n",
+  "subjects": [
+    "Astrophysics/Instrumentation and Methods for Astrophysics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "urJQUsvMtLvobiJg61qoD1KlN4LMWip2aVHWJShIryg",
+  "pdfSize": "3139246"
+}

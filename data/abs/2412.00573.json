@@ -1,0 +1,46 @@
+{
+  "id": "2412.00573",
+  "title": "Opus: A Large Work Model for Complex Workflow Generation",
+  "authors": "Th\\'eo Fagnoni, Bellinda Mesbah, Mahsun Altin, Phillip Kingston",
+  "authorsParsed": [
+    [
+      "Fagnoni",
+      "Théo",
+      ""
+    ],
+    [
+      "Mesbah",
+      "Bellinda",
+      ""
+    ],
+    [
+      "Altin",
+      "Mahsun",
+      ""
+    ],
+    [
+      "Kingston",
+      "Phillip",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 30 Nov 2024 20:00:41 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Fri, 6 Dec 2024 06:05:59 GMT"
+    }
+  ],
+  "updateDate": "2024-12-09",
+  "timestamp": 1732996841000,
+  "abstract": "  This paper introduces Opus, a novel framework for generating and optimizing\nWorkflows tailored to complex Business Process Outsourcing (BPO) use cases,\nfocusing on cost reduction and quality enhancement while adhering to\nestablished industry processes and operational constraints. Our approach\ngenerates executable Workflows from Intention, defined as the alignment of\nClient Input, Client Output, and Process Context. These Workflows are\nrepresented as Directed Acyclic Graphs (DAGs), with nodes as Tasks consisting\nof sequences of executable Instructions, including tools and human expert\nreviews. We adopt a two-phase methodology: Workflow Generation and Workflow\nOptimization. In the Generation phase, Workflows are generated using a Large\nWork Model (LWM) informed by a Work Knowledge Graph (WKG) that encodes\ndomain-specific procedural and operational knowledge. In the Optimization\nphase, Workflows are transformed into Workflow Graphs (WFGs), where optimal\nWorkflows are determined through path optimization. Our experiments demonstrate\nthat state-of-the-art Large Language Models (LLMs) face challenges in reliably\nretrieving detailed process data as well as generating industry-compliant\nworkflows. The key contributions of this paper include integrating a Work\nKnowledge Graph (WKG) into a Large Work Model (LWM) to enable the generation of\ncontext-aware, semantically aligned, structured and auditable Workflows. It\nfurther introduces a two-phase approach that combines Workflow Generation from\nIntention with graph-based Workflow Optimization. Finally, we present Opus\nAlpha 1 Large and Opus Alpha 1 Small that outperform state-of-the-art LLMs by\n38% and 29% respectively in Workflow Generation for a Medical Coding use case.\n",
+  "subjects": [
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "qOXgoujsnmrxA7WXOG9tdDgjUh6W0zIIfbuPfiHJ468",
+  "pdfSize": "1113438"
+}

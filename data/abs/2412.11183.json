@@ -1,0 +1,77 @@
+{
+  "id": "2412.11183",
+  "title": "OccScene: Semantic Occupancy-based Cross-task Mutual Learning for 3D\n  Scene Generation",
+  "authors": "Bohan Li, Xin Jin, Jianan Wang, Yukai Shi, Yasheng Sun, Xiaofeng Wang,\n  Zhuang Ma, Baao Xie, Chao Ma, Xiaokang Yang, Wenjun Zeng",
+  "authorsParsed": [
+    [
+      "Li",
+      "Bohan",
+      ""
+    ],
+    [
+      "Jin",
+      "Xin",
+      ""
+    ],
+    [
+      "Wang",
+      "Jianan",
+      ""
+    ],
+    [
+      "Shi",
+      "Yukai",
+      ""
+    ],
+    [
+      "Sun",
+      "Yasheng",
+      ""
+    ],
+    [
+      "Wang",
+      "Xiaofeng",
+      ""
+    ],
+    [
+      "Ma",
+      "Zhuang",
+      ""
+    ],
+    [
+      "Xie",
+      "Baao",
+      ""
+    ],
+    [
+      "Ma",
+      "Chao",
+      ""
+    ],
+    [
+      "Yang",
+      "Xiaokang",
+      ""
+    ],
+    [
+      "Zeng",
+      "Wenjun",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 15 Dec 2024 13:26:51 GMT"
+    }
+  ],
+  "updateDate": "2024-12-17",
+  "timestamp": 1734269211000,
+  "abstract": "  Recent diffusion models have demonstrated remarkable performance in both 3D\nscene generation and perception tasks. Nevertheless, existing methods typically\nseparate these two processes, acting as a data augmenter to generate synthetic\ndata for downstream perception tasks. In this work, we propose OccScene, a\nnovel mutual learning paradigm that integrates fine-grained 3D perception and\nhigh-quality generation in a unified framework, achieving a cross-task win-win\neffect. OccScene generates new and consistent 3D realistic scenes only\ndepending on text prompts, guided with semantic occupancy in a joint-training\ndiffusion framework. To align the occupancy with the diffusion latent, a\nMamba-based Dual Alignment module is introduced to incorporate fine-grained\nsemantics and geometry as perception priors. Within OccScene, the perception\nmodule can be effectively improved with customized and diverse generated\nscenes, while the perception priors in return enhance the generation\nperformance for mutual benefits. Extensive experiments show that OccScene\nachieves realistic 3D scene generation in broad indoor and outdoor scenarios,\nwhile concurrently boosting the perception models to achieve substantial\nperformance improvements in the 3D perception task of semantic occupancy\nprediction.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "gPGPIgNJJrrM7QktV6mihsEcsvTOMpAKJHpziL7orJc",
+  "pdfSize": "9883270"
+}

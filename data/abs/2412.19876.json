@@ -1,0 +1,42 @@
+{
+  "id": "2412.19876",
+  "title": "WiSER-X: Wireless Signals-based Efficient Decentralized Multi-Robot\n  Exploration without Explicit Information Exchange",
+  "authors": "Ninad Jadhav, Meghna Behari, Robert J. Wood, and Stephanie Gil",
+  "authorsParsed": [
+    [
+      "Jadhav",
+      "Ninad",
+      ""
+    ],
+    [
+      "Behari",
+      "Meghna",
+      ""
+    ],
+    [
+      "Wood",
+      "Robert J.",
+      ""
+    ],
+    [
+      "Gil",
+      "Stephanie",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 27 Dec 2024 18:02:12 GMT"
+    }
+  ],
+  "updateDate": "2024-12-31",
+  "timestamp": 1735322532000,
+  "abstract": "  We introduce a Wireless Signal based Efficient multi-Robot eXploration\n(WiSER-X) algorithm applicable to a decentralized team of robots exploring an\nunknown environment with communication bandwidth constraints. WiSER-X relies\nonly on local inter-robot relative position estimates, that can be obtained by\nexchanging signal pings from onboard sensors such as WiFi, Ultra-Wide Band,\namongst others, to inform the exploration decisions of individual robots to\nminimize redundant coverage overlaps. Furthermore, WiSER-X also enables\nasynchronous termination without requiring a shared map between the robots. It\nalso adapts to heterogeneous robot behaviors and even complete failures in\nunknown environment while ensuring complete coverage. Simulations show that\nWiSER-X leads to 58% lower overlap than a zero-information-sharing baseline\nalgorithm-1 and only 23% more overlap than a full-information-sharing algorithm\nbaseline algorithm-2.\n",
+  "subjects": [
+    "Computer Science/Robotics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "K0eHXS_LOjTtX_qwwuCGwzoyTrOA6fKVO_e0fr6_gC0",
+  "pdfSize": "40629339"
+}

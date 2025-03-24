@@ -1,0 +1,44 @@
+{
+  "id": "2412.05472",
+  "title": "Detection of Surface Waves During Femtosecond Filamentation",
+  "authors": "Travis Garrett and Anna Janicek and J. Todd Fayard II and Jennifer\n  Elle",
+  "authorsParsed": [
+    [
+      "Garrett",
+      "Travis",
+      ""
+    ],
+    [
+      "Janicek",
+      "Anna",
+      ""
+    ],
+    [
+      "Fayard",
+      "J. Todd",
+      "II"
+    ],
+    [
+      "Elle",
+      "Jennifer",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 6 Dec 2024 23:54:45 GMT"
+    }
+  ],
+  "updateDate": "2024-12-10",
+  "timestamp": 1733529285000,
+  "abstract": "  Ultrashort pulsed lasers (USPL) can produce thin columns of plasma in air via\nfemtosecond filamentation, and these plasmas have been found to generate\nbroadband TeraHertz (THz) and Radio Frequency (RF) radiation. A recent theory\nargues that the currents driven at the boundary of the plasma excite a Surface\nPlasmon Polariton (SPP) surface wave (in particular a Sommerfeld-Goubau wave\ngiven the cylindrical symmetry), which proceeds to detach from the end of the\nplasma to become the RF pulse. We have performed near-field measurements of\nthese plasmas with a D-dot probe, and find an excellent agreement with this\ntheory. The radial field dependence is precisely fit by a Hankel function, with\nan outer length scale in agreement with plasma conductivity and radius, and a\nmeasured longitudinal drift in frequency maxima closely matches both SPP\nsimulations and analytic expectations.\n",
+  "subjects": [
+    "Physics/Plasma Physics",
+    "Physics/Computational Physics",
+    "Physics/Optics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "64TOEHBoPF3PzRJD-FVZCS87dXd9fF0-yxAnOR6AWls",
+  "pdfSize": "8850252"
+}

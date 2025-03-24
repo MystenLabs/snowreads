@@ -1,0 +1,41 @@
+{
+  "id": "2412.19947",
+  "title": "Standard-Deviation-Inspired Regularization for Improving Adversarial\n  Robustness",
+  "authors": "Olukorede Fakorede, Modeste Atsague, Jin Tian",
+  "authorsParsed": [
+    [
+      "Fakorede",
+      "Olukorede",
+      ""
+    ],
+    [
+      "Atsague",
+      "Modeste",
+      ""
+    ],
+    [
+      "Tian",
+      "Jin",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 27 Dec 2024 22:59:21 GMT"
+    }
+  ],
+  "updateDate": "2024-12-31",
+  "timestamp": 1735340361000,
+  "abstract": "  Adversarial Training (AT) has been demonstrated to improve the robustness of\ndeep neural networks (DNNs) against adversarial attacks. AT is a min-max\noptimization procedure where in adversarial examples are generated to train a\nmore robust DNN. The inner maximization step of AT increases the losses of\ninputs with respect to their actual classes. The outer minimization involves\nminimizing the losses on the adversarial examples obtained from the inner\nmaximization. This work proposes a standard-deviation-inspired (SDI)\nregularization term to improve adversarial robustness and generalization. We\nargue that the inner maximization in AT is similar to minimizing a modified\nstandard deviation of the model's output probabilities. Moreover, we suggest\nthat maximizing this modified standard deviation can complement the outer\nminimization of the AT framework. To support our argument, we experimentally\nshow that the SDI measure can be used to craft adversarial examples.\nAdditionally, we demonstrate that combining the SDI regularization term with\nexisting AT variants enhances the robustness of DNNs against stronger attacks,\nsuch as CW and Auto-attack, and improves generalization.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Cryptography and Security",
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Statistics/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by-sa/4.0/",
+  "blobId": "7Im3rPL7uaVapyuBaY9T9X62Y7ah86wauJlxyG4dbgU",
+  "pdfSize": "3787413"
+}

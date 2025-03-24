@@ -1,0 +1,59 @@
+{
+  "id": "2412.03385",
+  "title": "Reactive Orchestration for Hierarchical Federated Learning Under a\n  Communication Cost Budget",
+  "authors": "Ivan \\v{C}ili\\'c, Anna Lackinger, Pantelis Frangoudis, Ivana Podnar\n  \\v{Z}arko, Alireza Furutanpey, Ilir Murturi, Schahram Dustdar",
+  "authorsParsed": [
+    [
+      "Čilić",
+      "Ivan",
+      ""
+    ],
+    [
+      "Lackinger",
+      "Anna",
+      ""
+    ],
+    [
+      "Frangoudis",
+      "Pantelis",
+      ""
+    ],
+    [
+      "Žarko",
+      "Ivana Podnar",
+      ""
+    ],
+    [
+      "Furutanpey",
+      "Alireza",
+      ""
+    ],
+    [
+      "Murturi",
+      "Ilir",
+      ""
+    ],
+    [
+      "Dustdar",
+      "Schahram",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 4 Dec 2024 15:12:00 GMT"
+    }
+  ],
+  "updateDate": "2024-12-05",
+  "timestamp": 1733325120000,
+  "abstract": "  Deploying a Hierarchical Federated Learning (HFL) pipeline across the\ncomputing continuum (CC) requires careful organization of participants into a\nhierarchical structure with intermediate aggregation nodes between FL clients\nand the global FL server. This is challenging to achieve due to (i) cost\nconstraints, (ii) varying data distributions, and (iii) the volatile operating\nenvironment of the CC. In response to these challenges, we present a framework\nfor the adaptive orchestration of HFL pipelines, designed to be reactive to\nclient churn and infrastructure-level events, while balancing communication\ncost and ML model accuracy. Our mechanisms identify and react to events that\ncause HFL reconfiguration actions at runtime, building on multi-level\nmonitoring information (model accuracy, resource availability, resource cost).\nMoreover, our framework introduces a generic methodology for estimating\nreconfiguration costs to continuously re-evaluate the quality of adaptation\nactions, while being extensible to optimize for various HFL performance\ncriteria. By extending the Kubernetes ecosystem, our framework demonstrates the\nability to react promptly and effectively to changes in the operating\nenvironment, making the best of the available communication cost budget and\neffectively balancing costs and ML performance at runtime.\n",
+  "subjects": [
+    "Computer Science/Distributed, Parallel, and Cluster Computing",
+    "Computer Science/Machine Learning",
+    "Computer Science/Networking and Internet Architecture"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "CQD8cCRBNLCq-ehr9BiPlh7NpMwUxdqBeXVZCO4etc0",
+  "pdfSize": "1235195"
+}

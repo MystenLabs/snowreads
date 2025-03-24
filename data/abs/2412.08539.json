@@ -1,0 +1,32 @@
+{
+  "id": "2412.08539",
+  "title": "The conjugation representation of $\\operatorname{GL}_{2}$ and\n  $\\operatorname{SL}_{2}$ over finite local rings",
+  "authors": "Nariel Monteiro and Alexander Stasinski",
+  "authorsParsed": [
+    [
+      "Monteiro",
+      "Nariel",
+      ""
+    ],
+    [
+      "Stasinski",
+      "Alexander",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 11 Dec 2024 16:58:20 GMT"
+    }
+  ],
+  "updateDate": "2024-12-12",
+  "timestamp": 1733936300000,
+  "abstract": "  The conjugation representation of a finite group $G$ is the complex\npermutation module defined by the action of $G$ on itself by conjugation.\nAddressing a problem raised by Hain motivated by the study of a Hecke action on\niterated Shimura integrals, Tiep proved that for\n$G=\\operatorname{SL}_{2}(\\mathbb{Z}/p^{r})$, where $r\\geq1$ and $p\\geq5$ is a\nprime, any irreducible representation of $G$ that is trivial on the centre of\n$G$ is contained in the conjugation representation. Moreover, Tiep asked\nwhether this can be generalised to $p=2$ or $3$. We answer the Hain--Tiep\nquestion in the affirmative and also prove analogous statements for\n$\\operatorname{SL}_{2}$ and $\\operatorname{GL}_{2}$ over any finite local\nprincipal ideal ring with residue field of odd characteristic.\n",
+  "subjects": [
+    "Mathematics/Representation Theory"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "JDsSL_50JKAwVmoHmbc74VIdT7WhK-3ueCQOaOR2mTY",
+  "pdfSize": "458429"
+}

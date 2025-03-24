@@ -1,0 +1,37 @@
+{
+  "id": "2412.08995",
+  "title": "An empirical model of the extragalactic radio background",
+  "authors": "Fangyou Gao, Tao Wang, Yijun Wang",
+  "authorsParsed": [
+    [
+      "Gao",
+      "Fangyou",
+      ""
+    ],
+    [
+      "Wang",
+      "Tao",
+      ""
+    ],
+    [
+      "Wang",
+      "Yijun",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 12 Dec 2024 06:53:49 GMT"
+    }
+  ],
+  "updateDate": "2025-02-19",
+  "timestamp": 1733986429000,
+  "abstract": "  Radio observations provide a powerful tool to constrain the assembly of\ngalaxies over cosmic time. Recent deep and wide radio continuum surveys have\nimproved significantly our understanding on radio emission properties of AGNs\nand SFGs across $0 < z < 4$. This allows us to derive an empirical model of the\nradio continuum emission of galaxies based on their SFR and the probability of\nhosting an radio AGN. We make use of the Empirical Galaxy Generator (EGG) to\ngenerate a near-infrared-selected, flux-limited multi-wavelength catalog to\nmimic real observations. Then we assign radio continuum flux densities to\ngalaxies based on their SFRs and the probability of hosting a radio-AGN of\nspecific 1.4 GHz luminosity. We also apply special treatments to reproduce the\nclustering signal of radio AGNs.Our empirical model successfully recovers the\nobserved 1.4 GHz radio luminosity functions (RLFs) of both AGN and SFG\npopulations, as well as the differential number counts at various radio bands.\nThe uniqueness of this approach also allows us to directly link radio flux\ndensities of galaxies to other properties, including redshifts, stellar masses,\nand magnitudes at various photometric bands. We find that roughly half of the\nradio continuum sources to be detected by SKA at $z \\sim 4-6$ will be too faint\nto be detected in the optical survey ($r \\sim 27.5$) carried out by Rubin\nobservatory. Unlike previous studies which utilized RLFs to reproduce ERB, our\nwork starts from a simulated galaxy catalog with realistic physical properties.\nIt has the potential to simultaneously, and self-consistently reproduce\nphysical properties of galaxies across a wide range of wavelengths, from\noptical, NIR, FIR to radio wavelengths. Our empirical model can shed light on\nthe contribution of different galaxies to the extragalactic background light,\nand greatly facilitates designing future multiwavelength galaxy surveys.\n",
+  "subjects": [
+    "Astrophysics/Astrophysics of Galaxies"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "Sd-4ZcdqRgHLTFzagf78PUv8p_LfRo9kXA8df2c6HeA",
+  "pdfSize": "5386309"
+}

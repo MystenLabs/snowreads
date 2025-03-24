@@ -1,0 +1,47 @@
+{
+  "id": "2412.20998",
+  "title": "T-DOM: A Taxonomy for Robotic Manipulation of Deformable Objects",
+  "authors": "David Blanco-Mulero, Yifei Dong, Julia Borras, Florian T. Pokorny,\n  Carme Torras",
+  "authorsParsed": [
+    [
+      "Blanco-Mulero",
+      "David",
+      ""
+    ],
+    [
+      "Dong",
+      "Yifei",
+      ""
+    ],
+    [
+      "Borras",
+      "Julia",
+      ""
+    ],
+    [
+      "Pokorny",
+      "Florian T.",
+      ""
+    ],
+    [
+      "Torras",
+      "Carme",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 30 Dec 2024 15:05:18 GMT"
+    }
+  ],
+  "updateDate": "2024-12-31",
+  "timestamp": 1735571118000,
+  "abstract": "  Robotic grasp and manipulation taxonomies, inspired by observing human\nmanipulation strategies, can provide key guidance for tasks ranging from\nrobotic gripper design to the development of manipulation algorithms. The\nexisting grasp and manipulation taxonomies, however, often assume object\nrigidity, which limits their ability to reason about the complex interactions\nin the robotic manipulation of deformable objects. Hence, to assist in tasks\ninvolving deformable objects, taxonomies need to capture more comprehensively\nthe interactions inherent in deformable object manipulation. To this end, we\nintroduce T-DOM, a taxonomy that analyses key aspects involved in the\nmanipulation of deformable objects, such as robot motion, forces, prehensile\nand non-prehensile interactions and, for the first time, a detailed\nclassification of object deformations. To evaluate T-DOM, we curate a dataset\nof ten tasks involving a variety of deformable objects, such as garments,\nropes, and surgical gloves, as well as diverse types of deformations. We\nanalyse the proposed tasks comparing the T-DOM taxonomy with previous well\nestablished manipulation taxonomies. Our analysis demonstrates that T-DOM can\neffectively distinguish between manipulation skills that were not identified in\nother taxonomies, across different deformable objects and manipulation actions,\noffering new categories to characterize a skill. The proposed taxonomy\nsignificantly extends past work, providing a more fine-grained classification\nthat can be used to describe the robotic manipulation of deformable objects.\nThis work establishes a foundation for advancing deformable object\nmanipulation, bridging theoretical understanding and practical implementation\nin robotic systems.\n",
+  "subjects": [
+    "Computer Science/Robotics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "JQIhLEDKM87gs4dlFuJe8xBEsuzSEB-J0DpS_O8neKg",
+  "pdfSize": "1192552"
+}

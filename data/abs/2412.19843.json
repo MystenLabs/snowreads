@@ -1,0 +1,47 @@
+{
+  "id": "2412.19843",
+  "title": "Quantum Bayesian Networks for Machine Learning in Oil-Spill Detection",
+  "authors": "Owais Ishtiaq Siddiqui, Nouhaila Innan, Alberto Marchisio, Mohamed\n  Bennai, and Muhammad Shafique",
+  "authorsParsed": [
+    [
+      "Siddiqui",
+      "Owais Ishtiaq",
+      ""
+    ],
+    [
+      "Innan",
+      "Nouhaila",
+      ""
+    ],
+    [
+      "Marchisio",
+      "Alberto",
+      ""
+    ],
+    [
+      "Bennai",
+      "Mohamed",
+      ""
+    ],
+    [
+      "Shafique",
+      "Muhammad",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 24 Dec 2024 15:44:26 GMT"
+    }
+  ],
+  "updateDate": "2024-12-31",
+  "timestamp": 1735055066000,
+  "abstract": "  Quantum Machine Learning (QML) has shown promise in diverse applications such\nas environmental monitoring, healthcare diagnostics, and financial modeling.\nHowever, the practical application of QML faces challenges, such as the limited\navailability of quantum hardware and the complexity of integrating quantum\nalgorithms with classical systems. This paper introduces a novel Bayesian\napproach using Quantum Bayesian Networks (QBNs) to classify imbalanced\ndatasets, focusing on differentiating ``oil-spill'' from ``non-spill'' classes\nin satellite-derived data. By employing QBNs, which combine probabilistic\nreasoning with quantum state preparation, we effectively address the challenge\nof integrating quantum enhancements with classical machine learning\narchitectures. While the integration improves key performance metrics, it also\nuncovers areas for refinement, highlighting the need for customized strategies\nto address specific challenges and optimize outcomes. Our study demonstrates\nsignificant advances in detecting and classifying anomalies, contributing to\nmore effective and precise environmental monitoring and management.\n",
+  "subjects": [
+    "Physics/Quantum Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "U95U07asC8mnFioNtoJCMVopuTvBt6nPOWfSuucFX4s",
+  "pdfSize": "5791724"
+}

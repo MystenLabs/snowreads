@@ -1,0 +1,45 @@
+{
+  "id": "2412.18818",
+  "title": "Empirical likelihood for Fr\\'echet means on open books",
+  "authors": "Karthik Bharath, Huiling Le, Andrew T A Wood, Xi Yan",
+  "authorsParsed": [
+    [
+      "Bharath",
+      "Karthik",
+      ""
+    ],
+    [
+      "Le",
+      "Huiling",
+      ""
+    ],
+    [
+      "Wood",
+      "Andrew T A",
+      ""
+    ],
+    [
+      "Yan",
+      "Xi",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 25 Dec 2024 08:01:03 GMT"
+    }
+  ],
+  "updateDate": "2024-12-30",
+  "timestamp": 1735113663000,
+  "abstract": "  Empirical Likelihood (EL) is a type of nonparametric likelihood that is\nuseful in many statistical inference problems, including confidence region\nconstruction and $k$-sample problems. It enjoys some remarkable theoretical\nproperties, notably Bartlett correctability. One area where EL has potential\nbut is under-developed is in non-Euclidean statistics where the Fr\\'echet mean\nis the population characteristic of interest. Only recently has a general EL\nmethod been proposed for smooth manifolds. In this work, we continue progress\nin this direction and develop an EL method for the Fr\\'echet mean on a\nstratified metric space that is not a manifold: the open book, obtained by\ngluing copies of a Euclidean space along their common boundaries. The structure\nof an open book captures the essential behaviour of the Fr\\'echet mean around\ncertain singular regions of more general stratified spaces for complex data\nobjects, and relates intimately to the local geometry of non-binary trees in\nthe well-studied phylogenetic treespace. We derive a version of Wilks' theorem\nfor the EL statistic, and elucidate on the delicate interplay between the\nasymptotic distribution and topology of the neighbourhood around the population\nFr\\'echet mean. We then present a bootstrap calibration of the EL, which proves\nthat under mild conditions, bootstrap calibration of EL confidence regions have\ncoverage error of size $O(n^{-2})$ rather than $O(n^{-1})$.\n",
+  "subjects": [
+    "Mathematics/Statistics Theory",
+    "Statistics/Computation",
+    "Statistics/Methodology",
+    "Statistics/Statistics Theory"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "UXXmjSVefXLOH2_i9ecVnoFaJCrXbQtZS7l9yJ4Qx3c",
+  "pdfSize": "891165"
+}

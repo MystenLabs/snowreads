@@ -1,0 +1,38 @@
+{
+  "id": "2412.14198",
+  "title": "Accelerating Reductions Using Graph Neural Networks and a New Concurrent\n  Local Search for the Maximum Weight Independent Set Problem",
+  "authors": "Ernestine Gro{\\ss}mann, Kenneth Langedal, Christian Schulz",
+  "authorsParsed": [
+    [
+      "Großmann",
+      "Ernestine",
+      ""
+    ],
+    [
+      "Langedal",
+      "Kenneth",
+      ""
+    ],
+    [
+      "Schulz",
+      "Christian",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 14 Dec 2024 17:25:59 GMT"
+    }
+  ],
+  "updateDate": "2024-12-20",
+  "timestamp": 1734197159000,
+  "abstract": "  The Maximum Weight Independent Set problem is a fundamental NP-hard problem\nin combinatorial optimization with several real-world applications. Given an\nundirected vertex-weighted graph, the problem is to find a subset of the\nvertices with the highest possible weight under the constraint that no two\nvertices in the set can share an edge. An important part of solving this\nproblem in both theory and practice is data reduction rules, which several\nstate-of-the-art algorithms rely on. However, the most complicated rules are\noften not used in applications since the time needed to check them exhaustively\nbecomes infeasible. In this work, we introduce three main results. First, we\nintroduce several new data reduction rules and evaluate their effectiveness on\nreal-world data. Second, we use a machine learning screening algorithm to speed\nup the reduction phase, thereby enabling more complicated rules to be applied.\nOur screening algorithm consults a Graph Neural Network oracle to decide if the\nprobability of successfully reducing the graph is sufficiently large. For this\ntask, we provide a dataset of labeled vertices for use in supervised learning.\nWe also present the first results for this dataset using established Graph\nNeural Network architectures. Third, we present a new concurrent metaheuristic\ncalled Concurrent Difference-Core Heuristic. On the reduced instances, we use\nour new metaheuristic combined with iterated local search, called CHILS\n(Concurrent Hybrid Iterated Local Search). For this iterated local search, we\nprovide a new implementation specifically designed to handle large graphs of\nvarying densities. CHILS outperforms the current state-of-the-art on all\ncommonly used benchmark instances, especially the largest ones.\n",
+  "subjects": [
+    "Mathematics/Optimization and Control",
+    "Mathematics/Combinatorics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "uzsqYtkE6GdxsPp2gSnyRYHuonK2FsB3jmjwQXvMN8w",
+  "pdfSize": "1459795"
+}

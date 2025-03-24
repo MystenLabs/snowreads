@@ -1,0 +1,46 @@
+{
+  "id": "2412.02030",
+  "title": "NitroFusion: High-Fidelity Single-Step Diffusion through Dynamic\n  Adversarial Training",
+  "authors": "Dar-Yen Chen, Hmrishav Bandyopadhyay, Kai Zou, Yi-Zhe Song",
+  "authorsParsed": [
+    [
+      "Chen",
+      "Dar-Yen",
+      ""
+    ],
+    [
+      "Bandyopadhyay",
+      "Hmrishav",
+      ""
+    ],
+    [
+      "Zou",
+      "Kai",
+      ""
+    ],
+    [
+      "Song",
+      "Yi-Zhe",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 2 Dec 2024 23:20:35 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Fri, 6 Dec 2024 11:22:17 GMT"
+    }
+  ],
+  "updateDate": "2024-12-09",
+  "timestamp": 1733181635000,
+  "abstract": "  We introduce NitroFusion, a fundamentally different approach to single-step\ndiffusion that achieves high-quality generation through a dynamic adversarial\nframework. While one-step methods offer dramatic speed advantages, they\ntypically suffer from quality degradation compared to their multi-step\ncounterparts. Just as a panel of art critics provides comprehensive feedback by\nspecializing in different aspects like composition, color, and technique, our\napproach maintains a large pool of specialized discriminator heads that\ncollectively guide the generation process. Each discriminator group develops\nexpertise in specific quality aspects at different noise levels, providing\ndiverse feedback that enables high-fidelity one-step generation. Our framework\ncombines: (i) a dynamic discriminator pool with specialized discriminator\ngroups to improve generation quality, (ii) strategic refresh mechanisms to\nprevent discriminator overfitting, and (iii) global-local discriminator heads\nfor multi-scale quality assessment, and unconditional/conditional training for\nbalanced generation. Additionally, our framework uniquely supports flexible\ndeployment through bottom-up refinement, allowing users to dynamically choose\nbetween 1-4 denoising steps with the same model for direct quality-speed\ntrade-offs. Through comprehensive experiments, we demonstrate that NitroFusion\nsignificantly outperforms existing single-step methods across multiple\nevaluation metrics, particularly excelling in preserving fine details and\nglobal consistency.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "jW_RNA6cgZmMv0I_t2ZRk7EEOco5BhME3sah9yP299w",
+  "pdfSize": "26797923"
+}

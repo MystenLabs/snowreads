@@ -1,0 +1,37 @@
+{
+  "id": "2412.07151",
+  "title": "dSTAR: Straggler Tolerant and Byzantine Resilient Distributed SGD",
+  "authors": "Jiahe Yan, Pratik Chaudhari, Leonard Kleinrock",
+  "authorsParsed": [
+    [
+      "Yan",
+      "Jiahe",
+      ""
+    ],
+    [
+      "Chaudhari",
+      "Pratik",
+      ""
+    ],
+    [
+      "Kleinrock",
+      "Leonard",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 10 Dec 2024 03:20:51 GMT"
+    }
+  ],
+  "updateDate": "2024-12-11",
+  "timestamp": 1733800851000,
+  "abstract": "  Distributed model training needs to be adapted to challenges such as the\nstraggler effect and Byzantine attacks. When coordinating the training process\nwith multiple computing nodes, ensuring timely and reliable gradient\naggregation amidst network and system malfunctions is essential. To tackle\nthese issues, we propose \\textit{dSTAR}, a lightweight and efficient approach\nfor distributed stochastic gradient descent (SGD) that enhances robustness and\nconvergence. \\textit{dSTAR} selectively aggregates gradients by collecting\nupdates from the first \\(k\\) workers to respond, filtering them based on\ndeviations calculated using an ensemble median. This method not only mitigates\nthe impact of stragglers but also fortifies the model against Byzantine\nadversaries. We theoretically establish that \\textit{dSTAR} is (\\(\\alpha,\nf\\))-Byzantine resilient and achieves a linear convergence rate. Empirical\nevaluations across various scenarios demonstrate that \\textit{dSTAR}\nconsistently maintains high accuracy, outperforming other Byzantine-resilient\nmethods that often suffer up to a 40-50\\% accuracy drop under attack. Our\nresults highlight \\textit{dSTAR} as a robust solution for training models in\ndistributed environments prone to both straggler delays and Byzantine faults.\n",
+  "subjects": [
+    "Computer Science/Distributed, Parallel, and Cluster Computing"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "Md_GGsY9pK2BkVgafx5XuPzM2l5PVmb2h0LQlTTav1M",
+  "pdfSize": "707422"
+}

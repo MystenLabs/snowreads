@@ -1,0 +1,47 @@
+{
+  "id": "2412.04285",
+  "title": "Deep Causal Inference for Point-referenced Spatial Data with Continuous\n  Treatments",
+  "authors": "Ziyang Jiang, Zach Calhoun, Yiling Liu, Lei Duan, and David Carlson",
+  "authorsParsed": [
+    [
+      "Jiang",
+      "Ziyang",
+      ""
+    ],
+    [
+      "Calhoun",
+      "Zach",
+      ""
+    ],
+    [
+      "Liu",
+      "Yiling",
+      ""
+    ],
+    [
+      "Duan",
+      "Lei",
+      ""
+    ],
+    [
+      "Carlson",
+      "David",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 5 Dec 2024 16:06:23 GMT"
+    }
+  ],
+  "updateDate": "2024-12-06",
+  "timestamp": 1733414783000,
+  "abstract": "  Causal reasoning is often challenging with spatial data, particularly when\nhandling high-dimensional inputs. To address this, we propose a neural network\n(NN) based framework integrated with an approximate Gaussian process to manage\nspatial interference and unobserved confounding. Additionally, we adopt a\ngeneralized propensity-score-based approach to address partially observed\noutcomes when estimating causal effects with continuous treatments. We evaluate\nour framework using synthetic, semi-synthetic, and real-world data inferred\nfrom satellite imagery. Our results demonstrate that NN-based models\nsignificantly outperform linear spatial regression models in estimating causal\neffects. Furthermore, in real-world case studies, NN-based models offer more\nreasonable predictions of causal effects, facilitating decision-making in\nrelevant applications.\n",
+  "subjects": [
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "tk_7LIXiTM-OzYpeU4FYElnXjFVq5hr6LoAeaLDfeF0",
+  "pdfSize": "17088019"
+}

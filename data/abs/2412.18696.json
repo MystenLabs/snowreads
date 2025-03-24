@@ -1,0 +1,68 @@
+{
+  "id": "2412.18696",
+  "title": "STITCH: Surface reconstrucTion using Implicit neural representations\n  with Topology Constraints and persistent Homology",
+  "authors": "Anushrut Jignasu, Ethan Herron, Zhanhong Jiang, Soumik Sarkar, Chinmay\n  Hegde, Baskar Ganapathysubramanian, Aditya Balu, Adarsh Krishnamurthy",
+  "authorsParsed": [
+    [
+      "Jignasu",
+      "Anushrut",
+      ""
+    ],
+    [
+      "Herron",
+      "Ethan",
+      ""
+    ],
+    [
+      "Jiang",
+      "Zhanhong",
+      ""
+    ],
+    [
+      "Sarkar",
+      "Soumik",
+      ""
+    ],
+    [
+      "Hegde",
+      "Chinmay",
+      ""
+    ],
+    [
+      "Ganapathysubramanian",
+      "Baskar",
+      ""
+    ],
+    [
+      "Balu",
+      "Aditya",
+      ""
+    ],
+    [
+      "Krishnamurthy",
+      "Adarsh",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 24 Dec 2024 22:55:35 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Thu, 9 Jan 2025 03:39:37 GMT"
+    }
+  ],
+  "updateDate": "2025-01-10",
+  "timestamp": 1735080935000,
+  "abstract": "  We present STITCH, a novel approach for neural implicit surface\nreconstruction of a sparse and irregularly spaced point cloud while enforcing\ntopological constraints (such as having a single connected component). We\ndevelop a new differentiable framework based on persistent homology to\nformulate topological loss terms that enforce the prior of a single 2-manifold\nobject. Our method demonstrates excellent performance in preserving the\ntopology of complex 3D geometries, evident through both visual and empirical\ncomparisons. We supplement this with a theoretical analysis, and provably show\nthat optimizing the loss with stochastic (sub)gradient descent leads to\nconvergence and enables reconstructing shapes with a single connected\ncomponent. Our approach showcases the integration of differentiable topological\ndata analysis tools for implicit surface reconstruction.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Graphics",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "hX2V5xB6nmqohGDVI8B4C-pH9z6dUumiDIjRgQynP7c",
+  "pdfSize": "3128076"
+}

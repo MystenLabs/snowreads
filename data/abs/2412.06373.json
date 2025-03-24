@@ -1,0 +1,41 @@
+{
+  "id": "2412.06373",
+  "title": "Noise Covariances Identification by MDM: Weighting, Recursion, and\n  Implementation",
+  "authors": "Oliver Kost, Jindrch Dunik, Ondrej Straka",
+  "authorsParsed": [
+    [
+      "Kost",
+      "Oliver",
+      ""
+    ],
+    [
+      "Dunik",
+      "Jindrch",
+      ""
+    ],
+    [
+      "Straka",
+      "Ondrej",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 9 Dec 2024 10:50:56 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Tue, 10 Dec 2024 08:50:21 GMT"
+    }
+  ],
+  "updateDate": "2024-12-11",
+  "timestamp": 1733741456000,
+  "abstract": "  The problem of noise covariance matrix identification of stochastic linear\ntime-varying state-space models is addressed. The measurement difference method\n(MDM) is generalized to time-varying dimensions of the measurement and control.\nThree MDM identification techniques that differ in weighting used in the\nunderlying least squares method are proposed. The techniques differ in estimate\nquality and computational complexity. In addition, recursive forms are designed\nfor two techniques. The performance of the proposed techniques is analyzed\nusing two numerical examples. The implementation of techniques is enclosed with\nthe paper.\n",
+  "subjects": [
+    "Electrical Engineering and Systems Science/Signal Processing"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "sn-Ig_9f8GfuoubFT5QMnbkC43CSHfJEdNOqFiHRwLk",
+  "pdfSize": "662556"
+}

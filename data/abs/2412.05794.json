@@ -1,0 +1,27 @@
+{
+  "id": "2412.05794",
+  "title": "Bundle Choice Model with Endogenous Regressors: An Application to Soda\n  Tax",
+  "authors": "Tao Sun",
+  "authorsParsed": [
+    [
+      "Sun",
+      "Tao",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 8 Dec 2024 03:16:31 GMT"
+    }
+  ],
+  "updateDate": "2024-12-10",
+  "timestamp": 1733627791000,
+  "abstract": "  This paper proposes a Bayesian factor-augmented bundle choice model to\nestimate joint consumption as well as the substitutability and complementarity\nof multiple goods in the presence of endogenous regressors. The model extends\nthe two primary treatments of endogeneity in existing bundle choice models: (1)\nendogenous market-level prices and (2) time-invariant unobserved individual\nheterogeneity. A Bayesian sparse factor approach is employed to capture\nhigh-dimensional error correlations that induce taste correlation and\nendogeneity. Time-varying factor loadings allow for more general\nindividual-level and time-varying heterogeneity and endogeneity, while the\nsparsity induced by the shrinkage prior on loadings balances flexibility with\nparsimony. Applied to a soda tax in the context of complementarities, the new\napproach captures broader effects of the tax that were previously overlooked.\nResults suggest that a soda tax could yield additional health benefits by\nmarginally decreasing the consumption of salty snacks along with sugary drinks,\nextending the health benefits beyond the reduction in sugar consumption alone.\n",
+  "subjects": [
+    "Economics/Econometrics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "yY7v1KgZkx290cVe8onE4mam3Eez-DxH5l19K3tKgjY",
+  "pdfSize": "486411"
+}

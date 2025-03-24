@@ -1,0 +1,33 @@
+{
+  "id": "2412.07940",
+  "title": "HEDS 3.0: The Human Evaluation Data Sheet Version 3.0",
+  "authors": "Anya Belz and Craig Thomson",
+  "authorsParsed": [
+    [
+      "Belz",
+      "Anya",
+      ""
+    ],
+    [
+      "Thomson",
+      "Craig",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 10 Dec 2024 21:57:32 GMT"
+    }
+  ],
+  "updateDate": "2024-12-12",
+  "timestamp": 1733867852000,
+  "abstract": "  This paper presents version 3.0 of the Human Evaluation Datasheet (HEDS).\nThis update is the result of our experience using HEDS in the context of\nnumerous recent human evaluation experiments, including reproduction studies,\nand of feedback received. Our main overall goal was to improve clarity, and to\nenable users to complete the datasheet more consistently and comparably. The\nHEDS 3.0 package consists of the digital data sheet, documentation, and code\nfor exporting completed data sheets as latex files, all available from the HEDS\nGitHub.\n",
+  "subjects": [
+    "Computer Science/Human-Computer Interaction",
+    "Computer Science/Computation and Language"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "CQAvPL9RZVvLYLpVSqjB9Di0otU7U0MfQYrD3zCb3hQ",
+  "pdfSize": "273196"
+}

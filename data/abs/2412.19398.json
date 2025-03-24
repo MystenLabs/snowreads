@@ -1,0 +1,33 @@
+{
+  "id": "2412.19398",
+  "title": "A Generalized Einstein Relation for Markovian Friction Coefficients from\n  Molecular Trajectories",
+  "authors": "J. M. Hall and M. G. Guenza",
+  "authorsParsed": [
+    [
+      "Hall",
+      "J. M.",
+      ""
+    ],
+    [
+      "Guenza",
+      "M. G.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 27 Dec 2024 01:20:37 GMT"
+    }
+  ],
+  "updateDate": "2024-12-30",
+  "timestamp": 1735262437000,
+  "abstract": "  We present a generalized Einstein relation for the friction coefficients\nassociated with an underlying memory kernel in terms of observable time\ncorrelation functions. There is considerable freedom in the correlations\ninvolved, and this allows the expression to be tailored to the particular\nsystem to achieve numerical stability. We demonstrate this by recovering the\nsite-specific friction coefficients from trajectories of a freely diffusing\nmodel trimer, and we show that the accuracy is greatly improved over\nestablished Volterra inversion methods for kernel extraction.\n",
+  "subjects": [
+    "Condensed Matter/Soft Condensed Matter",
+    "Condensed Matter/Statistical Mechanics"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "ioA8Q_jxuguTFLb6DxQkwDpMKIUppc3pfLA2Zhiieq4",
+  "pdfSize": "168446"
+}

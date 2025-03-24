@@ -1,0 +1,51 @@
+{
+  "id": "2412.17776",
+  "title": "Efficient Fault-Tolerant Search by Fast Indexing of Subnetworks",
+  "authors": "Davide Bil\\`o, Keerti Choudhary, Sarel Cohen, Tobias Friedrich, Martin\n  Schirneck",
+  "authorsParsed": [
+    [
+      "Bilò",
+      "Davide",
+      ""
+    ],
+    [
+      "Choudhary",
+      "Keerti",
+      ""
+    ],
+    [
+      "Cohen",
+      "Sarel",
+      ""
+    ],
+    [
+      "Friedrich",
+      "Tobias",
+      ""
+    ],
+    [
+      "Schirneck",
+      "Martin",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 23 Dec 2024 18:33:56 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Fri, 27 Dec 2024 13:28:06 GMT"
+    }
+  ],
+  "updateDate": "2024-12-30",
+  "timestamp": 1734978836000,
+  "abstract": "  We design sensitivity oracles for error-prone networks. For a network problem\n$\\Pi$, the data structure preprocesses a network $G=(V,E)$ and sensitivity\nparameter $f$ such that, for any set $F\\subseteq V\\cup E$ of up to $f$ link or\nnode failures, it can report a solution for $\\Pi$ in $G{-}F$. We study three\nnetwork problems $\\Pi$. $L$-Hop Shortest Path: Given $s,t \\in V$, is there a\nshortest $s$-$t$-path in $G-F$ with at most $L$ links? $k$-Path: Does $G-F$\ncontain a simple path with $k$ links? $k$-Clique: Does $G-F$ contain a clique\nof $k$ nodes? Our main technical contribution is a new construction of\n$(L,f)$-replacement path coverings ($(L,f)$-RPC) in the parameter realm where\n$f = o(\\log L)$. An $(L,f)$-RPC is a family $\\mathcal{G}$ of subnetworks of $G$\nwhich, for every $F \\subseteq E$ with $|F| \\le f$, contain a subfamily\n$\\mathcal{G}_F \\subseteq \\mathcal{G}$ such that (i) no subnetwork in\n$\\mathcal{G}_F$ contains a link of $F$ and (ii) for each $s,t \\in V$, if $G-F$\ncontains a shortest $s$-$t$-path with at most $L$ links, then some subnetwork\nin $\\mathcal{G}_F$ retains at least one such path. Our $(L, f)$-RPC has almost\nthe same size as the one by Weimann and Yuster [ACM TALG 2013] but it improves\nthe time to query $\\mathcal{G}_F$ from $\\widetilde{O}(f^2L^f)$ to\n$\\widetilde{O}(f^{\\frac{5}{2}} L^{o(1)})$. It also improves over the size and\nquery time of the $(L,f)$-RPC by Karthik and Parter [SODA 2021] by nearly a\nfactor of $L$. We then derive oracles for $L$-Hop Shortest Path, $k$-Path, and\n$k$-Clique from this. Notably, our solution for $k$-Path improves the query\ntime of the one by Bil\\`o, et al. [ITCS 2022] for $f=o(\\log k)$.\n",
+  "subjects": [
+    "Computer Science/Data Structures and Algorithms"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "Bl8Nl1bsr3gpZ71MpAaXvmMYZ6CNRkexrdRRrDF9tn8",
+  "pdfSize": "196349"
+}

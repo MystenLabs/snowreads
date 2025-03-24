@@ -1,0 +1,39 @@
+{
+  "id": "2412.10575",
+  "title": "Who's the (Multi-)Fairest of Them \\textsc{All}: Rethinking\n  Interpolation-Based Data Augmentation Through the Lens of Multicalibration",
+  "authors": "Karina Halevy, Karly Hou, Charumathi Badrinath",
+  "authorsParsed": [
+    [
+      "Halevy",
+      "Karina",
+      ""
+    ],
+    [
+      "Hou",
+      "Karly",
+      ""
+    ],
+    [
+      "Badrinath",
+      "Charumathi",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 13 Dec 2024 21:36:12 GMT"
+    }
+  ],
+  "updateDate": "2024-12-17",
+  "timestamp": 1734125772000,
+  "abstract": "  Data augmentation methods, especially SoTA interpolation-based methods such\nas Fair Mixup, have been widely shown to increase model fairness. However, this\nfairness is evaluated on metrics that do not capture model uncertainty and on\ndatasets with only one, relatively large, minority group. As a remedy,\nmulticalibration has been introduced to measure fairness while accommodating\nuncertainty and accounting for multiple minority groups. However, existing\nmethods of improving multicalibration involve reducing initial training data to\ncreate a holdout set for post-processing, which is not ideal when minority\ntraining data is already sparse. This paper uses multicalibration to more\nrigorously examine data augmentation for classification fairness. We\nstress-test four versions of Fair Mixup on two structured data classification\nproblems with up to 81 marginalized groups, evaluating multicalibration\nviolations and balanced accuracy. We find that on nearly every experiment, Fair\nMixup \\textit{worsens} baseline performance and fairness, but the simple\nvanilla Mixup \\textit{outperforms} both Fair Mixup and the baseline, especially\nwhen calibrating on small groups. \\textit{Combining} vanilla Mixup with\nmulticalibration post-processing, which enforces multicalibration through\npost-processing on a holdout set, further increases fairness.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Computer Science/Artificial Intelligence",
+    "Statistics/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "PPyXLQixzixq_JWaTe28hiNossJhTo0zs71s8HEecGE",
+  "pdfSize": "797960"
+}

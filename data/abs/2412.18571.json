@@ -1,0 +1,44 @@
+{
+  "id": "2412.18571",
+  "title": "Scalable Quantum-Inspired Optimization through Dynamic Qubit Compression",
+  "authors": "Co Tran, Quoc-Bao Tran, Hy Truong Son, and Thang N Dinh",
+  "authorsParsed": [
+    [
+      "Tran",
+      "Co",
+      ""
+    ],
+    [
+      "Tran",
+      "Quoc-Bao",
+      ""
+    ],
+    [
+      "Son",
+      "Hy Truong",
+      ""
+    ],
+    [
+      "Dinh",
+      "Thang N",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 24 Dec 2024 17:51:42 GMT"
+    }
+  ],
+  "updateDate": "2024-12-25",
+  "timestamp": 1735062702000,
+  "abstract": "  Hard combinatorial optimization problems, often mapped to Ising models,\npromise potential solutions with quantum advantage but are constrained by\nlimited qubit counts in near-term devices. We present an innovative\nquantum-inspired framework that dynamically compresses large Ising models to\nfit available quantum hardware of different sizes. Thus, we aim to bridge the\ngap between large-scale optimization and current hardware capabilities. Our\nmethod leverages a physics-inspired GNN architecture to capture complex\ninteractions in Ising models and accurately predict alignments among\nneighboring spins (aka qubits) at ground states. By progressively merging such\naligned spins, we can reduce the model size while preserving the underlying\noptimization structure. It also provides a natural trade-off between the\nsolution quality and size reduction, meeting different hardware constraints of\nquantum computing devices. Extensive numerical studies on Ising instances of\ndiverse topologies show that our method can reduce instance size at multiple\nlevels with virtually no losses in solution quality on the latest D-wave\nquantum annealers.\n",
+  "subjects": [
+    "Physics/Quantum Physics",
+    "Computer Science/Discrete Mathematics",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "sUIZRH3VuthxjnW9KK006RWuxcFQc0-DngwMIvg02kM",
+  "pdfSize": "354023"
+}

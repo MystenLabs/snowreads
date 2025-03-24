@@ -1,0 +1,32 @@
+{
+  "id": "2412.00913",
+  "title": "Garden city: A synthetic dataset and sandbox environment for analysis of\n  pre-processing algorithms for GPS human mobility data",
+  "authors": "Thomas H. Li, Francisco Barreras",
+  "authorsParsed": [
+    [
+      "Li",
+      "Thomas H.",
+      ""
+    ],
+    [
+      "Barreras",
+      "Francisco",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 1 Dec 2024 18:03:33 GMT"
+    }
+  ],
+  "updateDate": "2024-12-03",
+  "timestamp": 1733076213000,
+  "abstract": "  Human mobility datasets have seen increasing adoption in the past decade,\nenabling diverse applications that leverage the high precision of measured\ntrajectories relative to other human mobility datasets. However, there are\nconcerns about whether the high sparsity in some commercial datasets can\nintroduce errors due to lack of robustness in processing algorithms, which\ncould compromise the validity of downstream results. The scarcity of\n\"ground-truth\" data makes it particularly challenging to evaluate and calibrate\nthese algorithms. To overcome these limitations and allow for an intermediate\nform of validation of common processing algorithms, we propose a synthetic\ntrajectory simulator and sandbox environment meant to replicate the features of\ncommercial datasets that could cause errors in such algorithms, and which can\nbe used to compare algorithm outputs with \"ground-truth\" synthetic trajectories\nand mobility diaries. Our code is open-source and is publicly available\nalongside tutorial notebooks and sample datasets generated with it.\n",
+  "subjects": [
+    "Computer Science/Social and Information Networks"
+  ],
+  "license": "http://creativecommons.org/licenses/by-sa/4.0/",
+  "blobId": "QQtOfvWZ03DAp6ftx_s4_nKlr4hZIEB0eez9pxIT_nM",
+  "pdfSize": "1497324"
+}

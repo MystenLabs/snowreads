@@ -1,0 +1,42 @@
+{
+  "id": "2412.19736",
+  "title": "Periodically and aperiodically Thue-Morse driven long-range systems:\n  from dynamical localization to slow dynamics",
+  "authors": "Vatsana Tiwari, Devendra Singh Bhakuni, and Auditya Sharma",
+  "authorsParsed": [
+    [
+      "Tiwari",
+      "Vatsana",
+      ""
+    ],
+    [
+      "Bhakuni",
+      "Devendra Singh",
+      ""
+    ],
+    [
+      "Sharma",
+      "Auditya",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 27 Dec 2024 16:55:47 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Mon, 20 Jan 2025 14:34:03 GMT"
+    }
+  ],
+  "updateDate": "2025-01-22",
+  "timestamp": 1735318547000,
+  "abstract": "  We investigate the electric-field driven power-law random banded\nmatrix(PLRBM) model where a variation in the power-law exponent $\\alpha$ yields\na delocalization-to-localization phase transition. We examine the periodically\ndriven PLRBM model with the help of the Floquet operator. The level spacing\nratio and the generalized participation ratio of the Floquet Hamiltonian reveal\na drive-induced fractal phase accompanied by diffusive transport on the\ndelocalized side of the undriven PLRBM model. On the localized side, the\ntime-periodic model remains localized - the average spacing ratio corresponds\nto Poisson statistics and logarithmic transport is observed in the dynamics.\nExtending our analysis to the aperiodic Thue-Morse (TM) driven system, we find\nthat the aperiodically driven clean long-range hopping model (clean counterpart\nof the PLRBM model) exhibits the phenomenon of \\textit{exact dynamical\nlocalization} (EDL) on tuning the drive-parameters at special points. The\ndisordered time-aperiodic system shows diffusive transport followed by\nrelaxation to the infinite-temperature state on the delocalized side, and a\nprethermal plateau with subdiffusion on the localized side. Additionally, we\ncompare this with a quasi-periodically driven AAH model that also undergoes a\nlocalization-delocalization transition. Unlike the disordered long-range model,\nit features a prolonged prethermal plateau followed by subdiffusion to the\ninfinite temperature state, even on the delocalized side.\n",
+  "subjects": [
+    "Condensed Matter/Disordered Systems and Neural Networks",
+    "Condensed Matter/Strongly Correlated Electrons"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "OF6HDYMERcozRP6QvLR97wRbGnzW_NiqvWSHzideOQw",
+  "pdfSize": "2682213"
+}

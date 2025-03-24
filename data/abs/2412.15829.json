@@ -1,0 +1,44 @@
+{
+  "id": "2412.15829",
+  "title": "SUBMASSIVE: Resolving Subclass Cycles in Very Large Knowledge Graphs",
+  "authors": "Shuai Wang, Peter Bloem, Joe Raad, Frank van Harmelen",
+  "authorsParsed": [
+    [
+      "Wang",
+      "Shuai",
+      ""
+    ],
+    [
+      "Bloem",
+      "Peter",
+      ""
+    ],
+    [
+      "Raad",
+      "Joe",
+      ""
+    ],
+    [
+      "van Harmelen",
+      "Frank",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 20 Dec 2024 12:12:25 GMT"
+    }
+  ],
+  "updateDate": "2024-12-23",
+  "timestamp": 1734696745000,
+  "abstract": "  Large knowledge graphs capture information of a large number of entities and\ntheir relations. Among the many relations they capture, class subsumption\nassertions are usually present and expressed using the \\texttt{rdfs:subClassOf}\nconstruct. From our examination, publicly available knowledge graphs contain\nmany potentially erroneous cyclic subclass relations, a problem that can be\nexacerbated when different knowledge graphs are integrated as Linked Open Data.\nIn this paper, we present an automatic approach for resolving such cycles at\nscale using automated reasoning by encoding the problem of cycle-resolving to a\nMAXSAT solver. The approach is tested on the LOD-a-lot dataset, and compared\nagainst a semi-automatic version of our algorithm. We show how the number of\nremoved triples is a trade-off against the efficiency of the algorithm.\n",
+  "subjects": [
+    "Computer Science/Logic in Computer Science",
+    "Computer Science/Symbolic Computation",
+    "Mathematics/Optimization and Control"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "8oVTmv8FJGobkIX1aEP8Bte51zU_gDmznl5_wQ9jICU",
+  "pdfSize": "354393"
+}

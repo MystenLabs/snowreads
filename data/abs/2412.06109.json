@@ -1,0 +1,31 @@
+{
+  "id": "2412.06109",
+  "title": "Permutation clones that preserve relations",
+  "authors": "Tim Boykett",
+  "authorsParsed": [
+    [
+      "Boykett",
+      "Tim",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 8 Dec 2024 23:58:53 GMT"
+    }
+  ],
+  "updateDate": "2024-12-10",
+  "timestamp": 1733702333000,
+  "abstract": "  Permutation clones generalise permutation groups and clone theory. We\ninvestigate permutation clones defined by relations, or equivalently, the\nautomorphism groups of powers of relations. We find many structural results on\nthe lattice of all relationally defined permutation clones on a finite set. We\nfind all relationally defined permutation clones on two element set.\n  We show that all maximal borrow closed permutation clones are either\nrelationally defined or cancellatively defined.\n  Permutation clones generalise clones to permutations of $A^n$. Emil\nJe\\v{r}\\'{a}bek found the dual structure to be weight mappings $A^k\\rightarrow\nM$ to a commutative monoid, generalising relations. We investigate the case\nwhen the dual object is precisely a relation, equivalently, that $M={\\mathbb\nB}$, calling these relationally defined permutation clones.\n  We determine the number of relationally defined permutation clones on two\nelements (13).\n  We note that many infinite classes of clones collapse when looked at as\npermutation clones.\n",
+  "subjects": [
+    "Mathematics/Combinatorics",
+    "Computer Science/Discrete Mathematics",
+    "Computer Science/Logic in Computer Science",
+    "Mathematics/Group Theory",
+    "Mathematics/Rings and Algebras"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "70eqBALMrEem7L9-CTn1cCeRZQlwCyon1BA7rMGyqYU",
+  "pdfSize": "314081"
+}

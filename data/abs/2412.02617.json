@@ -1,0 +1,59 @@
+{
+  "id": "2412.02617",
+  "title": "Improving Dynamic Object Interactions in Text-to-Video Generation with\n  AI Feedback",
+  "authors": "Hiroki Furuta, Heiga Zen, Dale Schuurmans, Aleksandra Faust, Yutaka\n  Matsuo, Percy Liang, Sherry Yang",
+  "authorsParsed": [
+    [
+      "Furuta",
+      "Hiroki",
+      ""
+    ],
+    [
+      "Zen",
+      "Heiga",
+      ""
+    ],
+    [
+      "Schuurmans",
+      "Dale",
+      ""
+    ],
+    [
+      "Faust",
+      "Aleksandra",
+      ""
+    ],
+    [
+      "Matsuo",
+      "Yutaka",
+      ""
+    ],
+    [
+      "Liang",
+      "Percy",
+      ""
+    ],
+    [
+      "Yang",
+      "Sherry",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 3 Dec 2024 17:44:23 GMT"
+    }
+  ],
+  "updateDate": "2024-12-04",
+  "timestamp": 1733247863000,
+  "abstract": "  Large text-to-video models hold immense potential for a wide range of\ndownstream applications. However, these models struggle to accurately depict\ndynamic object interactions, often resulting in unrealistic movements and\nfrequent violations of real-world physics. One solution inspired by large\nlanguage models is to align generated outputs with desired outcomes using\nexternal feedback. This enables the model to refine its responses autonomously,\neliminating extensive manual data collection. In this work, we investigate the\nuse of feedback to enhance the object dynamics in text-to-video models. We aim\nto answer a critical question: what types of feedback, paired with which\nspecific self-improvement algorithms, can most effectively improve text-video\nalignment and realistic object interactions? We begin by deriving a unified\nprobabilistic objective for offline RL finetuning of text-to-video models. This\nperspective highlights how design elements in existing algorithms like KL\nregularization and policy projection emerge as specific choices within a\nunified framework. We then use derived methods to optimize a set of text-video\nalignment metrics (e.g., CLIP scores, optical flow), but notice that they often\nfail to align with human perceptions of generation quality. To address this\nlimitation, we propose leveraging vision-language models to provide more\nnuanced feedback specifically tailored to object dynamics in videos. Our\nexperiments demonstrate that our method can effectively optimize a wide variety\nof rewards, with binary AI feedback driving the most significant improvements\nin video quality for dynamic interactions, as confirmed by both AI and human\nevaluations. Notably, we observe substantial gains when using reward signals\nderived from AI feedback, particularly in scenarios involving complex\ninteractions between multiple objects and realistic depictions of objects\nfalling.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "ZJA3G2nUOAMtxIxYKzom4WZLHtz-q4PFyNTl78B13iw",
+  "pdfSize": "4468940"
+}

@@ -1,0 +1,55 @@
+{
+  "id": "2412.00663",
+  "title": "Deep Learning for Longitudinal Gross Tumor Volume Segmentation in\n  MRI-Guided Adaptive Radiotherapy for Head and Neck Cancer",
+  "authors": "Xin Tie, Weijie Chen, Zachary Huemann, Brayden Schott, Nuohao Liu and\n  Tyler J. Bradshaw",
+  "authorsParsed": [
+    [
+      "Tie",
+      "Xin",
+      ""
+    ],
+    [
+      "Chen",
+      "Weijie",
+      ""
+    ],
+    [
+      "Huemann",
+      "Zachary",
+      ""
+    ],
+    [
+      "Schott",
+      "Brayden",
+      ""
+    ],
+    [
+      "Liu",
+      "Nuohao",
+      ""
+    ],
+    [
+      "Bradshaw",
+      "Tyler J.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 1 Dec 2024 03:57:18 GMT"
+    }
+  ],
+  "updateDate": "2024-12-03",
+  "timestamp": 1733025438000,
+  "abstract": "  Accurate segmentation of gross tumor volume (GTV) is essential for effective\nMRI-guided adaptive radiotherapy (MRgART) in head and neck cancer. However,\nmanual segmentation of the GTV over the course of therapy is time-consuming and\nprone to interobserver variability. Deep learning (DL) has the potential to\novercome these challenges by automatically delineating GTVs. In this study, our\nteam, $\\textit{UW LAIR}$, tackled the challenges of both pre-radiotherapy\n(pre-RT) (Task 1) and mid-radiotherapy (mid-RT) (Task 2) tumor volume\nsegmentation. To this end, we developed a series of DL models for longitudinal\nGTV segmentation. The backbone of our models for both tasks was SegResNet with\ndeep supervision. For Task 1, we trained the model using a combined dataset of\npre-RT and mid-RT MRI data, which resulted in the improved aggregated Dice\nsimilarity coefficient (DSCagg) on an internal testing set compared to models\ntrained solely on pre-RT MRI data. In Task 2, we introduced mask-aware\nattention modules, enabling pre-RT GTV masks to influence intermediate features\nlearned from mid-RT data. This attention-based approach yielded slight\nimprovements over the baseline method, which concatenated mid-RT MRI with\npre-RT GTV masks as input. In the final testing phase, the ensemble of 10\npre-RT segmentation models achieved an average DSCagg of 0.794, with 0.745 for\nprimary GTV (GTVp) and 0.844 for metastatic lymph nodes (GTVn) in Task 1. For\nTask 2, the ensemble of 10 mid-RT segmentation models attained an average\nDSCagg of 0.733, with 0.607 for GTVp and 0.859 for GTVn, leading us to\n$\\textbf{achieve 1st place}$. In summary, we presented a collection of DL\nmodels that could facilitate GTV segmentation in MRgART, offering the potential\nto streamline radiation oncology workflows. Our code and model weights are\navailable at https://github.com/xtie97/HNTS-MRG24-UWLAIR.\n",
+  "subjects": [
+    "Electrical Engineering and Systems Science/Image and Video Processing",
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Physics/Medical Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "xQKMNfy1cIaPgXIhO_nI5PBGXDTmNk0-R4H1Hk0ffXU",
+  "pdfSize": "3619311"
+}

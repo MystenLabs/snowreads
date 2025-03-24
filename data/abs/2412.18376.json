@@ -1,0 +1,33 @@
+{
+  "id": "2412.18376",
+  "title": "Bidirectional Topic Matching: Quantifying Thematic Overlap Between\n  Corpora Through Topic Modelling",
+  "authors": "Raven Adam, Marie Lisa Kogler",
+  "authorsParsed": [
+    [
+      "Adam",
+      "Raven",
+      ""
+    ],
+    [
+      "Kogler",
+      "Marie Lisa",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 24 Dec 2024 12:02:43 GMT"
+    }
+  ],
+  "updateDate": "2024-12-25",
+  "timestamp": 1735041763000,
+  "abstract": "  This study introduces Bidirectional Topic Matching (BTM), a novel method for\ncross-corpus topic modeling that quantifies thematic overlap and divergence\nbetween corpora. BTM is a flexible framework that can incorporate various topic\nmodeling approaches, including BERTopic, Top2Vec, and Latent Dirichlet\nAllocation (LDA). BTM employs a dual-model approach, training separate topic\nmodels for each corpus and applying them reciprocally to enable comprehensive\ncross-corpus comparisons. This methodology facilitates the identification of\nshared themes and unique topics, providing nuanced insights into thematic\nrelationships. Validation against cosine similarity-based methods demonstrates\nthe robustness of BTM, with strong agreement metrics and distinct advantages in\nhandling outlier topics. A case study on climate news articles showcases BTM's\nutility, revealing significant thematic overlaps and distinctions between\ncorpora focused on climate change and climate action. BTM's flexibility and\nprecision make it a valuable tool for diverse applications, from political\ndiscourse analysis to interdisciplinary studies. By integrating shared and\nunique topic analyses, BTM offers a comprehensive framework for exploring\nthematic relationships, with potential extensions to multilingual and dynamic\ndatasets. This work highlights BTM's methodological contributions and its\ncapacity to advance discourse analysis across various domains.\n",
+  "subjects": [
+    "Computer Science/Computation and Language",
+    "Computer Science/Information Retrieval"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "FslmdEtAC9bdMCskuvjg9G6e-6apAatDhLQ8M8bQmW8",
+  "pdfSize": "730041"
+}

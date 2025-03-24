@@ -1,0 +1,45 @@
+{
+  "id": "2412.16037",
+  "title": "Full Parity-Violating Trispectrum in Axion Inflation: Reduction to Low-D\n  Integrals",
+  "authors": "Matthew Reinhard, Zachary Slepian, Jiamin Hou, and Alessandro Greco",
+  "authorsParsed": [
+    [
+      "Reinhard",
+      "Matthew",
+      ""
+    ],
+    [
+      "Slepian",
+      "Zachary",
+      ""
+    ],
+    [
+      "Hou",
+      "Jiamin",
+      ""
+    ],
+    [
+      "Greco",
+      "Alessandro",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 20 Dec 2024 16:38:14 GMT"
+    }
+  ],
+  "updateDate": "2024-12-23",
+  "timestamp": 1734712694000,
+  "abstract": "  Recent measurements of the galaxy 4-Point Correlation Function (4PCF) have\nseemingly detected non-zero parity-odd modes at high significance. Since\ngravity, the primary driver of galaxy formation and evolution is parity-even,\nany parity violation, if genuine, is likely to have been produced by some new\nparity-violating mechanism in the early Universe. Here we investigate an\ninflationary model with a Chern-Simons interaction between an axion and a\n$U(1)$ gauge field, where the axion itself is the inflaton field. Evaluating\nthe trispectrum (Fourier-space analog of the 4PCF) of the primordial curvature\nperturbations is an involved calculation with very high-dimensional loop\nintegrals. We demonstrate how to simplify these integrals and perform all\nangular integrations analytically by reducing the integrals to convolutions and\nexploiting the Convolution Theorem. This leaves us with low-dimensional radial\nintegrals that are much more amenable to efficient numerical evaluation. This\npaper is the first in a series in which we will use these results to compute\nthe full late-time 4PCF for axion inflation, thence enabling constraints from\nupcoming 3D spectroscopic surveys such as Dark Energy Spectroscopic Instrument\n(DESI), Euclid, or Roman.\n",
+  "subjects": [
+    "Astrophysics/Cosmology and Nongalactic Astrophysics",
+    "Physics/General Relativity and Quantum Cosmology",
+    "Physics/High Energy Physics - Phenomenology",
+    "Physics/High Energy Physics - Theory"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "ZSBU6SopvQof7Nn3Fw_WoI-Hw2AvWgTRtXspOIOAvgA",
+  "pdfSize": "2717116"
+}

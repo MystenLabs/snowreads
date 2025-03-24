@@ -1,0 +1,38 @@
+{
+  "id": "2412.10005",
+  "title": "Matrix Completion via Residual Spectral Matching",
+  "authors": "Ziyuan Chen and Fang Yao",
+  "authorsParsed": [
+    [
+      "Chen",
+      "Ziyuan",
+      ""
+    ],
+    [
+      "Yao",
+      "Fang",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 13 Dec 2024 09:42:42 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Mon, 16 Dec 2024 06:48:34 GMT"
+    }
+  ],
+  "updateDate": "2024-12-17",
+  "timestamp": 1734082962000,
+  "abstract": "  Noisy matrix completion has attracted significant attention due to its\napplications in recommendation systems, signal processing and image\nrestoration. Most existing works rely on (weighted) least squares methods under\nvarious low-rank constraints. However, minimizing the sum of squared residuals\nis not always efficient, as it may ignore the potential structural information\nin the residuals. In this study, we propose a novel residual spectral matching\ncriterion that incorporates not only the numerical but also locational\ninformation of residuals. This criterion is the first in noisy matrix\ncompletion to adopt the perspective of low-rank perturbation of random matrices\nand exploit the spectral properties of sparse random matrices. We derive\noptimal statistical properties by analyzing the spectral properties of sparse\nrandom matrices and bounding the effects of low-rank perturbations and partial\nobservations. Additionally, we propose algorithms that efficiently approximate\nsolutions by constructing easily computable pseudo-gradients. The iterative\nprocess of the proposed algorithms ensures convergence at a rate consistent\nwith the optimal statistical error bound. Our method and algorithms demonstrate\nimproved numerical performance in both simulated and real data examples,\nparticularly in environments with high noise levels.\n",
+  "subjects": [
+    "Statistics/Machine Learning",
+    "Computer Science/Machine Learning",
+    "Statistics/Methodology"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "ZWExh4wCob_uOGgSI2jMrctrxWmwpf8UcUprY9mzIZ0",
+  "pdfSize": "5408074"
+}

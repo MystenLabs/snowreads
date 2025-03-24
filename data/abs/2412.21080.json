@@ -1,0 +1,112 @@
+{
+  "id": "2412.21080",
+  "title": "Vinci: A Real-time Embodied Smart Assistant based on Egocentric\n  Vision-Language Model",
+  "authors": "Yifei Huang, Jilan Xu, Baoqi Pei, Yuping He, Guo Chen, Lijin Yang,\n  Xinyuan Chen, Yaohui Wang, Zheng Nie, Jinyao Liu, Guoshun Fan, Dechen Lin,\n  Fang Fang, Kunpeng Li, Chang Yuan, Yali Wang, Yu Qiao, Limin Wang",
+  "authorsParsed": [
+    [
+      "Huang",
+      "Yifei",
+      ""
+    ],
+    [
+      "Xu",
+      "Jilan",
+      ""
+    ],
+    [
+      "Pei",
+      "Baoqi",
+      ""
+    ],
+    [
+      "He",
+      "Yuping",
+      ""
+    ],
+    [
+      "Chen",
+      "Guo",
+      ""
+    ],
+    [
+      "Yang",
+      "Lijin",
+      ""
+    ],
+    [
+      "Chen",
+      "Xinyuan",
+      ""
+    ],
+    [
+      "Wang",
+      "Yaohui",
+      ""
+    ],
+    [
+      "Nie",
+      "Zheng",
+      ""
+    ],
+    [
+      "Liu",
+      "Jinyao",
+      ""
+    ],
+    [
+      "Fan",
+      "Guoshun",
+      ""
+    ],
+    [
+      "Lin",
+      "Dechen",
+      ""
+    ],
+    [
+      "Fang",
+      "Fang",
+      ""
+    ],
+    [
+      "Li",
+      "Kunpeng",
+      ""
+    ],
+    [
+      "Yuan",
+      "Chang",
+      ""
+    ],
+    [
+      "Wang",
+      "Yali",
+      ""
+    ],
+    [
+      "Qiao",
+      "Yu",
+      ""
+    ],
+    [
+      "Wang",
+      "Limin",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 30 Dec 2024 16:57:05 GMT"
+    }
+  ],
+  "updateDate": "2024-12-31",
+  "timestamp": 1735577825000,
+  "abstract": "  We introduce Vinci, a real-time embodied smart assistant built upon an\negocentric vision-language model. Designed for deployment on portable devices\nsuch as smartphones and wearable cameras, Vinci operates in an \"always on\"\nmode, continuously observing the environment to deliver seamless interaction\nand assistance. Users can wake up the system and engage in natural\nconversations to ask questions or seek assistance, with responses delivered\nthrough audio for hands-free convenience. With its ability to process long\nvideo streams in real-time, Vinci can answer user queries about current\nobservations and historical context while also providing task planning based on\npast interactions. To further enhance usability, Vinci integrates a video\ngeneration module that creates step-by-step visual demonstrations for tasks\nthat require detailed guidance. We hope that Vinci can establish a robust\nframework for portable, real-time egocentric AI systems, empowering users with\ncontextual and actionable insights. We release the complete implementation for\nthe development of the device in conjunction with a demo web platform to test\nuploaded videos at https://github.com/OpenGVLab/vinci.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "fxkn26hcM86hg9cbv0cYjNtfFsMnHQ75lCIaSQay80s",
+  "pdfSize": "18384975"
+}

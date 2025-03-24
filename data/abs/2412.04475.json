@@ -1,0 +1,43 @@
+{
+  "id": "2412.04475",
+  "title": "Advancing Marine Heatwave Forecasts: An Integrated Deep Learning\n  Approach",
+  "authors": "Ding Ning, Varvara Vetrova, Yun Sing Koh, Karin R. Bryan",
+  "authorsParsed": [
+    [
+      "Ning",
+      "Ding",
+      ""
+    ],
+    [
+      "Vetrova",
+      "Varvara",
+      ""
+    ],
+    [
+      "Koh",
+      "Yun Sing",
+      ""
+    ],
+    [
+      "Bryan",
+      "Karin R.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 19 Nov 2024 06:11:52 GMT"
+    }
+  ],
+  "updateDate": "2024-12-09",
+  "timestamp": 1731996712000,
+  "abstract": "  Marine heatwaves (MHWs), an extreme climate phenomenon, pose significant\nchallenges to marine ecosystems and industries, with their frequency and\nintensity increasing due to climate change. This study introduces an integrated\ndeep learning approach to forecast short-to-long-term MHWs on a global scale.\nThe approach combines graph representation for modeling spatial properties in\nclimate data, imbalanced regression to handle skewed data distributions, and\ntemporal diffusion to enhance forecast accuracy across various lead times. To\nthe best of our knowledge, this is the first study that synthesizes three\nspatiotemporal anomaly methodologies to predict MHWs. Additionally, we\nintroduce a method for constructing graphs that avoids isolated nodes and\nprovide a new publicly available sea surface temperature anomaly graph dataset.\nWe examine the trade-offs in the selection of loss functions and evaluation\nmetrics for MHWs. We analyze spatial patterns in global MHW predictability by\nfocusing on historical hotspots, and our approach demonstrates better\nperformance compared to traditional numerical models in regions such as the\nmiddle south Pacific, equatorial Atlantic near Africa, south Atlantic, and\nhigh-latitude Indian Ocean. We highlight the potential of temporal diffusion to\nreplace the conventional sliding window approach for long-term forecasts,\nachieving improved prediction up to six months in advance. These insights not\nonly establish benchmarks for machine learning applications in MHW forecasting\nbut also enhance understanding of general climate forecasting methodologies.\n",
+  "subjects": [
+    "Physics/Atmospheric and Oceanic Physics",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "afHCTRScC_zWXy41QWoe8rWTBIEV_2kUFg5Z7WPyiVY",
+  "pdfSize": "2475214"
+}

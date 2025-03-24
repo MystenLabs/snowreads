@@ -1,0 +1,42 @@
+{
+  "id": "2412.12954",
+  "title": "Recipient Profiling: Predicting Characteristics from Messages",
+  "authors": "Martin Borquez, Mikaela Keller, Michael Perrot, Damien Sileo",
+  "authorsParsed": [
+    [
+      "Borquez",
+      "Martin",
+      ""
+    ],
+    [
+      "Keller",
+      "Mikaela",
+      ""
+    ],
+    [
+      "Perrot",
+      "Michael",
+      ""
+    ],
+    [
+      "Sileo",
+      "Damien",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 17 Dec 2024 14:35:33 GMT"
+    }
+  ],
+  "updateDate": "2024-12-18",
+  "timestamp": 1734446133000,
+  "abstract": "  It has been shown in the field of Author Profiling that texts may\ninadvertently reveal sensitive information about their authors, such as gender\nor age. This raises important privacy concerns that have been extensively\naddressed in the literature, in particular with the development of methods to\nhide such information. We argue that, when these texts are in fact messages\nexchanged between individuals, this is not the end of the story. Indeed, in\nthis case, a second party, the intended recipient, is also involved and should\nbe considered. In this work, we investigate the potential privacy leaks\naffecting them, that is we propose and address the problem of Recipient\nProfiling. We provide empirical evidence that such a task is feasible on\nseveral publicly accessible datasets\n(https://huggingface.co/datasets/sileod/recipient_profiling). Furthermore, we\nshow that the learned models can be transferred to other datasets, albeit with\na loss in accuracy.\n",
+  "subjects": [
+    "Computer Science/Computation and Language"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "j7f6NtY8X6q5dysErtiOf9SoU2LzE1ZZTmEGj5Izhhg",
+  "pdfSize": "426915"
+}

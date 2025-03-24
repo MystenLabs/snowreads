@@ -1,0 +1,37 @@
+{
+  "id": "2412.11937",
+  "title": "Precise Length Control in Large Language Models",
+  "authors": "Bradley Butcher, Michael O'Keefe, James Titchener",
+  "authorsParsed": [
+    [
+      "Butcher",
+      "Bradley",
+      ""
+    ],
+    [
+      "O'Keefe",
+      "Michael",
+      ""
+    ],
+    [
+      "Titchener",
+      "James",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 16 Dec 2024 16:22:27 GMT"
+    }
+  ],
+  "updateDate": "2024-12-17",
+  "timestamp": 1734366147000,
+  "abstract": "  Large Language Models (LLMs) are increasingly used in production systems,\npowering applications such as chatbots, summarization, and question answering.\nDespite their success, controlling the length of their response remains a\nsignificant challenge, particularly for tasks requiring structured outputs or\nspecific levels of detail. In this work, we propose a method to adapt\npre-trained decoder-only LLMs for precise control of response length. Our\napproach incorporates a secondary length-difference positional encoding (LDPE)\ninto the input embeddings, which counts down to a user-set response termination\nlength. Fine-tuning with LDPE allows the model to learn to terminate responses\ncoherently at the desired length, achieving mean token errors of less than 3\ntokens. We also introduce Max New Tokens++, an extension that enables flexible\nupper-bound length control, rather than an exact target. Experimental results\non tasks such as question answering and document summarization demonstrate that\nour method enables precise length control without compromising response\nquality.\n",
+  "subjects": [
+    "Computer Science/Computation and Language"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "8e44fb1fg3TtALueIWCUtL1L0PFIorDdKZRFVDH1AEQ",
+  "pdfSize": "781970"
+}

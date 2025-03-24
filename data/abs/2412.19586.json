@@ -1,0 +1,47 @@
+{
+  "id": "2412.19586",
+  "title": "Solar Gamma-Ray Evidence for a Distinct Population of $>$ 1 MeV\n  Flare-Accelerated Electrons",
+  "authors": "Gerald H. Share, Ronald J. Murphy, Brian R. Dennis, Justin D. Finke",
+  "authorsParsed": [
+    [
+      "Share",
+      "Gerald H.",
+      ""
+    ],
+    [
+      "Murphy",
+      "Ronald J.",
+      ""
+    ],
+    [
+      "Dennis",
+      "Brian R.",
+      ""
+    ],
+    [
+      "Finke",
+      "Justin D.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 27 Dec 2024 11:06:19 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Sun, 2 Feb 2025 02:27:42 GMT"
+    }
+  ],
+  "updateDate": "2025-02-25",
+  "timestamp": 1735297579000,
+  "abstract": "  Significant improvements in our understanding of nuclear $\\gamma$-ray line\nproduction and instrument performance allow us to better characterize the\ncontinuum emission from electrons at energies $\\gtrsim$ 300 keV during solar\nflares. We represent this emission by the sum of a power-law extension of hard\nX-rays (PL) and a power law times an exponential function (PLexp). We fit the\n$\\gamma$-ray spectra in 25 large flares observed by SMM, RHESSI, and Fermi with\nthis summed continuum along with calculated spectra of all known nuclear\ncomponents. The PL, PLexp, and nuclear components are separated\nspectroscopically. A distinct origin of the PLexp is suggested by significant\ndifferences between its time histories and those of the PL and nuclear\ncomponents. RHESSI imaging/spectroscopy of the 2005 January 20 flare, reveals\nthat the PL and nuclear components come from the footpoints while the PLexp\ncomponent comes from the corona. While the index and flux of the anisotropic PL\ncomponent are strongly dependent on the flares' heliocentric angle, the PLexp\nparameters show no such dependency and are consistent with a component that is\nisotropic. The PLexp spectrum is flat at low energies and rolls over at a few\nMeV. Such a shape can be produced by inverse Compton scattering of soft X-rays\nby 10--20 MeV electrons and by thin-target bremsstrahlung from electrons with a\nspectrum that peaks between 3 -- 5 MeV, or by a combination of the two\nprocesses. These electrons can produce radiation detectable at other\nwavelengths.\n",
+  "subjects": [
+    "Astrophysics/Solar and Stellar Astrophysics",
+    "Astrophysics/High Energy Astrophysical Phenomena"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "irjqk3dbVecFQQhx6KCdi4cudpmkTYgrTO3ZMGqCttY",
+  "pdfSize": "1739923"
+}

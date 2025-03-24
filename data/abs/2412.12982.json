@@ -1,0 +1,38 @@
+{
+  "id": "2412.12982",
+  "title": "Stable Diffusion is a Natural Cross-Modal Decoder for Layered\n  AI-generated Image Compression",
+  "authors": "Ruijie Chen, Qi Mao, Zhengxue Cheng",
+  "authorsParsed": [
+    [
+      "Chen",
+      "Ruijie",
+      ""
+    ],
+    [
+      "Mao",
+      "Qi",
+      ""
+    ],
+    [
+      "Cheng",
+      "Zhengxue",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 17 Dec 2024 15:01:35 GMT"
+    }
+  ],
+  "updateDate": "2024-12-18",
+  "timestamp": 1734447695000,
+  "abstract": "  Recent advances in Artificial Intelligence Generated Content (AIGC) have\ngarnered significant interest, accompanied by an increasing need to transmit\nand compress the vast number of AI-generated images (AIGIs). However, there is\na noticeable deficiency in research focused on compression methods for AIGIs.\nTo address this critical gap, we introduce a scalable cross-modal compression\nframework that incorporates multiple human-comprehensible modalities, designed\nto efficiently capture and relay essential visual information for AIGIs. In\nparticular, our framework encodes images into a layered bitstream consisting of\na semantic layer that delivers high-level semantic information through text\nprompts; a structural layer that captures spatial details using edge or\nskeleton maps; and a texture layer that preserves local textures via a\ncolormap. Utilizing Stable Diffusion as the backend, the framework effectively\nleverages these multimodal priors for image generation, effectively functioning\nas a decoder when these priors are encoded. Qualitative and quantitative\nresults show that our method proficiently restores both semantic and visual\ndetails, competing against baseline approaches at extremely low bitrates (\n<0.02 bpp). Additionally, our framework facilitates downstream editing\napplications without requiring full decoding, thereby paving a new direction\nfor future research in AIGI compression.\n",
+  "subjects": [
+    "Electrical Engineering and Systems Science/Image and Video Processing",
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "IAB-2tZoHILbqBBtYBegneCTe1F2wXLJCVOGGhMVef8",
+  "pdfSize": "4932198"
+}

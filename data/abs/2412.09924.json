@@ -1,0 +1,42 @@
+{
+  "id": "2412.09924",
+  "title": "Vertical Shear Instability in Thermally-Stratified Protoplanetary Disks:\n  I. A Linear Stability Analysis",
+  "authors": "Han-Gyeol Yun, Woong-Tae Kim, Jaehan Bae, Cheongho Han",
+  "authorsParsed": [
+    [
+      "Yun",
+      "Han-Gyeol",
+      ""
+    ],
+    [
+      "Kim",
+      "Woong-Tae",
+      ""
+    ],
+    [
+      "Bae",
+      "Jaehan",
+      ""
+    ],
+    [
+      "Han",
+      "Cheongho",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 13 Dec 2024 07:27:05 GMT"
+    }
+  ],
+  "updateDate": "2024-12-16",
+  "timestamp": 1734074825000,
+  "abstract": "  Vertical shear instability (VSI), driven by a vertical gradient of rotational\nangular velocity, is a promising source of turbulence in protoplanetary disks.\nWe examine the semi-global stability of thermally stratified disks and find\nthat the VSI consists of surface and body modes: surface modes are confined to\nregions of strong shear, while body modes extend perturbations across the disk,\nconsistent with the previous findings. In thermally stratified disks, surface\nmodes bifurcate into two branches. The branch associated with the strongest\nshear at mid-height exhibits a higher growth rate compared to the branch near\nthe surfaces. Surface modes generally grow rapidly and require a high radial\nwave number $k_R$, whereas body mode growth rates increase as $k_R$ decreases.\nThermal stratification enhances the growth rates of both surface and body modes\nand boosts VSI-driven radial kinetic energy relative to vertical energy. Our\nresults suggest that simulations will initially favor surface modes with large\n$k_R$, followed by an increase in body modes with smaller $k_R$, with faster\nprogression in more thermal stratified disks.\n",
+  "subjects": [
+    "Astrophysics/Earth and Planetary Astrophysics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "M58n57TdFuIRpeWkO7-l9Y0DzrTXXCNt-g2T9xGJrik",
+  "pdfSize": "869944"
+}

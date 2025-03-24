@@ -1,0 +1,32 @@
+{
+  "id": "2412.09828",
+  "title": "MSC: Multi-Scale Spatio-Temporal Causal Attention for Autoregressive\n  Video Diffusion",
+  "authors": "Xunnong Xu, Mengying Cao",
+  "authorsParsed": [
+    [
+      "Xu",
+      "Xunnong",
+      ""
+    ],
+    [
+      "Cao",
+      "Mengying",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 13 Dec 2024 03:39:09 GMT"
+    }
+  ],
+  "updateDate": "2024-12-16",
+  "timestamp": 1734061149000,
+  "abstract": "  Diffusion transformers enable flexible generative modeling for video.\nHowever, it is still technically challenging and computationally expensive to\ngenerate high-resolution videos with rich semantics and complex motion. Similar\nto languages, video data are also auto-regressive by nature, so it is\ncounter-intuitive to use attention mechanism with bi-directional dependency in\nthe model. Here we propose a Multi-Scale Causal (MSC) framework to address\nthese problems. Specifically, we introduce multiple resolutions in the spatial\ndimension and high-low frequencies in the temporal dimension to realize\nefficient attention calculation. Furthermore, attention blocks on multiple\nscales are combined in a controlled way to allow causal conditioning on noisy\nimage frames for diffusion training, based on the idea that noise destroys\ninformation at different rates on different resolutions. We theoretically show\nthat our approach can greatly reduce the computational complexity and enhance\nthe efficiency of training. The causal attention diffusion framework can also\nbe used for auto-regressive long video generation, without violating the\nnatural order of frame sequences.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "LnqGIM0xxF9-jJEh5QFDle1872CtSFWUYZJe3aULPE0",
+  "pdfSize": "505566"
+}

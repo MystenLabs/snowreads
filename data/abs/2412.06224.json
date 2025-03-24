@@ -1,0 +1,72 @@
+{
+  "id": "2412.06224",
+  "title": "Uni-NaVid: A Video-based Vision-Language-Action Model for Unifying\n  Embodied Navigation Tasks",
+  "authors": "Jiazhao Zhang, Kunyu Wang, Shaoan Wang, Minghan Li, Haoran Liu,\n  Songlin Wei, Zhongyuan Wang, Zhizheng Zhang, He Wang",
+  "authorsParsed": [
+    [
+      "Zhang",
+      "Jiazhao",
+      ""
+    ],
+    [
+      "Wang",
+      "Kunyu",
+      ""
+    ],
+    [
+      "Wang",
+      "Shaoan",
+      ""
+    ],
+    [
+      "Li",
+      "Minghan",
+      ""
+    ],
+    [
+      "Liu",
+      "Haoran",
+      ""
+    ],
+    [
+      "Wei",
+      "Songlin",
+      ""
+    ],
+    [
+      "Wang",
+      "Zhongyuan",
+      ""
+    ],
+    [
+      "Zhang",
+      "Zhizheng",
+      ""
+    ],
+    [
+      "Wang",
+      "He",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 9 Dec 2024 05:55:55 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Thu, 6 Feb 2025 10:14:36 GMT"
+    }
+  ],
+  "updateDate": "2025-02-07",
+  "timestamp": 1733723755000,
+  "abstract": "  A practical navigation agent must be capable of handling a wide range of\ninteraction demands, such as following instructions, searching objects,\nanswering questions, tracking people, and more. Existing models for embodied\nnavigation fall short of serving as practical generalists in the real world, as\nthey are often constrained by specific task configurations or pre-defined maps\nwith discretized waypoints. In this work, we present Uni-NaVid, the first\nvideo-based vision-language-action (VLA) model designed to unify diverse\nembodied navigation tasks and enable seamless navigation for mixed long-horizon\ntasks in unseen real-world environments. Uni-NaVid achieves this by harmonizing\nthe input and output data configurations for all commonly used embodied\nnavigation tasks and thereby integrating all tasks in one model. For training\nUni-NaVid, we collect 3.6 million navigation data samples in total from four\nessential navigation sub-tasks and foster synergy in learning across them.\nExtensive experiments on comprehensive navigation benchmarks clearly\ndemonstrate the advantages of unification modeling in Uni-NaVid and show it\nachieves state-of-the-art performance. Additionally, real-world experiments\nconfirm the model's effectiveness and efficiency, shedding light on its strong\ngeneralizability.\n",
+  "subjects": [
+    "Computer Science/Robotics",
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "QU-yj4Und8E97_NlguzKAGpfGoy53OWQk0DaGoVyVZM",
+  "pdfSize": "25024361"
+}

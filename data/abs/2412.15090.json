@@ -1,0 +1,32 @@
+{
+  "id": "2412.15090",
+  "title": "Expected Tracking Performance of the ATLAS Inner Tracker at the\n  High-Luminosity LHC",
+  "authors": "ATLAS Collaboration",
+  "authorsParsed": [
+    [
+      "ATLAS Collaboration",
+      "",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 19 Dec 2024 17:38:04 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Mon, 24 Feb 2025 18:47:33 GMT"
+    }
+  ],
+  "updateDate": "2025-02-25",
+  "timestamp": 1734629884000,
+  "abstract": "  The high-luminosity phase of LHC operations (HL-LHC), will feature a large\nincrease in simultaneous proton-proton interactions per bunch crossing up to\n200, compared with a typical leveling target of 64 in Run 3. Such an increase\nwill create a very challenging environment in which to perform charged particle\ntrajectory reconstruction, a task crucial for the success of the ATLAS physics\nprogram, and will exceed the capabilities of the current ATLAS Inner Detector\n(ID). A new all-silicon Inner Tracker (ITk) will replace the current ID in time\nfor the start of the HL-LHC. To ensure successful use of the ITk capabilities\nin Run 4 and beyond, the ATLAS tracking software has been successfully adapted\nto achieve state-of-the-art track reconstruction in challenging high-luminosity\nconditions with the ITk detector. This paper presents the expected tracking\nperformance of the ATLAS ITk based on the latest available developments since\nthe ITk technical design reports.\n",
+  "subjects": [
+    "Physics/High Energy Physics - Experiment",
+    "Physics/Instrumentation and Detectors"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "LBS6WiuOC7GxMqmbVYh7Q_X8dmH50Mq_TyO3iOpK8Co",
+  "pdfSize": "3914837"
+}

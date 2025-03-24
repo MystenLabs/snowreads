@@ -1,0 +1,98 @@
+{
+  "id": "2412.10450",
+  "title": "Regional Weather Variable Predictions by Machine Learning with\n  Near-Surface Observational and Atmospheric Numerical Data",
+  "authors": "Yihe Zhang, Bryce Turney, Purushottam Sigdel, Xu Yuan, Eric Rappin,\n  Adrian Lago, Sytske Kimball, Li Chen, Paul Darby, Lu Peng, Sercan Aygun,\n  Yazhou Tu, M. Hassan Najafi, and Nian-Feng Tzeng",
+  "authorsParsed": [
+    [
+      "Zhang",
+      "Yihe",
+      ""
+    ],
+    [
+      "Turney",
+      "Bryce",
+      ""
+    ],
+    [
+      "Sigdel",
+      "Purushottam",
+      ""
+    ],
+    [
+      "Yuan",
+      "Xu",
+      ""
+    ],
+    [
+      "Rappin",
+      "Eric",
+      ""
+    ],
+    [
+      "Lago",
+      "Adrian",
+      ""
+    ],
+    [
+      "Kimball",
+      "Sytske",
+      ""
+    ],
+    [
+      "Chen",
+      "Li",
+      ""
+    ],
+    [
+      "Darby",
+      "Paul",
+      ""
+    ],
+    [
+      "Peng",
+      "Lu",
+      ""
+    ],
+    [
+      "Aygun",
+      "Sercan",
+      ""
+    ],
+    [
+      "Tu",
+      "Yazhou",
+      ""
+    ],
+    [
+      "Najafi",
+      "M. Hassan",
+      ""
+    ],
+    [
+      "Tzeng",
+      "Nian-Feng",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 11 Dec 2024 23:55:38 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Mon, 10 Feb 2025 22:39:17 GMT"
+    }
+  ],
+  "updateDate": "2025-02-12",
+  "timestamp": 1733961338000,
+  "abstract": "  Accurate and timely regional weather prediction is vital for sectors\ndependent on weather-related decisions. Traditional prediction methods, based\non atmospheric equations, often struggle with coarse temporal resolutions and\ninaccuracies. This paper presents a novel machine learning (ML) model, called\nMiMa (short for Micro-Macro), that integrates both near-surface observational\ndata from Kentucky Mesonet stations (collected every five minutes, known as\nMicro data) and hourly atmospheric numerical outputs (termed as Macro data) for\nfine-resolution weather forecasting. The MiMa model employs an encoder-decoder\ntransformer structure, with two encoders for processing multivariate data from\nboth datasets and a decoder for forecasting weather variables over short time\nhorizons. Each instance of the MiMa model, called a modelet, predicts the\nvalues of a specific weather parameter at an individual Mesonet station. The\napproach is extended with Re-MiMa modelets, which are designed to predict\nweather variables at ungauged locations by training on multivariate data from a\nfew representative stations in a region, tagged with their elevations. Re-MiMa\n(short for Regional-MiMa) can provide highly accurate predictions across an\nentire region, even in areas without observational stations. Experimental\nresults show that MiMa significantly outperforms current models, with Re-MiMa\noffering precise short-term forecasts for ungauged locations, marking a\nsignificant advancement in weather forecasting accuracy and applicability.\n",
+  "subjects": [
+    "Physics/Atmospheric and Oceanic Physics",
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "-R1Jx4B4-jxhrTKDVCN25F_V1KL3HZ6FcTZyB7Ay6Wg",
+  "pdfSize": "10289716"
+}

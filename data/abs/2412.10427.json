@@ -1,0 +1,42 @@
+{
+  "id": "2412.10427",
+  "title": "Identifying and Manipulating Personality Traits in LLMs Through\n  Activation Engineering",
+  "authors": "Rumi A. Allbert and James K. Wiles and Vlad Grankovsky",
+  "authorsParsed": [
+    [
+      "Allbert",
+      "Rumi A.",
+      ""
+    ],
+    [
+      "Wiles",
+      "James K.",
+      ""
+    ],
+    [
+      "Grankovsky",
+      "Vlad",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 10 Dec 2024 23:15:25 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Fri, 10 Jan 2025 22:26:26 GMT"
+    }
+  ],
+  "updateDate": "2025-01-14",
+  "timestamp": 1733872525000,
+  "abstract": "  The field of large language models (LLMs) has grown rapidly in recent years,\ndriven by the desire for better efficiency, interpretability, and safe use.\nBuilding on the novel approach of \"activation engineering,\" this study explores\npersonality modification in LLMs, drawing inspiration from research like\nRefusal in LLMs Is Mediated by a Single Direction (arXiv:2406.11717) and\nSteering Llama 2 via Contrastive Activation Addition (arXiv:2312.06681). We\nleverage activation engineering to develop a method for identifying and\nadjusting activation directions related to personality traits, which may allow\nfor dynamic LLM personality fine-tuning. This work aims to further our\nunderstanding of LLM interpretability while examining the ethical implications\nof such developments.\n",
+  "subjects": [
+    "Computer Science/Computation and Language",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "Fa3HG-dcYcDeEpRt30WH-GVz6l3URJ75yuTFMm1RmJg",
+  "pdfSize": "13533408"
+}

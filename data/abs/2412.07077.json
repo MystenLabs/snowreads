@@ -1,0 +1,42 @@
+{
+  "id": "2412.07077",
+  "title": "Retaining and Enhancing Pre-trained Knowledge in Vision-Language Models\n  with Prompt Ensembling",
+  "authors": "Donggeun Kim, Yujin Jo, Myungjoo Lee, Taesup Kim",
+  "authorsParsed": [
+    [
+      "Kim",
+      "Donggeun",
+      ""
+    ],
+    [
+      "Jo",
+      "Yujin",
+      ""
+    ],
+    [
+      "Lee",
+      "Myungjoo",
+      ""
+    ],
+    [
+      "Kim",
+      "Taesup",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 10 Dec 2024 00:40:31 GMT"
+    }
+  ],
+  "updateDate": "2024-12-11",
+  "timestamp": 1733791231000,
+  "abstract": "  The advancement of vision-language models, particularly the Contrastive\nLanguage-Image Pre-training (CLIP) model, has revolutionized the field of\nmachine learning by enabling robust zero-shot learning capabilities. These\ncapabilities allow models to understand and respond to previously unseen data\nwithout task-specific training. However, adapting CLIP to integrate specialized\nknowledge from various domains while retaining its zero-shot capabilities\nremains a significant challenge. To address this, we introduce a novel prompt\nensemble learning approach called Group-wise Prompt Ensemble (GPE). This method\naims to enhance CLIP's zero-shot capabilities by incorporating new domain\nknowledge while improving its adaptability and robustness against data\ndistribution shifts. Our approach hinges on three main strategies: prompt\ngrouping with masked attention to optimize CLIP's adaptability while\nsafeguarding its zero-shot capabilities; the incorporation of auxiliary prompts\nfor the seamless integration of new domain insights without disrupting the\noriginal model's representation; and an ensemble learning strategy that\neffectively merges original and new knowledge. Through rigorous\nexperimentation, including more challenging cross-dataset transfer evaluations,\nour GPE method redefines the benchmarks for the adaptability and efficiency of\nvision-language models, surpassing existing models across various scenarios.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "tmWpMXLJTpdRtqJs01MFOwSspZnv4_ZfWPfOT_jkpyA",
+  "pdfSize": "780115"
+}

@@ -1,0 +1,41 @@
+{
+  "id": "2412.02216",
+  "title": "An extended analytical wake model and applications to yawed wind\n  turbines in atmospheric boundary layers with different levels of\n  stratification and veer",
+  "authors": "Ghanesh Narasimhan, Dennice F. Gayme, and Charles Meneveau",
+  "authorsParsed": [
+    [
+      "Narasimhan",
+      "Ghanesh",
+      ""
+    ],
+    [
+      "Gayme",
+      "Dennice F.",
+      ""
+    ],
+    [
+      "Meneveau",
+      "Charles",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 3 Dec 2024 07:14:31 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Sun, 15 Dec 2024 13:55:07 GMT"
+    }
+  ],
+  "updateDate": "2024-12-17",
+  "timestamp": 1733210071000,
+  "abstract": "  Analytical wake models provide a computationally efficient means to predict\nvelocity distributions in wind turbine wakes in the atmospheric boundary layer\n(ABL). Most existing models are developed for neutral atmospheric conditions\nand correspondingly neglect the effects of buoyancy and Coriolis forces that\nlead to veer, i.e. changes in the wind direction with height. Both veer and\nchanges in thermal stratification lead to lateral shearing of the wake behind a\nwind turbine, which affects the power output of downstream turbines. Here we\ndevelop an analytical engineering wake model for a wind turbine in yaw in ABL\nflows including Coriolis and thermal stratification effects. The model combines\nthe new analytical representation of ABL vertical structure based on coupling\nEkman and surface layer descriptions (Narasimhan, Gayme, and Meneveau, 2024a)\nwith the vortex sheet-based wake model for yawed turbines (Bastankhah et al.,\n2022), as well as a new method to predict the wake expansion rate based on the\nTownsend-Perry logarithmic scaling of streamwise velocity variance. The\nproposed wake model's predictions show good agreement with Large Eddy\nSimulation (LES) results, capturing the effects of wind veer and yawing\nincluding the curled and sheared wake structures across various states of the\nABL, ranging from neutrally to strongly stably stratified atmospheric\nconditions. The model significantly improves power loss predictions from wake\ninteractions, especially in strongly stably stratified conditions where wind\nveer effects dominate.\n",
+  "subjects": [
+    "Physics/Fluid Dynamics"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "1xxRIZG6LbwR7-S6bJeEyCyFMuxx0LoYW5QZh3Uhebo",
+  "pdfSize": "5259098"
+}

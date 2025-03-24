@@ -1,0 +1,37 @@
+{
+  "id": "2412.15970",
+  "title": "actifpTM: a refined confidence metric of AlphaFold2 predictions\n  involving flexible regions",
+  "authors": "Julia K. Varga, Sergey Ovchinnikov, Ora Schueler-Furman",
+  "authorsParsed": [
+    [
+      "Varga",
+      "Julia K.",
+      ""
+    ],
+    [
+      "Ovchinnikov",
+      "Sergey",
+      ""
+    ],
+    [
+      "Schueler-Furman",
+      "Ora",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 20 Dec 2024 15:14:24 GMT"
+    }
+  ],
+  "updateDate": "2024-12-23",
+  "timestamp": 1734707664000,
+  "abstract": "  One of the main advantages of deep learning models of protein structure, such\nas Alphafold2, is their ability to accurately estimate the confidence of a\ngenerated structural model, which allows us to focus on highly confident\npredictions.The ipTM score provides a confidence estimate of interchain\ncontacts in protein-protein interactions. However, interactions, in particular\nmotif-mediated interactions, often also contain regions that remain flexible\nupon binding. These non-interacting flanking regions are assigned low\nconfidence values and will affect iPTM, as it considers all interchain residue\npairs, and two models of the same motif-domain interaction, but differing in\nthe length of their flanking regions, would be assigned very different values.\nHere we propose actifpTM (actual interface pTM), a modified ipTM measure, that\nfocuses on the confident region of an interaction, resulting in a more robust\nmeasure of interaction confidence, even when not the full interaction is\nstructured. actifpTM has been incorporated into ColabFold.\n",
+  "subjects": [
+    "Quantitative Biology/Quantitative Methods"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "5Z-1fSXQe_SJ02ybiMCN37H09zuRpZ0MShqWm8l7aH8",
+  "pdfSize": "3614300"
+}

@@ -1,0 +1,43 @@
+{
+  "id": "2412.02845",
+  "title": "Optimized IoT Intrusion Detection using Machine Learning Technique",
+  "authors": "Muhammad Zawad Mahmud, Samiha Islam, Shahran Rahman Alve and Al\n  Jubayer Pial",
+  "authorsParsed": [
+    [
+      "Mahmud",
+      "Muhammad Zawad",
+      ""
+    ],
+    [
+      "Islam",
+      "Samiha",
+      ""
+    ],
+    [
+      "Alve",
+      "Shahran Rahman",
+      ""
+    ],
+    [
+      "Pial",
+      "Al Jubayer",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 3 Dec 2024 21:23:54 GMT"
+    }
+  ],
+  "updateDate": "2024-12-05",
+  "timestamp": 1733261034000,
+  "abstract": "  An application of software known as an Intrusion Detection System (IDS)\nemploys machine algorithms to identify network intrusions. Selective logging,\nsafeguarding privacy, reputation-based defense against numerous attacks, and\ndynamic response to threats are a few of the problems that intrusion\nidentification is used to solve. The biological system known as IoT has seen a\nrapid increase in high dimensionality and information traffic. Self-protective\nmechanisms like intrusion detection systems (IDSs) are essential for defending\nagainst a variety of attacks. On the other hand, the functional and physical\ndiversity of IoT IDS systems causes significant issues. These attributes make\nit troublesome and unrealistic to completely use all IoT elements and\nproperties for IDS self-security. For peculiarity-based IDS, this study\nproposes and implements a novel component selection and extraction strategy\n(our strategy). A five-ML algorithm model-based IDS for machine learning-based\nnetworks with proper hyperparamater tuning is presented in this paper by\nexamining how the most popular feature selection methods and classifiers are\ncombined, such as K-Nearest Neighbors (KNN) Classifier, Decision Tree (DT)\nClassifier, Random Forest (RF) Classifier, Gradient Boosting Classifier, and\nAda Boost Classifier. The Random Forest (RF) classifier had the highest\naccuracy of 99.39%. The K-Nearest Neighbor (KNN) classifier exhibited the\nlowest performance among the evaluated models, achieving an accuracy of 94.84%.\nThis study's models have a significantly higher performance rate than those\nused in previous studies, indicating that they are more reliable.\n",
+  "subjects": [
+    "Computer Science/Cryptography and Security",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "6nXV1k2ZNu0JVCXdrr5CJ5D0MZdoeEcMtHLyd5EfTvU",
+  "pdfSize": "401442"
+}

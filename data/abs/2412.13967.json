@@ -1,0 +1,52 @@
+{
+  "id": "2412.13967",
+  "title": "THz Channels for Short-Range Mobile Networks: Multipath Clusters and\n  Human Body Shadowing",
+  "authors": "Minseok Kim, Jun-ichi Takada, Minghe Mao, Che Chia Kang, Xin Du, and\n  Anirban Ghosh",
+  "authorsParsed": [
+    [
+      "Kim",
+      "Minseok",
+      ""
+    ],
+    [
+      "Takada",
+      "Jun-ichi",
+      ""
+    ],
+    [
+      "Mao",
+      "Minghe",
+      ""
+    ],
+    [
+      "Kang",
+      "Che Chia",
+      ""
+    ],
+    [
+      "Du",
+      "Xin",
+      ""
+    ],
+    [
+      "Ghosh",
+      "Anirban",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 18 Dec 2024 15:47:22 GMT"
+    }
+  ],
+  "updateDate": "2024-12-19",
+  "timestamp": 1734536842000,
+  "abstract": "  The THz band (0.1-10 THz) is emerging as a crucial enabler for\nsixth-generation (6G) mobile communication systems, overcoming the limitations\nof current technologies and unlocking new opportunities for low-latency and\nultra-high-speed communications by utilizing several tens of GHz transmission\nbandwidths. However, extremely high spreading losses and other interaction\nlosses pose significant challenges to establishing wide-area communication\ncoverage, while human body shadowing further complicates maintaining stable\ncommunication links. Although point-to-point (P2P) fixed wireless access in the\nTHz band has been successfully demonstrated, realizing fully mobile and\nreliable wireless access remains a challenge due to numerous issues to be\nsolved for highly directional communication. To provide insights into the\ndesign of THz communication systems, this article addresses the challenges\nassociated with THz short-range mobile access networks. It offers an overview\nof recent findings on the environment-dependence of multipath cluster channel\nproperties and the impact of human body shadowing, based on measurements at 300\nGHz using a double-directional high-resolution channel sounder and a motion\ncapture-integrated channel sounder.\n",
+  "subjects": [
+    "Electrical Engineering and Systems Science/Signal Processing"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "xhHb0lK3agR_9Rh-vTWAdmRK8Op_zfZfnHEkM66D57I",
+  "pdfSize": "2809797"
+}

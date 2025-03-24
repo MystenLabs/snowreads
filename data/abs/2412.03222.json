@@ -1,0 +1,117 @@
+{
+  "id": "2412.03222",
+  "title": "Building Europe's first space-based Quantum Key Distribution system --\n  The German Aerospace Center's role in the EAGLE-1 mission",
+  "authors": "Gabriela Calistro Rivera, Oliver Heirich, Amita Shrestha, Agnes\n  Ferenczi, Alexandru Duliu, Jakob Eppinger, Bruno Femenia Castella, Christian\n  Fuchs, Elisa Garbagnati, Douglas Laidlaw, Pia L\\\"utzen, Innocenzo De Marco,\n  Florian Moll, Johannes Prell, Andrew Reeves, Jorge Rosano Nonay, Christian\n  Roubal, Joana S. Torres, Matthias Wagner",
+  "authorsParsed": [
+    [
+      "Rivera",
+      "Gabriela Calistro",
+      ""
+    ],
+    [
+      "Heirich",
+      "Oliver",
+      ""
+    ],
+    [
+      "Shrestha",
+      "Amita",
+      ""
+    ],
+    [
+      "Ferenczi",
+      "Agnes",
+      ""
+    ],
+    [
+      "Duliu",
+      "Alexandru",
+      ""
+    ],
+    [
+      "Eppinger",
+      "Jakob",
+      ""
+    ],
+    [
+      "Castella",
+      "Bruno Femenia",
+      ""
+    ],
+    [
+      "Fuchs",
+      "Christian",
+      ""
+    ],
+    [
+      "Garbagnati",
+      "Elisa",
+      ""
+    ],
+    [
+      "Laidlaw",
+      "Douglas",
+      ""
+    ],
+    [
+      "Lützen",
+      "Pia",
+      ""
+    ],
+    [
+      "De Marco",
+      "Innocenzo",
+      ""
+    ],
+    [
+      "Moll",
+      "Florian",
+      ""
+    ],
+    [
+      "Prell",
+      "Johannes",
+      ""
+    ],
+    [
+      "Reeves",
+      "Andrew",
+      ""
+    ],
+    [
+      "Nonay",
+      "Jorge Rosano",
+      ""
+    ],
+    [
+      "Roubal",
+      "Christian",
+      ""
+    ],
+    [
+      "Torres",
+      "Joana S.",
+      ""
+    ],
+    [
+      "Wagner",
+      "Matthias",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 4 Dec 2024 11:17:22 GMT"
+    }
+  ],
+  "updateDate": "2024-12-05",
+  "timestamp": 1733311042000,
+  "abstract": "  The EAGLE-1 mission aims to develop Europe's first sovereign, end-to-end\nspace-based quantum key distribution (QKD) system. The mission is led by the\nEuropean Space Agency (ESA) and SES in collaboration with several European\nNational Space Agencies and private partners. The state-of-the-art QKD system\nwill consist of a payload on board the EAGLE-1 low Earth orbit (LEO) satellite,\noptical ground stations, quantum operational networks, and key management\nsystem. The EAGLE-1 mission represents a major step for next-generation quantum\ncommunication infrastructures, delivering valuable technical results and\nmission data. The Institute of Communications and Navigation (IKN) of the\nGerman Aerospace Center (DLR) is a key partner in the EAGLE-1 mission and is\ninvolved in the research and development of elements in both space and ground\nsegments. Here we report on the development of the QKD transmitter, a vital\npart of the QKD payload, and the customization of the Optical Ground Station\nOberpfaffenhofen (OGS-OP) to conduct the IOT phase of EAGLE-1. For the space\nsegment, DLR-IKN is in charge of the design of the QKD transmitter, including\nthe development of the software and firmware. This transmitter generates\nquantum states which are used to implement a QKD protocol based on an optical\nsignal, that will be transmitted to ground. For the ground segment, The OGS-OP\nwill serve as the in-orbit testing ground station for EAGLE-1. Building upon\nthe expertise with a range of satellites for quantum communication, as well as\nnew implementations, OGS-OP will validate the performance of the payload,\noptical link and QKD system for the first time. We present the main\ndevelopments of OGS-OP for the mission, which includes the implementation of an\nupgraded adaptive optics system to correct for atmospheric distortions and\noptimize the coupling of the incoming light into a single mode optical fiber.\n",
+  "subjects": [
+    "Physics/Quantum Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "ndus7Aid3hGqsHhdgOS6iaQEYVVYFBT80xx63YyUviA",
+  "pdfSize": "8715490"
+}

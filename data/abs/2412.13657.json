@@ -1,0 +1,42 @@
+{
+  "id": "2412.13657",
+  "title": "The large $|U|$ expansion for a half-filled asymmetric Hubbard model on\n  a triangular ladder in the presence of spin-dependent magnetic flux",
+  "authors": "Shota Garuchava, Bachana Beradze, Tatia Sharia and G.I. Japaridze",
+  "authorsParsed": [
+    [
+      "Garuchava",
+      "Shota",
+      ""
+    ],
+    [
+      "Beradze",
+      "Bachana",
+      ""
+    ],
+    [
+      "Sharia",
+      "Tatia",
+      ""
+    ],
+    [
+      "Japaridze",
+      "G. I.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 18 Dec 2024 09:36:33 GMT"
+    }
+  ],
+  "updateDate": "2024-12-19",
+  "timestamp": 1734514593000,
+  "abstract": "  We consider a half-filled system of spin-1/2 fermions with spin-dependent\nhopping on a triangular ladder in the presence of spin-dependent flux\npenetrating the lattice. Using the Schrieffer-Wolff transformation, we derive\nan effective spin (pseudospin i.e.\\ charge) Hamiltonian describing the infrared\nproperties of the system in the limit of strong on-site repulsion (attraction).\nThe expansion is performed up to the third order in the hopping amplitude over\non-site energy. It is shown that the low-energy spin (charge) excitations are\ndescribed by an anisotropic ${\\gamma \\geqslant 1}$ $XXZ$ Heisenberg model with\nDzyaloshinskii-Moriya interaction and an unconventional three-spin (correlated\nexchange) term in the presence of an extended magnetic field. The magnetic\nfield couples not only to $z$-projection of the total spin on a triangular\nplaquette but also to the product of $z$-components of three spins located on\nvertices of the triangle. In the limiting case of spin-symmetric flux, the\nmagnetic field and the Dzyaloshinskii-Moriya term are absent and the three-spin\nterm reduces to the standard scalar spin chirality term $\\sim \\mathbf{S}_i\n\\cdot\\left[\\mathbf{S}_j \\times \\mathbf{S}_k\\right]$. In the case of strong\nattractive interaction, the corresponding effective model is derived from the\nrepulsive one using the one-spin-component particle-hole transformation. The\neffective Hamiltonian is given by the same $XXZ$ Heisenberg model, as in the\nrepulsive case, but in terms of pseudospin ($\\eta$-charge) operators. The\nmagnetic field and the Dzyaloshinskii-Moriya term vanish in the limit of\nanti-symmetric flux (modulo $\\pi$) configuration. In the latter case the\nthree-spin coupling term is given by the scalar pseudospin chirality operator\n$\\sim \\mathbf{\\eta}_i \\cdot \\left[\\mathbf{\\eta}_j \\times\n\\mathbf{\\eta}_k\\right]$.\n",
+  "subjects": [
+    "Condensed Matter/Strongly Correlated Electrons"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "4iWgLwmyyQy8_Bvf-pDttM46GvjqpKvxasX9aLBJzwg",
+  "pdfSize": "277264"
+}

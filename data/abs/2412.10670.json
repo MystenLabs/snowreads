@@ -1,0 +1,49 @@
+{
+  "id": "2412.10670",
+  "title": "Magnisketch Drone Control",
+  "authors": "Ashley Kline, Abirami Elangovan, Dominique Escandon, Scott Wade,\n  Aatish Gupta",
+  "authorsParsed": [
+    [
+      "Kline",
+      "Ashley",
+      ""
+    ],
+    [
+      "Elangovan",
+      "Abirami",
+      ""
+    ],
+    [
+      "Escandon",
+      "Dominique",
+      ""
+    ],
+    [
+      "Wade",
+      "Scott",
+      ""
+    ],
+    [
+      "Gupta",
+      "Aatish",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 14 Dec 2024 04:18:22 GMT"
+    }
+  ],
+  "updateDate": "2024-12-17",
+  "timestamp": 1734149902000,
+  "abstract": "  The use of Unmanned Aerial Vehicles (UAVs) for aerial tasks and environmental\nmanipulation is increasingly desired. This can be demonstrated via art tasks.\nThis paper presents the development of Magnasketch, capable of translating\nimage inputs into art on a magnetic drawing board via a Bitcraze Crazyflie 2.0\nquadrotor. Optimal trajectories were generated using a Model Predictive Control\n(MPC) formulation newly incorporating magnetic force dynamics. A Z-compliant\nmagnetic drawing apparatus was designed for the quadrotor. Experimental results\nof the novel controller tested against the existing Position High Level\nCommander showed comparable performance. Although slightly outperformed in\nterms of error, with average errors of 3.9 cm, 4.4 cm, and 0.5 cm in x, y, and\nz respectively, the Magnasketch controller produced smoother drawings with the\nadded benefit of full state control.\n",
+  "subjects": [
+    "Computer Science/Robotics",
+    "Computer Science/Systems and Control",
+    "Electrical Engineering and Systems Science/Systems and Control"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "s73JBD6au8MjYZ6LJ1KAR45a3Nf4uDzOUSTDr1gDMHM",
+  "pdfSize": "10963371"
+}

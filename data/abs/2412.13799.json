@@ -1,0 +1,38 @@
+{
+  "id": "2412.13799",
+  "title": "Enhancing Rhetorical Figure Annotation: An Ontology-Based Web\n  Application with RAG Integration",
+  "authors": "Ramona K\\\"uhn, Jelena Mitrovi\\'c, Michael Granitzer",
+  "authorsParsed": [
+    [
+      "Kühn",
+      "Ramona",
+      ""
+    ],
+    [
+      "Mitrović",
+      "Jelena",
+      ""
+    ],
+    [
+      "Granitzer",
+      "Michael",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 18 Dec 2024 12:45:55 GMT"
+    }
+  ],
+  "updateDate": "2024-12-19",
+  "timestamp": 1734525955000,
+  "abstract": "  Rhetorical figures play an important role in our communication. They are used\nto convey subtle, implicit meaning, or to emphasize statements. We notice them\nin hate speech, fake news, and propaganda. By improving the systems for\ncomputational detection of rhetorical figures, we can also improve tasks such\nas hate speech and fake news detection, sentiment analysis, opinion mining, or\nargument mining. Unfortunately, there is a lack of annotated data, as well as\nqualified annotators that would help us build large corpora to train machine\nlearning models for the detection of rhetorical figures. The situation is\nparticularly difficult in languages other than English, and for rhetorical\nfigures other than metaphor, sarcasm, and irony. To overcome this issue, we\ndevelop a web application called \"Find your Figure\" that facilitates the\nidentification and annotation of German rhetorical figures. The application is\nbased on the German Rhetorical ontology GRhOOT which we have specially adapted\nfor this purpose. In addition, we improve the user experience with Retrieval\nAugmented Generation (RAG). In this paper, we present the restructuring of the\nontology, the development of the web application, and the built-in RAG\npipeline. We also identify the optimal RAG settings for our application. Our\napproach is one of the first to practically use rhetorical ontologies in\ncombination with RAG and shows promising results.\n",
+  "subjects": [
+    "Computer Science/Computation and Language",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "AfJbXAIijz-WwjVORxQ3RlNjlIBkJ7oK1qQeMmmBSXc",
+  "pdfSize": "599960"
+}

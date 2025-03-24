@@ -1,0 +1,47 @@
+{
+  "id": "2412.09922",
+  "title": "Low-Resource Fast Text Classification Based on Intra-Class and\n  Inter-Class Distance Calculation",
+  "authors": "Yanxu Mao, Peipei Liu, Tiehan Cui, Congying Liu, Datao You",
+  "authorsParsed": [
+    [
+      "Mao",
+      "Yanxu",
+      ""
+    ],
+    [
+      "Liu",
+      "Peipei",
+      ""
+    ],
+    [
+      "Cui",
+      "Tiehan",
+      ""
+    ],
+    [
+      "Liu",
+      "Congying",
+      ""
+    ],
+    [
+      "You",
+      "Datao",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 13 Dec 2024 07:22:13 GMT"
+    }
+  ],
+  "updateDate": "2024-12-16",
+  "timestamp": 1734074533000,
+  "abstract": "  In recent years, text classification methods based on neural networks and\npre-trained models have gained increasing attention and demonstrated excellent\nperformance. However, these methods still have some limitations in practical\napplications: (1) They typically focus only on the matching similarity between\nsentences. However, there exists implicit high-value information both within\nsentences of the same class and across different classes, which is very crucial\nfor classification tasks. (2) Existing methods such as pre-trained language\nmodels and graph-based approaches often consume substantial memory for training\nand text-graph construction. (3) Although some low-resource methods can achieve\ngood performance, they often suffer from excessively long processing times. To\naddress these challenges, we propose a low-resource and fast text\nclassification model called LFTC. Our approach begins by constructing a\ncompressor list for each class to fully mine the regularity information within\nintra-class data. We then remove redundant information irrelevant to the target\nclassification to reduce processing time. Finally, we compute the similarity\ndistance between text pairs for classification. We evaluate LFTC on 9 publicly\navailable benchmark datasets, and the results demonstrate significant\nimprovements in performance and processing time, especially under limited\ncomputational and data resources, highlighting its superior advantages.\n",
+  "subjects": [
+    "Computer Science/Computation and Language"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "mVVRa7_4W_UKJON0xaUIhWCOT9n9NF8yZAmQepeff7c",
+  "pdfSize": "486703"
+}

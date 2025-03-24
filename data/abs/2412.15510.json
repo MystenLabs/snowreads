@@ -1,0 +1,38 @@
+{
+  "id": "2412.15510",
+  "title": "ADEQA: A Question Answer based approach for joint ADE-Suspect Extraction\n  using Sequence-To-Sequence Transformers",
+  "authors": "Vinayak Arannil, Tomal Deb, Atanu Roy",
+  "authorsParsed": [
+    [
+      "Arannil",
+      "Vinayak",
+      ""
+    ],
+    [
+      "Deb",
+      "Tomal",
+      ""
+    ],
+    [
+      "Roy",
+      "Atanu",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 20 Dec 2024 02:48:59 GMT"
+    }
+  ],
+  "updateDate": "2024-12-23",
+  "timestamp": 1734662939000,
+  "abstract": "  Early identification of Adverse Drug Events (ADE) is critical for taking\nprompt actions while introducing new drugs into the market. These ADEs\ninformation are available through various unstructured data sources like\nclinical study reports, patient health records, social media posts, etc.\nExtracting ADEs and the related suspect drugs using machine learning is a\nchallenging task due to the complex linguistic relations between drug ADE pairs\nin textual data and unavailability of large corpus of labelled datasets. This\npaper introduces ADEQA, a question-answer(QA) based approach using quasi\nsupervised labelled data and sequence-to-sequence transformers to extract ADEs,\ndrug suspects and the relationships between them. Unlike traditional QA models,\nnatural language generation (NLG) based models don't require extensive token\nlevel labelling and thereby reduces the adoption barrier significantly. On a\npublic ADE corpus, we were able to achieve state-of-the-art results with an F1\nscore of 94% on establishing the relationships between ADEs and the respective\nsuspects.\n",
+  "subjects": [
+    "Computer Science/Computation and Language",
+    "Computer Science/Information Retrieval"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "Zdn9nekNxN2Y8ZCr2rHEjV6t0XjzD0ItBQrwoqEf7vI",
+  "pdfSize": "7874845"
+}

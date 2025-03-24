@@ -1,0 +1,32 @@
+{
+  "id": "2412.16793",
+  "title": "Mostowski Index via extended register games",
+  "authors": "Olivier Idir and Karoliina Lehtinen",
+  "authorsParsed": [
+    [
+      "Idir",
+      "Olivier",
+      ""
+    ],
+    [
+      "Lehtinen",
+      "Karoliina",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 21 Dec 2024 22:29:20 GMT"
+    }
+  ],
+  "updateDate": "2024-12-24",
+  "timestamp": 1734820160000,
+  "abstract": "  The parity index problem of tree automata asks, given a regular tree language\nL, what is the least number of priorities of a nondeterministic parity tree\nautomaton that recognises L. This is a long-standing open problem, also known\nas the Mostowski or Rabin-Mostowski index problem, of which only a few\nsub-cases and variations are known to be decidable. In a significant step,\nColcombet and L\\\"oding reduced the problem to the uniform universality of\ndistance-parity automata. In this brief note, we present a similar result, with\na simplified proof, based on on the games in Lehtinen's quasipolynomial\nalgorithm for parity games.\n  We define an extended version of these games, which we call parity\ntransduction games, which take as parameters a parity index J and an integer\nbound N. We show that the language of a guidable automaton A is recognised by a\nnondeterministic automaton of index J if and only if there is a bound N such\nthat the parity transduction game with parameters J and N captures membership\nof the language, that is, for all trees t, Eve wins the parity transduction\ngame on the acceptance parity game of t in A if and only in t is in L(A).\n",
+  "subjects": [
+    "Computer Science/Formal Languages and Automata Theory"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "Z1ad_YDywn9QojM4KSrTLLrAysmL_Da32TO-yeLJ1vo",
+  "pdfSize": "191152"
+}

@@ -1,0 +1,34 @@
+{
+  "id": "2412.06831",
+  "title": "TransitGPT: A Generative AI-based framework for interacting with GTFS\n  data using Large Language Models",
+  "authors": "Saipraneeth Devunuri, Lewis Lehe",
+  "authorsParsed": [
+    [
+      "Devunuri",
+      "Saipraneeth",
+      ""
+    ],
+    [
+      "Lehe",
+      "Lewis",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 7 Dec 2024 00:35:41 GMT"
+    }
+  ],
+  "updateDate": "2024-12-11",
+  "timestamp": 1733531741000,
+  "abstract": "  This paper introduces a framework that leverages Large Language Models (LLMs)\nto answer natural language queries about General Transit Feed Specification\n(GTFS) data. The framework is implemented in a chatbot called TransitGPT with\nopen-source code. TransitGPT works by guiding LLMs to generate Python code that\nextracts and manipulates GTFS data relevant to a query, which is then executed\non a server where the GTFS feed is stored. It can accomplish a wide range of\ntasks, including data retrieval, calculations, and interactive visualizations,\nwithout requiring users to have extensive knowledge of GTFS or programming. The\nLLMs that produce the code are guided entirely by prompts, without fine-tuning\nor access to the actual GTFS feeds. We evaluate TransitGPT using GPT-4o and\nClaude-3.5-Sonnet LLMs on a benchmark dataset of 100 tasks, to demonstrate its\neffectiveness and versatility. The results show that TransitGPT can\nsignificantly enhance the accessibility and usability of transit data.\n",
+  "subjects": [
+    "Computer Science/Computation and Language",
+    "Computer Science/Artificial Intelligence",
+    "Statistics/Applications"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "DyVsWEOYZJAYbg6zkPEM30ZsN9XHvNzYx7_cpnDvqIM",
+  "pdfSize": "3024182"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2412.02790",
+  "title": "An Evolutionary Large Language Model for Hallucination Mitigation",
+  "authors": "Abdennour Boulesnane and Abdelhakim Souilah",
+  "authorsParsed": [
+    [
+      "Boulesnane",
+      "Abdennour",
+      ""
+    ],
+    [
+      "Souilah",
+      "Abdelhakim",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 3 Dec 2024 19:40:13 GMT"
+    }
+  ],
+  "updateDate": "2024-12-05",
+  "timestamp": 1733254813000,
+  "abstract": "  The emergence of LLMs, like ChatGPT and Gemini, has marked the modern era of\nartificial intelligence applications characterized by high-impact applications\ngenerating text, images, and videos. However, these models usually ensue with\none critical challenge called hallucination: confident presentation of\ninaccurate or fabricated information. This problem attracts serious concern\nwhen these models are applied to specialized domains, including healthcare and\nlaw, where the accuracy and preciseness of information are absolute conditions.\nIn this paper, we propose EvoLLMs, an innovative framework inspired by\nEvolutionary Computation, which automates the generation of high-quality\nQuestion-answering (QA) datasets while minimizing hallucinations. EvoLLMs\nemploys genetic algorithms, mimicking evolutionary processes like selection,\nvariation, and mutation, to guide LLMs in generating accurate, contextually\nrelevant question-answer pairs. Comparative analysis shows that EvoLLMs\nconsistently outperforms human-generated datasets in key metrics such as Depth,\nRelevance, and Coverage, while nearly matching human performance in mitigating\nhallucinations. These results highlight EvoLLMs as a robust and efficient\nsolution for QA dataset generation, significantly reducing the time and\nresources required for manual curation.\n",
+  "subjects": [
+    "Computer Science/Computation and Language",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "UpnVloIwH0SNbJygjE15A66XHWt6klR6roIF5nPcrlo",
+  "pdfSize": "1726889"
+}

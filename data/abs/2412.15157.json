@@ -1,0 +1,67 @@
+{
+  "id": "2412.15157",
+  "title": "Centimetre-Scale Micro-Transfer Printing to enable Heterogeneous\n  Integration of Thin Film Lithium Niobate with Silicon Photonics",
+  "authors": "Margot Niels, Tom Vanackere, Tom Vandekerckhove, Stijn Poelman, Tom\n  Reep, G\\\"unther Roelkens, Maximilien Billet, Bart Kuyken",
+  "authorsParsed": [
+    [
+      "Niels",
+      "Margot",
+      ""
+    ],
+    [
+      "Vanackere",
+      "Tom",
+      ""
+    ],
+    [
+      "Vandekerckhove",
+      "Tom",
+      ""
+    ],
+    [
+      "Poelman",
+      "Stijn",
+      ""
+    ],
+    [
+      "Reep",
+      "Tom",
+      ""
+    ],
+    [
+      "Roelkens",
+      "Günther",
+      ""
+    ],
+    [
+      "Billet",
+      "Maximilien",
+      ""
+    ],
+    [
+      "Kuyken",
+      "Bart",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 19 Dec 2024 18:32:46 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Thu, 20 Feb 2025 18:16:57 GMT"
+    }
+  ],
+  "updateDate": "2025-02-21",
+  "timestamp": 1734633166000,
+  "abstract": "  The integrated photonics CMOS-compatible silicon nitride (SiN) platform is\npraised for its low propagation loss, but is limited by its lack of active\nfunctionalities such as a strong Pockels coefficient and intrinsic \\c{hi}(2)\nnonlinearity. In this paper, we demonstrate the integration of centimetre-long\nthin-film lithium niobate (TFLN) devices on a SiN platform using the\nmicro-transfer printing (uTP) method. At a wavelength of 1550 nm, propagation\nlosses of approximately 0.9 dB/cm and transition losses of 1.8 dB per facet\nwere measured. Furthermore, the TFLN was integrated into an imbalanced\npush-pull Mach-Zehnder modulator, achieving a V{\\pi} of 3.2 V. The\nelectro-optics nature of the observed modulation is confirmed by measuring the\ndevice up to 35 GHz, showing that the printing does not affect the high-speed\nLN properties.\n",
+  "subjects": [
+    "Physics/Optics",
+    "Physics/Applied Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "yKSu_ED1D-Y3cAW2_GNxM5SDRiO_sPI5PUZwyA3Ri1U",
+  "pdfSize": "1392432"
+}

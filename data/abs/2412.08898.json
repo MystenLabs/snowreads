@@ -1,0 +1,53 @@
+{
+  "id": "2412.08898",
+  "title": "Updated version \"Robust Voltage Regulation of DC-DC Buck Converter With\n  ZIP Load via An Energy Shaping Control Approach\"",
+  "authors": "Wei He, Yanqin Zhang, Yukai Shang, Mohammad Masoud Namazi, Wangping\n  Zhou, Josep M. Guerrero",
+  "authorsParsed": [
+    [
+      "He",
+      "Wei",
+      ""
+    ],
+    [
+      "Zhang",
+      "Yanqin",
+      ""
+    ],
+    [
+      "Shang",
+      "Yukai",
+      ""
+    ],
+    [
+      "Namazi",
+      "Mohammad Masoud",
+      ""
+    ],
+    [
+      "Zhou",
+      "Wangping",
+      ""
+    ],
+    [
+      "Guerrero",
+      "Josep M.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 12 Dec 2024 03:24:02 GMT"
+    }
+  ],
+  "updateDate": "2024-12-13",
+  "timestamp": 1733973842000,
+  "abstract": "  ZIP loads (the parallel combination of constant impedance loads, constant\ncurrent loads and constant power loads) exist widely in power system. In order\nto stabilize buck converter based DC distributed system with ZIP load, an\nadaptive energy shaping controller (AESC) is devised in this paper. Firstly,\nbased on the assumption that lumped disturbances are known, a full information\ncontroller is designed in the framework of the port Hamiltonian system via\nenergy shaping technique. Besides, using mathematical deductive method, an\nestimation of the domain of attraction is given to ensure the strict stability.\nFurthermore, to eliminate the influence of parameter perturbations on the\nsystem, a disturbance observer is proposed to reconstruct the lumped\ndisturbances and then the estimated terms are introduced to above controller to\nform an AESC scheme. In addition, the stability analysis of the closed-loop\nsystem is given. Lastly, the simulation and experiment results are presented\nfor assessing the designed controller.\n",
+  "subjects": [
+    "Electrical Engineering and Systems Science/Systems and Control",
+    "Computer Science/Systems and Control"
+  ],
+  "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+  "blobId": "66JQbBjCFTuV7nZlUvQc0BYjV29uyx4gg-q9VsIAncU",
+  "pdfSize": "3067857"
+}

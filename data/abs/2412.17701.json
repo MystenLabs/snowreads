@@ -1,0 +1,71 @@
+{
+  "id": "2412.17701",
+  "title": "From Models to Microtheories: Distilling a Model's Topical Knowledge for\n  Grounded Question Answering",
+  "authors": "Nathaniel Weir, Bhavana Dalvi Mishra, Orion Weller, Oyvind Tafjord,\n  Sam Hornstein, Alexander Sabol, Peter Jansen, Benjamin Van Durme, Peter Clark",
+  "authorsParsed": [
+    [
+      "Weir",
+      "Nathaniel",
+      ""
+    ],
+    [
+      "Mishra",
+      "Bhavana Dalvi",
+      ""
+    ],
+    [
+      "Weller",
+      "Orion",
+      ""
+    ],
+    [
+      "Tafjord",
+      "Oyvind",
+      ""
+    ],
+    [
+      "Hornstein",
+      "Sam",
+      ""
+    ],
+    [
+      "Sabol",
+      "Alexander",
+      ""
+    ],
+    [
+      "Jansen",
+      "Peter",
+      ""
+    ],
+    [
+      "Van Durme",
+      "Benjamin",
+      ""
+    ],
+    [
+      "Clark",
+      "Peter",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 23 Dec 2024 16:32:55 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Tue, 24 Dec 2024 03:23:24 GMT"
+    }
+  ],
+  "updateDate": "2024-12-25",
+  "timestamp": 1734971575000,
+  "abstract": "  Recent reasoning methods (e.g., chain-of-thought, entailment reasoning) help\nusers understand how language models (LMs) answer a single question, but they\ndo little to reveal the LM's overall understanding, or \"theory,\" about the\nquestion's topic, making it still hard to trust the model. Our goal is to\nmaterialize such theories - here called microtheories (a linguistic analog of\nlogical microtheories) - as a set of sentences encapsulating an LM's core\nknowledge about a topic. These statements systematically work together to\nentail answers to a set of questions to both engender trust and improve\nperformance. Our approach is to first populate a knowledge store with\n(model-generated) sentences that entail answers to training questions and then\ndistill those down to a core microtheory that is concise, general, and\nnon-redundant. We show that, when added to a general corpus (e.g., Wikipedia),\nmicrotheories can supply critical, topical information not necessarily present\nin the corpus, improving both a model's ability to ground its answers to\nverifiable knowledge (i.e., show how answers are systematically entailed by\ndocuments in the corpus, fully grounding up to +8% more answers), and the\naccuracy of those grounded answers (up to +8% absolute). We also show that, in\na human evaluation in the medical domain, our distilled microtheories contain a\nsignificantly higher concentration of topically critical facts than the\nnon-distilled knowledge store. Finally, we show we can quantify the coverage of\na microtheory for a topic (characterized by a dataset) using a notion of\n$p$-relevance. Together, these suggest that microtheories are an efficient\ndistillation of an LM's topic-relevant knowledge, that they can usefully\naugment existing corpora, and can provide both performance gains and an\ninterpretable, verifiable window into the model's knowledge of a topic.\n",
+  "subjects": [
+    "Computer Science/Computation and Language"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "VI83LuElbq5vkfqiP5fiNuRtnBVfCQiuAb5ecXowMmk",
+  "pdfSize": "1705458"
+}

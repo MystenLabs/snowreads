@@ -1,0 +1,48 @@
+{
+  "id": "2412.11480",
+  "title": "Data-driven Precipitation Nowcasting Using Satellite Imagery",
+  "authors": "Young-Jae Park, Doyi Kim, Minseok Seo, Hae-Gon Jeon, Yeji Choi",
+  "authorsParsed": [
+    [
+      "Park",
+      "Young-Jae",
+      ""
+    ],
+    [
+      "Kim",
+      "Doyi",
+      ""
+    ],
+    [
+      "Seo",
+      "Minseok",
+      ""
+    ],
+    [
+      "Jeon",
+      "Hae-Gon",
+      ""
+    ],
+    [
+      "Choi",
+      "Yeji",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 16 Dec 2024 06:48:30 GMT"
+    }
+  ],
+  "updateDate": "2024-12-17",
+  "timestamp": 1734331710000,
+  "abstract": "  Accurate precipitation forecasting is crucial for early warnings of\ndisasters, such as floods and landslides. Traditional forecasts rely on\nground-based radar systems, which are space-constrained and have high\nmaintenance costs. Consequently, most developing countries depend on a global\nnumerical model with low resolution, instead of operating their own radar\nsystems. To mitigate this gap, we propose the Neural Precipitation Model (NPM),\nwhich uses global-scale geostationary satellite imagery. NPM predicts\nprecipitation for up to six hours, with an update every hour. We take three key\nchannels to discriminate rain clouds as input: infrared radiation (at a\nwavelength of 10.5 $\\mu m$), upper- (6.3 $\\mu m$), and lower- (7.3 $\\mu m$)\nlevel water vapor channels. Additionally, NPM introduces positional encoders to\ncapture seasonal and temporal patterns, accounting for variations in\nprecipitation. Our experimental results demonstrate that NPM can predict\nrainfall in real-time with a resolution of 2 km. The code and dataset are\navailable at\nhttps://github.com/seominseok0429/Data-driven-Precipitation-Nowcasting-Using-Satellite-Imagery.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Electrical Engineering and Systems Science/Image and Video Processing"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "ltKaTPhGJK8JO_zEavIL50DmEa3idcnzdPRItyRck_o",
+  "pdfSize": "21724966"
+}

@@ -1,0 +1,39 @@
+{
+  "id": "2412.05097",
+  "title": "Born-Oppenheimer Renormalization group for High Energy Scattering: CSS,\n  DGLAP and all that",
+  "authors": "Haowu Duan, Alex Kovner and Michael Lublinsky",
+  "authorsParsed": [
+    [
+      "Duan",
+      "Haowu",
+      ""
+    ],
+    [
+      "Kovner",
+      "Alex",
+      ""
+    ],
+    [
+      "Lublinsky",
+      "Michael",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 6 Dec 2024 14:53:54 GMT"
+    }
+  ],
+  "updateDate": "2024-12-09",
+  "timestamp": 1733496834000,
+  "abstract": "  In \\cite{one}, we have introduced the Born-Oppenheimer (BO) renormalization\ngroup approach to high energy hadronic collisions and derived the BO\napproximation for the light cone wave function of a fast moving projectile\nhadron. In this second paper, we utilize this wave function to derive the BO\nevolution of partonic distributions in the hadron -- the gluon transverse\nmomentum and integrated parton distributions (TMD and PDF respectively). The\nevolution equation for the TMD contains a linear and a nonlinear term. The\nlinear term reproduces the Collins-Soper-Sterman (CSS) equation with a physical\nrelation between the transverse and longitudinal resolution scales. We explain\nhow this equivalence arises, even though the BO and CSS cascades are somewhat\ndifferent in structures. The nonlinear term in the evolution has a very\nappealing physical meaning: it is a correction due to stimulated emission,\nwhich enhances emission of gluons (bosons) into states with a nonzero\noccupation.\n  For the evolution of the PDF we again find a linear and nonlinear term. At\nnot very small Bjorken $x$, the linear term recovers the DGLAP equation in the\nleading logarithmic approximation. At small $x$ however there are contributions\nfrom gluon splittings which are in the BFKL kinematics leading to a\nmodification of the DGLAP equation. The nonlinear terms have the same physical\norigin as in the equation for the TMD -- the stimulated emission corrections.\nInterestingly the nonlinear corrections are the most important for the virtual\nterms, so that the net correction to the DGLAP is negative and mimics\nshadowing, although the physical origin of the nonlinearity is very different.\n",
+  "subjects": [
+    "Physics/High Energy Physics - Phenomenology",
+    "Physics/High Energy Physics - Theory",
+    "Physics/Nuclear Theory"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "Agi7mIRJS3N5mWfKPnW-RRf9cFcX3asW8gXjjFgHMmc",
+  "pdfSize": "385911"
+}

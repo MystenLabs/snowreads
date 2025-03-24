@@ -1,0 +1,42 @@
+{
+  "id": "2412.14568",
+  "title": "Improving Geometry in Sparse-View 3DGS via Reprojection-based DoF\n  Separation",
+  "authors": "Yongsung Kim, Minjun Park, Jooyoung Choi, Sungroh Yoon",
+  "authorsParsed": [
+    [
+      "Kim",
+      "Yongsung",
+      ""
+    ],
+    [
+      "Park",
+      "Minjun",
+      ""
+    ],
+    [
+      "Choi",
+      "Jooyoung",
+      ""
+    ],
+    [
+      "Yoon",
+      "Sungroh",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 19 Dec 2024 06:39:28 GMT"
+    }
+  ],
+  "updateDate": "2024-12-20",
+  "timestamp": 1734590368000,
+  "abstract": "  Recent learning-based Multi-View Stereo models have demonstrated\nstate-of-the-art performance in sparse-view 3D reconstruction. However,\ndirectly applying 3D Gaussian Splatting (3DGS) as a refinement step following\nthese models presents challenges. We hypothesize that the excessive positional\ndegrees of freedom (DoFs) in Gaussians induce geometry distortion, fitting\ncolor patterns at the cost of structural fidelity. To address this, we propose\nreprojection-based DoF separation, a method distinguishing positional DoFs in\nterms of uncertainty: image-plane-parallel DoFs and ray-aligned DoF. To\nindependently manage each DoF, we introduce a reprojection process along with\ntailored constraints for each DoF. Through experiments across various datasets,\nwe confirm that separating the positional DoFs of Gaussians and applying\ntargeted constraints effectively suppresses geometric artifacts, producing\nreconstruction results that are both visually and geometrically plausible.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "GO3XVwUEzzbIHFP0AkVARhpoxTI2NEz0XqS91nCp8Ks",
+  "pdfSize": "9506694"
+}

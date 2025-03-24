@@ -1,0 +1,52 @@
+{
+  "id": "2412.09105",
+  "title": "ResFlow: Fine-tuning Residual Optical Flow for Event-based High Temporal\n  Resolution Motion Estimation",
+  "authors": "Qianang Zhou, Zhiyu Zhu, Junhui Hou, Yongjian Deng, Youfu Li, Junlin\n  Xiong",
+  "authorsParsed": [
+    [
+      "Zhou",
+      "Qianang",
+      ""
+    ],
+    [
+      "Zhu",
+      "Zhiyu",
+      ""
+    ],
+    [
+      "Hou",
+      "Junhui",
+      ""
+    ],
+    [
+      "Deng",
+      "Yongjian",
+      ""
+    ],
+    [
+      "Li",
+      "Youfu",
+      ""
+    ],
+    [
+      "Xiong",
+      "Junlin",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 12 Dec 2024 09:35:47 GMT"
+    }
+  ],
+  "updateDate": "2024-12-13",
+  "timestamp": 1733996147000,
+  "abstract": "  Event cameras hold significant promise for high-temporal-resolution (HTR)\nmotion estimation. However, estimating event-based HTR optical flow faces two\nkey challenges: the absence of HTR ground-truth data and the intrinsic sparsity\nof event data. Most existing approaches rely on the flow accumulation paradigms\nto indirectly supervise intermediate flows, often resulting in accumulation\nerrors and optimization difficulties. To address these challenges, we propose a\nresidual-based paradigm for estimating HTR optical flow with event data. Our\napproach separates HTR flow estimation into two stages: global linear motion\nestimation and HTR residual flow refinement. The residual paradigm effectively\nmitigates the impacts of event sparsity on optimization and is compatible with\nany LTR algorithm. Next, to address the challenge posed by the absence of HTR\nground truth, we incorporate novel learning strategies. Specifically, we\ninitially employ a shared refiner to estimate the residual flows, enabling both\nLTR supervision and HTR inference. Subsequently, we introduce regional noise to\nsimulate the residual patterns of intermediate flows, facilitating the\nadaptation from LTR supervision to HTR inference. Additionally, we show that\nthe noise-based strategy supports in-domain self-supervised training.\nComprehensive experimental results demonstrate that our approach achieves\nstate-of-the-art accuracy in both LTR and HTR metrics, highlighting its\neffectiveness and superiority.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by-sa/4.0/",
+  "blobId": "dA8BdYoEKvQyCpf46jmlGu1y0OpacSFcy72YKGrucwE",
+  "pdfSize": "15477636"
+}

@@ -1,0 +1,54 @@
+{
+  "id": "2412.09126",
+  "title": "Enhancing Modality Representation and Alignment for Multimodal\n  Cold-start Active Learning",
+  "authors": "Meng Shen, Yake Wei, Jianxiong Yin, Deepu Rajan, Di Hu, Simon See",
+  "authorsParsed": [
+    [
+      "Shen",
+      "Meng",
+      ""
+    ],
+    [
+      "Wei",
+      "Yake",
+      ""
+    ],
+    [
+      "Yin",
+      "Jianxiong",
+      ""
+    ],
+    [
+      "Rajan",
+      "Deepu",
+      ""
+    ],
+    [
+      "Hu",
+      "Di",
+      ""
+    ],
+    [
+      "See",
+      "Simon",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 12 Dec 2024 10:03:46 GMT"
+    }
+  ],
+  "updateDate": "2024-12-13",
+  "timestamp": 1733997826000,
+  "abstract": "  Training multimodal models requires a large amount of labeled data. Active\nlearning (AL) aim to reduce labeling costs. Most AL methods employ warm-start\napproaches, which rely on sufficient labeled data to train a well-calibrated\nmodel that can assess the uncertainty and diversity of unlabeled data. However,\nwhen assembling a dataset, labeled data are often scarce initially, leading to\na cold-start problem. Additionally, most AL methods seldom address multimodal\ndata, highlighting a research gap in this field. Our research addresses these\nissues by developing a two-stage method for Multi-Modal Cold-Start Active\nLearning (MMCSAL).\n  Firstly, we observe the modality gap, a significant distance between the\ncentroids of representations from different modalities, when only using\ncross-modal pairing information as self-supervision signals. This modality gap\naffects data selection process, as we calculate both uni-modal and cross-modal\ndistances. To address this, we introduce uni-modal prototypes to bridge the\nmodality gap. Secondly, conventional AL methods often falter in multimodal\nscenarios where alignment between modalities is overlooked. Therefore, we\npropose enhancing cross-modal alignment through regularization, thereby\nimproving the quality of selected multimodal data pairs in AL. Finally, our\nexperiments demonstrate MMCSAL's efficacy in selecting multimodal data pairs\nacross three multimodal datasets.\n",
+  "subjects": [
+    "Computer Science/Multimedia",
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "jy_6ghOwUBfnFxpCgWa7TRu7XjUxTKkZfr8MWFh7jzo",
+  "pdfSize": "1335369"
+}

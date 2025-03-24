@@ -1,0 +1,31 @@
+{
+  "id": "2412.02494",
+  "title": "On the hit problem for the polynomial algebra and the algebraic transfer",
+  "authors": "Dang Vo Phuc",
+  "authorsParsed": [
+    [
+      "Phuc",
+      "Dang Vo",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 3 Dec 2024 15:13:52 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Tue, 17 Dec 2024 08:04:14 GMT"
+    }
+  ],
+  "updateDate": "2024-12-18",
+  "timestamp": 1733238832000,
+  "abstract": "  This paper investigates Singer's conjecture by examining the cohit module\n$\\mathbb F_2\\otimes_{\\mathcal A}P^{\\otimes h}$ for specific degrees and values\nof $h$. Utilizing hit problem techniques, we extend previous work by Mothebe et\nal. and establish key dimensional results. Notably, for $h\\geq 6$, we prove\nthat the cohit module's dimension in certain degrees matches the order of a\nspecific factor group. Our contributions include demonstrating that certain\nnon-zero elements do not belong to the image of the Singer algebraic transfer.\n",
+  "subjects": [
+    "Mathematics/Algebraic Topology"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "19Sey7AR0sxn_6v9t1tgjs9FDsxkUw2UKLJFLTLf77o",
+  "pdfSize": "543210"
+}

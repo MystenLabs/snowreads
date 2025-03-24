@@ -1,0 +1,33 @@
+{
+  "id": "2412.12358",
+  "title": "BioRAGent: A Retrieval-Augmented Generation System for Showcasing\n  Generative Query Expansion and Domain-Specific Search for Scientific Q&A",
+  "authors": "Samy Ateia, Udo Kruschwitz",
+  "authorsParsed": [
+    [
+      "Ateia",
+      "Samy",
+      ""
+    ],
+    [
+      "Kruschwitz",
+      "Udo",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 16 Dec 2024 21:09:28 GMT"
+    }
+  ],
+  "updateDate": "2024-12-18",
+  "timestamp": 1734383368000,
+  "abstract": "  We present BioRAGent, an interactive web-based retrieval-augmented generation\n(RAG) system for biomedical question answering. The system uses large language\nmodels (LLMs) for query expansion, snippet extraction, and answer generation\nwhile maintaining transparency through citation links to the source documents\nand displaying generated queries for further editing. Building on our\nsuccessful participation in the BioASQ 2024 challenge, we demonstrate how\nfew-shot learning with LLMs can be effectively applied for a professional\nsearch setting. The system supports both direct short paragraph style responses\nand responses with inline citations. Our demo is available online, and the\nsource code is publicly accessible through GitHub.\n",
+  "subjects": [
+    "Computer Science/Computation and Language",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "vOZoPsrMEdIJzd6y1CjEkhP3Kd1eLp6fVDWYaJthUcY",
+  "pdfSize": "379008"
+}

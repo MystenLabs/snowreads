@@ -1,0 +1,33 @@
+{
+  "id": "2412.08301",
+  "title": "Enhancing Cybersecurity in IoT Networks: A Deep Learning Approach to\n  Anomaly Detection",
+  "authors": "Yining Pang and Chenghan Li",
+  "authorsParsed": [
+    [
+      "Pang",
+      "Yining",
+      ""
+    ],
+    [
+      "Li",
+      "Chenghan",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 11 Dec 2024 11:31:05 GMT"
+    }
+  ],
+  "updateDate": "2024-12-12",
+  "timestamp": 1733916665000,
+  "abstract": "  With the proliferation of the Internet and smart devices, IoT technology has\nseen significant advancements and has become an integral component of smart\nhomes, urban security, smart logistics, and other sectors. IoT facilitates\nreal-time monitoring of critical production indicators, enabling businesses to\ndetect potential quality issues, anticipate equipment malfunctions, and refine\nprocesses, thereby minimizing losses and reducing costs. Furthermore, IoT\nenhances real-time asset tracking, optimizing asset utilization and management.\nHowever, the expansion of IoT has also led to a rise in cybercrimes, with\ndevices increasingly serving as vectors for malicious attacks. As the number of\nIoT devices grows, there is an urgent need for robust network security measures\nto counter these escalating threats. This paper introduces a deep learning\nmodel incorporating LSTM and attention mechanisms, a pivotal strategy in\ncombating cybercrime in IoT networks. Our experiments, conducted on datasets\nincluding IoT-23, BoT-IoT, IoT network intrusion, MQTT, and MQTTset,\ndemonstrate that our proposed method outperforms existing baselines.\n",
+  "subjects": [
+    "Computer Science/Cryptography and Security",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "RscojhOdyDhWzEP5USpuxuBkdNjOlGCWPkG-XbvJcu4",
+  "pdfSize": "690184"
+}

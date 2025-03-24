@@ -1,0 +1,49 @@
+{
+  "id": "2412.07684",
+  "title": "The Pitfalls of Memorization: When Memorization Hurts Generalization",
+  "authors": "Reza Bayat, Mohammad Pezeshki, Elvis Dohmatob, David Lopez-Paz, Pascal\n  Vincent",
+  "authorsParsed": [
+    [
+      "Bayat",
+      "Reza",
+      ""
+    ],
+    [
+      "Pezeshki",
+      "Mohammad",
+      ""
+    ],
+    [
+      "Dohmatob",
+      "Elvis",
+      ""
+    ],
+    [
+      "Lopez-Paz",
+      "David",
+      ""
+    ],
+    [
+      "Vincent",
+      "Pascal",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 10 Dec 2024 17:18:33 GMT"
+    }
+  ],
+  "updateDate": "2024-12-11",
+  "timestamp": 1733851113000,
+  "abstract": "  Neural networks often learn simple explanations that fit the majority of the\ndata while memorizing exceptions that deviate from these explanations.This\nbehavior leads to poor generalization when the learned explanations rely on\nspurious correlations. In this work, we formalize the interplay between\nmemorization and generalization, showing that spurious correlations would\nparticularly lead to poor generalization when are combined with memorization.\nMemorization can reduce training loss to zero, leaving no incentive to learn\nrobust, generalizable patterns. To address this, we propose memorization-aware\ntraining (MAT), which uses held-out predictions as a signal of memorization to\nshift a model's logits. MAT encourages learning robust patterns invariant\nacross distributions, improving generalization under distribution shifts.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Computer Science/Artificial Intelligence",
+    "Statistics/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "-_KN3fk-UtO_2gYOL4UIrZHLReWG3t5Zbbr77U6ksiY",
+  "pdfSize": "3565268"
+}

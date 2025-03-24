@@ -1,0 +1,46 @@
+{
+  "id": "2412.03709",
+  "title": "Securing RC Based P2P Networks: A Blockchain-based Access Control\n  Framework utilizing Ethereum Smart Contracts for IoT and Web 3.0",
+  "authors": "Saurav Ghosh, Reshmi Mitra, Indranil Roy, Bidyut Gupta",
+  "authorsParsed": [
+    [
+      "Ghosh",
+      "Saurav",
+      ""
+    ],
+    [
+      "Mitra",
+      "Reshmi",
+      ""
+    ],
+    [
+      "Roy",
+      "Indranil",
+      ""
+    ],
+    [
+      "Gupta",
+      "Bidyut",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 4 Dec 2024 20:56:52 GMT"
+    }
+  ],
+  "updateDate": "2024-12-06",
+  "timestamp": 1733345812000,
+  "abstract": "  Ensuring security for highly dynamic peer-to-peer (P2P) networks has always\nbeen a challenge, especially for services like online transactions and smart\ndevices. These networks experience high churn rates, making it difficult to\nmaintain appropriate access control. Traditional systems, particularly\nRole-Based Access Control (RBAC), often fail to meet the needs of a P2P\nenvironment. This paper presents a blockchain-based access control framework\nthat uses Ethereum smart contracts to address these challenges. Our framework\naims to close the gaps in existing access control systems by providing\nflexible, transparent, and decentralized security solutions. The proposed\nframework includes access control contracts (ACC) that manage access based on\nstatic and dynamic policies, a Judge Contract (JC) to handle misbehavior, and a\nRegister Contract (RC) to record and manage the interactions between ACCs and\nJC. The security model combines impact and severity-based threat assessments\nusing the CIA (Confidentiality, Integrity, Availability) and STRIDE principles,\nensuring responses are tailored to different threat levels. This system not\nonly stabilizes the fundamental issues of peer membership but also offers a\nscalable solution, particularly valuable in areas such as the Internet of\nThings (IoT) and Web 3.0 technologies.\n",
+  "subjects": [
+    "Computer Science/Cryptography and Security",
+    "Computer Science/Distributed, Parallel, and Cluster Computing",
+    "Computer Science/Networking and Internet Architecture",
+    "Computer Science/Systems and Control",
+    "Electrical Engineering and Systems Science/Systems and Control"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "tMHRVMPg9z8yDItlbUzChiQPiu2hzrIpm9qv-50ggTA",
+  "pdfSize": "453608"
+}

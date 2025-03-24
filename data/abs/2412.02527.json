@@ -1,0 +1,169 @@
+{
+  "id": "2412.02527",
+  "title": "The Multimodal Universe: Enabling Large-Scale Machine Learning with\n  100TB of Astronomical Scientific Data",
+  "authors": "The Multimodal Universe Collaboration. Eirini Angeloudi, Jeroen\n  Audenaert, Micah Bowles, Benjamin M. Boyd, David Chemaly, Brian Cherinka,\n  Ioana Ciuc\\u{a}, Miles Cranmer, Aaron Do, Matthew Grayling, Erin E. Hayes,\n  Tom Hehir, Shirley Ho, Marc Huertas-Company, Kartheik G. Iyer, Maja\n  Jablonska, Francois Lanusse, Henry W. Leung, Kaisey Mandel, Juan Rafael\n  Mart\\'inez-Galarza, Peter Melchior, Lucas Meyer, Liam H. Parker, Helen Qu,\n  Jeff Shen, Michael J. Smith, Connor Stone, Mike Walmsley, John F. Wu",
+  "authorsParsed": [
+    [
+      "The Multimodal Universe Collaboration",
+      "",
+      ""
+    ],
+    [
+      "Audenaert",
+      "Jeroen",
+      ""
+    ],
+    [
+      "Bowles",
+      "Micah",
+      ""
+    ],
+    [
+      "Boyd",
+      "Benjamin M.",
+      ""
+    ],
+    [
+      "Chemaly",
+      "David",
+      ""
+    ],
+    [
+      "Cherinka",
+      "Brian",
+      ""
+    ],
+    [
+      "Ciucă",
+      "Ioana",
+      ""
+    ],
+    [
+      "Cranmer",
+      "Miles",
+      ""
+    ],
+    [
+      "Do",
+      "Aaron",
+      ""
+    ],
+    [
+      "Grayling",
+      "Matthew",
+      ""
+    ],
+    [
+      "Hayes",
+      "Erin E.",
+      ""
+    ],
+    [
+      "Hehir",
+      "Tom",
+      ""
+    ],
+    [
+      "Ho",
+      "Shirley",
+      ""
+    ],
+    [
+      "Huertas-Company",
+      "Marc",
+      ""
+    ],
+    [
+      "Iyer",
+      "Kartheik G.",
+      ""
+    ],
+    [
+      "Jablonska",
+      "Maja",
+      ""
+    ],
+    [
+      "Lanusse",
+      "Francois",
+      ""
+    ],
+    [
+      "Leung",
+      "Henry W.",
+      ""
+    ],
+    [
+      "Mandel",
+      "Kaisey",
+      ""
+    ],
+    [
+      "Martínez-Galarza",
+      "Juan Rafael",
+      ""
+    ],
+    [
+      "Melchior",
+      "Peter",
+      ""
+    ],
+    [
+      "Meyer",
+      "Lucas",
+      ""
+    ],
+    [
+      "Parker",
+      "Liam H.",
+      ""
+    ],
+    [
+      "Qu",
+      "Helen",
+      ""
+    ],
+    [
+      "Shen",
+      "Jeff",
+      ""
+    ],
+    [
+      "Smith",
+      "Michael J.",
+      ""
+    ],
+    [
+      "Stone",
+      "Connor",
+      ""
+    ],
+    [
+      "Walmsley",
+      "Mike",
+      ""
+    ],
+    [
+      "Wu",
+      "John F.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 3 Dec 2024 16:21:17 GMT"
+    }
+  ],
+  "updateDate": "2024-12-04",
+  "timestamp": 1733242877000,
+  "abstract": "  We present the MULTIMODAL UNIVERSE, a large-scale multimodal dataset of\nscientific astronomical data, compiled specifically to facilitate machine\nlearning research. Overall, the MULTIMODAL UNIVERSE contains hundreds of\nmillions of astronomical observations, constituting 100\\,TB of multi-channel\nand hyper-spectral images, spectra, multivariate time series, as well as a wide\nvariety of associated scientific measurements and \"metadata\". In addition, we\ninclude a range of benchmark tasks representative of standard practices for\nmachine learning methods in astrophysics. This massive dataset will enable the\ndevelopment of large multi-modal models specifically targeted towards\nscientific applications. All codes used to compile the MULTIMODAL UNIVERSE and\na description of how to access the data is available at\nhttps://github.com/MultimodalUniverse/MultimodalUniverse\n",
+  "subjects": [
+    "Astrophysics/Instrumentation and Methods for Astrophysics",
+    "Astrophysics/Astrophysics of Galaxies",
+    "Astrophysics/Solar and Stellar Astrophysics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "qNV2Ffr-V6Ei9css--ZAXgML8MKD43CiPJ-pJLC6Ma8",
+  "pdfSize": "7148370"
+}

@@ -1,0 +1,83 @@
+{
+  "id": "2412.17506",
+  "title": "Uncertainties of Satellite-based Essential Climate Variables from Deep\n  Learning",
+  "authors": "Junyang Gou, Arnt-B{\\o}rre Salberg, Mostafa Kiani Shahvandi, Mohammad\n  J. Tourian, Ulrich Meyer, Eva Boergens, Anders U. Waldeland, Isabella\n  Velicogna, Fredrik Dahl, Adrian J\\\"aggi, Konrad Schindler, Benedikt Soja",
+  "authorsParsed": [
+    [
+      "Gou",
+      "Junyang",
+      ""
+    ],
+    [
+      "Salberg",
+      "Arnt-Børre",
+      ""
+    ],
+    [
+      "Shahvandi",
+      "Mostafa Kiani",
+      ""
+    ],
+    [
+      "Tourian",
+      "Mohammad J.",
+      ""
+    ],
+    [
+      "Meyer",
+      "Ulrich",
+      ""
+    ],
+    [
+      "Boergens",
+      "Eva",
+      ""
+    ],
+    [
+      "Waldeland",
+      "Anders U.",
+      ""
+    ],
+    [
+      "Velicogna",
+      "Isabella",
+      ""
+    ],
+    [
+      "Dahl",
+      "Fredrik",
+      ""
+    ],
+    [
+      "Jäggi",
+      "Adrian",
+      ""
+    ],
+    [
+      "Schindler",
+      "Konrad",
+      ""
+    ],
+    [
+      "Soja",
+      "Benedikt",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 23 Dec 2024 12:05:22 GMT"
+    }
+  ],
+  "updateDate": "2024-12-24",
+  "timestamp": 1734955522000,
+  "abstract": "  Accurate uncertainty information associated with essential climate variables\n(ECVs) is crucial for reliable climate modeling and understanding the\nspatiotemporal evolution of the Earth system. In recent years, geoscience and\nclimate scientists have benefited from rapid progress in deep learning to\nadvance the estimation of ECV products with improved accuracy. However, the\nquantification of uncertainties associated with the output of such deep\nlearning models has yet to be thoroughly adopted. This survey explores the\ntypes of uncertainties associated with ECVs estimated from deep learning and\nthe techniques to quantify them. The focus is on highlighting the importance of\nquantifying uncertainties inherent in ECV estimates, considering the dynamic\nand multifaceted nature of climate data. The survey starts by clarifying the\ndefinition of aleatoric and epistemic uncertainties and their roles in a\ntypical satellite observation processing workflow, followed by bridging the gap\nbetween conventional statistical and deep learning views on uncertainties.\nThen, we comprehensively review the existing techniques for quantifying\nuncertainties associated with deep learning algorithms, focusing on their\napplication in ECV studies. The specific need for modification to fit the\nrequirements from both the Earth observation side and the deep learning side in\nsuch interdisciplinary tasks is discussed. Finally, we demonstrate our findings\nwith two ECV examples, snow cover and terrestrial water storage, and provide\nour perspectives for future research.\n",
+  "subjects": [
+    "Physics/Geophysics",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "a1vpScfyBqHobMA2DhNWneVJbhbg4jhlmgYX10mNgBE",
+  "pdfSize": "19906362"
+}

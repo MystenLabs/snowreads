@@ -1,0 +1,57 @@
+{
+  "id": "2412.11981",
+  "title": "Industrial-scale Prediction of Cement Clinker Phases using Machine\n  Learning",
+  "authors": "Sheikh Junaid Fayaz, Nestor Montiel-Bohorquez, Shashank Bishnoi,\n  Matteo Romano, Manuele Gatti, N. M. Anoop Krishnan",
+  "authorsParsed": [
+    [
+      "Fayaz",
+      "Sheikh Junaid",
+      ""
+    ],
+    [
+      "Montiel-Bohorquez",
+      "Nestor",
+      ""
+    ],
+    [
+      "Bishnoi",
+      "Shashank",
+      ""
+    ],
+    [
+      "Romano",
+      "Matteo",
+      ""
+    ],
+    [
+      "Gatti",
+      "Manuele",
+      ""
+    ],
+    [
+      "Krishnan",
+      "N. M. Anoop",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 16 Dec 2024 17:03:04 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Sun, 29 Dec 2024 01:03:00 GMT"
+    }
+  ],
+  "updateDate": "2024-12-31",
+  "timestamp": 1734368584000,
+  "abstract": "  Cement production, exceeding 4.1 billion tonnes and contributing 2.4 tonnes\nof CO2 annually, faces critical challenges in quality control and process\noptimization. While traditional process models for cement manufacturing are\nconfined to steady-state conditions with limited predictive capability for\nmineralogical phases, modern plants operate under dynamic conditions that\ndemand real-time quality assessment. Here, exploiting a comprehensive two-year\noperational dataset from an industrial cement plant, we present a machine\nlearning framework that accurately predicts clinker mineralogy from process\ndata. Our model achieves unprecedented prediction accuracy for major clinker\nphases while requiring minimal input parameters, demonstrating robust\nperformance under varying operating conditions. Through post-hoc explainable\nalgorithms, we interpret the hierarchical relationships between clinker oxides\nand phase formation, providing insights into the functioning of an otherwise\nblack-box model. This digital twin framework can potentially enable real-time\noptimization of cement production, thereby providing a route toward reducing\nmaterial waste and ensuring quality while reducing the associated emissions\nunder real plant conditions. Our approach represents a significant advancement\nin industrial process control, offering a scalable solution for sustainable\ncement manufacturing.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Condensed Matter/Materials Science"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "xw6LOo0tw6SEfDfVCOVSTaSj_Q7V7v5_vW8d1PrR8lw",
+  "pdfSize": "14839479"
+}

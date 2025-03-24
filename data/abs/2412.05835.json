@@ -1,0 +1,42 @@
+{
+  "id": "2412.05835",
+  "title": "Design of Piezoelectric Metastructures with Multi-Patch Isogeometric\n  Analysis for Enhanced Energy Harvesting and Vibration Suppression",
+  "authors": "Patricio Peralta-Braz, Mehrisadat Makki Alamdari, Mahbub Hassan and\n  Elena Atroshchenko",
+  "authorsParsed": [
+    [
+      "Peralta-Braz",
+      "Patricio",
+      ""
+    ],
+    [
+      "Alamdari",
+      "Mehrisadat Makki",
+      ""
+    ],
+    [
+      "Hassan",
+      "Mahbub",
+      ""
+    ],
+    [
+      "Atroshchenko",
+      "Elena",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 8 Dec 2024 06:50:43 GMT"
+    }
+  ],
+  "updateDate": "2024-12-10",
+  "timestamp": 1733640643000,
+  "abstract": "  Metastructures are engineered systems composed of periodic arrays of\nidentical components, called resonators, designed to achieve specific dynamic\neffects, such as creating a band gap-a frequency range where waves cannot\npropagate through the structure. When equipped with patches of piezoelectric\nmaterial, these metastructures exhibit an additional capability: they can\nharvest energy effectively even from frequencies much lower than the\nfundamental frequency of an individual resonator. This energy harvesting\ncapability is particularly valuable for applications where low-frequency\nvibrations dominate. To support the design of metastructures for dual purposes,\nsuch as energy harvesting and vibration suppression (reducing unwanted\noscillations in the structure), we develop a multi-patch isogeometric model of\na piezoelectric energy harvester. This model is based on a piezoelectric\nKirchhoff-Love plate-a thin, flexible structure with embedded piezoelectric\npatches-and uses Nitsche's method to enforce compatibility conditions in terms\nof displacement, rotations, shear force, and bending moments across the\nboundaries of different patches. The model is validated against experimental\nand numerical data from the literature. We then present a novel, parameterized\nmetastructure plate design and conduct a parametric study to explore how\nresonator geometries affect key performance metrics, including the location and\nwidth of the band gap and the position of the first peak in the voltage\nfrequency response function. This model can be integrated with optimization\nalgorithms to maximize outcomes such as energy harvesting efficiency or\nvibration reduction, depending on application needs.\n",
+  "subjects": [
+    "Computer Science/Computational Engineering, Finance, and Science"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "-aylDCfFf4fjoFK1iu8R0SYqYjdue6OgGHudbn-nqwI",
+  "pdfSize": "12189326"
+}

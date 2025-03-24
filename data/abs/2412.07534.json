@@ -1,0 +1,42 @@
+{
+  "id": "2412.07534",
+  "title": "ReCap: Better Gaussian Relighting with Cross-Environment Captures",
+  "authors": "Jingzhi Li, Zongwei Wu, Eduard Zamfir, Radu Timofte",
+  "authorsParsed": [
+    [
+      "Li",
+      "Jingzhi",
+      ""
+    ],
+    [
+      "Wu",
+      "Zongwei",
+      ""
+    ],
+    [
+      "Zamfir",
+      "Eduard",
+      ""
+    ],
+    [
+      "Timofte",
+      "Radu",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 10 Dec 2024 14:15:32 GMT"
+    }
+  ],
+  "updateDate": "2024-12-11",
+  "timestamp": 1733840132000,
+  "abstract": "  Accurate 3D objects relighting in diverse unseen environments is crucial for\nrealistic virtual object placement. Due to the albedo-lighting ambiguity,\nexisting methods often fall short in producing faithful relights. Without\nproper constraints, observed training views can be explained by numerous\ncombinations of lighting and material attributes, lacking physical\ncorrespondence with the actual environment maps used for relighting. In this\nwork, we present ReCap, treating cross-environment captures as multi-task\ntarget to provide the missing supervision that cuts through the entanglement.\nSpecifically, ReCap jointly optimizes multiple lighting representations that\nshare a common set of material attributes. This naturally harmonizes a coherent\nset of lighting representations around the mutual material attributes,\nexploiting commonalities and differences across varied object appearances. Such\ncoherence enables physically sound lighting reconstruction and robust material\nestimation - both essential for accurate relighting. Together with a\nstreamlined shading function and effective post-processing, ReCap outperforms\nthe leading competitor by 3.4 dB in PSNR on an expanded relighting benchmark.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "6-RBXj0rG_kKjp8LgmnuMP7B38f1jIiQmpXJIMPABMI",
+  "pdfSize": "17775207"
+}

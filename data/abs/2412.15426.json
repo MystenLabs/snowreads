@@ -1,0 +1,42 @@
+{
+  "id": "2412.15426",
+  "title": "Dimension Reduction with Locally Adjusted Graphs",
+  "authors": "Yingfan Wang, Yiyang Sun, Haiyang Huang, Cynthia Rudin",
+  "authorsParsed": [
+    [
+      "Wang",
+      "Yingfan",
+      ""
+    ],
+    [
+      "Sun",
+      "Yiyang",
+      ""
+    ],
+    [
+      "Huang",
+      "Haiyang",
+      ""
+    ],
+    [
+      "Rudin",
+      "Cynthia",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 19 Dec 2024 22:21:39 GMT"
+    }
+  ],
+  "updateDate": "2024-12-23",
+  "timestamp": 1734646899000,
+  "abstract": "  Dimension reduction (DR) algorithms have proven to be extremely useful for\ngaining insight into large-scale high-dimensional datasets, particularly\nfinding clusters in transcriptomic data. The initial phase of these DR methods\noften involves converting the original high-dimensional data into a graph. In\nthis graph, each edge represents the similarity or dissimilarity between pairs\nof data points. However, this graph is frequently suboptimal due to unreliable\nhigh-dimensional distances and the limited information extracted from the\nhigh-dimensional data. This problem is exacerbated as the dataset size\nincreases. If we reduce the size of the dataset by selecting points for a\nspecific sections of the embeddings, the clusters observed through DR are more\nseparable since the extracted subgraphs are more reliable. In this paper, we\nintroduce LocalMAP, a new dimensionality reduction algorithm that dynamically\nand locally adjusts the graph to address this challenge. By dynamically\nextracting subgraphs and updating the graph on-the-fly, LocalMAP is capable of\nidentifying and separating real clusters within the data that other DR methods\nmay overlook or combine. We demonstrate the benefits of LocalMAP through a case\nstudy on biological datasets, highlighting its utility in helping users more\naccurately identify clusters for real-world problems.\n",
+  "subjects": [
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "CQaVvS2yWMJ5NNxXXotRWBAqvCV35lZNwz9geueuwhE",
+  "pdfSize": "12257743"
+}

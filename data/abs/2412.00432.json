@@ -1,0 +1,30 @@
+{
+  "id": "2412.00432",
+  "title": "Convergence rate in the splitting-up method for rough differential\n  equations",
+  "authors": "Peter H.C. Pang",
+  "authorsParsed": [
+    [
+      "Pang",
+      "Peter H. C.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 30 Nov 2024 11:07:03 GMT"
+    }
+  ],
+  "updateDate": "2024-12-03",
+  "timestamp": 1732964823000,
+  "abstract": "  In this note we construct solutions to rough differential equations ${\\rm d}\nY = f(Y) \\,{\\rm d} X$ with a driver $X \\in C^\\alpha([0,T];\\mathbb{R}^d)$,\n$\\frac13 < \\alpha \\le \\frac12$, using a splitting-up scheme. We show\nconvergence of our scheme to solutions in the sense of Davie by a new argument\nand give a rate of convergence.\n",
+  "subjects": [
+    "Mathematics/Classical Analysis and ODEs",
+    "Computer Science/Numerical Analysis",
+    "Mathematics/Numerical Analysis",
+    "Mathematics/Probability"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "7dKUtzuJWWttgq46Cu4iiZ8nOWmwuEIja_3Ch0Dqddo",
+  "pdfSize": "450834"
+}

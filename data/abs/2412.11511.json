@@ -1,0 +1,53 @@
+{
+  "id": "2412.11511",
+  "title": "Constructing Confidence Intervals for Average Treatment Effects from\n  Multiple Datasets",
+  "authors": "Yuxin Wang, Maresa Schr\\\"oder, Dennis Frauen, Jonas Schweisthal,\n  Konstantin Hess and Stefan Feuerriegel",
+  "authorsParsed": [
+    [
+      "Wang",
+      "Yuxin",
+      ""
+    ],
+    [
+      "Schröder",
+      "Maresa",
+      ""
+    ],
+    [
+      "Frauen",
+      "Dennis",
+      ""
+    ],
+    [
+      "Schweisthal",
+      "Jonas",
+      ""
+    ],
+    [
+      "Hess",
+      "Konstantin",
+      ""
+    ],
+    [
+      "Feuerriegel",
+      "Stefan",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 16 Dec 2024 07:39:46 GMT"
+    }
+  ],
+  "updateDate": "2024-12-17",
+  "timestamp": 1734334786000,
+  "abstract": "  Constructing confidence intervals (CIs) for the average treatment effect\n(ATE) from patient records is crucial to assess the effectiveness and safety of\ndrugs. However, patient records typically come from different hospitals, thus\nraising the question of how multiple observational datasets can be effectively\ncombined for this purpose. In our paper, we propose a new method that estimates\nthe ATE from multiple observational datasets and provides valid CIs. Our method\nmakes little assumptions about the observational datasets and is thus widely\napplicable in medical practice. The key idea of our method is that we leverage\nprediction-powered inferences and thereby essentially `shrink' the CIs so that\nwe offer more precise uncertainty quantification as compared to na\\\"ive\napproaches. We further prove the unbiasedness of our method and the validity of\nour CIs. We confirm our theoretical results through various numerical\nexperiments. Finally, we provide an extension of our method for constructing\nCIs from combinations of experimental and observational datasets.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Statistics/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "puYxhPOz56_G3ojKoa2CcKKcHWc9cLutqHsIdtjUFLw",
+  "pdfSize": "1876050"
+}

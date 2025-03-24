@@ -1,0 +1,54 @@
+{
+  "id": "2412.09484",
+  "title": "A Deterministic Dynamical Low-rank Approach for Charged Particle\n  Transport",
+  "authors": "Pia Stammer, Tiberiu Burlacu, Niklas Wahl, Danny Lathouwers, Jonas\n  Kusch",
+  "authorsParsed": [
+    [
+      "Stammer",
+      "Pia",
+      ""
+    ],
+    [
+      "Burlacu",
+      "Tiberiu",
+      ""
+    ],
+    [
+      "Wahl",
+      "Niklas",
+      ""
+    ],
+    [
+      "Lathouwers",
+      "Danny",
+      ""
+    ],
+    [
+      "Kusch",
+      "Jonas",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 12 Dec 2024 17:33:11 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Fri, 10 Jan 2025 16:07:42 GMT"
+    }
+  ],
+  "updateDate": "2025-01-13",
+  "timestamp": 1734024791000,
+  "abstract": "  Deterministically solving charged particle transport problems at a sufficient\nspatial and angular resolution is often prohibitively expensive, especially due\nto their highly forward peaked scattering. We propose a model order reduction\napproach which evolves the solution on a low-rank manifold in time, making\ncomputations feasible at much higher resolutions and reducing the overall\nrun-time and memory footprint.\n  For this, we use a hybrid dynamical low-rank approach based on a\ncollided-uncollided split, i.e., the transport equation is split through a\ncollision source method. Uncollided particles are described using a ray tracer,\nfacilitating the inclusion of boundary conditions and straggling, whereas\ncollided particles are represented using a moment method combined with the\ndynamical low-rank approximation. Here the energy is treated as a pseudo-time\nand a rank adaptive integrator is chosen to dynamically adapt the rank in\nenergy. We can reproduce the results of a full-rank reference code at a much\nlower rank and thus computational cost and memory usage. The solution further\nachieves comparable accuracy with respect to TOPAS MC as previous deterministic\napproaches.\n",
+  "subjects": [
+    "Mathematics/Numerical Analysis",
+    "Computer Science/Numerical Analysis",
+    "Physics/Computational Physics",
+    "Physics/Medical Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "JAm3186MgrTCC7OQQG4EvOVRyGDZFmMVhwzm2wXPxzY",
+  "pdfSize": "2744623"
+}

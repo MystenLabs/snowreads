@@ -1,0 +1,39 @@
+{
+  "id": "2412.19847",
+  "title": "Symbolic Disentangled Representations for Images",
+  "authors": "Alexandr Korchemnyi, Alexey K. Kovalev, Aleksandr I. Panov",
+  "authorsParsed": [
+    [
+      "Korchemnyi",
+      "Alexandr",
+      ""
+    ],
+    [
+      "Kovalev",
+      "Alexey K.",
+      ""
+    ],
+    [
+      "Panov",
+      "Aleksandr I.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 25 Dec 2024 09:20:13 GMT"
+    }
+  ],
+  "updateDate": "2024-12-31",
+  "timestamp": 1735118413000,
+  "abstract": "  The idea of disentangled representations is to reduce the data to a set of\ngenerative factors that produce it. Typically, such representations are vectors\nin latent space, where each coordinate corresponds to one of the generative\nfactors. The object can then be modified by changing the value of a particular\ncoordinate, but it is necessary to determine which coordinate corresponds to\nthe desired generative factor -- a difficult task if the vector representation\nhas a high dimension. In this article, we propose ArSyD (Architecture for\nSymbolic Disentanglement), which represents each generative factor as a vector\nof the same dimension as the resulting representation. In ArSyD, the object\nrepresentation is obtained as a superposition of the generative factor vector\nrepresentations. We call such a representation a \\textit{symbolic disentangled\nrepresentation}. We use the principles of Hyperdimensional Computing (also\nknown as Vector Symbolic Architectures), where symbols are represented as\nhypervectors, allowing vector operations on them. Disentanglement is achieved\nby construction, no additional assumptions about the underlying distributions\nare made during training, and the model is only trained to reconstruct images\nin a weakly supervised manner. We study ArSyD on the dSprites and CLEVR\ndatasets and provide a comprehensive analysis of the learned symbolic\ndisentangled representations. We also propose new disentanglement metrics that\nallow comparison of methods using latent representations of different\ndimensions. ArSyD allows to edit the object properties in a controlled and\ninterpretable way, and the dimensionality of the object property representation\ncoincides with the dimensionality of the object representation itself.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "xKQf0ZYF09X5KOzZwUsCS6Ioidbh1G_nJ6kdge-CA8A",
+  "pdfSize": "7488732"
+}

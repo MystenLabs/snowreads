@@ -1,0 +1,38 @@
+{
+  "id": "2412.21038",
+  "title": "Sparse PCA: Phase Transitions in the Critical Sparsity Regime",
+  "authors": "Michael J. Feldman, Theodor Misiakiewicz, Elad Romanov",
+  "authorsParsed": [
+    [
+      "Feldman",
+      "Michael J.",
+      ""
+    ],
+    [
+      "Misiakiewicz",
+      "Theodor",
+      ""
+    ],
+    [
+      "Romanov",
+      "Elad",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 30 Dec 2024 16:03:09 GMT"
+    }
+  ],
+  "updateDate": "2024-12-31",
+  "timestamp": 1735574589000,
+  "abstract": "  This work studies estimation of sparse principal components in high\ndimensions. Specifically, we consider a class of estimators based on kernel\nPCA, generalizing the covariance thresholding algorithm proposed by Krauthgamer\net al. (2015). Focusing on Johnstone's spiked covariance model, we investigate\nthe \"critical\" sparsity regime, where the sparsity level $m$, sample size $n$,\nand dimension $p$ each diverge and $m/\\sqrt{n} \\rightarrow \\beta$, $p/n\n\\rightarrow \\gamma$.\n  Within this framework, we develop a fine-grained understanding of signal\ndetection and recovery. Our results establish a detectability phase transition,\nanalogous to the Baik--Ben Arous--P\\'ech\\'e (BBP) transition: above a certain\nthreshold -- depending on the kernel function, $\\gamma$, and $\\beta$ -- kernel\nPCA is informative. Conversely, below the threshold, kernel principal\ncomponents are asymptotically orthogonal to the signal. Notably, above this\ndetection threshold, we find that consistent support recovery is possible with\nhigh probability. Sparsity plays a key role in our analysis, and results in\nmore nuanced phenomena than in related studies of kernel PCA with delocalized\n(dense) components. Finally, we identify optimal kernel functions for detection\n-- and consequently, support recovery -- and numerical calculations suggest\nthat soft thresholding is nearly optimal.\n",
+  "subjects": [
+    "Mathematics/Statistics Theory",
+    "Statistics/Statistics Theory"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "W6quVEgjhXuwyDSWRW81qPDq6-eKGPIFP7qzXmSgA-o",
+  "pdfSize": "1464363"
+}

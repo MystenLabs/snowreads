@@ -1,0 +1,42 @@
+{
+  "id": "2412.20653",
+  "title": "Atomic layer etching of SiO$_2$ using sequential SF$_6$ gas and Ar\n  plasma",
+  "authors": "Jun Peng, Rakshith Venugopal, Robert Blick, Robert Zierold",
+  "authorsParsed": [
+    [
+      "Peng",
+      "Jun",
+      ""
+    ],
+    [
+      "Venugopal",
+      "Rakshith",
+      ""
+    ],
+    [
+      "Blick",
+      "Robert",
+      ""
+    ],
+    [
+      "Zierold",
+      "Robert",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 30 Dec 2024 02:13:14 GMT"
+    }
+  ],
+  "updateDate": "2025-01-01",
+  "timestamp": 1735524794000,
+  "abstract": "  In the relentless pursuit of advancing semiconductor technologies, the demand\nfor atomic layer processes has given rise to innovative processes, which have\nalready played a significant role in the continued miniaturization features.\nAmong these, atomic layer etching (ALE) is gaining increasing attention,\noffering precise control over material removal at the atomic level. Despite\nsome thermal ALE achieved sub-nm etching controllability, the currently\npractical ALE processes that involve plasmas steps often suffer from high etch\nrates due to the scarcity of highly synergistic ALE half-reactions. To overcome\nthis limitation, we developed an ALE process of silicon dioxide (SiO$_2$) on a\nsilicon wafer using sequential pure sulfur hexafluoride (SF6$_6$ gas exposure\nand argon (Ar) plasma etching near room temperature, achieving a stable and\nconsistent etching rate of approximately 1.4 {\\AA}/cycle. In this process,\nneither of the two half-cycle reactions alone produces etching effects, and\netching only occurs when the two are repeated in sequence, which means a 100%\nsynergy. The identification of temperature and plasma power windows further\nsubstantiates the high synergy of our ALE process. Moreover, detailed\nmorphology characterization over multiple cycles reveals a directional etching\neffect. This study provides a reliable, reproducible, and highly controllable\nALE process for SiO$_2$ etching, which is promising for nanofabrication\nprocesses.\n",
+  "subjects": [
+    "Condensed Matter/Materials Science"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "gfMXKUY_QVIxfvK-baRxfO8eViU_69_t_N31dj_lleE",
+  "pdfSize": "1005604"
+}

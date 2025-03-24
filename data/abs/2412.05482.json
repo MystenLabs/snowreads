@@ -1,0 +1,87 @@
+{
+  "id": "2412.05482",
+  "title": "Loss tangent fluctuations due to two-level systems in superconducting\n  microwave resonators",
+  "authors": "A. Valli\\`eres, M. E. Russell, X. You, D. A. Garcia-Wetten, D. P.\n  Goronzy, M. J. Walker, M. J. Bedzyk, M. C. Hersam, A. Romanenko, Y. Lu, A.\n  Grassellino, J. Koch, and C. R. H. McRae",
+  "authorsParsed": [
+    [
+      "Vallières",
+      "A.",
+      ""
+    ],
+    [
+      "Russell",
+      "M. E.",
+      ""
+    ],
+    [
+      "You",
+      "X.",
+      ""
+    ],
+    [
+      "Garcia-Wetten",
+      "D. A.",
+      ""
+    ],
+    [
+      "Goronzy",
+      "D. P.",
+      ""
+    ],
+    [
+      "Walker",
+      "M. J.",
+      ""
+    ],
+    [
+      "Bedzyk",
+      "M. J.",
+      ""
+    ],
+    [
+      "Hersam",
+      "M. C.",
+      ""
+    ],
+    [
+      "Romanenko",
+      "A.",
+      ""
+    ],
+    [
+      "Lu",
+      "Y.",
+      ""
+    ],
+    [
+      "Grassellino",
+      "A.",
+      ""
+    ],
+    [
+      "Koch",
+      "J.",
+      ""
+    ],
+    [
+      "McRae",
+      "C. R. H.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 7 Dec 2024 00:57:23 GMT"
+    }
+  ],
+  "updateDate": "2024-12-10",
+  "timestamp": 1733533043000,
+  "abstract": "  Superconducting microwave resonators are critical to quantum computing and\nsensing technologies. Additionally, they are common proxies for superconducting\nqubits when determining the effects of performance-limiting loss mechanisms\nsuch as from two-level systems (TLS). The extraction of these loss mechanisms\nis often performed by measuring the internal quality factor $Q_i$ as a function\nof power or temperature. In this work, we investigate large temporal\nfluctuations of $Q_i$ at low powers over periods of 12 to 16 hours (relative\nstandard deviation $\\sigma_{Qi}/Q_i = 13\\%$). These fluctuations are ubiquitous\nacross multiple resonators, chips and cooldowns. We are able to attribute these\nfluctuations to variations in the TLS loss tangent due to two main indicators.\nFirst, measured fluctuations decrease as power and temperature increase.\nSecond, for interleaved measurements, we observe correlations between low- and\nmedium-power $Q_i$ fluctuations and an absence of correlations with high-power\nfluctuations. Agreement with the TLS loss tangent mean is obtained by\nperforming measurements over a time span of a few hours. We hypothesize that,\nin addition to decoherence due to coupling to individual near-resonant TLS,\nsuperconducting qubits are affected by these observed TLS loss tangent\nfluctuations.\n",
+  "subjects": [
+    "Physics/Quantum Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "Km3GGaP24CABUO1LRrhi3lIJLTZOkfMwy09PD4fccPE",
+  "pdfSize": "2409137"
+}

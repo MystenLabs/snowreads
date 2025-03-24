@@ -1,0 +1,35 @@
+{
+  "id": "2412.17273",
+  "title": "The Hydrodynamic Limit of Neural Networks with Balanced Excitation and\n  Inhibition",
+  "authors": "James MacLaurin and Pedro Vilanova",
+  "authorsParsed": [
+    [
+      "MacLaurin",
+      "James",
+      ""
+    ],
+    [
+      "Vilanova",
+      "Pedro",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 23 Dec 2024 04:55:35 GMT"
+    }
+  ],
+  "updateDate": "2024-12-24",
+  "timestamp": 1734929735000,
+  "abstract": "  The theory of `Balanced Neural Networks' is a very popular explanation for\nthe high degree of variability and stochasticity in the brain's activity. We\ndetermine equations for the hydrodynamic limit of a balanced all-to-all network\nof 2n neurons for asymptotically large n. The neurons are divided into two\nclasses (excitatory and inhibitory). Each excitatory neuron excites every other\nneuron, and each inhibitory neuron inhibits all of the other neurons. The model\nis of a stochastic hybrid nature, such that the synaptic response of each\nneuron is governed by an ordinary differential equation. The effect of neuron j\non neuron k is dictated by a spiking Poisson Process, with intensity given by a\nsigmoidal function of the synaptic potentiation of neuron j. The interactions\nare scaled by n^{-1/2} , which is much stronger than the n^{-1} scaling of\nclassical interacting particle systems. We demonstrate that, under suitable\nconditions, the system does not blow up as n asymptotes to infinity because the\nnetwork activity is balanced between excitatory and inhibitory inputs. The\nlimiting population dynamics is proved to be Gaussian: with the mean determined\nby the balanced between excitation and inhibition, and the variance determined\nby the Central Limit Theorem for inhomogeneous Poisson Processes. The limiting\nequations can thus be expressed as autonomous Ordinary Differential Equations\nfor the means and variances.\n",
+  "subjects": [
+    "Physics/Mathematical Physics",
+    "Mathematics/Mathematical Physics",
+    "Mathematics/Probability",
+    "Quantitative Biology/Neurons and Cognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "KInfgdJYz8RNQv-EnUMVGIm6XN9xa9VgWAtLVtUAK1A",
+  "pdfSize": "1166910"
+}

@@ -1,0 +1,37 @@
+{
+  "id": "2412.09074",
+  "title": "DomCLP: Domain-wise Contrastive Learning with Prototype Mixup for\n  Unsupervised Domain Generalization",
+  "authors": "Jin-Seop Lee, Noo-ri Kim, Jee-Hyong Lee",
+  "authorsParsed": [
+    [
+      "Lee",
+      "Jin-Seop",
+      ""
+    ],
+    [
+      "Kim",
+      "Noo-ri",
+      ""
+    ],
+    [
+      "Lee",
+      "Jee-Hyong",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 12 Dec 2024 08:59:08 GMT"
+    }
+  ],
+  "updateDate": "2024-12-13",
+  "timestamp": 1733993948000,
+  "abstract": "  Self-supervised learning (SSL) methods based on the instance discrimination\ntasks with InfoNCE have achieved remarkable success. Despite their success, SSL\nmodels often struggle to generate effective representations for unseen-domain\ndata. To address this issue, research on unsupervised domain generalization\n(UDG), which aims to develop SSL models that can generate domain-irrelevant\nfeatures, has been conducted. Most UDG approaches utilize contrastive learning\nwith InfoNCE to generate representations, and perform feature alignment based\non strong assumptions to generalize domain-irrelevant common features from\nmulti-source domains. However, existing methods that rely on instance\ndiscrimination tasks are not effective at extracting domain-irrelevant common\nfeatures. This leads to the suppression of domain-irrelevant common features\nand the amplification of domain-relevant features, thereby hindering domain\ngeneralization. Furthermore, strong assumptions underlying feature alignment\ncan lead to biased feature learning, reducing the diversity of common features.\nIn this paper, we propose a novel approach, DomCLP, Domain-wise Contrastive\nLearning with Prototype Mixup. We explore how InfoNCE suppresses\ndomain-irrelevant common features and amplifies domain-relevant features. Based\non this analysis, we propose Domain-wise Contrastive Learning (DCon) to enhance\ndomain-irrelevant common features. We also propose Prototype Mixup Learning\n(PMix) to generalize domain-irrelevant common features across multiple domains\nwithout relying on strong assumptions. The proposed method consistently\noutperforms state-of-the-art methods on the PACS and DomainNet datasets across\nvarious label fractions, showing significant improvements. Our code will be\nreleased. Our project page is available at https://github.com/jinsuby/DomCLP.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "hGMSKpNFD4TKZOQImUtnmrNb7WAfn419oeHyqh-kblk",
+  "pdfSize": "3590746"
+}

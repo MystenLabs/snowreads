@@ -1,0 +1,32 @@
+{
+  "id": "2412.15133",
+  "title": "Blind Deconvolution of Graph Signals: Robustness to Graph Perturbations",
+  "authors": "Chang Ye and Gonzalo Mateos",
+  "authorsParsed": [
+    [
+      "Ye",
+      "Chang",
+      ""
+    ],
+    [
+      "Mateos",
+      "Gonzalo",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 19 Dec 2024 18:15:12 GMT"
+    }
+  ],
+  "updateDate": "2024-12-20",
+  "timestamp": 1734632112000,
+  "abstract": "  We study blind deconvolution of signals defined on the nodes of an undirected\ngraph. Although observations are bilinear functions of both unknowns, namely\nthe forward convolutional filter coefficients and the graph signal input, a\nfilter invertibility requirement along with input sparsity allow for an\nefficient linear programming reformulation. Unlike prior art that relied on\nperfect knowledge of the graph eigenbasis, here we derive stable recovery\nconditions in the presence of small graph perturbations. We also contribute a\nprovably convergent robust algorithm, which alternates between blind\ndeconvolution of graph signals and eigenbasis denoising in the Stiefel\nmanifold. Reproducible numerical tests showcase the algorithm's robustness\nunder several graph eigenbasis perturbation models.\n",
+  "subjects": [
+    "Electrical Engineering and Systems Science/Signal Processing"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "2rxRDI-ZILHQ-tRxjfzLjqpYwfji8c42w_Dt6B6cqI8",
+  "pdfSize": "972758"
+}

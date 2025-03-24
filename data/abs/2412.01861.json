@@ -1,0 +1,34 @@
+{
+  "id": "2412.01861",
+  "title": "Late fusion ensembles for speech recognition on diverse input audio\n  representations",
+  "authors": "Marin Jezid\\v{z}i\\'c and Matej Mihel\\v{c}i\\'c",
+  "authorsParsed": [
+    [
+      "Jezidžić",
+      "Marin",
+      ""
+    ],
+    [
+      "Mihelčić",
+      "Matej",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 1 Dec 2024 10:19:24 GMT"
+    }
+  ],
+  "updateDate": "2024-12-04",
+  "timestamp": 1733048364000,
+  "abstract": "  We explore diverse representations of speech audio, and their effect on a\nperformance of late fusion ensemble of E-Branchformer models, applied to\nAutomatic Speech Recognition (ASR) task. Although it is generally known that\nensemble methods often improve the performance of the system even for speech\nrecognition, it is very interesting to explore how ensembles of complex\nstate-of-the-art models, such as medium-sized and large E-Branchformers, cope\nin this setting when their base models are trained on diverse representations\nof the input speech audio. The results are evaluated on four widely-used\nbenchmark datasets: \\textit{Librispeech, Aishell, Gigaspeech},\n\\textit{TEDLIUMv2} and show that improvements of $1\\% - 14\\%$ can still be\nachieved over the state-of-the-art models trained using comparable techniques\non these datasets. A noteworthy observation is that such ensemble offers\nimprovements even with the use of language models, although the gap is closing.\n",
+  "subjects": [
+    "Electrical Engineering and Systems Science/Audio and Speech Processing",
+    "Computer Science/Machine Learning",
+    "Computer Science/Sound"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "Hyz93c0u8SKgxdpe3lmtb419Mt0B7BCk_4L405ocPMo",
+  "pdfSize": "511805"
+}

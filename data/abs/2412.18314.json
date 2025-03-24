@@ -1,0 +1,48 @@
+{
+  "id": "2412.18314",
+  "title": "On the improved performances of FLUKA v4-4.0 in out-of-field proton\n  dosimetry",
+  "authors": "Alexandra-Gabriela \\c{S}erban, Juan Alejandro de la Torre Gonz\\'alez,\n  Marta Anguiano, Antonio M. Lallena, Francesc Salvat-Pujol",
+  "authorsParsed": [
+    [
+      "Şerban",
+      "Alexandra-Gabriela",
+      ""
+    ],
+    [
+      "González",
+      "Juan Alejandro de la Torre",
+      ""
+    ],
+    [
+      "Anguiano",
+      "Marta",
+      ""
+    ],
+    [
+      "Lallena",
+      "Antonio M.",
+      ""
+    ],
+    [
+      "Salvat-Pujol",
+      "Francesc",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 24 Dec 2024 10:01:22 GMT"
+    }
+  ],
+  "updateDate": "2024-12-25",
+  "timestamp": 1735034482000,
+  "abstract": "  A new model for the nuclear elastic scattering of protons below 250 MeV has\nbeen recently included in FLUKA v4-4.0, motivated by the evaluation of\nradiation effects in electronics. Nonetheless, proton nuclear elastic\nscattering plays a significant role also in proton dosimetry applications, for\nwhich the new model necessitated an explicit validation. Therefore, in this\nwork a benchmark has been carried out against a recent measurement of\nradial-depth maps of absorbed dose in a water phantom under irradiation with\nprotons of 100 MeV, 160 MeV, and 225 MeV. Two FLUKA versions have been employed\nto simulate these dose maps: v4-3.4, relying on a legacy model for proton\nnuclear elastic scattering, and v4-4.0, relying on the new model. The enhanced\nagreement with experimental absorbed doses obtained with FLUKA v4-4.0 is\ndiscussed, and the role played by proton nuclear elastic scattering, among\nother interaction mechanisms, in various regions of the radial-depth dose map\nis elucidated. Finally, the benchmark reported in this work is sensitive enough\nto showcase the importance of accurately characterizing beam parameters and the\nscattering geometry for Monte Carlo simulation purposes.\n",
+  "subjects": [
+    "Physics/Computational Physics",
+    "Physics/Medical Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "0Kt9VXCceVPWD22s5KDYR6tY-2wj0QJp_FAK8oeJOzQ",
+  "pdfSize": "7295777"
+}

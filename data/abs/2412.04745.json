@@ -1,0 +1,29 @@
+{
+  "id": "2412.04745",
+  "title": "Finiteness and finite domination in stratified homotopy theory",
+  "authors": "Marco Volpe",
+  "authorsParsed": [
+    [
+      "Volpe",
+      "Marco",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 6 Dec 2024 03:16:53 GMT"
+    }
+  ],
+  "updateDate": "2024-12-09",
+  "timestamp": 1733455013000,
+  "abstract": "  In this paper, we study compactness and finiteness of an $\\infty$-category\n$\\mathcal{C}$ equipped with a conservative functor to a finite poset $P$. We\nprovide sufficient conditions for $\\mathcal{C}$ to be compact in terms of\nstrata and homotopy links of $\\mathcal{C}\\rightarrow P$. Analogous conditions\nfor $\\mathcal{C}$ to be finite are also given. From these, we deduce that, if\n$X\\rightarrow P$ is a conically stratified space with the property that the\nweak homotopy type of its strata, and of strata of its local links, are compact\n(respectively finite) $\\infty$-groupoids, then $\\text{Exit}_P(X)$ is compact\n(respectively finite). This gives a positive answer to a question of Porta and\nTeyssier. If $X\\rightarrow P$ is equipped with a conically smooth structure\n(e.g. a Whitney stratification), we show that $\\text{Exit}_P(X)$ is finite if\nand only the weak homotopy types of the strata of $X\\rightarrow P$ are finite.\nThe aforementioned characterization relies on the finiteness of\n$\\text{Exit}_P(X)$, when $X\\rightarrow P$ is compact and conically smooth. We\nconclude our paper by showing that the analogous statement does not hold in the\ntopological category. More explicitly, we provide an example of a compact\n$C^0$-stratified space whose exit paths $\\infty$-category is compact, but not\nfinite. This stratified space was constructed by Quinn. We also observe that\nthis provides a non-trivial example of a $C^0$-stratified space which does not\nadmit any conically smooth structure.\n",
+  "subjects": [
+    "Mathematics/Algebraic Topology",
+    "Mathematics/Category Theory",
+    "Mathematics/Geometric Topology"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "rzXHDH0-u2gYc53BAwqTfpMbITxGXWHWfWD0KOhVHZQ",
+  "pdfSize": "214260"
+}

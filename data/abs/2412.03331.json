@@ -1,0 +1,47 @@
+{
+  "id": "2412.03331",
+  "title": "LuxEmbedder: A Cross-Lingual Approach to Enhanced Luxembourgish Sentence\n  Embeddings",
+  "authors": "Fred Philippy, Siwen Guo, Jacques Klein, Tegawend\\'e F. Bissyand\\'e",
+  "authorsParsed": [
+    [
+      "Philippy",
+      "Fred",
+      ""
+    ],
+    [
+      "Guo",
+      "Siwen",
+      ""
+    ],
+    [
+      "Klein",
+      "Jacques",
+      ""
+    ],
+    [
+      "Bissyandé",
+      "Tegawendé F.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 4 Dec 2024 14:02:12 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Thu, 5 Dec 2024 07:05:57 GMT"
+    }
+  ],
+  "updateDate": "2024-12-06",
+  "timestamp": 1733320932000,
+  "abstract": "  Sentence embedding models play a key role in various Natural Language\nProcessing tasks, such as in Topic Modeling, Document Clustering and\nRecommendation Systems. However, these models rely heavily on parallel data,\nwhich can be scarce for many low-resource languages, including Luxembourgish.\nThis scarcity results in suboptimal performance of monolingual and\ncross-lingual sentence embedding models for these languages. To address this\nissue, we compile a relatively small but high-quality human-generated\ncross-lingual parallel dataset to train LuxEmbedder, an enhanced sentence\nembedding model for Luxembourgish with strong cross-lingual capabilities.\nAdditionally, we present evidence suggesting that including low-resource\nlanguages in parallel training datasets can be more advantageous for other\nlow-resource languages than relying solely on high-resource language pairs.\nFurthermore, recognizing the lack of sentence embedding benchmarks for\nlow-resource languages, we create a paraphrase detection benchmark specifically\nfor Luxembourgish, aiming to partially fill this gap and promote further\nresearch.\n",
+  "subjects": [
+    "Computer Science/Computation and Language",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "_ZMewKTbrjOH0QABAjt5ZvWxifNnp_-mTpxGTUVfqVM",
+  "pdfSize": "1807869"
+}

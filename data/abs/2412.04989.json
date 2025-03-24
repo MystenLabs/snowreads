@@ -1,0 +1,64 @@
+{
+  "id": "2412.04989",
+  "title": "Location-Driven Programmable Wireless Environments through\n  Light-emitting RIS (LeRIS)",
+  "authors": "Dimitrios Bozanis, Dimitrios Tyrovolas, Vasilis K. Papanikolaou,\n  Sotiris A. Tegos, Panagiotis D. Diamantoulakis, Christos K. Liaskos, Robert\n  Schober, George K. Karagiannidis",
+  "authorsParsed": [
+    [
+      "Bozanis",
+      "Dimitrios",
+      ""
+    ],
+    [
+      "Tyrovolas",
+      "Dimitrios",
+      ""
+    ],
+    [
+      "Papanikolaou",
+      "Vasilis K.",
+      ""
+    ],
+    [
+      "Tegos",
+      "Sotiris A.",
+      ""
+    ],
+    [
+      "Diamantoulakis",
+      "Panagiotis D.",
+      ""
+    ],
+    [
+      "Liaskos",
+      "Christos K.",
+      ""
+    ],
+    [
+      "Schober",
+      "Robert",
+      ""
+    ],
+    [
+      "Karagiannidis",
+      "George K.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 6 Dec 2024 12:20:10 GMT"
+    }
+  ],
+  "updateDate": "2024-12-09",
+  "timestamp": 1733487610000,
+  "abstract": "  As 6G wireless networks seek to enable robust and dynamic programmable\nwireless environments (PWEs), reconfigurable intelligent surfaces (RISs) have\nemerged as a cornerstone for controlling electromagnetic wave propagation.\nHowever, realizing the potential of RISs for demanding PWE applications depends\non precise and real-time user localization, especially in scenarios with random\nreceiver orientations and inherent hardware imperfections. To address this\nchallenge, we propose a novel optical localization framework that integrates\nconventional ceiling-mounted LEDs with light-emitting reconfigurable\nintelligent surfaces (LeRISs). By leveraging the spatial diversity offered by\nthe LeRIS architecture, the framework introduces robust signal paths that\nimprove localization accuracy and reduce errors under varying orientations. To\nthis end, we derive a system of equations for received signal strength-based\nlocalization that accounts for random receiver orientations and imposes spatial\nconstraints on LED placement, ensuring unique and reliable solutions. Finally,\nour simulation results demonstrate that the proposed framework achieves precise\nbeam control and high spectral efficiency even for RISs with large number of\nreflecting elements, establishing our solution as scalable and adaptive for\nPWEs that require real-time accuracy and flexibility.\n",
+  "subjects": [
+    "Computer Science/Networking and Internet Architecture",
+    "Computer Science/Information Theory",
+    "Mathematics/Information Theory"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "k2yIS4CrQNDO2gZ5b41yqFLHCZso25_YYWyl4AQtZGk",
+  "pdfSize": "2294129"
+}

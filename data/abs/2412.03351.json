@@ -1,0 +1,39 @@
+{
+  "id": "2412.03351",
+  "title": "Global Well-Posedness and Soliton Resolution for the Half-Wave Maps\n  Equation with Rational Data",
+  "authors": "Patrick G\\'erard and Enno Lenzmann",
+  "authorsParsed": [
+    [
+      "Gérard",
+      "Patrick",
+      ""
+    ],
+    [
+      "Lenzmann",
+      "Enno",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 4 Dec 2024 14:34:28 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Sun, 22 Dec 2024 15:00:49 GMT"
+    }
+  ],
+  "updateDate": "2024-12-24",
+  "timestamp": 1733322868000,
+  "abstract": "  We study the energy-critical half-wave maps equation: \\[ \\partial_t\n\\mathbf{u} = \\mathbf{u} \\times |D| \\mathbf{u} \\] for $\\mathbf{u} : [0, T)\n\\times \\mathbb{R} \\to \\mathbb{S}^2$. Our main result establishes the global\nexistence and uniqueness of solutions for all rational initial data\n$\\mathbf{u}_0 : \\mathbb{R} \\to \\mathbb{S}^2$. This demonstrates global\nwell-posedness for a dense subset within the scaling-critical energy space\n$\\dot{H}^{1/2}(\\mathbb{R}; \\mathbb{S}^2)$. Furthermore, we prove soliton\nresolution for a dense subset of initial data in the energy space, with uniform\nbounds for all higher Sobolev norms $\\dot{H}^s$ for $s > 0$.\n  Our analysis utilizes the Lax pair structure of the half-wave maps equation\non Hardy spaces in combination with an explicit flow formula. Extending these\nresults, we establish global well-posedness for rational initial data (along\nwith a soliton resolution result) for a generalized class of matrix-valued\nhalf-wave maps equations with target spaces in the complex Grassmannians\n$\\mathbf{Gr}_k(\\mathbb{C}^d)$. Notably, this includes the complex projective\nspaces $ \\mathbb{CP}^{d-1} \\cong \\mathbf{Gr}_1(\\mathbb{C}^d)$ thereby extending\nthe classical case of the target $\\mathbb{S}^2 \\cong \\mathbb{CP}^1$.\n",
+  "subjects": [
+    "Mathematics/Analysis of PDEs",
+    "Physics/Mathematical Physics",
+    "Mathematics/Mathematical Physics",
+    "Nonlinear Sciences/Exactly Solvable and Integrable Systems"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "skklTyomk9zvxpmc6HboLhcneh1SNFcuXOLcRRlbwYY",
+  "pdfSize": "716181"
+}

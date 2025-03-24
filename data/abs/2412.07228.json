@@ -1,0 +1,48 @@
+{
+  "id": "2412.07228",
+  "title": "T-TIME: Test-Time Information Maximization Ensemble for Plug-and-Play\n  BCIs",
+  "authors": "Siyang Li, Ziwei Wang, Hanbin Luo, Lieyun Ding, Dongrui Wu",
+  "authorsParsed": [
+    [
+      "Li",
+      "Siyang",
+      ""
+    ],
+    [
+      "Wang",
+      "Ziwei",
+      ""
+    ],
+    [
+      "Luo",
+      "Hanbin",
+      ""
+    ],
+    [
+      "Ding",
+      "Lieyun",
+      ""
+    ],
+    [
+      "Wu",
+      "Dongrui",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 10 Dec 2024 06:32:17 GMT"
+    }
+  ],
+  "updateDate": "2024-12-11",
+  "timestamp": 1733812337000,
+  "abstract": "  Objective: An electroencephalogram (EEG)-based brain-computer interface (BCI)\nenables direct communication between the human brain and a computer. Due to\nindividual differences and non-stationarity of EEG signals, such BCIs usually\nrequire a subject-specific calibration session before each use, which is\ntime-consuming and user-unfriendly. Transfer learning (TL) has been proposed to\nshorten or eliminate this calibration, but existing TL approaches mainly\nconsider offline settings, where all unlabeled EEG trials from the new user are\navailable. Methods: This paper proposes Test-Time Information Maximization\nEnsemble (T-TIME) to accommodate the most challenging online TL scenario, where\nunlabeled EEG data from the new user arrive in a stream, and immediate\nclassification is performed. T-TIME initializes multiple classifiers from the\naligned source data. When an unlabeled test EEG trial arrives, T-TIME first\npredicts its labels using ensemble learning, and then updates each classifier\nby conditional entropy minimization and adaptive marginal distribution\nregularization. Our code is publicized. Results: Extensive experiments on three\npublic motor imagery based BCI datasets demonstrated that T-TIME outperformed\nabout 20 classical and state-of-the-art TL approaches. Significance: To our\nknowledge, this is the first work on test time adaptation for calibration-free\nEEG-based BCIs, making plug-and-play BCIs possible.\n",
+  "subjects": [
+    "Computer Science/Human-Computer Interaction",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "Gld-n3vEuAKvMwZH371knmPThUaArobcbcM0hH-PoG0",
+  "pdfSize": "674081"
+}

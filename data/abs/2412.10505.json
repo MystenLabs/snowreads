@@ -1,0 +1,47 @@
+{
+  "id": "2412.10505",
+  "title": "Nonlocality of Quantum States can be Transitive",
+  "authors": "Kai-Siang Chen, Gelo Noel M. Tabia, Chung-Yun Hsieh, Yu-Chun Yin, and\n  Yeong-Cherng Liang",
+  "authorsParsed": [
+    [
+      "Chen",
+      "Kai-Siang",
+      ""
+    ],
+    [
+      "Tabia",
+      "Gelo Noel M.",
+      ""
+    ],
+    [
+      "Hsieh",
+      "Chung-Yun",
+      ""
+    ],
+    [
+      "Yin",
+      "Yu-Chun",
+      ""
+    ],
+    [
+      "Liang",
+      "Yeong-Cherng",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 13 Dec 2024 19:00:12 GMT"
+    }
+  ],
+  "updateDate": "2024-12-17",
+  "timestamp": 1734116412000,
+  "abstract": "  In a Bell test involving three parties, one may find a curious situation\nwhere the nonlocality in two bipartite subsystems forces the remaining\nbipartite subsystem to exhibit nonlocality. Post-quantum examples for this\nphenomenon, dubbed nonlocality transitivity, have been found in 2011. However,\nthe question of whether nonlocality transitivity occurs within quantum theory\nhas remained unresolved -- until now. Here, we provide the first affirmative\nanswer to this question at the level of quantum states. Leveraging the\npossibility of Bell-inequality violation by tensoring, we analytically\nconstruct a pair of nonlocal bipartite states such that simultaneously\nrealizing them in a tripartite system forces the remaining bipartite state to\nbe nonlocal. En route to showing this, we prove that multiple copies of the\n$W$-state marginals uniquely determine the global compatible state.\nFurthermore, in contrast to Bell-nonlocality, we show that quantum steering\nalready exhibits transitivity in a three-qubit setting, thus revealing another\nsignificant distinction between Bell-nonlocality and steering. We also discuss\nconnections between the problem of nonlocality transitivity and the largely\noverlooked polygamous nature of nonlocality.\n",
+  "subjects": [
+    "Physics/Quantum Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "S0LIeEwGvmca_eZtkCAClllfOBBN08l_EPh8bw3SHfc",
+  "pdfSize": "251041"
+}

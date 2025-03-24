@@ -1,0 +1,32 @@
+{
+  "id": "2412.19474",
+  "title": "Effects of Reynolds number and spatial resolution on the pressure source\n  terms in turbulent boundary layers",
+  "authors": "Aditya Agarwal and Rahul Deshpande",
+  "authorsParsed": [
+    [
+      "Agarwal",
+      "Aditya",
+      ""
+    ],
+    [
+      "Deshpande",
+      "Rahul",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 27 Dec 2024 05:58:49 GMT"
+    }
+  ],
+  "updateDate": "2024-12-30",
+  "timestamp": 1735279129000,
+  "abstract": "  The increase in wall-pressure fluctuations with increasing friction Reynolds\nnumber ($Re_{\\tau}$) of a turbulent boundary layer (TBL) is well known in the\nliterature. However, very few studies have investigated the\n$Re_{\\tau}$-variation of the source terms of the pressure fluctuations, which\nare solely a function of the spatial velocity gradients within the TBL. This\nstudy quantifies the pressure source terms in a zero-pressure gradient TBL by\nutilizing a published direct numerical simulation (DNS; Sillero et al. 2013,\nPhys. Fluids) database across 1000 $\\lesssim$ $Re_{\\tau}$ $\\lesssim$ 2000. It\nis found that the magnitude of all source terms increases with $Re_{\\tau}$\nacross the entire TBL thickness, with the turbulence-turbulence (non-linear)\ninteraction terms growing faster than the mean-shear (linear) source terms.\nFurther, we use the simulation database to mimic the scenario of particle image\nvelocimetry (PIV) experiments that are typically spatially under-resolved\ncompared to DNS data. It is used to quantify the effect of spatial resolution\non the accuracy of pressure source terms, which are estimated here for two\ncommon PIV scenarios: (i) planar PIV in the streamwise-wall-normal plane, and\n(ii) stereo-PIV in the spanwise-wall-normal plane of a ZPG TBL. This exercise\nreveals significant attenuation of all pressure source terms compared to those\nestimated from the original DNS, highlighting the challenges of accurately\nestimating these source terms in a high $Re_{\\tau}$ PIV experiment.\n",
+  "subjects": [
+    "Physics/Fluid Dynamics"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "HVP9BLZws3dSJqthwaETUdbp1iJmSMUIp4QEqcbMkeg",
+  "pdfSize": "786211"
+}

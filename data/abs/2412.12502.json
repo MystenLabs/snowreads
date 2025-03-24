@@ -1,0 +1,52 @@
+{
+  "id": "2412.12502",
+  "title": "Track the Answer: Extending TextVQA from Image to Video with\n  Spatio-Temporal Clues",
+  "authors": "Yan Zhang, Gangyan Zeng, Huawen Shen, Daiqing Wu, Yu Zhou, Can Ma",
+  "authorsParsed": [
+    [
+      "Zhang",
+      "Yan",
+      ""
+    ],
+    [
+      "Zeng",
+      "Gangyan",
+      ""
+    ],
+    [
+      "Shen",
+      "Huawen",
+      ""
+    ],
+    [
+      "Wu",
+      "Daiqing",
+      ""
+    ],
+    [
+      "Zhou",
+      "Yu",
+      ""
+    ],
+    [
+      "Ma",
+      "Can",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 17 Dec 2024 03:06:12 GMT"
+    }
+  ],
+  "updateDate": "2024-12-18",
+  "timestamp": 1734404772000,
+  "abstract": "  Video text-based visual question answering (Video TextVQA) is a practical\ntask that aims to answer questions by jointly reasoning textual and visual\ninformation in a given video. Inspired by the development of TextVQA in image\ndomain, existing Video TextVQA approaches leverage a language model (e.g. T5)\nto process text-rich multiple frames and generate answers auto-regressively.\nNevertheless, the spatio-temporal relationships among visual entities\n(including scene text and objects) will be disrupted and models are susceptible\nto interference from unrelated information, resulting in irrational reasoning\nand inaccurate answering. To tackle these challenges, we propose the TEA\n(stands for ``\\textbf{T}rack th\\textbf{E} \\textbf{A}nswer'') method that better\nextends the generative TextVQA framework from image to video. TEA recovers the\nspatio-temporal relationships in a complementary way and incorporates OCR-aware\nclues to enhance the quality of reasoning questions. Extensive experiments on\nseveral public Video TextVQA datasets validate the effectiveness and\ngeneralization of our framework. TEA outperforms existing TextVQA methods,\nvideo-language pretraining methods and video large language models by great\nmargins.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "otbvE25exwupj2_pz6KxFSRwL2TGzmk_ihgePvys-A8",
+  "pdfSize": "815032"
+}

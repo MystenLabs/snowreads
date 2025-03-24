@@ -1,0 +1,42 @@
+{
+  "id": "2412.02916",
+  "title": "CuXASNet: Rapid and Accurate Prediction of Copper L-edge X-Ray\n  Absorption Spectra Using Machine Learning",
+  "authors": "Samuel P. Gleason, Matthew R. Carbone, Deyu Lu, and Jim Ciston",
+  "authorsParsed": [
+    [
+      "Gleason",
+      "Samuel P.",
+      ""
+    ],
+    [
+      "Carbone",
+      "Matthew R.",
+      ""
+    ],
+    [
+      "Lu",
+      "Deyu",
+      ""
+    ],
+    [
+      "Ciston",
+      "Jim",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 3 Dec 2024 23:59:34 GMT"
+    }
+  ],
+  "updateDate": "2024-12-05",
+  "timestamp": 1733270374000,
+  "abstract": "  In this work, we have developed CuXASNet, a dense neural network that\npredicts simulated Cu L-edge X-ray absorption spectra (XAS) from atomic\nstructures. Featurization of the Cu local environment is performed using a\ncomponent of M3GNet, a graph neural network developed for predicting the\npotential energy surface. CuXASNet is trained on simulated spectra from FEFF9\nat the multiple scattering level of theory, and can predict the L3 and L2 edges\nfor Cu sites to quantitative accuracy. To validate our approach, we compare 14\nexperimental spectra extracted from the literature with the predictions of\nCuXASNet. The agreement of CuXASNet with experiments is shown by an average MAE\nof 0.125 and an average Spearman's correlation coefficient of 0.891, which is\ncomparable to FEFF9's values of 0.131 and 0.898 for the same metrics. As such,\nCuXASNet can rapidly generate a large number of L-edge XAS spectra at the same\naccuracy as FEFF9 simulations. This can be used as a drop-in replacement for\nmultiple scattering codes for fast screening of candidate atomic structure\nmodels of a measured system. This model establishes a general framework for Cu\nXAS prediction, and can be extended to more computationally expensive levels of\ntheory and to other transition metal L-edges.\n",
+  "subjects": [
+    "Condensed Matter/Materials Science"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "yPA4kNWX9i-qknCKYyvxTuo82Y15NazYvhGsfGAlvnU",
+  "pdfSize": "7729590"
+}

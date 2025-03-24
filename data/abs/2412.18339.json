@@ -1,0 +1,46 @@
+{
+  "id": "2412.18339",
+  "title": "Universal pulses for superconducting qudit ladder gates",
+  "authors": "Boxi Li, F. A. C\\'ardenas-L\\'opez, Adrian Lupascu, Felix Motzoi",
+  "authorsParsed": [
+    [
+      "Li",
+      "Boxi",
+      ""
+    ],
+    [
+      "Cárdenas-López",
+      "F. A.",
+      ""
+    ],
+    [
+      "Lupascu",
+      "Adrian",
+      ""
+    ],
+    [
+      "Motzoi",
+      "Felix",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 24 Dec 2024 10:54:05 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Sun, 19 Jan 2025 16:01:43 GMT"
+    }
+  ],
+  "updateDate": "2025-01-22",
+  "timestamp": 1735037645000,
+  "abstract": "  Qudits, generalizations of qubits to multi-level quantum systems, offer\nenhanced computational efficiency by encoding more information per lattice\ncell, avoiding costly swap operations and providing even exponential speedup in\nsome cases. Utilizing the $d$-level manifold, however, requires high-speed gate\noperations because of the stronger decoherence at higher levels. While\nanalytical control methods have proven effective for qubits in achieving fast\ngates with minimal control errors, their extension to qudits is nontrivial due\nto the increased complexity of the energy level structure arising from\nadditional ancillary states. In this work, we present a universal pulse\nconstruction for generating rapid, high-fidelity unitary rotations between\nadjacent qudit levels, thereby providing a prescription for any gate in\n$SU(d)$. Control errors in these operations are effectively analyzed within a\nfour-level subspace, including two leakage levels with approximately opposite\ndetuning. By identifying the optimal degrees of freedom, we derive concise\nanalytical pulse schemes that suppress multiple control errors and outperform\nexisting methods. Remarkably, our approach achieves consistent coherent error\nscaling across all levels, approaching the quantum speed limit independently of\nparameter variations between levels. Validation on transmon circuits\ndemonstrates significant improvements in gate fidelity for various qudit sizes\naiming for $10^{-4}$ error. This method provides a scalable solution for\nimproving qudit control and can be broadly applied to other quantum systems\nwith ladder structures or operations involving multiple ancillary levels.\n",
+  "subjects": [
+    "Physics/Quantum Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "j1lZwwVZAutGVo8ycnzfqYs7UL8xxD_edlHlbYVRLlo",
+  "pdfSize": "2480911"
+}

@@ -1,0 +1,39 @@
+{
+  "id": "2412.10611",
+  "title": "A Trust-Centric Approach To Quantifying Maturity and Security in\n  Internet Voting Protocols",
+  "authors": "Stanis{\\l}aw Bara\\'nski, Ben Biedermann and Joshua Ellul",
+  "authorsParsed": [
+    [
+      "Barański",
+      "Stanisław",
+      ""
+    ],
+    [
+      "Biedermann",
+      "Ben",
+      ""
+    ],
+    [
+      "Ellul",
+      "Joshua",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 13 Dec 2024 23:33:38 GMT"
+    }
+  ],
+  "updateDate": "2024-12-17",
+  "timestamp": 1734132818000,
+  "abstract": "  Voting is a cornerstone of collective participatory decision-making in\ncontexts ranging from political elections to decentralized autonomous\norganizations (DAOs). Despite the proliferation of internet voting protocols\npromising enhanced accessibility and efficiency, their evaluation and\ncomparison are complicated by a lack of standardized criteria and unified\ndefinitions of security and maturity. Furthermore, socio-technical requirements\nby decision makers are not structurally taken into consideration when comparing\ninternet voting systems. This paper addresses this gap by introducing a\ntrust-centric maturity scoring framework to quantify the security and maturity\nof sixteen internet voting systems. A comprehensive trust model analysis is\nconducted for selected internet voting protocols, examining their security\nproperties, trust assumptions, technical complexity, and practical usability.\nIn this paper we propose the electronic voting maturity framework (EVMF) which\nsupports nuanced assessment that reflects real-world deployment concerns and\naids decision-makers in selecting appropriate systems tailored to their\nspecific use-case requirements. The framework is general enough to be applied\nto other systems, where the aspects of decentralization, trust, and security\nare crucial, such as digital identity, Ethereum layer-two scaling solutions,\nand federated data infrastructures. Its objective is to provide an extendable\ntoolkit for policy makers and technology experts alike that normalizes\ntechnical and non-technical requirements on a univariate scale.\n",
+  "subjects": [
+    "Computer Science/Cryptography and Security",
+    "Computer Science/Computers and Society",
+    "Computer Science/Distributed, Parallel, and Cluster Computing"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "B-b5MHL-kHwbCpWnhO35ltuMZDnnhnHnZEr1jYLeob0",
+  "pdfSize": "659283"
+}

@@ -1,0 +1,46 @@
+{
+  "id": "2412.06837",
+  "title": "Innovative Sentiment Analysis and Prediction of Stock Price Using\n  FinBERT, GPT-4 and Logistic Regression: A Data-Driven Approach",
+  "authors": "Olamilekan Shobayo, Sidikat Adeyemi-Longe, Olusogo Popoola and Bayode\n  Ogunleye",
+  "authorsParsed": [
+    [
+      "Shobayo",
+      "Olamilekan",
+      ""
+    ],
+    [
+      "Adeyemi-Longe",
+      "Sidikat",
+      ""
+    ],
+    [
+      "Popoola",
+      "Olusogo",
+      ""
+    ],
+    [
+      "Ogunleye",
+      "Bayode",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 7 Dec 2024 05:20:31 GMT"
+    }
+  ],
+  "updateDate": "2024-12-11",
+  "timestamp": 1733548831000,
+  "abstract": "  This study explores the comparative performance of cutting-edge AI models,\ni.e., Finaance Bidirectional Encoder representations from Transsformers\n(FinBERT), Generatice Pre-trained Transformer GPT-4, and Logistic Regression,\nfor sentiment analysis and stock index prediction using financial news and the\nNGX All-Share Index data label. By leveraging advanced natural language\nprocessing models like GPT-4 and FinBERT, alongside a traditional machine\nlearning model, Logistic Regression, we aim to classify market sentiment,\ngenerate sentiment scores, and predict market price movements. This research\nhighlights global AI advancements in stock markets, showcasing how\nstate-of-the-art language models can contribute to understanding complex\nfinancial data. The models were assessed using metrics such as accuracy,\nprecision, recall, F1 score, and ROC AUC. Results indicate that Logistic\nRegression outperformed the more computationally intensive FinBERT and\npredefined approach of versatile GPT-4, with an accuracy of 81.83% and a ROC\nAUC of 89.76%. The GPT-4 predefined approach exhibited a lower accuracy of\n54.19% but demonstrated strong potential in handling complex data. FinBERT,\nwhile offering more sophisticated analysis, was resource-demanding and yielded\na moderate performance. Hyperparameter optimization using Optuna and\ncross-validation techniques ensured the robustness of the models. This study\nhighlights the strengths and limitations of the practical applications of AI\napproaches in stock market prediction and presents Logistic Regression as the\nmost efficient model for this task, with FinBERT and GPT-4 representing\nemerging tools with potential for future exploration and innovation in\nAI-driven financial analytics\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Computer Science/Artificial Intelligence",
+    "Quantitative Finance/Statistical Finance",
+    "Statistics/Applications",
+    "Statistics/Computation"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "kRC10zaHt8C1TzFwcFNeQeBWBW5r5_huoqHGW9o5aPA",
+  "pdfSize": "1083874"
+}

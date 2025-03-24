@@ -1,0 +1,52 @@
+{
+  "id": "2412.04021",
+  "title": "Restoring Missing Modes of 21cm Intensity Mapping with Deep Learning:\n  Impact on BAO Reconstruction",
+  "authors": "Qian Li, Xin Wang, Xiaodong Li, Jiacheng Ding, Tiancheng Luan, Xiaolin\n  Luo",
+  "authorsParsed": [
+    [
+      "Li",
+      "Qian",
+      ""
+    ],
+    [
+      "Wang",
+      "Xin",
+      ""
+    ],
+    [
+      "Li",
+      "Xiaodong",
+      ""
+    ],
+    [
+      "Ding",
+      "Jiacheng",
+      ""
+    ],
+    [
+      "Luan",
+      "Tiancheng",
+      ""
+    ],
+    [
+      "Luo",
+      "Xiaolin",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 5 Dec 2024 09:58:00 GMT"
+    }
+  ],
+  "updateDate": "2024-12-06",
+  "timestamp": 1733392680000,
+  "abstract": "  In 21cm intensity mapping of the large-scale structure (LSS), regions in\nFourier space could be compromised by foreground contamination. In\ninterferometric observations, this contamination, known as the foreground\nwedge, is exacerbated by the chromatic response of antennas, leading to\nsubstantial data loss. Meanwhile, the baryonic acoustic oscillation (BAO)\nreconstruction, which operates in configuration space to \"linearize\" the BAO\nsignature, offers improved constraints on the sound horizon scale. However,\nmissing modes within these contaminated regions can negatively impact the BAO\nreconstruction algorithm. To address this challenge, we employ the deep\nlearning model U-Net to recover the lost modes before applying the BAO\nreconstruction algorithm. Despite hardware limitations, such as GPU memory, our\nresults demonstrate that the AI-restored 21cm temperature map achieves a high\ncorrelation with the original signal, with a correlation ratio of approximately\n$0.9$ at $k \\sim 1 h/Mpc$. Furthermore, subsequent BAO reconstruction indicates\nthat the AI restoration has minimal impact on the performance of the\n`linearized' BAO signal, proving the effectiveness of the machine learning\napproach to mitigate the impact of foreground contamination. Interestingly, we\ndemonstrate that the AI model trained on coarser fields can be effectively\napplied to finer fields, achieving even higher correlation. This success is\nlikely attributable to the scale-invariance properties of non-linear mode\ncoupling in large-scale structure and the hierarchical structure of the U-Net\narchitecture.\n",
+  "subjects": [
+    "Astrophysics/Cosmology and Nongalactic Astrophysics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "0lKbSe561-TCoiuKHRlIKx8abUA6ngu7YHFGKzYJblE",
+  "pdfSize": "1504257"
+}

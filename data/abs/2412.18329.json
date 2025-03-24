@@ -1,0 +1,33 @@
+{
+  "id": "2412.18329",
+  "title": "Comprehensive Analysis and Experimental Design of High-Gain DC-DC Boost\n  Converter Topologies",
+  "authors": "Webster Adepoju, Mary Sanyaolu",
+  "authorsParsed": [
+    [
+      "Adepoju",
+      "Webster",
+      ""
+    ],
+    [
+      "Sanyaolu",
+      "Mary",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 24 Dec 2024 10:30:57 GMT"
+    }
+  ],
+  "updateDate": "2024-12-25",
+  "timestamp": 1735036257000,
+  "abstract": "  Global demand for clean and eco-friendly energy sources has inspired decades\nof far-reaching research in power generation from renewable energy sources.\nSolar cells, wind, and tidal sources are limited in output power generation\ncompared to the fast-rising power requirements of most industrial applications.\nBesides, the efficiency of conventional DC-DC boost converters is significantly\nlow due to the presence of parasitic elements culminating in switching losses.\nThis study presents three high-gain boost converter topologies for optimizing\nthe limited voltage generation by solar Photovoltaic cells. The three\nconverters are realized based on a modification of a classical Cuk converter.\nSimply put, the first proposed converter is realized by the inclusion of one\ncapacitor and one inductor to the classical topology. Similarly, the addition\nof 3 capacitors, 2 diodes, and one inductor leads to the practical realization\nof the second proposed topology. Similarly, the third proposed topology\nconsists of additional 3 diodes and 3 capacitors. Based on this estimation, the\nfirst, second, and third proposed high gain modified Cuk converter topologies\ngenerate output voltages 10 times, 20 times, and 29 times the input voltage\nrespectively when the switching device is gated at 90% duty ratio.\nTheoretical/mathematical analysis validates the Lt-spice numerical simulation\nresults of all the proposed converters. Furthermore, experimental prototype\nresults were compared with Lt-spice estimation to determine the accuracy of the\nconverters.\n",
+  "subjects": [
+    "Electrical Engineering and Systems Science/Systems and Control",
+    "Computer Science/Systems and Control"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "zYu0Vc9OFRJwpEnd5JG1l1fKWq05zt71ssR3Ydn1X3E",
+  "pdfSize": "1548441"
+}

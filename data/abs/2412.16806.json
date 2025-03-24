@@ -1,0 +1,38 @@
+{
+  "id": "2412.16806",
+  "title": "Quantum-Like Contextuality in Large Language Models",
+  "authors": "Kin Ian Lo, Mehrnoosh Sadrzadeh, Shane Mansfield",
+  "authorsParsed": [
+    [
+      "Lo",
+      "Kin Ian",
+      ""
+    ],
+    [
+      "Sadrzadeh",
+      "Mehrnoosh",
+      ""
+    ],
+    [
+      "Mansfield",
+      "Shane",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 21 Dec 2024 23:46:55 GMT"
+    }
+  ],
+  "updateDate": "2024-12-24",
+  "timestamp": 1734824815000,
+  "abstract": "  Contextuality is a distinguishing feature of quantum mechanics and there is\ngrowing evidence that it is a necessary condition for quantum advantage. In\norder to make use of it, researchers have been asking whether similar phenomena\narise in other domains. The answer has been yes, e.g. in behavioural sciences.\nHowever, one has to move to frameworks that take some degree of signalling into\naccount. Two such frameworks exist: (1) a signalling-corrected sheaf theoretic\nmodel, and (2) the Contextuality-by-Default (CbD) framework. This paper\nprovides the first large scale experimental evidence for a yes answer in\nnatural language. We construct a linguistic schema modelled over a contextual\nquantum scenario, instantiate it in the Simple English Wikipedia and extract\nprobability distributions for the instances using the large language model\nBERT. This led to the discovery of 77,118 sheaf-contextual and 36,938,948 CbD\ncontextual instances. We proved that the contextual instances came from\nsemantically similar words, by deriving an equation between degrees of\ncontextuality and Euclidean distances of BERT's embedding vectors. A regression\nmodel further reveals that Euclidean distance is indeed the best statistical\npredictor of contextuality. Our linguistic schema is a variant of the\nco-reference resolution challenge. These results are an indication that quantum\nmethods may be advantageous in language tasks.\n",
+  "subjects": [
+    "Computer Science/Computation and Language",
+    "Physics/Quantum Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "EWtzBP-KyGPd39q__3J0BRRC1Bs2HFa8AAsjevwgdX0",
+  "pdfSize": "541373"
+}

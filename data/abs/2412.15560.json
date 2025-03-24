@@ -1,0 +1,61 @@
+{
+  "id": "2412.15560",
+  "title": "Predicting Artificial Neural Network Representations to Learn\n  Recognition Model for Music Identification from Brain Recordings",
+  "authors": "Taketo Akama, Zhuohao Zhang, Pengcheng Li, Kotaro Hongo, Hiroaki\n  Kitano, Shun Minamikawa, Natalia Polouliakh",
+  "authorsParsed": [
+    [
+      "Akama",
+      "Taketo",
+      ""
+    ],
+    [
+      "Zhang",
+      "Zhuohao",
+      ""
+    ],
+    [
+      "Li",
+      "Pengcheng",
+      ""
+    ],
+    [
+      "Hongo",
+      "Kotaro",
+      ""
+    ],
+    [
+      "Kitano",
+      "Hiroaki",
+      ""
+    ],
+    [
+      "Minamikawa",
+      "Shun",
+      ""
+    ],
+    [
+      "Polouliakh",
+      "Natalia",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 20 Dec 2024 04:37:26 GMT"
+    }
+  ],
+  "updateDate": "2024-12-23",
+  "timestamp": 1734669446000,
+  "abstract": "  Recent studies have demonstrated that the representations of artificial\nneural networks (ANNs) can exhibit notable similarities to cortical\nrepresentations when subjected to identical auditory sensory inputs. In these\nstudies, the ability to predict cortical representations is probed by\nregressing from ANN representations to cortical representations. Building upon\nthis concept, our approach reverses the direction of prediction: we utilize ANN\nrepresentations as a supervisory signal to train recognition models using noisy\nbrain recordings obtained through non-invasive measurements. Specifically, we\nfocus on constructing a recognition model for music identification, where\nelectroencephalography (EEG) brain recordings collected during music listening\nserve as input. By training an EEG recognition model to predict ANN\nrepresentations-representations associated with music identification-we\nobserved a substantial improvement in classification accuracy. This study\nintroduces a novel approach to developing recognition models for brain\nrecordings in response to external auditory stimuli. It holds promise for\nadvancing brain-computer interfaces (BCI), neural decoding techniques, and our\nunderstanding of music cognition. Furthermore, it provides new insights into\nthe relationship between auditory brain activity and ANN representations.\n",
+  "subjects": [
+    "Quantitative Biology/Neurons and Cognition",
+    "Computer Science/Machine Learning",
+    "Computer Science/Sound",
+    "Electrical Engineering and Systems Science/Audio and Speech Processing",
+    "Electrical Engineering and Systems Science/Signal Processing"
+  ],
+  "license": "http://creativecommons.org/licenses/by-sa/4.0/",
+  "blobId": "f_CHh89ZQTbdXOxuRnoNERyUL0SJPlWvXmira8dKY6E",
+  "pdfSize": "2360088"
+}

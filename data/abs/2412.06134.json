@@ -1,0 +1,41 @@
+{
+  "id": "2412.06134",
+  "title": "Evaluating and Mitigating Social Bias for Large Language Models in\n  Open-ended Settings",
+  "authors": "Zhao Liu, Tian Xie, Xueru Zhang",
+  "authorsParsed": [
+    [
+      "Liu",
+      "Zhao",
+      ""
+    ],
+    [
+      "Xie",
+      "Tian",
+      ""
+    ],
+    [
+      "Zhang",
+      "Xueru",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 9 Dec 2024 01:29:47 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Sun, 19 Jan 2025 23:21:59 GMT"
+    }
+  ],
+  "updateDate": "2025-01-22",
+  "timestamp": 1733707787000,
+  "abstract": "  Current social bias benchmarks for Large Language Models (LLMs) primarily\nrely on pre-defined question formats like multiple-choice, limiting their\nability to reflect the complexity and open-ended nature of real-world\ninteractions. To address this gap, we extend an existing BBQ dataset introduced\nby incorporating fill-in-the-blank and short-answer question types, designed to\nevaluate biases in an open-ended setting. Our finding reveals that LLMs tend to\nproduce responses that are more biased against certain protected attributes,\nlike age and socio-economic status. On the other hand, these biased outputs\nproduced by LLMs can serve as valuable contexts and chains of thought for\ndebiasing. Our debiasing approach combined zero-shot, few-shot, and\nchain-of-thought could significantly reduce the level of bias to almost 0. We\nopen-source our evaluation and debiasing code hoping to encourage further\nmeasurements and mitigation of bias and stereotype in LLMs.\n",
+  "subjects": [
+    "Computer Science/Computation and Language"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "uUdaXPkEddN84F-RD9_KarA5izwoMpAkojp9Nv_ImiE",
+  "pdfSize": "246765"
+}

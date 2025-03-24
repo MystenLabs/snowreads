@@ -1,0 +1,46 @@
+{
+  "id": "2412.00027",
+  "title": "On the Numerical Approximation of the Karhunen-Lo\\`{e}ve Expansion for\n  Random Fields with Random Discrete Data",
+  "authors": "Michael Griebel, Guanglian Li, Christian Rieger",
+  "authorsParsed": [
+    [
+      "Griebel",
+      "Michael",
+      ""
+    ],
+    [
+      "Li",
+      "Guanglian",
+      ""
+    ],
+    [
+      "Rieger",
+      "Christian",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 18 Nov 2024 18:44:00 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Sun, 22 Dec 2024 22:43:32 GMT"
+    },
+    {
+      "version": "v3",
+      "created": "Tue, 24 Dec 2024 11:11:28 GMT"
+    }
+  ],
+  "updateDate": "2024-12-25",
+  "timestamp": 1731955440000,
+  "abstract": "  In many applications, random fields reflect uncertain parameters, and often\ntheir moments are part of the modeling process and thus well known. However,\nthere are practical situations where this is simply not the case. Therefore, we\ndo not assume that we know moments or expansion terms of the random fields, but\nonly have discretized samples of them. The main contribution of this paper\nconcerns the approximation of the true covariance operator from these finite\nmeasurements. We derive explicit error estimates that include the finite-rank\napproximation error of the covariance operator, the Monte Carlo-type error for\nsampling in the stochastic domain, and the numerical discretization error in\nthe physical domain. For this purpose, we use modern tapering covariance\nestimators adapted to high-dimensional applications, where the dimension is\nintroduced by the resolution of the measurement process. This allows us to give\nsufficient conditions on the three discretization parameters to guarantee that\nthe error is kept below a prescribed accuracy $\\varepsilon$.\n",
+  "subjects": [
+    "Mathematics/Numerical Analysis",
+    "Computer Science/Numerical Analysis"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "E7eZyyPZype24x8cwDaWJp1MzMdbBuNgnaH7HzbBvSs",
+  "pdfSize": "354389"
+}

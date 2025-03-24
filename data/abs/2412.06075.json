@@ -1,0 +1,48 @@
+{
+  "id": "2412.06075",
+  "title": "Hyperspectral Image Spectral-Spatial Feature Extraction via Tensor\n  Principal Component Analysis",
+  "authors": "Yuemei Ren, Liang Liao, Stephen John Maybank, Yanning Zhang, and Xin\n  Liu",
+  "authorsParsed": [
+    [
+      "Ren",
+      "Yuemei",
+      ""
+    ],
+    [
+      "Liao",
+      "Liang",
+      ""
+    ],
+    [
+      "Maybank",
+      "Stephen John",
+      ""
+    ],
+    [
+      "Zhang",
+      "Yanning",
+      ""
+    ],
+    [
+      "Liu",
+      "Xin",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 8 Dec 2024 21:52:09 GMT"
+    }
+  ],
+  "updateDate": "2024-12-10",
+  "timestamp": 1733694729000,
+  "abstract": "  This paper addresses the challenge of spectral-spatial feature extraction for\nhyperspectral image classification by introducing a novel tensor-based\nframework. The proposed approach incorporates circular convolution into a\ntensor structure to effectively capture and integrate both spectral and spatial\ninformation. Building upon this framework, the traditional Principal Component\nAnalysis (PCA) technique is extended to its tensor-based counterpart, referred\nto as Tensor Principal Component Analysis (TPCA). The proposed TPCA method\nleverages the inherent multi-dimensional structure of hyperspectral data,\nthereby enabling more effective feature representation. Experimental results on\nbenchmark hyperspectral datasets demonstrate that classification models using\nTPCA features consistently outperform those using traditional PCA and other\nstate-of-the-art techniques. These findings highlight the potential of the\ntensor-based framework in advancing hyperspectral image analysis.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "zoKcP6I75zgeM_BH8i-8ZNS6SN-b3Cb3wgFldORF3uI",
+  "pdfSize": "2528119"
+}

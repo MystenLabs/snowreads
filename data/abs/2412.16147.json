@@ -1,0 +1,42 @@
+{
+  "id": "2412.16147",
+  "title": "SeagrassFinder: Deep Learning for Eelgrass Detection and Coverage\n  Estimation in the Wild",
+  "authors": "Jannik Els\\\"a{\\ss}er, Laura Weihl, Veronika Cheplygina, Lisbeth Tangaa\n  Nielsen",
+  "authorsParsed": [
+    [
+      "Elsäßer",
+      "Jannik",
+      ""
+    ],
+    [
+      "Weihl",
+      "Laura",
+      ""
+    ],
+    [
+      "Cheplygina",
+      "Veronika",
+      ""
+    ],
+    [
+      "Nielsen",
+      "Lisbeth Tangaa",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 20 Dec 2024 18:50:54 GMT"
+    }
+  ],
+  "updateDate": "2024-12-23",
+  "timestamp": 1734720654000,
+  "abstract": "  Seagrass meadows play a crucial role in marine ecosystems, providing\nimportant services such as carbon sequestration, water quality improvement, and\nhabitat provision. Monitoring the distribution and abundance of seagrass is\nessential for environmental impact assessments and conservation efforts.\nHowever, the current manual methods of analyzing underwater video transects to\nassess seagrass coverage are time-consuming and subjective. This work explores\nthe use of deep learning models to automate the process of seagrass detection\nand coverage estimation from underwater video data. A dataset of over 8,300\nannotated underwater images was created, and several deep learning\narchitectures, including ResNet, InceptionNetV3, DenseNet, and Vision\nTransformer, were evaluated for the task of binary classification of ``Eelgrass\nPresent'' and ``Eelgrass Absent'' images. The results demonstrate that deep\nlearning models, particularly the Vision Transformer, can achieve high\nperformance in predicting eelgrass presence, with AUROC scores exceeding 0.95\non the final test dataset. The use of transfer learning and the application of\nthe Deep WaveNet underwater image enhancement model further improved the\nmodels' capabilities. The proposed methodology allows for the efficient\nprocessing of large volumes of video data, enabling the acquisition of much\nmore detailed information on seagrass distributions compared to current manual\nmethods. This information is crucial for environmental impact assessments and\nmonitoring programs, as seagrasses are important indicators of coastal\necosystem health. Overall, this project demonstrates the value that deep\nlearning can bring to the field of marine ecology and environmental monitoring.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "NU2ksWJv0_vFTX-H_OhYPM_u9SMwCLrEOeq3dxeH9SU",
+  "pdfSize": "6028641"
+}

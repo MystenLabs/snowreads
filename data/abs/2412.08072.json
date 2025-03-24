@@ -1,0 +1,59 @@
+{
+  "id": "2412.08072",
+  "title": "Using Large Language Models for Parametric Shape Optimization",
+  "authors": "Xinxin Zhang, Zhuoqun Xu, Guangpu Zhu, Chien Ming Jonathan Tay,\n  Yongdong Cui, Boo Cheong Khoo, Lailai Zhu",
+  "authorsParsed": [
+    [
+      "Zhang",
+      "Xinxin",
+      ""
+    ],
+    [
+      "Xu",
+      "Zhuoqun",
+      ""
+    ],
+    [
+      "Zhu",
+      "Guangpu",
+      ""
+    ],
+    [
+      "Tay",
+      "Chien Ming Jonathan",
+      ""
+    ],
+    [
+      "Cui",
+      "Yongdong",
+      ""
+    ],
+    [
+      "Khoo",
+      "Boo Cheong",
+      ""
+    ],
+    [
+      "Zhu",
+      "Lailai",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 11 Dec 2024 03:35:38 GMT"
+    }
+  ],
+  "updateDate": "2024-12-12",
+  "timestamp": 1733888138000,
+  "abstract": "  Recent advanced large language models (LLMs) have showcased their emergent\ncapability of in-context learning, facilitating intelligent decision-making\nthrough natural language prompts without retraining. This new machine learning\nparadigm has shown promise in various fields, including general control and\noptimization problems. Inspired by these advancements, we explore the potential\nof LLMs for a specific and essential engineering task: parametric shape\noptimization (PSO). We develop an optimization framework, LLM-PSO, that\nleverages an LLM to determine the optimal shape of parameterized engineering\ndesigns in the spirit of evolutionary strategies. Utilizing the ``Claude 3.5\nSonnet'' LLM, we evaluate LLM-PSO on two benchmark flow optimization problems,\nspecifically aiming to identify drag-minimizing profiles for 1) a\ntwo-dimensional airfoil in laminar flow, and 2) a three-dimensional\naxisymmetric body in Stokes flow. In both cases, LLM-PSO successfully\nidentifies optimal shapes in agreement with benchmark solutions. Besides, it\ngenerally converges faster than other classical optimization algorithms. Our\npreliminary exploration may inspire further investigations into harnessing LLMs\nfor shape optimization and engineering design more broadly.\n",
+  "subjects": [
+    "Computer Science/Computational Engineering, Finance, and Science",
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "PW8fOPe3iq2k67Y7EkWlGw8cSAqn7uTbUT9SDmKfWAI",
+  "pdfSize": "2978757"
+}

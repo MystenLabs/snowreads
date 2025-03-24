@@ -1,0 +1,57 @@
+{
+  "id": "2412.18151",
+  "title": "CoAM: Corpus of All-Type Multiword Expressions",
+  "authors": "Yusuke Ide, Joshua Tanner, Adam Nohejl, Jacob Hoffman, Justin\n  Vasselli, Hidetaka Kamigaito, Taro Watanabe",
+  "authorsParsed": [
+    [
+      "Ide",
+      "Yusuke",
+      ""
+    ],
+    [
+      "Tanner",
+      "Joshua",
+      ""
+    ],
+    [
+      "Nohejl",
+      "Adam",
+      ""
+    ],
+    [
+      "Hoffman",
+      "Jacob",
+      ""
+    ],
+    [
+      "Vasselli",
+      "Justin",
+      ""
+    ],
+    [
+      "Kamigaito",
+      "Hidetaka",
+      ""
+    ],
+    [
+      "Watanabe",
+      "Taro",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 24 Dec 2024 04:09:33 GMT"
+    }
+  ],
+  "updateDate": "2024-12-25",
+  "timestamp": 1735013373000,
+  "abstract": "  Multiword expressions (MWEs) refer to idiomatic sequences of multiple words.\nMWE identification, i.e., detecting MWEs in text, can play a key role in\ndownstream tasks such as machine translation. Existing datasets for MWE\nidentification are inconsistently annotated, limited to a single type of MWE,\nor limited in size. To enable reliable and comprehensive evaluation, we created\nCoAM: Corpus of All-Type Multiword Expressions, a dataset of 1.3K sentences\nconstructed through a multi-step process to enhance data quality consisting of\nhuman annotation, human review, and automated consistency checking. MWEs in\nCoAM are tagged with MWE types, such as Noun and Verb, to enable fine-grained\nerror analysis. Annotations for CoAM were collected using a new interface\ncreated with our interface generator, which allows easy and flexible annotation\nof MWEs in any form, including discontinuous ones. Through experiments using\nCoAM, we find that a fine-tuned large language model outperforms the current\nstate-of-the-art approach for MWE identification. Furthermore, analysis using\nour MWE type tagged data reveals that Verb MWEs are easier than Noun MWEs to\nidentify across approaches.\n",
+  "subjects": [
+    "Computer Science/Computation and Language"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "qwnrvf2HX-zvTTpT5oO7Kq9jZNsRad-Ae9S4Px0M1zk",
+  "pdfSize": "519966"
+}

@@ -1,0 +1,38 @@
+{
+  "id": "2412.13990",
+  "title": "A geodesic convexity-like structure for the polar decomposition of a\n  square matrix",
+  "authors": "Foivos Alimisis, Bart Vandereycken",
+  "authorsParsed": [
+    [
+      "Alimisis",
+      "Foivos",
+      ""
+    ],
+    [
+      "Vandereycken",
+      "Bart",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 18 Dec 2024 16:10:44 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Sun, 19 Jan 2025 18:43:04 GMT"
+    }
+  ],
+  "updateDate": "2025-01-22",
+  "timestamp": 1734538244000,
+  "abstract": "  We make a full landscape analysis of the (generally non-convex) orthogonal\nProcrustes problem. This problem is equivalent to computing the polar factor of\na square matrix. We reveal a convexity-like structure, which explains the\nalready established tractability of the problem and show that gradient descent\nin the orthogonal group computes the polar factor of a square matrix with\nlinear convergence rate if the matrix is invertible and with an algebraic one\nif the matrix is singular. These results are similar to the ones of Alimisis\nand Vandereycken (2024) for the symmetric eigenvalue problem.\n",
+  "subjects": [
+    "Mathematics/Numerical Analysis",
+    "Computer Science/Numerical Analysis",
+    "Mathematics/Optimization and Control"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "PuG9LGpHKeo3zaTeR3nt0N8O7IZpSFhyFPv2Kp24_NI",
+  "pdfSize": "232264"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "2412.10166",
+  "title": "A Non-Convex Optimization Strategy for Computing Convex-Roof\n  Entanglement",
+  "authors": "Jimmie Adriazola and Katarzyna Roszak",
+  "authorsParsed": [
+    [
+      "Adriazola",
+      "Jimmie",
+      ""
+    ],
+    [
+      "Roszak",
+      "Katarzyna",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 13 Dec 2024 14:29:02 GMT"
+    }
+  ],
+  "updateDate": "2024-12-16",
+  "timestamp": 1734100142000,
+  "abstract": "  We develop a numerical methodology for the computation of entanglement\nmeasures for mixed quantum states. Using the well-known Schr\\\"odinger-HJW\ntheorem, the computation of convex roof entanglement measures is reframed as a\nsearch for unitary matrices; a nonconvex optimization problem. To address this\nnon-convexity, we modify a genetic algorithm, known in the literature as\ndifferential evolution, constraining the search space to unitary matrices by\nusing a QR factorization. We then refine results using a quasi-Newton method.\nWe benchmark our method on simple test problems and, as an application, compute\nentanglement between a system and its environment over time for pure dephasing\nevolutions. We also study the temperature dependence of Gibbs state\nentanglement for a class of block-diagonal Hamiltonians to provide a\ncomplementary test scenario with a set of entangled states that are\nqualitatively different. We find that the method works well enough to reliably\nreproduce entanglement curves, even for comparatively large systems. To our\nknowledge, the modified genetic algorithm represents the first derivative-free\nand non-convex computational method that broadly applies to the computation of\nconvex roof entanglement measures.\n",
+  "subjects": [
+    "Physics/Quantum Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "0I4KLxcn9gPUbq8o0E30SVtME5rGyyF6S1Lue0gC2es",
+  "pdfSize": "6972554"
+}

@@ -1,0 +1,67 @@
+{
+  "id": "2412.02557",
+  "title": "Dust emission from the bulk of galaxies at the Epoch of Reionization",
+  "authors": "L. Ciesla, S. Adscheid, B. Magnelli, M. Boquien, N. Laporte, M.\n  Bethermin, C. Carvajal, E. Schinnerer, and D. Liu",
+  "authorsParsed": [
+    [
+      "Ciesla",
+      "L.",
+      ""
+    ],
+    [
+      "Adscheid",
+      "S.",
+      ""
+    ],
+    [
+      "Magnelli",
+      "B.",
+      ""
+    ],
+    [
+      "Boquien",
+      "M.",
+      ""
+    ],
+    [
+      "Laporte",
+      "N.",
+      ""
+    ],
+    [
+      "Bethermin",
+      "M.",
+      ""
+    ],
+    [
+      "Carvajal",
+      "C.",
+      ""
+    ],
+    [
+      "Schinnerer",
+      "E.",
+      ""
+    ],
+    [
+      "Liu",
+      "D.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 3 Dec 2024 16:47:39 GMT"
+    }
+  ],
+  "updateDate": "2024-12-04",
+  "timestamp": 1733244459000,
+  "abstract": "  [Abridged] Our view of dust in primordial galaxies is limited towards a few\ntens of z~7 galaxies, pre-selected from UV-optical observations, and are thus\nnot necessarily representative of the bulk of the sources at these redshifts.\nIn this work, we aim at constraining the dust properties of galaxies at 6<z<12\nby making the most of the A3COSMOS database in the JADES/GOODS-South field. We\nstacked ALMA band 6 and 7 observations of 4464 galaxies covered by the A3COSMOS\ndatabase and used the measurements as constraints to perform UV-to-FIR SED\nmodelling. We obtain tentative signals for the brightest UV galaxies\n(MUV<-19mag) as well as for the most massive ones (log Mstar>9) at 6<z<7, and\nupper limits for fainter (MUV>-19mag), lower mass sources (log Mstar<9), and at\nhigher redshift (z>7). Fitting these 6<z<7 galaxies with ALMA constraints\nresults in lower star formation rates (-0.4dex) and FUV attenuation (-0.5mag)\nfor galaxies with log Mstar>8, compared to the fit without FIR. We extend the\nLIR vs MUV relation down to MUV=-19mag and show a tentative breakdown of the\nrelation at fainter UV magnitudes. The positions of the JADES z~6.5 sample on\nthe IRX versus beta and IRX versus Mstar diagrams are consistent with those of\nthe ALPINE (z~5.5) and REBELS (z~6.5) samples, suggesting that the dust\ncomposition and content of our mass-selected sample are similar to these\nUV-selected galaxies. Extending our analysis of the infrared properties to z>7\ngalaxies, we find a non-evolution of beta with redshift in the MUV range probed\nby our sample (-17.24+/-0.62) and highlight the fact that samples from the\nliterature are not representative of the bulk of galaxy populations at z>6. We\nconfirm a linear relation between AV and 1/sSFR with a flatter slope than\npreviously reported due to the use of ALMA constraints. Our results suggest\nthat rapid and significant dust production has already happened by z~7.\n",
+  "subjects": [
+    "Astrophysics/Astrophysics of Galaxies"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "7Auz9pM9Eq7sVKxGCYDS7Gfp56a0LDg-MxEr3wgSDkQ",
+  "pdfSize": "2074703"
+}

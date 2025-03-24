@@ -1,0 +1,38 @@
+{
+  "id": "2412.09110",
+  "title": "OriginPruner: Leveraging Method Origins for Guided Call Graph Pruning",
+  "authors": "Amir M. Mir, Mehdi Keshani, Sebastian Proksch",
+  "authorsParsed": [
+    [
+      "Mir",
+      "Amir M.",
+      ""
+    ],
+    [
+      "Keshani",
+      "Mehdi",
+      ""
+    ],
+    [
+      "Proksch",
+      "Sebastian",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 12 Dec 2024 09:42:51 GMT"
+    }
+  ],
+  "updateDate": "2024-12-13",
+  "timestamp": 1733996571000,
+  "abstract": "  Most static program analyses depend on Call Graphs (CGs), including\nreachability of security vulnerabilities. Static CGs ensure soundness through\nover-approximation, which results in inflated sizes and imprecision. Recent\nresearch has employed machine learning (ML) models to prune false edges and\nenhance CG precision. However, these models require real-world programs with\nhigh test coverage to generalize effectively and the inference is expensive. In\nthis paper, we present OriginPruner, a novel call graph pruning technique that\nleverages the method origin, which is where a method signature is first\nintroduced within a class hierarchy. By incorporating insights from a localness\nanalysis that investigated the scope of method interactions into our approach,\nOriginPruner confidently identifies and prunes edges related to these origin\nmethods. Our key findings reveal that (1) dominant origin methods, such as\nIterator.next, significantly impact CG sizes; (2) derivatives of these origin\nmethods are primarily local, enabling safe pruning without affecting downstream\ninter-procedural analyses; (3) OriginPruner achieves a significant reduction in\nCG size while maintaining the soundness of CGs for security applications like\nvulnerability propagation analysis; and (4) OriginPruner introduces minimal\ncomputational overhead. These findings underscore the potential of leveraging\ndomain knowledge about the type system for more effective CG pruning, offering\na promising direction for future work in static program analysis.\n",
+  "subjects": [
+    "Computer Science/Cryptography and Security",
+    "Computer Science/Software Engineering"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "ZKguYrGKsd38u7JDJnIEArm2im9dW4SH5zg0t2e_IrQ",
+  "pdfSize": "312353"
+}

@@ -1,0 +1,58 @@
+{
+  "id": "2412.14579",
+  "title": "GSRender: Deduplicated Occupancy Prediction via Weakly Supervised 3D\n  Gaussian Splatting",
+  "authors": "Qianpu Sun, Changyong Shu, Sifan Zhou, Zichen Yu, Yan Chen, Dawei\n  Yang, Yuan Chun",
+  "authorsParsed": [
+    [
+      "Sun",
+      "Qianpu",
+      ""
+    ],
+    [
+      "Shu",
+      "Changyong",
+      ""
+    ],
+    [
+      "Zhou",
+      "Sifan",
+      ""
+    ],
+    [
+      "Yu",
+      "Zichen",
+      ""
+    ],
+    [
+      "Chen",
+      "Yan",
+      ""
+    ],
+    [
+      "Yang",
+      "Dawei",
+      ""
+    ],
+    [
+      "Chun",
+      "Yuan",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 19 Dec 2024 06:57:37 GMT"
+    }
+  ],
+  "updateDate": "2024-12-20",
+  "timestamp": 1734591457000,
+  "abstract": "  3D occupancy perception is gaining increasing attention due to its capability\nto offer detailed and precise environment representations. Previous\nweakly-supervised NeRF methods balance efficiency and accuracy, with mIoU\nvarying by 5-10 points due to sampling count along camera rays. Recently,\nreal-time Gaussian splatting has gained widespread popularity in 3D\nreconstruction, and the occupancy prediction task can also be viewed as a\nreconstruction task. Consequently, we propose GSRender, which naturally employs\n3D Gaussian Splatting for occupancy prediction, simplifying the sampling\nprocess. In addition, the limitations of 2D supervision result in duplicate\npredictions along the same camera ray. We implemented the Ray Compensation (RC)\nmodule, which mitigates this issue by compensating for features from adjacent\nframes. Finally, we redesigned the loss to eliminate the impact of dynamic\nobjects from adjacent frames. Extensive experiments demonstrate that our\napproach achieves SOTA (state-of-the-art) results in RayIoU (+6.0), while\nnarrowing the gap with 3D supervision methods. Our code will be released soon.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "wNDC9-B1zMptyJDi88S0EpMrjSPRoxTbTLEIKmhSxGo",
+  "pdfSize": "4175551"
+}

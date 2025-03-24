@@ -1,0 +1,60 @@
+{
+  "id": "2412.07629",
+  "title": "Piece of Table: A Divide-and-Conquer Approach for Selecting Subtables in\n  Table Question Answering",
+  "authors": "Wonjin Lee, Kyumin Kim, Sungjae Lee, Jihun Lee, Kwang In Kim",
+  "authorsParsed": [
+    [
+      "Lee",
+      "Wonjin",
+      ""
+    ],
+    [
+      "Kim",
+      "Kyumin",
+      ""
+    ],
+    [
+      "Lee",
+      "Sungjae",
+      ""
+    ],
+    [
+      "Lee",
+      "Jihun",
+      ""
+    ],
+    [
+      "Kim",
+      "Kwang In",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 10 Dec 2024 16:08:14 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Thu, 19 Dec 2024 06:53:37 GMT"
+    },
+    {
+      "version": "v3",
+      "created": "Fri, 17 Jan 2025 11:37:04 GMT"
+    },
+    {
+      "version": "v4",
+      "created": "Wed, 19 Feb 2025 11:56:57 GMT"
+    }
+  ],
+  "updateDate": "2025-02-20",
+  "timestamp": 1733846894000,
+  "abstract": "  Applying language models (LMs) to tables is challenging due to the inherent\nstructural differences between two-dimensional tables and one-dimensional text\nfor which the LMs were originally designed. Furthermore, when applying\nlinearized tables to LMs, the maximum token lengths often imposed in\nself-attention calculations make it difficult to comprehensively understand the\ncontext spread across large tables. To address these challenges, we present\nPieTa (Piece of Table), a new framework for subtable-based question answering\n(QA). PieTa operates through an iterative process of dividing tables into\nsmaller windows, using LMs to select relevant cells within each window, and\nmerging these cells into a subtable. This multi-resolution approach captures\ndependencies across multiple rows and columns while avoiding the limitations\ncaused by long context inputs. Instantiated as a simple iterative subtable\nunion algorithm, PieTa demonstrates improved performance over previous\nsubtable-based QA approaches.\n",
+  "subjects": [
+    "Computer Science/Computation and Language",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "OE1hIMc6BcpMYC3xxToECg-g1qLs4iUWlkv79IcsS1E",
+  "pdfSize": "1284848"
+}

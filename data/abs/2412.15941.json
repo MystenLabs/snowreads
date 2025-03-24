@@ -1,0 +1,52 @@
+{
+  "id": "2412.15941",
+  "title": "pyRheo: An open-source Python package for complex rheology",
+  "authors": "Isaac Y. Miranda-Valdez, Aaro Niinist\\\"o, Tero M\\\"akinen, Juha Lejon,\n  Juha Koivisto, Mikko J. Alava",
+  "authorsParsed": [
+    [
+      "Miranda-Valdez",
+      "Isaac Y.",
+      ""
+    ],
+    [
+      "Niinistö",
+      "Aaro",
+      ""
+    ],
+    [
+      "Mäkinen",
+      "Tero",
+      ""
+    ],
+    [
+      "Lejon",
+      "Juha",
+      ""
+    ],
+    [
+      "Koivisto",
+      "Juha",
+      ""
+    ],
+    [
+      "Alava",
+      "Mikko J.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 20 Dec 2024 14:34:48 GMT"
+    }
+  ],
+  "updateDate": "2024-12-23",
+  "timestamp": 1734705288000,
+  "abstract": "  Mathematical modeling is a powerful tool in rheology, and we present pyRheo,\nan open-source package for Python designed to streamline the analysis of creep,\nstress relaxation, oscillation, and rotation tests. pyRheo contains a\ncomprehensive selection of viscoelastic models, including fractional order\napproaches. It integrates model selection and fitting features and employs\nmachine intelligence to suggest a model to describe a given dataset. The\npackage fits the suggested model or one chosen by the user. An advantage of\nusing pyRheo is that it addresses challenges associated with sensitivity to\ninitial guesses in parameter optimization. It allows the user to iteratively\nsearch for the best initial guesses, avoiding convergence to local minima. We\ndiscuss the capabilities of pyRheo and compare them to other tools for\nrheological modeling of biological matter. We demonstrate that pyRheo\nsignificantly reduces the computation time required to fit high-performance\nviscoelastic models.\n",
+  "subjects": [
+    "Condensed Matter/Soft Condensed Matter"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "oOXGEMcKyPb5jzTt9dqolPhQLneCnXS35HKO1UlYNxY",
+  "pdfSize": "3393478"
+}

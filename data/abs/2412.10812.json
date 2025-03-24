@@ -1,0 +1,37 @@
+{
+  "id": "2412.10812",
+  "title": "Multiplicity results for a subcritical Hamiltonian system with\n  concave-convex nonlinearities",
+  "authors": "Oscar Agudelo and Bernhard Ruf and Carlos Velez",
+  "authorsParsed": [
+    [
+      "Agudelo",
+      "Oscar",
+      ""
+    ],
+    [
+      "Ruf",
+      "Bernhard",
+      ""
+    ],
+    [
+      "Velez",
+      "Carlos",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 14 Dec 2024 12:33:43 GMT"
+    }
+  ],
+  "updateDate": "2024-12-17",
+  "timestamp": 1734179623000,
+  "abstract": "  We study the {\\it Hamiltonian elliptic system}\n\\begin{eqnarray}\\label{HS1-abstract} \\left\\{ \\begin{aligned} -\\Delta u & =\n\\lambda |v|^{r-1}v +|v|^{p-1}v \\qquad &\\hbox{in} \\ \\ \\Omega ,\\\\ -\\Delta v & =\n\\mu |u|^{s-1}u +|u|^{q-1}u \\qquad &\\hbox{in} \\ \\ \\Omega ,\\\\ u &>0, \\ v>0 \\qquad\n\\, &\\hbox{in} \\ \\ \\Omega ,\\\\ u &=v = 0 \\qquad \\quad &\\hbox{on} \\quad \\partial\n\\Omega, \\end{aligned} \\right. \\end{eqnarray} where $\\Omega \\subset \\mathbb\n{R}^N$ is a smooth bounded domain, $\\lambda$ and $ \\mu $ are nonnegative\nparameters and $r,s,p,q>0$. Our study includes the case in which the\nnonlinearities in \\eqref{HS1-abstract} are concave near the origin and convex\nnear infinity, and we focus on the region of non-negative {\\it pairs of\nparameters} \\red{$(\\lambda,\\mu)$} that guarantee exis\\-tence and multiplicity\nof solutions of \\eqref{HS1-abstract}. \\red{In particular, we show the existence\nof a strictly decreasing curve $\\lambda_*(\\mu)$ on an interval $[0, \\mu]$ with\n$\\lambda_*(0)> 0, \\lambda_*(\\mu) = 0$ and such that the system has two\nsolutions for $(\\lambda,\\mu)$ below the curve, one solution for $(\\lambda,\n\\mu)$ on the curve and no solution for $(\\lambda, \\mu)$ above the curve. A\nsimilar statement holds reversing $\\lambda$ and $\\mu$.} This work is motivated\nby some of the results by Ambrosseti, BRezis and Cerami from 1993.\n",
+  "subjects": [
+    "Mathematics/Analysis of PDEs"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "adsuEheyMcWg2niWkDxw6-0msz9O-DMKoO2RCVgTCV4",
+  "pdfSize": "485165"
+}

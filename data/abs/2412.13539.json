@@ -1,0 +1,37 @@
+{
+  "id": "2412.13539",
+  "title": "Linear stability and resolvent analyses of a bluff-body stabilized flame\n  with conjugate heat transfer",
+  "authors": "Lu Chen, Wai Lee Chan and Yu Lv",
+  "authorsParsed": [
+    [
+      "Chen",
+      "Lu",
+      ""
+    ],
+    [
+      "Chan",
+      "Wai Lee",
+      ""
+    ],
+    [
+      "Lv",
+      "Yu",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 18 Dec 2024 06:35:11 GMT"
+    }
+  ],
+  "updateDate": "2024-12-19",
+  "timestamp": 1734503711000,
+  "abstract": "  Conjugate heat transfer is a challenging fluid-structure coupling problem\nthat can significantly influence flame stabilization and thermoacoustic\ninstabilities. To properly capture combustion phenomena that involve conjugate\nheat transfer, careful modeling of chemical reactions in the fluid domain and\nheat transfer in the solid body is necessary and remains an active research\ntopic. To this end, we derived a strongly-coupled method with a monolithic weak\nformulation to investigate the conjugate heat transfer between an anchored\nflame and a thermal conductive cylinder by means of linear stability analysis\nand resolvent analysis. We conduct parameter continuation with the Damkohler\nnumber to construct a bifurcation diagram and identify multiple baseflow\nstates, including blow-off, anchored flame, and flashback. Linear stability\nanalysis reveals the presence of a single unstable, non-oscillatory eigenmode\nfor the base states on the anchored flame branch. This eigenmode plays a\npivotal role in driving the bifurcation. Subsequently, resolvent analysis is\nperformed to examine the amplification behavior of the fluid-solid coupled\nsystem under external forcing, showing that heat fluctuations are maximized\nwhen heat transfer between the fluid and solid is minimized.\n",
+  "subjects": [
+    "Physics/Fluid Dynamics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "ui8o1voMDGYSs-e2a2fu-HZHGXKzqQq3Li8Ix3B_Jl4",
+  "pdfSize": "2213430"
+}

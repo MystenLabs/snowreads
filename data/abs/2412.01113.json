@@ -1,0 +1,62 @@
+{
+  "id": "2412.01113",
+  "title": "Think-to-Talk or Talk-to-Think? When LLMs Come Up with an Answer in\n  Multi-Step Reasoning",
+  "authors": "Keito Kudo, Yoichi Aoki, Tatsuki Kuribayashi, Shusaku Sone, Masaya\n  Taniguchi, Ana Brassard, Keisuke Sakaguchi, Kentaro Inui",
+  "authorsParsed": [
+    [
+      "Kudo",
+      "Keito",
+      ""
+    ],
+    [
+      "Aoki",
+      "Yoichi",
+      ""
+    ],
+    [
+      "Kuribayashi",
+      "Tatsuki",
+      ""
+    ],
+    [
+      "Sone",
+      "Shusaku",
+      ""
+    ],
+    [
+      "Taniguchi",
+      "Masaya",
+      ""
+    ],
+    [
+      "Brassard",
+      "Ana",
+      ""
+    ],
+    [
+      "Sakaguchi",
+      "Keisuke",
+      ""
+    ],
+    [
+      "Inui",
+      "Kentaro",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 2 Dec 2024 04:35:54 GMT"
+    }
+  ],
+  "updateDate": "2024-12-03",
+  "timestamp": 1733114154000,
+  "abstract": "  This study investigates the internal reasoning mechanism of language models\nduring symbolic multi-step reasoning, motivated by the question of whether\nchain-of-thought (CoT) outputs are faithful to the model's internals.\nSpecifically, we inspect when they internally determine their answers,\nparticularly before or after CoT begins, to determine whether models follow a\npost-hoc \"think-to-talk\" mode or a step-by-step \"talk-to-think\" mode of\nexplanation. Through causal probing experiments in controlled arithmetic\nreasoning tasks, we found systematic internal reasoning patterns across models;\nfor example, simple subproblems are solved before CoT begins, and more\ncomplicated multi-hop calculations are performed during CoT.\n",
+  "subjects": [
+    "Computer Science/Computation and Language"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "UE13WIybXGmBWAs5RVxRdgaCqoFiTlHnAL5CsvRb80I",
+  "pdfSize": "5406855"
+}

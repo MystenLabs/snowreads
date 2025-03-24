@@ -1,0 +1,96 @@
+{
+  "id": "2412.08486",
+  "title": "Learning Flow Fields in Attention for Controllable Person Image\n  Generation",
+  "authors": "Zijian Zhou, Shikun Liu, Xiao Han, Haozhe Liu, Kam Woh Ng, Tian Xie,\n  Yuren Cong, Hang Li, Mengmeng Xu, Juan-Manuel P\\'erez-R\\'ua, Aditya Patel,\n  Tao Xiang, Miaojing Shi, Sen He",
+  "authorsParsed": [
+    [
+      "Zhou",
+      "Zijian",
+      ""
+    ],
+    [
+      "Liu",
+      "Shikun",
+      ""
+    ],
+    [
+      "Han",
+      "Xiao",
+      ""
+    ],
+    [
+      "Liu",
+      "Haozhe",
+      ""
+    ],
+    [
+      "Ng",
+      "Kam Woh",
+      ""
+    ],
+    [
+      "Xie",
+      "Tian",
+      ""
+    ],
+    [
+      "Cong",
+      "Yuren",
+      ""
+    ],
+    [
+      "Li",
+      "Hang",
+      ""
+    ],
+    [
+      "Xu",
+      "Mengmeng",
+      ""
+    ],
+    [
+      "Pérez-Rúa",
+      "Juan-Manuel",
+      ""
+    ],
+    [
+      "Patel",
+      "Aditya",
+      ""
+    ],
+    [
+      "Xiang",
+      "Tao",
+      ""
+    ],
+    [
+      "Shi",
+      "Miaojing",
+      ""
+    ],
+    [
+      "He",
+      "Sen",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 11 Dec 2024 15:51:14 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Thu, 12 Dec 2024 18:43:39 GMT"
+    }
+  ],
+  "updateDate": "2024-12-13",
+  "timestamp": 1733932274000,
+  "abstract": "  Controllable person image generation aims to generate a person image\nconditioned on reference images, allowing precise control over the person's\nappearance or pose. However, prior methods often distort fine-grained textural\ndetails from the reference image, despite achieving high overall image quality.\nWe attribute these distortions to inadequate attention to corresponding regions\nin the reference image. To address this, we thereby propose learning flow\nfields in attention (Leffa), which explicitly guides the target query to attend\nto the correct reference key in the attention layer during training.\nSpecifically, it is realized via a regularization loss on top of the attention\nmap within a diffusion-based baseline. Our extensive experiments show that\nLeffa achieves state-of-the-art performance in controlling appearance (virtual\ntry-on) and pose (pose transfer), significantly reducing fine-grained detail\ndistortion while maintaining high image quality. Additionally, we show that our\nloss is model-agnostic and can be used to improve the performance of other\ndiffusion models.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "_KZIwYraS7YR9eX2PGTRwOvQ5tYusLepxqTHQxMu32w",
+  "pdfSize": "50177722"
+}

@@ -1,0 +1,56 @@
+{
+  "id": "2412.02168",
+  "title": "Generative Photography: Scene-Consistent Camera Control for Realistic\n  Text-to-Image Synthesis",
+  "authors": "Yu Yuan and Xijun Wang and Yichen Sheng and Prateek Chennuri and\n  Xingguang Zhang and Stanley Chan",
+  "authorsParsed": [
+    [
+      "Yuan",
+      "Yu",
+      ""
+    ],
+    [
+      "Wang",
+      "Xijun",
+      ""
+    ],
+    [
+      "Sheng",
+      "Yichen",
+      ""
+    ],
+    [
+      "Chennuri",
+      "Prateek",
+      ""
+    ],
+    [
+      "Zhang",
+      "Xingguang",
+      ""
+    ],
+    [
+      "Chan",
+      "Stanley",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 3 Dec 2024 04:55:02 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Wed, 4 Dec 2024 14:58:01 GMT"
+    }
+  ],
+  "updateDate": "2024-12-05",
+  "timestamp": 1733201702000,
+  "abstract": "  Image generation today can produce somewhat realistic images from text\nprompts. However, if one asks the generator to synthesize a particular camera\nsetting such as creating different fields of view using a 24mm lens versus a\n70mm lens, the generator will not be able to interpret and generate\nscene-consistent images. This limitation not only hinders the adoption of\ngenerative tools in photography applications but also exemplifies a broader\nissue of bridging the gap between the data-driven models and the physical\nworld. In this paper, we introduce the concept of Generative Photography, a\nframework designed to control camera intrinsic settings during content\ngeneration. The core innovation of this work are the concepts of Dimensionality\nLifting and Contrastive Camera Learning, which achieve continuous and\nconsistent transitions for different camera settings. Experimental results show\nthat our method produces significantly more scene-consistent photorealistic\nimages than state-of-the-art models such as Stable Diffusion 3 and FLUX.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "Un8QMb36dNhzlSeyhXicXRPpziPKdsa0ca1ZYl7ZbWI",
+  "pdfSize": "4141332"
+}

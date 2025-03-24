@@ -1,0 +1,58 @@
+{
+  "id": "2412.10489",
+  "title": "CognitionCapturer: Decoding Visual Stimuli From Human EEG Signal With\n  Multimodal Information",
+  "authors": "Kaifan Zhang, Lihuo He, Xin Jiang, Wen Lu, Di Wang, Xinbo Gao",
+  "authorsParsed": [
+    [
+      "Zhang",
+      "Kaifan",
+      ""
+    ],
+    [
+      "He",
+      "Lihuo",
+      ""
+    ],
+    [
+      "Jiang",
+      "Xin",
+      ""
+    ],
+    [
+      "Lu",
+      "Wen",
+      ""
+    ],
+    [
+      "Wang",
+      "Di",
+      ""
+    ],
+    [
+      "Gao",
+      "Xinbo",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 13 Dec 2024 16:27:54 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Tue, 24 Dec 2024 13:03:44 GMT"
+    }
+  ],
+  "updateDate": "2024-12-25",
+  "timestamp": 1734107274000,
+  "abstract": "  Electroencephalogram (EEG) signals have attracted significant attention from\nresearchers due to their non-invasive nature and high temporal sensitivity in\ndecoding visual stimuli. However, most recent studies have focused solely on\nthe relationship between EEG and image data pairs, neglecting the valuable\n``beyond-image-modality\" information embedded in EEG signals. This results in\nthe loss of critical multimodal information in EEG. To address this limitation,\nwe propose CognitionCapturer, a unified framework that fully leverages\nmultimodal data to represent EEG signals. Specifically, CognitionCapturer\ntrains Modality Expert Encoders for each modality to extract cross-modal\ninformation from the EEG modality. Then, it introduces a diffusion prior to map\nthe EEG embedding space to the CLIP embedding space, followed by using a\npretrained generative model, the proposed framework can reconstruct visual\nstimuli with high semantic and structural fidelity. Notably, the framework does\nnot require any fine-tuning of the generative models and can be extended to\nincorporate more modalities. Through extensive experiments, we demonstrate that\nCognitionCapturer outperforms state-of-the-art methods both qualitatively and\nquantitatively. Code: https://github.com/XiaoZhangYES/CognitionCapturer.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Artificial Intelligence",
+    "Electrical Engineering and Systems Science/Signal Processing"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "kqsj-tU56dmRzm5ISyVpscHFuSm5Lj7ffvnazThgtXk",
+  "pdfSize": "9662823"
+}

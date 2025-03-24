@@ -1,0 +1,68 @@
+{
+  "id": "2412.04248",
+  "title": "Compliant Self Service Access to Secondary Use Clinical Data at Stanford\n  Medicine",
+  "authors": "SC Weber, J Pallas, G Olson, D Love, S Malunjkar, S Boosi, E Loh, S\n  Datta, TA Ferris",
+  "authorsParsed": [
+    [
+      "Weber",
+      "SC",
+      ""
+    ],
+    [
+      "Pallas",
+      "J",
+      ""
+    ],
+    [
+      "Olson",
+      "G",
+      ""
+    ],
+    [
+      "Love",
+      "D",
+      ""
+    ],
+    [
+      "Malunjkar",
+      "S",
+      ""
+    ],
+    [
+      "Boosi",
+      "S",
+      ""
+    ],
+    [
+      "Loh",
+      "E",
+      ""
+    ],
+    [
+      "Datta",
+      "S",
+      ""
+    ],
+    [
+      "Ferris",
+      "TA",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 5 Dec 2024 15:29:29 GMT"
+    }
+  ],
+  "updateDate": "2024-12-06",
+  "timestamp": 1733412569000,
+  "abstract": "  STARR (STAnford Research Repository) is a clinical research support ecosystem\nthat supports basic science research, population health research and\ntranslational research at Stanford University. STARR consists of raw and\nanalysis ready multi-modal data, and tools for cohort analysis and self service\ndata access. STARR data is accessible on secure shared computing systems for ad\nhoc analysis. Also present is a suite of services on top of STARR, that allow\nresearchers access to complex purpose built data cuts, common data models and\nsoftware solutions. This manuscript is a research resource description and\ndescribes the evolution of STARR Tools that are used to offer self-service\naccess to detailed clinical data for research purposes to researchers at\nStanford Medicine, along with a framework used to ensure that data acquired via\nthe self-service tools is handled in compliance with all applicable regulations\nand rules.\n",
+  "subjects": [
+    "Computer Science/Databases",
+    "Computer Science/Software Engineering"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "A8YSw6VLZNrLqbCpDZ1wlOIWPVhb0SaQtoyN8DafDes",
+  "pdfSize": "1701408"
+}

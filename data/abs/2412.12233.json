@@ -1,0 +1,32 @@
+{
+  "id": "2412.12233",
+  "title": "Russian roulette: Why you can have a deterministic potential-outcome\n  framework, or an asymmetric utility function, but not both",
+  "authors": "Andrew Gelman and Jonas Mikhaeil",
+  "authorsParsed": [
+    [
+      "Gelman",
+      "Andrew",
+      ""
+    ],
+    [
+      "Mikhaeil",
+      "Jonas",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 16 Dec 2024 15:29:18 GMT"
+    }
+  ],
+  "updateDate": "2024-12-18",
+  "timestamp": 1734362958000,
+  "abstract": "  It has been proposed in medical decision analysis to express the ``first do\nno harm'' principle as an asymmetric utility function in which the loss from\nkilling a patient would count more than the gain from saving a life. Such a\nutility depends on unrealized potential outcomes, and we show how this yields a\nparadoxical decision recommendation in a simple hypothetical example involving\ngames of Russian roulette. The problem is resolved if we allow the potential\noutcomes to be random variables. This leads us to conclude that, if you are\ninterested in this sort of asymmetric utility function, you need to move to the\nstochastic potential outcome framework. We discuss the implications of the\nchoice of parameterization in this setting.\n",
+  "subjects": [
+    "Statistics/Other Statistics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "DwldN54weVdtIGv4FOe9Bndzd9AaVyXLBweXuddCc7M",
+  "pdfSize": "105330"
+}

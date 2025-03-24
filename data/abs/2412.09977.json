@@ -1,0 +1,31 @@
+{
+  "id": "2412.09977",
+  "title": "Nonlocal-coupling-based control of stochastic resonance",
+  "authors": "Vladimir Semenov",
+  "authorsParsed": [
+    [
+      "Semenov",
+      "Vladimir",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 13 Dec 2024 09:03:35 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Fri, 21 Feb 2025 17:00:47 GMT"
+    }
+  ],
+  "updateDate": "2025-02-24",
+  "timestamp": 1734080615000,
+  "abstract": "  It is shown that nonlocal coupling provides for controlling the collective\nnoise-induced dynamics in the regime of stochastic resonance. This effect is\ndemonstrated by means of numerical simulation on an example of coupled\noverdamped bistable oscillators. In particular, it has been established that\nincreasing the coupling radius and coupling strength allows to enhance or to\nsuppress the effect of stochastic resonance which is reflected in the evolution\nof the dependence of the signal-to-noise ratio (SNR) on the noise intensity for\nvarying coupling parameters. Nonlocal coupling is considered as an intermediate\noption between local and global (pairwise or higher-order interactions)\ncoupling topologies which are also discussed in the context of the stochastic\nresonance control.\n",
+  "subjects": [
+    "Nonlinear Sciences/Adaptation and Self-Organizing Systems"
+  ],
+  "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+  "blobId": "O53L-1iJKoM8ki9aStCsVlBeVcYOjae91-5vwU0yOJ8",
+  "pdfSize": "1334078"
+}

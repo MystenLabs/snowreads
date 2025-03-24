@@ -1,0 +1,52 @@
+{
+  "id": "2412.03716",
+  "title": "A Water Efficiency Dataset for African Data Centers",
+  "authors": "Noah Shumba, Opelo Tshekiso, Pengfei Li, Giulia Fanti, Shaolei Ren",
+  "authorsParsed": [
+    [
+      "Shumba",
+      "Noah",
+      ""
+    ],
+    [
+      "Tshekiso",
+      "Opelo",
+      ""
+    ],
+    [
+      "Li",
+      "Pengfei",
+      ""
+    ],
+    [
+      "Fanti",
+      "Giulia",
+      ""
+    ],
+    [
+      "Ren",
+      "Shaolei",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 4 Dec 2024 21:09:45 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Fri, 6 Dec 2024 04:40:40 GMT"
+    }
+  ],
+  "updateDate": "2024-12-09",
+  "timestamp": 1733346585000,
+  "abstract": "  AI computing and data centers consume a large amount of freshwater, both\ndirectly for cooling and indirectly for electricity generation. While most\nattention has been paid to developed countries such as the U.S., this paper\npresents the first-of-its-kind dataset that combines nation-level weather and\nelectricity generation data to estimate water usage efficiency for data centers\nin 41 African countries across five different climate regions. We also use our\ndataset to evaluate and estimate the water consumption of inference on two\nlarge language models (i.e., Llama-3-70B and GPT-4) in 11 selected African\ncountries. Our findings show that writing a 10-page report using Llama-3-70B\ncould consume about \\textbf{0.7 liters} of water, while the water consumption\nby GPT-4 for the same task may go up to about 60 liters. For writing a\nmedium-length email of 120-200 words, Llama-3-70B and GPT-4 could consume about\n\\textbf{0.13 liters} and 3 liters of water, respectively. Interestingly, given\nthe same AI model, 8 out of the 11 selected African countries consume less\nwater than the global average, mainly because of lower water intensities for\nelectricity generation. However, water consumption can be substantially higher\nin some African countries with a steppe climate than the U.S. and global\naverages, prompting more attention when deploying AI computing in these\ncountries. Our dataset is publicly available on\n\\href{https://huggingface.co/datasets/masterlion/WaterEfficientDatasetForAfricanCountries/tree/main}{Hugging\nFace}.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Computer Science/Computers and Society"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "wj9Mactjrp4-5NK238Qj_K9xU1JAOjILqLxc4zmYd84",
+  "pdfSize": "353367"
+}

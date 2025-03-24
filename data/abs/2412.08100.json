@@ -1,0 +1,29 @@
+{
+  "id": "2412.08100",
+  "title": "FuzzDistill: Intelligent Fuzzing Target Selection using Compile-Time\n  Analysis and Machine Learning",
+  "authors": "Saket Upadhyay",
+  "authorsParsed": [
+    [
+      "Upadhyay",
+      "Saket",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 11 Dec 2024 04:55:58 GMT"
+    }
+  ],
+  "updateDate": "2024-12-12",
+  "timestamp": 1733892958000,
+  "abstract": "  Fuzz testing is a fundamental technique employed to identify vulnerabilities\nwithin software systems. However, the process can be protracted and\nresource-intensive, especially when confronted with extensive codebases. In\nthis work, I present FuzzDistill, an approach that harnesses compile-time data\nand machine learning to refine fuzzing targets. By analyzing compile-time\ninformation, such as function call graphs' features, loop information, and\nmemory operations, FuzzDistill identifies high-priority areas of the codebase\nthat are more probable to contain vulnerabilities. I demonstrate the efficacy\nof my approach through experiments conducted on real-world software,\ndemonstrating substantial reductions in testing time.\n",
+  "subjects": [
+    "Computer Science/Software Engineering",
+    "Computer Science/Cryptography and Security",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "MN9SwaijkoN2rgf48-F1gY8b9zQq8BQ50_apzrYWV3s",
+  "pdfSize": "659081"
+}

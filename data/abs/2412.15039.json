@@ -1,0 +1,33 @@
+{
+  "id": "2412.15039",
+  "title": "The hypergraph removal process",
+  "authors": "Felix Joos and Marcus K\\\"uhn",
+  "authorsParsed": [
+    [
+      "Joos",
+      "Felix",
+      ""
+    ],
+    [
+      "Kühn",
+      "Marcus",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 19 Dec 2024 16:50:52 GMT"
+    }
+  ],
+  "updateDate": "2024-12-20",
+  "timestamp": 1734627052000,
+  "abstract": "  Let $k\\geq 2$ and fix a $k$-uniform hypergraph $\\mathcal{F}$. Consider the\nrandom process that, starting from a $k$-uniform hypergraph $\\mathcal{H}$ on\n$n$ vertices, repeatedly deletes the edges of a copy of $\\mathcal{F}$ chosen\nuniformly at random and terminates when no copies of $\\mathcal{F}$ remain. Let\n$R(\\mathcal{H},\\mathcal{F})$ denote the number of edges that are left after\ntermination. We show that $R(\\mathcal{H},\\mathcal{F})=n^{k-1/\\rho\\pm o(1)}$,\nwhere $\\rho:=(\\lvert E(\\mathcal{F})\\rvert-1)/(\\lvert V(\\mathcal{F})\\rvert -k)$,\nholds with high probability provided that $\\mathcal{F}$ is strictly\n$k$-balanced and $\\mathcal{H}$ is sufficiently dense with pseudorandom\nproperties. Since we may in particular choose $\\mathcal{F}$ and $\\mathcal{H}$\nto be complete graphs, this confirms the major folklore conjecture in the area\nin a very strong form.\n",
+  "subjects": [
+    "Mathematics/Combinatorics",
+    "Mathematics/Probability"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "Y4hbkWxlx4uMmWMkznXRzlUq8DJ_HED5pdK6qDBTGyE",
+  "pdfSize": "1390551"
+}

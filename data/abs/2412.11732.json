@@ -1,0 +1,92 @@
+{
+  "id": "2412.11732",
+  "title": "Findings of the WMT 2024 Shared Task on Discourse-Level Literary\n  Translation",
+  "authors": "Longyue Wang, Siyou Liu, Chenyang Lyu, Wenxiang Jiao, Xing Wang,\n  Jiahao Xu, Zhaopeng Tu, Yan Gu, Weiyu Chen, Minghao Wu, Liting Zhou, Philipp\n  Koehn, Andy Way, Yulin Yuan",
+  "authorsParsed": [
+    [
+      "Wang",
+      "Longyue",
+      ""
+    ],
+    [
+      "Liu",
+      "Siyou",
+      ""
+    ],
+    [
+      "Lyu",
+      "Chenyang",
+      ""
+    ],
+    [
+      "Jiao",
+      "Wenxiang",
+      ""
+    ],
+    [
+      "Wang",
+      "Xing",
+      ""
+    ],
+    [
+      "Xu",
+      "Jiahao",
+      ""
+    ],
+    [
+      "Tu",
+      "Zhaopeng",
+      ""
+    ],
+    [
+      "Gu",
+      "Yan",
+      ""
+    ],
+    [
+      "Chen",
+      "Weiyu",
+      ""
+    ],
+    [
+      "Wu",
+      "Minghao",
+      ""
+    ],
+    [
+      "Zhou",
+      "Liting",
+      ""
+    ],
+    [
+      "Koehn",
+      "Philipp",
+      ""
+    ],
+    [
+      "Way",
+      "Andy",
+      ""
+    ],
+    [
+      "Yuan",
+      "Yulin",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 16 Dec 2024 12:54:52 GMT"
+    }
+  ],
+  "updateDate": "2024-12-17",
+  "timestamp": 1734353692000,
+  "abstract": "  Following last year, we have continued to host the WMT translation shared\ntask this year, the second edition of the Discourse-Level Literary Translation.\nWe focus on three language directions: Chinese-English, Chinese-German, and\nChinese-Russian, with the latter two ones newly added. This year, we totally\nreceived 10 submissions from 5 academia and industry teams. We employ both\nautomatic and human evaluations to measure the performance of the submitted\nsystems. The official ranking of the systems is based on the overall human\njudgments. We release data, system outputs, and leaderboard at\nhttps://www2.statmt.org/wmt24/literary-translation-task.html.\n",
+  "subjects": [
+    "Computer Science/Computation and Language"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "F9QShcUQQ-1BNOZm8F5fmw2OEWs-pwqIZM2CmKDIaMQ",
+  "pdfSize": "335987"
+}

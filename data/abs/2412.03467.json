@@ -1,0 +1,48 @@
+{
+  "id": "2412.03467",
+  "title": "Training-Free Mitigation of Language Reasoning Degradation After\n  Multimodal Instruction Tuning",
+  "authors": "Neale Ratzlaff, Man Luo, Xin Su, Vasudev Lal, Phillip Howard",
+  "authorsParsed": [
+    [
+      "Ratzlaff",
+      "Neale",
+      ""
+    ],
+    [
+      "Luo",
+      "Man",
+      ""
+    ],
+    [
+      "Su",
+      "Xin",
+      ""
+    ],
+    [
+      "Lal",
+      "Vasudev",
+      ""
+    ],
+    [
+      "Howard",
+      "Phillip",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 4 Dec 2024 16:56:20 GMT"
+    }
+  ],
+  "updateDate": "2024-12-05",
+  "timestamp": 1733331380000,
+  "abstract": "  Multimodal models typically combine a powerful large language model (LLM)\nwith a vision encoder and are then trained on multimodal data via instruction\ntuning. While this process adapts LLMs to multimodal settings, it remains\nunclear whether this adaptation compromises their original language reasoning\ncapabilities. In this work, we explore the effects of multimodal instruction\ntuning on language reasoning performance. We focus on LLaVA, a leading\nmultimodal framework that integrates LLMs such as Vicuna or Mistral with the\nCLIP vision encoder. We compare the performance of the original LLMs with their\nmultimodal-adapted counterparts across eight language reasoning tasks. Our\nexperiments yield several key insights. First, the impact of multimodal\nlearning varies between Vicuna and Mistral: we observe a degradation in\nlanguage reasoning for Mistral but improvements for Vicuna across most tasks.\nSecond, while multimodal instruction learning consistently degrades performance\non mathematical reasoning tasks (e.g., GSM8K), it enhances performance on\ncommonsense reasoning tasks (e.g., CommonsenseQA). Finally, we demonstrate that\na training-free model merging technique can effectively mitigate the language\nreasoning degradation observed in multimodal-adapted Mistral and even improve\nperformance on visual tasks.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "DinDy83x2LstUlHQQFnCIAIIlFQ3QZQFnYAmyQNnggk",
+  "pdfSize": "268843"
+}

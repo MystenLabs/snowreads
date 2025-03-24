@@ -1,0 +1,41 @@
+{
+  "id": "2412.01585",
+  "title": "FairML: A Julia Package for Fair Classification",
+  "authors": "Jan Pablo Burgard and Jo\\~ao Vitor Pamplona",
+  "authorsParsed": [
+    [
+      "Burgard",
+      "Jan Pablo",
+      ""
+    ],
+    [
+      "Pamplona",
+      "João Vitor",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 2 Dec 2024 15:04:51 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Tue, 3 Dec 2024 08:54:27 GMT"
+    },
+    {
+      "version": "v3",
+      "created": "Mon, 9 Dec 2024 07:57:49 GMT"
+    }
+  ],
+  "updateDate": "2024-12-10",
+  "timestamp": 1733151891000,
+  "abstract": "  In this paper, we propose FairML.jl, a Julia package providing a framework\nfor fair classification in machine learning. In this framework, the fair\nlearning process is divided into three stages. Each stage aims to reduce\nunfairness, such as disparate impact and disparate mistreatment, in the final\nprediction. For the preprocessing stage, we present a resampling method that\naddresses unfairness coming from data imbalances. The in-processing phase\nconsist of a classification method. This can be either one coming from the\nMLJ.jl package, or a user defined one. For this phase, we incorporate fair ML\nmethods that can handle unfairness to a certain degree through their\noptimization process. In the post-processing, we discuss the choice of the\ncut-off value for fair prediction. With simulations, we show the performance of\nthe single phases and their combinations.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Mathematics/Optimization and Control"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "NOpwD0DbXg4KwGvY7GO79il8pVmXxbrjaqZeBN_babU",
+  "pdfSize": "968227"
+}

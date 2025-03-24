@@ -1,0 +1,39 @@
+{
+  "id": "2412.18702",
+  "title": "CypherBench: Towards Precise Retrieval over Full-scale Modern Knowledge\n  Graphs in the LLM Era",
+  "authors": "Yanlin Feng, Simone Papicchio, Sajjadur Rahman",
+  "authorsParsed": [
+    [
+      "Feng",
+      "Yanlin",
+      ""
+    ],
+    [
+      "Papicchio",
+      "Simone",
+      ""
+    ],
+    [
+      "Rahman",
+      "Sajjadur",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 24 Dec 2024 23:22:04 GMT"
+    }
+  ],
+  "updateDate": "2024-12-30",
+  "timestamp": 1735082524000,
+  "abstract": "  Retrieval from graph data is crucial for augmenting large language models\n(LLM) with both open-domain knowledge and private enterprise data, and it is\nalso a key component in the recent GraphRAG system (edge et al., 2024). Despite\ndecades of research on knowledge graphs and knowledge base question answering,\nleading LLM frameworks (e.g. Langchain and LlamaIndex) have only minimal\nsupport for retrieval from modern encyclopedic knowledge graphs like Wikidata.\nIn this paper, we analyze the root cause and suggest that modern RDF knowledge\ngraphs (e.g. Wikidata, Freebase) are less efficient for LLMs due to overly\nlarge schemas that far exceed the typical LLM context window, use of resource\nidentifiers, overlapping relation types and lack of normalization. As a\nsolution, we propose property graph views on top of the underlying RDF graph\nthat can be efficiently queried by LLMs using Cypher. We instantiated this idea\non Wikidata and introduced CypherBench, the first benchmark with 11\nlarge-scale, multi-domain property graphs with 7.8 million entities and over\n10,000 questions. To achieve this, we tackled several key challenges, including\ndeveloping an RDF-to-property graph conversion engine, creating a systematic\npipeline for text-to-Cypher task generation, and designing new evaluation\nmetrics.\n",
+  "subjects": [
+    "Computer Science/Computation and Language",
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Databases"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "vi-_2P5-Bj4XL50L3jH-sqMRNSkHgy9g-4OETKUhxmo",
+  "pdfSize": "7493628"
+}

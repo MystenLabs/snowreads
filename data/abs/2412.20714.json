@@ -1,0 +1,52 @@
+{
+  "id": "2412.20714",
+  "title": "Effective and Efficient Intracortical Brain Signal Decoding with Spiking\n  Neural Networks",
+  "authors": "Haotian Fu, Peng Zhang, Song Yang, Herui Zhang, Ziwei Wang and Dongrui\n  Wu",
+  "authorsParsed": [
+    [
+      "Fu",
+      "Haotian",
+      ""
+    ],
+    [
+      "Zhang",
+      "Peng",
+      ""
+    ],
+    [
+      "Yang",
+      "Song",
+      ""
+    ],
+    [
+      "Zhang",
+      "Herui",
+      ""
+    ],
+    [
+      "Wang",
+      "Ziwei",
+      ""
+    ],
+    [
+      "Wu",
+      "Dongrui",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 30 Dec 2024 05:05:14 GMT"
+    }
+  ],
+  "updateDate": "2024-12-31",
+  "timestamp": 1735535114000,
+  "abstract": "  A brain-computer interface (BCI) facilitates direct interaction between the\nbrain and external devices. To concurrently achieve high decoding accuracy and\nlow energy consumption in invasive BCIs, we propose a novel spiking neural\nnetwork (SNN) framework incorporating local synaptic stabilization (LSS) and\nchannel-wise attention (CA), termed LSS-CA-SNN. LSS optimizes neuronal membrane\npotential dynamics, boosting classification performance, while CA refines\nneuronal activation, effectively reducing energy consumption. Furthermore, we\nintroduce SpikeDrop, a data augmentation strategy designed to expand the\ntraining dataset thus enhancing model generalizability. Experiments on invasive\nspiking datasets recorded from two rhesus macaques demonstrated that LSS-CA-SNN\nsurpassed state-of-the-art artificial neural networks (ANNs) in both decoding\naccuracy and energy efficiency, achieving 0.80-3.87% performance gains and\n14.78-43.86 times energy saving. This study highlights the potential of\nLSS-CA-SNN and SpikeDrop in advancing invasive BCI applications.\n",
+  "subjects": [
+    "Computer Science/Human-Computer Interaction"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "ClqOHs_oYnrYaa-VxmuXUNvG92Z9-hP06UHdXPafXeQ",
+  "pdfSize": "1979846"
+}

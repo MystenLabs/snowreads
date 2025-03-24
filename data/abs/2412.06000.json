@@ -1,0 +1,73 @@
+{
+  "id": "2412.06000",
+  "title": "Does RLHF Scale? Exploring the Impacts From Data, Model, and Method",
+  "authors": "Zhenyu Hou, Pengfan Du, Yilin Niu, Zhengxiao Du, Aohan Zeng, Xiao Liu,\n  Minlie Huang, Hongning Wang, Jie Tang, Yuxiao Dong",
+  "authorsParsed": [
+    [
+      "Hou",
+      "Zhenyu",
+      ""
+    ],
+    [
+      "Du",
+      "Pengfan",
+      ""
+    ],
+    [
+      "Niu",
+      "Yilin",
+      ""
+    ],
+    [
+      "Du",
+      "Zhengxiao",
+      ""
+    ],
+    [
+      "Zeng",
+      "Aohan",
+      ""
+    ],
+    [
+      "Liu",
+      "Xiao",
+      ""
+    ],
+    [
+      "Huang",
+      "Minlie",
+      ""
+    ],
+    [
+      "Wang",
+      "Hongning",
+      ""
+    ],
+    [
+      "Tang",
+      "Jie",
+      ""
+    ],
+    [
+      "Dong",
+      "Yuxiao",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 8 Dec 2024 17:19:48 GMT"
+    }
+  ],
+  "updateDate": "2024-12-10",
+  "timestamp": 1733678388000,
+  "abstract": "  This study explores the scaling properties of Reinforcement Learning from\nHuman Feedback (RLHF) in Large Language Models (LLMs). Although RLHF is\nconsidered an important step in post-training of LLMs, its scaling potential is\nstill largely unknown. We systematically analyze key components in the RLHF\nframework--model size, data composition, and inference budget--and their\nimpacts on performance. Our findings show that increasing data diversity and\nvolume improves reward model performance, helping process-supervision models\nscale better. For policy training, more response samples per prompt boost\nperformance initially but quickly plateau. And larger reward models offer\nmodest gains in policy training. In addition, larger policy models benefit less\nfrom RLHF with a fixed reward model. Overall, RLHF scales less efficiently than\npretraining, with diminishing returns from additional computational resources.\nBased on these observations, we propose strategies to optimize RLHF performance\nwithin computational limits.\n",
+  "subjects": [
+    "Computer Science/Computation and Language",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "9DnvAk8sGGaesSGjYyFj_TmAuUWiA5TX4Nc2n0sN2AE",
+  "pdfSize": "2278830"
+}

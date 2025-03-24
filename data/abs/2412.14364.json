@@ -1,0 +1,37 @@
+{
+  "id": "2412.14364",
+  "title": "Minimum degree conditions for graph rigidity",
+  "authors": "Michael Krivelevich, Alan Lew, and Peleg Michaeli",
+  "authorsParsed": [
+    [
+      "Krivelevich",
+      "Michael",
+      ""
+    ],
+    [
+      "Lew",
+      "Alan",
+      ""
+    ],
+    [
+      "Michaeli",
+      "Peleg",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 18 Dec 2024 22:02:44 GMT"
+    }
+  ],
+  "updateDate": "2024-12-20",
+  "timestamp": 1734559364000,
+  "abstract": "  We study minimum degree conditions that guarantee that an $n$-vertex graph is\nrigid in $\\mathbb{R}^d$. For small values of $d$, we obtain a tight bound: for\n$d = O(\\sqrt{n})$, every $n$-vertex graph with minimum degree at least $(n+d)/2\n- 1$ is rigid in $\\mathbb{R}^d$. For larger values of $d$, we achieve an\napproximate result: for $d = O(n/{\\log^2}{n})$, every $n$-vertex graph with\nminimum degree at least $(n+2d)/2 - 1$ is rigid in $\\mathbb{R}^d$. This bound\nis tight up to a factor of two in the coefficient of $d$.\n  As a byproduct of our proof, we also obtain the following result, which may\nbe of independent interest: for $d = O(n/{\\log^2}{n})$, every $n$-vertex graph\nwith minimum degree at least $d$ has pseudoachromatic number at least $d+1$;\nnamely, the vertex set of such a graph can be partitioned into $d+1$ subsets\nsuch that there is at least one edge between each pair of subsets. This is\ntight.\n",
+  "subjects": [
+    "Mathematics/Combinatorics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "4VJsgAZVaHxCN5L8CL-6ayRdP2cwE37Ki2Ya-Nf_Qbg",
+  "pdfSize": "297335"
+}

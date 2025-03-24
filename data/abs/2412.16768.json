@@ -1,0 +1,38 @@
+{
+  "id": "2412.16768",
+  "title": "A Comparative Study on Machine Learning Models to Classify Diseases\n  Based on Patient Behaviour and Habits",
+  "authors": "Elham Musaaed, Nabil Hewahi, Abdulla Alasaadi",
+  "authorsParsed": [
+    [
+      "Musaaed",
+      "Elham",
+      ""
+    ],
+    [
+      "Hewahi",
+      "Nabil",
+      ""
+    ],
+    [
+      "Alasaadi",
+      "Abdulla",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 21 Dec 2024 20:46:40 GMT"
+    }
+  ],
+  "updateDate": "2024-12-24",
+  "timestamp": 1734814000000,
+  "abstract": "  In recent years, ML algorithms have been shown to be useful for predicting\ndiseases based on health data and posed a potential application area for these\nalgorithms such as modeling of diseases. The majority of these applications\nemploy supervised rather than unsupervised ML algorithms. In addition, each\nyear, the amount of data in medical science grows rapidly. Moreover, these data\ninclude clinical and Patient-Related Factors (PRF), such as height, weight,\nage, other physical characteristics, blood sugar, lipids, insulin, etc., all of\nwhich will change continually over time. Analysis of historical data can help\nidentify disease risk factors and their interactions, which is useful for\ndisease diagnosis and prediction. This wealth of valuable information in these\ndata will help doctors diagnose accurately and people can become more aware of\nthe risk factors and key indicators to act proactively. The purpose of this\nstudy is to use six supervised ML approaches to fill this gap by conducting a\ncomprehensive experiment to investigate the correlation between PRF and\nDiabetes, Stroke, Heart Disease (HD), and Kidney Disease (KD). Moreover, it\nwill investigate the link between Diabetes, Stroke, and KD and PRF with HD.\nFurther, the research aims to compare and evaluate various ML algorithms for\nclassifying diseases based on the PRF. Additionally, it aims to compare and\nevaluate ML algorithms for classifying HD based on PRF as well as Diabetes,\nStroke, Asthma, Skin Cancer, and KD as attributes. Lastly, HD predictions will\nbe provided through a Web-based application on the most accurate classifier,\nwhich allows the users to input their values and predict the output.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "FUaDzdu345N8fGRGrtPsF3Bko4jlRDSX4kg_0ClVis4",
+  "pdfSize": "471377"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "2412.17469",
+  "title": "On lower bounds for cardinalities of several separating-dominating codes\n  in graphs",
+  "authors": "Dipayan Chakraborty and Annegret K. Wagler",
+  "authorsParsed": [
+    [
+      "Chakraborty",
+      "Dipayan",
+      ""
+    ],
+    [
+      "Wagler",
+      "Annegret K.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 23 Dec 2024 10:48:23 GMT"
+    }
+  ],
+  "updateDate": "2024-12-24",
+  "timestamp": 1734950903000,
+  "abstract": "  In the literature, several different identification problems in graphs have\nbeen studied, the most widely studied such problems are the ones based on\ndominating sets as a tool of identification. Hereby, the objective is to\nseparate any two vertices of a graph by their unique neighborhoods in a\nsuitably chosen dominating or total-dominating set. Such a (total-)dominating\nset endowed with a separation property is often referred to as a \"code\" of the\ngraph. The problems of determining such codes of minimum cardinality are all\nshown to be NP-hard. A typical line to attack such problems is, therefore, to\nprovide bounds on the cardinalities of the studied codes.\n  In this paper, we are interested in extremal graphs for lower bounds in terms\nof the order of the graph. For some codes, logarithmic lower bounds are known\nfrom the literature. We provide for eight different identification problems a\ngeneral construction of extremal graphs minimizing the cardinality of a minimum\ncode compared to the order of the graph. This enables us to reprove the\nexisting logarithmic lower bounds, to establish such bounds for further codes,\nand to characterize all graphs attaining these bounds.\n",
+  "subjects": [
+    "Mathematics/Combinatorics"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "0Uaq9dMnVPlG5iFYMzSe_yv8_rqFT9tImAT3R-S-AmI",
+  "pdfSize": "517294"
+}

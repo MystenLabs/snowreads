@@ -1,0 +1,37 @@
+{
+  "id": "2412.21076",
+  "title": "Pharmacometrics Modeling via Physics-Informed Neural Networks:\n  Integrating Time-Variant Absorption Rates and Fractional Calculus for\n  Enhancing Prediction Accuracy",
+  "authors": "Nazanin Ahmadi, Shupeng Wang, George Karniadakis",
+  "authorsParsed": [
+    [
+      "Ahmadi",
+      "Nazanin",
+      ""
+    ],
+    [
+      "Wang",
+      "Shupeng",
+      ""
+    ],
+    [
+      "Karniadakis",
+      "George",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 30 Dec 2024 16:51:20 GMT"
+    }
+  ],
+  "updateDate": "2024-12-31",
+  "timestamp": 1735577480000,
+  "abstract": "  We present a novel method to improve pharmacokinetics modeling, an essential\nstep of drug development. Conventional models frequently fail to fully\nrepresent the intricacies of drug absorption and distribution, which limits\ntheir predictive abilities required for personalized treatment strategies. Our\nmethodology introduces two innovations to enhance modeling accuracy: 1.\nTime-varying parameters: this approach is designed to accommodate the dynamic\nnature of drug absorption rates. 2. Fractional calculus in representing delayed\ndrug response. This approach effectively captures anomalous diffusion\nphenomena, surpassing traditional models in describing drug delayed response\nwithout the need for extensive compartmentalization.\n",
+  "subjects": [
+    "Quantitative Biology/Quantitative Methods"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "H11oUOXS4y91Hi4v-0gaaU_P9ugMNdCroZ-hwgSV8yI",
+  "pdfSize": "422079"
+}

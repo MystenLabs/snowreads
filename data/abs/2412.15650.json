@@ -1,0 +1,47 @@
+{
+  "id": "2412.15650",
+  "title": "Beyond Human Data: Aligning Multimodal Large Language Models by\n  Iterative Self-Evolution",
+  "authors": "Wentao Tan, Qiong Cao, Yibing Zhan, Chao Xue, Changxing Ding",
+  "authorsParsed": [
+    [
+      "Tan",
+      "Wentao",
+      ""
+    ],
+    [
+      "Cao",
+      "Qiong",
+      ""
+    ],
+    [
+      "Zhan",
+      "Yibing",
+      ""
+    ],
+    [
+      "Xue",
+      "Chao",
+      ""
+    ],
+    [
+      "Ding",
+      "Changxing",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 20 Dec 2024 08:06:00 GMT"
+    }
+  ],
+  "updateDate": "2024-12-23",
+  "timestamp": 1734681960000,
+  "abstract": "  Human preference alignment can greatly enhance Multimodal Large Language\nModels (MLLMs), but collecting high-quality preference data is costly. A\npromising solution is the self-evolution strategy, where models are iteratively\ntrained on data they generate. However, current techniques still rely on human-\nor GPT-annotated data and sometimes require additional models or ground truth\nanswers. To address these issues, we propose a novel multimodal self-evolution\nframework that enables the model to autonomously generate high-quality\nquestions and answers using only unannotated images.\n  First, we implement an image-driven self-questioning mechanism, allowing the\nmodel to create and evaluate questions based on image content, regenerating\nthem if they are irrelevant or unanswerable. This sets a strong foundation for\nanswer generation. Second, we introduce an answer self-enhancement technique,\nstarting with image captioning to improve answer quality. We also use corrupted\nimages to generate rejected answers, forming distinct preference pairs for\noptimization. Finally, we incorporate an image content alignment loss function\nalongside Direct Preference Optimization (DPO) loss to reduce hallucinations,\nensuring the model focuses on image content.\n  Experiments show that our framework performs competitively with methods using\nexternal information, offering a more efficient and scalable approach to MLLMs.\n",
+  "subjects": [
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "fldSdOmFbbIddfSj2zjNPdkOXzlu77Tij0XsG_h8FKI",
+  "pdfSize": "1020307"
+}

@@ -1,0 +1,58 @@
+{
+  "id": "2412.01058",
+  "title": "Adaptive cancellation of mains power interference in continuous\n  gravitational wave searches with a hidden Markov model",
+  "authors": "Tom Kimpson, Sofia Suvorova, Hannah Middleton, Changrong Liu, Andrew\n  Melatos, Robin J. Evans, William Moran",
+  "authorsParsed": [
+    [
+      "Kimpson",
+      "Tom",
+      ""
+    ],
+    [
+      "Suvorova",
+      "Sofia",
+      ""
+    ],
+    [
+      "Middleton",
+      "Hannah",
+      ""
+    ],
+    [
+      "Liu",
+      "Changrong",
+      ""
+    ],
+    [
+      "Melatos",
+      "Andrew",
+      ""
+    ],
+    [
+      "Evans",
+      "Robin J.",
+      ""
+    ],
+    [
+      "Moran",
+      "William",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 2 Dec 2024 02:38:37 GMT"
+    }
+  ],
+  "updateDate": "2024-12-03",
+  "timestamp": 1733107117000,
+  "abstract": "  Continuous gravitational wave searches with terrestrial, long-baseline\ninterferometers are hampered by long-lived, narrowband features in the power\nspectral density of the detector noise, known as lines. Candidate GW signals\nwhich overlap spectrally with known lines are typically vetoed. Here we\ndemonstrate a line subtraction method based on adaptive noise cancellation,\nusing a recursive least squares algorithm, a common approach in electrical\nengineering applications such as audio and biomedical signal processing. We\nvalidate the line subtraction method by combining it with a hidden Markov model\n(HMM), a standard continuous wave search tool, to detect an injected continuous\nwave signal with an unknown and randomly wandering frequency, which overlaps\nwith the mains power line at $60 \\, {\\rm Hz}$ in the Laser Interferometer\nGravitational Wave Observatory (LIGO). The performance of the line subtraction\nmethod is tested on an injected continuous wave signal obscured by (a)\nsynthetic noise data with both Gaussian and non-Gaussian components, and (b)\nreal noise data obtained from the LIGO Livingston detector. In both cases,\nbefore applying the line subtraction method the HMM does not detect the\ninjected continuous wave signal. After applying the line subtraction method the\nmains power line is suppressed by 20--40 dB, and the HMM detects the underlying\nsignal, with a time-averaged root-mean-square error in the frequency estimate\nof $\\sim 0.05 $ Hz. The performance of the line subtraction method with respect\nto the characteristics of the 60 Hz line and the control parameters of the\nrecursive least squares algorithm is quantified in terms of receiver operating\ncharacteristic curves.\n",
+  "subjects": [
+    "Physics/General Relativity and Quantum Cosmology",
+    "Astrophysics/Instrumentation and Methods for Astrophysics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "lYsjUK9KS-9FONmTi3_4AeKfjFVd0GTxdK5LeUftfxg",
+  "pdfSize": "7803869"
+}

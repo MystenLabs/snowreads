@@ -1,0 +1,53 @@
+{
+  "id": "2412.13471",
+  "title": "Gradual Vigilance and Interval Communication: Enhancing Value Alignment\n  in Multi-Agent Debates",
+  "authors": "Rui Zou, Mengqi Wei, Jintian Feng, Qian Wan, Jianwen Sun, and Sannyuya\n  Liu",
+  "authorsParsed": [
+    [
+      "Zou",
+      "Rui",
+      ""
+    ],
+    [
+      "Wei",
+      "Mengqi",
+      ""
+    ],
+    [
+      "Feng",
+      "Jintian",
+      ""
+    ],
+    [
+      "Wan",
+      "Qian",
+      ""
+    ],
+    [
+      "Sun",
+      "Jianwen",
+      ""
+    ],
+    [
+      "Liu",
+      "Sannyuya",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 18 Dec 2024 03:36:08 GMT"
+    }
+  ],
+  "updateDate": "2024-12-19",
+  "timestamp": 1734492968000,
+  "abstract": "  In recent years, large language models have shown exceptional performance in\nfulfilling diverse human needs. However, their training data can introduce\nharmful content, underscoring the necessity for robust value alignment.\nMainstream methods, which depend on feedback learning and supervised training,\nare resource-intensive and may constrain the full potential of the models.\nMulti-Agent Debate (MAD) offers a more efficient and innovative solution by\nenabling the generation of reliable answers through agent interactions. To\napply MAD to value alignment, we examine the relationship between the\nhelpfulness and harmlessness of debate outcomes and individual responses, and\npropose a MAD based framework Gradual Vigilance and Interval Communication\n(GVIC). GVIC allows agents to assess risks with varying levels of vigilance and\nto exchange diverse information through interval communication. We\ntheoretically prove that GVIC optimizes debate efficiency while reducing\ncommunication overhead. Experimental results demonstrate that GVIC consistently\noutperforms baseline methods across various tasks and datasets, particularly\nexcelling in harmfulness mitigation and fraud prevention. Additionally, GVIC\nexhibits strong adaptability across different base model sizes, including both\nunaligned and aligned models, and across various task types.\n",
+  "subjects": [
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Computation and Language"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "B2hcj0DffX5F48NzVxhDP_M5PmoWFqG7GsiKuggxGDA",
+  "pdfSize": "2059654"
+}

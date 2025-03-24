@@ -1,0 +1,57 @@
+{
+  "id": "2412.02901",
+  "title": "SuperLoc: The Key to Robust LiDAR-Inertial Localization Lies in\n  Predicting Alignment Risks",
+  "authors": "Shibo Zhao, Honghao Zhu, Yuanjun Gao, Beomsoo Kim, Yuheng Qiu, Aaron\n  M. Johnson, Sebastian Scherer",
+  "authorsParsed": [
+    [
+      "Zhao",
+      "Shibo",
+      ""
+    ],
+    [
+      "Zhu",
+      "Honghao",
+      ""
+    ],
+    [
+      "Gao",
+      "Yuanjun",
+      ""
+    ],
+    [
+      "Kim",
+      "Beomsoo",
+      ""
+    ],
+    [
+      "Qiu",
+      "Yuheng",
+      ""
+    ],
+    [
+      "Johnson",
+      "Aaron M.",
+      ""
+    ],
+    [
+      "Scherer",
+      "Sebastian",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 3 Dec 2024 23:07:51 GMT"
+    }
+  ],
+  "updateDate": "2024-12-05",
+  "timestamp": 1733267271000,
+  "abstract": "  Map-based LiDAR localization, while widely used in autonomous systems, faces\nsignificant challenges in degraded environments due to lacking distinct\ngeometric features. This paper introduces SuperLoc, a robust LiDAR localization\npackage that addresses key limitations in existing methods. SuperLoc features a\nnovel predictive alignment risk assessment technique, enabling early detection\nand mitigation of potential failures before optimization. This approach\nsignificantly improves performance in challenging scenarios such as corridors,\ntunnels, and caves. Unlike existing degeneracy mitigation algorithms that rely\non post-optimization analysis and heuristic thresholds, SuperLoc evaluates the\nlocalizability of raw sensor measurements. Experimental results demonstrate\nsignificant performance improvements over state-of-the-art methods across\nvarious degraded environments. Our approach achieves a 54% increase in accuracy\nand exhibits the highest robustness. To facilitate further research, we release\nour implementation along with datasets from eight challenging scenarios\n",
+  "subjects": [
+    "Computer Science/Robotics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "4ezAp6F_w4AzYkPY5Ws0Jh1dptxPZyhgRvJ72-3dg2A",
+  "pdfSize": "4926566"
+}

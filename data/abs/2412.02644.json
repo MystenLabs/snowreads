@@ -1,0 +1,52 @@
+{
+  "id": "2412.02644",
+  "title": "Leveraging Tactile Sensing to Render both Haptic Feedback and Virtual\n  Reality 3D Object Reconstruction in Robotic Telemanipulation",
+  "authors": "Gabriele Giudici, Aramis Augusto Bonzini, Claudio Coppola, Kaspar\n  Althoefer, Ildar Farkhatdinov, Lorenzo Jamone",
+  "authorsParsed": [
+    [
+      "Giudici",
+      "Gabriele",
+      ""
+    ],
+    [
+      "Bonzini",
+      "Aramis Augusto",
+      ""
+    ],
+    [
+      "Coppola",
+      "Claudio",
+      ""
+    ],
+    [
+      "Althoefer",
+      "Kaspar",
+      ""
+    ],
+    [
+      "Farkhatdinov",
+      "Ildar",
+      ""
+    ],
+    [
+      "Jamone",
+      "Lorenzo",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 3 Dec 2024 18:15:51 GMT"
+    }
+  ],
+  "updateDate": "2024-12-04",
+  "timestamp": 1733249751000,
+  "abstract": "  Dexterous robotic manipulator teleoperation is widely used in many\napplications, either where it is convenient to keep the human inside the\ncontrol loop, or to train advanced robot agents. So far, this technology has\nbeen used in combination with camera systems with remarkable success. On the\nother hand, only a limited number of studies have focused on leveraging haptic\nfeedback from tactile sensors in contexts where camera-based systems fail, such\nas due to self-occlusions or poor light conditions like smoke. This study\ndemonstrates the feasibility of precise pick-and-place teleoperation without\ncameras by leveraging tactile-based 3D object reconstruction in VR and\nproviding haptic feedback to a blindfolded user. Our preliminary results show\nthat integrating these technologies enables the successful completion of\ntelemanipulation tasks previously dependent on cameras, paving the way for more\ncomplex future applications.\n",
+  "subjects": [
+    "Computer Science/Robotics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "yp4G8-2Cd3Lu7W4XdAxfFrYNRR2Je0FA7UwYkw3ej9k",
+  "pdfSize": "5349388"
+}

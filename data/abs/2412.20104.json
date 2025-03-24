@@ -1,0 +1,49 @@
+{
+  "id": "2412.20104",
+  "title": "SyncDiff: Synchronized Motion Diffusion for Multi-Body Human-Object\n  Interaction Synthesis",
+  "authors": "Wenkun He, Yun Liu, Ruitao Liu, Li Yi",
+  "authorsParsed": [
+    [
+      "He",
+      "Wenkun",
+      ""
+    ],
+    [
+      "Liu",
+      "Yun",
+      ""
+    ],
+    [
+      "Liu",
+      "Ruitao",
+      ""
+    ],
+    [
+      "Yi",
+      "Li",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 28 Dec 2024 10:12:12 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Mon, 13 Jan 2025 11:46:06 GMT"
+    }
+  ],
+  "updateDate": "2025-01-14",
+  "timestamp": 1735380732000,
+  "abstract": "  Synthesizing realistic human-object interaction motions is a critical problem\nin VR/AR and human animation. Unlike the commonly studied scenarios involving a\nsingle human or hand interacting with one object, we address a more generic\nmulti-body setting with arbitrary numbers of humans, hands, and objects. This\ncomplexity introduces significant challenges in synchronizing motions due to\nthe high correlations and mutual influences among bodies. To address these\nchallenges, we introduce SyncDiff, a novel method for multi-body interaction\nsynthesis using a synchronized motion diffusion strategy. SyncDiff employs a\nsingle diffusion model to capture the joint distribution of multi-body motions.\nTo enhance motion fidelity, we propose a frequency-domain motion decomposition\nscheme. Additionally, we introduce a new set of alignment scores to emphasize\nthe synchronization of different body motions. SyncDiff jointly optimizes both\ndata sample likelihood and alignment likelihood through an explicit\nsynchronization strategy. Extensive experiments across four datasets with\nvarious multi-body configurations demonstrate the superiority of SyncDiff over\nexisting state-of-the-art motion synthesis methods.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Machine Learning",
+    "Computer Science/Robotics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "dQHszMGN2ynRkuSRJjcrGmKfaEMtx1zQue60f8X3Hfs",
+  "pdfSize": "16134705"
+}

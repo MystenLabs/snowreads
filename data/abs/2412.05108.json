@@ -1,0 +1,45 @@
+{
+  "id": "2412.05108",
+  "title": "Constructing optimal treatment length strategies to maximize\n  quality-adjusted lifetimes",
+  "authors": "Hao Sun, Ashkan Ertefaie, Luke Duttweiler and Brent A. Johnson",
+  "authorsParsed": [
+    [
+      "Sun",
+      "Hao",
+      ""
+    ],
+    [
+      "Ertefaie",
+      "Ashkan",
+      ""
+    ],
+    [
+      "Duttweiler",
+      "Luke",
+      ""
+    ],
+    [
+      "Johnson",
+      "Brent A.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 6 Dec 2024 15:09:17 GMT"
+    }
+  ],
+  "updateDate": "2024-12-09",
+  "timestamp": 1733497757000,
+  "abstract": "  Real-world clinical decision making is a complex process that involves\nbalancing the risks and benefits of treatments. Quality-adjusted lifetime is a\ncomposite outcome that combines patient quantity and quality of life, making it\nan attractive outcome in clinical research. We propose methods for constructing\noptimal treatment length strategies to maximize this outcome. Existing methods\nfor estimating optimal treatment strategies for survival outcomes cannot be\napplied to a quality-adjusted lifetime due to induced informative censoring. We\npropose a weighted estimating equation that adjusts for both confounding and\ninformative censoring. We also propose a nonparametric estimator of the mean\ncounterfactual quality-adjusted lifetime survival curve under a given treatment\nlength strategy, where the weights are estimated using an undersmoothed\nsieve-based estimator. We show that the estimator is asymptotically linear and\nprovide a data-dependent undersmoothing criterion. We apply our method to\nobtain the optimal time for percutaneous endoscopic gastrostomy insertion in\npatients with amyotrophic lateral sclerosis.\n",
+  "subjects": [
+    "Mathematics/Statistics Theory",
+    "Statistics/Methodology",
+    "Statistics/Machine Learning",
+    "Statistics/Statistics Theory"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "xlQ1yy6MBEpI2w_V30FbvzPMYw3IfSjhju5xX7244n0",
+  "pdfSize": "859270"
+}

@@ -1,0 +1,40 @@
+{
+  "id": "2412.12215",
+  "title": "Imagined Speech State Classification for Robust Brain-Computer Interface",
+  "authors": "Byung-Kwan Ko, Jun-Young Kim, Seo-Hyun Lee",
+  "authorsParsed": [
+    [
+      "Ko",
+      "Byung-Kwan",
+      ""
+    ],
+    [
+      "Kim",
+      "Jun-Young",
+      ""
+    ],
+    [
+      "Lee",
+      "Seo-Hyun",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 15 Dec 2024 23:59:55 GMT"
+    }
+  ],
+  "updateDate": "2024-12-18",
+  "timestamp": 1734307195000,
+  "abstract": "  This study examines the effectiveness of traditional machine learning\nclassifiers versus deep learning models for detecting the imagined speech using\nelectroencephalogram data. Specifically, we evaluated conventional machine\nlearning techniques such as CSP-SVM and LDA-SVM classifiers alongside deep\nlearning architectures such as EEGNet, ShallowConvNet, and DeepConvNet. Machine\nlearning classifiers exhibited significantly lower precision and recall,\nindicating limited feature extraction capabilities and poor generalization\nbetween imagined speech and idle states. In contrast, deep learning models,\nparticularly EEGNet, achieved the highest accuracy of 0.7080 and an F1 score of\n0.6718, demonstrating their enhanced ability in automatic feature extraction\nand representation learning, essential for capturing complex neurophysiological\npatterns. These findings highlight the limitations of conventional machine\nlearning approaches in brain-computer interface (BCI) applications and advocate\nfor adopting deep learning methodologies to achieve more precise and reliable\nclassification of detecting imagined speech. This foundational research\ncontributes to the development of imagined speech-based BCI systems.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Sound",
+    "Electrical Engineering and Systems Science/Audio and Speech Processing"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "CBlBe5I0iBIDoOoWi3jEryNFL8uKzgZa4qlB3LFAZgg",
+  "pdfSize": "398120"
+}

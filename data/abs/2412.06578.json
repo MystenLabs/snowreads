@@ -1,0 +1,52 @@
+{
+  "id": "2412.06578",
+  "title": "MoViE: Mobile Diffusion for Video Editing",
+  "authors": "Adil Karjauv and Noor Fathima and Ioannis Lelekas and Fatih Porikli\n  and Amir Ghodrati and Amirhossein Habibian",
+  "authorsParsed": [
+    [
+      "Karjauv",
+      "Adil",
+      ""
+    ],
+    [
+      "Fathima",
+      "Noor",
+      ""
+    ],
+    [
+      "Lelekas",
+      "Ioannis",
+      ""
+    ],
+    [
+      "Porikli",
+      "Fatih",
+      ""
+    ],
+    [
+      "Ghodrati",
+      "Amir",
+      ""
+    ],
+    [
+      "Habibian",
+      "Amirhossein",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 9 Dec 2024 15:30:09 GMT"
+    }
+  ],
+  "updateDate": "2024-12-10",
+  "timestamp": 1733758209000,
+  "abstract": "  Recent progress in diffusion-based video editing has shown remarkable\npotential for practical applications. However, these methods remain\nprohibitively expensive and challenging to deploy on mobile devices. In this\nstudy, we introduce a series of optimizations that render mobile video editing\nfeasible. Building upon the existing image editing model, we first optimize its\narchitecture and incorporate a lightweight autoencoder. Subsequently, we extend\nclassifier-free guidance distillation to multiple modalities, resulting in a\nthreefold on-device speedup. Finally, we reduce the number of sampling steps to\none by introducing a novel adversarial distillation scheme which preserves the\ncontrollability of the editing process. Collectively, these optimizations\nenable video editing at 12 frames per second on mobile devices, while\nmaintaining high quality. Our results are available at\nhttps://qualcomm-ai-research.github.io/mobile-video-editing/\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "PORkUP7DjtmrVQf0UBSNppUSbEgKwR1hO93bG94XnrY",
+  "pdfSize": "9583853"
+}

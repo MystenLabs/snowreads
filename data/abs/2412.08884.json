@@ -1,0 +1,27 @@
+{
+  "id": "2412.08884",
+  "title": "Multiple partial rigidity rates in low complexity subshifts",
+  "authors": "Trist\\'an Radi\\'c",
+  "authorsParsed": [
+    [
+      "Radić",
+      "Tristán",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 12 Dec 2024 02:45:42 GMT"
+    }
+  ],
+  "updateDate": "2024-12-13",
+  "timestamp": 1733971542000,
+  "abstract": "  Partial rigidity is a quantitative notion of recurrence and provides a global\nobstruction which prevents the system from being strongly mixing. A dynamical\nsystem $(X, \\mathcal{X}, \\mu, T)$ is partially rigid if there is a constant\n$\\delta >0$ and sequence $(n_k)_{k \\in \\mathbb{N}}$ such that $\\displaystyle\n\\liminf_{k \\to \\infty } \\mu(A \\cap T^{n_k}A) \\geq \\delta \\mu(A)$ for every $A\n\\in \\mathcal{X}$, and the partial rigidity rate is the largest $\\delta$\nachieved over all sequences. For every integer $d \\geq 1$, via an explicit\nconstruction, we prove the existence of a minimal subshift $(X,S)$ with $d$\nergodic measures having distinct partial rigidity rates. The systems built are\n$\\mathcal{S}$-adic subshifts of finite alphabetic rank that have\nnon-superlinear word complexity and, in particular, have zero entropy.\n",
+  "subjects": [
+    "Mathematics/Dynamical Systems"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "_ZAP0XWrSRaPuhSLl8zLDs4U6oFGSSYaCHO8b3DUzRk",
+  "pdfSize": "319718"
+}

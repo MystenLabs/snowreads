@@ -1,0 +1,32 @@
+{
+  "id": "2412.16748",
+  "title": "Solving Inverse Problems via Diffusion Optimal Control",
+  "authors": "Henry Li, Marcus Pereira",
+  "authorsParsed": [
+    [
+      "Li",
+      "Henry",
+      ""
+    ],
+    [
+      "Pereira",
+      "Marcus",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 21 Dec 2024 19:47:06 GMT"
+    }
+  ],
+  "updateDate": "2024-12-24",
+  "timestamp": 1734810426000,
+  "abstract": "  Existing approaches to diffusion-based inverse problem solvers frame the\nsignal recovery task as a probabilistic sampling episode, where the solution is\ndrawn from the desired posterior distribution. This framework suffers from\nseveral critical drawbacks, including the intractability of the conditional\nlikelihood function, strict dependence on the score network approximation, and\npoor $\\mathbf{x}_0$ prediction quality. We demonstrate that these limitations\ncan be sidestepped by reframing the generative process as a discrete optimal\ncontrol episode. We derive a diffusion-based optimal controller inspired by the\niterative Linear Quadratic Regulator (iLQR) algorithm. This framework is fully\ngeneral and able to handle any differentiable forward measurement operator,\nincluding super-resolution, inpainting, Gaussian deblurring, nonlinear\ndeblurring, and even highly nonlinear neural classifiers. Furthermore, we show\nthat the idealized posterior sampling equation can be recovered as a special\ncase of our algorithm. We then evaluate our method against a selection of\nneural inverse problem solvers, and establish a new baseline in image\nreconstruction with inverse problems.\n",
+  "subjects": [
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "rT7dg-W6HpN03Aqme-0MfCIiCOhHJg_dpQpEd9TB8oU",
+  "pdfSize": "9570835"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "2412.07794",
+  "title": "Automatic answering of scientific questions using the FACTS-V1\n  framework: New methods in research to increase efficiency through the use of\n  AI",
+  "authors": "Stefan Pietrusky",
+  "authorsParsed": [
+    [
+      "Pietrusky",
+      "Stefan",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 1 Dec 2024 18:55:39 GMT"
+    }
+  ],
+  "updateDate": "2024-12-12",
+  "timestamp": 1733079339000,
+  "abstract": "  The use of artificial intelligence (AI) offers various possibilities to\nexpand and support educational research. Specifically, the implementation of AI\ncan be used to develop new frameworks to establish new research tools that\naccelerate and meaningfully expand the efficiency of data evaluation and\ninterpretation (Buckingham Shum et al., 2023). This article presents the\nprototype of the FACTS-V1 (Filtering and Analysis of Content in Textual\nSources) framework. With the help of the application, numerous scientific\npapers can be automatically extracted, analyzed and interpreted from open\naccess document servers without having to rely on proprietary applications and\ntheir limitations. The FACTS-V1 prototype consists of three building blocks.\nThe first part deals with the extraction of texts, the second with filtering\nand interpretation, and the last with the actual statistical evaluation (topic\nmodeling) using an interactive overview. The aim of the framework is to provide\nrecommendations for future scientific questions based on existing data. The\nfunctionality is illustrated by asking how the use of AI will change the\neducation sector. The data used to answer the question comes from 82 scientific\npapers on the topic of AI from 2024. The papers are publicly available on the\npeDOCS document server of the Leibniz Institute for Educational Research and\nEducational Information.\n",
+  "subjects": [
+    "Computer Science/Digital Libraries",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "ySYeU5EOmhUCvi6WFBuOda_Z47ADPW4VxQf_VBM5vZA",
+  "pdfSize": "1075429"
+}

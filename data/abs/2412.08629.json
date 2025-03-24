@@ -1,0 +1,43 @@
+{
+  "id": "2412.08629",
+  "title": "FlowEdit: Inversion-Free Text-Based Editing Using Pre-Trained Flow\n  Models",
+  "authors": "Vladimir Kulikov and Matan Kleiner and Inbar Huberman-Spiegelglas and\n  Tomer Michaeli",
+  "authorsParsed": [
+    [
+      "Kulikov",
+      "Vladimir",
+      ""
+    ],
+    [
+      "Kleiner",
+      "Matan",
+      ""
+    ],
+    [
+      "Huberman-Spiegelglas",
+      "Inbar",
+      ""
+    ],
+    [
+      "Michaeli",
+      "Tomer",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 11 Dec 2024 18:50:29 GMT"
+    }
+  ],
+  "updateDate": "2024-12-12",
+  "timestamp": 1733943029000,
+  "abstract": "  Editing real images using a pre-trained text-to-image (T2I) diffusion/flow\nmodel often involves inverting the image into its corresponding noise map.\nHowever, inversion by itself is typically insufficient for obtaining\nsatisfactory results, and therefore many methods additionally intervene in the\nsampling process. Such methods achieve improved results but are not seamlessly\ntransferable between model architectures. Here, we introduce FlowEdit, a\ntext-based editing method for pre-trained T2I flow models, which is\ninversion-free, optimization-free and model agnostic. Our method constructs an\nODE that directly maps between the source and target distributions\n(corresponding to the source and target text prompts) and achieves a lower\ntransport cost than the inversion approach. This leads to state-of-the-art\nresults, as we illustrate with Stable Diffusion 3 and FLUX. Code and examples\nare available on the project's webpage.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "9cGBSLrP15blvyzV0qPon9IW82cIJ83oNRRYx5c3vA4",
+  "pdfSize": "43018575"
+}

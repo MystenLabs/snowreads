@@ -1,0 +1,37 @@
+{
+  "id": "2412.02968",
+  "title": "How Many Ratings per Item are Necessary for Reliable Significance\n  Testing?",
+  "authors": "Christopher Homan, Flip Korn, and Chris Welty",
+  "authorsParsed": [
+    [
+      "Homan",
+      "Christopher",
+      ""
+    ],
+    [
+      "Korn",
+      "Flip",
+      ""
+    ],
+    [
+      "Welty",
+      "Chris",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 4 Dec 2024 02:31:28 GMT"
+    }
+  ],
+  "updateDate": "2024-12-05",
+  "timestamp": 1733279488000,
+  "abstract": "  Most approaches to machine learning evaluation assume that machine and human\nresponses are repeatable enough to be measured against data with unitary,\nauthoritative, \"gold standard\" responses, via simple metrics such as accuracy,\nprecision, and recall that assume scores are independent given the test item.\nHowever, AI models have multiple sources of stochasticity and the human raters\nwho create gold standards tend to disagree with each other, often in meaningful\nways, hence a single output response per input item may not provide enough\ninformation. We introduce methods for determining whether an (existing or\nplanned) evaluation dataset has enough responses per item to reliably compare\nthe performance of one model to another. We apply our methods to several of\nvery few extant gold standard test sets with multiple disaggregated responses\nper item and show that there are usually not enough responses per item to\nreliably compare the performance of one model against another. Our methods also\nallow us to estimate the number of responses per item for hypothetical datasets\nwith similar response distributions to the existing datasets we study. When two\nmodels are very far apart in their predictive performance, fewer raters are\nneeded to confidently compare them, as expected. However, as the models draw\ncloser, we find that a larger number of raters than are currently typical in\nannotation collection are needed to ensure that the power analysis correctly\nreflects the difference in performance.\n",
+  "subjects": [
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "oKX4pB3JfGXwGNvAioqMTkilnbhE6-N4WVig0RnjWCY",
+  "pdfSize": "605234"
+}

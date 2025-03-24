@@ -1,0 +1,47 @@
+{
+  "id": "2412.18421",
+  "title": "Fashionability-Enhancing Outfit Image Editing with Conditional Diffusion\n  Models",
+  "authors": "Qice Qin, Yuki Hirakawa, Ryotaro Shimizu, Takuya Furusawa, Edgar\n  Simo-Serra",
+  "authorsParsed": [
+    [
+      "Qin",
+      "Qice",
+      ""
+    ],
+    [
+      "Hirakawa",
+      "Yuki",
+      ""
+    ],
+    [
+      "Shimizu",
+      "Ryotaro",
+      ""
+    ],
+    [
+      "Furusawa",
+      "Takuya",
+      ""
+    ],
+    [
+      "Simo-Serra",
+      "Edgar",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 24 Dec 2024 13:27:25 GMT"
+    }
+  ],
+  "updateDate": "2024-12-25",
+  "timestamp": 1735046845000,
+  "abstract": "  Image generation in the fashion domain has predominantly focused on\npreserving body characteristics or following input prompts, but little\nattention has been paid to improving the inherent fashionability of the output\nimages. This paper presents a novel diffusion model-based approach that\ngenerates fashion images with improved fashionability while maintaining control\nover key attributes. Key components of our method include: 1) fashionability\nenhancement, which ensures that the generated images are more fashionable than\nthe input; 2) preservation of body characteristics, encouraging the generated\nimages to maintain the original shape and proportions of the input; and 3)\nautomatic fashion optimization, which does not rely on manual input or external\nprompts. We also employ two methods to collect training data for guidance while\ngenerating and evaluating the images. In particular, we rate outfit images\nusing fashionability scores annotated by multiple fashion experts through\nOpenSkill-based and five critical aspect-based pairwise comparisons. These\nmethods provide complementary perspectives for assessing and improving the\nfashionability of the generated images. The experimental results show that our\napproach outperforms the baseline Fashion++ in generating images with superior\nfashionability, demonstrating its effectiveness in producing more stylish and\nappealing fashion images.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "3BdEmZpEL8K080SC2f6w11MSiSsoqlIXv4Mjk2BWFoA",
+  "pdfSize": "29225169"
+}

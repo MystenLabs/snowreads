@@ -1,0 +1,59 @@
+{
+  "id": "2412.07082",
+  "title": "User Authentication and Vital Signs Extraction from Low-Frame-Rate and\n  Monochrome No-contact Fingerprint Captures",
+  "authors": "Olaoluwayimika Olugbenle, Logan Drake, Naveenkumar G. Venkataswamy,\n  Arfina Rahman, Yemi Afolayanka, Masudul Imtiaz, Mahesh K. Banavar",
+  "authorsParsed": [
+    [
+      "Olugbenle",
+      "Olaoluwayimika",
+      ""
+    ],
+    [
+      "Drake",
+      "Logan",
+      ""
+    ],
+    [
+      "Venkataswamy",
+      "Naveenkumar G.",
+      ""
+    ],
+    [
+      "Rahman",
+      "Arfina",
+      ""
+    ],
+    [
+      "Afolayanka",
+      "Yemi",
+      ""
+    ],
+    [
+      "Imtiaz",
+      "Masudul",
+      ""
+    ],
+    [
+      "Banavar",
+      "Mahesh K.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 10 Dec 2024 00:47:36 GMT"
+    }
+  ],
+  "updateDate": "2024-12-11",
+  "timestamp": 1733791656000,
+  "abstract": "  We present our work on leveraging low-frame-rate monochrome (blue light)\nvideos of fingertips, captured with an off-the-shelf fingerprint capture\ndevice, to extract vital signs and identify users. These videos utilize\nphotoplethysmography (PPG), commonly used to measure vital signs like heart\nrate. While prior research predominantly utilizes high-frame-rate,\nmulti-wavelength PPG sensors (e.g., infrared, red, or RGB), our preliminary\nfindings demonstrate that both user identification and vital sign extraction\nare achievable with the low-frame-rate data we collected. Preliminary results\nare promising, with low error rates for both heart rate estimation and user\nauthentication. These results indicate promise for effective biometric systems.\nWe anticipate further optimization will enhance accuracy and advance healthcare\nand security.\n",
+  "subjects": [
+    "Electrical Engineering and Systems Science/Image and Video Processing",
+    "Computer Science/Cryptography and Security",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "Xe-7iKMLaPrcn6zfL9RnIl04zAmDnLBvInO_BdSfnPo",
+  "pdfSize": "1116688"
+}

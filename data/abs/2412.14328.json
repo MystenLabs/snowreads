@@ -1,0 +1,42 @@
+{
+  "id": "2412.14328",
+  "title": "Semantic Role Labeling of NomBank Partitives",
+  "authors": "Adam Meyers, Advait Pravin Savant, John E. Ortega",
+  "authorsParsed": [
+    [
+      "Meyers",
+      "Adam",
+      ""
+    ],
+    [
+      "Savant",
+      "Advait Pravin",
+      ""
+    ],
+    [
+      "Ortega",
+      "John E.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 18 Dec 2024 20:56:11 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Fri, 20 Dec 2024 16:17:20 GMT"
+    }
+  ],
+  "updateDate": "2024-12-23",
+  "timestamp": 1734555371000,
+  "abstract": "  This article is about Semantic Role Labeling for English partitive nouns\n(5%/REL of the price/ARG1; The price/ARG1 rose 5 percent/REL) in the NomBank\nannotated corpus. Several systems are described using traditional and\ntransformer-based machine learning, as well as ensembling. Our highest scoring\nsystem achieves an F1 of 91.74% using \"gold\" parses from the Penn Treebank and\n91.12% when using the Berkeley Neural parser. This research includes both\nclassroom and experimental settings for system development.\n",
+  "subjects": [
+    "Computer Science/Computation and Language",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "8dJNyLx_6HcxXA8vBwgFJMux9i4rMTU-a5g7ytSIarU",
+  "pdfSize": "473480"
+}

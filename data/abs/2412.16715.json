@@ -1,0 +1,103 @@
+{
+  "id": "2412.16715",
+  "title": "From Histopathology Images to Cell Clouds: Learning Slide\n  Representations with Hierarchical Cell Transformer",
+  "authors": "Zijiang Yang, Zhongwei Qiu, Tiancheng Lin, Hanqing Chao, Wanxing\n  Chang, Yelin Yang, Yunshuo Zhang, Wenpei Jiao, Yixuan Shen, Wenbin Liu,\n  Dongmei Fu, Dakai Jin, Ke Yan, Le Lu, Hui Jiang, Yun Bian",
+  "authorsParsed": [
+    [
+      "Yang",
+      "Zijiang",
+      ""
+    ],
+    [
+      "Qiu",
+      "Zhongwei",
+      ""
+    ],
+    [
+      "Lin",
+      "Tiancheng",
+      ""
+    ],
+    [
+      "Chao",
+      "Hanqing",
+      ""
+    ],
+    [
+      "Chang",
+      "Wanxing",
+      ""
+    ],
+    [
+      "Yang",
+      "Yelin",
+      ""
+    ],
+    [
+      "Zhang",
+      "Yunshuo",
+      ""
+    ],
+    [
+      "Jiao",
+      "Wenpei",
+      ""
+    ],
+    [
+      "Shen",
+      "Yixuan",
+      ""
+    ],
+    [
+      "Liu",
+      "Wenbin",
+      ""
+    ],
+    [
+      "Fu",
+      "Dongmei",
+      ""
+    ],
+    [
+      "Jin",
+      "Dakai",
+      ""
+    ],
+    [
+      "Yan",
+      "Ke",
+      ""
+    ],
+    [
+      "Lu",
+      "Le",
+      ""
+    ],
+    [
+      "Jiang",
+      "Hui",
+      ""
+    ],
+    [
+      "Bian",
+      "Yun",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 21 Dec 2024 17:57:12 GMT"
+    }
+  ],
+  "updateDate": "2024-12-24",
+  "timestamp": 1734803832000,
+  "abstract": "  It is clinically crucial and potentially very beneficial to be able to\nanalyze and model directly the spatial distributions of cells in histopathology\nwhole slide images (WSI). However, most existing WSI datasets lack cell-level\nannotations, owing to the extremely high cost over giga-pixel images. Thus, it\nremains an open question whether deep learning models can directly and\neffectively analyze WSIs from the semantic aspect of cell distributions. In\nthis work, we construct a large-scale WSI dataset with more than 5 billion\ncell-level annotations, termed WSI-Cell5B, and a novel hierarchical Cell Cloud\nTransformer (CCFormer) to tackle these challenges. WSI-Cell5B is based on 6,998\nWSIs of 11 cancers from The Cancer Genome Atlas Program, and all WSIs are\nannotated per cell by coordinates and types. To the best of our knowledge,\nWSI-Cell5B is the first WSI-level large-scale dataset integrating cell-level\nannotations. On the other hand, CCFormer formulates the collection of cells in\neach WSI as a cell cloud and models cell spatial distribution. Specifically,\nNeighboring Information Embedding (NIE) is proposed to characterize the\ndistribution of cells within the neighborhood of each cell, and a novel\nHierarchical Spatial Perception (HSP) module is proposed to learn the spatial\nrelationship among cells in a bottom-up manner. The clinical analysis indicates\nthat WSI-Cell5B can be used to design clinical evaluation metrics based on\ncounting cells that effectively assess the survival risk of patients. Extensive\nexperiments on survival prediction and cancer staging show that learning from\ncell spatial distribution alone can already achieve state-of-the-art (SOTA)\nperformance, i.e., CCFormer strongly outperforms other competing methods.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "ySmOw9c_vTHrz4RI-cwpMQX0xXSSQFU6N82F_sKmwI0",
+  "pdfSize": "11206487"
+}

@@ -1,0 +1,57 @@
+{
+  "id": "2412.17618",
+  "title": "Dynamic safety cases for frontier AI",
+  "authors": "Carmen C\\^arlan, Francesca Gomez, Yohan Mathew, Ketana Krishna, Ren\\'e\n  King, Peter Gebauer, Ben R. Smith",
+  "authorsParsed": [
+    [
+      "Cârlan",
+      "Carmen",
+      ""
+    ],
+    [
+      "Gomez",
+      "Francesca",
+      ""
+    ],
+    [
+      "Mathew",
+      "Yohan",
+      ""
+    ],
+    [
+      "Krishna",
+      "Ketana",
+      ""
+    ],
+    [
+      "King",
+      "René",
+      ""
+    ],
+    [
+      "Gebauer",
+      "Peter",
+      ""
+    ],
+    [
+      "Smith",
+      "Ben R.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 23 Dec 2024 14:43:41 GMT"
+    }
+  ],
+  "updateDate": "2024-12-24",
+  "timestamp": 1734965021000,
+  "abstract": "  Frontier artificial intelligence (AI) systems present both benefits and risks\nto society. Safety cases - structured arguments supported by evidence - are one\nway to help ensure the safe development and deployment of these systems. Yet\nthe evolving nature of AI capabilities, as well as changes in the operational\nenvironment and understanding of risk, necessitates mechanisms for continuously\nupdating these safety cases. Typically, in other sectors, safety cases are\nproduced pre-deployment and do not require frequent updates post-deployment,\nwhich can be a manual, costly process. This paper proposes a Dynamic Safety\nCase Management System (DSCMS) to support both the initial creation of a safety\ncase and its systematic, semi-automated revision over time. Drawing on methods\ndeveloped in the autonomous vehicles (AV) sector - state-of-the-art Checkable\nSafety Arguments (CSA) combined with Safety Performance Indicators (SPIs)\nrecommended by UL 4600, a DSCMS helps developers maintain alignment between\nsystem safety claims and the latest system state. We demonstrate this approach\non a safety case template for offensive cyber capabilities and suggest ways it\ncan be integrated into governance structures for safety-critical\ndecision-making. While the correctness of the initial safety argument remains\nparamount - particularly for high-severity risks - a DSCMS provides a framework\nfor adapting to new insights and strengthening incident response. We outline\nchallenges and further work towards development and implementation of this\napproach as part of continuous safety assurance of frontier AI systems.\n",
+  "subjects": [
+    "Computer Science/Computers and Society"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "kQssfaa_-1R2A0FAj-QHT6g2KH0c9eHK_mN070rms0E",
+  "pdfSize": "6377086"
+}

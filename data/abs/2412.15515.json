@@ -1,0 +1,37 @@
+{
+  "id": "2412.15515",
+  "title": "Reconstruction of Contour Lines During the Digitization of Contour Maps\n  to Build a Digital Elevation Model",
+  "authors": "Aroj Subedi, Pradip Ganesh, Sandip Mishra",
+  "authorsParsed": [
+    [
+      "Subedi",
+      "Aroj",
+      ""
+    ],
+    [
+      "Ganesh",
+      "Pradip",
+      ""
+    ],
+    [
+      "Mishra",
+      "Sandip",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 20 Dec 2024 03:02:42 GMT"
+    }
+  ],
+  "updateDate": "2024-12-23",
+  "timestamp": 1734663762000,
+  "abstract": "  Contour map has contour lines that are significant in building a Digital\nElevation Model (DEM). During the digitization and pre-processing of contour\nmaps, the contour line intersects with each other or break apart resulting in\nbroken contour segments. These broken segments impose a greater risk while\nbuilding DEM leading to a faulty model. In this project, a simple yet efficient\nmechanism is used to match and reconnect the endpoints of the broken segments\naccurately and efficiently. The matching of the endpoints is done using the\nconcept of minimum Euclidean distance and gradient direction while the Cubic\nHermite spline interpolation technique is used to reconnect the endpoints by\nestimating the values using a mathematical function that minimizes overall\nsurface curvature resulting in a smooth curve. The purpose of this work is to\nreconnect the broken contour lines generated during the digitization of the\ncontour map, to help build the most appropriate digital elevation model for the\ncorresponding contour map.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "WpZQxmUazBgyl4xLZUrD2YPH8W-HNDzSOsyPeM7l9lM",
+  "pdfSize": "824565"
+}

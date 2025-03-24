@@ -1,0 +1,52 @@
+{
+  "id": "2412.11384",
+  "title": "A Comprehensive Review of Adversarial Attacks on Machine Learning",
+  "authors": "Syed Quiser Ahmed, Bharathi Vokkaliga Ganesh, Sathyanarayana Sampath\n  Kumar, Prakhar Mishra, Ravi Anand, Bhanuteja Akurathi",
+  "authorsParsed": [
+    [
+      "Ahmed",
+      "Syed Quiser",
+      ""
+    ],
+    [
+      "Ganesh",
+      "Bharathi Vokkaliga",
+      ""
+    ],
+    [
+      "Kumar",
+      "Sathyanarayana Sampath",
+      ""
+    ],
+    [
+      "Mishra",
+      "Prakhar",
+      ""
+    ],
+    [
+      "Anand",
+      "Ravi",
+      ""
+    ],
+    [
+      "Akurathi",
+      "Bhanuteja",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 16 Dec 2024 02:27:54 GMT"
+    }
+  ],
+  "updateDate": "2024-12-17",
+  "timestamp": 1734316074000,
+  "abstract": "  This research provides a comprehensive overview of adversarial attacks on AI\nand ML models, exploring various attack types, techniques, and their potential\nharms. We also delve into the business implications, mitigation strategies, and\nfuture research directions. To gain practical insights, we employ the\nAdversarial Robustness Toolbox (ART) [1] library to simulate these attacks on\nreal-world use cases, such as self-driving cars. Our goal is to inform\npractitioners and researchers about the challenges and opportunities in\ndefending AI systems against adversarial threats. By providing a comprehensive\ncomparison of different attack methods, we aim to contribute to the development\nof more robust and secure AI systems.\n",
+  "subjects": [
+    "Computer Science/Cryptography and Security"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "wXX8FpHs0M0An8hN88HAr1cMHl6p0UAinJn-7mhSNhc",
+  "pdfSize": "1551391"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "2412.06543",
+  "title": "Challenges and Opportunities for Visual Analytics in Jurisprudence",
+  "authors": "Daniel F\\\"urst, Mennatallah El-Assady, Daniel A. Keim, Maximilian T.\n  Fischer",
+  "authorsParsed": [
+    [
+      "Fürst",
+      "Daniel",
+      ""
+    ],
+    [
+      "El-Assady",
+      "Mennatallah",
+      ""
+    ],
+    [
+      "Keim",
+      "Daniel A.",
+      ""
+    ],
+    [
+      "Fischer",
+      "Maximilian T.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 9 Dec 2024 14:54:44 GMT"
+    }
+  ],
+  "updateDate": "2024-12-10",
+  "timestamp": 1733756084000,
+  "abstract": "  Exploring, analyzing, and interpreting law can be tedious and challenging,\neven for legal scholars, since legal texts contain domain-specific language,\nrequire knowledge of tacit legal concepts, and are sometimes intentionally\nambiguous. In related, text-based domains, Visual Analytics (VA) and large\nlanguage models (LLMs) have become essential for working with documents as they\nsupport data navigation, knowledge representation, and analytical reasoning.\nHowever, legal scholars must simultaneously manage hierarchical information\nsources, leverage implicit domain knowledge, and document complex reasoning\nprocesses, which are neither adequately accessible through existing VA designs\nnor sufficiently supported by current LLMs. To address the needs of legal\nscholars, we identify previously unexamined challenges and opportunities when\napplying VA to jurisprudence. We conducted semi-structured interviews with nine\nexperts from the legal domain and found that they lacked the ability to\narticulate their tacit domain knowledge as explicit, machine-interpretable\nknowledge. Hence, we propose leveraging interactive visualization for this\narticulation, teaching the machine relevant semantic relationships between\nlegal documents. These relationships inform the predictions of VA and LLMs,\nfacilitating the navigation between the hierarchies of legal document\ncollections. The enhanced navigation can uncover additional relevant legal\ndocuments, reinforcing the legal reasoning process by generating legal insights\nthat reflect internalized, tacit domain knowledge. In summary, we provide a\nhuman-is-the-loop VA workflow for jurisprudence that recognizes tacit domain\nknowledge as essential for deriving legal insights. More broadly, we compare\nthis workflow with related text-based research practices, revealing research\ngaps and guiding visualization researchers in knowledge-assisted VA for law and\nbeyond.\n",
+  "subjects": [
+    "Computer Science/Human-Computer Interaction"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "7jvKCUYcS4yW8GvwausCzt0mdBRTX0Ujh6HwZ1y7QKA",
+  "pdfSize": "1958775"
+}

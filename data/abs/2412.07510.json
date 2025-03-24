@@ -1,0 +1,32 @@
+{
+  "id": "2412.07510",
+  "title": "Roman domination number of zero-divisor graphs over commutative rings",
+  "authors": "Ravindra Kumar and Om Prakash",
+  "authorsParsed": [
+    [
+      "Kumar",
+      "Ravindra",
+      ""
+    ],
+    [
+      "Prakash",
+      "Om",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 10 Dec 2024 13:47:59 GMT"
+    }
+  ],
+  "updateDate": "2024-12-11",
+  "timestamp": 1733838479000,
+  "abstract": "  For a graph $G= (V, E)$, a Roman dominating function is a map $f : V\n\\rightarrow \\{0, 1, 2\\}$ satisfies the property that if $f(v) = 0$, then $v$\nmust have adjacent to at least one vertex $u$ such that $f(u)= 2$. The weight\nof a Roman dominating function $f$ is the value $f(V)= \\Sigma_{u \\in V} f(u)$,\nand the minimum weight of a Roman dominating function on $G$ is called the\nRoman domination number of $G$, denoted by $\\gamma_R(G)$. The main focus of\nthis paper is to study the Roman domination number of zero-divisor graph\n$\\Gamma(R)$ and find the bounds of the Roman domination number of\n$T(\\Gamma(R))$.\n",
+  "subjects": [
+    "Mathematics/Combinatorics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "nQ2-ehQCBh3t_n-M7zXezChW1P8fjRKJqrXPYmqUEsA",
+  "pdfSize": "128831"
+}

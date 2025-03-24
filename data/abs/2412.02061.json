@@ -1,0 +1,27 @@
+{
+  "id": "2412.02061",
+  "title": "Strong Friendship Paradox in Social Networks",
+  "authors": "Kristina Lerman",
+  "authorsParsed": [
+    [
+      "Lerman",
+      "Kristina",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 3 Dec 2024 00:46:52 GMT"
+    }
+  ],
+  "updateDate": "2024-12-04",
+  "timestamp": 1733186812000,
+  "abstract": "  The friendship paradox in social networks states that your friends have more\nfriends than you do, on average. Recently, a stronger variant of the paradox\nwas shown to hold for most people within a network: `most of your friends have\nmore friends than you do.' Unlike the original paradox, which arises trivially\nbecause a few very popular people appear in the social circles of many others\nand skew their average friend popularity, the strong friendship paradox depends\non features of higher-order network structures. Similar to the original\nparadox, the strong friendship paradox generalizes beyond popularity. When\nindividuals have traits, many will observe that most of their friends have more\nof that trait than they do. This can lead to the Majority illusion, in which a\nrare trait will appear highly prevalent within a network. Understanding how the\nstrong friendship paradox biases local observations within networks can inform\nbetter measurements of network structure and our understanding of collective\nphenomena in networks.\n",
+  "subjects": [
+    "Computer Science/Social and Information Networks"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "MY1qenH51TL43MWqjHTelzcpD3nTRDKxHaznTpEId6k",
+  "pdfSize": "530014"
+}

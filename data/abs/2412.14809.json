@@ -1,0 +1,65 @@
+{
+  "id": "2412.14809",
+  "title": "ResoFilter: Fine-grained Synthetic Data Filtering for Large Language\n  Models through Data-Parameter Resonance Analysis",
+  "authors": "Zeao Tu, Xiangdi Meng, Yu He, Zihan Yao, Tianyu Qi, Jun Liu, Ming Li",
+  "authorsParsed": [
+    [
+      "Tu",
+      "Zeao",
+      ""
+    ],
+    [
+      "Meng",
+      "Xiangdi",
+      ""
+    ],
+    [
+      "He",
+      "Yu",
+      ""
+    ],
+    [
+      "Yao",
+      "Zihan",
+      ""
+    ],
+    [
+      "Qi",
+      "Tianyu",
+      ""
+    ],
+    [
+      "Liu",
+      "Jun",
+      ""
+    ],
+    [
+      "Li",
+      "Ming",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 19 Dec 2024 12:57:47 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Fri, 20 Dec 2024 03:01:06 GMT"
+    },
+    {
+      "version": "v3",
+      "created": "Fri, 24 Jan 2025 13:54:05 GMT"
+    }
+  ],
+  "updateDate": "2025-01-27",
+  "timestamp": 1734613067000,
+  "abstract": "  Large language models (LLMs) have shown remarkable effectiveness across\nvarious domains, with data augmentation methods utilizing GPT for synthetic\ndata generation becoming prevalent. However, the quality and utility of\naugmented data remain questionable, and current methods lack clear metrics for\nevaluating data characteristics. To address these challenges, we propose\nResoFilter, a novel method that integrates models, data, and tasks to refine\ndatasets. ResoFilter leverages the fine-tuning process to obtain Data-Parameter\nfeatures for data selection, offering improved interpretability by representing\ndata characteristics through model weights. Our experiments demonstrate that\nResoFilter achieves comparable results to full-scale fine-tuning using only\nhalf the data in mathematical tasks and exhibits strong generalization across\ndifferent models and domains. This method provides valuable insights for\nconstructing synthetic datasets and evaluating high-quality data, offering a\npromising solution for enhancing data augmentation techniques and improving\ntraining dataset quality for LLMs. For reproducibility, we will release our\ncode and data upon acceptance.\n",
+  "subjects": [
+    "Computer Science/Computation and Language"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "PNmgwrwEPP2yAjLPKaoPdhovjq18UMlqMi8zUsmIt4c",
+  "pdfSize": "5437538"
+}

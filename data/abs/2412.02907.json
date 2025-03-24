@@ -1,0 +1,51 @@
+{
+  "id": "2412.02907",
+  "title": "Predicting post-release defects with knowledge units (KUs) of\n  programming languages: an empirical study",
+  "authors": "Md Ahasanuzzaman, Gustavo A. Oliva, Ahmed E. Hassan, and Zhen Ming\n  (Jack) Jiang",
+  "authorsParsed": [
+    [
+      "Ahasanuzzaman",
+      "Md",
+      "",
+      "Jack"
+    ],
+    [
+      "Oliva",
+      "Gustavo A.",
+      "",
+      "Jack"
+    ],
+    [
+      "Hassan",
+      "Ahmed E.",
+      "",
+      "Jack"
+    ],
+    [
+      "Ming",
+      "Zhen",
+      "",
+      "Jack"
+    ],
+    [
+      "Jiang",
+      "",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 3 Dec 2024 23:22:06 GMT"
+    }
+  ],
+  "updateDate": "2024-12-05",
+  "timestamp": 1733268126000,
+  "abstract": "  Traditional code metrics (product and process metrics) have been widely used\nin defect prediction. However, these metrics have an inherent limitation: they\ndo not reveal system traits that are tied to certain building blocks of a given\nprogramming language. Taking these building blocks of a programming language\ninto account can lead to further insights about a software system and improve\ndefect prediction. To fill this gap, this paper reports an empirical study on\nthe usage of knowledge units (KUs) of the Java programming language. A KU is a\ncohesive set of key capabilities that are offered by one or more building\nblocks of a given programming language. This study aims to understand whether\nwe can obtain richer results in defect prediction when using KUs in combination\nwith traditional code metrics. Using a defect dataset covering 28 releases of 8\nJava systems, we analyze source code to extract both traditional code metrics\nand KU incidences. We find empirical evidence that KUs are different and\ncomplementary to traditional metrics, thus indeed offering a new lens through\nwhich software systems can be analyzed. We build a defect prediction model\ncalled KUCLS, which leverages the KU-based features. Our KUCLS achieves a\nmedian AUC of 0.82 and significantly outperforms the CC_PROD (model built with\nproduct metrics). The normalized AUC improvement of the KUCLS over CC_PROD\nranges from 5.1% to 28.9% across the studied releases. Combining KUs with\ntraditional metrics in KUCLS_CC further improves performance, with AUC gains of\n4.9% to 33.3% over CC and 5.6% to 59.9% over KUCLS. Finally, we develop a\ncost-effective model that significantly outperforms the CC. These encouraging\nresults can be helpful to researchers who wish to further study the aspect of\nfeature engineering and building models for defect prediction.\n",
+  "subjects": [
+    "Computer Science/Software Engineering"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "ZWd9Vvp46ydD598q5C6eT5ZsY6uSoJ2lLiQdysEdWoc",
+  "pdfSize": "2163419"
+}

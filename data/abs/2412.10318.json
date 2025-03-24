@@ -1,0 +1,41 @@
+{
+  "id": "2412.10318",
+  "title": "Analysis and Suppression of Errors in Quantum Random Access Memory under\n  Extended Noise Models",
+  "authors": "Rohan Mehta, Gideon Lee, Liang Jiang",
+  "authorsParsed": [
+    [
+      "Mehta",
+      "Rohan",
+      ""
+    ],
+    [
+      "Lee",
+      "Gideon",
+      ""
+    ],
+    [
+      "Jiang",
+      "Liang",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 13 Dec 2024 17:59:16 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Tue, 17 Dec 2024 18:20:35 GMT"
+    }
+  ],
+  "updateDate": "2024-12-18",
+  "timestamp": 1734112756000,
+  "abstract": "  Quantum random access memory (QRAM) is required for numerous quantum\nalgorithms and network architectures. Previous work has shown that the\nubiquitous bucket-brigade QRAM is highly resilient to arbitrary local\nincoherent noise channels occurring during the operation of the QRAM [PRX\nQuantum 2, 020311 (2021)], with query infidelities growing only\npolylogarithmically with memory width when errors are assumed to only occur on\nindividual routers. We extend this result to a large class of generalized\nsettings that arise in realistic situations, including arbitrary initialization\nerrors, spatially correlated errors, as well as coherent errors, maintaining\nthe polylogarithmic scaling in all instances. Fully quantifying the extent to\nwhich QRAM's noise resilience holds may provide a guide for the design of QRAM\narchitectures - for instance, the resilience to initialization errors indicates\nthat a reset protocol between successive queries may not be necessary. In the\ncase of coherent errors, we find an up-to-quadratic increase in the infidelity\nbound, and therefore discuss generalizations to randomized compiling schemes,\nwhich usually are rendered inapplicable in the QRAM setting, to tailor these\nerrors into more favorable stochastic noise.\n",
+  "subjects": [
+    "Physics/Quantum Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "bOChTB6CDx9oT2RBKMI5eeNyCO-tIkj8f6DJmFfsOYU",
+  "pdfSize": "2406505"
+}

@@ -1,0 +1,67 @@
+{
+  "id": "2412.00724",
+  "title": "AdaScale: Dynamic Context-aware DNN Scaling via Automated Adaptation\n  Loop on Mobile Devices",
+  "authors": "Yuzhan Wang, Sicong Liu, Bin Guo, Boqi Zhang, Ke Ma, Yasan Ding, Hao\n  Luo, Yao Li and Zhiwen Yu",
+  "authorsParsed": [
+    [
+      "Wang",
+      "Yuzhan",
+      ""
+    ],
+    [
+      "Liu",
+      "Sicong",
+      ""
+    ],
+    [
+      "Guo",
+      "Bin",
+      ""
+    ],
+    [
+      "Zhang",
+      "Boqi",
+      ""
+    ],
+    [
+      "Ma",
+      "Ke",
+      ""
+    ],
+    [
+      "Ding",
+      "Yasan",
+      ""
+    ],
+    [
+      "Luo",
+      "Hao",
+      ""
+    ],
+    [
+      "Li",
+      "Yao",
+      ""
+    ],
+    [
+      "Yu",
+      "Zhiwen",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 1 Dec 2024 08:33:56 GMT"
+    }
+  ],
+  "updateDate": "2024-12-03",
+  "timestamp": 1733042036000,
+  "abstract": "  Deep learning is reshaping mobile applications, with a growing trend of\ndeploying deep neural networks (DNNs) directly to mobile and embedded devices\nto address real-time performance and privacy. To accommodate local resource\nlimitations, techniques like weight compression, convolution decomposition, and\nspecialized layer architectures have been developed. However, the\n\\textit{dynamic} and \\textit{diverse} deployment contexts of mobile devices\npose significant challenges. Adapting deep models to meet varied\ndevice-specific requirements for latency, accuracy, memory, and energy is\nlabor-intensive. Additionally, changing processor states, fluctuating memory\navailability, and competing processes frequently necessitate model\nre-compression to preserve user experience. To address these issues, we\nintroduce AdaScale, an elastic inference framework that automates the\nadaptation of deep models to dynamic contexts. AdaScale leverages a\nself-evolutionary model to streamline network creation, employs diverse\ncompression operator combinations to reduce the search space and improve\noutcomes, and integrates a resource availability awareness block and\nperformance profilers to establish an automated adaptation loop. Our\nexperiments demonstrate that AdaScale significantly enhances accuracy by 5.09%,\nreduces training overhead by 66.89%, speeds up inference latency by 1.51 to 6.2\ntimes, and lowers energy costs by 4.69 times.\n",
+  "subjects": [
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "AQCoeojS0KiIxhOmWXdhXcCYm9MeXgRhW1JMYM_0tXQ",
+  "pdfSize": "8569668"
+}

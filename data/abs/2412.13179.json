@@ -1,0 +1,37 @@
+{
+  "id": "2412.13179",
+  "title": "A Pipeline and NIR-Enhanced Dataset for Parking Lot Segmentation",
+  "authors": "Shirin Qiam, Saipraneeth Devunuri, Lewis J. Lehe",
+  "authorsParsed": [
+    [
+      "Qiam",
+      "Shirin",
+      ""
+    ],
+    [
+      "Devunuri",
+      "Saipraneeth",
+      ""
+    ],
+    [
+      "Lehe",
+      "Lewis J.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 9 Dec 2024 00:38:34 GMT"
+    }
+  ],
+  "updateDate": "2024-12-18",
+  "timestamp": 1733704714000,
+  "abstract": "  Discussions of minimum parking requirement policies often include maps of\nparking lots, which are time consuming to construct manually. Open source\ndatasets for such parking lots are scarce, particularly for US cities. This\npaper introduces the idea of using Near-Infrared (NIR) channels as input and\nseveral post-processing techniques to improve the prediction of off-street\nsurface parking lots using satellite imagery. We constructed two datasets with\n12,617 image-mask pairs each: one with 3-channel (RGB) and another with\n4-channel (RGB + NIR). The datasets were used to train five deep learning\nmodels (OneFormer, Mask2Former, SegFormer, DeepLabV3, and FCN) for semantic\nsegmentation, classifying images to differentiate between parking and\nnon-parking pixels. Our results demonstrate that the NIR channel improved\naccuracy because parking lots are often surrounded by grass, even though the\nNIR channel needed to be upsampled from a lower resolution. Post-processing\nincluding eliminating erroneous holes, simplifying edges, and removing road and\nbuilding footprints further improved the accuracy. Best model, OneFormer\ntrained on 4-channel input and paired with post-processing techniques achieves\na mean Intersection over Union (mIoU) of 84.9 percent and a pixel-wise accuracy\nof 96.3 percent.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "IX0W7oDB-gpR-o56eJETnrM8o0vEOOh6SHcAviO21-E",
+  "pdfSize": "10444180"
+}

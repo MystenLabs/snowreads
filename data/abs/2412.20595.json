@@ -1,0 +1,38 @@
+{
+  "id": "2412.20595",
+  "title": "Controlling Out-of-Domain Gaps in LLMs for Genre Classification and\n  Generated Text Detection",
+  "authors": "Dmitri Roussinov, Serge Sharoff, Nadezhda Puchnina",
+  "authorsParsed": [
+    [
+      "Roussinov",
+      "Dmitri",
+      ""
+    ],
+    [
+      "Sharoff",
+      "Serge",
+      ""
+    ],
+    [
+      "Puchnina",
+      "Nadezhda",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 29 Dec 2024 21:54:39 GMT"
+    }
+  ],
+  "updateDate": "2024-12-31",
+  "timestamp": 1735509279000,
+  "abstract": "  This study demonstrates that the modern generation of Large Language Models\n(LLMs, such as GPT-4) suffers from the same out-of-domain (OOD) performance gap\nobserved in prior research on pre-trained Language Models (PLMs, such as BERT).\nWe demonstrate this across two non-topical classification tasks: 1) genre\nclassification and 2) generated text detection. Our results show that when\ndemonstration examples for In-Context Learning (ICL) come from one domain\n(e.g., travel) and the system is tested on another domain (e.g., history),\nclassification performance declines significantly.\n  To address this, we introduce a method that controls which predictive\nindicators are used and which are excluded during classification. For the two\ntasks studied here, this ensures that topical features are omitted, while the\nmodel is guided to focus on stylistic rather than content-based attributes.\nThis approach reduces the OOD gap by up to 20 percentage points in a few-shot\nsetup. Straightforward Chain-of-Thought (CoT) methods, used as the baseline,\nprove insufficient, while our approach consistently enhances domain transfer\nperformance.\n",
+  "subjects": [
+    "Computer Science/Computation and Language",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "8dujWH2nd8kfeA2md_RddCzy8_vqGsEk7ZngzL2ksG4",
+  "pdfSize": "445583"
+}

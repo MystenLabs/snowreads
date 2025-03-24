@@ -1,0 +1,33 @@
+{
+  "id": "2412.00629",
+  "title": "Online Voltage Regulation of Distribution Systems with\n  Disturbance-Action Controllers",
+  "authors": "Peng Zhang and Baosen Zhang",
+  "authorsParsed": [
+    [
+      "Zhang",
+      "Peng",
+      ""
+    ],
+    [
+      "Zhang",
+      "Baosen",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 1 Dec 2024 01:00:45 GMT"
+    }
+  ],
+  "updateDate": "2024-12-03",
+  "timestamp": 1733014845000,
+  "abstract": "  Inverter-based distributed energy resources facilitate the advanced voltage\ncontrol algorithms in the online setting with the flexibility in both active\nand reactive power injections. A key challenge is to continuously track the\ntime-varying global optima with the robustness against dynamics inaccuracy and\ncommunication delay. In this paper, we introduce the disturbance-action\ncontroller by novelly formulating the voltage drop from loads as the system\ndisturbance. The controller alternatively generates the control input and\nupdates the parameters based on the interactions with grids. Under the\nlinearized power flow model, we provide stability conditions of the control\npolicy and the performance degradation to model inaccuracy. The simulation\nresults on the radial distribution networks show the effectiveness of proposed\ncontroller under fluctuating loads and significant improvement on the\nrobustness to these challenges. Furthermore, the ability of incorporating\nhistory information and generalization to various loads are demonstrated\nthrough extensive experiments on the parameter sensitivity.\n",
+  "subjects": [
+    "Electrical Engineering and Systems Science/Systems and Control",
+    "Computer Science/Systems and Control"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "dbzmfpp_NsbUf-6NGCF8zTxssQr9pRwtKs0zaneCNi8",
+  "pdfSize": "919861"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "2412.18611",
+  "title": "Graph theoretic proofs for some results on banded inverses of\n  $M$-matrices",
+  "authors": "S. Pratihar and K.C. Sivakumar",
+  "authorsParsed": [
+    [
+      "Pratihar",
+      "S.",
+      ""
+    ],
+    [
+      "Sivakumar",
+      "K. C.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 5 Dec 2024 06:41:11 GMT"
+    }
+  ],
+  "updateDate": "2024-12-30",
+  "timestamp": 1733380871000,
+  "abstract": "  This work concerns results on conditions guaranteeing that certain banded\n$M$-matrices have banded inverses. As a first goal, a graph theoretic\ncharacterization for an off-diagonal entry of the inverse of an $M$-matrix to\nbe positive, is presented. This result, in turn, is used in providing\nalternative graph theoretic proofs of the following: (1) a characterization for\na tridiagonal $M$-matrix to have a tridiagonal inverse. (2) a necessary\ncondition for an $M$-matrix to have a pentadiagonal inverse. The results are\nillustrated by several numerical examples.\n",
+  "subjects": [
+    "Mathematics/General Mathematics"
+  ],
+  "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+  "blobId": "dnGPQag9xv8RhwqYEJgv18rFCzxhlWvnZ9DOdqPHY-8",
+  "pdfSize": "149781"
+}

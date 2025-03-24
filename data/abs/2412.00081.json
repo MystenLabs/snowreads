@@ -1,0 +1,57 @@
+{
+  "id": "2412.00081",
+  "title": "Task Singular Vectors: Reducing Task Interference in Model Merging",
+  "authors": "Antonio Andrea Gargiulo, Donato Crisostomi, Maria Sofia Bucarelli,\n  Simone Scardapane, Fabrizio Silvestri, Emanuele Rodol\\`a",
+  "authorsParsed": [
+    [
+      "Gargiulo",
+      "Antonio Andrea",
+      ""
+    ],
+    [
+      "Crisostomi",
+      "Donato",
+      ""
+    ],
+    [
+      "Bucarelli",
+      "Maria Sofia",
+      ""
+    ],
+    [
+      "Scardapane",
+      "Simone",
+      ""
+    ],
+    [
+      "Silvestri",
+      "Fabrizio",
+      ""
+    ],
+    [
+      "Rodolà",
+      "Emanuele",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 26 Nov 2024 22:53:06 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Thu, 2 Jan 2025 17:33:12 GMT"
+    }
+  ],
+  "updateDate": "2025-01-03",
+  "timestamp": 1732661586000,
+  "abstract": "  Task Arithmetic has emerged as a simple yet effective method to merge models\nwithout additional training. However, by treating entire networks as flat\nparameter vectors, it overlooks key structural information and is susceptible\nto task interference. In this paper, we study task vectors at the layer level,\nfocusing on task layer matrices and their singular value decomposition. In\nparticular, we concentrate on the resulting singular vectors, which we refer to\nas Task Singular Vectors (TSV). Recognizing that layer task matrices are often\nlow-rank, we propose TSV-Compress (TSV-C), a simple procedure that compresses\nthem to 10% of their original size while retaining 99% of accuracy. We further\nleverage this low-rank space to define a new measure of task interference based\non the interaction of singular vectors from different tasks. Building on these\nfindings, we introduce TSV-Merge (TSV-M), a novel model merging approach that\ncombines compression with interference reduction, significantly outperforming\nexisting methods.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Statistics/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "75GWwJBkp2S-SdYxLQfNcVEy4HECGaQlx6TL_bw-_s0",
+  "pdfSize": "1447596"
+}

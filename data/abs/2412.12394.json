@@ -1,0 +1,46 @@
+{
+  "id": "2412.12394",
+  "title": "Representation learning for fast radio burst dynamic spectra",
+  "authors": "Dirk Kuiper, Gabriella Contardo, Daniela Huppenkothen, Jason W. T.\n  Hessels",
+  "authorsParsed": [
+    [
+      "Kuiper",
+      "Dirk",
+      ""
+    ],
+    [
+      "Contardo",
+      "Gabriella",
+      ""
+    ],
+    [
+      "Huppenkothen",
+      "Daniela",
+      ""
+    ],
+    [
+      "Hessels",
+      "Jason W. T.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 16 Dec 2024 23:02:10 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Tue, 18 Feb 2025 11:27:31 GMT"
+    }
+  ],
+  "updateDate": "2025-02-19",
+  "timestamp": 1734390130000,
+  "abstract": "  Fast radio bursts (FRBs) are millisecond-duration radio transients of\nextragalactic origin, with diverse time-frequency patterns and emission\nproperties that require explanation. With one possible exception, FRBs are\ndetected only in the radio, so analyzing their dynamic spectra is therefore\ncrucial to disentangling the physical processes governing their generation and\npropagation. Furthermore, comparing FRB morphologies provides insights into\npossible differences among their progenitors and environments. This study\napplies unsupervised learning and deep learning techniques to investigate FRB\ndynamic spectra, focusing on two approaches: Principal Component Analysis (PCA)\nand a Convolutional Autoencoder (CAE) enhanced by an Information-Ordered\nBottleneck (IOB) layer. PCA served as a computationally efficient baseline,\ncapturing broad trends, identifying outliers, and providing valuable insights\ninto large datasets. However, its linear nature limited its ability to\nreconstruct complex FRB structures. In contrast, the IOB-augmented CAE excelled\nat capturing intricate features, with high reconstruction accuracy and\neffective denoising at modest signal-to-noise ratios. The IOB layer's ability\nto prioritize relevant features enabled efficient data compression, preserving\nkey morphological characteristics with minimal latent variables. When applied\nto real FRBs from CHIME, the IOB-CAE generalized effectively, revealing a\nlatent space that highlighted the continuum of FRB morphologies and the\npotential for distinguishing intrinsic differences between burst types. This\nframework demonstrates that while FRBs may not naturally cluster into discrete\ngroups, advanced representation learning techniques can uncover meaningful\nstructures, offering new insights into the diversity and origins of these\nbursts.\n",
+  "subjects": [
+    "Astrophysics/High Energy Astrophysical Phenomena"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "cpz3pSEM3UGu0psUvh7UpFopVatkJ8HNE5syhUQxNp0",
+  "pdfSize": "9830914"
+}

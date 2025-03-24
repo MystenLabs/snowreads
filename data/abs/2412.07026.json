@@ -1,0 +1,43 @@
+{
+  "id": "2412.07026",
+  "title": "GenAI4UQ: A Software for Inverse Uncertainty Quantification Using\n  Conditional Generative Models",
+  "authors": "Ming Fan, Zezhong Zhang, Dan Lu, and Guannan Zhang",
+  "authorsParsed": [
+    [
+      "Fan",
+      "Ming",
+      ""
+    ],
+    [
+      "Zhang",
+      "Zezhong",
+      ""
+    ],
+    [
+      "Lu",
+      "Dan",
+      ""
+    ],
+    [
+      "Zhang",
+      "Guannan",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 9 Dec 2024 22:26:23 GMT"
+    }
+  ],
+  "updateDate": "2024-12-11",
+  "timestamp": 1733783183000,
+  "abstract": "  We introduce GenAI4UQ, a software package for inverse uncertainty\nquantification in model calibration, parameter estimation, and ensemble\nforecasting in scientific applications. GenAI4UQ leverages a generative\nartificial intelligence (AI) based conditional modeling framework to address\nthe limitations of traditional inverse modeling techniques, such as Markov\nChain Monte Carlo methods. By replacing computationally intensive iterative\nprocesses with a direct, learned mapping, GenAI4UQ enables efficient\ncalibration of model input parameters and generation of output predictions\ndirectly from observations. The software's design allows for rapid ensemble\nforecasting with robust uncertainty quantification, while maintaining high\ncomputational and storage efficiency. GenAI4UQ simplifies the model training\nprocess through built-in auto-tuning of hyperparameters, making it accessible\nto users with varying levels of expertise. Its conditional generative framework\nensures versatility, enabling applicability across a wide range of scientific\ndomains. At its core, GenAI4UQ transforms the paradigm of inverse modeling by\nproviding a fast, reliable, and user-friendly solution. It empowers researchers\nand practitioners to quickly estimate parameter distributions and generate\nmodel predictions for new observations, facilitating efficient decision-making\nand advancing the state of uncertainty quantification in computational\nmodeling. (The code and data are available at\nhttps://github.com/patrickfan/GenAI4UQ).\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Physics/Geophysics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "26JYL_gF7lBY5a6J8cKa-B6Nkz5tAqV5_1ROY6Q11tQ",
+  "pdfSize": "6270955"
+}

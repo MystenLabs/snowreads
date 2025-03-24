@@ -1,0 +1,44 @@
+{
+  "id": "2412.19719",
+  "title": "Trading Off Energy Storage and Payload -- An Analytical Model for\n  Freight Train Configuration",
+  "authors": "Max T.M. Ng, Adrian Hernandez, Pablo L. Durango-Cohen, Hani S.\n  Mahmassani",
+  "authorsParsed": [
+    [
+      "Ng",
+      "Max T. M.",
+      ""
+    ],
+    [
+      "Hernandez",
+      "Adrian",
+      ""
+    ],
+    [
+      "Durango-Cohen",
+      "Pablo L.",
+      ""
+    ],
+    [
+      "Mahmassani",
+      "Hani S.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 27 Dec 2024 16:18:35 GMT"
+    }
+  ],
+  "updateDate": "2024-12-30",
+  "timestamp": 1735316315000,
+  "abstract": "  To support planning of alternative fuel technology (e.g., battery-electric\nlocomotives) deployment for decarbonizing non-electrified freight rail, we\ndevelop a convex optimization formulation with a closed-form solution to\ndetermine the optimal number of energy storage tender cars in a train. The\nformulation shares a similar structure to an Economic Order Quantity (EOQ)\nmodel. For given market characteristics, cost forecasts, and technology\nparameters, our model captures the trade-offs between inventory carrying costs\nassociated with trip times (including delays due to charging/refueling) and\nordering costs associated with train dispatch and operation (energy, amortized\nequipment, and labor costs). To illustrate the framework, we find the optimal\nnumber of battery-electric energy tender cars in 22,501 freight markets\n(origin-destination pairs and commodities) for U.S. Class I railroads. The\nresults display heterogeneity in optimal configurations with lighter, yet more\ntime-sensitive shipments (e.g., intermodal) utilizing more battery tender cars.\nFor heavier commodities (e.g., coal) with lower holding costs, single battery\ntender car configurations are generally optimal. The results also show that the\noptimal train configurations are sensitive to delays associated with recharging\nor swapping tender cars.\n",
+  "subjects": [
+    "Electrical Engineering and Systems Science/Systems and Control",
+    "Computer Science/Systems and Control",
+    "Mathematics/Optimization and Control"
+  ],
+  "license": "http://creativecommons.org/licenses/by-sa/4.0/",
+  "blobId": "91MCgl_5dUQbFWGQtcHS1vjcEguMCr_eNwXmR5x1h5I",
+  "pdfSize": "2214625"
+}

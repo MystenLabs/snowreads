@@ -1,0 +1,38 @@
+{
+  "id": "2412.11065",
+  "title": "Representation learning of dynamic networks",
+  "authors": "Haixu Wang and Jiguo Cao and Jian Pei",
+  "authorsParsed": [
+    [
+      "Wang",
+      "Haixu",
+      ""
+    ],
+    [
+      "Cao",
+      "Jiguo",
+      ""
+    ],
+    [
+      "Pei",
+      "Jian",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 15 Dec 2024 05:45:20 GMT"
+    }
+  ],
+  "updateDate": "2024-12-17",
+  "timestamp": 1734241520000,
+  "abstract": "  This study presents a novel representation learning model tailored for\ndynamic networks, which describes the continuously evolving relationships among\nindividuals within a population. The problem is encapsulated in the dimension\nreduction topic of functional data analysis. With dynamic networks represented\nas matrix-valued functions, our objective is to map this functional data into a\nset of vector-valued functions in a lower-dimensional learning space. This\nspace, defined as a metric functional space, allows for the calculation of\nnorms and inner products. By constructing this learning space, we address (i)\nattribute learning, (ii) community detection, and (iii) link prediction and\nrecovery of individual nodes in the dynamic network. Our model also\naccommodates asymmetric low-dimensional representations, enabling the separate\nstudy of nodes' regulatory and receiving roles. Crucially, the learning method\naccounts for the time-dependency of networks, ensuring that representations are\ncontinuous over time. The functional learning space we define naturally spans\nthe time frame of the dynamic networks, facilitating both the inference of\nnetwork links at specific time points and the reconstruction of the entire\nnetwork structure without direct observation. We validated our approach through\nsimulation studies and real-world applications. In simulations, we compared our\nmethods link prediction performance to existing approaches under various data\ncorruption scenarios. For real-world applications, we examined a dynamic social\nnetwork replicated across six ant populations, demonstrating that our\nlow-dimensional learning space effectively captures interactions, roles of\nindividual ants, and the social evolution of the network. Our findings align\nwith existing knowledge of ant colony behavior.\n",
+  "subjects": [
+    "Statistics/Machine Learning",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "8uLJo754p_n0XTanYrwdnfVIQGsZ1Po6HJ5vOICG76c",
+  "pdfSize": "751009"
+}

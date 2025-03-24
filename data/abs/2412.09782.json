@@ -1,0 +1,54 @@
+{
+  "id": "2412.09782",
+  "title": "EI-Drive: A Platform for Cooperative Perception with Realistic\n  Communication Models",
+  "authors": "Hanchu Zhou, Edward Xie, Wei Shao, Dechen Gao, Michelle Dong, Junshan\n  Zhang",
+  "authorsParsed": [
+    [
+      "Zhou",
+      "Hanchu",
+      ""
+    ],
+    [
+      "Xie",
+      "Edward",
+      ""
+    ],
+    [
+      "Shao",
+      "Wei",
+      ""
+    ],
+    [
+      "Gao",
+      "Dechen",
+      ""
+    ],
+    [
+      "Dong",
+      "Michelle",
+      ""
+    ],
+    [
+      "Zhang",
+      "Junshan",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 13 Dec 2024 01:37:44 GMT"
+    }
+  ],
+  "updateDate": "2024-12-16",
+  "timestamp": 1734053864000,
+  "abstract": "  The growing interest in autonomous driving calls for realistic simulation\nplatforms capable of accurately simulating cooperative perception process in\nrealistic traffic scenarios. Existing studies for cooperative perception often\nhave not accounted for transmission latency and errors in real-world\nenvironments. To address this gap, we introduce EI-Drive, an edge-AI based\nautonomous driving simulation platform that integrates advanced cooperative\nperception with more realistic communication models. Built on the CARLA\nframework, EI-Drive features new modules for cooperative perception while\ntaking into account transmission latency and errors, providing a more realistic\nplatform for evaluating cooperative perception algorithms. In particular, the\nplatform enables vehicles to fuse data from multiple sources, improving\nsituational awareness and safety in complex environments. With its modular\ndesign, EI-Drive allows for detailed exploration of sensing, perception,\nplanning, and control in various cooperative driving scenarios. Experiments\nusing EI-Drive demonstrate significant improvements in vehicle safety and\nperformance, particularly in scenarios with complex traffic flow and network\nconditions. All code and documents are accessible on our GitHub page:\n\\url{https://ucd-dare.github.io/eidrive.github.io/}.\n",
+  "subjects": [
+    "Computer Science/Robotics",
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Multiagent Systems"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "k6Z_CUDertef5-TS0vQQLkNYzAeTTIVUR61MoXmfmi4",
+  "pdfSize": "27793826"
+}

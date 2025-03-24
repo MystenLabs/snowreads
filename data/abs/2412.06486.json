@@ -1,0 +1,38 @@
+{
+  "id": "2412.06486",
+  "title": "SimuDICE: Offline Policy Optimization Through World Model Updates and\n  DICE Estimation",
+  "authors": "Catalin E. Brita, Stephan Bongers and Frans A. Oliehoek",
+  "authorsParsed": [
+    [
+      "Brita",
+      "Catalin E.",
+      ""
+    ],
+    [
+      "Bongers",
+      "Stephan",
+      ""
+    ],
+    [
+      "Oliehoek",
+      "Frans A.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 9 Dec 2024 13:35:46 GMT"
+    }
+  ],
+  "updateDate": "2024-12-10",
+  "timestamp": 1733751346000,
+  "abstract": "  In offline reinforcement learning, deriving an effective policy from a\npre-collected set of experiences is challenging due to the distribution\nmismatch between the target policy and the behavioral policy used to collect\nthe data, as well as the limited sample size. Model-based reinforcement\nlearning improves sample efficiency by generating simulated experiences using a\nlearned dynamic model of the environment. However, these synthetic experiences\noften suffer from the same distribution mismatch. To address these challenges,\nwe introduce SimuDICE, a framework that iteratively refines the initial policy\nderived from offline data using synthetically generated experiences from the\nworld model. SimuDICE enhances the quality of these simulated experiences by\nadjusting the sampling probabilities of state-action pairs based on stationary\nDIstribution Correction Estimation (DICE) and the estimated confidence in the\nmodel's predictions. This approach guides policy improvement by balancing\nexperiences similar to those frequently encountered with ones that have a\ndistribution mismatch. Our experiments show that SimuDICE achieves performance\ncomparable to existing algorithms while requiring fewer pre-collected\nexperiences and planning steps, and it remains robust across varying data\ncollection policies.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "3E4rLA0WrzcX4K8ssUePQo0WHYflinXBjn5MnmG_4Rg",
+  "pdfSize": "1090686"
+}

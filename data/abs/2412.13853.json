@@ -1,0 +1,37 @@
+{
+  "id": "2412.13853",
+  "title": "Achieving Dispatchability in Data Centers: Carbon and Cost-Aware Sizing\n  of Energy Storage and Local Photovoltaic Generation",
+  "authors": "Enea Figini, Mario Paolone",
+  "authorsParsed": [
+    [
+      "Figini",
+      "Enea",
+      ""
+    ],
+    [
+      "Paolone",
+      "Mario",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 18 Dec 2024 13:48:56 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Thu, 2 Jan 2025 08:36:08 GMT"
+    }
+  ],
+  "updateDate": "2025-01-03",
+  "timestamp": 1734529736000,
+  "abstract": "  Data centers are large electricity consumers due to the high consumption\nneeds of servers and their cooling systems. Given the current crypto-currency\nand artificial intelligence trends, the data center electricity demand is bound\nto grow significantly. With the electricity sector being responsible for a\nlarge share of global greenhouse gas (GHG) emissions, it is important to lower\nthe carbon footprint of data centers to meet GHG emissions targets set by\ninternational agreements. Moreover, uncontrolled integration of data centers in\npower distribution grids contributes to increasing the stochasticity of the\npower system demand, thus increasing the need for capacity reserves, which\nleads to economic and environmental inefficiencies in the power grid operation.\nThis work provides a method to size a PhotoVoltaic (PV) system and an Energy\nStorage System (ESS) for an existing data center looking to reduce both its\ncarbon footprint and demand stochasticity via dispatching. The proposed\nscenario-based optimization framework allows to size the ESS and the PV system\nto minimize the expected operational and capital costs, along with the carbon\nfootprint of the data center complex. The life cycle assessment of the\nresources, as well as the dynamic carbon emissions of the upstream power\ndistribution grid, are accounted for while computing the day-ahead planning of\nthe data center aggregated demand and PV generation. Case studies in different\nSwiss cantons and regions of Germany emphasize the need for location-aware\nsizing processes since the obtained optimal solutions strongly depend on the\nlocal electricity carbon footprint, cost and on the local irradiance\nconditions. Some regions show potential in carbon footprint reduction, while\nother regions do not.\n",
+  "subjects": [
+    "Electrical Engineering and Systems Science/Systems and Control",
+    "Computer Science/Systems and Control"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "UQSwkLezMOQj30yJ2aRNB2S0Rl6U_eabSzLWikeHJYE",
+  "pdfSize": "1715459"
+}

@@ -1,0 +1,37 @@
+{
+  "id": "2412.16014",
+  "title": "Probing lactate exchange and compartmentation in Gray Matter via\n  time-dependent diffusion-weighted MRS",
+  "authors": "Eloise Mougel, Marco Palombo, Julien Valette",
+  "authorsParsed": [
+    [
+      "Mougel",
+      "Eloise",
+      ""
+    ],
+    [
+      "Palombo",
+      "Marco",
+      ""
+    ],
+    [
+      "Valette",
+      "Julien",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 20 Dec 2024 16:06:59 GMT"
+    }
+  ],
+  "updateDate": "2024-12-23",
+  "timestamp": 1734710819000,
+  "abstract": "  Lactate is crucial in the brain, as it is involved in neuronal activity and\nmemory formation. This is thought to be related to the astrocyte-neuron lactate\nshuttle hypothesis (ANLS), which has been debated for 30 years, not least\nbecause it is difficult to measure lactate compartmentation and exchange in\nvivo. In particular, while ANLS requires transfer of lactate via the\nextracellular space, intracellular/extracellular exchange rate remains unknown.\nIn this work, we propose to use time-dependent diffusion MRS to assess lactate\nexchange and lactate compartmentation in mouse brain gray matter in vivo.\nFirst, by comparing lactate time-dependent diffusivity and kurtosis with those\nof water and purely intracellular metabolites (which exhibit \"fast\" and \"no\"\nexchange signatures, respectively), we estimate that lactate exchange is slow\n(i.e. on the order of hundreds of milliseconds). Then, using biophysical models\nneglecting exchange, we estimate extracellular, neuronal and astrocytic lactate\nfractions compatible with the ANLS hypothesis.\n",
+  "subjects": [
+    "Physics/Medical Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "izh2uoWo_9T6-YgGabPF6JQVx8yJ5eSuwXCOBDcfAgM",
+  "pdfSize": "1691203"
+}

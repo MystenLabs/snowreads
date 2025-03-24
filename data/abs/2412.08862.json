@@ -1,0 +1,33 @@
+{
+  "id": "2412.08862",
+  "title": "Key Safety Design Overview in AI-driven Autonomous Vehicles",
+  "authors": "Vikas Vyas, Zheyuan Xu",
+  "authorsParsed": [
+    [
+      "Vyas",
+      "Vikas",
+      ""
+    ],
+    [
+      "Xu",
+      "Zheyuan",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 12 Dec 2024 01:48:45 GMT"
+    }
+  ],
+  "updateDate": "2024-12-13",
+  "timestamp": 1733968125000,
+  "abstract": "  With the increasing presence of autonomous SAE level 3 and level 4, which\nincorporate artificial intelligence software, along with the complex technical\nchallenges they present, it is essential to maintain a high level of functional\nsafety and robust software design. This paper explores the necessary safety\narchitecture and systematic approach for automotive software and hardware,\nincluding fail soft handling of automotive safety integrity level (ASIL) D\n(highest level of safety integrity), integration of artificial intelligence\n(AI), and machine learning (ML) in automotive safety architecture. By\naddressing the unique challenges presented by increasing AI-based automotive\nsoftware, we proposed various techniques, such as mitigation strategies and\nsafety failure analysis, to ensure the safety and reliability of automotive\nsoftware, as well as the role of AI in software reliability throughout the data\nlifecycle.\n  Index Terms Safety Design, Automotive Software, Performance Evaluation,\nAdvanced Driver Assistance Systems (ADAS) Applications, Automotive Software\nSystems, Electronic Control Units.\n",
+  "subjects": [
+    "Computer Science/Software Engineering",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+  "blobId": "nqUBXTnhJXU256j6NvHdwzN9IHc-2WWb-qUoM8QAmRw",
+  "pdfSize": "659817"
+}

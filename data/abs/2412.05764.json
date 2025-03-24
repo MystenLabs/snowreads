@@ -1,0 +1,33 @@
+{
+  "id": "2412.05764",
+  "title": "The Harmonic Measure Distribution Function and Complex Brownian Motion",
+  "authors": "Greg Markowsky, Clayton McDonald",
+  "authorsParsed": [
+    [
+      "Markowsky",
+      "Greg",
+      ""
+    ],
+    [
+      "McDonald",
+      "Clayton",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 7 Dec 2024 23:36:15 GMT"
+    }
+  ],
+  "updateDate": "2024-12-10",
+  "timestamp": 1733614575000,
+  "abstract": "  Given a planar domain $D$, the harmonic measure distribution function\n$h_D(r)$, with base point $z$, is the harmonic measure with pole at $z$ of the\nparts of the boundary which are within a distance $r$ of $z$. Equivalently it\nis the probability Brownian motion started from $z$ first strikes the boundary\nwithin a distance $r$ from $z$. We call $h_D$ the $h$-function of $D$, this\nfunction captures geometrical aspects of the domain, such as connectivity, or\ncurvature of the boundary. This paper is concerned with the inverse problem:\ngiven a suitable function $h$, does there exist a domain $D$ such that $h =\nh_D$? To answer this, we first extend the concept of a $h$-function of a domain\nto one of a stopping time $\\tau$ . By using the conformal invariance of\nBrownian motion we solve the inverse problem for that of a stopping time. The\nassociated stopping time will be the projection of a hitting time of the real\nline. If this projection corresponds to the hitting time of a domain $D$, then\nthis technique solves the original inverse problem. We have found a large\nfamily of examples such that the associated stopping time is that of a hitting\ntime.\n",
+  "subjects": [
+    "Mathematics/Probability",
+    "Mathematics/Complex Variables"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "XVAT5iCnZm8Jy30cFPW8bM0jKKJFkeCy45gXUU6Dc7Q",
+  "pdfSize": "779624"
+}

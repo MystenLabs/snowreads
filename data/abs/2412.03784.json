@@ -1,0 +1,39 @@
+{
+  "id": "2412.03784",
+  "title": "Speech Recognition-based Feature Extraction for Enhanced Automatic\n  Severity Classification in Dysarthric Speech",
+  "authors": "Yerin Choi, Jeehyun Lee, Myoung-Wan Koo",
+  "authorsParsed": [
+    [
+      "Choi",
+      "Yerin",
+      ""
+    ],
+    [
+      "Lee",
+      "Jeehyun",
+      ""
+    ],
+    [
+      "Koo",
+      "Myoung-Wan",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 5 Dec 2024 00:12:53 GMT"
+    }
+  ],
+  "updateDate": "2024-12-06",
+  "timestamp": 1733357573000,
+  "abstract": "  Due to the subjective nature of current clinical evaluation, the need for\nautomatic severity evaluation in dysarthric speech has emerged. DNN models\noutperform ML models but lack user-friendly explainability. ML models offer\nexplainable results at a feature level, but their performance is comparatively\nlower. Current ML models extract various features from raw waveforms to predict\nseverity. However, existing methods do not encompass all dysarthric features\nused in clinical evaluation. To address this gap, we propose a feature\nextraction method that minimizes information loss. We introduce an ASR\ntranscription as a novel feature extraction source. We finetune the ASR model\nfor dysarthric speech, then use this model to transcribe dysarthric speech and\nextract word segment boundary information. It enables capturing finer\npronunciation and broader prosodic features. These features demonstrated an\nimproved severity prediction performance to existing features: balanced\naccuracy of 83.72%.\n",
+  "subjects": [
+    "Computer Science/Sound",
+    "Computer Science/Artificial Intelligence",
+    "Electrical Engineering and Systems Science/Audio and Speech Processing"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "9-WW6B_qlvdwvbuDRs5uI9KL7xcBts0g1cilvoCYq0M",
+  "pdfSize": "520083"
+}

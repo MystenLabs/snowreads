@@ -1,0 +1,48 @@
+{
+  "id": "2412.12192",
+  "title": "No Free Lunch for Defending Against Prefilling Attack by In-Context\n  Learning",
+  "authors": "Zhiyu Xue, Guangliang Liu, Bocheng Chen, Kristen Marie Johnson, Ramtin\n  Pedarsani",
+  "authorsParsed": [
+    [
+      "Xue",
+      "Zhiyu",
+      ""
+    ],
+    [
+      "Liu",
+      "Guangliang",
+      ""
+    ],
+    [
+      "Chen",
+      "Bocheng",
+      ""
+    ],
+    [
+      "Johnson",
+      "Kristen Marie",
+      ""
+    ],
+    [
+      "Pedarsani",
+      "Ramtin",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 13 Dec 2024 23:58:12 GMT"
+    }
+  ],
+  "updateDate": "2024-12-18",
+  "timestamp": 1734134292000,
+  "abstract": "  The security of Large Language Models (LLMs) has become an important research\ntopic since the emergence of ChatGPT. Though there have been various effective\nmethods to defend against jailbreak attacks, prefilling attacks remain an\nunsolved and popular threat against open-sourced LLMs. In-Context Learning\n(ICL) offers a computationally efficient defense against various jailbreak\nattacks, yet no effective ICL methods have been developed to counter prefilling\nattacks. In this paper, we: (1) show that ICL can effectively defend against\nprefilling jailbreak attacks by employing adversative sentence structures\nwithin demonstrations; (2) characterize the effectiveness of this defense\nthrough the lens of model size, number of demonstrations, over-defense,\nintegration with other jailbreak attacks, and the presence of safety alignment.\nGiven the experimental results and our analysis, we conclude that there is no\nfree lunch for defending against prefilling jailbreak attacks with ICL. On the\none hand, current safety alignment methods fail to mitigate prefilling\njailbreak attacks, but adversative structures within ICL demonstrations provide\nrobust defense across various model sizes and complex jailbreak attacks. On the\nother hand, LLMs exhibit similar over-defensiveness when utilizing ICL\ndemonstrations with adversative structures, and this behavior appears to be\nindependent of model size.\n",
+  "subjects": [
+    "Computer Science/Cryptography and Security",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "gFxfmWa7r3mOhc0ELrb9_-OsW2NdfSvgc70SCD1LxM0",
+  "pdfSize": "578945"
+}

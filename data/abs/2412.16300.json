@@ -1,0 +1,32 @@
+{
+  "id": "2412.16300",
+  "title": "A Co-Scaling Grid for Athena++ II: Magnetohydrodynamics",
+  "authors": "Fabian Heitsch and Roark Habegger",
+  "authorsParsed": [
+    [
+      "Heitsch",
+      "Fabian",
+      ""
+    ],
+    [
+      "Habegger",
+      "Roark",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 20 Dec 2024 19:19:16 GMT"
+    }
+  ],
+  "updateDate": "2024-12-24",
+  "timestamp": 1734722356000,
+  "abstract": "  We extend the co-scaling formalism of Habegger & Heitsch (2021) implemented\nin Athena++ to magneto-hydrodynamics. The formalism relies on flow symmetries\nin astrophysical problems involving expansion, contraction, and center-of-mass\nmotion. The formalism is fully consistent with the upwind constrained transport\nmethod implemented in Athena++ and is accurate to 2nd order in space. Applying\nour implementation to standard magneto-hydrodynamic test cases leads to\nimproved results and higher efficiency, compared to the fixed-grid solutions.\n",
+  "subjects": [
+    "Astrophysics/Instrumentation and Methods for Astrophysics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "Q4jcl6xJ6ko5GildGuGq_zSddQjbn-iBfIe6wrwYrBI",
+  "pdfSize": "4576900"
+}

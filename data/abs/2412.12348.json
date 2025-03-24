@@ -1,0 +1,72 @@
+{
+  "id": "2412.12348",
+  "title": "Discovering Boundary Equations for Wave Breaking using Machine Learning",
+  "authors": "Tianning Tang, Yuntian Chen, Rui Cao, Wouter Mostert, Paul H. Taylor,\n  Mark L. McAllister, Bing Tai, Yuxiang Ma, Adrian H. Callaghan, Thomas A. A.\n  Adcock",
+  "authorsParsed": [
+    [
+      "Tang",
+      "Tianning",
+      ""
+    ],
+    [
+      "Chen",
+      "Yuntian",
+      ""
+    ],
+    [
+      "Cao",
+      "Rui",
+      ""
+    ],
+    [
+      "Mostert",
+      "Wouter",
+      ""
+    ],
+    [
+      "Taylor",
+      "Paul H.",
+      ""
+    ],
+    [
+      "McAllister",
+      "Mark L.",
+      ""
+    ],
+    [
+      "Tai",
+      "Bing",
+      ""
+    ],
+    [
+      "Ma",
+      "Yuxiang",
+      ""
+    ],
+    [
+      "Callaghan",
+      "Adrian H.",
+      ""
+    ],
+    [
+      "Adcock",
+      "Thomas A. A.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 16 Dec 2024 20:42:00 GMT"
+    }
+  ],
+  "updateDate": "2024-12-18",
+  "timestamp": 1734381720000,
+  "abstract": "  Many supervised machine learning methods have revolutionised the empirical\nmodelling of complex systems. These empirical models, however, are usually\n\"black boxes\" and provide only limited physical explanations about the\nunderlying systems. Instead, so-called \"knowledge discovery\" methods can be\nused to explore the governing equations that describe observed phenomena. This\npaper focuses on how we can use such methods to explore underlying physics and\nalso model a commonly observed yet not fully understood phenomenon - the\nbreaking of ocean waves. In our work, we use symbolic regression to explore the\nequation that describes wave-breaking evolution from a dataset of in silico\nwaves generated using expensive numerical methods. Our work discovers a new\nboundary equation that provides a reduced-order description of how the surface\nelevation (i.e., the water-air interface) evolves forward in time, including\nthe instances when the wave breaks - a problem that has defied traditional\napproaches. Compared to the existing empirical models, the unique\nequation-based nature of our model allows further mathematical interpretation,\nwhich provides an opportunity to explore the fundamentals of breaking waves.\nFurther expert-AI collaborative research reveals the physical meaning of each\nterm of the discovered equation, which suggests a new characteristic of\nbreaking waves in deep water - a decoupling between the water-air interface and\nthe fluid velocities. This novel reduced-order model also hints at\ncomputationally efficient ways to simulate breaking waves for engineering\napplications.\n",
+  "subjects": [
+    "Physics/Fluid Dynamics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "BQNQMo6fMLr-cW73qK9d5MuTU99uZU-tZ2mVUHFGtcA",
+  "pdfSize": "4966317"
+}

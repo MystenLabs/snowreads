@@ -1,0 +1,47 @@
+{
+  "id": "2412.02156",
+  "title": "Compromising the Intelligence of Modern DNNs: On the Effectiveness of\n  Targeted RowPress",
+  "authors": "Ranyang Zhou, Jacqueline T. Liu, Sabbir Ahmed, Shaahin Angizi, Adnan\n  Siraj Rakin",
+  "authorsParsed": [
+    [
+      "Zhou",
+      "Ranyang",
+      ""
+    ],
+    [
+      "Liu",
+      "Jacqueline T.",
+      ""
+    ],
+    [
+      "Ahmed",
+      "Sabbir",
+      ""
+    ],
+    [
+      "Angizi",
+      "Shaahin",
+      ""
+    ],
+    [
+      "Rakin",
+      "Adnan Siraj",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 3 Dec 2024 04:31:58 GMT"
+    }
+  ],
+  "updateDate": "2024-12-04",
+  "timestamp": 1733200318000,
+  "abstract": "  Recent advancements in side-channel attacks have revealed the vulnerability\nof modern Deep Neural Networks (DNNs) to malicious adversarial weight attacks.\nThe well-studied RowHammer attack has effectively compromised DNN performance\nby inducing precise and deterministic bit-flips in the main memory (e.g.,\nDRAM). Similarly, RowPress has emerged as another effective strategy for\nflipping targeted bits in DRAM. However, the impact of RowPress on deep\nlearning applications has yet to be explored in the existing literature,\nleaving a fundamental research question unanswered: How does RowPress compare\nto RowHammer in leveraging bit-flip attacks to compromise DNN performance? This\npaper is the first to address this question and evaluate the impact of RowPress\non DNN applications. We conduct a comparative analysis utilizing a novel\nDRAM-profile-aware attack designed to capture the distinct bit-flip patterns\ncaused by RowHammer and RowPress. Eleven widely-used DNN architectures trained\non different benchmark datasets deployed on a Samsung DRAM chip conclusively\ndemonstrate that they suffer from a drastically more rapid performance\ndegradation under the RowPress attack compared to RowHammer. The difference in\nthe underlying attack mechanism of RowHammer and RowPress also renders existing\nRowHammer mitigation mechanisms ineffective under RowPress. As a result,\nRowPress introduces a new vulnerability paradigm for DNN compute platforms and\nunveils the urgent need for corresponding protective measures.\n",
+  "subjects": [
+    "Computer Science/Hardware Architecture"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "Eemk6vc77QOtZYpfs5t_q8bJnvJfNAilCzQ0f1_ayA8",
+  "pdfSize": "1372028"
+}

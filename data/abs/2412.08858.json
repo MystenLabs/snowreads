@@ -1,0 +1,32 @@
+{
+  "id": "2412.08858",
+  "title": "Distributionally Robust Probabilistic Prediction for Stochastic\n  Dynamical Systems",
+  "authors": "Tao Xu and Jianping He",
+  "authorsParsed": [
+    [
+      "Xu",
+      "Tao",
+      ""
+    ],
+    [
+      "He",
+      "Jianping",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 12 Dec 2024 01:35:40 GMT"
+    }
+  ],
+  "updateDate": "2024-12-13",
+  "timestamp": 1733967340000,
+  "abstract": "  Probabilistic prediction of stochastic dynamical systems (SDSs) aims to\naccurately predict the conditional probability distributions of future states.\nHowever, accurate probabilistic predictions tightly hinge on accurate\ndistributional information from a nominal model, which is hardly available in\npractice. To address this issue, we propose a novel functional-maximin-based\ndistributionally robust probabilistic prediction (DRPP) framework. In this\nframework, one can design probabilistic predictors that have worst-case\nperformance guarantees over a pre-defined ambiguity set of SDSs. Nevertheless,\nDRPP requires optimizing over the function space of probability distributions,\nwhich is generally intractable. We develop a methodology that equivalently\ntransforms the original maximin in function spaces into convex-nonconcave\nminimax in Euclidean spaces. Although it remains intractable to seek a global\noptimal solution, two suboptimal solutions are derived. By relaxing the inner\nconstraints, we obtain a suboptimal predictor called Noise-DRPP. Relaxing the\nouter constraints yields another suboptimal predictor, Eig-DRPP. More\nimportantly, we establish an explicit upper bound on the optimality gap between\nEig-DRPP and the global optimal predictor. Utilizing the theoretical results\nobtained from solving the two suboptimal predictors, we synthesize practical\nrules to judge whether the pre-defined ambiguity set is too large or small.\nFinally, we conduct elaborate numerical simulations to compare the performance\nof different predictors under different SDSs.\n",
+  "subjects": [
+    "Mathematics/Optimization and Control"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "UxYz7Ev6rHaizNmK2ou4rBXtj9LkKzu6mqBq2S_3WmQ",
+  "pdfSize": "864321"
+}

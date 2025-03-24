@@ -1,0 +1,50 @@
+{
+  "id": "2412.14492",
+  "title": "FaultExplainer: Leveraging Large Language Models for Interpretable Fault\n  Detection and Diagnosis",
+  "authors": "Abdullah Khan, Rahul Nahar, Hao Chen, Gonzalo E. Constante Flores, Can\n  Li",
+  "authorsParsed": [
+    [
+      "Khan",
+      "Abdullah",
+      ""
+    ],
+    [
+      "Nahar",
+      "Rahul",
+      ""
+    ],
+    [
+      "Chen",
+      "Hao",
+      ""
+    ],
+    [
+      "Flores",
+      "Gonzalo E. Constante",
+      ""
+    ],
+    [
+      "Li",
+      "Can",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 19 Dec 2024 03:35:06 GMT"
+    }
+  ],
+  "updateDate": "2024-12-20",
+  "timestamp": 1734579306000,
+  "abstract": "  Machine learning algorithms are increasingly being applied to fault detection\nand diagnosis (FDD) in chemical processes. However, existing data-driven FDD\nplatforms often lack interpretability for process operators and struggle to\nidentify root causes of previously unseen faults. This paper presents\nFaultExplainer, an interactive tool designed to improve fault detection,\ndiagnosis, and explanation in the Tennessee Eastman Process (TEP).\nFaultExplainer integrates real-time sensor data visualization, Principal\nComponent Analysis (PCA)-based fault detection, and identification of top\ncontributing variables within an interactive user interface powered by large\nlanguage models (LLMs). We evaluate the LLMs' reasoning capabilities in two\nscenarios: one where historical root causes are provided, and one where they\nare not to mimic the challenge of previously unseen faults. Experimental\nresults using GPT-4o and o1-preview models demonstrate the system's strengths\nin generating plausible and actionable explanations, while also highlighting\nits limitations, including reliance on PCA-selected features and occasional\nhallucinations.\n",
+  "subjects": [
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Machine Learning",
+    "Computer Science/Systems and Control",
+    "Electrical Engineering and Systems Science/Systems and Control"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "-f4LCUcPw06Z-xwfowSoWlb1nAcLsGdW3_MszTTmw3s",
+  "pdfSize": "1369929"
+}

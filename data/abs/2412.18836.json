@@ -1,0 +1,48 @@
+{
+  "id": "2412.18836",
+  "title": "MRI2Speech: Speech Synthesis from Articulatory Movements Recorded by\n  Real-time MRI",
+  "authors": "Neil Shah, Ayan Kashyap, Shirish Karande, Vineet Gandhi",
+  "authorsParsed": [
+    [
+      "Shah",
+      "Neil",
+      ""
+    ],
+    [
+      "Kashyap",
+      "Ayan",
+      ""
+    ],
+    [
+      "Karande",
+      "Shirish",
+      ""
+    ],
+    [
+      "Gandhi",
+      "Vineet",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 25 Dec 2024 08:49:43 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Fri, 17 Jan 2025 12:18:44 GMT"
+    }
+  ],
+  "updateDate": "2025-01-20",
+  "timestamp": 1735116583000,
+  "abstract": "  Previous real-time MRI (rtMRI)-based speech synthesis models depend heavily\non noisy ground-truth speech. Applying loss directly over ground truth\nmel-spectrograms entangles speech content with MRI noise, resulting in poor\nintelligibility. We introduce a novel approach that adapts the multi-modal\nself-supervised AV-HuBERT model for text prediction from rtMRI and incorporates\na new flow-based duration predictor for speaker-specific alignment. The\npredicted text and durations are then used by a speech decoder to synthesize\naligned speech in any novel voice. We conduct thorough experiments on two\ndatasets and demonstrate our method's generalization ability to unseen\nspeakers. We assess our framework's performance by masking parts of the rtMRI\nvideo to evaluate the impact of different articulators on text prediction. Our\nmethod achieves a $15.18\\%$ Word Error Rate (WER) on the USC-TIMIT MRI corpus,\nmarking a huge improvement over the current state-of-the-art. Speech samples\nare available at https://mri2speech.github.io/MRI2Speech/\n",
+  "subjects": [
+    "Computer Science/Sound",
+    "Computer Science/Artificial Intelligence",
+    "Electrical Engineering and Systems Science/Audio and Speech Processing"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "ZwTkntiDOTRDESwwDZ8xOp4E9rpaPayk18WVLkQ9X9A",
+  "pdfSize": "402335"
+}

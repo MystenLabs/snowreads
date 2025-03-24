@@ -1,0 +1,50 @@
+{
+  "id": "2412.15182",
+  "title": "STRAP: Robot Sub-Trajectory Retrieval for Augmented Policy Learning",
+  "authors": "Marius Memmel, Jacob Berg, Bingqing Chen, Abhishek Gupta, Jonathan\n  Francis",
+  "authorsParsed": [
+    [
+      "Memmel",
+      "Marius",
+      ""
+    ],
+    [
+      "Berg",
+      "Jacob",
+      ""
+    ],
+    [
+      "Chen",
+      "Bingqing",
+      ""
+    ],
+    [
+      "Gupta",
+      "Abhishek",
+      ""
+    ],
+    [
+      "Francis",
+      "Jonathan",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 19 Dec 2024 18:54:06 GMT"
+    }
+  ],
+  "updateDate": "2024-12-20",
+  "timestamp": 1734634446000,
+  "abstract": "  Robot learning is witnessing a significant increase in the size, diversity,\nand complexity of pre-collected datasets, mirroring trends in domains such as\nnatural language processing and computer vision. Many robot learning methods\ntreat such datasets as multi-task expert data and learn a multi-task,\ngeneralist policy by training broadly across them. Notably, while these\ngeneralist policies can improve the average performance across many tasks, the\nperformance of generalist policies on any one task is often suboptimal due to\nnegative transfer between partitions of the data, compared to task-specific\nspecialist policies. In this work, we argue for the paradigm of training\npolicies during deployment given the scenarios they encounter: rather than\ndeploying pre-trained policies to unseen problems in a zero-shot manner, we\nnon-parametrically retrieve and train models directly on relevant data at test\ntime. Furthermore, we show that many robotics tasks share considerable amounts\nof low-level behaviors and that retrieval at the \"sub\"-trajectory granularity\nenables significantly improved data utilization, generalization, and robustness\nin adapting policies to novel problems. In contrast, existing full-trajectory\nretrieval methods tend to underutilize the data and miss out on shared\ncross-task content. This work proposes STRAP, a technique for leveraging\npre-trained vision foundation models and dynamic time warping to retrieve\nsub-sequences of trajectories from large training corpora in a robust fashion.\nSTRAP outperforms both prior retrieval algorithms and multi-task learning\nmethods in simulated and real experiments, showing the ability to scale to much\nlarger offline datasets in the real world as well as the ability to learn\nrobust control policies with just a handful of real-world demonstrations.\n",
+  "subjects": [
+    "Computer Science/Robotics",
+    "Computer Science/Machine Learning",
+    "Computer Science/Systems and Control",
+    "Electrical Engineering and Systems Science/Systems and Control"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "T3xN9Ixjc-Y4rdzVc0fdv2vtI__szHMGTFyHlK8HfMM",
+  "pdfSize": "11815276"
+}

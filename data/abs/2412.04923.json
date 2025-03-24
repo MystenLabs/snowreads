@@ -1,0 +1,48 @@
+{
+  "id": "2412.04923",
+  "title": "HyperGraphOS: A Meta Operating System for Science and Engineering",
+  "authors": "Antonello Ceravola, Frank Joublin, Ahmed R. Sadik, Bram Bolder,\n  Juha-Pekka Tolvanen",
+  "authorsParsed": [
+    [
+      "Ceravola",
+      "Antonello",
+      ""
+    ],
+    [
+      "Joublin",
+      "Frank",
+      ""
+    ],
+    [
+      "Sadik",
+      "Ahmed R.",
+      ""
+    ],
+    [
+      "Bolder",
+      "Bram",
+      ""
+    ],
+    [
+      "Tolvanen",
+      "Juha-Pekka",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 6 Dec 2024 10:21:41 GMT"
+    }
+  ],
+  "updateDate": "2024-12-09",
+  "timestamp": 1733480501000,
+  "abstract": "  This paper presents HyperGraphOS, an innovative Operating System designed for\nthe scientific and engineering domains. It combines model based engineering,\ngraph modeling, data containers, and computational tools, offering users a\ndynamic workspace for creating and managing complex models represented as\ncustomizable graphs. Using a web based architecture, HyperGraphOS requires only\na modern browser to organize knowledge, documents, and content into\ninterconnected models. Domain Specific Languages drive workspace navigation,\ncode generation, AI integration, and process organization.The platform models\nfunction as both visual drawings and data structures, enabling dynamic\nmodifications and inspection, both interactively and programmatically.\nHyperGraphOS was evaluated across various domains, including virtual avatars,\nrobotic task planning using Large Language Models, and meta modeling for\nfeature based code development. Results show significant improvements in\nflexibility, data management, computation, and document handling.\n",
+  "subjects": [
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Multiagent Systems"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "lPqTv2eaobWKs9wFDG8b2vrMkYgAnyVKYqkeY3IUa1I",
+  "pdfSize": "4099739"
+}

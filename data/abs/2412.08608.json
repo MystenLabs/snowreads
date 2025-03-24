@@ -1,0 +1,40 @@
+{
+  "id": "2412.08608",
+  "title": "AdvWave: Stealthy Adversarial Jailbreak Attack against Large\n  Audio-Language Models",
+  "authors": "Mintong Kang, Chejian Xu, Bo Li",
+  "authorsParsed": [
+    [
+      "Kang",
+      "Mintong",
+      ""
+    ],
+    [
+      "Xu",
+      "Chejian",
+      ""
+    ],
+    [
+      "Li",
+      "Bo",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 11 Dec 2024 18:30:57 GMT"
+    }
+  ],
+  "updateDate": "2024-12-12",
+  "timestamp": 1733941857000,
+  "abstract": "  Recent advancements in large audio-language models (LALMs) have enabled\nspeech-based user interactions, significantly enhancing user experience and\naccelerating the deployment of LALMs in real-world applications. However,\nensuring the safety of LALMs is crucial to prevent risky outputs that may raise\nsocietal concerns or violate AI regulations. Despite the importance of this\nissue, research on jailbreaking LALMs remains limited due to their recent\nemergence and the additional technical challenges they present compared to\nattacks on DNN-based audio models. Specifically, the audio encoders in LALMs,\nwhich involve discretization operations, often lead to gradient shattering,\nhindering the effectiveness of attacks relying on gradient-based optimizations.\nThe behavioral variability of LALMs further complicates the identification of\neffective (adversarial) optimization targets. Moreover, enforcing stealthiness\nconstraints on adversarial audio waveforms introduces a reduced, non-convex\nfeasible solution space, further intensifying the challenges of the\noptimization process. To overcome these challenges, we develop AdvWave, the\nfirst jailbreak framework against LALMs. We propose a dual-phase optimization\nmethod that addresses gradient shattering, enabling effective end-to-end\ngradient-based optimization. Additionally, we develop an adaptive adversarial\ntarget search algorithm that dynamically adjusts the adversarial optimization\ntarget based on the response patterns of LALMs for specific queries. To ensure\nthat adversarial audio remains perceptually natural to human listeners, we\ndesign a classifier-guided optimization approach that generates adversarial\nnoise resembling common urban sounds. Extensive evaluations on multiple\nadvanced LALMs demonstrate that AdvWave outperforms baseline methods, achieving\na 40% higher average jailbreak attack success rate.\n",
+  "subjects": [
+    "Computer Science/Sound",
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Cryptography and Security",
+    "Electrical Engineering and Systems Science/Audio and Speech Processing"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "liVGYCWcsK3wpNCaOEuH7M4AyRGDidAkhNDjuoegZFI",
+  "pdfSize": "880888"
+}

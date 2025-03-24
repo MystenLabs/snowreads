@@ -1,0 +1,44 @@
+{
+  "id": "2412.16888",
+  "title": "Rethinking Performance Analysis for Configurable Software Systems: A\n  Case Study from a Fitness Landscape Perspective",
+  "authors": "Mingyu Huang, Peili Mao, Ke Li",
+  "authorsParsed": [
+    [
+      "Huang",
+      "Mingyu",
+      ""
+    ],
+    [
+      "Mao",
+      "Peili",
+      ""
+    ],
+    [
+      "Li",
+      "Ke",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 22 Dec 2024 06:51:33 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Thu, 2 Jan 2025 06:55:38 GMT"
+    }
+  ],
+  "updateDate": "2025-01-03",
+  "timestamp": 1734850293000,
+  "abstract": "  Modern software systems are often highly configurable to tailor varied\nrequirements from diverse stakeholders. Understanding the mapping between\nconfigurations and the desired performance attributes plays a fundamental role\nin advancing the controllability and tuning of the underlying system, yet has\nlong been a dark hole of knowledge due to its black-box nature. While there\nhave been previous efforts in performance analysis for these systems, they\nanalyze the configurations as isolated data points without considering their\ninherent spatial relationships. This renders them incapable of interrogating\nmany important aspects of the configuration space like local optima. In this\nwork, we advocate a novel perspective to rethink performance analysis --\nmodeling the configuration space as a structured ``landscape''. To support this\nproposition, we designed \\our, an open-source, graph data mining empowered\nfitness landscape analysis (FLA) framework. By applying this framework to $86$M\nbenchmarked configurations from $32$ running workloads of $3$ real-world\nsystems, we arrived at $6$ main findings, which together constitute a holistic\npicture of the landscape topography, with thorough discussions about their\nimplications on both configuration tuning and performance modeling.\n",
+  "subjects": [
+    "Computer Science/Performance",
+    "Computer Science/Distributed, Parallel, and Cluster Computing",
+    "Computer Science/Machine Learning",
+    "Computer Science/Software Engineering"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "wTTqUMKy0jUeMt3lqlEj3PRxpDcFKfUA2Th6OzhVm9A",
+  "pdfSize": "5965190"
+}

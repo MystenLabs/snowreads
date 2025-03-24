@@ -1,0 +1,53 @@
+{
+  "id": "2412.02085",
+  "title": "Evolution of Collective AI Beyond Individual Optimization",
+  "authors": "Ryosuke Takata, Yujin Tang, Yingtao Tian, Norihiro Maruyama, Hiroki\n  Kojima, Takashi Ikegami",
+  "authorsParsed": [
+    [
+      "Takata",
+      "Ryosuke",
+      ""
+    ],
+    [
+      "Tang",
+      "Yujin",
+      ""
+    ],
+    [
+      "Tian",
+      "Yingtao",
+      ""
+    ],
+    [
+      "Maruyama",
+      "Norihiro",
+      ""
+    ],
+    [
+      "Kojima",
+      "Hiroki",
+      ""
+    ],
+    [
+      "Ikegami",
+      "Takashi",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 3 Dec 2024 02:03:36 GMT"
+    }
+  ],
+  "updateDate": "2024-12-04",
+  "timestamp": 1733191416000,
+  "abstract": "  This study investigates collective behaviors that emerge from a group of\nhomogeneous individuals optimized for a specific capability. We created a group\nof simple, identical neural network based agents modeled after\nchemotaxis-driven vehicles that follow pheromone trails and examined\nmulti-agent simulations using clones of these evolved individuals. Our results\nshow that the evolution of individuals led to population differentiation.\nSurprisingly, we observed that collective fitness significantly changed during\nlater evolutionary stages, despite maintained high individual performance and\nsimplified neural architectures. This decline occurred when agents developed\nreduced sensor-motor coupling, suggesting that over-optimization of individual\nagents almost always lead to less effective group behavior. Our research\ninvestigates how individual differentiation can evolve through what\nevolutionary pathways.\n",
+  "subjects": [
+    "Computer Science/Multiagent Systems",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "_eoT6HCv2JlkHWtvL3M2OK3xUe46x3TMJJkVH2SzLMQ",
+  "pdfSize": "13775814"
+}

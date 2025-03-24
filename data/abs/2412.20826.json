@@ -1,0 +1,33 @@
+{
+  "id": "2412.20826",
+  "title": "ReStory: VLM-augmentation of Social Human-Robot Interaction Datasets",
+  "authors": "Fanjun Bu and Wendy Ju",
+  "authorsParsed": [
+    [
+      "Bu",
+      "Fanjun",
+      ""
+    ],
+    [
+      "Ju",
+      "Wendy",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 30 Dec 2024 09:38:00 GMT"
+    }
+  ],
+  "updateDate": "2024-12-31",
+  "timestamp": 1735551480000,
+  "abstract": "  Internet-scaled datasets are a luxury for human-robot interaction (HRI)\nresearchers, as collecting natural interaction data in the wild is\ntime-consuming and logistically challenging. The problem is exacerbated by\nrobots' different form factors and interaction modalities. Inspired by recent\nwork on ethnomethodological and conversation analysis (EMCA) in the domain of\nHRI, we propose ReStory, a method that has the potential to augment existing\nin-the-wild human-robot interaction datasets leveraging Vision Language Models.\nWhile still requiring human supervision, ReStory is capable of synthesizing\nhuman-interpretable interaction scenarios in the form of storyboards. We hope\nour proposed approach provides HRI researchers and interaction designers with a\nnew angle to utilizing their valuable and scarce data.\n",
+  "subjects": [
+    "Computer Science/Robotics",
+    "Computer Science/Human-Computer Interaction"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "S9zU9c5Twz7J4yB94z3UK8y84LdMiOBwn2nvbn1BzmY",
+  "pdfSize": "924361"
+}

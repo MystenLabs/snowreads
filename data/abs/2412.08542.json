@@ -1,0 +1,74 @@
+{
+  "id": "2412.08542",
+  "title": "MaestroMotif: Skill Design from Artificial Intelligence Feedback",
+  "authors": "Martin Klissarov, Mikael Henaff, Roberta Raileanu, Shagun Sodhani,\n  Pascal Vincent, Amy Zhang, Pierre-Luc Bacon, Doina Precup, Marlos C. Machado,\n  Pierluca D'Oro",
+  "authorsParsed": [
+    [
+      "Klissarov",
+      "Martin",
+      ""
+    ],
+    [
+      "Henaff",
+      "Mikael",
+      ""
+    ],
+    [
+      "Raileanu",
+      "Roberta",
+      ""
+    ],
+    [
+      "Sodhani",
+      "Shagun",
+      ""
+    ],
+    [
+      "Vincent",
+      "Pascal",
+      ""
+    ],
+    [
+      "Zhang",
+      "Amy",
+      ""
+    ],
+    [
+      "Bacon",
+      "Pierre-Luc",
+      ""
+    ],
+    [
+      "Precup",
+      "Doina",
+      ""
+    ],
+    [
+      "Machado",
+      "Marlos C.",
+      ""
+    ],
+    [
+      "D'Oro",
+      "Pierluca",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 11 Dec 2024 16:59:31 GMT"
+    }
+  ],
+  "updateDate": "2024-12-12",
+  "timestamp": 1733936371000,
+  "abstract": "  Describing skills in natural language has the potential to provide an\naccessible way to inject human knowledge about decision-making into an AI\nsystem. We present MaestroMotif, a method for AI-assisted skill design, which\nyields high-performing and adaptable agents. MaestroMotif leverages the\ncapabilities of Large Language Models (LLMs) to effectively create and reuse\nskills. It first uses an LLM's feedback to automatically design rewards\ncorresponding to each skill, starting from their natural language description.\nThen, it employs an LLM's code generation abilities, together with\nreinforcement learning, for training the skills and combining them to implement\ncomplex behaviors specified in language. We evaluate MaestroMotif using a suite\nof complex tasks in the NetHack Learning Environment (NLE), demonstrating that\nit surpasses existing approaches in both performance and usability.\n",
+  "subjects": [
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Computation and Language",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "9DLpo6oCGlB95UIpqLnqDeN7p7D-ejEYvVwt1cbJEPg",
+  "pdfSize": "10939655"
+}

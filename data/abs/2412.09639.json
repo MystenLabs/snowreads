@@ -1,0 +1,27 @@
+{
+  "id": "2412.09639",
+  "title": "Progress in Decompositional Electromagnetic Analysis of Digital\n  Interconnects",
+  "authors": "Yuriy Shlepnev",
+  "authorsParsed": [
+    [
+      "Shlepnev",
+      "Yuriy",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 7 Dec 2024 19:23:58 GMT"
+    }
+  ],
+  "updateDate": "2024-12-16",
+  "timestamp": 1733599438000,
+  "abstract": "  In the realm of PCB and packaging interconnect design, electromagnetic\nanalysis tools have transitioned from optional to essential over the last two\ndecades, as data rates soared beyond 6 Gbps. Today, with standard data rates\neclipsing 6 Gbps and reaching thresholds of 224 Gbps, these tools are\nindispensable for designing reliable interconnects. The goals of the\ninterconnect analysis are simple: identify interconnects that may fail at the\ntarget data rate and allow troubleshooting and fixing the problem. The most\nefficient approach to such pass-fail analysis is the Decompositional\nElectromagnetic Analysis (DEA). It allows separation of the signal degradation\nfactors for faster analysis and troubleshooting. This paper outlines the basic\nelements of DEA, discusses conditions for its accuracy and underscores its\nsignificance in the future of interconnect design.\n",
+  "subjects": [
+    "Physics/Instrumentation and Detectors"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "3NNu_UdvUktVvdEsibWiYjhiq8DtazjM6Od284nsHTs",
+  "pdfSize": "993481"
+}

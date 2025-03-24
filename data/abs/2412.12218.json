@@ -1,0 +1,32 @@
+{
+  "id": "2412.12218",
+  "title": "Accelerating Sparse Graph Neural Networks with Tensor Core Optimization",
+  "authors": "Ka Wai Wu",
+  "authorsParsed": [
+    [
+      "Wu",
+      "Ka Wai",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 16 Dec 2024 01:57:53 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Sun, 23 Feb 2025 21:26:57 GMT"
+    }
+  ],
+  "updateDate": "2025-02-25",
+  "timestamp": 1734314273000,
+  "abstract": "  Graph neural networks (GNNs) have seen extensive application in domains such\nas social networks, bioinformatics, and recommendation systems. However, the\nirregularity and sparsity of graph data challenge traditional computing\nmethods, which are insufficient to meet the performance demands of GNNs. Recent\nresearch has explored parallel acceleration using CUDA Cores and Tensor Cores,\nbut significant challenges persist: (1) kernel fusion leads to false high\nutilization, failing to treat CUDA and Tensor Cores as independent resources,\nand (2) heterogeneous cores have distinct computation preferences, causing\ninefficiencies. To address these issues, this paper proposes FTC-GNN, a novel\nacceleration framework that efficiently utilizes CUDA and Tensor Cores for GNN\ncomputation. FTC-GNN introduces (1) a collaborative design that enables the\nparallel utilization of CUDA and Tensor Cores and (2) a sparse-to-dense\ntransformation strategy that assigns dense matrix operations to Tensor Cores\nwhile leveraging CUDA Cores for data management and sparse edge processing.\nThis design optimizes GPU resource utilization and improves computational\nefficiency. Experimental results demonstrate the effectiveness of FTC-GNN using\nGCN and AGNN models across various datasets. For GCN, FTC-GNN achieves speedups\nof 4.90x, 7.10x, and 1.17x compared to DGL, PyG, and TC-GNN, respectively. For\nAGNN, it achieves speedups of 5.32x, 2.92x, and 1.02x, establishing its\nsuperiority in accelerating GNN computations.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Computer Science/Hardware Architecture"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "7nG4SGwMUhWTThS5nJiw_aZVF3pEgdCXsKvOBMJY8R4",
+  "pdfSize": "3649051"
+}

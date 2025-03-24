@@ -1,0 +1,37 @@
+{
+  "id": "2412.16538",
+  "title": "Two-person zero-sum stochastic linear quadratic control problems with\n  Markov chains and fractional Brownian motion in infinite horizon",
+  "authors": "Chang Liu, Hongtao Fan, Yajing Li",
+  "authorsParsed": [
+    [
+      "Liu",
+      "Chang",
+      ""
+    ],
+    [
+      "Fan",
+      "Hongtao",
+      ""
+    ],
+    [
+      "Li",
+      "Yajing",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 21 Dec 2024 08:43:18 GMT"
+    }
+  ],
+  "updateDate": "2024-12-24",
+  "timestamp": 1734770598000,
+  "abstract": "  This paper addresses a class of two-person zero-sum stochastic differential\nequations, which encompass Markov chains and fractional Brownian motion, and\nsatisfy some monotonicity conditions over an infinite time horizon. Within the\nframework of forward-backward stochastic differential equations (FBSDEs) that\ndescribe system evolution, we extend the classical It$\\rm\\hat{o}$'s formula to\naccommodate complex scenarios involving Brownian motion, fractional Brownian\nmotion, and Markov chains simultaneously. By applying the Banach fixed-point\ntheorem and approximation methods respectively, we theoretically guarantee the\nexistence and uniqueness of solutions for FBSDEs in infinite horizon.\nFurthermore, we apply the method for the first time to the optimal control\nproblem in a two-player zero-sum game, deriving the optimal control strategies\nfor both players by solving the FBSDEs system. Finally, we conduct an analysis\nof the impact of the cross-term\n  $S(\\cdot)$ in the cost function on the solution, revealing its crucial role\nin the optimization process.\n",
+  "subjects": [
+    "Mathematics/Optimization and Control"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "vWKlTQzL5FaKHXCWpWQbAb0E5w6BwDpbvn2yj6h8yDI",
+  "pdfSize": "347831"
+}

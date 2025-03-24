@@ -1,0 +1,32 @@
+{
+  "id": "2412.03525",
+  "title": "Pin classes II: Small pin classes",
+  "authors": "Robert Brignall and Ben Jarvis",
+  "authorsParsed": [
+    [
+      "Brignall",
+      "Robert",
+      ""
+    ],
+    [
+      "Jarvis",
+      "Ben",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 4 Dec 2024 18:12:06 GMT"
+    }
+  ],
+  "updateDate": "2024-12-05",
+  "timestamp": 1733335926000,
+  "abstract": "  Pin permutations play an important role in the structural study of\npermutation classes, most notably in relation to simple permutations and\nwell-quasi-ordering, and in enumerative consequences arising from these. In\nthis paper, we continue our study of pin classes, which are permutation classes\nthat comprise all the finite subpermutations contained in an infinite pin\npermutation. We show that there is a phase transition at $\\mu\\approx 3.28277$:\nthere are uncountably many different pin classes whose growth rate is equal to\n$\\mu$, yet only countably many below $\\mu$. Furthermore, by showing that all\npin classes with growth rate less than $\\mu$ are essentially defined by pin\npermutations that possess a periodic structure, we classify the set of growth\nrates of pin classes up to $\\mu$.\n",
+  "subjects": [
+    "Mathematics/Combinatorics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "ZrT9-jkSIppnLB2uqD2OEGrnE7xd-kkoBelbfWU6lvA",
+  "pdfSize": "261911"
+}

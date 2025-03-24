@@ -1,0 +1,59 @@
+{
+  "id": "2412.02998",
+  "title": "QuadricsReg: Large-Scale Point Cloud Registration using Quadric\n  Primitives",
+  "authors": "Ji Wu, Huai Yu, Shu Han, Xi-Meng Cai, Ming-Feng Wang, Wen Yang,\n  Gui-Song Xia",
+  "authorsParsed": [
+    [
+      "Wu",
+      "Ji",
+      ""
+    ],
+    [
+      "Yu",
+      "Huai",
+      ""
+    ],
+    [
+      "Han",
+      "Shu",
+      ""
+    ],
+    [
+      "Cai",
+      "Xi-Meng",
+      ""
+    ],
+    [
+      "Wang",
+      "Ming-Feng",
+      ""
+    ],
+    [
+      "Yang",
+      "Wen",
+      ""
+    ],
+    [
+      "Xia",
+      "Gui-Song",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 4 Dec 2024 03:35:08 GMT"
+    }
+  ],
+  "updateDate": "2024-12-05",
+  "timestamp": 1733283308000,
+  "abstract": "  In the realm of large-scale point cloud registration, designing a compact\nsymbolic representation is crucial for efficiently processing vast amounts of\ndata, ensuring registration robustness against significant viewpoint variations\nand occlusions. This paper introduces a novel point cloud registration method,\ni.e., QuadricsReg, which leverages concise quadrics primitives to represent\nscenes and utilizes their geometric characteristics to establish\ncorrespondences for 6-DoF transformation estimation. As a symbolic feature, the\nquadric representation fully captures the primary geometric characteristics of\nscenes, which can efficiently handle the complexity of large-scale point\nclouds. The intrinsic characteristics of quadrics, such as types and scales,\nare employed to initialize correspondences. Then we build a multi-level\ncompatibility graph set to find the correspondences using the maximum clique on\nthe geometric consistency between quadrics. Finally, we estimate the 6-DoF\ntransformation using the quadric correspondences, which is further optimized\nbased on the quadric degeneracy-aware distance in a factor graph, ensuring high\nregistration accuracy and robustness against degenerate structures. We test on\n5 public datasets and the self-collected heterogeneous dataset across different\nLiDAR sensors and robot platforms. The exceptional registration success rates\nand minimal registration errors demonstrate the effectiveness of QuadricsReg in\nlarge-scale point cloud registration scenarios. Furthermore, the real-world\nregistration testing on our self-collected heterogeneous dataset shows the\nrobustness and generalization ability of QuadricsReg on different LiDAR sensors\nand robot platforms. The codes and demos will be released at\n\\url{https://levenberg.github.io/QuadricsReg}.\n",
+  "subjects": [
+    "Computer Science/Robotics",
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Graphics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "izOhlWbvyHmOuPdZseXCaeSxBrUduyDOdUg-mQKsW8s",
+  "pdfSize": "7100766"
+}

@@ -1,0 +1,49 @@
+{
+  "id": "2412.19824",
+  "title": "AnalogXpert: Automating Analog Topology Synthesis by Incorporating\n  Circuit Design Expertise into Large Language Models",
+  "authors": "Haoyi Zhang, Shizhao Sun, Yibo Lin, Runsheng Wang, Jiang Bian",
+  "authorsParsed": [
+    [
+      "Zhang",
+      "Haoyi",
+      ""
+    ],
+    [
+      "Sun",
+      "Shizhao",
+      ""
+    ],
+    [
+      "Lin",
+      "Yibo",
+      ""
+    ],
+    [
+      "Wang",
+      "Runsheng",
+      ""
+    ],
+    [
+      "Bian",
+      "Jiang",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 17 Dec 2024 09:08:08 GMT"
+    }
+  ],
+  "updateDate": "2024-12-31",
+  "timestamp": 1734426488000,
+  "abstract": "  Analog circuits are crucial in modern electronic systems, and automating\ntheir design has attracted significant research interest. One of major\nchallenges is topology synthesis, which determines circuit components and their\nconnections. Recent studies explore large language models (LLM) for topology\nsynthesis. However, the scenarios addressed by these studies do not align well\nwith practical applications. Specifically, existing work uses vague design\nrequirements as input and outputs an ideal model, but detailed structural\nrequirements and device-level models are more practical. Moreover, current\napproaches either formulate topology synthesis as graph generation or Python\ncode generation, whereas practical topology design is a complex process that\ndemands extensive design knowledge. In this work, we propose AnalogXpert, a\nLLM-based agent aiming at solving practical topology synthesis problem by\nincorporating circuit design expertise into LLMs. First, we represent analog\ntopology as SPICE code and introduce a subcircuit library to reduce the design\nspace, in the same manner as experienced designers. Second, we decompose the\nproblem into two sub-task (i.e., block selection and block connection) through\nthe use of CoT and incontext learning techniques, to mimic the practical design\nprocess. Third, we introduce a proofreading strategy that allows LLMs to\nincrementally correct the errors in the initial design, akin to human designers\nwho iteratively check and adjust the initial topology design to ensure\naccuracy. Finally, we construct a high-quality benchmark containing both real\ndata (30) and synthetic data (2k). AnalogXpert achieves 40% and 23% success\nrates on the synthetic dataset and real dataset respectively, which is markedly\nbetter than those of GPT-4o (3% on both the synthetic dataset and the real\ndataset).\n",
+  "subjects": [
+    "Computer Science/Hardware Architecture",
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Software Engineering"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "J1lxeSIsc_i8GFzoEOATzE1Jbf3Szh6UJNveel7NX4w",
+  "pdfSize": "395074"
+}

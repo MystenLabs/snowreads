@@ -1,0 +1,59 @@
+{
+  "id": "2412.07237",
+  "title": "ArtFormer: Controllable Generation of Diverse 3D Articulated Objects",
+  "authors": "Jiayi Su, Youhe Feng, Zheng Li, Jinhua Song, Yangfan He, Botao Ren,\n  Botian Xu",
+  "authorsParsed": [
+    [
+      "Su",
+      "Jiayi",
+      ""
+    ],
+    [
+      "Feng",
+      "Youhe",
+      ""
+    ],
+    [
+      "Li",
+      "Zheng",
+      ""
+    ],
+    [
+      "Song",
+      "Jinhua",
+      ""
+    ],
+    [
+      "He",
+      "Yangfan",
+      ""
+    ],
+    [
+      "Ren",
+      "Botao",
+      ""
+    ],
+    [
+      "Xu",
+      "Botian",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 10 Dec 2024 07:00:05 GMT"
+    }
+  ],
+  "updateDate": "2024-12-11",
+  "timestamp": 1733814005000,
+  "abstract": "  This paper presents a novel framework for modeling and conditional generation\nof 3D articulated objects. Troubled by flexibility-quality tradeoffs, existing\nmethods are often limited to using predefined structures or retrieving shapes\nfrom static datasets. To address these challenges, we parameterize an\narticulated object as a tree of tokens and employ a transformer to generate\nboth the object's high-level geometry code and its kinematic relations.\nSubsequently, each sub-part's geometry is further decoded using a\nsigned-distance-function (SDF) shape prior, facilitating the synthesis of\nhigh-quality 3D shapes. Our approach enables the generation of diverse objects\nwith high-quality geometry and varying number of parts. Comprehensive\nexperiments on conditional generation from text descriptions demonstrate the\neffectiveness and flexibility of our method.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Robotics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "EFafUgzGuJOPyC52_UwhJRp6gsq_kPY21TqOTsqOwuM",
+  "pdfSize": "35836183"
+}

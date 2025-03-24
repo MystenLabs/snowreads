@@ -1,0 +1,37 @@
+{
+  "id": "2412.20946",
+  "title": "Generalizing in Net-Zero Microgrids: A Study with Federated PPO and TRPO",
+  "authors": "Nicolas M Cuadrado Avila, Samuel Horv\\'ath, Martin Tak\\'a\\v{c}",
+  "authorsParsed": [
+    [
+      "Avila",
+      "Nicolas M Cuadrado",
+      ""
+    ],
+    [
+      "Horváth",
+      "Samuel",
+      ""
+    ],
+    [
+      "Takáč",
+      "Martin",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 30 Dec 2024 13:38:31 GMT"
+    }
+  ],
+  "updateDate": "2024-12-31",
+  "timestamp": 1735565911000,
+  "abstract": "  This work addresses the challenge of optimal energy management in microgrids\nthrough a collaborative and privacy-preserving framework. We propose the\nFedTRPO methodology, which integrates Federated Learning (FL) and Trust Region\nPolicy Optimization (TRPO) to manage distributed energy resources (DERs)\nefficiently. Using a customized version of the CityLearn environment and\nsynthetically generated data, we simulate designed net-zero energy scenarios\nfor microgrids composed of multiple buildings. Our approach emphasizes reducing\nenergy costs and carbon emissions while ensuring privacy. Experimental results\ndemonstrate that FedTRPO is comparable with state-of-the-art federated RL\nmethodologies without hyperparameter tunning. The proposed framework highlights\nthe feasibility of collaborative learning for achieving optimal control\npolicies in energy systems, advancing the goals of sustainable and efficient\nsmart grids.\n",
+  "subjects": [
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "PuvmpKLmUnRgazyffr1kjetvBtM-RwYPovQD0dksY88",
+  "pdfSize": "7253919"
+}

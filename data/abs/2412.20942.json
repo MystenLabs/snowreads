@@ -1,0 +1,38 @@
+{
+  "id": "2412.20942",
+  "title": "Ontology-grounded Automatic Knowledge Graph Construction by LLM under\n  Wikidata schema",
+  "authors": "Xiaohan Feng, Xixin Wu and Helen Meng",
+  "authorsParsed": [
+    [
+      "Feng",
+      "Xiaohan",
+      ""
+    ],
+    [
+      "Wu",
+      "Xixin",
+      ""
+    ],
+    [
+      "Meng",
+      "Helen",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 30 Dec 2024 13:36:05 GMT"
+    }
+  ],
+  "updateDate": "2024-12-31",
+  "timestamp": 1735565765000,
+  "abstract": "  We propose an ontology-grounded approach to Knowledge Graph (KG) construction\nusing Large Language Models (LLMs) on a knowledge base. An ontology is authored\nby generating Competency Questions (CQ) on knowledge base to discover knowledge\nscope, extracting relations from CQs, and attempt to replace equivalent\nrelations by their counterpart in Wikidata. To ensure consistency and\ninterpretability in the resulting KG, we ground generation of KG with the\nauthored ontology based on extracted relations. Evaluation on benchmark\ndatasets demonstrates competitive performance in knowledge graph construction\ntask. Our work presents a promising direction for scalable KG construction\npipeline with minimal human intervention, that yields high quality and\nhuman-interpretable KGs, which are interoperable with Wikidata semantics for\npotential knowledge base expansion.\n",
+  "subjects": [
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Information Retrieval"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "xuZR7KyLABg-4Q1dn6rWeHQyXgeZYq0dMZ30yeuKBaA",
+  "pdfSize": "693874"
+}

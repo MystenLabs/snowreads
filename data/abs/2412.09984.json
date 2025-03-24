@@ -1,0 +1,28 @@
+{
+  "id": "2412.09984",
+  "title": "How to fit large complexity classes into TFNP",
+  "authors": "Neil Thapen",
+  "authorsParsed": [
+    [
+      "Thapen",
+      "Neil",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 13 Dec 2024 09:10:54 GMT"
+    }
+  ],
+  "updateDate": "2024-12-16",
+  "timestamp": 1734081054000,
+  "abstract": "  Subclasses of TFNP (total functional NP) are usually defined by specifying a\ncomplete problem, which is necessarily in TFNP, and including all problems\nmany-one reducible to it. We study two notions of how a TFNP problem can be\nreducible to an object, such as a complexity class, outside TFNP. This gives\nrise to subclasses of TFNP which capture some properties of that outside\nobject. We show that well-known subclasses can arise in this way, for example\nPPA from reducibility to parity P and PLS from reducibility to P^NP.\n  We study subclasses arising from PSPACE and the polynomial hierarchy, and\nshow that they are characterized by the propositional proof systems Frege and\nconstant-depth Frege, extending the known pairings between natural TFNP\nsubclasses and proof systems.\n  We study approximate counting from this point of view, and look for a\nsubclass of TFNP that gives a natural home to combinatorial principles such as\nRamsey which can be proved using approximate counting. We relate this to the\nrecently-studied Long choice and Short choice problems.\n",
+  "subjects": [
+    "Computer Science/Computational Complexity",
+    "Computer Science/Logic in Computer Science"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "ebndMVvX9QWsSFW3hsA_5R1Psl2VUl1j-cyglY4vm5g",
+  "pdfSize": "547304"
+}

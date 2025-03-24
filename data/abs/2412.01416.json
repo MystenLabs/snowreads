@@ -1,0 +1,42 @@
+{
+  "id": "2412.01416",
+  "title": "Chaos Engineering: A Multi-Vocal Literature Review",
+  "authors": "Joshua Owotogbe, Indika Kumara, Willem-Jan Van Den Heuvel and Damian\n  Andrew Tamburri",
+  "authorsParsed": [
+    [
+      "Owotogbe",
+      "Joshua",
+      ""
+    ],
+    [
+      "Kumara",
+      "Indika",
+      ""
+    ],
+    [
+      "Heuvel",
+      "Willem-Jan Van Den",
+      ""
+    ],
+    [
+      "Tamburri",
+      "Damian Andrew",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 2 Dec 2024 11:57:24 GMT"
+    }
+  ],
+  "updateDate": "2024-12-03",
+  "timestamp": 1733140644000,
+  "abstract": "  Organizations, particularly medium and large enterprises, typically today\nrely heavily on complex, distributed systems to deliver critical services and\nproducts. However, the growing complexity of these systems poses challenges in\nensuring service availability, performance, and reliability. Traditional\nresilience testing methods often fail to capture modern systems' intricate\ninteractions and failure modes. Chaos Engineering addresses these challenges by\nproactively testing how systems in production behave under turbulent\nconditions, allowing developers to uncover and resolve potential issues before\nthey escalate into outages. Though chaos engineering has received growing\nattention from researchers and practitioners alike, we observed a lack of a\ncomprehensive literature review. Hence, we performed a Multivocal Literature\nReview (MLR) on chaos engineering to fill this research gap by systematically\nanalyzing 88 academic and grey literature sources published from January 2019\nto April 2024. We first used the selected sources to derive a unified\ndefinition of chaos engineering and to identify key capabilities, components,\nand adoption drivers. We also developed a taxonomy for chaos engineering and\ncompared the relevant tools using it. Finally, we analyzed the state of the\ncurrent chaos engineering research and identified several open research issues.\n",
+  "subjects": [
+    "Computer Science/Software Engineering"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "k0OPhIJdBnLXtD_XwDkTzZnj42MrieQgfSnqfmCv_Qw",
+  "pdfSize": "6050190"
+}

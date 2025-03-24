@@ -1,0 +1,42 @@
+{
+  "id": "2412.20168",
+  "title": "Nonlinear Conjugate Gradient Methods for Optimization of Set-Valued\n  Mappings of Finite Cardinality",
+  "authors": "Debdas Ghosh, Ravi Raushan, Zai-Yun Peng, Jen-Chih Yao",
+  "authorsParsed": [
+    [
+      "Ghosh",
+      "Debdas",
+      ""
+    ],
+    [
+      "Raushan",
+      "Ravi",
+      ""
+    ],
+    [
+      "Peng",
+      "Zai-Yun",
+      ""
+    ],
+    [
+      "Yao",
+      "Jen-Chih",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 28 Dec 2024 14:49:37 GMT"
+    }
+  ],
+  "updateDate": "2024-12-31",
+  "timestamp": 1735397377000,
+  "abstract": "  This article presents nonlinear conjugate gradient methods for finding local\nweakly minimal points of set-valued optimization problems under a lower set\nless ordering relation. The set-valued objective function of the optimization\nproblem under consideration is defined by finitely many continuously\ndifferentiable vector-valued functions. For such optimization problems, at\nfirst, we propose a general scheme for nonlinear conjugate gradient methods and\nthen introduce Dai-Yuan, Polak-Ribi{\\`e}re-Polyak, and Hestenes-Stiefel\nconjugate gradient parameters for set-valued functions. Toward deriving the\ngeneral scheme, we introduce a condition of sufficient decrease and Wolfe line\nsearches for set-valued functions. For a given sequence of descent directions\nof a set-valued function, it is found that if the proposed standard Wolfe line\nsearch technique is employed, then the generated sequence of iterates for set\noptimization follows a Zoutendijk-like condition. With the help of the derived\nZoutendijk-like condition, we report that all the proposed nonlinear conjugate\ngradient schemes are globally convergent under usual assumptions. It is\nimportant to note that the ordering cone used in the entire study is not\nrestricted to be finitely generated, and no regularity assumption on the\nsolution set of the problem is required for any of the reported convergence\nanalyses. Finally, we demonstrate the performance of the proposed methods\nthrough numerical experiments. In the numerical experiments, we demonstrate the\neffectiveness of the proposed methods not only on the commonly used test\ninstances for set optimization but also on a few newly introduced problems\nunder general ordering cones that are neither nonnegative hyper-octant nor\nfinitely generated.\n",
+  "subjects": [
+    "Mathematics/Optimization and Control"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "i7k4Two3eznRPE9zRucK175jPKSZ6NQxePLoJwjVzPA",
+  "pdfSize": "1312904"
+}

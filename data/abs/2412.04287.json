@@ -1,0 +1,77 @@
+{
+  "id": "2412.04287",
+  "title": "Multi-cam Multi-map Visual Inertial Localization: System, Validation and\n  Dataset",
+  "authors": "Fuzhang Han, Yufei Wei, Yanmei Jiao, Zhuqing Zhang, Yiyuan Pan, Wenjun\n  Huang, Li Tang, Huan Yin, Xiaqing Ding, Rong Xiong, Yue Wang",
+  "authorsParsed": [
+    [
+      "Han",
+      "Fuzhang",
+      ""
+    ],
+    [
+      "Wei",
+      "Yufei",
+      ""
+    ],
+    [
+      "Jiao",
+      "Yanmei",
+      ""
+    ],
+    [
+      "Zhang",
+      "Zhuqing",
+      ""
+    ],
+    [
+      "Pan",
+      "Yiyuan",
+      ""
+    ],
+    [
+      "Huang",
+      "Wenjun",
+      ""
+    ],
+    [
+      "Tang",
+      "Li",
+      ""
+    ],
+    [
+      "Yin",
+      "Huan",
+      ""
+    ],
+    [
+      "Ding",
+      "Xiaqing",
+      ""
+    ],
+    [
+      "Xiong",
+      "Rong",
+      ""
+    ],
+    [
+      "Wang",
+      "Yue",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 5 Dec 2024 16:09:27 GMT"
+    }
+  ],
+  "updateDate": "2024-12-06",
+  "timestamp": 1733414967000,
+  "abstract": "  Map-based localization is crucial for the autonomous movement of robots as it\nprovides real-time positional feedback. However, existing VINS and SLAM systems\ncannot be directly integrated into the robot's control loop. Although VINS\noffers high-frequency position estimates, it suffers from drift in long-term\noperation. And the drift-free trajectory output by SLAM is post-processed with\nloop correction, which is non-causal. In practical control, it is impossible to\nupdate the current pose with future information. Furthermore, existing SLAM\nevaluation systems measure accuracy after aligning the entire trajectory, which\noverlooks the transformation error between the odometry start frame and the\nground truth frame. To address these issues, we propose a multi-cam multi-map\nvisual inertial localization system, which provides real-time, causal and\ndrift-free position feedback to the robot control loop. Additionally, we\nanalyze the error composition of map-based localization systems and propose a\nset of evaluation metric suitable for measuring causal localization\nperformance. To validate our system, we design a multi-camera IMU hardware\nsetup and collect a long-term challenging campus dataset. Experimental results\ndemonstrate the higher real-time localization accuracy of the proposed system.\nTo foster community development, both the system and the dataset have been made\nopen source https://github.com/zoeylove/Multi-cam-Multi-map-VILO/tree/main.\n",
+  "subjects": [
+    "Computer Science/Robotics"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "uJpQ5yTdBVv2sjkmVI4c8BarDMIdDfo3Gul8uHshwcc",
+  "pdfSize": "10774655"
+}

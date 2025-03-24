@@ -1,0 +1,38 @@
+{
+  "id": "2412.11872",
+  "title": "Non-Ideal Two-Level Battery Charger-Modeling and Simulation",
+  "authors": "Jos\\'e M. Campos-Salazar, Juan L. Aguayo-Lazcano and Roya Rafiezadeh",
+  "authorsParsed": [
+    [
+      "Campos-Salazar",
+      "José M.",
+      ""
+    ],
+    [
+      "Aguayo-Lazcano",
+      "Juan L.",
+      ""
+    ],
+    [
+      "Rafiezadeh",
+      "Roya",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 16 Dec 2024 15:26:15 GMT"
+    }
+  ],
+  "updateDate": "2025-01-09",
+  "timestamp": 1734362775000,
+  "abstract": "  This study presents a comprehensive analysis of a two-level battery charger\nfor electric vehicles, focusing on modeling, simulation, and performance\nevaluation. The proposed charger topology employs two switches operating\ncomplementarily, along with essential components such as inductors, capacitors,\nand batteries. Detailed modeling in steady-state and dynamic regimes reveals\nthe influence of nonlinearities, particularly switch and energy storage element\ncharacteristics, on charger efficiency and performance. Efficiency calculations\nhighlight the significance of precise modeling and control strategies.\nController synthesis involves designing a robust proportional-integral\ncompensator for effective battery charging current regulation. Analysis of\nnon-idealities underscores the need for accurate component sizing and control\nstrategies. The findings provide valuable insights for optimizing charger\ndesign and control, with implications for enhancing electric vehicle\nperformance and reliability.\n",
+  "subjects": [
+    "Electrical Engineering and Systems Science/Systems and Control",
+    "Computer Science/Systems and Control"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "qyvpP7RsESExtxzZrgsz5HS2bzLZqUXDodXNXNC-HYI",
+  "pdfSize": "1550725"
+}

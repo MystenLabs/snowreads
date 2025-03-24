@@ -1,0 +1,53 @@
+{
+  "id": "2412.00578",
+  "title": "Speedy-Splat: Fast 3D Gaussian Splatting with Sparse Pixels and Sparse\n  Primitives",
+  "authors": "Alex Hanson, Allen Tu, Geng Lin, Vasu Singla, Matthias Zwicker, Tom\n  Goldstein",
+  "authorsParsed": [
+    [
+      "Hanson",
+      "Alex",
+      ""
+    ],
+    [
+      "Tu",
+      "Allen",
+      ""
+    ],
+    [
+      "Lin",
+      "Geng",
+      ""
+    ],
+    [
+      "Singla",
+      "Vasu",
+      ""
+    ],
+    [
+      "Zwicker",
+      "Matthias",
+      ""
+    ],
+    [
+      "Goldstein",
+      "Tom",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 30 Nov 2024 20:25:56 GMT"
+    }
+  ],
+  "updateDate": "2024-12-03",
+  "timestamp": 1732998356000,
+  "abstract": "  3D Gaussian Splatting (3D-GS) is a recent 3D scene reconstruction technique\nthat enables real-time rendering of novel views by modeling scenes as\nparametric point clouds of differentiable 3D Gaussians. However, its rendering\nspeed and model size still present bottlenecks, especially in\nresource-constrained settings. In this paper, we identify and address two key\ninefficiencies in 3D-GS, achieving substantial improvements in rendering speed,\nmodel size, and training time. First, we optimize the rendering pipeline to\nprecisely localize Gaussians in the scene, boosting rendering speed without\naltering visual fidelity. Second, we introduce a novel pruning technique and\nintegrate it into the training pipeline, significantly reducing model size and\ntraining time while further raising rendering speed. Our Speedy-Splat approach\ncombines these techniques to accelerate average rendering speed by a drastic\n$6.71\\times$ across scenes from the Mip-NeRF 360, Tanks & Temples, and Deep\nBlending datasets with $10.6\\times$ fewer primitives than 3D-GS.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Graphics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "T7Lwaqqsf2ylZTSoPV-jTNb6nNYsCPGE_NigBnOK4g0",
+  "pdfSize": "3584481"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2412.20112",
+  "title": "Towards influence centrality: where to not add an edge in the network?",
+  "authors": "Aashi Shrinate and Twinkle Tripathy",
+  "authorsParsed": [
+    [
+      "Shrinate",
+      "Aashi",
+      ""
+    ],
+    [
+      "Tripathy",
+      "Twinkle",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 28 Dec 2024 10:47:32 GMT"
+    }
+  ],
+  "updateDate": "2024-12-31",
+  "timestamp": 1735382852000,
+  "abstract": "  In this work, we consider a strongly connected group of individuals involved\nin decision-making. The opinions of the individuals evolve using the\nFriedkin-Johnsen (FJ) model. We consider that there are two competing\n`influencers' (stubborn agents) vying for control over the final opinion of the\ngroup. We investigate the impact of modifying the network interactions on their\nrespective control over the final opinions (influence centrality). We use\nsignal flow graphs (SFG) to relate the network interactions with the influence\nthat each `influencer' exerts on others. We present the sufficient conditions\non the edge modifications which lead to the increase of the influence of an\n`influencer' at the expense of the other. Interestingly, the analysis also\nreveals the existence of redundant edge modifications that result in no change\nin the influence centrality of the network. We present several numerical\nexamples to illustrate these results.\n",
+  "subjects": [
+    "Electrical Engineering and Systems Science/Systems and Control",
+    "Computer Science/Systems and Control"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "RwC9I_XGzR4T431qcQ27nsRyKvTbsfP4xr_U1QjrXQw",
+  "pdfSize": "772434"
+}

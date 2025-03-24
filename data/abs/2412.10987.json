@@ -1,0 +1,29 @@
+{
+  "id": "2412.10987",
+  "title": "Well-Posedness and Stability of the Stochastic OGTT Model",
+  "authors": "Paul Bekima",
+  "authorsParsed": [
+    [
+      "Bekima",
+      "Paul",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 14 Dec 2024 22:35:25 GMT"
+    }
+  ],
+  "updateDate": "2024-12-17",
+  "timestamp": 1734215725000,
+  "abstract": "  Oral Glucose Tolerance Test (OGTT) is one of many way to produce data in the\nstudy of the diabetes dynamic. In a recent paper [1.]:\\textit{ Estimating\ninsulin sensitivity and $ \\beta $-cell function from the oral glucose tolerance\ntest: validation of a new insulin sensitivity and secretion (ISS) model,\n\\textit{J. American Physiological Society },(2024)},Ha J., Chung S.T., and al.\nproposed a comprehensive OGTT model under the form of a dynamic system. But\ntheir model was fully deterministic. Yet, our natural environment interacts\nwith noise; thus taking into account that inherent perturbation could\npotentially improve the model, which in turn could lead to a better estimation\nof the parameters of the system. The current paper endeavors to explore the\nOGTT model proposed by Ha and al. but this time with the addition of white\nnoise perturbations to the system.\\\n  The work is organized as follow: we first establish the existence and\nuniqueness of a global positive solution to the proposed stochastic model. Then\nfollows the study the statistical stability of the model by examining the\nexistence of an invariant measure to the perturbed system. Once done with the\nwell-posedness and the stability of the stochastic model, we then examine a\nMaximum Likelihood Estimation (MLE) scheme to estimate the parameters involved\nin the model. The paper ends with a brief discussion on potential future\ndevelopments follows by an appendix whose goal is to make the paper as self\ncontained as possible.\n",
+  "subjects": [
+    "Mathematics/Probability",
+    "Mathematics/Statistics Theory",
+    "Statistics/Statistics Theory"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "ZmlLb9Ve1uwBBuxcZ16-wXAtQGH7PYyJnaBSKMICHhw",
+  "pdfSize": "151130"
+}

@@ -1,0 +1,51 @@
+{
+  "id": "2412.04778",
+  "title": "IterL2Norm: Fast Iterative L2-Normalization",
+  "authors": "ChangMin Ye, Yonguk Sim, Youngchae Kim, SeongMin Jin, Doo Seok Jeong",
+  "authorsParsed": [
+    [
+      "Ye",
+      "ChangMin",
+      ""
+    ],
+    [
+      "Sim",
+      "Yonguk",
+      ""
+    ],
+    [
+      "Kim",
+      "Youngchae",
+      ""
+    ],
+    [
+      "Jin",
+      "SeongMin",
+      ""
+    ],
+    [
+      "Jeong",
+      "Doo Seok",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 6 Dec 2024 05:00:01 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Fri, 17 Jan 2025 08:58:17 GMT"
+    }
+  ],
+  "updateDate": "2025-01-20",
+  "timestamp": 1733461201000,
+  "abstract": "  Transformer-based large language models are a memory-bound model whose\noperation is based on a large amount of data that are marginally reused. Thus,\nthe data movement between a host and accelerator likely dictates the total\nwall-clock time. Layer normalization is one of the key workloads in the\ntransformer model, following each of multi-head attention and feed-forward\nnetwork blocks. To reduce data movement, layer normalization needs to be\nperformed on the same chip as the matrix-matrix multiplication engine. To this\nend, we introduce an iterative L2-normalization method for 1D input\n(IterL2Norm), ensuring fast convergence to the steady-state solution within\nfive iteration steps and high precision, outperforming the fast inverse square\nroot algorithm in six out of nine cases for FP32 and five out of nine for\nBFloat16 across the embedding lengths used in the OPT models. Implemented in\n32/28nm CMOS, the IterL2Norm macro normalizes $d$-dimensional vectors, where\n$64 \\leq d \\leq 1024$, with a latency of 116-227 cycles at 100MHz/1.05V.\n",
+  "subjects": [
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "WYWiEdLwQQLJxtqYoVCyZhI8JYHMGBo0oQdXc5XHOjw",
+  "pdfSize": "4983925"
+}

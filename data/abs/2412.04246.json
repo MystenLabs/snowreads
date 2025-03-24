@@ -1,0 +1,37 @@
+{
+  "id": "2412.04246",
+  "title": "Ternary Stochastic Neuron -- Implemented with a Single Strained\n  Magnetostrictive Nanomagnet",
+  "authors": "Rahnuma Rahman and Supriyo Bandyopadhyay",
+  "authorsParsed": [
+    [
+      "Rahman",
+      "Rahnuma",
+      ""
+    ],
+    [
+      "Bandyopadhyay",
+      "Supriyo",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 5 Dec 2024 15:27:56 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Fri, 24 Jan 2025 02:48:14 GMT"
+    }
+  ],
+  "updateDate": "2025-02-03",
+  "timestamp": 1733412476000,
+  "abstract": "  Stochastic neurons are extremely efficient hardware for solving a large class\nof problems and usually come in two varieties -- \"binary\" where the neuronal\nstatevaries randomly between two values of -1, +1 and \"analog\" where the\nneuronal state can randomly assume any value between -1 and +1. Both have their\nuses in neuromorphic computing and both can be implemented with low- or\nzero-energy-barrier nanomagnets whose random magnetization orientations in the\npresence of thermal noise encode the binary or analog state variables. In\nbetween these two classes is n-ary stochastic neurons, mainly ternary\nstochastic neurons (TSN) whose state randomly assumes one of three values (-1,\n0, +1), which have proved to be efficient in pattern classification tasks such\nas recognizing handwritten digits from the MNIST data set or patterns from the\nCIFAR-10 data set. Here, we show how to implement a TSN with a\nzero-energy-barrier (shape isotropic) magnetostrictive nanomagnet subjected to\nuniaxial strain.\n",
+  "subjects": [
+    "Condensed Matter/Mesoscale and Nanoscale Physics",
+    "Electrical Engineering and Systems Science/Signal Processing"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "-55UJ63HRtPBURN3DfXfP7fJYYr055GaNkqwcV9QvEA",
+  "pdfSize": "686385"
+}

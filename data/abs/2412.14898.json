@@ -1,0 +1,41 @@
+{
+  "id": "2412.14898",
+  "title": "Quantum thermometry for ultralow temperatures using probe and ancilla\n  qubit chains",
+  "authors": "Asghar Ullah, Vipul Upadhyay, and \\\"Ozg\\\"ur E. M\\\"ustecapl{\\i}o\\u{g}lu",
+  "authorsParsed": [
+    [
+      "Ullah",
+      "Asghar",
+      ""
+    ],
+    [
+      "Upadhyay",
+      "Vipul",
+      ""
+    ],
+    [
+      "Müstecaplıoğlu",
+      "Özgür E.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 19 Dec 2024 14:28:04 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Tue, 18 Feb 2025 17:29:34 GMT"
+    }
+  ],
+  "updateDate": "2025-02-19",
+  "timestamp": 1734618484000,
+  "abstract": "  We propose a scheme to enhance the range and precision of ultralow\ntemperature measurements by employing a probe qubit coupled to a chain of\nancilla qubits. Specifically, we analyze a qubit chain governed by Heisenberg\n$XX$ and Dzyaloshinskii-Moriya (DM) interactions. The precision limits of\ntemperature measurements are characterized through the evaluation of quantum\nFisher information (QFI). Our findings demonstrate that the achievable\nprecision bounds, as well as the number of peaks in the QFI as a function of\ntemperature, can be controlled by adjusting the number of ancilla qubits and\nthe system's model parameters. These results are interpreted in terms of the\ninfluence of energy transitions on the range and the number of QFI peaks as a\nfunction of temperature. This study highlights the potential of the probe\nqubit-ancilla chain system as a powerful and precise tool for quantum\nthermometry in the ultralow temperature regime.\n",
+  "subjects": [
+    "Physics/Quantum Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "EXd7B0uNvSUvOWWHIZltWFZBKkDnuvPEasZoBXuD3gs",
+  "pdfSize": "4378693"
+}

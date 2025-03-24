@@ -1,0 +1,32 @@
+{
+  "id": "2412.19805",
+  "title": "Concrete Branching Bisimilarity for Processes with Time-outs",
+  "authors": "Gaspard Reghem and Rob van Glabbeek",
+  "authorsParsed": [
+    [
+      "Reghem",
+      "Gaspard",
+      ""
+    ],
+    [
+      "van Glabbeek",
+      "Rob",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 7 Oct 2024 16:55:54 GMT"
+    }
+  ],
+  "updateDate": "2024-12-31",
+  "timestamp": 1728320154000,
+  "abstract": "  This paper provides an adaptation of branching bisimilarity to reactive\nsystems with time-outs that does not enable eliding of time-out transitions.\nMultiple equivalent definitions are procured, along with a modal\ncharacterisation and a proof of its congruence property for a standard process\nalgebra with recursion. The last section presents a complete axiomatisation for\nguarded processes without infinite sequences of unobservable actions.\n",
+  "subjects": [
+    "Computer Science/Logic in Computer Science"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "UNhYa2_3_pwwlcfH36zZY_c6FoVPNJZk1j6aNGpSFFs",
+  "pdfSize": "1161713"
+}

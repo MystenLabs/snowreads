@@ -1,0 +1,43 @@
+{
+  "id": "2412.15693",
+  "title": "Robust path following for autonomous vehicles with spatial PH quintic\n  splines",
+  "authors": "Vincenzo Calabr\\`o, Carlotta Giannelli, Lorenzo Sacco, Alessandra\n  Sestini",
+  "authorsParsed": [
+    [
+      "Calabrò",
+      "Vincenzo",
+      ""
+    ],
+    [
+      "Giannelli",
+      "Carlotta",
+      ""
+    ],
+    [
+      "Sacco",
+      "Lorenzo",
+      ""
+    ],
+    [
+      "Sestini",
+      "Alessandra",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 20 Dec 2024 09:11:32 GMT"
+    }
+  ],
+  "updateDate": "2024-12-23",
+  "timestamp": 1734685892000,
+  "abstract": "  The distinctive feature of a polynomial parametric speed let polynomial\nPythagorean-hodograph (PH) curves be attractive for the design of accurate and\nefficient application algorithms. We propose a robust path following scheme for\nthe construction of smooth spatial motions by exploiting PH spline curves. In\norder to cover a general configuration setting, we present a guidance law which\nis suitable both for fully-actuated and (more common) under-actuated vehicles,\nwhich cannot control all the degrees of freedom. The robustness of the guidance\nlaw is enhanced by also taking into account the influence of wind or currents\ninto the equations of motion. A selection of numerical experiments validates\nthe effectiveness of the control strategy when $C^1$ spatial PH quintic\ninterpolants are suitably considered for both kinematic and dynamic\nsimulations.\n",
+  "subjects": [
+    "Mathematics/Numerical Analysis",
+    "Computer Science/Numerical Analysis"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "Kttv-CN2DblPiscAxsmpU57m98aUu_EzW94IlGV3jng",
+  "pdfSize": "1892303"
+}

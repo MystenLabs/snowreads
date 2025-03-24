@@ -1,0 +1,27 @@
+{
+  "id": "2412.15170",
+  "title": "Induced arithmetic removal for partition-regular patterns of complexity\n  1",
+  "authors": "V. Gladkova",
+  "authorsParsed": [
+    [
+      "Gladkova",
+      "V.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 19 Dec 2024 18:46:04 GMT"
+    }
+  ],
+  "updateDate": "2024-12-20",
+  "timestamp": 1734633964000,
+  "abstract": "  In 2019, Fox, Tidor and Zhao (arXiv:1911.03427) proved an induced arithmetic\nremoval lemma for linear patterns of complexity 1 in vector spaces over a fixed\nfinite field. With no further assumptions on the pattern, this induced removal\nlemma cannot guarantee a fully pattern-free recolouring of the space, as some\n`non-generic' instances must necessarily remain. On the other hand,\nBhattacharyya et al. (arXiv:1212.3849) showed that in the case of\ntranslation-invariant patterns, it is possible to obtain recolourings that\neliminate the given pattern completely, with no exceptions left behind. This\npaper demonstrates that such complete removal can be achieved for all\npartition-regular arithmetic patterns of complexity 1.\n",
+  "subjects": [
+    "Mathematics/Combinatorics"
+  ],
+  "license": "http://creativecommons.org/licenses/by-sa/4.0/",
+  "blobId": "9XHxLzNr-THj7iG63jNx9zjPjZDrvkAdjmM11uxSH2s",
+  "pdfSize": "1074420"
+}

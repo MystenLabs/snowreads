@@ -1,0 +1,42 @@
+{
+  "id": "2412.16019",
+  "title": "Some bounds on the spectral radius of connected threshold graphs",
+  "authors": "P\\'eter Csikv\\'ari, Ivan Damnjanovi\\'c, Dragan Stevanovi\\'c, Stephan\n  Wagner",
+  "authorsParsed": [
+    [
+      "Csikvári",
+      "Péter",
+      ""
+    ],
+    [
+      "Damnjanović",
+      "Ivan",
+      ""
+    ],
+    [
+      "Stevanović",
+      "Dragan",
+      ""
+    ],
+    [
+      "Wagner",
+      "Stephan",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 20 Dec 2024 16:09:28 GMT"
+    }
+  ],
+  "updateDate": "2024-12-23",
+  "timestamp": 1734710968000,
+  "abstract": "  The spectral radius of a graph is the spectral radius of its adjacency\nmatrix. A threshold graph is a simple graph whose vertices can be ordered as\n$v_1, v_2, \\ldots, v_n$, so that for each $2 \\le i \\le n$, vertex $v_i$ is\neither adjacent or nonadjacent simultaneously to all of $v_1, v_2, \\ldots,\nv_{i-1}$. Brualdi and Hoffman initially posed and then partially solved the\nextremal problem of finding the simple graphs with a given number of edges that\nhave the maximum spectral radius. This problem was subsequently completely\nresolved by Rowlinson. Here, we deal with the similar problem of maximizing the\nspectral radius over the set of connected simple graphs with a given number of\nvertices and edges. As shown by Brualdi and Solheid, each such extremal graph\nis necessarily a threshold graph. We investigate the spectral radii of\nthreshold graphs by relying on computations involving lazy walks. Furthermore,\nwe obtain three lower bounds and one upper bound on the spectral radius of a\ngiven connected threshold graph.\n",
+  "subjects": [
+    "Mathematics/Combinatorics"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "LPWtQ9icYSS1bCs06CyISCzHGEq2VCw7gkaUIro6gT8",
+  "pdfSize": "231462"
+}

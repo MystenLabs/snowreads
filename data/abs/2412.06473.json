@@ -1,0 +1,46 @@
+{
+  "id": "2412.06473",
+  "title": "Verification of the Tenth-Order QED Contribution to the Anomalous\n  Magnetic Moment of the Electron from Diagrams without Fermion Loops",
+  "authors": "Tatsumi Aoyama, Masashi Hayakawa, Akira Hirayama, and Makiko Nio",
+  "authorsParsed": [
+    [
+      "Aoyama",
+      "Tatsumi",
+      ""
+    ],
+    [
+      "Hayakawa",
+      "Masashi",
+      ""
+    ],
+    [
+      "Hirayama",
+      "Akira",
+      ""
+    ],
+    [
+      "Nio",
+      "Makiko",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 9 Dec 2024 13:18:19 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Sun, 15 Dec 2024 13:49:39 GMT"
+    }
+  ],
+  "updateDate": "2024-12-17",
+  "timestamp": 1733750299000,
+  "abstract": "  A discrepancy of approximately 5$\\sigma$ exists between the two known results\nfor the tenth-order QED contribution to the anomalous magnetic moment of the\nelectron, calculated from Feynman vertex diagrams without fermion loops. To\ninvestigate this, we decomposed this contribution into 389 parts based on a\nself-energy diagram representation, enabling a diagram-by-diagram numerical\ncomparison of the two calculations. No significant discrepancies were found for\nindividual diagrams. However, the numerical differences of the 98 diagrams\nsharing a common structure were not randomly distributed. The accumulation of\nthese differences resulted in the 5$\\sigma$ discrepancy. A recalculation with\nincreased statistics in the Monte Carlo integration was performed for these 98\ndiagrams, resolving the discrepancy.\n",
+  "subjects": [
+    "Physics/High Energy Physics - Phenomenology"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "sUyoNbA5lkQSRJF9JnvHrdTlhopzdORb0caNtrf5whc",
+  "pdfSize": "220488"
+}

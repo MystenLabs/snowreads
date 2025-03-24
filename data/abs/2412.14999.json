@@ -1,0 +1,56 @@
+{
+  "id": "2412.14999",
+  "title": "Accessing the topological properties of human brain functional\n  sub-circuits in Echo State Networks",
+  "authors": "Bach Nguyen, Tianlong Chen, Shu Yang, Bojian Hou, Li Shen, and Duy\n  Duong-Tran",
+  "authorsParsed": [
+    [
+      "Nguyen",
+      "Bach",
+      ""
+    ],
+    [
+      "Chen",
+      "Tianlong",
+      ""
+    ],
+    [
+      "Yang",
+      "Shu",
+      ""
+    ],
+    [
+      "Hou",
+      "Bojian",
+      ""
+    ],
+    [
+      "Shen",
+      "Li",
+      ""
+    ],
+    [
+      "Duong-Tran",
+      "Duy",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 19 Dec 2024 16:08:23 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Sun, 26 Jan 2025 17:25:06 GMT"
+    }
+  ],
+  "updateDate": "2025-01-28",
+  "timestamp": 1734624503000,
+  "abstract": "  Recent years have witnessed an emerging trend in neuromorphic computing that\ncenters around the use of brain connectomics as a blueprint for artificial\nneural networks. Connectomics-based neuromorphic computing has primarily\nfocused on embedding human brain large-scale structural connectomes (SCs), as\nestimated from diffusion Magnetic Resonance Imaging (dMRI) modality, to\necho-state networks (ESNs). A critical step in ESN embedding requires\npre-determined read-in and read-out layers constructed by the induced subgraphs\nof the embedded reservoir. As \\textit{a priori} set of functional sub-circuits\nare derived from functional MRI (fMRI) modality, it is unknown, till this\npoint, whether the embedding of fMRI-induced sub-circuits/networks onto SCs is\nwell justified from the neuro-physiological perspective and ESN performance\nacross a variety of tasks. This paper proposes a pipeline to implement and\nevaluate ESNs with various embedded topologies and processing/memorization\ntasks. To this end, we showed that different performance optimums highly depend\non the neuro-physiological characteristics of these pre-determined fMRI-induced\nsub-circuits. In general, fMRI-induced sub-circuit-embedded ESN outperforms\nsimple bipartite and various null models with feed-forward properties commonly\nseen in MLP for different tasks and reservoir criticality conditions. We\nprovided a thorough analysis of the topological properties of pre-determined\nfMRI-induced sub-circuits and highlighted their graph-theoretical properties\nthat play significant roles in determining ESN performance.\n",
+  "subjects": [
+    "Quantitative Biology/Neurons and Cognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "yZA4d7AnC4pS36QYBLQE-P9GJzt5FYicxhXTuHhuAxA",
+  "pdfSize": "1721950"
+}

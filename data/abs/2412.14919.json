@@ -1,0 +1,32 @@
+{
+  "id": "2412.14919",
+  "title": "Computational Aspects of Lifted Cover Inequalities for Knapsacks with\n  Few Different Weights",
+  "authors": "Christopher Hojny and C\\'edric Roy",
+  "authorsParsed": [
+    [
+      "Hojny",
+      "Christopher",
+      ""
+    ],
+    [
+      "Roy",
+      "Cédric",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 19 Dec 2024 14:56:49 GMT"
+    }
+  ],
+  "updateDate": "2024-12-20",
+  "timestamp": 1734620209000,
+  "abstract": "  Cutting planes are frequently used for solving integer programs. A common\nstrategy is to derive cutting planes from building blocks or a substructure of\nthe integer program. In this paper, we focus on knapsack constraints that arise\nfrom single row relaxations. Among the most popular classes derived from\nknapsack constraints are lifted minimal cover inequalities. The separation\nproblem for these inequalities is NP-hard though, and one usually separates\nthem heuristically, therefore not fully exploiting their potential. For many\nbenchmarking instances however, it turns out that many knapsack constraints\nonly have few different coefficients. This motivates the concept of sparse\nknapsacks where the number of different coefficients is a small constant,\nindependent of the number of variables present. For such knapsacks, we observe\nthat there are only polynomially many different classes of structurally\nequivalent minimal covers. This opens the door to specialized techniques for\nusing lifted minimal cover inequalities. In this article we will discuss two\nsuch techniques, which are based on specialized sorting methods. On the one\nhand, we present new separation routines that separate equivalence classes of\ninequalities rather than individual inequalities. On the other hand, we derive\ncompact extended formulations that express all lifted minimal cover\ninequalities by means of a polynomial number of constraints. These extended\nformulations are based on tailored sorting networks that express our separation\nalgorithm by linear inequalities. We conclude the article by a numerical\ninvestigation of the different techniques for popular benchmarking instances.\n",
+  "subjects": [
+    "Mathematics/Optimization and Control"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "tSyjQuW7BgYFN1Aw73tqDWFBAWPIEJHK0T0KlwC-nZc",
+  "pdfSize": "379701"
+}

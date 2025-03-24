@@ -1,0 +1,43 @@
+{
+  "id": "2412.12918",
+  "title": "BOIDS: High-dimensional Bayesian Optimization via Incumbent-guided\n  Direction Lines and Subspace Embeddings",
+  "authors": "Lam Ngo, Huong Ha, Jeffrey Chan, Hongyu Zhang",
+  "authorsParsed": [
+    [
+      "Ngo",
+      "Lam",
+      ""
+    ],
+    [
+      "Ha",
+      "Huong",
+      ""
+    ],
+    [
+      "Chan",
+      "Jeffrey",
+      ""
+    ],
+    [
+      "Zhang",
+      "Hongyu",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 17 Dec 2024 13:51:24 GMT"
+    }
+  ],
+  "updateDate": "2024-12-18",
+  "timestamp": 1734443484000,
+  "abstract": "  When it comes to expensive black-box optimization problems, Bayesian\nOptimization (BO) is a well-known and powerful solution. Many real-world\napplications involve a large number of dimensions, hence scaling BO to high\ndimension is of much interest. However, state-of-the-art high-dimensional BO\nmethods still suffer from the curse of dimensionality, highlighting the need\nfor further improvements. In this work, we introduce BOIDS, a novel\nhigh-dimensional BO algorithm that guides optimization by a sequence of\none-dimensional direction lines using a novel tailored line-based optimization\nprocedure. To improve the efficiency, we also propose an adaptive selection\ntechnique to identify most optimal lines for each round of line-based\noptimization. Additionally, we incorporate a subspace embedding technique for\nbetter scaling to high-dimensional spaces. We further provide theoretical\nanalysis of our proposed method to analyze its convergence property. Our\nextensive experimental results show that BOIDS outperforms state-of-the-art\nbaselines on various synthetic and real-world benchmark problems.\n",
+  "subjects": [
+    "Statistics/Machine Learning",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "gABMxZNCFMIeXnh24vc7Piy_JXPkRC70yCs2dm1WNIM",
+  "pdfSize": "1563708"
+}

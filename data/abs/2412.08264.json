@@ -1,0 +1,39 @@
+{
+  "id": "2412.08264",
+  "title": "Efficient gradient-based methods for bilevel learning via recycling\n  Krylov subspaces",
+  "authors": "Matthias J. Ehrhardt, Silvia Gazzola, Sebastian J. Scott",
+  "authorsParsed": [
+    [
+      "Ehrhardt",
+      "Matthias J.",
+      ""
+    ],
+    [
+      "Gazzola",
+      "Silvia",
+      ""
+    ],
+    [
+      "Scott",
+      "Sebastian J.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 11 Dec 2024 10:24:00 GMT"
+    }
+  ],
+  "updateDate": "2024-12-12",
+  "timestamp": 1733912640000,
+  "abstract": "  Many optimization problems require hyperparameters, i.e., parameters that\nmust be pre-specified in advance, such as regularization parameters and\nparametric regularizers in variational regularization methods for inverse\nproblems, and dictionaries in compressed sensing. A data-driven approach to\ndetermine appropriate hyperparameter values is via a nested optimization\nframework known as bilevel learning. Even when it is possible to employ a\ngradient-based solver to the bilevel optimization problem, construction of the\ngradients, known as hypergradients, is computationally challenging, each one\nrequiring both a solution of a minimization problem and a linear system solve.\nThese systems do not change much during the iterations, which motivates us to\napply recycling Krylov subspace methods, wherein information from one linear\nsystem solve is re-used to solve the next linear system. Existing recycling\nstrategies often employ eigenvector approximations called Ritz vectors. In this\nwork we propose a novel recycling strategy based on a new concept, Ritz\ngeneralized singular vectors, which acknowledge the bilevel setting.\nAdditionally, while existing iterative methods primarily terminate according to\nthe residual norm, this new concept allows us to define a new stopping\ncriterion that directly approximates the error of the associated hypergradient.\nThe proposed approach is validated through extensive numerical testing in the\ncontext of an inverse problem in imaging.\n",
+  "subjects": [
+    "Mathematics/Optimization and Control",
+    "Computer Science/Numerical Analysis",
+    "Mathematics/Numerical Analysis"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "ZowiKf9JOKxnQ5r6dV5kvfcO5ctqwXoaf3pEW24EQ0c",
+  "pdfSize": "2637167"
+}

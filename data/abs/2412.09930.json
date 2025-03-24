@@ -1,0 +1,42 @@
+{
+  "id": "2412.09930",
+  "title": "Vertical Shear Instability in Thermally-Stratified Protoplanetary Disks:\n  II. Hydrodynamic Simulations and Observability",
+  "authors": "Han-Gyeol Yun, Woong-Tae Kim, Jaehan Bae, Cheongho Han",
+  "authorsParsed": [
+    [
+      "Yun",
+      "Han-Gyeol",
+      ""
+    ],
+    [
+      "Kim",
+      "Woong-Tae",
+      ""
+    ],
+    [
+      "Bae",
+      "Jaehan",
+      ""
+    ],
+    [
+      "Han",
+      "Cheongho",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 13 Dec 2024 07:31:05 GMT"
+    }
+  ],
+  "updateDate": "2024-12-16",
+  "timestamp": 1734075065000,
+  "abstract": "  We conduct three-dimensional hydrodynamic simulations to investigate the\nnonlinear outcomes and observability of vertical shear instability (VSI) in\nprotoplanetary disks. Our models include both vertically isothermal and\nthermally stratified disks, with the latter representing realistic conditions\nfeaturing a hotter atmosphere above the midplane. We find that the VSI grows\nmore rapidly and becomes stronger in thermally stratified disks due to enhanced\nshear, resulting in higher levels of turbulence. At saturation, the turbulence\nstress reaches $\\alpha_{R\\phi}\\gtrsim 10^{-3}$, more than an order of magnitude\nstronger than the isothermal case. The saturated turbulence is more pronounced\nnear the disk surfaces than at the midplane. On synthetic velocity residual\nmaps, obtained by subtracting the Keplerian rotational velocity, perturbations\ndriven by the VSI manifest as axisymmetric rings in isothermal disks and as\nring segments in thermally stratified disks. The latter are visible at disk\ninclinations as high as $45^\\circ$ in thermally stratified disks. The\namplitudes of these residual velocities range from $\\sim 50$ to $\\sim100$\n$\\mathrm{m\\ s}^{-1}$ at a $20^\\circ$ inclination, with larger values\ncorresponding to greater thermal stratification. The magnitude of the observed\nvelocity residual increases with the optical depth of the tracer used, as\noptically thick lines probe the regions near the disk surfaces.\n",
+  "subjects": [
+    "Astrophysics/Earth and Planetary Astrophysics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "uwol4n0oT0k2nD57rujY6TFhCu84o9XKo9KJA_kiBpg",
+  "pdfSize": "7971985"
+}

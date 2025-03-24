@@ -1,0 +1,48 @@
+{
+  "id": "2412.16920",
+  "title": "Fluctuations and optimal control in a Floquet Quantum Thermal Transistor",
+  "authors": "Samir Das, Shishira Mahunta, Nikhil Gupt, Victor Mukherjee, and Arnab\n  Ghosh",
+  "authorsParsed": [
+    [
+      "Das",
+      "Samir",
+      ""
+    ],
+    [
+      "Mahunta",
+      "Shishira",
+      ""
+    ],
+    [
+      "Gupt",
+      "Nikhil",
+      ""
+    ],
+    [
+      "Mukherjee",
+      "Victor",
+      ""
+    ],
+    [
+      "Ghosh",
+      "Arnab",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 22 Dec 2024 08:31:18 GMT"
+    }
+  ],
+  "updateDate": "2024-12-24",
+  "timestamp": 1734856278000,
+  "abstract": "  We use Full Counting Statistics to study fluctuations and optimal control in\na three-terminal Floquet quantum thermal transistor. We model the setup using\nthree qubits (termed as the emitter, collector and base) coupled to three\nthermal baths. As shown in Phys. Rev. E 106, 024110 (2022), one can achieve\nsignificant change in the emitter and collector currents through a small change\nin the base current, thereby achieving a thermal transistor operation. Using\nsinusoidal and pi-flip modulations of the base qubit frequency, we show that\nthe variance of the base current is much less compared to those of the emitter\nand collector currents, while the opposite is true in case of the Fano factor.\nWe then apply optimal control through the Chopped Random Basis optimization\nprotocol, in order to significantly enhance the amplification obtained in the\ntransistor. In contrast, a reduction in the Fano factor of the setup through\noptimal control is associated with a large base current, thereby suggesting a\ntrade-off between precision and base current. We expect our results will be\nrelevant for developing heat modulation devices in near-term quantum\ntechnologies.\n",
+  "subjects": [
+    "Physics/Quantum Physics",
+    "Condensed Matter/Statistical Mechanics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "yZdbkPnNfkPXLR1hyG_Y__zrHM4SqWOkf7QpP0exzr4",
+  "pdfSize": "1136087"
+}

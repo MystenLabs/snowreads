@@ -1,0 +1,33 @@
+{
+  "id": "2412.00569",
+  "title": "Contextual Bandits in Payment Processing: Non-uniform Exploration and\n  Supervised Learning at Adyen",
+  "authors": "Akhila Vangara, Alex Egg",
+  "authorsParsed": [
+    [
+      "Vangara",
+      "Akhila",
+      ""
+    ],
+    [
+      "Egg",
+      "Alex",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 30 Nov 2024 19:45:23 GMT"
+    }
+  ],
+  "updateDate": "2024-12-03",
+  "timestamp": 1732995923000,
+  "abstract": "  Uniform random exploration in decision-making systems supports off-policy\nlearning via supervision but incurs high regret, making it impractical for many\napplications. Conversely, non-uniform exploration offers better immediate\nperformance but lacks support for off-policy learning. Recent research suggests\nthat regression oracles can bridge this gap by combining non-uniform\nexploration with supervised learning. In this paper, we analyze these\napproaches within a real-world industrial context at Adyen, a large global\npayments processor characterized by batch logged delayed feedback, short-term\nmemory, and dynamic action spaces under the Empirical Risk Minimization (ERM)\nframework. Our analysis reveals that while regression oracles significantly\nimprove performance, they introduce challenges due to rigid algorithmic\nassumptions. Specifically, we observe that as a policy improves, subsequent\ngenerations may perform worse due to shifts in the reward distribution and\nincreased class imbalance in the training data. This degradation occurs de\nspite improvements in other aspects of the training data, leading to decreased\nperformance in successive policy iterations. We further explore the long-term\nimpact of regression oracles, identifying a potential \"oscillation effect.\"\nThis effect arises when regression oracles influence probability estimates and\nthe realizability of subsequent policy models, leading to fluctuations in\nperformance across iterations. Our findings highlight the need for more\nadaptable algorithms that can leverage the benefits of regression oracles\nwithout introducing instability in policy performance over time.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Computer Science/Information Retrieval"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "gjn081a-Yt_vFyI3IOznZExBFx3Q7bN_fUJ1V_qw36E",
+  "pdfSize": "919361"
+}

@@ -1,0 +1,57 @@
+{
+  "id": "2412.04666",
+  "title": "LAA-Net: A Physical-prior-knowledge Based Network for Robust Nighttime\n  Depth Estimation",
+  "authors": "Kebin Peng, Haotang Li, Zhenyu Qi, Huashan Chen, Zi Wang, Wei Zhang,\n  Sen He",
+  "authorsParsed": [
+    [
+      "Peng",
+      "Kebin",
+      ""
+    ],
+    [
+      "Li",
+      "Haotang",
+      ""
+    ],
+    [
+      "Qi",
+      "Zhenyu",
+      ""
+    ],
+    [
+      "Chen",
+      "Huashan",
+      ""
+    ],
+    [
+      "Wang",
+      "Zi",
+      ""
+    ],
+    [
+      "Zhang",
+      "Wei",
+      ""
+    ],
+    [
+      "He",
+      "Sen",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 5 Dec 2024 23:33:03 GMT"
+    }
+  ],
+  "updateDate": "2024-12-09",
+  "timestamp": 1733441583000,
+  "abstract": "  Existing self-supervised monocular depth estimation (MDE) models attempt to\nimprove nighttime performance by using GANs to transfer nighttime images into\ntheir daytime versions. However, this can introduce inconsistencies due to the\ncomplexities of real-world daytime lighting variations, which may finally lead\nto inaccurate estimation results. To address this issue, we leverage\nphysical-prior-knowledge about light wavelength and light attenuation during\nnighttime. Specifically, our model, Light-Attenuation-Aware Network (LAA-Net),\nincorporates physical insights from Rayleigh scattering theory for robust\nnighttime depth estimation: LAA-Net is trained based on red channel values\nbecause red light preserves more information under nighttime scenarios due to\nits longer wavelength. Additionally, based on Beer-Lambert law, we introduce\nRed Channel Attenuation (RCA) loss to guide LAA-Net's training. Experiments on\nthe RobotCar-Night, nuScenes-Night, RobotCar-Day, and KITTI datasets\ndemonstrate that our model outperforms SOTA models.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "AnFt3n8htBQDftRcahaPoN_7mpft6xzR7H4Gvij6JBw",
+  "pdfSize": "1761207"
+}

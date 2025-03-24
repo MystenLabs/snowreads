@@ -1,0 +1,42 @@
+{
+  "id": "2412.11763",
+  "title": "QUENCH: Measuring the gap between Indic and Non-Indic Contextual General\n  Reasoning in LLMs",
+  "authors": "Mohammad Aflah Khan, Neemesh Yadav, Sarah Masud, Md. Shad Akhtar",
+  "authorsParsed": [
+    [
+      "Khan",
+      "Mohammad Aflah",
+      ""
+    ],
+    [
+      "Yadav",
+      "Neemesh",
+      ""
+    ],
+    [
+      "Masud",
+      "Sarah",
+      ""
+    ],
+    [
+      "Akhtar",
+      "Md. Shad",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 16 Dec 2024 13:28:29 GMT"
+    }
+  ],
+  "updateDate": "2024-12-17",
+  "timestamp": 1734355709000,
+  "abstract": "  The rise of large language models (LLMs) has created a need for advanced\nbenchmarking systems beyond traditional setups. To this end, we introduce\nQUENCH, a novel text-based English Quizzing Benchmark manually curated and\ntranscribed from YouTube quiz videos. QUENCH possesses masked entities and\nrationales for the LLMs to predict via generation. At the intersection of\ngeographical context and common sense reasoning, QUENCH helps assess world\nknowledge and deduction capabilities of LLMs via a zero-shot, open-domain\nquizzing setup. We perform an extensive evaluation on 7 LLMs and 4 metrics,\ninvestigating the influence of model size, prompting style, geographical\ncontext, and gold-labeled rationale generation. The benchmarking concludes with\nan error analysis to which the LLMs are prone.\n",
+  "subjects": [
+    "Computer Science/Computation and Language"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "eOixhD62a7a-KDgXu0XkL-OuzXDrR75YMyChSkvsw84",
+  "pdfSize": "781085"
+}

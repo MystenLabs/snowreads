@@ -1,0 +1,42 @@
+{
+  "id": "2412.12513",
+  "title": "Generating Move Smart Contracts based on Concepts",
+  "authors": "Rabimba Karanjai and Sam Blackshear and Lei Xu and Weidong Shi",
+  "authorsParsed": [
+    [
+      "Karanjai",
+      "Rabimba",
+      ""
+    ],
+    [
+      "Blackshear",
+      "Sam",
+      ""
+    ],
+    [
+      "Xu",
+      "Lei",
+      ""
+    ],
+    [
+      "Shi",
+      "Weidong",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 17 Dec 2024 04:07:45 GMT"
+    }
+  ],
+  "updateDate": "2024-12-18",
+  "timestamp": 1734408465000,
+  "abstract": "  The growing adoption of formal verification for smart contracts has spurred\nthe development of new verifiable languages like Move. However, the limited\navailability of training data for these languages hinders effective code\ngeneration by large language models (LLMs). This paper presents ConMover, a\nnovel framework that enhances LLM-based code generation for Move by leveraging\na knowledge graph of Move concepts and a small set of verified code examples.\nConMover integrates concept retrieval, planning, coding, and debugging agents\nin an iterative process to refine generated code. Evaluations with various\nopen-source LLMs demonstrate substantial accuracy improvements over baseline\nmodels. These results underscore ConMover's potential to address low-resource\ncode generation challenges, bridging the gap between natural language\ndescriptions and reliable smart contract development.\n",
+  "subjects": [
+    "Computer Science/Software Engineering"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "SPBUnaADvDh1CeeL6E528kpbP6vJH6ooUwGtlo7DUts",
+  "pdfSize": "343519"
+}

@@ -1,0 +1,37 @@
+{
+  "id": "2412.19126",
+  "title": "Polycyclic Codes over the Product Ring $\\mathbb{F}_q^l$ and their\n  Annihilator Dual",
+  "authors": "Akanksha and Ritumoni Sarma",
+  "authorsParsed": [
+    [
+      "Akanksha",
+      "",
+      ""
+    ],
+    [
+      "Sarma",
+      "Ritumoni",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 26 Dec 2024 08:58:48 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Fri, 7 Feb 2025 05:31:13 GMT"
+    }
+  ],
+  "updateDate": "2025-02-10",
+  "timestamp": 1735203528000,
+  "abstract": "  In this article, for the finite field $\\mathbb{F}_q$, we show that the\n$\\mathbb{F}_q$-algebra $\\mathbb{F}_q[x]/\\langle f(x) \\rangle$ is isomorphic to\nthe product ring $\\mathbb{F}_q^{\\deg f(x)}$ if and only if $f(x)$ splits over\n$\\mathbb{F}_q$ into distinct factors. We generalize this result to the quotient\nof the polynomial algebra $\\mathbb{F}_q[x_1, x_2,\\dots, x_k]$ by the ideal\n$\\langle f_1(x_1), f_2(x_2),\\dots, f_k(x_k)\\rangle.$ On the other hand, we\nestablish that every finite-dimensional $\\mathbb{F}_q$-algebra $\\mathcal{S}$\nhas an orthogonal basis of idempotents with their sum equal to\n$1_{\\mathcal{S}}$ if and only if $\\mathcal{S}\\cong\\mathbb{F}_q^l$ as\n$\\mathbb{F}_q$-algebras, where $l=\\dim_{\\mathbb{F}_q} \\mathcal{S}$. Instead of\nstudying polycyclic codes over $\\mathbb{F}_q$-algebras $\\mathbb{F}_q[x_1,\nx_2,\\dots, x_k]/\\langle f_1(x_1), f_2(x_2),\\dots, f_k(x_k)\\rangle$ where\n$f_i(x_i)$ splits into distinct linear factors over $\\mathbb{F}_q,$ which is a\nsubclass of $\\mathbb{F}_q^l,$ we study polycyclic codes over $\\mathbb{F}_q^l$\nand obtain their unique decomposition into polycyclic codes over $\\mathbb{F}_q$\nfor every such orthogonal basis of $\\mathbb{F}_q^l$. We refer to it as an\n$\\mathbb{F}_q$-decomposition. An $\\mathbb{F}_q$-decomposition enables us to use\nresults of polycyclic codes over $\\mathbb{F}_q$ to study polycyclic codes over\n$\\mathbb{F}_q^l$; for instance, we show that the annihilator dual of a\npolycyclic code over $\\mathbb{F}_q^l$ is a polycyclic code over\n$\\mathbb{F}_q^l$. Furthermore, with the help of different Gray maps, we produce\na good number of examples of MDS or almost-MDS or/and optimal codes; some of\nthem are LCD over $\\mathbb{F}_q$. Finally, we study Gray maps from\n$(\\mathbb{F}_q^l)^n$ to $\\mathbb{F}_q^{nl},$ and use it to construct quantum\ncodes with the help of CSS construction.\n",
+  "subjects": [
+    "Computer Science/Information Theory",
+    "Mathematics/Information Theory"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "acSv3cm2h5B0i6jN9s8sZDWN-jjOZpOpwtSbaK1lX-Y",
+  "pdfSize": "242802"
+}

@@ -1,0 +1,53 @@
+{
+  "id": "2412.06016",
+  "title": "Track4Gen: Teaching Video Diffusion Models to Track Points Improves\n  Video Generation",
+  "authors": "Hyeonho Jeong, Chun-Hao Paul Huang, Jong Chul Ye, Niloy Mitra, Duygu\n  Ceylan",
+  "authorsParsed": [
+    [
+      "Jeong",
+      "Hyeonho",
+      ""
+    ],
+    [
+      "Huang",
+      "Chun-Hao Paul",
+      ""
+    ],
+    [
+      "Ye",
+      "Jong Chul",
+      ""
+    ],
+    [
+      "Mitra",
+      "Niloy",
+      ""
+    ],
+    [
+      "Ceylan",
+      "Duygu",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 8 Dec 2024 18:21:00 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Tue, 10 Dec 2024 07:24:02 GMT"
+    }
+  ],
+  "updateDate": "2024-12-11",
+  "timestamp": 1733682060000,
+  "abstract": "  While recent foundational video generators produce visually rich output, they\nstill struggle with appearance drift, where objects gradually degrade or change\ninconsistently across frames, breaking visual coherence. We hypothesize that\nthis is because there is no explicit supervision in terms of spatial tracking\nat the feature level. We propose Track4Gen, a spatially aware video generator\nthat combines video diffusion loss with point tracking across frames, providing\nenhanced spatial supervision on the diffusion features. Track4Gen merges the\nvideo generation and point tracking tasks into a single network by making\nminimal changes to existing video generation architectures. Using Stable Video\nDiffusion as a backbone, Track4Gen demonstrates that it is possible to unify\nvideo generation and point tracking, which are typically handled as separate\ntasks. Our extensive evaluations show that Track4Gen effectively reduces\nappearance drift, resulting in temporally stable and visually coherent video\ngeneration. Project page: hyeonho99.github.io/track4gen\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "Cc6sPB0g1waqm9PmayFi3nymWUBn1gamSQ07jBf-KIg",
+  "pdfSize": "30952890"
+}

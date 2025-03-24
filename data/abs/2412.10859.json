@@ -1,0 +1,61 @@
+{
+  "id": "2412.10859",
+  "title": "DUET: Dual Clustering Enhanced Multivariate Time Series Forecasting",
+  "authors": "Xiangfei Qiu, Xingjian Wu, Yan Lin, Chenjuan Guo, Jilin Hu, and Bin\n  Yang",
+  "authorsParsed": [
+    [
+      "Qiu",
+      "Xiangfei",
+      ""
+    ],
+    [
+      "Wu",
+      "Xingjian",
+      ""
+    ],
+    [
+      "Lin",
+      "Yan",
+      ""
+    ],
+    [
+      "Guo",
+      "Chenjuan",
+      ""
+    ],
+    [
+      "Hu",
+      "Jilin",
+      ""
+    ],
+    [
+      "Yang",
+      "Bin",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 14 Dec 2024 15:15:17 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Mon, 23 Dec 2024 02:04:58 GMT"
+    },
+    {
+      "version": "v3",
+      "created": "Fri, 10 Jan 2025 14:28:32 GMT"
+    }
+  ],
+  "updateDate": "2025-01-13",
+  "timestamp": 1734189317000,
+  "abstract": "  Multivariate time series forecasting is crucial for various applications,\nsuch as financial investment, energy management, weather forecasting, and\ntraffic optimization. However, accurate forecasting is challenging due to two\nmain factors. First, real-world time series often show heterogeneous temporal\npatterns caused by distribution shifts over time. Second, correlations among\nchannels are complex and intertwined, making it hard to model the interactions\namong channels precisely and flexibly.\n  In this study, we address these challenges by proposing a general framework\ncalled DUET, which introduces dual clustering on the temporal and channel\ndimensions to enhance multivariate time series forecasting. First, we design a\nTemporal Clustering Module (TCM) that clusters time series into fine-grained\ndistributions to handle heterogeneous temporal patterns. For different\ndistribution clusters, we design various pattern extractors to capture their\nintrinsic temporal patterns, thus modeling the heterogeneity. Second, we\nintroduce a novel Channel-Soft-Clustering strategy and design a Channel\nClustering Module (CCM), which captures the relationships among channels in the\nfrequency domain through metric learning and applies sparsification to mitigate\nthe adverse effects of noisy channels. Finally, DUET combines TCM and CCM to\nincorporate both the temporal and channel dimensions. Extensive experiments on\n25 real-world datasets from 10 application domains, demonstrate the\nstate-of-the-art performance of DUET.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Statistics/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "4jwevHpE8MLUQiCxmTbisdqgG8a4G_T3ikTQ61RQMRk",
+  "pdfSize": "1535804"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "2412.10408",
+  "title": "Modeling of Electromagnetic Radiation using a Dual Four-Potential\n  Representation: From Dipole Blade Radiators to Ribbon Loop-like Antennas",
+  "authors": "Robert Salazar, Camilo Bayona-Roa",
+  "authorsParsed": [
+    [
+      "Salazar",
+      "Robert",
+      ""
+    ],
+    [
+      "Bayona-Roa",
+      "Camilo",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 6 Dec 2024 22:14:51 GMT"
+    }
+  ],
+  "updateDate": "2024-12-17",
+  "timestamp": 1733523291000,
+  "abstract": "  In this paper, we explore classical electromagnetic radiation using a dual\nfour-dimensional potential $\\Theta^\\mu$ approach. Our focus is on the Planar\nDipole Blade Antenna (PDBA), a system consisting of two flat conductive regions\non the $xy$-plane, separated by a gap $\\mathcal{G}$, with alternating\npotentials applied to the conductors. This method emphasizes the use of the\nscalar magnetic potential $\\Psi(\\boldsymbol{r},t)$ and the electric vector\npotential $\\boldsymbol{\\Theta}$, which generates the electric field\n$\\boldsymbol{E}(\\boldsymbol{r},t)=\\nabla\\times\\boldsymbol{\\Theta}(\\boldsymbol{r},t)$\nin free space. These potentials replace the standard magnetic vector potential\n$\\boldsymbol{A}$ and the scalar electric potential $\\boldsymbol{\\Phi}$ in our\nanalysis. For harmonic radiation, the electromagnetic field can be expressed in\nterms of the electric vector potential $\\boldsymbol{\\Theta}(\\boldsymbol{r},t)$.\nWe derive a corresponding retarded vector potential for $\\boldsymbol{\\Theta}$\nin terms of a two-dimensional vector field\n$\\boldsymbol{\\mathcal{W}}(\\boldsymbol{r},t)$, which flows through the gap\nregion $\\mathcal{G}$. This dual analytical approach yields mathematically\nequivalent expressions for modeling Planar Blade Antennas, analogous to those\nused for ribbons in the region $\\mathcal{G}$, simplifying the mathematical\nproblem. In the gapless limit, this approach reduces the two-dimensional\nradiator (PDBA) to a one-dimensional wire-loop-like antenna, significantly\nsimplifying the problem's dimensionality. This leads to a dual version of\nJefimenko's equations for the electric field, where $\\boldsymbol{\\mathcal{W}}$\nbehaves like a surface current in the gap region and satisfies a continuity\ncondition. To demonstrate the utility of this approach, we provide an\nanalytical solution for a PDBA with a thin annular gap at low frequency.\n",
+  "subjects": [
+    "Physics/Classical Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "NykIymjphLxyIhE_GwLZkg8rdUZPX2rY6ydmkDit8MY",
+  "pdfSize": "8236457"
+}

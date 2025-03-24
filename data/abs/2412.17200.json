@@ -1,0 +1,42 @@
+{
+  "id": "2412.17200",
+  "title": "Assessing UML Models by ChatGPT: Implications for Education",
+  "authors": "Chong Wang, Beian Wang, Peng Liang, Jie Liang",
+  "authorsParsed": [
+    [
+      "Wang",
+      "Chong",
+      ""
+    ],
+    [
+      "Wang",
+      "Beian",
+      ""
+    ],
+    [
+      "Liang",
+      "Peng",
+      ""
+    ],
+    [
+      "Liang",
+      "Jie",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 23 Dec 2024 00:28:33 GMT"
+    }
+  ],
+  "updateDate": "2024-12-24",
+  "timestamp": 1734913713000,
+  "abstract": "  In software engineering (SE) research and practice, UML is well known as an\nessential modeling methodology for requirements analysis and software modeling\nin both academia and industry. In particular, fundamental knowledge of UML\nmodeling and practice in creating high-quality UML models are included in\nSE-relevant courses in the undergraduate programs of many universities. This\nleads to a time-consuming and labor-intensive task for educators to review and\ngrade a large number of UML models created by the students. Recent advancements\nin generative AI techniques, such as ChatGPT, have paved new ways to automate\nmany SE tasks. However, current research or tools seldom explore the\ncapabilities of ChatGPT in evaluating the quality of UML models. This paper\naims to investigate the feasibility and effectiveness of ChatGPT in assessing\nthe quality of UML use case diagrams, class diagrams, and sequence diagrams.\nFirst, 11 evaluation criteria with grading details were proposed for these UML\nmodels. Next, a series of experiments were designed and conducted on 40\nstudents' UML modeling reports to explore the performance of ChatGPT in\nevaluating and grading these UML diagrams. The research findings reveal that\nChatGPT performed well in this assessing task because the scores that ChatGPT\ngives to the UML models are similar to the ones by human experts, and there are\nthree evaluation discrepancies between ChatGPT and human experts, but varying\nin different evaluation criteria used in different types of UML models.\n",
+  "subjects": [
+    "Computer Science/Software Engineering"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "33INhXePMO_ZPy620vrr4njKBE3yt8_zkO_tyYncO3Q",
+  "pdfSize": "247769"
+}

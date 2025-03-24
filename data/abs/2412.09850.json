@@ -1,0 +1,37 @@
+{
+  "id": "2412.09850",
+  "title": "Averaging principles for time-inhomogeneous multi-scale SDEs via\n  nonautonomous Poisson equations",
+  "authors": "Xiaobin Sun, Jian Wang, Yingchao Xie",
+  "authorsParsed": [
+    [
+      "Sun",
+      "Xiaobin",
+      ""
+    ],
+    [
+      "Wang",
+      "Jian",
+      ""
+    ],
+    [
+      "Xie",
+      "Yingchao",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 13 Dec 2024 04:39:58 GMT"
+    }
+  ],
+  "updateDate": "2024-12-16",
+  "timestamp": 1734064798000,
+  "abstract": "  The purpose of this paper is to establish asymptotic behaviors of\ntime-inhomogeneous multi-scale stochastic differential equations (SDEs). To\nachieve them, we analyze the evolution system of measures for\ntime-inhomogeneous Markov semigroups, and investigate regular properties of\nnonautonomous Poisson equations. The strong and the weak averaging principle\nfor time-inhomogeneous multi-scale SDEs, as well as explicit convergence rates,\nare provided. Specifically, we show the slow component in the multi-scale\nstochastic system converges strongly or weakly to the solution of an averaged\nequation, whose coefficients retain the dependence of the scaling parameter.\nWhen the coefficients of the fast component exhibit additional asymptotic or\ntime-periodic behaviors, we prove the slow component converges strongly or\nweakly to the solution of an averaged equation, whose coefficients are\nindependent of the scaling parameter. Finally, two examples are given to\nindicate the effectiveness of all the averaged equations mentioned above.\n",
+  "subjects": [
+    "Mathematics/Probability"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "ya49xrHGoJojLZgnL2SSwAuY-ehgVDpl3llfgjP5jZk",
+  "pdfSize": "491970"
+}

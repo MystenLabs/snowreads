@@ -1,0 +1,34 @@
+{
+  "id": "2412.03904",
+  "title": "MISR: Measuring Instrumental Self-Reasoning in Frontier Models",
+  "authors": "Kai Fronsdal and David Lindner",
+  "authorsParsed": [
+    [
+      "Fronsdal",
+      "Kai",
+      ""
+    ],
+    [
+      "Lindner",
+      "David",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 5 Dec 2024 06:20:47 GMT"
+    }
+  ],
+  "updateDate": "2024-12-06",
+  "timestamp": 1733379647000,
+  "abstract": "  We propose a suite of tasks to evaluate the instrumental self-reasoning\nability of large language model (LLM) agents. Instrumental self-reasoning\nability could improve adaptability and enable self-modification, but it could\nalso pose significant risks, such as enabling deceptive alignment. Prior work\nhas only evaluated self-reasoning in non-agentic settings or in limited\ndomains. In this paper, we propose evaluations for instrumental self-reasoning\nability in agentic tasks in a wide range of scenarios, including\nself-modification, knowledge seeking, and opaque self-reasoning. We evaluate\nagents built using state-of-the-art LLMs, including commercial and open source\nsystems. We find that instrumental self-reasoning ability emerges only in the\nmost capable frontier models and that it is highly context-dependent. No model\npasses the the most difficult versions of our evaluations, hence our evaluation\ncan be used to measure increases in instrumental self-reasoning ability in\nfuture models. We open-source our evaluations at\nhttps://github.com/kaifronsdal/Self-Reasoning-Evals.\n",
+  "subjects": [
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Computation and Language",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "xY3Klz78MgbxjkYGVnZ8lobiAFA-jl5BxtsQBe_JGGQ",
+  "pdfSize": "589033"
+}

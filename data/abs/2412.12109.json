@@ -1,0 +1,32 @@
+{
+  "id": "2412.12109",
+  "title": "An Algorithmic Approach to Line Construction in Existing Transit\n  Networks",
+  "authors": "Zezhi Deng, Ruoxing Yang",
+  "authorsParsed": [
+    [
+      "Deng",
+      "Zezhi",
+      ""
+    ],
+    [
+      "Yang",
+      "Ruoxing",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 29 Nov 2024 21:45:05 GMT"
+    }
+  ],
+  "updateDate": "2024-12-18",
+  "timestamp": 1732916705000,
+  "abstract": "  Transit networks often have existing infrastructure that cannot be modified\nwhen designing new lines for the network. This paper provides an algorithm to\ngenerate a line within a transit network without changing any existing lines or\nconnections between stations. Additionally, a method of analyzing the\nefficiency of a transit line and network is provided, and used within the\nalgorithm presented. An analysis of the effects of different parameters and\nobjectives on the location of a new line is performed. We find that under most\ncases, a new line generated improves the overall efficiency of the network,\nwhile under certain circumstances, an unsuitable combination of pathfinding\nalgorithm and efficiency evaluation method or an increase in construction and\nmaintenance cost can cause the algorithm to create a less efficient network.\n",
+  "subjects": [
+    "Computer Science/Networking and Internet Architecture"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "D2rsF1jEbC2jSOd-xYIn6QlkxWi51XbcDOff6_CUDJ4",
+  "pdfSize": "1412664"
+}

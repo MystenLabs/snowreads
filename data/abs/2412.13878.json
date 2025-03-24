@@ -1,0 +1,52 @@
+{
+  "id": "2412.13878",
+  "title": "Benchmarking Quantum Models for Time-series Forecasting",
+  "authors": "Caitlin Jones, Nico Kraus, Pallavi Bhardwaj, Maximilian Adler, Michael\n  Schr\\\"odl-Baumann, David Zambrano Manrique",
+  "authorsParsed": [
+    [
+      "Jones",
+      "Caitlin",
+      ""
+    ],
+    [
+      "Kraus",
+      "Nico",
+      ""
+    ],
+    [
+      "Bhardwaj",
+      "Pallavi",
+      ""
+    ],
+    [
+      "Adler",
+      "Maximilian",
+      ""
+    ],
+    [
+      "Schrödl-Baumann",
+      "Michael",
+      ""
+    ],
+    [
+      "Manrique",
+      "David Zambrano",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 18 Dec 2024 14:17:17 GMT"
+    }
+  ],
+  "updateDate": "2024-12-19",
+  "timestamp": 1734531437000,
+  "abstract": "  Time series forecasting is a valuable tool for many applications, such as\nstock price predictions, demand forecasting or logistical optimization. There\nare many well-established statistical and machine learning models that are used\nfor this purpose. Recently in the field of quantum machine learning many\ncandidate models for forecasting have been proposed, however in the absence of\ntheoretical grounds for advantage thorough benchmarking is essential for\nscientific evaluation.\n  To this end, we performed a benchmarking study using real data of various\nquantum models, both gate-based and annealing-based, comparing them to the\nstate-of-the-art classical approaches, including extensive hyperparameter\noptimization. Overall we found that the best classical models outperformed the\nbest quantum models. Most of the quantum models were able to achieve comparable\nresults and for one data set two quantum models outperformed the classical\nARIMA model. These results serve as a useful point of comparison for the field\nof forecasting with quantum machine learning.\n",
+  "subjects": [
+    "Physics/Quantum Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "k6FHgWBAm9-PhEnJAS2KZONOnQOoYovwBjqbwzCL8NA",
+  "pdfSize": "713170"
+}

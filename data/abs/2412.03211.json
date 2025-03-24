@@ -1,0 +1,51 @@
+{
+  "id": "2412.03211",
+  "title": "Magnetic Topology of quiet-Sun Ellerman bombs and associated Ultraviolet\n  brightenings",
+  "authors": "Aditi Bhatnagar, Avijeet Prasad, Luc Rouppe van der Voort, Daniel\n  N\\'obrega-Siverio, and Jayant Joshi",
+  "authorsParsed": [
+    [
+      "Bhatnagar",
+      "Aditi",
+      ""
+    ],
+    [
+      "Prasad",
+      "Avijeet",
+      ""
+    ],
+    [
+      "van der Voort",
+      "Luc Rouppe",
+      ""
+    ],
+    [
+      "Nóbrega-Siverio",
+      "Daniel",
+      ""
+    ],
+    [
+      "Joshi",
+      "Jayant",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 4 Dec 2024 10:57:26 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Sat, 7 Dec 2024 11:00:03 GMT"
+    }
+  ],
+  "updateDate": "2025-01-22",
+  "timestamp": 1733309846000,
+  "abstract": "  Quiet-Sun Ellerman bombs (QSEBs) are small-scale magnetic reconnection events\nin the lower atmosphere of the quiet Sun. Recent work has shown that a small\npercentage of them can occur co-spatially and co-temporally to ultraviolet (UV)\nbrightenings in the transition region. We aim to understand how the magnetic\ntopologies associated with closely occurring QSEBs and UV brightenings can\nfacilitate energy transport and connect these events. We used high-resolution\nH-beta observations from the Swedish 1-m Solar Telescope (SST) and detected\nQSEBs using k-means clustering. We obtained the magnetic field topology from\npotential field extrapolations using spectro-polarimetric data in the\nphotospheric Fe I 6173 A line. To detect UV brightenings, we used coordinated\nand co-aligned data from the Interface Region Imaging Spectrograph (IRIS) and\nimposed a threshold of 5 sigma above the median background on the (IRIS) 1400 A\nslit-jaw image channel. We identify four distinct magnetic configurations that\nassociate QSEBs with UV brightenings, including a simple dipole configuration\nand more complex fan-spine topologies with a three-dimensional (3D) magnetic\nnull point. In the fan-spine topology, the UV brightenings occur near the 3D\nnull point, while QSEBs can be found close to the footpoints of the outer\nspine, the inner spine, and the fan surface. We find that the height of the 3D\nnull varies between 0.2 Mm to 2.6 Mm, depending on the magnetic field strength\nin the region. We note that some QSEBs and UV brightenings, though occurring\nclose to each other, are not topologically connected with the same reconnection\nprocess. We find that the energy released during QSEBs falls in the range of\n10^23 to 10^24 ergs. This study shows that magnetic connectivity and\ntopological features, like 3D null points, are crucial in linking QSEBs in the\nlower atmosphere with UV brightenings in the transition region.\n",
+  "subjects": [
+    "Astrophysics/Solar and Stellar Astrophysics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "7VX8PBtwpDQymgj1CWHQjDgeTpuSlWGlJpp9ItDL0bc",
+  "pdfSize": "43878752"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "2412.09906",
+  "title": "Enhancing the Reasoning Capabilities of Small Language Models via\n  Solution Guidance Fine-Tuning",
+  "authors": "Jing Bi, Yuting Wu, Weiwei Xing, Zhenjie Wei",
+  "authorsParsed": [
+    [
+      "Bi",
+      "Jing",
+      ""
+    ],
+    [
+      "Wu",
+      "Yuting",
+      ""
+    ],
+    [
+      "Xing",
+      "Weiwei",
+      ""
+    ],
+    [
+      "Wei",
+      "Zhenjie",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 13 Dec 2024 06:45:26 GMT"
+    }
+  ],
+  "updateDate": "2024-12-16",
+  "timestamp": 1734072326000,
+  "abstract": "  Large language models (LLMs) have demonstrated remarkable performance across\na wide range of tasks. Advances in prompt engineering and fine-tuning\ntechniques have further enhanced their ability to address complex reasoning\nchallenges. However, these advanced capabilities are often exclusive to models\nexceeding 100 billion parameters. Although Chain-of-Thought (CoT) fine-tuning\nmethods have been explored for smaller models (under 10 billion parameters),\nthey typically depend on extensive CoT training data, which can introduce\ninconsistencies and limit effectiveness in low-data settings. To overcome these\nlimitations, this paper introduce a new reasoning strategy Solution Guidance\n(SG) and a plug-and-play training paradigm Solution-Guidance Fine-Tuning (SGFT)\nfor enhancing the reasoning capabilities of small language models. SG focuses\non problem understanding and decomposition at the semantic and logical levels,\nrather than specific computations, which can effectively improve the SLMs'\ngeneralization and reasoning abilities. With only a small amount of SG training\ndata, SGFT can fine-tune a SLM to produce accurate problem-solving guidances,\nwhich can then be flexibly fed to any SLM as prompts, enabling it to generate\ncorrect answers directly. Experimental results demonstrate that our method\nsignificantly improves the performance of SLMs on various reasoning tasks,\nenhancing both their practicality and efficiency within resource-constrained\nenvironments.\n",
+  "subjects": [
+    "Computer Science/Computation and Language"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "oWELI4Os509W_k5oiiBujxgdQOd7MK3BJGthv0hKE-I",
+  "pdfSize": "536382"
+}

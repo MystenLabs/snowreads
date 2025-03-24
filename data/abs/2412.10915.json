@@ -1,0 +1,53 @@
+{
+  "id": "2412.10915",
+  "title": "C3: Learning Congestion Controllers with Formal Certificates",
+  "authors": "Chenxi Yang, Divyanshu Saxena, Rohit Dwivedula, Kshiteej Mahajan,\n  Swarat Chaudhuri, Aditya Akella",
+  "authorsParsed": [
+    [
+      "Yang",
+      "Chenxi",
+      ""
+    ],
+    [
+      "Saxena",
+      "Divyanshu",
+      ""
+    ],
+    [
+      "Dwivedula",
+      "Rohit",
+      ""
+    ],
+    [
+      "Mahajan",
+      "Kshiteej",
+      ""
+    ],
+    [
+      "Chaudhuri",
+      "Swarat",
+      ""
+    ],
+    [
+      "Akella",
+      "Aditya",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 14 Dec 2024 18:02:50 GMT"
+    }
+  ],
+  "updateDate": "2024-12-17",
+  "timestamp": 1734199370000,
+  "abstract": "  Learning-based congestion controllers offer better adaptability compared to\ntraditional heuristic algorithms. However, the inherent unreliability of\nlearning techniques can cause learning-based controllers to behave poorly,\ncreating a need for formal guarantees. While methods for formally verifying\nlearned congestion controllers exist, these methods offer binary feedback that\ncannot optimize the controller toward better behavior. We improve this\nstate-of-the-art via C3, a new learning framework for congestion control that\nintegrates the concept of formal certification in the learning loop. C3 uses an\nabstract interpreter that can produce robustness and performance certificates\nto guide the training process, rewarding models that are robust and performant\neven on worst-case inputs. Our evaluation demonstrates that unlike\nstate-of-the-art learned controllers, C3-trained controllers provide both\nadaptability and worst-case reliability across a range of network conditions.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Computer Science/Networking and Internet Architecture"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "mc7XSi6k2DoQb5G9Iwfr7A4AB-MYC7N8XUZCNxwJG7s",
+  "pdfSize": "1639033"
+}

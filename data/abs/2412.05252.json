@@ -1,0 +1,44 @@
+{
+  "id": "2412.05252",
+  "title": "From classical techniques to convolution-based models: A review of\n  object detection algorithms",
+  "authors": "Fnu Neha, Deepshikha Bhati, Deepak Kumar Shukla, Md Amiruzzaman",
+  "authorsParsed": [
+    [
+      "Neha",
+      "Fnu",
+      ""
+    ],
+    [
+      "Bhati",
+      "Deepshikha",
+      ""
+    ],
+    [
+      "Shukla",
+      "Deepak Kumar",
+      ""
+    ],
+    [
+      "Amiruzzaman",
+      "Md",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 6 Dec 2024 18:32:54 GMT"
+    }
+  ],
+  "updateDate": "2024-12-09",
+  "timestamp": 1733509974000,
+  "abstract": "  Object detection is a fundamental task in computer vision and image\nunderstanding, with the goal of identifying and localizing objects of interest\nwithin an image while assigning them corresponding class labels. Traditional\nmethods, which relied on handcrafted features and shallow models, struggled\nwith complex visual data and showed limited performance. These methods combined\nlow-level features with contextual information and lacked the ability to\ncapture high-level semantics. Deep learning, especially Convolutional Neural\nNetworks (CNNs), addressed these limitations by automatically learning rich,\nhierarchical features directly from data. These features include both semantic\nand high-level representations essential for accurate object detection. This\npaper reviews object detection frameworks, starting with classical computer\nvision methods. We categorize object detection approaches into two groups: (1)\nclassical computer vision techniques and (2) CNN-based detectors. We compare\nmajor CNN models, discussing their strengths and limitations. In conclusion,\nthis review highlights the significant advancements in object detection through\ndeep learning and identifies key areas for further research to improve\nperformance.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "aDOaWnu-HlrJB2m4_-AZO-Il32N4eRzQDsVq_he4mBo",
+  "pdfSize": "8341604"
+}

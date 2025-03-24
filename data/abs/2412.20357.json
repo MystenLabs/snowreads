@@ -1,0 +1,38 @@
+{
+  "id": "2412.20357",
+  "title": "HindiLLM: Large Language Model for Hindi",
+  "authors": "Sanjay Chouhan, Shubha Brata Nath and Aparajita Dutta",
+  "authorsParsed": [
+    [
+      "Chouhan",
+      "Sanjay",
+      ""
+    ],
+    [
+      "Nath",
+      "Shubha Brata",
+      ""
+    ],
+    [
+      "Dutta",
+      "Aparajita",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 29 Dec 2024 05:28:15 GMT"
+    }
+  ],
+  "updateDate": "2024-12-31",
+  "timestamp": 1735450095000,
+  "abstract": "  The advancements in the Large Language Model (LLM) have helped in solving\nseveral problems related to language processing. Most of the researches have\nfocused on the English language only, because of its popularity and abundance\non the internet. However, a high-performance language model for Hindi and other\nIndic languages is lacking in the literature. In this work, we have pre-trained\ntwo autoregressive LLM models for the Hindi language, namely HindiLLM-Small and\nHindiLLM-Medium. We use a two-step process comprising unsupervised pre-training\nand supervised fine-tuning. First, we create a large and high-quality text\ncorpus for unsupervised pre-training. Next, we train a Byte-Pair Encoding,\nnamed HindiLLM tokenizer, using the pre-training text data. We then perform\ntraining on the unlabeled data, known as the pre-training step, to get the\nHindiLLM base models. Furthermore, we perform fine-tuning of the HindiLLM base\nmodels for different tasks like sentiment analysis, text classification,\nnatural language inference, and multiple choice question-answer on popular\nlabeled datasets to measure the real-world performance. The evaluation shows\nthat the HindiLLM-based fine-tuned models outperform several models in most of\nthe language related tasks.\n",
+  "subjects": [
+    "Computer Science/Computation and Language",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "8DQcNfDwio2kYkHwmbXmKwFGpxr8TSz8YMEXEMtLNQc",
+  "pdfSize": "408512"
+}

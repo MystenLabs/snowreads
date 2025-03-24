@@ -1,0 +1,43 @@
+{
+  "id": "2412.15607",
+  "title": "Short-Term Forecasting of Thermostatic and Residential Loads Using Long\n  Short-Term Memory Recurrent Neural Networks",
+  "authors": "Bang Nguyen, Mayank Panwar, Rob Hovsapian, Yashodhan Agalgaonkar",
+  "authorsParsed": [
+    [
+      "Nguyen",
+      "Bang",
+      ""
+    ],
+    [
+      "Panwar",
+      "Mayank",
+      ""
+    ],
+    [
+      "Hovsapian",
+      "Rob",
+      ""
+    ],
+    [
+      "Agalgaonkar",
+      "Yashodhan",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 20 Dec 2024 07:01:52 GMT"
+    }
+  ],
+  "updateDate": "2024-12-23",
+  "timestamp": 1734678112000,
+  "abstract": "  Internet of Things (IoT) devices in smart grids enable intelligent energy\nmanagement for grid managers and personalized energy services for consumers.\nInvestigating a smart grid with IoT devices requires a simulation framework\nwith IoT devices modeling. However, there lack comprehensive study on the\nmodeling of IoT devices in smart grids. This paper investigates the IoT device\nmodeling of a thermostatic load and implements the recurrent neural networks\nmodel for short-term load forecasting in this IoT-based thermostatic load. The\nrecurrent neural network structure is leveraged to build a load forecasting\nmodel on temporal correlation. The temporal recurrent neural network layers\nincluding long short-term memory cells are employed to learn the data from both\nthe simulation platform and New South Wales residential datasets. The\nsimulation results are provided for demonstration.\n",
+  "subjects": [
+    "Electrical Engineering and Systems Science/Systems and Control",
+    "Computer Science/Systems and Control"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "EN2jS66oGtkkRbJUsp8tppw9rOGAcm12mjD-KX7kJ1U",
+  "pdfSize": "1183418"
+}

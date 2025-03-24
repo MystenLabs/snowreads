@@ -1,0 +1,42 @@
+{
+  "id": "2412.10445",
+  "title": "Regional Air Mobility Flight Demand Modeling in Tennessee State",
+  "authors": "Kamal Acharya, Mehul Lad, Houbing Song, Liang Sun",
+  "authorsParsed": [
+    [
+      "Acharya",
+      "Kamal",
+      ""
+    ],
+    [
+      "Lad",
+      "Mehul",
+      ""
+    ],
+    [
+      "Song",
+      "Houbing",
+      ""
+    ],
+    [
+      "Sun",
+      "Liang",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 11 Dec 2024 16:47:29 GMT"
+    }
+  ],
+  "updateDate": "2024-12-17",
+  "timestamp": 1733935649000,
+  "abstract": "  Advanced Air Mobility (AAM), encompassing Urban Air Mobility (UAM) and\nRegional Air Mobility (RAM), offers innovative solutions to mitigate the issues\nrelated to ground transportation like traffic congestion, environmental\npollution etc. RAM addresses transportation inefficiencies over medium-distance\ntrips (50-500 miles), which are often underserved by both traditional air and\nground transportation systems. This study focuses on RAM in Tennessee,\naddressing the complexities of demand modeling as a critical aspect of\neffective RAM implementation. Leveraging datasets from the Bureau of\nTransportation Statistics (BTS), Internal Revenue Service (IRS), Federal\nAviation Administration (FAA), and other sources, we assess trip data across\nTennessee's Metropolitan Statistical Areas (MSAs) to develop a predictive\nframework for RAM demand. Through cost, time, and risk regression, we calculate\na Generalized Travel Cost (GTC) that allows for comparative analysis between\nground transportation and RAM, identifying factors that influence mode choice.\nWhen focusing on only five major airports (BNA, CHA, MEM, TRI, and TYS) as RAM\nhubs, the results reveal a mixed demand pattern due to varying travel distances\nto these central locations, which increases back-and-forth travel for some\nroutes. However, by expanding the RAM network to include more regional\nairports, the GTC for RAM aligns more closely with traditional air travel,\nproviding a smoother and more competitive option against ground transportation,\nparticularly for trips exceeding 300 miles. The analysis shows that RAM demand\nis likely to be selected when air transportation accounts for more than 80\\% of\nthe total GTC, air travel time is more than 1 hour and when the ground GTC\nexceeds 300 for specific origin-destination pairs. The data and code can be\naccessed on GitHub. {https://github.com/lotussavy/AIAAScitecth-2025.git}\n",
+  "subjects": [
+    "Physics/Physics and Society"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "JIHw-Nqs3arp6B6pgxgh_RtCT8dWURStBUoMof1zsRc",
+  "pdfSize": "3067686"
+}

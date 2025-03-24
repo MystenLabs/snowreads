@@ -1,0 +1,42 @@
+{
+  "id": "2412.10304",
+  "title": "A Neyman-Orthogonalization Approach to the Incidental Parameter Problem",
+  "authors": "St\\'ephane Bonhomme, Koen Jochmans, Martin Weidner",
+  "authorsParsed": [
+    [
+      "Bonhomme",
+      "Stéphane",
+      ""
+    ],
+    [
+      "Jochmans",
+      "Koen",
+      ""
+    ],
+    [
+      "Weidner",
+      "Martin",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 13 Dec 2024 17:37:57 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Wed, 29 Jan 2025 12:18:07 GMT"
+    }
+  ],
+  "updateDate": "2025-01-30",
+  "timestamp": 1734111477000,
+  "abstract": "  A popular approach to perform inference on a target parameter in the presence\nof nuisance parameters is to construct estimating equations that are orthogonal\nto the nuisance parameters, in the sense that their expected first derivative\nis zero. Such first-order orthogonalization may, however, not suffice when the\nnuisance parameters are very imprecisely estimated. Leading examples where this\nis the case are models for panel and network data that feature fixed effects.\nIn this paper, we show how, in the conditional-likelihood setting, estimating\nequations can be constructed that are orthogonal to any chosen order. Combining\nthese equations with sample splitting yields higher-order bias-corrected\nestimators of target parameters. In an empirical application we apply our\nmethod to a fixed-effect model of team production and obtain estimates of\ncomplementarity in production and impacts of counterfactual re-allocations.\n",
+  "subjects": [
+    "Economics/Econometrics",
+    "Statistics/Methodology"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "c1hYqC5CoqEds5mjQGlwZoAazXHEo_4gKQZVwcIrhNg",
+  "pdfSize": "585362"
+}

@@ -1,0 +1,82 @@
+{
+  "id": "2412.15487",
+  "title": "Multi-LLM Text Summarization",
+  "authors": "Jiangnan Fang, Cheng-Tse Liu, Jieun Kim, Yash Bhedaru, Ethan Liu,\n  Nikhil Singh, Nedim Lipka, Puneet Mathur, Nesreen K. Ahmed, Franck\n  Dernoncourt, Ryan A. Rossi, Hanieh Deilamsalehy",
+  "authorsParsed": [
+    [
+      "Fang",
+      "Jiangnan",
+      ""
+    ],
+    [
+      "Liu",
+      "Cheng-Tse",
+      ""
+    ],
+    [
+      "Kim",
+      "Jieun",
+      ""
+    ],
+    [
+      "Bhedaru",
+      "Yash",
+      ""
+    ],
+    [
+      "Liu",
+      "Ethan",
+      ""
+    ],
+    [
+      "Singh",
+      "Nikhil",
+      ""
+    ],
+    [
+      "Lipka",
+      "Nedim",
+      ""
+    ],
+    [
+      "Mathur",
+      "Puneet",
+      ""
+    ],
+    [
+      "Ahmed",
+      "Nesreen K.",
+      ""
+    ],
+    [
+      "Dernoncourt",
+      "Franck",
+      ""
+    ],
+    [
+      "Rossi",
+      "Ryan A.",
+      ""
+    ],
+    [
+      "Deilamsalehy",
+      "Hanieh",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 20 Dec 2024 01:55:26 GMT"
+    }
+  ],
+  "updateDate": "2024-12-23",
+  "timestamp": 1734659726000,
+  "abstract": "  In this work, we propose a Multi-LLM summarization framework, and investigate\ntwo different multi-LLM strategies including centralized and decentralized. Our\nmulti-LLM summarization framework has two fundamentally important steps at each\nround of conversation: generation and evaluation. These steps are different\ndepending on whether our multi-LLM decentralized summarization is used or\ncentralized. In both our multi-LLM decentralized and centralized strategies, we\nhave k different LLMs that generate diverse summaries of the text. However,\nduring evaluation, our multi-LLM centralized summarization approach leverages a\nsingle LLM to evaluate the summaries and select the best one whereas k LLMs are\nused for decentralized multi-LLM summarization. Overall, we find that our\nmulti-LLM summarization approaches significantly outperform the baselines that\nleverage only a single LLM by up to 3x. These results indicate the\neffectiveness of multi-LLM approaches for summarization.\n",
+  "subjects": [
+    "Computer Science/Computation and Language"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "qVLmTF5t63TNXnnXpVIYpRlzKeOLScp56S6QOxb46a0",
+  "pdfSize": "599279"
+}

@@ -1,0 +1,34 @@
+{
+  "id": "2412.08104",
+  "title": "Offset-free model predictive control: stability under plant-model\n  mismatch",
+  "authors": "Steven J. Kuntz, James B. Rawlings",
+  "authorsParsed": [
+    [
+      "Kuntz",
+      "Steven J.",
+      ""
+    ],
+    [
+      "Rawlings",
+      "James B.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 11 Dec 2024 05:08:37 GMT"
+    }
+  ],
+  "updateDate": "2024-12-12",
+  "timestamp": 1733893717000,
+  "abstract": "  We present the first general stability results for nonlinear offset-free\nmodel predictive control (MPC). Despite over twenty years of active research,\nthe offset-free MPC literature has not shaken the assumption of closed-loop\nstability for establishing offset-free performance. In this paper, we present a\nnonlinear offset-free MPC design that is robustly stable with respect to the\ntracking errors, and thus achieves offset-free performance, despite plant-model\nmismatch and persistent disturbances. Key features and assumptions of this\ndesign include quadratic costs, differentiability of the plant and model\nfunctions, constraint backoffs at steady state, and a robustly stable state and\ndisturbance estimator. We first establish nominal stability and offset-free\nperformance. Then, robustness to state and disturbance estimate errors and\nsetpoint and disturbance changes is demonstrated. Finally, the results are\nextended to sufficiently small plant-model mismatch. The results are\nillustrated by numerical examples.\n",
+  "subjects": [
+    "Electrical Engineering and Systems Science/Systems and Control",
+    "Computer Science/Systems and Control",
+    "Mathematics/Optimization and Control"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "cqW1e4u20e-YbI6fUVCg_kq3gyYq8Iol8e4pakeu6Wg",
+  "pdfSize": "1156809"
+}

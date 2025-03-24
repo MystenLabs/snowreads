@@ -1,0 +1,57 @@
+{
+  "id": "2412.01441",
+  "title": "LMAct: A Benchmark for In-Context Imitation Learning with Long\n  Multimodal Demonstrations",
+  "authors": "Anian Ruoss, Fabio Pardo, Harris Chan, Bonnie Li, Volodymyr Mnih, Tim\n  Genewein",
+  "authorsParsed": [
+    [
+      "Ruoss",
+      "Anian",
+      ""
+    ],
+    [
+      "Pardo",
+      "Fabio",
+      ""
+    ],
+    [
+      "Chan",
+      "Harris",
+      ""
+    ],
+    [
+      "Li",
+      "Bonnie",
+      ""
+    ],
+    [
+      "Mnih",
+      "Volodymyr",
+      ""
+    ],
+    [
+      "Genewein",
+      "Tim",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 2 Dec 2024 12:31:58 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Mon, 3 Feb 2025 23:26:42 GMT"
+    }
+  ],
+  "updateDate": "2025-02-05",
+  "timestamp": 1733142718000,
+  "abstract": "  In this paper, we present a benchmark to pressure-test today's frontier\nmodels' multimodal decision-making capabilities in the very long-context regime\n(up to one million tokens) and investigate whether these models can learn from\nlarge numbers of expert demonstrations in their context. We evaluate the\nperformance of Claude 3.5 Sonnet, Gemini 1.5 Flash, Gemini 1.5 Pro, Gemini 2.0\nFlash Experimental, GPT-4o, o1-mini, o1-preview, and o1 as policies across a\nbattery of simple interactive decision-making tasks: playing tic-tac-toe,\nchess, and Atari, navigating grid worlds, solving crosswords, and controlling a\nsimulated cheetah. We study increasing amounts of expert demonstrations in the\ncontext $\\unicode{x2013}$ from no demonstrations to 512 full episodes. Across\nour tasks, models rarely manage to fully reach expert performance, and often,\npresenting more demonstrations has little effect. Some models steadily improve\nwith more demonstrations on a few tasks. We investigate the effect of encoding\nobservations as text or images and the impact of chain-of-thought prompting. To\nhelp quantify the impact of other approaches and future innovations, we open\nsource our benchmark that covers the zero-, few-, and many-shot regimes in a\nunified evaluation.\n",
+  "subjects": [
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "t0ID-maK405DcFALul1MAAfLrT31QutjzSc34Grb4i4",
+  "pdfSize": "2300852"
+}

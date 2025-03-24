@@ -1,0 +1,32 @@
+{
+  "id": "2412.20534",
+  "title": "2D Internal Gravity Wave Turbulence",
+  "authors": "Vincent Labarre and Michal Shavit",
+  "authorsParsed": [
+    [
+      "Labarre",
+      "Vincent",
+      ""
+    ],
+    [
+      "Shavit",
+      "Michal",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 29 Dec 2024 17:46:47 GMT"
+    }
+  ],
+  "updateDate": "2024-12-31",
+  "timestamp": 1735494407000,
+  "abstract": "  Using weak wave turbulence theory analysis, we distinguish three main regimes\nfor 2D stratified fluids in the dimensionless parameter space defined by the\nFroude number and the Reynolds number: discrete wave turbulence, weak wave\nturbulence, and strong nonlinear interaction. These regimes are investigated\nusing direct numerical simulations (DNS) of the 2D Boussinesq equations with\nshear modes removed. In the weak wave turbulence regime, excluding slow\nfrequencies, we observe a spectrum that aligns with recent predictions from\nkinetic theory. This finding represents the first DNS-based confirmation of\nwave turbulence theory for internal gravity waves. At strong stratification, in\nboth the weak and strong interaction regimes, we observe the formation of\nlayers accompanied by spectral peaks at low discrete frequencies. We explain\nthis layering through an inverse kinetic energy cascade and the discreteness of\nwave-wave interactions at large scales. This analysis allows us to predict the\nlayer thickness and typical flow velocity in terms of the control parameters.\n",
+  "subjects": [
+    "Physics/Fluid Dynamics"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "G87M4YFdg944gBr2Gj74BBIpAt_Ye2TNwhB1HFz_IY4",
+  "pdfSize": "3620634"
+}

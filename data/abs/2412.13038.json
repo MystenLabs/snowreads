@@ -1,0 +1,43 @@
+{
+  "id": "2412.13038",
+  "title": "Parameter-free higher-order Schrodinger systems with weak dissipation\n  and forcing",
+  "authors": "Jack Keeler, Alberto Alberello, Ben Humphries, Emilian Parau",
+  "authorsParsed": [
+    [
+      "Keeler",
+      "Jack",
+      ""
+    ],
+    [
+      "Alberello",
+      "Alberto",
+      ""
+    ],
+    [
+      "Humphries",
+      "Ben",
+      ""
+    ],
+    [
+      "Parau",
+      "Emilian",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 17 Dec 2024 16:01:44 GMT"
+    }
+  ],
+  "updateDate": "2024-12-18",
+  "timestamp": 1734451304000,
+  "abstract": "  The higher-order nonlinear Schrodinger equation (Dysthe's equation in the\ncontext of water-waves) models the time evolution of the slowly modulated\namplitude of a wave-packet in dispersive partial differential equations (PDE).\nThese systems, of which water-waves are a canonical example, require the\npresence of a small-valued ordering parameter so that a multi-scale expansion\ncan be performed. However, often the resulting system itself contains the\nsmall-ordering parameter. Thus, these models are difficult to interpret from a\nformal asymptotics perspective. This paper derives a parameter-free,\nhigher-order evolution equation for a generic infinite-dimensional dispersive\nPDE with weak linear damping and/or forcing. Instead of focusing on the\nwater-wave problem or another specific problem, our procedure avoids the\ncomplicated algebra by placing the PDE in an infinite-dimensional Hilbert space\nand Taylor expanding with Frechet derivatives. An attractive feature of this\nprocedure is that it can be used in many different physical settings, including\nwater-waves, nonlinear optics and any dispersive system with weak dissipation\nor forcing. The paper concludes by discussing two specific examples.\n",
+  "subjects": [
+    "Mathematics/Analysis of PDEs",
+    "Nonlinear Sciences/Exactly Solvable and Integrable Systems"
+  ],
+  "license": "http://creativecommons.org/licenses/by-sa/4.0/",
+  "blobId": "nWXKY0zm14M6_5ieVhKu6l1yJgTSRtWKf8RFhoxjOTU",
+  "pdfSize": "310417"
+}

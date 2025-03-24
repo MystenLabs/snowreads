@@ -1,0 +1,151 @@
+{
+  "id": "2412.04330",
+  "title": "The GAPS programme at TNG LXVI. A homogeneous search for Na i and its\n  possible variability in ten gas giant exoplanets",
+  "authors": "D. Sicilia (1), L. Malavolta (2 and 3), G. Scandariato (1), L. Fossati\n  (4), A. F. Lanza (1), A. S. Bonomo (5), F. Borsa (6), G. Guilluy (5), V.\n  Nascimbeni (3), L. Pino (7), F. Biassoni (6 and 8), M.C. D'Arpa (9 and 10),\n  I. Pagano (1), A. Sozzetti (5), M. Stangret (3), R. Cosentino (1 and 11), P.\n  Giacobbe (5), M. Lodi (11), J. Maldonado (10), D. Nardiello (2 and 3), M.\n  Pedani (11) ((1) INAF - Osservatorio Astrofisico di Catania, (2) Dipartimento\n  di Fisica e Astronomia \"Galileo Galilei\" - Universit\\`a degli Studi di\n  Padova, (3) INAF - Osservatorio Astronomico di Padova, (4) Space Research\n  Institute, Austrian Academy of Sciences, (5) INAF - Osservatorio Astrofisico\n  di Torino, (6) INAF - Osservatorio Astronomico di Brera, (7) INAF -\n  Osservatorio Astrofisico di Arcetri, (8) DISAT, Universit\\`a degli Studi\n  dell'Insubria, (9) University of Palermo, Department of Physics and Chemistry\n  \"Emilio Segr\\`e\", (10) INAF - Osservatorio Astronomico di Palermo, (11)\n  Fundaci\\'on Galileo Galilei - INAF)",
+  "authorsParsed": [
+    [
+      "Sicilia",
+      "D.",
+      "",
+      "2 and 3"
+    ],
+    [
+      "Malavolta",
+      "L.",
+      "",
+      "2 and 3"
+    ],
+    [
+      "Scandariato",
+      "G.",
+      "",
+      "6 and 8"
+    ],
+    [
+      "Fossati",
+      "L.",
+      "",
+      "6 and 8"
+    ],
+    [
+      "Lanza",
+      "A. F.",
+      "",
+      "6 and 8"
+    ],
+    [
+      "Bonomo",
+      "A. S.",
+      "",
+      "6 and 8"
+    ],
+    [
+      "Borsa",
+      "F.",
+      "",
+      "6 and 8"
+    ],
+    [
+      "Guilluy",
+      "G.",
+      "",
+      "6 and 8"
+    ],
+    [
+      "Nascimbeni",
+      "V.",
+      "",
+      "6 and 8"
+    ],
+    [
+      "Pino",
+      "L.",
+      "",
+      "6 and 8"
+    ],
+    [
+      "Biassoni",
+      "F.",
+      "",
+      "6 and 8"
+    ],
+    [
+      "D'Arpa",
+      "M. C.",
+      "",
+      "9 and 10"
+    ],
+    [
+      "Pagano",
+      "I.",
+      "",
+      "1 and 11"
+    ],
+    [
+      "Sozzetti",
+      "A.",
+      "",
+      "1 and 11"
+    ],
+    [
+      "Stangret",
+      "M.",
+      "",
+      "1 and 11"
+    ],
+    [
+      "Cosentino",
+      "R.",
+      "",
+      "1 and 11"
+    ],
+    [
+      "Giacobbe",
+      "P.",
+      "",
+      "2 and 3"
+    ],
+    [
+      "Lodi",
+      "M.",
+      "",
+      "2 and 3"
+    ],
+    [
+      "Maldonado",
+      "J.",
+      "",
+      "2 and 3"
+    ],
+    [
+      "Nardiello",
+      "D.",
+      "",
+      "2 and 3"
+    ],
+    [
+      "Pedani",
+      "M.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 5 Dec 2024 16:45:48 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Fri, 6 Dec 2024 18:55:29 GMT"
+    }
+  ],
+  "updateDate": "2025-01-29",
+  "timestamp": 1733417148000,
+  "abstract": "  The neutral sodium resonance doublet (Na i D) has been detected in the upper\natmosphere of several close-in gas giants, through high-resolution transmission\nspectroscopy. We aim to investigate whether its variability is linked to the\nplanets' properties, the data quality, or the accuracy of the system parameters\nused.\n  Using the public code SLOPpy, we extracted the transmission spectrum in the\nNa i D region of ten gas giants for which a large number of HARPS-N\nobservations are available. We modelled the absorption signals found,\nperforming an MCMC analysis, and converted the measured absorption depth to the\ncorresponding atmospheric height over which most sodium absorption occurs.\n  While two targets (GJ 436 b and KELT-7 b) show no Na i D feature, we found\nvariability in the transmission spectrum of the other targets. Three of them\n(HD 209458 b, WASP-80 b, and WASP-127 b) present absorption on only some\nnights, while in the other five targets (HD 189733 b, KELT-9 b, KELT-20 b,\nWASP-69 b, and WASP-76 b), a significant absorption signal is present on most\nof the nights analysed. Except for WASP-69 b, the measured absorption depths\nlead to a ratio of the two Na I D depths that is compatible with or slightly\nlarger than one.\n  As was expected from literature, the relative atmospheric height follows an\nempirical exponential trend as a function of a scaled product of the planet's\nequilibrium temperature and surface gravity.\n  We confirm the sodium detection on HD 189733 b, KELT-9 b, KELT-20 b, WASP-69\nb, and WASP-76 b. The signal detected in WASP-127 b requires further\nobservations for definitive confirmation. We exclude a planetary origin for the\nsignals found on HD 209458 b and WASP-80 b. The sodium absorption variability\ndoes not appear to be related to planetary properties, but rather to data\nquality, sub-optimal data treatment, or stellar activity.\n",
+  "subjects": [
+    "Astrophysics/Earth and Planetary Astrophysics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "WneDJB4KDKmSHLvN0RSJ0HlmrttpooTYa5cHMUMIfUE",
+  "pdfSize": "2389692"
+}

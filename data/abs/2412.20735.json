@@ -1,0 +1,62 @@
+{
+  "id": "2412.20735",
+  "title": "HUNYUANPROVER: A Scalable Data Synthesis Framework and Guided Tree\n  Search for Automated Theorem Proving",
+  "authors": "Yang Li, Dong Du, Linfeng Song, Chen Li, Weikang Wang, Tao Yang,\n  Haitao Mi",
+  "authorsParsed": [
+    [
+      "Li",
+      "Yang",
+      ""
+    ],
+    [
+      "Du",
+      "Dong",
+      ""
+    ],
+    [
+      "Song",
+      "Linfeng",
+      ""
+    ],
+    [
+      "Li",
+      "Chen",
+      ""
+    ],
+    [
+      "Wang",
+      "Weikang",
+      ""
+    ],
+    [
+      "Yang",
+      "Tao",
+      ""
+    ],
+    [
+      "Mi",
+      "Haitao",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 30 Dec 2024 06:18:33 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Tue, 31 Dec 2024 10:48:14 GMT"
+    }
+  ],
+  "updateDate": "2025-01-03",
+  "timestamp": 1735539513000,
+  "abstract": "  We introduce HunyuanProver, an language model finetuned from the Hunyuan 7B\nfor interactive automatic theorem proving with LEAN4. To alleviate the data\nsparsity issue, we design a scalable framework to iterative synthesize data\nwith low cost. Besides, guided tree search algorithms are designed to enable\neffective ``system 2 thinking`` of the prover. HunyuanProver achieves\nstate-of-the-art (SOTA) performances on major benchmarks. Specifically, it\nachieves a pass of 68.4% on the miniF2F-test compared to 65.9%, the current\nSOTA results. It proves 4 IMO statements (imo_1960_p2, imo_1962_p2},\nimo_1964_p2 and imo_1983_p6) in miniF2F-test. To benefit the community, we will\nopen-source a dataset of 30k synthesized instances, where each instance\ncontains the original question in natural language, the converted statement by\nautoformalization, and the proof by HunyuanProver.\n",
+  "subjects": [
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Computation and Language"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "Thtd90ffDUtA--cxtrEJ_k_dCI1nsRKEgRK_y4U9wpo",
+  "pdfSize": "420767"
+}

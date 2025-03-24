@@ -1,0 +1,42 @@
+{
+  "id": "2412.16811",
+  "title": "Better product formulas for quantum phase estimation",
+  "authors": "Kasra Hejazi, Jay Soni, Modjtaba Shokrian Zini, and Juan Miguel\n  Arrazola",
+  "authorsParsed": [
+    [
+      "Hejazi",
+      "Kasra",
+      ""
+    ],
+    [
+      "Soni",
+      "Jay",
+      ""
+    ],
+    [
+      "Zini",
+      "Modjtaba Shokrian",
+      ""
+    ],
+    [
+      "Arrazola",
+      "Juan Miguel",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 22 Dec 2024 00:58:23 GMT"
+    }
+  ],
+  "updateDate": "2024-12-24",
+  "timestamp": 1734829103000,
+  "abstract": "  Quantum phase estimation requires simulating the evolution of the\nHamiltonian, for which product formulas are attractive due to their smaller\nqubit cost and ease of implementation. However, the estimation of the error\nincurred by product formulas is usually pessimistic and task-agnostic, which\nposes problems for assessing their performance in practice for problems of\ninterest. In this work, we study the error of product formulas for the specific\ntask of quantum energy estimation. To this end, we employ the theory of Trotter\nerror with a Magnus-based expansion of the effectively simulated Hamiltonian.\nThe result is a generalization of previous energy estimation error analysis of\ngapped eigenstates to arbitrary order product formulas. As an application, we\ndiscover a 9-term second-order product formula with an energy estimation error\nthat is quadratically better than Trotter-Suzuki. Furthermore, by leveraging\nrecent work on low-energy dynamics of product formulas, we provide tighter\nbounds for energy estimation error in the low-energy subspace. We show that for\nHamiltonians with some locality and positivity properties, the cost can achieve\nup to a quadratic asymptotic speedup in terms of the target error.\n",
+  "subjects": [
+    "Physics/Quantum Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "D-QpzYVX9Mn5s2RWvNXLIJkxP24guEi4cPiQ3BG7_DI",
+  "pdfSize": "628431"
+}

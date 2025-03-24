@@ -1,0 +1,44 @@
+{
+  "id": "2412.13933",
+  "title": "Investigating the Effects of Diffusion-based Conditional Generative\n  Speech Models Used for Speech Enhancement on Dysarthric Speech",
+  "authors": "Joanna Reszka, Parvaneh Janbakhshi, Tilak Purohit, Sadegh Mohammadi",
+  "authorsParsed": [
+    [
+      "Reszka",
+      "Joanna",
+      ""
+    ],
+    [
+      "Janbakhshi",
+      "Parvaneh",
+      ""
+    ],
+    [
+      "Purohit",
+      "Tilak",
+      ""
+    ],
+    [
+      "Mohammadi",
+      "Sadegh",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 18 Dec 2024 15:18:05 GMT"
+    }
+  ],
+  "updateDate": "2024-12-19",
+  "timestamp": 1734535085000,
+  "abstract": "  In this study, we aim to explore the effect of pre-trained conditional\ngenerative speech models for the first time on dysarthric speech due to\nParkinson's disease recorded in an ideal/non-noisy condition. Considering one\ncategory of generative models, i.e., diffusion-based speech enhancement, these\nmodels are previously trained to learn the distribution of clean (i.e, recorded\nin a noise-free environment) typical speech signals. Therefore, we hypothesized\nthat when being exposed to dysarthric speech they might remove the unseen\natypical paralinguistic cues during the enhancement process. By considering the\nautomatic dysarthric speech detection task, in this study, we experimentally\nshow that during the enhancement process of dysarthric speech data recorded in\nan ideal non-noisy environment, some of the acoustic dysarthric speech cues are\nlost. Therefore such pre-trained models are not yet suitable in the context of\ndysarthric speech enhancement since they manipulate the pathological speech\ncues when they process clean dysarthric speech. Furthermore, we show that the\nremoved acoustics cues by the enhancement models in the form of residue speech\nsignal can provide complementary dysarthric cues when fused with the original\ninput speech signal in the feature space.\n",
+  "subjects": [
+    "Electrical Engineering and Systems Science/Audio and Speech Processing",
+    "Computer Science/Machine Learning",
+    "Computer Science/Sound"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "nCOka3vilMF4WAZXwLjLl7wcH7_jJ0r36PfX5G8BKSY",
+  "pdfSize": "615988"
+}

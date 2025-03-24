@@ -1,0 +1,43 @@
+{
+  "id": "2412.12836",
+  "title": "A Survey on Recommendation Unlearning: Fundamentals, Taxonomy,\n  Evaluation, and Open Questions",
+  "authors": "Yuyuan Li, Xiaohua Feng, Chaochao Chen, Qiang Yang",
+  "authorsParsed": [
+    [
+      "Li",
+      "Yuyuan",
+      ""
+    ],
+    [
+      "Feng",
+      "Xiaohua",
+      ""
+    ],
+    [
+      "Chen",
+      "Chaochao",
+      ""
+    ],
+    [
+      "Yang",
+      "Qiang",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 17 Dec 2024 11:58:55 GMT"
+    }
+  ],
+  "updateDate": "2024-12-18",
+  "timestamp": 1734436735000,
+  "abstract": "  Recommender systems have become increasingly influential in shaping user\nbehavior and decision-making, highlighting their growing impact in various\ndomains. Meanwhile, the widespread adoption of machine learning models in\nrecommender systems has raised significant concerns regarding user privacy and\nsecurity. As compliance with privacy regulations becomes more critical, there\nis a pressing need to address the issue of recommendation unlearning, i.e.,\neliminating the memory of specific training data from the learned\nrecommendation models. Despite its importance, traditional machine unlearning\nmethods are ill-suited for recommendation unlearning due to the unique\nchallenges posed by collaborative interactions and model parameters. This\nsurvey offers a comprehensive review of the latest advancements in\nrecommendation unlearning, exploring the design principles, challenges, and\nmethodologies associated with this emerging field. We provide a unified\ntaxonomy that categorizes different recommendation unlearning approaches,\nfollowed by a summary of widely used benchmarks and metrics for evaluation. By\nreviewing the current state of research, this survey aims to guide the\ndevelopment of more efficient, scalable, and robust recommendation unlearning\ntechniques. Furthermore, we identify open research questions in this field,\nwhich could pave the way for future innovations not only in recommendation\nunlearning but also in a broader range of unlearning tasks across different\nmachine learning applications.\n",
+  "subjects": [
+    "Computer Science/Information Retrieval",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "UP2JJEE31X5nv3I7XEivFAJrqNqxIKHz0wGwO1vx7vY",
+  "pdfSize": "1325325"
+}

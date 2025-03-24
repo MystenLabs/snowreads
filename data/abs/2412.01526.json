@@ -1,0 +1,33 @@
+{
+  "id": "2412.01526",
+  "title": "Addressing Data Leakage in HumanEval Using Combinatorial Test Design",
+  "authors": "Jeremy S. Bradbury and Riddhi More",
+  "authorsParsed": [
+    [
+      "Bradbury",
+      "Jeremy S.",
+      ""
+    ],
+    [
+      "More",
+      "Riddhi",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 2 Dec 2024 14:18:32 GMT"
+    }
+  ],
+  "updateDate": "2024-12-03",
+  "timestamp": 1733149112000,
+  "abstract": "  The use of large language models (LLMs) is widespread across many domains,\nincluding Software Engineering, where they have been used to automate tasks\nsuch as program generation and test classification. As LLM-based methods\ncontinue to evolve, it is important that we define clear and robust methods\nthat fairly evaluate performance. Benchmarks are a common approach to assess\nLLMs with respect to their ability to solve problem-specific tasks as well as\nassess different versions of an LLM to solve tasks over time. For example, the\nHumanEval benchmark is composed of 164 hand-crafted tasks and has become an\nimportant tool in assessing LLM-based program generation. However, a major\nbarrier to a fair evaluation of LLMs using benchmarks like HumanEval is data\ncontamination resulting from data leakage of benchmark tasks and solutions into\nthe training data set. This barrier is compounded by the black-box nature of\nLLM training data which makes it difficult to even know if data leakage has\noccurred. To address the data leakage problem, we propose a new benchmark\nconstruction method where a benchmark is composed of template tasks that can be\ninstantiated into new concrete tasks using combinatorial test design. Concrete\ntasks for the same template task must be different enough that data leakage has\nminimal impact and similar enough that the tasks are interchangeable with\nrespect to performance evaluation. To assess our benchmark construction method,\nwe propose HumanEval_T, an alternative benchmark to HumanEval that was\nconstructed using template tasks and combinatorial test design.\n",
+  "subjects": [
+    "Computer Science/Software Engineering",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "dXN_M5w0d3XYKL-V0ituXT2wXAiBuOlaRR9rsa8rfNE",
+  "pdfSize": "348095"
+}

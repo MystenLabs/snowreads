@@ -1,0 +1,38 @@
+{
+  "id": "2412.09223",
+  "title": "CSSDH: An Ontology for Social Determinants of Health to Operational\n  Continuity of Care Data Interoperability",
+  "authors": "Subhashis Das, Debashis Naskar, and Sara Rodriguez Gonzalez",
+  "authorsParsed": [
+    [
+      "Das",
+      "Subhashis",
+      ""
+    ],
+    [
+      "Naskar",
+      "Debashis",
+      ""
+    ],
+    [
+      "Gonzalez",
+      "Sara Rodriguez",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 12 Dec 2024 12:25:33 GMT"
+    }
+  ],
+  "updateDate": "2024-12-13",
+  "timestamp": 1734006333000,
+  "abstract": "  The rise of digital platforms has led to an increasing reliance on\ntechnology-driven, home-based healthcare solutions, enabling individuals to\nmonitor their health and share information with healthcare professionals as\nneeded. However, creating an efficient care plan management system requires\nmore than just analyzing hospital summaries and Electronic Health Records\n(EHRs). Factors such as individual user needs and social determinants of\nhealth, including living conditions and the flow of healthcare information\nbetween different settings, must also be considered. Challenges in this complex\nhealthcare network involve schema diversity (in EHRs, personal health records,\netc.) and terminology diversity (e.g., ICD, SNOMED-CT) across ancillary\nhealthcare operations. Establishing interoperability among various systems and\napplications is crucial, with the European Interoperability Framework (EIF)\nemphasizing the need for patient-centric access and control of healthcare data.\nIn this paper, we propose an integrated ontological model, the Common Semantic\nData Model for Social Determinants of Health (CSSDH), by combining ISO/DIS\n13940:2024 ContSys with WHO Social Determinants of Health. CSSDH aims to\nachieve interoperability within the Continuity of Care Network.\n",
+  "subjects": [
+    "Computer Science/Logic in Computer Science",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "QJxYl7k0n-ruGTJRvSqVhDJmb8U4dgtL5Sq12VUuuM0",
+  "pdfSize": "452922"
+}

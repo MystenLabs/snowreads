@@ -1,0 +1,52 @@
+{
+  "id": "2412.06614",
+  "title": "MVReward: Better Aligning and Evaluating Multi-View Diffusion Models\n  with Human Preferences",
+  "authors": "Weitao Wang, Haoran Xu, Yuxiao Yang, Zhifang Liu, Jun Meng, Haoqian\n  Wang",
+  "authorsParsed": [
+    [
+      "Wang",
+      "Weitao",
+      ""
+    ],
+    [
+      "Xu",
+      "Haoran",
+      ""
+    ],
+    [
+      "Yang",
+      "Yuxiao",
+      ""
+    ],
+    [
+      "Liu",
+      "Zhifang",
+      ""
+    ],
+    [
+      "Meng",
+      "Jun",
+      ""
+    ],
+    [
+      "Wang",
+      "Haoqian",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 9 Dec 2024 16:05:31 GMT"
+    }
+  ],
+  "updateDate": "2024-12-10",
+  "timestamp": 1733760331000,
+  "abstract": "  Recent years have witnessed remarkable progress in 3D content generation.\nHowever, corresponding evaluation methods struggle to keep pace. Automatic\napproaches have proven challenging to align with human preferences, and the\nmixed comparison of text- and image-driven methods often leads to unfair\nevaluations. In this paper, we present a comprehensive framework to better\nalign and evaluate multi-view diffusion models with human preferences. To begin\nwith, we first collect and filter a standardized image prompt set from\nDALL$\\cdot$E and Objaverse, which we then use to generate multi-view assets\nwith several multi-view diffusion models. Through a systematic ranking pipeline\non these assets, we obtain a human annotation dataset with 16k expert pairwise\ncomparisons and train a reward model, coined MVReward, to effectively encode\nhuman preferences. With MVReward, image-driven 3D methods can be evaluated\nagainst each other in a more fair and transparent manner. Building on this, we\nfurther propose Multi-View Preference Learning (MVP), a plug-and-play\nmulti-view diffusion tuning strategy. Extensive experiments demonstrate that\nMVReward can serve as a reliable metric and MVP consistently enhances the\nalignment of multi-view diffusion models with human preferences.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by-sa/4.0/",
+  "blobId": "lX6e4u6S92Ay1goPQIzXzXDEDsz1JwY_HmTrhn9Fk9Y",
+  "pdfSize": "14826806"
+}

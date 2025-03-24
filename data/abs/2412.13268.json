@@ -1,0 +1,42 @@
+{
+  "id": "2412.13268",
+  "title": "JudgeBlender: Ensembling Judgments for Automatic Relevance Assessment",
+  "authors": "Hossein A. Rahmani, Emine Yilmaz, Nick Craswell, Bhaskar Mitra",
+  "authorsParsed": [
+    [
+      "Rahmani",
+      "Hossein A.",
+      ""
+    ],
+    [
+      "Yilmaz",
+      "Emine",
+      ""
+    ],
+    [
+      "Craswell",
+      "Nick",
+      ""
+    ],
+    [
+      "Mitra",
+      "Bhaskar",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 17 Dec 2024 19:04:15 GMT"
+    }
+  ],
+  "updateDate": "2024-12-19",
+  "timestamp": 1734462255000,
+  "abstract": "  The effective training and evaluation of retrieval systems require a\nsubstantial amount of relevance judgments, which are traditionally collected\nfrom human assessors -- a process that is both costly and time-consuming. Large\nLanguage Models (LLMs) have shown promise in generating relevance labels for\nsearch tasks, offering a potential alternative to manual assessments. Current\napproaches often rely on a single LLM, such as GPT-4, which, despite being\neffective, are expensive and prone to intra-model biases that can favour\nsystems leveraging similar models. In this work, we introduce JudgeBlender, a\nframework that employs smaller, open-source models to provide relevance\njudgments by combining evaluations across multiple LLMs (LLMBlender) or\nmultiple prompts (PromptBlender). By leveraging the LLMJudge benchmark [18], we\ncompare JudgeBlender with state-of-the-art methods and the top performers in\nthe LLMJudge challenge. Our results show that JudgeBlender achieves competitive\nperformance, demonstrating that very large models are often unnecessary for\nreliable relevance assessments.\n",
+  "subjects": [
+    "Computer Science/Information Retrieval"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "gaPCRCrZ_qGY-8NWYhN-mdkG005iBHmxNdMSLyJb4Ek",
+  "pdfSize": "746505"
+}

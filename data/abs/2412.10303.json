@@ -1,0 +1,62 @@
+{
+  "id": "2412.10303",
+  "title": "Relativistic Viscous Hydrodynamics in the Density Frame: Numerical Tests\n  and Comparisons",
+  "authors": "Jay Bhambure, Aleksas Mazeliauskas, Jean-Francois Paquet, Rajeev\n  Singh, Mayank Singh, Derek Teaney, and Fabian Zhou",
+  "authorsParsed": [
+    [
+      "Bhambure",
+      "Jay",
+      ""
+    ],
+    [
+      "Mazeliauskas",
+      "Aleksas",
+      ""
+    ],
+    [
+      "Paquet",
+      "Jean-Francois",
+      ""
+    ],
+    [
+      "Singh",
+      "Rajeev",
+      ""
+    ],
+    [
+      "Singh",
+      "Mayank",
+      ""
+    ],
+    [
+      "Teaney",
+      "Derek",
+      ""
+    ],
+    [
+      "Zhou",
+      "Fabian",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 13 Dec 2024 17:37:55 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Sat, 8 Feb 2025 16:00:57 GMT"
+    }
+  ],
+  "updateDate": "2025-02-11",
+  "timestamp": 1734111475000,
+  "abstract": "  We conduct a numerical study of relativistic viscous fluid dynamics in the\nDensity Frame for one-dimensional fluid flows. The Density Frame is a\nformulation of relativistic viscous hydrodynamics that is first-order in time,\nrequires no auxiliary fields, and has no non-hydrodynamic modes. We compare our\nresults to QCD kinetic theory simulations and find excellent agreement within\nthe regime of applicability of hydrodynamics. Additionally, the Density Frame\nresults remain well-behaved and robust near the boundary of applicability. We\nalso compare our findings to the second-order-in-time hydrodynamic theory\ndeveloped by Bemfica, Disconzi, Noronha, and Kovtun (BDNK) and a well-known\nM\\\"uller-Israel-Stewart-type hydrodynamics code, MUSIC, which is commonly used\nto simulate heavy-ion collisions.\n",
+  "subjects": [
+    "Physics/Nuclear Theory",
+    "Physics/General Relativity and Quantum Cosmology"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "oL1eSR9FJA2ravS-sv_3u8cEUsJuprGpgQyP8Ia_7YM",
+  "pdfSize": "1282944"
+}

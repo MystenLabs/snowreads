@@ -1,0 +1,53 @@
+{
+  "id": "2412.00085",
+  "title": "Residual Attention Single-Head Vision Transformer Network for Rolling\n  Bearing Fault Diagnosis in Noisy Environments",
+  "authors": "Songjiang Lai, Tsun-Hin Cheung, Jiayi Zhao, Kaiwen Xue, Ka-Chun Fung,\n  Kin-Man Lam",
+  "authorsParsed": [
+    [
+      "Lai",
+      "Songjiang",
+      ""
+    ],
+    [
+      "Cheung",
+      "Tsun-Hin",
+      ""
+    ],
+    [
+      "Zhao",
+      "Jiayi",
+      ""
+    ],
+    [
+      "Xue",
+      "Kaiwen",
+      ""
+    ],
+    [
+      "Fung",
+      "Ka-Chun",
+      ""
+    ],
+    [
+      "Lam",
+      "Kin-Man",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 27 Nov 2024 02:46:54 GMT"
+    }
+  ],
+  "updateDate": "2024-12-03",
+  "timestamp": 1732675614000,
+  "abstract": "  Rolling bearings play a crucial role in industrial machinery, directly\ninfluencing equipment performance, durability, and safety. However, harsh\noperating conditions, such as high speeds and temperatures, often lead to\nbearing malfunctions, resulting in downtime, economic losses, and safety\nhazards. This paper proposes the Residual Attention Single-Head Vision\nTransformer Network (RA-SHViT-Net) for fault diagnosis in rolling bearings.\nVibration signals are transformed from the time to frequency domain using the\nFast Fourier Transform (FFT) before being processed by RA-SHViT-Net. The model\nemploys the Single-Head Vision Transformer (SHViT) to capture local and global\nfeatures, balancing computational efficiency and predictive accuracy. To\nenhance feature extraction, the Adaptive Hybrid Attention Block (AHAB)\nintegrates channel and spatial attention mechanisms. The network architecture\nincludes Depthwise Convolution, Single-Head Self-Attention, Residual\nFeed-Forward Networks (Res-FFN), and AHAB modules, ensuring robust feature\nrepresentation and mitigating gradient vanishing issues. Evaluation on the Case\nWestern Reserve University and Paderborn University datasets demonstrates the\nRA-SHViT-Net's superior accuracy and robustness in complex, noisy environments.\nAblation studies further validate the contributions of individual components,\nestablishing RA-SHViT-Net as an effective tool for early fault detection and\nclassification, promoting efficient maintenance strategies in industrial\nsettings.\n  Keywords: rolling bearings, fault diagnosis, Vision Transformer, attention\nmechanism, noisy environments, Fast Fourier Transform (FFT)\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Electrical Engineering and Systems Science/Image and Video Processing"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "f4BX5iU0sbnvGDjlwYZwbLvndtt4UkQA1QYBqUVcXGU",
+  "pdfSize": "2667267"
+}

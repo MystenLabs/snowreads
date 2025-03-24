@@ -1,0 +1,49 @@
+{
+  "id": "2412.05385",
+  "title": "Enhanced 5G/B5G Network Planning/Optimization deploying RIS in\n  Urban/Outdoor Scenarios",
+  "authors": "Valdemar Farr\\'e, Juan C. Estrada-Jim\\'enez, Jos\\'e D. Vega S\\'anchez,\n  Juan A. Vasquez-Peralvo, Symeon Chatzinotas",
+  "authorsParsed": [
+    [
+      "Farré",
+      "Valdemar",
+      ""
+    ],
+    [
+      "Estrada-Jiménez",
+      "Juan C.",
+      ""
+    ],
+    [
+      "Sánchez",
+      "José D. Vega",
+      ""
+    ],
+    [
+      "Vasquez-Peralvo",
+      "Juan A.",
+      ""
+    ],
+    [
+      "Chatzinotas",
+      "Symeon",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 6 Dec 2024 19:23:58 GMT"
+    }
+  ],
+  "updateDate": "2024-12-10",
+  "timestamp": 1733513038000,
+  "abstract": "  In recent years, the fifth-generation (5G) mobile network has been developed\nworldwide to remarkably improve network performance and spectral efficiency.\nVery recently, reconfigurable intelligent surfaces (RISs) technology has\nemerged as an innovative solution for controlling the propagation medium of the\nforthcoming sixth-generation (6G) networks. Specifically, RIS takes advantage\nof the reflected rays on the propagation environment to redirect them to a\ndesired target, improving wireless coverage. To further improve RIS\nperformance, an interesting technique called synchronized transmission with\nadvanced reconfigurable surfaces (STARS) has appeared to allow simultaneous\ntransmission and reflection of intelligent omni-surfaces. With that in mind,\nthis paper introduces an enhanced strategy for the network planning of 5G and\nbeyond (B5G) mobile networks in dense urban scenarios focused on the city of\nQuito-Ecuador. The efficacy of RIS and its cutting-edge STARS concept is\nemphasized, providing useful insights into coverage, quality, and throughput\nresults. In particular, this work considers the 3.5/28 GHz frequency bands,\noptimizing the radio network and anticipating their applicability in B5G\nnetworks. Finally, simulation results are also shown, which allow the\nidentification of the benefits of STAR RIS in terms of coverage, signal\nquality, and data performance.\n",
+  "subjects": [
+    "Computer Science/Networking and Internet Architecture",
+    "Computer Science/Systems and Control",
+    "Electrical Engineering and Systems Science/Systems and Control"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "KIgL-q2Eb1nGOwQBVBNX3lHrWWxIbVLm90z1dmmr-_U",
+  "pdfSize": "3980872"
+}

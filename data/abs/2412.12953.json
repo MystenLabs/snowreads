@@ -1,0 +1,43 @@
+{
+  "id": "2412.12953",
+  "title": "Efficient Diffusion Transformer Policies with Mixture of Expert\n  Denoisers for Multitask Learning",
+  "authors": "Moritz Reuss, Jyothish Pari, Pulkit Agrawal, Rudolf Lioutikov",
+  "authorsParsed": [
+    [
+      "Reuss",
+      "Moritz",
+      ""
+    ],
+    [
+      "Pari",
+      "Jyothish",
+      ""
+    ],
+    [
+      "Agrawal",
+      "Pulkit",
+      ""
+    ],
+    [
+      "Lioutikov",
+      "Rudolf",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 17 Dec 2024 14:34:51 GMT"
+    }
+  ],
+  "updateDate": "2024-12-18",
+  "timestamp": 1734446091000,
+  "abstract": "  Diffusion Policies have become widely used in Imitation Learning, offering\nseveral appealing properties, such as generating multimodal and discontinuous\nbehavior. As models are becoming larger to capture more complex capabilities,\ntheir computational demands increase, as shown by recent scaling laws.\nTherefore, continuing with the current architectures will present a\ncomputational roadblock. To address this gap, we propose Mixture-of-Denoising\nExperts (MoDE) as a novel policy for Imitation Learning. MoDE surpasses current\nstate-of-the-art Transformer-based Diffusion Policies while enabling\nparameter-efficient scaling through sparse experts and noise-conditioned\nrouting, reducing both active parameters by 40% and inference costs by 90% via\nexpert caching. Our architecture combines this efficient scaling with\nnoise-conditioned self-attention mechanism, enabling more effective denoising\nacross different noise levels. MoDE achieves state-of-the-art performance on\n134 tasks in four established imitation learning benchmarks (CALVIN and\nLIBERO). Notably, by pretraining MoDE on diverse robotics data, we achieve 4.01\non CALVIN ABC and 0.95 on LIBERO-90. It surpasses both CNN-based and\nTransformer Diffusion Policies by an average of 57% across 4 benchmarks, while\nusing 90% fewer FLOPs and fewer active parameters compared to default Diffusion\nTransformer architectures. Furthermore, we conduct comprehensive ablations on\nMoDE's components, providing insights for designing efficient and scalable\nTransformer architectures for Diffusion Policies. Code and demonstrations are\navailable at https://mbreuss.github.io/MoDE_Diffusion_Policy/.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Computer Science/Robotics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "iU_KSZk-Hn0u_GC3snTRRInX5NW6BvRksrqbWc6bo6k",
+  "pdfSize": "5982806"
+}

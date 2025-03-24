@@ -1,0 +1,37 @@
+{
+  "id": "2412.17604",
+  "title": "Fluid-Derived Lattices for Unbiased Modeling of Bacterial Colony Growth",
+  "authors": "Bryan Verhoef, Rutger Hermsen, Joost de Graaf",
+  "authorsParsed": [
+    [
+      "Verhoef",
+      "Bryan",
+      ""
+    ],
+    [
+      "Hermsen",
+      "Rutger",
+      ""
+    ],
+    [
+      "de Graaf",
+      "Joost",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 23 Dec 2024 14:23:46 GMT"
+    }
+  ],
+  "updateDate": "2024-12-24",
+  "timestamp": 1734963826000,
+  "abstract": "  Bacterial colonies can form a wide variety of shapes and structures based on\nambient and internal conditions. To help understand the mechanisms that\ndetermine the structure of and the diversity within these colonies, various\nnumerical modeling techniques have been applied. The most commonly used ones\nare continuum models, agent-based models, and lattice models. Continuum models\nare usually computationally fast, but disregard information at the level of the\nindividual, which can be crucial to understanding diversity in a colony.\nAgent-based models resolve local details to a greater level, but are\ncomputationally costly. Lattice-based approaches strike a balance between these\ntwo limiting cases. However, this is known to come at the price of introducing\nundesirable artifacts into the structure of the colonies. For instance, square\nlattices tend to produce square colonies even where an isotropic shape is\nexpected. Here, we aim to overcome these limitations and therefore study\nlattice-induced orientational symmetry in a class of hybrid numerical methods\nthat combine aspects of lattice-based and continuum descriptions. We\ncharacterize these artifacts and show that they can be circumvented through the\nuse of a disordered lattice which derives from an unstructured fluid. The main\nadvantage of this approach is that the lattice itself does not imbue the colony\nwith a preferential directionality. We demonstrate that our implementation\nenables the study of colony growth involving millions of individuals within\nhours of computation time on an ordinary desktop computer, while retaining many\nof the desirable features of agent-based models. Furthermore, our method can be\nreadily adapted for a wide range of applications, opening up new avenues for\nstudying the formation of colonies with diverse shapes and complex internal\ninteractions.\n",
+  "subjects": [
+    "Condensed Matter/Soft Condensed Matter"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "BPA_82UxsenetIoE5J8YnyTJTj_qmwvb7kBTDCzfsI8",
+  "pdfSize": "7454335"
+}

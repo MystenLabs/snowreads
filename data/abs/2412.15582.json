@@ -1,0 +1,42 @@
+{
+  "id": "2412.15582",
+  "title": "A Deep Probabilistic Framework for Continuous Time Dynamic Graph\n  Generation",
+  "authors": "Ryien Hosseini, Filippo Simini, Venkatram Vishwanath, Henry Hoffmann",
+  "authorsParsed": [
+    [
+      "Hosseini",
+      "Ryien",
+      ""
+    ],
+    [
+      "Simini",
+      "Filippo",
+      ""
+    ],
+    [
+      "Vishwanath",
+      "Venkatram",
+      ""
+    ],
+    [
+      "Hoffmann",
+      "Henry",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 20 Dec 2024 05:34:11 GMT"
+    }
+  ],
+  "updateDate": "2024-12-23",
+  "timestamp": 1734672851000,
+  "abstract": "  Recent advancements in graph representation learning have shifted attention\ntowards dynamic graphs, which exhibit evolving topologies and features over\ntime. The increased use of such graphs creates a paramount need for generative\nmodels suitable for applications such as data augmentation, obfuscation, and\nanomaly detection. However, there are few generative techniques that handle\ncontinuously changing temporal graph data; existing work largely relies on\naugmenting static graphs with additional temporal information to model dynamic\ninteractions between nodes. In this work, we propose a fundamentally different\napproach: We instead directly model interactions as a joint probability of an\nedge forming between two nodes at a given time. This allows us to\nautoregressively generate new synthetic dynamic graphs in a largely assumption\nfree, scalable, and inductive manner. We formalize this approach as DG-Gen, a\ngenerative framework for continuous time dynamic graphs, and demonstrate its\neffectiveness over five datasets. Our experiments demonstrate that DG-Gen not\nonly generates higher fidelity graphs compared to traditional methods but also\nsignificantly advances link prediction tasks.\n",
+  "subjects": [
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "tAO6DJPrvGY02VxoPQ3fUQjMNJuBMTWp9MMb0Wb2bt8",
+  "pdfSize": "593615"
+}

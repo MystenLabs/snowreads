@@ -1,0 +1,63 @@
+{
+  "id": "2412.19648",
+  "title": "Enhancing Vision-Language Tracking by Effectively Converting Textual\n  Cues into Visual Cues",
+  "authors": "X. Feng, D. Zhang, S. Hu, X. Li, M. Wu, J. Zhang, X. Chen, K. Huang",
+  "authorsParsed": [
+    [
+      "Feng",
+      "X.",
+      ""
+    ],
+    [
+      "Zhang",
+      "D.",
+      ""
+    ],
+    [
+      "Hu",
+      "S.",
+      ""
+    ],
+    [
+      "Li",
+      "X.",
+      ""
+    ],
+    [
+      "Wu",
+      "M.",
+      ""
+    ],
+    [
+      "Zhang",
+      "J.",
+      ""
+    ],
+    [
+      "Chen",
+      "X.",
+      ""
+    ],
+    [
+      "Huang",
+      "K.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 27 Dec 2024 13:54:32 GMT"
+    }
+  ],
+  "updateDate": "2024-12-30",
+  "timestamp": 1735307672000,
+  "abstract": "  Vision-Language Tracking (VLT) aims to localize a target in video sequences\nusing a visual template and language description. While textual cues enhance\ntracking potential, current datasets typically contain much more image data\nthan text, limiting the ability of VLT methods to align the two modalities\neffectively. To address this imbalance, we propose a novel plug-and-play method\nnamed CTVLT that leverages the strong text-image alignment capabilities of\nfoundation grounding models. CTVLT converts textual cues into interpretable\nvisual heatmaps, which are easier for trackers to process. Specifically, we\ndesign a textual cue mapping module that transforms textual cues into target\ndistribution heatmaps, visually representing the location described by the\ntext. Additionally, the heatmap guidance module fuses these heatmaps with the\nsearch image to guide tracking more effectively. Extensive experiments on\nmainstream benchmarks demonstrate the effectiveness of our approach, achieving\nstate-of-the-art performance and validating the utility of our method for\nenhanced VLT.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Multimedia"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "uF9mQDXKDM3OuQ0dkTOUvwYZ4sNNICzlmD26iCN6s7I",
+  "pdfSize": "810452"
+}

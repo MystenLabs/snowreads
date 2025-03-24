@@ -1,0 +1,29 @@
+{
+  "id": "2412.20090",
+  "title": "From Worms to Mice: Homeostasis Maybe All You Need",
+  "authors": "Jesus Marco de Lucas",
+  "authorsParsed": [
+    [
+      "de Lucas",
+      "Jesus Marco",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 28 Dec 2024 09:17:09 GMT"
+    }
+  ],
+  "updateDate": "2024-12-31",
+  "timestamp": 1735377429000,
+  "abstract": "  In this brief and speculative commentary, we explore ideas inspired by neural\nnetworks in machine learning, proposing that a simple neural XOR motif,\ninvolving both excitatory and inhibitory connections, may provide the basis for\na relevant mode of plasticity in neural circuits of living organisms, with\nhomeostasis as the sole guiding principle. This XOR motif simply signals the\ndiscrepancy between incoming signals and reference signals, thereby providing a\nbasis for a loss function in learning neural circuits, and at the same time\nregulating homeostasis by halting the propagation of these incoming signals.\nThe core motif uses a 4:1 ratio of excitatory to inhibitory neurons, and\nsupports broader neural patterns such as the well-known 'winner takes all'\n(WTA) mechanism. We examined the prevalence of the XOR motif in the published\nconnectomes of various organisms with increasing complexity, and found that it\nranges from tens (in C. elegans) to millions (in several Drosophila neuropils)\nand more than tens of millions (in mouse V1 visual cortex). If validated, our\nhypothesis identifies two of the three key components in analogy to machine\nlearning models: the architecture and the loss function. And we propose that a\nrelevant type of biological neural plasticity is simply driven by a basic\ncontrol or regulatory system, which has persisted and adapted despite the\nincreasing complexity of organisms throughout evolution.\n",
+  "subjects": [
+    "Computer Science/Neural and Evolutionary Computing",
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "vMzg_AaA5PI4ITvGwtXH3DeSxAVMh9b1KoeDeKGo65w",
+  "pdfSize": "431656"
+}

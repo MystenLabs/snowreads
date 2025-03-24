@@ -1,0 +1,44 @@
+{
+  "id": "2412.01799",
+  "title": "HPRM: High-Performance Robotic Middleware for Intelligent Autonomous\n  Systems",
+  "authors": "Jacky Kwok, Shulu Li, Marten Lohstroh, Edward A. Lee",
+  "authorsParsed": [
+    [
+      "Kwok",
+      "Jacky",
+      ""
+    ],
+    [
+      "Li",
+      "Shulu",
+      ""
+    ],
+    [
+      "Lohstroh",
+      "Marten",
+      ""
+    ],
+    [
+      "Lee",
+      "Edward A.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 2 Dec 2024 18:46:29 GMT"
+    }
+  ],
+  "updateDate": "2024-12-03",
+  "timestamp": 1733165189000,
+  "abstract": "  The rise of intelligent autonomous systems, especially in robotics and\nautonomous agents, has created a critical need for robust communication\nmiddleware that can ensure real-time processing of extensive sensor data.\nCurrent robotics middleware like Robot Operating System (ROS) 2 faces\nchallenges with nondeterminism and high communication latency when dealing with\nlarge data across multiple subscribers on a multi-core compute platform. To\naddress these issues, we present High-Performance Robotic Middleware (HPRM),\nbuilt on top of the deterministic coordination language Lingua Franca (LF).\nHPRM employs optimizations including an in-memory object store for efficient\nzero-copy transfer of large payloads, adaptive serialization to minimize\nserialization overhead, and an eager protocol with real-time sockets to reduce\nhandshake latency. Benchmarks show HPRM achieves up to 173x lower latency than\nROS2 when broadcasting large messages to multiple nodes. We then demonstrate\nthe benefits of HPRM by integrating it with the CARLA simulator and running\nreinforcement learning agents along with object detection workloads. In the\nCARLA autonomous driving application, HPRM attains 91.1% lower latency than\nROS2. The deterministic coordination semantics of HPRM, combined with its\noptimized IPC mechanisms, enable efficient and predictable real-time\ncommunication for intelligent autonomous systems.\n",
+  "subjects": [
+    "Computer Science/Robotics",
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Distributed, Parallel, and Cluster Computing"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "qiDMyiqxaVCLtgFat5PJESrC-M3nZx0fsLXzMq54MKM",
+  "pdfSize": "501490"
+}

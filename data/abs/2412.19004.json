@@ -1,0 +1,51 @@
+{
+  "id": "2412.19004",
+  "title": "Robust functional PCA for density data",
+  "authors": "Jeremy Oguamalam, Peter Filzmoser, Karel Hron, Alessandra Menafoglio,\n  and Una Radoji\\v{c}i\\'c",
+  "authorsParsed": [
+    [
+      "Oguamalam",
+      "Jeremy",
+      ""
+    ],
+    [
+      "Filzmoser",
+      "Peter",
+      ""
+    ],
+    [
+      "Hron",
+      "Karel",
+      ""
+    ],
+    [
+      "Menafoglio",
+      "Alessandra",
+      ""
+    ],
+    [
+      "Radojičić",
+      "Una",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 26 Dec 2024 00:06:47 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Thu, 2 Jan 2025 18:28:20 GMT"
+    }
+  ],
+  "updateDate": "2025-01-03",
+  "timestamp": 1735171607000,
+  "abstract": "  This paper introduces a robust approach to functional principal component\nanalysis (FPCA) for compositional data, particularly density functions. While\nrecent papers have studied density data within the Bayes space framework, there\nhas been limited focus on developing robust methods to effectively handle\nanomalous observations and large noise. To address this, we extend the\nMahalanobis distance concept to Bayes spaces, proposing its regularized version\nthat accounts for the constraints inherent in density data. Based on this\nextension, we introduce a new method, robust density principal component\nanalysis (RDPCA), for more accurate estimation of functional principal\ncomponents in the presence of outliers. The method's performance is validated\nthrough simulations and real-world applications, showing its ability to improve\ncovariance estimation and principal component analysis compared to traditional\nmethods.\n",
+  "subjects": [
+    "Statistics/Methodology"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "ZrNmCk0n0dwKby0NoxsCKypYAcHPeLIo9m0640kg0wc",
+  "pdfSize": "2318110"
+}

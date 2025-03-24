@@ -1,0 +1,54 @@
+{
+  "id": "2412.13144",
+  "title": "Semi-Analytic Modeling of Dark Matter Subhalo Encounters with Thin\n  Stellar Streams: Statistical Predictions for GD-1-like Streams in CDM",
+  "authors": "Duncan K. Adams, Aditya Parikh, Oren Slone, Rouven Essig, Manoj\n  Kaplinghat, Adrian M. Price-Whelan",
+  "authorsParsed": [
+    [
+      "Adams",
+      "Duncan K.",
+      ""
+    ],
+    [
+      "Parikh",
+      "Aditya",
+      ""
+    ],
+    [
+      "Slone",
+      "Oren",
+      ""
+    ],
+    [
+      "Essig",
+      "Rouven",
+      ""
+    ],
+    [
+      "Kaplinghat",
+      "Manoj",
+      ""
+    ],
+    [
+      "Price-Whelan",
+      "Adrian M.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 17 Dec 2024 18:10:06 GMT"
+    }
+  ],
+  "updateDate": "2024-12-20",
+  "timestamp": 1734459006000,
+  "abstract": "  Stellar streams from disrupted globular clusters are dynamically cold\nstructures that are sensitive to perturbations from dark matter subhalos,\nallowing them in principle to trace the dark matter substructure in the Milky\nWay. We model, within the context of $\\Lambda$CDM, the likelihood of dark\nmatter subhalos to produce a significant feature in a GD-1-like stream and\nanalyze the properties of such subhalos. We generate a large number of\nrealizations of the subhalo population within a Milky Way mass host halo,\naccounting for tidal stripping and dynamical friction, using the semi-analytic\ncode SatGen. The subhalo distributions are combined with a GD-1-like stream\nmodel, and the impact of subhalos that pass close to the stream are modeled\nwith Gala. We find that subhalos with masses in the range $5\\times 10^6\nM_{\\odot} - 10^8 M_{\\odot}$ at the time of the stream-subhalo encounter,\ncorresponding to masses of about $4 \\times 10^7 M_{\\odot} - 8 \\times 10^8\nM_{\\odot}$ at the time of infall, are the likeliest to produce gaps in a\nGD-1-like stream. We find that gaps occur on average $\\sim$1.8 times per\nrealization of the host system. These gaps have typical widths of $\\sim(7 -\n27)$ deg and fractional underdensities of $\\sim (10 - 30)\\%$, with larger gaps\nbeing caused by more-massive subhalos. The stream-subhalo encounters\nresponsible for these have impact parameters $(0.1 - 1.5)$ kpc and relative\nvelocities $\\sim(170 - 410)$ km/s. For a larger host-halo mass, the number of\nsubhalos increases, as do their typical velocities, inducing a corresponding\nincrease in the number of significant stream-subhalo encounters.\n",
+  "subjects": [
+    "Astrophysics/Astrophysics of Galaxies",
+    "Astrophysics/Cosmology and Nongalactic Astrophysics",
+    "Physics/High Energy Physics - Phenomenology"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "PlLesZZbLRQS4HUIbAf2dhtExiCY-OxWYmmyzvMECFY",
+  "pdfSize": "1281595"
+}

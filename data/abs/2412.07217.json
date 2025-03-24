@@ -1,0 +1,33 @@
+{
+  "id": "2412.07217",
+  "title": "Incremental Gaussian Mixture Clustering for Data Streams",
+  "authors": "Aniket Bhanderi, Raj Bhatnagar",
+  "authorsParsed": [
+    [
+      "Bhanderi",
+      "Aniket",
+      ""
+    ],
+    [
+      "Bhatnagar",
+      "Raj",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 10 Dec 2024 06:15:14 GMT"
+    }
+  ],
+  "updateDate": "2024-12-11",
+  "timestamp": 1733811314000,
+  "abstract": "  The problem of analyzing data streams of very large volumes is important and\nis very desirable for many application domains. In this paper we present and\ndemonstrate effective working of an algorithm to find clusters and anomalous\ndata points in a streaming datasets. Entropy minimization is used as a\ncriterion for defining and updating clusters formed from a streaming dataset.\nAs the clusters are formed we also identify anomalous datapoints that show up\nfar away from all known clusters. With a number of 2-D datasets we demonstrate\nthe effectiveness of discovering the clusters and also identifying anomalous\ndata points.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Computer Science/Databases"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "Qo1lJmIOKLCrMZAUED6BwlZHzVbphxDMbAAfgOsMZGk",
+  "pdfSize": "1328958"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2412.10863",
+  "title": "The structure of rough sets defined by reflexive relations",
+  "authors": "Jouni J\\\"arvinen and S\\'andor Radeleczki",
+  "authorsParsed": [
+    [
+      "Järvinen",
+      "Jouni",
+      ""
+    ],
+    [
+      "Radeleczki",
+      "Sándor",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 14 Dec 2024 15:28:12 GMT"
+    }
+  ],
+  "updateDate": "2024-12-17",
+  "timestamp": 1734190092000,
+  "abstract": "  For several types of information relations, the induced rough sets system RS\ndoes not form a lattice but only a partially ordered set. However, by studying\nits Dedekind-MacNeille completion DM(RS), one may reveal new important\nproperties of rough set structures. Building upon D. Umadevi's work on\ndescribing joins and meets in DM(RS), we previously investigated pseudo-Kleene\nalgebras defined on DM(RS) for reflexive relations. This paper delves deeper\ninto the order-theoretic properties of DM(RS) in the context of reflexive\nrelations. We describe the completely join-irreducible elements of DM(RS) and\ncharacterize when DM(RS) is a spatial completely distributive lattice. We show\nthat even in the case of a non-transitive reflexive relation, DM(RS) can form a\nNelson algebra, a property generally associated with quasiorders. We introduce\na novel concept, the core of a relational neighborhood, and use it to provide a\nnecessary and sufficient condition for DM(RS) to determine a Nelson algebra.\n",
+  "subjects": [
+    "Mathematics/Rings and Algebras",
+    "Computer Science/Logic in Computer Science"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "RSvaju_2b3sewutGBIZ7_luoYJeaO9p4ksp8j-XItW4",
+  "pdfSize": "488849"
+}

@@ -1,0 +1,34 @@
+{
+  "id": "2412.03429",
+  "title": "Coherent forecast combination for linearly constrained multiple time\n  series",
+  "authors": "Daniele Girolimetto and Tommaso Di Fonzo",
+  "authorsParsed": [
+    [
+      "Girolimetto",
+      "Daniele",
+      ""
+    ],
+    [
+      "Di Fonzo",
+      "Tommaso",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 4 Dec 2024 16:19:00 GMT"
+    }
+  ],
+  "updateDate": "2024-12-05",
+  "timestamp": 1733329140000,
+  "abstract": "  Linearly constrained multiple time series may be encountered in many\npractical contexts, such as the National Accounts (e.g., GDP disaggregated by\nIncome, Expenditure and Output), and multilevel frameworks where the variables\nare organized according to hierarchies or groupings, like the total energy\nconsumption of a country disaggregated by region and energy sources. In these\ncases, when multiple incoherent base forecasts for each individual variable are\navailable, a forecast combination-and-reconciliation approach, that we call\ncoherent forecast combination, may be used to improve the accuracy of the base\nforecasts and achieve coherence in the final result. In this paper, we develop\nan optimization-based technique that combines multiple unbiased base forecasts\nwhile assuring the constraints valid for the series. We present closed form\nexpressions for the coherent combined forecast vector and its error covariance\nmatrix in the general case where a different number of forecasts is available\nfor each variable. We also discuss practical issues related to the covariance\nmatrix that is part of the optimal solution. Through simulations and a\nforecasting experiment on the daily Australian electricity generation\nhierarchical time series, we show that the proposed methodology, in addition to\nadhering to sound statistical principles, may yield in significant improvement\non base forecasts, single-task combination and single-expert reconciliation\napproaches as well.\n",
+  "subjects": [
+    "Statistics/Methodology",
+    "Statistics/Applications",
+    "Statistics/Computation"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "n3vs4gMgGx8hCgHLSsHMyyMt9bd12lbPzS7lSwNL5V8",
+  "pdfSize": "1122289"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "2412.10294",
+  "title": "Coherent 3D Scene Diffusion From a Single RGB Image",
+  "authors": "Manuel Dahnert, Angela Dai, Norman M\\\"uller, Matthias Nie{\\ss}ner",
+  "authorsParsed": [
+    [
+      "Dahnert",
+      "Manuel",
+      ""
+    ],
+    [
+      "Dai",
+      "Angela",
+      ""
+    ],
+    [
+      "Müller",
+      "Norman",
+      ""
+    ],
+    [
+      "Nießner",
+      "Matthias",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 13 Dec 2024 17:26:45 GMT"
+    }
+  ],
+  "updateDate": "2024-12-16",
+  "timestamp": 1734110805000,
+  "abstract": "  We present a novel diffusion-based approach for coherent 3D scene\nreconstruction from a single RGB image. Our method utilizes an\nimage-conditioned 3D scene diffusion model to simultaneously denoise the 3D\nposes and geometries of all objects within the scene. Motivated by the\nill-posed nature of the task and to obtain consistent scene reconstruction\nresults, we learn a generative scene prior by conditioning on all scene objects\nsimultaneously to capture the scene context and by allowing the model to learn\ninter-object relationships throughout the diffusion process. We further propose\nan efficient surface alignment loss to facilitate training even in the absence\nof full ground-truth annotation, which is common in publicly available\ndatasets. This loss leverages an expressive shape representation, which enables\ndirect point sampling from intermediate shape predictions. By framing the task\nof single RGB image 3D scene reconstruction as a conditional diffusion process,\nour approach surpasses current state-of-the-art methods, achieving a 12.04%\nimprovement in AP3D on SUN RGB-D and a 13.43% increase in F-Score on Pix3D.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "JUGqidmx9Fslz7OTuJHTacLLA2NTbNDQdsgdbYF2Too",
+  "pdfSize": "7463427"
+}

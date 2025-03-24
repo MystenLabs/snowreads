@@ -1,0 +1,35 @@
+{
+  "id": "2412.14578",
+  "title": "Lie Symmetries for the Shallow Water Magnetohydrodynamics Equations in a\n  Rotating Reference Frame",
+  "authors": "Andronikos Paliathanasis and Amlan Halder",
+  "authorsParsed": [
+    [
+      "Paliathanasis",
+      "Andronikos",
+      ""
+    ],
+    [
+      "Halder",
+      "Amlan",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 19 Dec 2024 06:55:06 GMT"
+    }
+  ],
+  "updateDate": "2024-12-20",
+  "timestamp": 1734591306000,
+  "abstract": "  We perform a detailed Lie symmetry analysis for the hyperbolic system of\npartial differential equations that describe the one-dimensional Shallow Water\nmagnetohydrodynamics equations within a rotating reference frame. We consider a\nrelaxing condition $\\mathbf{\\mathbf{\\nabla }}\\left( h\\mathbf{B} \\right) \\neq 0$\nfor the one-dimensional problem, which has been used to overcome unphysical\nbehaviors. The hyperbolic system of partial differential equations depends on\ntwo parameters: the constant gravitational potential $g$ and the Coriolis term\n$f_{0}$, related to the constant rotation of the reference frame. For four\ndifferent cases, namely $g=0,~f_{0}=0$; $g\\neq 0\\,,~f_{0}=0$; $g=0$, $f_{0}\\neq\n0$; and $g\\neq 0$, $f_{0}\\neq 0$ the admitted Lie symmetries for the hyperbolic\nsystem form different Lie algebras. Specifically the admitted Lie algebras are\nthe $L^{10}=\\left\\{ A_{3,3}\\rtimes A_{2,1}\\right\\} \\otimes _{s}A_{5,34}^{a}$;\n$% L^{8}=A_{2,1}\\rtimes A_{6,22}$; $L^{7}=A_{3,5}\\rtimes\\left\\{ A_{2,1}\\rtimes\nA_{2,1}\\right\\} $; and $L^{6}=A_{3,5}\\rtimes A_{3,3}~$respectively, where we\nuse the Morozov-Mubarakzyanov-Patera classification scheme. For the general\ncase where $f_{0}g\\neq 0$, we derive all the invariants for the Adjoint action\nof the Lie algebra $L^{6}$ and its subalgebras, and we calculate all the\nelements of the one-dimensional optimal system. These elements are then\nconsidered to define similarity transformations and construct analytic\nsolutions for the hyperbolic system.\n",
+  "subjects": [
+    "Physics/Mathematical Physics",
+    "Mathematics/Analysis of PDEs",
+    "Mathematics/Mathematical Physics",
+    "Physics/Plasma Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "eNvIuCNs4PwkYGUYzcnXleJcHA5kIKS5iJVPQSpsD4M",
+  "pdfSize": "2540913"
+}

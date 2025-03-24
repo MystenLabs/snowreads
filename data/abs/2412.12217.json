@@ -1,0 +1,28 @@
+{
+  "id": "2412.12217",
+  "title": "Comprehensive Survey on Adversarial Examples in Cybersecurity: Impacts,\n  Challenges, and Mitigation Strategies",
+  "authors": "Li Li",
+  "authorsParsed": [
+    [
+      "Li",
+      "Li",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 16 Dec 2024 01:54:07 GMT"
+    }
+  ],
+  "updateDate": "2024-12-18",
+  "timestamp": 1734314047000,
+  "abstract": "  Deep learning (DL) has significantly transformed cybersecurity, enabling\nadvancements in malware detection, botnet identification, intrusion detection,\nuser authentication, and encrypted traffic analysis. However, the rise of\nadversarial examples (AE) poses a critical challenge to the robustness and\nreliability of DL-based systems. These subtle, crafted perturbations can\ndeceive models, leading to severe consequences like misclassification and\nsystem vulnerabilities. This paper provides a comprehensive review of the\nimpact of AE attacks on key cybersecurity applications, highlighting both their\ntheoretical and practical implications. We systematically examine the methods\nused to generate adversarial examples, their specific effects across various\ndomains, and the inherent trade-offs attackers face between efficacy and\nresource efficiency. Additionally, we explore recent advancements in defense\nmechanisms, including gradient masking, adversarial training, and detection\ntechniques, evaluating their potential to enhance model resilience. By\nsummarizing cutting-edge research, this study aims to bridge the gap between\nadversarial research and practical security applications, offering insights to\nfortify the adoption of DL solutions in cybersecurity.\n",
+  "subjects": [
+    "Computer Science/Cryptography and Security",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "q8YJMqVUfLhwknFPxJslEQ80hGP7cu_mPrbYTREtGBw",
+  "pdfSize": "213924"
+}

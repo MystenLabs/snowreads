@@ -1,0 +1,48 @@
+{
+  "id": "2412.14020",
+  "title": "Landscape of AI safety concerns -- A methodology to support safety\n  assurance for AI-based autonomous systems",
+  "authors": "Ronald Schnitzer, Lennart Kilian, Simon Roessner, Konstantinos\n  Theodorou, and Sonja Zillner",
+  "authorsParsed": [
+    [
+      "Schnitzer",
+      "Ronald",
+      ""
+    ],
+    [
+      "Kilian",
+      "Lennart",
+      ""
+    ],
+    [
+      "Roessner",
+      "Simon",
+      ""
+    ],
+    [
+      "Theodorou",
+      "Konstantinos",
+      ""
+    ],
+    [
+      "Zillner",
+      "Sonja",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 18 Dec 2024 16:38:16 GMT"
+    }
+  ],
+  "updateDate": "2024-12-19",
+  "timestamp": 1734539896000,
+  "abstract": "  Artificial Intelligence (AI) has emerged as a key technology, driving\nadvancements across a range of applications. Its integration into modern\nautonomous systems requires assuring safety. However, the challenge of assuring\nsafety in systems that incorporate AI components is substantial. The lack of\nconcrete specifications, and also the complexity of both the operational\nenvironment and the system itself, leads to various aspects of uncertain\nbehavior and complicates the derivation of convincing evidence for system\nsafety. Nonetheless, scholars proposed to thoroughly analyze and mitigate\nAI-specific insufficiencies, so-called AI safety concerns, which yields\nessential evidence supporting a convincing assurance case. In this paper, we\nbuild upon this idea and propose the so-called Landscape of AI Safety Concerns,\na novel methodology designed to support the creation of safety assurance cases\nfor AI-based systems by systematically demonstrating the absence of AI safety\nconcerns. The methodology's application is illustrated through a case study\ninvolving a driverless regional train, demonstrating its practicality and\neffectiveness.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "s9Ue8mCfZ0F7rGdlmahyRguIo0iCvFyqG7PJ45ay4h4",
+  "pdfSize": "563225"
+}

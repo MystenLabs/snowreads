@@ -1,0 +1,40 @@
+{
+  "id": "2412.04658",
+  "title": "Learning for Layered Safety-Critical Control with Predictive Control\n  Barrier Functions",
+  "authors": "William D. Compton and Max H. Cohen and Aaron D. Ames",
+  "authorsParsed": [
+    [
+      "Compton",
+      "William D.",
+      ""
+    ],
+    [
+      "Cohen",
+      "Max H.",
+      ""
+    ],
+    [
+      "Ames",
+      "Aaron D.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 5 Dec 2024 23:05:25 GMT"
+    }
+  ],
+  "updateDate": "2024-12-09",
+  "timestamp": 1733439925000,
+  "abstract": "  Safety filters leveraging control barrier functions (CBFs) are highly\neffective for enforcing safe behavior on complex systems. It is often easier to\nsynthesize CBFs for a Reduced order Model (RoM), and track the resulting safe\nbehavior on the Full order Model (FoM) -- yet gaps between the RoM and FoM can\nresult in safety violations. This paper introduces \\emph{predictive CBFs} to\naddress this gap by leveraging rollouts of the FoM to define a predictive\nrobustness term added to the RoM CBF condition. Theoretically, we prove that\nthis guarantees safety in a layered control implementation. Practically, we\nlearn the predictive robustness term through massive parallel simulation with\ndomain randomization. We demonstrate in simulation that this yields safe FoM\nbehavior with minimal conservatism, and experimentally realize predictive CBFs\non a 3D hopping robot.\n",
+  "subjects": [
+    "Electrical Engineering and Systems Science/Systems and Control",
+    "Computer Science/Machine Learning",
+    "Computer Science/Robotics",
+    "Computer Science/Systems and Control"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "IEiAC9bzx7GDEyBlRXB_5Ag_D_H_j2egQ2myRmTqBxo",
+  "pdfSize": "22676294"
+}

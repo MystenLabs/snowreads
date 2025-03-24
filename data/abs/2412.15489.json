@@ -1,0 +1,43 @@
+{
+  "id": "2412.15489",
+  "title": "Tunable optical amplification and group delay in cavity magnomechanics",
+  "authors": "Abdul Wahab, Muqaddar Abbas, Xiaosen Yang, and Yuanping Chen",
+  "authorsParsed": [
+    [
+      "Wahab",
+      "Abdul",
+      ""
+    ],
+    [
+      "Abbas",
+      "Muqaddar",
+      ""
+    ],
+    [
+      "Yang",
+      "Xiaosen",
+      ""
+    ],
+    [
+      "Chen",
+      "Yuanping",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 20 Dec 2024 02:04:54 GMT"
+    }
+  ],
+  "updateDate": "2024-12-23",
+  "timestamp": 1734660294000,
+  "abstract": "  In this work, we theoretically investigate the controllable output probe\ntransmission and group delay in a hybrid cavity magnomechanics (CMM) system.\nThe setup comprises a gain (active) cavity and a passive (loss) cavity, which\nincorporates an optical parametric amplifier (OPA) and two yttrium iron garnet\nspheres to facilitate magnon-photon coupling. Unlike the single transparency\nwindow typically resulting from magnon-photon interactions, we also observe\nmagnomechanically induced transparency due to nonlinear magnon-phonon\ninteractions. Additionally, two absorption dips on either side of the central\nabsorption dip can be asymmetrically modulated into amplification and\nabsorption by varying different system parameters. A PT-symmetric to\nbroken-PT-symmetric phase transition is observed in both balanced and\nunbalanced gain-to-loss scenarios. Notably, replacing the second passive cavity\nwith an active one mitigates high absorption and introduces effective gain into\nthe system. Our findings reveal that the group delay of the probe light can be\nadjusted between positive and negative values by modifying various system\nparameters. This study provides a robust platform for controlling light\npropagation in CMM systems, highlighting potential applications in optical\ncommunication and signal processing.\n",
+  "subjects": [
+    "Physics/Optics",
+    "Physics/Quantum Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "zt9sO2QMvAjLSsztL_vfpvXfaBuxkwwkMvAfCyEca8A",
+  "pdfSize": "1323510"
+}

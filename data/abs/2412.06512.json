@@ -1,0 +1,84 @@
+{
+  "id": "2412.06512",
+  "title": "The Fusion of Large Language Models and Formal Methods for Trustworthy\n  AI Agents: A Roadmap",
+  "authors": "Yedi Zhang, Yufan Cai, Xinyue Zuo, Xiaokun Luan, Kailong Wang, Zhe\n  Hou, Yifan Zhang, Zhiyuan Wei, Meng Sun, Jun Sun, Jing Sun, Jin Song Dong",
+  "authorsParsed": [
+    [
+      "Zhang",
+      "Yedi",
+      ""
+    ],
+    [
+      "Cai",
+      "Yufan",
+      ""
+    ],
+    [
+      "Zuo",
+      "Xinyue",
+      ""
+    ],
+    [
+      "Luan",
+      "Xiaokun",
+      ""
+    ],
+    [
+      "Wang",
+      "Kailong",
+      ""
+    ],
+    [
+      "Hou",
+      "Zhe",
+      ""
+    ],
+    [
+      "Zhang",
+      "Yifan",
+      ""
+    ],
+    [
+      "Wei",
+      "Zhiyuan",
+      ""
+    ],
+    [
+      "Sun",
+      "Meng",
+      ""
+    ],
+    [
+      "Sun",
+      "Jun",
+      ""
+    ],
+    [
+      "Sun",
+      "Jing",
+      ""
+    ],
+    [
+      "Dong",
+      "Jin Song",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 9 Dec 2024 14:14:21 GMT"
+    }
+  ],
+  "updateDate": "2024-12-10",
+  "timestamp": 1733753661000,
+  "abstract": "  Large Language Models (LLMs) have emerged as a transformative AI paradigm,\nprofoundly influencing daily life through their exceptional language\nunderstanding and contextual generation capabilities. Despite their remarkable\nperformance, LLMs face a critical challenge: the propensity to produce\nunreliable outputs due to the inherent limitations of their learning-based\nnature. Formal methods (FMs), on the other hand, are a well-established\ncomputation paradigm that provides mathematically rigorous techniques for\nmodeling, specifying, and verifying the correctness of systems. FMs have been\nextensively applied in mission-critical software engineering, embedded systems,\nand cybersecurity. However, the primary challenge impeding the deployment of\nFMs in real-world settings lies in their steep learning curves, the absence of\nuser-friendly interfaces, and issues with efficiency and adaptability.\n  This position paper outlines a roadmap for advancing the next generation of\ntrustworthy AI systems by leveraging the mutual enhancement of LLMs and FMs.\nFirst, we illustrate how FMs, including reasoning and certification techniques,\ncan help LLMs generate more reliable and formally certified outputs.\nSubsequently, we highlight how the advanced learning capabilities and\nadaptability of LLMs can significantly enhance the usability, efficiency, and\nscalability of existing FM tools. Finally, we show that unifying these two\ncomputation paradigms -- integrating the flexibility and intelligence of LLMs\nwith the rigorous reasoning abilities of FMs -- has transformative potential\nfor the development of trustworthy AI software systems. We acknowledge that\nthis integration has the potential to enhance both the trustworthiness and\nefficiency of software engineering practices while fostering the development of\nintelligent FM tools capable of addressing complex yet real-world challenges.\n",
+  "subjects": [
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Computation and Language",
+    "Computer Science/Software Engineering"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "P1gWEnQeyA3DGZW7Ul0FH-GqmOF24h38yMd4TWrL9mk",
+  "pdfSize": "1374564"
+}

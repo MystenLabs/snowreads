@@ -1,0 +1,47 @@
+{
+  "id": "2412.13985",
+  "title": "Recent developments and research needs in turbulence modeling of\n  hypersonic flows",
+  "authors": "Pratikkumar Raje, Eric Parish, Jean-Pierre Hickey, Paola Cinnella, and\n  Karthik Duraisamy",
+  "authorsParsed": [
+    [
+      "Raje",
+      "Pratikkumar",
+      ""
+    ],
+    [
+      "Parish",
+      "Eric",
+      ""
+    ],
+    [
+      "Hickey",
+      "Jean-Pierre",
+      ""
+    ],
+    [
+      "Cinnella",
+      "Paola",
+      ""
+    ],
+    [
+      "Duraisamy",
+      "Karthik",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 18 Dec 2024 16:06:25 GMT"
+    }
+  ],
+  "updateDate": "2024-12-19",
+  "timestamp": 1734537985000,
+  "abstract": "  Hypersonic flow conditions pose exceptional challenges for Reynolds-Averaged\nNavier-Stokes (RANS) turbulence modeling. Critical phenomena include\ncompressibility effects, shock/turbulent boundary layer interactions,\nturbulence-chemistry interaction in thermo-chemical non-equilibrium, and\nablation-induced surface roughness and blowing effects. This comprehensive\nreview synthesizes recent developments in adapting turbulence models to\nhypersonic applications, examining approaches ranging from empirical\nmodifications to physics-based reformulations and novel data-driven\nmethodologies. We provide a systematic evaluation of current RANS-based\nturbulence modeling capabilities, comparing eddy viscosity and Reynolds stress\ntransport formulations in their ability to predict engineering quantities of\ninterest such as separation characteristics and wall heat transfer. Our\nanalysis encompasses the latest experimental and direct numerical simulation\ndatasets for validation, specifically addressing two- and three-dimensional\nequilibrium turbulent boundary layers and shock/turbulent boundary layer\ninteractions across both smooth and rough surfaces. Key multi-physics\nconsiderations including catalysis and ablation phenomena along with the\nintegration of conjugate heat transfer into a RANS solver for efficient design\nof a thermal protection system are also discussed. We conclude by identifying\nthe critical gaps in the available validation databases and limitations of the\nexisting turbulence models and suggest potential areas for future research to\nimprove the fidelity of turbulence modeling in the hypersonic regime.\n",
+  "subjects": [
+    "Physics/Fluid Dynamics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "ldLqpVoqvatuqYl72joVBMVEBMICbXMon3kczFAy5oo",
+  "pdfSize": "981330"
+}

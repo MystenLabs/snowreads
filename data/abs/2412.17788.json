@@ -1,0 +1,36 @@
+{
+  "id": "2412.17788",
+  "title": "Spectro-temporal symmetry in action-detected optical spectroscopy:\n  highlighting excited-state dynamics in large systems",
+  "authors": "Kate\\v{r}ina Charv\\'atov\\'a and Pavel Mal\\'y",
+  "authorsParsed": [
+    [
+      "Charvátová",
+      "Kateřina",
+      ""
+    ],
+    [
+      "Malý",
+      "Pavel",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 23 Dec 2024 18:49:18 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Sat, 28 Dec 2024 00:40:45 GMT"
+    }
+  ],
+  "updateDate": "2024-12-31",
+  "timestamp": 1734979758000,
+  "abstract": "  Multidimensional optical spectroscopy observes transient excitation dynamics\nthrough the time evolution of spectral correlations. Its action-detected\nvariants offer several advantages over the coherent detection and are thus\nbecoming increasingly widespread. Nevertheless, a drawback of action-detected\nspectra is the presence of a large stationary background of so-called\nincoherent mixing of excitations from independent states that resembles a\nproduct of ground-state absorption spectra and obscures the excited-state\nsignal. This issue is especially problematic in fluorescence-detected\ntwo-dimensional electronic spectroscopy (F-2DES) and fluorescence-detected\npump--probe spectroscopy (F-PP) of extended systems, where large incoherent\nmixing arises from efficient exciton--exciton annihilation. In this work, we\ndemonstrate on the example of F-2DES and F-PP an inherent spectro-temporal\nsymmetry of action-detected spectra, which allows general, system-independent\nsubtraction of any stationary signals including incoherent mixing. We derive\nthe expressions for spectra with normal and reversed time ordering of the\npulses, relating these to the symmetry of the system response. As we\ndemonstrate both analytically and numerically, the difference signal\nconstructed from spectra with normal and reversed pulse ordering is free of\nincoherent mixing and highlights the excitation dynamics. We further verify the\napproach on the experimental F-PP spectra of a molecular squaraine heterodimer\nand the F-2DES spectra of the photosynthetic antenna LH2 of purple bacteria.\nThe approach is generally applicable to action-detected 2DES and pump--probe\nspectroscopy without experimental modifications and independent of the studied\nsystem, enabling their application to large systems such as molecular\ncomplexes.\n",
+  "subjects": [
+    "Physics/Chemical Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "cu0D2mWmimKqD39RsAtUI5iYUrwA8Eu05yinNdbBTcU",
+  "pdfSize": "1331803"
+}

@@ -1,0 +1,37 @@
+{
+  "id": "2412.09227",
+  "title": "A conjecture on descents, inversions and the weak order",
+  "authors": "Christophe Hohlweg and Viviane Pons",
+  "authorsParsed": [
+    [
+      "Hohlweg",
+      "Christophe",
+      ""
+    ],
+    [
+      "Pons",
+      "Viviane",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 12 Dec 2024 12:34:38 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Tue, 18 Feb 2025 22:20:44 GMT"
+    }
+  ],
+  "updateDate": "2025-02-20",
+  "timestamp": 1734006878000,
+  "abstract": "  In this article, we discuss the notion of partition of elements in an\narbitrary Coxeter system $(W,S)$: a partition of an element $w$ is a subset\n$\\mathcal P\\subseteq W$ such that the left inversion set of $w$ is the disjoint\nunion of the left inversion set of the elements in $\\mathcal P$. Partitions of\nelements of $W$ arises in the study of the Belkale-Kumar product on the\ncohomology $H^*(X,\\mathbb Z)$, where $X$ is the complete flag variety of any\ncomplex semi-simple algebraic group. Partitions of elements in the symmetric\ngroup $\\mathcal S_n$ are also related to the {\\em Babington-Smith model} in\nalgebraic statistics or to the simplicial faces of the Littlewood-Richardson\ncone.\n  We state the conjecture that the number of right descents of $w$ is the sum\nof the number of right descents of the elements of $\\mathcal P$ and prove that\nthis conjecture holds in the cases of symmetric groups (type $A$) and\nhyperoctahedral groups (type $B$).\n",
+  "subjects": [
+    "Mathematics/Combinatorics",
+    "Mathematics/Group Theory"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "EHArgh26ysxc-T89MlN-wiOBXG61yf2iLJbQKI9NF_U",
+  "pdfSize": "794504"
+}

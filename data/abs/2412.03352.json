@@ -1,0 +1,53 @@
+{
+  "id": "2412.03352",
+  "title": "Intuitive Axial Augmentation Using Polar-Sine-Based Piecewise Distortion\n  for Medical Slice-Wise Segmentation",
+  "authors": "Yiqin Zhang, Qingkui Chen, Chen Huang, Zhengjie Zhang, Meiling Chen,\n  Zhibing Fu",
+  "authorsParsed": [
+    [
+      "Zhang",
+      "Yiqin",
+      ""
+    ],
+    [
+      "Chen",
+      "Qingkui",
+      ""
+    ],
+    [
+      "Huang",
+      "Chen",
+      ""
+    ],
+    [
+      "Zhang",
+      "Zhengjie",
+      ""
+    ],
+    [
+      "Chen",
+      "Meiling",
+      ""
+    ],
+    [
+      "Fu",
+      "Zhibing",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 4 Dec 2024 14:35:06 GMT"
+    }
+  ],
+  "updateDate": "2024-12-05",
+  "timestamp": 1733322906000,
+  "abstract": "  Most data-driven models for medical image analysis rely on universal\naugmentations to improve performance. Experimental evidence has confirmed their\neffectiveness, but the unclear mechanism underlying them poses a barrier to the\nwidespread acceptance and trust in such methods within the medical community.\nWe revisit and acknowledge the unique characteristics of medical images apart\nfrom traditional digital images, and consequently, proposed a medical-specific\naugmentation algorithm that is more elastic and aligns well with radiology scan\nprocedure. The method performs piecewise affine with sinusoidal distorted ray\naccording to radius on polar coordinates, thus simulating uncertain postures of\nhuman lying flat on the scanning table. Our method could generate human\nvisceral distribution without affecting the fundamental relative position on\naxial plane. Two non-adaptive algorithms, namely Meta-based Scan Table Removal\nand Similarity-Guided Parameter Search, are introduced to bolster robustness of\nour augmentation method. Experiments show our method improves accuracy across\nmultiple famous segmentation frameworks without requiring more data samples.\nOur preview code is available in: https://github.com/MGAMZ/PSBPD.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "fJRba9KMjm2Yamc7ozxDvuupP1xfJpmJib0dMRJ2We8",
+  "pdfSize": "8255300"
+}

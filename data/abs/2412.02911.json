@@ -1,0 +1,46 @@
+{
+  "id": "2412.02911",
+  "title": "Measuring and Forecasting Conversation Incivility: the Role of\n  Antisocial and Prosocial Behaviors",
+  "authors": "Xinchen Yu, Hayden Arnold, Benjamin Su, Eduardo Blanco",
+  "authorsParsed": [
+    [
+      "Yu",
+      "Xinchen",
+      ""
+    ],
+    [
+      "Arnold",
+      "Hayden",
+      ""
+    ],
+    [
+      "Su",
+      "Benjamin",
+      ""
+    ],
+    [
+      "Blanco",
+      "Eduardo",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 3 Dec 2024 23:36:35 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Thu, 5 Dec 2024 20:19:40 GMT"
+    }
+  ],
+  "updateDate": "2024-12-09",
+  "timestamp": 1733268995000,
+  "abstract": "  This paper focuses on the task of measuring and forecasting incivility in\nconversations following replies to hate speech. Identifying replies that steer\nconversations away from hatred and elicit civil follow-up conversations sheds\nlight into effective strategies to engage with hate speech and proactively\navoid further escalation. We propose new metrics that take into account various\ndimensions of antisocial and prosocial behaviors to measure the conversation\nincivility following replies to hate speech. Our best metric aligns with human\nperceptions better than prior work. Additionally, we present analyses on a) the\nlanguage of antisocial and prosocial posts, b) the relationship between\nantisocial or prosocial posts and user interactions, and c) the language of\nreplies to hate speech that elicit follow-up conversations with different\nincivility levels. We show that forecasting the incivility level of\nconversations following a reply to hate speech is a challenging task. We also\npresent qualitative analyses to identify the most common errors made by our\nbest model.\n",
+  "subjects": [
+    "Computer Science/Computers and Society"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "-vsrmKoduAG1Dwvqp4S8Rt5-ufY9cUIGY7hB9ipVhGs",
+  "pdfSize": "659222"
+}

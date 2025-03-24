@@ -1,0 +1,61 @@
+{
+  "id": "2412.19217",
+  "title": "Applying the maximum entropy principle to neural networks enhances\n  multi-species distribution models",
+  "authors": "Maxime Ryckewaert, Diego Marcos, Christophe Botella, Maximilien\n  Servajean, Pierre Bonnet, Alexis Joly",
+  "authorsParsed": [
+    [
+      "Ryckewaert",
+      "Maxime",
+      ""
+    ],
+    [
+      "Marcos",
+      "Diego",
+      ""
+    ],
+    [
+      "Botella",
+      "Christophe",
+      ""
+    ],
+    [
+      "Servajean",
+      "Maximilien",
+      ""
+    ],
+    [
+      "Bonnet",
+      "Pierre",
+      ""
+    ],
+    [
+      "Joly",
+      "Alexis",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 26 Dec 2024 13:47:04 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Wed, 15 Jan 2025 11:21:16 GMT"
+    },
+    {
+      "version": "v3",
+      "created": "Mon, 3 Feb 2025 15:21:07 GMT"
+    }
+  ],
+  "updateDate": "2025-02-04",
+  "timestamp": 1735220824000,
+  "abstract": "  The rapid expansion of citizen science initiatives has led to a significant\ngrowth of biodiversity databases, and particularly presence-only (PO)\nobservations. PO data are invaluable for understanding species distributions\nand their dynamics, but their use in a Species Distribution Model (SDM) is\ncurtailed by sampling biases and the lack of information on absences. Poisson\npoint processes are widely used for SDMs, with Maxent being one of the most\npopular methods. Maxent maximises the entropy of a probability distribution\nacross sites as a function of predefined transformations of variables, called\nfeatures. In contrast, neural networks and deep learning have emerged as a\npromising technique for automatic feature extraction from complex input\nvariables. Arbitrarily complex transformations of input variables can be\nlearned from the data efficiently through backpropagation and stochastic\ngradient descent (SGD). In this paper, we propose DeepMaxent, which harnesses\nneural networks to automatically learn shared features among species, using the\nmaximum entropy principle. To do so, it employs a normalised Poisson loss where\nfor each species, presence probabilities across sites are modelled by a neural\nnetwork. We evaluate DeepMaxent on a benchmark dataset known for its spatial\nsampling biases, using PO data for calibration and presence-absence (PA) data\nfor validation across six regions with different biological groups and\ncovariates. Our results indicate that DeepMaxent performs better than Maxent\nand other leading SDMs across all regions and taxonomic groups. The method\nperforms particularly well in regions of uneven sampling, demonstrating\nsubstantial potential to increase SDM performances. In particular, our approach\nyields more accurate predictions than traditional single-species models, which\nopens up new possibilities for methodological enhancement.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Statistics/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "hQs-RuzMpdKWi-I_0ux-2x__rHyXBymYocUex_nMDGc",
+  "pdfSize": "11029724"
+}

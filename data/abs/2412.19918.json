@@ -1,0 +1,39 @@
+{
+  "id": "2412.19918",
+  "title": "Revisiting the Bohr Model of the Atom through Brownian Motion of the\n  Electron",
+  "authors": "Vasil Yordanov",
+  "authorsParsed": [
+    [
+      "Yordanov",
+      "Vasil",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 27 Dec 2024 20:42:44 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Wed, 1 Jan 2025 17:47:44 GMT"
+    },
+    {
+      "version": "v3",
+      "created": "Mon, 13 Jan 2025 09:08:48 GMT"
+    },
+    {
+      "version": "v4",
+      "created": "Sat, 22 Feb 2025 17:58:31 GMT"
+    }
+  ],
+  "updateDate": "2025-02-25",
+  "timestamp": 1735332164000,
+  "abstract": "  In this work, we refine the Bohr model of the hydrogen atom by describing the\nmotion of the electron through a single real-valued stochastic process,\neffectively realizing Brownian motion under the Born rule. Our approach derives\nthe electron's stochastic equation of motion from the Fokker-Planck equation\nwhile ensuring the particle always maintains a definite - albeit random -\nposition. This feature obviates the need for wave function collapse as invoked\nin the Copenhagen interpretation. Instead, the wave function serves as a tool\nto compute the electron's drift velocity. Building on this, we develop modified\nstochastic equations in spherical coordinates, tailored to the spherical\nsymmetry of the hydrogen atom. We show that these equations reproduce the\ncorrect average radial and angular kinetic energies, matching operator-based\nquantum mechanical predictions. Numerical simulations confirm the stability of\nelectron trajectories and, as expected, recover the probability distribution\nprescribed by the Born rule. At very short timescales, however, single-electron\nprobability distributions may deviate from wave function-based predictions due\nto insufficient ensemble averaging. Taken together, these findings offer an\nalternative perspective on atomic structure and highlight the potential of\nusing wave function-derived drift velocities within a single stochastic process\nto capture quantum dynamics in the hydrogen atom.\n",
+  "subjects": [
+    "Physics/Quantum Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "EDylgN3z0Jp6oulOjIv7bYBTNev6-8WtlPYz1z8aLdI",
+  "pdfSize": "1413182"
+}

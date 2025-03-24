@@ -1,0 +1,36 @@
+{
+  "id": "2412.16091",
+  "title": "Decision algorithms for fragments of real analysis. II. A theory of\n  differentiable functions with convexity and concavity predicates",
+  "authors": "Domenico Cantone and Gianluca Cincotti",
+  "authorsParsed": [
+    [
+      "Cantone",
+      "Domenico",
+      ""
+    ],
+    [
+      "Cincotti",
+      "Gianluca",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 20 Dec 2024 17:36:57 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Mon, 23 Dec 2024 10:57:53 GMT"
+    }
+  ],
+  "updateDate": "2024-12-24",
+  "timestamp": 1734716217000,
+  "abstract": "  We address the decision problem for a fragment of real analysis involving\ndifferentiable functions with continuous first derivatives. The proposed\ntheory, besides the operators of Tarski's theory of reals, includes predicates\nfor comparisons, monotonicity, convexity, and derivative of functions over\nbounded closed intervals or unbounded intervals.\n  Our decision algorithm is obtained by showing that satisfiable formulae of\nour theory admit canonical models in which functional variables are interpreted\nas piecewise exponential functions. These can be implicitly described within\nthe decidable Tarski's theory of reals.\n  Our satisfiability test generalizes previous decidability results not\ninvolving derivative operators.\n",
+  "subjects": [
+    "Computer Science/Logic in Computer Science"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "Gn1R6WEe_Yu9eg2-PYb4Pp24cxwzL7fIw7pZ_LALw-Y",
+  "pdfSize": "164602"
+}

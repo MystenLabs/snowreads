@@ -1,0 +1,37 @@
+{
+  "id": "2412.05743",
+  "title": "Enhanced channel estimation for double RIS-aided MIMO systems using\n  coupled tensor decomposition",
+  "authors": "Gerald C. Nwalozie, Andre L. F. de Almeida, Martin Haardt",
+  "authorsParsed": [
+    [
+      "Nwalozie",
+      "Gerald C.",
+      ""
+    ],
+    [
+      "de Almeida",
+      "Andre L. F.",
+      ""
+    ],
+    [
+      "Haardt",
+      "Martin",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 7 Dec 2024 20:50:33 GMT"
+    }
+  ],
+  "updateDate": "2024-12-10",
+  "timestamp": 1733604633000,
+  "abstract": "  In this paper, we consider a double-RIS (D-RIS)-aided flat-fading MIMO system\nand propose an interference-free channel training and estimation protocol,\nwhere the two single-reflection links and the one double-reflection link are\nestimated separately. Specifically, by using the proposed training protocol,\nthe signal measurements of a particular reflection link can be extracted\ninterference-free from the measurements of the superposition of the three\nlinks. We show that some channels are associated with two different components\nof the received signal. Exploiting the common channels involved in the single\nand double reflection links while recasting the received signals as tensors, we\nformulate the coupled tensor-based least square Khatri-Rao factorization\n(C-KRAFT) algorithm which is a closed-form solution and an enhanced iterative\nsolution with less restrictions on the identifiability constraints, the\ncoupled-alternating least square (C-ALS) algorithm. The C-KRAFT and C-ALS based\nchannel estimation schemes are used to obtain the channel matrices in both\nsingle and double reflection links. We show that the proposed coupled tensor\ndecomposition-based channel estimation schemes offer more accurate channel\nestimates under less restrictive identifiability constraints compared to\ncompeting channel estimation methods. Simulation results are provided showing\nthe effectiveness of the proposed algorithms.\n",
+  "subjects": [
+    "Electrical Engineering and Systems Science/Signal Processing"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "5ZhvS8rQ9XXtw6of0X54vk0MVUOmATv7Wk1UG5-uEWU",
+  "pdfSize": "951893"
+}

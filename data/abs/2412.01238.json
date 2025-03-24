@@ -1,0 +1,31 @@
+{
+  "id": "2412.01238",
+  "title": "Investigations of MWISP Filaments. I. Filament Identification and\n  Analysis Algorithms, and Source Catalogue",
+  "authors": "Yu Jiang",
+  "authorsParsed": [
+    [
+      "Jiang",
+      "Yu",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 2 Dec 2024 08:02:50 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Thu, 9 Jan 2025 15:44:24 GMT"
+    }
+  ],
+  "updateDate": "2025-01-10",
+  "timestamp": 1733126570000,
+  "abstract": "  Filaments play a crucial role in providing the necessary environmental\nconditions for star formation, actively participating in the process. To\nfacilitate the identification and analysis of filaments, we introduce DPConCFil\n(Directional and Positional Consistency between Clumps and Filaments), a suite\nof algorithms comprising one identification method and two analysis methods.\nThe first method, the consistency-based identification approach, uses\ndirectional and positional consistency among neighboring clumps and local\nfilament axes to identify filaments in the PPV datacube. The second method\nemploys a graph-based skeletonization technique to extract the filament\nintensity skeletons. The third method, a graph-based substructuring approach,\nallows the decomposition of complex filaments into simpler sub-filaments. We\ndemonstrate the effectiveness of DPConCFil by applying the identification\nmethod to the clumps detected in the Milky Way Imaging Scroll Painting (MWISP)\nsurvey dataset by FacetClumps, successfully identifying a batch of filaments\nacross various scales within $10^{\\circ} \\leq l \\leq 20^{\\circ}$,\n$-5.25^{\\circ} \\leq b \\leq 5.25^{\\circ}$ and -200 km s$^{-1}$ $\\leq v \\leq$ 200\nkm s$^{-1}$. Subsequently, we apply the analysis methods to the identified\nfilaments, presenting a catalog with basic parameters and conducting statistics\nof their galactic distribution and properties. DPConCFil is openly available on\nGitHub, accompanied by a manual.\n",
+  "subjects": [
+    "Astrophysics/Astrophysics of Galaxies"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "DgeImzeOXQUXfNFbwSXRwJ8EWi439Rp7Z4iVu-vYlrY",
+  "pdfSize": "9882154"
+}

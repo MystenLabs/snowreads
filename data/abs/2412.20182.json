@@ -1,0 +1,52 @@
+{
+  "id": "2412.20182",
+  "title": "Anatomy of information scrambling and decoherence in the integrable\n  Sachdev-Ye-Kitaev model",
+  "authors": "Antonio M. Garc\\'ia-Garc\\'ia, Chang Liu, Lucas S\\'a, Jacobus J. M.\n  Verbaarschot, Jie-ping Zheng",
+  "authorsParsed": [
+    [
+      "García-García",
+      "Antonio M.",
+      ""
+    ],
+    [
+      "Liu",
+      "Chang",
+      ""
+    ],
+    [
+      "Sá",
+      "Lucas",
+      ""
+    ],
+    [
+      "Verbaarschot",
+      "Jacobus J. M.",
+      ""
+    ],
+    [
+      "Zheng",
+      "Jie-ping",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 28 Dec 2024 15:39:26 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Mon, 27 Jan 2025 16:12:58 GMT"
+    }
+  ],
+  "updateDate": "2025-01-28",
+  "timestamp": 1735400366000,
+  "abstract": "  The growth of information scrambling, captured by out-of-time-order\ncorrelation functions (OTOCs), is a central indicator of the nature of\nmany-body quantum dynamics. Here, we compute analytically the complete time\ndependence of the OTOC for an integrable Sachdev-Ye-Kitaev (SYK) model, $N$\nMajoranas with random two-body interactions of infinite range, coupled to a\nMarkovian bath at finite temperature. In the limit of no coupling to the bath,\nthe time evolution of scrambling experiences different stages. For $t \\lesssim\n\\sqrt{N}$, after an initial polynomial growth, the OTOC approaches saturation\nin a power-law fashion with oscillations superimposed. At $t \\sim \\sqrt{N}$,\nthe OTOC reverses trend and starts to decrease linearly in time. The reason for\nthis linear decrease is that, despite being a subleading $1/N$ effect, the OTOC\nin this region is governed by the spectral form factor of the antisymmetric\ncouplings of the SYK model. The linear decrease stops at $t \\sim 2N$, the\nHeisenberg time, where saturation occurs. The effect of the environment is an\noverall exponential decay of the OTOC for times longer than the inverse of the\ncoupling strength to the bath. The oscillations at $t \\lesssim \\sqrt{N}$\nindicate lack of thermalization -- a desired feature for a better performance\nof quantum information devices.\n",
+  "subjects": [
+    "Physics/High Energy Physics - Theory",
+    "Physics/Quantum Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "rGtA5FWNv2p2U6k49UFsvFLgF5Sb30zEt1oOlRjfhgI",
+  "pdfSize": "737182"
+}

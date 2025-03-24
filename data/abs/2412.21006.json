@@ -1,0 +1,47 @@
+{
+  "id": "2412.21006",
+  "title": "Verbosity-Aware Rationale Reduction: Effective Reduction of Redundant\n  Rationale via Principled Criteria",
+  "authors": "Joonwon Jang, Jaehee Kim, Wonbin Kweon, Hwanjo Yu",
+  "authorsParsed": [
+    [
+      "Jang",
+      "Joonwon",
+      ""
+    ],
+    [
+      "Kim",
+      "Jaehee",
+      ""
+    ],
+    [
+      "Kweon",
+      "Wonbin",
+      ""
+    ],
+    [
+      "Yu",
+      "Hwanjo",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 30 Dec 2024 15:15:08 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Tue, 31 Dec 2024 03:06:15 GMT"
+    }
+  ],
+  "updateDate": "2025-01-03",
+  "timestamp": 1735571708000,
+  "abstract": "  Large Language Models (LLMs) rely on generating extensive intermediate\nreasoning units (e.g., tokens, sentences) to enhance final answer quality\nacross a wide range of complex tasks. While generating multiple reasoning paths\nor iteratively refining rationales proves effective for improving performance,\nthese approaches inevitably result in significantly higher inference costs. In\nthis work, we propose a novel sentence-level rationale reduction training\nframework that leverages likelihood-based criteria, verbosity, to identify and\nremove redundant reasoning sentences. Unlike previous approaches that utilize\ntoken-level reduction, our sentence-level reduction framework maintains model\nperformance while reducing generation length. This preserves the original\nreasoning abilities of LLMs and achieves an average 17.15% reduction in\ngeneration costs across various models and tasks.\n",
+  "subjects": [
+    "Computer Science/Computation and Language",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "VjI2SNM64RUnk2XvBe7eO_vkpqhzTu6r33irTdWW-a8",
+  "pdfSize": "1038457"
+}

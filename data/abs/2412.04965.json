@@ -1,0 +1,37 @@
+{
+  "id": "2412.04965",
+  "title": "Succinct Data Structures for Segments",
+  "authors": "Philip Bille, Inge Li G{\\o}rtz, Simon R. Tarnow",
+  "authorsParsed": [
+    [
+      "Bille",
+      "Philip",
+      ""
+    ],
+    [
+      "Gørtz",
+      "Inge Li",
+      ""
+    ],
+    [
+      "Tarnow",
+      "Simon R.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 6 Dec 2024 11:32:56 GMT"
+    }
+  ],
+  "updateDate": "2024-12-09",
+  "timestamp": 1733484776000,
+  "abstract": "  We consider succinct data structures for representing a set of $n$ horizontal\nline segments in the plane given in rank space to support \\emph{segment\naccess}, \\emph{segment selection}, and \\emph{segment rank} queries. A segment\naccess query finds the segment $(x_1, x_2, y)$ given its $y$-coordinate\n($y$-coordinates of the segments are distinct), a segment selection query finds\nthe $j$th smallest segment (the segment with the $j$th smallest $y$-coordinate)\namong the segments crossing the vertical line for a given $x$-coordinate, and a\nsegment rank query finds the number of segments crossing the vertical line\nthrough $x$-coordinate $i$ with $y$-coordinate at most $y$, for a given $x$ and\n$y$. This problem is a central component in compressed data structures for\npersistent strings supporting random access.\n  Our main result is data structure using $2n\\lg{n} + O(n\\lg{n}/\\lg{\\lg{n}})$\nbits of space and $O(\\lg{n}/\\lg{\\lg{n}})$ query time for all operations. We\nshow that this space bound is optimal up to lower-order terms. We will also\nshow that the query time for segment rank is optimal. The query time for\nsegment selection is also optimal by a previous bound.\n  To obtain our results, we present a novel segment wavelet tree data structure\nof independent interest. This structure is inspired by and extends the classic\nwavelet tree for sequences. This leads to a simple, succinct solution with\n$O(\\log n)$ query times. We then extend this solution to obtain optimal query\ntime. Our space lower bound follows from a simple counting argument, and our\nlower bound for segment rank is obtained by a reduction from 2-dimensional\ncounting.\n",
+  "subjects": [
+    "Computer Science/Data Structures and Algorithms"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "eMgvi6aXROBiczhs6pyFktZShjDuMwwtDKJjcCFYjFs",
+  "pdfSize": "519545"
+}

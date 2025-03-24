@@ -1,0 +1,57 @@
+{
+  "id": "2412.18470",
+  "title": "PonziLens+: Visualizing Bytecode Actions for Smart Ponzi Scheme\n  Identification",
+  "authors": "Xiaolin Wen, Tai D. Nguyen, Shaolun Ruan, Qiaomu Shen, Jun Sun, Feida\n  Zhu, and Yong Wang",
+  "authorsParsed": [
+    [
+      "Wen",
+      "Xiaolin",
+      ""
+    ],
+    [
+      "Nguyen",
+      "Tai D.",
+      ""
+    ],
+    [
+      "Ruan",
+      "Shaolun",
+      ""
+    ],
+    [
+      "Shen",
+      "Qiaomu",
+      ""
+    ],
+    [
+      "Sun",
+      "Jun",
+      ""
+    ],
+    [
+      "Zhu",
+      "Feida",
+      ""
+    ],
+    [
+      "Wang",
+      "Yong",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 24 Dec 2024 14:56:07 GMT"
+    }
+  ],
+  "updateDate": "2024-12-25",
+  "timestamp": 1735052167000,
+  "abstract": "  With the prevalence of smart contracts, smart Ponzi schemes have become a\ncommon fraud on blockchain and have caused significant financial loss to\ncryptocurrency investors in the past few years. Despite the critical importance\nof detecting smart Ponzi schemes, a reliable and transparent identification\napproach adaptive to various smart Ponzi schemes is still missing. To fill the\nresearch gap, we first extract semantic-meaningful actions to represent the\nexecution behaviors specified in smart contract bytecodes, which are derived\nfrom a literature review and in-depth interviews with domain experts. We then\npropose PonziLens+, a novel visual analytic approach that provides an intuitive\nand reliable analysis of Ponzi-scheme-related features within these execution\nbehaviors. PonziLens+ has three visualization modules that intuitively reveal\nall potential behaviors of a smart contract, highlighting fraudulent features\nacross three levels of detail. It can help smart contract investors and\nauditors achieve confident identification of any smart Ponzi schemes. We\nconducted two case studies and in-depth user interviews with 12 domain experts\nand common investors to evaluate PonziLens+. The results demonstrate the\neffectiveness and usability of PonziLens+ in achieving an effective\nidentification of smart Ponzi schemes.\n",
+  "subjects": [
+    "Computer Science/Human-Computer Interaction"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "yR5yeJ-HM5Nc-_1jVDIPLYbZvlLu2_Taxke-0a2ilvg",
+  "pdfSize": "10743149"
+}

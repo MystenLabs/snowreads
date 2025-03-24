@@ -1,0 +1,65 @@
+{
+  "id": "2412.13810",
+  "title": "CAD-Assistant: Tool-Augmented VLLMs as Generic CAD Task Solvers?",
+  "authors": "Dimitrios Mallis, Ahmet Serdar Karadeniz, Sebastian Cavada, Danila\n  Rukhovich, Niki Foteinopoulou, Kseniya Cherenkova, Anis Kacem, Djamila Aouada",
+  "authorsParsed": [
+    [
+      "Mallis",
+      "Dimitrios",
+      ""
+    ],
+    [
+      "Karadeniz",
+      "Ahmet Serdar",
+      ""
+    ],
+    [
+      "Cavada",
+      "Sebastian",
+      ""
+    ],
+    [
+      "Rukhovich",
+      "Danila",
+      ""
+    ],
+    [
+      "Foteinopoulou",
+      "Niki",
+      ""
+    ],
+    [
+      "Cherenkova",
+      "Kseniya",
+      ""
+    ],
+    [
+      "Kacem",
+      "Anis",
+      ""
+    ],
+    [
+      "Aouada",
+      "Djamila",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 18 Dec 2024 12:57:56 GMT"
+    }
+  ],
+  "updateDate": "2024-12-19",
+  "timestamp": 1734526676000,
+  "abstract": "  We propose CAD-Assistant, a general-purpose CAD agent for AI-assisted design.\nOur approach is based on a powerful Vision and Large Language Model (VLLM) as a\nplanner and a tool-augmentation paradigm using CAD-specific modules.\nCAD-Assistant addresses multimodal user queries by generating actions that are\niteratively executed on a Python interpreter equipped with the FreeCAD\nsoftware, accessed via its Python API. Our framework is able to assess the\nimpact of generated CAD commands on geometry and adapts subsequent actions\nbased on the evolving state of the CAD design. We consider a wide range of\nCAD-specific tools including Python libraries, modules of the FreeCAD Python\nAPI, helpful routines, rendering functions and other specialized modules. We\nevaluate our method on multiple CAD benchmarks and qualitatively demonstrate\nthe potential of tool-augmented VLLMs as generic CAD task solvers across\ndiverse CAD workflows.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Machine Learning",
+    "Computer Science/Robotics"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "HrUwqXEgBXE9VRfY0KMSNhYOwVcG_RjVBY9kCZAA-Js",
+  "pdfSize": "7208569"
+}

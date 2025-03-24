@@ -1,0 +1,53 @@
+{
+  "id": "2412.19005",
+  "title": "Enhancing Audiovisual Speech Recognition through Bifocal Preference\n  Optimization",
+  "authors": "Yihan Wu, Yichen Lu, Yifan Peng, Xihua Wang, Ruihua Song, Shinji\n  Watanabe",
+  "authorsParsed": [
+    [
+      "Wu",
+      "Yihan",
+      ""
+    ],
+    [
+      "Lu",
+      "Yichen",
+      ""
+    ],
+    [
+      "Peng",
+      "Yifan",
+      ""
+    ],
+    [
+      "Wang",
+      "Xihua",
+      ""
+    ],
+    [
+      "Song",
+      "Ruihua",
+      ""
+    ],
+    [
+      "Watanabe",
+      "Shinji",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 26 Dec 2024 00:26:45 GMT"
+    }
+  ],
+  "updateDate": "2024-12-30",
+  "timestamp": 1735172805000,
+  "abstract": "  Audiovisual Automatic Speech Recognition (AV-ASR) aims to improve speech\nrecognition accuracy by leveraging visual signals. It is particularly\nchallenging in unconstrained real-world scenarios across various domains due to\nnoisy acoustic environments, spontaneous speech, and the uncertain use of\nvisual information. Most previous works fine-tune audio-only ASR models on\naudiovisual datasets, optimizing them for conventional ASR objectives. However,\nthey often neglect visual features and common errors in unconstrained video\nscenarios. In this paper, we propose using a preference optimization strategy\nto improve speech recognition accuracy for real-world videos. First, we create\npreference data via simulating common errors that occurred in AV-ASR from two\nfocals: manipulating the audio or vision input and rewriting the output\ntranscript. Second, we propose BPO-AVASR, a Bifocal Preference Optimization\nmethod to improve AV-ASR models by leveraging both input-side and output-side\npreference. Extensive experiments demonstrate that our approach significantly\nimproves speech recognition accuracy across various domains, outperforming\nprevious state-of-the-art models on real-world video speech recognition.\n",
+  "subjects": [
+    "Electrical Engineering and Systems Science/Audio and Speech Processing",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "8CtFcct3lYUf8I2pyzFVfbdrwnjXXYXAOCg2YiDdgFQ",
+  "pdfSize": "3126953"
+}

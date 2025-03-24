@@ -1,0 +1,51 @@
+{
+  "id": "2412.15445",
+  "title": "Cross-System Software Log-based Anomaly Detection Using Meta-Learning",
+  "authors": "Yuqing Wang and Mika V. M\\\"antyl\\\"a and Jesse Nyyss\\\"ol\\\"a and Ke Ping\n  and Liqiang Wang",
+  "authorsParsed": [
+    [
+      "Wang",
+      "Yuqing",
+      ""
+    ],
+    [
+      "Mäntylä",
+      "Mika V.",
+      ""
+    ],
+    [
+      "Nyyssölä",
+      "Jesse",
+      ""
+    ],
+    [
+      "Ping",
+      "Ke",
+      ""
+    ],
+    [
+      "Wang",
+      "Liqiang",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 19 Dec 2024 22:55:45 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Sat, 25 Jan 2025 21:31:54 GMT"
+    }
+  ],
+  "updateDate": "2025-01-28",
+  "timestamp": 1734648945000,
+  "abstract": "  Modern software systems produce vast amounts of logs, serving as an essential\nresource for anomaly detection. Artificial Intelligence for IT Operations\n(AIOps) tools have been developed to automate the process of log-based anomaly\ndetection for software systems. Three practical challenges are widely\nrecognized in this field: high data labeling costs, evolving logs in dynamic\nsystems, and adaptability across different systems. In this paper, we propose\nCroSysLog, an AIOps tool for log-event level anomaly detection, specifically\ndesigned in response to these challenges. Following prior approaches, CroSysLog\nuses a neural representation approach to gain a nuanced understanding of logs\nand generate representations for individual log events accordingly. CroSysLog\ncan be trained on source systems with sufficient labeled logs from open\ndatasets to achieve robustness, and then efficiently adapt to target systems\nwith a few labeled log events for effective anomaly detection. We evaluate\nCroSysLog using open datasets of four large-scale distributed supercomputing\nsystems: BGL, Thunderbird, Liberty, and Spirit. We used random log splits,\nmaintaining the chronological order of consecutive log events, from these\nsystems to train and evaluate CroSysLog. These splits were widely distributed\nacross a one/two-year span of each system's log collection duration, thereby\ncapturing the evolving nature of the logs in each system. Our results show\nthat, after training CroSysLog on Liberty and BGL as source systems, CroSysLog\ncan efficiently adapt to target systems Thunderbird and Spirit using a few\nlabeled log events from each target system, effectively performing anomaly\ndetection for these target systems. The results demonstrate that CroSysLog is a\npractical, scalable, and adaptable tool for log-event level anomaly detection\nin operational and maintenance contexts of software systems.\n",
+  "subjects": [
+    "Computer Science/Software Engineering"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "a0-Qxrw8FRhRKtrhKyXghiPcnJj5YcN9RV1bIHG4U_o",
+  "pdfSize": "719035"
+}

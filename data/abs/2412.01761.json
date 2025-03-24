@@ -1,0 +1,52 @@
+{
+  "id": "2412.01761",
+  "title": "Vector-Like Quarks at the LHC: A Unified Perspective from ATLAS and CMS\n  Exclusion Limits",
+  "authors": "Rachid Benbrik (1), Mohammed Boukidi (1), Mohamed Ech-chaouy (1),\n  Stefano Moretti (2) (3), Khawla Salime (1), Qi-Shu Yan (4) (5), ((1)\n  Polydisciplinary Faculty, Laboratory of Fundamental and Applied Physics, Cadi\n  Ayyad University, Morocco, (2) School of Physics and Astronomy, University of\n  Southampton, United Kingdom, (3) Department of Physics and Astronomy, Uppsala\n  University, Sweden, (4) Center for Future High Energy Physics, Chinese\n  Academy of Sciences, P.R. China, (5) School of Physics Sciences, University\n  of Chinese Academy of Sciences, P.R. China)",
+  "authorsParsed": [
+    [
+      "Benbrik",
+      "Rachid",
+      ""
+    ],
+    [
+      "Boukidi",
+      "Mohammed",
+      ""
+    ],
+    [
+      "Ech-chaouy",
+      "Mohamed",
+      ""
+    ],
+    [
+      "Moretti",
+      "Stefano",
+      ""
+    ],
+    [
+      "Salime",
+      "Khawla",
+      ""
+    ],
+    [
+      "Yan",
+      "Qi-Shu",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 2 Dec 2024 17:56:43 GMT"
+    }
+  ],
+  "updateDate": "2024-12-03",
+  "timestamp": 1733162203000,
+  "abstract": "  In this work, we present a comprehensive review of the most up-to-date\nexclusion limits on Vector-Like Quarks (VLQs) derived from ATLAS and CMS data\nat the Large Hadron Collider (LHC). Our analysis encompasses both pair and\nsingle production modes, systematically comparing results from the two\ncollaborations to identify and employ the most stringent bounds at each mass\npoint. We evaluate the excluded parameter space for VLQs under singlet,\ndoublet, and triplet representations. For top-like VLQs ($T$), the exclusion\nlimits rule out masses up to 1.49 TeV in singlet scenarios, while single\nproduction constrains the mixing parameter $\\kappa$ to values below 0.26 at\n$m_T \\sim 1.5$ TeV and up to 0.42 for $m_T \\sim 2$ TeV. For bottom-like VLQs\n($B$), the strongest exclusion limits from pair production exclude masses up to\n1.52 TeV in doublet configurations, with single production constraining\n$\\kappa$ values between 0.2 and 0.7 depending on the mass. For exotic VLQs,\nsuch as $X$ and $Y$, pair production excludes masses up to 1.46 TeV and 1.7\nTeV, respectively. The constraints on $\\kappa$ from these analyses become\nincreasingly restrictive at higher masses, reflecting the enhanced sensitivity\nof single production channels in this regime. For $X$, $\\kappa$ is constrained\nbelow 0.16 for masses between 0.8 and 1.6 TeV and further tightens to $\\kappa <\n0.2$ as the mass approaches 1.8 TeV. Similarly, for $Y$, $\\kappa$ values are\nconstrained below 0.26 around $m_Y \\sim 1.7$ TeV, with exclusions gradually\nrelaxing at higher masses. These exclusion regions, derived from the most\nstringent LHC search results, offer a unified and up-to-date perspective on VLQ\nphenomenology. The results were computed using \\texttt{VLQBounds}, a new\nPython-based tool specifically developed for this purpose.\n",
+  "subjects": [
+    "Physics/High Energy Physics - Phenomenology"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "LePCvasKPbr346lxvVUW8Z0P4BzRu6VdszeJrzQ_5Ls",
+  "pdfSize": "1536470"
+}

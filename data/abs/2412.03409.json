@@ -1,0 +1,66 @@
+{
+  "id": "2412.03409",
+  "title": "PrefixKV: Adaptive Prefix KV Cache is What Vision Instruction-Following\n  Models Need for Efficient Generation",
+  "authors": "Ao Wang, Hui Chen, Jianchao Tan, Kefeng Zhang, Xunliang Cai, Zijia\n  Lin, Jungong Han, Guiguang Ding",
+  "authorsParsed": [
+    [
+      "Wang",
+      "Ao",
+      ""
+    ],
+    [
+      "Chen",
+      "Hui",
+      ""
+    ],
+    [
+      "Tan",
+      "Jianchao",
+      ""
+    ],
+    [
+      "Zhang",
+      "Kefeng",
+      ""
+    ],
+    [
+      "Cai",
+      "Xunliang",
+      ""
+    ],
+    [
+      "Lin",
+      "Zijia",
+      ""
+    ],
+    [
+      "Han",
+      "Jungong",
+      ""
+    ],
+    [
+      "Ding",
+      "Guiguang",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 4 Dec 2024 15:48:59 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Sat, 7 Dec 2024 13:23:39 GMT"
+    }
+  ],
+  "updateDate": "2024-12-10",
+  "timestamp": 1733327339000,
+  "abstract": "  Recently, large vision-language models (LVLMs) have rapidly gained popularity\nfor their strong generation and reasoning capabilities given diverse multimodal\ninputs. However, these models incur significant computational and memory\noverhead during inference, which greatly hinders the efficient deployment in\npractical scenarios. The extensive key-value (KV) cache, necessitated by the\nlengthy input and output sequences, notably contributes to the high inference\ncost. Based on this, recent works have investigated ways to reduce the KV cache\nsize for higher efficiency. Although effective, they generally overlook the\ndistinct importance distributions of KV vectors across layers and maintain the\nsame cache size for each layer during the next token prediction. This results\nin the significant contextual information loss for certain layers, leading to\nnotable performance decline. To address this, we present PrefixKV. It reframes\nthe challenge of determining KV cache sizes for all layers into the task of\nsearching for the optimal global prefix configuration. With an adaptive\nlayer-wise KV retention recipe based on binary search, the maximum contextual\ninformation can thus be preserved in each layer, facilitating the generation.\nExtensive experiments demonstrate that our method achieves the state-of-the-art\nperformance compared with others. It exhibits superior inference efficiency and\ngeneration quality trade-offs, showing promising potential for practical\napplications. Code is available at \\url{https://github.com/THU-MIG/PrefixKV}.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "PRXIhjHHqAPMkJ-BG5YTX0524Bvij6kHK0H1kP7bFPE",
+  "pdfSize": "968001"
+}

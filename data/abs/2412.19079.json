@@ -1,0 +1,43 @@
+{
+  "id": "2412.19079",
+  "title": "Efficient cell-centered nodal integral method for multi-dimensional\n  Burgers equations",
+  "authors": "Nadeem Ahmed, Ram Prakash Bharti, Suneet Singh",
+  "authorsParsed": [
+    [
+      "Ahmed",
+      "Nadeem",
+      ""
+    ],
+    [
+      "Bharti",
+      "Ram Prakash",
+      ""
+    ],
+    [
+      "Singh",
+      "Suneet",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 26 Dec 2024 06:34:02 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Sun, 5 Jan 2025 15:26:52 GMT"
+    }
+  ],
+  "updateDate": "2025-01-07",
+  "timestamp": 1735194842000,
+  "abstract": "  An efficient coarse-mesh nodal integral method (NIM), based on cell-centered\nvariables and referred to as cell-centered NIM (CCNIM), is developed and\napplied for solving multi-dimensional, time-dependent, Burgers equations.\nUnlike traditional NIM, which utilizes surface-averaged variables as discrete\nunknowns, this innovative approach formulates the final expression of the\nnumerical scheme using discrete unknowns represented by cell-centered or\nnode-averaged variables. By relying on these cell centroids, the proposed CCNIM\napproach presents several advantages compared to traditional NIM. These include\na simplified implementation process in terms of local coordinate systems,\nenhanced flexibility regarding the higher order of accuracy in time,\nstraightforward formulation for higher-degree temporal derivatives, and\noffering a viable option for coupling with other physics. The multidimensional\ntime-dependent Burgers' problems with known analytical solutions are solved in\norder to validate the developed scheme. Furthermore, a detailed comparison\nbetween the proposed CCNIM approach and other traditional NIM schemes is\nconducted to showcase its effectiveness. The simplicity and robustness of the\napproach provide a strong foundation for its seamless extension to more complex\nfluid flow problems.\n",
+  "subjects": [
+    "Mathematics/Numerical Analysis",
+    "Computer Science/Numerical Analysis",
+    "Physics/Fluid Dynamics"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "MjB4ITBhbH_JwGF9VYpcPGxdH2Py-O7Xw5-TDhhRpMg",
+  "pdfSize": "18625743"
+}

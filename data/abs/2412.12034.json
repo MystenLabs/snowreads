@@ -1,0 +1,42 @@
+{
+  "id": "2412.12034",
+  "title": "Thermodynamics-informed graph neural networks for real-time simulation\n  of digital human twins",
+  "authors": "Lucas Tes\\'an, David Gonz\\'alez, Pedro Martins and El\\'ias Cueto",
+  "authorsParsed": [
+    [
+      "Tesán",
+      "Lucas",
+      ""
+    ],
+    [
+      "González",
+      "David",
+      ""
+    ],
+    [
+      "Martins",
+      "Pedro",
+      ""
+    ],
+    [
+      "Cueto",
+      "Elías",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 16 Dec 2024 18:01:40 GMT"
+    }
+  ],
+  "updateDate": "2024-12-17",
+  "timestamp": 1734372100000,
+  "abstract": "  The growing importance of real-time simulation in the medical field has\nexposed the limitations and bottlenecks inherent in the digital representation\nof complex biological systems. This paper presents a novel methodology aimed at\nadvancing current lines of research in soft tissue simulation. The proposed\napproach introduces a hybrid model that integrates the geometric bias of graph\nneural networks with the physical bias derived from the imposition of a\nmetriplectic structure as soft and hard constrains in the architecture, being\nable to simulate hepatic tissue with dissipative properties. This approach\nprovides an efficient solution capable of generating predictions at high\nfeedback rate while maintaining a remarkable generalization ability for\npreviously unseen anatomies. This makes these features particularly relevant in\nthe context of precision medicine and haptic rendering.\n  Based on the adopted methodologies, we propose a model that predicts human\nliver responses to traction and compression loads in as little as 7.3\nmilliseconds for optimized configurations and as fast as 1.65 milliseconds in\nthe most efficient cases, all in the forward pass. The model achieves relative\nposition errors below 0.15\\%, with stress tensor and velocity estimations\nmaintaining relative errors under 7\\%. This demonstrates the robustness of the\napproach developed, which is capable of handling diverse load states and\nanatomies effectively. This work highlights the feasibility of integrating\nreal-time simulation with patient-specific geometries through deep learning,\npaving the way for more robust digital human twins in medical applications.\n",
+  "subjects": [
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "L26fUDV58zYjYbappfrfHb0aTYvfpAozO7aF3Ovcx8g",
+  "pdfSize": "34192305"
+}

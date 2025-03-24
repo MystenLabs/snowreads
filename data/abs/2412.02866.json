@@ -1,0 +1,33 @@
+{
+  "id": "2412.02866",
+  "title": "A note on the no-$(d+2)$-on-a-sphere problem",
+  "authors": "Andrew Suk, Ethan Patrick White",
+  "authorsParsed": [
+    [
+      "Suk",
+      "Andrew",
+      ""
+    ],
+    [
+      "White",
+      "Ethan Patrick",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 3 Dec 2024 22:01:23 GMT"
+    }
+  ],
+  "updateDate": "2024-12-05",
+  "timestamp": 1733263283000,
+  "abstract": "  For fixed $d\\geq 3$, we construct subsets of the $d$-dimensional lattice cube\n$[n]^d$ of size $n^{\\frac{3}{d + 1} - o(1)}$ with no $d+2$ points on a sphere\nor a hyperplane. This improves the previously best known bound of\n$\\Omega(n^{\\frac{1}{d-1}})$ due to Thiele from 1995.\n",
+  "subjects": [
+    "Mathematics/Combinatorics",
+    "Computer Science/Discrete Mathematics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "xkB0MtGeOM21in0pf4diQ3iSFplDq6dlVG8TJwVND5k",
+  "pdfSize": "146699"
+}

@@ -1,0 +1,37 @@
+{
+  "id": "2412.14789",
+  "title": "On the Spread of Graph-Related Matrices",
+  "authors": "Lele Liu, Yi-Zheng Fan, Yi Wang",
+  "authorsParsed": [
+    [
+      "Liu",
+      "Lele",
+      ""
+    ],
+    [
+      "Fan",
+      "Yi-Zheng",
+      ""
+    ],
+    [
+      "Wang",
+      "Yi",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 19 Dec 2024 12:29:22 GMT"
+    }
+  ],
+  "updateDate": "2024-12-20",
+  "timestamp": 1734611362000,
+  "abstract": "  Let $M$ be an $n\\times n$ real symmetric matrix. The spread of $M$ is defined\nas the difference between its largest and smallest eigenvalue. When considering\nthe spread of graph-related matrices, this topic has attracted significant\nattention, resulting in a substantial collection of findings. In this paper, we\nstudy a general spread problem regarding $A_{\\alpha}$-matrix of graphs. The\n$A_{\\alpha}$-matrix of a graph $G$, introduced by Nikiforov in 2017, is a\nconvex combinations of its diagonal degree matrix $D(G)$ and adjacency matrix\n$A(G)$, defined as $A_{\\alpha} (G) = \\alpha D(G) + (1-\\alpha) A(G)$. Let\n$\\lambda_1^{(\\alpha)} (G)$ and $\\lambda_n^{(\\alpha)} (G)$ denote the largest\nand least eigenvalues of $A_{\\alpha} (G)$, respectively. We determined the\nunique graph that maximizes $\\lambda^{(\\alpha)}_1 (G) -\n\\beta\\cdot\\lambda^{(\\gamma)}_n (G)$ among all connected $n$-vertex graphs for\nsufficiently large $n$, where $0 \\leq \\alpha < 1$, $1/2\\leq \\gamma < 1$ and\n$0<\\beta\\gamma\\leq 1$. As applications, we confirm a conjecture proposed by\nLin, Miao, and Guo [Linear Algebra Appl. 606 (2020) 1--22], and derive a new\nfinding.\n",
+  "subjects": [
+    "Mathematics/Combinatorics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "KU7XxdPHqJIw_FCYVFYYkwzGdhviaTXsWkePn9RUXeY",
+  "pdfSize": "156735"
+}

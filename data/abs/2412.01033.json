@@ -1,0 +1,73 @@
+{
+  "id": "2412.01033",
+  "title": "SAUP: Situation Awareness Uncertainty Propagation on LLM Agent",
+  "authors": "Qiwei Zhao, Xujiang Zhao, Yanchi Liu, Wei Cheng, Yiyou Sun, Mika\n  Oishi, Takao Osaki, Katsushi Matsuda, Huaxiu Yao, Haifeng Chen",
+  "authorsParsed": [
+    [
+      "Zhao",
+      "Qiwei",
+      ""
+    ],
+    [
+      "Zhao",
+      "Xujiang",
+      ""
+    ],
+    [
+      "Liu",
+      "Yanchi",
+      ""
+    ],
+    [
+      "Cheng",
+      "Wei",
+      ""
+    ],
+    [
+      "Sun",
+      "Yiyou",
+      ""
+    ],
+    [
+      "Oishi",
+      "Mika",
+      ""
+    ],
+    [
+      "Osaki",
+      "Takao",
+      ""
+    ],
+    [
+      "Matsuda",
+      "Katsushi",
+      ""
+    ],
+    [
+      "Yao",
+      "Huaxiu",
+      ""
+    ],
+    [
+      "Chen",
+      "Haifeng",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 2 Dec 2024 01:31:13 GMT"
+    }
+  ],
+  "updateDate": "2024-12-03",
+  "timestamp": 1733103073000,
+  "abstract": "  Large language models (LLMs) integrated into multistep agent systems enable\ncomplex decision-making processes across various applications. However, their\noutputs often lack reliability, making uncertainty estimation crucial. Existing\nuncertainty estimation methods primarily focus on final-step outputs, which\nfail to account for cumulative uncertainty over the multistep decision-making\nprocess and the dynamic interactions between agents and their environments. To\naddress these limitations, we propose SAUP (Situation Awareness Uncertainty\nPropagation), a novel framework that propagates uncertainty through each step\nof an LLM-based agent's reasoning process. SAUP incorporates situational\nawareness by assigning situational weights to each step's uncertainty during\nthe propagation. Our method, compatible with various one-step uncertainty\nestimation techniques, provides a comprehensive and accurate uncertainty\nmeasure. Extensive experiments on benchmark datasets demonstrate that SAUP\nsignificantly outperforms existing state-of-the-art methods, achieving up to\n20% improvement in AUROC.\n",
+  "subjects": [
+    "Computer Science/Computation and Language",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "FCyq1GCgwtnenuldBT9Ey0_eGLju5uy6KHjAXD225yY",
+  "pdfSize": "1818234"
+}

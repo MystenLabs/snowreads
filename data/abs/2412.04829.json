@@ -1,0 +1,44 @@
+{
+  "id": "2412.04829",
+  "title": "Learning-based Control for Tendon-Driven Continuum Robotic Arms",
+  "authors": "Nima Maghooli, Omid Mahdizadeh, Mohammad Bajelani, S. Ali A. Moosavian",
+  "authorsParsed": [
+    [
+      "Maghooli",
+      "Nima",
+      ""
+    ],
+    [
+      "Mahdizadeh",
+      "Omid",
+      ""
+    ],
+    [
+      "Bajelani",
+      "Mohammad",
+      ""
+    ],
+    [
+      "Moosavian",
+      "S. Ali A.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 6 Dec 2024 07:46:23 GMT"
+    }
+  ],
+  "updateDate": "2024-12-09",
+  "timestamp": 1733471183000,
+  "abstract": "  This paper presents a learning-based approach for centralized position\ncontrol of Tendon Driven Continuum Robots (TDCRs) using Deep Reinforcement\nLearning (DRL), with a particular focus on the Sim-to-Real transfer of control\npolicies. The proposed control method employs the Modified Transpose Jacobian\n(MTJ) control strategy, with its parameters optimally tuned using the Deep\nDeterministic Policy Gradient (DDPG) algorithm. Classical model-based\ncontrollers encounter significant challenges due to the inherent uncertainties\nand nonlinear dynamics of continuum robots. In contrast, model-free control\nstrategies require efficient gain-tuning to handle diverse operational\nscenarios. This research aims to develop a model-free controller with\nperformance comparable to model-based strategies by integrating an optimal\nadaptive gain-tuning system. Both simulations and real-world implementations\ndemonstrate that the proposed method significantly enhances the\ntrajectory-tracking performance of continuum robots independent of initial\nconditions and paths within the operational task-space, effectively\nestablishing a task-free controller.\n",
+  "subjects": [
+    "Computer Science/Robotics",
+    "Computer Science/Systems and Control",
+    "Electrical Engineering and Systems Science/Systems and Control"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "QXIiHn8MvEKia0azf3rBpp4PRXwFZoEjGis23Fn6Rns",
+  "pdfSize": "7577688"
+}

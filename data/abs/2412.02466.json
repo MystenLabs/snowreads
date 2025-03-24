@@ -1,0 +1,31 @@
+{
+  "id": "2412.02466",
+  "title": "Can ChatGPT capture swearing nuances? Evidence from translating Arabic\n  oaths",
+  "authors": "Mohammed Q. Shormani",
+  "authorsParsed": [
+    [
+      "Shormani",
+      "Mohammed Q.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 3 Dec 2024 14:09:40 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Tue, 24 Dec 2024 19:31:03 GMT"
+    }
+  ],
+  "updateDate": "2024-12-30",
+  "timestamp": 1733234980000,
+  "abstract": "  This study sets out to answer one major question: Can ChatGPT capture\nswearing nuances? It presents an empirical study on the ability of ChatGPT to\ntranslate Arabic oath expressions into English. 30 Arabic oath expressions were\ncollected from the literature. These 30 oaths were first translated via ChatGPT\nand then analyzed and compared to the human translation in terms of types of\ngaps left unfulfilled by ChatGPT. Specifically, the gaps involved are:\nreligious gap, cultural gap, both religious and cultural gaps, no gap, using\nnon-oath particles, redundancy and noncapturing of Arabic script diacritics. It\nconcludes that ChatGPT translation of oaths is still much unsatisfactory,\nunveiling the need of further developments of ChatGPT, and the inclusion of\nArabic data on which ChatGPT should be trained including oath expressions, oath\nnuances, rituals, and practices.\n",
+  "subjects": [
+    "Computer Science/Computation and Language"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "OWnb80wZaGusvUQTK8uu82jQ5lbKdT_zKq4v4_c49wg",
+  "pdfSize": "569844"
+}

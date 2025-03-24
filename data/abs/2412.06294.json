@@ -1,0 +1,37 @@
+{
+  "id": "2412.06294",
+  "title": "Beyond pip install: Evaluating LLM Agents for the Automated Installation\n  of Python Projects",
+  "authors": "Louis Milliken and Sungmin Kang and Shin Yoo",
+  "authorsParsed": [
+    [
+      "Milliken",
+      "Louis",
+      ""
+    ],
+    [
+      "Kang",
+      "Sungmin",
+      ""
+    ],
+    [
+      "Yoo",
+      "Shin",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 9 Dec 2024 08:37:06 GMT"
+    }
+  ],
+  "updateDate": "2024-12-10",
+  "timestamp": 1733733426000,
+  "abstract": "  Many works have recently proposed the use of Large Language Model (LLM) based\nagents for performing `repository level' tasks, loosely defined as a set of\ntasks whose scopes are greater than a single file. This has led to speculation\nthat the orchestration of these repository-level tasks could lead to software\nengineering agents capable of performing almost independently of human\nintervention. However, of the suite of tasks that would need to be performed by\nthis autonomous software engineering agent, we argue that one important task is\nmissing, which is to fulfil project level dependency by installing other\nrepositories. To investigate the feasibility of this repository level\ninstallation task, we introduce a benchmark of of repository installation tasks\ncurated from 40 open source Python projects, which includes a ground truth\ninstallation process for each target repository. Further, we propose\nInstallamatic, an agent which aims to perform and verify the installation of a\ngiven repository by searching for relevant instructions from documentation in\nthe repository. Empirical experiments reveal that that 55% of the studied\nrepositories can be automatically installed by our agent at least one out of\nten times. Through further analysis, we identify the common causes for our\nagent's inability to install a repository, discuss the challenges faced in the\ndesign and implementation of such an agent and consider the implications that\nsuch an agent could have for developers.\n",
+  "subjects": [
+    "Computer Science/Software Engineering"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "dawtWCE-7rd11_rCFGtq5v6PIXMSEq7IMu703XcEDzk",
+  "pdfSize": "1026715"
+}

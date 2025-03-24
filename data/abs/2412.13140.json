@@ -1,0 +1,37 @@
+{
+  "id": "2412.13140",
+  "title": "Label Errors in the Tobacco3482 Dataset",
+  "authors": "Gordon Lim, Stefan Larson, Kevin Leach",
+  "authorsParsed": [
+    [
+      "Lim",
+      "Gordon",
+      ""
+    ],
+    [
+      "Larson",
+      "Stefan",
+      ""
+    ],
+    [
+      "Leach",
+      "Kevin",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 17 Dec 2024 18:06:28 GMT"
+    }
+  ],
+  "updateDate": "2024-12-18",
+  "timestamp": 1734458788000,
+  "abstract": "  Tobacco3482 is a widely used document classification benchmark dataset.\nHowever, our manual inspection of the entire dataset uncovers widespread\nontological issues, especially large amounts of annotation label problems in\nthe dataset. We establish data label guidelines and find that 11.7% of the\ndataset is improperly annotated and should either have an unknown label or a\ncorrected label, and 16.7% of samples in the dataset have multiple valid\nlabels. We then analyze the mistakes of a top-performing model and find that\n35% of the model's mistakes can be directly attributed to these label issues,\nhighlighting the inherent problems with using a noisily labeled dataset as a\nbenchmark. Supplementary material, including dataset annotations and code, is\navailable at https://github.com/gordon-lim/tobacco3482-mistakes/.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "NHIXo4SYQ7WBAYThg0-UFPCC8mJnr-XrZoZRu8syWKQ",
+  "pdfSize": "5497856"
+}

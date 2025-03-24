@@ -1,0 +1,44 @@
+{
+  "id": "2412.01580",
+  "title": "A homotopy theorem for incremental stability",
+  "authors": "Thomas Chaffey, Andrey Kharitenko, Fulvio Forni, Rodolphe Sepulchre",
+  "authorsParsed": [
+    [
+      "Chaffey",
+      "Thomas",
+      ""
+    ],
+    [
+      "Kharitenko",
+      "Andrey",
+      ""
+    ],
+    [
+      "Forni",
+      "Fulvio",
+      ""
+    ],
+    [
+      "Sepulchre",
+      "Rodolphe",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 2 Dec 2024 15:01:46 GMT"
+    }
+  ],
+  "updateDate": "2024-12-03",
+  "timestamp": 1733151706000,
+  "abstract": "  A theorem is proved to verify incremental stability of a feedback system via\na homotopy from a known incrementally stable system. A first corollary of that\nresult is that incremental stability may be verified by separation of Scaled\nRelative Graphs, correcting two assumptions in [1, Theorem 2]. A second\ncorollary provides an incremental version of the classical IQC stability\ntheorem.\n",
+  "subjects": [
+    "Mathematics/Optimization and Control",
+    "Computer Science/Systems and Control",
+    "Electrical Engineering and Systems Science/Systems and Control"
+  ],
+  "license": "http://creativecommons.org/licenses/by-sa/4.0/",
+  "blobId": "3eHslfHdKPGDKYCipDJP3SbRLBtLnR0AV3m0aoD6MIU",
+  "pdfSize": "484453"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "2412.11756",
+  "title": "Non-local non-homogeneous phase transitions: regularity of optimal\n  profiles and sharp-interface limit",
+  "authors": "Elisa Davoli, Emanuele Tasso",
+  "authorsParsed": [
+    [
+      "Davoli",
+      "Elisa",
+      ""
+    ],
+    [
+      "Tasso",
+      "Emanuele",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 16 Dec 2024 13:21:29 GMT"
+    }
+  ],
+  "updateDate": "2024-12-17",
+  "timestamp": 1734355289000,
+  "abstract": "  We provide a novel sharp-interface analysis via Gamma-convergence for a\nnon-local and non-homogeneous diffuse-interface model for phase transitions,\nfeaturing an interplay between a non-local interaction kernel and a spatially\ndependent double-well potential. This interaction requires the development of\nnew strategies both for the Gamma-liminf inequality and for the construction of\nrecovery sequences. A key element of our approach is an asymptotic calibration,\nused to establish the Gamma-liminf lower bound. The study of the optimality of\nthe lower bound hinges upon a novel analysis of the regularity dependence of\none-dimensional optimal profiles on a family of parameters. In particular, we\nshow how such regularity is influenced by the singularity of the interaction\nkernel at the origin, providing a precise and previously unexplored link\nbetween the two. Our results rely solely on the assumption of H\\\"older\ncontinuity for the moving wells, and also account for the compactness of\nsequences with equibounded energies.\n",
+  "subjects": [
+    "Mathematics/Analysis of PDEs"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "6txumFX1Li1OY_o1eB3oLvq8pNTbLJCyIbFJrlDCx5E",
+  "pdfSize": "780223"
+}

@@ -1,0 +1,38 @@
+{
+  "id": "2412.09419",
+  "title": "Predicting Coastal Water Levels in the Context of Climate Change Using\n  Kolmogorov-Zurbenko Time Series Analysis Methods",
+  "authors": "Barry Loneck, Igor Zurbenko, and Edward Valachovic",
+  "authorsParsed": [
+    [
+      "Loneck",
+      "Barry",
+      ""
+    ],
+    [
+      "Zurbenko",
+      "Igor",
+      ""
+    ],
+    [
+      "Valachovic",
+      "Edward",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 12 Dec 2024 16:25:41 GMT"
+    }
+  ],
+  "updateDate": "2024-12-13",
+  "timestamp": 1734020741000,
+  "abstract": "  Given recent increases in ocean water levels brought on by climate change,\nthis investigation decomposed changes in coastal water levels into its\nfundamental components to predict maximum water levels for a given coastal\nlocation. The study focused on Virginia Key, Florida, in the United States,\nlocated near the coast of Miami. Hourly mean lower low water (MLLW) levels were\nobtained from the National Data Buoy Center from January 28, 1994, through\nDecember 31, 2023. In the temporal dimension, Kolmogorov-Zurbenko filters were\nused to extract long-term trends, annual and daily tides, and higher frequency\nharmonics, while in the spectral dimension, Kolmogorov-Zurbenko periodograms\nwith DiRienzo-Zurbenko algorithm smoothing were used to confirm known tidal\nfrequencies and periods. A linear model predicted that the long-term trend in\nwater level will rise 2.02 feet from January 1994 to December 2050, while a\nquadratic model predicted a rise of 5.91 during the same period. In addition,\nthe combined crests of annual tides, daily tides, and higher frequency\nharmonics increase water levels up to 2.16 feet, yielding a combined total of\n4.18 feet as a lower bound and a combined total of 8.09 feet as an upper bound.\nThese findings provide a foundation for more accurate prediction of coastal\nflooding during severe weather events and provide an impetus for policy choices\nwith respect to residential communities, businesses, and wildlife habitats.\nFurther, using Kolmogorov-Zurbenko analytic methods to study coastal sites\nthroughout the world could draw a more comprehensive picture of the impact\nclimate change is having on coastal waters globally.\n",
+  "subjects": [
+    "Physics/Atmospheric and Oceanic Physics",
+    "Statistics/Applications"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "Z1iZnrC6sVa0OX-8p6pHDXEOj_wdcR0AgLqeOFM8Fig",
+  "pdfSize": "1397477"
+}

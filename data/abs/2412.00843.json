@@ -1,0 +1,83 @@
+{
+  "id": "2412.00843",
+  "title": "Wireless Electronic-free Mechanical Metamaterial Implants",
+  "authors": "Jianzhe Luo, Wenyun Lu, Pengcheng Jiao, Daeik Jang, Kaveh Barri,\n  Jiajun Wang, Wenxuan Meng, Rohit Prem Kumar, Nitin Agarwal, D. Kojo Hamilton,\n  Zhong Lin Wang, Amir H. Alavi",
+  "authorsParsed": [
+    [
+      "Luo",
+      "Jianzhe",
+      ""
+    ],
+    [
+      "Lu",
+      "Wenyun",
+      ""
+    ],
+    [
+      "Jiao",
+      "Pengcheng",
+      ""
+    ],
+    [
+      "Jang",
+      "Daeik",
+      ""
+    ],
+    [
+      "Barri",
+      "Kaveh",
+      ""
+    ],
+    [
+      "Wang",
+      "Jiajun",
+      ""
+    ],
+    [
+      "Meng",
+      "Wenxuan",
+      ""
+    ],
+    [
+      "Kumar",
+      "Rohit Prem",
+      ""
+    ],
+    [
+      "Agarwal",
+      "Nitin",
+      ""
+    ],
+    [
+      "Hamilton",
+      "D. Kojo",
+      ""
+    ],
+    [
+      "Wang",
+      "Zhong Lin",
+      ""
+    ],
+    [
+      "Alavi",
+      "Amir H.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 1 Dec 2024 15:15:54 GMT"
+    }
+  ],
+  "updateDate": "2024-12-03",
+  "timestamp": 1733066154000,
+  "abstract": "  Despite significant advancements in wireless smart implants over the last two\ndecades, current implantable devices still operate passively and require\nadditional electronic modules for wireless transmission of the stored\nbiological data. To address these challenges, we propose an innovative wireless\nforce sensing paradigm for implantable systems through the integration of\nmechanical metamaterials and nano energy harvesting technologies. We\ndemonstrate composite mechanical metamaterial implants capable of serving as\nall-in-one wireless force sensing units, incorporating functions for power\ngeneration, sensing and transmission with ultra-low power requirements. In this\nalternative communication approach, the electrical signals harvested by the\nimplants from mechanical stimuli are utilized directly for the wireless\ntransmission of the sensed data. We conduct experimental and theoretical\nstudies to demonstrate the wireless detection of the generated strain-induced\npolarization electric field using electrodes. The feasibility of the proposed\nwireless force sensing approach is evaluated through a proof-of-concept\northopedic implant in the form of a total knee replacement. The findings\nindicate that the created wireless, electronic-free metamaterial implants with\na power output as low as 0.1 picowatts enable direct, self-powered wireless\ncommunication during force sensing across air, simulated body fluid and animal\ntissue. We validate the functionality of the proposed implants through a series\nof experiments conducted on an ex vivo human cadaver knee specimen.\nFurthermore, the effect of electrode size and placement on the strength of the\nreceived signals is examined. Finally, we highlight the potential of our\napproach to create a diverse array of mechanically-tunable wireless force\nsensing implants without relying on any external power sources.\n",
+  "subjects": [
+    "Physics/Medical Physics",
+    "Condensed Matter/Materials Science"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "ScsHvNG_-eLUcpNyGjHt47xDblPPndP6NtS30mj5i64",
+  "pdfSize": "2297658"
+}

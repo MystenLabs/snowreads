@@ -1,0 +1,45 @@
+{
+  "id": "2412.18563",
+  "title": "A Deep Reinforcement Learning Framework for Dynamic Portfolio\n  Optimization: Evidence from China's Stock Market",
+  "authors": "Gang Huang, Xiaohua Zhou, Qingyang Song",
+  "authorsParsed": [
+    [
+      "Huang",
+      "Gang",
+      ""
+    ],
+    [
+      "Zhou",
+      "Xiaohua",
+      ""
+    ],
+    [
+      "Song",
+      "Qingyang",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 24 Dec 2024 17:33:20 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Wed, 15 Jan 2025 08:52:42 GMT"
+    },
+    {
+      "version": "v3",
+      "created": "Thu, 20 Feb 2025 19:23:44 GMT"
+    }
+  ],
+  "updateDate": "2025-02-24",
+  "timestamp": 1735061600000,
+  "abstract": "  Artificial intelligence is transforming financial investment decision-making\nframeworks, with deep reinforcement learning demonstrating substantial\npotential in robo-advisory applications. This paper addresses the limitations\nof traditional portfolio optimization methods in dynamic asset weight\nadjustment through the development of a deep reinforcement learning-based\ndynamic optimization model grounded in practical trading processes. The\nresearch advances two key innovations: first, the introduction of a novel\nSharpe ratio reward function engineered for Actor-Critic deep reinforcement\nlearning algorithms, which ensures stable convergence during training while\nconsistently achieving positive average Sharpe ratios; second, the development\nof an innovative comprehensive approach to portfolio optimization utilizing\ndeep reinforcement learning, which significantly enhances model optimization\ncapability through the integration of random sampling strategies during\ntraining with image-based deep neural network architectures for\nmulti-dimensional financial time series data processing, average Sharpe ratio\nreward functions, and deep reinforcement learning algorithms. The empirical\nanalysis validates the model using randomly selected constituent stocks from\nthe CSI 300 Index, benchmarking against established financial econometric\noptimization models. Backtesting results demonstrate the model's efficacy in\noptimizing portfolio allocation and mitigating investment risk, yielding\nsuperior comprehensive performance metrics.\n",
+  "subjects": [
+    "Quantitative Finance/Portfolio Management"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "0-V-1T2E_qC38YtXwXpDag_GTIMbgu40pgfGIoMCrSY",
+  "pdfSize": "2151352"
+}

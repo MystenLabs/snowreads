@@ -1,0 +1,37 @@
+{
+  "id": "2412.16301",
+  "title": "Joint Downlink-Uplink Channel Estimation for Non-Reciprocal RIS-Assisted\n  Communications",
+  "authors": "Paulo R. B. Gomes, Amarilton L. Magalh\\~aes, Andr\\'e L. F. de Almeida",
+  "authorsParsed": [
+    [
+      "Gomes",
+      "Paulo R. B.",
+      ""
+    ],
+    [
+      "Magalhães",
+      "Amarilton L.",
+      ""
+    ],
+    [
+      "de Almeida",
+      "André L. F.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 20 Dec 2024 19:19:21 GMT"
+    }
+  ],
+  "updateDate": "2024-12-24",
+  "timestamp": 1734722361000,
+  "abstract": "  Reconfigurable intelligent surface (RIS) is a recent low-cost and\nenergy-efficient technology with potential applicability for future wireless\ncommunications. Performance gains achieved by employing RIS directly depend on\naccurate channel estimation (CE). It is common in the literature to assume\nchannel reciprocity due to the facilities provided by this assumption, such as\nno channel feedback, beamforming simplification, and latency reduction.\nHowever, in practice, due to hardware limitations at the RIS and transceivers,\nthe channel non-reciprocity may occur naturally, so such behavior needs to be\nconsidered. In this paper, we focus on the CE problem in a non-reciprocal\nRIS-assisted multiple-input multiple-output (MIMO) wireless communication\nsystem. Making use of a novel closed-loop three-phase protocol for\nnon-reciprocal CE estimation, we propose a two-stage fourth-order Tucker\ndecomposition-based CE algorithm. In contrast to classical time-division\nduplexing (TDD) and frequency-division duplexing (FDD) approaches the proposed\nmethod concentrates all the processing burden for CE on the base station (BS)\nside, thereby freeing hardware-limited user terminal (UT) from this task. Our\nsimulation results show that the proposed method has satisfactory performance\nin terms of CE accuracy compared to benchmark FDD LS-based and tensor-based\ntechniques.\n",
+  "subjects": [
+    "Electrical Engineering and Systems Science/Signal Processing"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "zuBCAB880jv1_V2JXlExSkhtTsfdlmKe4H18r1EOzSU",
+  "pdfSize": "234501"
+}

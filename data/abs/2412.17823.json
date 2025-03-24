@@ -1,0 +1,41 @@
+{
+  "id": "2412.17823",
+  "title": "RUL forecasting for wind turbine predictive maintenance based on deep\n  learning",
+  "authors": "Syed Shazaib Shah, Tan Daoliang and Sah Chandan Kumar",
+  "authorsParsed": [
+    [
+      "Shah",
+      "Syed Shazaib",
+      ""
+    ],
+    [
+      "Daoliang",
+      "Tan",
+      ""
+    ],
+    [
+      "Kumar",
+      "Sah Chandan",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 9 Dec 2024 13:52:21 GMT"
+    }
+  ],
+  "updateDate": "2024-12-25",
+  "timestamp": 1733752341000,
+  "abstract": "  Predictive maintenance (PdM) is increasingly pursued to reduce wind farm\noperation and maintenance costs by accurately predicting the remaining useful\nlife (RUL) and strategically scheduling maintenance. However, the remoteness of\nwind farms often renders current methodologies ineffective, as they fail to\nprovide a sufficiently reliable advance time window for maintenance planning,\nlimiting PdM's practicality. This study introduces a novel deep learning (DL)\nmethodology for future RUL forecasting. By employing a multi-parametric\nattention-based DL approach that bypasses feature engineering, thereby\nminimizing the risk of human error, two models: ForeNet-2d and ForeNet-3d are\nproposed. These models successfully forecast the RUL for seven multifaceted\nwind turbine (WT) failures with a 2-week forecast window. The most precise\nforecast deviated by only 10 minutes from the actual RUL, while the least\naccurate prediction deviated by 1.8 days, with most predictions being off by\nonly a few hours. This methodology offers a substantial time frame to access\nremote WTs and perform necessary maintenance, thereby enabling the practical\nimplementation of PdM.\n",
+  "subjects": [
+    "Electrical Engineering and Systems Science/Signal Processing",
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Machine Learning",
+    "Computer Science/Systems and Control",
+    "Electrical Engineering and Systems Science/Systems and Control"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "Y21l_76Wvx10549I9tqWJ_Dc7za7-P1Sd_1zxPH8v4w",
+  "pdfSize": "4784060"
+}

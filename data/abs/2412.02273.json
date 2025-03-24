@@ -1,0 +1,62 @@
+{
+  "id": "2412.02273",
+  "title": "Step-by-Step Guidance to Differential Anemia Diagnosis with Real-World\n  Data and Deep Reinforcement Learning",
+  "authors": "Lillian Muyama, Estelle Lu, Geoffrey Cheminet, Jacques Pouchot,\n  Bastien Rance, Anne-Isabelle Tropeano, Antoine Neuraz, Adrien Coulet",
+  "authorsParsed": [
+    [
+      "Muyama",
+      "Lillian",
+      ""
+    ],
+    [
+      "Lu",
+      "Estelle",
+      ""
+    ],
+    [
+      "Cheminet",
+      "Geoffrey",
+      ""
+    ],
+    [
+      "Pouchot",
+      "Jacques",
+      ""
+    ],
+    [
+      "Rance",
+      "Bastien",
+      ""
+    ],
+    [
+      "Tropeano",
+      "Anne-Isabelle",
+      ""
+    ],
+    [
+      "Neuraz",
+      "Antoine",
+      ""
+    ],
+    [
+      "Coulet",
+      "Adrien",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 3 Dec 2024 08:45:50 GMT"
+    }
+  ],
+  "updateDate": "2024-12-04",
+  "timestamp": 1733215550000,
+  "abstract": "  Clinical diagnostic guidelines outline the key questions to answer to reach a\ndiagnosis. Inspired by guidelines, we aim to develop a model that learns from\nelectronic health records to determine the optimal sequence of actions for\naccurate diagnosis. Focusing on anemia and its sub-types, we employ deep\nreinforcement learning (DRL) algorithms and evaluate their performance on both\na synthetic dataset, which is based on expert-defined diagnostic pathways, and\na real-world dataset. We investigate the performance of these algorithms across\nvarious scenarios. Our experimental results demonstrate that DRL algorithms\nperform competitively with state-of-the-art methods while offering the\nsignificant advantage of progressively generating pathways to the suggested\ndiagnosis, providing a transparent decision-making process that can guide and\nexplain diagnostic reasoning.\n",
+  "subjects": [
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "WgZebMbJ74ZsOcPI3-Nwr_7IPYnrJ9_l-CggwqcZ1_0",
+  "pdfSize": "1523228"
+}

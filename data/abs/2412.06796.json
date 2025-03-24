@@ -1,0 +1,32 @@
+{
+  "id": "2412.06796",
+  "title": "Introduction of Additive Particle Theory for Path Integral Approaches",
+  "authors": "Ken-ichi Amano",
+  "authorsParsed": [
+    [
+      "Amano",
+      "Ken-ichi",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 22 Nov 2024 14:25:21 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Thu, 12 Dec 2024 08:52:42 GMT"
+    }
+  ],
+  "updateDate": "2024-12-13",
+  "timestamp": 1732285521000,
+  "abstract": "  Path integral approaches have been used for boson and fermion systems. The\npath integral approach has been successful in the many-boson system. However,\nin the many-fermion system, the path integral approach is not feasible due to\nthe sign problem. In this letter, I introduce additive particle (AP) theory in\norder to generate an approximation method that avoids the sign problem. The AP\ntheory considers one electron as a string polymer and virtual particles are\nadded into the system. The AP theory is an approximation, but it is constructed\nto be able to generate the pair distribution function between free electrons\nand the density of states of the free electrons at an arbitrary temperature.\nHence, when the electrostatic interactions are decreased, the AP theory\nconverges to the free electron system. On the other hand, it deviates from the\nactual system when the electrostatic interactions are increased.\n",
+  "subjects": [
+    "Condensed Matter/Statistical Mechanics",
+    "Physics/Quantum Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "ZJih7S134NAAf2WMaOXAXCb9_-ZkaruZsUEnsiBZ2-E",
+  "pdfSize": "361672"
+}

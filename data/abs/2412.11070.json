@@ -1,0 +1,62 @@
+{
+  "id": "2412.11070",
+  "title": "HC-LLM: Historical-Constrained Large Language Models for Radiology\n  Report Generation",
+  "authors": "Tengfei Liu, Jiapu Wang, Yongli Hu, Mingjie Li, Junfei Yi, Xiaojun\n  Chang, Junbin Gao, Baocai Yin",
+  "authorsParsed": [
+    [
+      "Liu",
+      "Tengfei",
+      ""
+    ],
+    [
+      "Wang",
+      "Jiapu",
+      ""
+    ],
+    [
+      "Hu",
+      "Yongli",
+      ""
+    ],
+    [
+      "Li",
+      "Mingjie",
+      ""
+    ],
+    [
+      "Yi",
+      "Junfei",
+      ""
+    ],
+    [
+      "Chang",
+      "Xiaojun",
+      ""
+    ],
+    [
+      "Gao",
+      "Junbin",
+      ""
+    ],
+    [
+      "Yin",
+      "Baocai",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 15 Dec 2024 06:04:16 GMT"
+    }
+  ],
+  "updateDate": "2024-12-17",
+  "timestamp": 1734242656000,
+  "abstract": "  Radiology report generation (RRG) models typically focus on individual exams,\noften overlooking the integration of historical visual or textual data, which\nis crucial for patient follow-ups. Traditional methods usually struggle with\nlong sequence dependencies when incorporating historical information, but large\nlanguage models (LLMs) excel at in-context learning, making them well-suited\nfor analyzing longitudinal medical data. In light of this, we propose a novel\nHistorical-Constrained Large Language Models (HC-LLM) framework for RRG,\nempowering LLMs with longitudinal report generation capabilities by\nconstraining the consistency and differences between longitudinal images and\ntheir corresponding reports. Specifically, our approach extracts both\ntime-shared and time-specific features from longitudinal chest X-rays and\ndiagnostic reports to capture disease progression. Then, we ensure consistent\nrepresentation by applying intra-modality similarity constraints and aligning\nvarious features across modalities with multimodal contrastive and structural\nconstraints. These combined constraints effectively guide the LLMs in\ngenerating diagnostic reports that accurately reflect the progression of the\ndisease, achieving state-of-the-art results on the Longitudinal-MIMIC dataset.\nNotably, our approach performs well even without historical data during testing\nand can be easily adapted to other multimodal large models, enhancing its\nversatility.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "cWvqmx7J_p0ISuVr1eMpW9v9sT5SMTH3_YXxDcTVLYE",
+  "pdfSize": "3228911"
+}

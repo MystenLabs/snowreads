@@ -1,0 +1,32 @@
+{
+  "id": "2412.06185",
+  "title": "Analysis of an Inelastic Contact Problem for the Damped Wave Equation",
+  "authors": "Boris Muha, Sr{\\dj}an Trifunovi\\'c",
+  "authorsParsed": [
+    [
+      "Muha",
+      "Boris",
+      ""
+    ],
+    [
+      "Trifunović",
+      "Srđan",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 9 Dec 2024 03:49:47 GMT"
+    }
+  ],
+  "updateDate": "2024-12-10",
+  "timestamp": 1733716187000,
+  "abstract": "  In this paper, we examine the dynamic behavior of a viscoelastic string\noscillating above a rigid obstacle in a one-dimensional setting, accounting for\ninelastic contact between the string and the obstacle. We construct a\nglobal-in-time weak solution to this problem by using an approximation method\nthat incorporates a penalizing repulsive force of the form\n$\\frac1\\varepsilon\\chi_{\\{\\eta<0\\}} (\\partial_t\\eta)^-$. The weak solution\nexhibits well-controlled energy dissipation, occurring only during contact on a\nset of zero measure and exclusively when the string moves downward.\nFurthermore, the velocity is shown to vanish after contact in a specific weak\nsense. This model serves as a simplified framework for studying contact\nproblems in fluid-structure interaction contexts.\n",
+  "subjects": [
+    "Mathematics/Analysis of PDEs"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "Y4S6N8nmhqdoF8rmXS8S1L46MBSgAUNjf67IXaYZZpU",
+  "pdfSize": "2205132"
+}

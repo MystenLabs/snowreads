@@ -1,0 +1,42 @@
+{
+  "id": "2412.15075",
+  "title": "DroughtSet: Understanding Drought Through Spatial-Temporal Learning",
+  "authors": "Xuwei Tan, Qian Zhao, Yanlan Liu, Xueru Zhang",
+  "authorsParsed": [
+    [
+      "Tan",
+      "Xuwei",
+      ""
+    ],
+    [
+      "Zhao",
+      "Qian",
+      ""
+    ],
+    [
+      "Liu",
+      "Yanlan",
+      ""
+    ],
+    [
+      "Zhang",
+      "Xueru",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 19 Dec 2024 17:24:15 GMT"
+    }
+  ],
+  "updateDate": "2024-12-20",
+  "timestamp": 1734629055000,
+  "abstract": "  Drought is one of the most destructive and expensive natural disasters,\nseverely impacting natural resources and risks by depleting water resources and\ndiminishing agricultural yields. Under climate change, accurately predicting\ndrought is critical for mitigating drought-induced risks. However, the\nintricate interplay among the physical and biological drivers that regulate\ndroughts limits the predictability and understanding of drought, particularly\nat a subseasonal to seasonal (S2S) time scale. While deep learning has been\ndemonstrated with potential in addressing climate forecasting challenges, its\napplication to drought prediction has received relatively less attention. In\nthis work, we propose a new dataset, DroughtSet, which integrates relevant\npredictive features and three drought indices from multiple remote sensing and\nreanalysis datasets across the contiguous United States (CONUS). DroughtSet\nspecifically provides the machine learning community with a new real-world\ndataset to benchmark drought prediction models and more generally, time-series\nforecasting methods. Furthermore, we propose a spatial-temporal model SPDrought\nto predict and interpret S2S droughts. Our model learns from the spatial and\ntemporal information of physical and biological features to predict three types\nof droughts simultaneously. Multiple strategies are employed to quantify the\nimportance of physical and biological features for drought prediction. Our\nresults provide insights for researchers to better understand the\npredictability and sensitivity of drought to biological and physical\nconditions. We aim to contribute to the climate field by proposing a new tool\nto predict and understand the occurrence of droughts and provide the AI\ncommunity with a new benchmark to study deep learning applications in climate\nscience.\n",
+  "subjects": [
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "CcX7LW5FJFD1fIP9wIFjwsQZgwioXXwxTYuN7aWtEz8",
+  "pdfSize": "6501484"
+}

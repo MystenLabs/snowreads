@@ -1,0 +1,42 @@
+{
+  "id": "2412.03077",
+  "title": "RoDyGS: Robust Dynamic Gaussian Splatting for Casual Videos",
+  "authors": "Yoonwoo Jeong, Junmyeong Lee, Hoseung Choi, Minsu Cho",
+  "authorsParsed": [
+    [
+      "Jeong",
+      "Yoonwoo",
+      ""
+    ],
+    [
+      "Lee",
+      "Junmyeong",
+      ""
+    ],
+    [
+      "Choi",
+      "Hoseung",
+      ""
+    ],
+    [
+      "Cho",
+      "Minsu",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 4 Dec 2024 07:02:49 GMT"
+    }
+  ],
+  "updateDate": "2024-12-05",
+  "timestamp": 1733295769000,
+  "abstract": "  Dynamic view synthesis (DVS) has advanced remarkably in recent years,\nachieving high-fidelity rendering while reducing computational costs. Despite\nthe progress, optimizing dynamic neural fields from casual videos remains\nchallenging, as these videos do not provide direct 3D information, such as\ncamera trajectories or the underlying scene geometry. In this work, we present\nRoDyGS, an optimization pipeline for dynamic Gaussian Splatting from casual\nvideos. It effectively learns motion and underlying geometry of scenes by\nseparating dynamic and static primitives, and ensures that the learned motion\nand geometry are physically plausible by incorporating motion and geometric\nregularization terms. We also introduce a comprehensive benchmark, Kubric-MRig,\nthat provides extensive camera and object motion along with simultaneous\nmulti-view captures, features that are absent in previous benchmarks.\nExperimental results demonstrate that the proposed method significantly\noutperforms previous pose-free dynamic neural fields and achieves competitive\nrendering quality compared to existing pose-free static neural fields. The code\nand data are publicly available at https://rodygs.github.io/.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "CybFon19jZKJsxvh-SJY9HYI0uXVhQo2FAlbv9C7GEw",
+  "pdfSize": "39266112"
+}

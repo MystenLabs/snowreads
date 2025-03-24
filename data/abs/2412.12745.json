@@ -1,0 +1,33 @@
+{
+  "id": "2412.12745",
+  "title": "Automated Penetration Testing: Formalization and Realization",
+  "authors": "Charilaos Skandylas, Mikael Asplund",
+  "authorsParsed": [
+    [
+      "Skandylas",
+      "Charilaos",
+      ""
+    ],
+    [
+      "Asplund",
+      "Mikael",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 17 Dec 2024 10:09:41 GMT"
+    }
+  ],
+  "updateDate": "2024-12-18",
+  "timestamp": 1734430181000,
+  "abstract": "  Recent changes in standards and regulations, driven by the increasing\nimportance of software systems in meeting societal needs, mandate increased\nsecurity testing of software systems. Penetration testing has been shown to be\na reliable method to asses software system security. However, manual\npenetration testing is labor-intensive and requires highly skilled\npractitioners. Given the shortage of cybersecurity experts and current societal\nneeds, increasing the degree of automation involved in penetration testing can\naid in fulfilling the demands for increased security testing. In this work, we\nformally express the penetration testing problem at the architectural level and\nsuggest a general self-organizing architecture that can be instantiated to\nautomate penetration testing of real systems. We further describe and implement\na specialization of the architecture in the ADAPT tool, targeting systems\ncomposed of hosts and services. We evaluate and demonstrate the feasibility of\nADAPT by automatically performing penetration tests with success against:\nMetasploitable2, Metasploitable3, and a realistic virtual network used as a lab\nenvironment for penetration tester training.\n",
+  "subjects": [
+    "Computer Science/Cryptography and Security",
+    "Computer Science/Software Engineering"
+  ],
+  "license": "http://creativecommons.org/licenses/by-sa/4.0/",
+  "blobId": "HPitBC3nkxYo1WRNRfkD_nrEcJ4cUuV1GiMPYKNhKiU",
+  "pdfSize": "845846"
+}

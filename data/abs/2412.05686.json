@@ -1,0 +1,55 @@
+{
+  "id": "2412.05686",
+  "title": "Neural network interpretability with layer-wise relevance propagation:\n  novel techniques for neuron selection and visualization",
+  "authors": "Deepshikha Bhati, Fnu Neha, Md Amiruzzaman, Angela Guercio, Deepak\n  Kumar Shukla, Ben Ward",
+  "authorsParsed": [
+    [
+      "Bhati",
+      "Deepshikha",
+      ""
+    ],
+    [
+      "Neha",
+      "Fnu",
+      ""
+    ],
+    [
+      "Amiruzzaman",
+      "Md",
+      ""
+    ],
+    [
+      "Guercio",
+      "Angela",
+      ""
+    ],
+    [
+      "Shukla",
+      "Deepak Kumar",
+      ""
+    ],
+    [
+      "Ward",
+      "Ben",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 7 Dec 2024 15:49:14 GMT"
+    }
+  ],
+  "updateDate": "2024-12-10",
+  "timestamp": 1733586554000,
+  "abstract": "  Interpreting complex neural networks is crucial for understanding their\ndecision-making processes, particularly in applications where transparency and\naccountability are essential. This proposed method addresses this need by\nfocusing on layer-wise Relevance Propagation (LRP), a technique used in\nexplainable artificial intelligence (XAI) to attribute neural network outputs\nto input features through backpropagated relevance scores. Existing LRP methods\noften struggle with precision in evaluating individual neuron contributions. To\novercome this limitation, we present a novel approach that improves the parsing\nof selected neurons during LRP backward propagation, using the Visual Geometry\nGroup 16 (VGG16) architecture as a case study. Our method creates neural\nnetwork graphs to highlight critical paths and visualizes these paths with\nheatmaps, optimizing neuron selection through accuracy metrics like Mean\nSquared Error (MSE) and Symmetric Mean Absolute Percentage Error (SMAPE).\nAdditionally, we utilize a deconvolutional visualization technique to\nreconstruct feature maps, offering a comprehensive view of the network's inner\nworkings. Extensive experiments demonstrate that our approach enhances\ninterpretability and supports the development of more transparent artificial\nintelligence (AI) systems for computer vision applications. This advancement\nhas the potential to improve the trustworthiness of AI models in real-world\nmachine vision applications, thereby increasing their reliability and\neffectiveness.\n",
+  "subjects": [
+    "Computer Science/Neural and Evolutionary Computing",
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "AWOCMCdLiv4pkWjN6D5iQbGslCf2J-3GGXiRnUKHzCk",
+  "pdfSize": "9919909"
+}

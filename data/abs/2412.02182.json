@@ -1,0 +1,42 @@
+{
+  "id": "2412.02182",
+  "title": "Searching for local associations while controlling the false discovery\n  rate",
+  "authors": "Paula Gablenz, Matteo Sesia, Tianshu Sun, Chiara Sabatti",
+  "authorsParsed": [
+    [
+      "Gablenz",
+      "Paula",
+      ""
+    ],
+    [
+      "Sesia",
+      "Matteo",
+      ""
+    ],
+    [
+      "Sun",
+      "Tianshu",
+      ""
+    ],
+    [
+      "Sabatti",
+      "Chiara",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 3 Dec 2024 05:42:15 GMT"
+    }
+  ],
+  "updateDate": "2024-12-04",
+  "timestamp": 1733204535000,
+  "abstract": "  We introduce local conditional hypotheses that express how the relation\nbetween explanatory variables and outcomes changes across different contexts,\ndescribed by covariates. By expanding upon the model-X knockoff filter, we show\nhow to adaptively discover these local associations, all while controlling the\nfalse discovery rate. Our enhanced inferences can help explain sample\nheterogeneity and uncover interactions, making better use of the capabilities\noffered by modern machine learning models. Specifically, our method is able to\nleverage any model for the identification of data-driven hypotheses pertaining\nto different contexts. Then, it rigorously test these hypotheses without\nsuccumbing to selection bias. Importantly, our approach is efficient and does\nnot require sample splitting. We demonstrate the effectiveness of our method\nthrough numerical experiments and by studying the genetic architecture of\nWaist-Hip-Ratio across different sexes in the UKBiobank.\n",
+  "subjects": [
+    "Statistics/Methodology"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "d6cNgJzzRPjzbJmvJ1yxkG86v0_8d_r5Tvi2PHrwuyk",
+  "pdfSize": "1452776"
+}

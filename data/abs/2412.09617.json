@@ -1,0 +1,37 @@
+{
+  "id": "2412.09617",
+  "title": "NormalFlow: Fast, Robust, and Accurate Contact-based Object 6DoF Pose\n  Tracking with Vision-based Tactile Sensors",
+  "authors": "Hung-Jui Huang, Michael Kaess, and Wenzhen Yuan",
+  "authorsParsed": [
+    [
+      "Huang",
+      "Hung-Jui",
+      ""
+    ],
+    [
+      "Kaess",
+      "Michael",
+      ""
+    ],
+    [
+      "Yuan",
+      "Wenzhen",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 12 Dec 2024 18:59:46 GMT"
+    }
+  ],
+  "updateDate": "2024-12-13",
+  "timestamp": 1734029986000,
+  "abstract": "  Tactile sensing is crucial for robots aiming to achieve human-level\ndexterity. Among tactile-dependent skills, tactile-based object tracking serves\nas the cornerstone for many tasks, including manipulation, in-hand\nmanipulation, and 3D reconstruction. In this work, we introduce NormalFlow, a\nfast, robust, and real-time tactile-based 6DoF tracking algorithm. Leveraging\nthe precise surface normal estimation of vision-based tactile sensors,\nNormalFlow determines object movements by minimizing discrepancies between the\ntactile-derived surface normals. Our results show that NormalFlow consistently\noutperforms competitive baselines and can track low-texture objects like table\nsurfaces. For long-horizon tracking, we demonstrate when rolling the sensor\naround a bead for 360 degrees, NormalFlow maintains a rotational tracking error\nof 2.5 degrees. Additionally, we present state-of-the-art tactile-based 3D\nreconstruction results, showcasing the high accuracy of NormalFlow. We believe\nNormalFlow unlocks new possibilities for high-precision perception and\nmanipulation tasks that involve interacting with objects using hands. The video\ndemo, code, and dataset are available on our website:\nhttps://joehjhuang.github.io/normalflow.\n",
+  "subjects": [
+    "Computer Science/Robotics"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "6kgEltRas9xTsEdObVice2v7dknyZeWg_pjCNgmnn3I",
+  "pdfSize": "7532062"
+}

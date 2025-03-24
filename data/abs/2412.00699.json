@@ -1,0 +1,56 @@
+{
+  "id": "2412.00699",
+  "title": "A one-dimensional mixing model for the impact of ablative\n  Rayleigh-Taylor instability on compression dynamics",
+  "authors": "Dongxue Liu, Tao Tao, Jun Li, Qing Jia, Rui Yan, and Jian Zheng",
+  "authorsParsed": [
+    [
+      "Liu",
+      "Dongxue",
+      ""
+    ],
+    [
+      "Tao",
+      "Tao",
+      ""
+    ],
+    [
+      "Li",
+      "Jun",
+      ""
+    ],
+    [
+      "Jia",
+      "Qing",
+      ""
+    ],
+    [
+      "Yan",
+      "Rui",
+      ""
+    ],
+    [
+      "Zheng",
+      "Jian",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 1 Dec 2024 06:44:31 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Mon, 10 Feb 2025 18:14:34 GMT"
+    }
+  ],
+  "updateDate": "2025-02-11",
+  "timestamp": 1733035471000,
+  "abstract": "  A one-dimensional mixing model, incorporating the effects of laser ablation\nand initial perturbations, is developed to study the influence of ablative\nRayleigh-Taylor instability on compression dynamics. The length of the mixing\nregion is determined with the buoyancy-drag model[arXiv:2411.12392v2 (2024)].\nThe mixing effect on laser ablation is mainly described with an additional heat\nsource which depends on turbulent kinetic energy and initial perturbation level\nthrough a free multiplier. The model is integrated into a one-dimensional\nradiation hydrodynamics code and validated against two-dimensional planar\nsimulations. The further application of our model to spherical implosion\nsimulations reveals that the model can give reasonable predictions of implosion\ndegradation due to mixing, such as lowered shell compression, reduced\nstagnation pressure, and decreased areal density, etc. It is found that the\ntime interval between the convergence of the main shock and stagnation may\noffer an estimate of mixing level in single-shot experiments.\n",
+  "subjects": [
+    "Physics/Fluid Dynamics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "svKpnkg2IDUSn7EkPbnlseDW4Ep4WKOnHButZA5vZDw",
+  "pdfSize": "1331403"
+}

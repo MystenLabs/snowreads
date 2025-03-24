@@ -1,0 +1,38 @@
+{
+  "id": "2412.11042",
+  "title": "A Closed-Form Nonlinear Data Assimilation Algorithm for Multi-Layer Flow\n  Fields",
+  "authors": "Zhongrui Wang, Nan Chen, Di Qi",
+  "authorsParsed": [
+    [
+      "Wang",
+      "Zhongrui",
+      ""
+    ],
+    [
+      "Chen",
+      "Nan",
+      ""
+    ],
+    [
+      "Qi",
+      "Di",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 15 Dec 2024 04:01:06 GMT"
+    }
+  ],
+  "updateDate": "2024-12-17",
+  "timestamp": 1734235266000,
+  "abstract": "  State estimation in multi-layer turbulent flow fields with only a single\nlayer of partial observation remains a challenging yet practically important\ntask. Applications include inferring the state of the deep ocean by exploiting\nsurface observations. Directly implementing an ensemble Kalman filter based on\nthe full forecast model is usually expensive. One widely used method in\npractice projects the information of the observed layer to other layers via\nlinear regression. However, when nonlinearity in the highly turbulent flow\nfield becomes dominant, the regression solution will suffer from large\nuncertainty errors. In this paper, we develop a multi-step nonlinear data\nassimilation method. A sequence of nonlinear assimilation steps is applied from\nlayer to layer recurrently. Fundamentally different from the traditional linear\nregression approaches, a conditional Gaussian nonlinear system is adopted as\nthe approximate forecast model to characterize the nonlinear dependence between\nadjacent layers. The estimated posterior is a Gaussian mixture, which can be\nhighly non-Gaussian. Therefore, the multi-step nonlinear data assimilation\nmethod can capture strongly turbulent features, especially intermittency and\nextreme events, and better quantify the inherent uncertainty. Another notable\nadvantage of the multi-step data assimilation method is that the posterior\ndistribution can be solved using closed-form formulae under the conditional\nGaussian framework. Applications to the two-layer quasi-geostrophic system with\nLagrangian data assimilation show that the multi-step method outperforms the\none-step method with linear stochastic flow models, especially as the tracer\nnumber and ensemble size increase.\n",
+  "subjects": [
+    "Physics/Fluid Dynamics",
+    "Mathematics/Dynamical Systems"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "IVGO9lCmsaUx9RS6w8mJEIwSTkA9wB1wclDeUD-Wxqg",
+  "pdfSize": "3420480"
+}

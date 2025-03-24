@@ -1,0 +1,44 @@
+{
+  "id": "2412.19954",
+  "title": "ErgoChat: a Visual Query System for the Ergonomic Risk Assessment of\n  Construction Workers",
+  "authors": "Chao Fan, Qipei Mei, Xiaonan Wang, Xinming Li",
+  "authorsParsed": [
+    [
+      "Fan",
+      "Chao",
+      ""
+    ],
+    [
+      "Mei",
+      "Qipei",
+      ""
+    ],
+    [
+      "Wang",
+      "Xiaonan",
+      ""
+    ],
+    [
+      "Li",
+      "Xinming",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 27 Dec 2024 23:25:51 GMT"
+    }
+  ],
+  "updateDate": "2024-12-31",
+  "timestamp": 1735341951000,
+  "abstract": "  In the construction sector, workers often endure prolonged periods of\nhigh-intensity physical work and prolonged use of tools, resulting in injuries\nand illnesses primarily linked to postural ergonomic risks, a longstanding\npredominant health concern. To mitigate these risks, researchers have applied\nvarious technological methods to identify the ergonomic risks that construction\nworkers face. However, traditional ergonomic risk assessment (ERA) techniques\ndo not offer interactive feedback. The rapidly developing vision-language\nmodels (VLMs), capable of generating textual descriptions or answering\nquestions about ergonomic risks based on image inputs, have not yet received\nwidespread attention. This research introduces an interactive visual query\nsystem tailored to assess the postural ergonomic risks of construction workers.\nThe system's capabilities include visual question answering (VQA), which\nresponds to visual queries regarding workers' exposure to postural ergonomic\nrisks, and image captioning (IC), which generates textual descriptions of these\nrisks from images. Additionally, this study proposes a dataset designed for\ntraining and testing such methodologies. Systematic testing indicates that the\nVQA functionality delivers an accuracy of 96.5%. Moreover, evaluations using\nnine metrics for IC and assessments from human experts indicate that the\nproposed approach surpasses the performance of a method using the same\narchitecture trained solely on generic datasets. This study sets a new\ndirection for future developments in interactive ERA using generative\nartificial intelligence (AI) technologies.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "TNMQadCwGDdaNvG-KTO6w-NdoSqGxgbiU8Dokt9BUmk",
+  "pdfSize": "1885699"
+}

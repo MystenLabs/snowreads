@@ -1,0 +1,47 @@
+{
+  "id": "2412.09756",
+  "title": "Private Synthetic Data Generation in Small Memory",
+  "authors": "Rayne Holland, Seyit Camtepe, Chandra Thapa, Jason Xue",
+  "authorsParsed": [
+    [
+      "Holland",
+      "Rayne",
+      ""
+    ],
+    [
+      "Camtepe",
+      "Seyit",
+      ""
+    ],
+    [
+      "Thapa",
+      "Chandra",
+      ""
+    ],
+    [
+      "Xue",
+      "Jason",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 12 Dec 2024 23:24:05 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Thu, 27 Feb 2025 00:58:38 GMT"
+    }
+  ],
+  "updateDate": "2025-02-28",
+  "timestamp": 1734045845000,
+  "abstract": "  We propose $\\mathtt{PrivHP}$, a lightweight synthetic data generator with\n\\textit{differential privacy} guarantees. $\\mathtt{PrivHP}$ uses a novel\nhierarchical decomposition that approximates the input's cumulative\ndistribution function (CDF) in bounded memory. It balances hierarchy depth,\nnoise addition, and pruning of low-frequency subdomains while preserving\nfrequent ones. Private sketches estimate subdomain frequencies efficiently\nwithout full data access.\n  A key feature is the pruning parameter $k$, which controls the trade-off\nbetween space and utility. We define the skew measure $\\mathtt{tail}_k$,\ncapturing all but the top $k$ subdomain frequencies. Given a dataset\n$\\mathcal{X}$, $\\mathtt{PrivHP}$ uses $M=\\mathcal{O}(k\\log^2 |X|)$ space and,\nfor input domain $\\Omega = [0,1]$, ensures $\\varepsilon$-differential privacy.\nIt yields a generator with expected Wasserstein distance: \\[\n\\mathcal{O}\\left(\\frac{\\log^2 M}{\\varepsilon n} +\n\\frac{||\\mathtt{tail}_k(\\mathcal{X})||_1}{M n}\\right) \\] from the empirical\ndistribution. This parameterized trade-off offers a level of flexibility\nunavailable in prior work. We also provide interpretable utility bounds that\naccount for hierarchy depth, privacy noise, pruning, and frequency estimation\nerrors.\n",
+  "subjects": [
+    "Computer Science/Cryptography and Security",
+    "Computer Science/Data Structures and Algorithms"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "wS24kXwTRTNtkJWkzRkJjTT2-TVvDSyQeffvvm5HYIk",
+  "pdfSize": "761463"
+}

@@ -1,0 +1,49 @@
+{
+  "id": "2412.14684",
+  "title": "Bel Esprit: Multi-Agent Framework for Building AI Model Pipelines",
+  "authors": "Yunsu Kim, AhmedElmogtaba Abdelaziz, Thiago Castro Ferreira, Mohamed\n  Al-Badrashiny, Hassan Sawaf",
+  "authorsParsed": [
+    [
+      "Kim",
+      "Yunsu",
+      ""
+    ],
+    [
+      "Abdelaziz",
+      "AhmedElmogtaba",
+      ""
+    ],
+    [
+      "Ferreira",
+      "Thiago Castro",
+      ""
+    ],
+    [
+      "Al-Badrashiny",
+      "Mohamed",
+      ""
+    ],
+    [
+      "Sawaf",
+      "Hassan",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 19 Dec 2024 09:36:33 GMT"
+    }
+  ],
+  "updateDate": "2024-12-20",
+  "timestamp": 1734600993000,
+  "abstract": "  As the demand for artificial intelligence (AI) grows to address complex\nreal-world tasks, single models are often insufficient, requiring the\nintegration of multiple models into pipelines. This paper introduces Bel\nEsprit, a conversational agent designed to construct AI model pipelines based\non user-defined requirements. Bel Esprit employs a multi-agent framework where\nsubagents collaborate to clarify requirements, build, validate, and populate\npipelines with appropriate models. We demonstrate the effectiveness of this\nframework in generating pipelines from ambiguous user queries, using both\nhuman-curated and synthetic data. A detailed error analysis highlights ongoing\nchallenges in pipeline construction. Bel Esprit is available for a free trial\nat https://belesprit.aixplain.com.\n",
+  "subjects": [
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Human-Computer Interaction",
+    "Computer Science/Multiagent Systems"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "bqSo74QBrbQuI_JfbktQfYFH_NG0vDlpNGSbvbhfiMc",
+  "pdfSize": "599329"
+}

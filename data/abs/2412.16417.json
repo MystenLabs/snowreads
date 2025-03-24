@@ -1,0 +1,55 @@
+{
+  "id": "2412.16417",
+  "title": "Identifying Cyberbullying Roles in Social Media",
+  "authors": "Manuel Sandoval, Mohammed Abuhamad, Patrick Furman, Mujtaba Nazari,\n  Deborah L. Hall, Yasin N. Silva",
+  "authorsParsed": [
+    [
+      "Sandoval",
+      "Manuel",
+      ""
+    ],
+    [
+      "Abuhamad",
+      "Mohammed",
+      ""
+    ],
+    [
+      "Furman",
+      "Patrick",
+      ""
+    ],
+    [
+      "Nazari",
+      "Mujtaba",
+      ""
+    ],
+    [
+      "Hall",
+      "Deborah L.",
+      ""
+    ],
+    [
+      "Silva",
+      "Yasin N.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 21 Dec 2024 00:46:48 GMT"
+    }
+  ],
+  "updateDate": "2024-12-24",
+  "timestamp": 1734742008000,
+  "abstract": "  Social media has revolutionized communication, allowing people worldwide to\nconnect and interact instantly. However, it has also led to increases in\ncyberbullying, which poses a significant threat to children and adolescents\nglobally, affecting their mental health and well-being. It is critical to\naccurately detect the roles of individuals involved in cyberbullying incidents\nto effectively address the issue on a large scale. This study explores the use\nof machine learning models to detect the roles involved in cyberbullying\ninteractions. After examining the AMiCA dataset and addressing class imbalance\nissues, we evaluate the performance of various models built with four\nunderlying LLMs (i.e., BERT, RoBERTa, T5, and GPT-2) for role detection. Our\nanalysis shows that oversampling techniques help improve model performance. The\nbest model, a fine-tuned RoBERTa using oversampled data, achieved an overall F1\nscore of 83.5%, increasing to 89.3% after applying a prediction threshold. The\ntop-2 F1 score without thresholding was 95.7%. Our method outperforms\npreviously proposed models. After investigating the per-class model performance\nand confidence scores, we show that the models perform well in classes with\nmore samples and less contextual confusion (e.g., Bystander Other), but\nstruggle with classes with fewer samples (e.g., Bystander Assistant) and more\ncontextual ambiguity (e.g., Harasser and Victim). This work highlights current\nstrengths and limitations in the development of accurate models with limited\ndata and complex scenarios.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Computer Science/Computation and Language",
+    "Computer Science/Computers and Society",
+    "Computer Science/Social and Information Networks"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "F-Uu1t3PAoc9CoEpWwNa0zKOQLf2W0UCc9bqFr-BpyU",
+  "pdfSize": "2073920"
+}

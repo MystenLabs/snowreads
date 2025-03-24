@@ -1,0 +1,58 @@
+{
+  "id": "2412.01281",
+  "title": "FedPAW: Federated Learning with Personalized Aggregation Weights for\n  Urban Vehicle Speed Prediction",
+  "authors": "Yuepeng He, Pengzhan Zhou, Yijun Zhai, Fang Qu, Zhida Qin, Mingyan Li,\n  Songtao Guo",
+  "authorsParsed": [
+    [
+      "He",
+      "Yuepeng",
+      ""
+    ],
+    [
+      "Zhou",
+      "Pengzhan",
+      ""
+    ],
+    [
+      "Zhai",
+      "Yijun",
+      ""
+    ],
+    [
+      "Qu",
+      "Fang",
+      ""
+    ],
+    [
+      "Qin",
+      "Zhida",
+      ""
+    ],
+    [
+      "Li",
+      "Mingyan",
+      ""
+    ],
+    [
+      "Guo",
+      "Songtao",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 2 Dec 2024 08:54:43 GMT"
+    }
+  ],
+  "updateDate": "2024-12-03",
+  "timestamp": 1733129683000,
+  "abstract": "  Vehicle speed prediction is crucial for intelligent transportation systems,\npromoting more reliable autonomous driving by accurately predicting future\nvehicle conditions. Due to variations in drivers' driving styles and vehicle\ntypes, speed predictions for different target vehicles may significantly\ndiffer. Existing methods may not realize personalized vehicle speed prediction\nwhile protecting drivers' data privacy. We propose a Federated learning\nframework with Personalized Aggregation Weights (FedPAW) to overcome these\nchallenges. This method captures client-specific information by measuring the\nweighted mean squared error between the parameters of local models and global\nmodels. The server sends tailored aggregated models to clients instead of a\nsingle global model, without incurring additional computational and\ncommunication overhead for clients. To evaluate the effectiveness of FedPAW, we\ncollected driving data in urban scenarios using the autonomous driving\nsimulator CARLA, employing an LSTM-based Seq2Seq model with a multi-head\nattention mechanism to predict the future speed of target vehicles. The results\ndemonstrate that our proposed FedPAW ranks lowest in prediction error within\nthe time horizon of 10 seconds, with a 0.8% reduction in test MAE, compared to\neleven representative benchmark baselines. The source code of FedPAW and\ndataset CarlaVSP are open-accessed at: https://github.com/heyuepeng/PFLlibVSP\nand https://pan.baidu.com/s/1qs8fxUvSPERV3C9i6pfUIw?pwd=tl3e.\n",
+  "subjects": [
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Distributed, Parallel, and Cluster Computing"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "hgHXYWhVpeKUEhjJQ0l2g8SZ0OHmeXPgREkwNp-bljQ",
+  "pdfSize": "9216557"
+}

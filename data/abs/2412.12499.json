@@ -1,0 +1,52 @@
+{
+  "id": "2412.12499",
+  "title": "LinguaLIFT: An Effective Two-stage Instruction Tuning Framework for\n  Low-Resource Language Reasoning",
+  "authors": "Hongbin Zhang, Kehai Chen, Xuefeng Bai, Yang Xiang, Min Zhang",
+  "authorsParsed": [
+    [
+      "Zhang",
+      "Hongbin",
+      ""
+    ],
+    [
+      "Chen",
+      "Kehai",
+      ""
+    ],
+    [
+      "Bai",
+      "Xuefeng",
+      ""
+    ],
+    [
+      "Xiang",
+      "Yang",
+      ""
+    ],
+    [
+      "Zhang",
+      "Min",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 17 Dec 2024 03:03:17 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Mon, 17 Feb 2025 13:20:15 GMT"
+    }
+  ],
+  "updateDate": "2025-02-18",
+  "timestamp": 1734404597000,
+  "abstract": "  Large language models (LLMs) have exhibited impressive multilingual reasoning\ncapabilities, driven by extensive multilingual pre-training corpora and\ninstruction fine-tuning data. However, a performance gap exists between high-\nand low-resource language reasoning tasks due to the language imbalance in the\npre-training corpus, which is exacerbated by evaluation bias in existing\nreasoning benchmarks lacking low-resource language coverage. To alleviate this\nissue, we propose LinguaLIFT, a two-stage instruction tuning framework for\nadvancing low-resource language reasoning. LinguaLIFT employs a language\nalignment layer to capture multilingual alignment in a code-switched tuning way\nwithout requiring multilingual instruction or parallel data, thereby\ntransferring the cross-lingual reasoning capabilities to low-resource languages\nthrough English-only instruction tuning data. To comprehensively evaluate the\nmultilingual reasoning capabilities, we introduce the Multilingual Math World\nProblem (MMWP) benchmark, which spans 21 low-resource, 17 medium-resource, and\n10 high-resource languages. Experimental results show that LinguaLIFT\noutperforms several competitive baselines across MMWP and four widely used\nbenchmarks.\n",
+  "subjects": [
+    "Computer Science/Computation and Language",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "xYWJEvc7xDPXp0mQv7euqNW7Bc5nTQ8NYBHlc78hr3g",
+  "pdfSize": "1755140"
+}

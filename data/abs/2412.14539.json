@@ -1,0 +1,54 @@
+{
+  "id": "2412.14539",
+  "title": "Downscaling Precipitation with Bias-informed Conditional Diffusion Model",
+  "authors": "Ran Lyu (1), Linhan Wang (1), Yanshen Sun (1), Hedanqiu Bai (2),\n  Chang-Tien Lu (1) ((1) Virginia Tech, (2) Texas A&M University)",
+  "authorsParsed": [
+    [
+      "Lyu",
+      "Ran",
+      "",
+      "Virginia Tech"
+    ],
+    [
+      "Wang",
+      "Linhan",
+      "",
+      "Virginia Tech"
+    ],
+    [
+      "Sun",
+      "Yanshen",
+      "",
+      "Virginia Tech"
+    ],
+    [
+      "Bai",
+      "Hedanqiu",
+      "",
+      "Texas A&M University"
+    ],
+    [
+      "Lu",
+      "Chang-Tien",
+      "",
+      "Virginia Tech"
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 19 Dec 2024 05:36:52 GMT"
+    }
+  ],
+  "updateDate": "2024-12-20",
+  "timestamp": 1734586612000,
+  "abstract": "  Climate change is intensifying rainfall extremes, making high-resolution\nprecipitation projections crucial for society to better prepare for impacts\nsuch as flooding. However, current Global Climate Models (GCMs) operate at\nspatial resolutions too coarse for localized analyses. To address this\nlimitation, deep learning-based statistical downscaling methods offer promising\nsolutions, providing high-resolution precipitation projections with a moderate\ncomputational cost. In this work, we introduce a bias-informed conditional\ndiffusion model for statistical downscaling of precipitation. Specifically, our\nmodel leverages a conditional diffusion approach to learn distribution priors\nfrom large-scale, high-resolution precipitation datasets. The long-tail\ndistribution of precipitation poses a unique challenge for training diffusion\nmodels; to address this, we apply gamma correction during preprocessing.\nAdditionally, to correct biases in the downscaled results, we employ a\nguided-sampling strategy to enhance bias correction. Our experiments\ndemonstrate that the proposed model achieves highly accurate results in an 8\ntimes downscaling setting, outperforming previous deterministic methods. The\ncode and dataset are available at\nhttps://github.com/RoseLV/research_super-resolution\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Physics/Atmospheric and Oceanic Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "mqIXTWAl9XG9UllqRZ6jf-kOlCJl-CJ-5-NW2ADxJZg",
+  "pdfSize": "1668696"
+}

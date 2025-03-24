@@ -1,0 +1,48 @@
+{
+  "id": "2412.11039",
+  "title": "A Digitalized Atlas for Pulmonary Airway",
+  "authors": "Minghui Zhang, Chenyu Li, Hanxiao Zhang, Yaoyu Liu and Yun Gu",
+  "authorsParsed": [
+    [
+      "Zhang",
+      "Minghui",
+      ""
+    ],
+    [
+      "Li",
+      "Chenyu",
+      ""
+    ],
+    [
+      "Zhang",
+      "Hanxiao",
+      ""
+    ],
+    [
+      "Liu",
+      "Yaoyu",
+      ""
+    ],
+    [
+      "Gu",
+      "Yun",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 15 Dec 2024 03:35:00 GMT"
+    }
+  ],
+  "updateDate": "2024-12-17",
+  "timestamp": 1734233700000,
+  "abstract": "  In this work, we proposed AirwayAtlas, which is an end-to-end pipeline for\nautomatic extraction of airway anatomies with lobar, segmental and subsegmental\nlabeling. A compact representation, AirwaySign, is generated based on diverse\nfeatures of airway branches. Experiments on multi-center datasets validated the\neffectiveness of AirwayAtlas. We also demonstrated that AirwaySign is a\npowerful tool for correlation analysis on pulmonary diseases.\n",
+  "subjects": [
+    "Electrical Engineering and Systems Science/Image and Video Processing",
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "XQNw5JCXBzxYjypPdLZIShPz67gAa8oTsk2dZDmk0-g",
+  "pdfSize": "6698274"
+}

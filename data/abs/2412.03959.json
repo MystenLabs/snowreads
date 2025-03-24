@@ -1,0 +1,64 @@
+{
+  "id": "2412.03959",
+  "title": "Is FISHER All You Need in The Multi-AUV Underwater Target Tracking Task?",
+  "authors": "Jingzehua Xu, Guanwen Xie, Ziqi Zhang, Xiangwang Hou, Dongfang Ma,\n  Shuai Zhang, Yong Ren, Dusit Niyato",
+  "authorsParsed": [
+    [
+      "Xu",
+      "Jingzehua",
+      ""
+    ],
+    [
+      "Xie",
+      "Guanwen",
+      ""
+    ],
+    [
+      "Zhang",
+      "Ziqi",
+      ""
+    ],
+    [
+      "Hou",
+      "Xiangwang",
+      ""
+    ],
+    [
+      "Ma",
+      "Dongfang",
+      ""
+    ],
+    [
+      "Zhang",
+      "Shuai",
+      ""
+    ],
+    [
+      "Ren",
+      "Yong",
+      ""
+    ],
+    [
+      "Niyato",
+      "Dusit",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 5 Dec 2024 08:24:39 GMT"
+    }
+  ],
+  "updateDate": "2024-12-18",
+  "timestamp": 1733387079000,
+  "abstract": "  It is significant to employ multiple autonomous underwater vehicles (AUVs) to\nexecute the underwater target tracking task collaboratively. However, it's\npretty challenging to meet various prerequisites utilizing traditional control\nmethods. Therefore, we propose an effective two-stage learning from\ndemonstrations training framework, FISHER, to highlight the adaptability of\nreinforcement learning (RL) methods in the multi-AUV underwater target tracking\ntask, while addressing its limitations such as extensive requirements for\nenvironmental interactions and the challenges in designing reward functions.\nThe first stage utilizes imitation learning (IL) to realize policy improvement\nand generate offline datasets. To be specific, we introduce multi-agent\ndiscriminator-actor-critic based on improvements of the generative adversarial\nIL algorithm and multi-agent IL optimization objective derived from the Nash\nequilibrium condition. Then in the second stage, we develop multi-agent\nindependent generalized decision transformer, which analyzes the latent\nrepresentation to match the future states of high-quality samples rather than\nreward function, attaining further enhanced policies capable of handling\nvarious scenarios. Besides, we propose a simulation to simulation demonstration\ngeneration procedure to facilitate the generation of expert demonstrations in\nunderwater environments, which capitalizes on traditional control methods and\ncan easily accomplish the domain transfer to obtain demonstrations. Extensive\nsimulation experiments from multiple scenarios showcase that FISHER possesses\nstrong stability, multi-task performance and capability of generalization.\n",
+  "subjects": [
+    "Computer Science/Robotics",
+    "Computer Science/Systems and Control",
+    "Electrical Engineering and Systems Science/Systems and Control"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "43Iu8dl3EpN5Ch6KOfOMRmAZcOz43PbSWMpI88Aiy7w",
+  "pdfSize": "1494540"
+}

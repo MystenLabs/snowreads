@@ -1,0 +1,39 @@
+{
+  "id": "2412.03865",
+  "title": "Dudeney's Dissection is Optimal",
+  "authors": "Erik D. Demaine, Tonan Kamata, Ryuhei Uehara",
+  "authorsParsed": [
+    [
+      "Demaine",
+      "Erik D.",
+      ""
+    ],
+    [
+      "Kamata",
+      "Tonan",
+      ""
+    ],
+    [
+      "Uehara",
+      "Ryuhei",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 5 Dec 2024 04:25:29 GMT"
+    }
+  ],
+  "updateDate": "2024-12-06",
+  "timestamp": 1733372729000,
+  "abstract": "  In 1907, Henry Ernest Dudeney posed a puzzle: ``cut any equilateral triangle\n\\dots\\ into as few pieces as possible that will fit together and form a perfect\nsquare'' (without overlap, via translation and rotation). Four weeks later,\nDudeney demonstrated a beautiful four-piece solution, which today remains\nperhaps the most famous example of a dissection. In this paper (over a century\nlater), we finally solve Dudeney's puzzle, by proving that the equilateral\ntriangle and square have no common dissection with three or fewer polygonal\npieces. We reduce the problem to the analysis of a discrete graph structure\nrepresenting the correspondence between the edges and vertices of the pieces\nforming each polygon, using ideas from common unfolding.\n",
+  "subjects": [
+    "Computer Science/Computational Geometry",
+    "Computer Science/Discrete Mathematics",
+    "Mathematics/Geometric Topology"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "Xyv-sBZ3ElArwk16olvqBkg21h9w1TsKck64eqRMzVo",
+  "pdfSize": "2608900"
+}

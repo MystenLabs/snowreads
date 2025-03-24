@@ -1,0 +1,37 @@
+{
+  "id": "2412.07368",
+  "title": "Critical velocity for wake vortex generation behind a plate in a\n  superflow",
+  "authors": "Haruya Kokubo, Kenichi Kasamatsu, Hiromitsu Takeuchi",
+  "authorsParsed": [
+    [
+      "Kokubo",
+      "Haruya",
+      ""
+    ],
+    [
+      "Kasamatsu",
+      "Kenichi",
+      ""
+    ],
+    [
+      "Takeuchi",
+      "Hiromitsu",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 10 Dec 2024 10:08:21 GMT"
+    }
+  ],
+  "updateDate": "2024-12-11",
+  "timestamp": 1733825301000,
+  "abstract": "  We study theoretically the critical velocity $U_c$ for quantum vortex\ngeneration by a thin plate-shaped obstacle moving through a uniform\nBose-Einstein condensate. Our results based on the Gross-Pitaevskii theory\nreveal that the critical velocity monotonically decreases with increasing plate\nsize $L$. In the limit of large $L$, the critical velocity is asymptotic to\n$L^{-1/2}$ predicted by the potential flow theory for an incompressible ideal\nfluid with a phenomenological length correction. As $L$ decreases, however, the\nincompressible analysis breaks down quantitatively. By performing a\nperturbative analysis to incorporate compressibility into the potential flow\ntheory, we have successfully reproduced the numerical results analytically over\na wide parameter range. It is also shown that the critical velocity increases\nwith finite plate thickness.\n",
+  "subjects": [
+    "Condensed Matter/Quantum Gases"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "KYgh31ou2P0oMpdpSaP3AWD7D8HWnvpRksgxEwObrrA",
+  "pdfSize": "1290127"
+}

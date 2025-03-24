@@ -1,0 +1,37 @@
+{
+  "id": "2412.17673",
+  "title": "Trypanosoma brucei moving in microchannels and through constrictions",
+  "authors": "Zihan Tan, Julian I. U. Peters, and Holger Stark",
+  "authorsParsed": [
+    [
+      "Tan",
+      "Zihan",
+      ""
+    ],
+    [
+      "Peters",
+      "Julian I. U.",
+      ""
+    ],
+    [
+      "Stark",
+      "Holger",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 23 Dec 2024 15:56:27 GMT"
+    }
+  ],
+  "updateDate": "2024-12-24",
+  "timestamp": 1734969387000,
+  "abstract": "  Trypanosoma brucei (T. brucei), a single-celled parasite and natural\nmicroswimmer, is responsible for fatal sleeping sickness in infected mammals,\nincluding humans. Understanding how T. brucei interacts with fluid environments\nand navigates through confining spaces is crucial not only for medical and\nclinical applications but also for a fundamental understanding of how life\norganizes in a confined microscopic world. Using a hybrid multi-particle\ncollision dynamics (MPCD)--molecular dynamics (MD) approach, we present our\ninvestigations on the locomotion of an in silico T. brucei in three types of\nfluid environments: bulk fluid, straight cylindrical microchannels, and\nmicrochannels with constrictions. We observe that the helical swimming\ntrajectory of the in silico T. brucei becomes rectified in straight cylindrical\nchannels compared to bulk fluid. The swimming speed for different channel\nwidths is governed by the diameter of the helical trajectory. The speed first\nslightly increases as the channel narrows and then decreases when the helix\ndiameter is compressed. An optimal swimming speed is achieved, when the channel\nwidth is approximately twice the bulk helix diameter. It results from an\ninterplay of the trypanosome's hydrodynamic interactions with the cylindrical\nchannel walls and the high deformability of the parasite. In microchannels with\nconstrictions, the motions of the anterior and posterior ends, the end-to-end\ndistance, and the log-rolling motion of the cell body are characterized and\nshow salient differences compared to the straight-channel case. Depending on\nthe constriction length and width, we observe characteristic slip, stuck, and\nstuck-slip motions of the model T. brucei within the constriction. Our findings\nmay provide some mechanical insights into how T. brucei moves through blood\nvessels and tissues, and across the blood-brain barrier.\n",
+  "subjects": [
+    "Condensed Matter/Soft Condensed Matter"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "s0WwplLoC_NPzDtwyLz11i0MwgbE_s7C9z5DOM_DiFc",
+  "pdfSize": "6612480"
+}

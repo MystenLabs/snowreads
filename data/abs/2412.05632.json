@@ -1,0 +1,63 @@
+{
+  "id": "2412.05632",
+  "title": "Biological Brain Age Estimation using Sex-Aware Adversarial Variational\n  Autoencoder with Multimodal Neuroimages",
+  "authors": "Abd Ur Rehman, Azka Rehman, Muhammad Usman, Abdullah Shahid, Sung-Min\n  Gho, Aleum Lee, Tariq M. Khan and Imran Razzak",
+  "authorsParsed": [
+    [
+      "Rehman",
+      "Abd Ur",
+      ""
+    ],
+    [
+      "Rehman",
+      "Azka",
+      ""
+    ],
+    [
+      "Usman",
+      "Muhammad",
+      ""
+    ],
+    [
+      "Shahid",
+      "Abdullah",
+      ""
+    ],
+    [
+      "Gho",
+      "Sung-Min",
+      ""
+    ],
+    [
+      "Lee",
+      "Aleum",
+      ""
+    ],
+    [
+      "Khan",
+      "Tariq M.",
+      ""
+    ],
+    [
+      "Razzak",
+      "Imran",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 7 Dec 2024 12:10:29 GMT"
+    }
+  ],
+  "updateDate": "2024-12-10",
+  "timestamp": 1733573429000,
+  "abstract": "  Brain aging involves structural and functional changes and therefore serves\nas a key biomarker for brain health. Combining structural magnetic resonance\nimaging (sMRI) and functional magnetic resonance imaging (fMRI) has the\npotential to improve brain age estimation by leveraging complementary data.\nHowever, fMRI data, being noisier than sMRI, complicates multimodal fusion.\nTraditional fusion methods often introduce more noise than useful information,\nwhich can reduce accuracy compared to using sMRI alone. In this paper, we\npropose a novel multimodal framework for biological brain age estimation,\nutilizing a sex-aware adversarial variational autoencoder (SA-AVAE). Our\nframework integrates adversarial and variational learning to effectively\ndisentangle the latent features from both modalities. Specifically, we\ndecompose the latent space into modality-specific codes and shared codes to\nrepresent complementary and common information across modalities, respectively.\nTo enhance the disentanglement, we introduce cross-reconstruction and\nshared-distinct distance ratio loss as regularization terms. Importantly, we\nincorporate sex information into the learned latent code, enabling the model to\ncapture sex-specific aging patterns for brain age estimation via an integrated\nregressor module. We evaluate our model using the publicly available OpenBHB\ndataset, a comprehensive multi-site dataset for brain age estimation. The\nresults from ablation studies and comparisons with state-of-the-art methods\ndemonstrate that our framework outperforms existing approaches and shows\nsignificant robustness across various age groups, highlighting its potential\nfor real-time clinical applications in the early detection of neurodegenerative\ndiseases.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "Y5hhoKGWt1X-IScVSzbRRU4kxtkjuJp88ZH9hkAgAEc",
+  "pdfSize": "17044599"
+}

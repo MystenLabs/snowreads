@@ -1,0 +1,34 @@
+{
+  "id": "2412.11084",
+  "title": "BarcodeMamba: State Space Models for Biodiversity Analysis",
+  "authors": "Tiancheng Gao, Graham W. Taylor",
+  "authorsParsed": [
+    [
+      "Gao",
+      "Tiancheng",
+      ""
+    ],
+    [
+      "Taylor",
+      "Graham W.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 15 Dec 2024 06:52:18 GMT"
+    }
+  ],
+  "updateDate": "2024-12-17",
+  "timestamp": 1734245538000,
+  "abstract": "  DNA barcodes are crucial in biodiversity analysis for building automatic\nidentification systems that recognize known species and discover unseen\nspecies. Unlike human genome modeling, barcode-based invertebrate\nidentification poses challenges in the vast diversity of species and taxonomic\ncomplexity. Among Transformer-based foundation models, BarcodeBERT excelled in\nspecies-level identification of invertebrates, highlighting the effectiveness\nof self-supervised pretraining on barcode-specific datasets. Recently,\nstructured state space models (SSMs) have emerged, with a time complexity that\nscales sub-quadratically with the context length. SSMs provide an efficient\nparameterization of sequence modeling relative to attention-based\narchitectures. Given the success of Mamba and Mamba-2 in natural language, we\ndesigned BarcodeMamba, a performant and efficient foundation model for DNA\nbarcodes in biodiversity analysis. We conducted a comprehensive ablation study\non the impacts of self-supervised training and tokenization methods, and\ncompared both versions of Mamba layers in terms of expressiveness and their\ncapacity to identify \"unseen\" species held back from training. Our study shows\nthat BarcodeMamba has better performance than BarcodeBERT even when using only\n8.3% as many parameters, and improves accuracy to 99.2% on species-level\naccuracy in linear probing without fine-tuning for \"seen\" species. In our\nscaling study, BarcodeMamba with 63.6% of BarcodeBERT's parameters achieved\n70.2% genus-level accuracy in 1-nearest neighbor (1-NN) probing for unseen\nspecies. The code repository to reproduce our experiments is available at\nhttps://github.com/bioscan-ml/BarcodeMamba.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Quantitative Biology/Genomics",
+    "Quantitative Biology/Quantitative Methods"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "doBjEfW6yZb2zFhzarddyQGxDJdNo-lB42DxzQS1HK0",
+  "pdfSize": "282666"
+}

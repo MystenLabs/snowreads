@@ -1,0 +1,36 @@
+{
+  "id": "2412.16023",
+  "title": "Knowledge-dependent optimal Gaussian strategies for phase estimation",
+  "authors": "Ricard Ravell Rodr\\'iguez and Simon Morelli",
+  "authorsParsed": [
+    [
+      "Rodríguez",
+      "Ricard Ravell",
+      ""
+    ],
+    [
+      "Morelli",
+      "Simon",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 20 Dec 2024 16:16:33 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Thu, 23 Jan 2025 08:20:42 GMT"
+    }
+  ],
+  "updateDate": "2025-01-24",
+  "timestamp": 1734711393000,
+  "abstract": "  When estimating an unknown phase rotation of a continuous-variable system\nwith homodyne detection, the optimal probe state strongly depends on the value\nof the estimated parameter. In this article, we identify the optimal pure\nsingle-mode Gaussian probe states depending on the knowledge of the estimated\nphase parameter before the measurement. We find that for a large prior\nuncertainty, the optimal probe states are close to coherent states, a result in\nline with findings from noisy parameter estimation. But with increasingly\nprecise estimates of the parameter it becomes beneficial to put more of the\navailable energy into the squeezing of the probe state. Surprisingly, there is\na clear jump, where the optimal probe state changes abruptly to a squeezed\nvacuum state, which maximizes the Fisher information for this estimation task.\nWe use our results to study repeated measurements and compare different methods\nto adapt the probe state based on the changing knowledge of the parameter\naccording to the previous findings.\n",
+  "subjects": [
+    "Physics/Quantum Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "m9dhKqNsufReANLDg0AZMHi9idBhhym6bWI_RSQv-zk",
+  "pdfSize": "788396"
+}

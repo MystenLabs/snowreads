@@ -1,0 +1,32 @@
+{
+  "id": "2412.16395",
+  "title": "Autonomous Option Invention for Continual Hierarchical Reinforcement\n  Learning and Planning",
+  "authors": "Rashmeet Kaur Nayyar and Siddharth Srivastava",
+  "authorsParsed": [
+    [
+      "Nayyar",
+      "Rashmeet Kaur",
+      ""
+    ],
+    [
+      "Srivastava",
+      "Siddharth",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 20 Dec 2024 23:04:52 GMT"
+    }
+  ],
+  "updateDate": "2024-12-24",
+  "timestamp": 1734735892000,
+  "abstract": "  Abstraction is key to scaling up reinforcement learning (RL). However,\nautonomously learning abstract state and action representations to enable\ntransfer and generalization remains a challenging open problem. This paper\npresents a novel approach for inventing, representing, and utilizing options,\nwhich represent temporally extended behaviors, in continual RL settings. Our\napproach addresses streams of stochastic problems characterized by long\nhorizons, sparse rewards, and unknown transition and reward functions.\n  Our approach continually learns and maintains an interpretable state\nabstraction, and uses it to invent high-level options with abstract symbolic\nrepresentations. These options meet three key desiderata: (1) composability for\nsolving tasks effectively with lookahead planning, (2) reusability across\nproblem instances for minimizing the need for relearning, and (3) mutual\nindependence for reducing interference among options. Our main contributions\nare approaches for continually learning transferable, generalizable options\nwith symbolic representations, and for integrating search techniques with RL to\nefficiently plan over these learned options to solve new problems. Empirical\nresults demonstrate that the resulting approach effectively learns and\ntransfers abstract knowledge across problem instances, achieving superior\nsample efficiency compared to state-of-the-art methods.\n",
+  "subjects": [
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "63LjQKN43I3FI-fTFhL978KG_QDNvTJAEBqmWQft3zg",
+  "pdfSize": "1480205"
+}

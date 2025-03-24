@@ -1,0 +1,48 @@
+{
+  "id": "2412.20608",
+  "title": "Conformable Convolution for Topologically Aware Learning of Complex\n  Anatomical Structures",
+  "authors": "Yousef Yeganeh, Rui Xiao, Goktug Guvercin, Nassir Navab, Azade Farshad",
+  "authorsParsed": [
+    [
+      "Yeganeh",
+      "Yousef",
+      ""
+    ],
+    [
+      "Xiao",
+      "Rui",
+      ""
+    ],
+    [
+      "Guvercin",
+      "Goktug",
+      ""
+    ],
+    [
+      "Navab",
+      "Nassir",
+      ""
+    ],
+    [
+      "Farshad",
+      "Azade",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 29 Dec 2024 22:41:33 GMT"
+    }
+  ],
+  "updateDate": "2024-12-31",
+  "timestamp": 1735512093000,
+  "abstract": "  While conventional computer vision emphasizes pixel-level and feature-based\nobjectives, medical image analysis of intricate biological structures\nnecessitates explicit representation of their complex topological properties.\nDespite their successes, deep learning models often struggle to accurately\ncapture the connectivity and continuity of fine, sometimes pixel-thin, yet\ncritical structures due to their reliance on implicit learning from data. Such\nshortcomings can significantly impact the reliability of analysis results and\nhinder clinical decision-making. To address this challenge, we introduce\nConformable Convolution, a novel convolutional layer designed to explicitly\nenforce topological consistency. Conformable Convolution learns adaptive kernel\noffsets that preferentially focus on regions of high topological significance\nwithin an image. This prioritization is guided by our proposed Topological\nPosterior Generator (TPG) module, which leverages persistent homology. The TPG\nmodule identifies key topological features and guides the convolutional layers\nby applying persistent homology to feature maps transformed into cubical\ncomplexes. Our proposed modules are architecture-agnostic, enabling them to be\nintegrated seamlessly into various architectures. We showcase the effectiveness\nof our framework in the segmentation task, where preserving the\ninterconnectedness of structures is critical. Experimental results on three\ndiverse datasets demonstrate that our framework effectively preserves the\ntopology in the segmentation downstream task, both quantitatively and\nqualitatively.\n",
+  "subjects": [
+    "Electrical Engineering and Systems Science/Image and Video Processing",
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "OXrUnKsOP2WXZq4AD2OcvqeEU-85kAScIxGVLjLSO2o",
+  "pdfSize": "3702385"
+}

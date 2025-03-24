@@ -1,0 +1,48 @@
+{
+  "id": "2412.01079",
+  "title": "Federated Motor Imagery Classification for Privacy-Preserving\n  Brain-Computer Interfaces",
+  "authors": "Tianwang Jia, Lubin Meng, Siyang Li, Jiajing Liu and Dongrui Wu",
+  "authorsParsed": [
+    [
+      "Jia",
+      "Tianwang",
+      ""
+    ],
+    [
+      "Meng",
+      "Lubin",
+      ""
+    ],
+    [
+      "Li",
+      "Siyang",
+      ""
+    ],
+    [
+      "Liu",
+      "Jiajing",
+      ""
+    ],
+    [
+      "Wu",
+      "Dongrui",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 2 Dec 2024 03:35:27 GMT"
+    }
+  ],
+  "updateDate": "2024-12-03",
+  "timestamp": 1733110527000,
+  "abstract": "  Training an accurate classifier for EEG-based brain-computer interface (BCI)\nrequires EEG data from a large number of users, whereas protecting their data\nprivacy is a critical consideration. Federated learning (FL) is a promising\nsolution to this challenge. This paper proposes Federated classification with\nlocal Batch-specific batch normalization and Sharpness-aware minimization\n(FedBS) for privacy protection in EEG-based motor imagery (MI) classification.\nFedBS utilizes local batch-specific batch normalization to reduce data\ndiscrepancies among different clients, and sharpness-aware minimization\noptimizer in local training to improve model generalization. Experiments on\nthree public MI datasets using three popular deep learning models demonstrated\nthat FedBS outperformed six state-of-the-art FL approaches. Remarkably, it also\noutperformed centralized training, which does not consider privacy protection\nat all. In summary, FedBS protects user EEG data privacy, enabling multiple BCI\nusers to participate in large-scale machine learning model training, which in\nturn improves the BCI decoding accuracy.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Computer Science/Human-Computer Interaction"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "ew9H2tu9yWGO0Dq5Ux-1Hqovb67twOYtixMfee001zY",
+  "pdfSize": "2359395"
+}

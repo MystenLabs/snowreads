@@ -1,0 +1,38 @@
+{
+  "id": "2412.02481",
+  "title": "Matrix representation of the results of Picard--Lefschetz--Pham theory\n  near the real plane in $\\mathbb{C}^2$",
+  "authors": "A.V.Shanin, A.I.Korolkov, R.C.Assier",
+  "authorsParsed": [
+    [
+      "Shanin",
+      "A. V.",
+      ""
+    ],
+    [
+      "Korolkov",
+      "A. I.",
+      ""
+    ],
+    [
+      "Assier",
+      "R. C.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 3 Dec 2024 14:45:36 GMT"
+    }
+  ],
+  "updateDate": "2024-12-04",
+  "timestamp": 1733237136000,
+  "abstract": "  This work is motivated by an attempt to construct a two-dimensional analogue\nof the Wiener--Hopf method. It is supposed that understanding the branching\nstructure of unknown functions will provide insight into the form in which\nthese functions can be sought. The unknown functions are represented as\ntwo-dimensional integrals of analytic functions with parameters, making it\nnatural to study the branching of the integration surface using\nPicard--Lefschetz theory. A convenient matrix-vector representation of the main\nresult of Picard--Lefschetz theory is introduced, and the following two\nstatements are formulated. First, under certain constraints, the integration\nsurface can be represented as a finite-dimensional vector with coefficients in\nthe group ring over the fundamental group of the space with removed\nsingularities. Second, a bypass in the parameter space around one of the\ncomponents of the Landau set is described by multiplication by a relatively\nsimple matrix (also composed of elements from the group ring). Successive loops\nare described by the product of such matrices. As an illustration, it is shown\nhow the matrix formalism yields the Picard-Lefschetz formula and provides\nnontrivial topological relationships in the parameter space.\n",
+  "subjects": [
+    "Physics/Mathematical Physics",
+    "Mathematics/Mathematical Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "5J264NXFuk3qeajItuCKSEz6-9T8cBAyySe93cv3-mM",
+  "pdfSize": "5215852"
+}

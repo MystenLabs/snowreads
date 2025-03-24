@@ -1,0 +1,44 @@
+{
+  "id": "2412.16174",
+  "title": "Experimenting with Multi-modal Information to Predict Success of Indian\n  IPOs",
+  "authors": "Sohom Ghosh, Arnab Maji, N Harsha Vardhan, Sudip Kumar Naskar",
+  "authorsParsed": [
+    [
+      "Ghosh",
+      "Sohom",
+      ""
+    ],
+    [
+      "Maji",
+      "Arnab",
+      ""
+    ],
+    [
+      "Vardhan",
+      "N Harsha",
+      ""
+    ],
+    [
+      "Naskar",
+      "Sudip Kumar",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 8 Dec 2024 06:11:55 GMT"
+    }
+  ],
+  "updateDate": "2024-12-24",
+  "timestamp": 1733638315000,
+  "abstract": "  With consistent growth in Indian Economy, Initial Public Offerings (IPOs)\nhave become a popular avenue for investment. With the modern technology\nsimplifying investments, more investors are interested in making data driven\ndecisions while subscribing for IPOs. In this paper, we describe a machine\nlearning and natural language processing based approach for estimating if an\nIPO will be successful. We have extensively studied the impact of various facts\nmentioned in IPO filing prospectus, macroeconomic factors, market conditions,\nGrey Market Price, etc. on the success of an IPO. We created two new datasets\nrelating to the IPOs of Indian companies. Finally, we investigated how\ninformation from multiple modalities (texts, images, numbers, and categorical\nfeatures) can be used for estimating the direction and underpricing with\nrespect to opening, high and closing prices of stocks on the IPO listing day.\n",
+  "subjects": [
+    "Computer Science/Computation and Language",
+    "Economics/General Economics",
+    "Quantitative Finance/Economics"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "wMTaRUbXvJr6VpamvD5xpMt0iSJ2A1unCce6zhWJAek",
+  "pdfSize": "1077093"
+}

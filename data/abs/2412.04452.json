@@ -1,0 +1,42 @@
+{
+  "id": "2412.04452",
+  "title": "Four-Plane Factorized Video Autoencoders",
+  "authors": "Mohammed Suhail, Carlos Esteves, Leonid Sigal, Ameesh Makadia",
+  "authorsParsed": [
+    [
+      "Suhail",
+      "Mohammed",
+      ""
+    ],
+    [
+      "Esteves",
+      "Carlos",
+      ""
+    ],
+    [
+      "Sigal",
+      "Leonid",
+      ""
+    ],
+    [
+      "Makadia",
+      "Ameesh",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 5 Dec 2024 18:58:17 GMT"
+    }
+  ],
+  "updateDate": "2024-12-06",
+  "timestamp": 1733425097000,
+  "abstract": "  Latent variable generative models have emerged as powerful tools for\ngenerative tasks including image and video synthesis. These models are enabled\nby pretrained autoencoders that map high resolution data into a compressed\nlower dimensional latent space, where the generative models can subsequently be\ndeveloped while requiring fewer computational resources. Despite their\neffectiveness, the direct application of latent variable models to higher\ndimensional domains such as videos continues to pose challenges for efficient\ntraining and inference. In this paper, we propose an autoencoder that projects\nvolumetric data onto a four-plane factorized latent space that grows\nsublinearly with the input size, making it ideal for higher dimensional data\nlike videos. The design of our factorized model supports straightforward\nadoption in a number of conditional generation tasks with latent diffusion\nmodels (LDMs), such as class-conditional generation, frame prediction, and\nvideo interpolation. Our results show that the proposed four-plane latent space\nretains a rich representation needed for high-fidelity reconstructions despite\nthe heavy compression, while simultaneously enabling LDMs to operate with\nsignificant improvements in speed and memory.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "ZCU7n0ZV2oht2p0E0bpVHYjngne--f88nKNqi8Fxc6Y",
+  "pdfSize": "5650765"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "2412.03201",
+  "title": "TrustOps: Continuously Building Trustworthy Software",
+  "authors": "Eduardo Brito, Fernando Castillo, Pille Pullonen-Raudvere, Sebastian\n  Werner",
+  "authorsParsed": [
+    [
+      "Brito",
+      "Eduardo",
+      ""
+    ],
+    [
+      "Castillo",
+      "Fernando",
+      ""
+    ],
+    [
+      "Pullonen-Raudvere",
+      "Pille",
+      ""
+    ],
+    [
+      "Werner",
+      "Sebastian",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 4 Dec 2024 10:41:01 GMT"
+    }
+  ],
+  "updateDate": "2025-02-17",
+  "timestamp": 1733308861000,
+  "abstract": "  Software services play a crucial role in daily life, with automated actions\ndetermining access to resources and information. Trusting service providers to\nperform these actions fairly and accurately is essential, yet challenging for\nusers to verify. Even with publicly available codebases, the rapid pace of\ndevelopment and the complexity of modern deployments hinder the understanding\nand evaluation of service actions, including for experts. Hence, current trust\nmodels rely heavily on the assumption that service providers follow best\npractices and adhere to laws and regulations, which is increasingly impractical\nand risky, leading to undetected flaws and data leaks.\n  In this paper, we argue that gathering verifiable evidence during software\ndevelopment and operations is needed for creating a new trust model. Therefore,\nwe present TrustOps, an approach for continuously collecting verifiable\nevidence in all phases of the software life cycle, relying on and combining\nalready existing tools and trust-enhancing technologies to do so. For this, we\nintroduce the adaptable core principles of TrustOps and provide a roadmap for\nfuture research and development.\n",
+  "subjects": [
+    "Computer Science/Software Engineering"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "yuoG6Rwuv5Q0xPEal_ssrG2uTpMxtMsaUam0pZdwzzI",
+  "pdfSize": "1610835"
+}

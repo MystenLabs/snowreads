@@ -1,0 +1,38 @@
+{
+  "id": "2412.07243",
+  "title": "A Dynamical Systems-Inspired Pruning Strategy for Addressing\n  Oversmoothing in Graph Neural Networks",
+  "authors": "Biswadeep Chakraborty, Harshit Kumar, Saibal Mukhopadhyay",
+  "authorsParsed": [
+    [
+      "Chakraborty",
+      "Biswadeep",
+      ""
+    ],
+    [
+      "Kumar",
+      "Harshit",
+      ""
+    ],
+    [
+      "Mukhopadhyay",
+      "Saibal",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 10 Dec 2024 07:07:06 GMT"
+    }
+  ],
+  "updateDate": "2024-12-11",
+  "timestamp": 1733814426000,
+  "abstract": "  Oversmoothing in Graph Neural Networks (GNNs) poses a significant challenge\nas network depth increases, leading to homogenized node representations and a\nloss of expressiveness. In this work, we approach the oversmoothing problem\nfrom a dynamical systems perspective, providing a deeper understanding of the\nstability and convergence behavior of GNNs. Leveraging insights from dynamical\nsystems theory, we identify the root causes of oversmoothing and propose\n\\textbf{\\textit{DYNAMO-GAT}}. This approach utilizes noise-driven covariance\nanalysis and Anti-Hebbian principles to selectively prune redundant attention\nweights, dynamically adjusting the network's behavior to maintain node feature\ndiversity and stability. Our theoretical analysis reveals how DYNAMO-GAT\ndisrupts the convergence to oversmoothed states, while experimental results on\nbenchmark datasets demonstrate its superior performance and efficiency compared\nto traditional and state-of-the-art methods. DYNAMO-GAT not only advances the\ntheoretical understanding of oversmoothing through the lens of dynamical\nsystems but also provides a practical and effective solution for improving the\nstability and expressiveness of deep GNNs.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "zuoJcIG1mpKxFFwoXJTiDUB8Ha1fIa3Vgf5TpQ2AXpk",
+  "pdfSize": "2724151"
+}

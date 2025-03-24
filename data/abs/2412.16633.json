@@ -1,0 +1,53 @@
+{
+  "id": "2412.16633",
+  "title": "POEX: Understanding and Mitigating Policy Executable Jailbreak Attacks\n  against Embodied AI",
+  "authors": "Xuancun Lu, Zhengxian Huang, Xinfeng Li, Xiaoyu ji, Wenyuan Xu",
+  "authorsParsed": [
+    [
+      "Lu",
+      "Xuancun",
+      ""
+    ],
+    [
+      "Huang",
+      "Zhengxian",
+      ""
+    ],
+    [
+      "Li",
+      "Xinfeng",
+      ""
+    ],
+    [
+      "ji",
+      "Xiaoyu",
+      ""
+    ],
+    [
+      "Xu",
+      "Wenyuan",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 21 Dec 2024 13:58:27 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Mon, 10 Feb 2025 08:13:17 GMT"
+    }
+  ],
+  "updateDate": "2025-02-11",
+  "timestamp": 1734789507000,
+  "abstract": "  Embodied AI systems are rapidly evolving due to the integration of LLMs as\nplanning modules, which transform complex instructions into executable\npolicies. However, LLMs are vulnerable to jailbreak attacks, which can generate\nmalicious content. This paper investigates the feasibility and rationale behind\napplying traditional LLM jailbreak attacks to EAI systems. We aim to answer\nthree questions: (1) Do traditional LLM jailbreak attacks apply to EAI systems?\n(2) What challenges arise if they do not? and (3) How can we defend against EAI\njailbreak attacks? To this end, we first measure existing LLM-based EAI systems\nusing a newly constructed dataset, i.e., the Harmful-RLbench. Our study\nconfirms that traditional LLM jailbreak attacks are not directly applicable to\nEAI systems and identifies two unique challenges. First, the harmful text does\nnot necessarily constitute harmful policies. Second, even if harmful policies\ncan be generated, they are not necessarily executable by the EAI systems, which\nlimits the potential risk. To facilitate a more comprehensive security\nanalysis, we refine and introduce POEX, a novel red teaming framework that\noptimizes adversarial suffixes to induce harmful yet executable policies\nagainst EAI systems. The design of POEX employs adversarial constraints, policy\nevaluators, and suffix optimization to ensure successful policy execution while\nevading safety detection inside an EAI system. Experiments on the real-world\nrobotic arm and simulator using Harmful-RLbench demonstrate the efficacy,\nhighlighting severe safety vulnerabilities and high transferability across\nmodels. Finally, we propose prompt-based and model-based defenses, achieving an\n85% success rate in mitigating attacks and enhancing safety awareness in EAI\nsystems. Our findings underscore the urgent need for robust security measures\nto ensure the safe deployment of EAI in critical applications.\n",
+  "subjects": [
+    "Computer Science/Robotics",
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Computers and Society"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "K2gMFsqGcu1myCf1Yyc8Wogu4Dx6XEhgljcamTq37YQ",
+  "pdfSize": "1724839"
+}

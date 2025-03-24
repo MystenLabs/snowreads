@@ -1,0 +1,33 @@
+{
+  "id": "2412.15296",
+  "title": "Confidence in the Reasoning of Large Language Models",
+  "authors": "Yudi Pawitan and Chris Holmes",
+  "authorsParsed": [
+    [
+      "Pawitan",
+      "Yudi",
+      ""
+    ],
+    [
+      "Holmes",
+      "Chris",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 19 Dec 2024 10:04:29 GMT"
+    }
+  ],
+  "updateDate": "2024-12-23",
+  "timestamp": 1734602669000,
+  "abstract": "  There is a growing literature on reasoning by large language models (LLMs),\nbut the discussion on the uncertainty in their responses is still lacking. Our\naim is to assess the extent of confidence that LLMs have in their answers and\nhow it correlates with accuracy. Confidence is measured (i) qualitatively in\nterms of persistence in keeping their answer when prompted to reconsider, and\n(ii) quantitatively in terms of self-reported confidence score. We investigate\nthe performance of three LLMs -- GPT4o, GPT4-turbo and Mistral -- on two\nbenchmark sets of questions on causal judgement and formal fallacies and a set\nof probability and statistical puzzles and paradoxes. Although the LLMs show\nsignificantly better performance than random guessing, there is a wide\nvariability in their tendency to change their initial answers. There is a\npositive correlation between qualitative confidence and accuracy, but the\noverall accuracy for the second answer is often worse than for the first\nanswer. There is a strong tendency to overstate the self-reported confidence\nscore. Confidence is only partially explained by the underlying token-level\nprobability. The material effects of prompting on qualitative confidence and\nthe strong tendency for overconfidence indicate that current LLMs do not have\nany internally coherent sense of confidence.\n",
+  "subjects": [
+    "Computer Science/Computation and Language",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "Fxr6ESk_7Cs4x7HXNEYNExyAutd56G1vQsx8dQPoj0s",
+  "pdfSize": "332019"
+}

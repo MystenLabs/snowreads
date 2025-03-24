@@ -1,0 +1,42 @@
+{
+  "id": "2412.06780",
+  "title": "Diverse Score Distillation",
+  "authors": "Yanbo Xu, Jayanth Srinivasa, Gaowen Liu, Shubham Tulsiani",
+  "authorsParsed": [
+    [
+      "Xu",
+      "Yanbo",
+      ""
+    ],
+    [
+      "Srinivasa",
+      "Jayanth",
+      ""
+    ],
+    [
+      "Liu",
+      "Gaowen",
+      ""
+    ],
+    [
+      "Tulsiani",
+      "Shubham",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 9 Dec 2024 18:59:02 GMT"
+    }
+  ],
+  "updateDate": "2024-12-10",
+  "timestamp": 1733770742000,
+  "abstract": "  Score distillation of 2D diffusion models has proven to be a powerful\nmechanism to guide 3D optimization, for example enabling text-based 3D\ngeneration or single-view reconstruction. A common limitation of existing score\ndistillation formulations, however, is that the outputs of the (mode-seeking)\noptimization are limited in diversity despite the underlying diffusion model\nbeing capable of generating diverse samples. In this work, inspired by the\nsampling process in denoising diffusion, we propose a score formulation that\nguides the optimization to follow generation paths defined by random initial\nseeds, thus ensuring diversity. We then present an approximation to adopt this\nformulation for scenarios where the optimization may not precisely follow the\ngeneration paths (e.g. a 3D representation whose renderings evolve in a\nco-dependent manner). We showcase the applications of our `Diverse Score\nDistillation' (DSD) formulation across tasks such as 2D optimization,\ntext-based 3D inference, and single-view reconstruction. We also empirically\nvalidate DSD against prior score distillation formulations and show that it\nsignificantly improves sample diversity while preserving fidelity.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by-sa/4.0/",
+  "blobId": "vC0cdLwTqF3RG3JGLD6gAj-ol4ETKVjEIi0ZxNfdx08",
+  "pdfSize": "10717324"
+}

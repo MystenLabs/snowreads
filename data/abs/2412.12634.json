@@ -1,0 +1,47 @@
+{
+  "id": "2412.12634",
+  "title": "Replications, Revisions, and Reanalyses: Managing Variance Theories in\n  Software Engineering",
+  "authors": "Julian Frattini, Jannik Fischbach, Davide Fucci, Michael\n  Unterkalmsteiner, Daniel Mendez",
+  "authorsParsed": [
+    [
+      "Frattini",
+      "Julian",
+      ""
+    ],
+    [
+      "Fischbach",
+      "Jannik",
+      ""
+    ],
+    [
+      "Fucci",
+      "Davide",
+      ""
+    ],
+    [
+      "Unterkalmsteiner",
+      "Michael",
+      ""
+    ],
+    [
+      "Mendez",
+      "Daniel",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 17 Dec 2024 07:56:18 GMT"
+    }
+  ],
+  "updateDate": "2024-12-18",
+  "timestamp": 1734422178000,
+  "abstract": "  Variance theories quantify the variance that one or more independent\nvariables cause in a dependent variable. In software engineering (SE), variance\ntheories are used to quantify -- among others -- the impact of tools,\ntechniques, and other treatments on software development outcomes. To acquire\nvariance theories, evidence from individual empirical studies needs to be\nsynthesized to more generally valid conclusions. However, research synthesis in\nSE is mostly limited to meta-analysis, which requires homogeneity of the\nsynthesized studies to infer generalizable variance. In this paper, we aim to\nextend the practice of research synthesis beyond meta-analysis. To this end, we\nderive a conceptual framework for the evolution of variance theories and\ndemonstrate its use by applying it to an active research field in SE. The\nresulting framework allows researchers to put new evidence in a clear relation\nto an existing body of knowledge and systematically expand the scientific\nfrontier of a studied phenomenon.\n",
+  "subjects": [
+    "Computer Science/Software Engineering"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "e6m8Qjq5WrVnps6rM0U2PLuhqq20y5CDcYu2zujNJBo",
+  "pdfSize": "558638"
+}

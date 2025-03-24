@@ -1,0 +1,53 @@
+{
+  "id": "2412.07781",
+  "title": "Can LLMs faithfully generate their layperson-understandable 'self'?: A\n  Case Study in High-Stakes Domains",
+  "authors": "Arion Das, Asutosh Mishra, Amitesh Patel, Soumilya De, V. Gurucharan,\n  Kripabandhu Ghosh",
+  "authorsParsed": [
+    [
+      "Das",
+      "Arion",
+      ""
+    ],
+    [
+      "Mishra",
+      "Asutosh",
+      ""
+    ],
+    [
+      "Patel",
+      "Amitesh",
+      ""
+    ],
+    [
+      "De",
+      "Soumilya",
+      ""
+    ],
+    [
+      "Gurucharan",
+      "V.",
+      ""
+    ],
+    [
+      "Ghosh",
+      "Kripabandhu",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 25 Nov 2024 06:54:47 GMT"
+    }
+  ],
+  "updateDate": "2024-12-12",
+  "timestamp": 1732517687000,
+  "abstract": "  Large Language Models (LLMs) have significantly impacted nearly every domain\nof human knowledge. However, the explainability of these models esp. to\nlaypersons, which are crucial for instilling trust, have been examined through\nvarious skeptical lenses. In this paper, we introduce a novel notion of LLM\nexplainability to laypersons, termed $\\textit{ReQuesting}$, across three\nhigh-priority application domains -- law, health and finance, using multiple\nstate-of-the-art LLMs. The proposed notion exhibits faithful generation of\nexplainable layman-understandable algorithms on multiple tasks through high\ndegree of reproducibility. Furthermore, we observe a notable alignment of the\nexplainable algorithms with intrinsic reasoning of the LLMs.\n",
+  "subjects": [
+    "Computer Science/Human-Computer Interaction",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "gmyc2zuXIZ392JEruoYugdE66Cr9jbjxb6USmRf2eOQ",
+  "pdfSize": "793874"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "2412.03109",
+  "title": "Pauli quantum computing: $I$ as $|0\\rangle$ and $X$ as $|1\\rangle$",
+  "authors": "Zhong-Xia Shang",
+  "authorsParsed": [
+    [
+      "Shang",
+      "Zhong-Xia",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 4 Dec 2024 08:15:31 GMT"
+    }
+  ],
+  "updateDate": "2024-12-05",
+  "timestamp": 1733300131000,
+  "abstract": "  We propose a new quantum computing formalism named Pauli quantum computing.\nIn this formalism, we use the Pauli basis $I$ and $X$ on the non-diagonal\nblocks of density matrices to encode information and treat them as the\ncomputational basis $|0\\rangle$ and $|1\\rangle$ in standard quantum computing.\nThere are significant differences between Pauli quantum computing and standard\nquantum computing from the achievable operations to the meaning of\nmeasurements, resulting in novel features and comparative advantages for\ncertain tasks. We will give three examples in particular. First, we show how to\ndesign Lindbladians to realize imaginary time evolutions and prepare stabilizer\nground states in Pauli quantum computing. These stabilizer states can\ncharacterize the coherence in the steady subspace of Lindbladians. Second, for\nquantum amplitudes of the form $\\langle +|^{\\otimes n}U|0\\rangle^{\\otimes n}$\nwith $U$ composed of $\\{H,S,T,\\text{CNOT}\\}$, as long as the number of Hadamard\ngates in the unitary circuit $U$ is sub-linear $\\mathit{o}(n)$, the gate (time)\ncomplexity of estimating such amplitudes using Pauli quantum computing\nformalism can be exponentially reduced compared with the standard formalism\n($\\mathcal{O}(\\epsilon^{-1})$ to\n$\\mathcal{O}(2^{-(n-\\mathit{o}(n))/2}\\epsilon^{-1})$). Third, given access to a\nsearching oracle under the Pauli encoding picture manifested as a quantum\nchannel, which mimics the phase oracle in Grover's algorithm, the searching\nproblem can be solved with $\\mathcal{O}(n)$ scaling for the query complexity\nand $\\mathcal{O}(\\text{poly}(n))$ scaling for the time complexity. While so,\nhow to construct such an oracle is highly non-trivial and unlikely efficient\ndue to the hardness of the problem.\n",
+  "subjects": [
+    "Physics/Quantum Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "oLBFB6sLQlDT-vUwB-d2_3J7anPoXaIdkGWgGeZ1T8o",
+  "pdfSize": "490973"
+}

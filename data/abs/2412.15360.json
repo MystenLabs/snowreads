@@ -1,0 +1,27 @@
+{
+  "id": "2412.15360",
+  "title": "Decade of Natural Language Processing in Chronic Pain: A Systematic\n  Review",
+  "authors": "Swati Rajwal",
+  "authorsParsed": [
+    [
+      "Rajwal",
+      "Swati",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 19 Dec 2024 19:46:09 GMT"
+    }
+  ],
+  "updateDate": "2024-12-23",
+  "timestamp": 1734637569000,
+  "abstract": "  In recent years, the intersection of Natural Language Processing (NLP) and\npublic health has opened innovative pathways for investigating various domains,\nincluding chronic pain in textual datasets. Despite the promise of NLP in\nchronic pain, the literature is dispersed across various disciplines, and there\nis a need to consolidate existing knowledge, identify knowledge gaps in the\nliterature, and inform future research directions in this emerging field. This\nreview aims to investigate the state of the research on NLP-based interventions\ndesigned for chronic pain research. A search strategy was formulated and\nexecuted across PubMed, Web of Science, IEEE Xplore, Scopus, and ACL Anthology\nto find studies published in English between 2014 and 2024. After screening 132\npapers, 26 studies were included in the final review. Key findings from this\nreview underscore the significant potential of NLP techniques to address\npressing challenges in chronic pain research. The past 10 years in this field\nhave showcased the utilization of advanced methods (transformers like RoBERTa\nand BERT) achieving high-performance metrics (e.g., F1>0.8) in classification\ntasks, while unsupervised approaches like Latent Dirichlet Allocation (LDA) and\nk-means clustering have proven effective for exploratory analyses. Results also\nreveal persistent challenges such as limited dataset diversity, inadequate\nsample sizes, and insufficient representation of underrepresented populations.\nFuture research studies should explore multimodal data validation systems,\ncontext-aware mechanistic modeling, and the development of standardized\nevaluation metrics to enhance reproducibility and equity in chronic pain\nresearch.\n",
+  "subjects": [
+    "Computer Science/Computation and Language"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "o34eJwBtStpT-lIKHvgK_u_OWPyuVefHU1SAe-k42B4",
+  "pdfSize": "1724020"
+}

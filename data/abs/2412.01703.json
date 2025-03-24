@@ -1,0 +1,40 @@
+{
+  "id": "2412.01703",
+  "title": "Deep Guess acceleration for explainable image reconstruction in\n  sparse-view CT",
+  "authors": "Elena Loli Piccolomini, Davide Evangelista, Elena Morotti",
+  "authorsParsed": [
+    [
+      "Piccolomini",
+      "Elena Loli",
+      ""
+    ],
+    [
+      "Evangelista",
+      "Davide",
+      ""
+    ],
+    [
+      "Morotti",
+      "Elena",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 2 Dec 2024 16:49:42 GMT"
+    }
+  ],
+  "updateDate": "2024-12-03",
+  "timestamp": 1733158182000,
+  "abstract": "  Sparse-view Computed Tomography (CT) is an emerging protocol designed to\nreduce X-ray dose radiation in medical imaging. Traditional Filtered Back\nProjection algorithm reconstructions suffer from severe artifacts due to sparse\ndata. In contrast, Model-Based Iterative Reconstruction (MBIR) algorithms,\nthough better at mitigating noise through regularization, are too\ncomputationally costly for clinical use. This paper introduces a novel\ntechnique, denoted as the Deep Guess acceleration scheme, using a trained\nneural network both to quicken the regularized MBIR and to enhance the\nreconstruction accuracy. We integrate state-of-the-art deep learning tools to\ninitialize a clever starting guess for a proximal algorithm solving a\nnon-convex model and thus computing an interpretable solution image in a few\niterations. Experimental results on real CT images demonstrate the Deep Guess\neffectiveness in (very) sparse tomographic protocols, where it overcomes its\nmere variational counterpart and many data-driven approaches at the state of\nthe art. We also consider a ground truth-free implementation and test the\nrobustness of the proposed framework to noise.\n",
+  "subjects": [
+    "Mathematics/Numerical Analysis",
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Numerical Analysis"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "ljk_twxJ177sD35Cu7svDfcS4WRQvmk42f9-PWcpS9E",
+  "pdfSize": "5157877"
+}

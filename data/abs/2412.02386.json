@@ -1,0 +1,52 @@
+{
+  "id": "2412.02386",
+  "title": "Single-Shot Metric Depth from Focused Plenoptic Cameras",
+  "authors": "Blanca Lasheras-Hernandez, Klaus H. Strobl, Sergio Izquierdo, Tim\n  Bodenm\\\"uller, Rudolph Triebel, and Javier Civera",
+  "authorsParsed": [
+    [
+      "Lasheras-Hernandez",
+      "Blanca",
+      ""
+    ],
+    [
+      "Strobl",
+      "Klaus H.",
+      ""
+    ],
+    [
+      "Izquierdo",
+      "Sergio",
+      ""
+    ],
+    [
+      "Bodenmüller",
+      "Tim",
+      ""
+    ],
+    [
+      "Triebel",
+      "Rudolph",
+      ""
+    ],
+    [
+      "Civera",
+      "Javier",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 3 Dec 2024 11:21:17 GMT"
+    }
+  ],
+  "updateDate": "2024-12-04",
+  "timestamp": 1733224877000,
+  "abstract": "  Metric depth estimation from visual sensors is crucial for robots to\nperceive, navigate, and interact with their environment. Traditional range\nimaging setups, such as stereo or structured light cameras, face hassles\nincluding calibration, occlusions, and hardware demands, with accuracy limited\nby the baseline between cameras. Single- and multi-view monocular depth offers\na more compact alternative, but is constrained by the unobservability of the\nmetric scale. Light field imaging provides a promising solution for estimating\nmetric depth by using a unique lens configuration through a single device.\nHowever, its application to single-view dense metric depth is under-addressed\nmainly due to the technology's high cost, the lack of public benchmarks, and\nproprietary geometrical models and software.\n  Our work explores the potential of focused plenoptic cameras for dense metric\ndepth. We propose a novel pipeline that predicts metric depth from a single\nplenoptic camera shot by first generating a sparse metric point cloud using\nmachine learning, which is then used to scale and align a dense relative depth\nmap regressed by a foundation depth model, resulting in dense metric depth. To\nvalidate it, we curated the Light Field & Stereo Image Dataset (LFS) of\nreal-world light field images with stereo depth labels, filling a current gap\nin existing resources. Experimental results show that our pipeline produces\naccurate metric depth predictions, laying a solid groundwork for future\nresearch in this field.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "ps-aHxu6b0m5lLTCn4CbZg93Kw--NSX5j_hx_50cGqc",
+  "pdfSize": "38065674"
+}

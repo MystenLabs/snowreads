@@ -1,0 +1,47 @@
+{
+  "id": "2412.14340",
+  "title": "A Unifying Information-theoretic Perspective on Evaluating Generative\n  Models",
+  "authors": "Alexis Fox, Samarth Swarup, Abhijin Adiga",
+  "authorsParsed": [
+    [
+      "Fox",
+      "Alexis",
+      ""
+    ],
+    [
+      "Swarup",
+      "Samarth",
+      ""
+    ],
+    [
+      "Adiga",
+      "Abhijin",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 18 Dec 2024 21:17:02 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Wed, 15 Jan 2025 00:02:00 GMT"
+    },
+    {
+      "version": "v3",
+      "created": "Thu, 27 Feb 2025 18:25:41 GMT"
+    }
+  ],
+  "updateDate": "2025-02-28",
+  "timestamp": 1734556622000,
+  "abstract": "  Considering the difficulty of interpreting generative model output, there is\nsignificant current research focused on determining meaningful evaluation\nmetrics. Several recent approaches utilize \"precision\" and \"recall,\" borrowed\nfrom the classification domain, to individually quantify the output fidelity\n(realism) and output diversity (representation of the real data variation),\nrespectively. With the increase in metric proposals, there is a need for a\nunifying perspective, allowing for easier comparison and clearer explanation of\ntheir benefits and drawbacks. To this end, we unify a class of\nkth-nearest-neighbors (kNN)-based metrics under an information-theoretic lens\nusing approaches from kNN density estimation. Additionally, we propose a\ntri-dimensional metric composed of Precision Cross-Entropy (PCE), Recall\nCross-Entropy (RCE), and Recall Entropy (RE), which separately measure fidelity\nand two distinct aspects of diversity, inter- and intra-class. Our\ndomain-agnostic metric, derived from the information-theoretic concepts of\nentropy and cross-entropy, can be dissected for both sample- and mode-level\nanalysis. Our detailed experimental results demonstrate the sensitivity of our\nmetric components to their respective qualities and reveal undesirable\nbehaviors of other metrics.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "DiZvI29s6RInfCcFvBstKog4CPoOBpzIttgqAILHNj0",
+  "pdfSize": "7102612"
+}

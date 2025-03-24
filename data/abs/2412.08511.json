@@ -1,0 +1,37 @@
+{
+  "id": "2412.08511",
+  "title": "Combining Neural Fields and Deformation Models for Non-Rigid 3D Motion\n  Reconstruction from Partial Data",
+  "authors": "Aymen Merrouche, Stefanie Wuhrer, Edmond Boyer",
+  "authorsParsed": [
+    [
+      "Merrouche",
+      "Aymen",
+      ""
+    ],
+    [
+      "Wuhrer",
+      "Stefanie",
+      ""
+    ],
+    [
+      "Boyer",
+      "Edmond",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 11 Dec 2024 16:24:08 GMT"
+    }
+  ],
+  "updateDate": "2024-12-12",
+  "timestamp": 1733934248000,
+  "abstract": "  We introduce a novel, data-driven approach for reconstructing temporally\ncoherent 3D motion from unstructured and potentially partial observations of\nnon-rigidly deforming shapes. Our goal is to achieve high-fidelity motion\nreconstructions for shapes that undergo near-isometric deformations, such as\nhumans wearing loose clothing. The key novelty of our work lies in its ability\nto combine implicit shape representations with explicit mesh-based deformation\nmodels, enabling detailed and temporally coherent motion reconstructions\nwithout relying on parametric shape models or decoupling shape and motion. Each\nframe is represented as a neural field decoded from a feature space where\nobservations over time are fused, hence preserving geometric details present in\nthe input data. Temporal coherence is enforced with a near-isometric\ndeformation constraint between adjacent frames that applies to the underlying\nsurface in the neural field. Our method outperforms state-of-the-art\napproaches, as demonstrated by its application to human and animal motion\nsequences reconstructed from monocular depth videos.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "o9vPfx0VGwjtZY9vQ_X18nxkECL5oHe_K4vdYk6AM54",
+  "pdfSize": "23879681"
+}

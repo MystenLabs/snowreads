@@ -1,0 +1,73 @@
+{
+  "id": "2412.15907",
+  "title": "Development of a Large-scale Dataset of Chest Computed Tomography\n  Reports in Japanese and a High-performance Finding Classification Model",
+  "authors": "Yosuke Yamagishi, Yuta Nakamura, Tomohiro Kikuchi, Yuki Sonoda,\n  Hiroshi Hirakawa, Shintaro Kano, Satoshi Nakamura, Shouhei Hanaoka, Takeharu\n  Yoshikawa, Osamu Abe",
+  "authorsParsed": [
+    [
+      "Yamagishi",
+      "Yosuke",
+      ""
+    ],
+    [
+      "Nakamura",
+      "Yuta",
+      ""
+    ],
+    [
+      "Kikuchi",
+      "Tomohiro",
+      ""
+    ],
+    [
+      "Sonoda",
+      "Yuki",
+      ""
+    ],
+    [
+      "Hirakawa",
+      "Hiroshi",
+      ""
+    ],
+    [
+      "Kano",
+      "Shintaro",
+      ""
+    ],
+    [
+      "Nakamura",
+      "Satoshi",
+      ""
+    ],
+    [
+      "Hanaoka",
+      "Shouhei",
+      ""
+    ],
+    [
+      "Yoshikawa",
+      "Takeharu",
+      ""
+    ],
+    [
+      "Abe",
+      "Osamu",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 20 Dec 2024 13:59:11 GMT"
+    }
+  ],
+  "updateDate": "2024-12-23",
+  "timestamp": 1734703151000,
+  "abstract": "  Background: Recent advances in large language models highlight the need for\nhigh-quality multilingual medical datasets. While Japan leads globally in CT\nscanner deployment and utilization, the lack of large-scale Japanese radiology\ndatasets has hindered the development of specialized language models for\nmedical imaging analysis. Objective: To develop a comprehensive Japanese CT\nreport dataset through machine translation and establish a specialized language\nmodel for structured finding classification. Additionally, to create a\nrigorously validated evaluation dataset through expert radiologist review.\nMethods: We translated the CT-RATE dataset (24,283 CT reports from 21,304\npatients) into Japanese using GPT-4o mini. The training dataset consisted of\n22,778 machine-translated reports, while the validation dataset included 150\nradiologist-revised reports. We developed CT-BERT-JPN based on\n\"tohoku-nlp/bert-base-japanese-v3\" architecture for extracting 18 structured\nfindings from Japanese radiology reports. Results: Translation metrics showed\nstrong performance with BLEU scores of 0.731 and 0.690, and ROUGE scores\nranging from 0.770 to 0.876 for Findings and from 0.748 to 0.857 for Impression\nsections. CT-BERT-JPN demonstrated superior performance compared to GPT-4o in\n11 out of 18 conditions, including lymphadenopathy (+14.2%), interlobular\nseptal thickening (+10.9%), and atelectasis (+7.4%). The model maintained F1\nscores exceeding 0.95 in 14 out of 18 conditions and achieved perfect scores in\nfour conditions. Conclusions: Our study establishes a robust Japanese CT report\ndataset and demonstrates the effectiveness of a specialized language model for\nstructured finding classification. The hybrid approach of machine translation\nand expert validation enables the creation of large-scale medical datasets\nwhile maintaining high quality.\n",
+  "subjects": [
+    "Computer Science/Computation and Language",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "3Wbcr5yzRr-zz8qSpUcAwNRuEM8-ChisAXtq5SZUZpE",
+  "pdfSize": "1267446"
+}

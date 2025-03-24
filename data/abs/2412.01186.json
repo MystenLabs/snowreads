@@ -1,0 +1,52 @@
+{
+  "id": "2412.01186",
+  "title": "SailCompass: Towards Reproducible and Robust Evaluation for Southeast\n  Asian Languages",
+  "authors": "Jia Guo, Longxu Dou, Guangtao Zeng, Stanley Kok, Wei Lu, Qian Liu",
+  "authorsParsed": [
+    [
+      "Guo",
+      "Jia",
+      ""
+    ],
+    [
+      "Dou",
+      "Longxu",
+      ""
+    ],
+    [
+      "Zeng",
+      "Guangtao",
+      ""
+    ],
+    [
+      "Kok",
+      "Stanley",
+      ""
+    ],
+    [
+      "Lu",
+      "Wei",
+      ""
+    ],
+    [
+      "Liu",
+      "Qian",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 2 Dec 2024 06:42:51 GMT"
+    }
+  ],
+  "updateDate": "2024-12-03",
+  "timestamp": 1733121771000,
+  "abstract": "  In this paper, we introduce SailCompass, a reproducible and robust evaluation\nbenchmark for assessing Large Language Models (LLMs) on Southeast Asian\nLanguages (SEA). SailCompass encompasses three main SEA languages, eight\nprimary tasks including 14 datasets covering three task types (generation,\nmultiple-choice questions, and classification). To improve the robustness of\nthe evaluation approach, we explore different prompt configurations for\nmultiple-choice questions and leverage calibrations to improve the faithfulness\nof classification tasks. With SailCompass, we derive the following findings:\n(1) SEA-specialized LLMs still outperform general LLMs, although the gap has\nnarrowed; (2) A balanced language distribution is important for developing\nbetter SEA-specialized LLMs; (3) Advanced prompting techniques (e.g.,\ncalibration, perplexity-based ranking) are necessary to better utilize LLMs.\nAll datasets and evaluation scripts are public.\n",
+  "subjects": [
+    "Computer Science/Computation and Language"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "kNiWLkpi5UfyfLu7WqndgFVY1BgT7A5mazkppQZ5MCU",
+  "pdfSize": "263411"
+}

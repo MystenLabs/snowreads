@@ -1,0 +1,42 @@
+{
+  "id": "2412.07313",
+  "title": "FaceX: Understanding Face Attribute Classifiers through Summary Model\n  Explanations",
+  "authors": "Ioannis Sarridis, Christos Koutlis, Symeon Papadopoulos, and Christos\n  Diou",
+  "authorsParsed": [
+    [
+      "Sarridis",
+      "Ioannis",
+      ""
+    ],
+    [
+      "Koutlis",
+      "Christos",
+      ""
+    ],
+    [
+      "Papadopoulos",
+      "Symeon",
+      ""
+    ],
+    [
+      "Diou",
+      "Christos",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 10 Dec 2024 08:50:41 GMT"
+    }
+  ],
+  "updateDate": "2024-12-11",
+  "timestamp": 1733820641000,
+  "abstract": "  EXplainable Artificial Intelligence (XAI) approaches are widely applied for\nidentifying fairness issues in Artificial Intelligence (AI) systems. However,\nin the context of facial analysis, existing XAI approaches, such as pixel\nattribution methods, offer explanations for individual images, posing\nchallenges in assessing the overall behavior of a model, which would require\nlabor-intensive manual inspection of a very large number of instances and\nleaving to the human the task of drawing a general impression of the model\nbehavior from the individual outputs. Addressing this limitation, we introduce\nFaceX, the first method that provides a comprehensive understanding of face\nattribute classifiers through summary model explanations. Specifically, FaceX\nleverages the presence of distinct regions across all facial images to compute\na region-level aggregation of model activations, allowing for the visualization\nof the model's region attribution across 19 predefined regions of interest in\nfacial images, such as hair, ears, or skin. Beyond spatial explanations, FaceX\nenhances interpretability by visualizing specific image patches with the\nhighest impact on the model's decisions for each facial region within a test\nbenchmark. Through extensive evaluation in various experimental setups,\nincluding scenarios with or without intentional biases and mitigation efforts\non four benchmarks, namely CelebA, FairFace, CelebAMask-HQ, and Racial Faces in\nthe Wild, FaceX demonstrates high effectiveness in identifying the models'\nbiases.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by-sa/4.0/",
+  "blobId": "MlODpPheCXVfDczb-zZobW2NAcQ4KJh867Yen4nBCDY",
+  "pdfSize": "1603921"
+}

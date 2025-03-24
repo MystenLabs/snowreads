@@ -1,0 +1,63 @@
+{
+  "id": "2412.19531",
+  "title": "Is Your Text-to-Image Model Robust to Caption Noise?",
+  "authors": "Weichen Yu, Ziyan Yang, Shanchuan Lin, Qi Zhao, Jianyi Wang, Liangke\n  Gui, Matt Fredrikson, Lu Jiang",
+  "authorsParsed": [
+    [
+      "Yu",
+      "Weichen",
+      ""
+    ],
+    [
+      "Yang",
+      "Ziyan",
+      ""
+    ],
+    [
+      "Lin",
+      "Shanchuan",
+      ""
+    ],
+    [
+      "Zhao",
+      "Qi",
+      ""
+    ],
+    [
+      "Wang",
+      "Jianyi",
+      ""
+    ],
+    [
+      "Gui",
+      "Liangke",
+      ""
+    ],
+    [
+      "Fredrikson",
+      "Matt",
+      ""
+    ],
+    [
+      "Jiang",
+      "Lu",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 27 Dec 2024 08:53:37 GMT"
+    }
+  ],
+  "updateDate": "2024-12-30",
+  "timestamp": 1735289617000,
+  "abstract": "  In text-to-image (T2I) generation, a prevalent training technique involves\nutilizing Vision Language Models (VLMs) for image re-captioning. Even though\nVLMs are known to exhibit hallucination, generating descriptive content that\ndeviates from the visual reality, the ramifications of such caption\nhallucinations on T2I generation performance remain under-explored. Through our\nempirical investigation, we first establish a comprehensive dataset comprising\nVLM-generated captions, and then systematically analyze how caption\nhallucination influences generation outcomes. Our findings reveal that (1) the\ndisparities in caption quality persistently impact model outputs during\nfine-tuning. (2) VLMs confidence scores serve as reliable indicators for\ndetecting and characterizing noise-related patterns in the data distribution.\n(3) even subtle variations in caption fidelity have significant effects on the\nquality of learned representations. These findings collectively emphasize the\nprofound impact of caption quality on model performance and highlight the need\nfor more sophisticated robust training algorithm in T2I. In response to these\nobservations, we propose a approach leveraging VLM confidence score to mitigate\ncaption noise, thereby enhancing the robustness of T2I models against\nhallucination in caption.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "PWG6xPyGLu9MVu2pmQ6e5ZQwwfnBETAdGleCpP5Lpqg",
+  "pdfSize": "5694530"
+}

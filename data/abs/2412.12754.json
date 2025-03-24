@@ -1,0 +1,32 @@
+{
+  "id": "2412.12754",
+  "title": "Token-Level Graphs for Short Text Classification",
+  "authors": "Gregor Donabauer and Udo Kruschwitz",
+  "authorsParsed": [
+    [
+      "Donabauer",
+      "Gregor",
+      ""
+    ],
+    [
+      "Kruschwitz",
+      "Udo",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 17 Dec 2024 10:19:44 GMT"
+    }
+  ],
+  "updateDate": "2024-12-18",
+  "timestamp": 1734430784000,
+  "abstract": "  The classification of short texts is a common subtask in Information\nRetrieval (IR). Recent advances in graph machine learning have led to interest\nin graph-based approaches for low resource scenarios, showing promise in such\nsettings. However, existing methods face limitations such as not accounting for\ndifferent meanings of the same words or constraints from transductive\napproaches. We propose an approach which constructs text graphs entirely based\non tokens obtained through pre-trained language models (PLMs). By applying a\nPLM to tokenize and embed the texts when creating the graph(-nodes), our method\ncaptures contextual and semantic information, overcomes vocabulary constraints,\nand allows for context-dependent word meanings. Our approach also makes\nclassification more efficient with reduced parameters compared to classical PLM\nfine-tuning, resulting in more robust training with few samples. Experimental\nresults demonstrate how our method consistently achieves higher scores or\non-par performance with existing methods, presenting an advancement in\ngraph-based text classification techniques. To support reproducibility of our\nwork we make all implementations publicly available to the\ncommunity\\footnote{\\url{https://github.com/doGregor/TokenGraph}}.\n",
+  "subjects": [
+    "Computer Science/Information Retrieval"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "JrLDBTrO3Uwsxp6vzLuJKS2zntIcDF14TSod0m9Kk6E",
+  "pdfSize": "171272"
+}

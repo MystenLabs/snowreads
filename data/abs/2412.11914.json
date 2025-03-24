@@ -1,0 +1,42 @@
+{
+  "id": "2412.11914",
+  "title": "The Erd\\H{o}s unit distance problem for small point sets",
+  "authors": "Boris Alexeev, Dustin G. Mixon, Hans Parshall",
+  "authorsParsed": [
+    [
+      "Alexeev",
+      "Boris",
+      ""
+    ],
+    [
+      "Mixon",
+      "Dustin G.",
+      ""
+    ],
+    [
+      "Parshall",
+      "Hans",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 16 Dec 2024 15:59:56 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Wed, 12 Feb 2025 20:39:37 GMT"
+    }
+  ],
+  "updateDate": "2025-02-14",
+  "timestamp": 1734364796000,
+  "abstract": "  We improve the best known upper bound on the number of edges in a\nunit-distance graph on $n$ vertices for each $n\\in\\{16,\\ldots,30\\}$. When\n$n\\leq 21$, our bounds match the best known lower bounds, and we fully\nenumerate the densest unit-distance graphs in these cases.\n  On the combinatorial side, our principle technique is to more efficiently\ngenerate $\\mathcal{F}$-free graphs for a set of forbidden subgraphs\n$\\mathcal{F}$. On the algebraic side, we are able to determine programmatically\nwhether many graphs are unit-distance, using a custom embedder that is more\nefficient in practice than tools such as cylindrical algebraic decomposition.\n",
+  "subjects": [
+    "Mathematics/Combinatorics",
+    "Mathematics/Metric Geometry"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "5_J04jwC5VY7ZIcqIInNrPcxelJcqD3XmImmFQAvo18",
+  "pdfSize": "484665"
+}

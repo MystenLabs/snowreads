@@ -1,0 +1,57 @@
+{
+  "id": "2412.00054",
+  "title": "Less is More: Efficient Model Merging with Binary Task Switch",
+  "authors": "Biqing Qi, Fangyuan Li, Zhen Wang, Junqi Gao, Dong Li, Peng Ye, Bowen\n  Zhou",
+  "authorsParsed": [
+    [
+      "Qi",
+      "Biqing",
+      ""
+    ],
+    [
+      "Li",
+      "Fangyuan",
+      ""
+    ],
+    [
+      "Wang",
+      "Zhen",
+      ""
+    ],
+    [
+      "Gao",
+      "Junqi",
+      ""
+    ],
+    [
+      "Li",
+      "Dong",
+      ""
+    ],
+    [
+      "Ye",
+      "Peng",
+      ""
+    ],
+    [
+      "Zhou",
+      "Bowen",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 24 Nov 2024 14:47:13 GMT"
+    }
+  ],
+  "updateDate": "2024-12-03",
+  "timestamp": 1732459633000,
+  "abstract": "  As an effective approach to equip models with multi-task capabilities without\nadditional training, model merging has garnered significant attention. However,\nexisting methods face challenges of redundant parameter conflicts and the\nexcessive storage burden of parameters. In this work, through controlled\nexperiments, we reveal that for task vectors, only those parameters with\nmagnitudes above a certain threshold contribute positively to the task,\nexhibiting a pulse-like characteristic. We then attempt leveraging this\ncharacteristic to binarize the task vectors and reduce storage overhead.\nFurther controlled experiments show that the binarized task vectors incur\nalmost no decrease in fine-tuning and merging performance, and even exhibit\nstronger performance improvements as the proportion of redundant parameters\nincreases. Based on these insights, we propose Task Switch (T-Switch), which\ndecomposes task vectors into three components: 1) an activation switch\ninstantiated by a binarized mask vector, 2) a polarity switch instantiated by a\nbinarized sign vector, and 3) a scaling knob instantiated by a scalar\ncoefficient. By storing task vectors in a binarized form, T-Switch alleviates\nparameter conflicts while ensuring efficient task parameter storage.\nFurthermore, to enable automated switch combination in T-Switch, we further\nintroduce Auto-Switch, which enables training-free switch combination via\nretrieval from a small query set. Experiments indicate that our methods achieve\nsignificant performance improvements over existing baselines, requiring only\n1-3% of the storage space of full-precision parameters.\n",
+  "subjects": [
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "YHnsp7aLWsqgGy2tR1A5QoV7q1zzO1-F8dcvj134Ekk",
+  "pdfSize": "2112416"
+}

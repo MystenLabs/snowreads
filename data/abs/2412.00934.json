@@ -1,0 +1,38 @@
+{
+  "id": "2412.00934",
+  "title": "QABISAR: Query-Article Bipartite Interactions for Statutory Article\n  Retrieval",
+  "authors": "T.Y.S.S. Santosh, Hassan Sarwat, Matthias Grabmair",
+  "authorsParsed": [
+    [
+      "Santosh",
+      "T. Y. S. S.",
+      ""
+    ],
+    [
+      "Sarwat",
+      "Hassan",
+      ""
+    ],
+    [
+      "Grabmair",
+      "Matthias",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 1 Dec 2024 18:58:17 GMT"
+    }
+  ],
+  "updateDate": "2024-12-03",
+  "timestamp": 1733079497000,
+  "abstract": "  In this paper, we introduce QABISAR, a novel framework for statutory article\nretrieval, to overcome the semantic mismatch problem when modeling each\nquery-article pair in isolation, making it hard to learn representation that\ncan effectively capture multi-faceted information. QABISAR leverages bipartite\ninteractions between queries and articles to capture diverse aspects inherent\nin them. Further, we employ knowledge distillation to transfer enriched query\nrepresentations from the graph network into the query bi-encoder, to capture\nthe rich semantics present in the graph representations, despite absence of\ngraph-based supervision for unseen queries during inference. Our experiments on\na real-world expert-annotated dataset demonstrate its effectiveness.\n",
+  "subjects": [
+    "Computer Science/Information Retrieval",
+    "Computer Science/Computation and Language"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "Rxm5ljbie_GIwpr_HzMacDg8NkIFK226EyHdPbXDYl0",
+  "pdfSize": "291743"
+}

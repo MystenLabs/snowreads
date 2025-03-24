@@ -1,0 +1,53 @@
+{
+  "id": "2412.19906",
+  "title": "Evaluate Summarization in Fine-Granularity: Auto Evaluation with LLM",
+  "authors": "Dong Yuan, Eti Rastogi, Fen Zhao, Sagar Goyal, Gautam Naik, Sree\n  Prasanna Rajagopal",
+  "authorsParsed": [
+    [
+      "Yuan",
+      "Dong",
+      ""
+    ],
+    [
+      "Rastogi",
+      "Eti",
+      ""
+    ],
+    [
+      "Zhao",
+      "Fen",
+      ""
+    ],
+    [
+      "Goyal",
+      "Sagar",
+      ""
+    ],
+    [
+      "Naik",
+      "Gautam",
+      ""
+    ],
+    [
+      "Rajagopal",
+      "Sree Prasanna",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 27 Dec 2024 19:42:25 GMT"
+    }
+  ],
+  "updateDate": "2024-12-31",
+  "timestamp": 1735328545000,
+  "abstract": "  Due to the exponential growth of information and the need for efficient\ninformation consumption the task of summarization has gained paramount\nimportance. Evaluating summarization accurately and objectively presents\nsignificant challenges, particularly when dealing with long and unstructured\ntexts rich in content. Existing methods, such as ROUGE (Lin, 2004) and\nembedding similarities, often yield scores that have low correlation with human\njudgements and are also not intuitively understandable, making it difficult to\ngauge the true quality of the summaries. LLMs can mimic human in giving\nsubjective reviews but subjective scores are hard to interpret and justify.\nThey can be easily manipulated by altering the models and the tones of the\nprompts. In this paper, we introduce a novel evaluation methodology and tooling\ndesigned to address these challenges, providing a more comprehensive, accurate\nand interpretable assessment of summarization outputs. Our method (SumAutoEval)\nproposes and evaluates metrics at varying granularity levels, giving objective\nscores on 4 key dimensions such as completeness, correctness, Alignment and\nreadability. We empirically demonstrate, that SumAutoEval enhances the\nunderstanding of output quality with better human correlation.\n",
+  "subjects": [
+    "Computer Science/Computation and Language",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "WhUwcObNpuPVScDywZgPUcuiHSNnGl_G9voeEiG7An4",
+  "pdfSize": "218574"
+}

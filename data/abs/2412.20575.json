@@ -1,0 +1,42 @@
+{
+  "id": "2412.20575",
+  "title": "Runge-Kutta Physics Informed Neural Networks: Formulation and Analysis",
+  "authors": "Georgios Akrivis, Charalambos G. Makridakis, Costas Smaragdakis",
+  "authorsParsed": [
+    [
+      "Akrivis",
+      "Georgios",
+      ""
+    ],
+    [
+      "Makridakis",
+      "Charalambos G.",
+      ""
+    ],
+    [
+      "Smaragdakis",
+      "Costas",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 29 Dec 2024 20:51:50 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Sat, 18 Jan 2025 07:59:25 GMT"
+    }
+  ],
+  "updateDate": "2025-01-22",
+  "timestamp": 1735505510000,
+  "abstract": "  In this paper we consider time-dependent PDEs discretized by a special class\nof Physics Informed Neural Networks whose design is based on the framework of\nRunge--Kutta and related time-Galerkin discretizations. The primary motivation\nfor using such methods is that alternative time-discrete schemes not only\nenable higher-order approximations but also have a crucial impact on the\nqualitative behavior of the discrete solutions. The design of the methods\nfollows a novel training approach based on two key principles: (a) the discrete\nloss is designed using a time-discrete framework, and (b) the final loss\nformulation incorporates Runge--Kutta or time-Galerkin discretization in a\ncarefully structured manner. We then demonstrate that the resulting methods\ninherit the stability properties of the Runge--Kutta or time-Galerkin schemes,\nand furthermore, their computational behavior aligns with that of the original\ntime discrete method used in their formulation. In our analysis, we focus on\nlinear parabolic equations, demonstrating both the stability of the methods and\nthe convergence of the discrete minimizers to solutions of the underlying\nevolution PDE. An important novel aspect of our work is the derivation of\nmaximal regularity (MR) estimates for B-stable Runge--Kutta schemes and both\ncontinuous and discontinuous Galerkin time discretizations. This allows us to\nprovide new energy-based proofs for maximal regularity estimates previously\nestablished by Kov\\'acs, Li, and Lubich, now in the Hilbert space setting and\nwith the flexibility of variable time steps.\n",
+  "subjects": [
+    "Mathematics/Numerical Analysis",
+    "Computer Science/Numerical Analysis"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "qRLiz-HuiTMumF3gdONKmJEMHnYs6kxMev3mF4MDbcM",
+  "pdfSize": "1727404"
+}

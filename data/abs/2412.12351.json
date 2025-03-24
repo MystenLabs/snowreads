@@ -1,0 +1,38 @@
+{
+  "id": "2412.12351",
+  "title": "Krony-PT: GPT2 compressed with Kronecker Products",
+  "authors": "M. Ayoub Ben Ayad, Jelena Mitrovic, and Michael Granitzer",
+  "authorsParsed": [
+    [
+      "Ayad",
+      "M. Ayoub Ben",
+      ""
+    ],
+    [
+      "Mitrovic",
+      "Jelena",
+      ""
+    ],
+    [
+      "Granitzer",
+      "Michael",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 16 Dec 2024 20:44:01 GMT"
+    }
+  ],
+  "updateDate": "2024-12-18",
+  "timestamp": 1734381841000,
+  "abstract": "  We introduce Krony-PT, a compression technique of GPT2\n\\citep{radford2019language} based on Kronecker Products. We specifically target\nthe MLP layers of each transformer layer, and systematically compress the feed\nforward layer matrices to various degrees. We introduce a modified Van Loan\ndecomposition to initialize the new factors, and also introduce a new\npruning-based initialization trick. Our method compresses the original 124M\nparameter GPT2 to various smaller models, with 80M being the smallest, and 96M\nbeing the largest compressed model. Our 81M model variant outperforms\ndistilgpt2 on next-token prediction on all standard language modeling datasets,\nand shows competitive scores or performs on par with other Kronecker Products\nbased compressed models of GPT2 that are significantly higher in size.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Computer Science/Computation and Language"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "1cGEjabcKZFKwUK9miAoMQkz8RmjheaWX8lrdneADpQ",
+  "pdfSize": "630220"
+}

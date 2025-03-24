@@ -1,0 +1,59 @@
+{
+  "id": "2412.19124",
+  "title": "Evaluating Self-Supervised Learning in Medical Imaging: A Benchmark for\n  Robustness, Generalizability, and Multi-Domain Impact",
+  "authors": "Valay Bundele, O\\u{g}uz Ata \\c{C}al, Bora Kargi, Karahan\n  Sar{\\i}ta\\c{s}, K{\\i}van\\c{c} Tez\\\"oren, Zohreh Ghaderi, Hendrik Lensch",
+  "authorsParsed": [
+    [
+      "Bundele",
+      "Valay",
+      ""
+    ],
+    [
+      "Çal",
+      "Oğuz Ata",
+      ""
+    ],
+    [
+      "Kargi",
+      "Bora",
+      ""
+    ],
+    [
+      "Sarıtaş",
+      "Karahan",
+      ""
+    ],
+    [
+      "Tezören",
+      "Kıvanç",
+      ""
+    ],
+    [
+      "Ghaderi",
+      "Zohreh",
+      ""
+    ],
+    [
+      "Lensch",
+      "Hendrik",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 26 Dec 2024 08:51:56 GMT"
+    }
+  ],
+  "updateDate": "2024-12-30",
+  "timestamp": 1735203116000,
+  "abstract": "  Self-supervised learning (SSL) has emerged as a promising paradigm in medical\nimaging, addressing the chronic challenge of limited labeled data in healthcare\nsettings. While SSL has shown impressive results, existing studies in the\nmedical domain are often limited in scope, focusing on specific datasets or\nmodalities, or evaluating only isolated aspects of model performance. This\nfragmented evaluation approach poses a significant challenge, as models\ndeployed in critical medical settings must not only achieve high accuracy but\nalso demonstrate robust performance and generalizability across diverse\ndatasets and varying conditions. To address this gap, we present a\ncomprehensive evaluation of SSL methods within the medical domain, with a\nparticular focus on robustness and generalizability. Using the MedMNIST dataset\ncollection as a standardized benchmark, we evaluate 8 major SSL methods across\n11 different medical datasets. Our study provides an in-depth analysis of model\nperformance in both in-domain scenarios and the detection of\nout-of-distribution (OOD) samples, while exploring the effect of various\ninitialization strategies, model architectures, and multi-domain pre-training.\nWe further assess the generalizability of SSL methods through cross-dataset\nevaluations and the in-domain performance with varying label proportions (1%,\n10%, and 100%) to simulate real-world scenarios with limited supervision. We\nhope this comprehensive benchmark helps practitioners and researchers make more\ninformed decisions when applying SSL methods to medical applications.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "_s9k4SyyjOxJw0erCAdgpuuQ7ISeH-8a8_9mlmY21iw",
+  "pdfSize": "1738773"
+}

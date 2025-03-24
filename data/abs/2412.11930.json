@@ -1,0 +1,33 @@
+{
+  "id": "2412.11930",
+  "title": "Hierarchical Meta-Reinforcement Learning via Automated Macro-Action\n  Discovery",
+  "authors": "Minjae Cho, Chuangchuang Sun",
+  "authorsParsed": [
+    [
+      "Cho",
+      "Minjae",
+      ""
+    ],
+    [
+      "Sun",
+      "Chuangchuang",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 16 Dec 2024 16:15:36 GMT"
+    }
+  ],
+  "updateDate": "2024-12-17",
+  "timestamp": 1734365736000,
+  "abstract": "  Meta-Reinforcement Learning (Meta-RL) enables fast adaptation to new testing\ntasks. Despite recent advancements, it is still challenging to learn performant\npolicies across multiple complex and high-dimensional tasks. To address this,\nwe propose a novel architecture with three hierarchical levels for 1) learning\ntask representations, 2) discovering task-agnostic macro-actions in an\nautomated manner, and 3) learning primitive actions. The macro-action can guide\nthe low-level primitive policy learning to more efficiently transition to goal\nstates. This can address the issue that the policy may forget previously\nlearned behavior while learning new, conflicting tasks. Moreover, the\ntask-agnostic nature of the macro-actions is enabled by removing task-specific\ncomponents from the state space. Hence, this makes them amenable to\nre-composition across different tasks and leads to promising fast adaptation to\nnew tasks. Also, the prospective instability from the tri-level hierarchies is\neffectively mitigated by our innovative, independently tailored training\nschemes. Experiments in the MetaWorld framework demonstrate the improved sample\nefficiency and success rate of our approach compared to previous\nstate-of-the-art methods.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "rhD6CRWzg04DmXGX0XKFJZWw3PMGv1nh0-XZXwVvte4",
+  "pdfSize": "776697"
+}

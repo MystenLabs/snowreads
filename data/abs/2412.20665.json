@@ -1,0 +1,63 @@
+{
+  "id": "2412.20665",
+  "title": "SM3Det: A Unified Model for Multi-Modal Remote Sensing Object Detection",
+  "authors": "Yuxuan Li, Xiang Li, Yunheng Li, Yicheng Zhang, Yimian Dai, Qibin Hou,\n  Ming-Ming Cheng, Jian Yang",
+  "authorsParsed": [
+    [
+      "Li",
+      "Yuxuan",
+      ""
+    ],
+    [
+      "Li",
+      "Xiang",
+      ""
+    ],
+    [
+      "Li",
+      "Yunheng",
+      ""
+    ],
+    [
+      "Zhang",
+      "Yicheng",
+      ""
+    ],
+    [
+      "Dai",
+      "Yimian",
+      ""
+    ],
+    [
+      "Hou",
+      "Qibin",
+      ""
+    ],
+    [
+      "Cheng",
+      "Ming-Ming",
+      ""
+    ],
+    [
+      "Yang",
+      "Jian",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 30 Dec 2024 02:47:51 GMT"
+    }
+  ],
+  "updateDate": "2024-12-31",
+  "timestamp": 1735526871000,
+  "abstract": "  With the rapid advancement of remote sensing technology, high-resolution\nmulti-modal imagery is now more widely accessible. Conventional Object\ndetection models are trained on a single dataset, often restricted to a\nspecific imaging modality and annotation format. However, such an approach\noverlooks the valuable shared knowledge across multi-modalities and limits the\nmodel's applicability in more versatile scenarios. This paper introduces a new\ntask called Multi-Modal Datasets and Multi-Task Object Detection (M2Det) for\nremote sensing, designed to accurately detect horizontal or oriented objects\nfrom any sensor modality. This task poses challenges due to 1) the trade-offs\ninvolved in managing multi-modal modelling and 2) the complexities of\nmulti-task optimization. To address these, we establish a benchmark dataset and\npropose a unified model, SM3Det (Single Model for Multi-Modal datasets and\nMulti-Task object Detection). SM3Det leverages a grid-level sparse MoE backbone\nto enable joint knowledge learning while preserving distinct feature\nrepresentations for different modalities. Furthermore, it integrates a\nconsistency and synchronization optimization strategy using dynamic learning\nrate adjustment, allowing it to effectively handle varying levels of learning\ndifficulty across modalities and tasks. Extensive experiments demonstrate\nSM3Det's effectiveness and generalizability, consistently outperforming\nspecialized models on individual datasets. The code is available at\nhttps://github.com/zcablii/SM3Det.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Multimedia"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "NIfTZW_3GtUAvWImBr9tV6iwCKcs1K1h9Tbk39oZp7s",
+  "pdfSize": "1790111"
+}

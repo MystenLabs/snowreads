@@ -1,0 +1,42 @@
+{
+  "id": "2412.04262",
+  "title": "SynFinTabs: A Dataset of Synthetic Financial Tables for Information and\n  Table Extraction",
+  "authors": "Ethan Bradley, Muhammad Roman, Karen Rafferty, Barry Devereux",
+  "authorsParsed": [
+    [
+      "Bradley",
+      "Ethan",
+      ""
+    ],
+    [
+      "Roman",
+      "Muhammad",
+      ""
+    ],
+    [
+      "Rafferty",
+      "Karen",
+      ""
+    ],
+    [
+      "Devereux",
+      "Barry",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 5 Dec 2024 15:42:59 GMT"
+    }
+  ],
+  "updateDate": "2024-12-06",
+  "timestamp": 1733413379000,
+  "abstract": "  Table extraction from document images is a challenging AI problem, and\nlabelled data for many content domains is difficult to come by. Existing table\nextraction datasets often focus on scientific tables due to the vast amount of\nacademic articles that are readily available, along with their source code.\nHowever, there are significant layout and typographical differences between\ntables found across scientific, financial, and other domains. Current datasets\noften lack the words, and their positions, contained within the tables, instead\nrelying on unreliable OCR to extract these features for training modern machine\nlearning models on natural language processing tasks. Therefore, there is a\nneed for a more general method of obtaining labelled data. We present\nSynFinTabs, a large-scale, labelled dataset of synthetic financial tables. Our\nhope is that our method of generating these synthetic tables is transferable to\nother domains. To demonstrate the effectiveness of our dataset in training\nmodels to extract information from table images, we create FinTabQA, a layout\nlarge language model trained on an extractive question-answering task. We test\nour model using real-world financial tables and compare it to a\nstate-of-the-art generative model and discuss the results. We make the dataset,\nmodel, and dataset generation code publicly available.\n",
+  "subjects": [
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "WoB3tVTkYIR1ckh0ZnqrpNzJMSovv2uUYsZy3-0Flsg",
+  "pdfSize": "1032477"
+}

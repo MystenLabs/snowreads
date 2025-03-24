@@ -1,0 +1,109 @@
+{
+  "id": "2412.09091",
+  "title": "Substellar candidates at the earliest stages: the SUCANES database",
+  "authors": "A.M. P\\'erez-Garc\\'ia (ISDEFE), N. Hu\\'elamo (CAB/INTA-CSIC), A.\n  Garc\\'ia-L\\'opez (ISDEFE), R. P\\'erez-Mart\\'inez (ISDEFE), E. Verdugo (ESAC),\n  A. Palau (UNAM), I. De Gregorio-Monsalvo (ESO), O. Morata (ICE-CSIC),\n  D.Barrado (CAB/INTA-CSIC), M. Morales-Calder\\'on (CAB/INTA-CSIC),\n  M.Mass-Hesse (CAB/INTA-CSIC), A. Bayo (ESO), K.Mauco,(ESO) H. Bouy (CNRS)",
+  "authorsParsed": [
+    [
+      "Pérez-García",
+      "A. M.",
+      "",
+      "ISDEFE"
+    ],
+    [
+      "Huélamo",
+      "N.",
+      "",
+      "CAB/INTA-CSIC"
+    ],
+    [
+      "García-López",
+      "A.",
+      "",
+      "ISDEFE"
+    ],
+    [
+      "Pérez-Martínez",
+      "R.",
+      "",
+      "ISDEFE"
+    ],
+    [
+      "Verdugo",
+      "E.",
+      "",
+      "ESAC"
+    ],
+    [
+      "Palau",
+      "A.",
+      "",
+      "UNAM"
+    ],
+    [
+      "De Gregorio-Monsalvo",
+      "I.",
+      "",
+      "ESO"
+    ],
+    [
+      "Morata",
+      "O.",
+      "",
+      "ICE-CSIC"
+    ],
+    [
+      "Barrado",
+      "D.",
+      "",
+      "CAB/INTA-CSIC"
+    ],
+    [
+      "Morales-Calderón",
+      "M.",
+      "",
+      "CAB/INTA-CSIC"
+    ],
+    [
+      "Mass-Hesse",
+      "M.",
+      "",
+      "CAB/INTA-CSIC"
+    ],
+    [
+      "Bayo",
+      "A.",
+      "",
+      "ESO"
+    ],
+    [
+      "Mauco",
+      "K.",
+      "",
+      "CNRS"
+    ],
+    [
+      "Bouy",
+      "H.",
+      "",
+      "CNRS"
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 12 Dec 2024 09:19:54 GMT"
+    }
+  ],
+  "updateDate": "2024-12-13",
+  "timestamp": 1733995194000,
+  "abstract": "  Brown dwarfs are the bridge between low-mass stars and giant planets. One way\nof shedding light on their dominant formation mechanism is to study them at the\nearliest stages of their evolution, when they are deeply embedded in their\nparental clouds. Several works have identified pre- and proto-brown dwarfs\ncandidates using different observational approaches. The aim of this work is to\ncreate a database with all the objects classified as very young substellar\ncandidates in the litearature in order to study them in an homogeneous way. We\nhave gathered all the information about very young substellar candidates\navailable in the literature until 2020. We have retrieved their published\nphotometry from the optical to the centimeter regime, and we have written our\nown codes to derive their bolometric temperatures and luminosities, and their\ninternal luminosities. We have also populated the database with other\nparameters extracted from the literature, like e.g. the envelope masses, their\ndetection in some molecular species, and presence of outflows. The result of\nour search is the SUCANES database, containing 174 objects classified as\npotential very young substellar candidates in the literature. We present an\nanalysis of the main properties of the retrieved objects. Since we have updated\nthe distances to several star forming regions, this has allowed us to reject\nsome candidates based on their internal luminosities. We have also discussed\nthe derived physical parameters and envelope masses for the best substellar\ncandidates isolated in SUCANES. As an example of a scientific exploitation of\nthis database, we present a feasibility study for the detection of radiojets\nwith upcoming facilities: the ngVLA and the SKA interferometers. The SUCANES\ndatabase is accessible through a Graphical User Interface and it is open to any\npotential user.\n",
+  "subjects": [
+    "Astrophysics/Solar and Stellar Astrophysics",
+    "Astrophysics/Earth and Planetary Astrophysics",
+    "Astrophysics/Astrophysics of Galaxies",
+    "Astrophysics/Instrumentation and Methods for Astrophysics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "mOE-UJ05YY7b3r8g-BU1nvmT8S51OvLorSlHL5XuoQQ",
+  "pdfSize": "603602"
+}

@@ -1,0 +1,47 @@
+{
+  "id": "2412.12981",
+  "title": "Unlocking LLMs: Addressing Scarce Data and Bias Challenges in Mental\n  Health",
+  "authors": "Vivek Kumar, Eirini Ntoutsi, Pushpraj Singh Rajawat, Giacomo Medda and\n  Diego Reforgiato Recupero",
+  "authorsParsed": [
+    [
+      "Kumar",
+      "Vivek",
+      ""
+    ],
+    [
+      "Ntoutsi",
+      "Eirini",
+      ""
+    ],
+    [
+      "Rajawat",
+      "Pushpraj Singh",
+      ""
+    ],
+    [
+      "Medda",
+      "Giacomo",
+      ""
+    ],
+    [
+      "Recupero",
+      "Diego Reforgiato",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 17 Dec 2024 15:01:07 GMT"
+    }
+  ],
+  "updateDate": "2024-12-18",
+  "timestamp": 1734447667000,
+  "abstract": "  Large language models (LLMs) have shown promising capabilities in healthcare\nanalysis but face several challenges like hallucinations, parroting, and bias\nmanifestation. These challenges are exacerbated in complex, sensitive, and\nlow-resource domains. Therefore, in this work we introduce IC-AnnoMI, an\nexpert-annotated motivational interviewing (MI) dataset built upon AnnoMI by\ngenerating in-context conversational dialogues leveraging LLMs, particularly\nChatGPT. IC-AnnoMI employs targeted prompts accurately engineered through cues\nand tailored information, taking into account therapy style (empathy,\nreflection), contextual relevance, and false semantic change. Subsequently, the\ndialogues are annotated by experts, strictly adhering to the Motivational\nInterviewing Skills Code (MISC), focusing on both the psychological and\nlinguistic dimensions of MI dialogues. We comprehensively evaluate the\nIC-AnnoMI dataset and ChatGPT's emotional reasoning ability and understanding\nof domain intricacies by modeling novel classification tasks employing several\nclassical machine learning and current state-of-the-art transformer approaches.\nFinally, we discuss the effects of progressive prompting strategies and the\nimpact of augmented data in mitigating the biases manifested in IC-AnnoM. Our\ncontributions provide the MI community with not only a comprehensive dataset\nbut also valuable insights for using LLMs in empathetic text generation for\nconversational therapy in supervised settings.\n",
+  "subjects": [
+    "Computer Science/Computation and Language"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "q9GnhkWPl0Mt4yFAOkIQ958akDdMbhNUR7RA_XjPCQw",
+  "pdfSize": "1039210"
+}

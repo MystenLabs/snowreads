@@ -1,0 +1,42 @@
+{
+  "id": "2412.03364",
+  "title": "User-Movement-Robust Virtual Reality Through Dual-Beam Reception in\n  mmWave Networks",
+  "authors": "Rizqi Hersyandika, Qing Wang, Yang Miao, and Sofie Pollin",
+  "authorsParsed": [
+    [
+      "Hersyandika",
+      "Rizqi",
+      ""
+    ],
+    [
+      "Wang",
+      "Qing",
+      ""
+    ],
+    [
+      "Miao",
+      "Yang",
+      ""
+    ],
+    [
+      "Pollin",
+      "Sofie",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 4 Dec 2024 14:52:08 GMT"
+    }
+  ],
+  "updateDate": "2024-12-05",
+  "timestamp": 1733323928000,
+  "abstract": "  Utilizing the mmWave band can potentially achieve the high data rate needed\nfor realistic and seamless interaction within a virtual reality (VR)\napplication. To this end, beamforming in both the access point (AP) and\nhead-mounted display (HMD) sides is necessary. The main challenge in this use\ncase is the specific and highly dynamic user movement, which causes beam\nmisalignment, degrading the received signal level and potentially leading to\noutages. This study examines mmWave-based coordinated multi-point networks for\nVR applications, where two or multiple APs cooperatively transmit the signals\nto an HMD for connectivity diversity. Instead of using omnireception, we\npropose dual-beam reception based on the analog beamforming at the HMD,\nenhancing the receive beamforming gain towards serving APs while achieving\ndiversity. Evaluation using actual HMD movement data demonstrates the\neffectiveness of our approach, showcasing a reduction in outage rates of up to\n13% compared to quasi-omnidirectional reception with two serving APs, and a 17%\ndecrease compared to steerable single-beam reception with a serving AP.\nWidening the separation angle between two APs can further reduce outage rates\ndue to head rotation as rotations can still be tracked using the steerable\nmulti-beam, albeit at the expense of received signal levels reduction during\nthe non-outage period.\n",
+  "subjects": [
+    "Electrical Engineering and Systems Science/Signal Processing"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "Pkw7dyXvh_Bli1WQKAXbhEcxYFau-Gk5u4N5iGZH2kE",
+  "pdfSize": "432060"
+}

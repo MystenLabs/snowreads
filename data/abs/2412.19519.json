@@ -1,0 +1,178 @@
+{
+  "id": "2412.19519",
+  "title": "Improved measurements of neutron lifetime with cold neutron beam at\n  J-PARC",
+  "authors": "Y. Fuwa, T. Hasegawa, K. Hirota, T. Hoshino, R. Hosokawa, G. Ichikawa,\n  S. Ieki, T. Ino, Y. Iwashita, M. Kitaguchi, R. Kitahara, S. Makise, K.\n  Mishima, T. Mogi, N. Nagakura, H. Oide, H. Okabe, H. Otono, Y. Seki, D.\n  Sekiba, T. Shima, H. E. Shimizu, H. M. Shimizu, N. Sumi, H. Sumino, M.\n  Tanida, H. Uehara, T. Yamada, S. Yamashita, K. Yano, T. Yoshioka",
+  "authorsParsed": [
+    [
+      "Fuwa",
+      "Y.",
+      ""
+    ],
+    [
+      "Hasegawa",
+      "T.",
+      ""
+    ],
+    [
+      "Hirota",
+      "K.",
+      ""
+    ],
+    [
+      "Hoshino",
+      "T.",
+      ""
+    ],
+    [
+      "Hosokawa",
+      "R.",
+      ""
+    ],
+    [
+      "Ichikawa",
+      "G.",
+      ""
+    ],
+    [
+      "Ieki",
+      "S.",
+      ""
+    ],
+    [
+      "Ino",
+      "T.",
+      ""
+    ],
+    [
+      "Iwashita",
+      "Y.",
+      ""
+    ],
+    [
+      "Kitaguchi",
+      "M.",
+      ""
+    ],
+    [
+      "Kitahara",
+      "R.",
+      ""
+    ],
+    [
+      "Makise",
+      "S.",
+      ""
+    ],
+    [
+      "Mishima",
+      "K.",
+      ""
+    ],
+    [
+      "Mogi",
+      "T.",
+      ""
+    ],
+    [
+      "Nagakura",
+      "N.",
+      ""
+    ],
+    [
+      "Oide",
+      "H.",
+      ""
+    ],
+    [
+      "Okabe",
+      "H.",
+      ""
+    ],
+    [
+      "Otono",
+      "H.",
+      ""
+    ],
+    [
+      "Seki",
+      "Y.",
+      ""
+    ],
+    [
+      "Sekiba",
+      "D.",
+      ""
+    ],
+    [
+      "Shima",
+      "T.",
+      ""
+    ],
+    [
+      "Shimizu",
+      "H. E.",
+      ""
+    ],
+    [
+      "Shimizu",
+      "H. M.",
+      ""
+    ],
+    [
+      "Sumi",
+      "N.",
+      ""
+    ],
+    [
+      "Sumino",
+      "H.",
+      ""
+    ],
+    [
+      "Tanida",
+      "M.",
+      ""
+    ],
+    [
+      "Uehara",
+      "H.",
+      ""
+    ],
+    [
+      "Yamada",
+      "T.",
+      ""
+    ],
+    [
+      "Yamashita",
+      "S.",
+      ""
+    ],
+    [
+      "Yano",
+      "K.",
+      ""
+    ],
+    [
+      "Yoshioka",
+      "T.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 27 Dec 2024 08:19:54 GMT"
+    }
+  ],
+  "updateDate": "2024-12-30",
+  "timestamp": 1735287594000,
+  "abstract": "  The ``neutron lifetime puzzle'' arises from the discrepancy between neutron\nlifetime measurements obtained using the beam method, which measures decay\nproducts, and the bottle method, which measures the disappearance of neutrons.\nTo resolve this puzzle, we conducted an experiment using a pulsed cold neutron\nbeam at J-PARC. In this experiment, the neutron lifetime is determined from the\nratio of neutron decay counts to $^3$He(n,p)$^3$H reactions in a gas detector.\nThis experiment belongs to the beam method but differs from previous\nexperiments that measured protons, as it instead detects electrons, enabling\nmeasurements with distinct systematic uncertainties. By enlarging the beam\ntransport system and reducing systematic uncertainties, we achieved a fivefold\nimprovement in precision. Analysis of all acquired data yielded a neutron\nlifetime of $\\tau_{\\rm n}=877.2~\\pm~1.7_{\\rm(stat.)}~^{+4.0}_{-3.6}{}_{\\rm\n(sys.)}$ s. This result is consistent with bottle method measurements but\nexhibits a 2.3$\\sigma$ tension with the average value obtained from the\nproton-detection-based beam method.\n",
+  "subjects": [
+    "Physics/Nuclear Experiment",
+    "Physics/High Energy Physics - Experiment"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "KMgY9XJYInqskz1ovIdmk2vQdzLD1TRdNF5Lhm1nviU",
+  "pdfSize": "496285"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "2412.07957",
+  "title": "Spatial scale-aware tail dependence modeling for high-dimensional\n  spatial extremes",
+  "authors": "Muyang Shi, Likun Zhang, Mark D. Risser, Benjamin A. Shaby",
+  "authorsParsed": [
+    [
+      "Shi",
+      "Muyang",
+      ""
+    ],
+    [
+      "Zhang",
+      "Likun",
+      ""
+    ],
+    [
+      "Risser",
+      "Mark D.",
+      ""
+    ],
+    [
+      "Shaby",
+      "Benjamin A.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 10 Dec 2024 22:51:06 GMT"
+    }
+  ],
+  "updateDate": "2024-12-12",
+  "timestamp": 1733871066000,
+  "abstract": "  Extreme events over large spatial domains may exhibit highly heterogeneous\ntail dependence characteristics, yet most existing spatial extremes models\nyield only one dependence class over the entire spatial domain. To accurately\ncharacterize \"data-level dependence'' in analysis of extreme events, we propose\na mixture model that achieves flexible dependence properties and allows\nhigh-dimensional inference for extremes of spatial processes. We modify the\npopular random scale construction that multiplies a Gaussian random field by a\nsingle radial variable; we allow the radial variable to vary smoothly across\nspace and add non-stationarity to the Gaussian process. As the level of\nextremeness increases, this single model exhibits both asymptotic independence\nat long ranges and either asymptotic dependence or independence at short\nranges. We make joint inference on the dependence model and a marginal model\nusing a copula approach within a Bayesian hierarchical model. Three different\nsimulation scenarios show close to nominal frequentist coverage rates. Lastly,\nwe apply the model to a dataset of extreme summertime precipitation over the\ncentral United States. We find that the joint tail of precipitation exhibits\nnon-stationary dependence structure that cannot be captured by limiting extreme\nvalue models or current state-of-the-art sub-asymptotic models.\n",
+  "subjects": [
+    "Statistics/Methodology"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "wZLFGkanxrvpSr3WgeaBHTqJtyTr0SKFycniHaXpNck",
+  "pdfSize": "6955635"
+}

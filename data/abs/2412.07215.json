@@ -1,0 +1,63 @@
+{
+  "id": "2412.07215",
+  "title": "RoboMM: All-in-One Multimodal Large Model for Robotic Manipulation",
+  "authors": "Feng Yan, Fanfan Liu, Liming Zheng, Yufeng Zhong, Yiyang Huang, Zechao\n  Guan, Chengjian Feng, Lin Ma",
+  "authorsParsed": [
+    [
+      "Yan",
+      "Feng",
+      ""
+    ],
+    [
+      "Liu",
+      "Fanfan",
+      ""
+    ],
+    [
+      "Zheng",
+      "Liming",
+      ""
+    ],
+    [
+      "Zhong",
+      "Yufeng",
+      ""
+    ],
+    [
+      "Huang",
+      "Yiyang",
+      ""
+    ],
+    [
+      "Guan",
+      "Zechao",
+      ""
+    ],
+    [
+      "Feng",
+      "Chengjian",
+      ""
+    ],
+    [
+      "Ma",
+      "Lin",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 10 Dec 2024 06:11:59 GMT"
+    }
+  ],
+  "updateDate": "2024-12-11",
+  "timestamp": 1733811119000,
+  "abstract": "  In recent years, robotics has advanced significantly through the integration\nof larger models and large-scale datasets. However, challenges remain in\napplying these models to 3D spatial interactions and managing data collection\ncosts. To address these issues, we propose the multimodal robotic manipulation\nmodel, RoboMM, along with the comprehensive dataset, RoboData. RoboMM enhances\n3D perception through camera parameters and occupancy supervision. Building on\nOpenFlamingo, it incorporates Modality-Isolation-Mask and multimodal decoder\nblocks, improving modality fusion and fine-grained perception. RoboData offers\nthe complete evaluation system by integrating several well-known datasets,\nachieving the first fusion of multi-view images, camera parameters, depth maps,\nand actions, and the space alignment facilitates comprehensive learning from\ndiverse robotic datasets. Equipped with RoboData and the unified physical\nspace, RoboMM is the generalist policy that enables simultaneous evaluation\nacross all tasks within multiple datasets, rather than focusing on limited\nselection of data or tasks. Its design significantly enhances robotic\nmanipulation performance, increasing the average sequence length on the CALVIN\nfrom 1.7 to 3.3 and ensuring cross-embodiment capabilities, achieving\nstate-of-the-art results across multiple datasets.\n",
+  "subjects": [
+    "Computer Science/Robotics",
+    "Computer Science/Multimedia"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "csHBdFheweK8yAXMPfdp2Jh1bm-B3VgrP0eZSV9UXRc",
+  "pdfSize": "6539571"
+}

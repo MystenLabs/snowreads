@@ -1,0 +1,39 @@
+{
+  "id": "2412.05085",
+  "title": "Born-Oppenheimer Renormalization group for High Energy Scattering: the\n  Setup and the Wave Function",
+  "authors": "Haowu Duan, Alex Kovner and Michael Lublinsky",
+  "authorsParsed": [
+    [
+      "Duan",
+      "Haowu",
+      ""
+    ],
+    [
+      "Kovner",
+      "Alex",
+      ""
+    ],
+    [
+      "Lublinsky",
+      "Michael",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 6 Dec 2024 14:44:28 GMT"
+    }
+  ],
+  "updateDate": "2024-12-09",
+  "timestamp": 1733496268000,
+  "abstract": "  We develop an approach to QCD evolution based on the sequential\nBorn-Oppenheimer approximations that include higher and higher frequency modes\nas the evolution parameter is increased. This Born-Oppenheimer renormalization\ngroup is a general approach which is valid for the high energy evolution as\nwell as the evolution in transverse resolution scale $Q^2$. In the former case\nit yields the frequency ordered formulation of high energy evolution, which\nincludes both the eikonal splittings which produce gluons with low longitudinal\nmomentum, and the DGLAP-like splittings which produce partons with high\ntransverse momentum. In this, first paper of the series we lay out the\nformulation of the approach, and derive the expression for the evolved wave\nfunction of a hadronic state. We also discuss the form of the $S$-matrix which\nis consistent with the frequency ordering.\n",
+  "subjects": [
+    "Physics/High Energy Physics - Phenomenology",
+    "Physics/High Energy Physics - Theory",
+    "Physics/Nuclear Theory"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "DsO5v1I6hstATFVKB3w2qNfl3wMpHt0hu38T1aToVKs",
+  "pdfSize": "460791"
+}

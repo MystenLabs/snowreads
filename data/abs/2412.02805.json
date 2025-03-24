@@ -1,0 +1,37 @@
+{
+  "id": "2412.02805",
+  "title": "STORM: Strategic Orchestration of Modalities for Rare Event\n  Classification",
+  "authors": "Payal Kamboj, Ayan Banerjee and Sandeep K.S. Gupta",
+  "authorsParsed": [
+    [
+      "Kamboj",
+      "Payal",
+      ""
+    ],
+    [
+      "Banerjee",
+      "Ayan",
+      ""
+    ],
+    [
+      "Gupta",
+      "Sandeep K. S.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 3 Dec 2024 20:17:39 GMT"
+    }
+  ],
+  "updateDate": "2024-12-05",
+  "timestamp": 1733257059000,
+  "abstract": "  In domains such as biomedical, expert insights are crucial for selecting the\nmost informative modalities for artificial intelligence (AI) methodologies.\nHowever, using all available modalities poses challenges, particularly in\ndetermining the impact of each modality on performance and optimizing their\ncombinations for accurate classification. Traditional approaches resort to\nmanual trial and error methods, lacking systematic frameworks for discerning\nthe most relevant modalities. Moreover, although multi-modal learning enables\nthe integration of information from diverse sources, utilizing all available\nmodalities is often impractical and unnecessary. To address this, we introduce\nan entropy-based algorithm STORM to solve the modality selection problem for\nrare event. This algorithm systematically evaluates the information content of\nindividual modalities and their combinations, identifying the most\ndiscriminative features essential for rare class classification tasks. Through\nseizure onset zone detection case study, we demonstrate the efficacy of our\nalgorithm in enhancing classification performance. By selecting useful subset\nof modalities, our approach paves the way for more efficient AI-driven\nbiomedical analyses, thereby advancing disease diagnosis in clinical settings.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "AdgdkTQSV5p2LPjJUAZqkjncl_eFG20Vdx4ICON38jk",
+  "pdfSize": "364729"
+}

@@ -1,0 +1,43 @@
+{
+  "id": "2412.03158",
+  "title": "LEP-QNN: Loan Eligibility Prediction Using Quantum Neural Networks",
+  "authors": "Nouhaila Innan, Alberto Marchisio, Mohamed Bennai, and Muhammad\n  Shafique",
+  "authorsParsed": [
+    [
+      "Innan",
+      "Nouhaila",
+      ""
+    ],
+    [
+      "Marchisio",
+      "Alberto",
+      ""
+    ],
+    [
+      "Bennai",
+      "Mohamed",
+      ""
+    ],
+    [
+      "Shafique",
+      "Muhammad",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 4 Dec 2024 09:35:03 GMT"
+    }
+  ],
+  "updateDate": "2024-12-05",
+  "timestamp": 1733304903000,
+  "abstract": "  Predicting loan eligibility with high accuracy remains a significant\nchallenge in the finance sector. Accurate predictions enable financial\ninstitutions to make informed decisions, mitigate risks, and effectively adapt\nservices to meet customer needs. However, the complexity and the\nhigh-dimensional nature of financial data have always posed significant\nchallenges to achieving this level of precision. To overcome these issues, we\npropose a novel approach that employs Quantum Machine Learning (QML) for Loan\nEligibility Prediction using Quantum Neural Networks (LEP-QNN).Our innovative\napproach achieves an accuracy of 98% in predicting loan eligibility from a\nsingle, comprehensive dataset. This performance boost is attributed to the\nstrategic implementation of a dropout mechanism within the quantum circuit,\naimed at minimizing overfitting and thereby improving the model's predictive\nreliability. In addition, our exploration of various optimizers leads to\nidentifying the most efficient setup for our LEP-QNN framework, optimizing its\nperformance. We also rigorously evaluate the resilience of LEP-QNN under\ndifferent quantum noise scenarios, ensuring its robustness and dependability\nfor quantum computing environments. This research showcases the potential of\nQML in financial predictions and establishes a foundational guide for advancing\nQML technologies, marking a step towards developing advanced, quantum-driven\nfinancial decision-making tools.\n",
+  "subjects": [
+    "Physics/Quantum Physics",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "cWrHM9hcSgdB3F7qG-v9q-XNRBRSjX-Dbn1yd-MyDpg",
+  "pdfSize": "5681449"
+}

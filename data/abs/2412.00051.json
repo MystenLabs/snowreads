@@ -1,0 +1,64 @@
+{
+  "id": "2412.00051",
+  "title": "TransFair: Transferring Fairness from Ocular Disease Classification to\n  Progression Prediction",
+  "authors": "Leila Gheisi, Henry Chu, Raju Gottumukkala, Yan Luo, Xingquan Zhu,\n  Mengyu Wang, Min Shi",
+  "authorsParsed": [
+    [
+      "Gheisi",
+      "Leila",
+      ""
+    ],
+    [
+      "Chu",
+      "Henry",
+      ""
+    ],
+    [
+      "Gottumukkala",
+      "Raju",
+      ""
+    ],
+    [
+      "Luo",
+      "Yan",
+      ""
+    ],
+    [
+      "Zhu",
+      "Xingquan",
+      ""
+    ],
+    [
+      "Wang",
+      "Mengyu",
+      ""
+    ],
+    [
+      "Shi",
+      "Min",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 24 Nov 2024 06:39:06 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Tue, 3 Dec 2024 03:33:50 GMT"
+    }
+  ],
+  "updateDate": "2024-12-04",
+  "timestamp": 1732430346000,
+  "abstract": "  The use of artificial intelligence (AI) in automated disease classification\nsignificantly reduces healthcare costs and improves the accessibility of\nservices. However, this transformation has given rise to concerns about the\nfairness of AI, which disproportionately affects certain groups, particularly\npatients from underprivileged populations. Recently, a number of methods and\nlarge-scale datasets have been proposed to address group performance\ndisparities. Although these methods have shown effectiveness in disease\nclassification tasks, they may fall short in ensuring fair prediction of\ndisease progression, mainly because of limited longitudinal data with diverse\ndemographics available for training a robust and equitable prediction model. In\nthis paper, we introduce TransFair to enhance demographic fairness in\nprogression prediction for ocular diseases. TransFair aims to transfer a\nfairness-enhanced disease classification model to the task of progression\nprediction with fairness preserved. Specifically, we train a fair EfficientNet,\ntermed FairEN, equipped with a fairness-aware attention mechanism using\nextensive data for ocular disease classification. Subsequently, this fair\nclassification model is adapted to a fair progression prediction model through\nknowledge distillation, which aims to minimize the latent feature distances\nbetween the classification and progression prediction models. We evaluate\nFairEN and TransFair for fairness-enhanced ocular disease classification and\nprogression prediction using both two-dimensional (2D) and 3D retinal images.\nExtensive experiments and comparisons with models with and without considering\nfairness learning show that TransFair effectively enhances demographic equity\nin predicting ocular disease progression.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Computers and Society"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "yfJSpnnVEVMU485AF2-X7u5qk4ME3VHOcY_pqB5FeVU",
+  "pdfSize": "970452"
+}

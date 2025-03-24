@@ -1,0 +1,32 @@
+{
+  "id": "2412.06068",
+  "title": "Saturated Partial Embeddings of Maximal Planar Graphs",
+  "authors": "Alexander Clifton, D\\'aniel G. Simon",
+  "authorsParsed": [
+    [
+      "Clifton",
+      "Alexander",
+      ""
+    ],
+    [
+      "Simon",
+      "Dániel G.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 8 Dec 2024 21:03:02 GMT"
+    }
+  ],
+  "updateDate": "2024-12-10",
+  "timestamp": 1733691782000,
+  "abstract": "  We investigate two notions of saturation for partial planar embeddings of\nmaximal planar graphs. Let $G = (V, E) $ be a vertex-labeled maximal planar\ngraph on $ n $ vertices, which by definition has $3n - 6$ edges. We say that a\nlabeled plane graph $H = (V, E')$ with $E' \\subseteq E$ is a \\emph{labeled\nplane-saturated subgraph} of $G$ if no edge in $E \\setminus E'$ can be added to\n$H$ in a manner that preserves vertex labels, without introducing a crossing.\nThe \\emph{labeled plane-saturation ratio} $lpsr(G)$ is defined as the minimum\nvalue of $\\frac{e(H)}{e(G)}$ over all such $H$. We establish almost tight\nbounds for $lpsr(G)$, showing $lpsr(G) \\leq \\frac{n+7}{3n-6}$ for $n \\geq 47$,\nand constructing a maximal planar graph $G$ with $lpsr(G) \\geq\n\\frac{n+2}{3n-6}$ for each $n\\ge 5$.\n  Dropping vertex labels, a \\emph{plane-saturated subgraph} is defined as a\nplane subgraph $H\\subseteq G$ where adding any additional edge to the drawing\neither introduces a crossing or causes the resulting graph to no longer be a\nsubgraph of $G$. The \\emph{plane-saturation ratio} $psr(G)$ is defined as the\nminimum value of $\\frac{E(H)}{E(G)}$ over all such $H$. For all sufficiently\nlarge $n$, we demonstrate the existence of a maximal planar graph $G$ with\n$psr(G) \\geq \\frac{\\frac{3}{2}n - 3}{3n - 6} = \\frac{1}{2}$.\n",
+  "subjects": [
+    "Mathematics/Combinatorics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "wV3LhjFmmQxYPv3bZv33tAoYpAtFpnYuNDWeFRdkvQw",
+  "pdfSize": "1582476"
+}

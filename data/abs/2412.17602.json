@@ -1,0 +1,32 @@
+{
+  "id": "2412.17602",
+  "title": "Natural Orbital Non-Orthogonal Configuration Interaction",
+  "authors": "Daniel Graf, Alex J. W. Thom",
+  "authorsParsed": [
+    [
+      "Graf",
+      "Daniel",
+      ""
+    ],
+    [
+      "Thom",
+      "Alex J. W.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 23 Dec 2024 14:21:21 GMT"
+    }
+  ],
+  "updateDate": "2024-12-24",
+  "timestamp": 1734963681000,
+  "abstract": "  Non-orthogonal configuration interaction (NOCI) is a generalization of the\nstandard orthogonal configuration interaction (CI) method and offers a highly\nflexible framework for describing ground and excited electronic states.\nHowever, this flexibility also comes with challenges, as there is still no\nclear or generally accepted approach for constructing a compact and accurate\nstate basis for NOCI. In this work, we take a step toward addressing this\nchallenge by introducing a novel NOCI approach designed with three primary\nobjectives: (1) ensuring the method is systematic, (2) achieving a compact NOCI\nexpansion, and (3) treating all electronic states of interest on equal footing.\nThe development of our approach is presented step by step, with each building\nblock evaluated and validated through applications to simple model systems,\ndemonstrating its effectiveness and potential.\n",
+  "subjects": [
+    "Physics/Chemical Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "fOGdtb5axmVducaMCsRFQPiUOmEEhHIDo9n-0cveEVQ",
+  "pdfSize": "726485"
+}

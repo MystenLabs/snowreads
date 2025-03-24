@@ -1,0 +1,57 @@
+{
+  "id": "2412.09952",
+  "title": "Llama 3 Meets MoE: Efficient Upcycling",
+  "authors": "Aditya Vavre, Ethan He, Dennis Liu, Zijie Yan, June Yang, Nima\n  Tajbakhsh, Ashwath Aithal",
+  "authorsParsed": [
+    [
+      "Vavre",
+      "Aditya",
+      ""
+    ],
+    [
+      "He",
+      "Ethan",
+      ""
+    ],
+    [
+      "Liu",
+      "Dennis",
+      ""
+    ],
+    [
+      "Yan",
+      "Zijie",
+      ""
+    ],
+    [
+      "Yang",
+      "June",
+      ""
+    ],
+    [
+      "Tajbakhsh",
+      "Nima",
+      ""
+    ],
+    [
+      "Aithal",
+      "Ashwath",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 13 Dec 2024 08:22:19 GMT"
+    }
+  ],
+  "updateDate": "2024-12-16",
+  "timestamp": 1734078139000,
+  "abstract": "  Scaling large language models (LLMs) significantly improves performance but\ncomes with prohibitive computational costs. Mixture-of-Experts (MoE) models\noffer an efficient alternative, increasing capacity without a proportional rise\nin compute requirements. However, training MoE models from scratch poses\nchallenges like overfitting and routing instability. We present an efficient\ntraining recipe leveraging pre-trained dense checkpoints, training an 8-Expert\nTop-2 MoE model from Llama 3-8B with less than $1\\%$ of typical pre-training\ncompute. Our approach enhances downstream performance on academic benchmarks,\nachieving a $\\textbf{2%}$ improvement in 0-shot accuracy on MMLU, while\nreaching a Model FLOPs Utilization (MFU) of $\\textbf{46.8%}$ during training\nusing our framework. We also integrate online upcycling in NeMo for seamless\nuse of pre-trained weights, enabling cost-effective development of\nhigh-capacity MoE models.\n",
+  "subjects": [
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+  "blobId": "PQ-AszcC01BnICkpjfaGaAiXhoh7aBhCh_wH6uPcXi4",
+  "pdfSize": "728111"
+}

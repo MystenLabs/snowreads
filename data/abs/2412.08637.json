@@ -1,0 +1,39 @@
+{
+  "id": "2412.08637",
+  "title": "DMin: Scalable Training Data Influence Estimation for Diffusion Models",
+  "authors": "Huawei Lin, Yingjie Lao, Weijie Zhao",
+  "authorsParsed": [
+    [
+      "Lin",
+      "Huawei",
+      ""
+    ],
+    [
+      "Lao",
+      "Yingjie",
+      ""
+    ],
+    [
+      "Zhao",
+      "Weijie",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 11 Dec 2024 18:58:40 GMT"
+    }
+  ],
+  "updateDate": "2024-12-12",
+  "timestamp": 1733943520000,
+  "abstract": "  Identifying the training data samples that most influence a generated image\nis a critical task in understanding diffusion models, yet existing influence\nestimation methods are constrained to small-scale or LoRA-tuned models due to\ncomputational limitations. As diffusion models scale up, these methods become\nimpractical. To address this challenge, we propose DMin (Diffusion Model\ninfluence), a scalable framework for estimating the influence of each training\ndata sample on a given generated image. By leveraging efficient gradient\ncompression and retrieval techniques, DMin reduces storage requirements from\n339.39 TB to only 726 MB and retrieves the top-k most influential training\nsamples in under 1 second, all while maintaining performance. Our empirical\nresults demonstrate DMin is both effective in identifying influential training\nsamples and efficient in terms of computational and storage requirements.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "eV-2W7CXMPTKYAOwcRn1DmGEnPdCCxmuQ-N8RMp5Qa0",
+  "pdfSize": "45627339"
+}

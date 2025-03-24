@@ -1,0 +1,56 @@
+{
+  "id": "2412.09078",
+  "title": "Forest-of-Thought: Scaling Test-Time Compute for Enhancing LLM Reasoning",
+  "authors": "Zhenni Bi, Kai Han, Chuanjian Liu, Yehui Tang, Yunhe Wang",
+  "authorsParsed": [
+    [
+      "Bi",
+      "Zhenni",
+      ""
+    ],
+    [
+      "Han",
+      "Kai",
+      ""
+    ],
+    [
+      "Liu",
+      "Chuanjian",
+      ""
+    ],
+    [
+      "Tang",
+      "Yehui",
+      ""
+    ],
+    [
+      "Wang",
+      "Yunhe",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 12 Dec 2024 09:01:18 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Tue, 4 Feb 2025 06:53:38 GMT"
+    },
+    {
+      "version": "v3",
+      "created": "Fri, 14 Feb 2025 13:46:53 GMT"
+    }
+  ],
+  "updateDate": "2025-02-17",
+  "timestamp": 1733994078000,
+  "abstract": "  Large Language Models (LLMs) have demonstrated remarkable abilities across\nvarious language tasks, but solving complex reasoning problems remains a\nsignificant challenge. While existing methods, such as Chain-of-Thought (CoT)\nand Tree-of-Thought (ToT), enhance reasoning by decomposing problems or\nstructuring prompts, they typically perform a single pass of reasoning and may\nfail to revisit flawed paths, compromising accuracy. To address this\nlimitation, we propose a novel reasoning framework called Forest-of-Thought\n(FoT), which integrates multiple reasoning trees to leverage collective\ndecision-making for solving complex logical problems. FoT employs sparse\nactivation strategies to select the most relevant reasoning paths, improving\nboth efficiency and accuracy. Additionally, we introduce a dynamic\nself-correction strategy that enables real-time error correction, along with\nconsensus-guided decision-making strategies to optimize both correctness and\ncomputational resources. Experimental results demonstrate that the FoT\nframework, combined with these strategies, significantly enhances the reasoning\ncapabilities of LLMs, enabling them to solve complex tasks with greater\nprecision and efficiency.Code will be available at\nhttps://github.com/iamhankai/Forest-of-Thought.\n",
+  "subjects": [
+    "Computer Science/Computation and Language",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "FmbukaVku8PmhdeEUX592FVfAvPDi5qoHjHUWqOxhMc",
+  "pdfSize": "1436269"
+}

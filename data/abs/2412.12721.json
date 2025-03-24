@@ -1,0 +1,43 @@
+{
+  "id": "2412.12721",
+  "title": "Information, entropy and the paradox of choice: A theoretical framework\n  for understanding choice satisfaction",
+  "authors": "Mojtaba Madadi Asl, Kamal Hajian, Rouzbeh Torabi, and Mehdi Sadeghi",
+  "authorsParsed": [
+    [
+      "Asl",
+      "Mojtaba Madadi",
+      ""
+    ],
+    [
+      "Hajian",
+      "Kamal",
+      ""
+    ],
+    [
+      "Torabi",
+      "Rouzbeh",
+      ""
+    ],
+    [
+      "Sadeghi",
+      "Mehdi",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 17 Dec 2024 09:38:24 GMT"
+    }
+  ],
+  "updateDate": "2024-12-18",
+  "timestamp": 1734428304000,
+  "abstract": "  Choice overload occurs when individuals feel overwhelmed by an excessive\nnumber of options. Experimental evidence suggests that a larger selection can\ncomplicate the decision-making process. Consequently, choice satisfaction may\ndiminish when the costs of making a choice outweigh its benefits, indicating\nthat satisfaction follows an inverted U-shaped relationship with the size of\nthe choice set. However, the theoretical underpinnings of this phenomenon\nremain underexplored. Here, we present a theoretical framework based on\nrelative entropy and effective information to elucidate the inverted U-shaped\nrelationship between satisfaction and choice set size. We begin by positing\nthat individuals assign a probability distribution to a choice set based on\ntheir preferences, characterized by an observed Shannon entropy. We then define\na maximum entropy that corresponds to a worst-case scenario where individuals\nare indifferent among options, leading to equal probabilities for all\nalternatives. We hypothesized that satisfaction is related to the probability\nof identifying an ideal choice within the set. By comparing observed entropy to\nmaximum entropy, we derive the effective information of choice probabilities,\ndemonstrating that this metric reflects satisfaction with the options\navailable. For smaller choice sets, individuals can more easily identify their\nbest option, resulting in a sharper probability distribution around the\npreferred choice and, consequently, minimum entropy, which signifies maximum\ninformation and satisfaction. Conversely, in larger choice sets, individuals\nstruggle to compare and evaluate all alternatives, leading to missed\nopportunities and increased entropy. This smooth probability distribution\nultimately reduces choice satisfaction, thereby producing the observed inverted\nU-shaped trend.\n",
+  "subjects": [
+    "Physics/Physics and Society",
+    "Economics/Theoretical Economics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "xm8AuwIWnpdlcd0Sm2Zr_sQbK7UX7PUSnS4_kTo61D4",
+  "pdfSize": "237981"
+}

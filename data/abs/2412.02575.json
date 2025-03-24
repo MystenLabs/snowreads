@@ -1,0 +1,53 @@
+{
+  "id": "2412.02575",
+  "title": "Copy-Move Forgery Detection and Question Answering for Remote Sensing\n  Image",
+  "authors": "Ze Zhang, Enyuan Zhao, Ziyi Wan, Jie Nie, Xinyue Liang, Lei Huang",
+  "authorsParsed": [
+    [
+      "Zhang",
+      "Ze",
+      ""
+    ],
+    [
+      "Zhao",
+      "Enyuan",
+      ""
+    ],
+    [
+      "Wan",
+      "Ziyi",
+      ""
+    ],
+    [
+      "Nie",
+      "Jie",
+      ""
+    ],
+    [
+      "Liang",
+      "Xinyue",
+      ""
+    ],
+    [
+      "Huang",
+      "Lei",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 3 Dec 2024 17:02:40 GMT"
+    }
+  ],
+  "updateDate": "2024-12-04",
+  "timestamp": 1733245360000,
+  "abstract": "  This paper introduces the task of Remote Sensing Copy-Move Question Answering\n(RSCMQA). Unlike traditional Remote Sensing Visual Question Answering (RSVQA),\nRSCMQA focuses on interpreting complex tampering scenarios and inferring\nrelationships between objects. Based on the practical needs of national defense\nsecurity and land resource monitoring, we have developed an accurate and\ncomprehensive global dataset for remote sensing image copy-move question\nanswering, named RS-CMQA-2.1M. These images were collected from 29 different\nregions across 14 countries. Additionally, we have refined a balanced dataset,\nRS-CMQA-B, to address the long-standing issue of long-tail data in the remote\nsensing field. Furthermore, we propose a region-discriminative guided\nmultimodal CMQA model, which enhances the accuracy of answering questions about\ntampered images by leveraging prompt about the differences and connections\nbetween the source and tampered domains. Extensive experiments demonstrate that\nour method provides a stronger benchmark for RS-CMQA compared to general VQA\nand RSVQA models. Our dataset and code are available at\nhttps://github.com/shenyedepisa/RSCMQA.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Multimedia"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "4NHCEE6W3qp0rHd_aAnzjq9TWqGGAkkXD6YNm8RoGGo",
+  "pdfSize": "30283555"
+}

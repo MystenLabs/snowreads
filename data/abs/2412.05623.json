@@ -1,0 +1,52 @@
+{
+  "id": "2412.05623",
+  "title": "Efficient Joint Precoding Design for Wideband Intelligent Reflecting\n  Surface-Assisted Cell-Free Network",
+  "authors": "Yajun Wang, Jinghan Jiang, Xin Du, Zhuxian Lian, Qingqing Wu, and Wen\n  Chen",
+  "authorsParsed": [
+    [
+      "Wang",
+      "Yajun",
+      ""
+    ],
+    [
+      "Jiang",
+      "Jinghan",
+      ""
+    ],
+    [
+      "Du",
+      "Xin",
+      ""
+    ],
+    [
+      "Lian",
+      "Zhuxian",
+      ""
+    ],
+    [
+      "Wu",
+      "Qingqing",
+      ""
+    ],
+    [
+      "Chen",
+      "Wen",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 7 Dec 2024 11:32:49 GMT"
+    }
+  ],
+  "updateDate": "2024-12-10",
+  "timestamp": 1733571169000,
+  "abstract": "  In this paper, we propose an efficient joint precoding design method to\nmaximize the weighted sum-rate in wideband intelligent reflecting surface\n(IRS)-assisted cell-free networks by jointly optimizing the active beamforming\nof base stations and the passive beamforming of IRS. Due to employing wideband\ntransmissions, the frequency selectivity of IRSs has to been taken into\naccount, whose response usually follows a Lorentzian-like profile. To address\nthe high-dimensional non-convex optimization problem, we employ a fractional\nprogramming approach to decouple the non-convex problem into subproblems for\nalternating optimization between active and passive beamforming. The active\nbeamforming subproblem is addressed using the consensus alternating direction\nmethod of multipliers (CADMM) algorithm, while the passive beamforming\nsubproblem is tackled using the accelerated projection gradient (APG) method\nand Flecher-Reeves conjugate gradient method (FRCG). Simulation results\ndemonstrate that our proposed approach achieves significant improvements in\nweighted sum-rate under various performance metrics compared to primal-dual\nsubgradient (PDS) with ideal reflection matrix. This study provides valuable\ninsights for computational complexity reduction and network capacity\nenhancement.\n",
+  "subjects": [
+    "Electrical Engineering and Systems Science/Signal Processing"
+  ],
+  "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+  "blobId": "a2K0cCOHM5wfCAAUZuHqjZV15GzXTGfWr2OUQzLyTu0",
+  "pdfSize": "554969"
+}

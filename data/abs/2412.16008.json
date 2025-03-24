@@ -1,0 +1,37 @@
+{
+  "id": "2412.16008",
+  "title": "Detection of Aerial Spoofing Attacks to LEO Satellite Systems via Deep\n  Learning",
+  "authors": "Jos Wigchert, Savio Sciancalepore, Gabriele Oligeri",
+  "authorsParsed": [
+    [
+      "Wigchert",
+      "Jos",
+      ""
+    ],
+    [
+      "Sciancalepore",
+      "Savio",
+      ""
+    ],
+    [
+      "Oligeri",
+      "Gabriele",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 20 Dec 2024 15:56:09 GMT"
+    }
+  ],
+  "updateDate": "2024-12-23",
+  "timestamp": 1734710169000,
+  "abstract": "  Detecting spoofing attacks to Low-Earth-Orbit (LEO) satellite systems is a\ncornerstone to assessing the authenticity of the received information and\nguaranteeing robust service delivery in several application domains. The\nsolutions available today for spoofing detection either rely on additional\ncommunication systems, receivers, and antennas, or require mobile deployments.\nDetection systems working at the Physical (PHY) layer of the satellite\ncommunication link also require time-consuming and energy-hungry training\nprocesses on all satellites of the constellation, and rely on the availability\nof spoofed data, which are often challenging to collect. Moreover, none of such\ncontributions investigate the feasibility of aerial spoofing attacks launched\nvia drones operating at various altitudes. In this paper, we propose a new\nspoofing detection technique for LEO satellite constellation systems, applying\nanomaly detection on the received PHY signal via autoencoders. We validate our\nsolution through an extensive measurement campaign involving the deployment of\nan actual spoofer (Software-Defined Radio) installed on a drone and injecting\nrogue IRIDIUM messages while flying at different altitudes with various\nmovement patterns. Our results demonstrate that the proposed technique can\nreliably detect LEO spoofing attacks launched at different altitudes, while\nstate-of-the-art competing approaches simply fail. We also release the\ncollected data as open source, fostering further research on satellite\nsecurity.\n",
+  "subjects": [
+    "Computer Science/Cryptography and Security"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "qP7lwgMklkgmMaqjRPlL3t3mwrmbvWtV3-Dr1ECCDFE",
+  "pdfSize": "4851147"
+}

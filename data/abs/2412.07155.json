@@ -1,0 +1,38 @@
+{
+  "id": "2412.07155",
+  "title": "Annotation Techniques for Judo Combat Phase Classification from\n  Tournament Footage",
+  "authors": "Anthony Miyaguchi, Jed Moutahir, Tanmay Sutar",
+  "authorsParsed": [
+    [
+      "Miyaguchi",
+      "Anthony",
+      ""
+    ],
+    [
+      "Moutahir",
+      "Jed",
+      ""
+    ],
+    [
+      "Sutar",
+      "Tanmay",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 10 Dec 2024 03:24:14 GMT"
+    }
+  ],
+  "updateDate": "2024-12-11",
+  "timestamp": 1733801054000,
+  "abstract": "  This paper presents a semi-supervised approach to extracting and analyzing\ncombat phases in judo tournaments using live-streamed footage. The objective is\nto automate the annotation and summarization of live streamed judo matches. We\ntrain models that extract relevant entities and classify combat phases from\nfixed-perspective judo recordings. We employ semi-supervised methods to address\nlimited labeled data in the domain. We build a model of combat phases via\ntransfer learning from a fine-tuned object detector to classify the presence,\nactivity, and standing state of the match. We evaluate our approach on a\ndataset of 19 thirty-second judo clips, achieving an F1 score on a $20\\%$ test\nhold-out of 0.66, 0.78, and 0.87 for the three classes, respectively. Our\nresults show initial promise for automating more complex information retrieval\ntasks using rigorous methods with limited labeled data.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Multimedia"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "Ue_i74mWsiZxTgFJZRAsTbTlHh3q5TXRsAZxroQNSz4",
+  "pdfSize": "914205"
+}

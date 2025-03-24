@@ -1,0 +1,42 @@
+{
+  "id": "2412.05460",
+  "title": "CigTime: Corrective Instruction Generation Through Inverse Motion\n  Editing",
+  "authors": "Qihang Fang and Chengcheng Tang and Bugra Tekin and Yanchao Yang",
+  "authorsParsed": [
+    [
+      "Fang",
+      "Qihang",
+      ""
+    ],
+    [
+      "Tang",
+      "Chengcheng",
+      ""
+    ],
+    [
+      "Tekin",
+      "Bugra",
+      ""
+    ],
+    [
+      "Yang",
+      "Yanchao",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 6 Dec 2024 22:57:36 GMT"
+    }
+  ],
+  "updateDate": "2024-12-10",
+  "timestamp": 1733525856000,
+  "abstract": "  Recent advancements in models linking natural language with human motions\nhave shown significant promise in motion generation and editing based on\ninstructional text. Motivated by applications in sports coaching and motor\nskill learning, we investigate the inverse problem: generating corrective\ninstructional text, leveraging motion editing and generation models. We\nintroduce a novel approach that, given a user's current motion (source) and the\ndesired motion (target), generates text instructions to guide the user towards\nachieving the target motion. We leverage large language models to generate\ncorrective texts and utilize existing motion generation and editing frameworks\nto compile datasets of triplets (source motion, target motion, and corrective\ntext). Using this data, we propose a new motion-language model for generating\ncorrective instructions. We present both qualitative and quantitative results\nacross a diverse range of applications that largely improve upon baselines. Our\napproach demonstrates its effectiveness in instructional scenarios, offering\ntext-based guidance to correct and enhance user performance.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "p5rwSLi0xLmWvLqdv8L4HFFG-QPeLWSOXyaHz_tG6s8",
+  "pdfSize": "3221680"
+}

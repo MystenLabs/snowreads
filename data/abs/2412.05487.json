@@ -1,0 +1,43 @@
+{
+  "id": "2412.05487",
+  "title": "Securing Social Media Against Deepfakes using Identity, Behavioral, and\n  Geometric Signatures",
+  "authors": "Muhammad Umar Farooq, Awais Khan, Ijaz Ul Haq, and Khalid Mahmood\n  Malik",
+  "authorsParsed": [
+    [
+      "Farooq",
+      "Muhammad Umar",
+      ""
+    ],
+    [
+      "Khan",
+      "Awais",
+      ""
+    ],
+    [
+      "Haq",
+      "Ijaz Ul",
+      ""
+    ],
+    [
+      "Malik",
+      "Khalid Mahmood",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 7 Dec 2024 01:17:21 GMT"
+    }
+  ],
+  "updateDate": "2024-12-10",
+  "timestamp": 1733534241000,
+  "abstract": "  Trust in social media is a growing concern due to its ability to influence\nsignificant societal changes. However, this space is increasingly compromised\nby various types of deepfake multimedia, which undermine the authenticity of\nshared content. Although substantial efforts have been made to address the\nchallenge of deepfake content, existing detection techniques face a major\nlimitation in generalization: they tend to perform well only on specific types\nof deepfakes they were trained on.This dependency on recognizing specific\ndeepfake artifacts makes current methods vulnerable when applied to unseen or\nvaried deepfakes, thereby compromising their performance in real-world\napplications such as social media platforms. To address the generalizability of\ndeepfake detection, there is a need for a holistic approach that can capture a\nbroader range of facial attributes and manipulations beyond isolated artifacts.\nTo address this, we propose a novel deepfake detection framework featuring an\neffective feature descriptor that integrates Deep identity, Behavioral, and\nGeometric (DBaG) signatures, along with a classifier named DBaGNet.\nSpecifically, the DBaGNet classifier utilizes the extracted DBaG signatures,\nleveraging a triplet loss objective to enhance generalized representation\nlearning for improved classification. Specifically, the DBaGNet classifier\nutilizes the extracted DBaG signatures and applies a triplet loss objective to\nenhance generalized representation learning for improved classification. To\ntest the effectiveness and generalizability of our proposed approach, we\nconduct extensive experiments using six benchmark deepfake datasets: WLDR,\nCelebDF, DFDC, FaceForensics++, DFD, and NVFAIR. Specifically, to ensure the\neffectiveness of our approach, we perform cross-dataset evaluations, and the\nresults demonstrate significant performance gains over several state-of-the-art\nmethods.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Multimedia"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "dXQqotdEXI4IiY_8y2WO7d1UPacVyjfK20sV8srYCI0",
+  "pdfSize": "8001944"
+}

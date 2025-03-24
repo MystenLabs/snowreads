@@ -1,0 +1,27 @@
+{
+  "id": "2412.10623",
+  "title": "Ares: Approximate Representations via Efficient Sparsification -- A\n  Stateless Approach through Polynomial Homomorphism",
+  "authors": "Dongfang Zhao",
+  "authorsParsed": [
+    [
+      "Zhao",
+      "Dongfang",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 14 Dec 2024 00:05:43 GMT"
+    }
+  ],
+  "updateDate": "2024-12-17",
+  "timestamp": 1734134743000,
+  "abstract": "  The increasing prevalence of high-dimensional data demands efficient and\nscalable compression methods to support modern applications. However, existing\ntechniques like PCA and Autoencoders often rely on auxiliary metadata or\nintricate architectures, limiting their practicality for streaming or infinite\ndatasets. In this paper, we introduce a stateless compression framework that\nleverages polynomial representations to achieve compact, interpretable, and\nscalable data reduction. By eliminating the need for auxiliary data, our method\nsupports direct algebraic operations in the compressed domain while minimizing\nerror growth during computations. Through extensive experiments on synthetic\nand real-world datasets, we show that our approach achieves high compression\nratios without compromising reconstruction accuracy, all while maintaining\nsimplicity and scalability.\n",
+  "subjects": [
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "_Y8MNrWObHyaqqtw3-s29i2nPJ7HU1TI9vzhKfekoG8",
+  "pdfSize": "799074"
+}

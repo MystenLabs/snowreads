@@ -1,0 +1,64 @@
+{
+  "id": "2412.13722",
+  "title": "Data-driven Discovery of Biophysical T Cell Receptor Co-specificity\n  Rules",
+  "authors": "Andrew G.T. Pyo, Yuta Nagano, Martina Milighetti, James Henderson,\n  Curtis G. Callan Jr., Benny Chain, Ned S. Wingreen, Andreas Tiffeau-Mayer",
+  "authorsParsed": [
+    [
+      "Pyo",
+      "Andrew G. T.",
+      ""
+    ],
+    [
+      "Nagano",
+      "Yuta",
+      ""
+    ],
+    [
+      "Milighetti",
+      "Martina",
+      ""
+    ],
+    [
+      "Henderson",
+      "James",
+      ""
+    ],
+    [
+      "Callan",
+      "Curtis G.",
+      "Jr."
+    ],
+    [
+      "Chain",
+      "Benny",
+      ""
+    ],
+    [
+      "Wingreen",
+      "Ned S.",
+      ""
+    ],
+    [
+      "Tiffeau-Mayer",
+      "Andreas",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 18 Dec 2024 11:03:26 GMT"
+    }
+  ],
+  "updateDate": "2024-12-19",
+  "timestamp": 1734519806000,
+  "abstract": "  The biophysical interactions between the T cell receptor (TCR) and its\nligands determine the specificity of the cellular immune response. However, the\nimmense diversity of receptors and ligands has made it challenging to discover\ngeneralizable rules across the distinct binding affinity landscapes created by\ndifferent ligands. Here, we present an optimization framework for discovering\nbiophysical rules that predict whether TCRs share specificity to a ligand.\nApplying this framework to TCRs associated with a collection of SARS-CoV-2\npeptides we establish how co-specificity depends on the type and position of\namino-acid differences between receptors. We also demonstrate that the inferred\nrules generalize to ligands not seen during training. Our analysis reveals that\nmatching of steric properties between substituted amino acids is important for\nreceptor co-specificity, in contrast with the hydrophobic properties that more\nprominently determine evolutionary substitutability. We furthermore find that\npositions not in direct contact with the peptide still significantly impact\nspecificity. These findings highlight the potential for data-driven approaches\nto uncover the molecular mechanisms underpinning the specificity of adaptive\nimmune responses.\n",
+  "subjects": [
+    "Quantitative Biology/Biomolecules",
+    "Computer Science/Machine Learning",
+    "Physics/Biological Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "LdiUniWwSMvdELNX4TlwkKGh0YSX9qinAkB0_WlrgA0",
+  "pdfSize": "3036106"
+}

@@ -1,0 +1,43 @@
+{
+  "id": "2412.06809",
+  "title": "Generating Diverse Synthetic Datasets for Evaluation of Real-life\n  Recommender Systems",
+  "authors": "Miha Malen\\v{s}ek, Bla\\v{z} \\v{S}krlj, Bla\\v{z} Mramor, Jure\n  Dem\\v{s}ar",
+  "authorsParsed": [
+    [
+      "Malenšek",
+      "Miha",
+      ""
+    ],
+    [
+      "Škrlj",
+      "Blaž",
+      ""
+    ],
+    [
+      "Mramor",
+      "Blaž",
+      ""
+    ],
+    [
+      "Demšar",
+      "Jure",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 27 Nov 2024 09:53:14 GMT"
+    }
+  ],
+  "updateDate": "2024-12-11",
+  "timestamp": 1732701194000,
+  "abstract": "  Synthetic datasets are important for evaluating and testing machine learning\nmodels. When evaluating real-life recommender systems, high-dimensional\ncategorical (and sparse) datasets are often considered. Unfortunately, there\nare not many solutions that would allow generation of artificial datasets with\nsuch characteristics. For that purpose, we developed a novel framework for\ngenerating synthetic datasets that are diverse and statistically coherent. Our\nframework allows for creation of datasets with controlled attributes, enabling\niterative modifications to fit specific experimental needs, such as introducing\ncomplex feature interactions, feature cardinality, or specific distributions.\nWe demonstrate the framework's utility through use cases such as benchmarking\nprobabilistic counting algorithms, detecting algorithmic bias, and simulating\nAutoML searches. Unlike existing methods that either focus narrowly on specific\ndataset structures, or prioritize (private) data synthesis through real data,\nour approach provides a modular means to quickly generating completely\nsynthetic datasets we can tailor to diverse experimental requirements. Our\nresults show that the framework effectively isolates model behavior in unique\nsituations and highlights its potential for significant advancements in the\nevaluation and development of recommender systems. The readily-available\nframework is available as a free open Python package to facilitate research\nwith minimal friction.\n",
+  "subjects": [
+    "Computer Science/Information Retrieval",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "yLZMj7Wj1X9W5OVhvvxhwogHqMFwh128UEzSMzgq2jA",
+  "pdfSize": "2066089"
+}

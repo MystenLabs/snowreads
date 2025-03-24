@@ -1,0 +1,54 @@
+{
+  "id": "2412.04885",
+  "title": "Impact of Two-Population $\\alpha$-particle Distributions on Plasma\n  Stability",
+  "authors": "Mihailo M. Martinovi\\'c, Kristopher G. Klein, Rossana De Marco, Daniel\n  Verscharen, Raffaella D'Amicis, Roberto Bruno",
+  "authorsParsed": [
+    [
+      "Martinović",
+      "Mihailo M.",
+      ""
+    ],
+    [
+      "Klein",
+      "Kristopher G.",
+      ""
+    ],
+    [
+      "De Marco",
+      "Rossana",
+      ""
+    ],
+    [
+      "Verscharen",
+      "Daniel",
+      ""
+    ],
+    [
+      "D'Amicis",
+      "Raffaella",
+      ""
+    ],
+    [
+      "Bruno",
+      "Roberto",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 6 Dec 2024 09:29:03 GMT"
+    }
+  ],
+  "updateDate": "2024-12-09",
+  "timestamp": 1733477343000,
+  "abstract": "  The stability of weakly collisional plasmas is well represented by linear\ntheory, and the generated waves play an essential role in the thermodynamics of\nthese systems. The velocity distribution functions (VDF) characterizing kinetic\nparticle behavior are commonly represented as a sum of anisotropic\nbi-Maxwellians. For the majority of in situ observations of solar wind plasmas\nenabled by heliospheric missions, a three bi-Maxwellian model is commonly\napplied for the ions, assuming that the VDF consists of a proton core, proton\nbeam, and a single He ($\\alpha$) particle population, each with their own\ndensity, bulk velocity, and anisotropic temperature. Resolving an $\\alpha$-beam\ncomponent was generally not possible due to instrumental limitations. The Solar\nOrbiter Solar Wind Analyser Proton and Alpha Sensor (SWA PAS) resolves velocity\nspace with sufficient coverage and accuracy to routinely characterize secondary\n$\\alpha$ populations consistently. This design makes the SWA PAS dataset ideal\nfor examining effects of the $\\alpha$-particle beam on the plasma's kinetic\nstability. We test the wave signatures observed in the magnetic field power\nspectrum at ion scales and compare them to the predictions from linear plasma\ntheory, Doppler-shifted into the spacecraft reference frame. We find that\ntaking into account the $\\alpha$-particle beam component is necessary to\npredict the coherent wave signatures in the observed power spectra, emphasizing\nthe importance of separating the $\\alpha$-particle populations as is\ntraditionally done for protons. Moreover, we demonstrate that the drifts of\nbeam components are responsible for the majority of the modes that propagate in\noblique direction to the magnetic field, while their temperature anisotropies\nare the primary source of parallel Fast Magnetosonic Modes in the solar wind.\n",
+  "subjects": [
+    "Astrophysics/Solar and Stellar Astrophysics",
+    "Physics/Plasma Physics",
+    "Physics/Space Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "GEEizecmKShQDvgNU5IlP_fNyyGPV5XQk4dbGJ9sSOA",
+  "pdfSize": "3390167"
+}

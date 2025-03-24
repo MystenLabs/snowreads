@@ -1,0 +1,33 @@
+{
+  "id": "2412.20212",
+  "title": "Building a Rich Dataset to Empower the Persian Question Answering\n  Systems",
+  "authors": "Mohsen Yazdinejad, Marjan Kaedi",
+  "authorsParsed": [
+    [
+      "Yazdinejad",
+      "Mohsen",
+      ""
+    ],
+    [
+      "Kaedi",
+      "Marjan",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 28 Dec 2024 16:53:25 GMT"
+    }
+  ],
+  "updateDate": "2024-12-31",
+  "timestamp": 1735404805000,
+  "abstract": "  Question answering systems provide short, precise, and specific answers to\nquestions. So far, many robust question answering systems have been developed\nfor English, while some languages with fewer resources, like Persian, have few\nnumbers of standard dataset. In this study, a comprehensive open-domain dataset\nis presented for Persian. This dataset is called NextQuAD and has 7,515\ncontexts, including 23,918 questions and answers. Then, a BERT-based question\nanswering model has been applied to this dataset using two pre-trained language\nmodels, including ParsBERT and XLM-RoBERTa. The results of these two models\nhave been ensembled using mean logits. Evaluation on the development set shows\n0.95 Exact Match (EM) and 0.97 Fl_score. Also, to compare the NextQuAD with\nother Persian datasets, our trained model on the NextQuAD, is evaluated on two\nother datasets named PersianQA and ParSQuAD. Comparisons show that the proposed\nmodel increased EM by 0.39 and 0.14 respectively in PersianQA and\nParSQuAD-manual, while a slight EM decline of 0.007 happened in\nParSQuAD-automatic.\n",
+  "subjects": [
+    "Computer Science/Computation and Language",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "rAiKSC4OvdBHT5KrsDJDxbf9fXkyzCPFUN-LojcBV2s",
+  "pdfSize": "576854"
+}

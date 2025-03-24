@@ -1,0 +1,44 @@
+{
+  "id": "2412.10130",
+  "title": "Optimal Bounds for Private Minimum Spanning Trees via Input Perturbation",
+  "authors": "Rasmus Pagh, Lukas Retschmeier, Hao Wu, Hanwen Zhang",
+  "authorsParsed": [
+    [
+      "Pagh",
+      "Rasmus",
+      ""
+    ],
+    [
+      "Retschmeier",
+      "Lukas",
+      ""
+    ],
+    [
+      "Wu",
+      "Hao",
+      ""
+    ],
+    [
+      "Zhang",
+      "Hanwen",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 13 Dec 2024 13:22:39 GMT"
+    }
+  ],
+  "updateDate": "2024-12-16",
+  "timestamp": 1734096159000,
+  "abstract": "  We study the problem of privately releasing an approximate minimum spanning\ntree (MST). Given a graph $G = (V, E, \\vec{W})$ where $V$ is a set of $n$\nvertices, $E$ is a set of $m$ undirected edges, and $ \\vec{W} \\in\n\\mathbb{R}^{|E|} $ is an edge-weight vector, our goal is to publish an\napproximate MST under edge-weight differential privacy, as introduced by\nSealfon in PODS 2016, where $V$ and $E$ are considered public and the weight\nvector is private. Our neighboring relation is $\\ell_\\infty$-distance on\nweights: for a sensitivity parameter $\\Delta_\\infty$, graphs $ G = (V, E,\n\\vec{W}) $ and $ G' = (V, E, \\vec{W}') $ are neighboring if\n$\\|\\vec{W}-\\vec{W}'\\|_\\infty \\leq \\Delta_\\infty$.\n  Existing private MST algorithms face a trade-off, sacrificing either\ncomputational efficiency or accuracy. We show that it is possible to get the\nbest of both worlds: With a suitable random perturbation of the input that does\nnot suffice to make the weight vector private, the result of any non-private\nMST algorithm will be private and achieves a state-of-the-art error guarantee.\n  Furthermore, by establishing a connection to Private Top-k Selection [Steinke\nand Ullman, FOCS '17], we give the first privacy-utility trade-off lower bound\nfor MST under approximate differential privacy, demonstrating that the error\nmagnitude, $\\tilde{O}(n^{3/2})$, is optimal up to logarithmic factors. That is,\nour approach matches the time complexity of any non-private MST algorithm and\nat the same time achieves optimal error. We complement our theoretical\ntreatment with experiments that confirm the practicality of our approach.\n",
+  "subjects": [
+    "Computer Science/Data Structures and Algorithms",
+    "Computer Science/Cryptography and Security",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "tbEKeDMYT76E4-G1kXAcvggkxxL_ctbdZeHvtRYOALs",
+  "pdfSize": "1257020"
+}

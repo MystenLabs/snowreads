@@ -1,0 +1,28 @@
+{
+  "id": "2412.13665",
+  "title": "Time-Reversible Bridges of Data with Machine Learning",
+  "authors": "Ludwig Winkler",
+  "authorsParsed": [
+    [
+      "Winkler",
+      "Ludwig",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 18 Dec 2024 09:47:19 GMT"
+    }
+  ],
+  "updateDate": "2024-12-19",
+  "timestamp": 1734515239000,
+  "abstract": "  The analysis of dynamical systems is a fundamental tool in the natural\nsciences and engineering. It is used to understand the evolution of systems as\nlarge as entire galaxies and as small as individual molecules. With predefined\nconditions on the evolution of dy-namical systems, the underlying differential\nequations have to fulfill specific constraints in time and space. This class of\nproblems is known as boundary value problems. This thesis presents novel\napproaches to learn time-reversible deterministic and stochastic dynamics\nconstrained by initial and final conditions. The dynamics are inferred by\nmachine learning algorithms from observed data, which is in contrast to the\ntraditional approach of solving differential equations by numerical\nintegration. The work in this thesis examines a set of problems of increasing\ndifficulty each of which is concerned with learning a different aspect of the\ndynamics. Initially, we consider learning deterministic dynamics from ground\ntruth solutions which are constrained by deterministic boundary conditions.\nSecondly, we study a boundary value problem in discrete state spaces, where the\nforward dynamics follow a stochastic jump process and the boundary conditions\nare discrete probability distributions. In particular, the stochastic dynamics\nof a specific jump process, the Ehrenfest process, is considered and the\nreverse time dynamics are inferred with machine learning. Finally, we\ninvestigate the problem of inferring the dynamics of a continuous-time\nstochastic process between two probability distributions without any reference\ninformation. Here, we propose a novel criterion to learn time-reversible\ndynamics of two stochastic processes to solve the Schr\\\"odinger Bridge Problem.\n",
+  "subjects": [
+    "Statistics/Machine Learning",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "EgzUnMY-e9k9Yoi9IR00r5lXWjMyXPKHDuVfToOQaK4",
+  "pdfSize": "15058731"
+}

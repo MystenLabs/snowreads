@@ -1,0 +1,37 @@
+{
+  "id": "2412.08561",
+  "title": "An Enhanced Levenberg--Marquardt Method via Gram Reduction",
+  "authors": "Chengchang Liu, Luo Luo, John C.S. Lui",
+  "authorsParsed": [
+    [
+      "Liu",
+      "Chengchang",
+      ""
+    ],
+    [
+      "Luo",
+      "Luo",
+      ""
+    ],
+    [
+      "Lui",
+      "John C. S.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 11 Dec 2024 17:27:30 GMT"
+    }
+  ],
+  "updateDate": "2024-12-12",
+  "timestamp": 1733938050000,
+  "abstract": "  This paper studied the problem of solving the system of nonlinear equations\n${\\bf F}({\\bf x})={\\bf 0}$, where ${\\bf F}:{\\mathbb R}^{d}\\to{\\mathbb R}^d$. We\npropose Gram-Reduced Levenberg--Marquardt method which updates the Gram matrix\n${\\bf J}(\\cdot)^\\top{\\bf J}(\\cdot)$ in every $m$ iterations, where ${\\bf\nJ}(\\cdot)$ is the Jacobian of ${\\bf F}(\\cdot)$. Our method has a global\nconvergence guarantee without relying on any step of line-search or solving\nsub-problems. We prove our method takes at most\n$\\mathcal{O}(m^2+m^{-0.5}\\epsilon^{-2.5})$ iterations to find an\n$\\epsilon$-stationary point of $\\frac{1}{2}\\|{\\bf F}(\\cdot)\\|^2$, which leads\nto overall computation cost of $\\mathcal{O}(d^3\\epsilon^{-1}+d^2\\epsilon^{-2})$\nby taking $m=\\Theta(\\epsilon^{-1})$. Our results are strictly better than the\ncost of $\\mathcal{O}(d^3\\epsilon^{-2})$ for existing Levenberg--Marquardt\nmethods. We also show the proposed method enjoys local superlinear convergence\nrate under the non-degenerate assumption. We provide experiments on real-world\napplications in scientific computing and machine learning to validate the\nefficiency of the proposed methods.\n",
+  "subjects": [
+    "Mathematics/Optimization and Control"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "uF_tn1TQmE3Vg59gfQ1802LLzV-9NrhABD-4AJyksbc",
+  "pdfSize": "774083"
+}

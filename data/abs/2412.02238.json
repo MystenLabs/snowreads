@@ -1,0 +1,44 @@
+{
+  "id": "2412.02238",
+  "title": "Exponential Stabilization of Linear Systems using Nearest-Action Control\n  with Countable Input Set",
+  "authors": "Muhammad Zaki Almuzakki, Bayu Jayawardhana, Aneel Tanwani, Antonis I.\n  Vakis",
+  "authorsParsed": [
+    [
+      "Almuzakki",
+      "Muhammad Zaki",
+      ""
+    ],
+    [
+      "Jayawardhana",
+      "Bayu",
+      ""
+    ],
+    [
+      "Tanwani",
+      "Aneel",
+      ""
+    ],
+    [
+      "Vakis",
+      "Antonis I.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 3 Dec 2024 08:06:05 GMT"
+    }
+  ],
+  "updateDate": "2024-12-04",
+  "timestamp": 1733213165000,
+  "abstract": "  This paper studies stabilization of linear time-invariant (LTI) systems when\ncontrol actions can only be realized in finitely many directions where it is\npossible to actuate uniformly or logarithmically extended positive scaling\nfactors in each direction. Furthermore, a nearest-action selection approach is\nused to map the continuous measurements to a realizable action where we show\nthat the approach satisfies a weak sector condition for multiple-input\nmultiple-output (MIMO) systems. Using the notion of input-to-state stability,\nunder some assumptions imposed on the transfer function of the system, we show\nthat the closed-loop system converges to the target ball exponentially fast.\nMoreover, when logarithmic extension for the scaling factors is realizable, the\nclosed-loop system is able to achieve asymptotic stability instead of only\npractical stability. Finally, we present an example of the application that\nconfirms our analysis.\n",
+  "subjects": [
+    "Mathematics/Optimization and Control",
+    "Computer Science/Systems and Control",
+    "Electrical Engineering and Systems Science/Systems and Control"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "g_bkwAF2x5FVHh6Fb3NHWwqqDvmkkATD0XPeZkLXI_0",
+  "pdfSize": "702706"
+}

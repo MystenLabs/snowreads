@@ -1,0 +1,57 @@
+{
+  "id": "2412.15918",
+  "title": "Immersive In Situ Visualizations for Monitoring Architectural-Scale\n  Multiuser MR Experiences",
+  "authors": "Zhongyuan Yu, Daniel Zeidler, Krishnan Chandran, Lars Engeln, Kelsang\n  Mende, Matthew McGinity",
+  "authorsParsed": [
+    [
+      "Yu",
+      "Zhongyuan",
+      ""
+    ],
+    [
+      "Zeidler",
+      "Daniel",
+      ""
+    ],
+    [
+      "Chandran",
+      "Krishnan",
+      ""
+    ],
+    [
+      "Engeln",
+      "Lars",
+      ""
+    ],
+    [
+      "Mende",
+      "Kelsang",
+      ""
+    ],
+    [
+      "McGinity",
+      "Matthew",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 20 Dec 2024 14:11:38 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Sun, 5 Jan 2025 17:38:00 GMT"
+    }
+  ],
+  "updateDate": "2025-01-07",
+  "timestamp": 1734703898000,
+  "abstract": "  Mixed reality (MR) environments provide great value in displaying 3D virtual\ncontent. Systems facilitating co-located multiuser MR (Co-MUMR) experiences\nallow multiple users to co-present in a shared immersive virtual environment\nwith natural locomotion. They can be used to support a broad spectrum of\napplications such as immersive presentations, public exhibitions, psychological\nexperiments, etc. However, based on our experiences in delivering Co-MUMR\nexperiences in large architectures and our reflections, we noticed that the\ncrucial challenge for hosts to ensure the quality of experience is their lack\nof insight into the real-time information regarding visitor engagement, device\nperformance, and system events. This work facilitates the display of such\ninformation by introducing immersive in situ visualizations.\n",
+  "subjects": [
+    "Computer Science/Human-Computer Interaction",
+    "Computer Science/Graphics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "FxGH1BxdYc49BIiWtrPps2ve5OQu9OBh9INIvxo8tbA",
+  "pdfSize": "6245690"
+}

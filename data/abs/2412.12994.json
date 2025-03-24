@@ -1,0 +1,35 @@
+{
+  "id": "2412.12994",
+  "title": "Model agnostic signal encoding by leaky integrate and fire, performance\n  and uncertainty",
+  "authors": "Diana Carbajal and Jos\\'e Luis Romero",
+  "authorsParsed": [
+    [
+      "Carbajal",
+      "Diana",
+      ""
+    ],
+    [
+      "Romero",
+      "José Luis",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 17 Dec 2024 15:14:52 GMT"
+    }
+  ],
+  "updateDate": "2024-12-18",
+  "timestamp": 1734448492000,
+  "abstract": "  Integrate and fire is a resource efficient time-encoding mechanism that\nsummarizes into a signed spike train those time intervals where a signal's\ncharge exceeds a certain threshold. We analyze the IF encoder in terms of a\nvery general notion of approximate bandwidth, which is shared by most\ncommonly-used signal models. This complements results on exact encoding that\nmay be overly adapted to a particular signal model. We take into account,\npossibly for the first time, the effect of uncertainty in the exact location of\nthe spikes (as may arise by decimation), uncertainty of integration leakage (as\nmay arise in realistic manufacturing), and boundary effects inherent to finite\nperiods of exposure to the measurement device. The analysis is done by means of\na concrete bandwidth-based Ansatz that can also be useful to initialize more\nsophisticated model specific reconstruction algorithms, and uses the earth\nmover's (Wassertein) distance to measure spike discrepancy.\n",
+  "subjects": [
+    "Mathematics/Functional Analysis",
+    "Computer Science/Information Theory",
+    "Mathematics/Classical Analysis and ODEs",
+    "Mathematics/Information Theory"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "41VtjTJ8qEIAqv9tsLnz6_1tJo6HlDmMj30_z5HN6io",
+  "pdfSize": "1213523"
+}

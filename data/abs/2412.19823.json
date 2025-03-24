@@ -1,0 +1,89 @@
+{
+  "id": "2412.19823",
+  "title": "A Survey on Large Language Models for Communication, Network, and\n  Service Management: Application Insights, Challenges, and Future Directions",
+  "authors": "Gordon Owusu Boateng, Hani Sami, Ahmed Alagha, Hanae Elmekki, Ahmad\n  Hammoud, Rabeb Mizouni, Azzam Mourad, Hadi Otrok, Jamal Bentahar, Sami\n  Muhaidat, Chamseddine Talhi, Zbigniew Dziong, Mohsen Guizani",
+  "authorsParsed": [
+    [
+      "Boateng",
+      "Gordon Owusu",
+      ""
+    ],
+    [
+      "Sami",
+      "Hani",
+      ""
+    ],
+    [
+      "Alagha",
+      "Ahmed",
+      ""
+    ],
+    [
+      "Elmekki",
+      "Hanae",
+      ""
+    ],
+    [
+      "Hammoud",
+      "Ahmad",
+      ""
+    ],
+    [
+      "Mizouni",
+      "Rabeb",
+      ""
+    ],
+    [
+      "Mourad",
+      "Azzam",
+      ""
+    ],
+    [
+      "Otrok",
+      "Hadi",
+      ""
+    ],
+    [
+      "Bentahar",
+      "Jamal",
+      ""
+    ],
+    [
+      "Muhaidat",
+      "Sami",
+      ""
+    ],
+    [
+      "Talhi",
+      "Chamseddine",
+      ""
+    ],
+    [
+      "Dziong",
+      "Zbigniew",
+      ""
+    ],
+    [
+      "Guizani",
+      "Mohsen",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 16 Dec 2024 20:01:36 GMT"
+    }
+  ],
+  "updateDate": "2024-12-31",
+  "timestamp": 1734379296000,
+  "abstract": "  The rapid evolution of communication networks in recent decades has\nintensified the need for advanced Network and Service Management (NSM)\nstrategies to address the growing demands for efficiency, scalability, enhanced\nperformance, and reliability of these networks. Large Language Models (LLMs)\nhave received tremendous attention due to their unparalleled capabilities in\nvarious Natural Language Processing (NLP) tasks and generating context-aware\ninsights, offering transformative potential for automating diverse\ncommunication NSM tasks. Contrasting existing surveys that consider a single\nnetwork domain, this survey investigates the integration of LLMs across\ndifferent communication network domains, including mobile networks and related\ntechnologies, vehicular networks, cloud-based networks, and fog/edge-based\nnetworks. First, the survey provides foundational knowledge of LLMs, explicitly\ndetailing the generic transformer architecture, general-purpose and\ndomain-specific LLMs, LLM model pre-training and fine-tuning, and their\nrelation to communication NSM. Under a novel taxonomy of network monitoring and\nreporting, AI-powered network planning, network deployment and distribution,\nand continuous network support, we extensively categorize LLM applications for\nNSM tasks in each of the different network domains, exploring existing\nliterature and their contributions thus far. Then, we identify existing\nchallenges and open issues, as well as future research directions for\nLLM-driven communication NSM, emphasizing the need for scalable, adaptable, and\nresource-efficient solutions that align with the dynamic landscape of\ncommunication networks. We envision that this survey serves as a holistic\nroadmap, providing critical insights for leveraging LLMs to enhance NSM.\n",
+  "subjects": [
+    "Computer Science/Networking and Internet Architecture",
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "Jg7OGzeWzl8Yl_0miDp-CoVHkkRuY9Q1wQmF_e8KUAU",
+  "pdfSize": "12676443"
+}

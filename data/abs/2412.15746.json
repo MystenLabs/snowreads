@@ -1,0 +1,37 @@
+{
+  "id": "2412.15746",
+  "title": "On the integrability of the supremum of stochastic volatility models and\n  other martingales",
+  "authors": "Stefan Gerhold, Julian Pachschw\\\"oll, Johannes Ruf",
+  "authorsParsed": [
+    [
+      "Gerhold",
+      "Stefan",
+      ""
+    ],
+    [
+      "Pachschwöll",
+      "Julian",
+      ""
+    ],
+    [
+      "Ruf",
+      "Johannes",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 20 Dec 2024 10:06:23 GMT"
+    }
+  ],
+  "updateDate": "2024-12-23",
+  "timestamp": 1734689183000,
+  "abstract": "  We propose a method to determine the expectation of the supremum of the price\nprocess in stochastic volatility models. It can be applied to the rough Bergomi\nmodel, avoiding the need to discuss finiteness of higher moments. Our\nmotivation stems from the theory of American option pricing, as an integrable\nsupremum implies the existence of an optimal stopping time for any linearly\nbounded payoff. Moreover, we survey the literature on martingales with\nnon-integrable supremum, and give a new construction that yields uniformly\nintegrable martingales with this property.\n",
+  "subjects": [
+    "Mathematics/Probability"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "EHMmUFceROSIbluFciJ5sgn8aI5Vgjhtu_rjMifNNuc",
+  "pdfSize": "256557"
+}

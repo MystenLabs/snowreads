@@ -1,0 +1,38 @@
+{
+  "id": "2412.15292",
+  "title": "Deep reinforcement learning with time-scale invariant memory",
+  "authors": "Md Rysul Kabir, James Mochizuki-Freeman, Zoran Tiganj",
+  "authorsParsed": [
+    [
+      "Kabir",
+      "Md Rysul",
+      ""
+    ],
+    [
+      "Mochizuki-Freeman",
+      "James",
+      ""
+    ],
+    [
+      "Tiganj",
+      "Zoran",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 19 Dec 2024 07:20:03 GMT"
+    }
+  ],
+  "updateDate": "2024-12-23",
+  "timestamp": 1734592803000,
+  "abstract": "  The ability to estimate temporal relationships is critical for both animals\nand artificial agents. Cognitive science and neuroscience provide remarkable\ninsights into behavioral and neural aspects of temporal credit assignment. In\nparticular, scale invariance of learning dynamics, observed in behavior and\nsupported by neural data, is one of the key principles that governs animal\nperception: proportional rescaling of temporal relationships does not alter the\noverall learning efficiency. Here we integrate a computational neuroscience\nmodel of scale invariant memory into deep reinforcement learning (RL) agents.\nWe first provide a theoretical analysis and then demonstrate through\nexperiments that such agents can learn robustly across a wide range of temporal\nscales, unlike agents built with commonly used recurrent memory architectures\nsuch as LSTM. This result illustrates that incorporating computational\nprinciples from neuroscience and cognitive science into deep neural networks\ncan enhance adaptability to complex temporal dynamics, mirroring some of the\ncore properties of human learning.\n",
+  "subjects": [
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "MAEoCcVcTm8uSV-gPho3v7HS_-soVza8VjFZoU7Crbk",
+  "pdfSize": "14186765"
+}

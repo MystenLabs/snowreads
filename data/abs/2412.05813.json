@@ -1,0 +1,37 @@
+{
+  "id": "2412.05813",
+  "title": "Risk factor identification and classification of malnutrition among\n  under-five children in Bangladesh: Machine learning and statistical approach",
+  "authors": "Tasfin Mahmud, Tayab Uddin Wara, Chironjeet Das Joy",
+  "authorsParsed": [
+    [
+      "Mahmud",
+      "Tasfin",
+      ""
+    ],
+    [
+      "Wara",
+      "Tayab Uddin",
+      ""
+    ],
+    [
+      "Joy",
+      "Chironjeet Das",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 8 Dec 2024 04:50:23 GMT"
+    }
+  ],
+  "updateDate": "2024-12-10",
+  "timestamp": 1733633423000,
+  "abstract": "  This study aims to understand the factors that resulted in under-five\nchildren's malnutrition from the Multiple Indicator Cluster (MICS-2019)\nnationwide surveys and classify different malnutrition stages based on the four\nwell-established machine learning algorithms, namely - Decision Tree (DT),\nRandom Forest (RF), Support Vector Machine (SVM), and Multi-layer Perceptron\n(MLP) neural network. Accuracy, precision, recall, and F1 scores are obtained\nto evaluate the performance of each model. The statistical Pearson correlation\ncoefficient analysis is also done to understand the significant factors related\nto a child's malnutrition. The eligible data sample for analysis was 21,858\namong 24,686 samples from the dataset. Satisfactory and insightful results were\nobtained in each case and, the RF and MLP performed extraordinarily well. For\nRF, the accuracy was 98.55%, average precision 98.3%, recall value 95.68%, and\nF1 score 97.13%. For MLP, the accuracy was 98.69%, average precision 97.62%,\nrecall 90.96%, and F1 score of 97.39%. From the Pearson co-efficient, all\nnegative correlation results are enlisted, and the most significant impacts are\nfound for the WAZ2 (Weight for age Z score WHO) (-0.828\"), WHZ2 (Weight for\nheight Z score WHO) (-0.706\"), ZBMI (BMI Z score WHO) (-0.656\"), BD3 (whether\nchild is still being breastfed) (-0.59\"), HAZ2 (Height for age Z score WHO)\n(-0.452\"), CA1 (whether child had diarrhea in last 2 weeks) (-0.34\"), Windex5\n(Wealth index quantile) (-0.161\"), melevel (Mother's education) (-0.132\"), and\nCA14/CA16/CA17 (whether child had illness with fever, cough, and breathing)\n(-0.04) in successive order.\n",
+  "subjects": [
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "1VEtBSySuWUJuo2jpkUO_dEa1xgfowKFcEY1IT_ioZ4",
+  "pdfSize": "2128752"
+}

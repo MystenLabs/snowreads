@@ -1,0 +1,27 @@
+{
+  "id": "2412.08532",
+  "title": "Bounding Large-Scale Bell Inequalities",
+  "authors": "Luke Mortimer",
+  "authorsParsed": [
+    [
+      "Mortimer",
+      "Luke",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 11 Dec 2024 16:45:15 GMT"
+    }
+  ],
+  "updateDate": "2024-12-12",
+  "timestamp": 1733935515000,
+  "abstract": "  Bell inequalities are an important tool for studying non-locality, however\nquickly become computationally intractable as the system size grows. We\nconsider a novel method for finding an upper bound for the quantum violation of\nsuch inequalities by combining the NPA hierarchy, the method of alternating\nprojections, and the memory-efficient optimisation algorithm L-BFGS. Whilst our\nmethod may not give the tightest upper bound possible, it often does so several\norders of magnitude faster than state-of-the-art solvers, with minimal memory\nusage, thus allowing solutions to problems that would otherwise be intractable.\nWe benchmark using the well-studied I3322 inequality as well as a more general\nlarge-scale randomized inequality RXX22. For randomized inequalities with 130\ninputs either side (a first-level moment matrix of size 261x261), our method is\n~100x faster than both MOSEK and SCS whilst giving a bound only ~2% above the\noptimum.\n",
+  "subjects": [
+    "Physics/Quantum Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "yrzgsix-nkg7PCiYNe7Nb6GyL4CgXRfA9ayspD-fhtY",
+  "pdfSize": "557910"
+}

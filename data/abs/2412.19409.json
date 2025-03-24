@@ -1,0 +1,42 @@
+{
+  "id": "2412.19409",
+  "title": "Efficient Feature Mapping Using a Collaborative Team of AUVs",
+  "authors": "Benjamin Biggs and Daniel J. Stilwell and Harun Yetkin and James\n  McMahon",
+  "authorsParsed": [
+    [
+      "Biggs",
+      "Benjamin",
+      ""
+    ],
+    [
+      "Stilwell",
+      "Daniel J.",
+      ""
+    ],
+    [
+      "Yetkin",
+      "Harun",
+      ""
+    ],
+    [
+      "McMahon",
+      "James",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 27 Dec 2024 02:22:52 GMT"
+    }
+  ],
+  "updateDate": "2024-12-30",
+  "timestamp": 1735266172000,
+  "abstract": "  We present the results of experiments performed using a team of small\nautonomous underwater vehicles (AUVs) to determine the location of an isobath.\nThe primary contributions of this work are (1) the development of a novel\nobjective function for level set estimation that utilizes a rigorous assessment\nof uncertainty, and (2) a description of the practical challenges and\ncorresponding solutions needed to implement our approach in the field using a\nteam of AUVs. We combine path planning techniques and an approach to\ndecentralization from prior work that yields theoretical performance\nguarantees. Experimentation with a team of AUVs provides empirical evidence\nthat the desirable performance guarantees can be preserved in practice even in\nthe presence of limitations that commonly arise in underwater robotics,\nincluding slow and intermittent acoustic communications and limited\ncomputational resources.\n",
+  "subjects": [
+    "Computer Science/Robotics"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "meeaV013IyJzuq9iu9MRpWHz6tV8O9-Z9bPlyPJ5qZQ",
+  "pdfSize": "2605364"
+}

@@ -1,0 +1,51 @@
+{
+  "id": "2412.15264",
+  "title": "ReXTrust: A Model for Fine-Grained Hallucination Detection in\n  AI-Generated Radiology Reports",
+  "authors": "Romain Hardy, Sung Eun Kim, Du Hyun Ro, Pranav Rajpurkar",
+  "authorsParsed": [
+    [
+      "Hardy",
+      "Romain",
+      ""
+    ],
+    [
+      "Kim",
+      "Sung Eun",
+      ""
+    ],
+    [
+      "Ro",
+      "Du Hyun",
+      ""
+    ],
+    [
+      "Rajpurkar",
+      "Pranav",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 17 Dec 2024 02:07:33 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Mon, 30 Dec 2024 16:56:25 GMT"
+    },
+    {
+      "version": "v3",
+      "created": "Fri, 31 Jan 2025 03:15:34 GMT"
+    }
+  ],
+  "updateDate": "2025-02-03",
+  "timestamp": 1734401253000,
+  "abstract": "  The increasing adoption of AI-generated radiology reports necessitates robust\nmethods for detecting hallucinations--false or unfounded statements that could\nimpact patient care. We present ReXTrust, a novel framework for fine-grained\nhallucination detection in AI-generated radiology reports. Our approach\nleverages sequences of hidden states from large vision-language models to\nproduce finding-level hallucination risk scores. We evaluate ReXTrust on a\nsubset of the MIMIC-CXR dataset and demonstrate superior performance compared\nto existing approaches, achieving an AUROC of 0.8751 across all findings and\n0.8963 on clinically significant findings. Our results show that white-box\napproaches leveraging model hidden states can provide reliable hallucination\ndetection for medical AI systems, potentially improving the safety and\nreliability of automated radiology reporting.\n",
+  "subjects": [
+    "Computer Science/Computation and Language",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "h4grhR-b2nip4GS70mUmIZKRuCSyzBdKMOVoEOLEC5w",
+  "pdfSize": "1069103"
+}

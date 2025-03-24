@@ -1,0 +1,34 @@
+{
+  "id": "2412.02965",
+  "title": "Invariant Reduction for Partial Differential Equations. I: Conservation\n  Laws and Systems with Two Independent Variables",
+  "authors": "Kostya Druzhkov, Alexei Cheviakov",
+  "authorsParsed": [
+    [
+      "Druzhkov",
+      "Kostya",
+      ""
+    ],
+    [
+      "Cheviakov",
+      "Alexei",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 4 Dec 2024 02:24:07 GMT"
+    }
+  ],
+  "updateDate": "2024-12-05",
+  "timestamp": 1733279047000,
+  "abstract": "  For a system of partial differential equations that has an extended\nKovalevskaya form, a reduction procedure is presented that allows one to use a\nlocal (point, contact, or higher) symmetry of a system and a symmetry-invariant\nconservation law to algorithmically calculate constants of motion holding for\nsymmetry-invariant solutions. Several examples including cases of point and\nhigher symmetry invariance are presented and discussed. An implementation of\nthe algorithm in Maple is provided.\n",
+  "subjects": [
+    "Nonlinear Sciences/Exactly Solvable and Integrable Systems",
+    "Physics/Mathematical Physics",
+    "Mathematics/Mathematical Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "rgJEls9Z-K9b33_LxAFJUTBj_y-5MRLB4qBWAmpXyiQ",
+  "pdfSize": "240482"
+}

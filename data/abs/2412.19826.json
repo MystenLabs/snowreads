@@ -1,0 +1,33 @@
+{
+  "id": "2412.19826",
+  "title": "Modular probabilistic programming with algebraic effects (MSc Thesis\n  2019)",
+  "authors": "Oliver Goldstein, Ohad Kammar",
+  "authorsParsed": [
+    [
+      "Goldstein",
+      "Oliver",
+      ""
+    ],
+    [
+      "Kammar",
+      "Ohad",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 18 Dec 2024 15:05:00 GMT"
+    }
+  ],
+  "updateDate": "2024-12-31",
+  "timestamp": 1734534300000,
+  "abstract": "  Probabilistic programming languages, which exist in abundance, are languages\nthat allow users to calculate probability distributions defined by\nprobabilistic programs, by using inference algorithms. However, the underlying\ninference algorithms are not implemented in a modular fashion, though, the\nalgorithms are presented as a composition of other inference components. This\ndiscordance between the theory and the practice of Bayesian machine learning,\nmeans that reasoning about the correctness of probabilistic programs is more\ndifficult, and composing inference algorithms together in code may not\nnecessarily produce correct compound inference algorithms. In this\ndissertation, I create a modular probabilistic programming library, already a\nnice property as its not a standalone language, called Koka Bayes, that is\nbased off of both the modular design of Monad Bayes -- a probabilistic\nprogramming library developed in Haskell -- and its semantic validation. The\nlibrary is embedded in a recently created programming language, Koka, that\nsupports algebraic effect handlers and expressive effect types -- novel\nprogramming abstractions that support modular programming. Effects are\ngeneralizations of computational side-effects, and it turns out that\nfundamental operations in probabilistic programming such as probabilistic\nchoice and conditioning are instances of effects.\n",
+  "subjects": [
+    "Computer Science/Programming Languages",
+    "Statistics/Computation"
+  ],
+  "license": "http://creativecommons.org/licenses/by-sa/4.0/",
+  "blobId": "CJ6e_F5lvLeUrmcD40sJi8g-MpLcfHgU04NG6-KRxLE",
+  "pdfSize": "10730474"
+}

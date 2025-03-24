@@ -1,0 +1,108 @@
+{
+  "id": "2412.10288",
+  "title": "Performance evaluation of predictive AI models to support medical\n  decisions: Overview and guidance",
+  "authors": "Ben Van Calster, Gary S. Collins, Andrew J. Vickers, Laure Wynants,\n  Kathleen F. Kerr, Lasai Barre\\~nada, Gael Varoquaux, Karandeep Singh, Karel\n  G. M. Moons, Tina Hernandez-boussard, Dirk Timmerman, David J. Mclernon,\n  Maarten Van Smeden, Ewout W. Steyerberg (topic group 6 of the STRATOS\n  initiative)",
+  "authorsParsed": [
+    [
+      "Van Calster",
+      "Ben",
+      "",
+      "topic group 6 of the STRATOS\n  initiative"
+    ],
+    [
+      "Collins",
+      "Gary S.",
+      "",
+      "topic group 6 of the STRATOS\n  initiative"
+    ],
+    [
+      "Vickers",
+      "Andrew J.",
+      "",
+      "topic group 6 of the STRATOS\n  initiative"
+    ],
+    [
+      "Wynants",
+      "Laure",
+      "",
+      "topic group 6 of the STRATOS\n  initiative"
+    ],
+    [
+      "Kerr",
+      "Kathleen F.",
+      "",
+      "topic group 6 of the STRATOS\n  initiative"
+    ],
+    [
+      "Barreñada",
+      "Lasai",
+      "",
+      "topic group 6 of the STRATOS\n  initiative"
+    ],
+    [
+      "Varoquaux",
+      "Gael",
+      "",
+      "topic group 6 of the STRATOS\n  initiative"
+    ],
+    [
+      "Singh",
+      "Karandeep",
+      "",
+      "topic group 6 of the STRATOS\n  initiative"
+    ],
+    [
+      "Moons",
+      "Karel G. M.",
+      "",
+      "topic group 6 of the STRATOS\n  initiative"
+    ],
+    [
+      "Hernandez-boussard",
+      "Tina",
+      "",
+      "topic group 6 of the STRATOS\n  initiative"
+    ],
+    [
+      "Timmerman",
+      "Dirk",
+      "",
+      "topic group 6 of the STRATOS\n  initiative"
+    ],
+    [
+      "Mclernon",
+      "David J.",
+      "",
+      "topic group 6 of the STRATOS\n  initiative"
+    ],
+    [
+      "Van Smeden",
+      "Maarten",
+      "",
+      "topic group 6 of the STRATOS\n  initiative"
+    ],
+    [
+      "Steyerberg",
+      "Ewout W.",
+      "",
+      "topic group 6 of the STRATOS\n  initiative"
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 13 Dec 2024 17:11:47 GMT"
+    }
+  ],
+  "updateDate": "2024-12-16",
+  "timestamp": 1734109907000,
+  "abstract": "  A myriad of measures to illustrate performance of predictive artificial\nintelligence (AI) models have been proposed in the literature. Selecting\nappropriate performance measures is essential for predictive AI models that are\ndeveloped to be used in medical practice, because poorly performing models may\nharm patients and lead to increased costs. We aim to assess the merits of\nclassic and contemporary performance measures when validating predictive AI\nmodels for use in medical practice. We focus on models with a binary outcome.\nWe discuss 32 performance measures covering five performance domains\n(discrimination, calibration, overall, classification, and clinical utility)\nalong with accompanying graphical assessments. The first four domains cover\nstatistical performance, the fifth domain covers decision-analytic performance.\nWe explain why two key characteristics are important when selecting which\nperformance measures to assess: (1) whether the measure's expected value is\noptimized when it is calculated using the correct probabilities (i.e., a\n\"proper\" measure), and (2) whether they reflect either purely statistical\nperformance or decision-analytic performance by properly considering\nmisclassification costs. Seventeen measures exhibit both characteristics,\nfourteen measures exhibited one characteristic, and one measure possessed\nneither characteristic (the F1 measure). All classification measures (such as\nclassification accuracy and F1) are improper for clinically relevant decision\nthresholds other than 0.5 or the prevalence. We recommend the following\nmeasures and plots as essential to report: AUROC, calibration plot, a clinical\nutility measure such as net benefit with decision curve analysis, and a plot\nwith probability distributions per outcome category.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Statistics/Methodology",
+    "Statistics/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "uu_Vf3-y4lK-ckEB2IRwkDQXs3h7fhe0QS2mJ30knDk",
+  "pdfSize": "2731551"
+}

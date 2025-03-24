@@ -1,0 +1,32 @@
+{
+  "id": "2412.01725",
+  "title": "Attacks on multimodal models",
+  "authors": "Viacheslav Iablochnikov, Alexander Rogachev",
+  "authorsParsed": [
+    [
+      "Iablochnikov",
+      "Viacheslav",
+      ""
+    ],
+    [
+      "Rogachev",
+      "Alexander",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 2 Dec 2024 17:15:59 GMT"
+    }
+  ],
+  "updateDate": "2024-12-03",
+  "timestamp": 1733159759000,
+  "abstract": "  Today, models capable of working with various modalities simultaneously in a\nchat format are gaining increasing popularity. Despite this, there is an issue\nof potential attacks on these models, especially considering that many of them\ninclude open-source components. It is important to study whether the\nvulnerabilities of these components are inherited and how dangerous this can be\nwhen using such models in the industry. This work is dedicated to researching\nvarious types of attacks on such models and evaluating their generalization\ncapabilities. Modern VLM models (LLaVA, BLIP, etc.) often use pre-trained parts\nfrom other models, so the main part of this research focuses on them,\nspecifically on the CLIP architecture and its image encoder (CLIP-ViT) and\nvarious patch attack variations for it.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "dztTbt7e0AO-5HumwGdJkk9yM1l8G1KrOo78OHmOMLY",
+  "pdfSize": "2003641"
+}

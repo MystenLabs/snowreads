@@ -1,0 +1,90 @@
+{
+  "id": "2412.20498",
+  "title": "Regulating radiology AI medical devices that evolve in their lifecycle",
+  "authors": "Camila Gonz\\'alez, Moritz Fuchs, Daniel Pinto dos Santos, Philipp\n  Matthies, Manuel Trenz, Maximilian Gr\\\"uning, Akshay Chaudhari, David B.\n  Larson, Ahmed Othman, Moon Kim, Felix Nensa, Anirban Mukhopadhyay",
+  "authorsParsed": [
+    [
+      "González",
+      "Camila",
+      ""
+    ],
+    [
+      "Fuchs",
+      "Moritz",
+      ""
+    ],
+    [
+      "Santos",
+      "Daniel Pinto dos",
+      ""
+    ],
+    [
+      "Matthies",
+      "Philipp",
+      ""
+    ],
+    [
+      "Trenz",
+      "Manuel",
+      ""
+    ],
+    [
+      "Grüning",
+      "Maximilian",
+      ""
+    ],
+    [
+      "Chaudhari",
+      "Akshay",
+      ""
+    ],
+    [
+      "Larson",
+      "David B.",
+      ""
+    ],
+    [
+      "Othman",
+      "Ahmed",
+      ""
+    ],
+    [
+      "Kim",
+      "Moon",
+      ""
+    ],
+    [
+      "Nensa",
+      "Felix",
+      ""
+    ],
+    [
+      "Mukhopadhyay",
+      "Anirban",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 29 Dec 2024 15:28:26 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Fri, 3 Jan 2025 19:53:02 GMT"
+    },
+    {
+      "version": "v3",
+      "created": "Thu, 30 Jan 2025 23:58:37 GMT"
+    }
+  ],
+  "updateDate": "2025-02-03",
+  "timestamp": 1735486106000,
+  "abstract": "  Over time, the distribution of medical image data drifts due to factors such\nas shifts in patient demographics, acquisition devices, and disease\nmanifestations. While human radiologists can adjust their expertise to\naccommodate such variations, deep learning models cannot. In fact, such models\nare highly susceptible to even slight variations in image characteristics.\nConsequently, manufacturers must conduct regular updates to ensure that they\nremain safe and effective. Performing such updates in the United States and\nEuropean Union required, until recently, obtaining re-approval. Given the time\nand financial burdens associated with these processes, updates were infrequent,\nand obsolete systems remained in operation for too long. During 2024, several\nregulatory developments promised to streamline the safe rollout of model\nupdates: The European Artificial Intelligence Act came into effect last August,\nand the Food and Drug Administration (FDA) issued final marketing submission\nrecommendations for a Predetermined Change Control Plan (PCCP) in December. We\nprovide an overview of these developments and outline the key building blocks\nnecessary for successfully deploying dynamic systems. At the heart of these\nregulations - and as prerequisites for manufacturers to conduct model updates\nwithout re-approval - are clear descriptions of data collection and re-training\nprocesses, coupled with robust real-world quality monitoring mechanisms.\n",
+  "subjects": [
+    "Computer Science/Computers and Society"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "u3kov2HaImHWBOSNCEkv5SgOsUHoMynk0QK_LpfvkY8",
+  "pdfSize": "475159"
+}

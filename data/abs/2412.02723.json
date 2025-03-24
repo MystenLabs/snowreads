@@ -1,0 +1,43 @@
+{
+  "id": "2412.02723",
+  "title": "DYffCast: Regional Precipitation Nowcasting Using IMERG Satellite Data.\n  A case study over South America",
+  "authors": "Daniel Seal, Rossella Arcucci, Salva R\\\"uhling-Cachay, C\\'esar\n  Quilodr\\'an-Casas",
+  "authorsParsed": [
+    [
+      "Seal",
+      "Daniel",
+      ""
+    ],
+    [
+      "Arcucci",
+      "Rossella",
+      ""
+    ],
+    [
+      "Rühling-Cachay",
+      "Salva",
+      ""
+    ],
+    [
+      "Quilodrán-Casas",
+      "César",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 2 Dec 2024 22:20:31 GMT"
+    }
+  ],
+  "updateDate": "2024-12-05",
+  "timestamp": 1733178031000,
+  "abstract": "  Climate change is increasing the frequency of extreme precipitation events,\nmaking weather disasters such as flooding and landslides more likely. The\nability to accurately nowcast precipitation is therefore becoming more critical\nfor safeguarding society by providing immediate, accurate information to\ndecision makers. Motivated by the recent success of generative models at\nprecipitation nowcasting, this paper: extends the DYffusion framework to this\ntask and evaluates its performance at forecasting IMERG satellite precipitation\ndata up to a 4-hour horizon; modifies the DYffusion framework to improve its\nability to model rainfall data; and introduces a novel loss function that\ncombines MSE, MAE and the LPIPS perceptual score. In a quantitative evaluation\nof forecasts up to a 4-hour horizon, the modified DYffusion framework trained\nwith the novel loss outperforms four competitor models. It has the highest CSI\nscores for weak, moderate, and heavy rain thresholds and retains an LPIPS score\n$<$ 0.2 for the entire roll-out, degrading the least as lead-time increases.\nThe proposed nowcasting model demonstrates visually stable and sharp forecasts\nup to a 2-hour horizon on a heavy rain case study. Code is available at\nhttps://github.com/Dseal95/DYffcast.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by-sa/4.0/",
+  "blobId": "4SdFpTlU5C6UcX1Crep1q_2C4iYVhviJsk24byUjjkw",
+  "pdfSize": "1250440"
+}

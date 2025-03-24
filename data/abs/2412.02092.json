@@ -1,0 +1,98 @@
+{
+  "id": "2412.02092",
+  "title": "Smart Kanata: A Framework for Autonomous Decision Making in Rapid\n  Follow-up Observations of Cataclysmic Variables",
+  "authors": "Makoto Uemura, Yuzuki Koga, Ryosuke Sazaki, Tomoya Yukino, Tatsuya\n  Nakaoka, Ryo Imazawa, Taichi Kato, Daisaku Nogami, Keisuke Isogai, Naoto\n  Kojiguchi, Kenta Taguchi, Yusuke Tampo, Hiroyuki Maehara and Shiro Ikeda",
+  "authorsParsed": [
+    [
+      "Uemura",
+      "Makoto",
+      ""
+    ],
+    [
+      "Koga",
+      "Yuzuki",
+      ""
+    ],
+    [
+      "Sazaki",
+      "Ryosuke",
+      ""
+    ],
+    [
+      "Yukino",
+      "Tomoya",
+      ""
+    ],
+    [
+      "Nakaoka",
+      "Tatsuya",
+      ""
+    ],
+    [
+      "Imazawa",
+      "Ryo",
+      ""
+    ],
+    [
+      "Kato",
+      "Taichi",
+      ""
+    ],
+    [
+      "Nogami",
+      "Daisaku",
+      ""
+    ],
+    [
+      "Isogai",
+      "Keisuke",
+      ""
+    ],
+    [
+      "Kojiguchi",
+      "Naoto",
+      ""
+    ],
+    [
+      "Taguchi",
+      "Kenta",
+      ""
+    ],
+    [
+      "Tampo",
+      "Yusuke",
+      ""
+    ],
+    [
+      "Maehara",
+      "Hiroyuki",
+      ""
+    ],
+    [
+      "Ikeda",
+      "Shiro",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 3 Dec 2024 02:23:41 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Thu, 5 Dec 2024 02:27:44 GMT"
+    }
+  ],
+  "updateDate": "2024-12-06",
+  "timestamp": 1733192621000,
+  "abstract": "  Studying the early stages of transient events provides crucial information\nabout the fundamental physical processes in cataclysmic variables (CVs).\nHowever, determining an appropriate observation mode immediately after the\ndiscovery of a new transient presents challenges due to significant\nuncertainties regarding its nature. We developed a framework designed for\nautonomous decision making in prompt follow-up observations of CVs using the\nKanata 1.5-m telescope. The system, named Smart Kanata, first estimates the\nclass probabilities of variable star types using a generative model. It then\nselects the optimal observation mode from three possible options based on the\nmutual information calculated from the class probabilities. We have operated\nthe system for ~300 days and obtained 21 samples, among which automated\nobservations were successfully performed for a nova and a microlensing event.\nIn the time-series spectra of the nova V4370 Oph, we detected a rapid deepening\nof the absorption component of the H_alpha line. These initial results\ndemonstrate the capability of Smart Kanata in facilitating rapid observations\nand improving our understanding of outbursts and eruptions of CVs and other\ngalactic transients.\n",
+  "subjects": [
+    "Astrophysics/Solar and Stellar Astrophysics",
+    "Astrophysics/Astrophysics of Galaxies",
+    "Astrophysics/Instrumentation and Methods for Astrophysics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "2kcmfu9hvi7qwV5MEVOXMp9Bqs0DF-8_tiaRsy-Qgl8",
+  "pdfSize": "1116412"
+}

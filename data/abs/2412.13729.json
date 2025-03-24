@@ -1,0 +1,58 @@
+{
+  "id": "2412.13729",
+  "title": "TH\\\"OR-MAGNI Act: Actions for Human Motion Modeling in Robot-Shared\n  Industrial Spaces",
+  "authors": "Tiago Rodrigues de Almeida, Tim Schreiter, Andrey Rudenko, Luigi\n  Palmieiri, Johannes A. Stork, Achim J. Lilienthal",
+  "authorsParsed": [
+    [
+      "de Almeida",
+      "Tiago Rodrigues",
+      ""
+    ],
+    [
+      "Schreiter",
+      "Tim",
+      ""
+    ],
+    [
+      "Rudenko",
+      "Andrey",
+      ""
+    ],
+    [
+      "Palmieiri",
+      "Luigi",
+      ""
+    ],
+    [
+      "Stork",
+      "Johannes A.",
+      ""
+    ],
+    [
+      "Lilienthal",
+      "Achim J.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 18 Dec 2024 11:08:25 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Mon, 23 Dec 2024 22:40:12 GMT"
+    }
+  ],
+  "updateDate": "2024-12-25",
+  "timestamp": 1734520105000,
+  "abstract": "  Accurate human activity and trajectory prediction are crucial for ensuring\nsafe and reliable human-robot interactions in dynamic environments, such as\nindustrial settings, with mobile robots. Datasets with fine-grained action\nlabels for moving people in industrial environments with mobile robots are\nscarce, as most existing datasets focus on social navigation in public spaces.\nThis paper introduces the TH\\\"OR-MAGNI Act dataset, a substantial extension of\nthe TH\\\"OR-MAGNI dataset, which captures participant movements alongside robots\nin diverse semantic and spatial contexts. TH\\\"OR-MAGNI Act provides 8.3 hours\nof manually labeled participant actions derived from egocentric videos recorded\nvia eye-tracking glasses. These actions, aligned with the provided TH\\\"OR-MAGNI\nmotion cues, follow a long-tailed distribution with diversified acceleration,\nvelocity, and navigation distance profiles. We demonstrate the utility of\nTH\\\"OR-MAGNI Act for two tasks: action-conditioned trajectory prediction and\njoint action and trajectory prediction. We propose two efficient\ntransformer-based models that outperform the baselines to address these tasks.\nThese results underscore the potential of TH\\\"OR-MAGNI Act to develop\npredictive models for enhanced human-robot interaction in complex environments.\n",
+  "subjects": [
+    "Computer Science/Robotics",
+    "Computer Science/Human-Computer Interaction",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by-sa/4.0/",
+  "blobId": "fggYOidwyTeI9q-QM0HRFS7tiJWvZeVSKR_z7iPtMVU",
+  "pdfSize": "2465669"
+}

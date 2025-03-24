@@ -1,0 +1,36 @@
+{
+  "id": "2412.17180",
+  "title": "COVID-19 on YouTube: A Data-Driven Analysis of Sentiment, Toxicity, and\n  Content Recommendations",
+  "authors": "Vanessa Su and Nirmalya Thakur",
+  "authorsParsed": [
+    [
+      "Su",
+      "Vanessa",
+      ""
+    ],
+    [
+      "Thakur",
+      "Nirmalya",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 22 Dec 2024 22:43:36 GMT"
+    }
+  ],
+  "updateDate": "2024-12-24",
+  "timestamp": 1734907416000,
+  "abstract": "  This study presents a data-driven analysis of COVID-19 discourse on YouTube,\nexamining the sentiment, toxicity, and thematic patterns of video content\npublished between January 2023 and October 2024. The analysis involved applying\nadvanced natural language processing (NLP) techniques: sentiment analysis with\nVADER, toxicity detection with Detoxify, and topic modeling using Latent\nDirichlet Allocation (LDA). The sentiment analysis revealed that 49.32% of\nvideo descriptions were positive, 36.63% were neutral, and 14.05% were\nnegative, indicating a generally informative and supportive tone in\npandemic-related content. Toxicity analysis identified only 0.91% of content as\ntoxic, suggesting minimal exposure to toxic content. Topic modeling revealed\ntwo main themes, with 66.74% of the videos covering general health information\nand pandemic-related impacts and 33.26% focused on news and real-time updates,\nhighlighting the dual informational role of YouTube. A recommendation system\nwas also developed using TF-IDF vectorization and cosine similarity, refined by\nsentiment, toxicity, and topic filters to ensure relevant and context-aligned\nvideo recommendations. This system achieved 69% aggregate coverage, with\nmonthly coverage rates consistently above 85%, demonstrating robust performance\nand adaptability over time. Evaluation across recommendation sizes showed\ncoverage reaching 69% for five video recommendations and 79% for ten video\nrecommendations per video. In summary, this work presents a framework for\nunderstanding COVID-19 discourse on YouTube and a recommendation system that\nsupports user engagement while promoting responsible and relevant content\nrelated to COVID-19.\n",
+  "subjects": [
+    "Computer Science/Social and Information Networks",
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Computation and Language",
+    "Computer Science/Computers and Society",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "GOOvYvY1OQatc-WQhZM0S9rsxzZbta-gucN2mIg1Xt4",
+  "pdfSize": "4339121"
+}

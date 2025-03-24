@@ -1,0 +1,41 @@
+{
+  "id": "2412.15657",
+  "title": "Synthetic Tabular Data Generation for Imbalanced Classification: The\n  Surprising Effectiveness of an Overlap Class",
+  "authors": "Annie D'souza, Swetha M, Sunita Sarawagi",
+  "authorsParsed": [
+    [
+      "D'souza",
+      "Annie",
+      ""
+    ],
+    [
+      "M",
+      "Swetha",
+      ""
+    ],
+    [
+      "Sarawagi",
+      "Sunita",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 20 Dec 2024 08:15:20 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Wed, 19 Feb 2025 15:36:45 GMT"
+    }
+  ],
+  "updateDate": "2025-02-20",
+  "timestamp": 1734682520000,
+  "abstract": "  Handling imbalance in class distribution when building a classifier over\ntabular data has been a problem of long-standing interest. One popular approach\nis augmenting the training dataset with synthetically generated data. While\nclassical augmentation techniques were limited to linear interpolation of\nexisting minority class examples, recently higher capacity deep generative\nmodels are providing greater promise.\n  However, handling of imbalance in class distribution when building a deep\ngenerative model is also a challenging problem, that has not been studied as\nextensively as imbalanced classifier model training. We show that\nstate-of-the-art deep generative models yield significantly lower-quality\nminority examples than majority examples. %In this paper, we start with the\nobservation that imbalanced data training of generative models trained\nimbalanced dataset which under-represent the minority class. We propose a novel\ntechnique of converting the binary class labels to ternary class labels by\nintroducing a class for the region where minority and majority distributions\noverlap. We show that just this pre-processing of the training set,\nsignificantly improves the quality of data generated spanning several\nstate-of-the-art diffusion and GAN-based models. While training the classifier\nusing synthetic data, we remove the overlap class from the training data and\njustify the reasons behind the enhanced accuracy. We perform extensive\nexperiments on four real-life datasets, five different classifiers, and five\ngenerative models demonstrating that our method enhances not only the\nsynthesizer performance of state-of-the-art models but also the classifier\nperformance.\n",
+  "subjects": [
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "X2Z67AqdT_qWeBfmGuVN2lCj2mbztPjnA077ZATsn20",
+  "pdfSize": "3335167"
+}

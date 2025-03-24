@@ -1,0 +1,92 @@
+{
+  "id": "2412.10752",
+  "title": "Spectral Energy Distribution Variability of the Blazar OJ 287 during\n  2009-2021",
+  "authors": "Wenwen Zuo, Alok C. Gupta, Minfeng Gu, Mauri J. Valtonen, Svetlana G.\n  Jorstad, Margo F. Aller, Anne L\\\"ahteenm\\\"aki, Sebastian Kiehlmann, Pankaj\n  Kushwaha, Hugh D. Aller, Liang Chen, Anthony C. S. Readhead, Merja\n  Tornikoski, and Qi Yuan",
+  "authorsParsed": [
+    [
+      "Zuo",
+      "Wenwen",
+      ""
+    ],
+    [
+      "Gupta",
+      "Alok C.",
+      ""
+    ],
+    [
+      "Gu",
+      "Minfeng",
+      ""
+    ],
+    [
+      "Valtonen",
+      "Mauri J.",
+      ""
+    ],
+    [
+      "Jorstad",
+      "Svetlana G.",
+      ""
+    ],
+    [
+      "Aller",
+      "Margo F.",
+      ""
+    ],
+    [
+      "Lähteenmäki",
+      "Anne",
+      ""
+    ],
+    [
+      "Kiehlmann",
+      "Sebastian",
+      ""
+    ],
+    [
+      "Kushwaha",
+      "Pankaj",
+      ""
+    ],
+    [
+      "Aller",
+      "Hugh D.",
+      ""
+    ],
+    [
+      "Chen",
+      "Liang",
+      ""
+    ],
+    [
+      "Readhead",
+      "Anthony C. S.",
+      ""
+    ],
+    [
+      "Tornikoski",
+      "Merja",
+      ""
+    ],
+    [
+      "Yuan",
+      "Qi",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 14 Dec 2024 08:42:22 GMT"
+    }
+  ],
+  "updateDate": "2024-12-17",
+  "timestamp": 1734165742000,
+  "abstract": "  Using nearly simultaneous radio, near-infrared, optical, and ultraviolet data\ncollected since 2009, we constructed 106 spectral energy distributions (SEDs)\nof the blazar OJ 287. These SEDs were well-fitted by a log-parabolic model. By\nclassifying the data into `flare' and `quiescent' segments, we found that the\nmedian flux at peak frequency of the SEDs during flare segments was\n0.37$\\pm$0.22 dex higher compared to quiescent segments, while no significant\ndifferences were observed in the median values of the curvature parameter $b$\nor the peak frequency $\\log \\nu_{\\mathrm{p}}$. A significant\nbluer-when-brighter trend was confirmed through a relation between $V$\nmagnitude and $B-V$ color index, with this trend being stronger in the flare\nsegments. Additionally, a significant anti-correlation was detected between\n$\\log \\nu_{\\mathrm{p}}$ and $b$, with a slope of 5.79 in the relation between\n$1/b$ and $\\log \\nu_{\\mathrm{p}}$, closer to the prediction from a statistical\nacceleration model other than a stochastic acceleration interpretation, though\na notable discrepancy persists. This discrepancy indicates that additional\nfactors, such as deviations from idealized conditions or radiative\ncontributions-such as thermal emission from the accretion disk in the\noptical-UV range during quiescent states-may play a role in producing the\nobserved steeper slope. Within the framework of statistical acceleration\nmechanism, lack of correlation between change in peak intensity and change in\npeak frequency suggests that change in electron energy distribution is unlikely\nto be responsible for the time-dependent SED changes. Instead, changes in\nDoppler boosting or magnetic fields may have a greater influence.\n",
+  "subjects": [
+    "Astrophysics/High Energy Astrophysical Phenomena"
+  ],
+  "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+  "blobId": "0XOlQ5IIJu3KgkHjx7HZsPjv2vfGvc3LVr5vJagjIRo",
+  "pdfSize": "954893"
+}

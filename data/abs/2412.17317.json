@@ -1,0 +1,48 @@
+{
+  "id": "2412.17317",
+  "title": "Better Knowledge Enhancement for Privacy-Preserving Cross-Project Defect\n  Prediction",
+  "authors": "Yuying Wang, Yichen Li, Haozhao Wang, Lei Zhao, Xiaofang Zhang",
+  "authorsParsed": [
+    [
+      "Wang",
+      "Yuying",
+      ""
+    ],
+    [
+      "Li",
+      "Yichen",
+      ""
+    ],
+    [
+      "Wang",
+      "Haozhao",
+      ""
+    ],
+    [
+      "Zhao",
+      "Lei",
+      ""
+    ],
+    [
+      "Zhang",
+      "Xiaofang",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 23 Dec 2024 06:21:15 GMT"
+    }
+  ],
+  "updateDate": "2024-12-24",
+  "timestamp": 1734934875000,
+  "abstract": "  Cross-Project Defect Prediction (CPDP) poses a non-trivial challenge to\nconstruct a reliable defect predictor by leveraging data from other projects,\nparticularly when data owners are concerned about data privacy. In recent\nyears, Federated Learning (FL) has become an emerging paradigm to guarantee\nprivacy information by collaborative training a global model among multiple\nparties without sharing raw data. While the direct application of FL to the\nCPDP task offers a promising solution to address privacy concerns, the data\nheterogeneity arising from proprietary projects across different companies or\norganizations will bring troubles for model training. In this paper, we study\nthe privacy-preserving cross-project defect prediction with data heterogeneity\nunder the federated learning framework. To address this problem, we propose a\nnovel knowledge enhancement approach named FedDP with two simple but effective\nsolutions: 1. Local Heterogeneity Awareness and 2. Global Knowledge\nDistillation. Specifically, we employ open-source project data as the\ndistillation dataset and optimize the global model with the heterogeneity-aware\nlocal model ensemble via knowledge distillation. Experimental results on 19\nprojects from two datasets demonstrate that our method significantly\noutperforms baselines.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Computer Science/Software Engineering"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "nqcMPQuvrladAzF76tmFgTziNpmk86gJWp-FQQgc288",
+  "pdfSize": "547353"
+}

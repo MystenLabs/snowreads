@@ -1,0 +1,37 @@
+{
+  "id": "2412.07485",
+  "title": "Performance Evaluation of ROS2-DDS middleware implementations\n  facilitating Cooperative Driving in Autonomous Vehicle",
+  "authors": "Sumit Paul, Danh Lephuoc and Manfred Hauswirth",
+  "authorsParsed": [
+    [
+      "Paul",
+      "Sumit",
+      ""
+    ],
+    [
+      "Lephuoc",
+      "Danh",
+      ""
+    ],
+    [
+      "Hauswirth",
+      "Manfred",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 10 Dec 2024 13:07:26 GMT"
+    }
+  ],
+  "updateDate": "2024-12-11",
+  "timestamp": 1733836046000,
+  "abstract": "  In the autonomous vehicle and self-driving paradigm, cooperative perception\nor exchanging sensor information among vehicles over wireless communication has\nadded a new dimension. Generally, an autonomous vehicle is a special type of\nrobot that requires real-time, highly reliable sensor inputs due to functional\nsafety. Autonomous vehicles are equipped with a considerable number of sensors\nto provide different required sensor data to make the driving decision and\nshare with other surrounding vehicles. The inclusion of Data Distribution\nService(DDS) as a communication middleware in ROS2 has proved its potential\ncapability to be a reliable real-time distributed system. DDS comes with a\nscoping mechanism known as domain. Whenever a ROS2 process is initiated, it\ncreates a DDS participant. It is important to note that there is a limit to the\nnumber of participants allowed in a single domain.\n  The efficient handling of numerous in-vehicle sensors and their messages\ndemands the use of multiple ROS2 nodes in a single vehicle. Additionally, in\nthe cooperative perception paradigm, a significant number of ROS2 nodes can be\nrequired when a vehicle functions as a single ROS2 node. These ROS2 nodes\ncannot be part of a single domain due to DDS participant limitation; thus,\ndifferent domain communication is unavoidable. Moreover, there are different\nvendor-specific implementations of DDS, and each vendor has their\nconfigurations, which is an inevitable communication catalyst between the ROS2\nnodes. The communication between vehicles or robots or ROS2 nodes depends\ndirectly on the vendor-specific configuration, data type, data size, and the\nDDS implementation used as middleware; in our study, we evaluate and\ninvestigate the limitations, capabilities, and prospects of the different\ndomain communication for various vendor-specific DDS implementations for\ndiverse sensor data type.\n",
+  "subjects": [
+    "Computer Science/Robotics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "YoLY2XHd7kaG7wUEl4HBUm1LBHt2kVrkRky-zcshXNY",
+  "pdfSize": "1736774"
+}

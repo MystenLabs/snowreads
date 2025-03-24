@@ -1,0 +1,27 @@
+{
+  "id": "2412.12191",
+  "title": "Vehicle Detection and Classification for Toll collection using YOLOv11\n  and Ensemble OCR",
+  "authors": "Karthik Sivakoti",
+  "authorsParsed": [
+    [
+      "Sivakoti",
+      "Karthik",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 13 Dec 2024 23:04:02 GMT"
+    }
+  ],
+  "updateDate": "2024-12-18",
+  "timestamp": 1734131042000,
+  "abstract": "  Traditional automated toll collection systems depend on complex hardware\nconfigurations, that require huge investments in installation and maintenance.\nThis research paper presents an innovative approach to revolutionize automated\ntoll collection by using a single camera per plaza with the YOLOv11 computer\nvision architecture combined with an ensemble OCR technique. Our system has\nachieved a Mean Average Precision (mAP) of 0.895 over a wide range of\nconditions, demonstrating 98.5% accuracy in license plate recognition, 94.2%\naccuracy in axle detection, and 99.7% OCR confidence scoring. The architecture\nincorporates intelligent vehicle tracking across IOU regions, automatic axle\ncounting by way of spatial wheel detection patterns, and real-time monitoring\nthrough an extended dashboard interface. Extensive training using 2,500 images\nunder various environmental conditions, our solution shows improved performance\nwhile drastically reducing hardware resources compared to conventional systems.\nThis research contributes toward intelligent transportation systems by\nintroducing a scalable, precision-centric solution that improves operational\nefficiency and user experience in modern toll collections.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "6noBOztRYPZl5AwYJmHB2-jJ8pwqlwf65AVSIX-b9EM",
+  "pdfSize": "967863"
+}

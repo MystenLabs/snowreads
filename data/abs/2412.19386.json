@@ -1,0 +1,37 @@
+{
+  "id": "2412.19386",
+  "title": "Resolvent-based estimation and control of a laminar airfoil wake",
+  "authors": "Junoh Jung, Rutvij Bhagwat, Aaron Towne",
+  "authorsParsed": [
+    [
+      "Jung",
+      "Junoh",
+      ""
+    ],
+    [
+      "Bhagwat",
+      "Rutvij",
+      ""
+    ],
+    [
+      "Towne",
+      "Aaron",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 27 Dec 2024 00:12:23 GMT"
+    }
+  ],
+  "updateDate": "2024-12-30",
+  "timestamp": 1735258343000,
+  "abstract": "  We develop an optimal resolvent-based estimator and controller to predict and\nattenuate unsteady vortex shedding fluctuations in the laminar wake of a NACA\n0012 airfoil at an angle of attack of 6.5 degrees, chord-based Reynolds number\nof 5000, and Mach number of 0.3. The resolvent-based estimation and control\nframework offers several advantages over standard methods. Under equivalent\nassumptions, the resolvent-based estimator and controller reproduce the Kalman\nfilter and LQG controller, respectively, but at substantially lower\ncomputational cost using either an operator-based or data-driven\nimplementation. Unlike these methods, the resolvent-based approach can\nnaturally accommodate forcing terms (nonlinear terms from Navier-Stokes) with\ncolored-in-time statistics, significantly improving estimation accuracy and\ncontrol efficacy. Causality is optimally enforced using a Wiener-Hopf\nformalism. We integrate these tools into a high-performance-computing-ready\ncompressible flow solver and demonstrate their effectiveness for estimating and\ncontrolling velocity fluctuations in the wake of the airfoil immersed in clean\nand noisy freestreams, the latter of which prevents the flow from falling into\na periodic limit cycle. Using four shear-stress sensors on the surface of the\nairfoil, the resolvent-based estimator predicts a series of downstream targets\nwith approximately 3% and 30% error for the clean and noisy freestream\nconditions, respectively. For the latter case, using four actuators on the\nairfoil surface, the resolvent-based controller reduces the turbulent kinetic\nenergy in the wake by 98%.\n",
+  "subjects": [
+    "Physics/Fluid Dynamics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "va5DhutXPtaL7Cyf0Y3p2B-JSraeV_aQ5KXFR2yfK0A",
+  "pdfSize": "19050361"
+}

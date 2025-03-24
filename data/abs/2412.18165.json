@@ -1,0 +1,27 @@
+{
+  "id": "2412.18165",
+  "title": "Parallel Neural Computing for Scene Understanding from LiDAR Perception\n  in Autonomous Racing",
+  "authors": "Suwesh Prasad Sah",
+  "authorsParsed": [
+    [
+      "Sah",
+      "Suwesh Prasad",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 24 Dec 2024 04:56:32 GMT"
+    }
+  ],
+  "updateDate": "2024-12-25",
+  "timestamp": 1735016192000,
+  "abstract": "  Autonomous driving in high-speed racing, as opposed to urban environments,\npresents significant challenges in scene understanding due to rapid changes in\nthe track environment. Traditional sequential network approaches may struggle\nto meet the real-time knowledge and decision-making demands of an autonomous\nagent covering large displacements in a short time. This paper proposes a novel\nbaseline architecture for developing sophisticated models capable of true\nhardware-enabled parallelism, achieving neural processing speeds that mirror\nthe agent's high velocity. The proposed model (Parallel Perception Network\n(PPN)) consists of two independent neural networks, segmentation and\nreconstruction networks, running parallelly on separate accelerated hardware.\nThe model takes raw 3D point cloud data from the LiDAR sensor as input and\nconverts it into a 2D Bird's Eye View Map on both devices. Each network\nindependently extracts its input features along space and time dimensions and\nproduces outputs parallelly. The proposed method's model is trained on a system\nwith two NVIDIA T4 GPUs, using a combination of loss functions, including edge\npreservation, and demonstrates a 2x speedup in model inference time compared to\na sequential configuration. Implementation is available at:\nhttps://github.com/suwesh/Parallel-Perception-Network. Learned parameters of\nthe trained networks are provided at:\nhttps://huggingface.co/suwesh/ParallelPerceptionNetwork.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "rH-Ly_t3OU4Y0J5VufgaJeNBc7MvmgDVCtVhAMxifk4",
+  "pdfSize": "1976229"
+}

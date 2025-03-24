@@ -1,0 +1,29 @@
+{
+  "id": "2412.06935",
+  "title": "Hypermodularity and community detection in higher-order networks",
+  "authors": "Charo I. del Genio",
+  "authorsParsed": [
+    [
+      "del Genio",
+      "Charo I.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 9 Dec 2024 19:25:26 GMT"
+    }
+  ],
+  "updateDate": "2024-12-11",
+  "timestamp": 1733772326000,
+  "abstract": "  Numerous networked systems feature a structure of non-trivial communities,\nwhich often correspond to their functional modules. Such communities have been\ndetected in real-world biological, social and technological systems, as well as\nin synthetic models thereof. While much effort has been devoted to develop\nmethods for community detection in traditional networks, the study of community\nstructure in networks with higher-order interactions is still relatively\nunexplored. In this article, we introduce a formalism for the hypermodularity\nof higher-order networks that allows us to use spectral methods to detect\ncommunity structures in hypergraphs. We apply this approach to synthetic random\nnetworks as well as to real-world data, showing that it produces results that\nreflect the nature and the dynamics of the interactions modelled, thereby\nconstituting a valuable tool for the extraction of hidden information from\ncomplex higher-order data sets.\n",
+  "subjects": [
+    "Physics/Physics and Society",
+    "Condensed Matter/Disordered Systems and Neural Networks",
+    "Computer Science/Social and Information Networks"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "ByCtGPWqzjLdeeaWd047ES6y_1HybiuG6VF4-LpalYM",
+  "pdfSize": "1344712"
+}

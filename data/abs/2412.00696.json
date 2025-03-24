@@ -1,0 +1,40 @@
+{
+  "id": "2412.00696",
+  "title": "Intermediate Outputs Are More Sensitive Than You Think",
+  "authors": "Tao Huang, Qingyu Huang, Jiayang Meng",
+  "authorsParsed": [
+    [
+      "Huang",
+      "Tao",
+      ""
+    ],
+    [
+      "Huang",
+      "Qingyu",
+      ""
+    ],
+    [
+      "Meng",
+      "Jiayang",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 1 Dec 2024 06:40:28 GMT"
+    }
+  ],
+  "updateDate": "2024-12-03",
+  "timestamp": 1733035228000,
+  "abstract": "  The increasing reliance on deep computer vision models that process sensitive\ndata has raised significant privacy concerns, particularly regarding the\nexposure of intermediate results in hidden layers. While traditional privacy\nrisk assessment techniques focus on protecting overall model outputs, they\noften overlook vulnerabilities within these intermediate representations.\nCurrent privacy risk assessment techniques typically rely on specific attack\nsimulations to assess risk, which can be computationally expensive and\nincomplete. This paper introduces a novel approach to measuring privacy risks\nin deep computer vision models based on the Degrees of Freedom (DoF) and\nsensitivity of intermediate outputs, without requiring adversarial attack\nsimulations. We propose a framework that leverages DoF to evaluate the amount\nof information retained in each layer and combines this with the rank of the\nJacobian matrix to assess sensitivity to input variations. This dual analysis\nenables systematic measurement of privacy risks at various model layers. Our\nexperimental validation on real-world datasets demonstrates the effectiveness\nof this approach in providing deeper insights into privacy risks associated\nwith intermediate representations.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Cryptography and Security",
+    "Computer Science/Machine Learning",
+    "Statistics/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "Acnr9me4fKP6QeAhIX17jUwzwQQezIkM1DOjFjabx9E",
+  "pdfSize": "2385041"
+}

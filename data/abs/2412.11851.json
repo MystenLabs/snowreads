@@ -1,0 +1,33 @@
+{
+  "id": "2412.11851",
+  "title": "A Benchmark and Robustness Study of In-Context-Learning with Large\n  Language Models in Music Entity Detection",
+  "authors": "Simon Hachmeier and Robert J\\\"aschke",
+  "authorsParsed": [
+    [
+      "Hachmeier",
+      "Simon",
+      ""
+    ],
+    [
+      "Jäschke",
+      "Robert",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 16 Dec 2024 15:11:03 GMT"
+    }
+  ],
+  "updateDate": "2024-12-17",
+  "timestamp": 1734361863000,
+  "abstract": "  Detecting music entities such as song titles or artist names is a useful\napplication to help use cases like processing music search queries or analyzing\nmusic consumption on the web. Recent approaches incorporate smaller language\nmodels (SLMs) like BERT and achieve high results. However, further research\nindicates a high influence of entity exposure during pre-training on the\nperformance of the models. With the advent of large language models (LLMs),\nthese outperform SLMs in a variety of downstream tasks. However, researchers\nare still divided if this is applicable to tasks like entity detection in texts\ndue to issues like hallucination. In this paper, we provide a novel dataset of\nuser-generated metadata and conduct a benchmark and a robustness study using\nrecent LLMs with in-context-learning (ICL). Our results indicate that LLMs in\nthe ICL setting yield higher performance than SLMs. We further uncover the\nlarge impact of entity exposure on the best performing LLM in our study.\n",
+  "subjects": [
+    "Computer Science/Computation and Language",
+    "Computer Science/Multimedia"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "AYQk4D32ENnk6tJ99-Z86ha_AfhIfo190m103QgCRTY",
+  "pdfSize": "448981"
+}

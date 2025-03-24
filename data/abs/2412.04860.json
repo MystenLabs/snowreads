@@ -1,0 +1,47 @@
+{
+  "id": "2412.04860",
+  "title": "Estimating causal effects of customer satisfaction on downstream metrics\n  in a multi-queue contact center",
+  "authors": "Sebasti\\'an Orellana, Leandro Magga, Paolo Gorgi, Hyeokmoon Kweon and\n  Felipe Bahamonde",
+  "authorsParsed": [
+    [
+      "Orellana",
+      "Sebastián",
+      ""
+    ],
+    [
+      "Magga",
+      "Leandro",
+      ""
+    ],
+    [
+      "Gorgi",
+      "Paolo",
+      ""
+    ],
+    [
+      "Kweon",
+      "Hyeokmoon",
+      ""
+    ],
+    [
+      "Bahamonde",
+      "Felipe",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 6 Dec 2024 08:53:29 GMT"
+    }
+  ],
+  "updateDate": "2024-12-09",
+  "timestamp": 1733475209000,
+  "abstract": "  Contact centers are crucial in shaping customer experience, especially in\nindustries like airlines where they significantly influence brand perception\nand satisfaction. Despite their importance, the effect of contact center\nimprovements on business metrics remains uncertain, complicating investment\ndecisions and often leading to insufficient resource allocation. This paper\nemploys an instrumental-variable approach to estimate the causal effect of\ncustomer service interactions at the contact center of LATAM airlines on\ndownstream metrics. Leveraging observational data and the examiner design, we\nidentify causal effects through the quasi-random assignment of agents to calls,\naccounting for the multi-queue structure and agent certification heterogeneity.\nOur empirical results highlight the necessity of an instrumental variable\napproach to accurately estimate causal effects in contact centers, revealing\nsubstantial biases from spurious correlations. This methodology provides\nmanagers with tools to estimate the impact of call satisfaction on key business\nmetrics, offering valuable insights to solve operational trade-offs of call\ncenters.\n",
+  "subjects": [
+    "Statistics/Applications"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "ckOnoyvQD1cMCKVBqUbf1njKi0eq5DDEz096EzP2B48",
+  "pdfSize": "943583"
+}

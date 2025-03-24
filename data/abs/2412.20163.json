@@ -1,0 +1,46 @@
+{
+  "id": "2412.20163",
+  "title": "Topic-Aware Knowledge Graph with Large Language Models for\n  Interoperability in Recommender Systems",
+  "authors": "Minhye Jeon, Seokho Ahn, Young-Duk Seo",
+  "authorsParsed": [
+    [
+      "Jeon",
+      "Minhye",
+      ""
+    ],
+    [
+      "Ahn",
+      "Seokho",
+      ""
+    ],
+    [
+      "Seo",
+      "Young-Duk",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 28 Dec 2024 14:27:45 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Mon, 13 Jan 2025 06:17:38 GMT"
+    },
+    {
+      "version": "v3",
+      "created": "Wed, 12 Feb 2025 16:49:56 GMT"
+    }
+  ],
+  "updateDate": "2025-02-13",
+  "timestamp": 1735396065000,
+  "abstract": "  The use of knowledge graphs in recommender systems has become one of the\ncommon approaches to addressing data sparsity and cold start problems. Recent\nadvances in large language models (LLMs) offer new possibilities for processing\nside and context information within knowledge graphs. However, consistent\nintegration across various systems remains challenging due to the need for\ndomain expert intervention and differences in system characteristics. To\naddress these issues, we propose a consistent approach that extracts both\ngeneral and specific topics from both side and context information using LLMs.\nFirst, general topics are iteratively extracted and updated from side\ninformation. Then, specific topics are extracted using context information.\nFinally, to address synonymous topics generated during the specific topic\nextraction process, a refining algorithm processes and resolves these issues\neffectively. This approach allows general topics to capture broad knowledge\nacross diverse item characteristics, while specific topics emphasize detailed\nattributes, providing a more comprehensive understanding of the semantic\nfeatures of items and the preferences of users. Experimental results\ndemonstrate significant improvements in recommendation performance across\ndiverse knowledge graphs.\n",
+  "subjects": [
+    "Computer Science/Information Retrieval",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "K44tYVK657MD847KBwel-oV12N_0p2rnZntFXzxNTME",
+  "pdfSize": "915040"
+}

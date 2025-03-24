@@ -1,0 +1,62 @@
+{
+  "id": "2412.11728",
+  "title": "SECRET: Towards Scalable and Efficient Code Retrieval via Segmented Deep\n  Hashing",
+  "authors": "Wenchao Gu, Ensheng Shi, Yanlin Wang, Lun Du, Shi Han, Hongyu Zhang,\n  Dongmei Zhang, Michael R. Lyu",
+  "authorsParsed": [
+    [
+      "Gu",
+      "Wenchao",
+      ""
+    ],
+    [
+      "Shi",
+      "Ensheng",
+      ""
+    ],
+    [
+      "Wang",
+      "Yanlin",
+      ""
+    ],
+    [
+      "Du",
+      "Lun",
+      ""
+    ],
+    [
+      "Han",
+      "Shi",
+      ""
+    ],
+    [
+      "Zhang",
+      "Hongyu",
+      ""
+    ],
+    [
+      "Zhang",
+      "Dongmei",
+      ""
+    ],
+    [
+      "Lyu",
+      "Michael R.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 16 Dec 2024 12:51:35 GMT"
+    }
+  ],
+  "updateDate": "2024-12-17",
+  "timestamp": 1734353495000,
+  "abstract": "  Code retrieval, which retrieves code snippets based on users' natural\nlanguage descriptions, is widely used by developers and plays a pivotal role in\nreal-world software development. The advent of deep learning has shifted the\nretrieval paradigm from lexical-based matching towards leveraging deep learning\nmodels to encode source code and queries into vector representations,\nfacilitating code retrieval according to vector similarity. Despite the\neffectiveness of these models, managing large-scale code database presents\nsignificant challenges. Previous research proposes deep hashing-based methods,\nwhich generate hash codes for queries and code snippets and use Hamming\ndistance for rapid recall of code candidates. However, this approach's reliance\non linear scanning of the entire code base limits its scalability. To further\nimprove the efficiency of large-scale code retrieval, we propose a novel\napproach SECRET (Scalable and Efficient Code Retrieval via SegmEnTed deep\nhashing). SECRET converts long hash codes calculated by existing deep hashing\napproaches into several short hash code segments through an iterative training\nstrategy. After training, SECRET recalls code candidates by looking up the hash\ntables for each segment, the time complexity of recall can thus be greatly\nreduced. Extensive experimental results demonstrate that SECRET can drastically\nreduce the retrieval time by at least 95% while achieving comparable or even\nhigher performance of existing deep hashing approaches. Besides, SECRET also\nexhibits superior performance and efficiency compared to the classical hash\ntable-based approach known as LSH under the same number of hash tables.\n",
+  "subjects": [
+    "Computer Science/Software Engineering"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "c6pm9-940lbBlttZE-OSPRSGSRKoGRgVmXgza6SupNY",
+  "pdfSize": "1820800"
+}

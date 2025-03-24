@@ -1,0 +1,33 @@
+{
+  "id": "2412.17104",
+  "title": "A diversity-enhanced genetic algorithm for efficient exploration of\n  parameter spaces",
+  "authors": "Jonas Wess\\'en, Eliel Camargo-Molina",
+  "authorsParsed": [
+    [
+      "Wessén",
+      "Jonas",
+      ""
+    ],
+    [
+      "Camargo-Molina",
+      "Eliel",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 22 Dec 2024 17:32:38 GMT"
+    }
+  ],
+  "updateDate": "2024-12-24",
+  "timestamp": 1734888758000,
+  "abstract": "  We present a Python package together with a practical guide for the\nimplementation of a lightweight diversity-enhanced genetic algorithm (GA)\napproach for the exploration of multi-dimensional parameter spaces. Searching a\nparameter space for regions with desirable properties, e.g. compatibility with\nexperimental data, poses a type of optimization problem wherein the focus lies\non pinpointing all \"good enough\" solutions, rather than a single \"best\nsolution\". Our approach dramatically outperforms random scans and other\nGA-based implementations in this aspect. We validate the effectiveness of our\napproach by applying it to a particle physics problem, showcasing its ability\nto identify promising parameter points in isolated, viable regions meeting\nexperimental constraints. The companion Python package is applicable to\noptimization problems beyond those considered in this work, including scanning\nover discrete parameters (categories). A detailed guide for its usage is\nprovided.\n",
+  "subjects": [
+    "Computer Science/Neural and Evolutionary Computing",
+    "Physics/High Energy Physics - Phenomenology"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "_vk32fuNlMcyhd_aq-U6OvCSwG-HKgiW72ptb-fdH8A",
+  "pdfSize": "784259"
+}

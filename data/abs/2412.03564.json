@@ -1,0 +1,28 @@
+{
+  "id": "2412.03564",
+  "title": "Improving Perturbation Theory with the Sum-of-Squares: Third Order",
+  "authors": "M. B. Hastings",
+  "authorsParsed": [
+    [
+      "Hastings",
+      "M. B.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 4 Dec 2024 18:56:44 GMT"
+    }
+  ],
+  "updateDate": "2024-12-05",
+  "timestamp": 1733338604000,
+  "abstract": "  The sum-of-squares method can give rigorous lower bounds on the energy of\nquantum Hamiltonians. Unfortunately, typically using this method requires\nsolving a semidefinite program, which can be computationally expensive.\nFurther, the typically used degree-$4$ sum-of-squares (also known as the 2RDM\nmethod) does not correctly reproduce second order perturbation theory. Here, we\ngive a general method, an analogue of Wigner's $2n+1$ rule for perturbation\ntheory, to compute the order of the error in a given sum-of-squares ansatz. We\nalso give a method for finding solutions of the dual semidefinite program,\nbased on a perturbative ansatz combined with a self-consistent method. As an\nillustration, we show that for a class of model Hamiltonians (with a gap in the\nquadratic term and quartic terms chosen as i.i.d. Gaussians), this\nself-consistent sum-of-squares method significantly improves over the 2RDM\nmethod in both speed and accuracy, and also improves over low order\nperturbation theory. We then explain why the particular ansatz we implement is\nnot suitable for use for quantum chemistry Hamiltonians (due to presence of\ncertain large diagonal terms), but we suggest a modified ansatz that may be\nsuitable, which will be the subject of future work.\n",
+  "subjects": [
+    "Physics/Quantum Physics",
+    "Condensed Matter/Strongly Correlated Electrons"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "qiguYA9AJ-2aaNTcfogEot4qjSlw1cdGE0wA_Y2oe0E",
+  "pdfSize": "520925"
+}

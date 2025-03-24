@@ -1,0 +1,53 @@
+{
+  "id": "2412.18990",
+  "title": "Detection and classification of DDoS flooding attacks by machine\n  learning method",
+  "authors": "Dmytro Tymoshchuk, Oleh Yasniy, Mykola Mytnyk, Nataliya Zagorodna and\n  Vitaliy Tymoshchuk",
+  "authorsParsed": [
+    [
+      "Tymoshchuk",
+      "Dmytro",
+      ""
+    ],
+    [
+      "Yasniy",
+      "Oleh",
+      ""
+    ],
+    [
+      "Mytnyk",
+      "Mykola",
+      ""
+    ],
+    [
+      "Zagorodna",
+      "Nataliya",
+      ""
+    ],
+    [
+      "Tymoshchuk",
+      "Vitaliy",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 25 Dec 2024 21:58:52 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Thu, 2 Jan 2025 09:34:09 GMT"
+    }
+  ],
+  "updateDate": "2025-01-03",
+  "timestamp": 1735163932000,
+  "abstract": "  This study focuses on a method for detecting and classifying distributed\ndenial of service (DDoS) attacks, such as SYN Flooding, ACK Flooding, HTTP\nFlooding, and UDP Flooding, using neural networks. Machine learning,\nparticularly neural networks, is highly effective in detecting malicious\ntraffic. A dataset containing normal traffic and various DDoS attacks was used\nto train a neural network model with a 24-106-5 architecture. The model\nachieved high Accuracy (99.35%), Precision (99.32%), Recall (99.54%), and\nF-score (0.99) in the classification task. All major attack types were\ncorrectly identified. The model was also further tested in the lab using\nvirtual infrastructures to generate normal and DDoS traffic. The results showed\nthat the model can accurately classify attacks under near-real-world\nconditions, demonstrating 95.05% accuracy and balanced F-score scores for all\nattack types. This confirms that neural networks are an effective tool for\ndetecting DDoS attacks in modern information security systems.\n",
+  "subjects": [
+    "Computer Science/Cryptography and Security",
+    "Computer Science/Machine Learning",
+    "Computer Science/Networking and Internet Architecture"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "XfRbTB5XpgteP6sIvdLwKA8y_0gMqWiy3SScIsyjERg",
+  "pdfSize": "663611"
+}

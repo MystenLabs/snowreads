@@ -1,0 +1,43 @@
+{
+  "id": "2412.15497",
+  "title": "Lexicography Saves Lives (LSL): Automatically Translating\n  Suicide-Related Language",
+  "authors": "Annika Marie Schoene, John E. Ortega, Rodolfo Joel Zevallos, Laura\n  Haaber Ihle",
+  "authorsParsed": [
+    [
+      "Schoene",
+      "Annika Marie",
+      ""
+    ],
+    [
+      "Ortega",
+      "John E.",
+      ""
+    ],
+    [
+      "Zevallos",
+      "Rodolfo Joel",
+      ""
+    ],
+    [
+      "Ihle",
+      "Laura Haaber",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 20 Dec 2024 02:23:36 GMT"
+    }
+  ],
+  "updateDate": "2024-12-23",
+  "timestamp": 1734661416000,
+  "abstract": "  Recent years have seen a marked increase in research that aims to identify or\npredict risk, intention or ideation of suicide. The majority of new tasks,\ndatasets, language models and other resources focus on English and on suicide\nin the context of Western culture. However, suicide is global issue and\nreducing suicide rate by 2030 is one of the key goals of the UN's Sustainable\nDevelopment Goals. Previous work has used English dictionaries related to\nsuicide to translate into different target languages due to lack of other\navailable resources. Naturally, this leads to a variety of ethical tensions\n(e.g.: linguistic misrepresentation), where discourse around suicide is not\npresent in a particular culture or country. In this work, we introduce the\n'Lexicography Saves Lives Project' to address this issue and make three\ndistinct contributions. First, we outline ethical consideration and provide\noverview guidelines to mitigate harm in developing suicide-related resources.\nNext, we translate an existing dictionary related to suicidal ideation into 200\ndifferent languages and conduct human evaluations on a subset of translated\ndictionaries. Finally, we introduce a public website to make our resources\navailable and enable community participation.\n",
+  "subjects": [
+    "Computer Science/Computation and Language",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "GLbHxRnDLj9QhsPP7HgQPLKbYIF0OHmSQLdV1km55dM",
+  "pdfSize": "261358"
+}

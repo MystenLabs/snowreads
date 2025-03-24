@@ -1,0 +1,49 @@
+{
+  "id": "2412.16747",
+  "title": "Space-Air-Ground Integrated Networks: Their Channel Model and\n  Performance Analysis",
+  "authors": "Chao Zhang, Qingchao Li, Chao Xu, Lie-Liang Yang and Lajos Hanzo",
+  "authorsParsed": [
+    [
+      "Zhang",
+      "Chao",
+      ""
+    ],
+    [
+      "Li",
+      "Qingchao",
+      ""
+    ],
+    [
+      "Xu",
+      "Chao",
+      ""
+    ],
+    [
+      "Yang",
+      "Lie-Liang",
+      ""
+    ],
+    [
+      "Hanzo",
+      "Lajos",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 21 Dec 2024 19:43:10 GMT"
+    }
+  ],
+  "updateDate": "2024-12-24",
+  "timestamp": 1734810190000,
+  "abstract": "  Given their extensive geographic coverage, low Earth orbit (LEO) satellites\nare envisioned to find their way into next-generation (6G) wireless\ncommunications. This paper explores space-air-ground integrated networks\n(SAGINs) leveraging LEOs to support terrestrial and non-terrestrial users. We\nfirst propose a practical satellite-ground channel model that incorporates five\nkey aspects: 1) the small-scale fading characterized by the Shadowed-Rician\ndistribution in terms of the Rician factor K, 2) the path loss effect of\nbending rays due to atmospheric refraction, 3) the molecular absorption\nmodelled by the Beer-Lambert law, 4) the Doppler effects including the Earth's\nrotation, and 5) the impact of weather conditions according to the\nInternational Telecommunication Union Recommendations (ITU-R). Harnessing the\nproposed model, we analyze the long-term performance of the SAGIN considered.\nExplicitly, the closed-form expressions of both the outage probability and of\nthe ergodic rates are derived. Additionally, the upper bounds of bit-error\nrates and of the Goodput are investigated. The numerical results yield the\nfollowing insights: 1) The shadowing effect and the ratio between the\nline-of-sight and scattering components can be conveniently modeled by the\nfactors of K and m in the proposed Shadowed-Rician small-scale fading model. 2)\nThe atmospheric refraction has a modest effect on the path loss. 3) When\ncalculating the transmission distance of waves, Earth's curvature and its\ngeometric relationship with the satellites must be considered, particularly at\nsmall elevation angles. 3) High-frequency carriers suffer from substantial path\nloss, and 4) the Goodput metric is eminently suitable for characterizing the\nperformance of different coding as well as modulation methods and of the\nestimation error of the Doppler effects.\n",
+  "subjects": [
+    "Computer Science/Information Theory",
+    "Electrical Engineering and Systems Science/Signal Processing",
+    "Mathematics/Information Theory"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "iaGrvMs6XqcMYY42L9qN7z8egZp6fmtJNy8LonQmHw4",
+  "pdfSize": "4545624"
+}

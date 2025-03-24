@@ -1,0 +1,33 @@
+{
+  "id": "2412.11047",
+  "title": "Deployment Pipeline from Rockpool to Xylo for Edge Computing",
+  "authors": "Peng Zhou, Dylan R. Muir",
+  "authorsParsed": [
+    [
+      "Zhou",
+      "Peng",
+      ""
+    ],
+    [
+      "Muir",
+      "Dylan R.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 15 Dec 2024 04:19:10 GMT"
+    }
+  ],
+  "updateDate": "2024-12-17",
+  "timestamp": 1734236350000,
+  "abstract": "  Deploying Spiking Neural Networks (SNNs) on the Xylo neuromorphic chip via\nthe Rockpool framework represents a significant advancement in achieving\nultra-low-power consumption and high computational efficiency for edge\napplications. This paper details a novel deployment pipeline, emphasizing the\nintegration of Rockpool's capabilities with Xylo's architecture, and evaluates\nthe system's performance in terms of energy efficiency and accuracy. The unique\nadvantages of the Xylo chip, including its digital spiking architecture and\nevent-driven processing model, are highlighted to demonstrate its suitability\nfor real-time, power-sensitive applications.\n",
+  "subjects": [
+    "Computer Science/Neural and Evolutionary Computing",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "txMjwm-Hx8kvH1lKPQ9KNDP-cZpsIJW1mTIE6grUAHk",
+  "pdfSize": "1762983"
+}

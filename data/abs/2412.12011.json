@@ -1,0 +1,34 @@
+{
+  "id": "2412.12011",
+  "title": "Fermi's golden rule in tunneling models with quantum waveguides\n  perturbed by Kato class measures",
+  "authors": "Sylwia Kondej and Kacper \\'Slipko",
+  "authorsParsed": [
+    [
+      "Kondej",
+      "Sylwia",
+      ""
+    ],
+    [
+      "Ślipko",
+      "Kacper",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 16 Dec 2024 17:37:27 GMT"
+    }
+  ],
+  "updateDate": "2024-12-17",
+  "timestamp": 1734370647000,
+  "abstract": "  In this paper we consider two dimensional quantum system with an infinite\nwaveguide of the width $d$ and a transversally invariant profile. Furthermore,\nwe assume that at a distant $\\rho$ there is a perturbation defined by the Kato\nmeasure. We show that, under certain conditions, the resolvent of the\nHamiltonian has the second sheet pole which reproduces the resonance at\n$z(\\rho)$ with the asymptotics $z(\\rho)=\\mathcal E_{\\beta ; n}+\\mathcal O\n\\Big(\\frac{ \\exp(-\\sqrt{2 |\\mathcal E_{\\beta ;n}| } \\rho )}{\\rho }\\Big)$ for\n$\\rho$ large and with the resonant energy $\\mathcal E_{\\beta ;n}$. Moreover, we\nshow that the imaginary component of $z(\\rho)$ satisfies Fermi's golden rule\nwhich we explicitly derive.\n",
+  "subjects": [
+    "Physics/Mathematical Physics",
+    "Mathematics/Mathematical Physics",
+    "Physics/Quantum Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "8szGpVHhoCNNWGCFwhqYODFm82rYOKnUI7VU-mcDNyU",
+  "pdfSize": "757564"
+}

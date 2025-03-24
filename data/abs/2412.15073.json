@@ -1,0 +1,53 @@
+{
+  "id": "2412.15073",
+  "title": "Velocity Jumps for Molecular Dynamics",
+  "authors": "Nicola\\\"i Gouraud, Louis Lagard\\`ere, Olivier Adjoua, Thomas Pl\\'e,\n  Pierre Monmarch\\'e, Jean-Philip Piquemal",
+  "authorsParsed": [
+    [
+      "Gouraud",
+      "Nicolaï",
+      ""
+    ],
+    [
+      "Lagardère",
+      "Louis",
+      ""
+    ],
+    [
+      "Adjoua",
+      "Olivier",
+      ""
+    ],
+    [
+      "Plé",
+      "Thomas",
+      ""
+    ],
+    [
+      "Monmarché",
+      "Pierre",
+      ""
+    ],
+    [
+      "Piquemal",
+      "Jean-Philip",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 19 Dec 2024 17:23:15 GMT"
+    }
+  ],
+  "updateDate": "2024-12-20",
+  "timestamp": 1734628995000,
+  "abstract": "  We introduce the Velocity Jumps approach, denoted as JUMP, a new class of\nMolecular dynamics integrators, replacing the Langevin dynamics by a hybrid\nmodel combining a classical Langevin diffusion and a piecewise deterministic\nMarkov process, where the expensive computation of long-range pairwise\ninteractions is replaced by a resampling of the velocities at random times.\nThis framework allows for an acceleration in the simulation speed while\npreserving sampling and dynamical properties such as the diffusion constant. It\ncan also be integrated in classical multi-timestep methods, pushing further the\ncomputational speedup, while avoiding some of the resonance issues of the\nlatter thanks to the random nature of jumps. The JUMP, JUMP-RESPA and\nJUMP-RESPA1 integrators have been implemented in the GPU-accelerated version of\nthe Tinker-HP package and are shown to provide significantly enhanced\nperformances compared to their BAOAB, BAOAB-RESPA and BAOAB-RESPA1 counterparts\nrespectively.\n",
+  "subjects": [
+    "Physics/Computational Physics",
+    "Physics/Chemical Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "xFCPJ1hVzhROkzXHXAW00lmHNQWKQk4kk2H6WnLUui4",
+  "pdfSize": "2115164"
+}

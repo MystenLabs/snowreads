@@ -1,0 +1,34 @@
+{
+  "id": "2412.09200",
+  "title": "Accuracy Improvements for Convolutional and Differential Distance\n  Function Approximations",
+  "authors": "Alexander Belyaev and Pierre-Alain Fayolle",
+  "authorsParsed": [
+    [
+      "Belyaev",
+      "Alexander",
+      ""
+    ],
+    [
+      "Fayolle",
+      "Pierre-Alain",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 12 Dec 2024 11:53:19 GMT"
+    }
+  ],
+  "updateDate": "2024-12-13",
+  "timestamp": 1734004399000,
+  "abstract": "  Given a bounded domain, we deal with the problem of estimating the distance\nfunction from the internal points of the domain to the boundary of the domain.\nConvolutional and differential distance estimation schemes are considered and,\nfor both the schemes, accuracy improvements are proposed and evaluated.\nAsymptotics of Laplace integrals and Taylor series extrapolations are used to\nachieve the improvements.\n",
+  "subjects": [
+    "Mathematics/Numerical Analysis",
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Numerical Analysis"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "nqlpwEfXonOcLQFzOEQ4ptvIhDoVvygX8ky_uu4Lvx8",
+  "pdfSize": "741568"
+}

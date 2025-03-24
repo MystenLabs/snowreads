@@ -1,0 +1,34 @@
+{
+  "id": "2412.20700",
+  "title": "Optimal rolling of fair dice using fair coins",
+  "authors": "Mark Huber and Danny Vargas",
+  "authorsParsed": [
+    [
+      "Huber",
+      "Mark",
+      ""
+    ],
+    [
+      "Vargas",
+      "Danny",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 30 Dec 2024 04:25:24 GMT"
+    }
+  ],
+  "updateDate": "2024-12-31",
+  "timestamp": 1735532724000,
+  "abstract": "  In 1976, Knuth and Yao presented an algorithm for sampling from a finite\ndistribution using flips of a fair coin that on average used the optimal number\nof flips. Here we show how to easily run their algorithm for the special case\nof rolling a fair die that uses memory linear in the input. Analysis of this\nalgorithm yields a bound on the average number of coin flips needed that is\nslightly better than the original Knuth-Yao bound. This can then be extended to\ndiscrete distributions in a near optimal number of flips again using memory\nlinear in the input.\n",
+  "subjects": [
+    "Computer Science/Data Structures and Algorithms",
+    "Mathematics/Probability",
+    "Statistics/Computation"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "JaVDnYeqmMXXgRaw_qJTUNZgMcbX-0aH6_6pEn1brsM",
+  "pdfSize": "116552"
+}

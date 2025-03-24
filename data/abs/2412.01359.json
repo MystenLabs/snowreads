@@ -1,0 +1,41 @@
+{
+  "id": "2412.01359",
+  "title": "A Bottom-Up Approach to Optimizing the Solar Organic Rankine Cycle for\n  Transactive Energy Trading",
+  "authors": "Silvia Anna Cordieri and Chiara Bordin and Sambeet Mishra",
+  "authorsParsed": [
+    [
+      "Cordieri",
+      "Silvia Anna",
+      ""
+    ],
+    [
+      "Bordin",
+      "Chiara",
+      ""
+    ],
+    [
+      "Mishra",
+      "Sambeet",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 2 Dec 2024 10:37:06 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Fri, 17 Jan 2025 08:32:01 GMT"
+    }
+  ],
+  "updateDate": "2025-01-20",
+  "timestamp": 1733135826000,
+  "abstract": "  Solar Organic Rankine Cycle (ORC)-based power generation plants leverage\nsolar irradiation to produce thermal energy, offering a highly compatible\nrenewable technology due to the alignment between solar irradiation\ntemperatures and ORC operating requirements. Their superior performance\ncompared to steam Rankine cycles in small-scale applications makes them\nparticularly relevant within the smart grid and microgrid contexts. This study\nexplores the role of ORC in peer-to-peer (P2P) energy trading within\nrenewable-based community microgrids, where consumers become prosumers,\nsimultaneously producing and consuming energy while engaging in virtual trading\nat the distribution system level. Focusing on a microgrid integrating solar ORC\nwith a storage system to meet consumer demand, the paper highlights the\nimportance of combining these technologies with storage to enhance\npredictability and competitiveness with conventional energy plants, despite\nmanagement challenges. A methodology based on operations research techniques is\ndeveloped to optimize system performance. Furthermore, the impact of various\ntechnological parameters of the solar ORC on the system's performance is\nexamined. The study concludes by assessing the value of solar ORC within the\ntransactive energy trading framework across different configurations and\nscenarios. Results demonstrate an average 16\\% reduction in operational costs,\nshowcasing the benefits of implementing a predictable and manageable system in\nP2P transactive energy trading.\n",
+  "subjects": [
+    "Mathematics/Optimization and Control"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "T06hxH_zQ2pYHrBjC083YAjh22bODl9lrDXgdyvupqs",
+  "pdfSize": "1594106"
+}

@@ -1,0 +1,58 @@
+{
+  "id": "2412.14191",
+  "title": "Ontology-Aware RAG for Improved Question-Answering in Cybersecurity\n  Education",
+  "authors": "Chengshuai Zhao, Garima Agrawal, Tharindu Kumarage, Zhen Tan, Yuli\n  Deng, Ying-Chih Chen, Huan Liu",
+  "authorsParsed": [
+    [
+      "Zhao",
+      "Chengshuai",
+      ""
+    ],
+    [
+      "Agrawal",
+      "Garima",
+      ""
+    ],
+    [
+      "Kumarage",
+      "Tharindu",
+      ""
+    ],
+    [
+      "Tan",
+      "Zhen",
+      ""
+    ],
+    [
+      "Deng",
+      "Yuli",
+      ""
+    ],
+    [
+      "Chen",
+      "Ying-Chih",
+      ""
+    ],
+    [
+      "Liu",
+      "Huan",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 10 Dec 2024 21:52:35 GMT"
+    }
+  ],
+  "updateDate": "2024-12-20",
+  "timestamp": 1733867555000,
+  "abstract": "  Integrating AI into education has the potential to transform the teaching of\nscience and technology courses, particularly in the field of cybersecurity.\nAI-driven question-answering (QA) systems can actively manage uncertainty in\ncybersecurity problem-solving, offering interactive, inquiry-based learning\nexperiences. Large language models (LLMs) have gained prominence in AI-driven\nQA systems, offering advanced language understanding and user engagement.\nHowever, they face challenges like hallucinations and limited domain-specific\nknowledge, which reduce their reliability in educational settings. To address\nthese challenges, we propose CyberRAG, an ontology-aware retrieval-augmented\ngeneration (RAG) approach for developing a reliable and safe QA system in\ncybersecurity education. CyberRAG employs a two-step approach: first, it\naugments the domain-specific knowledge by retrieving validated cybersecurity\ndocuments from a knowledge base to enhance the relevance and accuracy of the\nresponse. Second, it mitigates hallucinations and misuse by integrating a\nknowledge graph ontology to validate the final answer. Experiments on publicly\navailable cybersecurity datasets show that CyberRAG delivers accurate, reliable\nresponses aligned with domain knowledge, demonstrating the potential of AI\ntools to enhance education.\n",
+  "subjects": [
+    "Computer Science/Computers and Society",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "aoyUZ86X9v2bH6GQ3bQ2QBJuNkY3_k7IFDavWHQJQLY",
+  "pdfSize": "2826164"
+}

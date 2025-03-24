@@ -1,0 +1,39 @@
+{
+  "id": "2412.12180",
+  "title": "Fully stochastic trust-region methods with Barzilai-Borwein steplengths",
+  "authors": "Stefania Bellavia, Benedetta Morini, Mahsa Yousefi",
+  "authorsParsed": [
+    [
+      "Bellavia",
+      "Stefania",
+      ""
+    ],
+    [
+      "Morini",
+      "Benedetta",
+      ""
+    ],
+    [
+      "Yousefi",
+      "Mahsa",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 13 Dec 2024 08:22:07 GMT"
+    }
+  ],
+  "updateDate": "2024-12-18",
+  "timestamp": 1734078127000,
+  "abstract": "  We investigate stochastic gradient methods and stochastic counterparts of the\nBarzilai-Borwein steplengths and their application to finite-sum minimization\nproblems. Our proposal is based on the Trust-Region-ish (TRish) framework\nintroduced in [F. E. Curtis, K. Scheinberg, R. Shi, A stochastic trust region\nalgorithm based on careful step normalization, Informs Journal on Optimization,\n1, 2019]. The new framework, named TRishBB, aims at enhancing the performance\nof TRish and at reducing the computational cost of the second-order TRish\nvariant. We propose three different methods belonging to the TRishBB framework\nand present the convergence analysis for possibly nonconvex objective\nfunctions, considering biased and unbiased gradient approximations. Our\nanalysis requires neither diminishing step-sizes nor full gradient evaluation.\nThe numerical experiments in machine learning applications demonstrate the\neffectiveness of applying the Barzilai-Borwein steplength with stochastic\ngradients and show improved testing accuracy compared to the TRish method.\n",
+  "subjects": [
+    "Mathematics/Optimization and Control",
+    "Computer Science/Numerical Analysis",
+    "Mathematics/Numerical Analysis"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "EGrrq-Rs9ooZLuTutD8QK9hFPG5xZ-bNiHhk-2Up4l0",
+  "pdfSize": "653039"
+}

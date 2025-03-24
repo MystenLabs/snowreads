@@ -1,0 +1,72 @@
+{
+  "id": "2412.11273",
+  "title": "NuSTAR broadband X-ray observation of EF Eri following its reawakening\n  into a high accretion state",
+  "authors": "Luke W. Filor, Kaya Mori, Gabriel Bridges, Charles J. Hailey, David A.\n  H. Buckley, Gavin Ramsay, Axel D. Schwope, Valery F. Suleimanov, Michael T.\n  Wolff, Kent S. Wood",
+  "authorsParsed": [
+    [
+      "Filor",
+      "Luke W.",
+      ""
+    ],
+    [
+      "Mori",
+      "Kaya",
+      ""
+    ],
+    [
+      "Bridges",
+      "Gabriel",
+      ""
+    ],
+    [
+      "Hailey",
+      "Charles J.",
+      ""
+    ],
+    [
+      "Buckley",
+      "David A. H.",
+      ""
+    ],
+    [
+      "Ramsay",
+      "Gavin",
+      ""
+    ],
+    [
+      "Schwope",
+      "Axel D.",
+      ""
+    ],
+    [
+      "Suleimanov",
+      "Valery F.",
+      ""
+    ],
+    [
+      "Wolff",
+      "Michael T.",
+      ""
+    ],
+    [
+      "Wood",
+      "Kent S.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 15 Dec 2024 18:36:11 GMT"
+    }
+  ],
+  "updateDate": "2024-12-17",
+  "timestamp": 1734287771000,
+  "abstract": "  We present the first $\\textit{NuSTAR}$ X-ray observation of EF Eri, a\nwell-known polar system. The $\\textit{NuSTAR}$ observation was conducted in\nconjunction with $\\textit{NICER}$, shortly after EF Eri entered a high\naccretion state following an unprecedented period of low activity lasting 26\nyears since 1997. $\\textit{NuSTAR}$ detected hard X-ray emission up to 50 keV\nwith an X-ray flux of $1.2\\times10^{-10}$ ergs s$^{-1}$ cm$^{-2}$ ($3\\rm{-}50\nkeV$). Folded X-ray lightcurves exhibit a single peak with $\\sim65\\%$ spin\nmodulation throughout the $3\\rm{-}50$ keV band. We found no evidence of QPO\nsignals at $\\nu = 0.1\\rm{-}100$ Hz with an upper limit on the QPO amplitude\nbelow $5\\%$ ($90\\%$ CL) at $\\nu \\sim 0.5$ Hz where the optical QPO was\npreviously detected. Our 1-D accretion column model, called ${\\tt MCVSPEC}$,\nwas fitted to the $\\textit{NuSTAR}$ spectral data, yielding an accurate WD mass\nmeasurement of $M = (0.55\\rm{-}0.58) M_\\odot$. $\\texttt{MCVSPEC}$ accounts for\nradiative cooling by thermal bremsstrahlung and cyclotron emission, X-ray\nreflection off the WD surface, and a previously constrained range of the\naccretion column area. The derived WD mass range is in excellent agreement with\nthe previous measurement of $M = (0.55\\rm{-}0.60) M_\\odot$ in the optical band.\nThis demonstrates a combination of broadband X-ray spectral analysis and the\n${\\tt MCVSPEC}$ model that can be employed in our ongoing $\\textit{NuSTAR}$\nobservation campaign of other polars to determine their WD masses accurately.\n",
+  "subjects": [
+    "Astrophysics/High Energy Astrophysical Phenomena"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "hFkmb4qv1Yt9d6u6gtY5Iazbso0hk2SlAb3DvhlJqh4",
+  "pdfSize": "1983371"
+}

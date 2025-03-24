@@ -1,0 +1,62 @@
+{
+  "id": "2412.20171",
+  "title": "Geo-ConvGRU: Geographically Masked Convolutional Gated Recurrent Unit\n  for Bird-Eye View Segmentation",
+  "authors": "Guanglei Yang, Yongqiang Zhang, Wanlong Li, Yu Tang, Weize Shang, Feng\n  Wen, Hongbo Zhang, Mingli Ding",
+  "authorsParsed": [
+    [
+      "Yang",
+      "Guanglei",
+      ""
+    ],
+    [
+      "Zhang",
+      "Yongqiang",
+      ""
+    ],
+    [
+      "Li",
+      "Wanlong",
+      ""
+    ],
+    [
+      "Tang",
+      "Yu",
+      ""
+    ],
+    [
+      "Shang",
+      "Weize",
+      ""
+    ],
+    [
+      "Wen",
+      "Feng",
+      ""
+    ],
+    [
+      "Zhang",
+      "Hongbo",
+      ""
+    ],
+    [
+      "Ding",
+      "Mingli",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 28 Dec 2024 14:59:48 GMT"
+    }
+  ],
+  "updateDate": "2024-12-31",
+  "timestamp": 1735397988000,
+  "abstract": "  Convolutional Neural Networks (CNNs) have significantly impacted various\ncomputer vision tasks, however, they inherently struggle to model long-range\ndependencies explicitly due to the localized nature of convolution operations.\nAlthough Transformers have addressed limitations in long-range dependencies for\nthe spatial dimension, the temporal dimension remains underexplored. In this\npaper, we first highlight that 3D CNNs exhibit limitations in capturing\nlong-range temporal dependencies. Though Transformers mitigate spatial\ndimension issues, they result in a considerable increase in parameter and\nprocessing speed reduction. To overcome these challenges, we introduce a simple\nyet effective module, Geographically Masked Convolutional Gated Recurrent Unit\n(Geo-ConvGRU), tailored for Bird's-Eye View segmentation. Specifically, we\nsubstitute the 3D CNN layers with ConvGRU in the temporal module to bolster the\ncapacity of networks for handling temporal dependencies. Additionally, we\nintegrate a geographical mask into the Convolutional Gated Recurrent Unit to\nsuppress noise introduced by the temporal module. Comprehensive experiments\nconducted on the NuScenes dataset substantiate the merits of the proposed\nGeo-ConvGRU, revealing that our approach attains state-of-the-art performance\nin Bird's-Eye View segmentation.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "Y2e2yJ7KpkLVFUYyi3nSox0S2U1p8gSXmAo23CqUAWo",
+  "pdfSize": "8756910"
+}

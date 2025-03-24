@@ -1,0 +1,38 @@
+{
+  "id": "2412.07688",
+  "title": "A Joint Energy and Differentially-Private Smart Meter Data Market",
+  "authors": "Saurab Chhachhi and Fei Teng",
+  "authorsParsed": [
+    [
+      "Chhachhi",
+      "Saurab",
+      ""
+    ],
+    [
+      "Teng",
+      "Fei",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 10 Dec 2024 17:25:14 GMT"
+    }
+  ],
+  "updateDate": "2024-12-11",
+  "timestamp": 1733851514000,
+  "abstract": "  Given the vital role that smart meter data could play in handling uncertainty\nin energy markets, data markets have been proposed as a means to enable\nincreased data access. However, most extant literature considers energy markets\nand data markets separately, which ignores the interdependence between them. In\naddition, existing data market frameworks rely on a trusted entity to clear the\nmarket. This paper proposes a joint energy and data market focusing on the\nday-ahead retailer energy procurement problem with uncertain demand. The\nretailer can purchase differentially-private smart meter data from consumers to\nreduce uncertainty. The problem is modelled as an integrated forecasting and\noptimisation problem providing a means of valuing data directly rather than\nvaluing forecasts or forecast accuracy. Value is determined by the Wasserstein\ndistance, enabling privacy to be preserved during the valuation and procurement\nprocess. The value of joint energy and data clearing is highlighted through\nnumerical case studies using both synthetic and real smart meter data.\n",
+  "subjects": [
+    "Electrical Engineering and Systems Science/Systems and Control",
+    "Computer Science/Computer Science and Game Theory",
+    "Computer Science/Systems and Control",
+    "Economics/General Economics",
+    "Quantitative Finance/Economics",
+    "Quantitative Finance/Portfolio Management",
+    "Quantitative Finance/Trading and Market Microstructure"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "9EtWC1fCRhUMzhvZHf41fQZ9vaMcQon82iZzT3qbA3s",
+  "pdfSize": "1818563"
+}

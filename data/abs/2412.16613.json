@@ -1,0 +1,33 @@
+{
+  "id": "2412.16613",
+  "title": "Parallelization of Gillespie algorithm based on binary words",
+  "authors": "David Lacoste and Michele Castellana",
+  "authorsParsed": [
+    [
+      "Lacoste",
+      "David",
+      ""
+    ],
+    [
+      "Castellana",
+      "Michele",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 21 Dec 2024 13:07:04 GMT"
+    }
+  ],
+  "updateDate": "2024-12-24",
+  "timestamp": 1734786424000,
+  "abstract": "  We present an improvement of the Gillespie Exact Stochastic Simulation\nAlgorithm, which leverages a bitwise representation of variables to perform\nindependent simulations in parallel. We show that the subsequent gain in\ncomputational yield is significant, and it may allow to perform simulations of\nnon-well mixed chemical systems. We illustrate this idea with simulations of\nFrank model, originally introduced to explain the emergence of homochirality in\nprebiotic systems.\n",
+  "subjects": [
+    "Condensed Matter/Statistical Mechanics",
+    "Physics/Computational Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "fUu9ckwELqBz6TaFXRG20O19c0KWkir7UoVtboJkkt8",
+  "pdfSize": "505840"
+}

@@ -1,0 +1,37 @@
+{
+  "id": "2412.11473",
+  "title": "Optimal interpolation in Hardy and Bergman spaces: a reproducing kernel\n  Banach space approach",
+  "authors": "Gilbert J. Groenewald, Sanne ter Horst, Hugo J. Woerdeman",
+  "authorsParsed": [
+    [
+      "Groenewald",
+      "Gilbert J.",
+      ""
+    ],
+    [
+      "ter Horst",
+      "Sanne",
+      ""
+    ],
+    [
+      "Woerdeman",
+      "Hugo J.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 16 Dec 2024 06:23:13 GMT"
+    }
+  ],
+  "updateDate": "2024-12-17",
+  "timestamp": 1734330193000,
+  "abstract": "  After a review of the reproducing kernel Banach space framework and\nsemi-inner products, we apply the techniques to the setting of Hardy spaces\n$H^p$ and Bergman spaces $A^p$, $1<p<\\infty$, on the unit ball in\n$\\mathbb{C}^n$, as well as the Hardy space on the polydisk and half-space. In\nparticular, we show how the framework leads to a procedure to find a minimal\nnorm element $f$ satisfying interpolation conditions $f(z_j)=w_j$, $j=1,\\ldots\n, n$. We also explain the techniques in the setting of $\\ell^p$ spaces where\nthe norm is defined via a change of variables and provide numerical examples.\n",
+  "subjects": [
+    "Mathematics/Functional Analysis"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "mZMCuIL7EVYRmZRIh28abJHb8ogeevLSBtN802GBzck",
+  "pdfSize": "891155"
+}

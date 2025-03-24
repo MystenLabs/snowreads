@@ -1,0 +1,42 @@
+{
+  "id": "2412.11673",
+  "title": "DINO-Foresight: Looking into the Future with DINO",
+  "authors": "Efstathios Karypidis, Ioannis Kakogeorgiou, Spyros Gidaris, Nikos\n  Komodakis",
+  "authorsParsed": [
+    [
+      "Karypidis",
+      "Efstathios",
+      ""
+    ],
+    [
+      "Kakogeorgiou",
+      "Ioannis",
+      ""
+    ],
+    [
+      "Gidaris",
+      "Spyros",
+      ""
+    ],
+    [
+      "Komodakis",
+      "Nikos",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 16 Dec 2024 11:26:46 GMT"
+    }
+  ],
+  "updateDate": "2024-12-23",
+  "timestamp": 1734348406000,
+  "abstract": "  Predicting future dynamics is crucial for applications like autonomous\ndriving and robotics, where understanding the environment is key. Existing\npixel-level methods are computationally expensive and often focus on irrelevant\ndetails. To address these challenges, we introduce DINO-Foresight, a novel\nframework that operates in the semantic feature space of pretrained Vision\nFoundation Models (VFMs). Our approach trains a masked feature transformer in a\nself-supervised manner to predict the evolution of VFM features over time. By\nforecasting these features, we can apply off-the-shelf, task-specific heads for\nvarious scene understanding tasks. In this framework, VFM features are treated\nas a latent space, to which different heads attach to perform specific tasks\nfor future-frame analysis. Extensive experiments show that our framework\noutperforms existing methods, demonstrating its robustness and scalability.\nAdditionally, we highlight how intermediate transformer representations in\nDINO-Foresight improve downstream task performance, offering a promising path\nfor the self-supervised enhancement of VFM features. We provide the\nimplementation code at https://github.com/Sta8is/DINO-Foresight .\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "yg3_P2Vp8ezcLFsGCn7-AVswc_N5Xo2wZIlF_-echjM",
+  "pdfSize": "17779697"
+}

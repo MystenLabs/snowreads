@@ -1,0 +1,38 @@
+{
+  "id": "2412.03950",
+  "title": "BEFL: Balancing Energy Consumption in Federated Learning for Mobile Edge\n  IoT",
+  "authors": "Zehao Ju and Tongquan Wei and Fuke Shen",
+  "authorsParsed": [
+    [
+      "Ju",
+      "Zehao",
+      ""
+    ],
+    [
+      "Wei",
+      "Tongquan",
+      ""
+    ],
+    [
+      "Shen",
+      "Fuke",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 5 Dec 2024 07:58:32 GMT"
+    }
+  ],
+  "updateDate": "2024-12-06",
+  "timestamp": 1733385512000,
+  "abstract": "  Federated Learning (FL) is a privacy-preserving distributed learning paradigm\ndesigned to build a highly accurate global model. In Mobile Edge IoT (MEIoT),\nthe training and communication processes can significantly deplete the limited\nbattery resources of devices. Existing research primarily focuses on reducing\noverall energy consumption, but this may inadvertently create energy\nconsumption imbalances, leading to the premature dropout of energy-sensitive\ndevices.To address these challenges, we propose BEFL, a joint optimization\nframework aimed at balancing three objectives: enhancing global model accuracy,\nminimizing total energy consumption, and reducing energy usage disparities\namong devices. First, taking into account the communication constraints of\nMEIoT and the heterogeneity of devices, we employed the Sequential Least\nSquares Programming (SLSQP) algorithm for the rational allocation of\ncommunication resources. Based on this, we introduce a heuristic client\nselection algorithm that combines cluster partitioning with utility-driven\napproaches to alleviate both the total energy consumption of all devices and\nthe discrepancies in energy usage.Furthermore, we utilize the proposed\nheuristic client selection algorithm as a template for offline imitation\nlearning during pre-training, while adopting a ranking-based reinforcement\nlearning approach online to further boost training efficiency. Our experiments\nreveal that BEFL improves global model accuracy by 1.6\\%, reduces energy\nconsumption variance by 72.7\\%, and lowers total energy consumption by 28.2\\%\ncompared to existing methods. The relevant code can be found at\n\\href{URL}{https://github.com/juzehao/BEFL}.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Computer Science/Distributed, Parallel, and Cluster Computing"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "VYv37gmTgp-J59OiFQpEuBUiPp6X4JE6UTz-LXx70yc",
+  "pdfSize": "12021155"
+}

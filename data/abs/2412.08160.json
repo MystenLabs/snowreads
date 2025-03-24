@@ -1,0 +1,74 @@
+{
+  "id": "2412.08160",
+  "title": "DG-Mamba: Robust and Efficient Dynamic Graph Structure Learning with\n  Selective State Space Models",
+  "authors": "Haonan Yuan, Qingyun Sun, Zhaonan Wang, Xingcheng Fu, Cheng Ji,\n  Yongjian Wang, Bo Jin, Jianxin Li",
+  "authorsParsed": [
+    [
+      "Yuan",
+      "Haonan",
+      ""
+    ],
+    [
+      "Sun",
+      "Qingyun",
+      ""
+    ],
+    [
+      "Wang",
+      "Zhaonan",
+      ""
+    ],
+    [
+      "Fu",
+      "Xingcheng",
+      ""
+    ],
+    [
+      "Ji",
+      "Cheng",
+      ""
+    ],
+    [
+      "Wang",
+      "Yongjian",
+      ""
+    ],
+    [
+      "Jin",
+      "Bo",
+      ""
+    ],
+    [
+      "Li",
+      "Jianxin",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 11 Dec 2024 07:32:38 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Fri, 13 Dec 2024 08:00:55 GMT"
+    },
+    {
+      "version": "v3",
+      "created": "Mon, 16 Dec 2024 07:44:32 GMT"
+    },
+    {
+      "version": "v4",
+      "created": "Thu, 19 Dec 2024 10:01:27 GMT"
+    }
+  ],
+  "updateDate": "2024-12-20",
+  "timestamp": 1733902358000,
+  "abstract": "  Dynamic graphs exhibit intertwined spatio-temporal evolutionary patterns,\nwidely existing in the real world. Nevertheless, the structure incompleteness,\nnoise, and redundancy result in poor robustness for Dynamic Graph Neural\nNetworks (DGNNs). Dynamic Graph Structure Learning (DGSL) offers a promising\nway to optimize graph structures. However, aside from encountering unacceptable\nquadratic complexity, it overly relies on heuristic priors, making it hard to\ndiscover underlying predictive patterns. How to efficiently refine the dynamic\nstructures, capture intrinsic dependencies, and learn robust representations,\nremains under-explored. In this work, we propose the novel DG-Mamba, a robust\nand efficient Dynamic Graph structure learning framework with the Selective\nState Space Models (Mamba). To accelerate the spatio-temporal structure\nlearning, we propose a kernelized dynamic message-passing operator that reduces\nthe quadratic time complexity to linear. To capture global intrinsic dynamics,\nwe establish the dynamic graph as a self-contained system with State Space\nModel. By discretizing the system states with the cross-snapshot graph\nadjacency, we enable the long-distance dependencies capturing with the\nselective snapshot scan. To endow learned dynamic structures more expressive\nwith informativeness, we propose the self-supervised Principle of Relevant\nInformation for DGSL to regularize the most relevant yet least redundant\ninformation, enhancing global robustness. Extensive experiments demonstrate the\nsuperiority of the robustness and efficiency of our DG-Mamba compared with the\nstate-of-the-art baselines against adversarial attacks.\n",
+  "subjects": [
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "JXHYYiQ4pjAh8hpJVYyPhHN4YNb9lSrEdStdPhuBDoY",
+  "pdfSize": "3989915"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "2412.01554",
+  "title": "A note on indefinite matrix splitting and preconditioning",
+  "authors": "Andy Wathen",
+  "authorsParsed": [
+    [
+      "Wathen",
+      "Andy",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 2 Dec 2024 14:40:46 GMT"
+    }
+  ],
+  "updateDate": "2024-12-03",
+  "timestamp": 1733150446000,
+  "abstract": "  The solution of systems of linear(ized) equations lies at the heart of many\nproblems in Scientific Computing. In particular for systems of large dimension,\niterative methods are a primary approach. Stationary iterative methods are\ngenerally based on a matrix splitting, whereas for polynomial iterative methods\nsuch as Krylov subspace iteration, the splitting matrix is the preconditioner.\nThe smoother in a multigrid method is generally a stationary or polynomial\niteration. Here we consider real symmetric indefinite and complex Hermitian\nindefinite coefficient matrices and prove that no splitting matrix can lead to\na contractive stationary iteration unless the inertia is exactly preserved.\nThis has consequences for preconditioning for indefinite systems and smoothing\nfor multigrid as we further describe.\n",
+  "subjects": [
+    "Mathematics/Numerical Analysis",
+    "Computer Science/Numerical Analysis"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "weZ-Zof2oTImHcLlN2kkg9MUWp5fA0UIhhW5KOl9GFw",
+  "pdfSize": "170584"
+}

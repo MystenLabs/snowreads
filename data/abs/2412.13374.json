@@ -1,0 +1,41 @@
+{
+  "id": "2412.13374",
+  "title": "Accelerating Hardware Verification with Graph Models",
+  "authors": "Raghul Saravanan, Sreenitha Kasarapu, Sai Manoj Pudukotai Dinakarrao",
+  "authorsParsed": [
+    [
+      "Saravanan",
+      "Raghul",
+      ""
+    ],
+    [
+      "Kasarapu",
+      "Sreenitha",
+      ""
+    ],
+    [
+      "Dinakarrao",
+      "Sai Manoj Pudukotai",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 17 Dec 2024 23:14:46 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Thu, 2 Jan 2025 14:12:28 GMT"
+    }
+  ],
+  "updateDate": "2025-01-03",
+  "timestamp": 1734477286000,
+  "abstract": "  The increasing complexity of modern processor and IP designs presents\nsignificant challenges in identifying and mitigating hardware flaws early in\nthe IC design cycle. Traditional hardware fuzzing techniques, inspired by\nsoftware testing, have shown promise but face scalability issues, especially at\nthe gate-level netlist where bugs introduced during synthesis are often missed\nby RTL-level verification due to longer simulation times.\n  To address this, we introduce GraphFuzz, a graph-based hardware fuzzer\ndesigned for gate-level netlist verification. In this approach, hardware\ndesigns are modeled as graph nodes, with gate behaviors encoded as features. By\nleveraging graph learning algorithms, GraphFuzz efficiently detects hardware\nvulnerabilities by analyzing node patterns. Our evaluation across benchmark\ncircuits and open-source processors demonstrates an average prediction accuracy\nof 80% and bug detection accuracy of 70%, highlighting the potential of\ngraph-based methods for enhancing hardware verification.\n",
+  "subjects": [
+    "Computer Science/Cryptography and Security"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "My7IAE-fFj1qg8pA1sD_aDDo9ECGn3CMfQXxDpru2gQ",
+  "pdfSize": "7998845"
+}

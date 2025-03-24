@@ -1,0 +1,52 @@
+{
+  "id": "2412.06276",
+  "title": "Variational quantum compiling for three-qubit gates design in quantum\n  dots",
+  "authors": "Yuanyang Zhou, Huaxin He, Fengtao Pang, Hao Lyu, Yongping Zhang, Xi\n  Chen",
+  "authorsParsed": [
+    [
+      "Zhou",
+      "Yuanyang",
+      ""
+    ],
+    [
+      "He",
+      "Huaxin",
+      ""
+    ],
+    [
+      "Pang",
+      "Fengtao",
+      ""
+    ],
+    [
+      "Lyu",
+      "Hao",
+      ""
+    ],
+    [
+      "Zhang",
+      "Yongping",
+      ""
+    ],
+    [
+      "Chen",
+      "Xi",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 9 Dec 2024 07:49:54 GMT"
+    }
+  ],
+  "updateDate": "2024-12-10",
+  "timestamp": 1733730594000,
+  "abstract": "  Semiconductor quantum dots offer a promising platform for controlling spin\nqubits and realizing quantum logic gates, essential for scalable quantum\ncomputing. In this work, we utilize a variational quantum compiling algorithm\nto design efficient three-qubit gates using a time-independent Hamiltonian\ncomposed of only physical interaction terms. The resulting gates, including the\nToffoli and Fredkin gates, demonstrate high fidelity and robustness against\nboth coherent and incoherent noise sources, including charge and nuclear spin\nnoise. This method is applicable to a wide range of physical systems, such as\nsuperconducting qubits and trapped ions, paving the way for more resilient and\nuniversal quantum computing architectures.\n",
+  "subjects": [
+    "Physics/Quantum Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "UuzsBVX_kzWl_z8m85NmsfXcIVGCVe07YB8lp0tjL4E",
+  "pdfSize": "1697859"
+}

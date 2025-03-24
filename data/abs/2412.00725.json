@@ -1,0 +1,28 @@
+{
+  "id": "2412.00725",
+  "title": "Decision Transformer vs. Decision Mamba: Analysing the Complexity of\n  Sequential Decision Making in Atari Games",
+  "authors": "Ke Yan",
+  "authorsParsed": [
+    [
+      "Yan",
+      "Ke",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 1 Dec 2024 08:37:10 GMT"
+    }
+  ],
+  "updateDate": "2024-12-03",
+  "timestamp": 1733042230000,
+  "abstract": "  This work analyses the disparity in performance between Decision Transformer\n(DT) and Decision Mamba (DM) in sequence modelling reinforcement learning tasks\nfor different Atari games. The study first observed that DM generally\noutperformed DT in the games Breakout and Qbert, while DT performed better in\nmore complicated games, such as Hero and Kung Fu Master. To understand these\ndifferences, we expanded the number of games to 12 and performed a\ncomprehensive analysis of game characteristics, including action space\ncomplexity, visual complexity, average trajectory length, and average steps to\nthe first non-zero reward. In order to further analyse the key factors that\nimpact the disparity in performance between DT and DM, we employ various\napproaches, including quantifying visual complexity, random forest regression,\ncorrelation analysis, and action space simplification strategies. The results\nindicate that the performance gap between DT and DM is affected by the complex\ninteraction of multiple factors, with the complexity of the action space and\nvisual complexity (particularly evaluated by compression ratio) being the\nprimary determining factors. DM performs well in environments with simple\naction and visual elements, while DT shows an advantage in games with higher\naction and visual complexity. Our findings contribute to a deeper understanding\nof how the game characteristics affect the performance difference in sequential\nmodelling reinforcement learning, potentially guiding the development of future\nmodel design and applications for diverse and complex environments.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "2GcGFZAcyLOsWf6OFX4nVlNhX81swMWk4mbUXa6PTbI",
+  "pdfSize": "697250"
+}

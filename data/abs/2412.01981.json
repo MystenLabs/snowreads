@@ -1,0 +1,68 @@
+{
+  "id": "2412.01981",
+  "title": "Free Process Rewards without Process Labels",
+  "authors": "Lifan Yuan, Wendi Li, Huayu Chen, Ganqu Cui, Ning Ding, Kaiyan Zhang,\n  Bowen Zhou, Zhiyuan Liu, Hao Peng",
+  "authorsParsed": [
+    [
+      "Yuan",
+      "Lifan",
+      ""
+    ],
+    [
+      "Li",
+      "Wendi",
+      ""
+    ],
+    [
+      "Chen",
+      "Huayu",
+      ""
+    ],
+    [
+      "Cui",
+      "Ganqu",
+      ""
+    ],
+    [
+      "Ding",
+      "Ning",
+      ""
+    ],
+    [
+      "Zhang",
+      "Kaiyan",
+      ""
+    ],
+    [
+      "Zhou",
+      "Bowen",
+      ""
+    ],
+    [
+      "Liu",
+      "Zhiyuan",
+      ""
+    ],
+    [
+      "Peng",
+      "Hao",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 2 Dec 2024 21:20:02 GMT"
+    }
+  ],
+  "updateDate": "2024-12-04",
+  "timestamp": 1733174402000,
+  "abstract": "  Different from its counterpart outcome reward models (ORMs), which evaluate\nthe entire responses, a process reward model (PRM) scores a reasoning\ntrajectory step by step, providing denser and more fine grained rewards.\nHowever, training a PRM requires labels annotated at every intermediate step,\npresenting significant challenges for both manual and automatic data\ncollection. This paper aims to address this challenge. Both theoretically and\nempirically, we show that an \\textit{implicit PRM} can be obtained at no\nadditional cost, by simply training an ORM on the cheaper response-level\nlabels. The only assumption is to parameterize the outcome reward as the\nlog-likelihood ratios of the policy and reference models, which can be\noptimized regardless of the specific choice of loss objectives. In experiments,\nwe instantiate our implicit PRMs with various objectives and evaluate their\nperformance on MATH. We show that our implicit PRM outperforms a strong\nMCTS-based baseline \\textit{\\'a la} Math-Shepherd using less than $1/38$ of the\ntraining data. Its performance can be further improved with majority voting. We\nfurther find that scaling up instructions and responses benefits our implicit\nPRM, and the latter brings a larger gain. Particularly, we find that our\nimplicit PRM, when instantiated with the cross-entropy (CE) loss, is more\ndata-efficient and can keep improving generation models even when trained with\nonly one response per instruction, the setup that suffers from extreme data\nscarcity and imbalance. Further, instructions should be relevant to downstream\ntasks while the diversity of responses does not bring gains. Surprisingly,\ntraining on extra Math-Shepherd step labels brings no further improvements to\nour implicit PRM trained on only outcome data. We hope that our work will\nencourage a rethinking of PRM training approaches and contribute to making\ntraining PRMs more accessible.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Computer Science/Computation and Language"
+  ],
+  "license": "http://creativecommons.org/licenses/by-sa/4.0/",
+  "blobId": "WUsi0oOnHO269t2W3A5p5goJyWHl3ICyzBVd6r1_V5w",
+  "pdfSize": "630170"
+}

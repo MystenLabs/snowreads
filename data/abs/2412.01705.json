@@ -1,0 +1,44 @@
+{
+  "id": "2412.01705",
+  "title": "Uncertainty-Aware Regularization for Image-to-Image Translation",
+  "authors": "Anuja Vats, Ivar Farup, Marius Pedersen, Kiran Raja",
+  "authorsParsed": [
+    [
+      "Vats",
+      "Anuja",
+      ""
+    ],
+    [
+      "Farup",
+      "Ivar",
+      ""
+    ],
+    [
+      "Pedersen",
+      "Marius",
+      ""
+    ],
+    [
+      "Raja",
+      "Kiran",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 24 Nov 2024 14:05:27 GMT"
+    }
+  ],
+  "updateDate": "2024-12-03",
+  "timestamp": 1732457127000,
+  "abstract": "  The importance of quantifying uncertainty in deep networks has become\nparamount for reliable real-world applications. In this paper, we propose a\nmethod to improve uncertainty estimation in medical Image-to-Image (I2I)\ntranslation. Our model integrates aleatoric uncertainty and employs\nUncertainty-Aware Regularization (UAR) inspired by simple priors to refine\nuncertainty estimates and enhance reconstruction quality. We show that by\nleveraging simple priors on parameters, our approach captures more robust\nuncertainty maps, effectively refining them to indicate precisely where the\nnetwork encounters difficulties, while being less affected by noise. Our\nexperiments demonstrate that UAR not only improves translation performance, but\nalso provides better uncertainty estimations, particularly in the presence of\nnoise and artifacts. We validate our approach using two medical imaging\ndatasets, showcasing its effectiveness in maintaining high confidence in\nfamiliar regions while accurately identifying areas of uncertainty in\nnovel/ambiguous scenarios.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Artificial Intelligence",
+    "Electrical Engineering and Systems Science/Image and Video Processing"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "1LyoL2UgOOC-1ZInF2ZFNtVaeMqxExm2RPyiUFqs2Zk",
+  "pdfSize": "37635250"
+}

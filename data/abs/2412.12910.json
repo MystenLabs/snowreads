@@ -1,0 +1,53 @@
+{
+  "id": "2412.12910",
+  "title": "Sequential Harmful Shift Detection Without Labels",
+  "authors": "Salim I. Amoukou, Tom Bewley, Saumitra Mishra, Freddy Lecue, Daniele\n  Magazzeni, Manuela Veloso",
+  "authorsParsed": [
+    [
+      "Amoukou",
+      "Salim I.",
+      ""
+    ],
+    [
+      "Bewley",
+      "Tom",
+      ""
+    ],
+    [
+      "Mishra",
+      "Saumitra",
+      ""
+    ],
+    [
+      "Lecue",
+      "Freddy",
+      ""
+    ],
+    [
+      "Magazzeni",
+      "Daniele",
+      ""
+    ],
+    [
+      "Veloso",
+      "Manuela",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 17 Dec 2024 13:37:48 GMT"
+    }
+  ],
+  "updateDate": "2024-12-18",
+  "timestamp": 1734442668000,
+  "abstract": "  We introduce a novel approach for detecting distribution shifts that\nnegatively impact the performance of machine learning models in continuous\nproduction environments, which requires no access to ground truth data labels.\nIt builds upon the work of Podkopaev and Ramdas [2022], who address scenarios\nwhere labels are available for tracking model errors over time. Our solution\nextends this framework to work in the absence of labels, by employing a proxy\nfor the true error. This proxy is derived using the predictions of a trained\nerror estimator. Experiments show that our method has high power and false\nalarm control under various distribution shifts, including covariate and label\nshifts and natural shifts over geography and time.\n",
+  "subjects": [
+    "Statistics/Machine Learning",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "FEE8x5S5KBpWxgOl0ZQw8ST7xiCCSoBjGKdqht8WRLc",
+  "pdfSize": "1933634"
+}

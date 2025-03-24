@@ -1,0 +1,47 @@
+{
+  "id": "2412.07422",
+  "title": "Beyond Search Engines: Can Large Language Models Improve Curriculum\n  Development?",
+  "authors": "Mohammad Moein, Mohammadreza Molavi Hajiagha, Abdolali Faraji,\n  Mohammadreza Tavakoli, G\\`abor Kismih\\`ok",
+  "authorsParsed": [
+    [
+      "Moein",
+      "Mohammad",
+      ""
+    ],
+    [
+      "Hajiagha",
+      "Mohammadreza Molavi",
+      ""
+    ],
+    [
+      "Faraji",
+      "Abdolali",
+      ""
+    ],
+    [
+      "Tavakoli",
+      "Mohammadreza",
+      ""
+    ],
+    [
+      "Kismihòk",
+      "Gàbor",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 10 Dec 2024 11:21:16 GMT"
+    }
+  ],
+  "updateDate": "2024-12-11",
+  "timestamp": 1733829676000,
+  "abstract": "  While Online Learning is growing and becoming widespread, the associated\ncurricula often suffer from a lack of coverage and outdated content. In this\nregard, a key question is how to dynamically define the topics that must be\ncovered to thoroughly learn a subject (e.g., a course). Large Language Models\n(LLMs) are considered candidates that can be used to address curriculum\ndevelopment challenges. Therefore, we developed a framework and a novel\ndataset, built on YouTube, to evaluate LLMs' performance when it comes to\ngenerating learning topics for specific courses. The experiment was conducted\nacross over 100 courses and nearly 7,000 YouTube playlists in various subject\nareas. Our results indicate that GPT-4 can produce more accurate topics for the\ngiven courses than extracted topics from YouTube video playlists in terms of\nBERTScore\n",
+  "subjects": [
+    "Computer Science/Computers and Society"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "sN3zIQmazy8Z5HcvKkzA44IAJp-ibFyxklgdsws1TVA",
+  "pdfSize": "356039"
+}

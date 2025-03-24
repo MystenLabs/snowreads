@@ -1,0 +1,42 @@
+{
+  "id": "2412.05765",
+  "title": "A Two-stage Joint Modeling Approach for Multiple Longitudinal Markers\n  and Time-to-event Data",
+  "authors": "Taban Baghfalaki, Reza Hashemi, Catherine Helmer, Helene Jacqmin-Gadda",
+  "authorsParsed": [
+    [
+      "Baghfalaki",
+      "Taban",
+      ""
+    ],
+    [
+      "Hashemi",
+      "Reza",
+      ""
+    ],
+    [
+      "Helmer",
+      "Catherine",
+      ""
+    ],
+    [
+      "Jacqmin-Gadda",
+      "Helene",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 7 Dec 2024 23:59:40 GMT"
+    }
+  ],
+  "updateDate": "2024-12-10",
+  "timestamp": 1733615980000,
+  "abstract": "  Collecting multiple longitudinal measurements and time-to-event outcomes is a\ncommon practice in clinical and epidemiological studies, often focusing on\nexploring associations between them. Joint modeling is the standard analytical\ntool for such data, with several R packages available. However, as the number\nof longitudinal markers increases, the computational burden and convergence\nchallenges make joint modeling increasingly impractical.\n  This paper introduces a novel two-stage Bayesian approach to estimate joint\nmodels for multiple longitudinal measurements and time-to-event outcomes. The\nmethod builds on the standard two-stage framework but improves the initial\nstage by estimating a separate one-marker joint model for the event and each\nlongitudinal marker, rather than relying on mixed models. These estimates are\nused to derive predictions of individual marker trajectories, avoiding biases\nfrom informative dropouts. In the second stage, a proportional hazards model is\nfitted, incorporating the predicted current values and slopes of the markers as\ntime-dependent covariates. To address uncertainty in the first-stage\npredictions, a multiple imputation technique is employed when estimating the\nCox model in the second stage.\n  This two-stage method allows for the analysis of numerous longitudinal\nmarkers, which is often infeasible with traditional multi-marker joint\nmodeling. The paper evaluates the approach through simulation studies and\napplies it to the PBC2 dataset and a real-world dementia dataset containing 17\nlongitudinal markers. An R package, TSJM, implementing the method is freely\navailable on GitHub: https://github.com/tbaghfalaki/TSJM.\n",
+  "subjects": [
+    "Statistics/Methodology"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "SEdgcyfAcyhI11suSFVqkZKoLHPn4okSDIwFgx0WMf4",
+  "pdfSize": "737701"
+}

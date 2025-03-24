@@ -1,0 +1,33 @@
+{
+  "id": "2412.15513",
+  "title": "Stabilizing Laplacian Inversion in Fokker-Planck Image Retrieval using\n  the Transport-of-Intensity Equation",
+  "authors": "Samantha J Alloo and Kaye S Morgan",
+  "authorsParsed": [
+    [
+      "Alloo",
+      "Samantha J",
+      ""
+    ],
+    [
+      "Morgan",
+      "Kaye S",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 20 Dec 2024 02:59:40 GMT"
+    }
+  ],
+  "updateDate": "2024-12-23",
+  "timestamp": 1734663580000,
+  "abstract": "  X-ray attenuation, phase, and dark-field images provide complementary\ninformation. Different experimental techniques can capture these contrast\nmechanisms, and the corresponding images can be retrieved using various\ntheoretical algorithms. Our previous works developed the Multimodal Intrinsic\nSpeckle-Tracking (MIST) algorithm, which is suitable for multimodal image\nretrieval from speckle-based X-ray imaging (SBXI) data. MIST is based on the\nX-ray Fokker-Planck equation, requiring the inversion of derivative operators\nthat are often numerically unstable. These instabilities can be addressed by\nemploying regularization techniques, such as Tikhonov regularization. The\nregularization output is highly sensitive to the choice of the Tikhonov\nregularization parameter, making it crucial to select this value carefully and\noptimally. Here, we present an automated iterative algorithm to optimize the\nregularization of the inverse Laplacian operator in our most recently published\nMIST variant, addressing the operator's instability near the Fourier-space\norigin. Our algorithm leverages the inherent stability of the phase solution\nobtained from the transport-of-intensity equation for SBXI, using it as a\nreliable ground truth for the more complex Fokker-Planck-based algorithms that\nincorporate the dark-field signal. We applied the algorithm to an SBXI dataset\ncollected using synchrotron light of a four-rod sample. The four-rod sample's\nphase and dark-field images were optimally retrieved using our developed\nalgorithm, eliminating the tedious and subjective task of selecting a suitable\nTikhonov regularization parameter. The developed regularization-optimization\nalgorithm makes MIST more user-friendly by eliminating the need for manual\nparameter selection. We anticipate that our optimization algorithm can also be\napplied to other image retrieval approaches derived from the Fokker-Planck\nequation.\n",
+  "subjects": [
+    "Physics/Optics",
+    "Electrical Engineering and Systems Science/Image and Video Processing"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "hwUpbZQiCj5eLi3zhXO9IRCizyXwlro1FqmTBAGNse0",
+  "pdfSize": "8327800"
+}

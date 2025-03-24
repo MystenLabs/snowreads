@@ -1,0 +1,49 @@
+{
+  "id": "2412.06867",
+  "title": "Lossless Model Compression via Joint Low-Rank Factorization Optimization",
+  "authors": "Boyang Zhang, Daning Cheng, Yunquan Zhang, Fangmin Liu, Jiake Tian",
+  "authorsParsed": [
+    [
+      "Zhang",
+      "Boyang",
+      ""
+    ],
+    [
+      "Cheng",
+      "Daning",
+      ""
+    ],
+    [
+      "Zhang",
+      "Yunquan",
+      ""
+    ],
+    [
+      "Liu",
+      "Fangmin",
+      ""
+    ],
+    [
+      "Tian",
+      "Jiake",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 9 Dec 2024 09:37:54 GMT"
+    }
+  ],
+  "updateDate": "2024-12-11",
+  "timestamp": 1733737074000,
+  "abstract": "  Low-rank factorization is a popular model compression technique that\nminimizes the error $\\delta$ between approximated and original weight matrices.\nDespite achieving performances close to the original models when $\\delta$ is\noptimized, a performance discrepancy remains due to the separate optimization\nprocesses for low-rank factorization and model performance, resulting in\nunavoidable losses. We address this issue by introducing a novel joint\noptimization strategy for lossless low-rank weight factorization, which, for\nthe first time, enhances the model's performance beyond the original. Our\napproach begins with a theoretical analysis of the relationship between\nlow-rank factorization and model optimization objectives, establishing a\nprecise perturbation range for matrix factorization errors on model\nperformance. This challenge is then reformulated as a numerical rank deficiency\nproblem with inequality constraints and develop a joint objective that\nsimultaneously addresses factorization error and model performance. Based on\nthe above analysis, we propose two optimization algorithms: \\textbf{a lossless\noptimization algorithm} that maximizes model accuracy while ensuring\ncompression, and \\textbf{a compact optimization algorithm} that minimizes model\nsize while preserving performance. These algorithms do not require fine-tuning\nand can directly compress numerous deep models to achieve lossless results. Our\nmethods demonstrate robust efficacy across various vision and language tasks.\nFor example, the compressed model reduced by 70\\% on ResNext50 outperforms the\noriginal. Our code will be made public.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Computational Complexity"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "dSfzhaLNdemtUxRXta7HLM1DBtU0NibMad2CfJWj-jc",
+  "pdfSize": "994529"
+}

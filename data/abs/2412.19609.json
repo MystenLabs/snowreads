@@ -1,0 +1,48 @@
+{
+  "id": "2412.19609",
+  "title": "Bidding Games on Markov Decision Processes with Quantitative\n  Reachability Objectives",
+  "authors": "Guy Avni, Martin Kure\\v{c}ka, Kaushik Mallik, Petr Novotn\\'y, Suman\n  Sadhukhan",
+  "authorsParsed": [
+    [
+      "Avni",
+      "Guy",
+      ""
+    ],
+    [
+      "Kurečka",
+      "Martin",
+      ""
+    ],
+    [
+      "Mallik",
+      "Kaushik",
+      ""
+    ],
+    [
+      "Novotný",
+      "Petr",
+      ""
+    ],
+    [
+      "Sadhukhan",
+      "Suman",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 27 Dec 2024 12:10:00 GMT"
+    }
+  ],
+  "updateDate": "2024-12-30",
+  "timestamp": 1735301400000,
+  "abstract": "  Graph games are fundamental in strategic reasoning of multi-agent systems and\ntheir environments. We study a new family of graph games which combine\nstochastic environmental uncertainties and auction-based interactions among the\nagents, formalized as bidding games on (finite) Markov decision processes\n(MDP). Normally, on MDPs, a single decision-maker chooses a sequence of\nactions, producing a probability distribution over infinite paths. In bidding\ngames on MDPs, two players -- called the reachability and safety players -- bid\nfor the privilege of choosing the next action at each step. The reachability\nplayer's goal is to maximize the probability of reaching a target vertex,\nwhereas the safety player's goal is to minimize it. These games generalize\ntraditional bidding games on graphs, and the existing analysis techniques do\nnot extend. For instance, the central property of traditional bidding games is\nthe existence of a threshold budget, which is a necessary and sufficient budget\nto guarantee winning for the reachability player. For MDPs, the threshold\nbecomes a relation between the budgets and probabilities of reaching the\ntarget. We devise value-iteration algorithms that approximate thresholds and\noptimal policies for general MDPs, and compute the exact solutions for acyclic\nMDPs, and show that finding thresholds is at least as hard as solving\nsimple-stochastic games.\n",
+  "subjects": [
+    "Computer Science/Computer Science and Game Theory",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "DUQzQQpdwuFUbfzNUxdAMtIOSZbB37gpRxul1IWXsS4",
+  "pdfSize": "778255"
+}

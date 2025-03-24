@@ -1,0 +1,38 @@
+{
+  "id": "2412.02864",
+  "title": "Learning constitutive relations from experiments: 1. PDE constrained\n  optimization",
+  "authors": "Andrew Akerson, Aakila Rajan and Kaushik Bhattacharya",
+  "authorsParsed": [
+    [
+      "Akerson",
+      "Andrew",
+      ""
+    ],
+    [
+      "Rajan",
+      "Aakila",
+      ""
+    ],
+    [
+      "Bhattacharya",
+      "Kaushik",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 3 Dec 2024 21:59:35 GMT"
+    }
+  ],
+  "updateDate": "2024-12-05",
+  "timestamp": 1733263175000,
+  "abstract": "  We propose a method to accurately and efficiently identify the constitutive\nbehavior of complex materials through full-field observations. We formulate the\nproblem of inferring constitutive relations from experiments as an indirect\ninverse problem that is constrained by the balance laws. Specifically, we seek\nto find a constitutive behavior that minimizes the difference between the\nexperimental observation and the corresponding quantities computed with the\nmodel, while enforcing the balance laws. We formulate the forward problem as a\nboundary value problem corresponding to the experiment, and compute the\nsensitivity of the objective with respect to model using the adjoint method.\nThe resulting method is robust and can be applied to constitutive models with\narbitrary complexity. We focus on elasto-viscoplasticity, but the approach can\nbe extended to other settings. In this part one, we formulate the method and\ndemonstrate it using synthetic data on two problems, one quasistatic and the\nother dynamic.\n",
+  "subjects": [
+    "Condensed Matter/Materials Science",
+    "Physics/Computational Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "mF1y3hjUokl2HsH0I6KIaeTGlwqDuQMBYr-5yjYRoUE",
+  "pdfSize": "11838531"
+}

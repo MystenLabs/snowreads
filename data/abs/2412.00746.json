@@ -1,0 +1,67 @@
+{
+  "id": "2412.00746",
+  "title": "BDefects4NN: A Backdoor Defect Database for Controlled Localization\n  Studies in Neural Networks",
+  "authors": "Yisong Xiao, Aishan Liu, Xinwei Zhang, Tianyuan Zhang, Tianlin Li,\n  Siyuan Liang, Xianglong Liu, Yang Liu, Dacheng Tao",
+  "authorsParsed": [
+    [
+      "Xiao",
+      "Yisong",
+      ""
+    ],
+    [
+      "Liu",
+      "Aishan",
+      ""
+    ],
+    [
+      "Zhang",
+      "Xinwei",
+      ""
+    ],
+    [
+      "Zhang",
+      "Tianyuan",
+      ""
+    ],
+    [
+      "Li",
+      "Tianlin",
+      ""
+    ],
+    [
+      "Liang",
+      "Siyuan",
+      ""
+    ],
+    [
+      "Liu",
+      "Xianglong",
+      ""
+    ],
+    [
+      "Liu",
+      "Yang",
+      ""
+    ],
+    [
+      "Tao",
+      "Dacheng",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 1 Dec 2024 09:52:48 GMT"
+    }
+  ],
+  "updateDate": "2024-12-03",
+  "timestamp": 1733046768000,
+  "abstract": "  Pre-trained large deep learning models are now serving as the dominant\ncomponent for downstream middleware users and have revolutionized the learning\nparadigm, replacing the traditional approach of training from scratch locally.\nTo reduce development costs, developers often integrate third-party pre-trained\ndeep neural networks (DNNs) into their intelligent software systems. However,\nutilizing untrusted DNNs presents significant security risks, as these models\nmay contain intentional backdoor defects resulting from the black-box training\nprocess. These backdoor defects can be activated by hidden triggers, allowing\nattackers to maliciously control the model and compromise the overall\nreliability of the intelligent software. To ensure the safe adoption of DNNs in\ncritical software systems, it is crucial to establish a backdoor defect\ndatabase for localization studies. This paper addresses this research gap by\nintroducing BDefects4NN, the first backdoor defect database, which provides\nlabeled backdoor-defected DNNs at the neuron granularity and enables controlled\nlocalization studies of defect root causes. In BDefects4NN, we define three\ndefect injection rules and employ four representative backdoor attacks across\nfour popular network architectures and three widely adopted datasets, yielding\na comprehensive database of 1,654 backdoor-defected DNNs with four defect\nquantities and varying infected neurons. Based on BDefects4NN, we conduct\nextensive experiments on evaluating six fault localization criteria and two\ndefect repair techniques, which show limited effectiveness for backdoor\ndefects. Additionally, we investigate backdoor-defected models in practical\nscenarios, specifically in lane detection for autonomous driving and large\nlanguage models (LLMs), revealing potential threats and highlighting current\nlimitations in precise defect localization.\n",
+  "subjects": [
+    "Computer Science/Software Engineering"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "bNHDUwOOSdONFNkGxNAXu_JM4WWh80WovhU1P84WmOc",
+  "pdfSize": "1383574"
+}

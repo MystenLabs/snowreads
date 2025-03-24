@@ -1,0 +1,52 @@
+{
+  "id": "2412.01477",
+  "title": "Improving Object Detection by Modifying Synthetic Data with Explainable\n  AI",
+  "authors": "Nitish Mital, Simon Malzard, Richard Walters, Celso M. De Melo,\n  Raghuveer Rao, Victoria Nockles",
+  "authorsParsed": [
+    [
+      "Mital",
+      "Nitish",
+      ""
+    ],
+    [
+      "Malzard",
+      "Simon",
+      ""
+    ],
+    [
+      "Walters",
+      "Richard",
+      ""
+    ],
+    [
+      "De Melo",
+      "Celso M.",
+      ""
+    ],
+    [
+      "Rao",
+      "Raghuveer",
+      ""
+    ],
+    [
+      "Nockles",
+      "Victoria",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 2 Dec 2024 13:24:43 GMT"
+    }
+  ],
+  "updateDate": "2024-12-03",
+  "timestamp": 1733145883000,
+  "abstract": "  In many computer vision domains the collection of sufficient real-world data\nis challenging and can severely impact model performance, particularly when\nrunning inference on samples that are unseen or underrepresented in training.\nSynthetically generated images provide a promising solution, but it remains\nunclear how to design synthetic data to optimally improve model performance,\nfor example whether to introduce more realism or more abstraction in such\ndatasets. Here we propose a novel conceptual approach to improve the\nperformance of computer vision models trained on synthetic images, by using\nrobust Explainable AI (XAI) techniques to guide the modification of 3D models\nused to generate these images. Importantly, this framework allows both\nmodifications that increase and decrease realism in synthetic data, which can\nboth improve model performance. We illustrate this concept using a real-world\nexample where data are sparse; the detection of vehicles in infrared imagery.\nWe fine-tune an initial YOLOv8 model on the ATR DSIAC infrared dataset and\nsynthetic images generated from 3D mesh models in the Unity gaming engine, and\nthen use XAI saliency maps to guide modification of our Unity models. We show\nthat synthetic data can improve detection of vehicles in orientations unseen in\ntraining by 4.6\\% (to mAP50 scores of 94.6\\%). We further improve performance\nby an additional 1.5\\% (to 96.1\\%) through our new XAI-guided approach, which\nreduces misclassifications through both increasing and decreasing the realism\nof different parts of the synthetic data. These proof-of-concept results pave\nthe way for fine, XAI-controlled curation of synthetic datasets through\ndetailed feature modifications, tailored to improve object detection\nperformance.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "eg2ck3tvHxDkmt-y1ZFNnTjfQmsfnSM4ZLZf94kHbx4",
+  "pdfSize": "4654457"
+}

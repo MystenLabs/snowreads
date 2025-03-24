@@ -1,0 +1,27 @@
+{
+  "id": "2412.18009",
+  "title": "Tensor t-structures, perversity functions and weight structures",
+  "authors": "Gopinath Sahoo",
+  "authorsParsed": [
+    [
+      "Sahoo",
+      "Gopinath",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 23 Dec 2024 22:04:35 GMT"
+    }
+  ],
+  "updateDate": "2024-12-25",
+  "timestamp": 1734991475000,
+  "abstract": "  We introduce the notion of tensor t-structures on the bounded derived\ncategories of schemes. For a Noetherian scheme $X$ admitting a dualizing\ncomplex, Bezrukavnikov-Deligne, and then independently Gabber and Kashiwara\nhave shown that given a monotone comonotone perversity function on $X$ one can\nconstruct a t-structure on $\\mathbf{D}^b (X)$. We show that such t-structures\nare tensor t-structures and conversely every tensor t-structure on\n$\\mathbf{D}^b (X)$ arises in this way. We achieve this by first characterising\ntensor t-structures in terms of Thomason-Cousin filtrations which generalises\nearlier results of Alonso, Jerem\\'ias and Saor\\'in, from Noetherian rings to\nschemes. We also show that for a smooth projective curve $C$, the derived\ncategory $\\mathbf{D}^b (C)$ has no non-trivial tensor weight structures, this\nextends our earlier result on the projective line to higher genus curves.\n",
+  "subjects": [
+    "Mathematics/Algebraic Geometry"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "vPXo-8xXLs2ze9hmUAGlXrP2HNJ98MHXtVDR0BmBwvk",
+  "pdfSize": "256579"
+}

@@ -1,0 +1,38 @@
+{
+  "id": "2412.01044",
+  "title": "Synchronization transitions in adaptive simplicial complexes with\n  cooperative and competitive dynamics",
+  "authors": "S. Nirmala Jenifer, Dibakar Ghosh, and Paulsamy Muruganandam",
+  "authorsParsed": [
+    [
+      "Jenifer",
+      "S. Nirmala",
+      ""
+    ],
+    [
+      "Ghosh",
+      "Dibakar",
+      ""
+    ],
+    [
+      "Muruganandam",
+      "Paulsamy",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 2 Dec 2024 02:01:36 GMT"
+    }
+  ],
+  "updateDate": "2025-01-24",
+  "timestamp": 1733104896000,
+  "abstract": "  Adaptive network is a powerful presentation to describe different real-world\nphenomena. However, current models often neglect higher-order interactions\n(beyond pairwise interactions) and diverse adaptation types (cooperative and\ncompetitive) commonly observed in systems like the human brain and social\nnetworks. This work addresses this gap by incorporating these factors into a\nmodel that explores their impact on collective properties like synchronization.\nThrough simplified network representations, we investigate how the simultaneous\npresence of cooperative and competitive adaptations influences phase\ntransitions. Our findings reveal a transition from first-order to second-order\nsynchronization as the strength of higher-order interactions increases under\ncompetitive adaptation. We also demonstrate the possibility of synchronization\neven without pairwise interactions, provided there is strong enough\nhigher-order coupling. When only competitive adaptations are present, the\nsystem exhibits second-order-like phase transitions and clustering. Conversely,\nwith a combination of cooperative and competitive adaptations, the system\nundergoes a first-order-like phase transition, characterized by a sharp\ntransition to the synchronized state without reverting to an incoherent state\nduring backward transitions. The specific nature of these second-order-like\ntransitions varies depending on the coupling strengths and mean degrees. With\nour model, we can control not only when the system synchronizes but also the\nway the system goes to synchronization.\n",
+  "subjects": [
+    "Nonlinear Sciences/Adaptation and Self-Organizing Systems",
+    "Physics/Physics and Society"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "Tscrbp_4679MODxXq6KhgHbfnr0uGCAV2k5LyfGTetw",
+  "pdfSize": "577575"
+}

@@ -1,0 +1,49 @@
+{
+  "id": "2412.05481",
+  "title": "A Compositional Atlas for Algebraic Circuits",
+  "authors": "Benjie Wang and Denis Deratani Mau\\'a and Guy Van den Broeck and\n  YooJung Choi",
+  "authorsParsed": [
+    [
+      "Wang",
+      "Benjie",
+      ""
+    ],
+    [
+      "Mauá",
+      "Denis Deratani",
+      ""
+    ],
+    [
+      "Broeck",
+      "Guy Van den",
+      ""
+    ],
+    [
+      "Choi",
+      "YooJung",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 7 Dec 2024 00:51:46 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Mon, 24 Feb 2025 07:15:11 GMT"
+    }
+  ],
+  "updateDate": "2025-02-25",
+  "timestamp": 1733532706000,
+  "abstract": "  Circuits based on sum-product structure have become a ubiquitous\nrepresentation to compactly encode knowledge, from Boolean functions to\nprobability distributions. By imposing constraints on the structure of such\ncircuits, certain inference queries become tractable, such as model counting\nand most probable configuration. Recent works have explored analyzing\nprobabilistic and causal inference queries as compositions of basic operators\nto derive tractability conditions. In this paper, we take an algebraic\nperspective for compositional inference, and show that a large class of queries\n- including marginal MAP, probabilistic answer set programming inference, and\ncausal backdoor adjustment - correspond to a combination of basic operators\nover semirings: aggregation, product, and elementwise mapping. Using this\nframework, we uncover simple and general sufficient conditions for tractable\ncomposition of these operators, in terms of circuit properties (e.g., marginal\ndeterminism, compatibility) and conditions on the elementwise mappings.\nApplying our analysis, we derive novel tractability conditions for many such\ncompositional queries. Our results unify tractability conditions for existing\nproblems on circuits, while providing a blueprint for analysing novel\ncompositional inference queries.\n",
+  "subjects": [
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Machine Learning",
+    "Computer Science/Logic in Computer Science",
+    "Statistics/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "BDBj11Kta36KqD4bv1RDVLJFBbaec4ZyxxrxpI9yRqk",
+  "pdfSize": "467193"
+}

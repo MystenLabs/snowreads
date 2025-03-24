@@ -1,0 +1,42 @@
+{
+  "id": "2412.14849",
+  "title": "DS$^2$-ABSA: Dual-Stream Data Synthesis with Label Refinement for\n  Few-Shot Aspect-Based Sentiment Analysis",
+  "authors": "Hongling Xu, Yice Zhang, Qianlong Wang, Ruifeng Xu",
+  "authorsParsed": [
+    [
+      "Xu",
+      "Hongling",
+      ""
+    ],
+    [
+      "Zhang",
+      "Yice",
+      ""
+    ],
+    [
+      "Wang",
+      "Qianlong",
+      ""
+    ],
+    [
+      "Xu",
+      "Ruifeng",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 19 Dec 2024 13:39:47 GMT"
+    }
+  ],
+  "updateDate": "2024-12-20",
+  "timestamp": 1734615587000,
+  "abstract": "  Recently developed large language models (LLMs) have presented promising new\navenues to address data scarcity in low-resource scenarios. In few-shot\naspect-based sentiment analysis (ABSA), previous efforts have explored data\naugmentation techniques, which prompt LLMs to generate new samples by modifying\nexisting ones. However, these methods fail to produce adequately diverse data,\nimpairing their effectiveness. Besides, some studies apply in-context learning\nfor ABSA by using specific instructions and a few selected examples as prompts.\nThough promising, LLMs often yield labels that deviate from task requirements.\nTo overcome these limitations, we propose DS$^2$-ABSA, a dual-stream data\nsynthesis framework targeted for few-shot ABSA. It leverages LLMs to synthesize\ndata from two complementary perspectives: \\textit{key-point-driven} and\n\\textit{instance-driven}, which effectively generate diverse and high-quality\nABSA samples in low-resource settings. Furthermore, a \\textit{label refinement}\nmodule is integrated to improve the synthetic labels. Extensive experiments\ndemonstrate that DS$^2$-ABSA significantly outperforms previous few-shot ABSA\nsolutions and other LLM-oriented data generation methods.\n",
+  "subjects": [
+    "Computer Science/Computation and Language"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "Ix6v1AYmhPnfkHDycKDQyJKKQ3Kf2OV0wVjzl_HaBrE",
+  "pdfSize": "1418366"
+}

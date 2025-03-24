@@ -1,0 +1,34 @@
+{
+  "id": "2412.07064",
+  "title": "Dynamics of vorticity moments in shell models of turbulence: A\n  comparison with the Navier-Stokes equations",
+  "authors": "John D. Gibbon and Dario Vincenzi",
+  "authorsParsed": [
+    [
+      "Gibbon",
+      "John D.",
+      ""
+    ],
+    [
+      "Vincenzi",
+      "Dario",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 10 Dec 2024 00:16:38 GMT"
+    }
+  ],
+  "updateDate": "2024-12-11",
+  "timestamp": 1733789798000,
+  "abstract": "  Shell models allow much greater scale separations than those presently\nachievable with direct numerical simulations of the Navier-Stokes equations.\nConsequently, they are an invaluable tool for testing new concepts and ideas in\nthe theory of fully developed turbulence. They also successfully display energy\ncascades and intermittency in homogeneous and isotropic turbulent flows.\nMoreover, they are also of great interest to mathematical analysts because,\nwhile retaining some of the key features of the Euler and the Navier-Stokes\nequations, they are much more tractable. A comparison of the mathematical\nproperties of shell models and of the three-dimensional Navier-Stokes equations\nis therefore essential in understanding the correspondence between the two\nsystems. Here we focus on the temporal evolution of the moments, or\n$L^{2m}$-norms, of the vorticity. Specifically, differential inequalities for\nthe moments of the vorticity in shell models are derived. The contribution of\nthe nonlinear term turns out to be much weaker than its equivalent for the\nthree-dimensional Navier-Stokes equations. Consequently, pointwise-in-time\nestimates are shown to exist for the vorticity moments for shell models of any\norder. This result is also recovered via a high-low frequency slaving argument\nthat highlights the scaling relations between vorticity moments of different\norders. Finally, it is shown that the estimates for shell models formally\ncorrespond to those for the Navier-Stokes equations 'on a point'.\n",
+  "subjects": [
+    "Physics/Fluid Dynamics",
+    "Mathematics/Analysis of PDEs",
+    "Nonlinear Sciences/Chaotic Dynamics"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "N_a9f30yoN63-0RtN8VvspsrXn9qzsPudEZ_Jsh2lFE",
+  "pdfSize": "1888297"
+}

@@ -1,0 +1,44 @@
+{
+  "id": "2412.20152",
+  "title": "Quantum phase estimation and realistic detection schemes in Mach-Zehnder\n  interferometer using SU(2) coherent states",
+  "authors": "Mohammed Abdellaoui, Nour-Eddine Abouelkhir, Abdallah Slaoui, and\n  Rachid Ahl Laamara",
+  "authorsParsed": [
+    [
+      "Abdellaoui",
+      "Mohammed",
+      ""
+    ],
+    [
+      "Abouelkhir",
+      "Nour-Eddine",
+      ""
+    ],
+    [
+      "Slaoui",
+      "Abdallah",
+      ""
+    ],
+    [
+      "Laamara",
+      "Rachid Ahl",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 28 Dec 2024 13:37:15 GMT"
+    }
+  ],
+  "updateDate": "2024-12-31",
+  "timestamp": 1735393035000,
+  "abstract": "  In quantum parameter estimation, the quantum Cram\\'er-Rao bound (QCRB) sets a\nfundamental limit on the precision achievable with unbiased estimators. It\nrelates the uncertainty in estimating a parameter to the inverse of the quantum\nFisher information (QFI). Both QCRB and QFI are valuable tools for analyzing\ninterferometric phase sensitivity. This paper compares the single-parameter and\ntwo-parameter QFI for a Mach-Zehnder interferometer (MZI) with three detection\nschemes: single-mode and difference intensity detection, neither has access to\nan external phase reference and balanced homodyne detection with access to an\nexternal phase reference. We use a spin-coherent state associated with the\nsu(2) algebra as the input state in all scenarios and show that all three\nschemes can achieve the QCRB for the spin-coherent input state. Furthermore, we\nexplore the utilization of SU(2) coherent states in diverse scenarios.\nSignificantly, we find that the best pressure is obtained when the total\nangular momentum quantum number $j$ is high, and we demonstrate that given\noptimal conditions, all detection schemes can achieve the QCRB by utilizing\nSU(2) coherent states as input states.\n",
+  "subjects": [
+    "Physics/Quantum Physics",
+    "Physics/Mathematical Physics",
+    "Mathematics/Mathematical Physics"
+  ],
+  "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+  "blobId": "TkihTRsfVXsKV4waYZl0H48j3wLmVQtkvDrgYuYzTpc",
+  "pdfSize": "3944491"
+}

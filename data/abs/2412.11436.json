@@ -1,0 +1,32 @@
+{
+  "id": "2412.11436",
+  "title": "Event-based Detectors for Laser Guide Star Tip-Tilt Sensing",
+  "authors": "Monique Cockram, Noelia Martinez Rey",
+  "authorsParsed": [
+    [
+      "Cockram",
+      "Monique",
+      ""
+    ],
+    [
+      "Rey",
+      "Noelia Martinez",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 16 Dec 2024 04:28:49 GMT"
+    }
+  ],
+  "updateDate": "2024-12-17",
+  "timestamp": 1734323329000,
+  "abstract": "  Event-based sensors detect only changes in brightness across a scene, each\npixel producing an asynchronous stream of spatial-temporal data, rather than\nrecording frames of overall illumination like a traditional frame-based sensor.\nThis is advantageous for implementing into a wavefront sensor, which benefits\nfrom high temporal resolution and high dynamic range. The determination of\ntip-tilt in particular is still a problem in laser guide star adaptive optics\nas there is no current technological capabilities to measure it. This study\ncharacterised the behaviour of an event-based sensor in the context of tip-tilt\nsensing,investigating if the high temporal resolution of the event streams\ncould address these challenges. Different conditions of tip-tilt and background\nillumination levels are explored and found to be a strong contender for\ntip-tilt sensing with laser guide stars.\n",
+  "subjects": [
+    "Astrophysics/Instrumentation and Methods for Astrophysics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "YkQN3AHbgiB8rSo25h2sMBVfOvYXW71lmoW7rta-L3A",
+  "pdfSize": "8379592"
+}

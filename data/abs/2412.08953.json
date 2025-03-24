@@ -1,0 +1,36 @@
+{
+  "id": "2412.08953",
+  "title": "A Unified Framework for Harnessing Heat and Light with Hydrovoltaic\n  Devices",
+  "authors": "Tarique Anwar and Giulia Tagliabue",
+  "authorsParsed": [
+    [
+      "Anwar",
+      "Tarique",
+      ""
+    ],
+    [
+      "Tagliabue",
+      "Giulia",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 12 Dec 2024 05:35:31 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Fri, 17 Jan 2025 17:52:44 GMT"
+    }
+  ],
+  "updateDate": "2025-01-20",
+  "timestamp": 1733981731000,
+  "abstract": "  The conversion of ambient heat into electricity through natural evaporation\npresents a promising avenue for sustainable energy technologies. This study\nintroduces a unified framework for evaporation-driven hydrovoltaic (EDHV)\ndevices that transcends traditional mechanisms focused solely on ion streaming\nat the solid-liquid interface. Our approach harnesses both thermodiffusion and\nphotovoltaic effects to effectively transform waste heat and solar energy into\nelectrical power. Utilizing a top-evaporating surface paired with a bottom\nsilicon-dielectric (core-shell) nanopillar array separated by a liquid layer,\nwe demonstrate significant enhancements in power output under external heating\nand solar illumination. Our findings reveal that in addition to the movement of\na polar solvent (like water and ethanol) and ions in a narrow, partially wetted\ntop electrode region, thermally and light-assisted ion migration from the\nbottom to the top electrode plays a pivotal role in electricity generation. We\ndeveloped an equivalent electrical circuit model that quantifies the latter\ncontribution through the capacitive element denoted as transfer capacitance. We\ndemonstrate a state-of-the-art open circuit voltage of 1V and output power\ndensity of 0.25W/m2 at 0.1M concentration. Furthermore, we highlight the\ncritical influence of material selection on device performance; transitioning\nfrom TiO2 to Al2O3 dielectric shell results in voltage (power) enhancements of\n1.9 (3.6 times) at 25{\\deg}C and 1.6 (2.4 times) at 70{\\deg}C. Notably, high\nsilicon doping yields a 28% increase in open-circuit voltage and a 1.6-fold\nimprovement in power output compared to low-doped samples. These results\nprovide insights into advancing EDHV devices and suggest broader operational\nstrategies that consider environmental conditions, water salinity, and material\nengineering to optimize the utilization of waste heat and sunlight.\n",
+  "subjects": [
+    "Physics/Chemical Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "zwOczilk7_4zKSOckxzJ-WXbU1JiyT3sM2RRYceLGIQ",
+  "pdfSize": "2959473"
+}

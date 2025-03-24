@@ -1,0 +1,32 @@
+{
+  "id": "2412.14894",
+  "title": "Le chameau et le serpent rentrent dans un bar : v\\'erification\n  quasi-automatique de code OCaml en logique de s\\'eparation",
+  "authors": "Charl\\`ene Gros, M\\'ario Pereira",
+  "authorsParsed": [
+    [
+      "Gros",
+      "Charlène",
+      ""
+    ],
+    [
+      "Pereira",
+      "Mário",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 19 Dec 2024 14:22:48 GMT"
+    }
+  ],
+  "updateDate": "2024-12-20",
+  "timestamp": 1734618168000,
+  "abstract": "  This paper presents a translation from Gospel-annotated OCaml programs into\nViper, an intermediate verification language featuring Separation Logic. The\npractical goal is to extend Cameleer with a new back-end to prove\nheap-dependent OCaml programs. The logical specification of such OCaml programs\nis described using an extension of Gospel to support Separation Logic features,\nwhich we describe in the paper.\n",
+  "subjects": [
+    "Computer Science/Logic in Computer Science"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "9hhFDjqm5POgap7tKg2kss49oyjhtylgFnzrR4J_DpY",
+  "pdfSize": "205597"
+}

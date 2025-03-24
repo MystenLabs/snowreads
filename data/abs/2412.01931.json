@@ -1,0 +1,47 @@
+{
+  "id": "2412.01931",
+  "title": "Planar Gaussian Splatting",
+  "authors": "Farhad G. Zanjani, Hong Cai, Hanno Ackermann, Leila Mirvakhabova,\n  Fatih Porikli",
+  "authorsParsed": [
+    [
+      "Zanjani",
+      "Farhad G.",
+      ""
+    ],
+    [
+      "Cai",
+      "Hong",
+      ""
+    ],
+    [
+      "Ackermann",
+      "Hanno",
+      ""
+    ],
+    [
+      "Mirvakhabova",
+      "Leila",
+      ""
+    ],
+    [
+      "Porikli",
+      "Fatih",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 2 Dec 2024 19:46:43 GMT"
+    }
+  ],
+  "updateDate": "2024-12-04",
+  "timestamp": 1733168803000,
+  "abstract": "  This paper presents Planar Gaussian Splatting (PGS), a novel neural rendering\napproach to learn the 3D geometry and parse the 3D planes of a scene, directly\nfrom multiple RGB images. The PGS leverages Gaussian primitives to model the\nscene and employ a hierarchical Gaussian mixture approach to group them.\nSimilar Gaussians are progressively merged probabilistically in the\ntree-structured Gaussian mixtures to identify distinct 3D plane instances and\nform the overall 3D scene geometry. In order to enable the grouping, the\nGaussian primitives contain additional parameters, such as plane descriptors\nderived by lifting 2D masks from a general 2D segmentation model and surface\nnormals. Experiments show that the proposed PGS achieves state-of-the-art\nperformance in 3D planar reconstruction without requiring either 3D plane\nlabels or depth supervision. In contrast to existing supervised methods that\nhave limited generalizability and struggle under domain shift, PGS maintains\nits performance across datasets thanks to its neural rendering and\nscene-specific optimization mechanism, while also being significantly faster\nthan existing optimization-based approaches.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "p_FFMIKVAT-9f9EkBMdcsZhF9cYczunT7ikRxfSd_nY",
+  "pdfSize": "28705098"
+}

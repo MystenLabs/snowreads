@@ -1,0 +1,54 @@
+{
+  "id": "2412.18603",
+  "title": "Long-Form Speech Generation with Spoken Language Models",
+  "authors": "Se Jin Park, Julian Salazar, Aren Jansen, Keisuke Kinoshita, Yong Man\n  Ro, RJ Skerry-Ryan",
+  "authorsParsed": [
+    [
+      "Park",
+      "Se Jin",
+      ""
+    ],
+    [
+      "Salazar",
+      "Julian",
+      ""
+    ],
+    [
+      "Jansen",
+      "Aren",
+      ""
+    ],
+    [
+      "Kinoshita",
+      "Keisuke",
+      ""
+    ],
+    [
+      "Ro",
+      "Yong Man",
+      ""
+    ],
+    [
+      "Skerry-Ryan",
+      "RJ",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 24 Dec 2024 18:56:46 GMT"
+    }
+  ],
+  "updateDate": "2024-12-25",
+  "timestamp": 1735066606000,
+  "abstract": "  We consider the generative modeling of speech over multiple minutes, a\nrequirement for long-form multimedia generation and audio-native voice\nassistants. However, current spoken language models struggle to generate\nplausible speech past tens of seconds, from high temporal resolution of speech\ntokens causing loss of coherence, to architectural issues with long-sequence\ntraining or extrapolation, to memory costs at inference time. With these\nconsiderations we propose SpeechSSM, the first speech language model to learn\nfrom and sample long-form spoken audio (e.g., 16 minutes of read or\nextemporaneous speech) in a single decoding session without text intermediates,\nbased on recent advances in linear-time sequence modeling. Furthermore, to\naddress growing challenges in spoken language evaluation, especially in this\nnew long-form setting, we propose: new embedding-based and LLM-judged metrics;\nquality measurements over length and time; and a new benchmark for long-form\nspeech processing and generation, LibriSpeech-Long. Speech samples and the\ndataset are released at\nhttps://google.github.io/tacotron/publications/speechssm/\n",
+  "subjects": [
+    "Computer Science/Computation and Language",
+    "Computer Science/Sound",
+    "Electrical Engineering and Systems Science/Audio and Speech Processing"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "wtedZCLNcMkKeTYNzgvkZafsFiRpSc9aIM30hnRF6e4",
+  "pdfSize": "664267"
+}

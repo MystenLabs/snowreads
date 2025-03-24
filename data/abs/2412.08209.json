@@ -1,0 +1,33 @@
+{
+  "id": "2412.08209",
+  "title": "Time-optimal persistent homology representatives for univariate time\n  series",
+  "authors": "Antonio Leitao and Nina Otter",
+  "authorsParsed": [
+    [
+      "Leitao",
+      "Antonio",
+      ""
+    ],
+    [
+      "Otter",
+      "Nina",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 11 Dec 2024 08:57:48 GMT"
+    }
+  ],
+  "updateDate": "2024-12-12",
+  "timestamp": 1733907468000,
+  "abstract": "  Persistent homology (PH) is one of the main methods used in Topological Data\nAnalysis. An active area of research in the field is the study of appropriate\nnotions of PH representatives, which allow to interpret the meaning of the\ninformation provided by PH, making it an important problem in the application\nof PH, and in the study of its interpretability. Computing optimal PH\nrepresentatives is a problem that is known to be NP-hard, and one is therefore\ninterested in developing context-specific optimality notions that are\ncomputable in practice. Here we introduce time-optimal PH representatives for\ntime-varying data, allowing one to extract representatives that are close in\ntime in an appropriate sense. We illustrate our methods on quasi-periodic\nsynthetic time series, as well as time series arising from climate models, and\nwe show that our methods provide optimal PH representatives that are better\nsuited for these types of problems than existing optimality notions, such as\nlength-optimal PH representatives.\n",
+  "subjects": [
+    "Mathematics/Algebraic Topology",
+    "Computer Science/Computational Geometry"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "8bM1UBJoMbI9HzCiAwRY0mTjh88SyvIuxlxQ6hQaoLk",
+  "pdfSize": "8922981"
+}

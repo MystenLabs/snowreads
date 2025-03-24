@@ -1,0 +1,33 @@
+{
+  "id": "2412.10529",
+  "title": "Solving the Inverse Alignment Problem for Efficient RLHF",
+  "authors": "Shambhavi Krishna, Aishwarya Sahoo",
+  "authorsParsed": [
+    [
+      "Krishna",
+      "Shambhavi",
+      ""
+    ],
+    [
+      "Sahoo",
+      "Aishwarya",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 13 Dec 2024 19:47:38 GMT"
+    }
+  ],
+  "updateDate": "2024-12-17",
+  "timestamp": 1734119258000,
+  "abstract": "  Collecting high-quality preference datasets for reinforcement learning from\nhuman feedback (RLHF) is resource-intensive and challenging. As a result,\nresearchers often train reward models on extensive offline datasets which\naggregate diverse generation sources and scoring/alignment policies. We\nhypothesize that this aggregation has an averaging effect on reward model\nscores, which limits signal and impairs the alignment process. Inspired by the\nfield of inverse RL, we define the 'inverse alignment problem' in language\nmodel training, where our objective is to optimize the critic's reward for a\nfixed actor and a fixed offline preference dataset. We hypothesize that solving\nthe inverse alignment problem will improve reward model quality by providing\nclearer feedback on the policy's current behavior. To that end, we investigate\nwhether repeatedly fine-tuning a reward model on subsets of the offline\npreference dataset aligned with a periodically frozen policy during RLHF\nimproves upon vanilla RLHF. Our empirical results demonstrate that this\napproach facilitates superior alignment and faster convergence compared to\nusing an unaligned or out-of-distribution reward model relative to the LLM\npolicy.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Computer Science/Computation and Language"
+  ],
+  "license": "http://creativecommons.org/licenses/by-sa/4.0/",
+  "blobId": "4muVxJqC3jv07hjmxj-JeZPzoiYjXVL8WB2D1VY_Ko8",
+  "pdfSize": "591336"
+}

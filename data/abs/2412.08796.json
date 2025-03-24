@@ -1,0 +1,38 @@
+{
+  "id": "2412.08796",
+  "title": "Fundamental bounds on many-body spin cluster intensities",
+  "authors": "Christian Bengs, Chongwei Zhang, Ashok Ajoy",
+  "authorsParsed": [
+    [
+      "Bengs",
+      "Christian",
+      ""
+    ],
+    [
+      "Zhang",
+      "Chongwei",
+      ""
+    ],
+    [
+      "Ajoy",
+      "Ashok",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 11 Dec 2024 22:02:46 GMT"
+    }
+  ],
+  "updateDate": "2024-12-13",
+  "timestamp": 1733954566000,
+  "abstract": "  Multiple-quantum coherence (MQC) spectroscopy is a powerful technique for\nprobing spin clusters, offering insights into diverse materials and quantum\nmany-body systems. However, prior experiments have revealed a rapid decay in\nMQC intensities as the coherence order increases, restricting observable\ncluster sizes to the square root of the total system size. In this work, we\nestablish fundamental bounds on observable MQC intensities in the thermodynamic\nlimit outside the weak polarisation limit. We identify a sharp transition point\nin the observable MQC intensities as the coherence order grows. This transition\npoints fragments the state space into two components consisting of observable\nand unobservable spin clusters. Notably, we find that this transition point is\ndirectly proportional to the size $N$ and polarization $p$ of the system,\nsuggesting that the aforementioned square root limitation can be overcome\nthrough hyperpolarization techniques. Our results provide important\nexperimental guidelines for the observation of large spin cluster phenomena.\n",
+  "subjects": [
+    "Physics/Quantum Physics",
+    "Physics/Chemical Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "h54Usx2uvq9ixv6gAzJpPmlGv7nqLSxt_NsqHJXeRpc",
+  "pdfSize": "1585467"
+}

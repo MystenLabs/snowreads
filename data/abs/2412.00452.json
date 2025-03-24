@@ -1,0 +1,63 @@
+{
+  "id": "2412.00452",
+  "title": "Learning Locally, Revising Globally: Global Reviser for Federated\n  Learning with Noisy Labels",
+  "authors": "Yuxin Tian, Mouxing Yang, Yuhao Zhou, Jian Wang, Qing Ye, Tongliang\n  Liu, Gang Niu, Jiancheng Lv",
+  "authorsParsed": [
+    [
+      "Tian",
+      "Yuxin",
+      ""
+    ],
+    [
+      "Yang",
+      "Mouxing",
+      ""
+    ],
+    [
+      "Zhou",
+      "Yuhao",
+      ""
+    ],
+    [
+      "Wang",
+      "Jian",
+      ""
+    ],
+    [
+      "Ye",
+      "Qing",
+      ""
+    ],
+    [
+      "Liu",
+      "Tongliang",
+      ""
+    ],
+    [
+      "Niu",
+      "Gang",
+      ""
+    ],
+    [
+      "Lv",
+      "Jiancheng",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 30 Nov 2024 11:57:26 GMT"
+    }
+  ],
+  "updateDate": "2024-12-03",
+  "timestamp": 1732967846000,
+  "abstract": "  The success of most federated learning (FL) methods heavily depends on label\nquality, which is often inaccessible in real-world scenarios, such as medicine,\nleading to the federated label-noise (F-LN) problem. In this study, we observe\nthat the global model of FL memorizes the noisy labels slowly. Based on the\nobservations, we propose a novel approach dubbed Global Reviser for Federated\nLearning with Noisy Labels (FedGR) to enhance the label-noise robustness of FL.\nIn brief, FedGR employs three novel modules to achieve noisy label sniffing and\nrefining, local knowledge revising, and local model regularization.\nSpecifically, the global model is adopted to infer local data proxies for\nglobal sample selection and refine incorrect labels. To maximize the\nutilization of local knowledge, we leverage the global model to revise the\nlocal exponential moving average (EMA) model of each client and distill it into\nthe clients' models. Additionally, we introduce a global-to-local\nrepresentation regularization to mitigate the overfitting of noisy labels.\nExtensive experiments on three F-LNL benchmarks against seven baseline methods\ndemonstrate the effectiveness of the proposed FedGR.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "dhRR4x2ZFngDo98w5FOcM5tct1w1KA3ckzEE5R__uxM",
+  "pdfSize": "10948589"
+}

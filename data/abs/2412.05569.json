@@ -1,0 +1,63 @@
+{
+  "id": "2412.05569",
+  "title": "SMI-Editor: Edit-based SMILES Language Model with Fragment-level\n  Supervision",
+  "authors": "Kangjie Zheng, Siyue Liang, Junwei Yang, Bin Feng, Zequn Liu, Wei Ju,\n  Zhiping Xiao, Ming Zhang",
+  "authorsParsed": [
+    [
+      "Zheng",
+      "Kangjie",
+      ""
+    ],
+    [
+      "Liang",
+      "Siyue",
+      ""
+    ],
+    [
+      "Yang",
+      "Junwei",
+      ""
+    ],
+    [
+      "Feng",
+      "Bin",
+      ""
+    ],
+    [
+      "Liu",
+      "Zequn",
+      ""
+    ],
+    [
+      "Ju",
+      "Wei",
+      ""
+    ],
+    [
+      "Xiao",
+      "Zhiping",
+      ""
+    ],
+    [
+      "Zhang",
+      "Ming",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 7 Dec 2024 07:32:55 GMT"
+    }
+  ],
+  "updateDate": "2024-12-10",
+  "timestamp": 1733556775000,
+  "abstract": "  SMILES, a crucial textual representation of molecular structures, has\ngarnered significant attention as a foundation for pre-trained language models\n(LMs). However, most existing pre-trained SMILES LMs focus solely on the\nsingle-token level supervision during pre-training, failing to fully leverage\nthe substructural information of molecules. This limitation makes the\npre-training task overly simplistic, preventing the models from capturing\nricher molecular semantic information. Moreover, during pre-training, these\nSMILES LMs only process corrupted SMILES inputs, never encountering any valid\nSMILES, which leads to a train-inference mismatch. To address these challenges,\nwe propose SMI-Editor, a novel edit-based pre-trained SMILES LM. SMI-Editor\ndisrupts substructures within a molecule at random and feeds the resulting\nSMILES back into the model, which then attempts to restore the original SMILES\nthrough an editing process. This approach not only introduces fragment-level\ntraining signals, but also enables the use of valid SMILES as inputs, allowing\nthe model to learn how to reconstruct complete molecules from these incomplete\nstructures. As a result, the model demonstrates improved scalability and an\nenhanced ability to capture fragment-level molecular information. Experimental\nresults show that SMI-Editor achieves state-of-the-art performance across\nmultiple downstream molecular tasks, and even outperforming several 3D\nmolecular representation models.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Quantitative Biology/Biomolecules"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "IiiujGTwLIrvl11QmYbos56FUT7xTdDX847Ykzm5RMQ",
+  "pdfSize": "1405249"
+}

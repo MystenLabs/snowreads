@@ -1,0 +1,45 @@
+{
+  "id": "2412.09211",
+  "title": "DeWitt wave functions for de Sitter JT gravity",
+  "authors": "Wilfried Buchmuller (DESY), Arthur Hebecker (U. Heidelberg, ITP) and\n  Alexander Westphal (DESY)",
+  "authorsParsed": [
+    [
+      "Buchmuller",
+      "Wilfried",
+      "",
+      "DESY"
+    ],
+    [
+      "Hebecker",
+      "Arthur",
+      "",
+      "U. Heidelberg, ITP"
+    ],
+    [
+      "Westphal",
+      "Alexander",
+      "",
+      "DESY"
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 12 Dec 2024 12:04:40 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Thu, 2 Jan 2025 14:42:52 GMT"
+    }
+  ],
+  "updateDate": "2025-01-03",
+  "timestamp": 1734005080000,
+  "abstract": "  Jackiw-Teitelboim (JT) gravity in two-dimensional de Sitter space is an\nintriguing model for cosmological \"wave functions of the universe\". Its\nminisuperspace version already contains all physical information. The size of\ncompact slices is parametrized by a scale factor $h > 0$. The dilaton $\\phi$ is\nchosen to have positive values, $\\phi > 0$, and interpreted as size of an\nadditional compact slice in a higher-dimensional theory. At the boundaries\n$h=0$, $\\phi=0$, where the volume of the universe vanishes, the curvature is\ngenerically singular. According to a conjecture by DeWitt, solutions of the\nWheeler-DeWitt (WDW) equation should vanish at singular loci. Recently, the\nbehaviour of JT wave functions at large field values $h$, $\\phi$ has been\nobtained by means of a path integral over Schwarzian degrees of freedom of a\nboundary curve. We systematically analyze solutions of the WDW equation with\nSchwarzian asymptotic behaviour. We find real analytic solutions that vanish on\nthe entire boundary, in agreement with DeWitt's conjecture. Projection to\nexpanding and contracting branches may lead to singularities, which can however\nbe avoided by an appropriate superposition of solutions. Our analysis also\nillustrates the limitations of semiclassical wave functions.\n",
+  "subjects": [
+    "Physics/High Energy Physics - Theory",
+    "Physics/General Relativity and Quantum Cosmology"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "uEASlihSpc34VNqPP7LP3JeY5q_v9q_DSgMaqUzvyoM",
+  "pdfSize": "2926787"
+}

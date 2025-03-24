@@ -1,0 +1,32 @@
+{
+  "id": "2412.08488",
+  "title": "Orbital stability of normalized ground states for critical Choquard\n  equation with potential",
+  "authors": "Jun Wang and Zhaoyang Yin",
+  "authorsParsed": [
+    [
+      "Wang",
+      "Jun",
+      ""
+    ],
+    [
+      "Yin",
+      "Zhaoyang",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 11 Dec 2024 15:52:43 GMT"
+    }
+  ],
+  "updateDate": "2024-12-12",
+  "timestamp": 1733932363000,
+  "abstract": "  In this paper, we study the existence of ground state standing waves and\norbital stability, of prescribed mass, for the nonlinear critical Choquard\nequation \\begin{equation*}\n  \\left\\{\\begin{array}{l} i \\partial_t u+\\Delta u\n-V(x)u+(I_{\\alpha}\\ast|u|^{q})|u|^{q-2}u+(I_{\\alpha}\\ast|u|^{2_{\\alpha}^*})|u|^{2_{\\alpha}^*-2}u=0,\\\n(x, t) \\in \\mathbb{R}^d \\times \\mathbb{R}, \\\\ \\left.u\\right|_{t=0}=\\varphi \\in\nH ^1(\\mathbb{R}^d), \\end{array}\\right. \\end{equation*} where $I_{\\alpha}$ is a\nRiesz potential of order $\\alpha\\in(0,d),\\ d\\geq3,\\\n2_{\\alpha}^*=\\frac{2d-\\alpha}{d-2}$ is the upper critical exponent due to\nHardy-Littlewood-Sobolev inequality,\n$\\frac{2d-\\alpha}{d}<q<\\frac{2d-\\alpha+2}{d}$. Under appropriate potential\nconditions, we obtain new Strichartz estimates and construct the new space to\nget orbital stability of normalized ground state. To our best knowledge, this\nis the first orbital stability result for this model. Our method is also\napplicable to other mixed nonlinear equations with potential.\n",
+  "subjects": [
+    "Mathematics/Analysis of PDEs"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "QDzlG9sBXx2M8EasxgiQF9L2HMpm6lQYV5hZTVUr0ms",
+  "pdfSize": "262777"
+}

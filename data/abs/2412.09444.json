@@ -1,0 +1,36 @@
+{
+  "id": "2412.09444",
+  "title": "Search Strategy Generation for Branch and Bound Using Genetic\n  Programming",
+  "authors": "Gwen Maudet, Gr\\'egoire Danoy",
+  "authorsParsed": [
+    [
+      "Maudet",
+      "Gwen",
+      ""
+    ],
+    [
+      "Danoy",
+      "Grégoire",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 12 Dec 2024 16:57:46 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Tue, 17 Dec 2024 13:24:36 GMT"
+    }
+  ],
+  "updateDate": "2024-12-18",
+  "timestamp": 1734022666000,
+  "abstract": "  Branch-and-Bound (B\\&B) is an exact method in integer programming that\nrecursively divides the search space into a tree. During the resolution\nprocess, determining the next subproblem to explore within the tree-known as\nthe search strategy-is crucial. Hand-crafted heuristics are commonly used, but\nnone are effective over all problem classes. Recent approaches utilizing neural\nnetworks claim to make more intelligent decisions but are computationally\nexpensive. In this paper, we introduce GP2S (Genetic Programming for Search\nStrategy), a novel machine learning approach that automatically generates a\nB\\&B search strategy heuristic, aiming to make intelligent decisions while\nbeing computationally lightweight. We define a policy as a function that\nevaluates the quality of a B\\&B node by combining features from the node and\nthe problem; the search strategy policy is then defined by a best-first search\nbased on this node ranking. The policy space is explored using a genetic\nprogramming algorithm, and the policy that achieves the best performance on a\ntraining set is selected. We compare our approach with the standard method of\nthe SCIP solver, a recent graph neural network-based method, and handcrafted\nheuristics. Our first evaluation includes three types of primal hard problems,\ntested on instances similar to the training set and on larger instances. Our\nmethod is at most 2\\% slower than the best baseline and consistently\noutperforms SCIP, achieving an average speedup of 11.3\\%. Additionally, GP2S is\ntested on the MIPLIB 2017 dataset, generating multiple heuristics from\ndifferent subsets of instances. It exceeds SCIP's average performance in 7 out\nof 10 cases across 15 times more instances and under a time limit 15 times\nlonger, with some GP2S methods leading on most experiments in terms of the\nnumber of feasible solutions or optimality gap.\n",
+  "subjects": [
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "0hBmxQ9vcfM2OipuXDTNg7eSptGIE4QNi5-afMyeAM0",
+  "pdfSize": "508269"
+}

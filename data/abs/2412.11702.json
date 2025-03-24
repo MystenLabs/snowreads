@@ -1,0 +1,41 @@
+{
+  "id": "2412.11702",
+  "title": "Flex-PE: Flexible and SIMD Multi-Precision Processing Element for AI\n  Workloads",
+  "authors": "Mukul Lokhande, Gopal Raut, Santosh Kumar Vishvakarma",
+  "authorsParsed": [
+    [
+      "Lokhande",
+      "Mukul",
+      ""
+    ],
+    [
+      "Raut",
+      "Gopal",
+      ""
+    ],
+    [
+      "Vishvakarma",
+      "Santosh Kumar",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 16 Dec 2024 12:25:57 GMT"
+    }
+  ],
+  "updateDate": "2024-12-30",
+  "timestamp": 1734351957000,
+  "abstract": "  The rapid adaptation of data driven AI models, such as deep learning\ninference, training, Vision Transformers (ViTs), and other HPC applications,\ndrives a strong need for runtime precision configurable different non linear\nactivation functions (AF) hardware support. Existing solutions support diverse\nprecision or runtime AF reconfigurability but fail to address both\nsimultaneously. This work proposes a flexible and SIMD multiprecision\nprocessing element (FlexPE), which supports diverse runtime configurable AFs,\nincluding sigmoid, tanh, ReLU and softmax, and MAC operation. The proposed\ndesign achieves an improved throughput of up to 16X FxP4, 8X FxP8, 4X FxP16 and\n1X FxP32 in pipeline mode with 100% time multiplexed hardware. This work\nproposes an area efficient multiprecision iterative mode in the SIMD systolic\narrays for edge AI use cases. The design delivers superior performance with up\nto 62X and 371X reductions in DMA reads for input feature maps and weight\nfilters in VGG16, with an energy efficiency of 8.42 GOPS / W within the\naccuracy loss of 2%. The proposed architecture supports emerging 4-bit\ncomputations for DL inference while enhancing throughput in FxP8/16 modes for\ntransformers and other HPC applications. The proposed approach enables future\nenergy-efficient AI accelerators in edge and cloud environments.\n",
+  "subjects": [
+    "Computer Science/Hardware Architecture",
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Distributed, Parallel, and Cluster Computing",
+    "Computer Science/Emerging Technologies",
+    "Electrical Engineering and Systems Science/Image and Video Processing"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "WlDG370P09B_smKIbT95PcaU0vVRqyrhAzMueYvy0hQ",
+  "pdfSize": "2551374"
+}

@@ -1,0 +1,47 @@
+{
+  "id": "2412.11506",
+  "title": "Glimpse: Enabling White-Box Methods to Use Proprietary Models for\n  Zero-Shot LLM-Generated Text Detection",
+  "authors": "Guangsheng Bao, Yanbin Zhao, Juncai He, Yue Zhang",
+  "authorsParsed": [
+    [
+      "Bao",
+      "Guangsheng",
+      ""
+    ],
+    [
+      "Zhao",
+      "Yanbin",
+      ""
+    ],
+    [
+      "He",
+      "Juncai",
+      ""
+    ],
+    [
+      "Zhang",
+      "Yue",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 16 Dec 2024 07:28:36 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Wed, 19 Feb 2025 07:37:55 GMT"
+    }
+  ],
+  "updateDate": "2025-02-20",
+  "timestamp": 1734334116000,
+  "abstract": "  Advanced large language models (LLMs) can generate text almost\nindistinguishable from human-written text, highlighting the importance of\nLLM-generated text detection. However, current zero-shot techniques face\nchallenges as white-box methods are restricted to use weaker open-source LLMs,\nand black-box methods are limited by partial observation from stronger\nproprietary LLMs. It seems impossible to enable white-box methods to use\nproprietary models because API-level access to the models neither provides full\npredictive distributions nor inner embeddings. To traverse the divide, we\npropose **Glimpse**, a probability distribution estimation approach, predicting\nthe full distributions from partial observations. Despite the simplicity of\nGlimpse, we successfully extend white-box methods like Entropy, Rank, Log-Rank,\nand Fast-DetectGPT to latest proprietary models. Experiments show that Glimpse\nwith Fast-DetectGPT and GPT-3.5 achieves an average AUROC of about 0.95 in five\nlatest source models, improving the score by 51% relative to the remaining\nspace of the open source baseline. It demonstrates that the latest LLMs can\neffectively detect their own outputs, suggesting that advanced LLMs may be the\nbest shield against themselves. We release our code and data at\nhttps://github.com/baoguangsheng/glimpse.\n",
+  "subjects": [
+    "Computer Science/Computation and Language",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "25Y2msLUZQ4oWUmJDDm7c6DZ4o5TJi2tGo5aZ-Pua5A",
+  "pdfSize": "889254"
+}

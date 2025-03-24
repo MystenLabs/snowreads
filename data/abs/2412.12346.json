@@ -1,0 +1,47 @@
+{
+  "id": "2412.12346",
+  "title": "Feasibility Study of Measuring $\\Lambda^0\\to n\\pi^{0}$ Using a\n  High-Granularity Zero-Degree Calorimeter at the Future Electron-Ion Collider",
+  "authors": "Sebouh J. Paul, Ryan Milton, Sebasti\\'an Mor\\'an, Barak Schmookler,\n  Miguel Arratia",
+  "authorsParsed": [
+    [
+      "Paul",
+      "Sebouh J.",
+      ""
+    ],
+    [
+      "Milton",
+      "Ryan",
+      ""
+    ],
+    [
+      "Morán",
+      "Sebastián",
+      ""
+    ],
+    [
+      "Schmookler",
+      "Barak",
+      ""
+    ],
+    [
+      "Arratia",
+      "Miguel",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 16 Dec 2024 20:41:44 GMT"
+    }
+  ],
+  "updateDate": "2024-12-18",
+  "timestamp": 1734381704000,
+  "abstract": "  Key measurements at the future Electron-Ion Collider (EIC), including\nfirst-of-their-kind studies of kaon structure, require the detection of\n$\\Lambda^0$ at forward angles. We present a feasibility study of $\\Lambda^0 \\to\nn\\pi^0$ measurements using a high-granularity Zero Degree Calorimeter to be\nlocated about 35 m from the interaction point. We introduce a method to address\nthe unprecedented challenge of identifying $\\Lambda^0$s with energy $O(100)$\nGeV that produce displaced vertices of $O(10)$ m. In addition, we present a\nreconstruction approach using graph neural networks. We find that the energy\nand angle resolution for $\\Lambda^0$ is similar to that for neutrons, both of\nwhich meet the requirements outlined in the EIC Yellow Report.Furthermore, we\nestimate performance for measuring the neutron's direction in the $\\Lambda^0$\nrest frame, which reflects the $\\Lambda^0$ spin polarization. We estimate that\nthe neutral-decay channel $\\Lambda^0 \\to n\\pi^0$ will greatly extend the\nmeasurable energy range for the charged-decay channel $\\Lambda^0 \\to p\\pi^-$,\nwhich is limited by the location of small-angle trackers and the accelerator\nmagnets. This work paves the way for EIC studies of kaon structure and spin\nphenomena.\n",
+  "subjects": [
+    "Physics/Nuclear Experiment"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "wFZXFeguGQDMM9xUd1MwwvhtiGamuCCj0u8tTpI45r0",
+  "pdfSize": "2810024"
+}

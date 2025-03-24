@@ -1,0 +1,47 @@
+{
+  "id": "2412.01985",
+  "title": "Improving feature interactions at Pinterest under industry constraints",
+  "authors": "Siddarth Malreddy, Matthew Lawhon, Usha Amrutha Nookala, Aditya\n  Mantha, Dhruvil Deven Badani",
+  "authorsParsed": [
+    [
+      "Malreddy",
+      "Siddarth",
+      ""
+    ],
+    [
+      "Lawhon",
+      "Matthew",
+      ""
+    ],
+    [
+      "Nookala",
+      "Usha Amrutha",
+      ""
+    ],
+    [
+      "Mantha",
+      "Aditya",
+      ""
+    ],
+    [
+      "Badani",
+      "Dhruvil Deven",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 2 Dec 2024 21:29:16 GMT"
+    }
+  ],
+  "updateDate": "2024-12-04",
+  "timestamp": 1733174956000,
+  "abstract": "  Adopting advances in recommendation systems is often challenging in\nindustrial settings due to unique constraints. This paper aims to highlight\nthese constraints through the lens of feature interactions. Feature\ninteractions are critical for accurately predicting user behavior in\nrecommendation systems and online advertising. Despite numerous novel\ntechniques showing superior performance on benchmark datasets like Criteo,\ntheir direct application in industrial settings is hindered by constraints such\nas model latency, GPU memory limitations and model reproducibility. In this\npaper, we share our learnings from improving feature interactions in\nPinterest's Homefeed ranking model under such constraints. We provide details\nabout the specific challenges encountered, the strategies employed to address\nthem, and the trade-offs made to balance performance with practical\nlimitations. Additionally, we present a set of learning experiments that help\nguide the feature interaction architecture selection. We believe these insights\nwill be useful for engineers who are interested in improving their model\nthrough better feature interaction learning.\n",
+  "subjects": [
+    "Computer Science/Information Retrieval"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "DV1H3MvaSCLnbCFO8tPCBd8D2WPoQ8JMBs3EqaJZDPA",
+  "pdfSize": "1905787"
+}

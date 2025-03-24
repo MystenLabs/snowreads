@@ -1,0 +1,44 @@
+{
+  "id": "2412.09486",
+  "title": "Regression and Classification with Single-Qubit Quantum Neural Networks",
+  "authors": "Leandro C. Souza, Bruno C. Guingo, Gilson Giraldi, Renato Portugal",
+  "authorsParsed": [
+    [
+      "Souza",
+      "Leandro C.",
+      ""
+    ],
+    [
+      "Guingo",
+      "Bruno C.",
+      ""
+    ],
+    [
+      "Giraldi",
+      "Gilson",
+      ""
+    ],
+    [
+      "Portugal",
+      "Renato",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 12 Dec 2024 17:35:36 GMT"
+    }
+  ],
+  "updateDate": "2024-12-13",
+  "timestamp": 1734024936000,
+  "abstract": "  Since classical machine learning has become a powerful tool for developing\ndata-driven algorithms, quantum machine learning is expected to similarly\nimpact the development of quantum algorithms. The literature reflects a\nmutually beneficial relationship between machine learning and quantum\ncomputing, where progress in one field frequently drives improvements in the\nother. Motivated by the fertile connection between machine learning and quantum\ncomputing enabled by parameterized quantum circuits, we use a\nresource-efficient and scalable Single-Qubit Quantum Neural Network (SQQNN) for\nboth regression and classification tasks. The SQQNN leverages parameterized\nsingle-qubit unitary operators and quantum measurements to achieve efficient\nlearning. To train the model, we use gradient descent for regression tasks. For\nclassification, we introduce a novel training method inspired by the Taylor\nseries, which can efficiently find a global minimum in a single step. This\napproach significantly accelerates training compared to iterative methods.\nEvaluated across various applications, the SQQNN exhibits virtually error-free\nand strong performance in regression and classification tasks, including the\nMNIST dataset. These results demonstrate the versatility, scalability, and\nsuitability of the SQQNN for deployment on near-term quantum devices.\n",
+  "subjects": [
+    "Physics/Quantum Physics",
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "5lTDHBPnXp2EN81pB5iHYtsddt4V0kOaERsjt9lfLCM",
+  "pdfSize": "1013147"
+}

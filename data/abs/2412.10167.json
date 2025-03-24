@@ -1,0 +1,33 @@
+{
+  "id": "2412.10167",
+  "title": "MADWAVE3: a quantum time dependent wave packet code for nonadiabatic\n  state-to-state reaction dynamics of triatomic systems",
+  "authors": "Octavio Roncero and Pablo del Mazo-Sevillano",
+  "authorsParsed": [
+    [
+      "Roncero",
+      "Octavio",
+      ""
+    ],
+    [
+      "del Mazo-Sevillano",
+      "Pablo",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 13 Dec 2024 14:33:09 GMT"
+    }
+  ],
+  "updateDate": "2024-12-16",
+  "timestamp": 1734100389000,
+  "abstract": "  We present MADWAVE3, a FORTRAN90 code designed for quantum time dependent\nwave packet propagation in triatomic systems. This program allows the\ncalculation of state-to-state probabilities for inelastic and reactive\ncollisions, as well as photodissociation processes, over one or multiple\ncoupled diabatic electronic states. The code is highly parallelized using MPI\nand OpenMP. The execution requires the potential energy surfaces of the\ndifferent electronic states involved, as well as the transition dipole moments\nfor photodissociation processes. The formalism underlying the code is presented\nin section 2, together with the modular structure of the code. This is followed\nby the installation procedures and a comprehensive list and explanation of the\nparameters that control the code, organized within their respective namelists.\nFinally, a case study is presented, focusing on the prototypical reactive\ncollision H+DH(v,j) -> H2(v',j') + D. Both the potential energy surface and the\ninput files required to reproduce the calculation are provided and are\navailable on the repository main page. This example is used to study the\nparallelization speedup of the code.\n",
+  "subjects": [
+    "Physics/Computational Physics",
+    "Physics/Chemical Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "i6oWDQCGM6BTGCCBULFFMnaLvTnC0W9Y5kBlQqQQvY4",
+  "pdfSize": "720088"
+}

@@ -1,0 +1,54 @@
+{
+  "id": "2412.11266",
+  "title": "Bayesian inference of mean velocity fields and turbulence models from\n  flow MRI",
+  "authors": "A. Kontogiannis, P. Nair, M. Loecher, D. B. Ennis, A. Marsden, M. P.\n  Juniper",
+  "authorsParsed": [
+    [
+      "Kontogiannis",
+      "A.",
+      ""
+    ],
+    [
+      "Nair",
+      "P.",
+      ""
+    ],
+    [
+      "Loecher",
+      "M.",
+      ""
+    ],
+    [
+      "Ennis",
+      "D. B.",
+      ""
+    ],
+    [
+      "Marsden",
+      "A.",
+      ""
+    ],
+    [
+      "Juniper",
+      "M. P.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 15 Dec 2024 18:07:36 GMT"
+    }
+  ],
+  "updateDate": "2024-12-17",
+  "timestamp": 1734286056000,
+  "abstract": "  We solve a Bayesian inverse Reynolds-averaged Navier-Stokes (RANS) problem\nthat assimilates mean flow data by jointly reconstructing the mean flow field\nand learning its unknown RANS parameters. We devise an algorithm that learns\nthe most likely parameters of an algebraic effective viscosity model, and\nestimates their uncertainties, from mean flow data of a turbulent flow. We\nconduct a flow MRI experiment to obtain mean flow data of a confined turbulent\njet in an idealized medical device known as the FDA (Food and Drug\nAdministration) nozzle. The algorithm successfully reconstructs the mean flow\nfield and learns the most likely turbulence model parameters without\noverfitting. The methodology accepts any turbulence model, be it algebraic\n(explicit) or multi-equation (implicit), as long as the model is\ndifferentiable, and naturally extends to unsteady turbulent flows.\n",
+  "subjects": [
+    "Physics/Fluid Dynamics",
+    "Computer Science/Machine Learning",
+    "Mathematics/Optimization and Control"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "QDZ8K_qG3VReB7hp4ShZOrZrrROmDhyBRU7EZixvGT4",
+  "pdfSize": "4349701"
+}

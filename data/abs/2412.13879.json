@@ -1,0 +1,67 @@
+{
+  "id": "2412.13879",
+  "title": "Crabs: Consuming Resource via Auto-generation for LLM-DoS Attack under\n  Black-box Settings",
+  "authors": "Yuanhe Zhang, Zhenhong Zhou, Wei Zhang, Xinyue Wang, Xiaojun Jia, Yang\n  Liu, Sen Su",
+  "authorsParsed": [
+    [
+      "Zhang",
+      "Yuanhe",
+      ""
+    ],
+    [
+      "Zhou",
+      "Zhenhong",
+      ""
+    ],
+    [
+      "Zhang",
+      "Wei",
+      ""
+    ],
+    [
+      "Wang",
+      "Xinyue",
+      ""
+    ],
+    [
+      "Jia",
+      "Xiaojun",
+      ""
+    ],
+    [
+      "Liu",
+      "Yang",
+      ""
+    ],
+    [
+      "Su",
+      "Sen",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 18 Dec 2024 14:19:23 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Mon, 27 Jan 2025 04:33:39 GMT"
+    },
+    {
+      "version": "v3",
+      "created": "Tue, 18 Feb 2025 06:08:19 GMT"
+    }
+  ],
+  "updateDate": "2025-02-19",
+  "timestamp": 1734531563000,
+  "abstract": "  Large Language Models (LLMs) have demonstrated remarkable performance across\ndiverse tasks yet still are vulnerable to external threats, particularly LLM\nDenial-of-Service (LLM-DoS) attacks. Specifically, LLM-DoS attacks aim to\nexhaust computational resources and block services. However, existing studies\npredominantly focus on white-box attacks, leaving black-box scenarios\nunderexplored. In this paper, we introduce Auto-Generation for LLM-DoS\n(AutoDoS) attack, an automated algorithm designed for black-box LLMs. AutoDoS\nconstructs the DoS Attack Tree and expands the node coverage to achieve\neffectiveness under black-box conditions. By transferability-driven iterative\noptimization, AutoDoS could work across different models in one prompt.\nFurthermore, we reveal that embedding the Length Trojan allows AutoDoS to\nbypass existing defenses more effectively. Experimental results show that\nAutoDoS significantly amplifies service response latency by over\n250$\\times\\uparrow$, leading to severe resource consumption in terms of GPU\nutilization and memory usage. Our work provides a new perspective on LLM-DoS\nattacks and security defenses. Our code is available at\nhttps://github.com/shuita2333/AutoDoS.\n",
+  "subjects": [
+    "Computer Science/Computation and Language",
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Cryptography and Security"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "BSZcq2a7bLdwo34hVF4ViaP5g3SYN5G5cZ0iOhDc330",
+  "pdfSize": "1808771"
+}

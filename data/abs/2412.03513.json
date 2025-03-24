@@ -1,0 +1,34 @@
+{
+  "id": "2412.03513",
+  "title": "Enhancing CLIP Conceptual Embedding through Knowledge Distillation",
+  "authors": "Kuei-Chun Kao",
+  "authorsParsed": [
+    [
+      "Kao",
+      "Kuei-Chun",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 4 Dec 2024 17:56:49 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Sat, 7 Dec 2024 13:01:13 GMT"
+    }
+  ],
+  "updateDate": "2024-12-10",
+  "timestamp": 1733335009000,
+  "abstract": "  Recently, CLIP has become an important model for aligning images and text in\nmulti-modal contexts. However, researchers have identified limitations in the\nability of CLIP's text and image encoders to extract detailed knowledge from\npairs of captions and images. In response, this paper presents Knowledge-CLIP,\nan innovative approach designed to improve CLIP's performance by integrating a\nnew knowledge distillation (KD) method based on Llama 2. Our approach focuses\non three key objectives: Text Embedding Distillation, Concept Learning, and\nContrastive Learning. First, Text Embedding Distillation involves training the\nKnowledge-CLIP text encoder to mirror the teacher model, Llama 2. Next, Concept\nLearning assigns a soft concept label to each caption-image pair by employing\noffline K-means clustering on text data from Llama 2, enabling Knowledge-CLIP\nto learn from these soft concept labels. Lastly, Contrastive Learning aligns\nthe text and image embeddings. Our experimental findings show that the proposed\nmodel improves the performance of both text and image encoders.\n",
+  "subjects": [
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Computation and Language",
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by-sa/4.0/",
+  "blobId": "Ol_YJRB15T_oYF4zciOZ3muDbFebEwsC7h4kZbiEESk",
+  "pdfSize": "648519"
+}

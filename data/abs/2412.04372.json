@@ -1,0 +1,47 @@
+{
+  "id": "2412.04372",
+  "title": "Distributed Inference with Minimal Off-Chip Traffic for Transformers on\n  Low-Power MCUs",
+  "authors": "Severin Bochem, Victor J.B. Jung, Arpan Prasad, Francesco Conti, Luca\n  Benini",
+  "authorsParsed": [
+    [
+      "Bochem",
+      "Severin",
+      ""
+    ],
+    [
+      "Jung",
+      "Victor J. B.",
+      ""
+    ],
+    [
+      "Prasad",
+      "Arpan",
+      ""
+    ],
+    [
+      "Conti",
+      "Francesco",
+      ""
+    ],
+    [
+      "Benini",
+      "Luca",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 5 Dec 2024 17:49:10 GMT"
+    }
+  ],
+  "updateDate": "2024-12-06",
+  "timestamp": 1733420950000,
+  "abstract": "  Contextual Artificial Intelligence (AI) based on emerging Transformer models\nis predicted to drive the next technology revolution in interactive wearable\ndevices such as new-generation smart glasses. By coupling numerous sensors with\nsmall, low-power Micro-Controller Units (MCUs), these devices will enable\non-device intelligence and sensor control. A major bottleneck in this class of\nsystems is the small amount of on-chip memory available in the MCUs. In this\npaper, we propose a methodology to deploy real-world Transformers on low-power\nwearable devices with minimal off-chip traffic exploiting a distributed system\nof MCUs, partitioning inference across multiple devices and enabling execution\nwith stationary on-chip weights. We validate the scheme by deploying the\nTinyLlama-42M decoder-only model on a system of 8 parallel ultra-low-power\nMCUs. The distributed system achieves an energy consumption of 0.64 mJ, a\nlatency of 0.54 ms per inference, a super-linear speedup of 26.1 x, and an\nEnergy Delay Product (EDP) improvement of 27.2 x, compared to a single-chip\nsystem. On MobileBERT, the distributed system's runtime is 38.8 ms, with a\nsuper-linear 4.7 x speedup when using 4 MCUs compared to a single-chip system.\n",
+  "subjects": [
+    "Computer Science/Hardware Architecture"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "Lq9ymRYBNHQ7j4evQ_pe5LqeXEEXzg9L-GAKsKikjsw",
+  "pdfSize": "747487"
+}

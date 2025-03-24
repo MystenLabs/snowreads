@@ -1,0 +1,54 @@
+{
+  "id": "2412.02094",
+  "title": "Crash Severity Risk Modeling Strategies under Data Imbalance",
+  "authors": "Abdullah Al Mamun (1), Abyad Enan (1), Debbie A. Indah (2), Judith\n  Mwakalonge (3), Gurcan Comert (4), Mashrur Chowdhury (5) ((1) Graduate\n  Student, Glenn Department of Civil Engineering, Clemson University, (2)\n  Graduate Student, Department of Engineering, South Carolina State University,\n  (3) Professor, Department of Engineering, South Carolina State University,\n  (4) Associate Professor, Computational Data Science and Engineering\n  Department, North Carolina A&T State University, (5) Professor, Glenn\n  Department of Civil Engineering, Clemson University)",
+  "authorsParsed": [
+    [
+      "Mamun",
+      "Abdullah Al",
+      ""
+    ],
+    [
+      "Enan",
+      "Abyad",
+      ""
+    ],
+    [
+      "Indah",
+      "Debbie A.",
+      ""
+    ],
+    [
+      "Mwakalonge",
+      "Judith",
+      ""
+    ],
+    [
+      "Comert",
+      "Gurcan",
+      ""
+    ],
+    [
+      "Chowdhury",
+      "Mashrur",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 3 Dec 2024 02:28:35 GMT"
+    }
+  ],
+  "updateDate": "2024-12-04",
+  "timestamp": 1733192915000,
+  "abstract": "  This study investigates crash severity risk modeling strategies for work\nzones involving large vehicles (i.e., trucks, buses, and vans) when there are\ncrash data imbalance between low-severity (LS) and high-severity (HS) crashes.\nWe utilized crash data, involving large vehicles in South Carolina work zones\nfor the period between 2014 and 2018, which included 4 times more LS crashes\ncompared to HS crashes. The objective of this study is to explore crash\nseverity prediction performance of various models under different feature\nselection and data balancing techniques. The findings of this study highlight a\ndisparity between LS and HS predictions, with less-accurate prediction of HS\ncrashes compared to LS crashes due to class imbalance and feature overlaps\nbetween LS and HS crashes. Combining features from multiple feature selection\ntechniques: statistical correlation, feature importance, recursive elimination,\nstatistical tests, and mutual information, slightly improves HS crash\nprediction performance. Data balancing techniques such as NearMiss-1 and\nRandomUnderSampler, maximize HS recall when paired with certain prediction\nmodels, such as Bayesian Mixed Logit (BML), NeuralNet, and RandomForest, making\nthem suitable for HS crash prediction. Conversely, RandomOverSampler, HS Class\nWeighting, and Kernel-based Synthetic Minority Oversampling (K-SMOTE), used\nwith certain prediction models such as BML, CatBoost, and LightGBM, achieve a\nbalanced performance, defined as achieving an equitable trade-off between LS\nand HS prediction performance metrics. These insights provide safety analysts\nwith guidance to select models, feature selection techniques, and data\nbalancing techniques that align with their specific safety objectives, offering\na robust foundation for enhancing work-zone crash severity prediction.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Computer Science/Computers and Society",
+    "Statistics/Applications"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "5180wt1RJv34lBHZd98ynVP_Na8V_1cRXE3tufegT7g",
+  "pdfSize": "1182031"
+}

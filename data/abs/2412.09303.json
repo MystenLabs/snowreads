@@ -1,0 +1,37 @@
+{
+  "id": "2412.09303",
+  "title": "A Comprehensive Survey of Data Reduction Rules for the Maximum Weighted\n  Independent Set Problem",
+  "authors": "Ernestine Gro{\\ss}mann, Kenneth Langedal and Christian Schulz",
+  "authorsParsed": [
+    [
+      "Großmann",
+      "Ernestine",
+      ""
+    ],
+    [
+      "Langedal",
+      "Kenneth",
+      ""
+    ],
+    [
+      "Schulz",
+      "Christian",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 12 Dec 2024 14:20:48 GMT"
+    }
+  ],
+  "updateDate": "2024-12-13",
+  "timestamp": 1734013248000,
+  "abstract": "  The Maximum Weight Independent Set (MWIS) problem, as well as its related\nproblems such as Minimum Weight Vertex Cover, are fundamental NP-hard problems\nwith numerous practical applications. Due to their computational complexity, a\nvariety of data reduction rules have been proposed in recent years to simplify\ninstances of these problems, enabling exact solvers and heuristics to handle\nthem more effectively. Data reduction rules are polynomial time procedures that\ncan reduce an instance while ensuring that an optimal solution on the reduced\ninstance can be easily extended to an optimal solution for the original\ninstance. Data reduction rules have proven to be especially useful in\nbranch-and-reduce methods, where successful reductions often lead to problem\ninstances that can be solved exactly. This survey provides a comprehensive\noverview of data reduction rules for the MWIS problem. We also provide a\nreference implementation for these reductions. This survey will be updated as\nnew reduction techniques are developed, serving as a centralized resource for\nresearchers and practitioners.\n",
+  "subjects": [
+    "Computer Science/Data Structures and Algorithms"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "OYovX_crf7uY6BYIDvL4qFwIZaRUOPd0553l5uZBL6M",
+  "pdfSize": "879579"
+}

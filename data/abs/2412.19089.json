@@ -1,0 +1,52 @@
+{
+  "id": "2412.19089",
+  "title": "Humans as a Calibration Pattern: Dynamic 3D Scene Reconstruction from\n  Unsynchronized and Uncalibrated Videos",
+  "authors": "Changwoon Choi (1), Jeongjun Kim (1), Geonho Cha (2), Minkwan Kim (1),\n  Dongyoon Wee (2), Young Min Kim (1) ((1) Seoul National University, (2) NAVER\n  Cloud)",
+  "authorsParsed": [
+    [
+      "Choi",
+      "Changwoon",
+      ""
+    ],
+    [
+      "Kim",
+      "Jeongjun",
+      ""
+    ],
+    [
+      "Cha",
+      "Geonho",
+      ""
+    ],
+    [
+      "Kim",
+      "Minkwan",
+      ""
+    ],
+    [
+      "Wee",
+      "Dongyoon",
+      ""
+    ],
+    [
+      "Kim",
+      "Young Min",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 26 Dec 2024 07:04:20 GMT"
+    }
+  ],
+  "updateDate": "2024-12-30",
+  "timestamp": 1735196660000,
+  "abstract": "  Recent works on dynamic neural field reconstruction assume input from\nsynchronized multi-view videos with known poses. These input constraints are\noften unmet in real-world setups, making the approach impractical. We\ndemonstrate that unsynchronized videos with unknown poses can generate dynamic\nneural fields if the videos capture human motion. Humans are one of the most\ncommon dynamic subjects whose poses can be estimated using state-of-the-art\nmethods. While noisy, the estimated human shape and pose parameters provide a\ndecent initialization for the highly non-convex and under-constrained problem\nof training a consistent dynamic neural representation. Given the sequences of\npose and shape of humans, we estimate the time offsets between videos, followed\nby camera pose estimations by analyzing 3D joint locations. Then, we train\ndynamic NeRF employing multiresolution rids while simultaneously refining both\ntime offsets and camera poses. The setup still involves optimizing many\nparameters, therefore, we introduce a robust progressive learning strategy to\nstabilize the process. Experiments show that our approach achieves accurate\nspatiotemporal calibration and high-quality scene reconstruction in challenging\nconditions.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "ced6POcvdw7szsR5JPOd5ChJe8g6JXOwVb7w6qTV_LI",
+  "pdfSize": "11072992"
+}

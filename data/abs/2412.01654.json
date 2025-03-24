@@ -1,0 +1,51 @@
+{
+  "id": "2412.01654",
+  "title": "FSMLP: Modelling Channel Dependencies With Simplex Theory Based\n  Multi-Layer Perceptions In Frequency Domain",
+  "authors": "Zhengnan Li, Haoxuan Li, Hao Wang, Jun Fang, Duoyin Li Yunxiao Qin",
+  "authorsParsed": [
+    [
+      "Li",
+      "Zhengnan",
+      ""
+    ],
+    [
+      "Li",
+      "Haoxuan",
+      ""
+    ],
+    [
+      "Wang",
+      "Hao",
+      ""
+    ],
+    [
+      "Fang",
+      "Jun",
+      ""
+    ],
+    [
+      "Qin",
+      "Duoyin Li Yunxiao",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 2 Dec 2024 16:04:15 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Tue, 3 Dec 2024 04:40:13 GMT"
+    }
+  ],
+  "updateDate": "2024-12-04",
+  "timestamp": 1733155455000,
+  "abstract": "  Time series forecasting (TSF) plays a crucial role in various domains,\nincluding web data analysis, energy consumption prediction, and weather\nforecasting. While Multi-Layer Perceptrons (MLPs) are lightweight and effective\nfor capturing temporal dependencies, they are prone to overfitting when used to\nmodel inter-channel dependencies. In this paper, we investigate the overfitting\nproblem in channel-wise MLPs using Rademacher complexity theory, revealing that\nextreme values in time series data exacerbate this issue. To mitigate this\nissue, we introduce a novel Simplex-MLP layer, where the weights are\nconstrained within a standard simplex. This strategy encourages the model to\nlearn simpler patterns and thereby reducing overfitting to extreme values.\nBased on the Simplex-MLP layer, we propose a novel \\textbf{F}requency\n\\textbf{S}implex \\textbf{MLP} (FSMLP) framework for time series forecasting,\ncomprising of two kinds of modules: \\textbf{S}implex\n\\textbf{C}hannel-\\textbf{W}ise MLP (SCWM) and \\textbf{F}requency\n\\textbf{T}emporal \\textbf{M}LP (FTM). The SCWM effectively leverages the\nSimplex-MLP to capture inter-channel dependencies, while the FTM is a simple\nyet efficient temporal MLP designed to extract temporal information from the\ndata. Our theoretical analysis shows that the upper bound of the Rademacher\nComplexity for Simplex-MLP is lower than that for standard MLPs. Moreover, we\nvalidate our proposed method on seven benchmark datasets, demonstrating\nsignificant improvements in forecasting accuracy and efficiency, while also\nshowcasing superior scalability. Additionally, we demonstrate that Simplex-MLP\ncan improve other methods that use channel-wise MLP to achieve less overfitting\nand improved performance. Code are available\n\\href{https://github.com/FMLYD/FSMLP}{\\textcolor{red}{here}}.\n",
+  "subjects": [
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "HfAZdNvxG8oa09qeqL65ZUV5FpgF1RyANighcAqQluQ",
+  "pdfSize": "660000"
+}

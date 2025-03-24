@@ -1,0 +1,43 @@
+{
+  "id": "2412.17158",
+  "title": "MOODE: An R Package for Multi-Objective Optimal Design of Experiments",
+  "authors": "Vasiliki Koutra, Olga Egorova, Steven G. Gilmour, Luzia A. Trinca",
+  "authorsParsed": [
+    [
+      "Koutra",
+      "Vasiliki",
+      ""
+    ],
+    [
+      "Egorova",
+      "Olga",
+      ""
+    ],
+    [
+      "Gilmour",
+      "Steven G.",
+      ""
+    ],
+    [
+      "Trinca",
+      "Luzia A.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 22 Dec 2024 20:55:43 GMT"
+    }
+  ],
+  "updateDate": "2024-12-24",
+  "timestamp": 1734900943000,
+  "abstract": "  We describe the R package MOODE and demonstrate its use to find\nmulti-objective optimal experimental designs. Multi-Objective Optimal Design of\nExperiments (MOODE) targets the experimental objectives directly, ensuring that\nthe full set of research questions is answered as economically as possible. In\nparticular, individual criteria aimed at optimizing inference are combined with\nlack-of-fit and MSE-based components in compound optimality criteria to target\nmultiple and competing objectives reflecting the priorities and aims of the\nexperimentation. The package implements either a point exchange or coordinate\nexchange algorithm as appropriate to find nearly optimal designs. We\ndemonstrate the functionality of MOODE through the application of the\nmethodology to two case studies of varying complexity.\n",
+  "subjects": [
+    "Statistics/Computation",
+    "Statistics/Methodology"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "6ksGQQFAqNQAsVxFDB_uflIJArNSfHzch867hp7dYJE",
+  "pdfSize": "457444"
+}

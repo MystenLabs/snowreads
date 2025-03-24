@@ -1,0 +1,37 @@
+{
+  "id": "2412.14794",
+  "title": "Dynamical Cavity Method for Hypergraphs and its Application to Quenches\n  in the k-XOR-SAT Problem",
+  "authors": "Aude Maier, Freya Behrens, Lenka Zdeborov\\'a",
+  "authorsParsed": [
+    [
+      "Maier",
+      "Aude",
+      ""
+    ],
+    [
+      "Behrens",
+      "Freya",
+      ""
+    ],
+    [
+      "Zdeborová",
+      "Lenka",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 19 Dec 2024 12:36:22 GMT"
+    }
+  ],
+  "updateDate": "2024-12-20",
+  "timestamp": 1734611782000,
+  "abstract": "  The dynamical cavity method and its backtracking version provide a powerful\napproach to studying the properties of dynamical processes on large random\ngraphs. This paper extends these methods to hypergraphs, enabling the analysis\nof interactions involving more than two variables. We apply them to analyse the\n$k$-XOR-satisfiability ($k$-XOR-SAT) problem, an important model in theoretical\ncomputer science which is closely related to the diluted $p$-spin model from\nstatistical physics. In particular, we examine whether the quench dynamics -- a\ndeterministic, locally greedy process -- can find solutions with only a few\nviolated constraints on $d$-regular $k$-uniform hypergraphs. Our results\ndemonstrate that the methods accurately characterize the attractors of the\ndynamics. It enables us to compute the energy reached by typical trajectories\nof the dynamical process in different parameter regimes. We show that these\npredictions are accurate, including cases where a classical mean-field approach\nfails.\n",
+  "subjects": [
+    "Condensed Matter/Disordered Systems and Neural Networks"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "JVWqPQd0Vi6Rz8wTde2dBez61Ku-xAdDv5kmFCXX1xI",
+  "pdfSize": "1239970"
+}

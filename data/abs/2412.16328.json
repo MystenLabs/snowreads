@@ -1,0 +1,43 @@
+{
+  "id": "2412.16328",
+  "title": "Temporal Explorability Games",
+  "authors": "Pete Austin, Nicolas Mazzocchi, Sougata Bose, Patrick Totzke",
+  "authorsParsed": [
+    [
+      "Austin",
+      "Pete",
+      ""
+    ],
+    [
+      "Mazzocchi",
+      "Nicolas",
+      ""
+    ],
+    [
+      "Bose",
+      "Sougata",
+      ""
+    ],
+    [
+      "Totzke",
+      "Patrick",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 20 Dec 2024 20:33:46 GMT"
+    }
+  ],
+  "updateDate": "2024-12-24",
+  "timestamp": 1734726826000,
+  "abstract": "  Temporal graphs extend ordinary graphs with discrete time that affects the\navailability of edges. We consider solving games played on temporal graphs\nwhere one player aims to explore the graph, i.e., visit all vertices. The\ncomplexity depends majorly on two factors: the presence of an adversary and how\nedge availability is specified.\n  We demonstrate that on static graphs, where edges are always available,\nsolving explorability games is just as hard as solving reachability games. In\ncontrast, on temporal graphs, the complexity of explorability coincides with\ngeneralized reachability (NP-complete for one-player and PSPACE- complete for\ntwo player games). We further show that if temporal graphs are given\nsymbolically, even one-player reachability and thus explorability and\ngeneralized reachability games are PSPACE-hard. For one player, all these are\nalso solvable in PSPACE and for two players, they are in PSPACE, EXP and EXP,\nrespectively.\n",
+  "subjects": [
+    "Computer Science/Computer Science and Game Theory",
+    "Computer Science/Logic in Computer Science"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "4H3shWJmee2bomnhDn9GoS5BYRGupS6iO2s-wHN0Qo8",
+  "pdfSize": "669214"
+}

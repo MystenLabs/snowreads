@@ -1,0 +1,43 @@
+{
+  "id": "2412.09046",
+  "title": "Multi-Task Learning with LLMs for Implicit Sentiment Analysis:\n  Data-level and Task-level Automatic Weight Learning",
+  "authors": "Wenna Lai, Haoran Xie, Guandong Xu, Qing Li",
+  "authorsParsed": [
+    [
+      "Lai",
+      "Wenna",
+      ""
+    ],
+    [
+      "Xie",
+      "Haoran",
+      ""
+    ],
+    [
+      "Xu",
+      "Guandong",
+      ""
+    ],
+    [
+      "Li",
+      "Qing",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 12 Dec 2024 08:15:16 GMT"
+    }
+  ],
+  "updateDate": "2024-12-13",
+  "timestamp": 1733991316000,
+  "abstract": "  Implicit sentiment analysis (ISA) presents significant challenges due to the\nabsence of salient cue words. Previous methods have struggled with insufficient\ndata and limited reasoning capabilities to infer underlying opinions.\nIntegrating multi-task learning (MTL) with large language models (LLMs) offers\nthe potential to enable models of varying sizes to reliably perceive and\nrecognize genuine opinions in ISA. However, existing MTL approaches are\nconstrained by two sources of uncertainty: data-level uncertainty, arising from\nhallucination problems in LLM-generated contextual information, and task-level\nuncertainty, stemming from the varying capacities of models to process\ncontextual information. To handle these uncertainties, we introduce MT-ISA, a\nnovel MTL framework that enhances ISA by leveraging the generation and\nreasoning capabilities of LLMs through automatic MTL. Specifically, MT-ISA\nconstructs auxiliary tasks using generative LLMs to supplement sentiment\nelements and incorporates automatic MTL to fully exploit auxiliary data. We\nintroduce data-level and task-level automatic weight learning (AWL), which\ndynamically identifies relationships and prioritizes more reliable data and\ncritical tasks, enabling models of varying sizes to adaptively learn\nfine-grained weights based on their reasoning capabilities. We investigate\nthree strategies for data-level AWL, while also introducing homoscedastic\nuncertainty for task-level AWL. Extensive experiments reveal that models of\nvarying sizes achieve an optimal balance between primary prediction and\nauxiliary tasks in MT-ISA. This underscores the effectiveness and adaptability\nof our approach.\n",
+  "subjects": [
+    "Computer Science/Computation and Language",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "kKJ3Kuhh3Mmjim5qfKhuWADh3hTE5Yj21F8DI_RGdiA",
+  "pdfSize": "9486556"
+}

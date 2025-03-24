@@ -1,0 +1,78 @@
+{
+  "id": "2412.00060",
+  "title": "MOSABench: Multi-Object Sentiment Analysis Benchmark for Evaluating\n  Multimodal Large Language Models Understanding of Complex Image",
+  "authors": "Shezheng Song, Chengxiang He, Shasha Li, Shan Zhao, Chengyu Wang,\n  Tianwei Yan, Xiaopeng Li, Qian Wan, Jun Ma, Jie Yu, Xiaoguang Mao",
+  "authorsParsed": [
+    [
+      "Song",
+      "Shezheng",
+      ""
+    ],
+    [
+      "He",
+      "Chengxiang",
+      ""
+    ],
+    [
+      "Li",
+      "Shasha",
+      ""
+    ],
+    [
+      "Zhao",
+      "Shan",
+      ""
+    ],
+    [
+      "Wang",
+      "Chengyu",
+      ""
+    ],
+    [
+      "Yan",
+      "Tianwei",
+      ""
+    ],
+    [
+      "Li",
+      "Xiaopeng",
+      ""
+    ],
+    [
+      "Wan",
+      "Qian",
+      ""
+    ],
+    [
+      "Ma",
+      "Jun",
+      ""
+    ],
+    [
+      "Yu",
+      "Jie",
+      ""
+    ],
+    [
+      "Mao",
+      "Xiaoguang",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 25 Nov 2024 09:00:36 GMT"
+    }
+  ],
+  "updateDate": "2024-12-03",
+  "timestamp": 1732525236000,
+  "abstract": "  Multimodal large language models (MLLMs) have shown remarkable progress in\nhigh-level semantic tasks such as visual question answering, image captioning,\nand emotion recognition. However, despite advancements, there remains a lack of\nstandardized benchmarks for evaluating MLLMs performance in multi-object\nsentiment analysis, a key task in semantic understanding. To address this gap,\nwe introduce MOSABench, a novel evaluation dataset designed specifically for\nmulti-object sentiment analysis. MOSABench includes approximately 1,000 images\nwith multiple objects, requiring MLLMs to independently assess the sentiment of\neach object, thereby reflecting real-world complexities. Key innovations in\nMOSABench include distance-based target annotation, post-processing for\nevaluation to standardize outputs, and an improved scoring mechanism. Our\nexperiments reveal notable limitations in current MLLMs: while some models,\nlike mPLUG-owl and Qwen-VL2, demonstrate effective attention to\nsentiment-relevant features, others exhibit scattered focus and performance\ndeclines, especially as the spatial distance between objects increases. This\nresearch underscores the need for MLLMs to enhance accuracy in complex,\nmulti-object sentiment analysis tasks and establishes MOSABench as a\nfoundational tool for advancing sentiment analysis capabilities in MLLMs.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "cFxDoXyOVExfKun8h0bKVckwjHehv93dtMv_cFUsdls",
+  "pdfSize": "5627533"
+}

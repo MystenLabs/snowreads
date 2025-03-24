@@ -1,0 +1,37 @@
+{
+  "id": "2412.03259",
+  "title": "GERD: Geometric event response data generation",
+  "authors": "Jens Egholm Pedersen, Dimitris Korakovounis, J\\\"org Conradt",
+  "authorsParsed": [
+    [
+      "Pedersen",
+      "Jens Egholm",
+      ""
+    ],
+    [
+      "Korakovounis",
+      "Dimitris",
+      ""
+    ],
+    [
+      "Conradt",
+      "Jörg",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 4 Dec 2024 11:59:36 GMT"
+    }
+  ],
+  "updateDate": "2024-12-05",
+  "timestamp": 1733313576000,
+  "abstract": "  Event-based vision sensors are appealing because of their time resolution,\nhigher dynamic range, and low-power consumption. They also provide data that is\nfundamentally different from conventional frame-based cameras: events are\nsparse, discrete, and require integration in time. Unlike conventional models\ngrounded in established geometric and physical principles, event-based models\nlack comparable foundations. We introduce a method to generate event-based data\nunder controlled transformations. Specifically, we subject a prototypical\nobject to transformations that change over time to produce carefully curated\nevent videos. We hope this work simplifies studies for geometric approaches in\nevent-based vision. GERD is available at https://github.com/ncskth/gerd\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by-sa/4.0/",
+  "blobId": "NKiTaS-xctN2Ex55yv3b3s4mW3eLrgviKPCsymmiz1I",
+  "pdfSize": "455034"
+}

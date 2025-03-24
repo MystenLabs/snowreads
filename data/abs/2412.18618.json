@@ -1,0 +1,28 @@
+{
+  "id": "2412.18618",
+  "title": "Exploring Text Representations for Online Misinformation",
+  "authors": "Martins Samuel Dogo",
+  "authorsParsed": [
+    [
+      "Dogo",
+      "Martins Samuel",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 13 Dec 2024 20:22:36 GMT"
+    }
+  ],
+  "updateDate": "2024-12-30",
+  "timestamp": 1734121356000,
+  "abstract": "  Mis- and disinformation, commonly collectively called fake news, continue to\nmenace society. Perhaps, the impact of this age-old problem is presently most\nplain in politics and healthcare. However, fake news is affecting an increasing\nnumber of domains. It takes many different forms and continues to shapeshift as\ntechnology advances. Though it arguably most widely spreads in textual form,\ne.g., through social media posts and blog articles. Thus, it is imperative to\nthwart the spread of textual misinformation, which necessitates its initial\ndetection. This thesis contributes to the creation of representations that are\nuseful for detecting misinformation. Firstly, it develops a novel method for\nextracting textual features from news articles for misinformation detection.\nThese features harness the disparity between the thematic coherence of\nauthentic and false news stories. In other words, the composition of themes\ndiscussed in both groups significantly differs as the story progresses.\nSecondly, it demonstrates the effectiveness of topic features for fake news\ndetection, using classification and clustering. Clustering is particularly\nuseful because it alleviates the need for a labelled dataset, which can be\nlabour-intensive and time-consuming to amass. More generally, it contributes\ntowards a better understanding of misinformation and ways of detecting it using\nMachine Learning and Natural Language Processing.\n",
+  "subjects": [
+    "Computer Science/Computation and Language",
+    "Computer Science/Social and Information Networks"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "NvIK7mzE8hO3QfoNcCieqTIQ9eCUYZB-TCmfI1nBetw",
+  "pdfSize": "3266085"
+}

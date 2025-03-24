@@ -1,0 +1,27 @@
+{
+  "id": "2412.09035",
+  "title": "Pulling the Carpet Below the Learner's Feet: Genetic Algorithm To Learn\n  Ensemble Machine Learning Model During Concept Drift",
+  "authors": "Teddy Lazebnik",
+  "authorsParsed": [
+    [
+      "Lazebnik",
+      "Teddy",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 12 Dec 2024 07:51:44 GMT"
+    }
+  ],
+  "updateDate": "2024-12-13",
+  "timestamp": 1733989904000,
+  "abstract": "  Data-driven models, in general, and machine learning (ML) models, in\nparticular, have gained popularity over recent years with an increased usage of\nsuch models across the scientific and engineering domains. When using ML models\nin realistic and dynamic environments, users need to often handle the challenge\nof concept drift (CD). In this study, we explore the application of genetic\nalgorithms (GAs) to address the challenges posed by CD in such settings. We\npropose a novel two-level ensemble ML model, which combines a global ML model\nwith a CD detector, operating as an aggregator for a population of ML pipeline\nmodels, each one with an adjusted CD detector by itself responsible for\nre-training its ML model. In addition, we show one can further improve the\nproposed model by utilizing off-the-shelf automatic ML methods. Through\nextensive synthetic dataset analysis, we show that the proposed model\noutperforms a single ML pipeline with a CD algorithm, particularly in scenarios\nwith unknown CD characteristics. Overall, this study highlights the potential\nof ensemble ML and CD models obtained through a heuristic and adaptive\noptimization process such as the GA one to handle complex CD events.\n",
+  "subjects": [
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "dvSmpSaqGMaVN6jWmF-zCLxWMgTCHVKsv2rLhSgoOlo",
+  "pdfSize": "1419254"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "2412.16673",
+  "title": "On Enhancing Network Throughput using Reinforcement Learning in Sliced\n  Testbeds",
+  "authors": "Daniel Pereira Monteiro, Lucas Nardelli de Freitas Botelho Saar,\n  Larissa Ferreira Rodrigues Moreira and Rodrigo Moreira",
+  "authorsParsed": [
+    [
+      "Monteiro",
+      "Daniel Pereira",
+      ""
+    ],
+    [
+      "Saar",
+      "Lucas Nardelli de Freitas Botelho",
+      ""
+    ],
+    [
+      "Moreira",
+      "Larissa Ferreira Rodrigues",
+      ""
+    ],
+    [
+      "Moreira",
+      "Rodrigo",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 21 Dec 2024 15:47:49 GMT"
+    }
+  ],
+  "updateDate": "2024-12-24",
+  "timestamp": 1734796069000,
+  "abstract": "  Novel applications demand high throughput, low latency, and high reliability\nconnectivity and still pose significant challenges to slicing orchestration\narchitectures. The literature explores network slicing techniques that employ\ncanonical methods, artificial intelligence, and combinatorial optimization to\naddress errors and ensure throughput for network slice data plane. This paper\nintroduces the Enhanced Mobile Broadband (eMBB)-Agent as a new approach that\nuses Reinforcement Learning (RL) in a vertical application to enhance network\nslicing throughput to fit Service-Level Agreements (SLAs). The eMBB-Agent\nanalyzes application transmission variables and proposes actions within a\ndiscrete space to adjust the reception window using a Deep Q-Network (DQN).\nThis paper also presents experimental results that examine the impact of\nfactors such as the channel error rate, DQN model layers, and learning rate on\nmodel convergence and achieved throughput, providing insights on embedding\nintelligence in network slicing.\n",
+  "subjects": [
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "X2-QN5W-kP9CXr2xu3vW5lB3Qhq7xIlwn9KN-Su1hIg",
+  "pdfSize": "8224860"
+}

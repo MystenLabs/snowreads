@@ -1,0 +1,38 @@
+{
+  "id": "2412.19819",
+  "title": "ChipAlign: Instruction Alignment in Large Language Models for Chip\n  Design via Geodesic Interpolation",
+  "authors": "Chenhui Deng, Yunsheng Bai, Haoxing Ren",
+  "authorsParsed": [
+    [
+      "Deng",
+      "Chenhui",
+      ""
+    ],
+    [
+      "Bai",
+      "Yunsheng",
+      ""
+    ],
+    [
+      "Ren",
+      "Haoxing",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 15 Dec 2024 04:21:24 GMT"
+    }
+  ],
+  "updateDate": "2024-12-31",
+  "timestamp": 1734236484000,
+  "abstract": "  Recent advancements in large language models (LLMs) have expanded their\napplication across various domains, including chip design, where domain-adapted\nchip models like ChipNeMo have emerged. However, these models often struggle\nwith instruction alignment, a crucial capability for LLMs that involves\nfollowing explicit human directives. This limitation impedes the practical\napplication of chip LLMs, including serving as assistant chatbots for hardware\ndesign engineers. In this work, we introduce ChipAlign, a novel approach that\nutilizes a training-free model merging strategy, combining the strengths of a\ngeneral instruction-aligned LLM with a chip-specific LLM. By considering the\nunderlying manifold in the weight space, ChipAlign employs geodesic\ninterpolation to effectively fuse the weights of input LLMs, producing a merged\nmodel that inherits strong instruction alignment and chip expertise from the\nrespective instruction and chip LLMs. Our results demonstrate that ChipAlign\nsignificantly enhances instruction-following capabilities of existing chip\nLLMs, achieving up to a 26.6% improvement on the IFEval benchmark, while\nmaintaining comparable expertise in the chip domain. This improvement in\ninstruction alignment also translates to notable gains in instruction-involved\nQA tasks, delivering performance enhancements of 3.9% on the OpenROAD QA\nbenchmark and 8.25% on production-level chip QA benchmarks, surpassing\nstate-of-the-art baselines.\n",
+  "subjects": [
+    "Computer Science/Hardware Architecture",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "UMnEUroRWlqoIazcb35piF0JcGXUH8tU6-w9DdZuhis",
+  "pdfSize": "1949524"
+}

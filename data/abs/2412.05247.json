@@ -1,0 +1,37 @@
+{
+  "id": "2412.05247",
+  "title": "Occupation time statistics for non-Markovian random walks",
+  "authors": "Vicen\\c{c} M\\'endez, Rosa Flaquer-Galm\\'es and Arnab Pal",
+  "authorsParsed": [
+    [
+      "Méndez",
+      "Vicenç",
+      ""
+    ],
+    [
+      "Flaquer-Galmés",
+      "Rosa",
+      ""
+    ],
+    [
+      "Pal",
+      "Arnab",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 6 Dec 2024 18:27:05 GMT"
+    }
+  ],
+  "updateDate": "2024-12-09",
+  "timestamp": 1733509625000,
+  "abstract": "  We study the occupation time statistics for non-Markovian random walkers\nbased on the formalism of the generalized master equation for the\nContinuous-Time Random Walk. We also explore the case when the random walker\nadditionally undergoes a stochastic resetting dynamics. We derive and solve the\nbackward Feynman-Kac equation to find the characteristic function for the\noccupation time in an interval and for the half occupation time in the\nsemi-infinite domain. We analyze the behaviour of the PDFs, the moments, the\nlimiting distributions and the ergodic properties for both occupation times\nwhen the underlying random walk is normal or anomalous. For the half occupation\ntime, we revisit the famous arcsine law and examine its validity pertaining to\nvarious regimes of the rest period of the walker. Our results have been\nverified with numerical simulations exhibiting an excellent agreement.\n",
+  "subjects": [
+    "Condensed Matter/Statistical Mechanics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "B-ULcHlx8wxUAnKCBwwSanSnSePsW7LMPk-vNMCLvBY",
+  "pdfSize": "910774"
+}

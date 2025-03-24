@@ -1,0 +1,57 @@
+{
+  "id": "2412.11441",
+  "title": "UIBDiffusion: Universal Imperceptible Backdoor Attack for Diffusion\n  Models",
+  "authors": "Yuning Han, Bingyin Zhao, Rui Chu, Feng Luo, Biplab Sikdar, Yingjie\n  Lao",
+  "authorsParsed": [
+    [
+      "Han",
+      "Yuning",
+      ""
+    ],
+    [
+      "Zhao",
+      "Bingyin",
+      ""
+    ],
+    [
+      "Chu",
+      "Rui",
+      ""
+    ],
+    [
+      "Luo",
+      "Feng",
+      ""
+    ],
+    [
+      "Sikdar",
+      "Biplab",
+      ""
+    ],
+    [
+      "Lao",
+      "Yingjie",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 16 Dec 2024 04:47:55 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Tue, 31 Dec 2024 05:07:06 GMT"
+    }
+  ],
+  "updateDate": "2025-01-03",
+  "timestamp": 1734324475000,
+  "abstract": "  Recent studies show that diffusion models (DMs) are vulnerable to backdoor\nattacks. Existing backdoor attacks impose unconcealed triggers (e.g., a gray\nbox and eyeglasses) that contain evident patterns, rendering remarkable attack\neffects yet easy detection upon human inspection and defensive algorithms.\nWhile it is possible to improve stealthiness by reducing the strength of the\nbackdoor, doing so can significantly compromise its generality and\neffectiveness. In this paper, we propose UIBDiffusion, the universal\nimperceptible backdoor attack for diffusion models, which allows us to achieve\nsuperior attack and generation performance while evading state-of-the-art\ndefenses. We propose a novel trigger generation approach based on universal\nadversarial perturbations (UAPs) and reveal that such perturbations, which are\ninitially devised for fooling pre-trained discriminative models, can be adapted\nas potent imperceptible backdoor triggers for DMs. We evaluate UIBDiffusion on\nmultiple types of DMs with different kinds of samplers across various datasets\nand targets. Experimental results demonstrate that UIBDiffusion brings three\nadvantages: 1) Universality, the imperceptible trigger is universal (i.e.,\nimage and model agnostic) where a single trigger is effective to any images and\nall diffusion models with different samplers; 2) Utility, it achieves\ncomparable generation quality (e.g., FID) and even better attack success rate\n(i.e., ASR) at low poison rates compared to the prior works; and 3)\nUndetectability, UIBDiffusion is plausible to human perception and can bypass\nElijah and TERD, the SOTA defenses against backdoors for DMs. We will release\nour backdoor triggers and code.\n",
+  "subjects": [
+    "Computer Science/Cryptography and Security",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "FIYOmsXXR3fAdP8D5buhE07uKmkNCtvAtvGIxMvgVXI",
+  "pdfSize": "15492605"
+}

@@ -1,0 +1,53 @@
+{
+  "id": "2412.18218",
+  "title": "On the Effectiveness of Adversarial Training on Malware Classifiers",
+  "authors": "Hamid Bostani, Jacopo Cortellazzi, Daniel Arp, Fabio Pierazzi,\n  Veelasha Moonsamy, Lorenzo Cavallaro",
+  "authorsParsed": [
+    [
+      "Bostani",
+      "Hamid",
+      ""
+    ],
+    [
+      "Cortellazzi",
+      "Jacopo",
+      ""
+    ],
+    [
+      "Arp",
+      "Daniel",
+      ""
+    ],
+    [
+      "Pierazzi",
+      "Fabio",
+      ""
+    ],
+    [
+      "Moonsamy",
+      "Veelasha",
+      ""
+    ],
+    [
+      "Cavallaro",
+      "Lorenzo",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 24 Dec 2024 06:55:53 GMT"
+    }
+  ],
+  "updateDate": "2024-12-25",
+  "timestamp": 1735023353000,
+  "abstract": "  Adversarial Training (AT) has been widely applied to harden learning-based\nclassifiers against adversarial evasive attacks. However, its effectiveness in\nidentifying and strengthening vulnerable areas of the model's decision space\nwhile maintaining high performance on clean data of malware classifiers remains\nan under-explored area. In this context, the robustness that AT achieves has\noften been assessed against unrealistic or weak adversarial attacks, which\nnegatively affect performance on clean data and are arguably no longer threats.\nPrevious work seems to suggest robustness is a task-dependent property of AT.\nWe instead argue it is a more complex problem that requires exploring AT and\nthe intertwined roles played by certain factors within data, feature\nrepresentations, classifiers, and robust optimization settings, as well as\nproper evaluation factors, such as the realism of evasion attacks, to gain a\ntrue sense of AT's effectiveness. In our paper, we address this gap by\nsystematically exploring the role such factors have in hardening malware\nclassifiers through AT. Contrary to recent prior work, a key observation of our\nresearch and extensive experiments confirm the hypotheses that all such factors\ninfluence the actual effectiveness of AT, as demonstrated by the varying\ndegrees of success from our empirical analysis. We identify five evaluation\npitfalls that affect state-of-the-art studies and summarize our insights in ten\ntakeaways to draw promising research directions toward better understanding the\nfactors' settings under which adversarial training works at best.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Computer Science/Cryptography and Security"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "UZqJ6T2SAdXI9hCAfM2Xv4jpsDcLrJu4u9Lg7wpTq6g",
+  "pdfSize": "1674089"
+}

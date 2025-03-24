@@ -1,0 +1,42 @@
+{
+  "id": "2412.17828",
+  "title": "Predictive Modeling of Shading Effects on Photovoltaic Panels Using\n  Regression Analysis",
+  "authors": "Jonathan Olivares, Tyler Depe, Kanika Sood, Rakeshkumar Mahto",
+  "authorsParsed": [
+    [
+      "Olivares",
+      "Jonathan",
+      ""
+    ],
+    [
+      "Depe",
+      "Tyler",
+      ""
+    ],
+    [
+      "Sood",
+      "Kanika",
+      ""
+    ],
+    [
+      "Mahto",
+      "Rakeshkumar",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 10 Dec 2024 22:57:36 GMT"
+    }
+  ],
+  "updateDate": "2024-12-25",
+  "timestamp": 1733871456000,
+  "abstract": "  Drones have become indispensable assets during human-made and natural\ndisasters, offering damage assessment, aid delivery, and communication\nrestoration capabilities. However, most drones rely on batteries that require\nfrequent recharging, limiting their effectiveness in continuous missions.\nPhotovoltaic (PV) powered drones are an ideal alternative. However, their\nperformance degrades in variable lighting conditions. Hence, machine learning\n(ML) controlled PV cells present a promising solution for extending the\nendurance of a drone. This work evaluates five regression models, linear\nregression, lasso regression, ridge regression, random forest regression, and\nXGBoost regression, to predict shading percentages on PV panels. Accurate\nprediction of shading is crucial for improving the performance and efficiency\nof ML-controlled PV panels in varying conditions. By achieving a lower MSE and\nhigher R2 Scores, XGBoost and random forest methods were the best-performing\nregression models. Notably, XGBoost showed superior performance with an R2\nScore of 0.926. These findings highlight the possibility of utilizing the\nregression model to enhance PV-powered drones' efficiency, prolong flight time,\nreduce maintenance costs, and improve disaster response capabilities.\n",
+  "subjects": [
+    "Electrical Engineering and Systems Science/Signal Processing"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "l2gDbrbaLoI2q4Px7QPSsTMpGxhPbl-nMnTavHOMi_o",
+  "pdfSize": "2529868"
+}

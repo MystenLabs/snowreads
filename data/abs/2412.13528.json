@@ -1,0 +1,37 @@
+{
+  "id": "2412.13528",
+  "title": "ScamGPT-J: Inside the Scammer's Mind, A Generative AI-Based Approach\n  Toward Combating Messaging Scams",
+  "authors": "Xue Wen Tan, Kenneth See, Stanley Kok",
+  "authorsParsed": [
+    [
+      "Tan",
+      "Xue Wen",
+      ""
+    ],
+    [
+      "See",
+      "Kenneth",
+      ""
+    ],
+    [
+      "Kok",
+      "Stanley",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 18 Dec 2024 06:12:51 GMT"
+    }
+  ],
+  "updateDate": "2024-12-19",
+  "timestamp": 1734502371000,
+  "abstract": "  The increase in global cellphone usage has led to a spike in instant\nmessaging scams, causing extensive socio-economic damage with yearly losses\nexceeding half a trillion US dollars. These scams pose a challenge to the\nintegrity of justice systems worldwide due to their international nature, which\ncomplicates legal action. Scams often exploit emotional vulnerabilities, making\ndetection difficult for many. To address this, we introduce ScamGPT-J, a large\nlanguage model that replicates scammer tactics. Unlike traditional methods that\nsimply detect and block scammers, ScamGPT-J helps users recognize scam\ninteractions by simulating scammer responses in real-time. If a user receives a\nmessage that closely matches a ScamGPT-J simulated response, it signals a\npotential scam, thus helping users identify and avoid scams more effectively.\nThe model's effectiveness is evaluated through technical congruence with scam\ndialogues and user engagement. Our results show that ScamGPT-J can\nsignificantly aid in protecting against messaging scams.\n",
+  "subjects": [
+    "Computer Science/Human-Computer Interaction"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "4WyfttFqaWgrvC_QVzSWExbDMs1ZsoeDXtNTDP3PSMU",
+  "pdfSize": "650156"
+}

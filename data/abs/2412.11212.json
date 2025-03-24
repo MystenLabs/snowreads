@@ -1,0 +1,38 @@
+{
+  "id": "2412.11212",
+  "title": "Practical IMT and EESS Spectrum Sharing in the 7 to 8 GHz Band",
+  "authors": "Elliot Eichen, Arvind Aradhya, Oren Collaco",
+  "authorsParsed": [
+    [
+      "Eichen",
+      "Elliot",
+      ""
+    ],
+    [
+      "Aradhya",
+      "Arvind",
+      ""
+    ],
+    [
+      "Collaco",
+      "Oren",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 15 Dec 2024 15:06:18 GMT"
+    }
+  ],
+  "updateDate": "2024-12-17",
+  "timestamp": 1734275178000,
+  "abstract": "  The 7.3 GHz (350 MHz bandwidth) Earth Observation Satellite (EOS) band, while\nnot protected, is used for Passive Sea Surface Temperature (P-SST) measurements\nthat provide important data for weather forecasts, coastal disaster prevention,\nclimate modeling, and oceanographic research. The full 7 GHz band (7.125 to 8.4\nGHz), which encompasses these EOS frequencies, is the largest contiguous block\nof potentially available mid-band spectrum and will play a significant role in\nmeeting the anticipated demand for wireless services. A Real Time Geofenced\nSpectrum Sharing (RGSS) system is shown to be a practical and near term\nsolution to spectrum sharing between P-SST measurements and 5G or 6G networks\nin the 7GHz band. RGSS enables IMT networks and EOS radiometers to share 350MHz\nof overlapping spectrum centered at 7.3 GHz. It prevents interference to P-SST\nmeasurements while simultaneously allowing IMT systems un-constrained access to\nthe shared spectrum greater than 99.9% of the time. Subscriber impact during\nthe less than 0.1 percent paused access time can be prevented by using 3GPP\ndefined capabilities and O-RAN APIs to move subscribers to other frequencies.\nPaused access time data from a proof-of-concept RGSS system is available to\nacademic, government, and industry researchers through a web or programmatic\ninterface.\n",
+  "subjects": [
+    "Electrical Engineering and Systems Science/Signal Processing",
+    "Computer Science/Computational Engineering, Finance, and Science"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "BQJgYfab-rLMOcuqTjJ_qa4eOYxRBOojeeIHS4CtvTU",
+  "pdfSize": "1290840"
+}

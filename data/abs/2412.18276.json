@@ -1,0 +1,58 @@
+{
+  "id": "2412.18276",
+  "title": "UNet--: Memory-Efficient and Feature-Enhanced Network Architecture based\n  on U-Net with Reduced Skip-Connections",
+  "authors": "Lingxiao Yin, Wei Tao, Dongyue Zhao, Tadayuki Ito, Kinya Osa, Masami\n  Kato, Tse-Wei Chen",
+  "authorsParsed": [
+    [
+      "Yin",
+      "Lingxiao",
+      ""
+    ],
+    [
+      "Tao",
+      "Wei",
+      ""
+    ],
+    [
+      "Zhao",
+      "Dongyue",
+      ""
+    ],
+    [
+      "Ito",
+      "Tadayuki",
+      ""
+    ],
+    [
+      "Osa",
+      "Kinya",
+      ""
+    ],
+    [
+      "Kato",
+      "Masami",
+      ""
+    ],
+    [
+      "Chen",
+      "Tse-Wei",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 24 Dec 2024 08:38:34 GMT"
+    }
+  ],
+  "updateDate": "2024-12-25",
+  "timestamp": 1735029514000,
+  "abstract": "  U-Net models with encoder, decoder, and skip-connections components have\ndemonstrated effectiveness in a variety of vision tasks. The skip-connections\ntransmit fine-grained information from the encoder to the decoder. It is\nnecessary to maintain the feature maps used by the skip-connections in memory\nbefore the decoding stage. Therefore, they are not friendly to devices with\nlimited resource. In this paper, we propose a universal method and architecture\nto reduce the memory consumption and meanwhile generate enhanced feature maps\nto improve network performance. To this end, we design a simple but effective\nMulti-Scale Information Aggregation Module (MSIAM) in the encoder and an\nInformation Enhancement Module (IEM) in the decoder. The MSIAM aggregates\nmulti-scale feature maps into single-scale with less memory. After that, the\naggregated feature maps can be expanded and enhanced to multi-scale feature\nmaps by the IEM. By applying the proposed method on NAFNet, a SOTA model in the\nfield of image restoration, we design a memory-efficient and feature-enhanced\nnetwork architecture, UNet--. The memory demand by the skip-connections in the\nUNet-- is reduced by 93.3%, while the performance is improved compared to\nNAFNet. Furthermore, we show that our proposed method can be generalized to\nmultiple visual tasks, with consistent improvements in both memory consumption\nand network accuracy compared to the existing efficient architectures.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Electrical Engineering and Systems Science/Image and Video Processing"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "0QGXjJDiEcJvdQKtG3OX1ErlMNMhEyo4tWYCZbHCp3w",
+  "pdfSize": "10534169"
+}

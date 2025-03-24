@@ -1,0 +1,55 @@
+{
+  "id": "2412.09144",
+  "title": "Evaluating the Potential of In-Memory Processing to Accelerate\n  Homomorphic Encryption",
+  "authors": "Mpoki Mwaisela, Joel Hari, Peterson Yuhala, J\\\"ames M\\'en\\'etrey,\n  Pascal Felber, Valerio Schiavoni",
+  "authorsParsed": [
+    [
+      "Mwaisela",
+      "Mpoki",
+      ""
+    ],
+    [
+      "Hari",
+      "Joel",
+      ""
+    ],
+    [
+      "Yuhala",
+      "Peterson",
+      ""
+    ],
+    [
+      "Ménétrey",
+      "Jämes",
+      ""
+    ],
+    [
+      "Felber",
+      "Pascal",
+      ""
+    ],
+    [
+      "Schiavoni",
+      "Valerio",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 12 Dec 2024 10:28:58 GMT"
+    }
+  ],
+  "updateDate": "2024-12-13",
+  "timestamp": 1733999338000,
+  "abstract": "  The widespread adoption of cloud-based solutions introduces privacy and\nsecurity concerns. Techniques such as homomorphic encryption (HE) mitigate this\nproblem by allowing computation over encrypted data without the need for\ndecryption. However, the high computational and memory overhead associated with\nthe underlying cryptographic operations has hindered the practicality of\nHE-based solutions. While a significant amount of research has focused on\nreducing computational overhead by utilizing hardware accelerators like GPUs\nand FPGAs, there has been relatively little emphasis on addressing HE memory\noverhead. Processing in-memory (PIM) presents a promising solution to this\nproblem by bringing computation closer to data, thereby reducing the overhead\nresulting from processor-memory data movements. In this work, we evaluate the\npotential of a PIM architecture from UPMEM for accelerating HE operations.\nFirstly, we focus on PIM-based acceleration for polynomial operations, which\nunderpin HE algorithms. Subsequently, we conduct a case study analysis by\nintegrating PIM into two popular and open-source HE libraries, OpenFHE and\nHElib. Our study concludes with key findings and takeaways gained from the\npractical application of HE operations using PIM, providing valuable insights\nfor those interested in adopting this technology.\n",
+  "subjects": [
+    "Computer Science/Cryptography and Security",
+    "Computer Science/Hardware Architecture",
+    "Computer Science/Distributed, Parallel, and Cluster Computing",
+    "Computer Science/Performance"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "pl5lIK-v9f1IxiBjwSncxpCV9E52IDv7DIxeER91zxg",
+  "pdfSize": "552313"
+}

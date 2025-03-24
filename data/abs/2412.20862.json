@@ -1,0 +1,27 @@
+{
+  "id": "2412.20862",
+  "title": "Recovering 21cm global signal from 21cm power spectrum with artificial\n  neural network",
+  "authors": "Hayato Shimabukuro",
+  "authorsParsed": [
+    [
+      "Shimabukuro",
+      "Hayato",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 30 Dec 2024 11:02:20 GMT"
+    }
+  ],
+  "updateDate": "2024-12-31",
+  "timestamp": 1735556540000,
+  "abstract": "  In this paper, we propose a novel method to recover the 21cm global signal\nfrom the 21cm power spectrum using artificial neural networks (ANNs). The 21cm\nglobal signal is crucial for understanding cosmic evolution from the Dark Ages\nthrough the Epoch of Reionization (EoR). While interferometers like LOFAR, MWA,\nHERA, and SKA focus on detecting the 21cm power spectrum, single-dish\nexperiments such as EDGES target the global signal. Our method utilizes ANNs to\nestablish a connection between these two observables, providing a means to\ncross-validate independent 21cm line observations. This capability is\nsignificant as it allows different observational approaches to verify each\nother's results, ensuring greater reliability in 21cm cosmology. We demonstrate\nthat our ANN-based approach can accurately recover the 21cm global signal\nacross a wide redshift range (z=7.5-35) from simulated data, even when\nrealistic thermal noise levels, such as those expected from SKA-1, are\nconsidered. This cross-validation process strengthens the robustness of 21cm\nsignal analysis, offering a more comprehensive understanding of the early\nuniverse.\n",
+  "subjects": [
+    "Astrophysics/Cosmology and Nongalactic Astrophysics"
+  ],
+  "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+  "blobId": "fUsLW2h1bQoHTzMqaICnpw4WLvAeq3xO1rDkcYr2in0",
+  "pdfSize": "533008"
+}

@@ -1,0 +1,39 @@
+{
+  "id": "2412.03771",
+  "title": "Diffusion in Zero-Shot Learning for Environmental Audio",
+  "authors": "Ysobel Sims, Stephan Chalup, Alexandre Mendes",
+  "authorsParsed": [
+    [
+      "Sims",
+      "Ysobel",
+      ""
+    ],
+    [
+      "Chalup",
+      "Stephan",
+      ""
+    ],
+    [
+      "Mendes",
+      "Alexandre",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 4 Dec 2024 23:18:40 GMT"
+    }
+  ],
+  "updateDate": "2024-12-06",
+  "timestamp": 1733354320000,
+  "abstract": "  Zero-shot learning enables models to generalize to unseen classes by\nleveraging semantic information, bridging the gap between training and testing\nsets with non-overlapping classes. While much research has focused on zero-shot\nlearning in computer vision, the application of these methods to environmental\naudio remains underexplored, with poor performance in existing studies.\nGenerative methods, which have demonstrated success in computer vision, are\nnotably absent from environmental audio zero-shot learning, where\nclassification-based approaches dominate.\n  To address this gap, this work investigates generative methods for zero-shot\nlearning in environmental audio. Two successful generative models from computer\nvision are adapted: a cross-aligned and distribution-aligned variational\nautoencoder (CADA-VAE) and a leveraging invariant side generative adversarial\nnetwork (LisGAN). Additionally, a novel diffusion model conditioned on class\nauxiliary data is introduced. The diffusion model generates synthetic data for\nunseen classes, which is combined with seen-class data to train a classifier.\n  Experiments are conducted on two environmental audio datasets, ESC-50 and\nFSC22. Results show that the diffusion model significantly outperforms all\nbaseline methods, achieving more than 25% higher accuracy on the ESC-50 test\npartition.\n  This work establishes the diffusion model as a promising generative approach\nfor zero-shot learning and introduces the first benchmark of generative methods\nfor environmental audio zero-shot learning, providing a foundation for future\nresearch in the field.\n  Code is provided at https://github.com/ysims/ZeroDiffusion for the novel\nZeroDiffusion method.\n",
+  "subjects": [
+    "Computer Science/Sound",
+    "Computer Science/Machine Learning",
+    "Electrical Engineering and Systems Science/Audio and Speech Processing"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "t5sl6NzTmVq8ksXPll6FQ-vAM1kp0oO9mkubuLQ71vQ",
+  "pdfSize": "1600733"
+}

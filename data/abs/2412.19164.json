@@ -1,0 +1,32 @@
+{
+  "id": "2412.19164",
+  "title": "Squeezing in conditional measurement setup with coherent input",
+  "authors": "Devibala Esakkimuthu and Basherrudin Mahmud Ahmed A",
+  "authorsParsed": [
+    [
+      "Esakkimuthu",
+      "Devibala",
+      ""
+    ],
+    [
+      "A",
+      "Basherrudin Mahmud Ahmed",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 26 Dec 2024 10:49:16 GMT"
+    }
+  ],
+  "updateDate": "2024-12-30",
+  "timestamp": 1735210156000,
+  "abstract": "  Conditional Measurement scheme which employs linear optical elements and\nphoton detection is the fertile ground for nonclassical state generation. We\nconsider a simple setup that requires a coherent state and a number state as\ninputs of the beam splitter, and a photon detector. We show that by tuning the\nparameters involved in the setup, we can achieve optimal squeezing from the\nsetup. This is facilitated by writing the output state of the conditional\nmeasurement as displaced qudits. Setting aside displacement which plays no role\nin squeezing, the finite-dimensional representation makes it possible to\ncalculate the maximal amount of squeezing. By fixing the detection at one\nphoton level irrespective of any number state input and carefully chosen\ncoherent parameter and beam splitter reflectivity values, one can reach the\nmaximal squeezing at least for lower number state inputs. This is in contrast\nto the earlier attempts in atom field interaction models etc., where the\nsqueezing obtained was far from saturation. To accommodate the experimental\nimperfections, we consider the impure nature of the photon source and detector\ninefficiency.\n",
+  "subjects": [
+    "Physics/Quantum Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by-sa/4.0/",
+  "blobId": "S9mVUWhjJgWzfM6XxOckRi8ebM70_6kViIngQzHU3gw",
+  "pdfSize": "11240779"
+}

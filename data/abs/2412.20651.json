@@ -1,0 +1,63 @@
+{
+  "id": "2412.20651",
+  "title": "Latent Drifting in Diffusion Models for Counterfactual Medical Image\n  Synthesis",
+  "authors": "Yousef Yeganeh, Ioannis Charisiadis, Marta Hasny, Martin Hartenberger,\n  Bj\\\"orn Ommer, Nassir Navab, Azade Farshad, Ehsan Adeli",
+  "authorsParsed": [
+    [
+      "Yeganeh",
+      "Yousef",
+      ""
+    ],
+    [
+      "Charisiadis",
+      "Ioannis",
+      ""
+    ],
+    [
+      "Hasny",
+      "Marta",
+      ""
+    ],
+    [
+      "Hartenberger",
+      "Martin",
+      ""
+    ],
+    [
+      "Ommer",
+      "Björn",
+      ""
+    ],
+    [
+      "Navab",
+      "Nassir",
+      ""
+    ],
+    [
+      "Farshad",
+      "Azade",
+      ""
+    ],
+    [
+      "Adeli",
+      "Ehsan",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 30 Dec 2024 01:59:34 GMT"
+    }
+  ],
+  "updateDate": "2024-12-31",
+  "timestamp": 1735523974000,
+  "abstract": "  Scaling by training on large datasets has been shown to enhance the quality\nand fidelity of image generation and manipulation with diffusion models;\nhowever, such large datasets are not always accessible in medical imaging due\nto cost and privacy issues, which contradicts one of the main applications of\nsuch models to produce synthetic samples where real data is scarce. Also,\nfinetuning on pre-trained general models has been a challenge due to the\ndistribution shift between the medical domain and the pre-trained models. Here,\nwe propose Latent Drift (LD) for diffusion models that can be adopted for any\nfine-tuning method to mitigate the issues faced by the distribution shift or\nemployed in inference time as a condition. Latent Drifting enables diffusion\nmodels to be conditioned for medical images fitted for the complex task of\ncounterfactual image generation, which is crucial to investigate how parameters\nsuch as gender, age, and adding or removing diseases in a patient would alter\nthe medical images. We evaluate our method on three public longitudinal\nbenchmark datasets of brain MRI and chest X-rays for counterfactual image\ngeneration. Our results demonstrate significant performance gains in various\nscenarios when combined with different fine-tuning schemes. The source code of\nthis work will be publicly released upon its acceptance.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "5BuqfyLefe1nk2AQjjMe0ziBBLCIGvgPtj2QwcGV1LI",
+  "pdfSize": "29234279"
+}

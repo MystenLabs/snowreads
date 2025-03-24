@@ -1,0 +1,47 @@
+{
+  "id": "2412.04080",
+  "title": "Global drag reduction and local flow statistics in Taylor-Couette\n  turbulence with dilute polymer additives",
+  "authors": "Yi-Bao Zhang, Yaning Fan, Jinghong Su, Heng-Dong Xi, and Chao Sun",
+  "authorsParsed": [
+    [
+      "Zhang",
+      "Yi-Bao",
+      ""
+    ],
+    [
+      "Fan",
+      "Yaning",
+      ""
+    ],
+    [
+      "Su",
+      "Jinghong",
+      ""
+    ],
+    [
+      "Xi",
+      "Heng-Dong",
+      ""
+    ],
+    [
+      "Sun",
+      "Chao",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 5 Dec 2024 11:28:17 GMT"
+    }
+  ],
+  "updateDate": "2024-12-06",
+  "timestamp": 1733398097000,
+  "abstract": "  We present an experimental study on the drag reduction by polymers in\nTaylor-Couette turbulence at Reynolds numbers ($Re$) ranging from $4\\times\n10^3$ to $2.5\\times 10^4$. In this $Re$ regime, the Taylor vortex is present\nand accounts for more than 50\\% of the total angular velocity flux.\nPolyacrylamide polymers with two different average molecular weights are used.\nIt is found that the drag reduction rate increases with polymer concentration\nand approaches the maximum drag reduction (MDR) limit. At MDR, the friction\nfactor follows the $-0.58$ scaling, i.e., $C_f \\sim Re^{-0.58}$, similar to\nchannel/pipe flows. However, the drag reduction rate is about $20\\%$ at MDR,\nwhich is much lower than that in channel/pipe flows at comparable $Re$. We also\nfind that the Reynolds shear stress does not vanish and the slope of the mean\nazimuthal velocity profile in the logarithmic layer remains unchanged at MDR.\nThese behaviours are reminiscent of the low drag reduction regime reported in\nchannel flow (Warholic et al., Exp. Fluids, vol. 27, issue 5, 1999, p.\n461-472). We reveal that the lower drag reduction rate originates from the fact\nthat polymers strongly suppress the turbulent flow while only slightly weaken\nthe mean Taylor vortex. We further show that polymers steady the velocity\nboundary layer and suppress the small-scale G\\\"{o}rtler vortices in the\nnear-wall region. The former effect reduces the emission rate of both intense\nfast and slow plumes detached from the boundary layer, resulting in less flux\ntransport from the inner cylinder to the outer one and reduces energy input\ninto the bulk turbulent flow. Our results suggest that in turbulent flows,\nwhere secondary flow structures are statistically persistent and dominate the\nglobal transport properties of the system, the drag reduction efficiency of\npolymer additives is significantly diminished.\n",
+  "subjects": [
+    "Physics/Fluid Dynamics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "k4-Mv5aGvucDO8MRPheQ8e1tZPla0DKOmHuNTJxvl4E",
+  "pdfSize": "1165454"
+}

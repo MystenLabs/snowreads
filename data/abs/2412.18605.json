@@ -1,0 +1,52 @@
+{
+  "id": "2412.18605",
+  "title": "Orient Anything: Learning Robust Object Orientation Estimation from\n  Rendering 3D Models",
+  "authors": "Zehan Wang, Ziang Zhang, Tianyu Pang, Chao Du, Hengshuang Zhao, Zhou\n  Zhao",
+  "authorsParsed": [
+    [
+      "Wang",
+      "Zehan",
+      ""
+    ],
+    [
+      "Zhang",
+      "Ziang",
+      ""
+    ],
+    [
+      "Pang",
+      "Tianyu",
+      ""
+    ],
+    [
+      "Du",
+      "Chao",
+      ""
+    ],
+    [
+      "Zhao",
+      "Hengshuang",
+      ""
+    ],
+    [
+      "Zhao",
+      "Zhou",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 24 Dec 2024 18:58:43 GMT"
+    }
+  ],
+  "updateDate": "2024-12-25",
+  "timestamp": 1735066723000,
+  "abstract": "  Orientation is a key attribute of objects, crucial for understanding their\nspatial pose and arrangement in images. However, practical solutions for\naccurate orientation estimation from a single image remain underexplored. In\nthis work, we introduce Orient Anything, the first expert and foundational\nmodel designed to estimate object orientation in a single- and free-view image.\nDue to the scarcity of labeled data, we propose extracting knowledge from the\n3D world. By developing a pipeline to annotate the front face of 3D objects and\nrender images from random views, we collect 2M images with precise orientation\nannotations. To fully leverage the dataset, we design a robust training\nobjective that models the 3D orientation as probability distributions of three\nangles and predicts the object orientation by fitting these distributions.\nBesides, we employ several strategies to improve synthetic-to-real transfer.\nOur model achieves state-of-the-art orientation estimation accuracy in both\nrendered and real images and exhibits impressive zero-shot ability in various\nscenarios. More importantly, our model enhances many applications, such as\ncomprehension and generation of complex spatial concepts and 3D object pose\nadjustment.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "b5tCnlNwaNCDHag0jIr5R8KJ7hqGnjUYZKAHJHhEPOo",
+  "pdfSize": "12618646"
+}

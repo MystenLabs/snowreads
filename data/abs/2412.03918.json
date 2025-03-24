@@ -1,0 +1,27 @@
+{
+  "id": "2412.03918",
+  "title": "Selection of Ultrahigh-Dimensional Interactions Using $L_0$ Penalty",
+  "authors": "Tonglin Zhang",
+  "authorsParsed": [
+    [
+      "Zhang",
+      "Tonglin",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 5 Dec 2024 06:42:59 GMT"
+    }
+  ],
+  "updateDate": "2024-12-06",
+  "timestamp": 1733380979000,
+  "abstract": "  Selecting interactions from an ultrahigh-dimensional statistical model with\n$n$ observations and $p$ variables when $p\\gg n$ is difficult because the\nnumber of candidates for interactions is $p(p-1)/2$ and a selected model should\nsatisfy the strong hierarchical (SH) restriction. A new method called the SHL0\nis proposed to overcome the difficulty. The objective function of the SHL0\nmethod is composed of a loglikelihood function and an $L_0$ penalty. A\nwell-known approach in theoretical computer science called local combinatorial\noptimization is used to optimize the objective function. We show that any local\nsolution of the SHL0 is consistent and enjoys the oracle properties, implying\nthat it is unnecessary to use a global solution in practice. Three additional\nadvantages are: a tuning parameter is used to penalize the main effects and\ninteractions; a closed-form expression can derive the tuning parameter; and the\nidea can be extended to arbitrary ultrahigh-dimensional statistical models. The\nproposed method is more flexible than the previous methods for selecting\ninteractions. A simulation study of the research shows that the proposed SHL0\noutperforms its competitors.\n",
+  "subjects": [
+    "Statistics/Methodology"
+  ],
+  "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+  "blobId": "i89Vvl9buyELjFkq1MBjGaedjI3oA1bpVh5QG9fWJVE",
+  "pdfSize": "362914"
+}

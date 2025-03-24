@@ -1,0 +1,32 @@
+{
+  "id": "2412.11469",
+  "title": "Normalized solutions to a quasilinear equation involving critical\n  Sobolev exponent",
+  "authors": "Nidhi and K. Sreenadh",
+  "authorsParsed": [
+    [
+      "Nidhi",
+      "",
+      ""
+    ],
+    [
+      "Sreenadh",
+      "K.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 16 Dec 2024 06:04:58 GMT"
+    }
+  ],
+  "updateDate": "2024-12-17",
+  "timestamp": 1734329098000,
+  "abstract": "  In this paper we study the existence and regularity results of normalized\nsolutions to the following quasilinear elliptic Choquard equation with critical\nSobolev exponent and mixed diffusion type operators:\n  \\begin{equation*}\n  \\begin{array}{rcl}\n  -\\Delta_p u+(-\\Delta_p)^su & = & \\lambda |u|^{p-2}u +|u|^{p^*-2}u+\n\\mu(I_{\\alpha}*|u|^q)|u|^{q-2}u\\;\\;\\text{in } \\mathbb{R}^N,\n  \\int_{\\mathbb{R}^N}|u|^pdx & = & \\tau,\n  \\end{array}\n  \\end{equation*}\n  where $N\\geq 3$, $\\tau>0$,\n$\\frac{p}{2}(\\frac{N+\\alpha}{N})<q<\\frac{p}{2}(\\frac{N+\\alpha}{N-p})$,\n$I_{\\alpha}$ is the Riesz potential of order $\\alpha\\in (0,N)$, $\\mu>0$ is a\nparameter, $(-\\Delta_p)^s$ is the fractional p-laplacian operator,\n$p^*=\\frac{Np}{N-p}$ is the critical Sobolev exponent and $\\lambda$ appears as\na Lagrange multiplier.\n",
+  "subjects": [
+    "Mathematics/Analysis of PDEs"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "vaIH2es5zKzgz4cYRV4GXfPLaQ_-CEqDw6wtFuj9MSw",
+  "pdfSize": "353119"
+}

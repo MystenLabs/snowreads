@@ -1,0 +1,44 @@
+{
+  "id": "2412.08661",
+  "title": "GeoConformal prediction: a model-agnostic framework of measuring the\n  uncertainty of spatial prediction",
+  "authors": "Xiayin Lou, Peng Luo, Liqiu Meng",
+  "authorsParsed": [
+    [
+      "Lou",
+      "Xiayin",
+      ""
+    ],
+    [
+      "Luo",
+      "Peng",
+      ""
+    ],
+    [
+      "Meng",
+      "Liqiu",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 5 Dec 2024 18:40:06 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Fri, 13 Dec 2024 22:47:01 GMT"
+    }
+  ],
+  "updateDate": "2024-12-17",
+  "timestamp": 1733424006000,
+  "abstract": "  Spatial prediction is a fundamental task in geography. In recent years, with\nadvances in geospatial artificial intelligence (GeoAI), numerous models have\nbeen developed to improve the accuracy of geographic variable predictions.\nBeyond achieving higher accuracy, it is equally important to obtain predictions\nwith uncertainty measures to enhance model credibility and support responsible\nspatial prediction. Although geostatistic methods like Kriging offer some level\nof uncertainty assessment, such as Kriging variance, these measurements are not\nalways accurate and lack general applicability to other spatial models. To\naddress this issue, we propose a model-agnostic uncertainty assessment method\ncalled GeoConformal Prediction, which incorporates geographical weighting into\nconformal prediction. We applied it to two classic spatial prediction cases,\nspatial regression and spatial interpolation, to evaluate its reliability.\nFirst, in the spatial regression case, we used XGBoost to predict housing\nprices, followed by GeoConformal to calculate uncertainty. Our results show\nthat GeoConformal achieved a coverage rate of 93.67%, while Bootstrap methods\nonly reached a maximum coverage of 81.00% after 2000 runs. Next, we applied\nGeoConformal to spatial interpolation models. We found that the uncertainty\nobtained from GeoConformal aligned closely with the variance in Kriging.\nFinally, using GeoConformal, we analyzed the sources of uncertainty in spatial\nprediction. We found that explicitly including local features in AI models can\nsignificantly reduce prediction uncertainty, especially in areas with strong\nlocal dependence. Our findings suggest that GeoConformal holds potential not\nonly for geographic knowledge discovery but also for guiding the design of\nfuture GeoAI models, paving the way for more reliable and interpretable spatial\nprediction frameworks.\n",
+  "subjects": [
+    "Statistics/Machine Learning",
+    "Computer Science/Machine Learning",
+    "Physics/Data Analysis, Statistics and Probability",
+    "Statistics/Applications"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "6i9xT6xW_V15FJkfroRtnTCpVLhL-cHxGiNG08ewlOE",
+  "pdfSize": "7783130"
+}

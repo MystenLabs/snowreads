@@ -1,0 +1,47 @@
+{
+  "id": "2412.00791",
+  "title": "FeynKrack: A continuum model for quasi-brittle damage through\n  Feynman-Kac killed diffusion",
+  "authors": "Ved Prakash, Upadhyayula M. M. A. Sai Gopal, Sanhita Das, Ananth\n  Ramaswamy, Debasish Roy",
+  "authorsParsed": [
+    [
+      "Prakash",
+      "Ved",
+      ""
+    ],
+    [
+      "Gopal",
+      "Upadhyayula M. M. A. Sai",
+      ""
+    ],
+    [
+      "Das",
+      "Sanhita",
+      ""
+    ],
+    [
+      "Ramaswamy",
+      "Ananth",
+      ""
+    ],
+    [
+      "Roy",
+      "Debasish",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 1 Dec 2024 12:35:57 GMT"
+    }
+  ],
+  "updateDate": "2024-12-03",
+  "timestamp": 1733056557000,
+  "abstract": "  Continuum damage mechanics (CDM) is a popular framework for modelling crack\npropagation in solids. The CDM uses a damage parameter to quantitatively assess\nwhat one loosely calls `material degradation'. While this parameter is\nsometimes given a physical meaning, the mathematical equations for its\nevolution are generally not consistent with such physical interpretations.\nCuriously, degradation in the CDM may be viewed as a change of measures,\nwherein the damage variable appears as the Radon-Nikodym derivative. We adopt\nthis point of view and use a probabilistic measure-valued description for the\nrandom microcracks underlying quasi-brittle damage. We show that the evolution\nof the underlying density may be described via killed diffusion as in the\nFeynman-Kac theory. Damage growth is then interpreted as the reduction in this\nmeasure over a region, which in turn quantifies the disruption of bonds through\na loss of force-transmitting mechanisms between nearby material points.\nRemarkably, the evolution of damage admits an approximate closed-form solution.\nThis brings forth substantive computational ease, facilitating fast yet\naccurate simulations of large dimensional problems. By selecting an appropriate\nkilling rate, one accounts for the irreversibility of damage and thus\neliminates the need for ad-hoc history-dependent routes typically employed,\nsay, in phase field modelling of damage. Our proposal FeynKrack (a short form\nfor Feynman-Kac crack propagator) is validated and demonstrated for its\nefficacy through several simulations on quasi-brittle damage. It also offers a\npromising stochastic route for future explorations of non-equilibrium\nthermodynamic aspects of damage.\n",
+  "subjects": [
+    "Physics/Computational Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "kHu00FKmIyq6BChL3iADMpOo5f5cfzMpoLwS48dDgLU",
+  "pdfSize": "1061916"
+}

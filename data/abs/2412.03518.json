@@ -1,0 +1,42 @@
+{
+  "id": "2412.03518",
+  "title": "Dense Scene Reconstruction from Light-Field Images Affected by Rolling\n  Shutter",
+  "authors": "Hermes McGriff, Renato Martins, Nicolas Andreff and Cedric Demonceaux",
+  "authorsParsed": [
+    [
+      "McGriff",
+      "Hermes",
+      ""
+    ],
+    [
+      "Martins",
+      "Renato",
+      ""
+    ],
+    [
+      "Andreff",
+      "Nicolas",
+      ""
+    ],
+    [
+      "Demonceaux",
+      "Cedric",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 4 Dec 2024 17:59:04 GMT"
+    }
+  ],
+  "updateDate": "2024-12-05",
+  "timestamp": 1733335144000,
+  "abstract": "  This paper presents a dense depth estimation approach from light-field (LF)\nimages that is able to compensate for strong rolling shutter (RS) effects. Our\nmethod estimates RS compensated views and dense RS compensated disparity maps.\nWe present a two-stage method based on a 2D Gaussians Splatting that allows for\na ``render and compare\" strategy with a point cloud formulation. In the first\nstage, a subset of sub-aperture images is used to estimate an RS agnostic 3D\nshape that is related to the scene target shape ``up to a motion\". In the\nsecond stage, the deformation of the 3D shape is computed by estimating an\nadmissible camera motion. We demonstrate the effectiveness and advantages of\nthis approach through several experiments conducted for different scenes and\ntypes of motions. Due to lack of suitable datasets for evaluation, we also\npresent a new carefully designed synthetic dataset of RS LF images. The source\ncode, trained models and dataset will be made publicly available at:\nhttps://github.com/ICB-Vision-AI/DenseRSLF\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "HaM0ZNvJSWfJdmeU5ps4eu6p2Y61l7rnxSOJuOVpzm8",
+  "pdfSize": "32632557"
+}

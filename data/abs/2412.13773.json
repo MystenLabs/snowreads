@@ -1,0 +1,39 @@
+{
+  "id": "2412.13773",
+  "title": "Recursive Algorithm to the Centroid of Free Area for Inherent Structure\n  and Hopping Motion in Deeply Supercooled Binary Hard Disk Systems",
+  "authors": "Daigo Mugita, Kazuyoshi Souno, and Masaharu Isobe",
+  "authorsParsed": [
+    [
+      "Mugita",
+      "Daigo",
+      ""
+    ],
+    [
+      "Souno",
+      "Kazuyoshi",
+      ""
+    ],
+    [
+      "Isobe",
+      "Masaharu",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 18 Dec 2024 12:10:40 GMT"
+    }
+  ],
+  "updateDate": "2025-01-15",
+  "timestamp": 1734523840000,
+  "abstract": "  Inherent structures, derived by eliminating thermal fluctuations from complex\ntrajectories, illuminate fundamental mechanisms underlying structural\nrelaxation and dynamic heterogeneity in dense glassy systems. However,\ndetermining these structures in hard disk/sphere systems presents unique\nchallenges due to the discontinuous nature of inter-particle potentials and\nresultant flat potential energy landscapes. To address this limitation, we\nintroduce the Recursive Centroid of Free Area algorithm (ReCFA), a novel\napproach inspired by a steepest descent method, which computes inherent\nstructure configurations in hard disk systems. We conducted comparative\nanalyses between ReCFA, similar methods, and a conventional\ntime-coarse-graining technique, focusing on string-like hopping motions in\nsupercompressed binary hard disks that emulate supercooled liquid behavior.\nReCFA demonstrated notable advantages in capturing entropic contributions. The\nconfigurations derived through ReCFA exhibited physically reasonable particle\ndisplacements analogous to inherent structures in soft particle systems,\neffectively identifying hopping motions between metastable basins in jammed\nstates. This ReCFA-based analysis enhances our understanding of relaxation\ndynamics in highly compressed glassy systems, offering a robust analytical tool\nfor investigating both dynamic and structural characteristics across hard and\nsoft particle systems.\n",
+  "subjects": [
+    "Condensed Matter/Soft Condensed Matter",
+    "Condensed Matter/Statistical Mechanics",
+    "Physics/Computational Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "57lKX6EsA2pKbOk8vSNVKuWugT25NdmyHtP84-Nm8Wc",
+  "pdfSize": "4471246"
+}

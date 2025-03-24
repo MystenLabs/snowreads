@@ -1,0 +1,39 @@
+{
+  "id": "2412.02126",
+  "title": "Benchmarking symbolic regression constant optimization schemes",
+  "authors": "L.G.A dos Reis, V.L.P.S. Caminha, T.J.P.Penna",
+  "authorsParsed": [
+    [
+      "Reis",
+      "L. G. A dos",
+      ""
+    ],
+    [
+      "Caminha",
+      "V. L. P. S.",
+      ""
+    ],
+    [
+      "Penna",
+      "T. J. P.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 3 Dec 2024 03:29:27 GMT"
+    }
+  ],
+  "updateDate": "2024-12-04",
+  "timestamp": 1733196567000,
+  "abstract": "  Symbolic regression is a machine learning technique, and it has seen many\nadvancements in recent years, especially in genetic programming approaches\n(GPSR). Furthermore, it has been known for many years that constant\noptimization of parameters, during the evolutionary search, greatly increases\nGPSR performance However, different authors approach such tasks differently and\nno consensus exists regarding which methods perform best. In this work, we\nevaluate eight different parameter optimization methods, applied during\nevolutionary search, over ten known benchmark problems, in two different\nscenarios. We also propose using an under-explored metric called Tree Edit\nDistance (TED), aiming to identify symbolic accuracy. In conjunction with\nclassical error measures, we develop a combined analysis of model performance\nin symbolic regression. We then show that different constant optimization\nmethods perform better in certain scenarios and that there is no overall best\nchoice for every problem. Finally, we discuss how common metric decisions may\nbe biased and appear to generate better models in comparison.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Computer Science/Artificial Intelligence",
+    "Physics/Computational Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by-sa/4.0/",
+  "blobId": "xMaoKJ_yb0izl-0RZfFuOqsuar_53jVwc143okjp52g",
+  "pdfSize": "9283993"
+}

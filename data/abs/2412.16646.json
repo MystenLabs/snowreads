@@ -1,0 +1,39 @@
+{
+  "id": "2412.16646",
+  "title": "Local Conservation Laws and Entropy Inequality for Kinetic Models with\n  Delocalized Collision Integrals",
+  "authors": "Fr\\'ed\\'erique Charles, Zhe Chen and Fran\\c{c}ois Golse",
+  "authorsParsed": [
+    [
+      "Charles",
+      "Frédérique",
+      ""
+    ],
+    [
+      "Chen",
+      "Zhe",
+      ""
+    ],
+    [
+      "Golse",
+      "François",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 21 Dec 2024 14:34:16 GMT"
+    }
+  ],
+  "updateDate": "2024-12-24",
+  "timestamp": 1734791656000,
+  "abstract": "  This article presents a common setting for the collision integrals\n$\\mathrm{St}$ appearing in the kinetic theory of dense gases. It includes the\ncollision integrals of the Enskog equation, of (a variant of) the Povzner\nequation, and of a model for soft sphere collisions proposed by Cercignani\n[Comm. Pure Appl. Math. 36 (1983), 479-494]. All these collision integrals are\ndelocalized, in the sense that they involve products of the distribution\nfunctions of gas molecules evaluated at positions whose distance is of the\norder of the molecular radius. Our first main result is to express these\ncollision integrals as the divergence in $v$ of some mass current, where $v$ is\nthe velocity variable, while $v_i\\mathrm{St}$ and $|v|^2\\mathrm{St}$ are\nexpressed as the phase space divergence (i.e divergence in both position and\nvelocity) of appropriate momentum and energy currents. This extends to the case\nof dense gases an earlier result by Villani [Math. Modelling Numer. Anal. M2AN\n33 (1999), 209-227] in the case of the classical Boltzmann equation (where the\ncollision integral is involves products of the distribution function of gas\nmolecules evaluated at different velocities, but at the same position.\nApplications of this conservative formulation of delocalized collision\nintegrals include the possibility of obtaining the local conservation laws of\nmomentum and energy starting from this kinetic theory of denses gases.\nSimilarly a local variant of the Boltzmann H Theorem, involving some kind of\nfree energy instead of Boltzmann's H function, can be obtained in the form of\nan expression for the entropy production in terms of the phase space divergence\nof some phase space current, and of a nonpositive term.\n",
+  "subjects": [
+    "Physics/Mathematical Physics",
+    "Mathematics/Analysis of PDEs",
+    "Mathematics/Mathematical Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "orKho1AN7nBrwFRt2Etwmml90uoz0rjfZaMYKyNW_5g",
+  "pdfSize": "545708"
+}

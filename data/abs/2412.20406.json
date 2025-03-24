@@ -1,0 +1,39 @@
+{
+  "id": "2412.20406",
+  "title": "A Multidisciplinary Approach to Telegram Data Analysis",
+  "authors": "Velizar Varbanov, Kalin Kopanov and Tatiana Atanasova",
+  "authorsParsed": [
+    [
+      "Varbanov",
+      "Velizar",
+      ""
+    ],
+    [
+      "Kopanov",
+      "Kalin",
+      ""
+    ],
+    [
+      "Atanasova",
+      "Tatiana",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 29 Dec 2024 09:10:52 GMT"
+    }
+  ],
+  "updateDate": "2024-12-31",
+  "timestamp": 1735463452000,
+  "abstract": "  This paper presents a multidisciplinary approach to analyzing data from\nTelegram for early warning information regarding cyber threats. With the\nproliferation of hacktivist groups utilizing Telegram to disseminate\ninformation regarding future cyberattacks or to boast about successful ones,\nthe need for effective data analysis methods is paramount. The primary\nchallenge lies in the vast number of channels and the overwhelming volume of\ndata, necessitating advanced techniques for discerning pertinent risks amidst\nthe noise. To address this challenge, we employ a combination of neural network\narchitectures and traditional machine learning algorithms. These methods are\nutilized to classify and identify potential cyber threats within the Telegram\ndata. Additionally, sentiment analysis and entity recognition techniques are\nincorporated to provide deeper insights into the nature and context of the\ncommunicated information. The study evaluates the effectiveness of each method\nin detecting and categorizing cyber threats, comparing their performance and\nidentifying areas for improvement. By leveraging these diverse analytical\ntools, we aim to enhance early warning systems for cyber threats, enabling more\nproactive responses to potential security breaches. This research contributes\nto the ongoing efforts to bolster cybersecurity measures in an increasingly\ninterconnected digital landscape.\n",
+  "subjects": [
+    "Computer Science/Cryptography and Security",
+    "Computer Science/Computation and Language",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "wHqllkildSD17d2srgxN-lC6YprKACGtqpQc-XrJta8",
+  "pdfSize": "372424"
+}

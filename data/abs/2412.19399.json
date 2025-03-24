@@ -1,0 +1,43 @@
+{
+  "id": "2412.19399",
+  "title": "Online distributed algorithms for mixed equilibrium problems in dynamic\n  environments",
+  "authors": "Hang Xu, Kaihong Lu, Yu-Long Wang, Qixin Zhu",
+  "authorsParsed": [
+    [
+      "Xu",
+      "Hang",
+      ""
+    ],
+    [
+      "Lu",
+      "Kaihong",
+      ""
+    ],
+    [
+      "Wang",
+      "Yu-Long",
+      ""
+    ],
+    [
+      "Zhu",
+      "Qixin",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 27 Dec 2024 01:26:26 GMT"
+    }
+  ],
+  "updateDate": "2024-12-30",
+  "timestamp": 1735262786000,
+  "abstract": "  In this paper, the mixed equilibrium problem with coupled inequality\nconstraints in dynamic environments is solved by employing a multi-agent\nsystem, where each agent only has access to its own bifunction, its own\nconstraint function, and can only communicate with its immediate neighbors via\na time-varying digraph. At each time, the goal of agents is to cooperatively\nfind a point in the constraint set such that the sum of local bifunctions with\na free variable is non-negative. Different from existing works, here the\nbifunctions and the constraint functions are time-varying and only available to\nagents after decisions are made. To tackle this problem, first, an online\ndistributed algorithm involving accurate gradient information is proposed based\non mirror descent algorithms and primal-dual strategies. Of particular interest\nis that dynamic regrets, whose offline benchmarks are to find the solution at\neach time, are employed to measure the performance of the algorithm. Under mild\nassumptions on the graph and the bifunctions, we prove that if the deviation in\nthe solution sequence grows within a certain rate, then both the dynamic regret\nand the violation of coupled inequality constraints increase sublinearly.\nSecond, considering the case where each agent only has access to a noisy\nestimate on the accurate gradient, we propose an online distributed algorithm\ninvolving the stochastic gradients. The result shows that under the same\nconditions as in the first case, if the noise distribution satisfies the\nsub-Gaussian condition, then dynamic regrets, as well as constraint violations,\nincrease sublinearly with high probability. Finally, several simulation\nexamples are presented to corroborate the validity of our results.\n",
+  "subjects": [
+    "Electrical Engineering and Systems Science/Systems and Control",
+    "Computer Science/Systems and Control"
+  ],
+  "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+  "blobId": "mhcfD78jjcNyWHT0hRBN9sc7ir0ENQ-tjsB5ngW5KDM",
+  "pdfSize": "543900"
+}

@@ -1,0 +1,77 @@
+{
+  "id": "2412.17739",
+  "title": "Fourier Position Embedding: Enhancing Attention's Periodic Extension for\n  Length Generalization",
+  "authors": "Ermo Hua, Che Jiang, Xingtai Lv, Kaiyan Zhang, Ning Ding, Youbang Sun,\n  Biqing Qi, Yuchen Fan, Xuekai Zhu, and Bowen Zhou",
+  "authorsParsed": [
+    [
+      "Hua",
+      "Ermo",
+      ""
+    ],
+    [
+      "Jiang",
+      "Che",
+      ""
+    ],
+    [
+      "Lv",
+      "Xingtai",
+      ""
+    ],
+    [
+      "Zhang",
+      "Kaiyan",
+      ""
+    ],
+    [
+      "Ding",
+      "Ning",
+      ""
+    ],
+    [
+      "Sun",
+      "Youbang",
+      ""
+    ],
+    [
+      "Qi",
+      "Biqing",
+      ""
+    ],
+    [
+      "Fan",
+      "Yuchen",
+      ""
+    ],
+    [
+      "Zhu",
+      "Xuekai",
+      ""
+    ],
+    [
+      "Zhou",
+      "Bowen",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 23 Dec 2024 17:44:01 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Thu, 2 Jan 2025 08:58:38 GMT"
+    }
+  ],
+  "updateDate": "2025-01-03",
+  "timestamp": 1734975841000,
+  "abstract": "  Extending the context length of Language Models (LMs) by improving Rotary\nPosition Embedding (RoPE) has become a trend. While existing works mainly\naddress RoPE's limitations within attention mechanism, this paper provides an\nanalysis across nearly all parts of LMs, uncovering their adverse effects on\nlength generalization for RoPE-based attention. Using Discrete Signal\nProcessing theory, we show that RoPE enables periodic attention by implicitly\nachieving Non-Uniform Discrete Fourier Transform. However, this periodicity is\nundermined by the spectral damage caused by: 1) linear layers and activation\nfunctions outside of attention; 2) insufficiently trained frequency components\nbrought by time-domain truncation. Building on our observations, we propose\nFourier Position Embedding (FoPE), which enhances attention's frequency-domain\nproperties to improve both its periodic extension and length generalization.\nFoPE constructs Fourier Series and zero-outs the destructive frequency\ncomponents, increasing model robustness against the spectrum damage.\nExperiments across various model scales show that, within varying context\nwindows, FoPE can maintain a more stable perplexity and a more consistent\naccuracy in a needle-in-haystack task compared to RoPE and ALiBi. Several\nanalyses and ablations bring further support to our method and theoretical\nmodeling.\n",
+  "subjects": [
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Computation and Language"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "zzUggHIH2qS2XSDyo11KaSWUUa3A_OzNDYLJe2BQWnA",
+  "pdfSize": "820254"
+}

@@ -1,0 +1,64 @@
+{
+  "id": "2412.06219",
+  "title": "Data Free Backdoor Attacks",
+  "authors": "Bochuan Cao, Jinyuan Jia, Chuxuan Hu, Wenbo Guo, Zhen Xiang, Jinghui\n  Chen, Bo Li, Dawn Song",
+  "authorsParsed": [
+    [
+      "Cao",
+      "Bochuan",
+      ""
+    ],
+    [
+      "Jia",
+      "Jinyuan",
+      ""
+    ],
+    [
+      "Hu",
+      "Chuxuan",
+      ""
+    ],
+    [
+      "Guo",
+      "Wenbo",
+      ""
+    ],
+    [
+      "Xiang",
+      "Zhen",
+      ""
+    ],
+    [
+      "Chen",
+      "Jinghui",
+      ""
+    ],
+    [
+      "Li",
+      "Bo",
+      ""
+    ],
+    [
+      "Song",
+      "Dawn",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 9 Dec 2024 05:30:25 GMT"
+    }
+  ],
+  "updateDate": "2024-12-10",
+  "timestamp": 1733722225000,
+  "abstract": "  Backdoor attacks aim to inject a backdoor into a classifier such that it\npredicts any input with an attacker-chosen backdoor trigger as an\nattacker-chosen target class. Existing backdoor attacks require either\nretraining the classifier with some clean data or modifying the model's\narchitecture. As a result, they are 1) not applicable when clean data is\nunavailable, 2) less efficient when the model is large, and 3) less stealthy\ndue to architecture changes. In this work, we propose DFBA, a novel\nretraining-free and data-free backdoor attack without changing the model\narchitecture. Technically, our proposed method modifies a few parameters of a\nclassifier to inject a backdoor. Through theoretical analysis, we verify that\nour injected backdoor is provably undetectable and unremovable by various\nstate-of-the-art defenses under mild assumptions. Our evaluation on multiple\ndatasets further demonstrates that our injected backdoor: 1) incurs negligible\nclassification loss, 2) achieves 100% attack success rates, and 3) bypasses six\nexisting state-of-the-art defenses. Moreover, our comparison with a\nstate-of-the-art non-data-free backdoor attack shows our attack is more\nstealthy and effective against various defenses while achieving less\nclassification accuracy loss.\n",
+  "subjects": [
+    "Computer Science/Cryptography and Security",
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "zG_WxVSpcs8FAnrLmj7yDRriJeFLknI7zzrqLSMFEAs",
+  "pdfSize": "829942"
+}

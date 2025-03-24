@@ -1,0 +1,78 @@
+{
+  "id": "2412.09560",
+  "title": "Foundational Large Language Models for Materials Research",
+  "authors": "Vaibhav Mishra, Somaditya Singh, Dhruv Ahlawat, Mohd Zaki, Vaibhav\n  Bihani, Hargun Singh Grover, Biswajit Mishra, Santiago Miret, Mausam, N. M.\n  Anoop Krishnan",
+  "authorsParsed": [
+    [
+      "Mishra",
+      "Vaibhav",
+      ""
+    ],
+    [
+      "Singh",
+      "Somaditya",
+      ""
+    ],
+    [
+      "Ahlawat",
+      "Dhruv",
+      ""
+    ],
+    [
+      "Zaki",
+      "Mohd",
+      ""
+    ],
+    [
+      "Bihani",
+      "Vaibhav",
+      ""
+    ],
+    [
+      "Grover",
+      "Hargun Singh",
+      ""
+    ],
+    [
+      "Mishra",
+      "Biswajit",
+      ""
+    ],
+    [
+      "Miret",
+      "Santiago",
+      ""
+    ],
+    [
+      "Mausam",
+      "",
+      ""
+    ],
+    [
+      "Krishnan",
+      "N. M. Anoop",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 12 Dec 2024 18:46:38 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Tue, 28 Jan 2025 13:17:29 GMT"
+    }
+  ],
+  "updateDate": "2025-01-29",
+  "timestamp": 1734029198000,
+  "abstract": "  Materials discovery and development are critical for addressing global\nchallenges. Yet, the exponential growth in materials science literature\ncomprising vast amounts of textual data has created significant bottlenecks in\nknowledge extraction, synthesis, and scientific reasoning. Large Language\nModels (LLMs) offer unprecedented opportunities to accelerate materials\nresearch through automated analysis and prediction. Still, their effective\ndeployment requires domain-specific adaptation for understanding and solving\ndomain-relevant tasks. Here, we present LLaMat, a family of foundational models\nfor materials science developed through continued pretraining of LLaMA models\non an extensive corpus of materials literature and crystallographic data.\nThrough systematic evaluation, we demonstrate that LLaMat excels in\nmaterials-specific NLP and structured information extraction while maintaining\ngeneral linguistic capabilities. The specialized LLaMat-CIF variant\ndemonstrates unprecedented capabilities in crystal structure generation,\npredicting stable crystals with high coverage across the periodic table.\nIntriguingly, despite LLaMA-3's superior performance in comparison to LLaMA-2,\nwe observe that LLaMat-2 demonstrates unexpectedly enhanced domain-specific\nperformance across diverse materials science tasks, including structured\ninformation extraction from text and tables, more particularly in crystal\nstructure generation, a potential adaptation rigidity in overtrained LLMs.\nAltogether, the present work demonstrates the effectiveness of domain\nadaptation towards developing practically deployable LLM copilots for materials\nresearch. Beyond materials science, our findings reveal important\nconsiderations for domain adaptation of LLMs, such as model selection, training\nmethodology, and domain-specific performance, which may influence the\ndevelopment of specialized scientific AI systems.\n",
+  "subjects": [
+    "Condensed Matter/Materials Science",
+    "Computer Science/Computation and Language",
+    "Computer Science/Information Retrieval"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "-zUq4h-yAl6YRh7BVWe8UZYyrUhpCPAWHLIZAw1Y9RQ",
+  "pdfSize": "10199703"
+}

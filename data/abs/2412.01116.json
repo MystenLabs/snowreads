@@ -1,0 +1,43 @@
+{
+  "id": "2412.01116",
+  "title": "Look Ma, No Ground Truth! Ground-Truth-Free Tuning of Structure from\n  Motion and Visual SLAM",
+  "authors": "Alejandro Fontan, Javier Civera, Tobias Fischer and Michael Milford",
+  "authorsParsed": [
+    [
+      "Fontan",
+      "Alejandro",
+      ""
+    ],
+    [
+      "Civera",
+      "Javier",
+      ""
+    ],
+    [
+      "Fischer",
+      "Tobias",
+      ""
+    ],
+    [
+      "Milford",
+      "Michael",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 2 Dec 2024 04:40:03 GMT"
+    }
+  ],
+  "updateDate": "2024-12-03",
+  "timestamp": 1733114403000,
+  "abstract": "  Evaluation is critical to both developing and tuning Structure from Motion\n(SfM) and Visual SLAM (VSLAM) systems, but is universally reliant on\nhigh-quality geometric ground truth -- a resource that is not only costly and\ntime-intensive but, in many cases, entirely unobtainable. This dependency on\nground truth restricts SfM and SLAM applications across diverse environments\nand limits scalability to real-world scenarios. In this work, we propose a\nnovel ground-truth-free (GTF) evaluation methodology that eliminates the need\nfor geometric ground truth, instead using sensitivity estimation via sampling\nfrom both original and noisy versions of input images. Our approach shows\nstrong correlation with traditional ground-truth-based benchmarks and supports\nGTF hyperparameter tuning. Removing the need for ground truth opens up new\nopportunities to leverage a much larger number of dataset sources, and for\nself-supervised and online tuning, with the potential for a data-driven\nbreakthrough analogous to what has occurred in generative AI.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Robotics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "LWFWT6c9ay_fImuX1YNCnbR4-TFGiS9eoRxA-IJb5qI",
+  "pdfSize": "2686927"
+}

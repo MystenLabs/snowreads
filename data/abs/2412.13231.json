@@ -1,0 +1,62 @@
+{
+  "id": "2412.13231",
+  "title": "C2F-TP: A Coarse-to-Fine Denoising Framework for Uncertainty-Aware\n  Trajectory Prediction",
+  "authors": "Zichen Wang, Hao Miao, Senzhang Wang, Renzhi Wang, Jianxin Wang, Jian\n  Zhang",
+  "authorsParsed": [
+    [
+      "Wang",
+      "Zichen",
+      ""
+    ],
+    [
+      "Miao",
+      "Hao",
+      ""
+    ],
+    [
+      "Wang",
+      "Senzhang",
+      ""
+    ],
+    [
+      "Wang",
+      "Renzhi",
+      ""
+    ],
+    [
+      "Wang",
+      "Jianxin",
+      ""
+    ],
+    [
+      "Zhang",
+      "Jian",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 17 Dec 2024 13:42:49 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Mon, 23 Dec 2024 11:24:18 GMT"
+    },
+    {
+      "version": "v3",
+      "created": "Tue, 24 Dec 2024 03:46:32 GMT"
+    }
+  ],
+  "updateDate": "2024-12-25",
+  "timestamp": 1734442969000,
+  "abstract": "  Accurately predicting the trajectory of vehicles is critically important for\nensuring safety and reliability in autonomous driving. Although considerable\nresearch efforts have been made recently, the inherent trajectory uncertainty\ncaused by various factors including the dynamic driving intends and the diverse\ndriving scenarios still poses significant challenges to accurate trajectory\nprediction. To address this issue, we propose C2F-TP, a coarse-to-fine\ndenoising framework for uncertainty-aware vehicle trajectory prediction. C2F-TP\nfeatures an innovative two-stage coarse-to-fine prediction process.\nSpecifically, in the spatial-temporal interaction stage, we propose a\nspatial-temporal interaction module to capture the inter-vehicle interactions\nand learn a multimodal trajectory distribution, from which a certain number of\nnoisy trajectories are sampled. Next, in the trajectory refinement stage, we\ndesign a conditional denoising model to reduce the uncertainty of the sampled\ntrajectories through a step-wise denoising operation. Extensive experiments are\nconducted on two real datasets NGSIM and highD that are widely adopted in\ntrajectory prediction. The result demonstrates the effectiveness of our\nproposal.\n",
+  "subjects": [
+    "Computer Science/Robotics",
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "QowgI09ZCHndyammZk0UC7X65dkQ8IwM1ggjtRXo0fU",
+  "pdfSize": "1812383"
+}

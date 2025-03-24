@@ -1,0 +1,37 @@
+{
+  "id": "2412.04073",
+  "title": "TransAdapter: Vision Transformer for Feature-Centric Unsupervised Domain\n  Adaptation",
+  "authors": "A. Enes Doruk, Erhan Oztop, Hasan F. Ates",
+  "authorsParsed": [
+    [
+      "Doruk",
+      "A. Enes",
+      ""
+    ],
+    [
+      "Oztop",
+      "Erhan",
+      ""
+    ],
+    [
+      "Ates",
+      "Hasan F.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 5 Dec 2024 11:11:39 GMT"
+    }
+  ],
+  "updateDate": "2024-12-06",
+  "timestamp": 1733397099000,
+  "abstract": "  Unsupervised Domain Adaptation (UDA) aims to utilize labeled data from a\nsource domain to solve tasks in an unlabeled target domain, often hindered by\nsignificant domain gaps. Traditional CNN-based methods struggle to fully\ncapture complex domain relationships, motivating the shift to vision\ntransformers like the Swin Transformer, which excel in modeling both local and\nglobal dependencies. In this work, we propose a novel UDA approach leveraging\nthe Swin Transformer with three key modules. A Graph Domain Discriminator\nenhances domain alignment by capturing inter-pixel correlations through graph\nconvolutions and entropy-based attention differentiation. An Adaptive Double\nAttention module combines Windows and Shifted Windows attention with dynamic\nreweighting to align long-range and local features effectively. Finally, a\nCross-Feature Transform modifies Swin Transformer blocks to improve\ngeneralization across domains. Extensive benchmarks confirm the\nstate-of-the-art performance of our versatile method, which requires no\ntask-specific alignment modules, establishing its adaptability to diverse\napplications.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "jVnYbsckOFT3gsTGrx4N1o5nzRwzfjlc8wFxnSN4l7g",
+  "pdfSize": "743430"
+}

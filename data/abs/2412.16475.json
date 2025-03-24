@@ -1,0 +1,59 @@
+{
+  "id": "2412.16475",
+  "title": "When Can Proxies Improve the Sample Complexity of Preference Learning?",
+  "authors": "Yuchen Zhu, Daniel Augusto de Souza, Zhengyan Shi, Mengyue Yang,\n  Pasquale Minervini, Alexander D'Amour, Matt J. Kusner",
+  "authorsParsed": [
+    [
+      "Zhu",
+      "Yuchen",
+      ""
+    ],
+    [
+      "de Souza",
+      "Daniel Augusto",
+      ""
+    ],
+    [
+      "Shi",
+      "Zhengyan",
+      ""
+    ],
+    [
+      "Yang",
+      "Mengyue",
+      ""
+    ],
+    [
+      "Minervini",
+      "Pasquale",
+      ""
+    ],
+    [
+      "D'Amour",
+      "Alexander",
+      ""
+    ],
+    [
+      "Kusner",
+      "Matt J.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 21 Dec 2024 04:07:17 GMT"
+    }
+  ],
+  "updateDate": "2024-12-24",
+  "timestamp": 1734754037000,
+  "abstract": "  We address the problem of reward hacking, where maximising a proxy reward\ndoes not necessarily increase the true reward. This is a key concern for Large\nLanguage Models (LLMs), as they are often fine-tuned on human preferences that\nmay not accurately reflect a true objective. Existing work uses various tricks\nsuch as regularisation, tweaks to the reward model, and reward hacking\ndetectors, to limit the influence that such proxy preferences have on a model.\nLuckily, in many contexts such as medicine, education, and law, a sparse amount\nof expert data is often available. In these cases, it is often unclear whether\nthe addition of proxy data can improve policy learning. We outline a set of\nsufficient conditions on proxy feedback that, if satisfied, indicate that proxy\ndata can provably improve the sample complexity of learning the ground truth\npolicy. These conditions can inform the data collection process for specific\ntasks. The result implies a parameterisation for LLMs that achieves this\nimproved sample complexity. We detail how one can adapt existing architectures\nto yield this improved sample complexity.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Computer Science/Artificial Intelligence",
+    "Statistics/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "ipuYnHQaA0G9HHRRFQCtXN7MbrpaF5921vTcubiEvUw",
+  "pdfSize": "2027145"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "2412.20762",
+  "title": "Enhancing Privacy in Federated Learning through Quantum Teleportation\n  Integration",
+  "authors": "Koffka Khan",
+  "authorsParsed": [
+    [
+      "Khan",
+      "Koffka",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 30 Dec 2024 07:15:21 GMT"
+    }
+  ],
+  "updateDate": "2024-12-31",
+  "timestamp": 1735542921000,
+  "abstract": "  Federated learning enables collaborative model training across multiple\nclients without sharing raw data, thereby enhancing privacy. However, the\nexchange of model updates can still expose sensitive information. Quantum\nteleportation, a process that transfers quantum states between distant\nlocations without physical transmission of the particles themselves, has\nrecently been implemented in real-world networks. This position paper explores\nthe potential of integrating quantum teleportation into federated learning\nframeworks to bolster privacy. By leveraging quantum entanglement and the\nno-cloning theorem, quantum teleportation ensures that data remains secure\nduring transmission, as any eavesdropping attempt would be detectable. We\npropose a novel architecture where quantum teleportation facilitates the secure\nexchange of model parameters and gradients among clients and servers. This\nintegration aims to mitigate risks associated with data leakage and adversarial\nattacks inherent in classical federated learning setups. We also discuss the\npractical challenges of implementing such a system, including the current\nlimitations of quantum network infrastructure and the need for hybrid\nquantum-classical protocols. Our analysis suggests that, despite these\nchallenges, the convergence of quantum communication technologies and federated\nlearning presents a promising avenue for achieving unprecedented levels of\nprivacy in distributed machine learning.\n",
+  "subjects": [
+    "Physics/Quantum Physics",
+    "Computer Science/Cryptography and Security",
+    "Computer Science/Computers and Society",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "1vh22tCiX6hfm7v5Ua3PdKfBFrwnGWXQQIV_bFsYfDY",
+  "pdfSize": "1236151"
+}

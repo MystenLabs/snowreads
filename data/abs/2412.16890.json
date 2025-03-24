@@ -1,0 +1,47 @@
+{
+  "id": "2412.16890",
+  "title": "Quantization analysis of Moser-Trudinger equations in the Poincar\\'e\n  disk and applications",
+  "authors": "Lu Chen, Qiaoqiao Hua, Guozhen Lu, Shuangjie Peng and Chunhua Wang",
+  "authorsParsed": [
+    [
+      "Chen",
+      "Lu",
+      ""
+    ],
+    [
+      "Hua",
+      "Qiaoqiao",
+      ""
+    ],
+    [
+      "Lu",
+      "Guozhen",
+      ""
+    ],
+    [
+      "Peng",
+      "Shuangjie",
+      ""
+    ],
+    [
+      "Wang",
+      "Chunhua",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 22 Dec 2024 07:00:15 GMT"
+    }
+  ],
+  "updateDate": "2024-12-24",
+  "timestamp": 1734850815000,
+  "abstract": "  In this paper, we first establish the quantitative properties for positive\nsolutions to the Moser-Trudinger equations in the two-dimensional Poincar\\'e\ndisk $\\mathbb{B}^2$: \\begin{equation*}\\label{mt1}\n  \\left\\{\n  \\begin{aligned}\n  &-\\Delta_{\\mathbb{B}^2}u=\\lambda ue^{u^2},\\ x\\in\\mathbb{B}^2,\n  &u\\to0,\\ \\text{when}\\ \\rho(x)\\to\\infty,\n  &||\\nabla_{\\mathbb{B}^2} u||_{L^2(\\mathbb{B}^2)}^2\\leq M_0,\n  \\end{aligned}\n  \\right.\n  \\end{equation*} where $0<\\lambda<\\frac{1}{4}=\\inf\\limits_{u\\in\nW^{1,2}(\\mathbb{B}^2)\\backslash\\{0\\}}\\frac{\\|\\nabla_{\\mathbb{B}^2}u\\|_{L^2(\\mathbb{B}^2)}^2}{\\|u\\|_{L^2(\\mathbb{B}^2)}^2}$,\n$\\rho(x)$ denotes the geodesic distance between $x$ and the origin and $M_0$ is\na fixed large positive constant (see Theorem 1.1). Furthermore, by doing a\ndelicate expansion for Dirichlet energy\n$\\|\\nabla_{\\mathbb{B}^2}u\\|_{L^2(\\mathbb{B}^2)}^2$ when $\\lambda$ approaches to\n$0,$ we prove that there exists $\\Lambda^\\ast>4\\pi$ such that the\nMoser-Trudinger functional $F(u)=\\int_{\\mathbb{B}^2}\\left(e^{u^2}-1\\right)\ndV_{\\mathbb{B}^2}$ under the constraint\n$\\int_{\\mathbb{B}^2}|\\nabla_{\\mathbb{B}^2}u|^2 dV_{\\mathbb{B}^2}=\\Lambda$ has\nat least one positive critical point for $\\Lambda\\in(4\\pi,\\Lambda^{\\ast})$ up\nto some M\\\"{o}bius transformation. Finally, when $\\lambda\\rightarrow 0$, by\ndoing a more accurate expansion for $u$ near the origin and away from the\norigin, applying a local Pohozaev identity around the origin and the uniqueness\nof the Cauchy initial value problem for ODE,Cauchy-initial uniqueness for ODE,\nwe prove that the Moser-Trudinger equation only has one positive solution when\n$\\lambda$ is close to $0.$ During the process of the proofs, we overcome some\nnew difficulties which involves the decay properties of the positive solutions,\nas well as some precise expansions for the solutions both near the origin and\naway from the origin.\n",
+  "subjects": [
+    "Mathematics/Analysis of PDEs"
+  ],
+  "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+  "blobId": "1Jk8HMApLEzQlEV0tvigMGZh6BMbRVoyy9KOJCGeBps",
+  "pdfSize": "501601"
+}

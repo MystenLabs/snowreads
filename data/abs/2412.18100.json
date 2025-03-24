@@ -1,0 +1,48 @@
+{
+  "id": "2412.18100",
+  "title": "EvoPat: A Multi-LLM-based Patents Summarization and Analysis Agent",
+  "authors": "Suyuan Wang, Xueqian Yin, Menghao Wang, Ruofeng Guo and Kai Nan",
+  "authorsParsed": [
+    [
+      "Wang",
+      "Suyuan",
+      ""
+    ],
+    [
+      "Yin",
+      "Xueqian",
+      ""
+    ],
+    [
+      "Wang",
+      "Menghao",
+      ""
+    ],
+    [
+      "Guo",
+      "Ruofeng",
+      ""
+    ],
+    [
+      "Nan",
+      "Kai",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 24 Dec 2024 02:21:09 GMT"
+    }
+  ],
+  "updateDate": "2024-12-25",
+  "timestamp": 1735006869000,
+  "abstract": "  The rapid growth of scientific techniques and knowledge is reflected in the\nexponential increase in new patents filed annually. While these patents drive\ninnovation, they also present significant burden for researchers and engineers,\nespecially newcomers. To avoid the tedious work of navigating a vast and\ncomplex landscape to identify trends and breakthroughs, researchers urgently\nneed efficient tools to summarize, evaluate, and contextualize patents,\nrevealing their innovative contributions and underlying scientific\nprinciples.To address this need, we present EvoPat, a multi-LLM-based patent\nagent designed to assist users in analyzing patents through Retrieval-Augmented\nGeneration (RAG) and advanced search strategies. EvoPat leverages multiple\nLarge Language Models (LLMs), each performing specialized roles such as\nplanning, identifying innovations, and conducting comparative evaluations. The\nsystem integrates data from local databases, including patents, literature,\nproduct catalogous, and company repositories, and online searches to provide\nup-to-date insights. The ability to collect information not included in\noriginal database automatically is also implemented. Through extensive testing\nin the natural language processing (NLP) domain, we demonstrate that EvoPat\noutperforms GPT-4 in tasks such as patent summarization, comparative analysis,\nand technical evaluation. EvoPat represents a significant step toward creating\nAI-powered tools that empower researchers and engineers to efficiently navigate\nthe complexities of the patent landscape.\n",
+  "subjects": [
+    "Computer Science/Digital Libraries",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "i5uCE83zodWDuTdL43fTDNUDCTD55-DjuKYYuLeYHVM",
+  "pdfSize": "1227477"
+}

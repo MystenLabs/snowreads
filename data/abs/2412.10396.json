@@ -1,0 +1,31 @@
+{
+  "id": "2412.10396",
+  "title": "3-Heisenberg-Robertson-Schrodinger Uncertainty Principle",
+  "authors": "K. Mahesh Krishna",
+  "authorsParsed": [
+    [
+      "Krishna",
+      "K. Mahesh",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 2 Dec 2024 03:03:35 GMT"
+    }
+  ],
+  "updateDate": "2024-12-17",
+  "timestamp": 1733108615000,
+  "abstract": "  Let $\\mathcal{X}$ be a 3-product space. Let $A: \\mathcal{D}(A)\\subseteq\n\\mathcal{X}\\to \\mathcal{X}$, $B: \\mathcal{D}(B)\\subseteq \\mathcal{X}\\to\n\\mathcal{X}$ and $C: \\mathcal{D}(C)\\subseteq \\mathcal{X}\\to \\mathcal{X}$ be\npossibly unbounded 3-self-adjoint operators. Then for all \\begin{align*}\n  x \\in \\mathcal{D}(ABC)\\cap\\mathcal{D}(ACB) \\cap\n\\mathcal{D}(BAC)\\cap\\mathcal{D}(BCA) \\cap \\mathcal{D}(CAB)\\cap\\mathcal{D}(CBA)\n\\end{align*} with $\\langle x, x, x \\rangle =1$, we show that \\begin{align*}\n(1)\\quad \\quad \\Delta _x(3, A) \\Delta _x(3, B) \\Delta _x(3, C)\\geq |\\langle\n(ABC-a BC-b AC-c AB)x, x, x\\rangle +2abc|, \\end{align*} where \\begin{align*}\n  \\Delta _x(3, A):= \\|Ax-\\langle Ax, x, x \\rangle x \\|, \\quad a:= \\langle Ax,\nx, x \\rangle, \\quad b := \\langle Bx, x, x \\rangle, \\quad c := \\langle Cx, x, x\n\\rangle. \\end{align*} We call Inequality (1) as\n3-Heisenberg-Robertson-Schrodinger uncertainty principle. Classical\nHeisenberg-Robertson-Schrodinger uncertainty principle (by Schrodinger in 1930)\nconsiders two operators whereas Inequality (1) considers three operators.\n",
+  "subjects": [
+    "Mathematics/Functional Analysis",
+    "Computer Science/Information Theory",
+    "Physics/Mathematical Physics",
+    "Mathematics/Information Theory",
+    "Mathematics/Mathematical Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "vA9TwguuV5b2Sm2YlCiIR2Ekv26abaUvoHemiohvezA",
+  "pdfSize": "96233"
+}

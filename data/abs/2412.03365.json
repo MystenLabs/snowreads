@@ -1,0 +1,52 @@
+{
+  "id": "2412.03365",
+  "title": "When can we see micromotion? Experimental and theoretical analysis of\n  the ChiSCAT scheme",
+  "authors": "Andrii Trelin, Jette Abel, Christian Rimmbach, Robert David, Andreas\n  Hermann, Friedemann Reinhard",
+  "authorsParsed": [
+    [
+      "Trelin",
+      "Andrii",
+      ""
+    ],
+    [
+      "Abel",
+      "Jette",
+      ""
+    ],
+    [
+      "Rimmbach",
+      "Christian",
+      ""
+    ],
+    [
+      "David",
+      "Robert",
+      ""
+    ],
+    [
+      "Hermann",
+      "Andreas",
+      ""
+    ],
+    [
+      "Reinhard",
+      "Friedemann",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 4 Dec 2024 14:52:35 GMT"
+    }
+  ],
+  "updateDate": "2024-12-05",
+  "timestamp": 1733323955000,
+  "abstract": "  We present an in-depth analysis of ChiSCAT, a recently introduced\ninterferometric microscopy scheme to detect recurring micromotion events in\ncells. Experimentally, we demonstrate that illumination with low-coherence\nsources can greatly improve the robustness of the scheme to vibrations.\nTheoretically, we analyze the performance of ChiSCAT under various noise\nmodels, in particular photon shot noise and noise dominated by cellular motions\nother than the signal. We finally propose ways to improve performance,\nespecially in a setting dominated by cell motions, and conclude with an outlook\non potential future directions.\n",
+  "subjects": [
+    "Physics/Optics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "qjLo5JVViSwyIkF7Iq79zZ-SVtOZpHY3ux0Ls1jw7nM",
+  "pdfSize": "2173529"
+}

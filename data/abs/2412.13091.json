@@ -1,0 +1,68 @@
+{
+  "id": "2412.13091",
+  "title": "LMUnit: Fine-grained Evaluation with Natural Language Unit Tests",
+  "authors": "Jon Saad-Falcon, Rajan Vivek, William Berrios, Nandita Shankar Naik,\n  Matija Franklin, Bertie Vidgen, Amanpreet Singh, Douwe Kiela, Shikib Mehri",
+  "authorsParsed": [
+    [
+      "Saad-Falcon",
+      "Jon",
+      ""
+    ],
+    [
+      "Vivek",
+      "Rajan",
+      ""
+    ],
+    [
+      "Berrios",
+      "William",
+      ""
+    ],
+    [
+      "Naik",
+      "Nandita Shankar",
+      ""
+    ],
+    [
+      "Franklin",
+      "Matija",
+      ""
+    ],
+    [
+      "Vidgen",
+      "Bertie",
+      ""
+    ],
+    [
+      "Singh",
+      "Amanpreet",
+      ""
+    ],
+    [
+      "Kiela",
+      "Douwe",
+      ""
+    ],
+    [
+      "Mehri",
+      "Shikib",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 17 Dec 2024 17:01:15 GMT"
+    }
+  ],
+  "updateDate": "2024-12-18",
+  "timestamp": 1734454875000,
+  "abstract": "  As language models become integral to critical workflows, assessing their\nbehavior remains a fundamental challenge -- human evaluation is costly and\nnoisy, while automated metrics provide only coarse, difficult-to-interpret\nsignals. We introduce natural language unit tests, a paradigm that decomposes\nresponse quality into explicit, testable criteria, along with a unified scoring\nmodel, LMUnit, which combines multi-objective training across preferences,\ndirect ratings, and natural language rationales. Through controlled human\nstudies, we show this paradigm significantly improves inter-annotator agreement\nand enables more effective LLM development workflows. LMUnit achieves\nstate-of-the-art performance on evaluation benchmarks (FLASK, BigGenBench) and\ncompetitive results on RewardBench. These results validate both our proposed\nparadigm and scoring model, suggesting a promising path forward for language\nmodel evaluation and development.\n",
+  "subjects": [
+    "Computer Science/Computation and Language",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "bG-BaFoQmqlkn9r9whvG5X7nyyZ2KKBXsv1h48lmM8w",
+  "pdfSize": "1938198"
+}

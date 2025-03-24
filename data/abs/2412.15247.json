@@ -1,0 +1,58 @@
+{
+  "id": "2412.15247",
+  "title": "Streamlining Systematic Reviews: A Novel Application of Large Language\n  Models",
+  "authors": "Fouad Trad, Ryan Yammine, Jana Charafeddine, Marlene Chakhtoura, Maya\n  Rahme, Ghada El-Hajj Fuleihan, Ali Chehab",
+  "authorsParsed": [
+    [
+      "Trad",
+      "Fouad",
+      ""
+    ],
+    [
+      "Yammine",
+      "Ryan",
+      ""
+    ],
+    [
+      "Charafeddine",
+      "Jana",
+      ""
+    ],
+    [
+      "Chakhtoura",
+      "Marlene",
+      ""
+    ],
+    [
+      "Rahme",
+      "Maya",
+      ""
+    ],
+    [
+      "Fuleihan",
+      "Ghada El-Hajj",
+      ""
+    ],
+    [
+      "Chehab",
+      "Ali",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 14 Dec 2024 17:08:34 GMT"
+    }
+  ],
+  "updateDate": "2024-12-23",
+  "timestamp": 1734196114000,
+  "abstract": "  Systematic reviews (SRs) are essential for evidence-based guidelines but are\noften limited by the time-consuming nature of literature screening. We propose\nand evaluate an in-house system based on Large Language Models (LLMs) for\nautomating both title/abstract and full-text screening, addressing a critical\ngap in the literature. Using a completed SR on Vitamin D and falls (14,439\narticles), the LLM-based system employed prompt engineering for title/abstract\nscreening and Retrieval-Augmented Generation (RAG) for full-text screening. The\nsystem achieved an article exclusion rate (AER) of 99.5%, specificity of 99.6%,\na false negative rate (FNR) of 0%, and a negative predictive value (NPV) of\n100%. After screening, only 78 articles required manual review, including all\n20 identified by traditional methods, reducing manual screening time by 95.5%.\nFor comparison, Rayyan, a commercial tool for title/abstract screening,\nachieved an AER of 72.1% and FNR of 5% when including articles Rayyan\nconsidered as undecided or likely to include. Lowering Rayyan's inclusion\nthresholds improved FNR to 0% but increased screening time. By addressing both\nscreening phases, the LLM-based system significantly outperformed Rayyan and\ntraditional methods, reducing total screening time to 25.5 hours while\nmaintaining high accuracy. These findings highlight the transformative\npotential of LLMs in SR workflows by offering a scalable, efficient, and\naccurate solution, particularly for the full-text screening phase, which has\nlacked automation tools.\n",
+  "subjects": [
+    "Computer Science/Computation and Language",
+    "Computer Science/Information Retrieval"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "lsSkCUYADhaamt-Ha1P3QIjXbpaCMF8LS3J_DxM21BU",
+  "pdfSize": "608641"
+}

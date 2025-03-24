@@ -1,0 +1,70 @@
+{
+  "id": "2412.02931",
+  "title": "Inverse Delayed Reinforcement Learning",
+  "authors": "Simon Sinong Zhan, Qingyuan Wu, Zhian Ruan, Frank Yang, Philip Wang,\n  Yixuan Wang, Ruochen Jiao, Chao Huang, Qi Zhu",
+  "authorsParsed": [
+    [
+      "Zhan",
+      "Simon Sinong",
+      ""
+    ],
+    [
+      "Wu",
+      "Qingyuan",
+      ""
+    ],
+    [
+      "Ruan",
+      "Zhian",
+      ""
+    ],
+    [
+      "Yang",
+      "Frank",
+      ""
+    ],
+    [
+      "Wang",
+      "Philip",
+      ""
+    ],
+    [
+      "Wang",
+      "Yixuan",
+      ""
+    ],
+    [
+      "Jiao",
+      "Ruochen",
+      ""
+    ],
+    [
+      "Huang",
+      "Chao",
+      ""
+    ],
+    [
+      "Zhu",
+      "Qi",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 4 Dec 2024 00:53:55 GMT"
+    }
+  ],
+  "updateDate": "2024-12-05",
+  "timestamp": 1733273635000,
+  "abstract": "  Inverse Reinforcement Learning (IRL) has demonstrated effectiveness in a\nvariety of imitation tasks. In this paper, we introduce an IRL framework\ndesigned to extract rewarding features from expert trajectories affected by\ndelayed disturbances. Instead of relying on direct observations, our approach\nemploys an efficient off-policy adversarial training framework to derive expert\nfeatures and recover optimal policies from augmented delayed observations.\nEmpirical evaluations in the MuJoCo environment under diverse delay settings\nvalidate the effectiveness of our method. Furthermore, we provide a theoretical\nanalysis showing that recovering expert policies from augmented delayed\nobservations outperforms using direct delayed observations.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Systems and Control",
+    "Electrical Engineering and Systems Science/Systems and Control"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "FqNY673G2id0PsRDIq2lgnxDtsWWUHqF7aMfnJvjk0s",
+  "pdfSize": "1144295"
+}

@@ -1,0 +1,53 @@
+{
+  "id": "2412.20377",
+  "title": "Impact of Data Distribution on Fairness Guarantees in Equitable Deep\n  Learning",
+  "authors": "Yan Luo, Congcong Wen, Min Shi, Hao Huang, Yi Fang, Mengyu Wang",
+  "authorsParsed": [
+    [
+      "Luo",
+      "Yan",
+      ""
+    ],
+    [
+      "Wen",
+      "Congcong",
+      ""
+    ],
+    [
+      "Shi",
+      "Min",
+      ""
+    ],
+    [
+      "Huang",
+      "Hao",
+      ""
+    ],
+    [
+      "Fang",
+      "Yi",
+      ""
+    ],
+    [
+      "Wang",
+      "Mengyu",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 29 Dec 2024 06:43:43 GMT"
+    }
+  ],
+  "updateDate": "2024-12-31",
+  "timestamp": 1735454623000,
+  "abstract": "  We present a comprehensive theoretical framework analyzing the relationship\nbetween data distributions and fairness guarantees in equitable deep learning.\nOur work establishes novel theoretical bounds that explicitly account for data\ndistribution heterogeneity across demographic groups, while introducing a\nformal analysis framework that minimizes expected loss differences across these\ngroups. We derive comprehensive theoretical bounds for fairness errors and\nconvergence rates, and characterize how distributional differences between\ngroups affect the fundamental trade-off between fairness and accuracy. Through\nextensive experiments on diverse datasets, including FairVision\n(ophthalmology), CheXpert (chest X-rays), HAM10000 (dermatology), and FairFace\n(facial recognition), we validate our theoretical findings and demonstrate that\ndifferences in feature distributions across demographic groups significantly\nimpact model fairness, with performance disparities particularly pronounced in\nracial categories. The theoretical bounds we derive crroborate these empirical\nobservations, providing insights into the fundamental limits of achieving\nfairness in deep learning models when faced with heterogeneous data\ndistributions. This work advances our understanding of fairness in AI-based\ndiagnosis systems and provides a theoretical foundation for developing more\nequitable algorithms. The code for analysis is publicly available via\n\\url{https://github.com/Harvard-Ophthalmology-AI-Lab/fairness_guarantees}.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Computer Science/Computers and Society"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "wCQ5BG6linAoGcQpQIdAI7zoYqFsmq-p2EuMx_NN3io",
+  "pdfSize": "1564779"
+}

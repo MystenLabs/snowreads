@@ -1,0 +1,38 @@
+{
+  "id": "2412.04268",
+  "title": "Solvability of Coupled Forward-Backward Volterra Integral Equations",
+  "authors": "Wenyang Li, Hanxiao Wang, Jiongmin Yong",
+  "authorsParsed": [
+    [
+      "Li",
+      "Wenyang",
+      ""
+    ],
+    [
+      "Wang",
+      "Hanxiao",
+      ""
+    ],
+    [
+      "Yong",
+      "Jiongmin",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 5 Dec 2024 15:51:04 GMT"
+    }
+  ],
+  "updateDate": "2024-12-06",
+  "timestamp": 1733413864000,
+  "abstract": "  Motivated by the optimality system associated with controlled (forward)\nVolterra integral equations (FVIEs, for short), the well-posedness of coupled\nforward-backward Voterra integral equations (FBVIEs, for short) is studied. The\nmain feature of FBVIEs is that the unknown $\\{(X(t,s),Y(t,s))\\}$ has two\narguments. By taking $t$ as a parameter and $s$ as a (time) variable, one can\nregard FBVIE as a system of ordinary differential equations (ODEs, for short),\nwith infinite-dimensional space values\n$\\{(X(\\cdot,s),Y(\\cdot,s));\\,s\\in[0,T]\\}$. To establish the well-posedness of\nsuch an FBVIE, a new non-local monotonicity condition is introduced, by which a\nbridge in infinite-dimensional spaces is constructed. Then by generalizing the\nmethod of continuation developed by \\cite{Hu-Peng1995,Yong1997,Peng-Wu1999} for\ndifferential equations, we have established the well-posedness of FBVIEs.The\nkey is to apply the chain rule to the mapping $t\\mapsto\\big[\\int_\\cdot^T\\langle\nY(s,s),X(s,\\cdot)\\rangle ds +\\langle G(X(T,T)),X(T,\\cdot)\\rangle\\big](t)$.\n",
+  "subjects": [
+    "Mathematics/Optimization and Control",
+    "Mathematics/Classical Analysis and ODEs"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "jfoSgbn7VW-BFGuOFUuIP3HKWXwjuQBBxq5sqvNYypE",
+  "pdfSize": "244298"
+}

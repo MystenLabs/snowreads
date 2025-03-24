@@ -1,0 +1,49 @@
+{
+  "id": "2412.08751",
+  "title": "Sampling-based Continuous Optimization with Coupled Variables for RNA\n  Design",
+  "authors": "Wei Yu Tang and Ning Dai and Tianshuo Zhou and David H. Mathews and\n  Liang Huang",
+  "authorsParsed": [
+    [
+      "Tang",
+      "Wei Yu",
+      ""
+    ],
+    [
+      "Dai",
+      "Ning",
+      ""
+    ],
+    [
+      "Zhou",
+      "Tianshuo",
+      ""
+    ],
+    [
+      "Mathews",
+      "David H.",
+      ""
+    ],
+    [
+      "Huang",
+      "Liang",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 11 Dec 2024 19:46:54 GMT"
+    }
+  ],
+  "updateDate": "2024-12-13",
+  "timestamp": 1733946414000,
+  "abstract": "  The task of RNA design given a target structure aims to find a sequence that\ncan fold into that structure. It is a computationally hard problem where some\nversion(s) have been proven to be NP-hard. As a result, heuristic methods such\nas local search have been popular for this task, but by only exploring a fixed\nnumber of candidates. They can not keep up with the exponential growth of the\ndesign space, and often perform poorly on longer and harder-to-design\nstructures. We instead formulate these discrete problems as continuous\noptimization, which starts with a distribution over all possible candidate\nsequences, and uses gradient descent to improve the expectation of an objective\nfunction. We define novel distributions based on coupled variables to rule out\ninvalid sequences given the target structure and to model the correlation\nbetween nucleotides. To make it universally applicable to any objective\nfunction, we use sampling to approximate the expected objective function, to\nestimate the gradient, and to select the final candidate. Compared to the\nstate-of-the-art methods, our work consistently outperforms them in key metrics\nsuch as Boltzmann probability, ensemble defect, and energy gap, especially on\nlong and hard-to-design puzzles in the Eterna100 benchmark. Our code is\navailable at: http://github.com/weiyutang1010/ncrna_design.\n",
+  "subjects": [
+    "Quantitative Biology/Biomolecules",
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "6RnW_YGJFGhT3a7Q20O2J8jT-eWCssQlXw_LJW7wZZc",
+  "pdfSize": "4194065"
+}

@@ -1,0 +1,47 @@
+{
+  "id": "2412.15186",
+  "title": "Surface-Based Authentication System for Integrated Circuit Chips",
+  "authors": "Runze Liu, Prasun Datta, Anirudh Nakra, Chau-Wai Wong, Min Wu",
+  "authorsParsed": [
+    [
+      "Liu",
+      "Runze",
+      ""
+    ],
+    [
+      "Datta",
+      "Prasun",
+      ""
+    ],
+    [
+      "Nakra",
+      "Anirudh",
+      ""
+    ],
+    [
+      "Wong",
+      "Chau-Wai",
+      ""
+    ],
+    [
+      "Wu",
+      "Min",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 19 Dec 2024 18:55:27 GMT"
+    }
+  ],
+  "updateDate": "2024-12-20",
+  "timestamp": 1734634527000,
+  "abstract": "  The rapid development of the semiconductor industry and the ubiquity of\nelectronic devices have led to a significant increase in the counterfeiting of\nintegrated circuits (ICs). This poses a major threat to public health, the\nbanking industry, and military defense sectors that are heavily reliant on\nelectronic systems. The electronic physically unclonable functions (PUFs) are\nwidely used to authenticate IC chips at the unit level. However, electronic\nPUFs are limited by their requirement for IC chips to be in working status for\nmeasurements and their sensitivity to environmental variations. This paper\nproposes using optical PUFs for IC chip authentication by leveraging the unique\nmicroscopic structures of the packaging surface of individual IC chips. The\nproposed method relies on color images of IC chip surfaces acquired using a\nflatbed scanner or mobile camera. Our initial study reveals that these\nconsumer-grade imaging devices can capture meaningful physical features from IC\nchip surfaces. We then propose an efficient, lightweight verification scheme\nleveraging specular-reflection-based features extracted from videos, achieving\nan equal error rate (EER) of 0.0008. We conducted factor, sensitivity, and\nablation studies to understand the detailed characteristics of the proposed\nlightweight verification scheme. This work is the first to apply the optical\nPUF principle for the authentication of IC chips and has the potential to\nsignificantly enhance the security of the semiconductor supply chain.\n",
+  "subjects": [
+    "Electrical Engineering and Systems Science/Signal Processing"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "er7XFj0ZI0Md03d1canMomtGuzNG6vNzlw6PC-t9FJA",
+  "pdfSize": "10925113"
+}

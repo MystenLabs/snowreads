@@ -1,0 +1,38 @@
+{
+  "id": "2412.20342",
+  "title": "A Theory for Wind Work on Oceanic Mesoscales and Submesoscales",
+  "authors": "Shikhar Rai and J. Thomas Farrar and Hussein Aluie",
+  "authorsParsed": [
+    [
+      "Rai",
+      "Shikhar",
+      ""
+    ],
+    [
+      "Farrar",
+      "J. Thomas",
+      ""
+    ],
+    [
+      "Aluie",
+      "Hussein",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 29 Dec 2024 04:00:29 GMT"
+    }
+  ],
+  "updateDate": "2024-12-31",
+  "timestamp": 1735444829000,
+  "abstract": "  Previous studies focused primarily on wind stress being proportional to wind\nvelocity relative to the ocean velocity, which induces a curl in wind stress\nwith polarity opposite to the ocean mesoscale vorticity, resulting in net\nnegative wind work. However, there remains a fundamental gap in understanding\nhow wind work on the ocean is related to the ocean's vortical and straining\nmotions. While it is possible to derive budgets for ocean vorticity and strain,\nthese do not provide the energy channeled into vortical and straining motions\nby wind stress. An occasional misconception is that a Helmholtz decomposition\ncan separate vorticity from strain, with the latter mistakenly regarded as\nbeing solely due to the potential flow accounting for divergent motions. In\nfact, strain is also an essential constituent of divergence-free (or\nsolenoidal) flows, including the oceanic mesoscales in geostrophic balance\nwhere strain-dominated regions account for approximately half the KE. There is\nno existing fluid dynamics framework that relates the injection of kinetic\nenergy by a force to how this energy is deposited into vortical and straining\nmotions. Here, we show that winds, on average, are just as effective at damping\nstraining motions as they are at damping vortical motions. This happens because\noceanic strain induces a straining wind stress gradient (WSG), which is\nanalogous to ocean vorticity inducing a curl in wind stress. Ocean-induced WSGs\nalone, whether straining or vortical, always damp ocean currents. However, our\ntheory also reveals that a significant contribution to wind work comes from\ninherent wind gradients, a main component of which is due to prevailing winds\nof the general atmospheric circulation. We find that inherent WSGs lead to\nasymmetric energization of ocean weather based on the polarity of vortical and\nstraining ocean flows.\n",
+  "subjects": [
+    "Physics/Atmospheric and Oceanic Physics",
+    "Physics/Geophysics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "1OXibSGB1fZVXRgt3N-M2RFbdY3bb_A8DPTYuxcAdVU",
+  "pdfSize": "10862980"
+}

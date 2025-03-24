@@ -1,0 +1,48 @@
+{
+  "id": "2412.06785",
+  "title": "Tactile DreamFusion: Exploiting Tactile Sensing for 3D Generation",
+  "authors": "Ruihan Gao, Kangle Deng, Gengshan Yang, Wenzhen Yuan, Jun-Yan Zhu",
+  "authorsParsed": [
+    [
+      "Gao",
+      "Ruihan",
+      ""
+    ],
+    [
+      "Deng",
+      "Kangle",
+      ""
+    ],
+    [
+      "Yang",
+      "Gengshan",
+      ""
+    ],
+    [
+      "Yuan",
+      "Wenzhen",
+      ""
+    ],
+    [
+      "Zhu",
+      "Jun-Yan",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 9 Dec 2024 18:59:45 GMT"
+    }
+  ],
+  "updateDate": "2024-12-10",
+  "timestamp": 1733770785000,
+  "abstract": "  3D generation methods have shown visually compelling results powered by\ndiffusion image priors. However, they often fail to produce realistic geometric\ndetails, resulting in overly smooth surfaces or geometric details inaccurately\nbaked in albedo maps. To address this, we introduce a new method that\nincorporates touch as an additional modality to improve the geometric details\nof generated 3D assets. We design a lightweight 3D texture field to synthesize\nvisual and tactile textures, guided by 2D diffusion model priors on both visual\nand tactile domains. We condition the visual texture generation on\nhigh-resolution tactile normals and guide the patch-based tactile texture\nrefinement with a customized TextureDreambooth. We further present a multi-part\ngeneration pipeline that enables us to synthesize different textures across\nvarious regions. To our knowledge, we are the first to leverage high-resolution\ntactile sensing to enhance geometric details for 3D generation tasks. We\nevaluate our method in both text-to-3D and image-to-3D settings. Our\nexperiments demonstrate that our method provides customized and realistic fine\ngeometric textures while maintaining accurate alignment between two modalities\nof vision and touch.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Graphics"
+  ],
+  "license": "http://creativecommons.org/licenses/by-sa/4.0/",
+  "blobId": "spuPtJopa6GumdnYopXph-jx_0IiQEWr4lVdJ6PafEM",
+  "pdfSize": "17431370"
+}

@@ -1,0 +1,59 @@
+{
+  "id": "2412.02172",
+  "title": "VISCO: Benchmarking Fine-Grained Critique and Correction Towards\n  Self-Improvement in Visual Reasoning",
+  "authors": "Xueqing Wu, Yuheng Ding, Bingxuan Li, Pan Lu, Da Yin, Kai-Wei Chang,\n  Nanyun Peng",
+  "authorsParsed": [
+    [
+      "Wu",
+      "Xueqing",
+      ""
+    ],
+    [
+      "Ding",
+      "Yuheng",
+      ""
+    ],
+    [
+      "Li",
+      "Bingxuan",
+      ""
+    ],
+    [
+      "Lu",
+      "Pan",
+      ""
+    ],
+    [
+      "Yin",
+      "Da",
+      ""
+    ],
+    [
+      "Chang",
+      "Kai-Wei",
+      ""
+    ],
+    [
+      "Peng",
+      "Nanyun",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 3 Dec 2024 05:04:49 GMT"
+    }
+  ],
+  "updateDate": "2024-12-04",
+  "timestamp": 1733202289000,
+  "abstract": "  The ability of large vision-language models (LVLMs) to critique and correct\ntheir reasoning is an essential building block towards their self-improvement.\nHowever, a systematic analysis of such capabilities in LVLMs is still lacking.\nWe propose VISCO, the first benchmark to extensively analyze the fine-grained\ncritique and correction capabilities of LVLMs. Compared to existing work that\nuses a single scalar value to critique the entire reasoning [4], VISCO features\ndense and fine-grained critique, requiring LVLMs to evaluate the correctness of\neach step in the chain-of-thought and provide natural language explanations to\nsupport their judgments. Extensive evaluation of 24 LVLMs demonstrates that\nhuman-written critiques significantly enhance the performance after correction,\nshowcasing the potential of the self-improvement strategy. However, the\nmodel-generated critiques are less helpful and sometimes detrimental to the\nperformance, suggesting that critique is the crucial bottleneck. We identified\nthree common patterns in critique failures: failure to critique visual\nperception, reluctance to \"say no\", and exaggerated assumption of error\npropagation. To address these issues, we propose an effective LookBack strategy\nthat revisits the image to verify each piece of information in the initial\nreasoning. LookBack significantly improves critique and correction performance\nby up to 13.5%.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Computation and Language"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "7LzG0MsGhKDpa-kYEwADk3HoBpsYKIbErR0rmpV_5gw",
+  "pdfSize": "29663187"
+}

@@ -1,0 +1,50 @@
+{
+  "id": "2412.10467",
+  "title": "MGM: Global Understanding of Audience Overlap Graphs for Predicting the\n  Factuality and the Bias of News Media",
+  "authors": "Muhammad Arslan Manzoor, Ruihong Zeng, Dilshod Azizov, Preslav Nakov,\n  Shangsong Liang",
+  "authorsParsed": [
+    [
+      "Manzoor",
+      "Muhammad Arslan",
+      ""
+    ],
+    [
+      "Zeng",
+      "Ruihong",
+      ""
+    ],
+    [
+      "Azizov",
+      "Dilshod",
+      ""
+    ],
+    [
+      "Nakov",
+      "Preslav",
+      ""
+    ],
+    [
+      "Liang",
+      "Shangsong",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 12 Dec 2024 18:37:32 GMT"
+    }
+  ],
+  "updateDate": "2024-12-17",
+  "timestamp": 1734028652000,
+  "abstract": "  In the current era of rapidly growing digital data, evaluating the political\nbias and factuality of news outlets has become more important for seeking\nreliable information online. In this work, we study the classification problem\nof profiling news media from the lens of political bias and factuality.\nTraditional profiling methods, such as Pre-trained Language Models (PLMs) and\nGraph Neural Networks (GNNs) have shown promising results, but they face\nnotable challenges. PLMs focus solely on textual features, causing them to\noverlook the complex relationships between entities, while GNNs often struggle\nwith media graphs containing disconnected components and insufficient labels.\nTo address these limitations, we propose MediaGraphMind (MGM), an effective\nsolution within a variational Expectation-Maximization (EM) framework. Instead\nof relying on limited neighboring nodes, MGM leverages features, structural\npatterns, and label information from globally similar nodes. Such a framework\nnot only enables GNNs to capture long-range dependencies for learning\nexpressive node representations but also enhances PLMs by integrating\nstructural information and therefore improving the performance of both models.\nThe extensive experiments demonstrate the effectiveness of the proposed\nframework and achieve new state-of-the-art results. Further, we share our\nrepository1 which contains the dataset, code, and documentation\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Computation and Language",
+    "Statistics/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "T9ytk1bkon0_KjUhZ1HuXgxUM_yvATszkxmZqbWezFA",
+  "pdfSize": "1115501"
+}

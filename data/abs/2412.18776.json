@@ -1,0 +1,52 @@
+{
+  "id": "2412.18776",
+  "title": "Optimal Traffic Flow in Quantum Annealing-Supported Virtual Traffic\n  Lights",
+  "authors": "Abyad Enan, M Sabbir Salek, Mashrur Chowdhury, Gurcan Comert, Sakib M.\n  Khan, and Reek Majumder",
+  "authorsParsed": [
+    [
+      "Enan",
+      "Abyad",
+      ""
+    ],
+    [
+      "Salek",
+      "M Sabbir",
+      ""
+    ],
+    [
+      "Chowdhury",
+      "Mashrur",
+      ""
+    ],
+    [
+      "Comert",
+      "Gurcan",
+      ""
+    ],
+    [
+      "Khan",
+      "Sakib M.",
+      ""
+    ],
+    [
+      "Majumder",
+      "Reek",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 22 Dec 2024 04:52:46 GMT"
+    }
+  ],
+  "updateDate": "2024-12-30",
+  "timestamp": 1734843166000,
+  "abstract": "  The Virtual Traffic Light (VTL) eliminates the need for physical traffic\nsignal infrastructure at intersections, leveraging Connected Vehicles (CVs) to\noptimize traffic flow. VTL assigns right-of-way dynamically based on factors\nsuch as estimated times of arrival (ETAs), the number of CVs in various lanes,\nand emission rates. These factors are considered in line with the objectives of\nthe VTL application. Aiming to optimize traffic flow and reduce delays, the VTL\nsystem generates Signal Phase and Timing (SPaT) data for CVs approaching an\nintersection, while considering the impact of each CV movement on others.\nHowever, the stochastic nature of vehicle arrivals at intersections complicates\nreal-time optimization, challenging classical computing methods. To address\nthis limitation, we develop a VTL method that leverages quantum computing to\nminimize stopped delays for CVs. The method formulates the VTL problem as a\nQuadratic Unconstrained Binary Optimization (QUBO) problem, a mathematical\nframework well-suited for quantum computing. Using D-Wave cloud-based quantum\ncomputer, our approach determines optimal solutions for right-of-way\nassignments under the standard National Electrical Manufacturers Association\n(NEMA) phasing system. The system was evaluated using the microscopic traffic\nsimulator SUMO under varying traffic volumes. Our results demonstrate that the\nquantum-enabled VTL system reduces stopped delays and travel times compared to\nclassical optimization-based systems. This approach not only enhances traffic\nmanagement efficiency but also reduces the infrastructure costs associated with\ntraditional traffic signals. The quantum computing-supported VTL system offers\na transformative solution for large-scale traffic control, providing superior\nperformance across diverse traffic scenarios and paving the way for advanced,\ncost-effective traffic management.\n",
+  "subjects": [
+    "Computer Science/Other Computer Science"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "sXhcIxWj6S9bFSMP4HkR4sz4EwiZVdjoh2UJx_IeCSE",
+  "pdfSize": "748298"
+}

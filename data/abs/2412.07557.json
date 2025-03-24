@@ -1,0 +1,32 @@
+{
+  "id": "2412.07557",
+  "title": "A fast and accurate semi-analytical method to determine the thermal\n  response of bore fields",
+  "authors": "Enzo Zanchini, Francesco Zanchini",
+  "authorsParsed": [
+    [
+      "Zanchini",
+      "Enzo",
+      ""
+    ],
+    [
+      "Zanchini",
+      "Francesco",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 10 Dec 2024 14:47:14 GMT"
+    }
+  ],
+  "updateDate": "2024-12-11",
+  "timestamp": 1733842034000,
+  "abstract": "  The design and the simulation of a borehole-heat-exchanger (BHE) field is\nusually performed by simplified methods that yield either an overestimation or\nan underestimation of the thermal response. The methods employing the\nassumption of a uniform heat rate per unit BHE length overestimate the thermal\nresponse, while those employing the assumption of a uniform temperature of the\nexternal surface of the BHEs underestimate it. An accurate semi-analytical\nmethod to determine the g-function of a bore field with the real condition of\nBHEs fed in parallel with equal inlet temperature was developed by Cimmino (Int\nJ Heat Mass Tran 91, 2015). An alternative semi-analytical method that yields\nthe same results is presented in this paper. The method is implemented in a C++\nprogram, available at the open-source online data repository of the University\nof Bologna. Thanks to several optimizations, the program yields a very accurate\nthermal response of bore fields of any shape with an extremely short\ncomputation time. The program is employed to analyze the inaccuracies caused by\nthe assumptions of uniform heat rate and uniform surface temperature of the\nBHEs. It is also used to illustrate the low performance of the central BHEs in\nlarge and compact bore fields, and to show how the bore field can be optimized\nfor a given plot of land and a fixed total length of the field.\n",
+  "subjects": [
+    "Physics/Applied Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "FzfLBOwNtAwBA65QaS2bwRPJULg_6SaTYMulLqzOxO0",
+  "pdfSize": "1598207"
+}

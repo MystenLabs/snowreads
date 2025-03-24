@@ -1,0 +1,47 @@
+{
+  "id": "2412.02921",
+  "title": "Fast and Tunable Decoherence-Free Subspace Engineering",
+  "authors": "Lyryl H. C. Vaecairn, Jarrod T. Reilly, John Drew Wilson, Simon B.\n  Jaeger, Murray Holland",
+  "authorsParsed": [
+    [
+      "Vaecairn",
+      "Lyryl H. C.",
+      ""
+    ],
+    [
+      "Reilly",
+      "Jarrod T.",
+      ""
+    ],
+    [
+      "Wilson",
+      "John Drew",
+      ""
+    ],
+    [
+      "Jaeger",
+      "Simon B.",
+      ""
+    ],
+    [
+      "Holland",
+      "Murray",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 4 Dec 2024 00:14:18 GMT"
+    }
+  ],
+  "updateDate": "2024-12-05",
+  "timestamp": 1733271258000,
+  "abstract": "  We propose schemes to design and control a time-dependent decoherence-free\nsubspace (DFS) in a dissipative atom-cavity system. These schemes use atoms\nwith three internal energy levels, which allows for the DFS to be\nmulti-dimensional--a condition important for quantum sensing, simulation, and\ncomputation. We consider the use of tunable external driving lasers to transfer\nthe system from a coherent spin state to a highly degenerate DFS. We find that\nthe typical state in the DFS is highly entangled. Throughout evolution the\nstate is kept in an instantaneous DFS, thereby allowing for pure states to be\nprepared. We develop adiabatic shortcuts to carry out this evolution with\nhigher purity and fidelity than standard adiabatic and dissipative methods.\n",
+  "subjects": [
+    "Physics/Quantum Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "QHvAy1OkWWPKWmTmQzOCH39Lh1TB2Bt4YN7OIbvu5-E",
+  "pdfSize": "887702"
+}

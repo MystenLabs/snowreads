@@ -1,0 +1,36 @@
+{
+  "id": "2412.11222",
+  "title": "A Short Proof that the number of $(a,b)$-parking functions of length n\n  $a(a+bn)^{n-1}$",
+  "authors": "AJ Bu and Doron Zeilberger",
+  "authorsParsed": [
+    [
+      "Bu",
+      "AJ",
+      ""
+    ],
+    [
+      "Zeilberger",
+      "Doron",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 15 Dec 2024 15:30:09 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Sat, 21 Dec 2024 22:26:59 GMT"
+    }
+  ],
+  "updateDate": "2024-12-24",
+  "timestamp": 1734276609000,
+  "abstract": "  We give a very short proof of the fact that the number of $(a,b)$-parking\nfunctions of length $n$ equals $a(a+bn)^{n-1}$. This was first proved in 2003\nby Kung and Yan, via a very long and torturous route, as a corollary of a more\ngeneral result. This new version contains a reference to previous work kindly\ncommunicated by Richard Stanley\n",
+  "subjects": [
+    "Mathematics/Combinatorics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "qQ4n6EOq9OR3CKbtP-f5NgypG_MnDjZXT92pH3Kf25I",
+  "pdfSize": "47865"
+}

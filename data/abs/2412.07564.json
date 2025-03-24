@@ -1,0 +1,32 @@
+{
+  "id": "2412.07564",
+  "title": "Is ChatGPT 3 safe for students?",
+  "authors": "Julia Kotovich and Manuel Oriol",
+  "authorsParsed": [
+    [
+      "Kotovich",
+      "Julia",
+      ""
+    ],
+    [
+      "Oriol",
+      "Manuel",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 10 Dec 2024 14:54:59 GMT"
+    }
+  ],
+  "updateDate": "2024-12-11",
+  "timestamp": 1733842499000,
+  "abstract": "  ChatGPT3 is a chat engine that fulfils the promises of an AI-based chat\nengine: users can ask a question (prompt) and it answers in a reasonable\nmanner. The coding-related skills of ChatGPT are especially impressive:\ninformal testing shows that it is difficult to find simple questions that\nChatGPT3 does not know how to answer properly. Some students are certainly\nalready using it to answer programming assignments. This article studies\nwhether it is safe for students to use ChatGPT3 to answer coding assignments\n(safe means that they will not be caught for plagiarism if they use it). The\nmain result is that it is generally not safe for students to use ChatGPT3. We\nevaluated the safety of code generated with ChatGPT3, by performing a search\nwith a Codequiry, a plagiarism detection tool, and searching plagiarized code\nin Google (only considering the first page of results). In 38% of the cases,\nCodequiry finds a piece of code that is partially copied by the answer of\nChatGPT3. In 96% of the cases, the Google search finds a piece of code very\nsimilar to the generated code. Overall, it is not safe for students to use\nChatGPT3 in 96% of the cases.\n",
+  "subjects": [
+    "Computer Science/Software Engineering"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "RC-xH6TfxArH7pjHqCvCjoO0zDFqQ73q-8RuOrMA5mM",
+  "pdfSize": "129596"
+}

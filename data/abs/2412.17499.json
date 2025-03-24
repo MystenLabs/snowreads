@@ -1,0 +1,43 @@
+{
+  "id": "2412.17499",
+  "title": "Improving the Noise Estimation of Latent Neural Stochastic Differential\n  Equations",
+  "authors": "Linus Heck, Maximilian Gelbrecht, Michael T. Schaub, Niklas Boers",
+  "authorsParsed": [
+    [
+      "Heck",
+      "Linus",
+      ""
+    ],
+    [
+      "Gelbrecht",
+      "Maximilian",
+      ""
+    ],
+    [
+      "Schaub",
+      "Michael T.",
+      ""
+    ],
+    [
+      "Boers",
+      "Niklas",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 23 Dec 2024 11:56:35 GMT"
+    }
+  ],
+  "updateDate": "2024-12-24",
+  "timestamp": 1734954995000,
+  "abstract": "  Latent neural stochastic differential equations (SDEs) have recently emerged\nas a promising approach for learning generative models from stochastic time\nseries data. However, they systematically underestimate the noise level\ninherent in such data, limiting their ability to capture stochastic dynamics\naccurately. We investigate this underestimation in detail and propose a\nstraightforward solution: by including an explicit additional noise\nregularization in the loss function, we are able to learn a model that\naccurately captures the diffusion component of the data. We demonstrate our\nresults on a conceptual model system that highlights the improved latent neural\nSDE's capability to model stochastic bistable dynamics.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Statistics/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "_fbl9wfzrWssNA-UBhz8Hnxy_g6oH3RvRMhBGrjdvRI",
+  "pdfSize": "614003"
+}

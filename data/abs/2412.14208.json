@@ -1,0 +1,42 @@
+{
+  "id": "2412.14208",
+  "title": "Beacon: A Naturalistic Driving Dataset During Blackouts for Benchmarking\n  Traffic Reconstruction and Control",
+  "authors": "Supriya Sarker, Iftekharul Islam, Bibek Poudel, and Weizi Li",
+  "authorsParsed": [
+    [
+      "Sarker",
+      "Supriya",
+      ""
+    ],
+    [
+      "Islam",
+      "Iftekharul",
+      ""
+    ],
+    [
+      "Poudel",
+      "Bibek",
+      ""
+    ],
+    [
+      "Li",
+      "Weizi",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 17 Dec 2024 07:48:41 GMT"
+    }
+  ],
+  "updateDate": "2024-12-20",
+  "timestamp": 1734421721000,
+  "abstract": "  Extreme weather events and other vulnerabilities are causing blackouts with\nincreasing frequency, disrupting traffic control systems and posing significant\nchallenges to urban mobility. To address this growing concern, we introduce\n\\model{}, a naturalistic driving dataset collected during blackouts at complex\nintersections. Beacon provides detailed traffic data from two unsignalized\nintersections in Memphis, TN, including timesteps, origin, and destination\nlanes for each vehicle over four hours. We analyze traffic demand, vehicle\ntrajectories, and density across different scenarios. We also use the dataset\nto reconstruct unsignalized, signalized and mixed traffic conditions,\ndemonstrating its utility for benchmarking traffic reconstruction techniques\nand control methods. To the best of our knowledge, Beacon could be the first\npublic available traffic dataset that captures naturalistic driving behaviors\nat complex intersections.\n",
+  "subjects": [
+    "Computer Science/Robotics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "XiiquNareY68mS4CGEXR8i5mHs5JHLvRZwYFzkTWJYM",
+  "pdfSize": "4400545"
+}

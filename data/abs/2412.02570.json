@@ -1,0 +1,52 @@
+{
+  "id": "2412.02570",
+  "title": "TAB-Fields: A Maximum Entropy Framework for Mission-Aware Adversarial\n  Planning",
+  "authors": "Gokul Puthumanaillam, Jae Hyuk Song, Nurzhan Yesmagambet, Shinkyu\n  Park, Melkior Ornik",
+  "authorsParsed": [
+    [
+      "Puthumanaillam",
+      "Gokul",
+      ""
+    ],
+    [
+      "Song",
+      "Jae Hyuk",
+      ""
+    ],
+    [
+      "Yesmagambet",
+      "Nurzhan",
+      ""
+    ],
+    [
+      "Park",
+      "Shinkyu",
+      ""
+    ],
+    [
+      "Ornik",
+      "Melkior",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 3 Dec 2024 16:55:27 GMT"
+    }
+  ],
+  "updateDate": "2024-12-04",
+  "timestamp": 1733244927000,
+  "abstract": "  Autonomous agents operating in adversarial scenarios face a fundamental\nchallenge: while they may know their adversaries' high-level objectives, such\nas reaching specific destinations within time constraints, the exact policies\nthese adversaries will employ remain unknown. Traditional approaches address\nthis challenge by treating the adversary's state as a partially observable\nelement, leading to a formulation as a Partially Observable Markov Decision\nProcess (POMDP). However, the induced belief-space dynamics in a POMDP require\nknowledge of the system's transition dynamics, which, in this case, depend on\nthe adversary's unknown policy. Our key observation is that while an\nadversary's exact policy is unknown, their behavior is necessarily constrained\nby their mission objectives and the physical environment, allowing us to\ncharacterize the space of possible behaviors without assuming specific\npolicies. In this paper, we develop Task-Aware Behavior Fields (TAB-Fields), a\nrepresentation that captures adversary state distributions over time by\ncomputing the most unbiased probability distribution consistent with known\nconstraints. We construct TAB-Fields by solving a constrained optimization\nproblem that minimizes additional assumptions about adversary behavior beyond\nmission and environmental requirements. We integrate TAB-Fields with standard\nplanning algorithms by introducing TAB-conditioned POMCP, an adaptation of\nPartially Observable Monte Carlo Planning. Through experiments in simulation\nwith underwater robots and hardware implementations with ground robots, we\ndemonstrate that our approach achieves superior performance compared to\nbaselines that either assume specific adversary policies or neglect mission\nconstraints altogether. Evaluation videos and code are available at\nhttps://tab-fields.github.io.\n",
+  "subjects": [
+    "Computer Science/Robotics",
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Machine Learning",
+    "Computer Science/Multiagent Systems",
+    "Computer Science/Systems and Control",
+    "Electrical Engineering and Systems Science/Systems and Control"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "8BM4_20CBoTtBzscJI9czwrZtG8o25NPSiRAUOwVy3I",
+  "pdfSize": "5104164"
+}

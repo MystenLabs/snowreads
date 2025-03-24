@@ -1,0 +1,29 @@
+{
+  "id": "2412.20969",
+  "title": "Gradient flow structure for some nonlocal diffusion equations",
+  "authors": "Andrew Warren",
+  "authorsParsed": [
+    [
+      "Warren",
+      "Andrew",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 30 Dec 2024 14:15:33 GMT"
+    }
+  ],
+  "updateDate": "2024-12-31",
+  "timestamp": 1735568133000,
+  "abstract": "  We study ``nonlocal diffusion equations'' of the form \\[\n\\partial_{t}\\frac{d\\rho_{t}}{d\\pi}(x)+\\int_{X}\\left(\\frac{d\\rho_{t}}{d\\pi}(x)-\\frac{d\\rho_{t}}{d\\pi}(y)\\right)\\eta(x,y)d\\pi(y)=0\\qquad(\\dagger)\n\\] where $X$ is either $\\mathbb{R}^{d}$ or $\\mathbb{T}^{d}$, $\\pi$ is a\nprobability distribution on $X$, and $\\eta(x,y)$ is a ``transition kernel''\nwhich may be singular as $x\\rightarrow y$. For a suitable notion of weak\nsolutions which we discuss below, we show that solutions to these nonlocal\ndiffusion equations can be interpreted as gradient flows of the relative\nentropy with respect to a certain nonlocal Wasserstein-type metric defined in\nterms of $\\eta$ and $\\pi$. These ``nonlocal Wasserstein metrics'' endow the\nspace of probability measures on $X$ with a formal Riemannian structure,\nthereby providing for us a nonlocal analogue of the \\emph{Otto calculus}\noriginally developed in the context of the 2-Wasserstein metric. The class of\nequations $(\\dagger)$ includes a family of ``nonlocal Fokker-Planck\nequations'', which are thus identified as nonlocal Wasserstein gradient flows\nof the relative entropy, analogously with the usual Fokker-Planck equation and\nthe $W_{2}$ metric.\n  The gradient flow structure we provide allows us to deduce: existence and\nuniqueness of solutions to ($\\dagger$) in a suitable class of weak solutions;\nstability of solutions in the sense of evolutionary $\\Gamma$-convergence, with\nrespect to perturbations of initial condition, reference measure $\\pi$, and\ntransition kernel $\\eta$; sufficient conditions for exponential convergence to\nequilibrium, in terms of a nonlocal analogue of the log-Sobolev inequality; as\nwell as the consistency of a finite-volume-type spatial discretization scheme\nin the $\\mathbb{T}^{d}$ case.\n",
+  "subjects": [
+    "Mathematics/Analysis of PDEs",
+    "Mathematics/Dynamical Systems",
+    "Mathematics/Optimization and Control"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "H6C5RecwpI4QGwmzFJFfJ0AtJ6EoXpG33EJSOvz04n4",
+  "pdfSize": "716553"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2412.04601",
+  "title": "Evaluating an Effective Ransomware Infection Vector in Low Earth Orbit\n  Satellites",
+  "authors": "Marin Donchev, Dylan Smyth",
+  "authorsParsed": [
+    [
+      "Donchev",
+      "Marin",
+      ""
+    ],
+    [
+      "Smyth",
+      "Dylan",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 5 Dec 2024 20:30:26 GMT"
+    }
+  ],
+  "updateDate": "2024-12-09",
+  "timestamp": 1733430626000,
+  "abstract": "  Non-Terrestrial Networks (NTNs) and satellite systems have become an\nimportant component of modern data communication systems in recent years.\nDespite their importance, the security of these systems is often limited,\nleaving them vulnerable to determined attackers. In this paper, we outline a\nscenario in which an attacker can infect an in-orbit NASA Core Flight System\n(cFS) based satellite with ransomware and communicate the infection back to a\nsatellite operator. This paper is the first to demonstrate an end-to-end\nexploit path that results in a ransomware infection without the need for a\nsupply chain attack or compromised credentials. Novel ransomware is delivered\nto an emulated satellite system using custom shellcode that exploits a weakness\nin the considered scenario. The scenario considered by this initial piece of\nwork achieves a success rate of 33.3\\% for a complete successful infection.\n",
+  "subjects": [
+    "Computer Science/Cryptography and Security",
+    "Computer Science/Networking and Internet Architecture"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "dFRzJVDL7NXZcPOkLPRIVcZwpS5qebBZ-dlU8bbyjJg",
+  "pdfSize": "289986"
+}

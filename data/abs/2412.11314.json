@@ -1,0 +1,27 @@
+{
+  "id": "2412.11314",
+  "title": "Reliable, Reproducible, and Really Fast Leaderboards with Evalica",
+  "authors": "Dmitry Ustalov",
+  "authorsParsed": [
+    [
+      "Ustalov",
+      "Dmitry",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 15 Dec 2024 21:22:46 GMT"
+    }
+  ],
+  "updateDate": "2024-12-17",
+  "timestamp": 1734297766000,
+  "abstract": "  The rapid advancement of natural language processing (NLP) technologies, such\nas instruction-tuned large language models (LLMs), urges the development of\nmodern evaluation protocols with human and machine feedback. We introduce\nEvalica, an open-source toolkit that facilitates the creation of reliable and\nreproducible model leaderboards. This paper presents its design, evaluates its\nperformance, and demonstrates its usability through its Web interface,\ncommand-line interface, and Python API.\n",
+  "subjects": [
+    "Computer Science/Computation and Language"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "X6dOKevCshosoy1fI2Vokv_KuPyvyY6TOzYaIvHzUtE",
+  "pdfSize": "901670"
+}

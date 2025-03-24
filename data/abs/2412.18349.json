@@ -1,0 +1,27 @@
+{
+  "id": "2412.18349",
+  "title": "Neural auto-association with optimal Bayesian learning",
+  "authors": "Andreas Knoblauch",
+  "authorsParsed": [
+    [
+      "Knoblauch",
+      "Andreas",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 24 Dec 2024 11:22:18 GMT"
+    }
+  ],
+  "updateDate": "2024-12-25",
+  "timestamp": 1735039338000,
+  "abstract": "  Neural associative memories are single layer perceptrons with fast synaptic\nlearning typically storing discrete associations between pairs of neural\nactivity patterns. Previous works have analyzed the optimal networks under\nnaive Bayes assumptions of independent pattern components and\nheteroassociation, where the task is to learn associations from input to output\npatterns. Here I study the optimal Bayesian associative network for\nauto-association where input and output layers are identical. In particular, I\ncompare performance to different variants of approximate Bayesian learning\nrules, like the BCPNN (Bayesian Confidence Propagation Neural Network), and try\nto explain why sometimes the suboptimal learning rules achieve higher storage\ncapacity than the (theoretically) optimal model. It turns out that performance\ncan depend on subtle dependencies of input components violating the ``naive\nBayes'' assumptions. This includes patterns with constant number of active\nunits, iterative retrieval where patterns are repeatedly propagated through\nrecurrent networks, and winners-take-all activation of the most probable units.\nPerformance of all learning rules can improve significantly if they include a\nnovel adaptive mechanism to estimate noise in iterative retrieval steps (ANE).\nThe overall maximum storage capacity is achieved again by the Bayesian learning\nrule with ANE.\n",
+  "subjects": [
+    "Computer Science/Neural and Evolutionary Computing"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "xxKzCHiQlCjhGZaubkN7LhEElc9rkPCJciR22LRNl9k",
+  "pdfSize": "633548"
+}

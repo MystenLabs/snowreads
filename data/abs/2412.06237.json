@@ -1,0 +1,33 @@
+{
+  "id": "2412.06237",
+  "title": "In Silico Pharmacokinetic and Molecular Docking Studies of Natural\n  Plants against Essential Protein KRAS for Treatment of Pancreatic Cancer",
+  "authors": "Marsha Mariya Kappan and Joby George",
+  "authorsParsed": [
+    [
+      "Kappan",
+      "Marsha Mariya",
+      ""
+    ],
+    [
+      "George",
+      "Joby",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 9 Dec 2024 06:24:33 GMT"
+    }
+  ],
+  "updateDate": "2024-12-10",
+  "timestamp": 1733725473000,
+  "abstract": "  A kind of pancreatic cancer called Pancreatic Ductal Adenocarcinoma (PDAC) is\nanticipated to be one of the main causes of mortality during past years.\nEvidence from several researches supported the concept that the oncogenic KRAS\n(Ki-ras2 Kirsten rat sarcoma viral oncogene) mutation is the major cause of\npancreatic cancer. KRAS acts as an on-off switch that promotes cell growth. But\nwhen the KRAS gene is mutated, it will be in one position, allowing the cell\ngrowth uncontrollably. This uncontrollable multiplication of cells causes\ncancer growth. Therefore, KRAS was selected as the target protein in the study.\nFifty plant-derived compounds are selected for the study. To determine whether\nthe examined drugs could bind to the KRAS complex's binding pocket, molecular\ndocking was performed. Computational analyses were used to assess the possible\nability of tested substances to pass the Blood Brain Barrier (BBB). To predict\nthe bioactivity of ligands a machine learning model was created. Five machine\nlearning models were created and have chosen the best one among them for\nanalyzing the bioactivity of each ligand. From the fifty plant-derived\ncompounds the compounds with the least binding energies are selected. Then\nbioactivity of these six compounds is analyzed using Random Forest Regression\nmodel. Adsorption, Distribution, Metabolism, Excretion (ADME) properties of\ncompounds are analyzed. The results showed that borneol has powerful effects\nand acts as a promising agent for the treatment of pancreatic cancer. This\nsuggests that borneol found in plants like mint, ginger, rosemary, etc., is a\nsuccessful compound for the treatment of pancreatic cancer.\n",
+  "subjects": [
+    "Quantitative Biology/Biomolecules",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "mVmIurcmm9U_QgC8Xoc9FrEa-u9pU-63cbZ8bzVHKMc",
+  "pdfSize": "1084069"
+}

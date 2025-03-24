@@ -1,0 +1,92 @@
+{
+  "id": "2412.04186",
+  "title": "Modification on thermal motion in Geant4 for neutron capture simulation\n  in Gadolinium loaded water",
+  "authors": "Y. Hino, K. Abe, R. Asaka, S. Han, M. Harada, M. Ishitsuka, H. Ito, S.\n  Izumiyama, Y. Kanemura, Y. Koshio, F. Nakanishi, H. Sekiya and T. Yano",
+  "authorsParsed": [
+    [
+      "Hino",
+      "Y.",
+      ""
+    ],
+    [
+      "Abe",
+      "K.",
+      ""
+    ],
+    [
+      "Asaka",
+      "R.",
+      ""
+    ],
+    [
+      "Han",
+      "S.",
+      ""
+    ],
+    [
+      "Harada",
+      "M.",
+      ""
+    ],
+    [
+      "Ishitsuka",
+      "M.",
+      ""
+    ],
+    [
+      "Ito",
+      "H.",
+      ""
+    ],
+    [
+      "Izumiyama",
+      "S.",
+      ""
+    ],
+    [
+      "Kanemura",
+      "Y.",
+      ""
+    ],
+    [
+      "Koshio",
+      "Y.",
+      ""
+    ],
+    [
+      "Nakanishi",
+      "F.",
+      ""
+    ],
+    [
+      "Sekiya",
+      "H.",
+      ""
+    ],
+    [
+      "Yano",
+      "T.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 5 Dec 2024 14:27:04 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Fri, 13 Dec 2024 07:58:29 GMT"
+    }
+  ],
+  "updateDate": "2025-02-17",
+  "timestamp": 1733408824000,
+  "abstract": "  Neutron tagging is a fundamental technique for electron anti-neutrino\ndetection via the inverse beta decay channel. A reported discrepancy in neutron\ndetection efficiency between observational data and simulation predictions\nprompted an investigation into neutron capture modeling in Geant4. The study\nrevealed that an overestimation of the thermal motion of hydrogen atoms in\nGeant4 impacts the fraction of captured nuclei. By manually modifying the\nGeant4 implementation, the simulation results align with calculations based on\nevaluated nuclear data and show good agreement with observables derived from\nthe SK-Gd data.\n",
+  "subjects": [
+    "Physics/High Energy Physics - Experiment",
+    "Physics/Instrumentation and Detectors"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "Ui68Us27Wr4b7DXE7wh6fvEH-m_nX1Ump6DwEuT1VQY",
+  "pdfSize": "1818260"
+}

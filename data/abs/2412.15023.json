@@ -1,0 +1,65 @@
+{
+  "id": "2412.15023",
+  "title": "Stable-V2A: Synthesis of Synchronized Sound Effects with Temporal and\n  Semantic Controls",
+  "authors": "Riccardo Fosco Gramaccioni, Christian Marinoni, Emilian Postolache,\n  Marco Comunit\\`a, Luca Cosmo, Joshua D. Reiss, Danilo Comminiello",
+  "authorsParsed": [
+    [
+      "Gramaccioni",
+      "Riccardo Fosco",
+      ""
+    ],
+    [
+      "Marinoni",
+      "Christian",
+      ""
+    ],
+    [
+      "Postolache",
+      "Emilian",
+      ""
+    ],
+    [
+      "Comunità",
+      "Marco",
+      ""
+    ],
+    [
+      "Cosmo",
+      "Luca",
+      ""
+    ],
+    [
+      "Reiss",
+      "Joshua D.",
+      ""
+    ],
+    [
+      "Comminiello",
+      "Danilo",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 19 Dec 2024 16:37:19 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Thu, 2 Jan 2025 16:16:08 GMT"
+    }
+  ],
+  "updateDate": "2025-01-03",
+  "timestamp": 1734626239000,
+  "abstract": "  Sound designers and Foley artists usually sonorize a scene, such as from a\nmovie or video game, by manually annotating and sonorizing each action of\ninterest in the video. In our case, the intent is to leave full creative\ncontrol to sound designers with a tool that allows them to bypass the more\nrepetitive parts of their work, thus being able to focus on the creative\naspects of sound production. We achieve this presenting Stable-V2A, a two-stage\nmodel consisting of: an RMS-Mapper that estimates an envelope representative of\nthe audio characteristics associated with the input video; and Stable-Foley, a\ndiffusion model based on Stable Audio Open that generates audio semantically\nand temporally aligned with the target video. Temporal alignment is guaranteed\nby the use of the envelope as a ControlNet input, while semantic alignment is\nachieved through the use of sound representations chosen by the designer as\ncross-attention conditioning of the diffusion process. We train and test our\nmodel on Greatest Hits, a dataset commonly used to evaluate V2A models. In\naddition, to test our model on a case study of interest, we introduce Walking\nThe Maps, a dataset of videos extracted from video games depicting animated\ncharacters walking in different locations. Samples and code available on our\ndemo page at https://ispamm.github.io/Stable-V2A.\n",
+  "subjects": [
+    "Computer Science/Sound",
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Machine Learning",
+    "Computer Science/Multimedia",
+    "Electrical Engineering and Systems Science/Audio and Speech Processing"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "EaiUqCLuzBK0PIqbQw3QlWRL6g40EVVqGJfRLAMi4so",
+  "pdfSize": "10868944"
+}

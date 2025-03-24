@@ -1,0 +1,46 @@
+{
+  "id": "2412.15430",
+  "title": "An Environment-Adaptive Position/Force Control Based on Physical\n  Property Estimation",
+  "authors": "Tomoya Kitamura, Yuki Saito, Hiroshi Asai, Kouhei Ohnishi",
+  "authorsParsed": [
+    [
+      "Kitamura",
+      "Tomoya",
+      ""
+    ],
+    [
+      "Saito",
+      "Yuki",
+      ""
+    ],
+    [
+      "Asai",
+      "Hiroshi",
+      ""
+    ],
+    [
+      "Ohnishi",
+      "Kouhei",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 19 Dec 2024 22:29:57 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Wed, 19 Feb 2025 12:18:35 GMT"
+    }
+  ],
+  "updateDate": "2025-02-25",
+  "timestamp": 1734647397000,
+  "abstract": "  The current methods to generate robot actions for automation in significantly\ndifferent environments have limitations. This paper proposes a new method that\nmatches the impedance of two prerecorded action data with the current\nenvironmental impedance to generate highly adaptable actions. This method\nrecalculates the command values for the position and force based on the current\nimpedance to improve reproducibility in different environments. Experiments\nconducted under conditions of extreme action impedance, such as position and\nforce control, confirmed the superiority of the proposed method over existing\nmotion reproduction system. The advantages of this method include the use of\nonly two sets of motion data, significantly reducing the burden of data\nacquisition compared with machine-learning based methods, and eliminating\nconcerns about stability by using existing stable control systems. This study\ncontributes to improving the environmental adaptability of robots while\nsimplifying the action generation method.\n",
+  "subjects": [
+    "Computer Science/Robotics"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "EXQb1Qv9yMN8w6eCMgmT9TTRsdD5WO8pjAW5VHojamQ",
+  "pdfSize": "1722044"
+}

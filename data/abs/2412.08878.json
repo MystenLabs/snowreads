@@ -1,0 +1,43 @@
+{
+  "id": "2412.08878",
+  "title": "Multi-objective Combinatorial Methodology for Nuclear Reactor Site\n  Assessment: A Case Study for the United States",
+  "authors": "Omer Erdem, Kevin Daley, Gabrielle Hoelzle, Majdi I. Radaideh",
+  "authorsParsed": [
+    [
+      "Erdem",
+      "Omer",
+      ""
+    ],
+    [
+      "Daley",
+      "Kevin",
+      ""
+    ],
+    [
+      "Hoelzle",
+      "Gabrielle",
+      ""
+    ],
+    [
+      "Radaideh",
+      "Majdi I.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 12 Dec 2024 02:24:58 GMT"
+    }
+  ],
+  "updateDate": "2024-12-13",
+  "timestamp": 1733970298000,
+  "abstract": "  As the global demand for clean energy intensifies to achieve sustainability\nand net-zero carbon emission goals, nuclear energy stands out as a reliable\nsolution. However, fully harnessing its potential requires overcoming key\nchallenges, such as the high capital costs associated with nuclear power plants\n(NPPs). One promising strategy to mitigate these costs involves repurposing\nsites with existing infrastructure, including coal power plant (CPP) locations,\nwhich offer pre-built facilities and utilities. Additionally, brownfield sites\n- previously developed or underutilized lands often impacted by industrial\nactivity - present another compelling alternative. These sites typically\nfeature valuable infrastructure that can significantly reduce the costs of NPP\ndevelopment. This study introduces a novel multi-objective optimization\nmethodology, leveraging combinatorial search to evaluate over 30,000 potential\nNPP sites in the United States. Our approach addresses gaps in the current\npractice of assigning pre-determined weights to each site attribute that could\nlead to bias in the ranking. Each site is assigned a performance-based score,\nderived from a detailed combinatorial analysis of its site attributes. The\nmethodology generates a comprehensive database comprising site locations\n(inputs), attributes (outputs), site score (outputs), and the contribution of\neach attribute to the site score (outputs). We then use this database to train\na machine learning neural network model, enabling rapid predictions of nuclear\nsiting suitability across any location in the contiguous United States.\n",
+  "subjects": [
+    "Computer Science/Computational Engineering, Finance, and Science",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "vRdiop0nBW8XmJKbj-U-Fdakpjd0HyobF9-9joWuemQ",
+  "pdfSize": "4258079"
+}

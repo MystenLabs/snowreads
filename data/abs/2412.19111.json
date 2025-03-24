@@ -1,0 +1,53 @@
+{
+  "id": "2412.19111",
+  "title": "Spectral Enhancement and Pseudo-Anchor Guidance for Infrared-Visible\n  Person Re-Identification",
+  "authors": "Yiyuan Ge, Zhihao Chen, Ziyang Wang, Jiaju Kang, Mingya Zhang",
+  "authorsParsed": [
+    [
+      "Ge",
+      "Yiyuan",
+      ""
+    ],
+    [
+      "Chen",
+      "Zhihao",
+      ""
+    ],
+    [
+      "Wang",
+      "Ziyang",
+      ""
+    ],
+    [
+      "Kang",
+      "Jiaju",
+      ""
+    ],
+    [
+      "Zhang",
+      "Mingya",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 26 Dec 2024 08:03:53 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Thu, 2 Jan 2025 11:22:43 GMT"
+    }
+  ],
+  "updateDate": "2025-01-03",
+  "timestamp": 1735200233000,
+  "abstract": "  The development of deep learning has facilitated the application of person\nre-identification (ReID) technology in intelligent security. Visible-infrared\nperson re-identification (VI-ReID) aims to match pedestrians across infrared\nand visible modality images enabling 24-hour surveillance. Current studies\nrelying on unsupervised modality transformations as well as inefficient\nembedding constraints to bridge the spectral differences between infrared and\nvisible images, however, limit their potential performance. To tackle the\nlimitations of the above approaches, this paper introduces a simple yet\neffective Spectral Enhancement and Pseudo-anchor Guidance Network, named\nSEPG-Net. Specifically, we propose a more homogeneous spectral enhancement\nscheme based on frequency domain information and greyscale space, which avoids\nthe information loss typically caused by inefficient modality transformations.\nFurther, a Pseudo Anchor-guided Bidirectional Aggregation (PABA) loss is\nintroduced to bridge local modality discrepancies while better preserving\ndiscriminative identity embeddings. Experimental results on two public\nbenchmark datasets demonstrate the superior performance of SEPG-Net against\nother state-of-the-art methods. The code is available at\nhttps://github.com/1024AILab/ReID-SEPG.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Machine Learning",
+    "Electrical Engineering and Systems Science/Image and Video Processing"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "nQXOKwN3bzq0_5GXYJJ7V_NZsS8-Fd1oZOsK_ykqFi0",
+  "pdfSize": "4641277"
+}

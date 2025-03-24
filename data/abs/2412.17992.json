@@ -1,0 +1,44 @@
+{
+  "id": "2412.17992",
+  "title": "Falsification of Autonomous Systems in Rich Environments",
+  "authors": "Khen Elimelech, Morteza Lahijanian, Lydia E. Kavraki, Moshe Y. Vardi",
+  "authorsParsed": [
+    [
+      "Elimelech",
+      "Khen",
+      ""
+    ],
+    [
+      "Lahijanian",
+      "Morteza",
+      ""
+    ],
+    [
+      "Kavraki",
+      "Lydia E.",
+      ""
+    ],
+    [
+      "Vardi",
+      "Moshe Y.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 23 Dec 2024 21:26:06 GMT"
+    }
+  ],
+  "updateDate": "2024-12-25",
+  "timestamp": 1734989166000,
+  "abstract": "  Validating the behavior of autonomous Cyber-Physical Systems (CPS) and\nArtificial Intelligence (AI) agents, which rely on automated controllers, is an\nobjective of great importance. In recent years, Neural-Network (NN) controllers\nhave been demonstrating great promise. Unfortunately, such learned controllers\nare often not certified and can cause the system to suffer from unpredictable\nor unsafe behavior. To mitigate this issue, a great effort has been dedicated\nto automated verification of systems. Specifically, works in the category of\n``black-box testing'' rely on repeated system simulations to find a falsifying\ncounterexample of a system run that violates a specification. As running\nhigh-fidelity simulations is computationally demanding, the goal of\nfalsification approaches is to minimize the simulation effort (NN inference\nqueries) needed to return a falsifying example. This often proves to be a great\nchallenge, especially when the tested controller is well-trained. This work\ncontributes a novel falsification approach for autonomous systems under formal\nspecification operating in uncertain environments. We are especially interested\nin CPS operating in rich, semantically-defined, open environments, which yield\nhigh-dimensional, simulation-dependent sensor observations. Our approach\nintroduces a novel reformulation of the falsification problem as the problem of\nplanning a trajectory for a ``meta-system,'' which wraps and encapsulates the\nexamined system; we call this approach: meta-planning. This formulation can be\nsolved with standard sampling-based motion-planning techniques (like RRT) and\ncan gradually integrate domain knowledge to improve the search. We support the\nsuggested approach with an experimental study on falsification of an\nobstacle-avoiding autonomous car with a NN controller, where meta-planning\ndemonstrates superior performance over alternative approaches.\n",
+  "subjects": [
+    "Computer Science/Robotics",
+    "Computer Science/Systems and Control",
+    "Electrical Engineering and Systems Science/Systems and Control"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "0F9dwZheqNeby3qNJKNMjWPDDZh-1Kn5HCITAC0IVL8",
+  "pdfSize": "3820428"
+}

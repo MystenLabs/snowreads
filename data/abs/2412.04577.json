@@ -1,0 +1,48 @@
+{
+  "id": "2412.04577",
+  "title": "Data-Driven, Parameterized Reduced-order Models for Predicting\n  Distortion in Metal 3D Printing",
+  "authors": "Indu Kant Deo, Youngsoo Choi, Saad A. Khairallah, Alexandre Reikher,\n  Maria Strantza",
+  "authorsParsed": [
+    [
+      "Deo",
+      "Indu Kant",
+      ""
+    ],
+    [
+      "Choi",
+      "Youngsoo",
+      ""
+    ],
+    [
+      "Khairallah",
+      "Saad A.",
+      ""
+    ],
+    [
+      "Reikher",
+      "Alexandre",
+      ""
+    ],
+    [
+      "Strantza",
+      "Maria",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 5 Dec 2024 19:47:25 GMT"
+    }
+  ],
+  "updateDate": "2024-12-09",
+  "timestamp": 1733428045000,
+  "abstract": "  In Laser Powder Bed Fusion (LPBF), the applied laser energy produces high\nthermal gradients that lead to unacceptable final part distortion. Accurate\ndistortion prediction is essential for optimizing the 3D printing process and\nmanufacturing a part that meets geometric accuracy requirements. This study\nintroduces data-driven parameterized reduced-order models (ROMs) to predict\ndistortion in LPBF across various machine process settings. We propose a ROM\nframework that combines Proper Orthogonal Decomposition (POD) with Gaussian\nProcess Regression (GPR) and compare its performance against a deep-learning\nbased parameterized graph convolutional autoencoder (GCA). The POD-GPR model\ndemonstrates high accuracy, predicting distortions within $\\pm0.001mm$, and\ndelivers a computational speed-up of approximately 1800x.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Computer Science/Computational Engineering, Finance, and Science"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "ytfUxShOInN9Zt_T8W6HDlS_Gu0yJu9qnicU5SlyHWE",
+  "pdfSize": "560335"
+}

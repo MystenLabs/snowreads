@@ -1,0 +1,47 @@
+{
+  "id": "2412.01596",
+  "title": "FEVER-OOD: Free Energy Vulnerability Elimination for Robust\n  Out-of-Distribution Detection",
+  "authors": "Brian K.S. Isaac-Medina, Mauricio Che, Yona F.A. Gaus, Samet Akcay,\n  Toby P. Breckon",
+  "authorsParsed": [
+    [
+      "Isaac-Medina",
+      "Brian K. S.",
+      ""
+    ],
+    [
+      "Che",
+      "Mauricio",
+      ""
+    ],
+    [
+      "Gaus",
+      "Yona F. A.",
+      ""
+    ],
+    [
+      "Akcay",
+      "Samet",
+      ""
+    ],
+    [
+      "Breckon",
+      "Toby P.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 2 Dec 2024 15:15:24 GMT"
+    }
+  ],
+  "updateDate": "2024-12-03",
+  "timestamp": 1733152524000,
+  "abstract": "  Modern machine learning models, that excel on computer vision tasks such as\nclassification and object detection, are often overconfident in their\npredictions for Out-of-Distribution (OOD) examples, resulting in unpredictable\nbehaviour for open-set environments. Recent works have demonstrated that the\nfree energy score is an effective measure of uncertainty for OOD detection\ngiven its close relationship to the data distribution. However, despite free\nenergy-based methods representing a significant empirical advance in OOD\ndetection, our theoretical analysis reveals previously unexplored and inherent\nvulnerabilities within the free energy score formulation such that\nin-distribution and OOD instances can have distinct feature representations yet\nidentical free energy scores. This phenomenon occurs when the vector direction\nrepresenting the feature space difference between the in-distribution and OOD\nsample lies within the null space of the last layer of a neural-based\nclassifier. To mitigate these issues, we explore lower-dimensional feature\nspaces to reduce the null space footprint and introduce novel regularisation to\nmaximize the least singular value of the final linear layer, hence enhancing\ninter-sample free energy separation. We refer to these techniques as Free\nEnergy Vulnerability Elimination for Robust Out-of-Distribution Detection\n(FEVER-OOD). Our experiments show that FEVER-OOD techniques achieve state of\nthe art OOD detection in Imagenet-100, with average OOD false positive rate (at\n95% true positive rate) of 35.83% when used with the baseline Dream-OOD model.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "fnNZTQbhDpdKARqvHPnb5KWqJOu5zL1elNeZtDCfsak",
+  "pdfSize": "47448063"
+}

@@ -1,0 +1,43 @@
+{
+  "id": "2412.12480",
+  "title": "Subversion Strategy Eval: Evaluating AI's stateless strategic\n  capabilities against control protocols",
+  "authors": "Alex Mallen, Charlie Griffin, Alessandro Abate, Buck Shlegeris",
+  "authorsParsed": [
+    [
+      "Mallen",
+      "Alex",
+      ""
+    ],
+    [
+      "Griffin",
+      "Charlie",
+      ""
+    ],
+    [
+      "Abate",
+      "Alessandro",
+      ""
+    ],
+    [
+      "Shlegeris",
+      "Buck",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 17 Dec 2024 02:33:45 GMT"
+    }
+  ],
+  "updateDate": "2024-12-18",
+  "timestamp": 1734402825000,
+  "abstract": "  AI control protocols are plans for usefully deploying AI systems in a way\nthat is safe, even if the AI intends to subvert the protocol. Previous work\nevaluated protocols by subverting them with a human-AI red team, where an AI\nfollows the human-written strategy. This paper investigates how well AI systems\ncan generate and act on strategies for subverting control protocols whilst\noperating without private memory. Usually, decision-makers only need the\nability to generate optimal plans. However, to subvert a protocol, an AI system\nmust be able to reliably generate optimal plans in each context; coordinate\nplans with other instances of itself without communicating; and take actions\nwith well-calibrated probabilities. We develop evaluations for a model's\nability to generate subversion strategies and develop affordance experiments\nthat help isolate component capabilities. Our initial evaluations with\nClaude-3.5-sonnet highlight reasons why statelessly strategizing to subvert\ncontrol protocols might be hard. We hope that our work can serve as a starting\npoint for evaluations aimed at assessing whether a model is capable of\nstrategizing to subvert control protocols.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "uJTk--XYkUF2FPmoxvxMjl5RqJzzZyQnzhNBo2h5YSo",
+  "pdfSize": "606583"
+}

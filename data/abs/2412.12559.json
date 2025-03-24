@@ -1,0 +1,58 @@
+{
+  "id": "2412.12559",
+  "title": "EXIT: Context-Aware Extractive Compression for Enhancing\n  Retrieval-Augmented Generation",
+  "authors": "Taeho Hwang, Sukmin Cho, Soyeong Jeong, Hoyun Song, SeungYoon Han,\n  Jong C. Park",
+  "authorsParsed": [
+    [
+      "Hwang",
+      "Taeho",
+      ""
+    ],
+    [
+      "Cho",
+      "Sukmin",
+      ""
+    ],
+    [
+      "Jeong",
+      "Soyeong",
+      ""
+    ],
+    [
+      "Song",
+      "Hoyun",
+      ""
+    ],
+    [
+      "Han",
+      "SeungYoon",
+      ""
+    ],
+    [
+      "Park",
+      "Jong C.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 17 Dec 2024 05:38:27 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Wed, 18 Dec 2024 13:08:36 GMT"
+    }
+  ],
+  "updateDate": "2024-12-19",
+  "timestamp": 1734413907000,
+  "abstract": "  We introduce EXIT, an extractive context compression framework that enhances\nboth the effectiveness and efficiency of retrieval-augmented generation (RAG)\nin question answering (QA). Current RAG systems often struggle when retrieval\nmodels fail to rank the most relevant documents, leading to the inclusion of\nmore context at the expense of latency and accuracy. While abstractive\ncompression methods can drastically reduce token counts, their token-by-token\ngeneration process significantly increases end-to-end latency. Conversely,\nexisting extractive methods reduce latency but rely on independent,\nnon-adaptive sentence selection, failing to fully utilize contextual\ninformation. EXIT addresses these limitations by classifying sentences from\nretrieved documents - while preserving their contextual dependencies - enabling\nparallelizable, context-aware extraction that adapts to query complexity and\nretrieval quality. Our evaluations on both single-hop and multi-hop QA tasks\nshow that EXIT consistently surpasses existing compression methods and even\nuncompressed baselines in QA accuracy, while also delivering substantial\nreductions in inference time and token count. By improving both effectiveness\nand efficiency, EXIT provides a promising direction for developing scalable,\nhigh-quality QA solutions in RAG pipelines. Our code is available at\nhttps://github.com/ThisIsHwang/EXIT\n",
+  "subjects": [
+    "Computer Science/Computation and Language",
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Information Retrieval"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "TpGe221k2rpO7doyBNDwhstobFAQLHr7f7xw0sHEd3A",
+  "pdfSize": "796021"
+}

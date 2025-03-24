@@ -1,0 +1,44 @@
+{
+  "id": "2412.14029",
+  "title": "Temperature-Resilient Analog Neuromorphic Chip in Single-Polysilicon\n  CMOS Technology",
+  "authors": "Tommaso Rizzo, Sebastiano Strangio, Alessandro Catania, Giuseppe\n  Iannaccone",
+  "authorsParsed": [
+    [
+      "Rizzo",
+      "Tommaso",
+      ""
+    ],
+    [
+      "Strangio",
+      "Sebastiano",
+      ""
+    ],
+    [
+      "Catania",
+      "Alessandro",
+      ""
+    ],
+    [
+      "Iannaccone",
+      "Giuseppe",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 18 Dec 2024 16:48:26 GMT"
+    }
+  ],
+  "updateDate": "2024-12-20",
+  "timestamp": 1734540506000,
+  "abstract": "  In analog neuromorphic chips, designers can embed computing primitives in the\nintrinsic physical properties of devices and circuits, heavily reducing device\ncount and energy consumption, and enabling high parallelism, because all\ndevices are computing simultaneously. Neural network parameters can be stored\nin local analog non-volatile memories (NVMs), saving the energy required to\nmove data between memory and logic. However, the main drawback of analog\nsub-threshold electronic circuits is their dramatic temperature sensitivity. In\nthis paper, we demonstrate that a temperature compensation mechanism can be\ndevised to solve this problem. We have designed and fabricated a chip\nimplementing a two-layer analog neural network trained to classify\nlow-resolution images of handwritten digits with a low-cost single-poly\ncomplementary metal-oxide-semiconductor (CMOS) process, using unconventional\nanalog NVMs for weight storage. We demonstrate a temperature-resilient analog\nneuromorphic chip for image recognition operating between 10$^{\\circ}$C and\n60$^{\\circ}$C without loss of classification accuracy, within 2\\% of the\ncorresponding software-based neural network in the whole temperature range.\n",
+  "subjects": [
+    "Electrical Engineering and Systems Science/Image and Video Processing",
+    "Computer Science/Hardware Architecture",
+    "Computer Science/Emerging Technologies"
+  ],
+  "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+  "blobId": "MA12NgHWTd3UQJe6lAU_p0DK-RVK4PVglS1bM-Y2Q3k",
+  "pdfSize": "17815177"
+}

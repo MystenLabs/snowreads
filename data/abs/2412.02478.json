@@ -1,0 +1,48 @@
+{
+  "id": "2412.02478",
+  "title": "Demonstration of a Photonic Time-Multiplexed C-NOT Gate",
+  "authors": "Federico Pegoraro, Philip Held, Jonas Lammers, Benjamin Brecht, and\n  Christine Silberhorn",
+  "authorsParsed": [
+    [
+      "Pegoraro",
+      "Federico",
+      ""
+    ],
+    [
+      "Held",
+      "Philip",
+      ""
+    ],
+    [
+      "Lammers",
+      "Jonas",
+      ""
+    ],
+    [
+      "Brecht",
+      "Benjamin",
+      ""
+    ],
+    [
+      "Silberhorn",
+      "Christine",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 3 Dec 2024 14:41:31 GMT"
+    }
+  ],
+  "updateDate": "2024-12-04",
+  "timestamp": 1733236891000,
+  "abstract": "  The two-qubit controlled-not (C-NOT) gate is an essential component in the\nconstruction of a gate-based quantum computer. In fact, its operation, combined\nwith single qubit rotations allows to realise any quantum circuit. Several\nstrategies have been adopted in order to build quantum gates, among them the\nphotonic one offers the dual advantage of excellent isolation from the external\nenvironment and ease of manipulation at the single qubit level. Here we adopt a\nscalable time-multiplexed approach in order to build a fully reconfigurable\narchitecture capable of implementing a post-selected interferometric scheme\nthat implements the C-NOT operation with a fidelity of $(93.8\\pm1.4)\\%$. We use\nour experimental platform to generate the four Bell states.\n",
+  "subjects": [
+    "Physics/Quantum Physics",
+    "Physics/Optics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "itp9Y6fTx3eu33wEC01XyJ5sytvYE-6574-if5T6jcA",
+  "pdfSize": "768977"
+}

@@ -1,0 +1,49 @@
+{
+  "id": "2412.18723",
+  "title": "MRI Reconstruction with Regularized 3D Diffusion Model (R3DM)",
+  "authors": "Arya Bangun, Zhuo Cao, Alessio Quercia, Hanno Scharr, Elisabeth\n  Pfaehler",
+  "authorsParsed": [
+    [
+      "Bangun",
+      "Arya",
+      ""
+    ],
+    [
+      "Cao",
+      "Zhuo",
+      ""
+    ],
+    [
+      "Quercia",
+      "Alessio",
+      ""
+    ],
+    [
+      "Scharr",
+      "Hanno",
+      ""
+    ],
+    [
+      "Pfaehler",
+      "Elisabeth",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 25 Dec 2024 00:55:05 GMT"
+    }
+  ],
+  "updateDate": "2024-12-30",
+  "timestamp": 1735088105000,
+  "abstract": "  Magnetic Resonance Imaging (MRI) is a powerful imaging technique widely used\nfor visualizing structures within the human body and in other fields such as\nplant sciences. However, there is a demand to develop fast 3D-MRI\nreconstruction algorithms to show the fine structure of objects from\nunder-sampled acquisition data, i.e., k-space data. This emphasizes the need\nfor efficient solutions that can handle limited input while maintaining\nhigh-quality imaging. In contrast to previous methods only using 2D, we propose\na 3D MRI reconstruction method that leverages a regularized 3D diffusion model\ncombined with optimization method. By incorporating diffusion based priors, our\nmethod improves image quality, reduces noise, and enhances the overall fidelity\nof 3D MRI reconstructions. We conduct comprehensive experiments analysis on\nclinical and plant science MRI datasets. To evaluate the algorithm\neffectiveness for under-sampled k-space data, we also demonstrate its\nreconstruction performance with several undersampling patterns, as well as with\nin- and out-of-distribution pre-trained data. In experiments, we show that our\nmethod improves upon tested competitors.\n",
+  "subjects": [
+    "Electrical Engineering and Systems Science/Image and Video Processing",
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "Ph6I4ge-IIuDcT0XcUOL7PVDEwvQEWSXYwM36UDa6oc",
+  "pdfSize": "14951775"
+}

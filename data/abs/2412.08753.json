@@ -1,0 +1,56 @@
+{
+  "id": "2412.08753",
+  "title": "BDA: Bangla Text Data Augmentation Framework",
+  "authors": "Md. Tariquzzaman, Audwit Nafi Anam, Naimul Haque, Mohsinul Kabir,\n  Hasan Mahmud, Md Kamrul Hasan",
+  "authorsParsed": [
+    [
+      "Tariquzzaman",
+      "Md.",
+      ""
+    ],
+    [
+      "Anam",
+      "Audwit Nafi",
+      ""
+    ],
+    [
+      "Haque",
+      "Naimul",
+      ""
+    ],
+    [
+      "Kabir",
+      "Mohsinul",
+      ""
+    ],
+    [
+      "Mahmud",
+      "Hasan",
+      ""
+    ],
+    [
+      "Hasan",
+      "Md Kamrul",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 11 Dec 2024 19:50:37 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Thu, 26 Dec 2024 18:50:10 GMT"
+    }
+  ],
+  "updateDate": "2024-12-30",
+  "timestamp": 1733946637000,
+  "abstract": "  Data augmentation involves generating synthetic samples that resemble those\nin a given dataset. In resource-limited fields where high-quality data is\nscarce, augmentation plays a crucial role in increasing the volume of training\ndata. This paper introduces a Bangla Text Data Augmentation (BDA) Framework\nthat uses both pre-trained models and rule-based methods to create new variants\nof the text. A filtering process is included to ensure that the new text keeps\nthe same meaning as the original while also adding variety in the words used.\nWe conduct a comprehensive evaluation of the framework's effectiveness in\nBangla text classification tasks. Our framework achieved significant\nimprovement in F1 scores across five distinct datasets, delivering performance\nequivalent to models trained on 100% of the data while utilizing only 50% of\nthe training dataset. Additionally, we explore the impact of data scarcity by\nprogressively reducing the training data and augmenting it through BDA,\nresulting in notable F1 score enhancements. The study offers a thorough\nexamination of BDA's performance, identifying key factors for optimal results\nand addressing its limitations through detailed analysis.\n",
+  "subjects": [
+    "Computer Science/Computation and Language"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "7RgD0GrMW7q0V3bym-5u2InZxww6K35LSx_sd2i5jpg",
+  "pdfSize": "437469"
+}

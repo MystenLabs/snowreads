@@ -1,0 +1,54 @@
+{
+  "id": "2412.14982",
+  "title": "Efficient Motion Sickness Assessment: Recreation of On-Road Driving on a\n  Compact Test Track",
+  "authors": "Huseyin Harmankaya, Adrian Brietzke, Rebecca Pham Xuan, Barys\n  Shyrokau, Riender Happee and Georgios Papaioannou",
+  "authorsParsed": [
+    [
+      "Harmankaya",
+      "Huseyin",
+      ""
+    ],
+    [
+      "Brietzke",
+      "Adrian",
+      ""
+    ],
+    [
+      "Xuan",
+      "Rebecca Pham",
+      ""
+    ],
+    [
+      "Shyrokau",
+      "Barys",
+      ""
+    ],
+    [
+      "Happee",
+      "Riender",
+      ""
+    ],
+    [
+      "Papaioannou",
+      "Georgios",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 19 Dec 2024 15:56:19 GMT"
+    }
+  ],
+  "updateDate": "2024-12-20",
+  "timestamp": 1734623779000,
+  "abstract": "  The ability to engage in other activities during the ride is considered by\nconsumers as one of the key reasons for the adoption of automated vehicles.\nHowever, engagement in non-driving activities will provoke occupants' motion\nsickness, deteriorating their overall comfort and thereby risking acceptance of\nautomated driving. Therefore, it is critical to extend our understanding of\nmotion sickness and unravel the modulating factors that affect it through\nexperiments with participants. Currently, most experiments are conducted on\npublic roads (realistic but not reproducible) or test tracks (feasible with\nprototype automated vehicles). This research study develops a method to design\nan optimal path and speed reference to efficiently replicate on-road motion\nsickness exposure on a small test track. The method uses model predictive\ncontrol to replicate the longitudinal and lateral accelerations collected from\non-road drives on a test track of 70 m by 175 m. A within-subject experiment\n(47 participants) was conducted comparing the occupants' motion sickness\noccurrence in test-track and on-road conditions, with the conditions being\ncross-randomized. The results illustrate no difference and no effect of the\ncondition on the occurrence of the average motion sickness across the\nparticipants. Meanwhile, there is an overall correspondence of individual\nsickness levels between on-road and test-track. This paves the path for the\nemployment of our method for a simpler, safer and more replicable assessment of\nmotion sickness.\n",
+  "subjects": [
+    "Computer Science/Robotics",
+    "Computer Science/Emerging Technologies",
+    "Computer Science/Human-Computer Interaction"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "pjOmLz4g0gx_exYRzo9jsdcyK7i2SmXjM9A7vQHJWkI",
+  "pdfSize": "6052829"
+}

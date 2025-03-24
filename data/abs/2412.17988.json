@@ -1,0 +1,45 @@
+{
+  "id": "2412.17988",
+  "title": "Network Models of Expertise in the Complex Task of Operating Particle\n  Accelerators",
+  "authors": "Roussel Rahman, Jane Shtalenkova, Aashwin Ananda Mishra, Wan-Lin Hu",
+  "authorsParsed": [
+    [
+      "Rahman",
+      "Roussel",
+      ""
+    ],
+    [
+      "Shtalenkova",
+      "Jane",
+      ""
+    ],
+    [
+      "Mishra",
+      "Aashwin Ananda",
+      ""
+    ],
+    [
+      "Hu",
+      "Wan-Lin",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 23 Dec 2024 21:14:33 GMT"
+    }
+  ],
+  "updateDate": "2024-12-25",
+  "timestamp": 1734988473000,
+  "abstract": "  We implement a network-based approach to study expertise in a complex\nreal-world task: operating particle accelerators. Most real-world tasks we\nlearn and perform (e.g., driving cars, operating complex machines, solving\nmathematical problems) are difficult to learn because they are complex, and the\nbest strategies are difficult to find from many possibilities. However, how we\nlearn such complex tasks remains a partially solved mystery, as we cannot\nexplain how the strategies evolve with practice due to the difficulties of\ncollecting and modeling complex behavioral data. As complex tasks are generally\nnetworks of many elementary subtasks, we model task performance as networks or\ngraphs of subtasks and investigate how the networks change with expertise. We\ndevelop the networks by processing the text in a large archive of operator logs\nfrom 14 years of operations using natural language processing and machine\nlearning. The network changes are examined using a set of measures at four\nlevels of granularity - individual subtasks, interconnections among subtasks,\ngroups of subtasks, and the whole complex task. We find that the operators\nconsistently change with expertise at the subtask, the interconnection, and the\nwhole-task levels, but they show remarkable similarity in how subtasks are\ngrouped. These results indicate that the operators of all stages of expertise\nadopt a common divide-and-conquer approach by breaking the complex task into\nparts of manageable complexity, but they differ in the frequency and structure\nof nested subtasks. Operational logs are common data sources from real-world\nsettings where people collaborate with hardware and software environments to\nexecute complex tasks, and the network models investigated in this study can be\nexpanded to accommodate multi-modal data. Therefore, our network-based approach\nprovides a practical way to investigate expertise in the real world.\n",
+  "subjects": [
+    "Computer Science/Social and Information Networks",
+    "Computer Science/Systems and Control",
+    "Electrical Engineering and Systems Science/Systems and Control",
+    "Statistics/Applications"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "fOVZ7Dn63P1y_6cDsOcWMVAvjnMHyCPvKdzJMAiXHr4",
+  "pdfSize": "9791105"
+}

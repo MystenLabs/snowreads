@@ -1,0 +1,32 @@
+{
+  "id": "2412.04627",
+  "title": "Game-Theoretic Foundations for Cyber Resilience Against Deceptive\n  Information Attacks in Intelligent Transportation Systems",
+  "authors": "Ya-Ting Yang and Quanyan Zhu",
+  "authorsParsed": [
+    [
+      "Yang",
+      "Ya-Ting",
+      ""
+    ],
+    [
+      "Zhu",
+      "Quanyan",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 5 Dec 2024 21:41:56 GMT"
+    }
+  ],
+  "updateDate": "2024-12-09",
+  "timestamp": 1733434916000,
+  "abstract": "  The growing complexity and interconnectivity of Intelligent Transportation\nSystems (ITS) make them increasingly vulnerable to advanced cyber threats,\nparticularly deceptive information attacks. These sophisticated threats exploit\nvulnerabilities to manipulate data integrity and decision-making processes\nthrough techniques such as data poisoning, spoofing, and phishing. They target\nmultiple ITS domains, including intra-vehicle systems, inter-vehicle\ncommunications, transportation infrastructure, and human interactions, creating\ncascading effects across the ecosystem. This chapter introduces a\ngame-theoretic framework, enhanced by control and learning theories, to\nsystematically analyze and mitigate these risks. By modeling the strategic\ninteractions among attackers, users, and system operators, the framework\nfacilitates comprehensive risk assessment and the design of adaptive, scalable\nresilience mechanisms. A prime example of this approach is the Proactive Risk\nAssessment and Mitigation of Misinformed Demand Attacks (PRADA) system, which\nintegrates trust mechanisms, dynamic learning processes, and multi-layered\ndefense strategies to counteract deceptive attacks on navigational\nrecommendation systems. In addition, the chapter explores the broader\napplicability of these methodologies to address various ITS threats, including\nspoofing, Advanced Persistent Threats (APTs), and denial-of-service attacks. It\nhighlights cross-domain resilience strategies, offering actionable insights to\nbolster the security, reliability, and adaptability of ITS. By providing a\nrobust game-theoretic foundation, this work advances the development of\ncomprehensive solutions to the evolving challenges in ITS cybersecurity.\n",
+  "subjects": [
+    "Computer Science/Computer Science and Game Theory"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "1mpnc5K0x6jXv7ijmq1a-Y2IzrBvGVibYwKl1OI6oC8",
+  "pdfSize": "1692867"
+}

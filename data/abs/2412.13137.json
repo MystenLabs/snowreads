@@ -1,0 +1,103 @@
+{
+  "id": "2412.13137",
+  "title": "Unlocking the Potential of Digital Pathology: Novel Baselines for\n  Compression",
+  "authors": "Maximilian Fischer, Peter Neher, Peter Sch\\\"uffler, Sebastian Ziegler,\n  Shuhan Xiao, Robin Peretzke, David Clunie, Constantin Ulrich, Michael\n  Baumgartner, Alexander Muckenhuber, Silvia Dias Almeida, Michael G\\\"otz, Jens\n  Kleesiek, Marco Nolden, Rickmer Braren, Klaus Maier-Hein",
+  "authorsParsed": [
+    [
+      "Fischer",
+      "Maximilian",
+      ""
+    ],
+    [
+      "Neher",
+      "Peter",
+      ""
+    ],
+    [
+      "Schüffler",
+      "Peter",
+      ""
+    ],
+    [
+      "Ziegler",
+      "Sebastian",
+      ""
+    ],
+    [
+      "Xiao",
+      "Shuhan",
+      ""
+    ],
+    [
+      "Peretzke",
+      "Robin",
+      ""
+    ],
+    [
+      "Clunie",
+      "David",
+      ""
+    ],
+    [
+      "Ulrich",
+      "Constantin",
+      ""
+    ],
+    [
+      "Baumgartner",
+      "Michael",
+      ""
+    ],
+    [
+      "Muckenhuber",
+      "Alexander",
+      ""
+    ],
+    [
+      "Almeida",
+      "Silvia Dias",
+      ""
+    ],
+    [
+      "Götz",
+      "Michael",
+      ""
+    ],
+    [
+      "Kleesiek",
+      "Jens",
+      ""
+    ],
+    [
+      "Nolden",
+      "Marco",
+      ""
+    ],
+    [
+      "Braren",
+      "Rickmer",
+      ""
+    ],
+    [
+      "Maier-Hein",
+      "Klaus",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 17 Dec 2024 18:04:33 GMT"
+    }
+  ],
+  "updateDate": "2024-12-18",
+  "timestamp": 1734458673000,
+  "abstract": "  Digital pathology offers a groundbreaking opportunity to transform clinical\npractice in histopathological image analysis, yet faces a significant hurdle:\nthe substantial file sizes of pathological Whole Slide Images (WSI). While\ncurrent digital pathology solutions rely on lossy JPEG compression to address\nthis issue, lossy compression can introduce color and texture disparities,\npotentially impacting clinical decision-making. While prior research addresses\nperceptual image quality and downstream performance independently of each\nother, we jointly evaluate compression schemes for perceptual and downstream\ntask quality on four different datasets. In addition, we collect an initially\nuncompressed dataset for an unbiased perceptual evaluation of compression\nschemes. Our results show that deep learning models fine-tuned for perceptual\nquality outperform conventional compression schemes like JPEG-XL or WebP for\nfurther compression of WSI. However, they exhibit a significant bias towards\nthe compression artifacts present in the training data and struggle to\ngeneralize across various compression schemes. We introduce a novel evaluation\nmetric based on feature similarity between original files and compressed files\nthat aligns very well with the actual downstream performance on the compressed\nWSI. Our metric allows for a general and standardized evaluation of lossy\ncompression schemes and mitigates the requirement to independently assess\ndifferent downstream tasks. Our study provides novel insights for the\nassessment of lossy compression schemes for WSI and encourages a unified\nevaluation of lossy compression schemes to accelerate the clinical uptake of\ndigital pathology.\n",
+  "subjects": [
+    "Electrical Engineering and Systems Science/Image and Video Processing",
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "KymJmPKPqkrcRIYyreNxRTQQp_-oB1-dRq5CGkSRlp8",
+  "pdfSize": "4456843"
+}

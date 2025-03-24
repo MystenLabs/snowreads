@@ -1,0 +1,28 @@
+{
+  "id": "2412.08815",
+  "title": "Topology of zero sets of polynomials with square discriminant",
+  "authors": "David Hokken",
+  "authorsParsed": [
+    [
+      "Hokken",
+      "David",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 11 Dec 2024 23:09:54 GMT"
+    }
+  ],
+  "updateDate": "2024-12-13",
+  "timestamp": 1733958594000,
+  "abstract": "  Let $\\mathcal{N} \\neq \\{0\\}$ be a fixed set of integers, closed under\nmultiplication, closed under negation, or containing $\\{\\pm 1\\}$. We prove that\nany zero of a polynomial in $\\mathbf{Z}[X]$ whose coefficients lie in\n$\\mathcal{N}$ can be approximated in $\\mathbf{C}$ to arbitrary precision by a\nzero of a polynomial in $\\mathbf{Z}[X]$ with square discriminant whose\ncoefficients also lie in $\\mathcal{N}$. Hence the topology of the closure in\n$\\mathbf{C}$ of the set of zeros of all such polynomials is insensitive to the\ndiscriminant being a square, in contrast to the Galois groups of the\npolynomials.\n",
+  "subjects": [
+    "Mathematics/Dynamical Systems",
+    "Mathematics/Number Theory"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "mCAEJP-WXwuUuEsYUS9ePXToJHQCCJveqNMBoZ0NKek",
+  "pdfSize": "1888497"
+}

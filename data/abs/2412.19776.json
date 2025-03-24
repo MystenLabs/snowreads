@@ -1,0 +1,37 @@
+{
+  "id": "2412.19776",
+  "title": "On the numerical solution of Lasserre relaxations of unconstrained\n  binary quadratic optimization problem",
+  "authors": "Soodeh Habibi and Michal Kocvara and Michael Stingl",
+  "authorsParsed": [
+    [
+      "Habibi",
+      "Soodeh",
+      ""
+    ],
+    [
+      "Kocvara",
+      "Michal",
+      ""
+    ],
+    [
+      "Stingl",
+      "Michael",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 27 Dec 2024 18:17:45 GMT"
+    }
+  ],
+  "updateDate": "2024-12-30",
+  "timestamp": 1735323465000,
+  "abstract": "  The aim of this paper is to solve linear semidefinite programs arising from\nhigher-order Lasserre relaxations of unconstrained binary quadratic\noptimization problems. For this we use an interior point method with a\npreconditioned conjugate gradient method solving the linear systems. The\npreconditioner utilizes the low-rank structure of the solution of the\nrelaxations. In order to fully exploit this, we need to re-write the moment\nrelaxations. To treat the arising linear equality constraints we use an\n$\\ell_1$-penalty approach within the interior-point solver. The efficiency of\nthis approach is demonstrated by numerical experiments with the MAXCUT and\nother randomly generated problems and a comparison with a state-of-the-art\nsemidefinite solver and the ADMM method. We further propose a hybrid\nADMM-interior-point method that proves to be efficient for certain problem\nclasses. As a by-product, we observe that the second-order relaxation is often\nhigh enough to deliver a globally optimal solution of the original problem.\n",
+  "subjects": [
+    "Mathematics/Optimization and Control"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "CYvs5s4-jDX5IoerDtNRui1WaCWrsuyU7Kf_S9jodnI",
+  "pdfSize": "927928"
+}

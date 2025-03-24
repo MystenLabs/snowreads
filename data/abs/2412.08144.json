@@ -1,0 +1,58 @@
+{
+  "id": "2412.08144",
+  "title": "AGMixup: Adaptive Graph Mixup for Semi-supervised Node Classification",
+  "authors": "Weigang Lu, Ziyu Guan, Wei Zhao, Yaming Yang, Yibing Zhan, Yiheng Lu,\n  Dapeng Tao",
+  "authorsParsed": [
+    [
+      "Lu",
+      "Weigang",
+      ""
+    ],
+    [
+      "Guan",
+      "Ziyu",
+      ""
+    ],
+    [
+      "Zhao",
+      "Wei",
+      ""
+    ],
+    [
+      "Yang",
+      "Yaming",
+      ""
+    ],
+    [
+      "Zhan",
+      "Yibing",
+      ""
+    ],
+    [
+      "Lu",
+      "Yiheng",
+      ""
+    ],
+    [
+      "Tao",
+      "Dapeng",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 11 Dec 2024 07:04:35 GMT"
+    }
+  ],
+  "updateDate": "2024-12-12",
+  "timestamp": 1733900675000,
+  "abstract": "  Mixup is a data augmentation technique that enhances model generalization by\ninterpolating between data points using a mixing ratio $\\lambda$ in the image\ndomain. Recently, the concept of mixup has been adapted to the graph domain\nthrough node-centric interpolations. However, these approaches often fail to\naddress the complexity of interconnected relationships, potentially damaging\nthe graph's natural topology and undermining node interactions. Furthermore,\ncurrent graph mixup methods employ a one-size-fits-all strategy with a randomly\nsampled $\\lambda$ for all mixup pairs, ignoring the diverse needs of different\npairs. This paper proposes an Adaptive Graph Mixup (AGMixup) framework for\nsemi-supervised node classification. AGMixup introduces a subgraph-centric\napproach, which treats each subgraph similarly to how images are handled in\nEuclidean domains, thus facilitating a more natural integration of mixup into\ngraph-based learning. We also propose an adaptive mechanism to tune the mixing\nratio $\\lambda$ for diverse mixup pairs, guided by the contextual similarity\nand uncertainty of the involved subgraphs. Extensive experiments across seven\ndatasets on semi-supervised node classification benchmarks demonstrate\nAGMixup's superiority over state-of-the-art graph mixup methods. Source codes\nare available at \\url{https://github.com/WeigangLu/AGMixup}.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "otjRclSf-b08EQs2M5Wr8QYzPSSeX4Rr56khddZYpBw",
+  "pdfSize": "1319757"
+}

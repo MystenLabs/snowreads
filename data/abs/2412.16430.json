@@ -1,0 +1,42 @@
+{
+  "id": "2412.16430",
+  "title": "WiP: Deception-in-Depth Using Multiple Layers of Deception",
+  "authors": "Jason Landsborough, Neil C. Rowe, Thuy D. Nguyen, Sunny Fugate",
+  "authorsParsed": [
+    [
+      "Landsborough",
+      "Jason",
+      ""
+    ],
+    [
+      "Rowe",
+      "Neil C.",
+      ""
+    ],
+    [
+      "Nguyen",
+      "Thuy D.",
+      ""
+    ],
+    [
+      "Fugate",
+      "Sunny",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 21 Dec 2024 01:34:38 GMT"
+    }
+  ],
+  "updateDate": "2024-12-24",
+  "timestamp": 1734744878000,
+  "abstract": "  Deception is being increasingly explored as a cyberdefense strategy to\nprotect operational systems. We are studying implementation of\ndeception-in-depth strategies with initially three logical layers: network,\nhost, and data. We draw ideas from military deception, network orchestration,\nsoftware deception, file deception, fake honeypots, and moving-target defenses.\nWe are building a prototype representing our ideas and will be testing it in\nseveral adversarial environments. We hope to show that deploying a broad range\nof deception techniques can be more effective in protecting systems than\ndeploying single techniques. Unlike traditional deception methods that try to\nencourage active engagement from attackers to collect intelligence, we focus on\ndeceptions that can be used on real machines to discourage attacks.\n",
+  "subjects": [
+    "Computer Science/Cryptography and Security"
+  ],
+  "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+  "blobId": "2o1hlb_quIBi1Ryg-2n1ZOiJSpxtc5MZCdg8tlI3Uy0",
+  "pdfSize": "196606"
+}

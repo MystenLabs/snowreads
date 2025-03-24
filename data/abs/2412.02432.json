@@ -1,0 +1,52 @@
+{
+  "id": "2412.02432",
+  "title": "Improved Localized Machine Unlearning Through the Lens of Memorization",
+  "authors": "Reihaneh Torkzadehmahani, Reza Nasirigerdeh, Georgios Kaissis, Daniel\n  Rueckert, Gintare Karolina Dziugaite, Eleni Triantafillou",
+  "authorsParsed": [
+    [
+      "Torkzadehmahani",
+      "Reihaneh",
+      ""
+    ],
+    [
+      "Nasirigerdeh",
+      "Reza",
+      ""
+    ],
+    [
+      "Kaissis",
+      "Georgios",
+      ""
+    ],
+    [
+      "Rueckert",
+      "Daniel",
+      ""
+    ],
+    [
+      "Dziugaite",
+      "Gintare Karolina",
+      ""
+    ],
+    [
+      "Triantafillou",
+      "Eleni",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 3 Dec 2024 12:57:08 GMT"
+    }
+  ],
+  "updateDate": "2024-12-04",
+  "timestamp": 1733230628000,
+  "abstract": "  Machine unlearning refers to removing the influence of a specified subset of\ntraining data from a machine learning model, efficiently, after it has already\nbeen trained. This is important for key applications, including making the\nmodel more accurate by removing outdated, mislabeled, or poisoned data. In this\nwork, we study localized unlearning, where the unlearning algorithm operates on\na (small) identified subset of parameters. Drawing inspiration from the\nmemorization literature, we propose an improved localization strategy that\nyields strong results when paired with existing unlearning algorithms. We also\npropose a new unlearning algorithm, Deletion by Example Localization (DEL),\nthat resets the parameters deemed-to-be most critical according to our\nlocalization strategy, and then finetunes them. Our extensive experiments on\ndifferent datasets, forget sets and metrics reveal that DEL sets a new\nstate-of-the-art for unlearning metrics, against both localized and\nfull-parameter methods, while modifying a small subset of parameters, and\noutperforms the state-of-the-art localized unlearning in terms of test accuracy\ntoo.\n",
+  "subjects": [
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "yvhTCm-t3C0HS2xqre49ueOsHDxiFJbuL8P6dw_4icI",
+  "pdfSize": "585812"
+}

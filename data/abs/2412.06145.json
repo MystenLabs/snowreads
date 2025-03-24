@@ -1,0 +1,49 @@
+{
+  "id": "2412.06145",
+  "title": "Optimizing Qubit Mapping with Quasi-Orthogonal Space-Time Block Codes\n  and Quaternion Orthogonal Designs",
+  "authors": "Valentine Nyirahafashimana, Nurisya Mohd Shah, Umair Abdul Halim,\n  Mohamed Othman and Sharifah Kartini Said Husain",
+  "authorsParsed": [
+    [
+      "Nyirahafashimana",
+      "Valentine",
+      ""
+    ],
+    [
+      "Shah",
+      "Nurisya Mohd",
+      ""
+    ],
+    [
+      "Halim",
+      "Umair Abdul",
+      ""
+    ],
+    [
+      "Othman",
+      "Mohamed",
+      ""
+    ],
+    [
+      "Husain",
+      "Sharifah Kartini Said",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 9 Dec 2024 01:58:37 GMT"
+    }
+  ],
+  "updateDate": "2024-12-10",
+  "timestamp": 1733709517000,
+  "abstract": "  This study explores the qubit mapping through the integration of\nQuasi-Orthogonal Space-Time Block Codes (QOSTBCs) with Quaternion Orthogonal\nDesigns (QODs) in quantum error correction (QEC) frameworks. QOSTBCs have\ngained prominence for enhancing performance and reliability in quantum\ncomputing and communication systems. These codes draw on stabilizer group\nformalism and QODs to boost error correction, with QOSTBCs mapping logical\nqubits to physical ones, refines error handling in complex channels\nenvironments. Simulations results demonstrate the effectiveness of this\napproach by comparing the percentage improvement under various detected and\ncorrected error conditions for four different cases, \\textbf{$Z_1$} up to\n\\textbf{$Z_4$}. The obtained simulations and implemental results show that\nQOSTBCs consistently achieve a higher correction improvement percentage than\nstabilizer Group for \\textbf{$Z_1$}, \\textbf{$Z_2$}, and \\textbf{$Z_4$};\nQOSTBCs can correct more errors than those detected, achieving over 100\\%\ncorrection rates for first two cases, which indicates their enhanced resilience\nand redundancy in high-error environments. While for \\textbf{$Z_3$}, stabilizer\nconsistently remains above that of QOSTBCs, reflecting its slightly better\nperformance. These outcomes indicate that QOSTBCs are reliable in making better\nlogarithmic efficiency and error resilience, making them a valuable asset for\nquantum information processing and advanced wireless communication.\n",
+  "subjects": [
+    "Physics/Quantum Physics",
+    "Physics/Mathematical Physics",
+    "Mathematics/Mathematical Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "n43syDfNRm3X6a3cwaoQjqxlp1FpKqCGlZjcrPQbMRY",
+  "pdfSize": "467362"
+}

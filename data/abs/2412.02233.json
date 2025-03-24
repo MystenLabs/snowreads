@@ -1,0 +1,47 @@
+{
+  "id": "2412.02233",
+  "title": "Blockchain-Enabled Device-Enhanced Multi-Access Edge Computing in Open\n  Adversarial Environments",
+  "authors": "Muhammad Islam, Niroshinie Fernando, Seng W. Loke, Azadeh Ghari Neiat,\n  Pubudu N. Pathirana",
+  "authorsParsed": [
+    [
+      "Islam",
+      "Muhammad",
+      ""
+    ],
+    [
+      "Fernando",
+      "Niroshinie",
+      ""
+    ],
+    [
+      "Loke",
+      "Seng W.",
+      ""
+    ],
+    [
+      "Neiat",
+      "Azadeh Ghari",
+      ""
+    ],
+    [
+      "Pathirana",
+      "Pubudu N.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 3 Dec 2024 08:01:30 GMT"
+    }
+  ],
+  "updateDate": "2024-12-04",
+  "timestamp": 1733212890000,
+  "abstract": "  We propose Blockchain-enabled Device-enhanced Multi-access Edge Computing\n(BdMEC). BdMEC extends the Honeybee framework for on-demand resource pooling\nwith blockchain technology to ensure trust, security, and accountability among\ndevices (even when they are owned by different parties). BdMEC mitigates risks\nfrom malicious devices by making computations traceable. Our prototype and\nresults demonstrate BdMEC's ability to manage distributed computing tasks\nefficiently and securely across multiple devices.\n",
+  "subjects": [
+    "Computer Science/Cryptography and Security"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "Uqa5EGH2aIov-kImENc6n03pfyrrlUpGYyV4JBbCe6k",
+  "pdfSize": "5225705"
+}

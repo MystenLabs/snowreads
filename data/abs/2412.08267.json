@@ -1,0 +1,34 @@
+{
+  "id": "2412.08267",
+  "title": "Deterministic Path Search Algorithm on Free-Energy Landscape using\n  Random Grids",
+  "authors": "Tetsuro Nagai and Koji Yoshida",
+  "authorsParsed": [
+    [
+      "Nagai",
+      "Tetsuro",
+      ""
+    ],
+    [
+      "Yoshida",
+      "Koji",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 11 Dec 2024 10:32:35 GMT"
+    }
+  ],
+  "updateDate": "2024-12-12",
+  "timestamp": 1733913155000,
+  "abstract": "  Given a multidimensional free-energy or potential-energy landscape, finding\nreaction paths that connect an initial (or reactant) state and a final (or\nproduct) state is important for biophysics and materials science. The\nlikelihood of a path can be evaluated using an objective function, and the most\nlikely reaction path can be found by optimizing its objective function.\nHowever, nonlinear optimization on a complex free-energy or potential-energy\nlandscape may lead to suboptimal solutions. In this study, this drawback is\navoided using deterministic path-finding methods such as Dijkstra's algorithm\non a graph by assigning grids on the coordinate system to graph nodes and\nrelating the objective function of the path to the edge cost between the nodes.\nFurthermore, the use of random grids is proposed because they more accurately\nrepresent paths than regular grids. As a demonstration, the proposed method is\nsuccessfully applied to find the minimum resistance path on a three-hole\npotential model, demonstrating that the proposed method is promising.\n",
+  "subjects": [
+    "Condensed Matter/Statistical Mechanics",
+    "Physics/Biological Physics",
+    "Physics/Chemical Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "IcfB58FlXqc0yaFO7r2-zgflUJXAWF9FHJ1iRNkrkyA",
+  "pdfSize": "3881861"
+}

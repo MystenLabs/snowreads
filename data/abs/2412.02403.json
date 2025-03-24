@@ -1,0 +1,62 @@
+{
+  "id": "2412.02403",
+  "title": "3D Face Reconstruction From Radar Images",
+  "authors": "Valentin Braeutigam, Vanessa Wirth, Ingrid Ullmann, Christian\n  Sch\\\"u{\\ss}ler, Martin Vossiek, Matthias Berking, Bernhard Egger",
+  "authorsParsed": [
+    [
+      "Braeutigam",
+      "Valentin",
+      ""
+    ],
+    [
+      "Wirth",
+      "Vanessa",
+      ""
+    ],
+    [
+      "Ullmann",
+      "Ingrid",
+      ""
+    ],
+    [
+      "Schüßler",
+      "Christian",
+      ""
+    ],
+    [
+      "Vossiek",
+      "Martin",
+      ""
+    ],
+    [
+      "Berking",
+      "Matthias",
+      ""
+    ],
+    [
+      "Egger",
+      "Bernhard",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 3 Dec 2024 11:53:05 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Wed, 5 Feb 2025 12:26:37 GMT"
+    }
+  ],
+  "updateDate": "2025-02-06",
+  "timestamp": 1733226785000,
+  "abstract": "  The 3D reconstruction of faces gains wide attention in computer vision and is\nused in many fields of application, for example, animation, virtual reality,\nand even forensics. This work is motivated by monitoring patients in sleep\nlaboratories. Due to their unique characteristics, sensors from the radar\ndomain have advantages compared to optical sensors, namely penetration of\nelectrically non-conductive materials and independence of light. These\nadvantages of radar signals unlock new applications and require adaptation of\n3D reconstruction frameworks. We propose a novel model-based method for 3D\nreconstruction from radar images. We generate a dataset of synthetic radar\nimages with a physics-based but non-differentiable radar renderer. This dataset\nis used to train a CNN-based encoder to estimate the parameters of a 3D\nmorphable face model. Whilst the encoder alone already leads to strong\nreconstructions of synthetic data, we extend our reconstruction in an\nAnalysis-by-Synthesis fashion to a model-based autoencoder. This is enabled by\nlearning the rendering process in the decoder, which acts as an object-specific\ndifferentiable radar renderer. Subsequently, the combination of both network\nparts is trained to minimize both, the loss of the parameters and the loss of\nthe resulting reconstructed radar image. This leads to the additional benefit,\nthat at test time the parameters can be further optimized by finetuning the\nautoencoder unsupervised on the image loss. We evaluated our framework on\ngenerated synthetic face images as well as on real radar images with 3D ground\ntruth of four individuals.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "oLSX5GL0hpr5PqKhjouWzPbKQJVfncw4DpB87Gr6RCY",
+  "pdfSize": "9401803"
+}

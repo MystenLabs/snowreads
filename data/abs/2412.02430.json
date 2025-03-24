@@ -1,0 +1,34 @@
+{
+  "id": "2412.02430",
+  "title": "Transformer-based Koopman Autoencoder for Linearizing Fisher's Equation",
+  "authors": "Kanav Singh Rana, Nitu Kumari",
+  "authorsParsed": [
+    [
+      "Rana",
+      "Kanav Singh",
+      ""
+    ],
+    [
+      "Kumari",
+      "Nitu",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 3 Dec 2024 12:52:04 GMT"
+    }
+  ],
+  "updateDate": "2024-12-04",
+  "timestamp": 1733230324000,
+  "abstract": "  A Transformer-based Koopman autoencoder is proposed for linearizing Fisher's\nreaction-diffusion equation. The primary focus of this study is on using deep\nlearning techniques to find complex spatiotemporal patterns in the\nreaction-diffusion system. The emphasis is on not just solving the equation but\nalso transforming the system's dynamics into a more comprehensible, linear\nform. Global coordinate transformations are achieved through the autoencoder,\nwhich learns to capture the underlying dynamics by training on a dataset with\n60,000 initial conditions. Extensive testing on multiple datasets was used to\nassess the efficacy of the proposed model, demonstrating its ability to\naccurately predict the system's evolution as well as to generalize. We provide\na thorough comparison study, comparing our suggested design to a few other\ncomparable methods using experiments on various PDEs, such as the\nKuramoto-Sivashinsky equation and the Burger's equation. Results show improved\naccuracy, highlighting the capabilities of the Transformer-based Koopman\nautoencoder. The proposed architecture in is significantly ahead of other\narchitectures, in terms of solving different types of PDEs using a single\narchitecture. Our method relies entirely on the data, without requiring any\nknowledge of the underlying equations. This makes it applicable to even the\ndatasets where the governing equations are not known.\n",
+  "subjects": [
+    "Mathematics/Analysis of PDEs",
+    "Computer Science/Machine Learning",
+    "Mathematics/Dynamical Systems"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "Icc-zVYwsawvtAy5HLUoJMTDhg9XKjyQBZratBfUQf0",
+  "pdfSize": "3098994"
+}

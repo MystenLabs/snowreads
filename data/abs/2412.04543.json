@@ -1,0 +1,43 @@
+{
+  "id": "2412.04543",
+  "title": "Going from 3D common-envelope simulations to fast 1D simulations",
+  "authors": "V. A. Bronner, F. R. N. Schneider, Ph. Podsiadlowski, F. K. Roepke",
+  "authorsParsed": [
+    [
+      "Bronner",
+      "V. A.",
+      ""
+    ],
+    [
+      "Schneider",
+      "F. R. N.",
+      ""
+    ],
+    [
+      "Podsiadlowski",
+      "Ph.",
+      ""
+    ],
+    [
+      "Roepke",
+      "F. K.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 5 Dec 2024 19:00:01 GMT"
+    }
+  ],
+  "updateDate": "2024-12-09",
+  "timestamp": 1733425201000,
+  "abstract": "  One-dimensional (1D) methods for simulating the common-envelope (CE) phase\noffer advantages over three-dimensional (3D) simulations regarding their\ncomputational speed and feasibility. We present the 1D CE method from Bronner\net al. (2024), including the results of the CE simulations of an asymptotic\ngiant branch star donor. We further test this method in the massive star regime\nby computing the CE event of a red supergiant with a neutron-star mass and a\nblack-hole mass companion. The 1D model can reproduce the orbital evolution and\nthe envelope ejection from 3D simulations when choosing suitable values for the\nfree parameters in the model. The best-fitting values differ from the\nexpectations based on the low mass simulations, indicating that the free\nparameters depend on the structure of the giant star. The released\nrecombination energy from hydrogen and helium helps to expand the envelope,\nsimilar to the low-mass CE simulations.\n",
+  "subjects": [
+    "Astrophysics/Solar and Stellar Astrophysics",
+    "Astrophysics/High Energy Astrophysical Phenomena"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "u63Jp2pipSjjKqyHUNmXDInBEsBUQRQpUTqJMbBb9S0",
+  "pdfSize": "995185"
+}

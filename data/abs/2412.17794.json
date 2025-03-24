@@ -1,0 +1,27 @@
+{
+  "id": "2412.17794",
+  "title": "Memory makes computation universal, remember?",
+  "authors": "Erik Garrison",
+  "authorsParsed": [
+    [
+      "Garrison",
+      "Erik",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 23 Dec 2024 18:51:46 GMT"
+    }
+  ],
+  "updateDate": "2024-12-24",
+  "timestamp": 1734979906000,
+  "abstract": "  Recent breakthroughs in AI capability have been attributed to increasingly\nsophisticated architectures and alignment techniques, but a simpler principle\nmay explain these advances: memory makes computation universal. Memory enables\nuniversal computation through two fundamental capabilities: recursive state\nmaintenance and reliable history access. We formally prove these requirements\nare both necessary and sufficient for universal computation. This principle\nmanifests across scales, from cellular computation to neural networks to\nlanguage models. Complex behavior emerges not from sophisticated processing\nunits but from maintaining and accessing state across time. We demonstrate how\nparallel systems like neural networks achieve universal computation despite\nlimitations in their basic units by maintaining state across iterations. This\ntheoretical framework reveals a universal pattern: computational advances\nconsistently emerge from enhanced abilities to maintain and access state rather\nthan from more complex basic operations. Our analysis unifies understanding of\ncomputation across biological systems, artificial intelligence, and human\ncognition, reminding us that humanity's own computational capabilities have\nevolved in step with our technical ability to remember through oral traditions,\nwriting, and now computing.\n",
+  "subjects": [
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "UUubnTlAHkoV9xCxYhv0elqEm4YhvfuaFNcaubsoDE0",
+  "pdfSize": "150944"
+}

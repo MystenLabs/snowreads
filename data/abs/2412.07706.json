@@ -1,0 +1,37 @@
+{
+  "id": "2412.07706",
+  "title": "Fluctuation Theorems for Heat exchanges between passive and active baths",
+  "authors": "Massimiliano Semeraro, Antonio Suma, Giuseppe Negro",
+  "authorsParsed": [
+    [
+      "Semeraro",
+      "Massimiliano",
+      ""
+    ],
+    [
+      "Suma",
+      "Antonio",
+      ""
+    ],
+    [
+      "Negro",
+      "Giuseppe",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 10 Dec 2024 17:53:01 GMT"
+    }
+  ],
+  "updateDate": "2024-12-11",
+  "timestamp": 1733853181000,
+  "abstract": "  In addition to providing general constraints on probability distributions,\nfluctuation theorems allow to infer essential information on the role played by\ntemperature in heat exchange phenomena. In this numerical study, we measure the\ntemperature of an out of equilibrium active bath using a fluctuation theorem\nthat relates the fluctuations of the heat exchanged between two baths to their\ntemperatures. Our setup consists of a single particle moving between two wells\nof a quartic potential accommodating two different baths. The heat exchanged\nbetween the two baths is monitored according to two definitions: as the kinetic\nenergy carried by the particle whenever it jumps from one well to the other and\nas the work performed by the particle on one of the two baths when immersed in\nit. First, we consider two equilibrium baths at two different temperatures and\nverify that a fluctuation theorem featuring the baths temperatures holds for\nboth heat definitions. Then, we introduce an additional Gaussian coloured noise\nin one of the baths, so as to make it effectively an active\n(out-of-equilibrium) bath. We find that a fluctuation theorem is still\nsatisfied with both heat definitions. Interestingly, in this case the\ntemperature obtained through the fluctuation theorem for the active bath\ncorresponds to the kinetic temperature when considering the first heat\ndefinition, while it is larger with the second one. We interpret these results\nby looking at the particle jump phenomenology.\n",
+  "subjects": [
+    "Condensed Matter/Statistical Mechanics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "dKak_B-CVaeyqpPls9QvwovpDN8-JHtmPcov0XNkkSI",
+  "pdfSize": "3454256"
+}

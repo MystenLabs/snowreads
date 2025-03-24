@@ -1,0 +1,58 @@
+{
+  "id": "2412.17113",
+  "title": "Adam on Local Time: Addressing Nonstationarity in RL with Relative Adam\n  Timesteps",
+  "authors": "Benjamin Ellis, Matthew T. Jackson, Andrei Lupu, Alexander D. Goldie,\n  Mattie Fellows, Shimon Whiteson, Jakob Foerster",
+  "authorsParsed": [
+    [
+      "Ellis",
+      "Benjamin",
+      ""
+    ],
+    [
+      "Jackson",
+      "Matthew T.",
+      ""
+    ],
+    [
+      "Lupu",
+      "Andrei",
+      ""
+    ],
+    [
+      "Goldie",
+      "Alexander D.",
+      ""
+    ],
+    [
+      "Fellows",
+      "Mattie",
+      ""
+    ],
+    [
+      "Whiteson",
+      "Shimon",
+      ""
+    ],
+    [
+      "Foerster",
+      "Jakob",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 22 Dec 2024 18:01:08 GMT"
+    }
+  ],
+  "updateDate": "2024-12-24",
+  "timestamp": 1734890468000,
+  "abstract": "  In reinforcement learning (RL), it is common to apply techniques used broadly\nin machine learning such as neural network function approximators and\nmomentum-based optimizers. However, such tools were largely developed for\nsupervised learning rather than nonstationary RL, leading practitioners to\nadopt target networks, clipped policy updates, and other RL-specific\nimplementation tricks to combat this mismatch, rather than directly adapting\nthis toolchain for use in RL. In this paper, we take a different approach and\ninstead address the effect of nonstationarity by adapting the widely used Adam\noptimiser. We first analyse the impact of nonstationary gradient magnitude --\nsuch as that caused by a change in target network -- on Adam's update size,\ndemonstrating that such a change can lead to large updates and hence\nsub-optimal performance. To address this, we introduce Adam-Rel. Rather than\nusing the global timestep in the Adam update, Adam-Rel uses the local timestep\nwithin an epoch, essentially resetting Adam's timestep to 0 after target\nchanges. We demonstrate that this avoids large updates and reduces to learning\nrate annealing in the absence of such increases in gradient magnitude.\nEvaluating Adam-Rel in both on-policy and off-policy RL, we demonstrate\nimproved performance in both Atari and Craftax. We then show that increases in\ngradient norm occur in RL in practice, and examine the differences between our\ntheoretical model and the observed data.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Mathematics/Optimization and Control"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "uG20dqew3QzZwdZMdBwQ2KxGukzgp28nE1etY1rKV3w",
+  "pdfSize": "490436"
+}

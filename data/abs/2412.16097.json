@@ -1,0 +1,38 @@
+{
+  "id": "2412.16097",
+  "title": "Dual-Polarized Beyond Diagonal RIS",
+  "authors": "Matteo Nerini, Bruno Clerckx",
+  "authorsParsed": [
+    [
+      "Nerini",
+      "Matteo",
+      ""
+    ],
+    [
+      "Clerckx",
+      "Bruno",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 20 Dec 2024 17:41:02 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Thu, 27 Feb 2025 17:43:42 GMT"
+    }
+  ],
+  "updateDate": "2025-02-28",
+  "timestamp": 1734716462000,
+  "abstract": "  Beyond diagonal reconfigurable intelligent surface (BD-RIS) is a family of\nRIS architectures more flexible than conventional RIS. While BD-RIS has been\nprimarily analyzed assuming uni-polarized systems, modern wireless deployments\nare dual-polarized. To address this gap, this paper investigates the\nfundamental limits of dual-polarized BD-RIS-aided systems. We derive the\nscaling laws governing the performance of BD-RIS and the Pareto frontier of the\ntrade-off between performance and circuit complexity enabled by BD-RIS.\nTheoretical results show that the group-connected RIS with group size 2\nprovides remarkable gains over conventional RIS in both Rayleigh and\nline-of-sight (LoS) channels, while maintaining a reduced circuit complexity.\n",
+  "subjects": [
+    "Computer Science/Information Theory",
+    "Electrical Engineering and Systems Science/Signal Processing",
+    "Mathematics/Information Theory"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "JaNE4JdFLAl-q0SMOSaSqPwE1oRP5bV6HM2HEl8XYjY",
+  "pdfSize": "368221"
+}

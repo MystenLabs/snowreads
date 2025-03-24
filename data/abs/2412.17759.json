@@ -1,0 +1,59 @@
+{
+  "id": "2412.17759",
+  "title": "Survey of Large Multimodal Model Datasets, Application Categories and\n  Taxonomy",
+  "authors": "Priyaranjan Pattnayak, Hitesh Laxmichand Patel, Bhargava Kumar, Amit\n  Agarwal, Ishan Banerjee, Srikant Panda, Tejaswini Kumar",
+  "authorsParsed": [
+    [
+      "Pattnayak",
+      "Priyaranjan",
+      ""
+    ],
+    [
+      "Patel",
+      "Hitesh Laxmichand",
+      ""
+    ],
+    [
+      "Kumar",
+      "Bhargava",
+      ""
+    ],
+    [
+      "Agarwal",
+      "Amit",
+      ""
+    ],
+    [
+      "Banerjee",
+      "Ishan",
+      ""
+    ],
+    [
+      "Panda",
+      "Srikant",
+      ""
+    ],
+    [
+      "Kumar",
+      "Tejaswini",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 23 Dec 2024 18:15:19 GMT"
+    }
+  ],
+  "updateDate": "2024-12-24",
+  "timestamp": 1734977719000,
+  "abstract": "  Multimodal learning, a rapidly evolving field in artificial intelligence,\nseeks to construct more versatile and robust systems by integrating and\nanalyzing diverse types of data, including text, images, audio, and video.\nInspired by the human ability to assimilate information through many senses,\nthis method enables applications such as text-to-video conversion, visual\nquestion answering, and image captioning. Recent developments in datasets that\nsupport multimodal language models (MLLMs) are highlighted in this overview.\nLarge-scale multimodal datasets are essential because they allow for thorough\ntesting and training of these models. With an emphasis on their contributions\nto the discipline, the study examines a variety of datasets, including those\nfor training, domain-specific tasks, and real-world applications. It also\nemphasizes how crucial benchmark datasets are for assessing models' performance\nin a range of scenarios, scalability, and applicability. Since multimodal\nlearning is always changing, overcoming these obstacles will help AI research\nand applications reach new heights.\n",
+  "subjects": [
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "9tctlvzthymnUOZ5Cmi0HU9wNZdPwAGODtejGb2ytjQ",
+  "pdfSize": "851211"
+}

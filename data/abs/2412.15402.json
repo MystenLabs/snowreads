@@ -1,0 +1,43 @@
+{
+  "id": "2412.15402",
+  "title": "Optimizing Photovoltaic Panel Quantity for Water Distribution Networks",
+  "authors": "Mirhan \\\"Urkmez, Carsten Kalles{\\o}e, Jan Dimon Bendtsen, John Leth",
+  "authorsParsed": [
+    [
+      "Ürkmez",
+      "Mirhan",
+      ""
+    ],
+    [
+      "Kallesøe",
+      "Carsten",
+      ""
+    ],
+    [
+      "Bendtsen",
+      "Jan Dimon",
+      ""
+    ],
+    [
+      "Leth",
+      "John",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 19 Dec 2024 21:11:08 GMT"
+    }
+  ],
+  "updateDate": "2024-12-23",
+  "timestamp": 1734642668000,
+  "abstract": "  The paper introduces a procedure for determining an approximation of the\noptimal amount of photovoltaics (PVs) for powering water distribution networks\n(WDNs) through grid-connected PVs. The procedure aims to find the PV amount\nminimizing the total expected cost of the WDN over the lifespan of the PVs. The\napproach follows an iterative process, starting with an initial estimate of the\nPV quantity, and then calculating the total cost of WDN operation. To calculate\nthe total cost of the WDN, we sample PV power profiles that represent the\nfuture production based on a probabilistic PV production model. Simulations are\nconducted assuming these sampled PV profiles power the WDN, and pump flow rates\nare determined using a control method designed for PV-powered WDNs. Following\nthe simulations, the overall WDN cost is calculated. Since we lack access to\nderivative information, we employ the derivative-free Nelder-Mead method for\niteratively adjusting the PV quantity to find an approximation of the optimal\nvalue. The procedure is applied for the WDN of Randers, a Danish town. By\ndetermining an approximation of the optimal quantity of PVs, we observe a\n14.5\\% decrease in WDN costs compared to the scenario without PV installations,\nassuming a 25 year lifespan for the PV panels.\n",
+  "subjects": [
+    "Electrical Engineering and Systems Science/Systems and Control",
+    "Computer Science/Systems and Control"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "DftlgbXQBh2L2oeUqSGMYA4AXmaR0tNDcJiWyIp1gvc",
+  "pdfSize": "590972"
+}

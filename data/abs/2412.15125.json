@@ -1,0 +1,57 @@
+{
+  "id": "2412.15125",
+  "title": "Oscillations of a Water Droplet on a Horizontally Vibrating Substrate",
+  "authors": "King L. Ng, Lu\\'is H. Carnevale, Micha{\\l} Klamka, Piotr Deuar, Tomasz\n  Bobinski and Panagiotis E. Theodorakis",
+  "authorsParsed": [
+    [
+      "Ng",
+      "King L.",
+      ""
+    ],
+    [
+      "Carnevale",
+      "Luís H.",
+      ""
+    ],
+    [
+      "Klamka",
+      "Michał",
+      ""
+    ],
+    [
+      "Deuar",
+      "Piotr",
+      ""
+    ],
+    [
+      "Bobinski",
+      "Tomasz",
+      ""
+    ],
+    [
+      "Theodorakis",
+      "Panagiotis E.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 19 Dec 2024 18:05:24 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Mon, 13 Jan 2025 11:57:46 GMT"
+    }
+  ],
+  "updateDate": "2025-01-14",
+  "timestamp": 1734631524000,
+  "abstract": "  Deformed droplets are ubiquitous in various industrial applications, such as\ninkjet printing, lab-on-a-chip devices, and spray cooling, and can\nfundamentally affect the involved applications both favorably and unfavorably.\nHere, we employ many-body dissipative particle dynamics to investigate the\noscillations of water droplets on a harmonically and horizontally vibrating,\nsolid substrate. Three distinct scenarios of oscillations as a response to the\nsubstrate vibrations have been identified. The first scenario reflects a common\nsituation where the droplet can follow the substrate vibrations. In the other\ntwo scenarios, favored in the case of hydrophilic substrates, droplet\noscillations generate high shear rates that ultimately lead to droplet breakup.\nLeveraging our simulation model, the properties of the droplet and the\nmechanisms related to the oscillations are analyzed with a molecular-level\nresolution, while results are also put in the perspective of experiment. Our\nstudy suggests that the three scenarios can be distinguished by the\ncontact-surface velocity of the oscillating droplet, with threshold velocities\ninfluenced by the substrate's wettability. Moreover, the mean magnitude of the\nparticle velocity at the contact surface plays a key role in determining the\nthree oscillation phases, suggesting that the capillary number of the\noscillating droplet governs the phase behavior. Thus, our approach aims to\noptimize droplet oscillations and deformations on solid substrates, which have\ndirect implications for technological applications.\n",
+  "subjects": [
+    "Physics/Fluid Dynamics",
+    "Condensed Matter/Soft Condensed Matter"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "wYqKQ1x5Ljfp3A8uxWomxttiwJUJLD7kx8wD9VB4VZY",
+  "pdfSize": "2578517"
+}

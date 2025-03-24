@@ -1,0 +1,42 @@
+{
+  "id": "2412.05712",
+  "title": "Flagellar Swimming at Low Reynolds Numbers: Zoospore-Inspired Robotic\n  Swimmers with Dual Flagella for High-Speed Locomotion",
+  "authors": "Nnamdi C. Chikere and Sofia Lozano Voticky and Quang D. Tran and\n  Yasemin Ozkan-Aydin",
+  "authorsParsed": [
+    [
+      "Chikere",
+      "Nnamdi C.",
+      ""
+    ],
+    [
+      "Voticky",
+      "Sofia Lozano",
+      ""
+    ],
+    [
+      "Tran",
+      "Quang D.",
+      ""
+    ],
+    [
+      "Ozkan-Aydin",
+      "Yasemin",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 7 Dec 2024 18:04:15 GMT"
+    }
+  ],
+  "updateDate": "2024-12-10",
+  "timestamp": 1733594655000,
+  "abstract": "  Traditional locomotion strategies become ineffective at low Reynolds numbers,\nwhere viscous forces predominate over inertial forces. To adapt, microorganisms\nhave evolved specialized structures like cilia and flagella for efficient\nmaneuvering in viscous environments. Among these organisms, Phytophthora\nzoospores demonstrate unique locomotion mechanisms that allow them to rapidly\nspread and attack new hosts while expending minimal energy. In this study, we\npresent the design, fabrication, and testing of a zoospore-inspired robot,\nwhich leverages dual flexible flagella and oscillatory propulsion mechanisms to\nemulate the natural swimming behavior of zoospores. Our experiments and\ntheoretical model reveal that both flagellar length and oscillation frequency\nstrongly influence the robot's propulsion speed, with longer flagella and\nhigher frequencies yielding enhanced performance. Additionally, the anterior\nflagellum, which generates a pulling force on the body, plays a dominant role\nin enhancing propulsion efficiency compared to the posterior flagellum's\npushing force. This is a significant experimental finding, as it would be\nchallenging to observe directly in biological zoospores, which spontaneously\nrelease the posterior flagellum when the anterior flagellum detaches. This work\ncontributes to the development of advanced microscale robotic systems with\npotential applications in medical, environmental, and industrial fields. It\nalso provides a valuable platform for studying biological zoospores and their\nunique locomotion strategies.\n",
+  "subjects": [
+    "Computer Science/Robotics"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "fmCu0e6IAiQbez77TDC4QRtyIGVB8TIfIYdgiur6Ecs",
+  "pdfSize": "24505397"
+}

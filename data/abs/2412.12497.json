@@ -1,0 +1,52 @@
+{
+  "id": "2412.12497",
+  "title": "NLSR: Neuron-Level Safety Realignment of Large Language Models Against\n  Harmful Fine-Tuning",
+  "authors": "Xin Yi, Shunfan Zheng, Linlin Wang, Gerard de Melo, Xiaoling Wang,\n  Liang He",
+  "authorsParsed": [
+    [
+      "Yi",
+      "Xin",
+      ""
+    ],
+    [
+      "Zheng",
+      "Shunfan",
+      ""
+    ],
+    [
+      "Wang",
+      "Linlin",
+      ""
+    ],
+    [
+      "de Melo",
+      "Gerard",
+      ""
+    ],
+    [
+      "Wang",
+      "Xiaoling",
+      ""
+    ],
+    [
+      "He",
+      "Liang",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 17 Dec 2024 02:59:04 GMT"
+    }
+  ],
+  "updateDate": "2024-12-18",
+  "timestamp": 1734404344000,
+  "abstract": "  The emergence of finetuning-as-a-service has revealed a new vulnerability in\nlarge language models (LLMs). A mere handful of malicious data uploaded by\nusers can subtly manipulate the finetuning process, resulting in an\nalignment-broken model. Existing methods to counteract fine-tuning attacks\ntypically require substantial computational resources. Even with\nparameter-efficient techniques like LoRA, gradient updates remain essential. To\naddress these challenges, we propose \\textbf{N}euron-\\textbf{L}evel\n\\textbf{S}afety \\textbf{R}ealignment (\\textbf{NLSR}), a training-free framework\nthat restores the safety of LLMs based on the similarity difference of\nsafety-critical neurons before and after fine-tuning. The core of our framework\nis first to construct a safety reference model from an initially aligned model\nto amplify safety-related features in neurons. We then utilize this reference\nmodel to identify safety-critical neurons, which we prepare as patches.\nFinally, we selectively restore only those neurons that exhibit significant\nsimilarity differences by transplanting these prepared patches, thereby\nminimally altering the fine-tuned model. Extensive experiments demonstrate\nsignificant safety enhancements in fine-tuned models across multiple downstream\ntasks, while greatly maintaining task-level accuracy. Our findings suggest\nregions of some safety-critical neurons show noticeable differences after\nfine-tuning, which can be effectively corrected by transplanting neurons from\nthe reference model without requiring additional training. The code will be\navailable at \\url{https://github.com/xinykou/NLSR}\n",
+  "subjects": [
+    "Computer Science/Computation and Language"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "lAaSK-MdIXMppgpOdwZHTXRhzmLEalKr8vJHRW89Z1k",
+  "pdfSize": "1309358"
+}

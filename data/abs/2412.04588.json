@@ -1,0 +1,43 @@
+{
+  "id": "2412.04588",
+  "title": "The emergence of bulk structure in clusters via isotropic multi-well\n  pair potentials",
+  "authors": "Jennifer E. Doyle, Maya M. Martirossyan, Julia Dshemuchadse, Erin G.\n  Teich",
+  "authorsParsed": [
+    [
+      "Doyle",
+      "Jennifer E.",
+      ""
+    ],
+    [
+      "Martirossyan",
+      "Maya M.",
+      ""
+    ],
+    [
+      "Dshemuchadse",
+      "Julia",
+      ""
+    ],
+    [
+      "Teich",
+      "Erin G.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 5 Dec 2024 20:08:19 GMT"
+    }
+  ],
+  "updateDate": "2024-12-09",
+  "timestamp": 1733429299000,
+  "abstract": "  The mechanical, optical, and chemical properties of a wide variety of soft\nmaterials are enabled and constrained by their bulk structure. How this\nstructure emerges at small system sizes during self-assembly has been the\nsubject of decades of research, with the aim of designing and controlling\nmaterial functionality. Despite these efforts, it is still not fundamentally\nunderstood how nontrivial interparticle interactions in a finite $N$-body\nsystem influence resultant structure, and how that structure depends on $N$. In\nthis study, we investigate the emergence of non-close packings using multi-well\nisotropic pair potentials to simulate finite cluster formation of four distinct\ntwo-dimensional crystal structures. These pair potentials encode multiple\npreferred length scales into the system, allowing us to understand how\nanisotropic structural motifs -- as opposed to close-packing -- emerge as\ncluster size $N$ increases. We find a tendency toward close-packing at small\nsystem sizes irrespective of the bulk structure; however, the system size at\nwhich bulk structure emerges is influenced by the coordination number of the\nbulk and the shape of the pair potential. Anisotropic structure emerges through\nthe formation of bonds at a secondary bonding length at larger system sizes,\nand it is also dependent upon the shape of the pair potential. Our findings\ndemonstrate that tuning particle-particle interactions can enable the\nengineering of nano- or mesoscale soft matter clusters, in applications as\ndiverse as drug delivery and hierarchical materials design.\n",
+  "subjects": [
+    "Condensed Matter/Soft Condensed Matter",
+    "Condensed Matter/Materials Science"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "CJsLkm1uQfpU5z-647Ytos-UtetQaWrYtcJLEFOnaWE",
+  "pdfSize": "8080254"
+}

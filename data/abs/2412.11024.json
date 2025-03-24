@@ -1,0 +1,42 @@
+{
+  "id": "2412.11024",
+  "title": "Exploring Diffusion and Flow Matching Under Generator Matching",
+  "authors": "Zeeshan Patel, James DeLoye, Lance Mathias",
+  "authorsParsed": [
+    [
+      "Patel",
+      "Zeeshan",
+      ""
+    ],
+    [
+      "DeLoye",
+      "James",
+      ""
+    ],
+    [
+      "Mathias",
+      "Lance",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 15 Dec 2024 02:35:31 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Tue, 17 Dec 2024 07:45:29 GMT"
+    }
+  ],
+  "updateDate": "2024-12-18",
+  "timestamp": 1734230131000,
+  "abstract": "  In this paper, we present a comprehensive theoretical comparison of diffusion\nand flow matching under the Generator Matching framework. Despite their\napparent differences, both diffusion and flow matching can be viewed under the\nunified framework of Generator Matching. By recasting both diffusion and flow\nmatching under the same generative Markov framework, we provide theoretical\ninsights into why flow matching models can be more robust empirically and how\nnovel model classes can be constructed by mixing deterministic and stochastic\ncomponents. Our analysis offers a fresh perspective on the relationships\nbetween state-of-the-art generative modeling paradigms.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "TBia7nN0Jq2z7dP3SQ9LmU8mwaOTi_Aso35bLnIs-Z0",
+  "pdfSize": "138112"
+}

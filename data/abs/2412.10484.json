@@ -1,0 +1,33 @@
+{
+  "id": "2412.10484",
+  "title": "A Hybrid Real-Time Framework for Efficient Fussell-Vesely Importance\n  Evaluation Using Virtual Fault Trees and Graph Neural Networks",
+  "authors": "Xingyu Xiao, Peng Chen",
+  "authorsParsed": [
+    [
+      "Xiao",
+      "Xingyu",
+      ""
+    ],
+    [
+      "Chen",
+      "Peng",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 13 Dec 2024 11:31:44 GMT"
+    }
+  ],
+  "updateDate": "2024-12-17",
+  "timestamp": 1734089504000,
+  "abstract": "  The Fussell-Vesely Importance (FV) reflects the potential impact of a basic\nevent on system failure, and is crucial for ensuring system reliability.\nHowever, traditional methods for calculating FV importance are complex and\ntime-consuming, requiring the construction of fault trees and the calculation\nof minimal cut set. To address these limitations, this study proposes a hybrid\nreal-time framework to evaluate the FV importance of basic events. Our\nframework combines expert knowledge with a data-driven model. First, we use\nInterpretive Structural Modeling (ISM) to build a virtual fault tree that\ncaptures the relationships between basic events. Unlike traditional fault\ntrees, which include intermediate events, our virtual fault tree consists\nsolely of basic events, reducing its complexity and space requirements.\nAdditionally, our virtual fault tree considers the dependencies between basic\nevents rather than assuming their independence, as is typically done in\ntraditional fault trees. We then feed both the event relationships and relevant\ndata into a graph neural network (GNN). This approach enables a rapid,\ndata-driven calculation of FV importance, significantly reducing processing\ntime and quickly identifying critical events, thus providing robust decision\nsupport for risk control. Results demonstrate that our model performs well in\nterms of MSE, RMSE, MAE, and R2, reducing computational energy consumption and\noffering real-time, risk-informed decision support for complex systems.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Computer Science/Logic in Computer Science"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "PyoMytrvilP5_cgIqDTgD0Xmp74K2Wr6jkFnZ2uzi0g",
+  "pdfSize": "1071490"
+}

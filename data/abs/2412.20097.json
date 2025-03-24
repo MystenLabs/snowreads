@@ -1,0 +1,42 @@
+{
+  "id": "2412.20097",
+  "title": "Parameter spaces for cross-diffusive-driven instability in a\n  reaction-diffusion system on an annular domain",
+  "authors": "Gulsemay Yigit, Wakil Sarfaraz, Raquel Barreira, Anotida Madzvamuse",
+  "authorsParsed": [
+    [
+      "Yigit",
+      "Gulsemay",
+      ""
+    ],
+    [
+      "Sarfaraz",
+      "Wakil",
+      ""
+    ],
+    [
+      "Barreira",
+      "Raquel",
+      ""
+    ],
+    [
+      "Madzvamuse",
+      "Anotida",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 28 Dec 2024 09:39:04 GMT"
+    }
+  ],
+  "updateDate": "2024-12-31",
+  "timestamp": 1735378744000,
+  "abstract": "  In this work, the influence of geometry and domain size on spatiotemporal\npattern formation is investigated to establish parameter spaces for a\ncross-diffusive reaction-diffusion model on an annulus. By applying linear\nstability theory, we derive conditions which can give rise to Turing, Hopf and\ntranscritical types of diffusion-driven instabilities. We explore whether\nselection of a sufficiently large domain size, together with the appropriate\nselection of parameters, can give rise to the development of patterns on\nnon-convex geometries e.g. annulus. Hence, the key research methodology and\noutcomes of our studies include: a complete analytical exploration of the\nspatiotemporal dynamics in an activator-depleted reaction-diffusion system; a\nlinear stability analysis to characterise the dual roles of cross-diffusion and\ndomain size of pattern formation on an annulus region; the derivation of the\ninstability conditions through lower and upper bounds of the domain size; the\nfull classification of the model parameters, and a demonstration of how\ncross-diffusion relaxes the general conditions for the reaction-diffusion\nsystem to exhibit pattern formation. To validate theoretical findings and\npredictions, we employ the finite element method to reveal spatial and\nspatiotemporal patterns in the dynamics of the cross-diffusive\nreaction-diffusion system within a two-dimensional annular domain. These\nobserved patterns resemble those found in ring-shaped cross-sectional scans of\nhypoxic tumours. Specifically, the cross-section of an actively invasive region\nin a hypoxic tumour can be effectively approximated by an annulus.\n",
+  "subjects": [
+    "Mathematics/Dynamical Systems"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "L95gP5t9yDaM_TJJYsWdC9nq5nae6YbARF5YiADDrYw",
+  "pdfSize": "6704232"
+}

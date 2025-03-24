@@ -1,0 +1,43 @@
+{
+  "id": "2412.11073",
+  "title": "Ba-ZebraConf: A Three-Dimension Bayesian Framework for Efficient System\n  Troubleshooting",
+  "authors": "Deyi Xing, Weicong Chen, Curtis Tatsuoka, Xiaoyi Lu",
+  "authorsParsed": [
+    [
+      "Xing",
+      "Deyi",
+      ""
+    ],
+    [
+      "Chen",
+      "Weicong",
+      ""
+    ],
+    [
+      "Tatsuoka",
+      "Curtis",
+      ""
+    ],
+    [
+      "Lu",
+      "Xiaoyi",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 15 Dec 2024 06:13:11 GMT"
+    }
+  ],
+  "updateDate": "2024-12-17",
+  "timestamp": 1734243191000,
+  "abstract": "  The proliferation of heterogeneous configurations in distributed systems\npresents significant challenges in ensuring stability and efficiency.\nMisconfigurations, driven by complex parameter interdependencies, can lead to\ncritical failures. Group Testing (GT) has been leveraged to expedite\ntroubleshooting by reducing the number of tests, as demonstrated by methods\nlike ZebraConf. However, ZebraConf's binary-splitting strategy suffers from\nsequential testing, limited handling of parameter interdependencies, and\nsusceptibility to errors such as noise and dilution. We propose Ba-ZebraConf, a\nnovel three-dimensional Bayesian framework that addresses these limitations. It\nintegrates (1) Bayesian Group Testing (BGT), which employs probabilistic\nlattice models and the Bayesian Halving Algorithm (BHA) to dynamically refine\ntesting strategies, prioritizing high-informative parameters and adapting to\nreal-time outcomes. Bayesian optimization tunes hyperparameters, such as pool\nsizes and test thresholds, to maximize testing efficiency. (2) Bayesian\nOptimization (BO) to automate hyperparameter tuning for test efficiency, and\n(3) Bayesian Risk Refinement (BRR) to iteratively capture parameter\ninterdependencies and improve classification accuracy. Ba-ZebraConf adapts to\nnoisy environments, captures parameter interdependencies, and scales\neffectively for large configuration spaces. Experimental results show that\nBa-ZebraConf reduces test counts and execution time by 67% compared to\nZebraConf while achieving 0% false positives and false negatives. These results\nestablish Ba-ZebraConf as a robust and scalable solution for troubleshooting\nheterogeneous distributed systems.\n",
+  "subjects": [
+    "Electrical Engineering and Systems Science/Systems and Control",
+    "Computer Science/Systems and Control"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "Truf-d4-2Zw1pFQuXGZjp9Ksvn7XbPqUbz5kaknwvLQ",
+  "pdfSize": "499075"
+}

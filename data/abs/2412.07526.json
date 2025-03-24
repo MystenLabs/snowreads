@@ -1,0 +1,43 @@
+{
+  "id": "2412.07526",
+  "title": "KneeXNeT: An Ensemble-Based Approach for Knee Radiographic Evaluation",
+  "authors": "Nicharee Srikijkasemwat, Soumya Snigdha Kundu, Fuping Wu, Bartlomiej\n  W. Papiez",
+  "authorsParsed": [
+    [
+      "Srikijkasemwat",
+      "Nicharee",
+      ""
+    ],
+    [
+      "Kundu",
+      "Soumya Snigdha",
+      ""
+    ],
+    [
+      "Wu",
+      "Fuping",
+      ""
+    ],
+    [
+      "Papiez",
+      "Bartlomiej W.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 10 Dec 2024 14:02:04 GMT"
+    }
+  ],
+  "updateDate": "2024-12-11",
+  "timestamp": 1733839324000,
+  "abstract": "  Knee osteoarthritis (OA) is the most common joint disorder and a leading\ncause of disability. Diagnosing OA severity typically requires expert\nassessment of X-ray images and is commonly based on the Kellgren-Lawrence\ngrading system, a time-intensive process. This study aimed to develop an\nautomated deep learning model to classify knee OA severity, reducing the need\nfor expert evaluation. First, we evaluated ten state-of-the-art deep learning\nmodels, achieving a top accuracy of 0.69 with individual models. To address\nclass imbalance, we employed weighted sampling, improving accuracy to 0.70. We\nfurther applied Smooth-GradCAM++ to visualize decision-influencing regions,\nenhancing the explainability of the best-performing model. Finally, we\ndeveloped ensemble models using majority voting and a shallow neural network.\nOur ensemble model, KneeXNet, achieved the highest accuracy of 0.72,\ndemonstrating its potential as an automated tool for knee OA assessment.\n",
+  "subjects": [
+    "Electrical Engineering and Systems Science/Image and Video Processing",
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "qnZMzaz78PSn89ikYQeDFHpSMcaQHJo_B9ROzawVgGI",
+  "pdfSize": "2179169"
+}

@@ -1,0 +1,48 @@
+{
+  "id": "2412.14516",
+  "title": "Cal-DPO: Calibrated Direct Preference Optimization for Language Model\n  Alignment",
+  "authors": "Teng Xiao, Yige Yuan, Huaisheng Zhu, Mingxiao Li, Vasant G Honavar",
+  "authorsParsed": [
+    [
+      "Xiao",
+      "Teng",
+      ""
+    ],
+    [
+      "Yuan",
+      "Yige",
+      ""
+    ],
+    [
+      "Zhu",
+      "Huaisheng",
+      ""
+    ],
+    [
+      "Li",
+      "Mingxiao",
+      ""
+    ],
+    [
+      "Honavar",
+      "Vasant G",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 19 Dec 2024 04:31:56 GMT"
+    }
+  ],
+  "updateDate": "2024-12-20",
+  "timestamp": 1734582716000,
+  "abstract": "  We study the problem of aligning large language models (LLMs) with human\npreference data. Contrastive preference optimization has shown promising\nresults in aligning LLMs with available preference data by optimizing the\nimplicit reward associated with the policy. However, the contrastive objective\nfocuses mainly on the relative values of implicit rewards associated with two\nresponses while ignoring their actual values, resulting in suboptimal alignment\nwith human preferences. To address this limitation, we propose calibrated\ndirect preference optimization (Cal-DPO), a simple yet effective algorithm. We\nshow that substantial improvement in alignment with the given preferences can\nbe achieved simply by calibrating the implicit reward to ensure that the\nlearned implicit rewards are comparable in scale to the ground-truth rewards.\nWe demonstrate the theoretical advantages of Cal-DPO over existing approaches.\nThe results of our experiments on a variety of standard benchmarks show that\nCal-DPO remarkably improves off-the-shelf methods.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Computer Science/Computation and Language"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "Pej0k5eZ2s6AKs9zY6tALoPbPqHq-RXoOnvUVtOTetA",
+  "pdfSize": "1590517"
+}

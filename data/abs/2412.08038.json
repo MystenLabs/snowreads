@@ -1,0 +1,62 @@
+{
+  "id": "2412.08038",
+  "title": "Bootstrapping Heterogeneous Graph Representation Learning via Large\n  Language Models: A Generalized Approach",
+  "authors": "Hang Gao, Chenhao Zhang, Fengge Wu, Junsuo Zhao, Changwen Zheng,\n  Huaping Liu",
+  "authorsParsed": [
+    [
+      "Gao",
+      "Hang",
+      ""
+    ],
+    [
+      "Zhang",
+      "Chenhao",
+      ""
+    ],
+    [
+      "Wu",
+      "Fengge",
+      ""
+    ],
+    [
+      "Zhao",
+      "Junsuo",
+      ""
+    ],
+    [
+      "Zheng",
+      "Changwen",
+      ""
+    ],
+    [
+      "Liu",
+      "Huaping",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 11 Dec 2024 02:37:32 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Fri, 13 Dec 2024 06:39:00 GMT"
+    },
+    {
+      "version": "v3",
+      "created": "Mon, 24 Feb 2025 00:31:48 GMT"
+    }
+  ],
+  "updateDate": "2025-02-25",
+  "timestamp": 1733884652000,
+  "abstract": "  Graph representation learning methods are highly effective in handling\ncomplex non-Euclidean data by capturing intricate relationships and features\nwithin graph structures. However, traditional methods face challenges when\ndealing with heterogeneous graphs that contain various types of nodes and edges\ndue to the diverse sources and complex nature of the data. Existing\nHeterogeneous Graph Neural Networks (HGNNs) have shown promising results but\nrequire prior knowledge of node and edge types and unified node feature\nformats, which limits their applicability. Recent advancements in graph\nrepresentation learning using Large Language Models (LLMs) offer new solutions\nby integrating LLMs' data processing capabilities, enabling the alignment of\nvarious graph representations. Nevertheless, these methods often overlook\nheterogeneous graph data and require extensive preprocessing. To address these\nlimitations, we propose a novel method that leverages the strengths of both LLM\nand GNN, allowing for the processing of graph data with any format and type of\nnodes and edges without the need for type information or special preprocessing.\nOur method employs LLM to automatically summarize and classify different data\nformats and types, aligns node features, and uses a specialized GNN for\ntargeted learning, thus obtaining effective graph representations for\ndownstream tasks. Theoretical analysis and experimental validation have\ndemonstrated the effectiveness of our method.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Computer Science/Computation and Language",
+    "Computer Science/Social and Information Networks"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "uWceJ7yz9bdiWbb_6Zx0Ip7PjX2wKEaKUUNBjD22fwI",
+  "pdfSize": "2105186"
+}

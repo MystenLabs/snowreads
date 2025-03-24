@@ -1,0 +1,32 @@
+{
+  "id": "2412.17132",
+  "title": "GW plus cumulant approach for predicting core-level shake-up satellites\n  in large molecules",
+  "authors": "Jannis Kockl\\\"auner and Dorothea Golze",
+  "authorsParsed": [
+    [
+      "Kockläuner",
+      "Jannis",
+      ""
+    ],
+    [
+      "Golze",
+      "Dorothea",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 22 Dec 2024 18:38:56 GMT"
+    }
+  ],
+  "updateDate": "2024-12-24",
+  "timestamp": 1734892736000,
+  "abstract": "  Recently, the $GW$ approach has emerged as a valuable tool for computing deep\ncore-level binding energies as measured in X-ray photoemission spectroscopy.\nHowever, $GW$ fails to accurately predict shake-up satellite features, which\narise from charge-neutral excitations accompanying the ionization. In this\nwork, we extend the $GW$ plus cumulant ($GW+C$) approach to molecular 1s\nexcitations, deriving conditions under which $GW+C$ can be reliably applied to\nshake-up processes. We present an efficient implementation with $O(N^4)$\nscaling with respect to the system size $N$, within an all-electron framework\nbased on numeric atom-centered orbitals. We demonstrate that decoupling the\ncore and valence spaces is crucial when using localized basis functions.\nAdditionally, we meticulously validate the basis set convergence of the\nsatellite spectrum for 65 spectral functions and identify the importance of\ndiffuse augmenting functions. To assess the accuracy, we apply our $GW+C$\nscheme to $\\pi$-conjugated molecules containing up to 40 atoms, predicting\ndominant satellite features within 0.5~eV of experimental values. For the acene\nseries, from benzene to pentacene, we demonstrate how $GW+C$ provides critical\ninsights into the interpretation of experimentally observed satellite features.\n",
+  "subjects": [
+    "Physics/Chemical Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "hgB3PR8bz7FyrweHWvjwUHLmKxvHTl9jafJgFPJHyM8",
+  "pdfSize": "9202209"
+}

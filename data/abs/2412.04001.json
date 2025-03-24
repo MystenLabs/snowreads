@@ -1,0 +1,57 @@
+{
+  "id": "2412.04001",
+  "title": "Exciton thermalization dynamics in monolayer MoS2: a first-principles\n  Boltzmann equation study",
+  "authors": "Yang-hao Chan, Jonah B. Haber, Mit H. Naik, Steven G. Louie, Jeffrey\n  B. Neaton, Felipe H. da Jornada, and Diana Y. Qiu",
+  "authorsParsed": [
+    [
+      "Chan",
+      "Yang-hao",
+      ""
+    ],
+    [
+      "Haber",
+      "Jonah B.",
+      ""
+    ],
+    [
+      "Naik",
+      "Mit H.",
+      ""
+    ],
+    [
+      "Louie",
+      "Steven G.",
+      ""
+    ],
+    [
+      "Neaton",
+      "Jeffrey B.",
+      ""
+    ],
+    [
+      "da Jornada",
+      "Felipe H.",
+      ""
+    ],
+    [
+      "Qiu",
+      "Diana Y.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 5 Dec 2024 09:25:42 GMT"
+    }
+  ],
+  "updateDate": "2024-12-06",
+  "timestamp": 1733390742000,
+  "abstract": "  Understanding exciton thermalization is critical for optimizing\noptoelectronic and photocatalytic processes in many materials. However, it is\nhard to access the dynamics of such processes experimentally, especially on\nsystems such as monolayer transition metal dichalcogenides, where various\nlow-energy excitations pathways can compete for exciton thermalization. Here,\nwe study exciton dynamics due to exciton-phonon scattering in monolayer MoS2\nfrom a first-principles, interacting Green's function approach, to obtain the\nrelaxation and thermalization of low-energy excitons following different\ninitial excitations at different temperatures. We find that the thermalization\noccurs on a picosecond timescale at 300 K but can increase by an order of\nmagnitude at 100 K. The long total thermalization time, owing to the nature of\nits excitonic band structure, is dominated by slow spin-flip scattering\nprocesses in monolayer MoS2. In contrast, thermalization of excitons in\nindividual spin-aligned and spin-anti-aligned channels can be achieved within a\nfew hundred fs when exciting higher-energy excitons. We further simulate the\nintensity spectrum of time-resolved angle-resolved photoemission spectroscopy\n(TR-ARPES) experiments and anticipate that such calculations may serve as a map\nto correlate spectroscopic signatures with microscopic exciton dynamics.\n",
+  "subjects": [
+    "Condensed Matter/Materials Science"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "XQgSRj2GLE3lwcDh_JuidHN4kR5hEw3x4AsmFrwWvQU",
+  "pdfSize": "2059883"
+}

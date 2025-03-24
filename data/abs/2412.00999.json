@@ -1,0 +1,53 @@
+{
+  "id": "2412.00999",
+  "title": "A Compact Hybrid Battery Thermal Management System for Enhanced Cooling",
+  "authors": "Zhipeng Lyu (1), Jinrong Su (2), Zhe Li (1), Xiang Li (1), Hanghang\n  Yan (2), Lei Chen (2) ((1) School of Mechanical Engineering, Yangtze\n  University, Jingzhou, China (2) Department of Mechanical Engineering,\n  University of Michigan, Dearborn, USA)",
+  "authorsParsed": [
+    [
+      "Lyu",
+      "Zhipeng",
+      ""
+    ],
+    [
+      "Su",
+      "Jinrong",
+      ""
+    ],
+    [
+      "Li",
+      "Zhe",
+      ""
+    ],
+    [
+      "Li",
+      "Xiang",
+      ""
+    ],
+    [
+      "Yan",
+      "Hanghang",
+      ""
+    ],
+    [
+      "Chen",
+      "Lei",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 1 Dec 2024 23:16:04 GMT"
+    }
+  ],
+  "updateDate": "2024-12-03",
+  "timestamp": 1733094964000,
+  "abstract": "  Hybrid battery thermal management systems (HBTMS) combining active liquid\ncooling and passive phase change materials (PCM) cooling have shown a potential\nfor the thermal management of lithium-ion batteries. However, the fill volume\nof coolant and PCM in hybrid cooling systems is limited by the size and weight\nof the HBTMS at high charge/discharge rates. These limitations result in\nreduced convective heat transfer from the coolant during discharge. The\nliquefaction rate of PCM is accelerated and the passive cooling effect is\nreduced. In this paper, we propose a compact hybrid cooling system with\nmulti-inlet U-shaped microchannels for which the gap between channels is\nembedded by PCM/aluminum foam for compactness. Nanofluid cooling (NC)\ntechnology with better thermal conductivity is used. A pulsed flow function is\nfurther developed for enhanced cooling (EC) with reduced power consumption. An\nexperimentally validated thermal-fluid dynamics model is developed to optimize\noperating conditions including coolant type, cooling direction, channel height,\ninlet flow rate, and cooling scheme. The results show that the hybrid cooling\nsolution of NC+PCM+EC adopted by HBTMS further reduces the maximum temperature\nof the Li-ion battery by 3.44{\\deg}C under a discharge rate of 1C at room\ntemperature of 25{\\deg}C with only a 5% increase in power consumption, compared\nto the conventional liquid cooling method for electric vehicles (EV). The\naverage number of battery charges has increased by about 6 to 15 percent. The\nresults of this study can help improve the range as well as driving safety of\nnew energy EV.\n",
+  "subjects": [
+    "Electrical Engineering and Systems Science/Systems and Control",
+    "Computer Science/Systems and Control"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "vWTqgI-O9ygSIgrOL3KLcGFYyw0yZ7dYNyT0KbjJDCU",
+  "pdfSize": "1597906"
+}

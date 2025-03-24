@@ -1,0 +1,33 @@
+{
+  "id": "2412.03343",
+  "title": "Improving Linguistic Diversity of Large Language Models with Possibility\n  Exploration Fine-Tuning",
+  "authors": "Long Mai and Julie Carson-Berndsen",
+  "authorsParsed": [
+    [
+      "Mai",
+      "Long",
+      ""
+    ],
+    [
+      "Carson-Berndsen",
+      "Julie",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 4 Dec 2024 14:23:16 GMT"
+    }
+  ],
+  "updateDate": "2024-12-05",
+  "timestamp": 1733322196000,
+  "abstract": "  While Large Language Models (LLMs) have made significant strides in\nreplicating human-like abilities, there are concerns about a reduction in the\nlinguistic diversity of their outputs. This results in the homogenization of\nviewpoints and perspectives, as well as the underrepresentation of specific\ndemographic groups. Although several fine-tuning and prompting techniques have\nbeen suggested to tackle the issue, they are often tailored to specific tasks\nor come with a substantial increase in computational cost and latency. This\nmakes them challenging to apply to applications that demand very low latency,\nsuch as chatbots and virtual assistants. We propose Possibility Exploration\nFine-Tuning (PEFT), a task-agnostic framework that enhances the text diversity\nof LLMs without increasing latency or computational cost. Given the same\nprompt, models fine-tuned with PEFT can simultaneously generate multiple\ndiverse responses, each corresponding with a controllable possibility number.\nExperiments on dialogue and story generation tasks demonstrate that PEFT\nsignificantly enhances the diversity of LLM outputs, as evidenced by lower\nsimilarity between candidate responses. Since PEFT emphasizes semantic\ndiversity over lexical diversity, it can also notably reduce demographic bias\nin dialogue systems. The implementations and datasets are available in our\nrepository: https://github.com/mailong25/peft_diversity\n",
+  "subjects": [
+    "Computer Science/Computation and Language",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "avOafRg0w15UhSnUttvxIm5fHNspCI_1hv7OEn76k-E",
+  "pdfSize": "2004893"
+}

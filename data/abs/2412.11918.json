@@ -1,0 +1,52 @@
+{
+  "id": "2412.11918",
+  "title": "Harvesting stabilizer entropy and non-locality from a quantum field",
+  "authors": "S. Cepollaro, S. Cusumano, A. Hamma, G. Lo Giudice, J. Odavic",
+  "authorsParsed": [
+    [
+      "Cepollaro",
+      "S.",
+      ""
+    ],
+    [
+      "Cusumano",
+      "S.",
+      ""
+    ],
+    [
+      "Hamma",
+      "A.",
+      ""
+    ],
+    [
+      "Giudice",
+      "G. Lo",
+      ""
+    ],
+    [
+      "Odavic",
+      "J.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 16 Dec 2024 16:01:48 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Sun, 5 Jan 2025 16:00:05 GMT"
+    }
+  ],
+  "updateDate": "2025-01-07",
+  "timestamp": 1734364908000,
+  "abstract": "  The harvesting of quantum resources from the vacuum state of a quantum field\nis a central topic in relativistic quantum information. While several proposals\nfor the harvesting of entanglement from the quantum vacuum exist, less\nattention has been paid to other quantum resources, such as non-stabilizerness,\ncommonly dubbed {\\em magic} and quantified by the Stabilizer R\\'enyi Entropy\n(SRE) \\cite{Leone_2022_SRE}. In this work, we show how to harvest SRE from the\nvacuum state of a massless field, using accelerated Unruh-DeWitt detectors in\nMinkowski spacetime. In particular, one can harvest a particular non-local form\nof SRE that cannot be erased by local unitary operations. This non-local SRE is\na fundamental quantity to study the interplay between entanglement and\nnon-stabilizer resources. We conclude our work with an analysis of the CHSH\ninequalities: one cannot extract a violation from the quantum field even when\none can harvest the necessary resources for it.\n",
+  "subjects": [
+    "Physics/Quantum Physics",
+    "Physics/High Energy Physics - Theory"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "jfhW0-8l1-jeRj83P0t8EIykkTX7VUq1pdj9Pb9laJo",
+  "pdfSize": "3702618"
+}

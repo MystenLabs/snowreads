@@ -1,0 +1,27 @@
+{
+  "id": "2412.12311",
+  "title": "Conditional Bounds for Prime Gaps with Applications",
+  "authors": "Jacques Grah",
+  "authorsParsed": [
+    [
+      "Grah",
+      "Jacques",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 16 Dec 2024 19:29:48 GMT"
+    }
+  ],
+  "updateDate": "2024-12-18",
+  "timestamp": 1734377388000,
+  "abstract": "  We posit that $d_n^2 < 2p_{n+1}$ holds for every $n\\geq 1$, where $p_n$\nrepresents the $n$th prime and $d_n$ stands for the $n$th prime gap i.e. $d_n\n:= p_{n+1} - p_n$. Then, the presence of a prime between successive perfect\nsquares, as well as the validity of $\\sqrt{p_{n+1}} - \\sqrt{p_n} < 1$ are\nderived. Next, $\\pi(x)$ being the number of primes $p$ up to $x$, we deduce\n$\\pi(n^2-n) < \\pi(n^2) < \\pi(n^2+n)$ $(n\\geq 2)$. In addition, a proof of\n$\\pi((n+1)^k) - \\pi(n^k) \\geq \\pi(2^k)$ \\ $(k\\geq 2, n\\geq 1)$ is worked out.\nFinally, we put forward the conjecture that any rational number $r$ $(0\\leq r\n\\leq 1)$ represents an accumulation point for the sequence\n$\\left(\\{\\sqrt{p_n}\\}\\right)_{n\\geq 1}$.\n",
+  "subjects": [
+    "Mathematics/Number Theory"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "ot-cTLn815WNKhdb0ORFYK6a5HXV1q9HQUqM73djJnU",
+  "pdfSize": "367809"
+}

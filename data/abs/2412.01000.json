@@ -1,0 +1,43 @@
+{
+  "id": "2412.01000",
+  "title": "Characterizing and Modeling AI-Driven Animal Ecology Studies at the Edge",
+  "authors": "Jenna Kline, Austin O'Quinn, Tanya Berger-Wolf, Christopher Stewart",
+  "authorsParsed": [
+    [
+      "Kline",
+      "Jenna",
+      ""
+    ],
+    [
+      "O'Quinn",
+      "Austin",
+      ""
+    ],
+    [
+      "Berger-Wolf",
+      "Tanya",
+      ""
+    ],
+    [
+      "Stewart",
+      "Christopher",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 1 Dec 2024 23:21:51 GMT"
+    }
+  ],
+  "updateDate": "2024-12-03",
+  "timestamp": 1733095311000,
+  "abstract": "  Platforms that run artificial intelligence (AI) pipelines on edge computing\nresources are transforming the fields of animal ecology and biodiversity,\nenabling novel wildlife studies in animals' natural habitats. With emerging\nremote sensing hardware, e.g., camera traps and drones, and sophisticated AI\nmodels in situ, edge computing will be more significant in future AI-driven\nanimal ecology (ADAE) studies. However, the study's objectives, the species of\ninterest, its behaviors, range, habitat, and camera placement affect the demand\nfor edge resources at runtime. If edge resources are under-provisioned, studies\ncan miss opportunities to adapt the settings of camera traps and drones to\nimprove the quality and relevance of captured data. This paper presents salient\nfeatures of ADAE studies that can be used to model latency, throughput\nobjectives, and provision edge resources. Drawing from studies that span over\nfifty animal species, four geographic locations, and multiple remote sensing\nmethods, we characterized common patterns in ADAE studies, revealing\nincreasingly complex workflows involving various computer vision tasks with\nstrict service level objectives (SLO). ADAE workflow demands will soon exceed\nindividual edge devices' compute and memory resources, requiring multiple\nnetworked edge devices to meet performance demands. We developed a framework to\nscale traces from prior studies and replay them offline on representative edge\nplatforms, allowing us to capture throughput and latency data across edge\nconfigurations. We used the data to calibrate queuing and machine learning\nmodels that predict performance on unseen edge configurations, achieving errors\nas low as 19%.\n",
+  "subjects": [
+    "Electrical Engineering and Systems Science/Systems and Control",
+    "Computer Science/Systems and Control"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "Jab4eQerNf9QUSrcgJRo8hY9a23AIq9GtuWjeEHOOMM",
+  "pdfSize": "1978001"
+}

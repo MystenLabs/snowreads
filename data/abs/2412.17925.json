@@ -1,0 +1,27 @@
+{
+  "id": "2412.17925",
+  "title": "A Modular Inductive Proof of the Chen-Raspaud Conjecture via Graph\n  Classification",
+  "authors": "Micha{\\l} Fiedorowicz",
+  "authorsParsed": [
+    [
+      "Fiedorowicz",
+      "Michał",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 23 Dec 2024 19:33:15 GMT"
+    }
+  ],
+  "updateDate": "2024-12-25",
+  "timestamp": 1734982395000,
+  "abstract": "  It is conjectured by Chen and Raspaud that for each integer $k \\ge 2$, any\ngraph $G$ with \\[ \\mathrm{mad}(G) < \\frac{2k+1}{k} \\quad\\text{and}\\quad\n\\mathrm{odd\\text{-}girth}(G) \\ge 2k+1 \\] admits a homomorphism into the Kneser\ngraph $K(2k+1,k)$. The base cases $k=2$ and $k=3$ are known from earlier work.\nA modular inductive proof is provided here, in which graphs at level $k+1$ are\nclassified into four structural classes and are shown to admit no minimal\ncounterexamples by means of forbidden configuration elimination, a discharging\nargument, path-collapsing techniques, and a combinatorial embedding of smaller\nKneser graphs into larger ones. This argument completes the induction for all\n$k \\ge 2$, thus settling the Chen-Raspaud conjecture in full generality.\n",
+  "subjects": [
+    "Mathematics/Combinatorics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "9-hYDT6D_HTjNw_klCASCjSXknnvuYT_2iH6wD7KCvM",
+  "pdfSize": "557141"
+}

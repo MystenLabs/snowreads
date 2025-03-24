@@ -1,0 +1,53 @@
+{
+  "id": "2412.01025",
+  "title": "Using Binary Population Synthesis to Examine the Impact of Binary\n  Evolution on the C, N, O, and $S$-Process Yields of Solar-Metallicity Low-\n  and Intermediate-Mass Stars",
+  "authors": "Zara Osborn, Amanda I. Karakas, Alex J. Kemp, Robert Izzard, Devika\n  Kamath, and Maria Lugaro",
+  "authorsParsed": [
+    [
+      "Osborn",
+      "Zara",
+      ""
+    ],
+    [
+      "Karakas",
+      "Amanda I.",
+      ""
+    ],
+    [
+      "Kemp",
+      "Alex J.",
+      ""
+    ],
+    [
+      "Izzard",
+      "Robert",
+      ""
+    ],
+    [
+      "Kamath",
+      "Devika",
+      ""
+    ],
+    [
+      "Lugaro",
+      "Maria",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 2 Dec 2024 01:08:44 GMT"
+    }
+  ],
+  "updateDate": "2024-12-03",
+  "timestamp": 1733101724000,
+  "abstract": "  Asymptotic giant branch (AGB) stars play a significant role in our\nunderstanding of the origin of the elements. They contribute to the abundances\nof C, N, and approximately $50\\%$ of the abundances of the elements heavier\nthan iron. An aspect often neglected in studies of AGB stars is the impact of a\nstellar companion on AGB stellar evolution and nucleosynthesis. In this study,\nwe update the stellar abundances of AGB stars in the binary population\nsynthesis code \\textsc{binary\\_c} and calibrate our treatment of the third\ndredge-up using observations of Galactic carbon stars. We model stellar\npopulations of low- to intermediate-mass stars at solar-metallicity and examine\nthe stellar wind contributions to C, N, O, Sr, Ba, and Pb yields at binary\nfractions between 0 and 1. For a stellar population with a binary fraction of\n0.7, we find $\\sim 20-25\\%$ less C and $s$-process elements ejected than from a\npopulation composed of only single stars, and we find little change in the N\nand O yields. We also compare our models with observed abundances from Ba stars\nand find our models can reproduce most Ba star abundances, but our population\nestimates a higher frequency of Ba stars with a surface [Ce/Y] > $+0.2\\,$dex.\nOur models also predict the rare existence of Ba stars with masses $> 10\n\\text{M}\\,_\\odot$.\n",
+  "subjects": [
+    "Astrophysics/Solar and Stellar Astrophysics",
+    "Astrophysics/Astrophysics of Galaxies"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "xM8g-92ddj313GEvjlKPf83eC1U2fzRNgF5DeuhUAX8",
+  "pdfSize": "618458"
+}

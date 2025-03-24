@@ -1,0 +1,38 @@
+{
+  "id": "2412.01410",
+  "title": "CellSeg1: Robust Cell Segmentation with One Training Image",
+  "authors": "Peilin Zhou, Bo Du, Yongchao Xu",
+  "authorsParsed": [
+    [
+      "Zhou",
+      "Peilin",
+      ""
+    ],
+    [
+      "Du",
+      "Bo",
+      ""
+    ],
+    [
+      "Xu",
+      "Yongchao",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 2 Dec 2024 11:55:22 GMT"
+    }
+  ],
+  "updateDate": "2024-12-03",
+  "timestamp": 1733140522000,
+  "abstract": "  Recent trends in cell segmentation have shifted towards universal models to\nhandle diverse cell morphologies and imaging modalities. However, for\ncontinuously emerging cell types and imaging techniques, these models still\nrequire hundreds or thousands of annotated cells for fine-tuning. We introduce\nCellSeg1, a practical solution for segmenting cells of arbitrary morphology and\nmodality with a few dozen cell annotations in 1 image. By adopting Low-Rank\nAdaptation of the Segment Anything Model (SAM), we achieve robust cell\nsegmentation. Tested on 19 diverse cell datasets, CellSeg1 trained on 1 image\nachieved 0.81 average mAP at 0.5 IoU, performing comparably to existing models\ntrained on over 500 images. It also demonstrated superior generalization in\ncross-dataset tests on TissueNet. We found that high-quality annotation of a\nfew dozen densely packed cells of varied sizes is key to effective\nsegmentation. CellSeg1 provides an efficient solution for cell segmentation\nwith minimal annotation effort.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Quantitative Biology/Quantitative Methods"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "t3x7Rg7k2H73xWH0vrbMsptkf7i77Y6T1g9iUaP60lQ",
+  "pdfSize": "20843287"
+}

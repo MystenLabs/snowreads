@@ -1,0 +1,33 @@
+{
+  "id": "2412.11468",
+  "title": "Block-Based Multi-Scale Image Rescaling",
+  "authors": "Jian Li and Siwang Zhou",
+  "authorsParsed": [
+    [
+      "Li",
+      "Jian",
+      ""
+    ],
+    [
+      "Zhou",
+      "Siwang",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 16 Dec 2024 06:03:56 GMT"
+    }
+  ],
+  "updateDate": "2024-12-17",
+  "timestamp": 1734329036000,
+  "abstract": "  Image rescaling (IR) seeks to determine the optimal low-resolution (LR)\nrepresentation of a high-resolution (HR) image to reconstruct a high-quality\nsuper-resolution (SR) image. Typically, HR images with resolutions exceeding 2K\npossess rich information that is unevenly distributed across the image.\nTraditional image rescaling methods often fall short because they focus solely\non the overall scaling rate, ignoring the varying amounts of information in\ndifferent parts of the image. To address this limitation, we propose a\nBlock-Based Multi-Scale Image Rescaling Framework (BBMR), tailored for IR tasks\ninvolving HR images of 2K resolution and higher. BBMR consists of two main\ncomponents: the Downscaling Module and the Upscaling Module. In the Downscaling\nModule, the HR image is segmented into sub-blocks of equal size, with each\nsub-block receiving a dynamically allocated scaling rate while maintaining a\nconstant overall scaling rate. For the Upscaling Module, we introduce the Joint\nSuper-Resolution method (JointSR), which performs SR on these sub-blocks with\nvarying scaling rates and effectively eliminates blocking artifacts.\nExperimental results demonstrate that BBMR significantly enhances the SR image\nquality on the of 2K and 4K test dataset compared to initial network image\nrescaling methods.\n",
+  "subjects": [
+    "Electrical Engineering and Systems Science/Image and Video Processing",
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "CS4Gx69LnNvfctoimmHLzYTYKVRqaE2eJxFwc4VQLVA",
+  "pdfSize": "11437103"
+}

@@ -1,0 +1,48 @@
+{
+  "id": "2412.10109",
+  "title": "Large-format photodetecting system pCam6060 with a GSENSE6060BSI CMOS\n  detector, developed at SAO RAS and optimized for photometric methods",
+  "authors": "I. Afanasieva, V. Murzin, V. Ardilanov, N. Ivaschenko, M. Pritychenko",
+  "authorsParsed": [
+    [
+      "Afanasieva",
+      "I.",
+      ""
+    ],
+    [
+      "Murzin",
+      "V.",
+      ""
+    ],
+    [
+      "Ardilanov",
+      "V.",
+      ""
+    ],
+    [
+      "Ivaschenko",
+      "N.",
+      ""
+    ],
+    [
+      "Pritychenko",
+      "M.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 13 Dec 2024 12:51:44 GMT"
+    }
+  ],
+  "updateDate": "2024-12-16",
+  "timestamp": 1734094304000,
+  "abstract": "  The pCam6060 photodetecting system was developed at SAO RAS and is based on\nthe GSENSE6060BSI photodetector manufactured by GPixel (China) with a frame\nformat of 6144x6144 active pixels and a pixel size of 10 mkm. The readout speed\nreached 11 fps. The back-illuminated detector has a wide spectral range of\n200-1040 nm with a minimum quantum efficiency (QE) of 10% and maximum\nsensitivity of 95% at 580 nm. The quantum efficiency in the near-infrared range\nwas 58% at 850 nm. The pCam6060 system controller implements a mode of\nsimultaneous image readout via two 12-bit video channels with different gain\nand their subsequent combination in the controller into a single frame with an\nextended 16-bit dynamic range. This method simultaneously achieves a low\nreadout noise level (about 3 e-) in the high-gain channel and a large dynamic\nrange (full well capacity of about 100000 e-) in the low-gain channel.\nBack-illuminated CMOS detectors, unlike front-illuminated devices, do not have\nthe effect of long-term preserving the residual charge from previous exposures,\nwhich makes them suitable for recording faint objects in photometric\nlong-exposure observation methods. Communication between the host computer and\nthe camera was carried out via a fiber optic line at distances of up to 50 m.\nVideo data are recorded on the computer hard drive in real-time. The pCam6060\nphotodetecting system is designed for astronomical applications and has a\nmoisture-proof design.\n",
+  "subjects": [
+    "Astrophysics/Instrumentation and Methods for Astrophysics",
+    "Physics/Instrumentation and Detectors"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "vNo5nU7KudWHtQHvsvraFzCna50m2VFj3g2aOIpAoRE",
+  "pdfSize": "1148337"
+}

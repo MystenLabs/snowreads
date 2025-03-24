@@ -1,0 +1,33 @@
+{
+  "id": "2412.15097",
+  "title": "Status of the CORSIKA 8 particle-shower simulation code",
+  "authors": "Chlo\\'e Gaudu (for the CORSIKA 8 Collaboration)",
+  "authorsParsed": [
+    [
+      "Gaudu",
+      "Chloé",
+      "",
+      "for the CORSIKA 8 Collaboration"
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 19 Dec 2024 17:45:53 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Fri, 20 Dec 2024 11:27:21 GMT"
+    }
+  ],
+  "updateDate": "2024-12-23",
+  "timestamp": 1734630353000,
+  "abstract": "  For over two decades, CORSIKA 7 and its previous versions have been the\nleading Monte Carlo code for simulating extensive air showers. However, its\nmonolithic Fortran-based software design and hand-optimized code has created\nchallenges for maintenance, adaptation to new computing paradigms, and\nextensions for more complex simulations. Addressing these limitations, the\nCORSIKA 8 project represents a comprehensive rewrite of CORSIKA 7, seeing its\ncore functionality re-envisioned in a modern and modular C++ framework. CORSIKA\n8 has now reached a \"physics-complete\" state, offering a robust platform that\nencourages expert development for specialized applications. It supports\nhigh-energy hadronic interactions using models such as Sibyll 2.3d,\nQGSJet-II.04, EPOS-LHC, and Pythia 8.3, alongside the treatment of\nelectromagnetic cascades with PROPOSAL 7.6.2. Key highlights are the support\nfor multiple interaction media, including cross-media particle showers, and an\nenhanced calculation of radio emissions from particle showers. This\ncontribution provides an overview of the current functionalities, showcases\nvalidation results of its simulations, and discusses future development plans.\n",
+  "subjects": [
+    "Astrophysics/High Energy Astrophysical Phenomena",
+    "Astrophysics/Instrumentation and Methods for Astrophysics"
+  ],
+  "license": "http://creativecommons.org/licenses/by-sa/4.0/",
+  "blobId": "T8pvBTWiQmJ7_kwfUpn2Do1F-OUGWeHcwz7BN82tjVk",
+  "pdfSize": "3738123"
+}

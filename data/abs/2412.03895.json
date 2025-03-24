@@ -1,0 +1,84 @@
+{
+  "id": "2412.03895",
+  "title": "A Noise is Worth Diffusion Guidance",
+  "authors": "Donghoon Ahn, Jiwon Kang, Sanghyun Lee, Jaewon Min, Minjae Kim,\n  Wooseok Jang, Hyoungwon Cho, Sayak Paul, SeonHwa Kim, Eunju Cha, Kyong Hwan\n  Jin, Seungryong Kim",
+  "authorsParsed": [
+    [
+      "Ahn",
+      "Donghoon",
+      ""
+    ],
+    [
+      "Kang",
+      "Jiwon",
+      ""
+    ],
+    [
+      "Lee",
+      "Sanghyun",
+      ""
+    ],
+    [
+      "Min",
+      "Jaewon",
+      ""
+    ],
+    [
+      "Kim",
+      "Minjae",
+      ""
+    ],
+    [
+      "Jang",
+      "Wooseok",
+      ""
+    ],
+    [
+      "Cho",
+      "Hyoungwon",
+      ""
+    ],
+    [
+      "Paul",
+      "Sayak",
+      ""
+    ],
+    [
+      "Kim",
+      "SeonHwa",
+      ""
+    ],
+    [
+      "Cha",
+      "Eunju",
+      ""
+    ],
+    [
+      "Jin",
+      "Kyong Hwan",
+      ""
+    ],
+    [
+      "Kim",
+      "Seungryong",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 5 Dec 2024 06:09:56 GMT"
+    }
+  ],
+  "updateDate": "2024-12-06",
+  "timestamp": 1733378996000,
+  "abstract": "  Diffusion models excel in generating high-quality images. However, current\ndiffusion models struggle to produce reliable images without guidance methods,\nsuch as classifier-free guidance (CFG). Are guidance methods truly necessary?\nObserving that noise obtained via diffusion inversion can reconstruct\nhigh-quality images without guidance, we focus on the initial noise of the\ndenoising pipeline. By mapping Gaussian noise to `guidance-free noise', we\nuncover that small low-magnitude low-frequency components significantly enhance\nthe denoising process, removing the need for guidance and thus improving both\ninference throughput and memory. Expanding on this, we propose \\ours, a novel\nmethod that replaces guidance methods with a single refinement of the initial\nnoise. This refined noise enables high-quality image generation without\nguidance, within the same diffusion pipeline. Our noise-refining model\nleverages efficient noise-space learning, achieving rapid convergence and\nstrong performance with just 50K text-image pairs. We validate its\neffectiveness across diverse metrics and analyze how refined noise can\neliminate the need for guidance. See our project page:\nhttps://cvlab-kaist.github.io/NoiseRefine/.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "5ZERWhkFpLxsimlxJZD3uw7Yh6RyiYHjkJIZSych4G8",
+  "pdfSize": "41922586"
+}

@@ -1,0 +1,70 @@
+{
+  "id": "2412.06929",
+  "title": "Physical characterization of the FeLoBAL outflow in SDSS J0932+0840:\n  Analysis of VLT/UVES observations",
+  "authors": "Mayank Sharma, Nahum Arav, Kirk T. Korista, Manuel Bautista, Maryam\n  Dehghanian, Doyee Byun, Gwen Walker, Sasha Mintz",
+  "authorsParsed": [
+    [
+      "Sharma",
+      "Mayank",
+      ""
+    ],
+    [
+      "Arav",
+      "Nahum",
+      ""
+    ],
+    [
+      "Korista",
+      "Kirk T.",
+      ""
+    ],
+    [
+      "Bautista",
+      "Manuel",
+      ""
+    ],
+    [
+      "Dehghanian",
+      "Maryam",
+      ""
+    ],
+    [
+      "Byun",
+      "Doyee",
+      ""
+    ],
+    [
+      "Walker",
+      "Gwen",
+      ""
+    ],
+    [
+      "Mintz",
+      "Sasha",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 9 Dec 2024 19:15:22 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Wed, 11 Dec 2024 01:15:49 GMT"
+    },
+    {
+      "version": "v3",
+      "created": "Sun, 26 Jan 2025 17:37:25 GMT"
+    }
+  ],
+  "updateDate": "2025-01-29",
+  "timestamp": 1733771722000,
+  "abstract": "  Context: The study of quasar outflows is essential in understanding the\nconnection between active galactic nuclei (AGN) and their host galaxies. We\nanalyze the VLT/UVES spectrum of quasar SDSS J0932+0840 and identify several\nnarrow and broad outflow components in absorption, with multiple ionization\nspecies including Fe II, which puts it among a rare class of outflows known as\nFeLoBALs. Aims: We study one of the outflow components to determine its\nphysical characteristics by determining the total hydrogen column density,\nionization parameter and the hydrogen number density. Through these parameters,\nwe aim to obtain the distance of the outflow from the central source, its mass\noutflow rate and kinetic luminosity, and to constrain the contribution of the\noutflow to AGN feedback. Methods: We obtain the ionic column densities from the\nabsorption troughs in the spectrum, and use photoionization modeling to extract\nthe physical parameters of the outflow, including the total hydrogen column\ndensity and ionization parameter. The relative population of the observed\nexcited states of Fe II is used to model the hydrogen number density of the\noutflow. Results: We use the Fe II excited states to model the electron number\ndensity ($n_e$) and hydrogen number density ($n_H$) independently and obtain\n$n_e$ $\\simeq$ $10^{3.4}$ cm$^{-3}$ and $n_H$ $\\simeq$ $10^{4.8}$ cm$^{-3}$.\nOur analysis of the physical structure of the cloud shows that these two\nresults are consistent with each other. This places the outflow system at a\ndistance of $0.7_{-0.4}^{+0.9}$ kpc from the central source, with mass flow\nrate ($\\dot{M}$) of $43^{+65}_{-26}$ $M_\\odot$ yr$^{-1}$ and kinetic luminosity\n($\\dot{E_k}$) of $0.7^{+1.1}_{-0.4}$ $\\times$ $10^{43}$ erg s$^{-1}$.\n",
+  "subjects": [
+    "Astrophysics/Astrophysics of Galaxies"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "9BiyWse5uR16vnpFtZCoZ6Vd22345qgtYE2jgdo0EjY",
+  "pdfSize": "5535421"
+}

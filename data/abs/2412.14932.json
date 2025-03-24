@@ -1,0 +1,42 @@
+{
+  "id": "2412.14932",
+  "title": "Testing the presence of balanced and bipartite components in a sparse\n  graph is QMA1-hard",
+  "authors": "Massimiliano Incudini, Casper Gyurik, Riccardo Molteni, Vedran Dunjko",
+  "authorsParsed": [
+    [
+      "Incudini",
+      "Massimiliano",
+      ""
+    ],
+    [
+      "Gyurik",
+      "Casper",
+      ""
+    ],
+    [
+      "Molteni",
+      "Riccardo",
+      ""
+    ],
+    [
+      "Dunjko",
+      "Vedran",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 19 Dec 2024 15:10:04 GMT"
+    }
+  ],
+  "updateDate": "2024-12-20",
+  "timestamp": 1734621004000,
+  "abstract": "  Determining whether an abstract simplicial complex, a discrete object often\napproximating a manifold, contains multi-dimensional holes is a task deeply\nconnected to quantum mechanics and proven to be QMA1-hard by Crichigno and\nKohler. This task can be expressed in linear algebraic terms, equivalent to\ntesting the non-triviality of the kernel of an operator known as the\nCombinatorial Laplacian. In this work, we explore the similarities between\nabstract simplicial complexes and signed or unsigned graphs, using them to map\nthe spectral properties of the Combinatorial Laplacian to those of signed and\nunsigned graph Laplacians. We prove that our transformations preserve efficient\nsparse access to these Laplacian operators. Consequently, we show that key\nspectral properties, such as testing the presence of balanced components in\nsigned graphs and the bipartite components in unsigned graphs, are QMA1-hard.\nThese properties play a paramount role in network science. The hardness of the\nbipartite test is relevant in quantum Hamiltonian complexity, as another\nexample of testing properties related to the eigenspace of a stoquastic\nHamiltonians are quantumly hard in the sparse input model for the graph.\n",
+  "subjects": [
+    "Physics/Quantum Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "7FJkN8Et8MnpHnH1n764DGQMkr0ZClmjr10yhJZKbYQ",
+  "pdfSize": "423587"
+}

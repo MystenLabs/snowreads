@@ -1,0 +1,34 @@
+{
+  "id": "2412.15592",
+  "title": "Synaptic plasticity alters the nature of chaos transition in neural\n  networks",
+  "authors": "Wenkang Du and Haiping Huang",
+  "authorsParsed": [
+    [
+      "Du",
+      "Wenkang",
+      ""
+    ],
+    [
+      "Huang",
+      "Haiping",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 20 Dec 2024 06:19:41 GMT"
+    }
+  ],
+  "updateDate": "2024-12-23",
+  "timestamp": 1734675581000,
+  "abstract": "  In realistic neural circuits, both neurons and synapses are coupled in\ndynamics with separate time scales. The circuit functions are intimately\nrelated to these coupled dynamics. However, it remains challenging to\nunderstand the intrinsic properties of the coupled dynamics. Here, we develop\nthe neuron-synapse coupled quasi-potential method to demonstrate how learning\ninduces the qualitative change in macroscopic behaviors of recurrent neural\nnetworks. We find that under the Hebbian learning, a large Hebbian strength\nwill alter the nature of the chaos transition, from a continuous type to a\ndiscontinuous type, where the onset of chaos requires a smaller synaptic gain\ncompared to the non-plastic counterpart network. In addition, our theory\npredicts that under feedback and homeostatic learning, the location and type of\nchaos transition are retained, and only the chaotic fluctuation is adjusted.\nOur theoretical calculations are supported by numerical simulations.\n",
+  "subjects": [
+    "Quantitative Biology/Neurons and Cognition",
+    "Condensed Matter/Disordered Systems and Neural Networks",
+    "Condensed Matter/Statistical Mechanics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "bXJmOOPV3uO_a4HMiN9oVREEL323YMw4C3UmsYCgkSY",
+  "pdfSize": "729807"
+}

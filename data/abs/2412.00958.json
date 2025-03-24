@@ -1,0 +1,37 @@
+{
+  "id": "2412.00958",
+  "title": "Frequency-Resolved Simulations of Highly Entangled Biphoton States:\n  Beyond the Single-Pair Approximation. II. Application to Entanglement-based\n  Quantum Key Distribution",
+  "authors": "Philipp Kleinpa{\\ss}, Thomas Walther and Erik Fitzke",
+  "authorsParsed": [
+    [
+      "Kleinpaß",
+      "Philipp",
+      ""
+    ],
+    [
+      "Walther",
+      "Thomas",
+      ""
+    ],
+    [
+      "Fitzke",
+      "Erik",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 1 Dec 2024 20:20:50 GMT"
+    }
+  ],
+  "updateDate": "2024-12-03",
+  "timestamp": 1733084450000,
+  "abstract": "  We present time- and frequency-resolved simulations of quantum key\ndistribution~(QKD) systems employing highly entangled biphoton quantum states.\nOur simulations are based on expansions of the covariance matrix and photon\ndetection probabilities of biphoton states in terms of increasing orders of the\njoint spectral amplitude that were introduced in the first part of this series.\nEmploying these expansions allows us to efficiently evaluate the impact of\nmulti-pair events on the performance of the QKD systems while systematically\ntaking into account effects from the photon spectra and many relevant\nimperfections of the setup. The results are shown to be in agreement with\ncorresponding measurements of the key rates and quantum bit error rates.\n",
+  "subjects": [
+    "Physics/Quantum Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "jUPyb52OyDpOuTT7MoP56DltG4zJT7GRbiJIyV2KtFw",
+  "pdfSize": "1659233"
+}

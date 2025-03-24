@@ -1,0 +1,48 @@
+{
+  "id": "2412.05831",
+  "title": "Semi-Supervised Contrastive Learning for Controllable Video-to-Music\n  Retrieval",
+  "authors": "Shanti Stewart, Gouthaman KV, Lie Lu, Andrea Fanelli",
+  "authorsParsed": [
+    [
+      "Stewart",
+      "Shanti",
+      ""
+    ],
+    [
+      "KV",
+      "Gouthaman",
+      ""
+    ],
+    [
+      "Lu",
+      "Lie",
+      ""
+    ],
+    [
+      "Fanelli",
+      "Andrea",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 8 Dec 2024 06:37:27 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Mon, 23 Dec 2024 02:52:36 GMT"
+    }
+  ],
+  "updateDate": "2024-12-24",
+  "timestamp": 1733639847000,
+  "abstract": "  Content creators often use music to enhance their videos, from soundtracks in\nmovies to background music in video blogs and social media content. However,\nidentifying the best music for a video can be a difficult and time-consuming\ntask. To address this challenge, we propose a novel framework for automatically\nretrieving a matching music clip for a given video, and vice versa. Our\napproach leverages annotated music labels, as well as the inherent artistic\ncorrespondence between visual and music elements. Distinct from previous\ncross-modal music retrieval works, our method combines both self-supervised and\nsupervised training objectives. We use self-supervised and label-supervised\ncontrastive learning to train a joint embedding space between music and video.\nWe show the effectiveness of our approach by using music genre labels for the\nsupervised training component, and our framework can be generalized to other\nmusic annotations (e.g., emotion, instrument, etc.). Furthermore, our method\nenables fine-grained control over how much the retrieval process focuses on\nself-supervised vs. label information at inference time. We evaluate the\nlearned embeddings through a variety of video-to-music and music-to-video\nretrieval tasks. Our experiments show that the proposed approach successfully\ncombines self-supervised and supervised objectives and is effective for\ncontrollable music-video retrieval.\n",
+  "subjects": [
+    "Computer Science/Multimedia",
+    "Computer Science/Sound",
+    "Electrical Engineering and Systems Science/Audio and Speech Processing"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "lXkcSvtD6mIzgJDRP_59fRZsOHkphiFCnIibQKISEyU",
+  "pdfSize": "562990"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "2412.01350",
+  "title": "Enhancing multiscale simulations for spark plasma sintering with a novel\n  Direct FE$^2$ framework",
+  "authors": "A. Kumar, Z. Zhang, M. Bambach, M. Afrasiabi",
+  "authorsParsed": [
+    [
+      "Kumar",
+      "A.",
+      ""
+    ],
+    [
+      "Zhang",
+      "Z.",
+      ""
+    ],
+    [
+      "Bambach",
+      "M.",
+      ""
+    ],
+    [
+      "Afrasiabi",
+      "M.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 2 Dec 2024 10:21:41 GMT"
+    }
+  ],
+  "updateDate": "2024-12-03",
+  "timestamp": 1733134901000,
+  "abstract": "  The spark plasma sintering (SPS) process, a key technology for advanced\nmaterial manufacturing, demands accurate and efficient simulation tools to\ncapture the complex electro-thermal-mechanical interactions inherent in powder\nmaterials. This paper introduces a novel concurrent multiscale framework\nemploying the Direct FE$^2$ method, designed for fully coupled\nelectro-thermal-mechanical simulations in SPS. The model integrates microscale\npowder characteristics into a macroscopic analysis through multi-point\nconstraints within a 3D finite element (FE) solver. This approach enables, for\nthe first time, a direct and seamless coupling of micro- and macroscale\nphysical phenomena, enhancing both accuracy and computational efficiency by\ncapturing interactions across scales. The proposed method achieves a\ntemperature and displacement error margin below 1% compared to full FE analysis\nwhile reducing computational degrees of freedom by a factor of 8, resulting in\na 70-fold acceleration in simulation time. Additionally, the methodology\nprovides robust flexibility in accommodating diverse powder morphologies\nwithout compromising precision, enabling degree-of-freedom reductions of up to\n44 times. This combination of enhanced efficiency and accuracy establishes the\nproposed Direct FE$^2$ approach as a highly effective tool for realistic and\nscalable simulations of the SPS process.\n",
+  "subjects": [
+    "Physics/Computational Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "LzWCJbKrhM6fqXn8qYye9vR09_GmH-dl6EWWTvf3mCo",
+  "pdfSize": "21929255"
+}

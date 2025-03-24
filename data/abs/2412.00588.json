@@ -1,0 +1,60 @@
+{
+  "id": "2412.00588",
+  "title": "Enhancing creep resistance in refractory high-entropy alloys: role of\n  grain size and local chemical order",
+  "authors": "Saifuddin Zafar, Mashaekh Tausif Ehsan, Sourav Das Suvro, Mohammad\n  Nasim Hasan, and Mahmudul Islam",
+  "authorsParsed": [
+    [
+      "Zafar",
+      "Saifuddin",
+      ""
+    ],
+    [
+      "Ehsan",
+      "Mashaekh Tausif",
+      ""
+    ],
+    [
+      "Suvro",
+      "Sourav Das",
+      ""
+    ],
+    [
+      "Hasan",
+      "Mohammad Nasim",
+      ""
+    ],
+    [
+      "Islam",
+      "Mahmudul",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 30 Nov 2024 21:07:47 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Sun, 8 Dec 2024 18:26:30 GMT"
+    },
+    {
+      "version": "v3",
+      "created": "Tue, 7 Jan 2025 02:59:17 GMT"
+    },
+    {
+      "version": "v4",
+      "created": "Thu, 27 Feb 2025 16:23:44 GMT"
+    }
+  ],
+  "updateDate": "2025-02-28",
+  "timestamp": 1733000867000,
+  "abstract": "  Refractory high-entropy alloys (RHEAs) are a promising class of materials\nwith potential applications in extreme environments, where the dominant failure\nmode is thermal creep. The design of these alloys, therefore, requires an\nunderstanding of how their microstructure and local chemical distribution\naffect creep behavior. In this study, we performed high-fidelity atomistic\nsimulations using machine-learning interatomic potentials to explore the creep\ndeformation of MoNbTaW RHEAs under a wide range of stress and temperature\nconditions. We parametrized grain size and local chemical order (LCO) to\ninvestigate the effects of these two important design variables, which are\ncontrollable during the alloy fabrication process. Our investigation revealed\nthat resistance to creep deformation is enhanced by larger grain sizes and\nhigher levels of LCO. This study highlights the importance of utilizing LCO in\nconjunction with other microstructural properties when designing RHEAs for\nextreme environment applications.\n",
+  "subjects": [
+    "Condensed Matter/Materials Science",
+    "Physics/Computational Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "NGPvht7VFn8bagdGz5AywSDqBua75qIY5y_sBfiIiH0",
+  "pdfSize": "1378007"
+}

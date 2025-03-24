@@ -1,0 +1,38 @@
+{
+  "id": "2412.13182",
+  "title": "How the cool-core population transitions from galaxy groups to massive\n  clusters: A comparison of the largest Magneticum simulation with eROSITA,\n  XMM-Newton, Chandra and LOFAR observations",
+  "authors": "Justo Antonio Gonzalez Villalba, Klaus Dolag, Veronica Biffi",
+  "authorsParsed": [
+    [
+      "Villalba",
+      "Justo Antonio Gonzalez",
+      ""
+    ],
+    [
+      "Dolag",
+      "Klaus",
+      ""
+    ],
+    [
+      "Biffi",
+      "Veronica",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 17 Dec 2024 18:57:23 GMT"
+    }
+  ],
+  "updateDate": "2025-02-19",
+  "timestamp": 1734461843000,
+  "abstract": "  Our aim is to understand how the interplay between AGN feedback and merge\nprocesses can effectively turn cool-core galaxy clusters into hot-core clusters\nin the modern universe. Additionally, we also aim to clarify which parameters\nof the AGN feedback model used in simulations can cause an excess of feedback\nat the scale of galaxy groups while not efficiently suppressing star formation\nat the scale of galaxy clusters. To obtain robust statistics of the cool-core\npopulation, we compare the modern Universe snapshot (z=0.25) of the largest\nMagneticum simulation (Box2b/hr) with the eROSITA eFEDS survey and Planck\nSZ-selected clusters observed with XMM-Newton. Additionally, we compare the AGN\nfeedback injected by the simulation in radio mode with Chandra observations of\nX-ray cavities, and LOFAR observations of radio emission. We confirm a\ndecreasing trend in cool-core fractions towards the most massive galaxy\nclusters, which is well reproduced by the Magneticum simulations. This\nevolution is connected with an increased merge activity that injects\nhigh-energy particles into the core region, but it also requires thermalization\nand conductivity to enhance mixing through the ICM core, where both factors are\nincreasingly efficient towards the high mass end. On the other hand, AGN\nfeedback remains as the dominant factor at the scale of galaxy groups, while\nits relative impact decreases towards the most massive clusters. The problems\nsuppressing star formation in simulations are not caused by low AGN feedback\nefficiencies. They root in the definition of the black hole sphere of influence\nused to distribute the feedback, which decreases as density and accretion rate\nincrease. Actually, a decreasing AGN feedback efficiency towards low-mass\ngalaxy groups is required to prevent overheating.\n",
+  "subjects": [
+    "Astrophysics/Cosmology and Nongalactic Astrophysics",
+    "Astrophysics/Astrophysics of Galaxies"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "1bOkuXvDKukygYvXLNRIusrQ6_NXTc-RqMLl7ZyASgA",
+  "pdfSize": "28472580"
+}

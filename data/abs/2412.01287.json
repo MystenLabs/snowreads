@@ -1,0 +1,33 @@
+{
+  "id": "2412.01287",
+  "title": "Optimal linear subdivision rules for noisy data",
+  "authors": "Sergio L\\'opez Ure\\~na and Dionisio F. Y\\'a\\~nez",
+  "authorsParsed": [
+    [
+      "Ureña",
+      "Sergio López",
+      ""
+    ],
+    [
+      "Yáñez",
+      "Dionisio F.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 2 Dec 2024 08:59:29 GMT"
+    }
+  ],
+  "updateDate": "2024-12-03",
+  "timestamp": 1733129969000,
+  "abstract": "  Subdivision schemes are iterative processes that recursively refine data by\napplying subdivision rules. This paper introduces linear subdivision rules\ntailored to handle noisy data. A key innovation lies in determining the rule\ncoefficients by solving an optimization problem aimed at minimizing the noise\nvariance. The study addresses the general case, allowing for noise correlation\namong data with a non-uniform distribution. In fact, we show that the\nsubdivision rules, proposed in [S. L\\'opez-Ure\\~na and D. F. Y\\'a\\~nez, J. Sci.\nComput., 100(1) (2024)], are optimal for uncorrelated noise with non-uniform\nvariance. Numerical experiments are provided to demonstrate the effectiveness\nof these optimal rules compared to other subdivision rules designed for noisy\ndata.\n",
+  "subjects": [
+    "Mathematics/Numerical Analysis",
+    "Computer Science/Numerical Analysis"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "U96hi4OAOV00EKhqZLEXvhZoiJTtFMCj4LJwDhY6Wa0",
+  "pdfSize": "221361"
+}

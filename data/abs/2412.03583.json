@@ -1,0 +1,28 @@
+{
+  "id": "2412.03583",
+  "title": "Spatial Econometric Analysis of Dana Point's Housing Market",
+  "authors": "Hannah Attar",
+  "authorsParsed": [
+    [
+      "Attar",
+      "Hannah",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 20 Nov 2024 23:48:28 GMT"
+    }
+  ],
+  "updateDate": "2024-12-06",
+  "timestamp": 1732146508000,
+  "abstract": "  This paper investigates the determinants of home prices in Dana Point,\nCalifornia to analyze various factors influencing the real estate market. The\nresults are based on a cross-sectional dataset that incorporates year and\nmonth-time dummies to account for temporal trends, as well as spatial variables\nthat capture effects within and between clusters. To address endogeneity issues\nbetween square footage and price, parking is employed to instrument square\nfootage and break the reverse causality link. The robustness of the instrument\nis confirmed through statistical tests, indicating a strong relationship with\nsquare footage. Additionally, this study employs the use of Probability models\nto test Tobit's robustness at estimating the dummy-transformed price variable.\nSpatial trends are analyzed through fixed effects, random effects, as well as\nSpatial Autoregressive models absorbing cluster factors, which highlight the\ndifferences in price dynamics across various clusters within Dana Point.\n",
+  "subjects": [
+    "Economics/General Economics",
+    "Quantitative Finance/Economics"
+  ],
+  "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+  "blobId": "HRmKkBgKNckG9XAG5s2q3Soth6EPYJ6A-9zJlG_QhrI",
+  "pdfSize": "4133410"
+}

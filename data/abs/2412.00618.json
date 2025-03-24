@@ -1,0 +1,39 @@
+{
+  "id": "2412.00618",
+  "title": "Solving and visualizing fractional quantum Hall wavefunctions with\n  neural network",
+  "authors": "Yi Teng, David D. Dai, Liang Fu",
+  "authorsParsed": [
+    [
+      "Teng",
+      "Yi",
+      ""
+    ],
+    [
+      "Dai",
+      "David D.",
+      ""
+    ],
+    [
+      "Fu",
+      "Liang",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 30 Nov 2024 23:58:18 GMT"
+    }
+  ],
+  "updateDate": "2024-12-03",
+  "timestamp": 1733011098000,
+  "abstract": "  We introduce an attention-based fermionic neural network (FNN) to\nvariationally solve the problem of two-dimensional Coulomb electron gas in\nmagnetic fields, a canonical platform for fractional quantum Hall (FQH)\nliquids, Wigner crystals and other unconventional electron states. Working\ndirectly with the full Hilbert space of $N$ electrons confined to a disk, our\nFNN consistently attains energies lower than LL-projected exact diagonalization\n(ED) and learns the ground state wavefunction to high accuracy. In low LL\nmixing regime, our FNN reveals microscopic features in the short-distance\nbehavior of FQH wavefunction beyond the Laughlin ansatz. For moderate and\nstrong LL mixing parameters, the FNN outperforms ED significantly. Moreover, a\nphase transition from FQH liquid to a crystal state is found at strong LL\nmixing. Our study demonstrates unprecedented power and universality of FNN\nbased variational method for solving strong-coupling many-body problems with\ntopological order and electron fractionalization.\n",
+  "subjects": [
+    "Condensed Matter/Strongly Correlated Electrons",
+    "Condensed Matter/Disordered Systems and Neural Networks",
+    "Physics/Quantum Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "GKhSnHL6f5f8TuJLJR-1ochJHwtt6K4XAfvXGi4AnHc",
+  "pdfSize": "9792863"
+}

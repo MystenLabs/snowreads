@@ -1,0 +1,53 @@
+{
+  "id": "2412.03590",
+  "title": "Enhancing Document AI Data Generation Through Graph-Based Synthetic\n  Layouts",
+  "authors": "Amit Agarwal, Hitesh Patel, Priyaranjan Pattnayak, Srikant Panda,\n  Bhargava Kumar, Tejaswini Kumar",
+  "authorsParsed": [
+    [
+      "Agarwal",
+      "Amit",
+      ""
+    ],
+    [
+      "Patel",
+      "Hitesh",
+      ""
+    ],
+    [
+      "Pattnayak",
+      "Priyaranjan",
+      ""
+    ],
+    [
+      "Panda",
+      "Srikant",
+      ""
+    ],
+    [
+      "Kumar",
+      "Bhargava",
+      ""
+    ],
+    [
+      "Kumar",
+      "Tejaswini",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 27 Nov 2024 21:15:02 GMT"
+    }
+  ],
+  "updateDate": "2024-12-06",
+  "timestamp": 1732742102000,
+  "abstract": "  The development of robust Document AI models has been constrained by limited\naccess to high-quality, labeled datasets, primarily due to data privacy\nconcerns, scarcity, and the high cost of manual annotation. Traditional methods\nof synthetic data generation, such as text and image augmentation, have proven\neffective for increasing data diversity but often fail to capture the complex\nlayout structures present in real world documents. This paper proposes a novel\napproach to synthetic document layout generation using Graph Neural Networks\n(GNNs). By representing document elements (e.g., text blocks, images, tables)\nas nodes in a graph and their spatial relationships as edges, GNNs are trained\nto generate realistic and diverse document layouts. This method leverages\ngraph-based learning to ensure structural coherence and semantic consistency,\naddressing the limitations of traditional augmentation techniques. The proposed\nframework is evaluated on tasks such as document classification, named entity\nrecognition (NER), and information extraction, demonstrating significant\nperformance improvements. Furthermore, we address the computational challenges\nof GNN based synthetic data generation and propose solutions to mitigate domain\nadaptation issues between synthetic and real-world datasets. Our experimental\nresults show that graph-augmented document layouts outperform existing\naugmentation techniques, offering a scalable and flexible solution for training\nDocument AI models.\n",
+  "subjects": [
+    "Computer Science/Computation and Language",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "SMJx66prhIbEkzV2pFC_-qr63I7_ulbBFQkGm5XEeaQ",
+  "pdfSize": "1087308"
+}

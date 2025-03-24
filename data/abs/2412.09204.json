@@ -1,0 +1,37 @@
+{
+  "id": "2412.09204",
+  "title": "Imperceptible Gaze Guidance Through Ocularity in Virtual Reality",
+  "authors": "Virmarie Maquiling, Li Zhaoping, Enkelejda Kasneci",
+  "authorsParsed": [
+    [
+      "Maquiling",
+      "Virmarie",
+      ""
+    ],
+    [
+      "Zhaoping",
+      "Li",
+      ""
+    ],
+    [
+      "Kasneci",
+      "Enkelejda",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 12 Dec 2024 11:58:01 GMT"
+    }
+  ],
+  "updateDate": "2024-12-13",
+  "timestamp": 1734004681000,
+  "abstract": "  We introduce to VR a novel imperceptible gaze guidance technique from a\nrecent discovery that human gaze can be attracted to a cue that contrasts from\nthe background in its perceptually non-distinctive ocularity, defined as the\nrelative difference between inputs to the two eyes. This cue pops out in the\nsaliency map in the primary visual cortex without being overtly visible. We\ntested this method in an odd-one-out visual search task using eye tracking with\n15 participants in VR. When the target was rendered as an ocularity singleton,\nparticipants' gaze was drawn to the target faster. Conversely, when a\nbackground object served as the ocularity singleton, it distracted gaze from\nthe target. Since ocularity is nearly imperceptible, our method maintains user\nimmersion while guiding attention without noticeable scene alterations and can\nrender object's depth in 3D scenes, creating new possibilities for immersive\nuser experience across diverse VR applications.\n",
+  "subjects": [
+    "Computer Science/Human-Computer Interaction"
+  ],
+  "license": "http://creativecommons.org/licenses/by-sa/4.0/",
+  "blobId": "er2cIgmS6417WqPJd9S9zc3kSLI5anEcCp7USiISjMA",
+  "pdfSize": "1159664"
+}

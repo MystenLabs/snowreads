@@ -1,0 +1,47 @@
+{
+  "id": "2412.00074",
+  "title": "Safe to Serve: Aligning Instruction-Tuned Models for Safety and\n  Helpfulness",
+  "authors": "Avinash Amballa, Durga Sandeep Saluru, Gayathri Akkinapalli, Abhishek\n  Sureddy, Akshay Kumar Sureddy",
+  "authorsParsed": [
+    [
+      "Amballa",
+      "Avinash",
+      ""
+    ],
+    [
+      "Saluru",
+      "Durga Sandeep",
+      ""
+    ],
+    [
+      "Akkinapalli",
+      "Gayathri",
+      ""
+    ],
+    [
+      "Sureddy",
+      "Abhishek",
+      ""
+    ],
+    [
+      "Sureddy",
+      "Akshay Kumar",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 26 Nov 2024 06:52:22 GMT"
+    }
+  ],
+  "updateDate": "2024-12-03",
+  "timestamp": 1732603942000,
+  "abstract": "  Large language models (LLMs) have demonstrated remarkable capabilities in\ncomplex reasoning and text generation. However, these models can inadvertently\ngenerate unsafe or biased responses when prompted with problematic inputs,\nraising significant ethical and practical concerns for real-world deployment.\nThis research addresses the critical challenge of developing language models\nthat generate both helpful and harmless content, navigating the delicate\nbalance between model performance and safety. We demonstrate that incorporating\nsafety-related instructions during the instruction-tuning of pre-trained models\nsignificantly reduces toxic responses to unsafe prompts without compromising\nperformance on helpfulness datasets. We found Direct Preference Optimization\n(DPO) to be particularly effective, outperforming both SIT and RAFT by\nleveraging both chosen and rejected responses for learning. Our approach\nincreased safe responses from 40$\\%$ to over 90$\\%$ across various harmfulness\nbenchmarks. In addition, we discuss a rigorous evaluation framework\nencompassing specialized metrics and diverse datasets for safety and\nhelpfulness tasks ensuring a comprehensive assessment of the model's\ncapabilities.\n",
+  "subjects": [
+    "Computer Science/Computation and Language"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "0Y2LOYauQvj7u6vx7lLpnHzOd3i3KO9hTZf8VJ7zl18",
+  "pdfSize": "795993"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "2412.20795",
+  "title": "A Projection Characterization and Symmetry Bootstrap for Elements of a\n  von Neumann Algebra that are Nearby Commuting Elements",
+  "authors": "David Herrera",
+  "authorsParsed": [
+    [
+      "Herrera",
+      "David",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 30 Dec 2024 08:33:54 GMT"
+    }
+  ],
+  "updateDate": "2024-12-31",
+  "timestamp": 1735547634000,
+  "abstract": "  We define a symmetry map $\\varphi$ on a unital $C^\\ast$-algebra $\\mathcal A$\nto be an $\\mathbb{R}$-linear map on $\\mathcal A$ that generalizes\ntransformations on matrices like: transpose, adjoint, complex-conjugation,\nconjugation by a unitary matrix, and their compositions. We include an overview\nof such symmetry maps on unital $C^\\ast$-algebras. We say that $A\\in\\mathcal A$\nis $\\varphi$-symmetric if $\\varphi(A)=A$, $A$ is $\\varphi$-antisymmetric if\n$\\varphi(A)=-A$, and $A$ has a $\\zeta=e^{i\\theta}$ $\\varphi$-phase symmetry if\n$\\varphi(A)=\\zeta A$.\n  Our main result is a new projection characterization of two operators $U$\n(unitary), $B$ that have nearby commuting operators $U'$ (unitary), $B'$. This\ncan be used to ``bootstrap'' symmetry from operators $U, B$ that are nearby\nsome commuting operators $U', B'$ to prove the existence of nearby commuting\noperators $U'', B''$ which satisfy the same symmetries/antisymmetries/phase\nsymmetries as $U, B$, provided that the symmetry maps and\nsymmetries/antisymmetries/phase symmetries satisfy some mild conditions. We\nalso prove a version of this for $X=U$ self-adjoint instead of unitary.\n  As a consequence of the prior literature and the results of this paper, we\nprove Lin's theorem with symmetries: If a $\\varphi$-symmetric matrix $A$ is\nalmost normal ($\\|[A^\\ast, A]\\|$ is small), then it is nearby a\n$\\varphi$-symmetric normal matrix $A'$. We also extend this further to include\nrotational and dihedral symmetries.\n  We also obtain bootstrap symmetry results for two and three almost commuting\nself-adjoint operators. As a corollary, we resolve a conjecture of\narXiv:1502.03498 for two almost commuting self-adjoint matrices in the\nAtland-Zirnbauer symmetry classes related to topological insulators.\n",
+  "subjects": [
+    "Mathematics/Operator Algebras",
+    "Mathematics/Functional Analysis"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "kR7hya92bAeXZ9g6qj8sPqqVX78AZazoyV9NqCu276U",
+  "pdfSize": "569019"
+}

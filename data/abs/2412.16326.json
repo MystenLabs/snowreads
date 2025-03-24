@@ -1,0 +1,48 @@
+{
+  "id": "2412.16326",
+  "title": "When Worse is Better: Navigating the compression-generation tradeoff in\n  visual tokenization",
+  "authors": "Vivek Ramanujan, Kushal Tirumala, Armen Aghajanyan, Luke Zettlemoyer,\n  Ali Farhadi",
+  "authorsParsed": [
+    [
+      "Ramanujan",
+      "Vivek",
+      ""
+    ],
+    [
+      "Tirumala",
+      "Kushal",
+      ""
+    ],
+    [
+      "Aghajanyan",
+      "Armen",
+      ""
+    ],
+    [
+      "Zettlemoyer",
+      "Luke",
+      ""
+    ],
+    [
+      "Farhadi",
+      "Ali",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 20 Dec 2024 20:32:02 GMT"
+    }
+  ],
+  "updateDate": "2024-12-24",
+  "timestamp": 1734726722000,
+  "abstract": "  Current image generation methods, such as latent diffusion and discrete\ntoken-based generation, depend on a two-stage training approach. In stage 1, an\nauto-encoder is trained to compress an image into a latent space; in stage 2, a\ngenerative model is trained to learn a distribution over that latent space.\nMost work focuses on maximizing stage 1 performance independent of stage 2,\nassuming better reconstruction always leads to better generation. However, we\nshow this is not strictly true. Smaller stage 2 models can benefit from more\ncompressed stage 1 latents even if reconstruction performance worsens, showing\na fundamental trade-off between compression and generation modeling capacity.\nTo better optimize this trade-off, we introduce Causally Regularized\nTokenization (CRT), which uses knowledge of the stage 2 generation modeling\nprocedure to embed useful inductive biases in stage 1 latents. This\nregularization makes stage 1 reconstruction performance worse, but makes stage\n2 generation performance better by making the tokens easier to model: we are\nable to improve compute efficiency 2-3$\\times$ over baseline and match\nstate-of-the-art discrete autoregressive ImageNet generation (2.18 FID) with\nless than half the tokens per image (256 vs. 576) and a fourth the total model\nparameters (775M vs. 3.1B) as the previous SOTA (LlamaGen).\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "20rNpSdfrxSOmOOR1426q7hzIWSNdFegyvH4im80zjo",
+  "pdfSize": "16028685"
+}

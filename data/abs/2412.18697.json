@@ -1,0 +1,33 @@
+{
+  "id": "2412.18697",
+  "title": "Agents on the Bench: Large Language Model Based Multi Agent Framework\n  for Trustworthy Digital Justice",
+  "authors": "Cong Jiang, Xiaolei Yang",
+  "authorsParsed": [
+    [
+      "Jiang",
+      "Cong",
+      ""
+    ],
+    [
+      "Yang",
+      "Xiaolei",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 24 Dec 2024 23:13:37 GMT"
+    }
+  ],
+  "updateDate": "2024-12-30",
+  "timestamp": 1735082017000,
+  "abstract": "  The justice system has increasingly employed AI techniques to enhance\nefficiency, yet limitations remain in improving the quality of decision-making,\nparticularly regarding transparency and explainability needed to uphold public\ntrust in legal AI. To address these challenges, we propose a large language\nmodel based multi-agent framework named AgentsBench, which aims to\nsimultaneously improve both efficiency and quality in judicial decision-making.\nOur approach leverages multiple LLM-driven agents that simulate the\ncollaborative deliberation and decision making process of a judicial bench. We\nconducted experiments on legal judgment prediction task, and the results show\nthat our framework outperforms existing LLM based methods in terms of\nperformance and decision quality. By incorporating these elements, our\nframework reflects real-world judicial processes more closely, enhancing\naccuracy, fairness, and society consideration. AgentsBench provides a more\nnuanced and realistic methods of trustworthy AI decision-making, with strong\npotential for application across various case types and legal scenarios.\n",
+  "subjects": [
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Multiagent Systems"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "sXqhWgDlCVniqFtnDPjDmgrSwI13qy9jPtD6mjqWg8Q",
+  "pdfSize": "354581"
+}

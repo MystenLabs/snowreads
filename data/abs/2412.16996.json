@@ -1,0 +1,37 @@
+{
+  "id": "2412.16996",
+  "title": "Distributed Cooperative Positioning in Dense Wireless Networks: A Neural\n  Network Enhanced Fast Convergent Parametric Message Passing Method",
+  "authors": "Yue Cao, Shaoshi Yang and Zhiyong Feng",
+  "authorsParsed": [
+    [
+      "Cao",
+      "Yue",
+      ""
+    ],
+    [
+      "Yang",
+      "Shaoshi",
+      ""
+    ],
+    [
+      "Feng",
+      "Zhiyong",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 22 Dec 2024 12:28:03 GMT"
+    }
+  ],
+  "updateDate": "2024-12-25",
+  "timestamp": 1734870483000,
+  "abstract": "  Parametric message passing (MP) is a promising technique that provides\nreliable marginal probability distributions for distributed cooperative\npositioning (DCP) based on factor graphs (FG), while maintaining minimal\ncomputational complexity. However, conventional parametric MP-based DCP methods\nmay fail to converge in dense wireless networks due to numerous short loops on\nFG. Additionally, the use of inappropriate message approximation techniques can\nlead to increased sensitivity to initial values and significantly slower\nconvergence rates. To address the challenging DCP problem modeled by a loopy\nFG, we propose an effective graph neural network enhanced fast convergent\nparametric MP (GNN--FCPMP) method. We first employ Chebyshev polynomials to\napproximate the nonlinear terms present in the FG-based spatio-temporal\nmessages. This technique facilitates the derivation of globally precise,\nclosed-form representations for each message transmitted across the FG. Then,\nthe parametric representations of spatial messages are meticulously refined\nthrough data-driven graph neural networks (GNNs). Conclusively, by performing\ninference on the FG, we derive more accurate closed-form expressions for the a\nposteriori distributions of node positions. Numerical results substantiate the\ncapability of GNN--FCPMP to significantly enhance positioning accuracy within\nwireless networks characterized by high-density loops and ensure rapid\nconvergence.\n",
+  "subjects": [
+    "Electrical Engineering and Systems Science/Signal Processing"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "GTkj30O4L09nu-niFp6inM8ohNjdy9h_ZH7TI7_VPN8",
+  "pdfSize": "224903"
+}

@@ -1,0 +1,56 @@
+{
+  "id": "2412.11482",
+  "title": "Probabilistic GOSPA: A Metric for Performance Evaluation of Multi-Object\n  Filters with Uncertainties",
+  "authors": "Yuxuan Xia, \\'Angel F. Garc\\'ia-Fern\\'andez, Johan Karlsson, Ting\n  Yuan, Kuo-Chu Chang, Lennart Svensson",
+  "authorsParsed": [
+    [
+      "Xia",
+      "Yuxuan",
+      ""
+    ],
+    [
+      "García-Fernández",
+      "Ángel F.",
+      ""
+    ],
+    [
+      "Karlsson",
+      "Johan",
+      ""
+    ],
+    [
+      "Yuan",
+      "Ting",
+      ""
+    ],
+    [
+      "Chang",
+      "Kuo-Chu",
+      ""
+    ],
+    [
+      "Svensson",
+      "Lennart",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 16 Dec 2024 06:50:02 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Sat, 28 Dec 2024 01:23:49 GMT"
+    }
+  ],
+  "updateDate": "2024-12-31",
+  "timestamp": 1734331802000,
+  "abstract": "  This correspondence presents a probabilistic generalization of the\nGeneralized Optimal Sub-Pattern Assignment (GOSPA) metric, termed P-GOSPA. The\nGOSPA metric is widely used to evaluate the distance between finite sets,\nparticularly in multi-object estimation applications. The P-GOSPA extends GOSPA\ninto the space of multi-Bernoulli densities, incorporating inherent uncertainty\nin probabilistic multi-object representations. Additionally, P-GOSPA retains\nthe interpretability of GOSPA, such as its decomposition into localization,\nmissed detection, and false detection errors in a sound and meaningful manner.\nExamples and simulations are provided to demonstrate the efficacy of the\nproposed P-GOSPA metric.\n",
+  "subjects": [
+    "Electrical Engineering and Systems Science/Signal Processing"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "FgbDw6RPcC4A0XJia4ViEq6iflazJb2uVoYXuVBTsKM",
+  "pdfSize": "942926"
+}

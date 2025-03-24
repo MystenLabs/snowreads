@@ -1,0 +1,45 @@
+{
+  "id": "2412.18337",
+  "title": "The Value of AI-Generated Metadata for UGC Platforms: Evidence from a\n  Large-scale Field Experiment",
+  "authors": "Xinyi Zhang, Chenshuo Sun, Renyu Zhang, Khim-Yong Goh",
+  "authorsParsed": [
+    [
+      "Zhang",
+      "Xinyi",
+      ""
+    ],
+    [
+      "Sun",
+      "Chenshuo",
+      ""
+    ],
+    [
+      "Zhang",
+      "Renyu",
+      ""
+    ],
+    [
+      "Goh",
+      "Khim-Yong",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 24 Dec 2024 10:47:27 GMT"
+    }
+  ],
+  "updateDate": "2024-12-25",
+  "timestamp": 1735037247000,
+  "abstract": "  AI-generated content (AIGC), such as advertisement copy, product\ndescriptions, and social media posts, is becoming ubiquitous in business\npractices. However, the value of AI-generated metadata, such as titles, remains\nunclear on user-generated content (UGC) platforms. To address this gap, we\nconducted a large-scale field experiment on a leading short-video platform in\nAsia to provide about 1 million users access to AI-generated titles for their\nuploaded videos. Our findings show that the provision of AI-generated titles\nsignificantly boosted content consumption, increasing valid watches by 1.6% and\nwatch duration by 0.9%. When producers adopted these titles, these increases\njumped to 7.1% and 4.1%, respectively. This viewership-boost effect was largely\nattributed to the use of this generative AI (GAI) tool increasing the\nlikelihood of videos having a title by 41.4%. The effect was more pronounced\nfor groups more affected by metadata sparsity. Mechanism analysis revealed that\nAI-generated metadata improved user-video matching accuracy in the platform's\nrecommender system. Interestingly, for a video for which the producer would\nhave posted a title anyway, adopting the AI-generated title decreased its\nviewership on average, implying that AI-generated titles may be of lower\nquality than human-generated ones. However, when producers chose to co-create\nwith GAI and significantly revised the AI-generated titles, the videos\noutperformed their counterparts with either fully AI-generated or\nhuman-generated titles, showcasing the benefits of human-AI co-creation. This\nstudy highlights the value of AI-generated metadata and human-AI metadata\nco-creation in enhancing user-content matching and content consumption for UGC\nplatforms.\n",
+  "subjects": [
+    "Economics/General Economics",
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Human-Computer Interaction",
+    "Quantitative Finance/Economics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "DyAgcUcH7mBFQP2tnZszfZ4tAbVZFwQnc7G6vRs6fRs",
+  "pdfSize": "1374663"
+}

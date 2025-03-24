@@ -1,0 +1,36 @@
+{
+  "id": "2412.10772",
+  "title": "Finite-time blowup in a five- and higher-dimensional chemotaxis model\n  with indirect signal production",
+  "authors": "Xuan Mao and Yuxiang Li",
+  "authorsParsed": [
+    [
+      "Mao",
+      "Xuan",
+      ""
+    ],
+    [
+      "Li",
+      "Yuxiang",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 14 Dec 2024 09:51:22 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Mon, 23 Dec 2024 12:57:57 GMT"
+    }
+  ],
+  "updateDate": "2024-12-24",
+  "timestamp": 1734169882000,
+  "abstract": "  This paper is concerned with a three-component chemotaxis model accounting\nfor indirect signal production, reading as $u_t = \\nabla\\cdot(\\nabla u -\nu\\nabla v)$, $v_t = \\Delta v - v + w$ and $0 = \\Delta w - w + u$, posed on a\nball in $\\mathbb R^n$ with $n\\geq5$, subject to homogeneous Neumann boundary\nconditions.\n  It is suggested that the system has a four-dimensional critical mass\nphenomenon concerning blowup in finite or infinite time according to the work\nof Fujie and Senba [J. Differential Equations, 263 (2017), 88--148; 266 (2019),\n942--976]. In this paper, we prove that for any prescribed mass $m > 0$, there\nexist radially symmetric and positive initial data $(u_0,v_0)\\in\nC^0(\\overline{\\Omega})\\times C^2(\\overline{\\Omega})$ with $\\int_\\Omega u_0 = m$\nsuch that the corresponding solutions blow up in finite time.\n",
+  "subjects": [
+    "Mathematics/Analysis of PDEs"
+  ],
+  "license": "http://creativecommons.org/licenses/by-sa/4.0/",
+  "blobId": "5HE2uEkBvlB7zM78Zi_K5jisgp5MD8nqAO04Kgsrrso",
+  "pdfSize": "290723"
+}

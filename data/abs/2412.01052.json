@@ -1,0 +1,48 @@
+{
+  "id": "2412.01052",
+  "title": "CRISP: Object Pose and Shape Estimation with Test-Time Adaptation",
+  "authors": "Jingnan Shi, Rajat Talak, Harry Zhang, David Jin, and Luca Carlone",
+  "authorsParsed": [
+    [
+      "Shi",
+      "Jingnan",
+      ""
+    ],
+    [
+      "Talak",
+      "Rajat",
+      ""
+    ],
+    [
+      "Zhang",
+      "Harry",
+      ""
+    ],
+    [
+      "Jin",
+      "David",
+      ""
+    ],
+    [
+      "Carlone",
+      "Luca",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 2 Dec 2024 02:26:21 GMT"
+    }
+  ],
+  "updateDate": "2024-12-03",
+  "timestamp": 1733106381000,
+  "abstract": "  We consider the problem of estimating object pose and shape from an RGB-D\nimage. Our first contribution is to introduce CRISP, a category-agnostic object\npose and shape estimation pipeline. The pipeline implements an encoder-decoder\nmodel for shape estimation. It uses FiLM-conditioning for implicit shape\nreconstruction and a DPT-based network for estimating pose-normalized points\nfor pose estimation. As a second contribution, we propose an optimization-based\npose and shape corrector that can correct estimation errors caused by a domain\ngap. Observing that the shape decoder is well behaved in the convex hull of\nknown shapes, we approximate the shape decoder with an active shape model, and\nshow that this reduces the shape correction problem to a constrained linear\nleast squares problem, which can be solved efficiently by an interior point\nalgorithm. Third, we introduce a self-training pipeline to perform\nself-supervised domain adaptation of CRISP. The self-training is based on a\ncorrect-and-certify approach, which leverages the corrector to generate\npseudo-labels at test time, and uses them to self-train CRISP. We demonstrate\nCRISP (and the self-training) on YCBV, SPE3R, and NOCS datasets. CRISP shows\nhigh performance on all the datasets. Moreover, our self-training is capable of\nbridging a large domain gap. Finally, CRISP also shows an ability to generalize\nto unseen objects. Code and pre-trained models will be available on\nhttps://web.mit.edu/sparklab/research/crisp_object_pose_shape/.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Robotics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "zEtdu3A-Q-Cf882__hvHZVrL-99eMpIwLMDlqHH06LE",
+  "pdfSize": "11198011"
+}

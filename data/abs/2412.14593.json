@@ -1,0 +1,36 @@
+{
+  "id": "2412.14593",
+  "title": "Persistent current in a non-Hermitian Hatano-Nelson ring:\n  Disorder-induced amplification",
+  "authors": "Sudin Ganguly and S. K. Maiti",
+  "authorsParsed": [
+    [
+      "Ganguly",
+      "Sudin",
+      ""
+    ],
+    [
+      "Maiti",
+      "S. K.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 19 Dec 2024 07:26:55 GMT"
+    }
+  ],
+  "updateDate": "2024-12-20",
+  "timestamp": 1734593215000,
+  "abstract": "  Non-reciprocal hopping induces a synthetic magnetic flux which leads to the\nnon-Hermitian Aharonov-Bohm effect. Since non-Hermitian Hamiltonians possess\nboth real and imaginary eigenvalues, this effect allows the observation of real\nand imaginary persistent currents in a ring threaded by the synthetic\nflux~\\cite{nrh8}. Motivated by this, we investigate the behavior of persistent\ncurrents in a disordered Hatano-Nelson ring with anti-Hermitian intradimer\nhopping. The disorder is diagonal and we explore three distinct models, namely\nthe Aubry-Andr\\'{e}-Harper model, the Fibonacci model, both representing\ncorrelated disorder, and an uncorrelated (random) model. We conduct a detailed\nanalysis of the energy spectrum and examine the real and imaginary parts of the\npersistent current under various conditions such as different ring sizes and\nfilling factors. Interestingly, we find that real and imaginary persistent\ncurrents exhibit amplification in the presence of correlated disorder. This\namplification is also observed in certain individual random configurations but\nvanishes after configuration averaging. Additionally, we observe both\ndiamagnetic and paramagnetic responses in the current behavior and investigate\naspects of persistent currents in the absence of disorder that have not been\npreviously explored. Interestingly, we find that the intradimer bonds host only\nimaginary currents, while the interdimer bonds carry only real currents.\n",
+  "subjects": [
+    "Condensed Matter/Mesoscale and Nanoscale Physics",
+    "Condensed Matter/Disordered Systems and Neural Networks",
+    "Condensed Matter/Strongly Correlated Electrons",
+    "Physics/Computational Physics",
+    "Physics/Quantum Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "FMdXnkv0jNuETqmHUYIxRsKJcUetUwPnMHo24FOI-nE",
+  "pdfSize": "2152092"
+}

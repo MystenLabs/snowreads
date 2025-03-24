@@ -1,0 +1,44 @@
+{
+  "id": "2412.15112",
+  "title": "Homology of Steinberg algebras",
+  "authors": "Guido Arnone, Guillermo Corti\\~nas, Devarshi Mukherjee",
+  "authorsParsed": [
+    [
+      "Arnone",
+      "Guido",
+      ""
+    ],
+    [
+      "Cortiñas",
+      "Guillermo",
+      ""
+    ],
+    [
+      "Mukherjee",
+      "Devarshi",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 19 Dec 2024 17:54:53 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Fri, 17 Jan 2025 18:56:51 GMT"
+    }
+  ],
+  "updateDate": "2025-01-20",
+  "timestamp": 1734630893000,
+  "abstract": "  We study homological invariants of the Steinberg algebra\n$\\mathcal{A}_k(\\mathcal{G})$ of an ample groupoid $\\mathcal{G}$ over a\ncommutative ring $k$. For $\\mathcal{G}$ principal or Hausdorff with\n${\\mathcal{G}}^{\\rm{Iso}}\\setminus{\\mathcal{G}}^{(0)}$ discrete, we compute\nHochschild and cyclic homology of $\\mathcal{A}_k(\\mathcal{G})$ in terms of\ngroupoid homology. For any ample Hausdorff groupoid $\\mathcal{G}$, we find that\n$H_*(\\mathcal{G})$ is a direct summand of $HH_*(\\mathcal{A}_k(\\mathcal{G}))$;\nusing this and the Dennis trace we obtain a map\n$\\overline{D}_*:K_*(\\mathcal{A}_k(\\mathcal{G}))\\to H_n(\\mathcal{G},k)$. We\nstudy this map when $\\mathcal{G}$ is the (twisted) Exel-Pardo groupoid\nassociated to a self-similar action of a group $G$ on a graph, and compute\n$HH_*(\\mathcal{A}_k(\\mathcal{G}))$ and $H_*(\\mathcal{G},k)$ in terms of the\nhomology of $G$, and the $K$-theory of $\\mathcal{A}_k(\\mathcal{G})$ in terms of\nthat of $k[G]$.\n",
+  "subjects": [
+    "Mathematics/K-Theory and Homology",
+    "Mathematics/Group Theory",
+    "Mathematics/Operator Algebras",
+    "Mathematics/Rings and Algebras"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "rpmGWfOaDS9Us68tTMoYVD8lZ1TuKmabZOnc5PLnxXw",
+  "pdfSize": "701820"
+}

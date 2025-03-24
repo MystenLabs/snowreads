@@ -1,0 +1,32 @@
+{
+  "id": "2412.09941",
+  "title": "Low Mach Number Limit of Non-isentropic Inviscid Elastodynamics with\n  General Initial Data",
+  "authors": "Jiawei Wang, Junyan Zhang",
+  "authorsParsed": [
+    [
+      "Wang",
+      "Jiawei",
+      ""
+    ],
+    [
+      "Zhang",
+      "Junyan",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 13 Dec 2024 08:04:05 GMT"
+    }
+  ],
+  "updateDate": "2024-12-16",
+  "timestamp": 1734077045000,
+  "abstract": "  We prove the incompressible limit of non-isentropic inviscid elastodynamic\nequations with general initial data in 3D half-space. The deformation tensor is\nassumed to satisfy the neo-Hookean linear elasticity and degenerates in the\nnormal direction on the solid wall. The uniform estimates in Mach number are\nestablished based on two important observations. First, the entropy has\nenhanced regularity in the direction of each column of the deformation tensor,\nwhich exactly helps us avoid the loss of derivatives caused by the simultaneous\nappearance of elasticity and entropy in vorticity analysis. Second, a special\nstructure of the wave equation of the pressure together with elliptic estimates\nhelps us reduce the normal derivatives in the control of divergence and\npressure. The strong convergence of solutions in time is obtained by proving\nlocal energy decay of the wave equation and using the technique of microlocal\ndefect measure.\n",
+  "subjects": [
+    "Mathematics/Analysis of PDEs"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "Z_ocN1-kLh2bYlAQ2xVTdwGFUj7FMLeypvuYJFehV5E",
+  "pdfSize": "351377"
+}

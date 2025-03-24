@@ -1,0 +1,37 @@
+{
+  "id": "2412.00682",
+  "title": "FlashSLAM: Accelerated RGB-D SLAM for Real-Time 3D Scene Reconstruction\n  with Gaussian Splatting",
+  "authors": "Phu Pham, Damon Conover, Aniket Bera",
+  "authorsParsed": [
+    [
+      "Pham",
+      "Phu",
+      ""
+    ],
+    [
+      "Conover",
+      "Damon",
+      ""
+    ],
+    [
+      "Bera",
+      "Aniket",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 1 Dec 2024 05:44:38 GMT"
+    }
+  ],
+  "updateDate": "2024-12-03",
+  "timestamp": 1733031878000,
+  "abstract": "  We present FlashSLAM, a novel SLAM approach that leverages 3D Gaussian\nSplatting for efficient and robust 3D scene reconstruction. Existing 3DGS-based\nSLAM methods often fall short in sparse view settings and during large camera\nmovements due to their reliance on gradient descent-based optimization, which\nis both slow and inaccurate. FlashSLAM addresses these limitations by combining\n3DGS with a fast vision-based camera tracking technique, utilizing a pretrained\nfeature matching model and point cloud registration for precise pose estimation\nin under 80 ms - a 90% reduction in tracking time compared to SplaTAM - without\ncostly iterative rendering. In sparse settings, our method achieves up to a 92%\nimprovement in average tracking accuracy over previous methods. Additionally,\nit accounts for noise in depth sensors, enhancing robustness when using\nunspecialized devices such as smartphones. Extensive experiments show that\nFlashSLAM performs reliably across both sparse and dense settings, in synthetic\nand real-world environments. Evaluations on benchmark datasets highlight its\nsuperior accuracy and efficiency, establishing FlashSLAM as a versatile and\nhigh-performance solution for SLAM, advancing the state-of-the-art in 3D\nreconstruction across diverse applications.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "OCHHjWGCVfB7B6Qwi-7hC3k__X_JU-0onTOjuA0UNQU",
+  "pdfSize": "56418465"
+}

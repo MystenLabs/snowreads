@@ -1,0 +1,67 @@
+{
+  "id": "2412.00869",
+  "title": "KnowledgePrompts: Exploring the Abilities of Large Language Models to\n  Solve Proportional Analogies via Knowledge-Enhanced Prompting",
+  "authors": "Thilini Wijesiriwardene and Ruwan Wickramarachchi and Sreeram Vennam\n  and Vinija Jain and Aman Chadha and Amitava Das and Ponnurangam Kumaraguru\n  and Amit Sheth",
+  "authorsParsed": [
+    [
+      "Wijesiriwardene",
+      "Thilini",
+      ""
+    ],
+    [
+      "Wickramarachchi",
+      "Ruwan",
+      ""
+    ],
+    [
+      "Vennam",
+      "Sreeram",
+      ""
+    ],
+    [
+      "Jain",
+      "Vinija",
+      ""
+    ],
+    [
+      "Chadha",
+      "Aman",
+      ""
+    ],
+    [
+      "Das",
+      "Amitava",
+      ""
+    ],
+    [
+      "Kumaraguru",
+      "Ponnurangam",
+      ""
+    ],
+    [
+      "Sheth",
+      "Amit",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 1 Dec 2024 16:15:14 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Thu, 19 Dec 2024 04:38:59 GMT"
+    }
+  ],
+  "updateDate": "2024-12-20",
+  "timestamp": 1733069714000,
+  "abstract": "  Making analogies is fundamental to cognition. Proportional analogies, which\nconsist of four terms, are often used to assess linguistic and cognitive\nabilities. For instance, completing analogies like \"Oxygen is to Gas as <blank>\nis to <blank>\" requires identifying the semantic relationship (e.g., \"type of\")\nbetween the first pair of terms (\"Oxygen\" and \"Gas\") and finding a second pair\nthat shares the same relationship (e.g., \"Aluminum\" and \"Metal\"). In this work,\nwe introduce a 15K Multiple-Choice Question Answering (MCQA) dataset for\nproportional analogy completion and evaluate the performance of contemporary\nLarge Language Models (LLMs) in various knowledge-enhanced prompt settings.\nSpecifically, we augment prompts with three types of knowledge: exemplar,\nstructured, and targeted. Our results show that despite extensive training\ndata, solving proportional analogies remains challenging for current LLMs, with\nthe best model achieving an accuracy of 55%. Notably, we find that providing\ntargeted knowledge can better assist models in completing proportional\nanalogies compared to providing exemplars or collections of structured\nknowledge. Our code and data are available at:\nhttps://github.com/Thiliniiw/KnowledgePrompts/\n",
+  "subjects": [
+    "Computer Science/Computation and Language",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "M9UCfFD-aLh7eCEJOw8Erg2DYpT3fXzyvTFJ-9FjtZQ",
+  "pdfSize": "1420919"
+}

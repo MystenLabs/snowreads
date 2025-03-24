@@ -1,0 +1,48 @@
+{
+  "id": "2412.14483",
+  "title": "Enhanced detection and identification of satellites using an all-sky\n  multi-frequency survey with prototype SKA-Low stations",
+  "authors": "Dylan Grigg, Steven Tingay, Steve Prabu, Marcin Sokolowski, Balthasar\n  Indermuehle",
+  "authorsParsed": [
+    [
+      "Grigg",
+      "Dylan",
+      ""
+    ],
+    [
+      "Tingay",
+      "Steven",
+      ""
+    ],
+    [
+      "Prabu",
+      "Steve",
+      ""
+    ],
+    [
+      "Sokolowski",
+      "Marcin",
+      ""
+    ],
+    [
+      "Indermuehle",
+      "Balthasar",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 19 Dec 2024 03:09:10 GMT"
+    }
+  ],
+  "updateDate": "2025-01-29",
+  "timestamp": 1734577750000,
+  "abstract": "  With the low Earth orbit environment becoming increasingly populated with\nartificial satellites, rockets, and debris, it is important to understand the\neffects they have on radio astronomy. In this work, we undertake a\nmulti-frequency, multi-epoch survey with two SKA-Low station prototypes located\nat the SKA-Low site, to identify and characterise radio frequency emission from\norbiting objects and consider their impact on radio astronomy observations. We\nidentified 152 unique satellites across multiple passes in low and medium Earth\norbits from 1.6 million full-sky images across 13 selected ${\\approx}1$ MHz\nfrequency bands in the SKA-Low frequency range, acquired over almost 20 days of\ndata collection. Our algorithms significantly reduce the rate of satellite\nmisidentification, compared to previous work, validated through simulations to\nbe $<1\\%$. Notably, multiple satellites were detected transmitting unintended\nelectromagnetic radiation, as well as several decommissioned satellites likely\ntransmitting when the Sun illuminates their solar panels. We test alternative\nmethods of processing data, which will be deployed for a larger, more\nsystematic survey at SKA-Low frequencies in the near future. The current work\nestablishes a baseline for monitoring satellite transmissions, which will be\nrepeated in future years to assess their evolving impact on radio astronomy\nobservations.\n",
+  "subjects": [
+    "Astrophysics/Earth and Planetary Astrophysics",
+    "Astrophysics/Instrumentation and Methods for Astrophysics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "Gi1wdRF3d3ahmcdwtU36wnKzEN5oQZcqlup7J-2rA_A",
+  "pdfSize": "7859489"
+}

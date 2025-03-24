@@ -1,0 +1,57 @@
+{
+  "id": "2412.03632",
+  "title": "MV-Adapter: Multi-view Consistent Image Generation Made Easy",
+  "authors": "Zehuan Huang, Yuan-Chen Guo, Haoran Wang, Ran Yi, Lizhuang Ma, Yan-Pei\n  Cao, Lu Sheng",
+  "authorsParsed": [
+    [
+      "Huang",
+      "Zehuan",
+      ""
+    ],
+    [
+      "Guo",
+      "Yuan-Chen",
+      ""
+    ],
+    [
+      "Wang",
+      "Haoran",
+      ""
+    ],
+    [
+      "Yi",
+      "Ran",
+      ""
+    ],
+    [
+      "Ma",
+      "Lizhuang",
+      ""
+    ],
+    [
+      "Cao",
+      "Yan-Pei",
+      ""
+    ],
+    [
+      "Sheng",
+      "Lu",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 4 Dec 2024 18:48:20 GMT"
+    }
+  ],
+  "updateDate": "2024-12-06",
+  "timestamp": 1733338100000,
+  "abstract": "  Existing multi-view image generation methods often make invasive\nmodifications to pre-trained text-to-image (T2I) models and require full\nfine-tuning, leading to (1) high computational costs, especially with large\nbase models and high-resolution images, and (2) degradation in image quality\ndue to optimization difficulties and scarce high-quality 3D data. In this\npaper, we propose the first adapter-based solution for multi-view image\ngeneration, and introduce MV-Adapter, a versatile plug-and-play adapter that\nenhances T2I models and their derivatives without altering the original network\nstructure or feature space. By updating fewer parameters, MV-Adapter enables\nefficient training and preserves the prior knowledge embedded in pre-trained\nmodels, mitigating overfitting risks. To efficiently model the 3D geometric\nknowledge within the adapter, we introduce innovative designs that include\nduplicated self-attention layers and parallel attention architecture, enabling\nthe adapter to inherit the powerful priors of the pre-trained models to model\nthe novel 3D knowledge. Moreover, we present a unified condition encoder that\nseamlessly integrates camera parameters and geometric information, facilitating\napplications such as text- and image-based 3D generation and texturing.\nMV-Adapter achieves multi-view generation at 768 resolution on Stable Diffusion\nXL (SDXL), and demonstrates adaptability and versatility. It can also be\nextended to arbitrary view generation, enabling broader applications. We\ndemonstrate that MV-Adapter sets a new quality standard for multi-view image\ngeneration, and opens up new possibilities due to its efficiency, adaptability\nand versatility.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "XOdqnF2MvxAUsWA1WRFzfUlubmA1FLw7CtUAJWlv36Q",
+  "pdfSize": "30754583"
+}

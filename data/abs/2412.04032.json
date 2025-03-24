@@ -1,0 +1,27 @@
+{
+  "id": "2412.04032",
+  "title": "Cutoff for the mixing time of the Facilitated Exclusion Process",
+  "authors": "Brune Massouli\\'e",
+  "authorsParsed": [
+    [
+      "Massoulié",
+      "Brune",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 5 Dec 2024 10:10:42 GMT"
+    }
+  ],
+  "updateDate": "2024-12-06",
+  "timestamp": 1733393442000,
+  "abstract": "  We compute the mixing time of the Facilitated Exclusion Process (FEP) and\nobtain cutoff and pre-cutoff in different regimes. The main tool to obtain this\nresult is a new bijective, deterministic mapping between the joint law of an\nergodic FEP and its current through the origin, and the joint law of a SSEP and\nits current through the origin. This mapping is interesting in itself, as it\nremains valid in the non-ergodic regime where it gives a coupling between the\nposition of a tagged particle in the FEP and the current through the origin in\na SSEP with traps.\n",
+  "subjects": [
+    "Mathematics/Probability"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "ZVTMYUUygz2TeK4mrPUJ9phtK2OSilWa0bjZLI6InPM",
+  "pdfSize": "713270"
+}

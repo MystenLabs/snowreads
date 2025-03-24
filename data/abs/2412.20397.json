@@ -1,0 +1,42 @@
+{
+  "id": "2412.20397",
+  "title": "Learning Policies for Dynamic Coalition Formation in Multi-Robot Task\n  Allocation",
+  "authors": "Lucas C. D. Bezerra, Ata\\'ide M. G. dos Santos, Shinkyu Park",
+  "authorsParsed": [
+    [
+      "Bezerra",
+      "Lucas C. D.",
+      ""
+    ],
+    [
+      "Santos",
+      "Ataíde M. G. dos",
+      ""
+    ],
+    [
+      "Park",
+      "Shinkyu",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 29 Dec 2024 08:18:56 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Sat, 22 Feb 2025 14:41:18 GMT"
+    }
+  ],
+  "updateDate": "2025-02-25",
+  "timestamp": 1735460336000,
+  "abstract": "  We propose a decentralized, learning-based framework for dynamic coalition\nformation in Multi-Robot Task Allocation (MRTA). Our approach extends\nMulti-Agent Proximal Policy Optimization (MAPPO) by integrating spatial action\nmaps, robot motion planning, intention sharing, and task allocation revision to\nenable effective and adaptive coalition formation. Extensive simulation studies\nconfirm the effectiveness of our model, enabling each robot to rely solely on\nlocal information to learn timely revisions of task selections and form\ncoalitions with other robots to complete collaborative tasks. Additionally, our\nmodel significantly outperforms existing methods, including a market-based\nbaseline. Furthermore, we evaluate the scalability and generalizability of the\nproposed framework, highlighting its ability to handle large robot populations\nand adapt to scenarios featuring diverse task sets.\n",
+  "subjects": [
+    "Computer Science/Robotics",
+    "Computer Science/Multiagent Systems"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "cwE1biwaKV4Qgo6pqsXhI6ERyqhQ7tK9hCsDi1vM1Fg",
+  "pdfSize": "1492931"
+}

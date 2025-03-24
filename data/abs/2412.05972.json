@@ -1,0 +1,53 @@
+{
+  "id": "2412.05972",
+  "title": "Phase-locked feed forward stabilization for dual comb spectroscopy",
+  "authors": "Mithun Pal, Alexander Eber, Lukas F\\\"urst, Emily Hruska, Marcus\n  Ossiander and Birgitta Bernhardt",
+  "authorsParsed": [
+    [
+      "Pal",
+      "Mithun",
+      ""
+    ],
+    [
+      "Eber",
+      "Alexander",
+      ""
+    ],
+    [
+      "Fürst",
+      "Lukas",
+      ""
+    ],
+    [
+      "Hruska",
+      "Emily",
+      ""
+    ],
+    [
+      "Ossiander",
+      "Marcus",
+      ""
+    ],
+    [
+      "Bernhardt",
+      "Birgitta",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 8 Dec 2024 15:42:04 GMT"
+    }
+  ],
+  "updateDate": "2024-12-10",
+  "timestamp": 1733672524000,
+  "abstract": "  Sustained mutual coherence between two combs over extended periods is a\nprerequisite for dual-comb spectroscopy (DCS), particularly in achieving\nhigh-resolution molecular spectroscopy and precise spectral measurements.\nHowever, achieving long coherence times remains a challenge for Yb-doped\nfrequency combs. This work introduces an experimental approach for phase-stable\nDCS using Yb-doped frequency combs at 1.03 ${\\mu}$m with a novel feed-forward\nmethod, combatting the limitations of mutual coherence. Without relying on\ncomputer-based phase correction, we achieve a coherence time of 1000 seconds -\nthree orders of magnitude longer than the current state of the art for DCS.\nThis extended coherence enables time-domain averaging, resulting in a\nsignal-to-noise ratio (SNR) of 2045. We demonstrate high-resolution monitoring\nof weak overtone transitions in the P and R branches of C${_2}$H${_2}$, with\ngood agreement with HITRAN. The phase-locked multiheterodyne system also\nenables phase spectrum measurements with a scatter down to 7 mrad. Furthermore,\nwe successfully extend our technique to the visible wavelength range using\nsecond harmonic generation, achieving high-resolution spectra of NO${_2}$ with\nexcellent SNR. The method offers high-frequency accuracy and demonstrates the\npotential of Yb-doped systems for multiplexed metrology, effectively extending\nthe capabilities of DCS as a powerful tool for multi-disciplinary applications.\n",
+  "subjects": [
+    "Physics/Optics",
+    "Physics/Applied Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "lyl8LBn8YQWsWUoe7KiUVwsFUHTK6QJkwL_8nVGdT4U",
+  "pdfSize": "1272296"
+}

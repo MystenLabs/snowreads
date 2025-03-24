@@ -1,0 +1,32 @@
+{
+  "id": "2412.02787",
+  "title": "The Ehrhart series of alcoved polytopes",
+  "authors": "Elisabeth Bullock, Yuhan Jiang",
+  "authorsParsed": [
+    [
+      "Bullock",
+      "Elisabeth",
+      ""
+    ],
+    [
+      "Jiang",
+      "Yuhan",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 3 Dec 2024 19:36:05 GMT"
+    }
+  ],
+  "updateDate": "2024-12-05",
+  "timestamp": 1733254565000,
+  "abstract": "  Alcoved polytopes are convex polytopes which are the closure of a union of\nalcoves in an affine Coxeter arrangement. They are rational polytopes, and\ntherefore have Ehrhart quasipolynomials. We describe a method for computing the\ngenerating function of the Ehrhart quasipolynomial, or Ehrhart series, of any\nalcoved polytope via a particular shelling order of its alcoves. We also\nconjecture a connection between Early's decorated ordered set partitions and\nthis shelling order for the hypersimplex $\\Delta_{2,n}$.\n",
+  "subjects": [
+    "Mathematics/Combinatorics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "G8d-la8V8pI4LWZCm9UQtOAwxnIZ75dVkZQ_5tLvB58",
+  "pdfSize": "187384"
+}

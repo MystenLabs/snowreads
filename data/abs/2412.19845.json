@@ -1,0 +1,28 @@
+{
+  "id": "2412.19845",
+  "title": "Unveiling Secrets of Brain Function With Generative Modeling: Motion\n  Perception in Primates & Cortical Network Organization in Mice",
+  "authors": "Hadi Vafaii",
+  "authorsParsed": [
+    [
+      "Vafaii",
+      "Hadi",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 25 Dec 2024 03:39:18 GMT"
+    }
+  ],
+  "updateDate": "2024-12-31",
+  "timestamp": 1735097958000,
+  "abstract": "  This Dissertation is comprised of two main projects, addressing questions in\nneuroscience through applications of generative modeling.\n  Project #1 (Chapter 4) explores how neurons encode features of the external\nworld. I combine Helmholtz's \"Perception as Unconscious Inference\" --\nparalleled by modern generative models like variational autoencoders (VAE) --\nwith the hierarchical structure of the visual cortex. This combination leads to\nthe development of a hierarchical VAE model, which I test for its ability to\nmimic neurons from the primate visual cortex in response to motion stimuli.\nResults show that the hierarchical VAE perceives motion similar to the primate\nbrain. Additionally, the model identifies causal factors of retinal motion\ninputs, such as object- and self-motion, in a completely unsupervised manner.\nCollectively, these results suggest that hierarchical inference underlines the\nbrain's understanding of the world, and hierarchical VAEs can effectively model\nthis understanding.\n  Project #2 (Chapter 5) investigates the spatiotemporal structure of\nspontaneous brain activity and its reflection of brain states like rest. Using\nsimultaneous fMRI and wide-field Ca2+ imaging data, this project demonstrates\nthat the mouse cortex can be decomposed into overlapping communities, with\naround half of the cortical regions belonging to multiple communities.\nComparisons reveal similarities and differences between networks inferred from\nfMRI and Ca2+ signals.\n  The introduction (Chapter 1) is divided similarly to this abstract: sections\n1.1 to 1.8 provide background information about Project #1, and sections 1.9 to\n1.13 are related to Project #2. Chapter 2 includes historical background,\nChapter 3 provides the necessary mathematical background, and finally, Chapter\n6 contains concluding remarks and future directions.\n",
+  "subjects": [
+    "Quantitative Biology/Neurons and Cognition",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "iPTseDoxx3L8bdWw0u_4Fby9ChTTD4WUVjQ9ZHai67s",
+  "pdfSize": "59604451"
+}

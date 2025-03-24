@@ -1,0 +1,37 @@
+{
+  "id": "2412.03609",
+  "title": "Online Physics-Informed Dynamic Mode Decomposition: Theory and\n  Applications",
+  "authors": "Biqi Chen and Ying Wang",
+  "authorsParsed": [
+    [
+      "Chen",
+      "Biqi",
+      ""
+    ],
+    [
+      "Wang",
+      "Ying",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 4 Dec 2024 12:57:35 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Wed, 19 Feb 2025 07:36:02 GMT"
+    }
+  ],
+  "updateDate": "2025-02-20",
+  "timestamp": 1733317055000,
+  "abstract": "  Dynamic Mode Decomposition (DMD) has received increasing research attention\ndue to its capability to analyze and model complex dynamical systems. However,\nit faces challenges in computational efficiency, noise sensitivity, and\ndifficulty adhering to physical laws, which negatively affect its performance.\nAddressing these issues, we present Online Physics-informed DMD (OPIDMD), a\nnovel adaptation of DMD into a convex optimization framework. This approach not\nonly ensures convergence to a unique global optimum, but also enhances the\nefficiency and accuracy of modeling dynamical systems in an online setting.\nLeveraging the Bayesian DMD framework, we propose a probabilistic\ninterpretation of Physics-informed DMD (piDMD), examining the impact of\nphysical constraints on the DMD linear operator. Further, we implement online\nproximal gradient descent and formulate specific algorithms to tackle problems\nwith different physical constraints, enabling real-time solutions across\nvarious scenarios. Compared with existing algorithms such as Exact DMD, Online\nDMD, and piDMD, OPIDMD achieves the best prediction performance in short-term\nforecasting, e.g. an $R^2$ value of 0.991 for noisy Lorenz system. The proposed\nmethod employs a time-varying linear operator, offering a promising solution\nfor the real-time simulation and control of complex dynamical systems.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Nonlinear Sciences/Adaptation and Self-Organizing Systems"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "A9XF_5LTXN38GeIPa0kwvoK-ivHd5PpgegJ5WvCskko",
+  "pdfSize": "42655165"
+}

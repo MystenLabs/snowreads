@@ -1,0 +1,35 @@
+{
+  "id": "2412.05450",
+  "title": "Promoting Cooperation in the Public Goods Game using Artificial\n  Intelligent Agents",
+  "authors": "Arend Hintze and Christoph Adami",
+  "authorsParsed": [
+    [
+      "Hintze",
+      "Arend",
+      ""
+    ],
+    [
+      "Adami",
+      "Christoph",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 6 Dec 2024 22:16:21 GMT"
+    }
+  ],
+  "updateDate": "2024-12-11",
+  "timestamp": 1733523381000,
+  "abstract": "  The tragedy of the commons illustrates a fundamental social dilemma where\nindividual rational actions lead to collectively undesired outcomes,\nthreatening the sustainability of shared resources. Strategies to escape this\ndilemma, however, are in short supply. In this study, we explore how artificial\nintelligence (AI) agents can be leveraged to enhance cooperation in public\ngoods games, moving beyond traditional regulatory approaches to using AI as\nfacilitators of cooperation. We investigate three scenarios: (1) Mandatory\nCooperation Policy for AI Agents, where AI agents are institutionally mandated\nalways to cooperate; (2) Player-Controlled Agent Cooperation Policy, where\nplayers evolve control over AI agents' likelihood to cooperate; and (3) Agents\nMimic Players, where AI agents copy the behavior of players. Using a\ncomputational evolutionary model with a population of agents playing public\ngoods games, we find that only when AI agents mimic player behavior does the\ncritical synergy threshold for cooperation decrease, effectively resolving the\ndilemma. This suggests that we can leverage AI to promote collective well-being\nin societal dilemmas by designing AI agents to mimic human players.\n",
+  "subjects": [
+    "Computer Science/Computer Science and Game Theory",
+    "Computer Science/Artificial Intelligence",
+    "Nonlinear Sciences/Adaptation and Self-Organizing Systems",
+    "Quantitative Biology/Populations and Evolution"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "-SC1gagtgaK16zfQNvgQizJfHJkJEvpIeMCmGbvaAtA",
+  "pdfSize": "504197"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2412.14938",
+  "title": "Expressivity of AuDaLa: Turing Completeness and Possible Extensions",
+  "authors": "Tom T.P. Franken and Thomas Neele",
+  "authorsParsed": [
+    [
+      "Franken",
+      "Tom T. P.",
+      ""
+    ],
+    [
+      "Neele",
+      "Thomas",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 19 Dec 2024 15:12:59 GMT"
+    }
+  ],
+  "updateDate": "2024-12-20",
+  "timestamp": 1734621179000,
+  "abstract": "  AuDaLa is a recently introduced programming language that follows the new\ndata autonomous paradigm. In this paradigm, small pieces of data execute\nfunctions autonomously. Considering the paradigm and the design choices of\nAuDaLa, it is interesting to determine the expressiveness of the language and\nto create verification methods for it. In this paper, we implement Turing\nmachines in AuDaLa and prove that implementation correct. This proves that\nAuDaLa is Turing complete, giving an initial indication of AuDaLa's\nexpressiveness, and by proving the implementation correct this contributes to\nthe creation of verification methods for AuDaLa. Additionally, we give examples\nof how to add in possible extensions for AuDaLa to increase its expressivity to\nbetter match conventional parallel languages, allowing for a smoother and more\nperformant implementation of algorithms.\n",
+  "subjects": [
+    "Computer Science/Logic in Computer Science",
+    "Computer Science/Programming Languages"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "SD871vGaBecmaXOiGjbitDLKkxpBgfGEpssWFUAFsdI",
+  "pdfSize": "658873"
+}

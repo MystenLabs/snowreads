@@ -1,0 +1,50 @@
+{
+  "id": "2412.11715",
+  "title": "Discrepancy-Aware Attention Network for Enhanced Audio-Visual Zero-Shot\n  Learning",
+  "authors": "RunLin Yu, Yipu Gong, Wenrui Li, Aiwen Sun, Mengren Zheng",
+  "authorsParsed": [
+    [
+      "Yu",
+      "RunLin",
+      ""
+    ],
+    [
+      "Gong",
+      "Yipu",
+      ""
+    ],
+    [
+      "Li",
+      "Wenrui",
+      ""
+    ],
+    [
+      "Sun",
+      "Aiwen",
+      ""
+    ],
+    [
+      "Zheng",
+      "Mengren",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 16 Dec 2024 12:35:56 GMT"
+    }
+  ],
+  "updateDate": "2024-12-17",
+  "timestamp": 1734352556000,
+  "abstract": "  Audio-visual Zero-Shot Learning (ZSL) has attracted significant attention for\nits ability to identify unseen classes and perform well in video classification\ntasks. However, modal imbalance in (G)ZSL leads to over-reliance on the optimal\nmodality, reducing discriminative capabilities for unseen classes. Some studies\nhave attempted to address this issue by modifying parameter gradients, but two\nchallenges still remain: (a) Quality discrepancies, where modalities offer\ndiffering quantities and qualities of information for the same concept. (b)\nContent discrepancies, where sample contributions within a modality vary\nsignificantly. To address these challenges, we propose a Discrepancy-Aware\nAttention Network (DAAN) for Enhanced Audio-Visual ZSL. Our approach introduces\na Quality-Discrepancy Mitigation Attention (QDMA) unit to minimize redundant\ninformation in the high-quality modality and a Contrastive Sample-level\nGradient Modulation (CSGM) block to adjust gradient magnitudes and balance\ncontent discrepancies. We quantify modality contributions by integrating\noptimization and convergence rate for more precise gradient modulation in CSGM.\nExperiments demonstrates DAAN achieves state-of-the-art performance on\nbenchmark datasets, with ablation studies validating the effectiveness of\nindividual modules.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Multimedia",
+    "Computer Science/Sound",
+    "Electrical Engineering and Systems Science/Audio and Speech Processing"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "j-d0iI2aqDV9PTpPJMonQE9Rg1ALwe2MLc7iUIi75Vc",
+  "pdfSize": "870855"
+}

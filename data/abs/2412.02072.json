@@ -1,0 +1,37 @@
+{
+  "id": "2412.02072",
+  "title": "Performance Comparison of Deep Learning Techniques in Naira\n  Classification",
+  "authors": "Ismail Ismail Tijjani, Ahmad Abubakar Mustapha, Isma'il Tijjani Idris",
+  "authorsParsed": [
+    [
+      "Tijjani",
+      "Ismail Ismail",
+      ""
+    ],
+    [
+      "Mustapha",
+      "Ahmad Abubakar",
+      ""
+    ],
+    [
+      "Idris",
+      "Isma'il Tijjani",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 3 Dec 2024 01:25:55 GMT"
+    }
+  ],
+  "updateDate": "2024-12-04",
+  "timestamp": 1733189155000,
+  "abstract": "  The Naira is Nigeria's official currency in daily transactions. This study\npresents the deployment and evaluation of Deep Learning (DL) models to classify\nCurrency Notes (Naira) by denomination. Using a diverse dataset of 1,808 images\nof Naira notes captured under different conditions, trained the models\nemploying different architectures and got the highest accuracy with\nMobileNetV2, the model achieved a high accuracy rate of in training of 90.75%\nand validation accuracy of 87.04% in classification tasks and demonstrated\nsubstantial performance across various scenarios. This model holds significant\npotential for practical applications, including automated cash handling\nsystems, sorting systems, and assistive technology for the visually impaired.\nThe results demonstrate how the model could boost the Nigerian economy's\nsecurity and efficiency of financial transactions.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "P2HoKZ5lgFGqQkn_iyU6Z4xkWoyTSyeCmvTFTQeW1E8",
+  "pdfSize": "644195"
+}

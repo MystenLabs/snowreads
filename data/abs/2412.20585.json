@@ -1,0 +1,39 @@
+{
+  "id": "2412.20585",
+  "title": "Refining lower bounds on sterile neutrino dark matter mass from\n  estimates of phase space densities in dwarf galaxies",
+  "authors": "Fedor Bezrukov, Dmitry Gorbunov, Ekaterina Koreshkova",
+  "authorsParsed": [
+    [
+      "Bezrukov",
+      "Fedor",
+      ""
+    ],
+    [
+      "Gorbunov",
+      "Dmitry",
+      ""
+    ],
+    [
+      "Koreshkova",
+      "Ekaterina",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 29 Dec 2024 21:13:12 GMT"
+    }
+  ],
+  "updateDate": "2024-12-31",
+  "timestamp": 1735506792000,
+  "abstract": "  Dwarf spheroidal galaxies (dSphs) are recognized as being highly dominated by\nDark Matter (DM), making them excellent targets for testing DM models through\nastrophysical observations. One effective method involves estimating the\ncoarse-grained phase-space density (PSD) of the galactic DM component. By\ncomparing this PSD with that of DM particles produced in the early Universe, it\nis possible to establish lower bounds on the DM particle mass. These\nconstraints are particularly relevant for models of warm DM, such as those\ninvolving sterile neutrinos. Utilizing the GravSphere code, we obtain a fit of\nthe DM PSD based on the latest reliable stellar dynamics data for twenty of the\ndarkest dSphs, refining earlier lower bounds on sterile neutrino masses in\nnon-resonant production scenarios. Additionally, we introduce an alternative\napproach involving the Excess Mass Function (EMF), which yields even tighter\nconstraints. Specifically, using the maximum PSD, we derive a lower bound of\n$m>1.02$ keV at 95% confidence level, while the EMF method provides a stronger\nlimit of $m>1.98$ keV at 95% CL. Both methods are versatile and can be extended\nto more complex DM production mechanisms in the early Universe. For the first\ntime, we also constrain parameters of models involving non-standard cosmologies\nduring the epoch of neutrino production. Our analysis yields $m>2.54$ keV for\nmodels with kination domination and $m>4.71$ keV for scenarios with extremely\nlow reheating temperature.\n",
+  "subjects": [
+    "Physics/High Energy Physics - Phenomenology",
+    "Astrophysics/Cosmology and Nongalactic Astrophysics",
+    "Astrophysics/Astrophysics of Galaxies"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "LwSD7pIJ-6AywY0_4tvzTzFBUGKR7PY5OwQWleTeaA4",
+  "pdfSize": "648864"
+}

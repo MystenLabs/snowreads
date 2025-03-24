@@ -1,0 +1,37 @@
+{
+  "id": "2412.17412",
+  "title": "Silencer: Robust Community Detection by Silencing of Noisy Pixels",
+  "authors": "Kai Wu, Ziang Xie, Jing Liu",
+  "authorsParsed": [
+    [
+      "Wu",
+      "Kai",
+      ""
+    ],
+    [
+      "Xie",
+      "Ziang",
+      ""
+    ],
+    [
+      "Liu",
+      "Jing",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 23 Dec 2024 09:23:34 GMT"
+    }
+  ],
+  "updateDate": "2024-12-24",
+  "timestamp": 1734945814000,
+  "abstract": "  Real-world networks carry all kinds of noise, resulting in numerous\nchallenges for community detection. Further improving the performance and\nrobustness of community detection has attracted significant attention. This\npaper considers edge noise, which causes edges in the network to be added or\nremoved. Existing methods achieve graph denoising through link prediction or\nrobustness in low eigenvectors. However, they are either limited in application\nscenarios or not determined for effectiveness. We find that the noisy pixel in\nthe adjacency matrix has a certain proportion in the loss function, which makes\nthe optimization of the community detection model seriously deviate from the\ncorrect direction. Thus, we design an flexible framework to silence the\ncontribution of noisy pixels to loss function, called Silencer. We take the\nnonnegative matrix factorization (NMF) and deep NMF methods as examples since\nthey are the prime models for community detection. We first prove the\nconvergence of Silencer in NMF. Compared with existing methods, Silencer show\ntop performance in six real-world networks with random noise, adversarial\nperturbation, and mixed noise. Moreover, Silencer works on random (ER),\nscale-free (BA), and small-world (WS) networks, and the improvement of Silencer\nis gradually insignificant in the order ER, BA, and WS networks.\n",
+  "subjects": [
+    "Computer Science/Social and Information Networks"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "2QEiiKjjlY6UDXMlzLU9wq2eaE8R0YmMAp3rJOBIZ0A",
+  "pdfSize": "1173078"
+}

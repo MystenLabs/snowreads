@@ -1,0 +1,41 @@
+{
+  "id": "2412.11440",
+  "title": "Radiative cooling changes the dynamics of magnetically arrested disks",
+  "authors": "Akshay Singh (1), Damien B\\'egu\\'e (1) and Asaf Pe'er (1) ((1)\n  Bar-Ilan University)",
+  "authorsParsed": [
+    [
+      "Singh",
+      "Akshay",
+      ""
+    ],
+    [
+      "Bégué",
+      "Damien",
+      ""
+    ],
+    [
+      "Pe'er",
+      "Asaf",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 16 Dec 2024 04:43:56 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Mon, 17 Feb 2025 05:32:08 GMT"
+    }
+  ],
+  "updateDate": "2025-02-18",
+  "timestamp": 1734324236000,
+  "abstract": "  We studied magnetically arrested disks (MAD) around rotating black holes\n(BH), under the influence of radiative cooling. We introduce a critical value\nof the mass accretion rate $\\dot M_{\\rm crit}$ for which the cooling by the\nsynchrotron process efficiently radiates the thermal energy of the disk. We\nfind $\\dot M_{\\rm crit} \\approx 10^{-5.5} \\dot M_{\\rm Edd}$, where $\\dot M_{\\rm\nEdd}$ is the Eddington mass accretion rate. The normalization constant depends\non the saturated magnetic flux and on the ratio of electron to proton\ntemperatures, but not on the BH mass. We verify our analytical estimate using a\nsuite of general relativistic magnetohydrodynamic (GRMHD) simulations for a\nrange of black hole spin parameters $a \\in \\{ -0.94, -0.5, 0, 0.5, 0.94 \\}$ and\nmass accretion rates ranging from $10^{-7}\\dot M_{\\rm Edd}$ to $10^{-4}\\dot\nM_{\\rm Edd}$. We numerically observe that the MAD parameter and the jet\nefficiency vary by a factor of $\\approx 2$ as the mass accretion rate increases\nabove $\\dot M_{\\rm crit}$, which confirms our analytical result. We further\ndetail how the forces satisfying the quasi-equilibrium of the disk change, with\nthe magnetic contribution increasing as the thermal contribution decreases.\n",
+  "subjects": [
+    "Astrophysics/High Energy Astrophysical Phenomena"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "Smk5HKfKeYB5Yq_KiMuH-Hrb1O59fM_3rR_MmWvMVwM",
+  "pdfSize": "668099"
+}

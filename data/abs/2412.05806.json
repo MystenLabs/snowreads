@@ -1,0 +1,30 @@
+{
+  "id": "2412.05806",
+  "title": "Why Machine Learning Models Systematically Underestimate Extreme Values",
+  "authors": "Yuan-Sen Ting",
+  "authorsParsed": [
+    [
+      "Ting",
+      "Yuan-Sen",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 8 Dec 2024 04:04:58 GMT"
+    }
+  ],
+  "updateDate": "2024-12-10",
+  "timestamp": 1733630698000,
+  "abstract": "  A persistent challenge in astronomical machine learning is a systematic bias\nwhere predictions compress the dynamic range of true values -- high values are\nconsistently predicted too low while low values are predicted too high.\nUnderstanding this bias has important consequences for astronomical\nmeasurements and our understanding of physical processes in astronomical\ninference. Through analytical examination of linear regression, we show that\nthis bias arises naturally from measurement uncertainties in input features and\npersists regardless of training sample size, label accuracy, or parameter\ndistribution. In the univariate case, we demonstrate that attenuation becomes\nimportant when the ratio of intrinsic signal range to measurement uncertainty\n($\\sigma_{\\text{range}}/\\sigma_x$) is below O(10) -- a regime common in\nastronomy. We further extend the theoretical framework to multivariate linear\nregression and demonstrate its implications using stellar spectroscopy as a\ncase study. Even under optimal conditions -- high-resolution APOGEE-like\nspectra (R=24,000) with high signal-to-noise ratios (SNR=100) and multiple\ncorrelated features -- we find percent-level bias. The effect becomes even more\nsevere for modern-day low-resolution surveys like LAMOST and DESI due to the\nlower SNR and resolution. These findings have broad implications, providing a\ntheoretical framework for understanding and addressing this limitation in\nastronomical data analysis with machine learning.\n",
+  "subjects": [
+    "Astrophysics/Instrumentation and Methods for Astrophysics",
+    "Astrophysics/Cosmology and Nongalactic Astrophysics",
+    "Astrophysics/Astrophysics of Galaxies",
+    "Astrophysics/Solar and Stellar Astrophysics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "Aw8JgB9HYJ1t6IdaHB79HulaqEnYPONkv34_iUKc9Ts",
+  "pdfSize": "7915628"
+}

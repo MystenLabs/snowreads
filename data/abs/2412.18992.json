@@ -1,0 +1,43 @@
+{
+  "id": "2412.18992",
+  "title": "Optimal Federated Learning for Functional Mean Estimation under\n  Heterogeneous Privacy Constraints",
+  "authors": "Tony Cai, Abhinav Chakraborty, Lasse Vuursteen",
+  "authorsParsed": [
+    [
+      "Cai",
+      "Tony",
+      ""
+    ],
+    [
+      "Chakraborty",
+      "Abhinav",
+      ""
+    ],
+    [
+      "Vuursteen",
+      "Lasse",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 25 Dec 2024 22:06:12 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Wed, 15 Jan 2025 18:07:15 GMT"
+    }
+  ],
+  "updateDate": "2025-01-16",
+  "timestamp": 1735164372000,
+  "abstract": "  Federated learning (FL) is a distributed machine learning technique designed\nto preserve data privacy and security, and it has gained significant importance\ndue to its broad range of applications. This paper addresses the problem of\noptimal functional mean estimation from discretely sampled data in a federated\nsetting.\n  We consider a heterogeneous framework where the number of individuals,\nmeasurements per individual, and privacy parameters vary across one or more\nservers, under both common and independent design settings. In the common\ndesign setting, the same design points are measured for each individual,\nwhereas in the independent design, each individual has their own random\ncollection of design points. Within this framework, we establish minimax upper\nand lower bounds for the estimation error of the underlying mean function,\nhighlighting the nuanced differences between common and independent designs\nunder distributed privacy constraints.\n  We propose algorithms that achieve the optimal trade-off between privacy and\naccuracy and provide optimality results that quantify the fundamental limits of\nprivate functional mean estimation across diverse distributed settings. These\nresults characterize the cost of privacy and offer practical insights into the\npotential for privacy-preserving statistical analysis in federated\nenvironments.\n",
+  "subjects": [
+    "Mathematics/Statistics Theory",
+    "Computer Science/Machine Learning",
+    "Statistics/Statistics Theory"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "OA2NXE1ZWNG-pgqXzTSmhEkWFUNBJLvoZq1241UOfWc",
+  "pdfSize": "681719"
+}

@@ -1,0 +1,57 @@
+{
+  "id": "2412.09743",
+  "title": "Should We Learn Contact-Rich Manipulation Policies from Sampling-Based\n  Planners?",
+  "authors": "Huaijiang Zhu, Tong Zhao, Xinpei Ni, Jiuguang Wang, Kuan Fang, Ludovic\n  Righetti, Tao Pang",
+  "authorsParsed": [
+    [
+      "Zhu",
+      "Huaijiang",
+      ""
+    ],
+    [
+      "Zhao",
+      "Tong",
+      ""
+    ],
+    [
+      "Ni",
+      "Xinpei",
+      ""
+    ],
+    [
+      "Wang",
+      "Jiuguang",
+      ""
+    ],
+    [
+      "Fang",
+      "Kuan",
+      ""
+    ],
+    [
+      "Righetti",
+      "Ludovic",
+      ""
+    ],
+    [
+      "Pang",
+      "Tao",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 12 Dec 2024 22:19:27 GMT"
+    }
+  ],
+  "updateDate": "2024-12-16",
+  "timestamp": 1734041967000,
+  "abstract": "  The tremendous success of behavior cloning (BC) in robotic manipulation has\nbeen largely confined to tasks where demonstrations can be effectively\ncollected through human teleoperation. However, demonstrations for contact-rich\nmanipulation tasks that require complex coordination of multiple contacts are\ndifficult to collect due to the limitations of current teleoperation\ninterfaces. We investigate how to leverage model-based planning and\noptimization to generate training data for contact-rich dexterous manipulation\ntasks. Our analysis reveals that popular sampling-based planners like rapidly\nexploring random tree (RRT), while efficient for motion planning, produce\ndemonstrations with unfavorably high entropy. This motivates modifications to\nour data generation pipeline that prioritizes demonstration consistency while\nmaintaining solution diversity. Combined with a diffusion-based\ngoal-conditioned BC approach, our method enables effective policy learning and\nzero-shot transfer to hardware for two challenging contact-rich manipulation\ntasks.\n",
+  "subjects": [
+    "Computer Science/Robotics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "-7ypxfCdxBac_GwvB5oA5rlYsHRX_1FNger_2w2opts",
+  "pdfSize": "4093137"
+}

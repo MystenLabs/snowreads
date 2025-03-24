@@ -1,0 +1,37 @@
+{
+  "id": "2412.14142",
+  "title": "On Calibration in Multi-Distribution Learning",
+  "authors": "Rajeev Verma, Volker Fischer, Eric Nalisnick",
+  "authorsParsed": [
+    [
+      "Verma",
+      "Rajeev",
+      ""
+    ],
+    [
+      "Fischer",
+      "Volker",
+      ""
+    ],
+    [
+      "Nalisnick",
+      "Eric",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 18 Dec 2024 18:41:40 GMT"
+    }
+  ],
+  "updateDate": "2024-12-19",
+  "timestamp": 1734547300000,
+  "abstract": "  Modern challenges of robustness, fairness, and decision-making in machine\nlearning have led to the formulation of multi-distribution learning (MDL)\nframeworks in which a predictor is optimized across multiple distributions. We\nstudy the calibration properties of MDL to better understand how the predictor\nperforms uniformly across the multiple distributions. Through classical results\non decomposing proper scoring losses, we first derive the Bayes optimal rule\nfor MDL, demonstrating that it maximizes the generalized entropy of the\nassociated loss function. Our analysis reveals that while this approach ensures\nminimal worst-case loss, it can lead to non-uniform calibration errors across\nthe multiple distributions and there is an inherent calibration-refinement\ntrade-off, even at Bayes optimality. Our results highlight a critical\nlimitation: despite the promise of MDL, one must use caution when designing\npredictors tailored to multiple distributions so as to minimize disparity.\n",
+  "subjects": [
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "h-EEXr16oPFj2EmwWNC9zbxgEohmZWqJGC5N2XU1rcg",
+  "pdfSize": "472058"
+}

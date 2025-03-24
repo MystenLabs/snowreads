@@ -1,0 +1,31 @@
+{
+  "id": "2412.08798",
+  "title": "Equilibria of the Colonel Blotto Games with Costs",
+  "authors": "Stanis{\\l}aw Ka\\'zmierowski",
+  "authorsParsed": [
+    [
+      "Kaźmierowski",
+      "Stanisław",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 11 Dec 2024 22:08:00 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Wed, 18 Dec 2024 18:43:54 GMT"
+    }
+  ],
+  "updateDate": "2024-12-19",
+  "timestamp": 1733954880000,
+  "abstract": "  This paper studies a generalized variant of the Colonel Blotto game, referred\nto as the Colonel Blotto game with costs. Unlike the classic Colonel Blotto\ngame, which imposes the use-it-or-lose-it budget assumption, the Colonel Blotto\ngame with costs captures the strategic importance of costs related both to\nobtaining resources and assigning them across battlefields. We show that every\ninstance of the Colonel Blotto game with costs is strategically equivalent to\nan instance of the zero-sum Colonel Blotto game with one additional\nbattlefield. This enables the computation of Nash equilibria of the Colonel\nBlotto game with costs in polynomial time with respect to the game parameters:\nthe number of battlefields and the number of resources available to the\nplayers.\n",
+  "subjects": [
+    "Computer Science/Computer Science and Game Theory"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "3VKT-Me_jdPIn95d-87XlllvlNygV5vHzvOsNANIT2M",
+  "pdfSize": "364284"
+}

@@ -1,0 +1,47 @@
+{
+  "id": "2412.20881",
+  "title": "LiDAR-Camera Fusion for Video Panoptic Segmentation without Video\n  Training",
+  "authors": "Fardin Ayar, Ehsan Javanmardi, Manabu Tsukada, Mahdi Javanmardi,\n  Mohammad Rahmati",
+  "authorsParsed": [
+    [
+      "Ayar",
+      "Fardin",
+      ""
+    ],
+    [
+      "Javanmardi",
+      "Ehsan",
+      ""
+    ],
+    [
+      "Tsukada",
+      "Manabu",
+      ""
+    ],
+    [
+      "Javanmardi",
+      "Mahdi",
+      ""
+    ],
+    [
+      "Rahmati",
+      "Mohammad",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 30 Dec 2024 11:43:51 GMT"
+    }
+  ],
+  "updateDate": "2024-12-31",
+  "timestamp": 1735559031000,
+  "abstract": "  Panoptic segmentation, which combines instance and semantic segmentation, has\ngained a lot of attention in autonomous vehicles, due to its comprehensive\nrepresentation of the scene. This task can be applied for cameras and LiDAR\nsensors, but there has been a limited focus on combining both sensors to\nenhance image panoptic segmentation (PS). Although previous research has\nacknowledged the benefit of 3D data on camera-based scene perception, no\nspecific study has explored the influence of 3D data on image and video\npanoptic segmentation (VPS).This work seeks to introduce a feature fusion\nmodule that enhances PS and VPS by fusing LiDAR and image data for autonomous\nvehicles. We also illustrate that, in addition to this fusion, our proposed\nmodel, which utilizes two simple modifications, can further deliver even more\nhigh-quality VPS without being trained on video data. The results demonstrate a\nsubstantial improvement in both the image and video panoptic segmentation\nevaluation metrics by up to 5 points.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "49aco14QgAtSsZSV1su3T3EHFeXLWIIiVlEu5Xx2qZQ",
+  "pdfSize": "3365806"
+}

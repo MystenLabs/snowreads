@@ -1,0 +1,38 @@
+{
+  "id": "2412.02465",
+  "title": "Numerical approaches to compute spectra of non-self adjoint operators in\n  dimensions two and three",
+  "authors": "Fatima Aboud, Fran\\c{c}ois Jauberteau and Didier Robert",
+  "authorsParsed": [
+    [
+      "Aboud",
+      "Fatima",
+      ""
+    ],
+    [
+      "Jauberteau",
+      "François",
+      ""
+    ],
+    [
+      "Robert",
+      "Didier",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 3 Dec 2024 14:05:50 GMT"
+    }
+  ],
+  "updateDate": "2024-12-04",
+  "timestamp": 1733234750000,
+  "abstract": "  In this article we are interested for the numerical computation of spectra of\nnon-self adjoint quadratic operators, in two and three spatial dimensions.\nIndeed, in the multidimensional case very few results are known on the location\nof the eignevalues. This leads to solve nonlinear eigenvalue problems. In\nintroduction we begin with a review of theoretical results and numerical\nresults obtained for the one dimensional case. Then we present the numerical\nmethods developed to compute the spectra (finite difference discretization) for\nthe two and three dimensional cases. The numerical results obtained are\npresented and analyzed. One difficulty here is that we have to compute\neigenvalues of strongly non-self-adjoint operators which are unstable. This\nwork is in continuity of a previous work in one spatial dimension.\n",
+  "subjects": [
+    "Mathematics/Numerical Analysis",
+    "Computer Science/Numerical Analysis"
+  ],
+  "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+  "blobId": "AFDKwEdKZB8TAx6lFEoSGytIv1b1tIUjKzJVI7qaH7Q",
+  "pdfSize": "15533770"
+}

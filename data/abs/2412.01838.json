@@ -1,0 +1,28 @@
+{
+  "id": "2412.01838",
+  "title": "Neutron Counting Statistics calculations Using Deterministic Transport",
+  "authors": "Philippe Humbert",
+  "authorsParsed": [
+    [
+      "Humbert",
+      "Philippe",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 17 Nov 2024 17:30:24 GMT"
+    }
+  ],
+  "updateDate": "2024-12-04",
+  "timestamp": 1731864624000,
+  "abstract": "  For a number of applications like low-source reactor start-up or neutron\ncoincidence counting it is necessary to take into account the stochastic nature\nof neutron transport and go beyond the average neutron density, which is\nsolution of a linear Boltzmann equation. In this work, we are particularly\ninterested in calculating the moments and probabilities of the number of\nneutrons detected during a time window. It is known that in case of a single\ninitial neutron these quantities are solution of a system of coupled adjoint\ntransport equations and that a neutron source can be taken into account in a\nsecond time using summations with the source strength. The purpose of the\npresent work is first to present the derivation of these equations in a form\nwhere they can be solved up an arbitrary order and where the fission terms are\nexpanded according to the moments of the fission multiplicity. For simplicity,\nthe derivation is first presented in a lumped also called point model\napproximation before considering the full phase-space case. Thereafter, we\ndescribe the implementation of the solution algorithm in the deterministic,\ndiscrete ordinates code PANDA and finally, we present some numerical results\nand inter-code comparisons for verification purposes and to illustrate the\napplicability of the method.\n",
+  "subjects": [
+    "Physics/Computational Physics",
+    "Physics/Nuclear Experiment"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "Cn_P4v22EFuV6cKMEvLTBCOJ80EzBunFmdRJFSW-DEY",
+  "pdfSize": "899156"
+}

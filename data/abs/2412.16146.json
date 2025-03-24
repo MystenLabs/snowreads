@@ -1,0 +1,56 @@
+{
+  "id": "2412.16146",
+  "title": "Mamba2D: A Natively Multi-Dimensional State-Space Model for Vision Tasks",
+  "authors": "Enis Baty, Alejandro Hern\\'andez D\\'iaz, Chris Bridges, Rebecca\n  Davidson, Steve Eckersley, Simon Hadfield",
+  "authorsParsed": [
+    [
+      "Baty",
+      "Enis",
+      ""
+    ],
+    [
+      "Díaz",
+      "Alejandro Hernández",
+      ""
+    ],
+    [
+      "Bridges",
+      "Chris",
+      ""
+    ],
+    [
+      "Davidson",
+      "Rebecca",
+      ""
+    ],
+    [
+      "Eckersley",
+      "Steve",
+      ""
+    ],
+    [
+      "Hadfield",
+      "Simon",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 20 Dec 2024 18:50:36 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Fri, 17 Jan 2025 10:56:33 GMT"
+    }
+  ],
+  "updateDate": "2025-01-20",
+  "timestamp": 1734720636000,
+  "abstract": "  State-Space Models (SSMs) have recently emerged as a powerful and efficient\nalternative to the long-standing transformer architecture. However, existing\nSSM conceptualizations retain deeply rooted biases from their roots in natural\nlanguage processing. This constrains their ability to appropriately model the\nspatially-dependent characteristics of visual inputs. In this paper, we address\nthese limitations by re-deriving modern selective state-space techniques,\nstarting from a natively multidimensional formulation. Currently, prior works\nattempt to apply natively 1D SSMs to 2D data (i.e. images) by relying on\narbitrary combinations of 1D scan directions to capture spatial dependencies.\nIn contrast, Mamba2D improves upon this with a single 2D scan direction that\nfactors in both dimensions of the input natively, effectively modelling spatial\ndependencies when constructing hidden states. Mamba2D shows comparable\nperformance to prior adaptations of SSMs for vision tasks, on standard image\nclassification evaluations with the ImageNet-1K dataset. Source code is\navailable at https://github.com/cocoalex00/Mamba2D.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "k7LFf9nNn-0-lqPGk3YRzM5n1matoYhKHIEYz1w0h5o",
+  "pdfSize": "881462"
+}

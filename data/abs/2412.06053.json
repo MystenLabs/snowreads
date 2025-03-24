@@ -1,0 +1,62 @@
+{
+  "id": "2412.06053",
+  "title": "Adaptive and Context-Aware Volumetric Printing",
+  "authors": "Sammy Florczak, Gabriel Groessbacher, Davide Ribezzi, Alessia Longoni,\n  Marieme Gueye, Estee Grandidier, Jos Malda, Riccardo Levato",
+  "authorsParsed": [
+    [
+      "Florczak",
+      "Sammy",
+      ""
+    ],
+    [
+      "Groessbacher",
+      "Gabriel",
+      ""
+    ],
+    [
+      "Ribezzi",
+      "Davide",
+      ""
+    ],
+    [
+      "Longoni",
+      "Alessia",
+      ""
+    ],
+    [
+      "Gueye",
+      "Marieme",
+      ""
+    ],
+    [
+      "Grandidier",
+      "Estee",
+      ""
+    ],
+    [
+      "Malda",
+      "Jos",
+      ""
+    ],
+    [
+      "Levato",
+      "Riccardo",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 8 Dec 2024 20:19:01 GMT"
+    }
+  ],
+  "updateDate": "2024-12-10",
+  "timestamp": 1733689141000,
+  "abstract": "  We introduce Generative, Adaptive, Context-Aware 3D Printing (GRACE), a novel\napproach combining 3D imaging, computer vision, and parametric modelling to\ncreate tailored, context-aware geometries using volumetric additive\nmanufacturing. GRACE rapidly and automatically generates complex structures\ncapable of conforming directly around features ranging from cellular to\nmacroscopic scales with minimal user intervention. We demonstrate its\nversatility in applications ranging from synthetic objects to biofabrication,\nincluding adaptive vascular-like geometries around cell-laden bioinks,\nresulting in improved functionality. GRACE also enables precise alignment of\nsequential prints, in addition to the detection and overprinting of opaque\nsurfaces through shadow correction. Compatible with various printing\nmodalities, GRACE transcends traditional additive manufacturing limitations,\nopening new avenues in tissue engineering and regenerative medicine.\n",
+  "subjects": [
+    "Physics/Optics"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "xzwTHn4xI_nO-8LqWmL6jK5ylQA2NBl1D_r2jQ4X8B4",
+  "pdfSize": "1579194"
+}

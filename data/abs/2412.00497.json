@@ -1,0 +1,43 @@
+{
+  "id": "2412.00497",
+  "title": "Distributed Differentially Private Data Analytics via Secure Sketching",
+  "authors": "Jakob Burkhardt, Hannah Keller, Claudio Orlandi, Chris Schwiegelshohn",
+  "authorsParsed": [
+    [
+      "Burkhardt",
+      "Jakob",
+      ""
+    ],
+    [
+      "Keller",
+      "Hannah",
+      ""
+    ],
+    [
+      "Orlandi",
+      "Claudio",
+      ""
+    ],
+    [
+      "Schwiegelshohn",
+      "Chris",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 30 Nov 2024 14:43:00 GMT"
+    }
+  ],
+  "updateDate": "2024-12-03",
+  "timestamp": 1732977780000,
+  "abstract": "  We explore the use of distributed differentially private computations across\nmultiple servers, balancing the tradeoff between the error introduced by the\ndifferentially private mechanism and the computational efficiency of the\nresulting distributed algorithm.\n  We introduce the linear-transformation model, where clients have access to a\ntrusted platform capable of applying a public matrix to their inputs. Such\ncomputations can be securely distributed across multiple servers using simple\nand efficient secure multiparty computation techniques.\n  The linear-transformation model serves as an intermediate model between the\nhighly expressive central model and the minimal local model. In the central\nmodel, clients have access to a trusted platform capable of applying any\nfunction to their inputs. However, this expressiveness comes at a cost, as it\nis often expensive to distribute such computations, leading to the central\nmodel typically being implemented by a single trusted server. In contrast, the\nlocal model assumes no trusted platform, which forces clients to add\nsignificant noise to their data. The linear-transformation model avoids the\nsingle point of failure for privacy present in the central model, while also\nmitigating the high noise required in the local model.\n  We demonstrate that linear transformations are very useful for differential\nprivacy, allowing for the computation of linear sketches of input data. These\nsketches largely preserve utility for tasks such as private low-rank\napproximation and private ridge regression, while introducing only minimal\nerror, critically independent of the number of clients. Previously, such\naccuracy had only been achieved in the more expressive central model.\n",
+  "subjects": [
+    "Computer Science/Cryptography and Security",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "YJOhMT5rcr-pUwRq35ncghozvNVKemYJJ6_HMDnfPqo",
+  "pdfSize": "1110090"
+}

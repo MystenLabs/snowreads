@@ -1,0 +1,34 @@
+{
+  "id": "2412.19359",
+  "title": "Transit-Length Distribution for Particle Transport in Binary Markovian\n  Mixed Media",
+  "authors": "Brian C. Kiedrowski and Emily H. Vu",
+  "authorsParsed": [
+    [
+      "Kiedrowski",
+      "Brian C.",
+      ""
+    ],
+    [
+      "Vu",
+      "Emily H.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 26 Dec 2024 21:46:14 GMT"
+    }
+  ],
+  "updateDate": "2024-12-30",
+  "timestamp": 1735249574000,
+  "abstract": "  The correspondence between the telegraph random process and transport within\na binary stochastic Markovian mixture is established. This equivalence is used\nto derive the distribution function for the transit length, defined as the\ndistance a particle moving along a straight-line trajectory travels through a\nspecific material zone within the random mixture. A numerically robust\nasymptotic form of this distribution is obtained for highly mixed materials and\nthe convergence to the atomic-mix limit is shown. The validity of the\ndistribution is verified using a Monte Carlo simulation of the transport\nprocess. The distribution is applied to particle transport in slab geometry\ncontaining porous media for two cases: the transmission of light and the\nstopping of charged particles. For both of these applications, analytical forms\nusing the approximate asymptotic model for the transmission probability of beam\nsources are obtained and illustrative numerical results are provided. These\nresults show that in cases of highly mixed materials, the asymptotic forms are\nmore accurate than the atomic-mix limit.\n",
+  "subjects": [
+    "Physics/Mathematical Physics",
+    "Mathematics/Mathematical Physics",
+    "Physics/Computational Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "XLwyDpQgUE7iraehW62yKnLbVE-MVMu7abzuGWyUzfQ",
+  "pdfSize": "690493"
+}

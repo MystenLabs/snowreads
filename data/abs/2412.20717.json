@@ -1,0 +1,32 @@
+{
+  "id": "2412.20717",
+  "title": "Closing Speed Computation using Stereo Camera and Applications in\n  Unsignalized T-Intersection",
+  "authors": "Gautam Kumar and Ashwini Ratnoo",
+  "authorsParsed": [
+    [
+      "Kumar",
+      "Gautam",
+      ""
+    ],
+    [
+      "Ratnoo",
+      "Ashwini",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 30 Dec 2024 05:14:36 GMT"
+    }
+  ],
+  "updateDate": "2024-12-31",
+  "timestamp": 1735535676000,
+  "abstract": "  This letter presents a conflict resolution strategy for an autonomous vehicle\nmounted with a stereo camera approaching an unsignalized T-intersection. A\nmathematical model for uncertainty in stereo camera depth measurements is\nconsidered and an analysis establishes the proposed adaptive depth sampling\nlogic which guarantees an upper bound on the computed closing speed. Further, a\ncollision avoidance logic is proposed that utilizes the closing speed bound and\ngenerates a safe trajectory plan based on the convex hull property of a\nquadratic B\\'ezier curve-based reference path. Realistic validation studies are\npresented with neighboring vehicle trajectories generated using Next Generation\nSimulation (NGSIM) dataset.\n",
+  "subjects": [
+    "Computer Science/Robotics"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "MntdfEtIpT7kpIzWhJM1Hq40TaaSeUq2MbX_R_tx_MY",
+  "pdfSize": "1094628"
+}

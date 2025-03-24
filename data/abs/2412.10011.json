@@ -1,0 +1,50 @@
+{
+  "id": "2412.10011",
+  "title": "Enhanced Speech Emotion Recognition with Efficient Channel Attention\n  Guided Deep CNN-BiLSTM Framework",
+  "authors": "Niloy Kumar Kundu, Sarah Kobir, Md. Rayhan Ahmed, Tahmina Aktar,\n  Niloya Roy",
+  "authorsParsed": [
+    [
+      "Kundu",
+      "Niloy Kumar",
+      ""
+    ],
+    [
+      "Kobir",
+      "Sarah",
+      ""
+    ],
+    [
+      "Ahmed",
+      "Md. Rayhan",
+      ""
+    ],
+    [
+      "Aktar",
+      "Tahmina",
+      ""
+    ],
+    [
+      "Roy",
+      "Niloya",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 13 Dec 2024 09:55:03 GMT"
+    }
+  ],
+  "updateDate": "2024-12-16",
+  "timestamp": 1734083703000,
+  "abstract": "  Speech emotion recognition (SER) is crucial for enhancing affective computing\nand enriching the domain of human-computer interaction. However, the main\nchallenge in SER lies in selecting relevant feature representations from speech\nsignals with lower computational costs. In this paper, we propose a lightweight\nSER architecture that integrates attention-based local feature blocks (ALFBs)\nto capture high-level relevant feature vectors from speech signals. We also\nincorporate a global feature block (GFB) technique to capture sequential,\nglobal information and long-term dependencies in speech signals. By aggregating\nattention-based local and global contextual feature vectors, our model\neffectively captures the internal correlation between salient features that\nreflect complex human emotional cues. To evaluate our approach, we extracted\nfour types of spectral features from speech audio samples: mel-frequency\ncepstral coefficients, mel-spectrogram, root mean square value, and\nzero-crossing rate. Through a 5-fold cross-validation strategy, we tested the\nproposed method on five multi-lingual standard benchmark datasets: TESS,\nRAVDESS, BanglaSER, SUBESCO, and Emo-DB, and obtained a mean accuracy of\n99.65%, 94.88%, 98.12%, 97.94%, and 97.19% respectively. The results indicate\nthat our model achieves state-of-the-art (SOTA) performance compared to most\nexisting methods.\n",
+  "subjects": [
+    "Computer Science/Sound",
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Machine Learning",
+    "Electrical Engineering and Systems Science/Audio and Speech Processing"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "Z3UCDIH6fjsp1UBIsabbg89LK7U7tJKuW7f3OMpzZ_Q",
+  "pdfSize": "4411323"
+}

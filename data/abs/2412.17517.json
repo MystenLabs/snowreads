@@ -1,0 +1,32 @@
+{
+  "id": "2412.17517",
+  "title": "Dataset for Real-World Human Action Detection Using FMCW mmWave Radar",
+  "authors": "Dylan jayabahu and Parthipan Siva",
+  "authorsParsed": [
+    [
+      "jayabahu",
+      "Dylan",
+      ""
+    ],
+    [
+      "Siva",
+      "Parthipan",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 23 Dec 2024 12:30:28 GMT"
+    }
+  ],
+  "updateDate": "2024-12-24",
+  "timestamp": 1734957028000,
+  "abstract": "  Human action detection using privacy-preserving mmWave radar sensors is\nstudied for its applications in healthcare and home automation. Unlike existing\nresearch, limited to simulations in controlled environments, we present a\nreal-world mmWave radar dataset with baseline results for human action\ndetection.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "6_durYRX_zpLHPSly3GTPhCAsgkyjEHKHJBfd6Fc6ZI",
+  "pdfSize": "786523"
+}

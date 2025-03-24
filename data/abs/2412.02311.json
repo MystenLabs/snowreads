@@ -1,0 +1,38 @@
+{
+  "id": "2412.02311",
+  "title": "Simulation-based inference has its own Dodelson-Schneider effect (but it\n  knows that it does)",
+  "authors": "Jed Homer, Oliver Friedrich and Daniel Gruen",
+  "authorsParsed": [
+    [
+      "Homer",
+      "Jed",
+      ""
+    ],
+    [
+      "Friedrich",
+      "Oliver",
+      ""
+    ],
+    [
+      "Gruen",
+      "Daniel",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 3 Dec 2024 09:28:05 GMT"
+    }
+  ],
+  "updateDate": "2024-12-04",
+  "timestamp": 1733218085000,
+  "abstract": "  Making inferences about physical properties of the Universe requires\nknowledge of the data likelihood. A Gaussian distribution is commonly assumed\nfor the uncertainties with a covariance matrix estimated from a set of\nsimulations. The noise in such covariance estimates causes two problems: it\ndistorts the width of the parameter contours, and it adds scatter to the\nlocation of those contours which is not captured by the widths themselves. For\nnon-Gaussian likelihoods, an approximation may be derived via Simulation-Based\nInference (SBI). It is often implicitly assumed that parameter constraints from\nSBI analyses, which do not use covariance matrices, are not affected by the\nsame problems as parameter estimation with a covariance matrix estimated from\nsimulations. We investigate whether SBI suffers from effects similar to those\nof covariance estimation in Gaussian likelihoods. We use Neural Posterior and\nLikelihood Estimation with continuous and masked autoregressive normalizing\nflows for density estimation. We fit our approximate posterior models to\nsimulations drawn from a Gaussian linear model, so that the SBI result can be\ncompared to the true posterior. We test linear and neural network based\ncompression, demonstrating that neither methods circumvent the issues of\ncovariance estimation. SBI suffers an inflation of posterior variance that is\nequal or greater than the analytical result in covariance estimation for\nGaussian likelihoods for the same number of simulations. The assumption that\nSBI requires a smaller number of simulations than covariance estimation for a\nGaussian likelihood analysis is inaccurate. The limitations of traditional\nlikelihood analysis with simulation-based covariance remain for SBI with a\nfinite simulation budget. Despite these issues, we show that SBI correctly\ndraws the true posterior contour given enough simulations.\n",
+  "subjects": [
+    "Astrophysics/Cosmology and Nongalactic Astrophysics",
+    "Astrophysics/Instrumentation and Methods for Astrophysics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "5i1LJ4FEkyovQkE2UyIdQ4eHj5oTN8yI-m4s_z9TgT4",
+  "pdfSize": "1342257"
+}

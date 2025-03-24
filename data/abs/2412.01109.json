@@ -1,0 +1,52 @@
+{
+  "id": "2412.01109",
+  "title": "Revisiting Absence withSymptoms that *T* Show up Decades Later to\n  Recover Empty Categories",
+  "authors": "Emily Chen, Nicholas Huang, Casey Robinson, Kevin Xu, Zihao Huang,\n  Jungyeul Park",
+  "authorsParsed": [
+    [
+      "Chen",
+      "Emily",
+      ""
+    ],
+    [
+      "Huang",
+      "Nicholas",
+      ""
+    ],
+    [
+      "Robinson",
+      "Casey",
+      ""
+    ],
+    [
+      "Xu",
+      "Kevin",
+      ""
+    ],
+    [
+      "Huang",
+      "Zihao",
+      ""
+    ],
+    [
+      "Park",
+      "Jungyeul",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 2 Dec 2024 04:30:09 GMT"
+    }
+  ],
+  "updateDate": "2024-12-03",
+  "timestamp": 1733113809000,
+  "abstract": "  This paper explores null elements in English, Chinese, and Korean Penn\ntreebanks. Null elements contain important syntactic and semantic information,\nyet they have typically been treated as entities to be removed during language\nprocessing tasks, particularly in constituency parsing. Thus, we work towards\nthe removal and, in particular, the restoration of null elements in parse\ntrees. We focus on expanding a rule-based approach utilizing linguistic context\ninformation to Chinese, as rule based approaches have historically only been\napplied to English. We also worked to conduct neural experiments with a\nlanguage agnostic sequence-to-sequence model to recover null elements for\nEnglish (PTB), Chinese (CTB) and Korean (KTB). To the best of the authors'\nknowledge, null elements in three different languages have been explored and\ncompared for the first time. In expanding a rule based approach to Chinese, we\nachieved an overall F1 score of 80.00, which is comparable to past results in\nthe CTB. In our neural experiments we achieved F1 scores up to 90.94, 85.38 and\n88.79 for English, Chinese, and Korean respectively with functional labels.\n",
+  "subjects": [
+    "Computer Science/Computation and Language"
+  ],
+  "license": "http://creativecommons.org/licenses/by-sa/4.0/",
+  "blobId": "J9TIsrBlMvFRffMYLsMM8-fSz1_4ABUxFKUNJada-Zk",
+  "pdfSize": "354530"
+}

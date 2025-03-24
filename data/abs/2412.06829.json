@@ -1,0 +1,58 @@
+{
+  "id": "2412.06829",
+  "title": "Stably unactivated neurons in ReLU neural networks",
+  "authors": "Natalie Brownlowe, Christopher R. Cornwell, Ethan Montes, Gabriel\n  Quijano, Grace Stulman, Na Zhang",
+  "authorsParsed": [
+    [
+      "Brownlowe",
+      "Natalie",
+      ""
+    ],
+    [
+      "Cornwell",
+      "Christopher R.",
+      ""
+    ],
+    [
+      "Montes",
+      "Ethan",
+      ""
+    ],
+    [
+      "Quijano",
+      "Gabriel",
+      ""
+    ],
+    [
+      "Stulman",
+      "Grace",
+      ""
+    ],
+    [
+      "Zhang",
+      "Na",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 6 Dec 2024 22:15:22 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Tue, 17 Dec 2024 17:28:59 GMT"
+    }
+  ],
+  "updateDate": "2024-12-18",
+  "timestamp": 1733523322000,
+  "abstract": "  The choice of architecture of a neural network influences which functions\nwill be realizable by that neural network and, as a result, studying the\nexpressiveness of a chosen architecture has received much attention. In ReLU\nneural networks, the presence of stably unactivated neurons can reduce the\nnetwork's expressiveness. In this work, we investigate the probability of a\nneuron in the second hidden layer of such neural networks being stably\nunactivated when the weights and biases are initialized from symmetric\nprobability distributions. For networks with input dimension $n_0$, we prove\nthat if the first hidden layer has $n_0+1$ neurons then this probability is\nexactly $\\frac{2^{n_0}+1}{4^{n_0+1}}$, and if the first hidden layer has $n_1$\nneurons, $n_1 \\le n_0$, then the probability is $\\frac{1}{2^{n_1+1}}$. Finally,\nfor the case when the first hidden layer has more neurons than $n_0+1$, a\nconjecture is proposed along with the rationale. Computational evidence is\npresented to support the conjecture.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Mathematics/Probability",
+    "Statistics/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "elqs1712v7ZDV3yjtrdbkbAdlKUfI4rgerTm07ZOpTQ",
+  "pdfSize": "1718994"
+}

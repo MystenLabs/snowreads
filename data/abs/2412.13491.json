@@ -1,0 +1,39 @@
+{
+  "id": "2412.13491",
+  "title": "Surface Wave-Aerodynamic Roughness Length Model for Air-Sea Interactions",
+  "authors": "Manuel Ayala, Dennice F. Gayme and Charles Meneveau",
+  "authorsParsed": [
+    [
+      "Ayala",
+      "Manuel",
+      ""
+    ],
+    [
+      "Gayme",
+      "Dennice F.",
+      ""
+    ],
+    [
+      "Meneveau",
+      "Charles",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 18 Dec 2024 04:18:38 GMT"
+    }
+  ],
+  "updateDate": "2024-12-19",
+  "timestamp": 1734495518000,
+  "abstract": "  A recently introduced model to evaluate the equivalent hydrodynamic length\nscale $z_0$ for turbulent flow over static rough surfaces is reformulated and\nextended to enable evaluation of $z_0$ for moving surface waves. The proposed\nSurface Wave-Aerodynamic Roughness Length model is based on maps of the surface\nheight and its vertical speed as function of position, and Reynolds number.\nPressure drag is estimated by approximating the local flow as ideal inviscid\nramp flow (Ayala et al., 2024). Wave history effects are included through\ndependence on the local velocity difference between the air and wave speed. The\nmodel is applied to monochromatic and multiscale surfaces, and the predicted\nsurface roughness length scales are compared to measured values and to commonly\nused wave parametrization methods found in the literature. The proposed model\nshows significantly improved agreement with data compared to other models.\n",
+  "subjects": [
+    "Physics/Fluid Dynamics",
+    "Physics/Atmospheric and Oceanic Physics",
+    "Physics/Geophysics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "9fyJe3LTJshG_POISjmu9CrcLsBUBL29Sn1O_m-hmMM",
+  "pdfSize": "633399"
+}

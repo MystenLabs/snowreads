@@ -1,0 +1,37 @@
+{
+  "id": "2412.08835",
+  "title": "Grothendieck Graph Neural Networks Framework: An Algebraic Platform for\n  Crafting Topology-Aware GNNs",
+  "authors": "Amirreza Shiralinasab Langari, Leila Yeganeh, Kim Khoa Nguyen",
+  "authorsParsed": [
+    [
+      "Langari",
+      "Amirreza Shiralinasab",
+      ""
+    ],
+    [
+      "Yeganeh",
+      "Leila",
+      ""
+    ],
+    [
+      "Nguyen",
+      "Kim Khoa",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 12 Dec 2024 00:25:48 GMT"
+    }
+  ],
+  "updateDate": "2024-12-13",
+  "timestamp": 1733963148000,
+  "abstract": "  Due to the structural limitations of Graph Neural Networks (GNNs), in\nparticular with respect to conventional neighborhoods, alternative aggregation\nstrategies have recently been investigated. This paper investigates graph\nstructure in message passing, aimed to incorporate topological characteristics.\nWhile the simplicity of neighborhoods remains alluring, we propose a novel\nperspective by introducing the concept of 'cover' as a generalization of\nneighborhoods. We design the Grothendieck Graph Neural Networks (GGNN)\nframework, offering an algebraic platform for creating and refining diverse\ncovers for graphs. This framework translates covers into matrix forms, such as\nthe adjacency matrix, expanding the scope of designing GNN models based on\ndesired message-passing strategies. Leveraging algebraic tools, GGNN\nfacilitates the creation of models that outperform traditional approaches.\nBased on the GGNN framework, we propose Sieve Neural Networks (SNN), a new GNN\nmodel that leverages the notion of sieves from category theory. SNN\ndemonstrates outstanding performance in experiments, particularly on benchmarks\ndesigned to test the expressivity of GNNs, and exemplifies the versatility of\nGGNN in generating novel architectures.\n",
+  "subjects": [
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "sgakCmgP1Fmr7XRRyLZc_Uq--ZkUpgehPjY_VwLYgOc",
+  "pdfSize": "706371"
+}

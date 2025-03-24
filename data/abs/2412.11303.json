@@ -1,0 +1,35 @@
+{
+  "id": "2412.11303",
+  "title": "Regularized Dikin Walks for Sampling Truncated Logconcave Measures,\n  Mixed Isoperimetry and Beyond Worst-Case Analysis",
+  "authors": "Minhui Jiang, Yuansi Chen",
+  "authorsParsed": [
+    [
+      "Jiang",
+      "Minhui",
+      ""
+    ],
+    [
+      "Chen",
+      "Yuansi",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 15 Dec 2024 20:43:51 GMT"
+    }
+  ],
+  "updateDate": "2024-12-17",
+  "timestamp": 1734295431000,
+  "abstract": "  We study the problem of drawing samples from a logconcave distribution\ntruncated on a polytope, motivated by computational challenges in Bayesian\nstatistical models with indicator variables, such as probit regression.\nBuilding on interior point methods and the Dikin walk for sampling from uniform\ndistributions, we analyze the mixing time of regularized Dikin walks. Our\ncontributions are threefold. First, for a logconcave and log-smooth\ndistribution with condition number $\\kappa$, truncated on a polytope in\n$\\mathbb{R}^n$ defined with $m$ linear constraints, we prove that the\nsoft-threshold Dikin walk mixes in $\\widetilde{O}((m+\\kappa)n)$ iterations from\na warm initialization. It improves upon prior work which required the polytope\nto be bounded and involved a bound dependent on the radius of the bounded\nregion. Moreover, we introduce the regularized Dikin walk using Lewis weights\nfor approximating the John ellipsoid. We show that it mixes in\n$\\widetilde{O}((n^{2.5}+\\kappa n)$. Second, we extend the mixing time\nguarantees mentioned above to weakly log-concave distributions truncated on\npolytopes, provided that they have a finite covariance matrix. Third, going\nbeyond worst-case mixing time analysis, we demonstrate that soft-threshold\nDikin walk can mix significantly faster when only a limited number of\nconstraints intersect the high-probability mass of the distribution, improving\nthe $\\widetilde{O}((m+\\kappa)n)$ upper bound to $\\widetilde{O}(m + \\kappa n)$.\nAdditionally, per-iteration complexity of regularized Dikin walk and ways to\ngenerate a warm initialization are discussed to facilitate practical\nimplementation.\n",
+  "subjects": [
+    "Computer Science/Data Structures and Algorithms",
+    "Computer Science/Machine Learning",
+    "Statistics/Computation",
+    "Statistics/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "MgldQrgJHUxS4xSSIvNnCjhol5e58fp5AUgXmYy5ppM",
+  "pdfSize": "726499"
+}

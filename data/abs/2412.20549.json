@@ -1,0 +1,37 @@
+{
+  "id": "2412.20549",
+  "title": "Secure Wireless Communications via Frequency Diverse Arrays",
+  "authors": "Zhenqiao Cheng, Chongjun Ouyang, and Xingqi Zhang",
+  "authorsParsed": [
+    [
+      "Cheng",
+      "Zhenqiao",
+      ""
+    ],
+    [
+      "Ouyang",
+      "Chongjun",
+      ""
+    ],
+    [
+      "Zhang",
+      "Xingqi",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 29 Dec 2024 18:39:28 GMT"
+    }
+  ],
+  "updateDate": "2024-12-31",
+  "timestamp": 1735497568000,
+  "abstract": "  A novel frequency diverse array (FDA)-assisted secure transmission framework\nis proposed, which leverages additional frequency offsets to enhance physical\nlayer security. Specifically, an FDA-assisted wiretap channel is considered,\nwhere the transmit beamforming and frequency offsets at each antenna are\njointly optimized. A novel alternating optimization-based method is introduced\nto address the non-convex problem of secure transmission, focusing on\nminimizing transmit power and maximizing the secrecy rate. Numerical results\nare provided to demonstrate the superiority of the FDA-based framework compared\nto systems employing traditional phased array antennas in secure transmission.\n",
+  "subjects": [
+    "Electrical Engineering and Systems Science/Signal Processing"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "reit7xKRFp-xe_vhX1XCR4iHA3qSmYt_foU-nQocf5c",
+  "pdfSize": "341021"
+}

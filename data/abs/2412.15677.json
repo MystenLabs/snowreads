@@ -1,0 +1,53 @@
+{
+  "id": "2412.15677",
+  "title": "AI-generated Image Quality Assessment in Visual Communication",
+  "authors": "Yu Tian, Yixuan Li, Baoliang Chen, Hanwei Zhu, Shiqi Wang, Sam Kwong",
+  "authorsParsed": [
+    [
+      "Tian",
+      "Yu",
+      ""
+    ],
+    [
+      "Li",
+      "Yixuan",
+      ""
+    ],
+    [
+      "Chen",
+      "Baoliang",
+      ""
+    ],
+    [
+      "Zhu",
+      "Hanwei",
+      ""
+    ],
+    [
+      "Wang",
+      "Shiqi",
+      ""
+    ],
+    [
+      "Kwong",
+      "Sam",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 20 Dec 2024 08:47:07 GMT"
+    }
+  ],
+  "updateDate": "2024-12-23",
+  "timestamp": 1734684427000,
+  "abstract": "  Assessing the quality of artificial intelligence-generated images (AIGIs)\nplays a crucial role in their application in real-world scenarios. However,\ntraditional image quality assessment (IQA) algorithms primarily focus on\nlow-level visual perception, while existing IQA works on AIGIs overemphasize\nthe generated content itself, neglecting its effectiveness in real-world\napplications. To bridge this gap, we propose AIGI-VC, a quality assessment\ndatabase for AI-Generated Images in Visual Communication, which studies the\ncommunicability of AIGIs in the advertising field from the perspectives of\ninformation clarity and emotional interaction. The dataset consists of 2,500\nimages spanning 14 advertisement topics and 8 emotion types. It provides\ncoarse-grained human preference annotations and fine-grained preference\ndescriptions, benchmarking the abilities of IQA methods in preference\nprediction, interpretation, and reasoning. We conduct an empirical study of\nexisting representative IQA methods and large multi-modal models on the AIGI-VC\ndataset, uncovering their strengths and weaknesses.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "IEydcluD5b-k014utX7C7SeI1nnXeg_LKr2K7rJsBXw",
+  "pdfSize": "2234650"
+}

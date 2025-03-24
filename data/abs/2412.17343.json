@@ -1,0 +1,67 @@
+{
+  "id": "2412.17343",
+  "title": "End-to-end Generative Spatial-Temporal Ultrasonic Odometry and Mapping\n  Framework",
+  "authors": "Fuhua Jia, Xiaoying Yang, Mengshen Yang, Yang Li, Hang Xu, Adam\n  Rushworth, Salman Ijaz, Heng Yu, Tianxiang Cui",
+  "authorsParsed": [
+    [
+      "Jia",
+      "Fuhua",
+      ""
+    ],
+    [
+      "Yang",
+      "Xiaoying",
+      ""
+    ],
+    [
+      "Yang",
+      "Mengshen",
+      ""
+    ],
+    [
+      "Li",
+      "Yang",
+      ""
+    ],
+    [
+      "Xu",
+      "Hang",
+      ""
+    ],
+    [
+      "Rushworth",
+      "Adam",
+      ""
+    ],
+    [
+      "Ijaz",
+      "Salman",
+      ""
+    ],
+    [
+      "Yu",
+      "Heng",
+      ""
+    ],
+    [
+      "Cui",
+      "Tianxiang",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 23 Dec 2024 07:15:09 GMT"
+    }
+  ],
+  "updateDate": "2024-12-24",
+  "timestamp": 1734938109000,
+  "abstract": "  Performing simultaneous localization and mapping (SLAM) in low-visibility\nconditions, such as environments filled with smoke, dust and transparent\nobjets, has long been a challenging task. Sensors like cameras and Light\nDetection and Ranging (LiDAR) are significantly limited under these conditions,\nwhereas ultrasonic sensors offer a more robust alternative. However, the low\nangular resolution, slow update frequency, and limited detection accuracy of\nultrasonic sensors present barriers for SLAM. In this work, we propose a novel\nend-to-end generative ultrasonic SLAM framework. This framework employs a\nsensor array with overlapping fields of view, leveraging the inherently low\nangular resolution of ultrasonic sensors to implicitly encode spatial features\nin conjunction with the robot's motion. Consecutive time frame data is\nprocessed through a sliding window mechanism to capture temporal features. The\nspatiotemporally encoded sensor data is passed through multiple modules to\ngenerate dense scan point clouds and robot pose transformations for map\nconstruction and odometry. The main contributions of this work include a novel\nultrasonic sensor array that spatiotemporally encodes the surrounding\nenvironment, and an end-to-end generative SLAM framework that overcomes the\ninherent defects of ultrasonic sensors. Several real-world experiments\ndemonstrate the feasibility and robustness of the proposed framework.\n",
+  "subjects": [
+    "Computer Science/Robotics"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "1cfYIkQkcF6la0hEE9cwGvQf7v4HpBKDWaU7WK7yYx4",
+  "pdfSize": "3760564"
+}

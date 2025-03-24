@@ -1,0 +1,57 @@
+{
+  "id": "2412.07289",
+  "title": "Enhancing Relation Extraction via Supervised Rationale Verification and\n  Feedback",
+  "authors": "Yongqi Li, Xin Miao, Shen Zhou, Mayi Xu, Yuyang Ren, Tieyun Qian",
+  "authorsParsed": [
+    [
+      "Li",
+      "Yongqi",
+      ""
+    ],
+    [
+      "Miao",
+      "Xin",
+      ""
+    ],
+    [
+      "Zhou",
+      "Shen",
+      ""
+    ],
+    [
+      "Xu",
+      "Mayi",
+      ""
+    ],
+    [
+      "Ren",
+      "Yuyang",
+      ""
+    ],
+    [
+      "Qian",
+      "Tieyun",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 10 Dec 2024 08:18:29 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Wed, 11 Dec 2024 02:31:45 GMT"
+    }
+  ],
+  "updateDate": "2024-12-12",
+  "timestamp": 1733818709000,
+  "abstract": "  Despite the rapid progress that existing automated feedback methods have made\nin correcting the output of large language models (LLMs), these methods cannot\nbe well applied to the relation extraction (RE) task due to their designated\nfeedback objectives and correction manner. To address this problem, we propose\na novel automated feedback framework for RE, which presents a rationale\nsupervisor to verify the rationale and provides re-selected demonstrations as\nfeedback to correct the initial prediction. Specifically, we first design a\ncausal intervention and observation method to collect biased/unbiased\nrationales for contrastive training the rationale supervisor. Then, we present\na verification-feedback-correction procedure to iteratively enhance LLMs'\ncapability of handling the RE task. Extensive experiments prove that our\nproposed framework significantly outperforms existing methods.\n",
+  "subjects": [
+    "Computer Science/Computation and Language",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "6qztHigwnb94XBs7T4mpO7VgpNq5FtOhKq0ztEER0-0",
+  "pdfSize": "1171576"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2412.11818",
+  "title": "Leveraging User-Generated Metadata of Online Videos for Cover Song\n  Identification",
+  "authors": "Simon Hachmeier and Robert J\\\"aschke",
+  "authorsParsed": [
+    [
+      "Hachmeier",
+      "Simon",
+      ""
+    ],
+    [
+      "Jäschke",
+      "Robert",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 16 Dec 2024 14:35:32 GMT"
+    }
+  ],
+  "updateDate": "2024-12-17",
+  "timestamp": 1734359732000,
+  "abstract": "  YouTube is a rich source of cover songs. Since the platform itself is\norganized in terms of videos rather than songs, the retrieval of covers is not\ntrivial. The field of cover song identification addresses this problem and\nprovides approaches that usually rely on audio content. However, including the\nuser-generated video metadata available on YouTube promises improved\nidentification results. In this paper, we propose a multi-modal approach for\ncover song identification on online video platforms. We combine the entity\nresolution models with audio-based approaches using a ranking model. Our\nfindings implicate that leveraging user-generated metadata can stabilize cover\nsong identification performance on YouTube.\n",
+  "subjects": [
+    "Computer Science/Multimedia",
+    "Computer Science/Information Retrieval"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "Xfwoao7SoB1yYx87y5KOWc4E-SsEneV0pOSTxOVo_uU",
+  "pdfSize": "258364"
+}

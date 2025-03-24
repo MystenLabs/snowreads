@@ -1,0 +1,32 @@
+{
+  "id": "2412.10725",
+  "title": "On concentrated vortices of 3D incompressible Euler equations under\n  helical symmetry: with swirl",
+  "authors": "Guolin Qin, Jie Wan",
+  "authorsParsed": [
+    [
+      "Qin",
+      "Guolin",
+      ""
+    ],
+    [
+      "Wan",
+      "Jie",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 14 Dec 2024 07:49:25 GMT"
+    }
+  ],
+  "updateDate": "2024-12-17",
+  "timestamp": 1734162565000,
+  "abstract": "  In this paper, we consider the existence of concentrated helical vortices of\n3D incompressible Euler equations with swirl. First, without the assumption of\nthe orthogonality condition, we derive a 2D vorticity-stream formulation of 3D\nincompressible Euler equations under helical symmetry. Then based on this\nsystem, we deduce a non-autonomous second order semilinear elliptic equations\nin divergence form, whose solutions correspond to traveling-rotating invariant\nhelical vortices with non-zero helical swirl. Finally, by using Arnold's\nvariational method, that is, finding maximizers of a properly defined energy\nfunctional over a certain function space and proving the asymptotic behavior of\nmaximizers, we construct families of concentrated traveling-rotating helical\nvortices of 3D incompressible Euler equations with non-zero helical swirl in\ninfinite cylinders. As parameter $ \\varepsilon\\to0 $, the associated vorticity\nfields tend asymptotically to a singular helical vortex filament evolved by the\nbinormal curvature flow.\n",
+  "subjects": [
+    "Mathematics/Analysis of PDEs"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "KXpEuCdZhaG8V0tDtbsUtnnlFFUqXw3XXpNGkz3MFJA",
+  "pdfSize": "586894"
+}

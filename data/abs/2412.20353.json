@@ -1,0 +1,28 @@
+{
+  "id": "2412.20353",
+  "title": "Rigidity and regularity for almost homogeneous spaces with Ricci\n  curvature bounds",
+  "authors": "Xin Qian",
+  "authorsParsed": [
+    [
+      "Qian",
+      "Xin",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 29 Dec 2024 04:53:58 GMT"
+    }
+  ],
+  "updateDate": "2024-12-31",
+  "timestamp": 1735448038000,
+  "abstract": "  We say that a metric space $X$ is $(\\epsilon,G)$-homogeneous if $G<Iso(X)$ is\na discrete group of isometries with $diam(X/G)<\\epsilon$.\\ A sequence of\n$(\\epsilon_i,G_i)$-homogeneous spaces $X_i$ with $\\epsilon_i\\to0$ is called a\nsequence of almost homogeneous spaces.\n  In this paper we show that the Gromov-Hausdorff limit of a sequence of almost\nhomogeneous RCD$(K,N)$ spaces must be a nilpotent Lie group with $Ric\\geqslant\nK$. We also obtain a topological rigidity theorem for\n$(\\epsilon,G)$-homogeneous RCD$(K,N)$ spaces, which generalizes a recent result\nby Wang. Indeed, if $X$ is an $(\\epsilon,G)$-homogeneous RCD$(K,N)$ space and\n$G$ is an almost-crystallographic group, then $X/G$ is bi-H\\\"older to an\ninfranil orbifold. Moreover, we study $(\\epsilon,G)$-homogeneous spaces in the\nsmooth setting and prove rigidity and $\\epsilon$-regularity theorems for\nRiemannian orbifolds with Einstein metrics and bounded Ricci curvatures\nrespectively.\n",
+  "subjects": [
+    "Mathematics/Differential Geometry",
+    "Mathematics/Metric Geometry"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "0NaIrK2BuJylv-jgmaZ-AWZ4BHNzvSz8bFtQyEhmW14",
+  "pdfSize": "413621"
+}

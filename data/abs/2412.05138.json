@@ -1,0 +1,41 @@
+{
+  "id": "2412.05138",
+  "title": "Supply Chain Insecurity: The Lack of Integrity Protection in SBOM\n  Solutions",
+  "authors": "Can Ozkan, Xinhai Zou, Dave Singelee",
+  "authorsParsed": [
+    [
+      "Ozkan",
+      "Can",
+      ""
+    ],
+    [
+      "Zou",
+      "Xinhai",
+      ""
+    ],
+    [
+      "Singelee",
+      "Dave",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 6 Dec 2024 15:52:12 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Mon, 9 Dec 2024 14:52:37 GMT"
+    }
+  ],
+  "updateDate": "2024-12-10",
+  "timestamp": 1733500332000,
+  "abstract": "  The SolarWinds attack that exploited weaknesses in the software update\nmechanism highlights the critical need for organizations to have better\nvisibility into their software dependencies and potential vulnerabilities\nassociated with them, and the Software Bill of Materials (SBOM) is paramount in\nensuring software supply chain security. Under the Executive Order issued by\nPresident Biden, the adoption of the SBOM has become obligatory within the\nUnited States. The executive order mandates that an SBOM should be provided for\nall software purchased by federal agencies. The main applications of SBOMs are\nvulnerability management and license management. This work presents an in-depth\nand systematic investigation into the integrity of SBOMs. We explore different\nattack vectors that can be exploited to manipulate SBOM data, including flaws\nin the SBOM generation and consumption phases in the SBOM life cycle. We\nthoroughly investigated four SBOM consumption tools and the generation process\nof SBOMs for seven prominent programming languages. Our systematic\ninvestigation reveals that the tools used for consumption lack integrity\ncontrol mechanisms for dependencies. Similarly, the generation process is\nsusceptible to integrity attacks as well, by manipulating dependency version\nnumbers in package managers and additional files, resulting in incorrect SBOM\ndata. This could lead to incorrect views on software dependencies and\nvulnerabilities being overlooked during SBOM consumption. To mitigate these\nissues, we propose a solution incorporating the decentralized storage of hash\nvalues of software libraries.\n",
+  "subjects": [
+    "Computer Science/Cryptography and Security"
+  ],
+  "license": "http://creativecommons.org/licenses/by-sa/4.0/",
+  "blobId": "thaB6Gq-ICIvG-fXXdUizdKwc2Dv-1p_3S2ulgOaQDc",
+  "pdfSize": "1962773"
+}

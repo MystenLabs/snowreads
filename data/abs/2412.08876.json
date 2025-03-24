@@ -1,0 +1,33 @@
+{
+  "id": "2412.08876",
+  "title": "Controlling the asymptotic bias of the unadjusted (Microcanonical)\n  Hamiltonian and Langevin Monte Carlo",
+  "authors": "Jakob Robnik and Uro\\v{s} Seljak",
+  "authorsParsed": [
+    [
+      "Robnik",
+      "Jakob",
+      ""
+    ],
+    [
+      "Seljak",
+      "Uroš",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 12 Dec 2024 02:21:54 GMT"
+    }
+  ],
+  "updateDate": "2024-12-13",
+  "timestamp": 1733970114000,
+  "abstract": "  Hamiltonian and Langevin Monte Carlo (HMC and LMC) and their Microcanonical\ncounterparts (MCHMC and MCLMC) are current state of the art algorithms for\nsampling in high dimensions. Their numerical discretization errors are\ntypically corrected by the Metropolis-Hastings (MH) accept/reject step.\nHowever, as the dimensionality of the problem increases, the stepsize (and\ntherefore efficiency) needs to decrease as $d^{-1/4}$ for second order\nintegrators in order to maintain reasonable acceptance rate. The MH unadjusted\nmethods, on the other hand, do not suffer from this scaling, but the difficulty\nof controlling the asymptotic bias has hindered the widespread adoption of\nthese algorithms. For Gaussian targets, we show that the asymptotic bias is\nupper bounded by the energy error variance per dimension (EEVPD), independently\nof the dimensionality and of the parameters of the Gaussian. We numerically\nextend the analysis to the non-Gaussian benchmark problems and demonstrate that\nmost of these problems abide by the same bias bound as the Gaussian targets.\nControlling EEVPD, which is easy to do, ensures control over the asymptotic\nbias. We propose an efficient algorithm for tuning the stepsize, given the\ndesired asymptotic bias, which enables usage of unadjusted methods in a\ntuning-free way.\n",
+  "subjects": [
+    "Statistics/Computation",
+    "Astrophysics/Cosmology and Nongalactic Astrophysics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "qv5I5AHxd5KrAX2SD6u6nonL5vWFv8C6fLBi05MUdXQ",
+  "pdfSize": "969320"
+}

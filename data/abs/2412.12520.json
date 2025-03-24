@@ -1,0 +1,28 @@
+{
+  "id": "2412.12520",
+  "title": "Controllability and Tracking of Ensembles: An Optimal Transport Theory\n  Viewpoint",
+  "authors": "Reza Hadadi",
+  "authorsParsed": [
+    [
+      "Hadadi",
+      "Reza",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 17 Dec 2024 04:18:37 GMT"
+    }
+  ],
+  "updateDate": "2024-12-18",
+  "timestamp": 1734409117000,
+  "abstract": "  This paper explores the controllability and state tracking of ensembles from\nthe perspective of optimal transport theory. Ensembles, characterized as\ncollections of systems evolving under the same dynamics but with varying\ninitial conditions, are a fundamental concept in control theory and\napplications. By leveraging optimal transport, we provide a novel framework for\nanalyzing and solving the state tracking problem of ensembles, particularly\nwhen state observations are limited and only accessible at discrete time\npoints. This study establishes connections between the ensemble dynamics and\nfinite-horizon optimal control problems, demonstrating that the problem can be\nreformulated as a computationally efficient linear program using Kantorovich's\nformulation of optimal transport. We raise notions of observability and\ncontrollability for nonlinear ensembles, and propose methods for state tracking\nin Gaussian output distributions settings. Numerical examples and theoretical\ninsights are provided to validate the approach, highlighting the utility of\noptimal transport in ensemble control problems.\n",
+  "subjects": [
+    "Electrical Engineering and Systems Science/Systems and Control",
+    "Computer Science/Systems and Control"
+  ],
+  "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+  "blobId": "pwTwDEVIAkBckmV0ybu1eta2OWR3VzQzmNP73F5WfzQ",
+  "pdfSize": "5429192"
+}

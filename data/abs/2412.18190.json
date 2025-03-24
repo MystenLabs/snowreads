@@ -1,0 +1,33 @@
+{
+  "id": "2412.18190",
+  "title": "An Analysis on Automated Metrics for Evaluating Japanese-English Chat\n  Translation",
+  "authors": "Andre Rusli, Makoto Shishido",
+  "authorsParsed": [
+    [
+      "Rusli",
+      "Andre",
+      ""
+    ],
+    [
+      "Shishido",
+      "Makoto",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 24 Dec 2024 05:54:40 GMT"
+    }
+  ],
+  "updateDate": "2024-12-25",
+  "timestamp": 1735019680000,
+  "abstract": "  This paper analyses how traditional baseline metrics, such as BLEU and TER,\nand neural-based methods, such as BERTScore and COMET, score several NMT models\nperformance on chat translation and how these metrics perform when compared to\nhuman-annotated scores. The results show that for ranking NMT models in chat\ntranslations, all metrics seem consistent in deciding which model outperforms\nthe others. This implies that traditional baseline metrics, which are faster\nand simpler to use, can still be helpful. On the other hand, when it comes to\nbetter correlation with human judgment, neural-based metrics outperform\ntraditional metrics, with COMET achieving the highest correlation with the\nhuman-annotated score on a chat translation. However, we show that even the\nbest metric struggles when scoring English translations from sentences with\nanaphoric zero-pronoun in Japanese.\n",
+  "subjects": [
+    "Computer Science/Computation and Language",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "yIyuKGzT4mZuO_oEMil-0yMGllBa8_MRhJP5h1-iBgU",
+  "pdfSize": "258785"
+}

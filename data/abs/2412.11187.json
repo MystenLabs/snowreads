@@ -1,0 +1,44 @@
+{
+  "id": "2412.11187",
+  "title": "Analyzing the Attention Heads for Pronoun Disambiguation in\n  Context-aware Machine Translation Models",
+  "authors": "Pawe{\\l} M\\k{a}ka and Yusuf Can Semerci and Jan Scholtes and Gerasimos\n  Spanakis",
+  "authorsParsed": [
+    [
+      "Mąka",
+      "Paweł",
+      ""
+    ],
+    [
+      "Semerci",
+      "Yusuf Can",
+      ""
+    ],
+    [
+      "Scholtes",
+      "Jan",
+      ""
+    ],
+    [
+      "Spanakis",
+      "Gerasimos",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 15 Dec 2024 13:42:49 GMT"
+    }
+  ],
+  "updateDate": "2024-12-17",
+  "timestamp": 1734270169000,
+  "abstract": "  In this paper, we investigate the role of attention heads in Context-aware\nMachine Translation models for pronoun disambiguation in the English-to-German\nand English-to-French language directions. We analyze their influence by both\nobserving and modifying the attention scores corresponding to the plausible\nrelations that could impact a pronoun prediction. Our findings reveal that\nwhile some heads do attend the relations of interest, not all of them influence\nthe models' ability to disambiguate pronouns. We show that certain heads are\nunderutilized by the models, suggesting that model performance could be\nimproved if only the heads would attend one of the relations more strongly.\nFurthermore, we fine-tune the most promising heads and observe the increase in\npronoun disambiguation accuracy of up to 5 percentage points which demonstrates\nthat the improvements in performance can be solidified into the models'\nparameters.\n",
+  "subjects": [
+    "Computer Science/Computation and Language",
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "UGccRU2EDJ-ilAwBho2EZzb8vH8mrjjHXTYbNKR9uAc",
+  "pdfSize": "15951081"
+}

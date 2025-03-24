@@ -1,0 +1,67 @@
+{
+  "id": "2412.18131",
+  "title": "UniPLV: Towards Label-Efficient Open-World 3D Scene Understanding by\n  Regional Visual Language Supervision",
+  "authors": "Yuru Wang, Songtao Wang, Zehan Zhang, Xinyan Lu, Changwei Cai, Hao Li,\n  Fu Liu, Peng Jia, and Xianpeng Lang",
+  "authorsParsed": [
+    [
+      "Wang",
+      "Yuru",
+      ""
+    ],
+    [
+      "Wang",
+      "Songtao",
+      ""
+    ],
+    [
+      "Zhang",
+      "Zehan",
+      ""
+    ],
+    [
+      "Lu",
+      "Xinyan",
+      ""
+    ],
+    [
+      "Cai",
+      "Changwei",
+      ""
+    ],
+    [
+      "Li",
+      "Hao",
+      ""
+    ],
+    [
+      "Liu",
+      "Fu",
+      ""
+    ],
+    [
+      "Jia",
+      "Peng",
+      ""
+    ],
+    [
+      "Lang",
+      "Xianpeng",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 24 Dec 2024 03:40:05 GMT"
+    }
+  ],
+  "updateDate": "2024-12-25",
+  "timestamp": 1735011605000,
+  "abstract": "  We present UniPLV, a powerful framework that unifies point clouds, images and\ntext in a single learning paradigm for open-world 3D scene understanding.\nUniPLV employs the image modal as a bridge to co-embed 3D points with\npre-aligned images and text in a shared feature space without requiring\ncarefully crafted point cloud text pairs. To accomplish multi-modal alignment,\nwe propose two key strategies:(i) logit and feature distillation modules\nbetween images and point clouds, and (ii) a vison-point matching module is\ngiven to explicitly correct the misalignment caused by points to pixels\nprojection. To further improve the performance of our unified framework, we\nadopt four task-specific losses and a two-stage training strategy. Extensive\nexperiments show that our method outperforms the state-of-the-art methods by an\naverage of 15.6% and 14.8% for semantic segmentation over Base-Annotated and\nAnnotation-Free tasks, respectively. The code will be released later.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "9Hl9mPyisMAZFCqEYYP9RIr2GTN1TGh2XFrwcghAONI",
+  "pdfSize": "7449429"
+}

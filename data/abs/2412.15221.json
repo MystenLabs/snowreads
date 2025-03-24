@@ -1,0 +1,38 @@
+{
+  "id": "2412.15221",
+  "title": "GPS-2-GTFS: A Python package to process and transform raw GPS data of\n  public transit to GTFS format",
+  "authors": "Shiveswarran Ratneswaran, Uthayasanker Thayasivam, Sivakumar\n  Thillaiambalam",
+  "authorsParsed": [
+    [
+      "Ratneswaran",
+      "Shiveswarran",
+      ""
+    ],
+    [
+      "Thayasivam",
+      "Uthayasanker",
+      ""
+    ],
+    [
+      "Thillaiambalam",
+      "Sivakumar",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 3 Dec 2024 23:30:17 GMT"
+    }
+  ],
+  "updateDate": "2024-12-23",
+  "timestamp": 1733268617000,
+  "abstract": "  The gps2gtfs package addresses a critical need for converting raw Global\nPositioning System (GPS) trajectory data from public transit vehicles into the\nwidely used GTFS (General Transit Feed Specification) format. This\ntransformation enables various software applications to efficiently utilize\nreal-time transit data for purposes such as tracking, scheduling, and arrival\ntime prediction. Developed in Python, gps2gtfs employs techniques like\ngeo-buffer mapping, parallel processing, and data filtering to manage\nchallenges associated with raw GPS data, including high volume,\ndiscontinuities, and localization errors. This open-source package, available\non GitHub and PyPI, enhances the development of intelligent transportation\nsolutions and fosters improved public transit systems globally.\n",
+  "subjects": [
+    "Computer Science/Computers and Society",
+    "Computer Science/Mathematical Software"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "h86ljN5cWQCuMmX865VBk1LaR4O14V4FBmeTZ64OXtk",
+  "pdfSize": "938600"
+}

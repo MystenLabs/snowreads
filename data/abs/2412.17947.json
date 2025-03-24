@@ -1,0 +1,41 @@
+{
+  "id": "2412.17947",
+  "title": "IITR-CIOL@NLU of Devanagari Script Languages 2025: Multilingual Hate\n  Speech Detection and Target Identification in Devanagari-Scripted Languages",
+  "authors": "Siddhant Gupta, Siddh Singhal, and Azmine Toushik Wasi",
+  "authorsParsed": [
+    [
+      "Gupta",
+      "Siddhant",
+      ""
+    ],
+    [
+      "Singhal",
+      "Siddh",
+      ""
+    ],
+    [
+      "Wasi",
+      "Azmine Toushik",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 23 Dec 2024 19:58:11 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Sat, 28 Dec 2024 21:27:17 GMT"
+    }
+  ],
+  "updateDate": "2024-12-31",
+  "timestamp": 1734983891000,
+  "abstract": "  This work focuses on two subtasks related to hate speech detection and target\nidentification in Devanagari-scripted languages, specifically Hindi, Marathi,\nNepali, Bhojpuri, and Sanskrit. Subtask B involves detecting hate speech in\nonline text, while Subtask C requires identifying the specific targets of hate\nspeech, such as individuals, organizations, or communities. We propose the\nMultilingualRobertaClass model, a deep neural network built on the pretrained\nmultilingual transformer model ia-multilingual-transliterated-roberta,\noptimized for classification tasks in multilingual and transliterated contexts.\nThe model leverages contextualized embeddings to handle linguistic diversity,\nwith a classifier head for binary classification. We received 88.40% accuracy\nin Subtask B and 66.11% accuracy in Subtask C, in the test set.\n",
+  "subjects": [
+    "Computer Science/Computation and Language"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "7FeXTw-L_KMxYGZYAEFzmMl3q5vM1glcMUOe8cbqcRY",
+  "pdfSize": "188375"
+}

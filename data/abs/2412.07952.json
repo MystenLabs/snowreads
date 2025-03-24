@@ -1,0 +1,28 @@
+{
+  "id": "2412.07952",
+  "title": "On Random Simplex Picking Beyond the Blashke Problem",
+  "authors": "Dominik Beck",
+  "authorsParsed": [
+    [
+      "Beck",
+      "Dominik",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 10 Dec 2024 22:33:23 GMT"
+    }
+  ],
+  "updateDate": "2024-12-17",
+  "timestamp": 1733870003000,
+  "abstract": "  New selected values of odd random simplex volumetric moments (moments of the\nvolume of a random simplex picked from a given body) are derived in an exact\nform in various bodies in dimensions three, four, five, and six. In three\ndimensions, the well-known Efron's formula was used by Buchta & Reitzner and\nZinani to deduce the mean volume of a random tetrahedron in a tetrahedron and a\ncube. However, for higher moments and/or in higher dimensions, the method\nfails. As it turned out, the same problem is also solvable using the\nBlashke-Petkantschin formula in Cartesian parametrisation in the form of the\nCanonical Section Integral (Base-height splitting). In our presentation, we\nshow how to derive the older results mentioned above using our base-height\nsplitting method and also touch on the essential steps of how the method\ntranslates to higher dimensions and for higher moments.\n",
+  "subjects": [
+    "Mathematics/Metric Geometry",
+    "Mathematics/Probability"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "BeyKIwzy4aOD0znvCnw4vIPoA8L4W7iPvckaUyIh0I0",
+  "pdfSize": "3829278"
+}

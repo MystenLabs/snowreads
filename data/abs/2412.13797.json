@@ -1,0 +1,37 @@
+{
+  "id": "2412.13797",
+  "title": "Role of viscoelasticity in the adhesion of mushroom-shaped pillars",
+  "authors": "Guido Violano, Savino Dibitonto and Luciano Afferrante",
+  "authorsParsed": [
+    [
+      "Violano",
+      "Guido",
+      ""
+    ],
+    [
+      "Dibitonto",
+      "Savino",
+      ""
+    ],
+    [
+      "Afferrante",
+      "Luciano",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 18 Dec 2024 12:43:21 GMT"
+    }
+  ],
+  "updateDate": "2024-12-19",
+  "timestamp": 1734525801000,
+  "abstract": "  Mushroom-shaped pillars have been extensively studied for their superior\nadhesive properties, often drawing inspiration from natural attachment systems\nobserved in insects. Typically, pillars are modeled with linear elastic\nmaterials in the literature; in reality, the soft materials used for their\nfabrication exhibit a rate-dependent constitutive behavior.\n  This study investigates the role of viscoelasticity in the adhesion between a\nmushroom-shaped pillar and a rigid flat countersurface. Interactions at the\ninterface are assumed to be governed by van der Waals forces, and the material\nis modeled using a standard linear solid model. Normal push and release contact\ncycles are simulated at different approaching and retracting speeds.\n  Results reveal that, in the presence of an interfacial defect, a\nmonotonically increasing trend in the pull-off force with pulling speed is\nobserved, and the corresponding change in the contact pressure distribution\nsuggests a transition from short-range to long-range adhesion. This phenomenon\ncorroborates recent experimental and theoretical investigations. Moreover, the\npull-off force remains invariant to the loading history, due to our assumption\nof a flat-flat contact interface. Conversely, in absence of defects, detachment\noccurs after reaching the theoretical contact strength, and the corresponding\npull-off force is found to be rate independent.\n",
+  "subjects": [
+    "Condensed Matter/Soft Condensed Matter"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "dvkRrnqRRet3EZMX93Z1xYvDzg6ZdAG26tRjIVvMXOw",
+  "pdfSize": "556524"
+}

@@ -1,0 +1,49 @@
+{
+  "id": "2412.19565",
+  "title": "Effective field theory of the quantum skyrmion Hall effect",
+  "authors": "Vinay Patil, Rafael Flores-Calder\\'on and Ashley M. Cook",
+  "authorsParsed": [
+    [
+      "Patil",
+      "Vinay",
+      ""
+    ],
+    [
+      "Flores-Calderón",
+      "Rafael",
+      ""
+    ],
+    [
+      "Cook",
+      "Ashley M.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 27 Dec 2024 10:09:48 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Mon, 30 Dec 2024 16:31:11 GMT"
+    },
+    {
+      "version": "v3",
+      "created": "Thu, 16 Jan 2025 15:21:53 GMT"
+    }
+  ],
+  "updateDate": "2025-01-17",
+  "timestamp": 1735294188000,
+  "abstract": "  Motivated by phenomenology of myriad recently-identified topologically\nnon-trivial phases of matter, we introduce effective field theories (EFTs) for\nthe quantum skyrmion Hall effect (QSkHE). We employ a single, unifying\ngeneralisation for this purpose: in essence, a lowest Landau level projection\ndefining a non-commutative, fuzzy sphere with position coordinates proportional\nto SU(2) generators of matrix representation size $N\\times N$, may host an\nintrinsically 2+1 dimensional, topologically non-trivial many-body state for\nsmall $N$ as well as large $N$. That is, isospin degrees of freedom associated\nwith a matrix Lie algebra with $N \\times N$ generators potentially encode some\nfinite number of spatial dimensions for $N\\ge 2$, a regime in which isospin has\npreviously been treated as a label. This statement extends to more general\n$p$-branes subjected to severe fuzzification as well as membranes. As a\nconsequence of this generalisation, systems with $d$ Cartesian spatial\ncoordinates and isospin degrees of freedom encoding an additional $\\delta$\nfuzzy coset space coordinates can realise topologically non-trivial states of\nintrinsic dimensionality up to $d$+$\\delta$+1. We therefore identify gauge\ntheories with extra fuzzy dimensions generalised to retain dependence upon\ngauge fields over fuzzy coset spaces even for severe fuzzification (small $N$),\nas EFTs for the QSkHE. We furthermore generalise these EFTs to space manifolds\nwith local product structure exploiting the dimensional hierarchy of (fuzzy)\nspheres. For this purpose, we introduce methods of anisotropic fuzzification\nand propose formulating topological invariants on fuzzy coset spaces as\nartifacts of projecting matrix Lie algebras to occupied subspaces. Importantly,\nwe focus on phenomenology indicating the 2+1 D SU(2) gauge theory should be\ngeneralised using this machinery, and serves as a minimal EFT of the QSkHE.\n",
+  "subjects": [
+    "Physics/High Energy Physics - Theory",
+    "Condensed Matter/Mesoscale and Nanoscale Physics",
+    "Condensed Matter/Strongly Correlated Electrons",
+    "Condensed Matter/Superconductivity",
+    "Physics/Quantum Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "Ekrrh3MwPE92Qn37ZqLNoPq6HNUy0dtaf-KBz84wLho",
+  "pdfSize": "2986131"
+}

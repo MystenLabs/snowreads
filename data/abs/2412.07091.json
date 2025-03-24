@@ -1,0 +1,33 @@
+{
+  "id": "2412.07091",
+  "title": "Creative Portraiture: Exploring Creative Adversarial Networks and\n  Conditional Creative Adversarial Networks",
+  "authors": "Sebastian Hereu, Qianfei Hu",
+  "authorsParsed": [
+    [
+      "Hereu",
+      "Sebastian",
+      ""
+    ],
+    [
+      "Hu",
+      "Qianfei",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 10 Dec 2024 01:18:26 GMT"
+    }
+  ],
+  "updateDate": "2024-12-11",
+  "timestamp": 1733793506000,
+  "abstract": "  Convolutional neural networks (CNNs) have been combined with generative\nadversarial networks (GANs) to create deep convolutional generative adversarial\nnetworks (DCGANs) with great success. DCGANs have been used for generating\nimages and videos from creative domains such as fashion design and painting. A\ncommon critique of the use of DCGANs in creative applications is that they are\nlimited in their ability to generate creative products because the generator\nsimply learns to copy the training distribution. We explore an extension of\nDCGANs, creative adversarial networks (CANs). Using CANs, we generate novel,\ncreative portraits, using the WikiArt dataset to train the network. Moreover,\nwe introduce our extension of CANs, conditional creative adversarial networks\n(CCANs), and demonstrate their potential to generate creative portraits\nconditioned on a style label. We argue that generating products that are\nconditioned, or inspired, on a style label closely emulates real creative\nprocesses in which humans produce imaginative work that is still rooted in\nprevious styles.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "edpkrtt2cpVDPLL-UvaBcUVcoPYQaNxJPe8Sxj5eplk",
+  "pdfSize": "1479764"
+}

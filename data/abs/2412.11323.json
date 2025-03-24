@@ -1,0 +1,33 @@
+{
+  "id": "2412.11323",
+  "title": "Small-time asymptotics for hypoelliptic diffusions",
+  "authors": "Juraj F\\\"oldes and David P. Herzog",
+  "authorsParsed": [
+    [
+      "Földes",
+      "Juraj",
+      ""
+    ],
+    [
+      "Herzog",
+      "David P.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 15 Dec 2024 21:44:21 GMT"
+    }
+  ],
+  "updateDate": "2024-12-17",
+  "timestamp": 1734299061000,
+  "abstract": "  An inductive procedure is developed to calculate the asymptotic behavior at\ntime zero of a diffusion with polynomial drift and degenerate, additive noise.\nThe procedure gives rise to two different rescalings of the process; namely, a\nfunctional law of the iterated logarithm rescaling and a distributional\nrescaling. The limiting behavior of these rescalings is studied, resulting in\ntwo related control problems which are solved in nontrivial examples using\nmethods from geometric control theory. The control information from these\nproblems gives rise to a practical criteria for points to be regular on the\nboundary of a domain in $\\mathbf{R}^n$ for such diffusions.\n",
+  "subjects": [
+    "Mathematics/Probability",
+    "Mathematics/Analysis of PDEs"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "An6XWHP8XVMjri8r2EP8AcdRrLE4EyFTVwvJ3FqzstA",
+  "pdfSize": "417534"
+}

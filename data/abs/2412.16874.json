@@ -1,0 +1,47 @@
+{
+  "id": "2412.16874",
+  "title": "A Multi-modal Approach to Dysarthria Detection and Severity Assessment\n  Using Speech and Text Information",
+  "authors": "M Anuprabha, Krishna Gurugubelli, V Kesavaraj, Anil Kumar Vuppala",
+  "authorsParsed": [
+    [
+      "Anuprabha",
+      "M",
+      ""
+    ],
+    [
+      "Gurugubelli",
+      "Krishna",
+      ""
+    ],
+    [
+      "Kesavaraj",
+      "V",
+      ""
+    ],
+    [
+      "Vuppala",
+      "Anil Kumar",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 22 Dec 2024 06:08:35 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Fri, 21 Feb 2025 04:49:04 GMT"
+    }
+  ],
+  "updateDate": "2025-02-24",
+  "timestamp": 1734847715000,
+  "abstract": "  Automatic detection and severity assessment of dysarthria are crucial for\ndelivering targeted therapeutic interventions to patients. While most existing\nresearch focuses primarily on speech modality, this study introduces a novel\napproach that leverages both speech and text modalities. By employing\ncross-attention mechanism, our method learns the acoustic and linguistic\nsimilarities between speech and text representations. This approach assesses\nspecifically the pronunciation deviations across different severity levels,\nthereby enhancing the accuracy of dysarthric detection and severity assessment.\nAll the experiments have been performed using UA-Speech dysarthric database.\nImproved accuracies of 99.53% and 93.20% in detection, and 98.12% and 51.97%\nfor severity assessment have been achieved when speaker-dependent and\nspeaker-independent, unseen and seen words settings are used. These findings\nsuggest that by integrating text information, which provides a reference\nlinguistic knowledge, a more robust framework has been developed for dysarthric\ndetection and assessment, thereby potentially leading to more effective\ndiagnoses.\n",
+  "subjects": [
+    "Computer Science/Artificial Intelligence",
+    "Electrical Engineering and Systems Science/Audio and Speech Processing"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "7CZpeGPZI5TKiGemHSO4lHNbFW5X_lDhYmYgeR_t_0s",
+  "pdfSize": "307404"
+}

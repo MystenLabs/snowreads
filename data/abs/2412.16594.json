@@ -1,0 +1,33 @@
+{
+  "id": "2412.16594",
+  "title": "AIGCodeSet: A New Annotated Dataset for AI Generated Code Detection",
+  "authors": "Basak Demirok, Mucahid Kutlu",
+  "authorsParsed": [
+    [
+      "Demirok",
+      "Basak",
+      ""
+    ],
+    [
+      "Kutlu",
+      "Mucahid",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 21 Dec 2024 11:53:49 GMT"
+    }
+  ],
+  "updateDate": "2024-12-24",
+  "timestamp": 1734782029000,
+  "abstract": "  With the rapid advancement of LLM models, they have become widely useful in\nvarious fields. While these AI systems can be used for code generation,\nsignificantly simplifying and accelerating the tasks of developers, their use\nfor students to do assignments has raised ethical questions in the field of\neducation. In this context, determining the author of a particular code becomes\nimportant. In this study, we introduce AIGCodeSet, a dataset for AI-generated\ncode detection tasks, specifically for the Python programming language. We\nobtain the problem descriptions and human-written codes from the CodeNet\ndataset. Using the problem descriptions, we generate AI-written codes with\nCodeLlama 34B, Codestral 22B, and Gemini 1.5 Flash models in three approaches:\ni) generating code from the problem description alone, ii) generating code\nusing the description along with human-written source code containing runtime\nerrors, and iii) generating code using the problem description and\nhuman-written code that resulted in wrong answers. Lastly, we conducted a\npost-processing step to eliminate LLM output irrelevant to code snippets.\nOverall, AIGCodeSet consists of 2,828 AI-generated and 4,755 human-written code\nsnippets. We share our code with the research community to support studies on\nthis important topic and provide performance results for baseline AI-generated\ncode detection methods.\n",
+  "subjects": [
+    "Computer Science/Software Engineering",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "npHCBajejCVyqcE7aEV3MZn42iwSyKTayLhm_vs85Uc",
+  "pdfSize": "256408"
+}

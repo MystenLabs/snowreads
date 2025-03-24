@@ -1,0 +1,62 @@
+{
+  "id": "2412.02642",
+  "title": "Robust soybean seed yield estimation using high-throughput ground robot\n  videos",
+  "authors": "Jiale Feng, Samuel W. Blair, Timilehin Ayanlade, Aditya Balu, Baskar\n  Ganapathysubramanian, Arti Singh, Soumik Sarkar, Asheesh K Singh",
+  "authorsParsed": [
+    [
+      "Feng",
+      "Jiale",
+      ""
+    ],
+    [
+      "Blair",
+      "Samuel W.",
+      ""
+    ],
+    [
+      "Ayanlade",
+      "Timilehin",
+      ""
+    ],
+    [
+      "Balu",
+      "Aditya",
+      ""
+    ],
+    [
+      "Ganapathysubramanian",
+      "Baskar",
+      ""
+    ],
+    [
+      "Singh",
+      "Arti",
+      ""
+    ],
+    [
+      "Sarkar",
+      "Soumik",
+      ""
+    ],
+    [
+      "Singh",
+      "Asheesh K",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 3 Dec 2024 18:13:51 GMT"
+    }
+  ],
+  "updateDate": "2024-12-04",
+  "timestamp": 1733249631000,
+  "abstract": "  We present a novel method for soybean (Glycine max (L.) Merr.) yield\nestimation leveraging high throughput seed counting via computer vision and\ndeep learning techniques. Traditional methods for collecting yield data are\nlabor-intensive, costly, prone to equipment failures at critical data\ncollection times, and require transportation of equipment across field sites.\nComputer vision, the field of teaching computers to interpret visual data,\nallows us to extract detailed yield information directly from images. By\ntreating it as a computer vision task, we report a more efficient alternative,\nemploying a ground robot equipped with fisheye cameras to capture comprehensive\nvideos of soybean plots from which images are extracted in a variety of\ndevelopment programs. These images are processed through the P2PNet-Yield\nmodel, a deep learning framework where we combined a Feature Extraction Module\n(the backbone of the P2PNet-Soy) and a Yield Regression Module to estimate seed\nyields of soybean plots. Our results are built on three years of yield testing\nplot data - 8500 in 2021, 2275 in 2022, and 650 in 2023. With these datasets,\nour approach incorporates several innovations to further improve the accuracy\nand generalizability of the seed counting and yield estimation architecture,\nsuch as the fisheye image correction and data augmentation with random sensor\neffects. The P2PNet-Yield model achieved a genotype ranking accuracy score of\nup to 83%. It demonstrates up to a 32% reduction in time to collect yield data\nas well as costs associated with traditional yield estimation, offering a\nscalable solution for breeding programs and agricultural productivity\nenhancement.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "BURDMCQcSscqnC81XSPN_dauOWcf1_vmkCq-kJO53Ao",
+  "pdfSize": "2850684"
+}

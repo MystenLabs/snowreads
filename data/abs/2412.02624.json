@@ -1,0 +1,32 @@
+{
+  "id": "2412.02624",
+  "title": "Taming NSPT fluctuations in $O(N)$ Non-Linear Sigma Model: simulations\n  in the large $N$ regime",
+  "authors": "Paolo Baglioni and Francesco Di Renzo",
+  "authorsParsed": [
+    [
+      "Baglioni",
+      "Paolo",
+      ""
+    ],
+    [
+      "Di Renzo",
+      "Francesco",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 3 Dec 2024 17:53:04 GMT"
+    }
+  ],
+  "updateDate": "2024-12-04",
+  "timestamp": 1733248384000,
+  "abstract": "  The Non-Linear Sigma Model (NLSM) is an example of a field theory on a target\nspace exhibiting intricate geometry. One remarkable characteristic of the NLSM\nis asymptotic freedom, which triggers interest in perturbative calculations. In\nthe lattice formulation of NLSM, one would naturally rely on Numerical\nStochastic Perturbation Theory (NSPT) to conduct high-order computations.\nHowever, when dealing with low-dimensional systems, NSPT reveals increasing\nstatistical fluctuations with higher and higher orders. This of course does not\ncome as a surprise and one is ready to live with this, as long as the noise is\nnot going to completely kill the signal, which unfortunately in some models\ndoes take place. We investigate how, in the $O(N)$ context, this behaviour\nstrongly depends on $N$. As expected, larger $N$ values make higher-order\ncomputations feasible.\n",
+  "subjects": [
+    "Physics/High Energy Physics - Lattice"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "CUdnodKXsU4gEEv23WbsFIgT9lyZD5GMQggfo4O3EdU",
+  "pdfSize": "986093"
+}

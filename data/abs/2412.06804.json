@@ -1,0 +1,33 @@
+{
+  "id": "2412.06804",
+  "title": "Periodic solutions for a pair of delay-coupled excitable theta neurons",
+  "authors": "Carlo R. Laing and Bernd Krauskopf",
+  "authorsParsed": [
+    [
+      "Laing",
+      "Carlo R.",
+      ""
+    ],
+    [
+      "Krauskopf",
+      "Bernd",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 24 Nov 2024 20:57:00 GMT"
+    }
+  ],
+  "updateDate": "2024-12-11",
+  "timestamp": 1732481820000,
+  "abstract": "  We consider a pair of identical theta neurons in the excitable regime, each\ncoupled to the other via a delayed Dirac delta function with the same delay.\nThis simple network can support different periodic solutions, and we\nconcentrate on two important types: those for which the neurons are perfectly\nsynchronous, and those where the neurons are exactly half a period out of phase\nand fire alternatingly. Owing to the specific type of pulsatile feedback, we\nare able to determine these solutions and their stability analytically. More\nspecifically, (infinitely many) branches of periodic solutions of either type\nare created at saddle-node bifurcations, and they gain stability at\nsymmetry-breaking bifurcations when their period as a function of delay is at\nits minimum. We also determine the respective branches of symmetry-broken\nperiodic solutions and show that they are all unstable. We demonstrate by\nconsidering smoothed pulse-like coupling that the special case of the Dirac\ndelta function can be seen as a sort of normal form: the basic structure of the\ndifferent periodic solutions of the two theta neurons is preserved, but there\nmay be additional changes of stability along the different branches.\n",
+  "subjects": [
+    "Nonlinear Sciences/Pattern Formation and Solitons",
+    "Quantitative Biology/Neurons and Cognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "6nGmLfe1DVLQdpygDYYpRXgl2yG1lNB_nSpX1KtA-5c",
+  "pdfSize": "5534524"
+}

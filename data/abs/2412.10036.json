@@ -1,0 +1,38 @@
+{
+  "id": "2412.10036",
+  "title": "Comparative study on higher order compact RBF-FD formulas with Gaussian\n  and Multiquadric radial functions",
+  "authors": "Manoj Kumar Yadav, Chirala Satyanarayana, A. Sreedhar",
+  "authorsParsed": [
+    [
+      "Yadav",
+      "Manoj Kumar",
+      ""
+    ],
+    [
+      "Satyanarayana",
+      "Chirala",
+      ""
+    ],
+    [
+      "Sreedhar",
+      "A.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 13 Dec 2024 10:55:03 GMT"
+    }
+  ],
+  "updateDate": "2024-12-16",
+  "timestamp": 1734087303000,
+  "abstract": "  We generate Gaussian radial function based higher order compact RBF-FD\nformulas for some differential operators. Analytical expressions for weights\nassociated to first and second derivative formulas (up to order 10) and\n2D-Laplacian formulas (up to order 6) are derived. Then these weights are used\nto obtain analytical expression for local truncation errors. The weights are\nobtained by symbolic computation of a linear system in Mathematica. Often such\nlinear systems are not directly amenable to symbolic computation. We make use\nof symmetry of formula stencil along with Taylor series expansions for\nperforming the computation. In the flat limit, the formulas converge to their\nrespective order polynomial based compact FD formulas. We validate the formulas\nwith standard test functions and demonstrate improvement in approximation\naccuracy with respect to corresponding order multiquadric based compact RBF-FD\nformulas and compact FD schemes. We also compute optimal value of shape\nparameter for each formula.\n",
+  "subjects": [
+    "Mathematics/Numerical Analysis",
+    "Computer Science/Numerical Analysis"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "kqiRlJhtdaRmYe4HHMpag6vQGwmfLFgfZewC3R2dzJc",
+  "pdfSize": "1030403"
+}

@@ -1,0 +1,37 @@
+{
+  "id": "2412.07049",
+  "title": "Static Key Attention in Vision",
+  "authors": "Zizhao Hu, Xiaolin Zhou, Mohammad Rostami",
+  "authorsParsed": [
+    [
+      "Hu",
+      "Zizhao",
+      ""
+    ],
+    [
+      "Zhou",
+      "Xiaolin",
+      ""
+    ],
+    [
+      "Rostami",
+      "Mohammad",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 9 Dec 2024 23:18:09 GMT"
+    }
+  ],
+  "updateDate": "2024-12-11",
+  "timestamp": 1733786289000,
+  "abstract": "  The success of vision transformers is widely attributed to the expressive\npower of their dynamically parameterized multi-head self-attention mechanism.\nWe examine the impact of substituting the dynamic parameterized key with a\nstatic key within the standard attention mechanism in Vision Transformers. Our\nfindings reveal that static key attention mechanisms can match or even exceed\nthe performance of standard self-attention. Integrating static key attention\nmodules into a Metaformer backbone, we find that it serves as a better\nintermediate stage in hierarchical hybrid architectures, balancing the\nstrengths of depth-wise convolution and self-attention. Experiments on several\nvision tasks underscore the effectiveness of the static key mechanism,\nindicating that the typical two-step dynamic parameterization in attention can\nbe streamlined to a single step without impacting performance under certain\ncircumstances.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "U7TI6KRGrYd1V0nsZ2pr9cnpMbRVke7A1Oc2RsmR82E",
+  "pdfSize": "1180191"
+}

@@ -1,0 +1,37 @@
+{
+  "id": "2412.20847",
+  "title": "Strategic Learning and Trading in Broker-Mediated Markets",
+  "authors": "Alif Aqsha, Fay\\c{c}al Drissi, Leandro S\\'anchez-Betancourt",
+  "authorsParsed": [
+    [
+      "Aqsha",
+      "Alif",
+      ""
+    ],
+    [
+      "Drissi",
+      "Fayçal",
+      ""
+    ],
+    [
+      "Sánchez-Betancourt",
+      "Leandro",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 30 Dec 2024 10:34:44 GMT"
+    }
+  ],
+  "updateDate": "2024-12-31",
+  "timestamp": 1735554884000,
+  "abstract": "  We study strategic interactions in a broker-mediated market. A broker\nprovides liquidity to an informed trader and to noise traders while managing\ninventory in the lit market. The broker and the informed trader maximise their\ntrading performance while filtering each other's private information; the\ntrader estimates the broker's trading activity in the lit market while the\nbroker estimates the informed trader's private signal. Brokers hold a strategic\nadvantage over traders who rely solely on prices to filter information. We find\nthat information leakage in the client's trading flow yields an economic value\nto the broker that is comparable to transaction costs; she speculates\nprofitably and mitigates risk effectively, which, in turn, adversely impacts\nthe informed trader's performance. In contrast, low signal-to-noise sources,\nsuch as prices, result in the broker's trading performance being\nindistinguishable from that of a naive strategy that internalises noise flow,\nexternalises informed flow, and offloads inventory at a constant rate.\n",
+  "subjects": [
+    "Quantitative Finance/Trading and Market Microstructure"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "WlzpqZQeiP1ISPStaGEaIHW5pTq5ym7DQNLp74bQWAE",
+  "pdfSize": "3095507"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2412.02342",
+  "title": "A Rule-Based Methodology for Company Identification: Application to the\n  Downstream Space Sector",
+  "authors": "Kenza Bousedra and Pierre Pelletier",
+  "authorsParsed": [
+    [
+      "Bousedra",
+      "Kenza",
+      ""
+    ],
+    [
+      "Pelletier",
+      "Pierre",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 3 Dec 2024 10:03:51 GMT"
+    }
+  ],
+  "updateDate": "2024-12-04",
+  "timestamp": 1733220231000,
+  "abstract": "  This paper proposes an original methodology based on Named Entity Recognition\n(NER) to identify companies involved in downstream space activities, i.e.,\ncompanies that provide services or products exploiting data and technology from\nspace. Using a rule-based approach, the method leverages a corpus of texts from\ndigitized French press articles to extract company names related to the\ndownstream space segment. This approach allowed the detection of 88 new\ndownstream space companies, enriching the existing database of the sector by\n33\\%. The paper details the identification process and provides guidelines for\nfuture replications, applying the method to other geographic areas, or adapting\nit to other industries where new entrants are challenging to identify using\ntraditional activity classifications.\n",
+  "subjects": [
+    "Economics/General Economics",
+    "Quantitative Finance/Economics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "52BzfqL0F73WdYw9uREfyaVQ6kdY-8porD2aT3ljZ_w",
+  "pdfSize": "2993125"
+}

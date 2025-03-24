@@ -1,0 +1,41 @@
+{
+  "id": "2412.18501",
+  "title": "Hilbert Transform on Graphs: Let There Be Phase",
+  "authors": "Chun Hei Michael Chan, Alexandre Cionca, Dimitri Van De Ville",
+  "authorsParsed": [
+    [
+      "Chan",
+      "Chun Hei Michael",
+      ""
+    ],
+    [
+      "Cionca",
+      "Alexandre",
+      ""
+    ],
+    [
+      "Van De Ville",
+      "Dimitri",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 24 Dec 2024 15:40:06 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Fri, 7 Feb 2025 15:38:26 GMT"
+    }
+  ],
+  "updateDate": "2025-02-10",
+  "timestamp": 1735054806000,
+  "abstract": "  In the past years, many signal processing operations have been successfully\nadapted to the graph setting. One elegant and effective approach is to exploit\nthe eigendecomposition of a graph shift operator (GSO), such as the adjacency\nor Laplacian operator, to define a graph Fourier transform when projecting\ngraph signals on the corresponding basis. However, the extension of this scheme\nto directed graphs is challenging since the associated GSO is non-symmetric\nand, in general, not diagonalizable. Here, we build upon a recent framework\nthat adds a minimal number of edges to allow diagonalization of the GSO and\nthus provide a proper graph Fourier transform. Furthermore, we show that such\nminimal addition of edges creates a cycle cover and that it is essential for\nthe phase analysis of a signal throughout the graph. Concurrently, we propose a\ngeneralization of the Hilbert transform interpreted over the newfound cycle\ncover, which re-establishes intuitions from traditional Hilbert Transform,\nequivalent to the generalized Hilbert Transform on a single cycle. This\ngeneralization leads to a number of simple and elegant recipes to effectively\nexploit the phase information of graph signals provided by the graph Fourier\ntransform. The feasibility of the approach is demonstrated on several examples.\n",
+  "subjects": [
+    "Electrical Engineering and Systems Science/Signal Processing"
+  ],
+  "license": "http://creativecommons.org/licenses/by-sa/4.0/",
+  "blobId": "BJaX08-eU3DyMMwwAJeUsvkUbeRnSGpl1K58RB0fobE",
+  "pdfSize": "1449338"
+}

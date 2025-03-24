@@ -1,0 +1,362 @@
+{
+  "id": "2412.08527",
+  "title": "Characterization of seven transiting systems including four warm\n  Jupiters from SOPHIE and TESS",
+  "authors": "N. Heidari, G. H'ebrard, E. Martioli, J. D. Eastman, J.M. Jackson, X.\n  Delfosse, A. Jord'an, A.C.M. Correia, S. Sousa, D. Dragomir, T. Forveille, I.\n  Boisse, S.A. Giacalone, R.F. D'iaz, R. Brahm, D. Almasian, J.M. Almenara, A.\n  Bieryla, K. Barkaoui, D. Baker, S.C. C . Barros, X. Bonfils, A. Carmona, K.A.\n  Collins, P. Cort'es-Zuleta, M. Deleuil, O.D.S. Demangeon, B. Edwards, J.\n  Eberhardt, N. Espinoza, N. Eisner, D.L. Feliz, A.C. Frommer, A. Fukui, F.\n  Grau, A.F. Gupta, N. Hara, M.J. Hobson, T. Henning, S.B. Howell, J.M.\n  Jenkins, F. Kiefer, D.M. LaCourse, J. Laskar, N. Law, A.W. Mann, F. Murgas,\n  C. Moutou, N. Narita, E. Palle, H.M. Relles, K. G. Stassun, J. Serrano Bell,\n  R.P. Schwarz, G. Srdoc, P.A. Str{\\o}m, B. Safonov, P. Sarkis, M. Schlecker,\n  M. Tala Pinto, J. Pepper, F.I. Rojas, J.D. Twicken, T. Trifonov, S.\n  Villanueva Jr, C.N. Watkins, J.N. Winn, C. Ziegler",
+  "authorsParsed": [
+    [
+      "Heidari",
+      "N.",
+      ""
+    ],
+    [
+      "H'ebrard",
+      "G.",
+      ""
+    ],
+    [
+      "Martioli",
+      "E.",
+      ""
+    ],
+    [
+      "Eastman",
+      "J. D.",
+      ""
+    ],
+    [
+      "Jackson",
+      "J. M.",
+      ""
+    ],
+    [
+      "Delfosse",
+      "X.",
+      ""
+    ],
+    [
+      "Jord'an",
+      "A.",
+      ""
+    ],
+    [
+      "Correia",
+      "A. C. M.",
+      ""
+    ],
+    [
+      "Sousa",
+      "S.",
+      ""
+    ],
+    [
+      "Dragomir",
+      "D.",
+      ""
+    ],
+    [
+      "Forveille",
+      "T.",
+      ""
+    ],
+    [
+      "Boisse",
+      "I.",
+      ""
+    ],
+    [
+      "Giacalone",
+      "S. A.",
+      ""
+    ],
+    [
+      "D'iaz",
+      "R. F.",
+      ""
+    ],
+    [
+      "Brahm",
+      "R.",
+      ""
+    ],
+    [
+      "Almasian",
+      "D.",
+      ""
+    ],
+    [
+      "Almenara",
+      "J. M.",
+      ""
+    ],
+    [
+      "Bieryla",
+      "A.",
+      ""
+    ],
+    [
+      "Barkaoui",
+      "K.",
+      ""
+    ],
+    [
+      "Baker",
+      "D.",
+      ""
+    ],
+    [
+      "Barros",
+      "S. C. C .",
+      ""
+    ],
+    [
+      "Bonfils",
+      "X.",
+      ""
+    ],
+    [
+      "Carmona",
+      "A.",
+      ""
+    ],
+    [
+      "Collins",
+      "K. A.",
+      ""
+    ],
+    [
+      "Cort'es-Zuleta",
+      "P.",
+      ""
+    ],
+    [
+      "Deleuil",
+      "M.",
+      ""
+    ],
+    [
+      "Demangeon",
+      "O. D. S.",
+      ""
+    ],
+    [
+      "Edwards",
+      "B.",
+      ""
+    ],
+    [
+      "Eberhardt",
+      "J.",
+      ""
+    ],
+    [
+      "Espinoza",
+      "N.",
+      ""
+    ],
+    [
+      "Eisner",
+      "N.",
+      ""
+    ],
+    [
+      "Feliz",
+      "D. L.",
+      ""
+    ],
+    [
+      "Frommer",
+      "A. C.",
+      ""
+    ],
+    [
+      "Fukui",
+      "A.",
+      ""
+    ],
+    [
+      "Grau",
+      "F.",
+      ""
+    ],
+    [
+      "Gupta",
+      "A. F.",
+      ""
+    ],
+    [
+      "Hara",
+      "N.",
+      ""
+    ],
+    [
+      "Hobson",
+      "M. J.",
+      ""
+    ],
+    [
+      "Henning",
+      "T.",
+      ""
+    ],
+    [
+      "Howell",
+      "S. B.",
+      ""
+    ],
+    [
+      "Jenkins",
+      "J. M.",
+      ""
+    ],
+    [
+      "Kiefer",
+      "F.",
+      ""
+    ],
+    [
+      "LaCourse",
+      "D. M.",
+      ""
+    ],
+    [
+      "Laskar",
+      "J.",
+      ""
+    ],
+    [
+      "Law",
+      "N.",
+      ""
+    ],
+    [
+      "Mann",
+      "A. W.",
+      ""
+    ],
+    [
+      "Murgas",
+      "F.",
+      ""
+    ],
+    [
+      "Moutou",
+      "C.",
+      ""
+    ],
+    [
+      "Narita",
+      "N.",
+      ""
+    ],
+    [
+      "Palle",
+      "E.",
+      ""
+    ],
+    [
+      "Relles",
+      "H. M.",
+      ""
+    ],
+    [
+      "Stassun",
+      "K. G.",
+      ""
+    ],
+    [
+      "Bell",
+      "J. Serrano",
+      ""
+    ],
+    [
+      "Schwarz",
+      "R. P.",
+      ""
+    ],
+    [
+      "Srdoc",
+      "G.",
+      ""
+    ],
+    [
+      "Strøm",
+      "P. A.",
+      ""
+    ],
+    [
+      "Safonov",
+      "B.",
+      ""
+    ],
+    [
+      "Sarkis",
+      "P.",
+      ""
+    ],
+    [
+      "Schlecker",
+      "M.",
+      ""
+    ],
+    [
+      "Pinto",
+      "M. Tala",
+      ""
+    ],
+    [
+      "Pepper",
+      "J.",
+      ""
+    ],
+    [
+      "Rojas",
+      "F. I.",
+      ""
+    ],
+    [
+      "Twicken",
+      "J. D.",
+      ""
+    ],
+    [
+      "Trifonov",
+      "T.",
+      ""
+    ],
+    [
+      "Villanueva",
+      "S.",
+      "Jr"
+    ],
+    [
+      "Watkins",
+      "C. N.",
+      ""
+    ],
+    [
+      "Winn",
+      "J. N.",
+      ""
+    ],
+    [
+      "Ziegler",
+      "C.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 11 Dec 2024 16:38:31 GMT"
+    }
+  ],
+  "updateDate": "2025-02-12",
+  "timestamp": 1733935111000,
+  "abstract": "  We present the study of seven systems, three of which TOI-2295, TOI-2537, and\nTOI-5110 are newly discovered planetary systems. Through the analysis of TESS\nphotometry, SOPHIE radial velocities, and high-spatial resolution imaging, we\nfound that TOI-2295b, TOI-2537b, and TOI-5110b are transiting warm Jupiters\nwith orbital periods ranging from 30 to 94 d, masses between 0.9 and 2.9 MJ,\nand radii ranging from 1.0 to 1.5 RJ. Both TOI-2295 and TOI-2537 each harbor at\nleast one additional, outer planet. Their outer planets TOI-2295c and TOI-2537c\nare characterized by orbital periods of 966.5 +/- 4.3 and 1920^{+230}_{-140} d,\nrespectively, and minimum masses of 5.61^{+0.23}_{-0.24} and 7.2 +/- 0.5 MJ,\nrespectively. We also investigated and characterized the two recently reported\nwarm Jupiters TOI-1836b and TOI-5076b, which we independently detected in\nSOPHIE RVs. Additionally, we study the planetary candidates TOI-4081.01 and\nTOI-4168.01. For TOI-4081.01, despite our detection in radial velocities, we\ncannot rule out perturbation by a blended eclipsing binary and thus exercise\ncaution regarding its planetary nature. On the other hand, we identify\nTOI-4168.01 as a firm false positive. Finally, we highlight interesting\ncharacteristics of these new planetary systems. The transits of TOI-2295b are\nhighly grazing, with an impact parameter of 1.056$^{+0.063}_{-0.043}$.\nTOI-2537b, in turn, is a temperate Jupiter with an effective temperature of\n307+/-15 K and can serve as a valuable low-irradiation control for models of\nhot Jupiter inflation anomalies. We also detected significant transit timing\nvariations (TTVs) for TOI-2537b, which are likely caused by gravitational\ninteractions with the outer planet TOI-2537c. Finally, TOI-5110b stands out due\nto its orbital eccentricity of 0.75+/- 0.03, one of the highest planetary\neccentricities discovered thus far.\n",
+  "subjects": [
+    "Astrophysics/Earth and Planetary Astrophysics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "bZPz-x3fPHzE7z99j51f5cFzBzCf3T4Tg1HMETPj9VU",
+  "pdfSize": "19581900"
+}

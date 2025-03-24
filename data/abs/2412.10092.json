@@ -1,0 +1,37 @@
+{
+  "id": "2412.10092",
+  "title": "A Survey on Knowledge Graph Structure and Knowledge Graph Embeddings",
+  "authors": "Jeffrey Sardina, John D. Kelleher, Declan O'Sullivan",
+  "authorsParsed": [
+    [
+      "Sardina",
+      "Jeffrey",
+      ""
+    ],
+    [
+      "Kelleher",
+      "John D.",
+      ""
+    ],
+    [
+      "O'Sullivan",
+      "Declan",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 13 Dec 2024 12:30:09 GMT"
+    }
+  ],
+  "updateDate": "2024-12-16",
+  "timestamp": 1734093009000,
+  "abstract": "  Knowledge Graphs (KGs) and their machine learning counterpart, Knowledge\nGraph Embedding Models (KGEMs), have seen ever-increasing use in a wide variety\nof academic and applied settings. In particular, KGEMs are typically applied to\nKGs to solve the link prediction task; i.e. to predict new facts in the domain\nof a KG based on existing, observed facts. While this approach has been shown\nsubstantial power in many end-use cases, it remains incompletely characterised\nin terms of how KGEMs react differently to KG structure. This is of particular\nconcern in light of recent studies showing that KG structure can be a\nsignificant source of bias as well as partially determinant of overall KGEM\nperformance. This paper seeks to address this gap in the state-of-the-art. This\npaper provides, to the authors' knowledge, the first comprehensive survey\nexploring established relationships of Knowledge Graph Embedding Models and\nGraph structure in the literature. It is the hope of the authors that this work\nwill inspire further studies in this area, and contribute to a more holistic\nunderstanding of KGs, KGEMs, and the link prediction task.\n",
+  "subjects": [
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "wu9ntL8aIRHDpxIhG6yqfcA3DTtT5x2K3Xj3n6r4RaY",
+  "pdfSize": "1644460"
+}

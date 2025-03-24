@@ -1,0 +1,42 @@
+{
+  "id": "2412.15410",
+  "title": "Deciphering Social Behaviour: a Novel Biological Approach For Social\n  Users Classification",
+  "authors": "Edoardo Allegrini, Edoardo Di Paolo, Marinella Petrocchi, Angelo\n  Spognardi",
+  "authorsParsed": [
+    [
+      "Allegrini",
+      "Edoardo",
+      ""
+    ],
+    [
+      "Di Paolo",
+      "Edoardo",
+      ""
+    ],
+    [
+      "Petrocchi",
+      "Marinella",
+      ""
+    ],
+    [
+      "Spognardi",
+      "Angelo",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 19 Dec 2024 21:33:51 GMT"
+    }
+  ],
+  "updateDate": "2024-12-23",
+  "timestamp": 1734644031000,
+  "abstract": "  Social media platforms continue to struggle with the growing presence of\nsocial bots-automated accounts that can influence public opinion and facilitate\nthe spread of disinformation. Over time, these social bots have advanced\nsignificantly, making them increasingly difficult to distinguish from genuine\nusers. Recently, new groups of bots have emerged, utilizing Large Language\nModels to generate content for posting, further complicating detection efforts.\nThis paper proposes a novel approach that uses algorithms to measure the\nsimilarity between DNA strings, commonly used in biological contexts, to\nclassify social users as bots or not. Our approach begins by clustering social\nmedia users into distinct macro species based on the similarities (and\ndifferences) observed in their timelines. These macro species are subsequently\nclassified as either bots or genuine users, using a novel metric we developed\nthat evaluates their behavioral characteristics in a way that mirrors\nbiological comparison methods. This study extends beyond past approaches that\nfocus solely on identical behaviors via analyses of the accounts' timelines. By\nincorporating new metrics, our approach systematically classifies non-trivial\naccounts into appropriate categories, effectively peeling back layers to reveal\nnon-obvious species.\n",
+  "subjects": [
+    "Computer Science/Social and Information Networks"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "r1xlTBpYicy3gCt5CBICFORf1CNFR3kTaO4q8yTzDTE",
+  "pdfSize": "11927096"
+}

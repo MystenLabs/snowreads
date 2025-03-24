@@ -1,0 +1,48 @@
+{
+  "id": "2412.10668",
+  "title": "Entanglement induced by Heisenberg exchange between an electron in a\n  nested quantum dot and a qubit with relative motion",
+  "authors": "Lee-Che Lin, Seng Ghee Tan, Ching-Ray Chang, Shih-Jye Sun, and\n  Son-Hsien Chen",
+  "authorsParsed": [
+    [
+      "Lin",
+      "Lee-Che",
+      ""
+    ],
+    [
+      "Tan",
+      "Seng Ghee",
+      ""
+    ],
+    [
+      "Chang",
+      "Ching-Ray",
+      ""
+    ],
+    [
+      "Sun",
+      "Shih-Jye",
+      ""
+    ],
+    [
+      "Chen",
+      "Son-Hsien",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 14 Dec 2024 04:11:52 GMT"
+    }
+  ],
+  "updateDate": "2024-12-17",
+  "timestamp": 1734149512000,
+  "abstract": "  We propose a nested quantum dot structure for improved control of\nentanglement induced by the Heisenberg exchange between an electron and a qubit\nwith relative motion. The entanglement is quantified by the mutual information\n(MI). The electron, initially prepared in the ground state, generally produces\ngreater entanglement when excited to the scattering state compared to remaining\nin the bound state. In the bound state, the final entanglement oscillates as a\nfunction of the qubit speed and can be tuned accordingly. In the case of\nlong-range interaction, the normalized exchange distribution leads to\nsubstantial final entanglement, independent of the qubit moving direction,\nindicating that even very weak but prolonged exchange can still generate\nsignificant entanglement. In the case of short-range interaction, different\nmoving directions lead to varying MI values. We also consider the scenario\nwithout the nested dot and find that the same maximum (among all times) MI is\npre-determined solely by the initial angle between the spins. In this case, the\nentanglement exhibits different growth characteristics during different phases.\nThe saturation of the MI mimics that of a strict zero-dimensional quantum dot,\nwhere exchange and time are combined into a single parameter, the amount of\ninteraction.\n",
+  "subjects": [
+    "Condensed Matter/Mesoscale and Nanoscale Physics",
+    "Physics/Quantum Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "_5VGlfqbTCpnR4oHjRkn8JIArkk-QsiULZCiBRYxgMI",
+  "pdfSize": "768817"
+}

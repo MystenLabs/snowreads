@@ -1,0 +1,62 @@
+{
+  "id": "2412.18104",
+  "title": "Interference-free Operating System: A 6 Years' Experience in Mitigating\n  Cross-Core Interference in Linux",
+  "authors": "Zhaomeng Deng, Ziqi Zhang, Ding Li, Yao Guo, Yunfeng Ye, Yuxin Ren,\n  Ning Jia and Xinwei Hu",
+  "authorsParsed": [
+    [
+      "Deng",
+      "Zhaomeng",
+      ""
+    ],
+    [
+      "Zhang",
+      "Ziqi",
+      ""
+    ],
+    [
+      "Li",
+      "Ding",
+      ""
+    ],
+    [
+      "Guo",
+      "Yao",
+      ""
+    ],
+    [
+      "Ye",
+      "Yunfeng",
+      ""
+    ],
+    [
+      "Ren",
+      "Yuxin",
+      ""
+    ],
+    [
+      "Jia",
+      "Ning",
+      ""
+    ],
+    [
+      "Hu",
+      "Xinwei",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 24 Dec 2024 02:26:04 GMT"
+    }
+  ],
+  "updateDate": "2024-12-25",
+  "timestamp": 1735007164000,
+  "abstract": "  Real-time operating systems employ spatial and temporal isolation to\nguarantee predictability and schedulability of real-time systems on multi-core\nprocessors. Any unbounded and uncontrolled cross-core performance interference\nposes a significant threat to system time safety. However, the current Linux\nkernel has a number of interference issues and represents a primary source of\ninterference. Unfortunately, existing research does not systematically and\ndeeply explore the cross-core performance interference issue within the OS\nitself.\n  This paper presents our industry practice for mitigating cross-core\nperformance interference in Linux over the past 6 years. We have fixed dozens\nof interference issues in different Linux subsystems. Compared to the version\nwithout our improvements, our enhancements reduce the worst-case jitter by a\nfactor of 8.7, resulting in a maximum 11.5x improvement over system\nschedulability. For the worst-case latency in the Core Flight System and the\nRobot Operating System 2, we achieve a 1.6x and 1.64x reduction over RT-Linux.\nBased on our development experience, we summarize the lessons we learned and\noffer our suggestions to system developers for systematically eliminating\ncross-core interference from the following aspects: task management, resource\nmanagement, and concurrency management. Most of our modifications have been\nmerged into Linux upstream and released in commercial distributions.\n",
+  "subjects": [
+    "Computer Science/Operating Systems"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "k-EJwACBKLUoso7vjmsa2jvrVStUla6RLSZ5aeonfxY",
+  "pdfSize": "405219"
+}

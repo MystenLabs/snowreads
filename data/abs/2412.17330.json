@@ -1,0 +1,39 @@
+{
+  "id": "2412.17330",
+  "title": "EcoSearch: A Constant-Delay Best-First Search Algorithm for Program\n  Synthesis",
+  "authors": "Th\\'eo Matricon, Nathana\\\"el Fijalkow, Guillaume Lagarde",
+  "authorsParsed": [
+    [
+      "Matricon",
+      "Théo",
+      ""
+    ],
+    [
+      "Fijalkow",
+      "Nathanaël",
+      ""
+    ],
+    [
+      "Lagarde",
+      "Guillaume",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 23 Dec 2024 06:48:47 GMT"
+    }
+  ],
+  "updateDate": "2024-12-24",
+  "timestamp": 1734936527000,
+  "abstract": "  Many approaches to program synthesis perform a combinatorial search within a\nlarge space of programs to find one that satisfies a given specification. To\ntame the search space blowup, previous works introduced probabilistic and\nneural approaches to guide this combinatorial search by inducing heuristic cost\nfunctions. Best-first search algorithms ensure to search in the exact order\ninduced by the cost function, significantly reducing the portion of the program\nspace to be explored. We present a new best-first search algorithm called\nEcoSearch, which is the first constant-delay algorithm for pre-generation cost\nfunction: the amount of compute required between outputting two programs is\nconstant, and in particular does not increase over time. This key property\nyields important speedups: we observe that EcoSearch outperforms its\npredecessors on two classic domains.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Programming Languages"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "TlN9ut3Q31KNqnUo-RAB5WMktLmjTYstffVHMyy38xY",
+  "pdfSize": "907363"
+}

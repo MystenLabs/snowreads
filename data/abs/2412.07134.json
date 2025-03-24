@@ -1,0 +1,47 @@
+{
+  "id": "2412.07134",
+  "title": "A Bayesian Mixture Model Approach to Examining Neighborhood Social\n  Determinants of Health Disparities in Endometrial Cancer Care in\n  Massachusetts",
+  "authors": "Carmen B. Rodriguez, Stephanie M. Wu, Stephanie Alimena, Alecia J\n  McGregor, and Briana JK Stephenson",
+  "authorsParsed": [
+    [
+      "Rodriguez",
+      "Carmen B.",
+      ""
+    ],
+    [
+      "Wu",
+      "Stephanie M.",
+      ""
+    ],
+    [
+      "Alimena",
+      "Stephanie",
+      ""
+    ],
+    [
+      "McGregor",
+      "Alecia J",
+      ""
+    ],
+    [
+      "Stephenson",
+      "Briana JK",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 10 Dec 2024 02:41:33 GMT"
+    }
+  ],
+  "updateDate": "2024-12-11",
+  "timestamp": 1733798493000,
+  "abstract": "  Many studies have examined social determinants of health (SDoH) factors\nindependently, overlooking their interconnected and intersectional nature. Our\nstudy takes a multifactorial approach to construct a neighborhood level measure\nof SDoH and explores how neighborhood residency impacts care received by\nendometrial cancer patients in Massachusetts. We used a Bayesian multivariate\nBernoulli mixture model to create and characterize neighborhood SDoH (NSDoH)\nprofiles using the 2015-2019 American Community Survey at the census tract\nlevel (n=1478), incorporating 18 variables across four domains: housing\nconditions and resources, economic security, educational attainment, and social\nand community context. We linked these profiles to Massachusetts Cancer\nRegistry data to estimate the odds of receiving optimal care for endometrial\ncancer using Bayesian multivariate logistic regression. The model identified\neight NSDoH profiles. Profiles 1 and 2 accounted for 27% and 25% of census\ntracts, respectively. Profile 1 featured neighborhoods with high homeownership,\nabove median incomes, and high education, while Profile 2 showed higher\nprobabilities of limited English proficiency, renters, lower education, and\nworking class jobs. After adjusting for sociodemographic and clinical\ncharacteristics, we found no statistically significant association between\nNSDoH profiles and receipt of optimal care. However, compared to patients in\nNSDoH Profile 1, those in Profile 2 had lower odds of receiving optimal care,\nOR = 0.77, 95% CI (0.56, 1.07). Our results demonstrate the interconnected and\nmultidimensional nature of NSDoH, underscoring the importance of modeling them\naccordingly. This study also highlights the need for targeted interventions at\nthe neighborhood level to address underlying drivers of health disparities,\nensure equitable healthcare delivery, and foster better outcomes for all\npatients.\n",
+  "subjects": [
+    "Statistics/Applications"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "88gigvqG-QRuq-mvwPG91Iz0x8eCaWyBmAoJrAkD13o",
+  "pdfSize": "1094693"
+}

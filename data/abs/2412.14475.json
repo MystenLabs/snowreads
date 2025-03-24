@@ -1,0 +1,68 @@
+{
+  "id": "2412.14475",
+  "title": "MegaPairs: Massive Data Synthesis For Universal Multimodal Retrieval",
+  "authors": "Junjie Zhou, Zheng Liu, Ze Liu, Shitao Xiao, Yueze Wang, Bo Zhao, Chen\n  Jason Zhang, Defu Lian, Yongping Xiong",
+  "authorsParsed": [
+    [
+      "Zhou",
+      "Junjie",
+      ""
+    ],
+    [
+      "Liu",
+      "Zheng",
+      ""
+    ],
+    [
+      "Liu",
+      "Ze",
+      ""
+    ],
+    [
+      "Xiao",
+      "Shitao",
+      ""
+    ],
+    [
+      "Wang",
+      "Yueze",
+      ""
+    ],
+    [
+      "Zhao",
+      "Bo",
+      ""
+    ],
+    [
+      "Zhang",
+      "Chen Jason",
+      ""
+    ],
+    [
+      "Lian",
+      "Defu",
+      ""
+    ],
+    [
+      "Xiong",
+      "Yongping",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 19 Dec 2024 02:49:55 GMT"
+    }
+  ],
+  "updateDate": "2024-12-20",
+  "timestamp": 1734576595000,
+  "abstract": "  Despite the rapidly growing demand for multimodal retrieval, progress in this\nfield remains severely constrained by a lack of training data. In this paper,\nwe introduce MegaPairs, a novel data synthesis method that leverages vision\nlanguage models (VLMs) and open-domain images, together with a massive\nsynthetic dataset generated from this method. Our empirical analysis shows that\nMegaPairs generates high-quality data, enabling the multimodal retriever to\nsignificantly outperform the baseline model trained on 70$\\times$ more data\nfrom existing datasets. Moreover, since MegaPairs solely relies on general\nimage corpora and open-source VLMs, it can be easily scaled up, enabling\ncontinuous improvements in retrieval performance. In this stage, we produced\nmore than 26 million training instances and trained several models of varying\nsizes using this data. These new models achieve state-of-the-art zero-shot\nperformance across 4 popular composed image retrieval (CIR) benchmarks and the\nhighest overall performance on the 36 datasets provided by MMEB. They also\ndemonstrate notable performance improvements with additional downstream\nfine-tuning. Our produced dataset, well-trained models, and data synthesis\npipeline will be made publicly available to facilitate the future development\nof this field.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Computation and Language"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "VLADaye1fZIIghSn3Ranb3ZNj3ge2m7XmeLrd4TNDPs",
+  "pdfSize": "1714962"
+}

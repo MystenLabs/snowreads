@@ -1,0 +1,37 @@
+{
+  "id": "2412.11420",
+  "title": "Category Level 6D Object Pose Estimation from a Single RGB Image using\n  Diffusion",
+  "authors": "Adam Bethell, Ravi Garg and Ian Reid",
+  "authorsParsed": [
+    [
+      "Bethell",
+      "Adam",
+      ""
+    ],
+    [
+      "Garg",
+      "Ravi",
+      ""
+    ],
+    [
+      "Reid",
+      "Ian",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 16 Dec 2024 03:39:33 GMT"
+    }
+  ],
+  "updateDate": "2024-12-17",
+  "timestamp": 1734320373000,
+  "abstract": "  Estimating the 6D pose and 3D size of an object from an image is a\nfundamental task in computer vision. Most current approaches are restricted to\nspecific instances with known models or require ground truth depth information\nor point cloud captures from LIDAR. We tackle the harder problem of pose\nestimation for category-level objects from a single RGB image. We propose a\nnovel solution that eliminates the need for specific object models or depth\ninformation. Our method utilises score-based diffusion models to generate\nobject pose hypotheses to model the distribution of possible poses for the\nobject. Unlike previous methods that rely on costly trained likelihood\nestimators to remove outliers before pose aggregation using mean pooling, we\nintroduce a simpler approach using Mean Shift to estimate the mode of the\ndistribution as the final pose estimate. Our approach outperforms the current\nstate-of-the-art on the REAL275 dataset by a significant margin.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "aS-R3qSv5ObeREGVizsJi1ukee-kR63prkDT10M7268",
+  "pdfSize": "1592055"
+}

@@ -1,0 +1,70 @@
+{
+  "id": "2412.01824",
+  "title": "X-Prompt: Towards Universal In-Context Image Generation in\n  Auto-Regressive Vision Language Foundation Models",
+  "authors": "Zeyi Sun, Ziyang Chu, Pan Zhang, Tong Wu, Xiaoyi Dong, Yuhang Zang,\n  Yuanjun Xiong, Dahua Lin, Jiaqi Wang",
+  "authorsParsed": [
+    [
+      "Sun",
+      "Zeyi",
+      ""
+    ],
+    [
+      "Chu",
+      "Ziyang",
+      ""
+    ],
+    [
+      "Zhang",
+      "Pan",
+      ""
+    ],
+    [
+      "Wu",
+      "Tong",
+      ""
+    ],
+    [
+      "Dong",
+      "Xiaoyi",
+      ""
+    ],
+    [
+      "Zang",
+      "Yuhang",
+      ""
+    ],
+    [
+      "Xiong",
+      "Yuanjun",
+      ""
+    ],
+    [
+      "Lin",
+      "Dahua",
+      ""
+    ],
+    [
+      "Wang",
+      "Jiaqi",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 2 Dec 2024 18:59:26 GMT"
+    }
+  ],
+  "updateDate": "2024-12-03",
+  "timestamp": 1733165966000,
+  "abstract": "  In-context generation is a key component of large language models' (LLMs)\nopen-task generalization capability. By leveraging a few examples as context,\nLLMs can perform both in-domain and out-of-domain tasks. Recent advancements in\nauto-regressive vision-language models (VLMs) built upon LLMs have showcased\nimpressive performance in text-to-image generation. However, the potential of\nin-context learning for general image generation tasks remains largely\nunexplored. To address this, we introduce X-Prompt, a purely auto-regressive\nlarge-vision language model designed to deliver competitive performance across\na wide range of both seen and unseen image generation tasks, all within a\nunified in-context learning framework. X-Prompt incorporates a specialized\ndesign that efficiently compresses valuable features from in-context examples,\nsupporting longer in-context token sequences and improving its ability to\ngeneralize to unseen tasks. A unified training task for both text and image\nprediction enables X-Prompt to handle general image generation with enhanced\ntask awareness from in-context examples. Extensive experiments validate the\nmodel's performance across diverse seen image generation tasks and its capacity\nto generalize to previously unseen tasks.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Machine Learning",
+    "Computer Science/Multimedia"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "BJTuNRQhmNCbltm4DR5fF1tH-Y3ugptq-PlZ_iz3g5Q",
+  "pdfSize": "13321857"
+}

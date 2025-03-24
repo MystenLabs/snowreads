@@ -1,0 +1,43 @@
+{
+  "id": "2412.04233",
+  "title": "HyperMARL: Adaptive Hypernetworks for Multi-Agent RL",
+  "authors": "Kale-ab Abebe Tessera, Arrasy Rahman, Stefano V. Albrecht",
+  "authorsParsed": [
+    [
+      "Tessera",
+      "Kale-ab Abebe",
+      ""
+    ],
+    [
+      "Rahman",
+      "Arrasy",
+      ""
+    ],
+    [
+      "Albrecht",
+      "Stefano V.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 5 Dec 2024 15:09:51 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Fri, 7 Feb 2025 11:46:12 GMT"
+    }
+  ],
+  "updateDate": "2025-02-10",
+  "timestamp": 1733411391000,
+  "abstract": "  Adaptability is critical in cooperative multi-agent reinforcement learning\n(MARL), where agents must learn specialised or homogeneous behaviours for\ndiverse tasks. While parameter sharing methods are sample-efficient, they often\nencounter gradient interference among agents, limiting their behavioural\ndiversity. Conversely, non-parameter sharing approaches enable specialisation,\nbut are computationally demanding and sample-inefficient. To address these\nissues, we propose HyperMARL, a parameter sharing approach that uses\nhypernetworks to dynamically generate agent-specific actor and critic\nparameters, without altering the learning objective or requiring preset\ndiversity levels. By decoupling observation- and agent-conditioned gradients,\nHyperMARL empirically reduces policy gradient variance and facilitates\nspecialisation within FuPS, suggesting it can mitigate cross-agent\ninterference. Across multiple MARL benchmarks involving up to twenty agents --\nand requiring homogeneous, heterogeneous, or mixed behaviours -- HyperMARL\nconsistently performs competitively with fully shared, non-parameter-sharing,\nand diversity-promoting baselines, all while preserving a behavioural diversity\nlevel comparable to non-parameter sharing. These findings establish\nhypernetworks as a versatile approach for MARL across diverse environments.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Multiagent Systems"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "w4-oFatV8m7KTiCiBCK3phaTMfBZ1X9IEFbN85hrkqA",
+  "pdfSize": "2262379"
+}

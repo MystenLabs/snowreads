@@ -1,0 +1,43 @@
+{
+  "id": "2412.13510",
+  "title": "Dynamic Adapter with Semantics Disentangling for Cross-lingual\n  Cross-modal Retrieval",
+  "authors": "Rui Cai, Zhiyu Dong, Jianfeng Dong, Xun Wang",
+  "authorsParsed": [
+    [
+      "Cai",
+      "Rui",
+      ""
+    ],
+    [
+      "Dong",
+      "Zhiyu",
+      ""
+    ],
+    [
+      "Dong",
+      "Jianfeng",
+      ""
+    ],
+    [
+      "Wang",
+      "Xun",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 18 Dec 2024 05:19:09 GMT"
+    }
+  ],
+  "updateDate": "2024-12-19",
+  "timestamp": 1734499149000,
+  "abstract": "  Existing cross-modal retrieval methods typically rely on large-scale\nvision-language pair data. This makes it challenging to efficiently develop a\ncross-modal retrieval model for under-resourced languages of interest.\nTherefore, Cross-lingual Cross-modal Retrieval (CCR), which aims to align\nvision and the low-resource language (the target language) without using any\nhuman-labeled target-language data, has gained increasing attention. As a\ngeneral parameter-efficient way, a common solution is to utilize adapter\nmodules to transfer the vision-language alignment ability of Vision-Language\nPretraining (VLP) models from a source language to a target language. However,\nthese adapters are usually static once learned, making it difficult to adapt to\ntarget-language captions with varied expressions. To alleviate it, we propose\nDynamic Adapter with Semantics Disentangling (DASD), whose parameters are\ndynamically generated conditioned on the characteristics of the input captions.\nConsidering that the semantics and expression styles of the input caption\nlargely influence how to encode it, we propose a semantic disentangling module\nto extract the semantic-related and semantic-agnostic features from the input,\nensuring that generated adapters are well-suited to the characteristics of\ninput caption. Extensive experiments on two image-text datasets and one\nvideo-text dataset demonstrate the effectiveness of our model for cross-lingual\ncross-modal retrieval, as well as its good compatibility with various VLP\nmodels.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Computation and Language"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "fnV9nbzlmN4ni-T1-FDro4jPcIC60vJ7h-88FrCuXfo",
+  "pdfSize": "2371964"
+}

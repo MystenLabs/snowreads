@@ -1,0 +1,31 @@
+{
+  "id": "2412.03127",
+  "title": "Summa Summarum: Moessner's Theorem without Dynamic Programming",
+  "authors": "Olivier Danvy (National University of Singapore)",
+  "authorsParsed": [
+    [
+      "Danvy",
+      "Olivier",
+      "",
+      "National University of Singapore"
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 4 Dec 2024 08:44:02 GMT"
+    }
+  ],
+  "updateDate": "2024-12-05",
+  "timestamp": 1733301842000,
+  "abstract": "  Seventy years on, Moessner's theorem and Moessner's process -- i.e., the\nadditive computation of integral powers -- continue to fascinate. They have\ngiven rise to a variety of elegant proofs, to an implementation in hardware, to\ngeneralizations, and now even to a popular video, \"The Moessner Miracle.'' The\nexistence of this video, and even more its title, indicate that while the\n\"what'' of Moessner's process is understood, its \"how'' and even more its\n\"why'' are still elusive. And indeed all the proofs of Moessner's theorem\ninvolve more complicated concepts than both the theorem and the process. This\narticle identifies that Moessner's process implements an additive function with\ndynamic programming. A version of this implementation without dynamic\nprogramming (1) gives rise to a simpler statement of Moessner's theorem and (2)\ncan be abstracted and then instantiated into related additive computations. The\nsimpler statement also suggests a simpler and more efficient implementation to\ncompute integral powers as well as simple additive functions to compute, e.g.,\nFactorial numbers. It also reveals the source of -- to quote John Conway and\nRichard Guy -- Moessner's magic.\n",
+  "subjects": [
+    "Computer Science/Discrete Mathematics",
+    "Computer Science/Logic in Computer Science",
+    "Computer Science/Programming Languages",
+    "Computer Science/Symbolic Computation"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "jjAPaE6-TX9cHx_EaheG8Bi9QIDAkf384MqYufluiWA",
+  "pdfSize": "387807"
+}

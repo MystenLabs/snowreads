@@ -1,0 +1,29 @@
+{
+  "id": "2412.17510",
+  "title": "Performance evaluation of accelerated real and complex\n  multiple-precision sparse matrix-vector multiplication",
+  "authors": "Tomonori Kouya",
+  "authorsParsed": [
+    [
+      "Kouya",
+      "Tomonori",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 23 Dec 2024 12:15:16 GMT"
+    }
+  ],
+  "updateDate": "2024-12-24",
+  "timestamp": 1734956116000,
+  "abstract": "  Sparse matrices have recently played a significant and impactful role in\nscientific computing, including artificial intelligence-related fields.\nAccording to historical studies on sparse matrix--vector multiplication (SpMV),\nKrylov subspace methods are particularly sensitive to the effects of round-off\nerrors when using floating-point arithmetic. By employing multiple-precision\nlinear computation, convergence can be stabilized by reducing these round-off\nerrors. In this paper, we present the performance of our accelerated SpMV using\nSIMD instructions, demonstrating its effectiveness through various examples,\nincluding Krylov subspace methods.\n",
+  "subjects": [
+    "Mathematics/Numerical Analysis",
+    "Computer Science/Numerical Analysis",
+    "Computer Science/Performance"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "dE-kN32LVy_ybgtjy1ZolGNnEnu-sodH9KgBvRZNHL4",
+  "pdfSize": "1140487"
+}

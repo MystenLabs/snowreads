@@ -1,0 +1,44 @@
+{
+  "id": "2412.12189",
+  "title": "Multi-Surrogate-Teacher Assistance for Representation Alignment in\n  Fingerprint-based Indoor Localization",
+  "authors": "Son Minh Nguyen, Linh Duy Tran, Duc Viet Le, and Paul J.M Havinga",
+  "authorsParsed": [
+    [
+      "Nguyen",
+      "Son Minh",
+      ""
+    ],
+    [
+      "Tran",
+      "Linh Duy",
+      ""
+    ],
+    [
+      "Le",
+      "Duc Viet",
+      ""
+    ],
+    [
+      "Havinga",
+      "Paul J. M",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 13 Dec 2024 22:00:26 GMT"
+    }
+  ],
+  "updateDate": "2024-12-18",
+  "timestamp": 1734127226000,
+  "abstract": "  Despite remarkable progress in knowledge transfer across visual and textual\ndomains, extending these achievements to indoor localization, particularly for\nlearning transferable representations among Received Signal Strength (RSS)\nfingerprint datasets, remains a challenge. This is due to inherent\ndiscrepancies among these RSS datasets, largely including variations in\nbuilding structure, the input number and disposition of WiFi anchors.\nAccordingly, specialized networks, which were deprived of the ability to\ndiscern transferable representations, readily incorporate environment-sensitive\nclues into the learning process, hence limiting their potential when applied to\nspecific RSS datasets. In this work, we propose a plug-and-play (PnP) framework\nof knowledge transfer, facilitating the exploitation of transferable\nrepresentations for specialized networks directly on target RSS datasets\nthrough two main phases. Initially, we design an Expert Training phase, which\nfeatures multiple surrogate generative teachers, all serving as a global\nadapter that homogenizes the input disparities among independent source RSS\ndatasets while preserving their unique characteristics. In a subsequent Expert\nDistilling phase, we continue introducing a triplet of underlying constraints\nthat requires minimizing the differences in essential knowledge between the\nspecialized network and surrogate teachers through refining its representation\nlearning on the target dataset. This process implicitly fosters a\nrepresentational alignment in such a way that is less sensitive to specific\nenvironmental dynamics. Extensive experiments conducted on three benchmark WiFi\nRSS fingerprint datasets underscore the effectiveness of the framework that\nsignificantly exerts the full potential of specialized networks in\nlocalization.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "15LMLKDLoKp8AhAOalGXtoLnJbomdqkSx_9Up8Yj5t8",
+  "pdfSize": "2623222"
+}

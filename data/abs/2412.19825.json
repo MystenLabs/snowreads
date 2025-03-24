@@ -1,0 +1,48 @@
+{
+  "id": "2412.19825",
+  "title": "From Raw Data to Structural Semantics: Trade-offs among Distortion,\n  Rate, and Inference Accuracy",
+  "authors": "Charmin Asirimath, Chathuranga Weeraddana, Sumudu Samarakoon,\n  Jayampathy Ratnayake, Mehdi Bennis",
+  "authorsParsed": [
+    [
+      "Asirimath",
+      "Charmin",
+      ""
+    ],
+    [
+      "Weeraddana",
+      "Chathuranga",
+      ""
+    ],
+    [
+      "Samarakoon",
+      "Sumudu",
+      ""
+    ],
+    [
+      "Ratnayake",
+      "Jayampathy",
+      ""
+    ],
+    [
+      "Bennis",
+      "Mehdi",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 18 Dec 2024 09:51:00 GMT"
+    }
+  ],
+  "updateDate": "2024-12-31",
+  "timestamp": 1734515460000,
+  "abstract": "  This work explores the advantages of using persistence diagrams (PDs),\ntopological signatures of raw point cloud data, in a point-to-point\ncommunication setting. PD is a structural semantics in the sense that it\ncarries information about the shape and structure of the data. Instead of\ntransmitting raw data, the transmitter communicates its PD semantics, and the\nreceiver carries out inference using the received semantics. We propose novel\nqualitative definitions for distortion and rate of PD semantics while\nquantitatively characterizing the trade-offs among the distortion, rate, and\ninference accuracy. Simulations demonstrate that unlike raw data or autoencoder\n(AE)-based latent representations, PD semantics leads to more effective use of\ntransmission channels, enhanced degrees of freedom for incorporating error\ndetection/correction capabilities, and improved robustness to channel\nimperfections. For instance, in a binary symmetric channel with nonzero\ncrossover probability settings, the minimum rate required for Bose, Chaudhuri,\nand Hocquenghem (BCH)-coded PD semantics to achieve an inference accuracy over\n80% is approximately 15 times lower than the rate required for the coded\nAE-latent representations. Moreover, results suggest that the gains of PD\nsemantics are even more pronounced when compared with the rate requirements of\nraw data.\n",
+  "subjects": [
+    "Computer Science/Information Theory",
+    "Mathematics/Information Theory"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "wNiLAkHqiifDkTwyCIVcibj2IZNqDsaDQbhc5PwdXrQ",
+  "pdfSize": "1402792"
+}

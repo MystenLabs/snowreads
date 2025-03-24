@@ -1,0 +1,45 @@
+{
+  "id": "2412.04416",
+  "title": "FedDUAL: A Dual-Strategy with Adaptive Loss and Dynamic Aggregation for\n  Mitigating Data Heterogeneity in Federated Learning",
+  "authors": "Pranab Sahoo, Ashutosh Tripathi, Sriparna Saha, and Samrat Mondal",
+  "authorsParsed": [
+    [
+      "Sahoo",
+      "Pranab",
+      ""
+    ],
+    [
+      "Tripathi",
+      "Ashutosh",
+      ""
+    ],
+    [
+      "Saha",
+      "Sriparna",
+      ""
+    ],
+    [
+      "Mondal",
+      "Samrat",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 5 Dec 2024 18:42:29 GMT"
+    }
+  ],
+  "updateDate": "2024-12-06",
+  "timestamp": 1733424149000,
+  "abstract": "  Federated Learning (FL) marks a transformative approach to distributed model\ntraining by combining locally optimized models from various clients into a\nunified global model. While FL preserves data privacy by eliminating\ncentralized storage, it encounters significant challenges such as performance\ndegradation, slower convergence, and reduced robustness of the global model due\nto the heterogeneity in client data distributions. Among the various forms of\ndata heterogeneity, label skew emerges as a particularly formidable and\nprevalent issue, especially in domains such as image classification. To address\nthese challenges, we begin with comprehensive experiments to pinpoint the\nunderlying issues in the FL training process. Based on our findings, we then\nintroduce an innovative dual-strategy approach designed to effectively resolve\nthese issues. First, we introduce an adaptive loss function for client-side\ntraining, meticulously crafted to preserve previously acquired knowledge while\nmaintaining an optimal equilibrium between local optimization and global model\ncoherence. Secondly, we develop a dynamic aggregation strategy for aggregating\nclient models at the server. This approach adapts to each client's unique\nlearning patterns, effectively addressing the challenges of diverse data across\nthe network. Our comprehensive evaluation, conducted across three diverse\nreal-world datasets, coupled with theoretical convergence guarantees,\ndemonstrates the superior efficacy of our method compared to several\nestablished state-of-the-art approaches.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Distributed, Parallel, and Cluster Computing"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "Ys8z_QDNKzdgUbzWWxJaXLm6-oJ9ssSie4DbySqLm5c",
+  "pdfSize": "8072832"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "2412.18307",
+  "title": "Modern Approach to 2D Conformal Field Theory",
+  "authors": "Yuya Kusuki",
+  "authorsParsed": [
+    [
+      "Kusuki",
+      "Yuya",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 24 Dec 2024 09:45:00 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Thu, 9 Jan 2025 18:47:22 GMT"
+    }
+  ],
+  "updateDate": "2025-01-10",
+  "timestamp": 1735033500000,
+  "abstract": "  The primary aim of these lecture notes is to introduce the modern approach to\ntwo-dimensional conformal field theory (2D CFT). The study of analytical\nmethods in two-dimensional conformal field theory has developed over several\ndecades, starting with BPZ. The development of analytical methods, particularly\nin rational conformal field theory (RCFT), has been remarkable, with complete\nclassifications achieved for certain model groups. One motivation for studying\nCFT comes from its ability to describe quantum critical systems. Given that\nrealistic quantum critical systems are fundamentally RCFTs, it is somewhat\nnatural that the analytical methods of RCFT have evolved significantly.\n  CFTs other than RCFTs are called irrational conformal field theories (ICFTs).\nCompared to RCFTs, the study of ICFTs has not progressed as much. Leaving aside\nwhether there is physical motivation or not, ICFTs inherently possess a\ndifficulty that makes them challenging to approach. However, with the\ndevelopment of quantum gravity, the advancement of analytical methods for ICFTs\nhas become essential. The reason lies in the AdS/CFT correspondence. AdS/CFT\nrefers to the relationship between $d+1$ dimensional quantum gravity and $d$\ndimensional CFT. Within this correspondence, the CFT appears as a\nnon-perturbative formulation of quantum gravity. Except in special cases, this\nCFT belongs to ICFT. Against this backdrop, the methods for ICFTs have\ndeveloped rapidly in recent years. Many of these ICFT methods are indispensable\nfor modern quantum gravity research. Unfortunately, these cannot be learned\nfrom textbooks on 2D CFTs, such as Yellow book. These lecture notes aim to fill\nthis gap. Specifically, we will cover techniques that have already been applied\nin many studies, such as HHLL block and monodromy method, and significant\nresults that have become proper nouns, such as Hellerman bound and HKS bound.\n",
+  "subjects": [
+    "Physics/High Energy Physics - Theory",
+    "Condensed Matter/Statistical Mechanics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "fjPokLLH61WMUzvvbKMH_-C5x5G6GWfJSCB2jh5ovWs",
+  "pdfSize": "5840692"
+}

@@ -1,0 +1,38 @@
+{
+  "id": "2412.06176",
+  "title": "AlphaVerus: Bootstrapping Formally Verified Code Generation through\n  Self-Improving Translation and Treefinement",
+  "authors": "Pranjal Aggarwal, Bryan Parno, Sean Welleck",
+  "authorsParsed": [
+    [
+      "Aggarwal",
+      "Pranjal",
+      ""
+    ],
+    [
+      "Parno",
+      "Bryan",
+      ""
+    ],
+    [
+      "Welleck",
+      "Sean",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 9 Dec 2024 03:22:35 GMT"
+    }
+  ],
+  "updateDate": "2024-12-10",
+  "timestamp": 1733714555000,
+  "abstract": "  Automated code generation with large language models has gained significant\ntraction, but there remains no guarantee on the correctness of generated code.\nWe aim to use formal verification to provide mathematical guarantees that the\ngenerated code is correct. However, generating formally verified code with LLMs\nis hindered by the scarcity of training data and the complexity of formal\nproofs. To tackle this challenge, we introduce AlphaVerus, a self-improving\nframework that bootstraps formally verified code generation by iteratively\ntranslating programs from a higher-resource language and leveraging feedback\nfrom a verifier. AlphaVerus operates in three phases: exploration of candidate\ntranslations, Treefinement -- a novel tree search algorithm for program\nrefinement using verifier feedback, and filtering misaligned specifications and\nprograms to prevent reward hacking. Through this iterative process, AlphaVerus\nenables a LLaMA-3.1-70B model to generate verified code without human\nintervention or model finetuning. AlphaVerus shows an ability to generate\nformally verified solutions for HumanEval and MBPP, laying the groundwork for\ntruly trustworthy code-generation agents.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "BaX6c0vOIfHzYxYBAY4NjQNYnuo_gkL7EsDuErNVp4o",
+  "pdfSize": "2066960"
+}

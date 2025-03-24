@@ -1,0 +1,37 @@
+{
+  "id": "2412.12435",
+  "title": "Tensor-Based Receivers for the Bistatic Sensing and Communication\n  Scenario",
+  "authors": "Walter da C. Freitas Jr., Gerard Favier and Andre L. F. de Almeida",
+  "authorsParsed": [
+    [
+      "Freitas",
+      "Walter da C.",
+      "Jr."
+    ],
+    [
+      "Favier",
+      "Gerard",
+      ""
+    ],
+    [
+      "de Almeida",
+      "Andre L. F.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 17 Dec 2024 00:54:15 GMT"
+    }
+  ],
+  "updateDate": "2024-12-18",
+  "timestamp": 1734396855000,
+  "abstract": "  We propose receivers for bistatic sensing and communication that exploit a\ntensor modeling of the received signals. We consider a hybrid scenario where\nthe sensing link knows the transmitted data to estimate the target parameters\nwhile the communication link operates semi-blindly in a direct data decoding\napproach without channel knowledge. We show that the signals received at the\nsensing receiver and communication receiver follow PARATUCK and PARAFAC tensor\nmodels, respectively. These models are exploited to obtain accurate estimates\nof the target parameters (at the sensing receiver) and the transmitted symbols\nand channels (at the user equipment). We discuss uniqueness conditions and\nprovide some simulation results to evaluate the performance of the proposed\nreceivers. Our experiments show that the sensing parameters are well estimated\nat moderate signal-to-noise ratio (SNR) while keeping good symbol error rate\n(SER) and channel normalized mean square error (NMSE) results for the\ncommunication link.\n",
+  "subjects": [
+    "Electrical Engineering and Systems Science/Signal Processing"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "fi7-kTEEGEa8TqJUzp88Sghz9LWQP6NqchczEDClWiQ",
+  "pdfSize": "212806"
+}

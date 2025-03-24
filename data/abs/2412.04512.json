@@ -1,0 +1,63 @@
+{
+  "id": "2412.04512",
+  "title": "Prompting Large Language Models for Clinical Temporal Relation\n  Extraction",
+  "authors": "Jianping He, Laila Rasmy, Haifang Li, Jianfu Li, Zenan Sun, Evan Yu,\n  Degui Zhi, Cui Tao",
+  "authorsParsed": [
+    [
+      "He",
+      "Jianping",
+      ""
+    ],
+    [
+      "Rasmy",
+      "Laila",
+      ""
+    ],
+    [
+      "Li",
+      "Haifang",
+      ""
+    ],
+    [
+      "Li",
+      "Jianfu",
+      ""
+    ],
+    [
+      "Sun",
+      "Zenan",
+      ""
+    ],
+    [
+      "Yu",
+      "Evan",
+      ""
+    ],
+    [
+      "Zhi",
+      "Degui",
+      ""
+    ],
+    [
+      "Tao",
+      "Cui",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 4 Dec 2024 18:35:28 GMT"
+    }
+  ],
+  "updateDate": "2024-12-09",
+  "timestamp": 1733337328000,
+  "abstract": "  Objective: This paper aims to prompt large language models (LLMs) for\nclinical temporal relation extraction (CTRE) in both few-shot and fully\nsupervised settings. Materials and Methods: This study utilizes four LLMs:\nEncoder-based GatorTron-Base (345M)/Large (8.9B); Decoder-based\nLLaMA3-8B/MeLLaMA-13B. We developed full (FFT) and parameter-efficient (PEFT)\nfine-tuning strategies and evaluated these strategies on the 2012 i2b2 CTRE\ntask. We explored four fine-tuning strategies for GatorTron-Base: (1) Standard\nFine-Tuning, (2) Hard-Prompting with Unfrozen LLMs, (3) Soft-Prompting with\nFrozen LLMs, and (4) Low-Rank Adaptation (LoRA) with Frozen LLMs. For\nGatorTron-Large, we assessed two PEFT strategies-Soft-Prompting and LoRA with\nFrozen LLMs-leveraging Quantization techniques. Additionally, LLaMA3-8B and\nMeLLaMA-13B employed two PEFT strategies: LoRA strategy with Quantization\n(QLoRA) applied to Frozen LLMs using instruction tuning and standard\nfine-tuning. Results: Under fully supervised settings, Hard-Prompting with\nUnfrozen GatorTron-Base achieved the highest F1 score (89.54%), surpassing the\nSOTA model (85.70%) by 3.74%. Additionally, two variants of QLoRA adapted to\nGatorTron-Large and Standard Fine-Tuning of GatorTron-Base exceeded the SOTA\nmodel by 2.36%, 1.88%, and 0.25%, respectively. Decoder-based models with\nfrozen parameters outperformed their Encoder-based counterparts in this\nsetting; however, the trend reversed in few-shot scenarios. Discussions and\nConclusions: This study presented new methods that significantly improved CTRE\nperformance, benefiting downstream tasks reliant on CTRE systems. The findings\nunderscore the importance of selecting appropriate models and fine-tuning\nstrategies based on task requirements and data availability. Future work will\nexplore larger models and broader CTRE applications.\n",
+  "subjects": [
+    "Computer Science/Computation and Language",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "v5CdJs9N0nj3CGo8aDkIpfuRc2xJi5FwygFNxLnqQFY",
+  "pdfSize": "1027795"
+}

@@ -1,0 +1,43 @@
+{
+  "id": "2412.07460",
+  "title": "Accuracy and Performance Evaluation of Quantum, Classical and Hybrid\n  Solvers for the Max-Cut Problem",
+  "authors": "Jaka Vodeb, Vid Er\\v{z}en, Timotej Hrga, Janez Povh",
+  "authorsParsed": [
+    [
+      "Vodeb",
+      "Jaka",
+      ""
+    ],
+    [
+      "Eržen",
+      "Vid",
+      ""
+    ],
+    [
+      "Hrga",
+      "Timotej",
+      ""
+    ],
+    [
+      "Povh",
+      "Janez",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 10 Dec 2024 12:28:08 GMT"
+    }
+  ],
+  "updateDate": "2024-12-11",
+  "timestamp": 1733833688000,
+  "abstract": "  This paper investigates the performance of quantum, classical, and hybrid\nsolvers on the NP-hard Max-Cut and QUBO problems, examining their solution\nquality relative to the global optima and their computational efficiency. We\nbenchmark the new fast annealing D-Wave quantum processing unit (QPU) and\nD-Wave Hybrid solver against the state-of-the-art classical simulated annealing\nalgorithm (SA) and Toshiba's simulated bifurcation machine (SBM). Our study\nleverages three datasets encompassing 139 instances of the Max-Cut problem with\nsizes ranging from 100 to 10,000 nodes. For instances below 251 nodes, global\noptima are known and reported, while for larger instances, we utilize the\nbest-known solutions from the literature. Our findings reveal that for the\nsmaller instances where the global optimum is known, the Hybrid solver and SA\nalgorithm consistently achieve the global optimum, outperforming the QPU. For\nlarger instances where global optima are unknown, we observe that the SBM and\nthe slower variant of SA deliver competitive solution quality, while the Hybrid\nsolver and the faster variant of SA performed noticeably worse. Although\ncomputing time varies due to differing underlying hardware, the Hybrid solver\nand the SBM demonstrate both efficient computation times, while for SA\nreduction in computation time can be achieved at the expense of solution\nquality.\n",
+  "subjects": [
+    "Mathematics/Optimization and Control",
+    "Physics/Quantum Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "MorhFoj7b2njUPQiWHO5ll5Ni9YZffrrRlg1CnVlxPs",
+  "pdfSize": "608411"
+}

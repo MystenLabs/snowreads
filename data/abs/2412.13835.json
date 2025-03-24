@@ -1,0 +1,37 @@
+{
+  "id": "2412.13835",
+  "title": "RACQUET: Unveiling the Dangers of Overlooked Referential Ambiguity in\n  Visual LLMs",
+  "authors": "Alberto Testoni, Barbara Plank, Raquel Fern\\'andez",
+  "authorsParsed": [
+    [
+      "Testoni",
+      "Alberto",
+      ""
+    ],
+    [
+      "Plank",
+      "Barbara",
+      ""
+    ],
+    [
+      "Fernández",
+      "Raquel",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 18 Dec 2024 13:25:11 GMT"
+    }
+  ],
+  "updateDate": "2024-12-19",
+  "timestamp": 1734528311000,
+  "abstract": "  Ambiguity resolution is key to effective communication. While humans\neffortlessly address ambiguity through conversational grounding strategies, the\nextent to which current language models can emulate these strategies remains\nunclear. In this work, we examine referential ambiguity in image-based question\nanswering by introducing RACQUET, a carefully curated dataset targeting\ndistinct aspects of ambiguity. Through a series of evaluations, we reveal\nsignificant limitations and problems of overconfidence of state-of-the-art\nlarge multimodal language models in addressing ambiguity in their responses.\nThe overconfidence issue becomes particularly relevant for RACQUET-BIAS, a\nsubset designed to analyze a critical yet underexplored problem: failing to\naddress ambiguity leads to stereotypical, socially biased responses. Our\nresults underscore the urgency of equipping models with robust strategies to\ndeal with uncertainty without resorting to undesirable stereotypes.\n",
+  "subjects": [
+    "Computer Science/Computation and Language"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "W17AJLPiNEenQb-YaN6Q8wsTXR4G3aR-DEKSAO5QXko",
+  "pdfSize": "4064097"
+}

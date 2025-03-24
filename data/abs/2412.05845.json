@@ -1,0 +1,42 @@
+{
+  "id": "2412.05845",
+  "title": "Are Clinical T5 Models Better for Clinical Text?",
+  "authors": "Yahan Li, Keith Harrigian, Ayah Zirikly, Mark Dredze",
+  "authorsParsed": [
+    [
+      "Li",
+      "Yahan",
+      ""
+    ],
+    [
+      "Harrigian",
+      "Keith",
+      ""
+    ],
+    [
+      "Zirikly",
+      "Ayah",
+      ""
+    ],
+    [
+      "Dredze",
+      "Mark",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 8 Dec 2024 07:52:17 GMT"
+    }
+  ],
+  "updateDate": "2024-12-10",
+  "timestamp": 1733644337000,
+  "abstract": "  Large language models with a transformer-based encoder/decoder architecture,\nsuch as T5, have become standard platforms for supervised tasks. To bring these\ntechnologies to the clinical domain, recent work has trained new or adapted\nexisting models to clinical data. However, the evaluation of these clinical T5\nmodels and comparison to other models has been limited. Are the clinical T5\nmodels better choices than FLAN-tuned generic T5 models? Do they generalize\nbetter to new clinical domains that differ from the training sets? We\ncomprehensively evaluate these models across several clinical tasks and\ndomains. We find that clinical T5 models provide marginal improvements over\nexisting models, and perform worse when evaluated on different domains. Our\nresults inform future choices in developing clinical LLMs.\n",
+  "subjects": [
+    "Computer Science/Computation and Language"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "8rfvcP5sjXYjHhTxvb_1gSvx2eTZJgd8PdNanRLCXTw",
+  "pdfSize": "650726"
+}

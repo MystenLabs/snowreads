@@ -1,0 +1,37 @@
+{
+  "id": "2412.03098",
+  "title": "A surprisal oracle for when every layer counts",
+  "authors": "Xudong Hong, Sharid Lo\\'aiciga, Asad Sayeed",
+  "authorsParsed": [
+    [
+      "Hong",
+      "Xudong",
+      ""
+    ],
+    [
+      "Loáiciga",
+      "Sharid",
+      ""
+    ],
+    [
+      "Sayeed",
+      "Asad",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 4 Dec 2024 07:53:45 GMT"
+    }
+  ],
+  "updateDate": "2024-12-05",
+  "timestamp": 1733298825000,
+  "abstract": "  Active Curriculum Language Modeling (ACLM; Hong et al., 2023) is a learner\ndirected approach to training a language model. We proposed the original\nversion of this process in our submission to the BabyLM 2023 task, and now we\npropose an updated ACLM process for the BabyLM 2024 task. ACLM involves an\niteratively- and dynamically-constructed curriculum informed over the training\nprocess by a model of uncertainty; other training items that are similarly\nuncertain to a least certain candidate item are prioritized. Our new process\nimproves the similarity model so that it is more dynamic, and we run ACLM over\nthe most successful model from the BabyLM 2023 task: ELC-BERT (Charpentier and\nSamuel, 2023). We find that while our models underperform on fine-grained\ngrammatical inferences, they outperform the BabyLM 2024 official base-lines on\ncommon-sense and world-knowledge tasks. We make our code available at https:\n//github.com/asayeed/ActiveBaby.\n",
+  "subjects": [
+    "Computer Science/Computation and Language"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "IriYHEDhiWdOF31sqELZEeIBRA0tnp9v2fUhSQCDsqU",
+  "pdfSize": "208739"
+}

@@ -1,0 +1,72 @@
+{
+  "id": "2412.05342",
+  "title": "Multi-Party Supervised Fine-tuning of Language Models for Multi-Party\n  Dialogue Generation",
+  "authors": "Xiaoyu Wang, Ningyuan Xi, Teng Chen, Qingqing Gu, Yue Zhao, Xiaokai\n  Chen, Zhonglin Jiang, Yong Chen, Luo Ji",
+  "authorsParsed": [
+    [
+      "Wang",
+      "Xiaoyu",
+      ""
+    ],
+    [
+      "Xi",
+      "Ningyuan",
+      ""
+    ],
+    [
+      "Chen",
+      "Teng",
+      ""
+    ],
+    [
+      "Gu",
+      "Qingqing",
+      ""
+    ],
+    [
+      "Zhao",
+      "Yue",
+      ""
+    ],
+    [
+      "Chen",
+      "Xiaokai",
+      ""
+    ],
+    [
+      "Jiang",
+      "Zhonglin",
+      ""
+    ],
+    [
+      "Chen",
+      "Yong",
+      ""
+    ],
+    [
+      "Ji",
+      "Luo",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 6 Dec 2024 09:33:47 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Wed, 18 Dec 2024 09:47:53 GMT"
+    }
+  ],
+  "updateDate": "2024-12-19",
+  "timestamp": 1733477627000,
+  "abstract": "  Large Language Models (LLM) are usually fine-tuned to participate in dyadic\nor two-party dialogues, which can not adapt well to multi-party dialogues\n(MPD), which hinders their applications in such scenarios including\nmulti-personal meetings, discussions and daily communication. Previous\nLLM-based researches mainly focus on the multi-agent framework, while their\nbase LLMs are still pairwisely fine-tuned. In this work, we design a\nmulti-party fine-tuning framework (MuPaS) for LLMs on the multi-party dialogue\ndatasets, and prove such a straightforward framework can let the LLM align with\nthe multi-party conversation style efficiently and effectively. We also design\ntwo training strategies which can convert MuPaS into the MPD simulator.\nSubstantial experiments show that MuPaS can achieve state-of-the-art\nmulti-party response, higher accuracy of the-next-speaker prediction, higher\nhuman and automatic evaluated utterance qualities, and can even generate\nreasonably with out-of-distribution scene, topic and role descriptions. The\nMuPaS framework bridges the LLM training with more complicated multi-party\napplications, such as conversation generation, virtual rehearsal or\nmeta-universe.\n",
+  "subjects": [
+    "Computer Science/Computation and Language",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "XMyBHrzbw50muZexTS8_6VOLD2H1G70naKhED54mIRg",
+  "pdfSize": "646504"
+}

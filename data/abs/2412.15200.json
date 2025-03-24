@@ -1,0 +1,49 @@
+{
+  "id": "2412.15200",
+  "title": "DI-PCG: Diffusion-based Efficient Inverse Procedural Content Generation\n  for High-quality 3D Asset Creation",
+  "authors": "Wang Zhao, Yan-Pei Cao, Jiale Xu, Yuejiang Dong, Ying Shan",
+  "authorsParsed": [
+    [
+      "Zhao",
+      "Wang",
+      ""
+    ],
+    [
+      "Cao",
+      "Yan-Pei",
+      ""
+    ],
+    [
+      "Xu",
+      "Jiale",
+      ""
+    ],
+    [
+      "Dong",
+      "Yuejiang",
+      ""
+    ],
+    [
+      "Shan",
+      "Ying",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 19 Dec 2024 18:58:46 GMT"
+    }
+  ],
+  "updateDate": "2024-12-20",
+  "timestamp": 1734634726000,
+  "abstract": "  Procedural Content Generation (PCG) is powerful in creating high-quality 3D\ncontents, yet controlling it to produce desired shapes is difficult and often\nrequires extensive parameter tuning. Inverse Procedural Content Generation aims\nto automatically find the best parameters under the input condition. However,\nexisting sampling-based and neural network-based methods still suffer from\nnumerous sample iterations or limited controllability. In this work, we present\nDI-PCG, a novel and efficient method for Inverse PCG from general image\nconditions. At its core is a lightweight diffusion transformer model, where PCG\nparameters are directly treated as the denoising target and the observed images\nas conditions to control parameter generation. DI-PCG is efficient and\neffective. With only 7.6M network parameters and 30 GPU hours to train, it\ndemonstrates superior performance in recovering parameters accurately, and\ngeneralizing well to in-the-wild images. Quantitative and qualitative\nexperiment results validate the effectiveness of DI-PCG in inverse PCG and\nimage-to-3D generation tasks. DI-PCG offers a promising approach for efficient\ninverse PCG and represents a valuable exploration step towards a 3D generation\npath that models how to construct a 3D asset using parametric models.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Graphics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "63hLwhF4RPz0nvtR5axFsgZWanA8-5oa-H9XkTfplIE",
+  "pdfSize": "25160026"
+}

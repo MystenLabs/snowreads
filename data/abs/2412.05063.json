@@ -1,0 +1,43 @@
+{
+  "id": "2412.05063",
+  "title": "Kinetic-Diffusion-Rotation Algorithm for Dose Estimation in Radiation\n  Therapy",
+  "authors": "Klaas Willems, Vince Maes, Zhirui Tang, Giovanni Samaey",
+  "authorsParsed": [
+    [
+      "Willems",
+      "Klaas",
+      ""
+    ],
+    [
+      "Maes",
+      "Vince",
+      ""
+    ],
+    [
+      "Tang",
+      "Zhirui",
+      ""
+    ],
+    [
+      "Samaey",
+      "Giovanni",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 6 Dec 2024 14:19:42 GMT"
+    }
+  ],
+  "updateDate": "2024-12-09",
+  "timestamp": 1733494782000,
+  "abstract": "  Monte Carlo methods are state-of-the-art when it comes to dosimetric\ncomputations in radiotherapy. However, the execution time of these methods\nsuffers in high-collisional regimes. We address this problem by introducing a\nkinetic-diffusion particle tracing scheme. This algorithm, first proposed in\nthe context of neutral transport in fusion energy, relies on explicit\nsimulation of the kinetic motion in low-collisional regimes and dynamically\nswitches to motion based on a random walk in high-collisional regimes. The\nrandom walk motion maintains the first two moments (mean and variance) of the\nkinetic motion. We derive an analytic formula for the mean kinetic motion and\ndiscuss the addition of a multiple scattering distribution to the algorithm. In\ncontrast to neutral transport, the radiation transfer setting does not readily\nadmit to an analytical expression for the variance of the kinetic motion, and\nwe therefore resort to the use of a lookup table. We test the algorithm for\ndosimetric computations in radiation therapy on a 2D CT scan of a lung patient.\nUsing a simple particle model, our Python implementation of the algorithm is\nnearly 33 times faster than an equivalent kinetic simulation at the cost of a\nsmall modeling error.\n",
+  "subjects": [
+    "Quantitative Biology/Quantitative Methods",
+    "Physics/Medical Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "Wv_JEQ0vmp29cV3Te1MTzGYiZhe3JTRyf5SLb1j9HO0",
+  "pdfSize": "1519669"
+}

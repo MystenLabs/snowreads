@@ -1,0 +1,42 @@
+{
+  "id": "2412.00850",
+  "title": "Test of Cosmic Web-feeding Model for Star Formation in Galaxy Clusters\n  in the COSMOS Field",
+  "authors": "Eunhee Ko, Myungshin Im, Seong-Kook Lee, Clotilde Laigle",
+  "authorsParsed": [
+    [
+      "Ko",
+      "Eunhee",
+      ""
+    ],
+    [
+      "Im",
+      "Myungshin",
+      ""
+    ],
+    [
+      "Lee",
+      "Seong-Kook",
+      ""
+    ],
+    [
+      "Laigle",
+      "Clotilde",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 1 Dec 2024 15:23:35 GMT"
+    }
+  ],
+  "updateDate": "2024-12-03",
+  "timestamp": 1733066615000,
+  "abstract": "  It is yet to be understood how large-scale environments influence star\nformation activity in galaxy clusters. One recently proposed mechanism is that\ngalaxy clusters can remain star-forming when fed by infalling groups and\nstar-forming galaxies from large-scale structures surrounding them (the\n\\textit{``web-feeding model\"}). Using the COSMOS2020 catalog that has half a\nmillion galaxies with high accuracy ($\\sigma_{\\Delta z /1+z} \\sim 0.01$)\nphotometric redshifts, we study the relationship between star formation\nactivities in galaxy clusters and their surrounding environment to test the\nweb-feeding model. We first identify $68$ cluster candidates at $0.3 \\leq z\n\\leq 1.4$ with halo masses at $10^{13.0} - 10^{14.5}$ \\SI{}{M_{\\odot}}, and the\nsurrounding large-scale structures (LSSs) with the friends-of-friends\nalgorithm. We find that clusters with low fractions of quiescent galaxies tend\nto be connected with extended LSSs as expected in the web-feeding model. We\nalso investigated the time evolution of the web-feeding trend using the\nIllustrisTNG cosmological simulation. Even though no clear correlation between\nthe quiescent galaxy fraction of galaxy clusters and the significance of LSSs\naround them is found in the simulation, we verify that the quiescent galaxy\nfractions of infallers such as groups ($M_{200} \\geq 10^{12}$ \\SI{}{M_{\\odot}})\nand galaxies ($M_{200} < 10^{12}$ \\SI{}{M_{\\odot}}) is smaller than the\nquiescent fraction of cluster members and that infallers can lower the\nquiescent fraction of clusters. These results imply that cluster-to-cluster\nvariations of quiescent galaxy fraction at $z \\leq 1$ can at least partially be\nexplained by feeding materials through cosmic webs to clusters.\n",
+  "subjects": [
+    "Astrophysics/Astrophysics of Galaxies"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "17Hp8fryfoqT7aLOl8Wzq26W3C2lsqGiPQiTuHQaToM",
+  "pdfSize": "5530378"
+}

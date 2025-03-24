@@ -1,0 +1,41 @@
+{
+  "id": "2412.08797",
+  "title": "Maximum power Stirling-like heat engine with a harmonically confined\n  Brownian particle",
+  "authors": "Irene Prieto-Rodr\\'iguez, Antonio Prados, Carlos A. Plata",
+  "authorsParsed": [
+    [
+      "Prieto-Rodríguez",
+      "Irene",
+      ""
+    ],
+    [
+      "Prados",
+      "Antonio",
+      ""
+    ],
+    [
+      "Plata",
+      "Carlos A.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 11 Dec 2024 22:03:20 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Mon, 13 Jan 2025 10:14:12 GMT"
+    }
+  ],
+  "updateDate": "2025-01-14",
+  "timestamp": 1733954600000,
+  "abstract": "  Heat engines transform thermal energy into useful work, operating in a cyclic\nmanner. For centuries, they have played a key role in industrial and\ntechnological development. Historically, only gases and liquids have been used\nas working substances, but the technical advances achieved over the past\ndecades allow for expanding the experimental possibilities and designing\nengines operating with a single particle. In this case, the system of interest\ncannot be addressed at a macroscopic level and their study is framed in the\nfield of stochastic thermodynamics. In the present work, we study mesoscopic\nheat engines built with a Brownian particle submitted to harmonic confinement\nand immersed in a fluid acting as a thermal bath. We design a Stirling-like\nheat engine, composed of two isothermal and two isochoric branches, by\ncontrolling both the stiffness of the harmonic trap and the temperature of the\nbath. Specifically, we focus on the irreversible, non quasi-static, case --\nwhose finite duration enables the engine to deliver a non-zero output power.\nThis is a crucial aspect, which enables the optimisation of the thermodynamic\ncycle by maximising the delivered power -- thereby addressing a key goal at the\npractical level. The optimal driving protocols are obtained by using both\nvariational calculus and optimal control theory tools. Also, we numerically\nexplore the dependence of the maximum output power and the corresponding\nefficiency on the system parameters.\n",
+  "subjects": [
+    "Condensed Matter/Statistical Mechanics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "UoMdPBA3SKrPvQ9ham78Ie32cG4oM0dQgIDmRJXHr7o",
+  "pdfSize": "19684355"
+}

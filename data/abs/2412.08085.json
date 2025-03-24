@@ -1,0 +1,48 @@
+{
+  "id": "2412.08085",
+  "title": "Non-Myopic Multi-Objective Bayesian Optimization",
+  "authors": "Syrine Belakaria, Alaleh Ahmadianshalchi, Barbara Engelhardt, Stefano\n  Ermon, Janardhan Rao Doppa",
+  "authorsParsed": [
+    [
+      "Belakaria",
+      "Syrine",
+      ""
+    ],
+    [
+      "Ahmadianshalchi",
+      "Alaleh",
+      ""
+    ],
+    [
+      "Engelhardt",
+      "Barbara",
+      ""
+    ],
+    [
+      "Ermon",
+      "Stefano",
+      ""
+    ],
+    [
+      "Doppa",
+      "Janardhan Rao",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 11 Dec 2024 04:05:29 GMT"
+    }
+  ],
+  "updateDate": "2024-12-12",
+  "timestamp": 1733889929000,
+  "abstract": "  We consider the problem of finite-horizon sequential experimental design to\nsolve multi-objective optimization (MOO) of expensive black-box objective\nfunctions. This problem arises in many real-world applications, including\nmaterials design, where we have a small resource budget to make and evaluate\ncandidate materials in the lab. We solve this problem using the framework of\nBayesian optimization (BO) and propose the first set of non-myopic methods for\nMOO problems. Prior work on non-myopic BO for single-objective problems relies\non the Bellman optimality principle to handle the lookahead reasoning process.\nHowever, this principle does not hold for most MOO problems because the reward\nfunction needs to satisfy some conditions: scalar variable, monotonicity, and\nadditivity. We address this challenge by using hypervolume improvement (HVI) as\nour scalarization approach, which allows us to use a lower-bound on the Bellman\nequation to approximate the finite-horizon using a batch expected hypervolume\nimprovement (EHVI) acquisition function (AF) for MOO. Our formulation naturally\nallows us to use other improvement-based scalarizations and compare their\nefficacy to HVI. We derive three non-myopic AFs for MOBO: 1) the Nested AF,\nwhich is based on the exact computation of the lower bound, 2) the Joint AF,\nwhich is a lower bound on the nested AF, and 3) the BINOM AF, which is a fast\nand approximate variant based on batch multi-objective acquisition functions.\nOur experiments on multiple diverse real-world MO problems demonstrate that our\nnon-myopic AFs substantially improve performance over the existing myopic AFs\nfor MOBO.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "xjrefQzZSqNteHPgsG5-oMm1Qvl-qp1uaHuGpOJYaRY",
+  "pdfSize": "34605809"
+}

@@ -1,0 +1,37 @@
+{
+  "id": "2412.06100",
+  "title": "Exploring Barred Galaxies in the Young Universe at $z\\sim$2 Using\n  $\\textit{JWST}$ CEERS Data",
+  "authors": "Keith Pritchett Jr., Shardha Jogee, Yuchen Guo",
+  "authorsParsed": [
+    [
+      "Pritchett",
+      "Keith",
+      "Jr."
+    ],
+    [
+      "Jogee",
+      "Shardha",
+      ""
+    ],
+    [
+      "Guo",
+      "Yuchen",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 8 Dec 2024 23:00:45 GMT"
+    }
+  ],
+  "updateDate": "2024-12-10",
+  "timestamp": 1733698845000,
+  "abstract": "  Studying barred galaxies at early epochs can shed light on the early\nevolution of stellar bars, their impact on secular evolution and the star\nformation activity of young galaxies, and the origins of present-day barred\ngalaxies like the Milky Way. We analyze data from the James Webb Space\nTelescope (JWST) Cosmic Evolution Early Release Science (CEERS) Survey to\nexplore the impact of rest-frame wavelength and spatial resolution on detecting\nand characterizing some of the youngest barred galaxies known to date. We apply\nboth visual classification and ellipse-fitting to JWST F115W, F200W, and F444W\nimages of the barred galaxy CEERS-30155 at $z\\sim$2.136, an epoch when the\nuniverse was only $\\sim$22$\\%$ of its current age. We find that the stellar bar\nin CEERS-30155 is not visible in the F115W image, which traces rest-frame\nultraviolet (UV) light at $z\\sim$2, a rest-frame wavelength highly obscured by\ndust. The stellar bar is visible in the F200W image, but is most prominent in\nthe F444W image, likely due to the F444W image tracing rest-frame near-infrared\n(NIR) light at $z\\sim$2. Rest-frame NIR light is not obscured by dust and\ntraces low-mass, long-lived stars that dominate the stellar mass in galaxies.\nHowever, ellipse fits of the F444W image only robustly detect stellar bars\nwhose semimajor axis are at least one PSF ($\\sim$ 0.16\" or $\\sim$ 1.4 kpc at\n$z\\sim$2). At $z\\sim$2, stellar bars smaller than 1.5 kpc will be more robustly\ndetected in the sharper F200W image (PSF $\\sim$ 0.08\" or $\\sim$0.7 kpc at\n$z\\sim$2), provided that the rest-frame optical light it traces is not overly\nimpacted by dust and can still unveil the bar structure. Using a combination of\nboth JWST F200W and F444W images can improve the detection of barred galaxies\nat $z\\sim$2 to 4. At even higher redshifts (z > 4), the Giant Magellan\nTelescope will be a cornerstone facility to explore young barred galaxies.\n",
+  "subjects": [
+    "Astrophysics/Astrophysics of Galaxies"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "1GC0lYXH1sJflvb_Ah9RxZJNbdzbjYGYB5jnvU05RZs",
+  "pdfSize": "6111118"
+}

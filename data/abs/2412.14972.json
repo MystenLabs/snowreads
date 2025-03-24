@@ -1,0 +1,32 @@
+{
+  "id": "2412.14972",
+  "title": "Frictional contact between solids: A fully Eulerian phase-field approach",
+  "authors": "Flavio Lorez, Mohit Pundir",
+  "authorsParsed": [
+    [
+      "Lorez",
+      "Flavio",
+      ""
+    ],
+    [
+      "Pundir",
+      "Mohit",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 19 Dec 2024 15:48:43 GMT"
+    }
+  ],
+  "updateDate": "2024-12-20",
+  "timestamp": 1734623323000,
+  "abstract": "  Recent advancements have demonstrated that fully Eulerian methods can\neffectively model frictionless contact between deformable solids. Unlike\ntraditional Lagrangian approaches, which require contact detection and\nresolution algorithms, the Eulerian framework utilizes a single, fixed spatial\nmesh combined with a diffuse interface phase-field approach, simplifying\ncontact resolution significantly. Moreover, the Eulerian method is well-suited\nfor developing a unified framework to handle multiphysical systems involving\ngrowing bodies that interact with a constraining medium. In this work, we\nextend our previous methodology to incorporate frictional contact. By\nleveraging the intersection of the phase fields of multiple bodies, we define\nnormal and tangential penalty force fields, which are incorporated into the\nlinear momentum equations to capture frictional interactions. This formulation\nallows independent motion of each body using distinct velocity fields, coupled\nsolely through interfacial forces arising from contact and friction. We\nthoroughly validate the proposed approach through several numerical examples.\nThe method is shown to handle large sliding effortlessly, accurately capture\nthe stick-slip transition, and preserve history-dependent energy dissipation,\noffering a solution for modeling frictional contact in Eulerian models.\n",
+  "subjects": [
+    "Condensed Matter/Soft Condensed Matter"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "WY4RZnHY9fVawXPmufRnFXjDY2oGGttYxFveTmHS69w",
+  "pdfSize": "3857105"
+}

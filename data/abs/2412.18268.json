@@ -1,0 +1,42 @@
+{
+  "id": "2412.18268",
+  "title": "Optimality Conditions for Model Predictive Control: Rethinking\n  Predictive Model Design",
+  "authors": "Akhil S Anand, Arash Bahari Kordabad, Mario Zanon, Sebastien Gros",
+  "authorsParsed": [
+    [
+      "Anand",
+      "Akhil S",
+      ""
+    ],
+    [
+      "Kordabad",
+      "Arash Bahari",
+      ""
+    ],
+    [
+      "Zanon",
+      "Mario",
+      ""
+    ],
+    [
+      "Gros",
+      "Sebastien",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 24 Dec 2024 08:27:34 GMT"
+    }
+  ],
+  "updateDate": "2024-12-25",
+  "timestamp": 1735028854000,
+  "abstract": "  Optimality is a critical aspect of Model Predictive Control (MPC), especially\nin economic MPC. However, achieving optimality in MPC presents significant\nchallenges, and may even be impossible, due to inherent inaccuracies in the\npredictive models. Predictive models often fail to accurately capture the true\nsystem dynamics, such as in the presence of stochasticity, leading to\nsuboptimal MPC policies. In this paper, we establish the necessary and\nsufficient conditions on the underlying prediction model for an MPC scheme to\nachieve closed-loop optimality. Interestingly, these conditions are\ncounterintuitive to the traditional approach of building predictive models that\nbest fit the data. These conditions present a mathematical foundation for\nconstructing models that are directly linked to the performance of the\nresulting MPC scheme.\n",
+  "subjects": [
+    "Mathematics/Optimization and Control"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "pCfA2adUGd2s6bjqRiBXGLwIiBwK5EMauuyAGyF5u-s",
+  "pdfSize": "163435"
+}

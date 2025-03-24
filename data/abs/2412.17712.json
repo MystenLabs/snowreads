@@ -1,0 +1,34 @@
+{
+  "id": "2412.17712",
+  "title": "Broker-Trader Partial Information Nash Equilibria",
+  "authors": "Xuchen Wu and Sebastian Jaimungal",
+  "authorsParsed": [
+    [
+      "Wu",
+      "Xuchen",
+      ""
+    ],
+    [
+      "Jaimungal",
+      "Sebastian",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 23 Dec 2024 16:45:01 GMT"
+    }
+  ],
+  "updateDate": "2024-12-24",
+  "timestamp": 1734972301000,
+  "abstract": "  We study partial information Nash equilibrium between a broker and an\ninformed trader. In this model, the informed trader, who possesses knowledge of\na trading signal, trades multiple assets with the broker in a dealer market.\nSimultaneously, the broker trades these assets in a lit exchange where their\nactions impact the asset prices. The broker, however, only observes aggregate\nprices and cannot distinguish between underlying trends and volatility. Both\nthe broker and the informed trader aim to maximize their penalized expected\nwealth. Using convex analysis, we characterize the Nash equilibrium and\ndemonstrate its existence and uniqueness. Furthermore, we establish that this\nequilibrium corresponds to the solution of a nonstandard system of\nforward-backward stochastic differential equations.\n",
+  "subjects": [
+    "Quantitative Finance/Mathematical Finance",
+    "Mathematics/Probability",
+    "Quantitative Finance/Trading and Market Microstructure"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "Sv20b_HwKFnm9NiUFQrlusj1JPVdo8Z0787c5vaBl84",
+  "pdfSize": "255694"
+}

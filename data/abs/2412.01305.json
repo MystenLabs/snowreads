@@ -1,0 +1,44 @@
+{
+  "id": "2412.01305",
+  "title": "Full 3D Model of Modulation Efficiency of Complementary Metal Oxide\n  Semiconductor (CMOS) Compatible, Submicron, Interleaved Junction Optical\n  Phase Shifters",
+  "authors": "Abdurrahman Javid Shaikh, Fauzi Packeer, Mirza Muhammad Ali Baig and\n  Othman Sidek",
+  "authorsParsed": [
+    [
+      "Shaikh",
+      "Abdurrahman Javid",
+      ""
+    ],
+    [
+      "Packeer",
+      "Fauzi",
+      ""
+    ],
+    [
+      "Baig",
+      "Mirza Muhammad Ali",
+      ""
+    ],
+    [
+      "Sidek",
+      "Othman",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 2 Dec 2024 09:17:56 GMT"
+    }
+  ],
+  "updateDate": "2024-12-03",
+  "timestamp": 1733131076000,
+  "abstract": "  Performance optimization associated with optical modulators requires\nreasonably accurate predictive models for key figures of merit. Interleaved\nPN-junction topology offers the maximum mode/junction overlap and is the most\nefficient modulator in depletion-mode of operation. Due to its structure, the\naccurate modelling process must be fully three-dimensional, which is a\nnontrivial computational problem. This paper presents a rigorous 3D model for\nthe modulation efficiency of silicon-on-insulator interleaved junction optical\nphase modulators with submicron dimensions. Solution of Drift-Diffusion and\nPoisson equations were carried out on 3D finite-element-mesh and Maxwell\nequations were solved using Finite-Difference-Time-Domain (FDTD) method on 3D\nYee-cells. Whole of the modelling process has been detailed and all the\ncoefficients required in the model are presented. Model validation suggests <\n10% RMS error.\n",
+  "subjects": [
+    "Physics/Optics",
+    "Electrical Engineering and Systems Science/Signal Processing",
+    "Physics/Applied Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by-sa/4.0/",
+  "blobId": "teEOfddOfNEmh-usS-6kx4pzhwh5P7i4G4RmllL6G9o",
+  "pdfSize": "1231057"
+}

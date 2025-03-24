@@ -1,0 +1,51 @@
+{
+  "id": "2412.01576",
+  "title": "Topological Signal Processing and Learning: Recent Advances and Future\n  Challenges",
+  "authors": "Elvin Isufi, Geert Leus, Baltasar Beferull-Lozano, Sergio Barbarossa,\n  Paolo Di Lorenzo",
+  "authorsParsed": [
+    [
+      "Isufi",
+      "Elvin",
+      ""
+    ],
+    [
+      "Leus",
+      "Geert",
+      ""
+    ],
+    [
+      "Beferull-Lozano",
+      "Baltasar",
+      ""
+    ],
+    [
+      "Barbarossa",
+      "Sergio",
+      ""
+    ],
+    [
+      "Di Lorenzo",
+      "Paolo",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 2 Dec 2024 14:57:27 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Fri, 14 Feb 2025 11:29:39 GMT"
+    }
+  ],
+  "updateDate": "2025-02-17",
+  "timestamp": 1733151447000,
+  "abstract": "  Developing methods to process irregularly structured data is crucial in\napplications like gene-regulatory, brain, power, and socioeconomic networks.\nGraphs have been the go-to algebraic tool for modeling the structure via nodes\nand edges capturing their interactions, leading to the establishment of the\nfields of graph signal processing (GSP) and graph machine learning (GML). Key\ngraph-aware methods include Fourier transform, filtering, sampling, as well as\ntopology identification and spatiotemporal processing. Although versatile,\ngraphs can model only pairwise dependencies in the data. To this end,\ntopological structures such as simplicial and cell complexes have emerged as\nalgebraic representations for more intricate structure modeling in data-driven\nsystems, fueling the rapid development of novel topological-based processing\nand learning methods. This paper first presents the core principles of\ntopological signal processing through the Hodge theory, a framework\ninstrumental in propelling the field forward thanks to principled connections\nwith GSP-GML. It then outlines advances in topological signal representation,\nfiltering, and sampling, as well as inferring topological structures from data,\nprocessing spatiotemporal topological signals, and connections with topological\nmachine learning. The impact of topological signal processing and learning is\nfinally highlighted in applications dealing with flow data over networks,\ngeometric processing, statistical ranking, biology, and semantic communication.\n",
+  "subjects": [
+    "Electrical Engineering and Systems Science/Signal Processing"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "D0kGX53OTZ0df-uwq7XdgiIOlzDss3RdcPgEoFaBsIo",
+  "pdfSize": "1097754"
+}

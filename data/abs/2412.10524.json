@@ -1,0 +1,29 @@
+{
+  "id": "2412.10524",
+  "title": "Is Polarization an Inevitable Outcome of Similarity-Based Content\n  Recommendations? -- Mathematical Proofs and Computational Validation",
+  "authors": "Minhyeok Lee",
+  "authorsParsed": [
+    [
+      "Lee",
+      "Minhyeok",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 13 Dec 2024 19:38:13 GMT"
+    }
+  ],
+  "updateDate": "2024-12-17",
+  "timestamp": 1734118693000,
+  "abstract": "  The increasing reliance on digital platforms shapes how individuals\nunderstand the world, as recommendation systems direct users toward content\n\"similar\" to their existing preferences. While this process simplifies\ninformation retrieval, there is concern that it may foster insular communities,\nso-called echo chambers, reinforcing existing viewpoints and limiting exposure\nto alternatives. To investigate whether such polarization emerges from\nfundamental principles of recommendation systems, we propose a minimal model\nthat represents users and content as points in a continuous space. Users\niteratively move toward the median of locally recommended items, chosen by\nnearest-neighbor criteria, and we show mathematically that they naturally\ncoalesce into distinct, stable clusters without any explicit ideological bias.\nComputational simulations confirm these findings and explore how population\nsize, adaptation rates, content production probabilities, and noise levels\nmodulate clustering speed and intensity. Our results suggest that\nsimilarity-based retrieval, even in simplified scenarios, drives fragmentation.\nWhile we do not claim all systems inevitably cause polarization, we highlight\nthat such retrieval is not neutral. Recognizing the geometric underpinnings of\nrecommendation spaces may inform interventions, policies, and critiques that\naddress unintended cultural and ideological divisions.\n",
+  "subjects": [
+    "Computer Science/Computational Engineering, Finance, and Science",
+    "Economics/General Economics",
+    "Quantitative Finance/Economics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "PwtM47wNXTfIx8KWc4VLi10V5ZqFUBfkeCj7QJBAwZ0",
+  "pdfSize": "9069555"
+}

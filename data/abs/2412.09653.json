@@ -1,0 +1,38 @@
+{
+  "id": "2412.09653",
+  "title": "On study of transition fronts of Fisher-KPP type reaction-diffusion PDEs\n  by non-linear transformations into exactly solvable class",
+  "authors": "Preet Mishra, Sapna Ratan Shah and R.K. Brojen Singh",
+  "authorsParsed": [
+    [
+      "Mishra",
+      "Preet",
+      ""
+    ],
+    [
+      "Shah",
+      "Sapna Ratan",
+      ""
+    ],
+    [
+      "Singh",
+      "R. K. Brojen",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 11 Dec 2024 16:45:20 GMT"
+    }
+  ],
+  "updateDate": "2024-12-16",
+  "timestamp": 1733935520000,
+  "abstract": "  Spatio-temporal dynamics of the evolution of population involving growth and\ndiffusion processes can be modeled by class of partial diffusion equations\n(PDEs) known as reaction-diffusion systems. In this work, we developed a\nnonlinear transformations method that converts the original nonlinear\nFisher-KPP class of PDEs into an exactly solvable class. We then demonstrated\nthat the proposed nonlinear transformation method intrinsically preserves the\nrelaxation behavior of the solutions to asymptotic values of the non-linear\ndynamical system. We also show that these particular transforms are very\namenable to yield an exact closed form solution in terms of the heat kernel and\nanalytical approximations through the two variable Hermite polynomials. With\nthis proposed method, we calculated the front velocity and shape of the\npropagating wave and showed how the non-linear transformation affects these\nparameters for both short and long epochs. As applications, we focus on solving\npertinent cases of the Fisher-KPP type of PDEs relating to the evolutionary\ndynamics by assigning fitness to the mutant gene according to zygosity\nconditions. We calculated the relaxation of velocity with the parameters of the\ninitial conditions in the following cases, namely, the Fisher, the heterozygote\ninferior fitness, the heterozygote superior fitness, and finally a general\nnonlinearity case. We also verified previous conjectures through the exact\nsolutions computed using the proposed method.\n",
+  "subjects": [
+    "Quantitative Biology/Populations and Evolution",
+    "Nonlinear Sciences/Exactly Solvable and Integrable Systems"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "sjPotfrGSeD8e6-GGPtY6qqZz5oR2sk7hBZ7CUAnllw",
+  "pdfSize": "2993676"
+}

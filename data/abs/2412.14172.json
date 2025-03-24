@@ -1,0 +1,75 @@
+{
+  "id": "2412.14172",
+  "title": "Learning from Massive Human Videos for Universal Humanoid Pose Control",
+  "authors": "Jiageng Mao, Siheng Zhao, Siqi Song, Tianheng Shi, Junjie Ye, Mingtong\n  Zhang, Haoran Geng, Jitendra Malik, Vitor Guizilini, Yue Wang",
+  "authorsParsed": [
+    [
+      "Mao",
+      "Jiageng",
+      ""
+    ],
+    [
+      "Zhao",
+      "Siheng",
+      ""
+    ],
+    [
+      "Song",
+      "Siqi",
+      ""
+    ],
+    [
+      "Shi",
+      "Tianheng",
+      ""
+    ],
+    [
+      "Ye",
+      "Junjie",
+      ""
+    ],
+    [
+      "Zhang",
+      "Mingtong",
+      ""
+    ],
+    [
+      "Geng",
+      "Haoran",
+      ""
+    ],
+    [
+      "Malik",
+      "Jitendra",
+      ""
+    ],
+    [
+      "Guizilini",
+      "Vitor",
+      ""
+    ],
+    [
+      "Wang",
+      "Yue",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 18 Dec 2024 18:59:56 GMT"
+    }
+  ],
+  "updateDate": "2024-12-19",
+  "timestamp": 1734548396000,
+  "abstract": "  Scalable learning of humanoid robots is crucial for their deployment in\nreal-world applications. While traditional approaches primarily rely on\nreinforcement learning or teleoperation to achieve whole-body control, they are\noften limited by the diversity of simulated environments and the high costs of\ndemonstration collection. In contrast, human videos are ubiquitous and present\nan untapped source of semantic and motion information that could significantly\nenhance the generalization capabilities of humanoid robots. This paper\nintroduces Humanoid-X, a large-scale dataset of over 20 million humanoid robot\nposes with corresponding text-based motion descriptions, designed to leverage\nthis abundant data. Humanoid-X is curated through a comprehensive pipeline:\ndata mining from the Internet, video caption generation, motion retargeting of\nhumans to humanoid robots, and policy learning for real-world deployment. With\nHumanoid-X, we further train a large humanoid model, UH-1, which takes text\ninstructions as input and outputs corresponding actions to control a humanoid\nrobot. Extensive simulated and real-world experiments validate that our\nscalable training approach leads to superior generalization in text-based\nhumanoid control, marking a significant step toward adaptable, real-world-ready\nhumanoid robots.\n",
+  "subjects": [
+    "Computer Science/Robotics",
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Computation and Language",
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "Va-bUTA3Zb8g7bCXMYKhBW2CNDBisDm0gXb8mKIEfBU",
+  "pdfSize": "25751053"
+}

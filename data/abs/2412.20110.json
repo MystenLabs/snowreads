@@ -1,0 +1,51 @@
+{
+  "id": "2412.20110",
+  "title": "Cross-Modal Mapping: Eliminating the Modality Gap for Few-Shot Image\n  Classification",
+  "authors": "Xi Yang, Pai Peng, Wulin Xie, Xiaohuan Lu, Jie Wen",
+  "authorsParsed": [
+    [
+      "Yang",
+      "Xi",
+      ""
+    ],
+    [
+      "Peng",
+      "Pai",
+      ""
+    ],
+    [
+      "Xie",
+      "Wulin",
+      ""
+    ],
+    [
+      "Lu",
+      "Xiaohuan",
+      ""
+    ],
+    [
+      "Wen",
+      "Jie",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 28 Dec 2024 10:40:21 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Thu, 9 Jan 2025 20:24:29 GMT"
+    }
+  ],
+  "updateDate": "2025-01-13",
+  "timestamp": 1735382421000,
+  "abstract": "  In few-shot image classification tasks, methods based on pretrained\nvision-language models (such as CLIP) have achieved significant progress. Many\nexisting approaches directly utilize visual or textual features as class\nprototypes, however, these features fail to adequately represent their\nrespective classes. We identify that this limitation arises from the modality\ngap inherent in pretrained vision-language models, which weakens the connection\nbetween the visual and textual modalities. To eliminate this modality gap and\nenable textual features to fully represent class prototypes, we propose a\nsimple and efficient Cross-Modal Mapping (CMM) method. This method employs a\nlinear transformation to map image features into the textual feature space,\nensuring that both modalities are comparable within the same feature space.\nNevertheless, the modality gap diminishes the effectiveness of this mapping. To\naddress this, we further introduce a triplet loss to optimize the spatial\nrelationships between image features and class textual features, allowing class\ntextual features to naturally serve as class prototypes for image features.\nExperimental results on 11 benchmark demonstrate an average improvement of\napproximately 3.5% compared to conventional methods and exhibit competitive\nperformance on 4 distribution shift benchmarks.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "U_1pTDm6Lod3GSYJ35Da3joCiMKca60o47d9DDCSiS4",
+  "pdfSize": "3562041"
+}

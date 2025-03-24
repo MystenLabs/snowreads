@@ -1,0 +1,52 @@
+{
+  "id": "2412.05411",
+  "title": "Spectrally-Pure Optical Serrodyne Modulation for Continuously-Tunable\n  Laser Offset Locking",
+  "authors": "Roame A. Hildebrand (1 and 2), Alessandro Restelli (4), Wance Wang (1\n  and 2), Connor Goham (1 and 2), Joseph W. Britton (2 and 3) ((1) Institute\n  for Research in Electronics and Applied Physics, University of Maryland, (2)\n  Department of Physics, University of Maryland, (3) U.S. Army Combat\n  Capabilities Development Command, Army Research Laboratory, (4) Joint Quantum\n  Institute, University of Maryland and the National Institute of Standards and\n  Technology)",
+  "authorsParsed": [
+    [
+      "Hildebrand",
+      "Roame A.",
+      "",
+      "1 and 2"
+    ],
+    [
+      "Restelli",
+      "Alessandro",
+      "",
+      "1\n  and 2"
+    ],
+    [
+      "Wang",
+      "Wance",
+      "",
+      "1\n  and 2"
+    ],
+    [
+      "Goham",
+      "Connor",
+      "",
+      "1 and 2"
+    ],
+    [
+      "Britton",
+      "Joseph W.",
+      "",
+      "2 and 3"
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 6 Dec 2024 20:40:18 GMT"
+    }
+  ],
+  "updateDate": "2024-12-10",
+  "timestamp": 1733517618000,
+  "abstract": "  The comb-like spectrum added to laser light by an electro-optic modulator\n(EOM) finds use in a wide range of applications including coherent optical\ncommunication, laser frequency and phase stabilization, and atomic\nspectroscopy. In some cases a sideband-free optical frequency shift is\npreferred, such as in laser-offset locking using an optical cavity,\nsingle-photon frequency shifting, and laser range finding. Approaches to\nobtaining an optical frequency offset (OFO) involve trade-offs between shift\nrange, conversion gain, and suppression of spurious sidebands. Here we\ndemonstrate an OFO of continuous-wave laser light by serrodyne modulation using\na fiber EOM and radio-frequency (RF) tones from a commodity RF system on a chip\n(RFSoC) to achieve shifts of 40 to 800 MHz with > 15 dB suppression of spurious\nsidebands and < 1.5 dB conversion loss. We also observe smoothly-varying\nconversion gain. The utility of this tool is demonstrated by continuously\nshifting the offset of a cavity-locked laser from 50 to 1600 MHz, a capability\nuseful in spectroscopy of unknown optical transitions.\n",
+  "subjects": [
+    "Physics/Quantum Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "lO60OP0CYTcp3nv11ief5AGp3gb2zJMjGmo08VOzUjw",
+  "pdfSize": "1198714"
+}

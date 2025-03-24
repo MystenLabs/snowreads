@@ -1,0 +1,39 @@
+{
+  "id": "2412.00962",
+  "title": "LLMs as mirrors of societal moral standards: reflection of cultural\n  divergence and agreement across ethical topics",
+  "authors": "Mijntje Meijer, Hadi Mohammadi and Ayoub Bagheri",
+  "authorsParsed": [
+    [
+      "Meijer",
+      "Mijntje",
+      ""
+    ],
+    [
+      "Mohammadi",
+      "Hadi",
+      ""
+    ],
+    [
+      "Bagheri",
+      "Ayoub",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 1 Dec 2024 20:39:42 GMT"
+    }
+  ],
+  "updateDate": "2024-12-03",
+  "timestamp": 1733085582000,
+  "abstract": "  Large language models (LLMs) have become increasingly pivotal in various\ndomains due the recent advancements in their performance capabilities. However,\nconcerns persist regarding biases in LLMs, including gender, racial, and\ncultural biases derived from their training data. These biases raise critical\nquestions about the ethical deployment and societal impact of LLMs.\nAcknowledging these concerns, this study investigates whether LLMs accurately\nreflect cross-cultural variations and similarities in moral perspectives. In\nassessing whether the chosen LLMs capture patterns of divergence and agreement\non moral topics across cultures, three main methods are employed: (1)\ncomparison of model-generated and survey-based moral score variances, (2)\ncluster alignment analysis to evaluate the correspondence between country\nclusters derived from model-generated moral scores and those derived from\nsurvey data, and (3) probing LLMs with direct comparative prompts. All three\nmethods involve the use of systematic prompts and token pairs designed to\nassess how well LLMs understand and reflect cultural variations in moral\nattitudes. The findings of this study indicate overall variable and low\nperformance in reflecting cross-cultural differences and similarities in moral\nvalues across the models tested, highlighting the necessity for improving\nmodels' accuracy in capturing these nuances effectively. The insights gained\nfrom this study aim to inform discussions on the ethical development and\ndeployment of LLMs in global contexts, emphasizing the importance of mitigating\nbiases and promoting fair representation across diverse cultural perspectives.\n",
+  "subjects": [
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Computation and Language",
+    "Computer Science/Symbolic Computation"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "UqxTOqSrryYtYzcoJCfAaP3mE4Btgylc6bGz3kII9cU",
+  "pdfSize": "489458"
+}

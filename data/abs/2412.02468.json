@@ -1,0 +1,77 @@
+{
+  "id": "2412.02468",
+  "title": "Separation of left-handed and anomalous right-handed vector operators\n  contributions into the Wtb vertex for single and double resonant top quark\n  production processes using a neural network",
+  "authors": "E. Abasov, E. Boos, V. Bunichev, L. Dudko, D. Gorin, A. Markina, M.\n  Perfilov, O. Vasilevskii, P. Volkov, G. Vorotnikov, A. Zaborenko",
+  "authorsParsed": [
+    [
+      "Abasov",
+      "E.",
+      ""
+    ],
+    [
+      "Boos",
+      "E.",
+      ""
+    ],
+    [
+      "Bunichev",
+      "V.",
+      ""
+    ],
+    [
+      "Dudko",
+      "L.",
+      ""
+    ],
+    [
+      "Gorin",
+      "D.",
+      ""
+    ],
+    [
+      "Markina",
+      "A.",
+      ""
+    ],
+    [
+      "Perfilov",
+      "M.",
+      ""
+    ],
+    [
+      "Vasilevskii",
+      "O.",
+      ""
+    ],
+    [
+      "Volkov",
+      "P.",
+      ""
+    ],
+    [
+      "Vorotnikov",
+      "G.",
+      ""
+    ],
+    [
+      "Zaborenko",
+      "A.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 3 Dec 2024 14:11:52 GMT"
+    }
+  ],
+  "updateDate": "2024-12-04",
+  "timestamp": 1733235112000,
+  "abstract": "  The paper describes the application of deep neural networks for the\nsearchdeviations from the Standard Model predictions at the Wtb vertex in the\nprocesses of single and double resonant top quark production with identical\nfinal state tWb. Monte-Carlo events preliminary classified by first level\nneural network as corresponding to single or double resonant top quark\nproduction are analyzed by two second level neural networks if there is a\npossible contribution of the anomalous right-handed vector operator into Wtb\nvertex or events are corresponded to the Standard Model. The second level\nneural networks are different for single and double resonant classes. The\nclasses depend differently on anomalous contribution and such splitting leads\nto better sensitivity. The developed statistical model is used to set\nconstraints on the anomalous right-handed vector operator at the Wtb vertex in\ndifferent regions of phase space. It is demonstrated that the proposed method\nallows to increase the efficiency of a search for the anomalous contributions\nto the Wtb vertex.\n",
+  "subjects": [
+    "Physics/High Energy Physics - Phenomenology"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "GCmAQRexwMFwFwUqsw6umq4Q9x2xqr7BapFL6eaWXFA",
+  "pdfSize": "440437"
+}

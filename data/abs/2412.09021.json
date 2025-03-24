@@ -1,0 +1,49 @@
+{
+  "id": "2412.09021",
+  "title": "Self-similarity in pandemic spread and fractal containment policies",
+  "authors": "Alexander F. Siegenfeld, Asier Pi\\~neiro Orioli, Robin Na, Blake\n  Elias, Yaneer Bar-Yam",
+  "authorsParsed": [
+    [
+      "Siegenfeld",
+      "Alexander F.",
+      ""
+    ],
+    [
+      "Orioli",
+      "Asier Piñeiro",
+      ""
+    ],
+    [
+      "Na",
+      "Robin",
+      ""
+    ],
+    [
+      "Elias",
+      "Blake",
+      ""
+    ],
+    [
+      "Bar-Yam",
+      "Yaneer",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 12 Dec 2024 07:33:03 GMT"
+    }
+  ],
+  "updateDate": "2024-12-13",
+  "timestamp": 1733988783000,
+  "abstract": "  Although pandemics are often studied as if populations are well-mixed,\ndisease transmission networks exhibit a multi-scale structure stretching from\nthe individual all the way up to the entire globe. The COVID-19 pandemic has\nled to an intense debate about whether interventions should prioritize public\nhealth or the economy, leading to a surge of studies analyzing the health and\neconomic costs of various response strategies. Here we show that describing\ndisease transmission in a self-similar (fractal) manner across multiple\ngeographic scales allows for the design of multi-scale containment measures\nthat substantially reduce both these costs. We characterize response strategies\nusing multi-scale reproduction numbers -- a generalization of the basic\nreproduction number $R_0$ -- that describe pandemic spread at multiple levels\nof scale and provide robust upper bounds on disease transmission. Stable\nelimination is guaranteed if there exists a scale such that the reproduction\nnumber among regions of that scale is less than $1$, even if the basic\nreproduction number $R_0$ is greater than $1$. We support our theoretical\nresults using simulations of a heterogeneous SIS model for disease spread in\nthe United States constructed using county-level commuting, air travel, and\npopulation data.\n",
+  "subjects": [
+    "Quantitative Biology/Populations and Evolution",
+    "Physics/Physics and Society",
+    "Quantitative Biology/Quantitative Methods"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "yXoV62PAXBLx_0HJ66XZIekaMdOc9MPwgHIaOm-W5Yw",
+  "pdfSize": "8221496"
+}

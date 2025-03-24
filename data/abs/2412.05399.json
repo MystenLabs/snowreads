@@ -1,0 +1,33 @@
+{
+  "id": "2412.05399",
+  "title": "Approximating Continuous Spectra of Hyperbolic Systems with\n  Summation-by-Parts Finite Difference Operators",
+  "authors": "Brittany A. Erickson",
+  "authorsParsed": [
+    [
+      "Erickson",
+      "Brittany A.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 6 Dec 2024 19:54:06 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Thu, 19 Dec 2024 22:58:12 GMT"
+    }
+  ],
+  "updateDate": "2024-12-23",
+  "timestamp": 1733514846000,
+  "abstract": "  In this work we explore the fidelity of numerical approximations to\ncontinuous spectra of hyperbolic partial differential equation systems with\nvariable coefficients. We are particularly interested in the ability of\ndiscrete methods to accurately discover sources of physical instabilities. By\nfocusing on the perturbed equations that arise in linearized problems, we apply\nhigh-order accurate summation-by-parts finite difference operators, with weak\nenforcement of boundary conditions through the simultaneous-approximation-term\ntechnique, which leads to a provably stable numerical discretization with\nformal order of accuracy given by p = 2, 3, 4 and 5. We derive analytic\nsolutions using Laplace transform methods, which provide important ground truth\nfor ensuring numerical convergence at the correct theoretical rate. We find\nthat the continuous spectrum is better captured with mesh refinement, although\ndissipative strict stability (where the growth rate of the discrete problem is\nbounded above by the continuous) is not obtained. We also find that sole\nreliance on mesh refinement can be a problematic means for determining physical\ngrowth rates as some eigenvalues emerge (and persist with mesh refinement)\nbased on spatial order of accuracy but are non-physical. We suggest that\nnumerical methods be used to approximate discrete spectra when numerical\nstability is guaranteed and convergence of the discrete spectra is evident with\nboth mesh refinement and increasing order of accuracy.\n",
+  "subjects": [
+    "Mathematics/Numerical Analysis",
+    "Computer Science/Numerical Analysis",
+    "Mathematics/Analysis of PDEs"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "1btcMdoZK5YBnHbu7gBSYfUISrJPIva2-MMU8vwqHI0",
+  "pdfSize": "1435941"
+}

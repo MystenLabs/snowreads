@@ -1,0 +1,72 @@
+{
+  "id": "2412.12060",
+  "title": "To model or not to model: nebular continuum in galaxy spectra",
+  "authors": "Henrique Miranda, Ciro Pappalardo, Jos\\'e Afonso, Polychronis\n  Papaderos, Catarina Lobo, Ana Paulino-Afonso, Rodrigo Carvajal, Israel\n  Matute, Patricio Lagos, Davi Barbosa",
+  "authorsParsed": [
+    [
+      "Miranda",
+      "Henrique",
+      ""
+    ],
+    [
+      "Pappalardo",
+      "Ciro",
+      ""
+    ],
+    [
+      "Afonso",
+      "José",
+      ""
+    ],
+    [
+      "Papaderos",
+      "Polychronis",
+      ""
+    ],
+    [
+      "Lobo",
+      "Catarina",
+      ""
+    ],
+    [
+      "Paulino-Afonso",
+      "Ana",
+      ""
+    ],
+    [
+      "Carvajal",
+      "Rodrigo",
+      ""
+    ],
+    [
+      "Matute",
+      "Israel",
+      ""
+    ],
+    [
+      "Lagos",
+      "Patricio",
+      ""
+    ],
+    [
+      "Barbosa",
+      "Davi",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 16 Dec 2024 18:33:55 GMT"
+    }
+  ],
+  "updateDate": "2025-02-05",
+  "timestamp": 1734374035000,
+  "abstract": "  The neglect of modelling both stellar and nebular emission significantly\naffects the derived physical properties of galaxies, particularly those with\nhigh star formation rates. While this issue has been studied, it has not been\nestablished a clear threshold for a significant impact on the estimated\nphysical properties of galaxies due to accounting for both stellar and nebular\nemission. We analyse galaxies from SDSS-DR7 across a wide range of star-forming\nactivity levels, comparing the results obtained from two spectral fitting\ntools: FADO (which considers both stellar and nebular continuum) and STARLIGHT\n(only considers the stellar continuum). A strong linear correlation is found\nbetween the rest-frame H$\\alpha$ and H$\\beta$ equivalent widths (EWs) and the\noptical nebular contribution, identifying these as reliable tracers. The\nresults show that when the nebular contribution exceeds 8% (corresponding to\nEW(H$\\alpha$)$\\simeq$500 \\r{A} and EW(H$\\beta$)$\\simeq$110 \\r{A}), there is a\nsignificant impact on the estimation of galaxy properties, namely stellar mass,\nage and metallicity. Our results highlight the importance of taking into\naccount both the stellar and nebular continuum when analysing the optical\nspectra of star-forming galaxies. In particular, this is a fundamental aspect\nfor galaxies with a rest-frame EW(H$\\alpha$)$\\gtrsim$500 \\r{A} (or the scaled\nvalue of 375 \\r{A} for pseudo-continuum measures). At low redshifts, this\nmostly impacts extreme emission line galaxies, while at higher redshifts it\nbecomes a dominant aspect given the higher star-forming activity in the younger\nUniverse. In light of current JWST observations and future instruments designed\nfor high-redshift observations, such as MOONS, this reveals as a critical issue\nto take into consideration.\n",
+  "subjects": [
+    "Astrophysics/Astrophysics of Galaxies"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "otCKgfN70qlUughJdi5fc1IV4FCstGE5D5cWu9YYh7s",
+  "pdfSize": "1051261"
+}

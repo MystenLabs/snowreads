@@ -1,0 +1,37 @@
+{
+  "id": "2412.01584",
+  "title": "Detection of Performance Interference Among Network Slices in 5G/6G\n  Systems",
+  "authors": "Van Sy Mai, Richard La, Tao Zhang",
+  "authorsParsed": [
+    [
+      "Mai",
+      "Van Sy",
+      ""
+    ],
+    [
+      "La",
+      "Richard",
+      ""
+    ],
+    [
+      "Zhang",
+      "Tao",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 2 Dec 2024 15:04:25 GMT"
+    }
+  ],
+  "updateDate": "2024-12-03",
+  "timestamp": 1733151865000,
+  "abstract": "  Recent studies showed that network slices (NSs), which are logical networks\nsupported by shared physical networks, can experience service interference due\nto sharing of physical and virtual resources. Thus, from the perspective of\nproviding end-to-end (E2E) service quality assurance in 5G/6G systems, it is\ncrucial to discover possible service interference among the NSs in a timely\nmanner and isolate the potential issues before they can lead to violations of\nservice quality agreements. We study the problem of detecting service\ninterference among NSs in 5G/6G systems, only using E2E key performance\nindicator measurements, and propose a new algorithm. Our numerical studies\ndemonstrate that, even when the service interference among NSs is weak to\nmoderate, provided that a reasonable number of measurements are available, the\nproposed algorithm can correctly identify most of shared resources that can\ncause service interference among the NSs that utilize the shared resources.\n",
+  "subjects": [
+    "Electrical Engineering and Systems Science/Signal Processing"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "pAW9RWc6I7sxjNKTLR_5YfmlVxe3ASvaNBwB6cfJ3BY",
+  "pdfSize": "3497200"
+}

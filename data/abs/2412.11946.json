@@ -1,0 +1,30 @@
+{
+  "id": "2412.11946",
+  "title": "Physics Meets Pixels: PDE Models in Image Processing",
+  "authors": "Alejandro Garnung Men\\'endez",
+  "authorsParsed": [
+    [
+      "Menéndez",
+      "Alejandro Garnung",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 11 Dec 2024 23:11:50 GMT"
+    }
+  ],
+  "updateDate": "2024-12-17",
+  "timestamp": 1733958710000,
+  "abstract": "  Partial Differential Equations (PDEs) have long been recognized as powerful\ntools for image processing and analysis, providing a framework to model and\nexploit structural and geometric properties inherent in visual data. Over the\nyears, numerous PDE-based models have been developed and refined, inspired by\nnatural analogies between physical phenomena and image spaces. These methods\nhave proven highly effective in a wide range of applications, including\ndenoising, deblurring, sharpening, inpainting, feature extraction, and others.\nThis work provides a theoretical and computational exploration of both\nfundamental and innovative PDE models applied to image processing, accompanied\nby extensive numerical experimentation and objective and subjective analysis.\nBuilding upon well-established techniques, we introduce novel physical-based\nPDE models specifically designed for various image processing tasks. These\nmodels incorporate mathematical principles and approaches that, to the best of\nour knowledge, have not been previously applied in this domain, showcasing\ntheir potential to address challenges beyond the capabilities of traditional\nand existing PDE methods. By formulating and solving these mathematical models,\nwe demonstrate their effectiveness in advancing image processing tasks while\nretaining a rigorous connection to their theoretical underpinnings. This work\nseeks to bridge foundational concepts and cutting-edge innovations,\ncontributing to the evolution of PDE methodologies in digital image processing\nand related interdisciplinary fields.\n",
+  "subjects": [
+    "Electrical Engineering and Systems Science/Image and Video Processing",
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Numerical Analysis",
+    "Mathematics/Numerical Analysis"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "3pKBd4us1C2BEsJ8tNbWhjAm8CxpFHxnM0Ec0zlFe60",
+  "pdfSize": "140673078"
+}

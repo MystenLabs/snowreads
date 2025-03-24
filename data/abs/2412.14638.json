@@ -1,0 +1,53 @@
+{
+  "id": "2412.14638",
+  "title": "TuneS: Patient-specific model-based optimization of contact\n  configuration in deep brain stimulation",
+  "authors": "Anna Franziska Frigge, Lina Uggla, Elena Jiltsova, Markus Fahlstr\\\"om,\n  Dag Nyholm, and Alexander Medvedev",
+  "authorsParsed": [
+    [
+      "Frigge",
+      "Anna Franziska",
+      ""
+    ],
+    [
+      "Uggla",
+      "Lina",
+      ""
+    ],
+    [
+      "Jiltsova",
+      "Elena",
+      ""
+    ],
+    [
+      "Fahlström",
+      "Markus",
+      ""
+    ],
+    [
+      "Nyholm",
+      "Dag",
+      ""
+    ],
+    [
+      "Medvedev",
+      "Alexander",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 19 Dec 2024 08:48:54 GMT"
+    }
+  ],
+  "updateDate": "2024-12-20",
+  "timestamp": 1734598134000,
+  "abstract": "  Objective: The objective of this study is to develop and evaluate a\nsystematic approach to optimize Deep Brain Stimulation (DBS) parameters,\naddressing the challenge of identifying patient-specific settings and optimal\nstimulation targets for various neurological and mental disorders. Methods:\nTuneS, a novel pipeline to predict clinically optimal DBS contact\nconfigurations based on predefined targets and constraints, is introduced. The\nmethod relies upon patient-specific models of stimulation spread and extends\noptimization beyond traditional neural structures to include automated,\nmodel-based targeting of streamlines. Results: Initial findings demonstrate\nthat STN motor streamlines consistently receive a significant portion of the\nallocated stimulation volume, suggesting that a consistent portion of the\nstimulation should ideally focus on the STN motor streamlines. At the example\nof a small cohort of Parkinson's disease patients, the value of model-based\ncontact predictions for assessing stimulation targets while observing\nconstraints is demonstrated. Conclusion: TuneS shows promise as a research\ntool, enabling systematic assessment of DBS target effectiveness and\nfacilitating constraint-aware optimization of stimulation parameters.\nSignificance: The presented pipeline offers a pathway to improve\npatient-specific DBS therapies and contributes to the broader understanding of\neffective DBS targeting strategies.\n",
+  "subjects": [
+    "Electrical Engineering and Systems Science/Systems and Control",
+    "Computer Science/Systems and Control"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "J7hG822BarYmPIUt1Snq57s086jdLPYi4ufEF3Us_gU",
+  "pdfSize": "3591172"
+}

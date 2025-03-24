@@ -1,0 +1,48 @@
+{
+  "id": "2412.03215",
+  "title": "Beyond [cls]: Exploring the true potential of Masked Image Modeling\n  representations",
+  "authors": "Marcin Przewi\\k{e}\\'zlikowski, Randall Balestriero, Wojciech\n  Jasi\\'nski, Marek \\'Smieja, Bartosz Zieli\\'nski",
+  "authorsParsed": [
+    [
+      "Przewięźlikowski",
+      "Marcin",
+      ""
+    ],
+    [
+      "Balestriero",
+      "Randall",
+      ""
+    ],
+    [
+      "Jasiński",
+      "Wojciech",
+      ""
+    ],
+    [
+      "Śmieja",
+      "Marek",
+      ""
+    ],
+    [
+      "Zieliński",
+      "Bartosz",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 4 Dec 2024 11:08:32 GMT"
+    }
+  ],
+  "updateDate": "2024-12-05",
+  "timestamp": 1733310512000,
+  "abstract": "  Masked Image Modeling (MIM) has emerged as a popular method for\nSelf-Supervised Learning (SSL) of visual representations. However, for\nhigh-level perception tasks, MIM-pretrained models offer lower out-of-the-box\nrepresentation quality than the Joint-Embedding Architectures (JEA) - another\nprominent SSL paradigm. To understand this performance gap, we analyze the\ninformation flow in Vision Transformers (ViT) learned by both approaches. We\nreveal that whereas JEAs construct their representation on a selected set of\nrelevant image fragments, MIM models aggregate nearly whole image content.\nMoreover, we demonstrate that MIM-trained ViTs retain valuable information\nwithin their patch tokens, which is not effectively captured by the global\n[cls] token representations. Therefore, selective aggregation of relevant patch\ntokens, without any fine-tuning, results in consistently higher-quality of MIM\nrepresentations. To our knowledge, we are the first to highlight the lack of\neffective representation aggregation as an emergent issue of MIM and propose\ndirections to address it, contributing to future advances in Self-Supervised\nLearning.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "slELyHSWmTSP9ghQ76lmAHZCpu8qChuY95vdw8AfcAE",
+  "pdfSize": "1944539"
+}

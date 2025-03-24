@@ -1,0 +1,52 @@
+{
+  "id": "2412.06248",
+  "title": "Rendering-Refined Stable Diffusion for Privacy Compliant Synthetic Data",
+  "authors": "Kartik Patwari, David Schneider, Xiaoxiao Sun, Chen-Nee Chuah,\n  Lingjuan Lyu, Vivek Sharma",
+  "authorsParsed": [
+    [
+      "Patwari",
+      "Kartik",
+      ""
+    ],
+    [
+      "Schneider",
+      "David",
+      ""
+    ],
+    [
+      "Sun",
+      "Xiaoxiao",
+      ""
+    ],
+    [
+      "Chuah",
+      "Chen-Nee",
+      ""
+    ],
+    [
+      "Lyu",
+      "Lingjuan",
+      ""
+    ],
+    [
+      "Sharma",
+      "Vivek",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 9 Dec 2024 06:47:29 GMT"
+    }
+  ],
+  "updateDate": "2024-12-10",
+  "timestamp": 1733726849000,
+  "abstract": "  Growing privacy concerns and regulations like GDPR and CCPA necessitate\npseudonymization techniques that protect identity in image datasets. However,\nretaining utility is also essential. Traditional methods like masking and\nblurring degrade quality and obscure critical context, especially in\nhuman-centric images. We introduce Rendering-Refined Stable Diffusion (RefSD),\na pipeline that combines 3D-rendering with Stable Diffusion, enabling\nprompt-based control over human attributes while preserving posture. Unlike\nstandard diffusion models that fail to retain posture or GANs that lack realism\nand flexible attribute control, RefSD balances posture preservation, realism,\nand customization. We also propose HumanGenAI, a framework for human perception\nand utility evaluation. Human perception assessments reveal attribute-specific\nstrengths and weaknesses of RefSD. Our utility experiments show that models\ntrained on RefSD pseudonymized data outperform those trained on real data in\ndetection tasks, with further performance gains when combining RefSD with real\ndata. For classification tasks, we consistently observe performance\nimprovements when using RefSD data with real data, confirming the utility of\nour pseudonymized data.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "DU079MOVUXJ01XnTF_InDgXInXmUfx0Kf334l5_Da-E",
+  "pdfSize": "29154296"
+}

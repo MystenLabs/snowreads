@@ -1,0 +1,42 @@
+{
+  "id": "2412.09778",
+  "title": "Importance Sampling With Stochastic Particle Flow and Diffusion\n  Optimization",
+  "authors": "Wenyu Zhang, Mohammad J. Khojasteh, Nikolay A. Atanasov, and Florian\n  Meyer",
+  "authorsParsed": [
+    [
+      "Zhang",
+      "Wenyu",
+      ""
+    ],
+    [
+      "Khojasteh",
+      "Mohammad J.",
+      ""
+    ],
+    [
+      "Atanasov",
+      "Nikolay A.",
+      ""
+    ],
+    [
+      "Meyer",
+      "Florian",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 13 Dec 2024 01:13:24 GMT"
+    }
+  ],
+  "updateDate": "2024-12-16",
+  "timestamp": 1734052404000,
+  "abstract": "  Particle flow (PFL) is an effective method for overcoming particle\ndegeneracy, the main limitation of particle filtering. In PFL, particles are\nmigrated towards regions of high likelihood based on the solution of a partial\ndifferential equation. Recently proposed stochastic PFL introduces a diffusion\nterm in the ordinary differential equation (ODE) that describes particle\nmotion. This diffusion term reduces the stiffness of the ODE and makes it\npossible to perform PFL with a lower number of numerical integration steps\ncompared to traditional deterministic PFL. In this work, we introduce a general\napproach to perform importance sampling (IS) based on stochastic PFL. Our\nmethod makes it possible to evaluate a \"flow-induced\" proposal probability\ndensity function (PDF) after the parameters of a Gaussian mixture model (GMM)\nhave been migrated by stochastic PFL. Compared to conventional stochastic PFL,\nthe resulting processing step is asymptotically optimal. Within our method, it\nis possible to optimize the diffusion matrix that describes the diffusion term\nof the ODE to improve the accuracy-computational complexity tradeoff. Our\nsimulation results in a highly nonlinear 3-D source localization scenario\nshowcase a reduced stiffness of the ODE and an improved estimating accuracy\ncompared to state-of-the-art deterministic and stochastic PFL.\n",
+  "subjects": [
+    "Electrical Engineering and Systems Science/Signal Processing"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "viIeQbqX8-KELUY7fCvUEgwSqF_3RgotbkrRPkjoih0",
+  "pdfSize": "2507341"
+}

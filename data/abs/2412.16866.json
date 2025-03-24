@@ -1,0 +1,37 @@
+{
+  "id": "2412.16866",
+  "title": "Mitigating Trauma in Qualitative Research Infrastructure: Roles for\n  Machine Assistance and Trauma-Informed Design",
+  "authors": "Emily Tseng, Thomas Ristenpart, Nicola Dell",
+  "authorsParsed": [
+    [
+      "Tseng",
+      "Emily",
+      ""
+    ],
+    [
+      "Ristenpart",
+      "Thomas",
+      ""
+    ],
+    [
+      "Dell",
+      "Nicola",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 22 Dec 2024 05:34:56 GMT"
+    }
+  ],
+  "updateDate": "2024-12-24",
+  "timestamp": 1734845696000,
+  "abstract": "  Researchers increasingly look to understand experiences of pain, harm, and\nmarginalization via qualitative analysis. Such work is needed to understand and\naddress social ills, but poses risks to researchers' well-being: sifting\nthrough volumes of data on painful human experiences risks incurring traumatic\nexposure in the researcher. In this paper, we explore how the principles of\ntrauma-informed computing (TIC) can be applied to reimagine healthier tools and\nworkflows for qualitative analysis. We apply TIC to create a design provocation\ncalled TIQA, a system for qualitative coding that leverages language modeling,\nsemantic search, and recommendation systems to measure and mitigate an\nanalyst's exposure to concepts they find traumatic. Through a formative study\nof TIQA with 15 participants, we illuminate the complexities of enacting TIC in\nqualitative knowledge infrastructure, and potential roles for machine\nassistance in mitigating researchers' trauma. To assist scholars in translating\nthe high-level principles of TIC into sociotechnical system design, we argue\nfor: (a) a conceptual shift from safety as exposure reduction towards safety as\nenablement; and (b) renewed attention to evaluating the trauma-informedness of\ndesign processes, in tandem with the outcomes of designed objects on users'\nwell-being.\n",
+  "subjects": [
+    "Computer Science/Human-Computer Interaction"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "482u_sJq1MEhYazFwzK6a_sokTMto_lZEkSWbsMx4ks",
+  "pdfSize": "1437202"
+}

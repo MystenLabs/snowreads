@@ -1,0 +1,42 @@
+{
+  "id": "2412.13804",
+  "title": "An improved method to search for flares from point sources of\n  ultra-high-energy photons",
+  "authors": "J.Stasielak, N. Borodai, D. G\\'ora, M. Niechciol",
+  "authorsParsed": [
+    [
+      "Stasielak",
+      "J.",
+      ""
+    ],
+    [
+      "Borodai",
+      "N.",
+      ""
+    ],
+    [
+      "Góra",
+      "D.",
+      ""
+    ],
+    [
+      "Niechciol",
+      "M.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 18 Dec 2024 12:52:53 GMT"
+    }
+  ],
+  "updateDate": "2024-12-19",
+  "timestamp": 1734526373000,
+  "abstract": "  Flares produced by certain classes of astrophysical objects may be sources of\nsome ultra-high-energy particles, which, if they are photons, would group into\nclusters of events correlated in space and time. Identification of such\nclustering in cosmic-ray data would provide important evidence for possible\nexistence of ultra-high-energy (UHE) photons and could potentially help\nidentify their sources. We present an analysis method to search for space-time\nclustering of ultra-high-energy extensive air showers, namely the stacking\nmethod, which combines a time-clustering algorithm with an unbinned likelihood\nstudy. In addition, to enhance the capability to discriminate between signal\n(photon-initiated events) and background (hadron-initiated) events, we apply a\nphoton tag. This involves using relevant probability distribution functions to\nclassify each event as more likely to be either a photon or a hadron. We\ndemonstrate that the stacking method can effectively distinguish between events\ninitiated by photons and those initiated by hadrons (background). The number of\nphoton events in a data sample, as well as the flare(s) duration can also be\nretrieved correctly. The stacking method with a photon tag requires only a few\nevents to identify a photon flare. This method can be used to search for the\ncosmic ray sources and/or improve limits on the fluxes of UHE photons.\n",
+  "subjects": [
+    "Astrophysics/High Energy Astrophysical Phenomena"
+  ],
+  "license": "http://creativecommons.org/licenses/by-sa/4.0/",
+  "blobId": "v9iXyG8L5kWqIHKsH0KcQCMOjqVFg_YE-thS8h1ZVB8",
+  "pdfSize": "790611"
+}

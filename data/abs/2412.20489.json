@@ -1,0 +1,43 @@
+{
+  "id": "2412.20489",
+  "title": "Low-Thrust Under-Actuated Satellite Formation Guidance and Control\n  Strategies",
+  "authors": "Ahmed Mahfouz, Gabriella Gaias, Florio Dalla Vedova, Holger Voos",
+  "authorsParsed": [
+    [
+      "Mahfouz",
+      "Ahmed",
+      ""
+    ],
+    [
+      "Gaias",
+      "Gabriella",
+      ""
+    ],
+    [
+      "Vedova",
+      "Florio Dalla",
+      ""
+    ],
+    [
+      "Voos",
+      "Holger",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 29 Dec 2024 15:04:32 GMT"
+    }
+  ],
+  "updateDate": "2024-12-31",
+  "timestamp": 1735484672000,
+  "abstract": "  This study presents autonomous guidance and control strategies for the\npurpose of reconfiguring close-range multi-satellite formations. The formation\nunder consideration includes $N$ under-actuated deputy satellites and an\nuncontrolled virtual or physical chief spacecraft. The guidance problem is\nformulated as a trajectory optimization problem that incorporates typical\ndynamical and physical constraints, alongside a minimum acceleration threshold.\nThis latter constraint arises from the physical limitations of the adopted\nlow-thrust technology, which is commonly employed for precise, close-range\nrelative orbital maneuvers. The guidance and control problem is addressed in\ntwo frameworks: centralized and distributed. The centralized approach provides\na fuel-optimal solution, but it is practical only for formations with a small\nnumber of deputies. The distributed approach is more scalable but yields\nsub-optimal solutions. In the centralized framework, the chief is a physical\nsatellite responsible for all calculations, while in the distributed framework,\nthe chief is treated as a virtual point mass orbiting the Earth, and each\ndeputy performs its own guidance and control calculations onboard. The study\nemphasizes the spaceborne implementation of the closed-loop control system,\naiming for a reliable and automated solution to the optimal control problem. To\nthis end, the risk of infeasibility is mitigated through first identifying the\nconstraints that pose a potential threat of infeasibility, then properly\nsoftening them. Two Model Predictive Control architectures are implemented and\ncompared, namely, a shrinking-horizon and a fixed-horizon schemes.\nPerformances, in terms of fuel expenditure and achieved control accuracy, are\nanalyzed on typical close-range reconfigurations requested by Earth observation\nmissions and are compared against different implementations proposed in the\nliterature.\n",
+  "subjects": [
+    "Electrical Engineering and Systems Science/Systems and Control",
+    "Computer Science/Systems and Control"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "eFJ1NMq7usOdobXLI1A1RSOhKARbzUclF0uOnUmg0a8",
+  "pdfSize": "9040579"
+}

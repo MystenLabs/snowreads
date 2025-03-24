@@ -1,0 +1,44 @@
+{
+  "id": "2412.08650",
+  "title": "Capacitive Touch Sensor Modeling With a Physics-informed Neural Network\n  and Maxwell's Equations",
+  "authors": "Ganyong Mo, Krishna Kumar Narayanan, David Castells-Rufas, Jordi\n  Carrabina",
+  "authorsParsed": [
+    [
+      "Mo",
+      "Ganyong",
+      ""
+    ],
+    [
+      "Narayanan",
+      "Krishna Kumar",
+      ""
+    ],
+    [
+      "Castells-Rufas",
+      "David",
+      ""
+    ],
+    [
+      "Carrabina",
+      "Jordi",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 23 Nov 2024 11:22:24 GMT"
+    }
+  ],
+  "updateDate": "2024-12-13",
+  "timestamp": 1732360944000,
+  "abstract": "  Maxwell's equations are the fundamental equations for understanding electric\nand magnetic field interactions and play a crucial role in designing and\noptimizing sensor systems like capacitive touch sensors, which are widely\nprevalent in automotive switches and smartphones. Ensuring robust functionality\nand stability of the sensors in dynamic environments necessitates profound\ndomain expertise and computationally intensive multi-physics simulations. This\npaper introduces a novel approach using a Physics-Informed Neural Network\n(PINN) based surrogate model to accelerate the design process. The PINN model\nsolves the governing electrostatic equations describing the interaction between\na finger and a capacitive sensor. Inputs include spatial coordinates from a 3D\ndomain encompassing the finger, sensor, and PCB, along with finger distances.\nBy incorporating the electrostatic equations directly into the neural network's\nloss function, the model captures the underlying physics. The learned model\nthus serves as a surrogate sensor model on which inference can be carried out\nin seconds for different experimental setups without the need to run\nsimulations. Efficacy results evaluated on unseen test cases demonstrate the\nsignificant potential of PINNs in accelerating the development and design\noptimization of capacitive touch sensors.\n",
+  "subjects": [
+    "Physics/Computational Physics",
+    "Computer Science/Machine Learning",
+    "Electrical Engineering and Systems Science/Signal Processing"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "XA0uZd9hFzc2TwrB46yqIXncPcNbYoFivojKbOVa-Z8",
+  "pdfSize": "598528"
+}

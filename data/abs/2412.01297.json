@@ -1,0 +1,48 @@
+{
+  "id": "2412.01297",
+  "title": "Morphological-Symmetry-Equivariant Heterogeneous Graph Neural Network\n  for Robotic Dynamics Learning",
+  "authors": "Fengze Xie, Sizhe Wei, Yue Song, Yisong Yue, Lu Gan",
+  "authorsParsed": [
+    [
+      "Xie",
+      "Fengze",
+      ""
+    ],
+    [
+      "Wei",
+      "Sizhe",
+      ""
+    ],
+    [
+      "Song",
+      "Yue",
+      ""
+    ],
+    [
+      "Yue",
+      "Yisong",
+      ""
+    ],
+    [
+      "Gan",
+      "Lu",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 2 Dec 2024 09:10:37 GMT"
+    }
+  ],
+  "updateDate": "2024-12-03",
+  "timestamp": 1733130637000,
+  "abstract": "  We present a morphological-symmetry-equivariant heterogeneous graph neural\nnetwork, namely MS-HGNN, for robotic dynamics learning, that integrates robotic\nkinematic structures and morphological symmetries into a single graph network.\nThese structural priors are embedded into the learning architecture as\nconstraints, ensuring high generalizability, sample and model efficiency. The\nproposed MS-HGNN is a versatile and general architecture that is applicable to\nvarious multi-body dynamic systems and a wide range of dynamics learning\nproblems. We formally prove the morphological-symmetry-equivariant property of\nour MS-HGNN and validate its effectiveness across multiple quadruped robot\nlearning problems using both real-world and simulated data. Our code is made\npublicly available at https://github.com/lunarlab-gatech/MorphSym-HGNN/.\n",
+  "subjects": [
+    "Computer Science/Robotics",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "0-KQQg_8eD0LLVFnOujwoBtqirts33GbIk9mAfg1XX8",
+  "pdfSize": "1530434"
+}

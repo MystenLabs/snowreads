@@ -1,0 +1,49 @@
+{
+  "id": "2412.05604",
+  "title": "Solving a global optimal problem requires only two-armed slot machine",
+  "authors": "Xiaohong Chen, Zengjing Chen, Xiaodong Yan, Guodong Zhang and Yu Zhang",
+  "authorsParsed": [
+    [
+      "Chen",
+      "Xiaohong",
+      ""
+    ],
+    [
+      "Chen",
+      "Zengjing",
+      ""
+    ],
+    [
+      "Yan",
+      "Xiaodong",
+      ""
+    ],
+    [
+      "Zhang",
+      "Guodong",
+      ""
+    ],
+    [
+      "Zhang",
+      "Yu",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 7 Dec 2024 10:16:27 GMT"
+    }
+  ],
+  "updateDate": "2024-12-10",
+  "timestamp": 1733566587000,
+  "abstract": "  For a general purpose optimization problem over a finite rectangle region,\nthis paper pioneers a unified slot machine framework for global optimization by\ntransforming the search for global optimizer(s) to the optimal strategy\nformulation of a bandit process in infinite policy sets and proves that\ntwo-armed bandit is enough. By leveraging the strategic bandit process-driven\noptimization framework, we introduce a new {\\bf S}trategic {\\bf M}onte {\\bf\nC}arlo {\\bf O}ptimization (SMCO) algorithm that coordinate-wisely generates\npoints from multiple paired distributions and can be implemented parallel for\nhigh-dimensional continuous functions. Our SMCO algorithm, equipped with tree\nsearch that broadens the optimal policy search space of slot machine for\nattaining the global optimizer(s) of a multi-modal function, facilitates fast\nlearning via trial and error. We provide a strategic law of large numbers for\nnonlinear expectations in bandit settings, and establish that our SMCO\nalgorithm converges to global optimizer(s) almost surely. Unlike the standard\ngradient descent ascent (GDA) that uses a one-leg walk to climb the mountain\nand is sensitive to starting points and step sizes, our SMCO algorithm takes a\ntwo-leg walk to the peak by using the two-sided sampling from the paired\ndistributions and is not sensitive to initial point selection or step size\nconstraints. Numerical studies demonstrate that the new SMCO algorithm\noutperforms GDA, particle swarm optimization and simulated annealing in both\nconvergence accuracy and speed. Our SMCO algorithm should be extremely useful\nfor finding optimal tuning parameters in many large scale complex optimization\nproblems.\n",
+  "subjects": [
+    "Mathematics/Optimization and Control",
+    "Mathematics/Statistics Theory",
+    "Statistics/Statistics Theory"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "AIfnJOGIJEkR3bx39Ez8bmiVD-D-r_ln9AvC_BFzhP0",
+  "pdfSize": "5520562"
+}

@@ -1,0 +1,53 @@
+{
+  "id": "2412.08125",
+  "title": "Progressive Multi-granular Alignments for Grounded Reasoning in Large\n  Vision-Language Models",
+  "authors": "Quang-Hung Le, Long Hoang Dang, Ngan Le, Truyen Tran, Thao Minh Le",
+  "authorsParsed": [
+    [
+      "Le",
+      "Quang-Hung",
+      ""
+    ],
+    [
+      "Dang",
+      "Long Hoang",
+      ""
+    ],
+    [
+      "Le",
+      "Ngan",
+      ""
+    ],
+    [
+      "Tran",
+      "Truyen",
+      ""
+    ],
+    [
+      "Le",
+      "Thao Minh",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 11 Dec 2024 06:21:33 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Thu, 19 Dec 2024 05:46:29 GMT"
+    }
+  ],
+  "updateDate": "2024-12-20",
+  "timestamp": 1733898093000,
+  "abstract": "  Existing Large Vision-Language Models (LVLMs) excel at matching concepts\nacross multi-modal inputs but struggle with compositional concepts and\nhigh-level relationships between entities. This paper introduces Progressive\nmulti-granular Vision-Language alignments (PromViL), a novel framework to\nenhance LVLMs' ability in performing grounded compositional visual reasoning\ntasks. Our approach constructs a hierarchical structure of multi-modal\nalignments, ranging from simple to complex concepts. By progressively aligning\ntextual descriptions with corresponding visual regions, our model learns to\nleverage contextual information from lower levels to inform higher-level\nreasoning. To facilitate this learning process, we introduce a data generation\nprocess that creates a novel dataset derived from Visual Genome, providing a\nwide range of nested compositional vision-language pairs. Experimental results\ndemonstrate that our PromViL framework significantly outperforms baselines on\nvarious visual grounding and compositional question answering tasks. The code\nis available at: https://github.com/lqh52/PromViL.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Computation and Language",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "6DqDy38R_eVpKja4SXyL8iZlSe1gsAg7cKT1NO3weP0",
+  "pdfSize": "6943569"
+}

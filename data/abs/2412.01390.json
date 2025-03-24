@@ -1,0 +1,55 @@
+{
+  "id": "2412.01390",
+  "title": "Theory of the divacancy in 4H-SiC: Impact of Jahn-Teller effect on\n  optical properties",
+  "authors": "Vytautas \\v{Z}alandauskas (1), Rokas Silkinis (1), Lasse Vines (2),\n  Lukas Razinkovas (1 and 2), Marianne Etzelm\\\"uller Bathen (2) ((1) Center for\n  Physical Sciences and Technology (FTMC), (2) University of Oslo)",
+  "authorsParsed": [
+    [
+      "Žalandauskas",
+      "Vytautas",
+      "",
+      "1 and 2"
+    ],
+    [
+      "Silkinis",
+      "Rokas",
+      "",
+      "1 and 2"
+    ],
+    [
+      "Vines",
+      "Lasse",
+      "",
+      "1 and 2"
+    ],
+    [
+      "Razinkovas",
+      "Lukas",
+      "",
+      "1 and 2"
+    ],
+    [
+      "Bathen",
+      "Marianne Etzelmüller",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 2 Dec 2024 11:22:48 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Tue, 3 Dec 2024 08:13:33 GMT"
+    }
+  ],
+  "updateDate": "2024-12-04",
+  "timestamp": 1733138568000,
+  "abstract": "  Understanding the optical properties of color centers in silicon carbide is\nessential for their use in quantum technologies, such as single-photon emission\nand spin-based qubits. In this work, first-principles calculations were\nemployed using the r2SCAN density functional to investigate the electronic and\nvibrational properties of neutral divacancy configurations in 4H-SiC. Our\napproach addresses the dynamical Jahn-Teller effect in the excited states of\naxial divacancies. By explicitly solving the multimode dynamical Jahn-Teller\nproblem, we compute emission and absorption lineshapes for axial divacancy\nconfigurations, providing insights into the complex interplay between\nelectronic and vibrational degrees of freedom. The results show strong\nalignment with experimental data, underscoring the predictive power of the\nmethodologies. Our calculations predict spontaneous symmetry breaking due to\nthe pseudo Jahn-Teller effect in the excited state of the $kh$ divacancy,\naccompanied by the lowest electron-phonon coupling among the four\nconfigurations and distinct polarizability. These unique properties facilitate\nits selective excitation, setting it apart from other divacancy configurations,\nand highlight its potential utility in quantum technology applications. These\nfindings underscore the critical role of electron-phonon interactions and\noptical properties in spin defects with pronounced Jahn-Teller effects,\noffering valuable insights for the design and integration of quantum emitters\nfor quantum technologies.\n",
+  "subjects": [
+    "Condensed Matter/Materials Science"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "MewsfXL-tFukz320Grw7BIfgAHW6ju8hKU4m3IUTyxg",
+  "pdfSize": "8113302"
+}

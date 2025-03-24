@@ -1,0 +1,38 @@
+{
+  "id": "2412.00944",
+  "title": "Bilinear Convolution Decomposition for Causal RL Interpretability",
+  "authors": "Narmeen Oozeer, Sinem Erisken, Alice Rigg",
+  "authorsParsed": [
+    [
+      "Oozeer",
+      "Narmeen",
+      ""
+    ],
+    [
+      "Erisken",
+      "Sinem",
+      ""
+    ],
+    [
+      "Rigg",
+      "Alice",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 1 Dec 2024 19:32:04 GMT"
+    }
+  ],
+  "updateDate": "2024-12-03",
+  "timestamp": 1733081524000,
+  "abstract": "  Efforts to interpret reinforcement learning (RL) models often rely on\nhigh-level techniques such as attribution or probing, which provide only\ncorrelational insights and coarse causal control. This work proposes replacing\nnonlinearities in convolutional neural networks (ConvNets) with bilinear\nvariants, to produce a class of models for which these limitations can be\naddressed. We show bilinear model variants perform comparably in model-free\nreinforcement learning settings, and give a side by side comparison on ProcGen\nenvironments. Bilinear layers' analytic structure enables weight-based\ndecomposition. Previous work has shown bilinearity enables quantifying\nfunctional importance through eigendecomposition, to identify interpretable low\nrank structure. We show how to adapt the decomposition to convolution layers by\napplying singular value decomposition to vectors of interest, to separate the\nchannel and spatial dimensions. Finally, we propose a methodology for causally\nvalidating concept-based probes, and illustrate its utility by studying a\nmaze-solving agent's ability to track a cheese object.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "xtHySH95PPMZb704A0azhkemEC0KnChnL2jEYzWXV1c",
+  "pdfSize": "1134719"
+}

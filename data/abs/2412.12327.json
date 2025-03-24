@@ -1,0 +1,56 @@
+{
+  "id": "2412.12327",
+  "title": "Leveraging Group Classification with Descending Soft Labeling for Deep\n  Imbalanced Regression",
+  "authors": "Ruizhi Pu, Gezheng Xu, Ruiyi Fang, Binkun Bao, Charles X. Ling, Boyu\n  Wang",
+  "authorsParsed": [
+    [
+      "Pu",
+      "Ruizhi",
+      ""
+    ],
+    [
+      "Xu",
+      "Gezheng",
+      ""
+    ],
+    [
+      "Fang",
+      "Ruiyi",
+      ""
+    ],
+    [
+      "Bao",
+      "Binkun",
+      ""
+    ],
+    [
+      "Ling",
+      "Charles X.",
+      ""
+    ],
+    [
+      "Wang",
+      "Boyu",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 16 Dec 2024 19:54:57 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Thu, 19 Dec 2024 09:34:30 GMT"
+    }
+  ],
+  "updateDate": "2024-12-20",
+  "timestamp": 1734378897000,
+  "abstract": "  Deep imbalanced regression (DIR), where the target values have a highly\nskewed distribution and are also continuous, is an intriguing yet\nunder-explored problem in machine learning.\n  While recent works have already shown that incorporating various\nclassification-based regularizers can produce enhanced outcomes, the role of\nclassification remains elusive in DIR.\n  Moreover, such regularizers (e.g., contrastive penalties) merely focus on\nlearning discriminative features of data, which inevitably results in ignorance\nof either continuity or similarity across the data.\n  To address these issues, we first bridge the connection between the\nobjectives of DIR and classification from a Bayesian perspective.\n  Consequently, this motivates us to decompose the objective of DIR into a\ncombination of classification and regression tasks, which naturally guides us\ntoward a divide-and-conquer manner to solve the DIR problem.\n  Specifically, by aggregating the data at nearby labels into the same groups,\nwe introduce an ordinal group-aware contrastive learning loss along with a\nmulti-experts regressor to tackle the different groups of data thereby\nmaintaining the data continuity.\n  Meanwhile, considering the similarity between the groups, we also propose a\nsymmetric descending soft labeling strategy to exploit the intrinsic similarity\nacross the data, which allows classification to facilitate regression more\neffectively.\n  Extensive experiments on real-world datasets also validate the effectiveness\nof our method.\n",
+  "subjects": [
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+  "blobId": "pu8orkGOOIttRr4-_px_MKyXF4eG0dDPpafOkwbirbA",
+  "pdfSize": "1959508"
+}

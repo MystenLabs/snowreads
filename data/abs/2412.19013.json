@@ -1,0 +1,37 @@
+{
+  "id": "2412.19013",
+  "title": "Relative Quantum Resource Theory and Operational Applications in\n  Subchannel Discrimination",
+  "authors": "Sunho Kim, Chunhe Xiong and Junde Wu",
+  "authorsParsed": [
+    [
+      "Kim",
+      "Sunho",
+      ""
+    ],
+    [
+      "Xiong",
+      "Chunhe",
+      ""
+    ],
+    [
+      "Wu",
+      "Junde",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 26 Dec 2024 01:21:41 GMT"
+    }
+  ],
+  "updateDate": "2024-12-30",
+  "timestamp": 1735176101000,
+  "abstract": "  A central problem in quantum resource theory is to give operational meaning\nto quantum resources that can provide clear advantages in certain physical\ntasks compared to the convex set of resource-free states. We propose to extend\nthis basic principle by defining the relative superiority of resources over a\nspecific convex set of resource states, also provide a relative advantage in\nphysical tasks based on this extended principle. This allows the generalized\nrobustness measure to quantify the relative maximal advantage due to a given\nresource state over a specific convex set of resource states in the subchannel\ndiscrimination, thereby showing that the operational interpretation of resource\nmeasures also holds in a relative perspective. In addition, we offer a new\nframework for defining the deficiency of a given state in physical tasks\ncompared to the set of maximum resource states. The geometric measure we\nprovide satisfies the conditions of the framework for quantum coherence and\nentanglement, and it accurately quantifies the minimal disadvantage due to a\ngiven state compared to maximumresourcestates inthe subchannel discrimination\nin certain situations. These two extensions and new interpretations expand the\nscope of quantum resource theories and provide a more comprehensive operational\ninterpretation.\n",
+  "subjects": [
+    "Physics/Quantum Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "VPTHTzG9wV2LDd_GgoS4iRZ9AU-1y6GFpDwgQXM_PhE",
+  "pdfSize": "530958"
+}

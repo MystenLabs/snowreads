@@ -1,0 +1,37 @@
+{
+  "id": "2412.18200",
+  "title": "Adapting Large Language Models for Improving TCP Fairness over WiFi",
+  "authors": "Shyam Kumar Shrestha, Shiva Raj Pokhrel, and Jonathan Kua",
+  "authorsParsed": [
+    [
+      "Shrestha",
+      "Shyam Kumar",
+      ""
+    ],
+    [
+      "Pokhrel",
+      "Shiva Raj",
+      ""
+    ],
+    [
+      "Kua",
+      "Jonathan",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 24 Dec 2024 06:11:10 GMT"
+    }
+  ],
+  "updateDate": "2024-12-25",
+  "timestamp": 1735020670000,
+  "abstract": "  The new transmission control protocol (TCP) relies on Deep Learning (DL) for\nprediction and optimization, but requires significant manual effort to design\ndeep neural networks (DNNs) and struggles with generalization in dynamic\nenvironments. Inspired by the success of large language models (LLMs), this\nstudy proposes TCP-LLM, a novel framework leveraging LLMs for TCP applications.\nTCP-LLM utilizes pre-trained knowledge to reduce engineering effort, enhance\ngeneralization, and deliver superior performance across diverse TCP tasks.\nApplied to reducing flow unfairness, adapting congestion control, and\npreventing starvation, TCP-LLM demonstrates significant improvements over TCP\nwith minimal fine-tuning.\n",
+  "subjects": [
+    "Computer Science/Networking and Internet Architecture"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "NRhAEA6wxGnc96_sQWfUvn6Z0vun0uPvM6rCE7ylg8U",
+  "pdfSize": "1183902"
+}

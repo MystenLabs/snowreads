@@ -1,0 +1,28 @@
+{
+  "id": "2412.14196",
+  "title": "Investigating Central England Temperature Variability: Statistical\n  Analysis of Associations with North Atlantic Oscillation (NAO) and Pacific\n  Decadal Oscillation (PDO)",
+  "authors": "Jiahe Ling",
+  "authorsParsed": [
+    [
+      "Ling",
+      "Jiahe",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 14 Dec 2024 04:19:40 GMT"
+    }
+  ],
+  "updateDate": "2024-12-20",
+  "timestamp": 1734149980000,
+  "abstract": "  This study investigates the variability of the Central England Temperature\n(CET) series in relation to the North Atlantic Oscillation (NAO) and the\nPacific Decadal Oscillation (PDO) using advanced time series modeling\ntechniques. Leveraging the world's longest continuous instrumental temperature\ndataset (1723-2023), this research applies ARIMA and ARIMAX models to quantify\nthe impact of climatic oscillations on regional temperature variability, while\nalso accounting for long-term warming trends. Spectral and coherence analyses\nfurther explore the periodic interactions between CET and the oscillations.\nResults reveal that NAO exerts a stronger influence on CET variability compared\nto PDO, with significant coherence observed at cycles of 5 to 7.5 years and 2\nto 2.5 years for NAO, while PDO shows no statistically significant coherence.\nThe ARIMAX model effectively captures both the upward warming trend and the\ninfluence of climatic oscillations, with robust diagnostics confirming its\nreliability. This study contributes to understanding the interplay between\nregional temperature variability and large-scale climatic drivers, providing a\nframework for future research on climatic oscillations and their role in\nshaping regional climate dynamics. Limitations and potential future directions,\nincluding the integration of additional climatic indices and comparative\nregional analyses, are also discussed.\n",
+  "subjects": [
+    "Statistics/Methodology",
+    "Physics/Atmospheric and Oceanic Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "cazDAsCvQxuGs7JyZ4mi1TiopkDbXnYm3Q50aQPuKto",
+  "pdfSize": "649095"
+}

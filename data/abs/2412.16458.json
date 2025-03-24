@@ -1,0 +1,37 @@
+{
+  "id": "2412.16458",
+  "title": "Spin-Symmetry Projected constrained Unrestricted Hartree-Fock",
+  "authors": "Amir Ayati, Hugh G.A. Burton, Stijn De Baerdemacker",
+  "authorsParsed": [
+    [
+      "Ayati",
+      "Amir",
+      ""
+    ],
+    [
+      "Burton",
+      "Hugh G. A.",
+      ""
+    ],
+    [
+      "De Baerdemacker",
+      "Stijn",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 21 Dec 2024 03:17:13 GMT"
+    }
+  ],
+  "updateDate": "2024-12-24",
+  "timestamp": 1734751033000,
+  "abstract": "  We introduce an electronic structure approach for spin symmetry breaking and\nrestoration from the mean-field level. The spin-projected\nconstrained-unrestricted Hartree-Fock (SPcUHF) method restores the broken spin\nsymmetry inherent in spin-constrained-UHF determinants by employing a\nnon-orthogonal Configuration Interaction (NOCI) projection method. This method\nincludes all possible configurations in spin space compatible with a\nClebsch-Gordon recoupling scheme in a NOCI calculation. The tunable\none-pair-at-a-time characteristics of the symmetry-breaking process in c-UHF\nallow us to reduce the computational costs of full projection. SPcUHF is tested\non 4-, 6-, and 8-electron systems that exhibit dominant static and/or dynamic\ncorrelations.\n",
+  "subjects": [
+    "Physics/Quantum Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "V1kO28zwLEgyWqUFBAyOUQTrauV2Vrlpu_2WbGSxX4o",
+  "pdfSize": "1257660"
+}

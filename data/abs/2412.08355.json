@@ -1,0 +1,38 @@
+{
+  "id": "2412.08355",
+  "title": "Multiscale approximation and two-grid preconditioner for extremely\n  anisotropic heat flow",
+  "authors": "Maria Vasilyeva and Golo A. Wimmer and Ben S. Southworth",
+  "authorsParsed": [
+    [
+      "Vasilyeva",
+      "Maria",
+      ""
+    ],
+    [
+      "Wimmer",
+      "Golo A.",
+      ""
+    ],
+    [
+      "Southworth",
+      "Ben S.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 11 Dec 2024 12:57:21 GMT"
+    }
+  ],
+  "updateDate": "2024-12-12",
+  "timestamp": 1733921841000,
+  "abstract": "  We consider anisotropic heat flow with extreme anisotropy, as arises in\nmagnetized plasmas for fusion applications. Such problems pose significant\nchallenges in both obtaining an accurate approximation as well in the\nconstruction of an efficient solver. In both cases, the underlying difficulty\nis in forming an accurate approximation of temperature fields that follow the\ndirection of complex, non-grid-aligned magnetic fields. In this work, we\nconstruct a highly accurate coarse grid approximation using spectral multiscale\nbasis functions based on local anisotropic normalized Laplacians. We show that\nthe local generalized spectral problems yield local modes that align with\nmagnetic fields, and provide an excellent coarse-grid approximation of the\nproblem. We then utilize this spectral coarse space as an approximation in\nitself, and as the coarse-grid in a two-level spectral preconditioner.\nNumerical results are presented for several magnetic field distributions and\nanisotropy ratios up to $10^{12}$, showing highly accurate results with a large\nsystem size reduction, and two-grid preconditioning that converges in $O(1)$\niterations, independent of anisotropy.\n",
+  "subjects": [
+    "Mathematics/Numerical Analysis",
+    "Computer Science/Numerical Analysis"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "7YAvwJHAaN-S1RkMPvn_luLy9S920qf0212ySfqGVsk",
+  "pdfSize": "15020924"
+}

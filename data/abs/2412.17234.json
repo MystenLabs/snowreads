@@ -1,0 +1,38 @@
+{
+  "id": "2412.17234",
+  "title": "Accuracy and robust early detection of short-circuit faults in\n  single-cell lithium battery",
+  "authors": "Chengzhong Zhang, Hongyu Zhao, Wenjie Zhang",
+  "authorsParsed": [
+    [
+      "Zhang",
+      "Chengzhong",
+      ""
+    ],
+    [
+      "Zhao",
+      "Hongyu",
+      ""
+    ],
+    [
+      "Zhang",
+      "Wenjie",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 23 Dec 2024 03:10:02 GMT"
+    }
+  ],
+  "updateDate": "2024-12-24",
+  "timestamp": 1734923402000,
+  "abstract": "  Effective early-stage detection of internal short circuit in lithium-ion\nbatteries is crucial to preventing thermal runaway. This report proposes an\neffective approach to address this challenging issue, in which the current\nchange, state of charge and resistance are considered simultaneously to depict\nthe voltage differential envelope curve. The envelope naturally utilizes the\ninherent physical information of the battery and accounts for error\ninterference, providing a high-precision range for battery voltage fluctuations\nunder any operating conditions. This study validates the algorithm using data\nfrom 10 fault intervals under dynamic operating condition. The results\ndemonstrate that the algorithm achieves 100% accuracy and responds rapidly,\nenabling timely detection of early-stage internal short circuit faults in\nbatteries. Compared to signal processing-based and neural network methods, the\nproposed approach offers significant advantages in both accuracy and\npracticality, making it highly relevant for the safe application and widespread\nadoption of lithium-ion batteries.\n",
+  "subjects": [
+    "Electrical Engineering and Systems Science/Systems and Control",
+    "Computer Science/Systems and Control"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "VgbZP9DO0fah7nImRBA_KCb5OnAKHUMutLRGgiBoI_M",
+  "pdfSize": "1940487"
+}

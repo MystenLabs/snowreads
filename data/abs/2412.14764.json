@@ -1,0 +1,68 @@
+{
+  "id": "2412.14764",
+  "title": "CodeRepoQA: A Large-scale Benchmark for Software Engineering Question\n  Answering",
+  "authors": "Ruida Hu, Chao Peng, Jingyi Ren, Bo Jiang, Xiangxin Meng, Qinyun Wu,\n  Pengfei Gao, Xinchen Wang and Cuiyun Gao",
+  "authorsParsed": [
+    [
+      "Hu",
+      "Ruida",
+      ""
+    ],
+    [
+      "Peng",
+      "Chao",
+      ""
+    ],
+    [
+      "Ren",
+      "Jingyi",
+      ""
+    ],
+    [
+      "Jiang",
+      "Bo",
+      ""
+    ],
+    [
+      "Meng",
+      "Xiangxin",
+      ""
+    ],
+    [
+      "Wu",
+      "Qinyun",
+      ""
+    ],
+    [
+      "Gao",
+      "Pengfei",
+      ""
+    ],
+    [
+      "Wang",
+      "Xinchen",
+      ""
+    ],
+    [
+      "Gao",
+      "Cuiyun",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 19 Dec 2024 11:48:01 GMT"
+    }
+  ],
+  "updateDate": "2024-12-20",
+  "timestamp": 1734608881000,
+  "abstract": "  In this work, we introduce CodeRepoQA, a large-scale benchmark specifically\ndesigned for evaluating repository-level question-answering capabilities in the\nfield of software engineering. CodeRepoQA encompasses five programming\nlanguages and covers a wide range of scenarios, enabling comprehensive\nevaluation of language models. To construct this dataset, we crawl data from 30\nwell-known repositories in GitHub, the largest platform for hosting and\ncollaborating on code, and carefully filter raw data. In total, CodeRepoQA is a\nmulti-turn question-answering benchmark with 585,687 entries, covering a\ndiverse array of software engineering scenarios, with an average of 6.62\ndialogue turns per entry.\n  We evaluate ten popular large language models on our dataset and provide\nin-depth analysis. We find that LLMs still have limitations in\nquestion-answering capabilities in the field of software engineering, and\nmedium-length contexts are more conducive to LLMs' performance. The entire\nbenchmark is publicly available at\nhttps://github.com/kinesiatricssxilm14/CodeRepoQA.\n",
+  "subjects": [
+    "Computer Science/Software Engineering",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "Pq-ZskDM-JGku_L047v-98lhU-vwpIecYaYIO5W7Os0",
+  "pdfSize": "504308"
+}

@@ -1,0 +1,34 @@
+{
+  "id": "2412.17099",
+  "title": "Additive and Multiplicative Coinvariant Spaces of Weyl Groups in the\n  Light of Harmonics and Graded Transfer",
+  "authors": "Sebastian Debus, Tobias Metzlaff",
+  "authorsParsed": [
+    [
+      "Debus",
+      "Sebastian",
+      ""
+    ],
+    [
+      "Metzlaff",
+      "Tobias",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 22 Dec 2024 17:24:44 GMT"
+    }
+  ],
+  "updateDate": "2024-12-24",
+  "timestamp": 1734888284000,
+  "abstract": "  A finite group with an integral representation has two induced canonical\nactions, one on polynomials and one on Laurent polynomials. Knowledge about the\ninvariants is in either case applied in many computations by means of symmetry\nreduction techniques, for example in algebraic systems solving or optimization.\nIn this article, we realize the two actions as the additive action on the\nsymmetric algebra and the multiplicative action on the group algebra of a\nlattice with Weyl group symmetry. By constructing explicit equivariant\nisomorphisms, we draw algorithmic relations between the two, which allow the\ntransfer and preservation of representation- and invariant-theoretic\nproperties. Our focus lies on the multiplicative coinvariant space, which is\nidentified with the regular representation and harmonic polynomials.\n",
+  "subjects": [
+    "Mathematics/Algebraic Geometry",
+    "Computer Science/Symbolic Computation",
+    "Mathematics/Representation Theory"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "fCf6S7FrQUhFjn2Xs0-xcXdvXIybLTZlufxv98mtgY4",
+  "pdfSize": "672691"
+}

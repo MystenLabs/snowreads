@@ -1,0 +1,51 @@
+{
+  "id": "2412.06376",
+  "title": "Data-Augmented Numerical Integration in State Prediction: Rule Selection",
+  "authors": "Jindrich Dunik, Ladislav Kral, Jakub Matousek, Ondrej Straka, Marek\n  Brandner",
+  "authorsParsed": [
+    [
+      "Dunik",
+      "Jindrich",
+      ""
+    ],
+    [
+      "Kral",
+      "Ladislav",
+      ""
+    ],
+    [
+      "Matousek",
+      "Jakub",
+      ""
+    ],
+    [
+      "Straka",
+      "Ondrej",
+      ""
+    ],
+    [
+      "Brandner",
+      "Marek",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 9 Dec 2024 10:55:27 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Tue, 14 Jan 2025 09:45:24 GMT"
+    }
+  ],
+  "updateDate": "2025-01-15",
+  "timestamp": 1733741727000,
+  "abstract": "  This paper deals with the state prediction of nonlinear stochastic dynamic\nsystems. The emphasis is laid on a solution to the integral Chapman-Kolmogorov\nequation by a deterministic-integration-rule-based point-mass method. A novel\nconcept of reliable data-augmented, i.e., mathematics- and data-informed,\nintegration rule is developed to enhance the point-mass state predictor, where\nthe trained neural network (representing data contribution) is used for the\nselection of the best integration rule from a set of available rules\n(representing mathematics contribution). The proposed approach combining the\nbest properties of the standard mathematics-informed and novel data-informed\nrules is thoroughly discussed.\n",
+  "subjects": [
+    "Electrical Engineering and Systems Science/Signal Processing"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "UPdGRIphyKUnMgbjCjzxTL_yZEhJVtSSNQXGxpgcxkE",
+  "pdfSize": "912240"
+}

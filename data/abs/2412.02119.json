@@ -1,0 +1,69 @@
+{
+  "id": "2412.02119",
+  "title": "Understanding Particles From Video: Property Estimation of Granular\n  Materials via Visuo-Haptic Learning",
+  "authors": "Zeqing Zhang, Guangze Zheng, Xuebo Ji, Guanqi Chen, Ruixing Jia,\n  Wentao Chen, Guanhua Chen, Liangjun Zhang and Jia Pan",
+  "authorsParsed": [
+    [
+      "Zhang",
+      "Zeqing",
+      ""
+    ],
+    [
+      "Zheng",
+      "Guangze",
+      ""
+    ],
+    [
+      "Ji",
+      "Xuebo",
+      ""
+    ],
+    [
+      "Chen",
+      "Guanqi",
+      ""
+    ],
+    [
+      "Jia",
+      "Ruixing",
+      ""
+    ],
+    [
+      "Chen",
+      "Wentao",
+      ""
+    ],
+    [
+      "Chen",
+      "Guanhua",
+      ""
+    ],
+    [
+      "Zhang",
+      "Liangjun",
+      ""
+    ],
+    [
+      "Pan",
+      "Jia",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 3 Dec 2024 03:17:09 GMT"
+    }
+  ],
+  "updateDate": "2024-12-04",
+  "timestamp": 1733195829000,
+  "abstract": "  Granular materials (GMs) are ubiquitous in daily life. Understanding their\nproperties is also important, especially in agriculture and industry. However,\nexisting works require dedicated measurement equipment and also need large\nhuman efforts to handle a large number of particles. In this paper, we\nintroduce a method for estimating the relative values of particle size and\ndensity from the video of the interaction with GMs. It is trained on a\nvisuo-haptic learning framework inspired by a contact model, which reveals the\nstrong correlation between GM properties and the visual-haptic data during the\nprobe-dragging in the GMs. After training, the network can map the visual\nmodality well to the haptic signal and implicitly characterize the relative\ndistribution of particle properties in its latent embeddings, as interpreted in\nthat contact model. Therefore, we can analyze GM properties using the trained\nencoder, and only visual information is needed without extra sensory modalities\nand human efforts for labeling. The presented GM property estimator has been\nextensively validated via comparison and ablation experiments. The\ngeneralization capability has also been evaluated and a real-world application\non the beach is also demonstrated. Experiment videos are available at\n\\url{https://sites.google.com/view/gmwork/vhlearning} .\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Machine Learning",
+    "Computer Science/Robotics"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "eTxYP3cQu6cXcv6Nw54UncK6GjxSQPd23s5XkUefr-w",
+  "pdfSize": "9691817"
+}

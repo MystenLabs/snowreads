@@ -1,0 +1,39 @@
+{
+  "id": "2412.15388",
+  "title": "Investigating Relational State Abstraction in Collaborative MARL",
+  "authors": "Sharlin Utke, Jeremie Houssineau, Giovanni Montana",
+  "authorsParsed": [
+    [
+      "Utke",
+      "Sharlin",
+      ""
+    ],
+    [
+      "Houssineau",
+      "Jeremie",
+      ""
+    ],
+    [
+      "Montana",
+      "Giovanni",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 19 Dec 2024 20:34:00 GMT"
+    }
+  ],
+  "updateDate": "2024-12-23",
+  "timestamp": 1734640440000,
+  "abstract": "  This paper explores the impact of relational state abstraction on sample\nefficiency and performance in collaborative Multi-Agent Reinforcement Learning.\nThe proposed abstraction is based on spatial relationships in environments\nwhere direct communication between agents is not allowed, leveraging the\nubiquity of spatial reasoning in real-world multi-agent scenarios. We introduce\nMARC (Multi-Agent Relational Critic), a simple yet effective critic\narchitecture incorporating spatial relational inductive biases by transforming\nthe state into a spatial graph and processing it through a relational graph\nneural network. The performance of MARC is evaluated across six collaborative\ntasks, including a novel environment with heterogeneous agents. We conduct a\ncomprehensive empirical analysis, comparing MARC against state-of-the-art MARL\nbaselines, demonstrating improvements in both sample efficiency and asymptotic\nperformance, as well as its potential for generalization. Our findings suggest\nthat a minimal integration of spatial relational inductive biases as\nabstraction can yield substantial benefits without requiring complex designs or\ntask-specific engineering. This work provides insights into the potential of\nrelational state abstraction to address sample efficiency, a key challenge in\nMARL, offering a promising direction for developing more efficient algorithms\nin spatially complex environments.\n",
+  "subjects": [
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Machine Learning",
+    "Computer Science/Multiagent Systems"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "20yj5UZ_69k6j74aiCU0eHAsKmX3fTOjEgJDCcItLbg",
+  "pdfSize": "3287128"
+}

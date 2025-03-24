@@ -1,0 +1,27 @@
+{
+  "id": "2412.14934",
+  "title": "Local and Global Convergence of Greedy Parabolic Target-Following\n  Methods for Linear Programming",
+  "authors": "Yurii Nesterov",
+  "authorsParsed": [
+    [
+      "Nesterov",
+      "Yurii",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 19 Dec 2024 15:11:24 GMT"
+    }
+  ],
+  "updateDate": "2024-12-20",
+  "timestamp": 1734621084000,
+  "abstract": "  In the first part of this paper, we prove that, under some natural\nnon-degeneracy assumptions, the Greedy Parabolic Target-Following Method, based\non {\\em universal tangent direction} has a favorable local behavior. In view of\nits global complexity bound of the order $O(\\sqrt{n} \\ln {1 \\over \\epsilon})$,\nthis fact proves that the functional proximity measure, used for controlling\nthe closeness to Greedy Central Path, is large enough for ensuring a local\nsuper-linear rate of convergence, provided that the proximity to the path is\ngradually reduced.\n  This requirement is eliminated in our second algorithm based on a new\nauto-correcting predictor direction. This method, besides the best-known\npolynomial-time complexity bound, ensures an automatic switching onto the local\nquadratic convergence in a small neighborhood of solution.\n  Our third algorithm approximates the path by quadratic curves. On the top of\nthe best-known global complexity bound, this method benefits from an unusual\nlocal cubic rate of convergence. This amelioration needs no serious increase in\nthe cost of one iteration. We compare the advantages of these local\naccelerations with possibilities of finite termination. The conditions allowing\nthe optimal basis detection sometimes are even weaker than those required for\nthe local superlinear convergence. Hence, it is important to endow the\npractical optimization schemes with both abilities.\n  The proposed methods have a very interesting combination of favorable\nproperties, which can be hardly found in the most of existing Interior-Point\nschemes. As all other parabolic target-following schemes, the new methods can\nstart from an arbitrary strictly feasible primal-dual pair and go directly\ntowards the optimal solution of the problem in a single phase. The preliminary\ncomputational experiments confirm the advantage of the second-order prediction.\n",
+  "subjects": [
+    "Mathematics/Optimization and Control"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "UK4GLRmh7ptOrAy4iciMUy6q2_wBpHqqzDPjq8BixSM",
+  "pdfSize": "321231"
+}

@@ -1,0 +1,52 @@
+{
+  "id": "2412.02076",
+  "title": "Topology-Preserving Image Segmentation with Spatial-Aware Persistent\n  Feature Matching",
+  "authors": "Bo Wen and Haochen Zhang and Dirk-Uwe G. Bartsch and William R.\n  Freeman and Truong Q. Nguyen and Cheolhong An",
+  "authorsParsed": [
+    [
+      "Wen",
+      "Bo",
+      ""
+    ],
+    [
+      "Zhang",
+      "Haochen",
+      ""
+    ],
+    [
+      "Bartsch",
+      "Dirk-Uwe G.",
+      ""
+    ],
+    [
+      "Freeman",
+      "William R.",
+      ""
+    ],
+    [
+      "Nguyen",
+      "Truong Q.",
+      ""
+    ],
+    [
+      "An",
+      "Cheolhong",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 3 Dec 2024 01:38:15 GMT"
+    }
+  ],
+  "updateDate": "2024-12-04",
+  "timestamp": 1733189895000,
+  "abstract": "  Topological correctness is critical for segmentation of tubular structures.\nExisting topological segmentation loss functions are primarily based on the\npersistent homology of the image. They match the persistent features from the\nsegmentation with the persistent features from the ground truth and minimize\nthe difference between them. However, these methods suffer from an ambiguous\nmatching problem since the matching only relies on the information in the\ntopological space. In this work, we propose an effective and efficient\nSpatial-Aware Topological Loss Function that further leverages the information\nin the original spatial domain of the image to assist the matching of\npersistent features. Extensive experiments on images of various types of\ntubular structures show that the proposed method has superior performance in\nimproving the topological accuracy of the segmentation compared with\nstate-of-the-art methods.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "4naAbohR-bPtTrxdQSX_dH4cV5NfN_AASxuQWcv_Y20",
+  "pdfSize": "10822707"
+}

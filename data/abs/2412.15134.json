@@ -1,0 +1,57 @@
+{
+  "id": "2412.15134",
+  "title": "Faulty States can be used in Cat Code Error Correction",
+  "authors": "Michael Hanks, Soovin Lee, Nicolo Lo Piparo, Shin Nishio, William J.\n  Munro, Kae Nemoto, M.S. Kim",
+  "authorsParsed": [
+    [
+      "Hanks",
+      "Michael",
+      ""
+    ],
+    [
+      "Lee",
+      "Soovin",
+      ""
+    ],
+    [
+      "Piparo",
+      "Nicolo Lo",
+      ""
+    ],
+    [
+      "Nishio",
+      "Shin",
+      ""
+    ],
+    [
+      "Munro",
+      "William J.",
+      ""
+    ],
+    [
+      "Nemoto",
+      "Kae",
+      ""
+    ],
+    [
+      "Kim",
+      "M. S.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 19 Dec 2024 18:15:55 GMT"
+    }
+  ],
+  "updateDate": "2024-12-20",
+  "timestamp": 1734632155000,
+  "abstract": "  Bosonic codes have seen a resurgence in interest for applications as varied\nas fault tolerant quantum architectures, quantum enhanced sensing, and\nentanglement distribution. Cat codes have been proposed as low-level elements\nin larger architectures, and the theory of rotationally symmetric codes more\ngenerally has been significantly expanded in the recent literature. The\nfault-tolerant preparation and maintenance of cat code states as a stand-alone\nquantum error correction scheme remains however limited by the need for robust\nstate preparation and strong inter-mode interactions. In this work, we consider\nthe teleportation-based correction circuit for cat code quantum error\ncorrection. We show that the class of acceptable ancillary states is broader\nthan is typically acknowledged, and exploit this to propose the use of\nmany-component \"bridge\" states which, though not themselves in the cat code\nspace, are nonetheless capable of syndrome extraction in the regime where\nnon-linear interactions are a limiting factor.\n",
+  "subjects": [
+    "Physics/Quantum Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "FhsuvlrBSsV4Z6-umUBwF-3mHU5I_Cxs0287JNsduyA",
+  "pdfSize": "1086283"
+}

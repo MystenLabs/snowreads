@@ -1,0 +1,52 @@
+{
+  "id": "2412.08243",
+  "title": "Hierarchical Context Alignment with Disentangled Geometric and Temporal\n  Modeling for Semantic Occupancy Prediction",
+  "authors": "Bohan Li, Xin Jin, Jiajun Deng, Yasheng Sun, Xiaofeng Wang, Wenjun\n  Zeng",
+  "authorsParsed": [
+    [
+      "Li",
+      "Bohan",
+      ""
+    ],
+    [
+      "Jin",
+      "Xin",
+      ""
+    ],
+    [
+      "Deng",
+      "Jiajun",
+      ""
+    ],
+    [
+      "Sun",
+      "Yasheng",
+      ""
+    ],
+    [
+      "Wang",
+      "Xiaofeng",
+      ""
+    ],
+    [
+      "Zeng",
+      "Wenjun",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 11 Dec 2024 09:53:10 GMT"
+    }
+  ],
+  "updateDate": "2024-12-12",
+  "timestamp": 1733910790000,
+  "abstract": "  Camera-based 3D Semantic Occupancy Prediction (SOP) is crucial for\nunderstanding complex 3D scenes from limited 2D image observations. Existing\nSOP methods typically aggregate contextual features to assist the occupancy\nrepresentation learning, alleviating issues like occlusion or ambiguity.\nHowever, these solutions often face misalignment issues wherein the\ncorresponding features at the same position across different frames may have\ndifferent semantic meanings during the aggregation process, which leads to\nunreliable contextual fusion results and an unstable representation learning\nprocess. To address this problem, we introduce a new Hierarchical context\nalignment paradigm for a more accurate SOP (Hi-SOP). Hi-SOP first disentangles\nthe geometric and temporal context for separate alignment, which two branches\nare then composed to enhance the reliability of SOP. This parsing of the visual\ninput into a local-global alignment hierarchy includes: (I) disentangled\ngeometric and temporal separate alignment, within each leverages depth\nconfidence and camera pose as prior for relevant feature matching respectively;\n(II) global alignment and composition of the transformed geometric and temporal\nvolumes based on semantics consistency. Our method outperforms SOTAs for\nsemantic scene completion on the SemanticKITTI & NuScenes-Occupancy datasets\nand LiDAR semantic segmentation on the NuScenes dataset.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "uDhn9qI5p7qiq21CW_NErPOMzyy_1AZ7l3TLTnUdZo0",
+  "pdfSize": "7610252"
+}

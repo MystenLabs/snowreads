@@ -1,0 +1,32 @@
+{
+  "id": "2412.14286",
+  "title": "Measuring DNS Censorship of Generative AI Platforms",
+  "authors": "Harel Berger, Yuval Shavitt",
+  "authorsParsed": [
+    [
+      "Berger",
+      "Harel",
+      ""
+    ],
+    [
+      "Shavitt",
+      "Yuval",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 18 Dec 2024 19:29:29 GMT"
+    }
+  ],
+  "updateDate": "2024-12-20",
+  "timestamp": 1734550169000,
+  "abstract": "  Generative AI is an invaluable tool, however, in some parts of the world,\nthis technology is censored due to political or societal issues. In this work,\nwe monitor Generative AI censorship through the DNS protocol. We find China to\nbe a leading country of Generative AI censorship. Interestingly, China does not\ncensor all AI domain names. We also report censorship in Russia and find\ninconsistencies in their process. We compare our results to other measurement\nplatforms (OONI, Censored Planet, GFWatch), and present their lack of data on\nGenerative AI domains.\n",
+  "subjects": [
+    "Computer Science/Computers and Society"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "ECUF8geJEOJWgtndOP3G4kUlsQ6TF4tcf6p4C6l4eHg",
+  "pdfSize": "427100"
+}

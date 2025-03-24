@@ -1,0 +1,51 @@
+{
+  "id": "2412.14380",
+  "title": "Differentially Private Multi-objective Selection: Pareto and Aggregation\n  Approaches",
+  "authors": "Victor A. E. Farias, Felipe T. Brito, Cheryl Flynn, Javam C. Machado,\n  Divesh Srivastava",
+  "authorsParsed": [
+    [
+      "Farias",
+      "Victor A. E.",
+      ""
+    ],
+    [
+      "Brito",
+      "Felipe T.",
+      ""
+    ],
+    [
+      "Flynn",
+      "Cheryl",
+      ""
+    ],
+    [
+      "Machado",
+      "Javam C.",
+      ""
+    ],
+    [
+      "Srivastava",
+      "Divesh",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 18 Dec 2024 22:30:07 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Sat, 1 Feb 2025 22:52:47 GMT"
+    }
+  ],
+  "updateDate": "2025-02-04",
+  "timestamp": 1734561007000,
+  "abstract": "  Differentially private selection mechanisms are fundamental building blocks\nfor privacy-preserving data analysis. While numerous mechanisms exist for\nsingle-objective selection, many real-world applications require optimizing\nmultiple competing objectives simultaneously. We present two novel mechanisms\nfor differentially private multi-objective selection: PrivPareto and PrivAgg.\nPrivPareto uses a novel Pareto score to identify solutions near the Pareto\nfrontier, while PrivAgg enables privacy-preserving weighted aggregation of\nmultiple objectives. Both mechanisms support global and local sensitivity\napproaches, with comprehensive theoretical analysis showing how to compose\nsensitivities of multiple utility functions. We demonstrate the practical\napplicability through two real-world applications: cost-sensitive decision tree\nconstruction and multi-objective influential node selection in social networks.\nThe experimental results showed that our local sensitivity-based approaches\nachieve significantly better utility compared to global sensitivity approaches\nacross both applications and both Pareto and Aggregation approaches. Moreover,\nthe local sensitivity-based approaches are able to perform well with typical\nprivacy budget values $\\epsilon \\in [0.01, 1]$ in most experiments.\n",
+  "subjects": [
+    "Computer Science/Cryptography and Security"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "oR_xeWZxWm-JY6l8F2OeCleY0GNZi_VDOus3eYpH6mg",
+  "pdfSize": "695695"
+}

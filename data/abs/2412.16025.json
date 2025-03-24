@@ -1,0 +1,37 @@
+{
+  "id": "2412.16025",
+  "title": "Electric Vehicle Charging Stations Placement Optimization in Vietnam\n  Using Mixed-Integer Nonlinear Programming Model",
+  "authors": "Quynh Vu Truc, Minh Ha Hien, Hai Vu Tuan",
+  "authorsParsed": [
+    [
+      "Truc",
+      "Quynh Vu",
+      ""
+    ],
+    [
+      "Hien",
+      "Minh Ha",
+      ""
+    ],
+    [
+      "Tuan",
+      "Hai Vu",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 20 Dec 2024 16:17:46 GMT"
+    }
+  ],
+  "updateDate": "2024-12-23",
+  "timestamp": 1734711466000,
+  "abstract": "  Vietnam is viewed as one of the promising markets for electric vehicles\n(EVs), especially automobiles when it is predicted to reach 1 million in 2028\nand 3.5 million in 2040. However, the lack of charging station infrastructure\nhas hindered the growth rate of EVs in this country. This study aims to propose\nan optimization model using Mixed-Integer Nonlinear Programming (MINLP) to\nimplement an optimal location strategy for EVs charging stations in Ho Chi Minh\n(HCM) City. The problem is solved by a solver named Gurobi and using the\nBrand-and-Cut method. There are 2 perspectives including Charging Station\nOperators and EV users. In addition, 7 kinds of costs considered include\ninstallation cost, land rental cost, maintenance cost, operational cost,\ncharging cost, waiting cost, and traveling cost. From 1509 Point of Interest\nand 199 residential areas, 134 POIs were chosen with 923 charging stations\nincluding 592 Level-2 chargers and 331 Level-3 chargers to fully satisfy the\ncustomer demand. Furthermore, the effectiveness of the proposed model is proved\nby a minor MIP Gap and running in a short time with full feasibility.\n",
+  "subjects": [
+    "Computer Science/Computational Engineering, Finance, and Science"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "fLY4TVglJKSoUQJSiH5LJ3cgXsxyJuhgzTDWrnsBS98",
+  "pdfSize": "7293375"
+}

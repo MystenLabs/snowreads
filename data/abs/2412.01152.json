@@ -1,0 +1,82 @@
+{
+  "id": "2412.01152",
+  "title": "INTELLECT-1 Technical Report",
+  "authors": "Sami Jaghouar, Jack Min Ong, Manveer Basra, Fares Obeid, Jannik\n  Straube, Michael Keiblinger, Elie Bakouch, Lucas Atkins, Maziyar Panahi,\n  Charles Goddard, Max Ryabinin, Johannes Hagemann",
+  "authorsParsed": [
+    [
+      "Jaghouar",
+      "Sami",
+      ""
+    ],
+    [
+      "Ong",
+      "Jack Min",
+      ""
+    ],
+    [
+      "Basra",
+      "Manveer",
+      ""
+    ],
+    [
+      "Obeid",
+      "Fares",
+      ""
+    ],
+    [
+      "Straube",
+      "Jannik",
+      ""
+    ],
+    [
+      "Keiblinger",
+      "Michael",
+      ""
+    ],
+    [
+      "Bakouch",
+      "Elie",
+      ""
+    ],
+    [
+      "Atkins",
+      "Lucas",
+      ""
+    ],
+    [
+      "Panahi",
+      "Maziyar",
+      ""
+    ],
+    [
+      "Goddard",
+      "Charles",
+      ""
+    ],
+    [
+      "Ryabinin",
+      "Max",
+      ""
+    ],
+    [
+      "Hagemann",
+      "Johannes",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 2 Dec 2024 05:52:32 GMT"
+    }
+  ],
+  "updateDate": "2024-12-03",
+  "timestamp": 1733118752000,
+  "abstract": "  In this report, we introduce INTELLECT-1, the first 10 billion parameter\nlanguage model collaboratively trained across the globe, demonstrating that\nlarge-scale model training is no longer confined to large corporations but can\nbe achieved through a distributed, community-driven approach. INTELLECT-1 was\ntrained on 1 trillion tokens using up to 14 concurrent nodes distributed across\n3 continents, with contributions from 30 independent compute providers\ndynamically joining and leaving the training process, while maintaining 83-96%\ncompute utilization and 36.2-41.4% model FLOPS utilization. We leverage PRIME,\nour scalable distributed training framework designed for fault-tolerant,\nhigh-performance training on unreliable, globally distributed nodes. Key\ninnovations in PRIME include the ElasticDeviceMesh, which manages dynamic\nglobal process groups for fault-tolerant communication across the internet and\nlocal process groups for communication within a node, live checkpoint recovery\nkernels, and a hybrid DiLoCo-FSDP2 implementation. Using PRIME with DiLoCo and\nour custom int8 all-reduce, we achieve a 400x reduction in communication\nbandwidth compared to traditional data-parallel training settings while\ndelivering comparable performance. These results demonstrate the feasibility\nand promise of training frontier foundation models in a decentralized network\nof global GPU resources.\n",
+  "subjects": [
+    "Computer Science/Distributed, Parallel, and Cluster Computing"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "vX6hFmsiEQKrnyBRhOLDDu6RHufnXVJGr3wpVpowi4s",
+  "pdfSize": "1551000"
+}

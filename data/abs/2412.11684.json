@@ -1,0 +1,41 @@
+{
+  "id": "2412.11684",
+  "title": "Runtime Analysis for Multi-Objective Evolutionary Algorithms in\n  Unbounded Integer Spaces",
+  "authors": "Benjamin Doerr, Martin S. Krejca, G\\\"unter Rudolph",
+  "authorsParsed": [
+    [
+      "Doerr",
+      "Benjamin",
+      ""
+    ],
+    [
+      "Krejca",
+      "Martin S.",
+      ""
+    ],
+    [
+      "Rudolph",
+      "Günter",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 16 Dec 2024 11:53:54 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Tue, 17 Dec 2024 12:52:14 GMT"
+    }
+  ],
+  "updateDate": "2024-12-18",
+  "timestamp": 1734350034000,
+  "abstract": "  Randomized search heuristics have been applied successfully to a plethora of\nproblems. This success is complemented by a large body of theoretical results.\nUnfortunately, the vast majority of these results regard problems with binary\nor continuous decision variables -- the theoretical analysis of randomized\nsearch heuristics for unbounded integer domains is almost nonexistent. To\nresolve this shortcoming, we start the runtime analysis of multi-objective\nevolutionary algorithms, which are among the most successful randomized search\nheuristics, for unbounded integer search spaces. We analyze single- and\nfull-dimensional mutation operators with three different mutation strengths,\nnamely changes by plus/minus one (unit strength), random changes following a\nlaw with exponential tails, and random changes following a power-law. The\nperformance guarantees we prove on a recently proposed natural benchmark\nproblem suggest that unit mutation strengths can be slow when the initial\nsolutions are far from the Pareto front. When setting the expected change right\n(depending on the benchmark parameter and the distance of the initial\nsolutions), the mutation strength with exponential tails yields the best\nruntime guarantees in our results -- however, with a wrong choice of this\nexpectation, the performance guarantees quickly become highly uninteresting.\nWith power-law mutation, which is an essentially parameter-less mutation\noperator, we obtain good results uniformly over all problem parameters and\nstarting points. We complement our mathematical findings with experimental\nresults that suggest that our bounds are not always tight. Most prominently,\nour experiments indicate that power-law mutation outperforms the one with\nexponential tails even when the latter uses a near-optimal parametrization.\nHence, we suggest to favor power-law mutation for unknown problems in integer\nspaces.\n",
+  "subjects": [
+    "Computer Science/Neural and Evolutionary Computing"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "v313QcqzTswaz5ArWfMCNrhIHN_dw-xC4tAPrkoIJgg",
+  "pdfSize": "351879"
+}

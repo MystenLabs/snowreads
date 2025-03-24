@@ -1,0 +1,40 @@
+{
+  "id": "2412.00110",
+  "title": "Demographic Predictability in 3D CT Foundation Embeddings",
+  "authors": "Guangyao Zheng, Michael A. Jacobs, Vishwa S. Parekh",
+  "authorsParsed": [
+    [
+      "Zheng",
+      "Guangyao",
+      ""
+    ],
+    [
+      "Jacobs",
+      "Michael A.",
+      ""
+    ],
+    [
+      "Parekh",
+      "Vishwa S.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 28 Nov 2024 04:26:39 GMT"
+    }
+  ],
+  "updateDate": "2024-12-03",
+  "timestamp": 1732767999000,
+  "abstract": "  Self-supervised foundation models have recently been successfully extended to\nencode three-dimensional (3D) computed tomography (CT) images, with excellent\nperformance across several downstream tasks, such as intracranial hemorrhage\ndetection and lung cancer risk forecasting. However, as self-supervised models\nlearn from complex data distributions, questions arise concerning whether these\nembeddings capture demographic information, such as age, sex, or race. Using\nthe National Lung Screening Trial (NLST) dataset, which contains 3D CT images\nand demographic data, we evaluated a range of classifiers: softmax regression,\nlinear regression, linear support vector machine, random forest, and decision\ntree, to predict sex, race, and age of the patients in the images. Our results\nindicate that the embeddings effectively encoded age and sex information, with\na linear regression model achieving a root mean square error (RMSE) of 3.8\nyears for age prediction and a softmax regression model attaining an AUC of\n0.998 for sex classification. Race prediction was less effective, with an AUC\nof 0.878. These findings suggest a detailed exploration into the information\nencoded in self-supervised learning frameworks is needed to help ensure fair,\nresponsible, and patient privacy-protected healthcare AI.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Emerging Technologies",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "XbMmNKXYOXPMVrUFEVQPsJ3qNoNzZU4I8gESBniB8hk",
+  "pdfSize": "2084920"
+}

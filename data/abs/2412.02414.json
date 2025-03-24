@@ -1,0 +1,39 @@
+{
+  "id": "2412.02414",
+  "title": "Goupil: A Monte Carlo engine for the backward transport of low-energy\n  gamma-rays",
+  "authors": "Valentin Niess, Kinson Vernet, Luca Terray",
+  "authorsParsed": [
+    [
+      "Niess",
+      "Valentin",
+      ""
+    ],
+    [
+      "Vernet",
+      "Kinson",
+      ""
+    ],
+    [
+      "Terray",
+      "Luca",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 3 Dec 2024 12:16:31 GMT"
+    }
+  ],
+  "updateDate": "2024-12-04",
+  "timestamp": 1733228191000,
+  "abstract": "  Goupil is a software library designed for the Monte Carlo transport of\nlow-energy gamma-rays, such as those emitted from radioactive isotopes. The\nlibrary is distributed as a Python module. It implements a dedicated backward\nsampling algorithm that is highly effective for transporting photons in low\ndensity media. In the air, computation time savings of five orders of magnitude\nare achieved while maintaining an accuracy comparable to that of conventional\nMonte Carlo methods, to the nearest percent.\n",
+  "subjects": [
+    "Physics/Computational Physics",
+    "Physics/Nuclear Experiment",
+    "Physics/Geophysics"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "98gt3FtqXVYEcMQDZs8L_2RSTbW41V2kaEosej4T0Fc",
+  "pdfSize": "944447"
+}

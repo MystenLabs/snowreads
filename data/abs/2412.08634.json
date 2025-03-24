@@ -1,0 +1,42 @@
+{
+  "id": "2412.08634",
+  "title": "Non-local positivity bounds: islands in Terra Incognita",
+  "authors": "Luca Buoninfante, Long-Qi Shao, Anna Tokareva",
+  "authorsParsed": [
+    [
+      "Buoninfante",
+      "Luca",
+      ""
+    ],
+    [
+      "Shao",
+      "Long-Qi",
+      ""
+    ],
+    [
+      "Tokareva",
+      "Anna",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 11 Dec 2024 18:56:42 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Wed, 19 Feb 2025 15:22:38 GMT"
+    }
+  ],
+  "updateDate": "2025-02-20",
+  "timestamp": 1733943402000,
+  "abstract": "  The requirements of unitarity and causality lead to significant constraints\non the Wilson coefficients of an EFT expansion, known as positivity bounds.\nTheir standard derivation relies on the crucial assumption of polynomial\nboundedness on the growth of scattering amplitudes in the complex energy plane,\nwhich is a property satisfied by local QFTs, and by weakly coupled string\ntheory in the Regge regime. The scope of this work is to clarify the role of\nlocality by deriving generalized positivity bounds under the assumption of\nexponential boundedness, typical of non-local QFTs where the Froissart-Martin\nbound is usually not satisfied. Using appropriately modified dispersion\nrelations, we derive new constraints and find regions in the EFT parameter\nspace that do not admit a local UV completion. Furthermore, we show that there\nexist EFTs that satisfy IR causality and at the same time can admit a non-local\nUV completion, provided that the energy scale of non-locality is of the same\norder or larger than the EFT cutoff. Finally, we provide an explicit example of\nan exponentially bounded amplitude that satisfies partial-wave unitarity and\nasymptotic causality.\n",
+  "subjects": [
+    "Physics/High Energy Physics - Theory",
+    "Physics/General Relativity and Quantum Cosmology"
+  ],
+  "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+  "blobId": "1fVm5I7RGIdj-8UQavNuVe8iDwy1bMvV3e8H6gGk9mw",
+  "pdfSize": "3078303"
+}

@@ -1,0 +1,44 @@
+{
+  "id": "2412.06870",
+  "title": "Variable Selection for Comparing High-dimensional Time-Series Data",
+  "authors": "Kensuke Mitsuzawa, Margherita Grossi, Stefano Bortoli, Motonobu\n  Kanagawa",
+  "authorsParsed": [
+    [
+      "Mitsuzawa",
+      "Kensuke",
+      ""
+    ],
+    [
+      "Grossi",
+      "Margherita",
+      ""
+    ],
+    [
+      "Bortoli",
+      "Stefano",
+      ""
+    ],
+    [
+      "Kanagawa",
+      "Motonobu",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 9 Dec 2024 12:08:08 GMT"
+    }
+  ],
+  "updateDate": "2024-12-11",
+  "timestamp": 1733746088000,
+  "abstract": "  Given a pair of multivariate time-series data of the same length and\ndimensions, an approach is proposed to select variables and time intervals\nwhere the two series are significantly different. In applications where one\ntime series is an output from a computationally expensive simulator, the\napproach may be used for validating the simulator against real data, for\ncomparing the outputs of two simulators, and for validating a machine\nlearning-based emulator against the simulator. With the proposed approach, the\nentire time interval is split into multiple subintervals, and on each\nsubinterval, the two sample sets are compared to select variables that\ndistinguish their distributions and a two-sample test is performed. The\nvalidity and limitations of the proposed approach are investigated in synthetic\ndata experiments. Its usefulness is demonstrated in an application with a\nparticle-based fluid simulator, where a deep neural network model is compared\nagainst the simulator, and in an application with a microscopic traffic\nsimulator, where the effects of changing the simulator's parameters on traffic\nflows are analysed.\n",
+  "subjects": [
+    "Statistics/Methodology",
+    "Computer Science/Machine Learning",
+    "Statistics/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by-sa/4.0/",
+  "blobId": "dtVV-iZYeLu5mIkEOa4h9fMp-srt7g_y950TROXHI_0",
+  "pdfSize": "5516711"
+}

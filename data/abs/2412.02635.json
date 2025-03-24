@@ -1,0 +1,72 @@
+{
+  "id": "2412.02635",
+  "title": "MetaShadow: Object-Centered Shadow Detection, Removal, and Synthesis",
+  "authors": "Tianyu Wang, Jianming Zhang, Haitian Zheng, Zhihong Ding, Scott Cohen,\n  Zhe Lin, Wei Xiong, Chi-Wing Fu, Luis Figueroa, Soo Ye Kim",
+  "authorsParsed": [
+    [
+      "Wang",
+      "Tianyu",
+      ""
+    ],
+    [
+      "Zhang",
+      "Jianming",
+      ""
+    ],
+    [
+      "Zheng",
+      "Haitian",
+      ""
+    ],
+    [
+      "Ding",
+      "Zhihong",
+      ""
+    ],
+    [
+      "Cohen",
+      "Scott",
+      ""
+    ],
+    [
+      "Lin",
+      "Zhe",
+      ""
+    ],
+    [
+      "Xiong",
+      "Wei",
+      ""
+    ],
+    [
+      "Fu",
+      "Chi-Wing",
+      ""
+    ],
+    [
+      "Figueroa",
+      "Luis",
+      ""
+    ],
+    [
+      "Kim",
+      "Soo Ye",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 3 Dec 2024 18:04:42 GMT"
+    }
+  ],
+  "updateDate": "2024-12-04",
+  "timestamp": 1733249082000,
+  "abstract": "  Shadows are often under-considered or even ignored in image editing\napplications, limiting the realism of the edited results. In this paper, we\nintroduce MetaShadow, a three-in-one versatile framework that enables\ndetection, removal, and controllable synthesis of shadows in natural images in\nan object-centered fashion. MetaShadow combines the strengths of two\ncooperative components: Shadow Analyzer, for object-centered shadow detection\nand removal, and Shadow Synthesizer, for reference-based controllable shadow\nsynthesis. Notably, we optimize the learning of the intermediate features from\nShadow Analyzer to guide Shadow Synthesizer to generate more realistic shadows\nthat blend seamlessly with the scene. Extensive evaluations on multiple shadow\nbenchmark datasets show significant improvements of MetaShadow over the\nexisting state-of-the-art methods on object-centered shadow detection, removal,\nand synthesis. MetaShadow excels in image-editing tasks such as object removal,\nrelocation, and insertion, pushing the boundaries of object-centered image\nediting.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "_vqpVHCZedX8Y_mO4MZ_bQQS3q26eT7UhxEjIlrqp7s",
+  "pdfSize": "14174569"
+}

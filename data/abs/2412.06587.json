@@ -1,0 +1,48 @@
+{
+  "id": "2412.06587",
+  "title": "Argentine ants regulate traffic flow with stopped individuals",
+  "authors": "Ulrich Dobramysl, Simon Garnier, Laure-Anne Poissonnier, Audrey\n  Dussutour, Maria Bruna",
+  "authorsParsed": [
+    [
+      "Dobramysl",
+      "Ulrich",
+      ""
+    ],
+    [
+      "Garnier",
+      "Simon",
+      ""
+    ],
+    [
+      "Poissonnier",
+      "Laure-Anne",
+      ""
+    ],
+    [
+      "Dussutour",
+      "Audrey",
+      ""
+    ],
+    [
+      "Bruna",
+      "Maria",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 9 Dec 2024 15:40:27 GMT"
+    }
+  ],
+  "updateDate": "2024-12-10",
+  "timestamp": 1733758827000,
+  "abstract": "  We investigated the emerging traffic patterns of Argentine ants (Linepithema\nhumile) as they navigated a narrow bridge between their nest and a food source.\nBy tracking ant movements in experiments with varying bridge widths and colony\nsizes and analyzing the resulting trajectories, we discovered that a small\nsubset of ants stopped for long periods of time, acting as obstacles and\naffecting traffic flow. Interestingly, the fraction of these stopped ants\nincreased with wider bridges, suggesting a mechanism to reduce traffic flow to\na narrower section of the bridge. To quantify transport efficiency, we measured\nthe average speed of the ants on the bridge as a function of the pressure of\nants arriving at the bridge, finding this relationship to be an increasing but\nsaturating function of the pressure. We developed an agent-based model for ant\nmovement and interactions to better understand these dynamics. Including\nstopped agents in the model was crucial to explaining the experimental\nobservations. We further validated our hypothesis by introducing artificial\nobstacles on the bridges and found that our simulations accurately mirrored the\nexperimental data when these obstacles were included. These findings provide\nnew insights into how Argentine ants self-organize to manage traffic,\nhighlighting a unique form of dynamic obstruction that enhances traffic flow in\nhigh-density conditions. This study advances our understanding of\nself-regulation in biological traffic systems and suggests potential\napplications for managing human traffic in congested environments.\n",
+  "subjects": [
+    "Quantitative Biology/Populations and Evolution",
+    "Quantitative Biology/Quantitative Methods"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "nMYSX1fRijrCtgsvHRk-VLkdI308aJ5z4MoqnNT85AA",
+  "pdfSize": "25201224"
+}

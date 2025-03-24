@@ -1,0 +1,41 @@
+{
+  "id": "2412.17620",
+  "title": "Multi-cyclic graphs in the random graph process with restricted budget",
+  "authors": "Daniel I\\v{l}kovi\\v{c}, Jared Le\\'on, Xichao Shu",
+  "authorsParsed": [
+    [
+      "Iľkovič",
+      "Daniel",
+      ""
+    ],
+    [
+      "León",
+      "Jared",
+      ""
+    ],
+    [
+      "Shu",
+      "Xichao",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 23 Dec 2024 14:44:45 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Tue, 25 Feb 2025 13:30:58 GMT"
+    }
+  ],
+  "updateDate": "2025-02-26",
+  "timestamp": 1734965085000,
+  "abstract": "  We study a controlled random graph process introduced by Frieze, Krivelevich,\nand Michaeli. In this model, the edges of a complete graph are randomly ordered\nand revealed sequentially to a builder. For each edge revealed, the builder\nmust irrevocably decide whether to purchase it. The process is subject to two\nconstraints: the number of observed edges $t$ and the builder's budget $b$. The\ngoal of the builder is to construct, with high probability, a graph possessing\na desired property.\n  Previously, the optimal dependencies of the budget $b$ on $n$ and $t$ were\nestablished for constructing a graph containing a fixed tree or cycle, and the\nauthors claimed that their proof could be extended to any unicyclic graph. The\nproblem, however, remained open for graphs containing at least two cycles, the\nsmallest of which is the graph $K_4^-$ (a clique of size four with one edge\nremoved).\n  In this paper, we provide a strategy to construct a copy of the graph $K_4^-$\nif $b \\gg \\max\\left\\{n^6 / t^4, n^{4 / 3} / t^{2 / 3}\\right\\}$, and show that\nthis bound is tight, answering the question posed by Frieze et al. concerning\nthis specific graph. We also give a strategy to construct a copy of a graph\nconsisting of $k$ triangles intersecting at a single vertex (the $k$-fan) if $b\n\\gg \\max\\left\\{n^{4k - 1} / t^{3k - 1}, n / \\sqrt{t}\\right\\}$, and also show\nthat this bound is tight. These are the first optimal strategies for\nconstructing a multi-cyclic graph in this random graph model.\n",
+  "subjects": [
+    "Mathematics/Combinatorics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "_QbfjN7NVqONCm06i-VtY7ebXvnk5aUh6R_ZcH4EgAc",
+  "pdfSize": "294415"
+}

@@ -1,0 +1,52 @@
+{
+  "id": "2412.20518",
+  "title": "A comparison of HPC-based quantum computing simulators using Quantum\n  Volume",
+  "authors": "Lourens van Niekerk, Dhiraj Kumar, Aasish Kumar Sharma, Tino Meisel,\n  Martin Leandro Paleico and Christian Boehme",
+  "authorsParsed": [
+    [
+      "van Niekerk",
+      "Lourens",
+      ""
+    ],
+    [
+      "Kumar",
+      "Dhiraj",
+      ""
+    ],
+    [
+      "Sharma",
+      "Aasish Kumar",
+      ""
+    ],
+    [
+      "Meisel",
+      "Tino",
+      ""
+    ],
+    [
+      "Paleico",
+      "Martin Leandro",
+      ""
+    ],
+    [
+      "Boehme",
+      "Christian",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 29 Dec 2024 16:40:54 GMT"
+    }
+  ],
+  "updateDate": "2024-12-31",
+  "timestamp": 1735490454000,
+  "abstract": "  This paper compares quantum computing simulators running on a single CPU or\nGPU-based HPC node using the Quantum Volume benchmark commonly proposed for\ncomparing NISQ systems. As simulators do not suffer from noise, the metric used\nin the comparison is the time required to simulate a set Quantum Volume. The\nresults are important to estimate the feasibility of proof of concept studies\nand debugging of quantum algorithms on HPC systems. Besides benchmarks of some\ncommonly used simulators, this paper also offers an overview of their main\nfeatures, a review of the state of quantum computing simulation and quantum\ncomputing benchmarking, and some insight into the theory of Quantum Volume.\n",
+  "subjects": [
+    "Physics/Quantum Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "6Zrb7_RiuW7OJD_TZJr-0ylRuEnuAdj4tFlw8w9KdyU",
+  "pdfSize": "716480"
+}

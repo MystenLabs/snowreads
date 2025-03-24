@@ -1,0 +1,47 @@
+{
+  "id": "2412.10306",
+  "title": "Stochastic relativistic viscous hydrodynamics from the Metropolis\n  algorithm",
+  "authors": "Jay Bhambure, Rajeev Singh, and Derek Teaney",
+  "authorsParsed": [
+    [
+      "Bhambure",
+      "Jay",
+      ""
+    ],
+    [
+      "Singh",
+      "Rajeev",
+      ""
+    ],
+    [
+      "Teaney",
+      "Derek",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 13 Dec 2024 17:41:46 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Mon, 16 Dec 2024 18:50:06 GMT"
+    },
+    {
+      "version": "v3",
+      "created": "Tue, 4 Feb 2025 17:37:14 GMT"
+    }
+  ],
+  "updateDate": "2025-02-05",
+  "timestamp": 1734111706000,
+  "abstract": "  We propose an algorithm for simulating stochastic relativistic fluid dynamics\nbased on Metropolis updates. Each step of the algorithm begins with an update\nbased on ideal hydrodynamics. This is followed by proposing random (spatial)\nmomentum transfers between fluid cells, keeping the total energy fixed. These\nproposals are then accepted or rejected using the change in entropy as a\nstatistical weight. The algorithm reproduces relativistic viscous hydrodynamics\nin the ``Density Frame\", which is a formulation of viscous hydrodynamics we\nreview and clarify here. This formulation is first order in time and requires\nno auxiliary dynamical fields such as $\\Pi^{\\mu\\nu}$. The only parameters are\nthe shear and bulk viscosities and the equation of state. By adopting the 3+1\nsplit of general relativity, we extend the Metropolis algorithm to general\nspace-time coordinates, such as Bjorken coordinates, which are commonly used to\nsimulate heavy-ion collisions.\n",
+  "subjects": [
+    "Physics/Nuclear Theory",
+    "Physics/General Relativity and Quantum Cosmology",
+    "Physics/High Energy Physics - Theory"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "EmqZT6bY6jXsOtx_5OMkonbJtQ5YbZfjKKHQCyTYWl4",
+  "pdfSize": "620887"
+}

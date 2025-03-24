@@ -1,0 +1,48 @@
+{
+  "id": "2412.10446",
+  "title": "Disentanglement and Compositionality of Letter Identity and Letter\n  Position in Variational Auto-Encoder Vision Models",
+  "authors": "Bruno Bianchi, Aakash Agrawal, Stanislas Dehaene, Emmanuel Chemla,\n  Yair Lakretz",
+  "authorsParsed": [
+    [
+      "Bianchi",
+      "Bruno",
+      ""
+    ],
+    [
+      "Agrawal",
+      "Aakash",
+      ""
+    ],
+    [
+      "Dehaene",
+      "Stanislas",
+      ""
+    ],
+    [
+      "Chemla",
+      "Emmanuel",
+      ""
+    ],
+    [
+      "Lakretz",
+      "Yair",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 11 Dec 2024 18:20:53 GMT"
+    }
+  ],
+  "updateDate": "2024-12-17",
+  "timestamp": 1733941253000,
+  "abstract": "  Human readers can accurately count how many letters are in a word (e.g., 7 in\n``buffalo''), remove a letter from a given position (e.g., ``bufflo'') or add a\nnew one. The human brain of readers must have therefore learned to disentangle\ninformation related to the position of a letter and its identity. Such\ndisentanglement is necessary for the compositional, unbounded, ability of\nhumans to create and parse new strings, with any combination of letters\nappearing in any positions. Do modern deep neural models also possess this\ncrucial compositional ability? Here, we tested whether neural models that\nachieve state-of-the-art on disentanglement of features in visual input can\nalso disentangle letter position and letter identity when trained on images of\nwritten words. Specifically, we trained beta variational autoencoder\n($\\beta$-VAE) to reconstruct images of letter strings and evaluated their\ndisentanglement performance using CompOrth - a new benchmark that we created\nfor studying compositional learning and zero-shot generalization in visual\nmodels for orthography. The benchmark suggests a set of tests, of increasing\ncomplexity, to evaluate the degree of disentanglement between orthographic\nfeatures of written words in deep neural models. Using CompOrth, we conducted a\nset of experiments to analyze the generalization ability of these models, in\nparticular, to unseen word length and to unseen combinations of letter\nidentities and letter positions. We found that while models effectively\ndisentangle surface features, such as horizontal and vertical `retinal'\nlocations of words within an image, they dramatically fail to disentangle\nletter position and letter identity and lack any notion of word length.\nTogether, this study demonstrates the shortcomings of state-of-the-art\n$\\beta$-VAE models compared to humans and proposes a new challenge and a\ncorresponding benchmark to evaluate neural models.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "Yiw5UOpqWEdBDO_VWyYkJFtI1vXw1vyqfdP981dbd4I",
+  "pdfSize": "12463980"
+}

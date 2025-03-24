@@ -1,0 +1,38 @@
+{
+  "id": "2412.12361",
+  "title": "The Ramanujan Library -- Automated Discovery on the Hypergraph of\n  Integer Relations",
+  "authors": "Itay Beit-Halachmi, Ido Kaminer",
+  "authorsParsed": [
+    [
+      "Beit-Halachmi",
+      "Itay",
+      ""
+    ],
+    [
+      "Kaminer",
+      "Ido",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 16 Dec 2024 21:18:44 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Sun, 19 Jan 2025 10:51:22 GMT"
+    }
+  ],
+  "updateDate": "2025-01-22",
+  "timestamp": 1734383924000,
+  "abstract": "  Fundamental mathematical constants appear in nearly every field of science,\nfrom physics to biology. Formulas that connect different constants often bring\ngreat insight by hinting at connections between previously disparate fields.\nDiscoveries of such relations, however, have remained scarce events, relying on\nsporadic strokes of creativity by human mathematicians. Recent developments of\nalgorithms for automated conjecture generation have accelerated the discovery\nof formulas for specific constants. Yet, the discovery of connections between\nconstants has not been addressed. In this paper, we present the first library\ndedicated to mathematical constants and their interrelations. This library can\nserve as a central repository of knowledge for scientists from different areas,\nand as a collaborative platform for development of new algorithms. The library\nis based on a new representation that we propose for organizing the formulas of\nmathematical constants: a hypergraph, with each node representing a constant\nand each edge representing a formula. Using this representation, we propose and\ndemonstrate a systematic approach for automatically enriching this library\nusing PSLQ, an integer relation algorithm based on QR decomposition and lattice\nconstruction. During its development and testing, our strategy led to the\ndiscovery of 75 previously unknown connections between constants, including a\nnew formula for the `first continued fraction' constant $C_1$, novel formulas\nfor natural logarithms, and new formulas connecting $\\pi$ and $e$. The latter\nformulas generalize a century-old relation between $\\pi$ and $e$ by Ramanujan,\nwhich until now was considered a singular formula and is now found to be part\nof a broader mathematical structure. The code supporting this library is a\npublic, open-source API that can serve researchers in experimental mathematics\nand other fields of science.\n",
+  "subjects": [
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Mathematical Software",
+    "Mathematics/Number Theory"
+  ],
+  "license": "http://creativecommons.org/licenses/by-sa/4.0/",
+  "blobId": "ZW5kLjm8sUqFgn0c6jiCSEChcH9r3tRuLN8_TyBnO_c",
+  "pdfSize": "1296393"
+}

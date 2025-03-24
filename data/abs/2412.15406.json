@@ -1,0 +1,27 @@
+{
+  "id": "2412.15406",
+  "title": "Distributionally Robust Regret Minimization",
+  "authors": "Eilyan Bitar",
+  "authorsParsed": [
+    [
+      "Bitar",
+      "Eilyan",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 19 Dec 2024 21:18:49 GMT"
+    }
+  ],
+  "updateDate": "2024-12-23",
+  "timestamp": 1734643129000,
+  "abstract": "  We consider decision-making problems involving the optimization of linear\nobjective functions with uncertain coefficients. The probability distribution\nof the coefficients--which are assumed to be stochastic in nature--is unknown\nto the decision maker but is assumed to lie within a given ambiguity set,\ndefined as a type-1 Wasserstein ball centered at a given nominal distribution.\nTo account for this uncertainty, we minimize the worst-case expected regret\nover all distributions in the ambiguity set. Here, the (ex post) regret\nexperienced by the decision maker is defined as the difference between the cost\nincurred by a chosen decision given a particular realization of the objective\ncoefficients and the minimum achievable cost with perfect knowledge of the\ncoefficients at the outset. For this class of ambiguity sets, the worst-case\nexpected regret is shown to equal the expected regret under the nominal\ndistribution plus a regularization term that has the effect of drawing optimal\nsolutions toward the \"center\" of the feasible region as the radius of the\nambiguity set increases. This novel form of regularization is also shown to\narise when minimizing the worst-case conditional value-at-risk (CVaR) of\nregret. We show that, under certain conditions, distributionally robust regret\nminimization problems over type-1 Wasserstein balls can be recast as tractable\nfinite-dimensional convex programs.\n",
+  "subjects": [
+    "Mathematics/Optimization and Control"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "MJx6ZIUBGdDZUL8FfwlqZaP53j6A0u6A7kEaTTnBhjo",
+  "pdfSize": "179011"
+}

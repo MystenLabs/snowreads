@@ -1,0 +1,32 @@
+{
+  "id": "2412.01326",
+  "title": "Dynamical System Approach for Optimal Control Problems with Equilibrium\n  Constraints Using Gap-Constraint-Based Reformulation",
+  "authors": "Kangyu Lin and Toshiyuki Ohtsuka",
+  "authorsParsed": [
+    [
+      "Lin",
+      "Kangyu",
+      ""
+    ],
+    [
+      "Ohtsuka",
+      "Toshiyuki",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 2 Dec 2024 09:49:23 GMT"
+    }
+  ],
+  "updateDate": "2024-12-03",
+  "timestamp": 1733132963000,
+  "abstract": "  Optimal control problems for nonsmooth dynamical systems governed by\ndifferential variational inequalities (DVI) are called optimal control problems\nwith equilibrium constraints (OCPEC). It provides a general formalism for\nnonsmooth optimal control. However, solving OCPEC using the direct method\n(i.e., first-discretize-then-optimize) is challenging owing to the lack of\ncorrect sensitivity and constraint regularity. This study uses the direct\nmethod to solve OCPEC and overcomes the numerical difficulties from two\naspects: In the discretization step, we propose a class of novel approaches\nusing gap functions to smooth the DVI, where gap functions are initially\nproposed for solving variational inequalities. The generated smoothing\napproximations of discretized OCPEC are called gap-constraint-based\nreformulations, which have a concise and semismoothly differentiable constraint\nsystem; In the optimization step, we propose an efficient dynamical system\napproach to solve the discretized OCPEC, where a sequence of\ngap-constraint-based reformulations is solved approximately. This dynamical\nsystem approach involves a semismooth Newton flow and achieves local\nexponential convergence under standard assumptions. The benchmark test shows\nthat the proposed method is computationally tractable and achieves fast local\nconvergence.\n",
+  "subjects": [
+    "Mathematics/Optimization and Control"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "o673Tc1I34KPhoW2K_ZmJdvs-FNwKhz4Ay02NjoTK3g",
+  "pdfSize": "3405313"
+}

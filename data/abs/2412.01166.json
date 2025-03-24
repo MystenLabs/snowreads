@@ -1,0 +1,47 @@
+{
+  "id": "2412.01166",
+  "title": "Object Agnostic 3D Lifting in Space and Time",
+  "authors": "Christopher Fusco, Shin-Fang Ch'ng, Mosam Dabhi, Simon Lucey",
+  "authorsParsed": [
+    [
+      "Fusco",
+      "Christopher",
+      ""
+    ],
+    [
+      "Ch'ng",
+      "Shin-Fang",
+      ""
+    ],
+    [
+      "Dabhi",
+      "Mosam",
+      ""
+    ],
+    [
+      "Lucey",
+      "Simon",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 2 Dec 2024 06:09:46 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Mon, 10 Feb 2025 02:39:44 GMT"
+    }
+  ],
+  "updateDate": "2025-02-11",
+  "timestamp": 1733119786000,
+  "abstract": "  We present a spatio-temporal perspective on category-agnostic 3D lifting of\n2D keypoints over a temporal sequence. Our approach differs from existing\nstate-of-the-art methods that are either: (i) object-agnostic, but can only\noperate on individual frames, or (ii) can model space-time dependencies, but\nare only designed to work with a single object category. Our approach is\ngrounded in two core principles. First, general information about similar\nobjects can be leveraged to achieve better performance when there is little\nobject-specific training data. Second, a temporally-proximate context window is\nadvantageous for achieving consistency throughout a sequence. These two\nprinciples allow us to outperform current state-of-the-art methods on per-frame\nand per-sequence metrics for a variety of animal categories. Lastly, we release\na new synthetic dataset containing 3D skeletons and motion sequences for a\nvariety of animal categories.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "emBXrQ_EvuSEIGWYFr75aqGB-CeKH7VDq7PyR2Id98A",
+  "pdfSize": "4548141"
+}

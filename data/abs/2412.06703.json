@@ -1,0 +1,49 @@
+{
+  "id": "2412.06703",
+  "title": "Source Separation & Automatic Transcription for Music",
+  "authors": "Bradford Derby, Lucas Dunker, Samarth Galchar, Shashank Jarmale, Akash\n  Setti",
+  "authorsParsed": [
+    [
+      "Derby",
+      "Bradford",
+      ""
+    ],
+    [
+      "Dunker",
+      "Lucas",
+      ""
+    ],
+    [
+      "Galchar",
+      "Samarth",
+      ""
+    ],
+    [
+      "Jarmale",
+      "Shashank",
+      ""
+    ],
+    [
+      "Setti",
+      "Akash",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 9 Dec 2024 17:49:14 GMT"
+    }
+  ],
+  "updateDate": "2024-12-10",
+  "timestamp": 1733766554000,
+  "abstract": "  Source separation is the process of isolating individual sounds in an\nauditory mixture of multiple sounds [1], and has a variety of applications\nranging from speech enhancement and lyric transcription [2] to digital audio\nproduction for music. Furthermore, Automatic Music Transcription (AMT) is the\nprocess of converting raw music audio into sheet music that musicians can read\n[3]. Historically, these tasks have faced challenges such as significant audio\nnoise, long training times, and lack of free-use data due to copyright\nrestrictions. However, recent developments in deep learning have brought new\npromising approaches to building low-distortion stems and generating sheet\nmusic from audio signals [4]. Using spectrogram masking, deep neural networks,\nand the MuseScore API, we attempt to create an end-to-end pipeline that allows\nfor an initial music audio mixture (e.g...wav file) to be separated into\ninstrument stems, converted into MIDI files, and transcribed into sheet music\nfor each component instrument.\n",
+  "subjects": [
+    "Computer Science/Sound",
+    "Computer Science/Artificial Intelligence",
+    "Electrical Engineering and Systems Science/Audio and Speech Processing"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "HywkN0_3cB4h2pzyq6gI_v_FKWQggUNuo4n9btCdQl8",
+  "pdfSize": "3687577"
+}

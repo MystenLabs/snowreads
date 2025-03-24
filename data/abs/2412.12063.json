@@ -1,0 +1,55 @@
+{
+  "id": "2412.12063",
+  "title": "Revelations: A Decidable Class of POMDPs with Omega-Regular Objectives",
+  "authors": "Marius Belly, Nathana\\\"el Fijalkow, Hugo Gimbert, Florian Horn,\n  Guillermo A. P\\'erez, Pierre Vandenhove",
+  "authorsParsed": [
+    [
+      "Belly",
+      "Marius",
+      ""
+    ],
+    [
+      "Fijalkow",
+      "Nathanaël",
+      ""
+    ],
+    [
+      "Gimbert",
+      "Hugo",
+      ""
+    ],
+    [
+      "Horn",
+      "Florian",
+      ""
+    ],
+    [
+      "Pérez",
+      "Guillermo A.",
+      ""
+    ],
+    [
+      "Vandenhove",
+      "Pierre",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 16 Dec 2024 18:37:06 GMT"
+    }
+  ],
+  "updateDate": "2024-12-17",
+  "timestamp": 1734374226000,
+  "abstract": "  Partially observable Markov decision processes (POMDPs) form a prominent\nmodel for uncertainty in sequential decision making. We are interested in\nconstructing algorithms with theoretical guarantees to determine whether the\nagent has a strategy ensuring a given specification with probability 1. This\nwell-studied problem is known to be undecidable already for very simple\nomega-regular objectives, because of the difficulty of reasoning on uncertain\nevents. We introduce a revelation mechanism which restricts information loss by\nrequiring that almost surely the agent has eventually full information of the\ncurrent state. Our main technical results are to construct exact algorithms for\ntwo classes of POMDPs called weakly and strongly revealing. Importantly, the\ndecidable cases reduce to the analysis of a finite belief-support Markov\ndecision process. This yields a conceptually simple and exact algorithm for a\nlarge class of POMDPs.\n",
+  "subjects": [
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Logic in Computer Science",
+    "Computer Science/Systems and Control",
+    "Electrical Engineering and Systems Science/Systems and Control"
+  ],
+  "license": "http://creativecommons.org/licenses/by-sa/4.0/",
+  "blobId": "sK5zg7t0RXlfGqBjDF01yCdvb4MYyh8wGwJ-Ru9R92Y",
+  "pdfSize": "717275"
+}

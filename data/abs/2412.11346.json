@@ -1,0 +1,45 @@
+{
+  "id": "2412.11346",
+  "title": "Structure and Dynamic Evolution of Interfaces between Polymer Solutions\n  and Gels and Polymer Interdiffusion: A Molecular Dynamics Study",
+  "authors": "Jude Ann Vishnu, Torsten Gereon Linder, Sebastian Seiffert, and\n  Friederike Schmid",
+  "authorsParsed": [
+    [
+      "Vishnu",
+      "Jude Ann",
+      ""
+    ],
+    [
+      "Linder",
+      "Torsten Gereon",
+      ""
+    ],
+    [
+      "Seiffert",
+      "Sebastian",
+      ""
+    ],
+    [
+      "Schmid",
+      "Friederike",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 16 Dec 2024 00:08:19 GMT"
+    }
+  ],
+  "updateDate": "2024-12-17",
+  "timestamp": 1734307699000,
+  "abstract": "  Letting free polymers diffuse from solution into a crosslinked polymer gel is\noften a crucial processing step in the synthesis of multiphase polymer-based\ngels, e.g., core-shell microgels. Here we use coarse-grained molecular dynamics\nsimulations to obtain molecular insights into this process. We consider\nidealized situations where the gel is modeled as a regular polymer network with\nthe topology of a diamond lattice, and all free polymers and strands have the\nsame length and consist of the same type of monomer. After bringing the gel and\nthe polymer solution into contact, two time regimes are observed: An initial\ncompression of the gel caused by the osmotic pressure of the solution, followed\nby an expansion due to swelling. We characterize the time evolution of density\nprofiles, the penetration of free polymers into the gel and the connection\nbetween the gel and solution phase. The interfacial structure locally\nequilibrates after roughly 100 chain relaxation times. At late times, the free\nchains inside the gel undergo a percolation transition if the polymer\nconcentration in the gel exceeds a critical value, which is of the same order\nas the overlap concentration. The fluctuations of the interface can be\ndescribed by a capillary wave model that accounts for the elasticity of the\ngel. Based on this, we extract the interfacial tension of the gel-solution\ninterface. Interestingly, both the interfacial tension and the local\ninterfacial width increase with increasing free polymer concentration - in\ncontrast to liquid-liquid interfaces, where these two quantities are typically\nanticorrelated.\n",
+  "subjects": [
+    "Condensed Matter/Soft Condensed Matter",
+    "Condensed Matter/Other Condensed Matter",
+    "Condensed Matter/Statistical Mechanics",
+    "Physics/Chemical Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "yVWMXon-tIpieh7Kzs7C2LXxPcsRb9GlEeWmTX0Zpwo",
+  "pdfSize": "11172876"
+}

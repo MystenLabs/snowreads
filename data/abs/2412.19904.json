@@ -1,0 +1,47 @@
+{
+  "id": "2412.19904",
+  "title": "An extended framework for the HMC in lattice gauge theory",
+  "authors": "Norman H. Christ, Lu-Chang Jin, Christoph Lehner, Erik Lundstrum and\n  Nobuyuki Matsumoto",
+  "authorsParsed": [
+    [
+      "Christ",
+      "Norman H.",
+      ""
+    ],
+    [
+      "Jin",
+      "Lu-Chang",
+      ""
+    ],
+    [
+      "Lehner",
+      "Christoph",
+      ""
+    ],
+    [
+      "Lundstrum",
+      "Erik",
+      ""
+    ],
+    [
+      "Matsumoto",
+      "Nobuyuki",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 27 Dec 2024 19:34:00 GMT"
+    }
+  ],
+  "updateDate": "2024-12-31",
+  "timestamp": 1735328040000,
+  "abstract": "  We develop an extended framework for the hybrid Monte Carlo (HMC) algorithm\nin lattice gauge theory by embedding the $SU(N)$ group into the space of\ngeneral complex matrices,$M_N(\\mathbb{C})$. Auxiliary directions will be\ncompletely factorized in the path integral, and the embedding does not alter\nthe expectation values of the original theory. We perform the molecular\ndynamics updates by using the matrix elements of $W \\in M_N(\\mathbb{C})$ as the\ndynamical variables without group theoretic constraints. The framework enables\nus to introduce non-separable Hamiltonians for the HMC in lattice gauge theory\nexactly, whose immediate application includes the Riemannian manifold HMC.\n",
+  "subjects": [
+    "Physics/High Energy Physics - Lattice"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "xbUUw0nxc0tkyu5n6R6MsrUt1OzASAeyNCUJsHXkgIY",
+  "pdfSize": "541226"
+}

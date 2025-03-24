@@ -1,0 +1,62 @@
+{
+  "id": "2412.20563",
+  "title": "Counterfactual Samples Constructing and Training for Commonsense\n  Statements Estimation",
+  "authors": "Chong Liu, Zaiwen Feng, Lin Liu, Zhenyun Deng, Jiuyong Li, Ruifang\n  Zhai, Debo Cheng and Li Qin",
+  "authorsParsed": [
+    [
+      "Liu",
+      "Chong",
+      ""
+    ],
+    [
+      "Feng",
+      "Zaiwen",
+      ""
+    ],
+    [
+      "Liu",
+      "Lin",
+      ""
+    ],
+    [
+      "Deng",
+      "Zhenyun",
+      ""
+    ],
+    [
+      "Li",
+      "Jiuyong",
+      ""
+    ],
+    [
+      "Zhai",
+      "Ruifang",
+      ""
+    ],
+    [
+      "Cheng",
+      "Debo",
+      ""
+    ],
+    [
+      "Qin",
+      "Li",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 29 Dec 2024 20:18:52 GMT"
+    }
+  ],
+  "updateDate": "2024-12-31",
+  "timestamp": 1735503532000,
+  "abstract": "  Plausibility Estimation (PE) plays a crucial role for enabling language\nmodels to objectively comprehend the real world. While large language models\n(LLMs) demonstrate remarkable capabilities in PE tasks but sometimes produce\ntrivial commonsense errors due to the complexity of commonsense knowledge. They\nlack two key traits of an ideal PE model: a) Language-explainable: relying on\ncritical word segments for decisions, and b) Commonsense-sensitive: detecting\nsubtle linguistic variations in commonsense. To address these issues, we\npropose a novel model-agnostic method, referred to as Commonsense\nCounterfactual Samples Generating (CCSG). By training PE models with CCSG, we\nencourage them to focus on critical words, thereby enhancing both their\nlanguage-explainable and commonsense-sensitive capabilities. Specifically, CCSG\ngenerates counterfactual samples by strategically replacing key words and\nintroducing low-level dropout within sentences. These counterfactual samples\nare then incorporated into a sentence-level contrastive training framework to\nfurther enhance the model's learning process. Experimental results across nine\ndiverse datasets demonstrate the effectiveness of CCSG in addressing\ncommonsense reasoning challenges, with our CCSG method showing 3.07%\nimprovement against the SOTA methods.\n",
+  "subjects": [
+    "Computer Science/Computation and Language"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "VLXWC-xPLjahtXBRVT4VI8sE4p1uvsu063pNXG0uiSA",
+  "pdfSize": "698606"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "2412.02989",
+  "title": "How Many Links Fit in a Box?",
+  "authors": "Michael H. Freedman",
+  "authorsParsed": [
+    [
+      "Freedman",
+      "Michael H.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 4 Dec 2024 03:03:51 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Sat, 4 Jan 2025 04:43:28 GMT"
+    }
+  ],
+  "updateDate": "2025-01-07",
+  "timestamp": 1733281431000,
+  "abstract": "  In an earlier note [arXiv:2301.00295] it was shown that there is an upper\nbound to the number of disjoint Hopf links (and certain related links) that can\nbe embedded in the unit cube where there is a fixed separation required between\nthe components within each copy of the Hopf link. The arguments relied on\nmulti-linear properties of linking number and certain other link invariants.\nHere we produce a very similar upper bound for all non-trivial links by a\nmore-general, entirely geometric, argument (but one which, unlike the original,\nhas no analog in higher dimensions). Shortly after the initial paper,\n[arXiv:2308.08064] proved lower bounds which broadly cover this wider class.\n",
+  "subjects": [
+    "Mathematics/Geometric Topology"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "ISMlUdAbXh50PUz1ErbzdCTL7O4JeV9UAGOdugbb4so",
+  "pdfSize": "75665"
+}

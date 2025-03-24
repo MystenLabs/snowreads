@@ -1,0 +1,47 @@
+{
+  "id": "2412.16687",
+  "title": "Subgoal Discovery Using a Free Energy Paradigm and State Aggregations",
+  "authors": "Amirhossein Mesbah, Reshad Hosseini, Seyed Pooya Shariatpanahi, Majid\n  Nili Ahmadabadi",
+  "authorsParsed": [
+    [
+      "Mesbah",
+      "Amirhossein",
+      ""
+    ],
+    [
+      "Hosseini",
+      "Reshad",
+      ""
+    ],
+    [
+      "Shariatpanahi",
+      "Seyed Pooya",
+      ""
+    ],
+    [
+      "Ahmadabadi",
+      "Majid Nili",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 21 Dec 2024 16:26:47 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Sun, 9 Feb 2025 11:24:20 GMT"
+    }
+  ],
+  "updateDate": "2025-02-11",
+  "timestamp": 1734798407000,
+  "abstract": "  Reinforcement learning (RL) plays a major role in solving complex sequential\ndecision-making tasks. Hierarchical and goal-conditioned RL are promising\nmethods for dealing with two major problems in RL, namely sample inefficiency\nand difficulties in reward shaping. These methods tackle the mentioned problems\nby decomposing a task into simpler subtasks and temporally abstracting a task\nin the action space. One of the key components for task decomposition of these\nmethods is subgoal discovery. We can use the subgoal states to define\nhierarchies of actions and also use them in decomposing complex tasks. Under\nthe assumption that subgoal states are more unpredictable, we propose a free\nenergy paradigm to discover them. This is achieved by using free energy to\nselect between two spaces, the main space and an aggregation space. The $model\n\\; changes$ from neighboring states to a given state shows the unpredictability\nof a given state, and therefore it is used in this paper for subgoal discovery.\nOur empirical results on navigation tasks like grid-world environments show\nthat our proposed method can be applied for subgoal discovery without prior\nknowledge of the task. Our proposed method is also robust to the stochasticity\nof environments.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "fNkeKnN4S_1KB84W5NOweP7MyzShninQCVNb_wp93z8",
+  "pdfSize": "899367"
+}

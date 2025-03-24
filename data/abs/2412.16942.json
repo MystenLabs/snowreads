@@ -1,0 +1,42 @@
+{
+  "id": "2412.16942",
+  "title": "BloomCoreset: Fast Coreset Sampling using Bloom Filters for Fine-Grained\n  Self-Supervised Learning",
+  "authors": "Prajwal Singh, Gautam Vashishtha, Indra Deep Mastan, Shanmuganathan\n  Raman",
+  "authorsParsed": [
+    [
+      "Singh",
+      "Prajwal",
+      ""
+    ],
+    [
+      "Vashishtha",
+      "Gautam",
+      ""
+    ],
+    [
+      "Mastan",
+      "Indra Deep",
+      ""
+    ],
+    [
+      "Raman",
+      "Shanmuganathan",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 22 Dec 2024 09:18:58 GMT"
+    }
+  ],
+  "updateDate": "2024-12-24",
+  "timestamp": 1734859138000,
+  "abstract": "  The success of deep learning in supervised fine-grained recognition for\ndomain-specific tasks relies heavily on expert annotations. The Open-Set for\nfine-grained Self-Supervised Learning (SSL) problem aims to enhance performance\non downstream tasks by strategically sampling a subset of images (the Core-Set)\nfrom a large pool of unlabeled data (the Open-Set). In this paper, we propose a\nnovel method, BloomCoreset, that significantly reduces sampling time from\nOpen-Set while preserving the quality of samples in the coreset. To achieve\nthis, we utilize Bloom filters as an innovative hashing mechanism to store both\nlow- and high-level features of the fine-grained dataset, as captured by\nOpen-CLIP, in a space-efficient manner that enables rapid retrieval of the\ncoreset from the Open-Set. To show the effectiveness of the sampled coreset, we\nintegrate the proposed method into the state-of-the-art fine-grained SSL\nframework, SimCore [1]. The proposed algorithm drastically outperforms the\nsampling strategy of the baseline in SimCore [1] with a $98.5\\%$ reduction in\nsampling time with a mere $0.83\\%$ average trade-off in accuracy calculated\nacross $11$ downstream datasets.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "wmY68NXlgV6DQjgFmDOcYuMEaZUHTpYgtXb5PrajjcM",
+  "pdfSize": "7394195"
+}

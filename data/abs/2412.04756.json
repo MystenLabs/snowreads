@@ -1,0 +1,43 @@
+{
+  "id": "2412.04756",
+  "title": "ChatNVD: Advancing Cybersecurity Vulnerability Assessment with Large\n  Language Models",
+  "authors": "Shivansh Chopra, Hussain Ahmad, Diksha Goel, Claudia Szabo",
+  "authorsParsed": [
+    [
+      "Chopra",
+      "Shivansh",
+      ""
+    ],
+    [
+      "Ahmad",
+      "Hussain",
+      ""
+    ],
+    [
+      "Goel",
+      "Diksha",
+      ""
+    ],
+    [
+      "Szabo",
+      "Claudia",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 6 Dec 2024 03:45:49 GMT"
+    }
+  ],
+  "updateDate": "2024-12-09",
+  "timestamp": 1733456749000,
+  "abstract": "  The increasing frequency and sophistication of cybersecurity vulnerabilities\nin software systems underscore the urgent need for robust and effective methods\nof vulnerability assessment. However, existing approaches often rely on highly\ntechnical and abstract frameworks, which hinders understanding and increases\nthe likelihood of exploitation, resulting in severe cyberattacks. Given the\ngrowing adoption of Large Language Models (LLMs) across diverse domains, this\npaper explores their potential application in cybersecurity, specifically for\nenhancing the assessment of software vulnerabilities. We propose ChatNVD, an\nLLM-based cybersecurity vulnerability assessment tool leveraging the National\nVulnerability Database (NVD) to provide context-rich insights and streamline\nvulnerability analysis for cybersecurity professionals, developers, and\nnon-technical users. We develop three variants of ChatNVD, utilizing three\nprominent LLMs: GPT-4o mini by OpenAI, Llama 3 by Meta, and Gemini 1.5 Pro by\nGoogle. To evaluate their efficacy, we conduct a comparative analysis of these\nmodels using a comprehensive questionnaire comprising common security\nvulnerability questions, assessing their accuracy in identifying and analyzing\nsoftware vulnerabilities. This study provides valuable insights into the\npotential of LLMs to address critical challenges in understanding and\nmitigation of software vulnerabilities.\n",
+  "subjects": [
+    "Computer Science/Cryptography and Security",
+    "Computer Science/Computation and Language"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "cTtxz7Eq8clExftDtDFWqQncg59DaTQ23qVVDJuZXLI",
+  "pdfSize": "1637859"
+}

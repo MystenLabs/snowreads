@@ -1,0 +1,61 @@
+{
+  "id": "2412.10080",
+  "title": "Africanus IV. The Stimela2 framework: scalable and reproducible\n  workflows, from local to cloud compute",
+  "authors": "Oleg M. Smirnov, Sphesihle Makhathini, Jonathan S. Kenyon, Hertzog L.\n  Bester, Simon J. Perkins, Athanaseus J.T. Ramaila, Benjamin V. Hugo",
+  "authorsParsed": [
+    [
+      "Smirnov",
+      "Oleg M.",
+      ""
+    ],
+    [
+      "Makhathini",
+      "Sphesihle",
+      ""
+    ],
+    [
+      "Kenyon",
+      "Jonathan S.",
+      ""
+    ],
+    [
+      "Bester",
+      "Hertzog L.",
+      ""
+    ],
+    [
+      "Perkins",
+      "Simon J.",
+      ""
+    ],
+    [
+      "Ramaila",
+      "Athanaseus J. T.",
+      ""
+    ],
+    [
+      "Hugo",
+      "Benjamin V.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 13 Dec 2024 12:15:48 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Tue, 17 Dec 2024 11:45:55 GMT"
+    }
+  ],
+  "updateDate": "2024-12-18",
+  "timestamp": 1734092148000,
+  "abstract": "  Stimela2 is a new-generation framework for developing data reduction\nworkflows. It is designed for radio astronomy data but can be adapted for other\ndata processing applications. Stimela2 aims at the middle ground between ease\nof development, human readability, and enabling robust, scalable and\nreproducible workflows. It represents workflows by linear, concise and\nintuitive YAML-format \"recipes\". Atomic data reduction tasks (binary\nexecutables, Python functions and code, and CASA tasks) are described by\nYAML-format \"cab definitions\" detailing each task's \"schema\" (inputs and\noutputs). Stimela2 provides a rich syntax for chaining tasks together, and\nencourages a high degree of modularity: recipes may be nested into other\nrecipes, and configuration is cleanly separated from recipe logic. Tasks can be\nexecuted natively or in isolated environments using containerization\ntechnologies such as Apptainer. The container images are open-source and\nmaintained through a companion package called cult-cargo. This enables the\ndevelopment of system-agnostic and fully reproducible workflows. Stimela2\nfacilitates the deployment of scalable, distributed workflows by interfacing\nwith the Slurm scheduler and the Kubernetes API. The latter allows workflows to\nbe readily deployed in the cloud. Previous papers in this series used Stimela2\nas the underlying technology to run workflows on the AWS cloud.\n  This paper presents an overview of Stimela2's design, architecture and use in\nthe radio astronomy context.\n",
+  "subjects": [
+    "Astrophysics/Instrumentation and Methods for Astrophysics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "PqtnIyaeQZbw3PI08tutxd0KIa1-FY8bGAk_baWiLZI",
+  "pdfSize": "388711"
+}

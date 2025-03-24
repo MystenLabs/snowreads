@@ -1,0 +1,50 @@
+{
+  "id": "2412.09412",
+  "title": "Relevant, hidden, and frustrated information in high-dimensional\n  analyses of complex dynamical systems with internal noise",
+  "authors": "Chiara Lionello, Matteo Becchi, Simone Martino, Giovanni M. Pavan",
+  "authorsParsed": [
+    [
+      "Lionello",
+      "Chiara",
+      ""
+    ],
+    [
+      "Becchi",
+      "Matteo",
+      ""
+    ],
+    [
+      "Martino",
+      "Simone",
+      ""
+    ],
+    [
+      "Pavan",
+      "Giovanni M.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 12 Dec 2024 16:19:48 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Fri, 13 Dec 2024 17:23:57 GMT"
+    },
+    {
+      "version": "v3",
+      "created": "Thu, 19 Dec 2024 16:46:24 GMT"
+    }
+  ],
+  "updateDate": "2024-12-20",
+  "timestamp": 1734020388000,
+  "abstract": "  Extracting from trajectory data meaningful information to understand complex\nsystems might be non-trivial. High-dimensional analyses are typically assumed\nto be desirable, if not required, to prevent losing important information.\nHowever, to what extent such high-dimensionality is really needed/beneficial\noften remains not clear. Here we challenge such a fundamental general problem.\nAs first representative cases of a system with internal dynamical complexity,\nwe study atomistic molecular dynamics trajectories of liquid water and ice\ncoexisting in dynamical equilibrium in correspondence of the solid/liquid\ntransition temperature. To attain an intrinsically high-dimensional analysis,\nwe use the Smooth Overlap of Atomic Positions (SOAP) descriptor, obtaining a\nlarge dataset containing 2.56e6 576-dimensional SOAP vectors that we analyze in\nvarious ways. Surprisingly, our results demonstrate how the time-series data\ncontained in one single SOAP dimension accounting only for <0.001% of the total\nvariance (thus considered negligible and discarded in typical variance-based\ndimensionality reduction approaches) is as much, and even more descriptive than\nthe entire high-dimensional dataset. Adding more dimensions to the analysis is\nfound detrimental due to \"frustrated information\" phenomena that are proven\ngeneral, and are observed also in the analysis of, e.g., experimental\ntrajectories of collective convolutions of active microparticles (used as a\nsecond case study). This work explicitly demonstrates how high-dimensional\nanalyses are not necessarily better than low-dimensional ones. These results\nalso demonstrate the importance of considering the quality (relevance) over the\nquantity of information, especially when dealing with noisy high-dimensional\ndatasets, where the noise of one dimension may have higher statistical weight\nthan the relevant information contained into another.\n",
+  "subjects": [
+    "Physics/Chemical Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "0No34NgAXQlCWhmGiHdjwYof7OH2zIZc_yYn9OOKuKo",
+  "pdfSize": "46688405"
+}

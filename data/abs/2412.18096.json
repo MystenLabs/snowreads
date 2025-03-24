@@ -1,0 +1,87 @@
+{
+  "id": "2412.18096",
+  "title": "Real-world Deployment and Evaluation of PErioperative AI CHatbot (PEACH)\n  -- a Large Language Model Chatbot for Perioperative Medicine",
+  "authors": "Yu He Ke, Liyuan Jin, Kabilan Elangovan, Bryan Wen Xi Ong, Chin Yang\n  Oh, Jacqueline Sim, Kenny Wei-Tsen Loh, Chai Rick Soh, Jonathan Ming Hua\n  Cheng, Aaron Kwang Yang Lee, Daniel Shu Wei Ting, Nan Liu, and Hairil Rizal\n  Abdullah",
+  "authorsParsed": [
+    [
+      "Ke",
+      "Yu He",
+      ""
+    ],
+    [
+      "Jin",
+      "Liyuan",
+      ""
+    ],
+    [
+      "Elangovan",
+      "Kabilan",
+      ""
+    ],
+    [
+      "Ong",
+      "Bryan Wen Xi",
+      ""
+    ],
+    [
+      "Oh",
+      "Chin Yang",
+      ""
+    ],
+    [
+      "Sim",
+      "Jacqueline",
+      ""
+    ],
+    [
+      "Loh",
+      "Kenny Wei-Tsen",
+      ""
+    ],
+    [
+      "Soh",
+      "Chai Rick",
+      ""
+    ],
+    [
+      "Cheng",
+      "Jonathan Ming Hua",
+      ""
+    ],
+    [
+      "Lee",
+      "Aaron Kwang Yang",
+      ""
+    ],
+    [
+      "Ting",
+      "Daniel Shu Wei",
+      ""
+    ],
+    [
+      "Liu",
+      "Nan",
+      ""
+    ],
+    [
+      "Abdullah",
+      "Hairil Rizal",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 24 Dec 2024 02:14:13 GMT"
+    }
+  ],
+  "updateDate": "2024-12-25",
+  "timestamp": 1735006453000,
+  "abstract": "  Large Language Models (LLMs) are emerging as powerful tools in healthcare,\nparticularly for complex, domain-specific tasks. This study describes the\ndevelopment and evaluation of the PErioperative AI CHatbot (PEACH), a secure\nLLM-based system integrated with local perioperative guidelines to support\npreoperative clinical decision-making. PEACH was embedded with 35 institutional\nperioperative protocols in the secure Claude 3.5 Sonet LLM framework within\nPair Chat (developed by Singapore Government) and tested in a silent deployment\nwith real-world data. Accuracy, safety, and usability were assessed. Deviations\nand hallucinations were categorized based on potential harm, and user feedback\nwas evaluated using the Technology Acceptance Model (TAM). Updates were made\nafter the initial silent deployment to amend one protocol.\n  In 240 real-world clinical iterations, PEACH achieved a first-generation\naccuracy of 97.5% (78/80) and an overall accuracy of 96.7% (232/240) across\nthree iterations. The updated PEACH demonstrated improved accuracy of 97.9%\n(235/240), with a statistically significant difference from the null hypothesis\nof 95% accuracy (p = 0.018, 95% CI: 0.952-0.991). Minimal hallucinations and\ndeviations were observed (both 1/240 and 2/240, respectively). Clinicians\nreported that PEACH expedited decisions in 95% of cases, and inter-rater\nreliability ranged from kappa 0.772-0.893 within PEACH and 0.610-0.784 among\nattendings.\n  PEACH is an accurate, adaptable tool that enhances consistency and efficiency\nin perioperative decision-making. Future research should explore its\nscalability across specialties and its impact on clinical outcomes.\n",
+  "subjects": [
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+  "blobId": "zFAMyJOd9xcM4iYkVG0j9FeR1mznjBWpX8mZDBmYOWo",
+  "pdfSize": "966170"
+}

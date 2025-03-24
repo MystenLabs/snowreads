@@ -1,0 +1,59 @@
+{
+  "id": "2412.16275",
+  "title": "LEARN: A Unified Framework for Multi-Task Domain Adapt Few-Shot Learning",
+  "authors": "Bharadwaj Ravichandran, Alexander Lynch, Sarah Brockman, Brandon\n  RichardWebster, Dawei Du, Anthony Hoogs, Christopher Funk",
+  "authorsParsed": [
+    [
+      "Ravichandran",
+      "Bharadwaj",
+      ""
+    ],
+    [
+      "Lynch",
+      "Alexander",
+      ""
+    ],
+    [
+      "Brockman",
+      "Sarah",
+      ""
+    ],
+    [
+      "RichardWebster",
+      "Brandon",
+      ""
+    ],
+    [
+      "Du",
+      "Dawei",
+      ""
+    ],
+    [
+      "Hoogs",
+      "Anthony",
+      ""
+    ],
+    [
+      "Funk",
+      "Christopher",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 20 Dec 2024 17:16:15 GMT"
+    }
+  ],
+  "updateDate": "2024-12-24",
+  "timestamp": 1734714975000,
+  "abstract": "  Both few-shot learning and domain adaptation sub-fields in Computer Vision\nhave seen significant recent progress in terms of the availability of\nstate-of-the-art algorithms and datasets. Frameworks have been developed for\neach sub-field; however, building a common system or framework that combines\nboth is something that has not been explored. As part of our research, we\npresent the first unified framework that combines domain adaptation for the\nfew-shot learning setting across 3 different tasks - image classification,\nobject detection and video classification. Our framework is highly modular with\nthe capability to support few-shot learning with/without the inclusion of\ndomain adaptation depending on the algorithm. Furthermore, the most important\nconfigurable feature of our framework is the on-the-fly setup for incremental\n$n$-shot tasks with the optional capability to configure the system to scale to\na traditional many-shot task. With more focus on Self-Supervised Learning (SSL)\nfor current few-shot learning approaches, our system also supports multiple SSL\npre-training configurations. To test our framework's capabilities, we provide\nbenchmarks on a wide range of algorithms and datasets across different task and\nproblem settings. The code is open source has been made publicly available\nhere: https://gitlab.kitware.com/darpa_learn/learn\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "EoAU1EEvpimDW0aAJewKbOTcsqnc8bMs_j6sLrV7SLo",
+  "pdfSize": "2273219"
+}

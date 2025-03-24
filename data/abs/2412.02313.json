@@ -1,0 +1,48 @@
+{
+  "id": "2412.02313",
+  "title": "Noisy Ostracods: A Fine-Grained, Imbalanced Real-World Dataset for\n  Benchmarking Robust Machine Learning and Label Correction Methods",
+  "authors": "Jiamian Hu, Yuanyuan Hong, Yihua Chen, He Wang, Moriaki Yasuhara",
+  "authorsParsed": [
+    [
+      "Hu",
+      "Jiamian",
+      ""
+    ],
+    [
+      "Hong",
+      "Yuanyuan",
+      ""
+    ],
+    [
+      "Chen",
+      "Yihua",
+      ""
+    ],
+    [
+      "Wang",
+      "He",
+      ""
+    ],
+    [
+      "Yasuhara",
+      "Moriaki",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 3 Dec 2024 09:30:57 GMT"
+    }
+  ],
+  "updateDate": "2024-12-04",
+  "timestamp": 1733218257000,
+  "abstract": "  We present the Noisy Ostracods, a noisy dataset for genus and species\nclassification of crustacean ostracods with specialists' annotations. Over the\n71466 specimens collected, 5.58% of them are estimated to be noisy (possibly\nproblematic) at genus level. The dataset is created to addressing a real-world\nchallenge: creating a clean fine-grained taxonomy dataset. The Noisy Ostracods\ndataset has diverse noises from multiple sources. Firstly, the noise is\nopen-set, including new classes discovered during curation that were not part\nof the original annotation. The dataset has pseudo-classes, where annotators\nmisclassified samples that should belong to an existing class into a new\npseudo-class. The Noisy Ostracods dataset is highly imbalanced with a imbalance\nfactor $\\rho$ = 22429. This presents a unique challenge for robust machine\nlearning methods, as existing approaches have not been extensively evaluated on\nfine-grained classification tasks with such diverse real-world noise. Initial\nexperiments using current robust learning techniques have not yielded\nsignificant performance improvements on the Noisy Ostracods dataset compared to\ncross-entropy training on the raw, noisy data. On the other hand, noise\ndetection methods have underperformed in error hit rate compared to naive\ncross-validation ensembling for identifying problematic labels. These findings\nsuggest that the fine-grained, imbalanced nature, and complex noise\ncharacteristics of the dataset present considerable challenges for existing\nnoise-robust algorithms. By openly releasing the Noisy Ostracods dataset, our\ngoal is to encourage further research into the development of noise-resilient\nmachine learning methods capable of effectively handling diverse, real-world\nnoise in fine-grained classification tasks. The dataset, along with its\nevaluation protocols, can be accessed at\nhttps://github.com/H-Jamieu/Noisy_ostracods.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "8UD0lN3-vTirf7ORVQ3f1j6Cc8o8gJe23cdjFi98wEw",
+  "pdfSize": "7554401"
+}

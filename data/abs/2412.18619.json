@@ -1,0 +1,166 @@
+{
+  "id": "2412.18619",
+  "title": "Next Token Prediction Towards Multimodal Intelligence: A Comprehensive\n  Survey",
+  "authors": "Liang Chen, Zekun Wang, Shuhuai Ren, Lei Li, Haozhe Zhao, Yunshui Li,\n  Zefan Cai, Hongcheng Guo, Lei Zhang, Yizhe Xiong, Yichi Zhang, Ruoyu Wu,\n  Qingxiu Dong, Ge Zhang, Jian Yang, Lingwei Meng, Shujie Hu, Yulong Chen,\n  Junyang Lin, Shuai Bai, Andreas Vlachos, Xu Tan, Minjia Zhang, Wen Xiao,\n  Aaron Yee, Tianyu Liu, Baobao Chang",
+  "authorsParsed": [
+    [
+      "Chen",
+      "Liang",
+      ""
+    ],
+    [
+      "Wang",
+      "Zekun",
+      ""
+    ],
+    [
+      "Ren",
+      "Shuhuai",
+      ""
+    ],
+    [
+      "Li",
+      "Lei",
+      ""
+    ],
+    [
+      "Zhao",
+      "Haozhe",
+      ""
+    ],
+    [
+      "Li",
+      "Yunshui",
+      ""
+    ],
+    [
+      "Cai",
+      "Zefan",
+      ""
+    ],
+    [
+      "Guo",
+      "Hongcheng",
+      ""
+    ],
+    [
+      "Zhang",
+      "Lei",
+      ""
+    ],
+    [
+      "Xiong",
+      "Yizhe",
+      ""
+    ],
+    [
+      "Zhang",
+      "Yichi",
+      ""
+    ],
+    [
+      "Wu",
+      "Ruoyu",
+      ""
+    ],
+    [
+      "Dong",
+      "Qingxiu",
+      ""
+    ],
+    [
+      "Zhang",
+      "Ge",
+      ""
+    ],
+    [
+      "Yang",
+      "Jian",
+      ""
+    ],
+    [
+      "Meng",
+      "Lingwei",
+      ""
+    ],
+    [
+      "Hu",
+      "Shujie",
+      ""
+    ],
+    [
+      "Chen",
+      "Yulong",
+      ""
+    ],
+    [
+      "Lin",
+      "Junyang",
+      ""
+    ],
+    [
+      "Bai",
+      "Shuai",
+      ""
+    ],
+    [
+      "Vlachos",
+      "Andreas",
+      ""
+    ],
+    [
+      "Tan",
+      "Xu",
+      ""
+    ],
+    [
+      "Zhang",
+      "Minjia",
+      ""
+    ],
+    [
+      "Xiao",
+      "Wen",
+      ""
+    ],
+    [
+      "Yee",
+      "Aaron",
+      ""
+    ],
+    [
+      "Liu",
+      "Tianyu",
+      ""
+    ],
+    [
+      "Chang",
+      "Baobao",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 16 Dec 2024 05:02:25 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Mon, 30 Dec 2024 03:00:30 GMT"
+    }
+  ],
+  "updateDate": "2024-12-31",
+  "timestamp": 1734325345000,
+  "abstract": "  Building on the foundations of language modeling in natural language\nprocessing, Next Token Prediction (NTP) has evolved into a versatile training\nobjective for machine learning tasks across various modalities, achieving\nconsiderable success. As Large Language Models (LLMs) have advanced to unify\nunderstanding and generation tasks within the textual modality, recent research\nhas shown that tasks from different modalities can also be effectively\nencapsulated within the NTP framework, transforming the multimodal information\ninto tokens and predict the next one given the context. This survey introduces\na comprehensive taxonomy that unifies both understanding and generation within\nmultimodal learning through the lens of NTP. The proposed taxonomy covers five\nkey aspects: Multimodal tokenization, MMNTP model architectures, unified task\nrepresentation, datasets \\& evaluation, and open challenges. This new taxonomy\naims to aid researchers in their exploration of multimodal intelligence. An\nassociated GitHub repository collecting the latest papers and repos is\navailable at https://github.com/LMM101/Awesome-Multimodal-Next-Token-Prediction\n",
+  "subjects": [
+    "Computer Science/Computation and Language",
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Machine Learning",
+    "Computer Science/Multimedia",
+    "Electrical Engineering and Systems Science/Audio and Speech Processing"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "3Q26z0bICxbLQHZ0zF6xb3eMDPOoUyMFl4fkn1jIOGk",
+  "pdfSize": "5635686"
+}

@@ -1,0 +1,67 @@
+{
+  "id": "2412.12932",
+  "title": "CoMT: A Novel Benchmark for Chain of Multi-modal Thought on Large\n  Vision-Language Models",
+  "authors": "Zihui Cheng, Qiguang Chen, Jin Zhang, Hao Fei, Xiaocheng Feng,\n  Wanxiang Che, Min Li, Libo Qin",
+  "authorsParsed": [
+    [
+      "Cheng",
+      "Zihui",
+      ""
+    ],
+    [
+      "Chen",
+      "Qiguang",
+      ""
+    ],
+    [
+      "Zhang",
+      "Jin",
+      ""
+    ],
+    [
+      "Fei",
+      "Hao",
+      ""
+    ],
+    [
+      "Feng",
+      "Xiaocheng",
+      ""
+    ],
+    [
+      "Che",
+      "Wanxiang",
+      ""
+    ],
+    [
+      "Li",
+      "Min",
+      ""
+    ],
+    [
+      "Qin",
+      "Libo",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 17 Dec 2024 14:10:16 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Sat, 15 Feb 2025 06:32:55 GMT"
+    }
+  ],
+  "updateDate": "2025-02-18",
+  "timestamp": 1734444616000,
+  "abstract": "  Large Vision-Language Models (LVLMs) have recently demonstrated amazing\nsuccess in multi-modal tasks, including advancements in Multi-modal\nChain-of-Thought (MCoT) reasoning. Despite these successes, current benchmarks\nstill follow a traditional paradigm with multi-modal input and text-modal\noutput, which leads to significant drawbacks such as missing visual operations\nand vague expressions. Motivated by this, we introduce a novel Chain of\nMulti-modal Thought (CoMT) benchmark to address these limitations. Different\nfrom the traditional MCoT benchmark, CoMT requires both multi-modal input and\nmulti-modal reasoning output, aiming to mimic human-like reasoning that\ninherently integrates visual operation. Specifically, CoMT consists of four\ncategories: (1) Visual Creation, (2) Visual Deletion, (3) Visual Update, and\n(4) Visual Selection to comprehensively explore complex visual operations and\nconcise expression in real scenarios. We evaluate various LVLMs and strategies\non CoMT, revealing some key insights into the capabilities and limitations of\nthe current approaches. We hope that CoMT can inspire more research on\nintroducing multi-modal generation into the reasoning process.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "wps0G33y6OBO2rYTNsvC6XUgTA5OD7KOkaAvV_pYH8c",
+  "pdfSize": "2770442"
+}

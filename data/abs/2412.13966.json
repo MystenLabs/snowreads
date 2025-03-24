@@ -1,0 +1,57 @@
+{
+  "id": "2412.13966",
+  "title": "Comparative Analysis of Machine Learning-Based Imputation Techniques for\n  Air Quality Datasets with High Missing Data Rates",
+  "authors": "Sen Yan, David J. O'Connor, Xiaojun Wang, Noel E. O'Connor, Alan F.\n  Smeaton, Mingming Liu",
+  "authorsParsed": [
+    [
+      "Yan",
+      "Sen",
+      ""
+    ],
+    [
+      "O'Connor",
+      "David J.",
+      ""
+    ],
+    [
+      "Wang",
+      "Xiaojun",
+      ""
+    ],
+    [
+      "O'Connor",
+      "Noel E.",
+      ""
+    ],
+    [
+      "Smeaton",
+      "Alan F.",
+      ""
+    ],
+    [
+      "Liu",
+      "Mingming",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 18 Dec 2024 15:45:08 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Wed, 25 Dec 2024 13:39:20 GMT"
+    }
+  ],
+  "updateDate": "2024-12-30",
+  "timestamp": 1734536708000,
+  "abstract": "  Urban pollution poses serious health risks, particularly in relation to\ntraffic-related air pollution, which remains a major concern in many cities.\nVehicle emissions contribute to respiratory and cardiovascular issues,\nespecially for vulnerable and exposed road users like pedestrians and cyclists.\nTherefore, accurate air quality monitoring with high spatial resolution is\nvital for good urban environmental management. This study aims to provide\ninsights for processing spatiotemporal datasets with high missing data rates.\nIn this study, the challenge of high missing data rates is a result of the\nlimited data available and the fine granularity required for precise\nclassification of PM2.5 levels. The data used for analysis and imputation were\ncollected from both mobile sensors and fixed stations by Dynamic Parcel\nDistribution, the Environmental Protection Agency, and Google in Dublin,\nIreland, where the missing data rate was approximately 82.42%, making accurate\nParticulate Matter 2.5 level predictions particularly difficult. Various\nimputation and prediction approaches were evaluated and compared, including\nensemble methods, deep learning models, and diffusion models. External features\nsuch as traffic flow, weather conditions, and data from the nearest stations\nwere incorporated to enhance model performance. The results indicate that\ndiffusion methods with external features achieved the highest F1 score,\nreaching 0.9486 (Accuracy: 94.26%, Precision: 94.42%, Recall: 94.82%), with\nensemble models achieving the highest accuracy of 94.82%, illustrating that\ngood performance can be obtained despite a high missing data rate.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Physics/Data Analysis, Statistics and Probability"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "rAnO_82uJodsuSk2R8uiC4HAj_9291t1OBj7NUXHYIU",
+  "pdfSize": "14432007"
+}

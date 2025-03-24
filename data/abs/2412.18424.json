@@ -1,0 +1,82 @@
+{
+  "id": "2412.18424",
+  "title": "LongDocURL: a Comprehensive Multimodal Long Document Benchmark\n  Integrating Understanding, Reasoning, and Locating",
+  "authors": "Chao Deng, Jiale Yuan, Pi Bu, Peijie Wang, Zhong-Zhi Li, Jian Xu,\n  Xiao-Hui Li, Yuan Gao, Jun Song, Bo Zheng, Cheng-Lin Liu",
+  "authorsParsed": [
+    [
+      "Deng",
+      "Chao",
+      ""
+    ],
+    [
+      "Yuan",
+      "Jiale",
+      ""
+    ],
+    [
+      "Bu",
+      "Pi",
+      ""
+    ],
+    [
+      "Wang",
+      "Peijie",
+      ""
+    ],
+    [
+      "Li",
+      "Zhong-Zhi",
+      ""
+    ],
+    [
+      "Xu",
+      "Jian",
+      ""
+    ],
+    [
+      "Li",
+      "Xiao-Hui",
+      ""
+    ],
+    [
+      "Gao",
+      "Yuan",
+      ""
+    ],
+    [
+      "Song",
+      "Jun",
+      ""
+    ],
+    [
+      "Zheng",
+      "Bo",
+      ""
+    ],
+    [
+      "Liu",
+      "Cheng-Lin",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 24 Dec 2024 13:39:32 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Fri, 27 Dec 2024 08:33:31 GMT"
+    }
+  ],
+  "updateDate": "2024-12-30",
+  "timestamp": 1735047572000,
+  "abstract": "  Large vision language models (LVLMs) have improved the document understanding\ncapabilities remarkably, enabling the handling of complex document elements,\nlonger contexts, and a wider range of tasks. However, existing document\nunderstanding benchmarks have been limited to handling only a small number of\npages and fail to provide a comprehensive analysis of layout elements locating.\nIn this paper, we first define three primary task categories: Long Document\nUnderstanding, numerical Reasoning, and cross-element Locating, and then\npropose a comprehensive benchmark, LongDocURL, integrating above three primary\ntasks and comprising 20 sub-tasks categorized based on different primary tasks\nand answer evidences. Furthermore, we develop a semi-automated construction\npipeline and collect 2,325 high-quality question-answering pairs, covering more\nthan 33,000 pages of documents, significantly outperforming existing\nbenchmarks. Subsequently, we conduct comprehensive evaluation experiments on\nboth open-source and closed-source models across 26 different configurations,\nrevealing critical performance gaps in this field.\n",
+  "subjects": [
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Computation and Language"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "-UdFIoEl2Jl7P_G0pTn2qM68DS2WcSDW_EFIZCTc_RE",
+  "pdfSize": "15231840"
+}

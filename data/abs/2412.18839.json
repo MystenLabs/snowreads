@@ -1,0 +1,43 @@
+{
+  "id": "2412.18839",
+  "title": "Advancing NAM-to-Speech Conversion with Novel Methods and the MultiNAM\n  Dataset",
+  "authors": "Neil Shah, Shirish Karande, Vineet Gandhi",
+  "authorsParsed": [
+    [
+      "Shah",
+      "Neil",
+      ""
+    ],
+    [
+      "Karande",
+      "Shirish",
+      ""
+    ],
+    [
+      "Gandhi",
+      "Vineet",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 25 Dec 2024 08:57:24 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Thu, 23 Jan 2025 05:39:51 GMT"
+    }
+  ],
+  "updateDate": "2025-01-24",
+  "timestamp": 1735117044000,
+  "abstract": "  Current Non-Audible Murmur (NAM)-to-speech techniques rely on voice cloning\nto simulate ground-truth speech from paired whispers. However, the simulated\nspeech often lacks intelligibility and fails to generalize well across\ndifferent speakers. To address this issue, we focus on learning phoneme-level\nalignments from paired whispers and text and employ a Text-to-Speech (TTS)\nsystem to simulate the ground-truth. To reduce dependence on whispers, we learn\nphoneme alignments directly from NAMs, though the quality is constrained by the\navailable training data. To further mitigate reliance on NAM/whisper data for\nground-truth simulation, we propose incorporating the lip modality to infer\nspeech and introduce a novel diffusion-based method that leverages recent\nadvancements in lip-to-speech technology. Additionally, we release the MultiNAM\ndataset with over 7.96 hours of paired NAM, whisper, video, and text data from\ntwo speakers and benchmark all methods on this dataset. Speech samples and the\ndataset are available at https://diff-nam.github.io/DiffNAM/\n",
+  "subjects": [
+    "Computer Science/Sound",
+    "Computer Science/Artificial Intelligence",
+    "Electrical Engineering and Systems Science/Audio and Speech Processing"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "IROI4267EjcF6enw_iPwANmBnoX2QQzsOdLUvzbMs3k",
+  "pdfSize": "840356"
+}

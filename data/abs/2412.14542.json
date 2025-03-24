@@ -1,0 +1,54 @@
+{
+  "id": "2412.14542",
+  "title": "Lessons learned from the detection of wide companions by radial velocity\n  and astrometry",
+  "authors": "Fabo Feng, Guang-Yao Xiao, Hugh R. A. Jones, James S. Jenkins, Pablo\n  Pena, Qinghui Sun",
+  "authorsParsed": [
+    [
+      "Feng",
+      "Fabo",
+      ""
+    ],
+    [
+      "Xiao",
+      "Guang-Yao",
+      ""
+    ],
+    [
+      "Jones",
+      "Hugh R. A.",
+      ""
+    ],
+    [
+      "Jenkins",
+      "James S.",
+      ""
+    ],
+    [
+      "Pena",
+      "Pablo",
+      ""
+    ],
+    [
+      "Sun",
+      "Qinghui",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 19 Dec 2024 05:49:15 GMT"
+    }
+  ],
+  "updateDate": "2024-12-20",
+  "timestamp": 1734587355000,
+  "abstract": "  The detection and constraint of the orbits of long-period giant planets is\nessential for enabling their further study through direct imaging. Recently,\nVenner et al. (2024) highlighted discrepancies between the solutions presented\nby Feng et al. (2022) and those from other studies, which primarily use orvara.\nWe address these concerns by reanalyzing the data for HD 28185, GJ 229, HD\n211847, GJ 680, HD 111031, and eps Ind A, offering explanations for these\ndiscrepancies. Based on a comparison between the methods used by Feng et al.\n(2022) and orvara, we find the discrepancies are primarily data-related rather\nthan methodology-related. Our re-analysis of HD 28185 highlights many of the\ndata-related issues and particularly the importance of parallax modeling for\nyear-long companions. The case of eps Ind A b is instructive to emphasize the\nvalue of an extended RV baseline for accurately determining orbits of long\nperiod companions. Our orbital solutions highlight other causes for\ndiscrepancies between solutions including the combination of absolute and\nrelative astrometry, clear definitions of conventions, and efficient posterior\nsampling for the detection of wide-orbit giant planets.\n",
+  "subjects": [
+    "Astrophysics/Earth and Planetary Astrophysics",
+    "Astrophysics/Instrumentation and Methods for Astrophysics",
+    "Astrophysics/Solar and Stellar Astrophysics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "TZ53Jg6Tfx_q9pIFL1AsiTwbWf6aGlzRzNDze0aGYDE",
+  "pdfSize": "5337409"
+}

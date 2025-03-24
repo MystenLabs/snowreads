@@ -1,0 +1,199 @@
+{
+  "id": "2412.15212",
+  "title": "Scaling 4D Representations",
+  "authors": "Jo\\~ao Carreira, Dilara Gokay, Michael King, Chuhan Zhang, Ignacio\n  Rocco, Aravindh Mahendran, Thomas Albert Keck, Joseph Heyward, Skanda\n  Koppula, Etienne Pot, Goker Erdogan, Yana Hasson, Yi Yang, Klaus Greff,\n  Guillaume Le Moing, Sjoerd van Steenkiste, Daniel Zoran, Drew A. Hudson,\n  Pedro V\\'elez, Luisa Polan\\'ia, Luke Friedman, Chris Duvarney, Ross Goroshin,\n  Kelsey Allen, Jacob Walker, Rishabh Kabra, Eric Aboussouan, Jennifer Sun,\n  Thomas Kipf, Carl Doersch, Viorica P\\u{a}tr\\u{a}ucean, Dima Damen, Pauline\n  Luc, Mehdi S. M. Sajjadi, Andrew Zisserman",
+  "authorsParsed": [
+    [
+      "Carreira",
+      "João",
+      ""
+    ],
+    [
+      "Gokay",
+      "Dilara",
+      ""
+    ],
+    [
+      "King",
+      "Michael",
+      ""
+    ],
+    [
+      "Zhang",
+      "Chuhan",
+      ""
+    ],
+    [
+      "Rocco",
+      "Ignacio",
+      ""
+    ],
+    [
+      "Mahendran",
+      "Aravindh",
+      ""
+    ],
+    [
+      "Keck",
+      "Thomas Albert",
+      ""
+    ],
+    [
+      "Heyward",
+      "Joseph",
+      ""
+    ],
+    [
+      "Koppula",
+      "Skanda",
+      ""
+    ],
+    [
+      "Pot",
+      "Etienne",
+      ""
+    ],
+    [
+      "Erdogan",
+      "Goker",
+      ""
+    ],
+    [
+      "Hasson",
+      "Yana",
+      ""
+    ],
+    [
+      "Yang",
+      "Yi",
+      ""
+    ],
+    [
+      "Greff",
+      "Klaus",
+      ""
+    ],
+    [
+      "Moing",
+      "Guillaume Le",
+      ""
+    ],
+    [
+      "van Steenkiste",
+      "Sjoerd",
+      ""
+    ],
+    [
+      "Zoran",
+      "Daniel",
+      ""
+    ],
+    [
+      "Hudson",
+      "Drew A.",
+      ""
+    ],
+    [
+      "Vélez",
+      "Pedro",
+      ""
+    ],
+    [
+      "Polanía",
+      "Luisa",
+      ""
+    ],
+    [
+      "Friedman",
+      "Luke",
+      ""
+    ],
+    [
+      "Duvarney",
+      "Chris",
+      ""
+    ],
+    [
+      "Goroshin",
+      "Ross",
+      ""
+    ],
+    [
+      "Allen",
+      "Kelsey",
+      ""
+    ],
+    [
+      "Walker",
+      "Jacob",
+      ""
+    ],
+    [
+      "Kabra",
+      "Rishabh",
+      ""
+    ],
+    [
+      "Aboussouan",
+      "Eric",
+      ""
+    ],
+    [
+      "Sun",
+      "Jennifer",
+      ""
+    ],
+    [
+      "Kipf",
+      "Thomas",
+      ""
+    ],
+    [
+      "Doersch",
+      "Carl",
+      ""
+    ],
+    [
+      "Pătrăucean",
+      "Viorica",
+      ""
+    ],
+    [
+      "Damen",
+      "Dima",
+      ""
+    ],
+    [
+      "Luc",
+      "Pauline",
+      ""
+    ],
+    [
+      "Sajjadi",
+      "Mehdi S. M.",
+      ""
+    ],
+    [
+      "Zisserman",
+      "Andrew",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 19 Dec 2024 18:59:51 GMT"
+    }
+  ],
+  "updateDate": "2024-12-20",
+  "timestamp": 1734634791000,
+  "abstract": "  Scaling has not yet been convincingly demonstrated for pure self-supervised\nlearning from video. However, prior work has focused evaluations on\nsemantic-related tasks $\\unicode{x2013}$ action classification, ImageNet\nclassification, etc. In this paper we focus on evaluating self-supervised\nlearning on non-semantic vision tasks that are more spatial (3D) and temporal\n(+1D = 4D), such as camera pose estimation, point and object tracking, and\ndepth estimation. We show that by learning from very large video datasets,\nmasked auto-encoding (MAE) with transformer video models actually scales,\nconsistently improving performance on these 4D tasks, as model size increases\nfrom 20M all the way to the largest by far reported self-supervised video model\n$\\unicode{x2013}$ 22B parameters. Rigorous apples-to-apples comparison with\nmany recent image and video models demonstrates the benefits of scaling 4D\nrepresentations.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "e0YEwQ_cdd_W4RvKIwIRsdPR4pX-QDqABAKrOIRf3lU",
+  "pdfSize": "14079545"
+}

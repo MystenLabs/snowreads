@@ -1,0 +1,47 @@
+{
+  "id": "2412.16396",
+  "title": "Relationship between dissipativity concepts for linear time-varying\n  port-Hamiltonian systems",
+  "authors": "Karim Cherifi, Hannes Gernandt, Dorothea Hinsen, Volker Mehrmann,\n  Riccardo Morandin",
+  "authorsParsed": [
+    [
+      "Cherifi",
+      "Karim",
+      ""
+    ],
+    [
+      "Gernandt",
+      "Hannes",
+      ""
+    ],
+    [
+      "Hinsen",
+      "Dorothea",
+      ""
+    ],
+    [
+      "Mehrmann",
+      "Volker",
+      ""
+    ],
+    [
+      "Morandin",
+      "Riccardo",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 20 Dec 2024 23:05:38 GMT"
+    }
+  ],
+  "updateDate": "2024-12-24",
+  "timestamp": 1734735938000,
+  "abstract": "  The relationship between different dissipativity concepts for linear\ntime-varying systems is studied, in particular between port-Hamiltonian\nsystems, passive systems, and systems with nonnegative supply. It is shown that\nlinear time-varying port-Hamiltonian systems are passive, have nonnegative\nsupply rates, and solve (under different smoothness assumptions)\nKalman-Yakubovich-Popov differential and integral inequalities. The converse\nrelations are also studied in detail. In particular, sufficient conditions are\npresented to obtain a port-Hamiltonian representation starting from any of the\nother dissipativity concepts. Two applications are presented.\n",
+  "subjects": [
+    "Mathematics/Optimization and Control"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "KbbsVMbBukxMqekCYxG2XqyRcX_LzHTFx6fqLmf575g",
+  "pdfSize": "865065"
+}

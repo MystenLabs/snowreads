@@ -1,0 +1,37 @@
+{
+  "id": "2412.18059",
+  "title": "Diverse Concept Proposals for Concept Bottleneck Models",
+  "authors": "Katrina Brown, Marton Havasi, Finale Doshi-Velez",
+  "authorsParsed": [
+    [
+      "Brown",
+      "Katrina",
+      ""
+    ],
+    [
+      "Havasi",
+      "Marton",
+      ""
+    ],
+    [
+      "Doshi-Velez",
+      "Finale",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 24 Dec 2024 00:12:34 GMT"
+    }
+  ],
+  "updateDate": "2024-12-25",
+  "timestamp": 1734999154000,
+  "abstract": "  Concept bottleneck models are interpretable predictive models that are often\nused in domains where model trust is a key priority, such as healthcare. They\nidentify a small number of human-interpretable concepts in the data, which they\nthen use to make predictions. Learning relevant concepts from data proves to be\na challenging task. The most predictive concepts may not align with expert\nintuition, thus, failing interpretability with no recourse. Our proposed\napproach identifies a number of predictive concepts that explain the data. By\noffering multiple alternative explanations, we allow the human expert to choose\nthe one that best aligns with their expectation. To demonstrate our method, we\nshow that it is able discover all possible concept representations on a\nsynthetic dataset. On EHR data, our model was able to identify 4 out of the 5\npre-defined concepts without supervision.\n",
+  "subjects": [
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "ZgK2ZtjFf6VEEK2R-ELPJcLsQ9PiS2cL0JTcHGDlWy8",
+  "pdfSize": "455930"
+}

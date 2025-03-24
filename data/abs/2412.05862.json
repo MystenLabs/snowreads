@@ -1,0 +1,41 @@
+{
+  "id": "2412.05862",
+  "title": "Domain-Specific Translation with Open-Source Large Language Models:\n  Resource-Oriented Analysis",
+  "authors": "Aman Kassahun Wassie, Mahdi Molaei, Yasmin Moslem",
+  "authorsParsed": [
+    [
+      "Wassie",
+      "Aman Kassahun",
+      ""
+    ],
+    [
+      "Molaei",
+      "Mahdi",
+      ""
+    ],
+    [
+      "Moslem",
+      "Yasmin",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 8 Dec 2024 08:54:13 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Tue, 25 Feb 2025 18:59:04 GMT"
+    }
+  ],
+  "updateDate": "2025-02-26",
+  "timestamp": 1733648053000,
+  "abstract": "  In this work, we compare the domain-specific translation performance of\nopen-source autoregressive decoder-only large language models (LLMs) with\ntask-oriented machine translation (MT) models. Our experiments focus on the\nmedical domain and cover four language pairs with varied resource availability:\nEnglish-to-French, English-to-Portuguese, English-to-Swahili, and\nSwahili-to-English. Despite recent advancements, LLMs exhibit a clear gap in\nspecialized translation quality compared to multilingual encoder-decoder MT\nmodels such as NLLB-200. In three out of four language directions in our study,\nNLLB-200 3.3B outperforms all LLMs in the size range of 8B parameters in\nmedical translation. While fine-tuning LLMs such as Mistral and Llama improves\ntheir performance at medical translation, these models still fall short\ncompared to fine-tuned NLLB-200 3.3B models. Our findings highlight the ongoing\nneed for specialized MT models to achieve higher-quality domain-specific\ntranslation, especially in medium-resource and low-resource settings. As larger\nLLMs outperform their 8B variants, this also encourages pre-training\ndomain-specific medium-sized LMs to improve quality and efficiency in\nspecialized translation tasks.\n",
+  "subjects": [
+    "Computer Science/Computation and Language"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "Wj0aHmJk6Nx3E4MVWSXzFaFO8LmOU1RCPf_7WukHUp8",
+  "pdfSize": "235171"
+}

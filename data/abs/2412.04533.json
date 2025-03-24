@@ -1,0 +1,42 @@
+{
+  "id": "2412.04533",
+  "title": "Mask-Adapter: The Devil is in the Masks for Open-Vocabulary Segmentation",
+  "authors": "Yongkang Li and Tianheng Cheng and Wenyu Liu and Xinggang Wang",
+  "authorsParsed": [
+    [
+      "Li",
+      "Yongkang",
+      ""
+    ],
+    [
+      "Cheng",
+      "Tianheng",
+      ""
+    ],
+    [
+      "Liu",
+      "Wenyu",
+      ""
+    ],
+    [
+      "Wang",
+      "Xinggang",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 5 Dec 2024 17:42:37 GMT"
+    }
+  ],
+  "updateDate": "2024-12-09",
+  "timestamp": 1733420557000,
+  "abstract": "  Recent open-vocabulary segmentation methods adopt mask generators to predict\nsegmentation masks and leverage pre-trained vision-language models, e.g., CLIP,\nto classify these masks via mask pooling. Although these approaches show\npromising results, it is counterintuitive that accurate masks often fail to\nyield accurate classification results through pooling CLIP image embeddings\nwithin the mask regions. In this paper, we reveal the performance limitations\nof mask pooling and introduce Mask-Adapter, a simple yet effective method to\naddress these challenges in open-vocabulary segmentation. Compared to directly\nusing proposal masks, our proposed Mask-Adapter extracts semantic activation\nmaps from proposal masks, providing richer contextual information and ensuring\nalignment between masks and CLIP. Additionally, we propose a mask consistency\nloss that encourages proposal masks with similar IoUs to obtain similar CLIP\nembeddings to enhance models' robustness to varying predicted masks.\nMask-Adapter integrates seamlessly into open-vocabulary segmentation methods\nbased on mask pooling in a plug-and-play manner, delivering more accurate\nclassification results. Extensive experiments across several zero-shot\nbenchmarks demonstrate significant performance gains for the proposed\nMask-Adapter on several well-established methods. Notably, Mask-Adapter also\nextends effectively to SAM and achieves impressive results on several\nopen-vocabulary segmentation datasets. Code and models are available at\n\\url{https://github.com/hustvl/MaskAdapter}.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "R16UXDxi_W084yw4T3SpAdcTHO-oUmLnajT1g861xUU",
+  "pdfSize": "5736280"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2412.01852",
+  "title": "Communication efficient application of sequences of planar rotations to\n  a matrix",
+  "authors": "Thijs Steel and Julien Langou",
+  "authorsParsed": [
+    [
+      "Steel",
+      "Thijs",
+      ""
+    ],
+    [
+      "Langou",
+      "Julien",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 29 Nov 2024 10:21:12 GMT"
+    }
+  ],
+  "updateDate": "2024-12-04",
+  "timestamp": 1732875672000,
+  "abstract": "  We present an efficient algorithm for the application of sequences of planar\nrotations to a matrix. Applying such sequences efficiently is important in many\nnumerical linear algebra algorithms for eigenvalues. Our algorithm is novel in\nthree main ways. First, we introduce a new kernel that is optimized for\nregister reuse in a novel way. Second, we introduce a blocking and packing\nscheme that improves the cache efficiency of the algorithm. Finally, we\nthoroughly analyze the memory operations of the algorithm which leads to\nimportant theoretical insights and makes it easier to select good parameters.\nNumerical experiments show that our algorithm outperforms the state-of-the-art\nand achieves a flop rate close to the theoretical peak on modern hardware.\n",
+  "subjects": [
+    "Computer Science/Performance",
+    "Computer Science/Data Structures and Algorithms"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "xH7uIqkDrSGMF6VfKSbBmNXzdE6BVpp_QPzvegJYcOY",
+  "pdfSize": "287894"
+}

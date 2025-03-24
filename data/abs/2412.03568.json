@@ -1,0 +1,72 @@
+{
+  "id": "2412.03568",
+  "title": "The Matrix: Infinite-Horizon World Generation with Real-Time Moving\n  Control",
+  "authors": "Ruili Feng, Han Zhang, Zhantao Yang, Jie Xiao, Zhilei Shu, Zhiheng\n  Liu, Andy Zheng, Yukun Huang, Yu Liu, Hongyang Zhang",
+  "authorsParsed": [
+    [
+      "Feng",
+      "Ruili",
+      ""
+    ],
+    [
+      "Zhang",
+      "Han",
+      ""
+    ],
+    [
+      "Yang",
+      "Zhantao",
+      ""
+    ],
+    [
+      "Xiao",
+      "Jie",
+      ""
+    ],
+    [
+      "Shu",
+      "Zhilei",
+      ""
+    ],
+    [
+      "Liu",
+      "Zhiheng",
+      ""
+    ],
+    [
+      "Zheng",
+      "Andy",
+      ""
+    ],
+    [
+      "Huang",
+      "Yukun",
+      ""
+    ],
+    [
+      "Liu",
+      "Yu",
+      ""
+    ],
+    [
+      "Zhang",
+      "Hongyang",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 4 Dec 2024 18:59:05 GMT"
+    }
+  ],
+  "updateDate": "2024-12-05",
+  "timestamp": 1733338745000,
+  "abstract": "  We present The Matrix, the first foundational realistic world simulator\ncapable of generating continuous 720p high-fidelity real-scene video streams\nwith real-time, responsive control in both first- and third-person\nperspectives, enabling immersive exploration of richly dynamic environments.\nTrained on limited supervised data from AAA games like Forza Horizon 5 and\nCyberpunk 2077, complemented by large-scale unsupervised footage from\nreal-world settings like Tokyo streets, The Matrix allows users to traverse\ndiverse terrains -- deserts, grasslands, water bodies, and urban landscapes --\nin continuous, uncut hour-long sequences. Operating at 16 FPS, the system\nsupports real-time interactivity and demonstrates zero-shot generalization,\ntranslating virtual game environments to real-world contexts where collecting\ncontinuous movement data is often infeasible. For example, The Matrix can\nsimulate a BMW X3 driving through an office setting--an environment present in\nneither gaming data nor real-world sources. This approach showcases the\npotential of AAA game data to advance robust world models, bridging the gap\nbetween simulations and real-world applications in scenarios with limited data.\n",
+  "subjects": [
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "l7TWTX5vIB1iFjGvQcJXVsrY_sFeczkW50nZXfKSoHk",
+  "pdfSize": "45687018"
+}

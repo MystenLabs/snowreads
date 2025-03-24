@@ -1,0 +1,85 @@
+{
+  "id": "2412.10351",
+  "title": "VibrantVS: A high-resolution multi-task transformer for forest canopy\n  height estimation",
+  "authors": "Tony Chang, Kiarie Ndegwa, Andreas Gros, Vincent A. Landau, Luke J.\n  Zachmann, Bogdan State, Mitchell A. Gritts, Colton W. Miller, Nathan E.\n  Rutenbeck, Scott Conway, Guy Bayes",
+  "authorsParsed": [
+    [
+      "Chang",
+      "Tony",
+      ""
+    ],
+    [
+      "Ndegwa",
+      "Kiarie",
+      ""
+    ],
+    [
+      "Gros",
+      "Andreas",
+      ""
+    ],
+    [
+      "Landau",
+      "Vincent A.",
+      ""
+    ],
+    [
+      "Zachmann",
+      "Luke J.",
+      ""
+    ],
+    [
+      "State",
+      "Bogdan",
+      ""
+    ],
+    [
+      "Gritts",
+      "Mitchell A.",
+      ""
+    ],
+    [
+      "Miller",
+      "Colton W.",
+      ""
+    ],
+    [
+      "Rutenbeck",
+      "Nathan E.",
+      ""
+    ],
+    [
+      "Conway",
+      "Scott",
+      ""
+    ],
+    [
+      "Bayes",
+      "Guy",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 13 Dec 2024 18:47:11 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Mon, 13 Jan 2025 12:22:52 GMT"
+    },
+    {
+      "version": "v3",
+      "created": "Fri, 24 Jan 2025 19:38:09 GMT"
+    }
+  ],
+  "updateDate": "2025-01-28",
+  "timestamp": 1734115631000,
+  "abstract": "  This paper explores the application of a novel multi-task vision transformer\n(ViT) model for the estimation of canopy height models (CHMs) using 4-band\nNational Agriculture Imagery Program (NAIP) imagery across the western United\nStates. We compare the effectiveness of this model in terms of accuracy and\nprecision aggregated across ecoregions and class heights versus three other\nbenchmark peer-reviewed models. Key findings suggest that, while other\nbenchmark models can provide high precision in localized areas, the VibrantVS\nmodel has substantial advantages across a broad reach of ecoregions in the\nwestern United States with higher accuracy, higher precision, the ability to\ngenerate updated inference at a cadence of three years or less, and high\nspatial resolution. The VibrantVS model provides significant value for\necological monitoring and land management decisions, including for wildfire\nmitigation.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "AvRSMJOE7x0kIXX7NrzTqhnjI5s294YVpszbvu5kk4Q",
+  "pdfSize": "31170994"
+}

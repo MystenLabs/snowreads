@@ -1,0 +1,47 @@
+{
+  "id": "2412.11615",
+  "title": "MT-LENS: An all-in-one Toolkit for Better Machine Translation Evaluation",
+  "authors": "Javier Garc\\'ia Gilabert, Carlos Escolano, Audrey Mash, Xixian Liao,\n  Maite Melero",
+  "authorsParsed": [
+    [
+      "Gilabert",
+      "Javier García",
+      ""
+    ],
+    [
+      "Escolano",
+      "Carlos",
+      ""
+    ],
+    [
+      "Mash",
+      "Audrey",
+      ""
+    ],
+    [
+      "Liao",
+      "Xixian",
+      ""
+    ],
+    [
+      "Melero",
+      "Maite",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 16 Dec 2024 09:57:28 GMT"
+    }
+  ],
+  "updateDate": "2024-12-17",
+  "timestamp": 1734343048000,
+  "abstract": "  We introduce MT-LENS, a framework designed to evaluate Machine Translation\n(MT) systems across a variety of tasks, including translation quality, gender\nbias detection, added toxicity, and robustness to misspellings. While several\ntoolkits have become very popular for benchmarking the capabilities of Large\nLanguage Models (LLMs), existing evaluation tools often lack the ability to\nthoroughly assess the diverse aspects of MT performance. MT-LENS addresses\nthese limitations by extending the capabilities of LM-eval-harness for MT,\nsupporting state-of-the-art datasets and a wide range of evaluation metrics. It\nalso offers a user-friendly platform to compare systems and analyze\ntranslations with interactive visualizations. MT-LENS aims to broaden access to\nevaluation strategies that go beyond traditional translation quality\nevaluation, enabling researchers and engineers to better understand the\nperformance of a NMT model and also easily measure system's biases.\n",
+  "subjects": [
+    "Computer Science/Computation and Language"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "cVK1M7NvWJsYrhh6RLfK9y9q2sIDfn88QW75-_LPkps",
+  "pdfSize": "900424"
+}

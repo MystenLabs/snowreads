@@ -1,0 +1,42 @@
+{
+  "id": "2412.03506",
+  "title": "Self-test loss functions for learning weak-form operators and gradient\n  flows",
+  "authors": "Yuan Gao, Quanjun Lang, Fei Lu",
+  "authorsParsed": [
+    [
+      "Gao",
+      "Yuan",
+      ""
+    ],
+    [
+      "Lang",
+      "Quanjun",
+      ""
+    ],
+    [
+      "Lu",
+      "Fei",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 4 Dec 2024 17:48:38 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Fri, 13 Dec 2024 03:46:39 GMT"
+    }
+  ],
+  "updateDate": "2024-12-16",
+  "timestamp": 1733334518000,
+  "abstract": "  The construction of loss functions presents a major challenge in data-driven\nmodeling involving weak-form operators in PDEs and gradient flows, particularly\ndue to the need to select test functions appropriately. We address this\nchallenge by introducing self-test loss functions, which employ test functions\nthat depend on the unknown parameters, specifically for cases where the\noperator depends linearly on the unknowns. The proposed self-test loss function\nconserves energy for gradient flows and coincides with the expected\nlog-likelihood ratio for stochastic differential equations. Importantly, it is\nquadratic, facilitating theoretical analysis of identifiability and\nwell-posedness of the inverse problem, while also leading to efficient\nparametric or nonparametric regression algorithms. It is computationally\nsimple, requiring only low-order derivatives or even being entirely\nderivative-free, and numerical experiments demonstrate its robustness against\nnoisy and discrete data.\n",
+  "subjects": [
+    "Statistics/Machine Learning",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "GJRv6sE-WvNtYuPLHDzXmrMu6elgqMEPNYVV-t_NetA",
+  "pdfSize": "1833168"
+}

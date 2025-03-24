@@ -1,0 +1,42 @@
+{
+  "id": "2412.02136",
+  "title": "Graph Learning for Planning: The Story Thus Far and Open Challenges",
+  "authors": "Dillon Z. Chen, Mingyu Hao, Sylvie Thi\\'ebaux, Felipe Trevizan",
+  "authorsParsed": [
+    [
+      "Chen",
+      "Dillon Z.",
+      ""
+    ],
+    [
+      "Hao",
+      "Mingyu",
+      ""
+    ],
+    [
+      "Thiébaux",
+      "Sylvie",
+      ""
+    ],
+    [
+      "Trevizan",
+      "Felipe",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 3 Dec 2024 03:49:27 GMT"
+    }
+  ],
+  "updateDate": "2024-12-04",
+  "timestamp": 1733197767000,
+  "abstract": "  Graph learning is naturally well suited for use in planning due to its\nability to exploit relational structures exhibited in planning domains and to\ntake as input planning instances with arbitrary number of objects. In this\npaper, we study the usage of graph learning for planning thus far by studying\nthe theoretical and empirical effects on learning and planning performance of\n(1) graph representations of planning tasks, (2) graph learning architectures,\nand (3) optimisation formulations for learning. Our studies accumulate in the\nGOOSE framework which learns domain knowledge from small planning tasks in\norder to scale up to much larger planning tasks. In this paper, we also\nhighlight and propose the 5 open challenges in the general Learning for\nPlanning field that we believe need to be addressed for advancing the\nstate-of-the-art.\n",
+  "subjects": [
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "OywW3wNoegLdigtEt1faV4zQHV6ZxJiGenWkbP8qlkE",
+  "pdfSize": "453414"
+}

@@ -1,0 +1,44 @@
+{
+  "id": "2412.10194",
+  "title": "Path integral measure and cosmological constant",
+  "authors": "C. Branchina, V. Branchina, F. Contino, A. Pernace",
+  "authorsParsed": [
+    [
+      "Branchina",
+      "C.",
+      ""
+    ],
+    [
+      "Branchina",
+      "V.",
+      ""
+    ],
+    [
+      "Contino",
+      "F.",
+      ""
+    ],
+    [
+      "Pernace",
+      "A.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 13 Dec 2024 15:09:58 GMT"
+    }
+  ],
+  "updateDate": "2024-12-16",
+  "timestamp": 1734102598000,
+  "abstract": "  Considering (euclidean) quantum gravity in the Einstein-Hilbert truncation,\nwe calculate the one-loop effective action $\\Gamma^{1l}_{\\rm grav}$ using a\nspherical background. Usually, this calculation is performed resorting to\nproper-time regularization within the heat kernel expansion and gives rise to\nquartically and quadratically UV-sensitive contributions to the vacuum energy\n$\\rho_{\\rm vac}=\\frac{\\Lambda_{\\rm cc}}{8\\pi G}$, with $\\Lambda_{\\rm cc}$ and\n$G$ cosmological and Newton constant, respectively. We show that, if the\nmeasure in the path integral that defines $\\Gamma^{1l}_{\\rm grav}$ is correctly\ntaken into account, and the physical UV cutoff $\\Lambda_{\\rm cut}$ properly\nintroduced, $\\rho_{\\rm vac}$ presents only a (mild) logarithmic sensitivity to\n$\\Lambda_{\\rm cut}$. We also consider a free scalar field and a free Dirac\nfield on a spherical gravitational background, and find that the same holds\ntrue even in the presence of matter. These results are found without resorting\nto any supersymmetric embedding of the theory, and shed new light on the\ncosmological constant problem.\n",
+  "subjects": [
+    "Physics/High Energy Physics - Theory",
+    "Physics/General Relativity and Quantum Cosmology",
+    "Physics/High Energy Physics - Phenomenology"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "v9QLtd3IgWtp0EqWBuP5H-XUCekLZlxQ5xk22alnsTw",
+  "pdfSize": "289305"
+}

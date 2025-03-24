@@ -1,0 +1,48 @@
+{
+  "id": "2412.13591",
+  "title": "Single-cell spatial (scs) omics: Recent developments in data analysis",
+  "authors": "Jos\\'e Camacho, Michael Sorochan Armstrong, Luz Garc\\'ia-Mart\\'inez,\n  Caridad D\\'iaz, Carolina G\\'omez-Llorente",
+  "authorsParsed": [
+    [
+      "Camacho",
+      "José",
+      ""
+    ],
+    [
+      "Armstrong",
+      "Michael Sorochan",
+      ""
+    ],
+    [
+      "García-Martínez",
+      "Luz",
+      ""
+    ],
+    [
+      "Díaz",
+      "Caridad",
+      ""
+    ],
+    [
+      "Gómez-Llorente",
+      "Carolina",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 18 Dec 2024 08:15:26 GMT"
+    }
+  ],
+  "updateDate": "2024-12-19",
+  "timestamp": 1734509726000,
+  "abstract": "  Over the past few years, technological advances have allowed for measurement\nof omics data at the cell level, creating a new type of data generally referred\nto as single-cell (sc) omics. On the other hand, the so-called spatial omics\nare a family of techniques that generate biological information in a spatial\ndomain, for instance, in the volume of a tissue. In this survey, we are mostly\ninterested in the intersection between sc and spatial (scs) omics and in the\nchallenges and opportunities that this new type of data pose for downstream\ndata analysis methodologies. Our goal is to cover all major omics modalities,\nincluding transcriptomics, genomics, epigenomics, proteomics and metabolomics.\n",
+  "subjects": [
+    "Statistics/Computation",
+    "Quantitative Biology/Genomics"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "MyYRHm_-knZxoOMtikTkjrqaCvCkxUkrHcw1enV0udw",
+  "pdfSize": "538439"
+}

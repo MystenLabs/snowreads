@@ -1,0 +1,57 @@
+{
+  "id": "2412.06082",
+  "title": "Are foundation models for computer vision good conformal predictors?",
+  "authors": "Leo Fillioux, Julio Silva-Rodr\\'iguez, Ismail Ben Ayed, Paul-Henry\n  Courn\\`ede, Maria Vakalopoulou, Stergios Christodoulidis, Jose Dolz",
+  "authorsParsed": [
+    [
+      "Fillioux",
+      "Leo",
+      ""
+    ],
+    [
+      "Silva-Rodríguez",
+      "Julio",
+      ""
+    ],
+    [
+      "Ayed",
+      "Ismail Ben",
+      ""
+    ],
+    [
+      "Cournède",
+      "Paul-Henry",
+      ""
+    ],
+    [
+      "Vakalopoulou",
+      "Maria",
+      ""
+    ],
+    [
+      "Christodoulidis",
+      "Stergios",
+      ""
+    ],
+    [
+      "Dolz",
+      "Jose",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 8 Dec 2024 22:05:38 GMT"
+    }
+  ],
+  "updateDate": "2024-12-10",
+  "timestamp": 1733695538000,
+  "abstract": "  Recent advances in self-supervision and constrastive learning have brought\nthe performance of foundation models to unprecedented levels in a variety of\ntasks. Fueled by this progress, these models are becoming the prevailing\napproach for a wide array of real-world vision problems, including\nrisk-sensitive and high-stakes applications. However, ensuring safe deployment\nin these scenarios requires a more comprehensive understanding of their\nuncertainty modeling capabilities, which has been barely explored. In this\nwork, we delve into the behavior of vision and vision-language foundation\nmodels under Conformal Prediction (CP), a statistical framework that provides\ntheoretical guarantees of marginal coverage of the true class. Across extensive\nexperiments including popular vision classification benchmarks, well-known\nfoundation vision models, and three CP methods, our findings reveal that\nfoundation models are well-suited for conformalization procedures, particularly\nthose integrating Vision Transformers. Furthermore, we show that calibrating\nthe confidence predictions of these models leads to efficiency degradation of\nthe conformal set on adaptive CP methods. In contrast, few-shot adaptation to\ndownstream tasks generally enhances conformal scores, where we identify\nAdapters as a better conformable alternative compared to Prompt Learning\nstrategies. Our empirical study identifies APS as particularly promising in the\ncontext of vision foundation models, as it does not violate the marginal\ncoverage property across multiple challenging, yet realistic scenarios.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "8wI4n2t0j6udtkDo5jGFP13zcsLr4zPoj_bSWbxunV0",
+  "pdfSize": "1105708"
+}

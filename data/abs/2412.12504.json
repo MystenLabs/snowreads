@@ -1,0 +1,52 @@
+{
+  "id": "2412.12504",
+  "title": "Boosting LLM-based Relevance Modeling with Distribution-Aware Robust\n  Learning",
+  "authors": "Hong Liu, Saisai Gong, Yixin Ji, Kaixin Wu, Jia Xu, Jinjie Gu",
+  "authorsParsed": [
+    [
+      "Liu",
+      "Hong",
+      ""
+    ],
+    [
+      "Gong",
+      "Saisai",
+      ""
+    ],
+    [
+      "Ji",
+      "Yixin",
+      ""
+    ],
+    [
+      "Wu",
+      "Kaixin",
+      ""
+    ],
+    [
+      "Xu",
+      "Jia",
+      ""
+    ],
+    [
+      "Gu",
+      "Jinjie",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 17 Dec 2024 03:10:47 GMT"
+    }
+  ],
+  "updateDate": "2024-12-18",
+  "timestamp": 1734405047000,
+  "abstract": "  With the rapid advancement of pre-trained large language models (LLMs),\nrecent endeavors have leveraged the capabilities of LLMs in relevance modeling,\nresulting in enhanced performance. This is usually done through the process of\nfine-tuning LLMs on specifically annotated datasets to determine the relevance\nbetween queries and items. However, there are two limitations when LLMs are\nnaively employed for relevance modeling through fine-tuning and inference.\nFirst, it is not inherently efficient for performing nuanced tasks beyond\nsimple yes or no answers, such as assessing search relevance. It may therefore\ntend to be overconfident and struggle to distinguish fine-grained degrees of\nrelevance (e.g., strong relevance, weak relevance, irrelevance) used in search\nengines. Second, it exhibits significant performance degradation when\nconfronted with data distribution shift in real-world scenarios. In this paper,\nwe propose a novel Distribution-Aware Robust Learning framework (DaRL) for\nrelevance modeling in Alipay Search. Specifically, we design an effective loss\nfunction to enhance the discriminability of LLM-based relevance modeling across\nvarious fine-grained degrees of query-item relevance. To improve the\ngeneralizability of LLM-based relevance modeling, we first propose the\nDistribution-Aware Sample Augmentation (DASA) module. This module utilizes\nout-of-distribution (OOD) detection techniques to actively select appropriate\nsamples that are not well covered by the original training set for model\nfine-tuning. Furthermore, we adopt a multi-stage fine-tuning strategy to\nsimultaneously improve in-distribution (ID) and OOD performance, bridging the\nperformance gap between them. DaRL has been deployed online to serve the\nAlipay's insurance product search...\n",
+  "subjects": [
+    "Computer Science/Information Retrieval"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "SQ-wmcoUWS6sbdx0K9Lpn7Wn5WfAvtPFLXjIe2VQFkU",
+  "pdfSize": "1523037"
+}

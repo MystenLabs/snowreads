@@ -1,0 +1,62 @@
+{
+  "id": "2412.13803",
+  "title": "M$^3$-VOS: Multi-Phase, Multi-Transition, and Multi-Scenery Video Object\n  Segmentation",
+  "authors": "Zixuan Chen, Jiaxin Li, Liming Tan, Yejie Guo, Junxuan Liang, Cewu Lu,\n  Yong-Lu Li",
+  "authorsParsed": [
+    [
+      "Chen",
+      "Zixuan",
+      ""
+    ],
+    [
+      "Li",
+      "Jiaxin",
+      ""
+    ],
+    [
+      "Tan",
+      "Liming",
+      ""
+    ],
+    [
+      "Guo",
+      "Yejie",
+      ""
+    ],
+    [
+      "Liang",
+      "Junxuan",
+      ""
+    ],
+    [
+      "Lu",
+      "Cewu",
+      ""
+    ],
+    [
+      "Li",
+      "Yong-Lu",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 18 Dec 2024 12:50:11 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Thu, 19 Dec 2024 12:31:34 GMT"
+    }
+  ],
+  "updateDate": "2024-12-20",
+  "timestamp": 1734526211000,
+  "abstract": "  Intelligent robots need to interact with diverse objects across various\nenvironments. The appearance and state of objects frequently undergo complex\ntransformations depending on the object properties, e.g., phase transitions.\nHowever, in the vision community, segmenting dynamic objects with phase\ntransitions is overlooked. In light of this, we introduce the concept of phase\nin segmentation, which categorizes real-world objects based on their visual\ncharacteristics and potential morphological and appearance changes. Then, we\npresent a new benchmark, Multi-Phase, Multi-Transition, and Multi-Scenery Video\nObject Segmentation (M$^3$-VOS), to verify the ability of models to understand\nobject phases, which consists of 479 high-resolution videos spanning over 10\ndistinct everyday scenarios. It provides dense instance mask annotations that\ncapture both object phases and their transitions. We evaluate state-of-the-art\nmethods on M$^3$-VOS, yielding several key insights. Notably, current\nappearancebased approaches show significant room for improvement when handling\nobjects with phase transitions. The inherent changes in disorder suggest that\nthe predictive performance of the forward entropy-increasing process can be\nimproved through a reverse entropy-reducing process. These findings lead us to\npropose ReVOS, a new plug-andplay model that improves its performance by\nreversal refinement. Our data and code will be publicly available at\nhttps://zixuan-chen.github.io/M-cubeVOS.github.io/.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "7hSbQc1rHVDL-bE-6NHMtJPxgaklwJ76K1eFAm7PMdg",
+  "pdfSize": "6787641"
+}

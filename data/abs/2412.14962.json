@@ -1,0 +1,62 @@
+{
+  "id": "2412.14962",
+  "title": "ThinCurr: An open-source 3D thin-wall eddy current modeling code for the\n  analysis of large-scale systems of conducting structures",
+  "authors": "Christopher Hansen, Alexander Battey, Anson Braun, Sander Miller,\n  Michael Lagieski, Ian Stewart, Ryan Sweeney, Carlos Paz-Soldan",
+  "authorsParsed": [
+    [
+      "Hansen",
+      "Christopher",
+      ""
+    ],
+    [
+      "Battey",
+      "Alexander",
+      ""
+    ],
+    [
+      "Braun",
+      "Anson",
+      ""
+    ],
+    [
+      "Miller",
+      "Sander",
+      ""
+    ],
+    [
+      "Lagieski",
+      "Michael",
+      ""
+    ],
+    [
+      "Stewart",
+      "Ian",
+      ""
+    ],
+    [
+      "Sweeney",
+      "Ryan",
+      ""
+    ],
+    [
+      "Paz-Soldan",
+      "Carlos",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 19 Dec 2024 15:42:52 GMT"
+    }
+  ],
+  "updateDate": "2024-12-20",
+  "timestamp": 1734622972000,
+  "abstract": "  In this paper we present a new thin-wall eddy current modeling code,\nThinCurr, for studying inductively-coupled currents in 3D conducting structures\n-- with primary application focused on the interaction between currents flowing\nin coils, plasma, and conducting structures of magnetically-confined plasma\ndevices. The code utilizes a boundary finite element method on an unstructured,\ntriangular grid to accurately capture device structures. The new code, part of\nthe broader Open FUSION Toolkit, is open-source and designed for ease of use\nwithout sacrificing capability and speed through a combination of Python,\nFortran, and C/C++ components. Scalability to large models is enabled through\nuse of hierarchical off-diagonal low-rank compression of the inductance matrix,\nwhich is otherwise dense. Ease of handling large models of complicated geometry\nis further supported by automatic determination of supplemental elements\nthrough a greedy homology approach. A detailed description of the numerical\nmethods of the code and verification of the implementation of those methods\nusing cross-code comparisons against the VALEN code and Ansys commercial\nanalysis software is shown.\n",
+  "subjects": [
+    "Physics/Plasma Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "8Elq6X-nTsB9BUbYL-NW10FHQhIhQC92BCCTCm0HOVM",
+  "pdfSize": "6337805"
+}

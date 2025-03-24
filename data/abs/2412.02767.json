@@ -1,0 +1,46 @@
+{
+  "id": "2412.02767",
+  "title": "Endogenous Heteroskedasticity in Linear Models",
+  "authors": "Javier Alejo, Antonio F. Galvao, Julian Martinez-Iriarte, and Gabriel\n  Montes-Rojas",
+  "authorsParsed": [
+    [
+      "Alejo",
+      "Javier",
+      ""
+    ],
+    [
+      "Galvao",
+      "Antonio F.",
+      ""
+    ],
+    [
+      "Martinez-Iriarte",
+      "Julian",
+      ""
+    ],
+    [
+      "Montes-Rojas",
+      "Gabriel",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 3 Dec 2024 19:09:48 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Fri, 10 Jan 2025 18:24:55 GMT"
+    }
+  ],
+  "updateDate": "2025-01-13",
+  "timestamp": 1733252988000,
+  "abstract": "  Linear regressions with endogeneity are widely used to estimate causal\neffects. This paper studies a framework that has two common issues, endogeneity\nof the regressors, and heteroskedasticity that is allowed to depend on\nendogenous regressors, i.e., endogenous heteroskedasticity. We show that the\npresence of such conditional heteroskedasticity in the structural regression\nrenders the two-stages least squares estimator inconsistent. To solve this\nissue, we propose sufficient conditions together with a control function\napproach to identify and estimate the causal parameters of interest. We\nestablish the limiting properties of the estimator, say consistency and\nasymptotic normality, and propose inference procedures. Monte Carlo simulations\nprovide evidence of the finite sample performance of the proposed methods, and\nevaluate different implementation procedures. We revisit an empirical\napplication about job training to illustrate the methods.\n",
+  "subjects": [
+    "Economics/Econometrics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "nMETTuXxxKsZpHThFSzQEEzYrUK-y4HsDSymtblyunY",
+  "pdfSize": "416844"
+}

@@ -1,0 +1,41 @@
+{
+  "id": "2412.01895",
+  "title": "CO2-rich protoplanetary discs as a probe of dust radial drift & trapping",
+  "authors": "Andrew D. Sellek, Marissa Vlasblom, Ewine F. van Dishoeck",
+  "authorsParsed": [
+    [
+      "Sellek",
+      "Andrew D.",
+      ""
+    ],
+    [
+      "Vlasblom",
+      "Marissa",
+      ""
+    ],
+    [
+      "van Dishoeck",
+      "Ewine F.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 2 Dec 2024 19:00:01 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Mon, 20 Jan 2025 23:43:42 GMT"
+    }
+  ],
+  "updateDate": "2025-02-05",
+  "timestamp": 1733166001000,
+  "abstract": "  MIR spectra imply considerable chemical diversity in the inner regions of\nprotoplanetary discs: some are H2O-dominated, others by CO2. Sublimating ices\nfrom radially drifting dust grains are often invoked to explain some of this\ndiversity, particularly the H2O-rich discs. We use a 1D protoplanetary disc\nevolution code to model how radially drifting dust grains that transport ices\ninwards to snowlines impact the chemistry of the inner regions of\nprotoplanetary discs. We explore differences between smooth discs and those\nwhere radial drift is impeded by dust trapping outside gas gaps and quantify\nthe effects of gap location and formation time. Discs evolve through an initial\nH2O-rich phase due to sublimating ices, followed by a CO2-rich phase as H2O\nvapour advects onto the star and CO2 advects into the inner disc from its\nsnowline. The inclusion of traps hastens the transition between the phases,\nraising the CO2/H2O ratio; gaps opened early or close-in produce lower\nincreases by blocking more CO2 ice from reaching the inner disc. This leads to\na potential correlation between CO2/H2O and gap location that occurs on Myr\ntimescales for fiducial parameters. We produce synthetic spectra from the\nmodels which we analyse with 0D LTE slab models to understand how this\nevolution may be expressed observationally. Whether the evolution can be\nretrieved depends on the contribution of dust grains to the optical depth: dust\nthat couples to the gas after crossing the H2O snowline can add to the\ncontinuum optical depth and obscure the delivered H2O, largely hiding the\nevolution in its visible column density. However, the CO2/H2O visible column\ndensity ratio is only weakly sensitive to dust continuum obscuration. This\nsuggests it may be a clearer tracer of the impact of transport on chemistry\nthan individual column densities for spectra that show weak features probing\ndeep enough in the disc. (Abridged)\n",
+  "subjects": [
+    "Astrophysics/Earth and Planetary Astrophysics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "Lrc-TIw42ZZuzyti9i0sJ5eTQ0G7F3qkmaGyiOaZAcc",
+  "pdfSize": "6065875"
+}

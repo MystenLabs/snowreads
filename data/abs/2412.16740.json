@@ -1,0 +1,28 @@
+{
+  "id": "2412.16740",
+  "title": "Hilbert's tenth problem for systems of diagonal quadratic forms, and\n  B\\\"{u}chi's problem",
+  "authors": "Stanley Yao Xiao",
+  "authorsParsed": [
+    [
+      "Xiao",
+      "Stanley Yao",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 21 Dec 2024 19:09:09 GMT"
+    }
+  ],
+  "updateDate": "2024-12-24",
+  "timestamp": 1734808149000,
+  "abstract": "  In this paper we complete B\\\"{u}chi's proof that there is no decision\nalgorithm for the solubility in integers of arbitrary systems of diagonal\nquadratic form equations, by proving the assertion that whenever $x_1^2,\n\\cdots, x_5^2$ are five squares such that the second differences satisfy\n  \\[x_{k+2}^2 - 2 x_{k+1}^2 + x_k^2 = 2\\]\n  for $k = 1,2,3$, then they must be consecutive. This answers a question of\nJ.~Richard~B\\\"{u}chi.\n",
+  "subjects": [
+    "Mathematics/Number Theory",
+    "Mathematics/Algebraic Geometry"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "8zEl4VTXHW3wRQKpGZU3BtoBV149z7LKO4AuIZVTqFg",
+  "pdfSize": "248058"
+}

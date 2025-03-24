@@ -1,0 +1,39 @@
+{
+  "id": "2412.06410",
+  "title": "BatchTopK Sparse Autoencoders",
+  "authors": "Bart Bussmann, Patrick Leask, Neel Nanda",
+  "authorsParsed": [
+    [
+      "Bussmann",
+      "Bart",
+      ""
+    ],
+    [
+      "Leask",
+      "Patrick",
+      ""
+    ],
+    [
+      "Nanda",
+      "Neel",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 9 Dec 2024 11:39:00 GMT"
+    }
+  ],
+  "updateDate": "2024-12-10",
+  "timestamp": 1733744340000,
+  "abstract": "  Sparse autoencoders (SAEs) have emerged as a powerful tool for interpreting\nlanguage model activations by decomposing them into sparse, interpretable\nfeatures. A popular approach is the TopK SAE, that uses a fixed number of the\nmost active latents per sample to reconstruct the model activations. We\nintroduce BatchTopK SAEs, a training method that improves upon TopK SAEs by\nrelaxing the top-k constraint to the batch-level, allowing for a variable\nnumber of latents to be active per sample. As a result, BatchTopK adaptively\nallocates more or fewer latents depending on the sample, improving\nreconstruction without sacrificing average sparsity. We show that BatchTopK\nSAEs consistently outperform TopK SAEs in reconstructing activations from GPT-2\nSmall and Gemma 2 2B, and achieve comparable performance to state-of-the-art\nJumpReLU SAEs. However, an advantage of BatchTopK is that the average number of\nlatents can be directly specified, rather than approximately tuned through a\ncostly hyperparameter sweep. We provide code for training and evaluating\nBatchTopK SAEs at https://github.com/bartbussmann/BatchTopK\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Computer Science/Artificial Intelligence",
+    "Statistics/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "neZBvC7kRUwokK7eQbXc_hp-H0FWBGXQx5O1kqpO4wI",
+  "pdfSize": "405394"
+}

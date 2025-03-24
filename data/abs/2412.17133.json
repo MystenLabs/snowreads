@@ -1,0 +1,37 @@
+{
+  "id": "2412.17133",
+  "title": "Tandem spoofing-robust automatic speaker verification based on\n  time-domain embeddings",
+  "authors": "Avishai Weizman, Yehuda Ben-Shimol, Itshak Lapidot",
+  "authorsParsed": [
+    [
+      "Weizman",
+      "Avishai",
+      ""
+    ],
+    [
+      "Ben-Shimol",
+      "Yehuda",
+      ""
+    ],
+    [
+      "Lapidot",
+      "Itshak",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 22 Dec 2024 18:41:53 GMT"
+    }
+  ],
+  "updateDate": "2024-12-24",
+  "timestamp": 1734892913000,
+  "abstract": "  Spoofing-robust automatic speaker verification (SASV) systems are a crucial\ntechnology for the protection against spoofed speech. In this study, we focus\non logical access attacks and introduce a novel approach to SASV tasks. A novel\nrepresentation of genuine and spoofed speech is employed, based on the\nprobability mass function (PMF) of waveform amplitudes in the time domain. This\nmethodology generates novel time embeddings derived from the PMF of selected\ngroups within the training set. This paper highlights the role of gender\nsegregation and its positive impact on performance. We propose a countermeasure\n(CM) system that employs time-domain embeddings derived from the PMF of spoofed\nand genuine speech, as well as gender recognition based on male and female\ntime-based embeddings. The method exhibits notable gender recognition\ncapabilities, with mismatch rates of 0.94% and 1.79% for males and females,\nrespectively. The male and female CM systems achieve an equal error rate (EER)\nof 8.67% and 10.12%, respectively. By integrating this approach with\ntraditional speaker verification systems, we demonstrate improved\ngeneralization ability and tandem detection cost function evaluation using the\nASVspoof2019 challenge database. Furthermore, we investigate the impact of\nfusing the time embedding approach with traditional CM and illustrate how this\nfusion enhances generalization in SASV architectures.\n",
+  "subjects": [
+    "Electrical Engineering and Systems Science/Audio and Speech Processing"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "qz7pQx6JLNPUG9rMz519FuGziC6fyPKSr2OW7pl1p90",
+  "pdfSize": "3399219"
+}

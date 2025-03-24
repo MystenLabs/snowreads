@@ -1,0 +1,38 @@
+{
+  "id": "2412.12667",
+  "title": "A Two-Fold Patch Selection Approach for Improved 360-Degree Image\n  Quality Assessment",
+  "authors": "Abderrezzaq Sendjasni, Seif-Eddine Benkabou, Mohamed-Chaker Larabi",
+  "authorsParsed": [
+    [
+      "Sendjasni",
+      "Abderrezzaq",
+      ""
+    ],
+    [
+      "Benkabou",
+      "Seif-Eddine",
+      ""
+    ],
+    [
+      "Larabi",
+      "Mohamed-Chaker",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 17 Dec 2024 08:36:47 GMT"
+    }
+  ],
+  "updateDate": "2024-12-18",
+  "timestamp": 1734424607000,
+  "abstract": "  This article presents a novel approach to improving the accuracy of\n360-degree perceptual image quality assessment (IQA) through a two-fold patch\nselection process. Our methodology combines visual patch selection with\nembedding similarity-based refinement. The first stage focuses on selecting\npatches from 360-degree images using three distinct sampling methods to ensure\ncomprehensive coverage of visual content for IQA. The second stage, which is\nthe core of our approach, employs an embedding similarity-based selection\nprocess to filter and prioritize the most informative patches based on their\nembeddings similarity distances. This dual selection mechanism ensures that the\ntraining data is both relevant and informative, enhancing the model's learning\nefficiency. Extensive experiments and statistical analyses using three distance\nmetrics across three benchmark datasets validate the effectiveness of our\nselection algorithm. The results highlight its potential to deliver robust and\naccurate 360-degree IQA, with performance gains of up to 4.5% in accuracy and\nmonotonicity of quality score prediction, while using only 40% to 50% of the\ntraining patches. These improvements are consistent across various\nconfigurations and evaluation metrics, demonstrating the strength of the\nproposed method. The code for the selection process is available at:\nhttps://github.com/sendjasni/patch-selection-360-image-quality.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "mR2n8EYfow__B2nwKS4TQAdiBhi7jdWhIaYrhOtyVQE",
+  "pdfSize": "3924684"
+}

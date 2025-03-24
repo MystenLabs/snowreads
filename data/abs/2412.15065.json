@@ -1,0 +1,54 @@
+{
+  "id": "2412.15065",
+  "title": "Numerical analysis and simulation of lateral memristive devices:\n  Schottky, ohmic, and multi-dimensional electrode models",
+  "authors": "Dilara Abdel, Maxime Herda, Martin Ziegler, Claire Chainais-Hillairet,\n  Benjamin Spetzler, Patricio Farrell",
+  "authorsParsed": [
+    [
+      "Abdel",
+      "Dilara",
+      ""
+    ],
+    [
+      "Herda",
+      "Maxime",
+      ""
+    ],
+    [
+      "Ziegler",
+      "Martin",
+      ""
+    ],
+    [
+      "Chainais-Hillairet",
+      "Claire",
+      ""
+    ],
+    [
+      "Spetzler",
+      "Benjamin",
+      ""
+    ],
+    [
+      "Farrell",
+      "Patricio",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 19 Dec 2024 17:12:02 GMT"
+    }
+  ],
+  "updateDate": "2024-12-20",
+  "timestamp": 1734628322000,
+  "abstract": "  In this paper, we present the numerical analysis and simulations of a\nmulti-dimensional memristive device model. Memristive devices and\nmemtransistors based on two-dimensional (2D) materials have demonstrated\npromising potential as components for next-generation artificial intelligence\n(AI) hardware and information technology. Our charge transport model describes\nthe drift-diffusion of electrons, holes, and ionic defects self-consistently in\nan electric field. We incorporate two types of boundary models: ohmic and\nSchottky contacts. The coupled drift-diffusion partial differential equations\nare discretized using a physics-preserving Voronoi finite volume method. It\nrelies on an implicit time-stepping scheme and the excess chemical potential\nflux approximation. We demonstrate that the fully discrete nonlinear scheme is\nunconditionally stable, preserving the free-energy structure of the continuous\nsystem and ensuring the non-negativity of carrier densities. Novel discrete\nentropy-dissipation inequalities for both boundary condition types in multiple\ndimensions allow us to prove the existence of discrete solutions. We perform\nmulti-dimensional simulations to understand the impact of electrode\nconfigurations and device geometries, focusing on the hysteresis behavior in\nlateral 2D memristive devices. Three electrode configurations -- side, top, and\nmixed contacts -- are compared numerically for different geometries and\nboundary conditions. These simulations reveal the conditions under which a\nsimplified one-dimensional electrode geometry can well represent the three\nelectrode configurations. This work lays the foundations for developing\naccurate, efficient simulation tools for 2D memristive devices and\nmemtransistors, offering tools and guidelines for their design and optimization\nin future applications.\n",
+  "subjects": [
+    "Mathematics/Numerical Analysis",
+    "Computer Science/Numerical Analysis",
+    "Physics/Applied Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "NfrqJhEpoFWp0MRhS93VioGLrmxwcJ624nDkaV0Hdd0",
+  "pdfSize": "4932633"
+}

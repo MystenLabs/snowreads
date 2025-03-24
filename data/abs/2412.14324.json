@@ -1,0 +1,59 @@
+{
+  "id": "2412.14324",
+  "title": "Observation of extrinsic topological phases in Floquet photonic lattices",
+  "authors": "Rajesh Asapanna, Rabih El Sokhen, Albert F. Adiyatullin, Cl\\'ement\n  Hainaut, Pierre Delplace, \\'Alvaro G\\'omez-Le\\'on, and Alberto Amo",
+  "authorsParsed": [
+    [
+      "Asapanna",
+      "Rajesh",
+      ""
+    ],
+    [
+      "Sokhen",
+      "Rabih El",
+      ""
+    ],
+    [
+      "Adiyatullin",
+      "Albert F.",
+      ""
+    ],
+    [
+      "Hainaut",
+      "Clément",
+      ""
+    ],
+    [
+      "Delplace",
+      "Pierre",
+      ""
+    ],
+    [
+      "Gómez-León",
+      "Álvaro",
+      ""
+    ],
+    [
+      "Amo",
+      "Alberto",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 18 Dec 2024 20:37:53 GMT"
+    }
+  ],
+  "updateDate": "2024-12-20",
+  "timestamp": 1734554273000,
+  "abstract": "  Discrete-step walks describe the dynamics of particles in a lattice subject\nto hopping or splitting events at discrete times. Despite being of primordial\ninterest to the physics of quantum walks, the topological properties arising\nfrom their discrete-step nature have been hardly explored. Here we report the\nobservation of topological phases unique to discrete-step walks. We use light\npulses in a double-fibre ring setup whose dynamics maps into a two-dimensional\nlattice subject to discrete splitting events. We show that the number of edge\nstates is not simply described by the bulk invariants of the lattice (i.e., the\nChern number and the Floquet winding number) as would be the case in static\nlattices and in lattices subject to smooth modulations. The number of edge\nstates is also determined by a topological invariant associated to the\ndiscrete-step unitary operators acting at the edges of the lattice. This\nsituation goes beyond the usual bulk-edge correspondence and allows\nmanipulating the number of edge states without the need to go through a gap\nclosing transition. Our work opens new perspectives for the engineering of\ntopological modes for particles subject to quantum walks.\n",
+  "subjects": [
+    "Physics/Quantum Physics",
+    "Condensed Matter/Mesoscale and Nanoscale Physics",
+    "Physics/Optics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "8_6Qe3nOIJ5-ATshx4-kIt43oKVTglFqE_9I9JI1irk",
+  "pdfSize": "1158169"
+}

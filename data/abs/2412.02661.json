@@ -1,0 +1,37 @@
+{
+  "id": "2412.02661",
+  "title": "Efficient Graph Matching for Correlated Stochastic Block Models",
+  "authors": "Shuwen Chai and Mikl\\'os Z. R\\'acz",
+  "authorsParsed": [
+    [
+      "Chai",
+      "Shuwen",
+      ""
+    ],
+    [
+      "Rácz",
+      "Miklós Z.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 3 Dec 2024 18:36:45 GMT"
+    }
+  ],
+  "updateDate": "2024-12-04",
+  "timestamp": 1733251005000,
+  "abstract": "  We study learning problems on correlated stochastic block models with two\nbalanced communities. Our main result gives the first efficient algorithm for\ngraph matching in this setting. In the most interesting regime where the\naverage degree is logarithmic in the number of vertices, this algorithm\ncorrectly matches all but a vanishing fraction of vertices with high\nprobability, whenever the edge correlation parameter $s$ satisfies $s^2 >\n\\alpha \\approx 0.338$, where $\\alpha$ is Otter's tree-counting constant.\nMoreover, we extend this to an efficient algorithm for exact graph matching\nwhenever this is information-theoretically possible, positively resolving an\nopen problem of R\\'acz and Sridhar (NeurIPS 2021). Our algorithm generalizes\nthe recent breakthrough work of Mao, Wu, Xu, and Yu (STOC 2023), which is based\non centered subgraph counts of a large family of trees termed chandeliers. A\nmajor technical challenge that we overcome is dealing with the additional\nestimation errors that are necessarily present due to the fact that, in\nrelevant parameter regimes, the latent community partition cannot be exactly\nrecovered from a single graph. As an application of our results, we give an\nefficient algorithm for exact community recovery using multiple correlated\ngraphs in parameter regimes where it is information-theoretically impossible to\ndo so using just a single graph.\n",
+  "subjects": [
+    "Computer Science/Data Structures and Algorithms",
+    "Computer Science/Social and Information Networks",
+    "Mathematics/Probability",
+    "Mathematics/Statistics Theory",
+    "Statistics/Machine Learning",
+    "Statistics/Statistics Theory"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "dBI-Ivwe6HXk0Y4HD2CVUnRVtN9gMr_kmy6ehLytjXU",
+  "pdfSize": "1574357"
+}

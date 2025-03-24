@@ -1,0 +1,52 @@
+{
+  "id": "2412.06471",
+  "title": "Determination of the pseudoscalar decay constant from SU(2) with two\n  fundamental flavors",
+  "authors": "Laurence Sebastian Bowes, Vincent Drach, Patrick Fritzsch, Sofie\n  Martins, Antonio Rago, Fernando Romero-L\\'opez",
+  "authorsParsed": [
+    [
+      "Bowes",
+      "Laurence Sebastian",
+      ""
+    ],
+    [
+      "Drach",
+      "Vincent",
+      ""
+    ],
+    [
+      "Fritzsch",
+      "Patrick",
+      ""
+    ],
+    [
+      "Martins",
+      "Sofie",
+      ""
+    ],
+    [
+      "Rago",
+      "Antonio",
+      ""
+    ],
+    [
+      "Romero-López",
+      "Fernando",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 9 Dec 2024 13:17:22 GMT"
+    }
+  ],
+  "updateDate": "2024-12-10",
+  "timestamp": 1733750242000,
+  "abstract": "  The SU(2) gauge group with two fundamental flavors is a candidate for a\ncomposite Higgs extension of the Standard Model. Central to Higgs phenomenology\nis a non-perturbative determination of observables of the theory, such as the\ndecay constant of the pseudo-Nambu-Goldstone Bosons. We present preliminary\nresults for the continuum limit of the pseudoscalar decay constant using a\nmixed-action setup, with non-perturbatively improved stabilized Wilson Fermions\non the sea, and maximally twisted valence quarks. Pivotal to this study is the\nrecent porting of our simulation suite HiRep to GPU architecture.\n",
+  "subjects": [
+    "Physics/High Energy Physics - Lattice"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "BYQQNuplHwrnLvsn97mvgt-_3o0b0f5q4MfLGQHdIB4",
+  "pdfSize": "537450"
+}

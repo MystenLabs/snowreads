@@ -1,0 +1,52 @@
+{
+  "id": "2412.13187",
+  "title": "HandsOnVLM: Vision-Language Models for Hand-Object Interaction\n  Prediction",
+  "authors": "Chen Bao, Jiarui Xu, Xiaolong Wang, Abhinav Gupta, Homanga Bharadhwaj",
+  "authorsParsed": [
+    [
+      "Bao",
+      "Chen",
+      ""
+    ],
+    [
+      "Xu",
+      "Jiarui",
+      ""
+    ],
+    [
+      "Wang",
+      "Xiaolong",
+      ""
+    ],
+    [
+      "Gupta",
+      "Abhinav",
+      ""
+    ],
+    [
+      "Bharadhwaj",
+      "Homanga",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 17 Dec 2024 18:58:33 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Wed, 18 Dec 2024 15:19:55 GMT"
+    }
+  ],
+  "updateDate": "2024-12-19",
+  "timestamp": 1734461913000,
+  "abstract": "  How can we predict future interaction trajectories of human hands in a scene\ngiven high-level colloquial task specifications in the form of natural\nlanguage? In this paper, we extend the classic hand trajectory prediction task\nto two tasks involving explicit or implicit language queries. Our proposed\ntasks require extensive understanding of human daily activities and reasoning\nabilities about what should be happening next given cues from the current\nscene. We also develop new benchmarks to evaluate the proposed two tasks,\nVanilla Hand Prediction (VHP) and Reasoning-Based Hand Prediction (RBHP). We\nenable solving these tasks by integrating high-level world knowledge and\nreasoning capabilities of Vision-Language Models (VLMs) with the\nauto-regressive nature of low-level ego-centric hand trajectories. Our model,\nHandsOnVLM is a novel VLM that can generate textual responses and produce\nfuture hand trajectories through natural-language conversations. Our\nexperiments show that HandsOnVLM outperforms existing task-specific methods and\nother VLM baselines on proposed tasks, and demonstrates its ability to\neffectively utilize world knowledge for reasoning about low-level human hand\ntrajectories based on the provided context. Our website contains code and\ndetailed video results https://www.chenbao.tech/handsonvlm/\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "7pKDjpwVNcZXWNzsbI7zrsiJFF2N1pjFf2zXJ0Esbjc",
+  "pdfSize": "12434645"
+}

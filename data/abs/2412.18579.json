@@ -1,0 +1,47 @@
+{
+  "id": "2412.18579",
+  "title": "ReducedLUT: Table Decomposition with \"Don't Care\" Conditions",
+  "authors": "Oliver Cassidy, Marta Andronic, Samuel Coward, George A.\n  Constantinides",
+  "authorsParsed": [
+    [
+      "Cassidy",
+      "Oliver",
+      ""
+    ],
+    [
+      "Andronic",
+      "Marta",
+      ""
+    ],
+    [
+      "Coward",
+      "Samuel",
+      ""
+    ],
+    [
+      "Constantinides",
+      "George A.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 24 Dec 2024 18:11:01 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Tue, 31 Dec 2024 14:01:54 GMT"
+    }
+  ],
+  "updateDate": "2025-01-03",
+  "timestamp": 1735063861000,
+  "abstract": "  Lookup tables (LUTs) are frequently used to efficiently store arrays of\nprecomputed values for complex mathematical computations. When used in the\ncontext of neural networks, these functions exhibit a lack of recognizable\npatterns which presents an unusual challenge for conventional logic synthesis\ntechniques. Several approaches are known to break down a single large lookup\ntable into multiple smaller ones that can be recombined. Traditional methods,\nsuch as plain tabulation, piecewise linear approximation, and multipartite\ntable methods, often yield inefficient hardware solutions when applied to\nLUT-based NNs.\n  This paper introduces ReducedLUT, a novel method to reduce the footprint of\nthe LUTs by injecting don't cares into the compression process. This additional\nfreedom introduces more self-similarities which can be exploited using known\ndecomposition techniques. We then demonstrate a particular application to\nmachine learning; by replacing unobserved patterns within the training data of\nneural network models with don't cares, we enable greater compression with\nminimal model accuracy degradation. In practice, we achieve up to $1.63\\times$\nreduction in Physical LUT utilization, with a test accuracy drop of no more\nthan $0.01$ accuracy points.\n",
+  "subjects": [
+    "Computer Science/Hardware Architecture",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by-sa/4.0/",
+  "blobId": "Su16ADwNoHd-m2Dg-4hvAMwb7YxS7hKRqxtBjRoL9I4",
+  "pdfSize": "679255"
+}

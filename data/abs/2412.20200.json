@@ -1,0 +1,60 @@
+{
+  "id": "2412.20200",
+  "title": "Federated Unlearning with Gradient Descent and Conflict Mitigation",
+  "authors": "Zibin Pan, Zhichao Wang, Chi Li, Kaiyan Zheng, Boqi Wang, Xiaoying\n  Tang, Junhua Zhao",
+  "authorsParsed": [
+    [
+      "Pan",
+      "Zibin",
+      ""
+    ],
+    [
+      "Wang",
+      "Zhichao",
+      ""
+    ],
+    [
+      "Li",
+      "Chi",
+      ""
+    ],
+    [
+      "Zheng",
+      "Kaiyan",
+      ""
+    ],
+    [
+      "Wang",
+      "Boqi",
+      ""
+    ],
+    [
+      "Tang",
+      "Xiaoying",
+      ""
+    ],
+    [
+      "Zhao",
+      "Junhua",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 28 Dec 2024 16:23:10 GMT"
+    }
+  ],
+  "updateDate": "2024-12-31",
+  "timestamp": 1735402990000,
+  "abstract": "  Federated Learning (FL) has received much attention in recent years. However,\nalthough clients are not required to share their data in FL, the global model\nitself can implicitly remember clients' local data. Therefore, it's necessary\nto effectively remove the target client's data from the FL global model to ease\nthe risk of privacy leakage and implement ``the right to be forgotten\".\nFederated Unlearning (FU) has been considered a promising way to remove data\nwithout full retraining. But the model utility easily suffers significant\nreduction during unlearning due to the gradient conflicts. Furthermore, when\nconducting the post-training to recover the model utility, the model is prone\nto move back and revert what has already been unlearned. To address these\nissues, we propose Federated Unlearning with Orthogonal Steepest Descent\n(FedOSD). We first design an unlearning Cross-Entropy loss to overcome the\nconvergence issue of the gradient ascent. A steepest descent direction for\nunlearning is then calculated in the condition of being non-conflicting with\nother clients' gradients and closest to the target client's gradient. This\nbenefits to efficiently unlearn and mitigate the model utility reduction. After\nunlearning, we recover the model utility by maintaining the achievement of\nunlearning. Finally, extensive experiments in several FL scenarios verify that\nFedOSD outperforms the SOTA FU algorithms in terms of unlearning and model\nutility.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Cryptography and Security",
+    "Computer Science/Distributed, Parallel, and Cluster Computing"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "ljZo8_9at216Pi-3cJvFISZXhVOjuZDYc11IeFuceCU",
+  "pdfSize": "848149"
+}

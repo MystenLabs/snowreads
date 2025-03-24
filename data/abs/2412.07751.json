@@ -1,0 +1,53 @@
+{
+  "id": "2412.07751",
+  "title": "On Motion Blur and Deblurring in Visual Place Recognition",
+  "authors": "Timur Ismagilov, Bruno Ferrarini, Michael Milford, Tan Viet Tuyen\n  Nguyen, SD Ramchurn, Shoaib Ehsan",
+  "authorsParsed": [
+    [
+      "Ismagilov",
+      "Timur",
+      ""
+    ],
+    [
+      "Ferrarini",
+      "Bruno",
+      ""
+    ],
+    [
+      "Milford",
+      "Michael",
+      ""
+    ],
+    [
+      "Nguyen",
+      "Tan Viet Tuyen",
+      ""
+    ],
+    [
+      "Ramchurn",
+      "SD",
+      ""
+    ],
+    [
+      "Ehsan",
+      "Shoaib",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 10 Dec 2024 18:49:51 GMT"
+    }
+  ],
+  "updateDate": "2024-12-11",
+  "timestamp": 1733856591000,
+  "abstract": "  Visual Place Recognition (VPR) in mobile robotics enables robots to localize\nthemselves by recognizing previously visited locations using visual data. While\nthe reliability of VPR methods has been extensively studied under conditions\nsuch as changes in illumination, season, weather and viewpoint, the impact of\nmotion blur is relatively unexplored despite its relevance not only in rapid\nmotion scenarios but also in low-light conditions where longer exposure times\nare necessary. Similarly, the role of image deblurring in enhancing VPR\nperformance under motion blur has received limited attention so far. This paper\nbridges these gaps by introducing a new benchmark designed to evaluate VPR\nperformance under the influence of motion blur and image deblurring. The\nbenchmark includes three datasets that encompass a wide range of motion blur\nintensities, providing a comprehensive platform for analysis. Experimental\nresults with several well-established VPR and image deblurring methods provide\nnew insights into the effects of motion blur and the potential improvements\nachieved through deblurring. Building on these findings, the paper proposes\nadaptive deblurring strategies for VPR, designed to effectively manage motion\nblur in dynamic, real-world scenarios.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Electrical Engineering and Systems Science/Image and Video Processing"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "-g1PIK_F3uJsjq8CsyzOsrw3zbNwsyMI83N39v8LECY",
+  "pdfSize": "4376245"
+}

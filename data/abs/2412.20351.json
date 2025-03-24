@@ -1,0 +1,32 @@
+{
+  "id": "2412.20351",
+  "title": "Wavelet Based Frequency Detection Using FPGAs",
+  "authors": "Caleb Hill and Darshika G. Perera",
+  "authorsParsed": [
+    [
+      "Hill",
+      "Caleb",
+      ""
+    ],
+    [
+      "Perera",
+      "Darshika G.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 29 Dec 2024 04:48:33 GMT"
+    }
+  ],
+  "updateDate": "2024-12-31",
+  "timestamp": 1735447713000,
+  "abstract": "  In the realm of signal processing, frequency and spectrum detection are\nfundamental tasks that can be computationally intensive. This project leverages\nthe power of FPGAs to perform wavelet analysis on an input signal. The goal is\nto detect the presence of a specific frequency component - in this case, 6 kHz.\nOur experiments demonstrate that wavelet-based spectral detection is both\npossible, and easily implemented using an FPGA.\n",
+  "subjects": [
+    "Computer Science/Hardware Architecture"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "A8w0dlIW43O54boE8-a5F2lbVibP_QGnsptMt0niS2Y",
+  "pdfSize": "887054"
+}

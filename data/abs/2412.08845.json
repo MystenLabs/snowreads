@@ -1,0 +1,43 @@
+{
+  "id": "2412.08845",
+  "title": "Quantum-Train-Based Distributed Multi-Agent Reinforcement Learning",
+  "authors": "Kuan-Cheng Chen, Samuel Yen-Chi Chen, Chen-Yu Liu, Kin K. Leung",
+  "authorsParsed": [
+    [
+      "Chen",
+      "Kuan-Cheng",
+      ""
+    ],
+    [
+      "Chen",
+      "Samuel Yen-Chi",
+      ""
+    ],
+    [
+      "Liu",
+      "Chen-Yu",
+      ""
+    ],
+    [
+      "Leung",
+      "Kin K.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 12 Dec 2024 00:51:41 GMT"
+    }
+  ],
+  "updateDate": "2024-12-13",
+  "timestamp": 1733964701000,
+  "abstract": "  In this paper, we introduce Quantum-Train-Based Distributed Multi-Agent\nReinforcement Learning (Dist-QTRL), a novel approach to addressing the\nscalability challenges of traditional Reinforcement Learning (RL) by\nintegrating quantum computing principles. Quantum-Train Reinforcement Learning\n(QTRL) leverages parameterized quantum circuits to efficiently generate neural\nnetwork parameters, achieving a \\(poly(\\log(N))\\) reduction in the\ndimensionality of trainable parameters while harnessing quantum entanglement\nfor superior data representation. The framework is designed for distributed\nmulti-agent environments, where multiple agents, modeled as Quantum Processing\nUnits (QPUs), operate in parallel, enabling faster convergence and enhanced\nscalability. Additionally, the Dist-QTRL framework can be extended to\nhigh-performance computing (HPC) environments by utilizing distributed quantum\ntraining for parameter reduction in classical neural networks, followed by\ninference using classical CPUs or GPUs. This hybrid quantum-HPC approach allows\nfor further optimization in real-world applications. In this paper, we provide\na mathematical formulation of the Dist-QTRL framework and explore its\nconvergence properties, supported by empirical results demonstrating\nperformance improvements over centric QTRL models. The results highlight the\npotential of quantum-enhanced RL in tackling complex, high-dimensional tasks,\nparticularly in distributed computing settings, where our framework achieves\nsignificant speedups through parallelization without compromising model\naccuracy. This work paves the way for scalable, quantum-enhanced RL systems in\npractical applications, leveraging both quantum and classical computational\nresources.\n",
+  "subjects": [
+    "Physics/Quantum Physics",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "RJqVDEl3Q5mS2VnPVaOuS9jlNZiFWPirw7C46_qyK8s",
+  "pdfSize": "8741072"
+}

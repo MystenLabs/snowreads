@@ -1,0 +1,49 @@
+{
+  "id": "2412.05591",
+  "title": "BERTCaps: BERT Capsule for Persian Multi-Domain Sentiment Analysis",
+  "authors": "Mohammadali Memari, Soghra Mikaeyl Nejad, Amir Parsa Rabiei, Mehrshad\n  Eisaei and Saba Hesaraki",
+  "authorsParsed": [
+    [
+      "Memari",
+      "Mohammadali",
+      ""
+    ],
+    [
+      "Nejad",
+      "Soghra Mikaeyl",
+      ""
+    ],
+    [
+      "Rabiei",
+      "Amir Parsa",
+      ""
+    ],
+    [
+      "Eisaei",
+      "Mehrshad",
+      ""
+    ],
+    [
+      "Hesaraki",
+      "Saba",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 7 Dec 2024 09:08:25 GMT"
+    }
+  ],
+  "updateDate": "2024-12-10",
+  "timestamp": 1733562505000,
+  "abstract": "  Multidomain sentiment analysis involves estimating the polarity of an\nunstructured text by exploiting domain specific information. One of the main\nissues common to the approaches discussed in the literature is their poor\napplicability to domains that differ from those used to construct opinion\nmodels.This paper aims to present a new method for Persian multidomain SA\nanalysis using deep learning approaches. The proposed BERTCapsules approach\nconsists of a combination of BERT and Capsule models. In this approach, BERT\nwas used for Instance representation, and Capsule Structure was used to learn\nthe extracted graphs. Digikala dataset, including ten domains with both\npositive and negative polarity, was used to evaluate this approach. The\nevaluation of the BERTCaps model achieved an accuracy of 0.9712 in sentiment\nclassification binary classification and 0.8509 in domain classification .\n",
+  "subjects": [
+    "Computer Science/Computation and Language",
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "domxVkQS3hmxJnEfYYpMA9KH-dI-WWQrfgw5yJQJZY4",
+  "pdfSize": "1597598"
+}

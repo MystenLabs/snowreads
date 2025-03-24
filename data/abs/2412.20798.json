@@ -1,0 +1,42 @@
+{
+  "id": "2412.20798",
+  "title": "A Tale of Two Imperatives: Privacy and Explainability",
+  "authors": "Supriya Manna and Niladri Sett",
+  "authorsParsed": [
+    [
+      "Manna",
+      "Supriya",
+      ""
+    ],
+    [
+      "Sett",
+      "Niladri",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 30 Dec 2024 08:43:28 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Tue, 31 Dec 2024 16:13:54 GMT"
+    },
+    {
+      "version": "v3",
+      "created": "Sat, 22 Feb 2025 23:09:31 GMT"
+    }
+  ],
+  "updateDate": "2025-02-25",
+  "timestamp": 1735548208000,
+  "abstract": "  Deep learning's preponderance across scientific domains has reshaped\nhigh-stakes decision-making, making it essential to follow rigorous operational\nframeworks that include both Right-to-Privacy (RTP) and Right-to-Explanation\n(RTE). This paper examines the complexities of combining these two\nrequirements. For RTP, we focus on `Differential privacy' (DP), which is\nconsidered the current \\textit{gold standard} for privacy-preserving machine\nlearning due to its strong quantitative guarantee of privacy. For RTE, we focus\non post-hoc explainers: they are the \\textit{go-to} option for model auditing\nas they operate independently of model training. We formally investigate DP\nmodels and various commonly-used post-hoc explainers: how to evaluate these\nexplainers subject to RTP, and analyze the intrinsic interactions between DP\nmodels and these explainers. Furthermore, our work throws light on how RTP and\nRTE can be effectively combined in high-stakes applications. Our study\nconcludes by outlining an industrial software pipeline, with the example of a\nwildly used use-case, that respects both RTP and RTE requirements.\n",
+  "subjects": [
+    "Computer Science/Cryptography and Security",
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by-sa/4.0/",
+  "blobId": "Zb9DiMi3Y3-78_kxeP4ZfxPDhXbhikzZr5V5yPV3RmA",
+  "pdfSize": "10412039"
+}

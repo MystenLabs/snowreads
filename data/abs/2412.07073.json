@@ -1,0 +1,47 @@
+{
+  "id": "2412.07073",
+  "title": "Effects of Artificial Collisions, Filtering, and Nonlocal Closure\n  Approaches on Hermite-based Vlasov-Poisson Simulations",
+  "authors": "Opal Issan, Oleksandr Chapurin, Oleksandr Koshkarov, Gian Luca\n  Delzanno",
+  "authorsParsed": [
+    [
+      "Issan",
+      "Opal",
+      ""
+    ],
+    [
+      "Chapurin",
+      "Oleksandr",
+      ""
+    ],
+    [
+      "Koshkarov",
+      "Oleksandr",
+      ""
+    ],
+    [
+      "Delzanno",
+      "Gian Luca",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 10 Dec 2024 00:25:41 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Fri, 14 Feb 2025 20:21:34 GMT"
+    }
+  ],
+  "updateDate": "2025-02-18",
+  "timestamp": 1733790341000,
+  "abstract": "  Kinetic simulations of collisionless plasmas are computationally challenging\ndue to phase space mixing and filamentation, resulting in fine-scale velocity\nstructures. This study compares three methods developed to reduce artifacts\nrelated to limited velocity resolution in Hermite-based Vlasov-Poisson\nsimulations: artificial collisions, filtering, and nonlocal closure approaches.\nWe evaluate each method's performance in approximating the linear kinetic\nresponse function and suppressing recurrence in linear and nonlinear regimes.\nNumerical simulations of Landau damping demonstrate that artificial collisions,\nparticularly higher orders of the Lenard-Bernstein collisional operator, most\neffectively recover the correct damping rate across a range of wavenumbers.\nMoreover, Hou-Li filtering and nonlocal closures underdamp high wavenumber\nmodes in linear simulations, and the Lenard- Bernstein collisional operator\noverdamps low wavenumber modes in both linear and nonlinear simulations. This\nstudy demonstrates that hypercollisions offer a robust approach to kinetic\nsimulations, accurately capturing collisionless dynamics with limited velocity\nresolution.\n",
+  "subjects": [
+    "Physics/Plasma Physics",
+    "Physics/Computational Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "M4ylB2D0mihwez1ACwHsQT9bntDAyTDYkSlrC8j58hI",
+  "pdfSize": "11127181"
+}

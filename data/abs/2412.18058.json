@@ -1,0 +1,62 @@
+{
+  "id": "2412.18058",
+  "title": "Robinson-Schensted shapes arising from cycle decompositions",
+  "authors": "Martha Du Preez, William Q. Erickson, Jonathan Feigert, Markus\n  Hunziker, Jonathan Meddaugh, Mitchell Minyard, Mark R. Sepanski, Kyle\n  Rosengartner",
+  "authorsParsed": [
+    [
+      "Preez",
+      "Martha Du",
+      ""
+    ],
+    [
+      "Erickson",
+      "William Q.",
+      ""
+    ],
+    [
+      "Feigert",
+      "Jonathan",
+      ""
+    ],
+    [
+      "Hunziker",
+      "Markus",
+      ""
+    ],
+    [
+      "Meddaugh",
+      "Jonathan",
+      ""
+    ],
+    [
+      "Minyard",
+      "Mitchell",
+      ""
+    ],
+    [
+      "Sepanski",
+      "Mark R.",
+      ""
+    ],
+    [
+      "Rosengartner",
+      "Kyle",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 24 Dec 2024 00:08:02 GMT"
+    }
+  ],
+  "updateDate": "2024-12-25",
+  "timestamp": 1734998882000,
+  "abstract": "  In the symmetric group $S_n$, each element $\\sigma$ has an associated cycle\ntype $\\alpha$, a partition of $n$ that identifies the conjugacy class of\n$\\sigma$. The Robinson-Schensted (RS) correspondence links each $\\sigma$ to\nanother partition $\\lambda$ of $n$, representing the shape of the pair of Young\ntableaux produced by applying the RS row-insertion algorithm to $\\sigma$.\nSurprisingly, the relationship between these two partitions, namely the cycle\ntype $\\alpha$ and the RS shape $\\lambda$, has only recently become a subject of\nstudy. In this work, we explicitly describe the set of RS shapes $\\lambda$ that\ncan arise from elements of each cycle type $\\alpha$ in cases where $\\alpha$\nconsists of two cycles. To do this, we introduce the notion of an\n$\\alpha$-coloring, where one colors the entries in a certain tableau of shape\n$\\lambda$, in such a way as to construct a permutation $\\sigma$ with cycle type\n$\\alpha$ and RS shape $\\lambda$.\n",
+  "subjects": [
+    "Mathematics/Combinatorics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "NfsjBPrRKwahV59qcpoaf5vX68EH1Allqo1IE06pgaw",
+  "pdfSize": "698104"
+}

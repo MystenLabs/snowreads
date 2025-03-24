@@ -1,0 +1,34 @@
+{
+  "id": "2412.04236",
+  "title": "A History of Philosophy in Colombia through Topic Modelling",
+  "authors": "Juan R. Loaiza and Miguel Gonz\\'alez-Duque",
+  "authorsParsed": [
+    [
+      "Loaiza",
+      "Juan R.",
+      ""
+    ],
+    [
+      "González-Duque",
+      "Miguel",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 5 Dec 2024 15:14:16 GMT"
+    }
+  ],
+  "updateDate": "2024-12-06",
+  "timestamp": 1733411656000,
+  "abstract": "  Data-driven approaches to philosophy have emerged as a valuable tool for\nstudying the history of the discipline. However, most studies in this area have\nfocused on a limited number of journals from specific regions and subfields. We\nexpand the scope of this research by applying dynamic topic modelling\ntechniques to explore the history of philosophy in Colombia and Latin America.\nOur study examines the Colombian philosophy journal Ideas y Valores, founded in\n1951 and currently one of the most influential academic philosophy journals in\nthe region. By analyzing the evolution of topics across the journal's history,\nwe identify various trends and specific dynamics in philosophical discourse\nwithin the Colombian and Latin American context. Our findings reveal that the\nmost prominent topics are value theory (including ethics, political philosophy,\nand aesthetics), epistemology, and the philosophy of science. We also trace the\nevolution of articles focusing on the historical and interpretive aspects of\nphilosophical texts, and we note a notable emphasis on German philosophers such\nas Kant, Husserl, and Hegel on various topics throughout the journal's\nlifetime. Additionally, we investigate whether articles with a historical focus\nhave decreased over time due to editorial pressures. Our analysis suggests no\nsignificant decline in such articles. Finally, we propose ideas for extending\nthis research to other Latin American journals and suggest improvements for\nnatural language processing workflows in non-English languages.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Computer Science/Computation and Language",
+    "Computer Science/Digital Libraries"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "AfmGXjB9sWGD2tEmbFn-_xegwFxedoWTSfPAy3f5XqE",
+  "pdfSize": "1051127"
+}

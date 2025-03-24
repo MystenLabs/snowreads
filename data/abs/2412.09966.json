@@ -1,0 +1,44 @@
+{
+  "id": "2412.09966",
+  "title": "EP-CFG: Energy-Preserving Classifier-Free Guidance",
+  "authors": "Kai Zhang, Fujun Luan, Sai Bi, Jianming Zhang",
+  "authorsParsed": [
+    [
+      "Zhang",
+      "Kai",
+      ""
+    ],
+    [
+      "Luan",
+      "Fujun",
+      ""
+    ],
+    [
+      "Bi",
+      "Sai",
+      ""
+    ],
+    [
+      "Zhang",
+      "Jianming",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 13 Dec 2024 08:49:25 GMT"
+    }
+  ],
+  "updateDate": "2024-12-16",
+  "timestamp": 1734079765000,
+  "abstract": "  Classifier-free guidance (CFG) is widely used in diffusion models but often\nintroduces over-contrast and over-saturation artifacts at higher guidance\nstrengths. We present EP-CFG (Energy-Preserving Classifier-Free Guidance),\nwhich addresses these issues by preserving the energy distribution of the\nconditional prediction during the guidance process. Our method simply rescales\nthe energy of the guided output to match that of the conditional prediction at\neach denoising step, with an optional robust variant for improved artifact\nsuppression. Through experiments, we show that EP-CFG maintains natural image\nquality and preserves details across guidance strengths while retaining CFG's\nsemantic alignment benefits, all with minimal computational overhead.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "wi_HX0wpu_k1wnAJ0lPK7c15yw17V2eddkmQrtm_Z2Y",
+  "pdfSize": "34134095"
+}

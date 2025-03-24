@@ -1,0 +1,32 @@
+{
+  "id": "2412.10054",
+  "title": "Unsupervised Named Entity Disambiguation for Low Resource Domains",
+  "authors": "Debarghya Datta and Soumajit Pramanik",
+  "authorsParsed": [
+    [
+      "Datta",
+      "Debarghya",
+      ""
+    ],
+    [
+      "Pramanik",
+      "Soumajit",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 13 Dec 2024 11:35:00 GMT"
+    }
+  ],
+  "updateDate": "2024-12-16",
+  "timestamp": 1734089700000,
+  "abstract": "  In the ever-evolving landscape of natural language processing and information\nretrieval, the need for robust and domain-specific entity linking algorithms\nhas become increasingly apparent. It is crucial in a considerable number of\nfields such as humanities, technical writing and biomedical sciences to enrich\ntexts with semantics and discover more knowledge. The use of Named Entity\nDisambiguation (NED) in such domains requires handling noisy texts, low\nresource settings and domain-specific KBs. Existing approaches are mostly\ninappropriate for such scenarios, as they either depend on training data or are\nnot flexible enough to work with domain-specific KBs. Thus in this work, we\npresent an unsupervised approach leveraging the concept of Group Steiner Trees\n(GST), which can identify the most relevant candidates for entity\ndisambiguation using the contextual similarities across candidate entities for\nall the mentions present in a document. We outperform the state-of-the-art\nunsupervised methods by more than 40\\% (in avg.) in terms of Precision@1 across\nvarious domain-specific datasets.\n",
+  "subjects": [
+    "Computer Science/Computation and Language"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "MUd-y3sgdNHfQKg7fLkNKMTyg_3vY-fVeq1EpVDfi7k",
+  "pdfSize": "441658"
+}

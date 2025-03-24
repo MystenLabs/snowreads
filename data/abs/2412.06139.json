@@ -1,0 +1,44 @@
+{
+  "id": "2412.06139",
+  "title": "Bounded Exploration with World Model Uncertainty in Soft Actor-Critic\n  Reinforcement Learning Algorithm",
+  "authors": "Ting Qiao, Henry Williams, David Valencia, Bruce MacDonald",
+  "authorsParsed": [
+    [
+      "Qiao",
+      "Ting",
+      ""
+    ],
+    [
+      "Williams",
+      "Henry",
+      ""
+    ],
+    [
+      "Valencia",
+      "David",
+      ""
+    ],
+    [
+      "MacDonald",
+      "Bruce",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 9 Dec 2024 01:45:08 GMT"
+    }
+  ],
+  "updateDate": "2024-12-10",
+  "timestamp": 1733708708000,
+  "abstract": "  One of the bottlenecks preventing Deep Reinforcement Learning algorithms\n(DRL) from real-world applications is how to explore the environment and\ncollect informative transitions efficiently. The present paper describes\nbounded exploration, a novel exploration method that integrates both 'soft' and\nintrinsic motivation exploration. Bounded exploration notably improved the Soft\nActor-Critic algorithm's performance and its model-based extension's converging\nspeed. It achieved the highest score in 6 out of 8 experiments. Bounded\nexploration presents an alternative method to introduce intrinsic motivations\nto exploration when the original reward function has strict meanings.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Computer Science/Systems and Control",
+    "Electrical Engineering and Systems Science/Systems and Control"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "HxK2ks71KiUt8F1QgiFzS-tlxBMWIvCTP405XyD4L0Y",
+  "pdfSize": "3655353"
+}

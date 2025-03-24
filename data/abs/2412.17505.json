@@ -1,0 +1,28 @@
+{
+  "id": "2412.17505",
+  "title": "More is Less? A Simulation-Based Approach to Dynamic Interactions\n  between Biases in Multimodal Models",
+  "authors": "Mounia Drissi",
+  "authorsParsed": [
+    [
+      "Drissi",
+      "Mounia",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 23 Dec 2024 12:04:28 GMT"
+    }
+  ],
+  "updateDate": "2024-12-24",
+  "timestamp": 1734955468000,
+  "abstract": "  Multimodal machine learning models, such as those that combine text and image\nmodalities, are increasingly used in critical domains including public safety,\nsecurity, and healthcare. However, these systems inherit biases from their\nsingle modalities. This study proposes a systemic framework for analyzing\ndynamic multimodal bias interactions. Using the MMBias dataset, which\nencompasses categories prone to bias such as religion, nationality, and sexual\norientation, this study adopts a simulation-based heuristic approach to compute\nbias scores for text-only, image-only, and multimodal embeddings. A framework\nis developed to classify bias interactions as amplification (multimodal bias\nexceeds both unimodal biases), mitigation (multimodal bias is lower than both),\nand neutrality (multimodal bias lies between unimodal biases), with\nproportional analyzes conducted to identify the dominant mode and dynamics in\nthese interactions. The findings highlight that amplification (22\\%) occurs\nwhen text and image biases are comparable, while mitigation (11\\%) arises under\nthe dominance of text bias, highlighting the stabilizing role of image bias.\nNeutral interactions (67\\%) are related to a higher text bias without\ndivergence. Conditional probabilities highlight the text's dominance in\nmitigation and mixed contributions in neutral and amplification cases,\nunderscoring complex modality interplay. In doing so, the study encourages the\nuse of this heuristic, systemic, and interpretable framework to analyze\nmultimodal bias interactions, providing insight into how intermodal biases\ndynamically interact, with practical applications for multimodal modeling and\ntransferability to context-based datasets, all essential for developing fair\nand equitable AI models.\n",
+  "subjects": [
+    "Statistics/Machine Learning",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "3YjBrvj2b00yud9TVsLrBuVlxPBSjXd6PEe6_30ayug",
+  "pdfSize": "12483474"
+}

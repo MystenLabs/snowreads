@@ -1,0 +1,32 @@
+{
+  "id": "2412.05877",
+  "title": "Signal Prediction for Digital Circuits by Sigmoidal Approximations using\n  Neural Networks",
+  "authors": "Josef Salzmann and Ulrich Schmid",
+  "authorsParsed": [
+    [
+      "Salzmann",
+      "Josef",
+      ""
+    ],
+    [
+      "Schmid",
+      "Ulrich",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 8 Dec 2024 09:47:03 GMT"
+    }
+  ],
+  "updateDate": "2024-12-10",
+  "timestamp": 1733651223000,
+  "abstract": "  Investigating the temporal behavior of digital circuits is a crucial step in\nsystem design, usually done via analog or digital simulation. Analog simulators\nlike SPICE iteratively solve the differential equations characterizing the\ncircuits components numerically. Although unrivaled in accuracy, this is only\nfeasible for small designs, due to the high computational effort even for short\nsignal traces. Digital simulators use digital abstractions for predicting the\ntiming behavior of a circuit. Besides static timing analysis, which performs\ncorner-case analysis of critical path delays only, dynamic timing analysis\nprovides per-transition timing information in signal traces. In this paper, we\nadvocate a novel approach, which generalizes digital traces to traces\nconsisting of sigmoids, each parameterized by threshold crossing time and\nslope. What is needed to compute the output trace of a gate is a transfer\nfunction, which determines the parameters of the output sigmoids given the\nparameters of the input sigmoids. Harnessing the power of artificial neural\nnetworks (ANN), we implement such transfer functions via ANNs. Using inverters\nand NOR as the elementary gates in a prototype implementation of a specifically\ntailored simulator, we demonstrate that our approach operates substantially\nfaster than an analog simulator, while offering better accuracy than a digital\nsimulator.\n",
+  "subjects": [
+    "Computer Science/Hardware Architecture"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "XC12oqSX4CBI_egISWyPOYMsRhwBiyR9_L5fUgav2T8",
+  "pdfSize": "477712"
+}

@@ -1,0 +1,48 @@
+{
+  "id": "2412.13053",
+  "title": "SMOSE: Sparse Mixture of Shallow Experts for Interpretable Reinforcement\n  Learning in Continuous Control Tasks",
+  "authors": "M\\'aty\\'as Vincze, Laura Ferrarotti, Leonardo Lucio Custode, Bruno\n  Lepri, Giovanni Iacca",
+  "authorsParsed": [
+    [
+      "Vincze",
+      "Mátyás",
+      ""
+    ],
+    [
+      "Ferrarotti",
+      "Laura",
+      ""
+    ],
+    [
+      "Custode",
+      "Leonardo Lucio",
+      ""
+    ],
+    [
+      "Lepri",
+      "Bruno",
+      ""
+    ],
+    [
+      "Iacca",
+      "Giovanni",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 17 Dec 2024 16:15:04 GMT"
+    }
+  ],
+  "updateDate": "2024-12-18",
+  "timestamp": 1734452104000,
+  "abstract": "  Continuous control tasks often involve high-dimensional, dynamic, and\nnon-linear environments. State-of-the-art performance in these tasks is\nachieved through complex closed-box policies that are effective, but suffer\nfrom an inherent opacity. Interpretable policies, while generally\nunderperforming compared to their closed-box counterparts, advantageously\nfacilitate transparent decision-making within automated systems. Hence, their\nusage is often essential for diagnosing and mitigating errors, supporting\nethical and legal accountability, and fostering trust among stakeholders. In\nthis paper, we propose SMOSE, a novel method to train sparsely activated\ninterpretable controllers, based on a top-1 Mixture-of-Experts architecture.\nSMOSE combines a set of interpretable decisionmakers, trained to be experts in\ndifferent basic skills, and an interpretable router that assigns tasks among\nthe experts. The training is carried out via state-of-the-art Reinforcement\nLearning algorithms, exploiting load-balancing techniques to ensure fair expert\nusage. We then distill decision trees from the weights of the router,\nsignificantly improving the ease of interpretation. We evaluate SMOSE on six\nbenchmark environments from MuJoCo: our method outperforms recent interpretable\nbaselines and narrows the gap with noninterpretable state-of-the-art algorithms\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "2Ir_4inKDhzXonm_X6b2x0fsiRI1br1eW8hyvTeUT38",
+  "pdfSize": "2111558"
+}

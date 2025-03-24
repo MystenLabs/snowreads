@@ -1,0 +1,33 @@
+{
+  "id": "2412.15142",
+  "title": "A review of high order strong stability preserving two-derivative\n  explicit, implicit, and IMEX methods",
+  "authors": "Sigal Gottlieb and Zachary J. Grant",
+  "authorsParsed": [
+    [
+      "Gottlieb",
+      "Sigal",
+      ""
+    ],
+    [
+      "Grant",
+      "Zachary J.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 19 Dec 2024 18:25:43 GMT"
+    }
+  ],
+  "updateDate": "2024-12-20",
+  "timestamp": 1734632743000,
+  "abstract": "  High order strong stability preserving (SSP) time discretizations ensure the\nnonlinear non-inner-product strong stability properties of spatial\ndiscretizations suited for the stable simulation of hyperbolic PDEs. Over the\npast decade multiderivative time-stepping have been used for the time-evolution\nhyperbolic PDEs, so that the strong stability properties of these methods have\nbecome increasingly relevant. In this work we review sufficient conditions for\na two-derivative multistage method to preserve the strong stability properties\nof spatial discretizations in a forward Euler and different conditions on the\nsecond derivative. In particular we present the SSP theory for explicit and\nimplicit two-derivative Runge--Kutta schemes, and discuss a special condition\non the second derivative under which these implicit methods may be\nunconditionally SSP. This condition is then used in the context of\nimplicit-explicit (IMEX) multi-derivative Runge--Kutta schemes, where the\ntime-step restriction is independent of the stiff term. Finally, we present the\nSSP theory for implicit-explicit (IMEX) multi-derivative general linear\nmethods, and some novel second and third order methods where the time-step\nrestriction is independent of the stiff term.\n",
+  "subjects": [
+    "Mathematics/Numerical Analysis",
+    "Computer Science/Numerical Analysis"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "1D1nJDsXXMGm92YcmOcjkVCmnt2O3BQfyxKtYPl3ppo",
+  "pdfSize": "456756"
+}

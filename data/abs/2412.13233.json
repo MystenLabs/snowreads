@@ -1,0 +1,31 @@
+{
+  "id": "2412.13233",
+  "title": "Creating an LLM-based AI-agent: A high-level methodology towards\n  enhancing LLMs with APIs",
+  "authors": "Ioannis Tzachristas",
+  "authorsParsed": [
+    [
+      "Tzachristas",
+      "Ioannis",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 17 Dec 2024 14:14:04 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Sat, 21 Dec 2024 21:08:29 GMT"
+    }
+  ],
+  "updateDate": "2024-12-24",
+  "timestamp": 1734444844000,
+  "abstract": "  Large Language Models (LLMs) have revolutionized various aspects of\nengineering and science. Their utility is often bottlenecked by the lack of\ninteraction with the external digital environment. To overcome this limitation\nand achieve integration of LLMs and Artificial Intelligence (AI) into\nreal-world applications, customized AI agents are being constructed. Based on\nthe technological trends and techniques, we extract a high-level approach for\nconstructing these AI agents, focusing on their underlying architecture. This\nthesis serves as a comprehensive guide that elucidates a multi-faceted approach\nfor empowering LLMs with the capability to leverage Application Programming\nInterfaces (APIs). We present a 7-step methodology that begins with the\nselection of suitable LLMs and the task decomposition that is necessary for\ncomplex problem-solving. This methodology includes techniques for generating\ntraining data for API interactions and heuristics for selecting the appropriate\nAPI among a plethora of options. These steps eventually lead to the generation\nof API calls that are both syntactically and semantically aligned with the\nLLM's understanding of a given task. Moreover, we review existing frameworks\nand tools that facilitate these processes and highlight the gaps in current\nattempts. In this direction, we propose an on-device architecture that aims to\nexploit the functionality of carry-on devices by using small models from the\nHugging Face community. We examine the effectiveness of these approaches on\nreal-world applications of various domains, including the generation of a piano\nsheet. Through an extensive analysis of the literature and available\ntechnologies, this thesis aims to set a compass for researchers and\npractitioners to harness the full potential of LLMs augmented with external\ntool capabilities, thus paving the way for more autonomous, robust, and\ncontext-aware AI agents.\n",
+  "subjects": [
+    "Computer Science/Software Engineering"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "fep6ZbHwyZH8nSHbcQtkNKXxIoFG5XKpR3Fxbn0R8Ss",
+  "pdfSize": "4935577"
+}

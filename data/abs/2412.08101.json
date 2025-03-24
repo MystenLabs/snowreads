@@ -1,0 +1,58 @@
+{
+  "id": "2412.08101",
+  "title": "Generative Zoo",
+  "authors": "Tomasz Niewiadomski and Anastasios Yiannakidis and Hanz\n  Cuevas-Velasquez and Soubhik Sanyal and Michael J. Black and Silvia Zuffi and\n  Peter Kulits",
+  "authorsParsed": [
+    [
+      "Niewiadomski",
+      "Tomasz",
+      ""
+    ],
+    [
+      "Yiannakidis",
+      "Anastasios",
+      ""
+    ],
+    [
+      "Cuevas-Velasquez",
+      "Hanz",
+      ""
+    ],
+    [
+      "Sanyal",
+      "Soubhik",
+      ""
+    ],
+    [
+      "Black",
+      "Michael J.",
+      ""
+    ],
+    [
+      "Zuffi",
+      "Silvia",
+      ""
+    ],
+    [
+      "Kulits",
+      "Peter",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 11 Dec 2024 04:57:53 GMT"
+    }
+  ],
+  "updateDate": "2024-12-12",
+  "timestamp": 1733893073000,
+  "abstract": "  The model-based estimation of 3D animal pose and shape from images enables\ncomputational modeling of animal behavior. Training models for this purpose\nrequires large amounts of labeled image data with precise pose and shape\nannotations. However, capturing such data requires the use of multi-view or\nmarker-based motion-capture systems, which are impractical to adapt to wild\nanimals in situ and impossible to scale across a comprehensive set of animal\nspecies. Some have attempted to address the challenge of procuring training\ndata by pseudo-labeling individual real-world images through manual 2D\nannotation, followed by 3D-parameter optimization to those labels. While this\napproach may produce silhouette-aligned samples, the obtained pose and shape\nparameters are often implausible due to the ill-posed nature of the monocular\nfitting problem. Sidestepping real-world ambiguity, others have designed\ncomplex synthetic-data-generation pipelines leveraging video-game engines and\ncollections of artist-designed 3D assets. Such engines yield perfect\nground-truth annotations but are often lacking in visual realism and require\nconsiderable manual effort to adapt to new species or environments. Motivated\nby these shortcomings, we propose an alternative approach to synthetic-data\ngeneration: rendering with a conditional image-generation model. We introduce a\npipeline that samples a diverse set of poses and shapes for a variety of\nmammalian quadrupeds and generates realistic images with corresponding\nground-truth pose and shape parameters. To demonstrate the scalability of our\napproach, we introduce GenZoo, a synthetic dataset containing one million\nimages of distinct subjects. We train a 3D pose and shape regressor on GenZoo,\nwhich achieves state-of-the-art performance on a real-world animal pose and\nshape estimation benchmark, despite being trained solely on synthetic data.\nhttps://genzoo.is.tue.mpg.de\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "RoxcAkb7DjF3-WAKTgoHd6gM66HMJadBPw7BUBOen1k",
+  "pdfSize": "2224223"
+}

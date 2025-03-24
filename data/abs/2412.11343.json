@@ -1,0 +1,52 @@
+{
+  "id": "2412.11343",
+  "title": "Temporal Logic Control for Nonlinear Stochastic Systems Under Unknown\n  Disturbances",
+  "authors": "Ibon Gracia, Luca Laurenti, Manuel Mazo Jr., Alessandro Abate, Morteza\n  Lahijanian",
+  "authorsParsed": [
+    [
+      "Gracia",
+      "Ibon",
+      ""
+    ],
+    [
+      "Laurenti",
+      "Luca",
+      ""
+    ],
+    [
+      "Mazo",
+      "Manuel",
+      "Jr."
+    ],
+    [
+      "Abate",
+      "Alessandro",
+      ""
+    ],
+    [
+      "Lahijanian",
+      "Morteza",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 15 Dec 2024 23:55:55 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Thu, 19 Dec 2024 14:13:50 GMT"
+    }
+  ],
+  "updateDate": "2024-12-20",
+  "timestamp": 1734306955000,
+  "abstract": "  In this paper, we present a novel framework to synthesize robust strategies\nfor discrete-time nonlinear systems with random disturbances that are unknown,\nagainst temporal logic specifications. The proposed framework is data-driven\nand abstraction-based: leveraging observations of the system, our approach\nlearns a high-confidence abstraction of the system in the form of an uncertain\nMarkov decision process (UMDP). The uncertainty in the resulting UMDP is used\nto formally account for both the error in abstracting the system and for the\nuncertainty coming from the data. Critically, we show that for any given\nstate-action pair in the resulting UMDP, the uncertainty in the transition\nprobabilities can be represented as a convex polytope obtained by a two-layer\nstate discretization and concentration inequalities. This allows us to obtain\ntighter uncertainty estimates compared to existing approaches, and guarantees\nefficiency, as we tailor a synthesis algorithm exploiting the structure of this\nUMDP. We empirically validate our approach on several case studies, showing\nsubstantially improved performance compared to the state-of-the-art.\n",
+  "subjects": [
+    "Electrical Engineering and Systems Science/Systems and Control",
+    "Computer Science/Systems and Control"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "-2NPWntw6t3DrAAPCgxDRxafiolB4_5DLD7pWk9NW6c",
+  "pdfSize": "1453119"
+}

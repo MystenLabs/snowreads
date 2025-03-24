@@ -1,0 +1,47 @@
+{
+  "id": "2412.18440",
+  "title": "Unlocking the Potential of Multiple BERT Models for Bangla Question\n  Answering in NCTB Textbooks",
+  "authors": "Abdullah Khondoker, Enam Ahmed Taufik, Md Iftekhar Islam Tashik, S M\n  Ishtiak mahmud, Antara Firoz Parsa",
+  "authorsParsed": [
+    [
+      "Khondoker",
+      "Abdullah",
+      ""
+    ],
+    [
+      "Taufik",
+      "Enam Ahmed",
+      ""
+    ],
+    [
+      "Tashik",
+      "Md Iftekhar Islam",
+      ""
+    ],
+    [
+      "mahmud",
+      "S M Ishtiak",
+      ""
+    ],
+    [
+      "Parsa",
+      "Antara Firoz",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 24 Dec 2024 13:59:23 GMT"
+    }
+  ],
+  "updateDate": "2024-12-25",
+  "timestamp": 1735048763000,
+  "abstract": "  Evaluating text comprehension in educational settings is critical for\nunderstanding student performance and improving curricular effectiveness. This\nstudy investigates the capability of state-of-the-art language models-RoBERTa\nBase, Bangla-BERT, and BERT Base-in automatically assessing Bangla\npassage-based question-answering from the National Curriculum and Textbook\nBoard (NCTB) textbooks for classes 6-10. A dataset of approximately 3,000\nBangla passage-based question-answering instances was compiled, and the models\nwere evaluated using F1 Score and Exact Match (EM) metrics across various\nhyperparameter configurations. Our findings revealed that Bangla-BERT\nconsistently outperformed the other models, achieving the highest F1 (0.75) and\nEM (0.53) scores, particularly with smaller batch sizes, the inclusion of stop\nwords, and a moderate learning rate. In contrast, RoBERTa Base demonstrated the\nweakest performance, with the lowest F1 (0.19) and EM (0.27) scores under\ncertain configurations. The results underscore the importance of fine-tuning\nhyperparameters for optimizing model performance and highlight the potential of\nmachine learning models in evaluating text comprehension in educational\ncontexts. However, limitations such as dataset size, spelling inconsistencies,\nand computational constraints emphasize the need for further research to\nenhance the robustness and applicability of these models. This study lays the\ngroundwork for the future development of automated evaluation systems in\neducational institutions, providing critical insights into model performance in\nthe context of Bangla text comprehension.\n",
+  "subjects": [
+    "Computer Science/Computation and Language"
+  ],
+  "license": "http://creativecommons.org/licenses/by-sa/4.0/",
+  "blobId": "I2twWqfLU7kVVeMjbnJMPb5Klhw4dpZIHBmXsdkOy5k",
+  "pdfSize": "500888"
+}

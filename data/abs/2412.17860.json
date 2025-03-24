@@ -1,0 +1,68 @@
+{
+  "id": "2412.17860",
+  "title": "EnhancePPG: Improving PPG-based Heart Rate Estimation with\n  Self-Supervision and Augmentation",
+  "authors": "Luca Benfenati, Sofia Belloni, Alessio Burrello, Panagiotis Kasnesis,\n  Xiaying Wang, Luca Benini, Massimo Poncino, Enrico Macii, Daniele Jahier\n  Pagliari",
+  "authorsParsed": [
+    [
+      "Benfenati",
+      "Luca",
+      ""
+    ],
+    [
+      "Belloni",
+      "Sofia",
+      ""
+    ],
+    [
+      "Burrello",
+      "Alessio",
+      ""
+    ],
+    [
+      "Kasnesis",
+      "Panagiotis",
+      ""
+    ],
+    [
+      "Wang",
+      "Xiaying",
+      ""
+    ],
+    [
+      "Benini",
+      "Luca",
+      ""
+    ],
+    [
+      "Poncino",
+      "Massimo",
+      ""
+    ],
+    [
+      "Macii",
+      "Enrico",
+      ""
+    ],
+    [
+      "Pagliari",
+      "Daniele Jahier",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 20 Dec 2024 13:25:50 GMT"
+    }
+  ],
+  "updateDate": "2024-12-25",
+  "timestamp": 1734701150000,
+  "abstract": "  Heart rate (HR) estimation from photoplethysmography (PPG) signals is a key\nfeature of modern wearable devices for health and wellness monitoring. While\ndeep learning models show promise, their performance relies on the availability\nof large datasets. We present EnhancePPG, a method that enhances\nstate-of-the-art models by integrating self-supervised learning with data\naugmentation (DA). Our approach combines self-supervised pre-training with DA,\nallowing the model to learn more generalizable features, without needing more\nlabelled data. Inspired by a U-Net-like autoencoder architecture, we utilize\nunsupervised PPG signal reconstruction, taking advantage of large amounts of\nunlabeled data during the pre-training phase combined with data augmentation,\nto improve state-of-the-art models' performance. Thanks to our approach and\nminimal modification to the state-of-the-art model, we improve the best HR\nestimation by 12.2%, lowering from 4.03 Beats-Per-Minute (BPM) to 3.54 BPM the\nerror on PPG-DaLiA. Importantly, our EnhancePPG approach focuses exclusively on\nthe training of the selected deep learning model, without significantly\nincreasing its inference latency\n",
+  "subjects": [
+    "Electrical Engineering and Systems Science/Signal Processing",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "bp4fyJyL_b9wXEXADk_D93ydvVczHnfYrzOkFEAQAho",
+  "pdfSize": "1377972"
+}

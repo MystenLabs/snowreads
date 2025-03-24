@@ -1,0 +1,47 @@
+{
+  "id": "2412.06054",
+  "title": "Methods to derive uncertainty intervals for lifetime risks for lung\n  cancer related to occupational radon exposure",
+  "authors": "Manuel Sommer, Nora Fenske, Christian Heumann, Peter Scholz-Kreisel\n  and Felix Heinzl",
+  "authorsParsed": [
+    [
+      "Sommer",
+      "Manuel",
+      ""
+    ],
+    [
+      "Fenske",
+      "Nora",
+      ""
+    ],
+    [
+      "Heumann",
+      "Christian",
+      ""
+    ],
+    [
+      "Scholz-Kreisel",
+      "Peter",
+      ""
+    ],
+    [
+      "Heinzl",
+      "Felix",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 8 Dec 2024 20:19:27 GMT"
+    }
+  ],
+  "updateDate": "2024-12-10",
+  "timestamp": 1733689167000,
+  "abstract": "  Introduction\n  Lifetime risks quantify health risks from radiation exposure and play an\nimportant role in radiation detriment and radon dose conversion. This study\nconsiders the lifetime risk of dying from lung cancer related to occupational\nradon exposure, focusing on lifetime excess absolute risk (LEAR), in addition\nto other lifetime risk measures. This article derives and discusses uncertainty\nintervals for these estimates.\n  Methods\n  Uncertainties in two components of lifetime risk calculations are modeled:\nrisk model parameter estimates for excess relative risk of lung cancer and\nbaseline mortality rates. Approximate normality assumption (ANA) methods and\nBayesian techniques quantify risk model parameter uncertainty. The methods are\napplied to risk models from the German \"Wismut\" uranium miners cohort study\n(full cohort with follow-up 2018 and the 1960+ sub-cohort of miners hired in\n1960 or later). Mortality rate uncertainty is assessed based on WHO data. Monte\nCarlo simulations yield uncertainty intervals, which are compared across\ndifferent lifetime risk measures.\n  Results\n  Risk model parameter uncertainty is the largest contributor to lifetime risk\nuncertainty, with baseline mortality rate uncertainty also significant. For the\n1960+ sub-cohort risk model, LEAR was 6.70% (95% uncertainty interval: [3.26,\n12.28]) for an exposure of 2 Working Level Months from age 18-64, compared to\n3.43% ([2.06, 4.84]) for the full cohort. Differences across lifetime risk\nmeasures are minor.\n  Conclusion\n  Here, risk model parameter uncertainty substantially drives lifetime risk\nuncertainty, supporting the use of ANA methods for practicality. Choice of\nlifetime risk measures has negligible impact. Derived uncertainty intervals\nalign with the range of lifetime risk estimates from uranium miners studies in\nthe literature and should inform radiation protection policies based on\nlifetime risks.\n",
+  "subjects": [
+    "Statistics/Applications"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "8_B0udfmyPf8IRIjCOzMD7tQYDurNKdIIYtNkfLQvVc",
+  "pdfSize": "15877940"
+}

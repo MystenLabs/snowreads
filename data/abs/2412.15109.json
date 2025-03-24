@@ -1,0 +1,57 @@
+{
+  "id": "2412.15109",
+  "title": "Predictive Inverse Dynamics Models are Scalable Learners for Robotic\n  Manipulation",
+  "authors": "Yang Tian, Sizhe Yang, Jia Zeng, Ping Wang, Dahua Lin, Hao Dong,\n  Jiangmiao Pang",
+  "authorsParsed": [
+    [
+      "Tian",
+      "Yang",
+      ""
+    ],
+    [
+      "Yang",
+      "Sizhe",
+      ""
+    ],
+    [
+      "Zeng",
+      "Jia",
+      ""
+    ],
+    [
+      "Wang",
+      "Ping",
+      ""
+    ],
+    [
+      "Lin",
+      "Dahua",
+      ""
+    ],
+    [
+      "Dong",
+      "Hao",
+      ""
+    ],
+    [
+      "Pang",
+      "Jiangmiao",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 19 Dec 2024 17:52:50 GMT"
+    }
+  ],
+  "updateDate": "2024-12-20",
+  "timestamp": 1734630770000,
+  "abstract": "  Current efforts to learn scalable policies in robotic manipulation primarily\nfall into two categories: one focuses on \"action,\" which involves behavior\ncloning from extensive collections of robotic data, while the other emphasizes\n\"vision,\" enhancing model generalization by pre-training representations or\ngenerative models, also referred to as world models, using large-scale visual\ndatasets. This paper presents an end-to-end paradigm that predicts actions\nusing inverse dynamics models conditioned on the robot's forecasted visual\nstates, named Predictive Inverse Dynamics Models (PIDM). By closing the loop\nbetween vision and action, the end-to-end PIDM can be a better scalable action\nlearner. In practice, we use Transformers to process both visual states and\nactions, naming the model Seer. It is initially pre-trained on large-scale\nrobotic datasets, such as DROID, and can be adapted to realworld scenarios with\na little fine-tuning data. Thanks to large-scale, end-to-end training and the\nsynergy between vision and action, Seer significantly outperforms previous\nmethods across both simulation and real-world experiments. It achieves\nimprovements of 13% on the LIBERO-LONG benchmark, 21% on CALVIN ABC-D, and 43%\nin real-world tasks. Notably, Seer sets a new state-of-the-art on CALVIN ABC-D\nbenchmark, achieving an average length of 4.28, and exhibits superior\ngeneralization for novel objects, lighting conditions, and environments under\nhigh-intensity disturbances on real-world scenarios. Code and models are\npublicly available at https://github.com/OpenRobotLab/Seer/.\n",
+  "subjects": [
+    "Computer Science/Robotics"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "aJAoAjB9hk5sdSsG_qr6BjRl3nmI2PTkKTZAxAmnpGY",
+  "pdfSize": "2724972"
+}

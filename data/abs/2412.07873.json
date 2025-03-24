@@ -1,0 +1,48 @@
+{
+  "id": "2412.07873",
+  "title": "Lucky cars and lucky spots in parking functions",
+  "authors": "Steve Butler, Kimberly Hadaway, Victoria Lenius, Preston Martens, and\n  Marshall Moats",
+  "authorsParsed": [
+    [
+      "Butler",
+      "Steve",
+      ""
+    ],
+    [
+      "Hadaway",
+      "Kimberly",
+      ""
+    ],
+    [
+      "Lenius",
+      "Victoria",
+      ""
+    ],
+    [
+      "Martens",
+      "Preston",
+      ""
+    ],
+    [
+      "Moats",
+      "Marshall",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 10 Dec 2024 19:20:26 GMT"
+    }
+  ],
+  "updateDate": "2024-12-12",
+  "timestamp": 1733858426000,
+  "abstract": "  Parking functions correspond with preferences of $n$ cars which enter\nsequentially to park on a one-way street where (1) each car parks in the first\navailable spot greater than or equal to its preference and (2) all cars\nsuccessfully park. When a car parks in its preferred spot then the\ncorresponding car and corresponding spot are deemed ``lucky.'' This paper looks\nbriefly at lucky cars which have previously been studied and in simple cases\ncan be understood by a generalization of a result due to Pollak. We also\nconsider lucky spots where the situation is more complex and not previously\nstudied. Probabilities and asymptotics for lucky spots are given for the first\nfew spots on the one-way street. We close with an exploration of the special\ncases when cars enter the one-way street in either weakly-increasing or\nweakly-decreasing order of their preferences.\n",
+  "subjects": [
+    "Mathematics/Combinatorics",
+    "Mathematics/Probability"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "Bh36JSAh5u-qwB4SHBnjfxAlZSi5zANaUkVHCCHUk9o",
+  "pdfSize": "194343"
+}

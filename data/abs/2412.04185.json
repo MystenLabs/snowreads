@@ -1,0 +1,47 @@
+{
+  "id": "2412.04185",
+  "title": "Leveraging Large Language Models to Generate Course-specific\n  Semantically Annotated Learning Objects",
+  "authors": "Dominic Lohr, Marc Berges, Abhishek Chugh, Michael Kohlhase, Dennis\n  M\\\"uller",
+  "authorsParsed": [
+    [
+      "Lohr",
+      "Dominic",
+      ""
+    ],
+    [
+      "Berges",
+      "Marc",
+      ""
+    ],
+    [
+      "Chugh",
+      "Abhishek",
+      ""
+    ],
+    [
+      "Kohlhase",
+      "Michael",
+      ""
+    ],
+    [
+      "Müller",
+      "Dennis",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 5 Dec 2024 14:24:07 GMT"
+    }
+  ],
+  "updateDate": "2024-12-06",
+  "timestamp": 1733408647000,
+  "abstract": "  Background: Over the past few decades, the process and methodology of\nautomated question generation (AQG) have undergone significant transformations.\nRecent progress in generative natural language models has opened up new\npotential in the generation of educational content.\n  Objectives: This paper explores the potential of large language models (LLMs)\nfor generating computer science questions that are sufficiently annotated for\nautomatic learner model updates, are fully situated in the context of a\nparticular course, and address the cognitive dimension understand.\n  Methods: Unlike previous attempts that might use basic methods like ChatGPT,\nour approach involves more targeted strategies such as retrieval-augmented\ngeneration (RAG) to produce contextually relevant and pedagogically meaningful\nlearning objects.\n  Results and Conclusions: Our results show that generating structural,\nsemantic annotations works well. However, this success was not reflected in the\ncase of relational annotations. The quality of the generated questions often\ndid not meet educational standards, highlighting that although LLMs can\ncontribute to the pool of learning materials, their current level of\nperformance requires significant human intervention to refine and validate the\ngenerated content.\n",
+  "subjects": [
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "ymn08gO3OdLLE3o6ZVvMjIk5HECBIXSQTeRgkjKvVX8",
+  "pdfSize": "806549"
+}

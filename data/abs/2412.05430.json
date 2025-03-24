@@ -1,0 +1,53 @@
+{
+  "id": "2412.05430",
+  "title": "DART-Eval: A Comprehensive DNA Language Model Evaluation Benchmark on\n  Regulatory DNA",
+  "authors": "Aman Patel, Arpita Singhal, Austin Wang, Anusri Pampari, Maya\n  Kasowski, Anshul Kundaje",
+  "authorsParsed": [
+    [
+      "Patel",
+      "Aman",
+      ""
+    ],
+    [
+      "Singhal",
+      "Arpita",
+      ""
+    ],
+    [
+      "Wang",
+      "Austin",
+      ""
+    ],
+    [
+      "Pampari",
+      "Anusri",
+      ""
+    ],
+    [
+      "Kasowski",
+      "Maya",
+      ""
+    ],
+    [
+      "Kundaje",
+      "Anshul",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 6 Dec 2024 21:23:35 GMT"
+    }
+  ],
+  "updateDate": "2024-12-10",
+  "timestamp": 1733520215000,
+  "abstract": "  Recent advances in self-supervised models for natural language, vision, and\nprotein sequences have inspired the development of large genomic DNA language\nmodels (DNALMs). These models aim to learn generalizable representations of\ndiverse DNA elements, potentially enabling various genomic prediction,\ninterpretation and design tasks. Despite their potential, existing benchmarks\ndo not adequately assess the capabilities of DNALMs on key downstream\napplications involving an important class of non-coding DNA elements critical\nfor regulating gene activity. In this study, we introduce DART-Eval, a suite of\nrepresentative benchmarks specifically focused on regulatory DNA to evaluate\nmodel performance across zero-shot, probed, and fine-tuned scenarios against\ncontemporary ab initio models as baselines. Our benchmarks target biologically\nmeaningful downstream tasks such as functional sequence feature discovery,\npredicting cell-type specific regulatory activity, and counterfactual\nprediction of the impacts of genetic variants. We find that current DNALMs\nexhibit inconsistent performance and do not offer compelling gains over\nalternative baseline models for most tasks, while requiring significantly more\ncomputational resources. We discuss potentially promising modeling, data\ncuration, and evaluation strategies for the next generation of DNALMs. Our code\nis available at https://github.com/kundajelab/DART-Eval.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Quantitative Biology/Genomics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "EUyZZY17oQJ26njwfDJfmWEke7j3LxEVkBkun5UK30w",
+  "pdfSize": "8062354"
+}

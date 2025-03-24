@@ -1,0 +1,40 @@
+{
+  "id": "2412.19834",
+  "title": "RoboSignature: Robust Signature and Watermarking on Network Attacks",
+  "authors": "Aryaman Shaan, Garvit Banga, Raghav Mantri",
+  "authorsParsed": [
+    [
+      "Shaan",
+      "Aryaman",
+      ""
+    ],
+    [
+      "Banga",
+      "Garvit",
+      ""
+    ],
+    [
+      "Mantri",
+      "Raghav",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 22 Dec 2024 04:36:27 GMT"
+    }
+  ],
+  "updateDate": "2024-12-31",
+  "timestamp": 1734842187000,
+  "abstract": "  Generative models have enabled easy creation and generation of images of all\nkinds given a single prompt. However, this has also raised ethical concerns\nabout what is an actual piece of content created by humans or cameras compared\nto model-generated content like images or videos. Watermarking data generated\nby modern generative models is a popular method to provide information on the\nsource of the content. The goal is for all generated images to conceal an\ninvisible watermark, allowing for future detection or identification. The\nStable Signature finetunes the decoder of Latent Diffusion Models such that a\nunique watermark is rooted in any image produced by the decoder. In this paper,\nwe present a novel adversarial fine-tuning attack that disrupts the model's\nability to embed the intended watermark, exposing a significant vulnerability\nin existing watermarking methods. To address this, we further propose a\ntamper-resistant fine-tuning algorithm inspired by methods developed for large\nlanguage models, tailored to the specific requirements of watermarking in LDMs.\nOur findings emphasize the importance of anticipating and defending against\npotential vulnerabilities in generative systems.\n",
+  "subjects": [
+    "Computer Science/Cryptography and Security",
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "_bI3BFb041IOEyC1lYC411zcFt_okwhXxkO2lpzq6RQ",
+  "pdfSize": "248722"
+}

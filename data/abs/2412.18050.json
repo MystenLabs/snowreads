@@ -1,0 +1,27 @@
+{
+  "id": "2412.18050",
+  "title": "Controllability and Insensitizing Controls for Some Coupled Stochastic\n  Parabolic Systems",
+  "authors": "Abdellatif Elgrou",
+  "authorsParsed": [
+    [
+      "Elgrou",
+      "Abdellatif",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 23 Dec 2024 23:54:15 GMT"
+    }
+  ],
+  "updateDate": "2024-12-25",
+  "timestamp": 1734998055000,
+  "abstract": "  In this paper, we study the null and approximate controllability, along with\nthe existence of insensitizing controls, for a class of coupled systems\ndescribed by two linear forward stochastic parabolic equations. The first\nobjective is to identify controls that achieve the null and approximate\ncontrollability for these systems at a fixed final control time. The second\ngoal is to find controls such that a functional of the states becomes locally\ninsensitive to perturbations in the initial data. To achieve this, we introduce\nthree controls: one localized in space to affect the drift term of the first\nequation, and two additional controls that influence the diffusion terms of\nboth equations. Moreover, we reduce the insensitizing control problem to a null\ncontrollability problem for a cascade system of coupled forward-backward\nstochastic parabolic systems. By the classical duality argument, our\ncontrollability problem for the forward system (resp., forward-backward\nsystems) is equivalent to an observability problem for the corresponding\nadjoint backward system (resp., backward-forward systems). The observability\nproblems are then addressed by deriving new global Carleman estimates.\n",
+  "subjects": [
+    "Mathematics/Optimization and Control"
+  ],
+  "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+  "blobId": "1Y3KFFRMg5IBBYOGGxTATTXKzjN6Tl4tPJmHMKTbYKw",
+  "pdfSize": "382224"
+}

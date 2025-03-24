@@ -1,0 +1,54 @@
+{
+  "id": "2412.13061",
+  "title": "VidTok: A Versatile and Open-Source Video Tokenizer",
+  "authors": "Anni Tang, Tianyu He, Junliang Guo, Xinle Cheng, Li Song, Jiang Bian",
+  "authorsParsed": [
+    [
+      "Tang",
+      "Anni",
+      ""
+    ],
+    [
+      "He",
+      "Tianyu",
+      ""
+    ],
+    [
+      "Guo",
+      "Junliang",
+      ""
+    ],
+    [
+      "Cheng",
+      "Xinle",
+      ""
+    ],
+    [
+      "Song",
+      "Li",
+      ""
+    ],
+    [
+      "Bian",
+      "Jiang",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 17 Dec 2024 16:27:11 GMT"
+    }
+  ],
+  "updateDate": "2024-12-18",
+  "timestamp": 1734452831000,
+  "abstract": "  Encoding video content into compact latent tokens has become a fundamental\nstep in video generation and understanding, driven by the need to address the\ninherent redundancy in pixel-level representations. Consequently, there is a\ngrowing demand for high-performance, open-source video tokenizers as\nvideo-centric research gains prominence. We introduce VidTok, a versatile video\ntokenizer that delivers state-of-the-art performance in both continuous and\ndiscrete tokenizations. VidTok incorporates several key advancements over\nexisting approaches: 1) model architecture such as convolutional layers and\nup/downsampling modules; 2) to address the training instability and codebook\ncollapse commonly associated with conventional Vector Quantization (VQ), we\nintegrate Finite Scalar Quantization (FSQ) into discrete video tokenization; 3)\nimproved training strategies, including a two-stage training process and the\nuse of reduced frame rates. By integrating these advancements, VidTok achieves\nsubstantial improvements over existing methods, demonstrating superior\nperformance across multiple metrics, including PSNR, SSIM, LPIPS, and FVD,\nunder standardized evaluation settings.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "cFKE8gv0HwWdgpheXnAye02K_Erz10Y80m1fsD4MAZ0",
+  "pdfSize": "16333651"
+}

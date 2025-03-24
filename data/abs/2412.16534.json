@@ -1,0 +1,52 @@
+{
+  "id": "2412.16534",
+  "title": "DOFEN: Deep Oblivious Forest ENsemble",
+  "authors": "Kuan-Yu Chen, Ping-Han Chiang, Hsin-Rung Chou, Chih-Sheng Chen,\n  Tien-Hao Chang",
+  "authorsParsed": [
+    [
+      "Chen",
+      "Kuan-Yu",
+      ""
+    ],
+    [
+      "Chiang",
+      "Ping-Han",
+      ""
+    ],
+    [
+      "Chou",
+      "Hsin-Rung",
+      ""
+    ],
+    [
+      "Chen",
+      "Chih-Sheng",
+      ""
+    ],
+    [
+      "Chang",
+      "Tien-Hao",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 21 Dec 2024 08:25:23 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Tue, 24 Dec 2024 09:00:20 GMT"
+    }
+  ],
+  "updateDate": "2024-12-25",
+  "timestamp": 1734769523000,
+  "abstract": "  Deep Neural Networks (DNNs) have revolutionized artificial intelligence,\nachieving impressive results on diverse data types, including images, videos,\nand texts. However, DNNs still lag behind Gradient Boosting Decision Trees\n(GBDT) on tabular data, a format extensively utilized across various domains.\nIn this paper, we propose DOFEN, short for \\textbf{D}eep \\textbf{O}blivious\n\\textbf{F}orest \\textbf{EN}semble, a novel DNN architecture inspired by\noblivious decision trees. DOFEN constructs relaxed oblivious decision trees\n(rODTs) by randomly combining conditions for each column and further enhances\nperformance with a two-level rODT forest ensembling process. By employing this\napproach, DOFEN achieves state-of-the-art results among DNNs and further\nnarrows the gap between DNNs and tree-based models on the well-recognized\nbenchmark: Tabular Benchmark \\citep{grinsztajn2022tree}, which includes 73\ntotal datasets spanning a wide array of domains. The code of DOFEN is available\nat: \\url{https://github.com/Sinopac-Digital-Technology-Division/DOFEN}.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Statistics/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "Vs3RYAWCjBNnTbaWbKJoFLMug-ZeRFYhsX0OzwMNkUQ",
+  "pdfSize": "2523153"
+}

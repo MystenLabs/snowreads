@@ -1,0 +1,29 @@
+{
+  "id": "2412.04263",
+  "title": "Correlation without Factors in Retail Cryptocurrency Markets",
+  "authors": "Graham L. Giller",
+  "authorsParsed": [
+    [
+      "Giller",
+      "Graham L.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 5 Dec 2024 15:44:51 GMT"
+    }
+  ],
+  "updateDate": "2024-12-06",
+  "timestamp": 1733413491000,
+  "abstract": "  A simple model-free and distribution-free statistic, the functional\nrelationship between the number of \"effective\" degrees of freedom and portfolio\nsize, or N*(N), is used to discriminate between two alternative models for the\ncorrelation of daily cryptocurrency returns within a retail universe of defined\nby the list of tradable assets available to account holders at the Robinhood\nbrokerage. The average pairwise correlation between daily cryptocurrency\nreturns is found to be high (of order 60%) and the data collected supports\ndescription of the cross-section of returns by a simple isotropic correlation\nmodel distinct from a decomposition into a linear factor model with additive\nnoise with high confidence. This description appears to be relatively stable\nthrough time.\n",
+  "subjects": [
+    "Quantitative Finance/Portfolio Management",
+    "Quantitative Finance/Risk Management",
+    "Quantitative Finance/Statistical Finance"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "wU8Vhv7wZhnGzXTy1kVfi1Kb7Xe1xvpfeiXPXafYPlE",
+  "pdfSize": "442773"
+}

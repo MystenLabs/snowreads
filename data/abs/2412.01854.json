@@ -1,0 +1,27 @@
+{
+  "id": "2412.01854",
+  "title": "Data Augmentation through Background Removal for Apple Leaf Disease\n  Classification Using the MobileNetV2 Model",
+  "authors": "Youcef Ferdi",
+  "authorsParsed": [
+    [
+      "Ferdi",
+      "Youcef",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 29 Nov 2024 16:06:34 GMT"
+    }
+  ],
+  "updateDate": "2024-12-04",
+  "timestamp": 1732896394000,
+  "abstract": "  The advances in computer vision made possible by deep learning technology are\nincreasingly being used in precision agriculture to automate the detection and\nclassification of plant diseases. Symptoms of plant diseases are often seen on\ntheir leaves. The leaf images in existing datasets have been collected either\nunder controlled conditions or in the field. The majority of previous studies\nhave focused on identifying leaf diseases using images captured in controlled\nlaboratory settings, often achieving high performance. However, methods aimed\nat detecting and classifying leaf diseases in field images have generally\nexhibited lower performance. The objective of this study is to evaluate the\nimpact of a data augmentation approach that involves removing complex\nbackgrounds from leaf images on the classification performance of apple leaf\ndiseases in images captured under real world conditions. To achieve this\nobjective, the lightweight pre-trained MobileNetV2 deep learning model was\nfine-tuned and subsequently used to evaluate the impact of expanding the\ntraining dataset with background-removed images on classification performance.\nExperimental results show that this augmentation strategy enhances\nclassification accuracy. Specifically, using the Adam optimizer, the proposed\nmethod achieved a classification accuracy of 98.71% on the Plant Pathology\ndatabase, representing an approximately 3% improvement and outperforming\nstate-of-the-art methods. This demonstrates the effectiveness of background\nremoval as a data augmentation technique for improving the robustness of\ndisease classification models in real-world conditions.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "0kgnTKu3NviNbHl6AZHtKy5lCAwib4-oxoypgzx3oLw",
+  "pdfSize": "1583310"
+}

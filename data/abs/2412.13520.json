@@ -1,0 +1,74 @@
+{
+  "id": "2412.13520",
+  "title": "ROMAS: A Role-Based Multi-Agent System for Database monitoring and\n  Planning",
+  "authors": "Yi Huang, Fangyin Cheng, Fan Zhou, Jiahui Li, Jian Gong, Hongjun Yang,\n  Zhidong Fan, Caigao Jiang, Siqiao Xue, Faqiang Chen",
+  "authorsParsed": [
+    [
+      "Huang",
+      "Yi",
+      ""
+    ],
+    [
+      "Cheng",
+      "Fangyin",
+      ""
+    ],
+    [
+      "Zhou",
+      "Fan",
+      ""
+    ],
+    [
+      "Li",
+      "Jiahui",
+      ""
+    ],
+    [
+      "Gong",
+      "Jian",
+      ""
+    ],
+    [
+      "Yang",
+      "Hongjun",
+      ""
+    ],
+    [
+      "Fan",
+      "Zhidong",
+      ""
+    ],
+    [
+      "Jiang",
+      "Caigao",
+      ""
+    ],
+    [
+      "Xue",
+      "Siqiao",
+      ""
+    ],
+    [
+      "Chen",
+      "Faqiang",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 18 Dec 2024 05:45:39 GMT"
+    }
+  ],
+  "updateDate": "2024-12-19",
+  "timestamp": 1734500739000,
+  "abstract": "  In recent years, Large Language Models (LLMs) have demonstrated remarkable\ncapabilities in data analytics when integrated with Multi-Agent Systems (MAS).\nHowever, these systems often struggle with complex tasks that involve diverse\nfunctional requirements and intricate data processing challenges, necessitating\ncustomized solutions that lack broad applicability. Furthermore, current MAS\nfail to emulate essential human-like traits such as self-planning,\nself-monitoring, and collaborative work in dynamic environments, leading to\ninefficiencies and resource wastage. To address these limitations, we propose\nROMAS, a novel Role-Based M ulti-A gent System designed to adapt to various\nscenarios while enabling low code development and one-click deployment. ROMAS\nhas been effectively deployed in DB-GPT [Xue et al., 2023a, 2024b], a\nwell-known project utilizing LLM-powered database analytics, showcasing its\npractical utility in real-world scenarios. By integrating role-based\ncollaborative mechanisms for self-monitoring and self-planning, and leveraging\nexisting MAS capabilities to enhance database interactions, ROMAS offers a more\neffective and versatile solution. Experimental evaluations of ROMAS demonstrate\nits superiority across multiple scenarios, highlighting its potential to\nadvance the field of multi-agent data analytics.\n",
+  "subjects": [
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Databases",
+    "Computer Science/Multiagent Systems"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "NR_PRT32BcESN96oQmAwrsXFlM0LOEi9XeTjalw4qwk",
+  "pdfSize": "3185714"
+}

@@ -1,0 +1,52 @@
+{
+  "id": "2412.11487",
+  "title": "WFCAT: Augmenting Website Fingerprinting with Channel-wise Attention on\n  Timing Features",
+  "authors": "Jiajun Gong, Wei Cai, Siyuan Liang, Zhong Guan, Tao Wang, Ee-Chien\n  Chang",
+  "authorsParsed": [
+    [
+      "Gong",
+      "Jiajun",
+      ""
+    ],
+    [
+      "Cai",
+      "Wei",
+      ""
+    ],
+    [
+      "Liang",
+      "Siyuan",
+      ""
+    ],
+    [
+      "Guan",
+      "Zhong",
+      ""
+    ],
+    [
+      "Wang",
+      "Tao",
+      ""
+    ],
+    [
+      "Chang",
+      "Ee-Chien",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 16 Dec 2024 07:04:44 GMT"
+    }
+  ],
+  "updateDate": "2024-12-17",
+  "timestamp": 1734332684000,
+  "abstract": "  Website Fingerprinting (WF) aims to deanonymize users on the Tor network by\nanalyzing encrypted network traffic. Recent deep-learning-based attacks show\nhigh accuracy on undefended traces. However, they struggle against modern\ndefenses that use tactics like injecting dummy packets and delaying real\npackets, which significantly degrade classification performance. Our analysis\nreveals that current attacks inadequately leverage the timing information\ninherent in traffic traces, which persists as a source of leakage even under\nrobust defenses. Addressing this shortfall, we introduce a novel feature\nrepresentation named the Inter-Arrival Time (IAT) histogram, which quantifies\nthe frequencies of packet inter-arrival times across predetermined time slots.\nComplementing this feature, we propose a new CNN-based attack, WFCAT, enhanced\nwith two innovative architectural blocks designed to optimally extract and\nutilize timing information. Our approach uses kernels of varying sizes to\ncapture multi-scale features, which are then integrated using a weighted sum\nacross all feature channels to enhance the model's efficacy in identifying\ntemporal patterns. Our experiments validate that WFCAT substantially\noutperforms existing methods on defended traces in both closed- and open-world\nscenarios. Notably, WFCAT achieves over 59% accuracy against Surakav, a\nrecently developed robust defense, marking an improvement of over 28% and 48%\nagainst the state-of-the-art attacks RF and Tik-Tok, respectively, in the\nclosed-world scenario.\n",
+  "subjects": [
+    "Computer Science/Cryptography and Security"
+  ],
+  "license": "http://creativecommons.org/licenses/by-sa/4.0/",
+  "blobId": "J0LzIdL1yRzW7iBMA2HZEMwmRywrGeAJxF0b_F1wY7I",
+  "pdfSize": "1800697"
+}

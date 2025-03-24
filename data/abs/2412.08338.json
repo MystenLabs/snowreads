@@ -1,0 +1,46 @@
+{
+  "id": "2412.08338",
+  "title": "Edge-graceful usual fan graphs",
+  "authors": "Aaron D.C. Angel, John Rafael M. Antalan, John Loureynz F.Gamurot,\n  Richard P. Tagle",
+  "authorsParsed": [
+    [
+      "Angel",
+      "Aaron D. C.",
+      ""
+    ],
+    [
+      "Antalan",
+      "John Rafael M.",
+      ""
+    ],
+    [
+      "Gamurot",
+      "John Loureynz F.",
+      ""
+    ],
+    [
+      "Tagle",
+      "Richard P.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 11 Dec 2024 12:26:20 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Fri, 17 Jan 2025 22:06:47 GMT"
+    }
+  ],
+  "updateDate": "2025-01-22",
+  "timestamp": 1733919980000,
+  "abstract": "  A graph $G$ with $p$ vertices and $q$ edges is said to be edge-graceful if\nits edges can be labeled from $1$ through $q$, in such a way that the labels\ninduced on the vertices by adding over the labels of incident edges modulo $p$\nare distinct. A known result under this topic is Lo's Theorem, which states\nthat if a graph $G$ with $p$ vertices and $q$ edges is edge-graceful, then\n$p\\Big|\\Big(q^{2}+q-\\dfrac{p(p-1)}{2}\\Big)$.\n  This paper presents novel results on the edge-gracefulness of the usual fan\ngraphs. Using Lo's Theorem, the concepts of divisibility and Diophantine\nequations, and a computer program created, we determine all edge-graceful usual\nfan graphs $F_{1,n}$ with their corresponding edge-graceful labels.\n",
+  "subjects": [
+    "Mathematics/Combinatorics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "Q38Kv6FHWHotXpW7S4K7RUqgv7PksBjTO0UBrCTOHjs",
+  "pdfSize": "720306"
+}

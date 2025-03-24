@@ -1,0 +1,53 @@
+{
+  "id": "2412.06012",
+  "title": "Continuous non-contact vital sign monitoring of neonates in intensive\n  care units using RGB-D cameras",
+  "authors": "Silas Ruhrberg Est\\'evez, Alex Grafton, Lynn Thomson, Joana Warnecke,\n  Kathryn Beardsall, and Joan Lasenby",
+  "authorsParsed": [
+    [
+      "Estévez",
+      "Silas Ruhrberg",
+      ""
+    ],
+    [
+      "Grafton",
+      "Alex",
+      ""
+    ],
+    [
+      "Thomson",
+      "Lynn",
+      ""
+    ],
+    [
+      "Warnecke",
+      "Joana",
+      ""
+    ],
+    [
+      "Beardsall",
+      "Kathryn",
+      ""
+    ],
+    [
+      "Lasenby",
+      "Joan",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 8 Dec 2024 18:08:02 GMT"
+    }
+  ],
+  "updateDate": "2024-12-10",
+  "timestamp": 1733681282000,
+  "abstract": "  Neonates in intensive care require continuous monitoring. Current measurement\ndevices are limited for long-term use due to the fragility of newborn skin and\nthe interference of wires with medical care and parental interactions.\nCamera-based vital sign monitoring has the potential to address these\nlimitations and has become of considerable interest in recent years due to the\nabsence of physical contact between the recording equipment and the neonates,\nas well as the introduction of low-cost devices. We present a novel system to\ncapture vital signs while offering clinical insights beyond current\ntechnologies using a single RGB-D camera. Heart rate and oxygen saturation were\nmeasured using colour and infrared signals with mean average errors (MAE) of\n7.69 bpm and 3.37%, respectively. Using the depth signals, an MAE of 4.83\nbreaths per minute was achieved for respiratory rate. Tidal volume measurements\nwere obtained with a MAE of 0.61 mL. Flow-volume loops can also be calculated\nfrom camera data, which have applications in respiratory disease diagnosis. Our\nsystem demonstrates promising capabilities for neonatal monitoring, augmenting\ncurrent clinical recording techniques to potentially improve outcomes for\nneonates.\n",
+  "subjects": [
+    "Electrical Engineering and Systems Science/Image and Video Processing",
+    "Physics/Medical Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "iTWb7-GWO6Ki8DKDsHvOG7s3gX8LqW8BZyFll8t5NMs",
+  "pdfSize": "3831988"
+}

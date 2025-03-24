@@ -1,0 +1,38 @@
+{
+  "id": "2412.16813",
+  "title": "A noncoforming virtual element approximation for the Oseen eigenvalue\n  problem",
+  "authors": "Dibyendu Adak, Felipe Lepe and Gonzalo Rivera",
+  "authorsParsed": [
+    [
+      "Adak",
+      "Dibyendu",
+      ""
+    ],
+    [
+      "Lepe",
+      "Felipe",
+      ""
+    ],
+    [
+      "Rivera",
+      "Gonzalo",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 22 Dec 2024 01:16:15 GMT"
+    }
+  ],
+  "updateDate": "2024-12-24",
+  "timestamp": 1734830175000,
+  "abstract": "  In this paper we analyze a nonconforming virtual element method to\napproximate the eigenfunctions and eigenvalues of the two dimensional Oseen\neigenvalue problem. The spaces under consideration lead to a divergence-free\nmethod which is capable to capture properly the divergence at discrete level\nand the eigenvalues and eigenfunctions. Under the compact theory for operators\nwe prove convergence and error estimates for the method. By employing the\ntheory of compact operators we recover the double order of convergence of the\nspectrum. Finally, we present numerical tests to assess the performance of the\nproposed numerical scheme.\n",
+  "subjects": [
+    "Mathematics/Numerical Analysis",
+    "Computer Science/Numerical Analysis"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "BrQVTH9mSF0tfqGe1dPFr0Piaj2mdlBeH2DRipjRCH8",
+  "pdfSize": "6997123"
+}

@@ -1,0 +1,43 @@
+{
+  "id": "2412.12997",
+  "title": "Enabling Low-Resource Language Retrieval: Establishing Baselines for\n  Urdu MS MARCO",
+  "authors": "Umer Butt, Stalin Veranasi and G\\\"unter Neumann",
+  "authorsParsed": [
+    [
+      "Butt",
+      "Umer",
+      ""
+    ],
+    [
+      "Veranasi",
+      "Stalin",
+      ""
+    ],
+    [
+      "Neumann",
+      "Günter",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 17 Dec 2024 15:21:28 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Fri, 17 Jan 2025 10:02:38 GMT"
+    }
+  ],
+  "updateDate": "2025-01-20",
+  "timestamp": 1734448888000,
+  "abstract": "  As the Information Retrieval (IR) field increasingly recognizes the\nimportance of inclusivity, addressing the needs of low-resource languages\nremains a significant challenge. This paper introduces the first large-scale\nUrdu IR dataset, created by translating the MS MARCO dataset through machine\ntranslation. We establish baseline results through zero-shot learning for IR in\nUrdu and subsequently apply the mMARCO multilingual IR methodology to this\nnewly translated dataset. Our findings demonstrate that the fine-tuned model\n(Urdu-mT5-mMARCO) achieves a Mean Reciprocal Rank (MRR@10) of 0.247 and a\nRecall@10 of 0.439, representing significant improvements over zero-shot\nresults and showing the potential for expanding IR access for Urdu speakers. By\nbridging access gaps for speakers of low-resource languages, this work not only\nadvances multilingual IR research but also emphasizes the ethical and societal\nimportance of inclusive IR technologies. This work provides valuable insights\ninto the challenges and solutions for improving language representation and\nlays the groundwork for future research, especially in South Asian languages,\nwhich can benefit from the adaptable methods used in this study.\n",
+  "subjects": [
+    "Computer Science/Computation and Language",
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Information Retrieval"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "JRDD2NS5BMj46TN3kUFC38Tqaj440mzEPGfp_YtRr2I",
+  "pdfSize": "355817"
+}

@@ -1,0 +1,47 @@
+{
+  "id": "2412.04726",
+  "title": "BESSTIE: A Benchmark for Sentiment and Sarcasm Classification for\n  Varieties of English",
+  "authors": "Dipankar Srirag and Aditya Joshi and Jordan Painter and Diptesh\n  Kanojia",
+  "authorsParsed": [
+    [
+      "Srirag",
+      "Dipankar",
+      ""
+    ],
+    [
+      "Joshi",
+      "Aditya",
+      ""
+    ],
+    [
+      "Painter",
+      "Jordan",
+      ""
+    ],
+    [
+      "Kanojia",
+      "Diptesh",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 6 Dec 2024 02:34:40 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Tue, 18 Feb 2025 02:34:18 GMT"
+    }
+  ],
+  "updateDate": "2025-02-19",
+  "timestamp": 1733452480000,
+  "abstract": "  Despite large language models (LLMs) being known to exhibit bias against\nnon-mainstream varieties, there are no known labeled datasets for sentiment\nanalysis of English. To address this gap, we introduce BESSTIE, a benchmark for\nsentiment and sarcasm classification for three varieties of English: Australian\n(en-AU), Indian (en-IN), and British (en-UK). Using web-based content from two\ndomains, namely, Google Place reviews and Reddit comments, we collect datasets\nfor these language varieties using two methods: location-based and topic-based\nfiltering. Native speakers of the language varieties manually annotate the\ndatasets with sentiment and sarcasm labels. To assess whether the dataset\naccurately represents these varieties, we conduct two validation steps: (a)\nmanual annotation of language varieties and (b) automatic language variety\nprediction. Subsequently, we fine-tune nine large language models (LLMs)\n(representing a range of encoder/decoder and mono/multilingual models) on these\ndatasets, and evaluate their performance on the two tasks. Our results reveal\nthat the models consistently perform better on inner-circle varieties (i.e.,\nen-AU and en-UK), with significant performance drops for en-IN, particularly in\nsarcasm detection. We also report challenges in cross-variety generalisation,\nhighlighting the need for language variety-specific datasets such as ours.\nBESSTIE promises to be a useful evaluative benchmark for future research in\nequitable LLMs, specifically in terms of language varieties. The BESSTIE\ndatasets, code, and models will be publicly available upon acceptance.\n",
+  "subjects": [
+    "Computer Science/Computation and Language",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "KtTDn-Vu44265yXG4RN6YmFXKpBrSFRYdbPAs-Q8UkU",
+  "pdfSize": "2333546"
+}

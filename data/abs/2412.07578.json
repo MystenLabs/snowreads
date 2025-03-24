@@ -1,0 +1,37 @@
+{
+  "id": "2412.07578",
+  "title": "Ternary tree transformations are equivalent to linear encodings of the\n  Fock basis",
+  "authors": "Mitchell Chiew, Brent Harrison, Sergii Strelchuk",
+  "authorsParsed": [
+    [
+      "Chiew",
+      "Mitchell",
+      ""
+    ],
+    [
+      "Harrison",
+      "Brent",
+      ""
+    ],
+    [
+      "Strelchuk",
+      "Sergii",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 10 Dec 2024 15:14:02 GMT"
+    }
+  ],
+  "updateDate": "2024-12-11",
+  "timestamp": 1733843642000,
+  "abstract": "  We consider two approaches to designing fermion-qubit mappings: (1) ternary\ntree transformations, which use Pauli representations of the Majorana operators\nthat correspond to root-to-leaf paths of a tree graph and (2) linear encodings\nof the Fock basis, such as the Jordan-Wigner and Bravyi-Kitaev transformations,\nwhich store linear binary transformations of the fermionic occupation number\nvectors in the computational basis of qubits. These approaches have emerged as\ndistinct concepts, with little notational consistency between them. In this\npaper we propose a universal description of fermion-qubit mappings, which\nreveals the relationship between ternary tree transformations and linear\nencodings. Using our notation, we show that every product-preserving ternary\ntree transformation is equivalent to a linear encoding of the Fock basis.\n",
+  "subjects": [
+    "Physics/Quantum Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "m8R8DXYuez_1OT6WlwLhu2M22QCeRbsS2wHtPQVbnbs",
+  "pdfSize": "2550790"
+}

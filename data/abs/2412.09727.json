@@ -1,0 +1,63 @@
+{
+  "id": "2412.09727",
+  "title": "Let Curves Speak: A Continuous Glucose Monitor based Large Sensor\n  Foundation Model for Diabetes Management",
+  "authors": "Junjie Luo, Abhimanyu Kumbara, Mansur Shomali, Rui Han, Anand Iyer,\n  Ritu Agarwal, Gordon Gao",
+  "authorsParsed": [
+    [
+      "Luo",
+      "Junjie",
+      ""
+    ],
+    [
+      "Kumbara",
+      "Abhimanyu",
+      ""
+    ],
+    [
+      "Shomali",
+      "Mansur",
+      ""
+    ],
+    [
+      "Han",
+      "Rui",
+      ""
+    ],
+    [
+      "Iyer",
+      "Anand",
+      ""
+    ],
+    [
+      "Agarwal",
+      "Ritu",
+      ""
+    ],
+    [
+      "Gao",
+      "Gordon",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 12 Dec 2024 21:35:13 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Wed, 18 Dec 2024 03:07:48 GMT"
+    }
+  ],
+  "updateDate": "2024-12-19",
+  "timestamp": 1734039313000,
+  "abstract": "  While previous studies of AI in diabetes management focus on long-term risk,\nresearch on near-future glucose prediction remains limited but important as it\nenables timely diabetes self-management. Integrating AI with continuous glucose\nmonitoring (CGM) holds promise for near-future glucose prediction. However,\nexisting models have limitations in capturing patterns of blood glucose\nfluctuations and demonstrate poor generalizability. A robust approach is needed\nto leverage massive CGM data for near-future glucose prediction. We propose\nlarge sensor models (LSMs) to capture knowledge in CGM data by modeling\npatients as sequences of glucose. CGM-LSM is pretrained on 15.96 million\nglucose records from 592 diabetes patients for near-future glucose prediction.\nWe evaluated CGM-LSM against state-of-the-art methods using the OhioT1DM\ndataset across various metrics, prediction horizons, and unseen patients.\nAdditionally, we assessed its generalizability across factors like diabetes\ntype, age, gender, and hour of day. CGM-LSM achieved exceptional performance,\nwith an rMSE of 29.81 mg/dL for type 1 diabetes patients and 23.49 mg/dL for\ntype 2 diabetes patients in a two-hour prediction horizon. For the OhioT1DM\ndataset, CGM-LSM achieved a one-hour rMSE of 15.64 mg/dL, halving the previous\nbest of 31.97 mg/dL. Robustness analyses revealed consistent performance not\nonly for unseen patients and future periods, but also across diabetes type,\nage, and gender. The model demonstrated adaptability to different hours of day,\nmaintaining accuracy across periods of various activity intensity levels.\nCGM-LSM represents a transformative step in diabetes management by leveraging\npretraining to uncover latent glucose generation patterns in sensor data. Our\nfindings also underscore the broader potential of LSMs to drive innovation\nacross domains involving complex sensor data.\n",
+  "subjects": [
+    "Quantitative Biology/Quantitative Methods",
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "pTz_b95gJ9S9X8UD-LzRylbyIOj4XDhLDxVnOMGXLbE",
+  "pdfSize": "4158222"
+}

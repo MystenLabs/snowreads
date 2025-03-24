@@ -1,0 +1,36 @@
+{
+  "id": "2412.03613",
+  "title": "Theoretical / numerical study of modulated traveling waves in inhibition\n  stabilized networks",
+  "authors": "Safaa Habib and Romain Veltz",
+  "authorsParsed": [
+    [
+      "Habib",
+      "Safaa",
+      ""
+    ],
+    [
+      "Veltz",
+      "Romain",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 4 Dec 2024 14:06:54 GMT"
+    }
+  ],
+  "updateDate": "2024-12-06",
+  "timestamp": 1733321214000,
+  "abstract": "  We prove a principle of linearized stability for traveling wave solutions to\nneural field equations posed on the real line. Additionally, we provide the\nexistence of a finite dimensional invariant center manifold close to a\ntraveling wave, this allows to study bifurcations of traveling waves. Finally,\nthe spectral properties of the modulated traveling waves are investigated.\nNumerical schemes for the computation of modulated traveling waves are\nprovided. We then apply these results and methods to study a neural field model\nin a inhibitory stabilized regime. We showcase Fold, Hopf and Bodgdanov-Takens\nbifurcations of traveling pulses. Additionally, we continue the modulated\ntraveling pulses as function of the time scale ratio of the two neural\npopulations and show numerical evidences for snaking of modulated traveling\npulses.\n",
+  "subjects": [
+    "Mathematics/Dynamical Systems",
+    "Mathematics/Functional Analysis",
+    "Mathematics/Spectral Theory",
+    "Nonlinear Sciences/Pattern Formation and Solitons",
+    "Quantitative Biology/Neurons and Cognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "H-MzMOfpqPtCEyukYWrEOS4KDusDGd9aJfoV7RF9Jds",
+  "pdfSize": "2369192"
+}

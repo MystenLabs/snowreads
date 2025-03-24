@@ -1,0 +1,43 @@
+{
+  "id": "2412.06454",
+  "title": "Adaptive Graph Learning from Spatial Information for Surgical Workflow\n  Anticipation",
+  "authors": "Francis Xiatian Zhang, Jingjing Deng, Robert Lieck, Hubert P. H. Shum",
+  "authorsParsed": [
+    [
+      "Zhang",
+      "Francis Xiatian",
+      ""
+    ],
+    [
+      "Deng",
+      "Jingjing",
+      ""
+    ],
+    [
+      "Lieck",
+      "Robert",
+      ""
+    ],
+    [
+      "Shum",
+      "Hubert P. H.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 9 Dec 2024 12:53:08 GMT"
+    }
+  ],
+  "updateDate": "2024-12-10",
+  "timestamp": 1733748788000,
+  "abstract": "  Surgical workflow anticipation is the task of predicting the timing of\nrelevant surgical events from live video data, which is critical in\nRobotic-Assisted Surgery (RAS). Accurate predictions require the use of spatial\ninformation to model surgical interactions. However, current methods focus\nsolely on surgical instruments, assume static interactions between instruments,\nand only anticipate surgical events within a fixed time horizon. To address\nthese challenges, we propose an adaptive graph learning framework for surgical\nworkflow anticipation based on a novel spatial representation, featuring three\nkey innovations. First, we introduce a new representation of spatial\ninformation based on bounding boxes of surgical instruments and targets,\nincluding their detection confidence levels. These are trained on additional\nannotations we provide for two benchmark datasets. Second, we design an\nadaptive graph learning method to capture dynamic interactions. Third, we\ndevelop a multi-horizon objective that balances learning objectives for\ndifferent time horizons, allowing for unconstrained predictions. Evaluations on\ntwo benchmarks reveal superior performance in short-to-mid-term anticipation,\nwith an error reduction of approximately 3% for surgical phase anticipation and\n9% for remaining surgical duration anticipation. These performance improvements\ndemonstrate the effectiveness of our method and highlight its potential for\nenhancing preparation and coordination within the RAS team. This can improve\nsurgical safety and the efficiency of operating room usage.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Robotics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "CIEQFXOF_j8qNb0yR8oItc1UV8inD2w-GdwXcPgExqU",
+  "pdfSize": "21734853"
+}

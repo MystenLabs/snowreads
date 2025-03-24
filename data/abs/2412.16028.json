@@ -1,0 +1,67 @@
+{
+  "id": "2412.16028",
+  "title": "CoCoGaussian: Leveraging Circle of Confusion for Gaussian Splatting from\n  Defocused Images",
+  "authors": "Jungho Lee, Suhwan Cho, Taeoh Kim, Ho-Deok Jang, Minhyeok Lee, Geonho\n  Cha, Dongyoon Wee, Dogyoon Lee, Sangyoun Lee",
+  "authorsParsed": [
+    [
+      "Lee",
+      "Jungho",
+      ""
+    ],
+    [
+      "Cho",
+      "Suhwan",
+      ""
+    ],
+    [
+      "Kim",
+      "Taeoh",
+      ""
+    ],
+    [
+      "Jang",
+      "Ho-Deok",
+      ""
+    ],
+    [
+      "Lee",
+      "Minhyeok",
+      ""
+    ],
+    [
+      "Cha",
+      "Geonho",
+      ""
+    ],
+    [
+      "Wee",
+      "Dongyoon",
+      ""
+    ],
+    [
+      "Lee",
+      "Dogyoon",
+      ""
+    ],
+    [
+      "Lee",
+      "Sangyoun",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 20 Dec 2024 16:25:20 GMT"
+    }
+  ],
+  "updateDate": "2024-12-23",
+  "timestamp": 1734711920000,
+  "abstract": "  3D Gaussian Splatting (3DGS) has attracted significant attention for its\nhigh-quality novel view rendering, inspiring research to address real-world\nchallenges. While conventional methods depend on sharp images for accurate\nscene reconstruction, real-world scenarios are often affected by defocus blur\ndue to finite depth of field, making it essential to account for realistic 3D\nscene representation. In this study, we propose CoCoGaussian, a Circle of\nConfusion-aware Gaussian Splatting that enables precise 3D scene representation\nusing only defocused images. CoCoGaussian addresses the challenge of defocus\nblur by modeling the Circle of Confusion (CoC) through a physically grounded\napproach based on the principles of photographic defocus. Exploiting 3D\nGaussians, we compute the CoC diameter from depth and learnable aperture\ninformation, generating multiple Gaussians to precisely capture the CoC shape.\nFurthermore, we introduce a learnable scaling factor to enhance robustness and\nprovide more flexibility in handling unreliable depth in scenes with reflective\nor refractive surfaces. Experiments on both synthetic and real-world datasets\ndemonstrate that CoCoGaussian achieves state-of-the-art performance across\nmultiple benchmarks.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "e1OUUc6NKGnzNdSKxmyrAuhV49YZ71ssa0BKoOdIp20",
+  "pdfSize": "8230067"
+}

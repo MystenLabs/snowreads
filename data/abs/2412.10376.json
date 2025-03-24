@@ -1,0 +1,27 @@
+{
+  "id": "2412.10376",
+  "title": "Estimations of Fourier Coefficients For Controlled Distortion of a\n  Periodic Function",
+  "authors": "Vladimir Sluchak",
+  "authorsParsed": [
+    [
+      "Sluchak",
+      "Vladimir",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 23 Nov 2024 00:19:45 GMT"
+    }
+  ],
+  "updateDate": "2024-12-17",
+  "timestamp": 1732321185000,
+  "abstract": "  There is a class of physical filtration processes where the input is\nadequately modeled by a continuous periodic function f (x) of bounded variation\nover its period, and the output depends only on certain harmonics of the\nFourier expansion of f (x) in the orthogonal basis of trigonometric functions.\nOne example is the discrete spectrum sound generation by a revolving body in a\nsteady fluid flow. This type of sound can be controlled through the amplitudes\nof certain harmonics of the circular distribution of the inflow velocity.\nAttainable goals of such a controlled distortion of f (x) are formulated as\nfuzzy targets and required inequalities relating the integral characteristics\nof f (x) with the coefficients of the corresponding Fourier expansion are\nproven.\n",
+  "subjects": [
+    "Mathematics/General Mathematics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "cEWG1hHm2gsRsp-HUmeQydFclBTmORHAg_mxA9vSUtw",
+  "pdfSize": "93378"
+}

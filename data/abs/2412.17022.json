@@ -1,0 +1,52 @@
+{
+  "id": "2412.17022",
+  "title": "FriendsQA: A New Large-Scale Deep Video Understanding Dataset with\n  Fine-grained Topic Categorization for Story Videos",
+  "authors": "Zhengqian Wu, Ruizhe Li, Zijun Xu, Zhongyuan Wang, Chunxia Xiao, Chao\n  Liang",
+  "authorsParsed": [
+    [
+      "Wu",
+      "Zhengqian",
+      ""
+    ],
+    [
+      "Li",
+      "Ruizhe",
+      ""
+    ],
+    [
+      "Xu",
+      "Zijun",
+      ""
+    ],
+    [
+      "Wang",
+      "Zhongyuan",
+      ""
+    ],
+    [
+      "Xiao",
+      "Chunxia",
+      ""
+    ],
+    [
+      "Liang",
+      "Chao",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 22 Dec 2024 13:55:44 GMT"
+    }
+  ],
+  "updateDate": "2024-12-24",
+  "timestamp": 1734875744000,
+  "abstract": "  Video question answering (VideoQA) aims to answer natural language questions\naccording to the given videos. Although existing models perform well in the\nfactoid VideoQA task, they still face challenges in deep video understanding\n(DVU) task, which focuses on story videos. Compared to factoid videos, the most\nsignificant feature of story videos is storylines, which are composed of\ncomplex interactions and long-range evolvement of core story topics including\ncharacters, actions and locations. Understanding these topics requires models\nto possess DVU capability. However, existing DVU datasets rarely organize\nquestions according to these story topics, making them difficult to\ncomprehensively assess VideoQA models' DVU capability of complex storylines.\nAdditionally, the question quantity and video length of these dataset are\nlimited by high labor costs of handcrafted dataset building method. In this\npaper, we devise a large language model based multi-agent collaboration\nframework, StoryMind, to automatically generate a new large-scale DVU dataset.\nThe dataset, FriendsQA, derived from the renowned sitcom Friends with an\naverage episode length of 1,358 seconds, contains 44.6K questions evenly\ndistributed across 14 fine-grained topics. Finally, We conduct comprehensive\nexperiments on 10 state-of-the-art VideoQA models using the FriendsQA dataset.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "XZcSEqpgOWdtbSYXlU9ZFo39x_pF9tjaHc2s1WmzJQo",
+  "pdfSize": "11983120"
+}

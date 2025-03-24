@@ -1,0 +1,71 @@
+{
+  "id": "2412.20127",
+  "title": "M-MAD: Multidimensional Multi-Agent Debate for Advanced Machine\n  Translation Evaluation",
+  "authors": "Zhaopeng Feng, Jiayuan Su, Jiamei Zheng, Jiahan Ren, Yan Zhang, Jian\n  Wu, Hongwei Wang, Zuozhu Liu",
+  "authorsParsed": [
+    [
+      "Feng",
+      "Zhaopeng",
+      ""
+    ],
+    [
+      "Su",
+      "Jiayuan",
+      ""
+    ],
+    [
+      "Zheng",
+      "Jiamei",
+      ""
+    ],
+    [
+      "Ren",
+      "Jiahan",
+      ""
+    ],
+    [
+      "Zhang",
+      "Yan",
+      ""
+    ],
+    [
+      "Wu",
+      "Jian",
+      ""
+    ],
+    [
+      "Wang",
+      "Hongwei",
+      ""
+    ],
+    [
+      "Liu",
+      "Zuozhu",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 28 Dec 2024 12:11:28 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Wed, 19 Feb 2025 13:08:34 GMT"
+    },
+    {
+      "version": "v3",
+      "created": "Thu, 20 Feb 2025 12:55:22 GMT"
+    }
+  ],
+  "updateDate": "2025-02-21",
+  "timestamp": 1735387888000,
+  "abstract": "  Recent advancements in large language models (LLMs) have given rise to the\nLLM-as-a-judge paradigm, showcasing their potential to deliver human-like\njudgments. However, in the field of machine translation (MT) evaluation,\ncurrent LLM-as-a-judge methods fall short of learned automatic metrics. In this\npaper, we propose Multidimensional Multi-Agent Debate (M-MAD), a systematic\nLLM-based multi-agent framework for advanced LLM-as-a-judge MT evaluation. Our\nfindings demonstrate that M-MAD achieves significant advancements by (1)\ndecoupling heuristic MQM criteria into distinct evaluation dimensions for\nfine-grained assessments; (2) employing multi-agent debates to harness the\ncollaborative reasoning capabilities of LLMs; (3) synthesizing\ndimension-specific results into a final evaluation judgment to ensure robust\nand reliable outcomes. Comprehensive experiments show that M-MAD not only\noutperforms all existing LLM-as-a-judge methods but also competes with\nstate-of-the-art reference-based automatic metrics, even when powered by a\nsuboptimal model like GPT-4o mini. Detailed ablations and analysis highlight\nthe superiority of our framework design, offering a fresh perspective for\nLLM-as-a-judge paradigm. Our code and data are publicly available at\nhttps://github.com/SU-JIAYUAN/M-MAD.\n",
+  "subjects": [
+    "Computer Science/Computation and Language",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "UUfbFeneTEoYHb9c9vNIe-RloLhd_9IR8u00sG2iGFI",
+  "pdfSize": "1194892"
+}

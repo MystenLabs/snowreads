@@ -1,0 +1,27 @@
+{
+  "id": "2412.16473",
+  "title": "\"ScatSpotter\" 2024 -- A Distributed Dog Poop Detection Dataset",
+  "authors": "Jon Crall",
+  "authorsParsed": [
+    [
+      "Crall",
+      "Jon",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 21 Dec 2024 04:05:29 GMT"
+    }
+  ],
+  "updateDate": "2024-12-24",
+  "timestamp": 1734753929000,
+  "abstract": "  We introduce a new -- currently 42 gigabyte -- ``living'' dataset of phone\nimages of dog feces, annotated with manually drawn or AI-assisted polygon\nlabels. There are 6k full resolution images and 4k detailed polygon\nannotations. The collection and annotation of images started in late 2020 and\nthe dataset grows by roughly 1GB a month. We train VIT and MaskRCNN baseline\nmodels to explore the difficulty of the dataset. The best model achieves a\npixelwise average precision of 0.858 on a 691-image validation set and 0.847 on\na small independently captured 30-image contributor test set. The most recent\nsnapshot of dataset is made publicly available through three different\ndistribution methods: one centralized (Girder) and two decentralized (IPFS and\nBitTorrent). We study of the trade-offs between distribution methods and\ndiscuss the feasibility of each with respect to reliably sharing open\nscientific data. The code to reproduce the experiments is hosted on GitHub, and\nthe data is published under the Creative Commons Attribution 4.0 International\nlicense. Model weights are made publicly available with the dataset.\nExperimental hardware, time, energy, and emissions are quantified.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "Vk0iR8FnQShuNt4t6F9emgeHPJNERKLpGScyL9aGgR4",
+  "pdfSize": "17096570"
+}

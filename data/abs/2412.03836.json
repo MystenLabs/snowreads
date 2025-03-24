@@ -1,0 +1,27 @@
+{
+  "id": "2412.03836",
+  "title": "Unified analysis of phase-field models for cohesive fracture",
+  "authors": "Jian-Ying Wu",
+  "authorsParsed": [
+    [
+      "Wu",
+      "Jian-Ying",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 5 Dec 2024 02:59:18 GMT"
+    }
+  ],
+  "updateDate": "2024-12-06",
+  "timestamp": 1733367558000,
+  "abstract": "  We address in this review unified analysis of phase-field models for cohesive\nfracture. Aiming to regularize the Barenblatt (1959) cohesive zone model, all\nthe discussed models are distinguished by three characteristic functions, i.e.,\nthe geometric function dictating the crack profile, the degradation function\nfor the constitutive relation and the dissipation function defining the crack\ndriving force. The latter two functions coincide in the associated formulation,\nwhile in the non-associated one they are designed to be different. Distinct\nfrom the counterpart for brittle fracture, in the phase-field model for\ncohesive fracture the regularization length parameter has to be properly\nincorporated into the dissipation and/or degradation functions such that the\nfailure strength and traction-separation softening curve are both well-defined.\nMoreover, the resulting crack bandwidth needs to be non-decreasing during\nfailure in order that imposition of the crack irreversibility condition does\nnot affect the anticipated traction-separation law (TSL). With a truncated\ndegradation function that is proportional to the length parameter, the Conti et\nal.(2016) model and the latter improved versions can deal with crack nucleation\nonly in the vanishing limit and capture cohesive fracture only with a\nparticular TSL. Owing to a length scale dependent degradation function of\nrational fraction, these deficiencies are largely overcome in the phase-field\ncohesive zone model (PF-CZM). Among many variants in the literature, only with\nthe optimal geometric function, can the associated PF-CZM apply to general\nnon-concave softening laws and the non-associated uPF-CZM to (almost) any\narbitrary one. Some mis-interpretations are clarified and representative\nnumerical examples are presented.\n",
+  "subjects": [
+    "Condensed Matter/Materials Science"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "Iy1grhXyIssl7sEb-hFhz_nSGZDEkIX9tg6eGdjzsXU",
+  "pdfSize": "3539955"
+}

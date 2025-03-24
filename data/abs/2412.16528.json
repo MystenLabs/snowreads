@@ -1,0 +1,57 @@
+{
+  "id": "2412.16528",
+  "title": "Absorption and Dispersion: In Search of a Versatile Spectroscopic\n  Technique",
+  "authors": "Iskander Gazizov, Davide Pinto, Harald Moser, Savda Sam, Pedro\n  Martin-Mateos, Liam O'Faolain, and Bernhard Lendl",
+  "authorsParsed": [
+    [
+      "Gazizov",
+      "Iskander",
+      ""
+    ],
+    [
+      "Pinto",
+      "Davide",
+      ""
+    ],
+    [
+      "Moser",
+      "Harald",
+      ""
+    ],
+    [
+      "Sam",
+      "Savda",
+      ""
+    ],
+    [
+      "Martin-Mateos",
+      "Pedro",
+      ""
+    ],
+    [
+      "O'Faolain",
+      "Liam",
+      ""
+    ],
+    [
+      "Lendl",
+      "Bernhard",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 21 Dec 2024 08:13:39 GMT"
+    }
+  ],
+  "updateDate": "2024-12-24",
+  "timestamp": 1734768819000,
+  "abstract": "  This paper investigates three spectroscopic techniques - Tunable Diode Laser\nAbsorption Spectroscopy (TDLAS), Wavelength Modulation Spectroscopy (WMS), and\nHeterodyne Phase Sensitive Dispersion Spectroscopy (HPSDS) - to evaluate their\nperformance in detecting carbon monoxide (CO) in nitrogen in a 31 m Herriot\ncell using an Interband Cascade Laser (ICL) emitting at 4559 nm. With the\ndeveloped spectrometer, we can switch between the techniques with minimal\nhardware modifications. Calibration curves were established using simple\npeak-to-peak values from the recorded TDLAS, WMS, and HSPDS spectra, as well as\nafter applying respective spectral models of the sensor responses followed by a\nleast-squares fitting approach. We compare the results when using the different\ntechniques with respect to obtained linearity, minimum detectable value (MDV),\nstandard deviation of the method (sx0), coefficient of variation of the method\n(Vx0), limit of detection (LOD), and Allan-Werle deviation analysis. The\nresults show significant differences in the performance of the three techniques\nwhen establishing calibration curves based on peak-to-peak evaluation of the\nrecorded spectra. However, when establishing model-based calibration curves, a\nmore uniform performance of the investigated techniques was found. The results\ndemonstrate that TDLAS is a straightforward and robust technique but has a\nlimited measurement range of up to 65 ppm. WMS offers a linear range of up to\n100 ppm if an appropriate spectral model is applied and a baseline-free\noperation but requires careful calibration. HPSDS stands out for its wide\nlinear range of up to 100 ppm and immunity to power fluctuations. However, its\noperation requires a complex mathematical model and radio frequency (RF)\ncomponents.\n",
+  "subjects": [
+    "Physics/Instrumentation and Detectors"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "aMvYrrRV_2hT1m8sdaBFXxiD5VvRZqvm2MdUo3TpJeE",
+  "pdfSize": "2330313"
+}

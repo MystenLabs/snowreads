@@ -1,0 +1,32 @@
+{
+  "id": "2412.18853",
+  "title": "Generalized Tur\\'an problems for a matching and long cycles",
+  "authors": "Xiamiao Zhao, Mei Lu",
+  "authorsParsed": [
+    [
+      "Zhao",
+      "Xiamiao",
+      ""
+    ],
+    [
+      "Lu",
+      "Mei",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 25 Dec 2024 09:51:54 GMT"
+    }
+  ],
+  "updateDate": "2024-12-30",
+  "timestamp": 1735120314000,
+  "abstract": "  Let $\\mathscr{F}$ be a family of graphs. A graph $G$ is $\\mathscr{F}$-free if\n$G$ does not contain any $F\\in \\mathcal{F}$ as a subgraph. The general Tur\\'an\nnumber, denoted by $ex(n, H,\\mathscr{F})$, is the maximum number of copies of\n$H$ in an $n$-vertex $\\mathscr{F}$-free graph. Then $ex(n, K_2,\\mathscr{F})$,\nalso denote by $ex(n, \\mathscr{F})$, is the Tur\\'an number. Recently, Alon and\nFrankl determined the exact value of $ex(n, \\{K_{k},M_{s+1}\\})$, where $K_{k}$\nand $M_{s+1}$ are a complete graph on $k $ vertices and a matching of size $s\n+1$, respectively. Then many results were obtained by extending $K_{k}$ to a\ngeneral fixed graph or family of graphs. Let $C_k$ be a cycle of order $k$.\nDenote $C_{\\ge k}=\\{C_k,C_{k+1},\\ldots\\}$. In this paper, we determine the\nvalue of $ex(n,K_r, \\{C_{\\ge k},M_{s+1}\\})$ for large enough $n$ and obtain the\nextremal graphs when $k$ is odd. Particularly, the exact value of $ex(n,\n\\{C_{\\ge k},M_{s+1}\\})$ and the extremal graph are given for large enough $n$.\n",
+  "subjects": [
+    "Mathematics/Combinatorics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "fG_uIdDCBNbd94gmJLE3TRqRj__Mut9mFVyeexE5Cjc",
+  "pdfSize": "657694"
+}

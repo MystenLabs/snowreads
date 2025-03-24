@@ -1,0 +1,57 @@
+{
+  "id": "2412.11015",
+  "title": "Experimental demonstration of enhanced quantum tomography via quantum\n  reservoir processing",
+  "authors": "Tanjung Krisnanda, Pengtao Song, Adrian Copetudo, Clara Yun Fontaine,\n  Tomasz Paterek, Timothy C. H. Liew, Yvonne Y. Gao",
+  "authorsParsed": [
+    [
+      "Krisnanda",
+      "Tanjung",
+      ""
+    ],
+    [
+      "Song",
+      "Pengtao",
+      ""
+    ],
+    [
+      "Copetudo",
+      "Adrian",
+      ""
+    ],
+    [
+      "Fontaine",
+      "Clara Yun",
+      ""
+    ],
+    [
+      "Paterek",
+      "Tomasz",
+      ""
+    ],
+    [
+      "Liew",
+      "Timothy C. H.",
+      ""
+    ],
+    [
+      "Gao",
+      "Yvonne Y.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 15 Dec 2024 02:02:43 GMT"
+    }
+  ],
+  "updateDate": "2024-12-17",
+  "timestamp": 1734228163000,
+  "abstract": "  Quantum machine learning is a rapidly advancing discipline that leverages the\nfeatures of quantum mechanics to enhance the performance of computational\ntasks. Quantum reservoir processing, which allows efficient optimization of a\nsingle output layer without precise control over the quantum system, stands out\nas one of the most versatile and practical quantum machine learning techniques.\nHere we experimentally demonstrate a quantum reservoir processing approach for\ncontinuous-variable state reconstruction on a bosonic circuit quantum\nelectrodynamics platform. The scheme learns the true dynamical process through\na minimum set of measurement outcomes of a known set of initial states. We show\nthat the map learnt this way achieves high reconstruction fidelity for several\ntest states, offering significantly enhanced performance over using map\ncalculated based on an idealised model of the system. This is due to a key\nfeature of reservoir processing which accurately accounts for physical\nnon-idealities such as decoherence, spurious dynamics, and systematic errors.\nOur results present a valuable tool for robust bosonic state and process\nreconstruction, concretely demonstrating the power of quantum reservoir\nprocessing in enhancing real-world applications.\n",
+  "subjects": [
+    "Physics/Quantum Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "mgMKxTlqq67MqN49rvHJxXAW4Idke-BQA6WewFx3CY4",
+  "pdfSize": "3585022"
+}

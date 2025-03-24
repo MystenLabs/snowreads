@@ -1,0 +1,28 @@
+{
+  "id": "2412.01835",
+  "title": "Monolithic Hybrid Recommender System for Suggesting Relevant Movies",
+  "authors": "Mahdi Rezapour",
+  "authorsParsed": [
+    [
+      "Rezapour",
+      "Mahdi",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 16 Nov 2024 20:41:17 GMT"
+    }
+  ],
+  "updateDate": "2024-12-04",
+  "timestamp": 1731789677000,
+  "abstract": "  Recommendation systems have become the fundamental services to facilitate\nusers information access. Generally, recommendation system works by filtering\nhistorical behaviors to understand and learn users preferences. With the growth\nof online information, recommendations have become of crucial importance in\ninformation filtering to prevent the information overload problem. In this\nstudy, we considered hybrid post-fusion of two approaches of collaborative\nfiltering, by using sequences of watched movies and considering the related\nmovies rating. After considering both techniques and applying the weights\nmatrix, the recommendations would be modified to correspond to the users\npreference as needed. We discussed that various weights would be set based on\nuse cases. For instance, in cases where we have the rating for most classes, we\nwill assign a higher weight to the rating matrix and in case where the rating\nis unavailable for the majority of cases, the higher weights might be assigned\nto the sequential dataset. An extensive discussion is made in the context of\nthis paper. Sequential type of the watched movies was used in conjunction of\nthe rating as especially that model might be inadequate in distinguishing users\nlong-term preference and that does not account for the rating of the watched\nmovies and thus that model along might not suffice. Extensive discussion was\nmade regarding the literature and methodological approach to solve the problem.\n",
+  "subjects": [
+    "Computer Science/Information Retrieval",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+  "blobId": "PVotMs0lwMZ8euGOn5myMkChZYk5-V1ZHeOeVlj7Dyw",
+  "pdfSize": "552687"
+}

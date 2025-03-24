@@ -1,0 +1,27 @@
+{
+  "id": "2412.04407",
+  "title": "Learning on hexagonal structures and Monge-Amp\\`ere operators",
+  "authors": "No\\'emie C. Combe",
+  "authorsParsed": [
+    [
+      "Combe",
+      "Noémie C.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 5 Dec 2024 18:26:43 GMT"
+    }
+  ],
+  "updateDate": "2024-12-06",
+  "timestamp": 1733423203000,
+  "abstract": "  Dually flat statistical manifolds provide a rich toolbox for investigations\naround the learning process. We prove that such manifolds are Monge-Amp\\`ere\nmanifolds. Examples of such manifolds include the space of exponential\nprobability distributions on finite sets and the Boltzmann manifolds. Our\ninvestigations of Boltzmann manifolds lead us to prove that Monge-Amp\\`ere\noperators control learning methods for Boltzmann machines. Using local trivial\nfibrations (webs) we demonstrate that on such manifolds the webs are\nparallelizable and can be constructed using a generalisation of Ceva's theorem.\nAssuming that our domain satisfies certain axioms of 2D topological quantum\nfield theory we show that locally the learning can be defined on hexagonal\nstructures. This brings a new geometric perspective for defining the optimal\nlearning process.\n",
+  "subjects": [
+    "Mathematics/Differential Geometry"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "hc4ZOcNW-Tqxo5Up0d6dEPziSkY7HxaDibiukjae3CA",
+  "pdfSize": "439190"
+}

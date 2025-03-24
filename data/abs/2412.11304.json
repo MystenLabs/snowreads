@@ -1,0 +1,53 @@
+{
+  "id": "2412.11304",
+  "title": "An Empirical Study of Fault Localisation Techniques for Deep Learning",
+  "authors": "Nargiz Humbatova, Jinhan Kim, Gunel Jahangirova, Shin Yoo, Paolo\n  Tonella",
+  "authorsParsed": [
+    [
+      "Humbatova",
+      "Nargiz",
+      ""
+    ],
+    [
+      "Kim",
+      "Jinhan",
+      ""
+    ],
+    [
+      "Jahangirova",
+      "Gunel",
+      ""
+    ],
+    [
+      "Yoo",
+      "Shin",
+      ""
+    ],
+    [
+      "Tonella",
+      "Paolo",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 15 Dec 2024 20:47:03 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Tue, 17 Dec 2024 10:07:46 GMT"
+    }
+  ],
+  "updateDate": "2024-12-18",
+  "timestamp": 1734295623000,
+  "abstract": "  With the increased popularity of Deep Neural Networks (DNNs), increases also\nthe need for tools to assist developers in the DNN implementation, testing and\ndebugging process. Several approaches have been proposed that automatically\nanalyse and localise potential faults in DNNs under test. In this work, we\nevaluate and compare existing state-of-the-art fault localisation techniques,\nwhich operate based on both dynamic and static analysis of the DNN. The\nevaluation is performed on a benchmark consisting of both real faults obtained\nfrom bug reporting platforms and faulty models produced by a mutation tool. Our\nfindings indicate that the usage of a single, specific ground truth (e.g., the\nhuman defined one) for the evaluation of DNN fault localisation tools results\nin pretty low performance (maximum average recall of 0.31 and precision of\n0.23). However, such figures increase when considering alternative, equivalent\npatches that exist for a given faulty DNN. Results indicate that \\dfd is the\nmost effective tool, achieving an average recall of 0.61 and precision of 0.41\non our benchmark.\n",
+  "subjects": [
+    "Computer Science/Software Engineering",
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by-sa/4.0/",
+  "blobId": "H1MBdQuspXB2VhIG9l5E_JsyU2rCay0gAnhMqO5oggA",
+  "pdfSize": "425243"
+}

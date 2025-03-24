@@ -1,0 +1,78 @@
+{
+  "id": "2412.05437",
+  "title": "DRL4AOI: A DRL Framework for Semantic-aware AOI Segmentation in\n  Location-Based Services",
+  "authors": "Youfang Lin, Jinji Fu, Haomin Wen, Jiyuan Wang, Zhenjie Wei, Yuting\n  Qiang, Xiaowei Mao, Lixia Wu, Haoyuan Hu, Yuxuan Liang, Huaiyu Wan",
+  "authorsParsed": [
+    [
+      "Lin",
+      "Youfang",
+      ""
+    ],
+    [
+      "Fu",
+      "Jinji",
+      ""
+    ],
+    [
+      "Wen",
+      "Haomin",
+      ""
+    ],
+    [
+      "Wang",
+      "Jiyuan",
+      ""
+    ],
+    [
+      "Wei",
+      "Zhenjie",
+      ""
+    ],
+    [
+      "Qiang",
+      "Yuting",
+      ""
+    ],
+    [
+      "Mao",
+      "Xiaowei",
+      ""
+    ],
+    [
+      "Wu",
+      "Lixia",
+      ""
+    ],
+    [
+      "Hu",
+      "Haoyuan",
+      ""
+    ],
+    [
+      "Liang",
+      "Yuxuan",
+      ""
+    ],
+    [
+      "Wan",
+      "Huaiyu",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 6 Dec 2024 21:45:27 GMT"
+    }
+  ],
+  "updateDate": "2024-12-10",
+  "timestamp": 1733521527000,
+  "abstract": "  In Location-Based Services (LBS), such as food delivery, a fundamental task\nis segmenting Areas of Interest (AOIs), aiming at partitioning the urban\ngeographical spaces into non-overlapping regions. Traditional AOI segmentation\nalgorithms primarily rely on road networks to partition urban areas. While\npromising in modeling the geo-semantics, road network-based models overlooked\nthe service-semantic goals (e.g., workload equality) in LBS service. In this\npaper, we point out that the AOI segmentation problem can be naturally\nformulated as a Markov Decision Process (MDP), which gradually chooses a nearby\nAOI for each grid in the current AOI's border. Based on the MDP, we present the\nfirst attempt to generalize Deep Reinforcement Learning (DRL) for AOI\nsegmentation, leading to a novel DRL-based framework called DRL4AOI. The\nDRL4AOI framework introduces different service-semantic goals in a flexible way\nby treating them as rewards that guide the AOI generation. To evaluate the\neffectiveness of DRL4AOI, we develop and release an AOI segmentation system. We\nalso present a representative implementation of DRL4AOI - TrajRL4AOI - for AOI\nsegmentation in the logistics service. It introduces a Double Deep Q-learning\nNetwork (DDQN) to gradually optimize the AOI generation for two specific\nsemantic goals: i) trajectory modularity, i.e., maximize tightness of the\ntrajectory connections within an AOI and the sparsity of connections between\nAOIs, ii) matchness with the road network, i.e., maximizing the matchness\nbetween AOIs and the road network. Quantitative and qualitative experiments\nconducted on synthetic and real-world data demonstrate the effectiveness and\nsuperiority of our method. The code and system is publicly available at\nhttps://github.com/Kogler7/AoiOpt.\n",
+  "subjects": [
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "fGyGQQuR2nDqxKwaspP1G0Cx4EPCuZNheK7Q7suHj8o",
+  "pdfSize": "4184957"
+}

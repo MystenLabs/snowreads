@@ -1,0 +1,49 @@
+{
+  "id": "2412.16336",
+  "title": "Real Faults in Deep Learning Fault Benchmarks: How Real Are They?",
+  "authors": "Gunel Jahangirova and Nargiz Humbatova and Jinhan Kim and Shin Yoo and\n  Paolo Tonella",
+  "authorsParsed": [
+    [
+      "Jahangirova",
+      "Gunel",
+      ""
+    ],
+    [
+      "Humbatova",
+      "Nargiz",
+      ""
+    ],
+    [
+      "Kim",
+      "Jinhan",
+      ""
+    ],
+    [
+      "Yoo",
+      "Shin",
+      ""
+    ],
+    [
+      "Tonella",
+      "Paolo",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 20 Dec 2024 20:52:10 GMT"
+    }
+  ],
+  "updateDate": "2024-12-24",
+  "timestamp": 1734727930000,
+  "abstract": "  As the adoption of Deep Learning (DL) systems continues to rise, an\nincreasing number of approaches are being proposed to test these systems,\nlocalise faults within them, and repair those faults. The best attestation of\neffectiveness for such techniques is an evaluation that showcases their\ncapability to detect, localise and fix real faults. To facilitate these\nevaluations, the research community has collected multiple benchmarks of real\nfaults in DL systems. In this work, we perform a manual analysis of 490 faults\nfrom five different benchmarks and identify that 314 of them are eligible for\nour study. Our investigation focuses specifically on how well the bugs\ncorrespond to the sources they were extracted from, which fault types are\nrepresented, and whether the bugs are reproducible. Our findings indicate that\nonly 18.5% of the faults satisfy our realism conditions. Our attempts to\nreproduce these faults were successful only in 52% of cases.\n",
+  "subjects": [
+    "Computer Science/Software Engineering",
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by-sa/4.0/",
+  "blobId": "eOzaNrL6a2RRIVpP3vm_9A8c1aMxCUWd2AAd5e9rtSw",
+  "pdfSize": "297617"
+}

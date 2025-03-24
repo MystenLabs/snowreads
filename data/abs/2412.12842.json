@@ -1,0 +1,44 @@
+{
+  "id": "2412.12842",
+  "title": "Super-Resolving Normalising Flows for Lattice Field Theories",
+  "authors": "Marc Bauer, Renzo Kapust, Jan M. Pawlowski, Finn L. Temmen",
+  "authorsParsed": [
+    [
+      "Bauer",
+      "Marc",
+      ""
+    ],
+    [
+      "Kapust",
+      "Renzo",
+      ""
+    ],
+    [
+      "Pawlowski",
+      "Jan M.",
+      ""
+    ],
+    [
+      "Temmen",
+      "Finn L.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 17 Dec 2024 12:10:56 GMT"
+    }
+  ],
+  "updateDate": "2024-12-18",
+  "timestamp": 1734437456000,
+  "abstract": "  We propose a renormalisation group inspired normalising flow that combines\nbenefits from traditional Markov chain Monte Carlo methods and standard\nnormalising flows to sample lattice field theories. Specifically, we use\nsamples from a coarse lattice field theory and learn a stochastic map to the\ntargeted fine theory. The devised architecture allows for systematic\nimprovements and efficient sampling on lattices as large as $128 \\times 128$ in\nall phases when only having sampling access on a $4\\times 4$ lattice. This\npaves the way for reaping the benefits of traditional MCMC methods on coarse\nlattices while using normalising flows to learn transformations towards finer\ngrids, aligning nicely with the intuition of super-resolution tasks. Moreover,\nby optimising the base distribution, this approach allows for further\nstructural improvements besides increasing the expressivity of the model.\n",
+  "subjects": [
+    "Physics/High Energy Physics - Lattice",
+    "Condensed Matter/Statistical Mechanics",
+    "Physics/Computational Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "qoj2UUcPj35u4yUDO2jZ2foU946TlEKDLggq2lqCI_Q",
+  "pdfSize": "1162153"
+}

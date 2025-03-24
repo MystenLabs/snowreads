@@ -1,0 +1,38 @@
+{
+  "id": "2412.12755",
+  "title": "Progressive Monitoring of Generative Model Training Evolution",
+  "authors": "Vidya Prasad, Anna Vilanova, Nicola Pezzotti",
+  "authorsParsed": [
+    [
+      "Prasad",
+      "Vidya",
+      ""
+    ],
+    [
+      "Vilanova",
+      "Anna",
+      ""
+    ],
+    [
+      "Pezzotti",
+      "Nicola",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 17 Dec 2024 10:20:29 GMT"
+    }
+  ],
+  "updateDate": "2024-12-18",
+  "timestamp": 1734430829000,
+  "abstract": "  While deep generative models (DGMs) have gained popularity, their\nsusceptibility to biases and other inefficiencies that lead to undesirable\noutcomes remains an issue. With their growing complexity, there is a critical\nneed for early detection of issues to achieve desired results and optimize\nresources. Hence, we introduce a progressive analysis framework to monitor the\ntraining process of DGMs. Our method utilizes dimensionality reduction\ntechniques to facilitate the inspection of latent representations, the\ngenerated and real distributions, and their evolution across training\niterations. This monitoring allows us to pause and fix the training method if\nthe representations or distributions progress undesirably. This approach allows\nfor the analysis of a models' training dynamics and the timely identification\nof biases and failures, minimizing computational loads. We demonstrate how our\nmethod supports identifying and mitigating biases early in training a\nGenerative Adversarial Network (GAN) and improving the quality of the generated\ndata distribution.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by-sa/4.0/",
+  "blobId": "u5QYf12KPkC75AqMGl9-w4I-3p7MYgCxvPSQr9-K0fI",
+  "pdfSize": "18420770"
+}

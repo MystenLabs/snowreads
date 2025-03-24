@@ -1,0 +1,32 @@
+{
+  "id": "2412.19775",
+  "title": "Improved image display by identifying the RGB family color space",
+  "authors": "Elvis Togban and Djemel Ziou",
+  "authorsParsed": [
+    [
+      "Togban",
+      "Elvis",
+      ""
+    ],
+    [
+      "Ziou",
+      "Djemel",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 27 Dec 2024 18:14:54 GMT"
+    }
+  ],
+  "updateDate": "2024-12-30",
+  "timestamp": 1735323294000,
+  "abstract": "  To display an image, the color space in which the image is encoded is assumed\nto be known. Unfortunately, this assumption is rarely realistic. In this paper,\nwe propose to identify the color space of a given color image using pixel\nembedding and the Gaussian process. Five color spaces are supported, namely\nAdobe RGB, Apple RGB, ColorMatch RGB, ProPhoto RGB and sRGB. The results\nobtained show that this problem deserves more efforts.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "GfW8t0ZWNQEOk7RChrdDvNZN4S_8erCQcjefNBuwhjg",
+  "pdfSize": "1798132"
+}

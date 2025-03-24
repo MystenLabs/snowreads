@@ -1,0 +1,32 @@
+{
+  "id": "2412.20011",
+  "title": "AI Model for Predicting Binding Affinity of Antidiabetic Compounds\n  Targeting PPAR",
+  "authors": "La Ode Aman, Aiyi Asnawi",
+  "authorsParsed": [
+    [
+      "Aman",
+      "La Ode",
+      ""
+    ],
+    [
+      "Asnawi",
+      "Aiyi",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 28 Dec 2024 04:10:00 GMT"
+    }
+  ],
+  "updateDate": "2024-12-31",
+  "timestamp": 1735359000000,
+  "abstract": "  This study aims to develop a deep learning model for predicting the binding\naffinity of ligands targeting the Peroxisome Proliferator-Activated Receptor\n(PPAR) family, using 2D molecular descriptors. A dataset of 3,764 small\nmolecules with known binding affinities, sourced from the ChEMBL database, was\npreprocessed by eliminating duplicates and incomplete data. Molecular docking\nsimulations using AutoDock Vina were performed to predict binding affinities\nfor the PPAR receptor family. 2D molecular descriptors were computed from the\nSMILES notation of each ligand, capturing essential structural and\nphysicochemical features. These descriptors, along with the predicted binding\naffinities, were used to train a deep learning model to predict binding\naffinity as a regression task. The model was evaluated using metrics such as\nMean Squared Error (MSE), Mean Absolute Error (MAE), and R-squared. Results\nindicated strong performance with an R squared value of 0.861 for the training\nset and 0.655 for the test set, suggesting good model generalization. The model\nshows promise for predicting ligand-receptor interactions and can be applied in\ndrug discovery efforts targeting PPAR-related diseases.\n",
+  "subjects": [
+    "Quantitative Biology/Biomolecules"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "us0pDUoTlSgKtsQuFVjl5wY7baCQrgGRBAnRVC_MNQk",
+  "pdfSize": "504175"
+}

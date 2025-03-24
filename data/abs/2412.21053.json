@@ -1,0 +1,37 @@
+{
+  "id": "2412.21053",
+  "title": "Tame multi-leg Feynman integrals beyond one loop",
+  "authors": "Li-Hong Huang and Rui-Jun Huang and Yan-Qing Ma",
+  "authorsParsed": [
+    [
+      "Huang",
+      "Li-Hong",
+      ""
+    ],
+    [
+      "Huang",
+      "Rui-Jun",
+      ""
+    ],
+    [
+      "Ma",
+      "Yan-Qing",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 30 Dec 2024 16:10:31 GMT"
+    }
+  ],
+  "updateDate": "2024-12-31",
+  "timestamp": 1735575031000,
+  "abstract": "  We introduce a novel structure for Feynman integrals, reformulating them as\nintegrals over a small set of parameters with a fully controllable integrand.\nThe integrand closely resembles one-loop Feynman integrals, and they are very\neasy to handle. Remarkably, the number of remaining integration parameters is\nindependent of the number of external legs and small -- at most 2 for two-loop\nintegrals and 5 for three-loop integrals -- facilitating the application of a\nwide range of established methods, both specific to Feynman integrals and more\ngeneral techniques. This approach is expected to mitigate the computational\nchallenges of multi-loop, multi-leg Feynman integrals. As a proof of concept,\nwe successfully computed two-loop non-planar Feynman integrals with six\nexternal legs, demonstrating high efficiency.\n",
+  "subjects": [
+    "Physics/High Energy Physics - Phenomenology"
+  ],
+  "license": "http://creativecommons.org/licenses/by-sa/4.0/",
+  "blobId": "2AG0l3AFwon8j9otcjq4rR_MOSYpwoVdU-jk-cdUiMY",
+  "pdfSize": "454593"
+}

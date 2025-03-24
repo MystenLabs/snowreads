@@ -1,0 +1,58 @@
+{
+  "id": "2412.18224",
+  "title": "Expand VSR Benchmark for VLLM to Expertize in Spatial Rules",
+  "authors": "Peijin Xie, Lin Sun, Bingquan Liu, Dexin Wang, Xiangzheng Zhang,\n  Chengjie Sun, Jiajia Zhang",
+  "authorsParsed": [
+    [
+      "Xie",
+      "Peijin",
+      ""
+    ],
+    [
+      "Sun",
+      "Lin",
+      ""
+    ],
+    [
+      "Liu",
+      "Bingquan",
+      ""
+    ],
+    [
+      "Wang",
+      "Dexin",
+      ""
+    ],
+    [
+      "Zhang",
+      "Xiangzheng",
+      ""
+    ],
+    [
+      "Sun",
+      "Chengjie",
+      ""
+    ],
+    [
+      "Zhang",
+      "Jiajia",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 24 Dec 2024 07:13:17 GMT"
+    }
+  ],
+  "updateDate": "2024-12-25",
+  "timestamp": 1735024397000,
+  "abstract": "  Distinguishing spatial relations is a basic part of human cognition which\nrequires fine-grained perception on cross-instance. Although benchmarks like\nMME, MMBench and SEED comprehensively have evaluated various capabilities which\nalready include visual spatial reasoning(VSR). There is still a lack of\nsufficient quantity and quality evaluation and optimization datasets for Vision\nLarge Language Models(VLLMs) specifically targeting visual positional\nreasoning. To handle this, we first diagnosed current VLLMs with the VSR\ndataset and proposed a unified test set. We found current VLLMs to exhibit a\ncontradiction of over-sensitivity to language instructions and\nunder-sensitivity to visual positional information. By expanding the original\nbenchmark from two aspects of tunning data and model structure, we mitigated\nthis phenomenon. To our knowledge, we expanded spatially positioned image data\ncontrollably using diffusion models for the first time and integrated original\nvisual encoding(CLIP) with other 3 powerful visual encoders(SigLIP, SAM and\nDINO). After conducting combination experiments on scaling data and models, we\nobtained a VLLM VSR Expert(VSRE) that not only generalizes better to different\ninstructions but also accurately distinguishes differences in visual positional\ninformation. VSRE achieved over a 27\\% increase in accuracy on the VSR test\nset. It becomes a performant VLLM on the position reasoning of both the VSR\ndataset and relevant subsets of other evaluation benchmarks. We open-sourced\nthe expanded model with data and Appendix at\n\\url{https://github.com/peijin360/vsre} and hope it will accelerate\nadvancements in VLLM on VSR learning.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "3r1QgZhQvA05ajH3Zas1oWT3_brIQfWGcGor3VzBEUo",
+  "pdfSize": "1079778"
+}

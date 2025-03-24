@@ -1,0 +1,43 @@
+{
+  "id": "2412.05466",
+  "title": "Multi-Armed Bandit Approach for Optimizing Training on Synthetic Data",
+  "authors": "Abdulrahman Kerim, Leandro Soriano Marcolino, Erickson R. Nascimento,\n  Richard Jiang",
+  "authorsParsed": [
+    [
+      "Kerim",
+      "Abdulrahman",
+      ""
+    ],
+    [
+      "Marcolino",
+      "Leandro Soriano",
+      ""
+    ],
+    [
+      "Nascimento",
+      "Erickson R.",
+      ""
+    ],
+    [
+      "Jiang",
+      "Richard",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 6 Dec 2024 23:36:36 GMT"
+    }
+  ],
+  "updateDate": "2024-12-10",
+  "timestamp": 1733528196000,
+  "abstract": "  Supervised machine learning methods require large-scale training datasets to\nperform well in practice. Synthetic data has been showing great progress\nrecently and has been used as a complement to real data. However, there is yet\na great urge to assess the usability of synthetically generated data. To this\nend, we propose a novel UCB-based training procedure combined with a dynamic\nusability metric. Our proposed metric integrates low-level and high-level\ninformation from synthetic images and their corresponding real and synthetic\ndatasets, surpassing existing traditional metrics. By utilizing a UCB-based\ndynamic approach ensures continual enhancement of model learning. Unlike other\napproaches, our method effectively adapts to changes in the machine learning\nmodel's state and considers the evolving utility of training samples during the\ntraining process. We show that our metric is an effective way to rank synthetic\nimages based on their usability. Furthermore, we propose a new attribute-aware\nbandit pipeline for generating synthetic data by integrating a Large Language\nModel with Stable Diffusion. Quantitative results show that our approach can\nboost the performance of a wide range of supervised classifiers. Notably, we\nobserved an improvement of up to 10% in classification accuracy compared to\ntraditional approaches, demonstrating the effectiveness of our approach. Our\nsource code, datasets, and additional materials are publically available at\nhttps://github.com/A-Kerim/Synthetic-Data-Usability-2024.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "NIkfW83KNTFM00Iau5qIgXNgWYypxW55ttCrPSPBTnE",
+  "pdfSize": "7476172"
+}

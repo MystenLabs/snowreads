@@ -1,0 +1,37 @@
+{
+  "id": "2412.07997",
+  "title": "Accurate Prediction of Temperature Indicators in Eastern China Using a\n  Multi-Scale CNN-LSTM-Attention model",
+  "authors": "Jiajiang Shen, Weiyan Wu, Qianyu Xu",
+  "authorsParsed": [
+    [
+      "Shen",
+      "Jiajiang",
+      ""
+    ],
+    [
+      "Wu",
+      "Weiyan",
+      ""
+    ],
+    [
+      "Xu",
+      "Qianyu",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 11 Dec 2024 00:42:31 GMT"
+    }
+  ],
+  "updateDate": "2024-12-12",
+  "timestamp": 1733877751000,
+  "abstract": "  In recent years, the importance of accurate weather forecasting has become\nincreasingly prominent due to the impacts of global climate change and the\nrapid development of data science. Traditional forecasting methods often\nstruggle to handle the complexity and nonlinearity inherent in climate data. To\naddress these challenges, we propose a weather prediction model based on a\nmulti-scale convolutional CNN-LSTM-Attention architecture, specifically\ndesigned for time series forecasting of temperature data in China. The model\nintegrates Convolutional Neural Networks (CNN), Long Short-Term Memory (LSTM)\nnetworks, and attention mechanisms to leverage the strengths of spatial feature\nextraction, temporal sequence modeling, and the ability to focus on important\nfeatures. The development process of the model includes data collection,\npreprocessing, feature extraction, and model building. Experimental results\nshow that the model performs excellently in predicting temperature trends with\nhigh accuracy. The final computed results indicate that the Mean Squared Error\n(MSE) is 1.978295 and the Root Mean Squared Error (RMSE) is 0.8106562. This\nwork marks a significant advancement in applying deep learning techniques to\nmeteorological data, offering a valuable tool for improving weather forecasting\naccuracy and providing essential support for decision-making in areas such as\nurban planning, agriculture, and energy management.\n",
+  "subjects": [
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "UAJ6WIStZA9wg38tU-PhJNENNKW6qafgr6qCPhvwXLs",
+  "pdfSize": "388840"
+}

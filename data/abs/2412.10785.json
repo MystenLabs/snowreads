@@ -1,0 +1,57 @@
+{
+  "id": "2412.10785",
+  "title": "StyleDiT: A Unified Framework for Diverse Child and Partner Faces\n  Synthesis with Style Latent Diffusion Transformer",
+  "authors": "Pin-Yen Chiu, Dai-Jie Wu, Po-Hsun Chu, Chia-Hsuan Hsu, Hsiang-Chen\n  Chiu, Chih-Yu Wang, Jun-Cheng Chen",
+  "authorsParsed": [
+    [
+      "Chiu",
+      "Pin-Yen",
+      ""
+    ],
+    [
+      "Wu",
+      "Dai-Jie",
+      ""
+    ],
+    [
+      "Chu",
+      "Po-Hsun",
+      ""
+    ],
+    [
+      "Hsu",
+      "Chia-Hsuan",
+      ""
+    ],
+    [
+      "Chiu",
+      "Hsiang-Chen",
+      ""
+    ],
+    [
+      "Wang",
+      "Chih-Yu",
+      ""
+    ],
+    [
+      "Chen",
+      "Jun-Cheng",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 14 Dec 2024 10:47:17 GMT"
+    }
+  ],
+  "updateDate": "2024-12-17",
+  "timestamp": 1734173237000,
+  "abstract": "  Kinship face synthesis is a challenging problem due to the scarcity and low\nquality of the available kinship data. Existing methods often struggle to\ngenerate descendants with both high diversity and fidelity while precisely\ncontrolling facial attributes such as age and gender. To address these issues,\nwe propose the Style Latent Diffusion Transformer (StyleDiT), a novel framework\nthat integrates the strengths of StyleGAN with the diffusion model to generate\nhigh-quality and diverse kinship faces. In this framework, the rich facial\npriors of StyleGAN enable fine-grained attribute control, while our conditional\ndiffusion model is used to sample a StyleGAN latent aligned with the kinship\nrelationship of conditioning images by utilizing the advantage of modeling\ncomplex kinship relationship distribution. StyleGAN then handles latent\ndecoding for final face generation. Additionally, we introduce the Relational\nTrait Guidance (RTG) mechanism, enabling independent control of influencing\nconditions, such as each parent's facial image. RTG also enables a fine-grained\nadjustment between the diversity and fidelity in synthesized faces.\nFurthermore, we extend the application to an unexplored domain: predicting a\npartner's facial images using a child's image and one parent's image within the\nsame framework. Extensive experiments demonstrate that our StyleDiT outperforms\nexisting methods by striking an excellent balance between generating diverse\nand high-fidelity kinship faces.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "Wnwq7G5jKA-6n4k6VOPbeJVgzkw3lUB6IJEf_pX0f-o",
+  "pdfSize": "15252364"
+}

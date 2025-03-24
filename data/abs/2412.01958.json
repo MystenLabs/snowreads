@@ -1,0 +1,38 @@
+{
+  "id": "2412.01958",
+  "title": "Enhancing Deep Learning Model Robustness through Metamorphic Re-Training",
+  "authors": "Said Togru, Youssef Sameh Mostafa, Karim Lotfy",
+  "authorsParsed": [
+    [
+      "Togru",
+      "Said",
+      ""
+    ],
+    [
+      "Mostafa",
+      "Youssef Sameh",
+      ""
+    ],
+    [
+      "Lotfy",
+      "Karim",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 2 Dec 2024 20:38:03 GMT"
+    }
+  ],
+  "updateDate": "2024-12-04",
+  "timestamp": 1733171883000,
+  "abstract": "  This paper evaluates the use of metamorphic relations to enhance the\nrobustness and real-world performance of machine learning models. We propose a\nMetamorphic Retraining Framework, which applies metamorphic relations to data\nand utilizes semi-supervised learning algorithms in an iterative and adaptive\nmulti-cycle process. The framework integrates multiple semi-supervised\nretraining algorithms, including FixMatch, FlexMatch, MixMatch, and FullMatch,\nto automate the retraining, evaluation, and testing of models with specified\nconfigurations. To assess the effectiveness of this approach, we conducted\nexperiments on CIFAR-10, CIFAR-100, and MNIST datasets using a variety of image\nprocessing models, both pretrained and non-pretrained. Our results demonstrate\nthe potential of metamorphic retraining to significantly improve model\nrobustness as we show in our results that each model witnessed an increase of\nan additional flat 17 percent on average in our robustness metric.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "Vuo7zUJj_4L9cBtvhP6JroSsafwIFv7FwnbYOS3txxA",
+  "pdfSize": "1431940"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "2412.06776",
+  "title": "Enhancing Robotic System Robustness via Lyapunov Exponent-Based\n  Optimization",
+  "authors": "G. Fadini, S. Coros",
+  "authorsParsed": [
+    [
+      "Fadini",
+      "G.",
+      ""
+    ],
+    [
+      "Coros",
+      "S.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 9 Dec 2024 18:58:02 GMT"
+    }
+  ],
+  "updateDate": "2024-12-10",
+  "timestamp": 1733770682000,
+  "abstract": "  We present a novel approach to quantifying and optimizing stability in\nrobotic systems based on the Lyapunov exponents addressing an open challenge in\nthe field of robot analysis, design, and optimization. Our method leverages\ndifferentiable simulation over extended time horizons. The proposed metric\noffers several properties, including a natural extension to limit cycles\ncommonly encountered in robotics tasks and locomotion. We showcase, with an\nad-hoc JAX gradient-based optimization framework, remarkable power, and\nflexi-bility in tackling the robustness challenge. The effectiveness of our\napproach is tested through diverse scenarios of varying complexity,\nencompassing high-degree-of-freedom systems and contact-rich environments. The\npositive outcomes across these cases highlight the potential of our method in\nenhancing system robustness.\n",
+  "subjects": [
+    "Computer Science/Robotics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "SB-2GDg_sc6cDz586swVAJ4-6SxlMjAQjkWTzDxSDLs",
+  "pdfSize": "3470238"
+}

@@ -1,0 +1,53 @@
+{
+  "id": "2412.13052",
+  "title": "High-power pulsed electrochemiluminescence for optogenetic manipulation\n  of Drosophila larval behaviour",
+  "authors": "Chang-Ki Moon, Matthias Koenig, Ranjini Sircar, Julian F. Butscher,\n  Stefan R. Pulver, Malte C. Gather",
+  "authorsParsed": [
+    [
+      "Moon",
+      "Chang-Ki",
+      ""
+    ],
+    [
+      "Koenig",
+      "Matthias",
+      ""
+    ],
+    [
+      "Sircar",
+      "Ranjini",
+      ""
+    ],
+    [
+      "Butscher",
+      "Julian F.",
+      ""
+    ],
+    [
+      "Pulver",
+      "Stefan R.",
+      ""
+    ],
+    [
+      "Gather",
+      "Malte C.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 17 Dec 2024 16:14:35 GMT"
+    }
+  ],
+  "updateDate": "2024-12-18",
+  "timestamp": 1734452075000,
+  "abstract": "  Electrochemiluminescence (ECL) produces light through electrochemical\nreactions and has shown promise for various analytic applications in\nbiomedicine. However, the use of ECL devices (ECLDs) as light sources has been\nlimited due to insufficient light output and low operational stability. In this\nstudy, we present a high-power pulsed operation strategy for ECLDs to address\nthese limitations and demonstrate their effectiveness in optogenetic\nmanipulation. By applying a biphasic voltage sequence with short opposing\nphases, we achieve intense and efficient ECL through an exciplex-formation\nreaction pathway. This approach results in an exceptionally high optical power\ndensity, exceeding 100 microW/mm2, for several thousand pulses. Balancing the\nion concentration by optimizing the voltage waveform further improves device\nstability. By incorporating multiple optimized pulses into a burst signal\nseparated by short rest periods, extended light pulses of high brightness and\nwith minimal power loss over time were obtained. These strategies were\nleveraged to elicit a robust optogenetic response in fruit fly (Drosophila\nmelanogaster) larvae expressing the optogenetic effector CsChrimson. The\nsemi-transparent nature of ECLDs facilitates simultaneous imaging of larval\nbehaviour from underneath, through the device. These findings highlight the\npotential of ECLDs as versatile optical tools in biomedical and neurophotonics\nresearch.\n",
+  "subjects": [
+    "Physics/Optics",
+    "Physics/Biological Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "_epKVly0Pa-gK5_b3cAVT9My4XtFpZOrlhMNYu4tyzU",
+  "pdfSize": "1317333"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "2412.11262",
+  "title": "Numerical Simulation of Polarized Light and Temperature in a Stratified\n  Atmosphere with a Slowly Varying Refractive Index",
+  "authors": "Olivier Pironneau",
+  "authorsParsed": [
+    [
+      "Pironneau",
+      "Olivier",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 15 Dec 2024 17:50:33 GMT"
+    }
+  ],
+  "updateDate": "2024-12-17",
+  "timestamp": 1734285033000,
+  "abstract": "  This article is an attempt to elucidate the effect of a slowly varying\nrefractive index on the temperature in a stratified atmosphere, with a\nparticular focus on greenhouse gases such as CO2. It validates an iterative\nmethod for the vector radiative transfer equations (VVRTE) called Iterations on\nthe Source. As the system proposed by Chandrasekhar and Pomraning is not well\nposed for all rays directions when the refractive index varies, so instead we\nsolve an integral representation of VRTE without the problematic rays. A\nmathematical proof is given showing monotonicity, convergence of the iterations\nand existence and uniqueness. Furthermore the convergence is geometric if the\nabsorption is not too large. Some numerical tests are performed showing the\neffect of a layer of cloud with a refractive index greater than air,\npolarisation and scattering.\n",
+  "subjects": [
+    "Mathematics/Analysis of PDEs"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "O7er1orMnzKr5Iubtv18k1dO2JPfj2SiUWHDs2eI0d4",
+  "pdfSize": "921657"
+}

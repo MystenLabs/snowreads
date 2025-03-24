@@ -1,0 +1,28 @@
+{
+  "id": "2412.14211",
+  "title": "Improving Generalization Performance of YOLOv8 for Camera Trap Object\n  Detection",
+  "authors": "Aroj Subedi",
+  "authorsParsed": [
+    [
+      "Subedi",
+      "Aroj",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 18 Dec 2024 02:00:53 GMT"
+    }
+  ],
+  "updateDate": "2024-12-20",
+  "timestamp": 1734487253000,
+  "abstract": "  Camera traps have become integral tools in wildlife conservation, providing\nnon-intrusive means to monitor and study wildlife in their natural habitats.\nThe utilization of object detection algorithms to automate species\nidentification from Camera Trap images is of huge importance for research and\nconservation purposes. However, the generalization issue, where the trained\nmodel is unable to apply its learnings to a never-before-seen dataset, is\nprevalent. This thesis explores the enhancements made to the YOLOv8 object\ndetection algorithm to address the problem of generalization. The study delves\ninto the limitations of the baseline YOLOv8 model, emphasizing its struggles\nwith generalization in real-world environments. To overcome these limitations,\nenhancements are proposed, including the incorporation of a Global Attention\nMechanism (GAM) module, modified multi-scale feature fusion, and Wise\nIntersection over Union (WIoUv3) as a bounding box regression loss function. A\nthorough evaluation and ablation experiments reveal the improved model's\nability to suppress the background noise, focus on object properties, and\nexhibit robust generalization in novel environments. The proposed enhancements\nnot only address the challenges inherent in camera trap datasets but also pave\nthe way for broader applicability in real-world conservation scenarios,\nultimately aiding in the effective management of wildlife populations and\nhabitats.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "EHTidStpUxHFZ5JA8L48sLX8Llv7WOvU4ktKxI7qn1o",
+  "pdfSize": "46905493"
+}

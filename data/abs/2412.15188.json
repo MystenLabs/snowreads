@@ -1,0 +1,72 @@
+{
+  "id": "2412.15188",
+  "title": "LMFusion: Adapting Pretrained Language Models for Multimodal Generation",
+  "authors": "Weijia Shi, Xiaochuang Han, Chunting Zhou, Weixin Liang, Xi Victoria\n  Lin, Luke Zettlemoyer, Lili Yu",
+  "authorsParsed": [
+    [
+      "Shi",
+      "Weijia",
+      ""
+    ],
+    [
+      "Han",
+      "Xiaochuang",
+      ""
+    ],
+    [
+      "Zhou",
+      "Chunting",
+      ""
+    ],
+    [
+      "Liang",
+      "Weixin",
+      ""
+    ],
+    [
+      "Lin",
+      "Xi Victoria",
+      ""
+    ],
+    [
+      "Zettlemoyer",
+      "Luke",
+      ""
+    ],
+    [
+      "Yu",
+      "Lili",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 19 Dec 2024 18:56:24 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Thu, 26 Dec 2024 18:56:18 GMT"
+    },
+    {
+      "version": "v3",
+      "created": "Thu, 30 Jan 2025 07:08:45 GMT"
+    },
+    {
+      "version": "v4",
+      "created": "Wed, 5 Feb 2025 02:26:38 GMT"
+    }
+  ],
+  "updateDate": "2025-02-06",
+  "timestamp": 1734634584000,
+  "abstract": "  We present LMFusion, a framework for empowering pretrained text-only large\nlanguage models (LLMs) with multimodal generative capabilities, enabling them\nto understand and generate both text and images in arbitrary sequences.\nLMFusion leverages existing Llama-3's weights for processing texts\nautoregressively while introducing additional and parallel transformer modules\nfor processing images with diffusion. During training, the data from each\nmodality is routed to its dedicated modules: modality-specific feedforward\nlayers, query-key-value projections, and normalization layers process each\nmodality independently, while the shared self-attention layers allow\ninteractions across text and image features. By freezing the text-specific\nmodules and only training the image-specific modules, LMFusion preserves the\nlanguage capabilities of text-only LLMs while developing strong visual\nunderstanding and generation abilities. Compared to methods that pretrain\nmultimodal generative models from scratch, our experiments demonstrate that,\nLMFusion improves image understanding by 20% and image generation by 3.6% using\nonly 50% of the FLOPs while maintaining Llama-3's language capabilities. We\nalso demonstrate that this framework can adapt existing vision-language models\nwith multimodal generation ability. Overall, this framework not only leverages\nexisting computational investments in text-only LLMs but also enables the\nparallel development of language and vision capabilities, presenting a\npromising direction for efficient multimodal model development.\n",
+  "subjects": [
+    "Computer Science/Computation and Language",
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "WzAt-qPBUmEKM4jPApdio6yGDpiea6ShewQsMQI8ROc",
+  "pdfSize": "20643338"
+}

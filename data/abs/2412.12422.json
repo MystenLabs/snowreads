@@ -1,0 +1,77 @@
+{
+  "id": "2412.12422",
+  "title": "Assessing the Limitations of Large Language Models in Clinical Fact\n  Decomposition",
+  "authors": "Monica Munnangi, Akshay Swaminathan, Jason Alan Fries, Jenelle Jindal,\n  Sanjana Narayanan, Ivan Lopez, Lucia Tu, Philip Chung, Jesutofunmi A. Omiye,\n  Mehr Kashyap, Nigam Shah",
+  "authorsParsed": [
+    [
+      "Munnangi",
+      "Monica",
+      ""
+    ],
+    [
+      "Swaminathan",
+      "Akshay",
+      ""
+    ],
+    [
+      "Fries",
+      "Jason Alan",
+      ""
+    ],
+    [
+      "Jindal",
+      "Jenelle",
+      ""
+    ],
+    [
+      "Narayanan",
+      "Sanjana",
+      ""
+    ],
+    [
+      "Lopez",
+      "Ivan",
+      ""
+    ],
+    [
+      "Tu",
+      "Lucia",
+      ""
+    ],
+    [
+      "Chung",
+      "Philip",
+      ""
+    ],
+    [
+      "Omiye",
+      "Jesutofunmi A.",
+      ""
+    ],
+    [
+      "Kashyap",
+      "Mehr",
+      ""
+    ],
+    [
+      "Shah",
+      "Nigam",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 17 Dec 2024 00:07:05 GMT"
+    }
+  ],
+  "updateDate": "2024-12-18",
+  "timestamp": 1734394025000,
+  "abstract": "  Verifying factual claims is critical for using large language models (LLMs)\nin healthcare. Recent work has proposed fact decomposition, which uses LLMs to\nrewrite source text into concise sentences conveying a single piece of\ninformation, as an approach for fine-grained fact verification. Clinical\ndocumentation poses unique challenges for fact decomposition due to dense\nterminology and diverse note types. To explore these challenges, we present\nFactEHR, a dataset consisting of full document fact decompositions for 2,168\nclinical notes spanning four types from three hospital systems. Our evaluation,\nincluding review by clinicians, highlights significant variability in the\nquality of fact decomposition for four commonly used LLMs, with some LLMs\ngenerating 2.6x more facts per sentence than others. The results underscore the\nneed for better LLM capabilities to support factual verification in clinical\ntext. To facilitate future research in this direction, we plan to release our\ncode at \\url{https://github.com/som-shahlab/factehr}.\n",
+  "subjects": [
+    "Computer Science/Computation and Language"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "l5zEA5yjnVe71MLTVbPf0gSqqdZV-O1WrHOv0tlxl7I",
+  "pdfSize": "3198174"
+}

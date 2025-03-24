@@ -1,0 +1,43 @@
+{
+  "id": "2412.03145",
+  "title": "Topological Trajectory Classification and Landmark Inference on\n  Simplicial Complexes",
+  "authors": "Vincent P. Grande, Josef Hoppe, Florian Frantzen, Michael T. Schaub",
+  "authorsParsed": [
+    [
+      "Grande",
+      "Vincent P.",
+      ""
+    ],
+    [
+      "Hoppe",
+      "Josef",
+      ""
+    ],
+    [
+      "Frantzen",
+      "Florian",
+      ""
+    ],
+    [
+      "Schaub",
+      "Michael T.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 4 Dec 2024 09:11:33 GMT"
+    }
+  ],
+  "updateDate": "2024-12-05",
+  "timestamp": 1733303493000,
+  "abstract": "  We consider the problem of classifying trajectories on a discrete or\ndiscretised 2-dimensional manifold modelled by a simplicial complex. Previous\nworks have proposed to project the trajectories into the harmonic eigenspace of\nthe Hodge Laplacian, and then cluster the resulting embeddings. However, if the\nconsidered space has vanishing homology (i.e., no \"holes\"), then the harmonic\nspace of the 1-Hodge Laplacian is trivial and thus the approach fails. Here we\npropose to view this issue akin to a sensor placement problem and present an\nalgorithm that aims to learn \"optimal holes\" to distinguish a set of given\ntrajectory classes. Specifically, given a set of labelled trajectories, which\nwe interpret as edge-flows on the underlying simplicial complex, we search for\n2-simplices whose deletion results in an optimal separation of the trajectory\nlabels according to the corresponding spectral embedding of the trajectories\ninto the harmonic space. Finally, we generalise this approach to the\nunsupervised setting.\n",
+  "subjects": [
+    "Computer Science/Social and Information Networks",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "BXxPZzsygX1DXTdyuvBCZNl2bwu6MYT5Mc2p4u_iT1M",
+  "pdfSize": "2558175"
+}

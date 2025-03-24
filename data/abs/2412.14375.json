@@ -1,0 +1,42 @@
+{
+  "id": "2412.14375",
+  "title": "Network Modelling in Analysing Cyber-related Graphs",
+  "authors": "Vesa Kuikka, Lauri Pyk\\\"al\\\"a, Tuomas Takko, Kimmo Kaski",
+  "authorsParsed": [
+    [
+      "Kuikka",
+      "Vesa",
+      ""
+    ],
+    [
+      "Pykälä",
+      "Lauri",
+      ""
+    ],
+    [
+      "Takko",
+      "Tuomas",
+      ""
+    ],
+    [
+      "Kaski",
+      "Kimmo",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 18 Dec 2024 22:16:42 GMT"
+    }
+  ],
+  "updateDate": "2024-12-20",
+  "timestamp": 1734560202000,
+  "abstract": "  In order to improve the resilience of computer infrastructure against cyber\nattacks and finding ways to mitigate their impact we need to understand their\nstructure and dynamics. Here we propose a novel network-based influence\nspreading model to investigate event trajectories or paths in various types of\nattack and causal graphs, which can be directed, weighted, and / or cyclic. In\ncase of attack graphs with acyclic paths, only self-avoiding attack chains are\nallowed. In the framework of our model a detailed probabilistic analysis beyond\nthe traditional visualisation of attack graphs, based on vulnerabilities,\nservices, and exploitabilities, can be performed. In order to demonstrate the\ncapabilities of the model, we present three use cases with cyber-related\ngraphs, namely two attack graphs and a causal graph. The model can be of\nbenefit to cyber analysts in generating quantitative metrics for\nprioritisation, summaries, or analysis of larger graphs.\n",
+  "subjects": [
+    "Computer Science/Social and Information Networks"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "hsMVdgo3BWzfL9ALQe9YDROs38R1K6Rdn3-FR5iW_34",
+  "pdfSize": "1812089"
+}

@@ -1,0 +1,36 @@
+{
+  "id": "2412.19075",
+  "title": "Length Distortion Of Curves Under Meromorphic Univalent Mappings",
+  "authors": "Bappaditya Bhowmik, Deblina Maity",
+  "authorsParsed": [
+    [
+      "Bhowmik",
+      "Bappaditya",
+      ""
+    ],
+    [
+      "Maity",
+      "Deblina",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 26 Dec 2024 06:20:04 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Mon, 30 Dec 2024 07:51:55 GMT"
+    }
+  ],
+  "updateDate": "2024-12-31",
+  "timestamp": 1735194004000,
+  "abstract": "  Let $f$ be a conformal (analytic and univalent) map defined on the open unit\ndisk $\\D$ of the complex plane $\\IC$ that is continuous on the semi-circle\n$\\partial \\D^{+}=\\{z\\in\\IC:|z|=1, {\\rm{Im}}\\,z>0\\}$. The existence of a uniform\nupper bound for the ratio of the length of the image of the horizontal diameter\n$(-1,1)$ to the length of the image of $\\partial \\D^{+}$ under $f$ was proved\nby Gehring and Hayman. In this article, at first, we generalize this result by\nintroducing a simple pole for $f$ in $\\D$ and considering the ratio of the\nlength of the image of the vertical diameter $I=\\{z: {\\rm{Re}}\\,z=0;\n~|{\\rm{Im}}\\,z|<1\\}$ to the length of the image of the semi-circle $C'=\\{z:\n|z|=1;~ {\\rm{Re}}\\,z<0\\}$ under such $f$. Finally, we further generalize this\nresult by replacing the vertical diameter $I$ with a hyperbolic geodesic\nsymmetric with respect to the real line, and by replacing $C'$ with the\ncorresponding arc of the unit circle passing through the point $-1$.\n",
+  "subjects": [
+    "Mathematics/Complex Variables"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "_hAkGgxeQHuh-cwuVgl2mpb-EQZQYJdOX6Y0-ysFL28",
+  "pdfSize": "199190"
+}

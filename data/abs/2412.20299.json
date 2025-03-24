@@ -1,0 +1,57 @@
+{
+  "id": "2412.20299",
+  "title": "No Preference Left Behind: Group Distributional Preference Optimization",
+  "authors": "Binwei Yao, Zefan Cai, Yun-Shiuan Chuang, Shanglin Yang, Ming Jiang,\n  Diyi Yang, Junjie Hu",
+  "authorsParsed": [
+    [
+      "Yao",
+      "Binwei",
+      ""
+    ],
+    [
+      "Cai",
+      "Zefan",
+      ""
+    ],
+    [
+      "Chuang",
+      "Yun-Shiuan",
+      ""
+    ],
+    [
+      "Yang",
+      "Shanglin",
+      ""
+    ],
+    [
+      "Jiang",
+      "Ming",
+      ""
+    ],
+    [
+      "Yang",
+      "Diyi",
+      ""
+    ],
+    [
+      "Hu",
+      "Junjie",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 28 Dec 2024 23:30:47 GMT"
+    }
+  ],
+  "updateDate": "2024-12-31",
+  "timestamp": 1735428647000,
+  "abstract": "  Preferences within a group of people are not uniform but follow a\ndistribution. While existing alignment methods like Direct Preference\nOptimization (DPO) attempt to steer models to reflect human preferences, they\nstruggle to capture the distributional pluralistic preferences within a group.\nThese methods often skew toward dominant preferences, overlooking the diversity\nof opinions, especially when conflicting preferences arise. To address this\nissue, we propose Group Distribution Preference Optimization (GDPO), a novel\nframework that aligns language models with the distribution of preferences\nwithin a group by incorporating the concept of beliefs that shape individual\npreferences. GDPO calibrates a language model using statistical estimation of\nthe group's belief distribution and aligns the model with belief-conditioned\npreferences, offering a more inclusive alignment framework than traditional\nmethods. In experiments using both synthetic controllable opinion generation\nand real-world movie review datasets, we show that DPO fails to align with the\ntargeted belief distributions, while GDPO consistently reduces this alignment\ngap during training. Moreover, our evaluation metrics demonstrate that GDPO\noutperforms existing approaches in aligning with group distributional\npreferences, marking a significant advance in pluralistic alignment.\n",
+  "subjects": [
+    "Computer Science/Computation and Language"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "vrm2mDmAIM98ZVsS8KBC5P1MHsziVPatgM3ZGKNYK-c",
+  "pdfSize": "588907"
+}

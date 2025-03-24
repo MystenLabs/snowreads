@@ -1,0 +1,33 @@
+{
+  "id": "2412.09156",
+  "title": "Point-set registration in bounded domains via the Fokker-Planck equation",
+  "authors": "Angelo Iollo, Tommaso Taddei",
+  "authorsParsed": [
+    [
+      "Iollo",
+      "Angelo",
+      ""
+    ],
+    [
+      "Taddei",
+      "Tommaso",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 12 Dec 2024 10:42:12 GMT"
+    }
+  ],
+  "updateDate": "2024-12-13",
+  "timestamp": 1734000132000,
+  "abstract": "  We present a point set registration method in bounded domains based on the\nsolution to the Fokker Planck equation. Our approach leverages (i) density\nestimation based on Gaussian mixture models; (ii) a stabilized finite element\ndiscretization of the Fokker Planck equation; (iii) a specialized method for\nthe integration of the particles. We review relevant properties of the Fokker\nPlanck equation that provide the foundations for the numerical method. We\ndiscuss two strategies for the integration of the particles and we propose a\nregularization technique to control the distance of the particles from the\nboundary of the domain. We perform extensive numerical experiments for two\ntwo-dimensional model problems to illustrate the many features of the method.\n",
+  "subjects": [
+    "Mathematics/Numerical Analysis",
+    "Computer Science/Numerical Analysis"
+  ],
+  "license": "http://creativecommons.org/licenses/by-sa/4.0/",
+  "blobId": "NtBv8Bzx3XDjg7QaZfU9n928AZ3SBpfZNRTdOOiVsJQ",
+  "pdfSize": "1826987"
+}

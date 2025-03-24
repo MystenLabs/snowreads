@@ -1,0 +1,32 @@
+{
+  "id": "2412.10883",
+  "title": "Hyperuniformity scaling of maximally random jammed packings of\n  two-dimensional binary disks",
+  "authors": "Charles Emmett Maher and Salvatore Torquato",
+  "authorsParsed": [
+    [
+      "Maher",
+      "Charles Emmett",
+      ""
+    ],
+    [
+      "Torquato",
+      "Salvatore",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 14 Dec 2024 16:28:36 GMT"
+    }
+  ],
+  "updateDate": "2024-12-17",
+  "timestamp": 1734193716000,
+  "abstract": "  Jammed (mechanically rigid) polydisperse circular-disk packings in two\ndimensions (2D) are popular models for structural glass formers. Maximally\nrandom jammed (MRJ) states, which are the most disordered packings subject to\nstrict jamming, have been shown to be hyperuniform. The characterization of the\nhyperuniformity of MRJ circular-disk packings has covered only a very small\npart of the possible parameter space for the disk-size distributions.\nHyperuniform heterogeneous media are those that anomalously suppress\nlarge-scale volume-fraction fluctuations compared to those in typical\ndisordered systems, i.e., their spectral densities\n$\\tilde{\\chi}_{_V}(\\mathbf{k})$ tend to 0 as the wavenumber\n$k\\equiv|\\mathbf{k}|$ tends to 0 and are described by the power-law\n$\\tilde{\\chi}_{_V}(\\mathbf{k})\\sim k^{\\alpha}$ as $k\\rightarrow0$ where\n$\\alpha$ is the hyperuniformity scaling exponent. In this work, we generate and\ncharacterize the structure of strictly jammed binary circular-disk packings\nwith disk-size ratio $\\beta$ and a molar ratio of 1:1. By characterizing the\nrattler fraction, the fraction of isostatic configurations in an ensemble with\nfixed $\\beta$, and the $n$-fold orientational order metrics of ensembles of\npackings with a wide range of $\\beta$, we show that size ratios $1.2\\lesssim\n\\beta\\lesssim 2.0$ produce MRJ-like states, which we show are the most\ndisordered packings according to several criteria. Using the large-length-scale\nscaling of the volume fraction variance, we extract $\\alpha$ from these\npackings, and find the function $\\alpha(\\beta)$ is maximized at $\\beta$ = 1.4\n(with $\\alpha = 0.450\\pm0.002$) within the range $1.2\\leq\\beta\\leq2.0$, and\ndecreases rapidly outside of this range. The results from this work can inform\nthe experimental design of disordered hyperuniform thin-film materials with\ntunable degrees of orientational and translational disorder. (abridged)\n",
+  "subjects": [
+    "Condensed Matter/Soft Condensed Matter"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "VP2paPh0CSFJsmFCgJaD9GN4RUBqAmO4AmPyQUO4_yk",
+  "pdfSize": "1568031"
+}

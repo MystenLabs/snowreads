@@ -1,0 +1,28 @@
+{
+  "id": "2412.07355",
+  "title": "Towards Predictive Communication with Brain-Computer Interfaces\n  integrating Large Language Models",
+  "authors": "Andrea Caria",
+  "authorsParsed": [
+    [
+      "Caria",
+      "Andrea",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 10 Dec 2024 09:48:07 GMT"
+    }
+  ],
+  "updateDate": "2024-12-11",
+  "timestamp": 1733824087000,
+  "abstract": "  This perspective article aims at providing an outline of the state of the art\nand future developments towards the integration of cutting-edge predictive\nlanguage models with BCI. A synthetic overview of early and more recent\nlinguistic models, from natural language processing (NLP) models to recent LLM,\nthat to a varying extent improved predictive writing systems, is first\nprovided. Second, a summary of previous BCI implementations integrating\nlanguage models is presented. The few preliminary studies investigating the\npossible combination of LLM with BCI spellers to efficiently support fast\ncommunication and control are then described. Finally, current challenges and\nlimitations towards the full integration of LLM with BCI systems are discussed.\nRecent investigations suggest that the combination of LLM with BCI might\ndrastically improve human-computer interaction in patients with motor or\nlanguage disorders as well as in healthy individuals. In particular, the\npretrained autoregressive transformer models, such as GPT, that capitalize from\nparallelization, learning through pre-training and fine-tuning, promise a\nsubstantial improvement of BCI for communication with respect to previous\nsystems incorporating simpler language models. Indeed, among various models,\nthe GPT-2 was shown to represent an excellent candidate for its integration\ninto BCI although testing was only perfomed on simulated conversations and not\non real BCI scenarios. Prospectively, the full integration of LLM with advanced\nBCI systems might lead to a big leap forward towards fast, efficient and\nuser-adaptive neurotechnology.\n",
+  "subjects": [
+    "Computer Science/Human-Computer Interaction",
+    "Computer Science/Computation and Language"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "bZxlvUVvYLqX8vZvjO6c58HQkFR7bHfRxYiHZwM1nqM",
+  "pdfSize": "261343"
+}

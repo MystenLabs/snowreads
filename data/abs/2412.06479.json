@@ -1,0 +1,32 @@
+{
+  "id": "2412.06479",
+  "title": "Low-regret shape optimization in the presence of missing Dirichlet data",
+  "authors": "Karl Kunisch and John Sebastian H. Simon",
+  "authorsParsed": [
+    [
+      "Kunisch",
+      "Karl",
+      ""
+    ],
+    [
+      "Simon",
+      "John Sebastian H.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 9 Dec 2024 13:30:06 GMT"
+    }
+  ],
+  "updateDate": "2024-12-10",
+  "timestamp": 1733751006000,
+  "abstract": "  A shape optimization problem subject to an elliptic equation in the presence\nof missing data on the Dirichlet boundary condition is considered. It is\nformulated by optimizing the deformation field that varies the spatial domain\nwhere the Poisson equation is posed. To take into consideration the missing\nboundary data the problem is formulated as a no-regret problem and approximated\nby low-regret problems. This approach allows to obtain deformation fields which\nare robust against the missing information. The formulation of the regret\nproblems was achieved by employing the Fenchel transform. Convergence of the\nsolutions of the low-regret to the no-regret problems is analysed, the gradient\nof the cost is characterized and a first order numerical method is proposed.\nNumerical examples illustrate the robustness of the low-regret deformation\nfields with respect to missing data. This is likely the first time that a\nnumerical investigation is reported on for the level of effectiveness of the\nlow-regret approach in the presence of missing data in an optimal control\nproblem.\n",
+  "subjects": [
+    "Mathematics/Optimization and Control"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "GYQSV3Z7PwLlYEl1E_e_bjjalepB6A5TLjTbW1WRNKc",
+  "pdfSize": "6255954"
+}

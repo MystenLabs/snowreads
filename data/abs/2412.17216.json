@@ -1,0 +1,48 @@
+{
+  "id": "2412.17216",
+  "title": "DL_POLY Quantum 2.1 software: A suite of real-time path integral methods\n  for the simulation of dynamical properties and vibrational spectra",
+  "authors": "Nathan London, Dil K. Limbu, Md Omar Faruque, Farnaz A. Shakib,\n  Mohammad R. Momeni",
+  "authorsParsed": [
+    [
+      "London",
+      "Nathan",
+      ""
+    ],
+    [
+      "Limbu",
+      "Dil K.",
+      ""
+    ],
+    [
+      "Faruque",
+      "Md Omar",
+      ""
+    ],
+    [
+      "Shakib",
+      "Farnaz A.",
+      ""
+    ],
+    [
+      "Momeni",
+      "Mohammad R.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 23 Dec 2024 02:01:27 GMT"
+    }
+  ],
+  "updateDate": "2024-12-24",
+  "timestamp": 1734919287000,
+  "abstract": "  DL_POLY Quantum 2.1 is introduced here as a highly modular, sustainable, and\nscalable general-purpose molecular dynamics (MD) simulation software for\nlarge-scale long-time MD simulations of condensed phase and interfacial systems\nwith the essential nuclear quantum effects (NQEs) included. The new release\nimproves upon version 2.0 through the introduction of several emerging\nreal-time path integral (PI) methods, including fast centroid molecular\ndynamics (f-CMD) and fast quasi-CMD (f-QCMD) methods, as well as our recently\nintroduced hybrid CMD (h-CMD) method for the accurate and efficient simulation\nof vibrational infrared spectra. Several test cases, including liquid bulk\nwater at 300 K and ice Ih at 150 K, are used to showcase the performance of\ndifferent implemented PI methods in simulating the infrared spectra at both\nambient conditions and low temperatures where NQEs become more apparent.\nAdditionally, using different salt-in-water (i.e., dilute) and water-in-salt\n(i.e., concentrated) lithium bis(trifluoromethanesulfonyl)imide (Li-TFSI)\naqueous electrolyte solutions, we demonstrate the applicability of our recently\nintroduced h-CMD method implemented in DL_POLY Quantum 2.1 for the large scale\nsimulation of IR spectra of complex heterogeneous systems. We show that h-CMD\ncan overcome the curvature problem of CMD and the artificial broadening of\nT-RPMD for the accurate simulation of the vibrational spectra of complex,\nheterogeneous systems with NQEs included.\n",
+  "subjects": [
+    "Condensed Matter/Materials Science",
+    "Condensed Matter/Statistical Mechanics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "kiIz5L-EHbqrxqicW9SEWVNBY4ZYx2loytr5AdiikxU",
+  "pdfSize": "4708310"
+}

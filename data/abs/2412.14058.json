@@ -1,0 +1,81 @@
+{
+  "id": "2412.14058",
+  "title": "Towards Generalist Robot Policies: What Matters in Building\n  Vision-Language-Action Models",
+  "authors": "Xinghang Li, Peiyan Li, Minghuan Liu, Dong Wang, Jirong Liu, Bingyi\n  Kang, Xiao Ma, Tao Kong, Hanbo Zhang, Huaping Liu",
+  "authorsParsed": [
+    [
+      "Li",
+      "Xinghang",
+      ""
+    ],
+    [
+      "Li",
+      "Peiyan",
+      ""
+    ],
+    [
+      "Liu",
+      "Minghuan",
+      ""
+    ],
+    [
+      "Wang",
+      "Dong",
+      ""
+    ],
+    [
+      "Liu",
+      "Jirong",
+      ""
+    ],
+    [
+      "Kang",
+      "Bingyi",
+      ""
+    ],
+    [
+      "Ma",
+      "Xiao",
+      ""
+    ],
+    [
+      "Kong",
+      "Tao",
+      ""
+    ],
+    [
+      "Zhang",
+      "Hanbo",
+      ""
+    ],
+    [
+      "Liu",
+      "Huaping",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 18 Dec 2024 17:07:20 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Mon, 23 Dec 2024 14:46:27 GMT"
+    },
+    {
+      "version": "v3",
+      "created": "Tue, 24 Dec 2024 04:43:45 GMT"
+    }
+  ],
+  "updateDate": "2024-12-25",
+  "timestamp": 1734541640000,
+  "abstract": "  Foundation Vision Language Models (VLMs) exhibit strong capabilities in\nmulti-modal representation learning, comprehension, and reasoning. By injecting\naction components into the VLMs, Vision-Language-Action Models (VLAs) can be\nnaturally formed and also show promising performance. Existing work has\ndemonstrated the effectiveness and generalization of VLAs in multiple scenarios\nand tasks. Nevertheless, the transfer from VLMs to VLAs is not trivial since\nexisting VLAs differ in their backbones, action-prediction formulations, data\ndistributions, and training recipes. This leads to a missing piece for a\nsystematic understanding of the design choices of VLAs. In this work, we\ndisclose the key factors that significantly influence the performance of VLA\nand focus on answering three essential design choices: which backbone to\nselect, how to formulate the VLA architectures, and when to add\ncross-embodiment data. The obtained results convince us firmly to explain why\nwe need VLA and develop a new family of VLAs, RoboVLMs, which require very few\nmanual designs and achieve a new state-of-the-art performance in three\nsimulation tasks and real-world experiments. Through our extensive experiments,\nwhich include over 8 VLM backbones, 4 policy architectures, and over 600\ndistinct designed experiments, we provide a detailed guidebook for the future\ndesign of VLAs. In addition to the study, the highly flexible RoboVLMs\nframework, which supports easy integrations of new VLMs and free combinations\nof various design choices, is made public to facilitate future research. We\nopen-source all details, including codes, models, datasets, and toolkits, along\nwith detailed training and evaluation recipes at: robovlms.github.io.\n",
+  "subjects": [
+    "Computer Science/Robotics",
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "XGG6pa_eka_grCTt65lt7wyvUfh1iog-b_Xtt9Sbfig",
+  "pdfSize": "40037872"
+}

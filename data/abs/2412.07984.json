@@ -1,0 +1,32 @@
+{
+  "id": "2412.07984",
+  "title": "Diffusion-Based Attention Warping for Consistent 3D Scene Editing",
+  "authors": "Eyal Gomel, Lior Wolf",
+  "authorsParsed": [
+    [
+      "Gomel",
+      "Eyal",
+      ""
+    ],
+    [
+      "Wolf",
+      "Lior",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 10 Dec 2024 23:57:18 GMT"
+    }
+  ],
+  "updateDate": "2024-12-12",
+  "timestamp": 1733875038000,
+  "abstract": "  We present a novel method for 3D scene editing using diffusion models,\ndesigned to ensure view consistency and realism across perspectives. Our\napproach leverages attention features extracted from a single reference image\nto define the intended edits. These features are warped across multiple views\nby aligning them with scene geometry derived from Gaussian splatting depth\nestimates. Injecting these warped features into other viewpoints enables\ncoherent propagation of edits, achieving high fidelity and spatial alignment in\n3D space. Extensive evaluations demonstrate the effectiveness of our method in\ngenerating versatile edits of 3D scenes, significantly advancing the\ncapabilities of scene manipulation compared to the existing methods. Project\npage: \\url{https://attention-warp.github.io}\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "y_TzHqlulkVg6TLxKsFub-iaqkyZkyiQgOIafjRzAWE",
+  "pdfSize": "23865180"
+}

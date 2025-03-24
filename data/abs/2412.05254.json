@@ -1,0 +1,42 @@
+{
+  "id": "2412.05254",
+  "title": "Preprocessing is All You Need: Boosting the Performance of Log Parsers\n  With a General Preprocessing Framework",
+  "authors": "Qiaolin Qin, Roozbeh Aghili, Heng Li, Ettore Merlo",
+  "authorsParsed": [
+    [
+      "Qin",
+      "Qiaolin",
+      ""
+    ],
+    [
+      "Aghili",
+      "Roozbeh",
+      ""
+    ],
+    [
+      "Li",
+      "Heng",
+      ""
+    ],
+    [
+      "Merlo",
+      "Ettore",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 6 Dec 2024 18:39:34 GMT"
+    }
+  ],
+  "updateDate": "2024-12-09",
+  "timestamp": 1733510374000,
+  "abstract": "  Log parsing has been a long-studied area in software engineering due to its\nimportance in identifying dynamic variables and constructing log templates.\nPrior work has proposed many statistic-based log parsers (e.g., Drain), which\nare highly efficient; they, unfortunately, met the bottleneck of parsing\nperformance in comparison to semantic-based log parsers, which require labeling\nand more computational resources. Meanwhile, we noticed that previous studies\nmainly focused on parsing and often treated preprocessing as an ad hoc step\n(e.g., masking numbers). However, we argue that both preprocessing and parsing\nare essential for log parsers to identify dynamic variables: the lack of\nunderstanding of preprocessing may hinder the optimal use of parsers and future\nresearch. Therefore, our work studied existing log preprocessing approaches\nbased on Loghub, a popular log parsing benchmark. We developed a general\npreprocessing framework with our findings and evaluated its impact on existing\nparsers. Our experiments show that the preprocessing framework significantly\nboosts the performance of four state-of-the-art statistic-based parsers. Drain,\nthe best statistic-based parser, obtained improvements across all four parsing\nmetrics (e.g., F1 score of template accuracy, FTA, increased by 108.9%).\nCompared to semantic-based parsers, it achieved a 28.3% improvement in grouping\naccuracy (GA), 38.1% in FGA, and an 18.6% increase in FTA. Our work pioneers\nlog preprocessing and provides a generalizable framework to enhance log\nparsing.\n",
+  "subjects": [
+    "Computer Science/Software Engineering"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "_gTogi9UVY9m6spVG6ROdVjt4Pmhr7XU1KMUGjDXths",
+  "pdfSize": "331418"
+}

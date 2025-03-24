@@ -1,0 +1,62 @@
+{
+  "id": "2412.10945",
+  "title": "A Staged Deep Learning Approach to Spatial Refinement in 3D Temporal\n  Atmospheric Transport",
+  "authors": "M. Giselle Fern\\'andez-Godino, Wai Tong Chung, Akshay A. Gowardhan,\n  Matthias Ihme, Qingkai Kong, Donald D. Lucas, and Stephen C. Myers",
+  "authorsParsed": [
+    [
+      "Fernández-Godino",
+      "M. Giselle",
+      ""
+    ],
+    [
+      "Chung",
+      "Wai Tong",
+      ""
+    ],
+    [
+      "Gowardhan",
+      "Akshay A.",
+      ""
+    ],
+    [
+      "Ihme",
+      "Matthias",
+      ""
+    ],
+    [
+      "Kong",
+      "Qingkai",
+      ""
+    ],
+    [
+      "Lucas",
+      "Donald D.",
+      ""
+    ],
+    [
+      "Myers",
+      "Stephen C.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 14 Dec 2024 19:43:48 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Wed, 18 Dec 2024 18:46:15 GMT"
+    }
+  ],
+  "updateDate": "2024-12-19",
+  "timestamp": 1734205428000,
+  "abstract": "  High-resolution spatiotemporal simulations effectively capture the\ncomplexities of atmospheric plume dispersion in complex terrain. However, their\nhigh computational cost makes them impractical for applications requiring rapid\nresponses or iterative processes, such as optimization, uncertainty\nquantification, or inverse modeling. To address this challenge, this work\nintroduces the Dual-Stage Temporal Three-dimensional UNet Super-resolution\n(DST3D-UNet-SR) model, a highly efficient deep learning model for plume\ndispersion prediction. DST3D-UNet-SR is composed of two sequential modules: the\ntemporal module (TM), which predicts the transient evolution of a plume in\ncomplex terrain from low-resolution temporal data, and the spatial refinement\nmodule (SRM), which subsequently enhances the spatial resolution of the TM\npredictions. We train DST3DUNet- SR using a comprehensive dataset derived from\nhigh-resolution large eddy simulations (LES) of plume transport. We propose the\nDST3D-UNet-SR model to significantly accelerate LES simulations of\nthree-dimensional plume dispersion by three orders of magnitude. Additionally,\nthe model demonstrates the ability to dynamically adapt to evolving conditions\nthrough the incorporation of new observational data, substantially improving\nprediction accuracy in high-concentration regions near the source.\n  Keywords: Atmospheric sciences, Geosciences, Plume transport,3D temporal\nsequences, Artificial intelligence, CNN, LSTM, Autoencoder, Autoregressive\nmodel, U-Net, Super-resolution, Spatial Refinement.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Physics/Atmospheric and Oceanic Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "3TQeTexDc-wCUQbym_Dkyjv4EHaN03LrFGw-mXmuCvI",
+  "pdfSize": "5880759"
+}

@@ -1,0 +1,43 @@
+{
+  "id": "2412.20477",
+  "title": "A Predefined-Time Convergent and Noise-Tolerant Zeroing Neural Network\n  Model for Time Variant Quadratic Programming With Application to Robot Motion\n  Planning",
+  "authors": "Yi Yang, Xuchen Wang, Richard M. Voyles, Xin Ma",
+  "authorsParsed": [
+    [
+      "Yang",
+      "Yi",
+      ""
+    ],
+    [
+      "Wang",
+      "Xuchen",
+      ""
+    ],
+    [
+      "Voyles",
+      "Richard M.",
+      ""
+    ],
+    [
+      "Ma",
+      "Xin",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 29 Dec 2024 14:30:11 GMT"
+    }
+  ],
+  "updateDate": "2024-12-31",
+  "timestamp": 1735482611000,
+  "abstract": "  This paper develops a predefined-time convergent and noise-tolerant\nfractional-order zeroing neural network (PTC-NT-FOZNN) model, innovatively\nengineered to tackle time-variant quadratic programming (TVQP) challenges. The\nPTC-NT-FOZNN, stemming from a novel iteration within the variable-gain ZNN\nspectrum, known as FOZNNs, features diminishing gains over time and marries\nnoise resistance with predefined-time convergence, making it ideal for\nenergy-efficient robotic motion planning tasks. The PTC-NT-FOZNN enhances\ntraditional ZNN models by incorporating a newly developed activation function\nthat promotes optimal convergence irrespective of the model's order. When\nevaluated against six established ZNNs, the PTC-NT-FOZNN, with parameters $0 <\n\\alpha \\leq 1$, demonstrates enhanced positional precision and resilience to\nadditive noises, making it exceptionally suitable for TVQP tasks. Thorough\npractical assessments, including simulations and experiments using a Flexiv\nRizon robotic arm, confirm the PTC-NT-FOZNN's capabilities in achieving precise\ntracking and high computational efficiency, thereby proving its effectiveness\nfor robust kinematic control applications.\n",
+  "subjects": [
+    "Computer Science/Robotics",
+    "Computer Science/Neural and Evolutionary Computing"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "t4_qj2RHOgiNxOiXcBySy3rh27iv-kt0vVV5eoG-mKA",
+  "pdfSize": "29151935"
+}

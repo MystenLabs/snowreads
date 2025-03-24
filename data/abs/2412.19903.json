@@ -1,0 +1,37 @@
+{
+  "id": "2412.19903",
+  "title": "Flow of suspensions in a hydraulic fracture consisting of\n  Herschel-Bulkley fluid and spherical particles",
+  "authors": "E.V. Dontsov, S.A. Boronin, and A.A. Osiptsov",
+  "authorsParsed": [
+    [
+      "Dontsov",
+      "E. V.",
+      ""
+    ],
+    [
+      "Boronin",
+      "S. A.",
+      ""
+    ],
+    [
+      "Osiptsov",
+      "A. A.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 27 Dec 2024 19:31:28 GMT"
+    }
+  ],
+  "updateDate": "2024-12-31",
+  "timestamp": 1735327888000,
+  "abstract": "  The purpose of this study is to develop a model for the flow of suspensions\nconsisting of Herschel-Bulkley fluid mixed with spherical particles. In\nparticular, the focus is to investigate the effect of non- Newtonian rheology\nof the carrying fluid on the flow behavior of a suspension. Two-dimensional\nsteady flow problem in a vertical channel is considered, in which both the\npressure gradient and gravity drive the suspension flow. Dependence of the\nvelocity profile and particle concentration across the channel on the fluid\nrheology parameters and orientation of the pressure gradient is investigated.\nIt is found that the non-uniform particle distribution in the flow across the\nchannel leads to the non-uniform density of the suspension, which causes\nsinkage of the denser regions and promotes downward migration of the particles\neven without slip velocity. Particle and suspension fluxes are calculated for\nvarious fluid rheologies and pressure gradient orientations. The effect of slip\nvelocity between the phases is added via filtration term that captures fluid\nflow once particles reach the maximum concentration and stall, and via the\nsettling term that describes gravitational particle settling.\n",
+  "subjects": [
+    "Physics/Fluid Dynamics"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "lzaNTC5PIfOrXqaG3yW8u2-dcvIIAlpBjXBV5J7dy4M",
+  "pdfSize": "2486204"
+}

@@ -1,0 +1,38 @@
+{
+  "id": "2412.04836",
+  "title": "Adaptive Dropout for Pruning Conformers",
+  "authors": "Yotaro Kubo, Xingyu Cai, Michiel Bacchiani",
+  "authorsParsed": [
+    [
+      "Kubo",
+      "Yotaro",
+      ""
+    ],
+    [
+      "Cai",
+      "Xingyu",
+      ""
+    ],
+    [
+      "Bacchiani",
+      "Michiel",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 6 Dec 2024 08:05:02 GMT"
+    }
+  ],
+  "updateDate": "2024-12-09",
+  "timestamp": 1733472302000,
+  "abstract": "  This paper proposes a method to effectively perform joint\ntraining-and-pruning based on adaptive dropout layers with unit-wise retention\nprobabilities. The proposed method is based on the estimation of a unit-wise\nretention probability in a dropout layer. A unit that is estimated to have a\nsmall retention probability can be considered to be prunable. The retention\nprobability of the unit is estimated using back-propagation and the\nGumbel-Softmax technique. This pruning method is applied at several application\npoints in Conformers such that the effective number of parameters can be\nsignificantly reduced. Specifically, adaptive dropout layers are introduced in\nthree locations in each Conformer block: (a) the hidden layer of the\nfeed-forward-net component, (b) the query vectors and the value vectors of the\nself-attention component, and (c) the input vectors of the LConv component. The\nproposed method is evaluated by conducting a speech recognition experiment on\nthe LibriSpeech task. It was shown that this approach could simultaneously\nachieve a parameter reduction and accuracy improvement. The word error rates\nimproved by approx 1% while reducing the number of parameters by 54%.\n",
+  "subjects": [
+    "Computer Science/Computation and Language",
+    "Electrical Engineering and Systems Science/Audio and Speech Processing"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "cNF2AgsRn0fu1WWz8WCz0HUhe6qqrgsylE2wlmh6iTs",
+  "pdfSize": "823200"
+}

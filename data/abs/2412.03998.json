@@ -1,0 +1,32 @@
+{
+  "id": "2412.03998",
+  "title": "Convergence of boundary layers of chemotaxis models with physical\n  boundary conditions~II: Non-degenerate",
+  "authors": "Guangyi Hong and Zhi-An Wang",
+  "authorsParsed": [
+    [
+      "Hong",
+      "Guangyi",
+      ""
+    ],
+    [
+      "Wang",
+      "Zhi-An",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 5 Dec 2024 09:19:50 GMT"
+    }
+  ],
+  "updateDate": "2024-12-06",
+  "timestamp": 1733390390000,
+  "abstract": "  This paper establishes the convergence of boundary-layer solutions of the\nconsumption type Keller-Segel model with non-degenerate initial data subject to\nphysical boundary conditions, which is a sequel of\n\\cite{Corrillo-Hong-Wang-vanishing} on the case of degenerate initial data.\nSpecifically, we justify that the solution with positive chemical diffusion\nrate $\\varepsilon>0 $ converges to the solution with zero diffusion\n$\\varepsilon=0 $ (outer-layer solution) plus the boundary-layer profiles\n(inner-layer solution) for any time $t>0$ as $ \\varepsilon \\rightarrow 0 $.\nCompared to \\cite{Corrillo-Hong-Wang-vanishing}, the main difficulty in the\nanalysis is the lack of regularity of the outer- and boundary-layer profiles\nsince only the zero-order compatibility conditions for the leading-order\nboundary-layer profiles can be fulfilled with non-degenerate initial data. Our\nnew strategy is to regularize the boundary-layer profiles with carefully\ndesigned corner-corrector functions and approximate the low-regularity\nleading-order boundary-layer profiles by higher-regularity profiles with\nregularized boundary conditions. By using delicate weight functions involving\nboundary-layer profiles to cancel the multi-scaled linear terms in the\nperturbed equations, we manage to obtain the requisite uniform-in-$ \\varepsilon\n$ estimates for the convergence analysis. This cancellation technique enables\nus to prove the convergence to boundary-layer solutions for any time $ t >0 $,\nwhich is different from the convergence result in\n\\cite{Corrillo-Hong-Wang-vanishing} which holds true only for some finite time\ndepending on the Dirichlet boundary value.\n",
+  "subjects": [
+    "Mathematics/Analysis of PDEs"
+  ],
+  "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+  "blobId": "a63OhmnWYzipQkS5lS-nFMB1NCFZIvOKTyOmYc-dZeM",
+  "pdfSize": "653315"
+}

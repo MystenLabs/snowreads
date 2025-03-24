@@ -1,0 +1,42 @@
+{
+  "id": "2412.08594",
+  "title": "ASDnB: Merging Face with Body Cues For Robust Active Speaker Detection",
+  "authors": "Tiago Roxo and Joana C. Costa and Pedro In\\'acio and Hugo Proen\\c{c}a",
+  "authorsParsed": [
+    [
+      "Roxo",
+      "Tiago",
+      ""
+    ],
+    [
+      "Costa",
+      "Joana C.",
+      ""
+    ],
+    [
+      "Inácio",
+      "Pedro",
+      ""
+    ],
+    [
+      "Proença",
+      "Hugo",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 11 Dec 2024 18:12:06 GMT"
+    }
+  ],
+  "updateDate": "2024-12-12",
+  "timestamp": 1733940726000,
+  "abstract": "  State-of-the-art Active Speaker Detection (ASD) approaches mainly use audio\nand facial features as input. However, the main hypothesis in this paper is\nthat body dynamics is also highly correlated to \"speaking\" (and \"listening\")\nactions and should be particularly useful in wild conditions (e.g.,\nsurveillance settings), where face cannot be reliably accessed. We propose\nASDnB, a model that singularly integrates face with body information by merging\nthe inputs at different steps of feature extraction. Our approach splits 3D\nconvolution into 2D and 1D to reduce computation cost without loss of\nperformance, and is trained with adaptive weight feature importance for\nimproved complement of face with body data. Our experiments show that ASDnB\nachieves state-of-the-art results in the benchmark dataset (AVA-ActiveSpeaker),\nin the challenging data of WASD, and in cross-domain settings using Columbia.\nThis way, ASDnB can perform in multiple settings, which is positively regarded\nas a strong baseline for robust ASD models (code available at\nhttps://github.com/Tiago-Roxo/ASDnB).\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "aVSrMXI26EYhHOp1MFlWqXRvQ2tYQC7M3Y98LqMgb8Q",
+  "pdfSize": "20550854"
+}

@@ -1,0 +1,43 @@
+{
+  "id": "2412.19985",
+  "title": "The Fifth International Verification of Neural Networks Competition\n  (VNN-COMP 2024): Summary and Results",
+  "authors": "Christopher Brix, Stanley Bak, Taylor T. Johnson, Haoze Wu",
+  "authorsParsed": [
+    [
+      "Brix",
+      "Christopher",
+      ""
+    ],
+    [
+      "Bak",
+      "Stanley",
+      ""
+    ],
+    [
+      "Johnson",
+      "Taylor T.",
+      ""
+    ],
+    [
+      "Wu",
+      "Haoze",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 28 Dec 2024 03:07:00 GMT"
+    }
+  ],
+  "updateDate": "2024-12-31",
+  "timestamp": 1735355220000,
+  "abstract": "  This report summarizes the 5th International Verification of Neural Networks\nCompetition (VNN-COMP 2024), held as a part of the 7th International Symposium\non AI Verification (SAIV), that was collocated with the 36th International\nConference on Computer-Aided Verification (CAV). VNN-COMP is held annually to\nfacilitate the fair and objective comparison of state-of-the-art neural network\nverification tools, encourage the standardization of tool interfaces, and bring\ntogether the neural network verification community. To this end, standardized\nformats for networks (ONNX) and specification (VNN-LIB) were defined, tools\nwere evaluated on equal-cost hardware (using an automatic evaluation pipeline\nbased on AWS instances), and tool parameters were chosen by the participants\nbefore the final test sets were made public. In the 2024 iteration, 8 teams\nparticipated on a diverse set of 12 regular and 8 extended benchmarks. This\nreport summarizes the rules, benchmarks, participating tools, results, and\nlessons learned from this iteration of this competition.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "A7uEzN7WHOI5Jz1ozJdc0UvQ0MchOf8_YdD1ojU8FEE",
+  "pdfSize": "2387325"
+}

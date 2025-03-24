@@ -1,0 +1,56 @@
+{
+  "id": "2412.08020",
+  "title": "Intelligent Control of Robotic X-ray Devices using a Language-promptable\n  Digital Twin",
+  "authors": "Benjamin D. Killeen, Anushri Suresh, Catalina Gomez, Blanca Inigo,\n  Christopher Bailey, Mathias Unberath",
+  "authorsParsed": [
+    [
+      "Killeen",
+      "Benjamin D.",
+      ""
+    ],
+    [
+      "Suresh",
+      "Anushri",
+      ""
+    ],
+    [
+      "Gomez",
+      "Catalina",
+      ""
+    ],
+    [
+      "Inigo",
+      "Blanca",
+      ""
+    ],
+    [
+      "Bailey",
+      "Christopher",
+      ""
+    ],
+    [
+      "Unberath",
+      "Mathias",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 11 Dec 2024 02:00:25 GMT"
+    }
+  ],
+  "updateDate": "2024-12-12",
+  "timestamp": 1733882425000,
+  "abstract": "  Natural language offers a convenient, flexible interface for controlling\nrobotic C-arm X-ray systems, making advanced functionality and controls\naccessible. However, enabling language interfaces requires specialized AI\nmodels that interpret X-ray images to create a semantic representation for\nreasoning. The fixed outputs of such AI models limit the functionality of\nlanguage controls. Incorporating flexible, language-aligned AI models prompted\nthrough language enables more versatile interfaces for diverse tasks and\nprocedures. Using a language-aligned foundation model for X-ray image\nsegmentation, our system continually updates a patient digital twin based on\nsparse reconstructions of desired anatomical structures. This supports\nautonomous capabilities such as visualization, patient-specific viewfinding,\nand automatic collimation from novel viewpoints, enabling commands 'Focus in on\nthe lower lumbar vertebrae.' In a cadaver study, users visualized, localized,\nand collimated structures across the torso using verbal commands, achieving 84%\nend-to-end success. Post hoc analysis of randomly oriented images showed our\npatient digital twin could localize 35 commonly requested structures to within\n51.68 mm, enabling localization and isolation from arbitrary orientations. Our\nresults demonstrate how intelligent robotic X-ray systems can incorporate\nphysicians' expressed intent directly. While existing foundation models for\nintra-operative X-ray analysis exhibit failure modes, as they improve, they can\nfacilitate highly flexible, intelligent robotic C-arms.\n",
+  "subjects": [
+    "Computer Science/Robotics",
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Human-Computer Interaction",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "FSkyxLsgU_MRHEmDpzdCVFUDgoMWznJ4MHaRzVWgn9U",
+  "pdfSize": "10031344"
+}

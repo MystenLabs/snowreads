@@ -1,0 +1,38 @@
+{
+  "id": "2412.02058",
+  "title": "BN-AuthProf: Benchmarking Machine Learning for Bangla Author Profiling\n  on Social Media Texts",
+  "authors": "Raisa Tasnim, Mehanaz Chowdhury, Md Ataur Rahman",
+  "authorsParsed": [
+    [
+      "Tasnim",
+      "Raisa",
+      ""
+    ],
+    [
+      "Chowdhury",
+      "Mehanaz",
+      ""
+    ],
+    [
+      "Rahman",
+      "Md Ataur",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 3 Dec 2024 00:32:32 GMT"
+    }
+  ],
+  "updateDate": "2024-12-04",
+  "timestamp": 1733185952000,
+  "abstract": "  Author profiling, the analysis of texts to uncover attributes such as gender\nand age of the author, has become essential with the widespread use of social\nmedia platforms. This paper focuses on author profiling in the Bangla language,\naiming to extract valuable insights about anonymous authors based on their\nwriting style on social media. The primary objective is to introduce and\nbenchmark the performance of machine learning approaches on a newly created\nBangla Author Profiling dataset, BN-AuthProf. The dataset comprises 30,131\nsocial media posts from 300 authors, labeled by their age and gender. Authors'\nidentities and sensitive information were anonymized to ensure privacy. Various\nclassical machine learning and deep learning techniques were employed to\nevaluate the dataset. For gender classification, the best accuracy achieved was\n80% using Support Vector Machine (SVM), while a Multinomial Naive Bayes (MNB)\nclassifier achieved the best F1 score of 0.756. For age classification, MNB\nattained a maximum accuracy score of 91% with an F1 score of 0.905. This\nresearch highlights the effectiveness of machine learning in gender and age\nclassification for Bangla author profiling, with practical implications\nspanning marketing, security, forensic linguistics, education, and criminal\ninvestigations, considering privacy and biases.\n",
+  "subjects": [
+    "Computer Science/Computation and Language",
+    "Computer Science/Social and Information Networks"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "MlFURpK_PZd329PITxOQkJKTOu5tmmXy1t9PolMbpts",
+  "pdfSize": "515746"
+}

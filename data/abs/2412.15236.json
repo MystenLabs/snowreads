@@ -1,0 +1,47 @@
+{
+  "id": "2412.15236",
+  "title": "CareBot: A Pioneering Full-Process Open-Source Medical Language Model",
+  "authors": "Lulu Zhao, Weihao Zeng, Xiaofeng Shi, Hua Zhou",
+  "authorsParsed": [
+    [
+      "Zhao",
+      "Lulu",
+      ""
+    ],
+    [
+      "Zeng",
+      "Weihao",
+      ""
+    ],
+    [
+      "Shi",
+      "Xiaofeng",
+      ""
+    ],
+    [
+      "Zhou",
+      "Hua",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 12 Dec 2024 05:27:43 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Mon, 23 Dec 2024 02:44:18 GMT"
+    }
+  ],
+  "updateDate": "2024-12-24",
+  "timestamp": 1733981263000,
+  "abstract": "  Recently, both closed-source LLMs and open-source communities have made\nsignificant strides, outperforming humans in various general domains. However,\ntheir performance in specific professional domains such as medicine, especially\nwithin the open-source community, remains suboptimal due to the complexity of\nmedical knowledge. In this paper, we propose CareBot, a bilingual medical LLM,\nwhich leverages a comprehensive approach integrating continuous pre-training\n(CPT), supervised fine-tuning (SFT), and reinforcement learning with human\nfeedback (RLHF). Our novel two-stage CPT method, comprising Stable CPT and\nBoost CPT, effectively bridges the gap between general and domain-specific\ndata, facilitating a smooth transition from pre-training to fine-tuning and\nenhancing domain knowledge progressively. We also introduce DataRater, a model\ndesigned to assess data quality during CPT, ensuring that the training data is\nboth accurate and relevant. For SFT, we develope a large and diverse bilingual\ndataset, along with ConFilter, a metric to enhance multi-turn dialogue quality,\nwhich is crucial to improving the model's ability to handle more complex\ndialogues. The combination of high-quality data sources and innovative\ntechniques significantly improves CareBot's performance across a range of\nmedical applications. Our rigorous evaluations on Chinese and English\nbenchmarks confirm CareBot's effectiveness in medical consultation and\neducation. These advancements not only address current limitations in medical\nLLMs but also set a new standard for developing effective and reliable\nopen-source models in the medical domain. We will open-source the datasets and\nmodels later, contributing valuable resources to the research community.\n",
+  "subjects": [
+    "Computer Science/Computation and Language",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "WeSNTfbhGvSGcCA_N61z0dpwjOcBYslUvrD48VcRGvo",
+  "pdfSize": "2054678"
+}

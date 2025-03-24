@@ -1,0 +1,37 @@
+{
+  "id": "2412.18932",
+  "title": "Malware Classification using a Hybrid Hidden Markov Model-Convolutional\n  Neural Network",
+  "authors": "Ritik Mehta and Olha Jureckova and Mark Stamp",
+  "authorsParsed": [
+    [
+      "Mehta",
+      "Ritik",
+      ""
+    ],
+    [
+      "Jureckova",
+      "Olha",
+      ""
+    ],
+    [
+      "Stamp",
+      "Mark",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 25 Dec 2024 15:34:57 GMT"
+    }
+  ],
+  "updateDate": "2024-12-30",
+  "timestamp": 1735140897000,
+  "abstract": "  The proliferation of malware variants poses a significant challenges to\ntraditional malware detection approaches, such as signature-based methods,\nnecessitating the development of advanced machine learning techniques. In this\nresearch, we present a novel approach based on a hybrid architecture combining\nfeatures extracted using a Hidden Markov Model (HMM), with a Convolutional\nNeural Network (CNN) then used for malware classification. Inspired by the\nstrong results in previous work using an HMM-Random Forest model, we propose\nintegrating HMMs, which serve to capture sequential patterns in opcode\nsequences, with CNNs, which are adept at extracting hierarchical features. We\ndemonstrate the effectiveness of our approach on the popular Malicia dataset,\nand we obtain superior performance, as compared to other machine learning\nmethods -- our results surpass the aforementioned HMM-Random Forest model. Our\nfindings underscore the potential of hybrid HMM-CNN architectures in bolstering\nmalware classification capabilities, offering several promising avenues for\nfurther research in the field of cybersecurity.\n",
+  "subjects": [
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "vFobySa2lJGtYbBiQ6Tem6mVGDqTam8wD5NtsIbxVY4",
+  "pdfSize": "485010"
+}

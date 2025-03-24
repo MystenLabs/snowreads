@@ -1,0 +1,28 @@
+{
+  "id": "2412.19548",
+  "title": "Explicit propagation reversal bounds for bistable differential equations\n  on trees",
+  "authors": "Petr Stehl\\'ik",
+  "authorsParsed": [
+    [
+      "Stehlík",
+      "Petr",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 27 Dec 2024 09:28:13 GMT"
+    }
+  ],
+  "updateDate": "2024-12-30",
+  "timestamp": 1735291693000,
+  "abstract": "  In this paper we provide explicit description of the pinning region and\npropagation reversal phenomenon for the bistable reaction diffusion equation on\nregular biinfinite trees. In contrast to the general existence results for\nsmooth bistabilities, the closed-form formulas are enabled by the choice of the\npiecewise linear McKean's caricature. We construct exact pinned waves and show\ntheir stability. The results are qualitatively similar to the propagation\nreversal results for smooth bistabilities. Major exception consists in the\nunboundedness of the pinning region in the case of the bistable McKean's\ncaricature. Consequently, the propagation reversal also occurs for arbitrarily\nlarge diffusion.\n",
+  "subjects": [
+    "Mathematics/Dynamical Systems",
+    "Mathematics/Analysis of PDEs"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "egMi_xrda1alXLDwT7oJvoZo-vu8jA_1kfQ0cQZcuuI",
+  "pdfSize": "917073"
+}

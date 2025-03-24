@@ -1,0 +1,77 @@
+{
+  "id": "2412.12244",
+  "title": "ChronoFlow: A Data-Driven Model for Gyrochronology",
+  "authors": "Phil R. Van-Lane, Joshua S. Speagle, Gwendolyn M. Eadie, Stephanie T.\n  Douglas, Phillip A. Cargile, Catherine Zucker, Yuxi (Lucy) Lu, Ruth Angus",
+  "authorsParsed": [
+    [
+      "Van-Lane",
+      "Phil R.",
+      "",
+      "Lucy"
+    ],
+    [
+      "Speagle",
+      "Joshua S.",
+      "",
+      "Lucy"
+    ],
+    [
+      "Eadie",
+      "Gwendolyn M.",
+      "",
+      "Lucy"
+    ],
+    [
+      "Douglas",
+      "Stephanie T.",
+      "",
+      "Lucy"
+    ],
+    [
+      "Cargile",
+      "Phillip A.",
+      "",
+      "Lucy"
+    ],
+    [
+      "Zucker",
+      "Catherine",
+      "",
+      "Lucy"
+    ],
+    [
+      "Yuxi",
+      "",
+      "",
+      "Lucy"
+    ],
+    [
+      "Lu",
+      "",
+      ""
+    ],
+    [
+      "Angus",
+      "Ruth",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 16 Dec 2024 19:00:00 GMT"
+    }
+  ],
+  "updateDate": "2024-12-18",
+  "timestamp": 1734375600000,
+  "abstract": "  Gyrochronology is a technique for constraining stellar ages using rotation\nperiods, which change over a star's main sequence lifetime due to magnetic\nbraking. This technique shows promise for main sequence FGKM stars, where other\nmethods are imprecise. However, models have historically struggled to capture\nthe observed rotational dispersion in stellar populations. To properly\nunderstand this complexity, we have assembled the largest standardized data\ncatalog of rotators in open clusters to date, consisting of ~7,400 stars across\n30 open clusters/associations spanning ages of 1.5 Myr to 4 Gyr. We have also\ndeveloped ChronoFlow: a flexible data-driven model which accurately captures\nobserved rotational dispersion. We show that ChronoFlow can be used to\naccurately forward model rotational evolution, and to infer both cluster and\nindividual stellar ages. We recover cluster ages with a statistical uncertainty\nof 0.06 dex ($\\approx$ 15%), and individual stellar ages with a statistical\nuncertainty of 0.7 dex. Additionally, we conducted robust systematic tests to\nanalyze the impact of extinction models, cluster membership, and calibration\nages on our model's performance. These contribute an additional $\\approx$ 0.06\ndex of uncertainty in cluster age estimates, resulting in a total error budget\nof 0.08 dex. We estimate ages for the NGC 6709 open cluster and the Theia 456\nstellar stream, and calculate revised rotational ages for M34, NGC 2516, NGC\n1750, and NGC 1647. Our results show that ChronoFlow can precisely estimate the\nages of coeval stellar populations, and constrain ages for individual stars.\nFurthermore, its predictions may be used to inform physical spin down models.\nChronoFlow will be publicly available at\nhttps://github.com/philvanlane/chronoflow.\n",
+  "subjects": [
+    "Astrophysics/Solar and Stellar Astrophysics",
+    "Astrophysics/Astrophysics of Galaxies",
+    "Astrophysics/Instrumentation and Methods for Astrophysics",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "4M_ch5Y457SdfrTyiLxHNOrCwDCIs-Qt4rTRLruAYnA",
+  "pdfSize": "5028541"
+}

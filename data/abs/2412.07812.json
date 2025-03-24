@@ -1,0 +1,48 @@
+{
+  "id": "2412.07812",
+  "title": "Multi-Response Preference Optimization with Augmented Ranking Dataset",
+  "authors": "Hansle Gwon, Imjin Ahn, Young-Hak Kim, Sanghyun Park, Tae Joon Jun",
+  "authorsParsed": [
+    [
+      "Gwon",
+      "Hansle",
+      ""
+    ],
+    [
+      "Ahn",
+      "Imjin",
+      ""
+    ],
+    [
+      "Kim",
+      "Young-Hak",
+      ""
+    ],
+    [
+      "Park",
+      "Sanghyun",
+      ""
+    ],
+    [
+      "Jun",
+      "Tae Joon",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 10 Dec 2024 05:45:36 GMT"
+    }
+  ],
+  "updateDate": "2024-12-12",
+  "timestamp": 1733809536000,
+  "abstract": "  Recent advancements in Large Language Models (LLMs) have been remarkable,\nwith new models consistently surpassing their predecessors. These advancements\nare underpinned by extensive research on various training mechanisms. Among\nthese, Preference Optimization has played a significant role in improving the\nperformance of LLMs by incorporating human preferences into the training\nprocess. However, constructing preference optimization datasets is challenging\nand the optimization process is highly sensitive to the dataset quality. In\nthis study, we propose a novel approach to augment Preference Optimization\ndatasets. Additionally, we introduce a Multi-response-based Preference\nOptimization training method that enables the simultaneous learning of multiple\nresponses.\n",
+  "subjects": [
+    "Computer Science/Computation and Language",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "RL6yrSDkYCV73IsqMrLcmKu9OLzYmmOOyKeLmCLpZIo",
+  "pdfSize": "918115"
+}

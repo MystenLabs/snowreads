@@ -1,0 +1,42 @@
+{
+  "id": "2412.18232",
+  "title": "Efficient Long Context Language Model Retrieval with Compression",
+  "authors": "Minju Seo, Jinheon Baek, Seongyun Lee, Sung Ju Hwang",
+  "authorsParsed": [
+    [
+      "Seo",
+      "Minju",
+      ""
+    ],
+    [
+      "Baek",
+      "Jinheon",
+      ""
+    ],
+    [
+      "Lee",
+      "Seongyun",
+      ""
+    ],
+    [
+      "Hwang",
+      "Sung Ju",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 24 Dec 2024 07:30:55 GMT"
+    }
+  ],
+  "updateDate": "2024-12-25",
+  "timestamp": 1735025455000,
+  "abstract": "  Long Context Language Models (LCLMs) have emerged as a new paradigm to\nperform Information Retrieval (IR), which enables the direct ingestion and\nretrieval of information by processing an entire corpus in their single\ncontext, showcasing the potential to surpass traditional sparse and dense\nretrieval methods. However, processing a large number of passages within\nin-context for retrieval is computationally expensive, and handling their\nrepresentations during inference further exacerbates the processing time; thus,\nwe aim to make LCLM retrieval more efficient and potentially more effective\nwith passage compression. Specifically, we propose a new compression approach\ntailored for LCLM retrieval, which is trained to maximize the retrieval\nperformance while minimizing the length of the compressed passages. To\naccomplish this, we generate the synthetic data, where compressed passages are\nautomatically created and labeled as chosen or rejected according to their\nretrieval success for a given query, and we train the proposed Compression\nmodel for Long context Retrieval (CoLoR) with this data via preference\noptimization while adding the length regularization loss on top of it to\nenforce brevity. Through extensive experiments on 9 datasets, we show that\nCoLoR improves the retrieval performance by 6% while compressing the in-context\nsize by a factor of 1.91.\n",
+  "subjects": [
+    "Computer Science/Information Retrieval"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "fneD-yGMcr0Txu3-hZZTWJhOn9wjyeln3MelDZH_B0M",
+  "pdfSize": "3462325"
+}

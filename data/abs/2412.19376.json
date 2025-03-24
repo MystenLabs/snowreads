@@ -1,0 +1,112 @@
+{
+  "id": "2412.19376",
+  "title": "Guidelines for Correlative Imaging and Analysis of Reactive Lithium\n  Metal Battery Materials",
+  "authors": "Shuang Bai, Zhao Liu, Diyi Cheng, Bingyu Lu, Nestor J. Zaluzec, Ganesh\n  Raghavendran, Shen Wang, Thomas S. Marchese, Brandon van Leer, Letian Li, Lin\n  Jiang, Adam Stokes, Joseph P. Cline, Rachel Osmundsen, Paul Barends,\n  Alexander Bright, Minghao Zhang and Ying Shirley Meng",
+  "authorsParsed": [
+    [
+      "Bai",
+      "Shuang",
+      ""
+    ],
+    [
+      "Liu",
+      "Zhao",
+      ""
+    ],
+    [
+      "Cheng",
+      "Diyi",
+      ""
+    ],
+    [
+      "Lu",
+      "Bingyu",
+      ""
+    ],
+    [
+      "Zaluzec",
+      "Nestor J.",
+      ""
+    ],
+    [
+      "Raghavendran",
+      "Ganesh",
+      ""
+    ],
+    [
+      "Wang",
+      "Shen",
+      ""
+    ],
+    [
+      "Marchese",
+      "Thomas S.",
+      ""
+    ],
+    [
+      "van Leer",
+      "Brandon",
+      ""
+    ],
+    [
+      "Li",
+      "Letian",
+      ""
+    ],
+    [
+      "Jiang",
+      "Lin",
+      ""
+    ],
+    [
+      "Stokes",
+      "Adam",
+      ""
+    ],
+    [
+      "Cline",
+      "Joseph P.",
+      ""
+    ],
+    [
+      "Osmundsen",
+      "Rachel",
+      ""
+    ],
+    [
+      "Barends",
+      "Paul",
+      ""
+    ],
+    [
+      "Bright",
+      "Alexander",
+      ""
+    ],
+    [
+      "Zhang",
+      "Minghao",
+      ""
+    ],
+    [
+      "Meng",
+      "Ying Shirley",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 26 Dec 2024 23:20:36 GMT"
+    }
+  ],
+  "updateDate": "2024-12-30",
+  "timestamp": 1735255236000,
+  "abstract": "  To unlock the full potential of lithium metal batteries, a deep understanding\nof lithium metal reactivity and its solid electrolyte interphase is essential.\nCorrelative imaging, combining focused ion beam and electron microscopy offers\na powerful approach for multi-scale characterization. However, the extreme\nreactivity of lithium metal and its SEI presents challenges in investigating\ndeposition and stripping mechanisms. In this work, we systematically evaluated\nthe storage stability of lithium metal in glovebox before and after\nelectrochemical deposition. We then assessed different FIB ion sources for\ntheir impact on lithium metal lamella preparation for transmission electron\nmicroscopy. Furthermore, we examined cryogenic-TEM transfer methods, optimizing\nfor minimal contamination during sample handling. Contrary to prior\nassumptions, we demonstrate that high resolution imaging of pure lithium metal\nat room temperature is achievable using inert gas transfer with an electron\ndose rate exceeding 1000 e/A2/s, without significant detectable damage. In\ncontrast, SEI components, such as Li2CO3 and LiF display much greater\nsensitivity to electron beams, requiring cryogenic conditions and precise dose\ncontrol for nano/atomic scale imaging. We quantified electron dose limits for\nthese SEI components to track their structural evolution under irradiation.\nBased on these findings, we propose a robust protocol for lithium metal sample\nhandling - from storage to atomic-level characterization - minimizing damage\nand contamination. This work paves the way for more accurate and reproducible\nstudies, accelerating the development of next-generation lithium metal\nbatteries by ensuing the preservation of native material properties during\nanalysis.\n",
+  "subjects": [
+    "Condensed Matter/Materials Science"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "Xu3y7Mv37n8r19GcxbuMaXbynRFdsJmx7cWx5FxDfIM",
+  "pdfSize": "1742088"
+}

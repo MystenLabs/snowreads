@@ -1,0 +1,32 @@
+{
+  "id": "2412.13269",
+  "title": "TETRIS: Composing FHE Techniques for Private Functional Exploration Over\n  Large Datasets",
+  "authors": "Malika Izabach\\`ene and Jean-Philippe Bossuat",
+  "authorsParsed": [
+    [
+      "Izabachène",
+      "Malika",
+      ""
+    ],
+    [
+      "Bossuat",
+      "Jean-Philippe",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 17 Dec 2024 19:04:51 GMT"
+    }
+  ],
+  "updateDate": "2024-12-19",
+  "timestamp": 1734462291000,
+  "abstract": "  To derive valuable insights from statistics, machine learning applications\nfrequently analyze substantial amounts of data. In this work, we address the\nproblem of designing efficient secure techniques to probe large datasets which\nallow a scientist to conduct large-scale medical studies over specific\nattributes of patients' records, while maintaining the privacy of his model. We\nintroduce a set of composable homomorphic operations and show how to combine\nprivate functions evaluation with private thresholds via approximate fully\nhomomorphic encryption. This allows us to design a new system named TETRIS,\nwhich solves the real-world use case of private functional exploration of large\ndatabases, where the statistical criteria remain private to the server owning\nthe patients' records. Our experiments show that TETRIS achieves practical\nperformance over a large dataset of patients even for the evaluation of\nelaborate statements composed of linear and nonlinear functions. It is possible\nto extract private insights from a database of hundreds of thousands of patient\nrecords within only a few minutes on a single thread, with an amortized time\nper database entry smaller than 2ms.\n",
+  "subjects": [
+    "Computer Science/Cryptography and Security"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "37THIJ-LhfPmRVnu2deNp83F6M93K9jFa4QCjfJA8jM",
+  "pdfSize": "878637"
+}

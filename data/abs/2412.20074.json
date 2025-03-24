@@ -1,0 +1,37 @@
+{
+  "id": "2412.20074",
+  "title": "Insights into Efficiency and Satisfaction Trade-offs in Facility\n  Location Problems with Regional Preferences",
+  "authors": "V\\'ictor Blanco, Ricardo G\\'azquez, Marina Leal",
+  "authorsParsed": [
+    [
+      "Blanco",
+      "Víctor",
+      ""
+    ],
+    [
+      "Gázquez",
+      "Ricardo",
+      ""
+    ],
+    [
+      "Leal",
+      "Marina",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 28 Dec 2024 07:57:43 GMT"
+    }
+  ],
+  "updateDate": "2024-12-31",
+  "timestamp": 1735372663000,
+  "abstract": "  This paper studies a practical regional demand continuous multifacility\nlocation problems whose main goal is to locate a given number of services and\nentry points in each region to distribute certain products to the users at\nminimum transportation cost. Additionally, a minimum satisfaction level is\nrequired for the customers in each region. This satisfaction is measured\nthrough continuous preference functions that reflect the satisfaction degree of\neach location in the region. We provide a mathematical optimization-based\nframework for the problem and derive suitable Mixed Integer Second Order Cone\noptimization models for some interesting situations: norm-based transportation\ncosts for the services to the entry points, and different families of\npreference functions. Among these preference functions, we highlight those\nderived from economic production models and distance-based preferences. We\nconduct an extensive computational study along two main lines: a computational\napproach, where we provide optimal solutions for up to 500 demand regions in\nthe single-facility case and up to $50$ for the p-facility case; and a\nqualitative approach, where we analyze whether the incorporation of preferences\nis statistically significant compared to the case without preferences.\n",
+  "subjects": [
+    "Mathematics/Optimization and Control"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "PPGi-HJZBJV3Uihl5qxkfVvQdnnHzRD7QOuFauZgem8",
+  "pdfSize": "5727559"
+}

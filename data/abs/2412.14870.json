@@ -1,0 +1,37 @@
+{
+  "id": "2412.14870",
+  "title": "Large-scale School Mapping using Weakly Supervised Deep Learning for\n  Universal School Connectivity",
+  "authors": "Isabelle Tingzon, Utku Can Ozturk, Ivan Dotu",
+  "authorsParsed": [
+    [
+      "Tingzon",
+      "Isabelle",
+      ""
+    ],
+    [
+      "Ozturk",
+      "Utku Can",
+      ""
+    ],
+    [
+      "Dotu",
+      "Ivan",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 19 Dec 2024 14:06:56 GMT"
+    }
+  ],
+  "updateDate": "2024-12-20",
+  "timestamp": 1734617216000,
+  "abstract": "  Improving global school connectivity is critical for ensuring inclusive and\nequitable quality education. To reliably estimate the cost of connecting\nschools, governments and connectivity providers require complete and accurate\nschool location data - a resource that is often scarce in many low- and\nmiddle-income countries. To address this challenge, we propose a\ncost-effective, scalable approach to locating schools in high-resolution\nsatellite images using weakly supervised deep learning techniques. Our best\nmodels, which combine vision transformers and convolutional neural networks,\nachieve AUPRC values above 0.96 across 10 pilot African countries. Leveraging\nexplainable AI techniques, our approach can approximate the precise\ngeographical coordinates of the school locations using only low-cost,\nclassification-level annotations. To demonstrate the scalability of our method,\nwe generate nationwide maps of school location predictions in African countries\nand present a detailed analysis of our results, using Senegal as our case\nstudy. Finally, we demonstrate the immediate usability of our work by\nintroducing an interactive web mapping tool to streamline human-in-the-loop\nmodel validation efforts by government partners. This work successfully\nshowcases the real-world utility of deep learning and satellite images for\nplanning regional infrastructure and accelerating universal school\nconnectivity.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "KZHQWF43xvrQhR0hkoYgRAe3FrZU0eNq1AJ1OLmotJE",
+  "pdfSize": "4963408"
+}

@@ -1,0 +1,39 @@
+{
+  "id": "2412.16317",
+  "title": "Computation and properties of the Epstein zeta function with\n  high-performance implementation in EpsteinLib",
+  "authors": "Andreas A. Buchheit, Jonathan Busse, Ruben Gutendorf",
+  "authorsParsed": [
+    [
+      "Buchheit",
+      "Andreas A.",
+      ""
+    ],
+    [
+      "Busse",
+      "Jonathan",
+      ""
+    ],
+    [
+      "Gutendorf",
+      "Ruben",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 20 Dec 2024 20:03:22 GMT"
+    }
+  ],
+  "updateDate": "2024-12-24",
+  "timestamp": 1734725002000,
+  "abstract": "  The Epstein zeta function generalizes the Riemann zeta function to\noscillatory lattice sums in higher dimensions. Beyond its numerous applications\nin pure mathematics, it has recently been identified as a key component in\nsimulating exotic quantum materials. This work establishes the Epstein zeta\nfunction as a powerful tool in numerical analysis by rigorously investigating\nits analytical properties and enabling its efficient computation. Specifically,\nwe derive a compact and computationally efficient representation of the Epstein\nzeta function and thoroughly examine its analytical properties across all\narguments. Furthermore, we introduce a superexponentially convergent algorithm,\ncomplete with error bounds, for computing the Epstein zeta function in\narbitrary dimensions. We also show that the Epstein zeta function can be\ndecomposed into a power law singularity and an analytic function in the first\nBrillouin zone. This decomposition facilitates the rapid evaluation of\nintegrals involving the Epstein zeta function and allows for efficient\nprecomputations through interpolation techniques. We present the first\nhigh-performance implementation of the Epstein zeta function and its\nregularisation for arbitrary real arguments in EpsteinLib, a C library with\nPython and Mathematica bindings, and rigorously benchmark its precision and\nperformance against known formulas, achieving full precision across the entire\nparameter range. Finally, we apply our library to the computation of quantum\ndispersion relations of three-dimensional spin materials with long-range\ninteractions and Casimir energies in multidimensional geometries, uncovering\nhigher-order corrections to known asymptotic formulas for the arising forces.\n",
+  "subjects": [
+    "Mathematics/Numerical Analysis",
+    "Condensed Matter/Strongly Correlated Electrons",
+    "Computer Science/Numerical Analysis"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "vjowjKyP2cVY2HinqxFliQK4RARcomNl5BaaRlSDIlE",
+  "pdfSize": "3043734"
+}

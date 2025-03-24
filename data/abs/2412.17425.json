@@ -1,0 +1,31 @@
+{
+  "id": "2412.17425",
+  "title": "Almost sure convergence of cover times for $\\psi$-mixing systems",
+  "authors": "Boyuan Zhao",
+  "authorsParsed": [
+    [
+      "Zhao",
+      "Boyuan",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 23 Dec 2024 09:43:03 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Thu, 2 Jan 2025 15:19:39 GMT"
+    }
+  ],
+  "updateDate": "2025-01-03",
+  "timestamp": 1734946983000,
+  "abstract": "  Given a topologically transitive system on the unit interval, one can\ninvestigate the cover time, i.e. time for an orbit to reach certain level of\nresolution in the repeller. We introduce a new notion of dimension, namely the\nstretched Minkowski dimension, and show that under mixing conditions, the\nasymptotics of typical cover times are determined by Minkowski dimensions when\nthey are finite, or by stretched Minkowski dimensions otherwise. For\napplication, we show that for countably full-branched affine maps, results\nusing the usual Minkowski dimensions fail to produce a finite log limit of\ncover times whilst the stretched version gives an finite limit. In addition,\ncover times of irrational rotations are explicitly calculated as\ncounterexamples, due to the absence of mixing.\n",
+  "subjects": [
+    "Mathematics/Dynamical Systems"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "l-uqf1ZVXKX33yS1WJO3l6iSWyrNMDmtzoaZfgR8lRE",
+  "pdfSize": "228645"
+}

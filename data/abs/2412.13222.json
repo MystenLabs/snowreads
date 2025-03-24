@@ -1,0 +1,47 @@
+{
+  "id": "2412.13222",
+  "title": "Towards Real-time Adaptive Anisotropic Image-to-mesh Conversion for\n  Vascular Flow Simulations",
+  "authors": "Kevin Garner, Fotis Drakopoulos, Chander Sadasivan and Nikos\n  Chrisochoides",
+  "authorsParsed": [
+    [
+      "Garner",
+      "Kevin",
+      ""
+    ],
+    [
+      "Drakopoulos",
+      "Fotis",
+      ""
+    ],
+    [
+      "Sadasivan",
+      "Chander",
+      ""
+    ],
+    [
+      "Chrisochoides",
+      "Nikos",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 16 Dec 2024 18:51:22 GMT"
+    }
+  ],
+  "updateDate": "2024-12-19",
+  "timestamp": 1734375082000,
+  "abstract": "  Presented is a path towards a fast and robust adaptive anisotropic mesh\ngeneration method that is designed to help streamline the discretization of\ncomplex vascular geometries within the Computational Fluid Dynamics (CFD)\nmodeling process. The proposed method combines multiple software tools into a\nsingle pipeline to provide the following: (1) image-to-mesh conversion which\nsatisfies quality, fidelity, and smoothness requirements, (2) the generation of\na boundary layer grid over the high fidelity surface, (3) a parallel adaptive\nanisotropic meshing procedure which satisfies real-time requirements, and (4)\nrobustness, which is satisfied by the pipeline's ability to process segmented\nimages and CAD models. The proposed approach is tested with two brain aneurysm\ncases and is shown to satisfy all the aforementioned requirements. The next\nsteps are to fully parallelize the remaining components of the pipeline to\nmaximize potential performance and to test its integration within a CFD\nvascular flow simulation. Just as the parallel anisotropic adaptation procedure\nwas tested within aerospace CFD simulations using CAD models, the method is\nexpected to provide accurate results for CFD vascular flow simulations in\nreal-time when executed on multicore cc-NUMA architectures.\n",
+  "subjects": [
+    "Physics/Fluid Dynamics",
+    "Computer Science/Distributed, Parallel, and Cluster Computing",
+    "Computer Science/Graphics",
+    "Computer Science/Mathematical Software",
+    "Computer Science/Numerical Analysis",
+    "Mathematics/Numerical Analysis"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "FDr_KzsqErmSXXXTP1pOssG_xR3KtO6AqJ_8qwduBac",
+  "pdfSize": "12986210"
+}

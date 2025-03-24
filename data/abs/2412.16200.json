@@ -1,0 +1,39 @@
+{
+  "id": "2412.16200",
+  "title": "Robust Spectral Anomaly Detection in EELS Spectral Images via Three\n  Dimensional Convolutional Variational Autoencoders",
+  "authors": "Seyfal Sultanov, James P Buban, Robert F Klie",
+  "authorsParsed": [
+    [
+      "Sultanov",
+      "Seyfal",
+      ""
+    ],
+    [
+      "Buban",
+      "James P",
+      ""
+    ],
+    [
+      "Klie",
+      "Robert F",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 16 Dec 2024 23:55:08 GMT"
+    }
+  ],
+  "updateDate": "2024-12-24",
+  "timestamp": 1734393308000,
+  "abstract": "  We introduce a Three-Dimensional Convolutional Variational Autoencoder\n(3D-CVAE) for automated anomaly detection in Electron Energy Loss Spectroscopy\nSpectrum Imaging (EELS-SI) data. Our approach leverages the full\nthree-dimensional structure of EELS-SI data to detect subtle spectral anomalies\nwhile preserving both spatial and spectral correlations across the datacube. By\nemploying negative log-likelihood loss and training on bulk spectra, the model\nlearns to reconstruct bulk features characteristic of the defect-free material.\nIn exploring methods for anomaly detection, we evaluated both our 3D-CVAE\napproach and Principal Component Analysis (PCA), testing their performance\nusing Fe L-edge peak shifts designed to simulate material defects. Our results\nshow that 3D-CVAE achieves superior anomaly detection and maintains consistent\nperformance across various shift magnitudes. The method demonstrates clear\nbimodal separation between normal and anomalous spectra, enabling reliable\nclassification. Further analysis verifies that lower dimensional\nrepresentations are robust to anomalies in the data. While performance\nadvantages over PCA diminish with decreasing anomaly concentration, our method\nmaintains high reconstruction quality even in challenging, noise-dominated\nspectral regions. This approach provides a robust framework for unsupervised\nautomated detection of spectral anomalies in EELS-SI data, particularly\nvaluable for analyzing complex material systems.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Condensed Matter/Materials Science",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "1C4pLnMIbewZ8u5RFf3rBGOIVJRvJMO0V1yZVb0zRXo",
+  "pdfSize": "1359148"
+}

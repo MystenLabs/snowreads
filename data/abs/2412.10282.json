@@ -1,0 +1,32 @@
+{
+  "id": "2412.10282",
+  "title": "A model-based approach for transforming InSAR-derived vertical land\n  motion from a local to a global reference frame",
+  "authors": "Mahmoud Reshadati, Manoochehr Shirzaei",
+  "authorsParsed": [
+    [
+      "Reshadati",
+      "Mahmoud",
+      ""
+    ],
+    [
+      "Shirzaei",
+      "Manoochehr",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 13 Dec 2024 17:06:46 GMT"
+    }
+  ],
+  "updateDate": "2024-12-16",
+  "timestamp": 1734109606000,
+  "abstract": "  Vertical land motion (VLM) observations obtained from Interferometric\nSynthetic Aperture Radar (InSAR) have transformed our understanding of crustal\ndeformation processes over the past 3 decades. However, these observations are\noften related to a local reference frame, posing challenges for studies that\nrequire large-scale observations within a global reference frame, such as\nassessments of relative sea level rise and associated hazards. Here, we present\na novel approach that enables transforming InSAR-derived VLM at any location\nworldwide to a global (e.g., International Terrestrial Reference Frame)\nreference frame without a direct need for GNSS (Global Navigation Satellite\nSystem) measurements. To this end, we employ a coarse resolution model of\nglobal VLM obtained by interpolating rates of all available GNSS stations over\nthe global land areas. Our rationale is that the high-resolution InSAR-derived\nVLM data do not capture the long-wavelength signals present in the global VLM\nmodel. Therefore, we employ a set of 2D polynomial models to evaluate the\ndifference between InSAR-derived VLM and the global model and then add it back\nto the InSAR-derived VLM. We examined the validity of our rationale using\nnormalized power spectrum analysis and tested the effect of polynomial order on\nthe accuracy of transformed VLM and the overall success of our approach using\ntwo datasets from Los Angeles and New York City. This approach improves the\nusability of InSAR-derived VLM in geophysical applications, including\nmonitoring regional land subsidence.\n",
+  "subjects": [
+    "Electrical Engineering and Systems Science/Signal Processing"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "tliwyVm8sZR5iGFrkfxiLjJoG1ZyFSn-6qWsPwDolSU",
+  "pdfSize": "2558011"
+}

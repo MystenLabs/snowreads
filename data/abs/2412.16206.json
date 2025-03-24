@@ -1,0 +1,27 @@
+{
+  "id": "2412.16206",
+  "title": "Information Aware Type Systems and Telescopic Constraint Trees",
+  "authors": "Philippa Cowderoy",
+  "authorsParsed": [
+    [
+      "Cowderoy",
+      "Philippa",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 17 Dec 2024 16:09:28 GMT"
+    }
+  ],
+  "updateDate": "2024-12-24",
+  "timestamp": 1734451768000,
+  "abstract": "  Can we use the flow of information to understand type systems? I present two\nfamiliar type systems in pursuit of an `Information Aware' style, using\ninformation effects to reveal data flow and help in implementing them. I also\ncalculate a general, scoped, constraint-based representation of typechecking\nproblems from the typing rules.\n",
+  "subjects": [
+    "Computer Science/Programming Languages"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "dWMRmPCr6O_r3m7UisnLegjiOJG7BNufts6iEyvKqd0",
+  "pdfSize": "81555"
+}

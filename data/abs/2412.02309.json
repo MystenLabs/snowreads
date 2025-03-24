@@ -1,0 +1,61 @@
+{
+  "id": "2412.02309",
+  "title": "An enhanced single Gaussian point continuum finite element formulation\n  using automatic differentiation",
+  "authors": "Njomza Pacolli and Ahmad Awad and Jannick Kehls and Bjorn Sauren and\n  Sven Klinkel and Stefanie Reese and Hagen Holthusen",
+  "authorsParsed": [
+    [
+      "Pacolli",
+      "Njomza",
+      ""
+    ],
+    [
+      "Awad",
+      "Ahmad",
+      ""
+    ],
+    [
+      "Kehls",
+      "Jannick",
+      ""
+    ],
+    [
+      "Sauren",
+      "Bjorn",
+      ""
+    ],
+    [
+      "Klinkel",
+      "Sven",
+      ""
+    ],
+    [
+      "Reese",
+      "Stefanie",
+      ""
+    ],
+    [
+      "Holthusen",
+      "Hagen",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 3 Dec 2024 09:26:15 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Thu, 20 Feb 2025 08:36:55 GMT"
+    }
+  ],
+  "updateDate": "2025-02-21",
+  "timestamp": 1733217975000,
+  "abstract": "  This contribution presents an improved low-order 3D finite element\nformulation with hourglass stabilization using automatic differentiation (AD).\nHere, the former Q1STc formulation is enhanced by an approximation-free\ncomputation of the inverse Jacobian. To this end, AD tools automate the\ncomputation and allow a direct evaluation of the inverse Jacobian, bypassing\nthe need for a Taylor series expansion. Thus, the enhanced version, Q1STc+, is\nintroduced. Numerical examples are conducted to compare the performance of both\nelement formulations for finite strain applications, with particular focus on\ndistorted meshes. Moreover, the performance of the new element formulation for\nan elasto-plastic material is investigated. To validate the obtained results, a\nvolumetric locking-free element based on scaled boundary parametrization is\nused. Both the implementation of the element routine Q1STc+ and the\ncorresponding material subroutine are made accessible to the public at\nhttps://doi.org/10.5281/zenodo.14259791\n",
+  "subjects": [
+    "Computer Science/Computational Engineering, Finance, and Science"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "Zr4yLMNHbxzStL6TAAALAn29fbSGkdLz9NPIPIEDAys",
+  "pdfSize": "6816883"
+}

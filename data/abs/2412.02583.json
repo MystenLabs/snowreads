@@ -1,0 +1,42 @@
+{
+  "id": "2412.02583",
+  "title": "Turbulent boundary development over an air cavity",
+  "authors": "Abhirath Anand, Lina Nikolaidou, Christian Poelma, Angeliki Laskari",
+  "authorsParsed": [
+    [
+      "Anand",
+      "Abhirath",
+      ""
+    ],
+    [
+      "Nikolaidou",
+      "Lina",
+      ""
+    ],
+    [
+      "Poelma",
+      "Christian",
+      ""
+    ],
+    [
+      "Laskari",
+      "Angeliki",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 3 Dec 2024 17:10:29 GMT"
+    }
+  ],
+  "updateDate": "2024-12-04",
+  "timestamp": 1733245829000,
+  "abstract": "  The turbulent boundary layer (TBL) development over an air cavity is\nexperimentally studied using planar particle image velocimetry. The present\nflow, representative of those typically encountered in ship air lubrication,\nresembles the geometrical characteristics of flows over solid bumps studied in\nliterature. However, unlike solid bumps, the cavity has a variable geometry\ninherent to its dynamic nature. An identification technique based on\nthresholding of correlation values from particle image correlations is employed\nto detect the cavity. The TBL does not separate at the leeward side of the\ncavity owing to a high boundary layer thickness to maximum cavity thickness\nratio ($\\delta/t_{max}=12$). As a consequence of the cavity geometry, the TBL\nis subjected to alternating streamwise pressure gradients: from an adverse\npressure gradient (APG) to a favourable pressure gradient and back to an APG.\nThe mean streamwise velocity and turbulence stresses over the cavity show that\nthe streamwise pressure gradients and air injection are the dominant\nperturbations to the flow, with streamline curvature concluded to be marginal.\nTwo-point correlations of the wall-normal velocity reveal an increased coherent\nextent over the cavity and a local anisotropy in regions under an APG, distinct\nfrom traditional APG TBLs, suggesting possible history effects.\n",
+  "subjects": [
+    "Physics/Fluid Dynamics"
+  ],
+  "license": "http://creativecommons.org/licenses/by-sa/4.0/",
+  "blobId": "oiIDZyRc7y8FxJzwlSpAG7nYOIO2CUSNAyQsWdsNWlQ",
+  "pdfSize": "7892948"
+}

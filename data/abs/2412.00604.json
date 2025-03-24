@@ -1,0 +1,43 @@
+{
+  "id": "2412.00604",
+  "title": "Windowing Regularization Techniques for Unsteady Aerodynamic Shape\n  Optimization",
+  "authors": "Steffen Schotth\\\"ofer, Beckett Y. Zhou, Tim Albring and Nicolas R.\n  Gauger",
+  "authorsParsed": [
+    [
+      "Schotthöfer",
+      "Steffen",
+      ""
+    ],
+    [
+      "Zhou",
+      "Beckett Y.",
+      ""
+    ],
+    [
+      "Albring",
+      "Tim",
+      ""
+    ],
+    [
+      "Gauger",
+      "Nicolas R.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 30 Nov 2024 22:41:20 GMT"
+    }
+  ],
+  "updateDate": "2024-12-03",
+  "timestamp": 1733006480000,
+  "abstract": "  Unsteady Aerodynamic Shape Optimization presents new challenges in terms of\nsensitivity analysis of time-dependent objective functions. In this work, we\nconsider periodic unsteady flows governed by the URANS equations. Hence, the\nresulting output functions acting as objective or constraint functions of the\noptimization are themselves periodic with unknown period length, that may\ndepend on the design parameter of said optimization. Sensitivity Analysis on\nthe time-average of a function with these properties turns out to be difficult.\nTherefore, we explore methods to regularize the time average of such a function\nwith the so called windowing-approach. Furthermore, we embed these regularizers\ninto the discrete adjoint solver for the URANS equations of the multi-physics\nand optimization software SU2. Finally, we exhibit a comparison study between\nthe classical non regularized optimization procedure and the ones enhanced with\nregularizers of different smoothness and show that the latter result in a more\nrobust optimization.\n",
+  "subjects": [
+    "Mathematics/Numerical Analysis",
+    "Computer Science/Numerical Analysis"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "OYNME7axuEBO-IcTfqXBiptX7BpCYRISorNvsf7Hq5U",
+  "pdfSize": "2668315"
+}

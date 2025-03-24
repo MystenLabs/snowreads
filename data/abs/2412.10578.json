@@ -1,0 +1,43 @@
+{
+  "id": "2412.10578",
+  "title": "CESAR: A Convolutional Echo State AutoencodeR for High-Resolution Wind\n  Forecasting",
+  "authors": "Matthew Bonas, Paolo Giani, Paola Crippa and Stefano Castruccio",
+  "authorsParsed": [
+    [
+      "Bonas",
+      "Matthew",
+      ""
+    ],
+    [
+      "Giani",
+      "Paolo",
+      ""
+    ],
+    [
+      "Crippa",
+      "Paola",
+      ""
+    ],
+    [
+      "Castruccio",
+      "Stefano",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 13 Dec 2024 21:41:59 GMT"
+    }
+  ],
+  "updateDate": "2024-12-17",
+  "timestamp": 1734126119000,
+  "abstract": "  An accurate and timely assessment of wind speed and energy output allows an\nefficient planning and management of this resource on the power grid. Wind\nenergy, especially at high resolution, calls for the development of nonlinear\nstatistical models able to capture complex dependencies in space and time. This\nwork introduces a Convolutional Echo State AutoencodeR (CESAR), a\nspatio-temporal, neural network-based model which first extracts the spatial\nfeatures with a deep convolutional autoencoder, and then models their dynamics\nwith an echo state network. We also propose a two-step approach to also allow\nfor computationally affordable inference, while also performing uncertainty\nquantification. We focus on a high-resolution simulation in Riyadh (Saudi\nArabia), an area where wind farm planning is currently ongoing, and show how\nCESAR is able to provide improved forecasting of wind speed and power for\nproposed building sites by up to 17% against the best alternative methods.\n",
+  "subjects": [
+    "Statistics/Applications",
+    "Statistics/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "fTPIsCK8rG20P9rM0S_tmkLz3rZjkUIIk9DtY2qlqHI",
+  "pdfSize": "2160873"
+}

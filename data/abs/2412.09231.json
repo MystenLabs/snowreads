@@ -1,0 +1,42 @@
+{
+  "id": "2412.09231",
+  "title": "Versatile Volumetric Medical Image Coding for Human-Machine Vision",
+  "authors": "Jietao Chen, Weijie Chen, Qianjian Xing, Feng Yu",
+  "authorsParsed": [
+    [
+      "Chen",
+      "Jietao",
+      ""
+    ],
+    [
+      "Chen",
+      "Weijie",
+      ""
+    ],
+    [
+      "Xing",
+      "Qianjian",
+      ""
+    ],
+    [
+      "Yu",
+      "Feng",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 12 Dec 2024 12:42:57 GMT"
+    }
+  ],
+  "updateDate": "2024-12-13",
+  "timestamp": 1734007377000,
+  "abstract": "  Neural image compression (NIC) has received considerable attention due to its\nsignificant advantages in feature representation and data optimization.\nHowever, most existing NIC methods for volumetric medical images focus solely\non improving human-oriented perception. For these methods, data need to be\ndecoded back to pixels for downstream machine learning analytics, which is a\nprocess that lowers the efficiency of diagnosis and treatment in modern digital\nhealthcare scenarios. In this paper, we propose a Versatile Volumetric Medical\nImage Coding (VVMIC) framework for both human and machine vision, enabling\nvarious analytics of coded representations directly without decoding them into\npixels. Considering the specific three-dimensional structure distinguished from\nnatural frame images, a Versatile Volumetric Autoencoder (VVAE) module is\ncrafted to learn the inter-slice latent representations to enhance the\nexpressiveness of the current-slice latent representations, and to produce\nintermediate decoding features for downstream reconstruction and segmentation\ntasks. To further improve coding performance, a multi-dimensional context model\nis assembled by aggregating the inter-slice latent context with the\nspatial-channel context and the hierarchical hypercontext. Experimental results\nshow that our VVMIC framework maintains high-quality image reconstruction for\nhuman vision while achieving accurate segmentation results for machine-vision\ntasks compared to a number of reported traditional and neural methods.\n",
+  "subjects": [
+    "Electrical Engineering and Systems Science/Image and Video Processing"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "4vdVWRwDj997iPqnRhcueKt4hXhZWpb2BDLqD7qOrmk",
+  "pdfSize": "2068484"
+}

@@ -1,0 +1,48 @@
+{
+  "id": "2412.04692",
+  "title": "Smoothie: Label Free Language Model Routing",
+  "authors": "Neel Guha, Mayee F. Chen, Trevor Chow, Ishan S. Khare, Christopher\n  R\\'e",
+  "authorsParsed": [
+    [
+      "Guha",
+      "Neel",
+      ""
+    ],
+    [
+      "Chen",
+      "Mayee F.",
+      ""
+    ],
+    [
+      "Chow",
+      "Trevor",
+      ""
+    ],
+    [
+      "Khare",
+      "Ishan S.",
+      ""
+    ],
+    [
+      "Ré",
+      "Christopher",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 6 Dec 2024 01:06:37 GMT"
+    }
+  ],
+  "updateDate": "2024-12-09",
+  "timestamp": 1733447197000,
+  "abstract": "  Large language models (LLMs) are increasingly used in applications where LLM\ninputs may span many different tasks. Recent work has found that the choice of\nLLM is consequential, and different LLMs may be good for different input\nsamples. Prior approaches have thus explored how engineers might select an LLM\nto use for each sample (i.e. routing). While existing routing methods mostly\nrequire training auxiliary models on human-annotated data, our work explores\nwhether it is possible to perform unsupervised routing. We propose Smoothie, a\nweak supervision-inspired routing approach that requires no labeled data. Given\na set of outputs from different LLMs, Smoothie constructs a latent variable\ngraphical model over embedding representations of observable LLM outputs and\nunknown \"true\" outputs. Using this graphical model, we estimate\nsample-dependent quality scores for each LLM, and route each sample to the LLM\nwith the highest corresponding score. We find that Smoothie's LLM\nquality-scores correlate with ground-truth model quality (correctly identifying\nthe optimal model on 9/14 tasks), and that Smoothie outperforms baselines for\nrouting by up to 10 points accuracy.\n",
+  "subjects": [
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "4kqybfwycC2kiEDopockRycuEeN3owxqVGpkhDKN90g",
+  "pdfSize": "5005055"
+}

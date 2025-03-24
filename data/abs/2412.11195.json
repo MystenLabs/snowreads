@@ -1,0 +1,47 @@
+{
+  "id": "2412.11195",
+  "title": "Deterministic Even-Cycle Detection in Broadcast CONGEST",
+  "authors": "Pierre Fraigniaud, Ma\\\"el Luce, Fr\\'ed\\'eric Magniez and Ioan Todinca",
+  "authorsParsed": [
+    [
+      "Fraigniaud",
+      "Pierre",
+      ""
+    ],
+    [
+      "Luce",
+      "Maël",
+      ""
+    ],
+    [
+      "Magniez",
+      "Frédéric",
+      ""
+    ],
+    [
+      "Todinca",
+      "Ioan",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 15 Dec 2024 14:13:46 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Wed, 12 Feb 2025 13:45:20 GMT"
+    }
+  ],
+  "updateDate": "2025-02-13",
+  "timestamp": 1734272026000,
+  "abstract": "  We show that, for every $k\\geq 2$, $C_{2k}$-freeness can be decided in\n$O(n^{1-1/k})$ rounds in the Broadcast CONGEST model, by a deterministic\nalgorithm. This (deterministic) round-complexity is optimal for $k=2$ up to\nlogarithmic factors thanks to the lower bound for $C_4$-freeness by Drucker et\nal. [PODC 2014], which holds even for randomized algorithms. Moreover it\nmatches the round-complexity of the best known randomized algorithms by\nCensor-Hillel et al. [DISC 2020] for $k\\in\\{3,4,5\\}$, and by Fraigniaud et al.\n[PODC 2024] for $k\\geq 6$. Our algorithm uses parallel BFS-explorations with\ndeterministic selections of the set of paths that are forwarded at each round,\nin a way similar to what was done for the detection of odd-length cycles, by\nKorhonen and Rybicki [OPODIS 2017]. However, the key element in the design and\nanalysis of our algorithm is a new combinatorial result bounding the \"local\ndensity\" of graphs without $2k$-cycles, which we believe is interesting on its\nown.\n",
+  "subjects": [
+    "Computer Science/Distributed, Parallel, and Cluster Computing",
+    "Computer Science/Data Structures and Algorithms"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "ShITmFWeV80EbkkQ0-DGDYyAcU-nc0N4Ruz7z3kCXOo",
+  "pdfSize": "1280584"
+}

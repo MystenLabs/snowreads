@@ -1,0 +1,42 @@
+{
+  "id": "2412.04349",
+  "title": "VMGuard: Reputation-Based Incentive Mechanism for Poisoning Attack\n  Detection in Vehicular Metaverse",
+  "authors": "Ismail Lotfi, Marwa Qaraqe, Ali Ghrayeb and Dusit Niyato",
+  "authorsParsed": [
+    [
+      "Lotfi",
+      "Ismail",
+      ""
+    ],
+    [
+      "Qaraqe",
+      "Marwa",
+      ""
+    ],
+    [
+      "Ghrayeb",
+      "Ali",
+      ""
+    ],
+    [
+      "Niyato",
+      "Dusit",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 5 Dec 2024 17:08:20 GMT"
+    }
+  ],
+  "updateDate": "2024-12-06",
+  "timestamp": 1733418500000,
+  "abstract": "  The vehicular Metaverse represents an emerging paradigm that merges vehicular\ncommunications with virtual environments, integrating real-world data to\nenhance in-vehicle services. However, this integration faces critical security\nchallenges, particularly in the data collection layer where malicious sensing\nIoT (SIoT) devices can compromise service quality through data poisoning\nattacks. The security aspects of the Metaverse services should be well\naddressed both when creating the digital twins of the physical systems and when\ndelivering the virtual service to the vehicular Metaverse users (VMUs). This\npaper introduces vehicular Metaverse guard (VMGuard), a novel four-layer\nsecurity framework that protects vehicular Metaverse systems from data\npoisoning attacks. Specifically, when the virtual service providers (VSPs)\ncollect data about physical environment through SIoT devices in the field, the\ndelivered content might be tampered. Malicious SIoT devices with moral hazard\nmight have private incentives to provide poisoned data to the VSP to degrade\nthe service quality (QoS) and user experience (QoE) of the VMUs. The proposed\nframework implements a reputation-based incentive mechanism that leverages user\nfeedback and subjective logic modeling to assess the trustworthiness of\nparticipating SIoT devices. More precisely, the framework entails the use of\nreputation scores assigned to participating SIoT devices based on their\nhistorical engagements with the VSPs. Ultimately, we validate our proposed\nmodel using comprehensive simulations. Our key findings indicate that our\nmechanism effectively prevents the initiation of poisoning attacks by malicious\nSIoT devices. Additionally, our system ensures that reliable SIoT devices,\npreviously missclassified, are not barred from participating in future rounds\nof the market.\n",
+  "subjects": [
+    "Computer Science/Cryptography and Security"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "5ooO2zlS_ourbPEQO7FB7fl47Noho-6AU79gBK7m1y4",
+  "pdfSize": "1112770"
+}

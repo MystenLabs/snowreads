@@ -1,0 +1,32 @@
+{
+  "id": "2412.09630",
+  "title": "What does AI consider praiseworthy?",
+  "authors": "Andrew J. Peterson",
+  "authorsParsed": [
+    [
+      "Peterson",
+      "Andrew J.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 27 Nov 2024 15:46:54 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Mon, 24 Feb 2025 16:35:22 GMT"
+    }
+  ],
+  "updateDate": "2025-02-25",
+  "timestamp": 1732722414000,
+  "abstract": "  As large language models (LLMs) are increasingly used for work, personal, and\ntherapeutic purposes, researchers have begun to investigate these models'\nimplicit and explicit moral views. Previous work, however, focuses on asking\nLLMs to state opinions, or on other technical evaluations that do not reflect\ncommon user interactions. We propose a novel evaluation of LLM behavior that\nanalyzes responses to user-stated intentions, such as \"I'm thinking of\ncampaigning for {candidate}.\" LLMs frequently respond with critiques or praise,\noften beginning responses with phrases such as \"That's great to hear!...\" While\nthis makes them friendly, these praise responses are not universal and thus\nreflect a normative stance by the LLM. We map out the moral landscape of LLMs\nin how they respond to user statements in different domains including politics\nand everyday ethical actions. In particular, although a na\\\"ive analysis might\nsuggest LLMs are biased against right-leaning politics, our findings on news\nsources indicate that trustworthiness is a stronger driver of praise and\ncritique than ideology. Second, we find strong alignment across models in\nresponse to ethically-relevant action statements, but that doing so requires\nthem to engage in high levels of praise and critique of users, suggesting a\nreticence-alignment tradeoff. Finally, our experiment on statements about world\nleaders finds no evidence of bias favoring the country of origin of the models.\nWe conclude that as AI systems become more integrated into society, their\npatterns of praise, critique, and neutrality must be carefully monitored to\nprevent unintended psychological and societal consequences.\n",
+  "subjects": [
+    "Computer Science/Computers and Society",
+    "Computer Science/Human-Computer Interaction"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "ZfNVJq2JVz8cSTkSqKohMO0FMcDddDMpDiO4VXlFh3g",
+  "pdfSize": "5437902"
+}

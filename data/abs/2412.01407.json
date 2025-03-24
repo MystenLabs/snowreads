@@ -1,0 +1,66 @@
+{
+  "id": "2412.01407",
+  "title": "HoloDrive: Holistic 2D-3D Multi-Modal Street Scene Generation for\n  Autonomous Driving",
+  "authors": "Zehuan Wu, Jingcheng Ni, Xiaodong Wang, Yuxin Guo, Rui Chen, Lewei Lu,\n  Jifeng Dai, Yuwen Xiong",
+  "authorsParsed": [
+    [
+      "Wu",
+      "Zehuan",
+      ""
+    ],
+    [
+      "Ni",
+      "Jingcheng",
+      ""
+    ],
+    [
+      "Wang",
+      "Xiaodong",
+      ""
+    ],
+    [
+      "Guo",
+      "Yuxin",
+      ""
+    ],
+    [
+      "Chen",
+      "Rui",
+      ""
+    ],
+    [
+      "Lu",
+      "Lewei",
+      ""
+    ],
+    [
+      "Dai",
+      "Jifeng",
+      ""
+    ],
+    [
+      "Xiong",
+      "Yuwen",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 2 Dec 2024 11:50:35 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Tue, 3 Dec 2024 13:14:39 GMT"
+    }
+  ],
+  "updateDate": "2024-12-04",
+  "timestamp": 1733140235000,
+  "abstract": "  Generative models have significantly improved the generation and prediction\nquality on either camera images or LiDAR point clouds for autonomous driving.\nHowever, a real-world autonomous driving system uses multiple kinds of input\nmodality, usually cameras and LiDARs, where they contain complementary\ninformation for generation, while existing generation methods ignore this\ncrucial feature, resulting in the generated results only covering separate 2D\nor 3D information. In order to fill the gap in 2D-3D multi-modal joint\ngeneration for autonomous driving, in this paper, we propose our framework,\n\\emph{HoloDrive}, to jointly generate the camera images and LiDAR point clouds.\nWe employ BEV-to-Camera and Camera-to-BEV transform modules between\nheterogeneous generative models, and introduce a depth prediction branch in the\n2D generative model to disambiguate the un-projecting from image space to BEV\nspace, then extend the method to predict the future by adding temporal\nstructure and carefully designed progressive training. Further, we conduct\nexperiments on single frame generation and world model benchmarks, and\ndemonstrate our method leads to significant performance gains over SOTA methods\nin terms of generation metrics.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "GcZfLkZFC7_xFn_xs6YEx6EN1H0nkAdoupbY3AzNg18",
+  "pdfSize": "17049940"
+}

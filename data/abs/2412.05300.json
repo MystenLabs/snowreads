@@ -1,0 +1,32 @@
+{
+  "id": "2412.05300",
+  "title": "AD-HOC: A C++ Expression Template package for high-order derivatives\n  backpropagation",
+  "authors": "Juan Lucas Rey",
+  "authorsParsed": [
+    [
+      "Rey",
+      "Juan Lucas",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 25 Nov 2024 10:24:29 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Wed, 11 Dec 2024 21:56:35 GMT"
+    }
+  ],
+  "updateDate": "2024-12-13",
+  "timestamp": 1732530269000,
+  "abstract": "  This document presents a new C++ Automatic Differentiation (AD) tool, AD-HOC\n(Automatic Differentiation for High-Order Calculations). This tool aims to have\nthe following features: -Calculation of user specified derivatives of arbitrary\norder -To be able to run with similar speeds as handwritten code -All\nderivatives calculations are computed in a single backpropagation tree pass -No\nsource code generation is used, relying heavily on the C++ compiler to\nstatically build the computation tree before runtime -A simple interface -The\nability to be used \\textit{in conjunction} with other established,\ngeneral-purpose dynamic AD tools -Header-only library, with no external\ndependencies -Open source, with a business-friendly license\n",
+  "subjects": [
+    "Computer Science/Mathematical Software",
+    "Quantitative Finance/Computational Finance"
+  ],
+  "license": "http://creativecommons.org/licenses/by-sa/4.0/",
+  "blobId": "Ls7N2HfzJ9J8nJMUM6kcNzj9AfLFIuVMvpCyQnnjETc",
+  "pdfSize": "219807"
+}

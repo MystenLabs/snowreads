@@ -1,0 +1,53 @@
+{
+  "id": "2412.09329",
+  "title": "Towards Open-Vocabulary Video Semantic Segmentation",
+  "authors": "Xinhao Li, Yun Liu, Guolei Sun, Min Wu, Le Zhang, Ce Zhu",
+  "authorsParsed": [
+    [
+      "Li",
+      "Xinhao",
+      ""
+    ],
+    [
+      "Liu",
+      "Yun",
+      ""
+    ],
+    [
+      "Sun",
+      "Guolei",
+      ""
+    ],
+    [
+      "Wu",
+      "Min",
+      ""
+    ],
+    [
+      "Zhang",
+      "Le",
+      ""
+    ],
+    [
+      "Zhu",
+      "Ce",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 12 Dec 2024 14:53:16 GMT"
+    }
+  ],
+  "updateDate": "2024-12-13",
+  "timestamp": 1734015196000,
+  "abstract": "  Semantic segmentation in videos has been a focal point of recent research.\nHowever, existing models encounter challenges when faced with unfamiliar\ncategories. To address this, we introduce the Open Vocabulary Video Semantic\nSegmentation (OV-VSS) task, designed to accurately segment every pixel across a\nwide range of open-vocabulary categories, including those that are novel or\npreviously unexplored. To enhance OV-VSS performance, we propose a robust\nbaseline, OV2VSS, which integrates a spatial-temporal fusion module, allowing\nthe model to utilize temporal relationships across consecutive frames.\nAdditionally, we incorporate a random frame enhancement module, broadening the\nmodel's understanding of semantic context throughout the entire video sequence.\nOur approach also includes video text encoding, which strengthens the model's\ncapability to interpret textual information within the video context.\nComprehensive evaluations on benchmark datasets such as VSPW and Cityscapes\nhighlight OV-VSS's zero-shot generalization capabilities, especially in\nhandling novel categories. The results validate OV2VSS's effectiveness,\ndemonstrating improved performance in semantic segmentation tasks across\ndiverse video datasets.\n",
+  "subjects": [
+    "Computer Science/Multimedia",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "5DFfIzBEa-DF5_0MRqvk6VhEqPBLnkW33B3Aru4lZtc",
+  "pdfSize": "4667369"
+}

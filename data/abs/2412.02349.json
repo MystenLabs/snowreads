@@ -1,0 +1,32 @@
+{
+  "id": "2412.02349",
+  "title": "CTRAPS: CTAP Client Impersonation and API Confusion on FIDO2",
+  "authors": "Marco Casagrande and Daniele Antonioli",
+  "authorsParsed": [
+    [
+      "Casagrande",
+      "Marco",
+      ""
+    ],
+    [
+      "Antonioli",
+      "Daniele",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 3 Dec 2024 10:11:41 GMT"
+    }
+  ],
+  "updateDate": "2024-12-04",
+  "timestamp": 1733220701000,
+  "abstract": "  FIDO2 is the standard technology for single-factor and second-factor\nauthentication. It is specified in an open standard, including the WebAuthn and\nCTAP application layer protocols. We focus on CTAP, which allows FIDO2 clients\nand hardware authenticators to communicate. No prior work has explored the CTAP\nAuthenticator API, a critical protocol-level attack surface. We address this\ngap by presenting the first security and privacy evaluation of the CTAP\nAuthenticator API.\n  We uncover two classes of protocol-level attacks on CTAP that we call CTRAPS.\nThe client impersonation (CI) attacks exploit the lack of client authentication\nto tamper with FIDO2 authenticators. They include zero-click attacks capable of\ndeleting FIDO2 credentials, including passkeys, without user interaction. The\nAPI confusion (AC) attacks abuse the lack of protocol API enforcements and\nconfound FIDO2 authenticators, clients, and unaware users into calling unwanted\nCTAP APIs while thinking they are calling legitimate ones. The presented eleven\nattacks are conducted either in proximity or remotely and are effective\nregardless of the underlying CTAP transport. We detail the eight\nvulnerabilities in the CTAP specification, enabling the CTRAPS attacks. Six are\nnovel and include unauthenticated CTAP clients and trackable FIDO2 credentials.\nWe release CTRAPS, an original toolkit, to analyze CTAP and conduct the CTRAPS\nattacks. We confirm the attacks practicality on a large scale by exploiting six\npopular authenticators, including a FIPS-certified one from Yubico, Feitian,\nSoloKeys, and Google, and ten widely used relying parties, such as Microsoft,\nApple, GitHub, and Facebook. We present eight practical and backward-compliant\ncountermeasures to fix the attacks and their root causes. We responsibly\ndisclosed our findings to the FIDO alliance and the affected vendors.\n",
+  "subjects": [
+    "Computer Science/Cryptography and Security"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "1R_I1ui4mxX03viyriPSEDRd7I2Y4GHWjRLGTjN5SyY",
+  "pdfSize": "706383"
+}

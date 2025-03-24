@@ -1,0 +1,43 @@
+{
+  "id": "2412.09269",
+  "title": "Towards Understanding the Robustness of LLM-based Evaluations under\n  Perturbations",
+  "authors": "Manav Chaudhary, Harshit Gupta, Savita Bhat, Vasudeva Varma",
+  "authorsParsed": [
+    [
+      "Chaudhary",
+      "Manav",
+      ""
+    ],
+    [
+      "Gupta",
+      "Harshit",
+      ""
+    ],
+    [
+      "Bhat",
+      "Savita",
+      ""
+    ],
+    [
+      "Varma",
+      "Vasudeva",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 12 Dec 2024 13:31:58 GMT"
+    }
+  ],
+  "updateDate": "2024-12-13",
+  "timestamp": 1734010318000,
+  "abstract": "  Traditional evaluation metrics like BLEU and ROUGE fall short when capturing\nthe nuanced qualities of generated text, particularly when there is no single\nground truth. In this paper, we explore the potential of Large Language Models\n(LLMs), specifically Google Gemini 1, to serve as automatic evaluators for\nnon-standardized metrics in summarization and dialog-based tasks. We conduct\nexperiments across multiple prompting strategies to examine how LLMs fare as\nquality evaluators when compared with human judgments on the SummEval and USR\ndatasets, asking the model to generate both a score as well as a justification\nfor the score. Furthermore, we explore the robustness of the LLM evaluator by\nusing perturbed inputs. Our findings suggest that while LLMs show promise,\ntheir alignment with human evaluators is limited, they are not robust against\nperturbations and significant improvements are required for their standalone\nuse as reliable evaluators for subjective metrics.\n",
+  "subjects": [
+    "Computer Science/Computation and Language",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "ox6ZFUBxFmZcKRK6Y9KzmltLTds5njJKzeDVGy_jyIM",
+  "pdfSize": "250203"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2412.09371",
+  "title": "Inhomogeneous SU(2) symmetries in homogeneous integrable U(1) circuits\n  and transport",
+  "authors": "Marko Znidaric",
+  "authorsParsed": [
+    [
+      "Znidaric",
+      "Marko",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 12 Dec 2024 15:39:01 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Tue, 17 Dec 2024 10:10:39 GMT"
+    }
+  ],
+  "updateDate": "2024-12-19",
+  "timestamp": 1734017941000,
+  "abstract": "  We study symmetries of quantum circuits with nearest-neighbor U(1) gates\ndiscovering new inhomogeneous screw SU(2) and ${\\rm U}_q({\\rm sl}_2)$\nsymmetries. Despite the model being homogeneous -- all gates are the same --\nsymmetry generators are not. Rather, they exhibit an even-odd staggering and a\nnonzero quasi-momentum, and depend on gate parameters. Such parameter-dependent\nsymmetries can be identified by the Ruelle-Pollicott spectrum of a\nmomentum-resolved truncated propagator. They can be thought of as a\ngeneralization of the standard SU(2) symmetry of the XXZ model that uppon\nintroducing the staggered field splits into a local SU(2) symmetry and a\nnon-local ${\\rm U}_q({\\rm sl}_2)$. Picking an arbitrary U(1) gate and varying\nthe gate duration one will transition through different phases: fractal\nballistic transport, Kardar-Parisi-Zhang superdiffusion at the critical\nmanifold including superdiffusive helix states, and diffusion within which\nthere is also localization. To correctly explain transport the non-local SU(2)\nsymmetries do not matter, while the inhomogeneous local ones that almost\ncommute with the propagator do.\n",
+  "subjects": [
+    "Physics/Quantum Physics",
+    "Condensed Matter/Strongly Correlated Electrons",
+    "Nonlinear Sciences/Exactly Solvable and Integrable Systems"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "ED-zojwAHjXfVpT9x6gbzPI8lLtIBH3Fgx86qGvP1bQ",
+  "pdfSize": "2339020"
+}

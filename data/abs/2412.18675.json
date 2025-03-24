@@ -1,0 +1,55 @@
+{
+  "id": "2412.18675",
+  "title": "TAB: Transformer Attention Bottlenecks enable User Intervention and\n  Debugging in Vision-Language Models",
+  "authors": "Pooyan Rahmanzadehgervi and Hung Huy Nguyen and Rosanne Liu and Long\n  Mai and Anh Totti Nguyen",
+  "authorsParsed": [
+    [
+      "Rahmanzadehgervi",
+      "Pooyan",
+      ""
+    ],
+    [
+      "Nguyen",
+      "Hung Huy",
+      ""
+    ],
+    [
+      "Liu",
+      "Rosanne",
+      ""
+    ],
+    [
+      "Mai",
+      "Long",
+      ""
+    ],
+    [
+      "Nguyen",
+      "Anh Totti",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 24 Dec 2024 20:28:07 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Fri, 3 Jan 2025 14:58:50 GMT"
+    },
+    {
+      "version": "v3",
+      "created": "Tue, 21 Jan 2025 15:16:59 GMT"
+    }
+  ],
+  "updateDate": "2025-01-22",
+  "timestamp": 1735072087000,
+  "abstract": "  Multi-head self-attention (MHSA) is a key component of Transformers, a widely\npopular architecture in both language and vision. Multiple heads intuitively\nenable different parallel processes over the same input. Yet, they also obscure\nthe attribution of each input patch to the output of a model. We propose a\nnovel 1-head Transformer Attention Bottleneck (TAB) layer, inserted after the\ntraditional MHSA architecture, to serve as an attention bottleneck for\ninterpretability and intervention. Unlike standard self-attention, TAB\nconstrains the total attention over all patches to $\\in [0, 1]$. That is, when\nthe total attention is 0, no visual information is propagated further into the\nnetwork and the vision-language model (VLM) would default to a generic,\nimage-independent response. To demonstrate the advantages of TAB, we train VLMs\nwith TAB to perform image difference captioning. Over three datasets, our\nmodels perform similarly to baseline VLMs in captioning but the bottleneck is\nsuperior in localizing changes and in identifying when no changes occur. TAB is\nthe first architecture to enable users to intervene by editing attention, which\noften produces expected outputs by VLMs.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "o0aCHsVWmY-Z3qIH6MCLY29rdOkeSsauOq-59nrESVA",
+  "pdfSize": "12750082"
+}

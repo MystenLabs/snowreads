@@ -1,0 +1,39 @@
+{
+  "id": "2412.10573",
+  "title": "ExeChecker: Where Did I Go Wrong?",
+  "authors": "Yiwen Gu, Mahir Patel, Margrit Betke",
+  "authorsParsed": [
+    [
+      "Gu",
+      "Yiwen",
+      ""
+    ],
+    [
+      "Patel",
+      "Mahir",
+      ""
+    ],
+    [
+      "Betke",
+      "Margrit",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 13 Dec 2024 21:34:54 GMT"
+    }
+  ],
+  "updateDate": "2024-12-17",
+  "timestamp": 1734125694000,
+  "abstract": "  In this paper, we present a contrastive learning based framework, ExeChecker,\nfor the interpretation of rehabilitation exercises. Our work builds upon\nstate-of-the-art advances in the area of human pose estimation, graph-attention\nneural networks, and transformer interpretablity. The downstream task is to\nassist rehabilitation by providing informative feedback to users while they are\nperforming prescribed exercises. We utilize a contrastive learning strategy\nduring training. Given a tuple of correctly and incorrectly executed exercises,\nour model is able to identify and highlight those joints that are involved in\nan incorrect movement and thus require the user's attention. We collected an\nin-house dataset, ExeCheck, with paired recordings of both correct and\nincorrect execution of exercises. In our experiments, we tested our method on\nthis dataset as well as the UI-PRMD dataset and found ExeCheck outperformed the\nbaseline method using pairwise sequence alignment in identifying joints of\nphysical relevance in rehabilitation exercises.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Human-Computer Interaction",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "VN028BkB-UksVp7RvUAh8MTWydDc39yQCAN0iYdBH9Q",
+  "pdfSize": "981409"
+}

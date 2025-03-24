@@ -1,0 +1,50 @@
+{
+  "id": "2412.02946",
+  "title": "Who Brings the Frisbee: Probing Hidden Hallucination Factors in Large\n  Vision-Language Model via Causality Analysis",
+  "authors": "Po-Hsuan Huang, Jeng-Lin Li, Chin-Po Chen, Ming-Ching Chang, Wei-Chao\n  Chen",
+  "authorsParsed": [
+    [
+      "Huang",
+      "Po-Hsuan",
+      ""
+    ],
+    [
+      "Li",
+      "Jeng-Lin",
+      ""
+    ],
+    [
+      "Chen",
+      "Chin-Po",
+      ""
+    ],
+    [
+      "Chang",
+      "Ming-Ching",
+      ""
+    ],
+    [
+      "Chen",
+      "Wei-Chao",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 4 Dec 2024 01:23:57 GMT"
+    }
+  ],
+  "updateDate": "2024-12-05",
+  "timestamp": 1733275437000,
+  "abstract": "  Recent advancements in large vision-language models (LVLM) have significantly\nenhanced their ability to comprehend visual inputs alongside natural language.\nHowever, a major challenge in their real-world application is hallucination,\nwhere LVLMs generate non-existent visual elements, eroding user trust. The\nunderlying mechanism driving this multimodal hallucination is poorly\nunderstood. Minimal research has illuminated whether contexts such as sky,\ntree, or grass field involve the LVLM in hallucinating a frisbee. We\nhypothesize that hidden factors, such as objects, contexts, and semantic\nforeground-background structures, induce hallucination. This study proposes a\nnovel causal approach: a hallucination probing system to identify these hidden\nfactors. By analyzing the causality between images, text prompts, and network\nsaliency, we systematically explore interventions to block these factors. Our\nexperimental findings show that a straightforward technique based on our\nanalysis can significantly reduce hallucinations. Additionally, our analyses\nindicate the potential to edit network internals to minimize hallucinated\noutputs.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Machine Learning",
+    "Computer Science/Multimedia"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "vDRMfUQCsEY3CEgK2gKuOSHb_WB4FmNltPFY54Ck9XU",
+  "pdfSize": "2603875"
+}

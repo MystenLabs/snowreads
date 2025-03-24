@@ -1,0 +1,44 @@
+{
+  "id": "2412.01996",
+  "title": "A Machine Hearing System for Robust Cough Detection Based on a\n  High-Level Representation of Band-Specific Audio Features",
+  "authors": "Jes\\'us Monge-Alvarez, Carlos Hoyos-Barcel\\'o, Luis M.\n  San-Jos\\'e-Revuelta and Pablo Casaseca-de-la-Higuera",
+  "authorsParsed": [
+    [
+      "Monge-Alvarez",
+      "Jesús",
+      ""
+    ],
+    [
+      "Hoyos-Barceló",
+      "Carlos",
+      ""
+    ],
+    [
+      "San-José-Revuelta",
+      "Luis M.",
+      ""
+    ],
+    [
+      "Casaseca-de-la-Higuera",
+      "Pablo",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 2 Dec 2024 22:05:10 GMT"
+    }
+  ],
+  "updateDate": "2024-12-04",
+  "timestamp": 1733177110000,
+  "abstract": "  Cough is a protective reflex conveying information on the state of the\nrespiratory system. Cough assessment has been limited so far to subjective\nmeasurement tools or uncomfortable (i.e., non-wearable) cough monitors. This\nlimits the potential of real-time cough monitoring to improve respiratory care.\nObjective: This paper presents a machine hearing system for audio-based robust\ncough segmentation that can be easily deployed in mobile scenarios. Methods:\nCough detection is performed in two steps. First, a short-term spectral feature\nset is separately computed in five predefined frequency bands: [0, 0.5), [0.5,\n1), [1, 1.5), [1.5, 2), and [2, 5.5125] kHz. Feature selection and combination\nare then applied to make the short-term feature set robust enough in different\nnoisy scenarios. Second, high-level data representation is achieved by\ncomputing the mean and standard deviation of short-term descriptors in 300 ms\nlong-term frames. Finally, cough detection is carried out using a support\nvector machine trained with data from different noisy scenarios. The system is\nevaluated using a patient signal database which emulates three real-life\nscenarios in terms of noise content. Results: The system achieves 92.71%\nsensitivity, 88.58% specificity, and 90.69% Area Under Receiver Operating\nCharacteristic (ROC) curve (AUC), outperforming state-of-the-art methods.\nConclusion: Our research outcome paves the way to create a device for cough\nmonitoring in real-life situations. Significance: Our proposal is aligned with\na more comfortable and less disruptive patient monitoring, with benefits for\npatients (allows self-monitoring of cough symptoms), practitioners (e.g.,\nassessment of treatments or better clinical understanding of cough patterns),\nand national health systems (by reducing hospitalizations).\n",
+  "subjects": [
+    "Electrical Engineering and Systems Science/Audio and Speech Processing",
+    "Computer Science/Sound",
+    "Electrical Engineering and Systems Science/Signal Processing"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "UdJ0kbFkX03CfVRmyWZJECvyWI3PlhHB1j408jjR9JQ",
+  "pdfSize": "3045800"
+}

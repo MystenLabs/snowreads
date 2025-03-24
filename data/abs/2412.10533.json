@@ -1,0 +1,52 @@
+{
+  "id": "2412.10533",
+  "title": "SUGAR: Subject-Driven Video Customization in a Zero-Shot Manner",
+  "authors": "Yufan Zhou, Ruiyi Zhang, Jiuxiang Gu, Nanxuan Zhao, Jing Shi, Tong Sun",
+  "authorsParsed": [
+    [
+      "Zhou",
+      "Yufan",
+      ""
+    ],
+    [
+      "Zhang",
+      "Ruiyi",
+      ""
+    ],
+    [
+      "Gu",
+      "Jiuxiang",
+      ""
+    ],
+    [
+      "Zhao",
+      "Nanxuan",
+      ""
+    ],
+    [
+      "Shi",
+      "Jing",
+      ""
+    ],
+    [
+      "Sun",
+      "Tong",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 13 Dec 2024 20:01:51 GMT"
+    }
+  ],
+  "updateDate": "2024-12-17",
+  "timestamp": 1734120111000,
+  "abstract": "  We present SUGAR, a zero-shot method for subject-driven video customization.\nGiven an input image, SUGAR is capable of generating videos for the subject\ncontained in the image and aligning the generation with arbitrary visual\nattributes such as style and motion specified by user-input text. Unlike\nprevious methods, which require test-time fine-tuning or fail to generate\ntext-aligned videos, SUGAR achieves superior results without the need for extra\ncost at test-time. To enable zero-shot capability, we introduce a scalable\npipeline to construct synthetic dataset which is specifically designed for\nsubject-driven customization, leading to 2.5 millions of image-video-text\ntriplets. Additionally, we propose several methods to enhance our model,\nincluding special attention designs, improved training strategies, and a\nrefined sampling algorithm. Extensive experiments are conducted. Compared to\nprevious methods, SUGAR achieves state-of-the-art results in identity\npreservation, video dynamics, and video-text alignment for subject-driven video\ncustomization, demonstrating the effectiveness of our proposed method.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "15BjLm_-ZZ01HNx7_8lqPtAegbYLDMrqzCjnPjLFzMo",
+  "pdfSize": "11624682"
+}

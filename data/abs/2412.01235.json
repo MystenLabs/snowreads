@@ -1,0 +1,48 @@
+{
+  "id": "2412.01235",
+  "title": "Real-time Traffic Simulation and Management for Large-scale Urban Air\n  Mobility: Integrating Route Guidance and Collision Avoidance",
+  "authors": "Canqiang Weng, Can Chen, Jingjun Tan, Tianlu Pan, Renxin Zhong",
+  "authorsParsed": [
+    [
+      "Weng",
+      "Canqiang",
+      ""
+    ],
+    [
+      "Chen",
+      "Can",
+      ""
+    ],
+    [
+      "Tan",
+      "Jingjun",
+      ""
+    ],
+    [
+      "Pan",
+      "Tianlu",
+      ""
+    ],
+    [
+      "Zhong",
+      "Renxin",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 2 Dec 2024 08:00:17 GMT"
+    }
+  ],
+  "updateDate": "2024-12-03",
+  "timestamp": 1733126417000,
+  "abstract": "  Given the spatial heterogeneity of land use patterns in most cities,\nlarge-scale UAM will likely be deployed in specific areas, e.g., inter-transfer\ntraffic between suburbs and city centers. However, large-scale UAM operations\nconnecting multiple origin-destination pairs raise concerns about air traffic\nsafety and efficiency with respect to conflict movements, particularly at large\nconflict points similar to roadway junctions. In this work, we propose an\noperational framework that integrates route guidance and collision avoidance to\nachieve an elegant trade-off between air traffic safety and efficiency. The\nroute guidance mechanism aims to optimize aircraft distribution across both\nspatial and temporal dimensions by regulating their paths (composed of\nwaypoints). Given the optimized paths, the collision avoidance module aims to\ngenerate collision-free aircraft trajectories between waypoints in 3D space. To\nenable large-scale operations, we develop a fast approximation method to solve\nthe optimal path planning problem and employ the velocity obstacle model for\ncollision avoidance. The proposed route guidance strategy significantly reduces\nthe computational requirements for collision avoidance. As far as we know, this\nwork is one of the first to combine route guidance and collision avoidance for\nUAM. The results indicate that the framework can enable efficient and flexible\nUAM operations, such as air traffic assignment, congestion prevention, and\ndynamic airspace clearance. Compared to the management scheme based on air\ncorridors, the proposed framework has considerable improvements in\ncomputational efficiency (433%), average travel speed (70.2%), and trip\ncompletion rate (130%). The proposed framework has demonstrated great potential\nfor real-time traffic simulation and management in large-scale UAM systems.\n",
+  "subjects": [
+    "Electrical Engineering and Systems Science/Systems and Control",
+    "Computer Science/Systems and Control"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "rANrDURGvZBGqhDFOs9beaXwg9OLW271zhYZtvVq0CU",
+  "pdfSize": "14927679"
+}

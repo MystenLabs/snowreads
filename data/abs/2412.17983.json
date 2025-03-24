@@ -1,0 +1,33 @@
+{
+  "id": "2412.17983",
+  "title": "Preservation of structural properties of the CIR model by\n  {\\theta}-Milstein schemes",
+  "authors": "Samir Llamazares-Elias and Angel Tocino",
+  "authorsParsed": [
+    [
+      "Llamazares-Elias",
+      "Samir",
+      ""
+    ],
+    [
+      "Tocino",
+      "Angel",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 23 Dec 2024 21:05:00 GMT"
+    }
+  ],
+  "updateDate": "2024-12-25",
+  "timestamp": 1734987900000,
+  "abstract": "  The ability of $\\theta$-Milstein methods with $\\theta\\ge 1$ to capture the\nnon-negativity and the mean-reversion property of the exact solution of the CIR\nmodel is shown.\n  In addition, the order of convergence and the preservation of the long-term\nvariance is studied. These theoretical results are illustrated with numerical\nexamples.\n",
+  "subjects": [
+    "Mathematics/Numerical Analysis",
+    "Computer Science/Numerical Analysis"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "Atb6752WsCqK4FYY_AKVfBR7LHxt47cglhzoX_FRmzw",
+  "pdfSize": "1215499"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "2412.07752",
+  "title": "FlashRNN: Optimizing Traditional RNNs on Modern Hardware",
+  "authors": "Korbinian P\\\"oppel, Maximilian Beck, Sepp Hochreiter",
+  "authorsParsed": [
+    [
+      "Pöppel",
+      "Korbinian",
+      ""
+    ],
+    [
+      "Beck",
+      "Maximilian",
+      ""
+    ],
+    [
+      "Hochreiter",
+      "Sepp",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 10 Dec 2024 18:50:37 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Mon, 13 Jan 2025 17:34:22 GMT"
+    }
+  ],
+  "updateDate": "2025-01-14",
+  "timestamp": 1733856637000,
+  "abstract": "  While Transformers and other sequence-parallelizable neural network\narchitectures seem like the current state of the art in sequence modeling, they\nspecifically lack state-tracking capabilities. These are important for\ntime-series tasks and logical reasoning. Traditional RNNs like LSTMs and GRUs,\nas well as modern variants like sLSTM do have these capabilities at the cost of\nstrictly sequential processing. While this is often seen as a strong\nlimitation, we show how fast these networks can get with our\nhardware-optimization FlashRNN in Triton and CUDA, optimizing kernels to the\nregister level on modern GPUs. We extend traditional RNNs with a\nparallelization variant that processes multiple RNNs of smaller hidden state in\nparallel, similar to the head-wise processing in Transformers. To enable\nflexibility on different GPU variants, we introduce a new optimization\nframework for hardware-internal cache sizes, memory and compute handling. It\nmodels the hardware in a setting using polyhedral-like constraints, including\nthe notion of divisibility. This speeds up the solution process in our\nConstrINT library for general integer constraint satisfaction problems (integer\nCSPs). We show that our kernels can achieve 50x speed-ups over a vanilla\nPyTorch implementation and allow 40x larger hidden sizes compared to our Triton\nimplementation. Our open-source kernels and the optimization library are\nreleased here to boost research in the direction of state-tracking enabled RNNs\nand sequence modeling: \\url{https://github.com/NX-AI/flashrnn}\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "u4w0j27KvojkfSPdPeohTV-ZNbPaBg8KlCCUgTOJWLQ",
+  "pdfSize": "911666"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2412.05902",
+  "title": "Long-Time behavior of the tangential surface Navier-Stokes equation",
+  "authors": "Andrea Poiatti, Ulisse Stefanelli",
+  "authorsParsed": [
+    [
+      "Poiatti",
+      "Andrea",
+      ""
+    ],
+    [
+      "Stefanelli",
+      "Ulisse",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 8 Dec 2024 11:43:35 GMT"
+    }
+  ],
+  "updateDate": "2024-12-10",
+  "timestamp": 1733658215000,
+  "abstract": "  We investigate the initial-value problem for the incompressible tangential\nNavier-Stokes equation with variable viscosity on a given two-dimensional\nsurface without boundary. Existence of global weak and strong solutions under\ninhomogeneous forcing is proved by a fixed-point and continuation argument.\nContinuous dependence on data, backward uniqueness, and instantaneous\nregularization are also discussed. Depending on the effect of the inhomogeneous\nforcing on the dissipative and the nondissipative components of the system, we\ninvestigate the long-time behavior of solutions. We prove the existence and\nproperties of the $\\sigma$-global attractor, in the case of bounded\ntrajectories, and of the so-called unbounded attractor, for unbounded\ntrajectories.\n",
+  "subjects": [
+    "Mathematics/Analysis of PDEs",
+    "Mathematics/Dynamical Systems"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "va62aqm05JjRS59CCPfCKDX7-Z2uOjqMg_a5JKdkg5A",
+  "pdfSize": "417370"
+}

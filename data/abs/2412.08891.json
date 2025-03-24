@@ -1,0 +1,53 @@
+{
+  "id": "2412.08891",
+  "title": "Theory and numerics of subspace approximation of eigenvalue problems",
+  "authors": "Siu Wun Cheung, Youngsoo Choi, Seung Whan Chung, Jean-Luc Fattebert,\n  Coleman Kendrick, Daniel Osei-Kuffuor",
+  "authorsParsed": [
+    [
+      "Cheung",
+      "Siu Wun",
+      ""
+    ],
+    [
+      "Choi",
+      "Youngsoo",
+      ""
+    ],
+    [
+      "Chung",
+      "Seung Whan",
+      ""
+    ],
+    [
+      "Fattebert",
+      "Jean-Luc",
+      ""
+    ],
+    [
+      "Kendrick",
+      "Coleman",
+      ""
+    ],
+    [
+      "Osei-Kuffuor",
+      "Daniel",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 12 Dec 2024 03:08:13 GMT"
+    }
+  ],
+  "updateDate": "2024-12-13",
+  "timestamp": 1733972893000,
+  "abstract": "  Large-scale eigenvalue problems arise in various fields of science and\nengineering and demand computationally efficient solutions. In this study, we\ninvestigate the subspace approximation for parametric linear eigenvalue\nproblems, aiming to mitigate the computational burden associated with\nhigh-fidelity systems. We provide general error estimates under non-simple\neigenvalue conditions, establishing the theoretical foundations for our\nmethodology. Numerical examples, ranging from one-dimensional to\nthree-dimensional setups, are presented to demonstrate the efficacy of reduced\nbasis method in handling parametric variations in boundary conditions and\ncoefficient fields to achieve significant computational savings while\nmaintaining high accuracy, making them promising tools for practical\napplications in large-scale eigenvalue computations.\n",
+  "subjects": [
+    "Mathematics/Numerical Analysis",
+    "Computer Science/Numerical Analysis"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "GlGQANenaNnxg3ywStZPwXFglhfG-By_5NN-fTe5OBE",
+  "pdfSize": "2287624"
+}

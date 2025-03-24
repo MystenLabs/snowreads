@@ -1,0 +1,40 @@
+{
+  "id": "2412.04695",
+  "title": "Enlargement of symmetry groups in physics: a practitioner's guide",
+  "authors": "Lehel Csillag, Julio Marny Hoff da Silva, Tudor Patuleanu",
+  "authorsParsed": [
+    [
+      "Csillag",
+      "Lehel",
+      ""
+    ],
+    [
+      "da Silva",
+      "Julio Marny Hoff",
+      ""
+    ],
+    [
+      "Patuleanu",
+      "Tudor",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 6 Dec 2024 01:19:18 GMT"
+    }
+  ],
+  "updateDate": "2024-12-12",
+  "timestamp": 1733447958000,
+  "abstract": "  Wigner's classification has led to the insight that projective unitary\nrepresentations play a prominent role in quantum mechanics. The physics\nliterature often states that the theory of projective unitary representations\ncan be reduced to the theory of ordinary unitary representations by enlarging\nthe group of physical symmetries. Nevertheless, the enlargement process is not\nalways described explicitly: it is unclear in which cases the enlargement has\nto be done to the universal cover, a central extension, or to a central\nextension of the universal cover. On the other hand, in the mathematical\nliterature, projective unitary representations were extensively studied, and\nfamous theorems such as the theorems of Bargmann and Cassinelli have been\nachieved. The present article bridges the two: we provide a precise,\nstep-by-step guide on describing projective unitary representations as unitary\nrepresentations of the enlarged group. Particular focus is paid to the\ndifference between algebraic and topological obstructions. To build the bridge\nmentioned above, we present a detailed review of the difference between group\ncohomology and Lie group cohomology. This culminates in classifying Lie group\ncentral extensions by smooth cocycles around the identity. Finally, the\ntake-away message is a hands-on algorithm that takes the symmetry group of a\ngiven quantum theory as input and provides the enlarged group as output. This\nalgorithm is applied to several cases of physical interest. We also briefly\noutline a generalization of Bargmann's theory to time-dependent phases using\nHilbert bundles.\n",
+  "subjects": [
+    "Physics/Mathematical Physics",
+    "Physics/High Energy Physics - Theory",
+    "Mathematics/Mathematical Physics",
+    "Physics/Quantum Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "I9qrUbifojX1Yatp874gy_0D0aJspMa2YB5ZWIYHrgU",
+  "pdfSize": "528279"
+}

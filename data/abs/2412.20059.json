@@ -1,0 +1,52 @@
+{
+  "id": "2412.20059",
+  "title": "AI-based Wearable Vision Assistance System for the Visually Impaired:\n  Integrating Real-Time Object Recognition and Contextual Understanding Using\n  Large Vision-Language Models",
+  "authors": "Mirza Samad Ahmed Baig, Syeda Anshrah Gillani, Shahid Munir Shah,\n  Mahmoud Aljawarneh, Abdul Akbar Khan, Muhammad Hamzah Siddiqui",
+  "authorsParsed": [
+    [
+      "Baig",
+      "Mirza Samad Ahmed",
+      ""
+    ],
+    [
+      "Gillani",
+      "Syeda Anshrah",
+      ""
+    ],
+    [
+      "Shah",
+      "Shahid Munir",
+      ""
+    ],
+    [
+      "Aljawarneh",
+      "Mahmoud",
+      ""
+    ],
+    [
+      "Khan",
+      "Abdul Akbar",
+      ""
+    ],
+    [
+      "Siddiqui",
+      "Muhammad Hamzah",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 28 Dec 2024 07:26:39 GMT"
+    }
+  ],
+  "updateDate": "2024-12-31",
+  "timestamp": 1735370799000,
+  "abstract": "  Visual impairment affects the ability of people to live a life like normal\npeople. Such people face challenges in performing activities of daily living,\nsuch as reading, writing, traveling and participating in social gatherings.\nMany traditional approaches are available to help visually impaired people;\nhowever, these are limited in obtaining contextually rich environmental\ninformation necessary for independent living. In order to overcome this\nlimitation, this paper introduces a novel wearable vision assistance system\nthat has a hat-mounted camera connected to a Raspberry Pi 4 Model B (8GB RAM)\nwith artificial intelligence (AI) technology to deliver real-time feedback to a\nuser through a sound beep mechanism. The key features of this system include a\nuser-friendly procedure for the recognition of new people or objects through a\none-click process that allows users to add data on new individuals and objects\nfor later detection, enhancing the accuracy of the recognition over time. The\nsystem provides detailed descriptions of objects in the user's environment\nusing a large vision language model (LVLM). In addition, it incorporates a\ndistance sensor that activates a beeping sound using a buzzer as soon as the\nuser is about to collide with an object, helping to ensure safety while\nnavigating their environment. A comprehensive evaluation is carried out to\nevaluate the proposed AI-based solution against traditional support techniques.\nComparative analysis shows that the proposed solution with its innovative\ncombination of hardware and AI (including LVLMs with IoT), is a significant\nadvancement in assistive technology that aims to solve the major issues faced\nby the community of visually impaired people\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "AMWa2HRSSDGgGqpi25qn4T3ZBZcb7TerYJpBB_s97Ww",
+  "pdfSize": "757133"
+}

@@ -1,0 +1,47 @@
+{
+  "id": "2412.05899",
+  "title": "Accelerating Video Diffusion Models via Distribution Matching",
+  "authors": "Yuanzhi Zhu, Hanshu Yan, Huan Yang, Kai Zhang, Junnan Li",
+  "authorsParsed": [
+    [
+      "Zhu",
+      "Yuanzhi",
+      ""
+    ],
+    [
+      "Yan",
+      "Hanshu",
+      ""
+    ],
+    [
+      "Yang",
+      "Huan",
+      ""
+    ],
+    [
+      "Zhang",
+      "Kai",
+      ""
+    ],
+    [
+      "Li",
+      "Junnan",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 8 Dec 2024 11:36:32 GMT"
+    }
+  ],
+  "updateDate": "2024-12-10",
+  "timestamp": 1733657792000,
+  "abstract": "  Generative models, particularly diffusion models, have made significant\nsuccess in data synthesis across various modalities, including images, videos,\nand 3D assets. However, current diffusion models are computationally intensive,\noften requiring numerous sampling steps that limit their practical application,\nespecially in video generation. This work introduces a novel framework for\ndiffusion distillation and distribution matching that dramatically reduces the\nnumber of inference steps while maintaining-and potentially\nimproving-generation quality. Our approach focuses on distilling pre-trained\ndiffusion models into a more efficient few-step generator, specifically\ntargeting video generation. By leveraging a combination of video GAN loss and a\nnovel 2D score distribution matching loss, we demonstrate the potential to\ngenerate high-quality video frames with substantially fewer sampling steps. To\nbe specific, the proposed method incorporates a denoising GAN discriminator to\ndistil from the real data and a pre-trained image diffusion model to enhance\nthe frame quality and the prompt-following capabilities. Experimental results\nusing AnimateDiff as the teacher model showcase the method's effectiveness,\nachieving superior performance in just four sampling steps compared to existing\ntechniques.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "k6pYMXmQUKnCP1Rkh8IBJ5pN3HX5KyuqsuF-HGgKNoY",
+  "pdfSize": "2314415"
+}

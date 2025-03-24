@@ -1,0 +1,58 @@
+{
+  "id": "2412.07493",
+  "title": "Ontology-driven Prompt Tuning for LLM-based Task and Motion Planning",
+  "authors": "Muhayy Ud Din and Jan Rosell and Waseem Akram and Isiah Zaplana and\n  Maximo A Roa and Lakmal Seneviratne and Irfan Hussain",
+  "authorsParsed": [
+    [
+      "Din",
+      "Muhayy Ud",
+      ""
+    ],
+    [
+      "Rosell",
+      "Jan",
+      ""
+    ],
+    [
+      "Akram",
+      "Waseem",
+      ""
+    ],
+    [
+      "Zaplana",
+      "Isiah",
+      ""
+    ],
+    [
+      "Roa",
+      "Maximo A",
+      ""
+    ],
+    [
+      "Seneviratne",
+      "Lakmal",
+      ""
+    ],
+    [
+      "Hussain",
+      "Irfan",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 10 Dec 2024 13:18:45 GMT"
+    }
+  ],
+  "updateDate": "2024-12-11",
+  "timestamp": 1733836725000,
+  "abstract": "  Performing complex manipulation tasks in dynamic environments requires\nefficient Task and Motion Planning (TAMP) approaches, which combine high-level\nsymbolic plan with low-level motion planning. Advances in Large Language Models\n(LLMs), such as GPT-4, are transforming task planning by offering natural\nlanguage as an intuitive and flexible way to describe tasks, generate symbolic\nplans, and reason. However, the effectiveness of LLM-based TAMP approaches is\nlimited due to static and template-based prompting, which struggles in adapting\nto dynamic environments and complex task contexts. To address these\nlimitations, this work proposes a novel ontology-driven prompt-tuning framework\nthat employs knowledge-based reasoning to refine and expand user prompts with\ntask contextual reasoning and knowledge-based environment state descriptions.\nIntegrating domain-specific knowledge into the prompt ensures semantically\naccurate and context-aware task plans. The proposed framework demonstrates its\neffectiveness by resolving semantic errors in symbolic plan generation, such as\nmaintaining logical temporal goal ordering in scenarios involving hierarchical\nobject placement. The proposed framework is validated through both simulation\nand real-world scenarios, demonstrating significant improvements over the\nbaseline approach in terms of adaptability to dynamic environments, and the\ngeneration of semantically correct task plans.\n",
+  "subjects": [
+    "Computer Science/Robotics",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "5Q_NZCaeGnBbld5Ebc-JB104tpwLqkiqLvhniTncg6Q",
+  "pdfSize": "8230277"
+}

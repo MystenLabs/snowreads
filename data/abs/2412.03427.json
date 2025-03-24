@@ -1,0 +1,47 @@
+{
+  "id": "2412.03427",
+  "title": "Assessing Foundation Models' Transferability to Physiological Signals in\n  Precision Medicine",
+  "authors": "Matthias Christenson and Cove Geary and Brian Locke and Pranav Koirala\n  and Warren Woodrich Pettine",
+  "authorsParsed": [
+    [
+      "Christenson",
+      "Matthias",
+      ""
+    ],
+    [
+      "Geary",
+      "Cove",
+      ""
+    ],
+    [
+      "Locke",
+      "Brian",
+      ""
+    ],
+    [
+      "Koirala",
+      "Pranav",
+      ""
+    ],
+    [
+      "Pettine",
+      "Warren Woodrich",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 4 Dec 2024 16:17:09 GMT"
+    }
+  ],
+  "updateDate": "2024-12-05",
+  "timestamp": 1733329029000,
+  "abstract": "  The success of precision medicine requires computational models that can\neffectively process and interpret diverse physiological signals across\nheterogeneous patient populations. While foundation models have demonstrated\nremarkable transfer capabilities across various domains, their effectiveness in\nhandling individual-specific physiological signals - crucial for precision\nmedicine - remains largely unexplored. This work introduces a systematic\npipeline for rapidly and efficiently evaluating foundation models' transfer\ncapabilities in medical contexts. Our pipeline employs a three-stage approach.\nFirst, it leverages physiological simulation software to generate diverse,\nclinically relevant scenarios, particularly focusing on data-scarce medical\nconditions. This simulation-based approach enables both targeted capability\nassessment and subsequent model fine-tuning. Second, the pipeline projects\nthese simulated signals through the foundation model to obtain embeddings,\nwhich are then evaluated using linear methods. This evaluation quantifies the\nmodel's ability to capture three critical aspects: physiological feature\nindependence, temporal dynamics preservation, and medical scenario\ndifferentiation. Finally, the pipeline validates these representations through\nspecific downstream medical tasks. Initial testing of our pipeline on the\nMoirai time series foundation model revealed significant limitations in\nphysiological signal processing, including feature entanglement, temporal\ndynamics distortion, and reduced scenario discrimination. These findings\nsuggest that current foundation models may require substantial architectural\nmodifications or targeted fine-tuning before deployment in clinical settings.\n",
+  "subjects": [
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "0Nvt8sgFMfxVRKR0RxNbJRPxI0ahBHg6CjRxf2Y39z0",
+  "pdfSize": "459512"
+}

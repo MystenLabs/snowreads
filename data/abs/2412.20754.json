@@ -1,0 +1,42 @@
+{
+  "id": "2412.20754",
+  "title": "Selberg, Ihara and Berkovich",
+  "authors": "Jialun Li, Carlos Matheus, Wenyu Pan and Zhongkai Tao",
+  "authorsParsed": [
+    [
+      "Li",
+      "Jialun",
+      ""
+    ],
+    [
+      "Matheus",
+      "Carlos",
+      ""
+    ],
+    [
+      "Pan",
+      "Wenyu",
+      ""
+    ],
+    [
+      "Tao",
+      "Zhongkai",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 30 Dec 2024 06:55:52 GMT"
+    }
+  ],
+  "updateDate": "2024-12-31",
+  "timestamp": 1735541752000,
+  "abstract": "  We use the Selberg zeta function to study the limit behavior of resonances in\na degenerating family of Kleinian Schottky groups. We prove that, after a\nsuitable rescaling, the Selberg zeta functions converge to the Ihara zeta\nfunction of a limiting finite graph associated to the relevant non-Archimedean\nSchottky group acting on the Berkovich projective line.\n  Moreover, we show that these techniques can be used to get an exponential\nerror term in a result of McMullen (recently extended by Dang and Mehmeti)\nabout the asymptotics for the vanishing rate of the Hausdorff dimension of\nlimit sets of certain degenerating Schottky groups generating symmetric\nthree-funnel surfaces. Here, one key idea is to introduce an intermediate zeta\nfunction capturing \\emph{both} non-Archimedean and Archimedean information\n(while the traditional Selberg, resp. Ihara zeta functions concern only\nArchimedean, resp. non-Archimedean properties).\n",
+  "subjects": [
+    "Mathematics/Dynamical Systems"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "0AiU0q_vv76RNuOOp6KQaE2ao511MxGvklg0u9SNYTw",
+  "pdfSize": "960099"
+}

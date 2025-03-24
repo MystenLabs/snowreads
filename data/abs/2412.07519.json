@@ -1,0 +1,54 @@
+{
+  "id": "2412.07519",
+  "title": "Statistical Precoder Design in Multi-User Systems via Graph Neural\n  Networks and Generative Modeling",
+  "authors": "Nurettin Turan, Srikar Allaparapu, Donia Ben Amor, Benedikt B\\\"ock,\n  Michael Joham, Wolfgang Utschick",
+  "authorsParsed": [
+    [
+      "Turan",
+      "Nurettin",
+      ""
+    ],
+    [
+      "Allaparapu",
+      "Srikar",
+      ""
+    ],
+    [
+      "Amor",
+      "Donia Ben",
+      ""
+    ],
+    [
+      "Böck",
+      "Benedikt",
+      ""
+    ],
+    [
+      "Joham",
+      "Michael",
+      ""
+    ],
+    [
+      "Utschick",
+      "Wolfgang",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 10 Dec 2024 13:57:14 GMT"
+    }
+  ],
+  "updateDate": "2024-12-11",
+  "timestamp": 1733839034000,
+  "abstract": "  This letter proposes a graph neural network (GNN)-based framework for\nstatistical precoder design that leverages model-based insights to compactly\nrepresent statistical knowledge, resulting in efficient, lightweight\narchitectures. The framework also supports approximate statistical information\nin frequency division duplex (FDD) systems obtained through a Gaussian mixture\nmodel (GMM)-based limited feedback scheme in massive multiple-input\nmultiple-output (MIMO) systems with low pilot overhead. Simulations using a\nspatial channel model and measurement data demonstrate the effectiveness of the\nproposed framework. It outperforms baseline methods, including stochastic\niterative algorithms and Discrete Fourier transform (DFT) codebook-based\napproaches, particularly in low pilot overhead systems.\n",
+  "subjects": [
+    "Computer Science/Information Theory",
+    "Electrical Engineering and Systems Science/Signal Processing",
+    "Mathematics/Information Theory"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "ky7JqbgDn09o1MUJNPLdfspz2RF69En9z-4ycYsGqkg",
+  "pdfSize": "389830"
+}

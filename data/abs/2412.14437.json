@@ -1,0 +1,57 @@
+{
+  "id": "2412.14437",
+  "title": "Evaluation of cosmogenic Ge-68 background in a high purity germanium\n  detector via a time series fitting method",
+  "authors": "W.H. Dai, J.K. Chen, H. Ma, Z. Zeng, M.K. Jin, Q.L Zhang, J.P. Cheng",
+  "authorsParsed": [
+    [
+      "Dai",
+      "W. H.",
+      ""
+    ],
+    [
+      "Chen",
+      "J. K.",
+      ""
+    ],
+    [
+      "Ma",
+      "H.",
+      ""
+    ],
+    [
+      "Zeng",
+      "Z.",
+      ""
+    ],
+    [
+      "Jin",
+      "M. K.",
+      ""
+    ],
+    [
+      "Zhang",
+      "Q. L",
+      ""
+    ],
+    [
+      "Cheng",
+      "J. P.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 19 Dec 2024 01:40:18 GMT"
+    }
+  ],
+  "updateDate": "2024-12-20",
+  "timestamp": 1734572418000,
+  "abstract": "  Ge-68 is a cosmogenic isotope in germanium with a half-life of 270.9 days.\nGe-68 and its decay daughter Ga-68 contribute considerable background with\nenergy up to 3 MeV to low background $\\gamma$ spectrometers using high purity\ngermanium (HPGe) detectors. In this paper, we evaluated the background of Ge-68\nand Ga-68 in a p-type coaxial HPGe detector operated at China Jinping\nunderground laboratory (CJPL) via a time series fitting method. Under the\nassumption that Ge-68 and Ga-68 are in radioactive equilibrium and airborne\nradon daughters are uniformly distributed in the measurement chamber of the\nspectrometer, we fit the time series of count rate in 1-3 MeV to calculate the\nGe-68 activity, radon daughter concentrations, and the time-invariant\nbackground component. Total 90 days measured data were used in analysis, a\nhypothesis test confirmed a significant Ge-68 signal at 99.64% confidence\nlevel. The initial activity of Ge-68 is fitted to be 477.0$\\pm$112.4\n$\\mu$Bq/kg, corresponding to an integral count rate of 55.9 count/day in 1-3\nMeV range. During the measurement, Ge-68 activity decreased by about 30%,\ncontributing about 62% of the total background in 1-3 MeV range. Our method\nalso provides an estimation of the variation of airborne radon daughter\nconcentrations in the measurement chamber, which could be used to monitor the\nperformance of radon reduction measures.\n",
+  "subjects": [
+    "Physics/Instrumentation and Detectors"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "M856u5kgOgRcsu0jDIsURq5VvDqe4ko9sJO8K5uOGeQ",
+  "pdfSize": "5958298"
+}

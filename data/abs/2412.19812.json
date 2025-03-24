@@ -1,0 +1,37 @@
+{
+  "id": "2412.19812",
+  "title": "Pharmacophore-guided de novo drug design with diffusion bridge",
+  "authors": "Conghao Wang, Jagath C. Rajapakse",
+  "authorsParsed": [
+    [
+      "Wang",
+      "Conghao",
+      ""
+    ],
+    [
+      "Rajapakse",
+      "Jagath C.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 10 Dec 2024 15:41:06 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Mon, 27 Jan 2025 05:43:48 GMT"
+    }
+  ],
+  "updateDate": "2025-01-28",
+  "timestamp": 1733845266000,
+  "abstract": "  De novo design of bioactive drug molecules with potential to treat desired\nbiological targets is a profound task in the drug discovery process. Existing\napproaches tend to leverage the pocket structure of the target protein to\ncondition the molecule generation. However, even the pocket area of the target\nprotein may contain redundant information since not all atoms in the pocket is\nresponsible for the interaction with the ligand. In this work, we propose\nPharmacoBridge, a phamacophore-guided de novo design approach to generate drug\ncandidates inducing desired bioactivity via diffusion bridge. Our method adapts\nthe diffusion bridge to effectively convert pharmacophore arrangements in the\nspatial space into molecular structures under the manner of SE(3)-equivariant\ntransformation, providing sophisticated control over optimal biochemical\nfeature arrangements on the generated molecules. PharmacoBridge is demonstrated\nto generate hit candidates that exhibit high binding affinity with potential\nprotein targets.\n",
+  "subjects": [
+    "Quantitative Biology/Biomolecules",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "o7Vu0CXhPaORsWriDGQKJqCFwWZPGMzYbewucCvyM6A",
+  "pdfSize": "4638588"
+}

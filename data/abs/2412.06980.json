@@ -1,0 +1,56 @@
+{
+  "id": "2412.06980",
+  "title": "Diff-GO$^\\text{n}$: Enhancing Diffusion Models for Goal-Oriented\n  Communications",
+  "authors": "Suchinthaka Wanninayaka (1), Achintha Wijesinghe (1), Weiwei Wang (1),\n  Yu-Chieh Chao (1), Songyang Zhang (2), Zhi Ding (1) ((1) University of\n  California at Davis, USA, (2) University of Louisiana at Lafayette, USA)",
+  "authorsParsed": [
+    [
+      "Wanninayaka",
+      "Suchinthaka",
+      ""
+    ],
+    [
+      "Wijesinghe",
+      "Achintha",
+      ""
+    ],
+    [
+      "Wang",
+      "Weiwei",
+      ""
+    ],
+    [
+      "Chao",
+      "Yu-Chieh",
+      ""
+    ],
+    [
+      "Zhang",
+      "Songyang",
+      ""
+    ],
+    [
+      "Ding",
+      "Zhi",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 9 Dec 2024 20:41:52 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Wed, 11 Dec 2024 02:47:32 GMT"
+    }
+  ],
+  "updateDate": "2024-12-12",
+  "timestamp": 1733776912000,
+  "abstract": "  The rapid expansion of edge devices and Internet-of-Things (IoT) continues to\nheighten the demand for data transport under limited spectrum resources. The\ngoal-oriented communications (GO-COM), unlike traditional communication systems\ndesigned for bit-level accuracy, prioritizes more critical information for\nspecific application goals at the receiver. To improve the efficiency of\ngenerative learning models for GO-COM, this work introduces a novel\nnoise-restricted diffusion-based GO-COM (Diff-GO$^\\text{n}$) framework for\nreducing bandwidth overhead while preserving the media quality at the receiver.\nSpecifically, we propose an innovative Noise-Restricted Forward Diffusion\n(NR-FD) framework to accelerate model training and reduce the computation\nburden for diffusion-based GO-COMs by leveraging a pre-sampled pseudo-random\nnoise bank (NB). Moreover, we design an early stopping criterion for improving\ncomputational efficiency and convergence speed, allowing high-quality\ngeneration in fewer training steps. Our experimental results demonstrate\nsuperior perceptual quality of data transmission at a reduced bandwidth usage\nand lower computation, making Diff-GO$^\\text{n}$ well-suited for real-time\ncommunications and downstream applications.\n",
+  "subjects": [
+    "Electrical Engineering and Systems Science/Image and Video Processing"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "l1R5QAqGfRnyoMAHNSioZBP_drUt5b2_pcUSFmDiO-s",
+  "pdfSize": "3016365"
+}

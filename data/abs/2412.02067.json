@@ -1,0 +1,57 @@
+{
+  "id": "2412.02067",
+  "title": "Transverse magnetic focusing in two-dimensional hole gases",
+  "authors": "Yik K. Lee, Jackson S. Smith, Hong Liu, Dimitrie Culcer, Oleg P.\n  Sushkov, Alexander R. Hamilton, Jared H. Cole",
+  "authorsParsed": [
+    [
+      "Lee",
+      "Yik K.",
+      ""
+    ],
+    [
+      "Smith",
+      "Jackson S.",
+      ""
+    ],
+    [
+      "Liu",
+      "Hong",
+      ""
+    ],
+    [
+      "Culcer",
+      "Dimitrie",
+      ""
+    ],
+    [
+      "Sushkov",
+      "Oleg P.",
+      ""
+    ],
+    [
+      "Hamilton",
+      "Alexander R.",
+      ""
+    ],
+    [
+      "Cole",
+      "Jared H.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 3 Dec 2024 01:08:43 GMT"
+    }
+  ],
+  "updateDate": "2024-12-04",
+  "timestamp": 1733188123000,
+  "abstract": "  Two-dimensional hole gases (2DHGs) have strong intrinsic spin-orbit coupling\nand could be used to build spin filters by utilising transverse magnetic\nfocusing (TMF). However, with an increase in the spin degree of freedom, holes\ndemonstrate significantly different behaviour to electrons in TMF experiments,\nmaking it difficult to interpret the results of these experiments. In this\npaper, we numerically model TMF in a 2DHG within a\nGaAs/Al$_{\\mathrm{x}}$Ga$_{\\mathrm{1-x}}$As heterostructure. Our band structure\ncalculations show that the heavy $(\\langle J_{z} \\rangle = \\pm\\frac{3}{2})$ and\nlight $(\\langle J_{z} \\rangle = \\pm\\frac{1}{2})$ hole states in the valence\nband mix at finite $k$, and the heavy hole subbands which are spin-split due to\nthe Rashba effect are not spin-polarised. This lack of spin polarisation casts\ndoubt on the viability of spin filtering using TMF in 2DHGs within conventional\nGaAs/Al$_{\\mathrm{x}}$Ga$_{\\mathrm{1-x}}$As heterostructures. We then calculate\ntransport properties of the 2DHG with spin projection and offer a new\nperspective on interpreting and designing TMF experiments in 2DHGs.\n",
+  "subjects": [
+    "Condensed Matter/Mesoscale and Nanoscale Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "Q1MXQRDz4xu5AnV0p7pm00BOm5nQ7Rl54OZX_NDurOY",
+  "pdfSize": "6752948"
+}

@@ -1,0 +1,34 @@
+{
+  "id": "2412.19384",
+  "title": "The Internet of Value: Integrating Blockchain and Lightning Network\n  Micropayments for Knowledge Markets",
+  "authors": "Ellis Solaiman and Jorge Robins",
+  "authorsParsed": [
+    [
+      "Solaiman",
+      "Ellis",
+      ""
+    ],
+    [
+      "Robins",
+      "Jorge",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 26 Dec 2024 23:57:54 GMT"
+    }
+  ],
+  "updateDate": "2024-12-30",
+  "timestamp": 1735257474000,
+  "abstract": "  Q&A websites rely on user-generated responses, with incentives such as\nreputation scores or monetary rewards often offered. While some users may find\nit intrinsically rewarding to assist others, studies indicate that payment can\nimprove the quality and speed of answers. However, traditional payment\nprocessors impose minimum thresholds that many Q&A inquiries fall below. The\nintroduction of Bitcoin enabled direct digital value transfer, yet frequent\nmicropayments remain challenging. Recent advancements like the Lightning\nNetwork now allow frictionless micropayments by reducing costs and minimising\nreliance on intermediaries. This development fosters an \"Internet of Value,\"\nwhere transferring even small amounts of money is as simple as sharing data.\nThis study investigates integrating Lightning Network-based micropayment\nstrategies into Q&A platforms, aiming to create a knowledge market free of\nminimum payment barriers. A survey was conducted to address the gap below the\n$2 payment level identified in prior research. Responses confirmed that\nincentives for asking and answering weaken as payments decrease. Findings\nreveal even minimal payments, such as {\\pounds}0.01, significantly encourage\nhigher quality and effort in responses. The study recommends micropayment\nincentives for service-oriented applications, particularly Q&A platforms. By\nleveraging the Lightning Network to remove barriers, a more open marketplace\ncan emerge, improving engagement and outcomes. Further research is needed to\nconfirm if users follow through on reported intentions when spending funds.\n",
+  "subjects": [
+    "Computer Science/Computers and Society",
+    "Computer Science/Computational Engineering, Finance, and Science",
+    "Computer Science/Emerging Technologies"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "gy6Gdp6W786pgb5-7EkMm33AUvLccG0lk_NvyL0pEBw",
+  "pdfSize": "711150"
+}

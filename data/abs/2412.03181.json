@@ -1,0 +1,32 @@
+{
+  "id": "2412.03181",
+  "title": "Resource Slicing through Intelligent Orchestration of Energy-aware IoT\n  services in Edge-Cloud Continuum",
+  "authors": "Hafiz Faheem Shahid and Erkki Harjula",
+  "authorsParsed": [
+    [
+      "Shahid",
+      "Hafiz Faheem",
+      ""
+    ],
+    [
+      "Harjula",
+      "Erkki",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 4 Dec 2024 10:07:24 GMT"
+    }
+  ],
+  "updateDate": "2024-12-05",
+  "timestamp": 1733306844000,
+  "abstract": "  The rapid growth of the Internet of Things (IoT) applications inflicts high\nrequirements for computing resources and network bandwidth. A growing number of\nservice providers are applying edge-cloud computing to improve the quality of\ntheir services. Deploying IoT applications to optimal computing nodes to\nminimize energy consumption and enhance system performance remains an open\nchallenge. In this paper, we present an intelligent orchestration concept for\nbreaking down IoT applications into granular microservices, called\nnanoservices, and deploying them in an energy-aware manner to optimal computing\nnodes in the edge-cloud continuum by applying resource and network slicing\nmethods. With this consolidated slicing scheme, we can efficiently allocate\nnetwork and compute resources to meet the needs of these nanoservices.\n",
+  "subjects": [
+    "Computer Science/Distributed, Parallel, and Cluster Computing"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "Vh06JSJVmLo4KBPThQCitNLU7262AWQOFUZ7idJx8eA",
+  "pdfSize": "676436"
+}

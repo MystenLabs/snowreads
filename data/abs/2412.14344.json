@@ -1,0 +1,42 @@
+{
+  "id": "2412.14344",
+  "title": "Euler-type recurrences for $t$-color and $t$-regular partition functions",
+  "authors": "Tapas Bhowmik, Wei-Lun Tsai, Dongxi Ye",
+  "authorsParsed": [
+    [
+      "Bhowmik",
+      "Tapas",
+      ""
+    ],
+    [
+      "Tsai",
+      "Wei-Lun",
+      ""
+    ],
+    [
+      "Ye",
+      "Dongxi",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 18 Dec 2024 21:29:16 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Sun, 22 Dec 2024 18:50:40 GMT"
+    }
+  ],
+  "updateDate": "2024-12-24",
+  "timestamp": 1734557356000,
+  "abstract": "  We give Euler-like recursive formulas for the $t$-colored partition function\nwhen $t=2$ or $t=3,$ as well as for all $t$-regular partition functions. In\nparticular, we derive an infinite family of ``triangular number\" recurrences\nfor the $3$-colored partition function. Our proofs are inspired by the recent\nwork of Gomez, Ono, Saad, and Singh on the ordinary partition function and make\nextensive use of $q$-series identities for $(q;q)_{\\infty}$ and\n$(q;q)_{\\infty}^3.$\n",
+  "subjects": [
+    "Mathematics/Number Theory",
+    "Mathematics/Combinatorics"
+  ],
+  "license": "http://creativecommons.org/licenses/by-sa/4.0/",
+  "blobId": "UabXYKq9XDD0-l6ECpMu8StcWi63nbLLNyfznXr85Cg",
+  "pdfSize": "206491"
+}

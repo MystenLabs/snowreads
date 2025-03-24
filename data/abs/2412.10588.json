@@ -1,0 +1,38 @@
+{
+  "id": "2412.10588",
+  "title": "Analytic proofs for logics of evidence and truth",
+  "authors": "Walter Carnielli, Lorenzzo Frade, Abilio Rodrigues",
+  "authorsParsed": [
+    [
+      "Carnielli",
+      "Walter",
+      ""
+    ],
+    [
+      "Frade",
+      "Lorenzzo",
+      ""
+    ],
+    [
+      "Rodrigues",
+      "Abilio",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 13 Dec 2024 22:12:19 GMT"
+    }
+  ],
+  "updateDate": "2024-12-24",
+  "timestamp": 1734127939000,
+  "abstract": "  This paper presents a sound, complete, and decidable analytic tableau system\nfor the logic of evidence and truth \\letf, introduced in\n  Rodrigues, Bueno-Soler \\& Carnielli (Synthese, DOI:\n10.1007/s11229-020-02571-w, 2020). \\letf\\ is an extension of the logic of\nfirst-degree entailment (\\fde), also known as Belnap-Dunn logic. \\fde\\ is a\nwidely studied four-valued paraconsistent logic, with applications in computer\nscience and in the algebra of processes. \\letf\\ extends \\fde\\ in a very natural\nway, by adding a classicality operator \\cons, which recovers classical logic\nfor propositions in its scope, and a non-classicality operator \\incon, dual of\n\\cons.\n",
+  "subjects": [
+    "Mathematics/Logic",
+    "Mathematics/History and Overview"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "SRa_jePA6bE-lx9pKbY08Qxlv2EkiDCWpWr9fVWF9Yc",
+  "pdfSize": "186439"
+}

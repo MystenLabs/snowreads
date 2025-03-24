@@ -1,0 +1,32 @@
+{
+  "id": "2412.08590",
+  "title": "Preventing Conflicting Gradients in Neural Marked Temporal Point\n  Processes",
+  "authors": "Tanguy Bosser and Souhaib Ben Taieb",
+  "authorsParsed": [
+    [
+      "Bosser",
+      "Tanguy",
+      ""
+    ],
+    [
+      "Taieb",
+      "Souhaib Ben",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 11 Dec 2024 18:10:04 GMT"
+    }
+  ],
+  "updateDate": "2024-12-12",
+  "timestamp": 1733940604000,
+  "abstract": "  Neural Marked Temporal Point Processes (MTPP) are flexible models to capture\ncomplex temporal inter-dependencies between labeled events. These models\ninherently learn two predictive distributions: one for the arrival times of\nevents and another for the types of events, also known as marks. In this study,\nwe demonstrate that learning a MTPP model can be framed as a two-task learning\nproblem, where both tasks share a common set of trainable parameters that are\noptimized jointly. We show that this often leads to the emergence of\nconflicting gradients during training, where task-specific gradients are\npointing in opposite directions. When such conflicts arise, following the\naverage gradient can be detrimental to the learning of each individual tasks,\nresulting in overall degraded performance. To overcome this issue, we introduce\nnovel parametrizations for neural MTPP models that allow for separate modeling\nand training of each task, effectively avoiding the problem of conflicting\ngradients. Through experiments on multiple real-world event sequence datasets,\nwe demonstrate the benefits of our framework compared to the original model\nformulations.\n",
+  "subjects": [
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "t0gWwWm_k-WOEL3XV0YiyWYM9IEI5HEI8DILR7P_uvk",
+  "pdfSize": "2371308"
+}

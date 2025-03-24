@@ -1,0 +1,34 @@
+{
+  "id": "2412.12852",
+  "title": "Selective Shot Learning for Code Explanation",
+  "authors": "Paheli Bhattacharya, Rishabh Gupta",
+  "authorsParsed": [
+    [
+      "Bhattacharya",
+      "Paheli",
+      ""
+    ],
+    [
+      "Gupta",
+      "Rishabh",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 17 Dec 2024 12:26:14 GMT"
+    }
+  ],
+  "updateDate": "2024-12-18",
+  "timestamp": 1734438374000,
+  "abstract": "  Code explanation plays a crucial role in the software engineering domain,\naiding developers in grasping code functionality efficiently. Recent work shows\nthat the performance of LLMs for code explanation improves in a few-shot\nsetting, especially when the few-shot examples are selected intelligently.\nState-of-the-art approaches for such Selective Shot Learning (SSL) include\ntoken-based and embedding-based methods. However, these SSL approaches have\nbeen evaluated on proprietary LLMs, without much exploration on open-source\nCode-LLMs. Additionally, these methods lack consideration for programming\nlanguage syntax. To bridge these gaps, we present a comparative study and\npropose a novel SSL method (SSL_ner) that utilizes entity information for\nfew-shot example selection. We present several insights and show the\neffectiveness of SSL_ner approach over state-of-the-art methods across two\ndatasets. To the best of our knowledge, this is the first systematic\nbenchmarking of open-source Code-LLMs while assessing the performances of the\nvarious few-shot examples selection approaches for the code explanation task.\n",
+  "subjects": [
+    "Computer Science/Software Engineering",
+    "Computer Science/Computation and Language",
+    "Computer Science/Information Retrieval"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "tX0QeOaqvkzcGE4IfHEmAmb5AwTZ6OGrOU653pmaeCU",
+  "pdfSize": "1552465"
+}

@@ -1,0 +1,63 @@
+{
+  "id": "2412.17824",
+  "title": "Ensemble Machine Learning Model for Inner Speech Recognition: A\n  Subject-Specific Investigation",
+  "authors": "Shahamat Mustavi Tasin, Muhammad E. H. Chowdhury, Shona Pedersen,\n  Malek Chabbouh, Diala Bushnaq, Raghad Aljindi, Saidul Kabir, Anwarul Hasan",
+  "authorsParsed": [
+    [
+      "Tasin",
+      "Shahamat Mustavi",
+      ""
+    ],
+    [
+      "Chowdhury",
+      "Muhammad E. H.",
+      ""
+    ],
+    [
+      "Pedersen",
+      "Shona",
+      ""
+    ],
+    [
+      "Chabbouh",
+      "Malek",
+      ""
+    ],
+    [
+      "Bushnaq",
+      "Diala",
+      ""
+    ],
+    [
+      "Aljindi",
+      "Raghad",
+      ""
+    ],
+    [
+      "Kabir",
+      "Saidul",
+      ""
+    ],
+    [
+      "Hasan",
+      "Anwarul",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 9 Dec 2024 16:50:49 GMT"
+    }
+  ],
+  "updateDate": "2024-12-25",
+  "timestamp": 1733763049000,
+  "abstract": "  Inner speech recognition has gained enormous interest in recent years due to\nits applications in rehabilitation, developing assistive technology, and\ncognitive assessment. However, since language and speech productions are a\ncomplex process, for which identifying speech components has remained a\nchallenging task. Different approaches were taken previously to reach this\ngoal, but new approaches remain to be explored. Also, a subject-oriented\nanalysis is necessary to understand the underlying brain dynamics during inner\nspeech production, which can bring novel methods to neurological research. A\npublicly available dataset, Thinking Out Loud Dataset, has been used to develop\na Machine Learning (ML)-based technique to classify inner speech using\n128-channel surface EEG signals. The dataset is collected on a Spanish cohort\nof ten subjects while uttering four words (Arriba, Abajo, Derecha, and\nIzquierda) by each participant. Statistical methods were employed to detect and\nremove motion artifacts from the Electroencephalography (EEG) signals. A large\nnumber (191 per channel) of time-, frequency- and time-frequency-domain\nfeatures were extracted. Eight feature selection algorithms are explored, and\nthe best feature selection technique is selected for subsequent evaluations.\nThe performance of six ML algorithms is evaluated, and an ensemble model is\nproposed. Deep Learning (DL) models are also explored, and the results are\ncompared with the classical ML approach. The proposed ensemble model, by\nstacking the five best logistic regression models, generated an overall\naccuracy of 81.13% and an F1 score of 81.12% in the classification of four\ninner speech words using surface EEG signals. The proposed framework with the\nproposed ensemble of classical ML models shows promise in the classification of\ninner speech using surface EEG signals.\n",
+  "subjects": [
+    "Electrical Engineering and Systems Science/Signal Processing",
+    "Computer Science/Computation and Language"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "OVrGUrTAAIeelJeA2cdgVT4h2RGZ3kcgdX9tyH2Klt4",
+  "pdfSize": "1870945"
+}

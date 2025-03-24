@@ -1,0 +1,52 @@
+{
+  "id": "2412.12069",
+  "title": "Accurate Surrogate Amplitudes with Calibrated Uncertainties",
+  "authors": "Henning Bahl, Nina Elmer, Luigi Favaro, Manuel Hau{\\ss}mann, Tilman\n  Plehn, Ramon Winterhalder",
+  "authorsParsed": [
+    [
+      "Bahl",
+      "Henning",
+      ""
+    ],
+    [
+      "Elmer",
+      "Nina",
+      ""
+    ],
+    [
+      "Favaro",
+      "Luigi",
+      ""
+    ],
+    [
+      "Haußmann",
+      "Manuel",
+      ""
+    ],
+    [
+      "Plehn",
+      "Tilman",
+      ""
+    ],
+    [
+      "Winterhalder",
+      "Ramon",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 16 Dec 2024 18:42:52 GMT"
+    }
+  ],
+  "updateDate": "2024-12-17",
+  "timestamp": 1734374572000,
+  "abstract": "  Neural networks for LHC physics have to be accurate, reliable, and\ncontrolled. Using surrogate loop amplitudes as a use case, we first show how\nactivation functions can be systematically tested with KANs. For reliability\nand control, we learn uncertainties together with the target amplitude over\nphase space. Systematic uncertainties can be learned by a heteroscedastic loss,\nbut a comprehensive learned uncertainty requires Bayesian networks or repulsive\nensembles. We compute pull distributions to show to what level learned\nuncertainties are calibrated correctly for cutting-edge precision surrogates.\n",
+  "subjects": [
+    "Physics/High Energy Physics - Phenomenology"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "b1xnN2tVMpEDOK4rKikyJIJp3kkBVPQPtnyh4GFblUE",
+  "pdfSize": "951398"
+}

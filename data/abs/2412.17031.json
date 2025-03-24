@@ -1,0 +1,63 @@
+{
+  "id": "2412.17031",
+  "title": "A Reality Check on Context Utilisation for Retrieval-Augmented\n  Generation",
+  "authors": "Lovisa Hagstr\\\"om, Sara Vera Marjanovi\\'c, Haeun Yu, Arnav Arora,\n  Christina Lioma, Maria Maistro, Pepa Atanasova, Isabelle Augenstein",
+  "authorsParsed": [
+    [
+      "Hagström",
+      "Lovisa",
+      ""
+    ],
+    [
+      "Marjanović",
+      "Sara Vera",
+      ""
+    ],
+    [
+      "Yu",
+      "Haeun",
+      ""
+    ],
+    [
+      "Arora",
+      "Arnav",
+      ""
+    ],
+    [
+      "Lioma",
+      "Christina",
+      ""
+    ],
+    [
+      "Maistro",
+      "Maria",
+      ""
+    ],
+    [
+      "Atanasova",
+      "Pepa",
+      ""
+    ],
+    [
+      "Augenstein",
+      "Isabelle",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 22 Dec 2024 14:16:38 GMT"
+    }
+  ],
+  "updateDate": "2024-12-24",
+  "timestamp": 1734876998000,
+  "abstract": "  Retrieval-augmented generation (RAG) helps address the limitations of the\nparametric knowledge embedded within a language model (LM). However,\ninvestigations of how LMs utilise retrieved information of varying complexity\nin real-world scenarios have been limited to synthetic contexts. We introduce\nDRUID (Dataset of Retrieved Unreliable, Insufficient and\nDifficult-to-understand contexts) with real-world queries and contexts manually\nannotated for stance. The dataset is based on the prototypical task of\nautomated claim verification, for which automated retrieval of real-world\nevidence is crucial. We compare DRUID to synthetic datasets (CounterFact,\nConflictQA) and find that artificial datasets often fail to represent the\ncomplex and diverse real-world context settings. We show that synthetic\ndatasets exaggerate context characteristics rare in real retrieved data, which\nleads to inflated context utilisation results, as measured by our novel ACU\nscore. Moreover, while previous work has mainly focused on singleton context\ncharacteristics to explain context utilisation, correlations between singleton\ncontext properties and ACU on DRUID are surprisingly small compared to other\nproperties related to context source. Overall, our work underscores the need\nfor real-world aligned context utilisation studies to represent and improve\nperformance in real-world RAG settings.\n",
+  "subjects": [
+    "Computer Science/Computation and Language",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "XXWfWJIMiBxxSmRvjhg3tYx-aSLrd8yv-8K6qhjXlIA",
+  "pdfSize": "8091033"
+}

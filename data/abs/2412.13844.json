@@ -1,0 +1,63 @@
+{
+  "id": "2412.13844",
+  "title": "CRM: Retrieval Model with Controllable Condition",
+  "authors": "Chi Liu, Jiangxia Cao, Rui Huang, Kuo Cai, Weifeng Ding, Qiang Luo,\n  Kun Gai, Guorui Zhou",
+  "authorsParsed": [
+    [
+      "Liu",
+      "Chi",
+      ""
+    ],
+    [
+      "Cao",
+      "Jiangxia",
+      ""
+    ],
+    [
+      "Huang",
+      "Rui",
+      ""
+    ],
+    [
+      "Cai",
+      "Kuo",
+      ""
+    ],
+    [
+      "Ding",
+      "Weifeng",
+      ""
+    ],
+    [
+      "Luo",
+      "Qiang",
+      ""
+    ],
+    [
+      "Gai",
+      "Kun",
+      ""
+    ],
+    [
+      "Zhou",
+      "Guorui",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 18 Dec 2024 13:37:36 GMT"
+    }
+  ],
+  "updateDate": "2024-12-19",
+  "timestamp": 1734529056000,
+  "abstract": "  Recommendation systems (RecSys) are designed to connect users with relevant\nitems from a vast pool of candidates while aligning with the business goals of\nthe platform. A typical industrial RecSys is composed of two main stages,\nretrieval and ranking: (1) the retrieval stage aims at searching hundreds of\nitem candidates satisfied user interests; (2) based on the retrieved items, the\nranking stage aims at selecting the best dozen items by multiple targets\nestimation for each item candidate, including classification and regression\ntargets. Compared with ranking model, the retrieval model absence of item\ncandidate information during inference, therefore retrieval models are often\ntrained by classification target only (e.g., click-through rate), but failed to\nincorporate regression target (e.g., the expected watch-time), which limit the\neffectiveness of retrieval. In this paper, we propose the Controllable\nRetrieval Model (CRM), which integrates regression information as conditional\nfeatures into the two-tower retrieval paradigm. This modification enables the\nretrieval stage could fulfill the target gap with ranking model, enhancing the\nretrieval model ability to search item candidates satisfied the user interests\nand condition effectively. We validate the effectiveness of CRM through\nreal-world A/B testing and demonstrate its successful deployment in Kuaishou\nshort-video recommendation system, which serves over 400 million users.\n",
+  "subjects": [
+    "Computer Science/Information Retrieval",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "VVSF_PnqbhSTficYxLTlK1xKusCRTbT_QEzIOSVlt4U",
+  "pdfSize": "2079189"
+}

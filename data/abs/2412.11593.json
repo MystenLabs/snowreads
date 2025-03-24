@@ -1,0 +1,57 @@
+{
+  "id": "2412.11593",
+  "title": "Exploring Offline Pileup Correction to Improve the Accuracy of\n  Microdosimetric Characterization in Clinical Ion Beams",
+  "authors": "Matthias Knopf, Sandra Barna, Daniel Radmanovac, Thomas Bergauer,\n  Albert Hirtl and Giulio Magrin",
+  "authorsParsed": [
+    [
+      "Knopf",
+      "Matthias",
+      ""
+    ],
+    [
+      "Barna",
+      "Sandra",
+      ""
+    ],
+    [
+      "Radmanovac",
+      "Daniel",
+      ""
+    ],
+    [
+      "Bergauer",
+      "Thomas",
+      ""
+    ],
+    [
+      "Hirtl",
+      "Albert",
+      ""
+    ],
+    [
+      "Magrin",
+      "Giulio",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 16 Dec 2024 09:30:19 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Thu, 19 Dec 2024 11:16:21 GMT"
+    }
+  ],
+  "updateDate": "2024-12-20",
+  "timestamp": 1734341419000,
+  "abstract": "  Microdosimetry investigates the energy deposition of ionizing radiation at\nmicroscopic scales, beyond the assessment capabilities of macroscopic\ndosimetry. This contributes to an understanding of the biological response in\nradiobiology, radiation protection and radiotherapy. Microdosimetric pulse\nheight spectra are usually measured using an ionization detector in a pulsed\nreadout mode. This incorporates and a charge-sensitive amplifier followed by a\nshaping network. At high particle rates, the pileup of multiple pulses leads to\ndistortions in the recorded spectra. Especially for gas-based detectors, this\nis a significant issue, that can be reduced by using solid-state detectors with\nsmaller cross-sectional areas and faster readout speeds. At particle rates\ntypical for ion therapy, however, such devices will also experience pileup.\nMitigation techniques often focus on avoiding pileup altogether, while\npost-processing approaches are rarely investigated. This work explores pileup\neffects in microdosimetric measurements and presents a stochastic resampling\nalgorithm, allowing for offline simulation and correction of spectra. Initially\nit was developed for measuring neutron spectra with tissue equivalent\nproportional counters and is adapted for the use with solid-state\nmicrodosimeters in a clinical radiotherapy setting. The algorithm was tested on\ndata acquired with solid-state microdosimeters at the MedAustron ion therapy\nfacility. The successful simulation and reduction of pileup counts is achieved\nby establishing of a limited number of parameters for a given setup. The\npresented results illustrate the potential of offline correction methods in\nsituations where a direct pileup-free measurement is currently not practicable.\n",
+  "subjects": [
+    "Physics/Medical Physics",
+    "Physics/Instrumentation and Detectors"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "dYpCoNHMmLlA8uW7ewIMewONXLuHL6MBNgXL7GfSz9o",
+  "pdfSize": "563563"
+}

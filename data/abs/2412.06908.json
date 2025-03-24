@@ -1,0 +1,44 @@
+{
+  "id": "2412.06908",
+  "title": "Framework to coordinate ubiquitous devices with SOA standards",
+  "authors": "Oscar A. Testa, Efrain R. Fonseca C., Germ\\'an Montejano, Oscar Dieste",
+  "authorsParsed": [
+    [
+      "Testa",
+      "Oscar A.",
+      ""
+    ],
+    [
+      "C.",
+      "Efrain R. Fonseca",
+      ""
+    ],
+    [
+      "Montejano",
+      "Germán",
+      ""
+    ],
+    [
+      "Dieste",
+      "Oscar",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 9 Dec 2024 19:01:29 GMT"
+    }
+  ],
+  "updateDate": "2024-12-11",
+  "timestamp": 1733770889000,
+  "abstract": "  Context: Ubiquitous devices and pervasive environments are in permanent\ninteraction in people's daily lives. In today's hyper-connected environments,\nit is necessary for these devices to interact with each other, transparently to\nthe users. The problem is analyzed from the different perspectives that compose\nit: SOA, service composition, interaction, and the capabilities of ubiquitous\ndevices. Problem: Currently, ubiquitous devices can interact in a limited way\ndue to the proprietary mechanisms and protocols available on the market. The\nfew proposals from academia have hardly achieved an impact in practice. This is\nnot in harmony with the situation of the Internet environment and web services,\nwhich have standardized mechanisms for service composition. Aim: Apply the\nprinciples of SOA, currently standardized and tested in the information systems\nindustry, for the connectivity of ubiquitous devices in pervasive environments.\nFor this, a coordination framework based on these technologies is proposed.\nMethodology: We apply an adaptation of Design Science in our environment to\nallow the iterative construction and evaluation of prototypes. For this, a\nproof of concept is developed on which this methodology and its cycles are\nbased. Results: We built and put into operation a coordination framework for\nubiquitous devices based on WS-CDL, along with a proof of concept. In addition,\nwe contribute to the WS-CDL language in order to support the characteristics of\nspecific ubiquitous devices.\n",
+  "subjects": [
+    "Computer Science/Software Engineering",
+    "Computer Science/Computers and Society",
+    "Computer Science/Distributed, Parallel, and Cluster Computing"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "KsuRLXfUFq6Wc4yjrM18iHe30kCXIlq0XXp4M8rltEs",
+  "pdfSize": "623574"
+}

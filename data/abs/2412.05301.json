@@ -1,0 +1,54 @@
+{
+  "id": "2412.05301",
+  "title": "DocEDA: Automated Extraction and Design of Analog Circuits from\n  Documents with Large Language Model",
+  "authors": "Hong Cai Chen, Longchang Wu, Ming Gao, Lingrui Shen, Jiarui Zhong,\n  Yipin Xu",
+  "authorsParsed": [
+    [
+      "Chen",
+      "Hong Cai",
+      ""
+    ],
+    [
+      "Wu",
+      "Longchang",
+      ""
+    ],
+    [
+      "Gao",
+      "Ming",
+      ""
+    ],
+    [
+      "Shen",
+      "Lingrui",
+      ""
+    ],
+    [
+      "Zhong",
+      "Jiarui",
+      ""
+    ],
+    [
+      "Xu",
+      "Yipin",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 25 Nov 2024 15:41:43 GMT"
+    }
+  ],
+  "updateDate": "2024-12-10",
+  "timestamp": 1732549303000,
+  "abstract": "  Efficient and accurate extraction of electrical parameters from circuit\ndatasheets and design documents is critical for accelerating circuit design in\nElectronic Design Automation (EDA). Traditional workflows often rely on\nengineers manually searching and extracting these parameters, which is\ntime-consuming, and prone to human error. To address these challenges, we\nintroduce DocEDA, an automated system that leverages advanced computer vision\ntechniques and Large Language Models (LLMs) to extract electrical parameters\nseamlessly from documents. The layout analysis model specifically designed for\ndatasheet is proposed to classify documents into circuit-related parts.\nUtilizing the inherent Chain-of-Thought reasoning capabilities of LLMs, DocEDA\nautomates the extraction of electronic component parameters from documents. For\ncircuit diagrams parsing, an improved GAM-YOLO model is hybrid with topology\nidentification to transform diagrams into circuit netlists. Then, a space\nmapping enhanced optimization framework is evoked for optimization the layout\nin the document. Experimental evaluations demonstrate that DocEDA significantly\nenhances the efficiency of processing circuit design documents and the accuracy\nof electrical parameter extraction. It exhibits adaptability to various circuit\ndesign scenarios and document formats, offering a novel solution for EDA with\nthe potential to transform traditional methodologies.\n",
+  "subjects": [
+    "Computer Science/Hardware Architecture",
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Computation and Language"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "IEw11ER87joezEzW9HnKJc-osX1AkrxC_rGgvykLjfk",
+  "pdfSize": "905262"
+}

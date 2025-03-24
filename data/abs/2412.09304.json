@@ -1,0 +1,61 @@
+{
+  "id": "2412.09304",
+  "title": "Nonparametric estimation of the total treatment effect with multiple\n  outcomes in the presence of terminal events",
+  "authors": "Jessica Gronsbell, Zachary R. McCaw, Isabelle-Emmanuella Nogues,\n  Xiangshan Kong, Tianxi Cai, Lu Tian, LJ Wei",
+  "authorsParsed": [
+    [
+      "Gronsbell",
+      "Jessica",
+      ""
+    ],
+    [
+      "McCaw",
+      "Zachary R.",
+      ""
+    ],
+    [
+      "Nogues",
+      "Isabelle-Emmanuella",
+      ""
+    ],
+    [
+      "Kong",
+      "Xiangshan",
+      ""
+    ],
+    [
+      "Cai",
+      "Tianxi",
+      ""
+    ],
+    [
+      "Tian",
+      "Lu",
+      ""
+    ],
+    [
+      "Wei",
+      "LJ",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 12 Dec 2024 14:21:11 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Sat, 14 Dec 2024 02:26:19 GMT"
+    }
+  ],
+  "updateDate": "2024-12-17",
+  "timestamp": 1734013271000,
+  "abstract": "  As standards of care advance, patients are living longer and once-fatal\ndiseases are becoming manageable. Clinical trials increasingly focus on\nreducing disease burden, which can be quantified by the timing and occurrence\nof multiple non-fatal clinical events. Most existing methods for the analysis\nof multiple event-time data require stringent modeling assumptions that can be\ndifficult to verify empirically, leading to treatment efficacy estimates that\nforego interpretability when the underlying assumptions are not met. Moreover,\nmost existing methods do not appropriately account for informative terminal\nevents, such as premature treatment discontinuation or death, which prevent the\noccurrence of subsequent events. To address these limitations, we derive and\nvalidate estimation and inference procedures for the area under the mean\ncumulative function (AUMCF), an extension of the restricted mean survival time\nto the multiple event-time setting. The AUMCF is nonparametric, clinically\ninterpretable, and properly accounts for terminal competing risks. To enable\ncovariate adjustment, we also develop an augmentation estimator that provides\nefficiency at least equaling, and often exceeding, the unadjusted estimator.\nThe utility and interpretability of the AUMCF are illustrated with extensive\nsimulation studies and through an analysis of multiple heart-failure-related\nendpoints using data from the Beta-Blocker Evaluation of Survival Trial (BEST)\nclinical trial. Our open-source R package MCC makes conducting AUMCF analyses\nstraightforward and accessible.\n",
+  "subjects": [
+    "Statistics/Methodology"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "_obLGOwkr2En7yFVgymA7od0hn5SV-6TH1wt-GGJV94",
+  "pdfSize": "1047667"
+}

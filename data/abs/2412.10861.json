@@ -1,0 +1,58 @@
+{
+  "id": "2412.10861",
+  "title": "Heterogeneous Graph Transformer for Multiple Tiny Object Tracking in\n  RGB-T Videos",
+  "authors": "Qingyu Xu, Longguang Wang, Weidong Sheng, Yingqian Wang, Chao Xiao,\n  Chao Ma, Wei An",
+  "authorsParsed": [
+    [
+      "Xu",
+      "Qingyu",
+      ""
+    ],
+    [
+      "Wang",
+      "Longguang",
+      ""
+    ],
+    [
+      "Sheng",
+      "Weidong",
+      ""
+    ],
+    [
+      "Wang",
+      "Yingqian",
+      ""
+    ],
+    [
+      "Xiao",
+      "Chao",
+      ""
+    ],
+    [
+      "Ma",
+      "Chao",
+      ""
+    ],
+    [
+      "An",
+      "Wei",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 14 Dec 2024 15:17:49 GMT"
+    }
+  ],
+  "updateDate": "2024-12-17",
+  "timestamp": 1734189469000,
+  "abstract": "  Tracking multiple tiny objects is highly challenging due to their weak\nappearance and limited features. Existing multi-object tracking algorithms\ngenerally focus on single-modality scenes, and overlook the complementary\ncharacteristics of tiny objects captured by multiple remote sensors. To enhance\ntracking performance by integrating complementary information from multiple\nsources, we propose a novel framework called {HGT-Track (Heterogeneous Graph\nTransformer based Multi-Tiny-Object Tracking)}. Specifically, we first employ a\nTransformer-based encoder to embed images from different modalities.\nSubsequently, we utilize Heterogeneous Graph Transformer to aggregate spatial\nand temporal information from multiple modalities to generate detection and\ntracking features. Additionally, we introduce a target re-detection module\n(ReDet) to ensure tracklet continuity by maintaining consistency across\ndifferent modalities. Furthermore, this paper introduces the first benchmark\nVT-Tiny-MOT (Visible-Thermal Tiny Multi-Object Tracking) for RGB-T fused\nmultiple tiny object tracking. Extensive experiments are conducted on\nVT-Tiny-MOT, and the results have demonstrated the effectiveness of our method.\nCompared to other state-of-the-art methods, our method achieves better\nperformance in terms of MOTA (Multiple-Object Tracking Accuracy) and ID-F1\nscore. The code and dataset will be made available at\nhttps://github.com/xuqingyu26/HGTMT.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "V7JGHeyzFtqXuv6lbWFEIJmldCYBHBKq9apTOapvtV4",
+  "pdfSize": "2653509"
+}

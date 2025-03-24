@@ -1,0 +1,42 @@
+{
+  "id": "2412.05924",
+  "title": "Mating versus alternative blood sources as determinants to mosquito\n  abundance and population resilience",
+  "authors": "Gideon A. Ngwa, Bime M. Ghakanyuy, Miranda I. Teboh-Ewungkem, Jacek\n  Banasiak",
+  "authorsParsed": [
+    [
+      "Ngwa",
+      "Gideon A.",
+      ""
+    ],
+    [
+      "Ghakanyuy",
+      "Bime M.",
+      ""
+    ],
+    [
+      "Teboh-Ewungkem",
+      "Miranda I.",
+      ""
+    ],
+    [
+      "Banasiak",
+      "Jacek",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 8 Dec 2024 12:44:09 GMT"
+    }
+  ],
+  "updateDate": "2024-12-10",
+  "timestamp": 1733661849000,
+  "abstract": "  A deterministic nonlinear ordinary differential equation model for mosquito\ndynamics in which the mosquitoes can quest for blood either within a human\npopulation or within non-human/vertebrate populations is derived and studied.\nThe model captures both the mosquito's aquatic and terrestrial forms and\nincludes a mechanism to investigate the impact of mating on mosquito dynamics.\nThe model uses a restricted form of homogeneous mixing based on the idea that\nthe mosquito has a blood-feeding habit by accounting for the mosquitoes'\nblood-feeding preferences as well as its gonotrophic cycle. This\ncharacterization allows us to compartmentalise the total mosquito population\ninto distinct compartments according to the spatial location of the mosquito\n(breeding site, resting places and questing places) as well as blood-fed\nstatus. Issues of overcrowding and intraspecific competition both within the\naquatic and the terrestrial stages of the mosquito's life forms are addressed\nand considered in the model. Results show that the inclusion of mating induces\nbi-stability; a phenomenon whereby locally stable trivial and non-trivial\nequilibria co-exist with an unstable non-zero equilibrium. The local nature of\nthe stable equilibria is demonstrated by numerically showing that the long-term\nstate of the system is sensitive to initial conditions. The bi-stability state\nis analogous to the phenomenon of the Allee effect that has been reported in\npopulation biology. The model's results, including the derivation of the\nthreshold parameter of the system, are comprehensively tested via numerical\nsimulations. The output of our model has direct application to mosquito control\nstrategies, for it clearly shows key points in the mosquito's developmental\npathway that can be targeted for control purposes.\n",
+  "subjects": [
+    "Quantitative Biology/Populations and Evolution"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "_t5roOrZDuYkF26eK_Q399NdHqwNKHct452Xc7-A31o",
+  "pdfSize": "1101703"
+}

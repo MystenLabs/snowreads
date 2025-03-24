@@ -1,0 +1,32 @@
+{
+  "id": "2412.18736",
+  "title": "Revisiting the search for dark matter subhalos using the Fermi-LAT\n  4FGL-DR4 catalog",
+  "authors": "Ji-Gui Cheng and Le Zou",
+  "authorsParsed": [
+    [
+      "Cheng",
+      "Ji-Gui",
+      ""
+    ],
+    [
+      "Zou",
+      "Le",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 25 Dec 2024 01:49:18 GMT"
+    }
+  ],
+  "updateDate": "2024-12-30",
+  "timestamp": 1735091358000,
+  "abstract": "  Numerical simulations suggest that dark matter halos surrounding galaxies\nhost numerous small subhalos, which might be detectable by the Fermi-LAT. In\nthis work, we revisit the search for gamma-ray subhalo candidates using the\nlatest Fermi-LAT 4FGL-DR4 catalog. The search is performed by fitting the\nspectral data of unassociated point sources in the catalog through an unbinned\nmaximum likelihood method. We consider two models in the fitting. One is an\nempirical function provided by the catalog, and another is a DM model in which\nDM particles within nearby subhalos annihilate into gamma rays and other\nStandard Model particles. Based on the fitting results, we identify 32\ncandidates for which the maximum likelihood value of the DM model fit exceeds\nthat of the empirical function fit. The estimated J-factors of these candidates\nrange from $0.2$ to $5.8 \\times 10^{20}\\,{\\rm GeV^{2}\\,cm^{-5}}$, the DM\nparticle masses vary from $30$ to $500\\,{\\rm GeV}$ and 12 of them are within\nthe range of $[30, 80]\\,{\\rm GeV}$. Candidate 4FGL J2124.2+1531 is an exception\nwith a J-factor of $4.52 \\times 10^{21}\\,{\\rm GeV^{2}\\,cm^{-5}}$ and a particle\nmass of $3108.44\\,{\\rm GeV}$. Interestingly, the identified candidates do not\noverlap with those reported in previous works, and we discuss the possible\nreasons for the discrepancy. At the current stage, we cannot rule out the\npossibility that these candidates are gamma-ray pulsars, and further\nconfirmation through multi-band observations is required.\n",
+  "subjects": [
+    "Astrophysics/High Energy Astrophysical Phenomena"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "Vmpqf7Z4KHDTXHb88ZGfPB4Zk9jEavwTCc8P256s3mA",
+  "pdfSize": "2026862"
+}

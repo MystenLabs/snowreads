@@ -1,0 +1,72 @@
+{
+  "id": "2412.05149",
+  "title": "Findings of the Second BabyLM Challenge: Sample-Efficient Pretraining on\n  Developmentally Plausible Corpora",
+  "authors": "Michael Y. Hu, Aaron Mueller, Candace Ross, Adina Williams, Tal\n  Linzen, Chengxu Zhuang, Ryan Cotterell, Leshem Choshen, Alex Warstadt, Ethan\n  Gotlieb Wilcox",
+  "authorsParsed": [
+    [
+      "Hu",
+      "Michael Y.",
+      ""
+    ],
+    [
+      "Mueller",
+      "Aaron",
+      ""
+    ],
+    [
+      "Ross",
+      "Candace",
+      ""
+    ],
+    [
+      "Williams",
+      "Adina",
+      ""
+    ],
+    [
+      "Linzen",
+      "Tal",
+      ""
+    ],
+    [
+      "Zhuang",
+      "Chengxu",
+      ""
+    ],
+    [
+      "Cotterell",
+      "Ryan",
+      ""
+    ],
+    [
+      "Choshen",
+      "Leshem",
+      ""
+    ],
+    [
+      "Warstadt",
+      "Alex",
+      ""
+    ],
+    [
+      "Wilcox",
+      "Ethan Gotlieb",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 6 Dec 2024 16:06:08 GMT"
+    }
+  ],
+  "updateDate": "2024-12-09",
+  "timestamp": 1733501168000,
+  "abstract": "  The BabyLM Challenge is a community effort to close the data-efficiency gap\nbetween human and computational language learners. Participants compete to\noptimize language model training on a fixed language data budget of 100 million\nwords or less. This year, we released improved text corpora, as well as a\nvision-and-language corpus to facilitate research into cognitively plausible\nvision language models. Submissions were compared on evaluation tasks targeting\ngrammatical ability, (visual) question answering, pragmatic abilities, and\ngrounding, among other abilities. Participants could submit to a 10M-word\ntext-only track, a 100M-word text-only track, and/or a 100M-word and image\nmultimodal track. From 31 submissions employing diverse methods, a hybrid\ncausal-masked language model architecture outperformed other approaches. No\nsubmissions outperformed the baselines in the multimodal track. In follow-up\nanalyses, we found a strong relationship between training FLOPs and average\nperformance across tasks, and that the best-performing submissions proposed\nchanges to the training data, training objective, and model architecture. This\nyear's BabyLM Challenge shows that there is still significant room for\ninnovation in this setting, in particular for image-text modeling, but\ncommunity-driven research can yield actionable insights about effective\nstrategies for small-scale language modeling.\n",
+  "subjects": [
+    "Computer Science/Computation and Language"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "_alBHNhx6Yj4GjhFFPfwwwQCHGOwc8Bq9WBGD74MTXU",
+  "pdfSize": "471939"
+}

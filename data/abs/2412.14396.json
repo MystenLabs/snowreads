@@ -1,0 +1,34 @@
+{
+  "id": "2412.14396",
+  "title": "Fingerprinting Codes Meet Geometry: Improved Lower Bounds for Private\n  Query Release and Adaptive Data Analysis",
+  "authors": "Xin Lyu, Kunal Talwar",
+  "authorsParsed": [
+    [
+      "Lyu",
+      "Xin",
+      ""
+    ],
+    [
+      "Talwar",
+      "Kunal",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 18 Dec 2024 23:11:07 GMT"
+    }
+  ],
+  "updateDate": "2024-12-20",
+  "timestamp": 1734563467000,
+  "abstract": "  Fingerprinting codes are a crucial tool for proving lower bounds in\ndifferential privacy. They have been used to prove tight lower bounds for\nseveral fundamental questions, especially in the ``low accuracy'' regime.\nUnlike reconstruction/discrepancy approaches however, they are more suited for\nquery sets that arise naturally from the fingerprinting codes construction. In\nthis work, we propose a general framework for proving fingerprinting type lower\nbounds, that allows us to tailor the technique to the geometry of the query\nset. Our approach allows us to prove several new results, including the\nfollowing.\n  First, we show that any (sample- and population-)accurate algorithm for\nanswering $Q$ arbitrary adaptive counting queries over a universe $\\mathcal{X}$\nto accuracy $\\alpha$ needs $\\Omega(\\frac{\\sqrt{\\log |\\mathcal{X}|}\\cdot \\log\nQ}{\\alpha^3})$ samples, matching known upper bounds. This shows that the\napproaches based on differential privacy are optimal for this question, and\nimproves significantly on the previously known lower bounds of $\\frac{\\log\nQ}{\\alpha^2}$ and $\\min(\\sqrt{Q}, \\sqrt{\\log |\\mathcal{X}|})/\\alpha^2$.\n  Second, we show that any $(\\varepsilon,\\delta)$-DP algorithm for answering\n$Q$ counting queries to accuracy $\\alpha$ needs $\\Omega(\\frac{\\sqrt{\n\\log|\\mathcal{X}| \\log(1/\\delta)} \\log Q}{\\varepsilon\\alpha^2})$ samples,\nmatching known upper bounds up to constants. Our framework allows for proving\nthis bound via a direct correlation analysis and improves the prior bound of\n[BUV'14] by $\\sqrt{\\log(1/\\delta)}$.\n  Third, we characterize the sample complexity of answering a set of random\n$0$-$1$ queries under approximate differential privacy. We give new upper and\nlower bounds in different regimes. By combining them with known results, we can\ncomplete the whole picture.\n",
+  "subjects": [
+    "Computer Science/Data Structures and Algorithms",
+    "Computer Science/Cryptography and Security",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "zmAq9NqWFIrWf6ms0-DYmE0ePiU3Rw2jCGcoRPwftDo",
+  "pdfSize": "547058"
+}

@@ -1,0 +1,43 @@
+{
+  "id": "2412.07945",
+  "title": "Dynamic and Radiative Implications of Jet-Star Interactions in AGN Jets",
+  "authors": "Ga\\\"etan Fichet de Clairfontaine, Manel Perucho, Jos\\'e Mar\\'ia\n  Mart\\'i and Yuri Kovalev",
+  "authorsParsed": [
+    [
+      "de Clairfontaine",
+      "Gaëtan Fichet",
+      ""
+    ],
+    [
+      "Perucho",
+      "Manel",
+      ""
+    ],
+    [
+      "Martí",
+      "José María",
+      ""
+    ],
+    [
+      "Kovalev",
+      "Yuri",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 10 Dec 2024 22:11:21 GMT"
+    }
+  ],
+  "updateDate": "2025-02-05",
+  "timestamp": 1733868681000,
+  "abstract": "  The interactions between jets from active galactic nuclei (AGN) and their\nstellar environments significantly influence jet dynamics and emission\ncharacteristics. In low-power jets, such as those in Fanaroff-Riley I (FR I)\ngalaxies, the jet-star interactions can notably affect jet deceleration and\nenergy dissipation.\n  Recent numerical studies suggest that mass loading from stellar winds is a\nkey factor in decelerating jets, accounting for many observed characteristics\nin FR I jets. Additionally, a radio-optical positional offset has been\nobserved, with optical emission detected further down the jet than radio\nemission. This observation may challenge traditional explanations based solely\non recollimation shocks and instabilities.\n  This work utilizes the radiative transfer code RIPTIDE to generate synthetic\nsynchrotron maps, from a population of re-accelerated electrons, in both radio\nand optical bands from jet simulations incorporating various mass-loading\nprofiles and distributions of gas and stars within the ambient medium.\n  Our findings emphasize the importance of mass entrainment in replicating the\nextended and diffuse radio/optical emissions observed in FR I jets and\nexplaining the radio-optical offsets. These offsets are influenced by the\ngalaxy's physical properties, the surrounding stellar populations, and\nobservational biases. We successfully reproduce typical radio-optical offsets\nby considering a mass-load equivalent to $10^{-9}~M_\\odot \\cdot \\rm{yr}^{-1}\n\\cdot \\rm{pc}^{-3}$. Overall, our results demonstrate that positive offset\nmeasurements are a promising tool for revealing the fundamental properties of\ngalaxies and potentially their stellar populations, particularly in the context\nof FR I jets.\n",
+  "subjects": [
+    "Astrophysics/High Energy Astrophysical Phenomena",
+    "Astrophysics/Astrophysics of Galaxies"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "uDqrkuBSykrS6kizOJ7DmhMXlq1FAuiQ-EErjOQwBiA",
+  "pdfSize": "1303845"
+}

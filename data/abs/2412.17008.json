@@ -1,0 +1,44 @@
+{
+  "id": "2412.17008",
+  "title": "Data value estimation on private gradients",
+  "authors": "Zijian Zhou, Xinyi Xu, Daniela Rus, Bryan Kian Hsiang Low",
+  "authorsParsed": [
+    [
+      "Zhou",
+      "Zijian",
+      ""
+    ],
+    [
+      "Xu",
+      "Xinyi",
+      ""
+    ],
+    [
+      "Rus",
+      "Daniela",
+      ""
+    ],
+    [
+      "Low",
+      "Bryan Kian Hsiang",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 22 Dec 2024 13:15:51 GMT"
+    }
+  ],
+  "updateDate": "2024-12-24",
+  "timestamp": 1734873351000,
+  "abstract": "  For gradient-based machine learning (ML) methods commonly adopted in practice\nsuch as stochastic gradient descent, the de facto differential privacy (DP)\ntechnique is perturbing the gradients with random Gaussian noise. Data\nvaluation attributes the ML performance to the training data and is widely used\nin privacy-aware applications that require enforcing DP such as data pricing,\ncollaborative ML, and federated learning (FL). Can existing data valuation\nmethods still be used when DP is enforced via gradient perturbations? We show\nthat the answer is no with the default approach of injecting i.i.d.~random\nnoise to the gradients because the estimation uncertainty of the data value\nestimation paradoxically linearly scales with more estimation budget, producing\nestimates almost like random guesses. To address this issue, we propose to\ninstead inject carefully correlated noise to provably remove the linear scaling\nof estimation uncertainty w.r.t.~the budget. We also empirically demonstrate\nthat our method gives better data value estimates on various ML tasks and is\napplicable to use cases including dataset valuation and~FL.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Cryptography and Security"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "zMgFWvTcXGcEMIIJ_rOoGQtZG6TDYYDld5NOCC42n0Q",
+  "pdfSize": "1948041"
+}

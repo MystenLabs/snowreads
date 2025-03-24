@@ -1,0 +1,47 @@
+{
+  "id": "2412.01361",
+  "title": "Hydrodynamical simulations of proto-Moon degassing",
+  "authors": "Gustavo Madeira, Leandro Esteves, Sebastien Charnoz, Elena Lega and\n  Frederic Moynier",
+  "authorsParsed": [
+    [
+      "Madeira",
+      "Gustavo",
+      ""
+    ],
+    [
+      "Esteves",
+      "Leandro",
+      ""
+    ],
+    [
+      "Charnoz",
+      "Sebastien",
+      ""
+    ],
+    [
+      "Lega",
+      "Elena",
+      ""
+    ],
+    [
+      "Moynier",
+      "Frederic",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 2 Dec 2024 10:42:50 GMT"
+    }
+  ],
+  "updateDate": "2024-12-03",
+  "timestamp": 1733136170000,
+  "abstract": "  Similarities in the non-mass dependent isotopic composition of refractory\nelements with the bulk silicate Earth suggest that both the Earth and the Moon\nformed from the same material reservoir. On the other hand, the Moon's volatile\ndepletion and isotopic composition of moderately volatile elements points to a\nglobal devolatilization processes, most likely during a magma ocean phase of\nthe Moon. Here, we investigate the devolatilisation of the molten Moon due to a\ntidally-assisted hydrodynamic escape with a focus on the dynamics of the\nevaporated gas. Unlike the 1D steady-state approach of Charnoz et al. (2021),\nwe use 2D time-dependent hydrodynamic simulations carried out with the FARGOCA\ncode modified to take into account the magma ocean as a gas source. Near the\nEarth's Roche limit, where the proto-Moon likely formed, evaporated gases from\nthe lunar magma ocean form a circum-Earth disk of volatiles, with less than 30%\nof material being re-accreted by the Moon. We find that the measured depletion\nof K and Na on the Moon can be achieved if the lunar magma-ocean had a surface\ntemperature of about 1800-2000 K. After about 1000 years, a thermal boundary\nlayer or a flotation crust forms a lid that inhibits volatile escape. Mapping\nthe volatile velocity field reveals varying trends in the longitudes of\nvolatile reaccretion on the Moon's surface: material is predominantly\nre-accreted on the trailing side when the Moon-Earth distance exceeds 3.5 Earth\nradii, suggesting a dichotomy in volatile abundances between the leading and\ntrailing sides of the Moon. This dichotomy may provide insights on the tidal\nconditions of the early molten Earth. In conclusion, tidally-driven atmospheric\nescape effectively devolatilizes the Moon, matching the measured abundances of\nNa and K on timescales compatible with the formation of a thermal boundary\nlayer or an anorthite flotation crust.\n",
+  "subjects": [
+    "Astrophysics/Earth and Planetary Astrophysics"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "qf4bNIRvafOeXQTALKjk1MESdRL0elBGbGbMYxmICno",
+  "pdfSize": "7368479"
+}

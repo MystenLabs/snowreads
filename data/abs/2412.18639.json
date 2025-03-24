@@ -1,0 +1,38 @@
+{
+  "id": "2412.18639",
+  "title": "A Grounded Observer Framework for Establishing Guardrails for Foundation\n  Models in Socially Sensitive Domains",
+  "authors": "Rebecca Ramnauth, Dra\\v{z}en Br\\v{s}\\v{c}i\\'c and Brian Scassellati",
+  "authorsParsed": [
+    [
+      "Ramnauth",
+      "Rebecca",
+      ""
+    ],
+    [
+      "Brščić",
+      "Dražen",
+      ""
+    ],
+    [
+      "Scassellati",
+      "Brian",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 23 Dec 2024 22:57:05 GMT"
+    }
+  ],
+  "updateDate": "2024-12-30",
+  "timestamp": 1734994625000,
+  "abstract": "  As foundation models increasingly permeate sensitive domains such as\nhealthcare, finance, and mental health, ensuring their behavior meets desired\noutcomes and social expectations becomes critical. Given the complexities of\nthese high-dimensional models, traditional techniques for constraining agent\nbehavior, which typically rely on low-dimensional, discrete state and action\nspaces, cannot be directly applied. Drawing inspiration from robotic action\nselection techniques, we propose the grounded observer framework for\nconstraining foundation model behavior that offers both behavioral guarantees\nand real-time variability. This method leverages real-time assessment of\nlow-level behavioral characteristics to dynamically adjust model actions and\nprovide contextual feedback. To demonstrate this, we develop a system capable\nof sustaining contextually appropriate, casual conversations (\"small talk\"),\nwhich we then apply to a robot for novel, unscripted interactions with humans.\nFinally, we discuss potential applications of the framework for other social\ncontexts and areas for further research.\n",
+  "subjects": [
+    "Computer Science/Robotics",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "BvIPqPSEAaXhwkWE7FgOxHtYraSj3B_9x21f3sPLmEA",
+  "pdfSize": "4195456"
+}

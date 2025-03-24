@@ -1,0 +1,45 @@
+{
+  "id": "2412.08658",
+  "title": "Open-source Polymer Generative Pipeline",
+  "authors": "Debasish Mohanty, V Shreyas, Akshaya Palai, Bharath Ramsundar",
+  "authorsParsed": [
+    [
+      "Mohanty",
+      "Debasish",
+      ""
+    ],
+    [
+      "Shreyas",
+      "V",
+      ""
+    ],
+    [
+      "Palai",
+      "Akshaya",
+      ""
+    ],
+    [
+      "Ramsundar",
+      "Bharath",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 29 Nov 2024 16:32:53 GMT"
+    }
+  ],
+  "updateDate": "2024-12-13",
+  "timestamp": 1732897973000,
+  "abstract": "  Polymers play a crucial role in the development of engineering materials,\nwith applications ranging from mechanical to biomedical fields. However, the\nlimited polymerization processes constrain the variety of organic building\nblocks that can be experimentally tested. We propose an open-source\ncomputational generative pipeline that integrates neural-network-based\ndiscriminators, generators, and query-based filtration mechanisms to overcome\nthis limitation and generate hypothetical polymers. The pipeline targets\nproperties, such as ionization potential (IP), by aligning various\nrepresentational formats to generate hypothetical polymer candidates. The\ndiscriminators demonstrate improvements over state-of-the-art models due to\noptimized architecture, while the generators produce novel polymers tailored to\nthe desired property range. We conducted extensive evaluations to assess the\ngenerative performance of the pipeline components, focusing on the polymers'\nionization potential (IP). The developed pipeline is integrated into the\nDeepChem framework, enhancing its accessibility and compatibility for various\npolymer generation studies.\n",
+  "subjects": [
+    "Condensed Matter/Soft Condensed Matter",
+    "Condensed Matter/Materials Science",
+    "Quantitative Biology/Biomolecules",
+    "Quantitative Biology/Molecular Networks"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "sAXFcWVU8CTy7pMJrigZJaqrdLYh6HBGrLlUzof2RF4",
+  "pdfSize": "1089979"
+}

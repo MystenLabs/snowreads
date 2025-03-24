@@ -1,0 +1,74 @@
+{
+  "id": "2412.15220",
+  "title": "SyncFlow: Toward Temporally Aligned Joint Audio-Video Generation from\n  Text",
+  "authors": "Haohe Liu, Gael Le Lan, Xinhao Mei, Zhaoheng Ni, Anurag Kumar, Varun\n  Nagaraja, Wenwu Wang, Mark D. Plumbley, Yangyang Shi, Vikas Chandra",
+  "authorsParsed": [
+    [
+      "Liu",
+      "Haohe",
+      ""
+    ],
+    [
+      "Lan",
+      "Gael Le",
+      ""
+    ],
+    [
+      "Mei",
+      "Xinhao",
+      ""
+    ],
+    [
+      "Ni",
+      "Zhaoheng",
+      ""
+    ],
+    [
+      "Kumar",
+      "Anurag",
+      ""
+    ],
+    [
+      "Nagaraja",
+      "Varun",
+      ""
+    ],
+    [
+      "Wang",
+      "Wenwu",
+      ""
+    ],
+    [
+      "Plumbley",
+      "Mark D.",
+      ""
+    ],
+    [
+      "Shi",
+      "Yangyang",
+      ""
+    ],
+    [
+      "Chandra",
+      "Vikas",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 3 Dec 2024 21:48:08 GMT"
+    }
+  ],
+  "updateDate": "2024-12-23",
+  "timestamp": 1733262488000,
+  "abstract": "  Video and audio are closely correlated modalities that humans naturally\nperceive together. While recent advancements have enabled the generation of\naudio or video from text, producing both modalities simultaneously still\ntypically relies on either a cascaded process or multi-modal contrastive\nencoders. These approaches, however, often lead to suboptimal results due to\ninherent information losses during inference and conditioning. In this paper,\nwe introduce SyncFlow, a system that is capable of simultaneously generating\ntemporally synchronized audio and video from text. The core of SyncFlow is the\nproposed dual-diffusion-transformer (d-DiT) architecture, which enables joint\nvideo and audio modelling with proper information fusion. To efficiently manage\nthe computational cost of joint audio and video modelling, SyncFlow utilizes a\nmulti-stage training strategy that separates video and audio learning before\njoint fine-tuning. Our empirical evaluations demonstrate that SyncFlow produces\naudio and video outputs that are more correlated than baseline methods with\nsignificantly enhanced audio quality and audio-visual correspondence. Moreover,\nwe demonstrate strong zero-shot capabilities of SyncFlow, including zero-shot\nvideo-to-audio generation and adaptation to novel video resolutions without\nfurther training.\n",
+  "subjects": [
+    "Computer Science/Multimedia",
+    "Computer Science/Sound",
+    "Electrical Engineering and Systems Science/Audio and Speech Processing"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "ZJwUTWq21sz7aYm3ytYqzYwtKC5hrqyuMxjwY4xdF_4",
+  "pdfSize": "1513023"
+}

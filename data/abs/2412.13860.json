@@ -1,0 +1,38 @@
+{
+  "id": "2412.13860",
+  "title": "Domain-adaptative Continual Learning for Low-resource Tasks: Evaluation\n  on Nepali",
+  "authors": "Sharad Duwal, Suraj Prasai, Suresh Manandhar",
+  "authorsParsed": [
+    [
+      "Duwal",
+      "Sharad",
+      ""
+    ],
+    [
+      "Prasai",
+      "Suraj",
+      ""
+    ],
+    [
+      "Manandhar",
+      "Suresh",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 18 Dec 2024 13:53:59 GMT"
+    }
+  ],
+  "updateDate": "2024-12-19",
+  "timestamp": 1734530039000,
+  "abstract": "  Continual learning has emerged as an important research direction due to the\ninfeasibility of retraining large language models (LLMs) from scratch in the\nevent of new data availability. Of great interest is the domain-adaptive\npre-training (DAPT) paradigm, which focuses on continually training a\npre-trained language model to adapt it to a domain it was not originally\ntrained on. In this work, we evaluate the feasibility of DAPT in a low-resource\nsetting, namely the Nepali language. We use synthetic data to continue training\nLlama 3 8B to adapt it to the Nepali language in a 4-bit QLoRA setting. We\nevaluate the adapted model on its performance, forgetting, and knowledge\nacquisition. We compare the base model and the final model on their Nepali\ngeneration abilities, their performance on popular benchmarks, and run\ncase-studies to probe their linguistic knowledge in Nepali. We see some\nunsurprising forgetting in the final model, but also surprisingly find that\nincreasing the number of shots during evaluation yields better percent\nincreases in the final model (as high as 19.29% increase) compared to the base\nmodel (4.98%), suggesting latent retention. We also explore layer-head\nself-attention heatmaps to establish dependency resolution abilities of the\nfinal model in Nepali.\n",
+  "subjects": [
+    "Computer Science/Computation and Language",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "_SHpg9Y1cXLhg9AM5om30lDTzEVBGOwK6yPTW8sOhMI",
+  "pdfSize": "372988"
+}

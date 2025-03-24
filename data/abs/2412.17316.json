@@ -1,0 +1,59 @@
+{
+  "id": "2412.17316",
+  "title": "Fast Gradient Computation for RoPE Attention in Almost Linear Time",
+  "authors": "Yifang Chen, Jiayan Huo, Xiaoyu Li, Yingyu Liang, Zhenmei Shi, Zhao\n  Song",
+  "authorsParsed": [
+    [
+      "Chen",
+      "Yifang",
+      ""
+    ],
+    [
+      "Huo",
+      "Jiayan",
+      ""
+    ],
+    [
+      "Li",
+      "Xiaoyu",
+      ""
+    ],
+    [
+      "Liang",
+      "Yingyu",
+      ""
+    ],
+    [
+      "Shi",
+      "Zhenmei",
+      ""
+    ],
+    [
+      "Song",
+      "Zhao",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 23 Dec 2024 06:20:22 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Tue, 31 Dec 2024 06:53:40 GMT"
+    }
+  ],
+  "updateDate": "2025-01-03",
+  "timestamp": 1734934822000,
+  "abstract": "  The Rotary Position Embedding (RoPE) mechanism has become a powerful\nenhancement to the Transformer architecture, which enables models to capture\ntoken relationships when encoding positional information. However, the RoPE\nmechanisms make the computations of attention mechanisms more complicated,\nwhich makes efficient algorithms challenging. Earlier research introduced\nalmost linear time, i.e., $n^{1+o(1)}$ where $n$ is the number of input tokens,\nalgorithms for the forward computation under specific parameter settings.\nHowever, achieving a subquadratic time algorithm for other parameter regimes\nremains impossible unless the widely accepted Strong Exponential Time\nHypothesis (SETH) is disproven. In this work, we develop the first almost\nlinear time algorithm for backward computations in the RoPE-based attention\nunder bounded entries. Our approach builds on recent advancements in fast RoPE\nattention computations, utilizing a novel combination of the polynomial method\nand the Fast Fourier Transform. Furthermore, we show that with lower bounds\nderived from the SETH, the bounded entry condition is necessary for\nsubquadratic performance.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Computational Complexity",
+    "Computer Science/Computation and Language"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "lU7x-148334JQGw4Kjil-lB7kyvl0-dlmwJrCo_edZ8",
+  "pdfSize": "328742"
+}

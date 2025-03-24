@@ -1,0 +1,57 @@
+{
+  "id": "2412.20893",
+  "title": "Redesign Quantum Circuits on Quantum Hardware Device",
+  "authors": "Runhong He, Ji Guan, Xin Hong, Xusheng Xu, Guolong Cui, Shengbin Wang,\n  Shenggang Ying",
+  "authorsParsed": [
+    [
+      "He",
+      "Runhong",
+      ""
+    ],
+    [
+      "Guan",
+      "Ji",
+      ""
+    ],
+    [
+      "Hong",
+      "Xin",
+      ""
+    ],
+    [
+      "Xu",
+      "Xusheng",
+      ""
+    ],
+    [
+      "Cui",
+      "Guolong",
+      ""
+    ],
+    [
+      "Wang",
+      "Shengbin",
+      ""
+    ],
+    [
+      "Ying",
+      "Shenggang",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 30 Dec 2024 12:05:09 GMT"
+    }
+  ],
+  "updateDate": "2024-12-31",
+  "timestamp": 1735560309000,
+  "abstract": "  In the process of exploring quantum algorithms, researchers often need to\nconduct equivalence checking of quantum circuits with different structures or\nto reconstruct a circuit in a variational manner, aiming to reduce the depth of\nthe target circuit. Whereas the exponential resource overhead for describing\nquantum systems classically makes the existing methods not amenable to serving\nlarge-scale quantum circuits. Grounded in the entangling quantum generative\nadversarial network (EQ-GAN), we present in this article a new architecture\nwhich enables one to redesign large-scale quantum circuits on quantum hardware.\nFor concreteness, we apply this architecture to three crucial applications in\ncircuit optimization, including the equivalence checking of (non-)\nparameterized circuits, as well as the variational reconstruction of quantum\ncircuits. The feasibility of our approach is demonstrated by the excellent\nresults of these applications, which are implemented both in classical\ncomputers and current NISQ hardware. We believe our work should facilitate the\nimplementation and validation of the advantages of quantum algorithms.\n",
+  "subjects": [
+    "Physics/Quantum Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "4CXmcpLSXxBnbnE-iWOoeZMkBZfbJ4Y126uAFrYvaYU",
+  "pdfSize": "858598"
+}

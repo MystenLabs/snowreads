@@ -1,0 +1,29 @@
+{
+  "id": "2412.17003",
+  "title": "Anonymous Shamir's Secret Sharing via Reed-Solomon Codes Against\n  Permutations, Insertions, and Deletions",
+  "authors": "Roni Con",
+  "authorsParsed": [
+    [
+      "Con",
+      "Roni",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 22 Dec 2024 12:51:16 GMT"
+    }
+  ],
+  "updateDate": "2024-12-24",
+  "timestamp": 1734871876000,
+  "abstract": "  In this work, we study the performance of Reed-Solomon codes against an\nadversary that first permutes the symbols of the codeword and then performs\ninsertions and deletions. This adversarial model is motivated by the recent\ninterest in fully anonymous secret-sharing schemes [EBG+24],[BGI+24]. A fully\nanonymous secret-sharing scheme has two key properties: (1) the identities of\nthe participants are not revealed before the secret is reconstructed, and (2)\nthe shares of any unauthorized set of participants are uniform and independent.\nIn particular, the shares of any unauthorized subset reveal no information\nabout the identity of the participants who hold them.\n  In this work, we first make the following observation: Reed-Solomon codes\nthat are robust against an adversary that permutes the codeword and then\ndeletes symbols from the permuted codeword can be used to construct ramp\nthreshold secret-sharing schemes that are fully anonymous. Then, we show that\nover large enough fields of size, there are $[n,k]$ Reed-Solomon codes that are\nrobust against an adversary that arbitrary permutes the codeword and then\nperforms $n-2k+1$ insertions and deletions to the permuted codeword. This\nimplies the existence of a $(k-1, 2k-1, n)$ ramp secret sharing scheme that is\nfully anonymous. That is, any $k-1$ shares reveal nothing about the secret,\nand, moreover, this set of shares reveals no information about the identities\nof the players who hold them. On the other hand, any $2k-1$ shares can\nreconstruct the secret without revealing their identities. We also provide\nexplicit constructions of such schemes based on previous works on Reed-Solomon\ncodes correcting insertions and deletions. The constructions in this paper give\nthe first gap threshold secret-sharing schemes that satisfy the strongest\nnotion of anonymity together with perfect reconstruction.\n",
+  "subjects": [
+    "Computer Science/Information Theory",
+    "Computer Science/Cryptography and Security",
+    "Mathematics/Information Theory"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "6o_naERHsi5OZSHJnu45rhiufMVigvEJgagEB1HDrIc",
+  "pdfSize": "366654"
+}

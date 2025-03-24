@@ -1,0 +1,42 @@
+{
+  "id": "2412.00672",
+  "title": "A Sensor Position Localization Method for Flexible, Non-Uniform\n  Capacitive Tactile Sensor Arrays",
+  "authors": "Carson Kohlbrenner, Caleb Escobedo, Nataliya Nechyporenko, and\n  Alessandro Roncone",
+  "authorsParsed": [
+    [
+      "Kohlbrenner",
+      "Carson",
+      ""
+    ],
+    [
+      "Escobedo",
+      "Caleb",
+      ""
+    ],
+    [
+      "Nechyporenko",
+      "Nataliya",
+      ""
+    ],
+    [
+      "Roncone",
+      "Alessandro",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 1 Dec 2024 05:04:27 GMT"
+    }
+  ],
+  "updateDate": "2024-12-03",
+  "timestamp": 1733029467000,
+  "abstract": "  Tactile sensing is used in robotics to obtain real-time feedback during\nphysical interactions. Fine object manipulation is a robotic application that\nbenefits from a high density of sensors to accurately estimate object pose,\nwhereas a low sensing resolution is sufficient for collision detection.\nIntroducing variable sensing resolution into a single tactile sensing array can\nincrease the range of tactile use cases, but also invokes challenges in\nlocalizing internal sensor positions. In this work, we present a mutual\ncapacitance sensor array with variable sensor density, VARSkin, along with a\nlocalization method that determines the position of each sensor in the\nnon-uniform array. When tested on two distinct artificial skin patches with\nconcealed sensor layouts, our method achieves a localization accuracy within\n$\\pm 2mm$. We also provide a comprehensive error analysis, offering strategies\nfor further precision improvement.\n",
+  "subjects": [
+    "Computer Science/Robotics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "UuUYUSsid6vzd8INRa6V_tD6QHI2ndzlpCIHtsp_XvM",
+  "pdfSize": "4867347"
+}

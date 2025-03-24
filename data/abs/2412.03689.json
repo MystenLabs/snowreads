@@ -1,0 +1,43 @@
+{
+  "id": "2412.03689",
+  "title": "Predicting Pedestrian Crossing Behavior in Germany and Japan: Insights\n  into Model Transferability",
+  "authors": "Chi Zhang (1), Janis Sprenger (2), Zhongjun Ni (3), Christian Berger\n  (1) ((1) Department of Computer Science and Engineering, University of\n  Gothenburg, Sweden, (2) German Research Center for Artificial Intelligence\n  (DFKI), Saarland Informatics Campus, Germany, (3) Department of Science and\n  Technology, Link\\\"oping University, Campus Norrk\\\"oping, Sweden)",
+  "authorsParsed": [
+    [
+      "Zhang",
+      "Chi",
+      ""
+    ],
+    [
+      "Sprenger",
+      "Janis",
+      ""
+    ],
+    [
+      "Ni",
+      "Zhongjun",
+      ""
+    ],
+    [
+      "Berger",
+      "Christian",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 4 Dec 2024 19:55:40 GMT"
+    }
+  ],
+  "updateDate": "2024-12-06",
+  "timestamp": 1733342140000,
+  "abstract": "  Predicting pedestrian crossing behavior is important for intelligent traffic\nsystems to avoid pedestrian-vehicle collisions. Most existing pedestrian\ncrossing behavior models are trained and evaluated on datasets collected from a\nsingle country, overlooking differences between countries. To address this gap,\nwe compared pedestrian road-crossing behavior at unsignalized crossings in\nGermany and Japan. We presented four types of machine learning models to\npredict gap selection behavior, zebra crossing usage, and their trajectories\nusing simulator data collected from both countries. When comparing the\ndifferences between countries, pedestrians from the study conducted in Japan\nare more cautious, selecting larger gaps compared to those in Germany. We\nevaluate and analyze model transferability. Our results show that neural\nnetworks outperform other machine learning models in predicting gap selection\nand zebra crossing usage, while random forest models perform best on trajectory\nprediction tasks, demonstrating strong performance and transferability. We\ndevelop a transferable model using an unsupervised clustering method, which\nimproves prediction accuracy for gap selection and trajectory prediction. These\nfindings provide a deeper understanding of pedestrian crossing behaviors in\ndifferent countries and offer valuable insights into model transferability.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "Lszy_iBJJL6RIg7jjpc1giZm-mDicwNi_yxghyh1fJo",
+  "pdfSize": "23051318"
+}

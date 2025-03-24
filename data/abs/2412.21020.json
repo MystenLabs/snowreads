@@ -1,0 +1,32 @@
+{
+  "id": "2412.21020",
+  "title": "Bivariate Truncated Moment Sequences with the Column Relation $XY=X^m +\n  q(X)$, with $q$ of degree $m-1$",
+  "authors": "Seonguk Yoo and Aljaz Zalar",
+  "authorsParsed": [
+    [
+      "Yoo",
+      "Seonguk",
+      ""
+    ],
+    [
+      "Zalar",
+      "Aljaz",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 30 Dec 2024 15:42:17 GMT"
+    }
+  ],
+  "updateDate": "2024-12-31",
+  "timestamp": 1735573337000,
+  "abstract": "  When the algebraic variety associated with a truncated moment sequence is\nfinite, solving the moment problem follows a well-defined procedure. However,\nmoment problems involving infinite algebraic varieties are more complex and\nless well-understood. Recent studies suggest that certain bivariate moment\nsequences can be transformed into equivalent univariate sequences, offering a\nvaluable approach for solving these problems. In this paper, we focus on\naddressing the truncated moment problem (TMP) for specific rational plane\ncurves. For a curve of general degree we derive an equivalent Hankel positive\nsemidefinite completion problem. For cubic curves, we solve this problem\nexplicitly, which resolves the TMP for one of the four types of cubic curves,\nup to affine linear equivalence. For the quartic case we simplify the\ncompletion problem to a feasibility question of a three-variable system of\ninequalities.\n",
+  "subjects": [
+    "Mathematics/Functional Analysis"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "S75s28eltpoOb-OQEfo3wSxm6olVeT0NcoIPtBjtRwI",
+  "pdfSize": "300099"
+}

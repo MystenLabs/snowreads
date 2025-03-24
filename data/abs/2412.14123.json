@@ -1,0 +1,42 @@
+{
+  "id": "2412.14123",
+  "title": "AnySat: An Earth Observation Model for Any Resolutions, Scales, and\n  Modalities",
+  "authors": "Guillaume Astruc, Nicolas Gonthier, Clement Mallet, Loic Landrieu",
+  "authorsParsed": [
+    [
+      "Astruc",
+      "Guillaume",
+      ""
+    ],
+    [
+      "Gonthier",
+      "Nicolas",
+      ""
+    ],
+    [
+      "Mallet",
+      "Clement",
+      ""
+    ],
+    [
+      "Landrieu",
+      "Loic",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 18 Dec 2024 18:11:53 GMT"
+    }
+  ],
+  "updateDate": "2024-12-19",
+  "timestamp": 1734545513000,
+  "abstract": "  Geospatial models must adapt to the diversity of Earth observation data in\nterms of resolutions, scales, and modalities. However, existing approaches\nexpect fixed input configurations, which limits their practical applicability.\nWe propose AnySat, a multimodal model based on joint embedding predictive\narchitecture (JEPA) and resolution-adaptive spatial encoders, allowing us to\ntrain a single model on highly heterogeneous data in a self-supervised manner.\nTo demonstrate the advantages of this unified approach, we compile GeoPlex, a\ncollection of $5$ multimodal datasets with varying characteristics and $11$\ndistinct sensors. We then train a single powerful model on these diverse\ndatasets simultaneously. Once fine-tuned, we achieve better or near\nstate-of-the-art results on the datasets of GeoPlex and $4$ additional ones for\n$5$ environment monitoring tasks: land cover mapping, tree species\nidentification, crop type classification, change detection, and flood\nsegmentation. The code and models are available at\nhttps://github.com/gastruc/AnySat.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "Dyji0lcsz-Ls8eHlpYY3Stj4gVcAvNhVkiyVm98_YYY",
+  "pdfSize": "10779070"
+}

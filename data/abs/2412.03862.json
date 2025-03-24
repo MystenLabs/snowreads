@@ -1,0 +1,36 @@
+{
+  "id": "2412.03862",
+  "title": "Frequent elements in union-closed set families",
+  "authors": "Shagnik Das and Saintan Wu",
+  "authorsParsed": [
+    [
+      "Das",
+      "Shagnik",
+      ""
+    ],
+    [
+      "Wu",
+      "Saintan",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 5 Dec 2024 04:19:05 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Sat, 14 Dec 2024 18:06:21 GMT"
+    }
+  ],
+  "updateDate": "2024-12-17",
+  "timestamp": 1733372345000,
+  "abstract": "  The Union-Closed Sets Conjecture asks whether every union-closed set family\n$\\mathcal{F}$ has an element contained in $\\frac12 |\\mathcal{F}|$ of its sets.\nIn 2022, Nagel posed a generalisation of this problem, suggesting that the\n$k$th most popular element in a union-closed set family must be contained in at\nleast $\\frac{1}{2^{k-1} + 1} |\\mathcal{F}|$ sets.\n  We combine the entropic method of Gilmer with the combinatorial arguments of\nKnill to show that this is indeed the case for all $k \\ge 3$, and when $k = 2$\nand either $|\\mathcal{F}| \\le 44$ or $|\\mathcal{F}| \\ge 114$, and characterise\nthe families that achieve equality.\n  Furthermore, we show that when $|\\mathcal{F}| \\to \\infty$, the $k$th most\nfrequent element will appear in at least $\\left( \\frac{3 - \\sqrt{5}}{2} - o(1)\n\\right) |\\mathcal{F}|$ sets, reflecting the recent progress made for the\nUnion-Closed Set Conjecture.\n",
+  "subjects": [
+    "Mathematics/Combinatorics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "cSgeGR9QJONovZJbIN5zvGr10RBdHSa4o8MKIEPILf8",
+  "pdfSize": "227036"
+}

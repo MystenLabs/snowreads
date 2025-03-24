@@ -1,0 +1,54 @@
+{
+  "id": "2412.17839",
+  "title": "LaMI-GO: Latent Mixture Integration for Goal-Oriented Communications\n  Achieving High Spectrum Efficiency",
+  "authors": "Achintha Wijesinghe, Suchinthaka Wanninayaka, Weiwei Wang, Yu-Chieh\n  Chao, Songyang Zhang, and Zhi Ding",
+  "authorsParsed": [
+    [
+      "Wijesinghe",
+      "Achintha",
+      ""
+    ],
+    [
+      "Wanninayaka",
+      "Suchinthaka",
+      ""
+    ],
+    [
+      "Wang",
+      "Weiwei",
+      ""
+    ],
+    [
+      "Chao",
+      "Yu-Chieh",
+      ""
+    ],
+    [
+      "Zhang",
+      "Songyang",
+      ""
+    ],
+    [
+      "Ding",
+      "Zhi",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 18 Dec 2024 07:20:42 GMT"
+    }
+  ],
+  "updateDate": "2024-12-25",
+  "timestamp": 1734506442000,
+  "abstract": "  The recent rise of semantic-style communications includes the development of\ngoal-oriented communications (GOCOMs) remarkably efficient multimedia\ninformation transmissions. The concept of GO-COMS leverages advanced artificial\nintelligence (AI) tools to address the rising demand for bandwidth efficiency\nin applications, such as edge computing and Internet-of-Things (IoT). Unlike\ntraditional communication systems focusing on source data accuracy, GO-COMs\nprovide intelligent message delivery catering to the special needs critical to\naccomplishing downstream tasks at the receiver. In this work, we present a\nnovel GO-COM framework, namely LaMI-GO that utilizes emerging generative AI for\nbetter quality-of-service (QoS) with ultra-high communication efficiency.\nSpecifically, we design our LaMI-GO system backbone based on a latent diffusion\nmodel followed by a vector-quantized generative adversarial network (VQGAN) for\nefficient latent embedding and information representation. The system trains a\ncommon feature codebook the receiver side. Our experimental results demonstrate\nsubstantial improvement in perceptual quality, accuracy of downstream tasks,\nand bandwidth consumption over the state-of-the-art GOCOM systems and establish\nthe power of our proposed LaMI-GO communication framework.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Computer Science/Artificial Intelligence",
+    "Electrical Engineering and Systems Science/Image and Video Processing"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "vMuUG08Chx2DFzjZDyWyppGQZsfjFD_bunb708ij3BQ",
+  "pdfSize": "3997189"
+}

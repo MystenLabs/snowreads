@@ -1,0 +1,32 @@
+{
+  "id": "2412.04753",
+  "title": "Well-Posedness for a Magnetohydrodynamical Model with Intrinsic\n  Magnetisation",
+  "authors": "Noah Vinod and Thanh Tran",
+  "authorsParsed": [
+    [
+      "Vinod",
+      "Noah",
+      ""
+    ],
+    [
+      "Tran",
+      "Thanh",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 6 Dec 2024 03:34:48 GMT"
+    }
+  ],
+  "updateDate": "2024-12-09",
+  "timestamp": 1733456088000,
+  "abstract": "  Ferromagnetic magnetohydrodynamics concerns the study of conducting fluids\nwith intrinsic magnetisation under the influence of a magnetic field. It is a\ngeneralisation of the magnetohydrodynamical equations and takes into account\nthe dynamics of the magnetisation of a fluid. First proposed by Lingam (Lingam,\n`Dissipative effects in magnetohydrodynamical models with intrinsic\nmagnetisation', Communications in Nonlinear Science and Numerical Simulation\nVol 28, pp 223-231, 2015), the usual equations of magnetohydrodynamics, namely\nthe Navier-Stokes equation and the induction equation, are coupled with the\nLandau-Lifshitz-Gilbert equation. In this paper, the local existence,\nuniqueness and regularity of weak solutions to this system are discussed.\n",
+  "subjects": [
+    "Mathematics/Analysis of PDEs"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "U6YFJ_m2xcYI8-JTsvLxEX46zH7p6uHzpwEraq0GUK8",
+  "pdfSize": "380288"
+}

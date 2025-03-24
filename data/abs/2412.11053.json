@@ -1,0 +1,33 @@
+{
+  "id": "2412.11053",
+  "title": "NITRO: LLM Inference on Intel Laptop NPUs",
+  "authors": "Anthony Fei, Mohamed S. Abdelfattah",
+  "authorsParsed": [
+    [
+      "Fei",
+      "Anthony",
+      ""
+    ],
+    [
+      "Abdelfattah",
+      "Mohamed S.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 15 Dec 2024 05:15:54 GMT"
+    }
+  ],
+  "updateDate": "2024-12-17",
+  "timestamp": 1734239754000,
+  "abstract": "  Large Language Models (LLMs) have become essential tools in natural language\nprocessing, finding large usage in chatbots such as ChatGPT and Gemini, and are\na central area of research. A particular area of interest includes designing\nhardware specialized for these AI applications, with one such example being the\nneural processing unit (NPU). In 2023, Intel released the Intel Core Ultra\nprocessor with codename Meteor Lake, featuring a CPU, GPU, and NPU\nsystem-on-chip. However, official software support for the NPU through Intel's\nOpenVINO framework is limited to static model inference. The dynamic nature of\nautoregressive token generation in LLMs is therefore not supported out of the\nbox. To address this shortcoming, we present NITRO (NPU Inference for\nTransformers Optimization), a Python-based framework built on top of OpenVINO\nto support text and chat generation on NPUs. In this paper, we discuss in\ndetail the key modifications made to the transformer architecture to enable\ninference, some performance benchmarks, and future steps towards improving the\npackage. The code repository for NITRO can be found here:\nhttps://github.com/abdelfattah-lab/nitro.\n",
+  "subjects": [
+    "Computer Science/Computation and Language",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "BtmzfEcJZlFHQFDEVrb_BlNvyvJVC00AhigWMHOIGYQ",
+  "pdfSize": "3783203"
+}

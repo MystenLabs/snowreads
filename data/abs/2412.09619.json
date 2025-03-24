@@ -1,0 +1,117 @@
+{
+  "id": "2412.09619",
+  "title": "SnapGen: Taming High-Resolution Text-to-Image Models for Mobile Devices\n  with Efficient Architectures and Training",
+  "authors": "Dongting Hu, Jierun Chen, Xijie Huang, Huseyin Coskun, Arpit Sahni,\n  Aarush Gupta, Anujraaj Goyal, Dishani Lahiri, Rajesh Singh, Yerlan Idelbayev,\n  Junli Cao, Yanyu Li, Kwang-Ting Cheng, S.-H. Gary Chan, Mingming Gong, Sergey\n  Tulyakov, Anil Kag, Yanwu Xu, Jian Ren",
+  "authorsParsed": [
+    [
+      "Hu",
+      "Dongting",
+      ""
+    ],
+    [
+      "Chen",
+      "Jierun",
+      ""
+    ],
+    [
+      "Huang",
+      "Xijie",
+      ""
+    ],
+    [
+      "Coskun",
+      "Huseyin",
+      ""
+    ],
+    [
+      "Sahni",
+      "Arpit",
+      ""
+    ],
+    [
+      "Gupta",
+      "Aarush",
+      ""
+    ],
+    [
+      "Goyal",
+      "Anujraaj",
+      ""
+    ],
+    [
+      "Lahiri",
+      "Dishani",
+      ""
+    ],
+    [
+      "Singh",
+      "Rajesh",
+      ""
+    ],
+    [
+      "Idelbayev",
+      "Yerlan",
+      ""
+    ],
+    [
+      "Cao",
+      "Junli",
+      ""
+    ],
+    [
+      "Li",
+      "Yanyu",
+      ""
+    ],
+    [
+      "Cheng",
+      "Kwang-Ting",
+      ""
+    ],
+    [
+      "Chan",
+      "S. -H. Gary",
+      ""
+    ],
+    [
+      "Gong",
+      "Mingming",
+      ""
+    ],
+    [
+      "Tulyakov",
+      "Sergey",
+      ""
+    ],
+    [
+      "Kag",
+      "Anil",
+      ""
+    ],
+    [
+      "Xu",
+      "Yanwu",
+      ""
+    ],
+    [
+      "Ren",
+      "Jian",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 12 Dec 2024 18:59:53 GMT"
+    }
+  ],
+  "updateDate": "2024-12-13",
+  "timestamp": 1734029993000,
+  "abstract": "  Existing text-to-image (T2I) diffusion models face several limitations,\nincluding large model sizes, slow runtime, and low-quality generation on mobile\ndevices. This paper aims to address all of these challenges by developing an\nextremely small and fast T2I model that generates high-resolution and\nhigh-quality images on mobile platforms. We propose several techniques to\nachieve this goal. First, we systematically examine the design choices of the\nnetwork architecture to reduce model parameters and latency, while ensuring\nhigh-quality generation. Second, to further improve generation quality, we\nemploy cross-architecture knowledge distillation from a much larger model,\nusing a multi-level approach to guide the training of our model from scratch.\nThird, we enable a few-step generation by integrating adversarial guidance with\nknowledge distillation. For the first time, our model SnapGen, demonstrates the\ngeneration of 1024x1024 px images on a mobile device around 1.4 seconds. On\nImageNet-1K, our model, with only 372M parameters, achieves an FID of 2.06 for\n256x256 px generation. On T2I benchmarks (i.e., GenEval and DPG-Bench), our\nmodel with merely 379M parameters, surpasses large-scale models with billions\nof parameters at a significantly smaller size (e.g., 7x smaller than SDXL, 14x\nsmaller than IF-XL).\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "Tupl3aPRuZh33nv4qUd-jBGcja3tEv2s0mrtgLnTJ_w",
+  "pdfSize": "25517389"
+}

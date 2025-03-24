@@ -1,0 +1,32 @@
+{
+  "id": "2412.00106",
+  "title": "Scalable computation of the maximum flow in large brain connectivity\n  networks",
+  "authors": "Jingyun Qian and Georg Hahn",
+  "authorsParsed": [
+    [
+      "Qian",
+      "Jingyun",
+      ""
+    ],
+    [
+      "Hahn",
+      "Georg",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 27 Nov 2024 22:57:24 GMT"
+    }
+  ],
+  "updateDate": "2024-12-03",
+  "timestamp": 1732748244000,
+  "abstract": "  We are interested in computing an approximation of the maximum flow in large\n(brain) connectivity networks. The maximum flow in such networks is of interest\nin order to better understand the routing of information in the human brain.\nHowever, the runtime of $O(|V||E|^2)$ for the classic Edmonds-Karp algorithm\nrenders computations of the maximum flow on networks with millions of vertices\ninfeasible, where $V$ is the set of vertices and $E$ is the set of edges. In\nthis contribution, we propose a new Monte Carlo algorithm which is capable of\ncomputing an approximation of the maximum flow in networks with millions of\nvertices via subsampling. Apart from giving a point estimate of the maximum\nflow, our algorithm also returns valid confidence bounds for the true maximum\nflow. Importantly, its runtime only scales as $O(B \\cdot |\\tilde{V}|\n|\\tilde{E}|^2)$, where $B$ is the number of Monte Carlo samples, $\\tilde{V}$ is\nthe set of subsampled vertices, and $\\tilde{E}$ is the edge set induced by\n$\\tilde{V}$. Choosing $B \\in O(|V|)$ and $|\\tilde{V}| \\in O(\\sqrt{|V|})$\n(implying $|\\tilde{E}| \\in O(|V|)$) yields an algorithm with runtime\n$O(|V|^{3.5})$ while still guaranteeing the usual \"root-n\" convergence of the\nconfidence interval of the maximum flow estimate. We evaluate our proposed\nalgorithm with respect to both accuracy and runtime on simulated graphs as well\nas graphs downloaded from the Brain Networks Data Repository\n(https://networkrepository.com).\n",
+  "subjects": [
+    "Statistics/Methodology"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "yLt0vj_BEui89WeYsKUB9HstX7EG_kN6JykFSPjiuMU",
+  "pdfSize": "264102"
+}

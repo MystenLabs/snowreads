@@ -1,0 +1,73 @@
+{
+  "id": "2412.16820",
+  "title": "The support of Kostant's weight multiplicity formula is an order ideal\n  in the weak Bruhat order",
+  "authors": "Portia X. Anderson, Esther Banaian, Melanie J. Ferreri, Owen C. Goff,\n  Kimberly P. Hadaway, Pamela E. Harris, Kimberly J. Harry, Nicholas Mayers,\n  Shiyun Wang, and Alexander N. Wilson",
+  "authorsParsed": [
+    [
+      "Anderson",
+      "Portia X.",
+      ""
+    ],
+    [
+      "Banaian",
+      "Esther",
+      ""
+    ],
+    [
+      "Ferreri",
+      "Melanie J.",
+      ""
+    ],
+    [
+      "Goff",
+      "Owen C.",
+      ""
+    ],
+    [
+      "Hadaway",
+      "Kimberly P.",
+      ""
+    ],
+    [
+      "Harris",
+      "Pamela E.",
+      ""
+    ],
+    [
+      "Harry",
+      "Kimberly J.",
+      ""
+    ],
+    [
+      "Mayers",
+      "Nicholas",
+      ""
+    ],
+    [
+      "Wang",
+      "Shiyun",
+      ""
+    ],
+    [
+      "Wilson",
+      "Alexander N.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 22 Dec 2024 01:46:30 GMT"
+    }
+  ],
+  "updateDate": "2024-12-24",
+  "timestamp": 1734831990000,
+  "abstract": "  For integral weights $\\lambda$ and $\\mu$ of a classical simple Lie algebra\n$\\mathfrak{g}$, Kostant's weight multiplicity formula gives the multiplicity of\nthe weight $\\mu$ in the irreducible representation with highest weight\n$\\lambda$, which we denote by $m(\\lambda,\\mu)$. Kostant's weight multiplicity\nformula is an alternating sum over the Weyl group of the Lie algebra whose\nterms are determined via a vector partition function. The Weyl alternation set\n$\\mathcal{A}(\\lambda,\\mu)$ is the set of Weyl group elements that contribute\nnontrivially to the multiplicity $m(\\lambda,\\mu)$. In this article, we prove\nthat Weyl alternation sets are order ideals in the weak Bruhat order of the\ncorresponding Weyl group. Specializing to the Lie algebra\n$\\mathfrak{sl}_{r+1}(\\mathbb{C})$, we give a complete characterization of the\nWeyl alternation sets $\\mathcal{A}(\\tilde{\\alpha},\\mu)$, where $\\tilde{\\alpha}$\nis the highest root and $\\mu$ is a negative root, answering a question of Harry\nposed in 2024. We also provide some enumerative results that pave the way for\nour future work where we aim to prove Harry's conjecture that the $q$-analog of\nKostant's weight multiplicity formula\n$m_q(\\tilde{\\alpha},\\mu)=q^{r+j-i+1}+q^{r+j-i}-q^{j-i+1}$ when\n$\\mu=-(\\alpha_i+\\alpha_{i+1}+\\cdots+\\alpha_{j})$ is a negative root of\n$\\mathfrak{sl}_{r+1}(\\mathbb{C})$.\n",
+  "subjects": [
+    "Mathematics/Representation Theory",
+    "Mathematics/Combinatorics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "VU52Gb2tLt2e_YzaFAo7PUxJlrpkhd1R_xd7Sw8xyXE",
+  "pdfSize": "349703"
+}

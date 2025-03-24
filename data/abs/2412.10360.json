@@ -1,0 +1,83 @@
+{
+  "id": "2412.10360",
+  "title": "Apollo: An Exploration of Video Understanding in Large Multimodal Models",
+  "authors": "Orr Zohar, Xiaohan Wang, Yann Dubois, Nikhil Mehta, Tong Xiao,\n  Philippe Hansen-Estruch, Licheng Yu, Xiaofang Wang, Felix Juefei-Xu, Ning\n  Zhang, Serena Yeung-Levy, Xide Xia",
+  "authorsParsed": [
+    [
+      "Zohar",
+      "Orr",
+      ""
+    ],
+    [
+      "Wang",
+      "Xiaohan",
+      ""
+    ],
+    [
+      "Dubois",
+      "Yann",
+      ""
+    ],
+    [
+      "Mehta",
+      "Nikhil",
+      ""
+    ],
+    [
+      "Xiao",
+      "Tong",
+      ""
+    ],
+    [
+      "Hansen-Estruch",
+      "Philippe",
+      ""
+    ],
+    [
+      "Yu",
+      "Licheng",
+      ""
+    ],
+    [
+      "Wang",
+      "Xiaofang",
+      ""
+    ],
+    [
+      "Juefei-Xu",
+      "Felix",
+      ""
+    ],
+    [
+      "Zhang",
+      "Ning",
+      ""
+    ],
+    [
+      "Yeung-Levy",
+      "Serena",
+      ""
+    ],
+    [
+      "Xia",
+      "Xide",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 13 Dec 2024 18:53:24 GMT"
+    }
+  ],
+  "updateDate": "2024-12-16",
+  "timestamp": 1734116004000,
+  "abstract": "  Despite the rapid integration of video perception capabilities into Large\nMultimodal Models (LMMs), the underlying mechanisms driving their video\nunderstanding remain poorly understood. Consequently, many design decisions in\nthis domain are made without proper justification or analysis. The high\ncomputational cost of training and evaluating such models, coupled with limited\nopen research, hinders the development of video-LMMs. To address this, we\npresent a comprehensive study that helps uncover what effectively drives video\nunderstanding in LMMs.\n  We begin by critically examining the primary contributors to the high\ncomputational requirements associated with video-LMM research and discover\nScaling Consistency, wherein design and training decisions made on smaller\nmodels and datasets (up to a critical size) effectively transfer to larger\nmodels. Leveraging these insights, we explored many video-specific aspects of\nvideo-LMMs, including video sampling, architectures, data composition, training\nschedules, and more. For example, we demonstrated that fps sampling during\ntraining is vastly preferable to uniform frame sampling and which vision\nencoders are the best for video representation.\n  Guided by these findings, we introduce Apollo, a state-of-the-art family of\nLMMs that achieve superior performance across different model sizes. Our models\ncan perceive hour-long videos efficiently, with Apollo-3B outperforming most\nexisting $7$B models with an impressive 55.1 on LongVideoBench. Apollo-7B is\nstate-of-the-art compared to 7B LMMs with a 70.9 on MLVU, and 63.3 on\nVideo-MME.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "ZpKYpNAXg_JFhZ2OcpTkU8YE4x1G2PeQfQpOLqj6K4c",
+  "pdfSize": "31357669"
+}

@@ -1,0 +1,40 @@
+{
+  "id": "2412.11132",
+  "title": "Entropy conservative and entropy stable solid wall boundary conditions\n  for the resistive magnetohydrodynamic equations",
+  "authors": "Vladimir Pimanov, Lisandro Dalcin, Matteo Parsani",
+  "authorsParsed": [
+    [
+      "Pimanov",
+      "Vladimir",
+      ""
+    ],
+    [
+      "Dalcin",
+      "Lisandro",
+      ""
+    ],
+    [
+      "Parsani",
+      "Matteo",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 15 Dec 2024 09:36:51 GMT"
+    }
+  ],
+  "updateDate": "2024-12-17",
+  "timestamp": 1734255411000,
+  "abstract": "  We present a novel technique for imposing non-linear entropy conservative and\nentropy stable wall boundary conditions for the resistive magnetohydrodynamic\nequations in the presence of an adiabatic wall or a wall with a prescribed heat\nentropy flow, addressing three scenarios: electrically insulating walls, thin\nwalls with finite conductivity, and perfectly conducting walls. The procedure\nrelies on the formalism and mimetic properties of diagonal-norm,\nsummation-by-parts, and simultaneous-approximation-term operators. Using the\nmethod of lines, a semi-discrete entropy estimate for the entire domain is\nobtained when the proposed numerical imposition of boundary conditions is\ncoupled with an entropy-conservative or entropy-stable discrete interior\noperator. The resulting estimate mimics the global entropy estimate obtained at\nthe continuous level. The boundary data at the wall are weakly imposed using a\npenalty flux approach and a simultaneous-approximation-term technique for both\nthe conservative variables and the gradient of the entropy variables.\nDiscontinuous spectral collocation operators (mass lumped nodal discontinuous\nGalerkin operators) on high-order unstructured grids are used to demonstrate\nthe new procedure's accuracy, robustness, and efficacy for weakly enforcing\nboundary conditions. Numerical simulations confirm the non-linear stability of\nthe proposed technique, with applications to three-dimensional flows. The\nprocedure described is compatible with any diagonal-norm summation-by-parts\nspatial operator, including finite element, finite difference, finite volume,\nnodal and modal discontinuous Galerkin, and flux reconstruction schemes.\n",
+  "subjects": [
+    "Mathematics/Numerical Analysis",
+    "Computer Science/Computational Engineering, Finance, and Science",
+    "Computer Science/Numerical Analysis",
+    "Physics/Computational Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "Q2yl8DW9OKfsN06CyjXG3kV36IrfR2GUZpt0jf105JE",
+  "pdfSize": "2755696"
+}

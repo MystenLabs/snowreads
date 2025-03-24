@@ -1,0 +1,639 @@
+{
+  "id": "2412.19970",
+  "title": "Search for Solar Boosted Dark Matter Particles at the PandaX-4T\n  Experiment",
+  "authors": "Guofang Shen, Zihao Bo, Wei Chen, Xun Chen, Yunhua Chen, Zhaokan\n  Cheng, Xiangyi Cui, Yingjie Fan, Deqing Fang, Zhixing Gao, Lisheng Geng, Karl\n  Giboni, Xunan Guo, Xuyuan Guo, Zichao Guo, Chencheng Han, Ke Han, Changda He,\n  Jinrong He, Di Huang, Houqi Huang, Junting Huang, Ruquan Hou, Yu Hou,\n  Xiangdong Ji, Xiangpan Ji, Yonglin Ju, Chenxiang Li, Jiafu Li, Mingchuan Li,\n  Shuaijie Li, Tao Li, Zhiyuan Li, Qing Lin, Jianglai Liu, Congcong Lu,\n  Xiaoying Lu, Lingyin Luo, Yunyang Luo, Wenbo Ma, Yugang Ma, Yajun Mao, Yue\n  Meng, Xuyang Ning, Binyu Pang, Ningchun Qi, Zhicheng Qian, Xiangxiang Ren,\n  Dong Shan, Xiaofeng Shang, Xiyuan Shao, Manbin Shen, Wenliang Sun, Yi Tao,\n  Anqing Wang, Guanbo Wang, Hao Wang, Jiamin Wang, Lei Wang, Meng Wang, Qiuhong\n  Wang, Shaobo Wang, Siguang Wang, Wei Wang, Xiuli Wang, Xu Wang, Zhou Wang,\n  Yuehuan Wei, Weihao Wu, Yuan Wu, Mengjiao Xiao, Xiang Xiao, Kaizhi Xiong,\n  Yifan Xu, Shunyu Yao, Binbin Yan, Xiyu Yan, Yong Yang, Peihua Ye, Chunxu Yu,\n  Ying Yuan, Zhe Yuan, Youhui Yun, Xinning Zeng, Minzhen Zhang, Peng Zhang,\n  Shibo Zhang, Shu Zhang, Tao Zhang, Wei Zhang, Yang Zhang, Yingxin Zhang,\n  Yuanyuan Zhang, Li Zhao, Jifang Zhou, Jiaxu Zhou, Jiayi Zhou, Ning Zhou,\n  Xiaopeng Zhou, Yubo Zhou, and Zhizhen Zhou (PandaX Collaboration), Haipeng An\n  and Haoming Nie",
+  "authorsParsed": [
+    [
+      "Shen",
+      "Guofang",
+      "",
+      "PandaX Collaboration"
+    ],
+    [
+      "Bo",
+      "Zihao",
+      "",
+      "PandaX Collaboration"
+    ],
+    [
+      "Chen",
+      "Wei",
+      "",
+      "PandaX Collaboration"
+    ],
+    [
+      "Chen",
+      "Xun",
+      "",
+      "PandaX Collaboration"
+    ],
+    [
+      "Chen",
+      "Yunhua",
+      "",
+      "PandaX Collaboration"
+    ],
+    [
+      "Cheng",
+      "Zhaokan",
+      "",
+      "PandaX Collaboration"
+    ],
+    [
+      "Cui",
+      "Xiangyi",
+      "",
+      "PandaX Collaboration"
+    ],
+    [
+      "Fan",
+      "Yingjie",
+      "",
+      "PandaX Collaboration"
+    ],
+    [
+      "Fang",
+      "Deqing",
+      "",
+      "PandaX Collaboration"
+    ],
+    [
+      "Gao",
+      "Zhixing",
+      "",
+      "PandaX Collaboration"
+    ],
+    [
+      "Geng",
+      "Lisheng",
+      "",
+      "PandaX Collaboration"
+    ],
+    [
+      "Giboni",
+      "Karl",
+      "",
+      "PandaX Collaboration"
+    ],
+    [
+      "Guo",
+      "Xunan",
+      "",
+      "PandaX Collaboration"
+    ],
+    [
+      "Guo",
+      "Xuyuan",
+      "",
+      "PandaX Collaboration"
+    ],
+    [
+      "Guo",
+      "Zichao",
+      "",
+      "PandaX Collaboration"
+    ],
+    [
+      "Han",
+      "Chencheng",
+      "",
+      "PandaX Collaboration"
+    ],
+    [
+      "Han",
+      "Ke",
+      "",
+      "PandaX Collaboration"
+    ],
+    [
+      "He",
+      "Changda",
+      "",
+      "PandaX Collaboration"
+    ],
+    [
+      "He",
+      "Jinrong",
+      "",
+      "PandaX Collaboration"
+    ],
+    [
+      "Huang",
+      "Di",
+      "",
+      "PandaX Collaboration"
+    ],
+    [
+      "Huang",
+      "Houqi",
+      "",
+      "PandaX Collaboration"
+    ],
+    [
+      "Huang",
+      "Junting",
+      "",
+      "PandaX Collaboration"
+    ],
+    [
+      "Hou",
+      "Ruquan",
+      "",
+      "PandaX Collaboration"
+    ],
+    [
+      "Hou",
+      "Yu",
+      "",
+      "PandaX Collaboration"
+    ],
+    [
+      "Ji",
+      "Xiangdong",
+      "",
+      "PandaX Collaboration"
+    ],
+    [
+      "Ji",
+      "Xiangpan",
+      "",
+      "PandaX Collaboration"
+    ],
+    [
+      "Ju",
+      "Yonglin",
+      "",
+      "PandaX Collaboration"
+    ],
+    [
+      "Li",
+      "Chenxiang",
+      "",
+      "PandaX Collaboration"
+    ],
+    [
+      "Li",
+      "Jiafu",
+      "",
+      "PandaX Collaboration"
+    ],
+    [
+      "Li",
+      "Mingchuan",
+      "",
+      "PandaX Collaboration"
+    ],
+    [
+      "Li",
+      "Shuaijie",
+      "",
+      "PandaX Collaboration"
+    ],
+    [
+      "Li",
+      "Tao",
+      "",
+      "PandaX Collaboration"
+    ],
+    [
+      "Li",
+      "Zhiyuan",
+      "",
+      "PandaX Collaboration"
+    ],
+    [
+      "Lin",
+      "Qing",
+      "",
+      "PandaX Collaboration"
+    ],
+    [
+      "Liu",
+      "Jianglai",
+      "",
+      "PandaX Collaboration"
+    ],
+    [
+      "Lu",
+      "Congcong",
+      "",
+      "PandaX Collaboration"
+    ],
+    [
+      "Lu",
+      "Xiaoying",
+      "",
+      "PandaX Collaboration"
+    ],
+    [
+      "Luo",
+      "Lingyin",
+      "",
+      "PandaX Collaboration"
+    ],
+    [
+      "Luo",
+      "Yunyang",
+      "",
+      "PandaX Collaboration"
+    ],
+    [
+      "Ma",
+      "Wenbo",
+      "",
+      "PandaX Collaboration"
+    ],
+    [
+      "Ma",
+      "Yugang",
+      "",
+      "PandaX Collaboration"
+    ],
+    [
+      "Mao",
+      "Yajun",
+      "",
+      "PandaX Collaboration"
+    ],
+    [
+      "Meng",
+      "Yue",
+      "",
+      "PandaX Collaboration"
+    ],
+    [
+      "Ning",
+      "Xuyang",
+      "",
+      "PandaX Collaboration"
+    ],
+    [
+      "Pang",
+      "Binyu",
+      "",
+      "PandaX Collaboration"
+    ],
+    [
+      "Qi",
+      "Ningchun",
+      "",
+      "PandaX Collaboration"
+    ],
+    [
+      "Qian",
+      "Zhicheng",
+      "",
+      "PandaX Collaboration"
+    ],
+    [
+      "Ren",
+      "Xiangxiang",
+      "",
+      "PandaX Collaboration"
+    ],
+    [
+      "Shan",
+      "Dong",
+      "",
+      "PandaX Collaboration"
+    ],
+    [
+      "Shang",
+      "Xiaofeng",
+      "",
+      "PandaX Collaboration"
+    ],
+    [
+      "Shao",
+      "Xiyuan",
+      "",
+      "PandaX Collaboration"
+    ],
+    [
+      "Shen",
+      "Manbin",
+      "",
+      "PandaX Collaboration"
+    ],
+    [
+      "Sun",
+      "Wenliang",
+      "",
+      "PandaX Collaboration"
+    ],
+    [
+      "Tao",
+      "Yi",
+      "",
+      "PandaX Collaboration"
+    ],
+    [
+      "Wang",
+      "Anqing",
+      "",
+      "PandaX Collaboration"
+    ],
+    [
+      "Wang",
+      "Guanbo",
+      "",
+      "PandaX Collaboration"
+    ],
+    [
+      "Wang",
+      "Hao",
+      "",
+      "PandaX Collaboration"
+    ],
+    [
+      "Wang",
+      "Jiamin",
+      "",
+      "PandaX Collaboration"
+    ],
+    [
+      "Wang",
+      "Lei",
+      "",
+      "PandaX Collaboration"
+    ],
+    [
+      "Wang",
+      "Meng",
+      "",
+      "PandaX Collaboration"
+    ],
+    [
+      "Wang",
+      "Qiuhong",
+      "",
+      "PandaX Collaboration"
+    ],
+    [
+      "Wang",
+      "Shaobo",
+      "",
+      "PandaX Collaboration"
+    ],
+    [
+      "Wang",
+      "Siguang",
+      "",
+      "PandaX Collaboration"
+    ],
+    [
+      "Wang",
+      "Wei",
+      "",
+      "PandaX Collaboration"
+    ],
+    [
+      "Wang",
+      "Xiuli",
+      "",
+      "PandaX Collaboration"
+    ],
+    [
+      "Wang",
+      "Xu",
+      "",
+      "PandaX Collaboration"
+    ],
+    [
+      "Wang",
+      "Zhou",
+      "",
+      "PandaX Collaboration"
+    ],
+    [
+      "Wei",
+      "Yuehuan",
+      "",
+      "PandaX Collaboration"
+    ],
+    [
+      "Wu",
+      "Weihao",
+      "",
+      "PandaX Collaboration"
+    ],
+    [
+      "Wu",
+      "Yuan",
+      "",
+      "PandaX Collaboration"
+    ],
+    [
+      "Xiao",
+      "Mengjiao",
+      "",
+      "PandaX Collaboration"
+    ],
+    [
+      "Xiao",
+      "Xiang",
+      "",
+      "PandaX Collaboration"
+    ],
+    [
+      "Xiong",
+      "Kaizhi",
+      "",
+      "PandaX Collaboration"
+    ],
+    [
+      "Xu",
+      "Yifan",
+      "",
+      "PandaX Collaboration"
+    ],
+    [
+      "Yao",
+      "Shunyu",
+      "",
+      "PandaX Collaboration"
+    ],
+    [
+      "Yan",
+      "Binbin",
+      "",
+      "PandaX Collaboration"
+    ],
+    [
+      "Yan",
+      "Xiyu",
+      "",
+      "PandaX Collaboration"
+    ],
+    [
+      "Yang",
+      "Yong",
+      "",
+      "PandaX Collaboration"
+    ],
+    [
+      "Ye",
+      "Peihua",
+      "",
+      "PandaX Collaboration"
+    ],
+    [
+      "Yu",
+      "Chunxu",
+      "",
+      "PandaX Collaboration"
+    ],
+    [
+      "Yuan",
+      "Ying",
+      "",
+      "PandaX Collaboration"
+    ],
+    [
+      "Yuan",
+      "Zhe",
+      "",
+      "PandaX Collaboration"
+    ],
+    [
+      "Yun",
+      "Youhui",
+      "",
+      "PandaX Collaboration"
+    ],
+    [
+      "Zeng",
+      "Xinning",
+      "",
+      "PandaX Collaboration"
+    ],
+    [
+      "Zhang",
+      "Minzhen",
+      "",
+      "PandaX Collaboration"
+    ],
+    [
+      "Zhang",
+      "Peng",
+      "",
+      "PandaX Collaboration"
+    ],
+    [
+      "Zhang",
+      "Shibo",
+      "",
+      "PandaX Collaboration"
+    ],
+    [
+      "Zhang",
+      "Shu",
+      "",
+      "PandaX Collaboration"
+    ],
+    [
+      "Zhang",
+      "Tao",
+      "",
+      "PandaX Collaboration"
+    ],
+    [
+      "Zhang",
+      "Wei",
+      "",
+      "PandaX Collaboration"
+    ],
+    [
+      "Zhang",
+      "Yang",
+      "",
+      "PandaX Collaboration"
+    ],
+    [
+      "Zhang",
+      "Yingxin",
+      "",
+      "PandaX Collaboration"
+    ],
+    [
+      "Zhang",
+      "Yuanyuan",
+      "",
+      "PandaX Collaboration"
+    ],
+    [
+      "Zhao",
+      "Li",
+      "",
+      "PandaX Collaboration"
+    ],
+    [
+      "Zhou",
+      "Jifang",
+      "",
+      "PandaX Collaboration"
+    ],
+    [
+      "Zhou",
+      "Jiaxu",
+      "",
+      "PandaX Collaboration"
+    ],
+    [
+      "Zhou",
+      "Jiayi",
+      "",
+      "PandaX Collaboration"
+    ],
+    [
+      "Zhou",
+      "Ning",
+      "",
+      "PandaX Collaboration"
+    ],
+    [
+      "Zhou",
+      "Xiaopeng",
+      "",
+      "PandaX Collaboration"
+    ],
+    [
+      "Zhou",
+      "Yubo",
+      "",
+      "PandaX Collaboration"
+    ],
+    [
+      "Zhou",
+      "Zhizhen",
+      "",
+      "PandaX Collaboration"
+    ],
+    [
+      "An",
+      "Haipeng",
+      ""
+    ],
+    [
+      "Nie",
+      "Haoming",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 28 Dec 2024 01:50:44 GMT"
+    }
+  ],
+  "updateDate": "2024-12-31",
+  "timestamp": 1735350644000,
+  "abstract": "  We present a novel constraint on light dark matter utilizing $1.54$\ntonne$\\cdot$year of data acquired from the PandaX-4T dual-phase xenon time\nprojection chamber. This constraint is derived through detecting electronic\nrecoil signals resulting from the interaction with solar-enhanced dark matter\nflux. Low-mass dark matter particles, lighter than a few MeV/$c^2$, can scatter\nwith the thermal electrons in the Sun. Consequently, with higher kinetic\nenergy, the boosted dark matter component becomes detectable via contact\nscattering with xenon electrons, resulting in a few keV energy deposition that\nexceeds the threshold of PandaX-4T. We calculate the expected recoil energy in\nPandaX-4T considering the Sun's acceleration and the detection capabilities of\nthe xenon detector. The first experimental search results using the xenon\ndetector yield the most stringent cross-section of $3.51 \\times\n10^{-39}~\\mathrm{cm}^2$ at $0.08~\\mathrm{MeV}$/$c^2$ for a solar boosted dark\nmatter mass ranging from $0.02$ to $10~ \\mathrm{MeV}$/$c^2$, achieving a 23\nfold improvement compared with earlier experimental studies.\n",
+  "subjects": [
+    "Physics/High Energy Physics - Experiment",
+    "Physics/High Energy Physics - Phenomenology"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "OkD7r6OFWgUn538id_OceOnnjgceKwJw441Ylfuyah4",
+  "pdfSize": "682781"
+}

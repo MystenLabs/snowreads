@@ -1,0 +1,56 @@
+{
+  "id": "2412.01360",
+  "title": "Photon transport through the entire adult human head",
+  "authors": "Jack Radford, Vytautas Gradauskas, Kevin J. Mitchell, Samuel\n  Nerenberg, Ilya Starshynov, and Daniele Faccio",
+  "authorsParsed": [
+    [
+      "Radford",
+      "Jack",
+      ""
+    ],
+    [
+      "Gradauskas",
+      "Vytautas",
+      ""
+    ],
+    [
+      "Mitchell",
+      "Kevin J.",
+      ""
+    ],
+    [
+      "Nerenberg",
+      "Samuel",
+      ""
+    ],
+    [
+      "Starshynov",
+      "Ilya",
+      ""
+    ],
+    [
+      "Faccio",
+      "Daniele",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 2 Dec 2024 10:39:40 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Wed, 18 Dec 2024 13:48:13 GMT"
+    }
+  ],
+  "updateDate": "2024-12-19",
+  "timestamp": 1733135980000,
+  "abstract": "  Optical brain imaging technologies are promising due to their relatively high\ntemporal resolution, portability and cost-effectiveness. However, the highly\nscattering nature of near-infrared light in human tissue makes it challenging\nto collect photons emerging from more than 4 cm below the scalp, or with\nsource-detector separation larger than several centimeters. We explore the\nphysical limits of photon transport in the head and show that despite an\nextreme attenuation of ~10^(18), we can experimentally detect light that is\ntransmitted diametrically through the entire adult human head. Analysis of\nvarious photon migration pathways through the head also indicates how the\nsource-detector configuration can be used to isolate photons interacting with\ndeep regions of the brain that are inaccessible with current optical\ntechniques.\n",
+  "subjects": [
+    "Physics/Optics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "PerLToMTmpAInd4I7dk-OVCHCvzfNAEQh7R0FYYOllg",
+  "pdfSize": "3543176"
+}

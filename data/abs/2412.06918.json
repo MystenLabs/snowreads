@@ -1,0 +1,77 @@
+{
+  "id": "2412.06918",
+  "title": "Limiting performance of graphene bilayer sub-terahertz detectors at\n  large induced band gap",
+  "authors": "Elena I. Titova, Mikhail A. Kashchenko, Andrey V. Miakonkikh,\n  Alexander D. Morozov, Ivan K. Domaratskiy, Sergey S. Zhukov, Vladimir V.\n  Rumyantsev, Sergey V. Morozov, Kostya S. Novoselov, Denis A. Bandurin, and\n  Dmitry A. Svintsov",
+  "authorsParsed": [
+    [
+      "Titova",
+      "Elena I.",
+      ""
+    ],
+    [
+      "Kashchenko",
+      "Mikhail A.",
+      ""
+    ],
+    [
+      "Miakonkikh",
+      "Andrey V.",
+      ""
+    ],
+    [
+      "Morozov",
+      "Alexander D.",
+      ""
+    ],
+    [
+      "Domaratskiy",
+      "Ivan K.",
+      ""
+    ],
+    [
+      "Zhukov",
+      "Sergey S.",
+      ""
+    ],
+    [
+      "Rumyantsev",
+      "Vladimir V.",
+      ""
+    ],
+    [
+      "Morozov",
+      "Sergey V.",
+      ""
+    ],
+    [
+      "Novoselov",
+      "Kostya S.",
+      ""
+    ],
+    [
+      "Bandurin",
+      "Denis A.",
+      ""
+    ],
+    [
+      "Svintsov",
+      "Dmitry A.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 9 Dec 2024 19:06:20 GMT"
+    }
+  ],
+  "updateDate": "2024-12-11",
+  "timestamp": 1733771180000,
+  "abstract": "  Electrically induced $p-n$ junctions in graphene bilayer (GBL) have shown\nsuperior performance for detection of sub-THz radiation at cryogenic\ntemperatures, especially upon electrical induction of the band gap $E_g$.\nStill, the upper limits of responsivity and noise equivalent power (NEP) at\nvery large $E_g$ remained unknown. Here, we study the cryogenic performance of\nGBL detectors at $f=0.13$ THz by inducing gaps up to $E_g \\approx 90$ meV, a\nvalue close to the limits observed in recent transport experiments. High value\nof the gap is achieved by using high-$\\kappa$ bottom hafnium dioxide gate\ndielectric. The voltage responsivity, current responsivity and NEP optimized\nwith respect to doping do not demonstrate saturation with gap induction up to\nits maximum values. The NEP demonstrates an order-of-magnitude drop from\n$\\sim450$ fW/Hz$^{1/2}$ in the gapless state to $\\sim30$ fW/Hz$^{1/2}$ at the\nlargest gap. At largest induced band gaps, plasmonic oscillations of\nresponsivity become visible and important for optimization of sub-THz response.\n",
+  "subjects": [
+    "Condensed Matter/Mesoscale and Nanoscale Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "xk0rKNOTnZT24eJVDk7LxA0hZf1wINUQ18TrFo30hzg",
+  "pdfSize": "5489382"
+}

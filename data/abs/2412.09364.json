@@ -1,0 +1,33 @@
+{
+  "id": "2412.09364",
+  "title": "Prediction Aided by Surrogate Training",
+  "authors": "Eric Xia and Martin J. Wainwright",
+  "authorsParsed": [
+    [
+      "Xia",
+      "Eric",
+      ""
+    ],
+    [
+      "Wainwright",
+      "Martin J.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 12 Dec 2024 15:30:21 GMT"
+    }
+  ],
+  "updateDate": "2024-12-13",
+  "timestamp": 1734017421000,
+  "abstract": "  We study a class of prediction problems in which relatively few observations\nhave associated responses, but all observations include both standard\ncovariates as well as additional \"helper\" covariates. While the end goal is to\nmake high-quality predictions using only the standard covariates, helper\ncovariates can be exploited during training to improve prediction. Helper\ncovariates arise in many applications, including forecasting in time series;\nincorporation of biased or mis-calibrated predictions from foundation models;\nand sharing information in transfer learning. We propose \"prediction aided by\nsurrogate training\" ($\\texttt{PAST}$), a class of methods that exploit labeled\ndata to construct a response estimator based on both the standard and helper\ncovariates; and then use the full dataset with pseudo-responses to train a\npredictor based only on standard covariates. We establish guarantees on the\nprediction error of this procedure, with the response estimator allowed to be\nconstructed in an arbitrary way, and the final predictor fit by empirical risk\nminimization over an arbitrary function class. These upper bounds involve the\nrisk associated with the oracle data set (all responses available), plus an\noverhead that measures the accuracy of the pseudo-responses. This theory\ncharacterizes both regimes in which $\\texttt{PAST}$ accuracy is comparable to\nthe oracle accuracy, as well as more challenging regimes where it behaves\npoorly. We demonstrate its empirical performance across a range of\napplications, including forecasting of societal ills over time with future\ncovariates as helpers; prediction of cardiovascular risk after heart attacks\nwith prescription data as helpers; and diagnosing pneumonia from chest X-rays\nusing machine-generated predictions as helpers.\n",
+  "subjects": [
+    "Mathematics/Statistics Theory",
+    "Statistics/Statistics Theory"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "JpMFriSSQ_tIELwr7hIXp1N9b0lJzbEwdRKvrZ0TDhg",
+  "pdfSize": "807398"
+}

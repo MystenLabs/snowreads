@@ -1,0 +1,44 @@
+{
+  "id": "2412.09386",
+  "title": "Multi-Stage Segmentation and Cascade Classification Methods for\n  Improving Cardiac MRI Analysis",
+  "authors": "Vitalii Slobodzian, Pavlo Radiuk, Oleksander Barmak and Iurii Krak",
+  "authorsParsed": [
+    [
+      "Slobodzian",
+      "Vitalii",
+      ""
+    ],
+    [
+      "Radiuk",
+      "Pavlo",
+      ""
+    ],
+    [
+      "Barmak",
+      "Oleksander",
+      ""
+    ],
+    [
+      "Krak",
+      "Iurii",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 12 Dec 2024 15:53:14 GMT"
+    }
+  ],
+  "updateDate": "2024-12-13",
+  "timestamp": 1734018794000,
+  "abstract": "  The segmentation and classification of cardiac magnetic resonance imaging are\ncritical for diagnosing heart conditions, yet current approaches face\nchallenges in accuracy and generalizability. In this study, we aim to further\nadvance the segmentation and classification of cardiac magnetic resonance\nimages by introducing a novel deep learning-based approach. Using a multi-stage\nprocess with U-Net and ResNet models for segmentation, followed by Gaussian\nsmoothing, the method improved segmentation accuracy, achieving a Dice\ncoefficient of 0.974 for the left ventricle and 0.947 for the right ventricle.\nFor classification, a cascade of deep learning classifiers was employed to\ndistinguish heart conditions, including hypertrophic cardiomyopathy, myocardial\ninfarction, and dilated cardiomyopathy, achieving an average accuracy of 97.2%.\nThe proposed approach outperformed existing models, enhancing segmentation\naccuracy and classification precision. These advancements show promise for\nclinical applications, though further validation and interpretation across\ndiverse imaging protocols is necessary.\n",
+  "subjects": [
+    "Electrical Engineering and Systems Science/Image and Video Processing",
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "zK_sGW3uNIEA3kHGJnCNo3bSJDg0k-rRdQF2LTkea1w",
+  "pdfSize": "1201087"
+}

@@ -1,0 +1,44 @@
+{
+  "id": "2412.03722",
+  "title": "Optimal probabilistic feature shifts for reclassification in tree\n  ensembles",
+  "authors": "V\\'ictor Blanco, Alberto Jap\\'on, Justo Puerto, Peter Zhang",
+  "authorsParsed": [
+    [
+      "Blanco",
+      "Víctor",
+      ""
+    ],
+    [
+      "Japón",
+      "Alberto",
+      ""
+    ],
+    [
+      "Puerto",
+      "Justo",
+      ""
+    ],
+    [
+      "Zhang",
+      "Peter",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 4 Dec 2024 21:28:24 GMT"
+    }
+  ],
+  "updateDate": "2024-12-10",
+  "timestamp": 1733347704000,
+  "abstract": "  In this paper we provide a novel mathematical optimization based methodology\nto perturb the features of a given observation to be re-classified, by a tree\nensemble classification rule, to a certain desired class. The method is based\non these facts: the most viable changes for an observation to reach the desired\nclass do not always coincide with the closest distance point (in the feature\nspace) of the target class; individuals put effort on a few number of features\nto reach the desired class; and each individual is endowed with a probability\nto change each of its features to a given value, which determines the overall\nprobability of changing to the target class. Putting all together, we provide\ndifferent methods to find the features where the individuals must exert effort\nto maximize the probability to reach the target class. Our method also allows\nus to rank the most important features in the tree-ensemble. The proposed\nmethodology is tested on a real dataset, validating the proposal.\n",
+  "subjects": [
+    "Mathematics/Optimization and Control",
+    "Computer Science/Machine Learning",
+    "Statistics/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "bvsweAoe-ry3SiJMtZGzSWcodf_xL0i8FLU_0L02zD0",
+  "pdfSize": "440335"
+}

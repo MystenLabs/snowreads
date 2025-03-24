@@ -1,0 +1,60 @@
+{
+  "id": "2412.14222",
+  "title": "A Survey on Large Language Model-based Agents for Statistics and Data\n  Science",
+  "authors": "Maojun Sun, Ruijian Han, Binyan Jiang, Houduo Qi, Defeng Sun, Yancheng\n  Yuan, Jian Huang",
+  "authorsParsed": [
+    [
+      "Sun",
+      "Maojun",
+      ""
+    ],
+    [
+      "Han",
+      "Ruijian",
+      ""
+    ],
+    [
+      "Jiang",
+      "Binyan",
+      ""
+    ],
+    [
+      "Qi",
+      "Houduo",
+      ""
+    ],
+    [
+      "Sun",
+      "Defeng",
+      ""
+    ],
+    [
+      "Yuan",
+      "Yancheng",
+      ""
+    ],
+    [
+      "Huang",
+      "Jian",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 18 Dec 2024 15:03:26 GMT"
+    }
+  ],
+  "updateDate": "2025-01-14",
+  "timestamp": 1734534206000,
+  "abstract": "  In recent years, data science agents powered by Large Language Models (LLMs),\nknown as \"data agents,\" have shown significant potential to transform the\ntraditional data analysis paradigm. This survey provides an overview of the\nevolution, capabilities, and applications of LLM-based data agents,\nhighlighting their role in simplifying complex data tasks and lowering the\nentry barrier for users without related expertise. We explore current trends in\nthe design of LLM-based frameworks, detailing essential features such as\nplanning, reasoning, reflection, multi-agent collaboration, user interface,\nknowledge integration, and system design, which enable agents to address\ndata-centric problems with minimal human intervention. Furthermore, we analyze\nseveral case studies to demonstrate the practical applications of various data\nagents in real-world scenarios. Finally, we identify key challenges and propose\nfuture research directions to advance the development of data agents into\nintelligent statistical analysis software.\n",
+  "subjects": [
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Computation and Language",
+    "Computer Science/Machine Learning",
+    "Statistics/Other Statistics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "DRKYduYK0n2CLKGvMVFMFXOz436SYPJkzO9VB5ofstM",
+  "pdfSize": "8512313"
+}

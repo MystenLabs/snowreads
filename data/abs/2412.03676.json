@@ -1,0 +1,54 @@
+{
+  "id": "2412.03676",
+  "title": "JPC: Flexible Inference for Predictive Coding Networks in JAX",
+  "authors": "Francesco Innocenti, Paul Kinghorn, Will Yun-Farmbrough, Miguel De\n  Llanza Varona, Ryan Singh, and Christopher L. Buckley",
+  "authorsParsed": [
+    [
+      "Innocenti",
+      "Francesco",
+      ""
+    ],
+    [
+      "Kinghorn",
+      "Paul",
+      ""
+    ],
+    [
+      "Yun-Farmbrough",
+      "Will",
+      ""
+    ],
+    [
+      "Varona",
+      "Miguel De Llanza",
+      ""
+    ],
+    [
+      "Singh",
+      "Ryan",
+      ""
+    ],
+    [
+      "Buckley",
+      "Christopher L.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 4 Dec 2024 19:15:34 GMT"
+    }
+  ],
+  "updateDate": "2024-12-06",
+  "timestamp": 1733339734000,
+  "abstract": "  We introduce JPC, a JAX library for training neural networks with Predictive\nCoding. JPC provides a simple, fast and flexible interface to train a variety\nof PC networks (PCNs) including discriminative, generative and hybrid models.\nUnlike existing libraries, JPC leverages ordinary differential equation solvers\nto integrate the gradient flow inference dynamics of PCNs. We find that a\nsecond-order solver achieves significantly faster runtimes compared to standard\nEuler integration, with comparable performance on a range of tasks and network\ndepths. JPC also provides some theoretical tools that can be used to study\nPCNs. We hope that JPC will facilitate future research of PC. The code is\navailable at https://github.com/thebuckleylab/jpc.\n",
+  "subjects": [
+    "Computer Science/Neural and Evolutionary Computing",
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "fKi-ZCH515Mmu4YXq4VZQCpM0IW_IjD8zy-isw0nkr0",
+  "pdfSize": "4088677"
+}

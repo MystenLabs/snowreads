@@ -1,0 +1,44 @@
+{
+  "id": "2412.18750",
+  "title": "The Impact of Input Order Bias on Large Language Models for Software\n  Fault Localization",
+  "authors": "Md Nakhla Rafi, Dong Jae Kim, Tse-Hsun Chen, Shaowei Wang",
+  "authorsParsed": [
+    [
+      "Rafi",
+      "Md Nakhla",
+      ""
+    ],
+    [
+      "Kim",
+      "Dong Jae",
+      ""
+    ],
+    [
+      "Chen",
+      "Tse-Hsun",
+      ""
+    ],
+    [
+      "Wang",
+      "Shaowei",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 25 Dec 2024 02:48:53 GMT"
+    }
+  ],
+  "updateDate": "2024-12-30",
+  "timestamp": 1735094933000,
+  "abstract": "  Large Language Models (LLMs) show great promise in software engineering tasks\nlike Fault Localization (FL) and Automatic Program Repair (APR). This study\nexamines how input order and context size affect LLM performance in FL, a key\nstep for many downstream software engineering tasks. We test different orders\nfor methods using Kendall Tau distances, including \"perfect\" (where ground\ntruths come first) and \"worst\" (where ground truths come last). Our results\nshow a strong bias in order, with Top-1 accuracy falling from 57\\% to 20\\% when\nwe reverse the code order. Breaking down inputs into smaller contexts helps\nreduce this bias, narrowing the performance gap between perfect and worst\norders from 22\\% to just 1\\%. We also look at ordering methods based on\ntraditional FL techniques and metrics. Ordering using DepGraph's ranking\nachieves 48\\% Top-1 accuracy, better than more straightforward ordering\napproaches like CallGraph. These findings underscore the importance of how we\nstructure inputs, manage contexts, and choose ordering methods to improve LLM\nperformance in FL and other software engineering tasks.\n",
+  "subjects": [
+    "Computer Science/Software Engineering",
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "fRiSDzMA9CcBXefwrTizpP3gQKN_9soTysLcccGKqws",
+  "pdfSize": "481900"
+}

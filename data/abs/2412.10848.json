@@ -1,0 +1,49 @@
+{
+  "id": "2412.10848",
+  "title": "Large Language Models for Medical Forecasting -- Foresight 2",
+  "authors": "Zeljko Kraljevic, Joshua Au Yeung, Daniel Bean, James Teo, Richard J.\n  Dobson",
+  "authorsParsed": [
+    [
+      "Kraljevic",
+      "Zeljko",
+      ""
+    ],
+    [
+      "Yeung",
+      "Joshua Au",
+      ""
+    ],
+    [
+      "Bean",
+      "Daniel",
+      ""
+    ],
+    [
+      "Teo",
+      "James",
+      ""
+    ],
+    [
+      "Dobson",
+      "Richard J.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 14 Dec 2024 14:45:28 GMT"
+    }
+  ],
+  "updateDate": "2024-12-17",
+  "timestamp": 1734187528000,
+  "abstract": "  Foresight 2 (FS2) is a large language model fine-tuned on hospital data for\nmodelling patient timelines (GitHub 'removed for anon'). It can understand\npatients' clinical notes and predict SNOMED codes for a wide range of\nbiomedical use cases, including diagnosis suggestions, risk forecasting, and\nprocedure and medication recommendations. FS2 is trained on the free text\nportion of the MIMIC-III dataset, firstly through extracting biomedical\nconcepts and then creating contextualised patient timelines, upon which the\nmodel is then fine-tuned. The results show significant improvement over the\nprevious state-of-the-art for the next new biomedical concept prediction (P/R -\n0.73/0.66 vs 0.52/0.32) and a similar improvement specifically for the next new\ndisorder prediction (P/R - 0.69/0.62 vs 0.46/0.25). Finally, on the task of\nrisk forecast, we compare our model to GPT-4-turbo (and a range of open-source\nbiomedical LLMs) and show that FS2 performs significantly better on such tasks\n(P@5 - 0.90 vs 0.65). This highlights the need to incorporate hospital data\ninto LLMs and shows that small models outperform much larger ones when\nfine-tuned on high-quality, specialised data.\n",
+  "subjects": [
+    "Computer Science/Computation and Language",
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "glFVPphXyK9a2VGhdYLt0Quq45vS_biZe8Rny0hXVZY",
+  "pdfSize": "947455"
+}

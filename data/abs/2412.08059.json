@@ -1,0 +1,36 @@
+{
+  "id": "2412.08059",
+  "title": "Parameter optimization for restarted mixed precision iterative sparse\n  solver",
+  "authors": "Alexander V. Prolubnikov",
+  "authorsParsed": [
+    [
+      "Prolubnikov",
+      "Alexander V.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 11 Dec 2024 03:02:58 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Thu, 12 Dec 2024 06:32:06 GMT"
+    },
+    {
+      "version": "v3",
+      "created": "Fri, 14 Feb 2025 07:44:31 GMT"
+    }
+  ],
+  "updateDate": "2025-02-17",
+  "timestamp": 1733886178000,
+  "abstract": "  We consider the problem of optimizing the parameter of a two-stage algorithm\nfor approximate solution of a system of linear algebraic equations with a\nsparse $n\\times n$-matrix, i.e., with one in which the number of nonzero\nelements is $m\\!=\\!O(n)$. The two-stage algorithm uses conjugate gradient\nmethod at its stages. At the 1st stage, an approximate solution with accuracy\n$\\varepsilon_1$ is found for zero initial vector. All numerical values used at\nthis stage are represented as single-precision numbers. The obtained solution\nis used as initial approximation for an approximate solution with a given\naccuracy $\\varepsilon_2$ that we obtain at the 2nd stage, where\ndouble-precision numbers are used. Based on the values of some matrix\nparameters, computed in a time not exceeding $O(m)$, we need to determine the\nvalue $\\varepsilon_1$ which minimizes the total computation time at two stages.\n  Using single-precision numbers for computations at the 1st stage is\nadvantageous, since the execution time of one iteration will be approximately\nhalf that of one iteration at the 2nd stage. At the same time, using machine\nnumbers with half the mantissa length accelerates the growth of the rounding\nerror per iteration of the conjugate gradient method at the 1st stage, which\nentails an increase in the number of iterations performed at 2nd stage.\n  As parameters that allow us to determine $\\varepsilon_1$ for the input\nmatrix, we use $n$, $m$, an estimate of the diameter of the graph associated\nwith the matrix, an estimate of the spread of the matrix' eigenvalues, and\nestimates of its maximum eigenvalue. The optimal or close to the optimal value\nof $\\varepsilon_1$ can be determined for matrix with such a vector of\nparameters using the nearest neighbor regression or some other type of\nregression.\n",
+  "subjects": [
+    "Mathematics/Numerical Analysis",
+    "Computer Science/Numerical Analysis"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "7iFQLeyd9BoLW0sDX7vE8SsjQCXDn1wBuyUaKdoHTlg",
+  "pdfSize": "159026"
+}

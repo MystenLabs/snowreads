@@ -1,0 +1,47 @@
+{
+  "id": "2412.04358",
+  "title": "Approximate Top-$k$ for Increased Parallelism",
+  "authors": "Oscar Key, Luka Ribar, Alberto Cattaneo, Luke Hudlass-Galley, Douglas\n  Orr",
+  "authorsParsed": [
+    [
+      "Key",
+      "Oscar",
+      ""
+    ],
+    [
+      "Ribar",
+      "Luka",
+      ""
+    ],
+    [
+      "Cattaneo",
+      "Alberto",
+      ""
+    ],
+    [
+      "Hudlass-Galley",
+      "Luke",
+      ""
+    ],
+    [
+      "Orr",
+      "Douglas",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 5 Dec 2024 17:17:28 GMT"
+    }
+  ],
+  "updateDate": "2024-12-06",
+  "timestamp": 1733419048000,
+  "abstract": "  We present an evaluation of bucketed approximate top-$k$ algorithms.\nComputing top-$k$ exactly suffers from limited parallelism, because the $k$\nlargest values must be aggregated along the vector, thus is not well suited to\ncomputation on highly-parallel machine learning accelerators. By relaxing the\nrequirement that the top-$k$ is exact, bucketed algorithms can dramatically\nincrease the parallelism available by independently computing many smaller\ntop-$k$ operations. We explore the design choices of this class of algorithms\nusing both theoretical analysis and empirical evaluation on downstream tasks.\nOur motivating examples are sparsity algorithms for language models, which\noften use top-$k$ to select the most important parameters or activations. We\nalso release a fast bucketed top-$k$ implementation for PyTorch.\n",
+  "subjects": [
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "4b2y1mVnIMl79bXM__Cij_uWrsJe0jbXo9W96QBEorE",
+  "pdfSize": "1249638"
+}

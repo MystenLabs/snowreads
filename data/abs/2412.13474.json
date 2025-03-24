@@ -1,0 +1,34 @@
+{
+  "id": "2412.13474",
+  "title": "Planning Human-Robot Co-manipulation with Human Motor Control Objectives\n  and Multi-component Reaching Strategies",
+  "authors": "Kevin Haninger and Luka Peternel",
+  "authorsParsed": [
+    [
+      "Haninger",
+      "Kevin",
+      ""
+    ],
+    [
+      "Peternel",
+      "Luka",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 18 Dec 2024 03:39:20 GMT"
+    }
+  ],
+  "updateDate": "2024-12-19",
+  "timestamp": 1734493160000,
+  "abstract": "  For successful goal-directed human-robot interaction, the robot should adapt\nto the intentions and actions of the collaborating human. This can be supported\nby musculoskeletal or data-driven human models, where the former are limited to\nlower-level functioning such as ergonomics, and the latter have limited\ngeneralizability or data efficiency. What is missing, is the inclusion of human\nmotor control models that can provide generalizable human behavior estimates\nand integrate into robot planning methods. We use well-studied models from\nhuman motor control based on the speed-accuracy and cost-benefit trade-offs to\nplan collaborative robot motions. In these models, the human trajectory\nminimizes an objective function, a formulation we adapt to numerical trajectory\noptimization. This can then be extended with constraints and new variables to\nrealize collaborative motion planning and goal estimation. We deploy this\nmodel, as well as a multi-component movement strategy, in physical\ncollaboration with uncertain goal-reaching and synchronized motion tasks,\nshowing the ability of the approach to produce human-like trajectories over a\nrange of conditions.\n",
+  "subjects": [
+    "Computer Science/Robotics",
+    "Computer Science/Systems and Control",
+    "Electrical Engineering and Systems Science/Systems and Control"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "4zCIMweisZhFcnetcEAY60wivPK_IxoDLM1N0BzeMck",
+  "pdfSize": "1827085"
+}

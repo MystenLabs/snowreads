@@ -1,0 +1,41 @@
+{
+  "id": "2412.04920",
+  "title": "Predicting the Curie temperature in substitutionally disordered alloys\n  using a first-principles based model",
+  "authors": "Marian Arale Br\\\"annvall, Rickard Armiento, and Bj\\\"orn Alling",
+  "authorsParsed": [
+    [
+      "Brännvall",
+      "Marian Arale",
+      ""
+    ],
+    [
+      "Armiento",
+      "Rickard",
+      ""
+    ],
+    [
+      "Alling",
+      "Björn",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 6 Dec 2024 10:19:42 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Wed, 18 Dec 2024 13:06:20 GMT"
+    }
+  ],
+  "updateDate": "2024-12-19",
+  "timestamp": 1733480382000,
+  "abstract": "  When exploring new magnetic materials, the effect of alloying plays a crucial\nrole for numerous properties. By altering the alloy composition, it is possible\nto tailor, e.g., the Curie temperature ($T_\\text{C}$). In this work,\n$T_\\text{C}$ of various alloys is investigated using a previously developed\ntechnique [Br\\\"{a}nnvall et al. Phys. Rev. Mat. (2024)] designed for robust\npredictions of $T_\\text{C}$ across diverse chemistries and structures. The\ntechnique is based on density functional theory calculations and utilizes the\nenergy difference between the magnetic ground state and the magnetically\ndisordered paramagnetic state. It also accounts for the magnetic entropy in the\nparamagnetic state and the number of nearest magnetic neighbors. The\nexperimentally known systems, Fe$_{1-x}$Co$_x$, Fe$_{1-x}$Cr$_x$,\nFe$_{1-x}$V$_x$, NiMnSb-based Heusler alloys, Ti$_{1-x}$Cr$_x$N, and\nCo$_{1-x}$Al$_x$ are investigated. The experimentally unexplored system\nFe$_{1-x}$Tc$_x$ is also tested to demonstrate the usefulness of the developed\nmethod in guiding future experimental efforts. This work demonstrates the broad\napplicability of the developed method across various systems, requiring less\nhands-on adjustments compared to other theoretical approaches.\n",
+  "subjects": [
+    "Condensed Matter/Materials Science"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "DbNAY0ym_DGkYQhlJHzhZVCEs83_pKlHc99NfQmFTkc",
+  "pdfSize": "449015"
+}

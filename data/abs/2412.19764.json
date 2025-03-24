@@ -1,0 +1,29 @@
+{
+  "id": "2412.19764",
+  "title": "Cartesian subgroups in graph products of groups",
+  "authors": "Fedor Vylegzhanin",
+  "authorsParsed": [
+    [
+      "Vylegzhanin",
+      "Fedor",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 27 Dec 2024 17:48:17 GMT"
+    }
+  ],
+  "updateDate": "2024-12-30",
+  "timestamp": 1735321697000,
+  "abstract": "  The kernel of the natural projection of a graph product of groups onto their\ndirect product is called the Cartesian subgroup. This construction generalises\ncommutator subgroups of right-angled Coxeter and Artin groups. Using theory of\npolyhedral products, we give a lower and an upper bound on the number of\nrelations in presentations of Cartesian groups and on their deficiency. The\nbounds are related to the fundamental groups of full subcomplexes in the clique\ncomplex, and the lower bound coincide with the upper bound if these fundamental\ngroups are free or free abelian.\n  Following Li Cai's approach, we also describe an algorithm that computes\n\"small\" presentations of Cartesian subgroups.\n",
+  "subjects": [
+    "Mathematics/Group Theory",
+    "Mathematics/Algebraic Topology",
+    "Mathematics/Geometric Topology"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "0SYW0BXe5127b1lEJ4ctNVGL9HEJx_VnxO9XTamIbS8",
+  "pdfSize": "412603"
+}

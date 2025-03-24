@@ -1,0 +1,52 @@
+{
+  "id": "2412.18837",
+  "title": "Experimental secure entanglement-free quantum remote sensing over 50 km\n  of optical fiber",
+  "authors": "Wenjie He, Chunfeng Huang, Rui Guan, Ye Chen, Zhenrong Zhang, Kejin\n  Wei",
+  "authorsParsed": [
+    [
+      "He",
+      "Wenjie",
+      ""
+    ],
+    [
+      "Huang",
+      "Chunfeng",
+      ""
+    ],
+    [
+      "Guan",
+      "Rui",
+      ""
+    ],
+    [
+      "Chen",
+      "Ye",
+      ""
+    ],
+    [
+      "Zhang",
+      "Zhenrong",
+      ""
+    ],
+    [
+      "Wei",
+      "Kejin",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 25 Dec 2024 08:52:06 GMT"
+    }
+  ],
+  "updateDate": "2024-12-30",
+  "timestamp": 1735116726000,
+  "abstract": "  Secure quantum remote sensing (SQRS) uses quantum states to gather\ninformation about distant objects or environments while ensuring secure data\ntransmission against eavesdropping. It has potential applications in various\nfields, including environmental monitoring, military surveillance, and disaster\nresponse, where both data accuracy and transmission security are critical.\nRecent experiments have demonstrated the feasibility of SQRS using entanglement\nstates. Here, we experimentally demonstrate an SQRS that can estimate a phase\nwithout requiring entanglement, offering the practical advantage that\nsingle-qubit states are easier to prepare. We successfully estimate the preset\nphase information at a remote site over a fiber distance of 50 km, which serves\nas a key step toward long-distance applications.\n",
+  "subjects": [
+    "Physics/Quantum Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "1sgHlNSfBNMTJXDvtx6YWYu_8DE4l3Vv73OE4ngle5k",
+  "pdfSize": "884899"
+}

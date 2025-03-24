@@ -1,0 +1,29 @@
+{
+  "id": "2412.01417",
+  "title": "Learning Elementary Cellular Automata with Transformers",
+  "authors": "Mikhail Burtsev",
+  "authorsParsed": [
+    [
+      "Burtsev",
+      "Mikhail",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 2 Dec 2024 11:57:49 GMT"
+    }
+  ],
+  "updateDate": "2024-12-03",
+  "timestamp": 1733140669000,
+  "abstract": "  Large Language Models demonstrate remarkable mathematical capabilities but at\nthe same time struggle with abstract reasoning and planning. In this study, we\nexplore whether Transformers can learn to abstract and generalize the rules\ngoverning Elementary Cellular Automata. By training Transformers on state\nsequences generated with random initial conditions and local rules, we show\nthat they can generalize across different Boolean functions of fixed arity,\neffectively abstracting the underlying rules. While the models achieve high\naccuracy in next-state prediction, their performance declines sharply in\nmulti-step planning tasks without intermediate context. Our analysis reveals\nthat including future states or rule prediction in the training loss enhances\nthe models' ability to form internal representations of the rules, leading to\nimproved performance in longer planning horizons and autoregressive generation.\nFurthermore, we confirm that increasing the model's depth plays a crucial role\nin extended sequential computations required for complex reasoning tasks. This\nhighlights the potential to improve LLM with inclusion of longer horizons in\nloss function, as well as incorporating recurrence and adaptive computation\ntime for dynamic control of model depth.\n",
+  "subjects": [
+    "Computer Science/Neural and Evolutionary Computing",
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Formal Languages and Automata Theory"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "SFpmQl6XpGkbXaMrT7SHTpcxOvY9PjSxw79t4KE_9rc",
+  "pdfSize": "608020"
+}

@@ -1,0 +1,39 @@
+{
+  "id": "2412.21049",
+  "title": "Learning Epidemiological Dynamics via the Finite Expression Method",
+  "authors": "Jianda Du and Senwei Liang and Chunmei Wang",
+  "authorsParsed": [
+    [
+      "Du",
+      "Jianda",
+      ""
+    ],
+    [
+      "Liang",
+      "Senwei",
+      ""
+    ],
+    [
+      "Wang",
+      "Chunmei",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 30 Dec 2024 16:08:12 GMT"
+    }
+  ],
+  "updateDate": "2024-12-31",
+  "timestamp": 1735574892000,
+  "abstract": "  Modeling and forecasting the spread of infectious diseases is essential for\neffective public health decision-making. Traditional epidemiological models\nrely on expert-defined frameworks to describe complex dynamics, while neural\nnetworks, despite their predictive power, often lack interpretability due to\ntheir ``black-box\" nature. This paper introduces the Finite Expression Method,\na symbolic learning framework that leverages reinforcement learning to derive\nexplicit mathematical expressions for epidemiological dynamics. Through\nnumerical experiments on both synthetic and real-world datasets, FEX\ndemonstrates high accuracy in modeling and predicting disease spread, while\nuncovering explicit relationships among epidemiological variables. These\nresults highlight FEX as a powerful tool for infectious disease modeling,\ncombining interpretability with strong predictive performance to support\npractical applications in public health.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Computer Science/Numerical Analysis",
+    "Mathematics/Numerical Analysis"
+  ],
+  "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+  "blobId": "rkikxjylRDSX4X8bla83Jrb84uIwfRz8V5ehNJ5G4jw",
+  "pdfSize": "1030931"
+}

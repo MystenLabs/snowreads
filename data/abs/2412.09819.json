@@ -1,0 +1,64 @@
+{
+  "id": "2412.09819",
+  "title": "FDM-Bench: A Comprehensive Benchmark for Evaluating Large Language\n  Models in Additive Manufacturing Tasks",
+  "authors": "Ahmadreza Eslaminia, Adrian Jackson, Beitong Tian, Avi Stern, Hallie\n  Gordon, Rajiv Malhotra, Klara Nahrstedt, Chenhui Shao",
+  "authorsParsed": [
+    [
+      "Eslaminia",
+      "Ahmadreza",
+      ""
+    ],
+    [
+      "Jackson",
+      "Adrian",
+      ""
+    ],
+    [
+      "Tian",
+      "Beitong",
+      ""
+    ],
+    [
+      "Stern",
+      "Avi",
+      ""
+    ],
+    [
+      "Gordon",
+      "Hallie",
+      ""
+    ],
+    [
+      "Malhotra",
+      "Rajiv",
+      ""
+    ],
+    [
+      "Nahrstedt",
+      "Klara",
+      ""
+    ],
+    [
+      "Shao",
+      "Chenhui",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 13 Dec 2024 03:16:14 GMT"
+    }
+  ],
+  "updateDate": "2024-12-16",
+  "timestamp": 1734059774000,
+  "abstract": "  Fused Deposition Modeling (FDM) is a widely used additive manufacturing (AM)\ntechnique valued for its flexibility and cost-efficiency, with applications in\na variety of industries including healthcare and aerospace. Recent developments\nhave made affordable FDM machines accessible and encouraged adoption among\ndiverse users. However, the design, planning, and production process in FDM\nrequire specialized interdisciplinary knowledge. Managing the complex\nparameters and resolving print defects in FDM remain challenging. These\ntechnical complexities form the most critical barrier preventing individuals\nwithout technical backgrounds and even professional engineers without training\nin other domains from participating in AM design and manufacturing. Large\nLanguage Models (LLMs), with their advanced capabilities in text and code\nprocessing, offer the potential for addressing these challenges in FDM.\nHowever, existing research on LLM applications in this field is limited,\ntypically focusing on specific use cases without providing comprehensive\nevaluations across multiple models and tasks. To this end, we introduce\nFDM-Bench, a benchmark dataset designed to evaluate LLMs on FDM-specific tasks.\nFDM-Bench enables a thorough assessment by including user queries across\nvarious experience levels and G-code samples that represent a range of\nanomalies. We evaluate two closed-source models (GPT-4o and Claude 3.5 Sonnet)\nand two open-source models (Llama-3.1-70B and Llama-3.1-405B) on FDM-Bench. A\npanel of FDM experts assess the models' responses to user queries in detail.\nResults indicate that closed-source models generally outperform open-source\nmodels in G-code anomaly detection, whereas Llama-3.1-405B demonstrates a\nslight advantage over other models in responding to user queries. These\nfindings underscore FDM-Bench's potential as a foundational tool for advancing\nresearch on LLM capabilities in FDM.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Computer Science/Systems and Control",
+    "Electrical Engineering and Systems Science/Systems and Control"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "FPWnNXL-MJFaxDIGEyLHF4_mf9tfTKlzoWN8vRmfuKw",
+  "pdfSize": "8455442"
+}

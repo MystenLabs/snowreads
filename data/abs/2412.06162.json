@@ -1,0 +1,43 @@
+{
+  "id": "2412.06162",
+  "title": "Query-Efficient Planning with Language Models",
+  "authors": "Gonzalo Gonzalez-Pumariega, Wayne Chen, Kushal Kedia, and Sanjiban\n  Choudhury",
+  "authorsParsed": [
+    [
+      "Gonzalez-Pumariega",
+      "Gonzalo",
+      ""
+    ],
+    [
+      "Chen",
+      "Wayne",
+      ""
+    ],
+    [
+      "Kedia",
+      "Kushal",
+      ""
+    ],
+    [
+      "Choudhury",
+      "Sanjiban",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 9 Dec 2024 02:51:21 GMT"
+    }
+  ],
+  "updateDate": "2024-12-10",
+  "timestamp": 1733712681000,
+  "abstract": "  Planning in complex environments requires an agent to efficiently query a\nworld model to find a feasible sequence of actions from start to goal. Recent\nwork has shown that Large Language Models (LLMs), with their rich prior\nknowledge and reasoning capabilities, can potentially help with planning by\nsearching over promising states and adapting to feedback from the world. In\nthis paper, we propose and study two fundamentally competing frameworks that\nleverage LLMs for query-efficient planning. The first uses LLMs as a heuristic\nwithin a search-based planner to select promising nodes to expand and propose\npromising actions. The second uses LLMs as a generative planner to propose an\nentire sequence of actions from start to goal, query a world model, and adapt\nbased on feedback. We show that while both approaches improve upon comparable\nbaselines, using an LLM as a generative planner results in significantly fewer\ninteractions. Our key finding is that the LLM as a planner can more rapidly\nadapt its planning strategies based on immediate feedback than LLM as a\nheuristic. We present evaluations and ablations on Robotouille and PDDL\nplanning benchmarks and discuss connections to existing theory on\nquery-efficient planning algorithms. Code is available at\nhttps://github.com/portal-cornell/llms-for-planning\n",
+  "subjects": [
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Computation and Language"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "2I7sepMFG-4slGOANPWe6gGM5uTUDtaXH1cCGRdDZbA",
+  "pdfSize": "4909692"
+}

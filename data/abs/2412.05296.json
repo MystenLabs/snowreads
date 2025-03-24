@@ -1,0 +1,60 @@
+{
+  "id": "2412.05296",
+  "title": "Revisiting Your Memory: Reconstruction of Affect-Contextualized Memory\n  via EEG-guided Audiovisual Generation",
+  "authors": "Joonwoo Kwon, Heehwan Wang, Jinwoo Lee, Sooyoung Kim, Shinjae Yoo,\n  Yuewei Lin, Jiook Cha",
+  "authorsParsed": [
+    [
+      "Kwon",
+      "Joonwoo",
+      ""
+    ],
+    [
+      "Wang",
+      "Heehwan",
+      ""
+    ],
+    [
+      "Lee",
+      "Jinwoo",
+      ""
+    ],
+    [
+      "Kim",
+      "Sooyoung",
+      ""
+    ],
+    [
+      "Yoo",
+      "Shinjae",
+      ""
+    ],
+    [
+      "Lin",
+      "Yuewei",
+      ""
+    ],
+    [
+      "Cha",
+      "Jiook",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 24 Nov 2024 16:04:03 GMT"
+    }
+  ],
+  "updateDate": "2024-12-10",
+  "timestamp": 1732464243000,
+  "abstract": "  In this paper, we introduce RecallAffectiveMemory, a novel task designed to\nreconstruct autobiographical memories through audio-visual generation guided by\naffect extracted from electroencephalogram (EEG) signals. To support this\npioneering task, we present the EEG-AffectiveMemory dataset, which encompasses\ntextual descriptions, visuals, music, and EEG recordings collected during\nmemory recall from nine participants. Furthermore, we propose RYM (Recall Your\nMemory), a three-stage framework for generating synchronized audio-visual\ncontents while maintaining dynamic personal memory affect trajectories.\nExperimental results indicate that our method can faithfully reconstruct\naffect-contextualized audio-visual memory across all subjects, both\nqualitatively and quantitatively, with participants reporting strong affective\nconcordance between their recalled memories and the generated content. Our\napproaches advance affect decoding research and its practical applications in\npersonalized media creation via neural-based affect comprehension.\n",
+  "subjects": [
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Human-Computer Interaction",
+    "Computer Science/Sound",
+    "Electrical Engineering and Systems Science/Audio and Speech Processing"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "wc5UHATBcT-sU7Rrph1PoKlJCrLiywpupB7QRc8YOLw",
+  "pdfSize": "7214445"
+}

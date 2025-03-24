@@ -1,0 +1,37 @@
+{
+  "id": "2412.17696",
+  "title": "Understanding the Logic of Direct Preference Alignment through Logic",
+  "authors": "Kyle Richardson and Vivek Srikumar and Ashish Sabharwal",
+  "authorsParsed": [
+    [
+      "Richardson",
+      "Kyle",
+      ""
+    ],
+    [
+      "Srikumar",
+      "Vivek",
+      ""
+    ],
+    [
+      "Sabharwal",
+      "Ashish",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 23 Dec 2024 16:23:13 GMT"
+    }
+  ],
+  "updateDate": "2024-12-24",
+  "timestamp": 1734970993000,
+  "abstract": "  Recent direct preference alignment algorithms (DPA), such as DPO, have shown\ngreat promise in aligning large language models to human preferences. While\nthis has motivated the development of many new variants of the original DPO\nloss, understanding the differences between these recent proposals, as well as\ndeveloping new DPA loss functions, remains difficult given the lack of a\ntechnical and conceptual framework for reasoning about the underlying semantics\nof these algorithms. In this paper, we attempt to remedy this by formalizing\nDPA losses in terms of discrete reasoning problems. Specifically, we ask: Given\nan existing DPA loss, can we systematically derive a symbolic expression that\ncharacterizes its semantics? How do the semantics of two losses relate to each\nother? We propose a novel formalism for characterizing preference losses for\nsingle model and reference model based approaches, and identify symbolic forms\nfor a number of commonly used DPA variants. Further, we show how this formal\nview of preference learning sheds new light on both the size and structure of\nthe DPA loss landscape, making it possible to not only rigorously characterize\nthe relationships between recent loss proposals but also to systematically\nexplore the landscape and derive new loss functions from first principles. We\nhope our framework and findings will help provide useful guidance to those\nworking on human AI alignment.\n",
+  "subjects": [
+    "Computer Science/Computation and Language"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "YPawkeSTtSMj90y3P1Bmw-NQdX2yXVNBUQkIK7i3wtE",
+  "pdfSize": "3017411"
+}

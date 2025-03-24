@@ -1,0 +1,54 @@
+{
+  "id": "2412.03430",
+  "title": "SINGER: Vivid Audio-driven Singing Video Generation with Multi-scale\n  Spectral Diffusion Model",
+  "authors": "Yan Li, Ziya Zhou, Zhiqiang Wang, Wei Xue, Wenhan Luo, Yike Guo",
+  "authorsParsed": [
+    [
+      "Li",
+      "Yan",
+      ""
+    ],
+    [
+      "Zhou",
+      "Ziya",
+      ""
+    ],
+    [
+      "Wang",
+      "Zhiqiang",
+      ""
+    ],
+    [
+      "Xue",
+      "Wei",
+      ""
+    ],
+    [
+      "Luo",
+      "Wenhan",
+      ""
+    ],
+    [
+      "Guo",
+      "Yike",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 4 Dec 2024 16:19:47 GMT"
+    }
+  ],
+  "updateDate": "2024-12-05",
+  "timestamp": 1733329187000,
+  "abstract": "  Recent advancements in generative models have significantly enhanced talking\nface video generation, yet singing video generation remains underexplored. The\ndifferences between human talking and singing limit the performance of existing\ntalking face video generation models when applied to singing. The fundamental\ndifferences between talking and singing-specifically in audio characteristics\nand behavioral expressions-limit the effectiveness of existing models. We\nobserve that the differences between singing and talking audios manifest in\nterms of frequency and amplitude. To address this, we have designed a\nmulti-scale spectral module to help the model learn singing patterns in the\nspectral domain. Additionally, we develop a spectral-filtering module that aids\nthe model in learning the human behaviors associated with singing audio. These\ntwo modules are integrated into the diffusion model to enhance singing video\ngeneration performance, resulting in our proposed model, SINGER. Furthermore,\nthe lack of high-quality real-world singing face videos has hindered the\ndevelopment of the singing video generation community. To address this gap, we\nhave collected an in-the-wild audio-visual singing dataset to facilitate\nresearch in this area. Our experiments demonstrate that SINGER is capable of\ngenerating vivid singing videos and outperforms state-of-the-art methods in\nboth objective and subjective evaluations.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Machine Learning",
+    "Computer Science/Sound"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "89Jwdyb-26lRVgsTfeah9eu6NmGCtAkZT7ChPcCG8Ao",
+  "pdfSize": "120392614"
+}

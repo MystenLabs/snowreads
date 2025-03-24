@@ -1,0 +1,62 @@
+{
+  "id": "2412.08603",
+  "title": "Design2GarmentCode: Turning Design Concepts to Tangible Garments Through\n  Program Synthesis",
+  "authors": "Feng Zhou, Ruiyang Liu, Chen Liu, Gaofeng He, Yong-Lu Li, Xiaogang\n  Jin, Huamin Wang",
+  "authorsParsed": [
+    [
+      "Zhou",
+      "Feng",
+      ""
+    ],
+    [
+      "Liu",
+      "Ruiyang",
+      ""
+    ],
+    [
+      "Liu",
+      "Chen",
+      ""
+    ],
+    [
+      "He",
+      "Gaofeng",
+      ""
+    ],
+    [
+      "Li",
+      "Yong-Lu",
+      ""
+    ],
+    [
+      "Jin",
+      "Xiaogang",
+      ""
+    ],
+    [
+      "Wang",
+      "Huamin",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 11 Dec 2024 18:26:45 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Thu, 12 Dec 2024 05:04:09 GMT"
+    }
+  ],
+  "updateDate": "2024-12-13",
+  "timestamp": 1733941605000,
+  "abstract": "  Sewing patterns, the essential blueprints for fabric cutting and tailoring,\nact as a crucial bridge between design concepts and producible garments.\nHowever, existing uni-modal sewing pattern generation models struggle to\neffectively encode complex design concepts with a multi-modal nature and\ncorrelate them with vectorized sewing patterns that possess precise geometric\nstructures and intricate sewing relations. In this work, we propose a novel\nsewing pattern generation approach Design2GarmentCode based on Large Multimodal\nModels (LMMs), to generate parametric pattern-making programs from multi-modal\ndesign concepts. LMM offers an intuitive interface for interpreting diverse\ndesign inputs, while pattern-making programs could serve as well-structured and\nsemantically meaningful representations of sewing patterns, and act as a robust\nbridge connecting the cross-domain pattern-making knowledge embedded in LMMs\nwith vectorized sewing patterns. Experimental results demonstrate that our\nmethod can flexibly handle various complex design expressions such as images,\ntextual descriptions, designer sketches, or their combinations, and convert\nthem into size-precise sewing patterns with correct stitches. Compared to\nprevious methods, our approach significantly enhances training efficiency,\ngeneration quality, and authoring flexibility. Our code and data will be\npublicly available.\n",
+  "subjects": [
+    "Computer Science/Graphics",
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "AzrjmW0fGJ_b--7c5az3c_a8YXgpa1DPljUZgrIoUZg",
+  "pdfSize": "40437654"
+}

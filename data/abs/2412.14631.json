@@ -1,0 +1,27 @@
+{
+  "id": "2412.14631",
+  "title": "Review of Fruit Tree Image Segmentation",
+  "authors": "Il-Seok Oh",
+  "authorsParsed": [
+    [
+      "Oh",
+      "Il-Seok",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 19 Dec 2024 08:36:32 GMT"
+    }
+  ],
+  "updateDate": "2024-12-20",
+  "timestamp": 1734597392000,
+  "abstract": "  Fruit tree image segmentation is an essential problem in automating a variety\nof agricultural tasks such as phenotyping, harvesting, spraying, and pruning.\nMany research papers have proposed a diverse spectrum of solutions suitable to\nspecific tasks and environments. The review scope of this paper is confined to\nthe front views of fruit trees and based on 158 relevant papers collected using\na newly designed crawling review method. These papers are systematically\nreviewed based on a taxonomy that sequentially considers the method, image,\ntask, and fruit. This taxonomy will assist readers to intuitively grasp the big\npicture of these research activities. Our review reveals that the most\nnoticeable deficiency of the previous studies was the lack of a versatile\ndataset and segmentation model that could be applied to a variety of tasks and\nenvironments. Six important future research tasks are suggested, with the\nexpectation that these will pave the way to building a versatile tree\nsegmentation module.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "Sx2Kt52etq0f3H4lpRaxS1cfqF95vRypgKVfmy9iOMo",
+  "pdfSize": "1075841"
+}

@@ -1,0 +1,47 @@
+{
+  "id": "2412.14089",
+  "title": "On the Use of Abundant Road Speed Data for Travel Demand Calibration of\n  Urban Traffic Simulators",
+  "authors": "Suyash Vishnoi, Akhil Shetty, Iveel Tsogsuren, Neha Arora, Carolina\n  Osorio",
+  "authorsParsed": [
+    [
+      "Vishnoi",
+      "Suyash",
+      ""
+    ],
+    [
+      "Shetty",
+      "Akhil",
+      ""
+    ],
+    [
+      "Tsogsuren",
+      "Iveel",
+      ""
+    ],
+    [
+      "Arora",
+      "Neha",
+      ""
+    ],
+    [
+      "Osorio",
+      "Carolina",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 18 Dec 2024 17:36:14 GMT"
+    }
+  ],
+  "updateDate": "2024-12-19",
+  "timestamp": 1734543374000,
+  "abstract": "  This work develops a compute-efficient algorithm to tackle a fundamental\nproblem in transportation: that of urban travel demand estimation. It focuses\non the calibration of origin-destination travel demand input parameters for\nhigh-resolution traffic simulation models. It considers the use of abundant\ntraffic road speed data. The travel demand calibration problem is formulated as\na continuous, high-dimensional, simulation-based optimization (SO) problem with\nbound constraints. There is a lack of compute efficient algorithms to tackle\nthis problem. We propose the use of an SO algorithm that relies on an\nefficient, analytical, differentiable, physics-based traffic model, known as a\nmetamodel or surrogate model. We formulate a metamodel that enables the use of\nroad speed data. Tests are performed on a Salt Lake City network. We study how\nthe amount of data, as well as the congestion levels, impact both in-sample and\nout-of-sample performance. The proposed method outperforms the benchmark for\nboth in-sample and out-of-sample performance by 84.4% and 72.2% in terms of\nspeeds and counts, respectively. Most importantly, the proposed method yields\nthe highest compute efficiency, identifying solutions with good performance\nwithin few simulation function evaluations (i.e., with small samples).\n",
+  "subjects": [
+    "Computer Science/Multiagent Systems"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "C_EFnl6kKeygShcCqBxYzLubt856n1OhtC8LRkRNzjA",
+  "pdfSize": "636457"
+}

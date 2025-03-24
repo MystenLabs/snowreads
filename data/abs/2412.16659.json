@@ -1,0 +1,43 @@
+{
+  "id": "2412.16659",
+  "title": "Adaptive Elastic-Net estimation for sparse diffusion processes",
+  "authors": "Alessandro De Gregorio, Dario Frisardi, Francesco Iafrate, Stefano\n  Iacus",
+  "authorsParsed": [
+    [
+      "De Gregorio",
+      "Alessandro",
+      ""
+    ],
+    [
+      "Frisardi",
+      "Dario",
+      ""
+    ],
+    [
+      "Iafrate",
+      "Francesco",
+      ""
+    ],
+    [
+      "Iacus",
+      "Stefano",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 21 Dec 2024 15:16:51 GMT"
+    }
+  ],
+  "updateDate": "2024-12-24",
+  "timestamp": 1734794211000,
+  "abstract": "  Penalized estimation methods for diffusion processes and dependent data have\nrecently gained significant attention due to their effectiveness in handling\nhigh-dimensional stochastic systems. In this work, we introduce an adaptive\nElastic-Net estimator for ergodic diffusion processes observed under\nhigh-frequency sampling schemes. Our method combines the least squares\napproximation of the quasi-likelihood with adaptive $\\ell_1$ and $\\ell_2$\nregularization. This approach allows to enhance prediction accuracy and\ninterpretability while effectively recovering the sparse underlying structure\nof the model.\n  In the spirit of analyzing high-dimensional scenarios, we provide\nfinite-sample guarantees for the (block-diagonal) estimator's performance by\nderiving high-probability non-asymptotic bounds for the $\\ell_2$ estimation\nerror. These results complement the established oracle properties in the\nhigh-frequency asymptotic regime with mixed convergence rates, ensuring\nconsistent selection of the relevant interactions and achieving optimal rates\nof convergence. Furthermore, we utilize our results to analyze one-step-ahead\npredictions, offering non-asymptotic control over the $\\ell_1$ prediction\nerror.\n  The performance of our method is evaluated through simulations and real data\napplications, demonstrating its effectiveness, particularly in scenarios with\nstrongly correlated variables.\n",
+  "subjects": [
+    "Mathematics/Statistics Theory",
+    "Statistics/Statistics Theory"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "Lm1bBwkfXkgWPV1wbk-wsLINfQU29uYWC-vJeJVdNCU",
+  "pdfSize": "1313337"
+}

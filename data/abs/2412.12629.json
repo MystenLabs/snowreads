@@ -1,0 +1,59 @@
+{
+  "id": "2412.12629",
+  "title": "a2z-1 for Multi-Disease Detection in Abdomen-Pelvis CT: External\n  Validation and Performance Analysis Across 21 Conditions",
+  "authors": "Pranav Rajpurkar, Julian N. Acosta, Siddhant Dogra, Jaehwan Jeong,\n  Deepanshu Jindal, Michael Moritz, Samir Rajpurkar",
+  "authorsParsed": [
+    [
+      "Rajpurkar",
+      "Pranav",
+      ""
+    ],
+    [
+      "Acosta",
+      "Julian N.",
+      ""
+    ],
+    [
+      "Dogra",
+      "Siddhant",
+      ""
+    ],
+    [
+      "Jeong",
+      "Jaehwan",
+      ""
+    ],
+    [
+      "Jindal",
+      "Deepanshu",
+      ""
+    ],
+    [
+      "Moritz",
+      "Michael",
+      ""
+    ],
+    [
+      "Rajpurkar",
+      "Samir",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 17 Dec 2024 07:44:25 GMT"
+    }
+  ],
+  "updateDate": "2024-12-18",
+  "timestamp": 1734421465000,
+  "abstract": "  We present a comprehensive evaluation of a2z-1, an artificial intelligence\n(AI) model designed to analyze abdomen-pelvis CT scans for 21 time-sensitive\nand actionable findings. Our study focuses on rigorous assessment of the\nmodel's performance and generalizability. Large-scale retrospective analysis\ndemonstrates an average AUC of 0.931 across 21 conditions. External validation\nacross two distinct health systems confirms consistent performance (AUC 0.923),\nestablishing generalizability to different evaluation scenarios, with notable\nperformance in critical findings such as small bowel obstruction (AUC 0.958)\nand acute pancreatitis (AUC 0.961). Subgroup analysis shows consistent accuracy\nacross patient sex, age groups, and varied imaging protocols, including\ndifferent slice thicknesses and contrast administration types. Comparison of\nhigh-confidence model outputs to radiologist reports reveals instances where\na2z-1 identified overlooked findings, suggesting potential for quality\nassurance applications.\n",
+  "subjects": [
+    "Electrical Engineering and Systems Science/Image and Video Processing",
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "FGTPJoXoxaU3dqCl6i1xvQBaMxKgHJQ7Xvt1k5TP-aU",
+  "pdfSize": "5252542"
+}

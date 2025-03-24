@@ -1,0 +1,66 @@
+{
+  "id": "2412.13782",
+  "title": "Knowledge Editing with Dynamic Knowledge Graphs for Multi-Hop Question\n  Answering",
+  "authors": "Yifan Lu, Yigeng Zhou, Jing Li, Yequan Wang, Xuebo Liu, Daojing He,\n  Fangming Liu, Min Zhang",
+  "authorsParsed": [
+    [
+      "Lu",
+      "Yifan",
+      ""
+    ],
+    [
+      "Zhou",
+      "Yigeng",
+      ""
+    ],
+    [
+      "Li",
+      "Jing",
+      ""
+    ],
+    [
+      "Wang",
+      "Yequan",
+      ""
+    ],
+    [
+      "Liu",
+      "Xuebo",
+      ""
+    ],
+    [
+      "He",
+      "Daojing",
+      ""
+    ],
+    [
+      "Liu",
+      "Fangming",
+      ""
+    ],
+    [
+      "Zhang",
+      "Min",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 18 Dec 2024 12:21:46 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Wed, 25 Dec 2024 14:52:33 GMT"
+    }
+  ],
+  "updateDate": "2024-12-30",
+  "timestamp": 1734524506000,
+  "abstract": "  Multi-hop question answering (MHQA) poses a significant challenge for large\nlanguage models (LLMs) due to the extensive knowledge demands involved.\nKnowledge editing, which aims to precisely modify the LLMs to incorporate\nspecific knowledge without negatively impacting other unrelated knowledge,\noffers a potential solution for addressing MHQA challenges with LLMs. However,\ncurrent solutions struggle to effectively resolve issues of knowledge\nconflicts. Most parameter-preserving editing methods are hindered by inaccurate\nretrieval and overlook secondary editing issues, which can introduce noise into\nthe reasoning process of LLMs. In this paper, we introduce KEDKG, a novel\nknowledge editing method that leverages a dynamic knowledge graph for MHQA,\ndesigned to ensure the reliability of answers. KEDKG involves two primary\nsteps: dynamic knowledge graph construction and knowledge graph augmented\ngeneration. Initially, KEDKG autonomously constructs a dynamic knowledge graph\nto store revised information while resolving potential knowledge conflicts.\nSubsequently, it employs a fine-grained retrieval strategy coupled with an\nentity and relation detector to enhance the accuracy of graph retrieval for LLM\ngeneration. Experimental results on benchmarks show that KEDKG surpasses\nprevious state-of-the-art models, delivering more accurate and reliable answers\nin environments with dynamic information.\n",
+  "subjects": [
+    "Computer Science/Computation and Language"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "lCCzy7mgJaZlaeXTXTjopM6XeoXQvBfNuRkHt1we0P4",
+  "pdfSize": "940791"
+}

@@ -1,0 +1,98 @@
+{
+  "id": "2412.12444",
+  "title": "LazyDiT: Lazy Learning for the Acceleration of Diffusion Transformers",
+  "authors": "Xuan Shen, Zhao Song, Yufa Zhou, Bo Chen, Yanyu Li, Yifan Gong, Kai\n  Zhang, Hao Tan, Jason Kuen, Henghui Ding, Zhihao Shu, Wei Niu, Pu Zhao,\n  Yanzhi Wang, Jiuxiang Gu",
+  "authorsParsed": [
+    [
+      "Shen",
+      "Xuan",
+      ""
+    ],
+    [
+      "Song",
+      "Zhao",
+      ""
+    ],
+    [
+      "Zhou",
+      "Yufa",
+      ""
+    ],
+    [
+      "Chen",
+      "Bo",
+      ""
+    ],
+    [
+      "Li",
+      "Yanyu",
+      ""
+    ],
+    [
+      "Gong",
+      "Yifan",
+      ""
+    ],
+    [
+      "Zhang",
+      "Kai",
+      ""
+    ],
+    [
+      "Tan",
+      "Hao",
+      ""
+    ],
+    [
+      "Kuen",
+      "Jason",
+      ""
+    ],
+    [
+      "Ding",
+      "Henghui",
+      ""
+    ],
+    [
+      "Shu",
+      "Zhihao",
+      ""
+    ],
+    [
+      "Niu",
+      "Wei",
+      ""
+    ],
+    [
+      "Zhao",
+      "Pu",
+      ""
+    ],
+    [
+      "Wang",
+      "Yanzhi",
+      ""
+    ],
+    [
+      "Gu",
+      "Jiuxiang",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 17 Dec 2024 01:12:35 GMT"
+    }
+  ],
+  "updateDate": "2024-12-18",
+  "timestamp": 1734397955000,
+  "abstract": "  Diffusion Transformers have emerged as the preeminent models for a wide array\nof generative tasks, demonstrating superior performance and efficacy across\nvarious applications. The promising results come at the cost of slow inference,\nas each denoising step requires running the whole transformer model with a\nlarge amount of parameters. In this paper, we show that performing the full\ncomputation of the model at each diffusion step is unnecessary, as some\ncomputations can be skipped by lazily reusing the results of previous steps.\nFurthermore, we show that the lower bound of similarity between outputs at\nconsecutive steps is notably high, and this similarity can be linearly\napproximated using the inputs. To verify our demonstrations, we propose the\n\\textbf{LazyDiT}, a lazy learning framework that efficiently leverages cached\nresults from earlier steps to skip redundant computations. Specifically, we\nincorporate lazy learning layers into the model, effectively trained to\nmaximize laziness, enabling dynamic skipping of redundant computations.\nExperimental results show that LazyDiT outperforms the DDIM sampler across\nmultiple diffusion transformer models at various resolutions. Furthermore, we\nimplement our method on mobile devices, achieving better performance than DDIM\nwith similar latency.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "TADa7bpQ3UoW5RgGjTHSnpRE0AaIm5SE1ypjorn2Aqo",
+  "pdfSize": "4064729"
+}

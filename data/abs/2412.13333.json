@@ -1,0 +1,46 @@
+{
+  "id": "2412.13333",
+  "title": "Beyond Accuracy: On the Effects of Fine-tuning Towards Vision-Language\n  Model's Prediction Rationality",
+  "authors": "Qitong Wang, Tang Li, Kien X. Nguyen, Xi Peng",
+  "authorsParsed": [
+    [
+      "Wang",
+      "Qitong",
+      ""
+    ],
+    [
+      "Li",
+      "Tang",
+      ""
+    ],
+    [
+      "Nguyen",
+      "Kien X.",
+      ""
+    ],
+    [
+      "Peng",
+      "Xi",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 17 Dec 2024 21:09:49 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Mon, 24 Feb 2025 22:07:58 GMT"
+    }
+  ],
+  "updateDate": "2025-02-26",
+  "timestamp": 1734469789000,
+  "abstract": "  Vision-Language Models (VLMs), such as CLIP, have already seen widespread\napplications. Researchers actively engage in further fine-tuning VLMs in\nsafety-critical domains. In these domains, prediction rationality is crucial:\nthe prediction should be correct and based on valid evidence. Yet, for VLMs,\nthe impact of fine-tuning on prediction rationality is seldomly investigated.\nTo study this problem, we proposed two new metrics called Prediction\nTrustworthiness and Inference Reliability. We conducted extensive experiments\non various settings and observed some interesting phenomena. On the one hand,\nwe found that the well-adopted fine-tuning methods led to more correct\npredictions based on invalid evidence. This potentially undermines the\ntrustworthiness of correct predictions from fine-tuned VLMs. On the other hand,\nhaving identified valid evidence of target objects, fine-tuned VLMs were more\nlikely to make correct predictions. Moreover, the findings are also consistent\nunder distributional shifts and across various experimental settings. We hope\nour research offer fresh insights to VLM fine-tuning.\n",
+  "subjects": [
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "tRz4Yetz1NpDycAS5AtTHt7BPGcioODIKAWPMnpMHgU",
+  "pdfSize": "3190948"
+}

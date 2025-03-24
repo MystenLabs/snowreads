@@ -1,0 +1,39 @@
+{
+  "id": "2412.18138",
+  "title": "Fundamental Limits in the Search for Less Discriminatory Algorithms --\n  and How to Avoid Them",
+  "authors": "Benjamin Laufer, Manisch Raghavan, Solon Barocas",
+  "authorsParsed": [
+    [
+      "Laufer",
+      "Benjamin",
+      ""
+    ],
+    [
+      "Raghavan",
+      "Manisch",
+      ""
+    ],
+    [
+      "Barocas",
+      "Solon",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 24 Dec 2024 03:49:48 GMT"
+    }
+  ],
+  "updateDate": "2024-12-25",
+  "timestamp": 1735012188000,
+  "abstract": "  Disparate impact doctrine offers an important legal apparatus for targeting\nunfair data-driven algorithmic decisions. A recent body of work has focused on\nconceptualizing and operationalizing one particular construct from this\ndoctrine -- the less discriminatory alternative, an alternative policy that\nreduces disparities while meeting the same business needs of a status quo or\nbaseline policy. This paper puts forward four fundamental results, which each\nrepresent limits to searching for and using less discriminatory algorithms\n(LDAs). (1) Statistically, although LDAs are almost always identifiable in\nretrospect on fixed populations, making conclusions about how alternative\nclassifiers perform on an unobserved distribution is more difficult. (2)\nMathematically, a classifier can only exhibit certain combinations of accuracy\nand selection rate disparity between groups, given the size of each group and\nthe base rate of the property or outcome of interest in each group. (3)\nComputationally, a search for a lower-disparity classifier at some baseline\nlevel of utility is NP-hard. (4) From a modeling and consumer welfare\nperspective, defining an LDA only in terms of business needs can lead to LDAs\nthat leave consumers strictly worse off, including members of the disadvantaged\ngroup. These findings, which may seem on their face to give firms strong\ndefenses against discrimination claims, only tell part of the story. For each\nof our negative results limiting what is attainable in this setting, we offer\npositive results demonstrating that there exist effective and low-cost\nstrategies that are remarkably effective at identifying viable lower-disparity\npolicies.\n",
+  "subjects": [
+    "Computer Science/Computers and Society",
+    "Computer Science/Machine Learning",
+    "Statistics/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "2XQqUOSZ0WPjEvEs7YujDXogS0uL-j10hs-mhb-RVNQ",
+  "pdfSize": "2138693"
+}

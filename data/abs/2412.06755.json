@@ -1,0 +1,40 @@
+{
+  "id": "2412.06755",
+  "title": "Speckle imaging with blind source separation and total variation\n  deconvolution",
+  "authors": "Randy Bartels, Olivier Pinaud, Maxine Varughese",
+  "authorsParsed": [
+    [
+      "Bartels",
+      "Randy",
+      ""
+    ],
+    [
+      "Pinaud",
+      "Olivier",
+      ""
+    ],
+    [
+      "Varughese",
+      "Maxine",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 9 Dec 2024 18:45:58 GMT"
+    }
+  ],
+  "updateDate": "2024-12-10",
+  "timestamp": 1733769958000,
+  "abstract": "  This work is concerned with optical imaging in strongly diffusive\nenvironments. We consider a typical setting in optical coherence tomography\nwhere a sample is probed by a collection of wavefields produced by a laser and\npropagating through a microscope. We operate in a scenario where the\nilluminations are in a speckle regime, namely fully randomized. This occurs\nwhen the light propagates deep in highly heterogeneous media. State-of-the-art\ncoherent techniques are based on the ballistic part of the wavefield, that is\nthe fraction of the wave that propagates freely and decays exponentially fast.\nIn a speckle regime, the ballistic field is negligible compared to the\nscattered field, which precludes the use of coherent methods and different\napproaches are needed. We propose a strategy based on blind source separation\nand total variation deconvolution to obtain images with diffraction-limited\nresolution. The source separation allows us to isolate the fields diffused by\nthe different scatterers to be imaged, while the deconvolution exploits the\nspeckle memory effect to estimate the distance between these scatterers. Our\nmethod is validated with numerical simulations and is shown to be effective not\nonly for imaging discrete scatterers, but also continuous objects.\n",
+  "subjects": [
+    "Physics/Optics",
+    "Computer Science/Numerical Analysis",
+    "Mathematics/Analysis of PDEs",
+    "Mathematics/Numerical Analysis"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "enmnOgNKZ39_obc5HdjPSEZSN9UgBHRurs-vmFBlXr0",
+  "pdfSize": "2582629"
+}

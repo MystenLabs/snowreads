@@ -1,0 +1,38 @@
+{
+  "id": "2412.03698",
+  "title": "Non-BCS behavior of the pairing susceptibility near the onset of\n  superconductivity in a quantum-critical metal",
+  "authors": "Artem Abanov and Shang-Shun Zhang and Andrey Chubukov",
+  "authorsParsed": [
+    [
+      "Abanov",
+      "Artem",
+      ""
+    ],
+    [
+      "Zhang",
+      "Shang-Shun",
+      ""
+    ],
+    [
+      "Chubukov",
+      "Andrey",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 4 Dec 2024 20:21:19 GMT"
+    }
+  ],
+  "updateDate": "2024-12-06",
+  "timestamp": 1733343679000,
+  "abstract": "  We analyze the dynamical pairing susceptibility $\\chi_{pp} (\\omega_m)$ at\n$T=0$ in a quantum-critical metal, where superconductivity emerges out of a\nnon-Fermi liquid ground state once the pairing interaction exceeds a certain\nthreshold. We obtain $\\chi_{pp} (\\omega_m)$ as the ratio of the fully dressed\ndynamical pairing vertex $\\Phi (\\omega_m)$ and the bare $\\Phi_0 (\\omega_m)$\n(both infinitesimally small). For superconductivity out of a Fermi liquid, the\npairing susceptibility is positive above $T_c$, diverges at $T_c$, and becomes\nnegative below it. For superconductivity out of a non-Fermi liquid, the\nbehavior of $\\chi_{pp} (\\omega_m)$ is different in two aspects: (i) it diverges\nat the onset of pairing at $T=0$ only for a certain subclass of bare $\\Phi_0\n(\\omega_m)$ and remains non-singular for other $\\Phi_0 (\\omega_m)$, and (ii)\nbelow the instability, it becomes a non-unique function of a continuous\nparameter $\\phi$ for an arbitrary $\\Phi_0 (\\omega_m)$. The susceptibility is\nnegative in some range of $\\phi$ and diverges at the boundary of this range. We\nargue that this behavior of the susceptibility reflects a multi-critical nature\nof a superconducting transition in a quantum-critical metal when immediately\nbelow the instability an infinite number of superconducting states emerges\nsimultaneously with different amplitudes of the order parameter down to an\ninfinitesimally small one.\n",
+  "subjects": [
+    "Condensed Matter/Superconductivity",
+    "Condensed Matter/Strongly Correlated Electrons"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "4tPie6WtqQDXMlfgVfKVbvYFGL81YVMO6vS3wWgJpl8",
+  "pdfSize": "1710434"
+}

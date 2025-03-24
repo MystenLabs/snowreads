@@ -1,0 +1,32 @@
+{
+  "id": "2412.00768",
+  "title": "EnFed: An Energy-aware Opportunistic Federated Learning in Resource\n  Constrained Environments for Human Activity Recognition",
+  "authors": "Anwesha Mukherjee, Rajkumar Buyya",
+  "authorsParsed": [
+    [
+      "Mukherjee",
+      "Anwesha",
+      ""
+    ],
+    [
+      "Buyya",
+      "Rajkumar",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 1 Dec 2024 11:19:11 GMT"
+    }
+  ],
+  "updateDate": "2024-12-03",
+  "timestamp": 1733051951000,
+  "abstract": "  This paper proposes an energy-efficient federated learning method and its\napplication in human activity monitoring and recognition. In the proposed\napproach, the device that needs a model for an application requests its nearby\ndevices for collaboration. The nearby devices that accept the request, send\ntheir model updates to the requesting device. The device receives the model\nupdates from the collaborators and performs aggregation to build its model. As\nmobile devices have limited battery life, the number of rounds is decided based\non the desired accuracy level and battery level of the requesting device. The\nperformance of the proposed approach is evaluated with respect to prediction\naccuracy, training time, training energy consumption of the device, and\nresponse time. We have used two different datasets for performance evaluation.\nThe first dataset contains different types of physical activities and the\nrespective calorie burn. The second dataset is a human activity recognition\ndataset that considers six types of physical activities. The experimental\nresults show that using the proposed method the training time and training\nenergy consumption of the device are reduced by approximately 59% and 19% for\nthe first and second datasets respectively, than the decentralized federated\nlearning approach, while using LSTM as the underlying data analysis model. The\nresults also present that the proposed method reduces the training time and\nenergy consumption by approximately 55% and 72% for the first and second\ndatasets respectively, than the decentralized federated learning approach while\nusing MLP as the underlying data analysis model.\n",
+  "subjects": [
+    "Computer Science/Distributed, Parallel, and Cluster Computing"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "P-HXSqvpCMuwWKKoOJPZbcjZiaO3MKHTUQOE4d7O78Q",
+  "pdfSize": "1609458"
+}

@@ -1,0 +1,62 @@
+{
+  "id": "2412.04792",
+  "title": "Multi-class heart disease Detection, Classification, and Prediction\n  using Machine Learning Models",
+  "authors": "Mahfuzul Haque, Abu Saleh Musa Miah, Debashish Gupta, Md. Maruf Al\n  Hossain Prince, Tanzina Alam, Nusrat Sharmin, Mohammed Sowket Ali, Jungpil\n  Shin",
+  "authorsParsed": [
+    [
+      "Haque",
+      "Mahfuzul",
+      ""
+    ],
+    [
+      "Miah",
+      "Abu Saleh Musa",
+      ""
+    ],
+    [
+      "Gupta",
+      "Debashish",
+      ""
+    ],
+    [
+      "Prince",
+      "Md. Maruf Al Hossain",
+      ""
+    ],
+    [
+      "Alam",
+      "Tanzina",
+      ""
+    ],
+    [
+      "Sharmin",
+      "Nusrat",
+      ""
+    ],
+    [
+      "Ali",
+      "Mohammed Sowket",
+      ""
+    ],
+    [
+      "Shin",
+      "Jungpil",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 6 Dec 2024 05:55:41 GMT"
+    }
+  ],
+  "updateDate": "2024-12-09",
+  "timestamp": 1733464541000,
+  "abstract": "  Heart disease is a leading cause of premature death worldwide, particularly\namong middle-aged and older adults, with men experiencing a higher prevalence.\nAccording to the World Health Organization (WHO), non-communicable diseases,\nincluding heart disease, account for 25\\% (17.9 million) of global deaths, with\nover 43,204 annual fatalities in Bangladesh. However, the development of heart\ndisease detection (HDD) systems tailored to the Bangladeshi population remains\nunderexplored due to the lack of benchmark datasets and reliance on manual or\nlimited-data approaches. This study addresses these challenges by introducing\nnew, ethically sourced HDD dataset, BIG-Dataset and CD dataset which\nincorporates comprehensive data on symptoms, examination techniques, and risk\nfactors. Using advanced machine learning techniques, including Logistic\nRegression and Random Forest, we achieved a remarkable testing accuracy of up\nto 96.6\\% with Random Forest. The proposed AI-driven system integrates these\nmodels and datasets to provide real-time, accurate diagnostics and personalized\nhealthcare recommendations. By leveraging structured datasets and\nstate-of-the-art machine learning algorithms, this research offers an\ninnovative solution for scalable and effective heart disease detection, with\nthe potential to reduce mortality rates and improve clinical outcomes.\n",
+  "subjects": [
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "yb7pzMOhnu4W6005lfZGtTkvuS4OxNNVWKS8l1g-BzA",
+  "pdfSize": "780465"
+}

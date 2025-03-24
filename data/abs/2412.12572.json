@@ -1,0 +1,34 @@
+{
+  "id": "2412.12572",
+  "title": "License Plate Detection and Character Recognition Using Deep Learning\n  and Font Evaluation",
+  "authors": "Zahra Ebrahimi Vargoorani, Ching Yee Suen",
+  "authorsParsed": [
+    [
+      "Vargoorani",
+      "Zahra Ebrahimi",
+      ""
+    ],
+    [
+      "Suen",
+      "Ching Yee",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 17 Dec 2024 06:03:42 GMT"
+    }
+  ],
+  "updateDate": "2024-12-18",
+  "timestamp": 1734415422000,
+  "abstract": "  License plate detection (LPD) is essential for traffic management, vehicle\ntracking, and law enforcement but faces challenges like variable lighting and\ndiverse font types, impacting accuracy. Traditionally reliant on image\nprocessing and machine learning, the field is now shifting towards deep\nlearning for its robust performance in various conditions. Current methods,\nhowever, often require tailoring to specific regional datasets. This paper\nproposes a dual deep learning strategy using a Faster R-CNN for detection and a\nCNN-RNN model with Connectionist Temporal Classification (CTC) loss and a\nMobileNet V3 backbone for recognition. This approach aims to improve model\nperformance using datasets from Ontario, Quebec, California, and New York\nState, achieving a recall rate of 92% on the Centre for Pattern Recognition and\nMachine Intelligence (CENPARMI) dataset and 90% on the UFPR-ALPR dataset. It\nincludes a detailed error analysis to identify the causes of false positives.\nAdditionally, the research examines the role of font features in license plate\n(LP) recognition, analyzing fonts like Driver Gothic, Dreadnought, California\nClarendon, and Zurich Extra Condensed with the OpenALPR system. It discovers\nsignificant performance discrepancies influenced by font characteristics,\noffering insights for future LPD system enhancements.\n  Keywords: Deep Learning, License Plate, Font Evaluation\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "N2ILTXc3X9PHNPubaH8SrRzf3nHdvBUCHtRKdh4lfZk",
+  "pdfSize": "1989715"
+}

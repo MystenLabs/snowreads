@@ -1,0 +1,34 @@
+{
+  "id": "2412.06629",
+  "title": "PolytopeWalk: Sparse MCMC Sampling over Polytopes",
+  "authors": "Benny Sun and Yuansi Chen",
+  "authorsParsed": [
+    [
+      "Sun",
+      "Benny",
+      ""
+    ],
+    [
+      "Chen",
+      "Yuansi",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 9 Dec 2024 16:20:01 GMT"
+    }
+  ],
+  "updateDate": "2024-12-10",
+  "timestamp": 1733761201000,
+  "abstract": "  High dimensional sampling is an important computational tool in statistics\nand other computational disciplines, with applications ranging from Bayesian\nstatistical uncertainty quantification, metabolic modeling in systems biology\nto volume computation. We present $\\textsf{PolytopeWalk}$, a new scalable\nPython library designed for uniform sampling over polytopes. The library\nprovides an end-to-end solution, which includes preprocessing algorithms such\nas facial reduction and initialization methods. Six state-of-the-art MCMC\nalgorithms on polytopes are implemented, including the Dikin, Vaidya, and John\nWalk. Additionally, we introduce novel sparse constrained formulations of these\nalgorithms, enabling efficient sampling from sparse polytopes of the form $K_2\n= \\{x \\in \\mathbb{R}^d \\ | \\ Ax = b, x \\succeq_k 0\\}$. This implementation\nmaintains sparsity in $A$, ensuring scalability to high dimensional settings\n$(d > 10^5)$. We demonstrate the improved sampling efficiency and per-iteration\ncost on both Netlib datasets and structured polytopes. $\\textsf{PolytopeWalk}$\nis available at github.com/ethz-randomwalk/polytopewalk with documentation at\npolytopewalk.readthedocs.io .\n",
+  "subjects": [
+    "Statistics/Computation",
+    "Computer Science/Machine Learning",
+    "Statistics/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "VmJdS79BqKFUg0zUS2OXV7Ih12BqnuqT54qx86Ssxtg",
+  "pdfSize": "931455"
+}

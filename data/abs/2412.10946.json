@@ -1,0 +1,38 @@
+{
+  "id": "2412.10946",
+  "title": "SegHeD+: Segmentation of Heterogeneous Data for Multiple Sclerosis\n  Lesions with Anatomical Constraints and Lesion-aware Augmentation",
+  "authors": "Berke Doga Basaran, Paul M. Matthews, Wenjia Bai",
+  "authorsParsed": [
+    [
+      "Basaran",
+      "Berke Doga",
+      ""
+    ],
+    [
+      "Matthews",
+      "Paul M.",
+      ""
+    ],
+    [
+      "Bai",
+      "Wenjia",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 14 Dec 2024 19:44:25 GMT"
+    }
+  ],
+  "updateDate": "2024-12-17",
+  "timestamp": 1734205465000,
+  "abstract": "  Assessing lesions and tracking their progression over time in brain magnetic\nresonance (MR) images is essential for diagnosing and monitoring multiple\nsclerosis (MS). Machine learning models have shown promise in automating the\nsegmentation of MS lesions. However, training these models typically requires\nlarge, well-annotated datasets. Unfortunately, MS imaging datasets are often\nlimited in size, spread across multiple hospital sites, and exhibit different\nformats (such as cross-sectional or longitudinal) and annotation styles. This\ndata diversity presents a significant obstacle to developing a unified model\nfor MS lesion segmentation. To address this issue, we introduce SegHeD+, a\nnovel segmentation model that can handle multiple datasets and tasks,\naccommodating heterogeneous input data and performing segmentation for all\nlesions, new lesions, and vanishing lesions. We integrate domain knowledge\nabout MS lesions by incorporating longitudinal, anatomical, and volumetric\nconstraints into the segmentation model. Additionally, we perform lesion-level\ndata augmentation to enlarge the training set and further improve segmentation\nperformance. SegHeD+ is evaluated on five MS datasets and demonstrates superior\nperformance in segmenting all, new, and vanishing lesions, surpassing several\nstate-of-the-art methods in the field.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "yra_LXTIQCTfAM2Lunn9IKsP3-FZfj2GsMjV1p0RnUE",
+  "pdfSize": "12000373"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "2412.04706",
+  "title": "Comparison of Deep Learning and Particle Smoother Expectation\n  Maximization Methods for Estimation of Myocardial Perfusion PET Kinetic\n  Parameters",
+  "authors": "Myungheon Chin, Sarah J Zou, Garry Chinn, Craig S. Levin",
+  "authorsParsed": [
+    [
+      "Chin",
+      "Myungheon",
+      ""
+    ],
+    [
+      "Zou",
+      "Sarah J",
+      ""
+    ],
+    [
+      "Chinn",
+      "Garry",
+      ""
+    ],
+    [
+      "Levin",
+      "Craig S.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 6 Dec 2024 01:39:10 GMT"
+    }
+  ],
+  "updateDate": "2024-12-09",
+  "timestamp": 1733449150000,
+  "abstract": "  Background: Positron emission tomography (PET) is widely used for studying\ndynamic processes, such as myocardial perfusion, by acquiring data over time\nframes. Kinetic modeling in PET allows for the estimation of physiological\nparameters, offering insights into disease characterization. Conventional\napproaches have notable limitations; for example, graphical methods may reduce\naccuracy due to linearization, while non-linear least squares (NLLS) methods\nmay converge to local minima. Purpose: This study aims to develop and validate\ntwo novel methods for PET kinetic analysis of 82Rb: a particle smoother-based\nalgorithm within an Expectation-Maximization (EM) framework and a convolutional\nneural network (CNN) approach. Methods: The proposed methods were applied to\nsimulated 82Rb dynamic PET myocardial perfusion studies. Their performance was\ncompared to conventional NLLS methods and a Kalman filter-based\nExpectation-Maximization (KEM) algorithm. Results: The success rates for\nparameters F, k3, and k4 were 46.0%, 67.5%, and 54.0% for the particle smoother\nwith EM (PSEM) and 86.5%, 83.0%, and 79.5% for the CNN model, respectively,\noutperforming the NLLS method. Conclusions: The CNN and PSEM methods showed\npromising improvements over traditional methods in estimating kinetic\nparameters in dynamic PET studies, suggesting their potential for enhanced\naccuracy in disease characterization.\n",
+  "subjects": [
+    "Physics/Medical Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "_IlueN_GN6N-AuITHMU9tE0JhgpTpMMUg-1PTHtIx1Y",
+  "pdfSize": "695076"
+}

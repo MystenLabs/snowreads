@@ -1,0 +1,44 @@
+{
+  "id": "2412.20611",
+  "title": "Uncertainty of high-dimensional genetic data prediction with polygenic\n  risk scores",
+  "authors": "Haoxuan Fu, Jiaoyang Huang, Zirui Fan, Bingxin Zhao",
+  "authorsParsed": [
+    [
+      "Fu",
+      "Haoxuan",
+      ""
+    ],
+    [
+      "Huang",
+      "Jiaoyang",
+      ""
+    ],
+    [
+      "Fan",
+      "Zirui",
+      ""
+    ],
+    [
+      "Zhao",
+      "Bingxin",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 29 Dec 2024 22:59:09 GMT"
+    }
+  ],
+  "updateDate": "2024-12-31",
+  "timestamp": 1735513149000,
+  "abstract": "  In many predictive tasks, there are a large number of true predictors with\nweak signals, leading to substantial uncertainties in prediction outcomes. The\npolygenic risk score (PRS) is an example of such a scenario, where many genetic\nvariants are used as predictors for complex traits, each contributing only a\nsmall amount of information. Although PRS has been a standard tool in genetic\npredictions, its uncertainty remains largely unexplored. In this paper, we aim\nto establish the asymptotic normality of PRS in high-dimensional predictions\nwithout sparsity constraints. We investigate the popular marginal and\nridge-type estimators in PRS applications, developing central limit theorems\nfor both individual-level predicted values (e.g., genetically predicted human\nheight) and cohort-level prediction accuracy measures (e.g., overall predictive\n$R$-squared in the testing dataset). Our results demonstrate that ignoring the\nprediction-induced uncertainty can lead to substantial underestimation of the\ntrue variance of PRS-based estimators, which in turn may cause overconfidence\nin the accuracy of confidence intervals and hypothesis testing. These findings\nprovide key insights omitted by existing first-order asymptotic studies of\nhigh-dimensional sparsity-free predictions, which often focus solely on the\npoint limits of predictive risks. We develop novel and flexible second-order\nrandom matrix theory results to assess the asymptotic normality of functionals\nwith a general covariance matrix, without assuming Gaussian distributions for\nthe data. We evaluate our theoretical results through extensive numerical\nanalyses using real data from the UK Biobank. Our analysis underscores the\nimportance of incorporating uncertainty assessments at both the individual and\ncohort levels when applying and interpreting PRS.\n",
+  "subjects": [
+    "Statistics/Methodology",
+    "Mathematics/Statistics Theory",
+    "Statistics/Statistics Theory"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "c242ibjm1PEuDEPnRL-60IzWzqRXVJp40mrc4yuW1TQ",
+  "pdfSize": "989158"
+}

@@ -1,0 +1,61 @@
+{
+  "id": "2412.09892",
+  "title": "VQTalker: Towards Multilingual Talking Avatars through Facial Motion\n  Tokenization",
+  "authors": "Tao Liu, Ziyang Ma, Qi Chen, Feilong Chen, Shuai Fan, Xie Chen, Kai Yu",
+  "authorsParsed": [
+    [
+      "Liu",
+      "Tao",
+      ""
+    ],
+    [
+      "Ma",
+      "Ziyang",
+      ""
+    ],
+    [
+      "Chen",
+      "Qi",
+      ""
+    ],
+    [
+      "Chen",
+      "Feilong",
+      ""
+    ],
+    [
+      "Fan",
+      "Shuai",
+      ""
+    ],
+    [
+      "Chen",
+      "Xie",
+      ""
+    ],
+    [
+      "Yu",
+      "Kai",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 13 Dec 2024 06:14:57 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Wed, 18 Dec 2024 11:12:49 GMT"
+    }
+  ],
+  "updateDate": "2024-12-19",
+  "timestamp": 1734070497000,
+  "abstract": "  We present VQTalker, a Vector Quantization-based framework for multilingual\ntalking head generation that addresses the challenges of lip synchronization\nand natural motion across diverse languages. Our approach is grounded in the\nphonetic principle that human speech comprises a finite set of distinct sound\nunits (phonemes) and corresponding visual articulations (visemes), which often\nshare commonalities across languages. We introduce a facial motion tokenizer\nbased on Group Residual Finite Scalar Quantization (GRFSQ), which creates a\ndiscretized representation of facial features. This method enables\ncomprehensive capture of facial movements while improving generalization to\nmultiple languages, even with limited training data. Building on this quantized\nrepresentation, we implement a coarse-to-fine motion generation process that\nprogressively refines facial animations. Extensive experiments demonstrate that\nVQTalker achieves state-of-the-art performance in both video-driven and\nspeech-driven scenarios, particularly in multilingual settings. Notably, our\nmethod achieves high-quality results at a resolution of 512*512 pixels while\nmaintaining a lower bitrate of approximately 11 kbps. Our work opens new\npossibilities for cross-lingual talking face generation. Synthetic results can\nbe viewed at https://x-lance.github.io/VQTalker.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "M14eOH-7W7p0spjx-JOVUdYcaVJJawcF2TSKZIU7bWM",
+  "pdfSize": "8872232"
+}

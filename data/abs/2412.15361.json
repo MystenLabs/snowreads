@@ -1,0 +1,56 @@
+{
+  "id": "2412.15361",
+  "title": "A Generative Framework for Probabilistic, Spatiotemporally Coherent\n  Downscaling of Climate Simulation",
+  "authors": "Jonathan Schmidt, Luca Schmidt, Felix Strnad, Nicole Ludwig, Philipp\n  Hennig",
+  "authorsParsed": [
+    [
+      "Schmidt",
+      "Jonathan",
+      ""
+    ],
+    [
+      "Schmidt",
+      "Luca",
+      ""
+    ],
+    [
+      "Strnad",
+      "Felix",
+      ""
+    ],
+    [
+      "Ludwig",
+      "Nicole",
+      ""
+    ],
+    [
+      "Hennig",
+      "Philipp",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 19 Dec 2024 19:47:35 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Thu, 9 Jan 2025 12:18:26 GMT"
+    },
+    {
+      "version": "v3",
+      "created": "Tue, 28 Jan 2025 13:22:47 GMT"
+    }
+  ],
+  "updateDate": "2025-01-29",
+  "timestamp": 1734637655000,
+  "abstract": "  Local climate information is crucial for impact assessment and\ndecision-making, yet coarse global climate simulations cannot capture\nsmall-scale phenomena. Current statistical downscaling methods infer these\nphenomena as temporally decoupled spatial patches. However, to preserve\nphysical properties, estimating spatio-temporally coherent high-resolution\nweather dynamics for multiple variables across long time horizons is crucial.\nWe present a novel generative framework that uses a score-based diffusion model\ntrained on high-resolution reanalysis data to capture the statistical\nproperties of local weather dynamics. After training, we condition on coarse\nclimate model data to generate weather patterns consistent with the aggregate\ninformation. As this predictive task is inherently uncertain, we leverage the\nprobabilistic nature of diffusion models and sample multiple trajectories. We\nevaluate our approach with high-resolution reanalysis information before\napplying it to the climate model downscaling task. We then demonstrate that the\nmodel generates spatially and temporally coherent weather dynamics that align\nwith global climate output.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Physics/Atmospheric and Oceanic Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "MR6WtJFYxcwQA5sgts7eUrtHtBcuH11va1fJM1FLD4k",
+  "pdfSize": "14798760"
+}

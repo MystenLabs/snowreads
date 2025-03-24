@@ -1,0 +1,42 @@
+{
+  "id": "2412.11826",
+  "title": "Uncovering Student Engagement Patterns in Moodle with Interpretable\n  Machine Learning",
+  "authors": "Laura J. Johnston, Jim E. Griffin, Ioanna Manolopoulou and Takoua\n  Jendoubi",
+  "authorsParsed": [
+    [
+      "Johnston",
+      "Laura J.",
+      ""
+    ],
+    [
+      "Griffin",
+      "Jim E.",
+      ""
+    ],
+    [
+      "Manolopoulou",
+      "Ioanna",
+      ""
+    ],
+    [
+      "Jendoubi",
+      "Takoua",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 16 Dec 2024 14:47:25 GMT"
+    }
+  ],
+  "updateDate": "2024-12-17",
+  "timestamp": 1734360445000,
+  "abstract": "  Understanding and enhancing student engagement through digital platforms is\ncritical in higher education. This study introduces a methodology for\nquantifying engagement across an entire module using virtual learning\nenvironment (VLE) activity log data. Using study session frequency, immediacy,\nand diversity, we create a cumulative engagement metric and model it against\nweekly VLE interactions with resources to identify critical periods and\nresources predictive of student engagement.\n  In a case study of a computing module at University College London's\nDepartment of Statistical Science, we further examine how delivery methods\n(online, hybrid, in-person) impact student behaviour. Across nine regression\nmodels, we validate the consistency of the random forest model and highlight\nthe interpretive strengths of generalised additive models for analysing\nengagement patterns.\n  Results show weekly VLE clicks as reliable engagement predictors, with early\nweeks and the first assessment period being key. However, the impact of\ndelivery methods on engagement is inconclusive due to inconsistencies across\nmodels. These findings support early intervention strategies to assist students\nat risk of disengagement. This work contributes to learning analytics research\nby proposing a refined VLE-based engagement metric and advancing data-driven\nteaching strategies in higher education.\n",
+  "subjects": [
+    "Computer Science/Computers and Society"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "s2xkUN0Ax28SjO654IPDvU3pYtmstE10WtQ4zgopKEU",
+  "pdfSize": "2857108"
+}

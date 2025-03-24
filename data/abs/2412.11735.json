@@ -1,0 +1,47 @@
+{
+  "id": "2412.11735",
+  "title": "Transferable Adversarial Face Attack with Text Controlled Attribute",
+  "authors": "Wenyun Li, Zheng Zhang, Xiangyuan Lan, Dongmei Jiang",
+  "authorsParsed": [
+    [
+      "Li",
+      "Wenyun",
+      ""
+    ],
+    [
+      "Zhang",
+      "Zheng",
+      ""
+    ],
+    [
+      "Lan",
+      "Xiangyuan",
+      ""
+    ],
+    [
+      "Jiang",
+      "Dongmei",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 16 Dec 2024 12:56:57 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Sun, 2 Feb 2025 06:47:16 GMT"
+    }
+  ],
+  "updateDate": "2025-02-04",
+  "timestamp": 1734353817000,
+  "abstract": "  Traditional adversarial attacks typically produce adversarial examples under\nnorm-constrained conditions, whereas unrestricted adversarial examples are\nfree-form with semantically meaningful perturbations. Current unrestricted\nadversarial impersonation attacks exhibit limited control over adversarial face\nattributes and often suffer from low transferability. In this paper, we propose\na novel Text Controlled Attribute Attack (TCA$^2$) to generate photorealistic\nadversarial impersonation faces guided by natural language. Specifically, the\ncategory-level personal softmax vector is employed to precisely guide the\nimpersonation attacks. Additionally, we propose both data and model\naugmentation strategies to achieve transferable attacks on unknown target\nmodels. Finally, a generative model, \\textit{i.e}, Style-GAN, is utilized to\nsynthesize impersonated faces with desired attributes. Extensive experiments on\ntwo high-resolution face recognition datasets validate that our TCA$^2$ method\ncan generate natural text-guided adversarial impersonation faces with high\ntransferability. We also evaluate our method on real-world face recognition\nsystems, \\textit{i.e}, Face++ and Aliyun, further demonstrating the practical\npotential of our approach.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "pabNcZtsrHOQixQerp6ww-g3-Oj1n0O5-7-ymgBGa4U",
+  "pdfSize": "26367814"
+}

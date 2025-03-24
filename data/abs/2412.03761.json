@@ -1,0 +1,28 @@
+{
+  "id": "2412.03761",
+  "title": "Language Model Meets Prototypes: Towards Interpretable Text\n  Classification Models through Prototypical Networks",
+  "authors": "Ximing Wen",
+  "authorsParsed": [
+    [
+      "Wen",
+      "Ximing",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 4 Dec 2024 22:59:35 GMT"
+    }
+  ],
+  "updateDate": "2024-12-06",
+  "timestamp": 1733353175000,
+  "abstract": "  Pretrained transformer-based Language Models (LMs) are well-known for their\nability to achieve significant improvement on NLP tasks, but their black-box\nnature, which leads to a lack of interpretability, has been a major concern. My\ndissertation focuses on developing intrinsically interpretable models when\nusing LMs as encoders while maintaining their superior performance via\nprototypical networks. I initiated my research by investigating enhancements in\nperformance for interpretable models of sarcasm detection. My proposed approach\nfocuses on capturing sentiment incongruity to enhance accuracy while offering\ninstance-based explanations for the classification decisions. Later, I\ndeveloped a novel white-box multi-head graph attention-based prototype network\ndesigned to explain the decisions of text classification models without\nsacrificing the accuracy of the original black-box LMs. In addition, I am\nworking on extending the attention-based prototype network with contrastive\nlearning to redesign an interpretable graph neural network, aiming to enhance\nboth the interpretability and performance of the model in document\nclassification.\n",
+  "subjects": [
+    "Computer Science/Computation and Language",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by-sa/4.0/",
+  "blobId": "iJPQDIsvU9TqwkcRc5p5lSJ9qNp3rleM9zE1St-KzMY",
+  "pdfSize": "135325"
+}

@@ -1,0 +1,43 @@
+{
+  "id": "2412.10168",
+  "title": "Learning payoffs while routing in skill-based queues",
+  "authors": "Sanne van Kempen, Jaron Sanders, Fiona Sloothaak, Maarten G. Wolf",
+  "authorsParsed": [
+    [
+      "van Kempen",
+      "Sanne",
+      ""
+    ],
+    [
+      "Sanders",
+      "Jaron",
+      ""
+    ],
+    [
+      "Sloothaak",
+      "Fiona",
+      ""
+    ],
+    [
+      "Wolf",
+      "Maarten G.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 13 Dec 2024 14:33:50 GMT"
+    }
+  ],
+  "updateDate": "2024-12-16",
+  "timestamp": 1734100430000,
+  "abstract": "  Motivated by applications in service systems, we consider queueing systems\nwhere each customer must be handled by a server with the right skill set. We\nfocus on optimizing the routing of customers to servers in order to maximize\nthe total payoff of customer--server matches. In addition, customer--server\ndependent payoff parameters are assumed to be unknown a priori. We construct a\nmachine learning algorithm that adaptively learns the payoff parameters while\nmaximizing the total payoff and prove that it achieves polylogarithmic regret.\nMoreover, we show that the algorithm is asymptotically optimal up to\nlogarithmic terms by deriving a regret lower bound. The algorithm leverages the\nbasic feasible solutions of a static linear program as the action space. The\nregret analysis overcomes the complex interplay between queueing and learning\nby analyzing the convergence of the queue length process to its stationary\nbehavior. We also demonstrate the performance of the algorithm numerically, and\nhave included an experiment with time-varying parameters highlighting the\npotential of the algorithm in non-static environments.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Mathematics/Probability"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "Wupt65c8vgifvfjZQHhXyw0-_HwtCRm1MnJMDzzivTk",
+  "pdfSize": "1204926"
+}

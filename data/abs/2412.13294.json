@@ -1,0 +1,53 @@
+{
+  "id": "2412.13294",
+  "title": "Image registration is a geometric deep learning task",
+  "authors": "Vasiliki Sideri-Lampretsa, Nil Stolt-Ans\\'o, Martin Menten, Huaqi Qiu,\n  Julian McGinnis, Daniel Rueckert",
+  "authorsParsed": [
+    [
+      "Sideri-Lampretsa",
+      "Vasiliki",
+      ""
+    ],
+    [
+      "Stolt-Ansó",
+      "Nil",
+      ""
+    ],
+    [
+      "Menten",
+      "Martin",
+      ""
+    ],
+    [
+      "Qiu",
+      "Huaqi",
+      ""
+    ],
+    [
+      "McGinnis",
+      "Julian",
+      ""
+    ],
+    [
+      "Rueckert",
+      "Daniel",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 17 Dec 2024 19:47:10 GMT"
+    }
+  ],
+  "updateDate": "2024-12-19",
+  "timestamp": 1734464830000,
+  "abstract": "  Data-driven deformable image registration methods predominantly rely on\noperations that process grid-like inputs. However, applying deformable\ntransformations to an image results in a warped space that deviates from a\nrigid grid structure. Consequently, data-driven approaches with sequential\ndeformations have to apply grid resampling operations between each deformation\nstep. While artifacts caused by resampling are negligible in high-resolution\nimages, the resampling of sparse, high-dimensional feature grids introduces\nerrors that affect the deformation modeling process. Taking inspiration from\nLagrangian reference frames of deformation fields, our work introduces a novel\nparadigm for data-driven deformable image registration that utilizes geometric\ndeep-learning principles to model deformations without grid requirements.\nSpecifically, we model image features as a set of nodes that freely move in\nEuclidean space, update their coordinates under graph operations, and\ndynamically readjust their local neighborhoods. We employ this formulation to\nconstruct a multi-resolution deformable registration model, where deformation\nlayers iteratively refine the overall transformation at each resolution without\nintermediate resampling operations on the feature grids. We investigate our\nmethod's ability to fully deformably capture large deformations across a number\nof medical imaging registration tasks. In particular, we apply our approach\n(GeoReg) to the registration of inter-subject brain MR images and inhale-exhale\nlung CT images, showing on par performance with the current state-of-the-art\nmethods. We believe our contribution open up avenues of research to reduce the\nblack-box nature of current learned registration paradigms by explicitly\nmodeling the transformation within the architecture.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "-xw_YgWrY-iHchMW4TCzMRlgH79FV79AZch6E5NIV08",
+  "pdfSize": "27757198"
+}

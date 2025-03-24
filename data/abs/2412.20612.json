@@ -1,0 +1,38 @@
+{
+  "id": "2412.20612",
+  "title": "Towards Explaining Uncertainty Estimates in Point Cloud Registration",
+  "authors": "Ziyuan Qin, Jongseok Lee, Rudolph Triebel",
+  "authorsParsed": [
+    [
+      "Qin",
+      "Ziyuan",
+      ""
+    ],
+    [
+      "Lee",
+      "Jongseok",
+      ""
+    ],
+    [
+      "Triebel",
+      "Rudolph",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 29 Dec 2024 23:03:44 GMT"
+    }
+  ],
+  "updateDate": "2024-12-31",
+  "timestamp": 1735513424000,
+  "abstract": "  Iterative Closest Point (ICP) is a commonly used algorithm to estimate\ntransformation between two point clouds. The key idea of this work is to\nleverage recent advances in explainable AI for probabilistic ICP methods that\nprovide uncertainty estimates. Concretely, we propose a method that can explain\nwhy a probabilistic ICP method produced a particular output. Our method is\nbased on kernel SHAP (SHapley Additive exPlanations). With this, we assign an\nimportance value to common sources of uncertainty in ICP such as sensor noise,\nocclusion, and ambiguous environments. The results of the experiment show that\nthis explanation method can reasonably explain the uncertainty sources,\nproviding a step towards robots that know when and why they failed in a human\ninterpretable manner\n",
+  "subjects": [
+    "Computer Science/Robotics",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "b_XjrC_vzZ3sA91hKB2kxcAeW8n95cHiNZJOEuLZTFQ",
+  "pdfSize": "1398267"
+}

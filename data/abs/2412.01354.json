@@ -1,0 +1,43 @@
+{
+  "id": "2412.01354",
+  "title": "Integrative CAM: Adaptive Layer Fusion for Comprehensive Interpretation\n  of CNNs",
+  "authors": "Aniket K. Singh, Debasis Chaudhuri, Manish P. Singh and Samiran\n  Chattopadhyay",
+  "authorsParsed": [
+    [
+      "Singh",
+      "Aniket K.",
+      ""
+    ],
+    [
+      "Chaudhuri",
+      "Debasis",
+      ""
+    ],
+    [
+      "Singh",
+      "Manish P.",
+      ""
+    ],
+    [
+      "Chattopadhyay",
+      "Samiran",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 2 Dec 2024 10:33:34 GMT"
+    }
+  ],
+  "updateDate": "2024-12-03",
+  "timestamp": 1733135614000,
+  "abstract": "  With the growing demand for interpretable deep learning models, this paper\nintroduces Integrative CAM, an advanced Class Activation Mapping (CAM)\ntechnique aimed at providing a holistic view of feature importance across\nConvolutional Neural Networks (CNNs). Traditional gradient-based CAM methods,\nsuch as Grad-CAM and Grad-CAM++, primarily use final layer activations to\nhighlight regions of interest, often neglecting critical features derived from\nintermediate layers. Integrative CAM addresses this limitation by fusing\ninsights across all network layers, leveraging both gradient and activation\nscores to adaptively weight layer contributions, thus yielding a comprehensive\ninterpretation of the model's internal representation. Our approach includes a\nnovel bias term in the saliency map calculation, a factor frequently omitted in\nexisting CAM techniques, but essential for capturing a more complete feature\nimportance landscape, as modern CNNs rely on both weighted activations and\nbiases to make predictions. Additionally, we generalize the alpha term from\nGrad-CAM++ to apply to any smooth function, expanding CAM applicability across\na wider range of models. Through extensive experiments on diverse and complex\ndatasets, Integrative CAM demonstrates superior fidelity in feature importance\nmapping, effectively enhancing interpretability for intricate fusion scenarios\nand complex decision-making tasks. By advancing interpretability methods to\ncapture multi-layered model insights, Integrative CAM provides a valuable tool\nfor fusion-driven applications, promoting the trustworthy and insightful\ndeployment of deep learning models.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "gM6qk1D8qTOueHwlKGAMZ9WBTthLzJlMkeReRjotlRc",
+  "pdfSize": "4736782"
+}

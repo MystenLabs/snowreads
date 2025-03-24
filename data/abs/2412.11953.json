@@ -1,0 +1,36 @@
+{
+  "id": "2412.11953",
+  "title": "Reliable Breast Cancer Molecular Subtype Prediction based on\n  uncertainty-aware Bayesian Deep Learning by Mammography",
+  "authors": "Mohaddeseh Chegini and Ali Mahloojifar",
+  "authorsParsed": [
+    [
+      "Chegini",
+      "Mohaddeseh",
+      ""
+    ],
+    [
+      "Mahloojifar",
+      "Ali",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 16 Dec 2024 16:37:03 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Thu, 19 Dec 2024 08:52:56 GMT"
+    }
+  ],
+  "updateDate": "2024-12-20",
+  "timestamp": 1734367023000,
+  "abstract": "  Breast cancer is a heterogeneous disease with different molecular subtypes,\nclinical behavior, treatment responses as well as survival outcomes. The\ndevelopment of a reliable, accurate, available and inexpensive method to\npredict the molecular subtypes using medical images plays an important role in\nthe diagnosis and prognosis of breast cancer. Recently, deep learning methods\nhave shown good performance in the breast cancer classification tasks using\nvarious medical images. Despite all that success, classical deep learning\ncannot deliver the predictive uncertainty. The uncertainty represents the\nvalidity of the predictions. Therefore, the high predicted uncertainty might\ncause a negative effect in the accurate diagnosis of breast cancer molecular\nsubtypes. To overcome this, uncertainty quantification methods are used to\ndetermine the predictive uncertainty. Accordingly, in this study, we proposed\nan uncertainty-aware Bayesian deep learning model using the full mammogram\nimages. In addition, to increase the performance of the multi-class molecular\nsubtype classification task, we proposed a novel hierarchical classification\nstrategy, named the two-stage classification strategy. The separate AUC of the\nproposed model for each subtype was 0.71, 0.75 and 0.86 for HER2-enriched,\nluminal and triple-negative classes, respectively. The proposed model not only\nhas a comparable performance to other studies in the field of breast cancer\nmolecular subtypes prediction, even using full mammography images, but it is\nalso more reliable, due to quantify the predictive uncertainty.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "-kqMWHmqe_rcMWNl0ViX91FfmPxAEAyjXYpNrR9CBAA",
+  "pdfSize": "1008257"
+}

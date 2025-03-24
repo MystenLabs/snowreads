@@ -1,0 +1,49 @@
+{
+  "id": "2412.20604",
+  "title": "Error Estimates and Higher Order Trotter Product Formulas in\n  Jordan-Banach Algebras",
+  "authors": "Sarah Chehade, Andrea Delgado, Shuzhou Wang, Zhenhua Wang",
+  "authorsParsed": [
+    [
+      "Chehade",
+      "Sarah",
+      ""
+    ],
+    [
+      "Delgado",
+      "Andrea",
+      ""
+    ],
+    [
+      "Wang",
+      "Shuzhou",
+      ""
+    ],
+    [
+      "Wang",
+      "Zhenhua",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 29 Dec 2024 22:21:41 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Wed, 8 Jan 2025 16:56:12 GMT"
+    }
+  ],
+  "updateDate": "2025-01-09",
+  "timestamp": 1735510901000,
+  "abstract": "  In quantum computing, Trotter estimates are critical for enabling efficient\nsimulation of quantum systems and quantum dynamics, help implement complex\nquantum algorithms, and provide a systematic way to control approximate errors.\nIn this paper, we extend the analysis of Trotter-Suzuki approximations,\nincluding third and higher orders, to Jordan-Banach algebras. We solve an open\nproblem in our earlier paper on the existence of second-order Trotter formula\nerror estimation in Jordan-Banach algebras. To illustrate our work, we apply\nour formula to simulate Trotter-factorized spins, and show improvements in the\napproximations. Our approach demonstrates the adaptability of Trotter product\nformulas and estimates to non-associative settings, which offers new insights\ninto the applications of Jordan algebra theory to operator dynamics.\n",
+  "subjects": [
+    "Physics/Quantum Physics",
+    "Physics/Mathematical Physics",
+    "Mathematics/Functional Analysis",
+    "Mathematics/Mathematical Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "zHk4gQUA-fkh4GCskMfkmd-VcoNntJ792cnO6S9eSFU",
+  "pdfSize": "831512"
+}

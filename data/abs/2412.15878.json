@@ -1,0 +1,32 @@
+{
+  "id": "2412.15878",
+  "title": "On the Power of Strategic Corpus Enrichment in Content Creation Games",
+  "authors": "Haya Nachimovsky, Moshe Tennenholtz",
+  "authorsParsed": [
+    [
+      "Nachimovsky",
+      "Haya",
+      ""
+    ],
+    [
+      "Tennenholtz",
+      "Moshe",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 20 Dec 2024 13:29:07 GMT"
+    }
+  ],
+  "updateDate": "2024-12-23",
+  "timestamp": 1734701347000,
+  "abstract": "  Search and recommendation ecosystems exhibit competition among content\ncreators. This competition has been tackled in a variety of game-theoretic\nframeworks. Content creators generate documents with the aim of being\nrecommended by a content ranker for various information needs. In order for the\necosystem, modeled as a content ranking game, to be effective and maximize user\nwelfare, it should guarantee stability, where stability is associated with the\nexistence of pure Nash equilibrium in the corresponding game. Moreover, if the\ncontents' ranking algorithm possesses a game in which any best-response\nlearning dynamics of the content creators converge to equilibrium of high\nwelfare, the system is considered highly attractive. However, as classical\ncontent ranking algorithms, employed by search and recommendation systems, rank\ndocuments by their distance to information needs, it has been shown that they\nfail to provide such stability properties. As a result, novel content ranking\nalgorithms have been devised. In this work, we offer an alternative approach:\ncorpus enrichment with a small set of fixed dummy documents. It turns out that,\nwith the right design, such enrichment can lead to pure Nash equilibrium and\neven to the convergence of any best-response dynamics to a high welfare result,\nwhere we still employ the classical/current content ranking approach. We show\ntwo such corpus enrichment techniques with tight bounds on the number of\ndocuments needed to obtain the desired results. Interestingly, our study is a\nnovel extension of Borel's Colonel Blotto game.\n",
+  "subjects": [
+    "Computer Science/Computer Science and Game Theory"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "_j6Si1nbIqUbpiKrewElnL0_QQ5HpJeWdak2UmbjN4o",
+  "pdfSize": "387382"
+}

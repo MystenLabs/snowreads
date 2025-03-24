@@ -1,0 +1,44 @@
+{
+  "id": "2412.03028",
+  "title": "Specification Generation for Neural Networks in Systems",
+  "authors": "Isha Chaudhary, Shuyi Lin, Cheng Tan, Gagandeep Singh",
+  "authorsParsed": [
+    [
+      "Chaudhary",
+      "Isha",
+      ""
+    ],
+    [
+      "Lin",
+      "Shuyi",
+      ""
+    ],
+    [
+      "Tan",
+      "Cheng",
+      ""
+    ],
+    [
+      "Singh",
+      "Gagandeep",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 4 Dec 2024 04:45:36 GMT"
+    }
+  ],
+  "updateDate": "2024-12-05",
+  "timestamp": 1733287536000,
+  "abstract": "  Specifications - precise mathematical representations of correct\ndomain-specific behaviors - are crucial to guarantee the trustworthiness of\ncomputer systems. With the increasing development of neural networks as\ncomputer system components, specifications gain more importance as they can be\nused to regulate the behaviors of these black-box models. Traditionally,\nspecifications are designed by domain experts based on their intuition of\ncorrect behavior. However, this is labor-intensive and hence not a scalable\napproach as computer system applications diversify. We hypothesize that the\ntraditional (aka reference) algorithms that neural networks replace for higher\nperformance can act as effective proxies for correct behaviors of the models,\nwhen available. This is because they have been used and tested for long enough\nto encode several aspects of the trustworthy/correct behaviors in the\nunderlying domain. Driven by our hypothesis, we develop a novel automated\nframework, SpecTRA to generate specifications for neural networks using\nreferences. We formulate specification generation as an optimization problem\nand solve it with observations of reference behaviors. SpecTRA clusters similar\nobservations into compact specifications. We present specifications generated\nby SpecTRA for neural networks in adaptive bit rate and congestion control\nalgorithms. Our specifications show evidence of being correct and matching\nintuition. Moreover, we use our specifications to show several unknown\nvulnerabilities of the SOTA models for computer systems.\n",
+  "subjects": [
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Systems and Control",
+    "Electrical Engineering and Systems Science/Systems and Control"
+  ],
+  "license": "http://creativecommons.org/licenses/by-sa/4.0/",
+  "blobId": "llJYunBD3wGFINH6Z1Q1JoMSz6uVEqI6ZkE5Zji0jGg",
+  "pdfSize": "659612"
+}

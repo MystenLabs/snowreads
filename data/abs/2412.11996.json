@@ -1,0 +1,42 @@
+{
+  "id": "2412.11996",
+  "title": "On Differential Stability of a Class of Convex Optimization Problems",
+  "authors": "Nguyen Dong Yen, Duong Thi Viet An, Vu Thi Huong, Nguyen Ngoc Luan",
+  "authorsParsed": [
+    [
+      "Yen",
+      "Nguyen Dong",
+      ""
+    ],
+    [
+      "An",
+      "Duong Thi Viet",
+      ""
+    ],
+    [
+      "Huong",
+      "Vu Thi",
+      ""
+    ],
+    [
+      "Luan",
+      "Nguyen Ngoc",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 16 Dec 2024 17:23:26 GMT"
+    }
+  ],
+  "updateDate": "2024-12-17",
+  "timestamp": 1734369806000,
+  "abstract": "  The recent results of An, Luan, and Yen [Differential stability in convex\noptimization via generalized polyhedrality. Vietnam J. Math.\nhttps://-doi.org/10.1007/s10013-024-00721-y] on differential stability of\nparametric optimization problems described by proper generalized polyhedral\nconvex functions and generalized polyhedral convex set-valued maps are\nanalyzed, developed, and sharpened in this paper. Namely, keeping the Hausdorff\nlocally convex topological vector spaces setting, we clarify the relationships\nbetween the upper estimates and lower estimates for the subdifferential and the\nsingular subdifferential of the optimal value function. As shown by an example,\nthe lower estimates can be strict. But, surprisingly, each upper estimate is an\nequality. Thus, exact formulas for the subdifferential and the singular\nsubdifferential under consideration are obtained. In addition, it is proved\nthat each subdifferential upper estimate coincides with the corresponding lower\nestimate if either the objective function or the constraint set-valued map is\npolyhedral convex.\n",
+  "subjects": [
+    "Mathematics/Optimization and Control"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "XorbhvckybrW0NmzPq_TT7FhIgBWYGSn5J1t3lk-ZvA",
+  "pdfSize": "215916"
+}

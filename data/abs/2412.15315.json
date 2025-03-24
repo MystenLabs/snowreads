@@ -1,0 +1,48 @@
+{
+  "id": "2412.15315",
+  "title": "Enhancing Masked Time-Series Modeling via Dropping Patches",
+  "authors": "Tianyu Qiu, Yi Xie, Yun Xiong, Hao Niu, Xiaofeng Gao",
+  "authorsParsed": [
+    [
+      "Qiu",
+      "Tianyu",
+      ""
+    ],
+    [
+      "Xie",
+      "Yi",
+      ""
+    ],
+    [
+      "Xiong",
+      "Yun",
+      ""
+    ],
+    [
+      "Niu",
+      "Hao",
+      ""
+    ],
+    [
+      "Gao",
+      "Xiaofeng",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 19 Dec 2024 17:21:34 GMT"
+    }
+  ],
+  "updateDate": "2024-12-23",
+  "timestamp": 1734628894000,
+  "abstract": "  This paper explores how to enhance existing masked time-series modeling by\nrandomly dropping sub-sequence level patches of time series. On this basis, a\nsimple yet effective method named DropPatch is proposed, which has two\nremarkable advantages: 1) It improves the pre-training efficiency by a\nsquare-level advantage; 2) It provides additional advantages for modeling in\nscenarios such as in-domain, cross-domain, few-shot learning and cold start.\nThis paper conducts comprehensive experiments to verify the effectiveness of\nthe method and analyze its internal mechanism. Empirically, DropPatch\nstrengthens the attention mechanism, reduces information redundancy and serves\nas an efficient means of data augmentation. Theoretically, it is proved that\nDropPatch slows down the rate at which the Transformer representations collapse\ninto the rank-1 linear subspace by randomly dropping patches, thus optimizing\nthe quality of the learned representations\n",
+  "subjects": [
+    "Statistics/Machine Learning",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "fudBPoGVM28-CHSRvez6422KOhPqvde3kc3GJp6X8I8",
+  "pdfSize": "2762981"
+}

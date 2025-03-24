@@ -1,0 +1,78 @@
+{
+  "id": "2412.14966",
+  "title": "A parallel algorithm for fast reconstruction of proton collisions on\n  heterogeneous architectures",
+  "authors": "Agnieszka Dziurda and Maciej Giza and Vladimir V. Gligorov and Wouter\n  Hulsbergen and Bogdan Kutsenko and Saverio Mariani and Niklas Nolte and\n  Florian Reiss and Patrick Spradlin and Dorothea vom Bruch and Tomasz Wojton",
+  "authorsParsed": [
+    [
+      "Dziurda",
+      "Agnieszka",
+      ""
+    ],
+    [
+      "Giza",
+      "Maciej",
+      ""
+    ],
+    [
+      "Gligorov",
+      "Vladimir V.",
+      ""
+    ],
+    [
+      "Hulsbergen",
+      "Wouter",
+      ""
+    ],
+    [
+      "Kutsenko",
+      "Bogdan",
+      ""
+    ],
+    [
+      "Mariani",
+      "Saverio",
+      ""
+    ],
+    [
+      "Nolte",
+      "Niklas",
+      ""
+    ],
+    [
+      "Reiss",
+      "Florian",
+      ""
+    ],
+    [
+      "Spradlin",
+      "Patrick",
+      ""
+    ],
+    [
+      "Bruch",
+      "Dorothea vom",
+      ""
+    ],
+    [
+      "Wojton",
+      "Tomasz",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 19 Dec 2024 15:45:04 GMT"
+    }
+  ],
+  "updateDate": "2024-12-20",
+  "timestamp": 1734623104000,
+  "abstract": "  The physics programme of the LHCb experiment at the Large Hadron Collider\nrequires an efficient and precise reconstruction of the particle collision\nvertices. The LHCb Upgrade detector relies on a fully software-based trigger\nwith an online reconstruction rate of 30 MHz, necessitating fast vertex finding\nalgorithms. This paper describes a new approach to vertex reconstruction\ndeveloped for this purpose. The algorithm is based on cluster finding within a\nhistogram of the particle trajectory projections along the beamline and on an\nadaptive vertex fit. Its implementations and optimisations on x86 and GPU\narchitectures and its performance on simulated samples are also discussed.\n",
+  "subjects": [
+    "Physics/High Energy Physics - Experiment",
+    "Physics/Instrumentation and Detectors"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "QoTKOtuwhh0D-veOOCimP177oVErDQJb9FpyMYYeG3Q",
+  "pdfSize": "2173753"
+}

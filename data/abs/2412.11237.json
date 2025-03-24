@@ -1,0 +1,32 @@
+{
+  "id": "2412.11237",
+  "title": "On the Generalizability of Iterative Patch Selection for\n  Memory-Efficient High-Resolution Image Classification",
+  "authors": "Max Riffi-Aslett, Christina Fell",
+  "authorsParsed": [
+    [
+      "Riffi-Aslett",
+      "Max",
+      ""
+    ],
+    [
+      "Fell",
+      "Christina",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 15 Dec 2024 16:25:30 GMT"
+    }
+  ],
+  "updateDate": "2024-12-17",
+  "timestamp": 1734279930000,
+  "abstract": "  Classifying large images with small or tiny regions of interest (ROI) is\nchallenging due to computational and memory constraints. Weakly supervised\nmemory-efficient patch selectors have achieved results comparable with strongly\nsupervised methods. However, low signal-to-noise ratios and low entropy\nattention still cause overfitting. We explore these issues using a novel\ntestbed on a memory-efficient cross-attention transformer with Iterative Patch\nSelection (IPS) as the patch selection module. Our testbed extends the\nmegapixel MNIST benchmark to four smaller O2I (object-to-image) ratios ranging\nfrom 0.01% to 0.14% while keeping the canvas size fixed and introducing a noise\ngeneration component based on B\\'ezier curves. Experimental results generalize\nthe observations made on CNNs to IPS whereby the O2I threshold below which the\nclassifier fails to generalize is affected by the training dataset size. We\nfurther observe that the magnitude of this interaction differs for each task of\nthe Megapixel MNIST. For tasks \"Maj\" and \"Top\", the rate is at its highest,\nfollowed by tasks \"Max\" and \"Multi\" where in the latter, this rate is almost at\n0. Moreover, results show that in a low data setting, tuning the patch size to\nbe smaller relative to the ROI improves generalization, resulting in an\nimprovement of + 15% for the megapixel MNIST and + 5% for the Swedish traffic\nsigns dataset compared to the original object-to-patch ratios in IPS. Further\noutcomes indicate that the similarity between the thickness of the noise\ncomponent and the digits in the megapixel MNIST gradually causes IPS to fail to\ngeneralize, contributing to previous suspicions.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "k8P0uWnVxaq1ETvVFDmLWDa2kPrAojxKtXWNpHGM1qY",
+  "pdfSize": "1613414"
+}

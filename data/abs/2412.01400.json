@@ -1,0 +1,65 @@
+{
+  "id": "2412.01400",
+  "title": "Fire-Image-DenseNet (FIDN) for predicting wildfire burnt area using\n  remote sensing data",
+  "authors": "Bo Pang, Sibo Cheng, Yuhan Huang, Yufang Jin, Yike Guo, I. Colin\n  Prentice, Sandy P. Harrison, Rossella Arcucci",
+  "authorsParsed": [
+    [
+      "Pang",
+      "Bo",
+      ""
+    ],
+    [
+      "Cheng",
+      "Sibo",
+      ""
+    ],
+    [
+      "Huang",
+      "Yuhan",
+      ""
+    ],
+    [
+      "Jin",
+      "Yufang",
+      ""
+    ],
+    [
+      "Guo",
+      "Yike",
+      ""
+    ],
+    [
+      "Prentice",
+      "I. Colin",
+      ""
+    ],
+    [
+      "Harrison",
+      "Sandy P.",
+      ""
+    ],
+    [
+      "Arcucci",
+      "Rossella",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 2 Dec 2024 11:35:31 GMT"
+    }
+  ],
+  "updateDate": "2024-12-12",
+  "timestamp": 1733139331000,
+  "abstract": "  Predicting the extent of massive wildfires once ignited is essential to\nreduce the subsequent socioeconomic losses and environmental damage, but\nchallenging because of the complexity of fire behaviour. Existing physics-based\nmodels are limited in predicting large or long-duration wildfire events. Here,\nwe develop a deep-learning-based predictive model, Fire-Image-DenseNet (FIDN),\nthat uses spatial features derived from both near real-time and reanalysis data\non the environmental and meteorological drivers of wildfire. We trained and\ntested this model using more than 300 individual wildfires that occurred\nbetween 2012 and 2019 in the western US. In contrast to existing models, the\nperformance of FIDN does not degrade with fire size or duration. Furthermore,\nit predicts final burnt area accurately even in very heterogeneous landscapes\nin terms of fuel density and flammability. The FIDN model showed higher\naccuracy, with a mean squared error (MSE) about 82% and 67% lower than those of\nthe predictive models based on cellular automata (CA) and the minimum travel\ntime (MTT) approaches, respectively. Its structural similarity index measure\n(SSIM) averages 97%, outperforming the CA and FlamMap MTT models by 6% and 2%,\nrespectively. Additionally, FIDN is approximately three orders of magnitude\nfaster than both CA and MTT models. The enhanced computational efficiency and\naccuracy advancements offer vital insights for strategic planning and resource\nallocation for firefighting operations.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Computational Engineering, Finance, and Science",
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "pYxVk-nkMRpXq0MyyZ5i4FU_RkwbqHPA3aFISDnxYG4",
+  "pdfSize": "3958056"
+}

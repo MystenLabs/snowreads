@@ -1,0 +1,43 @@
+{
+  "id": "2412.15307",
+  "title": "Federated Learning for Coronary Artery Plaque Detection in\n  Atherosclerosis Using IVUS Imaging: A Multi-Hospital Collaboration",
+  "authors": "Chiu-Han Hsiao, Kai Chen, Tsung-Yu Peng, Wei-Chieh Huang",
+  "authorsParsed": [
+    [
+      "Hsiao",
+      "Chiu-Han",
+      ""
+    ],
+    [
+      "Chen",
+      "Kai",
+      ""
+    ],
+    [
+      "Peng",
+      "Tsung-Yu",
+      ""
+    ],
+    [
+      "Huang",
+      "Wei-Chieh",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 19 Dec 2024 13:06:28 GMT"
+    }
+  ],
+  "updateDate": "2024-12-23",
+  "timestamp": 1734613588000,
+  "abstract": "  The traditional interpretation of Intravascular Ultrasound (IVUS) images\nduring Percutaneous Coronary Intervention (PCI) is time-intensive and\ninconsistent, relying heavily on physician expertise. Regulatory restrictions\nand privacy concerns further hinder data integration across hospital systems,\ncomplicating collaborative analysis. To address these challenges, a parallel 2D\nU-Net model with a multi-stage segmentation architecture has been developed,\nutilizing federated learning to enable secure data analysis across institutions\nwhile preserving privacy. The model segments plaques by identifying and\nsubtracting the External Elastic Membrane (EEM) and lumen areas, with\npreprocessing converting Cartesian to polar coordinates for improved\ncomputational efficiency.\n  Achieving a Dice Similarity Coefficient (DSC) of 0.706, the model effectively\nidentifies plaques and detects circular boundaries in real-time. Collaborative\nefforts with domain experts enhance plaque burden interpretation through\nprecise quantitative measurements. Future advancements may involve integrating\nadvanced federated learning techniques and expanding datasets to further\nimprove performance and applicability. This adaptable technology holds promise\nfor environments handling sensitive, distributed data, offering potential to\noptimize outcomes in medical imaging and intervention.\n",
+  "subjects": [
+    "Electrical Engineering and Systems Science/Image and Video Processing",
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "g2re7FVxVBA_S1rz0zCwJOO9GXP0c-R0aQu5Dn4mVr4",
+  "pdfSize": "1281637"
+}

@@ -1,0 +1,58 @@
+{
+  "id": "2412.11670",
+  "title": "Robust Characterization of Integrated Photonics Directional Couplers",
+  "authors": "Jonatan Piasetzky, Yehonatan Drori, Yuval Warshavski, Amit Rotem, Khen\n  Cohen, Yaron Oz and Haim Suchowski",
+  "authorsParsed": [
+    [
+      "Piasetzky",
+      "Jonatan",
+      ""
+    ],
+    [
+      "Drori",
+      "Yehonatan",
+      ""
+    ],
+    [
+      "Warshavski",
+      "Yuval",
+      ""
+    ],
+    [
+      "Rotem",
+      "Amit",
+      ""
+    ],
+    [
+      "Cohen",
+      "Khen",
+      ""
+    ],
+    [
+      "Oz",
+      "Yaron",
+      ""
+    ],
+    [
+      "Suchowski",
+      "Haim",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 16 Dec 2024 11:24:31 GMT"
+    }
+  ],
+  "updateDate": "2024-12-17",
+  "timestamp": 1734348271000,
+  "abstract": "  Directional couplers are essential components in integrated photonics. Given\ntheir widespread use, accurate characterization of directional couplers is\ncrucial for ensuring optimal performance. However, it is challenging due to the\ncoupling between fibers and waveguides, which is highly sensitive to alignment\nand fabrication imperfections. To address these challenges, we propose a novel\ndirect measurement technique that offers greater robustness to variations in\noptical interfaces, while bypassing extinction ratio measurements. Our method\nenables a broadband and precise characterization of the directional couplers'\nsplitting ratio. We experimentally validate this approach, demonstrate its\nrobustness against intentional errors, and compare it to a naive direct\nmeasurement method. Furthermore, our technique is generalized to measure the\namplitude of any general 2x2 unitary circuit, providing valuable insights for\ndesigning and testing a wide range of photonic integrated devices.\n",
+  "subjects": [
+    "Physics/Optics",
+    "Physics/Applied Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "fqYVpx-vapubxvxneYpvhmE7lc3mBWveDeJvwaDs__I",
+  "pdfSize": "623469"
+}

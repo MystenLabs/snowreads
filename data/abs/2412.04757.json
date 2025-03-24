@@ -1,0 +1,53 @@
+{
+  "id": "2412.04757",
+  "title": "Ltri-LLM: Streaming Long Context Inference for LLMs with Training-Free\n  Dynamic Triangular Attention Pattern",
+  "authors": "Hongyin Tang, Di Xiu, Lanrui Wang, Xiurui Geng, Jingang Wang, Xunliang\n  Cai",
+  "authorsParsed": [
+    [
+      "Tang",
+      "Hongyin",
+      ""
+    ],
+    [
+      "Xiu",
+      "Di",
+      ""
+    ],
+    [
+      "Wang",
+      "Lanrui",
+      ""
+    ],
+    [
+      "Geng",
+      "Xiurui",
+      ""
+    ],
+    [
+      "Wang",
+      "Jingang",
+      ""
+    ],
+    [
+      "Cai",
+      "Xunliang",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 6 Dec 2024 03:46:06 GMT"
+    }
+  ],
+  "updateDate": "2024-12-09",
+  "timestamp": 1733456766000,
+  "abstract": "  The quadratic computational complexity of the attention mechanism in current\nLarge Language Models (LLMs) renders inference with long contexts prohibitively\nexpensive. To address this challenge, various approaches aim to retain critical\nportions of the context to optimally approximate Full Attention (FA) through\nKey-Value (KV) compression or Sparse Attention (SA), enabling the processing of\nvirtually unlimited text lengths in a streaming manner. However, these methods\nstruggle to achieve performance levels comparable to FA, particularly in\nretrieval tasks. In this paper, our analysis of attention head patterns reveals\nthat LLMs' attention distributions show strong local correlations, naturally\nreflecting a chunking mechanism for input context. We propose Ltri-LLM\nframework, which divides KVs into spans, stores them in an offline index, and\nretrieves the relevant KVs into memory for various queries. Experimental\nresults on popular long text benchmarks show that Ltri-LLM can achieve\nperformance close to FA while maintaining efficient, streaming-based inference.\n",
+  "subjects": [
+    "Computer Science/Computation and Language",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "aFjKhC-eVhPeJKeb4HHCmI0cjuCVdEVpU6Jo55OtMAE",
+  "pdfSize": "7841657"
+}

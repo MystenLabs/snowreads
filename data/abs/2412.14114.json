@@ -1,0 +1,37 @@
+{
+  "id": "2412.14114",
+  "title": "Enhancing Quantum Synchronization in a driven qubit system coupled to a\n  structured environment",
+  "authors": "Amir Hossein Houshmand Almani, Ali Mortezapour, and Alireza\n  Nourmandipour",
+  "authorsParsed": [
+    [
+      "Almani",
+      "Amir Hossein Houshmand",
+      ""
+    ],
+    [
+      "Mortezapour",
+      "Ali",
+      ""
+    ],
+    [
+      "Nourmandipour",
+      "Alireza",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 18 Dec 2024 18:00:35 GMT"
+    }
+  ],
+  "updateDate": "2024-12-19",
+  "timestamp": 1734544835000,
+  "abstract": "  In this paper, we delve into the issue of Quantum Synchronization in a driven\ntwo-level (qubit) system situated within a structured environment. Our findings\nhave practical implications as we discover that adding a time-dependent\nperiodic modulation to the transition frequency of the qubit can significantly\nenhance quantum synchronization. We first discovered the phase preference and,\nconsequently, the phase locking conditions in our system using the Husimi\nQ-function. It is revealed that combining frequency modulation and\nnon-Markovian effects enables us to achieve a stable phase-locking for the\nsystem. We show that tuning the amplitude-tofrequency ratio of the modulation\nprocess on the zeros of the zeroth-order Bessel function led to phase locking\nand, thus, surprisingly enhances quantum synchronization in the system. These\nresults provide new insights into efficiently understanding phase dynamics in\nquantum environments.\n",
+  "subjects": [
+    "Physics/Quantum Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "cm8qvA1LzqsgDJMr4UeQWjsuhqu-Ehl330BngLruSZc",
+  "pdfSize": "1060759"
+}

@@ -1,0 +1,37 @@
+{
+  "id": "2412.01121",
+  "title": "Transversal Structures in Graph Systems: A Survey",
+  "authors": "Wanting Sun, Guanghui Wang, Lan Wei",
+  "authorsParsed": [
+    [
+      "Sun",
+      "Wanting",
+      ""
+    ],
+    [
+      "Wang",
+      "Guanghui",
+      ""
+    ],
+    [
+      "Wei",
+      "Lan",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 2 Dec 2024 04:47:44 GMT"
+    }
+  ],
+  "updateDate": "2024-12-03",
+  "timestamp": 1733114864000,
+  "abstract": "  Given a system $\\mathcal{G} =\\{G_1,G_2,\\dots,G_m\\}$ of\ngraphs/digraphs/hypergraphs on the common vertex set $V$ of size $n$, an\n$m$-edge graph/digraph/hypergraph $H$ on $V$ is transversal in $\\mathcal{G}$ if\nthere exists a bijection $\\phi :E(H)\\rightarrow [m]$ such that $e \\in\nE(G_{\\phi(e)})$ for all $e\\in E(H)$. In this survey, we consider extremal\nproblems for transversal structures in graph systems. More precisely, we\nsummarize some sufficient conditions that ensure the existence of transversal\nstructures in graph/digraph/hypergraph systems, which generalize several\nclassical theorems in extremal graph theory to transversal version. We also\ninclude a number of conjectures and open problems.\n",
+  "subjects": [
+    "Mathematics/Combinatorics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "Mo2OVOJikJyzQ4Mlb2zPpPgDKyiEwVctxCxSkIJ6RTA",
+  "pdfSize": "804780"
+}

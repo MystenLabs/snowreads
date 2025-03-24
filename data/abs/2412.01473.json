@@ -1,0 +1,52 @@
+{
+  "id": "2412.01473",
+  "title": "Dynamic Evolution of Quantum Fisher and Skew Information under\n  Decoherence in Three-Qubit X-States",
+  "authors": "A. Naimy, A. Slaoui, A. Ali, H. El Hadfi, R. Ahl Laamara, and S.\n  Al-Kuwari",
+  "authorsParsed": [
+    [
+      "Naimy",
+      "A.",
+      ""
+    ],
+    [
+      "Slaoui",
+      "A.",
+      ""
+    ],
+    [
+      "Ali",
+      "A.",
+      ""
+    ],
+    [
+      "Hadfi",
+      "H. El",
+      ""
+    ],
+    [
+      "Laamara",
+      "R. Ahl",
+      ""
+    ],
+    [
+      "Al-Kuwari",
+      "S.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 2 Dec 2024 13:19:06 GMT"
+    }
+  ],
+  "updateDate": "2024-12-03",
+  "timestamp": 1733145546000,
+  "abstract": "  Quantum metrology leverages quantum effects such as squeezing, entanglement,\nand other quantum correlations to boost precision in parameter estimation by\nsaturating quantum Cramer Rao bound, which can be achieved by optimizing\nquantum Fisher information or Wigner-Yanase skew information. This work\nprovides analytical expressions for quantum Fisher and skew information in a\ngeneral three-qubit X-state and examines their evolution under phase damping,\ndepolarization, and phase-flip decoherence channels. To illustrate the validity\nof our method, we investigate their dynamics for a three-qubit\nGreenberger-Horne-Zeilinger (GHZ) state subjected to various memoryless\ndecoherence channels. Closed-form expressions for QFI and SQI are derived for\neach channel. By comparing these metrics with the entanglement measure of\nconcurrence, we demonstrate the impact of decoherence on measurement precision\nfor quantum metrology. Our results indicate that phase damping and phase-flip\nchannels generally allow for better parameter estimation compared to\ndepolarization. This study provides insights into the optimal selection of\nnoise channels for enhancing precision in quantum metrological tasks involving\nmulti-qubit entangled states.\n",
+  "subjects": [
+    "Physics/Quantum Physics"
+  ],
+  "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+  "blobId": "zT-saQbXU8nhFnP35sqiy9t0gklS1XwK8S7bvB-3SdU",
+  "pdfSize": "1469799"
+}

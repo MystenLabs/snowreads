@@ -1,0 +1,40 @@
+{
+  "id": "2412.12406",
+  "title": "Global SLAM in Visual-Inertial Systems with 5G Time-of-Arrival\n  Integration",
+  "authors": "Meisam Kabiri, Holger Voos",
+  "authorsParsed": [
+    [
+      "Kabiri",
+      "Meisam",
+      ""
+    ],
+    [
+      "Voos",
+      "Holger",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 16 Dec 2024 23:17:40 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Sat, 28 Dec 2024 13:57:49 GMT"
+    },
+    {
+      "version": "v3",
+      "created": "Thu, 16 Jan 2025 16:55:40 GMT"
+    }
+  ],
+  "updateDate": "2025-01-17",
+  "timestamp": 1734391060000,
+  "abstract": "  This paper presents a novel approach that integrates 5G Time of Arrival (ToA)\nmeasurements into ORB-SLAM3 to enable global localization and enhance mapping\ncapabilities for indoor drone navigation. We extend ORB-SLAM3's optimization\npipeline to jointly process ToA data from 5G base stations alongside visual and\ninertial measurements while estimating system biases. This integration\ntransforms the inherently local SLAM estimates into globally referenced\ntrajectories and effectively resolves scale ambiguity in monocular\nconfigurations. Our method is evaluated using five real-world indoor datasets\ncollected with RGB-D cameras and inertial measurement units (IMUs),\ncomplemented by simulated 5G ToA measurements at 28 GHz and 78 GHz frequencies\nusing MATLAB and QuaDRiGa. Extensive experiments across four SLAM\nconfigurations (RGB-D, RGB-D-Inertial, Monocular, and Monocular-Inertial)\ndemonstrate that ToA integration enables consistent global positioning across\nall modes while significantly improving local accuracy in minimal sensor\nsetups. Notably, ToA-enhanced monocular SLAM achieves superior local accuracy\n(6.3 cm average) compared to the RGB-D baseline (11.5 cm), and enables reliable\noperation of monocular-inertial SLAM in scenarios where the baseline system\nfails completely. While ToA integration offers limited local accuracy\nimprovements for sensor-rich configurations like RGB-D SLAM, it consistently\nenables robust global localization.\n",
+  "subjects": [
+    "Computer Science/Robotics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "Lv3i3no--PwnWCy-NkF8CIZHP4GoGtoEE9JMouf2R8U",
+  "pdfSize": "5137306"
+}

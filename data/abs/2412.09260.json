@@ -1,0 +1,43 @@
+{
+  "id": "2412.09260",
+  "title": "A resetting particle embedded in a viscoelastic bath",
+  "authors": "Arup Biswas, Johan L.A. Dubbeldam, Trifce Sandev, and Arnab Pal",
+  "authorsParsed": [
+    [
+      "Biswas",
+      "Arup",
+      ""
+    ],
+    [
+      "Dubbeldam",
+      "Johan L. A.",
+      ""
+    ],
+    [
+      "Sandev",
+      "Trifce",
+      ""
+    ],
+    [
+      "Pal",
+      "Arnab",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 12 Dec 2024 13:20:07 GMT"
+    }
+  ],
+  "updateDate": "2024-12-13",
+  "timestamp": 1734009607000,
+  "abstract": "  We examine the behavior of a colloidal particle immersed in a viscoelastic\nbath undergoing stochastic resetting at a rate $r$. Microscopic probes\nsuspended in viscoelastic environment do not follow the classical theory of\nBrownian motion. This is primarily because the memory from successive\ncollisions between the medium particles and the probes does not necessarily\ndecay instantly as opposed to the classical Langevin equation. To treat such a\nsystem one needs to incorporate the memory effects to the Langevin equation.\nThe resulting equation formulated by Kubo, known as the Generalized Langevin\nequation (GLE), has been instrumental to describe the transport of particles in\ninhomogeneous or viscoelastic environments. The purpose of this work,\nhenceforth, is to study the behavior of such a colloidal particle governed by\nthe GLE under resetting dynamics. To this end, we extend the renewal formalism\nto compute the general expression for the position variance and the correlation\nfunction of the resetting particle driven by the environmental memory. These\ngeneric results are then illustrated for the prototypical example of the\nJeffreys viscoelastic fluid model. In particular, we identify various\ntimescales and intermittent plateaus in the transient phase before the system\nrelaxes to the steady state; and further discuss the effect of resetting\npertaining to these behaviors. Our results are supported by numerical\nsimulations showing an excellent agreement.\n",
+  "subjects": [
+    "Condensed Matter/Statistical Mechanics",
+    "Condensed Matter/Soft Condensed Matter"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "o6eX4koUu5accZ6s9l-qhSj98cWZI_y2CtrCIv4x464",
+  "pdfSize": "915392"
+}

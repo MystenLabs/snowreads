@@ -1,0 +1,34 @@
+{
+  "id": "2412.07505",
+  "title": "Explicit expressions for Virasoro singular vectors",
+  "authors": "G\\'erard M T Watts",
+  "authorsParsed": [
+    [
+      "Watts",
+      "Gérard M T",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 10 Dec 2024 13:38:27 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Thu, 12 Dec 2024 16:28:34 GMT"
+    }
+  ],
+  "updateDate": "2024-12-13",
+  "timestamp": 1733837907000,
+  "abstract": "  We present two explicit expressions for generic singular vectors of type\n$(r,s)$ of the Virasoro algebra. These results follow from the paper of Bauer\net al which presented recursive methods to construct the vectors. The\nexpressions presented here generalise the results of Benoit-Saint Aubin for the\ntype $(1,s)$ singular vectors in two different ways: the first simply solves\nthe recursion through the use of partitions; the second gives explicit formulae\nfor the coefficients in a particular expansion. A Mathematica notebook is\navailable which implements the formulae.\n",
+  "subjects": [
+    "Physics/High Energy Physics - Theory",
+    "Physics/Mathematical Physics",
+    "Mathematics/Mathematical Physics",
+    "Mathematics/Quantum Algebra"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "lwm5AM-CXLUKTJnjEcfem1uzF6EOfAFq1o4mUoQaj3A",
+  "pdfSize": "453298"
+}

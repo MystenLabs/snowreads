@@ -1,0 +1,42 @@
+{
+  "id": "2412.20524",
+  "title": "Ns3 meets Sionna: Using Realistic Channels in Network Simulation",
+  "authors": "Anatolij Zubow, Yannik Pilz, Sascha R\\\"osler, Falko Dressler",
+  "authorsParsed": [
+    [
+      "Zubow",
+      "Anatolij",
+      ""
+    ],
+    [
+      "Pilz",
+      "Yannik",
+      ""
+    ],
+    [
+      "Rösler",
+      "Sascha",
+      ""
+    ],
+    [
+      "Dressler",
+      "Falko",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 29 Dec 2024 17:18:21 GMT"
+    }
+  ],
+  "updateDate": "2024-12-31",
+  "timestamp": 1735492701000,
+  "abstract": "  Network simulators are indispensable tools for the advancement of wireless\nnetwork technologies, offering a cost-effective and controlled environment to\nsimulate real-world network behavior. However, traditional simulators, such as\nthe widely used ns-3, exhibit limitations in accurately modeling indoor and\noutdoor scenarios due to their reliance on simplified statistical and\nstochastic channel propagation models, which often fail to accurately capture\nphysical phenomena like multipath signal propagation and shadowing by obstacles\nin the line-of-sight path. We present Ns3Sionna, which integrates a ray\ntracing-based channel model, implemented using the Sionna RT framework, within\nthe ns-3 network simulator. It allows to simulate environment-specific and\nphysically accurate channel realizations for a given 3D scene and wireless\ndevice positions. Additionally, a mobility model based on ray tracing was\ndeveloped to accurately represent device movements within the simulated 3D\nspace. Ns3Sionna provides more realistic path and delay loss estimates for both\nindoor and outdoor environments than existing ns-3 propagation models,\nparticularly in terms of spatial and temporal correlation. Moreover,\nfine-grained channel state information is provided, which could be used for the\ndevelopment of sensing applications. Due to the significant computational\ndemands of ray tracing, Ns3Sionna takes advantage of the parallel execution\ncapabilities of modern GPUs and multi-core CPUs by incorporating intelligent\npre-caching mechanisms that leverage the channel's coherence time to optimize\nruntime performance. This enables the efficient simulation of scenarios with a\nsmall to medium number of mobile nodes.\n",
+  "subjects": [
+    "Computer Science/Networking and Internet Architecture"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "OsKH5DP0k1eULAa9_2tVaG4mFuJ5EjnbR3wzDhLsTxs",
+  "pdfSize": "1677266"
+}

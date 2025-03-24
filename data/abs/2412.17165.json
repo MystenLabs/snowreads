@@ -1,0 +1,32 @@
+{
+  "id": "2412.17165",
+  "title": "Survey on Abstractive Text Summarization: Dataset, Models, and Metrics",
+  "authors": "Gospel Ozioma Nnadi and Flavio Bertini",
+  "authorsParsed": [
+    [
+      "Nnadi",
+      "Gospel Ozioma",
+      ""
+    ],
+    [
+      "Bertini",
+      "Flavio",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 22 Dec 2024 21:18:40 GMT"
+    }
+  ],
+  "updateDate": "2024-12-24",
+  "timestamp": 1734902320000,
+  "abstract": "  The advancements in deep learning, particularly the introduction of\ntransformers, have been pivotal in enhancing various natural language\nprocessing (NLP) tasks. These include text-to-text applications such as machine\ntranslation, text classification, and text summarization, as well as\ndata-to-text tasks like response generation and image-to-text tasks such as\ncaptioning. Transformer models are distinguished by their attention mechanisms,\npretraining on general knowledge, and fine-tuning for downstream tasks. This\nhas led to significant improvements, particularly in abstractive summarization,\nwhere sections of a source document are paraphrased to produce summaries that\nclosely resemble human expression.\n  The effectiveness of these models is assessed using diverse metrics,\nencompassing techniques like semantic overlap and factual correctness. This\nsurvey examines the state of the art in text summarization models, with a\nspecific focus on the abstractive summarization approach. It reviews various\ndatasets and evaluation metrics used to measure model performance.\nAdditionally, it includes the results of test cases using abstractive\nsummarization models to underscore the advantages and limitations of\ncontemporary transformer-based models. The source codes and the data are\navailable at https://github.com/gospelnnadi/Text-Summarization-SOTA-Experiment.\n",
+  "subjects": [
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "5ZM4PxzloQx-jpCyRSSEGLIHx_z0XYeoVQQ7YqI_Yt4",
+  "pdfSize": "563356"
+}

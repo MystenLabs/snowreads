@@ -1,0 +1,39 @@
+{
+  "id": "2412.18890",
+  "title": "CoEvo: Continual Evolution of Symbolic Solutions Using Large Language\n  Models",
+  "authors": "Ping Guo, Qingfu Zhang, Xi Lin",
+  "authorsParsed": [
+    [
+      "Guo",
+      "Ping",
+      ""
+    ],
+    [
+      "Zhang",
+      "Qingfu",
+      ""
+    ],
+    [
+      "Lin",
+      "Xi",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 25 Dec 2024 12:27:27 GMT"
+    }
+  ],
+  "updateDate": "2024-12-30",
+  "timestamp": 1735129647000,
+  "abstract": "  Large Language Models (LLMs) have emerged as transformative tools in\nartificial intelligence, capable of processing and understanding extensive\nhuman knowledge to enhance problem-solving across various domains. This paper\nexplores the potential of LLMs to drive the discovery of symbolic solutions\nwithin scientific and engineering disciplines, where such solutions are crucial\nfor advancing theoretical and practical applications. We propose a novel\nframework that utilizes LLMs in an evolutionary search methodology, augmented\nby a dynamic knowledge library that integrates and refines insights in an\n\\textit{open-ended manner}. This approach aims to tackle the dual challenges of\nefficiently navigating complex symbolic representation spaces and leveraging\nboth existing and newly generated knowledge to foster open-ended innovation. By\nenabling LLMs to interact with and expand upon a knowledge library, we\nfacilitate the continuous generation of novel solutions in diverse forms such\nas language, code, and mathematical expressions. Our experimental results\ndemonstrate that this method not only enhances the efficiency of searching for\nsymbolic solutions but also supports the ongoing discovery process, akin to\nhuman scientific endeavors. This study represents a first effort in\nconceptualizing the search for symbolic solutions as a lifelong, iterative\nprocess, marking a significant step towards harnessing AI in the perpetual\npursuit of scientific and engineering breakthroughs. We have open-sourced our\ncode and data, please visit \\url{https://github.com/pgg3/CoEvo} for more\ninformation.\n",
+  "subjects": [
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Machine Learning",
+    "Computer Science/Neural and Evolutionary Computing"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "Hyz4-GtBQz0ovmqlLkuQrLjaBYtTA2SjLXgcGL4Dd8s",
+  "pdfSize": "973886"
+}

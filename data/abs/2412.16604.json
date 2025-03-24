@@ -1,0 +1,57 @@
+{
+  "id": "2412.16604",
+  "title": "OmniSplat: Taming Feed-Forward 3D Gaussian Splatting for Omnidirectional\n  Images with Editable Capabilities",
+  "authors": "Suyoung Lee, Jaeyoung Chung, Kihoon Kim, Jaeyoo Huh, Gunhee Lee,\n  Minsoo Lee, Kyoung Mu Lee",
+  "authorsParsed": [
+    [
+      "Lee",
+      "Suyoung",
+      ""
+    ],
+    [
+      "Chung",
+      "Jaeyoung",
+      ""
+    ],
+    [
+      "Kim",
+      "Kihoon",
+      ""
+    ],
+    [
+      "Huh",
+      "Jaeyoo",
+      ""
+    ],
+    [
+      "Lee",
+      "Gunhee",
+      ""
+    ],
+    [
+      "Lee",
+      "Minsoo",
+      ""
+    ],
+    [
+      "Lee",
+      "Kyoung Mu",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 21 Dec 2024 12:33:08 GMT"
+    }
+  ],
+  "updateDate": "2024-12-24",
+  "timestamp": 1734784388000,
+  "abstract": "  Feed-forward 3D Gaussian Splatting (3DGS) models have gained significant\npopularity due to their ability to generate scenes immediately without needing\nper-scene optimization. Although omnidirectional images are getting more\npopular since they reduce the computation for image stitching to composite a\nholistic scene, existing feed-forward models are only designed for perspective\nimages. The unique optical properties of omnidirectional images make it\ndifficult for feature encoders to correctly understand the context of the image\nand make the Gaussian non-uniform in space, which hinders the image quality\nsynthesized from novel views. We propose OmniSplat, a pioneering work for fast\nfeed-forward 3DGS generation from a few omnidirectional images. We introduce\nYin-Yang grid and decompose images based on it to reduce the domain gap between\nomnidirectional and perspective images. The Yin-Yang grid can use the existing\nCNN structure as it is, but its quasi-uniform characteristic allows the\ndecomposed image to be similar to a perspective image, so it can exploit the\nstrong prior knowledge of the learned feed-forward network. OmniSplat\ndemonstrates higher reconstruction accuracy than existing feed-forward networks\ntrained on perspective images. Furthermore, we enhance the segmentation\nconsistency between omnidirectional images by leveraging attention from the\nencoder of OmniSplat, providing fast and clean 3DGS editing results.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "TPjpJ-fR9nfsePYxhKY8OfJ_rXy4s67HE2HQ9NYtIf8",
+  "pdfSize": "32188378"
+}

@@ -1,0 +1,62 @@
+{
+  "id": "2412.07369",
+  "title": "ITPNet: Towards Instantaneous Trajectory Prediction for Autonomous\n  Driving",
+  "authors": "Rongqing Li, Changsheng Li, Yuhang Li, Hanjie Li, Yi Chen, Dongchun\n  Ren, Ye Yuan, Guoren Wang",
+  "authorsParsed": [
+    [
+      "Li",
+      "Rongqing",
+      ""
+    ],
+    [
+      "Li",
+      "Changsheng",
+      ""
+    ],
+    [
+      "Li",
+      "Yuhang",
+      ""
+    ],
+    [
+      "Li",
+      "Hanjie",
+      ""
+    ],
+    [
+      "Chen",
+      "Yi",
+      ""
+    ],
+    [
+      "Ren",
+      "Dongchun",
+      ""
+    ],
+    [
+      "Yuan",
+      "Ye",
+      ""
+    ],
+    [
+      "Wang",
+      "Guoren",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 10 Dec 2024 10:09:41 GMT"
+    }
+  ],
+  "updateDate": "2024-12-11",
+  "timestamp": 1733825381000,
+  "abstract": "  Trajectory prediction of agents is crucial for the safety of autonomous\nvehicles, whereas previous approaches usually rely on sufficiently\nlong-observed trajectory to predict the future trajectory of the agents.\nHowever, in real-world scenarios, it is not realistic to collect adequate\nobserved locations for moving agents, leading to the collapse of most\nprediction models. For instance, when a moving car suddenly appears and is very\nclose to an autonomous vehicle because of the obstruction, it is quite\nnecessary for the autonomous vehicle to quickly and accurately predict the\nfuture trajectories of the car with limited observed trajectory locations. In\nlight of this, we focus on investigating the task of instantaneous trajectory\nprediction, i.e., two observed locations are available during inference. To\nthis end, we propose a general and plug-and-play instantaneous trajectory\nprediction approach, called ITPNet. Specifically, we propose a backward\nforecasting mechanism to reversely predict the latent feature representations\nof unobserved historical trajectories of the agent based on its two observed\nlocations and then leverage them as complementary information for future\ntrajectory prediction. Meanwhile, due to the inevitable existence of noise and\nredundancy in the predicted latent feature representations, we further devise a\nNoise Redundancy Reduction Former, aiming at to filter out noise and redundancy\nfrom unobserved trajectories and integrate the filtered features and observed\nfeatures into a compact query for future trajectory predictions. In essence,\nITPNet can be naturally compatible with existing trajectory prediction models,\nenabling them to gracefully handle the case of instantaneous trajectory\nprediction. Extensive experiments on the Argoverse and nuScenes datasets\ndemonstrate ITPNet outperforms the baselines, and its efficacy with different\ntrajectory prediction models.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "geGqVMaFsq07y1oN0VbrSEu7zIvFrgBjiL51EXwdOU0",
+  "pdfSize": "1317661"
+}

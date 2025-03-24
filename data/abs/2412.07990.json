@@ -1,0 +1,34 @@
+{
+  "id": "2412.07990",
+  "title": "Adaptive Querying for Reward Learning from Human Feedback",
+  "authors": "Yashwanthi Anand and Sandhya Saisubramanian",
+  "authorsParsed": [
+    [
+      "Anand",
+      "Yashwanthi",
+      ""
+    ],
+    [
+      "Saisubramanian",
+      "Sandhya",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 11 Dec 2024 00:02:48 GMT"
+    }
+  ],
+  "updateDate": "2024-12-12",
+  "timestamp": 1733875368000,
+  "abstract": "  Learning from human feedback is a popular approach to train robots to adapt\nto user preferences and improve safety. Existing approaches typically consider\na single querying (interaction) format when seeking human feedback and do not\nleverage multiple modes of user interaction with a robot. We examine how to\nlearn a penalty function associated with unsafe behaviors, such as side\neffects, using multiple forms of human feedback, by optimizing the query state\nand feedback format. Our framework for adaptive feedback selection enables\nquerying for feedback in critical states in the most informative format, while\naccounting for the cost and probability of receiving feedback in a certain\nformat. We employ an iterative, two-phase approach which first selects critical\nstates for querying, and then uses information gain to select a feedback format\nfor querying across the sampled critical states. Our evaluation in simulation\ndemonstrates the sample efficiency of our approach.\n",
+  "subjects": [
+    "Computer Science/Robotics",
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "V0Soa-qTxSwHssyuwBqBaIZNsmMf_WiQGhSsiLRvRIk",
+  "pdfSize": "10839882"
+}

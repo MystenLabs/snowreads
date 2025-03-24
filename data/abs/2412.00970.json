@@ -1,0 +1,37 @@
+{
+  "id": "2412.00970",
+  "title": "Generating AI Literacy MCQs: A Multi-Agent LLM Approach",
+  "authors": "Jiayi Wang, Ruiwei Xiao, Ying-Jui Tseng",
+  "authorsParsed": [
+    [
+      "Wang",
+      "Jiayi",
+      ""
+    ],
+    [
+      "Xiao",
+      "Ruiwei",
+      ""
+    ],
+    [
+      "Tseng",
+      "Ying-Jui",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 1 Dec 2024 21:22:24 GMT"
+    }
+  ],
+  "updateDate": "2024-12-03",
+  "timestamp": 1733088144000,
+  "abstract": "  Artificial intelligence (AI) is transforming society, making it crucial to\nprepare the next generation through AI literacy in K-12 education. However,\nscalable and reliable AI literacy materials and assessment resources are\nlacking. To address this gap, our study presents a novel approach to generating\nmultiple-choice questions (MCQs) for AI literacy assessments. Our method\nutilizes large language models (LLMs) to automatically generate scalable,\nhigh-quality assessment questions. These questions align with user-provided\nlearning objectives, grade levels, and Bloom's Taxonomy levels. We introduce an\niterative workflow incorporating LLM-powered critique agents to ensure the\ngenerated questions meet pedagogical standards. In the preliminary evaluation,\nexperts expressed strong interest in using the LLM-generated MCQs, indicating\nthat this system could enrich existing AI literacy materials and provide a\nvaluable addition to the toolkit of K-12 educators.\n",
+  "subjects": [
+    "Computer Science/Human-Computer Interaction"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "Y-toVaF9UglUkXx9ygF8OklcVvTbmxfoMye4H8iCvvI",
+  "pdfSize": "659689"
+}

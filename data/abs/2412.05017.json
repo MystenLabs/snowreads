@@ -1,0 +1,36 @@
+{
+  "id": "2412.05017",
+  "title": "Reduction from the partition problem: Dynamic lot sizing problem with\n  polynomial complexity",
+  "authors": "Chee-Khian Sim",
+  "authorsParsed": [
+    [
+      "Sim",
+      "Chee-Khian",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 6 Dec 2024 13:09:34 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Tue, 24 Dec 2024 11:25:00 GMT"
+    },
+    {
+      "version": "v3",
+      "created": "Tue, 7 Jan 2025 16:21:59 GMT"
+    }
+  ],
+  "updateDate": "2025-01-08",
+  "timestamp": 1733490574000,
+  "abstract": "  In this note, we polynomially reduce an instance of the partition problem to\na dynamic lot sizing problem, and show that solving the latter problem solves\nthe former problem. By solving the dynamic programming formulation of the\ndynamic lot sizing problem, we show that the instance of the partition problem\ncan be solved with pseudo-polynomial time complexity. Numerical results on\nsolving instances of the partition problem are also provided using an\nimplementation of the algorithm that solves the dynamic program.\n",
+  "subjects": [
+    "Computer Science/Computational Complexity",
+    "Mathematics/Optimization and Control"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "W9RTmU1bcYgw2fxpYTnXYJI1mOnwXnl6lepGJuUL4ZM",
+  "pdfSize": "377017"
+}

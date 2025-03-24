@@ -1,0 +1,50 @@
+{
+  "id": "2412.09393",
+  "title": "Extended Skyrme effective interactions with higher-order\n  momentum-dependence for transport models and neutron stars",
+  "authors": "Si-Pei Wang, Xin Li, Rui Wang, Jun-Ting Ye, Lie-Wen Chen",
+  "authorsParsed": [
+    [
+      "Wang",
+      "Si-Pei",
+      ""
+    ],
+    [
+      "Li",
+      "Xin",
+      ""
+    ],
+    [
+      "Wang",
+      "Rui",
+      ""
+    ],
+    [
+      "Ye",
+      "Jun-Ting",
+      ""
+    ],
+    [
+      "Chen",
+      "Lie-Wen",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 12 Dec 2024 15:59:56 GMT"
+    }
+  ],
+  "updateDate": "2024-12-13",
+  "timestamp": 1734019196000,
+  "abstract": "  The recently developed extended Skyrme effective interaction based on the\nso-called N3LO Skyrme pseudopotential is generalized to the general N$n$LO case\nby incorporating the derivative terms up to 2$n$th-order into the central term\nof the pseudopotential. The corresponding expressions of Hamiltonian density\nand single-nucleon potential are derived within the Hartree-Fock approximation\nunder general nonequilibrium conditions. The inclusion of the higher-order\nderivative terms provides additional higher-order momentum dependence for the\nsingle-nucleon potential, and in particular, we find that the N5LO\nsingle-nucleon potential with momentum dependent terms up to $p^{10}$ can give\na nice description for the empirical nucleon optical potential up to energy of\n$2$ GeV. At the same time, the density-dependent terms in the extended Skyrme\neffective interaction are extended correspondingly in the spirit of the Fermi\nmomentum expansion, which allows highly flexible variation of density behavior\nfor both the symmetric nuclear matter equation of state and the symmetry\nenergy. Based on the Skyrme pseudopotential up to N3LO, N4LO and N5LO, we\nconstruct a series of interactions with the nucleon optical potential having\ndifferent high-momentum behaviors and the symmetry potentials featuring\ndifferent linear isospin-splitting coefficients for nucleon effective mass, by\nwhich we study the properties of nuclear matter and neutron stars. Furthermore,\nwithin the lattice BUU transport model, some benchmark simulations with\nselected interactions are performed for the Au+Au collisions at a beam energy\nof $1.23$ GeV/nucleon, and the predicted collective flows for protons are found\nto nicely agree with the data measured by HADES collaboration.\n",
+  "subjects": [
+    "Physics/Nuclear Theory",
+    "Astrophysics/High Energy Astrophysical Phenomena",
+    "Physics/High Energy Physics - Phenomenology",
+    "Physics/Nuclear Experiment"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "VjS-1UzuARJnRatlcxrjkc4c9H9GKxURDWbPJZq1_5E",
+  "pdfSize": "1117811"
+}

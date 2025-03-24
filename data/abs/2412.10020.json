@@ -1,0 +1,33 @@
+{
+  "id": "2412.10020",
+  "title": "Gaussian quantum Markov semigroups on finitely many modes admitting a\n  normal invariant state",
+  "authors": "Federico Girotti and Damiano Poletti",
+  "authorsParsed": [
+    [
+      "Girotti",
+      "Federico",
+      ""
+    ],
+    [
+      "Poletti",
+      "Damiano",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 13 Dec 2024 10:01:18 GMT"
+    }
+  ],
+  "updateDate": "2024-12-16",
+  "timestamp": 1734084078000,
+  "abstract": "  Gaussian quantum Markov semigroups (GQMSs) are of fundamental importance in\nmodelling the evolution of several quantum systems. Moreover, they represent\nthe noncommutative generalization of classical Orsntein-Uhlenbeck semigroups;\nanalogously to the classical case, GQMSs are uniquely determined by a \"drift\"\nmatrix $\\mathbf{Z}$ and a \"diffusion\" matrix $\\mathbf{C}$, together with a\ndisplacement vector $\\mathbf{\\zeta}$. In this work, we completely characterize\nthose GQMSs that admit a normal invariant state and we provide a description of\nthe set of normal invariant states; as a side result, we are able to\ncharacterize quadratic Hamiltonians admitting a ground state. Moreover, we\nstudy the behavior of such semigroups for long times: firstly, we clarify the\nrelationship between the decoherence-free subalgebra and the spectrum of\n$\\mathbf{Z}$. Then, we prove that environment-induced decoherence takes place\nand that the dynamics approaches an Hamiltonian closed evolution for long\ntimes; we are also able to determine the speed at which this happens. Finally,\nwe study convergence of ergodic means and recurrence and transience of the\nsemigroup.\n",
+  "subjects": [
+    "Mathematics/Functional Analysis",
+    "Physics/Quantum Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "yUV3RRV5GYntH16LYaSkOXl9vC96lnI1inpIu458Bvc",
+  "pdfSize": "394087"
+}

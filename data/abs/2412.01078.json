@@ -1,0 +1,63 @@
+{
+  "id": "2412.01078",
+  "title": "Advancing Speech Language Models by Scaling Supervised Fine-Tuning with\n  Over 60,000 Hours of Synthetic Speech Dialogue Data",
+  "authors": "Shuaijiang Zhao, Tingwei Guo, Bajian Xiang, Tongtang Wan, Qiang Niu,\n  Wei Zou, Xiangang Li",
+  "authorsParsed": [
+    [
+      "Zhao",
+      "Shuaijiang",
+      ""
+    ],
+    [
+      "Guo",
+      "Tingwei",
+      ""
+    ],
+    [
+      "Xiang",
+      "Bajian",
+      ""
+    ],
+    [
+      "Wan",
+      "Tongtang",
+      ""
+    ],
+    [
+      "Niu",
+      "Qiang",
+      ""
+    ],
+    [
+      "Zou",
+      "Wei",
+      ""
+    ],
+    [
+      "Li",
+      "Xiangang",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 2 Dec 2024 03:31:46 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Tue, 3 Dec 2024 02:59:43 GMT"
+    }
+  ],
+  "updateDate": "2024-12-04",
+  "timestamp": 1733110306000,
+  "abstract": "  The GPT-4o represents a significant milestone in enabling real-time\ninteraction with large language models (LLMs) through speech, its remarkable\nlow latency and high fluency not only capture attention but also stimulate\nresearch interest in the field. This real-time speech interaction is\nparticularly valuable in scenarios requiring rapid feedback and immediate\nresponses, dramatically enhancing user experience. However, there is a notable\nlack of research focused on real-time large speech language models,\nparticularly for Chinese. In this work, we present KE-Omni, a seamless large\nspeech language model built upon Ke-SpeechChat, a large-scale high-quality\nsynthetic speech interaction dataset consisting of 7 million Chinese and\nEnglish conversations, featuring 42,002 speakers, and totaling over 60,000\nhours, This contributes significantly to the advancement of research and\ndevelopment in this field. The demos can be accessed at\n\\url{https://huggingface.co/spaces/KE-Team/KE-Omni}.\n",
+  "subjects": [
+    "Computer Science/Computation and Language",
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Human-Computer Interaction"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "63cqG0WLdLaGXWygYbXvTw165fWV9wg99HCvWzZ5DeU",
+  "pdfSize": "1946096"
+}

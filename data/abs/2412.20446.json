@@ -1,0 +1,32 @@
+{
+  "id": "2412.20446",
+  "title": "Explaining Black-Box Clustering Pipelines With Cluster-Explorer",
+  "authors": "Sariel Ofek and Amit Somech",
+  "authorsParsed": [
+    [
+      "Ofek",
+      "Sariel",
+      ""
+    ],
+    [
+      "Somech",
+      "Amit",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 29 Dec 2024 12:08:36 GMT"
+    }
+  ],
+  "updateDate": "2024-12-31",
+  "timestamp": 1735474116000,
+  "abstract": "  Explaining the results of clustering pipelines by unraveling the\ncharacteristics of each cluster is a challenging task, often addressed manually\nthrough visualizations and queries. Existing solutions from the domain of\nExplainable Artificial Intelligence (XAI) are largely ineffective for cluster\nexplanations, and interpretable-by-design clustering algorithms may be\nunsuitable when the clustering algorithm does not fit the data properties.\n  To bridge this gap, we introduce Cluster-Explorer, a novel explainability\ntool for black-box clustering pipelines. Our approach formulates the\nexplanation of clusters as the identification of concise conjunctions of\npredicates that maximize the coverage of the cluster's data points while\nminimizing separation from other clusters. We achieve this by reducing the\nproblem to generalized frequent-itemsets mining (gFIM), where items correspond\nto explanation predicates, and itemset frequency indicates coverage. To enhance\nefficiency, we leverage inherent problem properties and implement attribute\nselection to further reduce computational costs. Experimental evaluations on a\nbenchmark collection of 98 clustering results, as well as a user study,\ndemonstrate the superiority of Cluster-Explorer in both explanation quality and\nexecution times compared to XAI baselines.\n",
+  "subjects": [
+    "Computer Science/Databases"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "cOigyjOwpxekwQK1Q1g4pM4slxiCsJ2UaDwQX4ZTqE4",
+  "pdfSize": "3302336"
+}

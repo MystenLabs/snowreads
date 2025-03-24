@@ -1,0 +1,40 @@
+{
+  "id": "2412.16934",
+  "title": "Efficiently Solving Turn-Taking Stochastic Games with Extensive-Form\n  Correlation",
+  "authors": "Hanrui Zhang, Yu Cheng, Vincent Conitzer",
+  "authorsParsed": [
+    [
+      "Zhang",
+      "Hanrui",
+      ""
+    ],
+    [
+      "Cheng",
+      "Yu",
+      ""
+    ],
+    [
+      "Conitzer",
+      "Vincent",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 22 Dec 2024 09:12:05 GMT"
+    }
+  ],
+  "updateDate": "2024-12-24",
+  "timestamp": 1734858725000,
+  "abstract": "  We study equilibrium computation with extensive-form correlation in\ntwo-player turn-taking stochastic games. Our main results are two-fold: (1) We\ngive an algorithm for computing a Stackelberg extensive-form correlated\nequilibrium (SEFCE), which runs in time polynomial in the size of the game, as\nwell as the number of bits required to encode each input number. (2) We give an\nefficient algorithm for approximately computing an optimal extensive-form\ncorrelated equilibrium (EFCE) up to machine precision, i.e., the algorithm\nachieves approximation error $\\varepsilon$ in time polynomial in the size of\nthe game, as well as $\\log(1 / \\varepsilon)$.\n  Our algorithm for SEFCE is the first polynomial-time algorithm for\nequilibrium computation with commitment in such a general class of stochastic\ngames. Existing algorithms for SEFCE typically make stronger assumptions such\nas no chance moves, and are designed for extensive-form games in the less\nsuccinct tree form. Our algorithm for approximately optimal EFCE is, to our\nknowledge, the first algorithm that achieves 3 desiderata simultaneously:\napproximate optimality, polylogarithmic dependency on the approximation error,\nand compatibility with stochastic games in the more succinct graph form.\nExisting algorithms achieve at most 2 of these desiderata, often also relying\non additional technical assumptions.\n",
+  "subjects": [
+    "Computer Science/Computer Science and Game Theory",
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Data Structures and Algorithms",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "JcZ9ZNiyzCmVjz74FkVnjrYo1Kyoer9uuc_4JCmnsJg",
+  "pdfSize": "845885"
+}

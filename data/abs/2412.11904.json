@@ -1,0 +1,43 @@
+{
+  "id": "2412.11904",
+  "title": "A Note on Hyperbolic Relaxation of the Navier-Stokes-Cahn-Hilliard\n  system for incompressible two-phase flow",
+  "authors": "Jens Keim, Hasel-Cicek Konan, Christian Rohde",
+  "authorsParsed": [
+    [
+      "Keim",
+      "Jens",
+      ""
+    ],
+    [
+      "Konan",
+      "Hasel-Cicek",
+      ""
+    ],
+    [
+      "Rohde",
+      "Christian",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 16 Dec 2024 15:50:06 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Tue, 17 Dec 2024 17:56:31 GMT"
+    }
+  ],
+  "updateDate": "2024-12-18",
+  "timestamp": 1734364206000,
+  "abstract": "  We consider the two-phase dynamics of two incompressible and immiscible\nfluids. As a mathematical model we rely on the Navier-Stokes-Cahn-Hilliard\nsystem that belongs to the class of diffuse-interface models. Solutions of the\nNavier-Stokes-Cahn-Hilliard system exhibit strong non-local effects due to the\nvelocity divergence constraint and the fourth-order Cahn-Hilliard operator. We\nsuggest a new first-order approximative system for the inviscid sub-system. It\nrelies on the artificial-compressibility ansatz for the Navier-Stokes\nequations, a friction-type approximation for the Cahn-Hilliard equation and a\nrelaxation of a third-order capillarity term. We show under reasonable\nassumptions that the first-order operator within the approximative system is\nhyperbolic; precisely we prove for the spatially one-dimensional case that it\nis equipped with an entropy-entropy flux pair with convex (mathematical)\nentropy. For specific states we present a numerical characteristic analysis.\nThanks to the hyperbolicity of the system, we can employ all standard numerical\nmethods from the field of hyperbolic conservation laws. We conclude the paper\nwith preliminary numerical results in one spatial dimension.\n",
+  "subjects": [
+    "Mathematics/Analysis of PDEs",
+    "Physics/Computational Physics",
+    "Physics/Fluid Dynamics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "1bR5AweU8kuLVUKEFPt8xq9A09N9t552FhNSxZJnseg",
+  "pdfSize": "4220717"
+}

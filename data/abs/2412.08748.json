@@ -1,0 +1,107 @@
+{
+  "id": "2412.08748",
+  "title": "Integrated modeling of RF-Induced Tungsten Erosion at ICRH Antenna\n  Structures in the WEST Tokamak",
+  "authors": "A. Kumar, W. Tierens, T. Younkin, C. Johnson, C. Klepper, A. Diaw, J.\n  Lore, A. Grosjean, G. Urbanczyk, J. Hillariet, P. Tamain, L. Colas, C.\n  Guillemaut, D. Curreli, S. Shiraiwa, N. Bertelli and the WEST team",
+  "authorsParsed": [
+    [
+      "Kumar",
+      "A.",
+      ""
+    ],
+    [
+      "Tierens",
+      "W.",
+      ""
+    ],
+    [
+      "Younkin",
+      "T.",
+      ""
+    ],
+    [
+      "Johnson",
+      "C.",
+      ""
+    ],
+    [
+      "Klepper",
+      "C.",
+      ""
+    ],
+    [
+      "Diaw",
+      "A.",
+      ""
+    ],
+    [
+      "Lore",
+      "J.",
+      ""
+    ],
+    [
+      "Grosjean",
+      "A.",
+      ""
+    ],
+    [
+      "Urbanczyk",
+      "G.",
+      ""
+    ],
+    [
+      "Hillariet",
+      "J.",
+      ""
+    ],
+    [
+      "Tamain",
+      "P.",
+      ""
+    ],
+    [
+      "Colas",
+      "L.",
+      ""
+    ],
+    [
+      "Guillemaut",
+      "C.",
+      ""
+    ],
+    [
+      "Curreli",
+      "D.",
+      ""
+    ],
+    [
+      "Shiraiwa",
+      "S.",
+      ""
+    ],
+    [
+      "Bertelli",
+      "N.",
+      ""
+    ],
+    [
+      "team",
+      "the WEST",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 11 Dec 2024 19:36:20 GMT"
+    }
+  ],
+  "updateDate": "2024-12-13",
+  "timestamp": 1733945780000,
+  "abstract": "  This paper introduces STRIPE (Simulated Transport of RF Impurity Production\nand Emission), an advanced modeling framework designed to analyze material\nerosion and the global transport of eroded impurities originating from\nradio-frequency (RF) antenna structures in magnetic confinement fusion devices.\nSTRIPE integrates multiple computational tools, each addressing different\nlevels of physics fidelity: SolEdge3x for scrape-off-layer plasma profiles,\nCOMSOL for 3D RF rectified voltage fields, RustBCA code for erosion yields and\nsurface interactions, and GITR for 3D ion energy-angle distributions and global\nimpurity transport. The framework is applied to an ion cyclotron RF heated,\nL-mode discharge #57877 in the WEST Tokamak, where it predicts a tenfold\nincrease in tungsten erosion at RF antenna limiters under RF-sheath\nrectification conditions, compared to cases with only a thermal sheath. Highly\ncharged oxygen ions (O6+ and higher) emerge as dominant contributors to\ntungsten sputtering at the antenna limiters. To verify model accuracy, a\nsynthetic diagnostic tool based on inverse photon efficiency or S/XB\ncoefficients from the ColRadPy-collisional radiative model enables direct\ncomparisons between simulation results and experimental spectroscopic data.\nModel predictions, assuming plasma composition of 1% oxygen and 99% deuterium,\nalign closely with measured neutral tungsten (W-I) spectroscopic data for the\ndischarge #57877, validating the framework's accuracy. Currently, the STRIPE\nframework is being extended to investigate plasma-material interactions in\nother RF-heated linear and toroidal devices, offering valuable insights for RF\nantenna design, impurity control, and performance optimization in future fusion\nreactors.\n",
+  "subjects": [
+    "Physics/Plasma Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "rUi89uIBz27ubsIb-0H5PHk1cSZ4lW15JGyxvLW1HZ4",
+  "pdfSize": "5815995"
+}

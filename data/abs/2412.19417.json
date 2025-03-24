@@ -1,0 +1,47 @@
+{
+  "id": "2412.19417",
+  "title": "KALAHash: Knowledge-Anchored Low-Resource Adaptation for Deep Hashing",
+  "authors": "Shu Zhao, Tan Yu, Xiaoshuai Hao, Wenchao Ma, Vijaykrishnan Narayanan",
+  "authorsParsed": [
+    [
+      "Zhao",
+      "Shu",
+      ""
+    ],
+    [
+      "Yu",
+      "Tan",
+      ""
+    ],
+    [
+      "Hao",
+      "Xiaoshuai",
+      ""
+    ],
+    [
+      "Ma",
+      "Wenchao",
+      ""
+    ],
+    [
+      "Narayanan",
+      "Vijaykrishnan",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 27 Dec 2024 03:04:54 GMT"
+    }
+  ],
+  "updateDate": "2024-12-30",
+  "timestamp": 1735268694000,
+  "abstract": "  Deep hashing has been widely used for large-scale approximate nearest\nneighbor search due to its storage and search efficiency. However, existing\ndeep hashing methods predominantly rely on abundant training data, leaving the\nmore challenging scenario of low-resource adaptation for deep hashing\nrelatively underexplored. This setting involves adapting pre-trained models to\ndownstream tasks with only an extremely small number of training samples\navailable. Our preliminary benchmarks reveal that current methods suffer\nsignificant performance degradation due to the distribution shift caused by\nlimited training samples. To address these challenges, we introduce\nClass-Calibration LoRA (CLoRA), a novel plug-and-play approach that dynamically\nconstructs low-rank adaptation matrices by leveraging class-level textual\nknowledge embeddings. CLoRA effectively incorporates prior class knowledge as\nanchors, enabling parameter-efficient fine-tuning while maintaining the\noriginal data distribution. Furthermore, we propose Knowledge-Guided Discrete\nOptimization (KIDDO), a framework to utilize class knowledge to compensate for\nthe scarcity of visual information and enhance the discriminability of hash\ncodes. Extensive experiments demonstrate that our proposed method, Knowledge-\nAnchored Low-Resource Adaptation Hashing (KALAHash), significantly boosts\nretrieval performance and achieves a 4x data efficiency in low-resource\nscenarios.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "jU8bcrOtzsEhGck8ja0McRmeBkqMu7kGVKxPb-amVEw",
+  "pdfSize": "1821902"
+}

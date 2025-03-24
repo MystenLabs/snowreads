@@ -1,0 +1,47 @@
+{
+  "id": "2412.14717",
+  "title": "Computing Gram Matrix for SMILES Strings using RDKFingerprint and\n  Sinkhorn-Knopp Algorithm",
+  "authors": "Sarwan Ali, Haris Mansoor, Prakash Chourasia, Imdad Ullah Khan, Murray\n  Patterson",
+  "authorsParsed": [
+    [
+      "Ali",
+      "Sarwan",
+      ""
+    ],
+    [
+      "Mansoor",
+      "Haris",
+      ""
+    ],
+    [
+      "Chourasia",
+      "Prakash",
+      ""
+    ],
+    [
+      "Khan",
+      "Imdad Ullah",
+      ""
+    ],
+    [
+      "Patterson",
+      "Murray",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 19 Dec 2024 10:31:25 GMT"
+    }
+  ],
+  "updateDate": "2024-12-20",
+  "timestamp": 1734604285000,
+  "abstract": "  In molecular structure data, SMILES (Simplified Molecular Input Line Entry\nSystem) strings are used to analyze molecular structure design. Numerical\nfeature representation of SMILES strings is a challenging task. This work\nproposes a kernel-based approach for encoding and analyzing molecular\nstructures from SMILES strings. The proposed approach involves computing a\nkernel matrix using the Sinkhorn-Knopp algorithm while using kernel principal\ncomponent analysis (PCA) for dimensionality reduction. The resulting\nlow-dimensional embeddings are then used for classification and regression\nanalysis. The kernel matrix is computed by converting the SMILES strings into\nmolecular structures using the Morgan Fingerprint, which computes a fingerprint\nfor each molecule. The distance matrix is computed using the pairwise kernels\nfunction. The Sinkhorn-Knopp algorithm is used to compute the final kernel\nmatrix that satisfies the constraints of a probability distribution. This is\nachieved by iteratively adjusting the kernel matrix until the marginal\ndistributions of the rows and columns match the desired marginal distributions.\nWe provided a comprehensive empirical analysis of the proposed kernel method to\nevaluate its goodness with greater depth. The suggested method is assessed for\ndrug subcategory prediction (classification task) and solubility AlogPS\n``Aqueous solubility and Octanol/Water partition coefficient\" (regression task)\nusing the benchmark SMILES string dataset. The outcomes show the proposed\nmethod outperforms several baseline methods in terms of supervised analysis and\nhas potential uses in molecular design and drug discovery. Overall, the\nsuggested method is a promising avenue for kernel methods-based molecular\nstructure analysis and design.\n",
+  "subjects": [
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "MdJqq-jEQ6Z_1rX2QYs6yhT9ezWVtgmI3Uw4lniPK78",
+  "pdfSize": "1647389"
+}

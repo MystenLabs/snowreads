@@ -1,0 +1,34 @@
+{
+  "id": "2412.10322",
+  "title": "Investigating SU(3) with Nf=8 fundamental fermions at strong\n  renormalized coupling",
+  "authors": "Anna Hasenfratz and Oliver Witzel",
+  "authorsParsed": [
+    [
+      "Hasenfratz",
+      "Anna",
+      ""
+    ],
+    [
+      "Witzel",
+      "Oliver",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 13 Dec 2024 18:01:26 GMT"
+    }
+  ],
+  "updateDate": "2024-12-16",
+  "timestamp": 1734112886000,
+  "abstract": "  Lattice simulations have observed a novel strong coupling symmetric mass\ngeneration (SMG) phase for the SU(3) gauge system with $N_f=8$ fundamental\nfermions (represented by two sets of staggered fields) at very large\nrenormalized coupling ($g^2_{GF} \\gtrsim 25$). The results of Phys.Rev.D 106\n(2022) 014513 suggest that the SMG phase is separated from the weak coupling,\nconformal phase by a continuous phase transition, implying that the SMG phase\nexists in the continuum limit. To scrutinize these findings, we are generating\na set of large volume zero temperature ensembles using nHYP improved staggered\nfermions with additional Pauli-Villars fields to tame gauge field fluctuations.\nWe consider the low-lying meson spectrum and verify the existence of the SMG\nphase. Based on a finite size scaling analysis we predict that the phase\ntransition between the strong and weak coupling phases is likely governed by a\nmerged fixed point that is ultraviolet in the strong coupling but infrared in\nthe weak coupling side. This finding suggests that the SU(3) 8-flavor system\nsits at the opening of the conformal window\n",
+  "subjects": [
+    "Physics/High Energy Physics - Lattice",
+    "Condensed Matter/Strongly Correlated Electrons",
+    "Physics/High Energy Physics - Theory"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "8IE3voL3UwNSvFs7wNlmiFoCgjjxrrPgdnYFiCHS1yM",
+  "pdfSize": "547202"
+}

@@ -1,0 +1,67 @@
+{
+  "id": "2412.17998",
+  "title": "WavePulse: Real-time Content Analytics of Radio Livestreams",
+  "authors": "Govind Mittal, Sarthak Gupta, Shruti Wagle, Chirag Chopra, Anthony J\n  DeMattee, Nasir Memon, Mustaque Ahamad, Chinmay Hegde",
+  "authorsParsed": [
+    [
+      "Mittal",
+      "Govind",
+      ""
+    ],
+    [
+      "Gupta",
+      "Sarthak",
+      ""
+    ],
+    [
+      "Wagle",
+      "Shruti",
+      ""
+    ],
+    [
+      "Chopra",
+      "Chirag",
+      ""
+    ],
+    [
+      "DeMattee",
+      "Anthony J",
+      ""
+    ],
+    [
+      "Memon",
+      "Nasir",
+      ""
+    ],
+    [
+      "Ahamad",
+      "Mustaque",
+      ""
+    ],
+    [
+      "Hegde",
+      "Chinmay",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 23 Dec 2024 21:42:31 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Wed, 29 Jan 2025 17:17:56 GMT"
+    }
+  ],
+  "updateDate": "2025-01-30",
+  "timestamp": 1734990151000,
+  "abstract": "  Radio remains a pervasive medium for mass information dissemination, with\nAM/FM stations reaching more Americans than either smartphone-based social\nnetworking or live television. Increasingly, radio broadcasts are also streamed\nonline and accessed over the Internet. We present WavePulse, a framework that\nrecords, documents, and analyzes radio content in real-time. While our\nframework is generally applicable, we showcase the efficacy of WavePulse in a\ncollaborative project with a team of political scientists focusing on the 2024\nPresidential Elections. We use WavePulse to monitor livestreams of 396 news\nradio stations over a period of three months, processing close to 500,000 hours\nof audio streams. These streams were converted into time-stamped, diarized\ntranscripts and analyzed to track answer key political science questions at\nboth the national and state levels. Our analysis revealed how local issues\ninteracted with national trends, providing insights into information flow. Our\nresults demonstrate WavePulse's efficacy in capturing and analyzing content\nfrom radio livestreams sourced from the Web. Code and dataset can be accessed\nat \\url{https://wave-pulse.io}.\n",
+  "subjects": [
+    "Computer Science/Information Retrieval",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by-sa/4.0/",
+  "blobId": "3ykrhCwLlVVOe3_P2PunqpMFJRPglSeZ6SeswWCAeZ8",
+  "pdfSize": "8442689"
+}

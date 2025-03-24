@@ -1,0 +1,43 @@
+{
+  "id": "2412.19189",
+  "title": "An End-to-End Depth-Based Pipeline for Selfie Image Rectification",
+  "authors": "Ahmed Alhawwary, Phong Nguyen-Ha, Janne Mustaniemi, Janne Heikkil\\\"a",
+  "authorsParsed": [
+    [
+      "Alhawwary",
+      "Ahmed",
+      ""
+    ],
+    [
+      "Nguyen-Ha",
+      "Phong",
+      ""
+    ],
+    [
+      "Mustaniemi",
+      "Janne",
+      ""
+    ],
+    [
+      "Heikkilä",
+      "Janne",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 26 Dec 2024 11:57:54 GMT"
+    }
+  ],
+  "updateDate": "2024-12-30",
+  "timestamp": 1735214274000,
+  "abstract": "  Portraits or selfie images taken from a close distance typically suffer from\nperspective distortion. In this paper, we propose an end-to-end deep\nlearning-based rectification pipeline to mitigate the effects of perspective\ndistortion. We learn to predict the facial depth by training a deep CNN. The\nestimated depth is utilized to adjust the camera-to-subject distance by moving\nthe camera farther, increasing the camera focal length, and reprojecting the 3D\nimage features to the new perspective. The reprojected features are then fed to\nan inpainting module to fill in the missing pixels. We leverage a\ndifferentiable renderer to enable end-to-end training of our depth estimation\nand feature extraction nets to improve the rectified outputs. To boost the\nresults of the inpainting module, we incorporate an auxiliary module to predict\nthe horizontal movement of the camera which decreases the area that requires\nhallucination of challenging face parts such as ears. Unlike previous works, we\nprocess the full-frame input image at once without cropping the subject's face\nand processing it separately from the rest of the body, eliminating the need\nfor complex post-processing steps to attach the face back to the subject's\nbody. To train our network, we utilize the popular game engine Unreal Engine to\ngenerate a large synthetic face dataset containing various subjects, head\nposes, expressions, eyewear, clothes, and lighting. Quantitative and\nqualitative results show that our rectification pipeline outperforms previous\nmethods, and produces comparable results with a time-consuming 3D GAN-based\nmethod while being more than 260 times faster.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "u9DZ_5QaXPlsJuWnkiz2kdfoGEeJUWfh3B2illyX9-w",
+  "pdfSize": "10458551"
+}

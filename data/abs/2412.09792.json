@@ -1,0 +1,34 @@
+{
+  "id": "2412.09792",
+  "title": "Flexible Bayesian Nonparametric Product Mixtures for Multi-scale\n  Functional Clustering",
+  "authors": "Tsung-Hung Yao and Suprateek Kundu",
+  "authorsParsed": [
+    [
+      "Yao",
+      "Tsung-Hung",
+      ""
+    ],
+    [
+      "Kundu",
+      "Suprateek",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 13 Dec 2024 02:19:36 GMT"
+    }
+  ],
+  "updateDate": "2024-12-16",
+  "timestamp": 1734056376000,
+  "abstract": "  There is a rich literature on clustering functional data with applications to\ntime-series modeling, trajectory data, and even spatio-temporal applications.\nHowever, existing methods routinely perform global clustering that enforces\nidentical atom values within the same cluster. Such grouping may be inadequate\nfor high-dimensional functions, where the clustering patterns may change\nbetween the more dominant high-level features and the finer resolution local\nfeatures. While there is some limited literature on local clustering approaches\nto deal with the above problems, these methods are typically not scalable to\nhigh-dimensional functions, and their theoretical properties are not\nwell-investigated. Focusing on basis expansions for high-dimensional functions,\nwe propose a flexible non-parametric Bayesian approach for multi-resolution\nclustering. The proposed method imposes independent Dirichlet process (DP)\npriors on different subsets of basis coefficients that ultimately results in a\nproduct of DP mixture priors inducing local clustering. We generalize the\napproach to incorporate spatially correlated error terms when modeling random\nspatial functions to provide improved model fitting. An efficient Markov chain\nMonte Carlo (MCMC) algorithm is developed for implementation. We show posterior\nconsistency properties under the local clustering approach that asymptotically\nrecovers the true density of random functions. Extensive simulations illustrate\nthe improved clustering and function estimation under the proposed method\ncompared to classical approaches. We apply the proposed approach to a spatial\ntranscriptomics application where the goal is to infer clusters of genes with\ndistinct spatial patterns of expressions. Our method makes an important\ncontribution by expanding the limited literature on local clustering methods\nfor high-dimensional functions with theoretical guarantees.\n",
+  "subjects": [
+    "Statistics/Methodology",
+    "Mathematics/Statistics Theory",
+    "Statistics/Statistics Theory"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "vB3ACXFkZ6U9dLuT5wp92xLhsJDEqkEL5MmC_eyYA20",
+  "pdfSize": "1075271"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2412.12168",
+  "title": "A Decomposition Modeling Framework for Seasonal Time-Series Forecasting",
+  "authors": "Yining Pang and Chenghan Li",
+  "authorsParsed": [
+    [
+      "Pang",
+      "Yining",
+      ""
+    ],
+    [
+      "Li",
+      "Chenghan",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 12 Dec 2024 01:37:25 GMT"
+    }
+  ],
+  "updateDate": "2024-12-18",
+  "timestamp": 1733967445000,
+  "abstract": "  Seasonal time series exhibit intricate long-term dependencies, posing a\nsignificant challenge for accurate future prediction. This paper introduces the\nMulti-scale Seasonal Decomposition Model (MSSD) for seasonal time-series\nforecasting. Initially, leveraging the inherent periodicity of seasonal time\nseries, we decompose the univariate time series into three primary components:\nAscending, Peak, and Descending. This decomposition approach enhances the\ncapture of periodic features. By addressing the limitations of existing\ntime-series modeling methods, particularly in modeling the Peak component, this\nresearch proposes a multi-scale network structure designed to effectively\ncapture various potential peak fluctuation patterns in the Peak component. This\nstudy integrates Conv2d and Temporal Convolutional Networks to concurrently\ncapture global and local features. Furthermore, we incorporate multi-scale\nreshaping to augment the modeling capacity for peak fluctuation patterns. The\nproposed methodology undergoes validation using three publicly accessible\nseasonal datasets. Notably, in both short-term and long-term fore-casting\ntasks, our approach exhibits a 10$\\%$ reduction in error compared to the\nbaseline models.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "_-KHxgFTMZdza-sc57_QqBsYM1wAVW6yO30xb_wJmzo",
+  "pdfSize": "5297641"
+}

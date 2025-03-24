@@ -1,0 +1,51 @@
+{
+  "id": "2412.01926",
+  "title": "Beyond Pairwise Correlations: Higher-Order Redundancies in\n  Self-Supervised Representation Learning",
+  "authors": "David Zollikofer, B\\'eni Egressy, Frederik Benzing, Matthias Otth,\n  Roger Wattenhofer",
+  "authorsParsed": [
+    [
+      "Zollikofer",
+      "David",
+      ""
+    ],
+    [
+      "Egressy",
+      "Béni",
+      ""
+    ],
+    [
+      "Benzing",
+      "Frederik",
+      ""
+    ],
+    [
+      "Otth",
+      "Matthias",
+      ""
+    ],
+    [
+      "Wattenhofer",
+      "Roger",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 2 Dec 2024 19:23:22 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Sun, 8 Dec 2024 04:54:33 GMT"
+    }
+  ],
+  "updateDate": "2024-12-10",
+  "timestamp": 1733167402000,
+  "abstract": "  Several self-supervised learning (SSL) approaches have shown that redundancy\nreduction in the feature embedding space is an effective tool for\nrepresentation learning. However, these methods consider a narrow notion of\nredundancy, focusing on pairwise correlations between features. To address this\nlimitation, we formalize the notion of embedding space redundancy and introduce\nredundancy measures that capture more complex, higher-order dependencies. We\nmathematically analyze the relationships between these metrics, and empirically\nmeasure these redundancies in the embedding spaces of common SSL methods. Based\non our findings, we propose Self Supervised Learning with Predictability\nMinimization (SSLPM) as a method for reducing redundancy in the embedding\nspace. SSLPM combines an encoder network with a predictor engaging in a\ncompetitive game of reducing and exploiting dependencies respectively. We\ndemonstrate that SSLPM is competitive with state-of-the-art methods and find\nthat the best performing SSL methods exhibit low embedding space redundancy,\nsuggesting that even methods without explicit redundancy reduction mechanisms\nperform redundancy reduction implicitly.\n",
+  "subjects": [
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "a-PL7HG_wm0BY6LuiphKXrBOr-mYN5GYrp2ztZJtWf0",
+  "pdfSize": "1616095"
+}

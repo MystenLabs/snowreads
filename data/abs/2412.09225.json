@@ -1,0 +1,37 @@
+{
+  "id": "2412.09225",
+  "title": "Accounting for Multiple Covariates in Non-Stationary Geostatistical\n  Modelling",
+  "authors": "Olatunji Johnson, Bedilu A Ejigu, Ezra Gayawan",
+  "authorsParsed": [
+    [
+      "Johnson",
+      "Olatunji",
+      ""
+    ],
+    [
+      "Ejigu",
+      "Bedilu A",
+      ""
+    ],
+    [
+      "Gayawan",
+      "Ezra",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 12 Dec 2024 12:27:05 GMT"
+    }
+  ],
+  "updateDate": "2024-12-13",
+  "timestamp": 1734006425000,
+  "abstract": "  Model-based geostatistics (MBG) is a subfield of spatial statistics focused\non predicting spatially continuous phenomena using data collected at discrete\nlocations. Geostatistical models often rely on the assumptions of stationarity\nand isotropy for practical and conceptual simplicity. However, an alternative\nperspective involves considering non-stationarity, where statistical\ncharacteristics vary across the study area. While previous work has explored\nnon-stationary processes, particularly those leveraging covariate information\nto address non-stationarity, this research expands upon these concepts by\nincorporating multiple covariates and proposing different ways for constructing\nnon-stationary processes. Through a simulation study, the significance of\nselecting the appropriate non-stationary process is demonstrated. The proposed\napproach is then applied to analyse malaria prevalence data in Mozambique,\nshowcasing its practical utility\n",
+  "subjects": [
+    "Statistics/Methodology"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "Rj4cYISW9qT2Dk862Mq_gZvvGJwr2zomtQwdEUUHvTo",
+  "pdfSize": "326125"
+}

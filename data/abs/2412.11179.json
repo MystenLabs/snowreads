@@ -1,0 +1,37 @@
+{
+  "id": "2412.11179",
+  "title": "Treatment Evaluation at the Intensive and Extensive Margins",
+  "authors": "Phillip Heiler, Asbj{\\o}rn Kaufmann, Bezirgen Veliyev",
+  "authorsParsed": [
+    [
+      "Heiler",
+      "Phillip",
+      ""
+    ],
+    [
+      "Kaufmann",
+      "Asbjørn",
+      ""
+    ],
+    [
+      "Veliyev",
+      "Bezirgen",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 15 Dec 2024 13:07:22 GMT"
+    }
+  ],
+  "updateDate": "2024-12-17",
+  "timestamp": 1734268042000,
+  "abstract": "  This paper provides a solution to the evaluation of treatment effects in\nselective samples when neither instruments nor parametric assumptions are\navailable. We provide sharp bounds for average treatment effects under a\nconditional monotonicity assumption for all principal strata, i.e. units\ncharacterizing the complete intensive and extensive margins. Most importantly,\nwe allow for a large share of units whose selection is indifferent to\ntreatment, e.g. due to non-compliance. The existence of such a population is\ncrucially tied to the regularity of sharp population bounds and thus\nconventional asymptotic inference for methods such as Lee bounds can be\nmisleading. It can be solved using smoothed outer identification regions for\ninference. We provide semiparametrically efficient debiased machine learning\nestimators for both regular and smooth bounds that can accommodate\nhigh-dimensional covariates and flexible functional forms. Our study of active\nlabor market policy reveals the empirical prevalence of the aforementioned\nindifference population and supports results from previous impact analysis\nunder much weaker assumptions.\n",
+  "subjects": [
+    "Economics/Econometrics"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "XvYSvsGFPNzjq76CzIYjXjjm5uQ1rXgqVQ03CEMMTEg",
+  "pdfSize": "1305221"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "2412.10740",
+  "title": "IBIC analysis of a linear position sensitive detector: model and\n  experiment",
+  "authors": "Ettore Vittone, Georgios Provatas, Karla Ivankovi\\'c Nizi\\'c, Milko\n  Jaksic",
+  "authorsParsed": [
+    [
+      "Vittone",
+      "Ettore",
+      ""
+    ],
+    [
+      "Provatas",
+      "Georgios",
+      ""
+    ],
+    [
+      "Nizić",
+      "Karla Ivanković",
+      ""
+    ],
+    [
+      "Jaksic",
+      "Milko",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 14 Dec 2024 08:21:14 GMT"
+    }
+  ],
+  "updateDate": "2024-12-17",
+  "timestamp": 1734164474000,
+  "abstract": "  The ion beam-induced charge (IBIC) analysis of a commercial silicon\nphotodiode configured as a Position Sensitive Detector (PSD) for energetic\ncharged particles is the subject of this report. Although the photodiode is\ndesigned for detecting the position of incident light and optimized for use in\nthe UV region, we present evidence that it also performs well as a detector for\nions, with energies in the MeV range. The device consists of a uniform p-type\nlayer formed on a high-resistivity n-type semiconductor substrate, a pair of\nelectrodes on both ends of the resistive layer, and a common electrode located\non the backside of the substrate. The IBIC experiment was carried out at the\nLaboratory for Ion Beam Interaction (LIBI) of the Ruder Boskovic Institute in\nZagreb (HR), using 2 MeV proton microbeam raster scanning the 2.5x0.6 mm2\nactive area of the PSD. Each of the three electrodes was connected to\nindependent standard NIM charge-sensitive electronic chain and the induced\ncharge pulses associated with the position of individual ions were then\ndigitized using a multi-channel analyzer interfaced with the SPECTOR software.\nThe longitudinal Charge Collection Efficiency (CCE) profiles acquired from the\ntop electrodes show linear behaviors with opposite slopes, whereas the profile\nrelevant to the signals from the back electrode is almost constant. A model\nbased on the IBIC theory satisfactorily interprets these results. It offers an\nalternative viewpoint to the commonly adopted Lateral Effect Photodiode\nprinciple and paves the way for the development of new PSDs for the\nidentification of the impact position of a MeV ion with a resolution at the\nmicrometer scale.\n",
+  "subjects": [
+    "Physics/Instrumentation and Detectors"
+  ],
+  "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+  "blobId": "TfwQSO9FA_RzZgV4ijbiw2U66kD259huNIrIpl8qeKc",
+  "pdfSize": "659455"
+}

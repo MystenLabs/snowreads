@@ -1,0 +1,27 @@
+{
+  "id": "2412.06066",
+  "title": "Perturbed Traceless SU(2) Character Varieties of Tangle Sums",
+  "authors": "Kai Smith",
+  "authorsParsed": [
+    [
+      "Smith",
+      "Kai",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 8 Dec 2024 20:51:36 GMT"
+    }
+  ],
+  "updateDate": "2024-12-10",
+  "timestamp": 1733691096000,
+  "abstract": "  If a link $L$ can be decomposed into the union of two tangles $T\\cup_{S^2} S$\nalong a 2-sphere intersecting $L$ in 4 points, then the intersections of\nperturbed traceless SU(2) character varieties of tangles in a space called the\npillowcase form a set of generators for Kronheimer and Mrowka's reduced\nsingular instanton homology, $I^\\natural$. It is conjectured by Cazassus,\nHerald, Kirk, and Kotelskiy that with the addition of bounding cochains, the\ndifferential of $I^\\natural$ can be recovered from these Lagrangians as well.\nThis article gives a method to compute the perturbed character variety for a\nlarge class of tangles using cut-and-paste methods. In particular, given two\ntangles, $T$ and $S$, Conway defines the tangle sum $T+S$. Given the character\nvarieties of $T$ and $S$, we show how to construct the perturbed character\nvariety of $T+S$. This is done by first studying the perturbed character\nvariety of a certain tangle $C_3$ properly embedded in $S^3$ with 3 balls\nremoved. Using these results, we prove a nontriviality result for the bounding\ncochains in the conjecture of Cazassus, Herald, Kirk, and Kotelskiy.\n",
+  "subjects": [
+    "Mathematics/Geometric Topology"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "le8xGgY5ZqSEl6Uk_dYGC02h8V1269-fDRsUBFDWM-I",
+  "pdfSize": "1125514"
+}

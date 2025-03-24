@@ -1,0 +1,39 @@
+{
+  "id": "2412.14291",
+  "title": "Projected gradient methods for nonconvex and stochastic optimization:\n  new complexities and auto-conditioned stepsizes",
+  "authors": "Guanghui Lan, Tianjiao Li, Yangyang Xu",
+  "authorsParsed": [
+    [
+      "Lan",
+      "Guanghui",
+      ""
+    ],
+    [
+      "Li",
+      "Tianjiao",
+      ""
+    ],
+    [
+      "Xu",
+      "Yangyang",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 18 Dec 2024 19:34:16 GMT"
+    }
+  ],
+  "updateDate": "2024-12-20",
+  "timestamp": 1734550456000,
+  "abstract": "  We present a novel class of projected gradient (PG) methods for minimizing a\nsmooth but not necessarily convex function over a convex compact set. We first\nprovide a novel analysis of the \"vanilla\" PG method, achieving the best-known\niteration complexity for finding an approximate stationary point of the\nproblem. We then develop an \"auto-conditioned\" projected gradient (AC-PG)\nvariant that achieves the same iteration complexity without requiring the input\nof the Lipschitz constant of the gradient or any line search procedure. The key\nidea is to estimate the Lipschitz constant using first-order information\ngathered from the previous iterations, and to show that the error caused by\nunderestimating the Lipschitz constant can be properly controlled. We then\ngeneralize the PG methods to the stochastic setting, by proposing a stochastic\nprojected gradient (SPG) method and a variance-reduced stochastic gradient\n(VR-SPG) method, achieving new complexity bounds in different oracle settings.\nWe also present auto-conditioned stepsize policies for both stochastic PG\nmethods and establish comparable convergence guarantees.\n",
+  "subjects": [
+    "Mathematics/Optimization and Control",
+    "Computer Science/Machine Learning",
+    "Statistics/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "6OQFS5LImHzQA32iexddYyBL8m6aa-g_e7N49fD1adg",
+  "pdfSize": "1327347"
+}

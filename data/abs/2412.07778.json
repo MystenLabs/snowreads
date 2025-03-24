@@ -1,0 +1,58 @@
+{
+  "id": "2412.07778",
+  "title": "MIN: Multi-channel Interaction Network for Drug-Target Interaction with\n  Protein Distillation",
+  "authors": "Shuqi Li, Shufang Xie, Hongda Sun, Yuhan Chen, Tao Qin, Tianjun Ke,\n  Rui Yan",
+  "authorsParsed": [
+    [
+      "Li",
+      "Shuqi",
+      ""
+    ],
+    [
+      "Xie",
+      "Shufang",
+      ""
+    ],
+    [
+      "Sun",
+      "Hongda",
+      ""
+    ],
+    [
+      "Chen",
+      "Yuhan",
+      ""
+    ],
+    [
+      "Qin",
+      "Tao",
+      ""
+    ],
+    [
+      "Ke",
+      "Tianjun",
+      ""
+    ],
+    [
+      "Yan",
+      "Rui",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 23 Nov 2024 05:38:36 GMT"
+    }
+  ],
+  "updateDate": "2024-12-12",
+  "timestamp": 1732340316000,
+  "abstract": "  Traditional drug discovery processes are both time-consuming and require\nextensive professional expertise. With the accumulation of drug-target\ninteraction (DTI) data from experimental studies, leveraging modern\nmachine-learning techniques to discern patterns between drugs and target\nproteins has become increasingly feasible. In this paper, we introduce the\nMulti-channel Interaction Network (MIN), a novel framework designed to predict\nDTIs through two primary components: a representation learning module and a\nmulti-channel interaction module. The representation learning module features a\nC-Score Predictor-assisted screening mechanism, which selects critical residues\nto enhance prediction accuracy and reduce noise. The multi-channel interaction\nmodule incorporates a structure-agnostic channel, a structure-aware channel,\nand an extended-mixture channel, facilitating the identification of interaction\npatterns at various levels for optimal complementarity. Additionally,\ncontrastive learning is utilized to harmonize the representations of diverse\ndata types. Our experimental evaluations on public datasets demonstrate that\nMIN surpasses other strong DTI prediction methods. Furthermore, the case study\nreveals a high overlap between the residues selected by the C-Score Predictor\nand those in actual binding pockets, underscoring MIN's explainability\ncapability. These findings affirm that MIN is not only a potent tool for DTI\nprediction but also offers fresh insights into the prediction of protein\nbinding sites.\n",
+  "subjects": [
+    "Quantitative Biology/Quantitative Methods",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "7_arUAV6IikLGfMAfzeSREp1eroodxckJQL2gHQLiGQ",
+  "pdfSize": "3697186"
+}

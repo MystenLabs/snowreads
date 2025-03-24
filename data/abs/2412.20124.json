@@ -1,0 +1,37 @@
+{
+  "id": "2412.20124",
+  "title": "Eigenvalue distribution of canonical systems: trace class and sparse\n  spectrum",
+  "authors": "Matthias Langer, Jakob Reiffenstein, Harald Woracek",
+  "authorsParsed": [
+    [
+      "Langer",
+      "Matthias",
+      ""
+    ],
+    [
+      "Reiffenstein",
+      "Jakob",
+      ""
+    ],
+    [
+      "Woracek",
+      "Harald",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 28 Dec 2024 11:52:23 GMT"
+    }
+  ],
+  "updateDate": "2024-12-31",
+  "timestamp": 1735386743000,
+  "abstract": "  In this paper we consider two-dimensional canonical systems with discrete\nspectrum and study their eigenvalue densities. We develop a formula that\ndetermines the Stieltjes transform of the eigenvalue counting function up to\nuniversal multiplicative constants. An explicit criterion is given for the\nresolvents of the model operator to belong to a Schatten-von Neumann class with\nindex 0<p<2, thus giving an answer to the long-standing question which\ncanonical systems have trace class resolvents.\n  For canonical systems with two limit circle endpoints we develop an algorithm\nfor determining the growth of the monodromy matrix up to a small error.\nMoreover, we present examples to illustrate our results, show their sharpness\nand prove an inverse result giving explicit formulae.\n",
+  "subjects": [
+    "Mathematics/Spectral Theory"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "a4yF_9ksoQtHsZTgcSfIBIHztfEMxmZKOwx65M3ZRd0",
+  "pdfSize": "764451"
+}

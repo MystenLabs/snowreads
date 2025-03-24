@@ -1,0 +1,85 @@
+{
+  "id": "2412.15050",
+  "title": "Uni-Renderer: Unifying Rendering and Inverse Rendering Via Dual Stream\n  Diffusion",
+  "authors": "Zhifei Chen, Tianshuo Xu, Wenhang Ge, Leyi Wu, Dongyu Yan, Jing He,\n  Luozhou Wang, Lu Zeng, Shunsi Zhang, Yingcong Chen, Hui Xiong",
+  "authorsParsed": [
+    [
+      "Chen",
+      "Zhifei",
+      ""
+    ],
+    [
+      "Xu",
+      "Tianshuo",
+      ""
+    ],
+    [
+      "Ge",
+      "Wenhang",
+      ""
+    ],
+    [
+      "Wu",
+      "Leyi",
+      ""
+    ],
+    [
+      "Yan",
+      "Dongyu",
+      ""
+    ],
+    [
+      "He",
+      "Jing",
+      ""
+    ],
+    [
+      "Wang",
+      "Luozhou",
+      ""
+    ],
+    [
+      "Zeng",
+      "Lu",
+      ""
+    ],
+    [
+      "Zhang",
+      "Shunsi",
+      ""
+    ],
+    [
+      "Chen",
+      "Yingcong",
+      ""
+    ],
+    [
+      "Xiong",
+      "Hui",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 19 Dec 2024 16:57:45 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Thu, 26 Dec 2024 03:57:52 GMT"
+    },
+    {
+      "version": "v3",
+      "created": "Tue, 28 Jan 2025 14:33:42 GMT"
+    }
+  ],
+  "updateDate": "2025-01-29",
+  "timestamp": 1734627465000,
+  "abstract": "  Rendering and inverse rendering are pivotal tasks in both computer vision and\ngraphics. The rendering equation is the core of the two tasks, as an ideal\nconditional distribution transfer function from intrinsic properties to RGB\nimages. Despite achieving promising results of existing rendering methods, they\nmerely approximate the ideal estimation for a specific scene and come with a\nhigh computational cost. Additionally, the inverse conditional distribution\ntransfer is intractable due to the inherent ambiguity. To address these\nchallenges, we propose a data-driven method that jointly models rendering and\ninverse rendering as two conditional generation tasks within a single diffusion\nframework. Inspired by UniDiffuser, we utilize two distinct time schedules to\nmodel both tasks, and with a tailored dual streaming module, we achieve\ncross-conditioning of two pre-trained diffusion models. This unified approach,\nnamed Uni-Renderer, allows the two processes to facilitate each other through a\ncycle-consistent constrain, mitigating ambiguity by enforcing consistency\nbetween intrinsic properties and rendered images. Combined with a meticulously\nprepared dataset, our method effectively decomposition of intrinsic properties\nand demonstrates a strong capability to recognize changes during rendering. We\nwill open-source our training and inference code to the public, fostering\nfurther research and development in this area.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "ysk1TXkzkWtpZmz3aJ1OypqPAUoEFrynnTx2wHzn91s",
+  "pdfSize": "14546575"
+}

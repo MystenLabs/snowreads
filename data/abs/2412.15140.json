@@ -1,0 +1,58 @@
+{
+  "id": "2412.15140",
+  "title": "Relaxed exception semantics for Arm-A (extended version)",
+  "authors": "Ben Simner and Alasdair Armstrong and Thomas Bauereiss and Brian\n  Campbell and Ohad Kammar and Jean Pichon-Pharabod and and Peter Sewell",
+  "authorsParsed": [
+    [
+      "Simner",
+      "Ben",
+      ""
+    ],
+    [
+      "Armstrong",
+      "Alasdair",
+      ""
+    ],
+    [
+      "Bauereiss",
+      "Thomas",
+      ""
+    ],
+    [
+      "Campbell",
+      "Brian",
+      ""
+    ],
+    [
+      "Kammar",
+      "Ohad",
+      ""
+    ],
+    [
+      "Pichon-Pharabod",
+      "Jean",
+      ""
+    ],
+    [
+      "Sewell",
+      "and Peter",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 19 Dec 2024 18:24:42 GMT"
+    }
+  ],
+  "updateDate": "2024-12-20",
+  "timestamp": 1734632682000,
+  "abstract": "  To manage exceptions, software relies on a key architectural guarantee,\nprecision: that exceptions appear to execute between instructions. However,\nthis definition, dating back over 60 years, fundamentally assumes a sequential\nprogrammers model. Modern architectures such as Arm-A with\nprogrammer-observable relaxed behaviour make such a naive definition\ninadequate, and it is unclear exactly what guarantees programmers have on\nexception entry and exit.\n  In this paper, we clarify the concepts needed to discuss exceptions in the\nrelaxed-memory setting -- a key aspect of precisely specifying the\narchitectural interface between hardware and software. We explore the basic\nrelaxed behaviour across exception boundaries, and the semantics of external\naborts, using Arm-A as a representative modern architecture. We identify an\nimportant problem, present yet unexplored for decades: pinning down what it\nmeans for exceptions to be precise in a relaxed setting. We describe key\nphenomena that any definition should account for. We develop an axiomatic model\nfor Arm-A precise exceptions, tooling for axiomatic model execution, and a\nlibrary of tests. Finally we explore the relaxed semantics of\nsoftware-generated interrupts, as used in sophisticated programming patterns,\nand sketch how they too could be modelled.\n",
+  "subjects": [
+    "Computer Science/Hardware Architecture",
+    "Computer Science/Programming Languages"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "pQEbjjUCm6rr9O_lILv0Gw8s1JMPZvFO_PT8r9yCV0U",
+  "pdfSize": "958902"
+}

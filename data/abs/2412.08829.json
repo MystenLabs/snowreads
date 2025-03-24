@@ -1,0 +1,47 @@
+{
+  "id": "2412.08829",
+  "title": "Beyond the Goldilocks Zone: Identifying Critical Features in Massive\n  Black Hole Formation",
+  "authors": "Elizabeth Mone, Brandon Pries, John Wise, and Sandrine Ferrans",
+  "authorsParsed": [
+    [
+      "Mone",
+      "Elizabeth",
+      ""
+    ],
+    [
+      "Pries",
+      "Brandon",
+      ""
+    ],
+    [
+      "Wise",
+      "John",
+      ""
+    ],
+    [
+      "Ferrans",
+      "Sandrine",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 12 Dec 2024 00:02:57 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Fri, 21 Feb 2025 20:46:07 GMT"
+    }
+  ],
+  "updateDate": "2025-02-25",
+  "timestamp": 1733961777000,
+  "abstract": "  Most galaxies, including the Milky Way, host a supermassive black hole (SMBH)\nat the center. These SMBHs can be observed out to high redshifts (z>=6) if the\naccretion rate is sufficiently large. However, we do not fully understand the\nmechanism through which these black holes form at early times. The heavy (or\ndirect collapse) seeding mechanism has emerged as a probable contender in which\nthe core of an atomic cooling halo directly collapses into a dense stellar\ncluster that could host supermassive stars that proceed to form a BH seed of\nmass ~10^5 M_sun. We use the Renaissance simulations to investigate the\nproperties of 35 DCBH candidate host halos at z=15-24 and compare them to\nnon-candidate halos. We aim to understand what features differentiate halos\ncapable of hosting a DCBH from the general halo population with the use of\nstatistical analysis and machine learning methods. We examine 18 halo, central,\nand environmental properties. We find that DCBH candidacy is more dependent on\na halo's core internal properties than on exterior factors such as Lyman-Werner\nflux and distance to closest galaxy; our analysis selects density and radial\nmass influx as the most important features (outside candidacy establishing\nfeatures). Our results concur with the recent suggestion that DCBH host halos\nneither need to lie within a \"Goldilocks zone\" nor have a significant amount of\nLyman-Werner flux to suppress cooling. This paper presents insight to the\ndynamics possibly occurring in potential DCBH host halos and seeks to provide\nguidance to DCBH subgrid formation models.\n",
+  "subjects": [
+    "Astrophysics/Astrophysics of Galaxies",
+    "Astrophysics/Cosmology and Nongalactic Astrophysics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "m21neQa_YEDuVQRiKiDPq86lLwblUslbJLcfZACjuXI",
+  "pdfSize": "925888"
+}

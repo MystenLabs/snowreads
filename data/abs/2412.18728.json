@@ -1,0 +1,32 @@
+{
+  "id": "2412.18728",
+  "title": "Explicit Spectral Analysis for Operators Representing the unitary group\n  $\\mathbb{U}(d)$ and its Lie algebra $\\mathfrak{u}(d)$ through the Metaplectic\n  Representation and Weyl Quantization",
+  "authors": "Fabi\\'an Belmonte and Giuseppe de Nittis",
+  "authorsParsed": [
+    [
+      "Belmonte",
+      "Fabián",
+      ""
+    ],
+    [
+      "de Nittis",
+      "Giuseppe",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 25 Dec 2024 01:03:54 GMT"
+    }
+  ],
+  "updateDate": "2024-12-30",
+  "timestamp": 1735088634000,
+  "abstract": "  In this article we compute and analyze the spectrum of operators defined by\nthe metaplectic representation $\\mu$ on the unitary group $\\mathbb{U}(d)$ or\noperators defined by the corresponding induced representation $d\\mu$ of the Lie\nalgebra $\\mathfrak{u}(d)$. It turns out that the point spectrum of both types\nof operators can be expressed in terms of the eigenvalues of the corresponding\nmatrices. For each $A\\in\\mathfrak{u}(d)$, it is known that the selfadjoint\noperator $H_A=-i d\\mu(A)$ has a quadratic Weyl symbol and we will give\nconditions on to guarantee that it has discrete spectrum. Under those\nconditions, using a known result in combinatorics, we show that the\nmultiplicity of the eigenvalues of $H_A$ is (up to some explicit translation\nand scalar multiplication) a quasi polynomial of degree $d-1$. Moreover, we\nshow that counting eigenvalues function behaves as an Ehrhart polynomial. Using\nthe latter result, we prove a Weyl's law for the operators $H_A$.\n",
+  "subjects": [
+    "Mathematics/Spectral Theory"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "wE90APUDSPpt3tD4NsmKx4MGaPuhfDYyPFVW8YETmh4",
+  "pdfSize": "157261"
+}

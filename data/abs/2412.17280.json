@@ -1,0 +1,29 @@
+{
+  "id": "2412.17280",
+  "title": "Coupled differential-algebraic equations framework for modeling\n  six-degree-of-freedom flight dynamics of asymmetric fixed-wing aircraft",
+  "authors": "Osama A. Marzouk",
+  "authorsParsed": [
+    [
+      "Marzouk",
+      "Osama A.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 23 Dec 2024 05:03:13 GMT"
+    }
+  ],
+  "updateDate": "2024-12-24",
+  "timestamp": 1734930193000,
+  "abstract": "  This study presents a comprehensive mathematical framework for modeling the\nflight dynamics of a six-degree-of-freedom fixed-wing aircraft as a rigid body\nwith three control surfaces: rudder, elevators, and ailerons. The framework\nconsists of 35 differential-algebraic equations (DAEs) and requires 30\nconstants to be specified. It supports both direct and inverse flight dynamics\nanalyses. In direct dynamics, the historical profiles of control inputs\n(deflection angles and engine thrust) are specified, and the resulting flight\ntrajectory is predicted. In inverse dynamics, the desired flight trajectory and\nan additional constraint are specified to determine the required control\ninputs. The framework employs wind axes for linear-momentum equations and body\naxes for angular-momentum equations, incorporates two flight path angles, and\nprovides formulas for aerodynamic force and moment coefficients. Key advantages\ninclude improved computational efficiency, elimination of Euler angle\nsingularities, and independence from symmetry assumptions with regard to the\naircraft's moments of inertia. The model also accounts for nonlinear air\ndensity variations with altitude, up to 20 km above mean sea level, making it\nsuitable for accurate and efficient flight dynamics simulations.\n",
+  "subjects": [
+    "Electrical Engineering and Systems Science/Systems and Control",
+    "Computer Science/Symbolic Computation",
+    "Computer Science/Systems and Control"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "9-T95xAg7UOVSt4A8yafshzjuYHgq8FSChdzXsg92Qw",
+  "pdfSize": "2283238"
+}

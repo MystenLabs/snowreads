@@ -1,0 +1,32 @@
+{
+  "id": "2412.07567",
+  "title": "POMDP-Based Trajectory Planning for On-Ramp Highway Merging",
+  "authors": "Adam Kollar\\v{c}\\'ik and Zden\\v{e}k Hanz\\'alek",
+  "authorsParsed": [
+    [
+      "Kollarčík",
+      "Adam",
+      ""
+    ],
+    [
+      "Hanzálek",
+      "Zdeněk",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 10 Dec 2024 14:57:35 GMT"
+    }
+  ],
+  "updateDate": "2024-12-11",
+  "timestamp": 1733842655000,
+  "abstract": "  This paper addresses the trajectory planning problem for automated vehicle\non-ramp highway merging. To tackle this challenge, we extend our previous work\non trajectory planning at unsignalized intersections using Partially Observable\nMarkov Decision Processes (POMDPs). The method utilizes the Adaptive Belief\nTree (ABT) algorithm, an approximate sampling-based approach to solve POMDPs\nefficiently. We outline the POMDP formulation process, beginning with\ndiscretizing the highway topology to reduce problem complexity. Additionally,\nwe describe the dynamics and measurement models used to predict future states\nand establish the relationship between available noisy measurements and\npredictions. Building on our previous work, the dynamics model is expanded to\naccount for lateral movements necessary for lane changes during the merging\nprocess. We also define the reward function, which serves as the primary\nmechanism for specifying the desired behavior of the automated vehicle,\ncombining multiple goals such as avoiding collisions or maintaining appropriate\nvelocity. Our simulation results, conducted on three scenarios based on\nreal-life traffic data from German highways, demonstrate the method's ability\nto generate safe, collision-free, and efficient merging trajectories. This work\nshows the versatility of this POMDP-based approach in tackling various\nautomated driving problems.\n",
+  "subjects": [
+    "Computer Science/Robotics"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "gGZsFc-FKYRWWPk6dFFn2f99LU6xtq8ao1uTkBlinWI",
+  "pdfSize": "25893878"
+}

@@ -1,0 +1,34 @@
+{
+  "id": "2412.07309",
+  "title": "Scale Separation, Strong Coupling UV Phases, and the Identification of\n  the Edge of the Conformal Window",
+  "authors": "Anja Alfano and Nick Evans",
+  "authorsParsed": [
+    [
+      "Alfano",
+      "Anja",
+      ""
+    ],
+    [
+      "Evans",
+      "Nick",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 10 Dec 2024 08:44:49 GMT"
+    }
+  ],
+  "updateDate": "2024-12-11",
+  "timestamp": 1733820289000,
+  "abstract": "  We use a simple holographic model to discuss approaching the edge of the\nconformal window in strongly coupled gauge theories to draw lessons for lattice\nstudies. Walking gauge theories have a gap between the scale where they enter\nthe strong coupling regime and the scale of chiral symmetry breaking. We\nhighlight that there can also be a gap between the scale where the critical\nvalue of the quark anti-quark operator's anomalous dimension is passed and the\nscale of the condensate. This potentially makes identifying the edge of the\nconformal window in a lattice simulation with UV bare coupling below the fixed\npoint value on a finite lattice difficult. A resolution is to study the theory\nwith a coupling above the fixed point value at the UV cut off. Here we show\nthat an ``artefact\" phase with chiral symmetry breaking triggered at the UV cut\noff exists and lies arbitrarily close to the fixed point at the edge of the\nconformal window. We quantify the chance of a misidentification of a chiral\nsymmetry breaking theory as IR conformal. We also quantify where the artefact\nphase lies, tuned to the fixed point value. We use the latest lattice results\nfor SU(3) gauge theory with ten quark flavours in [Hasenfratz:2023wbr] as a\ntest case; we conclude their identification that the theory is in the conformal\nwindow is reliable.\n",
+  "subjects": [
+    "Physics/High Energy Physics - Phenomenology",
+    "Physics/High Energy Physics - Lattice",
+    "Physics/High Energy Physics - Theory"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "elH31PlIIRUjQeh4ivXtwzOnH0PO-jM2Umm_Nc_Fq68",
+  "pdfSize": "435364"
+}

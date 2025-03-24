@@ -1,0 +1,38 @@
+{
+  "id": "2412.12786",
+  "title": "Forbidden Patterns in Mixed Linear Layouts",
+  "authors": "Deborah Haun, Laura Merker, Sergey Pupyrev",
+  "authorsParsed": [
+    [
+      "Haun",
+      "Deborah",
+      ""
+    ],
+    [
+      "Merker",
+      "Laura",
+      ""
+    ],
+    [
+      "Pupyrev",
+      "Sergey",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 17 Dec 2024 10:44:49 GMT"
+    }
+  ],
+  "updateDate": "2024-12-18",
+  "timestamp": 1734432289000,
+  "abstract": "  An ordered graph is a graph with a total order over its vertices. A linear\nlayout of an ordered graph is a partition of the edges into sets of either\nnon-crossing edges, called stacks, or non-nesting edges, called queues. The\nstack (queue) number of an ordered graph is the minimum number of required\nstacks (queues). Mixed linear layouts combine these layouts by allowing each\nset of edges to form either a stack or a queue. The minimum number of stacks\nplus queues is called the mixed page number. It is well known that ordered\ngraphs with small stack number are characterized, up to a function, by the\nabsence of large twists (that is, pairwise crossing edges). Similarly, ordered\ngraphs with small queue number are characterized by the absence of large\nrainbows (that is, pairwise nesting edges). However, no such characterization\nvia forbidden patterns is known for mixed linear layouts.\n  We address this gap by introducing patterns similar to twists and rainbows,\nwhich we call thick patterns; such patterns allow a characterization, again up\nto a function, of mixed linear layouts of bounded-degree graphs. That is, we\nshow that a family of ordered graphs with bounded maximum degree has bounded\nmixed page number if and only if the size of the largest thick pattern is\nbounded. In addition, we investigate an exact characterization of ordered\ngraphs whose mixed page number equals a fixed integer $ k $ via a finite set of\nforbidden patterns. We show that for every $ k \\ge 2 $, there is no such\ncharacterization, which supports the nature of our first result.\n",
+  "subjects": [
+    "Computer Science/Discrete Mathematics",
+    "Mathematics/Combinatorics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "eTaZctsmgmskzPFDbRwIWDt1aXTRmFv9dinvRVrTrmQ",
+  "pdfSize": "1178247"
+}

@@ -1,0 +1,39 @@
+{
+  "id": "2412.18498",
+  "title": "Dynamic Mean-Variance Asset Allocation in General Incomplete Markets A\n  Nonlocal BSDE-based Feedback Control Approach",
+  "authors": "Qian Lei and Chi Seng Pun and Jingxiang Tang",
+  "authorsParsed": [
+    [
+      "Lei",
+      "Qian",
+      ""
+    ],
+    [
+      "Pun",
+      "Chi Seng",
+      ""
+    ],
+    [
+      "Tang",
+      "Jingxiang",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 24 Dec 2024 15:30:18 GMT"
+    }
+  ],
+  "updateDate": "2024-12-25",
+  "timestamp": 1735054218000,
+  "abstract": "  This paper studies dynamic mean-variance (MV) asset allocation problems in\ngeneral incomplete markets. Besides of the conventional MV objective on\nportfolio's terminal wealth, our framework can accommodate running MV\nobjectives with general (non-exponential) discounting factors while in general,\nany time-dependent preferences. We attempt the problem with a game-theoretic\nframework while decompose the equilibrium control policies into two parts: the\nfirst part is a myopic strategy characterized by a linear Volterra integral\nequation of the second kind and the second part reveals the hedging demand\ngoverned by a system of nonlocal backward stochastic differential equations. We\nmanage to establish the well-posedness of the solutions to the two\naforementioned equations in tailored Bananch spaces by the fixed-point theorem.\nIt allows us to devise a numerical scheme for solving for the equilibrium\ncontrol policy with guarantee and to conclude that the dynamic (equilibrium)\nmean-variance policy in general settings is well-defined. Our probabilistic\napproach allows us to consider a board range of stochastic factor models, such\nas the Chan--Karolyi--Longstaff--Sanders (CKLS) model. For which, we verify all\ntechnical assumptions and provide a sound numerical scheme. Numerical examples\nare provided to illustrate our framework.\n",
+  "subjects": [
+    "Quantitative Finance/Mathematical Finance",
+    "Mathematics/Optimization and Control",
+    "Mathematics/Probability"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "8-l7yq5HEV0lIx82BOTyIGC_smIaEBmq0rDV7rSmPlE",
+  "pdfSize": "1196628"
+}

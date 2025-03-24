@@ -1,0 +1,37 @@
+{
+  "id": "2412.04022",
+  "title": "PT-Symmetry in $2\\times 2$ Matrix Polynomials Formed by Pauli Matrices",
+  "authors": "Stalin Abraham, Ameeya A.Bhagwat",
+  "authorsParsed": [
+    [
+      "Abraham",
+      "Stalin",
+      ""
+    ],
+    [
+      "Bhagwat",
+      "Ameeya A.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 5 Dec 2024 09:58:36 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Tue, 10 Dec 2024 08:40:47 GMT"
+    }
+  ],
+  "updateDate": "2024-12-11",
+  "timestamp": 1733392716000,
+  "abstract": "  $2\\times2$ matrix polynomials of the form $P_{n}(z)=\n\\Sigma^{n}_{j=0}\\,\\sigma_{j}\\,z^{j}$, for the cases $n=1,2,3$ are constructed,\nand the nature of PT-symmetry is examined across different points $z=(x,y)$ in\nthe complex plane. The PT-symmetric properties of $P_{n}(z)$ can be\ncharacterized by two functions, denoted by $s(x,y)$ and $h(x,y)$. If the trace\nof the matrix polynomial is real, then the points at which it can exhibit\nPT-symmetry are defined by the family of curves $s(x,y)=0$. Additionally, at\npoints where the function $h(x,y)\\geq 0$, the matrix polynomial exhibits\nunbroken PT-symmetry; otherwise, it exhibits broken PT-symmetry. The\nintersection points of the curves $s(x,y)=0$ and $h(x,y)=k$, for a given $k\\in\n\\mathbb{R}$, are shown to lie on an ellipse, hyperbola, two lines passing\nthrough the origin, or a straight line, depending on the nature of PT-symmetry\nof the matrix polynomial. The PT-symmetric behaviour of $P_{n}(z)$ at the zeros\nof the matrix polynomial is also studied.\n",
+  "subjects": [
+    "Physics/Mathematical Physics",
+    "Mathematics/Mathematical Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "0dq8Bzj-vZ5Ls67pVy3aXn9XDBIjqniOE-V1W0RqgB0",
+  "pdfSize": "48851824"
+}

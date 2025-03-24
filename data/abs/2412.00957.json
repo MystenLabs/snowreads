@@ -1,0 +1,37 @@
+{
+  "id": "2412.00957",
+  "title": "Frequency-Resolved Simulations of Highly Entangled Biphoton States:\n  Beyond the Single-Pair Approximation. I. Theory",
+  "authors": "Philipp Kleinpa{\\ss}, Thomas Walther and Erik Fitzke",
+  "authorsParsed": [
+    [
+      "Kleinpaß",
+      "Philipp",
+      ""
+    ],
+    [
+      "Walther",
+      "Thomas",
+      ""
+    ],
+    [
+      "Fitzke",
+      "Erik",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 1 Dec 2024 20:20:47 GMT"
+    }
+  ],
+  "updateDate": "2024-12-03",
+  "timestamp": 1733084447000,
+  "abstract": "  We discuss an expansion of the detection probabilities of biphoton states in\nterms of increasing orders of the joint spectral amplitude. The expansion\nenables efficient time- or frequency-resolved numerical simulations involving\nquantum states exhibiting a high degree of spectral entanglement. Contrary to\nusual approaches based on one- or two-pair approximations, we expand the\nexpressions in terms corresponding to the amount of correlations between\ndifferent pairs. The lowest expansion order corresponds to the limit of\ninfinitely entangled states, where different pairs are completely uncorrelated\nand the full multi-pair statistics are inferred from a single pair. We show\nthat even this limiting case always yields more accurate results than the\nsingle-pair approximation. Higher expansion orders describe deviations from the\ninfinitely entangled case and introduce correlations between the photons of\ndifferent pairs.\n",
+  "subjects": [
+    "Physics/Quantum Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "h1URICxSNo77ai5IqV-7wkY0y_VE_ZVSjvmU4j1KQ-g",
+  "pdfSize": "741407"
+}

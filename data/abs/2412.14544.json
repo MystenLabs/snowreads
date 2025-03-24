@@ -1,0 +1,42 @@
+{
+  "id": "2412.14544",
+  "title": "Quantum Homogenization as a Quantum Steady State Protocol on NISQ\n  Hardware",
+  "authors": "Alexander Yosifov, Aditya Iyer, Daniel Ebler, Vlatko Vedral",
+  "authorsParsed": [
+    [
+      "Yosifov",
+      "Alexander",
+      ""
+    ],
+    [
+      "Iyer",
+      "Aditya",
+      ""
+    ],
+    [
+      "Ebler",
+      "Daniel",
+      ""
+    ],
+    [
+      "Vedral",
+      "Vlatko",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 19 Dec 2024 05:50:54 GMT"
+    }
+  ],
+  "updateDate": "2024-12-20",
+  "timestamp": 1734587454000,
+  "abstract": "  Quantum homogenization is a reservoir-based quantum state approximation\nprotocol, which has been successfully implemented in state transformation on\nquantum hardware. In this work we move beyond that and propose the\nhomogenization as a novel platform for quantum state stabilization and\ninformation protection. Using the Heisenberg exchange interactions formalism,\nwe extend the standard quantum homogenization protocol to the\ndynamically-equivalent ($\\mathtt{SWAP}$)$^\\alpha$ formulation. We then\ndemonstrate its applicability on available noisy intermediate-scale quantum\n(NISQ) processors by presenting a shallow quantum circuit implementation\nconsisting of a sequence of $\\mathtt{CNOT}$ and single-qubit gates. In light of\nthis, we employ the Beny-Oreshkov generalization of the Knill-Laflamme (KL)\nconditions for near-optimal recovery channels to show that our proposed\n($\\mathtt{SWAP}$)$^\\alpha$ quantum homogenization protocol yields a completely\npositive, trace preserving (CPTP) map under which the code subspace is\ncorrectable. Therefore, the protocol protects quantum information contained in\na subsystem of the reservoir Hilbert space under CPTP dynamics.\n",
+  "subjects": [
+    "Physics/Quantum Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "om09SZpTUsh2x6XylffDLmayHOD3tN-lspaKISB5iC4",
+  "pdfSize": "493043"
+}

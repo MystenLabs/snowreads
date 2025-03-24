@@ -1,0 +1,48 @@
+{
+  "id": "2412.13876",
+  "title": "Numerical evaluation of two-loop QCD helicity amplitudes for $gg\\to t\n  \\bar{t} g$ at leading colour",
+  "authors": "Simon Badger, Matteo Becchetti, Colomba Brancaccio, Heribertus Bayu\n  Hartanto, Simone Zoia",
+  "authorsParsed": [
+    [
+      "Badger",
+      "Simon",
+      ""
+    ],
+    [
+      "Becchetti",
+      "Matteo",
+      ""
+    ],
+    [
+      "Brancaccio",
+      "Colomba",
+      ""
+    ],
+    [
+      "Hartanto",
+      "Heribertus Bayu",
+      ""
+    ],
+    [
+      "Zoia",
+      "Simone",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 18 Dec 2024 14:16:55 GMT"
+    }
+  ],
+  "updateDate": "2024-12-19",
+  "timestamp": 1734531415000,
+  "abstract": "  We present the first benchmark evaluation of the two-loop finite remainders\nfor the production of a top-quark pair in association with a jet at hadron\ncolliders in the gluon channel. We work in the leading colour approximation,\nand perform the numerical evaluation in the physical phase space. To achieve\nthis result, we develop a new method for expressing the master integrals in\nterms of a (over-complete) basis of special functions that enables the infrared\nand ultraviolet poles to be cancelled analytically despite the presence of\nelliptic Feynman integrals. The special function basis makes it manifest that\nthe elliptic functions appear solely in the finite remainder, and can be\nevaluated numerically through generalised series expansions. The helicity\namplitudes are constructed using four dimensional projectors combined with\nfinite-field techniques to perform integration-by-parts reduction, mapping to\nspecial functions and Laurent expansion in the dimensional regularisation\nparameter.\n",
+  "subjects": [
+    "Physics/High Energy Physics - Phenomenology",
+    "Physics/High Energy Physics - Theory"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "mn6ENcKsSXutr7OTEstbxdFMpumfcpliGNd5Vo6q--g",
+  "pdfSize": "2008606"
+}

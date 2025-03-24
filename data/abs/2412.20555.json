@@ -1,0 +1,27 @@
+{
+  "id": "2412.20555",
+  "title": "Hausman's Consistency Test and an Internal Bias Diagnostic: A Short Note\n  Regarding Linear Mixed Models",
+  "authors": "Andrew T. Karl",
+  "authorsParsed": [
+    [
+      "Karl",
+      "Andrew T.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 29 Dec 2024 19:25:29 GMT"
+    }
+  ],
+  "updateDate": "2024-12-31",
+  "timestamp": 1735500329000,
+  "abstract": "  The Hausman specification test detects inconsistency in mixed model\nestimators of fixed effects by comparing the original model with an alternative\nspecification in which random effects are treated as fixed. This note\nillustrates a bias diagnostic from the statistical literature as a complement\nto the Hausman test. The diagnostic can provide internal estimates of\nparameter-specific bias in the mixed model estimators without requiring the\nsecond, fixed-effects-only model to be fit. We apply the diagnostic to a panel\ndata analysis as well as to a Value-Added Model (VAM) for teacher evaluation.\n",
+  "subjects": [
+    "Statistics/Methodology"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "b-PdgvWcUhcAiRtHVv4oGOkMIdh06TiaN7qW9k5v2n4",
+  "pdfSize": "332431"
+}

@@ -1,0 +1,47 @@
+{
+  "id": "2412.18674",
+  "title": "Suppressing Trapped-Electron-Mode-Driven Turbulence via Optimization of\n  Three-Dimensional Shaping",
+  "authors": "J. M. Duff, B. J. Faber, C. C. Hegna, M. J. Pueschel, and P. W. Terry",
+  "authorsParsed": [
+    [
+      "Duff",
+      "J. M.",
+      ""
+    ],
+    [
+      "Faber",
+      "B. J.",
+      ""
+    ],
+    [
+      "Hegna",
+      "C. C.",
+      ""
+    ],
+    [
+      "Pueschel",
+      "M. J.",
+      ""
+    ],
+    [
+      "Terry",
+      "P. W.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 24 Dec 2024 20:21:15 GMT"
+    }
+  ],
+  "updateDate": "2024-12-30",
+  "timestamp": 1735071675000,
+  "abstract": "  Turbulent transport driven by trapped electron modes (TEMs) is believed to\ndrive significant heat and particle transport in quasihelically symmetric\nstellarators. Two three-dimensionally-shaped magnetic configurations with\nsuppressed trapped-electron-mode (TEM)-driven turbulence were generated through\noptimization that targeted quasihelical symmetry and the available energy of\ntrapped electrons. Initial equilibria have flux surface shapes with a helically\nrotating negative triangularity (NT) and positive triangularity (PT). In\ngyrokinetic simulations, TEMs are suppressed in the reduced-TEM NT and PT\nconfigurations, showing that negative triangularity does not have the same\nbeneficial turbulence properties over positive triangularity as seen in\ntokamaks. Heat fluxes from TEMs are also suppressed. Without temperature\ngradients and with a strong density gradient, the most unstable modes at low\n$k_y$ were consistent with toroidal universal instabilities (UIs) in the NT\ncase and slab UIs in the PT case. Nonlinear simulations show that UIs drive\nsubstantial heat flux in both the NT and PT configurations. A moderate increase\nin $\\beta$ halves the heat flux in the NT configuration, while suppressing the\nheat flux in the PT geometry. Based on the present work, future optimizations\naimed at reducing electrostatic drift wave-driven turbulent transport will need\nto consider UIs if $\\beta$ is sufficiently small.\n",
+  "subjects": [
+    "Physics/Plasma Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "SbqI1JRBkJHx7LLZTVpdLL4lTRtzKlmEKVTWoaMVvFY",
+  "pdfSize": "15361965"
+}

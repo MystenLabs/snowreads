@@ -1,0 +1,33 @@
+{
+  "id": "2412.05651",
+  "title": "Error Feedback Approach for Quantization Noise Reduction of Distributed\n  Graph Filters",
+  "authors": "Xue Xian Zheng and Tareq Al-Naffouri",
+  "authorsParsed": [
+    [
+      "Zheng",
+      "Xue Xian",
+      ""
+    ],
+    [
+      "Al-Naffouri",
+      "Tareq",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 7 Dec 2024 13:36:22 GMT"
+    }
+  ],
+  "updateDate": "2024-12-10",
+  "timestamp": 1733578582000,
+  "abstract": "  This work introduces an error feedback approach for reducing quantization\nnoise of distributed graph filters. It comes from error spectrum shaping\ntechniques from state-space digital filters, and therefore establishes\nconnections between quantized filtering processes over different domains.\nQuantization noise expression incorporating error feedback for finite impulse\nresponse (FIR) and autoregressive moving average (ARMA) graph filters are both\nderived with regard to time-invariant and time-varying graph topologies.\nTheoretical analysis is provided, and closed-form error weight coefficients are\nfound. Numerical experiments demonstrate the effectiveness of the proposed\nmethod in noise reduction for the graph filters regardless of the deterministic\nand random graph topologies.\n",
+  "subjects": [
+    "Electrical Engineering and Systems Science/Systems and Control",
+    "Computer Science/Systems and Control"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "8pBEdZ4bWkwaVu9wf0V4T4PKKiSqa-Se_m6KMFsSdp0",
+  "pdfSize": "565484"
+}

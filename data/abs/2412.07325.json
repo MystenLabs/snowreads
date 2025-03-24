@@ -1,0 +1,36 @@
+{
+  "id": "2412.07325",
+  "title": "G\\\"odel's Program in Set Theory",
+  "authors": "Sandra M\\\"uller and Grigor Sargsyan",
+  "authorsParsed": [
+    [
+      "Müller",
+      "Sandra",
+      ""
+    ],
+    [
+      "Sargsyan",
+      "Grigor",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 10 Dec 2024 09:13:44 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Thu, 12 Dec 2024 09:15:06 GMT"
+    }
+  ],
+  "updateDate": "2024-12-13",
+  "timestamp": 1733822024000,
+  "abstract": "  G\\\"odel proved in the 1930s in his famous Incompleteness Theorems that not\nall statements in mathematics can be proven or disproven from the accepted ZFC\naxioms. A few years later he showed the celebrated result that Cantor's\nContinuum Hypothesis is consistent. Afterwards, G\\\"odel raised the question\nwhether, despite the fact that there is no reasonable axiomatic framework for\nall mathematical statements, natural statements, such as Cantor's Continuum\nHypothesis, can be decided via extending ZFC by large cardinal axioms. While\nthis question has been answered negatively, the problem of finding good axioms\nthat decide natural mathematical statements remains open. There is a compelling\ncandidate for an axiom that could solve G\\\"odel's problem: V = Ultimate-L. In\naddition, due to recent results the Sealing scenario has gained a lot of\nattention. We describe these candidates as well as their impact and\nrelationship.\n",
+  "subjects": [
+    "Mathematics/Logic"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "1XteYi94d3preyVRuo2oK2JoJk96hSATEuTTo1QLuSk",
+  "pdfSize": "291061"
+}

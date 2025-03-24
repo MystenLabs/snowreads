@@ -1,0 +1,42 @@
+{
+  "id": "2412.03266",
+  "title": "The strong vertex span of trees",
+  "authors": "Mateja Gra\\v{s}i\\v{c}, Chris Mouron, Andrej Taranenko",
+  "authorsParsed": [
+    [
+      "Grašič",
+      "Mateja",
+      ""
+    ],
+    [
+      "Mouron",
+      "Chris",
+      ""
+    ],
+    [
+      "Taranenko",
+      "Andrej",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 4 Dec 2024 12:16:21 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Mon, 9 Dec 2024 20:22:02 GMT"
+    }
+  ],
+  "updateDate": "2024-12-11",
+  "timestamp": 1733314581000,
+  "abstract": "  The strong vertex (edge) span of a given graph $G$ is the maximum distance\nthat two players can maintain at all times while visiting all vertices (edges)\nof $G$ and moving either to an adjacent vertex or staying in the current\nposition independently of each other. We introduce the notions of switching\nwalks and triod size of a tree, which are used to determine the strong vertex\nand the strong edge span of an arbitrary tree. The obtained results are used in\nan algorithm that computes the strong vertex (edge) span of the input tree in\nlinear time.\n",
+  "subjects": [
+    "Mathematics/Combinatorics",
+    "Computer Science/Discrete Mathematics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "4Z1MiDHBCtbHBpC9vRpBIWF-kGnScIhLWnmdAkfH9Tw",
+  "pdfSize": "219510"
+}

@@ -1,0 +1,83 @@
+{
+  "id": "2412.06438",
+  "title": "Can foundation models actively gather information in interactive\n  environments to test hypotheses?",
+  "authors": "Nan Rosemary Ke, Danny P. Sawyer, Hubert Soyer, Martin Engelcke, David\n  P Reichert, Drew A. Hudson, John Reid, Alexander Lerchner, Danilo Jimenez\n  Rezende, Timothy P Lillicrap, Michael Mozer, Jane X Wang",
+  "authorsParsed": [
+    [
+      "Ke",
+      "Nan Rosemary",
+      ""
+    ],
+    [
+      "Sawyer",
+      "Danny P.",
+      ""
+    ],
+    [
+      "Soyer",
+      "Hubert",
+      ""
+    ],
+    [
+      "Engelcke",
+      "Martin",
+      ""
+    ],
+    [
+      "Reichert",
+      "David P",
+      ""
+    ],
+    [
+      "Hudson",
+      "Drew A.",
+      ""
+    ],
+    [
+      "Reid",
+      "John",
+      ""
+    ],
+    [
+      "Lerchner",
+      "Alexander",
+      ""
+    ],
+    [
+      "Rezende",
+      "Danilo Jimenez",
+      ""
+    ],
+    [
+      "Lillicrap",
+      "Timothy P",
+      ""
+    ],
+    [
+      "Mozer",
+      "Michael",
+      ""
+    ],
+    [
+      "Wang",
+      "Jane X",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 9 Dec 2024 12:27:21 GMT"
+    }
+  ],
+  "updateDate": "2024-12-10",
+  "timestamp": 1733747241000,
+  "abstract": "  While problem solving is a standard evaluation task for foundation models, a\ncrucial component of problem solving -- actively and strategically gathering\ninformation to test hypotheses -- has not been closely investigated. To assess\nthe information gathering abilities of foundation models in interactive\nenvironments, we introduce a framework in which a model must determine the\nfactors influencing a hidden reward function by iteratively reasoning about its\npreviously gathered information and proposing its next exploratory action to\nmaximize information gain at each step. We implement this framework in both a\ntext-based environment, which offers a tightly controlled setting and enables\nhigh-throughput parameter sweeps, and in an embodied 3D environment, which\nrequires addressing complexities of multi-modal interaction more relevant to\nreal-world applications. We further investigate whether approaches such as\nself-correction and increased inference time improve information gathering\nefficiency. In a relatively simple task that requires identifying a single\nrewarding feature, we find that LLM's information gathering capability is close\nto optimal. However, when the model must identify a conjunction of rewarding\nfeatures, performance is suboptimal. The hit in performance is due partly to\nthe model translating task description to a policy and partly to the model's\neffectiveness in using its in-context memory. Performance is comparable in both\ntext and 3D embodied environments, although imperfect visual object recognition\nreduces its accuracy in drawing conclusions from gathered information in the 3D\nembodied case. For single-feature-based rewards, we find that smaller models\ncuriously perform better; for conjunction-based rewards, incorporating self\ncorrection into the model improves performance.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Statistics/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "E5QYGfIG0X8NNK2wAwvBUOhSe1x2H0qkn99wdCFpGrk",
+  "pdfSize": "5158653"
+}

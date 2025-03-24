@@ -1,0 +1,39 @@
+{
+  "id": "2412.18533",
+  "title": "A Time Optimization Framework for the Implementation of Robust and\n  Low-latency Quantum Circuits",
+  "authors": "Eduardo Willwock Lussi and Rafael de Santiago and Eduardo Inacio\n  Duzzioni",
+  "authorsParsed": [
+    [
+      "Lussi",
+      "Eduardo Willwock",
+      ""
+    ],
+    [
+      "de Santiago",
+      "Rafael",
+      ""
+    ],
+    [
+      "Duzzioni",
+      "Eduardo Inacio",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 24 Dec 2024 16:26:05 GMT"
+    }
+  ],
+  "updateDate": "2024-12-25",
+  "timestamp": 1735057565000,
+  "abstract": "  Quantum computing has garnered attention for its potential to solve complex\ncomputational problems with considerable speedup. Despite notable advancements\nin the field, achieving meaningful scalability and noise control in quantum\nhardware remains challenging. Incoherent errors caused by decoherence restrict\nthe total computation time, making it very short. While hardware advancements\ncontinue to progress, quantum software specialists seek to minimize quantum\ncircuit latency to mitigate dissipation. However, at the pulse level, fast\nquantum gates often lead to leakage, leaving minimal room for further\noptimization. Recent advancements have shown the effectiveness of quantum\ncontrol techniques in generating quantum gates robust to coherent error\nsources. Nevertheless, these techniques come with a trade-off -- extended gate\ndurations. In this paper, we introduce an alternative pulse scheduling approach\nthat enables the use of both fast and robust quantum gates within the same\nquantum circuit. The time-optimization framework models the quantum circuit as\na dependency graph, implements the fastest quantum gates on the critical path,\nand uses idle periods outside the critical path to optimally implement longer,\nmore robust gates from the gate set, without increasing latency. Experiments\nconducted on IBMQ Brisbane show that this approach improves the absolute\nsuccess probability of quantum circuit execution by more than 25%, with\nperformance gains scaling as the number of qubits increases.\n",
+  "subjects": [
+    "Physics/Quantum Physics",
+    "Computer Science/Systems and Control",
+    "Electrical Engineering and Systems Science/Systems and Control"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "hdTay4ZRskXGBHGcFEuOVlu41mkL3IzxAfFMeBL4CwA",
+  "pdfSize": "1003263"
+}

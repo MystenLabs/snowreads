@@ -1,0 +1,58 @@
+{
+  "id": "2412.15224",
+  "title": "Multi-Branch Mutual-Distillation Transformer for EEG-Based Seizure\n  Subtype Classification",
+  "authors": "Ruimin Peng, Zhenbang Du, Changming Zhao, Jingwei Luo, Wenzhong Liu,\n  Xinxing Chen, Dongrui Wu",
+  "authorsParsed": [
+    [
+      "Peng",
+      "Ruimin",
+      ""
+    ],
+    [
+      "Du",
+      "Zhenbang",
+      ""
+    ],
+    [
+      "Zhao",
+      "Changming",
+      ""
+    ],
+    [
+      "Luo",
+      "Jingwei",
+      ""
+    ],
+    [
+      "Liu",
+      "Wenzhong",
+      ""
+    ],
+    [
+      "Chen",
+      "Xinxing",
+      ""
+    ],
+    [
+      "Wu",
+      "Dongrui",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 4 Dec 2024 11:31:23 GMT"
+    }
+  ],
+  "updateDate": "2024-12-23",
+  "timestamp": 1733311883000,
+  "abstract": "  Cross-subject electroencephalogram (EEG) based seizure subtype classification\nis very important in precise epilepsy diagnostics. Deep learning is a promising\nsolution, due to its ability to automatically extract latent patterns. However,\nit usually requires a large amount of training data, which may not always be\navailable in clinical practice. This paper proposes Multi-Branch\nMutual-Distillation (MBMD) Transformer for cross-subject EEG-based seizure\nsubtype classification, which can be effectively trained from small labeled\ndata. MBMD Transformer replaces all even-numbered encoder blocks of the vanilla\nVision Transformer by our designed multi-branch encoder blocks. A\nmutual-distillation strategy is proposed to transfer knowledge between the raw\nEEG data and its wavelets of different frequency bands. Experiments on two\npublic EEG datasets demonstrated that our proposed MBMD Transformer\noutperformed several traditional machine learning and state-of-the-art deep\nlearning approaches. To our knowledge, this is the first work on knowledge\ndistillation for EEG-based seizure subtype classification.\n",
+  "subjects": [
+    "Electrical Engineering and Systems Science/Signal Processing",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "u_3abSLsU70S6khY9yhdbjhtFXW5AroIOYyyczhtS6s",
+  "pdfSize": "1782933"
+}

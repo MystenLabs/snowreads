@@ -1,0 +1,32 @@
+{
+  "id": "2412.13733",
+  "title": "Hierarchical proximal Galerkin: a fast $hp$-FEM solver for variational\n  problems with pointwise inequality constraints",
+  "authors": "Ioannis P. A. Papadopoulos",
+  "authorsParsed": [
+    [
+      "Papadopoulos",
+      "Ioannis P. A.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 18 Dec 2024 11:11:13 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Mon, 27 Jan 2025 20:00:43 GMT"
+    }
+  ],
+  "updateDate": "2025-01-29",
+  "timestamp": 1734520273000,
+  "abstract": "  We leverage the proximal Galerkin algorithm (Keith and Surowiec, Foundations\nof Computational Mathematics, 2024, DOI: 10.1007/s10208-024-09681-8), a\nrecently introduced mesh-independent algorithm, to obtain a high-order finite\nelement solver for variational problems with pointwise inequality constraints.\nThis is achieved by discretizing the saddle point systems, arising from the\nlatent variable proximal point method, with the hierarchical $p$-finite element\nbasis. This results in discretized sparse Newton systems that admit a simple\nand effective block preconditioner. The solver can handle both obstacle-type,\n$u \\leq \\varphi$, and gradient-type, $|\\nabla u| \\leq \\varphi$, constraints. We\napply the resulting algorithm to solve obstacle problems with $hp$-adaptivity,\na gradient-type constrained problem, and the thermoforming problem, an example\nof an obstacle-type quasi-variational inequality. We observe $hp$-robustness in\nthe number of Newton iterations and only mild growth in the number of inner\nKrylov iterations to solve the Newton systems. Crucially we also provide\nwall-clock timings that are faster than low-order discretization counterparts.\n",
+  "subjects": [
+    "Mathematics/Numerical Analysis",
+    "Computer Science/Numerical Analysis"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "byQYtDeJVWEQELp0587zrzlzYwszQM0sNe6nsWM6w_4",
+  "pdfSize": "49935274"
+}

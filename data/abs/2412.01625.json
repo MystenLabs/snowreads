@@ -1,0 +1,27 @@
+{
+  "id": "2412.01625",
+  "title": "Aubry Set of Eikonal Hamilton-Jacobi Equations on Networks",
+  "authors": "Marco Pozza",
+  "authorsParsed": [
+    [
+      "Pozza",
+      "Marco",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 2 Dec 2024 15:43:54 GMT"
+    }
+  ],
+  "updateDate": "2024-12-03",
+  "timestamp": 1733154234000,
+  "abstract": "  We extend the study of eikonal Hamilton-Jacobi equations posed on networks\nperformed by Siconolfi and Sorrentino (Anal. PDE, 2018) to a more general\nsetting. Their approach essentially exploits that such equations correspond to\ndiscrete problems on an abstract underlying graph. However, a specific\ncondition they assume can be rather restricting in some settings, which\nmotivates the generalization we propose. We still get an Aubry set, which plays\nthe role of a uniqueness set for our problem and appears in the representation\nof solutions. Exploiting it we establish a new comparison principle between\nsuper and subsolutions to the equation.\n",
+  "subjects": [
+    "Mathematics/Analysis of PDEs"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "7Ymr0uo6ZF2aLITDgrfHQ09C1LSueMXv0mqR8KxxnG0",
+  "pdfSize": "615725"
+}

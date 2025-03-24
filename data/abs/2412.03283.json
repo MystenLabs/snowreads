@@ -1,0 +1,49 @@
+{
+  "id": "2412.03283",
+  "title": "Black-Box Forgery Attacks on Semantic Watermarks for Diffusion Models",
+  "authors": "Andreas M\\\"uller and Denis Lukovnikov and Jonas Thietke and Asja\n  Fischer and Erwin Quiring",
+  "authorsParsed": [
+    [
+      "Müller",
+      "Andreas",
+      ""
+    ],
+    [
+      "Lukovnikov",
+      "Denis",
+      ""
+    ],
+    [
+      "Thietke",
+      "Jonas",
+      ""
+    ],
+    [
+      "Fischer",
+      "Asja",
+      ""
+    ],
+    [
+      "Quiring",
+      "Erwin",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 4 Dec 2024 12:57:17 GMT"
+    }
+  ],
+  "updateDate": "2024-12-05",
+  "timestamp": 1733317037000,
+  "abstract": "  Integrating watermarking into the generation process of latent diffusion\nmodels (LDMs) simplifies detection and attribution of generated content.\nSemantic watermarks, such as Tree-Rings and Gaussian Shading, represent a novel\nclass of watermarking techniques that are easy to implement and highly robust\nagainst various perturbations. However, our work demonstrates a fundamental\nsecurity vulnerability of semantic watermarks. We show that attackers can\nleverage unrelated models, even with different latent spaces and architectures\n(UNet vs DiT), to perform powerful and realistic forgery attacks. Specifically,\nwe design two watermark forgery attacks. The first imprints a targeted\nwatermark into real images by manipulating the latent representation of an\narbitrary image in an unrelated LDM to get closer to the latent representation\nof a watermarked image. We also show that this technique can be used for\nwatermark removal. The second attack generates new images with the target\nwatermark by inverting a watermarked image and re-generating it with an\narbitrary prompt. Both attacks just need a single reference image with the\ntarget watermark. Overall, our findings question the applicability of semantic\nwatermarks by revealing that attackers can easily forge or remove these\nwatermarks under realistic conditions.\n",
+  "subjects": [
+    "Computer Science/Cryptography and Security",
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "dck_aMJAQ-NHewLzWVyxSkeJph4cqmxmFxgFT8eBWXc",
+  "pdfSize": "26187242"
+}

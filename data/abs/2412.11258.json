@@ -1,0 +1,79 @@
+{
+  "id": "2412.11258",
+  "title": "GaussianProperty: Integrating Physical Properties to 3D Gaussians with\n  LMMs",
+  "authors": "Xinli Xu, Wenhang Ge, Dicong Qiu, ZhiFei Chen, Dongyu Yan, Zhuoyun\n  Liu, Haoyu Zhao, Hanfeng Zhao, Shunsi Zhang, Junwei Liang, Ying-Cong Chen",
+  "authorsParsed": [
+    [
+      "Xu",
+      "Xinli",
+      ""
+    ],
+    [
+      "Ge",
+      "Wenhang",
+      ""
+    ],
+    [
+      "Qiu",
+      "Dicong",
+      ""
+    ],
+    [
+      "Chen",
+      "ZhiFei",
+      ""
+    ],
+    [
+      "Yan",
+      "Dongyu",
+      ""
+    ],
+    [
+      "Liu",
+      "Zhuoyun",
+      ""
+    ],
+    [
+      "Zhao",
+      "Haoyu",
+      ""
+    ],
+    [
+      "Zhao",
+      "Hanfeng",
+      ""
+    ],
+    [
+      "Zhang",
+      "Shunsi",
+      ""
+    ],
+    [
+      "Liang",
+      "Junwei",
+      ""
+    ],
+    [
+      "Chen",
+      "Ying-Cong",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 15 Dec 2024 17:44:10 GMT"
+    }
+  ],
+  "updateDate": "2024-12-17",
+  "timestamp": 1734284650000,
+  "abstract": "  Estimating physical properties for visual data is a crucial task in computer\nvision, graphics, and robotics, underpinning applications such as augmented\nreality, physical simulation, and robotic grasping. However, this area remains\nunder-explored due to the inherent ambiguities in physical property estimation.\nTo address these challenges, we introduce GaussianProperty, a training-free\nframework that assigns physical properties of materials to 3D Gaussians.\nSpecifically, we integrate the segmentation capability of SAM with the\nrecognition capability of GPT-4V(ision) to formulate a global-local physical\nproperty reasoning module for 2D images. Then we project the physical\nproperties from multi-view 2D images to 3D Gaussians using a voting strategy.\nWe demonstrate that 3D Gaussians with physical property annotations enable\napplications in physics-based dynamic simulation and robotic grasping. For\nphysics-based dynamic simulation, we leverage the Material Point Method (MPM)\nfor realistic dynamic simulation. For robot grasping, we develop a grasping\nforce prediction strategy that estimates a safe force range required for object\ngrasping based on the estimated physical properties. Extensive experiments on\nmaterial segmentation, physics-based dynamic simulation, and robotic grasping\nvalidate the effectiveness of our proposed method, highlighting its crucial\nrole in understanding physical properties from visual data. Online demo, code,\nmore cases and annotated datasets are available on\n\\href{https://Gaussian-Property.github.io}{this https URL}.\n",
+  "subjects": [
+    "Computer Science/Robotics",
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "BlDM0JGZ4_d3cqSf8Db2w1fPiUSK3Q49oFzBuGeQYW8",
+  "pdfSize": "37218786"
+}

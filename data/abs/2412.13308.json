@@ -1,0 +1,39 @@
+{
+  "id": "2412.13308",
+  "title": "Generalized Scattering Matrix Formulation and its Relationship with TARC\n  and Maximum Power Transfer Theorem",
+  "authors": "Majid Manteghi",
+  "authorsParsed": [
+    [
+      "Manteghi",
+      "Majid",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 17 Dec 2024 20:19:09 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Thu, 19 Dec 2024 03:33:31 GMT"
+    },
+    {
+      "version": "v3",
+      "created": "Fri, 20 Dec 2024 15:55:05 GMT"
+    },
+    {
+      "version": "v4",
+      "created": "Thu, 13 Feb 2025 01:02:15 GMT"
+    }
+  ],
+  "updateDate": "2025-02-14",
+  "timestamp": 1734466749000,
+  "abstract": "  In this paper, we present a rigorous framework for analyzing arbitrary\npassive matching networks using a generalized Thevenin-Helmholtz equivalent\ncircuit. Unlike prior formulations, which often impose restrictive assumptions\nsuch as diagonal matching impedance matrices, our approach accommodates fully\npassive and interconnected multiport matching networks in their most general\nform. We first establish the mathematical conditions that any Linear Time\nInvarient, LTI, passive matching network must satisfy, starting from a $N\n\\times N$ impedance matrix and continuing to $2N \\times 2N$ and modified to\nfollow the Thevenin-Helmholtz equivalent network. Using the Maximum Power\nTransfer Theorem (MPTT), we derive the scattering matrix $\\mathbf{S}$\nexplicitly, showing its general applicability to arbitrary impedance\nconfigurations. Furthermore, we demonstrate the connection between the Total\nActive Reflection Coefficient (TARC) and the MPTT, proving that the TARC is\ninherently tied to the power conservation principle of the MPTT. This\nformulation not only unifies existing approaches, but also broadens the scope\nof applicability to encompass arbitrary physical passive systems. The equations\nand relationships derived provide a robust mathematical foundation for\nanalyzing complex multiport systems, including interconnected phased arrays and\npassive antenna networks.\n",
+  "subjects": [
+    "Physics/Applied Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "FgGsmuQihoKSh0_ql78TqwU6uREs4EQvpgEsLPgkX5I",
+  "pdfSize": "301275"
+}

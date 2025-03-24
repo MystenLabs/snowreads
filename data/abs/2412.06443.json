@@ -1,0 +1,27 @@
+{
+  "id": "2412.06443",
+  "title": "Description of fixed points of an infinite dimensional operator",
+  "authors": "Olimov Umrbek",
+  "authorsParsed": [
+    [
+      "Umrbek",
+      "Olimov",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 9 Dec 2024 12:37:08 GMT"
+    }
+  ],
+  "updateDate": "2024-12-10",
+  "timestamp": 1733747828000,
+  "abstract": "  We consider an infinite-dimensional non-linear operator related to a hard\ncore (HC) model with a countable set $\\mathbb{N}$ of spin values. It is known\nthat finding the fixed points of an infinite-dimensional operator is generally\nimpossible. But we have fully analyzed the fixed points of an\ninfinite-dimensional operator by applying a technique of reducing an\ninfinite-dimensional operator to a two-dimensional operator. The set of\nparameters is divided into subsets $A_{i,j},$ where the index $i$ means the\nnumber of fixed points on the line $y=x$, $j$ means the number of fixed points\noutside of $y=x.$ The number of fixed points can be up to seven, and the\nexplicit form of each fixed point is found.\n",
+  "subjects": [
+    "Mathematics/Dynamical Systems"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "9SYWnZoJAyogeqXiKjKXbnpgfb3HxU7uWQBxicgfEmo",
+  "pdfSize": "442530"
+}

@@ -1,0 +1,59 @@
+{
+  "id": "2412.06451",
+  "title": "How Certain are Uncertainty Estimates? Three Novel Earth Observation\n  Datasets for Benchmarking Uncertainty Quantification in Machine Learning",
+  "authors": "Yuanyuan Wang, Qian Song, Dawood Wasif, Muhammad Shahzad, Christoph\n  Koller, Jonathan Bamber, and Xiao Xiang Zhu",
+  "authorsParsed": [
+    [
+      "Wang",
+      "Yuanyuan",
+      ""
+    ],
+    [
+      "Song",
+      "Qian",
+      ""
+    ],
+    [
+      "Wasif",
+      "Dawood",
+      ""
+    ],
+    [
+      "Shahzad",
+      "Muhammad",
+      ""
+    ],
+    [
+      "Koller",
+      "Christoph",
+      ""
+    ],
+    [
+      "Bamber",
+      "Jonathan",
+      ""
+    ],
+    [
+      "Zhu",
+      "Xiao Xiang",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 9 Dec 2024 12:50:27 GMT"
+    }
+  ],
+  "updateDate": "2024-12-10",
+  "timestamp": 1733748627000,
+  "abstract": "  Uncertainty quantification (UQ) is essential for assessing the reliability of\nEarth observation (EO) products. However, the extensive use of machine learning\nmodels in EO introduces an additional layer of complexity, as those models\nthemselves are inherently uncertain. While various UQ methods do exist for\nmachine learning models, their performance on EO datasets remains largely\nunevaluated. A key challenge in the community is the absence of the ground\ntruth for uncertainty, i.e. how certain the uncertainty estimates are, apart\nfrom the labels for the image/signal. This article fills this gap by\nintroducing three benchmark datasets specifically designed for UQ in EO machine\nlearning models. These datasets address three common problem types in EO:\nregression, image segmentation, and scene classification. They enable a\ntransparent comparison of different UQ methods for EO machine learning models.\nWe describe the creation and characteristics of each dataset, including data\nsources, preprocessing steps, and label generation, with a particular focus on\ncalculating the reference uncertainty. We also showcase baseline performance of\nseveral machine learning models on each dataset, highlighting the utility of\nthese benchmarks for model development and comparison. Overall, this article\noffers a valuable resource for researchers and practitioners working in\nartificial intelligence for EO, promoting a more accurate and reliable quality\nmeasure of the outputs of machine learning models. The dataset and code are\naccessible via https://gitlab.lrz.de/ai4eo/WG_Uncertainty.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Computer Science/Artificial Intelligence",
+    "Electrical Engineering and Systems Science/Image and Video Processing"
+  ],
+  "license": "http://creativecommons.org/licenses/by-sa/4.0/",
+  "blobId": "-ePb7zGok9WfClRauB0geqFV_NilyT8qhf9wyngbE4I",
+  "pdfSize": "3612412"
+}

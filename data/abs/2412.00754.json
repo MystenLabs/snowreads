@@ -1,0 +1,33 @@
+{
+  "id": "2412.00754",
+  "title": "CtrlNeRF: The Generative Neural Radiation Fields for the Controllable\n  Synthesis of High-fidelity 3D-Aware Images",
+  "authors": "Jian Liu and Zhen Yu",
+  "authorsParsed": [
+    [
+      "Liu",
+      "Jian",
+      ""
+    ],
+    [
+      "Yu",
+      "Zhen",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 1 Dec 2024 10:19:24 GMT"
+    }
+  ],
+  "updateDate": "2024-12-03",
+  "timestamp": 1733048364000,
+  "abstract": "  The neural radiance field (NERF) advocates learning the continuous\nrepresentation of 3D geometry through a multilayer perceptron (MLP). By\nintegrating this into a generative model, the generative neural radiance field\n(GRAF) is capable of producing images from random noise z without 3D\nsupervision. In practice, the shape and appearance are modeled by z_s and z_a,\nrespectively, to manipulate them separately during inference. However, it is\nchallenging to represent multiple scenes using a solitary MLP and precisely\ncontrol the generation of 3D geometry in terms of shape and appearance. In this\npaper, we introduce a controllable generative model (i.e. \\textbf{CtrlNeRF})\nthat uses a single MLP network to represent multiple scenes with shared\nweights. Consequently, we manipulated the shape and appearance codes to realize\nthe controllable generation of high-fidelity images with 3D consistency.\nMoreover, the model enables the synthesis of novel views that do not exist in\nthe training sets via camera pose alteration and feature interpolation.\nExtensive experiments were conducted to demonstrate its superiority in 3D-aware\nimage generation compared to its counterparts.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "5OK0QlxbNLBqOtCoTCNk2KI708zXmv17PY5ukrr_8iA",
+  "pdfSize": "5895421"
+}

@@ -1,0 +1,53 @@
+{
+  "id": "2412.19649",
+  "title": "Distributed Download from an External Data Source in Faulty Majority\n  Settings",
+  "authors": "John Augustine, Soumyottam Chatterjee, Valerie King, Manish Kumar,\n  Shachar Meir, David Peleg",
+  "authorsParsed": [
+    [
+      "Augustine",
+      "John",
+      ""
+    ],
+    [
+      "Chatterjee",
+      "Soumyottam",
+      ""
+    ],
+    [
+      "King",
+      "Valerie",
+      ""
+    ],
+    [
+      "Kumar",
+      "Manish",
+      ""
+    ],
+    [
+      "Meir",
+      "Shachar",
+      ""
+    ],
+    [
+      "Peleg",
+      "David",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 27 Dec 2024 13:55:00 GMT"
+    }
+  ],
+  "updateDate": "2024-12-30",
+  "timestamp": 1735307700000,
+  "abstract": "  We extend the study of retrieval problems in distributed networks, focusing\non improving the efficiency and resilience of protocols in the \\emph{Data\nRetrieval (DR) Model}. The DR Model consists of a complete network (i.e., a\nclique) with $k$ peers, up to $\\beta k$ of which may be Byzantine (for $\\beta\n\\in [0, 1)$), and a trusted \\emph{External Data Source} comprising an array $X$\nof $n$ bits ($n \\gg k$) that the peers can query. Additionally, the peers can\nalso send messages to each other. In this work, we focus on the Download\nproblem that requires all peers to learn $X$. Our primary goal is to minimize\nthe maximum number of queries made by any honest peer and additionally optimize\ntime.\n  We begin with a randomized algorithm for the Download problem that achieves\noptimal query complexity up to a logarithmic factor. For the stronger dynamic\nadversary that can change the set of Byzantine peers from one round to the\nnext, we achieve the optimal time complexity in peer-to-peer communication but\nwith larger messages. In broadcast communication where all peers (including\nByzantine peers) are required to send the same message to all peers, with\nlarger messages, we achieve almost optimal time and query complexities for a\ndynamic adversary. Finally, in a more relaxed crash fault model, where peers\nstop responding after crashing, we address the Download problem in both\nsynchronous and asynchronous settings. Using a deterministic protocol, we\nobtain nearly optimal results for both query complexity and message sizes in\nthese scenarios.\n",
+  "subjects": [
+    "Computer Science/Distributed, Parallel, and Cluster Computing",
+    "Computer Science/Data Structures and Algorithms"
+  ],
+  "license": "http://creativecommons.org/licenses/by-sa/4.0/",
+  "blobId": "LExX65dG3vEvlDgg4Jxc-npe1HIrOfeVTs9jpf5SW8M",
+  "pdfSize": "404777"
+}

@@ -1,0 +1,52 @@
+{
+  "id": "2412.09513",
+  "title": "Agent-based Video Trimming",
+  "authors": "Lingfeng Yang, Zhenyuan Chen, Xiang Li, Peiyang Jia, Liangqu Long,\n  Jian Yang",
+  "authorsParsed": [
+    [
+      "Yang",
+      "Lingfeng",
+      ""
+    ],
+    [
+      "Chen",
+      "Zhenyuan",
+      ""
+    ],
+    [
+      "Li",
+      "Xiang",
+      ""
+    ],
+    [
+      "Jia",
+      "Peiyang",
+      ""
+    ],
+    [
+      "Long",
+      "Liangqu",
+      ""
+    ],
+    [
+      "Yang",
+      "Jian",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 12 Dec 2024 17:59:28 GMT"
+    }
+  ],
+  "updateDate": "2024-12-13",
+  "timestamp": 1734026368000,
+  "abstract": "  As information becomes more accessible, user-generated videos are increasing\nin length, placing a burden on viewers to sift through vast content for\nvaluable insights. This trend underscores the need for an algorithm to extract\nkey video information efficiently. Despite significant advancements in\nhighlight detection, moment retrieval, and video summarization, current\napproaches primarily focus on selecting specific time intervals, often\noverlooking the relevance between segments and the potential for segment\narranging. In this paper, we introduce a novel task called Video Trimming (VT),\nwhich focuses on detecting wasted footage, selecting valuable segments, and\ncomposing them into a final video with a coherent story. To address this task,\nwe propose Agent-based Video Trimming (AVT), structured into three phases:\nVideo Structuring, Clip Filtering, and Story Composition. Specifically, we\nemploy a Video Captioning Agent to convert video slices into structured textual\ndescriptions, a Filtering Module to dynamically discard low-quality footage\nbased on the structured information of each clip, and a Video Arrangement Agent\nto select and compile valid clips into a coherent final narrative. For\nevaluation, we develop a Video Evaluation Agent to assess trimmed videos,\nconducting assessments in parallel with human evaluations. Additionally, we\ncurate a new benchmark dataset for video trimming using raw user videos from\nthe internet. As a result, AVT received more favorable evaluations in user\nstudies and demonstrated superior mAP and precision on the YouTube Highlights,\nTVSum, and our own dataset for the highlight detection task. The code and\nmodels are available at https://ylingfeng.github.io/AVT.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "80Soe0nb9Z0W5-ku_bQEFqHJjZ0gUp6SbpGOynguC2U",
+  "pdfSize": "23242764"
+}

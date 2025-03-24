@@ -1,0 +1,44 @@
+{
+  "id": "2412.18390",
+  "title": "RDPM: Solve Diffusion Probabilistic Models via Recurrent Token\n  Prediction",
+  "authors": "Xiaoping Wu and Jie Hu and Xiaoming Wei",
+  "authorsParsed": [
+    [
+      "Wu",
+      "Xiaoping",
+      ""
+    ],
+    [
+      "Hu",
+      "Jie",
+      ""
+    ],
+    [
+      "Wei",
+      "Xiaoming",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 24 Dec 2024 12:28:19 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Wed, 25 Dec 2024 12:12:10 GMT"
+    }
+  ],
+  "updateDate": "2024-12-30",
+  "timestamp": 1735043299000,
+  "abstract": "  Diffusion Probabilistic Models (DPMs) have emerged as the de facto approach\nfor high-fidelity image synthesis, operating diffusion processes on continuous\nVAE latent, which significantly differ from the text generation methods\nemployed by Large Language Models (LLMs). In this paper, we introduce a novel\ngenerative framework, the Recurrent Diffusion Probabilistic Model (RDPM), which\nenhances the diffusion process through a recurrent token prediction mechanism,\nthereby pioneering the field of Discrete Diffusion. By progressively\nintroducing Gaussian noise into the latent representations of images and\nencoding them into vector-quantized tokens in a recurrent manner, RDPM\nfacilitates a unique diffusion process on discrete-value domains. This process\niteratively predicts the token codes for subsequent timesteps, transforming the\ninitial standard Gaussian noise into the source data distribution, aligning\nwith GPT-style models in terms of the loss function. RDPM demonstrates superior\nperformance while benefiting from the speed advantage of requiring only a few\ninference steps. This model not only leverages the diffusion process to ensure\nhigh-quality generation but also converts continuous signals into a series of\nhigh-fidelity discrete tokens, thereby maintaining a unified optimization\nstrategy with other discrete tokens, such as text. We anticipate that this work\nwill contribute to the development of a unified model for multimodal\ngeneration, specifically by integrating continuous signal domains such as\nimages, videos, and audio with text. We will release the code and model weights\nto the open-source community.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Machine Learning",
+    "Computer Science/Multimedia"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "hQy395SJtTuLKVN8-fleEs8o1KgmGqWpMTmPs8vDc2c",
+  "pdfSize": "4357641"
+}

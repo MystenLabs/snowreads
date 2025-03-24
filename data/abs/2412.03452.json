@@ -1,0 +1,47 @@
+{
+  "id": "2412.03452",
+  "title": "Sifting through the haystack -- efficiently finding rare animal\n  behaviors in large-scale datasets",
+  "authors": "Shir Bar, Or Hirschorn, Roi Holzman and Shai Avidan",
+  "authorsParsed": [
+    [
+      "Bar",
+      "Shir",
+      ""
+    ],
+    [
+      "Hirschorn",
+      "Or",
+      ""
+    ],
+    [
+      "Holzman",
+      "Roi",
+      ""
+    ],
+    [
+      "Avidan",
+      "Shai",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 4 Dec 2024 16:38:52 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Thu, 5 Dec 2024 20:11:25 GMT"
+    }
+  ],
+  "updateDate": "2024-12-09",
+  "timestamp": 1733330332000,
+  "abstract": "  In the study of animal behavior, researchers often record long continuous\nvideos, accumulating into large-scale datasets. However, the behaviors of\ninterest are often rare compared to routine behaviors. This incurs a heavy cost\non manual annotation, forcing users to sift through many samples before finding\ntheir needles. We propose a pipeline to efficiently sample rare behaviors from\nlarge datasets, enabling the creation of training datasets for rare behavior\nclassifiers. Our method only needs an unlabeled animal pose or acceleration\ndataset as input and makes no assumptions regarding the type, number, or\ncharacteristics of the rare behaviors.\n  Our pipeline is based on a recent graph-based anomaly detection model for\nhuman behavior, which we apply to this new data domain. It leverages anomaly\nscores to automatically label normal samples while directing human annotation\nefforts toward anomalies. In research data, anomalies may come from many\ndifferent sources (e.g., signal noise versus true rare instances). Hence, the\nentire labeling budget is focused on the abnormal classes, letting the user\nreview and label samples according to their needs.\n  We tested our approach on three datasets of freely-moving animals, acquired\nin the laboratory and the field. We found that graph-based models are\nparticularly useful when studying motion-based behaviors in animals, yielding\ngood results while using a small labeling budget. Our method consistently\noutperformed traditional random sampling, offering an average improvement of\n70% in performance and creating datasets even when the behavior of interest was\nonly 0.02% of the data. Even when the performance gain was minor (e.g., when\nthe behavior is not rare), our method still reduced the annotation effort by\nhalf.\n",
+  "subjects": [
+    "Quantitative Biology/Quantitative Methods",
+    "Electrical Engineering and Systems Science/Image and Video Processing"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "VizZSXXtvvMfKebdtc00eywy0-4VsAFgwUG1vX2BQ1A",
+  "pdfSize": "2403902"
+}

@@ -1,0 +1,98 @@
+{
+  "id": "2412.18077",
+  "title": "Optimizing In Vivo Data Acquisition for Robust Clinical Microvascular\n  Imaging Using Ultrasound Localization Microscopy",
+  "authors": "Chengwu Huang, U-Wai Lok, Jingke Zhang, Xiang Yang Zhu, James D.\n  Krier, Amy Stern, Kate M. Knoll, Kendra E. Petersen, Kathryn A. Robinson,\n  Gina K. Hesley, Andrew J. Bentall, Thomas D. Atwell, Andrew D. Rule, Lilach\n  O. Lerman, Shigao Chen",
+  "authorsParsed": [
+    [
+      "Huang",
+      "Chengwu",
+      ""
+    ],
+    [
+      "Lok",
+      "U-Wai",
+      ""
+    ],
+    [
+      "Zhang",
+      "Jingke",
+      ""
+    ],
+    [
+      "Zhu",
+      "Xiang Yang",
+      ""
+    ],
+    [
+      "Krier",
+      "James D.",
+      ""
+    ],
+    [
+      "Stern",
+      "Amy",
+      ""
+    ],
+    [
+      "Knoll",
+      "Kate M.",
+      ""
+    ],
+    [
+      "Petersen",
+      "Kendra E.",
+      ""
+    ],
+    [
+      "Robinson",
+      "Kathryn A.",
+      ""
+    ],
+    [
+      "Hesley",
+      "Gina K.",
+      ""
+    ],
+    [
+      "Bentall",
+      "Andrew J.",
+      ""
+    ],
+    [
+      "Atwell",
+      "Thomas D.",
+      ""
+    ],
+    [
+      "Rule",
+      "Andrew D.",
+      ""
+    ],
+    [
+      "Lerman",
+      "Lilach O.",
+      ""
+    ],
+    [
+      "Chen",
+      "Shigao",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 24 Dec 2024 01:14:51 GMT"
+    }
+  ],
+  "updateDate": "2024-12-25",
+  "timestamp": 1735002891000,
+  "abstract": "  Ultrasound localization microscopy (ULM) enables microvascular imaging at\nspatial resolutions beyond the acoustic diffraction limit, offering significant\nclinical potentials. However, ULM performance relies heavily on microbubble\n(MB) signal sparsity, the number of detected MBs, and signal-to-noise ratio\n(SNR), all of which vary in clinical scenarios involving bolus MB injections.\nThese sources of variations underscore the need to optimize MB dosage, data\nacquisition timing, and imaging settings in order to standardize and optimize\nULM of microvasculature. This pilot study investigated temporal changes in MB\nsignals during bolus injections in both pig and human models to optimize data\nacquisition for clinical ULM. Quantitative indices were developed to evaluate\nMB signal quality, guiding selection of acquisition timing that balances the MB\nlocalization quality and adequate MB counts. The effects of transmitted voltage\nand dosage were also explored. In the pig model, a relatively short window\n(approximately 10 seconds) for optimal acquisition was identified during the\nrapid wash-out phase, highlighting the need for real-time MB signal monitoring\nduring data acquisition. The slower wash-out phase in humans allowed for a more\nflexible imaging window of 1-2 minutes, while trade-offs were observed between\nlocalization quality and MB density (or acquisition length) at different\nwash-out phase timings. Guided by these findings, robust ULM imaging was\nachieved in both pig and human kidneys using a short period of data\nacquisition, demonstrating its feasibility in clinical practice. This study\nprovides insights into optimizing data acquisition for consistent and\nreproducible ULM, paving the way for its standardization and broader clinical\napplications.\n",
+  "subjects": [
+    "Physics/Medical Physics",
+    "Electrical Engineering and Systems Science/Image and Video Processing"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "7bDQYq_2jkJtp6GNhdzudkohWL89A4ivmXI8NYSIX0A",
+  "pdfSize": "3830355"
+}

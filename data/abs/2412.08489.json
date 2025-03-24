@@ -1,0 +1,38 @@
+{
+  "id": "2412.08489",
+  "title": "A Dual-Module Denoising Approach with Curriculum Learning for Enhancing\n  Multimodal Aspect-Based Sentiment Analysis",
+  "authors": "Nguyen Van Doan, Dat Tran Nguyen, Cam-Van Thi Nguyen",
+  "authorsParsed": [
+    [
+      "Van Doan",
+      "Nguyen",
+      ""
+    ],
+    [
+      "Nguyen",
+      "Dat Tran",
+      ""
+    ],
+    [
+      "Nguyen",
+      "Cam-Van Thi",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 11 Dec 2024 15:53:13 GMT"
+    }
+  ],
+  "updateDate": "2024-12-12",
+  "timestamp": 1733932393000,
+  "abstract": "  Multimodal Aspect-Based Sentiment Analysis (MABSA) combines text and images\nto perform sentiment analysis but often struggles with irrelevant or misleading\nvisual information. Existing methodologies typically address either\nsentence-image denoising or aspect-image denoising but fail to comprehensively\ntackle both types of noise. To address these limitations, we propose DualDe, a\nnovel approach comprising two distinct components: the Hybrid Curriculum\nDenoising Module (HCD) and the Aspect-Enhance Denoising Module (AED). The HCD\nmodule enhances sentence-image denoising by incorporating a flexible curriculum\nlearning strategy that prioritizes training on clean data. Concurrently, the\nAED module mitigates aspect-image noise through an aspect-guided attention\nmechanism that filters out noisy visual regions which unrelated to the specific\naspects of interest. Our approach demonstrates effectiveness in addressing both\nsentence-image and aspect-image noise, as evidenced by experimental evaluations\non benchmark datasets.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Multimedia"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "9-nrZERwFRI3EoYYMoQC_PY44nAvKtzmAm_4_dkqvXc",
+  "pdfSize": "1145840"
+}

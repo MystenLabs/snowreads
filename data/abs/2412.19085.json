@@ -1,0 +1,52 @@
+{
+  "id": "2412.19085",
+  "title": "Assessing Pre-trained Models for Transfer Learning through Distribution\n  of Spectral Components",
+  "authors": "Tengxue Zhang, Yang Shu, Xinyang Chen, Yifei Long, Chenjuan Guo, Bin\n  Yang",
+  "authorsParsed": [
+    [
+      "Zhang",
+      "Tengxue",
+      ""
+    ],
+    [
+      "Shu",
+      "Yang",
+      ""
+    ],
+    [
+      "Chen",
+      "Xinyang",
+      ""
+    ],
+    [
+      "Long",
+      "Yifei",
+      ""
+    ],
+    [
+      "Guo",
+      "Chenjuan",
+      ""
+    ],
+    [
+      "Yang",
+      "Bin",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 26 Dec 2024 06:54:22 GMT"
+    }
+  ],
+  "updateDate": "2024-12-30",
+  "timestamp": 1735196062000,
+  "abstract": "  Pre-trained model assessment for transfer learning aims to identify the\noptimal candidate for the downstream tasks from a model hub, without the need\nof time-consuming fine-tuning. Existing advanced works mainly focus on\nanalyzing the intrinsic characteristics of the entire features extracted by\neach pre-trained model or how well such features fit the target labels. This\npaper proposes a novel perspective for pre-trained model assessment through the\nDistribution of Spectral Components (DISCO). Through singular value\ndecomposition of features extracted from pre-trained models, we investigate\ndifferent spectral components and observe that they possess distinct\ntransferability, contributing diversely to the fine-tuning performance.\nInspired by this, we propose an assessment method based on the distribution of\nspectral components which measures the proportions of their corresponding\nsingular values. Pre-trained models with features concentrating on more\ntransferable components are regarded as better choices for transfer learning.\nWe further leverage the labels of downstream data to better estimate the\ntransferability of each spectral component and derive the final assessment\ncriterion. Our proposed method is flexible and can be applied to both\nclassification and regression tasks. We conducted comprehensive experiments\nacross three benchmarks and two tasks including image classification and object\ndetection, demonstrating that our method achieves state-of-the-art performance\nin choosing proper pre-trained models from the model hub for transfer learning.\n",
+  "subjects": [
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "A8uy57g6toIQpH4Zkvu24PQ8NWtwfA7oY0aaVT66kTI",
+  "pdfSize": "990644"
+}

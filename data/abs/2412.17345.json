@@ -1,0 +1,38 @@
+{
+  "id": "2412.17345",
+  "title": "On the Power and Limitations of Examples for Description Logic Concepts",
+  "authors": "Balder ten Cate and Raoul Koudijs and Ana Ozaki",
+  "authorsParsed": [
+    [
+      "Cate",
+      "Balder ten",
+      ""
+    ],
+    [
+      "Koudijs",
+      "Raoul",
+      ""
+    ],
+    [
+      "Ozaki",
+      "Ana",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 23 Dec 2024 07:17:58 GMT"
+    }
+  ],
+  "updateDate": "2024-12-24",
+  "timestamp": 1734938278000,
+  "abstract": "  Labeled examples (i.e., positive and negative examples) are an attractive\nmedium for communicating complex concepts. They are useful for deriving concept\nexpressions (such as in concept learning, interactive concept specification,\nand concept refinement) as well as for illustrating concept expressions to a\nuser or domain expert. We investigate the power of labeled examples for\ndescribing description-logic concepts. Specifically, we systematically study\nthe existence and efficient computability of finite characterisations, i.e.\nfinite sets of labeled examples that uniquely characterize a single concept,\nfor a wide variety of description logics between EL and ALCQI, both without an\nontology and in the presence of a DL-Lite ontology. Finite characterisations\nare relevant for debugging purposes, and their existence is a necessary\ncondition for exact learnability with membership queries.\n",
+  "subjects": [
+    "Computer Science/Logic in Computer Science",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "hDAdE4g7GvnHBoKvUvSh_ePeDs63iaIwxMLRXZfTQ_A",
+  "pdfSize": "670326"
+}

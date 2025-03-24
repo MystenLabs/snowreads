@@ -1,0 +1,42 @@
+{
+  "id": "2412.13503",
+  "title": "VaeDiff-DocRE: End-to-end Data Augmentation Framework for Document-level\n  Relation Extraction",
+  "authors": "Khai Phan Tran, Wen Hua, Xue Li",
+  "authorsParsed": [
+    [
+      "Tran",
+      "Khai Phan",
+      ""
+    ],
+    [
+      "Hua",
+      "Wen",
+      ""
+    ],
+    [
+      "Li",
+      "Xue",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 18 Dec 2024 04:55:29 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Mon, 13 Jan 2025 10:43:11 GMT"
+    }
+  ],
+  "updateDate": "2025-01-14",
+  "timestamp": 1734497729000,
+  "abstract": "  Document-level Relation Extraction (DocRE) aims to identify relationships\nbetween entity pairs within a document. However, most existing methods assume a\nuniform label distribution, resulting in suboptimal performance on real-world,\nimbalanced datasets. To tackle this challenge, we propose a novel data\naugmentation approach using generative models to enhance data from the\nembedding space. Our method leverages the Variational Autoencoder (VAE)\narchitecture to capture all relation-wise distributions formed by entity pair\nrepresentations and augment data for underrepresented relations. To better\ncapture the multi-label nature of DocRE, we parameterize the VAE's latent space\nwith a Diffusion Model. Additionally, we introduce a hierarchical training\nframework to integrate the proposed VAE-based augmentation module into DocRE\nsystems. Experiments on two benchmark datasets demonstrate that our method\noutperforms state-of-the-art models, effectively addressing the long-tail\ndistribution problem in DocRE.\n",
+  "subjects": [
+    "Computer Science/Computation and Language",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "_v9RxbKpoDYJRWo8njdN334Cm_Of9bMW3mWl8Gc8cyc",
+  "pdfSize": "2210258"
+}

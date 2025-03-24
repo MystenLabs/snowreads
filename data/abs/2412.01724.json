@@ -1,0 +1,51 @@
+{
+  "id": "2412.01724",
+  "title": "Spectrally accurate reverse-mode differentiable bounce-averaging\n  operator and its applications",
+  "authors": "Kaya E. Unalmis, Rahul Gaur, Rory Conlin, Dario Panici, and Egemen\n  Kolemen",
+  "authorsParsed": [
+    [
+      "Unalmis",
+      "Kaya E.",
+      ""
+    ],
+    [
+      "Gaur",
+      "Rahul",
+      ""
+    ],
+    [
+      "Conlin",
+      "Rory",
+      ""
+    ],
+    [
+      "Panici",
+      "Dario",
+      ""
+    ],
+    [
+      "Kolemen",
+      "Egemen",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 2 Dec 2024 17:13:46 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Tue, 25 Feb 2025 12:19:03 GMT"
+    }
+  ],
+  "updateDate": "2025-02-26",
+  "timestamp": 1733159626000,
+  "abstract": "  We present a spectrally accurate, automatically differentiable\nbounce-averaging operator implemented in the DESC stellarator optimization\nsuite. Using this operator, we can perform efficient optimization of many\nobjectives to improve stellarator performance, such as the\n$\\epsilon_{\\mathrm{eff}}^{3/2}$ proxy for the neoclassical transport\ncoefficient in the $1/\\nu$ regime. By employing this differentiable\napproximation, for the first time, we directly optimize a finite-$\\beta$\nstellarator to reduce neoclassical transport using reverse-mode\ndifferentiation, ensuring that the computational cost of determining the\ngradients is independent of the number of input parameters.\n",
+  "subjects": [
+    "Physics/Plasma Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "mEkf5OnTdiPInSPtUqr8yOqRdS6ZzI_u4dXwo9VMmHk",
+  "pdfSize": "7597116"
+}

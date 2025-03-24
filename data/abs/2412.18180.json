@@ -1,0 +1,37 @@
+{
+  "id": "2412.18180",
+  "title": "PCM Selector: Penalized Covariate-Mediator Selection Operator for\n  Evaluating Linear Causal Effects",
+  "authors": "Hisayoshi Nanmo, Manabu Kuroki",
+  "authorsParsed": [
+    [
+      "Nanmo",
+      "Hisayoshi",
+      ""
+    ],
+    [
+      "Kuroki",
+      "Manabu",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 24 Dec 2024 05:34:05 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Fri, 24 Jan 2025 14:29:24 GMT"
+    }
+  ],
+  "updateDate": "2025-01-27",
+  "timestamp": 1735018445000,
+  "abstract": "  For a data-generating process for random variables that can be described with\na linear structural equation model, we consider a situation in which (i) a set\nof covariates satisfying the back-door criterion cannot be observed or (ii)\nsuch a set can be observed, but standard statistical estimation methods cannot\nbe applied to estimate causal effects because of\nmulticollinearity/high-dimensional data problems. We propose a novel two-stage\npenalized regression approach, the penalized covariate-mediator selection\noperator (PCM Selector), to estimate the causal effects in such scenarios.\nUnlike existing penalized regression analyses, when a set of intermediate\nvariables is available, PCM Selector provides a consistent or less biased\nestimator of the causal effect. In addition, PCM Selector provides a variable\nselection procedure for intermediate variables to obtain better estimation\naccuracy of the causal effects than does the back-door criterion.\n",
+  "subjects": [
+    "Statistics/Methodology",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "xbw8awWGtWq5yiBf8iYQB5mPqrhox02O7SbPsP-7Gno",
+  "pdfSize": "5674255"
+}

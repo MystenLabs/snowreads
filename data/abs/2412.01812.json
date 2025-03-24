@@ -1,0 +1,97 @@
+{
+  "id": "2412.01812",
+  "title": "V2XPnP: Vehicle-to-Everything Spatio-Temporal Fusion for Multi-Agent\n  Perception and Prediction",
+  "authors": "Zewei Zhou, Hao Xiang, Zhaoliang Zheng, Seth Z. Zhao, Mingyue Lei, Yun\n  Zhang, Tianhui Cai, Xinyi Liu, Johnson Liu, Maheswari Bajji, Jacob Pham, Xin\n  Xia, Zhiyu Huang, Bolei Zhou, Jiaqi Ma",
+  "authorsParsed": [
+    [
+      "Zhou",
+      "Zewei",
+      ""
+    ],
+    [
+      "Xiang",
+      "Hao",
+      ""
+    ],
+    [
+      "Zheng",
+      "Zhaoliang",
+      ""
+    ],
+    [
+      "Zhao",
+      "Seth Z.",
+      ""
+    ],
+    [
+      "Lei",
+      "Mingyue",
+      ""
+    ],
+    [
+      "Zhang",
+      "Yun",
+      ""
+    ],
+    [
+      "Cai",
+      "Tianhui",
+      ""
+    ],
+    [
+      "Liu",
+      "Xinyi",
+      ""
+    ],
+    [
+      "Liu",
+      "Johnson",
+      ""
+    ],
+    [
+      "Bajji",
+      "Maheswari",
+      ""
+    ],
+    [
+      "Pham",
+      "Jacob",
+      ""
+    ],
+    [
+      "Xia",
+      "Xin",
+      ""
+    ],
+    [
+      "Huang",
+      "Zhiyu",
+      ""
+    ],
+    [
+      "Zhou",
+      "Bolei",
+      ""
+    ],
+    [
+      "Ma",
+      "Jiaqi",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 2 Dec 2024 18:55:34 GMT"
+    }
+  ],
+  "updateDate": "2024-12-03",
+  "timestamp": 1733165734000,
+  "abstract": "  Vehicle-to-everything (V2X) technologies offer a promising paradigm to\nmitigate the limitations of constrained observability in single-vehicle\nsystems. Prior work primarily focuses on single-frame cooperative perception,\nwhich fuses agents' information across different spatial locations but ignores\ntemporal cues and temporal tasks (e.g., temporal perception and prediction). In\nthis paper, we focus on temporal perception and prediction tasks in V2X\nscenarios and design one-step and multi-step communication strategies (when to\ntransmit) as well as examine their integration with three fusion strategies -\nearly, late, and intermediate (what to transmit), providing comprehensive\nbenchmarks with various fusion models (how to fuse). Furthermore, we propose\nV2XPnP, a novel intermediate fusion framework within one-step communication for\nend-to-end perception and prediction. Our framework employs a unified\nTransformer-based architecture to effectively model complex spatiotemporal\nrelationships across temporal per-frame, spatial per-agent, and high-definition\nmap. Moreover, we introduce the V2XPnP Sequential Dataset that supports all V2X\ncooperation modes and addresses the limitations of existing real-world\ndatasets, which are restricted to single-frame or single-mode cooperation.\nExtensive experiments demonstrate our framework outperforms state-of-the-art\nmethods in both perception and prediction tasks.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "YlI4Im8pzpswru7UJitfcAIyDMkS50qex436uQKwDY0",
+  "pdfSize": "15695904"
+}

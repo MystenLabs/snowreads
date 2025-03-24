@@ -1,0 +1,27 @@
+{
+  "id": "2412.03273",
+  "title": "Quantum Modules of Semipositive Toric Varieties",
+  "authors": "Jae Hwang Lee",
+  "authorsParsed": [
+    [
+      "Lee",
+      "Jae Hwang",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 4 Dec 2024 12:32:48 GMT"
+    }
+  ],
+  "updateDate": "2024-12-05",
+  "timestamp": 1733315568000,
+  "abstract": "  A smooth projective toric variety $X=X_\\Sigma$ has a geometric quotient\ndescription $V /\\!/ T$. Using $2|1$-pointed quasimap invariants, one can define\na quantum $H^*(T)$-module $QM(X)$, which deforms a natural module structure\ngiven by the Kirwan map $H^*(T) \\rightarrow H^*(X)$. The Batyrev ring of $X$,\ndefined from combinatorial data of the fan $\\Sigma$, has its natural module\nstructure given by the quotient of a polynomial ring, say BatM$(X)$. In this\npaper, we prove that $QM(X)$ and BatM$(X)$ are naturally isomorphic when $X$ is\nsemipositive.\n",
+  "subjects": [
+    "Mathematics/Algebraic Geometry"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "QHSphanswDkBEJaSjizGfqQEFp_Kwif_pwGyj9BGWjw",
+  "pdfSize": "506429"
+}

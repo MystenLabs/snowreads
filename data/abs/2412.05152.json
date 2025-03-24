@@ -1,0 +1,58 @@
+{
+  "id": "2412.05152",
+  "title": "Navigating Shortcuts, Spurious Correlations, and Confounders: From\n  Origins via Detection to Mitigation",
+  "authors": "David Steinmann, Felix Divo, Maurice Kraus, Antonia W\\\"ust, Lukas\n  Struppek, Felix Friedrich, Kristian Kersting",
+  "authorsParsed": [
+    [
+      "Steinmann",
+      "David",
+      ""
+    ],
+    [
+      "Divo",
+      "Felix",
+      ""
+    ],
+    [
+      "Kraus",
+      "Maurice",
+      ""
+    ],
+    [
+      "Wüst",
+      "Antonia",
+      ""
+    ],
+    [
+      "Struppek",
+      "Lukas",
+      ""
+    ],
+    [
+      "Friedrich",
+      "Felix",
+      ""
+    ],
+    [
+      "Kersting",
+      "Kristian",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 6 Dec 2024 16:10:13 GMT"
+    }
+  ],
+  "updateDate": "2024-12-09",
+  "timestamp": 1733501413000,
+  "abstract": "  Shortcuts, also described as Clever Hans behavior, spurious correlations, or\nconfounders, present a significant challenge in machine learning and AI,\ncritically affecting model generalization and robustness. Research in this\narea, however, remains fragmented across various terminologies, hindering the\nprogress of the field as a whole. Consequently, we introduce a unifying\ntaxonomy of shortcut learning by providing a formal definition of shortcuts and\nbridging the diverse terms used in the literature. In doing so, we further\nestablish important connections between shortcuts and related fields, including\nbias, causality, and security, where parallels exist but are rarely discussed.\nOur taxonomy organizes existing approaches for shortcut detection and\nmitigation, providing a comprehensive overview of the current state of the\nfield and revealing underexplored areas and open challenges. Moreover, we\ncompile and classify datasets tailored to study shortcut learning. Altogether,\nthis work provides a holistic perspective to deepen understanding and drive the\ndevelopment of more effective strategies for addressing shortcuts in machine\nlearning.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "DbJCBgoQV2egXbBEIXfpmI8kGU-uz8ZbW5GYqnvR1gk",
+  "pdfSize": "32285596"
+}

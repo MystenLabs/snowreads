@@ -1,0 +1,37 @@
+{
+  "id": "2412.12047",
+  "title": "A 22-Year Cycle of the Network Topology for Solar Active Regions",
+  "authors": "Eduardo Fl\\'andez, Alejandro Zamorano, V\\'ictor Mu\\~noz",
+  "authorsParsed": [
+    [
+      "Flández",
+      "Eduardo",
+      ""
+    ],
+    [
+      "Zamorano",
+      "Alejandro",
+      ""
+    ],
+    [
+      "Muñoz",
+      "Víctor",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 16 Dec 2024 18:17:02 GMT"
+    }
+  ],
+  "updateDate": "2024-12-17",
+  "timestamp": 1734373022000,
+  "abstract": "  In this paper, solar cycles 21 to 24 were compared using complex network\nanalysis. A network was constructed for these four solar cycles to facilitate\nthe comparison. In these networks, the nodes represent the active regions of\nthe Sun that emit flares, and the connections correspond to the sequence of\nsolar flares over time. This resulted in a directed network with\nself-connections allowed. The model proposed by Abe and Suzuki for earthquake\nnetworks was followed. The incoming degree for each node was calculated, and\nthe degree distribution was analyzed. It was found that for each solar cycle,\nthe degree distribution follows a power law, indicating that solar flares tend\nto appear in correlated active zones rather than being evenly distributed.\nAdditionally, a variation in the characteristic exponent {\\gamma} for each\ncycle was observed, with higher values in even cycles compared to odd cycles. A\nmore detailed analysis was performed by constructing 11-year networks and\nshifting them in one-year intervals. This revealed that the characteristic\nexponent shows a period of approximately 22 years coincident with the Hale\ncycle, suggesting that the complex networks provide information about the solar\nmagnetic activity.\n",
+  "subjects": [
+    "Astrophysics/Solar and Stellar Astrophysics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "5u7QRIOHYRKzYp4BwSPW_FUQ3CKyjpDkjDbjEZGBWmQ",
+  "pdfSize": "5415996"
+}

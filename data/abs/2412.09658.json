@@ -1,0 +1,46 @@
+{
+  "id": "2412.09658",
+  "title": "SEGT: A General Spatial Expansion Group Transformer for nuScenes\n  Lidar-based Object Detection Task",
+  "authors": "Cheng Mei and Hao He and Yahui Liu and Zhenhua Guo",
+  "authorsParsed": [
+    [
+      "Mei",
+      "Cheng",
+      ""
+    ],
+    [
+      "He",
+      "Hao",
+      ""
+    ],
+    [
+      "Liu",
+      "Yahui",
+      ""
+    ],
+    [
+      "Guo",
+      "Zhenhua",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 12 Dec 2024 08:23:07 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Tue, 21 Jan 2025 03:43:41 GMT"
+    }
+  ],
+  "updateDate": "2025-01-22",
+  "timestamp": 1733991787000,
+  "abstract": "  In the technical report, we present a novel transformer-based framework for\nnuScenes lidar-based object detection task, termed Spatial Expansion Group\nTransformer (SEGT). To efficiently handle the irregular and sparse nature of\npoint cloud, we propose migrating the voxels into distinct specialized ordered\nfields with the general spatial expansion strategies, and employ group\nattention mechanisms to extract the exclusive feature maps within each field.\nSubsequently, we integrate the feature representations across different ordered\nfields by alternately applying diverse expansion strategies, thereby enhancing\nthe model's ability to capture comprehensive spatial information. The method\nwas evaluated on the nuScenes lidar-based object detection test dataset,\nachieving an NDS score of 73.9 without Test-Time Augmentation (TTA) and 74.5\nwith TTA, demonstrating the effectiveness of the proposed method. Notably, our\nmethod ranks the 1st place in the nuScenes lidar-based object detection task.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "kNojuZKe41vRpaXDWNTcfZ4pWwNYbfP1WCxW5LhMxbo",
+  "pdfSize": "102669"
+}

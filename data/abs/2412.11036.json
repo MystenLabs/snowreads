@@ -1,0 +1,57 @@
+{
+  "id": "2412.11036",
+  "title": "Stochastic Approximation and Brownian Repulsion based Evolutionary\n  Search",
+  "authors": "Rajdeep Dutta, T Venkatesh Varma, Saikat Sarkar, Mariya Mamajiwala,\n  Noor Awad, Senthilnath Jayavelu, Debasish Roy",
+  "authorsParsed": [
+    [
+      "Dutta",
+      "Rajdeep",
+      ""
+    ],
+    [
+      "Varma",
+      "T Venkatesh",
+      ""
+    ],
+    [
+      "Sarkar",
+      "Saikat",
+      ""
+    ],
+    [
+      "Mamajiwala",
+      "Mariya",
+      ""
+    ],
+    [
+      "Awad",
+      "Noor",
+      ""
+    ],
+    [
+      "Jayavelu",
+      "Senthilnath",
+      ""
+    ],
+    [
+      "Roy",
+      "Debasish",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 15 Dec 2024 03:28:13 GMT"
+    }
+  ],
+  "updateDate": "2024-12-17",
+  "timestamp": 1734233293000,
+  "abstract": "  Many global optimization algorithms of the memetic variety rely on some form\nof stochastic search, and yet they often lack a sound probabilistic basis.\nWithout a recourse to the powerful tools of stochastic calculus, treading the\nfine balance between exploration and exploitation could be tricky. In this\nwork, we propose an evolutionary algorithm (EA) comprising two types of\nadditive updates. The primary update utilizes stochastic approximation to guide\na population of randomly initialized particles towards an optimum. We\nincorporate derivative-free Robbins-Monro type gains in the first update so as\nto provide a directional guidance to the candidate solutions. The secondary\nupdate leverages stochastic conditioning to apply random perturbations for a\ncontrolled yet efficient exploration. Specifically, conceptualized on a change\nof measures, the perturbation strategy discourages two or more trajectories\nexploring the same region of the search space. Our optimization algorithm,\ndubbed as SABRES (Stochastic Approximation and Brownian Repulsion based\nEvolutionary Search), is applied to CEC-2022 benchmark functions on global\noptimization. Numerical results are indicative of the potentialities of SABRES\nin solving a variety of challenging multi-modal, non-separable, and\nasymmetrical benchmark functions.\n",
+  "subjects": [
+    "Mathematics/Optimization and Control"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "oSfyCbV3_1tID--lN2i39ZIicHW-m8qnMaRaht_gQgo",
+  "pdfSize": "805822"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2412.04054",
+  "title": "Optimal demand response policies for inertial thermal loads under\n  stochastic renewable sources",
+  "authors": "Gaurav Sharma, P R Kumar",
+  "authorsParsed": [
+    [
+      "Sharma",
+      "Gaurav",
+      ""
+    ],
+    [
+      "Kumar",
+      "P R",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 5 Dec 2024 10:44:47 GMT"
+    }
+  ],
+  "updateDate": "2024-12-06",
+  "timestamp": 1733395487000,
+  "abstract": "  In this paper, we consider the problem of preferentially utilizing\nintermittent renewable power, such as wind, optimally to support thermal\ninertial loads in a microgrid environment. Thermal inertial loads can be\nprogrammed to preferentially consume from renewable sources. The flexibility in\npower consumption of inertial loads therefore can be used to absorb the\nfluctuations in intermittently available renewable power sources, and promote\nreduction of fossil fuel based costly non-renewable generation. Under a model\nwhich promotes renewable consumption by penalizing the non-renewable, but does\nnot account for variations in the end-user requirements, the optimal solution\nleads to all the users' temperatures behave in a lockstep fashion, that is the\npower is allocated in such a fashion that all the temperatures are brought to a\ncommon value and they are kept the same after that point, resulting in\nsynchronization among all the loads. In the first part, we showed that under a\nmodel which additionally penalizes the comfort range violation, the optimal\nsolution is in-fact of desynchronization nature, where the temperatures are\nintentionally kept apart to avoid power surges resulting from simultaneous\ncomfort violation from many loads.\n",
+  "subjects": [
+    "Electrical Engineering and Systems Science/Systems and Control",
+    "Computer Science/Systems and Control"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "-0A_cn2suz48Jtv-hPTT7WajcWcIiuHsy6S9z6HKVRs",
+  "pdfSize": "1708638"
+}

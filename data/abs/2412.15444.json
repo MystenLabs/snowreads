@@ -1,0 +1,68 @@
+{
+  "id": "2412.15444",
+  "title": "AI-Enhanced Sensemaking: Exploring the Design of a Generative AI-Based\n  Assistant to Support Genetic Professionals",
+  "authors": "Angela Mastrianni, Hope Twede, Aleksandra Sarcevic, Jeremiah Wander,\n  Christina Austin-Tse, Scott Saponas, Heidi Rehm, Ashley Mae Conard, Amanda K.\n  Hall",
+  "authorsParsed": [
+    [
+      "Mastrianni",
+      "Angela",
+      ""
+    ],
+    [
+      "Twede",
+      "Hope",
+      ""
+    ],
+    [
+      "Sarcevic",
+      "Aleksandra",
+      ""
+    ],
+    [
+      "Wander",
+      "Jeremiah",
+      ""
+    ],
+    [
+      "Austin-Tse",
+      "Christina",
+      ""
+    ],
+    [
+      "Saponas",
+      "Scott",
+      ""
+    ],
+    [
+      "Rehm",
+      "Heidi",
+      ""
+    ],
+    [
+      "Conard",
+      "Ashley Mae",
+      ""
+    ],
+    [
+      "Hall",
+      "Amanda K.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 19 Dec 2024 22:54:49 GMT"
+    }
+  ],
+  "updateDate": "2024-12-23",
+  "timestamp": 1734648889000,
+  "abstract": "  Generative AI has the potential to transform knowledge work, but further\nresearch is needed to understand how knowledge workers envision using and\ninteracting with generative AI. We investigate the development of generative AI\ntools to support domain experts in knowledge work, examining task delegation\nand the design of human-AI interactions. Our research focused on designing a\ngenerative AI assistant to aid genetic professionals in analyzing whole genome\nsequences (WGS) and other clinical data for rare disease diagnosis. Through\ninterviews with 17 genetics professionals, we identified current challenges in\nWGS analysis. We then conducted co-design sessions with six genetics\nprofessionals to determine tasks that could be supported by an AI assistant and\nconsiderations for designing interactions with the AI assistant. From our\nfindings, we identified sensemaking as both a current challenge in WGS analysis\nand a process that could be supported by AI. We contribute an understanding of\nhow domain experts envision interacting with generative AI in their knowledge\nwork, a detailed empirical study of WGS analysis, and three design\nconsiderations for using generative AI to support domain experts in sensemaking\nduring knowledge work.\n  CCS CONCEPTS: Human-centered computing, Human-computer interaction, Empirical\nstudies in HCI\n  Additional Keywords and Phrases: whole genome sequencing, generative AI,\nlarge language models, knowledge work, sensemaking, co-design, rare disease\n  Contact Author: Angela Mastrianni (This work was done during the author's\ninternship at Microsoft Research)\n  Ashley Mae Conard and Amanda K. Hall contributed equally\n",
+  "subjects": [
+    "Computer Science/Human-Computer Interaction",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "XAXoND18euY5F5PNnzYiKcIuAa_agkjvyMG4y7AM3WQ",
+  "pdfSize": "1610015"
+}

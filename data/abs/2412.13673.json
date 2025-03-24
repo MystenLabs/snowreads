@@ -1,0 +1,40 @@
+{
+  "id": "2412.13673",
+  "title": "Black Hole Shadow and other Observables away from the Horizon: Extending\n  the Effective Metric Descriptions",
+  "authors": "Manuel Del Piano, Stefan Hohenegger, Francesco Sannino",
+  "authorsParsed": [
+    [
+      "Del Piano",
+      "Manuel",
+      ""
+    ],
+    [
+      "Hohenegger",
+      "Stefan",
+      ""
+    ],
+    [
+      "Sannino",
+      "Francesco",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 18 Dec 2024 09:57:17 GMT"
+    }
+  ],
+  "updateDate": "2024-12-19",
+  "timestamp": 1734515837000,
+  "abstract": "  In previous work we have developed a model-independent, effective description\nof quantum deformed, spherically symmetric and static black holes in four\ndimensions. The deformations of the metric are captured by two functions of the\nphysical distance to the horizon, which are provided in the form of\nself-consistent Taylor series expansions. While this approach efficiently\ncaptures physical observables in the immediate vicinity of the horizon, it is\nexpected to encounter problems of convergence at further distances. Therefore,\nwe demonstrate in this paper how to use Pad\\'e approximants to extend the range\nof applicability of this framework. We provide explicit approximations of\nphysical observables that depend on finitely many effective parameters of the\ndeformed black hole geometry, depending on the order of the Pad\\'e approximant.\nBy taking the asymptotic limit of this order, we in particular provide a\nclosed-form expression for the black hole shadow of the (fully) deformed\ngeometry, which captures the leading quantum corrections. We illustrate our\nresults for a number of quantum black holes previously proposed in the\nliterature and find that our effective approach provides excellent\napproximations in all cases.\n",
+  "subjects": [
+    "Physics/General Relativity and Quantum Cosmology",
+    "Astrophysics/Solar and Stellar Astrophysics",
+    "Physics/High Energy Physics - Phenomenology",
+    "Physics/High Energy Physics - Theory"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "3cnK2qc5tViZh5-L-6uYzS41ii8TPTE5MhRXeMXwSgA",
+  "pdfSize": "860934"
+}

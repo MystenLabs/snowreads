@@ -1,0 +1,45 @@
+{
+  "id": "2412.19226",
+  "title": "VINEVI: A Virtualized Network Vision Architecture for Smart Monitoring\n  of Heterogeneous Applications and Infrastructures",
+  "authors": "Rodrigo Moreira, Hugo G. V. O. da Cunha, Larissa F. Rodrigues Moreira,\n  Fl\\'avio de Oliveira Silva",
+  "authorsParsed": [
+    [
+      "Moreira",
+      "Rodrigo",
+      ""
+    ],
+    [
+      "da Cunha",
+      "Hugo G. V. O.",
+      ""
+    ],
+    [
+      "Moreira",
+      "Larissa F. Rodrigues",
+      ""
+    ],
+    [
+      "Silva",
+      "Flávio de Oliveira",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 26 Dec 2024 14:05:14 GMT"
+    }
+  ],
+  "updateDate": "2024-12-30",
+  "timestamp": 1735221914000,
+  "abstract": "  Monitoring heterogeneous infrastructures and applications is essential to\ncope with user requirements properly, but it still lacks enhancements. The\nwell-known state-of-the-art methods and tools do not support seamless\nmonitoring of bare-metal, low-cost infrastructures, neither hosted nor\nvirtualized services with fine-grained details. This work proposes VIrtualized\nNEtwork VIsion architecture (VINEVI), an intelligent method for seamless\nmonitoring heterogeneous infrastructures and applications. The VINEVI\narchitecture advances state of the art with a node-embedded traffic\nclassification agent placing physical and virtualized infrastructures enabling\nreal-time traffic classification. VINEVI combines this real-time traffic\nclassification with well-known tools such as Prometheus and Victoria Metrics to\nmonitor the entire stack from the hardware to the virtualized applications.\nExperimental results showcased that VINEVI architecture allowed seamless\nheterogeneous infrastructure monitoring with a higher level of detail beyond\nliterature. Also, our node-embedded real-time Internet traffic classifier\nevolved with flexibility the methods with monitoring heterogeneous\ninfrastructures seamlessly.\n",
+  "subjects": [
+    "Computer Science/Networking and Internet Architecture",
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "scQfADBu4ZKvahFWt4xukrXrmyqAnyLbrHoIkpu8fk4",
+  "pdfSize": "2237272"
+}

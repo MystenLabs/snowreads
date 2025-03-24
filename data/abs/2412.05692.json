@@ -1,0 +1,87 @@
+{
+  "id": "2412.05692",
+  "title": "Diffuse Ionized Gas in the Anti-center of the Milky Way",
+  "authors": "Shiming Wen, Wei Zhang, Lin Ma, Yunning Zhao, Man I. Lam, Chaojian Wu,\n  Juanjuan Ren, Jianjun Chen, Yuzhong Wu, Guozhen Hu, Yonghui Hou, Yongheng\n  Zhao, and Hong Wu",
+  "authorsParsed": [
+    [
+      "Wen",
+      "Shiming",
+      ""
+    ],
+    [
+      "Zhang",
+      "Wei",
+      ""
+    ],
+    [
+      "Ma",
+      "Lin",
+      ""
+    ],
+    [
+      "Zhao",
+      "Yunning",
+      ""
+    ],
+    [
+      "Lam",
+      "Man I.",
+      ""
+    ],
+    [
+      "Wu",
+      "Chaojian",
+      ""
+    ],
+    [
+      "Ren",
+      "Juanjuan",
+      ""
+    ],
+    [
+      "Chen",
+      "Jianjun",
+      ""
+    ],
+    [
+      "Wu",
+      "Yuzhong",
+      ""
+    ],
+    [
+      "Hu",
+      "Guozhen",
+      ""
+    ],
+    [
+      "Hou",
+      "Yonghui",
+      ""
+    ],
+    [
+      "Zhao",
+      "Yongheng",
+      ""
+    ],
+    [
+      "Wu",
+      "Hong",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 7 Dec 2024 16:40:38 GMT"
+    }
+  ],
+  "updateDate": "2025-02-05",
+  "timestamp": 1733589638000,
+  "abstract": "  Using data from the LAMOST Medium-Resolution Spectroscopic Survey of Nebulae,\nwe create a sample of 17,821 diffuse ionized gas (DIG) spectra in the\nanti-center region of the Milky Way, by excluding fibers in the directions of H\nII regions and supernova remnants. We then analyze the radial and vertical\ndistributions of three line ratios ([N II]/H$\\alpha$, [S II]/H$\\alpha$, and [S\nII]/[N II]), as well as the oxygen abundance.\n  [N II]/H$\\alpha$ and [S II]/H$\\alpha$ do not exhibit a consistent, monotonic\ndecrease with increasing Galactocentric distance (R$_{gal}$). Instead, they\nshow enhancement within the interarm region, positioned between the Local Arm\nand the Perseus Arm. [S II]/[N II] has a radial gradient of 0.1415 $\\pm$ 0.0646\nkpc$^{-1}$ for the inner disk (8.34 $ < R_{gal} < $ 9.65 kpc), and remains\nnearly flat for the outer disk ($R_{gal} > $ 9.65 kpc). In the vertical\ndirection, [N II]/H$\\alpha$, [S II]/H$\\alpha$, and [S II]/[N II] increase with\nincreasing Galactic disk height ($|z|$) in both southern and northern disks.\n  Based on the N2S2H$\\alpha$ method, which combines [S II]/[N II] and [N\nII]/H$\\alpha$, we estimate the oxygen abundance. The oxygen abundance exhibits\na consistent radial gradient with R$_{gal}$, featuring a slope of -0.0559 $\\pm$\n0.0209 dex kpc$^{-1}$ for the inner disk and a similar slope of -0.0429 $\\pm$\n0.0599 dex kpc$^{-1}$ for the outer disk. A single linear fitting to the entire\ndisk yields a slope of -0.0317 $\\pm$ 0.0124 dex kpc$^{-1}$. In the vertical\ndirection, the oxygen abundance decreases with increasing $|z|$ in both\nsouthern and northern disks.\n",
+  "subjects": [
+    "Astrophysics/Astrophysics of Galaxies"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "sbxrtnHUsSKaiIBh69wQi-V6QP0jQPN7HjD3LeGju2Y",
+  "pdfSize": "8471605"
+}

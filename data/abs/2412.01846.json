@@ -1,0 +1,27 @@
+{
+  "id": "2412.01846",
+  "title": "Main problems in constructing quantum theory based on finite mathematics",
+  "authors": "Felix M. Lev",
+  "authorsParsed": [
+    [
+      "Lev",
+      "Felix M.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 26 Nov 2024 22:42:28 GMT"
+    }
+  ],
+  "updateDate": "2024-12-04",
+  "timestamp": 1732660948000,
+  "abstract": "  As shown in our publications, quantum theory based on a finite ring of\ncharacteristic $p$ (FQT) is more general than standard quantum theory (SQT)\nbecause the latter is a degenerate case of the former in the formal limit\n$p\\to\\infty$. One of the main differences between SQT and FQT is the following.\nIn SQT, elementary objects are described by irreducible representations (IRs)\nof a symmetry algebra in which energies are either only positive or only\nnegative and there are no IRs where there are states with different signs of\nenergy. In the first case, objects are called particles, and in the second -\nantiparticles. As a consequence, in SQT it is possible to introduce conserved\nquantum numbers (electric charge, baryon number, etc.) so that particles and\nantiparticles differ in the signs of these numbers. However, in FQT, all IRs\nnecessarily contain states with both signs of energy. The symmetry in FQT is\nhigher than the symmetry in SQT because one IR in FQT splits into two IRs in\nSQT with positive and negative energies at $p\\to\\infty$. Consequently, most\nfundamental quantum theory will not contain the concepts of\nparticle-antiparticle and additive quantum numbers. These concepts are only\ngood approximations at present since at this stage of the universe the value\n$p$ is very large but it was not so large at earlier stages. The above\nproperties of IRs in SQT and FQT have been discussed in our publications with\ndetailed technical proofs. The purpose of this paper is to consider models\nwhere these properties can be derived in a much simpler way.\n",
+  "subjects": [
+    "Physics/General Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "BD0AoA9dvavzlDceaQE51iz5y9vvgBgyZpfivYAt32M",
+  "pdfSize": "323269"
+}

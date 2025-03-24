@@ -1,0 +1,51 @@
+{
+  "id": "2412.05379",
+  "title": "Clear skies ahead: characterizing atmospheric gravity gradient noise for\n  vertical atom interferometers",
+  "authors": "John Carlton, Valerie Gibson, Tim Kovachy, Christopher McCabe and\n  Jeremiah Mitchell",
+  "authorsParsed": [
+    [
+      "Carlton",
+      "John",
+      ""
+    ],
+    [
+      "Gibson",
+      "Valerie",
+      ""
+    ],
+    [
+      "Kovachy",
+      "Tim",
+      ""
+    ],
+    [
+      "McCabe",
+      "Christopher",
+      ""
+    ],
+    [
+      "Mitchell",
+      "Jeremiah",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 6 Dec 2024 19:12:45 GMT"
+    }
+  ],
+  "updateDate": "2024-12-10",
+  "timestamp": 1733512365000,
+  "abstract": "  Terrestrial long-baseline atom interferometer experiments are emerging as\npowerful tools for probing new fundamental physics, including searches for dark\nmatter and gravitational waves. In the frequency range relevant to these\nsignals, gravity gradient noise (GGN) poses a significant challenge. While\nprevious studies for vertical instruments have focused on GGN induced by\nseismic waves, atmospheric fluctuations in pressure and temperature also lead\nto variations in local gravity. In this work, we advance the understanding of\natmospheric GGN in vertical atom interferometers, formulating a robust\ncharacterization of its impact. We evaluate the effectiveness of underground\nplacement of atom interferometers as a passive noise mitigation strategy.\nAdditionally, we empirically derive global high- and low-noise models for\natmospheric pressure GGN and estimate an analogous range for atmospheric\ntemperature GGN. To highlight the variability of temperature-induced noise, we\ncompare data from two prospective experimental sites. Our findings establish\natmospheric GGN as comparable to seismic noise in its impact and underscore the\nimportance of including these effects in site selection and active noise\nmonitoring for future experiments.\n",
+  "subjects": [
+    "Physics/General Relativity and Quantum Cosmology",
+    "Physics/High Energy Physics - Phenomenology",
+    "Physics/Atmospheric and Oceanic Physics",
+    "Physics/Atomic Physics",
+    "Physics/Instrumentation and Detectors"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "D-96He7NAQQ9GDKppxXT0GmswcdCQjqkZ-8poi56owk",
+  "pdfSize": "5524925"
+}

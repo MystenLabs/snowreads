@@ -1,0 +1,74 @@
+{
+  "id": "2412.14671",
+  "title": "MUSTER: Longitudinal Deformable Registration by Composition of\n  Consecutive Deformations",
+  "authors": "Edvard O. S. Gr{\\o}dem, Donatas Sederevi\\v{c}ius, Esten H. Leonardsen,\n  Bradley J. MacIntosh, Atle Bj{\\o}rnerud, Till Schellhorn, {\\O}ystein\n  S{\\o}rensen, Inge Amlien, Pablo F. Garrido and Anders M. Fjell",
+  "authorsParsed": [
+    [
+      "Grødem",
+      "Edvard O. S.",
+      ""
+    ],
+    [
+      "Sederevičius",
+      "Donatas",
+      ""
+    ],
+    [
+      "Leonardsen",
+      "Esten H.",
+      ""
+    ],
+    [
+      "MacIntosh",
+      "Bradley J.",
+      ""
+    ],
+    [
+      "Bjørnerud",
+      "Atle",
+      ""
+    ],
+    [
+      "Schellhorn",
+      "Till",
+      ""
+    ],
+    [
+      "Sørensen",
+      "Øystein",
+      ""
+    ],
+    [
+      "Amlien",
+      "Inge",
+      ""
+    ],
+    [
+      "Garrido",
+      "Pablo F.",
+      ""
+    ],
+    [
+      "Fjell",
+      "Anders M.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 19 Dec 2024 09:22:19 GMT"
+    }
+  ],
+  "updateDate": "2024-12-20",
+  "timestamp": 1734600139000,
+  "abstract": "  Longitudinal imaging allows for the study of structural changes over time.\nOne approach to detecting such changes is by non-linear image registration.\nThis study introduces Multi-Session Temporal Registration (MUSTER), a novel\nmethod that facilitates longitudinal analysis of changes in extended series of\nmedical images. MUSTER improves upon conventional pairwise registration by\nincorporating more than two imaging sessions to recover longitudinal\ndeformations. Longitudinal analysis at a voxel-level is challenging due to\neffects of a changing image contrast as well as instrumental and environmental\nsources of bias between sessions. We show that local normalized\ncross-correlation as an image similarity metric leads to biased results and\npropose a robust alternative. We test the performance of MUSTER on a synthetic\nmulti-site, multi-session neuroimaging dataset and show that, in various\nscenarios, using MUSTER significantly enhances the estimated deformations\nrelative to pairwise registration. Additionally, we apply MUSTER on a sample of\nolder adults from the Alzheimer's Disease Neuroimaging Initiative (ADNI) study.\nThe results show that MUSTER can effectively identify patterns of\nneuro-degeneration from T1-weighted images and that these changes correlate\nwith changes in cognition, matching the performance of state of the art\nsegmentation methods. By leveraging GPU acceleration, MUSTER efficiently\nhandles large datasets, making it feasible also in situations with limited\ncomputational resources.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Numerical Analysis",
+    "Mathematics/Numerical Analysis"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "H7tuzfK-iE3iqFrjaW7DaTXhdYn490bH8_T1W_0jPCs",
+  "pdfSize": "4547051"
+}

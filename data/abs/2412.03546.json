@@ -1,0 +1,37 @@
+{
+  "id": "2412.03546",
+  "title": "Revisiting the impact of neutrino mass hierarchies on neutrino mass\n  constraints in light of recent DESI data",
+  "authors": "Laura Herold and Marc Kamionkowski",
+  "authorsParsed": [
+    [
+      "Herold",
+      "Laura",
+      ""
+    ],
+    [
+      "Kamionkowski",
+      "Marc",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 4 Dec 2024 18:45:01 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Wed, 22 Jan 2025 23:00:15 GMT"
+    }
+  ],
+  "updateDate": "2025-01-24",
+  "timestamp": 1733337901000,
+  "abstract": "  Recent results from DESI combined with cosmic microwave background data give\nthe tightest constraints on the sum of neutrino masses to date. However, these\nanalyses approximate the neutrino mass hierarchy by three degenerate-mass (DM)\nneutrinos, instead of the normal (NH) and inverted hierarchies (IH) informed by\nterrestrial neutrino oscillation experiments. Given the stringency of the upper\nlimits from DESI data, we test explicitly whether the inferred neutrino\nconstraints are robust to the choice of neutrino mass ordering using both\nBayesian and frequentist methods. For Planck data alone, we find that the DM\nhierarchy presents a good approximation to the physically motivated hierarchies\nwhile showing a strong dependence on the assumed lower bound of the prior,\nconfirming previous studies. For the combined Planck and DESI baryon acoustic\noscillation data, we find that assuming NH ($M_\\mathrm{tot} <\n0.13\\,\\mathrm{eV}$) or IH ($M_\\mathrm{tot} < 0.16\\,\\mathrm{eV}$) loosens the\nBayesian upper limits compared to the DM approximation ($M_\\mathrm{tot} <\n0.086\\,\\mathrm{eV}$). The frequentist analysis shows that the different\nneutrino models fit the data equally well and the loosening of the constraints\ncan thus be attributed to the lower bounds induced by NH and IH. Overall, we\nfind that the DM hierarchy presents a good approximation to the physically\nmotivated hierarchies also for Planck+DESI data as long as the corresponding\nlower neutrino mass bounds are imposed.\n",
+  "subjects": [
+    "Astrophysics/Cosmology and Nongalactic Astrophysics",
+    "Physics/High Energy Physics - Phenomenology"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "Rfz0ip9wprpcXh9L9dZnUzWbj2-v8A4N3c2X1toohPQ",
+  "pdfSize": "2647028"
+}

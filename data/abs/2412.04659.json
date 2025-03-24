@@ -1,0 +1,40 @@
+{
+  "id": "2412.04659",
+  "title": "LiveNet: Robust, Minimally Invasive Multi-Robot Control for Safe and\n  Live Navigation in Constrained Environments",
+  "authors": "Srikar Gouru, Siddharth Lakkoju, Rohan Chandra",
+  "authorsParsed": [
+    [
+      "Gouru",
+      "Srikar",
+      ""
+    ],
+    [
+      "Lakkoju",
+      "Siddharth",
+      ""
+    ],
+    [
+      "Chandra",
+      "Rohan",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 5 Dec 2024 23:05:31 GMT"
+    }
+  ],
+  "updateDate": "2024-12-09",
+  "timestamp": 1733439931000,
+  "abstract": "  Robots in densely populated real-world environments frequently encounter\nconstrained and cluttered situations such as passing through narrow doorways,\nhallways, and corridor intersections, where conflicts over limited space result\nin collisions or deadlocks among the robots. Current decentralized\nstate-of-the-art optimization- and neural network-based approaches (i) are\npredominantly designed for general open spaces, and (ii) are overly\nconservative, either guaranteeing safety, or liveness, but not both. While some\nsolutions rely on centralized conflict resolution, their highly invasive\ntrajectories make them impractical for real-world deployment. This paper\nintroduces LiveNet, a fully decentralized and robust neural network controller\nthat enables human-like yielding and passing, resulting in agile,\nnon-conservative, deadlock-free, and safe, navigation in congested,\nconflict-prone spaces. LiveNet is minimally invasive, without requiring\ninter-agent communication or cooperative behavior. The key insight behind\nLiveNet is a unified CBF formulation for simultaneous safety and liveness,\nwhich we integrate within a neural network for robustness. We evaluated LiveNet\nin simulation and found that general multi-robot optimization- and\nlearning-based navigation methods fail to even reach the goal, and while\nmethods designed specially for such environments do succeed, they are 10-20\ntimes slower, 4-5 times more invasive, and much less robust to variations in\nthe scenario configuration such as changes in the start states and goal states,\namong others. We open-source the LiveNet code at\nhttps://github.com/srikarg89/LiveNet{https://github.com/srikarg89/LiveNet.\n",
+  "subjects": [
+    "Computer Science/Robotics",
+    "Computer Science/Multiagent Systems",
+    "Computer Science/Systems and Control",
+    "Electrical Engineering and Systems Science/Systems and Control"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "ksRS1Irkv1DYFSmfZdq2YI9EUOmfjp7an6RnOQ0e4g8",
+  "pdfSize": "3203694"
+}

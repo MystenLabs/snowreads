@@ -1,0 +1,37 @@
+{
+  "id": "2412.19926",
+  "title": "Right vs. Right: Can LLMs Make Tough Choices?",
+  "authors": "Jiaqing Yuan and Pradeep K. Murukannaiah and Munindar P. Singh",
+  "authorsParsed": [
+    [
+      "Yuan",
+      "Jiaqing",
+      ""
+    ],
+    [
+      "Murukannaiah",
+      "Pradeep K.",
+      ""
+    ],
+    [
+      "Singh",
+      "Munindar P.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 27 Dec 2024 21:20:45 GMT"
+    }
+  ],
+  "updateDate": "2024-12-31",
+  "timestamp": 1735334445000,
+  "abstract": "  An ethical dilemma describes a choice between two \"right\" options involving\nconflicting moral values. We present a comprehensive evaluation of how LLMs\nnavigate ethical dilemmas. Specifically, we investigate LLMs on their (1)\nsensitivity in comprehending ethical dilemmas, (2) consistency in moral value\nchoice, (3) consideration of consequences, and (4) ability to align their\nresponses to a moral value preference explicitly or implicitly specified in a\nprompt. Drawing inspiration from a leading ethical framework, we construct a\ndataset comprising 1,730 ethical dilemmas involving four pairs of conflicting\nvalues. We evaluate 20 well-known LLMs from six families. Our experiments\nreveal that: (1) LLMs exhibit pronounced preferences between major value pairs,\nand prioritize truth over loyalty, community over individual, and long-term\nover short-term considerations. (2) The larger LLMs tend to support a\ndeontological perspective, maintaining their choices of actions even when\nnegative consequences are specified. (3) Explicit guidelines are more effective\nin guiding LLMs' moral choice than in-context examples. Lastly, our experiments\nhighlight the limitation of LLMs in comprehending different formulations of\nethical dilemmas.\n",
+  "subjects": [
+    "Computer Science/Computation and Language"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "JTcjlHQYZok-MJAslrFLfpCP38hcgJV8SwVLR5tRalQ",
+  "pdfSize": "212224"
+}

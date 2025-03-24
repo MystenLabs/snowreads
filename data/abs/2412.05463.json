@@ -1,0 +1,36 @@
+{
+  "id": "2412.05463",
+  "title": "The BPgWSP test: a Bayesian Weibull Shape Parameter signal detection\n  test for adverse drug reactions",
+  "authors": "Julia Dyck, Odile Sauzet",
+  "authorsParsed": [
+    [
+      "Dyck",
+      "Julia",
+      ""
+    ],
+    [
+      "Sauzet",
+      "Odile",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 6 Dec 2024 23:05:14 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Tue, 17 Dec 2024 13:45:56 GMT"
+    }
+  ],
+  "updateDate": "2024-12-18",
+  "timestamp": 1733526314000,
+  "abstract": "  We develop a Bayesian Power generalized Weibull shape parameter (PgWSP) test\nas statistical method for signal detection of possible drug-adverse event\nassociations using electronic health records for pharmacovigilance. The\nBayesian approach allows the incorporation of prior knowledge about the likely\ntime of occurrence along time-to-event data. The test is based on the shape\nparameters of the Power generalized Weibull (PgW) distribution. When both shape\nparameters are equal to one, the PgW distribution reduces to an exponential\ndistribution, i.e. a constant hazard function. This is interpreted as no\ntemporal association between drug and adverse event. The Bayesian PgWSP test\ninvolves comparing a region of practical equivalence (ROPE) around one\nreflecting the null hypothesis with estimated credibility intervals reflecting\nthe posterior means of the shape parameters. The decision to raise a signal is\nbased on the outcomes of the ROPE test and the selected combination rule for\nthese outcomes. The development of the test requires a simulation study for\ntuning of the ROPE and credibility intervals to optimize specifcity and\nsensitivity of the test. Samples are generated under various conditions,\nincluding differences in sample size, prevalence of adverse drug reactions\n(ADRs), and the proportion of adverse events. We explore prior assumptions\nreflecting the belief in the presence or absence of ADRs at different points in\nthe observation period. Various types of ROPE, credibility intervals, and\ncombination rules are assessed and optimal tuning parameters are identifed\nbased on the area under the curve. The tuned Bayesian PgWSP test is illustrated\nin a case study in which the time-dependent correlation between the intake of\nbisphosphonates and four adverse events is investigated.\n",
+  "subjects": [
+    "Statistics/Methodology"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "Wh8prv-fd846bbnZ7z-Eh3yGI3vcXnFi8gxKRCPthP8",
+  "pdfSize": "622276"
+}

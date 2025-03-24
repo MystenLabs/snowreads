@@ -1,0 +1,35 @@
+{
+  "id": "2412.18288",
+  "title": "Towards understanding how attention mechanism works in deep learning",
+  "authors": "Tianyu Ruan and Shihua Zhang",
+  "authorsParsed": [
+    [
+      "Ruan",
+      "Tianyu",
+      ""
+    ],
+    [
+      "Zhang",
+      "Shihua",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 24 Dec 2024 08:52:06 GMT"
+    }
+  ],
+  "updateDate": "2024-12-25",
+  "timestamp": 1735030326000,
+  "abstract": "  Attention mechanism has been extensively integrated within mainstream neural\nnetwork architectures, such as Transformers and graph attention networks. Yet,\nits underlying working principles remain somewhat elusive. What is its essence?\nAre there any connections between it and traditional machine learning\nalgorithms? In this study, we inspect the process of computing similarity using\nclassic metrics and vector space properties in manifold learning, clustering,\nand supervised learning. We identify the key characteristics of similarity\ncomputation and information propagation in these methods and demonstrate that\nthe self-attention mechanism in deep learning adheres to the same principles\nbut operates more flexibly and adaptively. We decompose the self-attention\nmechanism into a learnable pseudo-metric function and an information\npropagation process based on similarity computation. We prove that the\nself-attention mechanism converges to a drift-diffusion process through\ncontinuous modeling provided the pseudo-metric is a transformation of a metric\nand certain reasonable assumptions hold. This equation could be transformed\ninto a heat equation under a new metric. In addition, we give a first-order\nanalysis of attention mechanism with a general pseudo-metric function. This\nstudy aids in understanding the effects and principle of attention mechanism\nthrough physical intuition. Finally, we propose a modified attention mechanism\ncalled metric-attention by leveraging the concept of metric learning to\nfacilitate the ability to learn desired metrics more effectively. Experimental\nresults demonstrate that it outperforms self-attention regarding training\nefficiency, accuracy, and robustness.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Statistics/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "DSQ1m7y6S0_9Q8iVLa7vXEHe5WdA87egaEvN7AdM4Tw",
+  "pdfSize": "1048478"
+}

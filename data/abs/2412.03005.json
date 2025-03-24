@@ -1,0 +1,37 @@
+{
+  "id": "2412.03005",
+  "title": "gghic: A Versatile R Package for Exploring and Visualizing 3D Genome\n  Organization",
+  "authors": "Minghao Jiang, Duohui Jing and Jason W.H. Wong",
+  "authorsParsed": [
+    [
+      "Jiang",
+      "Minghao",
+      ""
+    ],
+    [
+      "Jing",
+      "Duohui",
+      ""
+    ],
+    [
+      "Wong",
+      "Jason W. H.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 4 Dec 2024 03:50:26 GMT"
+    }
+  ],
+  "updateDate": "2024-12-05",
+  "timestamp": 1733284226000,
+  "abstract": "  Motivation: The three-dimensional (3D) organization of the genome plays a\ncritical role in regulating gene expression and maintaining cellular\nhomeostasis. Disruptions in this spatial organization can result in abnormal\nchromatin interactions, contributing to the development of various diseases\nincluding cancer. Advances in chromosome conformation capture technologies,\nsuch as Hi-C, have enabled researchers to study genome architecture at high\nresolution. However, the efficient visualization and interpretation of these\ncomplex datasets remain a major challenge, particularly when integrating\ngenomic annotations and inter-chromosomal interactions.\n  Results: We present gghic, an R package that extends the ggplot2 framework to\nenable intuitive and customizable visualization of genomic interaction data.\ngghic introduces novel layers for generating triangular heatmaps of chromatin\ninteractions and annotating them with features such as chromatin loops,\ntopologically associated domains (TADs), gene/transcript models, and data\ntracks (e.g., ChIP-seq signals). The package supports data from multiple\nchromosomes, facilitating the exploration of inter-chromosomal interactions.\nBuilt to integrate seamlessly with the R/Bioconductor ecosystem, gghic is\ncompatible with widely used genomic data formats, including HiCExperiment and\nGInteractions objects. We demonstrate the utility of gghic by replicating a\npublished figure showing a translocation event in T-cell acute lymphoblastic\nleukemia (T-ALL), highlighting its ability to integrate genomic annotations and\ngenerate publication-quality figures.\n  Availability and implementation: The R package can be accessed at\nhttps://github.com/jasonwong-lab/gghic and is distributed under the GNU General\nPublic License version 3.0.\n",
+  "subjects": [
+    "Quantitative Biology/Genomics"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "UqPjP2dNT95Cr1-95DIfk2d_hX0k6rtL8VDSlxTnpW8",
+  "pdfSize": "1955181"
+}

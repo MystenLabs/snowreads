@@ -1,0 +1,31 @@
+{
+  "id": "2412.16812",
+  "title": "Equivalence of D and D' properties in Banach spaces",
+  "authors": "Paulo Akira F. Enabe",
+  "authorsParsed": [
+    [
+      "Enabe",
+      "Paulo Akira F.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 22 Dec 2024 01:06:17 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Thu, 26 Dec 2024 04:17:16 GMT"
+    }
+  ],
+  "updateDate": "2024-12-30",
+  "timestamp": 1734829577000,
+  "abstract": "  This work explores the equivalence of two sequential properties, $D$ and\n$D'$, for dual Banach spaces under the weak* topology. Property $D$ ensures\nthat any totally scalarly measurable function is also scalarly measurable,\nwhile property $D'$ states that every weakly* sequentially closed subspace of\n$X^*$ is weakly* closed. These properties, which are central to the study of\nthe interplay between topology and measurability in Banach spaces, was left as\nan open question.\n  By examining the topological and measurable structures induced by the Baire\n$\\sigma$-algebra, we prove that properties $D$ and $D'$ are indeed equivalent.\nThe proof utilizes the relationship between total sets, weak* closures, and\nscalar measurability, extending previous results on sequential properties of\ndual Banach spaces. Additionally, we revisit the failure of property $D$ in\nnonseparable Banach spaces with $M$-basic $\\ell_1^+$-systems, providing a\ntopological reinterpretation of this phenomenon. These findings contribute to a\ndeeper understanding of the weak* topology and measurable mappings in Banach\nspace theory.\n",
+  "subjects": [
+    "Mathematics/Functional Analysis"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "JsvooT3hUOZqpg8jI_iKva_O_tK1Fr4YioVWlyGVyyQ",
+  "pdfSize": "141877"
+}

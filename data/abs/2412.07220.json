@@ -1,0 +1,37 @@
+{
+  "id": "2412.07220",
+  "title": "Comateformer: Combined Attention Transformer for Semantic Sentence\n  Matching",
+  "authors": "Bo Li, Di Liang, Zixin Zhang",
+  "authorsParsed": [
+    [
+      "Li",
+      "Bo",
+      ""
+    ],
+    [
+      "Liang",
+      "Di",
+      ""
+    ],
+    [
+      "Zhang",
+      "Zixin",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 10 Dec 2024 06:18:07 GMT"
+    }
+  ],
+  "updateDate": "2024-12-11",
+  "timestamp": 1733811487000,
+  "abstract": "  The Transformer-based model have made significant strides in semantic\nmatching tasks by capturing connections between phrase pairs. However, to\nassess the relevance of sentence pairs, it is insufficient to just examine the\ngeneral similarity between the sentences. It is crucial to also consider the\ntiny subtleties that differentiate them from each other. Regrettably, attention\nsoftmax operations in transformers tend to miss these subtle differences. To\nthis end, in this work, we propose a novel semantic sentence matching model\nnamed Combined Attention Network based on Transformer model (Comateformer). In\nComateformer model, we design a novel transformer-based quasi-attention\nmechanism with compositional properties. Unlike traditional attention\nmechanisms that merely adjust the weights of input tokens, our proposed method\nlearns how to combine, subtract, or resize specific vectors when building a\nrepresentation. Moreover, our proposed approach builds on the intuition of\nsimilarity and dissimilarity (negative affinity) when calculating dual affinity\nscores. This allows for a more meaningful representation of relationships\nbetween sentences. To evaluate the performance of our proposed model, we\nconducted extensive experiments on ten public real-world datasets and\nrobustness testing. Experimental results show that our method achieves\nconsistent improvements.\n",
+  "subjects": [
+    "Computer Science/Computation and Language"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "lwA4GcCob-CwYmGR6WruDwpdMcAtVv3VG55xYx5gbSU",
+  "pdfSize": "1022640"
+}

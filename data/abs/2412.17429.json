@@ -1,0 +1,82 @@
+{
+  "id": "2412.17429",
+  "title": "Condor: A Code Discriminator Integrating General Semantics with Code\n  Details",
+  "authors": "Qingyuan Liang, Zhao Zhang, Chen Liu, Zeyu Sun, Wenjie Zhang, Yizhou\n  Chen, Zixiao Zhao, Qi Luo, Wentao Wang, Yanjie Jiang, Yingfei Xiong, Lu Zhang",
+  "authorsParsed": [
+    [
+      "Liang",
+      "Qingyuan",
+      ""
+    ],
+    [
+      "Zhang",
+      "Zhao",
+      ""
+    ],
+    [
+      "Liu",
+      "Chen",
+      ""
+    ],
+    [
+      "Sun",
+      "Zeyu",
+      ""
+    ],
+    [
+      "Zhang",
+      "Wenjie",
+      ""
+    ],
+    [
+      "Chen",
+      "Yizhou",
+      ""
+    ],
+    [
+      "Zhao",
+      "Zixiao",
+      ""
+    ],
+    [
+      "Luo",
+      "Qi",
+      ""
+    ],
+    [
+      "Wang",
+      "Wentao",
+      ""
+    ],
+    [
+      "Jiang",
+      "Yanjie",
+      ""
+    ],
+    [
+      "Xiong",
+      "Yingfei",
+      ""
+    ],
+    [
+      "Zhang",
+      "Lu",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 23 Dec 2024 09:47:20 GMT"
+    }
+  ],
+  "updateDate": "2024-12-24",
+  "timestamp": 1734947240000,
+  "abstract": "  LLMs demonstrate significant potential across various software engineering\ntasks. However, they still face challenges in generating correct code on the\nfirst attempt when addressing complex requirements. Introducing a discriminator\nto select reliable outputs from multiple generated results is an effective way\nto enhance their reliability and stability. Currently, these discriminators\nfall into two categories: execution-based discriminators and\nnon-execution-based discriminators. Execution-based discriminators face\nflexibility challenges due to difficulties in obtaining test cases and security\nconcerns, while non-execution-based discriminators, although more flexible,\nstruggle to capture subtle differences in code details. To maintain flexibility\nwhile improving the model's ability to capture fine-grained code details, this\npaper proposes Condor. We first design contrastive learning to optimize the\ncode representations of the base model, enabling it to reflect differences in\ncode details. Then, we leverage intermediate data from the code modification\nprocess to further enrich the discriminator's training data, enhancing its\nability to discern code details. Experimental results indicate that on the\nsubtle code difference dataset (i.e., CodeNanoFix), Condor significantly\noutperforms other discriminators in discriminative performance: Condor (1.3B)\nimproves the discriminative F1 score of DeepSeek-Coder (1.3B) from 67% to 73%.\nIn discriminating LLM-generated outputs, Condor (1.3B) and Condor (110M) raise\nthe Pass@1 score of Meta-Llama-3.1-Instruct (70B) on the CodeNanoFix dataset\nfrom 52.64% to 62.63% and 59.64%, respectively. Moreover, Condor demonstrates\nstrong generalization capabilities on the MBPP and APPS datasets. For example,\nCondor (1.3B) improves the Pass@1 of Meta-Llama-3.1-Instruct (70B) on the APPS\ndataset by 147.05%.\n",
+  "subjects": [
+    "Computer Science/Software Engineering"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "vyXctVzHDEjjielNkuvzIpWxIt-P9eot6x7V6BJf4F0",
+  "pdfSize": "7048577"
+}

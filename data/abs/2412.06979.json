@@ -1,0 +1,53 @@
+{
+  "id": "2412.06979",
+  "title": "Efficacious qubit mappings for quantum simulations of the $^{12}$C\n  rotational band",
+  "authors": "Darin C. Mumma, Zhonghao Sun, Alexis Mercenne, Kristina D. Launey,\n  Soorya Rethinasamy, James A. Sauls",
+  "authorsParsed": [
+    [
+      "Mumma",
+      "Darin C.",
+      ""
+    ],
+    [
+      "Sun",
+      "Zhonghao",
+      ""
+    ],
+    [
+      "Mercenne",
+      "Alexis",
+      ""
+    ],
+    [
+      "Launey",
+      "Kristina D.",
+      ""
+    ],
+    [
+      "Rethinasamy",
+      "Soorya",
+      ""
+    ],
+    [
+      "Sauls",
+      "James A.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 9 Dec 2024 20:39:22 GMT"
+    }
+  ],
+  "updateDate": "2024-12-11",
+  "timestamp": 1733776762000,
+  "abstract": "  Solving atomic nuclei from first principles places enormous demands on\ncomputational resources, which grow exponentially with increasing number of\nparticles and the size of the space they occupy. We present first quantum\nsimulations based on the variational quantum eigensolver for the low-lying\nstructure of the $^{12}$C nucleus that provide acceptable bound-state energies\neven in the presence of noise. We achieve this by taking advantage of two\ncritical developments. First, we utilize an almost perfect symmetry of atomic\nnuclei that, in a complete symmetry-adapted basis, drastically reduces the size\nof the model space. Second, we use the efficacious Gray encoding, for which it\nhas been recently shown that it is resource efficient, especially when coupled\nwith a near band-diagonal structure of the nuclear Hamiltonian.\n",
+  "subjects": [
+    "Physics/Quantum Physics",
+    "Physics/Nuclear Theory"
+  ],
+  "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+  "blobId": "pDSf4ivtvx41BKecDRuUGgRHp70K3DEDwmTweZ1Ojbk",
+  "pdfSize": "954558"
+}

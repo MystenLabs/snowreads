@@ -1,0 +1,37 @@
+{
+  "id": "2412.13930",
+  "title": "CoRa: A Collision-Resistant LoRa Symbol Detector of Low Complexity",
+  "authors": "Jos\\'e \\'Alamos and Thomas C. Schmidt and Matthias W\\\"ahlisch",
+  "authorsParsed": [
+    [
+      "Álamos",
+      "José",
+      ""
+    ],
+    [
+      "Schmidt",
+      "Thomas C.",
+      ""
+    ],
+    [
+      "Wählisch",
+      "Matthias",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 18 Dec 2024 15:13:21 GMT"
+    }
+  ],
+  "updateDate": "2024-12-19",
+  "timestamp": 1734534801000,
+  "abstract": "  Long range communication with LoRa has become popular as it avoids the\ncomplexity of multi-hop communication at low cost and low energy consumption.\nLoRa is openly accessible, but its packets are particularly vulnerable to\ncollisions due to long time on air in a shared band. This degrades\ncommunication performance. Existing techniques for demodulating LoRa symbols\nunder collisions face challenges such as high computational complexity,\nreliance on accurate symbol boundary information, or error-prone peak detection\nmethods. In this paper, we introduce CoRa , a symbol detector for demodulating\nLoRa symbols under severe collisions. CoRa employs a Bayesian classifier to\naccurately identify the true symbol amidst interference from other LoRa\ntransmissions, leveraging empirically derived features from raw symbol data.\nEvaluations using real-world and simulated packet traces demonstrate that CoRa\nclearly outperforms the related state-of-the-art, i.e., up to 29% better\ndecoding performance than TnB and 178% better than CIC. Compared to the LoRa\nbaseline demodulator, CoRa magnifies the packet reception rate by up to 11.53x.\nCoRa offers a significant reduction in computational complexity compared to\nexisting solutions by only adding a constant overhead to the baseline\ndemodulator, while also eliminating the need for peak detection and accurately\nidentifying colliding frames.\n",
+  "subjects": [
+    "Computer Science/Networking and Internet Architecture"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "rOGvWGws-pCk1vNhYlTknDAVUI0fCWGQ0OdtA9ySl-U",
+  "pdfSize": "938812"
+}

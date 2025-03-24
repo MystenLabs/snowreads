@@ -1,0 +1,58 @@
+{
+  "id": "2412.16427",
+  "title": "High-fidelity microsecond-scale cellular imaging using two-axis\n  compressed streak imaging fluorescence microscopy",
+  "authors": "Mark A. Keppler, Sean P. O'Connor, Zachary A. Steelman, Xianglei Liu,\n  Jinyang Liang, Vladislav V. Yakovlev, Joel N. Bixler",
+  "authorsParsed": [
+    [
+      "Keppler",
+      "Mark A.",
+      ""
+    ],
+    [
+      "O'Connor",
+      "Sean P.",
+      ""
+    ],
+    [
+      "Steelman",
+      "Zachary A.",
+      ""
+    ],
+    [
+      "Liu",
+      "Xianglei",
+      ""
+    ],
+    [
+      "Liang",
+      "Jinyang",
+      ""
+    ],
+    [
+      "Yakovlev",
+      "Vladislav V.",
+      ""
+    ],
+    [
+      "Bixler",
+      "Joel N.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 21 Dec 2024 01:26:40 GMT"
+    }
+  ],
+  "updateDate": "2024-12-24",
+  "timestamp": 1734744400000,
+  "abstract": "  Compressed streak imaging (CSI), introduced in 2014, has proven to be a\npowerful imaging technology for recording ultrafast phenomena such as light\npropagation and fluorescence lifetimes at over 150 trillion frames per second.\nDespite these achievements, CSI has faced challenges in detecting subtle\nintensity fluctuations in slow-moving, continuously illuminated objects. This\nlimitation, largely attributable to high streak compression and motion blur,\nhas curtailed broader adoption of CSI in applications such as cellular\nfluorescence microscopy. To address these issues and expand the utility of CSI,\nwe present a novel encoding strategy, termed two-axis compressed streak imaging\n(TACSI) that results in significant improvements to the reconstructed image\nfidelity. TACSI introduces a second scanning axis which shuttles a conjugate\nimage of the object with respect to the coded aperture. The moving image\ndecreases the streak compression ratio and produces a flash and shutter\nphenomenon that reduces coded aperture motion blur, overcoming the limitations\nof current CSI technologies. We support this approach with an analytical model\ndescribing the two-axis streak compression ratio, along with both simulated and\nempirical measurements. As proof of concept, we demonstrate the ability of\nTACSI to measure rapid variations in cell membrane potentials using\nvoltage-sensitive dye, which were previously unattainable with conventional\nCSI. This method has broad implications for high-speed photography, including\nthe visualization of action potentials, muscle contractions, and enzymatic\nreactions that occur on microsecond and faster timescales using fluorescence\nmicroscopy.\n",
+  "subjects": [
+    "Physics/Optics",
+    "Quantitative Biology/Cell Behavior"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "HldVuP8Pct17agOq2BJVVhlG4NYFEektM9tDGhQTWMs",
+  "pdfSize": "17144157"
+}

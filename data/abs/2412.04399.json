@@ -1,0 +1,37 @@
+{
+  "id": "2412.04399",
+  "title": "Method-independent cusps for atomic orbitals in quantum Monte Carlo",
+  "authors": "Trine Kay Quady, Sonja Bumann, Eric Neuscamman",
+  "authorsParsed": [
+    [
+      "Quady",
+      "Trine Kay",
+      ""
+    ],
+    [
+      "Bumann",
+      "Sonja",
+      ""
+    ],
+    [
+      "Neuscamman",
+      "Eric",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 5 Dec 2024 18:13:23 GMT"
+    }
+  ],
+  "updateDate": "2024-12-06",
+  "timestamp": 1733422403000,
+  "abstract": "  We present an approach for augmenting Gaussian atomic orbitals with correct\nnuclear cusps. Like the atomic orbital basis set itself, and unlike previous\ncusp corrections, this approach is independent of the many-body method used to\nprepare wave functions for quantum Monte Carlo. Once the basis set and\nmolecular geometry are specified, the cusp-corrected atomic orbitals are\nuniquely specified, regardless of which density functionals, quantum chemistry\nmethods, or subsequent variational Monte Carlo optimizations are employed. We\nanalyze the statistical improvement offered by these cusps in a number of\nmolecules and find them to offer similar advantages as molecular-orbital-based\napproaches while maintaining independence from the choice of many-body method.\n",
+  "subjects": [
+    "Physics/Chemical Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "10k4HqfdUUfleIjZNHVZ9OrcqvldtQCWa6oubMyotWY",
+  "pdfSize": "1724851"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2412.18505",
+  "title": "VORTEX: A Spatial Computing Framework for Optimized Drone Telemetry\n  Extraction from First-Person View Flight Data",
+  "authors": "James E. Gallagher, Edward J. Oughton",
+  "authorsParsed": [
+    [
+      "Gallagher",
+      "James E.",
+      ""
+    ],
+    [
+      "Oughton",
+      "Edward J.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 24 Dec 2024 15:43:04 GMT"
+    }
+  ],
+  "updateDate": "2024-12-25",
+  "timestamp": 1735054984000,
+  "abstract": "  This paper presents the Visual Optical Recognition Telemetry EXtraction\n(VORTEX) system for extracting and analyzing drone telemetry data from First\nPerson View (FPV) Uncrewed Aerial System (UAS) footage. VORTEX employs MMOCR, a\nPyTorch-based Optical Character Recognition (OCR) toolbox, to extract telemetry\nvariables from drone Heads Up Display (HUD) recordings, utilizing advanced\nimage preprocessing techniques, including CLAHE enhancement and adaptive\nthresholding. The study optimizes spatial accuracy and computational efficiency\nthrough systematic investigation of temporal sampling rates (1s, 5s, 10s, 15s,\n20s) and coordinate processing methods. Results demonstrate that the 5-second\nsampling rate, utilizing 4.07% of available frames, provides the optimal\nbalance with a point retention rate of 64% and mean speed accuracy within 4.2%\nof the 1-second baseline while reducing computational overhead by 80.5%.\nComparative analysis of coordinate processing methods reveals that while UTM\nZone 33N projection and Haversine calculations provide consistently similar\nresults (within 0.1% difference), raw WGS84 coordinates underestimate distances\nby 15-30% and speeds by 20-35%. Altitude measurements showed unexpected\nresilience to sampling rate variations, with only 2.1% variation across all\nintervals. This research is the first of its kind, providing quantitative\nbenchmarks for establishing a robust framework for drone telemetry extraction\nand analysis using open-source tools and spatial libraries.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "yLtg1pI0P-lAn8WQByCJv2wjiQ-xFA6THhW4JSIUNCM",
+  "pdfSize": "1063847"
+}

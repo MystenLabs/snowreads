@@ -1,0 +1,28 @@
+{
+  "id": "2412.12952",
+  "title": "A partial proof of the Brouwer's conjecture",
+  "authors": "Slobodan Filipovski",
+  "authorsParsed": [
+    [
+      "Filipovski",
+      "Slobodan",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 17 Dec 2024 14:34:12 GMT"
+    }
+  ],
+  "updateDate": "2024-12-18",
+  "timestamp": 1734446052000,
+  "abstract": "  Let $G$ be a simple graph with $n$ vertices and $m$ edges and let $k$ be a\nnatural number such that $k\\leq n.$ Brouwer conjectured that the sum of the $k$\nlargest Laplacian eigenvalues of $G$ is at most $m+{k+1 \\choose 2}.$ In this\npaper we prove that this conjecture is true for simple $(m,n)$-graphs where\n$n\\leq m\\leq \\frac{\\sqrt{3}-1}{4}(n-1)n$ and $k\\in \\left[\n\\sqrt[3]{\\frac{8m^{2}}{n-1}+4mn+n^{2}}, n\\right].$ Moreover, we prove that the\nconjecture is true for all simple $(m,n)$-graphs where $k (\\leq n)$ is a\nnatural number from the interval\n$\\left[\\sqrt{2n-2m+2\\sqrt{2m^{2}+mn(n-1)}},1+\\frac{8m^{2}}{n^{2}(n-1)}+\\frac{4m}{n}\\right].$\n",
+  "subjects": [
+    "Mathematics/Combinatorics",
+    "Mathematics/Spectral Theory"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "fRKrfDC25aVl9WarB9ZbhMhGd3usbh06ig778mZIdmQ",
+  "pdfSize": "132000"
+}

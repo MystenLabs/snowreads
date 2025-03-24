@@ -1,0 +1,75 @@
+{
+  "id": "2412.13548",
+  "title": "TelePreview: A User-Friendly Teleoperation System with Virtual Arm\n  Assistance for Enhanced Effectiveness",
+  "authors": "Jingxiang Guo, Jiayu Luo, Zhenyu Wei, Yiwen Hou, Zhixuan Xu, Xiaoyi\n  Lin, Chongkai Gao, Lin Shao",
+  "authorsParsed": [
+    [
+      "Guo",
+      "Jingxiang",
+      ""
+    ],
+    [
+      "Luo",
+      "Jiayu",
+      ""
+    ],
+    [
+      "Wei",
+      "Zhenyu",
+      ""
+    ],
+    [
+      "Hou",
+      "Yiwen",
+      ""
+    ],
+    [
+      "Xu",
+      "Zhixuan",
+      ""
+    ],
+    [
+      "Lin",
+      "Xiaoyi",
+      ""
+    ],
+    [
+      "Gao",
+      "Chongkai",
+      ""
+    ],
+    [
+      "Shao",
+      "Lin",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 18 Dec 2024 06:49:46 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Fri, 3 Jan 2025 15:18:18 GMT"
+    },
+    {
+      "version": "v3",
+      "created": "Wed, 22 Jan 2025 02:30:41 GMT"
+    },
+    {
+      "version": "v4",
+      "created": "Mon, 27 Jan 2025 17:04:37 GMT"
+    }
+  ],
+  "updateDate": "2025-01-28",
+  "timestamp": 1734504586000,
+  "abstract": "  Teleoperation provides an effective way to collect robot data, which is\ncrucial for learning from demonstrations. In this field, teleoperation faces\nseveral key challenges: user-friendliness for new users, safety assurance, and\ntransferability across different platforms. While collecting real robot\ndexterous manipulation data by teleoperation to train robots has shown\nimpressive results on diverse tasks, due to the morphological differences\nbetween human and robot hands, it is not only hard for new users to understand\nthe action mapping but also raises potential safety concerns during operation.\nTo address these limitations, we introduce TelePreview. This teleoperation\nsystem offers real-time visual feedback on robot actions based on human user\ninputs, with a total hardware cost of less than $1,000. TelePreview allows the\nuser to see a virtual robot that represents the outcome of the user's next\nmovement. By enabling flexible switching between command visualization and\nactual execution, this system helps new users learn how to demonstrate quickly\nand safely. We demonstrate that it outperforms other teleoperation systems\nacross five tasks, emphasize its ease of use, and highlight its straightforward\ndeployment across diverse robotic platforms. We release our code and a\ndeployment document on our website https://nus-lins-lab.github.io/telepreview/.\n",
+  "subjects": [
+    "Computer Science/Robotics",
+    "Computer Science/Human-Computer Interaction"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "GAPQL86JhMg1fjs26-AUi-h8h9gul0riI7G2W1zol9g",
+  "pdfSize": "41257796"
+}

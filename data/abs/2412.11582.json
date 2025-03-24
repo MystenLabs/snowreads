@@ -1,0 +1,57 @@
+{
+  "id": "2412.11582",
+  "title": "Oriented Tiny Object Detection: A Dataset, Benchmark, and Dynamic\n  Unbiased Learning",
+  "authors": "Chang Xu, Ruixiang Zhang, Wen Yang, Haoran Zhu, Fang Xu, Jian Ding,\n  Gui-Song Xia",
+  "authorsParsed": [
+    [
+      "Xu",
+      "Chang",
+      ""
+    ],
+    [
+      "Zhang",
+      "Ruixiang",
+      ""
+    ],
+    [
+      "Yang",
+      "Wen",
+      ""
+    ],
+    [
+      "Zhu",
+      "Haoran",
+      ""
+    ],
+    [
+      "Xu",
+      "Fang",
+      ""
+    ],
+    [
+      "Ding",
+      "Jian",
+      ""
+    ],
+    [
+      "Xia",
+      "Gui-Song",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 16 Dec 2024 09:14:32 GMT"
+    }
+  ],
+  "updateDate": "2024-12-17",
+  "timestamp": 1734340472000,
+  "abstract": "  Detecting oriented tiny objects, which are limited in appearance information\nyet prevalent in real-world applications, remains an intricate and\nunder-explored problem. To address this, we systemically introduce a new\ndataset, benchmark, and a dynamic coarse-to-fine learning scheme in this study.\nOur proposed dataset, AI-TOD-R, features the smallest object sizes among all\noriented object detection datasets. Based on AI-TOD-R, we present a benchmark\nspanning a broad range of detection paradigms, including both fully-supervised\nand label-efficient approaches. Through investigation, we identify a learning\nbias presents across various learning pipelines: confident objects become\nincreasingly confident, while vulnerable oriented tiny objects are further\nmarginalized, hindering their detection performance. To mitigate this issue, we\npropose a Dynamic Coarse-to-Fine Learning (DCFL) scheme to achieve unbiased\nlearning. DCFL dynamically updates prior positions to better align with the\nlimited areas of oriented tiny objects, and it assigns samples in a way that\nbalances both quantity and quality across different object shapes, thus\nmitigating biases in prior settings and sample selection. Extensive experiments\nacross eight challenging object detection datasets demonstrate that DCFL\nachieves state-of-the-art accuracy, high efficiency, and remarkable\nversatility. The dataset, benchmark, and code are available at\nhttps://chasel-tsui.github.io/AI-TOD-R/.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "1w7LWlvwIPP5yscPqPuGeVeBBCrEGbbmatlC5G89RJ4",
+  "pdfSize": "18222773"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "2412.13601",
+  "title": "Hybrid CNN-LSTM based Indoor Pedestrian Localization with CSI\n  Fingerprint Maps",
+  "authors": "Muhammad Emad-ud-din",
+  "authorsParsed": [
+    [
+      "Emad-ud-din",
+      "Muhammad",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 18 Dec 2024 08:31:34 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Sun, 29 Dec 2024 20:02:59 GMT"
+    }
+  ],
+  "updateDate": "2024-12-31",
+  "timestamp": 1734510694000,
+  "abstract": "  The paper presents a novel Wi-Fi fingerprinting system that uses Channel\nState Information (CSI) data for fine-grained pedestrian localization. The\nproposed system exploits the frequency diversity and spatial diversity of the\nfeatures extracted from CSI data to generate a 2D+channel image termed as a CSI\nFingerprint Map. We then use this CSI Fingerprint Map representation of CSI\ndata to generate a pedestrian trajectory hypothesis using a hybrid architecture\nthat combines a Convolutional Neural Network and a Long Short-Term Memory\nRecurrent Neural Network model. The proposed architecture exploits the temporal\nand spatial relationship information among the CSI data observations gathered\nat neighboring locations. A particle filter is then employed to separate out\nthe most likely hypothesis matching a human walk model. The experimental\nperformance of our method is compared to existing deep learning localization\nmethods such ConFi, DeepFi and to a self-developed temporal-feature based LSTM\nbased location classifier. The experimental results show marked improvement\nwith an average RMSE of 0.36 m in a moderately dynamic and 0.17 m in a static\nenvironment. Our method is essentially a proof of concept that with (1) sparse\navailability of observations, (2) limited infrastructure requirements, (3)\nmoderate level of short-term and long-term noise in the training and testing\nenvironment, reliable fine-grained Wi-Fi based pedestrian localization is a\npotential option.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "DkUYQCDesgdX_NrNE3F4ZeX8hXwa9nHvbTySpzt3DTs",
+  "pdfSize": "1020958"
+}

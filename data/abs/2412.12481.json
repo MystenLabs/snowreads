@@ -1,0 +1,63 @@
+{
+  "id": "2412.12481",
+  "title": "if-ZKP: Intel FPGA-Based Acceleration of Zero Knowledge Proofs",
+  "authors": "Shahzad Ahmad Butt, Benjamin Reynolds, Veeraraghavan Ramamurthy, Xiao\n  Xiao, Pohrong Chu, Setareh Sharifian, Sergey Gribok, Bogdan Pasca",
+  "authorsParsed": [
+    [
+      "Butt",
+      "Shahzad Ahmad",
+      ""
+    ],
+    [
+      "Reynolds",
+      "Benjamin",
+      ""
+    ],
+    [
+      "Ramamurthy",
+      "Veeraraghavan",
+      ""
+    ],
+    [
+      "Xiao",
+      "Xiao",
+      ""
+    ],
+    [
+      "Chu",
+      "Pohrong",
+      ""
+    ],
+    [
+      "Sharifian",
+      "Setareh",
+      ""
+    ],
+    [
+      "Gribok",
+      "Sergey",
+      ""
+    ],
+    [
+      "Pasca",
+      "Bogdan",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 17 Dec 2024 02:35:32 GMT"
+    }
+  ],
+  "updateDate": "2024-12-18",
+  "timestamp": 1734402932000,
+  "abstract": "  Zero-Knowledge Proofs (ZKPs) have emerged as an important cryptographic\ntechnique allowing one party (prover) to prove the correctness of a statement\nto some other party (verifier) and nothing else. ZKPs give rise to user's\nprivacy in many applications such as blockchains, digital voting, and machine\nlearning. Traditionally, ZKPs suffered from poor scalability but recently, a\nsub-class of ZKPs known as Zero-knowledge Succinct Non-interactive ARgument of\nKnowledges (zk-SNARKs) have addressed this challenge. They are getting\nsignificant attention and are being implemented by many public libraries. In\nthis paper, we present a novel scalable architecture that is suitable for\naccelerating the zk-SNARK prover compute on FPGAs. We focus on the multi-scalar\nmultiplication (MSM) that accounts for the majority of computation time spent\nin zk-SNARK systems. The MSM calculations extensive rely on modular arithmetic\nso highly optimized Intel IP Libraries for modular arithmetic are used. The\nproposed architecture exploits the parallelism inherent to MSM and is\nimplemented using the Intel OneAPI framework for FPGAs. Our implementation runs\n110x-150x faster compared to reference software library, uses a generic curve\nform in Jacobian coordinates and is the first to report FPGA hardware\nacceleration results for BLS12-381 and BN128 family of elliptic curves.\n",
+  "subjects": [
+    "Computer Science/Hardware Architecture",
+    "Computer Science/Cryptography and Security"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "84GRI2fqfImaTEZ8dSlIRuvESjfez4wwMVRNStSOKtk",
+  "pdfSize": "817135"
+}

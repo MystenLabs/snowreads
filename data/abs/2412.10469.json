@@ -1,0 +1,39 @@
+{
+  "id": "2412.10469",
+  "title": "Comparative Analysis of Mel-Frequency Cepstral Coefficients and Wavelet\n  Based Audio Signal Processing for Emotion Detection and Mental Health\n  Assessment in Spoken Speech",
+  "authors": "Idoko Agbo, Dr Hoda El-Sayed and M.D Kamruzzan Sarker",
+  "authorsParsed": [
+    [
+      "Agbo",
+      "Idoko",
+      ""
+    ],
+    [
+      "El-Sayed",
+      "Dr Hoda",
+      ""
+    ],
+    [
+      "Sarker",
+      "M. D Kamruzzan",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 12 Dec 2024 22:55:11 GMT"
+    }
+  ],
+  "updateDate": "2024-12-17",
+  "timestamp": 1734044111000,
+  "abstract": "  The intersection of technology and mental health has spurred innovative\napproaches to assessing emotional well-being, particularly through\ncomputational techniques applied to audio data analysis. This study explores\nthe application of Convolutional Neural Network (CNN) and Long Short-Term\nMemory (LSTM) models on wavelet extracted features and Mel-frequency Cepstral\nCoefficients (MFCCs) for emotion detection from spoken speech. Data\naugmentation techniques, feature extraction, normalization, and model training\nwere conducted to evaluate the models' performance in classifying emotional\nstates. Results indicate that the CNN model achieved a higher accuracy of 61%\ncompared to the LSTM model's accuracy of 56%. Both models demonstrated better\nperformance in predicting specific emotions such as surprise and anger,\nleveraging distinct audio features like pitch and speed variations.\nRecommendations include further exploration of advanced data augmentation\ntechniques, combined feature extraction methods, and the integration of\nlinguistic analysis with speech characteristics for improved accuracy in mental\nhealth diagnostics. Collaboration for standardized dataset collection and\nsharing is recommended to foster advancements in affective computing and mental\nhealth care interventions.\n",
+  "subjects": [
+    "Computer Science/Sound",
+    "Computer Science/Machine Learning",
+    "Electrical Engineering and Systems Science/Audio and Speech Processing"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "bGnaF1-oIzyL8M8jJakG1EY6l6XHP0Cg8ny60vmqjX0",
+  "pdfSize": "498226"
+}

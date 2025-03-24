@@ -1,0 +1,37 @@
+{
+  "id": "2412.00465",
+  "title": "AgriBench: A Hierarchical Agriculture Benchmark for Multimodal Large\n  Language Models",
+  "authors": "Yutong Zhou and Masahiro Ryo",
+  "authorsParsed": [
+    [
+      "Zhou",
+      "Yutong",
+      ""
+    ],
+    [
+      "Ryo",
+      "Masahiro",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 30 Nov 2024 12:59:03 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Sat, 21 Dec 2024 16:18:42 GMT"
+    }
+  ],
+  "updateDate": "2024-12-24",
+  "timestamp": 1732971543000,
+  "abstract": "  We introduce AgriBench, the first agriculture benchmark designed to evaluate\nMultiModal Large Language Models (MM-LLMs) for agriculture applications. To\nfurther address the agriculture knowledge-based dataset limitation problem, we\npropose MM-LUCAS, a multimodal agriculture dataset, that includes 1,784\nlandscape images, segmentation masks, depth maps, and detailed annotations\n(geographical location, country, date, land cover and land use taxonomic\ndetails, quality scores, aesthetic scores, etc), based on the Land Use/Cover\nArea Frame Survey (LUCAS) dataset, which contains comparable statistics on land\nuse and land cover for the European Union (EU) territory. This work presents a\ngroundbreaking perspective in advancing agriculture MM-LLMs and is still in\nprogress, offering valuable insights for future developments and innovations in\nspecific expert knowledge-based MM-LLMs.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "-PlHYJiPHKnKYcTJWpXtQ8Og0bLfo0DpMCvFQm5VIdc",
+  "pdfSize": "8156502"
+}

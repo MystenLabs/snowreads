@@ -1,0 +1,46 @@
+{
+  "id": "2412.08161",
+  "title": "Collaborative Hybrid Propagator for Temporal Misalignment in\n  Audio-Visual Segmentation",
+  "authors": "Kexin Li, Zongxin Yang, Yi Yang, Jun Xiao",
+  "authorsParsed": [
+    [
+      "Li",
+      "Kexin",
+      ""
+    ],
+    [
+      "Yang",
+      "Zongxin",
+      ""
+    ],
+    [
+      "Yang",
+      "Yi",
+      ""
+    ],
+    [
+      "Xiao",
+      "Jun",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 11 Dec 2024 07:33:18 GMT"
+    }
+  ],
+  "updateDate": "2024-12-12",
+  "timestamp": 1733902398000,
+  "abstract": "  Audio-visual video segmentation (AVVS) aims to generate pixel-level maps of\nsound-producing objects that accurately align with the corresponding audio.\nHowever, existing methods often face temporal misalignment, where audio cues\nand segmentation results are not temporally coordinated. Audio provides two\ncritical pieces of information: i) target object-level details and ii) the\ntiming of when objects start and stop producing sounds. Current methods focus\nmore on object-level information but neglect the boundaries of audio semantic\nchanges, leading to temporal misalignment. To address this issue, we propose a\nCollaborative Hybrid Propagator Framework~(Co-Prop). This framework includes\ntwo main steps: Preliminary Audio Boundary Anchoring and Frame-by-Frame\nAudio-Insert Propagation. To Anchor the audio boundary, we employ\nretrieval-assist prompts with Qwen large language models to identify control\npoints of audio semantic changes. These control points split the audio into\nsemantically consistent audio portions. After obtaining the control point\nlists, we propose the Audio Insertion Propagator to process each audio portion\nusing a frame-by-frame audio insertion propagation and matching approach. We\ncurated a compact dataset comprising diverse source conversion cases and\ndevised a metric to assess alignment rates. Compared to traditional\nsimultaneous processing methods, our approach reduces memory requirements and\nfacilitates frame alignment. Experimental results demonstrate the effectiveness\nof our approach across three datasets and two backbones. Furthermore, our\nmethod can be integrated with existing AVVS approaches, offering plug-and-play\nfunctionality to enhance their performance.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Machine Learning",
+    "Computer Science/Multimedia",
+    "Computer Science/Sound",
+    "Electrical Engineering and Systems Science/Audio and Speech Processing"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "RlxCM2y2ZxGAjxiSvfArlRypaJNmuzeYxnCO4SIyztk",
+  "pdfSize": "1578637"
+}

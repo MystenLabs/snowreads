@@ -1,0 +1,48 @@
+{
+  "id": "2412.10784",
+  "title": "Irradiation-driven Evaporation of Micro Droplets in an Optical Trap",
+  "authors": "Jugal Rakesh Shah, Max Huisman, Devendra Deshmukh, Dag Hanstorp, and\n  Javier Tello Marmolejo",
+  "authorsParsed": [
+    [
+      "Shah",
+      "Jugal Rakesh",
+      ""
+    ],
+    [
+      "Huisman",
+      "Max",
+      ""
+    ],
+    [
+      "Deshmukh",
+      "Devendra",
+      ""
+    ],
+    [
+      "Hanstorp",
+      "Dag",
+      ""
+    ],
+    [
+      "Marmolejo",
+      "Javier Tello",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 14 Dec 2024 10:41:06 GMT"
+    }
+  ],
+  "updateDate": "2024-12-17",
+  "timestamp": 1734172866000,
+  "abstract": "  Small droplets are irradiated with visible and infrared light in many natural\nand industrial environments. One of the simplest ways to describe their\nevaporation is the D$^2$-Law. It states that the evaporation rate is\nproportional to $t^{-1/2}$, and $R^{-1}$. However, models like the D$^2$-Law do\nnot account for the volumetric heating of light and the effect of strong\nirradiation on individual droplets is not fully understood. Here we show the\neffects of IR irradiation on optically levitated water droplets. We find that,\nunder strong irradiation of up to $10^8 W/m^2$, the droplet evaporation is\ninitially driven by the heat from the laser following the power law $dR / dt\n\\sim R$, i.e. the inverse of the D$^2$-Law. Then, when the droplets shrink to 2\n- 3 $\\mu$m in radius a turnover occurs from irradiation-driven back to\ndiffusion-driven evaporation. Our findings support the understanding of droplet\nevaporation in cases such as rocket engines or internal combustion, where the\nradiation from the flame will heat water and fuel droplets.\n",
+  "subjects": [
+    "Physics/Fluid Dynamics",
+    "Physics/Optics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "p-Fe7c7twY0KZU9wcKjx18B648j3EiBqhKamDKb-6FM",
+  "pdfSize": "2823127"
+}

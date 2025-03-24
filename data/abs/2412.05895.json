@@ -1,0 +1,37 @@
+{
+  "id": "2412.05895",
+  "title": "A Review on Multisensor Data Fusion for Wearable Health Monitoring",
+  "authors": "Arlene John, Barry Cardiff, Deepu John",
+  "authorsParsed": [
+    [
+      "John",
+      "Arlene",
+      ""
+    ],
+    [
+      "Cardiff",
+      "Barry",
+      ""
+    ],
+    [
+      "John",
+      "Deepu",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 8 Dec 2024 11:29:01 GMT"
+    }
+  ],
+  "updateDate": "2024-12-10",
+  "timestamp": 1733657341000,
+  "abstract": "  The growing demand for accurate, continuous, and non-invasive health\nmonitoring has propelled multi-sensor data fusion to the forefront of\nhealthcare technology. This review aims to provide an overview of the\ndevelopment of fusion frameworks in the literature and common terminology used\nin fusion literature. The review introduces the fusion classification standards\nand methods that are most relevant from an algorithm development perspective.\nApplications of the reviewed fusion frameworks in fields such as defense,\nautonomous driving, robotics, and image fusion are also discussed to provide\ncontextual information on the various fusion methodologies that have been\ndeveloped in this field. This review provides a comprehensive analysis of\nmulti-sensor data fusion methods applied to health monitoring systems, focusing\non key algorithms, applications, challenges, and future directions. We examine\ncommonly used fusion techniques, including Kalman filters, Bayesian networks,\nand machine learning models. By integrating data from various sources, these\nfusion approaches enhance the reliability, accuracy, and resilience of health\nmonitoring systems. However, challenges such as data quality and differences in\nacquisition systems exist, calling for intelligent fusion algorithms in recent\nyears. The review finally converges on applications of fusion algorithms in\nbiomedical inference tasks like heartbeat detection, respiration rate\nestimation, sleep apnea detection, arrhythmia detection, and atrial\nfibrillation detection.\n",
+  "subjects": [
+    "Electrical Engineering and Systems Science/Signal Processing"
+  ],
+  "license": "http://creativecommons.org/licenses/by-sa/4.0/",
+  "blobId": "VHWedM6-97DpN9bdOxRZpzqBEez5NunFIRbQfXZlKP8",
+  "pdfSize": "2295647"
+}

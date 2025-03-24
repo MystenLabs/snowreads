@@ -1,0 +1,32 @@
+{
+  "id": "2412.16864",
+  "title": "Efficient Row-Level Lineage Leveraging Predicate Pushdown",
+  "authors": "Yin Lin and Cong Yan",
+  "authorsParsed": [
+    [
+      "Lin",
+      "Yin",
+      ""
+    ],
+    [
+      "Yan",
+      "Cong",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 22 Dec 2024 05:24:17 GMT"
+    }
+  ],
+  "updateDate": "2024-12-24",
+  "timestamp": 1734845057000,
+  "abstract": "  Row-level lineage explains what input rows produce an output row through a\ndata processing pipeline, having many applications like data debugging,\nauditing, data integration, etc. Prior work on lineage falls in two lines:\neager lineage tracking and lazy lineage inference. Eager tracking integrates\nlineage tracing tightly into the operator implementation, enabling efficient\ncustomized tracking. However, this approach is intrusive, system-specific, and\nlacks adaptability. In contrast, lazy inference generates additional queries to\ncompute lineage; it can be easily applied to any database, but the lineage\nquery is usually slow. Furthermore, both approaches have limited coverage of\nthe type of data processing pipeline supported due to operator-specific\ntracking or inference rules.\n  In this work, we propose PredTrace, a lineage inference approach that\nachieves easy adaptation, low runtime overhead, efficient lineage querying, and\nhigh pipeline coverage. It achieves this by leveraging predicate pushdown:\npushing a row-selection predicate that describes the target output down to\nsource tables and querying the lineage by running the pushed-down predicate.\nPredTrace may require saving intermediate results when running the pipeline in\norder to compute the precise lineage. When this is not viable, it can still\ninfer lineage but may return a superset. Compared to prior work, PredTrace\nachieves higher coverage on TPC-H queries as well as 70 sampled real-world data\nprocessing pipelines in which UDFs are widely used. It can infer lineage in\nseconds, outperforming prior lazy approaches by up to 10x.\n",
+  "subjects": [
+    "Computer Science/Databases"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "KhVgMIh6zEeuXc0FzvU95ZRtHr9IZYjmjXFPhnAQzFE",
+  "pdfSize": "2054128"
+}

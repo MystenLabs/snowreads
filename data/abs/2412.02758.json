@@ -1,0 +1,43 @@
+{
+  "id": "2412.02758",
+  "title": "Data-Driven LQR with Finite-Time Experiments via Extremum-Seeking Policy\n  Iteration",
+  "authors": "Guido Carnevale, Nicola Mimmo, Giuseppe Notarstefano",
+  "authorsParsed": [
+    [
+      "Carnevale",
+      "Guido",
+      ""
+    ],
+    [
+      "Mimmo",
+      "Nicola",
+      ""
+    ],
+    [
+      "Notarstefano",
+      "Giuseppe",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 3 Dec 2024 19:00:29 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Thu, 5 Dec 2024 09:02:05 GMT"
+    }
+  ],
+  "updateDate": "2024-12-06",
+  "timestamp": 1733252429000,
+  "abstract": "  In this paper, we address Linear Quadratic Regulator (LQR) problems through a\nnovel iterative algorithm named EXtremum-seeking Policy iteration LQR\n(EXP-LQR). The peculiarity of EXP-LQR is that it only needs access to a\ntruncated approximation of the infinite-horizon cost associated to a given\npolicy. Hence, EXP-LQR does not need the direct knowledge of neither the system\nmatrices, cost matrices, and state measurements. In particular, at each\niteration, EXP-LQR refines the maintained policy using a truncated LQR cost\nretrieved by performing finite-time virtual or real experiments in which a\nperturbed version of the current policy is employed. Such a perturbation is\ndone according to an extremum-seeking mechanism and makes the overall algorithm\na time-varying nonlinear system. By using a Lyapunov-based approach exploiting\naveraging theory, we show that EXP-LQR exponentially converges to an\narbitrarily small neighborhood of the optimal gain matrix. We corroborate the\ntheoretical results with numerical simulations involving the control of an\ninduction motor.\n",
+  "subjects": [
+    "Mathematics/Optimization and Control",
+    "Computer Science/Systems and Control",
+    "Electrical Engineering and Systems Science/Systems and Control"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "7ZvopZGjrAU2qzAyx6zyR4Biic2jGCw3MyT7LQPaw8I",
+  "pdfSize": "667129"
+}

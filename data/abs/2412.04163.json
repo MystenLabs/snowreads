@@ -1,0 +1,63 @@
+{
+  "id": "2412.04163",
+  "title": "On the Lack of Robustness of Binary Function Similarity Systems",
+  "authors": "Gianluca Capozzi, Tong Tang, Jie Wan, Ziqi Yang, Daniele Cono D'Elia,\n  Giuseppe Antonio Di Luna, Lorenzo Cavallaro, Leonardo Querzoni",
+  "authorsParsed": [
+    [
+      "Capozzi",
+      "Gianluca",
+      ""
+    ],
+    [
+      "Tang",
+      "Tong",
+      ""
+    ],
+    [
+      "Wan",
+      "Jie",
+      ""
+    ],
+    [
+      "Yang",
+      "Ziqi",
+      ""
+    ],
+    [
+      "D'Elia",
+      "Daniele Cono",
+      ""
+    ],
+    [
+      "Di Luna",
+      "Giuseppe Antonio",
+      ""
+    ],
+    [
+      "Cavallaro",
+      "Lorenzo",
+      ""
+    ],
+    [
+      "Querzoni",
+      "Leonardo",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 5 Dec 2024 13:54:53 GMT"
+    }
+  ],
+  "updateDate": "2024-12-06",
+  "timestamp": 1733406893000,
+  "abstract": "  Binary function similarity, which often relies on learning-based algorithms\nto identify what functions in a pool are most similar to a given query\nfunction, is a sought-after topic in different communities, including machine\nlearning, software engineering, and security. Its importance stems from the\nimpact it has in facilitating several crucial tasks, from reverse engineering\nand malware analysis to automated vulnerability detection. Whereas recent work\ncast light around performance on this long-studied problem, the research\nlandscape remains largely lackluster in understanding the resiliency of the\nstate-of-the-art machine learning models against adversarial attacks. As\nsecurity requires to reason about adversaries, in this work we assess the\nrobustness of such models through a simple yet effective black-box greedy\nattack, which modifies the topology and the content of the control flow of the\nattacked functions. We demonstrate that this attack is successful in\ncompromising all the models, achieving average attack success rates of 57.06%\nand 95.81% depending on the problem settings (targeted and untargeted attacks).\nOur findings are insightful: top performance on clean data does not necessarily\nrelate to top robustness properties, which explicitly highlights\nperformance-robustness trade-offs one should consider when deploying such\nmodels, calling for further research.\n",
+  "subjects": [
+    "Computer Science/Cryptography and Security",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "4qRqjsV7gBZArNb8_PwLltEz-88HlvYktSVaq4GVq1k",
+  "pdfSize": "1201070"
+}

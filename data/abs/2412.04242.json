@@ -1,0 +1,27 @@
+{
+  "id": "2412.04242",
+  "title": "LMDM:Latent Molecular Diffusion Model For 3D Molecule Generation",
+  "authors": "Xiang Chen",
+  "authorsParsed": [
+    [
+      "Chen",
+      "Xiang",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 5 Dec 2024 15:25:18 GMT"
+    }
+  ],
+  "updateDate": "2024-12-06",
+  "timestamp": 1733412318000,
+  "abstract": "  n this work, we propose a latent molecular diffusion model that can make the\ngenerated 3D molecules rich in diversity and maintain rich geometric features.\nThe model captures the information of the forces and local constraints between\natoms so that the generated molecules can maintain Euclidean transformation and\nhigh level of effectiveness and diversity. We also use the lowerrank manifold\nadvantage of the latent variables of the latent model to fuse the information\nof the forces between atoms to better maintain the geometric equivariant\nproperties of the molecules. Because there is no need to perform information\nfusion encoding in stages like traditional encoders and decoders, this reduces\nthe amount of calculation in the back-propagation process. The model keeps the\nforces and local constraints of particle bonds in the latent variable space,\nreducing the impact of underfitting on the surface of the network on the large\nposition drift of the particle geometry, so that our model can converge\nearlier. We introduce a distribution control variable in each backward step to\nstrengthen exploration and improve the diversity of generation. In the\nexperiment, the quality of the samples we generated and the convergence speed\nof the model have been significantly improved.\n",
+  "subjects": [
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "ja3g8ky9ZobPOmJBePBfZgpuJVqlgCdGYJc5X-BQ-Q4",
+  "pdfSize": "2717935"
+}

@@ -1,0 +1,52 @@
+{
+  "id": "2412.06938",
+  "title": "Optimising entanglement distribution policies under classical\n  communication constraints assisted by reinforcement learning",
+  "authors": "Jan Li, Tim Coopmans, Patrick Emonts, Kenneth Goodenough, Jordi Tura,\n  Evert van Nieuwenburg",
+  "authorsParsed": [
+    [
+      "Li",
+      "Jan",
+      ""
+    ],
+    [
+      "Coopmans",
+      "Tim",
+      ""
+    ],
+    [
+      "Emonts",
+      "Patrick",
+      ""
+    ],
+    [
+      "Goodenough",
+      "Kenneth",
+      ""
+    ],
+    [
+      "Tura",
+      "Jordi",
+      ""
+    ],
+    [
+      "van Nieuwenburg",
+      "Evert",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 9 Dec 2024 19:26:49 GMT"
+    }
+  ],
+  "updateDate": "2024-12-11",
+  "timestamp": 1733772409000,
+  "abstract": "  Quantum repeaters play a crucial role in the effective distribution of\nentanglement over long distances. The nearest-future type of quantum repeater\nrequires two operations: entanglement generation across neighbouring repeaters\nand entanglement swapping to promote short-range entanglement to long-range.\nFor many hardware setups, these actions are probabilistic, leading to longer\ndistribution times and incurred errors. Significant efforts have been vested in\nfinding the optimal entanglement-distribution policy, i.e. the protocol\nspecifying when a network node needs to generate or swap entanglement, such\nthat the expected time to distribute long-distance entanglement is minimal.\nThis problem is even more intricate in more realistic scenarios, especially\nwhen classical communication delays are taken into account. In this work, we\nformulate our problem as a Markov decision problem and use reinforcement\nlearning (RL) to optimise over centralised strategies, where one designated\nnode instructs other nodes which actions to perform. Contrary to most RL\nmodels, ours can be readily interpreted. Additionally, we introduce and\nevaluate a fixed local policy, the `predictive swap-asap' policy, where nodes\nonly coordinate with nearest neighbours. Compared to the straightforward\ngeneralization of the common swap-asap policy to the scenario with classical\ncommunication effects, the `wait-for-broadcast swap-asap' policy, both of the\naforementioned entanglement-delivery policies are faster at high success\nprobabilities. Our work showcases the merit of considering policies acting with\nincomplete information in the realistic case when classical communication\neffects are significant.\n",
+  "subjects": [
+    "Physics/Quantum Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "XXm3-ty99Q0qutbKtkVDchBMDL56P82TUQyNHIRf0Zc",
+  "pdfSize": "1605791"
+}

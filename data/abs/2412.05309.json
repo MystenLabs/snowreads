@@ -1,0 +1,33 @@
+{
+  "id": "2412.05309",
+  "title": "The Information Theory of Self-Organization Phenomena in Thermal Systems",
+  "authors": "Hongzheng Liu and Zhiyue Wu",
+  "authorsParsed": [
+    [
+      "Liu",
+      "Hongzheng",
+      ""
+    ],
+    [
+      "Wu",
+      "Zhiyue",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 27 Nov 2024 19:14:17 GMT"
+    }
+  ],
+  "updateDate": "2024-12-10",
+  "timestamp": 1732734857000,
+  "abstract": "  This paper revisits Brownian motion from the perspective of Information\nTheory, aiming to explore the connections between Information Theory,\nThermodynamics, and Complex Science. First, we propose a single-particle\ndiscrete Brownian motion model (SPBM). Within the framework of the maximum\nentropy principle and Bayesian inference, we demonstrate the equivalence of\nprior information and constraint conditions, revealing the relationship between\nlocal randomness and global probability distribution. By analyzing particle\nmotion, we find that local constraints and randomness can lead to global\nprobability distributions, thereby reflecting the interplay between local and\nglobal dynamics in the process of information transfer. Next, we extend our\nresearch to multi-particle systems, introducing the concepts of \"Energy as\nEncoding\" and \"Information Temperature\" to clarify how energy distribution\ndetermines information structure. We explore how energy, as not only a\nfundamental physical quantity in physical systems but also an inherently\ninformational one, directly dictates the prior probability distribution of\nsystem states, thus serving as a form of information encoding. Based on this,\nwe introduce the concept of \"Equilibrium Flow\" to explain the self-organizing\nbehavior of systems under energy constraints and Negative Information\nTemperature. By proving three theorems regarding Equilibrium Flow systems, we\nreveal the criticality of Self-Organization, energy-information conversion\nefficiency, and the characteristic that event occurrence probabilities follow\nthe Fermi-Dirac distribution. Through theoretical analysis and theorem proofs,\nwe offer new perspectives for understanding the dynamics of Complex Systems,\nenriching the theoretical framework of Information Theory, Thermodynamics, and\nComplex Science, and providing a new theoretical basis for further research in\nrelated fields.\n",
+  "subjects": [
+    "Condensed Matter/Statistical Mechanics",
+    "Nonlinear Sciences/Adaptation and Self-Organizing Systems"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "727sJYYsn9BRGlxtRvd2FtAGKZGUZamyUz8Bi1oQmI0",
+  "pdfSize": "234089"
+}

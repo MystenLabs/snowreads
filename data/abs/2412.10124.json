@@ -1,0 +1,38 @@
+{
+  "id": "2412.10124",
+  "title": "Anomalous scaling and magnetization temperature dependence in cubic\n  ferromagnetic crystals",
+  "authors": "Igor Kolokolov, Victor S. L'vov, and Anna Pomyalov",
+  "authorsParsed": [
+    [
+      "Kolokolov",
+      "Igor",
+      ""
+    ],
+    [
+      "L'vov",
+      "Victor S.",
+      ""
+    ],
+    [
+      "Pomyalov",
+      "Anna",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 13 Dec 2024 13:07:50 GMT"
+    }
+  ],
+  "updateDate": "2024-12-16",
+  "timestamp": 1734095270000,
+  "abstract": "  Recent developments in spintronics have drawn renewed attention to the spin\ndynamics of cubic ferromagnetic crystals EuO and EuS. These ferromagnets have\nthe simplest possible magnetic structure, making them the most suitable systems\nfor testing various theoretical models of magnetic materials. A commonly used\nWess mean-field approximation (MFA) provides only a qualitative description of\nmagnetization temperature dependence $M(T)$. We develop a consistent theory for\n$M(T)$, based on the perturbation diagrammatic technique for spin operators,\nleading to an excellent quantitative agreement with the experimental dependence\nof $M(T)$ for EuO and EuS throughout the entire temperature range from $T=0$ to\nCurie temperature $T_{_{C}}$. In particular, our theoretical dependence $M(T)$\ndemonstrates an anomalous scaling behavior $ M(T)\\propto (T_{_{C}}-T)^\\beta$\nwith the scaling index $\\beta\\approx 1/3$ in a wide range of temperatures, in\nagreement with the experimentally observed scaling in EuO and EuS. This scaling\nindex is principally different from the scaling index $\\beta=1/2$ predicted by\nthe MFA.\n",
+  "subjects": [
+    "Condensed Matter/Materials Science",
+    "Condensed Matter/Statistical Mechanics"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "LNSSQCtlYXnBpQAI6MR8drAE1y3oUYgS1SL8QDKgf74",
+  "pdfSize": "762124"
+}

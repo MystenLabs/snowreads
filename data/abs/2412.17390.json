@@ -1,0 +1,27 @@
+{
+  "id": "2412.17390",
+  "title": "PointVoxelFormer -- Reviving point cloud networks for 3D medical imaging",
+  "authors": "Mattias Paul Heinrich",
+  "authorsParsed": [
+    [
+      "Heinrich",
+      "Mattias Paul",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 23 Dec 2024 08:43:39 GMT"
+    }
+  ],
+  "updateDate": "2024-12-24",
+  "timestamp": 1734943419000,
+  "abstract": "  Point clouds are a very efficient way to represent volumetric data in medical\nimaging. First, they do not occupy resources for empty spaces and therefore can\navoid trade-offs between resolution and field-of-view for voxel-based 3D\nconvolutional networks (CNNs) - leading to smaller and robust models. Second,\nthey provide a modality agnostic representation of anatomical surfaces and\nshapes to avoid domain gaps for generic geometric models. Third, they remove\nidentifiable patient-specific information and may increase privacy preservation\nwhen publicly sharing data. Despite their benefits, point clouds are still\nunderexplored in medical imaging compared to volumetric 3D CNNs and vision\ntransformers. To date both datasets and stringent studies on comparative\nstrengths and weaknesses of methodological choices are missing. Interactions\nand information exchange of spatially close points - e.g. through k-nearest\nneighbour graphs in edge convolutions or point transformations - within points\nclouds are crucial for learning geometrically meaningful features but may incur\ncomputational bottlenecks. This work presents a hybrid approach that combines\npoint-wise operations with intermediate differentiable rasterisation and dense\nlocalised CNNs. For deformable point cloud registration, we devise an early\nfusion scheme for coordinate features that joins both clouds within a common\nreference frame and is coupled with an inverse consistent, two-step alignment\narchitecture. Our extensive experiments on three different datasets for\nsegmentation and registration demonstrate that our method, PointVoxelFormer,\nenables very compact models that excel with threefold speed-ups, fivefold\nmemory reduction and over 30% registration error reduction against edge\nconvolutions and other state-of-the-art models in geometric deep learning.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by-sa/4.0/",
+  "blobId": "wfw2wNZ_e-Tblx6BmBgcjk5dUeYK2ZZfLj8_P3vDv_c",
+  "pdfSize": "7016848"
+}

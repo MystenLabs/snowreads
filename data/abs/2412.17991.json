@@ -1,0 +1,73 @@
+{
+  "id": "2412.17991",
+  "title": "Online Adaptation for Myographic Control of Natural Dexterous Hand and\n  Finger Movements",
+  "authors": "Joseph L. Betthauser, Rebecca Greene, Ananya Dhawan, John T. Krall,\n  Christopher L. Hunt, Gyorgy Levay, Rahul R. Kaliki, Matthew S. Fifer,\n  Siddhartha Sikdar, Nitish V. Thakor",
+  "authorsParsed": [
+    [
+      "Betthauser",
+      "Joseph L.",
+      ""
+    ],
+    [
+      "Greene",
+      "Rebecca",
+      ""
+    ],
+    [
+      "Dhawan",
+      "Ananya",
+      ""
+    ],
+    [
+      "Krall",
+      "John T.",
+      ""
+    ],
+    [
+      "Hunt",
+      "Christopher L.",
+      ""
+    ],
+    [
+      "Levay",
+      "Gyorgy",
+      ""
+    ],
+    [
+      "Kaliki",
+      "Rahul R.",
+      ""
+    ],
+    [
+      "Fifer",
+      "Matthew S.",
+      ""
+    ],
+    [
+      "Sikdar",
+      "Siddhartha",
+      ""
+    ],
+    [
+      "Thakor",
+      "Nitish V.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 23 Dec 2024 21:20:32 GMT"
+    }
+  ],
+  "updateDate": "2024-12-25",
+  "timestamp": 1734988832000,
+  "abstract": "  One of the most elusive goals in myographic prosthesis control is the ability\nto reliably decode continuous positions simultaneously across multiple\ndegrees-of-freedom. Goal: To demonstrate dexterous, natural, biomimetic finger\nand wrist control of the highly advanced robotic Modular Prosthetic Limb.\nMethods: We combine sequential temporal regression models and reinforcement\nlearning using myographic signals to predict continuous simultaneous\npredictions of 7 finger and wrist degrees-of-freedom for 9 non-amputee human\nsubjects in a minimally-constrained freeform training process. Results: We\ndemonstrate highly dexterous 7 DoF position-based regression for prosthesis\ncontrol from EMG signals, with significantly lower error rates than traditional\napproaches (p < 0.001) and nearly zero prediction response time delay (p <\n0.001). Their performance can be continuously improved at any time using our\nfreeform reinforcement process. Significance: We have demonstrated the most\ndexterous, biomimetic, and natural prosthesis control performance ever obtained\nfrom the surface EMG signal. Our reinforcement approach allowed us to abandon\nstandard training protocols and simply allow the subject to move in any desired\nway while our models adapt. Conclusions: This work redefines the\nstate-of-the-art in myographic decoding in terms of the reliability,\nresponsiveness, and movement complexity available from prosthesis control\nsystems. The present-day emergence and convergence of advanced algorithmic\nmethods, experiment protocols, dexterous robotic prostheses, and sensor\nmodalities represents a unique opportunity to finally realize our ultimate goal\nof achieving fully restorative natural upper-limb function for amputees.\n",
+  "subjects": [
+    "Computer Science/Robotics",
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by-sa/4.0/",
+  "blobId": "4_JNtEIMJo3mE1tMxNa7Ifbcm979sJ5ng6G9NPLuQ_w",
+  "pdfSize": "15588455"
+}

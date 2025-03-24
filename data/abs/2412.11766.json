@@ -1,0 +1,38 @@
+{
+  "id": "2412.11766",
+  "title": "Interplay of epidemic spreading and vaccine uptake under complex social\n  contagion",
+  "authors": "Alfonso de Miguel-Arribas, Alberto Aleta, Yamir Moreno",
+  "authorsParsed": [
+    [
+      "de Miguel-Arribas",
+      "Alfonso",
+      ""
+    ],
+    [
+      "Aleta",
+      "Alberto",
+      ""
+    ],
+    [
+      "Moreno",
+      "Yamir",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 16 Dec 2024 13:37:27 GMT"
+    }
+  ],
+  "updateDate": "2024-12-17",
+  "timestamp": 1734356247000,
+  "abstract": "  Modeling human behavior is essential to accurately predict epidemic spread,\nwith behaviors like vaccine hesitancy complicating control efforts. While\nepidemic spread is often treated as a simple contagion, vaccine uptake may\nfollow complex contagion dynamics, where individuals' decisions depend on\nmultiple social contacts. Recently, the concept of complex contagion has\nreceived strong theoretical underpinnings thanks to the generalization of\nspreading phenomena from pairwise to higher-order interactions. Although\nseveral potential applications have been suggested, examples of complex\ncontagions motivated by real data remain scarce. Surveys on COVID-19 vaccine\nhesitancy in the US suggest that vaccination attitudes may indeed depend on the\nvaccination status of social peers, aligning with complex contagion principles.\nIn this work, we examine the interactions between epidemic spread, vaccination,\nand vaccine uptake attitudes under complex contagion. Using the SIR model with\na dynamic, threshold-based vaccination campaign, we simulate scenarios on an\nage-structured multilayer network informed by US contact data. Our results\noffer insights into the role of social dynamics in shaping vaccination behavior\nand epidemic outcomes.\n",
+  "subjects": [
+    "Physics/Physics and Society",
+    "Computer Science/Social and Information Networks"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "IGRKmQ_bKohUdLg7w01-HBF8vxNxOd8jyorJUNYfgv4",
+  "pdfSize": "10670675"
+}

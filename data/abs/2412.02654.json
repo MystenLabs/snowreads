@@ -1,0 +1,32 @@
+{
+  "id": "2412.02654",
+  "title": "Simple and Effective Portfolio Construction with Crypto Assets",
+  "authors": "Kasper Johansson and Stephen Boyd",
+  "authorsParsed": [
+    [
+      "Johansson",
+      "Kasper",
+      ""
+    ],
+    [
+      "Boyd",
+      "Stephen",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 3 Dec 2024 18:29:04 GMT"
+    }
+  ],
+  "updateDate": "2024-12-04",
+  "timestamp": 1733250544000,
+  "abstract": "  We consider the problem of constructing a portfolio that combines traditional\nfinancial assets with crypto assets. We show that despite the documented\nattributes of crypto assets, such as high volatility, heavy tails, excess\nkurtosis, and skewness, a simple extension of traditional risk allocation\nprovides robust solutions for integrating these emerging assets into broader\ninvestment strategies. Examination of the risk allocation holdings suggests an\neven simpler method, analogous to the traditional 60/40 stocks/bonds\nallocation, involving a fixed allocation to crypto and traditional assets,\ndynamically diluted with cash to achieve a target risk level.\n",
+  "subjects": [
+    "Economics/Econometrics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "ZYE4HmZ4a0D_vkhZyvHfhZpWcfPYBTpATJZLUczmQrg",
+  "pdfSize": "1589256"
+}

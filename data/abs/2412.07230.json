@@ -1,0 +1,47 @@
+{
+  "id": "2412.07230",
+  "title": "Deep Non-rigid Structure-from-Motion Revisited: Canonicalization and\n  Sequence Modeling",
+  "authors": "Hui Deng, Jiawei Shi, Zhen Qin, Yiran Zhong, Yuchao Dai",
+  "authorsParsed": [
+    [
+      "Deng",
+      "Hui",
+      ""
+    ],
+    [
+      "Shi",
+      "Jiawei",
+      ""
+    ],
+    [
+      "Qin",
+      "Zhen",
+      ""
+    ],
+    [
+      "Zhong",
+      "Yiran",
+      ""
+    ],
+    [
+      "Dai",
+      "Yuchao",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 10 Dec 2024 06:42:01 GMT"
+    }
+  ],
+  "updateDate": "2024-12-11",
+  "timestamp": 1733812921000,
+  "abstract": "  Non-Rigid Structure-from-Motion (NRSfM) is a classic 3D vision problem, where\na 2D sequence is taken as input to estimate the corresponding 3D sequence.\nRecently, the deep neural networks have greatly advanced the task of NRSfM.\nHowever, existing deep NRSfM methods still have limitations in handling the\ninherent sequence property and motion ambiguity associated with the NRSfM\nproblem. In this paper, we revisit deep NRSfM from two perspectives to address\nthe limitations of current deep NRSfM methods : (1) canonicalization and (2)\nsequence modeling. We propose an easy-to-implement per-sequence\ncanonicalization method as opposed to the previous per-dataset canonicalization\napproaches. With this in mind, we propose a sequence modeling method that\ncombines temporal information and subspace constraint. As a result, we have\nachieved a more optimal NRSfM reconstruction pipeline compared to previous\nefforts. The effectiveness of our method is verified by testing the\nsequence-to-sequence deep NRSfM pipeline with corresponding regularization\nmodules on several commonly used datasets.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "0rE-1iNO_4mOCPn6MGBfW1zq6fG5V814Du8XXTkUz6o",
+  "pdfSize": "3089519"
+}

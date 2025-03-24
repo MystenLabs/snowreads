@@ -1,0 +1,63 @@
+{
+  "id": "2412.01271",
+  "title": "MuLan: Adapting Multilingual Diffusion Models for Hundreds of Languages\n  with Negligible Cost",
+  "authors": "Sen Xing, Muyan Zhong, Zeqiang Lai, Liangchen Li, Jiawen Liu, Yaohui\n  Wang, Jifeng Dai, Wenhai Wang",
+  "authorsParsed": [
+    [
+      "Xing",
+      "Sen",
+      ""
+    ],
+    [
+      "Zhong",
+      "Muyan",
+      ""
+    ],
+    [
+      "Lai",
+      "Zeqiang",
+      ""
+    ],
+    [
+      "Li",
+      "Liangchen",
+      ""
+    ],
+    [
+      "Liu",
+      "Jiawen",
+      ""
+    ],
+    [
+      "Wang",
+      "Yaohui",
+      ""
+    ],
+    [
+      "Dai",
+      "Jifeng",
+      ""
+    ],
+    [
+      "Wang",
+      "Wenhai",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 2 Dec 2024 08:38:19 GMT"
+    }
+  ],
+  "updateDate": "2024-12-03",
+  "timestamp": 1733128699000,
+  "abstract": "  In this work, we explore a cost-effective framework for multilingual image\ngeneration. We find that, unlike models tuned on high-quality images with\nmultilingual annotations, leveraging text encoders pre-trained on widely\navailable, noisy Internet image-text pairs significantly enhances data\nefficiency in text-to-image (T2I) generation across multiple languages. Based\non this insight, we introduce MuLan, Multi-Language adapter, a lightweight\nlanguage adapter with fewer than 20M parameters, trained alongside a frozen\ntext encoder and image diffusion model. Compared to previous multilingual T2I\nmodels, this framework offers: (1) Cost efficiency. Using readily accessible\nEnglish data and off-the-shelf multilingual text encoders minimizes the\ntraining cost; (2) High performance. Achieving comparable generation\ncapabilities in over 110 languages with CLIP similarity scores nearly matching\nthose in English (38.61 for English vs. 37.61 for other languages); and (3)\nBroad applicability. Seamlessly integrating with compatible community tools\nlike LoRA, LCM, ControlNet, and IP-Adapter, expanding its potential use cases.\n",
+  "subjects": [
+    "Computer Science/Computation and Language",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "N9a0sqdWyGpkddsEJQp1DdprbT1LQHtyuDNSkyEgGZI",
+  "pdfSize": "44994205"
+}

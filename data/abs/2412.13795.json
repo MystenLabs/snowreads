@@ -1,0 +1,38 @@
+{
+  "id": "2412.13795",
+  "title": "Mix-LN: Unleashing the Power of Deeper Layers by Combining Pre-LN and\n  Post-LN",
+  "authors": "Pengxiang Li, Lu Yin, Shiwei Liu",
+  "authorsParsed": [
+    [
+      "Li",
+      "Pengxiang",
+      ""
+    ],
+    [
+      "Yin",
+      "Lu",
+      ""
+    ],
+    [
+      "Liu",
+      "Shiwei",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 18 Dec 2024 12:39:53 GMT"
+    }
+  ],
+  "updateDate": "2024-12-19",
+  "timestamp": 1734525593000,
+  "abstract": "  Large Language Models (LLMs) have achieved remarkable success, yet recent\nfindings reveal that their deeper layers often contribute minimally and can be\npruned without affecting overall performance. While some view this as an\nopportunity for model compression, we identify it as a training shortfall\nrooted in the widespread use of Pre-Layer Normalization (Pre-LN). We\ndemonstrate that Pre-LN, commonly employed in models like GPT and LLaMA, leads\nto diminished gradient norms in its deeper layers, reducing their\neffectiveness. In contrast, Post-Layer Normalization (Post-LN) preserves larger\ngradient norms in deeper layers but suffers from vanishing gradients in earlier\nlayers. To address this, we introduce Mix-LN, a novel normalization technique\nthat combines the strengths of Pre-LN and Post-LN within the same model. Mix-LN\napplies Post-LN to the earlier layers and Pre-LN to the deeper layers, ensuring\nmore uniform gradients across layers. This allows all parts of the\nnetwork--both shallow and deep layers--to contribute effectively to training.\nExtensive experiments with various model sizes from 70M to 7B demonstrate that\nMix-LN consistently outperforms both Pre-LN and Post-LN, promoting more\nbalanced, healthier gradient norms throughout the network, and enhancing the\noverall quality of LLM pre-training. Furthermore, we demonstrate that models\npre-trained with Mix-LN learn better compared to those using Pre-LN or Post-LN\nduring supervised fine-tuning (SFT) and reinforcement learning from human\nfeedback (RLHF), highlighting the critical importance of high-quality deep\nlayers. By effectively addressing the inefficiencies of deep layers in current\nLLMs, Mix-LN unlocks their potential, enhancing model capacity without\nincreasing model size. Our code is available at\nhttps://github.com/pixeli99/MixLN.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "zOXJ9Sdpj3qVez-rBvzlVvy3Jq5KInN4ZryEPtgh1Mo",
+  "pdfSize": "769873"
+}

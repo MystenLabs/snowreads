@@ -1,0 +1,37 @@
+{
+  "id": "2412.08416",
+  "title": "Outcome-guided spike-and-slab Lasso Biclustering: A Novel Approach for\n  Enhancing Biclustering Techniques for Gene Expression Analysis",
+  "authors": "Luis A. Vargas-Mieles, Paul D. W. Kirk, Chris Wallace",
+  "authorsParsed": [
+    [
+      "Vargas-Mieles",
+      "Luis A.",
+      ""
+    ],
+    [
+      "Kirk",
+      "Paul D. W.",
+      ""
+    ],
+    [
+      "Wallace",
+      "Chris",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 11 Dec 2024 14:34:12 GMT"
+    }
+  ],
+  "updateDate": "2024-12-12",
+  "timestamp": 1733927652000,
+  "abstract": "  Biclustering has gained interest in gene expression data analysis due to its\nability to identify groups of samples that exhibit similar behaviour in\nspecific subsets of genes (or vice versa), in contrast to traditional\nclustering methods that classify samples based on all genes. Despite advances,\nbiclustering remains a challenging problem, even with cutting-edge\nmethodologies. This paper introduces an extension of the recently proposed\nSpike-and-Slab Lasso Biclustering (SSLB) algorithm, termed Outcome-Guided SSLB\n(OG-SSLB), aimed at enhancing the identification of biclusters in gene\nexpression analysis. Our proposed approach integrates disease outcomes into the\nbiclustering framework through Bayesian profile regression. By leveraging\nadditional clinical information, OG-SSLB improves the interpretability and\nrelevance of the resulting biclusters. Comprehensive simulations and numerical\nexperiments demonstrate that OG-SSLB achieves superior performance, with\nimproved accuracy in estimating the number of clusters and higher consensus\nscores compared to the original SSLB method. Furthermore, OG-SSLB effectively\nidentifies meaningful patterns and associations between gene expression\nprofiles and disease states. These promising results demonstrate the\neffectiveness of OG-SSLB in advancing biclustering techniques, providing a\npowerful tool for uncovering biologically relevant insights. The OGSSLB\nsoftware can be found as an R/C++ package at\nhttps://github.com/luisvargasmieles/OGSSLB .\n",
+  "subjects": [
+    "Statistics/Applications"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "omquKspq9aIYgwMJrRzc5FXb12NT38F2Zq-C18OOMuY",
+  "pdfSize": "690621"
+}

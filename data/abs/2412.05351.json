@@ -1,0 +1,55 @@
+{
+  "id": "2412.05351",
+  "title": "Towards Predicting the Success of Transfer-based Attacks by Quantifying\n  Shared Feature Representations",
+  "authors": "Ashley S. Dale, Mei Qiu, Foo Bin Che, Thomas Bsaibes, Lauren\n  Christopher, Paul Salama",
+  "authorsParsed": [
+    [
+      "Dale",
+      "Ashley S.",
+      ""
+    ],
+    [
+      "Qiu",
+      "Mei",
+      ""
+    ],
+    [
+      "Che",
+      "Foo Bin",
+      ""
+    ],
+    [
+      "Bsaibes",
+      "Thomas",
+      ""
+    ],
+    [
+      "Christopher",
+      "Lauren",
+      ""
+    ],
+    [
+      "Salama",
+      "Paul",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 6 Dec 2024 17:33:15 GMT"
+    }
+  ],
+  "updateDate": "2024-12-10",
+  "timestamp": 1733506395000,
+  "abstract": "  Much effort has been made to explain and improve the success of\ntransfer-based attacks (TBA) on black-box computer vision models. This work\nprovides the first attempt at a priori prediction of attack success by\nidentifying the presence of vulnerable features within target models. Recent\nwork by Chen and Liu (2024) proposed the manifold attack model, a unifying\nframework proposing that successful TBA exist in a common manifold space. Our\nwork experimentally tests the common manifold space hypothesis by a new\nmethodology: first, projecting feature vectors from surrogate and target\nfeature extractors trained on ImageNet onto the same low-dimensional manifold;\nsecond, quantifying any observed structure similarities on the manifold; and\nfinally, by relating these observed similarities to the success of the TBA. We\nfind that shared feature representation moderately correlates with increased\nsuccess of TBA (\\r{ho}= 0.56). This method may be used to predict whether an\nattack will transfer without information of the model weights, training,\narchitecture or details of the attack. The results confirm the presence of\nshared feature representations between two feature extractors of different\nsizes and complexities, and demonstrate the utility of datasets from different\ntarget domains as test signals for interpreting black-box feature\nrepresentations.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Cryptography and Security",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by-sa/4.0/",
+  "blobId": "WDf-XKCeZxnYauExnxwCqiRSLBLl7syGlNBc4FIp1ww",
+  "pdfSize": "22655703"
+}

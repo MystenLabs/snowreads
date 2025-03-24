@@ -1,0 +1,34 @@
+{
+  "id": "2412.01547",
+  "title": "Improved Large Language Model Jailbreak Detection via Pretrained\n  Embeddings",
+  "authors": "Erick Galinkin, Martin Sablotny",
+  "authorsParsed": [
+    [
+      "Galinkin",
+      "Erick",
+      ""
+    ],
+    [
+      "Sablotny",
+      "Martin",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 2 Dec 2024 14:35:43 GMT"
+    }
+  ],
+  "updateDate": "2024-12-03",
+  "timestamp": 1733150143000,
+  "abstract": "  The adoption of large language models (LLMs) in many applications, from\ncustomer service chat bots and software development assistants to more capable\nagentic systems necessitates research into how to secure these systems. Attacks\nlike prompt injection and jailbreaking attempt to elicit responses and actions\nfrom these models that are not compliant with the safety, privacy, or content\npolicies of organizations using the model in their application. In order to\ncounter abuse of LLMs for generating potentially harmful replies or taking\nundesirable actions, LLM owners must apply safeguards during training and\nintegrate additional tools to block the LLM from generating text that abuses\nthe model. Jailbreaking prompts play a vital role in convincing an LLM to\ngenerate potentially harmful content, making it important to identify\njailbreaking attempts to block any further steps. In this work, we propose a\nnovel approach to detect jailbreak prompts based on pairing text embeddings\nwell-suited for retrieval with traditional machine learning classification\nalgorithms. Our approach outperforms all publicly available methods from open\nsource LLM security applications.\n",
+  "subjects": [
+    "Computer Science/Cryptography and Security",
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by-sa/4.0/",
+  "blobId": "GKjKkpb39Ih_S1bMKo4rwtVRzqHKQNi9CvyDx4cIWZk",
+  "pdfSize": "96861"
+}

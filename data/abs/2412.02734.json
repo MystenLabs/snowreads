@@ -1,0 +1,47 @@
+{
+  "id": "2412.02734",
+  "title": "MVCTrack: Boosting 3D Point Cloud Tracking via Multimodal-Guided Virtual\n  Cues",
+  "authors": "Zhaofeng Hu, Sifan Zhou, Shibo Zhao, Zhihang Yuan",
+  "authorsParsed": [
+    [
+      "Hu",
+      "Zhaofeng",
+      ""
+    ],
+    [
+      "Zhou",
+      "Sifan",
+      ""
+    ],
+    [
+      "Zhao",
+      "Shibo",
+      ""
+    ],
+    [
+      "Yuan",
+      "Zhihang",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 3 Dec 2024 18:18:33 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Fri, 13 Dec 2024 06:17:48 GMT"
+    }
+  ],
+  "updateDate": "2024-12-16",
+  "timestamp": 1733249913000,
+  "abstract": "  3D single object tracking is essential in autonomous driving and robotics.\nExisting methods often struggle with sparse and incomplete point cloud\nscenarios. To address these limitations, we propose a Multimodal-guided Virtual\nCues Projection (MVCP) scheme that generates virtual cues to enrich sparse\npoint clouds. Additionally, we introduce an enhanced tracker MVCTrack based on\nthe generated virtual cues. Specifically, the MVCP scheme seamlessly integrates\nRGB sensors into LiDAR-based systems, leveraging a set of 2D detections to\ncreate dense 3D virtual cues that significantly improve the sparsity of point\nclouds. These virtual cues can naturally integrate with existing LiDAR-based 3D\ntrackers, yielding substantial performance gains. Extensive experiments\ndemonstrate that our method achieves competitive performance on the NuScenes\ndataset.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Robotics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "kFBcGzA_ltItuz_OVO0tLSdioN6hdqO5nOXMvqzgRzY",
+  "pdfSize": "3290710"
+}

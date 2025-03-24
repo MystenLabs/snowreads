@@ -1,0 +1,52 @@
+{
+  "id": "2412.11874",
+  "title": "Soil moisture estimation of bare and vegetation-covered areas using a\n  P/L/C-band SAR",
+  "authors": "Gian Or\\'e, Jhonnatan Yepes, Juliana A. G\\'oes, Luciano P. Oliveira,\n  B\\'arbara Teruel, and Hugo E. Hernandez-Figueroa",
+  "authorsParsed": [
+    [
+      "Oré",
+      "Gian",
+      ""
+    ],
+    [
+      "Yepes",
+      "Jhonnatan",
+      ""
+    ],
+    [
+      "Góes",
+      "Juliana A.",
+      ""
+    ],
+    [
+      "Oliveira",
+      "Luciano P.",
+      ""
+    ],
+    [
+      "Teruel",
+      "Bárbara",
+      ""
+    ],
+    [
+      "Hernandez-Figueroa",
+      "Hugo E.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 16 Dec 2024 15:26:38 GMT"
+    }
+  ],
+  "updateDate": "2024-12-17",
+  "timestamp": 1734362798000,
+  "abstract": "  The paper introduces a novel approach for estimating soil moisture in\nvegetated surfaces, specifically focusing on sugarcane crops throughout various\ngrowth stages in agriculture applications. While existing models typically\naddress bare soil scenarios, this model utilizes data from P-, L-, and C-band\nSynthetic Aperture Radar (SAR) to estimate soil moisture. The semi-empirical\nDubois model forms the basis of the proposed model, which has been adapted to\naccommodate multiband operation and crop height variations. Synthetic datasets\nare generated using the adjusted model to train two neural networks\nincorporated into the overall model. Additionally, a linear expression for\nestimating crop height is integrated into the model. The model is validated in\nan Experimental Site at the School of Agricultural Engineering, UNICAMP, and an\nindependent area at the Sugarcane Technology Center in Piracicaba, Brazil. The\nmodel utilizes a multiband drone-borne SAR system with a 3-meter image\nresolution and radiometric accuracy of 0.5 dB. The results indicate that the\nmodel can estimate soil moisture with root-mean-square errors of 0.05 cm3.cm-3\n(5 vol. %) across crop heights ranging from zero to 2.5 meters.\n",
+  "subjects": [
+    "Electrical Engineering and Systems Science/Signal Processing"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "1eJpDPMJQX9m_ZlL2VZHdW0QNFdloDKp6VvWMTbnW1A",
+  "pdfSize": "1777007"
+}

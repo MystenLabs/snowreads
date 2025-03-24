@@ -1,0 +1,54 @@
+{
+  "id": "2412.07558",
+  "title": "A clustering aggregation algorithm on neutral-atoms and annealing\n  quantum processors",
+  "authors": "Riccardo Scotti, Gabriella Bettonte, Antonio Costantini, Sara\n  Marzella, Daniele Ottaviani, Stefano Lodi",
+  "authorsParsed": [
+    [
+      "Scotti",
+      "Riccardo",
+      ""
+    ],
+    [
+      "Bettonte",
+      "Gabriella",
+      ""
+    ],
+    [
+      "Costantini",
+      "Antonio",
+      ""
+    ],
+    [
+      "Marzella",
+      "Sara",
+      ""
+    ],
+    [
+      "Ottaviani",
+      "Daniele",
+      ""
+    ],
+    [
+      "Lodi",
+      "Stefano",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 10 Dec 2024 14:48:44 GMT"
+    }
+  ],
+  "updateDate": "2024-12-11",
+  "timestamp": 1733842124000,
+  "abstract": "  This work presents a hybrid quantum-classical algorithm to perform clustering\naggregation, designed for neutral-atoms quantum computers and quantum\nannealers. Clustering aggregation is a technique that mitigates the weaknesses\nof clustering algorithms, an important class of data science methods for\npartitioning datasets, and is widely employed in many real-world applications.\nBy expressing the clustering aggregation problem instances as a Maximum\nIndependent Set (MIS) problem and as a Quadratic Unconstrained Binary\nOptimization (QUBO) problem, it was possible to solve them by leveraging the\npotential of Pasqal's Fresnel (neutral-atoms processor) and D-Wave's Advantage\nQPU (quantum annealer). Additionally, the designed clustering aggregation\nalgorithm was first validated on a Fresnel emulator based on QuTiP and later on\nan emulator of the same machine based on tensor networks, provided by Pasqal.\nThe results revealed technical limitations, such as the difficulty of adding\nadditional constraints on the employed neutral-atoms platform and the need for\nbetter metrics to measure the quality of the produced clusterings. However,\nthis work represents a step towards a benchmark to compare two different\nmachines: a quantum annealer and a neutral-atom quantum computer. Moreover,\nfindings suggest promising potential for future advancements in hybrid\nquantum-classical pipelines, although further improvements are needed in both\nquantum and classical components.\n",
+  "subjects": [
+    "Physics/Quantum Physics",
+    "Computer Science/Emerging Technologies",
+    "Computer Science/Performance"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "vp1Gus-wVkun6paPD2rzjxTjP5D0Iebunc7GAARvp-A",
+  "pdfSize": "971511"
+}

@@ -1,0 +1,44 @@
+{
+  "id": "2412.15094",
+  "title": "CORSIKA 8 with Pythia 8: Simulating Vertical Proton Showers",
+  "authors": "Chlo\\'e Gaudu, Maximilian Reininghaus and Felix Riehn (for the CORSIKA\n  8 Collaboration)",
+  "authorsParsed": [
+    [
+      "Gaudu",
+      "Chloé",
+      "",
+      "for the CORSIKA\n  8 Collaboration"
+    ],
+    [
+      "Reininghaus",
+      "Maximilian",
+      "",
+      "for the CORSIKA\n  8 Collaboration"
+    ],
+    [
+      "Riehn",
+      "Felix",
+      "",
+      "for the CORSIKA\n  8 Collaboration"
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 19 Dec 2024 17:45:00 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Fri, 20 Dec 2024 14:03:45 GMT"
+    }
+  ],
+  "updateDate": "2024-12-23",
+  "timestamp": 1734630300000,
+  "abstract": "  The field of air shower physics, dedicated to understanding the development\nof cosmic-ray interactions with the Earth's atmosphere, faces a significant\nchallenge regarding the muon content of air showers observed by the Pierre\nAuger Observatory, and numerous other observatories. Thorough comparisons\nbetween extensive air shower (EAS) measurements and simulations are imperative\nfor determining the primary energy and mass of ultra-high energy cosmic rays.\nCurrent simulations employing state-of-the-art hadronic interaction models\nreveal a muon deficit compared to experimental measurements, commonly known as\nthe \"Muon Puzzle\". The primary cause of this deficit lies in the uncertainties\nsurrounding high-energy hadronic interactions. In this contribution, we discuss\nthe integration of a new hadronic interaction model, Pythia 8, into the effort\nto resolve the Muon Puzzle. While the Pythia 8 model is well-tailored in the\ncontext of Large Hadron Collider (LHC) experiments, its application in air\nshower studies remained limited until now. However, recent advancements,\nparticularly in the Angantyr model of Pythia 8, offer promising enhancements in\ndescribing hadron-nucleus interactions, thereby motivating its potential\napplication in air shower simulations. We present results from EAS simulations\nconducted using CORSIKA 8, wherein Pythia is employed to model hadronic\ninteractions.\n",
+  "subjects": [
+    "Astrophysics/High Energy Astrophysical Phenomena"
+  ],
+  "license": "http://creativecommons.org/licenses/by-sa/4.0/",
+  "blobId": "9u4KrlOJk3HQ5OjgzY4cfrrqOqm-CUno0o3qw1HiEsA",
+  "pdfSize": "1222296"
+}

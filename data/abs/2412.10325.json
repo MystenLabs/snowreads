@@ -1,0 +1,72 @@
+{
+  "id": "2412.10325",
+  "title": "Dynamic Nuclear Polarization Mechanisms using TEMPOL and trityl OX063\n  radicals at 1 T and 77 K",
+  "authors": "Ewoud Vaneeckhaute, Charlotte Bocquelet, Nathan Rougier, Shebha\n  Anandhi Jegadeesan, Sanjay Vinod-Kumar, Guinevere Mathies, Roberto Melzi,\n  James Kempf, Quentin Stern and Sami Jannin",
+  "authorsParsed": [
+    [
+      "Vaneeckhaute",
+      "Ewoud",
+      ""
+    ],
+    [
+      "Bocquelet",
+      "Charlotte",
+      ""
+    ],
+    [
+      "Rougier",
+      "Nathan",
+      ""
+    ],
+    [
+      "Jegadeesan",
+      "Shebha Anandhi",
+      ""
+    ],
+    [
+      "Vinod-Kumar",
+      "Sanjay",
+      ""
+    ],
+    [
+      "Mathies",
+      "Guinevere",
+      ""
+    ],
+    [
+      "Melzi",
+      "Roberto",
+      ""
+    ],
+    [
+      "Kempf",
+      "James",
+      ""
+    ],
+    [
+      "Stern",
+      "Quentin",
+      ""
+    ],
+    [
+      "Jannin",
+      "Sami",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 13 Dec 2024 18:03:25 GMT"
+    }
+  ],
+  "updateDate": "2024-12-16",
+  "timestamp": 1734113005000,
+  "abstract": "  A sensitivity increase of two orders of magnitude in proton (1H) and carbon\n(13C) spins via dynamic nuclear polarization (DNP) has been accomplished\nrecently using a compact benchtop DNP polarizer operating at 1 T and 77 K.\nHowever the DNP mechanisms at play at such low magnetic field and high\noperating temperature are still not elucidated. A deeper understanding of the\ndominant polarization transfer mechanisms between electrons and 1H and 13C\nspins at these unconventional benchtop conditions is therefore required if one\nwants to devise strategies to boost sensitivity further. In this study, we\nfound that DNP is generally dominated by solid effect for narrow electron\nparamagnetic resonance (EPR) line radicals (15 mM trityl OX063) and cross\neffect for broad EPR line radicals (50 mM TEMPOL). For both radicals, the\ndominant DNP mechanisms were investigated varying the microwave frequency and\nmeasuring the 1H and 13C DNP enhancement factors to obtain 1H and 13C DNP\nspectra. The impact of varying the microwave power on the 1H DNP buildup times\nand the 1H nuclear spin relaxation times were important as well to distinguish\nbetween solid effect and cross effect DNP. Finally, time-resolved electron\nsaturation simulations under continuous microwave irradiation could replicate\nthe experimental 1H and 13C DNP spectra at 1 T and 77 K for both radicals\nconsidering their electron relaxation properties. Only for trityl OX063, the\n13C DNP spectra showed additional DNP maxima compared to the simulations. This\nhas been attributed to methyl rotor induced 1H-13C heteronuclear cross\nrelaxation in [1-13C] acetate present at 1 T and 77 K.\n",
+  "subjects": [
+    "Physics/Chemical Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "RHG9OWChcA3bAF72eixgOcVJPGSpMoI4kEFRYxe9gN8",
+  "pdfSize": "5312670"
+}

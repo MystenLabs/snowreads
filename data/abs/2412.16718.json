@@ -1,0 +1,47 @@
+{
+  "id": "2412.16718",
+  "title": "Directional focused wave group response of a Floating Wind Turbine:\n  Harmonic separation in experiment and CFD",
+  "authors": "Sithik Aliyar, Henrik Bredmose, Johan Roenby, Pietro Danilo Tomaselli\n  and Hamid Sarlak",
+  "authorsParsed": [
+    [
+      "Aliyar",
+      "Sithik",
+      ""
+    ],
+    [
+      "Bredmose",
+      "Henrik",
+      ""
+    ],
+    [
+      "Roenby",
+      "Johan",
+      ""
+    ],
+    [
+      "Tomaselli",
+      "Pietro Danilo",
+      ""
+    ],
+    [
+      "Sarlak",
+      "Hamid",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 21 Dec 2024 18:00:10 GMT"
+    }
+  ],
+  "updateDate": "2024-12-24",
+  "timestamp": 1734804010000,
+  "abstract": "  The offshore wind sector relies on floating foundations for deeper waters but\nfaces challenges from harsh conditions, nonlinear dynamics, and low-frequency\nresonant motions caused by second-order hydrodynamic loads. We analyze these\ndynamics and extract higher harmonic motions for a semisubmersible floating\nfoundation under extreme wave conditions using experimental and numerical\napproaches. Two focused wave groups, with and without spreading, are\nconsidered, and experimental data is obtained from scaled physical model tests\nusing phase-shifted input signals for harmonic decomposition of the wave\nresponses. The responses are reproduced numerically using a novel CFD-based\nrigid body solver, FloatStepper, achieving good agreement. The study quantifies\nthe effects of wave severity, spreading, and steepness on odd and even\nharmonics of the surge and pitch responses and mooring line tensions. A\nstronger sea state notably increased odd harmonics in surge and pitch.\nAdditionally, the pitch subharmonic response, less noticeable in milder states,\nbecame apparent. Wave spreading influenced the overall response, with\npronounced effects on odd and even superharmonic responses. The results reveal\na front-back asymmetry in mooring line tensions, with the back lines\nexperiencing greater tension. Increasing wavegroup amplitude caused shifts in\nsubharmonic and superharmonic responses, transitioning from low-frequency\nsurge-dominated behavior to coupled surge-pitch interaction. The cause of this\npitch dominance is identified and discussed via CFD.\n",
+  "subjects": [
+    "Physics/Fluid Dynamics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "KuJNs7TwRMvjCosp5ByGkAzvgfCDhq3E5qmUYEEEjpk",
+  "pdfSize": "17456517"
+}

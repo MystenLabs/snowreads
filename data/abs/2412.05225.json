@@ -1,0 +1,39 @@
+{
+  "id": "2412.05225",
+  "title": "BEExformer: A Fast Inferencing Transformer Architecture via Binarization\n  with Multiple Early Exits",
+  "authors": "Wazib Ansar, Saptarsi Goswami, and Amlan Chakrabarti",
+  "authorsParsed": [
+    [
+      "Ansar",
+      "Wazib",
+      ""
+    ],
+    [
+      "Goswami",
+      "Saptarsi",
+      ""
+    ],
+    [
+      "Chakrabarti",
+      "Amlan",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 6 Dec 2024 17:58:14 GMT"
+    }
+  ],
+  "updateDate": "2024-12-09",
+  "timestamp": 1733507894000,
+  "abstract": "  Large Language Models (LLMs) based on transformers achieve cutting-edge\nresults on a variety of applications. However, their enormous size and\nprocessing requirements make deployment on devices with constrained resources\nextremely difficult. Among various efficiency considerations, model\nbinarization and Early Exit (EE) are common effective solutions. However,\nbinarization may lead to performance loss due to reduced precision affecting\ngradient estimation and parameter updates. Besides, the present early-exit\nmechanisms are still in the nascent stages of research. To ameliorate these\nissues, we propose Binarized Early Exit Transformer (BEExformer), the\nfirst-ever selective learning transformer architecture to combine early exit\nwith binarization for textual inference. It improves the binarization process\nthrough a differentiable second-order approximation to the impulse function.\nThis enables gradient computation concerning both the sign as well as the\nmagnitude of the weights. In contrast to absolute threshold-based EE, the\nproposed EE mechanism hinges on fractional reduction in entropy among\nintermediate transformer blocks with soft-routing loss estimation. While\nbinarization results in 18.44 times reduction in model size, early exit reduces\nthe FLOPs during inference by 54.85% and even improves accuracy by 5.98%\nthrough resolving the \"overthinking\" problem inherent in deep networks.\nMoreover, the proposed BEExformer simplifies training by not requiring\nknowledge distillation from a full-precision LLM. Extensive evaluation on the\nGLUE dataset and comparison with the SOTA works showcase its pareto-optimal\nperformance-efficiency trade-off.\n",
+  "subjects": [
+    "Computer Science/Computation and Language",
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Neural and Evolutionary Computing"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "vEnydX7roX67nU77d3ycBnnyiE1qYHY1a6T0krc3x1w",
+  "pdfSize": "1159083"
+}

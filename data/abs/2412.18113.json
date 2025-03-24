@@ -1,0 +1,33 @@
+{
+  "id": "2412.18113",
+  "title": "Subspaces with or without a common complement",
+  "authors": "Esteban Andruchow and Eduardo Chiumiento",
+  "authorsParsed": [
+    [
+      "Andruchow",
+      "Esteban",
+      ""
+    ],
+    [
+      "Chiumiento",
+      "Eduardo",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 24 Dec 2024 02:52:55 GMT"
+    }
+  ],
+  "updateDate": "2024-12-25",
+  "timestamp": 1735008775000,
+  "abstract": "  Let H be a separable complex Hilbert space. Denote by Gr(H) the Grassmann\nmanifold of H. We study the following sets of pairs of elements in Gr(H):\n  Delta={(S,T) in Gr(H) x Gr(H): there exists Z in Gr(H) such that S\\dot{+} Z=T\n\\dot{+} Z=H },\n  which are pairs of subspaces that have a common complement, and\n  Gamma={(S,T) in Gr(H) x Gr(H): (S,T) does not belong to Delta}, Gamma=Gr(H) x\nGr(H) - Delta,\n  which are pairs of subspaces that do not admit a common complement. We\nidentify S withP_S, the subspace S with the orthogonal projection P_S onto S.\nThus we may regard Delta and Gamma as subsets of B(H) x B(H) (here B(H) denotes\nthe algebra of bounded linear operators in H. We show that Delta is open, and\nits connected components are parametrized by the dimension and codimension of\nthe subspaces. The connected component of Delta having both infinite\ndimensional and co-dimensional subspaces is dense in the corresponding\ncomponent of Gr(H) x Gr(H). On the other hand, Gamma is a (closed) C^\\infty\nsubmanifold of B(H) x B(H), and we characterize the connected components of\nGamma in terms of dimensions and semi-Fredholm indices. We study the role\nplayed by the geodesic structure of the Grassmann geometry of H in the geometry\nof both Delta and Gamma. Several examples of pairs in Delta and the connected\ncomponents of Gamma are given in Hilbert spaces of functions.\n",
+  "subjects": [
+    "Mathematics/Functional Analysis",
+    "Mathematics/Differential Geometry"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "t7Ze_Mcz72X20MxDRUevTF4Rs7JZE34ecGEjEp4gB9o",
+  "pdfSize": "276500"
+}

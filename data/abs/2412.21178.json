@@ -1,0 +1,31 @@
+{
+  "id": "2412.21178",
+  "title": "Two-component spatiotemporal template for activation-inhibition of\n  speech in ECoG",
+  "authors": "Eric Easthope",
+  "authorsParsed": [
+    [
+      "Easthope",
+      "Eric",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 30 Dec 2024 18:50:37 GMT"
+    }
+  ],
+  "updateDate": "2024-12-31",
+  "timestamp": 1735584637000,
+  "abstract": "  I compute the average trial-by-trial power of band-limited speech activity\nacross epochs of multi-channel high-density electrocorticography (ECoG)\nrecorded from multiple subjects during a consonant-vowel speaking task. I show\nthat previously seen anti-correlations of average beta frequency activity\n(12-35 Hz) to high-frequency gamma activity (70-140 Hz) during speech movement\nare observable between individual ECoG channels in the sensorimotor cortex\n(SMC). With this I fit a variance-based model using principal component\nanalysis to the band-powers of individual channels of session-averaged ECoG\ndata in the SMC and project SMC channels onto their lower-dimensional principal\ncomponents.\n  Spatiotemporal relationships between speech-related activity and principal\ncomponents are identified by correlating the principal components of both\nfrequency bands to individual ECoG channels over time using windowed\ncorrelation. Correlations of principal component areas to sensorimotor areas\nreveal a distinct two-component activation-inhibition-like representation for\nspeech that resembles distinct local sensorimotor areas recently shown to have\ncomplex interplay in whole-body motor control, inhibition, and posture. Notably\nthe third principal component shows insignificant correlations across all\nsubjects, suggesting two components of ECoG are sufficient to represent SMC\nactivity during speech movement.\n",
+  "subjects": [
+    "Quantitative Biology/Neurons and Cognition",
+    "Computer Science/Computation and Language",
+    "Computer Science/Machine Learning",
+    "Electrical Engineering and Systems Science/Audio and Speech Processing",
+    "Electrical Engineering and Systems Science/Signal Processing"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "9XSW5_S7t3kRg8m95KbrryEHfhqoKVhECXgoGUmDSaA",
+  "pdfSize": "941826"
+}

@@ -1,0 +1,36 @@
+{
+  "id": "2412.19199",
+  "title": "Rigorous Computation of Classical Horizontal Geodetic Networks",
+  "authors": "Sandi Berk and Bojan Stopar",
+  "authorsParsed": [
+    [
+      "Berk",
+      "Sandi",
+      ""
+    ],
+    [
+      "Stopar",
+      "Bojan",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 26 Dec 2024 12:39:04 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Wed, 29 Jan 2025 09:10:36 GMT"
+    }
+  ],
+  "updateDate": "2025-01-30",
+  "timestamp": 1735216744000,
+  "abstract": "  This paper examines mathematical models for processing classical horizontal\ngeodetic (triangulation and trilateration) networks. Two rigorous parametric\nadjustment models are discussed. The first one is a well-known model of\nadjustment in the geodetic coordinate system. This model is completely rigorous\n(functional and stochastic parts) and uses unreduced distance and direction\nobservations. The proposed alternative is a model of planar network adjustment\nwith observations rigorously reduced directly to the mapping plane. These\nground-to-grid reductions are simple and universal, regardless of which map\nprojection is used. Slightly different results of the planar network adjustment\nare obtained. The differences are attributed to a non-rigorous stochastic\nmodel. In theory, the stochastic properties of the reduced observations should\nalso be adapted. However, these differences are very small and can always be\nneglected in geodetic and surveying practice.\n",
+  "subjects": [
+    "Physics/Geophysics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "_lHBiFrLviXiyMexfNRxp9V5TXOHLik5WN3u6UjJeAw",
+  "pdfSize": "1161507"
+}

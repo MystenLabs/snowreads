@@ -1,0 +1,39 @@
+{
+  "id": "2412.08817",
+  "title": "Cluster Decomposition for Improved Erasure Decoding of Quantum LDPC\n  Codes",
+  "authors": "Hanwen Yao, Mert G\\\"okduman and Henry D. Pfister",
+  "authorsParsed": [
+    [
+      "Yao",
+      "Hanwen",
+      ""
+    ],
+    [
+      "Gökduman",
+      "Mert",
+      ""
+    ],
+    [
+      "Pfister",
+      "Henry D.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 11 Dec 2024 23:14:23 GMT"
+    }
+  ],
+  "updateDate": "2024-12-13",
+  "timestamp": 1733958863000,
+  "abstract": "  We introduce a new erasure decoder that applies to arbitrary quantum LDPC\ncodes. Dubbed the cluster decoder, it generalizes the decomposition idea of\nVertical-Horizontal (VH) decoding introduced by Connelly et al. in 2022. Like\nthe VH decoder, the idea is to first run the peeling decoder and then\npost-process the resulting stopping set. The cluster decoder breaks the\nstopping set into a tree of clusters which can be solved sequentially via\nGaussian Elimination (GE). By allowing clusters of unconstrained size, this\ndecoder achieves maximum-likelihood (ML) performance with reduced complexity\ncompared with full GE. When GE is applied only to clusters whose sizes are less\nthan a constant, the performance is degraded but the complexity becomes linear\nin the block length. Our simulation results show that, for hypergraph product\ncodes, the cluster decoder with constant cluster size achieves near-ML\nperformance similar to VH decoding in the low-erasure-rate regime. For the\ngeneral quantum LDPC codes we studied, the cluster decoder can be used to\nestimate the ML performance curve with reduced complexity over a wide range of\nerasure rates.\n",
+  "subjects": [
+    "Computer Science/Information Theory",
+    "Mathematics/Information Theory",
+    "Physics/Quantum Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "W8NO8kvu1w6fUAo-sgMs-Thtuoz02wzcufa3hpXVXxU",
+  "pdfSize": "324796"
+}

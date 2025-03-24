@@ -1,0 +1,27 @@
+{
+  "id": "2412.05324",
+  "title": "Residual growth control for general maps and an approximate inverse\n  function result",
+  "authors": "Mario Amrein",
+  "authorsParsed": [
+    [
+      "Amrein",
+      "Mario",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 4 Dec 2024 11:25:22 GMT"
+    }
+  ],
+  "updateDate": "2024-12-10",
+  "timestamp": 1733311522000,
+  "abstract": "  The need to control the residual of a potentially nonlinear function\n$\\mathcal{F}$ arises in several situations in mathematics. For example,\ncomputing the zeros of a given map, or the reduction of some cost function\nduring an optimization process are such situations. In this note, we discuss\nthe existence of a curve $t\\mapsto x(t)$ in the domain of the nonlinear map\n$\\mathcal{F}$ leading from some initial value $x_0$ to a value $u$ such that we\nare able to control the residual $\\mathcal{F}(x(t))$ based on the value\n$\\mathcal{F}(x_0)$. More precisely, we slightly extend an existing result from\nJ.W. Neuberger by proving the existence of such a curve, assuming that the\ndirectional derivative of $\\mathcal{F}$ can be represented by $x \\mapsto\n\\mathcal{A}(x)\\mathcal{F}(x_0)$, where $\\mathcal{A}$ is a suitable defined\noperator. The presented approach covers, in case of $\\mathcal{A}(x) =\n-\\mathsf{Id}$, some well known results from the theory of so-called continuous\nNewton methods. Moreover, based on the presented results, we discover an\napproximate inverse function result.\n",
+  "subjects": [
+    "Mathematics/Optimization and Control"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "gt4Tu0eaS5b1qiVPUFwqCG1mVrKZzRdBilTgxdAs-0w",
+  "pdfSize": "163965"
+}

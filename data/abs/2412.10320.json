@@ -1,0 +1,33 @@
+{
+  "id": "2412.10320",
+  "title": "MeshA*: Efficient Path Planing With Motion Primitives",
+  "authors": "Marat Agranovskiy, Konstantin Yakovlev",
+  "authorsParsed": [
+    [
+      "Agranovskiy",
+      "Marat",
+      ""
+    ],
+    [
+      "Yakovlev",
+      "Konstantin",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 13 Dec 2024 18:00:21 GMT"
+    }
+  ],
+  "updateDate": "2024-12-16",
+  "timestamp": 1734112821000,
+  "abstract": "  We study a path planning problem where the possible move actions are\nrepresented as a finite set of motion primitives aligned with the grid\nrepresentation of the environment. That is, each primitive corresponds to a\nshort kinodynamically-feasible motion of an agent and is represented as a\nsequence of the swept cells of a grid. Typically heuristic search, i.e. A*, is\nconducted over the lattice induced by these primitives (lattice-based planning)\nto find a path. However due to the large branching factor such search may be\ninefficient in practice. To this end we suggest a novel technique rooted in the\nidea of searching over the grid cells (as in vanilla A*) simultaneously fitting\nthe possible sequences of the motion primitives into these cells. The resultant\nalgorithm, MeshA*, provably preserves the guarantees on completeness and\noptimality, on the one hand, and is shown to notably outperform conventional\nlattice-based planning (x1.5 decrease in the runtime), on the other hand.\nMoreover, we suggest an additional pruning technique that additionally\ndecreases the search space of MeshA*. The resultant planner is combined with\nthe regular A* to retain completeness and is shown to further increase the\nsearch performance at the cost of negligible decrease of the solution quality.\n",
+  "subjects": [
+    "Computer Science/Robotics",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "MMqStptUtGY_8SVtVDaW9e0PQ-_t5dV9jr4x0fsCYg0",
+  "pdfSize": "6967581"
+}

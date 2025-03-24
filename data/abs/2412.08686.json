@@ -1,0 +1,39 @@
+{
+  "id": "2412.08686",
+  "title": "LatentQA: Teaching LLMs to Decode Activations Into Natural Language",
+  "authors": "Alexander Pan and Lijie Chen and Jacob Steinhardt",
+  "authorsParsed": [
+    [
+      "Pan",
+      "Alexander",
+      ""
+    ],
+    [
+      "Chen",
+      "Lijie",
+      ""
+    ],
+    [
+      "Steinhardt",
+      "Jacob",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 11 Dec 2024 18:59:33 GMT"
+    }
+  ],
+  "updateDate": "2024-12-13",
+  "timestamp": 1733943573000,
+  "abstract": "  Interpretability methods seek to understand language model representations,\nyet the outputs of most such methods -- circuits, vectors, scalars -- are not\nimmediately human-interpretable. In response, we introduce LatentQA, the task\nof answering open-ended questions about model activations in natural language.\nTowards solving LatentQA, we propose Latent Interpretation Tuning (LIT), which\nfinetunes a decoder LLM on a dataset of activations and associated\nquestion-answer pairs, similar to how visual instruction tuning trains on\nquestion-answer pairs associated with images. We use the decoder for diverse\nreading applications, such as extracting relational knowledge from\nrepresentations or uncovering system prompts governing model behavior. Our\ndecoder also specifies a differentiable loss that we use to control models,\nsuch as debiasing models on stereotyped sentences and controlling the sentiment\nof generations. Finally, we extend LatentQA to reveal harmful model\ncapabilities, such as generating recipes for bioweapons and code for hacking.\n",
+  "subjects": [
+    "Computer Science/Computation and Language",
+    "Computer Science/Computers and Society",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "pF6Cuqby9cPc3yCw9cO7-a6W-elhBM5pZNtrtgfSfGM",
+  "pdfSize": "742437"
+}

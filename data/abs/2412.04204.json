@@ -1,0 +1,97 @@
+{
+  "id": "2412.04204",
+  "title": "PANGAEA: A Global and Inclusive Benchmark for Geospatial Foundation\n  Models",
+  "authors": "Valerio Marsocci, Yuru Jia, Georges Le Bellier, David Kerekes, Liang\n  Zeng, Sebastian Hafner, Sebastian Gerard, Eric Brune, Ritu Yadav, Ali Shibli,\n  Heng Fang, Yifang Ban, Maarten Vergauwen, Nicolas Audebert, Andrea Nascetti",
+  "authorsParsed": [
+    [
+      "Marsocci",
+      "Valerio",
+      ""
+    ],
+    [
+      "Jia",
+      "Yuru",
+      ""
+    ],
+    [
+      "Bellier",
+      "Georges Le",
+      ""
+    ],
+    [
+      "Kerekes",
+      "David",
+      ""
+    ],
+    [
+      "Zeng",
+      "Liang",
+      ""
+    ],
+    [
+      "Hafner",
+      "Sebastian",
+      ""
+    ],
+    [
+      "Gerard",
+      "Sebastian",
+      ""
+    ],
+    [
+      "Brune",
+      "Eric",
+      ""
+    ],
+    [
+      "Yadav",
+      "Ritu",
+      ""
+    ],
+    [
+      "Shibli",
+      "Ali",
+      ""
+    ],
+    [
+      "Fang",
+      "Heng",
+      ""
+    ],
+    [
+      "Ban",
+      "Yifang",
+      ""
+    ],
+    [
+      "Vergauwen",
+      "Maarten",
+      ""
+    ],
+    [
+      "Audebert",
+      "Nicolas",
+      ""
+    ],
+    [
+      "Nascetti",
+      "Andrea",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 5 Dec 2024 14:40:41 GMT"
+    }
+  ],
+  "updateDate": "2024-12-06",
+  "timestamp": 1733409641000,
+  "abstract": "  Geospatial Foundation Models (GFMs) have emerged as powerful tools for\nextracting representations from Earth observation data, but their evaluation\nremains inconsistent and narrow. Existing works often evaluate on suboptimal\ndownstream datasets and tasks, that are often too easy or too narrow, limiting\nthe usefulness of the evaluations to assess the real-world applicability of\nGFMs. Additionally, there is a distinct lack of diversity in current evaluation\nprotocols, which fail to account for the multiplicity of image resolutions,\nsensor types, and temporalities, which further complicates the assessment of\nGFM performance. In particular, most existing benchmarks are geographically\nbiased towards North America and Europe, questioning the global applicability\nof GFMs. To overcome these challenges, we introduce PANGAEA, a standardized\nevaluation protocol that covers a diverse set of datasets, tasks, resolutions,\nsensor modalities, and temporalities. It establishes a robust and widely\napplicable benchmark for GFMs. We evaluate the most popular GFMs openly\navailable on this benchmark and analyze their performance across several\ndomains. In particular, we compare these models to supervised baselines (e.g.\nUNet and vanilla ViT), and assess their effectiveness when faced with limited\nlabeled data. Our findings highlight the limitations of GFMs, under different\nscenarios, showing that they do not consistently outperform supervised models.\nPANGAEA is designed to be highly extensible, allowing for the seamless\ninclusion of new datasets, models, and tasks in future research. By releasing\nthe evaluation code and benchmark, we aim to enable other researchers to\nreplicate our experiments and build upon our work, fostering a more principled\nevaluation protocol for large pre-trained geospatial models. The code is\navailable at https://github.com/VMarsocci/pangaea-bench.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "iPg6QcFqxjzY0v0_p5E_aLxmmhNPFTkcfT65C1cqw0o",
+  "pdfSize": "19000838"
+}

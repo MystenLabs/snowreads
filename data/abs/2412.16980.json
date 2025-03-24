@@ -1,0 +1,28 @@
+{
+  "id": "2412.16980",
+  "title": "Visualizing Linear Prediction",
+  "authors": "Peter J. Rousseeuw",
+  "authorsParsed": [
+    [
+      "Rousseeuw",
+      "Peter J.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 22 Dec 2024 11:50:45 GMT"
+    }
+  ],
+  "updateDate": "2024-12-24",
+  "timestamp": 1734868245000,
+  "abstract": "  Many statistics courses cover multiple linear regression, and present\nstudents with the formula of a prediction using the regressors, slopes, and an\nintercept. But is it really easy to see which terms have the largest effect, or\nto explain why the prediction of a specific case is unusually high or low? To\nassist with this the so-called grill plot is proposed. Its simplicity makes it\neasy to interpret, and it combines much information. Its main benefit is that\nit helps explainability of the linear formula as it is, without depending on\nhow the formula was derived. The regressors can be numerical, categorical, or\ninteraction terms, and the model can be linear or generalized linear. Another\ndisplay is proposed to visualize correlations between predictors, in a way that\nis tailored for this setting.\n",
+  "subjects": [
+    "Statistics/Methodology",
+    "Statistics/Applications"
+  ],
+  "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+  "blobId": "gaQr4NvpfjyFqlZeiE_N3bFxLfM0h5iJWTJMsXb6ecs",
+  "pdfSize": "378256"
+}

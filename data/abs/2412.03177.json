@@ -1,0 +1,57 @@
+{
+  "id": "2412.03177",
+  "title": "PatchDPO: Patch-level DPO for Finetuning-free Personalized Image\n  Generation",
+  "authors": "Qihan Huang, Long Chan, Jinlong Liu, Wanggui He, Hao Jiang, Mingli\n  Song, Jie Song",
+  "authorsParsed": [
+    [
+      "Huang",
+      "Qihan",
+      ""
+    ],
+    [
+      "Chan",
+      "Long",
+      ""
+    ],
+    [
+      "Liu",
+      "Jinlong",
+      ""
+    ],
+    [
+      "He",
+      "Wanggui",
+      ""
+    ],
+    [
+      "Jiang",
+      "Hao",
+      ""
+    ],
+    [
+      "Song",
+      "Mingli",
+      ""
+    ],
+    [
+      "Song",
+      "Jie",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 4 Dec 2024 09:59:43 GMT"
+    }
+  ],
+  "updateDate": "2024-12-05",
+  "timestamp": 1733306383000,
+  "abstract": "  Finetuning-free personalized image generation can synthesize customized\nimages without test-time finetuning, attracting wide research interest owing to\nits high efficiency. Current finetuning-free methods simply adopt a single\ntraining stage with a simple image reconstruction task, and they typically\ngenerate low-quality images inconsistent with the reference images during\ntest-time. To mitigate this problem, inspired by the recent DPO (i.e., direct\npreference optimization) technique, this work proposes an additional training\nstage to improve the pre-trained personalized generation models. However,\ntraditional DPO only determines the overall superiority or inferiority of two\nsamples, which is not suitable for personalized image generation because the\ngenerated images are commonly inconsistent with the reference images only in\nsome local image patches. To tackle this problem, this work proposes PatchDPO\nthat estimates the quality of image patches within each generated image and\naccordingly trains the model. To this end, PatchDPO first leverages the\npre-trained vision model with a proposed self-supervised training method to\nestimate the patch quality. Next, PatchDPO adopts a weighted training approach\nto train the model with the estimated patch quality, which rewards the image\npatches with high quality while penalizing the image patches with low quality.\nExperiment results demonstrate that PatchDPO significantly improves the\nperformance of multiple pre-trained personalized generation models, and\nachieves state-of-the-art performance on both single-object and multi-object\npersonalized image generation. Our code is available at\nhttps://github.com/hqhQAQ/PatchDPO.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "Ngw303EH_MstsgKlJsZtalij_X44EI85LMbyZhZr3ww",
+  "pdfSize": "18001831"
+}

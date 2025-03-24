@@ -1,0 +1,44 @@
+{
+  "id": "2412.03299",
+  "title": "Gaussian Processes for Probabilistic Estimates of Earthquake Ground\n  Shaking: A 1-D Proof-of-Concept",
+  "authors": "Sam A. Scivier, Tarje Nissen-Meyer, Paula Koelemeijer, At{\\i}l{\\i}m\n  G\\\"une\\c{s} Baydin",
+  "authorsParsed": [
+    [
+      "Scivier",
+      "Sam A.",
+      ""
+    ],
+    [
+      "Nissen-Meyer",
+      "Tarje",
+      ""
+    ],
+    [
+      "Koelemeijer",
+      "Paula",
+      ""
+    ],
+    [
+      "Baydin",
+      "Atılım Güneş",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 4 Dec 2024 13:16:57 GMT"
+    }
+  ],
+  "updateDate": "2024-12-05",
+  "timestamp": 1733318217000,
+  "abstract": "  Estimates of seismic wave speeds in the Earth (seismic velocity models) are\nkey input parameters to earthquake simulations for ground motion prediction.\nOwing to the non-uniqueness of the seismic inverse problem, typically many\nvelocity models exist for any given region. The arbitrary choice of which\nvelocity model to use in earthquake simulations impacts ground motion\npredictions. However, current hazard analysis methods do not account for this\nsource of uncertainty. We present a proof-of-concept ground motion prediction\nworkflow for incorporating uncertainties arising from inconsistencies between\nexisting seismic velocity models. Our analysis is based on the probabilistic\nfusion of overlapping seismic velocity models using scalable Gaussian process\n(GP) regression. Specifically, we fit a GP to two synthetic 1-D velocity\nprofiles simultaneously, and show that the predictive uncertainty accounts for\nthe differences between the models. We subsequently draw velocity model samples\nfrom the predictive distribution and estimate peak ground displacement using\nacoustic wave propagation through the velocity models. The resulting\ndistribution of possible ground motion amplitudes is much wider than would be\npredicted by simulating shaking using only the two input velocity models. This\nproof-of-concept illustrates the importance of probabilistic methods for\nphysics-based seismic hazard analysis.\n",
+  "subjects": [
+    "Physics/Geophysics",
+    "Computer Science/Machine Learning",
+    "Statistics/Applications"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "l3TSXMzsez-iMO4FGrzne10oo2ruZnQTbwuCUC_paXY",
+  "pdfSize": "1048181"
+}

@@ -1,0 +1,43 @@
+{
+  "id": "2412.05768",
+  "title": "Uncovering Uncertainty in Transformer Inference",
+  "authors": "Greyson Brothers, Willa Mannering, Amber Tien, John Winder",
+  "authorsParsed": [
+    [
+      "Brothers",
+      "Greyson",
+      ""
+    ],
+    [
+      "Mannering",
+      "Willa",
+      ""
+    ],
+    [
+      "Tien",
+      "Amber",
+      ""
+    ],
+    [
+      "Winder",
+      "John",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 8 Dec 2024 00:46:10 GMT"
+    }
+  ],
+  "updateDate": "2024-12-10",
+  "timestamp": 1733618770000,
+  "abstract": "  We explore the Iterative Inference Hypothesis (IIH) within the context of\ntransformer-based language models, aiming to understand how a model's latent\nrepresentations are progressively refined and whether observable differences\nare present between correct and incorrect generations. Our findings provide\nempirical support for the IIH, showing that the nth token embedding in the\nresidual stream follows a trajectory of decreasing loss. Additionally, we\nobserve that the rate at which residual embeddings converge to a stable output\nrepresentation reflects uncertainty in the token generation process. Finally,\nwe introduce a method utilizing cross-entropy to detect this uncertainty and\ndemonstrate its potential to distinguish between correct and incorrect token\ngenerations on a dataset of idioms.\n",
+  "subjects": [
+    "Computer Science/Computation and Language",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "8hM1jJVCIdKbtvNRyGreQjrexy4wg5uhb_4eEe0v3yE",
+  "pdfSize": "4298109"
+}

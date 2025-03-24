@@ -1,0 +1,34 @@
+{
+  "id": "2412.03267",
+  "title": "Detecting abnormal heart sound using mobile phones and on-device IConNet",
+  "authors": "Linh Vu and Thu Tran",
+  "authorsParsed": [
+    [
+      "Vu",
+      "Linh",
+      ""
+    ],
+    [
+      "Tran",
+      "Thu",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 4 Dec 2024 12:18:21 GMT"
+    }
+  ],
+  "updateDate": "2024-12-05",
+  "timestamp": 1733314701000,
+  "abstract": "  Given the global prevalence of cardiovascular diseases, there is a pressing\nneed for easily accessible early screening methods. Typically, this requires\nmedical practitioners to investigate heart auscultations for irregular sounds,\nfollowed by echocardiography and electrocardiography tests. To democratize\nearly diagnosis, we present a user-friendly solution for abnormal heart sound\ndetection, utilizing mobile phones and a lightweight neural network optimized\nfor on-device inference. Unlike previous approaches reliant on specialized\nstethoscopes, our method directly analyzes audio recordings, facilitated by a\nnovel architecture known as IConNet. IConNet, an Interpretable Convolutional\nNeural Network, harnesses insights from audio signal processing, enhancing\nefficiency and providing transparency in neural pattern extraction from raw\nwaveform signals. This is a significant step towards trustworthy AI in\nhealthcare, aiding in remote health monitoring efforts.\n",
+  "subjects": [
+    "Computer Science/Sound",
+    "Computer Science/Artificial Intelligence",
+    "Electrical Engineering and Systems Science/Audio and Speech Processing"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "XgL6IbIM044SoD0imVhHLplH356xYXW6dXohlrw4GwQ",
+  "pdfSize": "652704"
+}

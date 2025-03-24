@@ -1,0 +1,28 @@
+{
+  "id": "2412.20448",
+  "title": "Efficient inverted HTL-free Sm$_2$NiMnO$_6$-based perovskite solar cell:\n  a SCAPS-1D study",
+  "authors": "Nassim Mahammedi",
+  "authorsParsed": [
+    [
+      "Mahammedi",
+      "Nassim",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 29 Dec 2024 12:14:23 GMT"
+    }
+  ],
+  "updateDate": "2024-12-31",
+  "timestamp": 1735474463000,
+  "abstract": "  The transition to sustainable energy has accelerated research into perovskite\nsolar cells (PSCs) as promising candidates for next-generation photovoltaics.\nDespite their remarkable efficiencies, the commercialization of PSCs is\nhindered by lead toxicity and material instability. In this study, we explore a\nlead-free Samarium-based double perovskite oxide Sm$_2$NiMnO$_6$ (SNMO), as the\nactive absorber layer in an innovative inverted HTL-free PSC architecture.\nUsing SCAPS-1D simulations, we optimized the device configuration to achieve a\npower conversion efficiency (PCE) of 10.93% with an open-circuit voltage (VOC)\nof 0.8 V, a short-circuit current density (JSC) of 16.46 mA/cm2, and a fill\nfactor (FF) of 82.14%. We demonstrate that increasing the SNMO absorber\nthickness enhances light harvesting in the red spectrum region (~620 nm),\nshifting the external quantum efficiency (EQE) peak from 380 nm at 50 nm\nthickness to about 620 nm at 1 um. We also investigated various electron\ntransport layers (ETLs) and found that the indium tin oxide (ITO) exhibited\nsuperior PV performances, boosting the PCE to ~12.6% due to its excellent\nconductivity and optimal energy band alignment with SNMO. These findings\nestablish SNMO as a promising absorber material for environmentally friendly\nPSCs, paving the way for cheaper, simpler, scalable, and sustainable\nphotovoltaic solutions. This work highlights the potential of HTL-free\narchitectures in reducing costs and complexities while maintaining competitive\nefficiencies, offering a significant step forward in advancing lead-free solar\ntechnologies.\n",
+  "subjects": [
+    "Condensed Matter/Materials Science",
+    "Physics/Optics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "mdC7jyx4lYZcouPa6ocjxKwgRaghn0ChjedqzaN1USQ",
+  "pdfSize": "1077073"
+}

@@ -1,0 +1,52 @@
+{
+  "id": "2412.09903",
+  "title": "A unified convergence analysis framework of the energy-stable ETDRK3\n  schemes for the No-slope-selection thin film model",
+  "authors": "Jingwei Sun, Haifeng Wang, Hong Zhang, Xu Qian, Songhe Song",
+  "authorsParsed": [
+    [
+      "Sun",
+      "Jingwei",
+      ""
+    ],
+    [
+      "Wang",
+      "Haifeng",
+      ""
+    ],
+    [
+      "Zhang",
+      "Hong",
+      ""
+    ],
+    [
+      "Qian",
+      "Xu",
+      ""
+    ],
+    [
+      "Song",
+      "Songhe",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 13 Dec 2024 06:42:47 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Fri, 21 Feb 2025 02:20:14 GMT"
+    }
+  ],
+  "updateDate": "2025-02-24",
+  "timestamp": 1734072167000,
+  "abstract": "  This paper establishes a unified framework for the space-time convergence\nanalysis of the energy-stable third-order accurate exponential time\ndifferencing Runge-Kutta schemes. By employing Fourier pseudo-spectral\ndiscretization in space and the inner product technique, we derive a rigorous\nFourier eigenvalue analysis, which provides a detailed optimal convergence rate\nand error estimate. The primary challenge is addressing the complex nonlinear\nterms in the NSS equation. Fortunately, this challenge could be resolved\nthrough careful eigenvalue bound estimates for various operators.\n",
+  "subjects": [
+    "Mathematics/Numerical Analysis",
+    "Computer Science/Numerical Analysis"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "gqbbFUupGkK52ssHw-IN-GH-w-pjfdOBEZfTp3RSC4Q",
+  "pdfSize": "564155"
+}

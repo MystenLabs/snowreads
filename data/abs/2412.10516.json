@@ -1,0 +1,41 @@
+{
+  "id": "2412.10516",
+  "title": "CHIPS-FF: Evaluating Universal Machine Learning Force Fields for\n  Material Properties",
+  "authors": "Daniel Wines, Kamal Choudhary",
+  "authorsParsed": [
+    [
+      "Wines",
+      "Daniel",
+      ""
+    ],
+    [
+      "Choudhary",
+      "Kamal",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 13 Dec 2024 19:22:31 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Sat, 21 Dec 2024 02:49:32 GMT"
+    },
+    {
+      "version": "v3",
+      "created": "Wed, 15 Jan 2025 04:10:22 GMT"
+    }
+  ],
+  "updateDate": "2025-01-16",
+  "timestamp": 1734117751000,
+  "abstract": "  In this work, we introduce CHIPS-FF (Computational High-Performance\nInfrastructure for Predictive Simulation-based Force Fields), a universal,\nopen-source benchmarking platform for machine learning force fields (MLFFs).\nThis platform provides robust evaluation beyond conventional metrics such as\nenergy, focusing on complex properties including elastic constants, phonon\nspectra, defect formation energies, surface energies, and interfacial and\namorphous phase properties. Utilizing 16 graph-based MLFF models including\nALIGNN-FF, CHGNet, MatGL, MACE, SevenNet, ORB, MatterSim and OMat24, the\nCHIPS-FF workflow integrates the Atomic Simulation Environment (ASE) with\nJARVIS-Tools to facilitate automated high-throughput simulations. Our framework\nis tested on a set of 104 materials, including metals, semiconductors and\ninsulators representative of those used in semiconductor components, with each\nMLFF evaluated for convergence, accuracy, and computational cost. Additionally,\nwe evaluate the force-prediction accuracy of these models for close to 2\nmillion atomic structures. By offering a streamlined, flexible benchmarking\ninfrastructure, CHIPS-FF aims to guide the development and deployment of MLFFs\nfor real-world semiconductor applications, bridging the gap between quantum\nmechanical simulations and large-scale device modeling.\n",
+  "subjects": [
+    "Condensed Matter/Materials Science",
+    "Physics/Computational Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "empFO5Dlf1hbD8cy78CVfMu9yFu1PvEU5N0RgDsaz5o",
+  "pdfSize": "5019778"
+}

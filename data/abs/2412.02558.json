@@ -1,0 +1,52 @@
+{
+  "id": "2412.02558",
+  "title": "Frictional Adhesive Contact of Multiferroic Coatings Based on the Hybrid\n  Element Method",
+  "authors": "Yanxin Li, Bo Pan, Yun Tian, Lili Ma, Nicola Menga, Xin Zhang",
+  "authorsParsed": [
+    [
+      "Li",
+      "Yanxin",
+      ""
+    ],
+    [
+      "Pan",
+      "Bo",
+      ""
+    ],
+    [
+      "Tian",
+      "Yun",
+      ""
+    ],
+    [
+      "Ma",
+      "Lili",
+      ""
+    ],
+    [
+      "Menga",
+      "Nicola",
+      ""
+    ],
+    [
+      "Zhang",
+      "Xin",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 3 Dec 2024 16:48:01 GMT"
+    }
+  ],
+  "updateDate": "2024-12-04",
+  "timestamp": 1733244481000,
+  "abstract": "  We study the frictional adhesive contact of a rigid insulating sphere sliding\npast a multiferroic coating deposed onto a rigid substrate, based on the hybrid\nelement method (HEM). The adhesion behavior is described based on the\nMaugis-Dugdale (MD) model. The adhesion-driven conjugate gradient method\n(AD-CGM) is employed to calculate the distribution of unknown pressures, while\nthe discrete convolution-fast Fourier transform (DC-FFT) is utilized to compute\nthe deformations, surface electric and magnetic potentials as well as the\nsubsurface stresses, electric displacements, and magnetic inductions. We found\nthat the coating thickness affect the contact stiffness and the interplay\nbetween friction and adhesion. More importantly, friction and gap-dependent MD\nadhesion affects elastic, electric, and magnetic behavior of the interface,\nbreaking the symmetry between leading and trailing edges behaviors in all the\ninvestigated fields. Indeed, increasing the friction coefficient, the contact\nshape is no longer circular, the pressure distribution shifts towards the\nleading edge, the electric/magnetic surface potentials distributions sharpen at\nthe leading edge, and the subsurface stress fields concentrates at the trailing\nedges.\n",
+  "subjects": [
+    "Condensed Matter/Soft Condensed Matter"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "DV6m5Z_XjBPXIqJA78cMj-mw1KI8l66XJ2dPKMq3Azs",
+  "pdfSize": "2101703"
+}

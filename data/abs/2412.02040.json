@@ -1,0 +1,51 @@
+{
+  "id": "2412.02040",
+  "title": "High-resolution, Wide-frequency-range Magnetic Spectroscopy with\n  Solid-state Spin Ensembles",
+  "authors": "Zechuan Yin, Justin J. Welter, Connor A. Hart, Paul V. Petruzzi and\n  Ronald L. Walsworth",
+  "authorsParsed": [
+    [
+      "Yin",
+      "Zechuan",
+      ""
+    ],
+    [
+      "Welter",
+      "Justin J.",
+      ""
+    ],
+    [
+      "Hart",
+      "Connor A.",
+      ""
+    ],
+    [
+      "Petruzzi",
+      "Paul V.",
+      ""
+    ],
+    [
+      "Walsworth",
+      "Ronald L.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 2 Dec 2024 23:53:24 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Wed, 4 Dec 2024 21:44:37 GMT"
+    }
+  ],
+  "updateDate": "2024-12-06",
+  "timestamp": 1733183604000,
+  "abstract": "  Quantum systems composed of solid-state electronic spins can be sensitive\ndetectors of narrowband magnetic fields. A prominent example is the\nnitrogen-vacancy (NV) center in diamond, which has been employed for magnetic\nspectroscopy with high spatial and spectral resolution. However, NV-diamond\nspectroscopy protocols are typically based on dynamical decoupling sequences,\nwhich are limited to low-frequency signals ($\\lesssim{20}\\,$MHz) due to the\ntechnical requirements on microwave (MW) pulses used to manipulate NV\nelectronic spins. In this work, we experimentally demonstrate a high-resolution\nmagnetic spectroscopy protocol that integrates a quantum frequency mixing (QFM)\neffect in a dense NV ensemble with coherently averaged synchronized readout\n(CASR) to provide both a wide range of signal frequency detection and sub-Hz\nspectral resolution. We assess the sensitivity of this QFM-CASR protocol across\na frequency range of 10$\\,$MHz to 4$\\,$GHz. By measuring the spectra of\nmulti-frequency signals near 0.6, 2.4 and 4$\\,$GHz, we demonstrate sub-Hz\nspectral resolution with a nT-scale noise floor for the target signal, and\nprecise phase measurement with error $<1^\\circ$. Compared to state-of-the-art\nNV-diamond techniques for narrowband magnetic spectroscopy, the QFM-CASR\nprotocol greatly extends the detectable frequency range, enabling applications\nin high-frequency radio frequency (RF) and MW signal microscopy and analysis,\nas well as tesla-scale nuclear magnetic resonance (NMR) spectroscopy of small\nsamples.\n",
+  "subjects": [
+    "Physics/Quantum Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "jCVs4a8fHViX-6n9pOGBEyKvAabesYmHavjOns2CdTM",
+  "pdfSize": "839171"
+}

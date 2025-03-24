@@ -1,0 +1,38 @@
+{
+  "id": "2412.05078",
+  "title": "An Experimental Framework for Implementing Decentralized Autonomous\n  Database Systems in Rust",
+  "authors": "Prakash Aryan, Radhika Khatri, Vijayakumar Balakrishnan",
+  "authorsParsed": [
+    [
+      "Aryan",
+      "Prakash",
+      ""
+    ],
+    [
+      "Khatri",
+      "Radhika",
+      ""
+    ],
+    [
+      "Balakrishnan",
+      "Vijayakumar",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 6 Dec 2024 14:36:05 GMT"
+    }
+  ],
+  "updateDate": "2024-12-09",
+  "timestamp": 1733495765000,
+  "abstract": "  This paper presents an experimental framework for implementing Decentralized\nAutonomous Database Systems (DADBS) using the Rust programming language. As\ntraditional centralized databases face challenges in scalability, security, and\nautonomy, DADBS emerge as a promising solution, using blockchain principles to\ncreate distributed, self-governing database systems. Our framework explores the\npractical aspects of building a DADBS, focusing on Rust's unique features that\nimproves system reliability and performance. We evaluated our DADBS\nimplementation across several key performance metrics: throughput,\nlatency(read), latency(write), scalability, CPU utilization, Memory Usage and\nNetwork I/O, The average results obtained over a 24-hour period of continuous\noperation were 3,000 transactions/second, 75 ms, 250 ms, 55%, 2.5 GB, 100MB/s.\nThe security analysis depicts that even with an increase in the percentage of\nmalicious nodes, DADBS still maintains high throughput and consistency. The\npaper discusses key design decisions, highlighting how Rust's ownership model\nand concurrency features address common challenges in distributed systems. We\nalso examine the current limitations of our approach and potential areas for\nfuture research. By providing this comprehensive overview of a Rust-based DADBS\nimplementation, we aim to contribute to the growing body of knowledge on\ndecentralized database architectures and their practical realization.\n",
+  "subjects": [
+    "Computer Science/Databases",
+    "Computer Science/Distributed, Parallel, and Cluster Computing"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "w0N2thoFcOb4k7JzNYTF8PyO9HfSioilf1s6dXHvFpU",
+  "pdfSize": "603095"
+}

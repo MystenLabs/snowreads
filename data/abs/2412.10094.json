@@ -1,0 +1,32 @@
+{
+  "id": "2412.10094",
+  "title": "Glassy dynamics near the learnability transition in deep recurrent\n  networks",
+  "authors": "John Hertz, Joanna Tyrcha",
+  "authorsParsed": [
+    [
+      "Hertz",
+      "John",
+      ""
+    ],
+    [
+      "Tyrcha",
+      "Joanna",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 13 Dec 2024 12:30:49 GMT"
+    }
+  ],
+  "updateDate": "2024-12-16",
+  "timestamp": 1734093049000,
+  "abstract": "  We examine learning dynamics in deep recurrent networks, focusing on the\nbehavior near the learnability transition. The training data are Bach chorales\nin 4-part harmony, and the learning is by stochastic gradient descent. The\nnegative log-likelihood exhibits power-law decay at long learning times, with a\npower that depends on depth (the number of layers) d and width (the number of\nhidden units per of layer) w. When the network is underparametrized (too small\nto learn the data), the power law approach is to a positive asymptotic value.\nWe find that, for a given depth, the learning time appears to diverge\nproportional to 1/(w - w_c) as w approaches a critical value w_c from above.\nw_c is a decreasing function of the number of layers and the number of hidden\nunits per layer. We also study aging dynamics (the slowing-down of fluctuations\nas the time since the beginning of learning grows). We consider a system that\nhas been learning for a time tau_w and measure the fluctuations of the weight\nvalues in a time interval of length tau after tau_w. In the underparametrized\nphase, we find that they are well-described by a single function of tau/tau_w,\nindependent of tau_w, consistent with the weak ergodicity breaking seen\nfrequently in glassy systems. This scaling persists for short times in the\noverparametrized phase but breaks down at long times.\n",
+  "subjects": [
+    "Condensed Matter/Disordered Systems and Neural Networks"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "0SXKtR1frZokwMBdX_AIF7qjUsSQp8vTBkuX8g7Gnhw",
+  "pdfSize": "793475"
+}

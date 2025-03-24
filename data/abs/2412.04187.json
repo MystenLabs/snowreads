@@ -1,0 +1,42 @@
+{
+  "id": "2412.04187",
+  "title": "Quench dynamics of entanglement from crosscap states",
+  "authors": "Konstantinos Chalas, Pasquale Calabrese and Colin Rylands",
+  "authorsParsed": [
+    [
+      "Chalas",
+      "Konstantinos",
+      ""
+    ],
+    [
+      "Calabrese",
+      "Pasquale",
+      ""
+    ],
+    [
+      "Rylands",
+      "Colin",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 5 Dec 2024 14:27:13 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Thu, 12 Dec 2024 14:44:00 GMT"
+    }
+  ],
+  "updateDate": "2024-12-13",
+  "timestamp": 1733408833000,
+  "abstract": "  The linear growth of entanglement after a quench from a state with\nshort-range correlations is a universal feature of many body dynamics. It has\nbeen shown to occur in integrable and chaotic systems undergoing either\nHamiltonian, Floquet or circuit dynamics and has also been observed in\nexperiments. The entanglement dynamics emerging from long-range correlated\nstates is far less studied, although no less viable using modern quantum\nsimulation experiments. In this work, we investigate the dynamics of the\nbipartite entanglement entropy and mutual information from initial states which\nhave long-range entanglement with correlation between antipodal points of a\nfinite and periodic system. Starting from these crosscap states, we study both\nbrickwork quantum circuits and Hamiltonian dynamics and find distinct patterns\nof behaviour depending on the type of dynamics and whether the system is\nintegrable or chaotic. Specifically, we study both dual unitary and random\nunitary quantum circuits as well as free and interacting fermion Hamiltonians.\nFor integrable systems, we find that after a time delay the entanglement\nexperiences a linear in time decrease followed by a series of revivals, while,\nin contrast, chaotic systems exhibit constant entanglement entropy. On the\nother hand, both types of systems experience an immediate linear decrease of\nthe mutual information in time. In chaotic systems this then vanishes, whereas\nintegrable systems instead experience a series of revivals. We show how the\nquasiparticle and membrane pictures of entanglement dynamics can be modified to\ndescribe this behaviour, and derive explicitly the quasiparticle picture in the\ncase of free fermion models which we then extend to all integrable systems.\n",
+  "subjects": [
+    "Condensed Matter/Statistical Mechanics",
+    "Physics/Quantum Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "_Hnk7baq3LXHngxa5pj3E6DxMWgSt_1IMDsrpWVlPgo",
+  "pdfSize": "2463867"
+}

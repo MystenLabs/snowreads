@@ -1,0 +1,42 @@
+{
+  "id": "2412.11534",
+  "title": "Effective tuning methods for few-electron regime in gate-defined quantum\n  dots",
+  "authors": "Chanuk Yang, Hwanchul Jung, Hyung Kook Choi, Yunchul Chung",
+  "authorsParsed": [
+    [
+      "Yang",
+      "Chanuk",
+      ""
+    ],
+    [
+      "Jung",
+      "Hwanchul",
+      ""
+    ],
+    [
+      "Choi",
+      "Hyung Kook",
+      ""
+    ],
+    [
+      "Chung",
+      "Yunchul",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 16 Dec 2024 08:10:58 GMT"
+    }
+  ],
+  "updateDate": "2024-12-17",
+  "timestamp": 1734336658000,
+  "abstract": "  We present systematic methods for compensating gate crosstalk effects in\ngate-defined quantum dots (QDs), to allow the observation of Coulomb blockade\npeaks from the few-electron regime (N = 1) to N \\approx 20. Gate crosstalk,\nwhere adjustments to one gate voltage unintentionally affect other\ngate-controlled parameters, makes it difficult to control tunneling rates and\nenergy states of the QD separately. To overcome this crosstalk effect, we\npresent two approaches: maintaining constant conductance of two quantum point\ncontacts (QPCs) forming the QD by compensating the effect of the plunger gate\nvoltage on the QPCs, and interpolating between gate voltage conditions\noptimized for QD observation at several electron numbers. These approaches\nminimize crosstalk effects by dynamically adjusting barrier gate voltages as a\nfunction of plunger gate voltage. Using these methods, we successfully observed\nCoulomb blockade peaks throughout the entire range from N = 1 to N \\approx 20.\nOur methods provide a simple and effective solution for observing Coulomb\nblockade peaks over a wide range of electron numbers while maintaining control\nover the quantum states in the dot.\n",
+  "subjects": [
+    "Condensed Matter/Mesoscale and Nanoscale Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "AUnBScaJDSPBB94MIRJHjiKTyCUSCGxxQBht-eO7udw",
+  "pdfSize": "994592"
+}

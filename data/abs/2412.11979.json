@@ -1,0 +1,32 @@
+{
+  "id": "2412.11979",
+  "title": "AlphaZero Neural Scaling and Zipf's Law: a Tale of Board Games and Power\n  Laws",
+  "authors": "Oren Neumann, Claudius Gros",
+  "authorsParsed": [
+    [
+      "Neumann",
+      "Oren",
+      ""
+    ],
+    [
+      "Gros",
+      "Claudius",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 16 Dec 2024 16:59:55 GMT"
+    }
+  ],
+  "updateDate": "2024-12-17",
+  "timestamp": 1734368395000,
+  "abstract": "  Neural scaling laws are observed in a range of domains, to date with no clear\nunderstanding of why they occur. Recent theories suggest that loss power laws\narise from Zipf's law, a power law observed in domains like natural language.\nOne theory suggests that language scaling laws emerge when Zipf-distributed\ntask quanta are learned in descending order of frequency. In this paper we\nexamine power-law scaling in AlphaZero, a reinforcement learning algorithm,\nusing a theory of language-model scaling. We find that game states in training\nand inference data scale with Zipf's law, which is known to arise from the tree\nstructure of the environment, and examine the correlation between scaling-law\nand Zipf's-law exponents. In agreement with quanta scaling theory, we find that\nagents optimize state loss in descending order of frequency, even though this\norder scales inversely with modelling complexity. We also find that inverse\nscaling, the failure of models to improve with size, is correlated with unusual\nZipf curves where end-game states are among the most frequent states. We show\nevidence that larger models shift their focus to these less-important states,\nsacrificing their understanding of important early-game states.\n",
+  "subjects": [
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "79zilSVF8mIHbsT2ls4xO4iitJEy97C7JfGGqyjrT0Y",
+  "pdfSize": "5181600"
+}

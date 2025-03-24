@@ -1,0 +1,47 @@
+{
+  "id": "2412.04069",
+  "title": "ProtDAT: A Unified Framework for Protein Sequence Design from Any\n  Protein Text Description",
+  "authors": "Xiao-Yu Guo, Yi-Fan Li, Yuan Liu, Xiaoyong Pan, Hong-Bin Shen",
+  "authorsParsed": [
+    [
+      "Guo",
+      "Xiao-Yu",
+      ""
+    ],
+    [
+      "Li",
+      "Yi-Fan",
+      ""
+    ],
+    [
+      "Liu",
+      "Yuan",
+      ""
+    ],
+    [
+      "Pan",
+      "Xiaoyong",
+      ""
+    ],
+    [
+      "Shen",
+      "Hong-Bin",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 5 Dec 2024 11:05:46 GMT"
+    }
+  ],
+  "updateDate": "2024-12-06",
+  "timestamp": 1733396746000,
+  "abstract": "  Protein design has become a critical method in advancing significant\npotential for various applications such as drug development and enzyme\nengineering. However, protein design methods utilizing large language models\nwith solely pretraining and fine-tuning struggle to capture relationships in\nmulti-modal protein data. To address this, we propose ProtDAT, a de novo\nfine-grained framework capable of designing proteins from any descriptive\nprotein text input. ProtDAT builds upon the inherent characteristics of protein\ndata to unify sequences and text as a cohesive whole rather than separate\nentities. It leverages an innovative multi-modal cross-attention, integrating\nprotein sequences and textual information for a foundational level and seamless\nintegration. Experimental results demonstrate that ProtDAT achieves the\nstate-of-the-art performance in protein sequence generation, excelling in\nrationality, functionality, structural similarity, and validity. On 20,000\ntext-sequence pairs from Swiss-Prot, it improves pLDDT by 6%, TM-score by 0.26,\nand reduces RMSD by 1.2 {\\AA}, highlighting its potential to advance protein\ndesign.\n",
+  "subjects": [
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "jnkLsLUK3bG5FlyEWI9uP-imkRWnsnv8pa7MUnKiO6s",
+  "pdfSize": "4986191"
+}

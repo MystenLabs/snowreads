@@ -1,0 +1,59 @@
+{
+  "id": "2412.11277",
+  "title": "Macro2Micro: Cross-modal Magnetic Resonance Imaging Synthesis Leveraging\n  Multi-scale Brain Structures",
+  "authors": "Sooyoung Kim, Joonwoo Kwon, Junbeom Kwon, Sangyoon Bae, Yuewei Lin,\n  Shinjae Yoo and Jiook Cha",
+  "authorsParsed": [
+    [
+      "Kim",
+      "Sooyoung",
+      ""
+    ],
+    [
+      "Kwon",
+      "Joonwoo",
+      ""
+    ],
+    [
+      "Kwon",
+      "Junbeom",
+      ""
+    ],
+    [
+      "Bae",
+      "Sangyoon",
+      ""
+    ],
+    [
+      "Lin",
+      "Yuewei",
+      ""
+    ],
+    [
+      "Yoo",
+      "Shinjae",
+      ""
+    ],
+    [
+      "Cha",
+      "Jiook",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 15 Dec 2024 18:49:20 GMT"
+    }
+  ],
+  "updateDate": "2024-12-17",
+  "timestamp": 1734288560000,
+  "abstract": "  Spanning multiple scales-from macroscopic anatomy down to intricate\nmicroscopic architecture-the human brain exemplifies a complex system that\ndemands integrated approaches to fully understand its complexity. Yet, mapping\nnonlinear relationships between these scales remains challenging due to\ntechnical limitations and the high cost of multimodal Magnetic Resonance\nImaging (MRI) acquisition. Here, we introduce Macro2Micro, a deep learning\nframework that predicts brain microstructure from macrostructure using a\nGenerative Adversarial Network (GAN). Grounded in the scale-free, self-similar\nnature of brain organization-where microscale information can be inferred from\nmacroscale patterns-Macro2Micro explicitly encodes multiscale brain\nrepresentations into distinct processing branches. To further enhance image\nfidelity and suppress artifacts, we propose a simple yet effective auxiliary\ndiscriminator and learning objective. Our results show that Macro2Micro\nfaithfully translates T1-weighted MRIs into corresponding Fractional Anisotropy\n(FA) images, achieving a 6.8% improvement in the Structural Similarity Index\nMeasure (SSIM) compared to previous methods, while preserving the individual\nneurobiological characteristics.\n",
+  "subjects": [
+    "Electrical Engineering and Systems Science/Image and Video Processing",
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "9yEVX5P8U0J02Lrk-EWgXRMdUwQRwIaX8ipX5q4w1E0",
+  "pdfSize": "10765035"
+}

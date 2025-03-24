@@ -1,0 +1,42 @@
+{
+  "id": "2412.09209",
+  "title": "eCARLA-scenes: A synthetically generated dataset for event-based optical\n  flow prediction",
+  "authors": "Jad Mansour, Hayat Rajani, Rafael Garcia, Nuno Gracias",
+  "authorsParsed": [
+    [
+      "Mansour",
+      "Jad",
+      ""
+    ],
+    [
+      "Rajani",
+      "Hayat",
+      ""
+    ],
+    [
+      "Garcia",
+      "Rafael",
+      ""
+    ],
+    [
+      "Gracias",
+      "Nuno",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 12 Dec 2024 12:02:23 GMT"
+    }
+  ],
+  "updateDate": "2024-12-13",
+  "timestamp": 1734004943000,
+  "abstract": "  The joint use of event-based vision and Spiking Neural Networks (SNNs) is\nexpected to have a large impact in robotics in the near future, in tasks such\nas, visual odometry and obstacle avoidance. While researchers have used\nreal-world event datasets for optical flow prediction (mostly captured with\nUnmanned Aerial Vehicles (UAVs)), these datasets are limited in diversity,\nscalability, and are challenging to collect. Thus, synthetic datasets offer a\nscalable alternative by bridging the gap between reality and simulation. In\nthis work, we address the lack of datasets by introducing eWiz, a comprehensive\nlibrary for processing event-based data. It includes tools for data loading,\naugmentation, visualization, encoding, and generation of training data, along\nwith loss functions and performance metrics. We further present a synthetic\nevent-based datasets and data generation pipelines for optical flow prediction\ntasks. Built on top of eWiz, eCARLA-scenes makes use of the CARLA simulator to\nsimulate self-driving car scenarios. The ultimate goal of this dataset is the\ndepiction of diverse environments while laying a foundation for advancing\nevent-based camera applications in autonomous field vehicle navigation, paving\nthe way for using SNNs on neuromorphic hardware such as the Intel Loihi.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "eblNd44AlNgJ8MpsTPcIjQy3joYTAaoE3odqD4RJiy8",
+  "pdfSize": "738916"
+}

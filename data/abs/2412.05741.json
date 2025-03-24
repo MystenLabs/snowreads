@@ -1,0 +1,43 @@
+{
+  "id": "2412.05741",
+  "title": "Toxic behavior silences online political conversations",
+  "authors": "Gabriela Juncosa, Taha Yasseri, Julia Koltai, Gerardo Iniguez",
+  "authorsParsed": [
+    [
+      "Juncosa",
+      "Gabriela",
+      ""
+    ],
+    [
+      "Yasseri",
+      "Taha",
+      ""
+    ],
+    [
+      "Koltai",
+      "Julia",
+      ""
+    ],
+    [
+      "Iniguez",
+      "Gerardo",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 7 Dec 2024 20:39:20 GMT"
+    }
+  ],
+  "updateDate": "2024-12-10",
+  "timestamp": 1733603960000,
+  "abstract": "  Quantifying how individuals react to social influence is crucial for tackling\ncollective political behavior online. While many studies of opinion in public\nforums focus on social feedback, they often overlook the potential for human\ninteractions to result in self-censorship. Here, we investigate political\ndeliberation in online spaces by exploring the hypothesis that individuals may\nrefrain from expressing minority opinions publicly due to being exposed to\ntoxic behavior. Analyzing conversations under YouTube videos from six prominent\nUS news outlets around the 2020 US presidential elections, we observe patterns\nof self-censorship signaling the influence of peer toxicity on users' behavior.\nUsing hidden Markov models, we identify a latent state consistent with\ntoxicity-driven silence. Such state is characterized by reduced user activity\nand a higher likelihood of posting toxic content, indicating an environment\nwhere extreme and antisocial behaviors thrive. Our findings offer insights into\nthe intricacies of online political deliberation and emphasize the importance\nof considering self-censorship dynamics to properly characterize ideological\npolarization in digital spheres.\n",
+  "subjects": [
+    "Computer Science/Social and Information Networks",
+    "Computer Science/Computers and Society"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "ZH8pSmpYrZrdMHhU_0Z8dPWS_UTWPd1o6aFY0wcc3hA",
+  "pdfSize": "4530762"
+}

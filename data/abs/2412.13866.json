@@ -1,0 +1,38 @@
+{
+  "id": "2412.13866",
+  "title": "SHAP scores fail pervasively even when Lipschitz succeeds",
+  "authors": "Olivier Letoffe, Xuanxiang Huang, Joao Marques-Silva",
+  "authorsParsed": [
+    [
+      "Letoffe",
+      "Olivier",
+      ""
+    ],
+    [
+      "Huang",
+      "Xuanxiang",
+      ""
+    ],
+    [
+      "Marques-Silva",
+      "Joao",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 18 Dec 2024 14:02:15 GMT"
+    }
+  ],
+  "updateDate": "2024-12-20",
+  "timestamp": 1734530535000,
+  "abstract": "  The ubiquitous use of Shapley values in eXplainable AI (XAI) has been\ntriggered by the tool SHAP, and as a result are commonly referred to as SHAP\nscores. Recent work devised examples of machine learning (ML) classifiers for\nwhich the computed SHAP scores are thoroughly unsatisfactory, by allowing human\ndecision-makers to be misled. Nevertheless, such examples could be perceived as\nsomewhat artificial, since the selected classes must be interpreted as numeric.\nFurthermore, it was unclear how general were the issues identified with SHAP\nscores. This paper answers these criticisms. First, the paper shows that for\nBoolean classifiers there are arbitrarily many examples for which the SHAP\nscores must be deemed unsatisfactory. Second, the paper shows that the issues\nwith SHAP scores are also observed in the case of regression models. In\naddition, the paper studies the class of regression models that respect\nLipschitz continuity, a measure of a function's rate of change that finds\nimportant recent uses in ML, including model robustness. Concretely, the paper\nshows that the issues with SHAP scores occur even for regression models that\nrespect Lipschitz continuity. Finally, the paper shows that the same issues are\nguaranteed to exist for arbitrarily differentiable regression models.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "JhYCtCYSJ1gjkCeyPs1dSdhDhhu8hhvu7qKhVBJxACM",
+  "pdfSize": "232575"
+}

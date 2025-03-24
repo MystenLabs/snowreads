@@ -1,0 +1,52 @@
+{
+  "id": "2412.09169",
+  "title": "DECOR:Decomposition and Projection of Text Embeddings for Text-to-Image\n  Customization",
+  "authors": "Geonhui Jang, Jin-Hwa Kim, Yong-Hyun Park, Junho Kim, Gayoung Lee,\n  Yonghyun Jeong",
+  "authorsParsed": [
+    [
+      "Jang",
+      "Geonhui",
+      ""
+    ],
+    [
+      "Kim",
+      "Jin-Hwa",
+      ""
+    ],
+    [
+      "Park",
+      "Yong-Hyun",
+      ""
+    ],
+    [
+      "Kim",
+      "Junho",
+      ""
+    ],
+    [
+      "Lee",
+      "Gayoung",
+      ""
+    ],
+    [
+      "Jeong",
+      "Yonghyun",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 12 Dec 2024 10:59:44 GMT"
+    }
+  ],
+  "updateDate": "2024-12-13",
+  "timestamp": 1734001184000,
+  "abstract": "  Text-to-image (T2I) models can effectively capture the content or style of\nreference images to perform high-quality customization. A representative\ntechnique for this is fine-tuning using low-rank adaptations (LoRA), which\nenables efficient model customization with reference images. However,\nfine-tuning with a limited number of reference images often leads to\noverfitting, resulting in issues such as prompt misalignment or content\nleakage. These issues prevent the model from accurately following the input\nprompt or generating undesired objects during inference. To address this\nproblem, we examine the text embeddings that guide the diffusion model during\ninference. This study decomposes the text embedding matrix and conducts a\ncomponent analysis to understand the embedding space geometry and identify the\ncause of overfitting. Based on this, we propose DECOR, which projects text\nembeddings onto a vector space orthogonal to undesired token vectors, thereby\nreducing the influence of unwanted semantics in the text embeddings.\nExperimental results demonstrate that DECOR outperforms state-of-the-art\ncustomization models and achieves Pareto frontier performance across text and\nvisual alignment evaluation metrics. Furthermore, it generates images more\nfaithful to the input prompts, showcasing its effectiveness in addressing\noverfitting and enhancing text-to-image customization.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "h7xC78xbA-eiHjZ0IhY3r9s4v10CFNPYPNAhcjU-47A",
+  "pdfSize": "48160273"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "2412.01005",
+  "title": "Identifying Root Causes of Null Pointer Exceptions with Logical\n  Inferences",
+  "authors": "Jindae Kim and Jaewoo Song",
+  "authorsParsed": [
+    [
+      "Kim",
+      "Jindae",
+      ""
+    ],
+    [
+      "Song",
+      "Jaewoo",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 1 Dec 2024 23:48:00 GMT"
+    }
+  ],
+  "updateDate": "2024-12-03",
+  "timestamp": 1733096880000,
+  "abstract": "  Recently, Large Language Model (LLM)-based Fault Localization (FL) techniques\nhave been proposed, and showed improved performance with explanations on FL\nresults. However, a major issue with LLM-based FL techniques is their heavy\nreliance on LLMs, which are often unreliable, expensive, and difficult to\nanalyze or improve. When results are unsatisfactory, it is challenging both to\ndetermine a cause and to refine a technique for better outcomes.\n  To address this issue, we propose LogicFL, a novel logical fault localization\ntechnique for Null Pointer Exceptions (NPEs). With logic programming, LogicFL\nimitates human developers' deduction process of fault localization, and\nidentifies causes of NPEs after logical inferences on collected facts about\nfaulty code and test execution. In an empirical evaluation of 76 NPE bugs from\nApache Commons projects and the Defects4J benchmark, LogicFL accurately\nidentified the fault locations and pinpointed the exact code fragments causing\nthe NPEs for 67 bugs (88.16%), which were 19.64% and 4.69% more bugs than two\ncompared LLM-based FL techniques respectively. In addition, LogicFL can be\nexecuted on a low-performance machine similar to a typical laptop, with an\naverage runtime of 21.63 seconds and a worst-case time of under two minutes,\nincluding test execution and output file generation. Moreover, when compared to\nthe two LLM-based FL techniques using the GPT-4o model, LogicFL was\nsignificantly more cost-efficient, as those techniques required 343.94 and\n3,736.19 times the cost of LogicFL, respectively. Last but not least, the\ndeduction process in LogicFL for providing FL results is fully traceable,\nenabling us to understand the reasoning behind the technique's outcomes and to\nfurther enhance the technique.\n",
+  "subjects": [
+    "Computer Science/Software Engineering"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "HyDLPGjA5FGRDpe9njrLZdFbstOVzVZVAtB4F_M8QEc",
+  "pdfSize": "1211069"
+}

@@ -1,0 +1,54 @@
+{
+  "id": "2412.18259",
+  "title": "Compact Binary Coalescence Gravitational Wave Signals Counting and\n  Separation Using UnMixFormer",
+  "authors": "Tianyu Zhao, Yue Zhou, Ruijun Shi, Peng Xu, Zhoujian Cao, Zhixiang Ren",
+  "authorsParsed": [
+    [
+      "Zhao",
+      "Tianyu",
+      ""
+    ],
+    [
+      "Zhou",
+      "Yue",
+      ""
+    ],
+    [
+      "Shi",
+      "Ruijun",
+      ""
+    ],
+    [
+      "Xu",
+      "Peng",
+      ""
+    ],
+    [
+      "Cao",
+      "Zhoujian",
+      ""
+    ],
+    [
+      "Ren",
+      "Zhixiang",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 24 Dec 2024 08:20:10 GMT"
+    }
+  ],
+  "updateDate": "2024-12-25",
+  "timestamp": 1735028410000,
+  "abstract": "  As next-generation gravitational-wave (GW) observatories approach\nunprecedented sensitivities, the need for robust methods to analyze\nincreasingly complex, overlapping signals becomes ever more pressing. Existing\nmatched-filtering approaches and deep-learning techniques can typically handle\nonly one or two concurrent signals, offering limited adaptability to more\nvaried and intricate superimposed waveforms. To overcome these constraints, we\npresent the UnMixFormer, an attention-based architecture that not only\nidentifies the unknown number of concurrent compact binary coalescence GW\nevents but also disentangles their individual waveforms through a multi-decoder\narchitecture, even when confronted with five overlapping signals. Our\nUnMixFormer is capable of capturing both short- and long-range dependencies by\nmodeling them in a dual-path manner, while also enhancing periodic feature\nrepresentation by incorporating Fourier Analysis Networks. Our approach adeptly\nprocesses binary black hole, binary neutron star, and neutron star-black hole\nsystems over extended time series data (16,384 samples). When evaluating on\nsynthetic data with signal-to-noise ratios (SNR) ranging from 10 to 50, our\nmethod achieves 99.89% counting accuracy, a mean overlap of 0.9831 between\nseparated waveforms and templates, and robust generalization ability to\nwaveforms with spin precession, orbital eccentricity, and higher modes, marking\na substantial advance in the precision and versatility of GW data analysis.\n",
+  "subjects": [
+    "Physics/General Relativity and Quantum Cosmology",
+    "Astrophysics/High Energy Astrophysical Phenomena",
+    "Astrophysics/Instrumentation and Methods for Astrophysics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "LjtVjXxhIpMrKdnkvC9wzpknA-kfGARL8HKBcp6Lf6k",
+  "pdfSize": "4050528"
+}

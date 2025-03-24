@@ -1,0 +1,43 @@
+{
+  "id": "2412.16474",
+  "title": "Enhancing Multilingual ASR for Unseen Languages via Language Embedding\n  Modeling",
+  "authors": "Shao-Syuan Huang, Kuan-Po Huang, Andy T. Liu, Hung-yi Lee",
+  "authorsParsed": [
+    [
+      "Huang",
+      "Shao-Syuan",
+      ""
+    ],
+    [
+      "Huang",
+      "Kuan-Po",
+      ""
+    ],
+    [
+      "Liu",
+      "Andy T.",
+      ""
+    ],
+    [
+      "Lee",
+      "Hung-yi",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 21 Dec 2024 04:05:43 GMT"
+    }
+  ],
+  "updateDate": "2024-12-24",
+  "timestamp": 1734753943000,
+  "abstract": "  Multilingual Automatic Speech Recognition (ASR) aims to recognize and\ntranscribe speech from multiple languages within a single system. Whisper, one\nof the most advanced ASR models, excels in this domain by handling 99 languages\neffectively, leveraging a vast amount of data and incorporating language tags\nas prefixes to guide the recognition process. However, despite its success,\nWhisper struggles with unseen languages, those not included in its\npre-training. Motivated by the observation that many languages share linguistic\ncharacteristics, we propose methods that exploit these relationships to enhance\nASR performance on unseen languages. Specifically, we introduce a weighted sum\nmethod, which computes a weighted sum of the embeddings of language tags, using\nWhisper's predicted language probabilities. In addition, we develop a\npredictor-based approach that refines the weighted sum embedding to more\nclosely approximate the true embedding for unseen languages. Experimental\nresults demonstrate substantial improvements in ASR performance, both in\nzero-shot and fine-tuning settings. Our proposed methods outperform baseline\napproaches, providing an effective solution for addressing unseen languages in\nmultilingual ASR.\n",
+  "subjects": [
+    "Electrical Engineering and Systems Science/Audio and Speech Processing",
+    "Computer Science/Computation and Language"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "4Cv_KWMz33uC6pXeXxziTpqHL6rWbssXmk6d9a1I0KA",
+  "pdfSize": "268197"
+}

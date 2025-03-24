@@ -1,0 +1,37 @@
+{
+  "id": "2412.16111",
+  "title": "How connection probability shapes fluctuations of neural population\n  dynamics",
+  "authors": "Nils E. Greven, Jonas Ranft and Tilo Schwalger",
+  "authorsParsed": [
+    [
+      "Greven",
+      "Nils E.",
+      ""
+    ],
+    [
+      "Ranft",
+      "Jonas",
+      ""
+    ],
+    [
+      "Schwalger",
+      "Tilo",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 20 Dec 2024 17:51:05 GMT"
+    }
+  ],
+  "updateDate": "2024-12-23",
+  "timestamp": 1734717065000,
+  "abstract": "  Mean-field models of neuronal populations in the brain have proven extremely\nuseful to understand network dynamics and response to stimuli, but these models\ngenerally lack a faithful description of the fluctuations in the biologically\nrelevant case of finite network size and connection probabilities $p<1$\n(non-full connectivity). To gain insight into the different fluctuation\nmechanisms underlying the neural variability of populations of spiking neurons,\nwe derive and analyze a stochastic mean-field model for finite-size networks of\nPoisson neurons with random, non-full connectivity, external noise and\ndisordered mean inputs. We treat the quenched disorder of the connectivity by\nan annealed approximation that enables a reduction to a low-dimensional closed\nsystem of coupled Langevin equations for the mean and variance of the neuronal\nmembrane potentials as well as a variable capturing finite-size fluctuations\narising specifically in the case $p<1$. Comparing to microscopic simulations,\nwe find that the mesoscopic model describes the fluctuations and nonlinearities\nwell and outperforms previous mesoscopic models that neglected the recurrent\nnoise effect caused by the non-full connectivity. This effect can be\nanalytically understood by a softening of the effective nonlinearity and the\nmultiplicative character of finite-size spiking noise. The mesoscopic theory\nshows that quenched disorder can stabilize the asynchronous state, and it\ncorrectly predicts large quantitiative and non-trivial qualitative effects of\nconnection probability on the variance of the population firing rate and its\ndependence on stimulus strength. Our theory thus elucidates how disordered\nconnectivity shapes nonlinear dynamics and fluctuations of neural populations\nat the mesoscopic scale and showcases a useful mean-field method to treat\nnon-full connectivity in finite-size, spiking neural networks.\n",
+  "subjects": [
+    "Quantitative Biology/Neurons and Cognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "ovIS8y21z-KrRA-T3EfDohN3VHicxz8BE7Ewe3ztQCw",
+  "pdfSize": "1492723"
+}

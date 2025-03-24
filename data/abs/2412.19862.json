@@ -1,0 +1,41 @@
+{
+  "id": "2412.19862",
+  "title": "Moments to All Orders from Lattice QCD",
+  "authors": "Zhuoyi Pang, Jian-Hui Zhang, Dian-Jun Zhao",
+  "authorsParsed": [
+    [
+      "Pang",
+      "Zhuoyi",
+      ""
+    ],
+    [
+      "Zhang",
+      "Jian-Hui",
+      ""
+    ],
+    [
+      "Zhao",
+      "Dian-Jun",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 26 Dec 2024 08:16:53 GMT"
+    }
+  ],
+  "updateDate": "2024-12-31",
+  "timestamp": 1735201013000,
+  "abstract": "  We show that the traditional moments approach in lattice QCD, based on\noperator product expansion (OPE), can be realized in a way that avoids power\ndivergent mixings, and thus allows to extract moments order by order, to all\norders in principle. We propose to use momentum instead of distance as a\nleverage to extract moments at a given order. Moreover, by utilizing symmetry\nof the lattice matrix elements, we can determine the even and odd moments\nseparately. As a demonstrative example, we determine the first three moments\nbeyond the tensor charge gT of the isovector quark transversity distribution in\nthe nucleon.\n",
+  "subjects": [
+    "Physics/High Energy Physics - Lattice",
+    "Physics/High Energy Physics - Phenomenology",
+    "Physics/High Energy Physics - Theory",
+    "Physics/Nuclear Experiment",
+    "Physics/Nuclear Theory"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "nlV-mKgAG7cfQ_bGPTMtAQQqPKXgUpcKke5fqq4HIlc",
+  "pdfSize": "1012440"
+}

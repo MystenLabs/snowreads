@@ -1,0 +1,38 @@
+{
+  "id": "2412.01603",
+  "title": "A Dimension-Agnostic Bootstrap Anderson-Rubin Test For Instrumental\n  Variable Regressions",
+  "authors": "Dennis Lim, Wenjie Wang, and Yichong Zhang",
+  "authorsParsed": [
+    [
+      "Lim",
+      "Dennis",
+      ""
+    ],
+    [
+      "Wang",
+      "Wenjie",
+      ""
+    ],
+    [
+      "Zhang",
+      "Yichong",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 2 Dec 2024 15:21:34 GMT"
+    }
+  ],
+  "updateDate": "2024-12-03",
+  "timestamp": 1733152894000,
+  "abstract": "  Weak-identification-robust Anderson-Rubin (AR) tests for instrumental\nvariable (IV) regressions are typically developed separately depending on\nwhether the number of IVs is treated as fixed or increasing with the sample\nsize. These tests rely on distinct test statistics and critical values. To\napply them, researchers are forced to take a stance on the asymptotic behavior\nof the number of IVs, which can be ambiguous when the number is moderate. In\nthis paper, we propose a bootstrap-based, dimension-agnostic AR test. By\nderiving strong approximations for the test statistic and its bootstrap\ncounterpart, we show that our new test has a correct asymptotic size regardless\nof whether the number of IVs is fixed or increasing -- allowing, but not\nrequiring, the number of IVs to exceed the sample size. We also analyze the\npower properties of the proposed uniformly valid test under both fixed and\nincreasing numbers of IVs.\n",
+  "subjects": [
+    "Economics/Econometrics",
+    "Statistics/Methodology"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "om85W8aYvxexJ4fGc7SV9zAxOyo2ny8nH-129sn2r0M",
+  "pdfSize": "1015223"
+}

@@ -1,0 +1,49 @@
+{
+  "id": "2412.20601",
+  "title": "MATEY: multiscale adaptive foundation models for spatiotemporal physical\n  systems",
+  "authors": "Pei Zhang and M. Paul Laiu and Matthew Norman and Doug Stefanski and\n  John Gounley",
+  "authorsParsed": [
+    [
+      "Zhang",
+      "Pei",
+      ""
+    ],
+    [
+      "Laiu",
+      "M. Paul",
+      ""
+    ],
+    [
+      "Norman",
+      "Matthew",
+      ""
+    ],
+    [
+      "Stefanski",
+      "Doug",
+      ""
+    ],
+    [
+      "Gounley",
+      "John",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 29 Dec 2024 22:13:16 GMT"
+    }
+  ],
+  "updateDate": "2024-12-31",
+  "timestamp": 1735510396000,
+  "abstract": "  Accurate representation of the multiscale features in spatiotemporal physical\nsystems using vision transformer (ViT) architectures requires extremely long,\ncomputationally prohibitive token sequences. To address this issue, we propose\ntwo adaptive tokenization schemes that dynamically adjust patch sizes based on\nlocal features: one ensures convergent behavior to uniform patch refinement,\nwhile the other offers better computational efficiency. Moreover, we present a\nset of spatiotemporal attention schemes, where the temporal or axial spatial\ndimensions are decoupled, and evaluate their computational and data\nefficiencies. We assess the performance of the proposed multiscale adaptive\nmodel, MATEY, in a sequence of experiments. The results show that adaptive\ntokenization schemes achieve improved accuracy without significantly increasing\nthe length of the token sequence. Compared to a full spatiotemporal attention\nscheme or a scheme that decouples only the temporal dimension, we find that\nfully decoupled axial attention is less efficient and expressive, requiring\nmore training time and model weights to achieve the same accuracy. Finally, we\ndemonstrate in two fine-tuning tasks featuring different physics that models\npretrained on PDEBench data outperform the ones trained from scratch,\nespecially in the low data regime with frozen attention.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Computational Engineering, Finance, and Science"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "_V2cs2IL2vBUGWQ62ABDQHdDxDpCmAdG2rw3Smbr0U8",
+  "pdfSize": "8988219"
+}

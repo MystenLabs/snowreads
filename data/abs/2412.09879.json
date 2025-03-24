@@ -1,0 +1,36 @@
+{
+  "id": "2412.09879",
+  "title": "On the Limit of Language Models as Planning Formalizers",
+  "authors": "Cassie Huang, Li Zhang",
+  "authorsParsed": [
+    [
+      "Huang",
+      "Cassie",
+      ""
+    ],
+    [
+      "Zhang",
+      "Li",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 13 Dec 2024 05:50:22 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Sat, 15 Feb 2025 00:10:28 GMT"
+    }
+  ],
+  "updateDate": "2025-02-18",
+  "timestamp": 1734069022000,
+  "abstract": "  Large Language Models have been shown to fail to create executable and\nverifiable plans in grounded environments. An emerging line of work shows\nsuccess in using LLM as a formalizer to generate a formal representation (e.g.,\nPDDL) of the planning domain, which can be deterministically solved to find a\nplan. We systematically evaluate this methodology while bridging some major\ngaps. While previous work only generates a partial PDDL representation given\ntemplated and thus unrealistic environment descriptions, we generate the\ncomplete representation given descriptions of various naturalness levels. Among\nan array of observations critical to improve LLMs' formal planning ability, we\nnote that large enough models can effectively formalize descriptions as PDDL,\noutperforming those directly generating plans, while being robust to lexical\nperturbation. As the descriptions become more natural-sounding, we observe a\ndecrease in performance and provide detailed error analysis.\n",
+  "subjects": [
+    "Computer Science/Computation and Language"
+  ],
+  "license": "http://creativecommons.org/licenses/by-sa/4.0/",
+  "blobId": "9FzwAM-GAXM5eYdzXRAiARGVMZB_eGqvdqFU24uKYv4",
+  "pdfSize": "718820"
+}

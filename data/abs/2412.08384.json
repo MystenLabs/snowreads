@@ -1,0 +1,32 @@
+{
+  "id": "2412.08384",
+  "title": "A note on the role of the initial error structure in the tropics on the\n  seasonal-to-decadal forecasting skill in the extratropics",
+  "authors": "St\\'ephane Vannitsem and Wansuo Duan",
+  "authorsParsed": [
+    [
+      "Vannitsem",
+      "Stéphane",
+      ""
+    ],
+    [
+      "Duan",
+      "Wansuo",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 11 Dec 2024 13:49:46 GMT"
+    }
+  ],
+  "updateDate": "2024-12-12",
+  "timestamp": 1733924986000,
+  "abstract": "  The predictability of a coupled system composed by a coupled reduced-order\nextratropical ocean-atmosphere model forced by a low-order 3-variable tropical\nrecharge-discharge model, is explored with emphasis on the long term\nforecasting capabilities. Highly idealized ensemble forecasts are produced\ntaking into account the uncertainties in the initial states of the system, with\na specific attention to the structure of the initial errors in the tropical\nmodel. Three main types of experiments are explored with random perturbations\nalong the three Lyapunov vectors of the tropical model, along the two dominant\nLyapunov vectors, and along the first Lyapunov vector, only. When perturbations\nare introduced along all vectors, forecasting biases are developing even if in\na perfect model framework. Theses biases are considerably reduced only when the\nperturbations are introduced along the dominant Lyapunov vector. This\nperturbation strategy allows furthermore for getting a reduced mean square\nerror at long lead times of a few years, and to get reliable ensemble forecasts\non the whole time range. These very counterintuitive findings further underline\nthe importance of appropriately control the initial error structure in the\ntropics through data assimilation.\n",
+  "subjects": [
+    "Nonlinear Sciences/Chaotic Dynamics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "PUekEUHCjQi5g4OR1G75UHEQadyDZFJTheNZHsccVcQ",
+  "pdfSize": "10558528"
+}

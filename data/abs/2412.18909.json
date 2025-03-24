@@ -1,0 +1,61 @@
+{
+  "id": "2412.18909",
+  "title": "Relaxation behavior near the first-order phase transition line",
+  "authors": "Xiaobing Li, Ranran Guo, Mingmei Xu, Jinghua Fu, Lizhu Chen, Yu Zhou,\n  and Yuanfang Wu",
+  "authorsParsed": [
+    [
+      "Li",
+      "Xiaobing",
+      ""
+    ],
+    [
+      "Guo",
+      "Ranran",
+      ""
+    ],
+    [
+      "Xu",
+      "Mingmei",
+      ""
+    ],
+    [
+      "Fu",
+      "Jinghua",
+      ""
+    ],
+    [
+      "Chen",
+      "Lizhu",
+      ""
+    ],
+    [
+      "Zhou",
+      "Yu",
+      ""
+    ],
+    [
+      "Wu",
+      "Yuanfang",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 25 Dec 2024 13:56:18 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Fri, 24 Jan 2025 09:34:24 GMT"
+    }
+  ],
+  "updateDate": "2025-01-27",
+  "timestamp": 1735134978000,
+  "abstract": "  Using the Metropolis algorithm, we simulate the relaxation process of the\nthree-dimensional kinetic Ising model. Starting from a random initial\nconfiguration, we first present the average equilibration time across the\nentire phase boundary. It is observed that the average equilibration time\nincreases significantly as the temperature decreases far from the critical\ntemperature $T_{\\rm c}$. The average equilibration time along the first-order\nphase transition (1st-PT) line exhibits an ultra-slow relaxation. We also\ninvestigate the dynamic scaling behavior with system sizes, and find that\ndynamic scaling holds not only near $T_{\\rm c}$, but also at $T\\ll T_{\\rm c}$.\nThe dynamic exponent at $T\\ll T_{\\rm c}$ is larger than that near $T_{\\rm c}$.\nAdditionally, we analyze the dynamic scaling of the average autocorrelation\ntime and find that it depends on system size only near $T_{\\rm c}$, while it\nbecomes size-independent both above and below $T_{\\rm c}$. The extremely slow\nrelaxation dynamics observed near the 1st-PT is attributed to the complex\nstructure of the free energy.\n",
+  "subjects": [
+    "Condensed Matter/Statistical Mechanics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "ng_fkIkvEuBv8VkapH1yVsj6P5UwNckJeZwygY5uP3g",
+  "pdfSize": "771501"
+}

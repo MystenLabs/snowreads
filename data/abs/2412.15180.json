@@ -1,0 +1,45 @@
+{
+  "id": "2412.15180",
+  "title": "Capturing the Page Curve and Entanglement Dynamics of Black Holes in\n  Quantum Computers",
+  "authors": "Talal Ahmed Chowdhury, Kwangmin Yu, Muhammad Asaduzzaman and Raza\n  Sabbir Sufian",
+  "authorsParsed": [
+    [
+      "Chowdhury",
+      "Talal Ahmed",
+      ""
+    ],
+    [
+      "Yu",
+      "Kwangmin",
+      ""
+    ],
+    [
+      "Asaduzzaman",
+      "Muhammad",
+      ""
+    ],
+    [
+      "Sufian",
+      "Raza Sabbir",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 19 Dec 2024 18:53:05 GMT"
+    }
+  ],
+  "updateDate": "2024-12-20",
+  "timestamp": 1734634385000,
+  "abstract": "  Understanding the Page curve and resolving the black hole information puzzle\nin terms of the entanglement dynamics of black holes has been a key question in\nfundamental physics. In principle, the current quantum computing can provide\ninsights into the entanglement dynamics of black holes within some simplified\nmodels. In this regard, we utilize quantum computers to investigate the entropy\nof Hawking radiation using the qubit transport model, a toy qubit model of\nblack hole evaporation. Specifically, we implement the quantum simulation of\nthe scrambling dynamics in black holes using an efficient random unitary\ncircuit. Furthermore, we employ the swap-based many-body interference protocol\nfor the first time and the randomized measurement protocol to measure the\nentanglement entropy of Hawking radiation qubits in IBM's superconducting\nquantum computers. Our findings indicate that while both entanglement entropy\nmeasurement protocols accurately estimate the R\\'enyi entropy in numerical\nsimulation, the randomized measurement protocol has a particular advantage over\nthe swap-based many-body interference protocol in IBM's superconducting quantum\ncomputers. Finally, by incorporating quantum error mitigation techniques, we\nestablish that the current quantum computers are robust tools for measuring the\nentanglement entropy of complex quantum systems and can probe black hole\ndynamics within simplified toy qubit models.\n",
+  "subjects": [
+    "Physics/Quantum Physics",
+    "Physics/High Energy Physics - Lattice",
+    "Physics/High Energy Physics - Phenomenology",
+    "Physics/High Energy Physics - Theory"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "iZVuVDKMSlt7ImE6W6sRoWN6xsRIzCgYAPEsTGFBy2A",
+  "pdfSize": "756122"
+}

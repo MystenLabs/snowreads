@@ -1,0 +1,31 @@
+{
+  "id": "2412.16410",
+  "title": "Application of Multimodal Large Language Models in Autonomous Driving",
+  "authors": "Md Robiul Islam",
+  "authorsParsed": [
+    [
+      "Islam",
+      "Md Robiul",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 21 Dec 2024 00:09:52 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Wed, 26 Feb 2025 16:01:49 GMT"
+    }
+  ],
+  "updateDate": "2025-02-27",
+  "timestamp": 1734739792000,
+  "abstract": "  In this era of technological advancements, several cutting-edge techniques\nare being implemented to enhance Autonomous Driving (AD) systems, focusing on\nimproving safety, efficiency, and adaptability in complex driving environments.\nHowever, AD still faces some problems including performance limitations. To\naddress this problem, we conducted an in-depth study on implementing the\nMulti-modal Large Language Model. We constructed a Virtual Question Answering\n(VQA) dataset to fine-tune the model and address problems with the poor\nperformance of MLLM on AD. We then break down the AD decision-making process by\nscene understanding, prediction, and decision-making. Chain of Thought has been\nused to make the decision more perfectly. Our experiments and detailed analysis\nof Autonomous Driving give an idea of how important MLLM is for AD.\n",
+  "subjects": [
+    "Computer Science/Computation and Language"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "xqKAYCfXmmy3CXiZPDR4KPideF-mn074JDslIVHjXGM",
+  "pdfSize": "4152377"
+}

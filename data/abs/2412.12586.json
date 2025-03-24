@@ -1,0 +1,32 @@
+{
+  "id": "2412.12586",
+  "title": "The Keller-Segel model with mass critical exponent",
+  "authors": "Shen Bian and Yichen Zou",
+  "authorsParsed": [
+    [
+      "Bian",
+      "Shen",
+      ""
+    ],
+    [
+      "Zou",
+      "Yichen",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 17 Dec 2024 06:41:40 GMT"
+    }
+  ],
+  "updateDate": "2024-12-18",
+  "timestamp": 1734417700000,
+  "abstract": "  We consider a Keller-Segel model with non-linear porous medium type diffusion\nand non-local attractive power law interaction, focusing on potentials that are\nless singular than Newtonian interaction. Here, the nonlinear diffusion is\nchosen to be $m=2-\\frac{2s}{d}$, in which case the steady states are compactly\nsupported. We analyse under what conditions on the initial data the regime that\nattractive forces are stronger than diffusion occurs and classify the\nconditions for global existence and finite time blow-up of solutions. It is\nshown that there exists a threshold value which is characterized by the optimal\nconstant of a variant of the Hardy-Littlewood-Sobolev inequality. Specifically,\nthe solution will exist globally if the initial data is below the threshold,\nwhile the solution blows up in finite time when the initial data is above the\nthreshold.\n",
+  "subjects": [
+    "Mathematics/Analysis of PDEs"
+  ],
+  "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+  "blobId": "YbwSmUzoaFZmyu7QKvfvqDC1Vj36zV_jAdMILIBpVrc",
+  "pdfSize": "197561"
+}

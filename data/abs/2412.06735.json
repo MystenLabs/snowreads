@@ -1,0 +1,38 @@
+{
+  "id": "2412.06735",
+  "title": "Partially Observed Optimal Stochastic Control: Regularity, Optimality,\n  Approximations, and Learning",
+  "authors": "Ali Devran Kara and Serdar Yuksel",
+  "authorsParsed": [
+    [
+      "Kara",
+      "Ali Devran",
+      ""
+    ],
+    [
+      "Yuksel",
+      "Serdar",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 9 Dec 2024 18:26:04 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Tue, 31 Dec 2024 00:22:52 GMT"
+    }
+  ],
+  "updateDate": "2025-01-03",
+  "timestamp": 1733768764000,
+  "abstract": "  In this review/tutorial article, we present recent progress on optimal\ncontrol of partially observed Markov Decision Processes (POMDPs). We first\npresent regularity and continuity conditions for POMDPs and their belief-MDP\nreductions, where these constitute weak Feller and Wasserstein regularity and\ncontrolled filter stability. These are then utilized to arrive at existence\nresults on optimal policies for both discounted and average cost problems, and\nregularity of value functions. Then, we study rigorous approximation results\ninvolving quantization based finite model approximations as well as finite\nwindow approximations under controlled filter stability. Finally, we present\nseveral recent reinforcement learning theoretic results which rigorously\nestablish convergence to near optimality under both criteria.\n",
+  "subjects": [
+    "Mathematics/Optimization and Control",
+    "Computer Science/Systems and Control",
+    "Electrical Engineering and Systems Science/Systems and Control"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "tSS3udHKDHIosAoUg0Z2P6Lv-nV_RqlkhtTMDXTP6vA",
+  "pdfSize": "297752"
+}

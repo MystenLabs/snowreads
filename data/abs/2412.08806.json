@@ -1,0 +1,32 @@
+{
+  "id": "2412.08806",
+  "title": "DALI: Domain Adaptive LiDAR Object Detection via Distribution-level and\n  Instance-level Pseudo Label Denoising",
+  "authors": "Xiaohu Lu and Hayder Radha",
+  "authorsParsed": [
+    [
+      "Lu",
+      "Xiaohu",
+      ""
+    ],
+    [
+      "Radha",
+      "Hayder",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 11 Dec 2024 22:43:41 GMT"
+    }
+  ],
+  "updateDate": "2024-12-13",
+  "timestamp": 1733957021000,
+  "abstract": "  Object detection using LiDAR point clouds relies on a large amount of\nhuman-annotated samples when training the underlying detectors' deep neural\nnetworks. However, generating 3D bounding box annotation for a large-scale\ndataset could be costly and time-consuming. Alternatively, unsupervised domain\nadaptation (UDA) enables a given object detector to operate on a novel new\ndata, with unlabeled training dataset, by transferring the knowledge learned\nfrom training labeled \\textit{source domain} data to the new unlabeled\n\\textit{target domain}. Pseudo label strategies, which involve training the 3D\nobject detector using target-domain predicted bounding boxes from a pre-trained\nmodel, are commonly used in UDA. However, these pseudo labels often introduce\nnoise, impacting performance. In this paper, we introduce the Domain Adaptive\nLIdar (DALI) object detection framework to address noise at both distribution\nand instance levels. Firstly, a post-training size normalization (PTSN)\nstrategy is developed to mitigate bias in pseudo label size distribution by\nidentifying an unbiased scale after network training. To address instance-level\nnoise between pseudo labels and corresponding point clouds, two pseudo point\nclouds generation (PPCG) strategies, ray-constrained and constraint-free, are\ndeveloped to generate pseudo point clouds for each instance, ensuring the\nconsistency between pseudo labels and pseudo points during training. We\ndemonstrate the effectiveness of our method on the publicly available and\npopular datasets KITTI, Waymo, and nuScenes. We show that the proposed DALI\nframework achieves state-of-the-art results and outperforms leading approaches\non most of the domain adaptation tasks. Our code is available at\n\\href{https://github.com/xiaohulugo/T-RO2024-DALI}{https://github.com/xiaohulugo/T-RO2024-DALI}.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "l-XdRpWAg53m24c8tw2hg6d3APw3PEH-mPqPQ-49Hu8",
+  "pdfSize": "8026234"
+}

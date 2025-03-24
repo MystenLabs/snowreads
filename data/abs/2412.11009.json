@@ -1,0 +1,34 @@
+{
+  "id": "2412.11009",
+  "title": "Dual Traits in Probabilistic Reasoning of Large Language Models",
+  "authors": "Shenxiong Li, Huaxia Rui",
+  "authorsParsed": [
+    [
+      "Li",
+      "Shenxiong",
+      ""
+    ],
+    [
+      "Rui",
+      "Huaxia",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 15 Dec 2024 01:33:45 GMT"
+    }
+  ],
+  "updateDate": "2024-12-17",
+  "timestamp": 1734226425000,
+  "abstract": "  We conducted three experiments to investigate how large language models\n(LLMs) evaluate posterior probabilities. Our results reveal the coexistence of\ntwo modes in posterior judgment among state-of-the-art models: a normative\nmode, which adheres to Bayes' rule, and a representative-based mode, which\nrelies on similarity -- paralleling human System 1 and System 2 thinking.\nAdditionally, we observed that LLMs struggle to recall base rate information\nfrom their memory, and developing prompt engineering strategies to mitigate\nrepresentative-based judgment may be challenging. We further conjecture that\nthe dual modes of judgment may be a result of the contrastive loss function\nemployed in reinforcement learning from human feedback. Our findings underscore\nthe potential direction for reducing cognitive biases in LLMs and the necessity\nfor cautious deployment of LLMs in critical areas.\n",
+  "subjects": [
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Computation and Language",
+    "Computer Science/Computers and Society"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "fdBIZAW6Xnuc9e4HQMer4P8oDfIDXEuEWhXb0mlgzfE",
+  "pdfSize": "248535"
+}

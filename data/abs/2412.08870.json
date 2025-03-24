@@ -1,0 +1,42 @@
+{
+  "id": "2412.08870",
+  "title": "A Mathematical Structure for Amplitude-Mixing Error-Transparent Gates\n  for Binomial Codes",
+  "authors": "Owen C. Wetherbee, Saswata Roy, Baptiste Royer, Valla Fatemi",
+  "authorsParsed": [
+    [
+      "Wetherbee",
+      "Owen C.",
+      ""
+    ],
+    [
+      "Roy",
+      "Saswata",
+      ""
+    ],
+    [
+      "Royer",
+      "Baptiste",
+      ""
+    ],
+    [
+      "Fatemi",
+      "Valla",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 12 Dec 2024 02:06:48 GMT"
+    }
+  ],
+  "updateDate": "2024-12-13",
+  "timestamp": 1733969208000,
+  "abstract": "  Bosonic encodings of quantum information offer hardware-efficient,\nnoise-biased approaches to quantum error correction relative to qubit register\nencodings. Implementations have focused in particular on error correction of\nstored, idle quantum information, whereas quantum algorithms are likely to\ndesire high duty cycles of active control. Error-transparent operations are one\nway to preserve error rates during operations, but, to the best of our\nknowledge, only phase gates have so far been given an explicitly\nerror-transparent formulation for binomial encodings. Here, we introduce the\nconcept of 'parity nested' operations, and show how these operations can be\ndesigned to achieve continuous amplitude-mixing logical gates for binomial\nencodings that are fully error-transparent to the photon loss channel. For a\nbinomial encoding that protects against l photon losses, the construction\nrequires $\\lfloor$l/2$\\rfloor$ + 1 orders of generalized squeezing in the\nparity nested operation to fully preserve this protection. We further show that\nerror-transparency to all the correctable photon jumps, but not the no-jump\nerrors, can be achieved with just a single order of squeezing. Finally, we\ncomment on possible approaches to experimental realization of this concept.\n",
+  "subjects": [
+    "Physics/Quantum Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "XfNQTOVTLUueqj8DRtLmtiPZoVRxy0GPA5CwM6I7Uc4",
+  "pdfSize": "1402710"
+}

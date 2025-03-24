@@ -1,0 +1,60 @@
+{
+  "id": "2412.12651",
+  "title": "Shared Attention-based Autoencoder with Hierarchical Fusion-based Graph\n  Convolution Network for sEEG SOZ Identification",
+  "authors": "Huachao Yan, Kailing Guo, Shiwei Song, Yihai Dai, Xiaoqiang Wei,\n  Xiaofen Xing, Xiangmin Xu",
+  "authorsParsed": [
+    [
+      "Yan",
+      "Huachao",
+      ""
+    ],
+    [
+      "Guo",
+      "Kailing",
+      ""
+    ],
+    [
+      "Song",
+      "Shiwei",
+      ""
+    ],
+    [
+      "Dai",
+      "Yihai",
+      ""
+    ],
+    [
+      "Wei",
+      "Xiaoqiang",
+      ""
+    ],
+    [
+      "Xing",
+      "Xiaofen",
+      ""
+    ],
+    [
+      "Xu",
+      "Xiangmin",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 17 Dec 2024 08:20:02 GMT"
+    }
+  ],
+  "updateDate": "2024-12-18",
+  "timestamp": 1734423602000,
+  "abstract": "  Diagnosing seizure onset zone (SOZ) is a challenge in neurosurgery, where\nstereoelectroencephalography (sEEG) serves as a critical technique. In sEEG SOZ\nidentification, the existing studies focus solely on the intra-patient\nrepresentation of epileptic information, overlooking the general features of\nepilepsy across patients and feature interdependencies between feature elements\nin each contact site. In order to address the aforementioned challenges, we\npropose the shared attention-based autoencoder (sATAE). sATAE is trained by\nsEEG data across all patients, with attention blocks introduced to enhance the\nrepresentation of interdependencies between feature elements. Considering the\nspatial diversity of sEEG across patients, we introduce graph-based method for\nidentification SOZ of each patient. However, the current graph-based methods\nfor sEEG SOZ identification rely exclusively on static graphs to model\nepileptic networks. Inspired by the finding of neuroscience that epileptic\nnetwork is intricately characterized by the interplay of sophisticated\nequilibrium between fluctuating and stable states, we design the hierarchical\nfusion-based graph convolution network (HFGCN) to identify the SOZ. HFGCN\nintegrates the dynamic and static characteristics of epileptic networks through\nhierarchical weighting across different hierarchies, facilitating a more\ncomprehensive learning of epileptic features and enriching node information for\nsEEG SOZ identification. Combining sATAE and HFGCN, we perform comprehensive\nexperiments with sATAE-HFGCN on the self-build sEEG dataset, which includes\nsEEG data from 17 patients with temporal lobe epilepsy. The results show that\nour method, sATAE-HFGCN, achieves superior performance for identifying the SOZ\nof each patient, effectively addressing the aforementioned challenges,\nproviding an efficient solution for sEEG-based SOZ identification.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Computer Science/Artificial Intelligence",
+    "Electrical Engineering and Systems Science/Signal Processing",
+    "Quantitative Biology/Neurons and Cognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "fhSQMrIkXENrXfrtmk6sKjtrnE8cNycZqlt5IB3rQSA",
+  "pdfSize": "1295272"
+}

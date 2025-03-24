@@ -1,0 +1,69 @@
+{
+  "id": "2412.01951",
+  "title": "Self-Improvement in Language Models: The Sharpening Mechanism",
+  "authors": "Audrey Huang, Adam Block, Dylan J. Foster, Dhruv Rohatgi, Cyril Zhang,\n  Max Simchowitz, Jordan T. Ash, and Akshay Krishnamurthy",
+  "authorsParsed": [
+    [
+      "Huang",
+      "Audrey",
+      ""
+    ],
+    [
+      "Block",
+      "Adam",
+      ""
+    ],
+    [
+      "Foster",
+      "Dylan J.",
+      ""
+    ],
+    [
+      "Rohatgi",
+      "Dhruv",
+      ""
+    ],
+    [
+      "Zhang",
+      "Cyril",
+      ""
+    ],
+    [
+      "Simchowitz",
+      "Max",
+      ""
+    ],
+    [
+      "Ash",
+      "Jordan T.",
+      ""
+    ],
+    [
+      "Krishnamurthy",
+      "Akshay",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 2 Dec 2024 20:24:17 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Wed, 4 Dec 2024 14:20:21 GMT"
+    }
+  ],
+  "updateDate": "2024-12-05",
+  "timestamp": 1733171057000,
+  "abstract": "  Recent work in language modeling has raised the possibility of\nself-improvement, where a language models evaluates and refines its own\ngenerations to achieve higher performance without external feedback. It is\nimpossible for this self-improvement to create information that is not already\nin the model, so why should we expect that this will lead to improved\ncapabilities? We offer a new perspective on the capabilities of\nself-improvement through a lens we refer to as sharpening. Motivated by the\nobservation that language models are often better at verifying response quality\nthan they are at generating correct responses, we formalize self-improvement as\nusing the model itself as a verifier during post-training in order to\n``sharpen'' the model to one placing large mass on high-quality sequences,\nthereby amortizing the expensive inference-time computation of generating good\nsequences. We begin by introducing a new statistical framework for sharpening\nin which the learner aims to sharpen a pre-trained base policy via sample\naccess, and establish fundamental limits. Then we analyze two natural families\nof self-improvement algorithms based on SFT and RLHF. We find that (i) the\nSFT-based approach is minimax optimal whenever the initial model has sufficient\ncoverage, but (ii) the RLHF-based approach can improve over SFT-based\nself-improvement by leveraging online exploration, bypassing the need for\ncoverage. Finally, we empirically validate the sharpening mechanism via\ninference-time and amortization experiments. We view these findings as a\nstarting point toward a foundational understanding that can guide the design\nand evaluation of self-improvement algorithms.\n",
+  "subjects": [
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Computation and Language",
+    "Computer Science/Machine Learning",
+    "Statistics/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "5oIV9bCPY5qGIyUZ_VPAMoTyBjkFk3but6V4z9ZIRh0",
+  "pdfSize": "1924304"
+}

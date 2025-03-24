@@ -1,0 +1,57 @@
+{
+  "id": "2412.09362",
+  "title": "Falcon-UI: Understanding GUI Before Following User Instructions",
+  "authors": "Huawen Shen, Chang Liu, Gengluo Li, Xinlong Wang, Yu Zhou, Can Ma,\n  Xiangyang Ji",
+  "authorsParsed": [
+    [
+      "Shen",
+      "Huawen",
+      ""
+    ],
+    [
+      "Liu",
+      "Chang",
+      ""
+    ],
+    [
+      "Li",
+      "Gengluo",
+      ""
+    ],
+    [
+      "Wang",
+      "Xinlong",
+      ""
+    ],
+    [
+      "Zhou",
+      "Yu",
+      ""
+    ],
+    [
+      "Ma",
+      "Can",
+      ""
+    ],
+    [
+      "Ji",
+      "Xiangyang",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 12 Dec 2024 15:29:36 GMT"
+    }
+  ],
+  "updateDate": "2024-12-13",
+  "timestamp": 1734017376000,
+  "abstract": "  Pursuing human-like interaction for Graphical User Interface (GUI) agents\nrequires understanding the GUI context and following user instructions.\nHowever, existing works typically couple these two aspects and focus more on\ninstruct-following abilities, while ignoring the importance of understanding\nthe GUI context. In this paper, we introduce an instruction-free GUI navigation\ndataset, termed Insight-UI Dataset, to enhance model comprehension of GUI\nenvironments. Insight-UI Dataset is automatically generated from the Common\nCrawl corpus, simulating various platforms -- including iOS, Android, Windows,\nand Linux -- across multiple resolutions on 312K domains. Although GUI\ninteractions vary by context, diverse interfaces share common internal\npatterns, such as clicking an item to view its details. It implies the\nfeasibility of independent GUI operation learning, followed by joint\noptimization with instruction tuning. Thereby, we develop the GUI agent model\nFalcon-UI, which is initially pretrained on Insight-UI Dataset and subsequently\nfine-tuned on Android and Web GUI datasets, including AITW, AITZ, Android\nControl, and Mind2Web. With 7 billion parameters, Falcon-UI achieves accuracy\ncomparable to the 72 billion-parameter Qwen2VL on AITZ, validating the\nalignment between GUI context comprehension and agent performance. Our code and\ndataset will be open-sourced.\n",
+  "subjects": [
+    "Computer Science/Computation and Language"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "rk2Y0eWzvWYVtZqtw6f1YrId16e_RAF3kCrG6hVQqGE",
+  "pdfSize": "6517466"
+}

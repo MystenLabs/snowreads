@@ -1,0 +1,58 @@
+{
+  "id": "2412.06278",
+  "title": "Responsivity evaluation of photonics integrated photodetectors via\n  pairwise measurements with an attenuation circuit",
+  "authors": "Jing Zhang, Tianchen Sun, Mai Ji, Anirudh R. Ramaseshan, Aswin A.\n  Eapen, Thomas Y.L. Ang, Victor Leong",
+  "authorsParsed": [
+    [
+      "Zhang",
+      "Jing",
+      ""
+    ],
+    [
+      "Sun",
+      "Tianchen",
+      ""
+    ],
+    [
+      "Ji",
+      "Mai",
+      ""
+    ],
+    [
+      "Ramaseshan",
+      "Anirudh R.",
+      ""
+    ],
+    [
+      "Eapen",
+      "Aswin A.",
+      ""
+    ],
+    [
+      "Ang",
+      "Thomas Y. L.",
+      ""
+    ],
+    [
+      "Leong",
+      "Victor",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 9 Dec 2024 07:55:38 GMT"
+    }
+  ],
+  "updateDate": "2024-12-10",
+  "timestamp": 1733730938000,
+  "abstract": "  Integrated photonics platforms offer a compact and scalable solution for\ndeveloping next-generation optical technologies. For precision applications\ninvolving weak signals, the responsivity as well as the accurate calibration of\nthe integrated photodetectors at low optical powers become increasingly\nimportant. It remains challenging to perform a calibration traceable to\nmW-level primary standards without relying on external attenuation setups.\nHere, we utilize an on-chip attenuation circuit, composed of a series of\ncascaded directional couplers (DCs), to evaluate the responsivity of integrated\nphotodetectors (PDs) at uW optical power levels with mW inputs to the chip.\nMoreover, we show that a pairwise measurement method, involving the\nsimultaneous measurement of the integrated PD photocurrent and an auxiliary\noptical output which is coupled off-chip, systematically improves the\nexperimental uncertainties compared to a direct PD photocurrent measurement.\nFor 3 cascaded DCs, the pairwise measurement improves the repeatability error\nfrom 1.21% to 0.22%, with an overall expanded calibration uncertainty (k=2) of\n10.13%. The latter is dominated by the scattering noise floor and fiber-to-chip\ncoupling errors, which can be significantly improved with better device\nfabrication control. Our method can be extended to a fully integrated\ncalibration solution for waveguide-integrated single-photon detectors.\n",
+  "subjects": [
+    "Physics/Optics",
+    "Physics/Applied Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "WGzCYU9aQzNxZu7MyMI4CF_oTIhKgrYiG3JEfJmiTE8",
+  "pdfSize": "364106"
+}

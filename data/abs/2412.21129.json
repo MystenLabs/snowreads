@@ -1,0 +1,27 @@
+{
+  "id": "2412.21129",
+  "title": "Exponential Sums with Additive Coefficients and its Consequences to\n  Weighted Partitions",
+  "authors": "Madhuparna Das",
+  "authorsParsed": [
+    [
+      "Das",
+      "Madhuparna",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 30 Dec 2024 18:00:05 GMT"
+    }
+  ],
+  "updateDate": "2024-12-31",
+  "timestamp": 1735581605000,
+  "abstract": "  In this article, we consider the weighted partition function $p_f(n)$ given\nby the generating series $\\sum_{n=1}^{\\infty} p_f(n)z^n =\n\\prod_{n\\in\\mathbb{N}^{*}}(1-z^n)^{-f(n)}$, where we restrict the class of\nweight functions to strongly additive functions. Originally proposed in a paper\nby Yang, this problem was further examined by Debruyne and Tenenbaum for weight\nfunctions taking positive integer values. We establish an asymptotic formula\nfor this generating series in a broader context, which notably can be used for\nthe class of multiplicative functions. Moreover, we employ a classical result\nby Montgomery-Vaughan to estimate exponential sums with additive coefficients,\nsupported on minor arcs.\n",
+  "subjects": [
+    "Mathematics/Number Theory"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "bzPDedsD147av5vRFai8TfjCimOQLa6qM9j0m99TWn0",
+  "pdfSize": "415707"
+}

@@ -1,0 +1,46 @@
+{
+  "id": "2412.15193",
+  "title": "Quantum Frequency Conversion of $\\mu s$-long Photons from the Visible to\n  the Telecom-C-Band",
+  "authors": "Soeren Wengerowsky, Stefano Duranti, Lukas Heller, Hugues de\n  Riedmatten",
+  "authorsParsed": [
+    [
+      "Wengerowsky",
+      "Soeren",
+      ""
+    ],
+    [
+      "Duranti",
+      "Stefano",
+      ""
+    ],
+    [
+      "Heller",
+      "Lukas",
+      ""
+    ],
+    [
+      "de Riedmatten",
+      "Hugues",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 19 Dec 2024 18:57:52 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Mon, 24 Feb 2025 14:06:39 GMT"
+    }
+  ],
+  "updateDate": "2025-02-25",
+  "timestamp": 1734634672000,
+  "abstract": "  Quantum Frequency Conversion (QFC) is a widely used technique to interface\natomic systems with the telecom band in order to facilitate propagation over\nlonger distances in fiber. Here we demonstrate the difference-frequency\nconversion from 606 nm to 1552 nm of microsecond-long weak coherent pulses at\nthe single photon level compatible with Pr$^{3+}$:Y$_2$SiO$_5\\,$ quantum\nmemories, with high-signal to noise ratio. We use a single step difference\nfrequency generation process with a continuous-wave pump at 994 nm in a\nMgO:ppLN-waveguide and ultra-narrow spectral filtering down to a bandwidth of\n12.5 MHz. With this setup, we achieve the conversion of weak coherent pulses of\nduration up to 13.6 $\\mu s$ with a device efficiency of about 25% and a\nsignal-to-noise ratio >460 for 10 $\\mu s$-long pulses containing one photon on\naverage. This signal-to-noise ratio is large enough to enable a high-fidelity\nconversion of qubits emitted from an emissive quantum memory based on\nPr$^{3+}$:Y$_2$SiO$_5\\,$ and to realize an interface with quantum processing\nnodes based on narrow-linewidth cavity-enhanced trapped ions.\n",
+  "subjects": [
+    "Physics/Quantum Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "sO1kGtvPQEysEmccUgdGN4YvCZVfOMBXysSofeAno-A",
+  "pdfSize": "1798939"
+}

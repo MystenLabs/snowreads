@@ -1,0 +1,49 @@
+{
+  "id": "2412.03224",
+  "title": "Channel Reflection: Knowledge-Driven Data Augmentation for EEG-Based\n  Brain-Computer Interfaces",
+  "authors": "Ziwei Wang and Siyang Li and Jingwei Luo and Jiajing Liu and Dongrui\n  Wu",
+  "authorsParsed": [
+    [
+      "Wang",
+      "Ziwei",
+      ""
+    ],
+    [
+      "Li",
+      "Siyang",
+      ""
+    ],
+    [
+      "Luo",
+      "Jingwei",
+      ""
+    ],
+    [
+      "Liu",
+      "Jiajing",
+      ""
+    ],
+    [
+      "Wu",
+      "Dongrui",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 4 Dec 2024 11:21:30 GMT"
+    }
+  ],
+  "updateDate": "2024-12-05",
+  "timestamp": 1733311290000,
+  "abstract": "  A brain-computer interface (BCI) enables direct communication between the\nhuman brain and external devices. Electroencephalography (EEG) based BCIs are\ncurrently the most popular for able-bodied users. To increase\nuser-friendliness, usually a small amount of user-specific EEG data are used\nfor calibration, which may not be enough to develop a pure data-driven decoding\nmodel. To cope with this typical calibration data shortage challenge in\nEEG-based BCIs, this paper proposes a parameter-free channel reflection (CR)\ndata augmentation approach that incorporates prior knowledge on the channel\ndistributions of different BCI paradigms in data augmentation. Experiments on\neight public EEG datasets across four different BCI paradigms (motor imagery,\nsteady-state visual evoked potential, P300, and seizure classifications) using\ndifferent decoding algorithms demonstrated that: 1) CR is effective, i.e., it\ncan noticeably improve the classification accuracy; 2) CR is robust, i.e., it\nconsistently outperforms existing data augmentation approaches in the\nliterature; and, 3) CR is flexible, i.e., it can be combined with other data\naugmentation approaches to further increase the performance. We suggest that\ndata augmentation approaches like CR should be an essential step in EEG-based\nBCIs. Our code is available online.\n",
+  "subjects": [
+    "Computer Science/Human-Computer Interaction",
+    "Computer Science/Machine Learning",
+    "Electrical Engineering and Systems Science/Signal Processing"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "p6WF_U6aj8OK-g0yALgmBduT73ehVBC682WYYhfH85o",
+  "pdfSize": "9774876"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "2412.16034",
+  "title": "Designing Visual Explanations and Learner Controls to Engage Adolescents\n  in AI-Supported Exercise Selection",
+  "authors": "Jeroen Ooge, Arno Vanneste, Maxwell Szymanski, Katrien Verbert",
+  "authorsParsed": [
+    [
+      "Ooge",
+      "Jeroen",
+      ""
+    ],
+    [
+      "Vanneste",
+      "Arno",
+      ""
+    ],
+    [
+      "Szymanski",
+      "Maxwell",
+      ""
+    ],
+    [
+      "Verbert",
+      "Katrien",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 20 Dec 2024 16:32:34 GMT"
+    }
+  ],
+  "updateDate": "2024-12-23",
+  "timestamp": 1734712354000,
+  "abstract": "  E-learning platforms that personalise content selection with AI are often\ncriticised for lacking transparency and controllability. Researchers have\ntherefore proposed solutions such as open learner models and letting learners\nselect from ranked recommendations, which engage learners before or after the\nAI-supported selection process. However, little research has explored how\nlearners - especially adolescents - could engage during such AI-supported\ndecision-making. To address this open challenge, we iteratively designed and\nimplemented a control mechanism that enables learners to steer the difficulty\nof AI-compiled exercise series before practice, while interactively analysing\ntheir control's impact in a 'what-if' visualisation. We evaluated our\nprototypes through four qualitative studies involving adolescents, teachers,\nEdTech professionals, and pedagogical experts, focusing on different types of\nvisual explanations for recommendations. Our findings suggest that 'why'\nexplanations do not always meet the explainability needs of young learners but\ncan benefit teachers. Additionally, 'what-if' explanations were well-received\nfor their potential to boost motivation. Overall, our work illustrates how\ncombining learner control and visual explanations can be operationalised on\ne-learning platforms for adolescents. Future research can build upon our\ndesigns for 'why' and 'what-if' explanations and verify our preliminary\nfindings.\n",
+  "subjects": [
+    "Computer Science/Human-Computer Interaction"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "t0XJ_a-6yUGNp7UWOoLOa6pwsG4qhxVx1J3GGlUYyJE",
+  "pdfSize": "8653352"
+}

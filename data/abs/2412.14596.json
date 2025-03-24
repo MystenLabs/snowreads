@@ -1,0 +1,44 @@
+{
+  "id": "2412.14596",
+  "title": "LDP: Generalizing to Multilingual Visual Information Extraction by\n  Language Decoupled Pretraining",
+  "authors": "Huawen Shen, Gengluo Li, Jinwen Zhong, Yu Zhou",
+  "authorsParsed": [
+    [
+      "Shen",
+      "Huawen",
+      ""
+    ],
+    [
+      "Li",
+      "Gengluo",
+      ""
+    ],
+    [
+      "Zhong",
+      "Jinwen",
+      ""
+    ],
+    [
+      "Zhou",
+      "Yu",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 19 Dec 2024 07:31:40 GMT"
+    }
+  ],
+  "updateDate": "2024-12-20",
+  "timestamp": 1734593500000,
+  "abstract": "  Visual Information Extraction (VIE) plays a crucial role in the comprehension\nof semi-structured documents, and several pre-trained models have been\ndeveloped to enhance performance. However, most of these works are monolingual\n(usually English). Due to the extremely unbalanced quantity and quality of\npre-training corpora between English and other languages, few works can extend\nto non-English scenarios. In this paper, we conduct systematic experiments to\nshow that vision and layout modality hold invariance among images with\ndifferent languages. If decoupling language bias from document images, a\nvision-layout-based model can achieve impressive cross-lingual generalization.\nAccordingly, we present a simple but effective multilingual training paradigm\nLDP (Language Decoupled Pre-training) for better utilization of monolingual\npre-training data. Our proposed model LDM (Language Decoupled Model) is first\npre-trained on the language-independent data, where the language knowledge is\ndecoupled by a diffusion model, and then the LDM is fine-tuned on the\ndownstream languages. Extensive experiments show that the LDM outperformed all\nSOTA multilingual pre-trained models, and also maintains competitiveness on\ndownstream monolingual/English benchmarks.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Computation and Language",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "VSELrwUO36M8GLtt1CYkNYbxPAw70fYa1L0246DSYbU",
+  "pdfSize": "1214075"
+}

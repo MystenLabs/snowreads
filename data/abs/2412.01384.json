@@ -1,0 +1,49 @@
+{
+  "id": "2412.01384",
+  "title": "Addressing general measurements in quantum Monte Carlo",
+  "authors": "Zhiyan Wang, Zenan Liu, Zhe Wang, and Zheng Yan",
+  "authorsParsed": [
+    [
+      "Wang",
+      "Zhiyan",
+      ""
+    ],
+    [
+      "Liu",
+      "Zenan",
+      ""
+    ],
+    [
+      "Wang",
+      "Zhe",
+      ""
+    ],
+    [
+      "Yan",
+      "Zheng",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 2 Dec 2024 11:12:19 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Tue, 24 Dec 2024 01:32:14 GMT"
+    }
+  ],
+  "updateDate": "2024-12-25",
+  "timestamp": 1733137939000,
+  "abstract": "  Achieving general (off-diagonal) measurements is one of the most significant\nchallenges in quantum Monte Carlo, which strongly limits its application during\nthe decades of development. We propose a universal scheme to tackle the\nproblems of general measurement. The target observables are expressed as the\nratio of two types of partition functions $\\langle \\mathrm{O}\n\\rangle=\\bar{Z}/Z$, where $\\bar{Z}=\\mathrm{tr} (\\mathrm{Oe^{-\\beta H}})$ and\n$Z=\\mathrm{tr} (\\mathrm{e^{-\\beta H}})$. These two partition functions can be\nestimated separately within the reweight-annealing frame, and then be connected\nby an easily solvable reference point. We have successfully applied this scheme\nto XXZ model and transverse field Ising model, from 1D to 2D systems, from\ntwo-body to multi-body correlations and even non-local disorder operators, and\nfrom equal-time to imaginary-time correlations. The reweighting path is not\nlimited to physical parameters, but also works for space and (imaginary) time.\nOur work paves an easy and efficient way to capture the complex off-diagonal\noperators in quantum Monte Carlo simulation, which provides new insight to\naddress the challenge of quantum Monte Carlo.\n",
+  "subjects": [
+    "Condensed Matter/Strongly Correlated Electrons",
+    "Condensed Matter/Statistical Mechanics",
+    "Physics/Computational Physics",
+    "Physics/Quantum Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "ycfxPqtw8LUgKJRZ0jdcOnM1rcLtTXSna1jLrJeDiXE",
+  "pdfSize": "4300167"
+}

@@ -1,0 +1,36 @@
+{
+  "id": "2412.03317",
+  "title": "FlashAttention on a Napkin: A Diagrammatic Approach to Deep Learning\n  IO-Awareness",
+  "authors": "Vincent Abbott, Gioele Zardini",
+  "authorsParsed": [
+    [
+      "Abbott",
+      "Vincent",
+      ""
+    ],
+    [
+      "Zardini",
+      "Gioele",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 4 Dec 2024 13:52:04 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Sun, 19 Jan 2025 08:31:39 GMT"
+    }
+  ],
+  "updateDate": "2025-01-22",
+  "timestamp": 1733320324000,
+  "abstract": "  Optimizing deep learning algorithms currently requires slow, manual\nderivation, potentially leaving much performance untapped. Methods like\nFlashAttention have achieved a x6 performance improvement over native PyTorch\nby avoiding unnecessary data transfers, but required three iterations over\nthree years to be developed. Automated compiled methods have consistently\nlagged behind. This paper extends Neural Circuit Diagrams for deep learning\nmodels to consider resource usage and the distribution of tasks across a GPU\nhierarchy. We show how diagrams can use simple relabellings to derive\nhigh-level streaming and tiling optimization strategies along with performance\nmodels. We show how this high-level performance model allows the effects of\nquantization and multi-level GPU hierarchies to be readily considered. We\ndevelop a methodology for representing intermediate-level pseudocode with\ndiagrams, allowing hardware-aware algorithms to be derived step-by-step.\nFinally, we show how our methodology can be used to better understand existing\ntechniques like FlashAttention. This work uses a theoretical framework to link\nassumptions about GPU behaviour to claims about performance. We aim to lay the\ngroundwork for a scientific approach to GPU optimization where experiments can\naddress clear hypotheses rather than post-hoc rationalizations.\n",
+  "subjects": [
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "DUyzP0rnVC0XgM9sRgL_nl6YFn579sqQqTtR_0lJZkk",
+  "pdfSize": "4665468"
+}

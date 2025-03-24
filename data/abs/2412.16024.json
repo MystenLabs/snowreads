@@ -1,0 +1,37 @@
+{
+  "id": "2412.16024",
+  "title": "High-efficiency position resolved gamma ray detectors for\n  2D-measurements of the angular correlation of annihilation radiation",
+  "authors": "Kilian Brenner, Francesco Guatieri and Christoph Hugenschmidt",
+  "authorsParsed": [
+    [
+      "Brenner",
+      "Kilian",
+      ""
+    ],
+    [
+      "Guatieri",
+      "Francesco",
+      ""
+    ],
+    [
+      "Hugenschmidt",
+      "Christoph",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 20 Dec 2024 16:16:54 GMT"
+    }
+  ],
+  "updateDate": "2024-12-23",
+  "timestamp": 1734711414000,
+  "abstract": "  The measurement of the 2D-Angular Correlation of Electron Positron\nAnnihilation Radiation (ACAR) provides unique information about the bulk\nelectronic structure of single crystals. We set up a new prototype for 2D-ACAR\nmeasurements using two 24 x 24 (26.8 mm x 26.8 mm) pixelated LYSO scintillation\ncrystals in combination with a glass light guide and 8 x 8 (24 mm x 24 mm)\nMulti Pixel Photon Counters (MPPCs). Compared to conventional Anger-cameras,\ntypically comprising large NaI(Tl) scintillators read out with photomultiplier\narrays a larger implementation of our prototype would drastically improve\nresolution and count rate by taking advantage of the small pixel size of the\nscintillator, its much higher attenuation coefficient for 511 keV\n{\\gamma}-quanta and faster digital readout. With our prototype we achieved a\ndetection efficiency of 45%, i.e. five times higher compared to NaI(Tl) used in\nour Anger cameras, leading to a 25 (!) times higher coincidence count rate in\nACAR measurements. A spatial resolution of 1 mm was obtained, which is limited\nby the pixel size of the scintillator. We demonstrate the high performance of\nthe setup by (i) imaging the local distribution of 22Na in a proton-irradiated\naluminum target and (ii) determining the Fermi energy of Cu from 2D-ACAR\nspectra recorded for a polycrystalline copper sample.\n",
+  "subjects": [
+    "Physics/Instrumentation and Detectors"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "BVl2bdnXGcEFfkh5Ov-EhDs1vHm5hOhXhvULOuWrYB0",
+  "pdfSize": "2289869"
+}

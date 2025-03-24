@@ -1,0 +1,52 @@
+{
+  "id": "2412.09877",
+  "title": "Optimized Coordination Strategy for Multi-Aerospace Systems in\n  Pick-and-Place Tasks By Deep Neural Network",
+  "authors": "Ye Zhang, Linyue Chu, Letian Xu, Kangtong Mo, Zhengjian Kang, Xingyu\n  Zhang",
+  "authorsParsed": [
+    [
+      "Zhang",
+      "Ye",
+      ""
+    ],
+    [
+      "Chu",
+      "Linyue",
+      ""
+    ],
+    [
+      "Xu",
+      "Letian",
+      ""
+    ],
+    [
+      "Mo",
+      "Kangtong",
+      ""
+    ],
+    [
+      "Kang",
+      "Zhengjian",
+      ""
+    ],
+    [
+      "Zhang",
+      "Xingyu",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 13 Dec 2024 05:43:21 GMT"
+    }
+  ],
+  "updateDate": "2024-12-16",
+  "timestamp": 1734068601000,
+  "abstract": "  In this paper, we present an advanced strategy for the coordinated control of\na multi-agent aerospace system, utilizing Deep Neural Networks (DNNs) within a\nreinforcement learning framework. Our approach centers on optimizing autonomous\ntask assignment to enhance the system's operational efficiency in object\nrelocation tasks, framed as an aerospace-oriented pick-and-place scenario. By\nmodeling this coordination challenge within a MuJoCo environment, we employ a\ndeep reinforcement learning algorithm to train a DNN-based policy to maximize\ntask completion rates across the multi-agent system. The objective function is\nexplicitly designed to maximize effective object transfer rates, leveraging\nneural network capabilities to handle complex state and action spaces in\nhigh-dimensional aerospace environments. Through extensive simulation, we\nbenchmark the proposed method against a heuristic combinatorial approach rooted\nin game-theoretic principles, demonstrating a marked performance improvement,\nwith the trained policy achieving up to 16\\% higher task efficiency.\nExperimental validation is conducted on a multi-agent hardware setup to\nsubstantiate the efficacy of our approach in a real-world aerospace scenario.\n",
+  "subjects": [
+    "Computer Science/Robotics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "wL8wBAD6oGKmlEQOwIQr80JUViNz8UWN8j4moaxP4sE",
+  "pdfSize": "4440613"
+}

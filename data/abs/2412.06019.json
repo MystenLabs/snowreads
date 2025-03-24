@@ -1,0 +1,27 @@
+{
+  "id": "2412.06019",
+  "title": "The Double-White-Dwarf Merger Rate from ZTF",
+  "authors": "Dan Maoz",
+  "authorsParsed": [
+    [
+      "Maoz",
+      "Dan",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 8 Dec 2024 18:39:11 GMT"
+    }
+  ],
+  "updateDate": "2024-12-10",
+  "timestamp": 1733683151000,
+  "abstract": "  Using the Zwicky Transient Facility (ZTF), Burdge et al. (2020) discovered\nsystems of eclipsing double white dwarfs (EDWDs) having orbital periods <1 hr.\nFrom the properties of 3 of the discovered systems, I estimate a merger rate of\nDWDs, per WD in the Galaxy, of $R_{\\rm merge, WD}\\approx8\\times\n10^{-12}$yr$^{-1}$, or a rate per unit stellar mass in the Galaxy, of $R_{\\rm\nmerge, M*}\\approx4.8\\times 10^{-13}$yr$^{-1}$M$_\\odot^{-1}$.This likely\nsomewhat underestimates the rate, because of several known effects that work\nagainst EDWD detection in ZTF. The derived merger rate is within the\nuncertainty range, $R_{\\rm merge, M*} =(4.6-5.8)\\times\n10^{-13}$yr$^{-1}$M$_\\odot^{-1}$, measured independently by Maoz et al. (2018)\nbased on two samples of DWDs discovered via radial-velocity variations. Based\non the expected period distribution of DWDs and their detectability, of order\n100 additional eclipsing DWDs with periods >1 hr are discoverable in ZTF, with\npotential to significantly improve the merger-rate's measurement precision.\n",
+  "subjects": [
+    "Astrophysics/Astrophysics of Galaxies"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "ZfcZ0dHUi8ykNiY6glyjYwqKSx8JeRfAbu1HNS_PZbE",
+  "pdfSize": "244618"
+}

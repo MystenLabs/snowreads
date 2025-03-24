@@ -1,0 +1,42 @@
+{
+  "id": "2412.04231",
+  "title": "Pathwise uniform convergence of numerical approximations for a\n  two-dimensional stochastic Navier-Stokes equation with no-slip boundary\n  conditions",
+  "authors": "Binjie Li, Xiaoping Xie, and Qin Zhou",
+  "authorsParsed": [
+    [
+      "Li",
+      "Binjie",
+      ""
+    ],
+    [
+      "Xie",
+      "Xiaoping",
+      ""
+    ],
+    [
+      "Zhou",
+      "Qin",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 5 Dec 2024 15:08:35 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Sun, 9 Feb 2025 17:07:42 GMT"
+    }
+  ],
+  "updateDate": "2025-02-11",
+  "timestamp": 1733411315000,
+  "abstract": "  This paper investigates the pathwise uniform convergence in probability of\nfully discrete finite-element approximations for the two-dimensional stochastic\nNavier-Stokes equations with multiplicative noise, subject to no-slip boundary\nconditions. We demonstrate that the full discretization achieves nearly $\n3/2$-order convergence in space and nearly half-order convergence in time.\n",
+  "subjects": [
+    "Mathematics/Numerical Analysis",
+    "Computer Science/Numerical Analysis"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "cw_itolahLIbValOzz0EJZwxJ8J7xSJZk_KEnsxQ-TU",
+  "pdfSize": "404064"
+}

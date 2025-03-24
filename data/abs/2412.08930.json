@@ -1,0 +1,53 @@
+{
+  "id": "2412.08930",
+  "title": "A photonic integrated circuit for heterogeneous second harmonic\n  generation",
+  "authors": "Theodore J. Morin, Mingxiao Li, Federico Camponeschi, Hou Xiong, Deven\n  Tseng, John E. Bowers",
+  "authorsParsed": [
+    [
+      "Morin",
+      "Theodore J.",
+      ""
+    ],
+    [
+      "Li",
+      "Mingxiao",
+      ""
+    ],
+    [
+      "Camponeschi",
+      "Federico",
+      ""
+    ],
+    [
+      "Xiong",
+      "Hou",
+      ""
+    ],
+    [
+      "Tseng",
+      "Deven",
+      ""
+    ],
+    [
+      "Bowers",
+      "John E.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 12 Dec 2024 04:41:43 GMT"
+    }
+  ],
+  "updateDate": "2024-12-13",
+  "timestamp": 1733978503000,
+  "abstract": "  Heterogeneous integration of GaAs-based lasers with frequency doubling\nwaveguides presents a clear path to scalable coherent sources in the so-called\ngreen gap, yet frequency doubling systems have so far relied on separately\nmanufactured lasers to deliver enough power for second harmonic generation. In\nthis work, we propose a photonic integrated circuit (PIC) which alleviates the\nperformance requirements for integrated frequency doublers. Two gain sections\nare connected by waveguides, with a frequency converter and a wavelength\nseparator in between. The fundamental light circulates between the gain\nsections until it is converted and emitted through the wavelength separator.\nVariants of this separated gain PIC are discussed, and the PIC is implemented\nwith thin film lithium niobate and directly bonded GaAs-based lasers, coupled\nby on-chip facets and adiabatic tapers, realizing visible light generation in\nthe 515-595 nm range.\n",
+  "subjects": [
+    "Physics/Optics",
+    "Physics/Applied Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "bBdTAqBI6LjbI5JJyS9Fes1hxtSbDWQTUyh5ZvLrGFg",
+  "pdfSize": "18123217"
+}

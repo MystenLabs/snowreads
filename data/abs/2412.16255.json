@@ -1,0 +1,42 @@
+{
+  "id": "2412.16255",
+  "title": "Multi-Source Unsupervised Domain Adaptation with Prototype Aggregation",
+  "authors": "Min Huang, Zifeng Xie, Bo Sun, Ning Wang",
+  "authorsParsed": [
+    [
+      "Huang",
+      "Min",
+      ""
+    ],
+    [
+      "Xie",
+      "Zifeng",
+      ""
+    ],
+    [
+      "Sun",
+      "Bo",
+      ""
+    ],
+    [
+      "Wang",
+      "Ning",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 20 Dec 2024 06:44:35 GMT"
+    }
+  ],
+  "updateDate": "2024-12-24",
+  "timestamp": 1734677075000,
+  "abstract": "  Multi-source domain adaptation (MSDA) plays an important role in industrial\nmodel generalization. Recent efforts on MSDA focus on enhancing multi-domain\ndistributional alignment while omitting three issues, e.g., the class-level\ndiscrepancy quantification, the unavailability of noisy pseudo-label, and\nsource transferability discrimination, potentially resulting in suboptimal\nadaption performance. Therefore, we address these issues by proposing a\nprototype aggregation method that models the discrepancy between source and\ntarget domains at the class and domain levels. Our method achieves domain\nadaptation based on a group of prototypes (i.e., representative feature\nembeddings). A similarity score-based strategy is designed to quantify the\ntransferability of each domain. At the class level, our method quantifies\nclass-specific cross-domain discrepancy according to reliable target\npseudo-labels. At the domain level, our method establishes distributional\nalignment between noisy pseudo-labeled target samples and the source domain\nprototypes. Therefore, adaptation at the class and domain levels establishes a\ncomplementary mechanism to obtain accurate predictions. The results on three\nstandard benchmarks demonstrate that our method outperforms most\nstate-of-the-art methods. In addition, we provide further elaboration of the\nproposed method in light of the interpretable results obtained from the\nanalysis experiments.\n",
+  "subjects": [
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+  "blobId": "cJrgvvOfcdzSL_HRTE41ibynkWgpm7gnwbEd3j-rRVw",
+  "pdfSize": "1003374"
+}

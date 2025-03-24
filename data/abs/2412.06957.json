@@ -1,0 +1,142 @@
+{
+  "id": "2412.06957",
+  "title": "JWST UNCOVERs the Optical Size - Stellar Mass Relation at $4<z<8$: Rapid\n  Growth in the Sizes of Low Mass Galaxies in the First Billion Years of the\n  Universe",
+  "authors": "Tim B. Miller, Katherine A. Suess, David J. Setton, Sedona H. Price,\n  Ivo Labbe, Rachel Bezanson, Gabriel Brammer, Sam E. Cutler, Lukas J. Furtak,\n  Joel Leja, Richard Pan, Bingjie Wang, John R. Weaver, Katherine E. Whitaker,\n  Pratika Dayal, Anna de Graaff, Robert Feldmann, Jenny E. Greene, S. Fujimoto,\n  Michael V. Maseda, Themiya Nanayakkara, Erica J. Nelson, Pieter van Dokkum,\n  and Adi Zitrin",
+  "authorsParsed": [
+    [
+      "Miller",
+      "Tim B.",
+      ""
+    ],
+    [
+      "Suess",
+      "Katherine A.",
+      ""
+    ],
+    [
+      "Setton",
+      "David J.",
+      ""
+    ],
+    [
+      "Price",
+      "Sedona H.",
+      ""
+    ],
+    [
+      "Labbe",
+      "Ivo",
+      ""
+    ],
+    [
+      "Bezanson",
+      "Rachel",
+      ""
+    ],
+    [
+      "Brammer",
+      "Gabriel",
+      ""
+    ],
+    [
+      "Cutler",
+      "Sam E.",
+      ""
+    ],
+    [
+      "Furtak",
+      "Lukas J.",
+      ""
+    ],
+    [
+      "Leja",
+      "Joel",
+      ""
+    ],
+    [
+      "Pan",
+      "Richard",
+      ""
+    ],
+    [
+      "Wang",
+      "Bingjie",
+      ""
+    ],
+    [
+      "Weaver",
+      "John R.",
+      ""
+    ],
+    [
+      "Whitaker",
+      "Katherine E.",
+      ""
+    ],
+    [
+      "Dayal",
+      "Pratika",
+      ""
+    ],
+    [
+      "de Graaff",
+      "Anna",
+      ""
+    ],
+    [
+      "Feldmann",
+      "Robert",
+      ""
+    ],
+    [
+      "Greene",
+      "Jenny E.",
+      ""
+    ],
+    [
+      "Fujimoto",
+      "S.",
+      ""
+    ],
+    [
+      "Maseda",
+      "Michael V.",
+      ""
+    ],
+    [
+      "Nanayakkara",
+      "Themiya",
+      ""
+    ],
+    [
+      "Nelson",
+      "Erica J.",
+      ""
+    ],
+    [
+      "van Dokkum",
+      "Pieter",
+      ""
+    ],
+    [
+      "Zitrin",
+      "Adi",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 9 Dec 2024 20:05:05 GMT"
+    }
+  ],
+  "updateDate": "2024-12-11",
+  "timestamp": 1733774705000,
+  "abstract": "  We study the rest-frame optical and ultraviolet morphology of galaxies in the\nfirst billion years of the Universe. Using JWST data from the UNCOVER and\nMegaScience surveys targeting the lensing cluster Abell 2744 we present\nmulti-band morphological measurements for a sample of 995 galaxies selected\nusing 20-band NIRCam photometry and 35 using NIRSpec Prism spectroscopy over\nthe redshift range of $4<z<8$. The wavelength-dependent morphology is measured\nusing pysersic by simultaneously modeling the images in 6 NIRCam wide filters\ncovering the rest-frame UV to optical. The joint modeling technique increases\nthe precision of measured radii by 50\\%. Galaxies in our sample show a wide\nrange of Sersic indices, with no systematic difference between optical and UV\nmorphology. We model the size-mass relation in a Bayesian manner using a\ncontinuity model to directly fit the redshift evolution while accounting for\nobservational uncertainties. We find the average size of galaxies at $\\log\nM_*/M_\\odot=8.5$ grows rapidly, from 400 pc at $z=8$ to 830 pc at $z=4$. This\nis faster evolution than expected from power law scalings of the Hubble\nparameter or scale factor that describe well previous results at $z<2$. This\nsuggests that different and/or much stronger processes affect low mass systems\nduring the epoch of reionization. The measured logarithmic slope (0.25) and\nscatter (0.23 dex) are non-evolving. We discuss the remarkable consistency of\nthe slope and scatter over cosmic time in the context of the galaxy-halo\nconnection.\n",
+  "subjects": [
+    "Astrophysics/Astrophysics of Galaxies"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "jFuJKKRjldIgcMEW82NMv97ZSq2E12fWLZ5B7EP5EdA",
+  "pdfSize": "3201645"
+}

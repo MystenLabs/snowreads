@@ -1,0 +1,32 @@
+{
+  "id": "2412.16743",
+  "title": "The Geometry of Loop Spaces IV: Closed Sasakian Manifolds",
+  "authors": "Yoshiaki Maeda and Steven Rosenberg",
+  "authorsParsed": [
+    [
+      "Maeda",
+      "Yoshiaki",
+      ""
+    ],
+    [
+      "Rosenberg",
+      "Steven",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 21 Dec 2024 19:26:29 GMT"
+    }
+  ],
+  "updateDate": "2024-12-24",
+  "timestamp": 1734809189000,
+  "abstract": "  We construct a one-parameter family of pairwise non-isometric metrics\n$h_{\\rho}, \\rho > 0,$ on any closed Sasakian manifold $M^{4k+1}$ such that\n$\\pi_1({\\rm Isom}(M, h_\\rho))$ is infinite. On $S^{4k+1}$, $h_0$ is the\nstandard metric, so $\\pi_1({\\rm Isom}(S^{4k+1}, h_\\rho)) = {\\mathbb Z}_2$ is\nfinite only at $\\rho = 0.$ We also give a new proof that $\\pi_1({\\rm\nDiff}_{\\eta,str} (S^{4k+1}))$ is infinite, where ${\\rm Diff}_{\\eta,str}\n(S^{4k+1})$ is the infinite dimensional group of diffeomrophisms which are\nstrict contact transformations of the standard contact structure on $S^{4k+1}.$\n",
+  "subjects": [
+    "Mathematics/Differential Geometry"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "tY0ifdLnhKB43RDSE86pfU9lkcUygk8L4-CPFK_IYDA",
+  "pdfSize": "268181"
+}

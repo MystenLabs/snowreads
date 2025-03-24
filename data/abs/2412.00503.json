@@ -1,0 +1,41 @@
+{
+  "id": "2412.00503",
+  "title": "Homeostasis and Sparsity in Transformer",
+  "authors": "Leonid Kotyuzanskiy, Artem Klimov",
+  "authorsParsed": [
+    [
+      "Kotyuzanskiy",
+      "Leonid",
+      ""
+    ],
+    [
+      "Klimov",
+      "Artem",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 30 Nov 2024 15:03:41 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Sun, 8 Dec 2024 13:24:31 GMT"
+    },
+    {
+      "version": "v3",
+      "created": "Mon, 16 Dec 2024 14:59:05 GMT"
+    }
+  ],
+  "updateDate": "2024-12-17",
+  "timestamp": 1732979021000,
+  "abstract": "  The transformer architecture has become an integral part of the field of\nmodern neural networks, playing a crucial role in a variety of tasks, such as\ntext generation, machine translation, image and audio processing, among others.\nThere is also an alternative approach to building intelligent systems, proposed\nby Jeff Hawkins and inspired by the processes occurring in the neocortex. In\nour article we want to combine some of these ideas and to propose the use of\nhomeostasis mechanisms, such as RFB-kWTA and \"Smart\" Inhibition, in the\nattention mechanism of the transformer and at the output of the transformer\nblock, as well as conducting an experiment involving the introduction of sparse\ndistributed representations of the transformer at various points. RFB-kWTA\nutilizes statistics of layer activations across time to adjust the entire\nlayer, enhancing the values of rare activations while reducing those of\nfrequent ones. \"Smart\" Inhibition also uses activation statistics to sample\nsparsity masks, with rarer activation times are more likely to be activated.\nOur proposed mechanisms significantly outperform the classical transformer\n0.2768 BLEU and a model that only makes use of dropout in the attention\nmechanism and output of the transformer block 0.3007 BLEU, achieving a score of\n0.3062 on the Multi30K dataset.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "-sP1w9-cbN5gHJ4r31e0OYjhxZXwi5-f5t8wkLyZWvE",
+  "pdfSize": "1232048"
+}

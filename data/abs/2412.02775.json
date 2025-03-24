@@ -1,0 +1,74 @@
+{
+  "id": "2412.02775",
+  "title": "Optimizing Large Language Models for Turkish: New Methodologies in\n  Corpus Selection and Training",
+  "authors": "H. Toprak Kesgin, M. Kaan Yuce, Eren Dogan, M. Egemen Uzun, Atahan Uz,\n  Elif Ince, Yusuf Erdem, Osama Shbib, Ahmed Zeer, M. Fatih Amasyali",
+  "authorsParsed": [
+    [
+      "Kesgin",
+      "H. Toprak",
+      ""
+    ],
+    [
+      "Yuce",
+      "M. Kaan",
+      ""
+    ],
+    [
+      "Dogan",
+      "Eren",
+      ""
+    ],
+    [
+      "Uzun",
+      "M. Egemen",
+      ""
+    ],
+    [
+      "Uz",
+      "Atahan",
+      ""
+    ],
+    [
+      "Ince",
+      "Elif",
+      ""
+    ],
+    [
+      "Erdem",
+      "Yusuf",
+      ""
+    ],
+    [
+      "Shbib",
+      "Osama",
+      ""
+    ],
+    [
+      "Zeer",
+      "Ahmed",
+      ""
+    ],
+    [
+      "Amasyali",
+      "M. Fatih",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 3 Dec 2024 19:17:18 GMT"
+    }
+  ],
+  "updateDate": "2024-12-05",
+  "timestamp": 1733253438000,
+  "abstract": "  In this study, we develop and assess new corpus selection and training\nmethodologies to improve the effectiveness of Turkish language models.\nSpecifically, we adapted Large Language Model generated datasets and translated\nEnglish datasets into Turkish, integrating these resources into the training\nprocess. This approach led to substantial enhancements in model accuracy for\nboth few-shot and zero-shot learning scenarios. Furthermore, the merging of\nthese adapted models was found to markedly improve their performance. Human\nevaluative metrics, including task-specific performance assessments, further\ndemonstrated that these adapted models possess a greater aptitude for\ncomprehending the Turkish language and addressing logic-based queries. This\nresearch underscores the importance of refining corpus selection strategies to\noptimize the performance of multilingual models, particularly for\nunder-resourced languages like Turkish.\n",
+  "subjects": [
+    "Computer Science/Computation and Language",
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "NZJE2eiP3NQAEtrLhCfMIsT_89TngEgJlQ9521ra2w0",
+  "pdfSize": "1827177"
+}

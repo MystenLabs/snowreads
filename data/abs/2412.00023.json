@@ -1,0 +1,42 @@
+{
+  "id": "2412.00023",
+  "title": "Evaluating Large Language Models on Business Process Modeling:\n  Framework, Benchmark, and Self-Improvement Analysis",
+  "authors": "Humam Kourani, Alessandro Berti, Daniel Schuster, Wil M.P. van der\n  Aalst",
+  "authorsParsed": [
+    [
+      "Kourani",
+      "Humam",
+      ""
+    ],
+    [
+      "Berti",
+      "Alessandro",
+      ""
+    ],
+    [
+      "Schuster",
+      "Daniel",
+      ""
+    ],
+    [
+      "van der Aalst",
+      "Wil M. P.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 17 Nov 2024 08:28:53 GMT"
+    }
+  ],
+  "updateDate": "2024-12-03",
+  "timestamp": 1731832133000,
+  "abstract": "  Large Language Models (LLMs) are rapidly transforming various fields, and\ntheir potential in Business Process Management (BPM) is substantial. This paper\nassesses the capabilities of LLMs on business process modeling using a\nframework for automating this task, a comprehensive benchmark, and an analysis\nof LLM self-improvement strategies. We present a comprehensive evaluation of 16\nstate-of-the-art LLMs from major AI vendors using a custom-designed benchmark\nof 20 diverse business processes. Our analysis highlights significant\nperformance variations across LLMs and reveals a positive correlation between\nefficient error handling and the quality of generated models. It also shows\nconsistent performance trends within similar LLM groups. Furthermore, we\ninvestigate LLM self-improvement techniques, encompassing self-evaluation,\ninput optimization, and output optimization. Our findings indicate that output\noptimization, in particular, offers promising potential for enhancing quality,\nespecially in models with initially lower performance. Our contributions\nprovide insights for leveraging LLMs in BPM, paving the way for more advanced\nand automated process modeling techniques.\n",
+  "subjects": [
+    "Computer Science/Databases"
+  ],
+  "license": "http://creativecommons.org/licenses/by-sa/4.0/",
+  "blobId": "w2dKkM0LIySG4t0_a0Sd5iXUg22iWbPGRQ3WDXWo6dw",
+  "pdfSize": "1095259"
+}

@@ -1,0 +1,58 @@
+{
+  "id": "2412.20834",
+  "title": "Disentangling Preference Representation and Text Generation for\n  Efficient Individual Preference Alignment",
+  "authors": "Jianfei Zhang, Jun Bai, Bei Li, Yanmeng Wang, Rumei Li, Chenghua Lin,\n  Wenge Rong",
+  "authorsParsed": [
+    [
+      "Zhang",
+      "Jianfei",
+      ""
+    ],
+    [
+      "Bai",
+      "Jun",
+      ""
+    ],
+    [
+      "Li",
+      "Bei",
+      ""
+    ],
+    [
+      "Wang",
+      "Yanmeng",
+      ""
+    ],
+    [
+      "Li",
+      "Rumei",
+      ""
+    ],
+    [
+      "Lin",
+      "Chenghua",
+      ""
+    ],
+    [
+      "Rong",
+      "Wenge",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 30 Dec 2024 09:58:31 GMT"
+    }
+  ],
+  "updateDate": "2024-12-31",
+  "timestamp": 1735552711000,
+  "abstract": "  Aligning Large Language Models (LLMs) with general human preferences has been\nproved crucial in improving the interaction quality between LLMs and human.\nHowever, human values are inherently diverse among different individuals,\nmaking it insufficient to align LLMs solely with general preferences. To\naddress this, personalizing LLMs according to individual feedback emerges as a\npromising solution. Nonetheless, this approach presents challenges in terms of\nthe efficiency of alignment algorithms. In this work, we introduce a flexible\nparadigm for individual preference alignment. Our method fundamentally improves\nefficiency by disentangling preference representation from text generation in\nLLMs. We validate our approach across multiple text generation tasks and\ndemonstrate that it can produce aligned quality as well as or better than\nPEFT-based methods, while reducing additional training time for each new\nindividual preference by $80\\%$ to $90\\%$ in comparison with them.\n",
+  "subjects": [
+    "Computer Science/Computation and Language",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "tCTb7uF5CTZnP87Z-nRvuf1eYtt6RSZ0fdfn_CgI3LI",
+  "pdfSize": "10598527"
+}

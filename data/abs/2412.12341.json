@@ -1,0 +1,48 @@
+{
+  "id": "2412.12341",
+  "title": "Analytical results for the distribution of first return times of\n  non-backtracking random walks on configuration model networks",
+  "authors": "Dor Lev-Ari, Ido Tishby, Ofer Biham, Eytan Katzav and Diego Krapf",
+  "authorsParsed": [
+    [
+      "Lev-Ari",
+      "Dor",
+      ""
+    ],
+    [
+      "Tishby",
+      "Ido",
+      ""
+    ],
+    [
+      "Biham",
+      "Ofer",
+      ""
+    ],
+    [
+      "Katzav",
+      "Eytan",
+      ""
+    ],
+    [
+      "Krapf",
+      "Diego",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 16 Dec 2024 20:24:49 GMT"
+    }
+  ],
+  "updateDate": "2024-12-18",
+  "timestamp": 1734380689000,
+  "abstract": "  We present analytical results for the distribution of first return (FR) times\nof non-backtracking random walks (NBWs) on undirected configuration model\nnetworks consisting of $N$ nodes with degree distribution $P(k)$. We focus on\nthe case in which the network consists of a single connected component.\nStarting from a random initial node $i$ at time $t=0$, an NBW hops into a\nrandom neighbor of $i$ at time $t=1$ and at each subsequent step it continues\nto hop into a random neighbor of its current node, excluding the previous node.\nWe calculate the tail distribution $P ( T_{\\rm FR} > t )$ of first return times\nfrom a random node to itself. It is found that $P ( T_{\\rm FR} > t )$ is given\nby a discrete Laplace transform of the degree distribution $P(k)$. This result\nexemplifies the relation between structural properties of a network, captured\nby the degree distribution, and properties of dynamical processes taking place\non the network. Using the tail-sum formula, we calculate the mean first return\ntime ${\\mathbb E}[ T_{\\rm FR} ]$. Surprisingly, ${\\mathbb E}[ T_{\\rm FR} ]$\ncoincides with the result obtained from the Kac's lemma that applies to\nclassical random walks (RWs). We also calculate the variance ${\\rm Var}(T_{\\rm\nFR})$, which accounts for the variability of first return times between\ndifferent NBW trajectories. We apply this formalism to random regular graphs,\nErdos-R\\'enyi networks and configuration model networks with exponential and\npower-law degree distributions and obtain closed-form expressions for $P (\nT_{\\rm FR} > t )$ as well as its mean and variance. These results provide\nuseful insight on the advantages of NBWs over classical RWs in network\nexploration, sampling and search processes.\n",
+  "subjects": [
+    "Condensed Matter/Statistical Mechanics",
+    "Physics/Physics and Society"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "kNZkCp5vDFd2r9XtbM6cSfSsjjWnls2MtUdEYZS0iuc",
+  "pdfSize": "695462"
+}

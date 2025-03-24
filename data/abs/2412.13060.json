@@ -1,0 +1,43 @@
+{
+  "id": "2412.13060",
+  "title": "Exact simulation of the first-passage time of SDEs to time-dependent\n  thresholds",
+  "authors": "Devika Khurana, Sascha Desmettre, Evelyn Buckwar",
+  "authorsParsed": [
+    [
+      "Khurana",
+      "Devika",
+      ""
+    ],
+    [
+      "Desmettre",
+      "Sascha",
+      ""
+    ],
+    [
+      "Buckwar",
+      "Evelyn",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 17 Dec 2024 16:25:42 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Fri, 20 Dec 2024 12:11:22 GMT"
+    }
+  ],
+  "updateDate": "2024-12-23",
+  "timestamp": 1734452742000,
+  "abstract": "  The first-passage time (FPT) is a fundamental concept in stochastic\nprocesses, representing the time it takes for a process to reach a specified\nthreshold for the first time. Often, considering a time-dependent threshold is\nessential for accurately modeling stochastic processes, as it provides a more\naccurate and adaptable framework. In this paper, we extend an existing Exact\nsimulation method developed for constant thresholds to handle time-dependent\nthresholds. Our proposed approach utilizes the FPT of Brownian motion and\naccepts it for the FPT of a given process with some probability, which is\ndetermined using Girsanov's transformation. This method eliminates the need to\nsimulate entire paths over specific time intervals, avoids time-discretization\nerrors, and directly simulates the first-passage time. We present results\ndemonstrating the method's effectiveness, including the extension to\ntime-dependent thresholds, an analysis of its time complexity, comparisons with\nexisting methods through numerical examples, and its application to predicting\nspike times in a neuron.\n",
+  "subjects": [
+    "Mathematics/Probability",
+    "Computer Science/Numerical Analysis",
+    "Mathematics/Numerical Analysis"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "zT-bAYIjzm48Htq29Y83fhBgNZeVJIwH5xJKkkIfdK8",
+  "pdfSize": "595386"
+}

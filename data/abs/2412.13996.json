@@ -1,0 +1,33 @@
+{
+  "id": "2412.13996",
+  "title": "Implicit Rankings for Verifying Liveness Properties in First-Order Logic",
+  "authors": "Raz Lotan, Sharon Shoham",
+  "authorsParsed": [
+    [
+      "Lotan",
+      "Raz",
+      ""
+    ],
+    [
+      "Shoham",
+      "Sharon",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 18 Dec 2024 16:14:12 GMT"
+    }
+  ],
+  "updateDate": "2024-12-19",
+  "timestamp": 1734538452000,
+  "abstract": "  Liveness properties are traditionally proven using a ranking function that\nmaps system states to some well-founded set. Carrying out such proofs in\nfirst-order logic enables automation by SMT solvers. However, reasoning about\nmany natural ranking functions is beyond reach of existing solvers. To address\nthis, we introduce the notion of implicit rankings - first-order formulas that\nsoundly approximate the reduction of some ranking function without defining it\nexplicitly. We provide recursive constructors of implicit rankings that can be\ninstantiated and composed to induce a rich family of implicit rankings. Our\nconstructors use quantifiers to approximate reasoning about useful primitives\nsuch as cardinalities of sets and unbounded sums that are not directly\nexpressible in first-order logic. We demonstrate the effectiveness of our\nimplicit rankings by verifying liveness properties of several intricate\nexamples, including Dijkstra's k-state, 4-state and 3-state self-stabilizing\nprotocols.\n",
+  "subjects": [
+    "Computer Science/Logic in Computer Science",
+    "Computer Science/Programming Languages"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "f8qxJ1PJfxkqonB2kkovzI-pyr_q539OiEPd62qK-Tg",
+  "pdfSize": "442170"
+}

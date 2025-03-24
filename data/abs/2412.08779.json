@@ -1,0 +1,33 @@
+{
+  "id": "2412.08779",
+  "title": "Probabilistic Tits alternative for circle diffeomorphisms",
+  "authors": "Mart\\'in Gilabert Vio",
+  "authorsParsed": [
+    [
+      "Vio",
+      "Martín Gilabert",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 11 Dec 2024 21:10:25 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Sat, 15 Feb 2025 20:20:18 GMT"
+    }
+  ],
+  "updateDate": "2025-02-18",
+  "timestamp": 1733951425000,
+  "abstract": "  Let $\\mu_1, \\mu_2$ be probability measures on $\\mathrm{Diff}^1_+(S^1)$\nsatisfying a suitable moment condition and such that their supports genererate\ndiscrete groups acting proximally on $S^1$. Let $(f^n_\\omega)_{n \\in\n\\mathbb{N}}, (f^n_{\\omega'})_{n \\in \\mathbb{N}}$ be two independent\nrealizations of the random walk driven by $\\mu_1, \\mu_2$ respectively. We show\nthat almost surely there is an $N \\in \\mathbb{N}$ such that for all $n \\geq N$\nthe elements $f^n_\\omega, f^n_{\\omega'}$ generate a nonabelian free group. The\nproof is inspired by the strategy by R. Aoun for linear groups and uses work of\nA. Gorodetski, V. Kleptsyn and G. Monakov, and of P. Barrientos and D. Malicet.\nA weaker (and easier) statement holds for measures supported on\n$\\mathrm{Homeo}_+(S^1)$ with no moment conditions.\n",
+  "subjects": [
+    "Mathematics/Group Theory",
+    "Mathematics/Dynamical Systems",
+    "Mathematics/Probability"
+  ],
+  "license": "http://creativecommons.org/licenses/by-sa/4.0/",
+  "blobId": "YiPVOLWJkZwveAcgwonTEI8_evGw5D4rtIHURGBNyGk",
+  "pdfSize": "260908"
+}

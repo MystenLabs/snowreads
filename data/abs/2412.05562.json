@@ -1,0 +1,50 @@
+{
+  "id": "2412.05562",
+  "title": "On the Expressive Power of Modern Hopfield Networks",
+  "authors": "Xiaoyu Li, Yuanpeng Li, Yingyu Liang, Zhenmei Shi, Zhao Song",
+  "authorsParsed": [
+    [
+      "Li",
+      "Xiaoyu",
+      ""
+    ],
+    [
+      "Li",
+      "Yuanpeng",
+      ""
+    ],
+    [
+      "Liang",
+      "Yingyu",
+      ""
+    ],
+    [
+      "Shi",
+      "Zhenmei",
+      ""
+    ],
+    [
+      "Song",
+      "Zhao",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 7 Dec 2024 06:52:41 GMT"
+    }
+  ],
+  "updateDate": "2024-12-10",
+  "timestamp": 1733554361000,
+  "abstract": "  Modern Hopfield networks (MHNs) have emerged as powerful tools in deep\nlearning, capable of replacing components such as pooling layers, LSTMs, and\nattention mechanisms. Recent advancements have enhanced their storage capacity,\nretrieval speed, and error rates. However, the fundamental limits of their\ncomputational expressiveness remain unexplored. Understanding the expressive\npower of MHNs is crucial for optimizing their integration into deep learning\narchitectures. In this work, we establish rigorous theoretical bounds on the\ncomputational capabilities of MHNs using circuit complexity theory. Our key\ncontribution is that we show that MHNs are $\\mathsf{DLOGTIME}$-uniform\n$\\mathsf{TC}^0$. Hence, unless $\\mathsf{TC}^0 = \\mathsf{NC}^1$, a\n$\\mathrm{poly}(n)$-precision modern Hopfield networks with a constant number of\nlayers and $O(n)$ hidden dimension cannot solve $\\mathsf{NC}^1$-hard problems\nsuch as the undirected graph connectivity problem and the tree isomorphism\nproblem. We also extended our results to Kernelized Hopfield Networks. These\nresults demonstrate the limitation in the expressive power of the modern\nHopfield networks. Moreover, Our theoretical analysis provides insights to\nguide the development of new Hopfield-based architectures.\n",
+  "subjects": [
+    "Computer Science/Computational Complexity",
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Computation and Language",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "s6E3lP1WIuFwCpkvBnxBaTjiJG4keRRtPQtACf3VDYE",
+  "pdfSize": "315450"
+}

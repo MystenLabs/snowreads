@@ -1,0 +1,93 @@
+{
+  "id": "2412.17603",
+  "title": "EasyTime: Time Series Forecasting Made Easy",
+  "authors": "Xiangfei Qiu, Xiuwen Li, Ruiyang Pang, Zhicheng Pan, Xingjian Wu, Liu\n  Yang, Jilin Hu, Yang Shu, Xuesong Lu, Chengcheng Yang, Chenjuan Guo, Aoying\n  Zhou, Christian S. Jensen and Bin Yang",
+  "authorsParsed": [
+    [
+      "Qiu",
+      "Xiangfei",
+      ""
+    ],
+    [
+      "Li",
+      "Xiuwen",
+      ""
+    ],
+    [
+      "Pang",
+      "Ruiyang",
+      ""
+    ],
+    [
+      "Pan",
+      "Zhicheng",
+      ""
+    ],
+    [
+      "Wu",
+      "Xingjian",
+      ""
+    ],
+    [
+      "Yang",
+      "Liu",
+      ""
+    ],
+    [
+      "Hu",
+      "Jilin",
+      ""
+    ],
+    [
+      "Shu",
+      "Yang",
+      ""
+    ],
+    [
+      "Lu",
+      "Xuesong",
+      ""
+    ],
+    [
+      "Yang",
+      "Chengcheng",
+      ""
+    ],
+    [
+      "Guo",
+      "Chenjuan",
+      ""
+    ],
+    [
+      "Zhou",
+      "Aoying",
+      ""
+    ],
+    [
+      "Jensen",
+      "Christian S.",
+      ""
+    ],
+    [
+      "Yang",
+      "Bin",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 23 Dec 2024 14:22:02 GMT"
+    }
+  ],
+  "updateDate": "2024-12-24",
+  "timestamp": 1734963722000,
+  "abstract": "  Time series forecasting has important applications across diverse domains.\nEasyTime, the system we demonstrate, facilitates easy use of time-series\nforecasting methods by researchers and practitioners alike. First, EasyTime\nenables one-click evaluation, enabling researchers to evaluate new forecasting\nmethods using the suite of diverse time series datasets collected in the\npreexisting time series forecasting benchmark (TFB). This is achieved by\nleveraging TFB's flexible and consistent evaluation pipeline. Second, when\npractitioners must perform forecasting on a new dataset, a nontrivial first\nstep is often to find an appropriate forecasting method. EasyTime provides an\nAutomated Ensemble module that combines the promising forecasting methods to\nyield superior forecasting accuracy compared to individual methods. Third,\nEasyTime offers a natural language Q&A module leveraging large language models.\nGiven a question like \"Which method is best for long term forecasting on time\nseries with strong seasonality?\", EasyTime converts the question into SQL\nqueries on the database of results obtained by TFB and then returns an answer\nin natural language and charts. By demonstrating EasyTime, we intend to show\nhow it is possible to simplify the use of time series forecasting and to offer\nbetter support for the development of new generations of time series\nforecasting methods.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Statistics/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "Gpci6bFOs_wqyl2JuvhXcSHYUmh479el7w2Oa_08FAE",
+  "pdfSize": "1123785"
+}

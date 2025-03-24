@@ -1,0 +1,34 @@
+{
+  "id": "2412.02662",
+  "title": "Unconditional proofs of quantumness between small-space machines",
+  "authors": "A. C. Cem Say, M. Utkan Gezer",
+  "authorsParsed": [
+    [
+      "Say",
+      "A. C. Cem",
+      ""
+    ],
+    [
+      "Gezer",
+      "M. Utkan",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 3 Dec 2024 18:37:07 GMT"
+    }
+  ],
+  "updateDate": "2024-12-04",
+  "timestamp": 1733251027000,
+  "abstract": "  A proof of quantumness is a protocol through which a classical machine can\ntest whether a purportedly quantum device, with comparable time and memory\nresources, is performing a computation that is impossible for classical\ncomputers. Existing approaches to provide proofs of quantumness depend on\nunproven assumptions about some task being impossible for machines of a\nparticular model under certain resource restrictions. We study a setup where\nboth devices have space bounds $\\mathit{o}(\\log \\log n)$. Under such memory\nbudgets, it has been unconditionally proven that probabilistic Turing machines\nare unable to solve certain computational problems. We formulate a new class of\nproblems, and show that these problems are polynomial-time solvable for quantum\nmachines, impossible for classical machines, and have the property that their\nsolutions can be \"proved\" by a small-space quantum machine to a classical\nmachine with the same space bound. These problems form the basis of our newly\ndefined protocol, where the polynomial-time verifier's verdict about the tested\nmachine's quantumness is not conditional on an unproven weakness assumption.\n",
+  "subjects": [
+    "Computer Science/Computational Complexity",
+    "Computer Science/Formal Languages and Automata Theory",
+    "Physics/Quantum Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "JeF-XdB5nF2SN-QNMTDvqX-unTGMvXbH9Sg17qzKf04",
+  "pdfSize": "468527"
+}

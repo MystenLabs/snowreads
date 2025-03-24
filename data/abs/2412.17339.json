@@ -1,0 +1,48 @@
+{
+  "id": "2412.17339",
+  "title": "MineAgent: Towards Remote-Sensing Mineral Exploration with Multimodal\n  Large Language Models",
+  "authors": "Beibei Yu, Tao Shen, Hongbin Na, Ling Chen, Denqi Li",
+  "authorsParsed": [
+    [
+      "Yu",
+      "Beibei",
+      ""
+    ],
+    [
+      "Shen",
+      "Tao",
+      ""
+    ],
+    [
+      "Na",
+      "Hongbin",
+      ""
+    ],
+    [
+      "Chen",
+      "Ling",
+      ""
+    ],
+    [
+      "Li",
+      "Denqi",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 23 Dec 2024 07:08:14 GMT"
+    }
+  ],
+  "updateDate": "2024-12-24",
+  "timestamp": 1734937694000,
+  "abstract": "  Remote-sensing mineral exploration is critical for identifying economically\nviable mineral deposits, yet it poses significant challenges for multimodal\nlarge language models (MLLMs). These include limitations in domain-specific\ngeological knowledge and difficulties in reasoning across multiple\nremote-sensing images, further exacerbating long-context issues. To address\nthese, we present MineAgent, a modular framework leveraging hierarchical\njudging and decision-making modules to improve multi-image reasoning and\nspatial-spectral integration. Complementing this, we propose MineBench, a\nbenchmark specific for evaluating MLLMs in domain-specific mineral exploration\ntasks using geological and hyperspectral data. Extensive experiments\ndemonstrate the effectiveness of MineAgent, highlighting its potential to\nadvance MLLMs in remote-sensing mineral exploration.\n",
+  "subjects": [
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Computation and Language"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "f8sEL5RVGQgqfthNChDA-vqqmNhFk3SaBl3TbGUwArU",
+  "pdfSize": "14821611"
+}

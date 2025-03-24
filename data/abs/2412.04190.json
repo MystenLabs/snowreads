@@ -1,0 +1,33 @@
+{
+  "id": "2412.04190",
+  "title": "Directed Structural Adaptation to Overcome Statistical Conflicts and\n  Enable Continual Learning",
+  "authors": "Zeki Doruk Erden, Boi Faltings",
+  "authorsParsed": [
+    [
+      "Erden",
+      "Zeki Doruk",
+      ""
+    ],
+    [
+      "Faltings",
+      "Boi",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 5 Dec 2024 14:30:18 GMT"
+    }
+  ],
+  "updateDate": "2024-12-06",
+  "timestamp": 1733409018000,
+  "abstract": "  Adaptive networks today rely on overparameterized fixed topologies that\ncannot break through the statistical conflicts they encounter in the data they\nare exposed to, and are prone to \"catastrophic forgetting\" as the network\nattempts to reuse the existing structures to learn new task. We propose a\nstructural adaptation method, DIRAD, that can complexify as needed and in a\ndirected manner without being limited by statistical conflicts within a\ndataset. We then extend this method and present the PREVAL framework, designed\nto prevent \"catastrophic forgetting\" in continual learning by detection of new\ndata and assigning encountered data to suitable models adapted to process them,\nwithout needing task labels anywhere in the workflow. We show the reliability\nof the DIRAD in growing a network with high performance and orders-of-magnitude\nsimpler than fixed topology networks; and demonstrate the proof-of-concept\noperation of PREVAL, in which continual adaptation to new tasks is observed\nwhile being able to detect and discern previously-encountered tasks.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "nEQVCWfhBgfU5BFm-Ez0BqhF8DmamIT38vOUhenD2ro",
+  "pdfSize": "868822"
+}

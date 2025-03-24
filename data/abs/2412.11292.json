@@ -1,0 +1,32 @@
+{
+  "id": "2412.11292",
+  "title": "Grassmannian Geometry Meets Dynamic Mode Decomposition in DMD-GEN: A New\n  Metric for Mode Collapse in Time Series Generative Models",
+  "authors": "Amime Mohamed Aboussalah and Yassine Abbahaddou",
+  "authorsParsed": [
+    [
+      "Aboussalah",
+      "Amime Mohamed",
+      ""
+    ],
+    [
+      "Abbahaddou",
+      "Yassine",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 15 Dec 2024 19:53:17 GMT"
+    }
+  ],
+  "updateDate": "2024-12-17",
+  "timestamp": 1734292397000,
+  "abstract": "  Generative models like Generative Adversarial Networks (GANs) and Variational\nAutoencoders (VAEs) often fail to capture the full diversity of their training\ndata, leading to mode collapse. While this issue is well-explored in image\ngeneration, it remains underinvestigated for time series data. We introduce a\nnew definition of mode collapse specific to time series and propose a novel\nmetric, DMD-GEN, to quantify its severity. Our metric utilizes Dynamic Mode\nDecomposition (DMD), a data-driven technique for identifying coherent\nspatiotemporal patterns, and employs Optimal Transport between DMD eigenvectors\nto assess discrepancies between the underlying dynamics of the original and\ngenerated data. This approach not only quantifies the preservation of essential\ndynamic characteristics but also provides interpretability by pinpointing which\nmodes have collapsed. We validate DMD-GEN on both synthetic and real-world\ndatasets using various generative models, including TimeGAN, TimeVAE, and\nDiffusionTS. The results demonstrate that DMD-GEN correlates well with\ntraditional evaluation metrics for static data while offering the advantage of\napplicability to dynamic data. This work offers for the first time a definition\nof mode collapse for time series, improving understanding, and forming the\nbasis of our tool for assessing and improving generative models in the time\nseries domain.\n",
+  "subjects": [
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "k_mskzxl5Atinm1aKP2lef2QHDYv3ZSwh-esD2nQ6so",
+  "pdfSize": "3342221"
+}

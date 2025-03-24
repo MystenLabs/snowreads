@@ -1,0 +1,38 @@
+{
+  "id": "2412.17985",
+  "title": "Pinned Dot Product Set Estimates",
+  "authors": "Paige Bright, Caleb Marshall, Steven Senger",
+  "authorsParsed": [
+    [
+      "Bright",
+      "Paige",
+      ""
+    ],
+    [
+      "Marshall",
+      "Caleb",
+      ""
+    ],
+    [
+      "Senger",
+      "Steven",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 23 Dec 2024 21:10:44 GMT"
+    }
+  ],
+  "updateDate": "2024-12-25",
+  "timestamp": 1734988244000,
+  "abstract": "  We study a variant of the Falconer distance problem for dot products. In\nparticular, for fractal subsets $A\\subset \\mathbb{R}^n$ and $a,x\\in\n\\mathbb{R}^n$, we study sets of the form \\[ \\Pi_x^a(A) := \\{\\alpha \\in\n\\mathbb{R} : (a-x)\\cdot y= \\alpha, \\text{ for some $y\\in A$}\\}. \\] We discuss\nsome of what is already known to give a picture of the current state of the\nart, as well as prove some new results and special cases. We obtain lower\nbounds on the Hausdorff dimension of $A$ to guarantee that $\\Pi^a_x(A)$ is\nlarge in some quantitative sense for some $a\\in A$ (i.e. $\\Pi_x^a(A)$ has large\nHausdorff dimension, positive measure, or nonempty interior). Our approach to\nall three senses of \"size\" is the same, and we make use of both classical and\nrecent results on projection theory.\n",
+  "subjects": [
+    "Mathematics/Classical Analysis and ODEs",
+    "Mathematics/Metric Geometry"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "vLLctPZ9d84YSTxp4pp2PKDfhujjxAinKfcX3BqJJBA",
+  "pdfSize": "552049"
+}

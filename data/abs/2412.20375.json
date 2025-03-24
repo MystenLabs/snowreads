@@ -1,0 +1,43 @@
+{
+  "id": "2412.20375",
+  "title": "Scalable Bayesian Optimization via Focalized Sparse Gaussian Processes",
+  "authors": "Yunyue Wei, Vincent Zhuang, Saraswati Soedarmadji, Yanan Sui",
+  "authorsParsed": [
+    [
+      "Wei",
+      "Yunyue",
+      ""
+    ],
+    [
+      "Zhuang",
+      "Vincent",
+      ""
+    ],
+    [
+      "Soedarmadji",
+      "Saraswati",
+      ""
+    ],
+    [
+      "Sui",
+      "Yanan",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 29 Dec 2024 06:36:15 GMT"
+    }
+  ],
+  "updateDate": "2024-12-31",
+  "timestamp": 1735454175000,
+  "abstract": "  Bayesian optimization is an effective technique for black-box optimization,\nbut its applicability is typically limited to low-dimensional and small-budget\nproblems due to the cubic complexity of computing the Gaussian process (GP)\nsurrogate. While various approximate GP models have been employed to scale\nBayesian optimization to larger sample sizes, most suffer from overly-smooth\nestimation and focus primarily on problems that allow for large online samples.\nIn this work, we argue that Bayesian optimization algorithms with sparse GPs\ncan more efficiently allocate their representational power to relevant regions\nof the search space. To achieve this, we propose focalized GP, which leverages\na novel variational loss function to achieve stronger local prediction, as well\nas FocalBO, which hierarchically optimizes the focalized GP acquisition\nfunction over progressively smaller search spaces. Experimental results\ndemonstrate that FocalBO can efficiently leverage large amounts of offline and\nonline data to achieve state-of-the-art performance on robot morphology design\nand to control a 585-dimensional musculoskeletal system.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Statistics/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "H9Hf4pE95HykY03U1WEhfWll5zIPP1-892xLN17KTog",
+  "pdfSize": "4495944"
+}

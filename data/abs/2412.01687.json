@@ -1,0 +1,53 @@
+{
+  "id": "2412.01687",
+  "title": "A Well-Characterized Survey for Centaurs in Pan-STARRS1",
+  "authors": "Jacob A. Kurlander, Matthew J. Holman, Pedro H. Bernardinelli, Mario\n  Juric, Aren N. Heinze, Matthew J. Payne",
+  "authorsParsed": [
+    [
+      "Kurlander",
+      "Jacob A.",
+      ""
+    ],
+    [
+      "Holman",
+      "Matthew J.",
+      ""
+    ],
+    [
+      "Bernardinelli",
+      "Pedro H.",
+      ""
+    ],
+    [
+      "Juric",
+      "Mario",
+      ""
+    ],
+    [
+      "Heinze",
+      "Aren N.",
+      ""
+    ],
+    [
+      "Payne",
+      "Matthew J.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 2 Dec 2024 16:31:50 GMT"
+    }
+  ],
+  "updateDate": "2024-12-03",
+  "timestamp": 1733157110000,
+  "abstract": "  To prepare for the upcoming Legacy Survey of Space and Time, we develop\nmethods for quantifying the selection function of a wide-field survey as a\nfunction of all six orbital parameters and absolute magnitude. We perform a\nHelioLinC3D search for Centaurs in the Pan-STARRS1 detection catalog and use a\nsynthetic debiasing population to characterize our survey's selection function.\nWe find nine new objects, including Centaur 2010 RJ$_{226}$, among 320 real\nobjects, along with $\\sim$70,000 debiasing objects. We use the debiasing\npopulation to fit a selection function and apply the selection function to a\nmodel Centaur population with literature orbital and size distributions. We\nconfirm the model's marginal distributions but reject its joint distribution,\nand estimate an intrinsic population of 21,400$^{+3,400}_{-2,800}$ Centaurs\nwith $H_r < 13.7$. The discovery of only nine new objects in archival data\nverifies that the Pan-STARRS discovery pipeline had high completeness, but also\nshows that new linking algorithms can contribute even to traditional\nsingle-tracklet surveys. As the first systematic application of HelioLinC3D to\na survey with extensive sky coverage, this project proves the viability of\nHelioLinC3D as a discovery algorithm for big-data wide-field surveys.\n",
+  "subjects": [
+    "Astrophysics/Earth and Planetary Astrophysics",
+    "Astrophysics/Instrumentation and Methods for Astrophysics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "yfJd1X1egEvFg7gz84XToHZTrn10yb98ymzfB0KG5ko",
+  "pdfSize": "1264907"
+}

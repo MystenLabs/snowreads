@@ -1,0 +1,47 @@
+{
+  "id": "2412.07032",
+  "title": "Entanglement of Assistance as a measure of multiparty entanglement",
+  "authors": "Indranil Biswas, Atanu Bhunia, Subrata Bera, Indrani Chattopadhyay and\n  Debasis Sarkar",
+  "authorsParsed": [
+    [
+      "Biswas",
+      "Indranil",
+      ""
+    ],
+    [
+      "Bhunia",
+      "Atanu",
+      ""
+    ],
+    [
+      "Bera",
+      "Subrata",
+      ""
+    ],
+    [
+      "Chattopadhyay",
+      "Indrani",
+      ""
+    ],
+    [
+      "Sarkar",
+      "Debasis",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 9 Dec 2024 22:40:51 GMT"
+    }
+  ],
+  "updateDate": "2024-12-11",
+  "timestamp": 1733784051000,
+  "abstract": "  Quantifying multipartite entanglement poses a significant challenge in\nquantum information theory, prompting recent advancements in methodologies to\nassess it. We introduce the notion of \\enquote{Volume of Assistance} (VoA),\nwhich computes the geometric mean of entanglement of assistance across all\npotential parties. We demonstrate the feasibility of VoA for three-qubit pure\nstates and certain classes of pure tripartite qudit states. We have extended\nthis measure to four-qubit states and general multipartite scenarios. We have\ndone a comparative analysis to illustrate VoA's distinctiveness from\nestablished entanglement measures, notably showing it serves as an upper bound\nfor the much celebrated generalized geometric measure (GGM). Remarkably, VoA\nexcels in distinguishing a broad class of states that elude differentiation by\nthe recently proposed Minimum Pairwise Concurrence (MPC) measure. Finally, VoA\nis applied to quantify genuine entanglement in the ground states of a\nthree-qubit Heisenberg XY model, which highlights its practical utility in\nquantum information processing tasks.\n",
+  "subjects": [
+    "Physics/Quantum Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "9lHu_lUmD6fbFJQW2maBEIMs6WSAPh8rs3NZUJkU248",
+  "pdfSize": "531633"
+}

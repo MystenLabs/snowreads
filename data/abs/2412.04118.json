@@ -1,0 +1,38 @@
+{
+  "id": "2412.04118",
+  "title": "Extending Robinson Spaces: Complexity and Algorithmic Solutions for\n  Non-Symmetric Dissimilarity Spaces",
+  "authors": "Francois Brucker and Pascal Pr\\'ea and Christopher Thraves Caro",
+  "authorsParsed": [
+    [
+      "Brucker",
+      "Francois",
+      ""
+    ],
+    [
+      "Préa",
+      "Pascal",
+      ""
+    ],
+    [
+      "Caro",
+      "Christopher Thraves",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 5 Dec 2024 12:37:17 GMT"
+    }
+  ],
+  "updateDate": "2024-12-06",
+  "timestamp": 1733402237000,
+  "abstract": "  In this work, we extend the concept of Robinson spaces to asymmetric\ndissimilarities, enhancing their applicability in representing and analyzing\ncomplex data. Within this generalized framework, we introduce two different\nproblems that extend the classical seriation problem: an optimization problem\nand a decision problem. We establish that these problems are NP-hard and\nNP-complete, respectively. Despite this complexity results, we identify several\nnon-trivial instances where these problems can be solved in polynomial time,\nproviding valuable insights into their tractability.\n",
+  "subjects": [
+    "Computer Science/Discrete Mathematics",
+    "Mathematics/Combinatorics"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "rcS2rLDjtF-MbtZfWPjX_HF3ZX4TdD65gxJTS2dno-0",
+  "pdfSize": "238720"
+}

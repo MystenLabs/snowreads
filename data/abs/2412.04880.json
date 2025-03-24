@@ -1,0 +1,58 @@
+{
+  "id": "2412.04880",
+  "title": "MozzaVID: Mozzarella Volumetric Image Dataset",
+  "authors": "Pawel Tomasz Pieta, Peter Winkel Rasmussen, Anders Bjorholm Dahl,\n  Jeppe Revall Frisvad, Siavash Arjomand Bigdeli, Carsten Gundlach, Anders\n  Nymark Christensen",
+  "authorsParsed": [
+    [
+      "Pieta",
+      "Pawel Tomasz",
+      ""
+    ],
+    [
+      "Rasmussen",
+      "Peter Winkel",
+      ""
+    ],
+    [
+      "Dahl",
+      "Anders Bjorholm",
+      ""
+    ],
+    [
+      "Frisvad",
+      "Jeppe Revall",
+      ""
+    ],
+    [
+      "Bigdeli",
+      "Siavash Arjomand",
+      ""
+    ],
+    [
+      "Gundlach",
+      "Carsten",
+      ""
+    ],
+    [
+      "Christensen",
+      "Anders Nymark",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 6 Dec 2024 09:23:31 GMT"
+    }
+  ],
+  "updateDate": "2024-12-09",
+  "timestamp": 1733477011000,
+  "abstract": "  Influenced by the complexity of volumetric imaging, there is a shortage of\nestablished datasets useful for benchmarking volumetric deep-learning models.\nAs a consequence, new and existing models are not easily comparable, limiting\nthe development of architectures optimized specifically for volumetric data. To\ncounteract this trend, we introduce MozzaVID - a large, clean, and versatile\nvolumetric classification dataset. Our dataset contains X-ray computed\ntomography (CT) images of mozzarella microstructure and enables the\nclassification of 25 cheese types and 149 cheese samples. We provide data in\nthree different resolutions, resulting in three dataset instances containing\nfrom 591 to 37,824 images. While being general-purpose, the dataset also\nfacilitates investigating mozzarella structure properties. The structure of\nfood directly affects its functional properties and thus its consumption\nexperience. Understanding food structure helps tune the production and\nmimicking it enables sustainable alternatives to animal-derived food products.\nThe complex and disordered nature of food structures brings a unique challenge,\nwhere a choice of appropriate imaging method, scale, and sample size is not\ntrivial. With this dataset we aim to address these complexities, contributing\nto more robust structural analysis models. The dataset can be downloaded from:\nhttps://archive.compute.dtu.dk/files/public/projects/MozzaVID/.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Electrical Engineering and Systems Science/Image and Video Processing"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "S5BalHnqa-9hJmKX9QeeGuo_Fmix7dqAXx5ffknBSdU",
+  "pdfSize": "14685212"
+}

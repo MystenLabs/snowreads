@@ -1,0 +1,38 @@
+{
+  "id": "2412.06886",
+  "title": "How do uncertainties in galaxy formation physics impact field-level\n  galaxy bias?",
+  "authors": "Mahlet Shiferaw, Nickolas Kokron, Risa H. Wechsler",
+  "authorsParsed": [
+    [
+      "Shiferaw",
+      "Mahlet",
+      ""
+    ],
+    [
+      "Kokron",
+      "Nickolas",
+      ""
+    ],
+    [
+      "Wechsler",
+      "Risa H.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 9 Dec 2024 19:00:00 GMT"
+    }
+  ],
+  "updateDate": "2024-12-11",
+  "timestamp": 1733770800000,
+  "abstract": "  Our ability to extract cosmological information from galaxy surveys is\nlimited by uncertainties in the galaxy-dark matter halo relationship for a\ngiven galaxy population, which are governed by the intricacies of galaxy\nformation. To quantify these uncertainties, we examine quenched and\nstar-forming galaxies using two distinct approaches to modeling galaxy\nformation: UniverseMachine, an empirical semi-analytic model, and the\nIllustrisTNG hydrodynamical simulation. We apply a second-order hybrid N-body\nperturbative bias expansion to each galaxy sample, enabling direct comparison\nof modeling approaches and revealing how uncertainties in galaxy formation and\nthe galaxy-halo connection affect bias parameters and non-Poisson noise across\nnumber density and redshift. Notably, we find that quenched and star-forming\ngalaxies occupy distinct parts of bias parameter spacce, and that the scatter\ninduced from these entirely different galaxy formation models is small when\nconditioned on similar selections of galaxies. We also detect a signature of\nassembly bias in our samples; this leads to small but significant deviations\nfrom predictions of the analytic bias, while samples with assembly bias removed\nmatch these predictions well. This work indicates that galaxy samples from a\nspectrum of reasonable, physically motivated models for galaxy formation\nroughly spanning our current understanding give a relatively small range of\nfield-level galaxy bias parameters and relations. We estimate a set of priors\nfrom this set of models that should be useful in extracting cosmological\ninformation from LRG- and ELG-like samples. Looking forward, this indicates\nthat careful estimates of the range of impacts of galaxy formation for a given\nsample and cosmological analysis will be an essential ingredient for extracting\nthe most precise cosmological information from current and future large galaxy\nsurveys.\n",
+  "subjects": [
+    "Astrophysics/Cosmology and Nongalactic Astrophysics",
+    "Astrophysics/Astrophysics of Galaxies"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "dnKY2EjSLOkpbsOw8sLnMt7fT6UTuibuz8gUXnt5VRE",
+  "pdfSize": "16156084"
+}

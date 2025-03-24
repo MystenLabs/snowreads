@@ -1,0 +1,50 @@
+{
+  "id": "2412.09387",
+  "title": "Distributed Intelligent System Architecture for UAV-Assisted Monitoring\n  of Wind Energy Infrastructure",
+  "authors": "Serhii Svystun, Oleksandr Melnychenko, Pavlo Radiuk, Oleg Savenko and\n  Andrii Lysyi",
+  "authorsParsed": [
+    [
+      "Svystun",
+      "Serhii",
+      ""
+    ],
+    [
+      "Melnychenko",
+      "Oleksandr",
+      ""
+    ],
+    [
+      "Radiuk",
+      "Pavlo",
+      ""
+    ],
+    [
+      "Savenko",
+      "Oleg",
+      ""
+    ],
+    [
+      "Lysyi",
+      "Andrii",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 12 Dec 2024 15:53:58 GMT"
+    }
+  ],
+  "updateDate": "2024-12-13",
+  "timestamp": 1734018838000,
+  "abstract": "  With the rapid development of green energy, the efficiency and reliability of\nwind turbines are key to sustainable renewable energy production. For that\nreason, this paper presents a novel intelligent system architecture designed\nfor the dynamic collection and real-time processing of visual data to detect\ndefects in wind turbines. The system employs advanced algorithms within a\ndistributed framework to enhance inspection accuracy and efficiency using\nunmanned aerial vehicles (UAVs) with integrated visual and thermal sensors. An\nexperimental study conducted at the \"Staryi Sambir-1\" wind power plant in\nUkraine demonstrates the system's effectiveness, showing a significant\nimprovement in defect detection accuracy (up to 94%) and a reduction in\ninspection time per turbine (down to 1.5 hours) compared to traditional\nmethods. The results show that the proposed intelligent system architecture\nprovides a scalable and reliable solution for wind turbine maintenance,\ncontributing to the durability and performance of renewable energy\ninfrastructure.\n",
+  "subjects": [
+    "Computer Science/Robotics",
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Systems and Control",
+    "Electrical Engineering and Systems Science/Systems and Control"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "L_s5yVWOeAY3d7KNUbqJHF7Om9716MDCXL_ZpJbpanM",
+  "pdfSize": "752697"
+}

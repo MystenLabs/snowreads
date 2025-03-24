@@ -1,0 +1,62 @@
+{
+  "id": "2412.21091",
+  "title": "Comparative Analysis of 2D and 3D ResNet Architectures for IDH and MGMT\n  Mutation Detection in Glioma Patients",
+  "authors": "Danial Elyassirad, Benyamin Gheiji, Mahsa Vatanparast, Amir Mahmoud\n  Ahmadzadeh, Neda Kamandi, Amirmohammad Soleimanian, Sara Salehi, Shahriar\n  Faghani",
+  "authorsParsed": [
+    [
+      "Elyassirad",
+      "Danial",
+      ""
+    ],
+    [
+      "Gheiji",
+      "Benyamin",
+      ""
+    ],
+    [
+      "Vatanparast",
+      "Mahsa",
+      ""
+    ],
+    [
+      "Ahmadzadeh",
+      "Amir Mahmoud",
+      ""
+    ],
+    [
+      "Kamandi",
+      "Neda",
+      ""
+    ],
+    [
+      "Soleimanian",
+      "Amirmohammad",
+      ""
+    ],
+    [
+      "Salehi",
+      "Sara",
+      ""
+    ],
+    [
+      "Faghani",
+      "Shahriar",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 30 Dec 2024 17:15:56 GMT"
+    }
+  ],
+  "updateDate": "2024-12-31",
+  "timestamp": 1735578956000,
+  "abstract": "  Gliomas are the most common cause of mortality among primary brain tumors.\nMolecular markers, including Isocitrate Dehydrogenase (IDH) and\nO[6]-methylguanine-DNA methyltransferase (MGMT) influence treatment responses\nand prognosis. Deep learning (DL) models may provide a non-invasive method for\npredicting the status of these molecular markers. To achieve non-invasive\ndetermination of gene mutations in glioma patients, we compare 2D and 3D ResNet\nmodels to predict IDH and MGMT status, using T1, post-contrast T1, and FLAIR\nMRI sequences. USCF glioma dataset was used, which contains 495 patients with\nknown IDH and 410 patients with known MGMT status. The dataset was divided into\ntraining (60%), tuning (20%), and test (20%) subsets at the patient level. The\n2D models take axial, coronal, and sagittal tumor slices as three separate\nmodels. To ensemble the 2D predictions the three different views were combined\nusing logistic regression. Various ResNet architectures (ResNet10, 18, 34, 50,\n101, 152) were trained. For the 3D approach, we incorporated the entire brain\ntumor volume in the ResNet10, 18, and 34 models. After optimizing each model,\nthe models with the lowest tuning loss were selected for further evaluation on\nthe separate test sets. The best-performing models in IDH prediction were the\n2D ResNet50, achieving a test area under the receiver operating characteristic\ncurve (AUROC) of 0.9096, and the 3D ResNet34, which reached a test AUROC of\n0.8999. For MGMT status prediction, the 2D ResNet152 achieved a test AUROC of\n0.6168; however, all 3D models yielded AUROCs less than 0.5. Overall, the study\nindicated that both 2D and 3D models showed high predictive value for IDH\nprediction, with slightly better performance in 2D models.\n",
+  "subjects": [
+    "Electrical Engineering and Systems Science/Image and Video Processing"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "R768KRpqwXe48haqmS8A4jlVD-dwO4sioLAN6fogLsg",
+  "pdfSize": "442551"
+}

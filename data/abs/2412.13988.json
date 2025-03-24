@@ -1,0 +1,57 @@
+{
+  "id": "2412.13988",
+  "title": "RAG for Effective Supply Chain Security Questionnaire Automation",
+  "authors": "Zaynab Batool Reza, Abdul Rafay Syed, Omer Iqbal, Ethel Mensah, Qian\n  Liu, Maxx Richard Rahman, Wolfgang Maass",
+  "authorsParsed": [
+    [
+      "Reza",
+      "Zaynab Batool",
+      ""
+    ],
+    [
+      "Syed",
+      "Abdul Rafay",
+      ""
+    ],
+    [
+      "Iqbal",
+      "Omer",
+      ""
+    ],
+    [
+      "Mensah",
+      "Ethel",
+      ""
+    ],
+    [
+      "Liu",
+      "Qian",
+      ""
+    ],
+    [
+      "Rahman",
+      "Maxx Richard",
+      ""
+    ],
+    [
+      "Maass",
+      "Wolfgang",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 18 Dec 2024 16:07:32 GMT"
+    }
+  ],
+  "updateDate": "2024-12-19",
+  "timestamp": 1734538052000,
+  "abstract": "  In an era where digital security is crucial, efficient processing of\nsecurity-related inquiries through supply chain security questionnaires is\nimperative. This paper introduces a novel approach using Natural Language\nProcessing (NLP) and Retrieval-Augmented Generation (RAG) to automate these\nresponses. We developed QuestSecure, a system that interprets diverse document\nformats and generates precise responses by integrating large language models\n(LLMs) with an advanced retrieval system. Our experiments show that QuestSecure\nsignificantly improves response accuracy and operational efficiency. By\nemploying advanced NLP techniques and tailored retrieval mechanisms, the system\nconsistently produces contextually relevant and semantically rich responses,\nreducing cognitive load on security teams and minimizing potential errors. This\nresearch offers promising avenues for automating complex security management\ntasks, enhancing organizational security processes.\n",
+  "subjects": [
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "-k3wSV2SLPhTNoC4WU8Wob4DiFBSkqgoYT3W9JhGiL4",
+  "pdfSize": "515927"
+}

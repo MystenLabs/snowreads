@@ -1,0 +1,47 @@
+{
+  "id": "2412.07879",
+  "title": "Understanding algorithmic fairness for clinical prediction in terms of\n  subgroup net benefit and health equity",
+  "authors": "Jose Benitez-Aurioles, Alice Joules, Irene Brusini, Niels Peek,\n  Matthew Sperrin",
+  "authorsParsed": [
+    [
+      "Benitez-Aurioles",
+      "Jose",
+      ""
+    ],
+    [
+      "Joules",
+      "Alice",
+      ""
+    ],
+    [
+      "Brusini",
+      "Irene",
+      ""
+    ],
+    [
+      "Peek",
+      "Niels",
+      ""
+    ],
+    [
+      "Sperrin",
+      "Matthew",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 10 Dec 2024 19:28:40 GMT"
+    }
+  ],
+  "updateDate": "2024-12-12",
+  "timestamp": 1733858920000,
+  "abstract": "  There are concerns about the fairness of clinical prediction models. 'Fair'\nmodels are defined as those for which their performance or predictions are not\ninappropriately influenced by protected attributes such as ethnicity, gender,\nor socio-economic status. Researchers have raised concerns that current\nalgorithmic fairness paradigms enforce strict egalitarianism in healthcare,\nlevelling down the performance of models in higher-performing subgroups instead\nof improving it in lower-performing ones.\n  We propose assessing the fairness of a prediction model by expanding the\nconcept of net benefit, using it to quantify and compare the clinical impact of\na model in different subgroups. We use this to explore how a model distributes\nbenefit across a population, its impact on health inequalities, and its role in\nthe achievement of health equity. We show how resource constraints might\nintroduce necessary trade-offs between health equity and other objectives of\nhealthcare systems.\n  We showcase our proposed approach with the development of two clinical\nprediction models: 1) a prognostic type 2 diabetes model used by clinicians to\nenrol patients into a preventive care lifestyle intervention programme, and 2)\na lung cancer screening algorithm used to allocate diagnostic scans across the\npopulation. This approach helps modellers better understand if a model upholds\nhealth equity by considering its performance in a clinical and social context.\n",
+  "subjects": [
+    "Statistics/Applications"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "4vtp5clERF3c6e5IUOQLl3pszK6qWvKRMQO0SUdCeOc",
+  "pdfSize": "1776437"
+}

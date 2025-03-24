@@ -1,0 +1,38 @@
+{
+  "id": "2412.16262",
+  "title": "VirusT5: Harnessing Large Language Models to Predicting SARS-CoV-2\n  Evolution",
+  "authors": "Vishwajeet Marathe, Deewan Bajracharya and Changhui Yan",
+  "authorsParsed": [
+    [
+      "Marathe",
+      "Vishwajeet",
+      ""
+    ],
+    [
+      "Bajracharya",
+      "Deewan",
+      ""
+    ],
+    [
+      "Yan",
+      "Changhui",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 20 Dec 2024 08:46:42 GMT"
+    }
+  ],
+  "updateDate": "2024-12-25",
+  "timestamp": 1734684402000,
+  "abstract": "  During a virus's evolution,various regions of the genome are subjected to\ndistinct levels of functional constraints.Combined with factors like codon bias\nand DNA repair efficiency,these constraints contribute to unique mutation\npatterns within the genome or a specific gene. In this project, we harnessed\nthe power of Large Language Models(LLMs) to predict the evolution of\nSARS-CoV-2. By treating the mutation process from one generation to the next as\na translation task, we trained a transformer model, called VirusT5, to capture\nthe mutation patterns underlying SARS-CoV-2 evolution. We evaluated the\nVirusT5's ability to detect these mutation patterns including its ability to\nidentify mutation hotspots and explored the potential of using VirusT5 to\npredict future virus variants. Our findings demonstrate the feasibility of\nusing a large language model to model viral evolution as a translation process.\nThis study establishes the groundbreaking concept of \"mutation-as-translation,\"\npaving the way for new methodologies and tools for combating virus threats\n",
+  "subjects": [
+    "Quantitative Biology/Quantitative Methods",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "V4PwKgF1kTPn5jbrfBlbsVYLfHswEyvbgm4bc7Jbqts",
+  "pdfSize": "373543"
+}

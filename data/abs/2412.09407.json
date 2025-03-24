@@ -1,0 +1,33 @@
+{
+  "id": "2412.09407",
+  "title": "Uncommon Belief in Rationality",
+  "authors": "Qi Shi and Pavel Naumov",
+  "authorsParsed": [
+    [
+      "Shi",
+      "Qi",
+      ""
+    ],
+    [
+      "Naumov",
+      "Pavel",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 12 Dec 2024 16:12:40 GMT"
+    }
+  ],
+  "updateDate": "2024-12-13",
+  "timestamp": 1734019960000,
+  "abstract": "  Common knowledge/belief in rationality is the traditional standard assumption\nin analysing interaction among agents. This paper proposes a graph-based\nlanguage for capturing significantly more complicated structures of\nhigher-order beliefs that agents might have about the rationality of the other\nagents. The two main contributions are a solution concept that captures the\nreasoning process based on a given belief structure and an efficient algorithm\nfor compressing any belief structure into a unique minimal form.\n",
+  "subjects": [
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Multiagent Systems"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "mGNdJZzNFT358EDZnUP3CiAET7DdmCVGHI3ouaVDD1Q",
+  "pdfSize": "542666"
+}

@@ -1,0 +1,43 @@
+{
+  "id": "2412.20270",
+  "title": "BikeNodePlanner: a data-driven decision support tool for bicycle node\n  network planning",
+  "authors": "Anastassia Vybornova, Ane Rahbek Vier{\\o}, Kirsten Krogh Hansen,\n  Michael Szell",
+  "authorsParsed": [
+    [
+      "Vybornova",
+      "Anastassia",
+      ""
+    ],
+    [
+      "Vierø",
+      "Ane Rahbek",
+      ""
+    ],
+    [
+      "Hansen",
+      "Kirsten Krogh",
+      ""
+    ],
+    [
+      "Szell",
+      "Michael",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 28 Dec 2024 20:55:04 GMT"
+    }
+  ],
+  "updateDate": "2024-12-31",
+  "timestamp": 1735419304000,
+  "abstract": "  A bicycle node network is a wayfinding system targeted at recreational\ncyclists, consisting of numbered signposts placed alongside already existing\ninfrastructure. Bicycle node networks are becoming increasingly popular as they\nencourage sustainable tourism and rural cycling, while also being flexible and\ncost-effective to implement. However, the lack of a formalized methodology and\ndata-driven tools for the planning of such networks is a hindrance to their\nadaptation on a larger scale. To address this need, we present the\nBikeNodePlanner: a fully open-source decision support tool, consisting of\nmodular Python scripts to be run in the free and open-source geographic\ninformation system QGIS. The BikeNodePlanner allows the user to evaluate and\ncompare bicycle node network plans through a wide range of metrics, such as\nland use, proximity to points of interest, and elevation across the network.\nThe BikeNodePlanner provides data-driven decision support for bicycle node\nnetwork planning, and can hence be of great use for regional planning, cycling\ntourism, and the promotion of rural cycling.\n",
+  "subjects": [
+    "Computer Science/Computers and Society",
+    "Physics/Physics and Society"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "l4t6MTul-lXFdE3xWSovlzkXQwJTZkwYHaXmel0-nGU",
+  "pdfSize": "43047238"
+}

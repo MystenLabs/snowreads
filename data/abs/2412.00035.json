@@ -1,0 +1,37 @@
+{
+  "id": "2412.00035",
+  "title": "A Fractional Model of Abalone Growth using Adomian Decomposition Method",
+  "authors": "Marliadi Susanto, Nadihah Wahi, Adem Kilicman",
+  "authorsParsed": [
+    [
+      "Susanto",
+      "Marliadi",
+      ""
+    ],
+    [
+      "Wahi",
+      "Nadihah",
+      ""
+    ],
+    [
+      "Kilicman",
+      "Adem",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 21 Nov 2024 16:53:20 GMT"
+    }
+  ],
+  "updateDate": "2024-12-03",
+  "timestamp": 1732208000000,
+  "abstract": "  This study is a modification of the McKendrick equation into a growth model\nwith fractional order to predict the abalone length growth. We have shown that\nthe model is a special case of Taylor's series after it was analysed using\nAdomian decomposition method and Caputo fractional derivative. By simulating\nthe series with some fractional orders, the results indicate that the greater\nthe fractional order of the model, the series values generated are greater as\nwell. Moreover, the series that is close to the real data is the one with a\nfractional order of $0.5$. Therefore, the growth model with a fractional order\nprovides more accuracy than a classical integer order.\n",
+  "subjects": [
+    "Mathematics/General Mathematics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "pvdUshseze295zUrimW1M85DvPfVPK4faFgeAc8XlHU",
+  "pdfSize": "349318"
+}

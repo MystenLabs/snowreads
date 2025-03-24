@@ -1,0 +1,33 @@
+{
+  "id": "2412.20381",
+  "title": "Prot\\'eg\\'e: Learn and Generate Basic Makeup Styles with Generative\n  Adversarial Networks (GANs)",
+  "authors": "Jia Wei Sii, Chee Seng Chan",
+  "authorsParsed": [
+    [
+      "Sii",
+      "Jia Wei",
+      ""
+    ],
+    [
+      "Chan",
+      "Chee Seng",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 29 Dec 2024 07:02:33 GMT"
+    }
+  ],
+  "updateDate": "2024-12-31",
+  "timestamp": 1735455753000,
+  "abstract": "  Makeup is no longer confined to physical application; people now use mobile\napps to digitally apply makeup to their photos, which they then share on social\nmedia. However, while this shift has made makeup more accessible, designing\ndiverse makeup styles tailored to individual faces remains a challenge. This\nchallenge currently must still be done manually by humans. Existing systems,\nsuch as makeup recommendation engines and makeup transfer techniques, offer\nlimitations in creating innovative makeups for different individuals\n\"intuitively\" -- significant user effort and knowledge needed and limited\nmakeup options available in app. Our motivation is to address this challenge by\nproposing Prot\\'eg\\'e, a new makeup application, leveraging recent generative\nmodel -- GANs to learn and automatically generate makeup styles. This is a task\nthat existing makeup applications (i.e., makeup recommendation systems using\nexpert system and makeup transfer methods) are unable to perform. Extensive\nexperiments has been conducted to demonstrate the capability of Prot\\'eg\\'e in\nlearning and creating diverse makeups, providing a convenient and intuitive\nway, marking a significant leap in digital makeup technology!\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Multimedia"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "QnpUalrKHdEx9mPB5jxrGJkwtBDqtA2z-_cGzqeAfjQ",
+  "pdfSize": "2637865"
+}

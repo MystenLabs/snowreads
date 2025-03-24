@@ -1,0 +1,58 @@
+{
+  "id": "2412.00898",
+  "title": "Preserving Privacy in Software Composition Analysis: A Study of\n  Technical Solutions and Enhancements",
+  "authors": "Huaijin Wang, Zhibo Liu, Yanbo Dai, Shuai Wang, Qiyi Tang, Sen Nie,\n  Shi Wu",
+  "authorsParsed": [
+    [
+      "Wang",
+      "Huaijin",
+      ""
+    ],
+    [
+      "Liu",
+      "Zhibo",
+      ""
+    ],
+    [
+      "Dai",
+      "Yanbo",
+      ""
+    ],
+    [
+      "Wang",
+      "Shuai",
+      ""
+    ],
+    [
+      "Tang",
+      "Qiyi",
+      ""
+    ],
+    [
+      "Nie",
+      "Sen",
+      ""
+    ],
+    [
+      "Wu",
+      "Shi",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 1 Dec 2024 17:17:29 GMT"
+    }
+  ],
+  "updateDate": "2024-12-03",
+  "timestamp": 1733073449000,
+  "abstract": "  Software composition analysis (SCA) denotes the process of identifying\nopen-source software components in an input software application. SCA has been\nextensively developed and adopted by academia and industry. However, we notice\nthat the modern SCA techniques in industry scenarios still need to be improved\ndue to privacy concerns. Overall, SCA requires the users to upload their\napplications' source code to a remote SCA server, which then inspects the\napplications and reports the component usage to users. This process is\nprivacy-sensitive since the applications may contain sensitive information,\nsuch as proprietary source code, algorithms, trade secrets, and user data.\n  Privacy concerns have prevented the SCA technology from being used in\nreal-world scenarios. Therefore, academia and the industry demand\nprivacy-preserving SCA solutions. For the first time, we analyze the privacy\nrequirements of SCA and provide a landscape depicting possible technical\nsolutions with varying privacy gains and overheads. In particular, given that\nde facto SCA frameworks are primarily driven by code similarity-based\ntechniques, we explore combining several privacy-preserving protocols to\nencapsulate the similarity-based SCA framework. Among all viable solutions, we\nfind that multi-party computation (MPC) offers the strongest privacy guarantee\nand plausible accuracy; it, however, incurs high overhead (184 times). We\noptimize the MPC-based SCA framework by reducing the amount of crypto protocol\ntransactions using program analysis techniques. The evaluation results show\nthat our proposed optimizations can reduce the MPC-based SCA overhead to only\n8.5% without sacrificing SCA's privacy guarantee or accuracy.\n",
+  "subjects": [
+    "Computer Science/Software Engineering",
+    "Computer Science/Cryptography and Security"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "iihPDufn1ZEQDuMo-o3WiIE-J5e7WlN9suHUmdVhimQ",
+  "pdfSize": "1653728"
+}

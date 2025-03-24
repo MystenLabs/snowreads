@@ -1,0 +1,33 @@
+{
+  "id": "2412.21043",
+  "title": "Control of spatiotemporal chaos by stochastic resetting",
+  "authors": "Camille Aron, Manas Kulkarni",
+  "authorsParsed": [
+    [
+      "Aron",
+      "Camille",
+      ""
+    ],
+    [
+      "Kulkarni",
+      "Manas",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 30 Dec 2024 16:06:30 GMT"
+    }
+  ],
+  "updateDate": "2024-12-31",
+  "timestamp": 1735574790000,
+  "abstract": "  We study how spatiotemporal chaos in dynamical systems can be controlled by\nstochastically returning them to their initial conditions. Focusing on discrete\nnonlinear maps, we analyze how key measures of chaos -- the Lyapunov exponent\nand butterfly velocity, which quantify sensitivity to initial perturbations and\nthe ballistic spread of information, respectively -- are reduced by stochastic\nresetting. We identify a critical resetting rate that induces a dynamical phase\ntransition, characterized by the simultaneous vanishing of the Lyapunov\nexponent and butterfly velocity, effectively arresting the spread of\ninformation. These theoretical predictions are validated and illustrated with\nnumerical simulations of the celebrated logistic map and its lattice extension.\nBeyond discrete maps, our findings offer insights applicable to a broad class\nof extended classical interacting systems.\n",
+  "subjects": [
+    "Condensed Matter/Statistical Mechanics",
+    "Nonlinear Sciences/Chaotic Dynamics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "jHX8Lg-HLXkSvb1VkyWUOHIapQHbcfBe8qdmiP97CoY",
+  "pdfSize": "682675"
+}

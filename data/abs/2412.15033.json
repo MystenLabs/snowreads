@@ -1,0 +1,37 @@
+{
+  "id": "2412.15033",
+  "title": "Linear response of rotating and flattened stellar clusters: the oblate\n  Kuzmin-Kutuzov St\\\"ackel family",
+  "authors": "Kerwann Tep, Christophe Pichon, Michael S Petersen",
+  "authorsParsed": [
+    [
+      "Tep",
+      "Kerwann",
+      ""
+    ],
+    [
+      "Pichon",
+      "Christophe",
+      ""
+    ],
+    [
+      "Petersen",
+      "Michael S",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 19 Dec 2024 16:44:19 GMT"
+    }
+  ],
+  "updateDate": "2024-12-20",
+  "timestamp": 1734626659000,
+  "abstract": "  This paper investigates the linear response of a series of spheroidal stellar\nclusters, the Kuzmin-Kutuzov St\\\"ackel family, which exhibit a continuous range\nof flattening and rotation, extending from an isochrone sphere to a Toomre\ndisk. The method successfully replicates the growing modes previously\nidentified in published $N$-body simulations. It relies on the efficiency of\nthe matrix method to quantify systematically the effects of rotation and\nflattening on the eigenmodes of the galaxy. We identify two types of\nbi-symmetric instabilities for the flatter models - the so-called bending and\nbar-growing modes - the latter of which persists even for very round models. As\nanticipated, in its least unstable configurations, the system becomes flatter\nas its rotational speed increases. More realistic equilibria will be required\nto achieve a better match to the main sequence of fast-slow rotators. The\ncorresponding code is made public.\n",
+  "subjects": [
+    "Astrophysics/Astrophysics of Galaxies"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "-dWJHROS376la1SX0mo0y0vTjjZUTt6LTna1XTl-giA",
+  "pdfSize": "4953160"
+}

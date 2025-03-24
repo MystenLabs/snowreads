@@ -1,0 +1,110 @@
+{
+  "id": "2412.10508",
+  "title": "MOCKA -- A PLATO mock asteroseismic catalogue: Simulations for\n  gravity-mode oscillators",
+  "authors": "N. Jannsen, A. Tkachenko, P. Royer, J. De Ridder, D. Seynaeve, C.\n  Aerts, S. Aigrain, E. Plachy, A. Bodi, M. Uzundag, D. M. Bowman, D. J.\n  Fritzewski, L. W. IJspeert, G. Li, M. G. Pedersen, M. Vanrespaille, and T.\n  Van Reeth",
+  "authorsParsed": [
+    [
+      "Jannsen",
+      "N.",
+      ""
+    ],
+    [
+      "Tkachenko",
+      "A.",
+      ""
+    ],
+    [
+      "Royer",
+      "P.",
+      ""
+    ],
+    [
+      "De Ridder",
+      "J.",
+      ""
+    ],
+    [
+      "Seynaeve",
+      "D.",
+      ""
+    ],
+    [
+      "Aerts",
+      "C.",
+      ""
+    ],
+    [
+      "Aigrain",
+      "S.",
+      ""
+    ],
+    [
+      "Plachy",
+      "E.",
+      ""
+    ],
+    [
+      "Bodi",
+      "A.",
+      ""
+    ],
+    [
+      "Uzundag",
+      "M.",
+      ""
+    ],
+    [
+      "Bowman",
+      "D. M.",
+      ""
+    ],
+    [
+      "Fritzewski",
+      "D. J.",
+      ""
+    ],
+    [
+      "IJspeert",
+      "L. W.",
+      ""
+    ],
+    [
+      "Li",
+      "G.",
+      ""
+    ],
+    [
+      "Pedersen",
+      "M. G.",
+      ""
+    ],
+    [
+      "Vanrespaille",
+      "M.",
+      ""
+    ],
+    [
+      "Van Reeth",
+      "T.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 13 Dec 2024 19:00:46 GMT"
+    }
+  ],
+  "updateDate": "2025-02-12",
+  "timestamp": 1734116446000,
+  "abstract": "  With ESA's PLATO space mission set for launch in December 2026, a new\nphotometric legacy and a future of new scientific discoveries await. In this\nwork we investigate PLATO's potential for observing pulsating stars across the\nHertzsprung-Russell diagram as part of the PLATO Complimentary Science program\n(PLATO-CS). Specifically, a PLATO mock asteroseismic catalogue (MOCKA) of\nintermediate to massive stars is presented as a benchmark to highlight the\nasteroseismic yield of PLATO-CS in a quantitative way. MOCKA includes\nsimulations of $\\beta$~Cephei, slowly pulsating B (SPB), $\\delta$~Scuti,\n$\\gamma$~Doradus, RR Lyrae, Cepheid, hot subdwarf, and white dwarf stars. In\nparticular, main-sequence gravity (g) mode pulsators are of interest as some of\nthese stars form an important foundation for the scientific calibration of\nPLATO. MOCKA is based on a magnitude limited ($G\\lesssim17$) \\textit{Gaia}\ncatalogue and is a product of realistic end-to-end \\texttt{PlatoSim}\nsimulations of stars for the first PLATO pointing field in the Southern\nhemisphere, which will be observed for a minimally 2-yr duration. We show that\nan abundant spectrum of frequencies is achievable across a wide range of\nmagnitudes and co-pointing PLATO cameras. Within the magnitude limited regimes\nsimulated ($G \\lesssim 14$ for $\\gamma$~Doradus stars and $G \\lesssim 16$ for\nSPB stars) the dominant g-mode frequency is recovered in more than $95\\%$ of\nthe cases. MOCKA help us to understand the limits of the PLATO mission as well\nas highlight the opportunities to push astrophysics beyond current stellar\nmodels. All data products of this paper are made available to the community for\nfurther exploration. The key data products of MOCKA are the magnitude limited\n\\textit{Gaia} catalogue of the first PLATO pointing field, together with fully\nreduced light curves from multi-camera observations for each pulsation class.\n",
+  "subjects": [
+    "Astrophysics/Solar and Stellar Astrophysics",
+    "Astrophysics/Earth and Planetary Astrophysics",
+    "Astrophysics/Astrophysics of Galaxies",
+    "Astrophysics/Instrumentation and Methods for Astrophysics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "I0HAFXPQmcQvdsZsEMC4m5THJzcqAqQSM1zHOGcOm2I",
+  "pdfSize": "31377840"
+}

@@ -1,0 +1,43 @@
+{
+  "id": "2412.09644",
+  "title": "Combining knowledge graphs and LLMs for hazardous chemical information\n  management and reuse",
+  "authors": "Marcos Da Silveira, Louis Deladiennee, Kheira Acem, and Oona\n  Freudenthal",
+  "authorsParsed": [
+    [
+      "Da Silveira",
+      "Marcos",
+      ""
+    ],
+    [
+      "Deladiennee",
+      "Louis",
+      ""
+    ],
+    [
+      "Acem",
+      "Kheira",
+      ""
+    ],
+    [
+      "Freudenthal",
+      "Oona",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 10 Dec 2024 16:31:53 GMT"
+    }
+  ],
+  "updateDate": "2025-02-17",
+  "timestamp": 1733848313000,
+  "abstract": "  Human health is increasingly threatened by exposure to hazardous substances,\nparticularly persistent and toxic chemicals. The link between these substances,\noften encountered in complex mixtures, and various diseases are demonstrated in\nscientific studies. However, this information is scattered across several\nsources and hardly accessible by humans and machines. This paper evaluates\ncurrent practices for publishing/accessing information on hazardous chemicals\nand proposes a novel platform designed to facilitate retrieval of critical\nchemical data in urgent situations. The platform aggregates information from\nmultiple sources and organizes it into a structured knowledge graph. Users can\naccess this information through a visual interface such as Neo4J Bloom and\ndashboards, or via natural language queries using a Chatbot. Our findings\ndemonstrate a significant reduction in the time and effort required to access\nvital chemical information when datasets follow FAIR principles. Furthermore,\nwe discuss the lessons learned from the development and implementation of this\nplatform and provide recommendations for data owners and publishers to enhance\ndata reuse and interoperability. This work aims to improve the accessibility\nand usability of chemical information by healthcare professionals, thereby\nsupporting better health outcomes and informed decision-making in the face of\npatients exposed to chemical intoxication risks.\n",
+  "subjects": [
+    "Computer Science/Information Retrieval",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "fdn2ZAMbdlOeSxhZeENWeRL8A5D21kI3VZD3LKvD3zk",
+  "pdfSize": "343229"
+}

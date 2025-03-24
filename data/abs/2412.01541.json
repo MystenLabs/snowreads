@@ -1,0 +1,59 @@
+{
+  "id": "2412.01541",
+  "title": "Effectiveness of L2 Regularization in Privacy-Preserving Machine\n  Learning",
+  "authors": "Nikolaos Chandrinos (1), Iliana Loi (2), Panagiotis Zachos (2),\n  Ioannis Symeonidis (1), Aristotelis Spiliotis (1), Maria Panou (1) and\n  Konstantinos Moustakas (2) ((1) Human Factors and Vehicle Technology,\n  Hellenic Institute of Transport, Centre for Research and Technology Hellas,\n  Thermi, Greece, (2) Wire Communications and Information Technology\n  Laboratory, Dept. of Electrical and Computer Engineering, University of\n  Patras, Patras, Greece)",
+  "authorsParsed": [
+    [
+      "Chandrinos",
+      "Nikolaos",
+      ""
+    ],
+    [
+      "Loi",
+      "Iliana",
+      ""
+    ],
+    [
+      "Zachos",
+      "Panagiotis",
+      ""
+    ],
+    [
+      "Symeonidis",
+      "Ioannis",
+      ""
+    ],
+    [
+      "Spiliotis",
+      "Aristotelis",
+      ""
+    ],
+    [
+      "Panou",
+      "Maria",
+      ""
+    ],
+    [
+      "Moustakas",
+      "Konstantinos",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 2 Dec 2024 14:31:11 GMT"
+    }
+  ],
+  "updateDate": "2024-12-03",
+  "timestamp": 1733149871000,
+  "abstract": "  Artificial intelligence, machine learning, and deep learning as a service\nhave become the status quo for many industries, leading to the widespread\ndeployment of models that handle sensitive data. Well-performing models, the\nindustry seeks, usually rely on a large volume of training data. However, the\nuse of such data raises serious privacy concerns due to the potential risks of\nleaks of highly sensitive information. One prominent threat is the Membership\nInference Attack, where adversaries attempt to deduce whether a specific data\npoint was used in a model's training process. An adversary's ability to\ndetermine an individual's presence represents a significant privacy threat,\nespecially when related to a group of users sharing sensitive information.\nHence, well-designed privacy-preserving machine learning solutions are\ncritically needed in the industry. In this work, we compare the effectiveness\nof L2 regularization and differential privacy in mitigating Membership\nInference Attack risks. Even though regularization techniques like L2\nregularization are commonly employed to reduce overfitting, a condition that\nenhances the effectiveness of Membership Inference Attacks, their impact on\nmitigating these attacks has not been systematically explored.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Cryptography and Security"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "lgjs1A3OlFI_jvNlcD-7YLYcVPaOjxGdLQVG_gkAkvA",
+  "pdfSize": "477128"
+}

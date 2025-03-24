@@ -1,0 +1,68 @@
+{
+  "id": "2412.14559",
+  "title": "ScaMo: Exploring the Scaling Law in Autoregressive Motion Generation\n  Model",
+  "authors": "Shunlin Lu, Jingbo Wang, Zeyu Lu, Ling-Hao Chen, Wenxun Dai, Junting\n  Dong, Zhiyang Dou, Bo Dai, Ruimao Zhang",
+  "authorsParsed": [
+    [
+      "Lu",
+      "Shunlin",
+      ""
+    ],
+    [
+      "Wang",
+      "Jingbo",
+      ""
+    ],
+    [
+      "Lu",
+      "Zeyu",
+      ""
+    ],
+    [
+      "Chen",
+      "Ling-Hao",
+      ""
+    ],
+    [
+      "Dai",
+      "Wenxun",
+      ""
+    ],
+    [
+      "Dong",
+      "Junting",
+      ""
+    ],
+    [
+      "Dou",
+      "Zhiyang",
+      ""
+    ],
+    [
+      "Dai",
+      "Bo",
+      ""
+    ],
+    [
+      "Zhang",
+      "Ruimao",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 19 Dec 2024 06:22:19 GMT"
+    }
+  ],
+  "updateDate": "2024-12-20",
+  "timestamp": 1734589339000,
+  "abstract": "  The scaling law has been validated in various domains, such as natural\nlanguage processing (NLP) and massive computer vision tasks; however, its\napplication to motion generation remains largely unexplored. In this paper, we\nintroduce a scalable motion generation framework that includes the motion\ntokenizer Motion FSQ-VAE and a text-prefix autoregressive transformer. Through\ncomprehensive experiments, we observe the scaling behavior of this system. For\nthe first time, we confirm the existence of scaling laws within the context of\nmotion generation. Specifically, our results demonstrate that the normalized\ntest loss of our prefix autoregressive models adheres to a logarithmic law in\nrelation to compute budgets. Furthermore, we also confirm the power law between\nNon-Vocabulary Parameters, Vocabulary Parameters, and Data Tokens with respect\nto compute budgets respectively. Leveraging the scaling law, we predict the\noptimal transformer size, vocabulary size, and data requirements for a compute\nbudget of $1e18$. The test loss of the system, when trained with the optimal\nmodel size, vocabulary size, and required data, aligns precisely with the\npredicted test loss, thereby validating the scaling law.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "I0LzOPFbz_tBxc97RtENG0YKrxzoB9s-PzTBgRxLhwY",
+  "pdfSize": "5376944"
+}

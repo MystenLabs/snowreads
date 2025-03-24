@@ -1,0 +1,75 @@
+{
+  "id": "2412.01466",
+  "title": "Optical excitation of bulk plasmons in n-doped InAsSb thin films :\n  investigating the second viscosity in electron gas",
+  "authors": "Antoine Moreau, \\'Emilie Sakat, Jean-Paul Hugonin, T\\'eo Mottin, Aidan\n  Costard, Denis Langevin, Patricia Loren, Laurent Cerutti, Fernando Gonzalez\n  Posada Flores, Thierry Taliercio",
+  "authorsParsed": [
+    [
+      "Moreau",
+      "Antoine",
+      ""
+    ],
+    [
+      "Sakat",
+      "Émilie",
+      ""
+    ],
+    [
+      "Hugonin",
+      "Jean-Paul",
+      ""
+    ],
+    [
+      "Mottin",
+      "Téo",
+      ""
+    ],
+    [
+      "Costard",
+      "Aidan",
+      ""
+    ],
+    [
+      "Langevin",
+      "Denis",
+      ""
+    ],
+    [
+      "Loren",
+      "Patricia",
+      ""
+    ],
+    [
+      "Cerutti",
+      "Laurent",
+      ""
+    ],
+    [
+      "Flores",
+      "Fernando Gonzalez Posada",
+      ""
+    ],
+    [
+      "Taliercio",
+      "Thierry",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 2 Dec 2024 13:08:51 GMT"
+    }
+  ],
+  "updateDate": "2024-12-03",
+  "timestamp": 1733144931000,
+  "abstract": "  We demonstrate that including the second viscosity of an electron gas in the\nhydrodynamic model allows for highly accurate modeling of the optical response\nof heavily doped semiconductors. In our setup, which improves resonance\nvisibility compared to previous approaches, plasmon resonances become more\ndistinct, allowing for detailed analysis of the underlying physics. With\nadvanced fitting techniques based on a physics-informed cost function and a\ntailored optimization algorithm, we obtain close agreement between simulations\nand experimental data across different sample thicknesses. This enhanced\nresonance visibility, combined with our integrated approach, shows that key\nparameters such as doping level and effective electron mass can be retrieved\nfrom a single optical measurement. The spatial dispersion taken into account in\nthe hydrodynamic framework is essential for accurately describing the optical\nresponse of plasmonic materials in this frequency range and is likely to become\na standard modeling approach.\n",
+  "subjects": [
+    "Physics/Optics",
+    "Condensed Matter/Mesoscale and Nanoscale Physics",
+    "Physics/Applied Physics",
+    "Physics/Computational Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "2A7TnIpOW_thQsk7KYPYayUhcm2Jjjknwovjy4uB81o",
+  "pdfSize": "9656831"
+}

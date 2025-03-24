@@ -1,0 +1,47 @@
+{
+  "id": "2412.14405",
+  "title": "ChainRank-DPO: Chain Rank Direct Preference Optimization for LLM Rankers",
+  "authors": "Haowei Liu, Xuyang Wu, Guohao Sun, Zhiqiang Tao, Yi Fang",
+  "authorsParsed": [
+    [
+      "Liu",
+      "Haowei",
+      ""
+    ],
+    [
+      "Wu",
+      "Xuyang",
+      ""
+    ],
+    [
+      "Sun",
+      "Guohao",
+      ""
+    ],
+    [
+      "Tao",
+      "Zhiqiang",
+      ""
+    ],
+    [
+      "Fang",
+      "Yi",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 18 Dec 2024 23:24:15 GMT"
+    }
+  ],
+  "updateDate": "2024-12-20",
+  "timestamp": 1734564255000,
+  "abstract": "  Large language models (LLMs) have demonstrated remarkable effectiveness in\ntext reranking through works like RankGPT, leveraging their human-like\nreasoning about relevance. However, supervised fine-tuning for ranking often\ndiminishes these models' general-purpose capabilities, including the crucial\nreasoning abilities that make them valuable for ranking. We introduce a novel\napproach integrating Chain-of-Thought prompting with an SFT-DPO (Supervised\nFine-Tuning followed by Direct Preference Optimization) pipeline to preserve\nthese capabilities while improving ranking performance. Our experiments on TREC\n2019 and 2020 Deep Learning datasets show that our approach outperforms the\nstate-of-the-art RankZephyr while maintaining strong performance on the Massive\nMultitask Language Understanding (MMLU) benchmark, demonstrating effective\npreservation of general-purpose capabilities through thoughtful fine-tuning\nstrategies. Our code and data will be publicly released upon the acceptance of\nthe paper.\n",
+  "subjects": [
+    "Computer Science/Information Retrieval"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "yytWQ75QmuAs0UxxCORqGJQOFOEfeSNPJg-9WPUUUa8",
+  "pdfSize": "716921"
+}

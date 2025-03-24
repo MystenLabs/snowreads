@@ -1,0 +1,76 @@
+{
+  "id": "2412.11793",
+  "title": "Accelerated Bayesian optimization in deep cooling atoms",
+  "authors": "Xiaoxiao Ma, Changwen Liang, Rong Sha, Chao Zhou, Qixue Li, Guochao\n  Wang, Jixun Liu, Shuhua Yan, Jun Yang, Lingxiao Zhu",
+  "authorsParsed": [
+    [
+      "Ma",
+      "Xiaoxiao",
+      ""
+    ],
+    [
+      "Liang",
+      "Changwen",
+      ""
+    ],
+    [
+      "Sha",
+      "Rong",
+      ""
+    ],
+    [
+      "Zhou",
+      "Chao",
+      ""
+    ],
+    [
+      "Li",
+      "Qixue",
+      ""
+    ],
+    [
+      "Wang",
+      "Guochao",
+      ""
+    ],
+    [
+      "Liu",
+      "Jixun",
+      ""
+    ],
+    [
+      "Yan",
+      "Shuhua",
+      ""
+    ],
+    [
+      "Yang",
+      "Jun",
+      ""
+    ],
+    [
+      "Zhu",
+      "Lingxiao",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 16 Dec 2024 14:06:25 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Sun, 2 Feb 2025 09:28:15 GMT"
+    }
+  ],
+  "updateDate": "2025-02-04",
+  "timestamp": 1734357985000,
+  "abstract": "  Laser cooling, which cools atomic and molecular gases to near absolute zero,\nis the crucial initial step for nearly all atomic gas experiments. However,\nfast achievement of numerous sub-$\\mu$K cold atoms is challenging. To resolve\nthe issue, we propose and experimentally validate an intelligent polarization\ngradient cooling approach enhanced by optical lattice, utilizing Maximum\nHypersphere Compensation Sampling Bayesian Optimization (MHCS-BO). MHCS-BO\ndemonstrates a twofold increase in optimization efficiency and superior\nprediction accuracy compared to conventional Bayesian optimization. Finally,\napproximate $10^8$ cold atoms at a temperature of 0.4$\\pm$0.2 $\\mu$K can be\nachieved given the optimal parameters within 15 minutes. Our work provides an\nintelligent protocol, which can be generalized to other high-dimension\nparameter optimization problems, and paves way for preparation of ultracold\natom in quantum experiments.\n",
+  "subjects": [
+    "Physics/Atomic Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "liuuKjJbDgHI7Sq-atjNGV3GtcE65DKr2plRCzJ1djI",
+  "pdfSize": "13746561"
+}

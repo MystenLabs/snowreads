@@ -1,0 +1,39 @@
+{
+  "id": "2412.00923",
+  "title": "Fractal decompositions and tensor network representations of Bethe\n  wavefunctions",
+  "authors": "Subhayan Sahu, Guifre Vidal",
+  "authorsParsed": [
+    [
+      "Sahu",
+      "Subhayan",
+      ""
+    ],
+    [
+      "Vidal",
+      "Guifre",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 1 Dec 2024 18:13:56 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Mon, 16 Dec 2024 18:27:44 GMT"
+    }
+  ],
+  "updateDate": "2024-12-17",
+  "timestamp": 1733076836000,
+  "abstract": "  We investigate the entanglement structure of a generic $M$-particle Bethe\nwavefunction (not necessarily an eigenstate of an integrable model) on a 1d\nlattice by dividing the lattice into L parts and decomposing the wavefunction\ninto a sum of products of $L$ local wavefunctions. We show that a Bethe\nwavefunction accepts a fractal multipartite decomposition: it can always be\nwritten as a linear combination of $L^M$ products of $L$ local wavefunctions,\nwhere each local wavefunction is in turn also a Bethe wavefunction. Building\nupon this result, we then build exact, analytical tensor network\nrepresentations with finite bond dimension $\\chi=2^M$, for a generic planar\ntree tensor network (TTN), which includes a matrix product states (MPS) and a\nregular binary TTN as prominent particular cases. For a regular binary tree,\nthe network has depth $\\log_{2}(N/M)$ and can be transformed into an adaptive\nquantum circuit of the same depth, composed of unitary gates acting on\n$2^M$-dimensional qudits and mid-circuit measurements, that deterministically\nprepares the Bethe wavefunction. Finally, we put forward a much larger class of\ngeneralized Bethe wavefunctions, for which the above decompositions, tensor\nnetwork and quantum circuit representations are also possible.\n",
+  "subjects": [
+    "Physics/Quantum Physics",
+    "Condensed Matter/Statistical Mechanics",
+    "Condensed Matter/Strongly Correlated Electrons",
+    "Nonlinear Sciences/Exactly Solvable and Integrable Systems"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "sItqEgQEoOWUo0JCcVsa3qJ_UY1jMk-V6sW_cq-kLkY",
+  "pdfSize": "12768381"
+}

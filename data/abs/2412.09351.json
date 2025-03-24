@@ -1,0 +1,79 @@
+{
+  "id": "2412.09351",
+  "title": "Dynamic optical coherence tomography algorithm for label-free assessment\n  of swiftness and occupancy of intratissue moving scatterers",
+  "authors": "Rion Morishita, Pradipta Mukherjee, Ibrahim Abd El-Sadek, Tanatchaya\n  Seesan, Tomoko Mori, Atsuko Furukawa, Shinichi Fukuda, Donny Lukmanto,\n  Satoshi Matsusaka, Shuichi Makita and Yoshiaki Yasuno",
+  "authorsParsed": [
+    [
+      "Morishita",
+      "Rion",
+      ""
+    ],
+    [
+      "Mukherjee",
+      "Pradipta",
+      ""
+    ],
+    [
+      "El-Sadek",
+      "Ibrahim Abd",
+      ""
+    ],
+    [
+      "Seesan",
+      "Tanatchaya",
+      ""
+    ],
+    [
+      "Mori",
+      "Tomoko",
+      ""
+    ],
+    [
+      "Furukawa",
+      "Atsuko",
+      ""
+    ],
+    [
+      "Fukuda",
+      "Shinichi",
+      ""
+    ],
+    [
+      "Lukmanto",
+      "Donny",
+      ""
+    ],
+    [
+      "Matsusaka",
+      "Satoshi",
+      ""
+    ],
+    [
+      "Makita",
+      "Shuichi",
+      ""
+    ],
+    [
+      "Yasuno",
+      "Yoshiaki",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 12 Dec 2024 15:18:30 GMT"
+    }
+  ],
+  "updateDate": "2024-12-13",
+  "timestamp": 1734016710000,
+  "abstract": "  Dynamic optical coherence tomography (DOCT) statistically analyzes\nfluctuations in time-sequential OCT signals, enabling label-free and\nthree-dimensional visualization of intratissue and intracellular activities.\nCurrent DOCT methods, such as logarithmic intensity variance (LIV) and OCT\ncorrelation decay speed (OCDS) have several limitations.Namely, the DOCT values\nand intratissue motions are not directly related, and hence DOCT values are not\ninterpretable in the context of the tissue motility. We introduce a new DOCT\nalgorithm that provides more direct interpretation of DOCT in the contexts of\ndynamic scatterer ratio and scatterer speed in the tissue.The detailed\nproperties of the new and conventional DOCT methods are investigated by\nnumerical simulations, and the experimental validation with in vitro and ex\nvivo samples demonstrates the feasibility of the new method.\n",
+  "subjects": [
+    "Physics/Optics",
+    "Physics/Biological Physics",
+    "Physics/Medical Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by-sa/4.0/",
+  "blobId": "xG-r5AfeBePWT5rq2JdBpPY1CPG9UD1FijphpdiUOBQ",
+  "pdfSize": "1889390"
+}

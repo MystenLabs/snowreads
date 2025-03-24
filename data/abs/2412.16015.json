@@ -1,0 +1,47 @@
+{
+  "id": "2412.16015",
+  "title": "Distributed Beam Alignment in sub-THz D2D Networks",
+  "authors": "Fernando Pedraza, Jan Christian Hauffen, Fabian Jaensch, Shuangyang\n  Li, and Giuseppe Caire",
+  "authorsParsed": [
+    [
+      "Pedraza",
+      "Fernando",
+      ""
+    ],
+    [
+      "Hauffen",
+      "Jan Christian",
+      ""
+    ],
+    [
+      "Jaensch",
+      "Fabian",
+      ""
+    ],
+    [
+      "Li",
+      "Shuangyang",
+      ""
+    ],
+    [
+      "Caire",
+      "Giuseppe",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 20 Dec 2024 16:07:09 GMT"
+    }
+  ],
+  "updateDate": "2024-12-23",
+  "timestamp": 1734710829000,
+  "abstract": "  Devices in a device-to-device (D2D) network operating in sub-THz frequencies\nrequire knowledge of the spatial channel that connects them to their peers.\nAcquiring such high dimensional channel state information entails large\noverhead, which drastically increases with the number of network devices. In\nthis paper, we propose an accelerated method to achieve network-wide beam\nalignment in an efficient way. To this aim, we consider compressed sensing\nestimation enabled by a novel design of pilot sequences. Our designed pilots\nhave constant envelope to alleviate hardware requirements at the transmitters,\nwhile they exhibit a \"comb-like\"' spectrum that flexibly allocates energy only\non certain frequencies. This design enables multiple devices to transmit thier\npilots concurrently while remaining orthogonal in frequency, achieving\nsimultaneous alignment of multiple devices. Furthermore, we present a\nsequential partitioning strategy into transmitters and receivers that results\nin logarithmic scaling of the overhead with the number of devices, as opposed\nto the conventional linear scaling. Finally, we show via accurate modeling of\nthe indoor propagation environment and ray tracing simulations that the\nresulting sub-THz channels after successful beamforming are approximately\nfrequency flat, therefore suitable for efficient single carrier transmission\nwithout equalization. We compare our results against an \"802.11ad inspired\"\nbaseline and show that our method is capable to greatly reduce the number of\npilots required to achieve network-wide alignment.\n",
+  "subjects": [
+    "Electrical Engineering and Systems Science/Signal Processing"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "jw0WEDbYT3jQAgqRot2rQkdlDwyuO7Kp8p6_bGhVbcc",
+  "pdfSize": "1085955"
+}

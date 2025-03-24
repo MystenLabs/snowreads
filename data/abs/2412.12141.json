@@ -1,0 +1,27 @@
+{
+  "id": "2412.12141",
+  "title": "Young diagrams, Borel subalgebras and Cayley graphs",
+  "authors": "Ian M. Musson",
+  "authorsParsed": [
+    [
+      "Musson",
+      "Ian M.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 9 Dec 2024 15:20:28 GMT"
+    }
+  ],
+  "updateDate": "2024-12-18",
+  "timestamp": 1733757628000,
+  "abstract": "  Let $\\mathtt{k}$ be an algebraically closed field of characteristic zero and\n$n, m$ coprime positive integers. Let ${\\stackrel{{\\rm o}}{\\mathfrak{g}}}$ be\nthe Lie superalgebra ${\\mathfrak{sl}}(n|m)$ and let $\\mathfrak T_{iso}$ be the\ngroupoid introduced by\n  Sergeev and Veselov \\cite{SV2} with base the set of odd roots of\n${\\stackrel{{\\rm o}}{\\mathfrak{g}}}$. We show the Cayley graphs for three\nactions of $\\mathfrak T_{iso}$ are isomorphic, These actions originate in quite\ndifferent ways. Consider the set $X$ of Young diagrams contained in a rectangle\nwith $n$ rows and $m$ columns. By adding or deleting rows and columns from\ncertain diagrams and keeping track of the total number of boxes added or\ndeleted, we obtain an equivalence relation on $X\\times {\\mathbb Z}$ such that\n$\\mathfrak T_{iso}$ acts on the set of equivalence classes $[X\\times {\\mathbb\nZ}]$. We compare the action on $[X\\times {\\mathbb Z}]$ to an action on Borel\nsubalgebras of the affinization ${\\widehat{L}(\\stackrel{{\\rm\n_o}}{{\\mathfrak{g}}})}$ of ${\\stackrel{{\\rm o}}{\\mathfrak{g}}}$ which are\nrelated by odd reflections. The third action comes from an action of $\\mathfrak\nT_{iso}$ on $\\mathtt{k}^{n|m}$ defined by\n  Sergeev and Veselov, motivated by deformed quantum Calogero-Moser problems\n\\cite{SV1}. This action will be considered in \\cite{M24}.\n",
+  "subjects": [
+    "Mathematics/Representation Theory"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "6FgSvc_8roIK0mhXLurHMyOEZAxGqdkouymF6XKQv_Y",
+  "pdfSize": "624811"
+}

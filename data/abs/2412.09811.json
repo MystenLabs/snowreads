@@ -1,0 +1,58 @@
+{
+  "id": "2412.09811",
+  "title": "Characterization of Tunnel Diode Oscillator for Qubit Readout\n  Applications",
+  "authors": "Ivan Grytsenko, Sander van Haagen, Oleksiy Rybalko, Asher Jennings,\n  Rajesh Mohan, Yiran Tian, Erika Kawakami",
+  "authorsParsed": [
+    [
+      "Grytsenko",
+      "Ivan",
+      ""
+    ],
+    [
+      "van Haagen",
+      "Sander",
+      ""
+    ],
+    [
+      "Rybalko",
+      "Oleksiy",
+      ""
+    ],
+    [
+      "Jennings",
+      "Asher",
+      ""
+    ],
+    [
+      "Mohan",
+      "Rajesh",
+      ""
+    ],
+    [
+      "Tian",
+      "Yiran",
+      ""
+    ],
+    [
+      "Kawakami",
+      "Erika",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 13 Dec 2024 02:58:48 GMT"
+    }
+  ],
+  "updateDate": "2024-12-16",
+  "timestamp": 1734058728000,
+  "abstract": "  We developed a tunnel diode oscillator and characterized its performance,\nhighlighting its potential applications in the quantum state readout of\nelectrons insemiconductors and electrons on liquid helium. This cryogenic\nmicrowave source demonstrates significant scalability potential for large-scale\nqubit readout systems due to its compact design and low power consumption of\nonly 1 uW, making it suitable for integration on the 10 mK stage of a dilution\nrefrigerator. The tunnel diode oscillator exhibits superior amplitude stability\ncompared to commercial microwave sources. The output frequency is centered\naround 140 MHz, commonly used for qubit readout of electrons in semiconductors,\nwith a frequency tunability of 20 MHz achieved using a varactor diode.\nFurthermore, the phase noise was significantly improved by replacing the\ncommercially available voltage source with a lead-acid battery, achieving a\nmeasured phase noise of -115 dBc/Hz at a 1 MHz offset.\n",
+  "subjects": [
+    "Physics/Quantum Physics",
+    "Condensed Matter/Mesoscale and Nanoscale Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "SA8XzxFCMMKvJ4FIR3mMWkPPIu0YwhmX3ZAKJxfLjco",
+  "pdfSize": "2523185"
+}

@@ -1,0 +1,37 @@
+{
+  "id": "2412.01278",
+  "title": "Fast and efficient Bayesian method to search for strongly lensed\n  gravitational waves",
+  "authors": "A. Barsode, S. Goyal, P. Ajith",
+  "authorsParsed": [
+    [
+      "Barsode",
+      "A.",
+      ""
+    ],
+    [
+      "Goyal",
+      "S.",
+      ""
+    ],
+    [
+      "Ajith",
+      "P.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 2 Dec 2024 08:46:44 GMT"
+    }
+  ],
+  "updateDate": "2024-12-03",
+  "timestamp": 1733129204000,
+  "abstract": "  A small fraction of the gravitational-wave (GW) signals from binary black\nholes observable by ground-based detectors will be strongly lensed by\nintervening objects such as galaxies and clusters. Strong lensing will produce\nnearly identical copies of the GW signals separated in time. These lensed\nsignals must be identified against a background of unlensed pairs GW events,\nsome of which may appear similar by accident. This is usually done using fast,\nbut approximate methods that, for example, check for the overlap between the\nposterior distributions of a subset of binary parameters, or using slow, but\naccurate joint Bayesian parameter estimation. In this work, we present a\nmodified version of the posterior overlap method dubbed \"PO2.0\" that is\nmathematically equivalent to joint parameter estimation while still remaining\nfast. We achieve a significant gain in efficiency by incorporating informative\npriors about the binary and lensing populations, selection effects, and all the\ninferred parameters of the binary. For binary black hole signals lensed by\ngalaxies, our improved method can detect 65% lensed events at a pair-wise false\nalarm probability of $\\sim 2\\times 10^{-6}$. Consequently, we have a 13%\nprobability of detecting a strongly lensed event above $2.25\\sigma$\nsignificance during 18 months of observation by the LIGO-Virgo detectors at\ntheir current sensitivity. We also show how we can compute the joint posteriors\nof the lens and source parameters from a pair of lensed events by reweighting\nthe posteriors of individual events in a computationally inexpensive way.\n",
+  "subjects": [
+    "Physics/General Relativity and Quantum Cosmology"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "UQc5Crr6k9n9ouZvGU8IAibIjWP_uDQyt_s9tjATAWM",
+  "pdfSize": "1206567"
+}

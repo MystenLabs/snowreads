@@ -1,0 +1,32 @@
+{
+  "id": "2412.06773",
+  "title": "Timing consistency of T cell receptor activation in a stochastic model\n  combining kinetic segregation and proofreading",
+  "authors": "Thorsten Pr\\\"ustel and Martin Meier-Schellersheim",
+  "authorsParsed": [
+    [
+      "Prüstel",
+      "Thorsten",
+      ""
+    ],
+    [
+      "Meier-Schellersheim",
+      "Martin",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 9 Dec 2024 18:56:58 GMT"
+    }
+  ],
+  "updateDate": "2024-12-10",
+  "timestamp": 1733770618000,
+  "abstract": "  T cell receptor signaling must operate reliably under tight time constraints.\nWhile assuming quite different mechanisms, two prominent models of T cell\nreceptor activation, kinetic segregation and kinetic proofreading, both\nintroduce a distinct time scale. However, a clear understanding of whether and\nhow those characteristic times give rise to a consistent timing of T cell\nreceptor activation in the presence of stochastic fluctuations has been lacking\nso far. Here, using a simulation approach capable of modeling molecular\ninteractions between adjacent cell membranes, we explore a stochastic model\nthat combines elements of kinetic segregation and proofreading. Our simulations\nsuggest that the two mechanisms interoperate, thereby rendering the\ncorresponding stochastic times biologically functional. Receptor activation\nrelies on rare molecular events that are not well characterized by the mean of\nthe underlying probability density function. Yet, a consistent timing of\nreceptor activation can be ensured by a modest number of proofreading steps.\n",
+  "subjects": [
+    "Quantitative Biology/Quantitative Methods"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "ej9vfTZPSP0aEZiskv7Yhx1TpWOSBwr12d0OVAYXW2U",
+  "pdfSize": "1540645"
+}

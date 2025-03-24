@@ -1,0 +1,32 @@
+{
+  "id": "2412.07598",
+  "title": "Radiation-driven dusty outflows from early galaxies",
+  "authors": "Yurina Nakazato, Andrea Ferrara",
+  "authorsParsed": [
+    [
+      "Nakazato",
+      "Yurina",
+      ""
+    ],
+    [
+      "Ferrara",
+      "Andrea",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 10 Dec 2024 15:35:43 GMT"
+    }
+  ],
+  "updateDate": "2024-12-11",
+  "timestamp": 1733844943000,
+  "abstract": "  The James Webb Space Telescope (JWST) has discovered an overabundance of\nUV-bright ($M_{\\rm UV} \\lesssim -20$), massive galaxies at $z \\gtrsim 10$ in\ncomparison to pre-JWST theoretical predictions. Among the proposed\ninterpretations, such excess has been explained by negligible dust attenuation\nconditions following radiation-driven outflows developing when a galaxy goes\nthrough a super-Eddington phase. Dust opacity decreases the classical Eddington\nluminosity by a (boost) factor $A$, thus favoring the driving of outflows by\nstellar radiation in compact, initially dusty galaxies. Here, we compute $A$ as\na function of the galaxy stellar mass, gas fraction, galaxy size, and\nmetallicity (a total of 8 parameters). We find that the main dependence is on\nmetallicity and, for the fiducial model, $A \\sim 1800(Z/Z_\\odot)/(1+N_{\\rm\nH}/10^{23.5}\\, {\\rm cm^2})$. We apply such results to 20 spectroscopically\nconfirmed galaxies at $z \\gtrsim 10$ and evaluate their modified Eddington\nratio. We predict that three galaxies are in the outflow phase. Their outflows\nhave relatively low velocities ($60 -100 \\,{\\rm km\\ s^{-1}}$), implying that\nthey are unlikely to escape from the system. For the remaining 17 galaxies that\nare not currently in the outflow phase, we calculate the past evolution of the\nmodified Eddington ratio from their star formation history. We find that 15 of\nthem experienced an outflow phase prior to observation during which they\neffectively displaced their dust to larger radii. Thus, radiation-driven\noutflows appear to be a common phenomenon among early galaxies, strongly\naffecting their visibility.\n",
+  "subjects": [
+    "Astrophysics/Astrophysics of Galaxies"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "sClC0th8Ad2ibAeCTL10e4-47NSuOGo70nNReAaZvQg",
+  "pdfSize": "1188157"
+}

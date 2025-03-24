@@ -1,0 +1,34 @@
+{
+  "id": "2412.09726",
+  "title": "The Unreasonable Effectiveness of Gaussian Score Approximation for\n  Diffusion Models and its Applications",
+  "authors": "Binxu Wang, John J. Vastola",
+  "authorsParsed": [
+    [
+      "Wang",
+      "Binxu",
+      ""
+    ],
+    [
+      "Vastola",
+      "John J.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 12 Dec 2024 21:31:27 GMT"
+    }
+  ],
+  "updateDate": "2024-12-16",
+  "timestamp": 1734039087000,
+  "abstract": "  By learning the gradient of smoothed data distributions, diffusion models can\niteratively generate samples from complex distributions. The learned score\nfunction enables their generalization capabilities, but how the learned score\nrelates to the score of the underlying data manifold remains largely unclear.\nHere, we aim to elucidate this relationship by comparing learned neural scores\nto the scores of two kinds of analytically tractable distributions: Gaussians\nand Gaussian mixtures. The simplicity of the Gaussian model makes it\ntheoretically attractive, and we show that it admits a closed-form solution and\npredicts many qualitative aspects of sample generation dynamics. We claim that\nthe learned neural score is dominated by its linear (Gaussian) approximation\nfor moderate to high noise scales, and supply both theoretical and empirical\narguments to support this claim. Moreover, the Gaussian approximation\nempirically works for a larger range of noise scales than naive theory suggests\nit should, and is preferentially learned early in training. At smaller noise\nscales, we observe that learned scores are better described by a coarse-grained\n(Gaussian mixture) approximation of training data than by the score of the\ntraining distribution, a finding consistent with generalization. Our findings\nenable us to precisely predict the initial phase of trained models' sampling\ntrajectories through their Gaussian approximations. We show that this allows\nthe skipping of the first 15-30% of sampling steps while maintaining high\nsample quality (with a near state-of-the-art FID score of 1.93 on CIFAR-10\nunconditional generation). This forms the foundation of a novel hybrid sampling\nmethod, termed analytical teleportation, which can seamlessly integrate with\nand accelerate existing samplers, including DPM-Solver-v3 and UniPC. Our\nfindings suggest ways to improve the design and training of diffusion models.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "L521yzq2_hzfXXZmiv4EsXrYP5c786D93_raVfyKmm4",
+  "pdfSize": "24674290"
+}

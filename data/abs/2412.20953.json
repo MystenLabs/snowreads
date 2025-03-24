@@ -1,0 +1,33 @@
+{
+  "id": "2412.20953",
+  "title": "GASLITEing the Retrieval: Exploring Vulnerabilities in Dense\n  Embedding-based Search",
+  "authors": "Matan Ben-Tov, Mahmood Sharif",
+  "authorsParsed": [
+    [
+      "Ben-Tov",
+      "Matan",
+      ""
+    ],
+    [
+      "Sharif",
+      "Mahmood",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 30 Dec 2024 13:49:28 GMT"
+    }
+  ],
+  "updateDate": "2024-12-31",
+  "timestamp": 1735566568000,
+  "abstract": "  Dense embedding-based text retrieval$\\unicode{x2013}$retrieval of relevant\npassages from corpora via deep learning encodings$\\unicode{x2013}$has emerged\nas a powerful method attaining state-of-the-art search results and popularizing\nthe use of Retrieval Augmented Generation (RAG). Still, like other search\nmethods, embedding-based retrieval may be susceptible to search-engine\noptimization (SEO) attacks, where adversaries promote malicious content by\nintroducing adversarial passages to corpora. To faithfully assess and gain\ninsights into the susceptibility of such systems to SEO, this work proposes the\nGASLITE attack, a mathematically principled gradient-based search method for\ngenerating adversarial passages without relying on the corpus content or\nmodifying the model. Notably, GASLITE's passages (1) carry adversary-chosen\ninformation while (2) achieving high retrieval ranking for a selected query\ndistribution when inserted to corpora. We use GASLITE to extensively evaluate\nretrievers' robustness, testing nine advanced models under varied threat\nmodels, while focusing on realistic adversaries targeting queries on a specific\nconcept (e.g., a public figure). We found GASLITE consistently outperformed\nbaselines by $\\geq$140% success rate, in all settings. Particularly,\nadversaries using GASLITE require minimal effort to manipulate search\nresults$\\unicode{x2013}$by injecting a negligible amount of adversarial\npassages ($\\leq$0.0001% of the corpus), they could make them visible in the\ntop-10 results for 61-100% of unseen concept-specific queries against most\nevaluated models. Inspecting variance in retrievers' robustness, we identify\nkey factors that may contribute to models' susceptibility to SEO, including\nspecific properties in the embedding space's geometry.\n",
+  "subjects": [
+    "Computer Science/Cryptography and Security",
+    "Computer Science/Computation and Language"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "ZOT_No24RvdXJMdLtrX7YoGLYC3xePR7bg_aAxMug1I",
+  "pdfSize": "3685636"
+}

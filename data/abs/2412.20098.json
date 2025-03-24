@@ -1,0 +1,48 @@
+{
+  "id": "2412.20098",
+  "title": "RFPPO: Motion Dynamic RRT based Fluid Field - PPO for Dynamic TF/TA\n  Routing Planning",
+  "authors": "Rongkun Xue, Jing Yang, Yuyang Jiang, Yiming Feng, Zi Yang",
+  "authorsParsed": [
+    [
+      "Xue",
+      "Rongkun",
+      ""
+    ],
+    [
+      "Yang",
+      "Jing",
+      ""
+    ],
+    [
+      "Jiang",
+      "Yuyang",
+      ""
+    ],
+    [
+      "Feng",
+      "Yiming",
+      ""
+    ],
+    [
+      "Yang",
+      "Zi",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 28 Dec 2024 09:42:02 GMT"
+    }
+  ],
+  "updateDate": "2024-12-31",
+  "timestamp": 1735378922000,
+  "abstract": "  Existing local dynamic route planning algorithms, when directly applied to\nterrain following/terrain avoidance, or dynamic obstacle avoidance for large\nand medium-sized fixed-wing aircraft, fail to simultaneously meet the\nrequirements of real-time performance, long-distance planning, and the dynamic\nconstraints of large and medium-sized aircraft. To deal with this issue, this\npaper proposes the Motion Dynamic RRT based Fluid Field - PPO for dynamic TF/TA\nrouting planning. Firstly, the action and state spaces of the proximal policy\ngradient algorithm are redesigned using disturbance flow fields and artificial\npotential field algorithms, establishing an aircraft dynamics model, and\ndesigning a state transition process based on this model. Additionally, a\nreward function is designed to encourage strategies for obstacle avoidance,\nterrain following, terrain avoidance, and safe flight. Experimental results on\nreal DEM data demonstrate that our algorithm can complete long-distance flight\ntasks through collision-free trajectory planning that complies with dynamic\nconstraints, without the need for prior global planning.\n",
+  "subjects": [
+    "Computer Science/Robotics",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+  "blobId": "qlPaYUs_-UqEeA22Z1eQFJxiPeJ0L830HCUyusMRMMo",
+  "pdfSize": "9686448"
+}

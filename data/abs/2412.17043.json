@@ -1,0 +1,58 @@
+{
+  "id": "2412.17043",
+  "title": "Optimal signal transmission and timescale diversity in a model of human\n  brain operating near criticality",
+  "authors": "Yang Qi and Jiexiang Wang and Weiyang Ding and Gustavo Deco and Viktor\n  Jirsa and Wenlian Lu and Jianfeng Feng",
+  "authorsParsed": [
+    [
+      "Qi",
+      "Yang",
+      ""
+    ],
+    [
+      "Wang",
+      "Jiexiang",
+      ""
+    ],
+    [
+      "Ding",
+      "Weiyang",
+      ""
+    ],
+    [
+      "Deco",
+      "Gustavo",
+      ""
+    ],
+    [
+      "Jirsa",
+      "Viktor",
+      ""
+    ],
+    [
+      "Lu",
+      "Wenlian",
+      ""
+    ],
+    [
+      "Feng",
+      "Jianfeng",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 22 Dec 2024 14:51:47 GMT"
+    }
+  ],
+  "updateDate": "2024-12-24",
+  "timestamp": 1734879107000,
+  "abstract": "  Cortical neurons exhibit a hierarchy of timescales across brain regions in\nresponse to input stimuli, which is thought to be crucial for information\nprocessing of different temporal scales. Modeling studies suggest that both\nintra-regional circuit dynamics as well as cross-regional connectome may\ncontribute to this timescale diversity. Equally important to diverse timescales\nis the ability to transmit sensory signals reliably across the whole brain.\nTherefore, the brain must be able to generate diverse timescales while\nsimultaneously minimizing signal attenuation. To understand the dynamical\nmechanism behind these phenomena, we develop a second-order mean field model of\nthe human brain by applying moment closure and coarse-graining to a digital\ntwin brain model endowed with whole brain structural connectome. Cross-regional\ncoupling strength is found to induced a phase transition from asynchronous\nactivity to synchronous oscillation. By analyzing the input-response properties\nof the model, we reveal criticality as a unifying mechanism for enabling\nsimultaneously optimal signal transmission and timescales diversity. We show\nhow structural connectome and criticality jointly shape intrinsic timescale\nhierarchy across the brain.\n",
+  "subjects": [
+    "Quantitative Biology/Neurons and Cognition",
+    "Physics/Biological Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "yPbSjo2jKtThx5BCOzNb_0GKgUIGmgMbTHtgG-LJO9g",
+  "pdfSize": "9677001"
+}

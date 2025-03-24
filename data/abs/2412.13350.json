@@ -1,0 +1,34 @@
+{
+  "id": "2412.13350",
+  "title": "A Novel Machine Learning Classifier Based on Genetic Algorithms and Data\n  Importance Reformatting",
+  "authors": "A. K. Alkhayyata and N. M. Hewahi",
+  "authorsParsed": [
+    [
+      "Alkhayyata",
+      "A. K.",
+      ""
+    ],
+    [
+      "Hewahi",
+      "N. M.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 17 Dec 2024 21:54:55 GMT"
+    }
+  ],
+  "updateDate": "2024-12-19",
+  "timestamp": 1734472495000,
+  "abstract": "  In this paper, a novel classification algorithm that is based on Data\nImportance (DI) reformatting and Genetic Algorithms (GA) named GADIC is\nproposed to overcome the issues related to the nature of data which may hinder\nthe performance of the Machine Learning (ML) classifiers. GADIC comprises three\nphases which are data reformatting phase which depends on DI concept, training\nphase where GA is applied on the reformatted training dataset, and testing\nphase where the instances of the reformatted testing dataset are being averaged\nbased on similar instances in the training dataset. GADIC is an approach that\nutilizes the exiting ML classifiers with involvement of data reformatting,\nusing GA to tune the inputs, and averaging the similar instances to the unknown\ninstance. The averaging of the instances becomes the unknown instance to be\nclassified in the stage of testing. GADIC has been tested on five existing ML\nclassifiers which are Support Vector Machine (SVM), K-Nearest Neighbour (KNN),\nLogistic Regression (LR), Decision Tree (DT), and Na\\\"ive Bayes (NB). All were\nevaluated using seven open-source UCI ML repository and Kaggle datasets which\nare Cleveland heart disease, Indian liver patient, Pima Indian diabetes,\nemployee future prediction, telecom churn prediction, bank customer churn, and\ntech students. In terms of accuracy, the results showed that, with the\nexception of approximately 1% decrease in the accuracy of NB classifier in\nCleveland heart disease dataset, GADIC significantly enhanced the performance\nof most ML classifiers using various datasets. In addition, KNN with GADIC\nshowed the greatest performance gain when compared with other ML classifiers\nwith GADIC followed by SVM while LR had the lowest improvement. The lowest\naverage improvement that GADIC could achieve is 5.96%, whereas the maximum\naverage improvement reached 16.79%.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Neural and Evolutionary Computing"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "HN56FGt8pim0imfefqIM4MCNfFCrPKCgbyRQlOuvQPc",
+  "pdfSize": "547835"
+}

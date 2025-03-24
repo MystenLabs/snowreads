@@ -1,0 +1,47 @@
+{
+  "id": "2412.17903",
+  "title": "Correlated Noise Estimation with Quantum Sensor Networks",
+  "authors": "Anthony J. Brady, Yu-Xin Wang, Victor V. Albert, Alexey V. Gorshkov,\n  Quntao Zhuang",
+  "authorsParsed": [
+    [
+      "Brady",
+      "Anthony J.",
+      ""
+    ],
+    [
+      "Wang",
+      "Yu-Xin",
+      ""
+    ],
+    [
+      "Albert",
+      "Victor V.",
+      ""
+    ],
+    [
+      "Gorshkov",
+      "Alexey V.",
+      ""
+    ],
+    [
+      "Zhuang",
+      "Quntao",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 23 Dec 2024 19:00:06 GMT"
+    }
+  ],
+  "updateDate": "2024-12-27",
+  "timestamp": 1734980406000,
+  "abstract": "  In this article, we address the metrological problem of estimating collective\nstochastic properties of a many-body quantum system. Canonical examples include\ncenter-of-mass quadrature fluctuations in a system of bosonic modes and\ncorrelated dephasing in an ensemble of qubits (e.g., spins) or fermions. We\ndevelop a theoretical framework to determine the limits of correlated (weak)\nnoise estimation with quantum sensor networks and unveil the requirements for\nentanglement advantage. Notably, an advantage emerges from the synergistic\ninterplay between quantum correlations of the sensors and classical (spatial)\ncorrelations of the noises. We determine optimal entangled probe states and\nidentify a sensing protocol, reminiscent of a many-body echo sequence, that\nachieves the fundamental limits of measurement sensitivity for a broad class of\nproblems.\n",
+  "subjects": [
+    "Physics/Quantum Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "kO66vbnkB11kSGA4vp2M1Gu6OJPN5GRySD8WsV70S3I",
+  "pdfSize": "664748"
+}

@@ -1,0 +1,37 @@
+{
+  "id": "2412.16699",
+  "title": "FAP-CD: Fairness-Driven Age-Friendly Community Planning via Conditional\n  Diffusion Generation",
+  "authors": "Jinlin Li, Xintong Li, Xiao Zhou",
+  "authorsParsed": [
+    [
+      "Li",
+      "Jinlin",
+      ""
+    ],
+    [
+      "Li",
+      "Xintong",
+      ""
+    ],
+    [
+      "Zhou",
+      "Xiao",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 21 Dec 2024 16:57:09 GMT"
+    }
+  ],
+  "updateDate": "2024-12-24",
+  "timestamp": 1734800229000,
+  "abstract": "  As global populations age rapidly, incorporating age-specific considerations\ninto urban planning has become essential to addressing the urgent demand for\nage-friendly built environments and ensuring sustainable urban development.\nHowever, current practices often overlook these considerations, resulting in\ninadequate and unevenly distributed elderly services in cities. There is a\npressing need for equitable and optimized urban renewal strategies to support\neffective age-friendly planning. To address this challenge, we propose a novel\nframework, Fairness-driven Age-friendly community Planning via Conditional\nDiffusion generation (FAP-CD). FAP-CD leverages a conditioned graph denoising\ndiffusion probabilistic model to learn the joint probability distribution of\naging facilities and their spatial relationships at a fine-grained regional\nlevel. Our framework generates optimized facility distributions by iteratively\nrefining noisy graphs, conditioned on the needs of the elderly during the\ndiffusion process. Key innovations include a demand-fairness pre-training\nmodule that integrates community demand features and facility characteristics\nusing an attention mechanism and min-max optimization, ensuring equitable\nservice distribution across regions. Additionally, a discrete graph structure\ncaptures walkable accessibility within regional road networks, guiding model\nsampling. To enhance information integration, we design a graph denoising\nnetwork with an attribute augmentation module and a hybrid graph message\naggregation module, combining local and global node and edge information.\nEmpirical results across multiple metrics demonstrate the effectiveness of\nFAP-CD in balancing age-friendly needs with regional equity, achieving an\naverage improvement of 41% over competitive baseline models.\n",
+  "subjects": [
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "XGe0w6Y54E8FDfbs7skgzqTLG-j0lbp_ZqiAFQ3_aFU",
+  "pdfSize": "15200205"
+}

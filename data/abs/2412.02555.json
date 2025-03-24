@@ -1,0 +1,33 @@
+{
+  "id": "2412.02555",
+  "title": "Properties of median-dual regions on triangulations in $\\mathbb{R}^{4}$\n  with extensions to higher dimensions",
+  "authors": "David M. Williams and Hiroaki Nishikawa",
+  "authorsParsed": [
+    [
+      "Williams",
+      "David M.",
+      ""
+    ],
+    [
+      "Nishikawa",
+      "Hiroaki",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 3 Dec 2024 16:45:25 GMT"
+    }
+  ],
+  "updateDate": "2024-12-04",
+  "timestamp": 1733244325000,
+  "abstract": "  Many time-dependent problems in the field of computational fluid dynamics can\nbe solved in a four-dimensional space-time setting. However, such problems are\ncomputationally expensive to solve using modern high-order numerical methods.\nIn order to address this issue, efficient, node-centered edge-based schemes are\ncurrently being developed. In these schemes, a median-dual tessellation of the\nspace-time domain is constructed based on an initial triangulation.\nUnfortunately, it is not straightforward to construct median-dual regions or\ndeduce their properties on triangulations for $d \\geq 4$. In this work, we\nprovide the first rigorous definition of median-dual regions on triangulations\nin any number of dimensions. In addition, we present the first methods for\ncalculating the geometric properties of these dual regions. We introduce a new\nmethod for computing the hypervolume of a median-dual region in $\\mathbb{R}^d$.\nFurthermore, we provide a new approach for computing the directed-hyperarea\nvectors for facets of a median-dual region in $\\mathbb{R}^{4}$. These geometric\nproperties are key for facilitating the construction of node-centered\nedge-based schemes in higher dimensions.\n",
+  "subjects": [
+    "Mathematics/Numerical Analysis",
+    "Computer Science/Numerical Analysis"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "FFOnQRT2F0jnxaIgtqrUP19UexFaqDy0t3VhABq7ilc",
+  "pdfSize": "1341110"
+}

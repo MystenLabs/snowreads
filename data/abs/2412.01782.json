@@ -1,0 +1,38 @@
+{
+  "id": "2412.01782",
+  "title": "Identifying Reliable Predictions in Detection Transformers",
+  "authors": "Young-Jin Park and Carson Sobolewski and Navid Azizan",
+  "authorsParsed": [
+    [
+      "Park",
+      "Young-Jin",
+      ""
+    ],
+    [
+      "Sobolewski",
+      "Carson",
+      ""
+    ],
+    [
+      "Azizan",
+      "Navid",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 2 Dec 2024 18:34:17 GMT"
+    }
+  ],
+  "updateDate": "2024-12-03",
+  "timestamp": 1733164457000,
+  "abstract": "  DEtection TRansformer (DETR) has emerged as a promising architecture for\nobject detection, offering an end-to-end prediction pipeline. In practice,\nhowever, DETR generates hundreds of predictions that far outnumber the actual\nnumber of objects present in an image. This raises the question: can we trust\nand use all of these predictions? Addressing this concern, we present empirical\nevidence highlighting how different predictions within the same image play\ndistinct roles, resulting in varying reliability levels across those\npredictions. More specifically, while multiple predictions are often made for a\nsingle object, our findings show that most often one such prediction is\nwell-calibrated, and the others are poorly calibrated. Based on these insights,\nwe demonstrate identifying a reliable subset of DETR's predictions is crucial\nfor accurately assessing the reliability of the model at both object and image\nlevels.\n  Building on this viewpoint, we first tackle the shortcomings of widely used\nperformance and calibration metrics, such as average precision and various\nforms of expected calibration error. Specifically, they are inadequate for\ndetermining which subset of DETR's predictions should be trusted and utilized.\nIn response, we present Object-level Calibration Error (OCE), which is capable\nof assessing the calibration quality both across different models and among\nvarious configurations within a specific model. As a final contribution, we\nintroduce a post hoc Uncertainty Quantification (UQ) framework that predicts\nthe accuracy of the model on a per-image basis. By contrasting the average\nconfidence scores of positive (i.e., likely to be matched) and negative\npredictions determined by OCE, the framework assesses the reliability of the\nDETR model for each test image.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "8vToAzGyhKtI354qfD7AGLObRLMei_GZo4f8_MATaH0",
+  "pdfSize": "5874157"
+}

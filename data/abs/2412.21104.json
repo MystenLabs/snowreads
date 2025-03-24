@@ -1,0 +1,46 @@
+{
+  "id": "2412.21104",
+  "title": "On Parallel External-Memory Bidirectional Search",
+  "authors": "Lior Siag, Shahaf S. Shperberg, Ariel Felner, Nathan R. Sturtevant",
+  "authorsParsed": [
+    [
+      "Siag",
+      "Lior",
+      ""
+    ],
+    [
+      "Shperberg",
+      "Shahaf S.",
+      ""
+    ],
+    [
+      "Felner",
+      "Ariel",
+      ""
+    ],
+    [
+      "Sturtevant",
+      "Nathan R.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 30 Dec 2024 17:29:51 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Tue, 31 Dec 2024 08:00:57 GMT"
+    }
+  ],
+  "updateDate": "2025-01-06",
+  "timestamp": 1735579791000,
+  "abstract": "  Parallelization and External Memory (PEM) techniques have significantly\nenhanced the capabilities of search algorithms when solving large-scale\nproblems. Previous research on PEM has primarily centered on unidirectional\nalgorithms, with only one publication on bidirectional PEM that focuses on the\nmeet-in-the-middle (MM) algorithm. Building upon this foundation, this paper\npresents a framework that integrates both uni- and bi-directional best-first\nsearch algorithms into this framework. We then develop a PEM variant of the\nstate-of-the-art bidirectional heuristic search (BiHS) algorithm BAE*\n(PEM-BAE*). As previous work on BiHS did not focus on scaling problem sizes,\nthis work enables us to evaluate bidirectional algorithms on hard problems.\nEmpirical evaluation shows that PEM-BAE* outperforms the PEM variants of A* and\nthe MM algorithm, as well as a parallel variant of IDA*. These findings mark a\nsignificant milestone, revealing that bidirectional search algorithms clearly\noutperform unidirectional search algorithms across several domains, even when\nequipped with state-of-the-art heuristics.\n",
+  "subjects": [
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "693wGJo3M7P3tz1EHQHbkAe9kfHgbkq4YvQy94pGydk",
+  "pdfSize": "443050"
+}

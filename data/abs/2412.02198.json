@@ -1,0 +1,41 @@
+{
+  "id": "2412.02198",
+  "title": "Transformer-Based Auxiliary Loss for Face Recognition Across Age\n  Variations",
+  "authors": "Pritesh Prakash, Ashish Jacob Sam, S Umamaheswaran",
+  "authorsParsed": [
+    [
+      "Prakash",
+      "Pritesh",
+      ""
+    ],
+    [
+      "Sam",
+      "Ashish Jacob",
+      ""
+    ],
+    [
+      "Umamaheswaran",
+      "S",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 3 Dec 2024 06:23:35 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Wed, 29 Jan 2025 10:59:30 GMT"
+    }
+  ],
+  "updateDate": "2025-01-30",
+  "timestamp": 1733207015000,
+  "abstract": "  Aging presents a significant challenge in face recognition, as changes in\nskin texture and tone can alter facial features over time, making it\nparticularly difficult to compare images of the same individual taken years\napart, such as in long-term identification scenarios. Transformer networks have\nthe strength to preserve sequential spatial relationships caused by aging\neffect. This paper presents a technique for loss evaluation that uses a\ntransformer network as an additive loss in the face recognition domain. The\nstandard metric loss function typically takes the final embedding of the main\nCNN backbone as its input. Here, we employ a transformer-metric loss, a\ncombined approach that integrates both transformer-loss and metric-loss. This\nresearch intends to analyze the transformer behavior on the convolution output\nwhen the CNN outcome is arranged in a sequential vector. These sequential\nvectors have the potential to overcome the texture or regional structure\nreferred to as wrinkles or sagging skin affected by aging. The transformer\nencoder takes input from the contextual vectors obtained from the final\nconvolution layer of the network. The learned features can be more\nage-invariant, complementing the discriminative power of the standard metric\nloss embedding. With this technique, we use transformer loss with various base\nmetric-loss functions to evaluate the effect of the combined loss functions. We\nobserve that such a configuration allows the network to achieve SoTA results in\nLFW and age-variant datasets (CA-LFW and AgeDB). This research expands the role\nof transformers in the machine vision domain and opens new possibilities for\nexploring transformers as a loss function.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "NVqXSJ2VxTCF2-31GtHihWlvfug0MKmw_lBEFuqeeSY",
+  "pdfSize": "622727"
+}

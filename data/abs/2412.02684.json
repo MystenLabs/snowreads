@@ -1,0 +1,83 @@
+{
+  "id": "2412.02684",
+  "title": "AniGS: Animatable Gaussian Avatar from a Single Image with Inconsistent\n  Gaussian Reconstruction",
+  "authors": "Lingteng Qiu, Shenhao Zhu, Qi Zuo, Xiaodong Gu, Yuan Dong, Junfei\n  Zhang, Chao Xu, Zhe Li, Weihao Yuan, Liefeng Bo, Guanying Chen, Zilong Dong",
+  "authorsParsed": [
+    [
+      "Qiu",
+      "Lingteng",
+      ""
+    ],
+    [
+      "Zhu",
+      "Shenhao",
+      ""
+    ],
+    [
+      "Zuo",
+      "Qi",
+      ""
+    ],
+    [
+      "Gu",
+      "Xiaodong",
+      ""
+    ],
+    [
+      "Dong",
+      "Yuan",
+      ""
+    ],
+    [
+      "Zhang",
+      "Junfei",
+      ""
+    ],
+    [
+      "Xu",
+      "Chao",
+      ""
+    ],
+    [
+      "Li",
+      "Zhe",
+      ""
+    ],
+    [
+      "Yuan",
+      "Weihao",
+      ""
+    ],
+    [
+      "Bo",
+      "Liefeng",
+      ""
+    ],
+    [
+      "Chen",
+      "Guanying",
+      ""
+    ],
+    [
+      "Dong",
+      "Zilong",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 3 Dec 2024 18:55:39 GMT"
+    }
+  ],
+  "updateDate": "2024-12-04",
+  "timestamp": 1733252139000,
+  "abstract": "  Generating animatable human avatars from a single image is essential for\nvarious digital human modeling applications. Existing 3D reconstruction methods\noften struggle to capture fine details in animatable models, while generative\napproaches for controllable animation, though avoiding explicit 3D modeling,\nsuffer from viewpoint inconsistencies in extreme poses and computational\ninefficiencies. In this paper, we address these challenges by leveraging the\npower of generative models to produce detailed multi-view canonical pose\nimages, which help resolve ambiguities in animatable human reconstruction. We\nthen propose a robust method for 3D reconstruction of inconsistent images,\nenabling real-time rendering during inference. Specifically, we adapt a\ntransformer-based video generation model to generate multi-view canonical pose\nimages and normal maps, pretraining on a large-scale video dataset to improve\ngeneralization. To handle view inconsistencies, we recast the reconstruction\nproblem as a 4D task and introduce an efficient 3D modeling approach using 4D\nGaussian Splatting. Experiments demonstrate that our method achieves\nphotorealistic, real-time animation of 3D human avatars from in-the-wild\nimages, showcasing its effectiveness and generalization capability.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "xw2Ay1kLFrzwzFC11JlrdsZon92PvatXRqDmmrnmLec",
+  "pdfSize": "29076659"
+}

@@ -1,0 +1,46 @@
+{
+  "id": "2412.07196",
+  "title": "Fine-grained Text to Image Synthesis",
+  "authors": "Xu Ouyang, Ying Chen, Kaiyue Zhu, Gady Agam",
+  "authorsParsed": [
+    [
+      "Ouyang",
+      "Xu",
+      ""
+    ],
+    [
+      "Chen",
+      "Ying",
+      ""
+    ],
+    [
+      "Zhu",
+      "Kaiyue",
+      ""
+    ],
+    [
+      "Agam",
+      "Gady",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 10 Dec 2024 05:09:52 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Sun, 15 Dec 2024 22:56:40 GMT"
+    }
+  ],
+  "updateDate": "2024-12-17",
+  "timestamp": 1733807392000,
+  "abstract": "  Fine-grained text to image synthesis involves generating images from texts\nthat belong to different categories. In contrast to general text to image\nsynthesis, in fine-grained synthesis there is high similarity between images of\ndifferent subclasses, and there may be linguistic discrepancy among texts\ndescribing the same image. Recent Generative Adversarial Networks (GAN), such\nas the Recurrent Affine Transformation (RAT) GAN model, are able to synthesize\nclear and realistic images from texts. However, GAN models ignore fine-grained\nlevel information. In this paper we propose an approach that incorporates an\nauxiliary classifier in the discriminator and a contrastive learning method to\nimprove the accuracy of fine-grained details in images synthesized by RAT GAN.\nThe auxiliary classifier helps the discriminator classify the class of images,\nand helps the generator synthesize more accurate fine-grained images. The\ncontrastive learning method minimizes the similarity between images from\ndifferent subclasses and maximizes the similarity between images from the same\nsubclass. We evaluate on several state-of-the-art methods on the commonly used\nCUB-200-2011 bird dataset and Oxford-102 flower dataset, and demonstrated\nsuperior performance.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "317DiROWSTnPO7LPqrMWhDBIiUPaebB_7jJJD8-YkBI",
+  "pdfSize": "26445052"
+}

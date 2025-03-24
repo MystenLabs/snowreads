@@ -1,0 +1,44 @@
+{
+  "id": "2412.13794",
+  "title": "MATCHED: Multimodal Authorship-Attribution To Combat Human Trafficking\n  in Escort-Advertisement Data",
+  "authors": "Vageesh Saxena and Benjamin Bashpole and Gijs Van Dijck and Gerasimos\n  Spanakis",
+  "authorsParsed": [
+    [
+      "Saxena",
+      "Vageesh",
+      ""
+    ],
+    [
+      "Bashpole",
+      "Benjamin",
+      ""
+    ],
+    [
+      "Van Dijck",
+      "Gijs",
+      ""
+    ],
+    [
+      "Spanakis",
+      "Gerasimos",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 18 Dec 2024 12:39:01 GMT"
+    }
+  ],
+  "updateDate": "2024-12-19",
+  "timestamp": 1734525541000,
+  "abstract": "  Human trafficking (HT) remains a critical issue, with traffickers\nincreasingly leveraging online escort advertisements (ads) to advertise victims\nanonymously. Existing detection methods, including Authorship Attribution (AA),\noften center on text-based analyses and neglect the multimodal nature of online\nescort ads, which typically pair text with images. To address this gap, we\nintroduce MATCHED, a multimodal dataset of 27,619 unique text descriptions and\n55,115 unique images collected from the Backpage escort platform across seven\nU.S. cities in four geographical regions. Our study extensively benchmarks\ntext-only, vision-only, and multimodal baselines for vendor identification and\nverification tasks, employing multitask (joint) training objectives that\nachieve superior classification and retrieval performance on in-distribution\nand out-of-distribution (OOD) datasets. Integrating multimodal features further\nenhances this performance, capturing complementary patterns across text and\nimages. While text remains the dominant modality, visual data adds stylistic\ncues that enrich model performance. Moreover, text-image alignment strategies\nlike CLIP and BLIP2 struggle due to low semantic overlap and vague connections\nbetween the modalities of escort ads, with end-to-end multimodal training\nproving more robust. Our findings emphasize the potential of multimodal AA\n(MAA) to combat HT, providing LEAs with robust tools to link ads and disrupt\ntrafficking networks.\n",
+  "subjects": [
+    "Computer Science/Computation and Language",
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Computers and Society"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "baQfSu-dQnI47CPFx7soiA8_P4uf5SZROqIaP3nO6_s",
+  "pdfSize": "13259983"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "2412.09272",
+  "title": "Zonal fields as catalysts and inhibitors of turbulence-driven magnetic\n  islands",
+  "authors": "Daniele Villa, Nicolas Dubuit, Olivier Agullo, Xavier Garbet",
+  "authorsParsed": [
+    [
+      "Villa",
+      "Daniele",
+      ""
+    ],
+    [
+      "Dubuit",
+      "Nicolas",
+      ""
+    ],
+    [
+      "Agullo",
+      "Olivier",
+      ""
+    ],
+    [
+      "Garbet",
+      "Xavier",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 12 Dec 2024 13:35:22 GMT"
+    }
+  ],
+  "updateDate": "2024-12-13",
+  "timestamp": 1734010522000,
+  "abstract": "  A novel coalescence process is shown to take place in plasma fluid\nsimulations, leading to the formation of large-scale magnetic islands that\nbecome dynamically important in the system. The parametric dependence of the\nprocess on the plasma $\\beta$ and the background magnetic shear is studied, and\nthe process is broken down at a fundamental level, allowing to clearly identify\nits causes and dynamics. The formation of magnetic-island-like structures at\nthe spatial scale of the unstable modes is observed quite early in the\nnon-linear phase of the simulation for most cases studied, as the unstable\nmodes change their structure from interchange-like to tearing-like. This is\nfollowed by a slow coalescence process that evolves these magnetic structures\ntowards larger and larger scales, adding to the large-scale tearing-like modes\nthat already form by direct coupling of neighbouring unstable modes, but remain\nsub-dominant without the contribution from the smaller scales through\ncoalescence. The presence of the cubic non-linearities retained in the model is\nessential in the dynamics of this process. The zonal fields are key actors of\nthe overall process, acting as mediators between the competitive mechanisms\nfrom which Turbulence Driven Magnetic Islands can develop. The zonal current is\nfound to slow down the formation of large-scale magnetic islands, acting as an\ninhibitor, while the zonal flow is needed to allow the system to transfer\nenergy to the larger scales, acting as a catalyst for the island formation\nprocess.\n",
+  "subjects": [
+    "Physics/Plasma Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "PAZh_rFzGVBbbCVklwadqZzW_17FInb38YKYwnT9Gp8",
+  "pdfSize": "1813372"
+}

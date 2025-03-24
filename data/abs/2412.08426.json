@@ -1,0 +1,45 @@
+{
+  "id": "2412.08426",
+  "title": "Koopman Theory-Inspired Method for Learning Time Advancement Operators\n  in Unstable Flame Front Evolution",
+  "authors": "Rixin Yu, Marco Herbert, Markus Klein, Erdzan Hodzic",
+  "authorsParsed": [
+    [
+      "Yu",
+      "Rixin",
+      ""
+    ],
+    [
+      "Herbert",
+      "Marco",
+      ""
+    ],
+    [
+      "Klein",
+      "Markus",
+      ""
+    ],
+    [
+      "Hodzic",
+      "Erdzan",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 11 Dec 2024 14:47:19 GMT"
+    }
+  ],
+  "updateDate": "2024-12-12",
+  "timestamp": 1733928439000,
+  "abstract": "  Predicting the evolution of complex systems governed by partial differential\nequations (PDEs) remains challenging, especially for nonlinear, chaotic\nbehaviors. This study introduces Koopman-inspired Fourier Neural Operators\n(kFNO) and Convolutional Neural Networks (kCNN) to learn solution advancement\noperators for flame front instabilities. By transforming data into a\nhigh-dimensional latent space, these models achieve more accurate multi-step\npredictions compared to traditional methods. Benchmarking across one- and\ntwo-dimensional flame front scenarios demonstrates the proposed approaches'\nsuperior performance in short-term accuracy and long-term statistical\nreproduction, offering a promising framework for modeling complex dynamical\nsystems.\n",
+  "subjects": [
+    "Mathematics/Dynamical Systems",
+    "Computer Science/Machine Learning",
+    "Physics/Mathematical Physics",
+    "Mathematics/Mathematical Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "HlGDnO2MyTwx5Ryt4pzDlnLGpC9j7zGU2Qa8HJlsTpA",
+  "pdfSize": "4583960"
+}

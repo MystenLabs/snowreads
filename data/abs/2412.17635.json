@@ -1,0 +1,66 @@
+{
+  "id": "2412.17635",
+  "title": "LangSurf: Language-Embedded Surface Gaussians for 3D Scene Understanding",
+  "authors": "Hao Li, Roy Qin, Zhengyu Zou, Diqi He, Bohan Li, Bingquan Dai, Dingewn\n  Zhang, Junwei Han",
+  "authorsParsed": [
+    [
+      "Li",
+      "Hao",
+      ""
+    ],
+    [
+      "Qin",
+      "Roy",
+      ""
+    ],
+    [
+      "Zou",
+      "Zhengyu",
+      ""
+    ],
+    [
+      "He",
+      "Diqi",
+      ""
+    ],
+    [
+      "Li",
+      "Bohan",
+      ""
+    ],
+    [
+      "Dai",
+      "Bingquan",
+      ""
+    ],
+    [
+      "Zhang",
+      "Dingewn",
+      ""
+    ],
+    [
+      "Han",
+      "Junwei",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 23 Dec 2024 15:12:20 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Tue, 24 Dec 2024 02:48:55 GMT"
+    }
+  ],
+  "updateDate": "2024-12-25",
+  "timestamp": 1734966740000,
+  "abstract": "  Applying Gaussian Splatting to perception tasks for 3D scene understanding is\nbecoming increasingly popular. Most existing works primarily focus on rendering\n2D feature maps from novel viewpoints, which leads to an imprecise 3D language\nfield with outlier languages, ultimately failing to align objects in 3D space.\nBy utilizing masked images for feature extraction, these approaches also lack\nessential contextual information, leading to inaccurate feature representation.\nTo this end, we propose a Language-Embedded Surface Field (LangSurf), which\naccurately aligns the 3D language fields with the surface of objects,\nfacilitating precise 2D and 3D segmentation with text query, widely expanding\nthe downstream tasks such as removal and editing. The core of LangSurf is a\njoint training strategy that flattens the language Gaussian on the object\nsurfaces using geometry supervision and contrastive losses to assign accurate\nlanguage features to the Gaussians of objects. In addition, we also introduce\nthe Hierarchical-Context Awareness Module to extract features at the image\nlevel for contextual information then perform hierarchical mask pooling using\nmasks segmented by SAM to obtain fine-grained language features in different\nhierarchies. Extensive experiments on open-vocabulary 2D and 3D semantic\nsegmentation demonstrate that LangSurf outperforms the previous\nstate-of-the-art method LangSplat by a large margin. As shown in Fig. 1, our\nmethod is capable of segmenting objects in 3D space, thus boosting the\neffectiveness of our approach in instance recognition, removal, and editing,\nwhich is also supported by comprehensive experiments.\n\\url{https://langsurf.github.io}.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "UVkK8lv3CMa3npdnnNR25TpyVMCHHJNdZCRp-rM4GmY",
+  "pdfSize": "21043665"
+}

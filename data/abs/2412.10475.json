@@ -1,0 +1,43 @@
+{
+  "id": "2412.10475",
+  "title": "Quasispecies dynamics with time lags and periodic fluctuations in\n  replication",
+  "authors": "Edward A. Turner, Francisco Crespo, Josep Sardany\\'es and Nolbert\n  Morales",
+  "authorsParsed": [
+    [
+      "Turner",
+      "Edward A.",
+      ""
+    ],
+    [
+      "Crespo",
+      "Francisco",
+      ""
+    ],
+    [
+      "Sardanyés",
+      "Josep",
+      ""
+    ],
+    [
+      "Morales",
+      "Nolbert",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 13 Dec 2024 03:13:29 GMT"
+    }
+  ],
+  "updateDate": "2024-12-17",
+  "timestamp": 1734059609000,
+  "abstract": "  Quasispecies theory provides the conceptual and theoretical bases for\ndescribing the dynamics of biological information of replicators subject to\nlarge mutation rates. This theory, initially conceived within the framework of\nprebiotic evolution, is also being used to investigate the evolutionary\ndynamics of RNA viruses and heterogeneous cancer cells populations. In this\nsense, efforts to approximate the initial quasispecies theory to more realistic\nscenarios have been made in recent decades. Despite this, how time lags in RNA\nsynthesis and periodic fluctuations impact quasispecies dynamics remains poorly\nstudied. In this article, we combine the theory of delayed ordinary\ndifferential equations and topological Leray-Schauder degree to investigate the\nclassical quasispecies model in the single-peak fitness landscape considering\ntime lags and periodic fluctuations in replication. First, we prove that the\ndynamics with time lags under the constant population constraint remains in the\nsimplex in both forward and backward times. With backward mutation and periodic\nfluctuations, we prove the existence of periodic orbits regardless of time\nlags. Nevertheless, without backward mutation, neither periodic fluctuation nor\nthe introduction of time lags leads to periodic orbits. However, in the case of\nperiodic fluctuations, solutions converge exponentially to a periodic\noscillation around the equilibria associated with a constant replication rate.\nWe check the validity of the error catastrophe hypothesis assuming no backward\nmutation; we determine that the error threshold remains sound for the case of\ntime of periodic fitness and time lags with constant fitness. Finally, our\nresults show that the error threshold is not found with backward mutations.\n",
+  "subjects": [
+    "Quantitative Biology/Populations and Evolution",
+    "Mathematics/Dynamical Systems"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "gijR5gja0i2FazSRDdkadBOYriyAHV6gkgJS75i_C-Q",
+  "pdfSize": "579185"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "2412.08235",
+  "title": "The B2Scala Tool: Integrating Bach in Scala with Security in Mind",
+  "authors": "Doha Ouardi (University of Namur), Manel Barkallah (University of\n  Namur), Jean-Marie Jacquet (University of Namur)",
+  "authorsParsed": [
+    [
+      "Ouardi",
+      "Doha",
+      "",
+      "University of Namur"
+    ],
+    [
+      "Barkallah",
+      "Manel",
+      "",
+      "University of\n  Namur"
+    ],
+    [
+      "Jacquet",
+      "Jean-Marie",
+      "",
+      "University of Namur"
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 11 Dec 2024 09:32:11 GMT"
+    }
+  ],
+  "updateDate": "2024-12-12",
+  "timestamp": 1733909531000,
+  "abstract": "  Process algebras have been widely used to verify security protocols in a\nformal manner. However they mostly focus on synchronous communication based on\nthe exchange of messages. We present an alternative approach relying on\nasynchronous communication obtained through information available on a shared\nspace. More precisely this paper first proposes an embedding in Scala of a\nLinda-like language, called Bach. It consists of a Domain Specific Language,\ninternal to Scala, that allows us to experiment programs developed in Bach\nwhile benefiting from the Scala eco-system, in particular from its type system\nas well as program fragments developed in Scala. Moreover, we introduce a logic\nthat allows to restrict the executions of programs to those meeting logic\nformulae. Our work is illustrated on the Needham-Schroeder security protocol,\nfor which we manage to automatically rediscover the man-in-the-middle attack\nfirst put in evidence by G. Lowe.\n",
+  "subjects": [
+    "Computer Science/Programming Languages",
+    "Computer Science/Multiagent Systems",
+    "Computer Science/Symbolic Computation"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "jvNZ6dPeRMf080YDOZ8uyzU7qPINxeyn9Kq9EnljxUg",
+  "pdfSize": "395968"
+}

@@ -1,0 +1,49 @@
+{
+  "id": "2412.19017",
+  "title": "Brain Ageing Prediction using Isolation Forest Technique and Residual\n  Neural Network (ResNet)",
+  "authors": "Saadat Behzadi, Danial Sharifrazi, Roohallah Alizadehsani, Mojtaba\n  Lotfaliany, Mohammadreza Mohebbi",
+  "authorsParsed": [
+    [
+      "Behzadi",
+      "Saadat",
+      ""
+    ],
+    [
+      "Sharifrazi",
+      "Danial",
+      ""
+    ],
+    [
+      "Alizadehsani",
+      "Roohallah",
+      ""
+    ],
+    [
+      "Lotfaliany",
+      "Mojtaba",
+      ""
+    ],
+    [
+      "Mohebbi",
+      "Mohammadreza",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 26 Dec 2024 01:49:21 GMT"
+    }
+  ],
+  "updateDate": "2024-12-30",
+  "timestamp": 1735177761000,
+  "abstract": "  Brain aging is a complex and dynamic process, leading to functional and\nstructural changes in the brain. These changes could lead to the increased risk\nof neurodegenerative diseases and cognitive decline. Accurate brain-age\nestimation utilizing neuroimaging data has become necessary for detecting\ninitial signs of neurodegeneration. Here, we propose a novel deep learning\napproach using the Residual Neural Network 101 Version 2 (ResNet101V2) model to\npredict brain age from MRI scans. To train, validate and test our proposed\nmodel, we used a large dataset of 2102 images which were selected randomly from\nthe International Consortium for Brain Mapping (ICBM). Next, we applied data\npreprocessing techniques, including normalizing the images and using outlier\ndetection via Isolation Forest method. Then, we evaluated various pre-trained\napproaches (namely: MobileNetV2, ResNet50V2, ResNet101V2, Xception). The\nresults demonstrated that the ResNet101V2 model has higher performance compared\nwith the other models, attaining MAEs of 0.9136 and 0.8242 years for before and\nafter using Isolation Forest process. Our method achieved a high accuracy in\nbrain age estimation in ICBM dataset and it provides a reliable brain age\nprediction.\n",
+  "subjects": [
+    "Electrical Engineering and Systems Science/Image and Video Processing",
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "foPQJdiJBJwhbtw4mpWUwnQCCBpi9cGxjc4sSn1_sHI",
+  "pdfSize": "245504"
+}

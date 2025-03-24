@@ -1,0 +1,42 @@
+{
+  "id": "2412.20392",
+  "title": "Defending Multimodal Backdoored Models by Repulsive Visual Prompt Tuning",
+  "authors": "Zhifang Zhang, Shuo He, Bingquan Shen, Lei Feng",
+  "authorsParsed": [
+    [
+      "Zhang",
+      "Zhifang",
+      ""
+    ],
+    [
+      "He",
+      "Shuo",
+      ""
+    ],
+    [
+      "Shen",
+      "Bingquan",
+      ""
+    ],
+    [
+      "Feng",
+      "Lei",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 29 Dec 2024 08:09:20 GMT"
+    }
+  ],
+  "updateDate": "2024-12-31",
+  "timestamp": 1735459760000,
+  "abstract": "  Multimodal contrastive learning models (e.g., CLIP) can learn high-quality\nrepresentations from large-scale image-text datasets, yet they exhibit\nsignificant vulnerabilities to backdoor attacks, raising serious safety\nconcerns. In this paper, we disclose that CLIP's vulnerabilities primarily stem\nfrom its excessive encoding of class-irrelevant features, which can compromise\nthe model's visual feature resistivity to input perturbations, making it more\nsusceptible to capturing the trigger patterns inserted by backdoor attacks.\nInspired by this finding, we propose Repulsive Visual Prompt Tuning (RVPT), a\nnovel defense approach that employs specially designed deep visual prompt\ntuning and feature-repelling loss to eliminate excessive class-irrelevant\nfeatures while simultaneously optimizing cross-entropy loss to maintain clean\naccuracy. Unlike existing multimodal backdoor defense methods that typically\nrequire the availability of poisoned data or involve fine-tuning the entire\nmodel, RVPT leverages few-shot downstream clean samples and only tunes a small\nnumber of parameters. Empirical results demonstrate that RVPT tunes only 0.27\\%\nof the parameters relative to CLIP, yet it significantly outperforms\nstate-of-the-art baselines, reducing the attack success rate from 67.53\\% to\n2.76\\% against SoTA attacks and effectively generalizing its defensive\ncapabilities across multiple datasets.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "urRR6V-1kplDP7zlKOSYS98pFfOopKCyDxcuPLTtrFg",
+  "pdfSize": "8580761"
+}

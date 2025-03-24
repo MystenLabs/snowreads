@@ -1,0 +1,52 @@
+{
+  "id": "2412.01402",
+  "title": "ULSR-GS: Ultra Large-scale Surface Reconstruction Gaussian Splatting\n  with Multi-View Geometric Consistency",
+  "authors": "Zhuoxiao Li, Shanliang Yao, Qizhong Gao, Angel F. Garcia-Fernandez,\n  Yong Yue, Xiaohui Zhu",
+  "authorsParsed": [
+    [
+      "Li",
+      "Zhuoxiao",
+      ""
+    ],
+    [
+      "Yao",
+      "Shanliang",
+      ""
+    ],
+    [
+      "Gao",
+      "Qizhong",
+      ""
+    ],
+    [
+      "Garcia-Fernandez",
+      "Angel F.",
+      ""
+    ],
+    [
+      "Yue",
+      "Yong",
+      ""
+    ],
+    [
+      "Zhu",
+      "Xiaohui",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 2 Dec 2024 11:42:35 GMT"
+    }
+  ],
+  "updateDate": "2024-12-03",
+  "timestamp": 1733139755000,
+  "abstract": "  While Gaussian Splatting (GS) demonstrates efficient and high-quality scene\nrendering and small area surface extraction ability, it falls short in handling\nlarge-scale aerial image surface extraction tasks. To overcome this, we present\nULSR-GS, a framework dedicated to high-fidelity surface extraction in\nultra-large-scale scenes, addressing the limitations of existing GS-based mesh\nextraction methods. Specifically, we propose a point-to-photo partitioning\napproach combined with a multi-view optimal view matching principle to select\nthe best training images for each sub-region. Additionally, during training,\nULSR-GS employs a densification strategy based on multi-view geometric\nconsistency to enhance surface extraction details. Experimental results\ndemonstrate that ULSR-GS outperforms other state-of-the-art GS-based works on\nlarge-scale aerial photogrammetry benchmark datasets, significantly improving\nsurface extraction accuracy in complex urban environments. Project page:\nhttps://ulsrgs.github.io.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "ZCtoxuBMr8_-bvIBWuvFLGJ4vYff9MvwYzIQ-_QchYw",
+  "pdfSize": "47898231"
+}

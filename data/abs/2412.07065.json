@@ -1,0 +1,33 @@
+{
+  "id": "2412.07065",
+  "title": "Haptic Stylus vs. Handheld Controllers: A Comparative Study for Surface\n  Visualization Interactions",
+  "authors": "Hamza Afzaal, and Usman Alim",
+  "authorsParsed": [
+    [
+      "Afzaal",
+      "Hamza",
+      ""
+    ],
+    [
+      "Alim",
+      "Usman",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 10 Dec 2024 00:18:22 GMT"
+    }
+  ],
+  "updateDate": "2024-12-11",
+  "timestamp": 1733789902000,
+  "abstract": "  Surface visualizations are essential in analyzing three-dimensional\nspatiotemporal phenomena. Given its ability to provide enhanced spatial\nperception and scene maneuverability, virtual reality (VR) is an essential\nmedium for surface visualization and interaction tasks. Such tasks primarily\nrely on visual cues that require an unoccluded view of the surface region under\nconsideration. Haptic force feedback is a tangible interaction modality that\nalleviates the reliance on visual-only cues by allowing a direct physical\nsensation of the surface. In this paper, we evaluate the use of a force-based\nhaptic stylus compared to handheld VR controllers via a between-subjects user\nstudy involving fundamental interaction tasks performed on surface\nvisualizations. Keeping a consistent visual design across both modalities, our\nstudy incorporates tasks that require the localization of the highest, lowest,\nand random points on surfaces; and tasks that focus on brushing curves on\nsurfaces with varying complexity and occlusion levels. Our findings show that\nparticipants took longer to brush curves using the haptic modality but could\ndraw smoother curves compared to the handheld controllers. In contrast, haptics\nwas faster in point localization, but the accuracy depended on the visual cues\nand occlusions associated with the tasks. Finally, we discuss participant\nfeedback on using haptic force feedback as a tangible input modality and share\ntakeaways to help outline design strategies for using haptics-based tangible\ninputs for surface visualization and interaction tasks.\n",
+  "subjects": [
+    "Computer Science/Human-Computer Interaction",
+    "Computer Science/Graphics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "-MIx8fW5OG6Jd6_AkSAP0To2PGU8FL7aKX-OTYPSfqI",
+  "pdfSize": "7716171"
+}

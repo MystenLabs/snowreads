@@ -1,0 +1,42 @@
+{
+  "id": "2412.05179",
+  "title": "Spatially-Adaptive Hash Encodings For Neural Surface Reconstruction",
+  "authors": "Thomas Walker, Octave Mariotti, Amir Vaxman, Hakan Bilen",
+  "authorsParsed": [
+    [
+      "Walker",
+      "Thomas",
+      ""
+    ],
+    [
+      "Mariotti",
+      "Octave",
+      ""
+    ],
+    [
+      "Vaxman",
+      "Amir",
+      ""
+    ],
+    [
+      "Bilen",
+      "Hakan",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 6 Dec 2024 16:54:55 GMT"
+    }
+  ],
+  "updateDate": "2024-12-09",
+  "timestamp": 1733504095000,
+  "abstract": "  Positional encodings are a common component of neural scene reconstruction\nmethods, and provide a way to bias the learning of neural fields towards\ncoarser or finer representations. Current neural surface reconstruction methods\nuse a \"one-size-fits-all\" approach to encoding, choosing a fixed set of\nencoding functions, and therefore bias, across all scenes. Current\nstate-of-the-art surface reconstruction approaches leverage grid-based\nmulti-resolution hash encoding in order to recover high-detail geometry. We\npropose a learned approach which allows the network to choose its encoding\nbasis as a function of space, by masking the contribution of features stored at\nseparate grid resolutions. The resulting spatially adaptive approach allows the\nnetwork to fit a wider range of frequencies without introducing noise. We test\nour approach on standard benchmark surface reconstruction datasets and achieve\nstate-of-the-art performance on two benchmark datasets.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "i1Gk3lI2JobIyLKJlOp3P9R9NnUdDxz7_fZcwaWNaNg",
+  "pdfSize": "12037042"
+}

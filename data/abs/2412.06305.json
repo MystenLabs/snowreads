@@ -1,0 +1,32 @@
+{
+  "id": "2412.06305",
+  "title": "Quasi-likelihood-based EM algorithm for regime-switching SDE",
+  "authors": "Yuzhong Cheng, Hiroki Masuda",
+  "authorsParsed": [
+    [
+      "Cheng",
+      "Yuzhong",
+      ""
+    ],
+    [
+      "Masuda",
+      "Hiroki",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 9 Dec 2024 08:50:30 GMT"
+    }
+  ],
+  "updateDate": "2024-12-10",
+  "timestamp": 1733734230000,
+  "abstract": "  This paper considers estimating the parameters in a regime-switching\nstochastic differential equation(SDE) driven by Normal Inverse Gaussian(NIG)\nnoise. The model under consideration incorporates a continuous-time finite\nstate Markov chain to capture regime changes, enabling a more realistic\nrepresentation of evolving market conditions or environmental factors. Although\nthe continuous dynamics are typically observable, the hidden nature of the\nMarkov chain introduces significant complexity, rendering standard\nlikelihood-based methods less effective. To address these challenges, we\npropose an estimation algorithm designed for discrete, high-frequency\nobservations, even when the Markov chain is not directly observed. Our approach\nintegrates the Expectation-Maximization (EM) algorithm, which iteratively\nrefines parameter estimates in the presence of latent variables, with a\nquasi-likelihood method adapted to NIG noise. Notably, this method can\nsimultaneously estimate parameters within both the SDE coefficients and the\ndriving noise. Simulation results are provided to evaluate the performance of\nthe algorithm. These experiments demonstrate that the proposed method provides\nreasonable estimation under challenging conditions.\n",
+  "subjects": [
+    "Statistics/Computation"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "1EqtURuvibZ-J0ICNaQmcVj9Un-fJ8lxRFlkSOfP6GA",
+  "pdfSize": "717197"
+}

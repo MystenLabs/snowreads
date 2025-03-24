@@ -1,0 +1,32 @@
+{
+  "id": "2412.16450",
+  "title": "High-Rate Amplitude-Damping Shor Codes with Immunity to Collective\n  Coherent Errors",
+  "authors": "En-Jui Chang, Ching-Yi Lai",
+  "authorsParsed": [
+    [
+      "Chang",
+      "En-Jui",
+      ""
+    ],
+    [
+      "Lai",
+      "Ching-Yi",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 21 Dec 2024 02:45:36 GMT"
+    }
+  ],
+  "updateDate": "2024-12-24",
+  "timestamp": 1734749136000,
+  "abstract": "  We introduce a family of high-rate amplitude-damping (AD) Shor Codes,\ndesigned to effectively correct AD errors while maintaining immunity to\ncollective coherent (CC) errors. The proposed $[[(w+1)(w+K), K]]$ AD codes can\napproximately correct up to $w$ AD errors, with flexible parameters $(w, K)$,\nand we provide a rigorous proof that these codes satisfy the approximate\nquantum error correction conditions. These AD Shor codes employ structured\nstabilizer measurement schemes, allowing efficient detection of AD errors using\nlocal operations and ancillary qubits. By concatenating these codes with the\ndual-rail code, we construct a class of CC-AD Shor codes that inherit the\nadvantageous properties of the AD Shor codes.\n",
+  "subjects": [
+    "Physics/Quantum Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "a6dDUHjGSs1hPI2iziClk6yl07lhBvGtXKcmnY0JuxU",
+  "pdfSize": "958478"
+}

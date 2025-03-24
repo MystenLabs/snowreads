@@ -1,0 +1,52 @@
+{
+  "id": "2412.07036",
+  "title": "Visualizing Distributed Traces in Aggregate",
+  "authors": "Adrita Samanta, Henry Han, Darby Huye, Lan Liu, Zhaoqi Zhang, Raja R.\n  Sambasivan",
+  "authorsParsed": [
+    [
+      "Samanta",
+      "Adrita",
+      ""
+    ],
+    [
+      "Han",
+      "Henry",
+      ""
+    ],
+    [
+      "Huye",
+      "Darby",
+      ""
+    ],
+    [
+      "Liu",
+      "Lan",
+      ""
+    ],
+    [
+      "Zhang",
+      "Zhaoqi",
+      ""
+    ],
+    [
+      "Sambasivan",
+      "Raja R.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 9 Dec 2024 22:51:03 GMT"
+    }
+  ],
+  "updateDate": "2024-12-11",
+  "timestamp": 1733784663000,
+  "abstract": "  Distributed systems are comprised of many components that communicate\ntogether to form an application. Distributed tracing gives us visibility into\nthese complex interactions, but it can be difficult to reason about the\nsystem's behavior, even with traces. Systems collect large amounts of tracing\ndata even with low sampling rates. Even when there are patterns in the system,\nit is often difficult to detect similarities in traces since current tools\nmainly allow developers to visualize individual traces. Debugging and system\noptimization is difficult for developers without an understanding of the whole\ntrace dataset. In order to help present these similarities, this paper proposes\na method to aggregate traces in a way that groups together and visualizes\nsimilar traces. We do so by assigning a few traces that are representative of\neach set. We suggest that traces can be grouped based on how many services they\nshare, how many levels the graph has, how structurally similar they are, or how\nclose their latencies are. We also develop an aggregate trace data structure as\na way to comprehensively visualize these groups and a method for filtering out\nincomplete traces if a more complete version of the trace exists. The unique\ntraces of each group are especially useful to developers for troubleshooting.\nOverall, our approach allows for a more efficient method of analyzing system\nbehavior.\n",
+  "subjects": [
+    "Computer Science/Distributed, Parallel, and Cluster Computing"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "sBnfTfBfQODjoh09M_KBhdZK_ZsZZ7jzOyKGYYwQX7A",
+  "pdfSize": "1427963"
+}

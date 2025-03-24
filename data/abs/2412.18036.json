@@ -1,0 +1,47 @@
+{
+  "id": "2412.18036",
+  "title": "Explainability in Neural Networks for Natural Language Processing Tasks",
+  "authors": "Melkamu Mersha, Mingiziem Bitewa, Tsion Abay, Jugal Kalita",
+  "authorsParsed": [
+    [
+      "Mersha",
+      "Melkamu",
+      ""
+    ],
+    [
+      "Bitewa",
+      "Mingiziem",
+      ""
+    ],
+    [
+      "Abay",
+      "Tsion",
+      ""
+    ],
+    [
+      "Kalita",
+      "Jugal",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 23 Dec 2024 23:09:56 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Wed, 8 Jan 2025 19:44:56 GMT"
+    }
+  ],
+  "updateDate": "2025-01-10",
+  "timestamp": 1734995396000,
+  "abstract": "  Neural networks are widely regarded as black-box models, creating significant\nchallenges in understanding their inner workings, especially in natural\nlanguage processing (NLP) applications. To address this opacity, model\nexplanation techniques like Local Interpretable Model-Agnostic Explanations\n(LIME) have emerged as essential tools for providing insights into the behavior\nof these complex systems. This study leverages LIME to interpret a multi-layer\nperceptron (MLP) neural network trained on a text classification task. By\nanalyzing the contribution of individual features to model predictions, the\nLIME approach enhances interpretability and supports informed decision-making.\nDespite its effectiveness in offering localized explanations, LIME has\nlimitations in capturing global patterns and feature interactions. This\nresearch highlights the strengths and shortcomings of LIME and proposes\ndirections for future work to achieve more comprehensive interpretability in\nneural NLP models.\n",
+  "subjects": [
+    "Computer Science/Computation and Language",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "vRKhMba5XlKMkvITEnBt5kgMlAUwN8hsu9rklUiVwhw",
+  "pdfSize": "378923"
+}

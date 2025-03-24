@@ -1,0 +1,73 @@
+{
+  "id": "2412.19542",
+  "title": "Interacted Object Grounding in Spatio-Temporal Human-Object Interactions",
+  "authors": "Xiaoyang Liu, Boran Wen, Xinpeng Liu, Zizheng Zhou, Hongwei Fan, Cewu\n  Lu, Lizhuang Ma, Yulong Chen, Yong-Lu Li",
+  "authorsParsed": [
+    [
+      "Liu",
+      "Xiaoyang",
+      ""
+    ],
+    [
+      "Wen",
+      "Boran",
+      ""
+    ],
+    [
+      "Liu",
+      "Xinpeng",
+      ""
+    ],
+    [
+      "Zhou",
+      "Zizheng",
+      ""
+    ],
+    [
+      "Fan",
+      "Hongwei",
+      ""
+    ],
+    [
+      "Lu",
+      "Cewu",
+      ""
+    ],
+    [
+      "Ma",
+      "Lizhuang",
+      ""
+    ],
+    [
+      "Chen",
+      "Yulong",
+      ""
+    ],
+    [
+      "Li",
+      "Yong-Lu",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 27 Dec 2024 09:08:46 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Sun, 23 Feb 2025 10:03:47 GMT"
+    }
+  ],
+  "updateDate": "2025-02-25",
+  "timestamp": 1735290526000,
+  "abstract": "  Spatio-temporal Human-Object Interaction (ST-HOI) understanding aims at\ndetecting HOIs from videos, which is crucial for activity understanding.\nHowever, existing whole-body-object interaction video benchmarks overlook the\ntruth that open-world objects are diverse, that is, they usually provide\nlimited and predefined object classes. Therefore, we introduce a new open-world\nbenchmark: Grounding Interacted Objects (GIO) including 1,098 interacted\nobjects class and 290K interacted object boxes annotation. Accordingly, an\nobject grounding task is proposed expecting vision systems to discover\ninteracted objects. Even though today's detectors and grounding methods have\nsucceeded greatly, they perform unsatisfactorily in localizing diverse and rare\nobjects in GIO. This profoundly reveals the limitations of current vision\nsystems and poses a great challenge. Thus, we explore leveraging\nspatio-temporal cues to address object grounding and propose a 4D\nquestion-answering framework (4D-QA) to discover interacted objects from\ndiverse videos. Our method demonstrates significant superiority in extensive\nexperiments compared to current baselines. Data and code will be publicly\navailable at https://github.com/DirtyHarryLYL/HAKE-AVA.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "TFaV4Uv59yuC9yw2fawwKY4rdnVba3uzluHi-9lBAy0",
+  "pdfSize": "29346983"
+}

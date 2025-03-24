@@ -1,0 +1,33 @@
+{
+  "id": "2412.08824",
+  "title": "Disentangling impact of capacity, objective, batchsize, estimators, and\n  step-size on flow VI",
+  "authors": "Abhinav Agrawal and Justin Domke",
+  "authorsParsed": [
+    [
+      "Agrawal",
+      "Abhinav",
+      ""
+    ],
+    [
+      "Domke",
+      "Justin",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 11 Dec 2024 23:54:08 GMT"
+    }
+  ],
+  "updateDate": "2024-12-13",
+  "timestamp": 1733961248000,
+  "abstract": "  Normalizing flow-based variational inference (flow VI) is a promising\napproximate inference approach, but its performance remains inconsistent across\nstudies. Numerous algorithmic choices influence flow VI's performance. We\nconduct a step-by-step analysis to disentangle the impact of some of the key\nfactors: capacity, objectives, gradient estimators, number of gradient\nestimates (batchsize), and step-sizes. Each step examines one factor while\nneutralizing others using insights from the previous steps and/or using\nextensive parallel computation. To facilitate high-fidelity evaluation, we\ncurate a benchmark of synthetic targets that represent common posterior\npathologies and allow for exact sampling. We provide specific recommendations\nfor different factors and propose a flow VI recipe that matches or surpasses\nleading turnkey Hamiltonian Monte Carlo (HMC) methods.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Statistics/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "GZLcg1q3dizVhvd521wp1t7VaPeYjsDCMWdcKnVU8-A",
+  "pdfSize": "3222233"
+}

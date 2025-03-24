@@ -1,0 +1,32 @@
+{
+  "id": "2412.00810",
+  "title": "Long text outline generation: Chinese text outline based on unsupervised\n  framework and large language mode",
+  "authors": "Yan Yan and Yuanchi Ma",
+  "authorsParsed": [
+    [
+      "Yan",
+      "Yan",
+      ""
+    ],
+    [
+      "Ma",
+      "Yuanchi",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 1 Dec 2024 13:46:15 GMT"
+    }
+  ],
+  "updateDate": "2024-12-03",
+  "timestamp": 1733060775000,
+  "abstract": "  Outline generation aims to reveal the internal structure of a document by\nidentifying underlying chapter relationships and generating corresponding\nchapter summaries. Although existing deep learning methods and large models\nperform well on small- and medium-sized texts, they struggle to produce\nreadable outlines for very long texts (such as fictional works), often failing\nto segment chapters coherently. In this paper, we propose a novel outline\ngeneration method for Chinese, combining an unsupervised framework with large\nmodels. Specifically, the method first generates chapter feature graph data\nbased on entity and syntactic dependency relationships. Then, a representation\nmodule based on graph attention layers learns deep embeddings of the chapter\ngraph data. Using these chapter embeddings, we design an operator based on\nMarkov chain principles to segment plot boundaries. Finally, we employ a large\nmodel to generate summaries of each plot segment and produce the overall\noutline. We evaluate our model based on segmentation accuracy and outline\nreadability, and our performance outperforms several deep learning models and\nlarge models in comparative evaluations.\n",
+  "subjects": [
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "Om5M-6jLeQpWg0JAcqBtoPL016OPAKSO_WzLiO48eIQ",
+  "pdfSize": "618998"
+}

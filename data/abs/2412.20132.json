@@ -1,0 +1,43 @@
+{
+  "id": "2412.20132",
+  "title": "A study on nodal and isogeometric formulations for nonlinear dynamics of\n  shear- and torsion-free rods",
+  "authors": "Thi-Hoa Nguyen, Bruno A. Roccia, Dominik Schillinger, Cristian C.\n  Gebhardt",
+  "authorsParsed": [
+    [
+      "Nguyen",
+      "Thi-Hoa",
+      ""
+    ],
+    [
+      "Roccia",
+      "Bruno A.",
+      ""
+    ],
+    [
+      "Schillinger",
+      "Dominik",
+      ""
+    ],
+    [
+      "Gebhardt",
+      "Cristian C.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 28 Dec 2024 12:37:56 GMT"
+    }
+  ],
+  "updateDate": "2024-12-31",
+  "timestamp": 1735389476000,
+  "abstract": "  In this work, we compare the nodal and isogeometric spatial discretization\nschemes for the nonlinear formulation of shear- and torsion-free rods\nintroduced in [1]. We investigate the resulting discrete solution space, the\naccuracy, and the computational cost of these spatial discretization schemes.\nTo fulfill the required C1 continuity of the rod formulation, the nodal scheme\ndiscretizes the rod in terms of its nodal positions and directors using cubic\nHermite splines. Isogeometric discretizations naturally fulfill this with\nsmoothspline basis functions and discretize the rod only in terms of the\npositions of the control points [2], which leads to a discrete solution in\nmultiple copies of the Euclidean space R3. They enable the employment of basis\nfunctions of one degree lower, i.e. quadratic C1 splines, and possibly reduce\nthe number of degrees of freedom. When using the nodal scheme, since the\ndefined director field is in the unit sphere S2, preserving this for the nodal\ndirector variable field requires an additional constraint of unit nodal\ndirectors. This leads to a discrete solution in multiple copies of the manifold\nR3xS2, however, results in zero nodal axial stress values. Allowing arbitrary\nlength for the nodal directors, i.e. a nodal director field in R3 instead of S2\nas within discrete rod elements, eliminates the constrained nodal axial\nstresses and leads to a discrete solution in multiple copies of R3. We discuss\na strong and weak approach using the Lagrange multiplier method and penalty\nmethod, respectively, to enforce the unit nodal director constraint. We compare\nthe resulting semi-discrete formulations and the computational cost of these\ndiscretization variants. We numerically demonstrate our findings via examples\nof a planar roll-up, a catenary, and a mooring line.\n",
+  "subjects": [
+    "Mathematics/Numerical Analysis",
+    "Computer Science/Numerical Analysis"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "RAbx3lUrgLe3KKdraau8nzYh4ZMX9amMS0kB0bULF2Y",
+  "pdfSize": "1558757"
+}

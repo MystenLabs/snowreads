@@ -1,0 +1,43 @@
+{
+  "id": "2412.19791",
+  "title": "Local Characteristic Decomposition of Equilibrium Variables for\n  Hyperbolic Systems of Balance Laws",
+  "authors": "Shaoshuai Chu, Alexander Kurganov, Mingye Na, Ruixiao Xin",
+  "authorsParsed": [
+    [
+      "Chu",
+      "Shaoshuai",
+      ""
+    ],
+    [
+      "Kurganov",
+      "Alexander",
+      ""
+    ],
+    [
+      "Na",
+      "Mingye",
+      ""
+    ],
+    [
+      "Xin",
+      "Ruixiao",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 27 Dec 2024 18:45:23 GMT"
+    }
+  ],
+  "updateDate": "2024-12-30",
+  "timestamp": 1735325123000,
+  "abstract": "  This paper is concerned with high-order numerical methods for hyperbolic\nsystems of balance laws. Such methods are typically based on high-order\npiecewise polynomial reconstructions (interpolations) of the computed discrete\nquantities. However, such reconstructions (interpolations) may be oscillatory\nunless the reconstruction (interpolation) procedure is applied to the local\ncharacteristic variables via the local characteristic decomposition (LCD).\nAnother challenge in designing accurate and stable high-order schemes is\nrelated to enforcing a delicate balance between the fluxes, sources, and\nnonconservative product terms: a good scheme should be well-balanced (WB) in\nthe sense that it should be capable of exactly preserving certain (physically\nrelevant) steady states. One of the ways to ensure that the reconstruction\n(interpolation) preserves these steady states is to apply the reconstruction\n(interpolation) to the equilibrium variables, which are supposed to be constant\nat the steady states. To achieve this goal and to keep the reconstruction\n(interpolation) non-oscillatory, we introduce a new LCD of equilibrium\nvariables. We apply the developed technique to the fifth-order Ai-WENO-Z\ninterpolation implemented within the WB A-WENO framework recently introduced in\n[S. Chu, A. Kurganov, and R. Xin, Beijing J. of Pure and Appl. Math., to\nappear], and illustrate its performance on a variety of numerical examples.\n",
+  "subjects": [
+    "Mathematics/Numerical Analysis",
+    "Computer Science/Numerical Analysis"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "eYO5gsTc1SdPGUGW_gZ3-vPlAPxcujka2B8Jp28r-g4",
+  "pdfSize": "2455112"
+}

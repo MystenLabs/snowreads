@@ -1,0 +1,52 @@
+{
+  "id": "2412.02235",
+  "title": "Testing vs Estimation for Index-Invariant Properties in the Huge Object\n  Model",
+  "authors": "Sourav Chakraborty, Eldar Fischer, Arijit Ghosh, Amit Levi, Gopinath\n  Mishra, Sayantan Sen",
+  "authorsParsed": [
+    [
+      "Chakraborty",
+      "Sourav",
+      ""
+    ],
+    [
+      "Fischer",
+      "Eldar",
+      ""
+    ],
+    [
+      "Ghosh",
+      "Arijit",
+      ""
+    ],
+    [
+      "Levi",
+      "Amit",
+      ""
+    ],
+    [
+      "Mishra",
+      "Gopinath",
+      ""
+    ],
+    [
+      "Sen",
+      "Sayantan",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 3 Dec 2024 08:04:25 GMT"
+    }
+  ],
+  "updateDate": "2024-12-04",
+  "timestamp": 1733213065000,
+  "abstract": "  The Huge Object model of property testing [Goldreich and Ron, TheoretiCS 23]\nconcerns properties of distributions supported on $\\{0,1\\}^n$, where $n$ is so\nlarge that even reading a single sampled string is unrealistic. Instead, query\naccess is provided to the samples, and the efficiency of the algorithm is\nmeasured by the total number of queries that were made to them.\n  Index-invariant properties under this model were defined in [Chakraborty et\nal., COLT 23], as a compromise between enduring the full intricacies of string\ntesting when considering unconstrained properties, and giving up completely on\nthe string structure when considering label-invariant properties.\nIndex-invariant properties are those that are invariant through a consistent\nreordering of the bits of the involved strings.\n  Here we provide an adaptation of Szemer\\'edi's regularity method for this\nsetting, and in particular show that if an index-invariant property admits an\n$\\epsilon$-test with a number of queries depending only on the proximity\nparameter $\\epsilon$, then it also admits a distance estimation algorithm whose\nnumber of queries depends only on the approximation parameter.\n",
+  "subjects": [
+    "Computer Science/Data Structures and Algorithms"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "BD8nVw_l3XOm_r2VuGJv9KnuTxs4iZ-fX6cNQ2AjEc8",
+  "pdfSize": "617492"
+}

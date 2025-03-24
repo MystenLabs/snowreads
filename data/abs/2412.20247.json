@@ -1,0 +1,42 @@
+{
+  "id": "2412.20247",
+  "title": "Well-posedness and approximation of reflected McKean-Vlasov SDEs with\n  applications",
+  "authors": "P. D. Hinds and A. Sharma and M. V. Tretyakov",
+  "authorsParsed": [
+    [
+      "Hinds",
+      "P. D.",
+      ""
+    ],
+    [
+      "Sharma",
+      "A.",
+      ""
+    ],
+    [
+      "Tretyakov",
+      "M. V.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 28 Dec 2024 19:29:32 GMT"
+    }
+  ],
+  "updateDate": "2024-12-31",
+  "timestamp": 1735414172000,
+  "abstract": "  In this paper, we establish well-posedness of reflected McKean-Vlasov SDEs\nand their particle approximations in smooth non-convex domains. We prove\nconvergence of the interacting particle system to the corresponding mean-field\nlimit with the optimal rate of convergence. We motivate this study with\napplications to sampling and optimization in constrained domains by considering\nreflected mean-field Langevin SDEs and two reflected consensus-based\noptimization (CBO) models, respectively. We utilize reflection coupling to\nstudy long-time behaviour of reflected mean-field SDEs and also investigate\nconvergence of the reflected CBO models to the global minimum of a constrained\noptimization problem. We numerically test reflected CBO models on benchmark\nconstrained optimization problems and an inverse problem.\n",
+  "subjects": [
+    "Mathematics/Probability",
+    "Computer Science/Numerical Analysis",
+    "Mathematics/Numerical Analysis",
+    "Mathematics/Optimization and Control",
+    "Mathematics/Statistics Theory",
+    "Statistics/Statistics Theory"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "zUYKEK5Oex2-Zz6hm79AtNaiJ9EeH_JKkx1yt6jds80",
+  "pdfSize": "816244"
+}

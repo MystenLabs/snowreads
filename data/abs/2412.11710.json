@@ -1,0 +1,58 @@
+{
+  "id": "2412.11710",
+  "title": "Re-Attentional Controllable Video Diffusion Editing",
+  "authors": "Yuanzhi Wang, Yong Li, Mengyi Liu, Xiaoya Zhang, Xin Liu, Zhen Cui,\n  Antoni B. Chan",
+  "authorsParsed": [
+    [
+      "Wang",
+      "Yuanzhi",
+      ""
+    ],
+    [
+      "Li",
+      "Yong",
+      ""
+    ],
+    [
+      "Liu",
+      "Mengyi",
+      ""
+    ],
+    [
+      "Zhang",
+      "Xiaoya",
+      ""
+    ],
+    [
+      "Liu",
+      "Xin",
+      ""
+    ],
+    [
+      "Cui",
+      "Zhen",
+      ""
+    ],
+    [
+      "Chan",
+      "Antoni B.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 16 Dec 2024 12:32:21 GMT"
+    }
+  ],
+  "updateDate": "2024-12-17",
+  "timestamp": 1734352341000,
+  "abstract": "  Editing videos with textual guidance has garnered popularity due to its\nstreamlined process which mandates users to solely edit the text prompt\ncorresponding to the source video. Recent studies have explored and exploited\nlarge-scale text-to-image diffusion models for text-guided video editing,\nresulting in remarkable video editing capabilities. However, they may still\nsuffer from some limitations such as mislocated objects, incorrect number of\nobjects. Therefore, the controllability of video editing remains a formidable\nchallenge. In this paper, we aim to challenge the above limitations by\nproposing a Re-Attentional Controllable Video Diffusion Editing (ReAtCo)\nmethod. Specially, to align the spatial placement of the target objects with\nthe edited text prompt in a training-free manner, we propose a Re-Attentional\nDiffusion (RAD) to refocus the cross-attention activation responses between the\nedited text prompt and the target video during the denoising stage, resulting\nin a spatially location-aligned and semantically high-fidelity manipulated\nvideo. In particular, to faithfully preserve the invariant region content with\nless border artifacts, we propose an Invariant Region-guided Joint Sampling\n(IRJS) strategy to mitigate the intrinsic sampling errors w.r.t the invariant\nregions at each denoising timestep and constrain the generated content to be\nharmonized with the invariant region content. Experimental results verify that\nReAtCo consistently improves the controllability of video diffusion editing and\nachieves superior video editing performance.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by-sa/4.0/",
+  "blobId": "H6GMJV1hNu1TY5gP6bD2C62k1iQ__TudstcwSOCYYj0",
+  "pdfSize": "7294986"
+}

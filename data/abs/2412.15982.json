@@ -1,0 +1,38 @@
+{
+  "id": "2412.15982",
+  "title": "Electronic readout of optically excited surface plasmons",
+  "authors": "Alec R. Cheney, Borui Chen, Tim Thomay",
+  "authorsParsed": [
+    [
+      "Cheney",
+      "Alec R.",
+      ""
+    ],
+    [
+      "Chen",
+      "Borui",
+      ""
+    ],
+    [
+      "Thomay",
+      "Tim",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 20 Dec 2024 15:24:05 GMT"
+    }
+  ],
+  "updateDate": "2024-12-23",
+  "timestamp": 1734708245000,
+  "abstract": "  Leveraging thermal losses as a useful consequence of surface plasmons in\nmetal nanostructures has gained traction in recent years. This thermalization\nof hot electrons also induces a resistance change to an applied bias current,\nwhich we use to realize an all electronic readout of surface plasmons. The\ninterplay of the plasmonic k-vector dependence and the applied bias current\nallows us to distinguish between linear polarizations of an incident laser beam\nfor polarimetry and polarization imaging uses. This illustrates the potential\napplications this technique offers as a fully CMOS compatible plasmonic sensor.\nMoreover, we demonstrate an electronic signal that depends on the delay between\ntwo laser pulses on ultrafast timescales, providing insight into the highly\nnon-equilibrium dynamics of the hot electron distribution inside the metal.\nUsing an electronic approach to surface plasmons broadens access and simplifies\nexisting applications, while simultaneously opening the door to new pathways\nfor developing integrated sensors for processes on ultrafast timescales.\n",
+  "subjects": [
+    "Physics/Optics",
+    "Physics/Applied Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "Z1vRwpTXmWfh_rN0SyhjcJmvraq_mkzFOxOhVhFaiEk",
+  "pdfSize": "4477965"
+}

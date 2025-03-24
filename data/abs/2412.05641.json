@@ -1,0 +1,39 @@
+{
+  "id": "2412.05641",
+  "title": "Hyperedge Anomaly Detection with Hypergraph Neural Network",
+  "authors": "Md. Tanvir Alam, Chowdhury Farhan Ahmed, Carson K. Leung",
+  "authorsParsed": [
+    [
+      "Alam",
+      "Md. Tanvir",
+      ""
+    ],
+    [
+      "Ahmed",
+      "Chowdhury Farhan",
+      ""
+    ],
+    [
+      "Leung",
+      "Carson K.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 7 Dec 2024 12:52:22 GMT"
+    }
+  ],
+  "updateDate": "2024-12-10",
+  "timestamp": 1733575942000,
+  "abstract": "  Hypergraph is a data structure that enables us to model higher-order\nassociations among data entities. Conventional graph-structured data can\nrepresent pairwise relationships only, whereas hypergraph enables us to\nassociate any number of entities, which is essential in many real-life\napplications. Hypergraph learning algorithms have been well-studied for\nnumerous problem settings, such as node classification, link prediction, etc.\nHowever, much less research has been conducted on anomaly detection from\nhypergraphs. Anomaly detection identifies events that deviate from the usual\npattern and can be applied to hypergraphs to detect unusual higher-order\nassociations. In this work, we propose an end-to-end hypergraph neural\nnetwork-based model for identifying anomalous associations in a hypergraph. Our\nproposed algorithm operates in an unsupervised manner without requiring any\nlabeled data. Extensive experimentation on several real-life datasets\ndemonstrates the effectiveness of our model in detecting anomalous hyperedges.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Social and Information Networks"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "exI-W6rRxmOY6b_E8DLJQYXQIkgJ5BGLu8RUXHBhgZM",
+  "pdfSize": "13855028"
+}

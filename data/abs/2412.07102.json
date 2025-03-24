@@ -1,0 +1,33 @@
+{
+  "id": "2412.07102",
+  "title": "Primary visual cortex contributes to color constancy by predicting\n  rather than discounting the illuminant: evidence from a computational study",
+  "authors": "Shaobing Gao and Yongjie Li",
+  "authorsParsed": [
+    [
+      "Gao",
+      "Shaobing",
+      ""
+    ],
+    [
+      "Li",
+      "Yongjie",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 10 Dec 2024 01:42:49 GMT"
+    }
+  ],
+  "updateDate": "2024-12-11",
+  "timestamp": 1733794969000,
+  "abstract": "  Color constancy (CC) is an important ability of the human visual system to\nstably perceive the colors of objects despite considerable changes in the color\nof the light illuminating them. While increasing evidence from the field of\nneuroscience supports that multiple levels of the visual system contribute to\nthe realization of CC, how the primary visual cortex (V1) plays role in CC is\nnot fully resolved. In specific, double-opponent (DO) neurons in V1 have been\nthought to contribute to realizing a degree of CC, but the computational\nmechanism is not clear. We build an electrophysiologically based V1 neural\nmodel to learn the color of the light source from a natural image dataset with\nthe ground truth illuminants as the labels. Based on the qualitative and\nquantitative analysis of the responsive properties of the learned model\nneurons, we found that both the spatial structures and color weights of the\nreceptive fields of the learned model neurons are quite similar to those of the\nsimple and DO neurons recorded in V1. Computationally, DO cells perform more\nrobustly than the simple cells in V1 for illuminant prediction. Therefore, this\nwork provides computational evidence supporting that V1 DO neurons serve to\nrealize color constancy by encoding the illuminant,which is contradictory to\nthe common hypothesis that V1 contributes to CC by discounting the illuminant\nusing its DO cells. This evidence is expected to not only help resolve the\nvisual mechanisms of CC, but also provide inspiration to develop more effective\ncomputer vision models.\n",
+  "subjects": [
+    "Quantitative Biology/Neurons and Cognition",
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "5wUNYtaQxjvfpDKF_5nNR5gUfg2qX7gLS5g94bohoBs",
+  "pdfSize": "19908145"
+}

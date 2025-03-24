@@ -1,0 +1,48 @@
+{
+  "id": "2412.08176",
+  "title": "TextRefiner: Internal Visual Feature as Efficient Refiner for\n  Vision-Language Models Prompt Tuning",
+  "authors": "Jingjing Xie, Yuxin Zhang, Jun Peng, Zhaohong Huang, Liujuan Cao",
+  "authorsParsed": [
+    [
+      "Xie",
+      "Jingjing",
+      ""
+    ],
+    [
+      "Zhang",
+      "Yuxin",
+      ""
+    ],
+    [
+      "Peng",
+      "Jun",
+      ""
+    ],
+    [
+      "Huang",
+      "Zhaohong",
+      ""
+    ],
+    [
+      "Cao",
+      "Liujuan",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 11 Dec 2024 08:07:12 GMT"
+    }
+  ],
+  "updateDate": "2024-12-12",
+  "timestamp": 1733904432000,
+  "abstract": "  Despite the efficiency of prompt learning in transferring vision-language\nmodels (VLMs) to downstream tasks, existing methods mainly learn the prompts in\na coarse-grained manner where the learned prompt vectors are shared across all\ncategories. Consequently, the tailored prompts often fail to discern\nclass-specific visual concepts, thereby hindering the transferred performance\nfor classes that share similar or complex visual attributes. Recent advances\nmitigate this challenge by leveraging external knowledge from Large Language\nModels (LLMs) to furnish class descriptions, yet incurring notable inference\ncosts. In this paper, we introduce TextRefiner, a plug-and-play method to\nrefine the text prompts of existing methods by leveraging the internal\nknowledge of VLMs. Particularly, TextRefiner builds a novel local cache module\nto encapsulate fine-grained visual concepts derivedfrom local tokens within the\nimage branch. By aggregating and aligning the cached visual descriptions with\nthe original output of the text branch, TextRefiner can efficiently refine and\nenrich the learned prompts from existing methods without relying on any\nexternal expertise. For example, it improves the performance of CoOp from 71.66\n% to 76.94 % on 11 benchmarks, surpassing CoCoOp which introduces instance-wise\nfeatures for text prompts. Equipped with TextRefiner, PromptKD achieves\nstate-of-the-art performance and is efficient in inference. Our code is relesed\nat https://github.com/xjjxmu/TextRefiner\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Multimedia"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "xBrRZIBFQMyu_kjCzyk7r8FO1LYV8cwydW5Q1lkDZJQ",
+  "pdfSize": "986816"
+}

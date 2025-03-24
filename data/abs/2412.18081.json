@@ -1,0 +1,38 @@
+{
+  "id": "2412.18081",
+  "title": "Heterogeneous transfer learning for high dimensional regression with\n  feature mismatch",
+  "authors": "Jae Ho Chang, Massimiliano Russo, Subhadeep Paul",
+  "authorsParsed": [
+    [
+      "Chang",
+      "Jae Ho",
+      ""
+    ],
+    [
+      "Russo",
+      "Massimiliano",
+      ""
+    ],
+    [
+      "Paul",
+      "Subhadeep",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 24 Dec 2024 01:29:31 GMT"
+    }
+  ],
+  "updateDate": "2024-12-25",
+  "timestamp": 1735003771000,
+  "abstract": "  We consider the problem of transferring knowledge from a source, or proxy,\ndomain to a new target domain for learning a high-dimensional regression model\nwith possibly different features. Recently, the statistical properties of\nhomogeneous transfer learning have been investigated. However, most homogeneous\ntransfer and multi-task learning methods assume that the target and proxy\ndomains have the same feature space, limiting their practical applicability. In\napplications, target and proxy feature spaces are frequently inherently\ndifferent, for example, due to the inability to measure some variables in the\ntarget data-poor environments. Conversely, existing heterogeneous transfer\nlearning methods do not provide statistical error guarantees, limiting their\nutility for scientific discovery. We propose a two-stage method that involves\nlearning the relationship between the missing and observed features through a\nprojection step in the proxy data and then solving a joint penalized regression\noptimization problem in the target data. We develop an upper bound on the\nmethod's parameter estimation risk and prediction risk, assuming that the proxy\nand the target domain parameters are sparsely different. Our results elucidate\nhow estimation and prediction error depend on the complexity of the model,\nsample size, the extent of overlap, and correlation between matched and\nmismatched features.\n",
+  "subjects": [
+    "Statistics/Machine Learning",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "1ixudPgmvNo39Dn-UwIN41viflyskAA-qEmnNxSxnus",
+  "pdfSize": "1287271"
+}

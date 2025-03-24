@@ -1,0 +1,37 @@
+{
+  "id": "2412.01139",
+  "title": "Tournaments with a Standard",
+  "authors": "Mikhail Drugov and Dmitry Ryvkin and Jun Zhang",
+  "authorsParsed": [
+    [
+      "Drugov",
+      "Mikhail",
+      ""
+    ],
+    [
+      "Ryvkin",
+      "Dmitry",
+      ""
+    ],
+    [
+      "Zhang",
+      "Jun",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 2 Dec 2024 05:29:54 GMT"
+    }
+  ],
+  "updateDate": "2024-12-03",
+  "timestamp": 1733117394000,
+  "abstract": "  We study tournaments where winning a rank-dependent prize requires passing a\nminimum performance standard. We show that, for any prize allocation, the\noptimal standard is always at a mode of performance that is weakly higher than\nthe global mode and identify a necessary and sufficient condition for it to be\nat the global mode. When the prize scheme can be designed as well, the\nwinner-take-all prize scheme is optimal for noise distributions with an\nincreasing failure rate; and awarding equal prizes to all qualifying agents is\noptimal for noise distributions with a decreasing failure rate. For\ndistributions with monotone likelihood ratios -- log-concave and log-convex,\nrespectively -- these pay schemes are also optimal in a larger class of\nanonymous, monotone contracts that may depend on cardinal performance.\n",
+  "subjects": [
+    "Economics/Theoretical Economics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "rLIBNfXSW5YliG5yaIgCEEM_IlbtisH3o7ndPqnxR50",
+  "pdfSize": "1005180"
+}

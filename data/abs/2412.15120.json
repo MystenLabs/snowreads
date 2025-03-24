@@ -1,0 +1,43 @@
+{
+  "id": "2412.15120",
+  "title": "Modeling and Measurement of Lead Tip Heating in Implanted Wires with\n  Loops",
+  "authors": "Lydia J Bardwell Speltz, Seung-Kyun Lee, Yunhong Shu, Matt A Bernstein",
+  "authorsParsed": [
+    [
+      "Speltz",
+      "Lydia J Bardwell",
+      ""
+    ],
+    [
+      "Lee",
+      "Seung-Kyun",
+      ""
+    ],
+    [
+      "Shu",
+      "Yunhong",
+      ""
+    ],
+    [
+      "Bernstein",
+      "Matt A",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 19 Dec 2024 18:01:08 GMT"
+    }
+  ],
+  "updateDate": "2024-12-20",
+  "timestamp": 1734631268000,
+  "abstract": "  Purpose: To theoretically and experimentally study implant lead tip heating\ncaused by radiofrequency (RF) power deposition in different wire configurations\nthat contain loop(s). Methods: Maximum temperature rise caused by RF heating\nwas measured at 1.5T on 20 insulated, capped wires with various loop and\nstraight segment configurations. The experimental results were compared with\npredictions from the previously reported simple exponential and the adapted\ntransmission line models, as well as with a long-wavelength approximation.\nResults: Both models effectively predicted the trends in lead tip temperature\nrise for all the wire configurations, with the adapted transmission line model\nshowing superior accuracy. For superior/inferior (S/I)-oriented wires,\nincreasing the number of loops decreased the overall heating. However, when\nwires were oriented right/left (R/L) where the x-component of the electric\nfield is negligible, additional loops increased the overall heating.\nConclusion: The simple exponential and the adapted transmission line models\npreviously developed for, and tested on, straight wires require no additional\nterms or further modification to account for RF heating in a variety of loop\nconfigurations. These results extend the usefulness of the models to manage\nimplanted device lead tip heating and provide theoretical insight regarding the\nrole of loops and electrical lengths in managing RF safety of implanted\ndevices.\n",
+  "subjects": [
+    "Physics/Medical Physics",
+    "Condensed Matter/Materials Science"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "t3uL7m65hGIcq_hXNeu5jqTqIXWlgnWFtl5C12emWlo",
+  "pdfSize": "777077"
+}

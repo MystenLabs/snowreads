@@ -1,0 +1,42 @@
+{
+  "id": "2412.05801",
+  "title": "Extending Granular Resistive Force Theory to Cohesive Powder-scale Media",
+  "authors": "Deniz Kerimoglu, Eloise Marteau, Daniel Soto and Daniel I. Goldman",
+  "authorsParsed": [
+    [
+      "Kerimoglu",
+      "Deniz",
+      ""
+    ],
+    [
+      "Marteau",
+      "Eloise",
+      ""
+    ],
+    [
+      "Soto",
+      "Daniel",
+      ""
+    ],
+    [
+      "Goldman",
+      "Daniel I.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 8 Dec 2024 03:44:56 GMT"
+    }
+  ],
+  "updateDate": "2024-12-10",
+  "timestamp": 1733629496000,
+  "abstract": "  Intrusions into granular media are common in natural and engineered settings\n(e.g. during animal locomotion and planetary landings). While intrusion of\ncomplex shapes in dry non-cohesive granular materials is well studied, less is\nknown about intrusion in cohesive powders. Granular resistive force theory\n(RFT) -- a reduced-order frictional fluid model -- quantitatively predicts\nintrusion forces in dry, non-cohesive granular media by assuming a linear\nsuperposition of angularly dependent elemental stresses acting on arbitrarily\nshaped intruders. Here we extend RFT's applicability to cohesive dry powders,\nenabling quantitative modeling of forces on complex shapes during intrusion. To\ndo so, we first conduct intrusion experiments into dry cornstarch powder to\ncreate stress functions. These stresses are similar to non-cohesive media;\nhowever, we observe relatively higher resistance to horizontal intrusions in\ncohesive powder compared to non-cohesive media. We use the model to identify\ngeometries that enhance resistance to intrusion in such materials, aiming to\nminimize sinkage. Our calculations, supported by experimental verification,\nsuggest that a flat surface generates the largest stress across various\nintrusion angles while a curved surface exhibits the largest resistance for\nvertical intrusion. Our model can thus facilitate optimizing design and\nmovement strategies for robotic platforms (e.g. extraterrestrial landers)\noperating in such environments.\n",
+  "subjects": [
+    "Condensed Matter/Soft Condensed Matter"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "W9jgmcpCRfanvQAyuW9O0YcihmovW-2jxKOunPc49AQ",
+  "pdfSize": "9859914"
+}

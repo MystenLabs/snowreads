@@ -1,0 +1,32 @@
+{
+  "id": "2412.11342",
+  "title": "One-Shot Multilingual Font Generation Via ViT",
+  "authors": "Zhiheng Wang, Jiarui Liu",
+  "authorsParsed": [
+    [
+      "Wang",
+      "Zhiheng",
+      ""
+    ],
+    [
+      "Liu",
+      "Jiarui",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 15 Dec 2024 23:52:35 GMT"
+    }
+  ],
+  "updateDate": "2024-12-17",
+  "timestamp": 1734306755000,
+  "abstract": "  Font design poses unique challenges for logographic languages like Chinese,\nJapanese, and Korean (CJK), where thousands of unique characters must be\nindividually crafted. This paper introduces a novel Vision Transformer\n(ViT)-based model for multi-language font generation, effectively addressing\nthe complexities of both logographic and alphabetic scripts. By leveraging ViT\nand pretraining with a strong visual pretext task (Masked Autoencoding, MAE),\nour model eliminates the need for complex design components in prior frameworks\nwhile achieving comprehensive results with enhanced generalizability.\nRemarkably, it can generate high-quality fonts across multiple languages for\nunseen, unknown, and even user-crafted characters. Additionally, we integrate a\nRetrieval-Augmented Guidance (RAG) module to dynamically retrieve and adapt\nstyle references, improving scalability and real-world applicability. We\nevaluated our approach in various font generation tasks, demonstrating its\neffectiveness, adaptability, and scalability.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "SmjQmuux5IZzOAgRTA7LvmUHq_rXqPycIKU4tRj3mAc",
+  "pdfSize": "3530805"
+}

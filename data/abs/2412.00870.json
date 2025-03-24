@@ -1,0 +1,47 @@
+{
+  "id": "2412.00870",
+  "title": "Multi-scale Vehicle Localization In Heterogeneous Mobile Communication\n  Networks",
+  "authors": "Lele Cong, Kaitao Meng, Deshi Li, Hao Jiang, and Liang Xu",
+  "authorsParsed": [
+    [
+      "Cong",
+      "Lele",
+      ""
+    ],
+    [
+      "Meng",
+      "Kaitao",
+      ""
+    ],
+    [
+      "Li",
+      "Deshi",
+      ""
+    ],
+    [
+      "Jiang",
+      "Hao",
+      ""
+    ],
+    [
+      "Xu",
+      "Liang",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 1 Dec 2024 16:17:48 GMT"
+    }
+  ],
+  "updateDate": "2024-12-03",
+  "timestamp": 1733069868000,
+  "abstract": "  Low-latency and high-precision vehicle localization plays a significant role\nin enhancing traffic safety and improving traffic management for intelligent\ntransportation. However, in complex road environments, the low latency and high\nprecision requirements could not always be fulfilled due to the high complexity\nof localization computation. To tackle this issue, we propose a road-aware\nlocalization mechanism in heterogeneous networks (HetNet) of the mobile\ncommunication system, which enables real-time acquisition of vehicular position\ninformation, including the vehicular current road, segment within the road, and\ncoordinates. By employing this multi-scale localization approach, the\ncomputational complexity can be greatly reduced while ensuring accurate\npositioning. Specifically, to reduce positioning search complexity and ensure\npositioning precision, roads are partitioned into low-dimensional segments with\nunequal lengths by the proposed singular point (SP) segmentation method. To\nreduce feature-matching complexity, distinctive salient features (SFs) are\nextracted sparsely representing roads and segments, which can eliminate\nredundant features while maximizing the feature information gain. The\nCram\\'er-Rao Lower Bound (CRLB) of vehicle positioning errors is derived to\nverify the positioning accuracy improvement brought from the segment partition\nand SF extraction. Additionally, through SF matching by integrating the\ninclusion and adjacency position relationships, a multi-scale vehicle\nlocalization (MSVL) algorithm is proposed to identify vehicular road signal\npatterns and determine the real-time segment and coordinates. Simulation\nresults show that the proposed multi-scale localization mechanism can achieve\nlower latency and high precision compared to the benchmark schemes.\n",
+  "subjects": [
+    "Electrical Engineering and Systems Science/Signal Processing"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "6AYkqAgCfgsAPVFpdg5HpkW7RHxPzMf7NVrnYkqh-Yk",
+  "pdfSize": "3225008"
+}

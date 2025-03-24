@@ -1,0 +1,28 @@
+{
+  "id": "2412.10592",
+  "title": "Self-Exciting Random Evolutions (SEREs) and their Applications",
+  "authors": "Anatoliy Swishchuk",
+  "authorsParsed": [
+    [
+      "Swishchuk",
+      "Anatoliy",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 13 Dec 2024 22:27:20 GMT"
+    }
+  ],
+  "updateDate": "2024-12-17",
+  "timestamp": 1734128840000,
+  "abstract": "  This paper is devoted to the study of a new so-called self-exciting random\nevolutions (SEREs) and their applications. We introduce a new random process\n$x(t)$ such that it is based on a superposition of a Markov chain $x_n$ and a\nHawkes process $N(t)$; i.e., $x(t) := x_{N(t)}$. We call this process\nself-walking imbedded semi-Hawkes process (Swish Process or SwishP). Then the\nself-exciting REs (SEREs) can be constructed in similar way as, e.g.,\nsemi-Markov REs, but instead of semi-Markov process $x(t)$ we have SwishP. We\ngive classifications and examples of self-exciting REs (SEREs). Then we\nconsider limit theorems for SEREs such as averaging, diffusion approximation,\nnormal deviations and rates of convergence of SEREs. Applications of SEREs are\ndevoted to the so-called self-exciting traffic/transport process and\nself-exciting summation on a Markov chain, which are examples of continuous and\ndiscrete SERE, respectively. From these processes we can construct many other\nself-exciting processes, e.g., such as impulse traffic/transport process,\nself-exciting risk process, etc. We present averaged, diffusion and normal\ndeviated self-exciting processes. Rates of convergence in these cases are\npresented as well. The originality and novelty of the paper associated with new\nfeatures of REs and their many applications, namely, self-exciting and\nclustering effects.\n",
+  "subjects": [
+    "Mathematics/Probability",
+    "Quantitative Finance/Mathematical Finance"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "Qx-aBMLqNpjUOXu1UCzTiVPffdWq5WRpFVDl_M4hDgg",
+  "pdfSize": "268224"
+}

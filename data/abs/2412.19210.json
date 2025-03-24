@@ -1,0 +1,38 @@
+{
+  "id": "2412.19210",
+  "title": "A fixed-point approach to history-dependent sweeping processes",
+  "authors": "Mat\\'ias Godoy, Manuel Torres-Valdebenito, Emilio Vilches",
+  "authorsParsed": [
+    [
+      "Godoy",
+      "Matías",
+      ""
+    ],
+    [
+      "Torres-Valdebenito",
+      "Manuel",
+      ""
+    ],
+    [
+      "Vilches",
+      "Emilio",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 26 Dec 2024 13:21:03 GMT"
+    }
+  ],
+  "updateDate": "2024-12-30",
+  "timestamp": 1735219263000,
+  "abstract": "  In this paper, we study the well-posedness of state-dependent and\nstate-independent sweeping processes driven by prox-regular sets and perturbed\nby a history-dependent operator. Our approach, based on an enhanced version of\nGronwall's lemma and fixed-point arguments, provides an efficient framework for\nanalyzing sweeping processes. In particular, our findings recover all existing\nresults for the class of Volterra sweeping processes and provide new insights\ninto history-dependent sweeping processes. Finally, we apply our theoretical\nresults to establish the well-posedness of a viscoelastic model with long\nmemory.\n",
+  "subjects": [
+    "Mathematics/Optimization and Control",
+    "Mathematics/Dynamical Systems"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "O-zY9KdR1ErUkneAiI8HTOUzgUeJ0ZpzUoxUMUlsoG0",
+  "pdfSize": "268651"
+}

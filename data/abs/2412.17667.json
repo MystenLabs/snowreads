@@ -1,0 +1,109 @@
+{
+  "id": "2412.17667",
+  "title": "VERSA: A Versatile Evaluation Toolkit for Speech, Audio, and Music",
+  "authors": "Jiatong Shi, Hye-jin Shim, Jinchuan Tian, Siddhant Arora, Haibin Wu,\n  Darius Petermann, Jia Qi Yip, You Zhang, Yuxun Tang, Wangyou Zhang, Dareen\n  Safar Alharthi, Yichen Huang, Koichi Saito, Jionghao Han, Yiwen Zhao, Chris\n  Donahue, Shinji Watanabe",
+  "authorsParsed": [
+    [
+      "Shi",
+      "Jiatong",
+      ""
+    ],
+    [
+      "Shim",
+      "Hye-jin",
+      ""
+    ],
+    [
+      "Tian",
+      "Jinchuan",
+      ""
+    ],
+    [
+      "Arora",
+      "Siddhant",
+      ""
+    ],
+    [
+      "Wu",
+      "Haibin",
+      ""
+    ],
+    [
+      "Petermann",
+      "Darius",
+      ""
+    ],
+    [
+      "Yip",
+      "Jia Qi",
+      ""
+    ],
+    [
+      "Zhang",
+      "You",
+      ""
+    ],
+    [
+      "Tang",
+      "Yuxun",
+      ""
+    ],
+    [
+      "Zhang",
+      "Wangyou",
+      ""
+    ],
+    [
+      "Alharthi",
+      "Dareen Safar",
+      ""
+    ],
+    [
+      "Huang",
+      "Yichen",
+      ""
+    ],
+    [
+      "Saito",
+      "Koichi",
+      ""
+    ],
+    [
+      "Han",
+      "Jionghao",
+      ""
+    ],
+    [
+      "Zhao",
+      "Yiwen",
+      ""
+    ],
+    [
+      "Donahue",
+      "Chris",
+      ""
+    ],
+    [
+      "Watanabe",
+      "Shinji",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 23 Dec 2024 15:53:21 GMT"
+    }
+  ],
+  "updateDate": "2024-12-24",
+  "timestamp": 1734969201000,
+  "abstract": "  In this work, we introduce VERSA, a unified and standardized evaluation\ntoolkit designed for various speech, audio, and music signals. The toolkit\nfeatures a Pythonic interface with flexible configuration and dependency\ncontrol, making it user-friendly and efficient. With full installation, VERSA\noffers 63 metrics with 711 metric variations based on different configurations.\nThese metrics encompass evaluations utilizing diverse external resources,\nincluding matching and non-matching reference audio, text transcriptions, and\ntext captions. As a lightweight yet comprehensive toolkit, VERSA is versatile\nto support the evaluation of a wide range of downstream scenarios. To\ndemonstrate its capabilities, this work highlights example use cases for VERSA,\nincluding audio coding, speech synthesis, speech enhancement, singing\nsynthesis, and music generation. The toolkit is available at\nhttps://github.com/shinjiwlab/versa.\n",
+  "subjects": [
+    "Computer Science/Sound",
+    "Computer Science/Multimedia",
+    "Electrical Engineering and Systems Science/Audio and Speech Processing"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "rCj0jp7dEC2nI1dDUchEM3zyEAOwgXCo9SlT305s8Uc",
+  "pdfSize": "559813"
+}

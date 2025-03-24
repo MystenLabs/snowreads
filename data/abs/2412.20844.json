@@ -1,0 +1,65 @@
+{
+  "id": "2412.20844",
+  "title": "Acquisition-Independent Deep Learning for Quantitative MRI Parameter\n  Estimation using Neural Controlled Differential Equations",
+  "authors": "Daan Kuppens (1 and 2), Sebastiano Barbieri (3 and 4), Daisy van den\n  Berg (1 and 5), Pepijn Schouten (1), Harriet C. Thoeny (6 and 7), Myrte\n  Wennen (1), Oliver J. Gurney-Champion (1 and 2) ((1) Department of Radiology\n  and Nuclear Medicine, Amsterdam University Medical Center, Amsterdam, The\n  Netherlands, (2) Imaging and Biomarkers, Cancer Center Amsterdam, Amsterdam,\n  The Netherlands, (3) Queensland Digital Health Centre, University of\n  Queensland, Brisbane, Australia, (4) Centre for Big Data Research in Health,\n  UNSW Sydney, Sydney, Australia, (5) Department of Biomedical Engineering and\n  Physics, Amsterdam University Medical Center location University of\n  Amsterdam, Amsterdam, The Netherlands, (6) University Teaching and Research\n  Hospital, University of Fribourg, Fribourg, Switzerland, (7) Department of\n  Urology, Inselspital, University of Bern, Switzerland)",
+  "authorsParsed": [
+    [
+      "Kuppens",
+      "Daan",
+      "",
+      "1 and 2"
+    ],
+    [
+      "Barbieri",
+      "Sebastiano",
+      "",
+      "3 and 4"
+    ],
+    [
+      "Berg",
+      "Daisy van den",
+      "",
+      "1 and 5"
+    ],
+    [
+      "Schouten",
+      "Pepijn",
+      "",
+      "6 and 7"
+    ],
+    [
+      "Thoeny",
+      "Harriet C.",
+      "",
+      "6 and 7"
+    ],
+    [
+      "Wennen",
+      "Myrte",
+      "",
+      "1 and 2"
+    ],
+    [
+      "Gurney-Champion",
+      "Oliver J.",
+      "",
+      "1 and 2"
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 30 Dec 2024 10:24:30 GMT"
+    }
+  ],
+  "updateDate": "2024-12-31",
+  "timestamp": 1735554270000,
+  "abstract": "  Deep learning has proven to be a suitable alternative to least-squares (LSQ)\nfitting for parameter estimation in various quantitative MRI (QMRI) models.\nHowever, current deep learning implementations are not robust to changes in MR\nacquisition protocols. In practice, QMRI acquisition protocols differ\nsubstantially between different studies and clinical settings. The lack of\ngeneralizability and adoptability of current deep learning approaches for QMRI\nparameter estimation impedes the implementation of these algorithms in clinical\ntrials and clinical practice. Neural Controlled Differential Equations (NCDEs)\nallow for the sampling of incomplete and irregularly sampled data with variable\nlength, making them ideal for use in QMRI parameter estimation. In this study,\nwe show that NCDEs can function as a generic tool for the accurate prediction\nof QMRI parameters, regardless of QMRI sequence length, configuration of\nindependent variables and QMRI forward model (variable flip angle T1-mapping,\nintravoxel incoherent motion MRI, dynamic contrast-enhanced MRI). NCDEs\nachieved lower mean squared error than LSQ fitting in low-SNR simulations and\nin vivo in challenging anatomical regions like the abdomen and leg, but this\nimprovement was no longer evident at high SNR. NCDEs reduce estimation error\ninterquartile range without increasing bias, particularly under conditions of\nhigh uncertainty. These findings suggest that NCDEs offer a robust approach for\nreliable QMRI parameter estimation, especially in scenarios with high\nuncertainty or low image quality. We believe that with NCDEs, we have solved\none of the main challenges for using deep learning for QMRI parameter\nestimation in a broader clinical and research setting.\n",
+  "subjects": [
+    "Physics/Medical Physics",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "K6XrSFwNcyHyQTNQnpXr86OvpVO6_fy208V6DgNAjDo",
+  "pdfSize": "2442995"
+}

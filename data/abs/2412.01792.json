@@ -1,0 +1,38 @@
+{
+  "id": "2412.01792",
+  "title": "CTRL-D: Controllable Dynamic 3D Scene Editing with Personalized 2D\n  Diffusion",
+  "authors": "Kai He, Chin-Hsuan Wu, Igor Gilitschenski",
+  "authorsParsed": [
+    [
+      "He",
+      "Kai",
+      ""
+    ],
+    [
+      "Wu",
+      "Chin-Hsuan",
+      ""
+    ],
+    [
+      "Gilitschenski",
+      "Igor",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 2 Dec 2024 18:38:51 GMT"
+    }
+  ],
+  "updateDate": "2024-12-03",
+  "timestamp": 1733164731000,
+  "abstract": "  Recent advances in 3D representations, such as Neural Radiance Fields and 3D\nGaussian Splatting, have greatly improved realistic scene modeling and\nnovel-view synthesis. However, achieving controllable and consistent editing in\ndynamic 3D scenes remains a significant challenge. Previous work is largely\nconstrained by its editing backbones, resulting in inconsistent edits and\nlimited controllability. In our work, we introduce a novel framework that first\nfine-tunes the InstructPix2Pix model, followed by a two-stage optimization of\nthe scene based on deformable 3D Gaussians. Our fine-tuning enables the model\nto \"learn\" the editing ability from a single edited reference image,\ntransforming the complex task of dynamic scene editing into a simple 2D image\nediting process. By directly learning editing regions and styles from the\nreference, our approach enables consistent and precise local edits without the\nneed for tracking desired editing regions, effectively addressing key\nchallenges in dynamic scene editing. Then, our two-stage optimization\nprogressively edits the trained dynamic scene, using a designed edited image\nbuffer to accelerate convergence and improve temporal consistency. Compared to\nstate-of-the-art methods, our approach offers more flexible and controllable\nlocal scene editing, achieving high-quality and consistent results.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Graphics"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "wKbJC-Nq9x7aAMpC2V7lpROKwNYSoVV1CqNCXSk7JpM",
+  "pdfSize": "5019661"
+}

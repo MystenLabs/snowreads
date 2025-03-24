@@ -1,0 +1,52 @@
+{
+  "id": "2412.12410",
+  "title": "Level aspect subconvexity for $\\textrm{GL(2)}\\times \\textrm{GL(2)}$\n  $\\textrm{L}$-functions",
+  "authors": "Keshav Aggarwal, Sumit Kumar, Chung-Hang Kwan, Wing Hong Leung,\n  Junxian Li, Matthew P. Young",
+  "authorsParsed": [
+    [
+      "Aggarwal",
+      "Keshav",
+      ""
+    ],
+    [
+      "Kumar",
+      "Sumit",
+      ""
+    ],
+    [
+      "Kwan",
+      "Chung-Hang",
+      ""
+    ],
+    [
+      "Leung",
+      "Wing Hong",
+      ""
+    ],
+    [
+      "Li",
+      "Junxian",
+      ""
+    ],
+    [
+      "Young",
+      "Matthew P.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 16 Dec 2024 23:30:05 GMT"
+    }
+  ],
+  "updateDate": "2024-12-18",
+  "timestamp": 1734391805000,
+  "abstract": "  Let $f$ be a newform of prime level $p$ with any central character $\\chi\\,\n(\\bmod\\, p)$, and let $g$ be a fixed cusp form or Eisenstein series for\n$\\hbox{SL}_{2}(\\mathbb{Z})$. We prove the subconvexity bound: for any\n$\\varepsilon>0$, \\begin{align*} L(1/2, \\, f \\otimes g) \\ll\np^{1/2-1/524+\\varepsilon}, \\end{align*} where the implied constant depends on\n$g$, $\\varepsilon$, and the archimedean parameter of $f$. This improves upon\nthe previously best-known result by Harcos and Michel. Our method ultimately\nrelies on non-trivial bounds for bilinear forms in Kloosterman fractions\npioneered by Duke, Friedlander, and Iwaniec, with later innovations by Bettin\nand Chandee.\n",
+  "subjects": [
+    "Mathematics/Number Theory"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "H_7hcj8weZs4gZUA5mJBPomWA7siGvZciXMlByRjN5w",
+  "pdfSize": "354659"
+}

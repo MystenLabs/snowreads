@@ -1,0 +1,37 @@
+{
+  "id": "2412.02217",
+  "title": "You (Almost) Can't Beat Brute Force for 3-Matroid Intersection",
+  "authors": "Ilan Doron-Arad and Ariel Kulik and Hadas Shachnai",
+  "authorsParsed": [
+    [
+      "Doron-Arad",
+      "Ilan",
+      ""
+    ],
+    [
+      "Kulik",
+      "Ariel",
+      ""
+    ],
+    [
+      "Shachnai",
+      "Hadas",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 3 Dec 2024 07:20:54 GMT"
+    }
+  ],
+  "updateDate": "2024-12-04",
+  "timestamp": 1733210454000,
+  "abstract": "  The $\\ell$-matroid intersection ($\\ell$-MI) problem asks if $\\ell$ given\nmatroids share a common basis. Already for $\\ell = 3$, notable canonical\nNP-complete special cases are $3$-Dimensional Matching and Hamiltonian Path on\ndirected graphs. However, while these problems admit exponential-time\nalgorithms that improve the simple brute force, the fastest known algorithm for\n$3$-MI is exactly brute force with runtime $2^{n}/poly(n)$, where $n$ is the\nnumber of elements. Our first result shows that in fact, brute force cannot be\nsignificantly improved, by ruling out an algorithm for $\\ell$-MI with runtime\n$o\\left(2^{n-5 \\cdot n^{\\frac{1}{\\ell-1}} \\cdot \\log (n)}\\right)$, for any\nfixed $\\ell\\geq 3$.\n  The complexity gap between $3$-MI and the polynomially solvable $2$-matroid\nintersection calls for a better understanding of the complexity of intermediate\nproblems. One such prominent problem is exact matroid intersection (EMI). Given\ntwo matroids whose elements are either red or blue and a number $k$, decide if\nthere is a common basis which contains exactly $k$ red elements. We show that\nEMI does not admit a randomized polynomial time algorithm. This bound implies\nthat the parameterized algorithm of Eisenbrand et al. (FOCS'24) for exact\nweight matroid cannot be generalized to matroid intersection.\n  We further obtain: (i) an algorithm that solves $\\ell$-MI faster than brute\nforce in time $2^{n-\\Omega\\left(\\log^2 (n)\\right)} $ (ii) a parameterized\nrunning time lower bound of $2^{(\\ell-2) \\cdot k \\cdot \\log k} \\cdot poly(n)$\nfor $\\ell$-MI, where the parameter $k$ is the rank of the matroids. We obtain\nthese two results by generalizing the Monotone Local Search technique of Fomin\net al. (J. ACM'19). Broadly speaking, our generalization converts any\nparameterized algorithm for a subset problem into an exponential-time algorithm\nwhich is faster than brute-force.\n",
+  "subjects": [
+    "Computer Science/Data Structures and Algorithms"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "syW6UwcQgGgMKcAe3_YgI58y27SWx_jiwc7lcsiQG6U",
+  "pdfSize": "726071"
+}

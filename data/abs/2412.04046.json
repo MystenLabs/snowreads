@@ -1,0 +1,42 @@
+{
+  "id": "2412.04046",
+  "title": "Hostility Detection in UK Politics: A Dataset on Online Abuse Targeting\n  MPs",
+  "authors": "Mugdha Pandya, Mali Jin, Kalina Bontcheva, Diana Maynard",
+  "authorsParsed": [
+    [
+      "Pandya",
+      "Mugdha",
+      ""
+    ],
+    [
+      "Jin",
+      "Mali",
+      ""
+    ],
+    [
+      "Bontcheva",
+      "Kalina",
+      ""
+    ],
+    [
+      "Maynard",
+      "Diana",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 5 Dec 2024 10:37:38 GMT"
+    }
+  ],
+  "updateDate": "2024-12-06",
+  "timestamp": 1733395058000,
+  "abstract": "  Numerous politicians use social media platforms, particularly X, to engage\nwith their constituents. This interaction allows constituents to pose questions\nand offer feedback but also exposes politicians to a barrage of hostile\nresponses, especially given the anonymity afforded by social media. They are\ntypically targeted in relation to their governmental role, but the comments\nalso tend to attack their personal identity. This can discredit politicians and\nreduce public trust in the government. It can also incite anger and disrespect,\nleading to offline harm and violence. While numerous models exist for detecting\nhostility in general, they lack the specificity required for political\ncontexts. Furthermore, addressing hostility towards politicians demands\ntailored approaches due to the distinct language and issues inherent to each\ncountry (e.g., Brexit for the UK). To bridge this gap, we construct a dataset\nof 3,320 English tweets spanning a two-year period manually annotated for\nhostility towards UK MPs. Our dataset also captures the targeted identity\ncharacteristics (race, gender, religion, none) in hostile tweets. We perform\nlinguistic and topical analyses to delve into the unique content of the UK\npolitical data. Finally, we evaluate the performance of pre-trained language\nmodels and large language models on binary hostility detection and multi-class\ntargeted identity type classification tasks. Our study offers valuable data and\ninsights for future research on the prevalence and nature of politics-related\nhostility specific to the UK.\n",
+  "subjects": [
+    "Computer Science/Computation and Language"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "LA9JnY_MGMdw3siFkgbgXBGO54oEFL4yeCZEGjWSUo0",
+  "pdfSize": "2062936"
+}

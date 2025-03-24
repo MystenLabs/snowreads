@@ -1,0 +1,79 @@
+{
+  "id": "2412.09291",
+  "title": "Tailored 1D/2D Van der Waals Heterostructures for Unified Analog and\n  Digital Electronics",
+  "authors": "Bipul Karmakar, Bikash Das, Shibnath Mandal, Rahul Paramanik, Sujan\n  Maity, Tanima Kundu, Soumik Das, Mainak Palit, Koushik Dey, Kapildeb Dolui,\n  and Subhadeep Datta",
+  "authorsParsed": [
+    [
+      "Karmakar",
+      "Bipul",
+      ""
+    ],
+    [
+      "Das",
+      "Bikash",
+      ""
+    ],
+    [
+      "Mandal",
+      "Shibnath",
+      ""
+    ],
+    [
+      "Paramanik",
+      "Rahul",
+      ""
+    ],
+    [
+      "Maity",
+      "Sujan",
+      ""
+    ],
+    [
+      "Kundu",
+      "Tanima",
+      ""
+    ],
+    [
+      "Das",
+      "Soumik",
+      ""
+    ],
+    [
+      "Palit",
+      "Mainak",
+      ""
+    ],
+    [
+      "Dey",
+      "Koushik",
+      ""
+    ],
+    [
+      "Dolui",
+      "Kapildeb",
+      ""
+    ],
+    [
+      "Datta",
+      "Subhadeep",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 12 Dec 2024 14:04:22 GMT"
+    }
+  ],
+  "updateDate": "2024-12-13",
+  "timestamp": 1734012262000,
+  "abstract": "  We report a sequential two-step vapor deposition process for growing\nmixed-dimensional van der Waals (vdW) materials, specifically Te nanowires (1D)\nand MoS$_2$ (2D), on a single SiO$_2$ wafer. Our growth technique offers a\nunique potential pathway to create large scale, high-quality, defect-free\ninterfaces. The assembly of samples serves a twofold application: first, the\nas-prepared heterostructures (Te NW/MoS$_2$) provide insights into the\natomically thin depletion region of a 1D/2D vdW diode, as revealed by\nelectrical transport measurements and density functional theory-based quantum\ntransport calculations. The charge transfer at the heterointerface is confirmed\nusing Raman spectroscopy and Kelvin probe force microscopy (KPFM). We also\nobserve modulation of the rectification ratio with varying applied gate\nvoltage. Second, the non-hybrid regions on the substrate, consisting of the\nas-grown individual Te nanowires and MoS$_2$ microstructures, are utilized to\nfabricate separate p- and n-FETs, respectively. Furthermore, the ionic liquid\ngating helps to realize low-power CMOS inverter and all basic logic gate\noperations using a pair of n- and p- field-effect transistors (FETs) on\nSi/SiO$_2$ platform. This approach also demonstrates the potential for unifying\ndiode and CMOS circuits on a single platform, opening opportunities for\nintegrated analog and digital electronics.\n",
+  "subjects": [
+    "Condensed Matter/Mesoscale and Nanoscale Physics",
+    "Condensed Matter/Materials Science",
+    "Physics/Applied Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "Pw9IO5TMzcC1a2OZSssHMtTENsC5bpdAnjlyHrY24wE",
+  "pdfSize": "24977753"
+}

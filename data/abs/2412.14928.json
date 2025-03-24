@@ -1,0 +1,37 @@
+{
+  "id": "2412.14928",
+  "title": "Elastic waves in bearing raceways: the forward and inverse problem",
+  "authors": "Jessica J. Kent, Matheus de C. Loures, Art L. Gower",
+  "authorsParsed": [
+    [
+      "Kent",
+      "Jessica J.",
+      ""
+    ],
+    [
+      "Loures",
+      "Matheus de C.",
+      ""
+    ],
+    [
+      "Gower",
+      "Art L.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 19 Dec 2024 15:06:10 GMT"
+    }
+  ],
+  "updateDate": "2024-12-20",
+  "timestamp": 1734620770000,
+  "abstract": "  Turbines are crucial to our energy infrastructure, and ensuring their\nbearings function with minimal friction while often supporting heavy loads is\nvital. Vibrations within a bearing can signal the presence of defects,\nfriction, or misalignment. However, current detection methods are neither\nrobust nor easy to automate. We propose a more quantitative approach by\nmodelling the elastic waves within bearing raceways. By approximating the\nraceway as a hollow cylinder, we derive straightforward 4x4 systems for its\nvibrational modes, enabling both forward and inverse problem-solving. We also\ndemonstrate how to significantly reduce the number of required sensors by using\na simple prior: the known number of rollers and their angular speed. We present\nnumerical examples showcasing the full recovery of contact traction between\nbearings and the raceway, as well as the detection of elastic emissions.\n",
+  "subjects": [
+    "Physics/Classical Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "2orzuYPPqQVOJbZKnFrcPgNlWlo9T9lxEYHEDySWM-M",
+  "pdfSize": "3644442"
+}

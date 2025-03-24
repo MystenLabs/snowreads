@@ -1,0 +1,32 @@
+{
+  "id": "2412.19731",
+  "title": "Fully-relativistic evolution of vacuum tensor inhomogeneities during\n  inflation",
+  "authors": "Ericka Florio, E. Paul S. Shellard",
+  "authorsParsed": [
+    [
+      "Florio",
+      "Ericka",
+      ""
+    ],
+    [
+      "Shellard",
+      "E. Paul S.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 27 Dec 2024 16:42:59 GMT"
+    }
+  ],
+  "updateDate": "2024-12-30",
+  "timestamp": 1735317779000,
+  "abstract": "  We present a complete method for the initialisation and extraction of\nfirst-order inflationary tensor perturbations for fully relativistic\nsimulations which incorporate gravitational back-reaction. We outline a\ncorrespondence between the Cosmological Perturbation Theory (CPT) framework and\nthe numerical relativity BSSN variables in the appropriate limit. We describe a\ngeneration method for stochastic tensoral initial conditions, inspired by the\nstandard scalar initial condition used from inflation and implemented in\nlattice cosmology. We discuss the implementation of this procedure in the\nGRChombo/GRTeclyn code, and demonstrate the detailed quantitative\ncorrespondence between the linearised and fully-nonlinear solutions in the\nperturbative limit, through the evolution of the background and the tensor\npower spectrum. We also validate the methodology by showing that energy and\nmomentum constraints are introduced and preserved to second-order or better. We\nprovide some preliminary indicative results probing tensoral non-Gaussianity\nusing the skewness and kurtosis. The computational pipeline presented here will\nbe used to study the emergence of a primordial tensor bispectra and\ncross-spectra that incorporate the effect of nonlinear gravitational couplings\nwith the metric, which has potential applications for the analysis of\nnext-generation CMB surveys.\n",
+  "subjects": [
+    "Physics/General Relativity and Quantum Cosmology"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "LTSNirAIxQg3WRtvwMl7Dccd9Iny612Vnm6gLda7Hns",
+  "pdfSize": "6137822"
+}

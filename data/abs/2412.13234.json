@@ -1,0 +1,41 @@
+{
+  "id": "2412.13234",
+  "title": "Modeling therapy sequence for advanced cancer: A microsimulation\n  approach leveraging Electronic Health Record data",
+  "authors": "Elizabeth A. Handorf, J. Robert Beck, Daniel M. Geynisman",
+  "authorsParsed": [
+    [
+      "Handorf",
+      "Elizabeth A.",
+      ""
+    ],
+    [
+      "Beck",
+      "J. Robert",
+      ""
+    ],
+    [
+      "Geynisman",
+      "Daniel M.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 17 Dec 2024 16:10:17 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Thu, 19 Dec 2024 17:53:18 GMT"
+    }
+  ],
+  "updateDate": "2024-12-20",
+  "timestamp": 1734451817000,
+  "abstract": "  Many patients with advanced cancers undergo multiple lines of treatment. We\ndevelop methods for estimating quality-adjusted outcomes and cost-effectiveness\nof therapy sequences, informed by patient-level longitudinal data from\nElectronic Health Records (EHRs). We develop microsimulation models with a\ndiscrete-time health-state transition framework and propose two methods: one\nusing multi-state models to estimate transition probabilities, and one using\nobserved patient trajectories through the health states. We use bootstrap\nresampling to estimate standard errors. We create synthetic EHR-like datasets\nto evaluate these methods where within-patient transition times depend on\ncovariates and a copula generator, and compare with Markov cohort models. We\ndemonstrate these methods in two treatment sequences for advanced bladder\ncancer (cisplatin or carboplatin-based therapy followed by immunotherapy),\nincorporating external information on costs, utilities, and expected adverse\nevent. Both methods produced well-calibrated overall survivals, although the\ntrajectory approach was often superior. The multi-state model approach\ngenerated lower standard errors but was biased when compared to known results\nfrom the synthetic datasets. The observed trajectory approach mostly produced\nconfidence intervals that covered known values. In the bladder cancer example,\nboth methods result in a Net Monetary Benefit (NMB)>0 for the cisplatin-based\ntreatment sequence with a willingness to pay of $100,000 per quality-adjusted\nlife year. Both microsimulation methods produce well-calibrated results and\noffer superior performance to a homogeneous Markov cohort approach when\nstudying therapy sequence. Where available, patient level EHR-based data should\nbe considered to inform cost-effectiveness models.\n",
+  "subjects": [
+    "Quantitative Biology/Quantitative Methods"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "CuIzvHN7tzzuzNnp2HIdE1_pPueTIBTomabd-1LZFOU",
+  "pdfSize": "607806"
+}

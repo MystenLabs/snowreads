@@ -1,0 +1,37 @@
+{
+  "id": "2412.17972",
+  "title": "A statistical mechanics derivation and implementation of\n  non-conservative phase field models for front propagation in elastic media",
+  "authors": "Travis Leadbetter, Prashant K. Purohit, Celia Reina",
+  "authorsParsed": [
+    [
+      "Leadbetter",
+      "Travis",
+      ""
+    ],
+    [
+      "Purohit",
+      "Prashant K.",
+      ""
+    ],
+    [
+      "Reina",
+      "Celia",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 23 Dec 2024 20:39:06 GMT"
+    }
+  ],
+  "updateDate": "2024-12-25",
+  "timestamp": 1734986346000,
+  "abstract": "  Over the past several decades, phase field modeling has been established as a\nstandard simulation technique for mesoscopic science, allowing for seamless\nboundary tracking of moving interfaces and relatively easy coupling to other\nphysical phenomena. However, despite its widespread success, phase field\nmodeling remains largely driven by phenomenological justifications except in a\nhandful of instances. In this work, we leverage a recently developed\nstatistical mechanics framework for non-equilibrium phenomena, called\nStochastic Thermodynamics with Internal Variables (STIV), to provide the first\nderivation of a phase field model for front propagation in a one dimensional\nelastic medium without appeal to phenomenology or fitting to experiments or\nsimulation data. In the resulting model, the variables obey a gradient flow\nwith respect to a non-equilibrium free energy, although notably, the dynamics\nof the strain and phase variables are coupled, and while the free energy\nfunctional is non-local in the phase field variable, it deviates from the\ntraditional Landau-Ginzburg form. Moreover, in the systems analyzed here, the\nmodel accurately captures stress induced nucleation of transition fronts\nwithout the need to incorporate additional physics. We find that the STIV phase\nfield model compares favorably to Langevin simulations of the microscopic\nsystem and we provide two numerical implementations enabling one to simulate\narbitrary interatomic potentials.\n",
+  "subjects": [
+    "Condensed Matter/Statistical Mechanics"
+  ],
+  "license": "http://creativecommons.org/licenses/by-sa/4.0/",
+  "blobId": "cRcveEfJ9_XG2ljxHOdZmR863KQKZ8_jafDRh92gdDk",
+  "pdfSize": "959332"
+}

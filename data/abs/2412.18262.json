@@ -1,0 +1,32 @@
+{
+  "id": "2412.18262",
+  "title": "Efficient Contrastive Explanations on Demand",
+  "authors": "Yacine Izza and Joao Marques-Silva",
+  "authorsParsed": [
+    [
+      "Izza",
+      "Yacine",
+      ""
+    ],
+    [
+      "Marques-Silva",
+      "Joao",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 24 Dec 2024 08:24:10 GMT"
+    }
+  ],
+  "updateDate": "2024-12-25",
+  "timestamp": 1735028650000,
+  "abstract": "  Recent work revealed a tight connection between adversarial robustness and\nrestricted forms of symbolic explanations, namely distance-based (formal)\nexplanations. This connection is significant because it represents a first step\ntowards making the computation of symbolic explanations as efficient as\ndeciding the existence of adversarial examples, especially for highly complex\nmachine learning (ML) models. However, a major performance bottleneck remains,\nbecause of the very large number of features that ML models may possess, in\nparticular for deep neural networks. This paper proposes novel algorithms to\ncompute the so-called contrastive explanations for ML models with a large\nnumber of features, by leveraging on adversarial robustness. Furthermore, the\npaper also proposes novel algorithms for listing explanations and finding\nsmallest contrastive explanations. The experimental results demonstrate the\nperformance gains achieved by the novel algorithms proposed in this paper.\n",
+  "subjects": [
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by-sa/4.0/",
+  "blobId": "05X6hGmGvWWe9JeMhv1yNnNJmyYg_WDUGq6oHk3d60M",
+  "pdfSize": "484520"
+}

@@ -1,0 +1,43 @@
+{
+  "id": "2412.14657",
+  "title": "Directivity-Aware Degrees of Freedom Analysis for Extremely Large-Scale\n  MIMO",
+  "authors": "Shaohua Yue, Liang Liu, Boya Di",
+  "authorsParsed": [
+    [
+      "Yue",
+      "Shaohua",
+      ""
+    ],
+    [
+      "Liu",
+      "Liang",
+      ""
+    ],
+    [
+      "Di",
+      "Boya",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 19 Dec 2024 09:08:07 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Tue, 24 Dec 2024 13:05:49 GMT"
+    }
+  ],
+  "updateDate": "2024-12-25",
+  "timestamp": 1734599287000,
+  "abstract": "  Extremely large-scale multiple-input multiple-output (XL-MIMO)\ncommunications, enabled by numerous antenna elements integrated into large\nantenna surfaces, can provide increased effective degree of freedom (EDoF) to\nachieve high diversity gain. However, it remains an open problem that how the\nEDoF is influenced by the directional radiation pattern of antenna elements. In\nthis work, empowered by the wavenumber-domain channel representation, we\nanalyze the EDoF in a general case where the directivity of antennas,\ndetermined by the antenna structure and element spacing, is considered.\nSpecifically, we first reveal the uneven distribution of directivity-aware\nwavenumber-domain coupling coefficients, i.e., channel gain towards different\ndirections, in the isotropic Rayleigh fading channel. EDoF is then calculated\nbased on such distribution of coupling coefficients. A numerical method is also\nprovided to obtain coupling coefficients via electromagnetic full-wave\nsimulations. Due to the influence of antenna directivity, how EDoF and ergodic\nchannel capacity vary with the element spacing are explored via simulations for\ndifferent antenna types.\n",
+  "subjects": [
+    "Computer Science/Information Theory",
+    "Electrical Engineering and Systems Science/Signal Processing",
+    "Mathematics/Information Theory"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "T_c2wM7tWWOpds2Frw6NC38hz72dhrrPMwsxKcvh9wo",
+  "pdfSize": "2423081"
+}

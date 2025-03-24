@@ -1,0 +1,48 @@
+{
+  "id": "2412.12700",
+  "title": "ParMod: A Parallel and Modular Framework for Learning Non-Markovian\n  Tasks",
+  "authors": "Ruixuan Miao, Xu Lu, Cong Tian, Bin Yu and Zhenhua Duan",
+  "authorsParsed": [
+    [
+      "Miao",
+      "Ruixuan",
+      ""
+    ],
+    [
+      "Lu",
+      "Xu",
+      ""
+    ],
+    [
+      "Tian",
+      "Cong",
+      ""
+    ],
+    [
+      "Yu",
+      "Bin",
+      ""
+    ],
+    [
+      "Duan",
+      "Zhenhua",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 17 Dec 2024 09:16:53 GMT"
+    }
+  ],
+  "updateDate": "2024-12-18",
+  "timestamp": 1734427013000,
+  "abstract": "  The commonly used Reinforcement Learning (RL) model, MDPs (Markov Decision\nProcesses), has a basic premise that rewards depend on the current state and\naction only. However, many real-world tasks are non-Markovian, which has\nlong-term memory and dependency. The reward sparseness problem is further\namplified in non-Markovian scenarios. Hence learning a non-Markovian task (NMT)\nis inherently more difficult than learning a Markovian one. In this paper, we\npropose a novel \\textbf{Par}allel and \\textbf{Mod}ular RL framework, ParMod,\nspecifically for learning NMTs specified by temporal logic. With the aid of\nformal techniques, the NMT is modulaized into a series of sub-tasks based on\nthe automaton structure (equivalent to its temporal logic counterpart). On this\nbasis, sub-tasks will be trained by a group of agents in a parallel fashion,\nwith one agent handling one sub-task. Besides parallel training, the core of\nParMod lies in: a flexible classification method for modularizing the NMT, and\nan effective reward shaping method for improving the sample efficiency. A\ncomprehensive evaluation is conducted on several challenging benchmark problems\nwith respect to various metrics. The experimental results show that ParMod\nachieves superior performance over other relevant studies. Our work thus\nprovides a good synergy among RL, NMT and temporal logic.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "axJox1gvNXE_3tPybSw4KevmTZZLNQZTXbHcZR2_988",
+  "pdfSize": "10977412"
+}

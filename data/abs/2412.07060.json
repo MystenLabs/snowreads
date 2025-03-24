@@ -1,0 +1,42 @@
+{
+  "id": "2412.07060",
+  "title": "Time-Varying Directional State Transition Tensor for Orbit Uncertainty\n  Propagation",
+  "authors": "Xingyu Zhou and Roberto Armellin and Dong Qiao and Xiangyu Li",
+  "authorsParsed": [
+    [
+      "Zhou",
+      "Xingyu",
+      ""
+    ],
+    [
+      "Armellin",
+      "Roberto",
+      ""
+    ],
+    [
+      "Qiao",
+      "Dong",
+      ""
+    ],
+    [
+      "Li",
+      "Xiangyu",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 10 Dec 2024 00:04:41 GMT"
+    }
+  ],
+  "updateDate": "2024-12-11",
+  "timestamp": 1733789081000,
+  "abstract": "  The directional state transition tensor (DSTT) reduces the complexity of\nstate transition tensor (STT) by aligning the STT terms in sensitive directions\nonly, which provides comparable accuracy in orbital uncertainty propagation.\nThe DSTT assumes the sensitive directions to be constant during the integration\nand only works at a predefined epoch. This paper proposes a time-varying STT\n(TDSTT) to improve the DSTT. The proposed TDSTT computes the sensitive\ndirections with time; thereby, it can perform uncertainty propagation analysis\nat any point instead of only a predefined epoch as the DSTT does. First, the\nderivatives of the sensitive directions are derived. Then, the differential\nequations for the high-order TDSTTs are derived and simplified using the\northogonality of sensitive directions. Next, complexity analysis is implemented\nto show the advantages of the proposed TDSTT over the STT. Finally, the TDSTT\nis applied to solve orbital uncertainty propagation problems in highly\nnonlinear three-body systems. Numerical results show that the proposed TDSTT\ncan yield nearly the same level of accuracy as the STT and DSTT. It is\napproximately 94% faster than the STT and has hundreds of improvements in speed\nover the DSTT when one wants to investigate the evolutions of orbital\nuncertainties.\n",
+  "subjects": [
+    "Astrophysics/Instrumentation and Methods for Astrophysics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "EQv8qFJJuXygCtleqDa-c70507m4RqoZVJEITIY4yG0",
+  "pdfSize": "1120189"
+}

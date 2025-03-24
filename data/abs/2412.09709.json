@@ -1,0 +1,38 @@
+{
+  "id": "2412.09709",
+  "title": "DiP: A Scalable, Energy-Efficient Systolic Array for Matrix\n  Multiplication Acceleration",
+  "authors": "Ahmed J. Abdelmaksoud, Shady Agwa, Themis Prodromakis",
+  "authorsParsed": [
+    [
+      "Abdelmaksoud",
+      "Ahmed J.",
+      ""
+    ],
+    [
+      "Agwa",
+      "Shady",
+      ""
+    ],
+    [
+      "Prodromakis",
+      "Themis",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 12 Dec 2024 20:06:45 GMT"
+    }
+  ],
+  "updateDate": "2024-12-16",
+  "timestamp": 1734034005000,
+  "abstract": "  Transformers are gaining increasing attention across different application\ndomains due to their outstanding accuracy. However, these data-intensive models\nadd significant performance demands to the existing computing architectures.\nSystolic arrays are spatial architectures that have been adopted by commercial\nAI computing platforms (like Google TPUs), due to their energy-efficient\napproach of data-reusability. However, these spatial architectures face a\npenalty in throughput and energy efficiency due to the need for input and\noutput synchronization using First-In-First-Out (FIFO) buffers. This paper\nproposes a novel scalable systolic-array architecture featuring Diagonal-Input\nand Permutated weight-stationary (DiP) dataflow for the acceleration of matrix\nmultiplication. The proposed architecture eliminates the synchronization FIFOs\nrequired by state-of-the-art weight stationary systolic arrays. Aside from the\narea, power, and energy savings achieved by eliminating these FIFOs, DiP\narchitecture maximizes the computational resources (PEs) utilization. Thus, it\noutperforms the weight-stationary counterparts in terms of throughput by up to\n50%. A comprehensive hardware design space exploration is demonstrated using\ncommercial 22nm technology, highlighting the scalability advantages of DiP over\nthe conventional approach across various dimensions where DiP offers\nimprovement of energy efficiency per area up to 2.02x. Furthermore, DiP is\nevaluated using various transformer workloads from widely-used models,\nconsistently outperforming TPU-like architectures, achieving energy\nimprovements of up to 1.81x and latency improvements of up to 1.49x across a\nrange of transformer workloads. At a 64x64 size with 4096 PEs, DiP achieves a\npeak performance of 8.2 TOPS with energy efficiency 9.55 TOPS/W.\n",
+  "subjects": [
+    "Computer Science/Hardware Architecture",
+    "Computer Science/Distributed, Parallel, and Cluster Computing"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "vAYucsXKn-usKSJlhtObsXMw6-O0dAIWnUn7XQHRN_o",
+  "pdfSize": "22804732"
+}

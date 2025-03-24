@@ -1,0 +1,52 @@
+{
+  "id": "2412.14730",
+  "title": "Generative AI for Banks: Benchmarks and Algorithms for Synthetic\n  Financial Transaction Data",
+  "authors": "Fabian Sven Karst, Sook-Yee Chong, Abigail A. Antenor, Enyu Lin, Mahei\n  Manhai Li and Jan Marco Leimeister",
+  "authorsParsed": [
+    [
+      "Karst",
+      "Fabian Sven",
+      ""
+    ],
+    [
+      "Chong",
+      "Sook-Yee",
+      ""
+    ],
+    [
+      "Antenor",
+      "Abigail A.",
+      ""
+    ],
+    [
+      "Lin",
+      "Enyu",
+      ""
+    ],
+    [
+      "Li",
+      "Mahei Manhai",
+      ""
+    ],
+    [
+      "Leimeister",
+      "Jan Marco",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 19 Dec 2024 10:56:18 GMT"
+    }
+  ],
+  "updateDate": "2024-12-20",
+  "timestamp": 1734605778000,
+  "abstract": "  The banking sector faces challenges in using deep learning due to data\nsensitivity and regulatory constraints, but generative AI may offer a solution.\nThus, this study identifies effective algorithms for generating synthetic\nfinancial transaction data and evaluates five leading models - Conditional\nTabular Generative Adversarial Networks (CTGAN), DoppelGANger (DGAN),\nWasserstein GAN, Financial Diffusion (FinDiff), and Tabular Variational\nAutoEncoders (TVAE) - across five criteria: fidelity, synthesis quality,\nefficiency, privacy, and graph structure. While none of the algorithms is able\nto replicate the real data's graph structure, each excels in specific areas:\nDGAN is ideal for privacy-sensitive tasks, FinDiff and TVAE excel in data\nreplication and augmentation, and CTGAN achieves a balance across all five\ncriteria, making it suitable for general applications with moderate privacy\nconcerns. As a result, our findings offer valuable insights for choosing the\nmost suitable algorithm.\n",
+  "subjects": [
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "pamBJ098FDC0d2g5CXLcWZBV9jeXvUwJ2yCG4owp0Wc",
+  "pdfSize": "509727"
+}

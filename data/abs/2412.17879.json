@@ -1,0 +1,42 @@
+{
+  "id": "2412.17879",
+  "title": "Strategy to control biases in prior event rate ratio method, with\n  application to palliative care in patients with advanced cancer",
+  "authors": "Xiangmei Ma, Grace Meijuan Yang, Qingyuan Zhuang, Yin Bun Cheung",
+  "authorsParsed": [
+    [
+      "Ma",
+      "Xiangmei",
+      ""
+    ],
+    [
+      "Yang",
+      "Grace Meijuan",
+      ""
+    ],
+    [
+      "Zhuang",
+      "Qingyuan",
+      ""
+    ],
+    [
+      "Cheung",
+      "Yin Bun",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 23 Dec 2024 04:50:51 GMT"
+    }
+  ],
+  "updateDate": "2024-12-25",
+  "timestamp": 1734929451000,
+  "abstract": "  Objectives: Prior event rate ratio (PERR) is a method shown to perform well\nin mitigating confounding in real-world evidence research but it depends on\nseveral model assumptions. We propose an analytic strategy to correct biases\narising from violation of two model assumptions, namely, population homogeneity\nand event-independent treatment. Study Design and Setting: We reformulate PERR\nestimation by embedding a treatment-by-period interaction term in an analytic\nmodel for recurrent event data, which is robust to bias arising from unobserved\nheterogeneity. Based on this model, we propose a set of methods to examine the\npresence of event-dependent treatment and to correct the resultant bias. We\nevaluate the proposed methods by simulation and apply it to a de-identified\ndataset on palliative care and emergency department visits in patients with\nadvanced cancer. Results: Simulation results showed that the proposed method\ncould mitigate the two sources of bias in PERR. In the palliative care study,\nanalysis by the Cox model showed that patients who had started receiving\npalliative care had higher incidence of emergency department visits than their\nmatch controls (hazard ratio 3.31; 95% confidence interval 2.78 to 3.94). Using\nPERR without the proposed bias control strategy indicated a 19% reduction of\nthe incidence (0.81; 0.64 to 1.02). However, there was evidence of\nevent-dependent treatment. The proposed correction method showed no effect of\npalliative care on ED visits (1.00; 0.79 to 1.26). Conclusions: The proposed\nanalytic strategy can control two sources of biases in the PERR approach. It\nenriches the armamentarium for real-world evidence research.\n",
+  "subjects": [
+    "Statistics/Applications"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "GOLdKwhQeh2uQNDhzxiuI39h0THFHrX2tRk-zBuaTGg",
+  "pdfSize": "557371"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "2412.02093",
+  "title": "Twist Coefficients of Periodic Orbits of Minkowski Billiards",
+  "authors": "Carlos Villanueva and Pengfei Zhang",
+  "authorsParsed": [
+    [
+      "Villanueva",
+      "Carlos",
+      ""
+    ],
+    [
+      "Zhang",
+      "Pengfei",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 3 Dec 2024 02:25:53 GMT"
+    }
+  ],
+  "updateDate": "2024-12-04",
+  "timestamp": 1733192753000,
+  "abstract": "  We investigate the fundamental properties of Minkowski billiards and\nintroduce a new coordinate system $(s,u)$ on the phase space $\\mathcal{M}$. In\nthis coordinate system, the Minkowski billiard map $\\mathcal{T}$ preserves the\nstandard area form $\\omega = ds \\wedge du$. We then classify the periodic\norbits of Minkowski billiards with period $2$ and derive formulas for the twist\ncoefficient $\\tau_1$ for elliptic periodic orbits, expressed in terms of the\ngeometric characteristics of the billiard table. Additionally, we analyze the\nstability properties of these elliptic periodic orbits.\n",
+  "subjects": [
+    "Mathematics/Dynamical Systems"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "C7MGtwAuqWzL4VANz3pw9mwphkHTMu88fy1M-KqwxN8",
+  "pdfSize": "1138826"
+}

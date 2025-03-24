@@ -1,0 +1,42 @@
+{
+  "id": "2412.02275",
+  "title": "PCIM: Learning Pixel Attributions via Pixel-wise Channel Isolation\n  Mixing in High Content Imaging",
+  "authors": "Daniel Siegismund, Mario Wieser, Stephan Heyse, Stephan Steigele",
+  "authorsParsed": [
+    [
+      "Siegismund",
+      "Daniel",
+      ""
+    ],
+    [
+      "Wieser",
+      "Mario",
+      ""
+    ],
+    [
+      "Heyse",
+      "Stephan",
+      ""
+    ],
+    [
+      "Steigele",
+      "Stephan",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 3 Dec 2024 08:48:30 GMT"
+    }
+  ],
+  "updateDate": "2024-12-04",
+  "timestamp": 1733215710000,
+  "abstract": "  Deep Neural Networks (DNNs) have shown remarkable success in various computer\nvision tasks. However, their black-box nature often leads to difficulty in\ninterpreting their decisions, creating an unfilled need for methods to explain\nthe decisions, and ultimately forming a barrier to their wide acceptance\nespecially in biomedical applications. This work introduces a novel method,\nPixel-wise Channel Isolation Mixing (PCIM), to calculate pixel attribution\nmaps, highlighting the image parts most crucial for a classification decision\nbut without the need to extract internal network states or gradients. Unlike\nexisting methods, PCIM treats each pixel as a distinct input channel and trains\na blending layer to mix these pixels, reflecting specific classifications. This\nunique approach allows the generation of pixel attribution maps for each image,\nbut agnostic to the choice of the underlying classification network. Benchmark\ntesting on three application relevant, diverse high content Imaging datasets\nshow state-of-the-art performance, particularly for model fidelity and\nlocalization ability in both, fluorescence and bright field High Content\nImaging. PCIM contributes as a unique and effective method for creating\npixel-level attribution maps from arbitrary DNNs, enabling interpretability and\ntrust.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "EIme8s8At_XOHnlOgavpP5R1eqaQYoK8UQeXLppqBiw",
+  "pdfSize": "981038"
+}

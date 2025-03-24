@@ -1,0 +1,82 @@
+{
+  "id": "2412.01699",
+  "title": "Uncovering the Effects of Array Mutual Coupling in 21-cm Experiments\n  with the SKA-Low Radio Telescope",
+  "authors": "Oscar S.D. O'Hara, Quentin Gueuning, Eloy de Lera Acedo, Fred Dulwich,\n  John Cumner, Dominic Anstey, Anthony Brown, Anastasia Fialkov, Jiten Dhandha,\n  Andrew Faulkner, Yuchen Liu",
+  "authorsParsed": [
+    [
+      "O'Hara",
+      "Oscar S. D.",
+      ""
+    ],
+    [
+      "Gueuning",
+      "Quentin",
+      ""
+    ],
+    [
+      "Acedo",
+      "Eloy de Lera",
+      ""
+    ],
+    [
+      "Dulwich",
+      "Fred",
+      ""
+    ],
+    [
+      "Cumner",
+      "John",
+      ""
+    ],
+    [
+      "Anstey",
+      "Dominic",
+      ""
+    ],
+    [
+      "Brown",
+      "Anthony",
+      ""
+    ],
+    [
+      "Fialkov",
+      "Anastasia",
+      ""
+    ],
+    [
+      "Dhandha",
+      "Jiten",
+      ""
+    ],
+    [
+      "Faulkner",
+      "Andrew",
+      ""
+    ],
+    [
+      "Liu",
+      "Yuchen",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 2 Dec 2024 16:47:34 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Mon, 20 Jan 2025 13:32:45 GMT"
+    }
+  ],
+  "updateDate": "2025-01-22",
+  "timestamp": 1733158054000,
+  "abstract": "  We investigate the impact of Mutual Coupling (MC) between antennas on the\ntime-delay power spectrum response of the core of the SKA-Low radio telescope.\nUsing two in-house tools - Fast Array Simulation Tool (FAST) (a fast full-wave\nelectromagnetic solver) and OSKAR (a GPU-accelerated radio telescope simulator)\n- we simulate station beams and compute visibilities for various array layouts\n(regular, sunflower, and random). Simulations are conducted in an Epoch of\nReionisation subband between 120-150~MHz, with a fine frequency resolution of\n100~kHz, enabling the investigation of longer delays. Our results show that MC\neffects significantly increase foreground leakage into longer delays,\nespecially for regular station layouts. For 21-cm science, foreground\nspill-over into the 21-cm window extends beyond $k_{\\parallel} \\sim\n2$~h$^{-1}$Mpc for all station layouts and across all $k_{\\perp}$ modes,\ncompletely obscuring the detection window. We find that attempting to remove\nthe foreground contribution from the visibilities using an approximated beam\nmodel, based on the average embedded element pattern or interpolating the\nembedded element patterns from a coarse channel rate of 781~kHz, results in\nresiduals around 1% ($\\sim 10^{11}~\\mathrm{mK}^2$h$^{-3}\\mathrm{Mpc}^3$) which\nis still around 7 orders of magnitude brighter than the expected level of the\nEoR signal ($\\sim 10^{4}~\\mathrm{mK}^2$h$^{-3}\\mathrm{Mpc}^3$). We also find\nthat station beam models with at least 4-5 significant digits in the far-field\npattern and high spectral resolution are needed for effective foreground\nremoval. Our research provides critical insights into the role of MC in SKA-Low\nexperiments and highlights the computational challenges of fully integrating\narray patterns that account for MC effects into processing pipelines.\n",
+  "subjects": [
+    "Astrophysics/Cosmology and Nongalactic Astrophysics",
+    "Astrophysics/Instrumentation and Methods for Astrophysics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "iV-PRpYmll-2jYAPiPYFo9nlXkOHMuv_A9kStYMgH0Y",
+  "pdfSize": "3526287"
+}

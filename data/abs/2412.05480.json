@@ -1,0 +1,42 @@
+{
+  "id": "2412.05480",
+  "title": "Efficient Storage of Multidimensional Telecom Photons in a Solid-State\n  Quantum Memory",
+  "authors": "Zongfeng Li, Yisheng Lei, Trevor Kling, Mahdi Hosseini",
+  "authorsParsed": [
+    [
+      "Li",
+      "Zongfeng",
+      ""
+    ],
+    [
+      "Lei",
+      "Yisheng",
+      ""
+    ],
+    [
+      "Kling",
+      "Trevor",
+      ""
+    ],
+    [
+      "Hosseini",
+      "Mahdi",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 7 Dec 2024 00:47:26 GMT"
+    }
+  ],
+  "updateDate": "2024-12-10",
+  "timestamp": 1733532446000,
+  "abstract": "  Efficient storage of telecom-band quantum optical information represents a\ncrucial milestone for establishing distributed quantum optical networks. Erbium\nions in crystalline hosts provide a promising platform for telecom quantum\nmemories; however, their practical applications have been hindered by demanding\noperational conditions, such as ultra-high magnetic fields and ultra-low\ntemperatures. In this work, we demonstrate the storage of telecom photonic\nqubits encoded in polarization, frequency, and time-bin bases. Using the atomic\nfrequency comb protocol in an Er$^{3+}$-doped crystal, we developed a memory\ninitialization scheme that improves storage efficiency by over an order of\nmagnitude under practical experimental conditions. Quantum process tomography\nfurther confirms the memory's performance, achieving a fidelity exceeding 92%.\n",
+  "subjects": [
+    "Physics/Quantum Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "l9mWLuSfDqWzYt6LGr12l8OYXZUmTK4ciTnsAfYndvU",
+  "pdfSize": "3154772"
+}

@@ -1,0 +1,61 @@
+{
+  "id": "2412.15646",
+  "title": "CustomTTT: Motion and Appearance Customized Video Generation via\n  Test-Time Training",
+  "authors": "Xiuli Bi, Jian Lu, Bo Liu, Xiaodong Cun, Yong Zhang, Weisheng Li, Bin\n  Xiao",
+  "authorsParsed": [
+    [
+      "Bi",
+      "Xiuli",
+      ""
+    ],
+    [
+      "Lu",
+      "Jian",
+      ""
+    ],
+    [
+      "Liu",
+      "Bo",
+      ""
+    ],
+    [
+      "Cun",
+      "Xiaodong",
+      ""
+    ],
+    [
+      "Zhang",
+      "Yong",
+      ""
+    ],
+    [
+      "Li",
+      "Weisheng",
+      ""
+    ],
+    [
+      "Xiao",
+      "Bin",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 20 Dec 2024 08:05:13 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Mon, 23 Dec 2024 06:52:45 GMT"
+    }
+  ],
+  "updateDate": "2024-12-24",
+  "timestamp": 1734681913000,
+  "abstract": "  Benefiting from large-scale pre-training of text-video pairs, current\ntext-to-video (T2V) diffusion models can generate high-quality videos from the\ntext description. Besides, given some reference images or videos, the\nparameter-efficient fine-tuning method, i.e. LoRA, can generate high-quality\ncustomized concepts, e.g., the specific subject or the motions from a reference\nvideo. However, combining the trained multiple concepts from different\nreferences into a single network shows obvious artifacts. To this end, we\npropose CustomTTT, where we can joint custom the appearance and the motion of\nthe given video easily. In detail, we first analyze the prompt influence in the\ncurrent video diffusion model and find the LoRAs are only needed for the\nspecific layers for appearance and motion customization. Besides, since each\nLoRA is trained individually, we propose a novel test-time training technique\nto update parameters after combination utilizing the trained customized models.\nWe conduct detailed experiments to verify the effectiveness of the proposed\nmethods. Our method outperforms several state-of-the-art works in both\nqualitative and quantitative evaluations.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "4Ig4F007_gWb9VEPffvGrDTkDwAGAMSq41inILIV_iA",
+  "pdfSize": "3697469"
+}

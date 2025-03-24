@@ -1,0 +1,62 @@
+{
+  "id": "2412.07448",
+  "title": "Dynamic Ensemble Reasoning for LLM Experts",
+  "authors": "Jinwu Hu, Yufeng Wang, Shuhai Zhang, Kai Zhou, Guohao Chen, Yu Hu, Bin\n  Xiao, Mingkui Tan",
+  "authorsParsed": [
+    [
+      "Hu",
+      "Jinwu",
+      ""
+    ],
+    [
+      "Wang",
+      "Yufeng",
+      ""
+    ],
+    [
+      "Zhang",
+      "Shuhai",
+      ""
+    ],
+    [
+      "Zhou",
+      "Kai",
+      ""
+    ],
+    [
+      "Chen",
+      "Guohao",
+      ""
+    ],
+    [
+      "Hu",
+      "Yu",
+      ""
+    ],
+    [
+      "Xiao",
+      "Bin",
+      ""
+    ],
+    [
+      "Tan",
+      "Mingkui",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 10 Dec 2024 12:05:56 GMT"
+    }
+  ],
+  "updateDate": "2024-12-11",
+  "timestamp": 1733832356000,
+  "abstract": "  Ensemble reasoning for the strengths of different LLM experts is critical to\nachieving consistent and satisfactory performance on diverse inputs across a\nwide range of tasks. However, existing LLM ensemble methods are either\ncomputationally intensive or incapable of leveraging complementary knowledge\namong LLM experts for various inputs. In this paper, we propose a Dynamic\nEnsemble Reasoning paradigm, called DER to integrate the strengths of multiple\nLLM experts conditioned on dynamic inputs. Specifically, we model the LLM\nensemble reasoning problem as a Markov Decision Process (MDP), wherein an agent\nsequentially takes inputs to request knowledge from an LLM candidate and passes\nthe output to a subsequent LLM candidate. Moreover, we devise a reward function\nto train a DER-Agent to dynamically select an optimal answering route given the\ninput questions, aiming to achieve the highest performance with as few\ncomputational resources as possible. Last, to fully transfer the expert\nknowledge from the prior LLMs, we develop a Knowledge Transfer Prompt (KTP)\nthat enables the subsequent LLM candidates to transfer complementary knowledge\neffectively. Experiments demonstrate that our method uses fewer computational\nresources to achieve better performance compared to state-of-the-art baselines.\n",
+  "subjects": [
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "T-iVk5m5WmoNDV69NpVfRLednTXgyeV3ljvTaKS9z88",
+  "pdfSize": "1171969"
+}

@@ -1,0 +1,47 @@
+{
+  "id": "2412.06481",
+  "title": "DeePC-Hunt: Data-enabled Predictive Control Hyperparameter Tuning via\n  Differentiable Optimization",
+  "authors": "Michael Cummins, Alberto Padoan, Keith Moffat, Florian Dorfler, John\n  Lygeros",
+  "authorsParsed": [
+    [
+      "Cummins",
+      "Michael",
+      ""
+    ],
+    [
+      "Padoan",
+      "Alberto",
+      ""
+    ],
+    [
+      "Moffat",
+      "Keith",
+      ""
+    ],
+    [
+      "Dorfler",
+      "Florian",
+      ""
+    ],
+    [
+      "Lygeros",
+      "John",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 9 Dec 2024 13:30:59 GMT"
+    }
+  ],
+  "updateDate": "2024-12-10",
+  "timestamp": 1733751059000,
+  "abstract": "  This paper introduces Data-enabled Predictive Control Hyperparameter Tuning\nvia Differentiable Optimization (DeePC-Hunt), a backpropagation-based method\nfor automatic hyperparameter tuning of the DeePC algorithm. The necessity for\nsuch a method arises from the importance of hyperparameter selection to achieve\nsatisfactory closed-loop DeePC performance. The standard methods for\nhyperparameter selection are to either optimize the open-loop performance, or\nuse manual guess-and-check. Optimizing the open-loop performance can result in\nunacceptable closed-loop behavior, while manual guess-and-check can pose safety\nchallenges. DeePC-Hunt provides an alternative method for hyperparameter tuning\nwhich uses an approximate model of the system dynamics and backpropagation to\ndirectly optimize hyperparameters for the closed-loop DeePC performance.\nNumerical simulations demonstrate the effectiveness of DeePC in combination\nwith DeePC-Hunt in a complex stabilization task for a nonlinear system and its\nsuperiority over model-based control strategies in terms of robustness to model\nmisspecifications.\n",
+  "subjects": [
+    "Mathematics/Optimization and Control"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "2WooBKvhDnSi4Dw_29w0n0zZLtz87WS5s3TL6WopQHI",
+  "pdfSize": "612062"
+}

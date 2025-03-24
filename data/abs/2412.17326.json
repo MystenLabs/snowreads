@@ -1,0 +1,28 @@
+{
+  "id": "2412.17326",
+  "title": "A New Fast Direct Method For Solving Quasi-Toeplitz System of Equations",
+  "authors": "Shahin Hasanbeigi",
+  "authorsParsed": [
+    [
+      "Hasanbeigi",
+      "Shahin",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 23 Dec 2024 06:35:55 GMT"
+    }
+  ],
+  "updateDate": "2024-12-24",
+  "timestamp": 1734935755000,
+  "abstract": "  The objective of this study is to present a novel, efficient, and fast direct\nmethod for solving linear systems of equations whose coefficient matrix is a\ntridiagonal Quasi-Toeplitz matrix. Such matrices are frequently encountered in\nthe discretization of second-order differential equation problems with Neumann\nboundary conditions, the discretization of Quasi-Birth-and-Death processes\nknown as QBD matrix equations, and other related applications. The presented\nmethod has been demonstrated to produce favorable results in terms of run time\nfor moderately large systems when compared to classical direct methods, such as\nthe LU and PLU methods.\n",
+  "subjects": [
+    "Mathematics/Numerical Analysis",
+    "Computer Science/Numerical Analysis"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "Dyu3fEjgp1F3bx-j1fsLji6neXjkD00eCBWk-haJkRs",
+  "pdfSize": "86593"
+}

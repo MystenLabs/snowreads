@@ -1,0 +1,47 @@
+{
+  "id": "2412.13714",
+  "title": "AnchorInv: Few-Shot Class-Incremental Learning of Physiological Signals\n  via Representation Space Guided Inversion",
+  "authors": "Chenqi Li, Boyan Gao, Gabriel Jones, Timothy Denison, Tingting Zhu",
+  "authorsParsed": [
+    [
+      "Li",
+      "Chenqi",
+      ""
+    ],
+    [
+      "Gao",
+      "Boyan",
+      ""
+    ],
+    [
+      "Jones",
+      "Gabriel",
+      ""
+    ],
+    [
+      "Denison",
+      "Timothy",
+      ""
+    ],
+    [
+      "Zhu",
+      "Tingting",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 18 Dec 2024 10:53:30 GMT"
+    }
+  ],
+  "updateDate": "2024-12-19",
+  "timestamp": 1734519210000,
+  "abstract": "  Deep learning models have demonstrated exceptional performance in a variety\nof real-world applications. These successes are often attributed to strong base\nmodels that can generalize to novel tasks with limited supporting data while\nkeeping prior knowledge intact. However, these impressive results are based on\nthe availability of a large amount of high-quality data, which is often lacking\nin specialized biomedical applications. In such fields, models are usually\ndeveloped with limited data that arrive incrementally with novel categories.\nThis requires the model to adapt to new information while preserving existing\nknowledge. Few-Shot Class-Incremental Learning (FSCIL) methods offer a\npromising approach to addressing these challenges, but they also depend on\nstrong base models that face the same aforementioned limitations. To overcome\nthese constraints, we propose AnchorInv following the straightforward and\nefficient buffer-replay strategy. Instead of selecting and storing raw data,\nAnchorInv generates synthetic samples guided by anchor points in the feature\nspace. This approach protects privacy and regularizes the model for adaptation.\nWhen evaluated on three public physiological time series datasets, AnchorInv\nexhibits efficient knowledge forgetting prevention and improved adaptation to\nnovel classes, surpassing state-of-the-art baselines.\n",
+  "subjects": [
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "76zSPWxJ-bRg9NotjyMOGufHURotvSsNpIEO3gLC5ic",
+  "pdfSize": "12044096"
+}

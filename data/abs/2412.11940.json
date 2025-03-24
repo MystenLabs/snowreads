@@ -1,0 +1,32 @@
+{
+  "id": "2412.11940",
+  "title": "The Impact of Token Granularity on the Predictive Power of Language\n  Model Surprisal",
+  "authors": "Byung-Doh Oh, William Schuler",
+  "authorsParsed": [
+    [
+      "Oh",
+      "Byung-Doh",
+      ""
+    ],
+    [
+      "Schuler",
+      "William",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 16 Dec 2024 16:24:58 GMT"
+    }
+  ],
+  "updateDate": "2024-12-17",
+  "timestamp": 1734366298000,
+  "abstract": "  Word-by-word language model surprisal is often used to model the incremental\nprocessing of human readers, which raises questions about how various choices\nin language modeling influence its predictive power. One factor that has been\noverlooked in cognitive modeling is the granularity of subword tokens, which\nexplicitly encodes information about word length and frequency, and ultimately\ninfluences the quality of vector representations that are learned. This paper\npresents experiments that manipulate the token granularity and evaluate its\nimpact on the ability of surprisal to account for processing difficulty of\nnaturalistic text and garden-path constructions. Experiments with naturalistic\nreading times reveal a substantial influence of token granularity on surprisal,\nwith tokens defined by a vocabulary size of 8,000 resulting in surprisal that\nis most predictive. In contrast, on garden-path constructions, language models\ntrained on coarser-grained tokens generally assigned higher surprisal to\ncritical regions, suggesting their increased sensitivity to syntax. Taken\ntogether, these results suggest a large role of token granularity on the\nquality of language model surprisal for cognitive modeling.\n",
+  "subjects": [
+    "Computer Science/Computation and Language"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "EG4-ohcFpgMB-64RpIfFmPHnfO8wQPhIBBrosrlm0r0",
+  "pdfSize": "903455"
+}

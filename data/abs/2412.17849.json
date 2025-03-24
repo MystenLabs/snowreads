@@ -1,0 +1,47 @@
+{
+  "id": "2412.17849",
+  "title": "Parkinson Disease Detection Based on In-air Dynamics Feature Extraction\n  and Selection Using Machine Learning",
+  "authors": "Jungpil Shin, Abu Saleh Musa Miah, Koki Hirooka, Md. Al Mehedi Hasan,\n  Md. Maniruzzaman",
+  "authorsParsed": [
+    [
+      "Shin",
+      "Jungpil",
+      ""
+    ],
+    [
+      "Miah",
+      "Abu Saleh Musa",
+      ""
+    ],
+    [
+      "Hirooka",
+      "Koki",
+      ""
+    ],
+    [
+      "Hasan",
+      "Md. Al Mehedi",
+      ""
+    ],
+    [
+      "Maniruzzaman",
+      "Md.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 19 Dec 2024 06:42:54 GMT"
+    }
+  ],
+  "updateDate": "2024-12-25",
+  "timestamp": 1734590574000,
+  "abstract": "  Parkinson's disease (PD) is a progressive neurological disorder that impairs\nmovement control, leading to symptoms such as tremors, stiffness, and\nbradykinesia. Many researchers analyzing handwriting data for PD detection\ntypically rely on computing statistical features over the entirety of the\nhandwriting task. While this method can capture broad patterns, it has several\nlimitations, including a lack of focus on dynamic change, oversimplified\nfeature representation, lack of directional information, and missing\nmicro-movements or subtle variations. Consequently, these systems face\nchallenges in achieving good performance accuracy, robustness, and sensitivity.\nTo overcome this problem, we proposed an optimized PD detection methodology\nthat incorporates newly developed dynamic kinematic features and machine\nlearning (ML)-based techniques to capture movement dynamics during handwriting\ntasks. In the procedure, we first extracted 65 newly developed kinematic\nfeatures from the first and last 10% phases of the handwriting task rather than\nusing the entire task. Alongside this, we also reused 23 existing kinematic\nfeatures, resulting in a comprehensive new feature set. Next, we enhanced the\nkinematic features by applying statistical formulas to compute hierarchical\nfeatures from the handwriting data. This approach allows us to capture subtle\nmovement variations that distinguish PD patients from healthy controls. To\nfurther optimize the feature set, we applied the Sequential Forward Floating\nSelection method to select the most relevant features, reducing dimensionality\nand computational complexity. Finally, we employed an ML-based approach based\non ensemble voting across top-performing tasks, achieving an impressive 96.99\\%\naccuracy on task-wise classification and 99.98% accuracy on task ensembles,\nsurpassing the existing state-of-the-art model by 2% for the PaHaW dataset.\n",
+  "subjects": [
+    "Electrical Engineering and Systems Science/Signal Processing"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "P2sVlzxrPxE_f6drABJt2EykmqoqWHbVoVyM3GmAkCc",
+  "pdfSize": "2893756"
+}

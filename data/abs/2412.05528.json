@@ -1,0 +1,47 @@
+{
+  "id": "2412.05528",
+  "title": "AI Planning: A Primer and Survey (Preliminary Report)",
+  "authors": "Dillon Z. Chen, Pulkit Verma, Siddharth Srivastava, Michael Katz,\n  Sylvie Thi\\'ebaux",
+  "authorsParsed": [
+    [
+      "Chen",
+      "Dillon Z.",
+      ""
+    ],
+    [
+      "Verma",
+      "Pulkit",
+      ""
+    ],
+    [
+      "Srivastava",
+      "Siddharth",
+      ""
+    ],
+    [
+      "Katz",
+      "Michael",
+      ""
+    ],
+    [
+      "Thiébaux",
+      "Sylvie",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 7 Dec 2024 04:00:25 GMT"
+    }
+  ],
+  "updateDate": "2024-12-10",
+  "timestamp": 1733544025000,
+  "abstract": "  Automated decision-making is a fundamental topic that spans multiple\nsub-disciplines in AI: reinforcement learning (RL), AI planning (AP),\nfoundation models, and operations research, among others. Despite recent\nefforts to ``bridge the gaps'' between these communities, there remain many\ninsights that have not yet transcended the boundaries. Our goal in this paper\nis to provide a brief and non-exhaustive primer on ideas well-known in AP, but\nless so in other sub-disciplines. We do so by introducing the classical AP\nproblem and representation, and extensions that handle uncertainty and time\nthrough the Markov Decision Process formalism. Next, we survey state-of-the-art\ntechniques and ideas for solving AP problems, focusing on their ability to\nexploit problem structure. Lastly, we cover subfields within AP for learning\nstructure from unstructured inputs and learning to generalise to unseen\nscenarios and situations.\n",
+  "subjects": [
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "l9d8BGyqeXB4gjfb6NaY_4R-5ZEmHN3Nk3-nj9CAFS0",
+  "pdfSize": "197465"
+}

@@ -1,0 +1,57 @@
+{
+  "id": "2412.03355",
+  "title": "TASR: Timestep-Aware Diffusion Model for Image Super-Resolution",
+  "authors": "Qinwei Lin, Xiaopeng Sun, Yu Gao, Yujie Zhong, Dengjie Li, Zheng Zhao,\n  Haoqian Wang",
+  "authorsParsed": [
+    [
+      "Lin",
+      "Qinwei",
+      ""
+    ],
+    [
+      "Sun",
+      "Xiaopeng",
+      ""
+    ],
+    [
+      "Gao",
+      "Yu",
+      ""
+    ],
+    [
+      "Zhong",
+      "Yujie",
+      ""
+    ],
+    [
+      "Li",
+      "Dengjie",
+      ""
+    ],
+    [
+      "Zhao",
+      "Zheng",
+      ""
+    ],
+    [
+      "Wang",
+      "Haoqian",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 4 Dec 2024 14:39:54 GMT"
+    }
+  ],
+  "updateDate": "2024-12-05",
+  "timestamp": 1733323194000,
+  "abstract": "  Diffusion models have recently achieved outstanding results in the field of\nimage super-resolution. These methods typically inject low-resolution (LR)\nimages via ControlNet.In this paper, we first explore the temporal dynamics of\ninformation infusion through ControlNet, revealing that the input from LR\nimages predominantly influences the initial stages of the denoising process.\nLeveraging this insight, we introduce a novel timestep-aware diffusion model\nthat adaptively integrates features from both ControlNet and the pre-trained\nStable Diffusion (SD). Our method enhances the transmission of LR information\nin the early stages of diffusion to guarantee image fidelity and stimulates the\ngeneration ability of the SD model itself more in the later stages to enhance\nthe detail of generated images. To train this method, we propose a\ntimestep-aware training strategy that adopts distinct losses at varying\ntimesteps and acts on disparate modules. Experiments on benchmark datasets\ndemonstrate the effectiveness of our method. Code:\nhttps://github.com/SleepyLin/TASR\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "DpwToOF1WdrQD_tY_4J6zQSKJL4L4xC-XUxG_OgRn80",
+  "pdfSize": "3674709"
+}

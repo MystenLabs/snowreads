@@ -1,0 +1,38 @@
+{
+  "id": "2412.11400",
+  "title": "Scaled Conjugate Gradient Method for Nonconvex Optimization in Deep\n  Neural Networks",
+  "authors": "Naoki Sato, Koshiro Izumi, Hideaki Iiduka",
+  "authorsParsed": [
+    [
+      "Sato",
+      "Naoki",
+      ""
+    ],
+    [
+      "Izumi",
+      "Koshiro",
+      ""
+    ],
+    [
+      "Iiduka",
+      "Hideaki",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 16 Dec 2024 02:57:23 GMT"
+    }
+  ],
+  "updateDate": "2024-12-17",
+  "timestamp": 1734317843000,
+  "abstract": "  A scaled conjugate gradient method that accelerates existing adaptive methods\nutilizing stochastic gradients is proposed for solving nonconvex optimization\nproblems with deep neural networks. It is shown theoretically that, whether\nwith constant or diminishing learning rates, the proposed method can obtain a\nstationary point of the problem. Additionally, its rate of convergence with\ndiminishing learning rates is verified to be superior to that of the conjugate\ngradient method. The proposed method is shown to minimize training loss\nfunctions faster than the existing adaptive methods in practical applications\nof image and text classification. Furthermore, in the training of generative\nadversarial networks, one version of the proposed method achieved the lowest\nFrechet inception distance score among those of the adaptive methods.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Statistics/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "_rB3LbjbAUJV74WPaQqPp32odvALND6LV3104CR_l6w",
+  "pdfSize": "6777772"
+}

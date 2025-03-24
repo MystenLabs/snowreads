@@ -1,0 +1,44 @@
+{
+  "id": "2412.06716",
+  "title": "On Pooling-Based Track Fusion Strategies : Harmonic Mean Density",
+  "authors": "Nikhil Sharma, Shovan Bhaumik, Ratnasingham Tharmarasa, Thiagalingam\n  Kirubarajan",
+  "authorsParsed": [
+    [
+      "Sharma",
+      "Nikhil",
+      ""
+    ],
+    [
+      "Bhaumik",
+      "Shovan",
+      ""
+    ],
+    [
+      "Tharmarasa",
+      "Ratnasingham",
+      ""
+    ],
+    [
+      "Kirubarajan",
+      "Thiagalingam",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 9 Dec 2024 18:03:59 GMT"
+    }
+  ],
+  "updateDate": "2024-12-10",
+  "timestamp": 1733767439000,
+  "abstract": "  In a distributed sensor fusion architecture, using standard Kalman filter\n(naive fusion) can lead to degraded results as track correlations are ignored\nand conservative fusion strategies are employed as a sub-optimal alternative to\nthe problem. Since, Gaussian mixtures provide a flexible means of modeling any\ndensity, therefore fusion strategies suitable for use with Gaussian mixtures\nare needed. While the generalized covariance intersection (CI) provides a means\nto fuse Gaussian mixtures, the procedure is cumbersome and requires evaluating\na non-integer power of the mixture density. In this paper, we develop a\npooling-based fusion strategy using the harmonic mean density (HMD)\ninterpolation of local densities and show that the proposed method can handle\nboth Gaussian and mixture densities without much changes to the framework.\nMathematical properties of the proposed fusion strategy are studied and\nsimulated on 2D and 3D maneuvering target tracking scenarios. The simulations\nsuggest that the proposed HMD fusion performs better than other conservative\nstrategies in terms of root-mean-squared error while being consistent.\n",
+  "subjects": [
+    "Electrical Engineering and Systems Science/Signal Processing",
+    "Computer Science/Systems and Control",
+    "Electrical Engineering and Systems Science/Systems and Control"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "S0pxiVsiyrBVUpjWqEF0MqzIOogd6Em368NEZh2C2Cw",
+  "pdfSize": "1120216"
+}

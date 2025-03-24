@@ -1,0 +1,41 @@
+{
+  "id": "2412.09415",
+  "title": "Text Generation Models for Luxembourgish with Limited Data: A Balanced\n  Multilingual Strategy",
+  "authors": "Alistair Plum, Tharindu Ranasinghe, Christoph Purschke",
+  "authorsParsed": [
+    [
+      "Plum",
+      "Alistair",
+      ""
+    ],
+    [
+      "Ranasinghe",
+      "Tharindu",
+      ""
+    ],
+    [
+      "Purschke",
+      "Christoph",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 12 Dec 2024 16:23:12 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Fri, 20 Dec 2024 09:43:33 GMT"
+    }
+  ],
+  "updateDate": "2024-12-23",
+  "timestamp": 1734020592000,
+  "abstract": "  This paper addresses the challenges in developing language models for\nless-represented languages, with a focus on Luxembourgish. Despite its active\ndevelopment, Luxembourgish faces a digital data scarcity, exacerbated by\nLuxembourg's multilingual context. We propose a novel text generation model\nbased on the T5 architecture, combining limited Luxembourgish data with equal\namounts, in terms of size and type, of German and French data. We hypothesise\nthat a model trained on Luxembourgish, German, and French will improve the\nmodel's cross-lingual transfer learning capabilities and outperform monolingual\nand large multilingual models. To verify this, the study at hand explores\nwhether multilingual or monolingual training is more beneficial for\nLuxembourgish language generation. For the evaluation, we introduce LuxGen, a\ntext generation benchmark that is the first of its kind for Luxembourgish.\n",
+  "subjects": [
+    "Computer Science/Computation and Language"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "iktvuFEHiCoeIA_hy2F2KyU8lMG6lLIJyANS5ZEkcVE",
+  "pdfSize": "255425"
+}

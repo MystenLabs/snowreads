@@ -1,0 +1,38 @@
+{
+  "id": "2412.12118",
+  "title": "High-Throughput Detection of Risk Factors to Sudden Cardiac Arrest in\n  Youth Athletes: A Smartwatch-Based Screening Platform",
+  "authors": "Evan Xiang, Thomas Wang, Vivan Poddar",
+  "authorsParsed": [
+    [
+      "Xiang",
+      "Evan",
+      ""
+    ],
+    [
+      "Wang",
+      "Thomas",
+      ""
+    ],
+    [
+      "Poddar",
+      "Vivan",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 2 Dec 2024 18:35:12 GMT"
+    }
+  ],
+  "updateDate": "2024-12-18",
+  "timestamp": 1733164512000,
+  "abstract": "  Sudden Cardiac Arrest (SCA) is the leading cause of death among athletes of\nall age levels worldwide. Current prescreening methods for cardiac risk factors\nare largely ineffective, and implementing the International Olympic Committee\nrecommendation for 12-lead ECG screening remains prohibitively expensive. To\naddress these challenges, a preliminary comprehensive screening system (CSS)\nwas developed to efficiently and economically screen large populations for risk\nfactors to SCA. A protocol was established to measure a 4-lead ECG using an\nApple Watch. Additionally, two key advances were introduced and validated: 1) A\ndecomposition regression model to upscale 4-lead data to 12 leads, reducing ECG\ncost and usage complexity. 2) A deep learning model, the Transformer\nAuto-Encoder System (TAES), was designed to extract spatial and temporal\nfeatures from the data for beat-based classification. TAES demonstrated an\naverage sensitivity of 95.3% and specificity of 99.1% respectively in the\ntesting dataset, outperforming human physicians in the same dataset (Se: 94%,\nSp: 93%). Human subject trials (n = 30) validated the smartwatch protocol, with\nBland-Altman analysis showing no statistical difference between the smartwatch\nvs. ECG protocol. Further validation of the complete CSS on a 20-subject cohort\n(10 affected, 10 controls) did not result in any misidentifications. This paper\npresents a mass screening system with the potential to achieve superior\naccuracy in high-throughput cardiac pre-participation evaluation compared to\nthe clinical gold standard.\n",
+  "subjects": [
+    "Electrical Engineering and Systems Science/Signal Processing",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by-sa/4.0/",
+  "blobId": "aQvKnY0KYnbwACaE-e5lhA-Z-QMwmJtQi7trshMGafU",
+  "pdfSize": "2495259"
+}

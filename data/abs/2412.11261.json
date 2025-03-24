@@ -1,0 +1,33 @@
+{
+  "id": "2412.11261",
+  "title": "CATER: Leveraging LLM to Pioneer a Multidimensional,\n  Reference-Independent Paradigm in Translation Quality Evaluation",
+  "authors": "Kurando IIDA, Kenjiro MIMURA",
+  "authorsParsed": [
+    [
+      "IIDA",
+      "Kurando",
+      ""
+    ],
+    [
+      "MIMURA",
+      "Kenjiro",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 15 Dec 2024 17:45:34 GMT"
+    }
+  ],
+  "updateDate": "2024-12-17",
+  "timestamp": 1734284734000,
+  "abstract": "  This paper introduces the Comprehensive AI-assisted Translation Edit Ratio\n(CATER), a novel and fully prompt-driven framework for evaluating machine\ntranslation (MT) quality. Leveraging large language models (LLMs) via a\ncarefully designed prompt-based protocol, CATER expands beyond traditional\nreference-bound metrics, offering a multidimensional, reference-independent\nevaluation that addresses linguistic accuracy, semantic fidelity, contextual\ncoherence, stylistic appropriateness, and information completeness. CATER's\nunique advantage lies in its immediate implementability: by providing the\nsource and target texts along with a standardized prompt, an LLM can rapidly\nidentify errors, quantify edit effort, and produce category-level and overall\nscores. This approach eliminates the need for pre-computed references or\ndomain-specific resources, enabling instant adaptation to diverse languages,\ngenres, and user priorities through adjustable weights and prompt\nmodifications. CATER's LLM-enabled strategy supports more nuanced assessments,\ncapturing phenomena such as subtle omissions, hallucinations, and\ndiscourse-level shifts that increasingly challenge contemporary MT systems. By\nuniting the conceptual rigor of frameworks like MQM and DQF with the\nscalability and flexibility of LLM-based evaluation, CATER emerges as a\nvaluable tool for researchers, developers, and professional translators\nworldwide. The framework and example prompts are openly available, encouraging\ncommunity-driven refinement and further empirical validation.\n",
+  "subjects": [
+    "Computer Science/Computation and Language",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "EpgEDisjCuH7IIkg_WmPDI9j5xG-QHtZ4gexbfUi5KE",
+  "pdfSize": "668561"
+}

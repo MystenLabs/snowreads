@@ -1,0 +1,37 @@
+{
+  "id": "2412.17697",
+  "title": "Repeated-Root Constacyclic Codes of Length $3p^s$ over the Finite\n  Non-Chain Ring $\\frac{\\mathbb{F}_{p^m}[u, v]}{\\langle u^2, v^2,\n  uv-vu\\rangle}$ and their Duals",
+  "authors": "Divya Acharya, Prasanna Poojary, Vadiraja Bhatta G R",
+  "authorsParsed": [
+    [
+      "Acharya",
+      "Divya",
+      ""
+    ],
+    [
+      "Poojary",
+      "Prasanna",
+      ""
+    ],
+    [
+      "R",
+      "Vadiraja Bhatta G",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 23 Dec 2024 16:23:14 GMT"
+    }
+  ],
+  "updateDate": "2024-12-24",
+  "timestamp": 1734970994000,
+  "abstract": "  This study aims to determine the algebraic structures of\n$\\alpha$-constacyclic codes of length $3p^s$ over the finite commutative\nnon-chain ring $\\mathcal{R}=\\frac{\\mathbb{F}_{p^m}[u, v]}{\\langle u^2, v^2,\nuv-vu\\rangle}$, for a prime $p \\neq 3.$ For the unit $\\alpha$, we consider two\ndifferent instances: when $\\alpha$ is a cube in $\\mathcal{R}$ and when it is\nnot. Analyzing the first scenario is relatively easy. When $\\alpha$ is not a\nunit in $\\mathcal{R}$, we consider several subcases and determine the algebraic\nstructures of constacyclic codes in those cases. Further, we also provide the\nnumber of codewords and the duals of $\\alpha$-constacyclic codes.\n",
+  "subjects": [
+    "Mathematics/Combinatorics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "U3OEJ4PJ0XGqlEOte6Hrjm-4-6e7e9XSthAthwrkSak",
+  "pdfSize": "327993"
+}

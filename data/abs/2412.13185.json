@@ -1,0 +1,57 @@
+{
+  "id": "2412.13185",
+  "title": "Move-in-2D: 2D-Conditioned Human Motion Generation",
+  "authors": "Hsin-Ping Huang, Yang Zhou, Jui-Hsien Wang, Difan Liu, Feng Liu,\n  Ming-Hsuan Yang, Zhan Xu",
+  "authorsParsed": [
+    [
+      "Huang",
+      "Hsin-Ping",
+      ""
+    ],
+    [
+      "Zhou",
+      "Yang",
+      ""
+    ],
+    [
+      "Wang",
+      "Jui-Hsien",
+      ""
+    ],
+    [
+      "Liu",
+      "Difan",
+      ""
+    ],
+    [
+      "Liu",
+      "Feng",
+      ""
+    ],
+    [
+      "Yang",
+      "Ming-Hsuan",
+      ""
+    ],
+    [
+      "Xu",
+      "Zhan",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 17 Dec 2024 18:58:07 GMT"
+    }
+  ],
+  "updateDate": "2024-12-18",
+  "timestamp": 1734461887000,
+  "abstract": "  Generating realistic human videos remains a challenging task, with the most\neffective methods currently relying on a human motion sequence as a control\nsignal. Existing approaches often use existing motion extracted from other\nvideos, which restricts applications to specific motion types and global scene\nmatching. We propose Move-in-2D, a novel approach to generate human motion\nsequences conditioned on a scene image, allowing for diverse motion that adapts\nto different scenes. Our approach utilizes a diffusion model that accepts both\na scene image and text prompt as inputs, producing a motion sequence tailored\nto the scene. To train this model, we collect a large-scale video dataset\nfeaturing single-human activities, annotating each video with the corresponding\nhuman motion as the target output. Experiments demonstrate that our method\neffectively predicts human motion that aligns with the scene image after\nprojection. Furthermore, we show that the generated motion sequence improves\nhuman motion quality in video synthesis tasks.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "nBq0Fl2Ceac175mZafHr1rwpKcwuFHa4Ez-nrFzk9Nc",
+  "pdfSize": "3579898"
+}

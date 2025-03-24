@@ -1,0 +1,37 @@
+{
+  "id": "2412.02585",
+  "title": "Atlantis Protocol",
+  "authors": "Oleksandr Kurbatov, Kyrylo Riabov, Mykhailo Velykodnyi",
+  "authorsParsed": [
+    [
+      "Kurbatov",
+      "Oleksandr",
+      ""
+    ],
+    [
+      "Riabov",
+      "Kyrylo",
+      ""
+    ],
+    [
+      "Velykodnyi",
+      "Mykhailo",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 3 Dec 2024 17:11:35 GMT"
+    }
+  ],
+  "updateDate": "2024-12-04",
+  "timestamp": 1733245895000,
+  "abstract": "  This document proposes a combination of several techniques to construct\nanonymous and untraceable payment systems. The proposed system supports\narbitrary transfer amounts and enables the simultaneous transfer of multiple\nassets.\n",
+  "subjects": [
+    "Computer Science/Cryptography and Security"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "1R5Gun_BYWFqcKT6xJVworM7rFZOlaeJe_nbgWdhva4",
+  "pdfSize": "108570"
+}

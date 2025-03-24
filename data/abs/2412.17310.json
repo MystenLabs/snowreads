@@ -1,0 +1,53 @@
+{
+  "id": "2412.17310",
+  "title": "Popularity Estimation and New Bundle Generation using Content and\n  Context based Embeddings",
+  "authors": "Ashutosh Nayak and Prajwal NJ and Sameeksha Keshav and Kavitha S.N.\n  and Roja Reddy and Rajasekhara Reddy Duvvuru Muni",
+  "authorsParsed": [
+    [
+      "Nayak",
+      "Ashutosh",
+      ""
+    ],
+    [
+      "NJ",
+      "Prajwal",
+      ""
+    ],
+    [
+      "Keshav",
+      "Sameeksha",
+      ""
+    ],
+    [
+      "N.",
+      "Kavitha S.",
+      ""
+    ],
+    [
+      "Reddy",
+      "Roja",
+      ""
+    ],
+    [
+      "Muni",
+      "Rajasekhara Reddy Duvvuru",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 23 Dec 2024 06:04:14 GMT"
+    }
+  ],
+  "updateDate": "2024-12-24",
+  "timestamp": 1734933854000,
+  "abstract": "  Recommender systems create enormous value for businesses and their consumers.\nThey increase revenue for businesses while improving the consumer experience by\nrecommending relevant products amidst huge product base. Product bundling is an\nexciting development in the field of product recommendations. It aims at\ngenerating new bundles and recommending exciting and relevant bundles to their\nconsumers. Unlike traditional recommender systems that recommend single items\nto consumers, product bundling aims at targeting a bundle, or a set of items,\nto the consumers. While bundle recommendation has attracted significant\nresearch interest recently, extant literature on bundle generation is scarce.\nMoreover, metrics to identify if a bundle is popular or not is not well\nstudied. In this work, we aim to fulfill this gap by introducing new bundle\npopularity metrics based on sales, consumer experience and item diversity in a\nbundle. We use these metrics in the methodology proposed in this paper to\ngenerate new bundles for mobile games using content aware and context aware\nembeddings. We use opensource Steam Games dataset for our analysis. Our\nexperiments indicate that we can generate new bundles that can outperform the\nexisting bundles on the popularity metrics by 32% - 44%. Our experiments are\ncomputationally efficient and the proposed methodology is generic that can be\nextended to other bundling problems e.g. product bundling, music bundling.\n",
+  "subjects": [
+    "Computer Science/Information Retrieval",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "mIe1wkj9EZ7GssFp_QpOUv6EdC-REK__VGgtBLuu7jc",
+  "pdfSize": "1322545"
+}

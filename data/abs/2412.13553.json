@@ -1,0 +1,42 @@
+{
+  "id": "2412.13553",
+  "title": "Combining Aggregated Attention and Transformer Architecture for Accurate\n  and Efficient Performance of Spiking Neural Networks",
+  "authors": "Hangming Zhang, Alexander Sboev, Roman Rybka, Qiang Yu",
+  "authorsParsed": [
+    [
+      "Zhang",
+      "Hangming",
+      ""
+    ],
+    [
+      "Sboev",
+      "Alexander",
+      ""
+    ],
+    [
+      "Rybka",
+      "Roman",
+      ""
+    ],
+    [
+      "Yu",
+      "Qiang",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 18 Dec 2024 07:07:38 GMT"
+    }
+  ],
+  "updateDate": "2024-12-19",
+  "timestamp": 1734505658000,
+  "abstract": "  Spiking Neural Networks have attracted significant attention in recent years\ndue to their distinctive low-power characteristics. Meanwhile, Transformer\nmodels, known for their powerful self-attention mechanisms and parallel\nprocessing capabilities, have demonstrated exceptional performance across\nvarious domains, including natural language processing and computer vision.\nDespite the significant advantages of both SNNs and Transformers, directly\ncombining the low-power benefits of SNNs with the high performance of\nTransformers remains challenging. Specifically, while the sparse computing mode\nof SNNs contributes to reduced energy consumption, traditional attention\nmechanisms depend on dense matrix computations and complex softmax operations.\nThis reliance poses significant challenges for effective execution in low-power\nscenarios. Given the tremendous success of Transformers in deep learning, it is\na necessary step to explore the integration of SNNs and Transformers to harness\nthe strengths of both. In this paper, we propose a novel model architecture,\nSpike Aggregation Transformer (SAFormer), that integrates the low-power\ncharacteristics of SNNs with the high-performance advantages of Transformer\nmodels. The core contribution of SAFormer lies in the design of the Spike\nAggregated Self-Attention (SASA) mechanism, which significantly simplifies the\ncomputation process by calculating attention weights using only the spike\nmatrices query and key, thereby effectively reducing energy consumption.\nAdditionally, we introduce a Depthwise Convolution Module (DWC) to enhance the\nfeature extraction capabilities, further improving overall accuracy. We\nevaluated and demonstrated that SAFormer outperforms state-of-the-art SNNs in\nboth accuracy and energy consumption, highlighting its significant advantages\nin low-power and high-performance computing.\n",
+  "subjects": [
+    "Computer Science/Neural and Evolutionary Computing"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "E08lW2EQp4DgoPeFdZCd79XWcuCyXnUR1vns-sdOlmc",
+  "pdfSize": "984180"
+}

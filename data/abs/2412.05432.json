@@ -1,0 +1,43 @@
+{
+  "id": "2412.05432",
+  "title": "The Compton-thick AGN luminosity function in the local Universe: A\n  robust estimate combining BAT detections and NuSTAR spectra",
+  "authors": "I. Georgantopoulos, E. Pouliasis, A. Ruiz, A. Akylas",
+  "authorsParsed": [
+    [
+      "Georgantopoulos",
+      "I.",
+      ""
+    ],
+    [
+      "Pouliasis",
+      "E.",
+      ""
+    ],
+    [
+      "Ruiz",
+      "A.",
+      ""
+    ],
+    [
+      "Akylas",
+      "A.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 6 Dec 2024 21:34:00 GMT"
+    }
+  ],
+  "updateDate": "2024-12-10",
+  "timestamp": 1733520840000,
+  "abstract": "  The Compton-thick Active Galactic Nuclei (AGN) arguably constitute the most\nelusive class of sources as they are absorbed by large column densities above\nlogN_H(cm^-2)=24. These extreme absorptions hamper the detection of the central\nsource even in hard X-ray energies. In this work, we use both SWIFT and NuSTAR\nobservations in order to derive the most accurate yet Compton-thick AGN\nluminosity function. We, first, compile a sample of candidate Compton-thick AGN\n(logN_H(cm^-2)= 24-25) detected in the Swift BAT all-sky survey in the 14-195\nkeV band. We confirm that they are Compton-thick sources by using the follow-up\nNuSTAR observations already presented in the literature. Our sample is composed\nof 44 sources, consistent with a column density of logN_H(cm^-2)=24-25 at the\n90% confidence level. These have intrinsic luminosities higher than L(10-50\nkeV) ~ 3x10^41 erg/s and are found up to a redshift of z=0.05 (200 Mpc). We\nderive the luminosity function of Compton-thick AGN using a Bayesian\nmethodology where both the full column density and the luminosity distributions\nare taken into account. The faint end of the luminosity function is flat,\nhaving a slope of 0.01(+0.51,-0.74), rather arguing against a numerous\npopulation of low luminosity Compton-thick AGN. Based on our luminosity\nfunction, we estimate that the fraction of Compton-thick AGN relative to the\ntotal number of AGN is of the order of 24 (+5,-5) % in agreement with previous\nestimates in the local Universe based on BAT samples.\n",
+  "subjects": [
+    "Astrophysics/Astrophysics of Galaxies",
+    "Astrophysics/Cosmology and Nongalactic Astrophysics"
+  ],
+  "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+  "blobId": "sKfIquEzXxpuklkBTyMxPFcUcdBrE2McJ5M6m0aDXLI",
+  "pdfSize": "1198442"
+}

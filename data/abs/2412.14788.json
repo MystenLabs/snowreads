@@ -1,0 +1,47 @@
+{
+  "id": "2412.14788",
+  "title": "Impact of Josephson junction array modes on fluxonium readout",
+  "authors": "Shraddha Singh, Gil Refael, Aashish Clerk and Emma Rosenfeld",
+  "authorsParsed": [
+    [
+      "Singh",
+      "Shraddha",
+      ""
+    ],
+    [
+      "Refael",
+      "Gil",
+      ""
+    ],
+    [
+      "Clerk",
+      "Aashish",
+      ""
+    ],
+    [
+      "Rosenfeld",
+      "Emma",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 19 Dec 2024 12:28:46 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Wed, 8 Jan 2025 20:07:04 GMT"
+    }
+  ],
+  "updateDate": "2025-01-10",
+  "timestamp": 1734611326000,
+  "abstract": "  Dispersive readout of superconducting qubits is often limited by\nreadout-drive-induced transitions between qubit levels. While there is a\ngrowing understanding of such effects in transmon qubits, the case of highly\nnonlinear fluxonium qubits is more complex. We theoretically analyze\nmeasurement-induced state transitions (MIST) during the dispersive readout of a\nfluxonium qubit. We focus on a new mechanism: a simultaneous\ntransition/excitation involving the qubit and an internal mode of the Josephson\njunction array in the fluxonium circuit. Using an adiabatic Floquet approach,\nwe show that these new kinds of MIST processes can be relevant when using\nrealistic circuit parameters and relatively low readout drive powers. They also\ncontribute to excess qubit dephasing even after a measurement is complete. In\naddition to outlining basic mechanisms, we also investigate the dependence of\nsuch transitions on the circuit parameters. We find that with a judicious\nchoice of frequency allocations or coupling strengths, these parasitic\nprocesses can most likely be avoided.\n",
+  "subjects": [
+    "Condensed Matter/Mesoscale and Nanoscale Physics",
+    "Physics/Quantum Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "-KzA3i46YjLzkyqlEuw5TZoaupFa8NTf3HWYn-q1ph0",
+  "pdfSize": "3266524"
+}

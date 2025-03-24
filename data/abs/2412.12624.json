@@ -1,0 +1,34 @@
+{
+  "id": "2412.12624",
+  "title": "Control of open quantum systems: Manipulation of a qubit coupled to a\n  thermal bath by an external driving field",
+  "authors": "Haoran Sun and Michael Galperin",
+  "authorsParsed": [
+    [
+      "Sun",
+      "Haoran",
+      ""
+    ],
+    [
+      "Galperin",
+      "Michael",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 17 Dec 2024 07:39:52 GMT"
+    }
+  ],
+  "updateDate": "2024-12-18",
+  "timestamp": 1734421192000,
+  "abstract": "  Fast and reliable manipulation with qubits is fundamental for any quantum\ntechnology. The implementation of these manipulations in physical systems is\nthe focus of studies involving optimal control theory. Realistic physical\ndevices are open quantum systems. So far, studies in optimal control theory\nhave primarily utilized the Redfield/Lindblad quantum master equation to\nsimulate the dynamics of such systems. However, this Markov description is not\nalways sufficient. Here, we present a study of qubit control utilizing the\nnonequilibrium Green's function method. We compare the traditional master\nequation with more general Green's function results and demonstrate that even\nin the parameter regime suitable for the application of the Redfield/Lindblad\napproach, the two methods yield drastically different results when addressing\nevolution involving mixed states. In particular, we find that, in addition to\npredicting different optimal driving profiles, a more accurate description of\nsystem evolution enables the system to reach the desired final state much more\nquickly. We argue that the primary reason for this is the significance of the\nnon-Markov description of driven system dynamics due to the effect of\ntime-dependent driving on dissipation.\n",
+  "subjects": [
+    "Physics/Quantum Physics",
+    "Condensed Matter/Mesoscale and Nanoscale Physics",
+    "Physics/Chemical Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "jyzaRHMYtXV23XXsO_qDaGE-AKobSyZJoSkzNDzDiwk",
+  "pdfSize": "1719662"
+}

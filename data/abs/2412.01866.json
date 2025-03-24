@@ -1,0 +1,27 @@
+{
+  "id": "2412.01866",
+  "title": "NSI-IBP: A General Numerical Singular Integral Method via Integration by\n  Parts",
+  "authors": "Shaolin Liao",
+  "authorsParsed": [
+    [
+      "Liao",
+      "Shaolin",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 1 Dec 2024 23:30:11 GMT"
+    }
+  ],
+  "updateDate": "2024-12-04",
+  "timestamp": 1733095811000,
+  "abstract": "  A general framework of Numerical Singular Integrals (NSI) method based on the\nIntegration By Parts (IBP) has been developed for integrals involving singular\nand nearly singular integrands, or NSI-IBP. Through a general integration by\nparts formula and by choosing some analytically integrable function to\napproximate the original integrand, various well-known integration by parts\nmethods can be derived. Rigorous mathematical derivations have been performed\nto transform the original singular or nearly singular integrals into\nnon-singular integrals that can be computed efficiently, along with the\nboundary values added. What's more important, the NSI-IBP method works well\neven when the exact form of the singular integrand is not known. Criteria on\nhow to choose the appropriate function with a known analytical integral that\nclosely approximates the original integrand have been outlined and explained.\nNumerical recipe has been presented to apply the proposed NSI-IBP. Numerical\nexperiments have been carried out on various singular integrals such as the\npower-law decaying integrand, the logarithmic function, and their hybrid\nproducts. It can be shown that various relative accuracy up to $10^{-15}$ can\nbe achieved, even the exact singular function is not known. Finally, the nearly\nsingular integrals involving the scalar Green's function have been evaluated\nfor both electrostatics applications and Computational Electromagnetics (CEM)\napplications.\n",
+  "subjects": [
+    "Computer Science/Computational Engineering, Finance, and Science"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "3yGzreNmQucO4V5fPEi-swsKskCkSE9vnOt94Mg9bIM",
+  "pdfSize": "1476515"
+}

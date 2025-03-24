@@ -1,0 +1,49 @@
+{
+  "id": "2412.16647",
+  "title": "Correlated Growth of Causal Networks",
+  "authors": "Jiazhen Liu, Kunal Tamang, Dashun Wang, Chaoming Song",
+  "authorsParsed": [
+    [
+      "Liu",
+      "Jiazhen",
+      ""
+    ],
+    [
+      "Tamang",
+      "Kunal",
+      ""
+    ],
+    [
+      "Wang",
+      "Dashun",
+      ""
+    ],
+    [
+      "Song",
+      "Chaoming",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 21 Dec 2024 14:36:18 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Mon, 24 Feb 2025 19:08:54 GMT"
+    }
+  ],
+  "updateDate": "2025-02-26",
+  "timestamp": 1734791778000,
+  "abstract": "  The study of causal structure in complex systems has gained increasing\nattention, with many recent studies exploring causal networks that capture\ncause-effect relationships across diverse fields. Despite increasing empirical\nevidence linking causal structures to network topological correlations, the\nmechanisms underlying the emergence of these correlations in causal networks\nremain poorly understood. In this work, we propose a general growth framework\nfor causal networks, incorporating two key types of correlations: causal and\ndynamic. We analytically demonstrate that degree correlations emerge as a\nconsequence of marginal dependencies on these correlations. Our theoretical\npredictions align quantitatively with empirical data from four large-scale\ninnovation networks. Our theory not only sheds light on the origins of\ntopological correlations but also provides a general framework for\nunderstanding correlated growth across causal systems.\n",
+  "subjects": [
+    "Physics/Physics and Society",
+    "Condensed Matter/Statistical Mechanics",
+    "Nonlinear Sciences/Adaptation and Self-Organizing Systems",
+    "Physics/Data Analysis, Statistics and Probability"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "LCXnKIVJ_MArTtRxSfrqkXfcyS-1hIOkvdMEOC6ce2s",
+  "pdfSize": "1255038"
+}

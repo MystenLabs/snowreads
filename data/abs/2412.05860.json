@@ -1,0 +1,32 @@
+{
+  "id": "2412.05860",
+  "title": "Asymptotic behavior of invariants of syzygies of maximal Cohen-Macaulay\n  modules",
+  "authors": "Tony J. Puthenpurakal and Samarendra Sahoo",
+  "authorsParsed": [
+    [
+      "Puthenpurakal",
+      "Tony J.",
+      ""
+    ],
+    [
+      "Sahoo",
+      "Samarendra",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 8 Dec 2024 08:51:55 GMT"
+    }
+  ],
+  "updateDate": "2024-12-10",
+  "timestamp": 1733647915000,
+  "abstract": "  Let $(A,\\mathfrak{m})$ be a complete intersection ring of codimension $c\\geq\n2$ and dimension $d\\geq 1$. Let $M$ be a finitely generated maximal\nCohen-Macaulay $A$-module. Set $M_i=\\text{Syz}^A_{i}(M)$. Let\n$e^{\\mathfrak{m}}_i(M)$ be the $i$-th Hilbert coefficient of $M$ with respect\nto $\\mathfrak{m}$. We prove for all $i\\gg0$, the function $i\\mapsto\ne^{\\mathfrak{m}}_j(M_i)$ is a quasi-polynomial type with period $2$ and degree\n$\\text{cx}(M)-1$ for $j=0,1$, where $\\text{cx}(M)$ is the complexity of $M.$\nFor $\\text{cx}(M)=2,$ we prove\n  $$\\lim_{n\\to \\infty}\\dfrac{e^{\\mathfrak{m}}_1(M_{2n+j})}{n}\\geq \\lim_{n\\to\n\\infty}\\dfrac{e^{\\mathfrak{m}}_0(M_{2n+j})}{n}-\\lim_{n\\to\n\\infty}\\dfrac{\\mu(M_{2n+j})}{n}$$ for $j=0,1$. When equality holds, we prove\nthat the Castelnuovo-Mumford regularity of the associated graded ring of $M_i$\nwith respect to the maximal ideal $\\mathfrak{m}$ is bounded for all $i\\geq 0$.\n",
+  "subjects": [
+    "Mathematics/Commutative Algebra"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "6phfu0bVYpSn7iCi9tiY5l9Yl3MsEyOpidbVIyYN4RY",
+  "pdfSize": "191330"
+}

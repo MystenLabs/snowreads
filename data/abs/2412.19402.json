@@ -1,0 +1,37 @@
+{
+  "id": "2412.19402",
+  "title": "Endpoint estimates of discrete fractional operators on discrete weighted\n  Lebesgue spaces",
+  "authors": "Xiong Hu, Xuebing Hao and Baode Li",
+  "authorsParsed": [
+    [
+      "Hu",
+      "Xiong",
+      ""
+    ],
+    [
+      "Hao",
+      "Xuebing",
+      ""
+    ],
+    [
+      "Li",
+      "Baode",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 27 Dec 2024 01:34:23 GMT"
+    }
+  ],
+  "updateDate": "2024-12-30",
+  "timestamp": 1735263263000,
+  "abstract": "  Let $0<\\alpha<1$ and $\\frac{1}{q}=1-\\alpha$. We first obtain that the\nfunction $\\omega :\\mathbb{Z} \\rightarrow (0,\\infty)$ belongs to weight class of\n$\\mathcal{A} (1,q)(\\mathbb{Z})$ if and only if discrete fractional maximal\noperator $M_{\\alpha}$ or discrete Riesz potential $I_\\alpha$ is bounded from\n$l_{\\omega}^{1}(\\mathbb{Z})$ to $l_{\\omega^q}^{q,weak}(\\mathbb{Z})$. Then for\n$p=\\frac{1}{\\alpha}$, we further obtain that the function $\\omega$ belongs to\nweight class of $\\mathcal{A} (p,\\infty)(\\mathbb{Z})$ if and only if discrete\nRiesz potential $I_\\alpha$ has a property resembling discrete bounded mean\noscillation. Moreover, we give another simple proof of $I_{\\alpha}:l_{\\omega\n^p}^{p}(\\mathbb{Z}) \\rightarrow l_{\\omega ^q}^{q}(\\mathbb{Z})$ for $\\omega \\in\n\\mathcal{A}(p,q)(\\mathbb{Z})$, $1<p<\\frac{1}{\\alpha}$ and\n$\\frac{1}{q}=\\frac{1}{p}-\\alpha$. As applications, more weighted norm\ninequalities for $M_{\\alpha}$ and $I_\\alpha$ are established when $\\omega \\in\n\\mathcal{A}(1,q)(\\mathbb{Z})$ or $\\omega \\in\n\\mathcal{A}(p,\\infty)(\\mathbb{Z})$, and some of them are new even in continuous\nsetting.}\n",
+  "subjects": [
+    "Mathematics/Functional Analysis"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "EQ2YtQFiTJBSBosclpavrDcPg7zoJgVhDqaAtQqaoY4",
+  "pdfSize": "263808"
+}

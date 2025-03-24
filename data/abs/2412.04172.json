@@ -1,0 +1,33 @@
+{
+  "id": "2412.04172",
+  "title": "Neuromodulation and homeostasis: complementary mechanisms for robust\n  neural function",
+  "authors": "Arthur Fyon and Guillaume Drion",
+  "authorsParsed": [
+    [
+      "Fyon",
+      "Arthur",
+      ""
+    ],
+    [
+      "Drion",
+      "Guillaume",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 5 Dec 2024 14:07:38 GMT"
+    }
+  ],
+  "updateDate": "2024-12-06",
+  "timestamp": 1733407658000,
+  "abstract": "  Neurons depend on two interdependent mechanisms-homeostasis and\nneuromodulation-to maintain robust and adaptable functionality. Homeostasis\nstabilizes neuronal activity by adjusting ionic conductances, whereas\nneuromodulation dynamically modifies ionic properties in response to external\nsignals. Combining these mechanisms in conductance-based models often produces\nunreliable outcomes, particularly when sharp neuromodulation interferes with\nhomeostatic tuning. This study explores how a biologically inspired\nneuromodulation controller can harmonize with homeostasis to ensure reliable\nneuronal function. Using computational models of stomatogastric ganglion and\ndopaminergic neurons, we demonstrate that controlled neuromodulation preserves\nneuronal firing patterns while maintaining intracellular calcium levels. Unlike\nsharp neuromodulation, the neuromodulation controller integrates\nactivity-dependent feedback through mechanisms mimicking G-protein-coupled\nreceptor cascades. The interaction between these controllers critically depends\non the existence of an intersection in conductance space, representing a\nbalance between target calcium levels and neuromodulated firing patterns.\nMaximizing neuronal degeneracy enhances the likelihood of such intersections,\nenabling robust modulation and compensation for channel blockades. We further\nshow that this controller pairing extends to network-level activity, reliably\nmodulating central pattern generators in crustaceans. These findings suggest\nthat targeting neuromodulation pathways-rather than ion channels directly-may\noffer safer pharmacological strategies to manage neuronal dysfunctions. This\nstudy highlights the complementary roles of homeostasis and neuromodulation,\nproposing a unified control framework for maintaining robust and adaptive\nneural activity under physiological and pathological conditions.\n",
+  "subjects": [
+    "Quantitative Biology/Neurons and Cognition",
+    "Mathematics/Dynamical Systems"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "9i7e527YqNFkT7RpC4XvvISa5f11aoLMezR-rlaSeJc",
+  "pdfSize": "5326579"
+}

@@ -1,0 +1,38 @@
+{
+  "id": "2412.00695",
+  "title": "Numerical Analysis of Cavitation Dynamics on Free Ogee Spillways Using\n  the Volume of Fluid (VOF) Method",
+  "authors": "Parvaneh Nikrou, Sajjad Pirboudaghi",
+  "authorsParsed": [
+    [
+      "Nikrou",
+      "Parvaneh",
+      ""
+    ],
+    [
+      "Pirboudaghi",
+      "Sajjad",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 1 Dec 2024 06:29:58 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Wed, 4 Dec 2024 05:01:38 GMT"
+    }
+  ],
+  "updateDate": "2024-12-05",
+  "timestamp": 1733034598000,
+  "abstract": "  Simulating complex hydraulic conditions, particularly two-phase flows over\nspillway chutes, can be achieved with high accuracy using three-dimensional\nnumerical models. This study investigates the potential for vacuum generation\nand cavitation phenomena on the Aghchai Dam service spillway through numerical\nsimulations conducted in Flow-3D. The analysis focuses on two specific flow\nrates, 4400 and 1065 cubic meters per second, as determined by experimental\ndata. The Volume of Fluid (VOF) method is employed to accurately calculate the\nfree surface flow. Simulation results at a discharge rate of 4400 cubic meters\nper second indicate a high likelihood of cavitation at critical locations,\nincluding the ogee curve and the angle transition in the chute channel. These\nareas require specific mitigation measures to prevent cavitation-induced\ndamage. In contrast, at the lower flow rate of 1065 cubic meters per second,\nthe risk of cavitation is minimal due to reduced flow velocity and the absence\nof flow separation from the bed. The numerical findings align closely with\nempirical observations, demonstrating the reliability of the simulation\napproach in predicting cavitation behavior.\n",
+  "subjects": [
+    "Physics/Fluid Dynamics",
+    "Computer Science/Numerical Analysis",
+    "Mathematics/Numerical Analysis"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "0vsc-4EYyzOietSe83K41VXQQbeKK6sf7pf0CEhX_Pg",
+  "pdfSize": "770035"
+}

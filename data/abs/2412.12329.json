@@ -1,0 +1,72 @@
+{
+  "id": "2412.12329",
+  "title": "Experimental Confirmation of First-Principles Thermal Conductivity in\n  Zirconium-Doped ThO$_2$",
+  "authors": "Ella Kartika Pek, Zilong Hua, Amey Khanolkar, J. Matthew Mann, David\n  B. Turner, Karl Rickert, Timothy A. Prusnick, Marat Khafizov, David H.\n  Hurley, and Linu Malakkal",
+  "authorsParsed": [
+    [
+      "Pek",
+      "Ella Kartika",
+      ""
+    ],
+    [
+      "Hua",
+      "Zilong",
+      ""
+    ],
+    [
+      "Khanolkar",
+      "Amey",
+      ""
+    ],
+    [
+      "Mann",
+      "J. Matthew",
+      ""
+    ],
+    [
+      "Turner",
+      "David B.",
+      ""
+    ],
+    [
+      "Rickert",
+      "Karl",
+      ""
+    ],
+    [
+      "Prusnick",
+      "Timothy A.",
+      ""
+    ],
+    [
+      "Khafizov",
+      "Marat",
+      ""
+    ],
+    [
+      "Hurley",
+      "David H.",
+      ""
+    ],
+    [
+      "Malakkal",
+      "Linu",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 16 Dec 2024 19:56:24 GMT"
+    }
+  ],
+  "updateDate": "2024-12-18",
+  "timestamp": 1734378984000,
+  "abstract": "  The degradation of thermal conductivity in advanced nuclear fuels due to the\naccumulation of fission products and irradiation-induced defects is inevitable,\nand must be considered as part of safety and efficiency analyses of nuclear\nreactors. This study examines the thermal conductivity of a zirconium-doped\nThO$_2$ crystal, synthesized via the hydrothermal method using a spatial domain\nthermo-reflectance technique. Zirconium is one of the soluble fission products\nin oxide fuels that can effectively scatter heat-carrying phonons in the\ncrystalline lattice of fuel. Thus, thermal property measurements of\nzirconium-doped ThO$_2$ single crystals provide insights into the effects of\nsubstitutional zirconium doping, isolated from extrinsic factors such as grain\nboundary scattering. The experimental results are compared with\nfirst-principles calculations of the lattice thermal conductivity of ThO$_2$,\nemploying an iterative solution of the Peierls-Boltzmann transport equation.\nAdditionally, the non-perturbative Greens function methodology is utilized to\ncompute phonon-point defect scattering rates, accounting for local distortions\naround point defects, including mass difference changes, interatomic force\nconstants, and structural relaxation. The congruence between the predicted\nresults from first-principles calculations and the measured\ntemperature-dependent thermal conductivity validates the computational\nmethodology. Furthermore, the methodologies employed in this study enable\nsystematic investigations of thermal conductivity reduction by fission\nproducts, potentially leading to the development of more accurate fuel\nperformance codes.\n",
+  "subjects": [
+    "Condensed Matter/Materials Science"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "wNuP6JgfuT5vEDl3QNgy3cw4kedG7Y_HKqQsthg3IQA",
+  "pdfSize": "2546771"
+}

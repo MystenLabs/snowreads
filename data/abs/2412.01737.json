@@ -1,0 +1,35 @@
+{
+  "id": "2412.01737",
+  "title": "Superposing and gauging fermionic Gaussian projected entangled pair\n  states to get lattice gauge theory groundstates",
+  "authors": "Gertian Roose and Erez Zohar",
+  "authorsParsed": [
+    [
+      "Roose",
+      "Gertian",
+      ""
+    ],
+    [
+      "Zohar",
+      "Erez",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 2 Dec 2024 17:31:20 GMT"
+    }
+  ],
+  "updateDate": "2024-12-03",
+  "timestamp": 1733160680000,
+  "abstract": "  Gauged Gaussian fermionic projected entangled pair states (GGFPEPS) form a\nnovel type of Ansatz state for the groundstate of lattice gauge theories. The\nadvantage of these states is that they allow efficient calculation of\nobservables by combining Monte-Carlo integration over gauge fields\nconfigurations with Gaussian tensor network machinery for the fermionic part.\nRemarkably, for GGFPEPS the probability distribution for the gauge field\nconfigurations is positive definite and real so that there is no sign problem.\n  In this work we will demonstrate that gauged (non-Gaussian) fermionic\nprojected pair states (GFPEPS) exactly capture the groundstate of generic\nlattice gauge theories. Additionally, we will present a framework for the\nefficient computation of observables in the case where the non-Gaussianity of\nthe PEPS follows from the superposition of (few) Gaussian PEPS.\n  Finally, we present a new graphical notation for Gaussian tensor and their\ncontractions into Gaussian tensor network states.\n",
+  "subjects": [
+    "Physics/High Energy Physics - Lattice",
+    "Condensed Matter/Strongly Correlated Electrons",
+    "Physics/High Energy Physics - Theory",
+    "Physics/Quantum Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "JoYZ5auaFbTgl8fCmtWb_Pn_D1ok8T1IvcdWEIxoSMk",
+  "pdfSize": "1223995"
+}

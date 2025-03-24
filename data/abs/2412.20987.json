@@ -1,0 +1,37 @@
+{
+  "id": "2412.20987",
+  "title": "RobustBlack: Challenging Black-Box Adversarial Attacks on\n  State-of-the-Art Defenses",
+  "authors": "Mohamed Djilani, Salah Ghamizi, Maxime Cordy",
+  "authorsParsed": [
+    [
+      "Djilani",
+      "Mohamed",
+      ""
+    ],
+    [
+      "Ghamizi",
+      "Salah",
+      ""
+    ],
+    [
+      "Cordy",
+      "Maxime",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 30 Dec 2024 14:54:35 GMT"
+    }
+  ],
+  "updateDate": "2024-12-31",
+  "timestamp": 1735570475000,
+  "abstract": "  Although adversarial robustness has been extensively studied in white-box\nsettings, recent advances in black-box attacks (including transfer- and\nquery-based approaches) are primarily benchmarked against weak defenses,\nleaving a significant gap in the evaluation of their effectiveness against more\nrecent and moderate robust models (e.g., those featured in the Robustbench\nleaderboard). In this paper, we question this lack of attention from black-box\nattacks to robust models. We establish a framework to evaluate the\neffectiveness of recent black-box attacks against both top-performing and\nstandard defense mechanisms, on the ImageNet dataset. Our empirical evaluation\nreveals the following key findings: (1) the most advanced black-box attacks\nstruggle to succeed even against simple adversarially trained models; (2)\nrobust models that are optimized to withstand strong white-box attacks, such as\nAutoAttack, also exhibits enhanced resilience against black-box attacks; and\n(3) robustness alignment between the surrogate models and the target model\nplays a key factor in the success rate of transfer-based attacks\n",
+  "subjects": [
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "uyT2IEb54nTDrlEyJE4eBIaGXyx78T4RqE6zRPuapQU",
+  "pdfSize": "567472"
+}

@@ -1,0 +1,46 @@
+{
+  "id": "2412.21179",
+  "title": "Enhanced Two-Way Teleportation of Entangled States with Six-Qubit\n  Cluster State",
+  "authors": "Vedhanayagi R, Soubhik De, Basherrudin Mahmud Ahmed A, Alok Sharan",
+  "authorsParsed": [
+    [
+      "R",
+      "Vedhanayagi",
+      ""
+    ],
+    [
+      "De",
+      "Soubhik",
+      ""
+    ],
+    [
+      "A",
+      "Basherrudin Mahmud Ahmed",
+      ""
+    ],
+    [
+      "Sharan",
+      "Alok",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 30 Dec 2024 18:51:28 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Sat, 8 Feb 2025 06:22:56 GMT"
+    }
+  ],
+  "updateDate": "2025-02-11",
+  "timestamp": 1735584688000,
+  "abstract": "  This work presents a two-way teleportation protocol for the transfer of an\nunknown two-qubit quantum state between two parties Alice and Bob, utilizing a\nsix-qubit cluster state. This bidirectional exchange is achieved by performing\nBell measurements on the qubit pairs of Alice and Bob, ensuring the successful\nteleportation of the quantum state for both parties. We demonstrate the\nproposed protocol by designing a teleportation circuit that incorporates the\nnecessary quantum gates. The fidelity of the teleportation process is evaluated\nthrough simulations, confirming the accuracy and reliability of the proposed\nscheme. The protocol restores teleported states without requiring CNOT\noperations or auxiliary qubits, offering a significant advantage in resource\nefficiency(utilization). A comparative analysis of the intrinsic efficiency\nwith previous approaches establishes that the proposed protocol brings forth an\nefficient approach for achieving two-way quantum teleportation.\n",
+  "subjects": [
+    "Physics/Quantum Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by-sa/4.0/",
+  "blobId": "9eijrwgzMTWaL7NtmaelUSeGp5iHtXp2QTEAYxToQIo",
+  "pdfSize": "3404659"
+}

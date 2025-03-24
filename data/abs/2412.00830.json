@@ -1,0 +1,30 @@
+{
+  "id": "2412.00830",
+  "title": "SPILDL: A Scalable and Parallel Inductive Learner in Description Logic",
+  "authors": "Eyad Algahtani",
+  "authorsParsed": [
+    [
+      "Algahtani",
+      "Eyad",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 1 Dec 2024 14:33:37 GMT"
+    }
+  ],
+  "updateDate": "2024-12-03",
+  "timestamp": 1733063617000,
+  "abstract": "  We present SPILDL, a Scalable and Parallel Inductive Learner in Description\nLogic (DL). SPILDL is based on the DL-Learner (the state of the art in DL-based\nILP learning). As a DL-based ILP learner, SPILDL targets the\n$\\mathcal{ALCQI}^{\\mathcal{(D)}}$ DL language, and can learn DL hypotheses\nexpressed as disjunctions of conjunctions (using the $\\sqcup$ operator).\nMoreover, SPILDL's hypothesis language also incorporates the use of string\nconcrete roles (also known as string data properties in the Web Ontology\nLanguage, OWL); As a result, this incorporation of powerful DL constructs,\nenables SPILDL to learn powerful DL-based hypotheses for describing many\nreal-world complex concepts. SPILDL employs a hybrid parallel approach which\ncombines both shared-memory and distributed-memory approaches, to accelerates\nILP learning (for both hypothesis search and evaluation). According to\nexperimental results, SPILDL's parallel search improved performance by up to\n$\\sim$27.3 folds (best case). For hypothesis evaluation, SPILDL improved\nevaluation performance through HT-HEDL (our multi-core CPU + multi-GPU\nhypothesis evaluation engine), by up to 38 folds (best case). By combining both\nparallel search and evaluation, SPILDL improved performance by up to $\\sim$560\nfolds (best case). In terms of worst case scenario, SPILDL's parallel search\ndoesn't provide consistent speedups on all datasets, and is highly dependent on\nthe search space nature of the ILP dataset. For some datasets, increasing the\nnumber of parallel search threads result in reduced performance, similar or\nworse than baseline. Some ILP datasets benefit from parallel search, while\nothers don't (or the performance gains are negligible). In terms of parallel\nevaluation, on small datasets, parallel evaluation provide similar or worse\nperformance than baseline.\n",
+  "subjects": [
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Distributed, Parallel, and Cluster Computing",
+    "Computer Science/Data Structures and Algorithms",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "XJDP9f4_lAtT0ql6FzTRYYP-bIV_-rDNdbqFbat678Y",
+  "pdfSize": "1670770"
+}

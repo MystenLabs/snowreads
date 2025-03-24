@@ -1,0 +1,29 @@
+{
+  "id": "2412.14085",
+  "title": "Future Research Avenues for Artificial Intelligence in Digital Gaming:\n  An Exploratory Report",
+  "authors": "Markus Dablander",
+  "authorsParsed": [
+    [
+      "Dablander",
+      "Markus",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 18 Dec 2024 17:32:27 GMT"
+    }
+  ],
+  "updateDate": "2024-12-19",
+  "timestamp": 1734543147000,
+  "abstract": "  Video games are a natural and synergistic application domain for artificial\nintelligence (AI) systems, offering both the potential to enhance player\nexperience and immersion, as well as providing valuable benchmarks and virtual\nenvironments to advance AI technologies in general. This report presents a\nhigh-level overview of five promising research pathways for applying\nstate-of-the-art AI methods, particularly deep learning, to digital gaming\nwithin the context of the current research landscape. The objective of this\nwork is to outline a curated, non-exhaustive list of encouraging research\ndirections at the intersection of AI and video games that may serve to inspire\nmore rigorous and comprehensive research efforts in the future. We discuss (i)\ninvestigating large language models as core engines for game agent modelling,\n(ii) using neural cellular automata for procedural game content generation,\n(iii) accelerating computationally expensive in-game simulations via deep\nsurrogate modelling, (iv) leveraging self-supervised learning to obtain useful\nvideo game state embeddings, and (v) training generative models of interactive\nworlds using unlabelled video data. We also briefly address current technical\nchallenges associated with the integration of advanced deep learning systems\ninto video game development, and indicate key areas where further progress is\nlikely to be beneficial.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Human-Computer Interaction"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "yQs0DjISj0NoivUGQNWvbJivTvdTDYkCz7uiAerthVU",
+  "pdfSize": "685917"
+}

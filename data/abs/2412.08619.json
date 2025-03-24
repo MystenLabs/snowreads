@@ -1,0 +1,48 @@
+{
+  "id": "2412.08619",
+  "title": "Synthetic Vision: Training Vision-Language Models to Understand Physics",
+  "authors": "Vahid Balazadeh, Mohammadmehdi Ataei, Hyunmin Cheong, Amir Hosein\n  Khasahmadi, Rahul G. Krishnan",
+  "authorsParsed": [
+    [
+      "Balazadeh",
+      "Vahid",
+      ""
+    ],
+    [
+      "Ataei",
+      "Mohammadmehdi",
+      ""
+    ],
+    [
+      "Cheong",
+      "Hyunmin",
+      ""
+    ],
+    [
+      "Khasahmadi",
+      "Amir Hosein",
+      ""
+    ],
+    [
+      "Krishnan",
+      "Rahul G.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 11 Dec 2024 18:40:16 GMT"
+    }
+  ],
+  "updateDate": "2024-12-12",
+  "timestamp": 1733942416000,
+  "abstract": "  Physical reasoning, which involves the interpretation, understanding, and\nprediction of object behavior in dynamic environments, remains a significant\nchallenge for current Vision-Language Models (VLMs). In this work, we propose\ntwo methods to enhance VLMs' physical reasoning capabilities using simulated\ndata. First, we fine-tune a pre-trained VLM using question-answer (QA) pairs\ngenerated from simulations relevant to physical reasoning tasks. Second, we\nintroduce Physics Context Builders (PCBs), specialized VLMs fine-tuned to\ncreate scene descriptions enriched with physical properties and processes.\nDuring physical reasoning tasks, these PCBs can be leveraged as context to\nassist a Large Language Model (LLM) to improve its performance. We evaluate\nboth of our approaches using multiple benchmarks, including a new stability\ndetection QA dataset called Falling Tower, which includes both simulated and\nreal-world scenes, and CLEVRER. We demonstrate that a small QA fine-tuned VLM\ncan significantly outperform larger state-of-the-art foundational models. We\nalso show that integrating PCBs boosts the performance of foundational LLMs on\nphysical reasoning tasks. Using the real-world scenes from the Falling Tower\ndataset, we also validate the robustness of both approaches in Sim2Real\ntransfer. Our results highlight the utility that simulated data can have in the\ncreation of learning systems capable of advanced physical reasoning.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "nW_jgYOOYJGcCf30NaqWa3SROaajHodWlYlXJ9Aw2n0",
+  "pdfSize": "2679951"
+}

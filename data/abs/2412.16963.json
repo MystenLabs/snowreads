@@ -1,0 +1,41 @@
+{
+  "id": "2412.16963",
+  "title": "LH-Mix: Local Hierarchy Correlation Guided Mixup over Hierarchical\n  Prompt Tuning",
+  "authors": "Fanshuang Kong, Richong Zhang and Ziqiao Wang",
+  "authorsParsed": [
+    [
+      "Kong",
+      "Fanshuang",
+      ""
+    ],
+    [
+      "Zhang",
+      "Richong",
+      ""
+    ],
+    [
+      "Wang",
+      "Ziqiao",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 22 Dec 2024 10:47:18 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Sun, 23 Feb 2025 02:53:21 GMT"
+    }
+  ],
+  "updateDate": "2025-02-25",
+  "timestamp": 1734864438000,
+  "abstract": "  Hierarchical text classification (HTC) aims to assign one or more labels in\nthe hierarchy for each text. Many methods represent this structure as a global\nhierarchy, leading to redundant graph structures. To address this,\nincorporating a text-specific local hierarchy is essential. However, existing\napproaches often model this local hierarchy as a sequence, focusing on explicit\nparent-child relationships while ignoring implicit correlations among\nsibling/peer relationships. In this paper, we first integrate local hierarchies\ninto a manual depth-level prompt to capture parent-child relationships. We then\napply Mixup to this hierarchical prompt tuning scheme to improve the latent\ncorrelation within sibling/peer relationships. Notably, we propose a novel\nMixup ratio guided by local hierarchy correlation to effectively capture\nintrinsic correlations. This Local Hierarchy Mixup (LH-Mix) model demonstrates\nremarkable performance across three widely-used datasets.\n",
+  "subjects": [
+    "Computer Science/Computation and Language"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "cqMF6H0OxgmaOGDpLoy-dGyG18NXfbaTVNNAbiktg6c",
+  "pdfSize": "7293702"
+}

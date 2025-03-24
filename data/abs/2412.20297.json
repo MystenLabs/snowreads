@@ -1,0 +1,32 @@
+{
+  "id": "2412.20297",
+  "title": "FaGeL: Fabric LLMs Agent empowered Embodied Intelligence Evolution with\n  Autonomous Human-Machine Collaboration",
+  "authors": "Jia Liu and Min Chen",
+  "authorsParsed": [
+    [
+      "Liu",
+      "Jia",
+      ""
+    ],
+    [
+      "Chen",
+      "Min",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 28 Dec 2024 23:26:52 GMT"
+    }
+  ],
+  "updateDate": "2024-12-31",
+  "timestamp": 1735428412000,
+  "abstract": "  Recent advancements in Large Language Models (LLMs) have enhanced the\nreasoning capabilities of embodied agents, driving progress toward AGI-powered\nrobotics. While LLMs have been applied to tasks like semantic reasoning and\ntask generalization, their potential in open physical space exploration remains\nunderexplored. This paper introduces FaGeL (Fabric aGent empowered by embodied\nintelligence with LLMs), an embodied agent integrating smart fabric technology\nfor seamless, non-intrusive human-agent interaction. FaGeL autonomously\ngenerates tasks using multimodal data from wearable and ambient sensors,\nrefining its behavior based on implicit human feedback in generated text,\nwithout explicit ratings or preferences. We also introduce a token-level\nsaliency map to visualize LLM fine-tuning, enhancing the interpretability of\ntoken-level alignment. The system leverages dual feedback mechanisms to improve\ntoken-level alignment and addresses challenges in non-intrusive human-machine\ninteraction and cognition evolution. Our contributions include FaGeL's\ndevelopment, the DualCUT algorithm for AI alignment, and experimental\nvalidation in cooperative tasks, demonstrating FaGeL's ability to adapt and\nevolve autonomously through implicit feedback. In the future, we plan to\nexplore FaGeL's scalability in dynamic environments and its integration with\nother AI systems to develop AGI agents that adapt seamlessly to diverse human\nneeds.\n",
+  "subjects": [
+    "Computer Science/Human-Computer Interaction"
+  ],
+  "license": "http://creativecommons.org/licenses/by-sa/4.0/",
+  "blobId": "D4_RLBFByIkKzQ6Mm91YbHUPYVsF6YQQBrSg_LXPp4Y",
+  "pdfSize": "4020257"
+}

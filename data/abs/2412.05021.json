@@ -1,0 +1,37 @@
+{
+  "id": "2412.05021",
+  "title": "Improving data sharing and knowledge transfer via the\n  Neuroelectrophysiology Analysis Ontology (NEAO)",
+  "authors": "Cristiano Andr\\'e K\\\"ohler, Sonja Gr\\\"un, Michael Denker",
+  "authorsParsed": [
+    [
+      "Köhler",
+      "Cristiano André",
+      ""
+    ],
+    [
+      "Grün",
+      "Sonja",
+      ""
+    ],
+    [
+      "Denker",
+      "Michael",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 6 Dec 2024 13:14:20 GMT"
+    }
+  ],
+  "updateDate": "2024-12-09",
+  "timestamp": 1733490860000,
+  "abstract": "  Describing the processes involved in analyzing data from electrophysiology\nexperiments to investigate the function of neural systems is inherently\nchallenging. On the one hand, data can be analyzed by distinct methods that\nserve a similar purpose, such as different algorithms to estimate the spectral\npower content of a measured time series. On the other hand, different software\ncodes can implement the same algorithm for the analysis while adopting\ndifferent names to identify functions and parameters. Having reproducibility in\nmind, with these ambiguities the outcomes of the analysis are difficult to\nreport, e.g., in the methods section of a manuscript or on a platform for\nscientific findings. Here, we illustrate how using an ontology to describe the\nanalysis process can assist in improving clarity, rigour and comprehensibility\nby complementing, simplifying and classifying the details of the\nimplementation. We implemented the Neuroelectrophysiology Analysis Ontology\n(NEAO) to define a unified vocabulary and to standardize the descriptions of\nthe processes involved in analyzing data from neuroelectrophysiology\nexperiments. Real-world examples demonstrate how the NEAO can be employed to\nannotate provenance information describing an analysis process. Based on such\nprovenance, we detail how it can be used to query various types of information\n(e.g., using knowledge graphs) that enable researchers to find, understand and\nreuse prior analysis results.\n",
+  "subjects": [
+    "Quantitative Biology/Quantitative Methods"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "P7GnLK0x7cPyHKWOmpYTP7ixVRrMMIVZBLhnmWiSR00",
+  "pdfSize": "1406088"
+}

@@ -1,0 +1,38 @@
+{
+  "id": "2412.01882",
+  "title": "Transformation relations for UBV photometric system of 1m telescope at\n  the T\\\"{U}B\\.{I}TAK National Observatory",
+  "authors": "T. Ak, R. Canbay, T. Yontan",
+  "authorsParsed": [
+    [
+      "Ak",
+      "T.",
+      ""
+    ],
+    [
+      "Canbay",
+      "R.",
+      ""
+    ],
+    [
+      "Yontan",
+      "T.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 2 Dec 2024 19:00:00 GMT"
+    }
+  ],
+  "updateDate": "2024-12-04",
+  "timestamp": 1733166000000,
+  "abstract": "  UBV CCD observations of standard stars selected from Landolt (2009, 2013)\nwere performed using the 1-meter telescope (T100) of the T\\\"{U}B\\.{I}TAK\nNational Observatory equipped with a back-illuminated and UV enhanced CCD\ncamera and Bessell UBV filters. Observations span a long time from the years\n2012 to 2024, 50 photometric nights in total. Photometric measurements were\nused to find the standard transformation relations of the T100 photometric\nsystem. The atmospheric extinction coefficients, zero points and transformation\ncoefficients of each night were determined. It could not be found time\ndependence of the secondary extinction coefficients. However, it was determined\nthat the primary extinction coefficients decreased until the year 2019 and\nincreased after that year. It could not be found a strong seasonal variation of\nthe extinction coefficients. Small differences in seasonal median values of\nthem were used to attempt to find the atmospheric extinction sources. We found\ncalculated minus catalogue values for each standard star, $\\Delta(U-B)$,\n$\\Delta(B-V)$ and $\\Delta V$. Means and standard deviations of $\\Delta(U-B)$,\n$\\Delta(B-V)$ and $\\Delta V$ were estimated to be 1.4$\\pm$76, 1.9$\\pm$18 and\n0.0$\\pm$36 mmag, respectively. We found that our data well matched Landolt's\nstandards for $V$ and $B-V$, i.e. there are no systematic differences. However,\nthere are systematic differences for $U-B$ between the two photometric systems,\nwhich is probably originated from the quantum efficiency differences of the\ndetectors used in the photometric systems, although the median differences are\nrelatively small ($|\\Delta(U-B)|$< 50 mmag) for stars with $-0.5<U-B~{(\\rm\nmag)} <1.6$ and $0.2<B-V~{(\\rm mag)} <1.8$. As an overall result, we conclude\nthat the transformation relations found in this study can be used for\nstandardized photometry with the T100 photometric system.\n",
+  "subjects": [
+    "Astrophysics/Solar and Stellar Astrophysics",
+    "Astrophysics/Instrumentation and Methods for Astrophysics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "gew0tuaoBczJLREsYi4Nzo1wbAWe9Bhw5IysKsz34yQ",
+  "pdfSize": "2469827"
+}

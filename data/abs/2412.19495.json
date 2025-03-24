@@ -1,0 +1,43 @@
+{
+  "id": "2412.19495",
+  "title": "Disparate Model Performance and Stability in Machine Learning Clinical\n  Support for Diabetes and Heart Diseases",
+  "authors": "Ioannis Bilionis, Ricardo C. Berrios, Luis Fernandez-Luque, Carlos\n  Castillo",
+  "authorsParsed": [
+    [
+      "Bilionis",
+      "Ioannis",
+      ""
+    ],
+    [
+      "Berrios",
+      "Ricardo C.",
+      ""
+    ],
+    [
+      "Fernandez-Luque",
+      "Luis",
+      ""
+    ],
+    [
+      "Castillo",
+      "Carlos",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 27 Dec 2024 07:31:14 GMT"
+    }
+  ],
+  "updateDate": "2024-12-30",
+  "timestamp": 1735284674000,
+  "abstract": "  Machine Learning (ML) algorithms are vital for supporting clinical\ndecision-making in biomedical informatics. However, their predictive\nperformance can vary across demographic groups, often due to the\nunderrepresentation of historically marginalized populations in training\ndatasets. The investigation reveals widespread sex- and age-related inequities\nin chronic disease datasets and their derived ML models. Thus, a novel\nanalytical framework is introduced, combining systematic arbitrariness with\ntraditional metrics like accuracy and data complexity. The analysis of data\nfrom over 25,000 individuals with chronic diseases revealed mild sex-related\ndisparities, favoring predictive accuracy for males, and significant\nage-related differences, with better accuracy for younger patients. Notably,\nolder patients showed inconsistent predictive accuracy across seven datasets,\nlinked to higher data complexity and lower model performance. This highlights\nthat representativeness in training data alone does not guarantee equitable\noutcomes, and model arbitrariness must be addressed before deploying models in\nclinical settings.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "doOGsFRSbHOB_uS2E6rgbvUgHCvyVcBD3wHeKbRWRZc",
+  "pdfSize": "357968"
+}

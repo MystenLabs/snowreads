@@ -1,0 +1,48 @@
+{
+  "id": "2412.05527",
+  "title": "Dynamic Digital Twins of Blockchain Systems: State Extraction and\n  Mirroring",
+  "authors": "Georgios Diamantopoulos, Nikos Tziritas, Rami Bahsoon, Nan Zhang and\n  Georgios Theodoropoulos",
+  "authorsParsed": [
+    [
+      "Diamantopoulos",
+      "Georgios",
+      ""
+    ],
+    [
+      "Tziritas",
+      "Nikos",
+      ""
+    ],
+    [
+      "Bahsoon",
+      "Rami",
+      ""
+    ],
+    [
+      "Zhang",
+      "Nan",
+      ""
+    ],
+    [
+      "Theodoropoulos",
+      "Georgios",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 7 Dec 2024 03:54:34 GMT"
+    }
+  ],
+  "updateDate": "2024-12-10",
+  "timestamp": 1733543674000,
+  "abstract": "  Blockchain adoption is reaching an all-time high, with a plethora of\nblockchain architectures being developed to cover the needs of applications\neager to integrate blockchain into their operations. However, blockchain\nsystems suffer from the trilemma trade-off problem, which limits their ability\nto scale without sacrificing essential metrics such as decentralisation and\nsecurity. The balance of the trilemma trade-off is primarily dictated by the\nconsensus protocol used. Since consensus protocols are designed to function\nwell under specific system conditions, and consequently, due to the\nblockchain's complex and dynamic nature, systems operating under a single\nconsensus protocol are bound to face periods of inefficiency. The work\npresented in this paper constitutes part of an effort to design a Digital\nTwin-based blockchain management framework to balance the trilemma trade-off\nproblem, which aims to adapt the consensus process to fit the conditions of the\nunderlying system. Specifically, this work addresses the problems of extracting\nthe blockchain system and mirroring it in its digital twin by proposing\nalgorithms that overcome the challenges posed by blockchains' decentralised and\nasynchronous nature and the fundamental problems of global state and\nsynchronisation in such systems. The robustness of the proposed algorithms is\nexperimentally evaluated.\n",
+  "subjects": [
+    "Computer Science/Cryptography and Security",
+    "Computer Science/Distributed, Parallel, and Cluster Computing"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "Lamgap-i5SDxwazErCRiSI2iIGKFdazS_UKQHBrhwik",
+  "pdfSize": "821951"
+}

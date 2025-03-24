@@ -1,0 +1,39 @@
+{
+  "id": "2412.16043",
+  "title": "Hamming and Symbol-Pair Distances of Constacyclic Codes of Length $2p^s$\n  over $\\frac{\\mathbb{F}_{p^m}[u, v]}{\\langle u^2, v^2, uv-vu\\rangle}$",
+  "authors": "Divya Acharya, Prasanna Poojary, Vadiraja Bhatta G R",
+  "authorsParsed": [
+    [
+      "Acharya",
+      "Divya",
+      ""
+    ],
+    [
+      "Poojary",
+      "Prasanna",
+      ""
+    ],
+    [
+      "R",
+      "Vadiraja Bhatta G",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 20 Dec 2024 16:45:24 GMT"
+    }
+  ],
+  "updateDate": "2024-12-23",
+  "timestamp": 1734713124000,
+  "abstract": "  Let $p$ be an odd prime. In this paper, we have determined the Hamming\ndistances for constacyclic codes of length $2p^s$ over the finite commutative\nnon-chain ring $\\mathcal{R}=\\frac{\\mathbb{F}_{p^m}[u, v]}{\\langle u^2, v^2,\nuv-vu\\rangle}$. Also their symbol-pair distances are completely obtained.\n",
+  "subjects": [
+    "Computer Science/Information Theory",
+    "Mathematics/Combinatorics",
+    "Mathematics/Information Theory"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "5mw7FYueIs9Kkh7IAU26ohXpzFAaTl_l7alurjqX3Lg",
+  "pdfSize": "195120"
+}

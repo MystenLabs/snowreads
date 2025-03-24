@@ -1,0 +1,54 @@
+{
+  "id": "2412.06148",
+  "title": "The Computational Limits of State-Space Models and Mamba via the Lens of\n  Circuit Complexity",
+  "authors": "Yifang Chen, Xiaoyu Li, Yingyu Liang, Zhenmei Shi, Zhao Song",
+  "authorsParsed": [
+    [
+      "Chen",
+      "Yifang",
+      ""
+    ],
+    [
+      "Li",
+      "Xiaoyu",
+      ""
+    ],
+    [
+      "Liang",
+      "Yingyu",
+      ""
+    ],
+    [
+      "Shi",
+      "Zhenmei",
+      ""
+    ],
+    [
+      "Song",
+      "Zhao",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 9 Dec 2024 02:01:18 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Thu, 20 Feb 2025 18:38:08 GMT"
+    }
+  ],
+  "updateDate": "2025-02-21",
+  "timestamp": 1733709678000,
+  "abstract": "  In this paper, we analyze the computational limitations of Mamba and\nState-space Models (SSMs) by using the circuit complexity framework. Despite\nMamba's stateful design and recent attention as a strong candidate to\noutperform Transformers, we have demonstrated that both Mamba and SSMs with\n$\\mathrm{poly}(n)$-precision and constant-depth layers reside within the\n$\\mathsf{DLOGTIME}$-uniform $\\mathsf{TC}^0$ complexity class. This result\nindicates Mamba has the same computational capabilities as Transformer\ntheoretically, and it cannot solve problems like arithmetic formula problems,\nboolean formula value problems, and permutation composition problems if\n$\\mathsf{TC}^0 \\neq \\mathsf{NC}^1$. Therefore, it challenges the assumption\nMamba is more computationally expressive than Transformers. Our contributions\ninclude rigorous proofs showing that Selective SSM and Mamba architectures can\nbe simulated by $\\mathsf{DLOGTIME}$-uniform $\\mathsf{TC}^0$ circuits, and they\ncannot solve problems outside $\\mathsf{TC}^0$.\n",
+  "subjects": [
+    "Computer Science/Computational Complexity",
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Computation and Language",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "wXLxBdFHsotL7cApVBbcULOPYfiZMn5vxoyasRssiDw",
+  "pdfSize": "679145"
+}

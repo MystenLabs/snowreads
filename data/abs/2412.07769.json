@@ -1,0 +1,77 @@
+{
+  "id": "2412.07769",
+  "title": "BiMediX2: Bio-Medical EXpert LMM for Diverse Medical Modalities",
+  "authors": "Sahal Shaji Mullappilly, Mohammed Irfan Kurpath, Sara Pieri, Saeed\n  Yahya Alseiari, Shanavas Cholakkal, Khaled Aldahmani, Fahad Khan, Rao Anwer,\n  Salman Khan, Timothy Baldwin, Hisham Cholakkal",
+  "authorsParsed": [
+    [
+      "Mullappilly",
+      "Sahal Shaji",
+      ""
+    ],
+    [
+      "Kurpath",
+      "Mohammed Irfan",
+      ""
+    ],
+    [
+      "Pieri",
+      "Sara",
+      ""
+    ],
+    [
+      "Alseiari",
+      "Saeed Yahya",
+      ""
+    ],
+    [
+      "Cholakkal",
+      "Shanavas",
+      ""
+    ],
+    [
+      "Aldahmani",
+      "Khaled",
+      ""
+    ],
+    [
+      "Khan",
+      "Fahad",
+      ""
+    ],
+    [
+      "Anwer",
+      "Rao",
+      ""
+    ],
+    [
+      "Khan",
+      "Salman",
+      ""
+    ],
+    [
+      "Baldwin",
+      "Timothy",
+      ""
+    ],
+    [
+      "Cholakkal",
+      "Hisham",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 10 Dec 2024 18:59:35 GMT"
+    }
+  ],
+  "updateDate": "2024-12-11",
+  "timestamp": 1733857175000,
+  "abstract": "  This paper introduces BiMediX2, a bilingual (Arabic-English) Bio-Medical\nEXpert Large Multimodal Model (LMM) with a unified architecture that integrates\ntext and visual modalities, enabling advanced image understanding and medical\napplications. BiMediX2 leverages the Llama3.1 architecture and integrates text\nand visual capabilities to facilitate seamless interactions in both English and\nArabic, supporting text-based inputs and multi-turn conversations involving\nmedical images. The model is trained on an extensive bilingual healthcare\ndataset consisting of 1.6M samples of diverse medical interactions for both\ntext and image modalities, mixed in Arabic and English. We also propose the\nfirst bilingual GPT-4o based medical LMM benchmark named BiMed-MBench. BiMediX2\nis benchmarked on both text-based and image-based tasks, achieving\nstate-of-the-art performance across several medical benchmarks. It outperforms\nrecent state-of-the-art models in medical LLM evaluation benchmarks. Our model\nalso sets a new benchmark in multimodal medical evaluations with over 9%\nimprovement in English and over 20% in Arabic evaluations. Additionally, it\nsurpasses GPT-4 by around 9% in UPHILL factual accuracy evaluations and excels\nin various medical Visual Question Answering, Report Generation, and Report\nSummarization tasks. The project page including source code and the trained\nmodel, is available at https://github.com/mbzuai-oryx/BiMediX2.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "EMfUa2pKmVZu_WSmhoGKKicuimk_90ogQzmtmWFdTzA",
+  "pdfSize": "2061481"
+}

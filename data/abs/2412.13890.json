@@ -1,0 +1,42 @@
+{
+  "id": "2412.13890",
+  "title": "Lindblad dynamics of open multi-mode bosonic systems: Algebra of\n  bilinear superoperators, spectral problem, exceptional points and speed of\n  evolution",
+  "authors": "Andrei Gaidash and Alexei D. Kiselev and Anton Kozubov and George\n  Miroshnichenko",
+  "authorsParsed": [
+    [
+      "Gaidash",
+      "Andrei",
+      ""
+    ],
+    [
+      "Kiselev",
+      "Alexei D.",
+      ""
+    ],
+    [
+      "Kozubov",
+      "Anton",
+      ""
+    ],
+    [
+      "Miroshnichenko",
+      "George",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 18 Dec 2024 14:30:04 GMT"
+    }
+  ],
+  "updateDate": "2024-12-19",
+  "timestamp": 1734532204000,
+  "abstract": "  We develop the algebraic method based on the Lie algebra of quadratic\ncombinations of left and right superoperators associated with matrices to study\nthe Lindblad dynamics of multimode bosonic systems coupled a thermal bath and\ndescribed by the Liouvillian superoperator that takes into account both\ndynamical (coherent) and environment mediated (incoherent) interactions between\nthe modes. Our algebraic technique is applied to transform the Liouvillian into\nthe diagonalized form by eliminating jump superoperators and solve the spectral\nproblem. The temperature independent effective non-Hermitian Hamiltonian,\n$\\hat{H}_{eff}$, is found to govern both the diagonalized Liouvillian and the\nspectral properties. It is shown that the Liouvillian exceptional points are\nrepresented by the points in the parameter space where the matrix, $H$,\nassociated with $\\hat{H}_{eff}$ is non-diagonalizable. We use our method to\nderive the low-temperature approximation for the superpropagator and to study\nthe special case of a two mode system representing the photonic polarization\nmodes. For this system, we describe the geometry of exceptional points in the\nspace of frequency and relaxation vectors parameterizing the intermode\ncouplings and, for a single-photon state, evaluate the time dependence of the\nspeed of evolution as a function of the angles characterizing the couplings and\nthe initial state.\n",
+  "subjects": [
+    "Physics/Quantum Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "dXH-JHEUA2ZDHbTB5InSpTn-huepX1R2VXPQqtlHoc4",
+  "pdfSize": "2468661"
+}

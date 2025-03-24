@@ -1,0 +1,49 @@
+{
+  "id": "2412.17306",
+  "title": "Multiple Consistency-guided Test-Time Adaptation for Contrastive\n  Audio-Language Models with Unlabeled Audio",
+  "authors": "Gongyu Chen, Haomin Zhang, Chaofan Ding, Zihao Chen and Xinhan Di",
+  "authorsParsed": [
+    [
+      "Chen",
+      "Gongyu",
+      ""
+    ],
+    [
+      "Zhang",
+      "Haomin",
+      ""
+    ],
+    [
+      "Ding",
+      "Chaofan",
+      ""
+    ],
+    [
+      "Chen",
+      "Zihao",
+      ""
+    ],
+    [
+      "Di",
+      "Xinhan",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 23 Dec 2024 05:53:52 GMT"
+    }
+  ],
+  "updateDate": "2024-12-24",
+  "timestamp": 1734933232000,
+  "abstract": "  One fascinating aspect of pre-trained Audio-Language Models (ALMs) learning\nis their impressive zero-shot generalization capability and test-time\nadaptation (TTA) methods aiming to improve domain performance without\nannotations. However, previous test time adaptation (TTA) methods for ALMs in\nzero-shot classification tend to be stuck in incorrect model predictions. In\norder to further boost the performance, we propose multiple guidance on prompt\nlearning without annotated labels. First, guidance of consistency on both\ncontext tokens and domain tokens of ALMs is set. Second, guidance of both\nconsistency across multiple augmented views of each single test sample and\ncontrastive learning across different test samples is set. Third, we propose a\ncorresponding end-end learning framework for the proposed test-time adaptation\nmethod without annotated labels. We extensively evaluate our approach on 12\ndownstream tasks across domains, our proposed adaptation method leads to 4.41%\n(max 7.50%) average zero-shot performance improvement in comparison with the\nstate-of-the-art models.\n",
+  "subjects": [
+    "Computer Science/Sound",
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Electrical Engineering and Systems Science/Audio and Speech Processing"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "nYqA24s9bUU9MkpY6zVEAAlWBIh0nyOyoqS23L5BAmg",
+  "pdfSize": "527760"
+}

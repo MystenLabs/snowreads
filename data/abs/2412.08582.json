@@ -1,0 +1,37 @@
+{
+  "id": "2412.08582",
+  "title": "Utilizing Multi-step Loss for Single Image Reflection Removal",
+  "authors": "Abdelrahman Elnenaey, Marwan Torki",
+  "authorsParsed": [
+    [
+      "Elnenaey",
+      "Abdelrahman",
+      ""
+    ],
+    [
+      "Torki",
+      "Marwan",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 11 Dec 2024 17:57:25 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Fri, 13 Dec 2024 17:11:38 GMT"
+    }
+  ],
+  "updateDate": "2024-12-16",
+  "timestamp": 1733939845000,
+  "abstract": "  Image reflection removal is crucial for restoring image quality. Distorted\nimages can negatively impact tasks like object detection and image\nsegmentation. In this paper, we present a novel approach for image reflection\nremoval using a single image. Instead of focusing on model architecture, we\nintroduce a new training technique that can be generalized to image-to-image\nproblems, with input and output being similar in nature. This technique is\nembodied in our multi-step loss mechanism, which has proven effective in the\nreflection removal task. Additionally, we address the scarcity of reflection\nremoval training data by synthesizing a high-quality, non-linear synthetic\ndataset called RefGAN using Pix2Pix GAN. This dataset significantly enhances\nthe model's ability to learn better patterns for reflection removal. We also\nutilize a ranged depth map, extracted from the depth estimation of the ambient\nimage, as an auxiliary feature, leveraging its property of lacking depth\nestimations for reflections. Our approach demonstrates superior performance on\nthe SIR^2 benchmark and other real-world datasets, proving its effectiveness by\noutperforming other state-of-the-art models.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Electrical Engineering and Systems Science/Image and Video Processing"
+  ],
+  "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+  "blobId": "Nww-jt2ht09bI2jd3fkrJaw2L9N7l0ZIQ23NETMmrJc",
+  "pdfSize": "1944696"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "2412.17352",
+  "title": "Efficacy of Full-Packet Encryption in Mitigating Protocol Detection for\n  Evasive Virtual Private Networks",
+  "authors": "Amy Iris Parker",
+  "authorsParsed": [
+    [
+      "Parker",
+      "Amy Iris",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 23 Dec 2024 07:24:36 GMT"
+    }
+  ],
+  "updateDate": "2025-01-08",
+  "timestamp": 1734938676000,
+  "abstract": "  Full-packet encryption is a technique used by modern evasive Virtual Private\nNetworks (VPNs) to avoid protocol-based flagging from censorship models by\ndisguising their traffic as random noise on the network. Traditional methods\nfor censoring full-packet-encryption based VPN protocols requires assuming a\nsubstantial amount of collateral damage, as other non-VPN network traffic that\nappears random will be blocked. I tested several machine learning-based\nclassification models against the Aggressive Circumvention of Censorship (ACC)\nprotocol, a fully-encrypted evasive VPN protocol which merges strategies from a\nwide variety of currently in-use evasive VPN protocols. My testing found that\nwhile ACC was able to survive our models when compared to random noise, it was\neasily detectable with minimal collateral damage using several different\nmachine learning models when within a stream of regular network traffic. While\nresistant to the current techniques deployed by nation-state censors, the ACC\nprotocol and other evasive protocols are potentially subject to packet-based\nprotocol identification utilizing similar classification models.\n",
+  "subjects": [
+    "Computer Science/Cryptography and Security",
+    "Computer Science/Machine Learning",
+    "Computer Science/Networking and Internet Architecture"
+  ],
+  "license": "http://creativecommons.org/licenses/by-sa/4.0/",
+  "blobId": "IxibnyuNajZAL4AZPewSBlRE7CgIMl3g4eI0c8dy5kw",
+  "pdfSize": "117754"
+}

@@ -1,0 +1,38 @@
+{
+  "id": "2412.15573",
+  "title": "Multi Agent Reinforcement Learning for Sequential Satellite Assignment\n  Problems",
+  "authors": "Joshua Holder, Natasha Jaques, Mehran Mesbahi",
+  "authorsParsed": [
+    [
+      "Holder",
+      "Joshua",
+      ""
+    ],
+    [
+      "Jaques",
+      "Natasha",
+      ""
+    ],
+    [
+      "Mesbahi",
+      "Mehran",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 20 Dec 2024 05:10:34 GMT"
+    }
+  ],
+  "updateDate": "2024-12-23",
+  "timestamp": 1734671434000,
+  "abstract": "  Assignment problems are a classic combinatorial optimization problem in which\na group of agents must be assigned to a group of tasks such that maximum\nutility is achieved while satisfying assignment constraints. Given the utility\nof each agent completing each task, polynomial-time algorithms exist to solve a\nsingle assignment problem in its simplest form. However, in many modern-day\napplications such as satellite constellations, power grids, and mobile robot\nscheduling, assignment problems unfold over time, with the utility for a given\nassignment depending heavily on the state of the system. We apply multi-agent\nreinforcement learning to this problem, learning the value of assignments by\nbootstrapping from a known polynomial-time greedy solver and then learning from\nfurther experience. We then choose assignments using a distributed optimal\nassignment mechanism rather than by selecting them directly. We demonstrate\nthat this algorithm is theoretically justified and avoids pitfalls experienced\nby other RL algorithms in this setting. Finally, we show that our algorithm\nsignificantly outperforms other methods in the literature, even while scaling\nto realistic scenarios with hundreds of agents and tasks.\n",
+  "subjects": [
+    "Computer Science/Multiagent Systems",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "Cbh7lIRIgjkJwuAGHcVoPSlog7zVARFnZs-VvJ11QvA",
+  "pdfSize": "1620772"
+}

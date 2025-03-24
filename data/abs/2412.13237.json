@@ -1,0 +1,45 @@
+{
+  "id": "2412.13237",
+  "title": "Optimized two-stage AI-based Neural Decoding for Enhanced Visual\n  Stimulus Reconstruction from fMRI Data",
+  "authors": "Lorenzo Veronese, Andrea Moglia, Luca Mainardi, Pietro Cerveri",
+  "authorsParsed": [
+    [
+      "Veronese",
+      "Lorenzo",
+      ""
+    ],
+    [
+      "Moglia",
+      "Andrea",
+      ""
+    ],
+    [
+      "Mainardi",
+      "Luca",
+      ""
+    ],
+    [
+      "Cerveri",
+      "Pietro",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 17 Dec 2024 16:42:55 GMT"
+    }
+  ],
+  "updateDate": "2024-12-19",
+  "timestamp": 1734453775000,
+  "abstract": "  AI-based neural decoding reconstructs visual perception by leveraging\ngenerative models to map brain activity, measured through functional MRI\n(fMRI), into latent hierarchical representations. Traditionally, ridge linear\nmodels transform fMRI into a latent space, which is then decoded using latent\ndiffusion models (LDM) via a pre-trained variational autoencoder (VAE). Due to\nthe complexity and noisiness of fMRI data, newer approaches split the\nreconstruction into two sequential steps, the first one providing a rough\nvisual approximation, the second on improving the stimulus prediction via LDM\nendowed by CLIP embeddings. This work proposes a non-linear deep network to\nimprove fMRI latent space representation, optimizing the dimensionality alike.\nExperiments on the Natural Scenes Dataset showed that the proposed architecture\nimproved the structural similarity of the reconstructed image by about 2\\% with\nrespect to the state-of-the-art model, based on ridge linear transform. The\nreconstructed image's semantics improved by about 4\\%, measured by perceptual\nsimilarity, with respect to the state-of-the-art. The noise sensitivity\nanalysis of the LDM showed that the role of the first stage was fundamental to\npredict the stimulus featuring high structural similarity. Conversely,\nproviding a large noise stimulus affected less the semantics of the predicted\nstimulus, while the structural similarity between the ground truth and\npredicted stimulus was very poor. The findings underscore the importance of\nleveraging non-linear relationships between BOLD signal and the latent\nrepresentation and two-stage generative AI for optimizing the fidelity of\nreconstructed visual stimuli from noisy fMRI data.\n",
+  "subjects": [
+    "Electrical Engineering and Systems Science/Image and Video Processing",
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Machine Learning",
+    "Quantitative Biology/Neurons and Cognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by-sa/4.0/",
+  "blobId": "HUz6H3JWew0GiCEuYYqioG-SbuMLiDiYy_eACqKkar0",
+  "pdfSize": "4927390"
+}

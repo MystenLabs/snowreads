@@ -1,0 +1,42 @@
+{
+  "id": "2412.19541",
+  "title": "Efficient Computation of the Non-convex Quasi-norm Ball Projection with\n  Iterative Reweighted Approach",
+  "authors": "Qi An, Jiao Wang, Zequn Niu, Nana Zhang",
+  "authorsParsed": [
+    [
+      "An",
+      "Qi",
+      ""
+    ],
+    [
+      "Wang",
+      "Jiao",
+      ""
+    ],
+    [
+      "Niu",
+      "Zequn",
+      ""
+    ],
+    [
+      "Zhang",
+      "Nana",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 27 Dec 2024 09:07:56 GMT"
+    }
+  ],
+  "updateDate": "2024-12-30",
+  "timestamp": 1735290476000,
+  "abstract": "  In this study, we focus on computing the projection onto the $\\ell_p$\nquasi-norm ball, which is challenging due to the non-convex and non-Lipschitz\nnature inherent in the $\\ell_p$ quasi-norm with $0<p<1$. We propose a novel\nlocalized approximation method that yields a Lipschitz continuous concave\nsurrogate function for the $\\ell_p$ quasi-norm with improved approximation\nquality. Building on this approximation, we enhance the state-of-the-art\niterative reweighted algorithm proposed by Yang et al. (J Mach Learn Res\n23:1-31, 2022) by constructing tighter subproblems. This improved algorithm\nsolves the $\\ell_p$ quasinorm ball projection problem through a series of\ntractable projections onto the weighted $\\ell_1$ norm balls. Convergence\nanalyses and numerical studies demonstrate the global convergence and superior\ncomputational efficiency of the proposed method.\n",
+  "subjects": [
+    "Mathematics/Optimization and Control"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "re2KYwfPbwJv2XNSdZiogcW9bHSE1oOeAfWtFFeQ3uY",
+  "pdfSize": "268780"
+}

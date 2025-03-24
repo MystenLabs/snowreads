@@ -1,0 +1,35 @@
+{
+  "id": "2412.15793",
+  "title": "Debiasing of Two-Line Element Sets for Batch Least Squares Pseudo-Orbit\n  Determination in MEO and GEO",
+  "authors": "Max I. Hallgarten La Casta, Davide Amato",
+  "authorsParsed": [
+    [
+      "La Casta",
+      "Max I. Hallgarten",
+      ""
+    ],
+    [
+      "Amato",
+      "Davide",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 20 Dec 2024 11:10:09 GMT"
+    }
+  ],
+  "updateDate": "2024-12-23",
+  "timestamp": 1734693009000,
+  "abstract": "  The availability of accurate and timely state predictions for objects in\nnear-Earth orbits is becoming increasingly important due to the growing\ncongestion in key orbital regimes. The Two-line Element Set (TLE) catalogue\nremains, to this day, one of the few publicly-available, comprehensive sources\nof near-Earth object ephemerides. At the same time, TLEs are affected by\nmeasurement noise and are limited by the low accuracy of the SGP4 theory,\nintroducing significant uncertainty into state predictions. Previous literature\nhas shown that filtering TLEs with batch least squares methods can yield\nsignificant improvements in long-term state prediction accuracy. However, this\nprocess can be highly sensitive to TLE quality which can vary throughout the\nyear. In this study, it is shown that either extended-duration fit windows of\nthe order of months, or the removal of systematic biases in along-track\nposition prior to state estimation can produce significant reductions in\npost-fit position errors. Simple models for estimating these systematic biases\nare shown to be effective without introducing the need for high-complexity\nMachine Learning (ML) models. Furthermore, by establishing a TLE-based error\nmetric, the need for high accuracy ephemerides is removed when creating these\nmodels. For selected satellites in the Medium Earth Orbit (MEO) regime,\npost-fit position errors are reduced by up to 80 %, from approximately 5 km to\n1 km; meanwhile, for selected satellites in the Geostationary Earth Orbit\n(GEO)/Geosynchronous Earth Orbit (GSO) regime, large oscillations in post-fit\nposition error can be suppressed.\n",
+  "subjects": [
+    "Astrophysics/Earth and Planetary Astrophysics",
+    "Astrophysics/Instrumentation and Methods for Astrophysics",
+    "Electrical Engineering and Systems Science/Signal Processing",
+    "Mathematics/Optimization and Control"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "gyr6nuDSnwJmxGD9ZrwJri1Ib4AYft0pBio570DQd50",
+  "pdfSize": "4276142"
+}

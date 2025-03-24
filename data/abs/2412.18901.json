@@ -1,0 +1,28 @@
+{
+  "id": "2412.18901",
+  "title": "Stationary Processes, Wiener-Granger Causality, and Matrix Spectral\n  Factorization",
+  "authors": "Lasha Ephremidze",
+  "authorsParsed": [
+    [
+      "Ephremidze",
+      "Lasha",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 25 Dec 2024 13:29:39 GMT"
+    }
+  ],
+  "updateDate": "2024-12-30",
+  "timestamp": 1735133379000,
+  "abstract": "  Granger causality has become an indispensable tool for analyzing causal\nrelationships between time series. In this paper, we provide a detailed\noverview of its mathematical foundations, trace its historical development, and\nexplore how recent computational advancements can enhance its application in\nvarious fields. We will not hesitate to present the proofs in full if they are\nsimple and transparent. For more complex theorems on which we rely, we will\nprovide supporting citations. We also discuss potential future directions for\nthe method, particularly in the context of largescale data analysis.\n",
+  "subjects": [
+    "Mathematics/Complex Variables",
+    "Statistics/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "Rby16dfUiX6twnlvZXusUOTwwrpb6vSMlR6sL02WemE",
+  "pdfSize": "136073"
+}

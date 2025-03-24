@@ -1,0 +1,63 @@
+{
+  "id": "2412.11376",
+  "title": "ChatTime: A Unified Multimodal Time Series Foundation Model Bridging\n  Numerical and Textual Data",
+  "authors": "Chengsen Wang and Qi Qi and Jingyu Wang and Haifeng Sun and Zirui\n  Zhuang and Jinming Wu and Lei Zhang and Jianxin Liao",
+  "authorsParsed": [
+    [
+      "Wang",
+      "Chengsen",
+      ""
+    ],
+    [
+      "Qi",
+      "Qi",
+      ""
+    ],
+    [
+      "Wang",
+      "Jingyu",
+      ""
+    ],
+    [
+      "Sun",
+      "Haifeng",
+      ""
+    ],
+    [
+      "Zhuang",
+      "Zirui",
+      ""
+    ],
+    [
+      "Wu",
+      "Jinming",
+      ""
+    ],
+    [
+      "Zhang",
+      "Lei",
+      ""
+    ],
+    [
+      "Liao",
+      "Jianxin",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 16 Dec 2024 02:04:06 GMT"
+    }
+  ],
+  "updateDate": "2024-12-17",
+  "timestamp": 1734314646000,
+  "abstract": "  Human experts typically integrate numerical and textual multimodal\ninformation to analyze time series. However, most traditional deep learning\npredictors rely solely on unimodal numerical data, using a fixed-length window\nfor training and prediction on a single dataset, and cannot adapt to different\nscenarios. The powered pre-trained large language model has introduced new\nopportunities for time series analysis. Yet, existing methods are either\ninefficient in training, incapable of handling textual information, or lack\nzero-shot forecasting capability. In this paper, we innovatively model time\nseries as a foreign language and construct ChatTime, a unified framework for\ntime series and text processing. As an out-of-the-box multimodal time series\nfoundation model, ChatTime provides zero-shot forecasting capability and\nsupports bimodal input/output for both time series and text. We design a series\nof experiments to verify the superior performance of ChatTime across multiple\ntasks and scenarios, and create four multimodal datasets to address data gaps.\nThe experimental results demonstrate the potential and utility of ChatTime.\n",
+  "subjects": [
+    "Computer Science/Computation and Language",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "SordaTxp88AON0U_yAHRQV-nR5Ni32JyqNc9_183BIg",
+  "pdfSize": "1058744"
+}

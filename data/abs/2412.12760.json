@@ -1,0 +1,62 @@
+{
+  "id": "2412.12760",
+  "title": "CAMEL: Cross-Attention Enhanced Mixture-of-Experts and Language Bias for\n  Code-Switching Speech Recognition",
+  "authors": "He Wang, Xucheng Wan, Naijun Zheng, Kai Liu, Huan Zhou, Guojian Li,\n  Lei Xie",
+  "authorsParsed": [
+    [
+      "Wang",
+      "He",
+      ""
+    ],
+    [
+      "Wan",
+      "Xucheng",
+      ""
+    ],
+    [
+      "Zheng",
+      "Naijun",
+      ""
+    ],
+    [
+      "Liu",
+      "Kai",
+      ""
+    ],
+    [
+      "Zhou",
+      "Huan",
+      ""
+    ],
+    [
+      "Li",
+      "Guojian",
+      ""
+    ],
+    [
+      "Xie",
+      "Lei",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 17 Dec 2024 10:25:06 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Thu, 9 Jan 2025 08:31:24 GMT"
+    }
+  ],
+  "updateDate": "2025-01-10",
+  "timestamp": 1734431106000,
+  "abstract": "  Code-switching automatic speech recognition (ASR) aims to transcribe speech\nthat contains two or more languages accurately. To better capture\nlanguage-specific speech representations and address language confusion in\ncode-switching ASR, the mixture-of-experts (MoE) architecture and an additional\nlanguage diarization (LD) decoder are commonly employed. However, most\nresearches remain stagnant in simple operations like weighted summation or\nconcatenation to fuse languagespecific speech representations, leaving\nsignificant opportunities to explore the enhancement of integrating language\nbias information. In this paper, we introduce CAMEL, a cross-attention-based\nMoE and language bias approach for code-switching ASR. Specifically, after each\nMoE layer, we fuse language-specific speech representations with\ncross-attention, leveraging its strong contextual modeling abilities.\nAdditionally, we design a source attention-based mechanism to incorporate the\nlanguage information from the LD decoder output into text embeddings.\nExperimental results demonstrate that our approach achieves state-of-the-art\nperformance on the SEAME, ASRU200, and ASRU700+LibriSpeech460 Mandarin-English\ncode-switching ASR datasets.\n",
+  "subjects": [
+    "Computer Science/Sound",
+    "Electrical Engineering and Systems Science/Audio and Speech Processing"
+  ],
+  "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+  "blobId": "-1xBfqQatyXfHx2Ey17ofQKTw1O7dfvs3gUbwoCFW0E",
+  "pdfSize": "417506"
+}

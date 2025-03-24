@@ -1,0 +1,42 @@
+{
+  "id": "2412.14174",
+  "title": "Steering Large Text-to-Image Model for Abstract Art Synthesis:\n  Preference-based Prompt Optimization and Visualization",
+  "authors": "Aven-Le Zhou, Wei Wu, Yu-Ao Wang, Kang Zhang",
+  "authorsParsed": [
+    [
+      "Zhou",
+      "Aven-Le",
+      ""
+    ],
+    [
+      "Wu",
+      "Wei",
+      ""
+    ],
+    [
+      "Wang",
+      "Yu-Ao",
+      ""
+    ],
+    [
+      "Zhang",
+      "Kang",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 18 Nov 2024 06:15:36 GMT"
+    }
+  ],
+  "updateDate": "2024-12-20",
+  "timestamp": 1731910536000,
+  "abstract": "  With the advancement of neural generative capabilities, the art community has\nincreasingly embraced GenAI (Generative Artificial Intelligence), particularly\nlarge text-to-image models, for producing aesthetically compelling results.\nHowever, the process often lacks determinism and requires a tedious\ntrial-and-error process as users often struggle to devise effective prompts to\nachieve their desired outcomes. This paper introduces a prompting-free\ngenerative approach that applies a genetic algorithm and real-time iterative\nhuman feedback to optimize prompt generation, enabling the creation of\nuser-preferred abstract art through a customized Artist Model. The proposed\ntwo-part approach begins with constructing an Artist Model capable of\ndeterministically generating abstract art in specific styles, e.g., Kandinsky's\nBauhaus style. The second phase integrates real-time user feedback to optimize\nthe prompt generation and obtains an Optimized Prompting Model, which adapts to\nuser preferences and generates prompts automatically. When combined with the\nArtist Model, this approach allows users to create abstract art tailored to\ntheir personal preferences and artistic style.\n",
+  "subjects": [
+    "Computer Science/Human-Computer Interaction"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "ddUzl0vjU72iK1Gnu7KnapAhTq3C7aVEYa2XBZIFfVk",
+  "pdfSize": "5084807"
+}

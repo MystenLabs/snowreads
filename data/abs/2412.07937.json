@@ -1,0 +1,57 @@
+{
+  "id": "2412.07937",
+  "title": "Style-agnostic evaluation of ASR using multiple reference transcripts",
+  "authors": "Quinten McNamara, Miguel \\'Angel del R\\'io Fern\\'andez, Nishchal\n  Bhandari, Martin Ratajczak, Danny Chen, Corey Miller and Mig\\\"uel Jett\\'e",
+  "authorsParsed": [
+    [
+      "McNamara",
+      "Quinten",
+      ""
+    ],
+    [
+      "Fernández",
+      "Miguel Ángel del Río",
+      ""
+    ],
+    [
+      "Bhandari",
+      "Nishchal",
+      ""
+    ],
+    [
+      "Ratajczak",
+      "Martin",
+      ""
+    ],
+    [
+      "Chen",
+      "Danny",
+      ""
+    ],
+    [
+      "Miller",
+      "Corey",
+      ""
+    ],
+    [
+      "Jetté",
+      "Migüel",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 10 Dec 2024 21:47:15 GMT"
+    }
+  ],
+  "updateDate": "2024-12-12",
+  "timestamp": 1733867235000,
+  "abstract": "  Word error rate (WER) as a metric has a variety of limitations that have\nplagued the field of speech recognition. Evaluation datasets suffer from\nvarying style, formality, and inherent ambiguity of the transcription task. In\nthis work, we attempt to mitigate some of these differences by performing\nstyle-agnostic evaluation of ASR systems using multiple references transcribed\nunder opposing style parameters. As a result, we find that existing WER reports\nare likely significantly over-estimating the number of contentful errors made\nby state-of-the-art ASR systems. In addition, we have found our multireference\nmethod to be a useful mechanism for comparing the quality of ASR models that\ndiffer in the stylistic makeup of their training data and target task.\n",
+  "subjects": [
+    "Computer Science/Computation and Language"
+  ],
+  "license": "http://creativecommons.org/licenses/by-sa/4.0/",
+  "blobId": "5h02HAC9cLWxnwHvP8kqHvUZ0Fmpu_KkthG_F3T9BD8",
+  "pdfSize": "536232"
+}

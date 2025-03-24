@@ -1,0 +1,28 @@
+{
+  "id": "2412.10577",
+  "title": "Lanes and lattice structures in a repulsive model for self-propelled\n  agents",
+  "authors": "P. Bisht",
+  "authorsParsed": [
+    [
+      "Bisht",
+      "P.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 13 Dec 2024 21:38:40 GMT"
+    }
+  ],
+  "updateDate": "2024-12-17",
+  "timestamp": 1734125920000,
+  "abstract": "  We investigate a simple Vicsek-type rule-based model for self-propelled\nparticles, where each particle orients itself antiparallel to the average\norientation of particles within a defined neighborhood of radius $R$. The\nparticle orientation is updated asynchronously and randomly across the system.\nIn steady state, particles self-organize into clusters-despite the repulsive\ninteraction-and form two interwoven hexagonal lattices moving in opposite\ndirections chosen spontaneously. Increasing noise in the reorientation step\nreduces the laning effect, but the global crystalline order remains intact at\nsufficiently high densities. The mean-squared displacement exhibits\nsuper-diffusive growth $ \\sim t^{3/2} $ in the transient phase, transitioning\nto ballistic motion $ \\sim t^2 $ in the steady state in the high density and\nzero noise regime. With an increase in noise and/or decrease in density, the\nmean-squared displacement grows diffusively $ \\sim t $. We observe a cutoff for\nthe ratio $ \\frac{R}{L} \\sim 0.2-0.3 $, below which laning and crystallization\nis achieved, suggesting a local but non-microscopic sphere of influence is\nrequired to initiate laning.\n",
+  "subjects": [
+    "Condensed Matter/Soft Condensed Matter",
+    "Condensed Matter/Statistical Mechanics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "Qu411WxYWzWcw49gG6PkSgSzPj39oJWlP88mZQWuVv4",
+  "pdfSize": "11367203"
+}

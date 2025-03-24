@@ -1,0 +1,58 @@
+{
+  "id": "2412.20879",
+  "title": "The RISTRETTO simulator: Exoplanet reflected spectra",
+  "authors": "M. Bugatti, C. Lovis, F. Pepe, N. Blind, N. Billot, B. Chazelas, and\n  M. Turbet",
+  "authorsParsed": [
+    [
+      "Bugatti",
+      "M.",
+      ""
+    ],
+    [
+      "Lovis",
+      "C.",
+      ""
+    ],
+    [
+      "Pepe",
+      "F.",
+      ""
+    ],
+    [
+      "Blind",
+      "N.",
+      ""
+    ],
+    [
+      "Billot",
+      "N.",
+      ""
+    ],
+    [
+      "Chazelas",
+      "B.",
+      ""
+    ],
+    [
+      "Turbet",
+      "M.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 30 Dec 2024 11:39:49 GMT"
+    }
+  ],
+  "updateDate": "2024-12-31",
+  "timestamp": 1735558789000,
+  "abstract": "  The upcoming Ristretto spectrograph is dedicated to the detection and\nanalysis of exoplanetary atmospheres, with a primary focus on the temperate\nrocky world Proxima b. This scientific endeavor relies on the interplay of a\nhigh-contrast adaptive optics (AO) system and a high-resolution echelle\nspectrograph. In this work, I present a comprehensive simulation of Ristretto's\noutput spectra, employing the Python package Pyechelle. Starting from realistic\nspectra of both exoplanets and their host stars, I generate synthetic 2D\nspectra to closely resemble those that will be produced by Ristretto itself.\nThese synthetic spectra are subsequently treated as authentic data and\ntherefore analyzed. These simulations facilitate not only the investigation of\npotential exoplanetary atmospheres but also an in-depth assessment of the\ninherent capabilities and limitations of the Ristretto spectrograph.\n",
+  "subjects": [
+    "Astrophysics/Instrumentation and Methods for Astrophysics",
+    "Astrophysics/Earth and Planetary Astrophysics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "8VCl_gVz3Bddk3Z_j3DJl_gtrmvqi-eOHAYkBBfG4dg",
+  "pdfSize": "3725724"
+}

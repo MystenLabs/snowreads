@@ -1,0 +1,39 @@
+{
+  "id": "2412.13082",
+  "title": "Polyhedral Control Design: Theory and Methods",
+  "authors": "Boris Houska and Matthias A. M\\\"uller and Mario E. Villanueva",
+  "authorsParsed": [
+    [
+      "Houska",
+      "Boris",
+      ""
+    ],
+    [
+      "Müller",
+      "Matthias A.",
+      ""
+    ],
+    [
+      "Villanueva",
+      "Mario E.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 17 Dec 2024 16:55:04 GMT"
+    }
+  ],
+  "updateDate": "2024-12-18",
+  "timestamp": 1734454504000,
+  "abstract": "  In this article, we survey the primary research on polyhedral computing\nmethods for constrained linear control systems. Our focus is on the modeling\npower of convex optimization, featured to design set-based robust and optimal\ncontrollers. In detail, we review the state-of-the-art techniques for computing\ngeometric structures such as robust control invariant polytopes. Moreover, we\nsurvey recent methods for constructing control Lyapunov functions with\npolyhedral epigraphs as well as the extensive literature on robust model\npredictive control. The article concludes with a discussion of both the\ncomplexity and potential of polyhedral computing methods that rely on\nlarge-scale convex optimization.\n",
+  "subjects": [
+    "Mathematics/Optimization and Control",
+    "Computer Science/Systems and Control",
+    "Electrical Engineering and Systems Science/Systems and Control"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "l72vaQIiX1k2lINXC1ATt34swSZWyg4Sri5IuJYNdhI",
+  "pdfSize": "510748"
+}

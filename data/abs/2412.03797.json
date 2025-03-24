@@ -1,0 +1,47 @@
+{
+  "id": "2412.03797",
+  "title": "A Two-stage Approach for Variable Selection in Joint Modeling of\n  Multiple Longitudinal Markers and Competing Risk Outcomes",
+  "authors": "Taban Baghfalaki, Reza Hashemi, Christophe Tzourio, Catherine Helmer,\n  Helene Jacqmin-Gadda",
+  "authorsParsed": [
+    [
+      "Baghfalaki",
+      "Taban",
+      ""
+    ],
+    [
+      "Hashemi",
+      "Reza",
+      ""
+    ],
+    [
+      "Tzourio",
+      "Christophe",
+      ""
+    ],
+    [
+      "Helmer",
+      "Catherine",
+      ""
+    ],
+    [
+      "Jacqmin-Gadda",
+      "Helene",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 5 Dec 2024 01:37:39 GMT"
+    }
+  ],
+  "updateDate": "2024-12-06",
+  "timestamp": 1733362659000,
+  "abstract": "  Background: In clinical and epidemiological research, the integration of\nlongitudinal measurements and time-to-event outcomes is vital for understanding\nrelationships and improving risk prediction. However, as the number of\nlongitudinal markers increases, joint model estimation becomes more complex,\nleading to long computation times and convergence issues. This study introduces\na novel two-stage Bayesian approach for variable selection in joint models,\nillustrated through a practical application.\n  Methods: Our approach conceptualizes the analysis in two stages. In the first\nstage, we estimate one-marker joint models for each longitudinal marker related\nto the event, allowing for bias reduction from informative dropouts through\nindividual marker trajectory predictions. The second stage employs a\nproportional hazard model that incorporates expected current values of all\nmarkers as time-dependent covariates. We explore continuous and Dirac\nspike-and-slab priors for variable selection, utilizing Markov chain Monte\nCarlo (MCMC) techniques.\n  Results: The proposed method addresses the challenges of parameter estimation\nand risk prediction with numerous longitudinal markers, demonstrating robust\nperformance through simulation studies. We further validate our approach by\npredicting dementia risk using the Three-City (3C) dataset, a longitudinal\ncohort study from France.\n  Conclusions: This two-stage Bayesian method offers an efficient process for\nvariable selection in joint modeling, enhancing risk prediction capabilities in\nlongitudinal studies. The accompanying R package VSJM, which is freely\navailable at https://github.com/tbaghfalaki/VSJM, facilitates implementation,\nmaking this approach accessible for diverse clinical applications.\n",
+  "subjects": [
+    "Statistics/Methodology"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "rIKHzND7CqPJdvXKWArOd4nMSBcew4is_pHYRnyc5xw",
+  "pdfSize": "989192"
+}

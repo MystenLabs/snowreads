@@ -1,0 +1,74 @@
+{
+  "id": "2412.16215",
+  "title": "Zero-Shot Image Moderation in Google Ads with LLM-Assisted Textual\n  Descriptions and Cross-modal Co-embeddings",
+  "authors": "Enming Luo, Wei Qiao, Katie Warren, Jingxiang Li, Eric Xiao, Krishna\n  Viswanathan, Yuan Wang, Yintao Liu, Jimin Li, Ariel Fuxman",
+  "authorsParsed": [
+    [
+      "Luo",
+      "Enming",
+      ""
+    ],
+    [
+      "Qiao",
+      "Wei",
+      ""
+    ],
+    [
+      "Warren",
+      "Katie",
+      ""
+    ],
+    [
+      "Li",
+      "Jingxiang",
+      ""
+    ],
+    [
+      "Xiao",
+      "Eric",
+      ""
+    ],
+    [
+      "Viswanathan",
+      "Krishna",
+      ""
+    ],
+    [
+      "Wang",
+      "Yuan",
+      ""
+    ],
+    [
+      "Liu",
+      "Yintao",
+      ""
+    ],
+    [
+      "Li",
+      "Jimin",
+      ""
+    ],
+    [
+      "Fuxman",
+      "Ariel",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 18 Dec 2024 01:37:53 GMT"
+    }
+  ],
+  "updateDate": "2024-12-24",
+  "timestamp": 1734485873000,
+  "abstract": "  We present a scalable and agile approach for ads image content moderation at\nGoogle, addressing the challenges of moderating massive volumes of ads with\ndiverse content and evolving policies. The proposed method utilizes\nhuman-curated textual descriptions and cross-modal text-image co-embeddings to\nenable zero-shot classification of policy violating ads images, bypassing the\nneed for extensive supervised training data and human labeling. By leveraging\nlarge language models (LLMs) and user expertise, the system generates and\nrefines a comprehensive set of textual descriptions representing policy\nguidelines. During inference, co-embedding similarity between incoming images\nand the textual descriptions serves as a reliable signal for policy violation\ndetection, enabling efficient and adaptable ads content moderation. Evaluation\nresults demonstrate the efficacy of this framework in significantly boosting\nthe detection of policy violating content.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Information Retrieval"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "QrnZfzpl5KMVjHj3OA996UckPOSYhMCrJJFaTStGNpY",
+  "pdfSize": "790094"
+}

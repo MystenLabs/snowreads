@@ -1,0 +1,52 @@
+{
+  "id": "2412.17438",
+  "title": "Markov Process-Based Graph Convolutional Networks for Entity\n  Classification in Knowledge Graphs",
+  "authors": "Johannes M\\\"akelburg, Yiwen Peng, Mehwish Alam, Tobias Weller, Maribel\n  Acosta",
+  "authorsParsed": [
+    [
+      "Mäkelburg",
+      "Johannes",
+      ""
+    ],
+    [
+      "Peng",
+      "Yiwen",
+      ""
+    ],
+    [
+      "Alam",
+      "Mehwish",
+      ""
+    ],
+    [
+      "Weller",
+      "Tobias",
+      ""
+    ],
+    [
+      "Acosta",
+      "Maribel",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 23 Dec 2024 09:59:49 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Fri, 27 Dec 2024 11:49:53 GMT"
+    }
+  ],
+  "updateDate": "2024-12-30",
+  "timestamp": 1734947989000,
+  "abstract": "  Despite the vast amount of information encoded in Knowledge Graphs (KGs),\ninformation about the class affiliation of entities remains often incomplete.\nGraph Convolutional Networks (GCNs) have been shown to be effective predictors\nof complete information about the class affiliation of entities in KGs.\nHowever, these models do not learn the class affiliation of entities in KGs\nincorporating the complexity of the task, which negatively affects the models\nprediction capabilities. To address this problem, we introduce a Markov\nprocess-based architecture into well-known GCN architectures. This end-to-end\nnetwork learns the prediction of class affiliation of entities in KGs within a\nMarkov process. The number of computational steps is learned during training\nusing a geometric distribution. At the same time, the loss function combines\ninsights from the field of evidential learning. The experiments show a\nperformance improvement over existing models in several studied architectures\nand datasets. Based on the chosen hyperparameters for the geometric\ndistribution, the expected number of computation steps can be adjusted to\nimprove efficiency and accuracy during training.\n",
+  "subjects": [
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "WyDFkvDci_5YpKU1hIc4Pw6qHwp_qxhR8Ekv8xoZ1Y0",
+  "pdfSize": "1109248"
+}

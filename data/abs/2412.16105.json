@@ -1,0 +1,33 @@
+{
+  "id": "2412.16105",
+  "title": "Quantifying the benefit of load uncertainty reduction for the design of\n  district energy systems under grid constraints using the Value of Information",
+  "authors": "Max Langtry, Ruchi Choudhary",
+  "authorsParsed": [
+    [
+      "Langtry",
+      "Max",
+      ""
+    ],
+    [
+      "Choudhary",
+      "Ruchi",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 20 Dec 2024 17:45:56 GMT"
+    }
+  ],
+  "updateDate": "2024-12-23",
+  "timestamp": 1734716756000,
+  "abstract": "  Load uncertainty must be accounted for during design to ensure building\nenergy systems can meet energy demands during operation. Reducing building load\nuncertainty allows for improved designs with less compromise to be identified,\nreducing the cost of decarbonizing energy usage. However, the building\nmonitoring required to reduce load uncertainty is costly. This study quantifies\nthe economic benefit of practical building monitoring for supporting energy\nsystem design decisions, to determine if its benefits outweigh its cost. Value\nof Information analysis (VoI) is a numerical framework for quantifying the\nbenefit of uncertainty reduction to support decision making. An extension of\nthe framework, termed 'On-Policy' VoI, is proposed, which admits complex\ndecision making tasks where decision policies are required. This is applied to\na case study district energy system design problem, where a Linear Program\nmodel is used to size solar-battery systems and grid connection capacity under\nuncertain building loads, modelled using historic electricity metering data.\nLoad uncertainty is found to have a significant impact on both system operating\ncosts (\\pm30%) and the optimal system design (\\pm20%). However, using building\nmonitoring is found to reduce overall costs by less than 2% on average, less\nthan the cost of measurement, and is therefore not economically worthwhile.\nThis provides the first numerical evidence to support the sufficiency of using\nstandard building load profiles for energy system design. Further, reducing\nonly uncertainty in mean load is found to provide all available decision\nsupport benefit, meaning using hourly measurement data provides no benefit for\nenergy retrofit design.\n",
+  "subjects": [
+    "Electrical Engineering and Systems Science/Systems and Control",
+    "Computer Science/Systems and Control"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "4KYJsdFgvrCCFECp8uUxb3K5u_XqaPIBbQISU4S45n0",
+  "pdfSize": "7330148"
+}

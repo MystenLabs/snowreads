@@ -1,0 +1,43 @@
+{
+  "id": "2412.01726",
+  "title": "Unraveling the Dusty Environment Around RT Vir",
+  "authors": "Michael D. Preston, Angela K. Speck, Beth Sargent, Sean Dillon",
+  "authorsParsed": [
+    [
+      "Preston",
+      "Michael D.",
+      ""
+    ],
+    [
+      "Speck",
+      "Angela K.",
+      ""
+    ],
+    [
+      "Sargent",
+      "Beth",
+      ""
+    ],
+    [
+      "Dillon",
+      "Sean",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 2 Dec 2024 17:16:44 GMT"
+    }
+  ],
+  "updateDate": "2024-12-03",
+  "timestamp": 1733159804000,
+  "abstract": "  Infrared studies of asymptotic giant branch (AGB) stars are critical to our\nunderstanding of the formation of cosmic dust. In this investigation, we\nexplore the mid-to-far-infrared emission of oxygen rich AGB star RT Virginis.\nThis optically thin dusty environment has unusual spectral features when\ncompared to other stars in its class. To explore this enigmatic object we use\nthe 1-D radiative transfer modeling code DUSTY. Modeled spectra are compared\nwith observations from the Infrared Space Observatory (ISO), InfraRed\nAstronomical Satellite (IRAS), the Herschel Space Observatory and a host of\nother sources to determine the properties of RT Vir's circumstellar material.\nOur models suggest a set of two distant and cool dust shells at low optical\ndepths (tauV,inner = 0.16, tauV,outer = 0.06), with inner dust temperatures: T1\n= 330K, T3 = 94K. Overall, these dust shells exhibit a chemical composition\nconsistent with dust typically found around O-rich AGB stars. However, the\ndistribution of materials differs significantly. The inner shell consists of a\nmixture of silicates, Al2O3, FeO, and Fe, while the outer shell primarily\ncontains crystalline Al2O3 polymorphs. This chemical change is indicative of\ntwo distinct epochs of dust formation around RT Vir. These changes in dust\ncomposition are driven by either changes in the pressure-temperature conditions\naround the star, or by a decrease in the C/O ratio due to hot-bottom burning.\n",
+  "subjects": [
+    "Astrophysics/Solar and Stellar Astrophysics",
+    "Astrophysics/Astrophysics of Galaxies"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "KdMVT56uePghVNiZE6si4wobUPsWc4h_ywyrO0tWtA4",
+  "pdfSize": "1804425"
+}

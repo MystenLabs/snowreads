@@ -1,0 +1,37 @@
+{
+  "id": "2412.03750",
+  "title": "Alternating snake modules and a determinantal formula",
+  "authors": "Matheus Brito and Vyjayanthi Chari",
+  "authorsParsed": [
+    [
+      "Brito",
+      "Matheus",
+      ""
+    ],
+    [
+      "Chari",
+      "Vyjayanthi",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 4 Dec 2024 22:40:39 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Mon, 3 Feb 2025 18:44:35 GMT"
+    }
+  ],
+  "updateDate": "2025-02-04",
+  "timestamp": 1733352039000,
+  "abstract": "  We introduce a family of modules for the quantum affine algebra which include\nas very special cases both the snake modules and the modules arising from a\nmonoidal categorification of cluster algebras. We give necessary and sufficient\nconditions for these modules to be prime and prove a unique factorization\nresult. We also give an explicit formula expressing the module as an\nalternating sum of Weyl modules. Finally, we give an application of our results\nto classical questions in the category $\\mathcal{ O}(\\mathfrak{gl}_r)$.\nSpecifically we apply our results to show that there are a large family of\nnon-regular, non-dominant weights $\\mu$ for which the non-zero Kazhdan-Lusztig\ncoefficients $c_{\\mu, \\nu}$ are $\\pm 1$.\n",
+  "subjects": [
+    "Mathematics/Representation Theory",
+    "Mathematics/Quantum Algebra"
+  ],
+  "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+  "blobId": "k5tHLjtOQBntBc689BCtKssP8t8a9nhPmHLt2x4frOE",
+  "pdfSize": "438025"
+}

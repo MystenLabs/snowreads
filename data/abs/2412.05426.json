@@ -1,0 +1,50 @@
+{
+  "id": "2412.05426",
+  "title": "What's the Move? Hybrid Imitation Learning via Salient Points",
+  "authors": "Priya Sundaresan, Hengyuan Hu, Quan Vuong, Jeannette Bohg, Dorsa\n  Sadigh",
+  "authorsParsed": [
+    [
+      "Sundaresan",
+      "Priya",
+      ""
+    ],
+    [
+      "Hu",
+      "Hengyuan",
+      ""
+    ],
+    [
+      "Vuong",
+      "Quan",
+      ""
+    ],
+    [
+      "Bohg",
+      "Jeannette",
+      ""
+    ],
+    [
+      "Sadigh",
+      "Dorsa",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 6 Dec 2024 21:17:14 GMT"
+    }
+  ],
+  "updateDate": "2024-12-10",
+  "timestamp": 1733519834000,
+  "abstract": "  While imitation learning (IL) offers a promising framework for teaching\nrobots various behaviors, learning complex tasks remains challenging. Existing\nIL policies struggle to generalize effectively across visual and spatial\nvariations even for simple tasks. In this work, we introduce SPHINX: Salient\nPoint-based Hybrid ImitatioN and eXecution, a flexible IL policy that leverages\nmultimodal observations (point clouds and wrist images), along with a hybrid\naction space of low-frequency, sparse waypoints and high-frequency, dense end\neffector movements. Given 3D point cloud observations, SPHINX learns to infer\ntask-relevant points within a point cloud, or salient points, which support\nspatial generalization by focusing on semantically meaningful features. These\nsalient points serve as anchor points to predict waypoints for long-range\nmovement, such as reaching target poses in free-space. Once near a salient\npoint, SPHINX learns to switch to predicting dense end-effector movements given\nclose-up wrist images for precise phases of a task. By exploiting the strengths\nof different input modalities and action representations for different\nmanipulation phases, SPHINX tackles complex tasks in a sample-efficient,\ngeneralizable manner. Our method achieves 86.7% success across 4 real-world and\n2 simulated tasks, outperforming the next best state-of-the-art IL baseline by\n41.1% on average across 440 real world trials. SPHINX additionally generalizes\nto novel viewpoints, visual distractors, spatial arrangements, and execution\nspeeds with a 1.7x speedup over the most competitive baseline. Our website\n(http://sphinx-manip.github.io) provides open-sourced code for data collection,\ntraining, and evaluation, along with supplementary videos.\n",
+  "subjects": [
+    "Computer Science/Robotics",
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "Gt94S8Nzg8LtPHdQm2D1_PmRTqqDzAAXV-vDA6BLifU",
+  "pdfSize": "14016964"
+}

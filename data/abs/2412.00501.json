@@ -1,0 +1,57 @@
+{
+  "id": "2412.00501",
+  "title": "Point n Move: Designing a Glove-Based Pointing Device",
+  "authors": "Sealtiel B. Dy, Robert Joachim O. Encinas, Daphne Janelyn L. Go, Kyle\n  Carlo C. Lasala, Bentley Andrew Y. Lu, Maria Monica Manlises and Jordan Aiko\n  Deja",
+  "authorsParsed": [
+    [
+      "Dy",
+      "Sealtiel B.",
+      ""
+    ],
+    [
+      "Encinas",
+      "Robert Joachim O.",
+      ""
+    ],
+    [
+      "Go",
+      "Daphne Janelyn L.",
+      ""
+    ],
+    [
+      "Lasala",
+      "Kyle Carlo C.",
+      ""
+    ],
+    [
+      "Lu",
+      "Bentley Andrew Y.",
+      ""
+    ],
+    [
+      "Manlises",
+      "Maria Monica",
+      ""
+    ],
+    [
+      "Deja",
+      "Jordan Aiko",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 30 Nov 2024 15:00:29 GMT"
+    }
+  ],
+  "updateDate": "2024-12-03",
+  "timestamp": 1732978829000,
+  "abstract": "  In-person presentations commonly depend on projectors or screens, requiring\ninput devices for slide transitions and laser pointing. This paper introduces a\nglove-based pointer device that integrates these functions, offering an\nalternative to conventional tools. The device leverages accelerometer and\ngyroscope technology to enhance precision and usability. We evaluated its\nperformance by comparing it to the original CheerPod interface in hierarchical\nmenu navigation tasks, involving participants aged 18 to 25. Results indicate\ntask completion times ranging from 9 to 15 seconds with the proposed device,\nhighlighting its efficiency and consistency. While the original CheerPod\ninterface performed adequately, the glove-based pointer demonstrated advantages\nin reliability across tasks. These findings contribute to the design\nconsiderations for wearable input devices and suggest pathways for future\nimprovements in presentation tools.\n",
+  "subjects": [
+    "Computer Science/Human-Computer Interaction"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "WF55TE8EGTEnh8Kxf3wt13cAao41GaJfnBRFkZd6i-M",
+  "pdfSize": "1315691"
+}

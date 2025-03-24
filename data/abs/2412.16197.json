@@ -1,0 +1,45 @@
+{
+  "id": "2412.16197",
+  "title": "Generalizable Representation Learning for fMRI-based Neurological\n  Disorder Identification",
+  "authors": "Wenhui Cui, Haleh Akrami, Anand A. Joshi, Richard M. Leahy",
+  "authorsParsed": [
+    [
+      "Cui",
+      "Wenhui",
+      ""
+    ],
+    [
+      "Akrami",
+      "Haleh",
+      ""
+    ],
+    [
+      "Joshi",
+      "Anand A.",
+      ""
+    ],
+    [
+      "Leahy",
+      "Richard M.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 16 Dec 2024 22:07:35 GMT"
+    }
+  ],
+  "updateDate": "2024-12-24",
+  "timestamp": 1734386855000,
+  "abstract": "  Despite the impressive advances achieved using deep learning for functional\nbrain activity analysis, the heterogeneity of functional patterns and the\nscarcity of imaging data still pose challenges in tasks such as identifying\nneurological disorders. For functional Magnetic Resonance Imaging (fMRI), while\ndata may be abundantly available from healthy controls, clinical data is often\nscarce, especially for rare diseases, limiting the ability of models to\nidentify clinically-relevant features. We overcome this limitation by\nintroducing a novel representation learning strategy integrating meta-learning\nwith self-supervised learning to improve the generalization from normal to\nclinical features. This approach enables generalization to challenging clinical\ntasks featuring scarce training data. We achieve this by leveraging\nself-supervised learning on the control dataset to focus on inherent features\nthat are not limited to a particular supervised task and incorporating\nmeta-learning to improve the generalization across domains. To explore the\ngeneralizability of the learned representations to unseen clinical\napplications, we apply the model to four distinct clinical datasets featuring\nscarce and heterogeneous data for neurological disorder classification. Results\ndemonstrate the superiority of our representation learning strategy on diverse\nclinically-relevant tasks.\n",
+  "subjects": [
+    "Electrical Engineering and Systems Science/Image and Video Processing",
+    "Computer Science/Computational Engineering, Finance, and Science",
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "gMQzNJmgKHe1rQsxLyY_Bn96DsZN9GjXfu_DIN3Slck",
+  "pdfSize": "1896091"
+}

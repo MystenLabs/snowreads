@@ -1,0 +1,33 @@
+{
+  "id": "2412.17045",
+  "title": "The Sound of Decoherence",
+  "authors": "Robson Christie, James Trayford",
+  "authorsParsed": [
+    [
+      "Christie",
+      "Robson",
+      ""
+    ],
+    [
+      "Trayford",
+      "James",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 22 Dec 2024 14:55:25 GMT"
+    }
+  ],
+  "updateDate": "2024-12-24",
+  "timestamp": 1734879325000,
+  "abstract": "  We explore an unconventional bridge between quantum mechanical density\nmatrices and sound by mapping elements of the density matrix and their phases\nto auditory signals, thus introducing a framework for Open Quantum\nSonification. Employing the eigenstates of the Hamiltonian operator as a basis,\neach quantum state contributes a frequency proportional to its energy level.\nThe off-diagonal terms, which encode coherence and phase relationships between\nenergy levels, are rendered as binaural signals presented separately to the\nleft and right ears. We illustrate this method within the context of open\nquantum system dynamics governed by Lindblad equations, presenting first an\nexample of quantum Brownian motion of a particle in a thermal bath, and second,\na recoherence process induced by boundary driving that results in spin-helix\nstates. This document serves as a companion to the corresponding audio visual\nsimulations of these models available on the YouTube channel Open Quantum\nSonification with the Python Codes on GitHub. The auditory analogy presented\nhere provides an intuitive and experiential means of describing quantum\nphenomena such as tunnelling, thermalisation, decoherence, and recoherence.\n",
+  "subjects": [
+    "Physics/Quantum Physics",
+    "Physics/Physics Education"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "5xxBScH8XkJZutAJwuKz_pJYLyGUhwSB7VmirZsxBLU",
+  "pdfSize": "470367"
+}

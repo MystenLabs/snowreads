@@ -1,0 +1,48 @@
+{
+  "id": "2412.11959",
+  "title": "Gramian Multimodal Representation Learning and Alignment",
+  "authors": "Giordano Cicchetti, Eleonora Grassucci, Luigi Sigillo, Danilo\n  Comminiello",
+  "authorsParsed": [
+    [
+      "Cicchetti",
+      "Giordano",
+      ""
+    ],
+    [
+      "Grassucci",
+      "Eleonora",
+      ""
+    ],
+    [
+      "Sigillo",
+      "Luigi",
+      ""
+    ],
+    [
+      "Comminiello",
+      "Danilo",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 16 Dec 2024 16:41:51 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Wed, 12 Feb 2025 13:25:10 GMT"
+    }
+  ],
+  "updateDate": "2025-02-13",
+  "timestamp": 1734367311000,
+  "abstract": "  Human perception integrates multiple modalities, such as vision, hearing, and\nlanguage, into a unified understanding of the surrounding reality. While recent\nmultimodal models have achieved significant progress by aligning pairs of\nmodalities via contrastive learning, their solutions are unsuitable when\nscaling to multiple modalities. These models typically align each modality to a\ndesignated anchor without ensuring the alignment of all modalities with each\nother, leading to suboptimal performance in tasks requiring a joint\nunderstanding of multiple modalities. In this paper, we structurally rethink\nthe pairwise conventional approach to multimodal learning and we present the\nnovel Gramian Representation Alignment Measure (GRAM), which overcomes the\nabove-mentioned limitations. GRAM learns and then aligns $n$ modalities\ndirectly in the higher-dimensional space in which modality embeddings lie by\nminimizing the Gramian volume of the $k$-dimensional parallelotope spanned by\nthe modality vectors, ensuring the geometric alignment of all modalities\nsimultaneously. GRAM can replace cosine similarity in any downstream method,\nholding for 2 to $n$ modalities and providing more meaningful alignment with\nrespect to previous similarity measures. The novel GRAM-based contrastive loss\nfunction enhances the alignment of multimodal models in the higher-dimensional\nembedding space, leading to new state-of-the-art performance in downstream\ntasks such as video-audio-text retrieval and audio-video classification. The\nproject page, the code, and the pretrained models are available at\nhttps://ispamm.github.io/GRAM/.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "oz27nsbcE50NE4NzitTUPo9-kBJXlko-iEIsWLn0ZNA",
+  "pdfSize": "14821618"
+}

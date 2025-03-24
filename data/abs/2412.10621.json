@@ -1,0 +1,43 @@
+{
+  "id": "2412.10621",
+  "title": "WaveGNN: Modeling Irregular Multivariate Time Series for Accurate\n  Predictions",
+  "authors": "Arash Hajisafi, Maria Despoina Siampou, Bita Azarijoo, Cyrus Shahabi",
+  "authorsParsed": [
+    [
+      "Hajisafi",
+      "Arash",
+      ""
+    ],
+    [
+      "Siampou",
+      "Maria Despoina",
+      ""
+    ],
+    [
+      "Azarijoo",
+      "Bita",
+      ""
+    ],
+    [
+      "Shahabi",
+      "Cyrus",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 14 Dec 2024 00:03:44 GMT"
+    }
+  ],
+  "updateDate": "2024-12-17",
+  "timestamp": 1734134624000,
+  "abstract": "  Accurately modeling and analyzing time series data is crucial for downstream\napplications across various fields, including healthcare, finance, astronomy,\nand epidemiology. However, real-world time series often exhibit irregularities\nsuch as misaligned timestamps, missing entries, and variable sampling rates,\ncomplicating their analysis. Existing approaches often rely on imputation,\nwhich can introduce biases. A few approaches that directly model irregularity\ntend to focus exclusively on either capturing intra-series patterns or\ninter-series relationships, missing the benefits of integrating both. To this\nend, we present WaveGNN, a novel framework designed to directly (i.e., no\nimputation) embed irregularly sampled multivariate time series data for\naccurate predictions. WaveGNN utilizes a Transformer-based encoder to capture\nintra-series patterns by directly encoding the temporal dynamics of each time\nseries. To capture inter-series relationships, WaveGNN uses a dynamic graph\nneural network model, where each node represents a sensor, and the edges\ncapture the long- and short-term relationships between them. Our experimental\nresults on real-world healthcare datasets demonstrate that WaveGNN consistently\noutperforms existing state-of-the-art methods, with an average relative\nimprovement of 14.7% in F1-score when compared to the second-best baseline in\ncases with extreme sparsity. Our ablation studies reveal that both intra-series\nand inter-series modeling significantly contribute to this notable improvement.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "MaDhJFfk6DKkyYgum8wPZ4oAKcySzC18jENZByrpIMQ",
+  "pdfSize": "568533"
+}

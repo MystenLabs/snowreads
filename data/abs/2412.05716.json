@@ -1,0 +1,47 @@
+{
+  "id": "2412.05716",
+  "title": "Elasto-frictional reduced model of a cyclically sheared container filled\n  with particles",
+  "authors": "A. Faulconnier, S. Job, J. Brocail, N. Peyret and J.-L. Dion",
+  "authorsParsed": [
+    [
+      "Faulconnier",
+      "A.",
+      ""
+    ],
+    [
+      "Job",
+      "S.",
+      ""
+    ],
+    [
+      "Brocail",
+      "J.",
+      ""
+    ],
+    [
+      "Peyret",
+      "N.",
+      ""
+    ],
+    [
+      "Dion",
+      "J. -L.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 7 Dec 2024 18:28:14 GMT"
+    }
+  ],
+  "updateDate": "2024-12-10",
+  "timestamp": 1733596094000,
+  "abstract": "  This article explores the hysteretic behavior and the damping features of\nsheared granular media using discrete element method (DEM) simulations. We\nconsider polydisperse non-cohesive frictional spherical particles, enclosed in\na container with rigid but moving walls, submitted to a cyclic simple shear\nsuperimposed to a confining pressure. The mechanical response of the grains is\nanalyzed in the permanent regime, by fitting the macroscopic stress-strain\nrelation applied to the box with a Dahl-like elasto-frictional model. The\ninfluence of several parameters such as the amplitude of the strain, the\nconfining pressure, the elasticity, the friction coefficient, the size and the\nnumber of particles are explored. We find that the fitted parameters of our\nmacroscopic Ansatz qualitatively rely on both a well-established effective\nmedium theory of confined granular media and a well-documented rheology of\ngranular flow. Quantitatively, we demonstrate that the single degree-of-freedom\nelasto-frictional reduced model reliably describes the nonlinear response of\nthe granular layer over a wide range of operating conditions. In particular, we\nshow that the mechanical response of a granular slab under simple shear depends\non an unique dimensionless parameter, akin to an effective Coulomb threshold,\nat low shear/high pressure. Further, exploring higher shear/lower pressure, we\nevidence an optimal damping at the crossover between a loose unjammed regime\nand a dense elastic regime.\n",
+  "subjects": [
+    "Condensed Matter/Soft Condensed Matter"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "psodHM2rH5IA73FPq_hsrL6xJFrAURN7rzmtcSDhlLA",
+  "pdfSize": "1541983"
+}

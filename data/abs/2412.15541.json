@@ -1,0 +1,53 @@
+{
+  "id": "2412.15541",
+  "title": "ChangeDiff: A Multi-Temporal Change Detection Data Generator with\n  Flexible Text Prompts via Diffusion Model",
+  "authors": "Qi Zang, Jiayi Yang, Shuang Wang, Dong Zhao, Wenjun Yi, Zhun Zhong",
+  "authorsParsed": [
+    [
+      "Zang",
+      "Qi",
+      ""
+    ],
+    [
+      "Yang",
+      "Jiayi",
+      ""
+    ],
+    [
+      "Wang",
+      "Shuang",
+      ""
+    ],
+    [
+      "Zhao",
+      "Dong",
+      ""
+    ],
+    [
+      "Yi",
+      "Wenjun",
+      ""
+    ],
+    [
+      "Zhong",
+      "Zhun",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 20 Dec 2024 03:58:28 GMT"
+    }
+  ],
+  "updateDate": "2024-12-23",
+  "timestamp": 1734667108000,
+  "abstract": "  Data-driven deep learning models have enabled tremendous progress in change\ndetection (CD) with the support of pixel-level annotations. However, collecting\ndiverse data and manually annotating them is costly, laborious, and\nknowledge-intensive. Existing generative methods for CD data synthesis show\ncompetitive potential in addressing this issue but still face the following\nlimitations: 1) difficulty in flexibly controlling change events, 2) dependence\non additional data to train the data generators, 3) focus on specific change\ndetection tasks. To this end, this paper focuses on the semantic CD (SCD) task\nand develops a multi-temporal SCD data generator ChangeDiff by exploring\npowerful diffusion models. ChangeDiff innovatively generates change data in two\nsteps: first, it uses text prompts and a text-to-layout (T2L) model to create\ncontinuous layouts, and then it employs layout-to-image (L2I) to convert these\nlayouts into images. Specifically, we propose multi-class distribution-guided\ntext prompts (MCDG-TP), allowing for layouts to be generated flexibly through\ncontrollable classes and their corresponding ratios. Subsequently, to\ngeneralize the T2L model to the proposed MCDG-TP, a class distribution\nrefinement loss is further designed as training supervision. %For the former, a\nmulti-classdistribution-guided text prompt (MCDG-TP) is proposed to complement\nvia controllable classes and ratios. To generalize the text-to-image diffusion\nmodel to the proposed MCDG-TP, a class distribution refinement loss is designed\nas training supervision. For the latter, MCDG-TP in three modes is proposed to\nsynthesize new layout masks from various texts. Our generated data shows\nsignificant progress in temporal continuity, spatial diversity, and quality\nrealism, empowering change detectors with accuracy and transferability. The\ncode is available at https://github.com/DZhaoXd/ChangeDiff\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "oGGZe_HoLlroSHAFzPDyX9izl8opTlbcYLXeoDByHDA",
+  "pdfSize": "11627490"
+}

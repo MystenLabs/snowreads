@@ -1,0 +1,27 @@
+{
+  "id": "2412.00936",
+  "title": "Smoothing of global fields",
+  "authors": "Gregor Skok",
+  "authorsParsed": [
+    [
+      "Skok",
+      "Gregor",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 1 Dec 2024 19:02:03 GMT"
+    }
+  ],
+  "updateDate": "2024-12-03",
+  "timestamp": 1733079723000,
+  "abstract": "  In the forecast diagnostic and verification community, there exists a need\nfor smoothing methods that would work in the global domain. For limited-area\ndomains, fast smoothing methods already exist, but the problem is that these\napproaches cannot be used with global fields as a global grid defined on a\nsphere is inherently non-equidistant and/or irregular. Another potential issue\nis the variability of grid point area sizes and the presence of missing data in\nthe field, which can also be problematic to deal with for existing smoothing\nmethods. Here, we present two new approaches for area-size-informed smoothing\non a sphere. The first approach is based on k-d trees, and the second one is\nbased on overlap detection. While each has its strengths and weaknesses, both\nare potentially fast enough to make the smoothing of high-resolution global\nfields feasible, as demonstrated by the smoothing of an operational global\nhigh-resolution precipitation forecast from the Integrated Forecasting System\nof the European Centre for Medium-Range Weather Forecasts. Both approaches can\nalso handle missing data in an appropriate manner and can also be used in\nnon-rectangularly-shaped limited-area domains defined on non-equidistant and/or\nirregular grids.\n",
+  "subjects": [
+    "Physics/Atmospheric and Oceanic Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "cR7fa5AOtl1b0GiSjixRiwa4ZeuEjfWg5cMfkxXkxl8",
+  "pdfSize": "2339934"
+}

@@ -1,0 +1,57 @@
+{
+  "id": "2412.08581",
+  "title": "Automated Soap Opera Testing Directed by LLMs and Scenario Knowledge:\n  Feasibility, Challenges, and Road Ahead",
+  "authors": "Yanqi Su, Zhenchang Xing, Chong Wang, Chunyang Chen, Xiwei Xu, Qinghua\n  Lu, Liming Zhu",
+  "authorsParsed": [
+    [
+      "Su",
+      "Yanqi",
+      ""
+    ],
+    [
+      "Xing",
+      "Zhenchang",
+      ""
+    ],
+    [
+      "Wang",
+      "Chong",
+      ""
+    ],
+    [
+      "Chen",
+      "Chunyang",
+      ""
+    ],
+    [
+      "Xu",
+      "Xiwei",
+      ""
+    ],
+    [
+      "Lu",
+      "Qinghua",
+      ""
+    ],
+    [
+      "Zhu",
+      "Liming",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 11 Dec 2024 17:57:23 GMT"
+    }
+  ],
+  "updateDate": "2024-12-12",
+  "timestamp": 1733939843000,
+  "abstract": "  Exploratory testing (ET) harnesses tester's knowledge, creativity, and\nexperience to create varying tests that uncover unexpected bugs from the\nend-user's perspective. Although ET has proven effective in system-level\ntesting of interactive systems, the need for manual execution has hindered\nlarge-scale adoption. In this work, we explore the feasibility, challenges and\nroad ahead of automated scenario-based ET (a.k.a soap opera testing). We\nconduct a formative study, identifying key insights for effective manual soap\nopera testing and challenges in automating the process. We then develop a\nmulti-agent system leveraging LLMs and a Scenario Knowledge Graph (SKG) to\nautomate soap opera testing. The system consists of three multi-modal agents,\nPlanner, Player, and Detector that collaborate to execute tests and identify\npotential bugs. Experimental results demonstrate the potential of automated\nsoap opera testing, but there remains a significant gap compared to manual\nexecution, especially under-explored scenario boundaries and incorrectly\nidentified bugs. Based on the observation, we envision road ahead for the\nfuture of automated soap opera testing, focusing on three key aspects: the\nsynergy of neural and symbolic approaches, human-AI co-learning, and the\nintegration of soap opera testing with broader software engineering practices.\nThese insights aim to guide and inspire the future research.\n",
+  "subjects": [
+    "Computer Science/Software Engineering"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "1doFFRqaW6RKUQR7TgGxM4PcD26UM6Wb-nOhCRgF1BA",
+  "pdfSize": "2047976"
+}

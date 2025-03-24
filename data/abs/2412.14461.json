@@ -1,0 +1,41 @@
+{
+  "id": "2412.14461",
+  "title": "From Human Annotation to LLMs: SILICON Annotation Workflow for\n  Management Research",
+  "authors": "Xiang Cheng, Raveesh Mayya, Jo\\~ao Sedoc",
+  "authorsParsed": [
+    [
+      "Cheng",
+      "Xiang",
+      ""
+    ],
+    [
+      "Mayya",
+      "Raveesh",
+      ""
+    ],
+    [
+      "Sedoc",
+      "João",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 19 Dec 2024 02:21:41 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Thu, 20 Feb 2025 20:01:08 GMT"
+    }
+  ],
+  "updateDate": "2025-02-24",
+  "timestamp": 1734574901000,
+  "abstract": "  Unstructured text data annotation and analysis are fundamental to management\nresearch, often relying on human annotators through crowdsourcing platforms.\nWhile Large Language Models (LLMs) promise to provide a cost-effective and\nefficient alternative to human annotation, there lacks a systematic workflow\nthat evaluate when LLMs are suitable or how to proceed with LLM-based text\nannotation in a reproducible manner. This paper addresses this methodological\ngap by introducing the ``SILICON\" (Systematic Inference with LLMs for\nInformation Classification and Notation) workflow. The workflow integrates\nestablished principles of human annotation with systematic prompt optimization\nand model selection, addressing challenges such as developing robust annotation\nguidelines, establishing high-quality human baselines, optimizing prompts, and\nensuring reproducibility across LLMs. We validate the SILICON workflow through\nseven case studies covering common management research tasks. Our findings\nhighlight the importance of validating annotation guideline agreement, the\nsuperiority of expert-developed human baselines over crowdsourced ones, the\niterative nature of prompt optimization, and the necessity of testing multiple\nLLMs. We also find that LLMs agree well with expert annotations in most cases\nbut show low agreement in more complex multi-label classification tasks.\nNotably, we propose a regression-based methodology to empirically compare LLM\noutputs across prompts and models. Our workflow advances management research by\nestablishing rigorous, transparent, and reproducible processes for LLM-based\nannotation. We provide practical guidance for researchers to effectively\nnavigate the evolving landscape of generative AI tools.\n",
+  "subjects": [
+    "Computer Science/Computation and Language"
+  ],
+  "license": "http://creativecommons.org/licenses/by-sa/4.0/",
+  "blobId": "j3v_v6cS_zF0SLMUcX94n1fky792amDADvA_gZK6NvA",
+  "pdfSize": "2572756"
+}

@@ -1,0 +1,34 @@
+{
+  "id": "2412.02848",
+  "title": "Self-improvement of fractional Hardy inequalities in metric measure\n  spaces via hyperbolic fillings",
+  "authors": "Sylvester Eriksson-Bique and Josh Kline",
+  "authorsParsed": [
+    [
+      "Eriksson-Bique",
+      "Sylvester",
+      ""
+    ],
+    [
+      "Kline",
+      "Josh",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 3 Dec 2024 21:26:14 GMT"
+    }
+  ],
+  "updateDate": "2024-12-05",
+  "timestamp": 1733261174000,
+  "abstract": "  In this paper, we prove a self-improvement result for $(\\theta,p)$-fractional\nHardy inequalities, in both the exponent $1<p<\\infty$ and the regularity\nparameter $0<\\theta<1$, for bounded domains in doubling metric measure spaces.\nThe key conceptual tool is a Caffarelli-Silvestre-type argument, which relates\nfractional Sobolev spaces on $Z$ to Newton-Sobolev spaces in the hyperbolic\nfilling $\\overline{X}_{\\varepsilon}$ of $Z$ via trace results. Using this\ninsight, it is shown that a fractional Hardy inequality in an open subset of\n$Z$ is equivalent to a classical Hardy inequality in the filling\n$\\overline{X}_{\\varepsilon}$. The main result is then obtained by applying a\nnew weighted self-improvement result for $p$-Hardy inequalities. The exponent\n$p$ can be self-improved by a classical Koskela-Zhong argument, but a new\ntheory of regularizable weights is developed to obtain the self-improvement in\nthe regularity parameter $\\theta$. This generalizes a result of Lehrb\\\"ack and\nKoskela on self-improvement of $d_\\Omega^\\beta$-weighted $p$-Hardy inequalities\nby allowing a much broader class of weights. Using the equivalence of\nfractional Hardy inequalities with Hardy inequalities in the fillings, we also\ngive new examples of domains satisfying fractional Hardy inequalities.\n",
+  "subjects": [
+    "Mathematics/Analysis of PDEs",
+    "Mathematics/Classical Analysis and ODEs",
+    "Mathematics/Metric Geometry"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "64doopW6Q10R9XtSY6PmadzHKvRfqNysu1twk2yt1lo",
+  "pdfSize": "903888"
+}

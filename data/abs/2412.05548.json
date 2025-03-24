@@ -1,0 +1,62 @@
+{
+  "id": "2412.05548",
+  "title": "Street Gaussians without 3D Object Tracker",
+  "authors": "Ruida Zhang, Chengxi Li, Chenyangguang Zhang, Xingyu Liu, Haili Yuan,\n  Yanyan Li, Xiangyang Ji, Gim Hee Lee",
+  "authorsParsed": [
+    [
+      "Zhang",
+      "Ruida",
+      ""
+    ],
+    [
+      "Li",
+      "Chengxi",
+      ""
+    ],
+    [
+      "Zhang",
+      "Chenyangguang",
+      ""
+    ],
+    [
+      "Liu",
+      "Xingyu",
+      ""
+    ],
+    [
+      "Yuan",
+      "Haili",
+      ""
+    ],
+    [
+      "Li",
+      "Yanyan",
+      ""
+    ],
+    [
+      "Ji",
+      "Xiangyang",
+      ""
+    ],
+    [
+      "Lee",
+      "Gim Hee",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 7 Dec 2024 05:49:42 GMT"
+    }
+  ],
+  "updateDate": "2024-12-10",
+  "timestamp": 1733550582000,
+  "abstract": "  Realistic scene reconstruction in driving scenarios poses significant\nchallenges due to fast-moving objects. Most existing methods rely on\nlabor-intensive manual labeling of object poses to reconstruct dynamic objects\nin canonical space and move them based on these poses during rendering. While\nsome approaches attempt to use 3D object trackers to replace manual\nannotations, the limited generalization of 3D trackers -- caused by the\nscarcity of large-scale 3D datasets -- results in inferior reconstructions in\nreal-world settings. In contrast, 2D foundation models demonstrate strong\ngeneralization capabilities. To eliminate the reliance on 3D trackers and\nenhance robustness across diverse environments, we propose a stable object\ntracking module by leveraging associations from 2D deep trackers within a 3D\nobject fusion strategy. We address inevitable tracking errors by further\nintroducing a motion learning strategy in an implicit feature space that\nautonomously corrects trajectory errors and recovers missed detections.\nExperimental results on Waymo-NOTR datasets show we achieve state-of-the-art\nperformance. Our code will be made publicly available.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "096Oqho6t7NY2D57D8bQ4ZAphU8k7IErdEH3mnQoXCs",
+  "pdfSize": "3017199"
+}

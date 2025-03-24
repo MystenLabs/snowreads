@@ -1,0 +1,38 @@
+{
+  "id": "2412.15278",
+  "title": "DreaMark: Rooting Watermark in Score Distillation Sampling Generated\n  Neural Radiance Fields",
+  "authors": "Xingyu Zhu, Xiapu Luo, Xuetao Wei",
+  "authorsParsed": [
+    [
+      "Zhu",
+      "Xingyu",
+      ""
+    ],
+    [
+      "Luo",
+      "Xiapu",
+      ""
+    ],
+    [
+      "Wei",
+      "Xuetao",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 18 Dec 2024 03:27:13 GMT"
+    }
+  ],
+  "updateDate": "2024-12-23",
+  "timestamp": 1734492433000,
+  "abstract": "  Recent advancements in text-to-3D generation can generate neural radiance\nfields (NeRFs) with score distillation sampling, enabling 3D asset creation\nwithout real-world data capture. With the rapid advancement in NeRF generation\nquality, protecting the copyright of the generated NeRF has become increasingly\nimportant. While prior works can watermark NeRFs in a post-generation way, they\nsuffer from two vulnerabilities. First, a delay lies between NeRF generation\nand watermarking because the secret message is embedded into the NeRF model\npost-generation through fine-tuning. Second, generating a non-watermarked NeRF\nas an intermediate creates a potential vulnerability for theft. To address both\nissues, we propose Dreamark to embed a secret message by backdooring the NeRF\nduring NeRF generation. In detail, we first pre-train a watermark decoder.\nThen, the Dreamark generates backdoored NeRFs in a way that the target secret\nmessage can be verified by the pre-trained watermark decoder on an arbitrary\ntrigger viewport. We evaluate the generation quality and watermark robustness\nagainst image- and model-level attacks. Extensive experiments show that the\nwatermarking process will not degrade the generation quality, and the watermark\nachieves 90+% accuracy among both image-level attacks (e.g., Gaussian noise)\nand model-level attacks (e.g., pruning attack).\n",
+  "subjects": [
+    "Computer Science/Graphics",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "rrNzHNh8qfjsR4jnzK29ZdZE9p8SXeYg_xp1Y3-i3U4",
+  "pdfSize": "1803275"
+}

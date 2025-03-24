@@ -1,0 +1,37 @@
+{
+  "id": "2412.19516",
+  "title": "Dynamical phase transitions in certain non-ergodic stochastic processes",
+  "authors": "Yogeesh Reddy Yerrababu, Satya N. Majumdar, and Tridib Sadhu",
+  "authorsParsed": [
+    [
+      "Yerrababu",
+      "Yogeesh Reddy",
+      ""
+    ],
+    [
+      "Majumdar",
+      "Satya N.",
+      ""
+    ],
+    [
+      "Sadhu",
+      "Tridib",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 27 Dec 2024 08:16:47 GMT"
+    }
+  ],
+  "updateDate": "2024-12-30",
+  "timestamp": 1735287407000,
+  "abstract": "  We present a class of stochastic processes in which the large deviation\nfunctions of time-integrated observables exhibit singularities that relate to\ndynamical phase transitions of trajectories. These illustrative examples\ninclude Brownian motion with a death rate or in the presence of an absorbing\nwall, for which we consider a set of empirical observables such as the net\ndisplacement, local time, residence time, and area under the trajectory. Using\na backward Fokker-Planck approach, we derive the large deviation functions of\nthese observables, and demonstrate how singularities emerge from a competition\nbetween survival and diffusion. Furthermore, we analyse this scenario using an\nalternative approach with tilted operators, showing that at the singular point,\nthe effective dynamics undergoes an abrupt transition. Extending this approach,\nwe show that similar transitions may generically arise in Markov chains with\ntransient states. This scenario is robust and generalizable for non-Markovian\ndynamics and for many-body systems, potentially leading to multiple dynamical\nphase transitions.\n",
+  "subjects": [
+    "Condensed Matter/Statistical Mechanics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "owEWGLBtExoUbF2rCfw_cJl_abgyts0vYxN_OpcTDfY",
+  "pdfSize": "1223877"
+}

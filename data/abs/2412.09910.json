@@ -1,0 +1,47 @@
+{
+  "id": "2412.09910",
+  "title": "Prompt2Perturb (P2P): Text-Guided Diffusion-Based Adversarial Attacks on\n  Breast Ultrasound Images",
+  "authors": "Yasamin Medghalchi, Moein Heidari, Clayton Allard, Leonid Sigal, Ilker\n  Hacihaliloglu",
+  "authorsParsed": [
+    [
+      "Medghalchi",
+      "Yasamin",
+      ""
+    ],
+    [
+      "Heidari",
+      "Moein",
+      ""
+    ],
+    [
+      "Allard",
+      "Clayton",
+      ""
+    ],
+    [
+      "Sigal",
+      "Leonid",
+      ""
+    ],
+    [
+      "Hacihaliloglu",
+      "Ilker",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 13 Dec 2024 06:56:12 GMT"
+    }
+  ],
+  "updateDate": "2024-12-16",
+  "timestamp": 1734072972000,
+  "abstract": "  Deep neural networks (DNNs) offer significant promise for improving breast\ncancer diagnosis in medical imaging. However, these models are highly\nsusceptible to adversarial attacks--small, imperceptible changes that can\nmislead classifiers--raising critical concerns about their reliability and\nsecurity. Traditional attacks rely on fixed-norm perturbations, misaligning\nwith human perception. In contrast, diffusion-based attacks require pre-trained\nmodels, demanding substantial data when these models are unavailable, limiting\npractical use in data-scarce scenarios. In medical imaging, however, this is\noften unfeasible due to the limited availability of datasets. Building on\nrecent advancements in learnable prompts, we propose Prompt2Perturb (P2P), a\nnovel language-guided attack method capable of generating meaningful attack\nexamples driven by text instructions. During the prompt learning phase, our\napproach leverages learnable prompts within the text encoder to create subtle,\nyet impactful, perturbations that remain imperceptible while guiding the model\ntowards targeted outcomes. In contrast to current prompt learning-based\napproaches, our P2P stands out by directly updating text embeddings, avoiding\nthe need for retraining diffusion models. Further, we leverage the finding that\noptimizing only the early reverse diffusion steps boosts efficiency while\nensuring that the generated adversarial examples incorporate subtle noise, thus\npreserving ultrasound image quality without introducing noticeable artifacts.\nWe show that our method outperforms state-of-the-art attack techniques across\nthree breast ultrasound datasets in FID and LPIPS. Moreover, the generated\nimages are both more natural in appearance and more effective compared to\nexisting adversarial attacks. Our code will be publicly available\nhttps://github.com/yasamin-med/P2P.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "zXaSdE3XOu8F9l2lZZF1ezkwn3kanPQAb0remG9BjOQ",
+  "pdfSize": "3502789"
+}

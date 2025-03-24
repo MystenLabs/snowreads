@@ -1,0 +1,37 @@
+{
+  "id": "2412.06566",
+  "title": "DEX: Data Channel Extension for Efficient CNN Inference on Tiny AI\n  Accelerators",
+  "authors": "Taesik Gong, Fahim Kawsar, Chulhong Min",
+  "authorsParsed": [
+    [
+      "Gong",
+      "Taesik",
+      ""
+    ],
+    [
+      "Kawsar",
+      "Fahim",
+      ""
+    ],
+    [
+      "Min",
+      "Chulhong",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 9 Dec 2024 15:18:04 GMT"
+    }
+  ],
+  "updateDate": "2024-12-10",
+  "timestamp": 1733757484000,
+  "abstract": "  Tiny machine learning (TinyML) aims to run ML models on small devices and is\nincreasingly favored for its enhanced privacy, reduced latency, and low cost.\nRecently, the advent of tiny AI accelerators has revolutionized the TinyML\nfield by significantly enhancing hardware processing power. These accelerators,\nequipped with multiple parallel processors and dedicated per-processor memory\ninstances, offer substantial performance improvements over traditional\nmicrocontroller units (MCUs). However, their limited data memory often\nnecessitates downsampling input images, resulting in accuracy degradation. To\naddress this challenge, we propose Data channel EXtension (DEX), a novel\napproach for efficient CNN execution on tiny AI accelerators. DEX incorporates\nadditional spatial information from original images into input images through\npatch-wise even sampling and channel-wise stacking, effectively extending data\nacross input channels. By leveraging underutilized processors and data memory\nfor channel extension, DEX facilitates parallel execution without increasing\ninference latency. Our evaluation with four models and four datasets on tiny AI\naccelerators demonstrates that this simple idea improves accuracy on average by\n3.5%p while keeping the inference latency the same on the AI accelerator. The\nsource code is available at\nhttps://github.com/Nokia-Bell-Labs/data-channel-extension.\n",
+  "subjects": [
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "2pP9dXrcPeXDI3j0ULEei7xtKbEdJWMq951HFhf0w4Q",
+  "pdfSize": "5458267"
+}

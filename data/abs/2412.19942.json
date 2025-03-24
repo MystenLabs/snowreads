@@ -1,0 +1,27 @@
+{
+  "id": "2412.19942",
+  "title": "Detecting and Diagnosing Faults in Autonomous Robot Swarms with an\n  Artificial Antibody Population Model",
+  "authors": "James O'Keeffe",
+  "authorsParsed": [
+    [
+      "O'Keeffe",
+      "James",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 27 Dec 2024 22:40:26 GMT"
+    }
+  ],
+  "updateDate": "2024-12-31",
+  "timestamp": 1735339226000,
+  "abstract": "  An active approach to fault tolerance is essential for long term autonomy in\nrobots -- particularly multi-robot systems and swarms. Previous efforts have\nprimarily focussed on spontaneously occurring electro-mechanical failures in\nthe sensors and actuators of a minority sub-population of robots. While the\nsystems that enable this function are valuable, they have not yet considered\nthat many failures arise from gradual wear and tear with continued operation,\nand that this may be more challenging to detect than sudden step changes in\nperformance. This paper presents the Artificial Antibody Population Dynamics\n(AAPD) model -- an immune-inspired model for the detection and diagnosis of\ngradual degradation in robot swarms. The AAPD model is demonstrated to reliably\ndetect and diagnose gradual degradation, as well as spontaneous changes in\nperformance, among swarms of robots of as few as 5 robots while remaining\ntolerant of normally behaving robots. The AAPD model is distributed, offers\nsupervised and unsupervised configurations, and demonstrates promising scalable\nproperties. Deploying the AAPD model on a swarm of foraging robots undergoing\nslow degradation enables the swarm to operate at an average of ~79\\% of its\nperformance in perfect conditions.\n",
+  "subjects": [
+    "Computer Science/Robotics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "l2Cjh8s3NGqZ7H1iYTJHqhb-_Ghy2dzgfOaw8Me7mj8",
+  "pdfSize": "2903254"
+}

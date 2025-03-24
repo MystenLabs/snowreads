@@ -1,0 +1,43 @@
+{
+  "id": "2412.12380",
+  "title": "The Estimand Framework and Causal Inference: Complementary not Competing\n  Paradigms",
+  "authors": "Thomas Drury, Jonathan W. Bartlett, David Wright, Oliver N. Keene",
+  "authorsParsed": [
+    [
+      "Drury",
+      "Thomas",
+      ""
+    ],
+    [
+      "Bartlett",
+      "Jonathan W.",
+      ""
+    ],
+    [
+      "Wright",
+      "David",
+      ""
+    ],
+    [
+      "Keene",
+      "Oliver N.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 16 Dec 2024 22:19:26 GMT"
+    }
+  ],
+  "updateDate": "2024-12-20",
+  "timestamp": 1734387566000,
+  "abstract": "  The creation of the ICH E9 (R1) estimands framework has led to more precise\nspecification of the treatment effects of interest in the design and\nstatistical analysis of clinical trials. However, it is unclear how the new\nframework relates to causal inference, as both approaches appear to define what\nis being estimated and have a quantity labelled an estimand. Using illustrative\nexamples, we show that both approaches can be used to define a population-based\nsummary of an effect on an outcome for a specified population and highlight the\nsimilarities and differences between these approaches. We demonstrate that the\nICH E9 (R1) estimand framework offers a descriptive, structured approach that\nis more accessible to non-mathematicians, facilitating clearer communication of\ntrial objectives and results. We then contrast this with the causal inference\nframework, which provides a mathematically precise definition of an estimand,\nand allows the explicit articulation of assumptions through tools such as\ncausal graphs. Despite these differences, the two paradigms should be viewed as\ncomplementary rather than competing. The combined use of both approaches\nenhances the ability to communicate what is being estimated. We encourage those\nfamiliar with one framework to appreciate the concepts of the other to\nstrengthen the robustness and clarity of clinical trial design, analysis, and\ninterpretation.\n",
+  "subjects": [
+    "Statistics/Methodology",
+    "Statistics/Applications"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "gkT1_DoZ0lPYIjhkfhixqSJC9yuwdASTDWyVp2JLmes",
+  "pdfSize": "245311"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "2412.16650",
+  "title": "Enhancement in temperature sensing of a reservoir by Kerr-nonlinear\n  resonator",
+  "authors": "Naeem Akhtar, Jia-Xin Peng, Xiaosen Yang, and Yuanping Chen",
+  "authorsParsed": [
+    [
+      "Akhtar",
+      "Naeem",
+      ""
+    ],
+    [
+      "Peng",
+      "Jia-Xin",
+      ""
+    ],
+    [
+      "Yang",
+      "Xiaosen",
+      ""
+    ],
+    [
+      "Chen",
+      "Yuanping",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 21 Dec 2024 14:43:09 GMT"
+    }
+  ],
+  "updateDate": "2024-12-24",
+  "timestamp": 1734792189000,
+  "abstract": "  The challenge of developing high-precision temperature sensors is an\nimportant issue that has recently received a lot of attention. In this work, we\nintroduce an estimation technique to precisely measure the temperature of a\nquantum reservoir using a Kerr-nonlinear resonator with drive. Thermalization\nin our suggested protocol is assessed using Uhlmann-Jozsa fidelity, and then we\nutilize quantum Fisher information to evaluate the metrological potential of\nour thermometry scheme. We observe that increasing the Kerr nonlinearity\ncoefficient and driving amplitude significantly enhances precision in the\ntemperature estimation. Furthermore, we also explore the underlying physical\nmechanisms by analyzing probe purity in the steady state and evaluating the\nperformance of homodyne versus heterodyne detection methods. Our results\ndemonstrate that neither of these Gaussian measurements is optimal; instead,\noptimal homodyne detection always surpasses heterodyne detection.\n",
+  "subjects": [
+    "Physics/Quantum Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "0p4AhOOY2beC57A3qbltEtXiibWfgtQm2l0vJgMIPsY",
+  "pdfSize": "771120"
+}

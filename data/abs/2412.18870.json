@@ -1,0 +1,57 @@
+{
+  "id": "2412.18870",
+  "title": "TSceneJAL: Joint Active Learning of Traffic Scenes for 3D Object\n  Detection",
+  "authors": "Chenyang Lei, Meiying Zhang, Weiyuan Peng, Qi Hao, Chengzhong Xu,\n  Chunlin Ji, Guang Zhou",
+  "authorsParsed": [
+    [
+      "Lei",
+      "Chenyang",
+      ""
+    ],
+    [
+      "Zhang",
+      "Meiying",
+      ""
+    ],
+    [
+      "Peng",
+      "Weiyuan",
+      ""
+    ],
+    [
+      "Hao",
+      "Qi",
+      ""
+    ],
+    [
+      "Xu",
+      "Chengzhong",
+      ""
+    ],
+    [
+      "Ji",
+      "Chunlin",
+      ""
+    ],
+    [
+      "Zhou",
+      "Guang",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 25 Dec 2024 11:07:04 GMT"
+    }
+  ],
+  "updateDate": "2024-12-30",
+  "timestamp": 1735124824000,
+  "abstract": "  Most autonomous driving (AD) datasets incur substantial costs for collection\nand labeling, inevitably yielding a plethora of low-quality and redundant data\ninstances, thereby compromising performance and efficiency. Many applications\nin AD systems necessitate high-quality training datasets using both existing\ndatasets and newly collected data. In this paper, we propose a traffic scene\njoint active learning (TSceneJAL) framework that can efficiently sample the\nbalanced, diverse, and complex traffic scenes from both labeled and unlabeled\ndata. The novelty of this framework is threefold: 1) a scene sampling scheme\nbased on a category entropy, to identify scenes containing multiple object\nclasses, thus mitigating class imbalance for the active learner; 2) a\nsimilarity sampling scheme, estimated through the directed graph representation\nand a marginalize kernel algorithm, to pick sparse and diverse scenes; 3) an\nuncertainty sampling scheme, predicted by a mixture density network, to select\ninstances with the most unclear or complex regression outcomes for the learner.\nFinally, the integration of these three schemes in a joint selection strategy\nyields an optimal and valuable subdataset. Experiments on the KITTI, Lyft,\nnuScenes and SUScape datasets demonstrate that our approach outperforms\nexisting state-of-the-art methods on 3D object detection tasks with up to 12%\nimprovements.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "0WBONI934m1cNiZCUWZ9TYBmVQS4Zl9GXlVGAcL0uFo",
+  "pdfSize": "2964394"
+}

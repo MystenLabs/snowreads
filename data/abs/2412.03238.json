@@ -1,0 +1,33 @@
+{
+  "id": "2412.03238",
+  "title": "Dynamic Consistent $k$-Center Clustering with Optimal Recourse",
+  "authors": "Sebastian Forster, Antonis Skarlatos",
+  "authorsParsed": [
+    [
+      "Forster",
+      "Sebastian",
+      ""
+    ],
+    [
+      "Skarlatos",
+      "Antonis",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 4 Dec 2024 11:39:03 GMT"
+    }
+  ],
+  "updateDate": "2024-12-05",
+  "timestamp": 1733312343000,
+  "abstract": "  Given points from an arbitrary metric space and a sequence of point updates\nsent by an adversary, what is the minimum recourse per update (i.e., the\nminimum number of changes needed to the set of centers after an update), in\norder to maintain a constant-factor approximation to a $k$-clustering problem?\nThis question has received attention in recent years under the name consistent\nclustering.\n  Previous works by Lattanzi and Vassilvitskii [ICLM '17] and Fichtenberger,\nLattanzi, Norouzi-Fard, and Svensson [SODA '21] studied $k$-clustering\nobjectives, including the $k$-center and the $k$-median objectives, under only\npoint insertions. In this paper we study the $k$-center objective in the fully\ndynamic setting, where the update is either a point insertion or a point\ndeletion. Before our work, {\\L}\\k{a}cki, Haeupler, Grunau, Rozho\\v{n}, and\nJayaram [SODA '24] gave a deterministic fully dynamic constant-factor\napproximation algorithm for the $k$-center objective with worst-case recourse\nof $2$ per update.\n  In this work, we prove that the $k$-center clustering problem admits optimal\nrecourse bounds by developing a deterministic fully dynamic constant-factor\napproximation algorithm with worst-case recourse of $1$ per update. Moreover\nour algorithm performs simple choices based on light data structures, and thus\nis arguably more direct and faster than the previous one which uses a\nsophisticated combinatorial structure. Additionally, we develop a new\ndeterministic decremental algorithm and a new deterministic incremental\nalgorithm, both of which maintain a $6$-approximate $k$-center solution with\nworst-case recourse of $1$ per update. Our incremental algorithm improves over\nthe $8$-approximation algorithm by Charikar, Chekuri, Feder, and Motwani [STOC\n'97]. Finally, we remark that since all three of our algorithms are\ndeterministic, they work against an adaptive adversary.\n",
+  "subjects": [
+    "Computer Science/Data Structures and Algorithms",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "5OK9P7YrUzBYYruNvzGb8Wv9VYSeJrR5mSP3ap8IqtE",
+  "pdfSize": "1119438"
+}

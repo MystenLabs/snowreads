@@ -1,0 +1,36 @@
+{
+  "id": "2412.07322",
+  "title": "ConceptSearch: Towards Efficient Program Search Using LLMs for\n  Abstraction and Reasoning Corpus (ARC)",
+  "authors": "Kartik Singhal, Gautam Shroff",
+  "authorsParsed": [
+    [
+      "Singhal",
+      "Kartik",
+      ""
+    ],
+    [
+      "Shroff",
+      "Gautam",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 10 Dec 2024 09:10:11 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Wed, 11 Dec 2024 06:33:55 GMT"
+    }
+  ],
+  "updateDate": "2024-12-12",
+  "timestamp": 1733821811000,
+  "abstract": "  The Abstraction and Reasoning Corpus (ARC) poses a significant challenge to\nartificial intelligence, demanding broad generalization and few-shot learning\ncapabilities that remain elusive for current deep learning methods, including\nlarge language models (LLMs). While LLMs excel in program synthesis, their\ndirect application to ARC yields limited success. To address this, we introduce\nConceptSearch, a novel function-search algorithm that leverages LLMs for\nprogram generation and employs a concept-based scoring method to guide the\nsearch efficiently. Unlike simplistic pixel-based metrics like Hamming\ndistance, ConceptSearch evaluates programs on their ability to capture the\nunderlying transformation concept reflected in the input-output examples. We\nexplore three scoring functions: Hamming distance, a CNN-based scoring\nfunction, and an LLM-based natural language scoring function. Experimental\nresults demonstrate the effectiveness of ConceptSearch, achieving a significant\nperformance improvement over direct prompting with GPT-4. Moreover, our novel\nconcept-based scoring exhibits up to 30% greater efficiency compared to Hamming\ndistance, measured in terms of the number of iterations required to reach the\ncorrect solution. These findings highlight the potential of LLM-driven program\nsearch when integrated with concept-based guidance for tackling challenging\ngeneralization problems like ARC.\n",
+  "subjects": [
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "VHILPCDIB7l-SAf7xFxuWy06vrMGftcFEUXEK49y-HI",
+  "pdfSize": "1675971"
+}

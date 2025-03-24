@@ -1,0 +1,27 @@
+{
+  "id": "2412.19924",
+  "title": "Non-interfering On-line and In-field SoC Testing",
+  "authors": "Tobias Strauch",
+  "authorsParsed": [
+    [
+      "Strauch",
+      "Tobias",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 27 Dec 2024 21:17:26 GMT"
+    }
+  ],
+  "updateDate": "2024-12-31",
+  "timestamp": 1735334246000,
+  "abstract": "  With increasing aging problems of advanced technologies, in-field testing\nbecomes an inevitable challenge, on top of the already demanding requirements,\nsuch as the ISO26262 for automotive safety. SOCs used in space, automotive or\nmilitary applications in particular are worst affected as the in-field failures\nin these applications could even be life threatening. We focus on on-line and\nin-field testing for Single Event Upsets (SEU, caused by a single ionizing\nparticle) and aging defects (such as delay variation and stuck-at faults) which\nmay appear during normal operation of the device. Interrupting normal\noperations for aging defects testing is a major challenge for the OS.\nAdditionally, checkpointing with rollback-recovery can be costly and mission\ncritical data can be lost in case of an SEU event. We eliminate many of these\nproblems with our non-interfering in-field testing and recovery solution.\n  We apply a hardware performance improvement technique called System Hyper\nPipelining (SHP), which combines well-known context switching (Barrel CPU) and\nC-slow retiming techniques. The SoC is enhanced with an SEU detection and\nultra-fast recovery mechanism. We also use an RTL ATPG framework that enables\nthe generation of software-based self-tests to achieve 100% coverage of all\ntestable stuck-at-faults. The paper finishes with very promising\nperformance-per-area and test-cycles-per-net results. We argue that our robust\nsystem architecture and EDA solution, designed and developed primarily for\nin-field testing of SoCs, can also be used for production and on-line testing\nas well as other applications.\n",
+  "subjects": [
+    "Computer Science/Hardware Architecture"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "swc_b5zkRhbDZCT6EeIEH0vL3atDUp_zPbsrOqSJ1i4",
+  "pdfSize": "240656"
+}

@@ -1,0 +1,69 @@
+{
+  "id": "2412.15244",
+  "title": "MPPO: Multi Pair-wise Preference Optimization for LLMs with Arbitrary\n  Negative Samples",
+  "authors": "Shuo Xie, Fangzhi Zhu, Jiahui Wang, Lulu Wen, Wei Dai, Xiaowei Chen,\n  Junxiong Zhu, Kai Zhou, Bo Zheng",
+  "authorsParsed": [
+    [
+      "Xie",
+      "Shuo",
+      ""
+    ],
+    [
+      "Zhu",
+      "Fangzhi",
+      ""
+    ],
+    [
+      "Wang",
+      "Jiahui",
+      ""
+    ],
+    [
+      "Wen",
+      "Lulu",
+      ""
+    ],
+    [
+      "Dai",
+      "Wei",
+      ""
+    ],
+    [
+      "Chen",
+      "Xiaowei",
+      ""
+    ],
+    [
+      "Zhu",
+      "Junxiong",
+      ""
+    ],
+    [
+      "Zhou",
+      "Kai",
+      ""
+    ],
+    [
+      "Zheng",
+      "Bo",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 13 Dec 2024 14:18:58 GMT"
+    }
+  ],
+  "updateDate": "2024-12-23",
+  "timestamp": 1734099538000,
+  "abstract": "  Aligning Large Language Models (LLMs) with human feedback is crucial for\ntheir development. Existing preference optimization methods such as DPO and\nKTO, while improved based on Reinforcement Learning from Human Feedback (RLHF),\nare inherently derived from PPO, requiring a reference model that adds GPU\nmemory resources and relies heavily on abundant preference data. Meanwhile,\ncurrent preference optimization research mainly targets single-question\nscenarios with two replies, neglecting optimization with multiple replies,\nwhich leads to a waste of data in the application. This study introduces the\nMPPO algorithm, which leverages the average likelihood of model responses to\nfit the reward function and maximizes the utilization of preference data.\nThrough a comparison of Point-wise, Pair-wise, and List-wise implementations,\nwe found that the Pair-wise approach achieves the best performance,\nsignificantly enhancing the quality of model responses. Experimental results\ndemonstrate MPPO's outstanding performance across various benchmarks. On\nMT-Bench, MPPO outperforms DPO, ORPO, and SimPO. Notably, on Arena-Hard, MPPO\nsurpasses DPO and ORPO by substantial margins. These achievements underscore\nthe remarkable advantages of MPPO in preference optimization tasks.\n",
+  "subjects": [
+    "Computer Science/Computation and Language",
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "kf8H65aiqSgnTO6f9l43E-eaVVA8yVa5UtCVi7zRYxg",
+  "pdfSize": "516920"
+}

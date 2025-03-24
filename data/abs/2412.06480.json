@@ -1,0 +1,37 @@
+{
+  "id": "2412.06480",
+  "title": "A SIR epidemic model on a refining spatial grid II-Central limit theorem",
+  "authors": "Thierry Gallou\\\"et, Etienne Pardoux and T\\'enan Yeo",
+  "authorsParsed": [
+    [
+      "Gallouët",
+      "Thierry",
+      ""
+    ],
+    [
+      "Pardoux",
+      "Etienne",
+      ""
+    ],
+    [
+      "Yeo",
+      "Ténan",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 9 Dec 2024 13:30:53 GMT"
+    }
+  ],
+  "updateDate": "2024-12-10",
+  "timestamp": 1733751053000,
+  "abstract": "  A stochastic SIR epidemic model taking into account the heterogeneity of the\nspatial environment is constructed. The deterministic model is given by a\npartial differential equation and the stochastic one by a space-time jump\nMarkov process. The consistency of the two models is given by a law of large\nnumbers. In this paper, we study the deviation of the spatial stochastic model\nfrom the deterministic model by a functional central limit theorem. The limit\nis a distribution-valued Ornstein-Uhlenbeck Gaussian process, which is the mild\nsolution of a stochastic partial differential equation.\n",
+  "subjects": [
+    "Mathematics/Probability"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "6abdo-N6dC5WV0DRHZVc_SC84nOojPaorQ84wQyLKN8",
+  "pdfSize": "269382"
+}

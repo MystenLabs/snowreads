@@ -1,0 +1,34 @@
+{
+  "id": "2412.09219",
+  "title": "Exploring nuclear force with pulsar glitch observation",
+  "authors": "Zhong-Hao Tu and Ang Li",
+  "authorsParsed": [
+    [
+      "Tu",
+      "Zhong-Hao",
+      ""
+    ],
+    [
+      "Li",
+      "Ang",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 12 Dec 2024 12:20:06 GMT"
+    }
+  ],
+  "updateDate": "2024-12-13",
+  "timestamp": 1734006006000,
+  "abstract": "  We connect nuclear forces to one of the most notable irregular behaviors\nobserved in pulsars, already detected in approximately 6\\% known pulsars, with\nincreasingly accurate data expected from upcoming high-precision timing\ninstruments on both ground and space. Built on \\cite{Shang2021_ApJ923-108}, we\nconduct a case study on the 2001 glitch of the Vela pulsar. For our purpose, we\nadopt the Relativistic Mean Field (RMF) model as the theoretical many-body\nframework to describe nuclear systems. We refit three representative RMF\nparameter sets (DD-ME2, PKDD, NL3), considering the uncertainties in nuclear\nmatter saturation properties. Utilizing the resulting star structure,\ncomposition and nucleon properties in the medium obtained in a consistent\nmanner, we calculate the pinning energy of superfluid vortex in the nuclear\nlattice in the inner crust. This leads to the evolution of associated pinning\nforce that acts on the vortex, which can be confronted with observed glitch\namplitude and short-time relaxation in the 2000 Vela glitch event, following\nthe superfluidity model of pulsar glitch. We discuss how the vortex\nconfiguration and pinning properties depend on the nuclear parameters, and find\nan interesting and dominant role of the nuclear symmetry energy slope on\npinning strength.\n",
+  "subjects": [
+    "Physics/Nuclear Theory",
+    "Astrophysics/High Energy Astrophysical Phenomena",
+    "Astrophysics/Solar and Stellar Astrophysics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "e5XrDJgyaEN4RKzrxCF3B_gPJ0VSwZm1jh7Oy1EoE10",
+  "pdfSize": "5146404"
+}

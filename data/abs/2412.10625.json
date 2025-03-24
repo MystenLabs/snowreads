@@ -1,0 +1,39 @@
+{
+  "id": "2412.10625",
+  "title": "Certainty-Equivalence Model Predictive Control: Stability, Performance,\n  and Beyond",
+  "authors": "Changrui Liu, Shengling Shi, Bart De Schutter",
+  "authorsParsed": [
+    [
+      "Liu",
+      "Changrui",
+      ""
+    ],
+    [
+      "Shi",
+      "Shengling",
+      ""
+    ],
+    [
+      "De Schutter",
+      "Bart",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 14 Dec 2024 00:27:34 GMT"
+    }
+  ],
+  "updateDate": "2024-12-17",
+  "timestamp": 1734136054000,
+  "abstract": "  Handling model mismatch is a common challenge in model-based controller\ndesign, particularly in model predictive control (MPC). While robust MPC is\neffective in managing uncertainties, its inherent conservatism often makes it\nless desirable in practice. Certainty-equivalence MPC (CE-MPC), which relies on\na nominal model, offers an appealing alternative due to its design simplicity\nand reduced online computational requirements. Contrary to the existing\nanalysis where MPC has access to the true model, this paper investigates\ncertainty-equivalence MPC for uncertain nonlinear systems with input\nconstraints; here the uncertainty stems from parametric discrepancies between\nthe true model and the nominal model. The primary contributions of the paper\nare twofold. First, a novel perturbation analysis of the MPC value function is\nprovided, which avoids the common assumption of Lipschitz continuity for cost\nfunctions and has broader applicability to topics such as value function\napproximation, online model adaptation in MPC, and performance-driven MPC\ndesign. Besides, a sufficient stability condition and performance analysis of\nCE-MPC are derived, where the latter quantifies the suboptimality of CE-MPC\nrelative to the infinite-horizon optimal controller with perfect model\nknowledge. The results provide valuable insights into how the prediction\nhorizon and model mismatch jointly affect stability and performance.\nFurthermore, the general results are specialized to linear quadratic control,\nand the competitive ratio is derived, serving as the first ratio-like\nperformance bound for predictive control of uncertain linear systems with\nconstraints.\n",
+  "subjects": [
+    "Mathematics/Optimization and Control",
+    "Computer Science/Systems and Control",
+    "Electrical Engineering and Systems Science/Systems and Control"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "EOhXXq9sDgJ3o4GGlHtMowriNrcIeAW84mSZ0jApn6Y",
+  "pdfSize": "758219"
+}

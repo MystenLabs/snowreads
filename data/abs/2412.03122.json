@@ -1,0 +1,35 @@
+{
+  "id": "2412.03122",
+  "title": "Inversion by Partial Evaluation: A Reversible Interpreter Experiment",
+  "authors": "Robert Gl\\\"uck (DIKU, Dept. of Computer Science, University of\n  Copenhagen), Louis Marott Normann (DIKU, Dept. of Computer Science,\n  University of Copenhagen)",
+  "authorsParsed": [
+    [
+      "Glück",
+      "Robert",
+      "",
+      "DIKU, Dept. of Computer Science, University of\n  Copenhagen"
+    ],
+    [
+      "Normann",
+      "Louis Marott",
+      "",
+      "DIKU, Dept. of Computer Science,\n  University of Copenhagen"
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 4 Dec 2024 08:42:58 GMT"
+    }
+  ],
+  "updateDate": "2024-12-05",
+  "timestamp": 1733301778000,
+  "abstract": "  A computational limit of combining partial evaluation and program inversion\nis investigated. Using a reversible Turing machine interpreter, we show that\nthe first Futamura and inversion projections can produce not only functionally\nbut also textually equivalent programs. The construction of the interpreter in\na reversible flowchart language is shown in full. Insights are provided on the\npractical interplay between reversible interpreters, program inverters, and\npartial evaluators. We conclude that both projections must be included in the\nprogram transformation toolbox.\n",
+  "subjects": [
+    "Computer Science/Programming Languages",
+    "Computer Science/Formal Languages and Automata Theory"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "Bch4qAAPs0oCmRDCZdRqc6UAxZyNzw8vmHDYp515Jxg",
+  "pdfSize": "566194"
+}

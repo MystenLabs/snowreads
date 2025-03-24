@@ -1,0 +1,38 @@
+{
+  "id": "2412.07174",
+  "title": "Post-Training Statistical Calibration for Higher Activation Sparsity",
+  "authors": "Vui Seng Chua, Yujie Pan, Nilesh Jain",
+  "authorsParsed": [
+    [
+      "Chua",
+      "Vui Seng",
+      ""
+    ],
+    [
+      "Pan",
+      "Yujie",
+      ""
+    ],
+    [
+      "Jain",
+      "Nilesh",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 10 Dec 2024 04:15:39 GMT"
+    }
+  ],
+  "updateDate": "2024-12-11",
+  "timestamp": 1733804139000,
+  "abstract": "  We present Statistical Calibrated Activation Pruning (SCAP), a post-training\nactivation pruning framework that (1) generalizes sparsification by input\nactivations of Fully-Connected layers for generic and flexible application\nacross Transformers, and (2) features a simple Mode-Centering technique to\npre-calibrate activation distributions for maximizing post-training sparsity.\nOur results demonstrate robust Pareto efficiency compared to prior methods,\ntranslating to a 1.5x additional LLM decoding speedup against CATS at iso model\nquality. SCAP effectiveness is empirically verified across a wide range of\nmodels, including recent Transformer Decoders, MoE, Mamba2, Encoding\nTransformer, and pre-quantized models, highlighting its practicality and\nscalability. The code is available at: https://github.com/IntelLabs/SCAP.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by-sa/4.0/",
+  "blobId": "VkGHyJlEaCvdCyeo_8LGNnGH3XRg8EfjT9cUFLif8R4",
+  "pdfSize": "1394340"
+}

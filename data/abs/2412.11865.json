@@ -1,0 +1,88 @@
+{
+  "id": "2412.11865",
+  "title": "Ant Nest Detection Using Underground P-Band TomoSAR",
+  "authors": "Gian Or\\'e, Alexandre Santos, Daniele Ukan, Ronald Zanetti, Mariane\n  Camargo, Luciano P. Oliveira, Guillermo Kemper, Alonso Sanchez, Aldo Diaz,\n  Jorge Gonzalez, Ruth Rubio-Noriega, Levy Boccato, and Hugo E.\n  Hernandez-Figueroa",
+  "authorsParsed": [
+    [
+      "Oré",
+      "Gian",
+      ""
+    ],
+    [
+      "Santos",
+      "Alexandre",
+      ""
+    ],
+    [
+      "Ukan",
+      "Daniele",
+      ""
+    ],
+    [
+      "Zanetti",
+      "Ronald",
+      ""
+    ],
+    [
+      "Camargo",
+      "Mariane",
+      ""
+    ],
+    [
+      "Oliveira",
+      "Luciano P.",
+      ""
+    ],
+    [
+      "Kemper",
+      "Guillermo",
+      ""
+    ],
+    [
+      "Sanchez",
+      "Alonso",
+      ""
+    ],
+    [
+      "Diaz",
+      "Aldo",
+      ""
+    ],
+    [
+      "Gonzalez",
+      "Jorge",
+      ""
+    ],
+    [
+      "Rubio-Noriega",
+      "Ruth",
+      ""
+    ],
+    [
+      "Boccato",
+      "Levy",
+      ""
+    ],
+    [
+      "Hernandez-Figueroa",
+      "Hugo E.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 16 Dec 2024 15:20:46 GMT"
+    }
+  ],
+  "updateDate": "2024-12-17",
+  "timestamp": 1734362446000,
+  "abstract": "  Leaf-cutting ants, notorious for causing defoliation in commercial forest\nplantations, significantly contribute to biomass and productivity losses,\nimpacting forest producers in Brazil. These ants construct complex underground\nnests, highlighting the need for advanced monitoring tools to extract\nsubsurface information across large areas. Synthetic Aperture Radar (SAR)\nsystems provide a powerful solution for this challenge. This study presents the\nresults of electromagnetic simulations designed to detect leaf-cutting ant\nnests in industrial forests. The simulations modeled nests with 6 to 100\nunderground chambers, offering insights into their radar signatures. Following\nthese simulations, a field study was conducted using a drone-borne SAR\noperating in the P-band. A helical flight pattern was employed to generate\nhigh-resolution ground tomography of a commercial eucalyptus forest. A\nconvolutional neural network (CNN) was implemented to detect ant nests and\nestimate their sizes from tomographic data, delivering remarkable results. The\nmethod achieved an ant nest detection accuracy of 100%, a false alarm rate of\n0%, and an average error of 21% in size estimation. These outcomes highlight\nthe transformative potential of integrating Synthetic Aperture Radar (SAR)\nsystems with machine learning to enhance monitoring and management practices in\ncommercial forestry.\n",
+  "subjects": [
+    "Electrical Engineering and Systems Science/Image and Video Processing",
+    "Electrical Engineering and Systems Science/Signal Processing"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "G9XWTo4xGwfHoQerw6_712CvWnex6NwZ5It9hmdBoY4",
+  "pdfSize": "1571955"
+}

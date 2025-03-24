@@ -1,0 +1,38 @@
+{
+  "id": "2412.00056",
+  "title": "Improving Medical Diagnostics with Vision-Language Models: Convex\n  Hull-Based Uncertainty Analysis",
+  "authors": "Ferhat Ozgur Catak and Murat Kuzlu and Taylor Patrick",
+  "authorsParsed": [
+    [
+      "Catak",
+      "Ferhat Ozgur",
+      ""
+    ],
+    [
+      "Kuzlu",
+      "Murat",
+      ""
+    ],
+    [
+      "Patrick",
+      "Taylor",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 24 Nov 2024 17:49:48 GMT"
+    }
+  ],
+  "updateDate": "2024-12-03",
+  "timestamp": 1732470588000,
+  "abstract": "  In recent years, vision-language models (VLMs) have been applied to various\nfields, including healthcare, education, finance, and manufacturing, with\nremarkable performance. However, concerns remain regarding VLMs' consistency\nand uncertainty, particularly in critical applications such as healthcare,\nwhich demand a high level of trust and reliability. This paper proposes a novel\napproach to evaluate uncertainty in VLMs' responses using a convex hull\napproach on a healthcare application for Visual Question Answering (VQA).\nLLM-CXR model is selected as the medical VLM utilized to generate responses for\na given prompt at different temperature settings, i.e., 0.001, 0.25, 0.50,\n0.75, and 1.00. According to the results, the LLM-CXR VLM shows a high\nuncertainty at higher temperature settings. Experimental outcomes emphasize the\nimportance of uncertainty in VLMs' responses, especially in healthcare\napplications.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "Lp77CdigNIaX5FvEQfGybcgP23twPj-gxi4hMQUJEqc",
+  "pdfSize": "5076065"
+}

@@ -1,0 +1,47 @@
+{
+  "id": "2412.11785",
+  "title": "InterDyn: Controllable Interactive Dynamics with Video Diffusion Models",
+  "authors": "Rick Akkerman, Haiwen Feng, Michael J. Black, Dimitrios Tzionas,\n  Victoria Fern\\'andez Abrevaya",
+  "authorsParsed": [
+    [
+      "Akkerman",
+      "Rick",
+      ""
+    ],
+    [
+      "Feng",
+      "Haiwen",
+      ""
+    ],
+    [
+      "Black",
+      "Michael J.",
+      ""
+    ],
+    [
+      "Tzionas",
+      "Dimitrios",
+      ""
+    ],
+    [
+      "Abrevaya",
+      "Victoria Fernández",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 16 Dec 2024 13:57:02 GMT"
+    }
+  ],
+  "updateDate": "2024-12-17",
+  "timestamp": 1734357422000,
+  "abstract": "  Predicting the dynamics of interacting objects is essential for both humans\nand intelligent systems. However, existing approaches are limited to\nsimplified, toy settings and lack generalizability to complex, real-world\nenvironments. Recent advances in generative models have enabled the prediction\nof state transitions based on interventions, but focus on generating a single\nfuture state which neglects the continuous motion and subsequent dynamics\nresulting from the interaction. To address this gap, we propose InterDyn, a\nnovel framework that generates videos of interactive dynamics given an initial\nframe and a control signal encoding the motion of a driving object or actor.\nOur key insight is that large video foundation models can act as both neural\nrenderers and implicit physics simulators by learning interactive dynamics from\nlarge-scale video data. To effectively harness this capability, we introduce an\ninteractive control mechanism that conditions the video generation process on\nthe motion of the driving entity. Qualitative results demonstrate that InterDyn\ngenerates plausible, temporally consistent videos of complex object\ninteractions while generalizing to unseen objects. Quantitative evaluations\nshow that InterDyn outperforms baselines that focus on static state\ntransitions. This work highlights the potential of leveraging video generative\nmodels as implicit physics engines.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "EvxFq4T23s9oi9j45sI_x-b4sV3UGY9SrLygqNpkQiE",
+  "pdfSize": "13209593"
+}

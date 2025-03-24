@@ -1,0 +1,38 @@
+{
+  "id": "2412.12610",
+  "title": "Gender Bias and Property Taxes",
+  "authors": "Gordon Burtch and Alejandro Zentner",
+  "authorsParsed": [
+    [
+      "Burtch",
+      "Gordon",
+      ""
+    ],
+    [
+      "Zentner",
+      "Alejandro",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 17 Dec 2024 07:14:23 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Tue, 4 Feb 2025 15:04:46 GMT"
+    }
+  ],
+  "updateDate": "2025-02-05",
+  "timestamp": 1734419663000,
+  "abstract": "  Gender bias distorts the economic behavior and outcomes of women and\nhouseholds. We investigate gender biases in property taxes. We analyze records\nof more than 100,000 property tax appeal hearings and more than 2.7 years of\nassociated audio recordings, considering how panelist and appellant genders\nassociate with hearing outcomes. We first observe that female appellants fare\nsystematically worse than male appellants in their hearings. Second, we show\nthat, whereas male appellants' hearing outcomes do not vary meaningfully with\nthe gender composition of the panel they face, those of female appellants' do,\nsuch that female appellants obtain systematically lesser (greater) reductions\nto their home values when facing female (male) panelists. Employing a\nmulti-modal large language model (M-LLM), we next construct measures of\nparticipant behavior and tone from hearing audio recordings. We observe\nmarkedly different behaviors between male and female appellants and, in the\ncase of male appellants, we find that these differences also depend on the\ngender of the panelists they face (e.g., male appellants appear to behave\nsystematically more aggressively towards female panelists). In contrast, the\nbehavior of female appellants remains relatively constant, regardless of their\npanel's gender. Finally, we show that female appellants continue to fare worse\nin front of female panels, even when we condition upon the appelant's\nin-hearing behavior and tone. Our results are thus consistent with the idea\nthat gender biases are driven, at least in part, by unvoiced beliefs and\nperceptions on the part of ARB panelists. Our study documents the presence of\ngender biases in property appraisal appeal hearings and highlights the\npotential value of generative AI for analyzing large-scale, unstructured\nadministrative data.\n",
+  "subjects": [
+    "Economics/General Economics",
+    "Computer Science/Computers and Society",
+    "Quantitative Finance/Economics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "fpYGaNnYroPkB40AmsYvEUEmttzUTt0dhjl2iASNy50",
+  "pdfSize": "1334195"
+}

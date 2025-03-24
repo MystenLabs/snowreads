@@ -1,0 +1,54 @@
+{
+  "id": "2412.07867",
+  "title": "Bumblebee: Foundation Model for Particle Physics Discovery",
+  "authors": "Andrew J. Wildridge, Jack P. Rodgers, Ethan M. Colbert, Yao yao,\n  Andreas W. Jung, Miaoyuan Liu",
+  "authorsParsed": [
+    [
+      "Wildridge",
+      "Andrew J.",
+      ""
+    ],
+    [
+      "Rodgers",
+      "Jack P.",
+      ""
+    ],
+    [
+      "Colbert",
+      "Ethan M.",
+      ""
+    ],
+    [
+      "yao",
+      "Yao",
+      ""
+    ],
+    [
+      "Jung",
+      "Andreas W.",
+      ""
+    ],
+    [
+      "Liu",
+      "Miaoyuan",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 10 Dec 2024 19:14:50 GMT"
+    }
+  ],
+  "updateDate": "2024-12-12",
+  "timestamp": 1733858090000,
+  "abstract": "  Bumblebee is a foundation model for particle physics discovery, inspired by\nBERT. By removing positional encodings and embedding particle 4-vectors,\nBumblebee captures both generator- and reconstruction-level information while\nensuring sequence-order invariance. Pre-trained on a masked task, it improves\ndileptonic top quark reconstruction resolution by 10-20% and excels in\ndownstream tasks, including toponium discrimination (AUROC 0.877) and initial\nstate classification (AUROC 0.625). The flexibility of Bumblebee makes it\nsuitable for a wide range of particle physics applications, especially the\ndiscovery of new particles.\n",
+  "subjects": [
+    "Physics/High Energy Physics - Experiment",
+    "Computer Science/Machine Learning",
+    "Physics/High Energy Physics - Phenomenology"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "ceICDiqEQRSPytsOS4TVsf8mwnfx6FKq9oKQFezXjF4",
+  "pdfSize": "510651"
+}

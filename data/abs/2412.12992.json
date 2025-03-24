@@ -1,0 +1,42 @@
+{
+  "id": "2412.12992",
+  "title": "Strengthened and Faster Linear Approximation to Joint Chance Constraints\n  with Wasserstein Ambiguity",
+  "authors": "Yihong Zhou, Yuxin Xia, Hanbin Yang, Thomas Morstyn",
+  "authorsParsed": [
+    [
+      "Zhou",
+      "Yihong",
+      ""
+    ],
+    [
+      "Xia",
+      "Yuxin",
+      ""
+    ],
+    [
+      "Yang",
+      "Hanbin",
+      ""
+    ],
+    [
+      "Morstyn",
+      "Thomas",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 17 Dec 2024 15:09:12 GMT"
+    }
+  ],
+  "updateDate": "2024-12-18",
+  "timestamp": 1734448152000,
+  "abstract": "  Many real-world decision-making problems in energy systems, transportation,\nand finance have uncertain parameters in their constraints. Wasserstein\ndistributionally robust joint chance constraints (WDRJCC) offer a promising\nsolution by explicitly guaranteeing the probability of the simultaneous\nsatisfaction of multiple constraints. WDRJCC are computationally demanding, and\nalthough manageable for small problems, practical applications often demand\nmore tractable approaches -- especially for large-scale and complex problems,\nsuch as power system unit commitment problems and multilevel problems with\nchance-constrained lower levels. To address this, this paper proposes a novel\ninner-approximation for a specific type of WDRJCC, namely WDRJCC with\nright-hand-side uncertainties (RHS-WDRJCC). We propose a Strengthened and\nFaster Linear Approximation (SFLA) by strengthening an existing convex\ninner-approximation that is equivalent to the worst-case conditional\nvalue-at-risk (W-CVaR) method under specific hyperparameters. This\nstrengthening process reduces the number of constraints and tightens the\nfeasible region for ancillary variables, leading to significant computational\nspeedup. Despite the tightening, we prove that the proposed SFLA does not\nintroduce additional conservativeness and can even lead to less\nconservativeness. The significance and superiority of the proposed SFLA are\nvalidated in two important real-world problems. In a power system unit\ncommitment problem, the proposed SFLA achieves up to 10x and on average 3.8x\ncomputational speedup compared to the strengthened and exact mixed-integer\nreformulation in finding comparable high-quality feasible solutions. In a\nbilevel strategic bidding problem where the exact reformulation is not\napplicable due to non-convexity, we show that the proposed SFLA can lead to 90x\nspeedup compared to existing convex approximation methods such as W-CVaR.\n",
+  "subjects": [
+    "Mathematics/Optimization and Control"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "dtvrEBZd2mYi-9Pb0SJuRyNEAtBZwWfGmep-V_NDNIs",
+  "pdfSize": "1307362"
+}

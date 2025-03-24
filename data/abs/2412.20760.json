@@ -1,0 +1,43 @@
+{
+  "id": "2412.20760",
+  "title": "Attributing Culture-Conditioned Generations to Pretraining Corpora",
+  "authors": "Huihan Li, Arnav Goel, Keyu He, Xiang Ren",
+  "authorsParsed": [
+    [
+      "Li",
+      "Huihan",
+      ""
+    ],
+    [
+      "Goel",
+      "Arnav",
+      ""
+    ],
+    [
+      "He",
+      "Keyu",
+      ""
+    ],
+    [
+      "Ren",
+      "Xiang",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 30 Dec 2024 07:09:25 GMT"
+    }
+  ],
+  "updateDate": "2024-12-31",
+  "timestamp": 1735542565000,
+  "abstract": "  In open-ended generative tasks like narrative writing or dialogue, large\nlanguage models often exhibit cultural biases, showing limited knowledge and\ngenerating templated outputs for less prevalent cultures. Recent works show\nthat these biases may stem from uneven cultural representation in pretraining\ncorpora. This work investigates how pretraining leads to biased\nculture-conditioned generations by analyzing how models associate entities with\ncultures based on pretraining data patterns. We propose the MEMOed framework\n(MEMOrization from pretraining document) to determine whether a generation for\na culture arises from memorization. Using MEMOed on culture-conditioned\ngenerations about food and clothing for 110 cultures, we find that\nhigh-frequency cultures in pretraining data yield more generations with\nmemorized symbols, while some low-frequency cultures produce none.\nAdditionally, the model favors generating entities with extraordinarily high\nfrequency regardless of the conditioned culture, reflecting biases toward\nfrequent pretraining terms irrespective of relevance. We hope that the MEMOed\nframework and our insights will inspire more works on attributing model\nperformance on pretraining data.\n",
+  "subjects": [
+    "Computer Science/Computation and Language",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "csOoioRl6wFezcl9WXkrVEpvXVdB_Cn1zdZy1SLkAnI",
+  "pdfSize": "3160944"
+}

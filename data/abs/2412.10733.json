@@ -1,0 +1,47 @@
+{
+  "id": "2412.10733",
+  "title": "Oblivious Robots Under Sequential Schedulers: Universal Pattern\n  Formation",
+  "authors": "Paola Flocchini, Alfredo Navarra, Debasish Pattanayak, Francesco\n  Piselli, Nicola Santoro",
+  "authorsParsed": [
+    [
+      "Flocchini",
+      "Paola",
+      ""
+    ],
+    [
+      "Navarra",
+      "Alfredo",
+      ""
+    ],
+    [
+      "Pattanayak",
+      "Debasish",
+      ""
+    ],
+    [
+      "Piselli",
+      "Francesco",
+      ""
+    ],
+    [
+      "Santoro",
+      "Nicola",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 14 Dec 2024 08:06:37 GMT"
+    }
+  ],
+  "updateDate": "2024-12-17",
+  "timestamp": 1734163597000,
+  "abstract": "  We study the computational power that oblivious robots operating in the plane\nhave under sequential schedulers. We show that this power is much stronger than\nthe obvious capacity these schedulers offer of breaking symmetry, and thus to\ncreate a leader. In fact, we prove that, under any sequential scheduler, the\nrobots are capable of solving problems that are unsolvable even with a leader\nunder the fully synchronous scheduler FSYNC. More precisely, we consider the\nclass of pattern formation problems, and focus on the most general problem in\nthis class, Universal Pattern Formation (UPF), which requires the robots to\nform every pattern given in input, starting from any initial configurations\n(where some robots may occupy the same point). We first show that UPF is\nunsolvable under FSYNC, even if the robots are endowed with additional strong\ncapabilities (multiplicity detection, rigid movement, agreement on coordinate\nsystems, presence of a unique leader). On the other hand, we prove that, except\nfor point formation (Gathering), UPF is solvable under any sequential scheduler\nwithout any additional assumptions. We then turn our attention to the Gathering\nproblem, and prove that weak multiplicity detection is necessary and sufficient\nfor solvability under sequential schedulers. The obtained results show that the\ncomputational power of the robots under FSYNC (where Gathering is solvable\nwithout any multiplicity detection) and that under sequential schedulers are\northogonal.\n",
+  "subjects": [
+    "Computer Science/Distributed, Parallel, and Cluster Computing"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "GRQ1ha3ZLJA-GVRISUnx3MWMJz4Vm0GIasCloJjuF9U",
+  "pdfSize": "350150"
+}

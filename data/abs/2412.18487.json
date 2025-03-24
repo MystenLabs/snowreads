@@ -1,0 +1,42 @@
+{
+  "id": "2412.18487",
+  "title": "Segment-Based Attention Masking for GPTs",
+  "authors": "Shahar Katz, Liran Ringel, Yaniv Romano, Lior Wolf",
+  "authorsParsed": [
+    [
+      "Katz",
+      "Shahar",
+      ""
+    ],
+    [
+      "Ringel",
+      "Liran",
+      ""
+    ],
+    [
+      "Romano",
+      "Yaniv",
+      ""
+    ],
+    [
+      "Wolf",
+      "Lior",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 24 Dec 2024 15:18:52 GMT"
+    }
+  ],
+  "updateDate": "2024-12-25",
+  "timestamp": 1735053532000,
+  "abstract": "  Modern Language Models (LMs) owe much of their success to masked causal\nattention, the backbone of Generative Pre-Trained Transformer (GPT) models.\nAlthough GPTs can process the entire user prompt at once, the causal masking is\napplied to all input tokens step-by-step, mimicking the generation process.\nThis imposes an unnecessary constraint during the initial \"prefill\" phase when\nthe model processes the input prompt and generates the internal representations\nbefore producing any output tokens. In this work, attention is masked based on\nthe known block structure at the prefill phase, followed by the conventional\ntoken-by-token autoregressive process after that. For example, in a typical\nchat prompt, the system prompt is treated as one block, and the user prompt as\nthe next one. Each of these is treated as a unit for the purpose of masking,\nsuch that the first tokens in each block can access the subsequent tokens in a\nnon-causal manner. Then, the model answer is generated in the conventional\ncausal manner. This Segment-by-Segment scheme entails no additional\ncomputational overhead. When integrating it into models such as Llama and Qwen,\nstate-of-the-art performance is consistently achieved.\n",
+  "subjects": [
+    "Computer Science/Computation and Language"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "kNIeHhQE4dEroJdvnIcHToNPdsGn9SP18F3rjIzgRNM",
+  "pdfSize": "1105339"
+}

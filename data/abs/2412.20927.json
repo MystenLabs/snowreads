@@ -1,0 +1,52 @@
+{
+  "id": "2412.20927",
+  "title": "Enhanced Multimodal RAG-LLM for Accurate Visual Question Answering",
+  "authors": "Junxiao Xue and Quan Deng and Fei Yu and Yanhao Wang and Jun Wang and\n  Yuehua Li",
+  "authorsParsed": [
+    [
+      "Xue",
+      "Junxiao",
+      ""
+    ],
+    [
+      "Deng",
+      "Quan",
+      ""
+    ],
+    [
+      "Yu",
+      "Fei",
+      ""
+    ],
+    [
+      "Wang",
+      "Yanhao",
+      ""
+    ],
+    [
+      "Wang",
+      "Jun",
+      ""
+    ],
+    [
+      "Li",
+      "Yuehua",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 30 Dec 2024 13:16:08 GMT"
+    }
+  ],
+  "updateDate": "2024-12-31",
+  "timestamp": 1735564568000,
+  "abstract": "  Multimodal large language models (MLLMs), such as GPT-4o, Gemini, LLaVA, and\nFlamingo, have made significant progress in integrating visual and textual\nmodalities, excelling in tasks like visual question answering (VQA), image\ncaptioning, and content retrieval. They can generate coherent and contextually\nrelevant descriptions of images. However, they still face challenges in\naccurately identifying and counting objects and determining their spatial\nlocations, particularly in complex scenes with overlapping or small objects. To\naddress these limitations, we propose a novel framework based on multimodal\nretrieval-augmented generation (RAG), which introduces structured scene graphs\nto enhance object recognition, relationship identification, and spatial\nunderstanding within images. Our framework improves the MLLM's capacity to\nhandle tasks requiring precise visual descriptions, especially in scenarios\nwith challenging perspectives, such as aerial views or scenes with dense object\narrangements. Finally, we conduct extensive experiments on the VG-150 dataset\nthat focuses on first-person visual understanding and the AUG dataset that\ninvolves aerial imagery. The results show that our approach consistently\noutperforms existing MLLMs in VQA tasks, which stands out in recognizing,\nlocalizing, and quantifying objects in different spatial contexts and provides\nmore accurate visual descriptions.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "k5ZthOyPc_Owph76w0cVBj_BLTrQ3unVwnuBcFyx5b8",
+  "pdfSize": "682108"
+}

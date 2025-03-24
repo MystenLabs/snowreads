@@ -1,0 +1,39 @@
+{
+  "id": "2412.11810",
+  "title": "Optimal Gradient Checkpointing for Sparse and Recurrent Architectures\n  using Off-Chip Memory",
+  "authors": "Wadjih Bencheikh, Jan Finkbeiner, Emre Neftci",
+  "authorsParsed": [
+    [
+      "Bencheikh",
+      "Wadjih",
+      ""
+    ],
+    [
+      "Finkbeiner",
+      "Jan",
+      ""
+    ],
+    [
+      "Neftci",
+      "Emre",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 16 Dec 2024 14:23:31 GMT"
+    }
+  ],
+  "updateDate": "2024-12-17",
+  "timestamp": 1734359011000,
+  "abstract": "  Recurrent neural networks (RNNs) are valued for their computational\nefficiency and reduced memory requirements on tasks involving long sequence\nlengths but require high memory-processor bandwidth to train. Checkpointing\ntechniques can reduce the memory requirements by only storing a subset of\nintermediate states, the checkpoints, but are still rarely used due to the\ncomputational overhead of the additional recomputation phase. This work\naddresses these challenges by introducing memory-efficient gradient\ncheckpointing strategies tailored for the general class of sparse RNNs and\nSpiking Neural Networks (SNNs). SNNs are energy efficient alternatives to RNNs\nthanks to their local, event-driven operation and potential neuromorphic\nimplementation. We use the Intelligence Processing Unit (IPU) as an exemplary\nplatform for architectures with distributed local memory. We exploit its\nsuitability for sparse and irregular workloads to scale SNN training on long\nsequence lengths. We find that Double Checkpointing emerges as the most\neffective method, optimizing the use of local memory resources while minimizing\nrecomputation overhead. This approach reduces dependency on slower large-scale\nmemory access, enabling training on sequences over 10 times longer or 4 times\nlarger networks than previously feasible, with only marginal time overhead. The\npresented techniques demonstrate significant potential to enhance scalability\nand efficiency in training sparse and recurrent networks across diverse\nhardware platforms, and highlights the benefits of sparse activations for\nscalable recurrent neural network training.\n",
+  "subjects": [
+    "Computer Science/Neural and Evolutionary Computing",
+    "Computer Science/Hardware Architecture",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "G9tsS17uYdKjKiCOQAT9QbRO7opnZnJlYSWUBm1tE5g",
+  "pdfSize": "367576"
+}

@@ -1,0 +1,41 @@
+{
+  "id": "2412.10204",
+  "title": "Unbalanced Zarankiewicz problem for bipartite subdivisions with\n  applications to incidence geometry",
+  "authors": "Lili K\\\"odm\\\"on, Anqi Li, Ji Zeng",
+  "authorsParsed": [
+    [
+      "Ködmön",
+      "Lili",
+      ""
+    ],
+    [
+      "Li",
+      "Anqi",
+      ""
+    ],
+    [
+      "Zeng",
+      "Ji",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 13 Dec 2024 15:26:28 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Mon, 13 Jan 2025 15:37:09 GMT"
+    }
+  ],
+  "updateDate": "2025-01-14",
+  "timestamp": 1734103588000,
+  "abstract": "  For a bipartite graph $H$, its linear threshold is the smallest real number\n$\\sigma$ such that every bipartite graph $G = (U \\sqcup V, E)$ with unbalanced\nparts $|V| \\gtrsim |U|^\\sigma$ and without a copy of $H$ must have a linear\nnumber of edges $|E| \\lesssim |V|$. We prove that the linear threshold of the\ncomplete bipartite subdivision graph $K_{s,t}'$ is at most $\\sigma_s = 2 -\n1/s$. Moreover, we show that any $\\sigma < \\sigma_s$ is less than the linear\nthreshold of $K_{s,t}'$ for sufficiently large $t$ (depending on $s$ and\n$\\sigma$).\n  Some geometric applications of this result are given: we show that any $n$\npoints and $n$ lines in the complex plane without an $s$-by-$s$ grid determine\n$O(n^{4/3 - c})$ incidences for some constant $c > 0$ depending on $s$; and for\ncertain pairs $(p,q)$, we establish nontrivial lower bounds on the number of\ndistinct distances determined by $n$ points in the plane under the condition\nthat every $p$-tuple of points determines at least $q$ distinct distances.\n",
+  "subjects": [
+    "Mathematics/Combinatorics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "mX64xdB5n_xUYlDRi_oHPJ7pAK5ddtje6jAcIt0XU18",
+  "pdfSize": "549168"
+}

@@ -1,0 +1,34 @@
+{
+  "id": "2412.02301",
+  "title": "Large Multimodal Agents for Accurate Phishing Detection with Enhanced\n  Token Optimization and Cost Reduction",
+  "authors": "Fouad Trad, Ali Chehab",
+  "authorsParsed": [
+    [
+      "Trad",
+      "Fouad",
+      ""
+    ],
+    [
+      "Chehab",
+      "Ali",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 3 Dec 2024 09:13:52 GMT"
+    }
+  ],
+  "updateDate": "2025-01-30",
+  "timestamp": 1733217232000,
+  "abstract": "  With the rise of sophisticated phishing attacks, there is a growing need for\neffective and economical detection solutions. This paper explores the use of\nlarge multimodal agents, specifically Gemini 1.5 Flash and GPT-4o mini, to\nanalyze both URLs and webpage screenshots via APIs, thus avoiding the\ncomplexities of training and maintaining AI systems. Our findings indicate that\nintegrating these two data types substantially enhances detection performance\nover using either type alone. However, API usage incurs costs per query that\ndepend on the number of input and output tokens. To address this, we propose a\ntwo-tiered agentic approach: initially, one agent assesses the URL, and if\ninconclusive, a second agent evaluates both the URL and the screenshot. This\nmethod not only maintains robust detection performance but also significantly\nreduces API costs by minimizing unnecessary multi-input queries. Cost analysis\nshows that with the agentic approach, GPT-4o mini can process about 4.2 times\nas many websites per $100 compared to the multimodal approach (107,440 vs.\n25,626), and Gemini 1.5 Flash can process about 2.6 times more websites\n(2,232,142 vs. 862,068). These findings underscore the significant economic\nbenefits of the agentic approach over the multimodal method, providing a viable\nsolution for organizations aiming to leverage advanced AI for phishing\ndetection while controlling expenses.\n",
+  "subjects": [
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Computation and Language",
+    "Computer Science/Cryptography and Security"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "2Ww4veUcvdt2vA4rJvq5BCIq4H4wQiLme75DXVWqU9w",
+  "pdfSize": "577066"
+}

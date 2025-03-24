@@ -1,0 +1,38 @@
+{
+  "id": "2412.05099",
+  "title": "C/O ratios in self-gravitating protoplanetary discs with dust evolution",
+  "authors": "Tamara Molyarova, Eduard Vorobyov, Vitaly Akimkin",
+  "authorsParsed": [
+    [
+      "Molyarova",
+      "Tamara",
+      ""
+    ],
+    [
+      "Vorobyov",
+      "Eduard",
+      ""
+    ],
+    [
+      "Akimkin",
+      "Vitaly",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 6 Dec 2024 14:55:59 GMT"
+    }
+  ],
+  "updateDate": "2025-01-15",
+  "timestamp": 1733496959000,
+  "abstract": "  Elemental abundances, particularly the C/O ratio, are seen as a way to\nconnect the composition of planetary atmospheres with planet formation scenario\nand the disc chemical environment. We model the chemical composition of gas and\nices in a self-gravitating disc on timescales of 0.5\\,Myr since its formation\nto study the evolution of C/O ratio due to dust dynamics and growth, and phase\ntransitions of the volatile species. We use the thin-disc hydrodynamic code\nFEOSAD, which includes disc self-gravity, thermal balance, dust evolution and\nturbulent diffusion, and treats dust as a dynamically different and evolving\ncomponent interacting with the gas. It also describes freeze-out, sublimation\nand advection of four volatile species: H$_2$O, CO$_2$, CH$_4$ and CO. We\ndemonstrate the effect of gas and dust substructures on the distribution of\nvolatiles and C/O ratios, including the formation of multiple snowlines of one\nspecies, and point out the anticorrelation between dust-to-gas ratio and total\nC/O ratio emerging due to the contribution of oxygen-rich ice mantles. We\nidentify time and spatial locations where two distinct trigger mechanisms for\nplanet formation are operating and differentiate them by C/O ratio range: wide\nrange of the C/O ratios of $0-1.4$ for streaming instability, and a much\nnarrower range $0.3-0.6$ for gravitational instability (with the initial value\nof 0.34). This conclusion is corroborated by observations, showing that\ntransiting exoplanets, which possibly experienced migration through a variety\nof disc conditions, have significantly larger spread of C/O in comparison with\ndirectly imaged exoplanets likely formed in gravitationally unstable outer disk\nregions. We show that the ice-phase C/O$\\approx0.2-0.3$ between the CO, CO$_2$\nand CH$_4$ snowlines corresponds to the composition of the Solar system comets,\nthat represent primordial planetesimals.\n",
+  "subjects": [
+    "Astrophysics/Earth and Planetary Astrophysics",
+    "Astrophysics/Solar and Stellar Astrophysics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "k6xriHiDS5a3SdgwGWiliIT1dSgmSzKPgQAebe5EQPc",
+  "pdfSize": "12423828"
+}

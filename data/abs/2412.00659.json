@@ -1,0 +1,42 @@
+{
+  "id": "2412.00659",
+  "title": "Linear Convergence Analysis of Single-loop Algorithm for Bilevel\n  Optimization via Small-gain Theorem",
+  "authors": "Jianhui Li, Shi Pu, Jianqi Chen, Junfeng Wu",
+  "authorsParsed": [
+    [
+      "Li",
+      "Jianhui",
+      ""
+    ],
+    [
+      "Pu",
+      "Shi",
+      ""
+    ],
+    [
+      "Chen",
+      "Jianqi",
+      ""
+    ],
+    [
+      "Wu",
+      "Junfeng",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 1 Dec 2024 03:42:17 GMT"
+    }
+  ],
+  "updateDate": "2024-12-03",
+  "timestamp": 1733024537000,
+  "abstract": "  Bilevel optimization has gained considerable attention due to its broad\napplicability across various fields. While several studies have investigated\nthe convergence rates in the strongly-convex-strongly-convex (SC-SC) setting,\nno prior work has proven that a single-loop algorithm can achieve linear\nconvergence. This paper employs a small-gain theorem in {robust control theory}\nto demonstrate that a single-loop algorithm based on the implicit function\ntheorem attains a linear convergence rate of $\\mathcal{O}(\\rho^{k})$, where\n$\\rho\\in(0,1)$ is specified in Theorem 3. Specifically, We model the algorithm\nas a dynamical system by identifying its two interconnected components: the\ncontroller (the gradient or approximate gradient functions) and the plant (the\nupdate rule of variables). We prove that each component exhibits a bounded gain\nand that, with carefully designed step sizes, their cascade accommodates a\nproduct gain strictly less than one. Consequently, the overall algorithm can be\nproven to achieve a linear convergence rate, as guaranteed by the small-gain\ntheorem. The gradient boundedness assumption adopted in the single-loop\nalgorithm (\\cite{hong2023two, chen2022single}) is replaced with a gradient\nLipschitz assumption in Assumption 2.2. To the best of our knowledge, this work\nis first-known result on linear convergence for a single-loop algorithm.\n",
+  "subjects": [
+    "Mathematics/Optimization and Control"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "1ZcCmny-DbqTLBpFe2aHkrSxZouU2OK8MZ7Gl_VOsC0",
+  "pdfSize": "508609"
+}

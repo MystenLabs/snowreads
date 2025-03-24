@@ -1,0 +1,38 @@
+{
+  "id": "2412.14033",
+  "title": "Hansel: Output Length Controlling Framework for Large Language Models",
+  "authors": "Seoha Song, Junhyun Lee, Hyeonmok Ko",
+  "authorsParsed": [
+    [
+      "Song",
+      "Seoha",
+      ""
+    ],
+    [
+      "Lee",
+      "Junhyun",
+      ""
+    ],
+    [
+      "Ko",
+      "Hyeonmok",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 18 Dec 2024 16:52:38 GMT"
+    }
+  ],
+  "updateDate": "2024-12-19",
+  "timestamp": 1734540758000,
+  "abstract": "  Despite the great success of large language models (LLMs), efficiently\ncontrolling the length of the output sequence still remains a challenge. In\nthis paper, we propose Hansel, an efficient framework for length control in\nLLMs without affecting its generation ability. Hansel utilizes periodically\noutputted hidden special tokens to keep track of the remaining target length of\nthe output sequence. Together with techniques to avoid abrupt termination of\nthe output, this seemingly simple method proved to be efficient and versatile,\nwhile not harming the coherency and fluency of the generated text. The\nframework can be applied to any pre-trained LLMs during the finetuning stage of\nthe model, regardless of its original positional encoding method. We\ndemonstrate this by finetuning four different LLMs with Hansel and show that\nthe mean absolute error of the output sequence decreases significantly in every\nmodel and dataset compared to the prompt-based length control finetuning.\nMoreover, the framework showed a substantially improved ability to extrapolate\nto target lengths unseen during finetuning, such as long dialog responses or\nextremely short summaries. This indicates that the model learns the general\nmeans of length control, rather than learning to match output lengths to those\nseen during training.\n",
+  "subjects": [
+    "Computer Science/Computation and Language",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "yl_bLKuFAi5N1kyHeA7ozieNUFKgkFIcI-zwGYvpK90",
+  "pdfSize": "488299"
+}

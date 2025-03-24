@@ -1,0 +1,42 @@
+{
+  "id": "2412.18237",
+  "title": "Sch\\\"odinger Bridge Type Diffusion Models as an Extension of Variational\n  Autoencoders",
+  "authors": "Kentaro Kaba, Reo Shimizu, Masayuki Ohzeki, Yuki Sughiyama",
+  "authorsParsed": [
+    [
+      "Kaba",
+      "Kentaro",
+      ""
+    ],
+    [
+      "Shimizu",
+      "Reo",
+      ""
+    ],
+    [
+      "Ohzeki",
+      "Masayuki",
+      ""
+    ],
+    [
+      "Sughiyama",
+      "Yuki",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 24 Dec 2024 07:43:14 GMT"
+    }
+  ],
+  "updateDate": "2024-12-25",
+  "timestamp": 1735026194000,
+  "abstract": "  Generative diffusion models use time-forward and backward stochastic\ndifferential equations to connect the data and prior distributions. While\nconventional diffusion models (e.g., score-based models) only learn the\nbackward process, more flexible frameworks have been proposed to also learn the\nforward process by employing the Schr\\\"odinger bridge (SB). However, due to the\ncomplexity of the mathematical structure behind SB-type models, we can not\neasily give an intuitive understanding of their objective function. In this\nwork, we propose a unified framework to construct diffusion models by\nreinterpreting the SB-type models as an extension of variational autoencoders.\nIn this context, the data processing inequality plays a crucial role. As a\nresult, we find that the objective function consists of the prior loss and\ndrift matching parts.\n",
+  "subjects": [
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "6UXcZ1a70jhFXyngJG-J2PxsbplPz2ItxIiHAG215xc",
+  "pdfSize": "513037"
+}

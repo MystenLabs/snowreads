@@ -1,0 +1,43 @@
+{
+  "id": "2412.01272",
+  "title": "Uncertainty-Aware Artificial Intelligence for Gear Fault Diagnosis in\n  Motor Drives",
+  "authors": "Subham Sahoo, Huai Wang, Frede Blaabjerg",
+  "authorsParsed": [
+    [
+      "Sahoo",
+      "Subham",
+      ""
+    ],
+    [
+      "Wang",
+      "Huai",
+      ""
+    ],
+    [
+      "Blaabjerg",
+      "Frede",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 2 Dec 2024 08:38:20 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Fri, 13 Dec 2024 09:50:35 GMT"
+    }
+  ],
+  "updateDate": "2024-12-16",
+  "timestamp": 1733128700000,
+  "abstract": "  This paper introduces a novel approach to quantify the uncertainties in fault\ndiagnosis of motor drives using Bayesian neural networks (BNN). Conventional\ndata-driven approaches used for fault diagnosis often rely on point-estimate\nneural networks, which merely provide deterministic outputs and fail to capture\nthe uncertainty associated with the inference process. In contrast, BNNs offer\na principled framework to model uncertainty by treating network weights as\nprobability distributions rather than fixed values. It offers several\nadvantages: (a) improved robustness to noisy data, (b) enhanced\ninterpretability of model predictions, and (c) the ability to quantify\nuncertainty in the decision-making processes. To test the robustness of the\nproposed BNN, it has been tested under a conservative dataset of gear fault\ndata from an experimental prototype of three fault types at first, and is then\nincrementally trained on new fault classes and datasets to explore its\nuncertainty quantification features and model interpretability under noisy data\nand unseen fault scenarios.\n",
+  "subjects": [
+    "Electrical Engineering and Systems Science/Systems and Control",
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Systems and Control"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "a2NyJKe-OPu5LivRPA01LG7NOjZGmtcrlLcXZWI8CdE",
+  "pdfSize": "1902689"
+}

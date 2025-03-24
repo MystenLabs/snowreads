@@ -1,0 +1,49 @@
+{
+  "id": "2412.06151",
+  "title": "Identifying weak critical fluctuations of intermittency in heavy-ion\n  collisions with topological machine learning",
+  "authors": "Rui Wang, Chengrui Qiu, Chuan-Shen Hu, Zhiming Li and Yuanfang Wu",
+  "authorsParsed": [
+    [
+      "Wang",
+      "Rui",
+      ""
+    ],
+    [
+      "Qiu",
+      "Chengrui",
+      ""
+    ],
+    [
+      "Hu",
+      "Chuan-Shen",
+      ""
+    ],
+    [
+      "Li",
+      "Zhiming",
+      ""
+    ],
+    [
+      "Wu",
+      "Yuanfang",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 9 Dec 2024 02:17:22 GMT"
+    }
+  ],
+  "updateDate": "2024-12-10",
+  "timestamp": 1733710642000,
+  "abstract": "  Large density fluctuations of conserved charges have been proposed as a\npromising signature for exploring the QCD critical point in heavy-ion\ncollisions. These fluctuations are expected to exhibit a fractal or\nscale-invariant behavior, which can be probed by intermittency analysis. Recent\nhigh-energy experimental studies reveal that the signal of critical\nfluctuations related to intermittency is very weak and thus could be easily\nobscured by the overwhelming background particles in the data sample. Employing\na point cloud neural network with topological machine learning, we can\nsuccessfully classify weak signal events from background noise by the extracted\ndistinct topological features, and accurately determine the intermittency index\nfor weak signal event samples.\n",
+  "subjects": [
+    "Physics/Nuclear Theory",
+    "Physics/High Energy Physics - Phenomenology",
+    "Physics/Nuclear Experiment"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "fSMHyVsbG3gRjUeRJ58EbBv1I6i7N-80Sinm6Ax7a-Q",
+  "pdfSize": "1909561"
+}

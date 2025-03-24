@@ -1,0 +1,35 @@
+{
+  "id": "2412.14111",
+  "title": "Event-based Photometric Bundle Adjustment",
+  "authors": "Shuang Guo and Guillermo Gallego",
+  "authorsParsed": [
+    [
+      "Guo",
+      "Shuang",
+      ""
+    ],
+    [
+      "Gallego",
+      "Guillermo",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 18 Dec 2024 17:58:16 GMT"
+    }
+  ],
+  "updateDate": "2024-12-19",
+  "timestamp": 1734544696000,
+  "abstract": "  We tackle the problem of bundle adjustment (i.e., simultaneous refinement of\ncamera poses and scene map) for a purely rotating event camera. Starting from\nfirst principles, we formulate the problem as a classical non-linear least\nsquares optimization. The photometric error is defined using the event\ngeneration model directly in the camera rotations and the semi-dense scene\nbrightness that triggers the events. We leverage the sparsity of event data to\ndesign a tractable Levenberg-Marquardt solver that handles the very large\nnumber of variables involved. To the best of our knowledge, our method, which\nwe call Event-based Photometric Bundle Adjustment (EPBA), is the first\nevent-only photometric bundle adjustment method that works on the brightness\nmap directly and exploits the space-time characteristics of event data, without\nhaving to convert events into image-like representations. Comprehensive\nexperiments on both synthetic and real-world datasets demonstrate EPBA's\neffectiveness in decreasing the photometric error (by up to 90%), yielding\nresults of unparalleled quality. The refined maps reveal details that were\nhidden using prior state-of-the-art rotation-only estimation methods. The\nexperiments on modern high-resolution event cameras show the applicability of\nEPBA to panoramic imaging in various scenarios (without map initialization, at\nmultiple resolutions, and in combination with other methods, such as IMU dead\nreckoning or previous event-based rotation estimation methods). We make the\nsource code publicly available. https://github.com/tub-rip/epba\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Robotics",
+    "Electrical Engineering and Systems Science/Signal Processing",
+    "Mathematics/Optimization and Control"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "N4uzA16YP5xuw3qMTwL0NvgbjmFcLrC1PjcpIL0bGu4",
+  "pdfSize": "28124303"
+}

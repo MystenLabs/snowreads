@@ -1,0 +1,43 @@
+{
+  "id": "2412.00772",
+  "title": "A Wave is Worth 100 Words: Investigating Cross-Domain Transferability in\n  Time Series",
+  "authors": "Xiangkai Ma, Xiaobin Hong, Wenzhong Li, Sanglu Lu",
+  "authorsParsed": [
+    [
+      "Ma",
+      "Xiangkai",
+      ""
+    ],
+    [
+      "Hong",
+      "Xiaobin",
+      ""
+    ],
+    [
+      "Li",
+      "Wenzhong",
+      ""
+    ],
+    [
+      "Lu",
+      "Sanglu",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 1 Dec 2024 11:35:06 GMT"
+    }
+  ],
+  "updateDate": "2024-12-03",
+  "timestamp": 1733052906000,
+  "abstract": "  Time series analysis is a fundamental data mining task that supervised\ntraining methods based on empirical risk minimization have proven their\neffectiveness on specific tasks and datasets. However, the acquisition of\nwell-annotated data is costly and a large amount of unlabeled series data is\nunder-utilized. Due to distributional shifts across various domains and\ndifferent patterns of interest across multiple tasks. The problem of\ncross-domain multi-task migration of time series remains a significant\nchallenge. To address these problems, this paper proposes a novel cross-domain\npretraining method based on Wave Quantization (termed as WQ4TS), which can be\ncombined with any advanced time series model and applied to multiple downstream\ntasks. Specifically, we transfer the time series data from different domains\ninto a common spectral latent space, and enable the model to learn the temporal\npattern knowledge of different domains directly from the common space and\nutilize it for the inference of downstream tasks, thereby mitigating the\nchallenge of heterogeneous cross-domains migration. The establishment of\nspectral latent space brings at least three benefits, cross-domain migration\ncapability thus adapting to zero- and few-shot scenarios without relying on\npriori knowledge of the dataset, general compatible cross-domain migration\nframework without changing the existing model structure, and robust modeling\ncapability thus achieving SOTA results in multiple downstream tasks. To\ndemonstrate the effectiveness of the proposed approach, we conduct extensive\nexperiments including three important tasks: forecasting, imputation, and\nclassification. And three common real-world data scenarios are simulated:\nfull-data, few-shot, and zero-shot. The proposed WQ4TS achieves the best\nperformance on 87.5% of all tasks, and the average improvement of the metrics\non all the tasks is up to 34.7%.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "VbS0_qy5zhviaXjknFuB1ufJd2-NSP64VhBHifgMLPQ",
+  "pdfSize": "1039065"
+}

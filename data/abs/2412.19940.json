@@ -1,0 +1,32 @@
+{
+  "id": "2412.19940",
+  "title": "Chemotaxis and Reactions in Anomalous Diffusion Dynamics",
+  "authors": "Crystianne L. De Andrade and Alexander A. Kiselev",
+  "authorsParsed": [
+    [
+      "De Andrade",
+      "Crystianne L.",
+      ""
+    ],
+    [
+      "Kiselev",
+      "Alexander A.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 27 Dec 2024 22:21:37 GMT"
+    }
+  ],
+  "updateDate": "2024-12-31",
+  "timestamp": 1735338097000,
+  "abstract": "  Chemotaxis and reactions are fundamental processes in biology, often\nintricately intertwined. Chemotaxis, in particular, can be crucial in\nmaintaining and accelerating a reaction. In this work, we extend the\ninvestigation initiated by kiselev et al. [17] by examining the impact of\nchemotactic attraction on reproduction and other processes in the context of\nanomalous diffusion of gamete densities. For that, we consider a partial\ndifferential equation, with a single density function, that includes advection,\nchemotaxis, absorbing reaction, and diffusion, incorporating the fractional\nLaplacian $\\Lambda^\\alpha$. The inclusion of the fractional Laplacian is\nmotivated by experimental evidence supporting the efficacy of anomalous\ndiffusion models, particularly in scenarios with sparse targets. The fractional\nLaplacian accommodates the nonlocal nature of superdiffusion processes,\nproviding a more accurate representation than traditional diffusion models. Our\nproposed model represents a step forward in refining mathematical descriptions\nof cellular behaviors influenced by chemotactic cues.\n",
+  "subjects": [
+    "Mathematics/Analysis of PDEs"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "CXoHv4wSkEpFjjalwIN8jd8bYzi4IyJ3Fsk9yDlbJXU",
+  "pdfSize": "388571"
+}

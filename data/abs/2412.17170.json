@@ -1,0 +1,48 @@
+{
+  "id": "2412.17170",
+  "title": "Where Did Your Model Learn That? Label-free Influence for\n  Self-supervised Learning",
+  "authors": "Nidhin Harilal, Amit Kiran Rege, Reza Akbarian Bafghi, Maziar Raissi,\n  Claire Monteleoni",
+  "authorsParsed": [
+    [
+      "Harilal",
+      "Nidhin",
+      ""
+    ],
+    [
+      "Rege",
+      "Amit Kiran",
+      ""
+    ],
+    [
+      "Bafghi",
+      "Reza Akbarian",
+      ""
+    ],
+    [
+      "Raissi",
+      "Maziar",
+      ""
+    ],
+    [
+      "Monteleoni",
+      "Claire",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 22 Dec 2024 21:43:56 GMT"
+    }
+  ],
+  "updateDate": "2024-12-24",
+  "timestamp": 1734903836000,
+  "abstract": "  Self-supervised learning (SSL) has revolutionized learning from large-scale\nunlabeled datasets, yet the intrinsic relationship between pretraining data and\nthe learned representations remains poorly understood. Traditional supervised\nlearning benefits from gradient-based data attribution tools like influence\nfunctions that measure the contribution of an individual data point to model\npredictions. However, existing definitions of influence rely on labels, making\nthem unsuitable for SSL settings. We address this gap by introducing\nInfluence-SSL, a novel and label-free approach for defining influence functions\ntailored to SSL. Our method harnesses the stability of learned representations\nagainst data augmentations to identify training examples that help explain\nmodel predictions. We provide both theoretical foundations and empirical\nevidence to show the utility of Influence-SSL in analyzing pre-trained SSL\nmodels. Our analysis reveals notable differences in how SSL models respond to\ninfluential data compared to supervised models. Finally, we validate the\neffectiveness of Influence-SSL through applications in duplicate detection,\noutlier identification and fairness analysis. Code is available at:\n\\url{https://github.com/cryptonymous9/Influence-SSL}.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by-sa/4.0/",
+  "blobId": "0pp21_2IEMv_LSZFc59I1n9W9ycR0UJsCW1NfRU0IOc",
+  "pdfSize": "15882343"
+}

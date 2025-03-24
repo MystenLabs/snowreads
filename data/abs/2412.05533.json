@@ -1,0 +1,43 @@
+{
+  "id": "2412.05533",
+  "title": "Can large language models be privacy preserving and fair medical coders?",
+  "authors": "Ali Dadsetan, Dorsa Soleymani, Xijie Zeng, Frank Rudzicz",
+  "authorsParsed": [
+    [
+      "Dadsetan",
+      "Ali",
+      ""
+    ],
+    [
+      "Soleymani",
+      "Dorsa",
+      ""
+    ],
+    [
+      "Zeng",
+      "Xijie",
+      ""
+    ],
+    [
+      "Rudzicz",
+      "Frank",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 7 Dec 2024 04:27:05 GMT"
+    }
+  ],
+  "updateDate": "2024-12-10",
+  "timestamp": 1733545625000,
+  "abstract": "  Protecting patient data privacy is a critical concern when deploying machine\nlearning algorithms in healthcare. Differential privacy (DP) is a common method\nfor preserving privacy in such settings and, in this work, we examine two key\ntrade-offs in applying DP to the NLP task of medical coding (ICD\nclassification). Regarding the privacy-utility trade-off, we observe a\nsignificant performance drop in the privacy preserving models, with more than a\n40% reduction in micro F1 scores on the top 50 labels in the MIMIC-III dataset.\nFrom the perspective of the privacy-fairness trade-off, we also observe an\nincrease of over 3% in the recall gap between male and female patients in the\nDP models. Further understanding these trade-offs will help towards the\nchallenges of real-world deployment.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Computer Science/Cryptography and Security"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "Bq_Yy-6FUtKcnQGCj7N_AIHKr10vEOfsy9SXFCgW3zo",
+  "pdfSize": "443583"
+}

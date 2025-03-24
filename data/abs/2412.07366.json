@@ -1,0 +1,37 @@
+{
+  "id": "2412.07366",
+  "title": "Personalized Head-Related Transfer Function Prediction Based on Spatial\n  Grouping",
+  "authors": "Keng-Wei Chang, Yih-Liang Shen, Tai-Shi Chi",
+  "authorsParsed": [
+    [
+      "Chang",
+      "Keng-Wei",
+      ""
+    ],
+    [
+      "Shen",
+      "Yih-Liang",
+      ""
+    ],
+    [
+      "Chi",
+      "Tai-Shi",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 10 Dec 2024 10:05:09 GMT"
+    }
+  ],
+  "updateDate": "2024-12-11",
+  "timestamp": 1733825109000,
+  "abstract": "  The head-related transfer function (HRTF) characterizes the frequency\nresponse of the sound traveling path between a specific location and the ear.\nWhen it comes to estimating HRTFs by neural network models, angle-specific\nmodels greatly outperform global models but demand high computational\nresources. To balance the computational resource and performance, we propose a\nmethod by grouping HRTF data spatially to reduce variance within each subspace.\nHRTF predicting neural network is then trained for each subspace. Simulation\nresults show the proposed method performs better than global models and\nangle-specific models by using different grouping strategies at the ipsilateral\nand contralateral sides.\n",
+  "subjects": [
+    "Electrical Engineering and Systems Science/Signal Processing"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "sGyceuaJsBuqtjuiKa53-0Y8jZE8RMi7AUX2wGSLHBc",
+  "pdfSize": "415414"
+}

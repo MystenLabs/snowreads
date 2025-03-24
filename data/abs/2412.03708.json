@@ -1,0 +1,43 @@
+{
+  "id": "2412.03708",
+  "title": "Rectified Control Barrier Functions for High-Order Safety Constraints",
+  "authors": "Pio Ong, Max H. Cohen, Tamas G. Molnar, Aaron D. Ames",
+  "authorsParsed": [
+    [
+      "Ong",
+      "Pio",
+      ""
+    ],
+    [
+      "Cohen",
+      "Max H.",
+      ""
+    ],
+    [
+      "Molnar",
+      "Tamas G.",
+      ""
+    ],
+    [
+      "Ames",
+      "Aaron D.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 4 Dec 2024 20:44:31 GMT"
+    }
+  ],
+  "updateDate": "2025-01-06",
+  "timestamp": 1733345071000,
+  "abstract": "  This paper presents a novel approach for synthesizing control barrier\nfunctions (CBFs) from high relative degree safety constraints: Rectified CBFs\n(ReCBFs). We begin by discussing the limitations of existing High-Order CBF\napproaches and how these can be overcome by incorporating an activation\nfunction into the CBF construction. We then provide a comparative analysis of\nour approach with related methods, such as CBF backstepping. Our results are\npresented first for safety constraints with relative degree two, then for\nmixed-input relative degree constraints, and finally for higher relative\ndegrees. The theoretical developments are illustrated through simple running\nexamples and an aircraft control problem.\n",
+  "subjects": [
+    "Electrical Engineering and Systems Science/Systems and Control",
+    "Computer Science/Systems and Control"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "-9PAOnakJZQx5xGrjcnZVjrvZ4HfSPJ-azCYoZE6IDg",
+  "pdfSize": "793914"
+}

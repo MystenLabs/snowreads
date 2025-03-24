@@ -1,0 +1,28 @@
+{
+  "id": "2412.14179",
+  "title": "Benchmarking Harmonized Tariff Schedule Classification Models",
+  "authors": "Bryce Judy",
+  "authorsParsed": [
+    [
+      "Judy",
+      "Bryce",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 4 Dec 2024 16:29:05 GMT"
+    }
+  ],
+  "updateDate": "2024-12-20",
+  "timestamp": 1733329745000,
+  "abstract": "  The Harmonized Tariff System (HTS) classification industry, essential to\ne-commerce and international trade, currently lacks standardized benchmarks for\nevaluating the effectiveness of classification solutions. This study\nestablishes and tests a benchmark framework for imports to the United States,\ninspired by the benchmarking approaches used in language model evaluation, to\nsystematically compare prominent HTS classification tools. The framework\nassesses key metrics--such as speed, accuracy, rationality, and HTS code\nalignment--to provide a comprehensive performance comparison. The study\nevaluates several industry-leading solutions, including those provided by\nZonos, Tarifflo, Avalara, and WCO BACUDA, identifying each tool's strengths and\nlimitations. Results highlight areas for industry-wide improvement and\ninnovation, paving the way for more effective and standardized HTS\nclassification solutions across the international trade and e-commerce sectors.\n",
+  "subjects": [
+    "Computer Science/Software Engineering",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by-sa/4.0/",
+  "blobId": "K1gaHjqH1L2HGuxDAW6LG146W0-0jMNCwI-ZsIv-AmM",
+  "pdfSize": "76058"
+}

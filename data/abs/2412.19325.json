@@ -1,0 +1,48 @@
+{
+  "id": "2412.19325",
+  "title": "Performance Control in Early Exiting to Deploy Large Models at the Same\n  Cost of Smaller Ones",
+  "authors": "Mehrnaz Mofakhami, Reza Bayat, Ioannis Mitliagkas, Joao Monteiro,\n  Valentina Zantedeschi",
+  "authorsParsed": [
+    [
+      "Mofakhami",
+      "Mehrnaz",
+      ""
+    ],
+    [
+      "Bayat",
+      "Reza",
+      ""
+    ],
+    [
+      "Mitliagkas",
+      "Ioannis",
+      ""
+    ],
+    [
+      "Monteiro",
+      "Joao",
+      ""
+    ],
+    [
+      "Zantedeschi",
+      "Valentina",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 26 Dec 2024 18:54:32 GMT"
+    }
+  ],
+  "updateDate": "2024-12-30",
+  "timestamp": 1735239272000,
+  "abstract": "  Early Exiting (EE) is a promising technique for speeding up inference by\nadaptively allocating compute resources to data points based on their\ndifficulty. The approach enables predictions to exit at earlier layers for\nsimpler samples while reserving more computation for challenging ones. In this\nstudy, we first present a novel perspective on the EE approach, showing that\nlarger models deployed with EE can achieve higher performance than smaller\nmodels while maintaining similar computational costs. As existing EE approaches\nrely on confidence estimation at each exit point, we further study the impact\nof overconfidence on the controllability of the compute-performance trade-off.\nWe introduce Performance Control Early Exiting (PCEE), a method that enables\naccuracy thresholding by basing decisions not on a data point's confidence but\non the average accuracy of samples with similar confidence levels from a\nheld-out validation set. In our experiments, we show that PCEE offers a simple\nyet computationally efficient approach that provides better control over\nperformance than standard confidence-based approaches, and allows us to scale\nup model sizes to yield performance gain while reducing the computational cost.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "xDu_9_MjGiUAvhpXZaFG-IVqFsQd57e4mhnYfd8Y0fM",
+  "pdfSize": "6396706"
+}

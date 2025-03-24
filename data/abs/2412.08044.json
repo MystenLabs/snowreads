@@ -1,0 +1,37 @@
+{
+  "id": "2412.08044",
+  "title": "Scaling Optimized Hermite Approximation Methods",
+  "authors": "Hao Hu and Haijun Yu",
+  "authorsParsed": [
+    [
+      "Hu",
+      "Hao",
+      ""
+    ],
+    [
+      "Yu",
+      "Haijun",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 11 Dec 2024 02:48:41 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Thu, 9 Jan 2025 02:06:02 GMT"
+    }
+  ],
+  "updateDate": "2025-01-10",
+  "timestamp": 1733885321000,
+  "abstract": "  Hermite polynomials and functions have extensive applications in scientific\nand engineering problems. While it is recognized that employing the scaled\nHermite functions rather than the standard ones can remarkably enhance the\napproximation performance, the understanding of the scaling factor remains\ninsufficient. Due to the lack of theoretical analysis, some literature still\ncast doubts on whether the Hermite spectral method is inferior to other\nmethods. To dispel these doubts, we show in this article that the inefficiency\nof the Hermite spectral method comes from the imbalance in the decay speed of\nthe objective function within the spatial and frequency domains. Moreover,\nproper scaling can render the Hermite spectral methods comparable to other\nmethods. To illustrate this idea in more detail, we propose a novel error\nanalysis framework for the scaled Hermite approximation. Taking the $L^2$\nprojection error as an example, our framework illustrates that there are three\ndifferent components of errors: the spatial truncation error, the frequency\ntruncation error, and the Hermite spectral approximation error. Through this\nperspective, finding the optimal scaling factor is equivalent to balancing the\nspatial and frequency truncation error. As applications, we show that geometric\nconvergence can be recovered by proper scaling for a class of functions.\nFurthermore, we show that proper scaling can double the convergence order for\nsmooth functions with algebraic decay. The perplexing pre-asymptotic\nsub-geometric convergence when approximating algebraic decay functions can be\nperfectly explained by this framework.\n",
+  "subjects": [
+    "Mathematics/Numerical Analysis",
+    "Computer Science/Numerical Analysis"
+  ],
+  "license": "http://creativecommons.org/licenses/by-sa/4.0/",
+  "blobId": "g5ObQq_gFWatbmUDEiiK8xA4uJJz0oN0zhfQnLdBXmM",
+  "pdfSize": "598572"
+}

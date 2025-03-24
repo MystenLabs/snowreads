@@ -1,0 +1,67 @@
+{
+  "id": "2412.04939",
+  "title": "Verb Mirage: Unveiling and Assessing Verb Concept Hallucinations in\n  Multimodal Large Language Models",
+  "authors": "Zehao Wang, Xinpeng Liu, Xiaoqian Wu, Yudonglin Zhang, Zhou Fang,\n  Yifan Fang, Junfu Pu, Cewu Lu, Yong-Lu Li",
+  "authorsParsed": [
+    [
+      "Wang",
+      "Zehao",
+      ""
+    ],
+    [
+      "Liu",
+      "Xinpeng",
+      ""
+    ],
+    [
+      "Wu",
+      "Xiaoqian",
+      ""
+    ],
+    [
+      "Zhang",
+      "Yudonglin",
+      ""
+    ],
+    [
+      "Fang",
+      "Zhou",
+      ""
+    ],
+    [
+      "Fang",
+      "Yifan",
+      ""
+    ],
+    [
+      "Pu",
+      "Junfu",
+      ""
+    ],
+    [
+      "Lu",
+      "Cewu",
+      ""
+    ],
+    [
+      "Li",
+      "Yong-Lu",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 6 Dec 2024 10:53:47 GMT"
+    }
+  ],
+  "updateDate": "2024-12-09",
+  "timestamp": 1733482427000,
+  "abstract": "  Multimodal Large Language Models (MLLMs) have garnered significant attention\nrecently and demonstrate outstanding capabilities in various tasks such as OCR,\nVQA, captioning, $\\textit{etc}$. However, hallucination remains a persistent\nissue. While numerous methods have been proposed to mitigate hallucinations,\nachieving notable improvements, these methods primarily focus on mitigating\nhallucinations about $\\textbf{object/noun-related}$ concepts. Verb concepts,\ncrucial for understanding human actions, have been largely overlooked. In this\npaper, to the best of our knowledge, we are the $\\textbf{first}$ to investigate\nthe $\\textbf{verb hallucination}$ phenomenon of MLLMs from various\nperspectives. Our findings reveal that most state-of-the-art MLLMs suffer from\nsevere verb hallucination. To assess the effectiveness of existing mitigation\nmethods for object concept hallucination on verb hallucination, we evaluated\nthese methods and found that they do not effectively address verb\nhallucination. To address this issue, we propose a novel rich verb\nknowledge-based tuning method to mitigate verb hallucination. The experiment\nresults demonstrate that our method significantly reduces hallucinations\nrelated to verbs. $\\textit{Our code and data will be made publicly available}$.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "r828bWiEMjsSG78IW4nFASbitUusXw73XuLR53WY2Y8",
+  "pdfSize": "4869882"
+}

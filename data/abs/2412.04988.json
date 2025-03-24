@@ -1,0 +1,37 @@
+{
+  "id": "2412.04988",
+  "title": "A unified framework for classical and quantum uncertainty relations\n  using stochastic representations",
+  "authors": "Euijoon Kwon and Jae Sung Lee",
+  "authorsParsed": [
+    [
+      "Kwon",
+      "Euijoon",
+      ""
+    ],
+    [
+      "Lee",
+      "Jae Sung",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 6 Dec 2024 12:16:41 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Fri, 13 Dec 2024 15:55:27 GMT"
+    }
+  ],
+  "updateDate": "2024-12-16",
+  "timestamp": 1733487401000,
+  "abstract": "  Thermodynamic uncertainty relations (TURs) and kinetic uncertainty relations\n(KURs) provide tradeoff relations between measurement precision and\nthermodynamic cost such as entropy production and activity. Conventionally,\nthese relations are derived using the Cram\\'er-Rao inequality, which involves\nan auxiliary perturbation in deterministic differential equations governing the\ntime evolution of the system's probability distribution. In this study, without\nrelying on the previous formulation based on deterministic evolving equation,\nwe demonstrate that all previously discovered uncertainty relations can be\nderived solely through the stochastic representation of the same dynamics. For\nthis purpose, we propose a unified method based on stochastic representations\nfor general Markovian dynamics. Extending beyond classical systems, we apply\nthis method to Markovian open quantum systems by unraveling their dynamics,\nderiving quantum uncertainty relations that are physically more accessible and\ntighter in regimes where quantum effects play a significant role. This fully\nestablishes uncertainty relations for both classical and quantum systems as\nintrinsic properties of their stochastic nature.\n",
+  "subjects": [
+    "Condensed Matter/Statistical Mechanics",
+    "Physics/Quantum Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "hC7K-bZXoEyP1jbQbcdx2TlHMI1pCc2VUOZKAPYbqVY",
+  "pdfSize": "743689"
+}

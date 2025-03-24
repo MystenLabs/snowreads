@@ -1,0 +1,43 @@
+{
+  "id": "2412.21118",
+  "title": "Efficient Approximate Degenerate Ordered Statistics Decoding for Quantum\n  Codes via Reliable Subset Reduction",
+  "authors": "Ching-Feng Kung, Kao-Yueh Kuo and Ching-Yi Lai",
+  "authorsParsed": [
+    [
+      "Kung",
+      "Ching-Feng",
+      ""
+    ],
+    [
+      "Kuo",
+      "Kao-Yueh",
+      ""
+    ],
+    [
+      "Lai",
+      "Ching-Yi",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 30 Dec 2024 17:45:08 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Sat, 22 Feb 2025 07:55:12 GMT"
+    }
+  ],
+  "updateDate": "2025-02-25",
+  "timestamp": 1735580708000,
+  "abstract": "  Efficient decoding of quantum codes is crucial for achieving high-performance\nquantum error correction. In this paper, we introduce the concept of\napproximate degenerate decoding and integrate it with ordered statistics\ndecoding (OSD). Previously, we proposed a reliability metric that leverages\nboth hard and soft decisions from the output of belief propagation (BP), which\nis particularly useful for identifying highly reliable subsets of variables.\nUsing the approach of reliable subset reduction, we reduce the effective\nproblem size. Additionally, we identify a degeneracy condition that allows\nhigh-order OSD to be simplified to order-0 OSD. By integrating these\ntechniques, we present an ADOSD algorithm that significantly improves OSD\nefficiency in the code capacity noise model. We demonstrate the effectiveness\nof our BP+ADOSD approach through extensive simulations on a varity of quantum\ncodes, including generalized hypergraph-product codes, topological codes,\nlift-connected surface codes, and bivariate bicycle codes. The results indicate\nthat the BP+ADOSD decoder outperforms existing methods, achieving higher error\nthresholds and enhanced performance at low error rates. Additionally, we\nvalidate the efficiency of our approach in terms of computational time,\ndemonstrating that ADOSD requires, on average, the same amount of time as two\nto three BP iterations on surface codes at a depolarizing error rate of around\n$1\\%$. All the proposed algorithms are compared using single-threaded CPU\nimplementations.\n",
+  "subjects": [
+    "Physics/Quantum Physics",
+    "Computer Science/Information Theory",
+    "Mathematics/Information Theory"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "abyldINGCDoBqNn39KxGSV1OvnUc3qY7rdx61db0-O0",
+  "pdfSize": "963234"
+}

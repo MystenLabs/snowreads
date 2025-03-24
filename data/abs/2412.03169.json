@@ -1,0 +1,33 @@
+{
+  "id": "2412.03169",
+  "title": "Non-Symmetric Askey--Wilson Shift Operators",
+  "authors": "Max van Horssen, Philip Schl\\\"osser",
+  "authorsParsed": [
+    [
+      "van Horssen",
+      "Max",
+      ""
+    ],
+    [
+      "Schlösser",
+      "Philip",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 4 Dec 2024 09:48:23 GMT"
+    }
+  ],
+  "updateDate": "2024-12-05",
+  "timestamp": 1733305703000,
+  "abstract": "  We classify the shift operators for the symmetric Askey-Wilson polynomials\nand construct shift operators for the non-symmetric Askey-Wilson polynomials\nusing two decompositions of non-symmetric Askey-Wilson polynomials in terms of\nsymmetric ones. These shift operators are difference-reflection operators, and\nwe discuss the conditions under which they restrict to shift operators for the\nsymmetric Askey-Wilson polynomials. We use them to compute the norms of the\nnon-symmetric Askey-Wilson polynomials and compute their specialisations for\n$q\\to1$. These turn out to be shift operators for the non-symmetric\nHeckman-Opdam polynomials of type $BC_1$ that have recently been found.\n",
+  "subjects": [
+    "Mathematics/Classical Analysis and ODEs",
+    "Mathematics/Representation Theory"
+  ],
+  "license": "http://creativecommons.org/licenses/by-sa/4.0/",
+  "blobId": "v1LkqhqmKokVOI7aeRRIFJ5xw4iG2kswCEBcaFMJuCw",
+  "pdfSize": "786317"
+}

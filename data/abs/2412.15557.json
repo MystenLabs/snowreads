@@ -1,0 +1,43 @@
+{
+  "id": "2412.15557",
+  "title": "MORTAR: Metamorphic Multi-turn Testing for LLM-based Dialogue Systems",
+  "authors": "Guoxiang Guo, Aldeida Aleti, Neelofar Neelofar, Chakkrit\n  Tantithamthavorn",
+  "authorsParsed": [
+    [
+      "Guo",
+      "Guoxiang",
+      ""
+    ],
+    [
+      "Aleti",
+      "Aldeida",
+      ""
+    ],
+    [
+      "Neelofar",
+      "Neelofar",
+      ""
+    ],
+    [
+      "Tantithamthavorn",
+      "Chakkrit",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 20 Dec 2024 04:31:03 GMT"
+    }
+  ],
+  "updateDate": "2024-12-23",
+  "timestamp": 1734669063000,
+  "abstract": "  With the widespread application of LLM-based dialogue systems in daily life,\nquality assurance has become more important than ever. Recent research has\nsuccessfully introduced methods to identify unexpected behaviour in single-turn\nscenarios. However, multi-turn dialogue testing remains underexplored, with the\nOracle problem in multi-turn testing posing a persistent challenge for dialogue\nsystem developers and researchers. In this paper, we propose MORTAR, a\nMetamORphic multi-TuRn diAlogue testing appRoach, which mitigates the test\noracle problem in the assessment of LLM-based dialogue systems. MORTAR\nautomates the generation of follow-up question-answer (QA) dialogue test cases\nwith multiple dialogue-level perturbations and metamorphic relations. MORTAR\nemploys a novel knowledge graph-based dialogue information model which\neffectively generates perturbed dialogue test datasets and detects bugs of\nmulti-turn dialogue systems in a low-cost manner. The proposed approach does\nnot require an LLM as a judge, eliminating potential of any biases in the\nevaluation step. According to the experiment results on multiple LLM-based\ndialogue systems and comparisons with single-turn metamorphic testing\napproaches, MORTAR explores more unique bugs in LLM-based dialogue systems,\nespecially for severe bugs that MORTAR detects up to four times more unique\nbugs than the most effective existing metamorphic testing approach.\n",
+  "subjects": [
+    "Computer Science/Software Engineering",
+    "Computer Science/Computation and Language"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "d54KlgPQQDAUT8e--4n7y_Q-aO8yLM5rFZ4xqgtPAOY",
+  "pdfSize": "4532273"
+}

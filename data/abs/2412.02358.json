@@ -1,0 +1,63 @@
+{
+  "id": "2412.02358",
+  "title": "Probing jet dynamics and collimation in radio galaxies. Application to\n  NGC 1052",
+  "authors": "Ainara Saiz-P\\'erez, Christian M. Fromm, Manel Perucho, Oliver Porth,\n  Matthias Kadler, Yosuke Mizuno, Andrew Chael, Karl Mannheim",
+  "authorsParsed": [
+    [
+      "Saiz-Pérez",
+      "Ainara",
+      ""
+    ],
+    [
+      "Fromm",
+      "Christian M.",
+      ""
+    ],
+    [
+      "Perucho",
+      "Manel",
+      ""
+    ],
+    [
+      "Porth",
+      "Oliver",
+      ""
+    ],
+    [
+      "Kadler",
+      "Matthias",
+      ""
+    ],
+    [
+      "Mizuno",
+      "Yosuke",
+      ""
+    ],
+    [
+      "Chael",
+      "Andrew",
+      ""
+    ],
+    [
+      "Mannheim",
+      "Karl",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 3 Dec 2024 10:30:59 GMT"
+    }
+  ],
+  "updateDate": "2024-12-04",
+  "timestamp": 1733221859000,
+  "abstract": "  Context. Radio galaxies with visible two-sided jet structures, such as NGC\n1052, are sources of particular interest to study the collimation and shock\nstructure of active galactic nuclei jets. High-resolution very-long-baseline\ninterferometry observations of such sources can resolve and study the jet\ncollimation profile and probe different physical mechanisms. Aims. In this\npaper, we study the physics of double-sided radio sources at parsec scales, and\nin particular investigate whether propagating shocks can give rise to the\nobserved asymmetry between jet and counterjet. Methods. We carry out special\nrelativistic hydrodynamic simulations and perform radiative transfer\ncalculations of an over-pressured perturbed jet. During the radiative transfer\ncalculations we incorporate both thermal and nonthermal emission while taking\nthe finite speed of light into account. To further compare our results to\nobservations, we create more realistic synthetic data including the properties\nof the observing array as well as the image reconstruction via multifrequency\nregularized maximum likelihood methods. We finally introduce a semi-automatized\nmethod for tracking jet components and extracting jet kinematics. Results. We\nshow that propagating shocks in an inherently symmetric double-sided jet can\nlead to partially asymmetric jet collimation profiles due to time delay effects\nand relativistic beaming. These asymmetries may appear on specific epochs, with\none jet evolving near conically and the other one parabolically (width profile\nevolving with a slope of 1 and 0.5, respectively). However, these spurious\nasymmetries are not significant when observing the source evolve for an\nextended amount of time. Conclusions. Purely observational effects are not\nenough to explain a persisting asymmetry in the jet collimation profile of\ndouble-sided jet sources and hint at evidence for asymmetrically launched jets.\n",
+  "subjects": [
+    "Astrophysics/High Energy Astrophysical Phenomena",
+    "Astrophysics/Astrophysics of Galaxies"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "ozZQ440A1aFbxw6UqebQ3cTMBwUm4acG2LrWCF6EV0k",
+  "pdfSize": "10163619"
+}

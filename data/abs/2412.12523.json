@@ -1,0 +1,32 @@
+{
+  "id": "2412.12523",
+  "title": "Equilibrium Computation in the Hotelling-Downs Model of Spatial\n  Competition",
+  "authors": "Umang Bhaskar and Soumyajit Pyne",
+  "authorsParsed": [
+    [
+      "Bhaskar",
+      "Umang",
+      ""
+    ],
+    [
+      "Pyne",
+      "Soumyajit",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 17 Dec 2024 04:28:29 GMT"
+    }
+  ],
+  "updateDate": "2024-12-18",
+  "timestamp": 1734409709000,
+  "abstract": "  The Hotelling-Downs model is a natural and appealing model for understanding\nstrategic positioning by candidates in elections. In this model, voters are\ndistributed on a line, representing their ideological position on an issue.\nEach candidate then chooses as a strategy a position on the line to maximize\nher vote share. Each voter votes for the nearest candidate, closest to their\nideological position. This sets up a game between the candidates, and we study\npure Nash equilibria in this game. The model and its variants are an important\ntool in political economics, and are studied widely in computational social\nchoice as well.\n  Despite the interest and practical relevance, most prior work focuses on the\nexistence and properties of pure Nash equilibria in this model, ignoring\ncomputational issues. Our work gives algorithms for computing pure Nash\nequilibria in the basic model. We give three algorithms, depending on whether\nthe distribution of voters is continuous or discrete, and similarly, whether\nthe possible candidate positions are continuous or discrete. In each case, our\nalgorithms return either an exact equilibrium or one arbitrarily close to\nexact, assuming existence. We believe our work will be useful, and may prompt\ninterest, in computing equilibria in the wide variety of extensions of the\nbasic model as well.\n",
+  "subjects": [
+    "Computer Science/Computer Science and Game Theory"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "skHTMa3FV4xOKznxHR9xNLWG-GCJsGOGLwbeIvNlxXY",
+  "pdfSize": "433840"
+}

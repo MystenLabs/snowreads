@@ -1,0 +1,59 @@
+{
+  "id": "2412.11554",
+  "title": "Learning Massive-scale Partial Correlation Networks in Clinical\n  Multi-omics Studies with HP-ACCORD",
+  "authors": "Sungdong Lee, Joshua Bang, Youngrae Kim, Hyungwon Choi, Sang-Yun Oh,\n  Joong-Ho Won",
+  "authorsParsed": [
+    [
+      "Lee",
+      "Sungdong",
+      ""
+    ],
+    [
+      "Bang",
+      "Joshua",
+      ""
+    ],
+    [
+      "Kim",
+      "Youngrae",
+      ""
+    ],
+    [
+      "Choi",
+      "Hyungwon",
+      ""
+    ],
+    [
+      "Oh",
+      "Sang-Yun",
+      ""
+    ],
+    [
+      "Won",
+      "Joong-Ho",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 16 Dec 2024 08:38:02 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Fri, 20 Dec 2024 17:56:10 GMT"
+    }
+  ],
+  "updateDate": "2024-12-23",
+  "timestamp": 1734338282000,
+  "abstract": "  Graphical model estimation from modern multi-omics data requires a balance\nbetween statistical estimation performance and computational scalability. We\nintroduce a novel pseudolikelihood-based graphical model framework that\nreparameterizes the target precision matrix while preserving sparsity pattern\nand estimates it by minimizing an $\\ell_1$-penalized empirical risk based on a\nnew loss function. The proposed estimator maintains estimation and selection\nconsistency in various metrics under high-dimensional assumptions. The\nassociated optimization problem allows for a provably fast computation\nalgorithm using a novel operator-splitting approach and communication-avoiding\ndistributed matrix multiplication. A high-performance computing implementation\nof our framework was tested in simulated data with up to one million variables\ndemonstrating complex dependency structures akin to biological networks.\nLeveraging this scalability, we estimated partial correlation network from a\ndual-omic liver cancer data set. The co-expression network estimated from the\nultrahigh-dimensional data showed superior specificity in prioritizing key\ntranscription factors and co-activators by excluding the impact of epigenomic\nregulation, demonstrating the value of computational scalability in multi-omic\ndata analysis. %derived from the gene expression data.\n",
+  "subjects": [
+    "Statistics/Machine Learning",
+    "Computer Science/Machine Learning",
+    "Mathematics/Statistics Theory",
+    "Statistics/Statistics Theory"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "9nEMBPNUD_CzhfIz470pGQtYSdKeUbLsXIvgCIU-eAA",
+  "pdfSize": "2885545"
+}

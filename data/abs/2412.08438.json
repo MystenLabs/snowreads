@@ -1,0 +1,28 @@
+{
+  "id": "2412.08438",
+  "title": "A simplified method for the evaluation of the total resistance of a\n  foiling yacht in upright condition",
+  "authors": "Daniele Peri",
+  "authorsParsed": [
+    [
+      "Peri",
+      "Daniele",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 11 Dec 2024 15:00:56 GMT"
+    }
+  ],
+  "updateDate": "2024-12-12",
+  "timestamp": 1733929256000,
+  "abstract": "  An extremely schematic model of the forces acting an a sailing yacht equipped\nwith a system of foils is here presented and discussed. The role of the foils\nis to raise the hull from the water in order to reduce the total resistance and\nthen increase the speed. Some CFD simulations are providing the total\nresistance of the bare hull at some values of speed and displacement, as well\nas the characteristics (drag and lift coefficients) of the 2D foil sections\nused for the appendages. A parametric study has been performed for the\ncharacterization of a foil of finite dimensions. The equilibrium of the\nvertical forces and longitudinal moments, as well as a reduced displacement, is\nobtained by controlling the pitch angle of the foils. The value of the total\nresistance of the yacht with foils is then compared with the case without\nfoils, evidencing the speed regime where an advantage is obtained, if any.\n",
+  "subjects": [
+    "Mathematics/Numerical Analysis",
+    "Computer Science/Numerical Analysis"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "jgzxMuKsuJk7aqzQkpqgHikBgH9EaZA914xy3D52qm8",
+  "pdfSize": "2137626"
+}

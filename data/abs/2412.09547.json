@@ -1,0 +1,32 @@
+{
+  "id": "2412.09547",
+  "title": "Nonlinear evolution of fluting oscillations in coronal flux tubes",
+  "authors": "Roberto Soler and Andrew Hillier",
+  "authorsParsed": [
+    [
+      "Soler",
+      "Roberto",
+      ""
+    ],
+    [
+      "Hillier",
+      "Andrew",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 12 Dec 2024 18:37:25 GMT"
+    }
+  ],
+  "updateDate": "2024-12-13",
+  "timestamp": 1734028645000,
+  "abstract": "  Magnetic flux tubes in the solar corona support a rich variety of transverse\noscillations, which are theoretically interpreted as magnetohydrodynamic (MHD)\nmodes with a fast and/or Alfv\\'enic character. In the standard flux tube model\nmade of a straight cylindrical tube, these modes can be classified according to\ntheir azimuthal wavenumber, $m$. Sausage $m=0$ modes produce periodic expansion\nand contraction of the tube cross section and are observed during solar flares.\nKink $m=1$ modes laterally displace the tube axis and are related to, for\nexample, post-flare global transverse oscillations of coronal loops. Fluting $m\n\\geq 2$ modes produce disturbances that are mainly confined to the tube\nboundary, but their observation remains elusive to date. We use 3D ideal MHD\nnumerical simulations to investigate the nonlinear evolution of fluting modes\nin coronal flux tubes with transversely nonuniform boundaries. The simulations\nshow that fluting modes are short-lived as coherent, collective motions of the\nflux tube. Owing to the process of resonant absorption, fluting oscillations\nbecome overdamped modes in tubes with wide enough nonuniform boundaries. During\nthe nonlinear evolution, shear flows drive the Kelvin-Helmholtz instability at\nthe tube boundary, which further disrupts the coherent fluting oscillation. For\nlarge-enough oscillation amplitudes, baroclinic instabilities of\nRayleigh-Taylor type are also present at locations in the boundary where the\nplasma acceleration is normal to the boundary. The evolution of the\ninstabilities drives turbulence in the flux tube, which may inhibit the\nresonant damping. However, the oscillations remain strongly damped even in this\ncase. As a result of the combination of the strong damping and the induced\ninstabilities, it is unlikely that coronal flux tubes can support fluting modes\nas sufficiently enduring coherent oscillations.\n",
+  "subjects": [
+    "Astrophysics/Solar and Stellar Astrophysics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "QymRiiN1qgdClaq2NQFQ_7Ngost7wcxyKKK65XdvoOo",
+  "pdfSize": "18209103"
+}

@@ -1,0 +1,64 @@
+{
+  "id": "2412.15199",
+  "title": "LiDAR-RT: Gaussian-based Ray Tracing for Dynamic LiDAR Re-simulation",
+  "authors": "Chenxu Zhou, Lvchang Fu, Sida Peng, Yunzhi Yan, Zhanhua Zhang, Yong\n  Chen, Jiazhi Xia, Xiaowei Zhou",
+  "authorsParsed": [
+    [
+      "Zhou",
+      "Chenxu",
+      ""
+    ],
+    [
+      "Fu",
+      "Lvchang",
+      ""
+    ],
+    [
+      "Peng",
+      "Sida",
+      ""
+    ],
+    [
+      "Yan",
+      "Yunzhi",
+      ""
+    ],
+    [
+      "Zhang",
+      "Zhanhua",
+      ""
+    ],
+    [
+      "Chen",
+      "Yong",
+      ""
+    ],
+    [
+      "Xia",
+      "Jiazhi",
+      ""
+    ],
+    [
+      "Zhou",
+      "Xiaowei",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 19 Dec 2024 18:58:36 GMT"
+    }
+  ],
+  "updateDate": "2024-12-20",
+  "timestamp": 1734634716000,
+  "abstract": "  This paper targets the challenge of real-time LiDAR re-simulation in dynamic\ndriving scenarios. Recent approaches utilize neural radiance fields combined\nwith the physical modeling of LiDAR sensors to achieve high-fidelity\nre-simulation results. Unfortunately, these methods face limitations due to\nhigh computational demands in large-scale scenes and cannot perform real-time\nLiDAR rendering. To overcome these constraints, we propose LiDAR-RT, a novel\nframework that supports real-time, physically accurate LiDAR re-simulation for\ndriving scenes. Our primary contribution is the development of an efficient and\neffective rendering pipeline, which integrates Gaussian primitives and\nhardware-accelerated ray tracing technology. Specifically, we model the\nphysical properties of LiDAR sensors using Gaussian primitives with learnable\nparameters and incorporate scene graphs to handle scene dynamics. Building upon\nthis scene representation, our framework first constructs a bounding volume\nhierarchy (BVH), then casts rays for each pixel and generates novel LiDAR views\nthrough a differentiable rendering algorithm. Importantly, our framework\nsupports realistic rendering with flexible scene editing operations and various\nsensor configurations. Extensive experiments across multiple public benchmarks\ndemonstrate that our method outperforms state-of-the-art methods in terms of\nrendering quality and efficiency. Our project page is at\nhttps://zju3dv.github.io/lidar-rt.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Machine Learning",
+    "Computer Science/Robotics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "39QX-SkTePCJ0wpXOsWY4hUmyFPw0-Ito9fUAm8fx2E",
+  "pdfSize": "26490482"
+}

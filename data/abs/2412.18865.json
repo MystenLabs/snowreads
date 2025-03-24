@@ -1,0 +1,37 @@
+{
+  "id": "2412.18865",
+  "title": "Autonomous Navigation of 4WIS4WID Agricultural Field Mobile Robot using\n  Deep Reinforcement Learning",
+  "authors": "Tom Baby, Mahendra Kumar Gohil and Bishakh Bhattacharya",
+  "authorsParsed": [
+    [
+      "Baby",
+      "Tom",
+      ""
+    ],
+    [
+      "Gohil",
+      "Mahendra Kumar",
+      ""
+    ],
+    [
+      "Bhattacharya",
+      "Bishakh",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 25 Dec 2024 10:33:33 GMT"
+    }
+  ],
+  "updateDate": "2024-12-30",
+  "timestamp": 1735122813000,
+  "abstract": "  In the futuristic agricultural fields compatible with Agriculture 4.0, robots\nare envisaged to navigate through crops to perform functions like pesticide\nspraying and fruit harvesting, which are complex tasks due to factors such as\nnon-geometric internal obstacles, space constraints, and outdoor conditions. In\nthis paper, we attempt to employ Deep Reinforcement Learning (DRL) to solve the\nproblem of 4WIS4WID mobile robot navigation in a structured, automated\nagricultural field. This paper consists of three sections: parameterization of\nfour-wheel steering configurations, crop row tracking using DRL, and autonomous\nnavigation of 4WIS4WID mobile robot using DRL through multiple crop rows. We\nshow how to parametrize various configurations of four-wheel steering to two\nvariables. This includes symmetric four-wheel steering, zero-turn, and an\nadditional steering configuration that allows the 4WIS4WID mobile robot to move\nlaterally. Using DRL, we also followed an irregularly shaped crop row with\nsymmetric four-wheel steering. In the multiple crop row simulation environment,\nwith the help of waypoints, we effectively performed point-to-point navigation.\nFinally, a comparative analysis of various DRL algorithms that use continuous\nactions was carried out.\n",
+  "subjects": [
+    "Computer Science/Robotics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "FReuaGdh_RKCo4S0f_XC77ly9ld-lV6GnPUDMWMtU9E",
+  "pdfSize": "4841920"
+}

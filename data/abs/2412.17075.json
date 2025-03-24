@@ -1,0 +1,53 @@
+{
+  "id": "2412.17075",
+  "title": "Iterative NLP Query Refinement for Enhancing Domain-Specific Information\n  Retrieval: A Case Study in Career Services",
+  "authors": "Elham Peimani (1), Gurpreet Singh (1), Nisarg Mahyavanshi (1), Aman\n  Arora (1), Awais Shaikh (1) ((1) Humber College, Toronto, Canada)",
+  "authorsParsed": [
+    [
+      "Peimani",
+      "Elham",
+      "",
+      "Humber College, Toronto, Canada"
+    ],
+    [
+      "Singh",
+      "Gurpreet",
+      "",
+      "Humber College, Toronto, Canada"
+    ],
+    [
+      "Mahyavanshi",
+      "Nisarg",
+      "",
+      "Humber College, Toronto, Canada"
+    ],
+    [
+      "Arora",
+      "Aman",
+      "",
+      "Humber College, Toronto, Canada"
+    ],
+    [
+      "Shaikh",
+      "Awais",
+      "",
+      "Humber College, Toronto, Canada"
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 22 Dec 2024 15:57:35 GMT"
+    }
+  ],
+  "updateDate": "2024-12-24",
+  "timestamp": 1734883055000,
+  "abstract": "  Retrieving semantically relevant documents in niche domains poses significant\nchallenges for traditional TF-IDF-based systems, often resulting in low\nsimilarity scores and suboptimal retrieval performance. This paper addresses\nthese challenges by introducing an iterative and semi-automated query\nrefinement methodology tailored to Humber College's career services webpages.\nInitially, generic queries related to interview preparation yield low\ntop-document similarities (approximately 0.2--0.3). To enhance retrieval\neffectiveness, we implement a two-fold approach: first, domain-aware query\nrefinement by incorporating specialized terms such as\nresources-online-learning, student-online-services, and career-advising;\nsecond, the integration of structured educational descriptors like \"online\nresume and interview improvement tools.\" Additionally, we automate the\nextraction of domain-specific keywords from top-ranked documents to suggest\nrelevant terms for query expansion. Through experiments conducted on five\nbaseline queries, our semi-automated iterative refinement process elevates the\naverage top similarity score from approximately 0.18 to 0.42, marking a\nsubstantial improvement in retrieval performance. The implementation details,\nincluding reproducible code and experimental setups, are made available in our\nGitHub repositories \\url{https://github.com/Elipei88/HumberChatbotBackend} and\n\\url{https://github.com/Nisarg851/HumberChatbot}. We also discuss the\nlimitations of our approach and propose future directions, including the\nintegration of advanced neural retrieval models.\n",
+  "subjects": [
+    "Computer Science/Information Retrieval",
+    "Computer Science/Computation and Language"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "B1ZDmkXbZ9OtDPe6DBz_kVOpGql_FXOLudGegYHjtpc",
+  "pdfSize": "180197"
+}

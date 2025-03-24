@@ -1,0 +1,52 @@
+{
+  "id": "2412.10507",
+  "title": "Crosstalk-induced Side Channel Threats in Multi-Tenant NISQ Computers",
+  "authors": "Navnil Choudhury, Chaithanya Naik Mude, Sanjay Das, Preetham Chandra\n  Tikkireddi, Swamit Tannu, Kanad Basu",
+  "authorsParsed": [
+    [
+      "Choudhury",
+      "Navnil",
+      ""
+    ],
+    [
+      "Mude",
+      "Chaithanya Naik",
+      ""
+    ],
+    [
+      "Das",
+      "Sanjay",
+      ""
+    ],
+    [
+      "Tikkireddi",
+      "Preetham Chandra",
+      ""
+    ],
+    [
+      "Tannu",
+      "Swamit",
+      ""
+    ],
+    [
+      "Basu",
+      "Kanad",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 13 Dec 2024 19:00:21 GMT"
+    }
+  ],
+  "updateDate": "2024-12-17",
+  "timestamp": 1734116421000,
+  "abstract": "  As quantum computing rapidly advances, its near-term applications are\nbecoming increasingly evident. However, the high cost and under-utilization of\nquantum resources are prompting a shift from single-user to multi-user access\nmodels. In a multi-tenant environment, where multiple users share one quantum\ncomputer, protecting user confidentiality becomes crucial. The varied uses of\nquantum computers increase the risk that sensitive data encoded by one user\ncould be compromised by others, rendering the protection of data integrity and\nconfidentiality essential. In the evolving quantum computing landscape, it is\nimperative to study these security challenges within the scope of realistic\nthreat model assumptions, wherein an adversarial user can mount practical\nattacks without relying on any heightened privileges afforded by physical\naccess to a quantum computer or rogue cloud services. In this paper, we\ndemonstrate the potential of crosstalk as an attack vector for the first time\non a Noisy Intermediate Scale Quantum (NISQ) machine, that an adversarial user\ncan exploit within a multi-tenant quantum computing model. The proposed\nside-channel attack is conducted with minimal and realistic adversarial\nprivileges, with the overarching aim of uncovering the quantum algorithm being\nexecuted by a victim. Crosstalk signatures are used to estimate the presence of\nCNOT gates in the victim circuit, and subsequently, this information is encoded\nand classified by a graph-based learning model to identify the victim quantum\nalgorithm. When evaluated on up to 336 benchmark circuits, our attack framework\nis found to be able to unveil the victim's quantum algorithm with up to 85.7\\%\naccuracy.\n",
+  "subjects": [
+    "Computer Science/Emerging Technologies"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "rR5f-dy2okZHJwmMUEezLMlwlp3k52genL_1eV9DXsE",
+  "pdfSize": "5891912"
+}

@@ -1,0 +1,57 @@
+{
+  "id": "2412.10049",
+  "title": "SuperMark: Robust and Training-free Image Watermarking via\n  Diffusion-based Super-Resolution",
+  "authors": "Runyi Hu, Jie Zhang, Yiming Li, Jiwei Li, Qing Guo, Han Qiu, Tianwei\n  Zhang",
+  "authorsParsed": [
+    [
+      "Hu",
+      "Runyi",
+      ""
+    ],
+    [
+      "Zhang",
+      "Jie",
+      ""
+    ],
+    [
+      "Li",
+      "Yiming",
+      ""
+    ],
+    [
+      "Li",
+      "Jiwei",
+      ""
+    ],
+    [
+      "Guo",
+      "Qing",
+      ""
+    ],
+    [
+      "Qiu",
+      "Han",
+      ""
+    ],
+    [
+      "Zhang",
+      "Tianwei",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 13 Dec 2024 11:20:59 GMT"
+    }
+  ],
+  "updateDate": "2024-12-16",
+  "timestamp": 1734088859000,
+  "abstract": "  In today's digital landscape, the blending of AI-generated and authentic\ncontent has underscored the need for copyright protection and content\nauthentication. Watermarking has become a vital tool to address these\nchallenges, safeguarding both generated and real content. Effective\nwatermarking methods must withstand various distortions and attacks. Current\ndeep watermarking techniques often use an encoder-noise layer-decoder\narchitecture and include distortions to enhance robustness. However, they\nstruggle to balance robustness and fidelity and remain vulnerable to adaptive\nattacks, despite extensive training. To overcome these limitations, we propose\nSuperMark, a robust, training-free watermarking framework. Inspired by the\nparallels between watermark embedding/extraction in watermarking and the\ndenoising/noising processes in diffusion models, SuperMark embeds the watermark\ninto initial Gaussian noise using existing techniques. It then applies\npre-trained Super-Resolution (SR) models to denoise the watermarked noise,\nproducing the final watermarked image. For extraction, the process is reversed:\nthe watermarked image is inverted back to the initial watermarked noise via\nDDIM Inversion, from which the embedded watermark is extracted. This flexible\nframework supports various noise injection methods and diffusion-based SR\nmodels, enabling enhanced customization. The robustness of the DDIM Inversion\nprocess against perturbations allows SuperMark to achieve strong resilience to\ndistortions while maintaining high fidelity. Experiments demonstrate that\nSuperMark achieves fidelity comparable to existing methods while significantly\nimproving robustness. Under standard distortions, it achieves an average\nwatermark extraction accuracy of 99.46%, and 89.29% under adaptive attacks.\nMoreover, SuperMark shows strong transferability across datasets, SR models,\nembedding methods, and resolutions.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "ry_TLFZzy2STwB6QDQmN2W2T_p_gQ7TvhQkh-H3OduA",
+  "pdfSize": "9761000"
+}

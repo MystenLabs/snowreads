@@ -1,0 +1,38 @@
+{
+  "id": "2412.00994",
+  "title": "DSSRNN: Decomposition-Enhanced State-Space Recurrent Neural Network for\n  Time-Series Analysis",
+  "authors": "Ahmad Mohammadshirazi, Ali Nosratifiroozsalari, Rajiv Ramnath",
+  "authorsParsed": [
+    [
+      "Mohammadshirazi",
+      "Ahmad",
+      ""
+    ],
+    [
+      "Nosratifiroozsalari",
+      "Ali",
+      ""
+    ],
+    [
+      "Ramnath",
+      "Rajiv",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 1 Dec 2024 22:55:58 GMT"
+    }
+  ],
+  "updateDate": "2024-12-03",
+  "timestamp": 1733093758000,
+  "abstract": "  Time series forecasting is a crucial yet challenging task in machine\nlearning, requiring domain-specific knowledge due to its wide-ranging\napplications. While recent Transformer models have improved forecasting\ncapabilities, they come with high computational costs. Linear-based models have\nshown better accuracy than Transformers but still fall short of ideal\nperformance. To address these challenges, we introduce the Decomposition\nState-Space Recurrent Neural Network (DSSRNN), a novel framework designed for\nboth long-term and short-term time series forecasting. DSSRNN uniquely combines\ndecomposition analysis to capture seasonal and trend components with\nstate-space models and physics-based equations. We evaluate DSSRNN's\nperformance on indoor air quality datasets, focusing on CO2 concentration\nprediction across various forecasting horizons. Results demonstrate that DSSRNN\nconsistently outperforms state-of-the-art models, including transformer-based\narchitectures, in terms of both Mean Squared Error (MSE) and Mean Absolute\nError (MAE). For example, at the shortest horizon (T=96) in Office 1, DSSRNN\nachieved an MSE of 0.378 and an MAE of 0.401, significantly lower than\ncompeting models. Additionally, DSSRNN exhibits superior computational\nefficiency compared to more complex models. While not as lightweight as the\nDLinear model, DSSRNN achieves a balance between performance and efficiency,\nwith only 0.11G MACs and 437MiB memory usage, and an inference time of 0.58ms\nfor long-term forecasting. This work not only showcases DSSRNN's success but\nalso establishes a new benchmark for physics-informed machine learning in\nenvironmental forecasting and potentially other domains.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "rK2_oU9rO0RlQpSODIsAFQygl9UqzmJiZZ4tNafdjrc",
+  "pdfSize": "860712"
+}

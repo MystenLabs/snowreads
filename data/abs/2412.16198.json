@@ -1,0 +1,33 @@
+{
+  "id": "2412.16198",
+  "title": "Estimating Varying Parameters in Dynamical Systems: A Modular Framework\n  Using Switch Detection, Optimization, and Sparse Regression",
+  "authors": "Jamiree Harrison and Enoch Yeung",
+  "authorsParsed": [
+    [
+      "Harrison",
+      "Jamiree",
+      ""
+    ],
+    [
+      "Yeung",
+      "Enoch",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 16 Dec 2024 23:00:32 GMT"
+    }
+  ],
+  "updateDate": "2024-12-24",
+  "timestamp": 1734390032000,
+  "abstract": "  The estimation of static parameters in dynamical systems and control theory\nhas been extensively studied, with significant progress made in estimating\nvarying parameters in specific system types. Suppose, in the general case, we\nhave data from a system with parameters that depend on an independent variable\nsuch as time or space. Further, suppose the system's model structure is known,\nbut our aim is to identify functions describing parameter-varying elements as\nthey change with respect to time or another variable. Focusing initially on the\nsubclass of problems where parameters are discretely switching piecewise\nconstant functions, we develop an algorithmic framework for detecting discrete\nparameter switches and fitting a piecewise constant model to data using\noptimization-based parameter estimation. Our modular framework allows for\ncustomization of switch detection, numerical integration, and optimization\nsub-steps to suit user requirements. Binary segmentation is used for switch\ndetection, with Nelder-Mead and Powell methods employed for optimization. To\naddress broader problems, we extend our framework using dictionary-based sparse\nregression with trigonometric and polynomial functions to obtain continuously\nvarying parameter functions. Finally, we assess the framework's robustness to\nmeasurement noise. We demonstrate its capabilities across several examples,\nincluding time-varying promoter-gene expression, a genetic toggle switch, a\nparameter-switching manifold, the heat equation with a time-varying diffusion\ncoefficient, and the advection-diffusion equation with a continuously varying\nparameter.\n",
+  "subjects": [
+    "Mathematics/Optimization and Control",
+    "Mathematics/Dynamical Systems"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "eqbIlgm5KSL1AcP8AalkTV-v_RYE3fo3O3R0rwCAPE8",
+  "pdfSize": "5454881"
+}

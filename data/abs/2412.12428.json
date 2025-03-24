@@ -1,0 +1,53 @@
+{
+  "id": "2412.12428",
+  "title": "Predicting Workload in Virtual Flight Simulations using EEG Features\n  (Including Post-hoc Analysis in Appendix)",
+  "authors": "Bas Verkennis, Evy van Weelden, Francesca L. Marogna, Maryam\n  Alimardani, Travis J. Wiltshire, Max M. Louwerse",
+  "authorsParsed": [
+    [
+      "Verkennis",
+      "Bas",
+      ""
+    ],
+    [
+      "van Weelden",
+      "Evy",
+      ""
+    ],
+    [
+      "Marogna",
+      "Francesca L.",
+      ""
+    ],
+    [
+      "Alimardani",
+      "Maryam",
+      ""
+    ],
+    [
+      "Wiltshire",
+      "Travis J.",
+      ""
+    ],
+    [
+      "Louwerse",
+      "Max M.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 17 Dec 2024 00:33:01 GMT"
+    }
+  ],
+  "updateDate": "2024-12-18",
+  "timestamp": 1734395581000,
+  "abstract": "  Effective cognitive workload management has a major impact on the safety and\nperformance of pilots. Integrating brain-computer interfaces (BCIs) presents an\nopportunity for real-time workload assessment. Leveraging cognitive workload\ndata from immersive, high-fidelity virtual reality (VR) flight simulations\nenhances ecological validity and allows for dynamic adjustments to training\nscenarios based on individual cognitive states. While prior studies have\npredominantly concentrated on EEG spectral power for workload prediction,\ndelving into inter-brain connectivity may yield deeper insights. This study\nassessed the predictive value of EEG spectral and connectivity features in\ndistinguishing high vs. low workload periods during simulated flight in VR and\nDesktop conditions. EEG data were collected from 52 non-pilot participants\nconducting flight tasks in an aircraft simulation, after which they reported\ncognitive workload using the NASA Task Load Index. Using an ensemble approach,\na stacked classifier was trained to predict workload using two feature sets\nextracted from the EEG data: 1) spectral features (Baseline model), and 2) a\ncombination of spectral and connectivity features (Connectivity model), both\nwithin the alpha, beta, and theta band ranges. Results showed that the\nperformance of the Connectivity model surpassed the Baseline model.\nAdditionally, Recursive Feature Elimination (RFE) provided insights into the\nmost influential workload-predicting features, highlighting the potential\ndominance of parietal-directed connectivity in managing cognitive workload\nduring simulated flight. Further research on other connectivity metrics and\nalternative models (such as deep learning) in a large sample of pilots is\nessential to validate the possibility of a real-time BCI for the prediction of\nworkload under safety-critical operational conditions.\n",
+  "subjects": [
+    "Computer Science/Human-Computer Interaction",
+    "Electrical Engineering and Systems Science/Signal Processing"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "8xDFnLBj7R8j7ZQRovvj9zu2YxYZ2Myflp4Xr0baW7o",
+  "pdfSize": "528524"
+}

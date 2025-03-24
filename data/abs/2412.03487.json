@@ -1,0 +1,68 @@
+{
+  "id": "2412.03487",
+  "title": "Flow Matching with General Discrete Paths: A Kinetic-Optimal Perspective",
+  "authors": "Neta Shaul, Itai Gat, Marton Havasi, Daniel Severo, Anuroop Sriram,\n  Peter Holderrieth, Brian Karrer, Yaron Lipman, Ricky T. Q. Chen",
+  "authorsParsed": [
+    [
+      "Shaul",
+      "Neta",
+      ""
+    ],
+    [
+      "Gat",
+      "Itai",
+      ""
+    ],
+    [
+      "Havasi",
+      "Marton",
+      ""
+    ],
+    [
+      "Severo",
+      "Daniel",
+      ""
+    ],
+    [
+      "Sriram",
+      "Anuroop",
+      ""
+    ],
+    [
+      "Holderrieth",
+      "Peter",
+      ""
+    ],
+    [
+      "Karrer",
+      "Brian",
+      ""
+    ],
+    [
+      "Lipman",
+      "Yaron",
+      ""
+    ],
+    [
+      "Chen",
+      "Ricky T. Q.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 4 Dec 2024 17:24:35 GMT"
+    }
+  ],
+  "updateDate": "2024-12-05",
+  "timestamp": 1733333075000,
+  "abstract": "  The design space of discrete-space diffusion or flow generative models are\nsignificantly less well-understood than their continuous-space counterparts,\nwith many works focusing only on a simple masked construction. In this work, we\naim to take a holistic approach to the construction of discrete generative\nmodels based on continuous-time Markov chains, and for the first time, allow\nthe use of arbitrary discrete probability paths, or colloquially, corruption\nprocesses. Through the lens of optimizing the symmetric kinetic energy, we\npropose velocity formulas that can be applied to any given probability path,\ncompletely decoupling the probability and velocity, and giving the user the\nfreedom to specify any desirable probability path based on expert knowledge\nspecific to the data domain. Furthermore, we find that a special construction\nof mixture probability paths optimizes the symmetric kinetic energy for the\ndiscrete case. We empirically validate the usefulness of this new design space\nacross multiple modalities: text generation, inorganic material generation, and\nimage generation. We find that we can outperform the mask construction even in\ntext with kinetic-optimal mixture paths, while we can make use of\ndomain-specific constructions of the probability path over the visual domain.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "iRZhdMgqEzExK8szjR2O1W0A_6Z-7a-8qOKzsKSgyJo",
+  "pdfSize": "17416838"
+}

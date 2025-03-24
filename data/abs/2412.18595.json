@@ -1,0 +1,48 @@
+{
+  "id": "2412.18595",
+  "title": "The basis number of 1-planar graphs",
+  "authors": "Saman Bazargani, Therese Biedl, Prosenjit Bose, Anil Maheshwari and\n  Babak Miraftab",
+  "authorsParsed": [
+    [
+      "Bazargani",
+      "Saman",
+      ""
+    ],
+    [
+      "Biedl",
+      "Therese",
+      ""
+    ],
+    [
+      "Bose",
+      "Prosenjit",
+      ""
+    ],
+    [
+      "Maheshwari",
+      "Anil",
+      ""
+    ],
+    [
+      "Miraftab",
+      "Babak",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 24 Dec 2024 18:50:32 GMT"
+    }
+  ],
+  "updateDate": "2024-12-25",
+  "timestamp": 1735066232000,
+  "abstract": "  Let $B$ be a set of Eulerian subgraphs of a graph $G$. We say $B$ forms a\n$k$-basis if it is a minimum set that generates the cycle space of $G$, and any\nedge of $G$ lies in at most $k$ members of $B$. The basis number of a graph\n$G$, denoted by $b(G)$, is the smallest integer such that $G$ has a $k$-basis.\nA graph is called 1-planar (resp. planar) if it can be embedded in the plane\nwith at most one crossing (resp. no crossing) per edge. MacLane's planarity\ncriterion characterizes planar graphs based on their cycle space, stating that\na graph is planar if and only if it has a $2$-basis. We study here the basis\nnumber of 1-planar graphs, demonstrate that it is unbounded in general, and\nshow that it is bounded for many subclasses of 1-planar graphs.\n",
+  "subjects": [
+    "Mathematics/Combinatorics",
+    "Computer Science/Discrete Mathematics"
+  ],
+  "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+  "blobId": "JRVnrLbEe53JhwAP0b5qoXgH7ecqFVT5OkNl5xY9Kp4",
+  "pdfSize": "776135"
+}

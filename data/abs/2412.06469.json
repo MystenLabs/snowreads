@@ -1,0 +1,32 @@
+{
+  "id": "2412.06469",
+  "title": "Jess+: designing embodied AI for interactive music-making",
+  "authors": "Craig Vear and Johann Benerradi",
+  "authorsParsed": [
+    [
+      "Vear",
+      "Craig",
+      ""
+    ],
+    [
+      "Benerradi",
+      "Johann",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 9 Dec 2024 13:14:18 GMT"
+    }
+  ],
+  "updateDate": "2024-12-10",
+  "timestamp": 1733750058000,
+  "abstract": "  In this paper, we discuss the conceptualisation and design of embodied AI\nwithin an inclusive music-making project. The central case study is Jess+ an\nintelligent digital score system for shared creativity with a mixed ensemble of\nnon-disabled and disabled musicians. The overarching aim is that the digital\nscore enables disabled musicians to thrive in a live music conversation with\nother musicians regardless of the potential barriers of disability and\nmusic-making. After defining what we mean by embodied AI and how this approach\nsupports the aims of the Jess+ project, we outline the main design features of\nthe system. This includes several novel approaches such as its modular design,\nan AI Factory based on an embodied musicking dataset, and an embedded belief\nsystem. Our findings showed that the implemented design decisions and\nembodied-AI approach led to rich experiences for the musicians which in turn\ntransformed their practice as an inclusive ensemble.\n",
+  "subjects": [
+    "Computer Science/Human-Computer Interaction"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "6U31L2E1zLLh_pV8bnQojojF8LMnC-KPwTrrpCXp_Ic",
+  "pdfSize": "466985"
+}

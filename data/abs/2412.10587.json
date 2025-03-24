@@ -1,0 +1,43 @@
+{
+  "id": "2412.10587",
+  "title": "Evaluation of GPT-4o and GPT-4o-mini's Vision Capabilities for\n  Compositional Analysis from Dried Solution Drops",
+  "authors": "Deven B. Dangi, Beni B. Dangi, Oliver Steinbock",
+  "authorsParsed": [
+    [
+      "Dangi",
+      "Deven B.",
+      ""
+    ],
+    [
+      "Dangi",
+      "Beni B.",
+      ""
+    ],
+    [
+      "Steinbock",
+      "Oliver",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 13 Dec 2024 22:02:48 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Mon, 27 Jan 2025 23:46:06 GMT"
+    }
+  ],
+  "updateDate": "2025-01-29",
+  "timestamp": 1734127368000,
+  "abstract": "  When microliter drops of salt solutions dry on non-porous surfaces, they form\nerratic yet characteristic deposit patterns influenced by complex\ncrystallization dynamics and fluid motion. Using OpenAI's image-enabled\nlanguage models, we analyzed deposits from 12 salts with 200 images per salt\nand per model. GPT-4o classified 57% of the salts accurately, significantly\noutperforming random chance and GPT-4o mini. This study underscores the promise\nof general-use AI tools for reliably identifying salts from their drying\npatterns.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Computation and Language"
+  ],
+  "license": "http://creativecommons.org/licenses/by-sa/4.0/",
+  "blobId": "bxj3b1bF4XEFn3uWzdkyhyBQuLjamllNznC1o5g90Do",
+  "pdfSize": "936338"
+}

@@ -1,0 +1,62 @@
+{
+  "id": "2412.04779",
+  "title": "Nonlocality-Assisted Enhancement of Error-Free Communication in Noisy\n  Classical Channels",
+  "authors": "Kunika Agarwal, Sahil Gopalkrishna Naik, Ananya Chakraborty, Samrat\n  Sen, Pratik Ghosal, Biswajit Paul, Manik Banik, Ram Krishna Patra",
+  "authorsParsed": [
+    [
+      "Agarwal",
+      "Kunika",
+      ""
+    ],
+    [
+      "Naik",
+      "Sahil Gopalkrishna",
+      ""
+    ],
+    [
+      "Chakraborty",
+      "Ananya",
+      ""
+    ],
+    [
+      "Sen",
+      "Samrat",
+      ""
+    ],
+    [
+      "Ghosal",
+      "Pratik",
+      ""
+    ],
+    [
+      "Paul",
+      "Biswajit",
+      ""
+    ],
+    [
+      "Banik",
+      "Manik",
+      ""
+    ],
+    [
+      "Patra",
+      "Ram Krishna",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 6 Dec 2024 05:01:47 GMT"
+    }
+  ],
+  "updateDate": "2024-12-09",
+  "timestamp": 1733461307000,
+  "abstract": "  The zero-error capacity of a noisy classical channel quantifies its ability\nto transmit information with absolute certainty, i.e., without any error.\nUnlike Shannon's standard channel capacity, which remains unaffected by\npre-shared correlations, zero-error capacity can be enhanced through nonlocal\ncorrelations. In this work, we investigate zero-error communication utility of\nsuch correlations arising in the 2-2-m Bell scenario, where two parties have\ntwo inputs and m possible outcomes per input. For all m\\geq2, we construct\nexamples of noisy classical channels with zero zero-error capacity that, when\nassisted by extremal 2-2-m nonlocal correlations, can transmit one bit of\ninformation. While nonlocal correlations arising from quantum entangled states\ncannot achieve a positive zero-error capacity for these channels, they\nsignificantly enhance the probability of successfully transmitting a classical\nbit in a single use. Extending this analysis to the 2-m-2 Bell scenario, we\nidentify channels with zero zero-error capacity that can nonetheless perfectly\ntransmit log m bits of information when assisted by corresponding extremal\nnonlocal correlations. Our findings underscore the versatile utility of Bell\nnonlocal correlations in achieving zero-error communication.\n",
+  "subjects": [
+    "Physics/Quantum Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "jQ8Gk0pTfWKBMwcYz-tyl0aooKJ02mUz3J187EKg_ZY",
+  "pdfSize": "265089"
+}

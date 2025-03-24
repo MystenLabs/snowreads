@@ -1,0 +1,38 @@
+{
+  "id": "2412.01587",
+  "title": "Handwriting-based Automated Assessment and Grading of Degree of\n  Handedness: A Pilot Study",
+  "authors": "Smriti Bala, Venugopalan Y. Vishnu, Deepak Joshi",
+  "authorsParsed": [
+    [
+      "Bala",
+      "Smriti",
+      ""
+    ],
+    [
+      "Vishnu",
+      "Venugopalan Y.",
+      ""
+    ],
+    [
+      "Joshi",
+      "Deepak",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 2 Dec 2024 15:06:18 GMT"
+    }
+  ],
+  "updateDate": "2024-12-03",
+  "timestamp": 1733151978000,
+  "abstract": "  Hand preference and degree of handedness (DoH) are two different aspects of\nhuman behavior which are often confused to be one. DoH is a person's inherent\ncapability of the brain; affected by nature and nurture. In this study, we used\ndominant and non-dominant handwriting traits to assess DoH for the first time,\non 43 subjects of three categories- Unidextrous, Partially Unidextrous, and\nAmbidextrous. Features extracted from the segmented handwriting signals called\nstrokes were used for DoH quantification. Davies Bouldin Index, Multilayer\nperceptron, and Convolutional Neural Network (CNN) were used for automated\ngrading of DoH. The outcomes of these methods were compared with the widely\nused DoH assessment questionnaires from Edinburgh Inventory (EI). The CNN based\nautomated grading outperformed other computational methods with an average\nclassification accuracy of 95.06% under stratified 10-fold cross-validation.\nThe leave-one-subject-out strategy on this CNN resulted in a test individual's\nDoH score which was converted into a 4-point score. Around 90% of the obtained\nscores from all the implemented computational methods were found to be in\naccordance with the EI scores under 95% confidence interval. Automated grading\nof degree of handedness using handwriting signals can provide more resolution\nto the Edinburgh Inventory scores. This could be used in multiple applications\nconcerned with neuroscience, rehabilitation, physiology, psychometry,\nbehavioral sciences, and forensics.\n",
+  "subjects": [
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Human-Computer Interaction"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "PU-PwY1Y_L7gJh8qmkK1vvr6ThUS07mYH6nfIZ862Og",
+  "pdfSize": "1235201"
+}

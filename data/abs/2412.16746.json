@@ -1,0 +1,61 @@
+{
+  "id": "2412.16746",
+  "title": "Unpacking Political Bias in Large Language Models: A Cross-Model\n  Comparison on U.S. Politics",
+  "authors": "Kaiqi Yang, Hang Li, Yucheng Chu, Yuping Lin, Tai-Quan Peng, Hui Liu",
+  "authorsParsed": [
+    [
+      "Yang",
+      "Kaiqi",
+      ""
+    ],
+    [
+      "Li",
+      "Hang",
+      ""
+    ],
+    [
+      "Chu",
+      "Yucheng",
+      ""
+    ],
+    [
+      "Lin",
+      "Yuping",
+      ""
+    ],
+    [
+      "Peng",
+      "Tai-Quan",
+      ""
+    ],
+    [
+      "Liu",
+      "Hui",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 21 Dec 2024 19:42:40 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Tue, 24 Dec 2024 04:04:54 GMT"
+    },
+    {
+      "version": "v3",
+      "created": "Mon, 24 Feb 2025 20:53:13 GMT"
+    }
+  ],
+  "updateDate": "2025-02-26",
+  "timestamp": 1734810160000,
+  "abstract": "  Large Language Models (LLMs) have been widely used to generate responses on\nsocial topics due to their world knowledge and generative capabilities. Beyond\nreasoning and generation performance, political bias is an essential issue that\nwarrants attention. Political bias, as a universal phenomenon in human society,\nmay be transferred to LLMs and distort LLMs' behaviors of information\nacquisition and dissemination with humans, leading to unequal access among\ndifferent groups of people. To prevent LLMs from reproducing and reinforcing\npolitical biases, and to encourage fairer LLM-human interactions,\ncomprehensively examining political bias in popular LLMs becomes urgent and\ncrucial.\n  In this study, we systematically measure the political biases in a wide range\nof LLMs, using a curated set of questions addressing political bias in various\ncontexts. Our findings reveal distinct patterns in how LLMs respond to\npolitical topics. For highly polarized topics, most LLMs exhibit a pronounced\nleft-leaning bias. Conversely, less polarized topics elicit greater consensus,\nwith similar response patterns across different LLMs. Additionally, we analyze\nhow LLM characteristics, including release date, model scale, and region of\norigin affect political bias. The results indicate political biases evolve with\nmodel scale and release date, and are also influenced by regional factors of\nLLMs.\n",
+  "subjects": [
+    "Computer Science/Computers and Society",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "s2szhfhKKj9Mwy0QlnQVknhsuapuX6Dh5_3CUQqhLK0",
+  "pdfSize": "1170961"
+}

@@ -1,0 +1,41 @@
+{
+  "id": "2412.21040",
+  "title": "Gradient catastrophes and an infinite hierarchy of H\\\"older\n  cusp-singularities for 1D Euler",
+  "authors": "Isaac Neal, Steve Shkoller, Vlad Vicol",
+  "authorsParsed": [
+    [
+      "Neal",
+      "Isaac",
+      ""
+    ],
+    [
+      "Shkoller",
+      "Steve",
+      ""
+    ],
+    [
+      "Vicol",
+      "Vlad",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 30 Dec 2024 16:03:56 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Wed, 1 Jan 2025 18:55:50 GMT"
+    }
+  ],
+  "updateDate": "2025-01-03",
+  "timestamp": 1735574636000,
+  "abstract": "  We establish an infinite hierarchy of finite-time gradient catastrophes for\nsmooth solutions of the 1D Euler equations of gas dynamics with non-constant\nentropy. Specifically, for all integers $n\\geq 1$, we prove that there exist\nclassical solutions, emanating from smooth, compressive, and non-vacuous\ninitial data, which form a cusp-type gradient singularity in finite time, in\nwhich the gradient of the solution has precisely $C^{0,\\frac{1}{2n+1}}$\nH\\\"older-regularity. We show that such Euler solutions are codimension-$(2n-2)$\nstable in the Sobolev space $W^{2n+2,\\infty}$.\n",
+  "subjects": [
+    "Mathematics/Analysis of PDEs"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "QMN-QWNQyZdPAPBXewksda-4amPv0405SpBcsuXiIvw",
+  "pdfSize": "829363"
+}

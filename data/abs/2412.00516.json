@@ -1,0 +1,36 @@
+{
+  "id": "2412.00516",
+  "title": "Kantorovich-Rubinstein duality theory for the Hessian",
+  "authors": "Karol Bo{\\l}botowski, Guy Bouchitt\\'e",
+  "authorsParsed": [
+    [
+      "Bołbotowski",
+      "Karol",
+      ""
+    ],
+    [
+      "Bouchitté",
+      "Guy",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 30 Nov 2024 15:57:01 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Thu, 12 Dec 2024 09:27:57 GMT"
+    }
+  ],
+  "updateDate": "2024-12-13",
+  "timestamp": 1732982221000,
+  "abstract": "  The classical Kantorovich-Rubinstein duality theorem establishes a\nsignificant connection between Monge optimal transport and maximization of a\nlinear form on the set of 1-Lipschitz functions. This result has been widely\nused in various research areas. In particular, it unlocks the optimal transport\nmethods in some of the optimal design problems. This paper puts forth a similar\ntheory when the linear form is maximized over $C^{1,1}$ functions whose Hessian\nlies between minus and plus identity matrix. The problem will be identified as\nthe dual of a specific optimal transport formulation that involves three-point\nplans. The first two marginals are fixed, while the third must dominate the\nother two in the sense of convex order. The existence of optimal plans allows\nto express solutions of the underlying Beckmann problem as a combination of\nrank-one tensor measures supported on a graph. In the context of\ntwo-dimensional mechanics, this graph encodes the optimal configuration of a\ngrillage that transfers a given load system.\n",
+  "subjects": [
+    "Mathematics/Optimization and Control"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "21IRk2ECJIlp-lmDpWad8f4NQ7u-DL99wTeBdYIU0QE",
+  "pdfSize": "1303130"
+}

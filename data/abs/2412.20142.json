@@ -1,0 +1,36 @@
+{
+  "id": "2412.20142",
+  "title": "ASE: Practical Acoustic Speed Estimation Beyond Doppler via Sound\n  Diffusion Field",
+  "authors": "Sheng Lyu and Chenshu Wu",
+  "authorsParsed": [
+    [
+      "Lyu",
+      "Sheng",
+      ""
+    ],
+    [
+      "Wu",
+      "Chenshu",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 28 Dec 2024 13:10:50 GMT"
+    }
+  ],
+  "updateDate": "2024-12-31",
+  "timestamp": 1735391450000,
+  "abstract": "  Passive human speed estimation plays a critical role in acoustic sensing.\nDespite extensive study, existing systems, however, suffer from various\nlimitations: First, previous acoustic speed estimation exploits Doppler\nFrequency Shifts (DFS) created by moving targets and relies on microphone\narrays, making them only capable of sensing the radial speed within a\nconstrained distance. Second, the channel measurement rate proves inadequate to\nestimate high moving speeds. To overcome these issues, we present ASE, an\naccurate and robust Acoustic Speed Estimation system on a single commodity\nmicrophone. We model the sound propagation from a unique perspective of the\nacoustic diffusion field, and infer the speed from the acoustic spatial\ndistribution, a completely different way of thinking about speed estimation\nbeyond prior DFS-based approaches. We then propose a novel Orthogonal\nTime-Delayed Multiplexing (OTDM) scheme for acoustic channel estimation at a\nhigh rate that was previously infeasible, making it possible to estimate high\nspeeds. We further develop novel techniques for motion detection and signal\nenhancement to deliver a robust and practical system. We implement and evaluate\nASE through extensive real-world experiments. Our results show that ASE\nreliably tracks walking speed, independently of target location and direction,\nwith a mean error of 0.13 m/s, a reduction of 2.5x from DFS, and a detection\nrate of 97.4% for large coverage, e.g., free walking in a 4m $\\times$ 4m room.\nWe believe ASE pushes acoustic speed estimation beyond the conventional\nDFS-based paradigm and will inspire exciting research in acoustic sensing.\n",
+  "subjects": [
+    "Computer Science/Human-Computer Interaction",
+    "Computer Science/Networking and Internet Architecture",
+    "Computer Science/Sound",
+    "Electrical Engineering and Systems Science/Audio and Speech Processing",
+    "Electrical Engineering and Systems Science/Signal Processing"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "gNQQAVr4C2TgF_ungqdJblDhi7W6rEFfV9xxS09mTa8",
+  "pdfSize": "8732877"
+}

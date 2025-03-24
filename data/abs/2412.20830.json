@@ -1,0 +1,48 @@
+{
+  "id": "2412.20830",
+  "title": "ReFlow6D: Refraction-Guided Transparent Object 6D Pose Estimation via\n  Intermediate Representation Learning",
+  "authors": "Hrishikesh Gupta and Stefan Thalhammer and Jean-Baptiste Weibel and\n  Alexander Haberl and Markus Vincze",
+  "authorsParsed": [
+    [
+      "Gupta",
+      "Hrishikesh",
+      ""
+    ],
+    [
+      "Thalhammer",
+      "Stefan",
+      ""
+    ],
+    [
+      "Weibel",
+      "Jean-Baptiste",
+      ""
+    ],
+    [
+      "Haberl",
+      "Alexander",
+      ""
+    ],
+    [
+      "Vincze",
+      "Markus",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 30 Dec 2024 09:53:26 GMT"
+    }
+  ],
+  "updateDate": "2024-12-31",
+  "timestamp": 1735552406000,
+  "abstract": "  Transparent objects are ubiquitous in daily life, making their perception and\nrobotics manipulation important. However, they present a major challenge due to\ntheir distinct refractive and reflective properties when it comes to accurately\nestimating the 6D pose. To solve this, we present ReFlow6D, a novel method for\ntransparent object 6D pose estimation that harnesses the\nrefractive-intermediate representation. Unlike conventional approaches, our\nmethod leverages a feature space impervious to changes in RGB image space and\nindependent of depth information. Drawing inspiration from image matting, we\nmodel the deformation of the light path through transparent objects, yielding a\nunique object-specific intermediate representation guided by light refraction\nthat is independent of the environment in which objects are observed. By\nintegrating these intermediate features into the pose estimation network, we\nshow that ReFlow6D achieves precise 6D pose estimation of transparent objects,\nusing only RGB images as input. Our method further introduces a novel\ntransparent object compositing loss, fostering the generation of superior\nrefractive-intermediate features. Empirical evaluations show that our approach\nsignificantly outperforms state-of-the-art methods on TOD and Trans32K-6D\ndatasets. Robot grasping experiments further demonstrate that ReFlow6D's pose\nestimation accuracy effectively translates to real-world robotics task. The\nsource code is available at: https://github.com/StoicGilgamesh/ReFlow6D and\nhttps://github.com/StoicGilgamesh/matting_rendering.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Robotics"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "xevWlDOJ11oNqwnm-VcsCLhIqyietqli_RpgmHAOxEc",
+  "pdfSize": "7790466"
+}

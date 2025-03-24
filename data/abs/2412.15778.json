@@ -1,0 +1,43 @@
+{
+  "id": "2412.15778",
+  "title": "Combinatorial Optimization with Quantum Computers",
+  "authors": "Francisco Chicano, Gabiel Luque, Zakaria Abdelmoiz Dahi, and Rodrigo\n  Gil-Merino",
+  "authorsParsed": [
+    [
+      "Chicano",
+      "Francisco",
+      ""
+    ],
+    [
+      "Luque",
+      "Gabiel",
+      ""
+    ],
+    [
+      "Dahi",
+      "Zakaria Abdelmoiz",
+      ""
+    ],
+    [
+      "Gil-Merino",
+      "Rodrigo",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 20 Dec 2024 10:46:18 GMT"
+    }
+  ],
+  "updateDate": "2024-12-23",
+  "timestamp": 1734691578000,
+  "abstract": "  Quantum computers leverage the principles of quantum mechanics to do\ncomputation with a potential advantage over classical computers. While a single\nclassical computer transforms one particular binary input into an output after\napplying one operator to the input, a quantum computer can apply the operator\nto a superposition of binary strings to provide a superposition of binary\noutputs, doing computation apparently in parallel. This feature allows quantum\ncomputers to speed up the computation compared to classical algorithms.\nUnsurprisingly, quantum algorithms have been proposed to solve optimization\nproblems in quantum computers. Furthermore, a family of quantum machines called\nquantum annealers are specially designed to solve optimization problems. In\nthis paper, we provide an introduction to quantum optimization from a practical\npoint of view. We introduce the reader to the use of quantum annealers and\nquantum gate-based machines to solve optimization problems.\n",
+  "subjects": [
+    "Computer Science/Emerging Technologies",
+    "Physics/Quantum Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "hl1P_SHjryfdtfyyrATFZnld2iIwFYZ6reJq2eyMEqs",
+  "pdfSize": "1141176"
+}

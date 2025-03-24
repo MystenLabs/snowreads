@@ -1,0 +1,36 @@
+{
+  "id": "2412.20269",
+  "title": "TeLU Activation Function for Fast and Stable Deep Learning",
+  "authors": "Alfredo Fernandez and Ankur Mali",
+  "authorsParsed": [
+    [
+      "Fernandez",
+      "Alfredo",
+      ""
+    ],
+    [
+      "Mali",
+      "Ankur",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 28 Dec 2024 20:50:08 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Thu, 2 Jan 2025 02:32:43 GMT"
+    }
+  ],
+  "updateDate": "2025-01-03",
+  "timestamp": 1735419008000,
+  "abstract": "  We propose the Hyperbolic Tangent Exponential Linear Unit (TeLU), a neural\nnetwork hidden activation function defined as TeLU(x)=xtanh(exp(x)). TeLU's\ndesign is grounded in the core principles of key activation functions,\nachieving strong convergence by closely approximating the identity function in\nits active region while effectively mitigating the vanishing gradient problem\nin its saturating region. Its simple formulation enhances computational\nefficiency, leading to improvements in scalability and convergence speed.\nUnlike many modern activation functions, TeLU seamlessly combines the\nsimplicity and effectiveness of ReLU with the smoothness and analytic\nproperties essential for learning stability in deep neural networks. TeLU's\nability to mimic the behavior and optimal hyperparameter settings of ReLU,\nwhile introducing the benefits of smoothness and curvature, makes it an ideal\ndrop-in replacement. Its analytic nature positions TeLU as a powerful universal\napproximator, enhancing both robustness and generalization across a multitude\nof experiments. We rigorously validate these claims through theoretical\nanalysis and experimental validation, demonstrating TeLU's performance across\nchallenging benchmarks; including ResNet18 on ImageNet, Dynamic-Pooling\nTransformers on Text8, and Recurrent Neural Networks (RNNs) on the Penn\nTreeBank dataset. These results highlight TeLU's potential to set a new\nstandard in activation functions, driving more efficient and stable learning in\ndeep neural networks, thereby accelerating scientific discoveries across\nvarious fields.\n",
+  "subjects": [
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "0R3zl6kH9fNzNyOCGNv2KIO0ccjDKiZh-Aa4QUaRUcw",
+  "pdfSize": "4400231"
+}

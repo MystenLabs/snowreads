@@ -1,0 +1,43 @@
+{
+  "id": "2412.20744",
+  "title": "Advancing Parkinson's Disease Progression Prediction: Comparing Long\n  Short-Term Memory Networks and Kolmogorov-Arnold Networks",
+  "authors": "Abhinav Roy, Bhavesh Gyanchandani, Aditya Oza, Abhishek Sharma",
+  "authorsParsed": [
+    [
+      "Roy",
+      "Abhinav",
+      ""
+    ],
+    [
+      "Gyanchandani",
+      "Bhavesh",
+      ""
+    ],
+    [
+      "Oza",
+      "Aditya",
+      ""
+    ],
+    [
+      "Sharma",
+      "Abhishek",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 30 Dec 2024 06:36:05 GMT"
+    }
+  ],
+  "updateDate": "2024-12-31",
+  "timestamp": 1735540565000,
+  "abstract": "  Parkinson's Disease (PD) is a degenerative neurological disorder that impairs\nmotor and non-motor functions, significantly reducing quality of life and\nincreasing mortality risk. Early and accurate detection of PD progression is\nvital for effective management and improved patient outcomes. Current\ndiagnostic methods, however, are often costly, time-consuming, and require\nspecialized equipment and expertise. This work proposes an innovative approach\nto predicting PD progression using regression methods, Long Short-Term Memory\n(LSTM) networks, and Kolmogorov Arnold Networks (KAN). KAN, utilizing\nspline-parametrized univariate functions, allows for dynamic learning of\nactivation patterns, unlike traditional linear models.\n  The Movement Disorder Society-Sponsored Revision of the Unified Parkinson's\nDisease Rating Scale (MDS-UPDRS) is a comprehensive tool for evaluating PD\nsymptoms and is commonly used to measure disease progression. Additionally,\nprotein or peptide abnormalities are linked to PD onset and progression.\nIdentifying these associations can aid in predicting disease progression and\nunderstanding molecular changes.\n  Comparing multiple models, including LSTM and KAN, this study aims to\nidentify the method that delivers the highest metrics. The analysis reveals\nthat KAN, with its dynamic learning capabilities, outperforms other approaches\nin predicting PD progression. This research highlights the potential of AI and\nmachine learning in healthcare, paving the way for advanced computational\nmodels to enhance clinical predictions and improve patient care and treatment\nstrategies in PD management.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "AFtYzOsaNIdDH_icc7c2fB7U5HIogZgNAXlOqDRDkBw",
+  "pdfSize": "761745"
+}

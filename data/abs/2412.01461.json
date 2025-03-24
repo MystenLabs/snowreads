@@ -1,0 +1,37 @@
+{
+  "id": "2412.01461",
+  "title": "A comprehensive review of datasets and deep learning techniques for\n  vision in Unmanned Surface Vehicles",
+  "authors": "Linh Trinh, Siegfried Mercelis, Ali Anwar",
+  "authorsParsed": [
+    [
+      "Trinh",
+      "Linh",
+      ""
+    ],
+    [
+      "Mercelis",
+      "Siegfried",
+      ""
+    ],
+    [
+      "Anwar",
+      "Ali",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 2 Dec 2024 12:54:18 GMT"
+    }
+  ],
+  "updateDate": "2024-12-03",
+  "timestamp": 1733144058000,
+  "abstract": "  Unmanned Surface Vehicles (USVs) have emerged as a major platform in maritime\noperations, capable of supporting a wide range of applications. USVs can help\nreduce labor costs, increase safety, save energy, and allow for difficult\nunmanned tasks in harsh maritime environments. With the rapid development of\nUSVs, many vision tasks such as detection and segmentation become increasingly\nimportant. Datasets play an important role in encouraging and improving the\nresearch and development of reliable vision algorithms for USVs. In this\nregard, a large number of recent studies have focused on the release of vision\ndatasets for USVs. Along with the development of datasets, a variety of deep\nlearning techniques have also been studied, with a focus on USVs. However,\nthere is a lack of a systematic review of recent studies in both datasets and\nvision techniques to provide a comprehensive picture of the current development\nof vision on USVs, including limitations and trends. In this study, we provide\na comprehensive review of both USV datasets and deep learning techniques for\nvision tasks. Our review was conducted using a large number of vision datasets\nfrom USVs. We elaborate several challenges and potential opportunities for\nresearch and development in USV vision based on a thorough analysis of current\ndatasets and deep learning techniques.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "7HknO16CC3Zv_Oime39Su7x53x7PZaBu74ahjdOjvSk",
+  "pdfSize": "974959"
+}

@@ -1,0 +1,46 @@
+{
+  "id": "2412.03778",
+  "title": "Galaxy Morphology in CANDELS: Addressing Evolutionary Changes Across\n  $0.2 \\leq z \\leq 2.4$ with Hybrid Classification Approach",
+  "authors": "I. Kolesnikov, V. M. Sampaio, R. R. de Carvalho, C. Conselice",
+  "authorsParsed": [
+    [
+      "Kolesnikov",
+      "I.",
+      ""
+    ],
+    [
+      "Sampaio",
+      "V. M.",
+      ""
+    ],
+    [
+      "de Carvalho",
+      "R. R.",
+      ""
+    ],
+    [
+      "Conselice",
+      "C.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 4 Dec 2024 23:50:07 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Thu, 23 Jan 2025 21:38:10 GMT"
+    }
+  ],
+  "updateDate": "2025-01-27",
+  "timestamp": 1733356207000,
+  "abstract": "  Morphological classification of galaxies becomes increasingly challenging\nwith redshift. We apply a hybrid supervised-unsupervised method to classify\n$\\sim 14,000$ galaxies in the CANDELS fields at $0.2 \\leq z \\leq 2.4$ into\nspheroid, disk, and irregular systems. Unlike previous works, our method is\napplied to redshift bins of width 0.2. Comparison between models applied to a\nwide redshift range versus bin-specific models reveals significant differences\nin galaxy morphology beyond $z \\geq 1$ and a consistent $\\sim 25\\%$\ndisagreement. This suggests that using a single model across wide redshift\nranges may introduce biases due to the large time intervals involved compared\nto galaxy evolution timescales. Using the FERENGI code to assess the impact of\ncosmological effects, we find that flux dimming and smaller angular scales may\nlead to the misclassification of up to $18\\%$ of disk galaxies as spheroids or\nirregulars. Contrary to previous studies, we find an almost constant fraction\nof disks ($\\sim 60\\%$) and spheroids ($\\sim 30\\%$) across redshifts. We\nattribute discrepancies with earlier works, which suggest a decreasing fraction\nof disks beyond $z \\sim 1$, to the biases introduced by visual classification.\nOur claim is further strengthened by the striking agreement to the results\nreported by Lee et al. (2024) using an objective, unsupervised method applied\nto James Webb Space Telescope data. Exploring mass dependence, we observe a\n$\\sim 40\\%$ increase in the fraction of massive ($M_{\\rm stellar} \\geq\n10^{10.5}{\\rm M}_{\\odot}$) spheroids with decreasing redshift, well balanced\nwith a decrease of $\\sim 20\\%$ in the fraction of $M_{\\rm stellar} \\geq\n10^{10.5}{\\rm M}_{\\odot}$ disks, suggesting that merging massive disk galaxies\nmay form spheroidal systems.\n",
+  "subjects": [
+    "Astrophysics/Astrophysics of Galaxies"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "IrbEETZ0tfATJRN_rf91VoQi5-Q9ZavbFOzhip_YNrw",
+  "pdfSize": "948603"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "2412.16120",
+  "title": "PromptOptMe: Error-Aware Prompt Compression for LLM-based MT Evaluation\n  Metrics",
+  "authors": "Daniil Larionov, Steffen Eger",
+  "authorsParsed": [
+    [
+      "Larionov",
+      "Daniil",
+      ""
+    ],
+    [
+      "Eger",
+      "Steffen",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 20 Dec 2024 18:08:02 GMT"
+    }
+  ],
+  "updateDate": "2024-12-23",
+  "timestamp": 1734718082000,
+  "abstract": "  Evaluating the quality of machine-generated natural language content is a\nchallenging task in Natural Language Processing (NLP). Recently, large language\nmodels (LLMs) like GPT-4 have been employed for this purpose, but they are\ncomputationally expensive due to the extensive token usage required by complex\nevaluation prompts. In this paper, we propose a prompt optimization approach\nthat uses a smaller, fine-tuned language model to compress input data for\nevaluation prompt, thus reducing token usage and computational cost when using\nlarger LLMs for downstream evaluation. Our method involves a two-stage\nfine-tuning process: supervised fine-tuning followed by preference optimization\nto refine the model's outputs based on human preferences. We focus on Machine\nTranslation (MT) evaluation and utilize the GEMBA-MQM metric as a starting\npoint. Our results show a $2.37\\times$ reduction in token usage without any\nloss in evaluation quality. This work makes state-of-the-art LLM-based metrics\nlike GEMBA-MQM more cost-effective and efficient, enhancing their accessibility\nfor broader use.\n",
+  "subjects": [
+    "Computer Science/Computation and Language"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "tXXSg7nJn--cABs6CHTFHOxdcykYicKel-MYjYg4JbM",
+  "pdfSize": "674991"
+}

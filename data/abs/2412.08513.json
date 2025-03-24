@@ -1,0 +1,43 @@
+{
+  "id": "2412.08513",
+  "title": "REPEAT: Improving Uncertainty Estimation in Representation Learning\n  Explainability",
+  "authors": "Kristoffer K. Wickstr{\\o}m and Thea Br\\\"usch and Michael C.\n  Kampffmeyer and Robert Jenssen",
+  "authorsParsed": [
+    [
+      "Wickstrøm",
+      "Kristoffer K.",
+      ""
+    ],
+    [
+      "Brüsch",
+      "Thea",
+      ""
+    ],
+    [
+      "Kampffmeyer",
+      "Michael C.",
+      ""
+    ],
+    [
+      "Jenssen",
+      "Robert",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 11 Dec 2024 16:24:31 GMT"
+    }
+  ],
+  "updateDate": "2024-12-12",
+  "timestamp": 1733934271000,
+  "abstract": "  Incorporating uncertainty is crucial to provide trustworthy explanations of\ndeep learning models. Recent works have demonstrated how uncertainty modeling\ncan be particularly important in the unsupervised field of representation\nlearning explainable artificial intelligence (R-XAI). Current R-XAI methods\nprovide uncertainty by measuring variability in the importance score. However,\nthey fail to provide meaningful estimates of whether a pixel is certainly\nimportant or not. In this work, we propose a new R-XAI method called REPEAT\nthat addresses the key question of whether or not a pixel is \\textit{certainly}\nimportant. REPEAT leverages the stochasticity of current R-XAI methods to\nproduce multiple estimates of importance, thus considering each pixel in an\nimage as a Bernoulli random variable that is either important or unimportant.\nFrom these Bernoulli random variables we can directly estimate the importance\nof a pixel and its associated certainty, thus enabling users to determine\ncertainty in pixel importance. Our extensive evaluation shows that REPEAT gives\ncertainty estimates that are more intuitive, better at detecting\nout-of-distribution data, and more concise.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "Fhf6tKG6gu-_YzUrcq0P0GSAqa-uxBlhIrgo2dW-oO8",
+  "pdfSize": "26452776"
+}

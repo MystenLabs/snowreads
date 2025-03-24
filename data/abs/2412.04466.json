@@ -1,0 +1,38 @@
+{
+  "id": "2412.04466",
+  "title": "User-item fairness tradeoffs in recommendations",
+  "authors": "Sophie Greenwood, Sudalakshmee Chiniah, and Nikhil Garg",
+  "authorsParsed": [
+    [
+      "Greenwood",
+      "Sophie",
+      ""
+    ],
+    [
+      "Chiniah",
+      "Sudalakshmee",
+      ""
+    ],
+    [
+      "Garg",
+      "Nikhil",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 5 Dec 2024 18:59:51 GMT"
+    }
+  ],
+  "updateDate": "2024-12-06",
+  "timestamp": 1733425191000,
+  "abstract": "  In the basic recommendation paradigm, the most (predicted) relevant item is\nrecommended to each user. This may result in some items receiving lower\nexposure than they \"should\"; to counter this, several algorithmic approaches\nhave been developed to ensure item fairness. These approaches necessarily\ndegrade recommendations for some users to improve outcomes for items, leading\nto user fairness concerns. In turn, a recent line of work has focused on\ndeveloping algorithms for multi-sided fairness, to jointly optimize user\nfairness, item fairness, and overall recommendation quality. This induces the\nquestion: what is the tradeoff between these objectives, and what are the\ncharacteristics of (multi-objective) optimal solutions? Theoretically, we\ndevelop a model of recommendations with user and item fairness objectives and\ncharacterize the solutions of fairness-constrained optimization. We identify\ntwo phenomena: (a) when user preferences are diverse, there is \"free\" item and\nuser fairness; and (b) users whose preferences are misestimated can be\nespecially disadvantaged by item fairness constraints. Empirically, we\nprototype a recommendation system for preprints on arXiv and implement our\nframework, measuring the phenomena in practice and showing how these phenomena\ninform the design of markets with recommendation systems-intermediated\nmatching.\n",
+  "subjects": [
+    "Computer Science/Information Retrieval",
+    "Computer Science/Computers and Society"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "G9jEQnXLHpLmLNkw6lIry6SPd3qwdMJEm6W-_xxc-o4",
+  "pdfSize": "1459328"
+}

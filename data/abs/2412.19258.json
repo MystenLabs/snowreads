@@ -1,0 +1,42 @@
+{
+  "id": "2412.19258",
+  "title": "Complexity and Structural Results for the Hull and Convexity Numbers in\n  Cycle Convexity for Graph Products",
+  "authors": "Bijo S. Anand, Ullas Chandran S. V., Julliano R. Nascimento, Revathy\n  S. Nair",
+  "authorsParsed": [
+    [
+      "Anand",
+      "Bijo S.",
+      ""
+    ],
+    [
+      "V.",
+      "Ullas Chandran S.",
+      ""
+    ],
+    [
+      "Nascimento",
+      "Julliano R.",
+      ""
+    ],
+    [
+      "Nair",
+      "Revathy S.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 26 Dec 2024 15:50:39 GMT"
+    }
+  ],
+  "updateDate": "2024-12-30",
+  "timestamp": 1735228239000,
+  "abstract": "  Let $G$ be a graph and $S \\subseteq V(G)$. In the cycle convexity, we say\nthat $S$ is \\textit{cycle convex} if for any $u\\in V(G)\\setminus S$, the\ninduced subgraph of $S\\cup\\{u\\}$ contains no cycle that includes $u$. The\n\\textit{cycle convex hull} of $S$ is the smallest convex set containing $S$.\nThe \\textit{cycle hull number} of $G$, denoted by $hn_{cc}(G)$, is the\ncardinality of the smallest set $S$ such that the convex hull of $S$ is $V(G)$.\nThe \\textit{convexity number} of $G$, denoted by $C_{cc}(G)$, is the maximum\ncardinality of a proper convex set of $V(G)$. This paper studies cycle\nconvexity in graph products. We show that the cycle hull number is always two\nfor strong and lexicographic products. For the Cartesian, we establish tight\nbounds for this product and provide a closed formula when the factors are\ntrees, generalizing an existing result for grid graphs. In addition, given a\ngraph $G$ and an integer $k$, we prove that $hn_{cc}(G) \\leq k$ is NP-complete\neven if $G$ is a bipartite Cartesian product graph, addressing an open question\nin the literature. Furthermore, we present exact formulas for the cycle\nconvexity number in those three graph products. That leads to the\nNP-completeness of, given a graph $G$ and an integer $k$, deciding whether\n$C_{cc}(G) \\geq k$, when $G$ is a Cartesian, strong or lexicographic product\ngraph.\n",
+  "subjects": [
+    "Mathematics/Combinatorics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "Y89zII1El3L7ZOtgFtNg9qbdjJj_zabG6R1gwKY7XkY",
+  "pdfSize": "559752"
+}

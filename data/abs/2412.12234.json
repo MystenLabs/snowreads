@@ -1,0 +1,29 @@
+{
+  "id": "2412.12234",
+  "title": "Deep Learning for Hydroelectric Optimization: Generating Long-Term River\n  Discharge Scenarios with Ensemble Forecasts from Global Circulation Models",
+  "authors": "Julio Alberto Silva Dias",
+  "authorsParsed": [
+    [
+      "Dias",
+      "Julio Alberto Silva",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 16 Dec 2024 16:37:27 GMT"
+    }
+  ],
+  "updateDate": "2024-12-19",
+  "timestamp": 1734367047000,
+  "abstract": "  Hydroelectric power generation is a critical component of the global energy\nmatrix, particularly in countries like Brazil, where it represents the majority\nof the energy supply. However, its strong dependence on river discharges, which\nare inherently uncertain due to climate variability, poses significant\nchallenges. River discharges are linked to precipitation patterns, making the\ndevelopment of accurate probabilistic forecasting models crucial for improving\noperational planning in systems heavily reliant on this resource.\nTraditionally, statistical models have been used to represent river discharges\nin energy optimization. Yet, these models are increasingly unable to produce\nrealistic scenarios due to structural shifts in climate behavior. Changes in\nprecipitation patterns have altered discharge dynamics, which traditional\napproaches struggle to capture. Machine learning methods, while effective as\nuniversal predictors for time series, often focus solely on historical data,\nignoring key external factors such as meteorological and climatic conditions.\nFurthermore, these methods typically lack a probabilistic framework, which is\nvital for representing the inherent variability of hydrological processes. The\nlimited availability of historical discharge data further complicates the\napplication of large-scale deep learning models to this domain. To address\nthese challenges, we propose a framework based on a modified recurrent neural\nnetwork architecture. This model generates parameterized probability\ndistributions conditioned on projections from global circulation models,\neffectively accounting for the stochastic nature of river discharges.\nAdditionally, the architecture incorporates enhancements to improve its\ngeneralization capabilities. We validate this framework within the Brazilian\nInterconnected System, using projections from the SEAS5-ECMWF system as\nconditional variables.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Electrical Engineering and Systems Science/Signal Processing",
+    "Statistics/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "o4UjstDtNhCODhExQvKpB_Qye0VLN9D6WXXWBaRA6qo",
+  "pdfSize": "1250250"
+}

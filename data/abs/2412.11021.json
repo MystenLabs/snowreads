@@ -1,0 +1,47 @@
+{
+  "id": "2412.11021",
+  "title": "SparseMap: Loop Mapping for Sparse CNNs on Streaming Coarse-grained\n  Reconfigurable Array",
+  "authors": "Xiaobing Ni, Mengke Ge, Jiaheng Ruan, Song Chen, Yi Kang",
+  "authorsParsed": [
+    [
+      "Ni",
+      "Xiaobing",
+      ""
+    ],
+    [
+      "Ge",
+      "Mengke",
+      ""
+    ],
+    [
+      "Ruan",
+      "Jiaheng",
+      ""
+    ],
+    [
+      "Chen",
+      "Song",
+      ""
+    ],
+    [
+      "Kang",
+      "Yi",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 15 Dec 2024 02:30:09 GMT"
+    }
+  ],
+  "updateDate": "2024-12-17",
+  "timestamp": 1734229809000,
+  "abstract": "  Streaming coarse-grained reconfgurable array (CGRA) is a promising\narchitecture for data/computing-intensive applications because of its\nfexibility, high throughput and efcient memory system. However,when\naccelerating sparse CNNs, the irregular input data demands inside sparse CNNs\nwould cause excessive caching operations (COPs) and multi-cycle internal\ndependencies (MCIDs) between operations, declining the throughput of the\nstreaming CGRA. We propose a mapping method for sparse CNNs onto streaming\nCGRA, SparseMap, which incorporates an efcient I/O data management along with\noperation scheduling and binding, to reduce the COPs and MCIDs, thereby\nensuring the optimal throughput of streaming CGRA.The experimental results show\nSparseMap reduces 92.5% COPs and 46.0 % MCIDs while achieves the same or even\nsmaller initiation interval (II) compared to previous works.\n",
+  "subjects": [
+    "Computer Science/Distributed, Parallel, and Cluster Computing"
+  ],
+  "license": "http://creativecommons.org/licenses/by-sa/4.0/",
+  "blobId": "sWFlfdOhgwNstvAOX0mDD4TFpwG22rif1_n-oGADIfs",
+  "pdfSize": "1034340"
+}

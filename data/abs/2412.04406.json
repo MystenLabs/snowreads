@@ -1,0 +1,47 @@
+{
+  "id": "2412.04406",
+  "title": "Intertwining operators beyond the Stark Effect",
+  "authors": "Luca Fanelli, Xiaoyan Su, Ying Wang, Junyong Zhang, Jiqiang Zheng",
+  "authorsParsed": [
+    [
+      "Fanelli",
+      "Luca",
+      ""
+    ],
+    [
+      "Su",
+      "Xiaoyan",
+      ""
+    ],
+    [
+      "Wang",
+      "Ying",
+      ""
+    ],
+    [
+      "Zhang",
+      "Junyong",
+      ""
+    ],
+    [
+      "Zheng",
+      "Jiqiang",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 5 Dec 2024 18:25:27 GMT"
+    }
+  ],
+  "updateDate": "2024-12-06",
+  "timestamp": 1733423127000,
+  "abstract": "  The main mathematical manifestation of the Stark effect in quantum mechanics\nis the shift and the formation of clusters of eigenvalues when a spherical\nHamiltonian is perturbed by lower order terms. Understanding this mechanism\nturned out to be fundamental in the description of the large-time asymptotics\nof the associated Schr\\\"odinger groups and can be responsible for the lack of\ndispersion in Fanelli, Felli, Fontelos and Primo [Comm. Math. Phys., 324(2013),\n1033-1067; 337(2015), 1515-1533]. Recently, Miao, Su, and Zheng introduced in\n[Tran. Amer. Math. Soc., 376(2023), 1739--1797] a family of spectrally\nprojected intertwining operators, reminiscent of the Kato's wave operators, in\nthe case of constant perturbations on the sphere (inverse-square potential),\nand also proved their boundedness in $L^p$. Our aim is to establish a general\nframework in which some suitable intertwining operators can be defined also for\nnon constant spherical perturbations in space dimensions 2 and higher. In\naddition, we investigate the mapping properties between $L^p$-spaces of these\noperators. In 2D, we prove a complete result, for the Schr\\\"odinger Hamiltonian\nwith a (fixed) magnetic potential an electric potential, both scaling critical,\nallowing us to prove dispersive estimates, uniform resolvent estimates, and\n$L^p$-bounds of Bochner--Riesz means. In higher dimensions, apart from\nrecovering the example of inverse-square potential, we can conjecture a\ncomplete result in presence of some symmetries (zonal potentials), and open\nsome interesting spectral problems concerning the asymptotics of\neigenfunctions.\n",
+  "subjects": [
+    "Mathematics/Analysis of PDEs"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "o9xVhSDzLCPeBegw35Bblz7YVRkkLIOOen-BF_uZtn8",
+  "pdfSize": "419308"
+}

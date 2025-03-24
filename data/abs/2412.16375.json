@@ -1,0 +1,29 @@
+{
+  "id": "2412.16375",
+  "title": "Iterative Encoding-Decoding VAEs Anomaly Detection in NOAA's DART Time\n  Series: A Machine Learning Approach for Enhancing Data Integrity for NASA's\n  GRACE-FO Verification and Validation",
+  "authors": "Kevin Lee",
+  "authorsParsed": [
+    [
+      "Lee",
+      "Kevin",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 20 Dec 2024 22:19:11 GMT"
+    }
+  ],
+  "updateDate": "2024-12-24",
+  "timestamp": 1734733151000,
+  "abstract": "  NOAA's Deep-ocean Assessment and Reporting of Tsunamis (DART) data are\ncritical for NASA-JPL's tsunami detection, real-time operations, and\noceanographic research. However, these time-series data often contain spikes,\nsteps, and drifts that degrade data quality and obscure essential oceanographic\nfeatures. To address these anomalies, the work introduces an Iterative\nEncoding-Decoding Variational Autoencoders (Iterative Encoding-Decoding VAEs)\nmodel to improve the quality of DART time series. Unlike traditional filtering\nand thresholding methods that risk distorting inherent signal characteristics,\nIterative Encoding-Decoding VAEs progressively remove anomalies while\npreserving the data's latent structure. A hybrid thresholding approach further\nretains genuine oceanographic features near boundaries. Applied to complex DART\ndatasets, this approach yields reconstructions that better maintain key oceanic\nproperties compared to classical statistical techniques, offering improved\nrobustness against spike removal and subtle step changes. The resulting\nhigh-quality data supports critical verification and validation efforts for the\nGRACE-FO mission at NASA-JPL, where accurate surface measurements are essential\nto modeling Earth's gravitational field and global water dynamics. Ultimately,\nthis data processing method enhances tsunami detection and underpins future\nclimate modeling with improved interpretability and reliability.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Computer Science/Artificial Intelligence",
+    "Physics/Geophysics"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "Snusyl5UXJGAspXtD8g5QhKKnAKXyuTPKgWDFZMC2aU",
+  "pdfSize": "820265"
+}

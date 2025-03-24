@@ -1,0 +1,43 @@
+{
+  "id": "2412.06840",
+  "title": "MDiFF: Exploiting Multimodal Score-based Diffusion Models for New\n  Fashion Product Performance Forecasting",
+  "authors": "Andrea Avogaro, Luigi Capogrosso, Franco Fummi, Marco Cristani",
+  "authorsParsed": [
+    [
+      "Avogaro",
+      "Andrea",
+      ""
+    ],
+    [
+      "Capogrosso",
+      "Luigi",
+      ""
+    ],
+    [
+      "Fummi",
+      "Franco",
+      ""
+    ],
+    [
+      "Cristani",
+      "Marco",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 7 Dec 2024 07:15:59 GMT"
+    }
+  ],
+  "updateDate": "2024-12-11",
+  "timestamp": 1733555759000,
+  "abstract": "  The fast fashion industry suffers from significant environmental impacts due\nto overproduction and unsold inventory. Accurately predicting sales volumes for\nunreleased products could significantly improve efficiency and resource\nutilization. However, predicting performance for entirely new items is\nchallenging due to the lack of historical data and rapidly changing trends, and\nexisting deterministic models often struggle with domain shifts when\nencountering items outside the training data distribution. The recently\nproposed diffusion models address this issue using a continuous-time diffusion\nprocess. This allows us to simulate how new items are adopted, reducing the\nimpact of domain shift challenges faced by deterministic models. As a result,\nin this paper, we propose MDiFF: a novel two-step multimodal diffusion\nmodels-based pipeline for New Fashion Product Performance Forecasting (NFPPF).\nFirst, we use a score-based diffusion model to predict multiple future sales\nfor different clothes over time. Then, we refine these multiple predictions\nwith a lightweight Multi-layer Perceptron (MLP) to get the final forecast.\nMDiFF leverages the strengths of both architectures, resulting in the most\naccurate and efficient forecasting system for the fast-fashion industry at the\nstate-of-the-art. The code can be found at\nhttps://github.com/intelligolabs/MDiFF.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "quE_ElVBIOWqtFLXcQWCard3OVbnzB1vcY8F4_glwG0",
+  "pdfSize": "1329700"
+}

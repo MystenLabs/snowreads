@@ -1,0 +1,79 @@
+{
+  "id": "2412.21154",
+  "title": "Aviary: training language agents on challenging scientific tasks",
+  "authors": "Siddharth Narayanan, James D. Braza, Ryan-Rhys Griffiths, Manu\n  Ponnapati, Albert Bou, Jon Laurent, Ori Kabeli, Geemi Wellawatte, Sam Cox,\n  Samuel G. Rodriques and Andrew D. White",
+  "authorsParsed": [
+    [
+      "Narayanan",
+      "Siddharth",
+      ""
+    ],
+    [
+      "Braza",
+      "James D.",
+      ""
+    ],
+    [
+      "Griffiths",
+      "Ryan-Rhys",
+      ""
+    ],
+    [
+      "Ponnapati",
+      "Manu",
+      ""
+    ],
+    [
+      "Bou",
+      "Albert",
+      ""
+    ],
+    [
+      "Laurent",
+      "Jon",
+      ""
+    ],
+    [
+      "Kabeli",
+      "Ori",
+      ""
+    ],
+    [
+      "Wellawatte",
+      "Geemi",
+      ""
+    ],
+    [
+      "Cox",
+      "Sam",
+      ""
+    ],
+    [
+      "Rodriques",
+      "Samuel G.",
+      ""
+    ],
+    [
+      "White",
+      "Andrew D.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 30 Dec 2024 18:33:28 GMT"
+    }
+  ],
+  "updateDate": "2024-12-31",
+  "timestamp": 1735583608000,
+  "abstract": "  Solving complex real-world tasks requires cycles of actions and observations.\nThis is particularly true in science, where tasks require many cycles of\nanalysis, tool use, and experimentation. Language agents are promising for\nautomating intellectual tasks in science because they can interact with tools\nvia natural language or code. Yet their flexibility creates conceptual and\npractical challenges for software implementations, since agents may comprise\nnon-standard components such as internal reasoning, planning, tool usage, as\nwell as the inherent stochasticity of temperature-sampled language models.\nHere, we introduce Aviary, an extensible gymnasium for language agents. We\nformalize agents as policies solving language-grounded partially observable\nMarkov decision processes, which we term language decision processes. We then\nimplement five environments, including three challenging scientific\nenvironments: (1) manipulating DNA constructs for molecular cloning, (2)\nanswering research questions by accessing scientific literature, and (3)\nengineering protein stability. These environments were selected for their focus\non multi-step reasoning and their relevance to contemporary biology research.\nFinally, with online training and scaling inference-time compute, we show that\nlanguage agents backed by open-source, non-frontier LLMs can match and exceed\nboth frontier LLM agents and human experts on multiple tasks at up to 100x\nlower inference cost.\n",
+  "subjects": [
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Computation and Language",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by-sa/4.0/",
+  "blobId": "p0Cw1p-djxV8IWjv7wolKUJsdtvl9ocZZGprIrNsXFQ",
+  "pdfSize": "2352573"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2412.00050",
+  "title": "Mapping waterways worldwide with deep learning",
+  "authors": "Matthew Pierson and Zia Mehrabi",
+  "authorsParsed": [
+    [
+      "Pierson",
+      "Matthew",
+      ""
+    ],
+    [
+      "Mehrabi",
+      "Zia",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 24 Nov 2024 04:59:07 GMT"
+    }
+  ],
+  "updateDate": "2024-12-03",
+  "timestamp": 1732424347000,
+  "abstract": "  Waterways shape earth system processes and human societies, and a better\nunderstanding of their distribution can assist in a range of applications from\nearth system modeling to human development and disaster response. Most efforts\nto date to map the world's waterways have required extensive modeling and\ncontextual expert input, and are costly to repeat. Many gaps remain,\nparticularly in geographies with lower economic development. Here we present a\ncomputer vision model that can draw waterways based on 10m Sentinel-2 satellite\nimagery and the 30m GLO-30 Copernicus digital elevation model, trained using\nhigh fidelity waterways data from the United States. We couple this model with\na vectorization process to map waterways worldwide. For widespread utility and\ndownstream modelling efforts, we scaffold this new data on the backbone of\nexisting mapped basins and waterways from another dataset, TDX-Hydro. In total,\nwe add 124 million kilometers of waterways to the 54 million kilometers already\nin the TDX-Hydro dataset, more than tripling the extent of waterways mapped\nglobally.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by-sa/4.0/",
+  "blobId": "jsNvnP1-fXNOidWekGww7ZwVhIL2sm2kejihYHZq28Q",
+  "pdfSize": "4892317"
+}

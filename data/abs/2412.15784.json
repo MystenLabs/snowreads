@@ -1,0 +1,83 @@
+{
+  "id": "2412.15784",
+  "title": "A detailed examination of polysilicon resistivity incorporating the\n  grain size distribution",
+  "authors": "Mikael Santonen, Antti Lahti, Zahra Jahanshah Rad, Mikko Miettinen,\n  Masoud Ebrahimzadeh, Juha-Pekka Lehti\\\"o, Enni Snellman, Pekka Laukkanen,\n  Marko Punkkinen, Kalevi Kokko, Katja Parkkinen, Markus Eklund",
+  "authorsParsed": [
+    [
+      "Santonen",
+      "Mikael",
+      ""
+    ],
+    [
+      "Lahti",
+      "Antti",
+      ""
+    ],
+    [
+      "Rad",
+      "Zahra Jahanshah",
+      ""
+    ],
+    [
+      "Miettinen",
+      "Mikko",
+      ""
+    ],
+    [
+      "Ebrahimzadeh",
+      "Masoud",
+      ""
+    ],
+    [
+      "Lehtiö",
+      "Juha-Pekka",
+      ""
+    ],
+    [
+      "Snellman",
+      "Enni",
+      ""
+    ],
+    [
+      "Laukkanen",
+      "Pekka",
+      ""
+    ],
+    [
+      "Punkkinen",
+      "Marko",
+      ""
+    ],
+    [
+      "Kokko",
+      "Kalevi",
+      ""
+    ],
+    [
+      "Parkkinen",
+      "Katja",
+      ""
+    ],
+    [
+      "Eklund",
+      "Markus",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 20 Dec 2024 10:52:53 GMT"
+    }
+  ],
+  "updateDate": "2024-12-23",
+  "timestamp": 1734691973000,
+  "abstract": "  Current transport in polysilicon is a complicated process with many factors\nto consider. The inhomogeneous nature of polysilicon with its differently\nshaped and sized grains is one such consideration. We have developed a method\nthat enhances existing resistivity models with a two-dimensional extension that\nincorporates the grain size distribution using a Voronoi-based resistor\nnetwork. We obtain grain size distributions both from our growth simulations\n(700 K, 800 K, and 900 K) and experimental analysis. Applying our method, we\ninvestigate the effect that variation in grain size produces with cases of\ndifferent average grain sizes (2 nm to 3 $\\mu$m). For example, the resistivity\nof polysilicon with an average grain size of 175 nm drops from 11 k$\\Omega$\n$\\cdot$ cm to 4.5 k$\\Omega$ $\\cdot$ cm when compared to conventional\none-dimensional modeling. Our study highlights the strong effect of grain size\nvariation on resistivity, revealing that wider distributions result in\nsignificant resistivity reductions of up to more than 50%. Due to the larger\ngrains present with a grain size distribution, current transport encounters\nfewer grain boundaries while the average grain size remains the same resulting\nin fewer barriers along the current transport path. Incorporating the grain\nstructure into the resistivity modeling facilitates a more detailed and\ncomprehensive characterization of the electrical properties of polysilicon.\n",
+  "subjects": [
+    "Condensed Matter/Materials Science",
+    "Physics/Computational Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "DlNTe-fxxydTFcPo404BD3kYqIwM9FM7VLwEubNHsKY",
+  "pdfSize": "4780225"
+}

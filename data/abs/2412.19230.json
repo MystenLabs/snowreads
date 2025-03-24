@@ -1,0 +1,32 @@
+{
+  "id": "2412.19230",
+  "title": "Semistrong edge colorings of planar graphs",
+  "authors": "Yuquan Lin and Wensong Lin",
+  "authorsParsed": [
+    [
+      "Lin",
+      "Yuquan",
+      ""
+    ],
+    [
+      "Lin",
+      "Wensong",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 26 Dec 2024 14:16:15 GMT"
+    }
+  ],
+  "updateDate": "2024-12-30",
+  "timestamp": 1735222575000,
+  "abstract": "  Strengthened notions of a matching $M$ of a graph $G$ have been considered,\nrequiring that the matching $M$ has some properties with respect to the\nsubgraph $G_M$ of $G$ induced by the vertices covered by $M$: If $M$ is the\nunique perfect matching of $G_M$, then $M$ is a uniquely restricted matching of\n$G$; if all the edges of $M$ are pendant edges of $G_M$, then $M$ is a\nsemistrong matching of $G$; if all the vertices of $G_M$ are pendant, then $M$\nis an induced matching of $G$. Strengthened notions of edge coloring and of the\nchromatic index follow.\n  In this paper, we consider the maximum semistrong chromatic index of planar\ngraphs with given maximum degree $\\Delta$. We prove that graphs with maximum\naverage degree less than ${14}/{5}$ have semistrong chromatic index (hence\nuniquely restricted chromatic index) at most $2\\Delta+4$, and we reduce the\nbound to $2\\Delta+2$ if the maximum average degree is less than ${8}/{3}$.\nThese cases cover, in particular, the cases of planar graphs with girth at\nleast 7 (resp. at least 8).\n  Our result makes some progress on the conjecture of Lu\\v{z}ar,\nMockov\\v{c}iakov\\'a and Sot\\'ak [J. Graph Theory 105 (2024) 612--632], which\nasserts that every planar graph $G$ has a semistrong edge coloring with\n$2\\Delta+C$ colors, for some universal constant $C$. (Note that such a\nconjecture would fail for strong edge coloring as there exist graphs with\narbitrarily large maximum degree that are not strongly\n$(4\\Delta-5)$-edge-colorable.)\n  We conjecture that the upper bound for both the uniquely restricted chromatic\nindex and the semistrong chromatic index of planar graphs with maximum degree\n$\\Delta$ is $2\\Delta+4$, and provide an example of a planar graph achieving\nthis bound.\n",
+  "subjects": [
+    "Mathematics/Combinatorics"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "4-tdfNLbIH1dikK-Ic4y4G8JHhuWKlWfEVCyAe4A8d4",
+  "pdfSize": "517566"
+}

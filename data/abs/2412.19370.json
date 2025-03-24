@@ -1,0 +1,41 @@
+{
+  "id": "2412.19370",
+  "title": "BeSplat: Gaussian Splatting from a Single Blurry Image and Event Stream",
+  "authors": "Gopi Raju Matta, Reddypalli Trisha and Kaushik Mitra",
+  "authorsParsed": [
+    [
+      "Matta",
+      "Gopi Raju",
+      ""
+    ],
+    [
+      "Trisha",
+      "Reddypalli",
+      ""
+    ],
+    [
+      "Mitra",
+      "Kaushik",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 26 Dec 2024 22:35:29 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Sun, 5 Jan 2025 21:19:48 GMT"
+    }
+  ],
+  "updateDate": "2025-01-07",
+  "timestamp": 1735252529000,
+  "abstract": "  Novel view synthesis has been greatly enhanced by the development of radiance\nfield methods. The introduction of 3D Gaussian Splatting (3DGS) has effectively\naddressed key challenges, such as long training times and slow rendering\nspeeds, typically associated with Neural Radiance Fields (NeRF), while\nmaintaining high-quality reconstructions. In this work (BeSplat), we\ndemonstrate the recovery of sharp radiance field (Gaussian splats) from a\nsingle motion-blurred image and its corresponding event stream. Our method\njointly learns the scene representation via Gaussian Splatting and recovers the\ncamera motion through Bezier SE(3) formulation effectively, minimizing\ndiscrepancies between synthesized and real-world measurements of both blurry\nimage and corresponding event stream. We evaluate our approach on both\nsynthetic and real datasets, showcasing its ability to render view-consistent,\nsharp images from the learned radiance field and the estimated camera\ntrajectory. To the best of our knowledge, ours is the first work to address\nthis highly challenging ill-posed problem in a Gaussian Splatting framework\nwith the effective incorporation of temporal information captured using the\nevent stream.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "i7xuKMp9N1Sjl56pkCyZaggNIkIakvDG8UkIdMlE_YY",
+  "pdfSize": "37550804"
+}

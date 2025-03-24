@@ -1,0 +1,33 @@
+{
+  "id": "2412.09369",
+  "title": "Distribution free uncertainty quantification in neuroscience-inspired\n  deep operators",
+  "authors": "Shailesh Garg and Souvik Chakraborty",
+  "authorsParsed": [
+    [
+      "Garg",
+      "Shailesh",
+      ""
+    ],
+    [
+      "Chakraborty",
+      "Souvik",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 12 Dec 2024 15:37:02 GMT"
+    }
+  ],
+  "updateDate": "2024-12-13",
+  "timestamp": 1734017822000,
+  "abstract": "  Energy-efficient deep learning algorithms are essential for a sustainable\nfuture and feasible edge computing setups. Spiking neural networks (SNNs),\ninspired from neuroscience, are a positive step in the direction of achieving\nthe required energy efficiency. However, in a bid to lower the energy\nrequirements, accuracy is marginally sacrificed. Hence, predictions of such\ndeep learning algorithms require an uncertainty measure that can inform users\nregarding the bounds of a certain output. In this paper, we introduce the\nConformalized Randomized Prior Operator (CRP-O) framework that leverages\nRandomized Prior (RP) networks and Split Conformal Prediction (SCP) to quantify\nuncertainty in both conventional and spiking neural operators. To further\nenable zero-shot super-resolution in UQ, we propose an extension incorporating\nGaussian Process Regression. This enhanced super-resolution-enabled CRP-O\nframework is integrated with the recently developed Variable Spiking Wavelet\nNeural Operator (VSWNO). To test the performance of the obtained calibrated\nuncertainty bounds, we discuss four different examples covering both\none-dimensional and two-dimensional partial differential equations. Results\ndemonstrate that the uncertainty bounds produced by the conformalized RP-VSWNO\nsignificantly enhance UQ estimates compared to vanilla RP-VSWNO, Quantile WNO\n(Q-WNO), and Conformalized Quantile WNO (CQ-WNO). These findings underscore the\npotential of the proposed approach for practical applications.\n",
+  "subjects": [
+    "Statistics/Machine Learning",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "NlU6_j-dxfqRMfkoYIi8G1qBcEdsC6c-Amu4UBU7zkw",
+  "pdfSize": "1352645"
+}

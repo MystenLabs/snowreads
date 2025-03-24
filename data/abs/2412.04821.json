@@ -1,0 +1,52 @@
+{
+  "id": "2412.04821",
+  "title": "CCS: Continuous Learning for Customized Incremental Wireless Sensing\n  Services",
+  "authors": "Qunhang Fu, Fei Wang, Mengdie Zhu, Han Ding, Jinsong Han, Tony Xiao\n  Han",
+  "authorsParsed": [
+    [
+      "Fu",
+      "Qunhang",
+      ""
+    ],
+    [
+      "Wang",
+      "Fei",
+      ""
+    ],
+    [
+      "Zhu",
+      "Mengdie",
+      ""
+    ],
+    [
+      "Ding",
+      "Han",
+      ""
+    ],
+    [
+      "Han",
+      "Jinsong",
+      ""
+    ],
+    [
+      "Han",
+      "Tony Xiao",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 6 Dec 2024 07:29:34 GMT"
+    }
+  ],
+  "updateDate": "2024-12-09",
+  "timestamp": 1733470174000,
+  "abstract": "  Wireless sensing has made significant progress in tasks ranging from action\nrecognition, vital sign estimation, pose estimation, etc. After over a decade\nof work, wireless sensing currently stands at the tipping point transitioning\nfrom proof-of-concept systems to the large-scale deployment. We envision a\nfuture service scenario where wireless sensing service providers distribute\nsensing models to users. During usage, users might request new sensing\ncapabilities. For example, if someone is away from home on a business trip or\nvacation for an extended period, they may want a new sensing capability that\ncan detect falls in elderly parents or grandparents and promptly alert them. In\nthis paper, we propose CCS (continuous customized service), enabling model\nupdates on users' local computing resources without data transmission to the\nservice providers. To address the issue of catastrophic forgetting in model\nupdates where updating model parameters to implement new capabilities leads to\nthe loss of existing capabilities we design knowledge distillation and weight\nalignment modules. These modules enable the sensing model to acquire new\ncapabilities while retaining the existing ones. We conducted extensive\nexperiments on the large-scale XRF55 dataset across Wi-Fi, millimeter-wave\nradar, and RFID modalities to simulate scenarios where four users sequentially\nintroduced new customized demands. The results affirm that CCS excels in\ncontinuous model services across all the above wireless modalities,\nsignificantly outperforming existing approaches like OneFi.\n",
+  "subjects": [
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "ux4OA6t2d1P2cKxOlMFp0SFbr30tJx_pXsFJ3nuN46g",
+  "pdfSize": "2143750"
+}

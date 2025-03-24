@@ -1,0 +1,66 @@
+{
+  "id": "2412.01091",
+  "title": "DuoCast: Duo-Probabilistic Meteorology-Aware Model for Extended\n  Precipitation Nowcasting",
+  "authors": "Penghui Wen, Lei Bai, Mengwei He, Patrick Filippi, Feng Zhang, Thomas\n  Francis Bishop, Zhiyong Wang, Kun Hu",
+  "authorsParsed": [
+    [
+      "Wen",
+      "Penghui",
+      ""
+    ],
+    [
+      "Bai",
+      "Lei",
+      ""
+    ],
+    [
+      "He",
+      "Mengwei",
+      ""
+    ],
+    [
+      "Filippi",
+      "Patrick",
+      ""
+    ],
+    [
+      "Zhang",
+      "Feng",
+      ""
+    ],
+    [
+      "Bishop",
+      "Thomas Francis",
+      ""
+    ],
+    [
+      "Wang",
+      "Zhiyong",
+      ""
+    ],
+    [
+      "Hu",
+      "Kun",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 2 Dec 2024 03:57:53 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Tue, 3 Dec 2024 03:04:17 GMT"
+    }
+  ],
+  "updateDate": "2024-12-04",
+  "timestamp": 1733111873000,
+  "abstract": "  Recently, extended short-term precipitation nowcasting struggles with\ndecreasing precision because of insufficient consideration of meteorological\nknowledge, such as weather fronts which significantly influence precipitation\nintensity, duration, and spatial distribution. Therefore, in this paper, we\npresent DuoCast, a novel dual-probabilistic meteorology-aware model designed to\naddress both broad weather evolution and micro-scale fluctuations using two\ndiffusion models, PrecipFlow and MicroDynamic, respectively. Our PrecipFlow\nmodel captures evolution trends through an Extreme Precipitation-Aware Encoder\n(EPA-Encoder), which includes AirConvolution and FrontAttention blocks to\nprocess two levels of precipitation data: general and extreme. The output\nconditions a UNet-based diffusion to produce prediction maps enriched with\nweather front information. The MicroDynamic model further refines the results\nto capture micro-scale variability. Extensive experiments on four public\nbenchmarks demonstrate the effectiveness of our DuoCast, achieving superior\nperformance over state-of-the-art methods. Our code is available at\nhttps://github.com/ph-w2000/DuoCast.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "kwUB2allqQxkas1TSVZc7y9FwNGa9Dhc0UCBzd-F3iI",
+  "pdfSize": "4004862"
+}

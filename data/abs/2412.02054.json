@@ -1,0 +1,57 @@
+{
+  "id": "2412.02054",
+  "title": "Redundant Queries in DETR-Based 3D Detection Methods: Unnecessary and\n  Prunable",
+  "authors": "Lizhen Xu and Shanmin Pang and Wenzhao Qiu and Zehao Wu and Xiuxiu Bai\n  and Kuizhi Mei and Jianru Xue",
+  "authorsParsed": [
+    [
+      "Xu",
+      "Lizhen",
+      ""
+    ],
+    [
+      "Pang",
+      "Shanmin",
+      ""
+    ],
+    [
+      "Qiu",
+      "Wenzhao",
+      ""
+    ],
+    [
+      "Wu",
+      "Zehao",
+      ""
+    ],
+    [
+      "Bai",
+      "Xiuxiu",
+      ""
+    ],
+    [
+      "Mei",
+      "Kuizhi",
+      ""
+    ],
+    [
+      "Xue",
+      "Jianru",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 3 Dec 2024 00:26:04 GMT"
+    }
+  ],
+  "updateDate": "2024-12-04",
+  "timestamp": 1733185564000,
+  "abstract": "  Query-based models are extensively used in 3D object detection tasks, with a\nwide range of pre-trained checkpoints readily available online. However,\ndespite their popularity, these models often require an excessive number of\nobject queries, far surpassing the actual number of objects to detect. The\nredundant queries result in unnecessary computational and memory costs. In this\npaper, we find that not all queries contribute equally -- a significant portion\nof queries have a much smaller impact compared to others. Based on this\nobservation, we propose an embarrassingly simple approach called \\bd{G}radually\n\\bd{P}runing \\bd{Q}ueries (GPQ), which prunes queries incrementally based on\ntheir classification scores. It is straightforward to implement in any\nquery-based method, as it can be seamlessly integrated as a fine-tuning step\nusing an existing checkpoint after training. With GPQ, users can easily\ngenerate multiple models with fewer queries, starting from a checkpoint with an\nexcessive number of queries. Experiments on various advanced 3D detectors show\nthat GPQ effectively reduces redundant queries while maintaining performance.\nUsing our method, model inference on desktop GPUs can be accelerated by up to\n1.31x. Moreover, after deployment on edge devices, it achieves up to a 67.86\\%\nreduction in FLOPs and a 76.38\\% decrease in inference time. The code will be\navailable at \\url{https://github.com/iseri27/Gpq}.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "-rOqMd39BdaqyeAZDavNbeCucVPffWt2mk1JAksweIg",
+  "pdfSize": "2515473"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "2412.18704",
+  "title": "A Fra\\\"iss\\'e theory for partial orders of a fixed finite dimension",
+  "authors": "Iian B. Smythe, Mithuna Threz, Max Wiebe",
+  "authorsParsed": [
+    [
+      "Smythe",
+      "Iian B.",
+      ""
+    ],
+    [
+      "Threz",
+      "Mithuna",
+      ""
+    ],
+    [
+      "Wiebe",
+      "Max",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 24 Dec 2024 23:34:00 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Tue, 14 Jan 2025 21:47:48 GMT"
+    }
+  ],
+  "updateDate": "2025-01-16",
+  "timestamp": 1735083240000,
+  "abstract": "  For each $n\\geq 2$, we show that the class of all finite $n$-dimensional\npartial orders, when expanded with $n$ linear orders which realize the partial\norder, forms a Fra\\\"iss\\'e class and identify its Fra\\\"iss\\'e limit\n$(D_n,<,<_1,\\ldots,<_n)$. We give a finite axiomatization of this limit which\nspecifies it uniquely up to isomorphism among countable structures. We then\nshow that the aforementioned class of finite structures satisfies the Ramsey\nproperty and conclude, by the Kechris-Pestov-Todor\\v{c}evi\\'{c} correspondence,\nthat the automorphism group of its Fra\\\"iss\\'e limit is extremely amenable.\nFinally, we identify the universal minimal flow of the automorphism group of\nthe reduct $(D_n,<)$.\n",
+  "subjects": [
+    "Mathematics/Combinatorics",
+    "Mathematics/Logic"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "HwPaJMKrLSi1fYusTDK6kikTtx-j6FEsirCJi4d644o",
+  "pdfSize": "295531"
+}

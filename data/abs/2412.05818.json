@@ -1,0 +1,61 @@
+{
+  "id": "2412.05818",
+  "title": "SILMM: Self-Improving Large Multimodal Models for Compositional\n  Text-to-Image Generation",
+  "authors": "Leigang Qu, Haochuan Li, Wenjie Wang, Xiang Liu, Juncheng Li, Liqiang\n  Nie, Tat-Seng Chua",
+  "authorsParsed": [
+    [
+      "Qu",
+      "Leigang",
+      ""
+    ],
+    [
+      "Li",
+      "Haochuan",
+      ""
+    ],
+    [
+      "Wang",
+      "Wenjie",
+      ""
+    ],
+    [
+      "Liu",
+      "Xiang",
+      ""
+    ],
+    [
+      "Li",
+      "Juncheng",
+      ""
+    ],
+    [
+      "Nie",
+      "Liqiang",
+      ""
+    ],
+    [
+      "Chua",
+      "Tat-Seng",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 8 Dec 2024 05:28:08 GMT"
+    }
+  ],
+  "updateDate": "2024-12-10",
+  "timestamp": 1733635688000,
+  "abstract": "  Large Multimodal Models (LMMs) have demonstrated impressive capabilities in\nmultimodal understanding and generation, pushing forward advancements in\ntext-to-image generation. However, achieving accurate text-image alignment for\nLMMs, particularly in compositional scenarios, remains challenging. Existing\napproaches, such as layout planning for multi-step generation and learning from\nhuman feedback or AI feedback, depend heavily on prompt engineering, costly\nhuman annotations, and continual upgrading, limiting flexibility and\nscalability. In this work, we introduce a model-agnostic iterative\nself-improvement framework (SILMM) that can enable LMMs to provide helpful and\nscalable self-feedback and optimize text-image alignment via Direct Preference\nOptimization (DPO). DPO can readily applied to LMMs that use discrete visual\ntokens as intermediate image representations; while it is less suitable for\nLMMs with continuous visual features, as obtaining generation probabilities is\nchallenging. To adapt SILMM to LMMs with continuous features, we propose a\ndiversity mechanism to obtain diverse representations and a kernel-based\ncontinuous DPO for alignment. Extensive experiments on three compositional\ntext-to-image generation benchmarks validate the effectiveness and superiority\nof SILMM, showing improvements exceeding 30% on T2I-CompBench++ and around 20%\non DPG-Bench.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Computation and Language",
+    "Computer Science/Machine Learning",
+    "Computer Science/Multimedia"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "mQkIsb77RGUhKdn0pih2JbYtxjJ9IMa38_HaDx1w4Vo",
+  "pdfSize": "8951215"
+}

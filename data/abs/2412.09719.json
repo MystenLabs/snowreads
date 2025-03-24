@@ -1,0 +1,47 @@
+{
+  "id": "2412.09719",
+  "title": "TransferLight: Zero-Shot Traffic Signal Control on any Road-Network",
+  "authors": "Johann Schmidt, Frank Dreyer, Sayed Abid Hashimi, Sebastian Stober",
+  "authorsParsed": [
+    [
+      "Schmidt",
+      "Johann",
+      ""
+    ],
+    [
+      "Dreyer",
+      "Frank",
+      ""
+    ],
+    [
+      "Hashimi",
+      "Sayed Abid",
+      ""
+    ],
+    [
+      "Stober",
+      "Sebastian",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 12 Dec 2024 20:52:12 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Mon, 23 Dec 2024 20:13:20 GMT"
+    }
+  ],
+  "updateDate": "2024-12-25",
+  "timestamp": 1734036732000,
+  "abstract": "  Traffic signal control plays a crucial role in urban mobility. However,\nexisting methods often struggle to generalize beyond their training\nenvironments to unseen scenarios with varying traffic dynamics. We present\nTransferLight, a novel framework designed for robust generalization across\nroad-networks, diverse traffic conditions and intersection geometries. At its\ncore, we propose a log-distance reward function, offering spatially-aware\nsignal prioritization while remaining adaptable to varied lane configurations -\novercoming the limitations of traditional pressure-based rewards. Our\nhierarchical, heterogeneous, and directed graph neural network architecture\neffectively captures granular traffic dynamics, enabling transferability to\narbitrary intersection layouts. Using a decentralized multi-agent approach,\nglobal rewards, and novel state transition priors, we develop a single,\nweight-tied policy that scales zero-shot to any road network without\nre-training. Through domain randomization during training, we additionally\nenhance generalization capabilities. Experimental results validate\nTransferLight's superior performance in unseen scenarios, advancing practical,\ngeneralizable intelligent transportation systems to meet evolving urban traffic\ndemands.\n",
+  "subjects": [
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by-sa/4.0/",
+  "blobId": "8PooCvE2GB6RsWmc9CVt72BLxTqmoDd4bQ_8xtunuVk",
+  "pdfSize": "10499852"
+}

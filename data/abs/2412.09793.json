@@ -1,0 +1,35 @@
+{
+  "id": "2412.09793",
+  "title": "Semi-Supervised Community Detection via Quasi-Stationary Distributions",
+  "authors": "Nicolas Fraiman, Michael Nisenzon",
+  "authorsParsed": [
+    [
+      "Fraiman",
+      "Nicolas",
+      ""
+    ],
+    [
+      "Nisenzon",
+      "Michael",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 13 Dec 2024 02:21:31 GMT"
+    }
+  ],
+  "updateDate": "2024-12-16",
+  "timestamp": 1734056491000,
+  "abstract": "  Spectral clustering is a widely used method for community detection in\nnetworks. We focus on a semi-supervised community detection scenario in the\nPartially Labeled Stochastic Block Model (PL-SBM) with two balanced\ncommunities, where a fixed portion of labels is known. Our approach leverages\nrandom walks in which the revealed nodes in each community act as absorbing\nstates. By analyzing the quasi-stationary distributions associated with these\nrandom walks, we construct a classifier that distinguishes the two communities\nby examining differences in the associated eigenvectors. We establish upper and\nlower bounds on the error rate for a broad class of quasi-stationary\nalgorithms, encompassing both spectral and voting-based approaches. In\nparticular, we prove that this class of algorithms can achieve the optimal\nerror rate in the connected regime. We further demonstrate empirically that our\nquasi-stationary approach improves performance on both real-world and simulated\ndatasets.\n",
+  "subjects": [
+    "Mathematics/Statistics Theory",
+    "Computer Science/Social and Information Networks",
+    "Physics/Physics and Society",
+    "Statistics/Statistics Theory"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "ne3oZszq_YtdLZMO58N31UBCA2mNesA8u-6e0nvF6y0",
+  "pdfSize": "581829"
+}

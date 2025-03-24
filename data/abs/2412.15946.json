@@ -1,0 +1,37 @@
+{
+  "id": "2412.15946",
+  "title": "Securing the Management Plane in Intent-based Cellular Networks",
+  "authors": "Kashif Mehmood, Katina Kralevska, Danilo Gligoroski",
+  "authorsParsed": [
+    [
+      "Mehmood",
+      "Kashif",
+      ""
+    ],
+    [
+      "Kralevska",
+      "Katina",
+      ""
+    ],
+    [
+      "Gligoroski",
+      "Danilo",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 20 Dec 2024 14:40:58 GMT"
+    }
+  ],
+  "updateDate": "2024-12-23",
+  "timestamp": 1734705658000,
+  "abstract": "  IBN is an emerging network management paradigm that allows automated\nclosed-loop control and management of network devices and services. Closed-loop\ncontrol requires security primitives to avoid intrusive human impact on network\npolicies, posing a serious security challenge. This paper addresses this\ncritical problem by securing the management plane in IBN systems. We propose a\nnovel security framework based on WireGuard that augments the existing\nstandards to secure intent communication between intent stakeholders. The\nframework guarantees isolation through WireGuard tunnels and provides inherent\nauthentication and access control mechanisms to avoid intrusion in IBN systems.\nThis work contributes to developing secure, efficient, and flexible\ncommunication channels within the IBN ecosystem, ensuring the integrity and\nconfidentiality of network intents and operational data. Experimental results\nshow the suitability and superiority of WireGuard compared to OpenVPN.\n",
+  "subjects": [
+    "Computer Science/Networking and Internet Architecture"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "3Ndwr6c-whKkSaboeVsxjjWyqM7TjQWJchFq3qIWZEE",
+  "pdfSize": "1769447"
+}

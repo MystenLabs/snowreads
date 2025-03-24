@@ -1,0 +1,38 @@
+{
+  "id": "2412.04714",
+  "title": "PCTreeS: 3D Point Cloud Tree Species Classification Using Airborne LiDAR\n  Images",
+  "authors": "Hongjin Lin, Matthew Nazari, Derek Zheng",
+  "authorsParsed": [
+    [
+      "Lin",
+      "Hongjin",
+      ""
+    ],
+    [
+      "Nazari",
+      "Matthew",
+      ""
+    ],
+    [
+      "Zheng",
+      "Derek",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 6 Dec 2024 02:09:52 GMT"
+    }
+  ],
+  "updateDate": "2024-12-09",
+  "timestamp": 1733450992000,
+  "abstract": "  Reliable large-scale data on the state of forests is crucial for monitoring\necosystem health, carbon stock, and the impact of climate change. Current\nknowledge of tree species distribution relies heavily on manual data collection\nin the field, which often takes years to complete, resulting in limited\ndatasets that cover only a small subset of the world's forests. Recent works\nshow that state-of-the-art deep learning models using Light Detection and\nRanging (LiDAR) images enable accurate and scalable classification of tree\nspecies in various ecosystems. While LiDAR images contain rich 3D information,\nmost previous works flatten the 3D images into 2D projections to use\nConvolutional Neural Networks (CNNs). This paper offers three significant\ncontributions: (1) we apply the deep learning framework for tree classification\nin tropical savannas; (2) we use Airborne LiDAR images, which have a lower\nresolution but greater scalability than Terrestrial LiDAR images used in most\nprevious works; (3) we introduce the approach of directly feeding 3D point\ncloud images into a vision transformer model (PCTreeS). Our results show that\nthe PCTreeS approach outperforms current CNN baselines with 2D projections in\nAUC (0.81), overall accuracy (0.72), and training time (~45 mins). This paper\nalso motivates further LiDAR image collection and validation for accurate\nlarge-scale automatic classification of tree species.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "Ai7mgCkyZHWMF6mV4f_u0mYoL2penmqJndtqBOyTGN0",
+  "pdfSize": "824264"
+}

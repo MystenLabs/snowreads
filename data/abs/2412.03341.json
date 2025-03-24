@@ -1,0 +1,28 @@
+{
+  "id": "2412.03341",
+  "title": "Higher crossed modules of algebras over an operad",
+  "authors": "Clovis Chabertier",
+  "authorsParsed": [
+    [
+      "Chabertier",
+      "Clovis",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 4 Dec 2024 14:16:42 GMT"
+    }
+  ],
+  "updateDate": "2024-12-05",
+  "timestamp": 1733321802000,
+  "abstract": "  We study crossed modules in the context of algebras over an operad. To do so,\nin the first section, we adapt the methods of Janelidze by reviewing the\nnotions of internal actions, precrossed modules and crossed modules in the\noperadic case. Moreover, we extract the Peiffer relations, well known in the\nLie case, for precrossed modules over an arbitrary operad. We prove that our\nnotion of crossed modules is equivalent to the one of Janelidze by proving that\nour crossed modules of algebras over a fixed operad are equivalent to\ncategories internal to algebras over this fixed operad. In the second section,\nwe study the notion of crossed modules of algebras over an operad as introduced\nby Leray-Riviere-Wagemann in arXiv:2411.04614 and prove it to be equivalent to\nthe already existing notions of crossed modules. Roughly speaking, a crossed\nmodule in the sense of Leray-Rivi\\`ere-Wagemann is an algebra structure on a\nchain complex concentrated in degrees 0 and 1. We highlight a \"codescent\"\nprocess which allows us to endow the degree one and zero terms of the chain\ncomplex with algebra structures such that the differential is an algebra\nmorphism. Moreover, we prove it to be a crossed module. In fact we prove that\nthe approach to crossed modules of Leray-Riviere-Wagemann is equivalent to the\none of Janelidze. This new approach, together with the codescent process,\nallows us to introduce higher crossed modules in a very concise and explicit\nway, and we prove them to be equivalent to n-fold categories internal to\nalgebras, for some n.\n",
+  "subjects": [
+    "Mathematics/Algebraic Topology",
+    "Mathematics/Category Theory"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "Xn2hmjErV6HZVkC9D5sUpt_Hr12e8FPT606wpEt7SqQ",
+  "pdfSize": "307291"
+}

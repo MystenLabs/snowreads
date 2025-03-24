@@ -1,0 +1,49 @@
+{
+  "id": "2412.14414",
+  "title": "In-Group Love, Out-Group Hate: A Framework to Measure Affective\n  Polarization via Contentious Online Discussions",
+  "authors": "Buddhika Nettasinghe, Ashwin Rao, Bohan Jiang, Allon Percus, Kristina\n  Lerman",
+  "authorsParsed": [
+    [
+      "Nettasinghe",
+      "Buddhika",
+      ""
+    ],
+    [
+      "Rao",
+      "Ashwin",
+      ""
+    ],
+    [
+      "Jiang",
+      "Bohan",
+      ""
+    ],
+    [
+      "Percus",
+      "Allon",
+      ""
+    ],
+    [
+      "Lerman",
+      "Kristina",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 18 Dec 2024 23:58:13 GMT"
+    }
+  ],
+  "updateDate": "2024-12-20",
+  "timestamp": 1734566293000,
+  "abstract": "  Affective polarization, the emotional divide between ideological groups\nmarked by in-group love and out-group hate, has intensified in the United\nStates, driving contentious issues like masking and lockdowns during the\nCOVID-19 pandemic. Despite its societal impact, existing models of opinion\nchange fail to account for emotional dynamics nor offer methods to quantify\naffective polarization robustly and in real-time. In this paper, we introduce a\ndiscrete choice model that captures decision-making within affectively\npolarized social networks and propose a statistical inference method estimate\nkey parameters -- in-group love and out-group hate -- from social media data.\nThrough empirical validation from online discussions about the COVID-19\npandemic, we demonstrate that our approach accurately captures real-world\npolarization dynamics and explains the rapid emergence of a partisan gap in\nattitudes towards masking and lockdowns. This framework allows for tracking\naffective polarization across contentious issues has broad implications for\nfostering constructive online dialogues in digital spaces.\n",
+  "subjects": [
+    "Computer Science/Social and Information Networks",
+    "Computer Science/Computation and Language",
+    "Computer Science/Computers and Society"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "yBqwTiAbyFmmMmuxLTsGIgIqKsjalP3L8SFFsSbHOVg",
+  "pdfSize": "1873206"
+}

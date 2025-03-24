@@ -1,0 +1,38 @@
+{
+  "id": "2412.10976",
+  "title": "Enhancing Off-Grid One-Bit DOA Estimation with Learning-Based Sparse\n  Bayesian Approach for Non-Uniform Sparse Array",
+  "authors": "Yunqiao Hu and Shunqiao Sun and Yimin D. Zhang",
+  "authorsParsed": [
+    [
+      "Hu",
+      "Yunqiao",
+      ""
+    ],
+    [
+      "Sun",
+      "Shunqiao",
+      ""
+    ],
+    [
+      "Zhang",
+      "Yimin D.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 14 Dec 2024 21:36:59 GMT"
+    }
+  ],
+  "updateDate": "2024-12-17",
+  "timestamp": 1734212219000,
+  "abstract": "  This paper tackles the challenge of one-bit off-grid direction of arrival\n(DOA) estimation in a single snapshot scenario based on a learning-based\nBayesian approach. Firstly, we formulate the off-grid DOA estimation model,\nutilizing the first-order off-grid approximation, incorporating one-bit data\nquantization. Subsequently, we address this problem using the Sparse Bayesian\nbased framework and solve iteratively. However, traditional Sparse Bayesian\nmethods often face challenges such as high computational complexity and the\nneed for extensive hyperparameter tuning. To balance estimation accuracy and\ncomputational efficiency, we propose a novel Learning-based Sparse Bayesian\nframework, which leverages an unrolled neural network architecture. This\nframework autonomously learns hyperparameters through supervised learning,\noffering more accurate off-grid DOA estimates and improved computational\nefficiency compared to some state-of-the-art methods. Furthermore, the proposed\napproach is applicable to both uniform linear arrays and non-uniform sparse\narrays. Simulation results validate the effectiveness of the proposed\nframework.\n",
+  "subjects": [
+    "Electrical Engineering and Systems Science/Signal Processing",
+    "Statistics/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "hCvRkRZcwXC8TX8BFmOktiH65fGh89_rT2CNThS46lw",
+  "pdfSize": "1256202"
+}

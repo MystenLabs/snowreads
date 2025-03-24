@@ -1,0 +1,53 @@
+{
+  "id": "2412.21042",
+  "title": "Visual Style Prompt Learning Using Diffusion Models for Blind Face\n  Restoration",
+  "authors": "Wanglong Lu, Jikai Wang, Tao Wang, Kaihao Zhang, Xianta Jiang, Hanli\n  Zhao",
+  "authorsParsed": [
+    [
+      "Lu",
+      "Wanglong",
+      ""
+    ],
+    [
+      "Wang",
+      "Jikai",
+      ""
+    ],
+    [
+      "Wang",
+      "Tao",
+      ""
+    ],
+    [
+      "Zhang",
+      "Kaihao",
+      ""
+    ],
+    [
+      "Jiang",
+      "Xianta",
+      ""
+    ],
+    [
+      "Zhao",
+      "Hanli",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 30 Dec 2024 16:05:40 GMT"
+    }
+  ],
+  "updateDate": "2024-12-31",
+  "timestamp": 1735574740000,
+  "abstract": "  Blind face restoration aims to recover high-quality facial images from\nvarious unidentified sources of degradation, posing significant challenges due\nto the minimal information retrievable from the degraded images. Prior\nknowledge-based methods, leveraging geometric priors and facial features, have\nled to advancements in face restoration but often fall short of capturing fine\ndetails. To address this, we introduce a visual style prompt learning framework\nthat utilizes diffusion probabilistic models to explicitly generate visual\nprompts within the latent space of pre-trained generative models. These prompts\nare designed to guide the restoration process. To fully utilize the visual\nprompts and enhance the extraction of informative and rich patterns, we\nintroduce a style-modulated aggregation transformation layer. Extensive\nexperiments and applications demonstrate the superiority of our method in\nachieving high-quality blind face restoration. The source code is available at\n\\href{https://github.com/LonglongaaaGo/VSPBFR}{https://github.com/LonglongaaaGo/VSPBFR}.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Multimedia"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "IYOvfmGF79KhFkME2r0s26oG07k17CUik-_eCXw1wsI",
+  "pdfSize": "21434972"
+}

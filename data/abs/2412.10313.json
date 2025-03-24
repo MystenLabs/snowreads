@@ -1,0 +1,38 @@
+{
+  "id": "2412.10313",
+  "title": "MST-R: Multi-Stage Tuning for Retrieval Systems and Metric Evaluation",
+  "authors": "Yash Malviya, Karan Dhingra and Maneesh Singh",
+  "authorsParsed": [
+    [
+      "Malviya",
+      "Yash",
+      ""
+    ],
+    [
+      "Dhingra",
+      "Karan",
+      ""
+    ],
+    [
+      "Singh",
+      "Maneesh",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 13 Dec 2024 17:53:29 GMT"
+    }
+  ],
+  "updateDate": "2024-12-16",
+  "timestamp": 1734112409000,
+  "abstract": "  Regulatory documents are rich in nuanced terminology and specialized\nsemantics. FRAG systems: Frozen retrieval-augmented generators utilizing\npre-trained (or, frozen) components face consequent challenges with both\nretriever and answering performance. We present a system that adapts the\nretriever performance to the target domain using a multi-stage tuning (MST)\nstrategy. Our retrieval approach, called MST-R (a) first fine-tunes encoders\nused in vector stores using hard negative mining, (b) then uses a hybrid\nretriever, combining sparse and dense retrievers using reciprocal rank fusion,\nand then (c) adapts the cross-attention encoder by fine-tuning only the top-k\nretrieved results. We benchmark the system performance on the dataset released\nfor the RIRAG challenge (as part of the RegNLP workshop at COLING 2025). We\nachieve significant performance gains obtaining a top rank on the RegNLP\nchallenge leaderboard. We also show that a trivial answering approach games the\nRePASs metric outscoring all baselines and a pre-trained Llama model. Analyzing\nthis anomaly, we present important takeaways for future research.\n",
+  "subjects": [
+    "Computer Science/Information Retrieval",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "dAX2gfVHa3q9FhbkuOtYLu_pRfI01r0vFK2U-a-EIzU",
+  "pdfSize": "401792"
+}

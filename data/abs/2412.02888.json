@@ -1,0 +1,47 @@
+{
+  "id": "2412.02888",
+  "title": "Robust Optimal Contribution Selection",
+  "authors": "Josh Fogg, Jaime Ortiz, Ivan Pocrni\\'c, J. A. Julian Hall, Gregor\n  Gorjanc",
+  "authorsParsed": [
+    [
+      "Fogg",
+      "Josh",
+      ""
+    ],
+    [
+      "Ortiz",
+      "Jaime",
+      ""
+    ],
+    [
+      "Pocrnić",
+      "Ivan",
+      ""
+    ],
+    [
+      "Hall",
+      "J. A. Julian",
+      ""
+    ],
+    [
+      "Gorjanc",
+      "Gregor",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 3 Dec 2024 22:47:33 GMT"
+    }
+  ],
+  "updateDate": "2024-12-05",
+  "timestamp": 1733266053000,
+  "abstract": "  Optimal contribution selection (OCS) is a selective breeding method that\nmanages the conversion of genetic variation into genetic gain to facilitate\nshort-term competitiveness and long-term sustainability in breeding programmes.\nTraditional approaches to OCS do not account for uncertainty in input data,\nwhich is always present and challenges optimization and practical decision\nmaking. Here we use concepts from robust optimization to derive a robust OCS\nproblem and develop two ways to solve the problem using either conic\noptimization or sequential quadratic programming. We have developed the\nopen-source Python package 'robustocs' that leverages the Gurobi and HiGHS\nsolvers to carry out these methods. Our testing shows favourable performance\nwhen solving the robust OCS problem using sequential quadratic programming and\nthe HiGHS solver.\n",
+  "subjects": [
+    "Mathematics/Optimization and Control"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "V4fvOSH9WxZtPHGzz1-pRCsEZkuRvzvk_Gu2w8C-Rk0",
+  "pdfSize": "156598"
+}

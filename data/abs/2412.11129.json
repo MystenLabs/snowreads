@@ -1,0 +1,33 @@
+{
+  "id": "2412.11129",
+  "title": "Disentangling Coherent and Incoherent Effects in Superconductor\n  Photoemission Spectra via Machine Learning",
+  "authors": "K. H. Bohachov, A. A. Kordyuk",
+  "authorsParsed": [
+    [
+      "Bohachov",
+      "K. H.",
+      ""
+    ],
+    [
+      "Kordyuk",
+      "A. A.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 15 Dec 2024 09:23:03 GMT"
+    }
+  ],
+  "updateDate": "2024-12-17",
+  "timestamp": 1734254583000,
+  "abstract": "  Disentangling coherent and incoherent effects in the photoemission spectra of\nstrongly correlated materials is generally a challenging problem due to the\ninvolvement of numerous parameters. In this study, we employ machine learning\ntechniques, specifically Convolutional Neural Networks (CNNs), to address the\nlong-standing issue of the bilayer splitting in superconducting cuprates. We\ndemonstrate the effectiveness of CNN training on modeled spectra and confirm\nearlier findings that establish the presence of bilayer splitting across the\nentire doping range. Furthermore, we show that the magnitude of the splitting\ndoes not decrease with underdoping, contrary to expectations. This approach not\nonly highlights the potential of machine learning in tackling complex physical\nproblems but also provides a robust framework for advancing the analysis of\nelectronic properties in correlated superconductors.\n",
+  "subjects": [
+    "Condensed Matter/Superconductivity",
+    "Condensed Matter/Strongly Correlated Electrons"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "_iLyADUqz1W0ZdOrLq1ftt-I1GC3mRx-IbcFBQF47Y8",
+  "pdfSize": "7756580"
+}

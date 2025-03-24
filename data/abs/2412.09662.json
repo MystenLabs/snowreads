@@ -1,0 +1,33 @@
+{
+  "id": "2412.09662",
+  "title": "Replica del valor de un pool (CPM) y hedging de perdidas impermanentes",
+  "authors": "Agust\\'in Mu\\~noz Gonz\\'alez, Juan I. Sequeira y Ariel Dembling",
+  "authorsParsed": [
+    [
+      "González",
+      "Agustín Muñoz",
+      ""
+    ],
+    [
+      "Dembling",
+      "Juan I. Sequeira y Ariel",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 12 Dec 2024 12:11:22 GMT"
+    }
+  ],
+  "updateDate": "2024-12-16",
+  "timestamp": 1734005482000,
+  "abstract": "  This article analytically characterizes the impermanent loss for automatic\nmarket makers in decentralized exchanges such as Uniswap or Balancer (CPMM). We\npresent a theoretical static replication formula for the pool value using a\ncombination of European calls and puts. We will formulate a result to guarantee\ncoverage for any final price that falls within a predefined range.\n",
+  "subjects": [
+    "Quantitative Finance/Mathematical Finance",
+    "Quantitative Finance/Risk Management"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "F6myGXIDeUIMElybI9MQhLQt6mmE_Fd6jl0KYt2T-xE",
+  "pdfSize": "224999"
+}

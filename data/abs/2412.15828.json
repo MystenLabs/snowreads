@@ -1,0 +1,46 @@
+{
+  "id": "2412.15828",
+  "title": "Measuring Cross-Modal Interactions in Multimodal Models",
+  "authors": "Laura Wenderoth, Konstantin Hemker, Nikola Simidjievski, Mateja Jamnik",
+  "authorsParsed": [
+    [
+      "Wenderoth",
+      "Laura",
+      ""
+    ],
+    [
+      "Hemker",
+      "Konstantin",
+      ""
+    ],
+    [
+      "Simidjievski",
+      "Nikola",
+      ""
+    ],
+    [
+      "Jamnik",
+      "Mateja",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 20 Dec 2024 12:11:20 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Tue, 28 Jan 2025 20:32:51 GMT"
+    }
+  ],
+  "updateDate": "2025-01-30",
+  "timestamp": 1734696680000,
+  "abstract": "  Integrating AI in healthcare can greatly improve patient care and system\nefficiency. However, the lack of explainability in AI systems (XAI) hinders\ntheir clinical adoption, especially in multimodal settings that use\nincreasingly complex model architectures. Most existing XAI methods focus on\nunimodal models, which fail to capture cross-modal interactions crucial for\nunderstanding the combined impact of multiple data sources. Existing methods\nfor quantifying cross-modal interactions are limited to two modalities, rely on\nlabelled data, and depend on model performance. This is problematic in\nhealthcare, where XAI must handle multiple data sources and provide\nindividualised explanations. This paper introduces InterSHAP, a cross-modal\ninteraction score that addresses the limitations of existing approaches.\nInterSHAP uses the Shapley interaction index to precisely separate and quantify\nthe contributions of the individual modalities and their interactions without\napproximations. By integrating an open-source implementation with the SHAP\npackage, we enhance reproducibility and ease of use. We show that InterSHAP\naccurately measures the presence of cross-modal interactions, can handle\nmultiple modalities, and provides detailed explanations at a local level for\nindividual samples. Furthermore, we apply InterSHAP to multimodal medical\ndatasets and demonstrate its applicability for individualised explanations.\n",
+  "subjects": [
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "lxq5JDaRs044zaTAKndWGvwH4OHzxGi0KSqP2ON_VxA",
+  "pdfSize": "431887"
+}

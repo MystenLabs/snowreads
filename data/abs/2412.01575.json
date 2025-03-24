@@ -1,0 +1,37 @@
+{
+  "id": "2412.01575",
+  "title": "Hardware architecture and routing-aware training for optimal memory\n  usage: a case study",
+  "authors": "Jimmy Weber, Theo Ballet, Melika Payvand",
+  "authorsParsed": [
+    [
+      "Weber",
+      "Jimmy",
+      ""
+    ],
+    [
+      "Ballet",
+      "Theo",
+      ""
+    ],
+    [
+      "Payvand",
+      "Melika",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 2 Dec 2024 14:57:14 GMT"
+    }
+  ],
+  "updateDate": "2024-12-03",
+  "timestamp": 1733151434000,
+  "abstract": "  Efficient deployment of neural networks on resource-constrained hardware\ndemands optimal use of on-chip memory. In event-based processors, this is\nparticularly critical for routing architectures, where substantial memory is\ndedicated to managing network connectivity. While prior work has focused on\noptimizing event routing during hardware design, optimizing memory utilization\nfor routing during network training remains underexplored. Key challenges\ninclude: (i) integrating routing into the loss function, which often introduces\nnon-differentiability, and (ii) computational expense in evaluating network\nmappability to hardware. We propose a hardware-algorithm co-design approach to\ntrain routing-aware neural networks. To address challenge (i), we extend the\nDeepR training algorithm, leveraging dynamic pruning and random re-assignment\nto optimize memory use. For challenge (ii), we introduce a proxy-based\napproximation of the mapping function to incorporate placement and routing\nconstraints efficiently. We demonstrate our approach by optimizing a network\nfor the Spiking Heidelberg Digits (SHD) dataset using a small-world\nconnectivity-based hardware architecture as a case study. The resulting\nnetwork, trained with our routing-aware methodology, is fully mappable to the\nhardware, achieving 5% more accuracy using the same number of parameters, and\niso-accuracy with 10x less memory usage, compared to non-routing-aware training\nmethods. This work highlights the critical role of co-optimizing algorithms and\nhardware to enable efficient and scalable solutions for constrained\nenvironments.\n",
+  "subjects": [
+    "Computer Science/Emerging Technologies"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "TZcaUnhgC4kI7AL1VrSF9cphMDuwmS0v8a4t-f-wMAk",
+  "pdfSize": "2116756"
+}

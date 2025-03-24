@@ -1,0 +1,43 @@
+{
+  "id": "2412.11333",
+  "title": "Segment-Level Diffusion: A Framework for Controllable Long-Form\n  Generation with Diffusion Language Models",
+  "authors": "Xiaochen Zhu, Georgi Karadzhov, Chenxi Whitehouse, Andreas Vlachos",
+  "authorsParsed": [
+    [
+      "Zhu",
+      "Xiaochen",
+      ""
+    ],
+    [
+      "Karadzhov",
+      "Georgi",
+      ""
+    ],
+    [
+      "Whitehouse",
+      "Chenxi",
+      ""
+    ],
+    [
+      "Vlachos",
+      "Andreas",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 15 Dec 2024 22:47:44 GMT"
+    }
+  ],
+  "updateDate": "2024-12-17",
+  "timestamp": 1734302864000,
+  "abstract": "  Diffusion models have shown promise in text generation but often struggle\nwith generating long, coherent, and contextually accurate text. Token-level\ndiffusion overlooks word-order dependencies and enforces short output windows,\nwhile passage-level diffusion struggles with learning robust representation for\nlong-form text. To address these challenges, we propose Segment-Level Diffusion\n(SLD), a framework that enhances diffusion-based text generation through text\nsegmentation, robust representation training with adversarial and contrastive\nlearning, and improved latent-space guidance. By segmenting long-form outputs\ninto separate latent representations and decoding them with an autoregressive\ndecoder, SLD simplifies diffusion predictions and improves scalability.\nExperiments on XSum, ROCStories, DialogSum, and DeliData demonstrate that SLD\nachieves competitive or superior performance in fluency, coherence, and\ncontextual compatibility across automatic and human evaluation metrics\ncomparing with other diffusion and autoregressive baselines. Ablation studies\nfurther validate the effectiveness of our segmentation and representation\nlearning strategies.\n",
+  "subjects": [
+    "Computer Science/Computation and Language",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "riLP010KyBmQ1YldqlivDcFdQIlyETEX27M_oBjlC_g",
+  "pdfSize": "769120"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "2412.18593",
+  "title": "Modeling the Centaur: Human-Machine Synergy in Sequential Decision\n  Making",
+  "authors": "David Shoresh, Yonatan Loewenstein",
+  "authorsParsed": [
+    [
+      "Shoresh",
+      "David",
+      ""
+    ],
+    [
+      "Loewenstein",
+      "Yonatan",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 24 Dec 2024 18:47:14 GMT"
+    }
+  ],
+  "updateDate": "2024-12-25",
+  "timestamp": 1735066034000,
+  "abstract": "  The field of collective intelligence studies how teams can achieve better\nresults than any of the team members alone. The special case of human-machine\nteams carries unique challenges in this regard. For example, human teams often\nachieve synergy by communicating to discover their relative advantages, which\nis not an option if the team partner is an unexplainable deep neural network.\nBetween 2005-2008 a set of \"freestyle\" chess tournaments were held, in which\nhuman-machine teams known as \"centaurs\", outperformed the best humans and best\nmachines alone. Centaur players reported that they identified relative\nadvantages between themselves and their chess program, even though the program\nwas superhuman. Inspired by this and leveraging recent open-source models, we\nstudy human-machine like teams in chess. A human behavioral clone (\"Maia\") and\na pure self-play RL-trained chess engine (\"Leela\") were composed into a team\nusing a Mixture of Experts (MoE) architecture. By directing our research\nquestion at the selection mechanism of the MoE, we could isolate the issue of\nextracting relative advantages without knowledge sharing. We show that in\nprinciple, there is high potential for synergy between human and machine in a\ncomplex sequential decision environment such as chess. Furthermore, we show\nthat an expert can identify only a small part of these relative advantages, and\nthat the contribution of its subject matter expertise in doing so saturates\nquickly. This is probably due to the \"curse of knowledge\" phenomenon. We also\ntrain a network to recognize relative advantages using reinforcement learning,\nwithout chess expertise, and it outdoes the expert. Our experiments are\nrepeated in asymmetric teams, in which identifying relative advantages is more\nchallenging. Our findings contribute to the study of collective intelligence\nand human-centric AI.\n",
+  "subjects": [
+    "Computer Science/Human-Computer Interaction"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "7Lt6wmd5IC1DV_HXIbf9Q30nW-Zxlobt9s042XGvBNo",
+  "pdfSize": "1724314"
+}

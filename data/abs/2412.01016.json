@@ -1,0 +1,54 @@
+{
+  "id": "2412.01016",
+  "title": "Transistors based on Novel 2-D Monolayer Semiconductors Bi2O2Se, InSe,\n  and MoSi2N4 for Enhanced Logic Density Scaling",
+  "authors": "Keshari Nandan, Ateeb Naseer, Amit Agarwal, Somnath Bhowmick, Yogesh\n  S. Chauhan",
+  "authorsParsed": [
+    [
+      "Nandan",
+      "Keshari",
+      ""
+    ],
+    [
+      "Naseer",
+      "Ateeb",
+      ""
+    ],
+    [
+      "Agarwal",
+      "Amit",
+      ""
+    ],
+    [
+      "Bhowmick",
+      "Somnath",
+      ""
+    ],
+    [
+      "Chauhan",
+      "Yogesh S.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 2 Dec 2024 00:27:27 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Sun, 15 Dec 2024 01:00:18 GMT"
+    }
+  ],
+  "updateDate": "2024-12-17",
+  "timestamp": 1733099247000,
+  "abstract": "  Making ultra-short gate-length transistors significantly contributes to\nscaling the contacted gate pitch. This, in turn, plays a vital role in\nachieving smaller standard logic cells for enhanced logic density scaling. As\nwe push the boundaries of miniaturization, it is intriguing to consider that\nthe ultimate limit of contacted gate pitch could be reached with remarkable 1\nnm gate-length transistors. Here, we identify InSe, Bi2O2Se, and MoSi2N4 as\npotential two-dimensional semiconductors for 1 nm transistors with low contact\nresistance and outstanding interface properties. We employ a fully\nself-consistent ballistic quantum transport model starting from first-principle\ncalculations. Our simulations show that the interplay between electrostatics\nand quantum tunneling influences the performance of these devices over the\ndevice design space. MoSi2N4 channels have the best immunity to quantum\ntunneling, and Bi2O2Se channel devices have the best electrostatics. We show\nthat for a channel length of 12 nm, all the devices can deliver I_$ON$/I_$OFF$\n> 10^3 , suitable for electronic applications, and Bi2O2Se is the\nbest-performing channel material.\n",
+  "subjects": [
+    "Condensed Matter/Mesoscale and Nanoscale Physics",
+    "Condensed Matter/Materials Science",
+    "Physics/Applied Physics",
+    "Physics/Computational Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "flkwfaIT_l-ndDhVrCklOd-0guCdjDr0YCElQhhcShY",
+  "pdfSize": "2312748"
+}

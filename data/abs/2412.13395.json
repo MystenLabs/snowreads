@@ -1,0 +1,72 @@
+{
+  "id": "2412.13395",
+  "title": "Enhancing Talk Moves Analysis in Mathematics Tutoring through Classroom\n  Teaching Discourse",
+  "authors": "Jie Cao, Abhijit Suresh, Jennifer Jacobs, Charis Clevenger, Amanda\n  Howard, Chelsea Brown, Brent Milne, Tom Fischaber, Tamara Sumner and James H.\n  Martin",
+  "authorsParsed": [
+    [
+      "Cao",
+      "Jie",
+      ""
+    ],
+    [
+      "Suresh",
+      "Abhijit",
+      ""
+    ],
+    [
+      "Jacobs",
+      "Jennifer",
+      ""
+    ],
+    [
+      "Clevenger",
+      "Charis",
+      ""
+    ],
+    [
+      "Howard",
+      "Amanda",
+      ""
+    ],
+    [
+      "Brown",
+      "Chelsea",
+      ""
+    ],
+    [
+      "Milne",
+      "Brent",
+      ""
+    ],
+    [
+      "Fischaber",
+      "Tom",
+      ""
+    ],
+    [
+      "Sumner",
+      "Tamara",
+      ""
+    ],
+    [
+      "Martin",
+      "James H.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 18 Dec 2024 00:13:04 GMT"
+    }
+  ],
+  "updateDate": "2024-12-19",
+  "timestamp": 1734480784000,
+  "abstract": "  Human tutoring interventions play a crucial role in supporting student\nlearning, improving academic performance, and promoting personal growth. This\npaper focuses on analyzing mathematics tutoring discourse using talk moves - a\nframework of dialogue acts grounded in Accountable Talk theory. However,\nscaling the collection, annotation, and analysis of extensive tutoring\ndialogues to develop machine learning models is a challenging and\nresource-intensive task. To address this, we present SAGA22, a compact dataset,\nand explore various modeling strategies, including dialogue context, speaker\ninformation, pretraining datasets, and further fine-tuning. By leveraging\nexisting datasets and models designed for classroom teaching, our results\ndemonstrate that supplementary pretraining on classroom data enhances model\nperformance in tutoring settings, particularly when incorporating longer\ncontext and speaker information. Additionally, we conduct extensive ablation\nstudies to underscore the challenges in talk move modeling.\n",
+  "subjects": [
+    "Computer Science/Computation and Language"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "J7aVs7D3W2JyMEy_rR0ahVPnWTQDl9BN0aDhLdraRhw",
+  "pdfSize": "835622"
+}

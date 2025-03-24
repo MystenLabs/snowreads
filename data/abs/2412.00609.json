@@ -1,0 +1,37 @@
+{
+  "id": "2412.00609",
+  "title": "Exploration and Evaluation of Bias in Cyberbullying Detection with\n  Machine Learning",
+  "authors": "Andrew Root, Liam Jakubowski, Mounika Vanamala",
+  "authorsParsed": [
+    [
+      "Root",
+      "Andrew",
+      ""
+    ],
+    [
+      "Jakubowski",
+      "Liam",
+      ""
+    ],
+    [
+      "Vanamala",
+      "Mounika",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 30 Nov 2024 23:18:49 GMT"
+    }
+  ],
+  "updateDate": "2024-12-03",
+  "timestamp": 1733008729000,
+  "abstract": "  It is well known that the usefulness of a machine learning model is due to\nits ability to generalize to unseen data. This study uses three popular\ncyberbullying datasets to explore the effects of data, how it's collected, and\nhow it's labeled, on the resulting machine learning models. The bias introduced\nfrom differing definitions of cyberbullying and from data collection is\ndiscussed in detail. An emphasis is made on the impact of dataset expansion\nmethods, which utilize current data points to fetch and label new ones.\nFurthermore, explicit testing is performed to evaluate the ability of a model\nto generalize to unseen datasets through cross-dataset evaluation. As\nhypothesized, the models have a significant drop in the Macro F1 Score, with an\naverage drop of 0.222. As such, this study effectively highlights the\nimportance of dataset curation and cross-dataset testing for creating models\nwith real-world applicability. The experiments and other code can be found at\nhttps://github.com/rootdrew27/cyberbullying-ml.\n",
+  "subjects": [
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "ThqVZ9UI2shnPYLCeFr2a6fW-nxbiIX3QrW4emjm0S0",
+  "pdfSize": "882943"
+}

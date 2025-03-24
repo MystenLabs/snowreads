@@ -1,0 +1,37 @@
+{
+  "id": "2412.19166",
+  "title": "Fluid-particle interactions and fluctuation-dissipation relations I --\n  General linear theory and basic fluctuational patterns",
+  "authors": "Massimiliano Giona, Giuseppe Procopio, Chiara Pezzotti",
+  "authorsParsed": [
+    [
+      "Giona",
+      "Massimiliano",
+      ""
+    ],
+    [
+      "Procopio",
+      "Giuseppe",
+      ""
+    ],
+    [
+      "Pezzotti",
+      "Chiara",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 26 Dec 2024 10:52:07 GMT"
+    }
+  ],
+  "updateDate": "2024-12-30",
+  "timestamp": 1735210327000,
+  "abstract": "  The article provides a unitary and complete solution to the\nfluctuation-dissipation relations for particle hydromechanics in a generic\nfluid, accounting for the hydrodynamic fluid-particle interactions (including\narbitrary memory kernels in the description of dissipative and fluid inertial\neffects) in linear hydrodynamic regimes, via the concepts of fluctuational\npatterns. This is achieved by expressing the memory kernels as a linear\nsuperposition of exponentially decaying modes. Given the structure of the\ninteraction with the internal degrees of freedom, and assuming the\nrepresentation of the thermal force as a superposition of modal contributions,\nthe fluctuation-dissipation relation follows simply from the moment analysis of\nthe corresponding Fokker-Planck equation, imposing the condition that at\nequilibrium all the internal degrees of freedom are uncorrelated with particle\nvelocity. Moreover, the functional structure of the resulting equation of\nmotion corresponds to the principle of complete decoupling amongst the internal\ndegrees of freedom. The theory is extended to the case of confined geometries,\nby generalizing previous results including the effect of fluid inertia.\n",
+  "subjects": [
+    "Condensed Matter/Statistical Mechanics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "Un3zq4zF8I7SCS9WwSC8MgwBo_p7-IeJTlSuk9f1YoU",
+  "pdfSize": "1146092"
+}

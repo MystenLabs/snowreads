@@ -1,0 +1,52 @@
+{
+  "id": "2412.09874",
+  "title": "Can Students Beyond The Teacher? Distilling Knowledge from Teacher's\n  Bias",
+  "authors": "Jianhua Zhang, Yi Gao, Ruyu Liu, Xu Cheng, Houxiang Zhang, Shengyong\n  Chen",
+  "authorsParsed": [
+    [
+      "Zhang",
+      "Jianhua",
+      ""
+    ],
+    [
+      "Gao",
+      "Yi",
+      ""
+    ],
+    [
+      "Liu",
+      "Ruyu",
+      ""
+    ],
+    [
+      "Cheng",
+      "Xu",
+      ""
+    ],
+    [
+      "Zhang",
+      "Houxiang",
+      ""
+    ],
+    [
+      "Chen",
+      "Shengyong",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 13 Dec 2024 05:40:20 GMT"
+    }
+  ],
+  "updateDate": "2024-12-16",
+  "timestamp": 1734068420000,
+  "abstract": "  Knowledge distillation (KD) is a model compression technique that transfers\nknowledge from a large teacher model to a smaller student model to enhance its\nperformance. Existing methods often assume that the student model is inherently\ninferior to the teacher model. However, we identify that the fundamental issue\naffecting student performance is the bias transferred by the teacher. Current\nKD frameworks transmit both right and wrong knowledge, introducing bias that\nmisleads the student model. To address this issue, we propose a novel strategy\nto rectify bias and greatly improve the student model's performance. Our\nstrategy involves three steps: First, we differentiate knowledge and design a\nbias elimination method to filter out biases, retaining only the right\nknowledge for the student model to learn. Next, we propose a bias rectification\nmethod to rectify the teacher model's wrong predictions, fundamentally\naddressing bias interference. The student model learns from both the right\nknowledge and the rectified biases, greatly improving its prediction accuracy.\nAdditionally, we introduce a dynamic learning approach with a loss function\nthat updates weights dynamically, allowing the student model to quickly learn\nright knowledge-based easy tasks initially and tackle hard tasks corresponding\nto biases later, greatly enhancing the student model's learning efficiency. To\nthe best of our knowledge, this is the first strategy enabling the student\nmodel to surpass the teacher model. Experiments demonstrate that our strategy,\nas a plug-and-play module, is versatile across various mainstream KD\nframeworks. We will release our code after the paper is accepted.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "HSW7DeLg_eta0sPPAqkwcSBuY0yk9xbtEu0LNEgdqz8",
+  "pdfSize": "634666"
+}

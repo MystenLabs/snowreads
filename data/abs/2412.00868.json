@@ -1,0 +1,41 @@
+{
+  "id": "2412.00868",
+  "title": "Quantifying perturbation impacts for large language models",
+  "authors": "Paulius Rauba, Qiyao Wei, Mihaela van der Schaar",
+  "authorsParsed": [
+    [
+      "Rauba",
+      "Paulius",
+      ""
+    ],
+    [
+      "Wei",
+      "Qiyao",
+      ""
+    ],
+    [
+      "van der Schaar",
+      "Mihaela",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 1 Dec 2024 16:13:09 GMT"
+    }
+  ],
+  "updateDate": "2024-12-03",
+  "timestamp": 1733069589000,
+  "abstract": "  We consider the problem of quantifying how an input perturbation impacts the\noutputs of large language models (LLMs), a fundamental task for model\nreliability and post-hoc interpretability. A key obstacle in this domain is\ndisentangling the meaningful changes in model responses from the intrinsic\nstochasticity of LLM outputs. To overcome this, we introduce Distribution-Based\nPerturbation Analysis (DBPA), a framework that reformulates LLM perturbation\nanalysis as a frequentist hypothesis testing problem. DBPA constructs empirical\nnull and alternative output distributions within a low-dimensional semantic\nsimilarity space via Monte Carlo sampling. Comparisons of Monte Carlo estimates\nin the reduced dimensionality space enables tractable frequentist inference\nwithout relying on restrictive distributional assumptions. The framework is\nmodel-agnostic, supports the evaluation of arbitrary input perturbations on any\nblack-box LLM, yields interpretable p-values, supports multiple perturbation\ntesting via controlled error rates, and provides scalar effect sizes for any\nchosen similarity or distance metric. We demonstrate the effectiveness of DBPA\nin evaluating perturbation impacts, showing its versatility for perturbation\nanalysis.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Computer Science/Computation and Language",
+    "Mathematics/Statistics Theory",
+    "Statistics/Machine Learning",
+    "Statistics/Statistics Theory"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "J539rGfFKiW1wt0BFsrG08OL7rbskiYIcC4Aneg_IhE",
+  "pdfSize": "512790"
+}

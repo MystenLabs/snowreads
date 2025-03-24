@@ -1,0 +1,37 @@
+{
+  "id": "2412.02988",
+  "title": "Preference-based Pure Exploration",
+  "authors": "Apurv Shukla, Debabrota Basu",
+  "authorsParsed": [
+    [
+      "Shukla",
+      "Apurv",
+      ""
+    ],
+    [
+      "Basu",
+      "Debabrota",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 4 Dec 2024 03:02:55 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Thu, 16 Jan 2025 22:16:11 GMT"
+    }
+  ],
+  "updateDate": "2025-01-20",
+  "timestamp": 1733281375000,
+  "abstract": "  We study the preference-based pure exploration problem for bandits with\nvector-valued rewards. The rewards are ordered using a (given) preference cone\n$\\mathcal{C}$ and our goal is to identify the set of Pareto optimal arms.\nFirst, to quantify the impact of preferences, we derive a novel lower bound on\nsample complexity for identifying the most preferred policy with a confidence\nlevel $1-\\delta$. Our lower bound elicits the role played by the geometry of\nthe preference cone and punctuates the difference in hardness compared to\nexisting best-arm identification variants of the problem. We further explicate\nthis geometry when the rewards follow Gaussian distributions. We then provide a\nconvex relaxation of the lower bound and leverage it to design the\nPreference-based Track and Stop (PreTS) algorithm that identifies the most\npreferred policy. Finally, we show that the sample complexity of PreTS is\nasymptotically tight by deriving a new concentration inequality for\nvector-valued rewards.\n",
+  "subjects": [
+    "Statistics/Machine Learning",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "8ZHCBtnRFhuy1ITlrWUjUk6pUTregyTG69SCGQ16oHw",
+  "pdfSize": "642502"
+}

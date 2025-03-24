@@ -1,0 +1,42 @@
+{
+  "id": "2412.06381",
+  "title": "Gentle Local Robustness implies Generalization",
+  "authors": "Khoat Than, Dat Phan, Giang Vu",
+  "authorsParsed": [
+    [
+      "Than",
+      "Khoat",
+      ""
+    ],
+    [
+      "Phan",
+      "Dat",
+      ""
+    ],
+    [
+      "Vu",
+      "Giang",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 9 Dec 2024 10:59:39 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Mon, 24 Feb 2025 14:32:29 GMT"
+    }
+  ],
+  "updateDate": "2025-02-25",
+  "timestamp": 1733741979000,
+  "abstract": "  Robustness and generalization ability of machine learning models are of\nutmost importance in various application domains. There is a wide interest in\nefficient ways to analyze those properties. One important direction is to\nanalyze connection between those two properties. Prior theories suggest that a\nrobust learning algorithm can produce trained models with a high generalization\nability. However, we show in this work that the existing error bounds are\nvacuous for the Bayes optimal classifier which is the best among all measurable\nclassifiers for a classification problem with overlapping classes. Those bounds\ncannot converge to the true error of this ideal classifier. This is\nundesirable, surprizing, and never known before. We then present a class of\nnovel bounds, which are model-dependent and provably tighter than the existing\nrobustness-based ones. Unlike prior ones, our bounds are guaranteed to converge\nto the true error of the best classifier, as the number of samples increases.\nWe further provide an extensive experiment and find that two of our bounds are\noften non-vacuous for a large class of deep neural networks, pretrained from\nImageNet.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Statistics/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "26GuXqz6kFUUHW3V8BJTpF51V0OBQBglSau9qkLfaSU",
+  "pdfSize": "428469"
+}

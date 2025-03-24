@@ -1,0 +1,48 @@
+{
+  "id": "2412.16003",
+  "title": "Choose Your Explanation: A Comparison of SHAP and GradCAM in Human\n  Activity Recognition",
+  "authors": "Felix Tempel, Daniel Groos, Espen Alexander F. Ihlen, Lars Adde, Inga\n  Str\\\"umke",
+  "authorsParsed": [
+    [
+      "Tempel",
+      "Felix",
+      ""
+    ],
+    [
+      "Groos",
+      "Daniel",
+      ""
+    ],
+    [
+      "Ihlen",
+      "Espen Alexander F.",
+      ""
+    ],
+    [
+      "Adde",
+      "Lars",
+      ""
+    ],
+    [
+      "Strümke",
+      "Inga",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 20 Dec 2024 15:53:25 GMT"
+    }
+  ],
+  "updateDate": "2024-12-23",
+  "timestamp": 1734710005000,
+  "abstract": "  Explaining machine learning (ML) models using eXplainable AI (XAI) techniques\nhas become essential to make them more transparent and trustworthy. This is\nespecially important in high-stakes domains like healthcare, where\nunderstanding model decisions is critical to ensure ethical, sound, and\ntrustworthy outcome predictions. However, users are often confused about which\nexplanability method to choose for their specific use case. We present a\ncomparative analysis of widely used explainability methods, Shapley Additive\nExplanations (SHAP) and Gradient-weighted Class Activation Mapping (GradCAM),\nwithin the domain of human activity recognition (HAR) utilizing graph\nconvolutional networks (GCNs). By evaluating these methods on skeleton-based\ndata from two real-world datasets, including a healthcare-critical cerebral\npalsy (CP) case, this study provides vital insights into both approaches'\nstrengths, limitations, and differences, offering a roadmap for selecting the\nmost appropriate explanation method based on specific models and applications.\nWe quantitatively and quantitatively compare these methods, focusing on feature\nimportance ranking, interpretability, and model sensitivity through\nperturbation experiments. While SHAP provides detailed input feature\nattribution, GradCAM delivers faster, spatially oriented explanations, making\nboth methods complementary depending on the application's requirements. Given\nthe importance of XAI in enhancing trust and transparency in ML models,\nparticularly in sensitive environments like healthcare, our research\ndemonstrates how SHAP and GradCAM could complement each other to provide more\ninterpretable and actionable model explanations.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "jB6DES_gfERTfyRmQ0ub0IitTIxdcODODUpKAF4n6Po",
+  "pdfSize": "1350594"
+}

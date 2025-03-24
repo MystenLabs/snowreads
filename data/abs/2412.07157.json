@@ -1,0 +1,61 @@
+{
+  "id": "2412.07157",
+  "title": "Multi-Scale Contrastive Learning for Video Temporal Grounding",
+  "authors": "Thong Thanh Nguyen, Yi Bin, Xiaobao Wu, Zhiyuan Hu, Cong-Duy T Nguyen,\n  See-Kiong Ng, Anh Tuan Luu",
+  "authorsParsed": [
+    [
+      "Nguyen",
+      "Thong Thanh",
+      ""
+    ],
+    [
+      "Bin",
+      "Yi",
+      ""
+    ],
+    [
+      "Wu",
+      "Xiaobao",
+      ""
+    ],
+    [
+      "Hu",
+      "Zhiyuan",
+      ""
+    ],
+    [
+      "Nguyen",
+      "Cong-Duy T",
+      ""
+    ],
+    [
+      "Ng",
+      "See-Kiong",
+      ""
+    ],
+    [
+      "Luu",
+      "Anh Tuan",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 10 Dec 2024 03:34:56 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Thu, 19 Dec 2024 00:53:53 GMT"
+    }
+  ],
+  "updateDate": "2024-12-20",
+  "timestamp": 1733801696000,
+  "abstract": "  Temporal grounding, which localizes video moments related to a natural\nlanguage query, is a core problem of vision-language learning and video\nunderstanding. To encode video moments of varying lengths, recent methods\nemploy a multi-level structure known as a feature pyramid. In this structure,\nlower levels concentrate on short-range video moments, while higher levels\naddress long-range moments. Because higher levels experience downsampling to\naccommodate increasing moment length, their capacity to capture information is\nreduced and consequently leads to degraded information in moment\nrepresentations. To resolve this problem, we propose a contrastive learning\nframework to capture salient semantics among video moments. Our key methodology\nis to leverage samples from the feature space emanating from multiple stages of\nthe video encoder itself requiring neither data augmentation nor online memory\nbanks to obtain positive and negative samples. To enable such an extension, we\nintroduce a sampling process to draw multiple video moments corresponding to a\ncommon query. Subsequently, by utilizing these moments' representations across\nvideo encoder layers, we instantiate a novel form of multi-scale and\ncross-scale contrastive learning that links local short-range video moments\nwith global long-range video moments. Extensive experiments demonstrate the\neffectiveness of our framework for not only long-form but also short-form video\ngrounding.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by-sa/4.0/",
+  "blobId": "iM27yqwL9w-1TzOsBDUMqgDbHBjrOI-xCTHBljKUQgA",
+  "pdfSize": "1207608"
+}

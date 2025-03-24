@@ -1,0 +1,65 @@
+{
+  "id": "2412.12698",
+  "title": "Audio Array-Based 3D UAV Trajectory Estimation with LiDAR\n  Pseudo-Labeling",
+  "authors": "Allen Lei, Tianchen Deng, Han Wang, Jianfei Yang, Shenghai Yuan",
+  "authorsParsed": [
+    [
+      "Lei",
+      "Allen",
+      ""
+    ],
+    [
+      "Deng",
+      "Tianchen",
+      ""
+    ],
+    [
+      "Wang",
+      "Han",
+      ""
+    ],
+    [
+      "Yang",
+      "Jianfei",
+      ""
+    ],
+    [
+      "Yuan",
+      "Shenghai",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 17 Dec 2024 09:16:28 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Wed, 18 Dec 2024 04:41:24 GMT"
+    },
+    {
+      "version": "v3",
+      "created": "Tue, 24 Dec 2024 11:46:32 GMT"
+    },
+    {
+      "version": "v4",
+      "created": "Wed, 1 Jan 2025 14:51:37 GMT"
+    },
+    {
+      "version": "v5",
+      "created": "Sun, 19 Jan 2025 15:29:46 GMT"
+    }
+  ],
+  "updateDate": "2025-01-22",
+  "timestamp": 1734426988000,
+  "abstract": "  As small unmanned aerial vehicles (UAVs) become increasingly prevalent, there\nis growing concern regarding their impact on public safety and privacy,\nhighlighting the need for advanced tracking and trajectory estimation\nsolutions. In response, this paper introduces a novel framework that utilizes\naudio array for 3D UAV trajectory estimation. Our approach incorporates a\nself-supervised learning model, starting with the conversion of audio data into\nmel-spectrograms, which are analyzed through an encoder to extract crucial\ntemporal and spectral information. Simultaneously, UAV trajectories are\nestimated using LiDAR point clouds via unsupervised methods. These LiDAR-based\nestimations act as pseudo labels, enabling the training of an Audio Perception\nNetwork without requiring labeled data. In this architecture, the LiDAR-based\nsystem operates as the Teacher Network, guiding the Audio Perception Network,\nwhich serves as the Student Network. Once trained, the model can independently\npredict 3D trajectories using only audio signals, with no need for LiDAR data\nor external ground truth during deployment. To further enhance precision, we\napply Gaussian Process modeling for improved spatiotemporal tracking. Our\nmethod delivers top-tier performance on the MMAUD dataset, establishing a new\nbenchmark in trajectory estimation using self-supervised learning techniques\nwithout reliance on ground truth annotations.\n",
+  "subjects": [
+    "Computer Science/Robotics",
+    "Computer Science/Sound",
+    "Electrical Engineering and Systems Science/Audio and Speech Processing"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "A71W7hv6TIlJIh98i0reYsEOaSiUGO77z1yDwNqPk80",
+  "pdfSize": "2661587"
+}

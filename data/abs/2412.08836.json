@@ -1,0 +1,72 @@
+{
+  "id": "2412.08836",
+  "title": "Characterizing hole trap production due to proton irradiation in\n  germanium cross-strip detectors",
+  "authors": "Sean N. Pike, Steven E. Boggs, Gabriel Brewster, Sophia E. Haight,\n  Jarred M. Roberts, Albert Y. Shih, Joanna Szornel, John A. Tomsick, Andreas\n  Zoglauer",
+  "authorsParsed": [
+    [
+      "Pike",
+      "Sean N.",
+      ""
+    ],
+    [
+      "Boggs",
+      "Steven E.",
+      ""
+    ],
+    [
+      "Brewster",
+      "Gabriel",
+      ""
+    ],
+    [
+      "Haight",
+      "Sophia E.",
+      ""
+    ],
+    [
+      "Roberts",
+      "Jarred M.",
+      ""
+    ],
+    [
+      "Shih",
+      "Albert Y.",
+      ""
+    ],
+    [
+      "Szornel",
+      "Joanna",
+      ""
+    ],
+    [
+      "Tomsick",
+      "John A.",
+      ""
+    ],
+    [
+      "Zoglauer",
+      "Andreas",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 12 Dec 2024 00:28:57 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Wed, 12 Feb 2025 22:37:45 GMT"
+    }
+  ],
+  "updateDate": "2025-02-14",
+  "timestamp": 1733963337000,
+  "abstract": "  We present an investigation into the effects of high-energy proton damage on\ncharge trapping in germanium cross-strip detectors, with the goal of\naccomplishing three important measurements. First, we calibrated and\ncharacterized the spectral resolution of a spare COSI-balloon detector in order\nto determine the effects of intrinsic trapping, finding that electron trapping\ndue to impurities dominates over hole trapping in the undamaged detector.\nSecond, we performed two rounds of proton irradiation of the detector in order\nto quantify, for the first time, the rate at which charge traps are produced by\nproton irradiation. We find that the product of the hole trap density and\ncross-sectional area, $[n\\sigma]_\\mathrm{h}$ follows a linear relationship with\nthe proton fluence, $F_\\mathrm{p}$, with a slope of\n$(5.4\\pm0.4)\\times10^{-11}\\,\\mathrm{cm/p^{+}}$. Third, by utilizing our\nmeasurements of physical trapping parameters, we performed calibrations which\ncorrected for the effects of trapping and mitigated degradation to the spectral\nresolution of the detector.\n",
+  "subjects": [
+    "Physics/Instrumentation and Detectors",
+    "Astrophysics/Instrumentation and Methods for Astrophysics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "h2zg5_iwIiKsV7oit4K4zYdjpVeTjqtNgM0V_MVVhJ0",
+  "pdfSize": "1945560"
+}

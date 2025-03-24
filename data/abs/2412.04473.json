@@ -1,0 +1,28 @@
+{
+  "id": "2412.04473",
+  "title": "Take Package as Language: Anomaly Detection Using Transformer",
+  "authors": "Jie Huang",
+  "authorsParsed": [
+    [
+      "Huang",
+      "Jie",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 15 Nov 2024 02:00:43 GMT"
+    }
+  ],
+  "updateDate": "2024-12-09",
+  "timestamp": 1731636043000,
+  "abstract": "  Network data packet anomaly detection faces numerous challenges, including\nexploring new anomaly supervision signals, researching weakly supervised\nanomaly detection, and improving model interpretability. This paper proposes\nNIDS-GPT, a GPT-based causal language model for network intrusion detection.\nUnlike previous work, NIDS-GPT innovatively treats each number in the packet as\nan independent \"word\" rather than packet fields, enabling a more fine-grained\ndata representation. We adopt an improved GPT-2 model and design special\ntokenizers and embedding layers to better capture the structure and semantics\nof network data. NIDS-GPT has good scalability, supports unsupervised\npre-training, and enhances model interpretability through attention weight\nvisualization. Experiments on the CICIDS2017 and car-hacking datasets show that\nNIDS-GPT achieves 100\\% accuracy under extreme imbalance conditions, far\nsurpassing traditional methods; it also achieves over 90\\% accuracy in one-shot\nlearning. These results demonstrate NIDS-GPT's excellent performance and\npotential in handling complex network anomaly detection tasks, especially in\ndata-imbalanced and resource-constrained scenarios. The code is available at\n\\url{https://github.com/woshixiaobai2019/nids-gpt.gi\n",
+  "subjects": [
+    "Computer Science/Cryptography and Security",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "Q1_1dPKmfXnBR4bEl8qPEzS0y2ql-grPPnmqUFzmQPI",
+  "pdfSize": "528953"
+}

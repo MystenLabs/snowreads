@@ -1,0 +1,56 @@
+{
+  "id": "2412.05228",
+  "title": "MC3: Memory Contention based Covert Channel Communication on Shared DRAM\n  System-on-Chips",
+  "authors": "Ismet Dagli, James Crea, Soner Seckiner, Yuanchao Xu, Sel\\c{c}uk\n  K\\\"ose, Mehmet E. Belviranli",
+  "authorsParsed": [
+    [
+      "Dagli",
+      "Ismet",
+      ""
+    ],
+    [
+      "Crea",
+      "James",
+      ""
+    ],
+    [
+      "Seckiner",
+      "Soner",
+      ""
+    ],
+    [
+      "Xu",
+      "Yuanchao",
+      ""
+    ],
+    [
+      "Köse",
+      "Selçuk",
+      ""
+    ],
+    [
+      "Belviranli",
+      "Mehmet E.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 6 Dec 2024 17:58:57 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Sat, 8 Feb 2025 21:44:24 GMT"
+    }
+  ],
+  "updateDate": "2025-02-11",
+  "timestamp": 1733507937000,
+  "abstract": "  Shared-memory system-on-chips (SM-SoC) are ubiquitously employed by a\nwide-range of mobile computing platforms, including edge/IoT devices,\nautonomous systems and smartphones. In SM-SoCs, system-wide shared physical\nmemory enables a convenient and financially-feasible way to make data\naccessible by dozens of processing units (PUs), such as CPU cores and domain\nspecific accelerators. In this study, we investigate vulnerabilities that stem\nfrom the shared use of physical memory in such systems. Due to the diverse\ncomputational characteristics of the PUs they embed, SM-SoCs often do not\nemploy a shared last level cache (LLC). While the literature proposes covert\nchannel attacks for shared memory systems, high-throughput communication is\ncurrently possible by either relying on an LLC or privileged/physical access to\nthe shared memory subsystem.\n  In this study, we introduce a new memory-contention based covert\ncommunication attack, MC3, which specifically targets the shared system memory\nin mobile SoCs. Different from existing attacks, our approach achieves high\nthroughput communication between applications running on CPU and GPU without\nthe need for an LLC or elevated access to the system. We extensively explore\nthe effectiveness of our methodology by demonstrating the trade-off between the\nchannel transmission rate and the robustness of the communication. We\ndemonstrate the utility of MC3 on NVIDIA Orin AGX, Orin NX, and Orin Nano up to\na transmit rate of 6.4 kbps with less than 1% error rate.\n",
+  "subjects": [
+    "Computer Science/Cryptography and Security"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "DTX0rYLzfMGDAgTaHOcGk-KAxAG5Up--KZj_-aMNY4c",
+  "pdfSize": "1146985"
+}

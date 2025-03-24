@@ -1,0 +1,33 @@
+{
+  "id": "2412.10090",
+  "title": "Codegree and regularity of stable set polytopes",
+  "authors": "Koji Matsushita, Akiyoshi Tsuchiya",
+  "authorsParsed": [
+    [
+      "Matsushita",
+      "Koji",
+      ""
+    ],
+    [
+      "Tsuchiya",
+      "Akiyoshi",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 13 Dec 2024 12:26:00 GMT"
+    }
+  ],
+  "updateDate": "2024-12-16",
+  "timestamp": 1734092760000,
+  "abstract": "  The codegree ${\\rm codeg}(P)$ of a lattice polytope $P$ is a fundamental\ninvariant in discrete geometry. In the present paper, we investigate the\ncodegree of the stable set polytope $P_G$ associated with a graph $G$.\nSpecifically, we establish the inequalities \\[ \\omega(G) + 1 \\leq {\\rm\ncodeg}(P_G) \\leq \\chi(G) + 1, \\] where $\\omega(G)$ and $\\chi(G)$ denote the\nclique number and the chromatic number of G, respectively. Furthermore, an\nexplicit formula for ${\\rm codeg}(P_G)$ is given when G is either a line graph\nor an $h$-perfect graph. Finally, as an application of these results, we\nprovide upper and lower bounds on the regularity of the toric ring associated\nwith $P_G$.\n",
+  "subjects": [
+    "Mathematics/Combinatorics",
+    "Mathematics/Commutative Algebra"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "ZZDKXNqw_fX9D1ibVIMJ1MVJp-h8rd6XJua0A7azmYY",
+  "pdfSize": "121039"
+}

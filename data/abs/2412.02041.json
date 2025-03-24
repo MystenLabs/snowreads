@@ -1,0 +1,27 @@
+{
+  "id": "2412.02041",
+  "title": "Predicting the Impact of Scope Changes on Project Cost and Schedule\n  Using Machine Learning Techniques",
+  "authors": "Soheila Sadeghi",
+  "authorsParsed": [
+    [
+      "Sadeghi",
+      "Soheila",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 2 Dec 2024 23:54:00 GMT"
+    }
+  ],
+  "updateDate": "2024-12-04",
+  "timestamp": 1733183640000,
+  "abstract": "  In the dynamic landscape of project management, scope changes are an\ninevitable reality that can significantly impact project performance. These\nchanges, whether initiated by stakeholders, external factors, or internal\nproject dynamics, can lead to cost overruns and schedule delays. Accurately\npredicting the consequences of these changes is crucial for effective project\ncontrol and informed decision-making. This study aims to develop predictive\nmodels to estimate the impact of scope changes on project cost and schedule\nusing machine learning techniques. The research utilizes a comprehensive\ndataset containing detailed information on project tasks, including the Work\nBreakdown Structure (WBS), task type, productivity rate, estimated cost, actual\ncost, duration, task dependencies, scope change magnitude, and scope change\ntiming. Multiple machine learning models are developed and evaluated to predict\nthe impact of scope changes on project cost and schedule. These models include\nLinear Regression, Decision Tree, Ridge Regression, Random Forest, Gradient\nBoosting, and XGBoost. The dataset is split into training and testing sets, and\nthe models are trained using the preprocessed data. Model robustness and\ngeneralization are assessed using cross-validation techniques. To evaluate the\nperformance of models, we use Mean Squared Error (MSE) and R2. Residual plots\nare generated to assess the goodness of fit and identify any patterns or\noutliers. Hyperparameter tuning is performed to optimize the XGBoost model and\nimprove its predictive accuracy. The study identifies the most influential\nproject attributes in determining the magnitude of cost and schedule deviations\ncaused by scope modifications. It is identified that productivity rate, scope\nchange magnitude, task dependencies, estimated cost, actual cost, duration, and\nspecific WBS elements are powerful predictors.\n",
+  "subjects": [
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "fR_ydlNrnYpaOEdD5GX5S4N5W9606DiioRvRIS4TKZs",
+  "pdfSize": "448019"
+}

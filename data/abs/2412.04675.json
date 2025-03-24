@@ -1,0 +1,28 @@
+{
+  "id": "2412.04675",
+  "title": "Classification of Fermi-LAT unassociated sources with machine learning\n  in the presence of dataset shifts",
+  "authors": "Dmitry V. Malyshev",
+  "authorsParsed": [
+    [
+      "Malyshev",
+      "Dmitry V.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 6 Dec 2024 00:00:00 GMT"
+    }
+  ],
+  "updateDate": "2024-12-09",
+  "timestamp": 1733443200000,
+  "abstract": "  About one third of Fermi Large Area Telescope (LAT) sources are unassociated.\nWe perform multi-class classification of Fermi-LAT sources using machine\nlearning with the goal of probabilistic classification of the unassociated\nsources. A particular attention is paid to the fact that the distributions of\nassociated and unassociated sources are different as functions of source\nparameters. In this work, we address this problem in the framework of dataset\nshifts in machine learning.\n",
+  "subjects": [
+    "Astrophysics/High Energy Astrophysical Phenomena",
+    "Astrophysics/Instrumentation and Methods for Astrophysics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "DvlcO6AYHkmg4fyTYcQNxEKqUO61Jf_uGWR5Tt92BzM",
+  "pdfSize": "428304"
+}

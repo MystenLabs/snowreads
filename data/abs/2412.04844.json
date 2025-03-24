@@ -1,0 +1,43 @@
+{
+  "id": "2412.04844",
+  "title": "Cutting is All You Need: Execution of Large-Scale Quantum Neural\n  Networks on Limited-Qubit Devices",
+  "authors": "Alberto Marchisio and Emman Sychiuco and Muhammad Kashif and Muhammad\n  Shafique",
+  "authorsParsed": [
+    [
+      "Marchisio",
+      "Alberto",
+      ""
+    ],
+    [
+      "Sychiuco",
+      "Emman",
+      ""
+    ],
+    [
+      "Kashif",
+      "Muhammad",
+      ""
+    ],
+    [
+      "Shafique",
+      "Muhammad",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 6 Dec 2024 08:29:46 GMT"
+    }
+  ],
+  "updateDate": "2024-12-09",
+  "timestamp": 1733473786000,
+  "abstract": "  The rapid advancement in Quantum Computing (QC), particularly through\nNoisy-Intermediate Scale Quantum (NISQ) devices, has spurred significant\ninterest in Quantum Machine Learning (QML) applications. Despite their\npotential, fully-quantum QML algorithms remain impractical due to the\nlimitations of current NISQ devices. Hybrid quantum-classical neural networks\n(HQNNs) have emerged as a viable alternative, leveraging both quantum and\nclassical computations to enhance machine learning capabilities. However, the\nconstrained resources of NISQ devices, particularly the limited number of\nqubits, pose significant challenges for executing large-scale quantum circuits.\n  This work addresses these current challenges by proposing a novel and\npractical methodology for quantum circuit cutting of HQNNs, allowing large\nquantum circuits to be executed on limited-qubit NISQ devices. Our approach not\nonly preserves the accuracy of the original circuits but also supports the\ntraining of quantum parameters across all subcircuits, which is crucial for the\nlearning process in HQNNs. We propose a cutting methodology for HQNNs that\nemploys a greedy algorithm for identifying efficient cutting points, and the\nimplementation of trainable subcircuits, all designed to maximize the utility\nof NISQ devices in HQNNs. The findings suggest that quantum circuit cutting is\na promising technique for advancing QML on current quantum hardware, since the\ncut circuit achieves comparable accuracy and much lower qubit requirements than\nthe original circuit.\n",
+  "subjects": [
+    "Physics/Quantum Physics",
+    "Computer Science/Emerging Technologies"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "2zaG_2AkLHZr10mIZpcmKApKWUqNFvOknf8mshFRG2I",
+  "pdfSize": "970814"
+}

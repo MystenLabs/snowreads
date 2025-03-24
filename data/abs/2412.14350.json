@@ -1,0 +1,37 @@
+{
+  "id": "2412.14350",
+  "title": "Gaussian-convolution-invariant shell approximation to\n  spherically-symmetric functions",
+  "authors": "Alexandre G. Urzhumtsev and Vladimir Y. Lunin",
+  "authorsParsed": [
+    [
+      "Urzhumtsev",
+      "Alexandre G.",
+      ""
+    ],
+    [
+      "Lunin",
+      "Vladimir Y.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 18 Dec 2024 21:32:51 GMT"
+    }
+  ],
+  "updateDate": "2024-12-20",
+  "timestamp": 1734557571000,
+  "abstract": "  We develop a class of functions Omega_N(x; mu, nu) in N-dimensional space\nconcentrated around a spherical shell of the radius mu and such that, being\nconvoluted with an isotropic Gaussian function, these functions do not change\ntheir expression but only a value of its 'width' parameter, nu. Isotropic\nGaussian functions are a particular case of Omega_N(x; mu, nu) corresponding to\nmu = 0. Due to their features, these functions are an efficient tool to build\napproximations to smooth and continuous spherically-symmetric functions\nincluding oscillating ones. Atomic images in limited-resolution maps of the\nelectron density, electrostatic scattering potential and other scalar fields\nstudied in physics, chemistry, biology, and other natural sciences are examples\nof such functions. We give simple analytic expressions of Omega_N(x; mu, nu)\nfor N = 1, 2, 3 and analyze properties of these functions. Representation of\noscillating functions by a sum of Omega_N(x; mu, nu) allows calculating\ndistorted maps for the same cost as the respective theoretical fields. We give\npractical examples of such representation for the interference functions of the\nuniform unit spheres for N = 1, 2, 3 that define the resolution of the\nrespective images. Using the chain rule and analytic expressions of the\nOmega_N(x; mu, nu) derivatives makes simple refinement of parameters of the\nmodels which describe these fields.\n",
+  "subjects": [
+    "Mathematics/Numerical Analysis",
+    "Computer Science/Computational Engineering, Finance, and Science",
+    "Computer Science/Numerical Analysis",
+    "Physics/Mathematical Physics",
+    "Mathematics/Mathematical Physics",
+    "Quantitative Biology/Biomolecules"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "c_DIvHc5RD8f0SXtrVXGkFXuL5vLfFEEiMyWbGsSo3U",
+  "pdfSize": "598482"
+}

@@ -1,0 +1,43 @@
+{
+  "id": "2412.07382",
+  "title": "Temporal Linear Item-Item Model for Sequential Recommendation",
+  "authors": "Seongmin Park, Mincheol Yoon, Minjin Choi, Jongwuk Lee",
+  "authorsParsed": [
+    [
+      "Park",
+      "Seongmin",
+      ""
+    ],
+    [
+      "Yoon",
+      "Mincheol",
+      ""
+    ],
+    [
+      "Choi",
+      "Minjin",
+      ""
+    ],
+    [
+      "Lee",
+      "Jongwuk",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 10 Dec 2024 10:28:32 GMT"
+    }
+  ],
+  "updateDate": "2024-12-11",
+  "timestamp": 1733826512000,
+  "abstract": "  In sequential recommendation (SR), neural models have been actively explored\ndue to their remarkable performance, but they suffer from inefficiency inherent\nto their complexity. On the other hand, linear SR models exhibit high\nefficiency and achieve competitive or superior accuracy compared to neural\nmodels. However, they solely deal with the sequential order of items (i.e.,\nsequential information) and overlook the actual timestamp (i.e., temporal\ninformation). It is limited to effectively capturing various user preference\ndrifts over time. To address this issue, we propose a novel linear SR model,\nnamed TemporAl LinEar item-item model (TALE), incorporating temporal\ninformation while preserving training/inference efficiency, with three key\ncomponents. (i) Single-target augmentation concentrates on a single target\nitem, enabling us to learn the temporal correlation for the target item. (ii)\nTime interval-aware weighting utilizes the actual timestamp to discern the item\ncorrelation depending on time intervals. (iii) Trend-aware normalization\nreflects the dynamic shift of item popularity over time. Our empirical studies\nshow that TALE outperforms ten competing SR models by up to 18.71% gains on\nfive benchmark datasets. It also exhibits remarkable effectiveness in\nevaluating long-tail items by up to 30.45% gains. The source code is available\nat https://github.com/psm1206/TALE.\n",
+  "subjects": [
+    "Computer Science/Information Retrieval",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "GFu5J_0Nik9Qe5TcUlt7dkPimtqC75iUG7FCeiwfbJg",
+  "pdfSize": "2040726"
+}

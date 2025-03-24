@@ -1,0 +1,52 @@
+{
+  "id": "2412.08978",
+  "title": "CLEAR: Channel Learning and Enhanced Adaptive Reconstruction for\n  Semantic Communication in Complex Time-Varying Environments",
+  "authors": "Hongzhi Pan, Shengliang Wu, Lingyun Wang, Yujun Zhu, Weiwei Jiang, Xin\n  He",
+  "authorsParsed": [
+    [
+      "Pan",
+      "Hongzhi",
+      ""
+    ],
+    [
+      "Wu",
+      "Shengliang",
+      ""
+    ],
+    [
+      "Wang",
+      "Lingyun",
+      ""
+    ],
+    [
+      "Zhu",
+      "Yujun",
+      ""
+    ],
+    [
+      "Jiang",
+      "Weiwei",
+      ""
+    ],
+    [
+      "He",
+      "Xin",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 12 Dec 2024 06:23:29 GMT"
+    }
+  ],
+  "updateDate": "2024-12-13",
+  "timestamp": 1733984609000,
+  "abstract": "  To address the challenges of robust data transmission over complex\ntime-varying channels, this paper introduces channel learning and enhanced\nadaptive reconstruction (CLEAR) strategy for semantic communications. CLEAR\nintegrates deep joint source-channel coding (DeepJSCC) with an adaptive\ndiffusion denoising model (ADDM) to form a unique framework. It leverages a\ntrainable encoder-decoder architecture to encode data into complex semantic\ncodes, which are then transmitted and reconstructed while minimizing\ndistortion, ensuring high semantic fidelity. By addressing multipath effects,\nfrequency-selective fading, phase noise, and Doppler shifts, CLEAR achieves\nhigh semantic fidelity and reliable transmission across diverse signal-to-noise\nratios (SNRs) and channel conditions. Extensive experiments demonstrate that\nCLEAR achieves a 2.3 dB gain on peak signal-to-noise ratio (PSNR) over the\nexisting state-of-the-art method, DeepJSCC-V. Furthermore, the results verify\nthat CLEAR is robust against varying channel conditions, particularly in\nscenarios characterized by high Doppler shifts and strong phase noise.\n",
+  "subjects": [
+    "Computer Science/Networking and Internet Architecture"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "7r1ziPR3DHq_Y4LDD1odmmA3prDmCPCSfEOIKThrD2M",
+  "pdfSize": "7687210"
+}

@@ -1,0 +1,47 @@
+{
+  "id": "2412.14363",
+  "title": "ResQ: Mixed-Precision Quantization of Large Language Models with\n  Low-Rank Residuals",
+  "authors": "Utkarsh Saxena, Sayeh Sharify, Kaushik Roy, Xin Wang",
+  "authorsParsed": [
+    [
+      "Saxena",
+      "Utkarsh",
+      ""
+    ],
+    [
+      "Sharify",
+      "Sayeh",
+      ""
+    ],
+    [
+      "Roy",
+      "Kaushik",
+      ""
+    ],
+    [
+      "Wang",
+      "Xin",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 18 Dec 2024 22:01:55 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Mon, 3 Feb 2025 21:45:32 GMT"
+    }
+  ],
+  "updateDate": "2025-02-05",
+  "timestamp": 1734559315000,
+  "abstract": "  Post-training quantization (PTQ) of large language models (LLMs) holds the\npromise in reducing the prohibitive computational cost at inference time.\nQuantization of all weight, activation and key-value (KV) cache tensors to\n4-bit without significantly degrading generalizability is challenging, due to\nthe high quantization error caused by extreme outliers in activations. To\ntackle this problem, we propose ResQ, a PTQ method that pushes further the\nstate-of-the-art. By means of principal component analysis (PCA), it identifies\na low-rank subspace (in practice 1/8 of the hidden dimension) in which\nactivation variances are highest, and keep the coefficients within this\nsubspace in high precision, e.g. 8-bit, while quantizing the rest to 4-bit.\nWithin each subspace, invariant random rotation is applied to further suppress\noutliers. We show that this is a provably optimal mixed precision quantization\nscheme that minimizes error. With the Llama and Qwen2.5 families of models, we\ndemonstrate that ResQ outperforms recent uniform and mixed precision PTQ\nmethods on a variety of benchmarks, achieving up to 33\\% lower perplexity on\nWikitext than the next best method SpinQuant, and upto 3\\times speedup over\n16-bit baseline. Code is available at\nhttps://github.com/utkarsh-dmx/project-resq.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Computer Science/Computation and Language"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "Vi8KgxCKpvlIwAJMghisEUNxHkrRZrNV8Pzuk5fIMu8",
+  "pdfSize": "1869885"
+}

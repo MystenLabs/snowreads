@@ -1,0 +1,27 @@
+{
+  "id": "2412.17199",
+  "title": "On Shusterman's Goldbach-type problem for sign patterns of the Liouville\n  function",
+  "authors": "Alexander P. Mangerel",
+  "authorsParsed": [
+    [
+      "Mangerel",
+      "Alexander P.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 23 Dec 2024 00:26:52 GMT"
+    }
+  ],
+  "updateDate": "2024-12-24",
+  "timestamp": 1734913612000,
+  "abstract": "  Let $\\lambda$ be the Liouville function. Assuming the Generalised Riemann\nHypothesis for Dirichlet $L$-functions (GRH), we show that for every\nsufficiently large even integer $N$ there are $a,b \\geq 1$ such that $$ a+b = N\n\\text{ and } \\lambda(a) = \\lambda(b) = -1. $$ This conditionally answers an\nanalogue of the binary Goldbach problem for the Liouville function, posed by\nShusterman.\n  The latter is a consequence of a quantitative lower bound on the frequency of\nsign patterns attained by $(\\lambda(n),\\lambda(N-n))$, for sufficiently large\nprimes $N$. We show, assuming GRH, that there is a constant $C > 0$ such that\nfor each pattern $(\\eta_1,\\eta_2) \\in \\{-1,+1\\}^2$ and each prime $N \\geq N_0$,\n$$ |\\{n < N : (\\lambda(n),\\lambda(N-n)) = (\\eta_1,\\eta_2)\\}| \\gg N e^{-C(\\log\n\\log N)^{6}}. $$ The proof makes essential use of the Pierce expansion of\nrational numbers $n/N$, which may be of interest in other binary problems.\n",
+  "subjects": [
+    "Mathematics/Number Theory"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "MpVjoj27HkJRGhboAEX39lup3jsGGcjOzkz5zX--Tvk",
+  "pdfSize": "353258"
+}

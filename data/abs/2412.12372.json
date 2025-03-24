@@ -1,0 +1,33 @@
+{
+  "id": "2412.12372",
+  "title": "On Mahler's conjecture for even s-concave functions in dimensions 1 and\n  2",
+  "authors": "Matthieu Fradelizi, Elie Nakhle",
+  "authorsParsed": [
+    [
+      "Fradelizi",
+      "Matthieu",
+      ""
+    ],
+    [
+      "Nakhle",
+      "Elie",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 16 Dec 2024 22:05:55 GMT"
+    }
+  ],
+  "updateDate": "2024-12-18",
+  "timestamp": 1734386755000,
+  "abstract": "  In this paper, we establish different sharp forms of Mahler's conjecture for\n$s$-concave even functions in dimensions $n$, for $n=1$ and $2$, for $s>-1/n$,\nthus generalizing our previous results in \\cite{FN} on log-concave even\nfunctions in dimension 2, which corresponds to the case $s=0$. The functional\nvolume product of an even $s$-concave function $g$ is \\[\n\\int_{\\mathbb{R}^{n}}g(x)dx\\int_{\\mathbb{R}^{n}}\\mathcal{L}_{s}g(y)dy, \\] where\n$\\mathcal{L}_{s}g$ is the $s$-polar function associated to $g$. The analogue of\nMahler's conjecture for even $s$-concave functions postulates that this\nquantity is minimized for the indicatrix of a cube for any $s>-1/n$. In\ndimension $n=1$, we prove this conjecture for all $s\\in(-1,0)$ (the case\n$s\\ge0$ was established by the first author and Mathieu Meyer in \\cite[page\n17]{FM10}). In dimension $n=2$, we only consider the case $1/s\\in\\mathbb{Z}$:\nfor $s>0$, we establish Mahler's conjecture for general $s$-concave even\nfunctions; for $s<0$, the situation is more involved, we only prove a sharp\ninequality for $s$-concave functions $g$ such that $g^s$ admits an asymptote in\nevery direction. Notice that this set of functions is quite natural to\nconsider, when $s<0$, since it is the largest subset of $s$-concave functions\nstable by $s$-duality.\n",
+  "subjects": [
+    "Mathematics/Functional Analysis",
+    "Mathematics/Metric Geometry"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "LcThpt73Ej4IL1gEF_Qa_r9ULu1NVAzRFYomj3fmvvE",
+  "pdfSize": "237677"
+}

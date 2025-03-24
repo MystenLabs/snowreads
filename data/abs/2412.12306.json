@@ -1,0 +1,73 @@
+{
+  "id": "2412.12306",
+  "title": "Ultra-wideband Double-Directionally Resolved Channel Measurements of\n  Line-of-Sight Microcellular Scenarios in the Upper Mid-band",
+  "authors": "Naveed A. Abbasi, Kelvin Arana, Jorge Gomez-Ponce, Tathagat Pal,\n  Vikram Vasudevan, Atulya Bist, Omer Gokalp Serbetci, Young Han Nam, Charlie\n  Zhang, Andreas F. Molisch",
+  "authorsParsed": [
+    [
+      "Abbasi",
+      "Naveed A.",
+      ""
+    ],
+    [
+      "Arana",
+      "Kelvin",
+      ""
+    ],
+    [
+      "Gomez-Ponce",
+      "Jorge",
+      ""
+    ],
+    [
+      "Pal",
+      "Tathagat",
+      ""
+    ],
+    [
+      "Vasudevan",
+      "Vikram",
+      ""
+    ],
+    [
+      "Bist",
+      "Atulya",
+      ""
+    ],
+    [
+      "Serbetci",
+      "Omer Gokalp",
+      ""
+    ],
+    [
+      "Nam",
+      "Young Han",
+      ""
+    ],
+    [
+      "Zhang",
+      "Charlie",
+      ""
+    ],
+    [
+      "Molisch",
+      "Andreas F.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 16 Dec 2024 19:20:03 GMT"
+    }
+  ],
+  "updateDate": "2024-12-18",
+  "timestamp": 1734376803000,
+  "abstract": "  The growing demand for higher data rates and expanded bandwidth is driving\nthe exploration of new frequency ranges, including the upper mid-band spectrum\n(6-24 GHz), which is a promising candidate for future Frequency Range 3 (FR3)\napplications. This paper presents ultra-wideband double-directional channel\nmeasurements in line-of-sight microcellular scenarios within the upper mid-band\nspectrum (6-18 GHz). Conducted in an urban street canyon environment, these\nmeasurements explore key channel characteristics such as power delay profiles,\nangular power spectra, path loss, delay spread, and angular spread to provide\ninsights essential for robust communication system design. Our results reveal\nthat path loss values for both omni-directional and best beam configurations\nare lower than free-space predictions due to multipath contributions from the\nenvironment. Analysis also indicates a high degree of stability in delay spread\nand angular spread across the entire band, with small variation between\nsub-bands.\n",
+  "subjects": [
+    "Electrical Engineering and Systems Science/Systems and Control",
+    "Computer Science/Systems and Control"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "DSoTcLGJTICgCr4CwD3cOfYj4YXBHgaGGROQQgaaCaI",
+  "pdfSize": "811900"
+}

@@ -1,0 +1,47 @@
+{
+  "id": "2412.07743",
+  "title": "Zero-Shot ATC Coding with Large Language Models for Clinical Assessments",
+  "authors": "Zijian Chen, John-Michael Gamble, Micaela Jantzi, John P. Hirdes,\n  Jimmy Lin",
+  "authorsParsed": [
+    [
+      "Chen",
+      "Zijian",
+      ""
+    ],
+    [
+      "Gamble",
+      "John-Michael",
+      ""
+    ],
+    [
+      "Jantzi",
+      "Micaela",
+      ""
+    ],
+    [
+      "Hirdes",
+      "John P.",
+      ""
+    ],
+    [
+      "Lin",
+      "Jimmy",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 10 Dec 2024 18:43:02 GMT"
+    }
+  ],
+  "updateDate": "2024-12-11",
+  "timestamp": 1733856182000,
+  "abstract": "  Manual assignment of Anatomical Therapeutic Chemical (ATC) codes to\nprescription records is a significant bottleneck in healthcare research and\noperations at Ontario Health and InterRAI Canada, requiring extensive expert\ntime and effort. To automate this process while maintaining data privacy, we\ndevelop a practical approach using locally deployable large language models\n(LLMs). Inspired by recent advances in automatic International Classification\nof Diseases (ICD) coding, our method frames ATC coding as a hierarchical\ninformation extraction task, guiding LLMs through the ATC ontology level by\nlevel. We evaluate our approach using GPT-4o as an accuracy ceiling and focus\ndevelopment on open-source Llama models suitable for privacy-sensitive\ndeployment. Testing across Health Canada drug product data, the RABBITS\nbenchmark, and real clinical notes from Ontario Health, our method achieves 78%\nexact match accuracy with GPT-4o and 60% with Llama 3.1 70B. We investigate\nknowledge grounding through drug definitions, finding modest improvements in\naccuracy. Further, we show that fine-tuned Llama 3.1 8B matches zero-shot Llama\n3.1 70B accuracy, suggesting that effective ATC coding is feasible with smaller\nmodels. Our results demonstrate the feasibility of automatic ATC coding in\nprivacy-sensitive healthcare environments, providing a foundation for future\ndeployments.\n",
+  "subjects": [
+    "Computer Science/Computation and Language"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "4Rt1nC6fWVmkfTNctqTkW3A89xP3ds_nJu4y5NYb1Pw",
+  "pdfSize": "429000"
+}

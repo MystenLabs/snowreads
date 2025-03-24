@@ -1,0 +1,36 @@
+{
+  "id": "2412.05032",
+  "title": "moonboot: An R Package Implementing m-out-of-n Bootstrap Methods",
+  "authors": "Christoph Dalitz and Felix L\\\"ogler",
+  "authorsParsed": [
+    [
+      "Dalitz",
+      "Christoph",
+      ""
+    ],
+    [
+      "Lögler",
+      "Felix",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 6 Dec 2024 13:35:02 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Mon, 6 Jan 2025 13:27:04 GMT"
+    }
+  ],
+  "updateDate": "2025-01-07",
+  "timestamp": 1733492102000,
+  "abstract": "  The m-out-of-n bootstrap is a possible workaround to compute confidence\nintervals for bootstrap inconsistent estimators, because it works under weaker\nconditions than the n-out-of-n bootstrap. It has the disadvantage, however,\nthat it requires knowledge of an appropriate scaling factor {\\tau}n and that\nthe coverage probability for finite n depends on the choice of m. This article\npresents an R package moonboot which implements the computation of m-out-of-n\nbootstrap confidence intervals and provides functions for estimating the\nparameters {\\tau}n and m. By means of Monte Carlo simulations, we evaluate the\ndifferent methods and compare them for different estimators\n",
+  "subjects": [
+    "Statistics/Methodology"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "-JlxgxVjrixv5nIl5O-0fcfzxvDTiG2pJ_sSsbTHK2U",
+  "pdfSize": "426299"
+}

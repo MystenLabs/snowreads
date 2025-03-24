@@ -1,0 +1,61 @@
+{
+  "id": "2412.14843",
+  "title": "Mapping and Influencing the Political Ideology of Large Language Models\n  using Synthetic Personas",
+  "authors": "Pietro Bernardelle, Leon Fr\\\"ohling, Stefano Civelli, Riccardo\n  Lunardi, Kevin Roitero, Gianluca Demartini",
+  "authorsParsed": [
+    [
+      "Bernardelle",
+      "Pietro",
+      ""
+    ],
+    [
+      "Fröhling",
+      "Leon",
+      ""
+    ],
+    [
+      "Civelli",
+      "Stefano",
+      ""
+    ],
+    [
+      "Lunardi",
+      "Riccardo",
+      ""
+    ],
+    [
+      "Roitero",
+      "Kevin",
+      ""
+    ],
+    [
+      "Demartini",
+      "Gianluca",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 19 Dec 2024 13:36:18 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Fri, 20 Dec 2024 02:59:23 GMT"
+    },
+    {
+      "version": "v3",
+      "created": "Wed, 26 Feb 2025 03:24:32 GMT"
+    }
+  ],
+  "updateDate": "2025-02-27",
+  "timestamp": 1734615378000,
+  "abstract": "  The analysis of political biases in large language models (LLMs) has\nprimarily examined these systems as single entities with fixed viewpoints.\nWhile various methods exist for measuring such biases, the impact of\npersona-based prompting on LLMs' political orientation remains unexplored. In\nthis work we leverage PersonaHub, a collection of synthetic persona\ndescriptions, to map the political distribution of persona-based prompted LLMs\nusing the Political Compass Test (PCT). We then examine whether these initial\ncompass distributions can be manipulated through explicit ideological prompting\ntowards diametrically opposed political orientations: right-authoritarian and\nleft-libertarian. Our experiments reveal that synthetic personas predominantly\ncluster in the left-libertarian quadrant, with models demonstrating varying\ndegrees of responsiveness when prompted with explicit ideological descriptors.\nWhile all models demonstrate significant shifts towards right-authoritarian\npositions, they exhibit more limited shifts towards left-libertarian positions,\nsuggesting an asymmetric response to ideological manipulation that may reflect\ninherent biases in model training.\n",
+  "subjects": [
+    "Computer Science/Computation and Language",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "PWdoxYfnxOCWHJae4MmNWF-afabrBjb6ZPDYo_P6Qsg",
+  "pdfSize": "1513184"
+}

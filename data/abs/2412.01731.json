@@ -1,0 +1,35 @@
+{
+  "id": "2412.01731",
+  "title": "A slot-based energy storage decision-making approach for optimal\n  Off-Grid telecommunication operator",
+  "authors": "Youssef Ait El Mahjoub, Jean-Michel Fourneau",
+  "authorsParsed": [
+    [
+      "Mahjoub",
+      "Youssef Ait El",
+      ""
+    ],
+    [
+      "Fourneau",
+      "Jean-Michel",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 2 Dec 2024 17:21:28 GMT"
+    }
+  ],
+  "updateDate": "2024-12-03",
+  "timestamp": 1733160088000,
+  "abstract": "  This paper proposes a slot-based energy storage approach for decision-making\nin the context of an Off-Grid telecommunication operator. We consider network\nsystems powered by solar panels, where harvest energy is stored in a battery\nthat can also be sold when fully charged. To reflect real-world conditions, we\naccount for non-stationary energy arrivals and service demands that depend on\nthe time of day, as well as the failure states of PV panel. The network\noperator we model faces two conflicting objectives: maintaining the operation\nof its infrastructure and selling (or supplying to other networks) surplus\nenergy from fully charged batteries. To address these challenges, we developed\na slot-based Markov Decision Process (MDP) model that incorporates positive\nrewards for energy sales, as well as penalties for energy loss and battery\ndepletion. This slot-based MDP follows a specific structure we have previously\nproven to be efficient in terms of computational performance and accuracy. From\nthis model, we derive the optimal policy that balances these conflicting\nobjectives and maximizes the average reward function. Additionally, we present\nresults comparing different cities and months, which the operator can consider\nwhen deploying its infrastructure to maximize rewards based on\nlocation-specific energy availability and seasonal variations.\n",
+  "subjects": [
+    "Mathematics/Optimization and Control",
+    "Computer Science/Networking and Internet Architecture",
+    "Computer Science/Systems and Control",
+    "Electrical Engineering and Systems Science/Systems and Control"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "IMOkYGfWJAcLDZXPodkZ08og9S-FoGSbZG8z7ySITsU",
+  "pdfSize": "1306820"
+}

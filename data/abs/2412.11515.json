@@ -1,0 +1,31 @@
+{
+  "id": "2412.11515",
+  "title": "Sub-quadratic scalable approximate linear converter using multi-plane\n  light conversion with low-entropy mode mixers",
+  "authors": "Yoshitaka Taguchi",
+  "authorsParsed": [
+    [
+      "Taguchi",
+      "Yoshitaka",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 16 Dec 2024 07:50:30 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Mon, 27 Jan 2025 13:39:25 GMT"
+    }
+  ],
+  "updateDate": "2025-01-28",
+  "timestamp": 1734335430000,
+  "abstract": "  Optical computing is emerging as a promising platform for energy-efficient,\nhigh-throughput hardware in deep learning. A key challenge lies in the\nrealization of optical matrix-vector multiplication, which often requires\n$O(N^2)$ phase shifters for exact synthesis of $N \\times N$ matrices, limiting\nscalability. In this study, we propose an approximate matrix realization method\nusing multi-plane light conversion (MPLC) that reduces both the system size and\nthe number of phase shifters while maintaining acceptable error bounds. This\napproach uses low-entropy mode mixers, allowing more compact implementations\ncompared to conventional mixers. We introduce Shannon matrix entropy as a\nmeasure of mode coupling strength in mixers and demonstrate that low-entropy\nmixers can preserve computational accuracy while reducing the requirements for\nthe mixers. The approximation quality is evaluated using the maximum norm\nbetween the target and realized matrices. Numerical results show that the\nproposed method achieves sub-quadratic scaling of phase shifters by tolerating\npredefined error thresholds. To identify efficient architectures for\nimplementing general linear matrices, we compare block-encoding (BE) and\nsingular-value decomposition (SVD) schemes for realizing general linear\nmatrices using unitary converters based on MPLC. Results indicate that BE\nexhibits superior iterative configuration properties beyond the unitary group.\nBy characterizing the trade-offs between matrix entropy, number of phase\nshifter layers, and the error tolerance, this study provides a framework for\ndesigning scalable and efficient approximate optical converters.\n",
+  "subjects": [
+    "Physics/Optics"
+  ],
+  "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+  "blobId": "RMqF0kothril_m5HrBtTVOnL-5b_t5Ba8dpVUIjZAc8",
+  "pdfSize": "1629944"
+}

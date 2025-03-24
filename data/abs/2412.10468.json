@@ -1,0 +1,44 @@
+{
+  "id": "2412.10468",
+  "title": "Is your stochastic signal really detectable?",
+  "authors": "Federico Pozzoli, Jonathan Gair, Riccardo Buscicchio, Lorenzo Speri",
+  "authorsParsed": [
+    [
+      "Pozzoli",
+      "Federico",
+      ""
+    ],
+    [
+      "Gair",
+      "Jonathan",
+      ""
+    ],
+    [
+      "Buscicchio",
+      "Riccardo",
+      ""
+    ],
+    [
+      "Speri",
+      "Lorenzo",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 12 Dec 2024 19:00:02 GMT"
+    }
+  ],
+  "updateDate": "2024-12-17",
+  "timestamp": 1734030002000,
+  "abstract": "  Separating a stochastic gravitational wave background (SGWB) from noise is a\nchallenging statistical task. One approach to establishing a detection\ncriterion for the SGWB is using Bayesian evidence. If the evidence ratio (Bayes\nfactor) between models with and without the signal exceeds a certain threshold,\nthe signal is considered detected. We present a formalism to compute the\naveraged Bayes factor, incorporating instrumental-noise and SGWB uncertainties.\nAs an example, we consider the case of power-law-shaped SGWB in LISA and\ngenerate the corresponding \\textit{bayesian sensitivity curve}. Unlike existing\nmethods in the literature, which typically neglect uncertainties in both the\nsignal and noise, our approach provides a reliable and realistic alternative.\nThis flexible framework opens avenues for more robust stochastic gravitational\nwave background detection across gravitational-wave experiments.\n",
+  "subjects": [
+    "Astrophysics/Instrumentation and Methods for Astrophysics",
+    "Astrophysics/High Energy Astrophysical Phenomena",
+    "Physics/General Relativity and Quantum Cosmology"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "iTEuFcXdFH8tfD_lrlhbLzx4-xVucGx4X_iSnl_i2a8",
+  "pdfSize": "677159"
+}

@@ -1,0 +1,36 @@
+{
+  "id": "2412.17149",
+  "title": "A Multi-AI Agent System for Autonomous Optimization of Agentic AI\n  Solutions via Iterative Refinement and LLM-Driven Feedback Loops",
+  "authors": "Kamer Ali Yuksel and Hassan Sawaf",
+  "authorsParsed": [
+    [
+      "Yuksel",
+      "Kamer Ali",
+      ""
+    ],
+    [
+      "Sawaf",
+      "Hassan",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 22 Dec 2024 20:08:04 GMT"
+    }
+  ],
+  "updateDate": "2024-12-24",
+  "timestamp": 1734898084000,
+  "abstract": "  Agentic AI systems use specialized agents to handle tasks within complex\nworkflows, enabling automation and efficiency. However, optimizing these\nsystems often requires labor-intensive, manual adjustments to refine roles,\ntasks, and interactions. This paper introduces a framework for autonomously\noptimizing Agentic AI solutions across industries, such as NLP-driven\nenterprise applications. The system employs agents for Refinement, Execution,\nEvaluation, Modification, and Documentation, leveraging iterative feedback\nloops powered by an LLM (Llama 3.2-3B). The framework achieves optimal\nperformance without human input by autonomously generating and testing\nhypotheses to improve system configurations. This approach enhances scalability\nand adaptability, offering a robust solution for real-world applications in\ndynamic environments. Case studies across diverse domains illustrate the\ntransformative impact of this framework, showcasing significant improvements in\noutput quality, relevance, and actionability. All data for these case studies,\nincluding original and evolved agent codes, along with their outputs, are here:\nhttps://anonymous.4open.science/r/evolver-1D11/\n",
+  "subjects": [
+    "Computer Science/Computation and Language",
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Emerging Technologies",
+    "Computer Science/Multiagent Systems",
+    "Computer Science/Neural and Evolutionary Computing"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "W_zNB62hk_gOtQ972NgCFVPeEax1RS5pcqengHuJ7mE",
+  "pdfSize": "3143704"
+}

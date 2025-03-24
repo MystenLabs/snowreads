@@ -1,0 +1,54 @@
+{
+  "id": "2412.15310",
+  "title": "MRWeb: An Exploration of Generating Multi-Page Resource-Aware Web Code\n  from UI Designs",
+  "authors": "Yuxuan Wan, Yi Dong, Jingyu Xiao, Yintong Huo, Wenxuan Wang, Michael\n  R. Lyu",
+  "authorsParsed": [
+    [
+      "Wan",
+      "Yuxuan",
+      ""
+    ],
+    [
+      "Dong",
+      "Yi",
+      ""
+    ],
+    [
+      "Xiao",
+      "Jingyu",
+      ""
+    ],
+    [
+      "Huo",
+      "Yintong",
+      ""
+    ],
+    [
+      "Wang",
+      "Wenxuan",
+      ""
+    ],
+    [
+      "Lyu",
+      "Michael R.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 19 Dec 2024 15:02:33 GMT"
+    }
+  ],
+  "updateDate": "2024-12-23",
+  "timestamp": 1734620553000,
+  "abstract": "  Multi-page websites dominate modern web development. However, existing\ndesign-to-code methods rely on simplified assumptions, limiting to single-page,\nself-contained webpages without external resource connection. To address this\ngap, we introduce the Multi-Page Resource-Aware Webpage (MRWeb) generation\ntask, which transforms UI designs into multi-page, functional web UIs with\ninternal/external navigation, image loading, and backend routing. We propose a\nnovel resource list data structure to track resources, links, and design\ncomponents. Our study applies existing methods to the MRWeb problem using a\nnewly curated dataset of 500 websites (300 synthetic, 200 real-world).\nSpecifically, we identify the best metric to evaluate the similarity of the web\nUI, assess the impact of the resource list on MRWeb generation, analyze MLLM\nlimitations, and evaluate the effectiveness of the MRWeb tool in real-world\nworkflows. The results show that resource lists boost navigation functionality\nfrom 0% to 66%-80% while facilitating visual similarity. Our proposed metrics\nand evaluation framework provide new insights into MLLM performance on MRWeb\ntasks. We release the MRWeb tool, dataset, and evaluation framework to promote\nfurther research.\n",
+  "subjects": [
+    "Computer Science/Software Engineering",
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Information Retrieval"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "L4ufdwpjXjFg83dbtWdv6-bTZ-SHAX4uSIRxjjd_PL4",
+  "pdfSize": "9542546"
+}

@@ -1,0 +1,77 @@
+{
+  "id": "2412.19990",
+  "title": "SegKAN: High-Resolution Medical Image Segmentation with Long-Distance\n  Dependencies",
+  "authors": "Shengbo Tan, Rundong Xue, Shipeng Luo, Zeyu Zhang, Xinran Wang, Lei\n  Zhang, Daji Ergu, Zhang Yi, Yang Zhao, Ying Cai",
+  "authorsParsed": [
+    [
+      "Tan",
+      "Shengbo",
+      ""
+    ],
+    [
+      "Xue",
+      "Rundong",
+      ""
+    ],
+    [
+      "Luo",
+      "Shipeng",
+      ""
+    ],
+    [
+      "Zhang",
+      "Zeyu",
+      ""
+    ],
+    [
+      "Wang",
+      "Xinran",
+      ""
+    ],
+    [
+      "Zhang",
+      "Lei",
+      ""
+    ],
+    [
+      "Ergu",
+      "Daji",
+      ""
+    ],
+    [
+      "Yi",
+      "Zhang",
+      ""
+    ],
+    [
+      "Zhao",
+      "Yang",
+      ""
+    ],
+    [
+      "Cai",
+      "Ying",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 28 Dec 2024 03:27:21 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Thu, 2 Jan 2025 17:25:02 GMT"
+    }
+  ],
+  "updateDate": "2025-01-03",
+  "timestamp": 1735356441000,
+  "abstract": "  Hepatic vessels in computed tomography scans often suffer from image\nfragmentation and noise interference, making it difficult to maintain vessel\nintegrity and posing significant challenges for vessel segmentation. To address\nthis issue, we propose an innovative model: SegKAN. First, we improve the\nconventional embedding module by adopting a novel convolutional network\nstructure for image embedding, which smooths out image noise and prevents\nissues such as gradient explosion in subsequent stages. Next, we transform the\nspatial relationships between Patch blocks into temporal relationships to solve\nthe problem of capturing positional relationships between Patch blocks in\ntraditional Vision Transformer models. We conducted experiments on a Hepatic\nvessel dataset, and compared to the existing state-of-the-art model, the Dice\nscore improved by 1.78%. These results demonstrate that the proposed new\nstructure effectively enhances the segmentation performance of high-resolution\nextended objects. Code will be available at https://github.com/goblin327/SegKAN\n",
+  "subjects": [
+    "Electrical Engineering and Systems Science/Image and Video Processing",
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "N3l0MMnMwWzyFJDBobktlQsdLA7zkAdvg_jqF7CtSaU",
+  "pdfSize": "1857350"
+}

@@ -1,0 +1,38 @@
+{
+  "id": "2412.13032",
+  "title": "Characterization of the directed landscape from the KPZ fixed point",
+  "authors": "Duncan Dauvergne and Lingfu Zhang",
+  "authorsParsed": [
+    [
+      "Dauvergne",
+      "Duncan",
+      ""
+    ],
+    [
+      "Zhang",
+      "Lingfu",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 17 Dec 2024 15:51:18 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Mon, 6 Jan 2025 17:46:43 GMT"
+    }
+  ],
+  "updateDate": "2025-01-07",
+  "timestamp": 1734450678000,
+  "abstract": "  We show that the directed landscape is the unique coupling of the KPZ fixed\npoint from all initial conditions at all times satisfying three natural\nproperties: independent increments, monotonicity, and shift commutativity.\nEquivalently, we show that the directed landscape is the unique directed metric\non $\\mathbb R^2$ with independent increments and KPZ fixed point marginals.\nThis gives a framework for proving convergence to the directed landscape given\nconvergence to the KPZ fixed point. We apply this framework to prove\nconvergence to the directed landscape for a range of models, some without exact\nsolvability: asymmetric exclusion processes with potentially non-nearest\nneighbour interactions, exotic couplings of ASEP, the random walk and Brownian\nweb distance, and directed polymer models. All of our convergence theorems are\nnew except for colored ASEP and the KPZ equation, where we provide alternative\nproofs.\n",
+  "subjects": [
+    "Mathematics/Probability",
+    "Physics/Mathematical Physics",
+    "Mathematics/Mathematical Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "M7mvwwpGDwlXhJC7cWX_XlDMRYUyRdvAx7wF_1jkkfU",
+  "pdfSize": "649570"
+}

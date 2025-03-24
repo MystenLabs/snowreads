@@ -1,0 +1,83 @@
+{
+  "id": "2412.02407",
+  "title": "Dry Transfer Based on PMMA and Thermal Release Tape for Heterogeneous\n  Integration of 2D-TMDC Layers",
+  "authors": "Amir Ghiami, Hleb Fiadziushkin, Tianyishan Sun, Songyao Tang, Yibing\n  Wang, Eva Mayer, Jochen M. Schneider, Agata Piacentini, Max C. Lemme, Michael\n  Heuken, Holger Kalisch, Andrei Vescan",
+  "authorsParsed": [
+    [
+      "Ghiami",
+      "Amir",
+      ""
+    ],
+    [
+      "Fiadziushkin",
+      "Hleb",
+      ""
+    ],
+    [
+      "Sun",
+      "Tianyishan",
+      ""
+    ],
+    [
+      "Tang",
+      "Songyao",
+      ""
+    ],
+    [
+      "Wang",
+      "Yibing",
+      ""
+    ],
+    [
+      "Mayer",
+      "Eva",
+      ""
+    ],
+    [
+      "Schneider",
+      "Jochen M.",
+      ""
+    ],
+    [
+      "Piacentini",
+      "Agata",
+      ""
+    ],
+    [
+      "Lemme",
+      "Max C.",
+      ""
+    ],
+    [
+      "Heuken",
+      "Michael",
+      ""
+    ],
+    [
+      "Kalisch",
+      "Holger",
+      ""
+    ],
+    [
+      "Vescan",
+      "Andrei",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 3 Dec 2024 12:00:50 GMT"
+    }
+  ],
+  "updateDate": "2024-12-04",
+  "timestamp": 1733227250000,
+  "abstract": "  A reliable and scalable transfer of 2D-TMDCs (two-dimensional transition\nmetal dichalcogenides) from the growth substrate to a target substrate with\nhigh reproducibility and yield is a crucial step for device integration. In\nthis work, we have introduced a scalable dry-transfer approach for 2D-TMDCs\ngrown by MOCVD (metal-organic chemical vapor deposition) on sapphire. Transfer\nto a silicon/silicon dioxide (Si/SiO$_2$) substrate is performed using PMMA\n(poly(methyl methacrylate)) and TRT (thermal release tape) as sacrificial layer\nand carrier, respectively. Our proposed method ensures a reproducible peel-off\nfrom the growth substrate and better preservation of the 2D-TMDC during PMMA\nremoval in solvent, without compromising its adhesion to the target substrate.\nA comprehensive comparison between the dry method introduced in this work and a\nstandard wet transfer based on potassium hydroxide (KOH) solution shows\nimprovement in terms of cleanliness and structural integrity for\ndry-transferred layer, as evidenced by X-ray photoemission and Raman\nspectroscopy, respectively. Moreover, fabricated field-effect transistors\n(FETs) demonstrate improvements in subthreshold slope, maximum drain current\nand device-to-device variability. The dry-transfer method developed in this\nwork enables large-area integration of 2D-TMDC layers into (opto)electronic\ncomponents with high reproducibility, while better preserving the as-grown\nproperties of the layers.\n",
+  "subjects": [
+    "Physics/Applied Physics",
+    "Condensed Matter/Materials Science"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "V-m9f8cbZXoexYK0RTw2s2qdJ6FQ4SquInymkL4L420",
+  "pdfSize": "1228835"
+}

@@ -1,0 +1,37 @@
+{
+  "id": "2412.17405",
+  "title": "Impact of Evidence Theory Uncertainty on Training Object Detection\n  Models",
+  "authors": "M. Tahasanul Ibrahim, Rifshu Hussain Shaik, Andreas Schwung",
+  "authorsParsed": [
+    [
+      "Ibrahim",
+      "M. Tahasanul",
+      ""
+    ],
+    [
+      "Shaik",
+      "Rifshu Hussain",
+      ""
+    ],
+    [
+      "Schwung",
+      "Andreas",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 23 Dec 2024 09:16:10 GMT"
+    }
+  ],
+  "updateDate": "2024-12-24",
+  "timestamp": 1734945370000,
+  "abstract": "  This paper investigates the use of Evidence Theory to enhance the training\nefficiency of object detection models by incorporating uncertainty into the\nfeedback loop. In each training iteration, during the validation phase,\nEvidence Theory is applied to establish a relationship between ground truth\nlabels and predictions. The Dempster-Shafer rule of combination is used to\nquantify uncertainty based on the evidence from these predictions. This\nuncertainty measure is then utilized to weight the feedback loss for the\nsubsequent iteration, allowing the model to adjust its learning dynamically. By\nexperimenting with various uncertainty-weighting strategies, this study aims to\ndetermine the most effective method for optimizing feedback to accelerate the\ntraining process. The results demonstrate that using uncertainty-based feedback\nnot only reduces training time but can also enhance model performance compared\nto traditional approaches. This research offers insights into the role of\nuncertainty in improving machine learning workflows, particularly in object\ndetection, and suggests broader applications for uncertainty-driven training\nacross other AI disciplines.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "CNrQiNB_UiXjEzzU0HXbh3_h3wI3KjvNKngRGLk1KuU",
+  "pdfSize": "3334810"
+}

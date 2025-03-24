@@ -1,0 +1,191 @@
+{
+  "id": "2412.04862",
+  "title": "EXAONE 3.5: Series of Large Language Models for Real-world Use Cases",
+  "authors": "LG AI Research, Soyoung An, Kyunghoon Bae, Eunbi Choi, Kibong Choi,\n  Stanley Jungkyu Choi, Seokhee Hong, Junwon Hwang, Hyojin Jeon, Gerrard\n  Jeongwon Jo, Hyunjik Jo, Jiyeon Jung, Yountae Jung, Hyosang Kim, Joonkee Kim,\n  Seonghwan Kim, Soyeon Kim, Sunkyoung Kim, Yireun Kim, Yongil Kim, Youchul\n  Kim, Edward Hwayoung Lee, Haeju Lee, Honglak Lee, Jinsik Lee, Kyungmin Lee,\n  Woohyung Lim, Sangha Park, Sooyoun Park, Yongmin Park, Sihoon Yang, Heuiyeen\n  Yeen, Hyeongu Yun",
+  "authorsParsed": [
+    [
+      "Research",
+      "LG AI",
+      ""
+    ],
+    [
+      "An",
+      "Soyoung",
+      ""
+    ],
+    [
+      "Bae",
+      "Kyunghoon",
+      ""
+    ],
+    [
+      "Choi",
+      "Eunbi",
+      ""
+    ],
+    [
+      "Choi",
+      "Kibong",
+      ""
+    ],
+    [
+      "Choi",
+      "Stanley Jungkyu",
+      ""
+    ],
+    [
+      "Hong",
+      "Seokhee",
+      ""
+    ],
+    [
+      "Hwang",
+      "Junwon",
+      ""
+    ],
+    [
+      "Jeon",
+      "Hyojin",
+      ""
+    ],
+    [
+      "Jo",
+      "Gerrard Jeongwon",
+      ""
+    ],
+    [
+      "Jo",
+      "Hyunjik",
+      ""
+    ],
+    [
+      "Jung",
+      "Jiyeon",
+      ""
+    ],
+    [
+      "Jung",
+      "Yountae",
+      ""
+    ],
+    [
+      "Kim",
+      "Hyosang",
+      ""
+    ],
+    [
+      "Kim",
+      "Joonkee",
+      ""
+    ],
+    [
+      "Kim",
+      "Seonghwan",
+      ""
+    ],
+    [
+      "Kim",
+      "Soyeon",
+      ""
+    ],
+    [
+      "Kim",
+      "Sunkyoung",
+      ""
+    ],
+    [
+      "Kim",
+      "Yireun",
+      ""
+    ],
+    [
+      "Kim",
+      "Yongil",
+      ""
+    ],
+    [
+      "Kim",
+      "Youchul",
+      ""
+    ],
+    [
+      "Lee",
+      "Edward Hwayoung",
+      ""
+    ],
+    [
+      "Lee",
+      "Haeju",
+      ""
+    ],
+    [
+      "Lee",
+      "Honglak",
+      ""
+    ],
+    [
+      "Lee",
+      "Jinsik",
+      ""
+    ],
+    [
+      "Lee",
+      "Kyungmin",
+      ""
+    ],
+    [
+      "Lim",
+      "Woohyung",
+      ""
+    ],
+    [
+      "Park",
+      "Sangha",
+      ""
+    ],
+    [
+      "Park",
+      "Sooyoun",
+      ""
+    ],
+    [
+      "Park",
+      "Yongmin",
+      ""
+    ],
+    [
+      "Yang",
+      "Sihoon",
+      ""
+    ],
+    [
+      "Yeen",
+      "Heuiyeen",
+      ""
+    ],
+    [
+      "Yun",
+      "Hyeongu",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 6 Dec 2024 08:53:46 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Mon, 9 Dec 2024 09:31:10 GMT"
+    }
+  ],
+  "updateDate": "2024-12-10",
+  "timestamp": 1733475226000,
+  "abstract": "  This technical report introduces the EXAONE 3.5 instruction-tuned language\nmodels, developed and released by LG AI Research. The EXAONE 3.5 language\nmodels are offered in three configurations: 32B, 7.8B, and 2.4B. These models\nfeature several standout capabilities: 1) exceptional instruction following\ncapabilities in real-world scenarios, achieving the highest scores across seven\nbenchmarks, 2) outstanding long-context comprehension, attaining the top\nperformance in four benchmarks, and 3) competitive results compared to\nstate-of-the-art open models of similar sizes across nine general benchmarks.\nThe EXAONE 3.5 language models are open to anyone for research purposes and can\nbe downloaded from https://huggingface.co/LGAI-EXAONE. For commercial use,\nplease reach out to the official contact point of LG AI Research:\ncontact_us@lgresearch.ai.\n",
+  "subjects": [
+    "Computer Science/Computation and Language"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "PdeD5NwEjyzf2HufCjeCNN4rEOx7PU-shlRj9HwQ_yI",
+  "pdfSize": "6895152"
+}

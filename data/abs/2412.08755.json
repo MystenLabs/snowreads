@@ -1,0 +1,49 @@
+{
+  "id": "2412.08755",
+  "title": "Proactive Adversarial Defense: Harnessing Prompt Tuning in\n  Vision-Language Models to Detect Unseen Backdoored Images",
+  "authors": "Kyle Stein, Andrew Arash Mahyari, Guillermo Francia, Eman El-Sheikh",
+  "authorsParsed": [
+    [
+      "Stein",
+      "Kyle",
+      ""
+    ],
+    [
+      "Mahyari",
+      "Andrew Arash",
+      ""
+    ],
+    [
+      "Francia",
+      "Guillermo",
+      ""
+    ],
+    [
+      "El-Sheikh",
+      "Eman",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 11 Dec 2024 19:54:14 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Thu, 9 Jan 2025 19:15:20 GMT"
+    }
+  ],
+  "updateDate": "2025-01-13",
+  "timestamp": 1733946854000,
+  "abstract": "  Backdoor attacks pose a critical threat by embedding hidden triggers into\ninputs, causing models to misclassify them into target labels. While extensive\nresearch has focused on mitigating these attacks in object recognition models\nthrough weight fine-tuning, much less attention has been given to detecting\nbackdoored samples directly. Given the vast datasets used in training, manual\ninspection for backdoor triggers is impractical, and even state-of-the-art\ndefense mechanisms fail to fully neutralize their impact. To address this gap,\nwe introduce a groundbreaking method to detect unseen backdoored images during\nboth training and inference. Leveraging the transformative success of prompt\ntuning in Vision Language Models (VLMs), our approach trains learnable text\nprompts to differentiate clean images from those with hidden backdoor triggers.\nExperiments demonstrate the exceptional efficacy of this method, achieving an\nimpressive average accuracy of 86% across two renowned datasets for detecting\nunseen backdoor triggers, establishing a new standard in backdoor defense.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Cryptography and Security",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "edPyuUYsM-fitShAOji7G9Sdg28QgUVEWoPGzQ9dtxk",
+  "pdfSize": "10219648"
+}

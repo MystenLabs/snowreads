@@ -1,0 +1,49 @@
+{
+  "id": "2412.17002",
+  "title": "To Travel Quickly or to Park Conveniently: Coupled Resource Allocations\n  with Multi-Karma Economies",
+  "authors": "Ezzat Elokda, Andrea Censi, Saverio Bolognani, Florian D\\\"orfler,\n  Emilio Frazzoli",
+  "authorsParsed": [
+    [
+      "Elokda",
+      "Ezzat",
+      ""
+    ],
+    [
+      "Censi",
+      "Andrea",
+      ""
+    ],
+    [
+      "Bolognani",
+      "Saverio",
+      ""
+    ],
+    [
+      "Dörfler",
+      "Florian",
+      ""
+    ],
+    [
+      "Frazzoli",
+      "Emilio",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 22 Dec 2024 12:39:39 GMT"
+    }
+  ],
+  "updateDate": "2024-12-24",
+  "timestamp": 1734871179000,
+  "abstract": "  The large-scale allocation of public resources (e.g., transportation, energy)\nis among the core challenges of future Cyber-Physical-Human Systems (CPHS). In\norder to guarantee that these systems are efficient and fair, recent works have\ninvestigated non-monetary resource allocation schemes, including schemes that\nemploy karma. Karma is a non-tradable token that flows from users gaining\nresources to users yielding resources. Thus far karma-based solutions\nconsidered the allocation of a single public resource, however, modern CPHS are\ncomplex as they involve the allocation of multiple coupled resources. For\nexample, a user might want to trade-off fast travel on highways for convenient\nparking in the city center, and different users could have heterogeneous\npreferences for such coupled resources. In this paper, we explore how to\noptimally combine multiple karma economies for coupled resource allocations,\nusing two mechanism-design instruments: (non-uniform) karma redistribution; and\n(non-unit) exchange rates. We first extend the existing Dynamic Population Game\n(DPG) model that predicts the Stationary Nash Equilibrium (SNE) of the\nmulti-karma economies. Then, in a numerical case study, we demonstrate that the\ndesign of redistribution significantly affects the coupled resource\nallocations, while non-unit exchange rates play a minor role. To assess the\nallocation outcomes under user heterogeneity, we adopt Nash welfare as our\nsocial welfare function, since it makes no interpersonal comparisons and it is\naxiomatically rooted in social choice theory. Our findings suggest that the\nsimplest mechanism design, that is, uniform redistribution with unit exchange\nrates, also attains maximum social welfare.\n",
+  "subjects": [
+    "Computer Science/Computer Science and Game Theory",
+    "Computer Science/Systems and Control",
+    "Electrical Engineering and Systems Science/Systems and Control"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "dFnzThCSM3nKTPPw_xD6Pkvfm4VuP0k4_2cjpnVd0Cw",
+  "pdfSize": "588635"
+}

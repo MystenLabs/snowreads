@@ -1,0 +1,39 @@
+{
+  "id": "2412.08185",
+  "title": "Exploring Multidimensional Checkworthiness: Designing AI-assisted Claim\n  Prioritization for Human Fact-checkers",
+  "authors": "Houjiang Liu, Jacek Gwizdka, Matthew Lease",
+  "authorsParsed": [
+    [
+      "Liu",
+      "Houjiang",
+      ""
+    ],
+    [
+      "Gwizdka",
+      "Jacek",
+      ""
+    ],
+    [
+      "Lease",
+      "Matthew",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 11 Dec 2024 08:24:15 GMT"
+    }
+  ],
+  "updateDate": "2024-12-12",
+  "timestamp": 1733905455000,
+  "abstract": "  Given the massive volume of potentially false claims circulating online,\nclaim prioritization is essential in allocating limited human resources\navailable for fact-checking. In this study, we perceive claim prioritization as\nan information retrieval (IR) task: just as multidimensional IR relevance, with\nmany factors influencing which search results a user deems relevant,\ncheckworthiness is also multi-faceted, subjective, and even personal, with many\nfactors influencing how fact-checkers triage and select which claims to check.\nOur study investigates both the multidimensional nature of checkworthiness and\neffective tool support to assist fact-checkers in claim prioritization.\nMethodologically, we pursue Research through Design combined with mixed-method\nevaluation. We develop an AI-assisted claim prioritization prototype as a probe\nto explore how fact-checkers use multidimensional checkworthiness factors in\nclaim prioritization, simultaneously probing fact-checker needs while also\nexploring the design space to meet those needs.\n  Our study with 16 professional fact-checkers investigates: 1) how\nparticipants assessed the relative importance of different checkworthy\ndimensions and apply different priorities in claim selection; 2) how they\ncreated customized GPT-based search filters and the corresponding benefits and\nlimitations; and 3) their overall user experiences with our prototype. Our work\nmakes a conceptual contribution between multidimensional IR relevance and\nfact-checking checkworthiness, with findings demonstrating the value of\ncorresponding tooling support. Specifically, we uncovered a hierarchical\nprioritization strategy fact-checkers implicitly use, revealing an\nunderexplored aspect of their workflow, with actionable design recommendations\nfor improving claim triage across multi-dimensional checkworthiness and\ntailoring this process with LLM integration.\n",
+  "subjects": [
+    "Computer Science/Human-Computer Interaction",
+    "Computer Science/Computers and Society",
+    "Computer Science/Information Retrieval"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "dUbNwh4d_t7ZlYu2pLiPy1XwMBpFrRZDJSHsLOEg21Q",
+  "pdfSize": "8939448"
+}

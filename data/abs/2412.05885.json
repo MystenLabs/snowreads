@@ -1,0 +1,57 @@
+{
+  "id": "2412.05885",
+  "title": "Transcorrelated Theory with Pseudopotentials",
+  "authors": "Kristoffer Simula, Evelin Martine Corvid Christlmaier, Maria-Andreea\n  Filip, J. Philip Haupt, Daniel Kats, Pablo Lopez-Rios, and Ali Alavi",
+  "authorsParsed": [
+    [
+      "Simula",
+      "Kristoffer",
+      ""
+    ],
+    [
+      "Christlmaier",
+      "Evelin Martine Corvid",
+      ""
+    ],
+    [
+      "Filip",
+      "Maria-Andreea",
+      ""
+    ],
+    [
+      "Haupt",
+      "J. Philip",
+      ""
+    ],
+    [
+      "Kats",
+      "Daniel",
+      ""
+    ],
+    [
+      "Lopez-Rios",
+      "Pablo",
+      ""
+    ],
+    [
+      "Alavi",
+      "Ali",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 8 Dec 2024 10:34:30 GMT"
+    }
+  ],
+  "updateDate": "2024-12-10",
+  "timestamp": 1733654070000,
+  "abstract": "  The transcorrelated (TC) method performs a similarity transformation on the\n  electronic Schr\\\"odinger equation via Jastrow factorization of the wave\nfunction. This\n  has demonstrated significant advancements in computational\n  electronic structure theory by\n  improving basis set convergence and compactifying the description of the wave\nfunction. In\n  this work, we introduce a new approach that incorporates pseudopotentials\n(PPs) into the\n  TC framework, significantly accelerating Jastrow factor optimization and\nreducing\n  computational costs. Our results for ionization potentials, atomization\nenergies, and\n  dissociation curves of first-row atoms and molecules show that PPs provide\nchemically\n  accurate descriptions across a range of systems and give guidelines for\nfuture\n  theory and applications.\n  The new pseudopotential-based TC method opens possibilities for applying TC\nto more complex\n  and larger systems, such as transition metals and solid-state systems.\n",
+  "subjects": [
+    "Physics/Chemical Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "ecv2y9_x-yrKtYmSSMiFjek8OxVJu_myhvZToZFQMR0",
+  "pdfSize": "1493122"
+}

@@ -1,0 +1,45 @@
+{
+  "id": "2412.14467",
+  "title": "Towards Provable Security in Industrial Control Systems Via Dynamic\n  Protocol Attestation",
+  "authors": "Arthur Amorim, Trevor Kann, Max Taylor, Lance Joneckis",
+  "authorsParsed": [
+    [
+      "Amorim",
+      "Arthur",
+      ""
+    ],
+    [
+      "Kann",
+      "Trevor",
+      ""
+    ],
+    [
+      "Taylor",
+      "Max",
+      ""
+    ],
+    [
+      "Joneckis",
+      "Lance",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 19 Dec 2024 02:28:35 GMT"
+    }
+  ],
+  "updateDate": "2024-12-20",
+  "timestamp": 1734575315000,
+  "abstract": "  Industrial control systems (ICSs) increasingly rely on digital technologies\nvulnerable to cyber attacks. Cyber attackers can infiltrate ICSs and execute\nmalicious actions. Individually, each action seems innocuous. But taken\ntogether, they cause the system to enter an unsafe state. These attacks have\nresulted in dramatic consequences such as physical damage, economic loss, and\nenvironmental catastrophes. This paper introduces a methodology that restricts\nactions using protocols. These protocols only allow safe actions to execute.\nProtocols are written in a domain specific language we have embedded in an\ninteractive theorem prover (ITP). The ITP enables formal, machine-checked\nproofs to ensure protocols maintain safety properties. We use dynamic\nattestation to ensure ICSs conform to their protocol even if an adversary\ncompromises a component. Since protocol conformance prevents unsafe actions,\nthe previously mentioned cyber attacks become impossible. We demonstrate the\neffectiveness of our methodology using an example from the Fischertechnik\nIndustry 4.0 platform. We measure dynamic attestation's impact on latency and\nthroughput. Our approach is a starting point for studying how to combine formal\nmethods and protocol design to thwart attacks intended to cripple ICSs.\n",
+  "subjects": [
+    "Computer Science/Cryptography and Security",
+    "Computer Science/Formal Languages and Automata Theory",
+    "Computer Science/Logic in Computer Science",
+    "Computer Science/Programming Languages"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "ZJVQC060w1ZxGQCPl2_kRUmNhtUeOW1rEOQArt1L7iA",
+  "pdfSize": "1423474"
+}

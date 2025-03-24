@@ -1,0 +1,79 @@
+{
+  "id": "2412.08589",
+  "title": "SPACE-SUIT: An Artificial Intelligence based chromospheric feature\n  extractor and classifier for SUIT",
+  "authors": "Pranava Seth (Thapar Institute of Engineering and Technology, India;\n  Inter University Centre for Astronomy and Astrophysics, India), Vishal\n  Upendran (Bay Area Environmental Research Institute, USA; Lockheed Martin\n  Solar and Astrophysics Laboratory, USA), Megha Anand (Inter University Centre\n  for Astronomy and Astrophysics, India; Manipal Academy of Higher Education,\n  India), Janmejoy Sarkar (Inter University Centre for Astronomy and\n  Astrophysics, India; Tezpur University, India), Soumya Roy (Inter University\n  Centre for Astronomy and Astrophysics, India), Priyadarshan Chaki (Indian\n  Association for the Cultivation of Science, India), Pratyay Chowdhury\n  (Hansraj College, University of Delhi, India), Borishan Ghosh (Ramakrishna\n  Mission Residential College, India) and Durgesh Tripathi (Inter University\n  Centre for Astronomy and Astrophysics, India)",
+  "authorsParsed": [
+    [
+      "Seth",
+      "Pranava",
+      "",
+      "Thapar Institute of Engineering and Technology, India;\n  Inter University Centre for Astronomy and Astrophysics, India"
+    ],
+    [
+      "Upendran",
+      "Vishal",
+      "",
+      "Bay Area Environmental Research Institute, USA; Lockheed Martin\n  Solar and Astrophysics Laboratory, USA"
+    ],
+    [
+      "Anand",
+      "Megha",
+      "",
+      "Inter University Centre\n  for Astronomy and Astrophysics, India; Manipal Academy of Higher Education,\n  India"
+    ],
+    [
+      "Sarkar",
+      "Janmejoy",
+      "",
+      "Inter University Centre for Astronomy and\n  Astrophysics, India; Tezpur University, India"
+    ],
+    [
+      "Roy",
+      "Soumya",
+      "",
+      "Inter University\n  Centre for Astronomy and Astrophysics, India"
+    ],
+    [
+      "Chaki",
+      "Priyadarshan",
+      "",
+      "Indian\n  Association for the Cultivation of Science, India"
+    ],
+    [
+      "Chowdhury",
+      "Pratyay",
+      "",
+      "Hansraj College, University of Delhi, India"
+    ],
+    [
+      "Ghosh",
+      "Borishan",
+      "",
+      "Ramakrishna\n  Mission Residential College, India"
+    ],
+    [
+      "Tripathi",
+      "Durgesh",
+      "",
+      "Inter University\n  Centre for Astronomy and Astrophysics, India"
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 11 Dec 2024 18:08:06 GMT"
+    }
+  ],
+  "updateDate": "2024-12-12",
+  "timestamp": 1733940486000,
+  "abstract": "  The Solar Ultraviolet Imaging Telescope(SUIT) onboard Aditya-L1 is an imager\nthat observes the solar photosphere and chromosphere through observations in\nthe wavelength range of 200-400 nm. A comprehensive understanding of the plasma\nand thermodynamic properties of chromospheric and photospheric morphological\nstructures requires a large sample statistical study, necessitating the\ndevelopment of automatic feature detection methods. To this end, we develop the\nfeature detection algorithm SPACE-SUIT: Solar Phenomena Analysis and\nClassification using Enhanced vision techniques for SUIT, to detect and\nclassify the solar chromospheric features to be observed from SUIT's Mg II k\nfilter. Specifically, we target plage regions, sunspots, filaments, and\noff-limb structures. SPACE uses You Only Look Once(YOLO), a neural\nnetwork-based model to identify regions of interest. We train and validate\nSPACE using mock-SUIT images developed from Interface Region Imaging\nSpectrometer(IRIS) full-disk mosaic images in Mg II k line, while we also\nperform detection on Level-1 SUIT data. SPACE achieves an approximate precision\nof 0.788, recall 0.863 and MAP of 0.874 on the validation mock SUIT FITS\ndataset. Given the manual labeling of our dataset, we perform \"self-validation\"\nby applying statistical measures and Tamura features on the ground truth and\npredicted bounding boxes. We find the distributions of entropy, contrast,\ndissimilarity, and energy to show differences in the features. These\ndifferences are qualitatively captured by the detected regions predicted by\nSPACE and validated with the observed SUIT images, even in the absence of\nlabeled ground truth. This work not only develops a chromospheric feature\nextractor but also demonstrates the effectiveness of statistical metrics and\nTamura features for distinguishing chromospheric features, offering independent\nvalidation for future detection schemes.\n",
+  "subjects": [
+    "Astrophysics/Solar and Stellar Astrophysics",
+    "Astrophysics/Instrumentation and Methods for Astrophysics",
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "R1exZxu0EgTv9mKg5D5zTRikS5eCNrebwGNR42FbHa8",
+  "pdfSize": "17721838"
+}

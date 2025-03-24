@@ -1,0 +1,57 @@
+{
+  "id": "2412.15218",
+  "title": "Investigating the importance of social vulnerability in opioid-related\n  mortality across the United States",
+  "authors": "Andrew Deas, Adam Spannaus, Dakotah D. Maguire, Jodie Trafton, Anuj J.\n  Kapadia, Vasileios Maroulas",
+  "authorsParsed": [
+    [
+      "Deas",
+      "Andrew",
+      ""
+    ],
+    [
+      "Spannaus",
+      "Adam",
+      ""
+    ],
+    [
+      "Maguire",
+      "Dakotah D.",
+      ""
+    ],
+    [
+      "Trafton",
+      "Jodie",
+      ""
+    ],
+    [
+      "Kapadia",
+      "Anuj J.",
+      ""
+    ],
+    [
+      "Maroulas",
+      "Vasileios",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 3 Dec 2024 16:53:34 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Mon, 17 Feb 2025 16:54:24 GMT"
+    }
+  ],
+  "updateDate": "2025-02-18",
+  "timestamp": 1733244814000,
+  "abstract": "  The opioid crisis remains a critical public health challenge in the United\nStates. Despite national efforts to reduce opioid prescribing rates by nearly\n45\\% between 2011 and 2021, opioid overdose deaths more than tripled during\nthis same period. This alarming trend reflects a major shift in the crisis,\nwith illegal opioids now driving the majority of overdose deaths instead of\nprescription opioids. Although much attention has been given to supply-side\nfactors fueling this transition, the underlying socioeconomic conditions that\nperpetuate and exacerbate opioid misuse remain less understood. Moreover, the\nCOVID-19 pandemic intensified the opioid crisis through widespread social\nisolation and record-high unemployment; consequently, understanding the\nsocioeconomic drivers of this epidemic has become even more crucial in recent\nyears. To address this need, our study examines the correlation between\nopioid-related mortality and thirteen components of the Social Vulnerability\nIndex (SVI). Leveraging a nationwide county-level dataset spanning consecutive\nyears from 2010 to 2022, this study integrates empirical insights from\nexploratory data analysis with feature importance metrics derived from machine\nlearning models. Our findings highlight critical social factors strongly\ncorrelated with opioid-related mortality, emphasizing their potential roles in\nworsening the epidemic when their levels are high and mitigating it when their\nlevels are low.\n",
+  "subjects": [
+    "Computer Science/Computers and Society",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "tfAX0r7z0S6rCnD5rhwBc3bQk2QWRMFUDcj4_6JFfoc",
+  "pdfSize": "5039814"
+}

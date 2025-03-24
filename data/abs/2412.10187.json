@@ -1,0 +1,67 @@
+{
+  "id": "2412.10187",
+  "title": "Neuro-Photonix: Enabling Near-Sensor Neuro-Symbolic AI Computing on\n  Silicon Photonics Substrate",
+  "authors": "Deniz Najafi, Hamza Errahmouni Barkam, Mehrdad Morsali, SungHeon\n  Jeong, Tamoghno Das, Arman Roohi, Mahdi Nikdast, Mohsen Imani, Shaahin Angizi",
+  "authorsParsed": [
+    [
+      "Najafi",
+      "Deniz",
+      ""
+    ],
+    [
+      "Barkam",
+      "Hamza Errahmouni",
+      ""
+    ],
+    [
+      "Morsali",
+      "Mehrdad",
+      ""
+    ],
+    [
+      "Jeong",
+      "SungHeon",
+      ""
+    ],
+    [
+      "Das",
+      "Tamoghno",
+      ""
+    ],
+    [
+      "Roohi",
+      "Arman",
+      ""
+    ],
+    [
+      "Nikdast",
+      "Mahdi",
+      ""
+    ],
+    [
+      "Imani",
+      "Mohsen",
+      ""
+    ],
+    [
+      "Angizi",
+      "Shaahin",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 13 Dec 2024 14:56:42 GMT"
+    }
+  ],
+  "updateDate": "2024-12-16",
+  "timestamp": 1734101802000,
+  "abstract": "  Neuro-symbolic Artificial Intelligence (AI) models, blending neural networks\nwith symbolic AI, have facilitated transparent reasoning and context\nunderstanding without the need for explicit rule-based programming. However,\nimplementing such models in the Internet of Things (IoT) sensor nodes presents\nhurdles due to computational constraints and intricacies. In this work, for the\nfirst time, we propose a near-sensor neuro-symbolic AI computing accelerator\nnamed Neuro-Photonix for vision applications. Neuro-photonix processes neural\ndynamic computations on analog data while inherently supporting\ngranularity-controllable convolution operations through the efficient use of\nphotonic devices. Additionally, the creation of an innovative, low-cost ADC\nthat works seamlessly with photonic technology removes the necessity for costly\nADCs. Moreover, Neuro-Photonix facilitates the generation of HyperDimensional\n(HD) vectors for HD-based symbolic AI computing. This approach allows the\nproposed design to substantially diminish the energy consumption and latency of\nconversion, transmission, and processing within the established cloud-centric\narchitecture and recently designed accelerators. Our device-to-architecture\nresults show that Neuro-Photonix achieves 30 GOPS/W and reduces power\nconsumption by a factor of 20.8 and 4.1 on average on neural dynamics compared\nto ASIC baselines and photonic accelerators while preserving accuracy.\n",
+  "subjects": [
+    "Computer Science/Hardware Architecture"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "JhByVPWpmOWjnLHJCUnLbjhuk7VXrE-U0xvNAmcA_zU",
+  "pdfSize": "1699588"
+}

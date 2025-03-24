@@ -1,0 +1,38 @@
+{
+  "id": "2412.17449",
+  "title": "Applying LLM and Topic Modelling in Psychotherapeutic Contexts",
+  "authors": "Alexander Vanin, Vadim Bolshev, Anastasia Panfilova",
+  "authorsParsed": [
+    [
+      "Vanin",
+      "Alexander",
+      ""
+    ],
+    [
+      "Bolshev",
+      "Vadim",
+      ""
+    ],
+    [
+      "Panfilova",
+      "Anastasia",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 23 Dec 2024 10:14:32 GMT"
+    }
+  ],
+  "updateDate": "2024-12-24",
+  "timestamp": 1734948872000,
+  "abstract": "  This study explores the use of Large language models to analyze therapist\nremarks in a psychotherapeutic setting. The paper focuses on the application of\nBERTopic, a machine learning-based topic modeling tool, to the dialogue of two\ndifferent groups of therapists (classical and modern), which makes it possible\nto identify and describe a set of topics that consistently emerge across these\ngroups. The paper describes in detail the chosen algorithm for BERTopic, which\nincluded creating a vector space from a corpus of therapist remarks, reducing\nits dimensionality, clustering the space, and creating and optimizing topic\nrepresentation. Along with the automatic topical modeling by the BERTopic, the\nresearch involved an expert assessment of the findings and manual topic\nstructure optimization. The topic modeling results highlighted the most common\nand stable topics in therapists speech, offering insights into how language\npatterns in therapy develop and remain stable across different therapeutic\nstyles. This work contributes to the growing field of machine learning in\npsychotherapy by demonstrating the potential of automated methods to improve\nboth the practice and training of therapists. The study highlights the value of\ntopic modeling as a tool for gaining a deeper understanding of therapeutic\ndialogue and offers new opportunities for improving therapeutic effectiveness\nand clinical supervision.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "oK1f9DxEUsMRWIUT_xUCfZu7Bh6xBeMEvUyq938Oa_c",
+  "pdfSize": "1032780"
+}

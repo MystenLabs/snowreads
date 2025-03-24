@@ -1,0 +1,47 @@
+{
+  "id": "2412.12766",
+  "title": "Towards a Training Free Approach for 3D Scene Editing",
+  "authors": "Vivek Madhavaram, Shivangana Rawat, Chaitanya Devaguptapu, Charu\n  Sharma, Manohar Kaul",
+  "authorsParsed": [
+    [
+      "Madhavaram",
+      "Vivek",
+      ""
+    ],
+    [
+      "Rawat",
+      "Shivangana",
+      ""
+    ],
+    [
+      "Devaguptapu",
+      "Chaitanya",
+      ""
+    ],
+    [
+      "Sharma",
+      "Charu",
+      ""
+    ],
+    [
+      "Kaul",
+      "Manohar",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 17 Dec 2024 10:31:03 GMT"
+    }
+  ],
+  "updateDate": "2024-12-18",
+  "timestamp": 1734431463000,
+  "abstract": "  Text driven diffusion models have shown remarkable capabilities in editing\nimages. However, when editing 3D scenes, existing works mostly rely on training\na NeRF for 3D editing. Recent NeRF editing methods leverages edit operations by\ndeploying 2D diffusion models and project these edits into 3D space. They\nrequire strong positional priors alongside text prompt to identify the edit\nlocation. These methods are operational on small 3D scenes and are more\ngeneralized to particular scene. They require training for each specific edit\nand cannot be exploited in real-time edits. To address these limitations, we\npropose a novel method, FreeEdit, to make edits in training free manner using\nmesh representations as a substitute for NeRF. Training-free methods are now a\npossibility because of the advances in foundation model's space. We leverage\nthese models to bring a training-free alternative and introduce solutions for\ninsertion, replacement and deletion. We consider insertion, replacement and\ndeletion as basic blocks for performing intricate edits with certain\ncombinations of these operations. Given a text prompt and a 3D scene, our model\nis capable of identifying what object should be inserted/replaced or deleted\nand location where edit should be performed. We also introduce a novel\nalgorithm as part of FreeEdit to find the optimal location on grounding object\nfor placement. We evaluate our model by comparing it with baseline models on a\nwide range of scenes using quantitative and qualitative metrics and showcase\nthe merits of our method with respect to others.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "7D4YS9ws4HXMCBLjoB6mwZhyEY5h-6yhtza6ZE-rnQM",
+  "pdfSize": "1596815"
+}

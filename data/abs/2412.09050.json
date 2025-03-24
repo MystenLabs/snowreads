@@ -1,0 +1,42 @@
+{
+  "id": "2412.09050",
+  "title": "ContextHOI: Spatial Context Learning for Human-Object Interaction\n  Detection",
+  "authors": "Mingda Jia, Liming Zhao, Ge Li and Yun Zheng",
+  "authorsParsed": [
+    [
+      "Jia",
+      "Mingda",
+      ""
+    ],
+    [
+      "Zhao",
+      "Liming",
+      ""
+    ],
+    [
+      "Li",
+      "Ge",
+      ""
+    ],
+    [
+      "Zheng",
+      "Yun",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 12 Dec 2024 08:21:19 GMT"
+    }
+  ],
+  "updateDate": "2024-12-13",
+  "timestamp": 1733991679000,
+  "abstract": "  Spatial contexts, such as the backgrounds and surroundings, are considered\ncritical in Human-Object Interaction (HOI) recognition, especially when the\ninstance-centric foreground is blurred or occluded. Recent advancements in HOI\ndetectors are usually built upon detection transformer pipelines. While such an\nobject-detection-oriented paradigm shows promise in localizing objects, its\nexploration of spatial context is often insufficient for accurately recognizing\nhuman actions. To enhance the capabilities of object detectors for HOI\ndetection, we present a dual-branch framework named ContextHOI, which\nefficiently captures both object detection features and spatial contexts. In\nthe context branch, we train the model to extract informative spatial context\nwithout requiring additional hand-craft background labels. Furthermore, we\nintroduce context-aware spatial and semantic supervision to the context branch\nto filter out irrelevant noise and capture informative contexts. ContextHOI\nachieves state-of-the-art performance on the HICO-DET and v-coco benchmarks.\nFor further validation, we construct a novel benchmark, HICO-ambiguous, which\nis a subset of HICO-DET that contains images with occluded or impaired instance\ncues. Extensive experiments across all benchmarks, complemented by\nvisualizations, underscore the enhancements provided by ContextHOI, especially\nin recognizing interactions involving occluded or blurred instances.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "IystcXvTrkpmtLdSb9xsYEI0xJ3ICfowjgFIX1sg_PY",
+  "pdfSize": "903298"
+}

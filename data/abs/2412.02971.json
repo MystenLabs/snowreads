@@ -1,0 +1,42 @@
+{
+  "id": "2412.02971",
+  "title": "MedAutoCorrect: Image-Conditioned Autocorrection in Medical Reporting",
+  "authors": "Arnold Caleb Asiimwe and D\\'idac Sur\\'is and Pranav Rajpurkar and Carl\n  Vondrick",
+  "authorsParsed": [
+    [
+      "Asiimwe",
+      "Arnold Caleb",
+      ""
+    ],
+    [
+      "Surís",
+      "Dídac",
+      ""
+    ],
+    [
+      "Rajpurkar",
+      "Pranav",
+      ""
+    ],
+    [
+      "Vondrick",
+      "Carl",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 4 Dec 2024 02:32:53 GMT"
+    }
+  ],
+  "updateDate": "2024-12-05",
+  "timestamp": 1733279573000,
+  "abstract": "  In medical reporting, the accuracy of radiological reports, whether generated\nby humans or machine learning algorithms, is critical. We tackle a new task in\nthis paper: image-conditioned autocorrection of inaccuracies within these\nreports. Using the MIMIC-CXR dataset, we first intentionally introduce a\ndiverse range of errors into reports. Subsequently, we propose a two-stage\nframework capable of pinpointing these errors and then making corrections,\nsimulating an \\textit{autocorrection} process. This method aims to address the\nshortcomings of existing automated medical reporting systems, like factual\nerrors and incorrect conclusions, enhancing report reliability in vital\nhealthcare applications. Importantly, our approach could serve as a guardrail,\nensuring the accuracy and trustworthiness of automated report generation.\nExperiments on established datasets and state of the art report generation\nmodels validate this method's potential in correcting medical reporting errors.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "_bQaFZ0gtAfQ0Q9TCABdXZuZeBkwfLTdeW8hglkIMKc",
+  "pdfSize": "5355976"
+}

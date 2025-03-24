@@ -1,0 +1,49 @@
+{
+  "id": "2412.08111",
+  "title": "Seeing Syntax: Uncovering Syntactic Learning Limitations in\n  Vision-Language Models",
+  "authors": "Sri Harsha Dumpala, David Arps, Sageev Oore, Laura Kallmeyer, Hassan\n  Sajjad",
+  "authorsParsed": [
+    [
+      "Dumpala",
+      "Sri Harsha",
+      ""
+    ],
+    [
+      "Arps",
+      "David",
+      ""
+    ],
+    [
+      "Oore",
+      "Sageev",
+      ""
+    ],
+    [
+      "Kallmeyer",
+      "Laura",
+      ""
+    ],
+    [
+      "Sajjad",
+      "Hassan",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 11 Dec 2024 05:37:04 GMT"
+    }
+  ],
+  "updateDate": "2024-12-12",
+  "timestamp": 1733895424000,
+  "abstract": "  Vision-language models (VLMs), serve as foundation models for multi-modal\napplications such as image captioning and text-to-image generation. Recent\nstudies have highlighted limitations in VLM text encoders, particularly in\nareas like compositionality and semantic understanding, though the underlying\nreasons for these limitations remain unclear. In this work, we aim to address\nthis gap by analyzing the syntactic information, one of the fundamental\nlinguistic properties, encoded by the text encoders of VLMs. We perform a\nthorough analysis comparing VLMs with different objective functions, parameter\nsize and training data size, and with uni-modal language models (ULMs) in their\nability to encode syntactic knowledge. Our findings suggest that ULM text\nencoders acquire syntactic information more effectively than those in VLMs. The\nsyntactic information learned by VLM text encoders is shaped primarily by the\npre-training objective, which plays a more crucial role than other factors such\nas model architecture, model size, or the volume of pre-training data. Models\nexhibit different layer-wise trends where CLIP performance dropped across\nlayers while for other models, middle layers are rich in encoding syntactic\nknowledge.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Computation and Language",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "XiXlixWliOPpWGE4ddZWPj-W-6wPUV2EEvODoDnaaUE",
+  "pdfSize": "20683276"
+}

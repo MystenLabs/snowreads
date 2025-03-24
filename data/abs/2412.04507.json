@@ -1,0 +1,118 @@
+{
+  "id": "2412.04507",
+  "title": "YSO implantation detector for beta-delayed neutron spectroscopy",
+  "authors": "M. Singh, R. Yokoyama, R. Grzywacz, A. Keeler, T. T. King, J.\n  Agramunt, N. T. Brewer, S. Go, J. Liu, S. Nishimura, P. Parkhurst, V. H.\n  Phong, M.M. Rajabali, B.C. Rasco, K.P. Rykaczewski, D.W. Stracener, A.\n  Tolosa-Delgado, K. Vaigneur and M. Wolinska-Cichocka",
+  "authorsParsed": [
+    [
+      "Singh",
+      "M.",
+      ""
+    ],
+    [
+      "Yokoyama",
+      "R.",
+      ""
+    ],
+    [
+      "Grzywacz",
+      "R.",
+      ""
+    ],
+    [
+      "Keeler",
+      "A.",
+      ""
+    ],
+    [
+      "King",
+      "T. T.",
+      ""
+    ],
+    [
+      "Agramunt",
+      "J.",
+      ""
+    ],
+    [
+      "Brewer",
+      "N. T.",
+      ""
+    ],
+    [
+      "Go",
+      "S.",
+      ""
+    ],
+    [
+      "Liu",
+      "J.",
+      ""
+    ],
+    [
+      "Nishimura",
+      "S.",
+      ""
+    ],
+    [
+      "Parkhurst",
+      "P.",
+      ""
+    ],
+    [
+      "Phong",
+      "V. H.",
+      ""
+    ],
+    [
+      "Rajabali",
+      "M. M.",
+      ""
+    ],
+    [
+      "Rasco",
+      "B. C.",
+      ""
+    ],
+    [
+      "Rykaczewski",
+      "K. P.",
+      ""
+    ],
+    [
+      "Stracener",
+      "D. W.",
+      ""
+    ],
+    [
+      "Tolosa-Delgado",
+      "A.",
+      ""
+    ],
+    [
+      "Vaigneur",
+      "K.",
+      ""
+    ],
+    [
+      "Wolinska-Cichocka",
+      "M.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 4 Dec 2024 03:44:56 GMT"
+    }
+  ],
+  "updateDate": "2024-12-09",
+  "timestamp": 1733283896000,
+  "abstract": "  A segmented-scintillator-based implantation detector was developed to study\nthe energy distribution of beta-delayed neutrons emitted from exotic isotopes.\nThe detector comprises a 34 $\\times$ 34 YSO scintillator coupled to an 8\n$\\times$ 8 Position-Sensitive Photo-Multiplier Tube (PSPMT) via a tapered light\nguide. The detector was used at RIBF, RIKEN, for time-of-flight-based neutron\nspectroscopy measurement in the $^{78}$Ni region. The detector provides the\nposition and timing resolution necessary for ion-beta correlations and ToF\nmeasurements. The detector provides a high $\\sim$ 80 $\\%$ beta-detection\nefficiency and a sub-nanosecond timing resolution. This contribution discusses\nthe details of the design, operation, implementation, and analysis developed to\nobtain neutron time-of-flight spectrum and the analysis methods in the context\nof neutron-rich nuclei in the $^{78}$Ni region.\n",
+  "subjects": [
+    "Physics/Instrumentation and Detectors",
+    "Physics/Nuclear Experiment"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "ZO1b1DlpfOSSFnbSjm8LicD4r_aXAyhfKN4EEy5mnbc",
+  "pdfSize": "7185137"
+}

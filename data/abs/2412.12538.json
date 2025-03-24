@@ -1,0 +1,38 @@
+{
+  "id": "2412.12538",
+  "title": "A Scalable Approach to Benchmarking the In-Conversation Differential\n  Diagnostic Accuracy of a Health AI",
+  "authors": "Deep Bhatt, Surya Ayyagari, Anuruddh Mishra",
+  "authorsParsed": [
+    [
+      "Bhatt",
+      "Deep",
+      ""
+    ],
+    [
+      "Ayyagari",
+      "Surya",
+      ""
+    ],
+    [
+      "Mishra",
+      "Anuruddh",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 17 Dec 2024 05:02:33 GMT"
+    }
+  ],
+  "updateDate": "2024-12-18",
+  "timestamp": 1734411753000,
+  "abstract": "  Diagnostic errors in healthcare persist as a critical challenge, with\nincreasing numbers of patients turning to online resources for health\ninformation. While AI-powered healthcare chatbots show promise, there exists no\nstandardized and scalable framework for evaluating their diagnostic\ncapabilities. This study introduces a scalable benchmarking methodology for\nassessing health AI systems and demonstrates its application through August, an\nAI-driven conversational chatbot. Our methodology employs 400 validated\nclinical vignettes across 14 medical specialties, using AI-powered patient\nactors to simulate realistic clinical interactions. In systematic testing,\nAugust achieved a top-one diagnostic accuracy of 81.8% (327/400 cases) and a\ntop-two accuracy of 85.0% (340/400 cases), significantly outperforming\ntraditional symptom checkers. The system demonstrated 95.8% accuracy in\nspecialist referrals and required 47% fewer questions compared to conventional\nsymptom checkers (mean 16 vs 29 questions), while maintaining empathetic\ndialogue throughout consultations. These findings demonstrate the potential of\nAI chatbots to enhance healthcare delivery, though implementation challenges\nremain regarding real-world validation and integration of objective clinical\ndata. This research provides a reproducible framework for evaluating healthcare\nAI systems, contributing to the responsible development and deployment of AI in\nclinical settings.\n",
+  "subjects": [
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Human-Computer Interaction"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "DmLCS0KmjluL-VgJduwX7_uaR_hN5xJyM-MRgej1j-o",
+  "pdfSize": "389593"
+}

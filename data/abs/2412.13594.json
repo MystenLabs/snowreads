@@ -1,0 +1,48 @@
+{
+  "id": "2412.13594",
+  "title": "Generalizable Sensor-Based Activity Recognition via Categorical Concept\n  Invariant Learning",
+  "authors": "Di Xiong, Shuoyuan Wang, Lei Zhang, Wenbo Huang and Chaolei Han",
+  "authorsParsed": [
+    [
+      "Xiong",
+      "Di",
+      ""
+    ],
+    [
+      "Wang",
+      "Shuoyuan",
+      ""
+    ],
+    [
+      "Zhang",
+      "Lei",
+      ""
+    ],
+    [
+      "Huang",
+      "Wenbo",
+      ""
+    ],
+    [
+      "Han",
+      "Chaolei",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 18 Dec 2024 08:18:03 GMT"
+    }
+  ],
+  "updateDate": "2024-12-19",
+  "timestamp": 1734509883000,
+  "abstract": "  Human Activity Recognition (HAR) aims to recognize activities by training\nmodels on massive sensor data. In real-world deployment, a crucial aspect of\nHAR that has been largely overlooked is that the test sets may have different\ndistributions from training sets due to inter-subject variability including\nage, gender, behavioral habits, etc., which leads to poor generalization\nperformance. One promising solution is to learn domain-invariant\nrepresentations to enable a model to generalize on an unseen distribution.\nHowever, most existing methods only consider the feature-invariance of the\npenultimate layer for domain-invariant learning, which leads to suboptimal\nresults. In this paper, we propose a Categorical Concept Invariant Learning\n(CCIL) framework for generalizable activity recognition, which introduces a\nconcept matrix to regularize the model in the training stage by simultaneously\nconcentrating on feature-invariance and logit-invariance. Our key idea is that\nthe concept matrix for samples belonging to the same activity category should\nbe similar. Extensive experiments on four public HAR benchmarks demonstrate\nthat our CCIL substantially outperforms the state-of-the-art approaches under\ncross-person, cross-dataset, cross-position, and one-person-to-another\nsettings.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "XvjbGw9rTZ6oxf6qsZZ7-_ifYkawoVCtH8q6rqA_fKU",
+  "pdfSize": "8105543"
+}

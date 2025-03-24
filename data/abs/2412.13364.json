@@ -1,0 +1,87 @@
+{
+  "id": "2412.13364",
+  "title": "Bringing Multimodality to Amazon Visual Search System",
+  "authors": "Xinliang Zhu, Michael Huang, Han Ding, Jinyu Yang, Kelvin Chen, Tao\n  Zhou, Tal Neiman, Ouye Xie, Son Tran, Benjamin Yao, Doug Gray, Anuj Bindal,\n  Arnab Dhua",
+  "authorsParsed": [
+    [
+      "Zhu",
+      "Xinliang",
+      ""
+    ],
+    [
+      "Huang",
+      "Michael",
+      ""
+    ],
+    [
+      "Ding",
+      "Han",
+      ""
+    ],
+    [
+      "Yang",
+      "Jinyu",
+      ""
+    ],
+    [
+      "Chen",
+      "Kelvin",
+      ""
+    ],
+    [
+      "Zhou",
+      "Tao",
+      ""
+    ],
+    [
+      "Neiman",
+      "Tal",
+      ""
+    ],
+    [
+      "Xie",
+      "Ouye",
+      ""
+    ],
+    [
+      "Tran",
+      "Son",
+      ""
+    ],
+    [
+      "Yao",
+      "Benjamin",
+      ""
+    ],
+    [
+      "Gray",
+      "Doug",
+      ""
+    ],
+    [
+      "Bindal",
+      "Anuj",
+      ""
+    ],
+    [
+      "Dhua",
+      "Arnab",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 17 Dec 2024 22:45:25 GMT"
+    }
+  ],
+  "updateDate": "2024-12-19",
+  "timestamp": 1734475525000,
+  "abstract": "  Image to image matching has been well studied in the computer vision\ncommunity. Previous studies mainly focus on training a deep metric learning\nmodel matching visual patterns between the query image and gallery images. In\nthis study, we show that pure image-to-image matching suffers from false\npositives caused by matching to local visual patterns. To alleviate this issue,\nwe propose to leverage recent advances in vision-language pretraining research.\nSpecifically, we introduce additional image-text alignment losses into deep\nmetric learning, which serve as constraints to the image-to-image matching\nloss. With additional alignments between the text (e.g., product title) and\nimage pairs, the model can learn concepts from both modalities explicitly,\nwhich avoids matching low-level visual features. We progressively develop two\nvariants, a 3-tower and a 4-tower model, where the latter takes one more short\ntext query input. Through extensive experiments, we show that this change leads\nto a substantial improvement to the image to image matching problem. We further\nleveraged this model for multimodal search, which takes both image and\nreformulation text queries to improve search quality. Both offline and online\nexperiments show strong improvements on the main metrics. Specifically, we see\n4.95% relative improvement on image matching click through rate with the\n3-tower model and 1.13% further improvement from the 4-tower model.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "i5zrJfmp0jXJ1eBCP0Aybm2Ede2d_5uBtTfHx5FvTsk",
+  "pdfSize": "4644417"
+}

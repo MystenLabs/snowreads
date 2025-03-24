@@ -1,0 +1,80 @@
+{
+  "id": "2412.08274",
+  "title": "2M-BELEBELE: Highly Multilingual Speech and American Sign Language\n  Comprehension Dataset",
+  "authors": "Marta R. Costa-juss\\`a, Bokai Yu, Pierre Andrews, Belen Alastruey,\n  Necati Cihan Camgoz, Joe Chuang, Jean Maillard, Christophe Ropers, Arina\n  Turkantenko, Carleigh Wood",
+  "authorsParsed": [
+    [
+      "Costa-jussà",
+      "Marta R.",
+      ""
+    ],
+    [
+      "Yu",
+      "Bokai",
+      ""
+    ],
+    [
+      "Andrews",
+      "Pierre",
+      ""
+    ],
+    [
+      "Alastruey",
+      "Belen",
+      ""
+    ],
+    [
+      "Camgoz",
+      "Necati Cihan",
+      ""
+    ],
+    [
+      "Chuang",
+      "Joe",
+      ""
+    ],
+    [
+      "Maillard",
+      "Jean",
+      ""
+    ],
+    [
+      "Ropers",
+      "Christophe",
+      ""
+    ],
+    [
+      "Turkantenko",
+      "Arina",
+      ""
+    ],
+    [
+      "Wood",
+      "Carleigh",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 11 Dec 2024 10:46:21 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Wed, 18 Dec 2024 18:56:19 GMT"
+    },
+    {
+      "version": "v3",
+      "created": "Mon, 23 Dec 2024 14:32:28 GMT"
+    }
+  ],
+  "updateDate": "2024-12-24",
+  "timestamp": 1733913981000,
+  "abstract": "  We introduce the first highly multilingual speech and American Sign Language\n(ASL) comprehension dataset by extending BELEBELE. Our dataset covers 74 spoken\nlanguages at the intersection of BELEBELE and FLEURS, and one sign language\n(ASL). We evaluate 2M-BELEBELE dataset for both 5-shot and zero-shot settings\nand across languages, the speech comprehension accuracy is ~ 2-3% average lower\ncompared to reading comprehension.\n",
+  "subjects": [
+    "Computer Science/Computation and Language"
+  ],
+  "license": "http://creativecommons.org/licenses/by-sa/4.0/",
+  "blobId": "l82T7D8MkMAWwVVMn8m3FyyASR7KnyoIEFDAHgxsKvg",
+  "pdfSize": "321734"
+}

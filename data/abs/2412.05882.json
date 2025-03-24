@@ -1,0 +1,43 @@
+{
+  "id": "2412.05882",
+  "title": "Towards Modeling Data Quality and Machine Learning Model Performance",
+  "authors": "Usman Anjum, Chris Trentman, Elrod Caden, Justin Zhan",
+  "authorsParsed": [
+    [
+      "Anjum",
+      "Usman",
+      ""
+    ],
+    [
+      "Trentman",
+      "Chris",
+      ""
+    ],
+    [
+      "Caden",
+      "Elrod",
+      ""
+    ],
+    [
+      "Zhan",
+      "Justin",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 8 Dec 2024 10:15:10 GMT"
+    }
+  ],
+  "updateDate": "2024-12-10",
+  "timestamp": 1733652910000,
+  "abstract": "  Understanding the effect of uncertainty and noise in data on machine learning\nmodels (MLM) is crucial in developing trust and measuring performance. In this\npaper, a new model is proposed to quantify uncertainties and noise in data on\nMLMs. Using the concept of signal-to-noise ratio (SNR), a new metric called\ndeterministic-non-deterministic ratio (DDR) is proposed to formulate\nperformance of a model. Using synthetic data in experiments, we show how\naccuracy can change with DDR and how we can use DDR-accuracy curves to\ndetermine performance of a model.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "27GMlTM3UeJnEZmmNpKvmfF78hSA6yYshLZTsGqyJDM",
+  "pdfSize": "662132"
+}

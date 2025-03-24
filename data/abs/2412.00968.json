@@ -1,0 +1,37 @@
+{
+  "id": "2412.00968",
+  "title": "Probing primordial non-Gaussianity by reconstructing the initial\n  conditions",
+  "authors": "Xinyi Chen, Nikhil Padmanabhan, Daniel J. Eisenstein",
+  "authorsParsed": [
+    [
+      "Chen",
+      "Xinyi",
+      ""
+    ],
+    [
+      "Padmanabhan",
+      "Nikhil",
+      ""
+    ],
+    [
+      "Eisenstein",
+      "Daniel J.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 1 Dec 2024 21:21:26 GMT"
+    }
+  ],
+  "updateDate": "2024-12-03",
+  "timestamp": 1733088086000,
+  "abstract": "  We propose to constrain the primordial (local-type) non-Gaussianity signal by\nfirst reconstructing the initial density field to remove the late time\nnon-Gaussianities introduced by gravitational evolution. Our reconstruction\nalgorithm combines perturbation theory on large scales with a convolutional\nneural network on small scales. We reconstruct the squared potential (that\nsources the non-Gaussian signal) out to $k=0.2\\ h$/Mpc to an accuracy of 99.8%.\nWe cross-correlate this squared potential field with the reconstructed density\nfield and verify that this computationally inexpensive estimator has the same\ninformation content as the full matter bispectrum. As a proof of concept, our\napproach can yield up to a factor of three improvement in the $f_{\\rm NL}$\nconstraints, although it does not yet include the complications of galaxy bias\nor imperfections in the reconstruction. These potential improvements make it a\npromising alternative to current approaches to constraining primordial\nnon-Gaussianity.\n",
+  "subjects": [
+    "Astrophysics/Cosmology and Nongalactic Astrophysics"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "Z43dTca3ok-VoaMEYDCg39H8kA-TTW2q_fEUrhJjFAE",
+  "pdfSize": "1388957"
+}

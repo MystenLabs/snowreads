@@ -1,0 +1,32 @@
+{
+  "id": "2412.19678",
+  "title": "An optimal uniqueness result for Riccati equations arising in abstract\n  parabolic control problems",
+  "authors": "Paolo Acquistapace, and Francesco Bartaloni",
+  "authorsParsed": [
+    [
+      "Acquistapace",
+      "Paolo",
+      ""
+    ],
+    [
+      "Bartaloni",
+      "Francesco",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 27 Dec 2024 15:03:13 GMT"
+    }
+  ],
+  "updateDate": "2024-12-30",
+  "timestamp": 1735311793000,
+  "abstract": "  An abstract nonautonomous parabolic linear-quadratic regulator problem with\nvery general final cost operator P_T is considered, subject to the same\nassumptions under which a classical solution of the associated differential\nRiccati equation was shown to exist, in two papers appeared in 1999 and 2000,\nby Terreni and the first named author. We prove an optimal uniqueness result\nfor the integral Riccati equation in a wide and natural class, filling a gap\nexisting in the autonomous case, too. In addition, we give a regularity result\nfor the optimal state.\n",
+  "subjects": [
+    "Mathematics/Optimization and Control"
+  ],
+  "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+  "blobId": "TyKXHHxVJedtzQ7uJs66mvvD04CjYeQX6REKC64rv1o",
+  "pdfSize": "263930"
+}

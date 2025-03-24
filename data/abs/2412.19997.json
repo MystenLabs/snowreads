@@ -1,0 +1,56 @@
+{
+  "id": "2412.19997",
+  "title": "FashionFAE: Fine-grained Attributes Enhanced Fashion Vision-Language\n  Pre-training",
+  "authors": "Jiale Huang, Dehong Gao, Jinxia Zhang, Zechao Zhan, Yang Hu, Xin Wang",
+  "authorsParsed": [
+    [
+      "Huang",
+      "Jiale",
+      ""
+    ],
+    [
+      "Gao",
+      "Dehong",
+      ""
+    ],
+    [
+      "Zhang",
+      "Jinxia",
+      ""
+    ],
+    [
+      "Zhan",
+      "Zechao",
+      ""
+    ],
+    [
+      "Hu",
+      "Yang",
+      ""
+    ],
+    [
+      "Wang",
+      "Xin",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 28 Dec 2024 03:45:49 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Sun, 12 Jan 2025 07:27:03 GMT"
+    }
+  ],
+  "updateDate": "2025-01-14",
+  "timestamp": 1735357549000,
+  "abstract": "  Large-scale Vision-Language Pre-training (VLP) has demonstrated remarkable\nsuccess in the general domain. However, in the fashion domain, items are\ndistinguished by fine-grained attributes like texture and material, which are\ncrucial for tasks such as retrieval. Existing models often fail to leverage\nthese fine-grained attributes from both text and image modalities. To address\nthe above issues, we propose a novel approach for the fashion domain,\nFine-grained Attributes Enhanced VLP (FashionFAE), which focuses on the\ndetailed characteristics of fashion data. An attribute-emphasized text\nprediction task is proposed to predict fine-grained attributes of the items.\nThis forces the model to focus on the salient attributes from the text\nmodality. Additionally, a novel attribute-promoted image reconstruction task is\nproposed, which further enhances the fine-grained ability of the model by\nleveraging the representative attributes from the image modality. Extensive\nexperiments show that FashionFAE significantly outperforms State-Of-The-Art\n(SOTA) methods, achieving 2.9% and 5.2% improvements in retrieval on sub-test\nand full test sets, respectively, and a 1.6% average improvement in recognition\ntasks.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "MmG6LrbacqDKftcBdjeKBwljc-VJdbTdZVxW3f4QunE",
+  "pdfSize": "952637"
+}

@@ -1,0 +1,59 @@
+{
+  "id": "2412.17957",
+  "title": "ArchComplete: Autoregressive 3D Architectural Design Generation with\n  Hierarchical Diffusion-Based Upsampling",
+  "authors": "S. Rasoulzadeh, M. Bank, I. Kovacic, K. Schinegger, S. Rutzinger, M.\n  Wimmer",
+  "authorsParsed": [
+    [
+      "Rasoulzadeh",
+      "S.",
+      ""
+    ],
+    [
+      "Bank",
+      "M.",
+      ""
+    ],
+    [
+      "Kovacic",
+      "I.",
+      ""
+    ],
+    [
+      "Schinegger",
+      "K.",
+      ""
+    ],
+    [
+      "Rutzinger",
+      "S.",
+      ""
+    ],
+    [
+      "Wimmer",
+      "M.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 23 Dec 2024 20:13:27 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Thu, 13 Feb 2025 21:57:44 GMT"
+    }
+  ],
+  "updateDate": "2025-02-17",
+  "timestamp": 1734984807000,
+  "abstract": "  Recent advances in 3D generative models have shown promising results but\noften fall short in capturing the complexity of architectural geometries and\ntopologies and fine geometric details at high resolutions. To tackle this, we\npresent ArchComplete, a two-stage voxel-based 3D generative pipeline consisting\nof a vector-quantised model, whose composition is modelled with an\nautoregressive transformer for generating coarse shapes, followed by a\nhierarchical upsampling strategy for further enrichment with fine structures\nand details. Key to our pipeline is (i) learning a contextually rich codebook\nof local patch embeddings, optimised alongside a 2.5D perceptual loss that\ncaptures global spatial correspondence of projections onto three axis-aligned\northogonal planes, and (ii) redefining upsampling as a set of conditional\ndiffusion models learning from a hierarchy of randomly cropped coarse-to-fine\nlocal volumetric patches. Trained on our introduced dataset of 3D house models\nwith fully modelled exterior and interior, ArchComplete autoregressively\ngenerates models at the resolution of $64^{3}$ and progressively refines them\nup to $512^{3}$, with voxel sizes as small as $ \\approx 9\\text{cm}$.\nArchComplete solves a variety of tasks, including genetic interpolation and\nvariation, unconditional synthesis, shape and plan-drawing completion, as well\nas geometric detailisation, while achieving state-of-the-art performance in\nquality, diversity, and computational efficiency.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Graphics",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "tiIyZwdY7oT7tRgQl8fpS3bI2vIxCeOVpUCEgQILvT8",
+  "pdfSize": "40845657"
+}

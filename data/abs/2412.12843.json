@@ -1,0 +1,53 @@
+{
+  "id": "2412.12843",
+  "title": "Efficient Event-based Semantic Segmentation with Spike-driven\n  Lightweight Transformer-based Networks",
+  "authors": "Xiaxin Zhu, Fangming Guo, Xianlei Long, Qingyi Gu, Chao Chen, Fuqiang\n  Gu",
+  "authorsParsed": [
+    [
+      "Zhu",
+      "Xiaxin",
+      ""
+    ],
+    [
+      "Guo",
+      "Fangming",
+      ""
+    ],
+    [
+      "Long",
+      "Xianlei",
+      ""
+    ],
+    [
+      "Gu",
+      "Qingyi",
+      ""
+    ],
+    [
+      "Chen",
+      "Chao",
+      ""
+    ],
+    [
+      "Gu",
+      "Fuqiang",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 17 Dec 2024 12:11:04 GMT"
+    }
+  ],
+  "updateDate": "2024-12-18",
+  "timestamp": 1734437464000,
+  "abstract": "  Event-based semantic segmentation has great potential in autonomous driving\nand robotics due to the advantages of event cameras, such as high dynamic\nrange, low latency, and low power cost. Unfortunately, current artificial\nneural network (ANN)-based segmentation methods suffer from high computational\ndemands, the requirements for image frames, and massive energy consumption,\nlimiting their efficiency and application on resource-constrained edge/mobile\nplatforms. To address these problems, we introduce SLTNet, a spike-driven\nlightweight transformer-based network designed for event-based semantic\nsegmentation. Specifically, SLTNet is built on efficient spike-driven\nconvolution blocks (SCBs) to extract rich semantic features while reducing the\nmodel's parameters. Then, to enhance the long-range contextural feature\ninteraction, we propose novel spike-driven transformer blocks (STBs) with\nbinary mask operations. Based on these basic blocks, SLTNet employs a\nhigh-efficiency single-branch architecture while maintaining the low energy\nconsumption of the Spiking Neural Network (SNN). Finally, extensive experiments\non DDD17 and DSEC-Semantic datasets demonstrate that SLTNet outperforms\nstate-of-the-art (SOTA) SNN-based methods by at least 7.30% and 3.30% mIoU,\nrespectively, with extremely 5.48x lower energy consumption and 1.14x faster\ninference speed.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "lL5IJmp6sMAeav3ku1GXjv-NNCYNiTKSemjzYNq1aIU",
+  "pdfSize": "1122556"
+}

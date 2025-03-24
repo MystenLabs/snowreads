@@ -1,0 +1,37 @@
+{
+  "id": "2412.17675",
+  "title": "hep-aid: A Python Library for Sample Efficient Parameter Scans in Beyond\n  the Standard Model Phenomenology",
+  "authors": "Mauricio A. Diaz, Srinandan Dasmahapatra, Stefano Moretti",
+  "authorsParsed": [
+    [
+      "Diaz",
+      "Mauricio A.",
+      ""
+    ],
+    [
+      "Dasmahapatra",
+      "Srinandan",
+      ""
+    ],
+    [
+      "Moretti",
+      "Stefano",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 23 Dec 2024 15:57:35 GMT"
+    }
+  ],
+  "updateDate": "2024-12-24",
+  "timestamp": 1734969455000,
+  "abstract": "  This paper presents hep-aid, a modular Python library conceived for\nutilising, implementing, and developing parameter scan algorithms. Originally\ndevised for sample-efficient, multi-objective active search approaches in\ncomputationally expensive Beyond Standard Model (BSM) phenomenology, the\nlibrary currently integrates three Machine Learning (ML)-based approaches: a\nConstraint Active Search (CAS) algorithm, a multi-objective Active Search (AS)\nmethod (called b-CASTOR), and a self-exploration method named Machine Learning\nScan (MLScan). These approaches address the challenge of multi-objective\noptimisation in high-dimensional BSM scenarios by employing surrogate models\nand strategically exploring parameter spaces to identify regions that satisfy\ncomplex objectives with fewer evaluations. Additionally, a Markov-Chain Monte\nCarlo method using the Metropolis-Hastings algorithm (MCMC-MH) is implemented\nfor method comparison. The library also includes a High Energy Physics (HEP)\nmodule based on SPheno as the spectrum calculator. However, the library modules\nand functionalities are designed to be easily extended and used also with other\nexternal software for phenomenology. This manual provides an introduction on\nhow to use the main functionalities of hep-aid and describes the design and\nstructure of the library. Demonstrations based on the aforementioned parameter\nscan methods show that hep-aid methodologies enhance the efficiency of BSM\nstudies, offering a versatile toolset for complex, multi-objective searches for\nnew physics in HEP contexts exploiting advanced ML-based approaches.\n",
+  "subjects": [
+    "Physics/High Energy Physics - Phenomenology"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "Zjj3_jthzY_I1V5ieKVWkYK-DYer0vj9ExG1yjro8_Y",
+  "pdfSize": "9569216"
+}

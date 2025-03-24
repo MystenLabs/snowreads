@@ -1,0 +1,33 @@
+{
+  "id": "2412.00360",
+  "title": "Energy-stable mixed finite element methods for the Rosensweig ferrofluid\n  flow model",
+  "authors": "Yongke Wu and Xiaoping Xie",
+  "authorsParsed": [
+    [
+      "Wu",
+      "Yongke",
+      ""
+    ],
+    [
+      "Xie",
+      "Xiaoping",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 30 Nov 2024 05:16:51 GMT"
+    }
+  ],
+  "updateDate": "2024-12-03",
+  "timestamp": 1732943811000,
+  "abstract": "  In this paper, we consider mixed finite element semi-/full discretizations of\nthe Rosensweig ferrofluid flow model. We first establish some regularity\nresults for the model under several basic assumptions. Then we show that the\nenergy stability of the weak solutions is preserved exactly for both the\nsemi-discrete and fully discrete finite element solutions. Moreover, we prove\nthe existence and uniqueness of the discrete solutions. We also derive optimal\nerror estimates for the discrete schemes. Finally, we provide numerical\nexperiments to verify the theoretical results.\n",
+  "subjects": [
+    "Mathematics/Numerical Analysis",
+    "Computer Science/Numerical Analysis"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "NYa5zI20-qFmtXgmhMZhgUioXnob7RC31T2Czo-AKrI",
+  "pdfSize": "868499"
+}

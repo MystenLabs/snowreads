@@ -1,0 +1,59 @@
+{
+  "id": "2412.00020",
+  "title": "Partitioning Message Passing for Graph Fraud Detection",
+  "authors": "Wei Zhuo, Zemin Liu, Bryan Hooi, Bingsheng He, Guang Tan, Rizal\n  Fathony, Jia Chen",
+  "authorsParsed": [
+    [
+      "Zhuo",
+      "Wei",
+      ""
+    ],
+    [
+      "Liu",
+      "Zemin",
+      ""
+    ],
+    [
+      "Hooi",
+      "Bryan",
+      ""
+    ],
+    [
+      "He",
+      "Bingsheng",
+      ""
+    ],
+    [
+      "Tan",
+      "Guang",
+      ""
+    ],
+    [
+      "Fathony",
+      "Rizal",
+      ""
+    ],
+    [
+      "Chen",
+      "Jia",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 16 Nov 2024 11:30:53 GMT"
+    }
+  ],
+  "updateDate": "2024-12-03",
+  "timestamp": 1731756653000,
+  "abstract": "  Label imbalance and homophily-heterophily mixture are the fundamental\nproblems encountered when applying Graph Neural Networks (GNNs) to Graph Fraud\nDetection (GFD) tasks. Existing GNN-based GFD models are designed to augment\ngraph structure to accommodate the inductive bias of GNNs towards homophily, by\nexcluding heterophilic neighbors during message passing. In our work, we argue\nthat the key to applying GNNs for GFD is not to exclude but to {\\em\ndistinguish} neighbors with different labels. Grounded in this perspective, we\nintroduce Partitioning Message Passing (PMP), an intuitive yet effective\nmessage passing paradigm expressly crafted for GFD. Specifically, in the\nneighbor aggregation stage of PMP, neighbors with different classes are\naggregated with distinct node-specific aggregation functions. By this means,\nthe center node can adaptively adjust the information aggregated from its\nheterophilic and homophilic neighbors, thus avoiding the model gradient being\ndominated by benign nodes which occupy the majority of the population. We\ntheoretically establish a connection between the spatial formulation of PMP and\nspectral analysis to characterize that PMP operates an adaptive node-specific\nspectral graph filter, which demonstrates the capability of PMP to handle\nheterophily-homophily mixed graphs. Extensive experimental results show that\nPMP can significantly boost the performance on GFD tasks.\n",
+  "subjects": [
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Machine Learning",
+    "Computer Science/Social and Information Networks"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "Z_GBJhOWyL59_2a0qKLiq1B1qMXWtKpMm0uYKU-VvJ8",
+  "pdfSize": "924223"
+}

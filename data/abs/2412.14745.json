@@ -1,0 +1,32 @@
+{
+  "id": "2412.14745",
+  "title": "Union-Free Generic Depth for Non-Standard Data",
+  "authors": "Hannah Blocher, Georg Schollmeyer",
+  "authorsParsed": [
+    [
+      "Blocher",
+      "Hannah",
+      ""
+    ],
+    [
+      "Schollmeyer",
+      "Georg",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 19 Dec 2024 11:24:43 GMT"
+    }
+  ],
+  "updateDate": "2024-12-20",
+  "timestamp": 1734607483000,
+  "abstract": "  Non-standard data, which fall outside classical statistical data formats,\nchallenge state-of-the-art analysis. Examples of non-standard data include\npartial orders and mixed categorical-numeric-spatial data. Most statistical\nmethods required to represent them by classical statistical spaces. However,\nthis representation can distort their inherent structure and thus the results\nand interpretation. For applicants, this creates a dilemma: using standard\nstatistical methods can risk misrepresenting the data, while preserving their\ntrue structure often lead these methods to be inapplicable. To address this\ndilemma, we introduce the union-free generic depth (ufg-depth) which is a novel\nframework that respects the true structure of non-standard data while enabling\nrobust statistical analysis. The ufg-depth extends the concept of simplicial\ndepth from normed vector spaces to a much broader range of data types, by\ncombining formal concept analysis and data depth. We provide a systematic\nanalysis of the theoretical properties of the ufg-depth and demonstrate its\napplication to mixed categorical-numerical-spatial data and\nhierarchical-nominal data. The ufg-depth is a unified approach that bridges the\ngap between preserving the data structure and applying statistical methods.\nWith this, we provide a new perspective for non-standard data analysis.\n",
+  "subjects": [
+    "Statistics/Methodology"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "_NULMVEYZdnhhITST0sqCxJ_Yom58hU0wEh2P02aVv0",
+  "pdfSize": "1684091"
+}

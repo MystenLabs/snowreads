@@ -1,0 +1,27 @@
+{
+  "id": "2412.06198",
+  "title": "SparseAccelerate: Efficient Long-Context Inference for Mid-Range GPUs",
+  "authors": "James Vo",
+  "authorsParsed": [
+    [
+      "Vo",
+      "James",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 9 Dec 2024 04:27:03 GMT"
+    }
+  ],
+  "updateDate": "2024-12-10",
+  "timestamp": 1733718423000,
+  "abstract": "  As Large Language Models (LLMs) scale to longer context windows, the\ncomputational cost of attention mechanisms, which traditionally grows\nquadratically with input length, presents a critical challenge for real-time\nand memory-constrained deployments. Existing sparse attention techniques have\nsought to reduce this complexity, but they often incur significant overhead or\ncompromise accuracy, making them less practical for large contexts on mid-range\nhardware. In this paper, we introduce SparseAccelerate, a dynamic sparse\nattention method that adapts its sparsity patterns based on input\ncharacteristics, effectively flattening the attention complexity curve. Our\napproach is effective for input lengths starting at 16K tokens and scales\nefficiently up to 128K tokens on dual NVIDIA A5000 GPUs (24GB each).\nExperimental results show that SparseAccelerate achieves up to a 1.04x\nreduction in Time-To-First-Token (TTFT) latency at 32K tokens, while also\nproviding substantial memory savings. These improvements yield practical gains\nfor memory-intensive applications and long-context tasks that were previously\ninfeasible with standard attention. Beyond latency reductions, SparseAccelerate\nfundamentally shifts the scaling trend, demonstrating the smallest TTFT growth\ngradient relative to context length among competing methods. Ongoing\nevaluations on diverse benchmarks confirm its scalability, positioning\nSparseAccelerate as a critical advancement toward efficient, real-time, and\nlarge-context LLM inference on accessible hardware.\n",
+  "subjects": [
+    "Computer Science/Computation and Language"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "4_BXM-g-1tV-NtgTgUTvGye1SgxZEAXpjYLxcDTWB-A",
+  "pdfSize": "825319"
+}

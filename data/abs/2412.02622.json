@@ -1,0 +1,47 @@
+{
+  "id": "2412.02622",
+  "title": "High-z stellar masses can be recovered robustly with JWST photometry",
+  "authors": "R. K. Cochrane, H. Katz, R. Begley, C. C. Hayward, P. N. Best",
+  "authorsParsed": [
+    [
+      "Cochrane",
+      "R. K.",
+      ""
+    ],
+    [
+      "Katz",
+      "H.",
+      ""
+    ],
+    [
+      "Begley",
+      "R.",
+      ""
+    ],
+    [
+      "Hayward",
+      "C. C.",
+      ""
+    ],
+    [
+      "Best",
+      "P. N.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 3 Dec 2024 17:50:49 GMT"
+    }
+  ],
+  "updateDate": "2024-12-04",
+  "timestamp": 1733248249000,
+  "abstract": "  Robust inference of galaxy stellar masses from photometry is crucial for\nconstraints on galaxy assembly across cosmic time. Here, we test a\ncommonly-used Spectral Energy Distribution (SED) fitting code, using simulated\ngalaxies from the SPHINX20 cosmological radiation hydrodynamics simulation,\nwith JWST NIRCam photometry forward-modelled with radiative transfer. Fitting\nthe synthetic photometry with various star formation history models, we show\nthat recovered stellar masses are, encouragingly, generally robust to within a\nfactor of ~3 for galaxies in the range M*~10^7-10^9M_sol at z=5-10. These\nresults are in stark contrast to recent work claiming that stellar masses can\nbe underestimated by as much as an order of magnitude in these mass and\nredshift ranges. However, while >90% of masses are recovered to within 0.5dex,\nthere are notable systematic trends, with stellar masses typically\noverestimated for low-mass galaxies (M*<~10^8M_sol) and slightly underestimated\nfor high-mass galaxies (M*>~10^9M_sol). We demonstrate that these trends arise\ndue to the SED fitting code poorly modelling the impact of strong emission\nlines on broadband photometry. These systematic trends, which exist for all\nstar formation history parametrisations tested, have a tilting effect on the\ninferred stellar mass function, with number densities of massive galaxies\nunderestimated (particularly at the lowest redshifts studied) and number\ndensities of lower-mass galaxies typically overestimated. Overall, this work\nsuggests that we should be optimistic about our ability to infer the masses of\nhigh-z galaxies observed with JWST (notwithstanding contamination from AGN) but\ncareful when modelling the impact of strong emission lines on broadband\nphotometry.\n",
+  "subjects": [
+    "Astrophysics/Astrophysics of Galaxies"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "30ucYTZ7A-5uC1XRxgNG4Lf_SpCKYRFwchQceJBYAqM",
+  "pdfSize": "2331206"
+}

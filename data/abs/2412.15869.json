@@ -1,0 +1,83 @@
+{
+  "id": "2412.15869",
+  "title": "A Digital Phantom for 3D MR Spectroscopy Data Simulation",
+  "authors": "D.M.J. van de Sande, A.T. Gudmundson, S. Murali-Manohar, C.W.\n  Davies-Jenkins, D. Simicic, G. Simegn, \\.I. \\\"Ozdemir, S. Amirrajab, J.P.\n  Merkofer, H.J. Z\\\"ollner, G. Oeltzschner, R.A.E. Edden",
+  "authorsParsed": [
+    [
+      "van de Sande",
+      "D. M. J.",
+      ""
+    ],
+    [
+      "Gudmundson",
+      "A. T.",
+      ""
+    ],
+    [
+      "Murali-Manohar",
+      "S.",
+      ""
+    ],
+    [
+      "Davies-Jenkins",
+      "C. W.",
+      ""
+    ],
+    [
+      "Simicic",
+      "D.",
+      ""
+    ],
+    [
+      "Simegn",
+      "G.",
+      ""
+    ],
+    [
+      "Özdemir",
+      "İ.",
+      ""
+    ],
+    [
+      "Amirrajab",
+      "S.",
+      ""
+    ],
+    [
+      "Merkofer",
+      "J. P.",
+      ""
+    ],
+    [
+      "Zöllner",
+      "H. J.",
+      ""
+    ],
+    [
+      "Oeltzschner",
+      "G.",
+      ""
+    ],
+    [
+      "Edden",
+      "R. A. E.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 20 Dec 2024 13:14:18 GMT"
+    }
+  ],
+  "updateDate": "2024-12-23",
+  "timestamp": 1734700458000,
+  "abstract": "  Simulated data is increasingly valued by researchers for validating MRS and\nMRSI processing and analysis algorithms. However, there is no consensus on the\noptimal approaches for simulation models and parameters. This study introduces\na novel 3D MRS digital brain phantom framework, providing a comprehensive and\nmodular foundation for MRS and MRSI data simulation. We generate a digital\nbrain phantom by combining anatomical and tissue label information with\nmetabolite data from the literature. This phantom contains all necessary\ninformation for simulating spectral data. We integrate the phantom with a\nsignal-based model to demonstrate its functionality and usability in generating\nvarious spectral datasets. Outputs are saved in the NIfTI-MRS format, enabling\ntheir use in downstream applications. We successfully implemented and tested\nthe 3D MRS digital brain phantom framework using two different anatomical\nmodels at two resolutions. The resulting metabolite maps and spectral datasets\ndemonstrate realistic data quality, flexibility based on user inputs, and\nreasonable computational efficiency. This innovative 3D digital brain phantom\nframework provides a clear and structured approach to simulating MRS and MRSI\ndata. Its modular design establishes a strong, adaptable foundation for future\nadvancements in MRS and MRSI simulation, allowing researchers to extend and\nrefine the model to meet the field's evolving needs.\n",
+  "subjects": [
+    "Physics/Medical Physics",
+    "Physics/Biological Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "wqvBLECgk3ZiI47E0MVKEkgkN68TaGw1wqoxBb5sXFU",
+  "pdfSize": "6369302"
+}

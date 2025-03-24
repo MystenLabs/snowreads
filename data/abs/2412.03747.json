@@ -1,0 +1,27 @@
+{
+  "id": "2412.03747",
+  "title": "Model-agnostic search for dijet resonances with anomalous jet\n  substructure in proton-proton collisions at $\\sqrt{s}$ = 13 TeV",
+  "authors": "CMS Collaboration",
+  "authorsParsed": [
+    [
+      "CMS Collaboration",
+      "",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 4 Dec 2024 22:34:03 GMT"
+    }
+  ],
+  "updateDate": "2024-12-06",
+  "timestamp": 1733351643000,
+  "abstract": "  This paper presents a model-agnostic search for narrow resonances in the\ndijet final state in the mass range 1.8-6 TeV. The signal is assumed to produce\njets with substructure atypical of jets initiated by light quarks or gluons,\nwith minimal additional assumptions. Search regions are obtained by utilizing\nmultivariate machine-learning methods to select jets with anomalous\nsubstructure. A collection of complementary anomaly detection methods - based\non unsupervised, weakly supervised, and semisupervised algorithms - are used in\norder to maximize the sensitivity to unknown new physics signatures. These\nalgorithms are applied to data corresponding to an integrated luminosity of 138\nfb$^{-1}$, recorded by the CMS experiment at the LHC, at a center-of-mass\nenergy of 13 TeV. No significant excesses above background expectations are\nseen. Exclusion limits are derived on the production cross section of benchmark\nsignal models varying in resonance mass, jet mass, and jet substructure. Many\nof these signatures have not been previously sought, making several of the\nlimits reported on the corresponding benchmark models the first ever. When\ncompared to benchmark inclusive and substructure-based search strategies, the\nanomaly detection methods are found to significantly enhance the sensitivity to\na variety of models.\n",
+  "subjects": [
+    "Physics/High Energy Physics - Experiment"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "s8oyLtpv7LCpgLjuAz1nwkMR1ogszN5FOP0fvT8pjBI",
+  "pdfSize": "3272839"
+}

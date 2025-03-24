@@ -1,0 +1,67 @@
+{
+  "id": "2412.16758",
+  "title": "Evaluation of radiomic feature harmonization techniques for benign and\n  malignant pulmonary nodules",
+  "authors": "Claire Huchthausen, Menglin Shi, Gabriel L.A. de Sousa, Jonathan\n  Colen, Emery Shelley, James Larner, Einsley Janowski, Krishni Wijesooriya",
+  "authorsParsed": [
+    [
+      "Huchthausen",
+      "Claire",
+      ""
+    ],
+    [
+      "Shi",
+      "Menglin",
+      ""
+    ],
+    [
+      "de Sousa",
+      "Gabriel L. A.",
+      ""
+    ],
+    [
+      "Colen",
+      "Jonathan",
+      ""
+    ],
+    [
+      "Shelley",
+      "Emery",
+      ""
+    ],
+    [
+      "Larner",
+      "James",
+      ""
+    ],
+    [
+      "Janowski",
+      "Einsley",
+      ""
+    ],
+    [
+      "Wijesooriya",
+      "Krishni",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 21 Dec 2024 20:16:37 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Wed, 15 Jan 2025 14:35:11 GMT"
+    }
+  ],
+  "updateDate": "2025-01-16",
+  "timestamp": 1734812197000,
+  "abstract": "  BACKGROUND: Radiomics provides quantitative features of pulmonary nodules\n(PNs) which could aid lung cancer diagnosis, but medical image acquisition\nvariability is an obstacle to clinical application. Acquisition effects may\ndiffer between radiomic features from benign vs. malignant PNs. PURPOSE: We\nevaluated how to account for differences between benign and malignant PNs when\ncorrecting radiomic features' acquisition dependency. METHODS: We used 567\nchest CT scans grouped as benign, malignant, or lung cancer screening (mixed\nbenign, malignant). ComBat harmonization was applied to extracted features for\nvariation in 4 acquisition parameters. We compared: harmonizing without\ndistinction, harmonizing with a covariate to preserve distinctions between\nsubgroups, and harmonizing subgroups separately. Significant ($p\\le0.05$)\nKruskal-Wallis tests showed whether harmonization removed acquisition\ndependency. A LASSO-SVM pipeline was trained on successfully harmonized\nfeatures to predict malignancy. To evaluate predictive information in these\nfeatures, the trained harmonization estimators and predictive model were\napplied to unseen test sets. Harmonization and predictive performance were\nassessed for 10 trials of 5-fold cross-validation. RESULTS: An average 2.1% of\nfeatures (95% CI:1.9-2.4%) were acquisition-independent when harmonized without\ndistinction, 27.3% (95% CI:25.7-28.9%) when harmonized with a covariate, and\n90.9% (95% CI:90.4-91.5%) when harmonized separately. Data harmonized\nseparately or with a covariate trained models with higher ROC-AUC for screening\nscans than data harmonized without distinction between benign and malignant PNs\n(Delong test, adjusted $p\\le0.05$). CONCLUSIONS: Radiomic features of benign\nand malignant PNs need different corrective transformations to recover\nacquisition-independent distributions. This can be done by harmonizing\nseparately or with a covariate.\n",
+  "subjects": [
+    "Physics/Medical Physics",
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "XddzY1d9dJDyygED24eLANepOOeOdklWbYIe9qhFrNc",
+  "pdfSize": "2099295"
+}

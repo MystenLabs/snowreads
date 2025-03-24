@@ -1,0 +1,53 @@
+{
+  "id": "2412.07175",
+  "title": "Robust Feature Engineering Techniques for Designing Efficient Motor\n  Imagery-Based BCI-Systems",
+  "authors": "Syed Saim Gardezi, Soyiba Jawed, Mahnoor Khan, Muneeba Bukhari, Rizwan\n  Ahmed Khan",
+  "authorsParsed": [
+    [
+      "Gardezi",
+      "Syed Saim",
+      ""
+    ],
+    [
+      "Jawed",
+      "Soyiba",
+      ""
+    ],
+    [
+      "Khan",
+      "Mahnoor",
+      ""
+    ],
+    [
+      "Bukhari",
+      "Muneeba",
+      ""
+    ],
+    [
+      "Khan",
+      "Rizwan Ahmed",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 10 Dec 2024 04:17:22 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Thu, 20 Feb 2025 10:59:40 GMT"
+    }
+  ],
+  "updateDate": "2025-02-21",
+  "timestamp": 1733804242000,
+  "abstract": "  A multitude of individuals across the globe grapple with motor disabilities.\nNeural prosthetics utilizing Brain-Computer Interface (BCI) technology exhibit\npromise for improving motor rehabilitation outcomes. The intricate nature of\nEEG data poses a significant hurdle for current BCI systems. Recently, a\nqualitative repository of EEG signals tied to both upper and lower limb\nexecution of motor and motor imagery tasks has been unveiled. Despite this, the\nproductivity of the Machine Learning (ML) Models that were trained on this\ndataset was alarmingly deficient, and the evaluation framework seemed\ninsufficient. To enhance outcomes, robust feature engineering (signal\nprocessing) methodologies are implemented. A collection of time domain,\nfrequency domain, and wavelet-derived features was obtained from 16-channel EEG\nsignals, and the Maximum Relevance Minimum Redundancy (MRMR) approach was\nemployed to identify the four most significant features. For classification K\nNearest Neighbors (KNN), Support Vector Machine (SVM), Decision Tree (DT), and\nNa\\\"ive Bayes (NB) models were implemented with these selected features,\nevaluating their effectiveness through metrics such as testing accuracy,\nprecision, recall, and F1 Score. By leveraging SVM with a Gaussian Kernel, a\nremarkable maximum testing accuracy of 92.50% for motor activities and 95.48%\nfor imagery activities is achieved. These results are notably more dependable\nand gratifying compared to the previous study, where the peak accuracy was\nrecorded at 74.36%. This research work provides an in-depth analysis of the MI\nLimb EEG dataset and it will help in designing and developing simple,\ncost-effective and reliable BCI systems for neuro-rehabilitation.\n",
+  "subjects": [
+    "Electrical Engineering and Systems Science/Signal Processing",
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "GqpbKTs2JWVT6-K_FCFkT83OB0qGTraTPCSwJT4hJsA",
+  "pdfSize": "811011"
+}

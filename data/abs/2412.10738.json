@@ -1,0 +1,53 @@
+{
+  "id": "2412.10738",
+  "title": "Diagnosing Unknown Attacks in Smart Homes Using Abductive Reasoning",
+  "authors": "Kushal Ramkumar, Wanling Cai, John McCarthy, Gavin Doherty, Bashar\n  Nuseibeh, Liliana Pasquale",
+  "authorsParsed": [
+    [
+      "Ramkumar",
+      "Kushal",
+      ""
+    ],
+    [
+      "Cai",
+      "Wanling",
+      ""
+    ],
+    [
+      "McCarthy",
+      "John",
+      ""
+    ],
+    [
+      "Doherty",
+      "Gavin",
+      ""
+    ],
+    [
+      "Nuseibeh",
+      "Bashar",
+      ""
+    ],
+    [
+      "Pasquale",
+      "Liliana",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 14 Dec 2024 08:18:29 GMT"
+    }
+  ],
+  "updateDate": "2024-12-17",
+  "timestamp": 1734164309000,
+  "abstract": "  Security attacks are rising, as evidenced by the number of reported\nvulnerabilities. Among them, unknown attacks, including new variants of\nexisting attacks, technical blind spots or previously undiscovered attacks,\nchallenge enduring security. This is due to the limited number of techniques\nthat diagnose these attacks and enable the selection of adequate security\ncontrols. In this paper, we propose an automated technique that detects and\ndiagnoses unknown attacks by identifying the class of attack and the violated\nsecurity requirements, enabling the selection of adequate security controls.\nOur technique combines anomaly detection to detect unknown attacks with\nabductive reasoning to diagnose them. We first model the behaviour of the smart\nhome and its requirements as a logic program in Answer Set Programming (ASP).\nWe then apply Z-Score thresholding to the anomaly scores of an Isolation Forest\ntrained using unlabeled data to simulate unknown attack scenarios. Finally, we\nencode the network anomaly in the logic program and perform abduction by\nrefutation to identify the class of attack and the security requirements that\nthis anomaly may violate. We demonstrate our technique using a smart home\nscenario, where we detect and diagnose anomalies in network traffic. We\nevaluate the precision, recall and F1-score of the anomaly detector and the\ndiagnosis technique against 18 attacks from the ground truth labels provided by\ntwo datasets, CICIoT2023 and IoT-23. Our experiments show that the anomaly\ndetector effectively identifies anomalies when the network traces are strong\nindicators of an attack. When provided with sufficient contextual data, the\ndiagnosis logic effectively identifies true anomalies, and reduces the number\nof false positives reported by anomaly detectors. Finally, we discuss how our\ntechnique can support the selection of adequate security controls.\n",
+  "subjects": [
+    "Computer Science/Cryptography and Security",
+    "Computer Science/Computers and Society"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "xaftpQrTQ20DK_YUfdUz7_wnFsLUIQEe6iHPn9atDS8",
+  "pdfSize": "916008"
+}

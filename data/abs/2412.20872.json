@@ -1,0 +1,46 @@
+{
+  "id": "2412.20872",
+  "title": "LINK: Adaptive Modality Interaction for Audio-Visual Video Parsing",
+  "authors": "Langyu Wang, Bingke Zhu, Yingying Chen, Jinqiao Wang",
+  "authorsParsed": [
+    [
+      "Wang",
+      "Langyu",
+      ""
+    ],
+    [
+      "Zhu",
+      "Bingke",
+      ""
+    ],
+    [
+      "Chen",
+      "Yingying",
+      ""
+    ],
+    [
+      "Wang",
+      "Jinqiao",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 30 Dec 2024 11:23:15 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Tue, 31 Dec 2024 03:39:42 GMT"
+    }
+  ],
+  "updateDate": "2025-01-03",
+  "timestamp": 1735557795000,
+  "abstract": "  Audio-visual video parsing focuses on classifying videos through weak labels\nwhile identifying events as either visible, audible, or both, alongside their\nrespective temporal boundaries. Many methods ignore that different modalities\noften lack alignment, thereby introducing extra noise during modal interaction.\nIn this work, we introduce a Learning Interaction method for Non-aligned\nKnowledge (LINK), designed to equilibrate the contributions of distinct\nmodalities by dynamically adjusting their input during event prediction.\nAdditionally, we leverage the semantic information of pseudo-labels as a priori\nknowledge to mitigate noise from other modalities. Our experimental findings\ndemonstrate that our model outperforms existing methods on the LLP dataset.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "UVDyIloGHpzi2R9FJ2lFX6wtsAmYng0DpvGlfos71hw",
+  "pdfSize": "913858"
+}

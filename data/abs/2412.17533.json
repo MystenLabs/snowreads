@@ -1,0 +1,46 @@
+{
+  "id": "2412.17533",
+  "title": "Behind Closed Words: Creating and Investigating the forePLay Annotated\n  Dataset for Polish Erotic Discourse",
+  "authors": "Anna Ko{\\l}os, Katarzyna Lorenc, Emilia Wi\\'snios, Agnieszka\n  Karli\\'nska",
+  "authorsParsed": [
+    [
+      "Kołos",
+      "Anna",
+      ""
+    ],
+    [
+      "Lorenc",
+      "Katarzyna",
+      ""
+    ],
+    [
+      "Wiśnios",
+      "Emilia",
+      ""
+    ],
+    [
+      "Karlińska",
+      "Agnieszka",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 23 Dec 2024 12:58:18 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Tue, 7 Jan 2025 12:56:27 GMT"
+    }
+  ],
+  "updateDate": "2025-01-08",
+  "timestamp": 1734958698000,
+  "abstract": "  The surge in online content has created an urgent demand for robust detection\nsystems, especially in non-English contexts where current tools demonstrate\nsignificant limitations. We present forePLay, a novel Polish language dataset\nfor erotic content detection, featuring over 24k annotated sentences with a\nmultidimensional taxonomy encompassing ambiguity, violence, and social\nunacceptability dimensions. Our comprehensive evaluation demonstrates that\nspecialized Polish language models achieve superior performance compared to\nmultilingual alternatives, with transformer-based architectures showing\nparticular strength in handling imbalanced categories. The dataset and\naccompanying analysis establish essential frameworks for developing\nlinguistically-aware content moderation systems, while highlighting critical\nconsiderations for extending such capabilities to morphologically complex\nlanguages.\n",
+  "subjects": [
+    "Computer Science/Computation and Language"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "6f07MTOOeg0fm3aZbtQ5NkjAP2gT6xkcqP7n8gOYTGs",
+  "pdfSize": "244551"
+}

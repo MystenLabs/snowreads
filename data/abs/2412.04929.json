@@ -1,0 +1,39 @@
+{
+  "id": "2412.04929",
+  "title": "Continuous Video Process: Modeling Videos as Continuous\n  Multi-Dimensional Processes for Video Prediction",
+  "authors": "Gaurav Shrivastava, Abhinav Shrivastava",
+  "authorsParsed": [
+    [
+      "Shrivastava",
+      "Gaurav",
+      ""
+    ],
+    [
+      "Shrivastava",
+      "Abhinav",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 6 Dec 2024 10:34:50 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Mon, 9 Dec 2024 02:54:53 GMT"
+    }
+  ],
+  "updateDate": "2024-12-10",
+  "timestamp": 1733481290000,
+  "abstract": "  Diffusion models have made significant strides in image generation, mastering\ntasks such as unconditional image synthesis, text-image translation, and\nimage-to-image conversions. However, their capability falls short in the realm\nof video prediction, mainly because they treat videos as a collection of\nindependent images, relying on external constraints such as temporal attention\nmechanisms to enforce temporal coherence. In our paper, we introduce a novel\nmodel class, that treats video as a continuous multi-dimensional process rather\nthan a series of discrete frames. We also report a reduction of 75\\% sampling\nsteps required to sample a new frame thus making our framework more efficient\nduring the inference time. Through extensive experimentation, we establish\nstate-of-the-art performance in video prediction, validated on benchmark\ndatasets including KTH, BAIR, Human3.6M, and UCF101. Navigate to the project\npage https://www.cs.umd.edu/~gauravsh/cvp/supp/website.html for video results.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Machine Learning",
+    "Statistics/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "jczSgfd-VADWXs9ZJtYEdcfYHy-JE8Zot3TiV5NEEgI",
+  "pdfSize": "1607438"
+}

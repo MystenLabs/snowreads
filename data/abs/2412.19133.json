@@ -1,0 +1,34 @@
+{
+  "id": "2412.19133",
+  "title": "A Rhetorical Relations-Based Framework for Tailored Multimedia Document\n  Summarization",
+  "authors": "Azze-Eddine Maredj and Madjid Sadallah",
+  "authorsParsed": [
+    [
+      "Maredj",
+      "Azze-Eddine",
+      ""
+    ],
+    [
+      "Sadallah",
+      "Madjid",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 26 Dec 2024 09:29:59 GMT"
+    }
+  ],
+  "updateDate": "2024-12-30",
+  "timestamp": 1735205399000,
+  "abstract": "  In the rapidly evolving landscape of digital content, the task of summarizing\nmultimedia documents, which encompass textual, visual, and auditory elements,\npresents intricate challenges. These challenges include extracting pertinent\ninformation from diverse formats, maintaining the structural integrity and\nsemantic coherence of the original content, and generating concise yet\ninformative summaries. This paper introduces a novel framework for multimedia\ndocument summarization that capitalizes on the inherent structure of the\ndocument to craft coherent and succinct summaries. Central to this framework is\nthe incorporation of a rhetorical structure for structural analysis, augmented\nby a graph-based representation to facilitate the extraction of pivotal\ninformation. Weighting algorithms are employed to assign significance values to\ndocument units, thereby enabling effective ranking and selection of relevant\ncontent. Furthermore, the framework is designed to accommodate user preferences\nand time constraints, ensuring the production of personalized and contextually\nrelevant summaries. The summarization process is elaborately delineated,\nencompassing document specification, graph construction, unit weighting, and\nsummary extraction, supported by illustrative examples and algorithmic\nelucidation. This proposed framework represents a significant advancement in\nautomatic summarization, with broad potential applications across multimedia\ndocument processing, promising transformative impacts in the field.\n",
+  "subjects": [
+    "Computer Science/Multimedia",
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Human-Computer Interaction"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "CjmznKFUJwKrzOpOBH3G1jDiZzfLVOlboyS0gOHN0O4",
+  "pdfSize": "392353"
+}

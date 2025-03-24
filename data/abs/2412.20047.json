@@ -1,0 +1,28 @@
+{
+  "id": "2412.20047",
+  "title": "SimLTD: Simple Supervised and Semi-Supervised Long-Tailed Object\n  Detection",
+  "authors": "Phi Vu Tran",
+  "authorsParsed": [
+    [
+      "Tran",
+      "Phi Vu",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 28 Dec 2024 06:29:40 GMT"
+    }
+  ],
+  "updateDate": "2024-12-31",
+  "timestamp": 1735367380000,
+  "abstract": "  Recent years have witnessed tremendous advances on modern visual recognition\nsystems. Despite such progress, many vision models still struggle with the open\nproblem of learning from few exemplars. This paper focuses on the task of\nobject detection in the setting where object classes follow a natural\nlong-tailed distribution. Existing approaches to long-tailed detection resort\nto external ImageNet labels to augment the low-shot training instances.\nHowever, such dependency on a large labeled database is impractical and has\nlimited utility in realistic scenarios. We propose a more versatile approach to\nleverage optional unlabeled images, which are easy to collect without the\nburden of human annotations. Our SimLTD framework is straightforward and\nintuitive, and consists of three simple steps: (1) pre-training on abundant\nhead classes; (2) transfer learning on scarce tail classes; and (3) fine-tuning\non a sampled set of both head and tail classes. Our approach can be viewed as\nan improved head-to-tail model transfer paradigm without the added complexities\nof meta-learning or knowledge distillation, as was required in past research.\nBy harnessing supplementary unlabeled images, without extra image labels,\nSimLTD establishes new record results on the challenging LVIS v1 benchmark\nacross both supervised and semi-supervised settings.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by-sa/4.0/",
+  "blobId": "Dq3__SXtiX-HjoXaib0NO_OmNngYmaEsot4lvozanQQ",
+  "pdfSize": "2841204"
+}

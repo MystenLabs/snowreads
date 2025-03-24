@@ -1,0 +1,27 @@
+{
+  "id": "2412.19174",
+  "title": "Asymptotic expansions for the generalised trigonometric integral and its\n  zeros",
+  "authors": "Gerg\\H{o} Nemes",
+  "authorsParsed": [
+    [
+      "Nemes",
+      "Gergő",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 26 Dec 2024 11:18:38 GMT"
+    }
+  ],
+  "updateDate": "2024-12-30",
+  "timestamp": 1735211918000,
+  "abstract": "  In this paper, we investigate the asymptotic properties of the generalised\ntrigonometric integral $\\operatorname{ti}(a, z, \\alpha)$ and its associated\nmodulus and phase functions for large complex values of $z$. We derive\nasymptotic expansions for these functions, accompanied by explicit and\ncomputable error bounds. For real values of $a$, the function\n$\\operatorname{ti}(a, z, \\alpha)$ possesses infinitely many positive real\nzeros. Assuming $a < 1$, we establish asymptotic expansions for the large\nzeros, accompanied by precise error estimates. The error bounds for the\nasymptotics of the phase function and its zeros will be derived by studying the\nanalytic properties of both the phase function and its inverse. Additionally,\nwe demonstrate that for real variables, the derived asymptotic expansions are\nenveloping, meaning that successive partial sums provide upper and lower bounds\nfor the corresponding functions.\n",
+  "subjects": [
+    "Mathematics/Classical Analysis and ODEs"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "sJAlgZ3nvSbUOdH5KzhYviIPERMSTMcOFe8dt4nP3Vk",
+  "pdfSize": "540049"
+}

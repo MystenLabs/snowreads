@@ -1,0 +1,37 @@
+{
+  "id": "2412.11298",
+  "title": "The Impact of AI Explanations on Clinicians Trust and Diagnostic\n  Accuracy in Breast Cancer",
+  "authors": "Olya Rezaeian, Onur Asan, Alparslan Emrah Bayrak",
+  "authorsParsed": [
+    [
+      "Rezaeian",
+      "Olya",
+      ""
+    ],
+    [
+      "Asan",
+      "Onur",
+      ""
+    ],
+    [
+      "Bayrak",
+      "Alparslan Emrah",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 15 Dec 2024 20:17:07 GMT"
+    }
+  ],
+  "updateDate": "2024-12-17",
+  "timestamp": 1734293827000,
+  "abstract": "  Advances in machine learning have created new opportunities to develop\nartificial intelligence (AI)-based clinical decision support systems using past\nclinical data and improve diagnosis decisions in life-threatening illnesses\nsuch breast cancer. Providing explanations for AI recommendations is a possible\nway to address trust and usability issues in black-box AI systems. This paper\npresents the results of an experiment to assess the impact of varying levels of\nAI explanations on clinicians' trust and diagnosis accuracy in a breast cancer\napplication and the impact of demographics on the findings. The study includes\n28 clinicians with varying medical roles related to breast cancer diagnosis.\nThe results show that increasing levels of explanations do not always improve\ntrust or diagnosis performance. The results also show that while some of the\nself-reported measures such as AI familiarity depend on gender, age and\nexperience, the behavioral assessments of trust and performance are independent\nof those variables.\n",
+  "subjects": [
+    "Computer Science/Human-Computer Interaction"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "7I7iVF7TQIo92l9GMkjYftXA63ZPqQhOJS6iX-WTvgM",
+  "pdfSize": "3476707"
+}

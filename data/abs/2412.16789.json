@@ -1,0 +1,32 @@
+{
+  "id": "2412.16789",
+  "title": "Inflation of 2D boundary ghosts and digital watermarking",
+  "authors": "Imants Svalbe, Rob Tijdeman",
+  "authorsParsed": [
+    [
+      "Svalbe",
+      "Imants",
+      ""
+    ],
+    [
+      "Tijdeman",
+      "Rob",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 21 Dec 2024 22:03:30 GMT"
+    }
+  ],
+  "updateDate": "2024-12-24",
+  "timestamp": 1734818610000,
+  "abstract": "  Projection ghosts are discrete arrays of signed values positioned so that\ntheir discrete projections vanish for some chosen set of n projection angles.\nMinimal ghosts are designed to be compact, with no internal pixels having value\nzero. Here we control the shape, number of boundary pixels and area that each\nminimal ghost encloses. Binary minimal ghosts and their boundaries can\nthemselves be inflated by tiling copies of themselves to make ghosts with\nlarger sizes and different shapes, whilst still retaining the same set of n\nzero projection angles. The intricate perimeters of minimal ghosts are formed\nby three strings of connected pixels that are defined by the minimal projection\nangles. We show that large changes to the ghost areas can be made whilst\nkeeping the length of their segmented perimeters fixed. These inflated boundary\nghosts may prove useful as secure watermarks to embed into digital image data.\nBoundary ghosts may also help guide the selection of angles used to reconstruct\nimages where the object domain is confined to oval shaped arcs.\n",
+  "subjects": [
+    "Computer Science/Discrete Mathematics"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "ovLYNLgg4kFiAOtcGXzNB_vujkQfIWDeGrkncu1BFmI",
+  "pdfSize": "549321"
+}

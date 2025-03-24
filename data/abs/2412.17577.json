@@ -1,0 +1,46 @@
+{
+  "id": "2412.17577",
+  "title": "Localization Accuracy Improvement in Multistatic ISAC with LoS/NLoS\n  Condition using 5G NR Signals",
+  "authors": "Keivan Khosroshahi, Philippe Sehier, Sami Mekki, Michael Suppa",
+  "authorsParsed": [
+    [
+      "Khosroshahi",
+      "Keivan",
+      ""
+    ],
+    [
+      "Sehier",
+      "Philippe",
+      ""
+    ],
+    [
+      "Mekki",
+      "Sami",
+      ""
+    ],
+    [
+      "Suppa",
+      "Michael",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 23 Dec 2024 13:50:32 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Fri, 24 Jan 2025 13:57:45 GMT"
+    }
+  ],
+  "updateDate": "2025-01-27",
+  "timestamp": 1734961832000,
+  "abstract": "  Integrated sensing and communication (ISAC) is anticipated to play a crucial\nrole in sixth-generation (6G) mobile communication networks. A significant\nchallenge in ISAC systems is the degradation of localization accuracy due to\npoor propagation conditions, such as multipath effects and non-line-of-sight\n(NLoS) scenarios. These conditions result in outlier measurements that can\nseverely impact localization performance. This paper investigates the\nenhancement of target localization accuracy in multistatic ISAC systems under\nboth line-of-sight (LoS) and NLoS conditions. We leverage positioning reference\nsignal (PRS), which is currently employed in fifth-generation (5G) new radio\n(NR) for user equipment (UE) positioning, as the sensing signal. We introduce a\nnovel algorithm to improve localization accuracy by mitigating the impact of\noutliers in range measurements, while also accounting for errors due to PRS\nrange resolution. Eventually, through simulation results, we demonstrate the\nsuperiority of the proposed method over previous approaches. Indeed, we achieve\nup to 28% and 20% improvements in average localization error over least squares\n(LS) and iteratively reweighted least squares (IRLS) methods, respectively.\nAdditionally, we observe up to 16% and 13% enhancements in the 90th percentile\nof localization error compared to LS and IRLS, respectively. Our simulation is\nbased on 3rd Generation Partnership Project (3GPP) standards, ensuring the\napplicability of our results across diverse environments, including urban and\nindoor areas.\n",
+  "subjects": [
+    "Electrical Engineering and Systems Science/Signal Processing"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "Iyx1mlfvXm0hU6uj8B81-JJ2trAbVIQkQv-E7F2gf44",
+  "pdfSize": "1037155"
+}

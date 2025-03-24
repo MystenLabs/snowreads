@@ -1,0 +1,47 @@
+{
+  "id": "2412.16092",
+  "title": "Sparse Non-Markovian Noise Modeling of Transmon-Based Multi-Qubit\n  Operations",
+  "authors": "Yasuo Oda, Kevin Schultz, Leigh Norris, Omar Shehab, Gregory Quiroz",
+  "authorsParsed": [
+    [
+      "Oda",
+      "Yasuo",
+      ""
+    ],
+    [
+      "Schultz",
+      "Kevin",
+      ""
+    ],
+    [
+      "Norris",
+      "Leigh",
+      ""
+    ],
+    [
+      "Shehab",
+      "Omar",
+      ""
+    ],
+    [
+      "Quiroz",
+      "Gregory",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 20 Dec 2024 17:37:26 GMT"
+    }
+  ],
+  "updateDate": "2024-12-23",
+  "timestamp": 1734716246000,
+  "abstract": "  The influence of noise on quantum dynamics is one of the main factors\npreventing current quantum processors from performing accurate quantum\ncomputations. Sufficient noise characterization and modeling can provide key\ninsights into the effect of noise on quantum algorithms and inform the design\nof targeted error protection protocols. However, constructing effective noise\nmodels that are sparse in model parameters, yet predictive can be challenging.\nIn this work, we present an approach for effective noise modeling of\nmulti-qubit operations on transmon-based devices. Through a comprehensive\ncharacterization of seven devices offered by the IBM Quantum Platform, we show\nthat the model can capture and predict a wide range of single- and two-qubit\nbehaviors, including non-Markovian effects resulting from spatio-temporally\ncorrelated noise sources. The model's predictive power is further highlighted\nthrough multi-qubit dynamical decoupling demonstrations and an implementation\nof the variational quantum eigensolver. As a training proxy for the hardware,\nwe show that the model can predict expectation values within a relative error\nof 0.5%; this is a 7$\\times$ improvement over default hardware noise models.\nThrough these demonstrations, we highlight key error sources in superconducting\nqubits and illustrate the utility of reduced noise models for predicting\nhardware dynamics.\n",
+  "subjects": [
+    "Physics/Quantum Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "cJ2-XpzZhLD9MoEFr2uMFuDvvq2EoKoPT6FXylNv09I",
+  "pdfSize": "4064428"
+}

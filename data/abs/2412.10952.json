@@ -1,0 +1,33 @@
+{
+  "id": "2412.10952",
+  "title": "On deformation theory of associative algebras in monoidal categories",
+  "authors": "Abdenacer Makhlouf and Drago\\c{s} \\c{S}tefan",
+  "authorsParsed": [
+    [
+      "Makhlouf",
+      "Abdenacer",
+      ""
+    ],
+    [
+      "Ştefan",
+      "Dragoş",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 14 Dec 2024 20:12:38 GMT"
+    }
+  ],
+  "updateDate": "2024-12-17",
+  "timestamp": 1734207158000,
+  "abstract": "  We extend the classical concept of deformation of an associative algebra, as\nintroduced by Gerstenhaber, by using monoidal linear categories and\ncocommutative coalgebras as foundational tools. To achieve this goal, we\nassociate to each cocommutative coalgebra $C$ and each linear monoidal category\n$\\M$, a $\\Bbbk$-linear monoidal category $\\M_{C}$. This construction is\nfunctorial: any coalgebra morphism $\\iota:C\\to\\widetilde{C}$\n  induces a strict monoidal functor $\\iota^{*}:\\M_{\\widetilde{C}}\\to\\M_{C}$. An\n$\\iota$-deformation of an algebra $(A,m)$ is defined as an algebra\n$(A,\\widetilde{m})$ in the fiber of $\\iota^{*}$ over $(A,m)$. Within this\nframework, the deformations of $(A,m)$ are organized into a presheaf, which is\nshown to be representable. In other words, there exists a universal deformation\nsatisfying a specific universal property.\n  It is well established that classical deformation theory is deeply connected\nto Hochschild cohomology. We identify and analyze the cohomology theory that\ngoverns $\\iota$-deformations in the second part of the paper. Additionally,\nseveral particular cases and applications of these results are examined in\ndetail.\n",
+  "subjects": [
+    "Mathematics/Rings and Algebras",
+    "Mathematics/Quantum Algebra"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "sMN_BJWi0kwdYJcxXd7FfLxy5KEXHZlfGKNoNLeFi5A",
+  "pdfSize": "646196"
+}

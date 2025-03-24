@@ -1,0 +1,33 @@
+{
+  "id": "2412.03965",
+  "title": "Offloading Revenue Maximization in Multi-UAV-Assisted Mobile Edge\n  Computing for Video Stream",
+  "authors": "Bin Li and Huimin Shan",
+  "authorsParsed": [
+    [
+      "Li",
+      "Bin",
+      ""
+    ],
+    [
+      "Shan",
+      "Huimin",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 5 Dec 2024 08:32:29 GMT"
+    }
+  ],
+  "updateDate": "2024-12-06",
+  "timestamp": 1733387549000,
+  "abstract": "  Traditional video transmission systems assisted by multiple Unmanned Aerial\nVehicles (UAVs) are often limited by computing resources, making it challenging\nto meet the demands for efficient video processing. To solve this challenge,\nthis paper presents a multi-UAV-assisted Device-to-Device (D2D) mobile edge\ncomputing system for the maximization of task offloading profits in video\nstream transmission. In particular, the system enables UAVs to collaborate with\nidle user devices to process video computing tasks by introducing D2D\ncommunications. To maximize the system efficiency, the paper jointly optimizes\npower allocation, video transcoding strategies, computing resource allocation,\nand UAV trajectory. The resulting non-convex optimization problem is formulated\nas a Markov decision process and solved relying on the Twin Delayed Deep\nDeterministic policy gradient (TD3) algorithm. Numerical results indicate that\nthe proposed TD3 algorithm performs a significant advantage over other\ntraditional algorithms in enhancing the overall system efficiency.\n",
+  "subjects": [
+    "Computer Science/Emerging Technologies",
+    "Electrical Engineering and Systems Science/Signal Processing"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "BLuT0Xkj2edhTqWc5qTRhFkv4d1kTJVJYfn6a9jDiV0",
+  "pdfSize": "979185"
+}

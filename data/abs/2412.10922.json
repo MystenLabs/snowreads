@@ -1,0 +1,43 @@
+{
+  "id": "2412.10922",
+  "title": "Automatically Detecting Checked-In Secrets in Android Apps: How Far Are\n  We?",
+  "authors": "Kevin Li, Lin Ling, Jinqiu Yang, Lili Wei",
+  "authorsParsed": [
+    [
+      "Li",
+      "Kevin",
+      ""
+    ],
+    [
+      "Ling",
+      "Lin",
+      ""
+    ],
+    [
+      "Yang",
+      "Jinqiu",
+      ""
+    ],
+    [
+      "Wei",
+      "Lili",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 14 Dec 2024 18:14:25 GMT"
+    }
+  ],
+  "updateDate": "2024-12-17",
+  "timestamp": 1734200065000,
+  "abstract": "  Mobile apps are predominantly integrated with cloud services to benefit from\nenhanced functionalities. Adopting authentication using secrets such as API\nkeys is crucial to ensure secure mobile-cloud interactions. However, developers\noften overlook the proper storage of such secrets, opting to put them directly\ninto their projects. These secrets are checked into the projects and can be\neasily extracted and exploited by malicious adversaries. While many researchers\ninvestigated the issue of checked-in secret in open-source projects, there is a\nnotable research gap concerning checked-in secrets in Android apps deployed on\nplatforms such as Google Play Store. Unlike open-source projects, the lack of\ndirect access to the source code and the presence of obfuscation complicates\nthe checked-in secret detection for Android apps. This motivates us to conduct\nan empirical analysis to measure and compare the performance of different\nchecked-in secret detection tools on Android apps. We first conducted a\nliterature review to find all the checked-in secret detection tools that can be\napplied to Android apps. Then, we evaluate three representative tools on 5,135\nAndroid apps, comparing their performance and analyzing their limitations. Our\nexperiment reveals 2,142 checked-in secrets affecting 2,115 Android apps. We\nalso disclose that the current checked-in secret detection techniques suffer\nfrom key limitations. All of the evaluated tools can miss a significant number\nof checked-in secrets in Android apps. Nevertheless, we observed that the tools\nare complimentary, suggesting the possibility of developing a more effective\nchecked-in secret detection tool by combining their insights. Additionally, we\npropose that analyzing string groups within methods containing checked-in\nsecrets may provide a more effective strategy to overcome obfuscation\nchallenges.\n",
+  "subjects": [
+    "Computer Science/Cryptography and Security",
+    "Computer Science/Software Engineering"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "TM3Aal0UjRtCRg1Nxfec4r6EELktxShWiRMzrhRmQhc",
+  "pdfSize": "763885"
+}

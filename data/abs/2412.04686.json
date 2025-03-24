@@ -1,0 +1,93 @@
+{
+  "id": "2412.04686",
+  "title": "Measuring the ATLAS ITk Pixel Detector Material via Multiple Scattering\n  of Positrons at the CERN PS",
+  "authors": "Simon Florian Koch, Brian Moser, Anton\\'in Lindner, Valerio Dao,\n  Ignacio Asensi, Daniela Bortoletto, Marianne Brekkum, Florian Dachs, Hans\n  Ludwig Joos, Milou van Rijnbach, Abhishek Sharma, Ismet Siral, Carlos Solans,\n  Yingjie Wei",
+  "authorsParsed": [
+    [
+      "Koch",
+      "Simon Florian",
+      ""
+    ],
+    [
+      "Moser",
+      "Brian",
+      ""
+    ],
+    [
+      "Lindner",
+      "Antonín",
+      ""
+    ],
+    [
+      "Dao",
+      "Valerio",
+      ""
+    ],
+    [
+      "Asensi",
+      "Ignacio",
+      ""
+    ],
+    [
+      "Bortoletto",
+      "Daniela",
+      ""
+    ],
+    [
+      "Brekkum",
+      "Marianne",
+      ""
+    ],
+    [
+      "Dachs",
+      "Florian",
+      ""
+    ],
+    [
+      "Joos",
+      "Hans Ludwig",
+      ""
+    ],
+    [
+      "van Rijnbach",
+      "Milou",
+      ""
+    ],
+    [
+      "Sharma",
+      "Abhishek",
+      ""
+    ],
+    [
+      "Siral",
+      "Ismet",
+      ""
+    ],
+    [
+      "Solans",
+      "Carlos",
+      ""
+    ],
+    [
+      "Wei",
+      "Yingjie",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 6 Dec 2024 00:57:04 GMT"
+    }
+  ],
+  "updateDate": "2024-12-09",
+  "timestamp": 1733446624000,
+  "abstract": "  The ITk is a new silicon tracker for the ATLAS experiment designed to\nincrease detector resolution, readout capacity, and radiation hardness, in\npreparation for the larger number of simultaneous proton-proton interactions at\nthe High Luminosity LHC. This paper presents the first direct measurement of\nthe material budget of an ATLAS ITk pixel module, performed at a testbeam at\nthe CERN Proton Synchrotron via the multiple scattering of low energy positrons\nwithin the module volume. Using a four plane telescope of thin monolithic pixel\ndetectors from the MALTA collaboration, scattering datasets were recorded at a\nbeam energy of $1.2\\,\\text{GeV}$. Kink angle distributions were extracted from\ntracks derived with and without information from the ITk pixel module, and were\nfit to extract the RMS scattering angle, which was converted to a fractional\nradiation length $x/X_0$. The average $x/X_0$ across the module was measured as\n$[0.89 \\pm 0.01 \\text{ (resolution)} \\pm 0.01 \\text{ (subtraction)} \\pm 0.08\n\\text{ (beam momentum band)}]\\%$, which agrees within uncertainties with an\nestimate of $0.88\\%$ derived from material component expectations.\n",
+  "subjects": [
+    "Physics/Instrumentation and Detectors",
+    "Physics/High Energy Physics - Experiment"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "uDeMTd5__Wogj3kKBBxI5FhKV-WbX1reC3mhQSWp2Wc",
+  "pdfSize": "9974897"
+}

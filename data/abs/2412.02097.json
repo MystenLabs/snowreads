@@ -1,0 +1,77 @@
+{
+  "id": "2412.02097",
+  "title": "Beyond Tree Models: A Hybrid Model of KAN and gMLP for Large-Scale\n  Financial Tabular Data",
+  "authors": "Mingming Zhang, Jiahao Hu, Pengfei Shi, Ningtao Wang, Ruizhe Gao,\n  Guandong Sun, Feng Zhao, Yulin kang, Xing Fu, Weiqiang Wang, Junbo Zhao",
+  "authorsParsed": [
+    [
+      "Zhang",
+      "Mingming",
+      ""
+    ],
+    [
+      "Hu",
+      "Jiahao",
+      ""
+    ],
+    [
+      "Shi",
+      "Pengfei",
+      ""
+    ],
+    [
+      "Wang",
+      "Ningtao",
+      ""
+    ],
+    [
+      "Gao",
+      "Ruizhe",
+      ""
+    ],
+    [
+      "Sun",
+      "Guandong",
+      ""
+    ],
+    [
+      "Zhao",
+      "Feng",
+      ""
+    ],
+    [
+      "kang",
+      "Yulin",
+      ""
+    ],
+    [
+      "Fu",
+      "Xing",
+      ""
+    ],
+    [
+      "Wang",
+      "Weiqiang",
+      ""
+    ],
+    [
+      "Zhao",
+      "Junbo",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 3 Dec 2024 02:38:07 GMT"
+    }
+  ],
+  "updateDate": "2024-12-04",
+  "timestamp": 1733193487000,
+  "abstract": "  Tabular data plays a critical role in real-world financial scenarios.\nTraditionally, tree models have dominated in handling tabular data. However,\nfinancial datasets in the industry often encounter some challenges, such as\ndata heterogeneity, the predominance of numerical features and the large scale\nof the data, which can range from tens of millions to hundreds of millions of\nrecords. These challenges can lead to significant memory and computational\nissues when using tree-based models. Consequently, there is a growing need for\nneural network-based solutions that can outperform these models. In this paper,\nwe introduce TKGMLP, an hybrid network for tabular data that combines shallow\nKolmogorov Arnold Networks with Gated Multilayer Perceptron. This model\nleverages the strengths of both architectures to improve performance and\nscalability. We validate TKGMLP on a real-world credit scoring dataset, where\nit achieves state-of-the-art results and outperforms current benchmarks.\nFurthermore, our findings demonstrate that the model continues to improve as\nthe dataset size increases, making it highly scalable. Additionally, we propose\na novel feature encoding method for numerical data, specifically designed to\naddress the predominance of numerical features in financial datasets. The\nintegration of this feature encoding method within TKGMLP significantly\nimproves prediction accuracy. This research not only advances table prediction\ntechnology but also offers a practical and effective solution for handling\nlarge-scale numerical tabular data in various industrial applications.\n",
+  "subjects": [
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "L8UpvR_ExyBchACA8Qmp88mn-oez-rqtkJRldVjG6Y0",
+  "pdfSize": "2426572"
+}

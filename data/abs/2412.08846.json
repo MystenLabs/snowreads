@@ -1,0 +1,33 @@
+{
+  "id": "2412.08846",
+  "title": "Exploring Large Language Models on Cross-Cultural Values in Connection\n  with Training Methodology",
+  "authors": "Minsang Kim and Seungjun Baek",
+  "authorsParsed": [
+    [
+      "Kim",
+      "Minsang",
+      ""
+    ],
+    [
+      "Baek",
+      "Seungjun",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 12 Dec 2024 00:52:11 GMT"
+    }
+  ],
+  "updateDate": "2024-12-13",
+  "timestamp": 1733964731000,
+  "abstract": "  Large language models (LLMs) closely interact with humans, and thus need an\nintimate understanding of the cultural values of human society. In this paper,\nwe explore how open-source LLMs make judgments on diverse categories of\ncultural values across countries, and its relation to training methodology such\nas model sizes, training corpus, alignment, etc. Our analysis shows that LLMs\ncan judge socio-cultural norms similar to humans but less so on social systems\nand progress. In addition, LLMs tend to judge cultural values biased toward\nWestern culture, which can be improved with training on the multilingual\ncorpus. We also find that increasing model size helps a better understanding of\nsocial values, but smaller models can be enhanced by using synthetic data. Our\nanalysis reveals valuable insights into the design methodology of LLMs in\nconnection with their understanding of cultural values.\n",
+  "subjects": [
+    "Computer Science/Computation and Language",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "ZZgE40haPYBFD_x1OBaH3R0ODJRAmc7Bick2fkcL-6A",
+  "pdfSize": "696743"
+}

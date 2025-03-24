@@ -1,0 +1,28 @@
+{
+  "id": "2412.09357",
+  "title": "Insights from Modeling Magnetar-driven Light Curves of Stripped-envelope\n  Supernovae",
+  "authors": "Amit Kumar (RHUL/Warwick)",
+  "authorsParsed": [
+    [
+      "Kumar",
+      "Amit",
+      "",
+      "RHUL/Warwick"
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 12 Dec 2024 15:26:23 GMT"
+    }
+  ],
+  "updateDate": "2024-12-13",
+  "timestamp": 1734017183000,
+  "abstract": "  This work presents the semi-analytical light curve modelling results of 11\nstripped-envelope SNe (SESNe), where millisecond magnetars potentially drive\ntheir light curves. The light-curve modelling is performed utilizing the\n$\\chi^2$-minimisation code $\\texttt{MINIM}$ considering millisecond magnetar as\na central engine powering source. The magnetar model well regenerates the\nbolometric light curves of all the SESNe in the sample and constrains numerous\nphysical parameters, including magnetar's initial spin period ($P_\\textrm{i}$)\nand magnetic field ($B$), explosion energy of supernova ($E_\\textrm{exp}$),\nprogenitor radius ($R_\\textrm{p}$), etc. Within the sample, the superluminous\nSNe 2010kd and 2020ank exhibit the lowest $B$ and $P_\\textrm{i}$ values, while\nthe relativistic Ic broad-line SN 2012ap shows the highest values for both\nparameters. The explosion energy for all SESNe in the sample (except SN\n2019cad), exceeding $\\gtrsim$2 $\\times$ 10$^{51}$ erg, indicates there is a\npossibility of a jittering jet explosion mechanism driving these events.\nAdditionally, a correlation analysis identifies linear dependencies among\nparameters derived from light curve analysis, revealing positive correlations\nbetween rise and decay times, $P_\\textrm{i}$ and $B$, $P_\\textrm{i}$ and\n$R_\\textrm{p}$, and $E_\\textrm{exp}$ and $R_\\textrm{p}$, as well as strong\nanti-correlations of $P_\\textrm{i}$ and $B$ with the peak luminosity. Principal\nComponent Analysis is also applied to key parameters to reduce dimensionality,\nallowing a clearer visualization of SESNe distribution in a lower-dimensional\nspace. This approach highlights the diversity in SESNe characteristics,\nunderscoring unique physical properties and behaviour across different events\nin the sample. This study motivates further study on a more extended sample of\nSESNe to look for millisecond magnetars as their powering source.\n",
+  "subjects": [
+    "Astrophysics/High Energy Astrophysical Phenomena"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "TIG7ZkX2Jfn9keU6zDm0KQe_6V3MmHVh7ELxes2mhSQ",
+  "pdfSize": "859039"
+}

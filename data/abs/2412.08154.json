@@ -1,0 +1,34 @@
+{
+  "id": "2412.08154",
+  "title": "Effective description of open quantum dynamics in relativistic\n  scattering",
+  "authors": "Kaito Kashiwagi, Akira Matsumura",
+  "authorsParsed": [
+    [
+      "Kashiwagi",
+      "Kaito",
+      ""
+    ],
+    [
+      "Matsumura",
+      "Akira",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 11 Dec 2024 07:17:46 GMT"
+    }
+  ],
+  "updateDate": "2024-12-12",
+  "timestamp": 1733901466000,
+  "abstract": "  The open dynamics of quantum particles in relativistic scattering is\ninvestigated. In particular, we consider the scattering process of quantum\nparticles coupled to an environment initially in a vacuum state. Tracing out\nthe environment and using the unitarity of S-operator, we find the\nGorini-Kossakowski-Sudarshan-Lindblad (GKSL) generator describing the evolution\nof the particles. The GKSL generator is exemplified by focusing on the concrete\nprocesses: one is the decay of scalar particle ($\\phi \\rightarrow \\chi \\chi$),\nand the others are the pair annihilation and the $2\\rightarrow 2$ scattering of\nscalar particles ($\\phi \\phi \\rightarrow \\chi \\chi$ and $\\phi \\phi \\rightarrow\n\\phi \\phi$). The GKSL generator for $\\phi \\rightarrow \\chi \\chi$ has a\nparameter with the coupling between $\\phi$ and $\\chi$ and the mass of both\nfields. The GKSL generator associated with $\\phi \\phi \\rightarrow \\chi \\chi$ is\ncharacterized by a Lorentz-invariant function of initial momenta. Especially,\nin the pair annihilation process, we show that the probability of pair\nannihilation varies depending on the superposition state of incident scalar\n$\\phi$ particles. Furthermore, we observe that the GKSL generators derived in\nthis paper have Poincar\\'e symmetry. This means that the description by the\nGKSL generator with Poincar\\'e symmetry is effective for the asymptotic\nbehavior of open quantum dynamics in the long-term processes of interest.\n",
+  "subjects": [
+    "Physics/Quantum Physics",
+    "Physics/General Relativity and Quantum Cosmology",
+    "Physics/High Energy Physics - Theory"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "MDopS6R0iio6nqugJ8EAPdkQaGBOZ2XfFyesKD6CL7Y",
+  "pdfSize": "518740"
+}

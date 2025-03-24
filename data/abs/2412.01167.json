@@ -1,0 +1,53 @@
+{
+  "id": "2412.01167",
+  "title": "HumekaFL: Automated Detection of Neonatal Asphyxia Using Federated\n  Learning",
+  "authors": "Pamely Zantou, Blessed Guda, Bereket Retta, Gladys Inabeza, Carlee\n  Joe-Wong, Assane Gueye",
+  "authorsParsed": [
+    [
+      "Zantou",
+      "Pamely",
+      ""
+    ],
+    [
+      "Guda",
+      "Blessed",
+      ""
+    ],
+    [
+      "Retta",
+      "Bereket",
+      ""
+    ],
+    [
+      "Inabeza",
+      "Gladys",
+      ""
+    ],
+    [
+      "Joe-Wong",
+      "Carlee",
+      ""
+    ],
+    [
+      "Gueye",
+      "Assane",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 2 Dec 2024 06:10:11 GMT"
+    }
+  ],
+  "updateDate": "2024-12-03",
+  "timestamp": 1733119811000,
+  "abstract": "  Birth Apshyxia (BA) is a severe condition characterized by insufficient\nsupply of oxygen to a newborn during the delivery. BA is one of the primary\ncauses of neonatal death in the world. Although there has been a decline in\nneonatal deaths over the past two decades, the developing world, particularly\nsub-Saharan Africa, continues to experience the highest under-five (<5)\nmortality rates. While evidence-based methods are commonly used to detect BA in\nAfrican healthcare settings, they can be subject to physician errors or delays\nin diagnosis, preventing timely interventions. Centralized Machine Learning\n(ML) methods demonstrated good performance in early detection of BA but require\nsensitive health data to leave their premises before training, which does not\nguarantee privacy and security. Healthcare institutions are therefore reluctant\nto adopt such solutions in Africa. To address this challenge, we suggest a\nfederated learning (FL)-based software architecture, a distributed learning\nmethod that prioritizes privacy and security by design. We have developed a\nuser-friendly and cost-effective mobile application embedding the FL pipeline\nfor early detection of BA. Our Federated SVM model outperformed centralized SVM\npipelines and Neural Networks (NN)-based methods in the existing literature\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Electrical Engineering and Systems Science/Audio and Speech Processing"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "qsg8N1Uc6HeJE3a5kVP3dnD38BedJuImn6alNL9Xkmg",
+  "pdfSize": "2816087"
+}

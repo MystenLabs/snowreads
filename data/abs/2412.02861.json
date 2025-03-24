@@ -1,0 +1,47 @@
+{
+  "id": "2412.02861",
+  "title": "An Information-Theoretic Analysis of Thompson Sampling for Logistic\n  Bandits",
+  "authors": "Amaury Gouverneur, Borja Rodr\\'iguez-G\\'alvez, Tobias J. Oechtering,\n  and Mikael Skoglund",
+  "authorsParsed": [
+    [
+      "Gouverneur",
+      "Amaury",
+      ""
+    ],
+    [
+      "Rodríguez-Gálvez",
+      "Borja",
+      ""
+    ],
+    [
+      "Oechtering",
+      "Tobias J.",
+      ""
+    ],
+    [
+      "Skoglund",
+      "Mikael",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 3 Dec 2024 21:55:41 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Thu, 20 Feb 2025 18:24:53 GMT"
+    }
+  ],
+  "updateDate": "2025-02-21",
+  "timestamp": 1733262941000,
+  "abstract": "  We study the performance of the Thompson Sampling algorithm for logistic\nbandit problems. In this setting, an agent receives binary rewards with\nprobabilities determined by a logistic function, $\\exp(\\beta \\langle a, \\theta\n\\rangle)/(1+\\exp(\\beta \\langle a, \\theta \\rangle))$, with slope parameter\n$\\beta>0$, and where both the action $a\\in \\mathcal{A}$ and parameter $\\theta\n\\in \\mathcal{O}$ lie within the $d$-dimensional unit ball. Adopting the\ninformation-theoretic framework introduced by Russo and Van Roy (2016), we\nanalyze the information ratio, a statistic that quantifies the trade-off\nbetween the immediate regret incurred and the information gained about the\noptimal action. We improve upon previous results by establishing that the\ninformation ratio is bounded by $\\tfrac{9}{2}d\\alpha^{-2}$, where $\\alpha$ is a\nminimax measure of the alignment between the action space $\\mathcal{A}$ and the\nparameter space $\\mathcal{O}$, and is independent of $\\beta$. Using this\nresult, we derive a bound of order $O(d/\\alpha\\sqrt{T \\log(\\beta T/d)})$ on the\nBayesian expected regret of Thompson Sampling incurred after $T$ time steps. To\nour knowledge, this is the first regret bound for logistic bandits that depends\nonly logarithmically on $\\beta$ while being independent of the number of\nactions. In particular, when the action space contains the parameter space, the\nbound on the expected regret is of order $\\tilde{O}(d \\sqrt{T})$.\n",
+  "subjects": [
+    "Statistics/Machine Learning",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "p9KYtqR4fwUYSCN42UZbB0Mcke4fSpTyZqOzqL-qj24",
+  "pdfSize": "236468"
+}

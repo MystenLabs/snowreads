@@ -1,0 +1,43 @@
+{
+  "id": "2412.10479",
+  "title": "Pullback attractors for nonclassical diffusion equations with a delay\n  operator",
+  "authors": "Bin Yang, Yuming Qin, Alain Miranville, Ke Wang",
+  "authorsParsed": [
+    [
+      "Yang",
+      "Bin",
+      ""
+    ],
+    [
+      "Qin",
+      "Yuming",
+      ""
+    ],
+    [
+      "Miranville",
+      "Alain",
+      ""
+    ],
+    [
+      "Wang",
+      "Ke",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 13 Dec 2024 08:17:38 GMT"
+    }
+  ],
+  "updateDate": "2024-12-17",
+  "timestamp": 1734077858000,
+  "abstract": "  In this paper, we consider the asymptotic behavior of weak solutions for\nnonclassical non-autonomous diffusion equations with a delay operator in\ntime-dependent spaces when the nonlinear function $g$ satisfies subcritical\nexponent growth conditions, the delay operator $\\varphi(t, u_t)$ contains some\nhereditary characteristics and the external force $k \\in L_{l o\nc}^{2}\\left(\\mathbb{R} ; L^{2}(\\Omega)\\right)$. First, we prove the\nwell-posedness of solutions by using the Faedo-Galerkin approximation method.\nThen after a series of elaborate energy estimates and calculations, we\nestablish the existence and regularity of pullback attractors in time-dependent\nspaces $C_{\\mathcal{H}_{t}(\\Omega)}$ and $C_{\\mathcal{H}^{1}_{t}(\\Omega)}$,\nrespectively.\n",
+  "subjects": [
+    "Mathematics/Analysis of PDEs",
+    "Mathematics/Dynamical Systems"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "YSmz2X12foW4Zkb2x_ea2Emqnzai4DiVRbPDOATCHRQ",
+  "pdfSize": "336893"
+}

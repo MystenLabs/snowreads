@@ -1,0 +1,31 @@
+{
+  "id": "2412.11486",
+  "title": "Anyon Condensation in Virasoro TQFT: Wormhole Factorization",
+  "authors": "Shunta Takahashi",
+  "authorsParsed": [
+    [
+      "Takahashi",
+      "Shunta",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 16 Dec 2024 07:04:24 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Sat, 21 Dec 2024 17:23:00 GMT"
+    }
+  ],
+  "updateDate": "2024-12-25",
+  "timestamp": 1734332664000,
+  "abstract": "  Anyon condensation in wormhole geometries is investigated in the Virasoro\nTQFT (VTQFT) formulation. We first review some elementary techniques of VTQFT\nand verify its consistency by showing that it reproduces semiclassical results,\nincluding the Hawking-Page phase transition and the Bekenstein-Hawking entropy\nof BTZ blackhole. We then summarize a gauging scheme for non-invertible\nsymmetries referred to as anyon condensation and exhibit that it is applicable\nto VTQFT even though the category of Wilson lines associated with it is not\nstrictly a modular tensor category (MTC). More specifically, it is shown that\nthe partition function of the wormhole factorizes upon condensating the\nso-called diagonal condensable anyon in VTQFT.\n",
+  "subjects": [
+    "Physics/High Energy Physics - Theory"
+  ],
+  "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+  "blobId": "IPKVwlMULX1k_xHwQaGn6CQSOdlFZXlNmmRm5WJHUH8",
+  "pdfSize": "544465"
+}

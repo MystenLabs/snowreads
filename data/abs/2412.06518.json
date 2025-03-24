@@ -1,0 +1,38 @@
+{
+  "id": "2412.06518",
+  "title": "On the Bidirected Cut Relaxation for Steiner Forest",
+  "authors": "Jaros{\\l}aw Byrka, Fabrizio Grandoni, Vera Traub",
+  "authorsParsed": [
+    [
+      "Byrka",
+      "Jarosław",
+      ""
+    ],
+    [
+      "Grandoni",
+      "Fabrizio",
+      ""
+    ],
+    [
+      "Traub",
+      "Vera",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 9 Dec 2024 14:19:50 GMT"
+    }
+  ],
+  "updateDate": "2024-12-10",
+  "timestamp": 1733753990000,
+  "abstract": "  The Steiner Forest problem is an important generalization of the Steiner Tree\nproblem. We are given an undirected graph with nonnegative edge costs and a\ncollection of pairs of vertices. The task is to compute a cheapest forest with\nthe property that the elements of each pair belong to the same connected\ncomponent of the forest. The current best approximation factor for Steiner\nForest is 2, which is achieved by the classical primal-dual algorithm;\nimproving on this factor is a big open problem in the area.\n  Motivated by this open problem, we study an LP relaxation for Steiner Forest\nthat generalizes the well-studied Bidirected Cut Relaxation for Steiner Tree.\nWe prove that this relaxation has several promising properties. Among them, it\nis possible to round any half-integral LP solution to a Steiner Forest instance\nwhile increasing the cost by at most a factor 16/9. To prove this result we\nintroduce a novel recursive densest-subgraph contraction algorithm.\n",
+  "subjects": [
+    "Computer Science/Data Structures and Algorithms",
+    "Computer Science/Discrete Mathematics"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "6-XmerKB7Eg22S5QcxEvZgZAZjvwS8QXDnxtEsXsBUA",
+  "pdfSize": "305735"
+}

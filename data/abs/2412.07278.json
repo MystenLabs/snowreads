@@ -1,0 +1,34 @@
+{
+  "id": "2412.07278",
+  "title": "Superficial Consciousness Hypothesis for Autoregressive Transformers",
+  "authors": "Yosuke Miyanishi, Keita Mitani",
+  "authorsParsed": [
+    [
+      "Miyanishi",
+      "Yosuke",
+      ""
+    ],
+    [
+      "Mitani",
+      "Keita",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 10 Dec 2024 08:08:17 GMT"
+    }
+  ],
+  "updateDate": "2024-12-11",
+  "timestamp": 1733818097000,
+  "abstract": "  The alignment between human objectives and machine learning models built on\nthese objectives is a crucial yet challenging problem for achieving Trustworthy\nAI, particularly when preparing for superintelligence (SI). First, given that\nSI does not exist today, empirical analysis for direct evidence is difficult.\nSecond, SI is assumed to be more intelligent than humans, capable of deceiving\nus into underestimating its intelligence, making output-based analysis\nunreliable. Lastly, what kind of unexpected property SI might have is still\nunclear. To address these challenges, we propose the Superficial Consciousness\nHypothesis under Information Integration Theory (IIT), suggesting that SI could\nexhibit a complex information-theoretic state like a conscious agent while\nunconscious. To validate this, we use a hypothetical scenario where SI can\nupdate its parameters \"at will\" to achieve its own objective (mesa-objective)\nunder the constraint of the human objective (base objective). We show that a\npractical estimate of IIT's consciousness metric is relevant to the widely used\nperplexity metric, and train GPT-2 with those two objectives. Our preliminary\nresult suggests that this SI-simulating GPT-2 could simultaneously follow the\ntwo objectives, supporting the feasibility of the Superficial Consciousness\nHypothesis.\n",
+  "subjects": [
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Information Theory",
+    "Mathematics/Information Theory"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "pEHRi3RVe-3wIkyw5OuSjSdNI2jCgWpbfDYREeJU2Yw",
+  "pdfSize": "231194"
+}

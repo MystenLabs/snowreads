@@ -1,0 +1,52 @@
+{
+  "id": "2412.01753",
+  "title": "Human-Machine Interfaces for Subsea Telerobotics: From Soda-straw to\n  Natural Language Interactions",
+  "authors": "Adnan Abdullah, Ruo Chen, David Blow, Thanakon Uthai, Eric Jing Du,\n  and Md Jahidul Islam",
+  "authorsParsed": [
+    [
+      "Abdullah",
+      "Adnan",
+      ""
+    ],
+    [
+      "Chen",
+      "Ruo",
+      ""
+    ],
+    [
+      "Blow",
+      "David",
+      ""
+    ],
+    [
+      "Uthai",
+      "Thanakon",
+      ""
+    ],
+    [
+      "Du",
+      "Eric Jing",
+      ""
+    ],
+    [
+      "Islam",
+      "Md Jahidul",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 2 Dec 2024 17:48:51 GMT"
+    }
+  ],
+  "updateDate": "2024-12-03",
+  "timestamp": 1733161731000,
+  "abstract": "  This review explores the evolution of human-machine interfaces (HMIs) for\nsubsea telerobotics, tracing back the transition from traditional first-person\n\"soda-straw\" consoles (narrow field-of-view camera feed) to advanced interfaces\npowered by gesture recognition, virtual reality, and natural language models.\nFirst, we discuss various forms of subsea telerobotics applications, current\nstate-of-the-art (SOTA) interface systems, and the challenges they face in\nrobust underwater sensing, real-time estimation, and low-latency communication.\nThrough this analysis, we highlight how advanced HMIs facilitate intuitive\ninteractions between human operators and robots to overcome these challenges. A\ndetailed review then categorizes and evaluates the cutting-edge HMI systems\nbased on their offered features from both human perspectives (e.g., enhancing\noperator control and situational awareness) and machine perspectives (e.g.,\nimproving safety, mission accuracy, and task efficiency). Moreover, we examine\nthe literature on bidirectional interaction and intelligent collaboration in\nterms of sensory feedback and intuitive control mechanisms for both physical\nand virtual interfaces. The paper concludes by identifying critical challenges,\nopen research questions, and future directions, emphasizing the need for\nmultidisciplinary collaboration in subsea telerobotics.\n",
+  "subjects": [
+    "Computer Science/Robotics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "N-EiiZRGIhWUq3JMy1vgKQrUUu1UZRbnBa8krwbeH1o",
+  "pdfSize": "21998239"
+}

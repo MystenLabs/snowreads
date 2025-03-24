@@ -1,0 +1,58 @@
+{
+  "id": "2412.20935",
+  "title": "Effects of alternating interactions and boundary conditions on quantum\n  entanglement of three-leg Heisenberg ladder",
+  "authors": "Qinghui Li, Lizhen Hu, Panpan Zhang, Chuanzheng Miao, Yuliang Xu,\n  Zhongqiang Liu and Xiangmu Kong",
+  "authorsParsed": [
+    [
+      "Li",
+      "Qinghui",
+      ""
+    ],
+    [
+      "Hu",
+      "Lizhen",
+      ""
+    ],
+    [
+      "Zhang",
+      "Panpan",
+      ""
+    ],
+    [
+      "Miao",
+      "Chuanzheng",
+      ""
+    ],
+    [
+      "Xu",
+      "Yuliang",
+      ""
+    ],
+    [
+      "Liu",
+      "Zhongqiang",
+      ""
+    ],
+    [
+      "Kong",
+      "Xiangmu",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 30 Dec 2024 13:26:23 GMT"
+    }
+  ],
+  "updateDate": "2024-12-31",
+  "timestamp": 1735565183000,
+  "abstract": "  The spin-12 three-leg antiferromagnetic Heisenberg spin ladder is studied\nunder open boundary condition (OBC) and cylinder boundary condition (CBC),\nusing the density matrix renormalization group and matrix product state\nmethods, respectively. Specifically, we calculate the energy density,\nentanglement entropy, and concurrence while discussing the effects of interleg\ninteraction J2 and the alternating coupling parameter gamma on these\nquantities. It is found that the introduction of gamma can completely reverse\nthe concurrence distribution between odd and even bonds. Under CBC, the\ngeneration of the interleg concurrence is inhibited when gamma=0, and the\nintroduction of gamma can cause interleg concurrence between chains 1 and 3, in\nwhich the behavior is more complicated due to the competition between CBC and\ngamma. Additionally, we find that gamma induces two types of long-distance\nentanglement (LDE) in the system under OBC: intraleg LDE and inter-leg one.\nWhen the system size is sufficiently large, both types of LDE reach similar\nstrength and stabilize at a constant value. The study indicates that the\nthree-leg ladder makes it easier to generate LDE compared with the two-leg\nsystem. However, the generation of LDE is inhibited under CBC which the spin\nfrustration exists. In addition, the calculated results of energy, entanglement\nentropy and concurrence all show that there are essential relations between\nthese quantities and phase transitions of the system. Further, we predict a\nphase transition point near gamma=0.54 under OBC. The present study provides\nvaluable insights into understanding the phase diagram of this class of\nsystems.\n",
+  "subjects": [
+    "Condensed Matter/Strongly Correlated Electrons",
+    "Physics/Quantum Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "SfVfULEmrdfpF2kHhWB5yLtOy0BWBrPvA9h_YH-wpNg",
+  "pdfSize": "745114"
+}

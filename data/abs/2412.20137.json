@@ -1,0 +1,27 @@
+{
+  "id": "2412.20137",
+  "title": "On convergence of Thurston's iteration for transcendental entire\n  functions with infinite post-singular set",
+  "authors": "Konstantin Bogdanov",
+  "authorsParsed": [
+    [
+      "Bogdanov",
+      "Konstantin",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 28 Dec 2024 12:49:43 GMT"
+    }
+  ],
+  "updateDate": "2024-12-31",
+  "timestamp": 1735390183000,
+  "abstract": "  Given an entire function $f_0$ with finitely many singular values, one can\nconstruct a quasiregular function $f$ by post-composing $f_0$ with a\nquasiconformal map equal to identity on some open set $U\\ni\\infty$. It might\nhappen that the $f$-orbits of all singular values of $f$ are eventually\ncontained in $U$. The goal of this article is to investigate properties of\nThurston's pull-back map $\\sigma$ associated to such $f$, especially in the\ncase when $f$ is post-singularly infinite, that is, when $\\sigma$ acts on an\ninfinite-dimensional Teichm\\\"uller space $\\mathcal{T}$.\n  The main result yields sufficient conditions for existence of a\n$\\sigma$-invariant set $\\mathcal{I}\\subset\\mathcal{T}$ such that its projection\nto the subspace of $\\mathcal{T}$ associated to marked points in\n$\\mathbb{C}\\setminus U$ is bounded in the Teichm\\\"uller metric, while the\nprojection to the subspace associated to the marked points in $U$ (generally\nthere are infinitely many) is a small perturbation of identity. The notion of a\n``fat spider'' is defined and used as a dynamically meaningful way define\ncoordinates in the Teichm\\\"uller space.\n  The notion of ``asymptotic area property'' for entire functions is\nintroduced. Roughly, it requires that the complement of logarithmic tracts in\n$U$ degenerates fast as $U$ shrinks. A corollary of the main result is that for\na finite order entire function, if the degeneration is fast enough and singular\nvalues of $f$ escape fast, then $f$ is Thurston equivalent to an entire\nfunction.\n",
+  "subjects": [
+    "Mathematics/Dynamical Systems"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "qoqzti0IDThmIjRWz2xcz41pGryMBhbnvtngID_8EQY",
+  "pdfSize": "716319"
+}

@@ -1,0 +1,39 @@
+{
+  "id": "2412.19161",
+  "title": "Robust $H_{\\infty}$ Position Controller for Steering Systems",
+  "authors": "Tushar Chugh, Fredrik Bruzelius and Bal\\'azs Kulcs\\'ar",
+  "authorsParsed": [
+    [
+      "Chugh",
+      "Tushar",
+      ""
+    ],
+    [
+      "Bruzelius",
+      "Fredrik",
+      ""
+    ],
+    [
+      "Kulcsár",
+      "Balázs",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 26 Dec 2024 10:44:30 GMT"
+    }
+  ],
+  "updateDate": "2024-12-30",
+  "timestamp": 1735209870000,
+  "abstract": "  This paper presents a robust position controller for electric power assisted\nsteering and steer-by-wire force-feedback systems. A position controller is\nrequired in steering systems for haptic feedback control, advanced driver\nassistance systems and automated driving. However, the driver's\n\\textit{physical} arm impedance causes an inertial uncertainty during coupling.\nConsequently, a typical position controller, i.e., based on single variable,\nbecomes less robust and suffers tracking performance loss. Therefore, a robust\nposition controller is investigated.\n  The proposed solution is based on the multi-variable concept such that the\nsensed driver torque signal is also included in the position controller. The\nsubsequent solution is obtained by solving the LMI$-H_{\\infty}$ optimization\nproblem. As a result, the desired loop gain shape is achieved, i.e., large gain\nat low frequencies for performance and small gain at high frequencies for\nrobustness.\n  Finally, frequency response comparison of different position controllers on\nreal hardware is presented. Experiments and simulation results clearly\nillustrate the improvements in reference tracking and robustness with the\nproposed $H_\\infty$ controller.\n",
+  "subjects": [
+    "Electrical Engineering and Systems Science/Systems and Control",
+    "Computer Science/Systems and Control",
+    "Electrical Engineering and Systems Science/Signal Processing"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "YuhnSSF9Sh34hM4hagasr5P9o9uDUX_IWbPveBfw2X4",
+  "pdfSize": "3688573"
+}

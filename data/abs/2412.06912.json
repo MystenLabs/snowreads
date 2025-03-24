@@ -1,0 +1,37 @@
+{
+  "id": "2412.06912",
+  "title": "Off-Shell Quantum Mechanics as Factorization Algebras on Intervals",
+  "authors": "Christoph Chiaffrino, Noah Hassan and Olaf Hohm",
+  "authorsParsed": [
+    [
+      "Chiaffrino",
+      "Christoph",
+      ""
+    ],
+    [
+      "Hassan",
+      "Noah",
+      ""
+    ],
+    [
+      "Hohm",
+      "Olaf",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 9 Dec 2024 19:02:10 GMT"
+    }
+  ],
+  "updateDate": "2024-12-11",
+  "timestamp": 1733770930000,
+  "abstract": "  We present, for the harmonic oscillator and the spin-$\\frac{1}{2}$ system, an\nalternative formulation of quantum mechanics that is `off-shell': it is based\non classical off-shell configurations and thus similar to the path integral.\nThe core elements are Batalin-Vilkovisky (BV) algebras and factorization\nalgebras, following a program by Costello and Gwilliam. The BV algebras are the\nspaces of quantum observables ${\\rm Obs}^q(I)$ given by the symmetric algebra\nof polynomials in compactly supported functions on some interval\n$I\\subset\\mathbb{R}$, which can be viewed as functionals on the dynamical\nvariables. Generalizing associative algebras, factorization algebras include in\ntheir data a topological space, which here is $\\mathbb{R}$, and an assignment\nof a vector space to each open set, which here is the assignment of ${\\rm\nObs}^q(I)$ to each open interval $I$. The central structure maps are bilinear\n${\\rm Obs}^q(I_1)\\otimes {\\rm Obs}^q(I_2)\\rightarrow {\\rm Obs}^q(J)$ for\ndisjoint intervals $I_1$ and $I_2$ contained in an interval $J$, which here is\nthe wedge product of the symmetric algebra. We prove, as the central result of\nthis paper, that this factorization algebra is quasi-isomorphic to the\nfactorization algebra of `on-shell' quantum mechanics. In this we extend\nprevious work by including half-open and closed intervals, and by generalizing\nto the spin-$\\frac{1}{2}$ system.\n",
+  "subjects": [
+    "Physics/High Energy Physics - Theory"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "rvPkI13piXdXExRNOkRBfUiUAxykUHB5mgdl8BIghLo",
+  "pdfSize": "1330710"
+}

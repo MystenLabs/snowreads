@@ -1,0 +1,134 @@
+{
+  "id": "2412.14826",
+  "title": "J-PLUS: Tomographic analysis of galaxy angular density and redshift\n  fluctuations in Data Release 3. Constraints on photo-$z$ errors, linear bias,\n  and peculiar velocities",
+  "authors": "C. Hern\\'andez-Monteagudo (IAC/ULL), A. Balaguera-Antol\\'inez, R. von\n  Marttens, A. del Pino, A. Hern\\'an-Caballero, L. R. Abramo, J.\n  Chaves-Montero, C. L\\'opez-Sanjuan, V. Marra, E. Tempel, G. Aric\\`o, J.\n  Cenarro, D. Crist\\'obal-Hornillos, A. Mar\\'in-Franch, M. Moles, J. Varela, H.\n  V\\'azquez Rami\\'o, J. Alcaniz, R. Dupke, A. Ederoclite, L. Sodr\\'e Jr., R. E.\n  Angulo",
+  "authorsParsed": [
+    [
+      "Hernández-Monteagudo",
+      "C.",
+      "",
+      "IAC/ULL"
+    ],
+    [
+      "Balaguera-Antolínez",
+      "A.",
+      ""
+    ],
+    [
+      "von Marttens",
+      "R.",
+      ""
+    ],
+    [
+      "del Pino",
+      "A.",
+      ""
+    ],
+    [
+      "Hernán-Caballero",
+      "A.",
+      ""
+    ],
+    [
+      "Abramo",
+      "L. R.",
+      ""
+    ],
+    [
+      "Chaves-Montero",
+      "J.",
+      ""
+    ],
+    [
+      "López-Sanjuan",
+      "C.",
+      ""
+    ],
+    [
+      "Marra",
+      "V.",
+      ""
+    ],
+    [
+      "Tempel",
+      "E.",
+      ""
+    ],
+    [
+      "Aricò",
+      "G.",
+      ""
+    ],
+    [
+      "Cenarro",
+      "J.",
+      ""
+    ],
+    [
+      "Cristóbal-Hornillos",
+      "D.",
+      ""
+    ],
+    [
+      "Marín-Franch",
+      "A.",
+      ""
+    ],
+    [
+      "Moles",
+      "M.",
+      ""
+    ],
+    [
+      "Varela",
+      "J.",
+      ""
+    ],
+    [
+      "Ramió",
+      "H. Vázquez",
+      ""
+    ],
+    [
+      "Alcaniz",
+      "J.",
+      ""
+    ],
+    [
+      "Dupke",
+      "R.",
+      ""
+    ],
+    [
+      "Ederoclite",
+      "A.",
+      ""
+    ],
+    [
+      "Sodré",
+      "L.",
+      "Jr."
+    ],
+    [
+      "Angulo",
+      "R. E.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 19 Dec 2024 13:16:42 GMT"
+    }
+  ],
+  "updateDate": "2024-12-20",
+  "timestamp": 1734614202000,
+  "abstract": "  The {\\it Javalambre Photometric Local Universe Survey} (J-PLUS) is a {\\it\nspectro-photometric} survey covering about 3,000~deg$^2$ in its third data\nrelease (DR3), and containing about 300,000 galaxies with high quality ({\\it\nodds}$>0.8$) photometric redshifts (hereafter photo-$z$s). We use this galaxy\nsample to conduct a tomographic study of the counts and redshift angular\nfluctuations under Gaussian shells sampling the redshift range\n$z\\in[0.05,0.25]$. We confront the angular power spectra of these observables\nmeasured under shells centered on 11 different redshifts with theoretical\nexpectations derived from a linear Boltzmann code ({\\tt ARFCAMB}). Overall we\nfind that J-PLUS DR3 data are well reproduced by our linear, simplistic model.\nWe obtain that counts (or density) angular fluctuations (hereafter ADF) are\nvery sensitive to the linear galaxy bias $b_g(z)$, although weakly sensitive to\nradial peculiar velocities of the galaxy field, while suffering from\nsystematics residuals for $z>0.15$. Angular redshift fluctuations (ARF),\ninstead, show higher sensitivity to radial peculiar velocities and also higher\nsensitivity to the average uncertainty in photo-$z$s ($\\sigma_{\\rm Err}$), with\nno obvious impact from systematics. For $z<0.15$ both ADF and ARF agree on\nmeasuring a monotonically increasing linear bias varying from\n$b_g(z=0.05)\\simeq 0.9\\pm 0.06$ up to $b_g(z=0.15)\\simeq 1.5\\pm 0.05$, while,\nby first time, providing consistent measurements of $\\sigma_{\\rm Err}(z)\\sim\n0.014$ that are $\\sim 40~\\%$ higher than estimates from the photo-$z$ code {\\tt\nLePhare}, ($\\sigma_{\\rm Err}^{\\rm LePhare}=0.010$). As expected, this photo-$z$\nuncertainty level prevents the detection of radial peculiar velocities in the\nmodest volume sampled by J-PLUS DR3, although prospects for larger galaxy\nsurveys of similar (and higher) photo-$z$ precision are promising.\n",
+  "subjects": [
+    "Astrophysics/Cosmology and Nongalactic Astrophysics",
+    "Astrophysics/Astrophysics of Galaxies"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "LDI2ws4UIuXl2ps3QW6FDAhmZQoiwNAdSyYM3pU1zxg",
+  "pdfSize": "8271193"
+}

@@ -1,0 +1,39 @@
+{
+  "id": "2412.15958",
+  "title": "Heavy-quark mass effects in off-light-cone distributions",
+  "authors": "Valerio Bertone, Michael Fucilla and C\\'edric Mezrag",
+  "authorsParsed": [
+    [
+      "Bertone",
+      "Valerio",
+      ""
+    ],
+    [
+      "Fucilla",
+      "Michael",
+      ""
+    ],
+    [
+      "Mezrag",
+      "Cédric",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 20 Dec 2024 14:51:23 GMT"
+    }
+  ],
+  "updateDate": "2024-12-23",
+  "timestamp": 1734706283000,
+  "abstract": "  We compute the one-loop correction to the forward matrix element of an\noff-light-cone bi-local quark correlator characterised by a space-like\nseparation $z^2$ in the presence of heavy quarks with mass $m$. This\ncalculation allows us to extract the one-loop matching kernel, necessary to\nconnect quasi and pseudo-distributions to collinear parton distribution\nfunctions (PDFs), accounting for heavy-quark mass effects. Our result is exact\nin that it includes all powers of $z^2m^2$ at one loop in $\\alpha_s$. In the\nlimit $z^2m^2\\rightarrow 0$, it consistently reduces to the known massless\nresult. We also carry out an implementation of our expression, which allows us\nto compute the charm pseudo-distribution of the proton given its PDF. We\nfinally comment on the quantitative impact of heavy-quark mass corrections.\n",
+  "subjects": [
+    "Physics/High Energy Physics - Phenomenology",
+    "Physics/High Energy Physics - Lattice",
+    "Physics/Nuclear Theory"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "LWAR3c-rE7sMyB8MLWSHQi2ilIgOJWIw_JP_S1n5RLA",
+  "pdfSize": "382754"
+}

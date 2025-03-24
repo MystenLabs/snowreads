@@ -1,0 +1,28 @@
+{
+  "id": "2412.16693",
+  "title": "CyberSentinel: Efficient Anomaly Detection in Programmable Switch using\n  Knowledge Distillation",
+  "authors": "Sankalp Mittal",
+  "authorsParsed": [
+    [
+      "Mittal",
+      "Sankalp",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 21 Dec 2024 16:35:44 GMT"
+    }
+  ],
+  "updateDate": "2024-12-24",
+  "timestamp": 1734798944000,
+  "abstract": "  The increasing volume of traffic (especially from IoT devices) is posing a\nchallenge to the current anomaly detection systems. Existing systems are forced\nto take the support of the control plane for a more thorough and accurate\ndetection of malicious traffic (anomalies). This introduces latency in making\ndecisions regarding fast incoming traffic and therefore, existing systems are\nunable to scale to such growing rates of traffic. In this paper, we propose\nCyberSentinel, a high throughput and accurate anomaly detection system deployed\nentirely in the programmable switch data plane; making it the first work to\naccurately detect anomalies at line speed. To detect unseen network attacks,\nCyberSentinel uses a novel knowledge distillation scheme that incorporates\n\"learned\" knowledge of deep unsupervised ML models (\\textit{e.g.},\nautoencoders) to develop an iForest model that is then installed in the data\nplane in the form of whitelist rules. We implement a prototype of CyberSentinel\non a testbed with an Intel Tofino switch and evaluate it on various real-world\nuse cases. CyberSentinel yields similar detection performance compared to the\nstate-of-the-art control plane solutions but with an increase in\npacket-processing throughput by $66.47\\%$ on a $40$ Gbps link, and a reduction\nin average per-packet latency by $50\\%$.\n",
+  "subjects": [
+    "Computer Science/Cryptography and Security",
+    "Computer Science/Networking and Internet Architecture"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "JY8dmlOa0Qg_QHt6ipFPl5InNvg28yxHbVoIF5c8L8s",
+  "pdfSize": "1923587"
+}

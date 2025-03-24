@@ -1,0 +1,59 @@
+{
+  "id": "2412.15818",
+  "title": "Precision ICU Resource Planning: A Multimodal Model for Brain Surgery\n  Outcomes",
+  "authors": "Maximilian Fischer, Florian M. Hauptmann, Robin Peretzke, Paul Naser,\n  Peter Neher, Jan-Oliver Neumann, Klaus Maier-Hein",
+  "authorsParsed": [
+    [
+      "Fischer",
+      "Maximilian",
+      ""
+    ],
+    [
+      "Hauptmann",
+      "Florian M.",
+      ""
+    ],
+    [
+      "Peretzke",
+      "Robin",
+      ""
+    ],
+    [
+      "Naser",
+      "Paul",
+      ""
+    ],
+    [
+      "Neher",
+      "Peter",
+      ""
+    ],
+    [
+      "Neumann",
+      "Jan-Oliver",
+      ""
+    ],
+    [
+      "Maier-Hein",
+      "Klaus",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 20 Dec 2024 11:59:34 GMT"
+    }
+  ],
+  "updateDate": "2024-12-23",
+  "timestamp": 1734695974000,
+  "abstract": "  Although advances in brain surgery techniques have led to fewer postoperative\ncomplications requiring Intensive Care Unit (ICU) monitoring, the routine\ntransfer of patients to the ICU remains the clinical standard, despite its high\ncost. Predictive Gradient Boosted Trees based on clinical data have attempted\nto optimize ICU admission by identifying key risk factors pre-operatively;\nhowever, these approaches overlook valuable imaging data that could enhance\nprediction accuracy. In this work, we show that multimodal approaches that\ncombine clinical data with imaging data outperform the current clinical data\nonly baseline from 0.29 [F1] to 0.30 [F1], when only pre-operative clinical\ndata is used and from 0.37 [F1] to 0.41 [F1], for pre- and post-operative data.\nThis study demonstrates that effective ICU admission prediction benefits from\nmultimodal data fusion, especially in contexts of severe class imbalance.\n",
+  "subjects": [
+    "Electrical Engineering and Systems Science/Image and Video Processing",
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Quantitative Biology/Neurons and Cognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "kTGtxlGQ1Ya218kC3girtgxd92vZt45oHjdr_o0WE6M",
+  "pdfSize": "219003"
+}

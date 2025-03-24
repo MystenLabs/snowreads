@@ -1,0 +1,38 @@
+{
+  "id": "2412.03106",
+  "title": "Improved Turbo Message Passing for Compressive Robust Principal\n  Component Analysis: Algorithm Design and Asymptotic Analysis",
+  "authors": "Zhuohang He, Junjie Ma, and Xiaojun Yuan",
+  "authorsParsed": [
+    [
+      "He",
+      "Zhuohang",
+      ""
+    ],
+    [
+      "Ma",
+      "Junjie",
+      ""
+    ],
+    [
+      "Yuan",
+      "Xiaojun",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 4 Dec 2024 08:12:35 GMT"
+    }
+  ],
+  "updateDate": "2024-12-05",
+  "timestamp": 1733299955000,
+  "abstract": "  Compressive Robust Principal Component Analysis (CRPCA) naturally arises in\nvarious applications as a means to recover a low-rank matrix low-rank matrix\n$\\boldsymbol{L}$ and a sparse matrix $\\boldsymbol{S}$ from compressive\nmeasurements. In this paper, we approach the problem from a Bayesian inference\nperspective. We establish a probabilistic model for the problem and develop an\nimproved turbo message passing (ITMP) algorithm based on the sum-product rule\nand the appropriate approximations. Additionally, we establish a state\nevolution framework to characterize the asymptotic behavior of the ITMP\nalgorithm in the large-system limit. By analyzing the established state\nevolution, we further propose sufficient conditions for the global convergence\nof our algorithm. Our numerical results validate the theoretical results,\ndemonstrating that the proposed asymptotic framework accurately characterize\nthe dynamical behavior of the ITMP algorithm, and the phase transition curve\nspecified by the sufficient condition agrees well with numerical simulations.\n",
+  "subjects": [
+    "Computer Science/Information Theory",
+    "Mathematics/Information Theory"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "xwWlJxryo3lyrNONGg6p13_RnEccmOybTpoYZ7e99i8",
+  "pdfSize": "1578107"
+}

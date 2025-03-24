@@ -1,0 +1,43 @@
+{
+  "id": "2412.04697",
+  "title": "Privacy-Preserving Retrieval-Augmented Generation with Differential\n  Privacy",
+  "authors": "Tatsuki Koga, Ruihan Wu, Kamalika Chaudhuri",
+  "authorsParsed": [
+    [
+      "Koga",
+      "Tatsuki",
+      ""
+    ],
+    [
+      "Wu",
+      "Ruihan",
+      ""
+    ],
+    [
+      "Chaudhuri",
+      "Kamalika",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 6 Dec 2024 01:20:16 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Wed, 26 Feb 2025 18:55:54 GMT"
+    }
+  ],
+  "updateDate": "2025-02-27",
+  "timestamp": 1733448016000,
+  "abstract": "  With the recent remarkable advancement of large language models (LLMs), there\nhas been a growing interest in utilizing them in the domains with highly\nsensitive data that lies outside their training data. For this purpose,\nretrieval-augmented generation (RAG) is particularly effective -- it assists\nLLMs by directly providing relevant information from the external knowledge\nsources. However, without extra privacy safeguards, RAG outputs risk leaking\nsensitive information from the external data source. In this work, we explore\nRAG under differential privacy (DP), a formal guarantee of data privacy. The\nmain challenge with differentially private RAG is how to generate long accurate\nanswers within a moderate privacy budget. We address this by proposing an\nalgorithm that smartly spends privacy budget only for the tokens that require\nthe sensitive information and uses the non-private LLM for other tokens. Our\nextensive empirical evaluations reveal that our algorithm outperforms the\nnon-RAG baseline under a reasonable privacy budget of $\\epsilon\\approx 10$\nacross different models and datasets.\n",
+  "subjects": [
+    "Computer Science/Cryptography and Security",
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Computation and Language"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "GIQwH1J8jrNodDaDAlu0l2viOfJdGKS6w_VJq6w_NE0",
+  "pdfSize": "1483602"
+}

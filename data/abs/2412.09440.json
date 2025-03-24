@@ -1,0 +1,32 @@
+{
+  "id": "2412.09440",
+  "title": "Learning to Adapt: Bio-Inspired Gait Strategies for Versatile Quadruped\n  Locomotion",
+  "authors": "Joseph Humphreys and Chengxu Zhou",
+  "authorsParsed": [
+    [
+      "Humphreys",
+      "Joseph",
+      ""
+    ],
+    [
+      "Zhou",
+      "Chengxu",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 12 Dec 2024 16:56:01 GMT"
+    }
+  ],
+  "updateDate": "2024-12-13",
+  "timestamp": 1734022561000,
+  "abstract": "  Deep reinforcement learning (DRL) has revolutionised quadruped robot\nlocomotion, but existing control frameworks struggle to generalise beyond their\ntraining-induced observational scope, resulting in limited adaptability. In\ncontrast, animals achieve exceptional adaptability through gait transition\nstrategies, diverse gait utilisation, and seamless adjustment to immediate\nenvironmental demands. Inspired by these capabilities, we present a novel DRL\nframework that incorporates key attributes of animal locomotion: gait\ntransition strategies, pseudo gait procedural memory, and adaptive motion\nadjustments. This approach enables our framework to achieve unparalleled\nadaptability, demonstrated through blind zero-shot deployment on complex\nterrains and recovery from critically unstable states. Our findings offer\nvaluable insights into the biomechanics of animal locomotion, paving the way\nfor robust, adaptable robotic systems.\n",
+  "subjects": [
+    "Computer Science/Robotics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "nCf2rkN6ip-XnQcZmQOEIfUC0zqzwpE_7X3bQ_0ZT6o",
+  "pdfSize": "31559889"
+}

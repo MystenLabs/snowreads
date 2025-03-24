@@ -1,0 +1,53 @@
+{
+  "id": "2412.16405",
+  "title": "Systematic discrepancies between reference methods for non-covalent\n  interactions within the S66 dataset",
+  "authors": "Benjamin X. Shi and Flaviano Della Pia and Yasmine S. Al-Hamdani and\n  Angelos Michaelides and Dario Alf\\`e and Andrea Zen",
+  "authorsParsed": [
+    [
+      "Shi",
+      "Benjamin X.",
+      ""
+    ],
+    [
+      "Della Pia",
+      "Flaviano",
+      ""
+    ],
+    [
+      "Al-Hamdani",
+      "Yasmine S.",
+      ""
+    ],
+    [
+      "Michaelides",
+      "Angelos",
+      ""
+    ],
+    [
+      "Alfè",
+      "Dario",
+      ""
+    ],
+    [
+      "Zen",
+      "Andrea",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 20 Dec 2024 23:49:57 GMT"
+    }
+  ],
+  "updateDate": "2024-12-24",
+  "timestamp": 1734738597000,
+  "abstract": "  The accurate treatment of non-covalent interactions is necessary to model a\nwide range of applications, from molecular crystals to surface catalysts to\naqueous solutions and many more. Quantum diffusion Monte Carlo (DMC) and\ncoupled cluster theory with single, double and perturbative triple excitations\n[CCSD(T)] are considered two widely-trusted methods for treating non-covalent\ninteractions. However, while they have been well-validated for small molecules,\nrecent work has indicated that these two methods can disagree by more than\n$7.5\\,$kcal/mol for larger systems. The origin of this discrepancy remains\nunknown. Moreover, the lack of systematic comparisons, particularly for\nmedium-sized complexes, has made it difficult to identify which systems may be\nprone to such disagreements and the potential scale of these differences. In\nthis work, we leverage the latest developments in DMC to compute interaction\nenergies for the entire S66 dataset, containing 66 medium-sized complexes with\na balanced representation of dispersion and electrostatic interactions.\nComparison to previous CCSD(T) references reveals systematic trends, with DMC\npredicting stronger binding than CCSD(T) for electrostatic-dominated systems,\nwhile the binding becomes weaker for dispersion-dominated systems. We show that\nthe relative strength of this discrepancy is correlated to the ratio of\nelectrostatic and dispersion interactions, as obtained from energy\ndecomposition analysis methods. Finally, we pinpoint systems in the S66 dataset\nwhere these discrepancies are particularly prominent, offering cost-effective\nbenchmarks to guide future developments in DMC, CCSD(T) as well as the wider\nelectronic structure theory community.\n",
+  "subjects": [
+    "Physics/Chemical Physics",
+    "Physics/Quantum Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "H-uGrAqaY7VEmQWSmXt1Jczc90X_gMh1N-2NREYm9r4",
+  "pdfSize": "7107961"
+}

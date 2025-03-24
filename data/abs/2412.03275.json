@@ -1,0 +1,52 @@
+{
+  "id": "2412.03275",
+  "title": "AntLM: Bridging Causal and Masked Language Models",
+  "authors": "Xinru Yu, Bin Guo, Shiwei Luo, Jie Wang, Tao Ji, Yuanbin Wu",
+  "authorsParsed": [
+    [
+      "Yu",
+      "Xinru",
+      ""
+    ],
+    [
+      "Guo",
+      "Bin",
+      ""
+    ],
+    [
+      "Luo",
+      "Shiwei",
+      ""
+    ],
+    [
+      "Wang",
+      "Jie",
+      ""
+    ],
+    [
+      "Ji",
+      "Tao",
+      ""
+    ],
+    [
+      "Wu",
+      "Yuanbin",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 4 Dec 2024 12:34:15 GMT"
+    }
+  ],
+  "updateDate": "2024-12-05",
+  "timestamp": 1733315655000,
+  "abstract": "  Causal Language Modeling (CLM) and Masked Language Modeling (MLM) are two\nmainstream learning paradigms based on Transformer networks, specifically the\nDecoder-only and Encoder-only architectures. The strengths of each paradigm in\ndownstream tasks have shown a mix of advantages and disadvantages. In the past\nBabyLM Challenge 2023, although the MLM paradigm achieved the best average\nperformance, the CLM paradigm demonstrated significantly faster convergence\nrates. For the BabyLM Challenge 2024, we propose a novel language modeling\nparadigm named $\\textbf{AntLM}$, which integrates both CLM and MLM to leverage\nthe advantages of these two classic paradigms. We chose the strict-small track\nand conducted experiments on two foundation models: BabyLlama, representing\nCLM, and LTG-BERT, representing MLM. During the training process for specific\nfoundation models, we alternate between applying CLM or MLM training objectives\nand causal or bidirectional attention masks. Experimental results show that\ncombining the two pretraining objectives leverages their strengths, enhancing\noverall training performance. Under the same epochs, $AntLM_{BabyLlama}$\nimproves Macro-average by 1%, and $AntLM_{LTG-BERT}$ achieves a 2.2% increase\nover the baselines.\n",
+  "subjects": [
+    "Computer Science/Computation and Language"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "w6nhwoTNYMIlU6OjbhXwGe6jV9OXokHHVgGj5fiDD5I",
+  "pdfSize": "308563"
+}

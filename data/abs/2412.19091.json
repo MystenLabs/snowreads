@@ -1,0 +1,37 @@
+{
+  "id": "2412.19091",
+  "title": "From Coin to Data: The Impact of Object Detection on Digital Numismatics",
+  "authors": "Rafael Cabral, Maria De Iorio, Andrew Harris",
+  "authorsParsed": [
+    [
+      "Cabral",
+      "Rafael",
+      ""
+    ],
+    [
+      "De Iorio",
+      "Maria",
+      ""
+    ],
+    [
+      "Harris",
+      "Andrew",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 26 Dec 2024 07:05:53 GMT"
+    }
+  ],
+  "updateDate": "2024-12-30",
+  "timestamp": 1735196753000,
+  "abstract": "  In this work we investigate the application of advanced object detection\ntechniques to digital numismatics, focussing on the analysis of historical\ncoins. Leveraging models such as Contrastive Language-Image Pre-training\n(CLIP), we develop a flexible framework for identifying and classifying\nspecific coin features using both image and textual descriptions. By examining\ntwo distinct datasets, modern Russian coins featuring intricate \"Saint George\nand the Dragon\" designs and degraded 1st millennium AD Southeast Asian coins\nbearing Hindu-Buddhist symbols, we evaluate the efficacy of different detection\nalgorithms in search and classification tasks. Our results demonstrate the\nsuperior performance of larger CLIP models in detecting complex imagery, while\ntraditional methods excel in identifying simple geometric patterns.\nAdditionally, we propose a statistical calibration mechanism to enhance the\nreliability of similarity scores in low-quality datasets. This work highlights\nthe transformative potential of integrating state-of-the-art object detection\ninto digital numismatics, enabling more scalable, precise, and efficient\nanalysis of historical artifacts. These advancements pave the way for new\nmethodologies in cultural heritage research, artefact provenance studies, and\nthe detection of forgeries.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "DDIR888gg5AQJMruqnZRnyDjUxw0FMJULggHYkZDp44",
+  "pdfSize": "991585"
+}

@@ -1,0 +1,37 @@
+{
+  "id": "2412.05166",
+  "title": "Non-Hermitian Generalization of Rayleigh-Schr\\\"odinger Perturbation\n  Theory",
+  "authors": "Wei-Ming Chen, Yen-Ting Lin, Chia-Yi Ju",
+  "authorsParsed": [
+    [
+      "Chen",
+      "Wei-Ming",
+      ""
+    ],
+    [
+      "Lin",
+      "Yen-Ting",
+      ""
+    ],
+    [
+      "Ju",
+      "Chia-Yi",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 6 Dec 2024 16:30:19 GMT"
+    }
+  ],
+  "updateDate": "2024-12-09",
+  "timestamp": 1733502619000,
+  "abstract": "  While perturbation theories constitute a significant foundation of modern\nquantum system analysis, extending them from the Hermitian to the non-Hermitian\nregime remains a non-trivial task. In this work, we generalize the\nRayleigh-Schr\\\"odinger perturbation theory to the non-Hermitian regime by\nemploying a geometric formalism. This framework allows us to compute\nperturbative corrections to eigenstates and eigenvalues of Hamiltonians\niteratively to any order. Furthermore, we observe that the recursion equation\nfor the eigenstates resembles the form of the Girard-Newton formulas, which\nhelps us uncover the general solution to the recursion equation. Moreover, we\ndemonstrate that the perturbation method proposed in this paper reduces to the\nstandard Rayleigh-Schr\\\"odinger perturbation theory in the Hermitian regime.\n",
+  "subjects": [
+    "Physics/Quantum Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "4cOjQt1GjZCv2JDxz-zM_4dQc4wiRHgZ3N6nGNjuqFg",
+  "pdfSize": "187137"
+}

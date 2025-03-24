@@ -1,0 +1,34 @@
+{
+  "id": "2412.06072",
+  "title": "PAC codes with Bounded-Complexity Sequential Decoding: Pareto\n  Distribution and Code Design",
+  "authors": "Mohsen Moradi, Hessam Mahdavifar",
+  "authorsParsed": [
+    [
+      "Moradi",
+      "Mohsen",
+      ""
+    ],
+    [
+      "Mahdavifar",
+      "Hessam",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 8 Dec 2024 21:34:04 GMT"
+    }
+  ],
+  "updateDate": "2024-12-10",
+  "timestamp": 1733693644000,
+  "abstract": "  Recently, a novel variation of polar codes known as polarization-adjusted\nconvolutional (PAC) codes has been introduced by Ar{\\i}kan. These codes\nsignificantly outperform conventional polar and convolutional codes,\nparticularly for short codeword lengths, and are shown to operate very close to\nthe optimal bounds. It has also been shown that if the rate profile of PAC\ncodes does not adhere to certain polarized cutoff rate constraints, the\ncomputation complexity for their sequential decoding grows exponentially. In\nthis paper, we address the converse problem, demonstrating that if the rate\nprofile of a PAC code follows the polarized cutoff rate constraints, the\nrequired computations for its sequential decoding can be bounded with a\ndistribution that follows a Pareto distribution. This serves as a guideline for\nthe rate-profile design of PAC codes. For a high-rate PAC\\,$(1024,899)$ code,\nsimulation results show that the PAC code with Fano decoder, when constructed\nbased on the polarized cutoff rate constraints, achieves a coding gain of more\nthan $0.75$ dB at a frame error rate (FER) of $10^{-5}$ compared to the\nstate-of-the-art 5G polar and LDPC codes.\n",
+  "subjects": [
+    "Computer Science/Information Theory",
+    "Computer Science/Computational Complexity",
+    "Mathematics/Information Theory"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "kp-WYNlFYYbkHRX38cKLo6jnGSr_0h95JxeoVqQXtso",
+  "pdfSize": "546997"
+}

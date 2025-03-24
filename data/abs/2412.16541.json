@@ -1,0 +1,79 @@
+{
+  "id": "2412.16541",
+  "title": "Stellar Contamination Correction Using Back-to-Back Transits of\n  TRAPPIST-1 b and c",
+  "authors": "Alexander D. Rathcke, Lars A. Buchhave, Julien De Wit, Benjamin V.\n  Rackham, Prune C. August, Hannah Diamond-Lowe, Jo\\~ao M. Mendon\\c{c}a, Aaron\n  Bello-Arufe, Mercedes L\\'opez-Morales, Daniel Kitzmann, and Kevin Heng",
+  "authorsParsed": [
+    [
+      "Rathcke",
+      "Alexander D.",
+      ""
+    ],
+    [
+      "Buchhave",
+      "Lars A.",
+      ""
+    ],
+    [
+      "De Wit",
+      "Julien",
+      ""
+    ],
+    [
+      "Rackham",
+      "Benjamin V.",
+      ""
+    ],
+    [
+      "August",
+      "Prune C.",
+      ""
+    ],
+    [
+      "Diamond-Lowe",
+      "Hannah",
+      ""
+    ],
+    [
+      "Mendonça",
+      "João M.",
+      ""
+    ],
+    [
+      "Bello-Arufe",
+      "Aaron",
+      ""
+    ],
+    [
+      "López-Morales",
+      "Mercedes",
+      ""
+    ],
+    [
+      "Kitzmann",
+      "Daniel",
+      ""
+    ],
+    [
+      "Heng",
+      "Kevin",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 21 Dec 2024 08:55:18 GMT"
+    }
+  ],
+  "updateDate": "2024-12-24",
+  "timestamp": 1734771318000,
+  "abstract": "  Stellar surface heterogeneities, such as spots and faculae, often contaminate\nexoplanet transit spectra, hindering precise atmospheric characterization. We\ndemonstrate a novel, epoch-based, model-independent method to mitigate stellar\ncontamination, applicable to multi-planet systems with at least one airless\nplanet. We apply this method using quasi-simultaneous transits of TRAPPIST-1 b\nand TRAPPIST-1 c observed on July 9, 2024, with JWST NIRSpec PRISM. These two\nplanets, with nearly identical radii and impact parameters, are likely either\nbare rocks or possess thin, low-pressure atmospheres, making them ideal\ncandidates for this technique, as variations in their transit spectra would be\nprimarily attributed to stellar activity. Our observations reveal their transit\nspectra exhibit consistent features, indicating similar levels of stellar\ncontamination. We use TRAPPIST-1 b to correct the transit spectrum of\nTRAPPIST-1 c, achieving a 2.5x reduction in stellar contamination at shorter\nwavelengths. At longer wavelengths, lower SNR prevents clear detection of\ncontamination or full assessment of mitigation. Still, out-of-transit analysis\nreveals variations across the spectrum, suggesting contamination extends into\nthe longer wavelengths. Based on the success of the correction at shorter\nwavelengths, we argue that contamination is also reduced at longer wavelengths\nto a similar extent. This shifts the challenge of detecting atmospheric\nfeatures to a predominantly white noise issue, which can be addressed by\nstacking observations. This method enables epoch-specific stellar contamination\ncorrections, allowing co-addition of planetary spectra for reliable searches of\nsecondary atmospheres with signals of 60-250 ppm. Additionally, we identify\nsmall-scale cold (2000 K) and warm (2600 K) regions almost uniformly\ndistributed on TRAPPIST-1, with overall covering fractions varying by 0.1% per\nhour.\n",
+  "subjects": [
+    "Astrophysics/Earth and Planetary Astrophysics",
+    "Astrophysics/Instrumentation and Methods for Astrophysics",
+    "Astrophysics/Solar and Stellar Astrophysics"
+  ],
+  "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+  "blobId": "AzD9nTIfc5qvIu9M52pOmqIXU9qRTs1eeE4YmMDNE68",
+  "pdfSize": "1387392"
+}

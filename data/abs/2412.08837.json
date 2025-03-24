@@ -1,0 +1,52 @@
+{
+  "id": "2412.08837",
+  "title": "Modeling Mg II resonance doublet spectra from galaxy haloes at z $\\sim$\n  1",
+  "authors": "Seok-Jun Chang, Rajeshwari Dutta, Max Gronke, Michele Fumagalli,\n  Fabrizio Arrigoni Battaia, Matteo Fossati",
+  "authorsParsed": [
+    [
+      "Chang",
+      "Seok-Jun",
+      ""
+    ],
+    [
+      "Dutta",
+      "Rajeshwari",
+      ""
+    ],
+    [
+      "Gronke",
+      "Max",
+      ""
+    ],
+    [
+      "Fumagalli",
+      "Michele",
+      ""
+    ],
+    [
+      "Battaia",
+      "Fabrizio Arrigoni",
+      ""
+    ],
+    [
+      "Fossati",
+      "Matteo",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 12 Dec 2024 00:31:06 GMT"
+    }
+  ],
+  "updateDate": "2024-12-13",
+  "timestamp": 1733963466000,
+  "abstract": "  We investigate the properties of cold gas at $10^4~\\rm K$ around star-forming\ngalaxies at $z~\\sim~1$ using Mg II spectra through radiative transfer modeling.\nWe utilize a comprehensive dataset of 624 galaxies from the MAGG and MUDF\nprograms. We focus on Mg II emission from galaxies and their outskirts to\nexplore the cold gas within galaxies and the circumgalactic medium (CGM). We\nmodel Mg II spectra for 167 individual galaxies and stacked data for different\nstellar mass bins. The Mg II spectrum and surface brightness vary significantly\nwith stellar mass. In low-mass galaxies ($M_*/M_\\odot<10^9$), Mg II emission is\nobserved in both core ($R_{\\rm p}<$ 10 kpc) and halo regions (10 kpc $<R_{\\rm\np}<$ 30 kpc), while in higher mass galaxies ($M_*/M_\\odot>10^{10}$), strong\ncore absorption and more extended halo emission are prominent. This indicates\nthat more massive galaxies have more cold gas. Radiative transfer modeling\nallows us to investigate key parameters such as the Mg II column density\n$N_{\\rm MgII}$ and the outflow velocity $v_{\\rm exp}$. We identify a negative\ncorrelation between $N_{\\rm MgII}$ and $v_{\\rm exp}$. Since higher stellar mass\ngalaxies exhibit a higher $N_{\\rm MgII}$ and lower $v_{\\rm exp}$, this suggests\nan abundance of slowly moving cold gas in massive galaxies. In addition, the\nfitting results of halo spectra indicate the presence of intrinsic Mg II\nabsorption and strong anisotropy of the cold gas distribution around massive\ngalaxies. This study is not only a proof-of-concept of modeling spatially\nvarying Mg II spectra but also enhances our understanding of the CGM and\nprovides insights into the mass-dependent properties of cold gas in and around\ngalaxies.\n",
+  "subjects": [
+    "Astrophysics/Astrophysics of Galaxies"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "VwNsYlDP5tHP7AHoHP_8pMpVIPePB8gGuHP16cCcBOY",
+  "pdfSize": "3630028"
+}

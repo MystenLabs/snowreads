@@ -1,0 +1,43 @@
+{
+  "id": "2412.00537",
+  "title": "Exact Certification of (Graph) Neural Networks Against Label Poisoning",
+  "authors": "Mahalakshmi Sabanayagam and Lukas Gosch and Stephan G\\\"unnemann and\n  Debarghya Ghoshdastidar",
+  "authorsParsed": [
+    [
+      "Sabanayagam",
+      "Mahalakshmi",
+      ""
+    ],
+    [
+      "Gosch",
+      "Lukas",
+      ""
+    ],
+    [
+      "Günnemann",
+      "Stephan",
+      ""
+    ],
+    [
+      "Ghoshdastidar",
+      "Debarghya",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 30 Nov 2024 17:05:12 GMT"
+    }
+  ],
+  "updateDate": "2024-12-03",
+  "timestamp": 1732986312000,
+  "abstract": "  Machine learning models are highly vulnerable to label flipping, i.e., the\nadversarial modification (poisoning) of training labels to compromise\nperformance. Thus, deriving robustness certificates is important to guarantee\nthat test predictions remain unaffected and to understand worst-case robustness\nbehavior. However, for Graph Neural Networks (GNNs), the problem of certifying\nlabel flipping has so far been unsolved. We change this by introducing an exact\ncertification method, deriving both sample-wise and collective certificates.\nOur method leverages the Neural Tangent Kernel (NTK) to capture the training\ndynamics of wide networks enabling us to reformulate the bilevel optimization\nproblem representing label flipping into a Mixed-Integer Linear Program (MILP).\nWe apply our method to certify a broad range of GNN architectures in node\nclassification tasks. Thereby, concerning the worst-case robustness to label\nflipping: $(i)$ we establish hierarchies of GNNs on different benchmark graphs;\n$(ii)$ quantify the effect of architectural choices such as activations, depth\nand skip-connections; and surprisingly, $(iii)$ uncover a novel phenomenon of\nthe robustness plateauing for intermediate perturbation budgets across all\ninvestigated datasets and architectures. While we focus on GNNs, our\ncertificates are applicable to sufficiently wide NNs in general through their\nNTK. Thus, our work presents the first exact certificate to a poisoning attack\never derived for neural networks, which could be of independent interest.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Computer Science/Cryptography and Security"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "jXkpY20D187AFSDjvY14Gr3Vby_fpcvQUOA-5HrK5WA",
+  "pdfSize": "2091221"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "2412.17765",
+  "title": "HyperQ-Opt: Q-learning for Hyperparameter Optimization",
+  "authors": "Md. Tarek Hasan",
+  "authorsParsed": [
+    [
+      "Hasan",
+      "Md. Tarek",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 23 Dec 2024 18:22:34 GMT"
+    }
+  ],
+  "updateDate": "2024-12-24",
+  "timestamp": 1734978154000,
+  "abstract": "  Hyperparameter optimization (HPO) is critical for enhancing the performance\nof machine learning models, yet it often involves a computationally intensive\nsearch across a large parameter space. Traditional approaches such as Grid\nSearch and Random Search suffer from inefficiency and limited scalability,\nwhile surrogate models like Sequential Model-based Bayesian Optimization (SMBO)\nrely heavily on heuristic predictions that can lead to suboptimal results. This\npaper presents a novel perspective on HPO by formulating it as a sequential\ndecision-making problem and leveraging Q-learning, a reinforcement learning\ntechnique, to optimize hyperparameters. The study explores the works of H.S.\nJomaa et al. and Qi et al., which model HPO as a Markov Decision Process (MDP)\nand utilize Q-learning to iteratively refine hyperparameter settings. The\napproaches are evaluated for their ability to find optimal or near-optimal\nconfigurations within a limited number of trials, demonstrating the potential\nof reinforcement learning to outperform conventional methods. Additionally,\nthis paper identifies research gaps in existing formulations, including the\nlimitations of discrete search spaces and reliance on heuristic policies, and\nsuggests avenues for future exploration. By shifting the paradigm toward\npolicy-based optimization, this work contributes to advancing HPO methods for\nscalable and efficient machine learning applications.\n",
+  "subjects": [
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "m257A7qeTXrrL1je_aksvC_UMGfHbHywlvg_qlko1U8",
+  "pdfSize": "132202"
+}

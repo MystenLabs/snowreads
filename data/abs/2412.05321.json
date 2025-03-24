@@ -1,0 +1,36 @@
+{
+  "id": "2412.05321",
+  "title": "Collaborative and parametric insurance on the Ethereum blockchain",
+  "authors": "Pierre-Olivier Goffard and St\\'ephane Loisel",
+  "authorsParsed": [
+    [
+      "Goffard",
+      "Pierre-Olivier",
+      ""
+    ],
+    [
+      "Loisel",
+      "Stéphane",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 3 Dec 2024 20:03:40 GMT"
+    }
+  ],
+  "updateDate": "2024-12-10",
+  "timestamp": 1733256220000,
+  "abstract": "  This paper introduces a blockchain-based insurance scheme that integrates\nparametric and collaborative elements. A pool of investors, referred to as\nsurplus providers, locks funds in a smart contract, enabling blockchain users\nto underwrite parametric insurance contracts. These contracts automatically\ntrigger compensation when predefined conditions are met. The collaborative\naspect is embodied in the generation of tokens, which are distributed to both\nsurplus providers and policyholders. These tokens represent each participant's\nshare of the surplus and grant voting rights for management decisions. The\nsmart contract is developed in Solidity, a high-level programming language for\nthe Ethereum blockchain, and deployed on the Sepolia testnet, with data\nprocessing and analysis conducted using Python. In addition, open-source code\nis provided and main research challenges are identified, so that further\nresearch can be carried out to overcome limitations of this first proof of\nconcept.\n",
+  "subjects": [
+    "Computer Science/Cryptography and Security",
+    "Computer Science/Computational Engineering, Finance, and Science",
+    "Computer Science/Computers and Society",
+    "Computer Science/Computer Science and Game Theory",
+    "Mathematics/Probability"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "qUX2lyd1M6C6GPnqeb_D513cgpc9LHyiIzoQVjG6PQw",
+  "pdfSize": "349739"
+}

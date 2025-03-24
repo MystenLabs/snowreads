@@ -1,0 +1,34 @@
+{
+  "id": "2412.17989",
+  "title": "Multilevel Method with Low-Order Equations of Mixed Types and Two Grids\n  in Photon Energy for Thermal Radiative Transfer",
+  "authors": "Dmitriy Y. Anistratov and Terry S. Haut",
+  "authorsParsed": [
+    [
+      "Anistratov",
+      "Dmitriy Y.",
+      ""
+    ],
+    [
+      "Haut",
+      "Terry S.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 23 Dec 2024 21:15:07 GMT"
+    }
+  ],
+  "updateDate": "2024-12-25",
+  "timestamp": 1734988507000,
+  "abstract": "  Thermal radiative transfer (TRT) is an essential piece of physics in inertial\nconfinement fusion, high-energy density physics, astrophysics etc. The physical\nmodels of this type of problem are defined by strongly coupled differential\nequations describing multiphysics phenomena. This paper presents a new\nnonlinear multilevel iterative method with two photon energy grids for solving\nthe multigroup radiative transfer equation (RTE) coupled with the material\nenergy balance equation (MEB). The multilevel system of equations of the method\nis formulated by means of a nonlinear projection approach. The RTE is projected\nover elements of phase space to derive the low-order equations of different\ntypes. The hierarchy of equations consists of (1) multigroup weighted flux\nequations which can be interpreted as the multigroup RTE averaged over\nsubintervals of angular range and (2) the effective grey (one-group) equations\nwhich are spectrum averaged low-order quasidiffusion (aka variable Eddington\nfactor) equations. The system of RTE, low-order and MEB equations is\napproximated by the fully implicit Euler time-integration method in which\nabsorption coefficient and emission term are evaluated at the current time\nstep. Numerical results are presented to demonstrate convergence of a\nmultilevel iteration algorithm in the Fleck-Cummings test problem with Marshak\nwave solved with large number of photon energy groups.\n",
+  "subjects": [
+    "Mathematics/Numerical Analysis",
+    "Computer Science/Numerical Analysis",
+    "Physics/Computational Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "h1Ib4ZkDPxecjanWwfTqVxJ47p8Tl7FG2hWiUGPZ7wM",
+  "pdfSize": "754366"
+}

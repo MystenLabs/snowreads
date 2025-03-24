@@ -1,0 +1,33 @@
+{
+  "id": "2412.15794",
+  "title": "Characterization of metric spaces with a metric fundamental class",
+  "authors": "Denis Marti, Elefterios Soultanis",
+  "authorsParsed": [
+    [
+      "Marti",
+      "Denis",
+      ""
+    ],
+    [
+      "Soultanis",
+      "Elefterios",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 20 Dec 2024 11:10:29 GMT"
+    }
+  ],
+  "updateDate": "2024-12-23",
+  "timestamp": 1734693029000,
+  "abstract": "  We consider three conditions on metric manifolds with finite volume: (1) the\nexistence of a metric fundamental class, (2) local index bounds for Lipschitz\nmaps, and (3) Gromov--Hausdorff approximation with volume control by\nbi-Lipschitz manifolds. Condition (1) is known for metric manifolds satisfying\nthe LLC condition by work of Basso--Marti--Wenger, while (3) is known for\nmetric surfaces by work of Ntalampekos--Romney.\n  We prove that for metric manifolds with finite Nagata dimension, all three\nconditions are equivalent and that without assuming finite Nagata dimension,\n(1) implies (2) and (3) implies (1). As a corollary we obtain a generalization\nof the approximation result of Ntalampekos--Romney to metric manifolds of\ndimension $n\\ge 2$, which have the LLC property and finite Nagata dimension.\n",
+  "subjects": [
+    "Mathematics/Metric Geometry",
+    "Mathematics/Differential Geometry"
+  ],
+  "license": "http://creativecommons.org/licenses/by-sa/4.0/",
+  "blobId": "kVLbNaAOznf8W9p16jk8DwdYRpBieipp9QtdYxpU7-U",
+  "pdfSize": "346387"
+}

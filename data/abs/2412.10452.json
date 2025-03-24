@@ -1,0 +1,44 @@
+{
+  "id": "2412.10452",
+  "title": "Structurally Consistent MRI Colorization using Cross-modal Fusion\n  Learning",
+  "authors": "Mayuri Mathur, Anav Chaudhary, Saurabh Kumar Gupta and Ojaswa Sharma",
+  "authorsParsed": [
+    [
+      "Mathur",
+      "Mayuri",
+      ""
+    ],
+    [
+      "Chaudhary",
+      "Anav",
+      ""
+    ],
+    [
+      "Gupta",
+      "Saurabh Kumar",
+      ""
+    ],
+    [
+      "Sharma",
+      "Ojaswa",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 12 Dec 2024 06:40:14 GMT"
+    }
+  ],
+  "updateDate": "2024-12-17",
+  "timestamp": 1733985614000,
+  "abstract": "  Medical image colorization can greatly enhance the interpretability of the\nunderlying imaging modality and provide insights into human anatomy. The\nobjective of medical image colorization is to transfer a diverse spectrum of\ncolors distributed across human anatomy from Cryosection data to source MRI\ndata while retaining the structures of the MRI. To achieve this, we propose a\nnovel architecture for structurally consistent color transfer to the source MRI\ndata. Our architecture fuses segmentation semantics of Cryosection images for\nstable contextual colorization of various organs in MRI images. For\ncolorization, we neither require precise registration between MRI and\nCryosection images, nor segmentation of MRI images. Additionally, our\narchitecture incorporates a feature compression-and-activation mechanism to\ncapture organ-level global information and suppress noise, enabling the\ndistinction of organ-specific data in MRI scans for more accurate and realistic\norgan-specific colorization. Our experiments demonstrate that our architecture\nsurpasses the existing methods and yields better quantitative and qualitative\nresults.\n",
+  "subjects": [
+    "Electrical Engineering and Systems Science/Image and Video Processing",
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "e3EbswId8XkX6Ik4KPed7jvFQQo3MhvjpZvGa02Fxug",
+  "pdfSize": "6892248"
+}

@@ -1,0 +1,48 @@
+{
+  "id": "2412.03076",
+  "title": "Coordinated Multi-Armed Bandits for Improved Spatial Reuse in Wi-Fi",
+  "authors": "Francesc Wilhelmi, Boris Bellalta, Szymon Szott, Katarzyna\n  Kosek-Szott, Sergio Barrachina-Mu\\~noz",
+  "authorsParsed": [
+    [
+      "Wilhelmi",
+      "Francesc",
+      ""
+    ],
+    [
+      "Bellalta",
+      "Boris",
+      ""
+    ],
+    [
+      "Szott",
+      "Szymon",
+      ""
+    ],
+    [
+      "Kosek-Szott",
+      "Katarzyna",
+      ""
+    ],
+    [
+      "Barrachina-Muñoz",
+      "Sergio",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 4 Dec 2024 06:53:59 GMT"
+    }
+  ],
+  "updateDate": "2024-12-05",
+  "timestamp": 1733295239000,
+  "abstract": "  Multi-Access Point Coordination (MAPC) and Artificial Intelligence and\nMachine Learning (AI/ML) are expected to be key features in future Wi-Fi, such\nas the forthcoming IEEE 802.11bn (Wi-Fi 8) and beyond. In this paper, we\nexplore a coordinated solution based on online learning to drive the\noptimization of Spatial Reuse (SR), a method that allows multiple devices to\nperform simultaneous transmissions by controlling interference through Packet\nDetect (PD) adjustment and transmit power control. In particular, we focus on a\nMulti-Agent Multi-Armed Bandit (MA-MAB) setting, where multiple decision-making\nagents concurrently configure SR parameters from coexisting networks by\nleveraging the MAPC framework, and study various algorithms and reward-sharing\nmechanisms. We evaluate different MA-MAB implementations using Komondor, a\nwell-adopted Wi-Fi simulator, and demonstrate that AI-native SR enabled by\ncoordinated MABs can improve the network performance over current Wi-Fi\noperation: mean throughput increases by 15%, fairness is improved by increasing\nthe minimum throughput across the network by 210%, while the maximum access\ndelay is kept below 3 ms.\n",
+  "subjects": [
+    "Computer Science/Networking and Internet Architecture",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "3ngaKsNgsk47e7OlxYJ_hPovd3ysOj84Ru-xoWnPtMA",
+  "pdfSize": "3479424"
+}

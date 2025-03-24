@@ -1,0 +1,82 @@
+{
+  "id": "2412.12238",
+  "title": "Expanded Comprehensive Robotic Cholecystectomy Dataset (CRCD)",
+  "authors": "Ki-Hwan Oh, Leonardo Borgioli, Alberto Mangano, Valentina Valle, Marco\n  Di Pangrazio, Francesco Toti, Gioia Pozza, Luciano Ambrosini, Alvaro Ducas,\n  Milo\\v{s} \\v{Z}efran, Liaohai Chen and Pier Cristoforo Giulianotti",
+  "authorsParsed": [
+    [
+      "Oh",
+      "Ki-Hwan",
+      ""
+    ],
+    [
+      "Borgioli",
+      "Leonardo",
+      ""
+    ],
+    [
+      "Mangano",
+      "Alberto",
+      ""
+    ],
+    [
+      "Valle",
+      "Valentina",
+      ""
+    ],
+    [
+      "Di Pangrazio",
+      "Marco",
+      ""
+    ],
+    [
+      "Toti",
+      "Francesco",
+      ""
+    ],
+    [
+      "Pozza",
+      "Gioia",
+      ""
+    ],
+    [
+      "Ambrosini",
+      "Luciano",
+      ""
+    ],
+    [
+      "Ducas",
+      "Alvaro",
+      ""
+    ],
+    [
+      "Žefran",
+      "Miloš",
+      ""
+    ],
+    [
+      "Chen",
+      "Liaohai",
+      ""
+    ],
+    [
+      "Giulianotti",
+      "Pier Cristoforo",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 16 Dec 2024 18:07:47 GMT"
+    }
+  ],
+  "updateDate": "2024-12-18",
+  "timestamp": 1734372467000,
+  "abstract": "  In recent years, the application of machine learning to minimally invasive\nsurgery (MIS) has attracted considerable interest. Datasets are critical to the\nuse of such techniques. This paper presents a unique dataset recorded during ex\nvivo pseudo-cholecystectomy procedures on pig livers using the da Vinci\nResearch Kit (dVRK). Unlike existing datasets, it addresses a critical gap by\nproviding comprehensive kinematic data, recordings of all pedal inputs, and\noffers a time-stamped record of the endoscope's movements. This expanded\nversion also includes segmentation and keypoint annotations of images,\nenhancing its utility for computer vision applications.\n  Contributed by seven surgeons with varied backgrounds and experience levels\nthat are provided as a part of this expanded version, the dataset is an\nimportant new resource for surgical robotics research. It enables the\ndevelopment of advanced methods for evaluating surgeon skills, tools for\nproviding better context awareness, and automation of surgical tasks. Our work\novercomes the limitations of incomplete recordings and imprecise kinematic data\nfound in other datasets. To demonstrate the potential of the dataset for\nadvancing automation in surgical robotics, we introduce two models that predict\nclutch usage and camera activation, a 3D scene reconstruction example, and the\nresults from our keypoint and segmentation models.\n",
+  "subjects": [
+    "Computer Science/Robotics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "qyoUMOKBDKrMLoqrx43UrA2fWBKcdIyHJb7ujnMzXqw",
+  "pdfSize": "18243459"
+}

@@ -1,0 +1,48 @@
+{
+  "id": "2412.12949",
+  "title": "Synthetic Data Generation for Anomaly Detection on Table Grapes",
+  "authors": "Ionut Marian Motoi, Valerio Belli, Alberto Carpineto, Daniele Nardi,\n  Thomas Alessandro Ciarfuglia",
+  "authorsParsed": [
+    [
+      "Motoi",
+      "Ionut Marian",
+      ""
+    ],
+    [
+      "Belli",
+      "Valerio",
+      ""
+    ],
+    [
+      "Carpineto",
+      "Alberto",
+      ""
+    ],
+    [
+      "Nardi",
+      "Daniele",
+      ""
+    ],
+    [
+      "Ciarfuglia",
+      "Thomas Alessandro",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 17 Dec 2024 14:29:12 GMT"
+    }
+  ],
+  "updateDate": "2024-12-18",
+  "timestamp": 1734445752000,
+  "abstract": "  Early detection of illnesses and pest infestations in fruit cultivation is\ncritical for maintaining yield quality and plant health. Computer vision and\nrobotics are increasingly employed for the automatic detection of such issues,\nparticularly using data-driven solutions. However, the rarity of these problems\nmakes acquiring and processing the necessary data to train such algorithms a\nsignificant obstacle. One solution to this scarcity is the generation of\nsynthetic high-quality anomalous samples. While numerous methods exist for this\ntask, most require highly trained individuals for setup.\n  This work addresses the challenge of generating synthetic anomalies in an\nautomatic fashion that requires only an initial collection of normal and\nanomalous samples from the user - a task that is straightforward for farmers.\nWe demonstrate the approach in the context of table grape cultivation.\nSpecifically, based on the observation that normal berries present relatively\nsmooth surfaces, while defects result in more complex textures, we introduce a\nDual-Canny Edge Detection (DCED) filter. This filter emphasizes the additional\ntexture indicative of diseases, pest infestations, or other defects. Using\nsegmentation masks provided by the Segment Anything Model, we then select and\nseamlessly blend anomalous berries onto normal ones. We show that the proposed\ndataset augmentation technique improves the accuracy of an anomaly classifier\nfor table grapes and that the approach can be generalized to other fruit types.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Robotics"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "Y6_UsXeHRQJbGMGL74_Bn9aolf8KTe6caCnBKfz-7EA",
+  "pdfSize": "6392954"
+}

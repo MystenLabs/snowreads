@@ -1,0 +1,47 @@
+{
+  "id": "2412.16884",
+  "title": "Out-of-Distribution Detection with Prototypical Outlier Proxy",
+  "authors": "Mingrong Gong, Chaoqi Chen, Qingqiang Sun, Yue Wang, Hui Huang",
+  "authorsParsed": [
+    [
+      "Gong",
+      "Mingrong",
+      ""
+    ],
+    [
+      "Chen",
+      "Chaoqi",
+      ""
+    ],
+    [
+      "Sun",
+      "Qingqiang",
+      ""
+    ],
+    [
+      "Wang",
+      "Yue",
+      ""
+    ],
+    [
+      "Huang",
+      "Hui",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 22 Dec 2024 06:32:20 GMT"
+    }
+  ],
+  "updateDate": "2024-12-24",
+  "timestamp": 1734849140000,
+  "abstract": "  Out-of-distribution (OOD) detection is a crucial task for deploying deep\nlearning models in the wild. One of the major challenges is that well-trained\ndeep models tend to perform over-confidence on unseen test data. Recent\nresearch attempts to leverage real or synthetic outliers to mitigate the issue,\nwhich may significantly increase computational costs and be biased toward\nspecific outlier characteristics. In this paper, we propose a simple yet\neffective framework, Prototypical Outlier Proxy (POP), which introduces virtual\nOOD prototypes to reshape the decision boundaries between ID and OOD data.\nSpecifically, we transform the learnable classifier into a fixed one and\naugment it with a set of prototypical weight vectors. Then, we introduce a\nhierarchical similarity boundary loss to impose adaptive penalties depending on\nthe degree of misclassification. Extensive experiments across various\nbenchmarks demonstrate the effectiveness of POP. Notably, POP achieves average\nFPR95 reductions of 7.70%, 6.30%, and 5.42% over the second-best methods on\nCIFAR-10, CIFAR-100, and ImageNet-200, respectively. Moreover, compared to the\nrecent method NPOS, which relies on outlier synthesis, POP trains 7.2X faster\nand performs inference 19.5X faster. The source code is available at:\nhttps://github.com/gmr523/pop.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "IfXGWt3EzEZkUJmrnmixC4d-oZiAU_QAaY4vplIvlaQ",
+  "pdfSize": "7345217"
+}

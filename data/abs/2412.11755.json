@@ -1,0 +1,47 @@
+{
+  "id": "2412.11755",
+  "title": "Generative Inbetweening through Frame-wise Conditions-Driven Video\n  Generation",
+  "authors": "Tianyi Zhu, Dongwei Ren, Qilong Wang, Xiaohe Wu, Wangmeng Zuo",
+  "authorsParsed": [
+    [
+      "Zhu",
+      "Tianyi",
+      ""
+    ],
+    [
+      "Ren",
+      "Dongwei",
+      ""
+    ],
+    [
+      "Wang",
+      "Qilong",
+      ""
+    ],
+    [
+      "Wu",
+      "Xiaohe",
+      ""
+    ],
+    [
+      "Zuo",
+      "Wangmeng",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 16 Dec 2024 13:19:41 GMT"
+    }
+  ],
+  "updateDate": "2024-12-17",
+  "timestamp": 1734355181000,
+  "abstract": "  Generative inbetweening aims to generate intermediate frame sequences by\nutilizing two key frames as input. Although remarkable progress has been made\nin video generation models, generative inbetweening still faces challenges in\nmaintaining temporal stability due to the ambiguous interpolation path between\ntwo key frames. This issue becomes particularly severe when there is a large\nmotion gap between input frames. In this paper, we propose a straightforward\nyet highly effective Frame-wise Conditions-driven Video Generation (FCVG)\nmethod that significantly enhances the temporal stability of interpolated video\nframes. Specifically, our FCVG provides an explicit condition for each frame,\nmaking it much easier to identify the interpolation path between two input\nframes and thus ensuring temporally stable production of visually plausible\nvideo frames. To achieve this, we suggest extracting matched lines from two\ninput frames that can then be easily interpolated frame by frame, serving as\nframe-wise conditions seamlessly integrated into existing video generation\nmodels. In extensive evaluations covering diverse scenarios such as natural\nlandscapes, complex human poses, camera movements and animations, existing\nmethods often exhibit incoherent transitions across frames. In contrast, our\nFCVG demonstrates the capability to generate temporally stable videos using\nboth linear and non-linear interpolation curves. Our project page and code are\navailable at \\url{https://fcvg-inbetween.github.io/}.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "1Pzo1kCTUfNkIV0L2X-L2AlHAa3_ZwafwOPOVT3P9b4",
+  "pdfSize": "28057537"
+}

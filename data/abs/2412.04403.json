@@ -1,0 +1,83 @@
+{
+  "id": "2412.04403",
+  "title": "Establishing Task Scaling Laws via Compute-Efficient Model Ladders",
+  "authors": "Akshita Bhagia, Jiacheng Liu, Alexander Wettig, David Heineman, Oyvind\n  Tafjord, Ananya Harsh Jha, Luca Soldaini, Noah A. Smith, Dirk Groeneveld,\n  Pang Wei Koh, Jesse Dodge, Hannaneh Hajishirzi",
+  "authorsParsed": [
+    [
+      "Bhagia",
+      "Akshita",
+      ""
+    ],
+    [
+      "Liu",
+      "Jiacheng",
+      ""
+    ],
+    [
+      "Wettig",
+      "Alexander",
+      ""
+    ],
+    [
+      "Heineman",
+      "David",
+      ""
+    ],
+    [
+      "Tafjord",
+      "Oyvind",
+      ""
+    ],
+    [
+      "Jha",
+      "Ananya Harsh",
+      ""
+    ],
+    [
+      "Soldaini",
+      "Luca",
+      ""
+    ],
+    [
+      "Smith",
+      "Noah A.",
+      ""
+    ],
+    [
+      "Groeneveld",
+      "Dirk",
+      ""
+    ],
+    [
+      "Koh",
+      "Pang Wei",
+      ""
+    ],
+    [
+      "Dodge",
+      "Jesse",
+      ""
+    ],
+    [
+      "Hajishirzi",
+      "Hannaneh",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 5 Dec 2024 18:21:49 GMT"
+    }
+  ],
+  "updateDate": "2024-12-06",
+  "timestamp": 1733422909000,
+  "abstract": "  We develop task scaling laws and model ladders to predict the individual task\nperformance of pretrained language models (LMs) in the overtrained setting.\nStandard power laws for language modeling loss cannot accurately model task\nperformance. Therefore, we leverage a two-step prediction approach: first use\nmodel and data size to predict a task-specific loss, and then use this task\nloss to predict task performance. We train a set of small-scale \"ladder\"\nmodels, collect data points to fit the parameterized functions of the two\nprediction steps, and make predictions for two target models: a 7B model\ntrained to 4T tokens and a 13B model trained to 5T tokens. Training the ladder\nmodels only costs 1% of the compute used for the target models. On four\nmultiple-choice tasks written in ranked classification format, we can predict\nthe accuracy of both target models within 2 points of absolute error. We have\nhigher prediction error on four other tasks (average absolute error 6.9) and\nfind that these are often tasks with higher variance in task metrics. We also\nfind that using less compute to train fewer ladder models tends to deteriorate\npredictions. Finally, we empirically show that our design choices and the\ntwo-step approach lead to superior performance in establishing scaling laws.\n",
+  "subjects": [
+    "Computer Science/Computation and Language",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "HH_a8JdxkRPwOK1rcaZO4hL3iVrwhmibE5aX3WLQtP0",
+  "pdfSize": "2107175"
+}

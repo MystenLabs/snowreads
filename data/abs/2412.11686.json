@@ -1,0 +1,40 @@
+{
+  "id": "2412.11686",
+  "title": "Emptiness Instanton in Quantum Polytropic Gas",
+  "authors": "Alexander G. Abanov and Dimitri M. Gangardt",
+  "authorsParsed": [
+    [
+      "Abanov",
+      "Alexander G.",
+      ""
+    ],
+    [
+      "Gangardt",
+      "Dimitri M.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 16 Dec 2024 11:58:51 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Thu, 26 Dec 2024 11:23:37 GMT"
+    }
+  ],
+  "updateDate": "2024-12-30",
+  "timestamp": 1734350331000,
+  "abstract": "  The emptiness formation problem is addressed for a one-dimensional quantum\npolytropic gas characterized by an arbitrary polytropic index $\\gamma$, which\ndefines the equation of state $P \\sim \\rho^\\gamma$, where $P$ is the pressure\nand $\\rho$ is the density. The problem involves determining the probability of\nthe spontaneous formation of an empty interval in the ground state of the gas.\nIn the limit of a macroscopically large interval, this probability is dominated\nby an instanton configuration. By solving the hydrodynamic equations in\nimaginary time, we derive the analytic form of the emptiness instanton. This\nsolution is expressed as an integral representation analogous to those used for\ncorrelation functions in Conformal Field Theory. Prominent features of the\nspatiotemporal profile of the instanton are obtained directly from this\nrepresentation.\n",
+  "subjects": [
+    "Condensed Matter/Statistical Mechanics",
+    "Physics/Mathematical Physics",
+    "Mathematics/Mathematical Physics",
+    "Nonlinear Sciences/Pattern Formation and Solitons",
+    "Physics/Quantum Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "lYOwxNqarsfKN9Sk7NsqPlGeq3H6IcimHUFL7MdCjZk",
+  "pdfSize": "1392199"
+}

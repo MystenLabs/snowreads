@@ -1,0 +1,62 @@
+{
+  "id": "2412.04057",
+  "title": "From Code to Play: Benchmarking Program Search for Games Using Large\n  Language Models",
+  "authors": "Manuel Eberhardinger, James Goodman, Alexander Dockhorn, Diego\n  Perez-Liebana, Raluca D. Gaina, Duygu \\c{C}akmak, Setareh Maghsudi, Simon\n  Lucas",
+  "authorsParsed": [
+    [
+      "Eberhardinger",
+      "Manuel",
+      ""
+    ],
+    [
+      "Goodman",
+      "James",
+      ""
+    ],
+    [
+      "Dockhorn",
+      "Alexander",
+      ""
+    ],
+    [
+      "Perez-Liebana",
+      "Diego",
+      ""
+    ],
+    [
+      "Gaina",
+      "Raluca D.",
+      ""
+    ],
+    [
+      "Çakmak",
+      "Duygu",
+      ""
+    ],
+    [
+      "Maghsudi",
+      "Setareh",
+      ""
+    ],
+    [
+      "Lucas",
+      "Simon",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 5 Dec 2024 10:50:58 GMT"
+    }
+  ],
+  "updateDate": "2024-12-06",
+  "timestamp": 1733395858000,
+  "abstract": "  Large language models (LLMs) have shown impressive capabilities in generating\nprogram code, opening exciting opportunities for applying program synthesis to\ngames. In this work, we explore the potential of LLMs to directly synthesize\nusable code for a wide range of gaming applications, focusing on two\nprogramming languages, Python and Java. We use an evolutionary hill-climbing\nalgorithm, where the mutations and seeds of the initial programs are controlled\nby LLMs. For Python, the framework covers various game-related tasks, including\nfive miniature versions of Atari games, ten levels of Baba is You, an\nenvironment inspired by Asteroids, and a maze generation task. For Java, the\nframework contains 12 games from the TAG tabletop games framework. Across 29\ntasks, we evaluated 12 language models for Python and 8 for Java. Our findings\nsuggest that the performance of LLMs depends more on the task than on model\nsize. While larger models generate more executable programs, these do not\nalways result in higher-quality solutions but are much more expensive. No model\nhas a clear advantage, although on any specific task, one model may be better.\nTrying many models on a problem and using the best results across them is more\nreliable than using just one.\n",
+  "subjects": [
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "iXeIRc6qAwpPocR71sYctccgS5NI8m56kL3ElNvb0b8",
+  "pdfSize": "559741"
+}

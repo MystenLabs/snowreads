@@ -1,0 +1,38 @@
+{
+  "id": "2412.04214",
+  "title": "New Methods for Computer Tomography Based Ion Thruster Diagnostics and\n  Simulation",
+  "authors": "J\\\"orn Krenzer, Felix Reichenbach, Jochen Schein",
+  "authorsParsed": [
+    [
+      "Krenzer",
+      "Jörn",
+      ""
+    ],
+    [
+      "Reichenbach",
+      "Felix",
+      ""
+    ],
+    [
+      "Schein",
+      "Jochen",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 5 Dec 2024 14:47:40 GMT"
+    }
+  ],
+  "updateDate": "2024-12-06",
+  "timestamp": 1733410060000,
+  "abstract": "  Non-destructive X-ray imaging of thruster parts and assemblies down to the\nscale of several micrometers is a key technology for electric propulsion\nresearch and engineering. It allows for thorough product assurance, rapid state\nacquisition and implementation of more detailed simulation models to understand\nthe physics of device wear and erosion.\n  Being able to inspect parts as 3D density maps allows insight into inner\nstructures hidden from observation. Generating these density maps and also\nconstructing three dimensional mesh objects for further processing depends on\nthe achievable quality of the reconstruction, which is the inverse of Radon's\ntransformation connecting a stack of projections taken from different angles to\nthe original object's structure. Reconstruction is currently flawed by strong\nmathematical artifacts induced by the many aligned parts and stark density\ncontrasts commonly found in electric propulsion thrusters.\n",
+  "subjects": [
+    "Physics/Medical Physics",
+    "Physics/Plasma Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "ywJWiQFz7hXoSPDtmY9p7zPXgFGMJe01_2YxKYdm288",
+  "pdfSize": "12914290"
+}

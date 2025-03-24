@@ -1,0 +1,38 @@
+{
+  "id": "2412.05963",
+  "title": "Extreme Gibbs measures for a Hard-Core-SOS model on Cayley trees",
+  "authors": "R.M. Khakimov, M.T. Makhammadaliev, U.A. Rozikov",
+  "authorsParsed": [
+    [
+      "Khakimov",
+      "R. M.",
+      ""
+    ],
+    [
+      "Makhammadaliev",
+      "M. T.",
+      ""
+    ],
+    [
+      "Rozikov",
+      "U. A.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 8 Dec 2024 14:56:30 GMT"
+    }
+  ],
+  "updateDate": "2024-12-10",
+  "timestamp": 1733669790000,
+  "abstract": "  We investigate splitting Gibbs measures (SGMs) of a three-state (wand-graph)\nhardcore SOS model on Cayley trees of order $ k \\geq 2 $. Recently, this model\nwas studied for the hinge-graph with $ k = 2, 3 $, while the case $ k \\geq 4 $\nremains unresolved. It was shown that as the coupling strength $\\theta$\nincreases, the number of translation-invariant SGMs (TISGMs) evolves through\nthe sequence $ 1 \\to 3 \\to 5 \\to 6 \\to 7 $.\n  In this paper, for wand-graph we demonstrate that for arbitrary $ k \\geq 2 $,\nthe number of TISGMs is at most three, denoted by $ \\mu_i $, $ i = 0, 1, 2 $.\nWe derive the exact critical value $\\theta_{\\text{cr}}(k)$ at which the\nnon-uniqueness of TISGMs begins. The measure $ \\mu_0 $ exists for any $\\theta >\n0$.\n  Next, we investigate whether $ \\mu_i $, $i=0,1,2$ is extreme or non-extreme\nin the set of all Gibbs measures.\n  The results are quite intriguing:\n  1) For $\\mu_0$:\n  - For $ k = 2 $ and $ k = 3 $, there exist critical values $\\theta_1(k)$ and\n$\\theta_2(k)$ such that $ \\mu_0 $ is extreme if and only if $\\theta \\in\n(\\theta_1, \\theta_2)$, excluding the boundary values $\\theta_1$ and $\\theta_2$,\nwhere the extremality remains undetermined.\n  - Moreover, for $ k \\geq 4 $, $ \\mu_0 $ is never extreme.\n  2) For $\\mu_1$ and $\\mu_2$ at $k=2$ there is\n$\\theta_5<\\theta_{\\text{cr}}(2)=1$ such that these measures are extreme if\n$\\theta \\in (\\theta_5, 1)$.\n",
+  "subjects": [
+    "Physics/Mathematical Physics",
+    "Mathematics/Mathematical Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "l-p-Q1fNTDncCjDdR3tn2EbHg1nixCqAvXafT364CfI",
+  "pdfSize": "312433"
+}

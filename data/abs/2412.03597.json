@@ -1,0 +1,39 @@
+{
+  "id": "2412.03597",
+  "title": "The Vulnerability of Language Model Benchmarks: Do They Accurately\n  Reflect True LLM Performance?",
+  "authors": "Sourav Banerjee, Ayushi Agarwal, Eishkaran Singh",
+  "authorsParsed": [
+    [
+      "Banerjee",
+      "Sourav",
+      ""
+    ],
+    [
+      "Agarwal",
+      "Ayushi",
+      ""
+    ],
+    [
+      "Singh",
+      "Eishkaran",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 2 Dec 2024 20:49:21 GMT"
+    }
+  ],
+  "updateDate": "2024-12-06",
+  "timestamp": 1733172561000,
+  "abstract": "  The pursuit of leaderboard rankings in Large Language Models (LLMs) has\ncreated a fundamental paradox: models excel at standardized tests while failing\nto demonstrate genuine language understanding and adaptability. Our systematic\nanalysis of NLP evaluation frameworks reveals pervasive vulnerabilities across\nthe evaluation spectrum, from basic metrics to complex benchmarks like GLUE and\nMMLU. These vulnerabilities manifest through benchmark exploitation, dataset\ncontamination, and evaluation bias, creating a false perception of progress in\nlanguage understanding capabilities. Through extensive review of contemporary\nevaluation approaches, we identify significant limitations in static benchmark\ndesigns, human evaluation protocols, and LLM-as-judge frameworks, all of which\ncompromise the reliability of current performance assessments. As LLM\ncapabilities evolve and existing benchmarks become redundant, we lay the\ngroundwork for new evaluation methods that resist manipulation, minimize data\ncontamination, and assess domain-specific tasks. This requires frameworks that\nare adapted dynamically, addressing current limitations and providing a more\naccurate reflection of LLM performance.\n",
+  "subjects": [
+    "Computer Science/Computation and Language",
+    "Computer Science/Machine Learning",
+    "Statistics/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "xgIZsvvnWcB2ZjYkwupStv7zerFytDUooZop2yA1FFU",
+  "pdfSize": "1449499"
+}

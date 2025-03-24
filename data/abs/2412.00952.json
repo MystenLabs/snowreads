@@ -1,0 +1,42 @@
+{
+  "id": "2412.00952",
+  "title": "ESCAPE: Equivariant Shape Completion via Anchor Point Encoding",
+  "authors": "Burak Bekci, Nassir Navab, Federico Tombari, Mahdi Saleh",
+  "authorsParsed": [
+    [
+      "Bekci",
+      "Burak",
+      ""
+    ],
+    [
+      "Navab",
+      "Nassir",
+      ""
+    ],
+    [
+      "Tombari",
+      "Federico",
+      ""
+    ],
+    [
+      "Saleh",
+      "Mahdi",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 1 Dec 2024 20:05:14 GMT"
+    }
+  ],
+  "updateDate": "2024-12-03",
+  "timestamp": 1733083514000,
+  "abstract": "  Shape completion, a crucial task in 3D computer vision, involves predicting\nand filling the missing regions of scanned or partially observed objects.\nCurrent methods expect known pose or canonical coordinates and do not perform\nwell under varying rotations, limiting their real-world applicability. We\nintroduce ESCAPE (Equivariant Shape Completion via Anchor Point Encoding), a\nnovel framework designed to achieve rotation-equivariant shape completion. Our\napproach employs a distinctive encoding strategy by selecting anchor points\nfrom a shape and representing all points as a distance to all anchor points.\nThis enables the model to capture a consistent, rotation-equivariant\nunderstanding of the object's geometry. ESCAPE leverages a transformer\narchitecture to encode and decode the distance transformations, ensuring that\ngenerated shape completions remain accurate and equivariant under rotational\ntransformations. Subsequently, we perform optimization to calculate the\npredicted shapes from the encodings. Experimental evaluations demonstrate that\nESCAPE achieves robust, high-quality reconstructions across arbitrary rotations\nand translations, showcasing its effectiveness in real-world applications\nwithout additional pose estimation modules.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "q9CW32MyhnzymPf4EGdeOlcvmLlJLzrTMqIukK9jfd8",
+  "pdfSize": "3783379"
+}

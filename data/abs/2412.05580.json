@@ -1,0 +1,62 @@
+{
+  "id": "2412.05580",
+  "title": "Self-Supervised Masked Mesh Learning for Unsupervised Anomaly Detection\n  on 3D Cortical Surfaces",
+  "authors": "Hao-Chun Yang, Sicheng Dai, Saige Rutherford, Christian Gaser, Andre F\n  Marquand, Christian F Beckmann, Thomas Wolfers",
+  "authorsParsed": [
+    [
+      "Yang",
+      "Hao-Chun",
+      ""
+    ],
+    [
+      "Dai",
+      "Sicheng",
+      ""
+    ],
+    [
+      "Rutherford",
+      "Saige",
+      ""
+    ],
+    [
+      "Gaser",
+      "Christian",
+      ""
+    ],
+    [
+      "Marquand",
+      "Andre F",
+      ""
+    ],
+    [
+      "Beckmann",
+      "Christian F",
+      ""
+    ],
+    [
+      "Wolfers",
+      "Thomas",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 7 Dec 2024 08:08:24 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Fri, 10 Jan 2025 17:06:36 GMT"
+    }
+  ],
+  "updateDate": "2025-01-13",
+  "timestamp": 1733558904000,
+  "abstract": "  Unsupervised anomaly detection in brain imaging is challenging. In this\npaper, we propose a self-supervised masked mesh learning for unsupervised\nanomaly detection in 3D cortical surfaces. Our framework leverages the\nintrinsic geometry of the cortical surface to learn a self-supervised\nrepresentation that captures the underlying structure of the brain. We\nintroduce a masked mesh convolutional neural network (MMN) that learns to\npredict masked regions of the cortical surface. By training the MMN on a large\ndataset of healthy subjects, we learn a representation that captures the normal\nvariation in the cortical surface. We then use this representation to detect\nanomalies in unseen individuals by calculating anomaly scores based on the\nreconstruction error of the MMN. We evaluate our framework by training on\npopulation-scale dataset UKB and HCP-Aging and testing on two datasets of\nAlzheimer's disease patients ADNI and OASIS3. Our results show that our\nframework can detect anomalies in cortical thickness, cortical volume, and\ncortical sulcus features, which are known to be sensitive biomarkers for\nAlzheimer's disease. Our proposed framework provides a promising approach for\nunsupervised anomaly detection based on normative variation of cortical\nfeatures.\n",
+  "subjects": [
+    "Electrical Engineering and Systems Science/Image and Video Processing",
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "1FvJVDRo9ag6J1keDJ3MyKvcHG0BypRguuHuawuzYFw",
+  "pdfSize": "1658533"
+}

@@ -1,0 +1,38 @@
+{
+  "id": "2412.14845",
+  "title": "Asymptotically Enumerating Independent Sets in Regular $k$-Partite\n  $k$-Uniform Hypergraphs",
+  "authors": "Patrick Arras and Frederik Garbe and Felix Joos",
+  "authorsParsed": [
+    [
+      "Arras",
+      "Patrick",
+      ""
+    ],
+    [
+      "Garbe",
+      "Frederik",
+      ""
+    ],
+    [
+      "Joos",
+      "Felix",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 19 Dec 2024 13:37:41 GMT"
+    }
+  ],
+  "updateDate": "2024-12-20",
+  "timestamp": 1734615461000,
+  "abstract": "  The number of independent sets in regular bipartite expander graphs can be\nefficiently approximated by expressing it as the partition function of a\nsuitable polymer model and truncating its cluster expansion. While this\napproach has been extensively used for graphs, surprisingly little is known\nabout analogous questions in the context of hypergraphs. In this work, we apply\nthis method to asymptotically determine the number of independent sets in\nregular $k$-partite $k$-uniform hypergraphs which satisfy natural expansion\nproperties. The resulting formula depends only on the local structure of the\nhypergraph, making it computationally efficient. In particular, we provide a\nsimple closed-form expression for linear hypergraphs.\n",
+  "subjects": [
+    "Mathematics/Combinatorics",
+    "Computer Science/Discrete Mathematics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "y4FbgAp5zq5pq_98RriN6exV5dTXF2P48AvlGPFB7z8",
+  "pdfSize": "314944"
+}

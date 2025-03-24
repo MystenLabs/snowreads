@@ -1,0 +1,40 @@
+{
+  "id": "2412.18072",
+  "title": "MMFactory: A Universal Solution Search Engine for Vision-Language Tasks",
+  "authors": "Wan-Cyuan Fan, Tanzila Rahman, Leonid Sigal",
+  "authorsParsed": [
+    [
+      "Fan",
+      "Wan-Cyuan",
+      ""
+    ],
+    [
+      "Rahman",
+      "Tanzila",
+      ""
+    ],
+    [
+      "Sigal",
+      "Leonid",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 24 Dec 2024 00:59:16 GMT"
+    }
+  ],
+  "updateDate": "2024-12-25",
+  "timestamp": 1735001956000,
+  "abstract": "  With advances in foundational and vision-language models, and effective\nfine-tuning techniques, a large number of both general and special-purpose\nmodels have been developed for a variety of visual tasks. Despite the\nflexibility and accessibility of these models, no single model is able to\nhandle all tasks and/or applications that may be envisioned by potential users.\nRecent approaches, such as visual programming and multimodal LLMs with\nintegrated tools aim to tackle complex visual tasks, by way of program\nsynthesis. However, such approaches overlook user constraints (e.g.,\nperformance / computational needs), produce test-time sample-specific solutions\nthat are difficult to deploy, and, sometimes, require low-level instructions\nthat maybe beyond the abilities of a naive user. To address these limitations,\nwe introduce MMFactory, a universal framework that includes model and metrics\nrouting components, acting like a solution search engine across various\navailable models. Based on a task description and few sample input-output pairs\nand (optionally) resource and/or performance constraints, MMFactory can suggest\na diverse pool of programmatic solutions by instantiating and combining\nvisio-lingual tools from its model repository. In addition to synthesizing\nthese solutions, MMFactory also proposes metrics and benchmarks performance /\nresource characteristics, allowing users to pick a solution that meets their\nunique design constraints. From the technical perspective, we also introduced a\ncommittee-based solution proposer that leverages multi-agent LLM conversation\nto generate executable, diverse, universal, and robust solutions for the user.\nExperimental results show that MMFactory outperforms existing methods by\ndelivering state-of-the-art solutions tailored to user problem specifications.\nProject page is available at https://davidhalladay.github.io/mmfactory_demo.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Computation and Language",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "w0yOUnoDPnZkHgfNBB7O2zit9_j1xCHwIxJIguXSuFE",
+  "pdfSize": "2814987"
+}

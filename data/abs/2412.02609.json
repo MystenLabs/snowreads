@@ -1,0 +1,37 @@
+{
+  "id": "2412.02609",
+  "title": "Wasserstein Markets for Differentially-Private Data",
+  "authors": "Saurab Chhachhi and Fei Teng",
+  "authorsParsed": [
+    [
+      "Chhachhi",
+      "Saurab",
+      ""
+    ],
+    [
+      "Teng",
+      "Fei",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 3 Dec 2024 17:40:26 GMT"
+    }
+  ],
+  "updateDate": "2024-12-04",
+  "timestamp": 1733247626000,
+  "abstract": "  Data is an increasingly vital component of decision making processes across\nindustries. However, data access raises privacy concerns motivating the need\nfor privacy-preserving techniques such as differential privacy. Data markets\nprovide a means to enable wider access as well as determine the appropriate\nprivacy-utility trade-off. Existing data market frameworks either require a\ntrusted third party to perform computationally expensive valuations or are\nunable to capture the combinatorial nature of data value and do not\nendogenously model the effect of differential privacy. This paper addresses\nthese shortcomings by proposing a valuation mechanism based on the Wasserstein\ndistance for differentially-private data, and corresponding procurement\nmechanisms by leveraging incentive mechanism design theory, for task-agnostic\ndata procurement, and task-specific procurement co-optimisation. The mechanisms\nare reformulated into tractable mixed-integer second-order cone programs, which\nare validated with numerical studies.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Computer Science/Computational Engineering, Finance, and Science",
+    "Computer Science/Cryptography and Security",
+    "Computer Science/Computer Science and Game Theory",
+    "Economics/General Economics",
+    "Quantitative Finance/Economics"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "ZmvaM2aUJnoGir7I0gDhRUUlDbpq8clAPNOdo7-jpGs",
+  "pdfSize": "3469310"
+}

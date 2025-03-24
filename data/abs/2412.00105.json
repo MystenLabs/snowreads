@@ -1,0 +1,28 @@
+{
+  "id": "2412.00105",
+  "title": "Predicting Extubation Failure in Intensive Care: The Development of a\n  Novel, End-to-End Actionable and Interpretable Prediction System",
+  "authors": "Akram Yoosoofsah",
+  "authorsParsed": [
+    [
+      "Yoosoofsah",
+      "Akram",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 27 Nov 2024 22:19:47 GMT"
+    }
+  ],
+  "updateDate": "2024-12-03",
+  "timestamp": 1732745987000,
+  "abstract": "  Predicting extubation failure in intensive care is challenging due to complex\ndata and the severe consequences of inaccurate predictions. Machine learning\nshows promise in improving clinical decision-making but often fails to account\nfor temporal patient trajectories and model interpretability, highlighting the\nneed for innovative solutions.\n  This study aimed to develop an actionable, interpretable prediction system\nfor extubation failure using temporal modelling approaches such as Long\nShort-Term Memory (LSTM) and Temporal Convolutional Networks (TCN). A\nretrospective cohort study of 4,701 mechanically ventilated patients from the\nMIMIC-IV database was conducted. Data from the 6 hours before extubation,\nincluding static and dynamic features, were processed through novel techniques\naddressing data inconsistency and synthetic data challenges. Feature selection\nwas guided by clinical relevance and literature benchmarks.\n  Iterative experimentation involved training LSTM, TCN, and LightGBM models.\nInitial results showed a strong bias toward predicting extubation success,\ndespite advanced hyperparameter tuning and static data inclusion. Data was\nstratified by sampling frequency to reduce synthetic data impacts, leading to a\nfused decision system with improved performance. However, all architectures\nyielded modest predictive power (AUC-ROC ~0.6; F1 <0.5) with no clear advantage\nin incorporating static data or additional features. Ablation analysis\nindicated minimal impact of individual features on model performance.\n  This thesis highlights the challenges of synthetic data in extubation failure\nprediction and introduces strategies to mitigate bias, including\nclinician-informed preprocessing and novel feature subsetting. While\nperformance was limited, the study provides a foundation for future work,\nemphasising the need for reliable, interpretable models to optimise ICU\noutcomes.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Computer Science/Computational Engineering, Finance, and Science"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "ctcrityFT69Yb0Xo-n_wwVRU-I0p-dq9o5jJtuaOdJA",
+  "pdfSize": "12127303"
+}

@@ -1,0 +1,37 @@
+{
+  "id": "2412.14724",
+  "title": "FROC: Building Fair ROC from a Trained Classifier",
+  "authors": "Avyukta Manjunatha Vummintala, Shantanu Das, Sujit Gujar",
+  "authorsParsed": [
+    [
+      "Vummintala",
+      "Avyukta Manjunatha",
+      ""
+    ],
+    [
+      "Das",
+      "Shantanu",
+      ""
+    ],
+    [
+      "Gujar",
+      "Sujit",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 19 Dec 2024 10:47:31 GMT"
+    }
+  ],
+  "updateDate": "2024-12-20",
+  "timestamp": 1734605251000,
+  "abstract": "  This paper considers the problem of fair probabilistic binary classification\nwith binary protected groups. The classifier assigns scores, and a practitioner\npredicts labels using a certain cut-off threshold based on the desired\ntrade-off between false positives vs. false negatives. It derives these\nthresholds from the ROC of the classifier. The resultant classifier may be\nunfair to one of the two protected groups in the dataset. It is desirable that\nno matter what threshold the practitioner uses, the classifier should be fair\nto both the protected groups; that is, the $\\mathcal{L}_p$ norm between FPRs\nand TPRs of both the protected groups should be at most $\\varepsilon$. We call\nsuch fairness on ROCs of both the protected attributes\n$\\varepsilon_p$-Equalized ROC. Given a classifier not satisfying\n$\\varepsilon_1$-Equalized ROC, we aim to design a post-processing method to\ntransform the given (potentially unfair) classifier's output (score) to a\nsuitable randomized yet fair classifier. That is, the resultant classifier must\nsatisfy $\\varepsilon_1$-Equalized ROC. First, we introduce a threshold query\nmodel on the ROC curves for each protected group. The resulting classifier is\nbound to face a reduction in AUC. With the proposed query model, we provide a\nrigorous theoretical analysis of the minimal AUC loss to achieve\n$\\varepsilon_1$-Equalized ROC. To achieve this, we design a linear time\nalgorithm, namely \\texttt{FROC}, to transform a given classifier's output to a\nprobabilistic classifier that satisfies $\\varepsilon_1$-Equalized ROC. We prove\nthat under certain theoretical conditions, \\texttt{FROC}\\ achieves the\ntheoretical optimal guarantees. We also study the performance of our\n\\texttt{FROC}\\ on multiple real-world datasets with many trained classifiers.\n",
+  "subjects": [
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "6qNkTRWdtdgvycvfqw97jp7owrEYqiODOf97GmCrAAk",
+  "pdfSize": "3003564"
+}

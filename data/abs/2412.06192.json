@@ -1,0 +1,61 @@
+{
+  "id": "2412.06192",
+  "title": "PoLaRIS Dataset: A Maritime Object Detection and Tracking Dataset in\n  Pohang Canal",
+  "authors": "Jiwon Choi, Dongjin Cho, Gihyeon Lee, Hogyun Kim, Geonmo Yang, Joowan\n  Kim, and Younggun Cho",
+  "authorsParsed": [
+    [
+      "Choi",
+      "Jiwon",
+      ""
+    ],
+    [
+      "Cho",
+      "Dongjin",
+      ""
+    ],
+    [
+      "Lee",
+      "Gihyeon",
+      ""
+    ],
+    [
+      "Kim",
+      "Hogyun",
+      ""
+    ],
+    [
+      "Yang",
+      "Geonmo",
+      ""
+    ],
+    [
+      "Kim",
+      "Joowan",
+      ""
+    ],
+    [
+      "Cho",
+      "Younggun",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 9 Dec 2024 04:18:07 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Thu, 19 Dec 2024 07:49:05 GMT"
+    }
+  ],
+  "updateDate": "2024-12-20",
+  "timestamp": 1733717887000,
+  "abstract": "  Maritime environments often present hazardous situations due to factors such\nas moving ships or buoys, which become obstacles under the influence of waves.\nIn such challenging conditions, the ability to detect and track potentially\nhazardous objects is critical for the safe navigation of marine robots. To\naddress the scarcity of comprehensive datasets capturing these dynamic\nscenarios, we introduce a new multi-modal dataset that includes image and\npoint-wise annotations of maritime hazards. Our dataset provides detailed\nground truth for obstacle detection and tracking, including objects as small as\n10$\\times$10 pixels, which are crucial for maritime safety. To validate the\ndataset's effectiveness as a reliable benchmark, we conducted evaluations using\nvarious methodologies, including \\ac{SOTA} techniques for object detection and\ntracking. These evaluations are expected to contribute to performance\nimprovements, particularly in the complex maritime environment. To the best of\nour knowledge, this is the first dataset offering multi-modal annotations\nspecifically tailored to maritime environments. Our dataset is available at\nhttps://sites.google.com/view/polaris-dataset.\n",
+  "subjects": [
+    "Computer Science/Robotics"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "b6J4x2HrucX1eTR1LQf9zwCt6F29k2PlwKiJE4N8nSE",
+  "pdfSize": "19432528"
+}

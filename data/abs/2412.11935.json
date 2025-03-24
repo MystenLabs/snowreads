@@ -1,0 +1,32 @@
+{
+  "id": "2412.11935",
+  "title": "Riesz Bases in Krein Spaces",
+  "authors": "Shah Jahan, P. Sam Johnson",
+  "authorsParsed": [
+    [
+      "Jahan",
+      "Shah",
+      ""
+    ],
+    [
+      "Johnson",
+      "P. Sam",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 16 Dec 2024 16:20:49 GMT"
+    }
+  ],
+  "updateDate": "2024-12-17",
+  "timestamp": 1734366049000,
+  "abstract": "  We start by introducing and studying the definition of a Riesz basis in a\nKrein space $(\\mathcal{K},[.,.])$, along with a condition under which a Riesz\nbasis becomes a Bessel sequence. The concept of biorthogonal sequence in Krein\nspaces is also introduced, providing an equivalent characterization of a Riesz\nbasis. Additionally, we explore the concept of the Gram matrix, defined as the\nsum of a positive and a negative Gram matrices, and specify conditions under\nwhich the Gram matrix becomes bounded in Krein spaces. Further, we characterize\nthe conditions under which the Gram matrices $\\{[f_n,f_j]_{n,j \\in I_+}\\}$ and\n$\\{[f_n,f_j]_{n,j \\in I_-}\\}$ become bounded invertible operators. Finally, we\nprovide an equivalent characterization of a Riesz basis in terms of Gram\nmatrices.\n",
+  "subjects": [
+    "Mathematics/Functional Analysis"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "42_L-_10zDpMDjgjz4iCy71iwS5adLSTKZ7OVzdT97E",
+  "pdfSize": "142005"
+}

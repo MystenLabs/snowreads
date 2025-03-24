@@ -1,0 +1,32 @@
+{
+  "id": "2412.15508",
+  "title": "Analyzing Fundamental Diagrams of Mixed Traffic Control at Unsignalized\n  Intersections",
+  "authors": "Iftekharul Islam and Weizi Li",
+  "authorsParsed": [
+    [
+      "Islam",
+      "Iftekharul",
+      ""
+    ],
+    [
+      "Li",
+      "Weizi",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 20 Dec 2024 02:41:34 GMT"
+    }
+  ],
+  "updateDate": "2024-12-23",
+  "timestamp": 1734662494000,
+  "abstract": "  This report examines the effect of mixed traffic, specifically the variation\nin robot vehicle (RV) penetration rates, on the fundamental diagrams at\nunsignalized intersections. Through a series of simulations across four\ndistinct intersections, the relationship between traffic flow characteristics\nwere analyzed. The RV penetration rates were varied from 0% to 100% in\nincrements of 25%. The study reveals that while the presence of RVs influences\ntraffic dynamics, the impact on flow and speed is not uniform across different\nlevels of RV penetration. The fundamental diagrams indicate that intersections\nmay experience an increase in capacity with varying levels of RVs, but this\ntrend does not consistently hold as RV penetration approaches 100%. The\nvariability observed across intersections suggests that local factors possibly\ninfluence the traffic flow characteristics. These findings highlight the\ncomplexity of integrating RVs into the existing traffic system and underscore\nthe need for intersection-specific traffic management strategies to accommodate\nthe transition towards increased RV presence.\n",
+  "subjects": [
+    "Computer Science/Robotics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "bI29jijuQmFO2oToKfsPlfYDM-aGsQvogFO2y-uC3xU",
+  "pdfSize": "5690964"
+}

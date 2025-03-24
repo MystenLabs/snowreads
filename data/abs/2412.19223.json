@@ -1,0 +1,32 @@
+{
+  "id": "2412.19223",
+  "title": "Functional identities involving additive maps on division rings",
+  "authors": "Lovepreet Singh, S. K. Tiwari",
+  "authorsParsed": [
+    [
+      "Singh",
+      "Lovepreet",
+      ""
+    ],
+    [
+      "Tiwari",
+      "S. K.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 26 Dec 2024 14:03:29 GMT"
+    }
+  ],
+  "updateDate": "2024-12-30",
+  "timestamp": 1735221809000,
+  "abstract": "  Let $g$ be an additive map on division ring $D$ and $G_{1}(Y), G_{2}(Y) \\neq\n0$, $H(Y)$ are generalized polynomials in $D \\{Y\\}$. In this paper, we study\nthe functional identity $G_{1}(y)g(y)G_{2}(y) = H(y)$. By application of the\nresult and its implications, we prove that if $D$ is a non-commutative division\nring with characteristic different from $2$, then the only possible solution of\nadditive maps $g_{1},g_{2}: D \\rightarrow D$ satisfying the identity\n$g_{1}(y)y^{-m} + y^{n}g_{2}(y^{-1})= 0$ with $(m,n) \\neq (1,1)$ are positive\nintegers is $ g_{1} = g_{2} = 0$.\n",
+  "subjects": [
+    "Mathematics/Rings and Algebras"
+  ],
+  "license": "http://creativecommons.org/licenses/by-sa/4.0/",
+  "blobId": "SZhfc6BtomnLaMdXXt7kcNLsx6ehZUvFu5aAl8b7x00",
+  "pdfSize": "276977"
+}

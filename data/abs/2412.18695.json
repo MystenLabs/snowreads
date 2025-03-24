@@ -1,0 +1,39 @@
+{
+  "id": "2412.18695",
+  "title": "TimelyLLM: Segmented LLM Serving System for Time-sensitive Robotic\n  Applications",
+  "authors": "Neiwen Ling, Guojun Chen, Lin Zhong",
+  "authorsParsed": [
+    [
+      "Ling",
+      "Neiwen",
+      ""
+    ],
+    [
+      "Chen",
+      "Guojun",
+      ""
+    ],
+    [
+      "Zhong",
+      "Lin",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 24 Dec 2024 22:51:29 GMT"
+    }
+  ],
+  "updateDate": "2024-12-30",
+  "timestamp": 1735080689000,
+  "abstract": "  Large Language Models (LLMs) such as GPT-4 and Llama3 can already comprehend\ncomplex commands and process diverse tasks. This advancement facilitates their\napplication in controlling drones and robots for various tasks. However,\nexisting LLM serving systems typically employ a first-come, first-served (FCFS)\nbatching mechanism, which fails to address the time-sensitive requirements of\nrobotic applications. To address it, this paper proposes a new system named\nTimelyLLM serving multiple robotic agents with time-sensitive requests.\nTimelyLLM introduces novel mechanisms of segmented generation and scheduling\nthat optimally leverage redundancy between robot plan generation and execution\nphases. We report an implementation of TimelyLLM on a widely-used LLM serving\nframework and evaluate it on a range of robotic applications. Our evaluation\nshows that TimelyLLM improves the time utility up to 1.97x, and reduces the\noverall waiting time by 84%.\n",
+  "subjects": [
+    "Computer Science/Robotics",
+    "Computer Science/Distributed, Parallel, and Cluster Computing",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "4ImfnA456QWjJtXCSwLI_4r1isW2cF_BXUCSO6qp61M",
+  "pdfSize": "1364092"
+}

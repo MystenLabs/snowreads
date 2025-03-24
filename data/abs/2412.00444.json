@@ -1,0 +1,33 @@
+{
+  "id": "2412.00444",
+  "title": "Impact of nonextensivity on the transport coefficients of strongly\n  interacting QCD matter",
+  "authors": "Dhananjay Singh and Arvind Kumar",
+  "authorsParsed": [
+    [
+      "Singh",
+      "Dhananjay",
+      ""
+    ],
+    [
+      "Kumar",
+      "Arvind",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 30 Nov 2024 11:35:51 GMT"
+    }
+  ],
+  "updateDate": "2024-12-03",
+  "timestamp": 1732966551000,
+  "abstract": "  Tsallis nonextensive statistics is applied to study the transport\ncoefficients of strongly interacting matter within the Polyakov chiral SU(3)\nquark mean field model (PCQMF). Nonextensivity is introduced within the PCQMF\nmodel through a dimensionless $q$ parameter to examine the viscous properties\nsuch as shear viscosity ($\\eta$), bulk viscosity ($\\zeta_b$), and conductive\nproperties, including electrical conductivity ($\\sigma_{el}$) and thermal\nconductivity ($\\kappa$). Additionally, some key thermodynamic quantities\nrelevant to the transport coefficients, like the speed of sound ($c_{sq}^2$)\nand specific heat at constant volume ($c_{vq}$), are calculated. The\ntemperature dependence of the transport coefficients is explored through a\nkinetic theory approach with the relaxation time approximation. The results are\ncompared to the extensive case where $q$ approaches 1. The nonextensive $q$\nparameter is found to have a significant effect on all transport coefficients.\nWe find that the nonextensive behaviour of the medium enhances both specific\nshear viscosity $\\eta/s_q$ as well as conductive coefficients $\\sigma_{el}/T$\nand $\\kappa/T^2$. In contrast, the normalised bulk viscosity $\\zeta_b/s_q$ is\nfound to decrease as the nonextensivity of the medium increases. We have also\nstudied the transport coefficients for finite values of chemical potentials.\nThe magnitude of $\\eta$, $\\sigma_{el}$, and $\\kappa$ increases at lower\ntemperatures while $\\zeta$ is found to decrease for systems with non-zero\nchemical potential.\n",
+  "subjects": [
+    "Physics/High Energy Physics - Phenomenology",
+    "Physics/Nuclear Theory"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "_HBPc_1_3UcCk_42ZwkJFfQWsyv2ShBqgxh-llnHt3k",
+  "pdfSize": "475030"
+}

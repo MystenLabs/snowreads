@@ -1,0 +1,37 @@
+{
+  "id": "2412.05438",
+  "title": "Granular Ball K-Class Twin Support Vector Classifier",
+  "authors": "M. A. Ganaie, Vrushank Ahire, Anouck Girard",
+  "authorsParsed": [
+    [
+      "Ganaie",
+      "M. A.",
+      ""
+    ],
+    [
+      "Ahire",
+      "Vrushank",
+      ""
+    ],
+    [
+      "Girard",
+      "Anouck",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 6 Dec 2024 21:47:49 GMT"
+    }
+  ],
+  "updateDate": "2024-12-10",
+  "timestamp": 1733521669000,
+  "abstract": "  This paper introduces the Granular Ball K-Class Twin Support Vector\nClassifier (GB-TWKSVC), a novel multi-class classification framework that\ncombines Twin Support Vector Machines (TWSVM) with granular ball computing. The\nproposed method addresses key challenges in multi-class classification by\nutilizing granular ball representation for improved noise robustness and\nTWSVM's non-parallel hyperplane architecture solves two smaller quadratic\nprogramming problems, enhancing efficiency. Our approach introduces a novel\nformulation that effectively handles multi-class scenarios, advancing\ntraditional binary classification methods. Experimental evaluation on diverse\nbenchmark datasets shows that GB-TWKSVC significantly outperforms current\nstate-of-the-art classifiers in both accuracy and computational performance.\nThe method's effectiveness is validated through comprehensive statistical tests\nand complexity analysis. Our work advances classification algorithms by\nproviding a mathematically sound framework that addresses the scalability and\nrobustness needs of modern machine learning applications. The results\ndemonstrate GB-TWKSVC's broad applicability across domains including pattern\nrecognition, fault diagnosis, and large-scale data analytics, establishing it\nas a valuable addition to the classification algorithm landscape.\n",
+  "subjects": [
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "3SK1yRI3IBoURCNo-HoHxzg-mI8KRACpJ6AKK9z0BgA",
+  "pdfSize": "740558"
+}

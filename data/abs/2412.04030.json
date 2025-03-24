@@ -1,0 +1,51 @@
+{
+  "id": "2412.04030",
+  "title": "Mask of truth: model sensitivity to unexpected regions of medical images",
+  "authors": "Th\\'eo Sourget, Michelle Hestbek-M{\\o}ller, Amelia\n  Jim\\'enez-S\\'anchez, Jack Junchi Xu, Veronika Cheplygina",
+  "authorsParsed": [
+    [
+      "Sourget",
+      "Théo",
+      ""
+    ],
+    [
+      "Hestbek-Møller",
+      "Michelle",
+      ""
+    ],
+    [
+      "Jiménez-Sánchez",
+      "Amelia",
+      ""
+    ],
+    [
+      "Xu",
+      "Jack Junchi",
+      ""
+    ],
+    [
+      "Cheplygina",
+      "Veronika",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 5 Dec 2024 10:06:58 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Sun, 8 Dec 2024 08:26:00 GMT"
+    }
+  ],
+  "updateDate": "2024-12-10",
+  "timestamp": 1733393218000,
+  "abstract": "  The development of larger models for medical image analysis has led to\nincreased performance. However, it also affected our ability to explain and\nvalidate model decisions. Models can use non-relevant parts of images, also\ncalled spurious correlations or shortcuts, to obtain high performance on\nbenchmark datasets but fail in real-world scenarios. In this work, we challenge\nthe capacity of convolutional neural networks (CNN) to classify chest X-rays\nand eye fundus images while masking out clinically relevant parts of the image.\nWe show that all models trained on the PadChest dataset, irrespective of the\nmasking strategy, are able to obtain an Area Under the Curve (AUC) above\nrandom. Moreover, the models trained on full images obtain good performance on\nimages without the region of interest (ROI), even superior to the one obtained\non images only containing the ROI. We also reveal a possible spurious\ncorrelation in the Chaksu dataset while the performances are more aligned with\nthe expectation of an unbiased model. We go beyond the performance analysis\nwith the usage of the explainability method SHAP and the analysis of\nembeddings. We asked a radiology resident to interpret chest X-rays under\ndifferent masking to complement our findings with clinical knowledge. Our code\nis available at https://github.com/TheoSourget/MMC_Masking and\nhttps://github.com/TheoSourget/MMC_Masking_EyeFundus\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by-sa/4.0/",
+  "blobId": "2IZ3baN2wi1Ue-AWuvMZW6cY4MMmfD3u5OCvnSYzE_I",
+  "pdfSize": "8962965"
+}

@@ -1,0 +1,52 @@
+{
+  "id": "2412.15574",
+  "title": "J-EDI QA: Benchmark for deep-sea organism-specific multimodal LLM",
+  "authors": "Takero Yoshida, Yuikazu Ito, Yoshihiro Fujiwara, Shinji Tsuchida,\n  Daisuke Sugiyama, Daisuke Matsuoka",
+  "authorsParsed": [
+    [
+      "Yoshida",
+      "Takero",
+      ""
+    ],
+    [
+      "Ito",
+      "Yuikazu",
+      ""
+    ],
+    [
+      "Fujiwara",
+      "Yoshihiro",
+      ""
+    ],
+    [
+      "Tsuchida",
+      "Shinji",
+      ""
+    ],
+    [
+      "Sugiyama",
+      "Daisuke",
+      ""
+    ],
+    [
+      "Matsuoka",
+      "Daisuke",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 20 Dec 2024 05:11:51 GMT"
+    }
+  ],
+  "updateDate": "2024-12-23",
+  "timestamp": 1734671511000,
+  "abstract": "  Japan Agency for Marine-Earth Science and Technology (JAMSTEC) has made\navailable the JAMSTEC Earth Deep-sea Image (J-EDI), a deep-sea video and image\narchive (https://www.godac.jamstec.go.jp/jedi/e/index.html). This archive\nserves as a valuable resource for researchers and scholars interested in\ndeep-sea imagery. The dataset comprises images and videos of deep-sea\nphenomena, predominantly of marine organisms, but also of the seafloor and\nphysical processes. In this study, we propose J-EDI QA, a benchmark for\nunderstanding images of deep-sea organisms using a multimodal large language\nmodel (LLM). The benchmark is comprised of 100 images, accompanied by questions\nand answers with four options by JAMSTEC researchers for each image. The QA\npairs are provided in Japanese, and the benchmark assesses the ability to\nunderstand deep-sea species in Japanese. In the evaluation presented in this\npaper, OpenAI o1 achieved a 50% correct response rate. This result indicates\nthat even with the capabilities of state-of-the-art models as of December 2024,\ndeep-sea species comprehension is not yet at an expert level. Further advances\nin deep-sea species-specific LLMs are therefore required.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "10fLIZXg8buy7KTfzPrIvMYp3zEwf1F1ipX1akbwhm8",
+  "pdfSize": "3608091"
+}

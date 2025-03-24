@@ -1,0 +1,43 @@
+{
+  "id": "2412.06069",
+  "title": "Fuzzy Norm-Explicit Product Quantization for Recommender Systems",
+  "authors": "Mohammadreza Jamalifard, Javier Andreu-Perez, Hani Hagras, Luis\n  Mart\\'inez L\\'opez",
+  "authorsParsed": [
+    [
+      "Jamalifard",
+      "Mohammadreza",
+      ""
+    ],
+    [
+      "Andreu-Perez",
+      "Javier",
+      ""
+    ],
+    [
+      "Hagras",
+      "Hani",
+      ""
+    ],
+    [
+      "López",
+      "Luis Martínez",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 8 Dec 2024 21:14:57 GMT"
+    }
+  ],
+  "updateDate": "2024-12-10",
+  "timestamp": 1733692497000,
+  "abstract": "  As the data resources grow, providing recommendations that best meet the\ndemands has become a vital requirement in business and life to overcome the\ninformation overload problem. However, building a system suggesting relevant\nrecommendations has always been a point of debate. One of the most\ncost-efficient techniques in terms of producing relevant recommendations at a\nlow complexity is Product Quantization (PQ). PQ approaches have continued\ndeveloping in recent years. This system's crucial challenge is improving\nproduct quantization performance in terms of recall measures without\ncompromising its complexity. This makes the algorithm suitable for problems\nthat require a greater number of potentially relevant items without\ndisregarding others, at high-speed and low-cost to keep up with traffic. This\nis the case of online shops where the recommendations for the purpose are\nimportant, although customers can be susceptible to scoping other products.\nThis research proposes a fuzzy approach to perform norm-based product\nquantization. Type-2 Fuzzy sets (T2FSs) define the codebook allowing\nsub-vectors (T2FSs) to be associated with more than one element of the\ncodebook, and next, its norm calculus is resolved by means of integration. Our\nmethod finesses the recall measure up, making the algorithm suitable for\nproblems that require querying at most possible potential relevant items\nwithout disregarding others. The proposed method outperforms all PQ approaches\nsuch as NEQ, PQ, and RQ up to +6%, +5%, and +8% by achieving a recall of 94%,\n69%, 59% in Netflix, Audio, Cifar60k datasets, respectively. More and over,\ncomputing time and complexity nearly equals the most computationally efficient\nexisting PQ method in the state-of-the-art.\n",
+  "subjects": [
+    "Computer Science/Information Retrieval",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "OLW-aScBhkFypB2fY6Bju3PZjLL-3gwfYf3IYvvPmQs",
+  "pdfSize": "6973233"
+}

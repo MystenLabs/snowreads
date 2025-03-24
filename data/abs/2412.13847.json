@@ -1,0 +1,33 @@
+{
+  "id": "2412.13847",
+  "title": "A Concept-Centric Approach to Multi-Modality Learning",
+  "authors": "Yuchong Geng, Ao Tang",
+  "authorsParsed": [
+    [
+      "Geng",
+      "Yuchong",
+      ""
+    ],
+    [
+      "Tang",
+      "Ao",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 18 Dec 2024 13:40:21 GMT"
+    }
+  ],
+  "updateDate": "2024-12-19",
+  "timestamp": 1734529221000,
+  "abstract": "  In an effort to create a more efficient AI system, we introduce a new\nmulti-modality learning framework that leverages a modality-agnostic concept\nspace possessing abstract knowledge and a set of modality-specific projection\nmodels tailored to process distinct modality inputs and map them onto the\nconcept space. Decoupled from specific modalities and their associated\nprojection models, the concept space focuses on learning abstract knowledge\nthat is universally applicable across modalities. Subsequently, the knowledge\nembedded into the concept space streamlines the learning processes of\nmodality-specific projection models. We evaluate our framework on two popular\ntasks: Image-Text Matching and Visual Question Answering. Our framework\nachieves performance on par with benchmark models while demonstrating more\nefficient learning curves.\n",
+  "subjects": [
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "DF9G2fcOn3fBp9O_dbJRYVZJ57SLFu0bojTBRbb8pdg",
+  "pdfSize": "1526753"
+}

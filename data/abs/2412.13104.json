@@ -1,0 +1,32 @@
+{
+  "id": "2412.13104",
+  "title": "Intermediate Relation Size Bounds for Select-Project-Join Query Plans:\n  Asymptotically Tight Characterizations",
+  "authors": "Hubie Chen and Markus Schneider",
+  "authorsParsed": [
+    [
+      "Chen",
+      "Hubie",
+      ""
+    ],
+    [
+      "Schneider",
+      "Markus",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 17 Dec 2024 17:19:58 GMT"
+    }
+  ],
+  "updateDate": "2024-12-18",
+  "timestamp": 1734455998000,
+  "abstract": "  We study the problem of statically optimizing select-project-join (SPJ) plans\nwhere unary key constraints are allowed. A natural measure of a plan, which we\ncall the output degree and which has been studied previously, is the minimum\ndegree of a polynomial bounding the plan's output relation, as a function of\nthe input database's maximum relation size. This measure is, by definition,\ninvariant under passing from a plan to another plan that is semantically\nequivalent to the first. In this article, we consider a plan measure which we\ncall the intermediate degree; this measure is defined to be the minimum degree\nbounding the size of all intermediate relations computed during a plan's\nexecution -- again, as a function of the input database's maximum relation\nsize. We present an algorithm that, given an SPJ plan $q$ and a set $\\Sigma$ of\nunary keys, computes an SPJ plan $q'$ that is semantically equivalent to $q$\n(over databases satisfying $\\Sigma$) and that has the minimum intermediate\ndegree over all such semantically equivalent plans. For the types of plans\nconsidered, we thus obtain a complete and effective understanding of\nintermediate degree.\n",
+  "subjects": [
+    "Computer Science/Databases"
+  ],
+  "license": "http://creativecommons.org/licenses/by-sa/4.0/",
+  "blobId": "lu3kSSmb6EOOfDbvGWC8s8C6AylMwV6RlggiHe94tN0",
+  "pdfSize": "856379"
+}

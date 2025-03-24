@@ -1,0 +1,53 @@
+{
+  "id": "2412.04449",
+  "title": "p-MoD: Building Mixture-of-Depths MLLMs via Progressive Ratio Decay",
+  "authors": "Jun Zhang, Desen Meng, Ji Qi, Zhenpeng Huang, Tao Wu, Limin Wang",
+  "authorsParsed": [
+    [
+      "Zhang",
+      "Jun",
+      ""
+    ],
+    [
+      "Meng",
+      "Desen",
+      ""
+    ],
+    [
+      "Qi",
+      "Ji",
+      ""
+    ],
+    [
+      "Huang",
+      "Zhenpeng",
+      ""
+    ],
+    [
+      "Wu",
+      "Tao",
+      ""
+    ],
+    [
+      "Wang",
+      "Limin",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 5 Dec 2024 18:58:03 GMT"
+    }
+  ],
+  "updateDate": "2024-12-06",
+  "timestamp": 1733425083000,
+  "abstract": "  Despite the remarkable performance of multimodal large language models\n(MLLMs) across diverse tasks, the substantial training and inference costs\nimpede their advancement. The majority of computation stems from the\noverwhelming volume of vision tokens processed by the transformer decoder. In\nthis paper, we propose to build efficient MLLMs by leveraging the\nMixture-of-Depths (MoD) mechanism, where each transformer decoder layer selects\nessential vision tokens to process while skipping redundant ones. However,\nintegrating MoD into MLLMs is non-trivial. To address the challenges of\ntraining and inference stability as well as limited training data, we adapt the\nMoD module with two novel designs: tanh-gated weight normalization (TanhNorm)\nand symmetric token reweighting (STRing). Moreover, we observe that vision\ntokens exhibit higher redundancy in deeper layer and thus design a progressive\nratio decay (PRD) strategy, which gradually reduces the token retention ratio\nlayer by layer, employing a shifted cosine schedule. This crucial design fully\nunleashes the potential of MoD, significantly boosting the efficiency and\nperformance of our models. To validate the effectiveness of our approach, we\nconduct extensive experiments with two baseline models across 14 benchmarks.\nOur model, p-MoD, matches or even surpasses the performance of the baseline\nmodels, with only 55.6% TFLOPs and 53.8% KV cache storage during inference, and\n77.7% GPU hours during training.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Computation and Language"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "68zxSVs5Ucloyhx4OdRMs9ovMEzWflvtOPqP-EMEIp8",
+  "pdfSize": "1159753"
+}

@@ -1,0 +1,53 @@
+{
+  "id": "2412.16226",
+  "title": "Quantified Linear and Polynomial Arithmetic Satisfiability via\n  Template-based Skolemization",
+  "authors": "Krishnendu Chatterjee, Ehsan Kafshdar Goharshady, Mehrdad Karrabi,\n  Harshit J Motwani, Maximilian Seeliger, {\\DJ}or{\\dj}e \\v{Z}ikeli\\'c",
+  "authorsParsed": [
+    [
+      "Chatterjee",
+      "Krishnendu",
+      ""
+    ],
+    [
+      "Goharshady",
+      "Ehsan Kafshdar",
+      ""
+    ],
+    [
+      "Karrabi",
+      "Mehrdad",
+      ""
+    ],
+    [
+      "Motwani",
+      "Harshit J",
+      ""
+    ],
+    [
+      "Seeliger",
+      "Maximilian",
+      ""
+    ],
+    [
+      "Žikelić",
+      "Đorđe",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 18 Dec 2024 14:37:15 GMT"
+    }
+  ],
+  "updateDate": "2024-12-24",
+  "timestamp": 1734532635000,
+  "abstract": "  The problem of checking satisfiability of linear real arithmetic (LRA) and\nnon-linear real arithmetic (NRA) formulas has broad applications, in\nparticular, they are at the heart of logic-related applications such as logic\nfor artificial intelligence, program analysis, etc. While there has been much\nwork on checking satisfiability of unquantified LRA and NRA formulas, the\nproblem of checking satisfiability of quantified LRA and NRA formulas remains a\nsignificant challenge. The main bottleneck in the existing methods is a\ncomputationally expensive quantifier elimination step. In this work, we propose\na novel method for efficient quantifier elimination in quantified LRA and NRA\nformulas. We propose a template-based Skolemization approach, where we\nautomatically synthesize linear/polynomial Skolem functions in order to\neliminate quantifiers in the formula. The key technical ingredients in our\napproach are Positivstellens\\\"atze theorems from algebraic geometry, which\nallow for an efficient manipulation of polynomial inequalities. Our method\noffers a range of appealing theoretical properties combined with a strong\npractical performance. On the theory side, our method is sound, semi-complete,\nand runs in subexponential time and polynomial space, as opposed to existing\nsound and complete quantifier elimination methods that run in\ndoubly-exponential time and at least exponential space. On the practical side,\nour experiments show superior performance compared to state-of-the-art SMT\nsolvers in terms of the number of solved instances and runtime, both on LRA and\non NRA benchmarks.\n",
+  "subjects": [
+    "Computer Science/Logic in Computer Science",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "AFMpdvTTUEcvTvicvhqbj7A0UlS95Vj68NdPRou_Mes",
+  "pdfSize": "404056"
+}

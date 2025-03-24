@@ -1,0 +1,49 @@
+{
+  "id": "2412.14424",
+  "title": "FedPIA -- Permuting and Integrating Adapters leveraging Wasserstein\n  Barycenters for Finetuning Foundation Models in Multi-Modal Federated\n  Learning",
+  "authors": "Pramit Saha, Divyanshu Mishra, Felix Wagner, Konstantinos Kamnitsas,\n  J. Alison Noble",
+  "authorsParsed": [
+    [
+      "Saha",
+      "Pramit",
+      ""
+    ],
+    [
+      "Mishra",
+      "Divyanshu",
+      ""
+    ],
+    [
+      "Wagner",
+      "Felix",
+      ""
+    ],
+    [
+      "Kamnitsas",
+      "Konstantinos",
+      ""
+    ],
+    [
+      "Noble",
+      "J. Alison",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 19 Dec 2024 00:24:00 GMT"
+    }
+  ],
+  "updateDate": "2024-12-20",
+  "timestamp": 1734567840000,
+  "abstract": "  Large Vision-Language Models typically require large text and image datasets\nfor effective fine-tuning. However, collecting data from various sites,\nespecially in healthcare, is challenging due to strict privacy regulations. An\nalternative is to fine-tune these models on end-user devices, such as in\nmedical clinics, without sending data to a server. These local clients\ntypically have limited computing power and small datasets, which are not enough\nfor fully fine-tuning large VLMs on their own. A naive solution to these\nscenarios is to leverage parameter-efficient fine-tuning (PEFT) strategies and\napply federated learning (FL) algorithms to combine the learned adapter\nweights, thereby respecting the resource limitations and data privacy. However,\nthis approach does not fully leverage the knowledge from multiple adapters\ntrained on diverse data distributions and for diverse tasks. The adapters are\nadversely impacted by data heterogeneity and task heterogeneity across clients\nresulting in suboptimal convergence. To this end, we propose a novel framework\ncalled FedPIA that improves upon the naive combinations of FL and PEFT by\nintroducing Permutation and Integration of the local Adapters in the server and\nglobal Adapters in the clients exploiting Wasserstein barycenters for improved\nblending of client-specific and client-agnostic knowledge. This layerwise\npermutation helps to bridge the gap in the parameter space of local and global\nadapters before integration. We conduct over 2000 client-level experiments\nutilizing 48 medical image datasets across five different medical\nvision-language FL task settings encompassing visual question answering as well\nas image and report-based multi-label disease detection. Our experiments\ninvolving diverse client settings, ten different modalities, and two VLM\nbackbones demonstrate that FedPIA consistently outperforms the state-of-the-art\nPEFT-FL baselines.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "XTkRtcy6F0UM2hVknBL1qae9PvUHhAnPuQYxc-pcJmI",
+  "pdfSize": "5109757"
+}

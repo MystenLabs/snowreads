@@ -1,0 +1,37 @@
+{
+  "id": "2412.19695",
+  "title": "Sharp Bounds on Lengths of Linear Recolouring Sequences",
+  "authors": "Stijn Cambie and Wouter Cames van Batenburg and Daniel W. Cranston",
+  "authorsParsed": [
+    [
+      "Cambie",
+      "Stijn",
+      ""
+    ],
+    [
+      "van Batenburg",
+      "Wouter Cames",
+      ""
+    ],
+    [
+      "Cranston",
+      "Daniel W.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 27 Dec 2024 15:42:55 GMT"
+    }
+  ],
+  "updateDate": "2024-12-30",
+  "timestamp": 1735314175000,
+  "abstract": "  A recolouring sequence, between $k$-colourings $\\alpha$ and $\\beta$ of a\ngraph $G$, transforms $\\alpha$ into $\\beta$ by recolouring one vertex at a\ntime, such that after each recolouring step we again have a proper\n$k$-colouring of $G$. The diameter of the $k$-recolouring graph,\n$\\textrm{diam}~\\mathcal{C}_k(G)$, is the maximum over all pairs $\\alpha$ and\n$\\beta$ of the minimum length of a recolouring sequence from $\\alpha$ to\n$\\beta$. Much previous work has focused on determining the asymptotics of\n$\\textrm{diam}~\\mathcal{C}_k(G)$: Is it $\\Theta(|G|)$? Is it $\\Theta(|G|^2)$?\nOr even larger? Here we focus on graphs for which\n$\\textrm{diam}~\\mathcal{C}_k(G)=\\Theta(|G|)$, and seek to determine more\nprecisely the multiplicative constant implicit in the $\\Theta()$. In\nparticular, for each $k\\ge 3$, for all positive integers $p$ and $q$ we exactly\ndetermine $\\textrm{diam}~\\mathcal{C}_k(K_{p,q})$, up to a small additive\nconstant. We also sharpen a recolouring lemma that has been used in multiple\npapers, proving an optimal version. This improves the multiplicative constant\nin various prior results. Finally, we investigate plausible relationships\nbetween similar reconfiguration graphs.\n",
+  "subjects": [
+    "Mathematics/Combinatorics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "3YYsRDAukOv2e8y1hjMu_7eJMmSqHTNsrQeWCMB5hkE",
+  "pdfSize": "305326"
+}

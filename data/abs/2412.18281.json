@@ -1,0 +1,70 @@
+{
+  "id": "2412.18281",
+  "title": "GDM4MMIMO: Generative Diffusion Models for Massive MIMO Communications",
+  "authors": "Zhenzhou Jin, Li You, Huibin Zhou, Yuanshuo Wang, Xiaofeng Liu, Xinrui\n  Gong, Xiqi Gao, Derrick Wing Kwan Ng, Xiang-Gen Xia",
+  "authorsParsed": [
+    [
+      "Jin",
+      "Zhenzhou",
+      ""
+    ],
+    [
+      "You",
+      "Li",
+      ""
+    ],
+    [
+      "Zhou",
+      "Huibin",
+      ""
+    ],
+    [
+      "Wang",
+      "Yuanshuo",
+      ""
+    ],
+    [
+      "Liu",
+      "Xiaofeng",
+      ""
+    ],
+    [
+      "Gong",
+      "Xinrui",
+      ""
+    ],
+    [
+      "Gao",
+      "Xiqi",
+      ""
+    ],
+    [
+      "Ng",
+      "Derrick Wing Kwan",
+      ""
+    ],
+    [
+      "Xia",
+      "Xiang-Gen",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 24 Dec 2024 08:42:01 GMT"
+    }
+  ],
+  "updateDate": "2024-12-25",
+  "timestamp": 1735029721000,
+  "abstract": "  Massive multiple-input multiple-output (MIMO) offers significant advantages\nin spectral and energy efficiencies, positioning it as a cornerstone technology\nof fifth-generation (5G) wireless communication systems and a promising\nsolution for the burgeoning data demands anticipated in sixth-generation (6G)\nnetworks. In recent years, with the continuous advancement of artificial\nintelligence (AI), a multitude of task-oriented generative foundation models\n(GFMs) have emerged, achieving remarkable performance in various fields such as\ncomputer vision (CV), natural language processing (NLP), and autonomous\ndriving. As a pioneering force, these models are driving the paradigm shift in\nAI towards generative AI (GenAI). Among them, the generative diffusion model\n(GDM), as one of state-of-the-art families of generative models, demonstrates\nan exceptional capability to learn implicit prior knowledge and robust\ngeneralization capabilities, thereby enhancing its versatility and\neffectiveness across diverse applications. In this paper, we delve into the\npotential applications of GDM in massive MIMO communications. Specifically, we\nfirst provide an overview of massive MIMO communication, the framework of GFMs,\nand the working mechanism of GDM. Following this, we discuss recent research\nadvancements in the field and present a case study of near-field channel\nestimation based on GDM, demonstrating its promising potential for facilitating\nefficient ultra-dimensional channel statement information (CSI) acquisition in\nthe context of massive MIMO communications. Finally, we highlight several\npressing challenges in future mobile communications and identify promising\nresearch directions surrounding GDM.\n",
+  "subjects": [
+    "Computer Science/Information Theory",
+    "Computer Science/Machine Learning",
+    "Electrical Engineering and Systems Science/Signal Processing",
+    "Mathematics/Information Theory"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "0yvdiucOqcNjwQBmb-uopTcrJeWDqRI7FqDMurnKFDw",
+  "pdfSize": "13455284"
+}

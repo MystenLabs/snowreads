@@ -1,0 +1,28 @@
+{
+  "id": "2412.18669",
+  "title": "Advancing Explainability in Neural Machine Translation: Analytical\n  Metrics for Attention and Alignment Consistency",
+  "authors": "Anurag Mishra",
+  "authorsParsed": [
+    [
+      "Mishra",
+      "Anurag",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 24 Dec 2024 20:08:33 GMT"
+    }
+  ],
+  "updateDate": "2024-12-30",
+  "timestamp": 1735070913000,
+  "abstract": "  Neural Machine Translation (NMT) models have shown remarkable performance but\nremain largely opaque in their decision making processes. The interpretability\nof these models, especially their internal attention mechanisms, is critical\nfor building trust and verifying that these systems behave as intended. In this\nwork, we introduce a systematic framework to quantitatively evaluate the\nexplainability of an NMT model attention patterns by comparing them against\nstatistical alignments and correlating them with standard machine translation\nquality metrics. We present a set of metrics attention entropy and alignment\nagreement and validate them on an English-German test subset from WMT14 using a\npre trained mT5 model. Our results indicate that sharper attention\ndistributions correlate with improved interpretability but do not always\nguarantee better translation quality. These findings advance our understanding\nof NMT explainability and guide future efforts toward building more transparent\nand reliable machine translation systems.\n",
+  "subjects": [
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Computation and Language"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "EUeBtrh29KCjYChbWCFd1F-r4EN5gt4zJUg7hAwiNns",
+  "pdfSize": "1401929"
+}

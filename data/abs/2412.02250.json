@@ -1,0 +1,42 @@
+{
+  "id": "2412.02250",
+  "title": "Vision Transformers for Weakly-Supervised Microorganism Enumeration",
+  "authors": "Javier Ure\\~na Santiago, Thomas Str\\\"ohle, Antonio\n  Rodr\\'iguez-S\\'anchez, Ruth Breu",
+  "authorsParsed": [
+    [
+      "Santiago",
+      "Javier Ureña",
+      ""
+    ],
+    [
+      "Ströhle",
+      "Thomas",
+      ""
+    ],
+    [
+      "Rodríguez-Sánchez",
+      "Antonio",
+      ""
+    ],
+    [
+      "Breu",
+      "Ruth",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 3 Dec 2024 08:27:20 GMT"
+    }
+  ],
+  "updateDate": "2024-12-04",
+  "timestamp": 1733214440000,
+  "abstract": "  Microorganism enumeration is an essential task in many applications, such as\nassessing contamination levels or ensuring health standards when evaluating\nsurface cleanliness. However, it's traditionally performed by human-supervised\nmethods that often require manual counting, making it tedious and\ntime-consuming. Previous research suggests automating this task using computer\nvision and machine learning methods, primarily through instance segmentation or\ndensity estimation techniques. This study conducts a comparative analysis of\nvision transformers (ViTs) for weakly-supervised counting in microorganism\nenumeration, contrasting them with traditional architectures such as ResNet and\ninvestigating ViT-based models such as TransCrowd. We trained different\nversions of ViTs as the architectural backbone for feature extraction using\nfour microbiology datasets to determine potential new approaches for total\nmicroorganism enumeration in images. Results indicate that while ResNets\nperform better overall, ViTs performance demonstrates competent results across\nall datasets, opening up promising lines of research in microorganism\nenumeration. This comparative study contributes to the field of microbial image\nanalysis by presenting innovative approaches to the recurring challenge of\nmicroorganism enumeration and by highlighting the capabilities of ViTs in the\ntask of regression counting.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "thhpx8bM2xuAu-gNzqEx1EqdkcmGU0_kEZkZQ7CfupU",
+  "pdfSize": "22149663"
+}

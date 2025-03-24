@@ -1,0 +1,58 @@
+{
+  "id": "2412.07907",
+  "title": "Modified Baum-Welch Algorithm for Joint Blind Channel Estimation and\n  Turbo Equalization",
+  "authors": "Chin-Hung Chen, Boris Karanov, Ivana Nikoloska, Wim van Houtum, Yan\n  Wu, and Alex Alvarado",
+  "authorsParsed": [
+    [
+      "Chen",
+      "Chin-Hung",
+      ""
+    ],
+    [
+      "Karanov",
+      "Boris",
+      ""
+    ],
+    [
+      "Nikoloska",
+      "Ivana",
+      ""
+    ],
+    [
+      "van Houtum",
+      "Wim",
+      ""
+    ],
+    [
+      "Wu",
+      "Yan",
+      ""
+    ],
+    [
+      "Alvarado",
+      "Alex",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 10 Dec 2024 20:31:44 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Fri, 20 Dec 2024 12:56:30 GMT"
+    }
+  ],
+  "updateDate": "2024-12-23",
+  "timestamp": 1733862704000,
+  "abstract": "  Blind estimation of intersymbol interference channels based on the Baum-Welch\n(BW) algorithm, a specific implementation of the expectation-maximization (EM)\nalgorithm for training hidden Markov models, is robust and does not require\nlabeled data. However, it is known for its extensive computation cost, slow\nconvergence, and frequently converges to a local maximum. In this paper, we\nmodified the trellis structure of the BW algorithm by associating the channel\nparameters with two consecutive states. This modification enables us to reduce\nthe number of required states by half while maintaining the same performance.\nMoreover, to improve the convergence rate and the estimation performance, we\nconstruct a joint turbo-BW-equalization system by exploiting the extrinsic\ninformation produced by the turbo decoder to refine the BW-based estimator at\neach EM iteration. Our experiments demonstrate that the joint system achieves\nconvergence in 10 EM iterations, which is 8 iterations less than a separate\nsystem design for a signal-to-noise ratio (SNR) of 4dB. Additionally, the joint\nsystem provides improved estimation accuracy with a mean square error (MSE) of\n$10^{-4}$ for an SNR of 6dB. We also identify scenarios where a joint design is\nnot preferable, especially when the channel is noisy (e.g., SNR=2dB) and the\ndecoder cannot provide reliable extrinsic information for a BW-based estimator.\n",
+  "subjects": [
+    "Electrical Engineering and Systems Science/Signal Processing",
+    "Computer Science/Information Theory",
+    "Mathematics/Information Theory"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "ouPRKclLgxkuyvrg8gbWBRM5P_qcy7hpsb-E4uMzkT4",
+  "pdfSize": "192016"
+}

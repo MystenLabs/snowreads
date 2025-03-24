@@ -1,0 +1,38 @@
+{
+  "id": "2412.04015",
+  "title": "Linear fluctuation of interfaces in Glauber-Kawasaki dynamics",
+  "authors": "Tadahisa Funaki, Claudio Landim and Sunder Sethuraman",
+  "authorsParsed": [
+    [
+      "Funaki",
+      "Tadahisa",
+      ""
+    ],
+    [
+      "Landim",
+      "Claudio",
+      ""
+    ],
+    [
+      "Sethuraman",
+      "Sunder",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 5 Dec 2024 09:51:03 GMT"
+    }
+  ],
+  "updateDate": "2024-12-06",
+  "timestamp": 1733392263000,
+  "abstract": "  In this article, we find a scaling limit of the space-time mass fluctuation\nfield of Glauber + Kawasaki particle dynamics around its hydrodynamic mean\ncurvature interface limit. Here, the Glauber rates are scaled by $K=K_N$, the\nKawasaki rates by $N^2$ and space by $1/N$. We start the process so that the\ninterface $\\Gamma_t$ formed is stationary that is, $\\Gamma_t$ is `flat'. When\nthe Glauber rates are balanced on $T^d$, $\\Gamma_t=\\Gamma=\\{x: x_1=0\\}$ is\nimmobile and the hydrodynamic limit is given by $\\rho(t,v) = \\rho_+$ for\n$v_1\\in (0,1/2)$ and $\\rho(t,v)= \\rho_-$ for $v_1\\in (-1/2,0)$ for all $t\\ge\n0$, where $v=(v_1,\\ldots,v_d)\\in T^d$ identified with $[-1/2,1/2)^d$. Since in\nthe formation the boundary region about the interface has width\n$O(1/\\sqrt{K_N})$, we will scale the $v_1$ coordinate in the fluctuation field\nby $\\sqrt{K_N}$ so that the scaling limit will capture information `near' the\ninterface.\n  We identify the fluctuation limit as a Gaussian field when $K_N\\uparrow\n\\infty$ and $K_N= O(\\sqrt{\\log(N)})$ in $d\\leq 2$. In the one dimensional case,\nthe field limit is given by ${\\bf e}(v_1) B_t$ where $B_t$ is a Brownian motion\nand ${\\bf e}$ is the normalized derivative of a decreasing `standing wave'\nsolution $\\phi$ of $\\partial^2_{v_1} \\phi - V'(\\phi)=0$ on $R$, where $V'$ is\nthe homogenization of the Glauber rates. In two dimensions, the limit is ${\\bf\ne}(v_1)Z_t(v_2)$ where $Z_t$ is the solution of a one dimensional stochastic\nheat equation. The appearance of the function ${\\bf e}(\\cdot)$ in the limit\nfield indicates that the interface fluctuation retains the shape of the\ntransition layer $\\phi$.\n",
+  "subjects": [
+    "Mathematics/Probability",
+    "Condensed Matter/Statistical Mechanics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "nJfiIsjG75jtZwONwTtkWzpOk94b0sIwQqgNzcZUnow",
+  "pdfSize": "611971"
+}

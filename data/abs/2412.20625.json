@@ -1,0 +1,42 @@
+{
+  "id": "2412.20625",
+  "title": "A wireless bilateral transceiver coil based on volume decoupled\n  resonators for a clinical MR mammography",
+  "authors": "Pavel M. Tikhonov (1), Alexander D. Fedotov (1), Georgiy A. Solomakha\n  (2), Anna A. Hurshkainen (1) ((1) School of Physics and Engineering, ITMO\n  University, (2) High-Field Magnetic Resonance, Max Planck Institute for\n  Biological Cybernetics)",
+  "authorsParsed": [
+    [
+      "Tikhonov",
+      "Pavel M.",
+      ""
+    ],
+    [
+      "Fedotov",
+      "Alexander D.",
+      ""
+    ],
+    [
+      "Solomakha",
+      "Georgiy A.",
+      ""
+    ],
+    [
+      "Hurshkainen",
+      "Anna A.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 30 Dec 2024 00:18:06 GMT"
+    }
+  ],
+  "updateDate": "2024-12-31",
+  "timestamp": 1735517886000,
+  "abstract": "  Wireless radio frequency coils provide a promising solution for clinical MR\napplications due to several benefits, such as cable-free connection and\ncompatibility with MR platforms of different vendors. Namely, for the purpose\nof clinical high-field human breast imaging several wireless transceiver coils\nare known to the date, those operational principle is based on inductive\ncoupling with a body coil. These coils are commonly consist of a several volume\nresonators to perform bilateral breast imaging. Due to the electrically close\nlocation of volume resonators, strong inductive coupling is observed, resulting\nin the occurrence of hybrid modes. In principle, MR imaging using one of the\nhybrid modes is possible provided by the homogeneity of a B+ distribution.\nHowever, the question of influence of volume resonators coupling on wireless\ncoil transmit efficiency and receive sensitivity was not previously studied. By\nthis work, we performed study to understand this issue. The first wireless coil\nwith decoupled resonators is developed, evaluated numerically and\nexperimentally including in vivo study on healthy volunteers. According to the\nobtained results, transmit efficiency and receive sensitivity of a pair of\ndecoupled Helmholtz resonators is at least 24% higher than for a pair of\ncoupled resonators.\n",
+  "subjects": [
+    "Physics/Medical Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "lEs42DF7W92BYD0hPLP9PVJVIxRiKOxRnSivhmCHvQs",
+  "pdfSize": "3961867"
+}

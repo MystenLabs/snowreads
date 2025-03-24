@@ -1,0 +1,39 @@
+{
+  "id": "2412.03702",
+  "title": "Asymptotics of Linear Regression with Linearly Dependent Data",
+  "authors": "Behrad Moniri and Hamed Hassani",
+  "authorsParsed": [
+    [
+      "Moniri",
+      "Behrad",
+      ""
+    ],
+    [
+      "Hassani",
+      "Hamed",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 4 Dec 2024 20:31:47 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Sat, 7 Dec 2024 21:32:39 GMT"
+    }
+  ],
+  "updateDate": "2024-12-10",
+  "timestamp": 1733344307000,
+  "abstract": "  In this paper we study the asymptotics of linear regression in settings with\nnon-Gaussian covariates where the covariates exhibit a linear dependency\nstructure, departing from the standard assumption of independence. We model the\ncovariates using stochastic processes with spatio-temporal covariance and\nanalyze the performance of ridge regression in the high-dimensional\nproportional regime, where the number of samples and feature dimensions grow\nproportionally. A Gaussian universality theorem is proven, demonstrating that\nthe asymptotics are invariant under replacing the non-Gaussian covariates with\nGaussian vectors preserving mean and covariance, for which tools from random\nmatrix theory can be used to derive precise characterizations of the estimation\nerror. The estimation error is characterized by a fixed-point equation\ninvolving the spectral properties of the spatio-temporal covariance matrices,\nenabling efficient computation. We then study optimal regularization,\noverparameterization, and the double descent phenomenon in the context of\ndependent data. Simulations validate our theoretical predictions, shedding\nlight on how dependencies influence estimation error and the choice of\nregularization parameters.\n",
+  "subjects": [
+    "Statistics/Machine Learning",
+    "Computer Science/Machine Learning",
+    "Computer Science/Systems and Control",
+    "Electrical Engineering and Systems Science/Systems and Control"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "PoUisb-XBPOBXUNHcL_4Xvo7q0lBeBi7hq0lSOdUFAQ",
+  "pdfSize": "503331"
+}

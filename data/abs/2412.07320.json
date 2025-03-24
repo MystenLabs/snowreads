@@ -1,0 +1,66 @@
+{
+  "id": "2412.07320",
+  "title": "CoMA: Compositional Human Motion Generation with Multi-modal Agents",
+  "authors": "Shanlin Sun, Gabriel De Araujo, Jiaqi Xu, Shenghan Zhou, Hanwen Zhang,\n  Ziheng Huang, Chenyu You, Xiaohui Xie",
+  "authorsParsed": [
+    [
+      "Sun",
+      "Shanlin",
+      ""
+    ],
+    [
+      "De Araujo",
+      "Gabriel",
+      ""
+    ],
+    [
+      "Xu",
+      "Jiaqi",
+      ""
+    ],
+    [
+      "Zhou",
+      "Shenghan",
+      ""
+    ],
+    [
+      "Zhang",
+      "Hanwen",
+      ""
+    ],
+    [
+      "Huang",
+      "Ziheng",
+      ""
+    ],
+    [
+      "You",
+      "Chenyu",
+      ""
+    ],
+    [
+      "Xie",
+      "Xiaohui",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 10 Dec 2024 09:08:41 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Tue, 7 Jan 2025 23:10:25 GMT"
+    }
+  ],
+  "updateDate": "2025-01-09",
+  "timestamp": 1733821721000,
+  "abstract": "  3D human motion generation has seen substantial advancement in recent years.\nWhile state-of-the-art approaches have improved performance significantly, they\nstill struggle with complex and detailed motions unseen in training data,\nlargely due to the scarcity of motion datasets and the prohibitive cost of\ngenerating new training examples. To address these challenges, we introduce\nCoMA, an agent-based solution for complex human motion generation, editing, and\ncomprehension. CoMA leverages multiple collaborative agents powered by large\nlanguage and vision models, alongside a mask transformer-based motion generator\nfeaturing body part-specific encoders and codebooks for fine-grained control.\nOur framework enables generation of both short and long motion sequences with\ndetailed instructions, text-guided motion editing, and self-correction for\nimproved quality. Evaluations on the HumanML3D dataset demonstrate competitive\nperformance against state-of-the-art methods. Additionally, we create a set of\ncontext-rich, compositional, and long text prompts, where user studies show our\nmethod significantly outperforms existing approaches.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "lGqkwTK_SL00XrQjPzGr17HGuC3sWr5DlSAEAmkibzk",
+  "pdfSize": "16742905"
+}

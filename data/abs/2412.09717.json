@@ -1,0 +1,37 @@
+{
+  "id": "2412.09717",
+  "title": "On the Parameterized Complexity of Diverse SAT",
+  "authors": "Neeldhara Misra, Harshil Mittal, Ashutosh Rai",
+  "authorsParsed": [
+    [
+      "Misra",
+      "Neeldhara",
+      ""
+    ],
+    [
+      "Mittal",
+      "Harshil",
+      ""
+    ],
+    [
+      "Rai",
+      "Ashutosh",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 12 Dec 2024 20:44:51 GMT"
+    }
+  ],
+  "updateDate": "2024-12-16",
+  "timestamp": 1734036291000,
+  "abstract": "  We study the Boolean Satisfiability problem (SAT) in the framework of\ndiversity, where one asks for multiple solutions that are mutually far apart\n(i.e., sufficiently dissimilar from each other) for a suitable notion of\ndistance/dissimilarity between solutions. Interpreting assignments as bit\nvectors, we take their Hamming distance to quantify dissimilarity, and we focus\non problem of finding two solutions. Specifically, we define the problem MAX\nDIFFER SAT (resp. EXACT DIFFER SAT) as follows: Given a Boolean formula $\\phi$\non $n$ variables, decide whether $\\phi$ has two satisfying assignments that\ndiffer on at least (resp. exactly) $d$ variables. We study classical and\nparameterized (in parameters $d$ and $n-d$) complexities of MAX DIFFER SAT and\nEXACT DIFFER SAT, when restricted to some formula-classes on which SAT is known\nto be polynomial-time solvable. In particular, we consider affine formulas,\n$2$-CNF formulas and hitting formulas.\n  For affine formulas, we show the following: Both problems are polynomial-time\nsolvable when each equation has at most two variables. EXACT DIFFER SAT is\nNP-hard, even when each equation has at most three variables and each variable\nappears in at most four equations. Also, MAX DIFFER SAT is NP-hard, even when\neach equation has at most four variables. Both problems are W[1]-hard in the\nparameter $n-d$. In contrast, when parameterized by $d$, EXACT DIFFER SAT is\nW[1]-hard, but MAX DIFFER SAT admits a single-exponential FPT algorithm and a\npolynomial-kernel.\n  For 2-CNF formulas, we show the following: Both problems are polynomial-time\nsolvable when each variable appears in at most two clauses. Also, both problems\nare W[1]-hard in the parameter $d$ (and therefore, it turns out, also NP-hard),\neven on monotone inputs (i.e., formulas with no negative literals). Finally,\nfor hitting formulas, we show that both problems are polynomial-time solvable.\n",
+  "subjects": [
+    "Computer Science/Data Structures and Algorithms"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "n3c_C60ispvdU-vuusxTobpD_n7fS07fEZsAv-1RDrw",
+  "pdfSize": "521694"
+}

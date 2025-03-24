@@ -1,0 +1,83 @@
+{
+  "id": "2412.05299",
+  "title": "Specifications: The missing link to making the development of LLM\n  systems an engineering discipline",
+  "authors": "Ion Stoica, Matei Zaharia, Joseph Gonzalez, Ken Goldberg, Koushik Sen,\n  Hao Zhang, Anastasios Angelopoulos, Shishir G. Patil, Lingjiao Chen, Wei-Lin\n  Chiang, Jared Q. Davis",
+  "authorsParsed": [
+    [
+      "Stoica",
+      "Ion",
+      ""
+    ],
+    [
+      "Zaharia",
+      "Matei",
+      ""
+    ],
+    [
+      "Gonzalez",
+      "Joseph",
+      ""
+    ],
+    [
+      "Goldberg",
+      "Ken",
+      ""
+    ],
+    [
+      "Sen",
+      "Koushik",
+      ""
+    ],
+    [
+      "Zhang",
+      "Hao",
+      ""
+    ],
+    [
+      "Angelopoulos",
+      "Anastasios",
+      ""
+    ],
+    [
+      "Patil",
+      "Shishir G.",
+      ""
+    ],
+    [
+      "Chen",
+      "Lingjiao",
+      ""
+    ],
+    [
+      "Chiang",
+      "Wei-Lin",
+      ""
+    ],
+    [
+      "Davis",
+      "Jared Q.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 25 Nov 2024 07:48:31 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Mon, 16 Dec 2024 08:17:09 GMT"
+    }
+  ],
+  "updateDate": "2024-12-17",
+  "timestamp": 1732520911000,
+  "abstract": "  Despite the significant strides made by generative AI in just a few short\nyears, its future progress is constrained by the challenge of building modular\nand robust systems. This capability has been a cornerstone of past\ntechnological revolutions, which relied on combining components to create\nincreasingly sophisticated and reliable systems. Cars, airplanes, computers,\nand software consist of components-such as engines, wheels, CPUs, and\nlibraries-that can be assembled, debugged, and replaced. A key tool for\nbuilding such reliable and modular systems is specification: the precise\ndescription of the expected behavior, inputs, and outputs of each component.\nHowever, the generality of LLMs and the inherent ambiguity of natural language\nmake defining specifications for LLM-based components (e.g., agents) both a\nchallenging and urgent problem. In this paper, we discuss the progress the\nfield has made so far-through advances like structured outputs, process\nsupervision, and test-time compute-and outline several future directions for\nresearch to enable the development of modular and reliable LLM-based systems\nthrough improved specifications.\n",
+  "subjects": [
+    "Computer Science/Software Engineering",
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Computation and Language"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "8sKfw5T2C4gfJGFwc__OhtSWaxXk1q3pViPBC51zGhA",
+  "pdfSize": "3293383"
+}

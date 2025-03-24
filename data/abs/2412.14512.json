@@ -1,0 +1,29 @@
+{
+  "id": "2412.14512",
+  "title": "Coupling and Tensorization of Kinetic Theory and Graph Theory",
+  "authors": "Datong Zhou",
+  "authorsParsed": [
+    [
+      "Zhou",
+      "Datong",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 19 Dec 2024 04:25:56 GMT"
+    }
+  ],
+  "updateDate": "2024-12-20",
+  "timestamp": 1734582356000,
+  "abstract": "  We study a non-exchangeable multi-agent system and rigorously derive a strong\nform of the mean-field limit. The convergence of the connection weights and the\ninitial data implies convergence of large-scale dynamics toward a deterministic\nlimit given by the corresponding extended Vlasov PDE, at any later time and any\nrealization of randomness. This is established on what we call a bi-coupling\ndistance defined through a convex optimization problem, which is an\ninterpolation of the optimal transport between measures and the fractional\noverlay between graphs. The proof relies on a quantitative stability estimate\nof the so-called observables, which are tensorizations of agent laws and graph\nhomomorphism densities. This reveals a profound relationship between mean-field\ntheory and graph limiting theory, intersecting in the study of non-exchangeable\nsystems.\n",
+  "subjects": [
+    "Mathematics/Analysis of PDEs",
+    "Mathematics/Combinatorics",
+    "Mathematics/Probability"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "YqKpphBgiLp9JuTdKoAQQeKLpobvZPZJnO4nMJeQrKE",
+  "pdfSize": "896214"
+}

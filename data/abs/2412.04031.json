@@ -1,0 +1,32 @@
+{
+  "id": "2412.04031",
+  "title": "Dimension Reduction via Random Projection for Privacy in Multi-Agent\n  Systems",
+  "authors": "Puspanjali Ghoshal and Ashok Singh Sairam",
+  "authorsParsed": [
+    [
+      "Ghoshal",
+      "Puspanjali",
+      ""
+    ],
+    [
+      "Sairam",
+      "Ashok Singh",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 5 Dec 2024 10:09:13 GMT"
+    }
+  ],
+  "updateDate": "2024-12-06",
+  "timestamp": 1733393353000,
+  "abstract": "  The agents in a Multi-Agent System (MAS) make observations about the system\nand send that information to a fusion center. The fusion center aggregates the\ninformation and concludes about the system parameters with as much accuracy as\npossible. However for the purposes of better efficiency of the system at large,\nthe agents need to append some private parameters to the observed data. In this\nscenario, the data sent to the fusion center is faced with privacy risks. The\ndata communicated to the fusion center must be secured against data privacy\nbreaches and inference attacks in a decentralized manner. However, this in turn\nleads to a loss of utility of the data being sent to the fusion center. We\nquantify the utility and privacy of the system using Cosine similarity. We\nformulate our MAS problem in terms of deducing a concept for which\ncompression-based methods are there in literature. Next, we propose a novel\nsanitization mechanism for our MAS using one such compression-based method\nwhile addressing the utility-privacy tradeoff problem.\n",
+  "subjects": [
+    "Computer Science/Cryptography and Security"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "Ajie47O1ZpdAWb6AOBsq3nX6Sz4SkB93nbSAdHdaDo8",
+  "pdfSize": "593988"
+}

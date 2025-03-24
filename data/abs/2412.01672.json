@@ -1,0 +1,72 @@
+{
+  "id": "2412.01672",
+  "title": "Gen-SIS: Generative Self-augmentation Improves Self-supervised Learning",
+  "authors": "Varun Belagali, Srikar Yellapragada, Alexandros Graikos, Saarthak\n  Kapse, Zilinghan Li, Tarak Nath Nandi, Ravi K Madduri, Prateek Prasanna, Joel\n  Saltz, Dimitris Samaras",
+  "authorsParsed": [
+    [
+      "Belagali",
+      "Varun",
+      ""
+    ],
+    [
+      "Yellapragada",
+      "Srikar",
+      ""
+    ],
+    [
+      "Graikos",
+      "Alexandros",
+      ""
+    ],
+    [
+      "Kapse",
+      "Saarthak",
+      ""
+    ],
+    [
+      "Li",
+      "Zilinghan",
+      ""
+    ],
+    [
+      "Nandi",
+      "Tarak Nath",
+      ""
+    ],
+    [
+      "Madduri",
+      "Ravi K",
+      ""
+    ],
+    [
+      "Prasanna",
+      "Prateek",
+      ""
+    ],
+    [
+      "Saltz",
+      "Joel",
+      ""
+    ],
+    [
+      "Samaras",
+      "Dimitris",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 2 Dec 2024 16:20:59 GMT"
+    }
+  ],
+  "updateDate": "2024-12-03",
+  "timestamp": 1733156459000,
+  "abstract": "  Self-supervised learning (SSL) methods have emerged as strong visual\nrepresentation learners by training an image encoder to maximize similarity\nbetween features of different views of the same image. To perform this\nview-invariance task, current SSL algorithms rely on hand-crafted augmentations\nsuch as random cropping and color jittering to create multiple views of an\nimage. Recently, generative diffusion models have been shown to improve SSL by\nproviding a wider range of data augmentations. However, these diffusion models\nrequire pre-training on large-scale image-text datasets, which might not be\navailable for many specialized domains like histopathology. In this work, we\nintroduce Gen-SIS, a diffusion-based augmentation technique trained exclusively\non unlabeled image data, eliminating any reliance on external sources of\nsupervision such as text captions. We first train an initial SSL encoder on a\ndataset using only hand-crafted augmentations. We then train a diffusion model\nconditioned on embeddings from that SSL encoder. Following training, given an\nembedding of the source image, this diffusion model can synthesize its diverse\nviews. We show that these `self-augmentations', i.e. generative augmentations\nbased on the vanilla SSL encoder embeddings, facilitate the training of a\nstronger SSL encoder. Furthermore, based on the ability to interpolate between\nimages in the encoder latent space, we introduce the novel pretext task of\ndisentangling the two source images of an interpolated synthetic image. We\nvalidate Gen-SIS's effectiveness by demonstrating performance improvements\nacross various downstream tasks in both natural images, which are generally\nobject-centric, as well as digital histopathology images, which are typically\ncontext-based.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "L4SSjJD09FnzMJ25J9Lg0T56RjiPonbT7yhQ-tkL8io",
+  "pdfSize": "44183254"
+}

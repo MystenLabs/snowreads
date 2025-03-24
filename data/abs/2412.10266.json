@@ -1,0 +1,37 @@
+{
+  "id": "2412.10266",
+  "title": "Reasoner Outperforms: Generative Stance Detection with Rationalization\n  for Social Media",
+  "authors": "Jiaqing Yuan, Ruijie Xi, Munindar P. Singh",
+  "authorsParsed": [
+    [
+      "Yuan",
+      "Jiaqing",
+      ""
+    ],
+    [
+      "Xi",
+      "Ruijie",
+      ""
+    ],
+    [
+      "Singh",
+      "Munindar P.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 13 Dec 2024 16:34:39 GMT"
+    }
+  ],
+  "updateDate": "2024-12-16",
+  "timestamp": 1734107679000,
+  "abstract": "  Stance detection is crucial for fostering a human-centric Web by analyzing\nuser-generated content to identify biases and harmful narratives that undermine\ntrust. With the development of Large Language Models (LLMs), existing\napproaches treat stance detection as a classification problem, providing robust\nmethodologies for modeling complex group interactions and advancing\ncapabilities in natural language tasks. However, these methods often lack\ninterpretability, limiting their ability to offer transparent and\nunderstandable justifications for predictions. This study adopts a generative\napproach, where stance predictions include explicit, interpretable rationales,\nand integrates them into smaller language models through single-task and\nmultitask learning. We find that incorporating reasoning into stance detection\nenables the smaller model (FlanT5) to outperform GPT-3.5's zero-shot\nperformance, achieving an improvement of up to 9.57%. Moreover, our results\nshow that reasoning capabilities enhance multitask learning performance but may\nreduce effectiveness in single-task settings. Crucially, we demonstrate that\nfaithful rationales improve rationale distillation into SLMs, advancing efforts\nto build interpretable, trustworthy systems for addressing discrimination,\nfostering trust, and promoting equitable engagement on social media.\n",
+  "subjects": [
+    "Computer Science/Computation and Language"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "Ybw5FkZpdPQzDelV-tHab4KqbD6zV2JlNnEmDnlf_zU",
+  "pdfSize": "1168888"
+}

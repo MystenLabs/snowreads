@@ -1,0 +1,39 @@
+{
+  "id": "2412.10191",
+  "title": "Excitable response of a noisy adaptive network of spiking lasers",
+  "authors": "S. Barland, O. D'Huys, and R. Veltz",
+  "authorsParsed": [
+    [
+      "Barland",
+      "S.",
+      ""
+    ],
+    [
+      "D'Huys",
+      "O.",
+      ""
+    ],
+    [
+      "Veltz",
+      "R.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 13 Dec 2024 15:03:04 GMT"
+    }
+  ],
+  "updateDate": "2024-12-16",
+  "timestamp": 1734102184000,
+  "abstract": "  We analyze experimentally and theoretically the response of a network of\nspiking nodes to external perturbations. The experimental system consists of an\narray of semiconductor lasers that are adaptively coupled through an\noptoelectronic feedback signal. This coupling signal can be tuned from one to\nall to globally coupled and makes the network collectively excitable. We relate\nthe excitable response of the network to the existence of a separatrix in phase\nspace and analyze the effect of noise close to this separatrix. We find\nnumerically that larger networks are more robust to uncorrelated noise sources\nin the nodes than small networks, in contrast to the experimental observations.\nWe remove this discrepancy considering the impact of a global noise term in the\nadaptive coupling signal and discuss our observations in relation to the\nnetwork structure.\n",
+  "subjects": [
+    "Nonlinear Sciences/Adaptation and Self-Organizing Systems",
+    "Condensed Matter/Disordered Systems and Neural Networks",
+    "Physics/Optics"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "zYooobJVYHhOqnPnqrQXs_mtl-p3HUYxZQPtlGsLNis",
+  "pdfSize": "14477199"
+}

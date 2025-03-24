@@ -1,0 +1,43 @@
+{
+  "id": "2412.06994",
+  "title": "Phaedrus: Exploring Dynamic Application Behavior with Lightweight\n  Generative Models and Large-Language Models",
+  "authors": "Bodhisatwa Chatterjee, Neeraj Jadhav, Sharjeel Khan and Santosh Pande",
+  "authorsParsed": [
+    [
+      "Chatterjee",
+      "Bodhisatwa",
+      ""
+    ],
+    [
+      "Jadhav",
+      "Neeraj",
+      ""
+    ],
+    [
+      "Khan",
+      "Sharjeel",
+      ""
+    ],
+    [
+      "Pande",
+      "Santosh",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 9 Dec 2024 21:01:45 GMT"
+    }
+  ],
+  "updateDate": "2024-12-11",
+  "timestamp": 1733778105000,
+  "abstract": "  Application profiling is an indispensable technique for many software\ndevelopment tasks, such as code optimization and memory management, where\noptimization decisions are tailored to specific program profiles.\nUnfortunately, modern applications codebases exhibit highly variant behavior\nacross different inputs, creating challenges for conventional profiling\napproaches that rely on a single execution instance. In this paper, we propose\n\\textbf{Phaedrus}, a new \\textit{compiler-assisted deep learning framework}\ndesigned to predict dynamic program behaviors across varied execution\nscenarios, specifically focusing on dynamic function call prediction.\n  Traditional profile-guided optimization methods struggle with the\ninput-dependent variability of modern applications, where profiling on\ndifferent inputs yields divergent application behaviors. To address this,\nPhaedrus proposes two new approaches: \\textit{Application Profile\nGeneralization}, which uses generative models trained on compressed and\naugmented \\textit{Whole Program Path} (WPP) profiles to predict application\nbehavior under unseen inputs, and \\textit{Application Behavior Synthesis}, a\nprofile-less approach where Large Language Models (LLMs) directly infer dynamic\nfunctions based on source code \\& static compiler analysis, bypassing the need\nfor traditional profiling. Our experiments show that \\textit{Phaedrus} can\nachieve upto $10^7X$ reduction in WPP profile sizes, can predict dynamic hot\nfunctions that cover upto 85-99\\% of the execution time, along with an average\nof \\textbf{13.46\\%} (upto \\textbf{65\\%}) reduction in application binary size\nreduction, without profiles.\n",
+  "subjects": [
+    "Computer Science/Software Engineering",
+    "Computer Science/Programming Languages"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "CltpR9Zb1p7goWxh7X3kee4MPZ1fqWaWDR3j31-bga0",
+  "pdfSize": "4742119"
+}

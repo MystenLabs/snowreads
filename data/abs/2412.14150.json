@@ -1,0 +1,66 @@
+{
+  "id": "2412.14150",
+  "title": "ZipGAN: Super-Resolution-based Generative Adversarial Network Framework\n  for Data Compression of Direct Numerical Simulations",
+  "authors": "Ludovico Nista and Christoph D. K. Schumann and Fabian Fr\\\"ode and\n  Mohamed Gowely and Temistocle Grenga and Jonathan F. MacArt and Antonio\n  Attili and Heinz Pitsch",
+  "authorsParsed": [
+    [
+      "Nista",
+      "Ludovico",
+      ""
+    ],
+    [
+      "Schumann",
+      "Christoph D. K.",
+      ""
+    ],
+    [
+      "Fröde",
+      "Fabian",
+      ""
+    ],
+    [
+      "Gowely",
+      "Mohamed",
+      ""
+    ],
+    [
+      "Grenga",
+      "Temistocle",
+      ""
+    ],
+    [
+      "MacArt",
+      "Jonathan F.",
+      ""
+    ],
+    [
+      "Attili",
+      "Antonio",
+      ""
+    ],
+    [
+      "Pitsch",
+      "Heinz",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 18 Dec 2024 18:46:50 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Wed, 15 Jan 2025 15:26:06 GMT"
+    }
+  ],
+  "updateDate": "2025-01-16",
+  "timestamp": 1734547610000,
+  "abstract": "  The advancement of high-performance computing has enabled the generation of\nlarge direct numerical simulation (DNS) datasets of turbulent flows, driving\nthe need for efficient compression/decompression techniques that reduce storage\ndemands while maintaining fidelity. Traditional methods, such as the discrete\nwavelet transform, cannot achieve compression ratios of 8 or higher for complex\nturbulent flows without introducing significant encoding/decoding errors. On\nthe other hand, a super-resolution-based generative adversarial network\n(SR-GAN), called ZipGAN, can accurately reconstruct fine-scale features,\npreserving velocity gradients and structural details, even at a compression\nratio of 512, thanks to the more efficient representation of the data in\ncompact latent space. Additional benefits are ascribed to adversarial training.\nThe high GAN training time is significantly reduced with a progressive transfer\nlearning approach and, once trained, they can be applied independently of the\nReynolds number. It is demonstrated that ZipGAN can enhance dataset temporal\nresolution without additional simulation overhead by generating high-quality\nintermediate fields from compressed snapshots. The ZipGAN discriminator can\nreliably evaluate the quality of decoded fields, ensuring fidelity even in the\nabsence of original DNS fields. Hence, ZipGAN compression/decompression method\npresents a highly efficient and scalable alternative for large-scale DNS\nstorage and transfer, offering substantial advantages over the DWT methods in\nterms of compression efficiency, reconstruction fidelity, and temporal\nresolution enhancement.\n",
+  "subjects": [
+    "Physics/Fluid Dynamics"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "LQ_vEecMMG4zh_hb7PuVGvCPYJDpAR-oTTTOggYDtgI",
+  "pdfSize": "940192"
+}

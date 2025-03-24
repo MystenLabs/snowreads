@@ -1,0 +1,52 @@
+{
+  "id": "2412.12660",
+  "title": "SEG-SAM: Semantic-Guided SAM for Unified Medical Image Segmentation",
+  "authors": "Shuangping Huang, Hao Liang, Qingfeng Wang, Chulong Zhong, Zijian\n  Zhou, Miaojing Shi",
+  "authorsParsed": [
+    [
+      "Huang",
+      "Shuangping",
+      ""
+    ],
+    [
+      "Liang",
+      "Hao",
+      ""
+    ],
+    [
+      "Wang",
+      "Qingfeng",
+      ""
+    ],
+    [
+      "Zhong",
+      "Chulong",
+      ""
+    ],
+    [
+      "Zhou",
+      "Zijian",
+      ""
+    ],
+    [
+      "Shi",
+      "Miaojing",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 17 Dec 2024 08:29:13 GMT"
+    }
+  ],
+  "updateDate": "2024-12-18",
+  "timestamp": 1734424153000,
+  "abstract": "  Recently, developing unified medical image segmentation models gains\nincreasing attention, especially with the advent of the Segment Anything Model\n(SAM). SAM has shown promising binary segmentation performance in natural\ndomains, however, transferring it to the medical domain remains challenging, as\nmedical images often possess substantial inter-category overlaps. To address\nthis, we propose the SEmantic-Guided SAM (SEG-SAM), a unified medical\nsegmentation model that incorporates semantic medical knowledge to enhance\nmedical segmentation performance. First, to avoid the potential conflict\nbetween binary and semantic predictions, we introduce a semantic-aware decoder\nindependent of SAM's original decoder, specialized for both semantic\nsegmentation on the prompted object and classification on unprompted objects in\nimages. To further enhance the model's semantic understanding, we solicit key\ncharacteristics of medical categories from large language models and\nincorporate them into SEG-SAM through a text-to-vision semantic module,\nadaptively transferring the language information into the visual segmentation\ntask. In the end, we introduce the cross-mask spatial alignment strategy to\nencourage greater overlap between the predicted masks from SEG-SAM's two\ndecoders, thereby benefiting both predictions. Extensive experiments\ndemonstrate that SEG-SAM outperforms state-of-the-art SAM-based methods in\nunified binary medical segmentation and task-specific methods in semantic\nmedical segmentation, showcasing promising results and potential for broader\nmedical applications.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by-sa/4.0/",
+  "blobId": "8PhYG-xW3IeRbYn2T_BcY9dE4JcEYUUGjuNMn7rSV9I",
+  "pdfSize": "4117228"
+}

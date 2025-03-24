@@ -1,0 +1,28 @@
+{
+  "id": "2412.16862",
+  "title": "The farthest point map on the 4-cube",
+  "authors": "Yoshikazu Yamagishi",
+  "authorsParsed": [
+    [
+      "Yamagishi",
+      "Yoshikazu",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 22 Dec 2024 05:17:00 GMT"
+    }
+  ],
+  "updateDate": "2024-12-24",
+  "timestamp": 1734844620000,
+  "abstract": "  We study the farthest point mapping on (the boundary of) the 4-cube with\nrespect to the intrinsic metric, and its dynamics as a multivalued mapping. It\nis a piecewise rational map. It is more complicated than the one on the 3-cube,\nbut it is shown that the limit set of the farthest point map on the 4-cube is\nthe union of the diagonals of eight (3-cube) facets, like the farthest point\nmap on the 3-cube whose limit set is the union of the six (square) facets. This\nis in contrast to the doubly covered simplices and (the boundary of) the\nregular 4-simplex, where the limit set is a finite set. If the source point is\nin the interior of a facet, its limit set is also in the facet.\n  The farthest point mapping is closely related to the star unfolding and\nsource unfolding. We give a loose definition of star unfolding of the surface\nof a 4-dimensional polytope.\n  We also study the intrinsic radius and diameter of the 4-cube. It is expected\nthat the intrinsic radius/diameter ratio of an n-cube is monotonically\ndecreasing in dimension.\n",
+  "subjects": [
+    "Mathematics/Metric Geometry",
+    "Mathematics/Dynamical Systems"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "jFceM5ZfnR48VTAOgaN7hweBloF8qlKId8GpIkaLT44",
+  "pdfSize": "562116"
+}

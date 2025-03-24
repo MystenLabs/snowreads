@@ -1,0 +1,62 @@
+{
+  "id": "2412.03795",
+  "title": "Samudra: An AI Global Ocean Emulator for Climate",
+  "authors": "Surya Dheeshjith, Adam Subel, Alistair Adcroft, Julius Busecke, Carlos\n  Fernandez-Granda, Shubham Gupta, Laure Zanna",
+  "authorsParsed": [
+    [
+      "Dheeshjith",
+      "Surya",
+      ""
+    ],
+    [
+      "Subel",
+      "Adam",
+      ""
+    ],
+    [
+      "Adcroft",
+      "Alistair",
+      ""
+    ],
+    [
+      "Busecke",
+      "Julius",
+      ""
+    ],
+    [
+      "Fernandez-Granda",
+      "Carlos",
+      ""
+    ],
+    [
+      "Gupta",
+      "Shubham",
+      ""
+    ],
+    [
+      "Zanna",
+      "Laure",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 5 Dec 2024 01:25:34 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Thu, 19 Dec 2024 15:43:00 GMT"
+    }
+  ],
+  "updateDate": "2024-12-20",
+  "timestamp": 1733361934000,
+  "abstract": "  AI emulators for forecasting have emerged as powerful tools that can\noutperform conventional numerical predictions. The next frontier is to build\nemulators for long climate simulations with skill across a range of\nspatiotemporal scales, a particularly important goal for the ocean. Our work\nbuilds a skillful global emulator of the ocean component of a state-of-the-art\nclimate model. We emulate key ocean variables, sea surface height, horizontal\nvelocities, temperature, and salinity, across their full depth. We use a\nmodified ConvNeXt UNet architecture trained on multidepth levels of ocean data.\nWe show that the ocean emulator - Samudra - which exhibits no drift relative to\nthe truth, can reproduce the depth structure of ocean variables and their\ninterannual variability. Samudra is stable for centuries and 150 times faster\nthan the original ocean model. Samudra struggles to capture the correct\nmagnitude of the forcing trends and simultaneously remains stable, requiring\nfurther work.\n",
+  "subjects": [
+    "Physics/Atmospheric and Oceanic Physics",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "hH_mcPHJ038WprJTulB2NfeuTvNCRqii7pIzYzLCvBY",
+  "pdfSize": "20596408"
+}

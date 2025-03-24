@@ -1,0 +1,40 @@
+{
+  "id": "2412.04560",
+  "title": "The SYK charging advantage as a random walk on graphs",
+  "authors": "Francisco Divi, Jeff Murugan, Dario Rosa",
+  "authorsParsed": [
+    [
+      "Divi",
+      "Francisco",
+      ""
+    ],
+    [
+      "Murugan",
+      "Jeff",
+      ""
+    ],
+    [
+      "Rosa",
+      "Dario",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 5 Dec 2024 19:03:11 GMT"
+    }
+  ],
+  "updateDate": "2024-12-09",
+  "timestamp": 1733425391000,
+  "abstract": "  We investigate the charging dynamics of Sachdev-Ye-Kitaev (SYK) models as\nquantum batteries, highlighting their capacity to achieve quantum charging\nadvantages. By analytically deriving the scaling of the charging power in SYK\nbatteries, we identify the two key mechanisms underlying this advantage: the\nuse of operators scaling extensively with system size $N$ and the facilitation\nof operator delocalization by specific graph structures. A novel\ngraph-theoretic framework is introduced in which the charging process is recast\nas a random walk on a graph, enabling a quantitative analysis of operator\nspreading. Our results establish rigorous conditions for the quantum advantage\nin SYK batteries and extend these insights to graph-based SYK models, revealing\nbroader implications for energy storage and quantum dynamics. This work opens\navenues for leveraging quantum chaos and complex network structures in\noptimizing energy transfer processes.\n",
+  "subjects": [
+    "Physics/Quantum Physics",
+    "Condensed Matter/Mesoscale and Nanoscale Physics",
+    "Condensed Matter/Statistical Mechanics",
+    "Physics/High Energy Physics - Theory"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "pCN__zHUQssvAhDUyagTWDIc_x3kfNMVgveMw1uCrAc",
+  "pdfSize": "621621"
+}

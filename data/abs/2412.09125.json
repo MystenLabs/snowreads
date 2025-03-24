@@ -1,0 +1,34 @@
+{
+  "id": "2412.09125",
+  "title": "Goal-Driven Query Answering over First- and Second-Order Dependencies\n  with Equality",
+  "authors": "Efthymia Tsamoura and Boris Motik",
+  "authorsParsed": [
+    [
+      "Tsamoura",
+      "Efthymia",
+      ""
+    ],
+    [
+      "Motik",
+      "Boris",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 12 Dec 2024 10:02:16 GMT"
+    }
+  ],
+  "updateDate": "2024-12-13",
+  "timestamp": 1733997736000,
+  "abstract": "  Query answering over data with dependencies plays a central role in most\napplications of dependencies. The problem is commonly solved by using a\nsuitable variant of the chase algorithm to compute a universal model of the\ndependencies and the data and thus explicate all knowledge implicit in the\ndependencies. After this preprocessing step, an arbitrary conjunctive query\nover the dependencies and the data can be answered by evaluating it the\ncomputed universal model. If, however, the query to be answered is fixed and\nknown in advance, computing the universal model is often inefficient as many\ninferences made during this process can be irrelevant to a given query. In such\ncases, a goal-driven approach, which avoids drawing unnecessary inferences,\npromises to be more efficient and thus preferable in practice.\n  In this paper we present what we believe to be the first technique for\ngoal-driven query answering over first- and second-order dependencies with\nequality reasoning. Our technique transforms the input dependencies so that\napplying the chase to the output avoids many inferences that are irrelevant to\nthe query. The transformation proceeds in several steps, which comprise the\nfollowing three novel techniques. First, we present a variant of the\nsingularisation technique by Marnette [60] that is applicable to second-order\ndependencies and that corrects an incompleteness of a related formulation by\nten Cate et al. [74]. Second, we present a relevance analysis technique that\ncan eliminate from the input dependencies that provably do not contribute to\nquery answers. Third, we present a variant of the magic sets algorithm [19]\nthat can handle second-order dependencies with equality reasoning. We also\npresent the results of an extensive empirical evaluation, which show that\ngoal-driven query answering can be orders of magnitude faster than computing\nthe full universal model.\n",
+  "subjects": [
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Databases",
+    "Computer Science/Logic in Computer Science"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "kfnIRPixXhtYMUqCsxSRcx1Y8jwDV2SvS3YeytqCBX0",
+  "pdfSize": "882148"
+}

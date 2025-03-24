@@ -1,0 +1,51 @@
+{
+  "id": "2412.16597",
+  "title": "LLMs Enable Context-Aware Augmented Reality in Surgical Navigation",
+  "authors": "Hamraz Javaheri, Omid Ghamarnejad, Paul Lukowicz, Gregor Alexander\n  Stavrou, and Jakob Karolus",
+  "authorsParsed": [
+    [
+      "Javaheri",
+      "Hamraz",
+      ""
+    ],
+    [
+      "Ghamarnejad",
+      "Omid",
+      ""
+    ],
+    [
+      "Lukowicz",
+      "Paul",
+      ""
+    ],
+    [
+      "Stavrou",
+      "Gregor Alexander",
+      ""
+    ],
+    [
+      "Karolus",
+      "Jakob",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 21 Dec 2024 12:03:31 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Tue, 24 Dec 2024 08:14:36 GMT"
+    }
+  ],
+  "updateDate": "2024-12-25",
+  "timestamp": 1734782611000,
+  "abstract": "  Wearable Augmented Reality (AR) technologies are gaining recognition for\ntheir potential to transform surgical navigation systems. As these technologies\nevolve, selecting the right interaction method to control the system becomes\ncrucial. Our work introduces a voice-controlled user interface (VCUI) for\nsurgical AR assistance systems (ARAS), designed for pancreatic surgery, that\nintegrates Large Language Models (LLMs). Employing a mixed-method research\napproach, we assessed the usability of our LLM-based design in both simulated\nsurgical tasks and during pancreatic surgeries, comparing its performance\nagainst conventional VCUI for surgical ARAS using speech commands. Our findings\ndemonstrated the usability of our proposed LLM-based VCUI, yielding a\nsignificantly lower task completion time and cognitive workload compared to\nspeech commands. Additionally, qualitative insights from interviews with\nsurgeons aligned with the quantitative data, revealing a strong preference for\nthe LLM-based VCUI. Surgeons emphasized its intuitiveness and highlighted the\npotential of LLM-based VCUI in expediting decision-making in surgical\nenvironments.\n",
+  "subjects": [
+    "Computer Science/Human-Computer Interaction"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "nznUrEztT6AWW1NaaE-jE3qZmkF3zb-neIswI5FZp1k",
+  "pdfSize": "12469777"
+}

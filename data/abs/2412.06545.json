@@ -1,0 +1,46 @@
+{
+  "id": "2412.06545",
+  "title": "On How Iterative Magnitude Pruning Discovers Local Receptive Fields in\n  Fully Connected Neural Networks",
+  "authors": "William T. Redman, Zhangyang Wang, Alessandro Ingrosso, Sebastian\n  Goldt",
+  "authorsParsed": [
+    [
+      "Redman",
+      "William T.",
+      ""
+    ],
+    [
+      "Wang",
+      "Zhangyang",
+      ""
+    ],
+    [
+      "Ingrosso",
+      "Alessandro",
+      ""
+    ],
+    [
+      "Goldt",
+      "Sebastian",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 9 Dec 2024 14:56:23 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Wed, 26 Feb 2025 16:09:31 GMT"
+    }
+  ],
+  "updateDate": "2025-02-27",
+  "timestamp": 1733756183000,
+  "abstract": "  Since its use in the Lottery Ticket Hypothesis, iterative magnitude pruning\n(IMP) has become a popular method for extracting sparse subnetworks that can be\ntrained to high performance. Despite this, the underlying nature of IMP's\ngeneral success remains unclear. One possibility is that IMP is especially\ncapable of extracting and maintaining strong inductive biases. In support of\nthis, recent work has shown that applying IMP to fully connected neural\nnetworks (FCNs) leads to the emergence of local receptive fields (RFs), an\narchitectural feature present in mammalian visual cortex and convolutional\nneural networks. The question of how IMP is able to do this remains unanswered.\nInspired by results showing that training FCNs on synthetic images with highly\nnon-Gaussian statistics (e.g., sharp edges) is sufficient to drive the\nformation of local RFs, we hypothesize that IMP iteratively increases the\nnon-Gaussian statistics present in the representations of FCNs, creating a\nfeedback loop that enhances localization. We develop a new method for measuring\nthe effect of individual weights on the statistics of the FCN representations\n(\"cavity method\"), which allows us to find evidence in support of this\nhypothesis. Our work, which is the first to study the effect IMP has on the\nstatistics of the representations of neural networks, sheds parsimonious light\non one way in which IMP can drive the formation of strong inductive biases.\n",
+  "subjects": [
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "TRImyLOFyoC-ABmb5S72b8CYXt-GuseloA-s8o5Cf-g",
+  "pdfSize": "9408532"
+}

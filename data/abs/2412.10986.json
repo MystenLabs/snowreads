@@ -1,0 +1,37 @@
+{
+  "id": "2412.10986",
+  "title": "On Scalable Design for User-Centric Multi-Modal Shared E-Mobility\n  Systems using MILP and Modified Dijkstra's Algorithm",
+  "authors": "Maqsood Hussain Shah, Ji Li and Mingming Liu",
+  "authorsParsed": [
+    [
+      "Shah",
+      "Maqsood Hussain",
+      ""
+    ],
+    [
+      "Li",
+      "Ji",
+      ""
+    ],
+    [
+      "Liu",
+      "Mingming",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 14 Dec 2024 22:33:23 GMT"
+    }
+  ],
+  "updateDate": "2024-12-17",
+  "timestamp": 1734215603000,
+  "abstract": "  In the rapidly evolving landscape of urban transportation, shared e-mobility\nservices have emerged as a sustainable solution to meet growing demand for\nflexible, eco-friendly travel. However, the existing literature lacks a\ncomprehensive multi-modal optimization framework with focus on user preferences\nand real-world constraints. This paper presents a multi-modal optimization\nframework for shared e-mobility, with a particular focus on e-mobility hubs\n(e-hubs) with micromobility. We propose and evaluate two approaches: a\nmixed-integer linear programming (MILP) solution, complemented by a heuristic\ngraph reduction technique to manage computational complexity in scenarios with\nlimited e-hubs, achieving a computational advantage of 93%, 72%, and 47% for\n20, 50, and 100 e-hubs, respectively. Additionally, the modified Dijkstra's\nalgorithm offers a more scalable, real-time alternative for larger e-hub\nnetworks, with median execution times consistently around 53 ms, regardless of\nthe number of e-hubs. Thorough experimental evaluation on real-world map and\nsimulated traffic data of Dublin City Centre reveals that both methods\nseamlessly adapt to practical considerations and constraints such as\nmulti-modality, user-preferences and state of charge for different e-mobility\ntools. While MILP offers greater flexibility for incorporating additional\nobjectives and constraints, the modified Dijkstra's algorithm is better suited\nfor large-scale, real-time applications due to its computational efficiency.\n",
+  "subjects": [
+    "Computer Science/Computational Engineering, Finance, and Science"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "EqZBt_7Cpxokssq6scX8fOiyWrLchQ41UzdAbbHFpLU",
+  "pdfSize": "2014747"
+}

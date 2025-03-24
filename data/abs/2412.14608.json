@@ -1,0 +1,28 @@
+{
+  "id": "2412.14608",
+  "title": "Reachability in Vector Addition System with States Parameterized by\n  Geometric Dimension",
+  "authors": "Yangluo Zheng",
+  "authorsParsed": [
+    [
+      "Zheng",
+      "Yangluo",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 19 Dec 2024 07:58:22 GMT"
+    }
+  ],
+  "updateDate": "2024-12-20",
+  "timestamp": 1734595102000,
+  "abstract": "  The geometric dimension of a Vector Addition System with States (VASS),\nemerged in Leroux and Schmitz (2019) and formalized by Fu, Yang, and Zheng\n(2024), quantifies the dimension of the vector space spanned by cycle effects\nin the system. This paper explores the VASS reachability problem through the\nlens of geometric dimension, revealing key differences from the traditional\ndimensional parameterization. Notably, we establish that the reachability\nproblem for both geometrically 1-dimensional and 2-dimensional VASS is\nPSPACE-complete, achieved by extending the pumping technique originally\nproposed by Czerwi\\'nski et al. (2019).\n",
+  "subjects": [
+    "Computer Science/Formal Languages and Automata Theory",
+    "Computer Science/Logic in Computer Science"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "jHPO2f23P46ojqv2olR0BnXwCAbJGal38EexPnj_ADc",
+  "pdfSize": "985745"
+}

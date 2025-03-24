@@ -1,0 +1,37 @@
+{
+  "id": "2412.07247",
+  "title": "Driving with InternVL: Oustanding Champion in the Track on Driving with\n  Language of the Autonomous Grand Challenge at CVPR 2024",
+  "authors": "Jiahan Li, Zhiqi Li, Tong Lu",
+  "authorsParsed": [
+    [
+      "Li",
+      "Jiahan",
+      ""
+    ],
+    [
+      "Li",
+      "Zhiqi",
+      ""
+    ],
+    [
+      "Lu",
+      "Tong",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 10 Dec 2024 07:13:39 GMT"
+    }
+  ],
+  "updateDate": "2024-12-11",
+  "timestamp": 1733814819000,
+  "abstract": "  This technical report describes the methods we employed for the Driving with\nLanguage track of the CVPR 2024 Autonomous Grand Challenge. We utilized a\npowerful open-source multimodal model, InternVL-1.5, and conducted a\nfull-parameter fine-tuning on the competition dataset, DriveLM-nuScenes. To\neffectively handle the multi-view images of nuScenes and seamlessly inherit\nInternVL's outstanding multimodal understanding capabilities, we formatted and\nconcatenated the multi-view images in a specific manner. This ensured that the\nfinal model could meet the specific requirements of the competition task while\nleveraging InternVL's powerful image understanding capabilities. Meanwhile, we\ndesigned a simple automatic annotation strategy that converts the center points\nof objects in DriveLM-nuScenes into corresponding bounding boxes. As a result,\nour single model achieved a score of 0.6002 on the final leadboard.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "pSJgM66n4sHs9p83kswk0HKP9v7__Kqv7wUnbgXc_58",
+  "pdfSize": "1226380"
+}

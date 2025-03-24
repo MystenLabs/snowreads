@@ -1,0 +1,33 @@
+{
+  "id": "2412.18188",
+  "title": "On the Applicability of Zero-Shot Cross-Lingual Transfer Learning for\n  Sentiment Classification in Distant Language Pairs",
+  "authors": "Andre Rusli, Makoto Shishido",
+  "authorsParsed": [
+    [
+      "Rusli",
+      "Andre",
+      ""
+    ],
+    [
+      "Shishido",
+      "Makoto",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 24 Dec 2024 05:50:18 GMT"
+    }
+  ],
+  "updateDate": "2024-12-25",
+  "timestamp": 1735019418000,
+  "abstract": "  This research explores the applicability of cross-lingual transfer learning\nfrom English to Japanese and Indonesian using the XLM-R pre-trained model. The\nresults are compared with several previous works, either by models using a\nsimilar zero-shot approach or a fully-supervised approach, to provide an\noverview of the zero-shot transfer learning approach's capability using XLM-R\nin comparison with existing models. Our models achieve the best result in one\nJapanese dataset and comparable results in other datasets in Japanese and\nIndonesian languages without being trained using the target language.\nFurthermore, the results suggest that it is possible to train a multi-lingual\nmodel, instead of one model for each language, and achieve promising results.\n",
+  "subjects": [
+    "Computer Science/Computation and Language",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "0ew54_KI6oxLcYKsSH7_79l7Tp2mBIh6C1kyQFeLHII",
+  "pdfSize": "183282"
+}

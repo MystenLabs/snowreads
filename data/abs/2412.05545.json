@@ -1,0 +1,47 @@
+{
+  "id": "2412.05545",
+  "title": "Convergence analysis of wide shallow neural operators within the\n  framework of Neural Tangent Kernel",
+  "authors": "Xianliang Xu, Ye Li and Zhongyi Huang",
+  "authorsParsed": [
+    [
+      "Xu",
+      "Xianliang",
+      ""
+    ],
+    [
+      "Li",
+      "Ye",
+      ""
+    ],
+    [
+      "Huang",
+      "Zhongyi",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 7 Dec 2024 05:47:28 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Fri, 27 Dec 2024 11:57:40 GMT"
+    },
+    {
+      "version": "v3",
+      "created": "Fri, 10 Jan 2025 14:51:06 GMT"
+    }
+  ],
+  "updateDate": "2025-01-13",
+  "timestamp": 1733550448000,
+  "abstract": "  Neural operators are aiming at approximating operators mapping between Banach\nspaces of functions, achieving much success in the field of scientific\ncomputing. Compared to certain deep learning-based solvers, such as\nPhysics-Informed Neural Networks (PINNs), Deep Ritz Method (DRM), neural\noperators can solve a class of Partial Differential Equations (PDEs). Although\nmuch work has been done to analyze the approximation and generalization error\nof neural operators, there is still a lack of analysis on their training error.\nIn this work, we conduct the convergence analysis of gradient descent for the\nwide shallow neural operators and physics-informed shallow neural operators\nwithin the framework of Neural Tangent Kernel (NTK). The core idea lies on the\nfact that over-parameterization and random initialization together ensure that\neach weight vector remains near its initialization throughout all iterations,\nyielding the linear convergence of gradient descent. In this work, we\ndemonstrate that under the setting of over-parametrization, gradient descent\ncan find the global minimum regardless of whether it is in continuous time or\ndiscrete time.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Computer Science/Data Structures and Algorithms",
+    "Mathematics/Optimization and Control"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "BDW2xo7xFFEpsrD8li0NTCJjcgX2pducxHh0uxW0ZDc",
+  "pdfSize": "439060"
+}

@@ -1,0 +1,39 @@
+{
+  "id": "2412.13358",
+  "title": "Stable Approximation Algorithms for Dominating Set and Independent Set",
+  "authors": "Mark de Berg, Arpan Sadhukhan and Frits Spieksma",
+  "authorsParsed": [
+    [
+      "de Berg",
+      "Mark",
+      ""
+    ],
+    [
+      "Sadhukhan",
+      "Arpan",
+      ""
+    ],
+    [
+      "Spieksma",
+      "Frits",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 17 Dec 2024 22:14:12 GMT"
+    }
+  ],
+  "updateDate": "2024-12-19",
+  "timestamp": 1734473652000,
+  "abstract": "  We study the Dominating set problem and Independent Set Problem for dynamic\ngraphs in the vertex-arrival model. We say that a dynamic algorithm for one of\nthese problems is $k$-stable when it makes at most $k$ changes to its output\nindependent set or dominating set upon the arrival of each vertex. We study\ntrade-offs between the stability parameter $k$ of the algorithm and the\napproximation ratio it achieves. We obtain the following results. 1. We show\nthat there is a constant $\\varepsilon^*>0$ such that any dynamic\n$(1+\\varepsilon^*)$-approximation algorithm the for Dominating set problem has\nstability parameter $\\Omega(n)$, even for bipartite graphs of maximum degree 4.\n2. We present algorithms with very small stability parameters for the\nDominating set problem in the setting where the arrival degree of each vertex\nis upper bounded by $d$. In particular, we give a $1$-stable\n$(d+1)^2$-approximation algorithm, a $3$-stable $(9d/2)$-approximation\nalgorithm, and an $O(d)$-stable $O(1)$-approximation algorithm. 3. We show that\nthere is a constant $\\varepsilon^*>0$ such that any dynamic\n$(1+\\varepsilon^*)$-approximation algorithm for the Independent Set Problem has\nstability parameter $\\Omega(n)$, even for bipartite graphs of maximum degree\n$3$. 4. Finally, we present a $2$-stable $O(d)$-approximation algorithm for the\nIndependent Set Problem, in the setting where the average degree of the graph\nis upper bounded by some constant $d$ at all times. We extend this latter\nalgorithm to the fully dynamic model where vertices can also be deleted,\nachieving a $6$-stable $O(d)$-approximation algorithm.\n",
+  "subjects": [
+    "Computer Science/Data Structures and Algorithms",
+    "Computer Science/Discrete Mathematics",
+    "Mathematics/Combinatorics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "AwvbHTCFzO_13ZTxoocZdIJZyFkX9UXcOwBZsVMHPA4",
+  "pdfSize": "713248"
+}

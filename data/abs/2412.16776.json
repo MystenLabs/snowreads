@@ -1,0 +1,64 @@
+{
+  "id": "2412.16776",
+  "title": "DMesh++: An Efficient Differentiable Mesh for Complex Shapes",
+  "authors": "Sanghyun Son, Matheus Gadelha, Yang Zhou, Matthew Fisher, Zexiang Xu,\n  Yi-Ling Qiao, Ming C. Lin, Yi Zhou",
+  "authorsParsed": [
+    [
+      "Son",
+      "Sanghyun",
+      ""
+    ],
+    [
+      "Gadelha",
+      "Matheus",
+      ""
+    ],
+    [
+      "Zhou",
+      "Yang",
+      ""
+    ],
+    [
+      "Fisher",
+      "Matthew",
+      ""
+    ],
+    [
+      "Xu",
+      "Zexiang",
+      ""
+    ],
+    [
+      "Qiao",
+      "Yi-Ling",
+      ""
+    ],
+    [
+      "Lin",
+      "Ming C.",
+      ""
+    ],
+    [
+      "Zhou",
+      "Yi",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 21 Dec 2024 21:16:03 GMT"
+    }
+  ],
+  "updateDate": "2024-12-24",
+  "timestamp": 1734815763000,
+  "abstract": "  Recent probabilistic methods for 3D triangular meshes capture diverse shapes\nby differentiable mesh connectivity, but face high computational costs with\nincreased shape details. We introduce a new differentiable mesh processing\nmethod in 2D and 3D that addresses this challenge and efficiently handles\nmeshes with intricate structures. Additionally, we present an algorithm that\nadapts the mesh resolution to local geometry in 2D for efficient\nrepresentation. We demonstrate the effectiveness of our approach on 2D point\ncloud and 3D multi-view reconstruction tasks. Visit our project page\n(https://sonsang.github.io/dmesh2-project) for source code and supplementary\nmaterial.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Graphics",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "PcnP804iQGRLjMMAMfoihlIr-uLvu7ehBHC5bla67Wk",
+  "pdfSize": "17384475"
+}

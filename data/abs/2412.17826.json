@@ -1,0 +1,42 @@
+{
+  "id": "2412.17826",
+  "title": "A Survey on Machine and Deep Learning for Optical Communications",
+  "authors": "M. A. Amirabadi, S. A. Nezamalhosseini, M. H. Kahaei, and Lawrence R.\n  Chen",
+  "authorsParsed": [
+    [
+      "Amirabadi",
+      "M. A.",
+      ""
+    ],
+    [
+      "Nezamalhosseini",
+      "S. A.",
+      ""
+    ],
+    [
+      "Kahaei",
+      "M. H.",
+      ""
+    ],
+    [
+      "Chen",
+      "Lawrence R.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 10 Dec 2024 07:13:19 GMT"
+    }
+  ],
+  "updateDate": "2024-12-25",
+  "timestamp": 1733814799000,
+  "abstract": "  The ever-growing complexity of optical communication systems and networks\ndemands sophisticated methodologies to extract meaningful insights from vast\namounts of heterogeneous data. Machine learning (ML) and deep learning (DL)\nhave emerged as frontrunners in this domain, offering a transformative approach\nto data analysis and enabling automated self-configuration in optical\ncommunication systems. The adoption of ML and DL in optical communication is\ndriven by the exponential increase in system and link complexity, stemming from\nthe introduction of numerous adjustable and interdependent parameters. This is\nparticularly evident in areas like coherent transceivers, advanced digital\nsignal processing, optical performance monitoring, cross-layer network\noptimizations, and nonlinearity compensation. While the potential benefits of\nML and DL are immense, the extent to which these methods can revolutionize\noptical communication remains largely unexplored. Additionally, many ML and DL\nalgorithms have yet to be deployed in this field, highlighting the nascent\nnature of this research area.\n",
+  "subjects": [
+    "Electrical Engineering and Systems Science/Signal Processing"
+  ],
+  "license": "http://creativecommons.org/licenses/by-sa/4.0/",
+  "blobId": "NMD4b-1m0d56_9mbzAn-hVIFkM4QMGKIotYUcn12RsQ",
+  "pdfSize": "1133517"
+}

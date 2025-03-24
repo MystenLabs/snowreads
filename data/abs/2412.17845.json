@@ -1,0 +1,48 @@
+{
+  "id": "2412.17845",
+  "title": "Polymer/paper-based double touch mode capacitive pressure sensing\n  element for wireless control of robotic arm",
+  "authors": "Rishabh B. Mishra, Wedyan Babatain, Nazek El-Atab, Aftab M. Hussain,\n  Muhammad M. Hussain",
+  "authorsParsed": [
+    [
+      "Mishra",
+      "Rishabh B.",
+      ""
+    ],
+    [
+      "Babatain",
+      "Wedyan",
+      ""
+    ],
+    [
+      "El-Atab",
+      "Nazek",
+      ""
+    ],
+    [
+      "Hussain",
+      "Aftab M.",
+      ""
+    ],
+    [
+      "Hussain",
+      "Muhammad M.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 18 Dec 2024 17:01:00 GMT"
+    }
+  ],
+  "updateDate": "2024-12-25",
+  "timestamp": 1734541260000,
+  "abstract": "  In this work, a large area, low cost and flexible polymer/paper-based double\ntouch mode capacitive pressure sensor is demonstrated. Garage fabrication\nprocesses are used which only require cutting, taping and assembly of aluminum\n(Al) coated polyimide (PI) foil, PI tape and double-sided scotch tape. The\npresented pressure sensor operates in different pressure regions i.e. normal (0\nto 7.5 kPa), transition (7.5 to 14.24 kPa), linear (14.24 to 54.9 kPa) and\nsaturation (above 54.9 kPa). The advantages of the demonstrated double touch\nmode capacitive pressure sensors are low temperature drift, long linear range,\nhigh pressure sensitivity, precise pressure measurement and large die area. The\nlinear output along with a high sensitivity range (14.24 to 54.9 kPa pressure\nrange) of the sensor are utilized to wirelessly control the movement of a\nrobotic arm with precise rotation and tilt movement capabilities.\n",
+  "subjects": [
+    "Electrical Engineering and Systems Science/Signal Processing",
+    "Computer Science/Robotics"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "6_uv_rtlALGINALx1VIbyRXwkwnT7NZ2aD01XVnW9Y0",
+  "pdfSize": "1401032"
+}

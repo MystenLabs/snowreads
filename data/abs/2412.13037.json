@@ -1,0 +1,63 @@
+{
+  "id": "2412.13037",
+  "title": "TAME: Temporal Audio-based Mamba for Enhanced Drone Trajectory\n  Estimation and Classification",
+  "authors": "Zhenyuan Xiao, Huanran Hu, Guili Xu, Junwei He",
+  "authorsParsed": [
+    [
+      "Xiao",
+      "Zhenyuan",
+      ""
+    ],
+    [
+      "Hu",
+      "Huanran",
+      ""
+    ],
+    [
+      "Xu",
+      "Guili",
+      ""
+    ],
+    [
+      "He",
+      "Junwei",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 17 Dec 2024 16:00:31 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Wed, 18 Dec 2024 05:45:12 GMT"
+    },
+    {
+      "version": "v3",
+      "created": "Sun, 22 Dec 2024 07:10:23 GMT"
+    },
+    {
+      "version": "v4",
+      "created": "Tue, 24 Dec 2024 10:50:27 GMT"
+    },
+    {
+      "version": "v5",
+      "created": "Wed, 1 Jan 2025 16:34:06 GMT"
+    },
+    {
+      "version": "v6",
+      "created": "Sun, 19 Jan 2025 15:33:33 GMT"
+    }
+  ],
+  "updateDate": "2025-01-22",
+  "timestamp": 1734451231000,
+  "abstract": "  The increasing prevalence of compact UAVs has introduced significant risks to\npublic safety, while traditional drone detection systems are often bulky and\ncostly. To address these challenges, we present TAME, the Temporal Audio-based\nMamba for Enhanced Drone Trajectory Estimation and Classification. This\ninnovative anti-UAV detection model leverages a parallel selective state-space\nmodel to simultaneously capture and learn both the temporal and spectral\nfeatures of audio, effectively analyzing propagation of sound. To further\nenhance temporal features, we introduce a Temporal Feature Enhancement Module,\nwhich integrates spectral features into temporal data using residual\ncross-attention. This enhanced temporal information is then employed for\nprecise 3D trajectory estimation and classification. Our model sets a new\nstandard of performance on the MMUAD benchmarks, demonstrating superior\naccuracy and effectiveness. The code and trained models are publicly available\non GitHub \\url{https://github.com/AmazingDay1/TAME}.\n",
+  "subjects": [
+    "Computer Science/Sound",
+    "Electrical Engineering and Systems Science/Audio and Speech Processing"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "ppoKGbTQnfQfDwVdvfZ8H8SKNElxF7LFMNZiWLoEogs",
+  "pdfSize": "2147942"
+}

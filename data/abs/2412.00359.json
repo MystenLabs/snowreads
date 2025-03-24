@@ -1,0 +1,37 @@
+{
+  "id": "2412.00359",
+  "title": "Does Self-Attention Need Separate Weights in Transformers?",
+  "authors": "Md Kowsher, Nusrat Jahan Prottasha, Chun-Nam Yu",
+  "authorsParsed": [
+    [
+      "Kowsher",
+      "Md",
+      ""
+    ],
+    [
+      "Prottasha",
+      "Nusrat Jahan",
+      ""
+    ],
+    [
+      "Yu",
+      "Chun-Nam",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 30 Nov 2024 04:46:20 GMT"
+    }
+  ],
+  "updateDate": "2024-12-03",
+  "timestamp": 1732941980000,
+  "abstract": "  The success of self-attention lies in its ability to capture long-range\ndependencies and enhance context understanding, but it is limited by its\ncomputational complexity and challenges in handling sequential data with\ninherent directionality. This work introduces a shared weight\nself-attention-based BERT model that only learns one weight matrix for (Key,\nValue, and Query) representations instead of three individual matrices for each\nof them. Our shared weight attention reduces the training parameter size by\nmore than half and training time by around one-tenth. Furthermore, we\ndemonstrate higher prediction accuracy on small tasks of GLUE over the BERT\nbaseline and in particular a generalization power on noisy and out-of-domain\ndata. Experimental results indicate that our shared self-attention method\nachieves a parameter size reduction of 66.53% in the attention block. In the\nGLUE dataset, the shared weight self-attention-based BERT model demonstrates\naccuracy improvements of 0.38%, 5.81%, and 1.06% over the standard, symmetric,\nand pairwise attention-based BERT models, respectively. The model and source\ncode are available at Anonymous.\n",
+  "subjects": [
+    "Computer Science/Computation and Language"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "iwQBAIPIJ_TVOGvwReiJjV8xqnLnQaoGkUTPAyO97dM",
+  "pdfSize": "1053315"
+}

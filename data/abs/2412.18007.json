@@ -1,0 +1,42 @@
+{
+  "id": "2412.18007",
+  "title": "Entropy Density Benchmarking of Near-Term Quantum Circuits",
+  "authors": "Marine Demarty, James Mills, Kenza Hammam and Raul Garcia-Patron",
+  "authorsParsed": [
+    [
+      "Demarty",
+      "Marine",
+      ""
+    ],
+    [
+      "Mills",
+      "James",
+      ""
+    ],
+    [
+      "Hammam",
+      "Kenza",
+      ""
+    ],
+    [
+      "Garcia-Patron",
+      "Raul",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 23 Dec 2024 22:01:09 GMT"
+    }
+  ],
+  "updateDate": "2024-12-25",
+  "timestamp": 1734991269000,
+  "abstract": "  Understanding the limitations imposed by noise on current and next-generation\nquantum devices is a crucial step towards demonstrations of quantum advantage\nwith practical applications. In this work, we investigate the accumulation of\nentropy density as a benchmark to monitor the performance of quantum processing\nunits. A combination of analytical methods, numerical simulations, and\nexperiments on programmable superconducting quantum circuits is used to build a\nsimple yet practical heuristic model of entropy accumulation based on global\ndepolarising noise. This demonstrates the potential of such an approach to\nconstruct effective heuristic models. The monitoring of entropy density not\nonly offers a novel and complementary approach to existing circuit-level\nbenchmarking techniques, but more importantly, it provides a much needed bridge\nbetween circuit-level and application-level benchmarking protocols. In\nparticular, our heuristic model of entropy accumulation allows us to improve\nover existing techniques to bound the circuit size threshold beyond which\nquantum advantage is unattainable.\n",
+  "subjects": [
+    "Physics/Quantum Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "4CyCHvyemgKyJMp_O7BJzrIfIVzRNGunmXplgydSjkQ",
+  "pdfSize": "962162"
+}

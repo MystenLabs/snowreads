@@ -1,0 +1,42 @@
+{
+  "id": "2412.18052",
+  "title": "Beyond Gradient Averaging in Parallel Optimization: Improved Robustness\n  through Gradient Agreement Filtering",
+  "authors": "Francois Chaubard, Duncan Eddy, Mykel J. Kochenderfer",
+  "authorsParsed": [
+    [
+      "Chaubard",
+      "Francois",
+      ""
+    ],
+    [
+      "Eddy",
+      "Duncan",
+      ""
+    ],
+    [
+      "Kochenderfer",
+      "Mykel J.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 24 Dec 2024 00:00:11 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Sun, 29 Dec 2024 11:44:55 GMT"
+    }
+  ],
+  "updateDate": "2024-12-31",
+  "timestamp": 1734998411000,
+  "abstract": "  We introduce Gradient Agreement Filtering (GAF) to improve on gradient\naveraging in distributed deep learning optimization. Traditional distributed\ndata-parallel stochastic gradient descent involves averaging gradients of\nmicrobatches to calculate a macrobatch gradient that is then used to update\nmodel parameters. We find that gradients across microbatches are often\northogonal or negatively correlated, especially in late stages of training,\nwhich leads to memorization of the training set, reducing generalization. In\nthis paper, we introduce a simple, computationally effective way to reduce\ngradient variance by computing the cosine distance between micro-gradients\nduring training and filtering out conflicting updates prior to averaging. We\nimprove validation accuracy with significantly smaller microbatch sizes. We\nalso show this reduces memorizing noisy labels. We demonstrate the\neffectiveness of this technique on standard image classification benchmarks\nincluding CIFAR-100 and CIFAR-100N-Fine. We show this technique consistently\noutperforms validation accuracy, in some cases by up to 18.2\\% compared to\ntraditional training approaches while reducing the computation required nearly\nan order of magnitude because we can now rely on smaller microbatch sizes\nwithout destabilizing training.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "GY3iQXQubQtqRCvZwDzEGH8Z01bDJ_IA1FAj0BViT-k",
+  "pdfSize": "600680"
+}

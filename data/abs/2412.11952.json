@@ -1,0 +1,59 @@
+{
+  "id": "2412.11952",
+  "title": "Advancing Comprehensive Aesthetic Insight with Multi-Scale Text-Guided\n  Self-Supervised Learning",
+  "authors": "Yuti Liu, Shice Liu, Junyuan Gao, Pengtao Jiang, Hao Zhang, Jinwei\n  Chen, Bo Li",
+  "authorsParsed": [
+    [
+      "Liu",
+      "Yuti",
+      ""
+    ],
+    [
+      "Liu",
+      "Shice",
+      ""
+    ],
+    [
+      "Gao",
+      "Junyuan",
+      ""
+    ],
+    [
+      "Jiang",
+      "Pengtao",
+      ""
+    ],
+    [
+      "Zhang",
+      "Hao",
+      ""
+    ],
+    [
+      "Chen",
+      "Jinwei",
+      ""
+    ],
+    [
+      "Li",
+      "Bo",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 16 Dec 2024 16:35:35 GMT"
+    }
+  ],
+  "updateDate": "2024-12-17",
+  "timestamp": 1734366935000,
+  "abstract": "  Image Aesthetic Assessment (IAA) is a vital and intricate task that entails\nanalyzing and assessing an image's aesthetic values, and identifying its\nhighlights and areas for improvement. Traditional methods of IAA often\nconcentrate on a single aesthetic task and suffer from inadequate labeled\ndatasets, thus impairing in-depth aesthetic comprehension. Despite efforts to\novercome this challenge through the application of Multi-modal Large Language\nModels (MLLMs), such models remain underdeveloped for IAA purposes. To address\nthis, we propose a comprehensive aesthetic MLLM capable of nuanced aesthetic\ninsight. Central to our approach is an innovative multi-scale text-guided\nself-supervised learning technique. This technique features a multi-scale\nfeature alignment module and capitalizes on a wealth of unlabeled data in a\nself-supervised manner to structurally and functionally enhance aesthetic\nability. The empirical evidence indicates that accompanied with extensive\ninstruct-tuning, our model sets new state-of-the-art benchmarks across multiple\ntasks, including aesthetic scoring, aesthetic commenting, and personalized\nimage aesthetic assessment. Remarkably, it also demonstrates zero-shot learning\ncapabilities in the emerging task of aesthetic suggesting. Furthermore, for\npersonalized image aesthetic assessment, we harness the potential of in-context\nlearning and showcase its inherent advantages.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "qho4uVmJa7FiPAjcwAzV9nzoVangD5XfodMkzi_W6v8",
+  "pdfSize": "1401455"
+}

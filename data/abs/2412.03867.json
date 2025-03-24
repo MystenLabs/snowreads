@@ -1,0 +1,42 @@
+{
+  "id": "2412.03867",
+  "title": "GP-FL: Model-Based Hessian Estimation for Second-Order Over-the-Air\n  Federated Learning",
+  "authors": "Shayan Mohajer Hamidi, Ali Bereyhi, Saba Asaad, H. Vincent Poor",
+  "authorsParsed": [
+    [
+      "Hamidi",
+      "Shayan Mohajer",
+      ""
+    ],
+    [
+      "Bereyhi",
+      "Ali",
+      ""
+    ],
+    [
+      "Asaad",
+      "Saba",
+      ""
+    ],
+    [
+      "Poor",
+      "H. Vincent",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 5 Dec 2024 04:27:41 GMT"
+    }
+  ],
+  "updateDate": "2024-12-06",
+  "timestamp": 1733372861000,
+  "abstract": "  Second-order methods are widely adopted to improve the convergence rate of\nlearning algorithms. In federated learning (FL), these methods require the\nclients to share their local Hessian matrices with the parameter server (PS),\nwhich comes at a prohibitive communication cost. A classical solution to this\nissue is to approximate the global Hessian matrix from the first-order\ninformation. Unlike in idealized networks, this solution does not perform\neffectively in over-the-air FL settings, where the PS receives noisy versions\nof the local gradients. This paper introduces a novel second-order FL framework\ntailored for wireless channels. The pivotal innovation lies in the PS's\ncapability to directly estimate the global Hessian matrix from the received\nnoisy local gradients via a non-parametric method: the PS models the unknown\nHessian matrix as a Gaussian process, and then uses the temporal relation\nbetween the gradients and Hessian along with the channel model to find a\nstochastic estimator for the global Hessian matrix. We refer to this method as\nGaussian process-based Hessian modeling for wireless FL (GP-FL) and show that\nit exhibits a linear-quadratic convergence rate. Numerical experiments on\nvarious datasets demonstrate that GP-FL outperforms all classical baseline\nfirst and second order FL approaches.\n",
+  "subjects": [
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "LYlgC_L7r_fBfG4HTE6T1Sb9cfdlFY_mHzFkJ2t7Kww",
+  "pdfSize": "646111"
+}

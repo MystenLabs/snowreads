@@ -1,0 +1,34 @@
+{
+  "id": "2412.17185",
+  "title": "No Glitch in the Matrix: Robust Reconstruction of Gravitational Wave\n  Signals Under Noise Artifacts",
+  "authors": "Chayan Chatterjee and Karan Jani",
+  "authorsParsed": [
+    [
+      "Chatterjee",
+      "Chayan",
+      ""
+    ],
+    [
+      "Jani",
+      "Karan",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 22 Dec 2024 23:07:48 GMT"
+    }
+  ],
+  "updateDate": "2024-12-24",
+  "timestamp": 1734908868000,
+  "abstract": "  Gravitational wave observations by ground based detectors such as LIGO and\nVirgo have transformed astrophysics, enabling the study of compact binary\nsystems and their mergers. However, transient noise artifacts, or glitches,\npose a significant challenge, often obscuring or mimicking signals and\ncomplicating their analysis. In this work, we extend the Attention-boosted\nWaveform Reconstruction network to address glitch mitigation, demonstrating its\nrobustness in reconstructing waveforms in the presence of real glitches from\nthe third observing run of LIGO. Without requiring explicit training on\nglitches, AWaRe accurately isolates gravitational wave signals from data\ncontaminated by glitches spanning a wide range of amplitudes and morphologies.\nWe evaluate this capability by investigating the events GW191109 and GW200129,\nwhich exhibit strong evidence of anti-aligned spins and spin precession\nrespectively, but may be adversely affected by data quality issues. We find\nthat, regardless of the potential presence of glitches in the data, AWaRe\nreconstructs both waveforms with high accuracy. Additionally, we perform a\nsystematic study of the performance of AWaRe on a simulated catalog of injected\nwaveforms in real LIGO glitches and obtain reliable reconstructions of the\nwaveforms. By subtracting the AWaRe reconstructions from the data, we show that\nthe resulting residuals closely align with the background noise that the\nwaveforms were injected in. The robustness of AWaRe in mitigating glitches,\ndespite being trained exclusively on GW signals and not explicitly on glitches,\nhighlights its potential as a powerful tool for improving the reliability of\nsearches and characterizing noise artifacts.\n",
+  "subjects": [
+    "Physics/General Relativity and Quantum Cosmology",
+    "Astrophysics/High Energy Astrophysical Phenomena",
+    "Astrophysics/Instrumentation and Methods for Astrophysics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "337xK-83v804RuN4T0nJ7x4j1zRx0ZtXosWy6pET-1Y",
+  "pdfSize": "9370898"
+}

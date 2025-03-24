@@ -1,0 +1,52 @@
+{
+  "id": "2412.00112",
+  "title": "BiPO: Bidirectional Partial Occlusion Network for Text-to-Motion\n  Synthesis",
+  "authors": "Seong-Eun Hong, Soobin Lim, Juyeong Hwang, Minwook Chang, Hyeongyeop\n  Kang",
+  "authorsParsed": [
+    [
+      "Hong",
+      "Seong-Eun",
+      ""
+    ],
+    [
+      "Lim",
+      "Soobin",
+      ""
+    ],
+    [
+      "Hwang",
+      "Juyeong",
+      ""
+    ],
+    [
+      "Chang",
+      "Minwook",
+      ""
+    ],
+    [
+      "Kang",
+      "Hyeongyeop",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 28 Nov 2024 05:42:47 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Sun, 23 Feb 2025 11:40:05 GMT"
+    }
+  ],
+  "updateDate": "2025-02-25",
+  "timestamp": 1732772567000,
+  "abstract": "  Generating natural and expressive human motions from textual descriptions is\nchallenging due to the complexity of coordinating full-body dynamics and\ncapturing nuanced motion patterns over extended sequences that accurately\nreflect the given text. To address this, we introduce BiPO, Bidirectional\nPartial Occlusion Network for Text-to-Motion Synthesis, a novel model that\nenhances text-to-motion synthesis by integrating part-based generation with a\nbidirectional autoregressive architecture. This integration allows BiPO to\nconsider both past and future contexts during generation while enhancing\ndetailed control over individual body parts without requiring ground-truth\nmotion length. To relax the interdependency among body parts caused by the\nintegration, we devise the Partial Occlusion technique, which probabilistically\noccludes the certain motion part information during training. In our\ncomprehensive experiments, BiPO achieves state-of-the-art performance on the\nHumanML3D dataset, outperforming recent methods such as ParCo, MoMask, and BAMM\nin terms of FID scores and overall motion quality. Notably, BiPO excels not\nonly in the text-to-motion generation task but also in motion editing tasks\nthat synthesize motion based on partially generated motion sequences and\ntextual descriptions. These results reveal the BiPO's effectiveness in\nadvancing text-to-motion synthesis and its potential for practical\napplications.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Graphics"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "R4GcuZrTtObKEV6uFgYsix9RrHMizhsiKtbfUtaMycc",
+  "pdfSize": "11585611"
+}

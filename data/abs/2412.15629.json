@@ -1,0 +1,42 @@
+{
+  "id": "2412.15629",
+  "title": "New Design of three-qubit system with three transmons and a single\n  fixed-frequency resonator coupler",
+  "authors": "Jeongsoo Kang, Chanpyo Kim, Younghun Kim, Younghun Kwon",
+  "authorsParsed": [
+    [
+      "Kang",
+      "Jeongsoo",
+      ""
+    ],
+    [
+      "Kim",
+      "Chanpyo",
+      ""
+    ],
+    [
+      "Kim",
+      "Younghun",
+      ""
+    ],
+    [
+      "Kwon",
+      "Younghun",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 20 Dec 2024 07:39:14 GMT"
+    }
+  ],
+  "updateDate": "2024-12-23",
+  "timestamp": 1734680354000,
+  "abstract": "  The transmon, which has a short gate time and remarkable scalability, is the\nmost commonly utilized superconducting qubit, based on the Cooper pair box as a\nqubit or coupler in superconducting quantum computers. Lattice and\nheavy-hexagon structures are well-known large-scale configurations for\ntransmon-based quantum computers that classical computers cannot simulate.\nThese structures share a common feature: a resonator coupler that connects two\ntransmon qubits. Although significant progress has been made in implementing\nquantum error correction and quantum computing using quantum error mitigation,\nfault-tolerant quantum computing remains unachieved due to the inherent\nvulnerability of these structures. This raises the question of whether the\ntransmon-resonator-transmon structure is the best option for constructing a\ntransmon-based quantum computer. To address this, we demonstrate that the\naverage fidelity of CNOT gates can exceed 0.98 in a structure where a resonator\ncoupler mediates the coupling of three transmon qubits. This result suggests\nthat our novel structure could be a key method for increasing the number of\nconnections among qubits while preserving gate performance in a transmon-based\nquantum computer.\n",
+  "subjects": [
+    "Physics/Quantum Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "t1N8P-Lq9TYP1N0KFfbP17PufSyGqvAprGy1U3KnioM",
+  "pdfSize": "3573631"
+}

@@ -1,0 +1,39 @@
+{
+  "id": "2412.07634",
+  "title": "Improving the Robustness of the Projected Gradient Descent Method for\n  Nonlinear Constrained Optimization Problems in Topology Optimization",
+  "authors": "Lucka Barbeau, Marc-\\'Etienne Lamarche-Gagnon, Florin Ilinca",
+  "authorsParsed": [
+    [
+      "Barbeau",
+      "Lucka",
+      ""
+    ],
+    [
+      "Lamarche-Gagnon",
+      "Marc-Étienne",
+      ""
+    ],
+    [
+      "Ilinca",
+      "Florin",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 10 Dec 2024 16:13:59 GMT"
+    }
+  ],
+  "updateDate": "2024-12-11",
+  "timestamp": 1733847239000,
+  "abstract": "  The Projected Gradient Descent (PGD) algorithm is a widely used and efficient\nfirst-order method for solving constrained optimization problems due to its\nsimplicity and scalability in large design spaces. Building on recent\nadvancements in the PGD algorithm where an inertial step component has been\nintroduced to improve efficiency in solving constrained optimization problems\nthis study introduces two key enhancements to further improve the algorithm's\nperformance and adaptability in large-scale design spaces. First, univariate\nconstraints (such as design variable bounds constraints) are directly\nincorporated into the projection step via the Schur complement and an improved\nactive set algorithm with bulk constraints manipulation, avoiding issues with\nmin-max clipping. Second, the update step is decomposed relative to the\nconstraint vector space, enabling a post-projection adjustment based on the\nstate of the constraints and an approximation of the Lagrangian, significantly\nimproving the algorithm's robustness for problems with nonlinear constraints.\nApplied to a topology optimization problem for heat sink design, the proposed\nPGD algorithm demonstrates performance comparable to or exceeding that of the\nMethod of Moving Asymptotes (MMA), with minimal parameter tuning. These results\nposition the enhanced PGD as a robust tool for complex optimization problems\nwith large variable space, such as topology optimization problems.\n",
+  "subjects": [
+    "Mathematics/Optimization and Control",
+    "Physics/Mathematical Physics",
+    "Mathematics/Mathematical Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "9AqpCnwESoKYMICaavnF5ybVMajjU7UMLflH2bJu5Vs",
+  "pdfSize": "2967880"
+}

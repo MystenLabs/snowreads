@@ -1,0 +1,33 @@
+{
+  "id": "2412.08584",
+  "title": "Efficient search of a minimum tree on points in a space with the\n  $l_1$-norm",
+  "authors": "K.V. Kaymakov, D.S. Malyshev",
+  "authorsParsed": [
+    [
+      "Kaymakov",
+      "K. V.",
+      ""
+    ],
+    [
+      "Malyshev",
+      "D. S.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 11 Dec 2024 18:02:36 GMT"
+    }
+  ],
+  "updateDate": "2024-12-12",
+  "timestamp": 1733940156000,
+  "abstract": "  In this paper, we consider the minimum spanning tree problem (for short,\nMSTP) on an arbitrary set of $n$ points of $d$-dimensional space in $l_1$-norm.\nFor this problem, for each fixed $d\\geq 2$, there is a known algorithm of the\ncomputational complexity $O\\big(n\\cdot (\\log\\,n + \\log^{r_d}\\,n\\cdot\n\\log\\log\\,n)\\ big)$, where $r_d\\in \\{0,1,2,4\\}$ for $d\\in \\{2,3,4,5\\}$ and\n$r_d=d$ for $d\\geq 6$. For $d=3$, this result can be improved to the\ncomputational complexity $O(n\\cdot \\log\\,n)$. In this paper, for any fixed\n$d\\geq 2$, an algorithm with the computational complexity $O(n\\cdot\n\\log^{d-1}\\,n)$ is proposed to solve the considered MSTP, which improves the\nprevious achievement for $d\\geq 6$.\n",
+  "subjects": [
+    "Computer Science/Discrete Mathematics",
+    "Computer Science/Computational Geometry"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "iddu-R9WRfhGEttgHaO7NozBR_CYOog4bejZ5wcfnoY",
+  "pdfSize": "208897"
+}

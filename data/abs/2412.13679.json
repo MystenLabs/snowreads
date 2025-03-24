@@ -1,0 +1,48 @@
+{
+  "id": "2412.13679",
+  "title": "On Enhancing Root Cause Analysis with SQL Summaries for Failures in\n  Database Workload Replays at SAP HANA",
+  "authors": "Neetha Jambigi, Joshua Hammesfahr, Moritz Mueller, Thomas Bach,\n  Michael Felderer",
+  "authorsParsed": [
+    [
+      "Jambigi",
+      "Neetha",
+      ""
+    ],
+    [
+      "Hammesfahr",
+      "Joshua",
+      ""
+    ],
+    [
+      "Mueller",
+      "Moritz",
+      ""
+    ],
+    [
+      "Bach",
+      "Thomas",
+      ""
+    ],
+    [
+      "Felderer",
+      "Michael",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 18 Dec 2024 10:07:54 GMT"
+    }
+  ],
+  "updateDate": "2024-12-19",
+  "timestamp": 1734516474000,
+  "abstract": "  Capturing the workload of a database and replaying this workload for a new\nversion of the database can be an effective approach for regression testing.\nHowever, false positive errors caused by many factors such as data privacy\nlimitations, time dependency or non-determinism in multi-threaded environment\ncan negatively impact the effectiveness. Therefore, we employ a machine\nlearning based framework to automate the root cause analysis of failures found\nduring replays. However, handling unseen novel issues not found in the training\ndata is one general challenge of machine learning approaches with respect to\ngeneralizability of the learned model. We describe how we continue to address\nthis challenge for more robust long-term solutions. From our experience,\nretraining with new failures is inadequate due to features overlapping across\ndistinct root causes. Hence, we leverage a large language model (LLM) to\nanalyze failed SQL statements and extract concise failure summaries as an\nadditional feature to enhance the classification process. Our experiments show\nthe F1-Macro score improved by 4.77% for our data. We consider our approach\nbeneficial for providing end users with additional information to gain more\ninsights into the found issues and to improve the assessment of the replay\nresults.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Computer Science/Databases"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "esdH-KRq6aPbjX0ufP8xqIaac8JJjXJUjDmYNaelj8o",
+  "pdfSize": "542681"
+}

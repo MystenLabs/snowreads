@@ -1,0 +1,37 @@
+{
+  "id": "2412.01555",
+  "title": "Optimizing Domain-Specific Image Retrieval: A Benchmark of FAISS and\n  Annoy with Fine-Tuned Features",
+  "authors": "MD Shaikh Rahman, Syed Maudud E Rabbi, Muhammad Mahbubur Rashid",
+  "authorsParsed": [
+    [
+      "Rahman",
+      "MD Shaikh",
+      ""
+    ],
+    [
+      "Rabbi",
+      "Syed Maudud E",
+      ""
+    ],
+    [
+      "Rashid",
+      "Muhammad Mahbubur",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 2 Dec 2024 14:43:06 GMT"
+    }
+  ],
+  "updateDate": "2024-12-03",
+  "timestamp": 1733150586000,
+  "abstract": "  Approximate Nearest Neighbor search is one of the keys to high-scale data\nretrieval performance in many applications. The work is a bridge between\nfeature extraction and ANN indexing through fine-tuning a ResNet50 model with\nvarious ANN methods: FAISS and Annoy. We evaluate the systems with respect to\nindexing time, memory usage, query time, precision, recall, F1-score, and\nRecall@5 on a custom image dataset. FAISS's Product Quantization can achieve a\nprecision of 98.40% with low memory usage at 0.24 MB index size, and Annoy is\nthe fastest, with average query times of 0.00015 seconds, at a slight cost to\naccuracy. These results reveal trade-offs among speed, accuracy, and memory\nefficiency and offer actionable insights into the optimization of feature-based\nimage retrieval systems. This study will serve as a blueprint for constructing\nactual retrieval pipelines and be built on fine-tuned deep learning networks\nand associated ANN methods.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "6LzE_4GGcvNnwhOMBo87foyNhdhOAxWxFukcWbyRqjU",
+  "pdfSize": "1213572"
+}

@@ -1,0 +1,37 @@
+{
+  "id": "2412.00795",
+  "title": "Detecting entanglement and nonlocality with minimum observable length",
+  "authors": "Zhuo Chen, Fei Shi, and Qi Zhao",
+  "authorsParsed": [
+    [
+      "Chen",
+      "Zhuo",
+      ""
+    ],
+    [
+      "Shi",
+      "Fei",
+      ""
+    ],
+    [
+      "Zhao",
+      "Qi",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 1 Dec 2024 12:40:50 GMT"
+    }
+  ],
+  "updateDate": "2024-12-03",
+  "timestamp": 1733056850000,
+  "abstract": "  Quantum entanglement and nonlocality are foundational to quantum\ntechnologies, driving quantum computation, communication, and cryptography\ninnovations. To benchmark the capabilities of these quantum techniques,\nefficient detection and accurate quantification methods are indispensable. This\npaper focuses on the concept of \"detection length\" -- a metric that quantifies\nthe extent of measurement globality required to verify entanglement or\nnonlocality. We extend the detection length framework to encompass various\nentanglement categories and nonlocality phenomena, providing a comprehensive\nanalytical model to determine detection lengths for specified forms of\nentanglement. Furthermore, we exploit semidefinite programming techniques to\nconstruct entanglement witnesses and Bell's inequalities tailored to specific\nminimal detection lengths, offering an upper bound for detection lengths in\ngiven states. By assessing the noise robustness of these witnesses, we\ndemonstrate that witnesses with shorter detection lengths can exhibit superior\nperformance under certain conditions.\n",
+  "subjects": [
+    "Physics/Quantum Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "JH0QXIL3O84YB0xJ7RQeJmnZNMHcnQRHg-ZIoJxkHzs",
+  "pdfSize": "717875"
+}

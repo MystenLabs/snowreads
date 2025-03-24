@@ -1,0 +1,41 @@
+{
+  "id": "2412.15751",
+  "title": "Implementation of Magic State Injection within Heavy-Hexagon\n  Architecture",
+  "authors": "Hansol Kim, Wonjae Choi, Younghun Kwon",
+  "authorsParsed": [
+    [
+      "Kim",
+      "Hansol",
+      ""
+    ],
+    [
+      "Choi",
+      "Wonjae",
+      ""
+    ],
+    [
+      "Kwon",
+      "Younghun",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 20 Dec 2024 10:12:25 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Thu, 26 Dec 2024 04:19:49 GMT"
+    }
+  ],
+  "updateDate": "2024-12-30",
+  "timestamp": 1734689545000,
+  "abstract": "  The magic state injection process is a critical component of fault-tolerant\nquantum computing, and numerous studies have been conducted on this topic. Many\nexisting studies have focused on square-lattice structures, where each qubit\nconnects directly to four other qubits via two-qubit gates. However, hardware\nthat does not follow a lattice structure, such as IBM's heavy-hexagon\nstructure, is also under development. In these non-lattice structures, many\nquantum error correction (QEC) codes designed for lattice-based system cannot\nbe directly applied. Adapting these codes often requires incorporating\nadditional qubits, such as flag qubits. This alters the properties of the QEC\ncode and introduces new variables into the magic state injection process. In\nthis study, we implemented and compared the magic state injection process on a\nheavy-hexagon structure with flag qubits and a lattice structure without flag\nqubits. Additionally, we considered biased errors in superconducting hardware\nand investigated the impact of flag qubits under these conditions. Our analysis\nreveals that the inclusion of flag qubits introduces distinct characteristics\ninto the magic state injection process, which are absent in systems without\nflag qubits. Based on these findings, we identify several critical\nconsiderations for performing magic state injection on heavy-hexagon systems\nincorporating flag qubits. Furthermore, we propose an optimized approach to\nmaximize the efficacy of this process in such systems.\n",
+  "subjects": [
+    "Physics/Quantum Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "v-B2jEM97UpZQcWhQkGbPAQP46s0VNfraTYHNdS41W0",
+  "pdfSize": "950853"
+}

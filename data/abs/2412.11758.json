@@ -1,0 +1,36 @@
+{
+  "id": "2412.11758",
+  "title": "Establishing a Foundation for Tetun Text Ad-Hoc Retrieval: Stemming,\n  Indexing, Retrieval, and Ranking",
+  "authors": "Gabriel de Jesus and S\\'ergio Nunes",
+  "authorsParsed": [
+    [
+      "de Jesus",
+      "Gabriel",
+      ""
+    ],
+    [
+      "Nunes",
+      "Sérgio",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 16 Dec 2024 13:22:34 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Thu, 27 Feb 2025 09:02:20 GMT"
+    }
+  ],
+  "updateDate": "2025-02-28",
+  "timestamp": 1734355354000,
+  "abstract": "  Searching for information on the internet and digital platforms to satisfy an\ninformation need requires effective retrieval solutions. However, such\nsolutions are not yet available for Tetun, making it challenging to find\nrelevant documents for text-based search queries in this language. To address\nthese challenges, this study investigates Tetun text retrieval with a focus on\nthe ad-hoc retrieval task. It begins by developing essential language resources\n-- including a list of stopwords, a stemmer, and a test collection -- which\nserve as foundational components for solutions tailored to Tetun text\nretrieval. Various strategies are then explored using both document titles and\ncontent to evaluate retrieval effectiveness. The results show that retrieving\ndocument titles, after removing hyphens and apostrophes without applying\nstemming, significantly improves retrieval performance compared to the\nbaseline. Efficiency increases by 31.37%, while effectiveness achieves an\naverage gain of 9.40% in MAP@10 and 30.35% in nDCG@10 with DFR BM25. Beyond the\ntop-10 cutoff point, Hiemstra LM demonstrates strong performance across various\nretrieval strategies and evaluation metrics. Contributions of this work include\nthe development of Labadain-Stopwords (a list of 160 Tetun stopwords),\nLabadain-Stemmer (a Tetun stemmer with three variants), and\nLabadain-Avaliad\\'or (a Tetun test collection containing 59 topics, 33,550\ndocuments, and 5,900 qrels).\n",
+  "subjects": [
+    "Computer Science/Information Retrieval"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "R9sgTncCxUx8hMvMtwznnWx0bDq6LJ88bByvR1jcJwc",
+  "pdfSize": "1934090"
+}

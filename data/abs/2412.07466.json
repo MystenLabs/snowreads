@@ -1,0 +1,33 @@
+{
+  "id": "2412.07466",
+  "title": "Implementation and investigation of electron-nucleus scattering in the\n  \\textsc{NEUT} neutrino event generator",
+  "authors": "Seisho Abe",
+  "authorsParsed": [
+    [
+      "Abe",
+      "Seisho",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 10 Dec 2024 12:34:24 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Fri, 21 Feb 2025 05:51:23 GMT"
+    }
+  ],
+  "updateDate": "2025-02-25",
+  "timestamp": 1733834064000,
+  "abstract": "  Understanding nuclear effects is essential for improving the sensitivity of\nneutrino oscillation measurements. Validating nuclear models solely through\nneutrino scattering data is challenging due to limited statistics and the broad\nenergy spectrum of neutrinos. In contrast, electron scattering experiments\nprovide abundant high-precision data with various monochromatic energies and\nangles. Since both neutrinos and electrons interact via electroweak\ninteractions, the same nuclear models can be applied to simulate both\ninteractions. Thus, high-precision electron scattering data is essential for\nvalidating the nuclear models used in neutrino experiments. To enable this, the\nauthor has introduced a new electron scattering framework in the \\textsc{NEUT}\nneutrino event generator, covering two interaction modes: quasielastic (QE) and\nsingle pion production. \\textsc{NEUT} predictions of QE agree well with\nnumerical calculations, supporting the validity of this implementation. From\ncomparisons with \\textsc{NEUT} predictions and inclusive electron scattering\ndata, the momentum-dependent removal energy correction is derived, addressing\neffects beyond the plane wave impulse approximation. This correction is applied\nto neutrino interactions, observing significant changes in charged lepton\nkinematics. Notably, the reconstructed neutrino energy distribution shows a\npeak shift of approximately 20--30\\,MeV, which is crucial for accurately\nmeasuring neutrino oscillation parameters.\n",
+  "subjects": [
+    "Physics/High Energy Physics - Phenomenology",
+    "Physics/High Energy Physics - Experiment",
+    "Physics/Nuclear Theory"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "ZW7E8ODGsAeF4iuW8C0_UWwiRvZZKUneE7a95xa7JZM",
+  "pdfSize": "1413999"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "2412.08526",
+  "title": "Spend More to Save More (SM2): An Energy-Aware Implementation of\n  Successive Halving for Sustainable Hyperparameter Optimization",
+  "authors": "Daniel Geissler, Bo Zhou, Sungho Suh, Paul Lukowicz",
+  "authorsParsed": [
+    [
+      "Geissler",
+      "Daniel",
+      ""
+    ],
+    [
+      "Zhou",
+      "Bo",
+      ""
+    ],
+    [
+      "Suh",
+      "Sungho",
+      ""
+    ],
+    [
+      "Lukowicz",
+      "Paul",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 11 Dec 2024 16:37:44 GMT"
+    }
+  ],
+  "updateDate": "2024-12-12",
+  "timestamp": 1733935064000,
+  "abstract": "  A fundamental step in the development of machine learning models commonly\ninvolves the tuning of hyperparameters, often leading to multiple model\ntraining runs to work out the best-performing configuration. As machine\nlearning tasks and models grow in complexity, there is an escalating need for\nsolutions that not only improve performance but also address sustainability\nconcerns. Existing strategies predominantly focus on maximizing the performance\nof the model without considering energy efficiency. To bridge this gap, in this\npaper, we introduce Spend More to Save More (SM2), an energy-aware\nhyperparameter optimization implementation based on the widely adopted\nsuccessive halving algorithm. Unlike conventional approaches including\nenergy-intensive testing of individual hyperparameter configurations, SM2\nemploys exploratory pretraining to identify inefficient configurations with\nminimal energy expenditure. Incorporating hardware characteristics and\nreal-time energy consumption tracking, SM2 identifies an optimal configuration\nthat not only maximizes the performance of the model but also enables\nenergy-efficient training. Experimental validations across various datasets,\nmodels, and hardware setups confirm the efficacy of SM2 to prevent the waste of\nenergy during the training of hyperparameter configurations.\n",
+  "subjects": [
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "PdmEDv0aWJ7ssHIpOUbiOeznjOezztyF92dMeqGgUtQ",
+  "pdfSize": "1333160"
+}

@@ -1,0 +1,51 @@
+{
+  "id": "2412.06268",
+  "title": "Open-Vocabulary High-Resolution 3D (OVHR3D) Data Segmentation and\n  Annotation Framework",
+  "authors": "Jiuyi Xu, Meida Chen, Andrew Feng, Zifan Yu, Yangming Shi",
+  "authorsParsed": [
+    [
+      "Xu",
+      "Jiuyi",
+      ""
+    ],
+    [
+      "Chen",
+      "Meida",
+      ""
+    ],
+    [
+      "Feng",
+      "Andrew",
+      ""
+    ],
+    [
+      "Yu",
+      "Zifan",
+      ""
+    ],
+    [
+      "Shi",
+      "Yangming",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 9 Dec 2024 07:39:39 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Wed, 18 Dec 2024 07:08:01 GMT"
+    }
+  ],
+  "updateDate": "2024-12-19",
+  "timestamp": 1733729979000,
+  "abstract": "  In the domain of the U.S. Army modeling and simulation, the availability of\nhigh quality annotated 3D data is pivotal to creating virtual environments for\ntraining and simulations. Traditional methodologies for 3D semantic and\ninstance segmentation, such as KpConv, RandLA, Mask3D, etc., are designed to\ntrain on extensive labeled datasets to obtain satisfactory performance in\npractical tasks. This requirement presents a significant challenge, given the\ninherent scarcity of manually annotated 3D datasets, particularly for the\nmilitary use cases. Recognizing this gap, our previous research leverages the\nOne World Terrain data repository manually annotated databases, as showcased at\nIITSEC 2019 and 2021, to enrich the training dataset for deep learning models.\nHowever, collecting and annotating large scale 3D data for specific tasks\nremains costly and inefficient. To this end, the objective of this research is\nto design and develop a comprehensive and efficient framework for 3D\nsegmentation tasks to assist in 3D data annotation. This framework integrates\nGrounding DINO and Segment anything Model, augmented by an enhancement in 2D\nimage rendering via 3D mesh. Furthermore, the authors have also developed a\nuser friendly interface that facilitates the 3D annotation process, offering\nintuitive visualization of rendered images and the 3D point cloud.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "iKP1AqsogRUei_1HUG3n8tncX6xZOnD-6hU4tVj_EPo",
+  "pdfSize": "745605"
+}

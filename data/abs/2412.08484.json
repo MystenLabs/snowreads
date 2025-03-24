@@ -1,0 +1,29 @@
+{
+  "id": "2412.08484",
+  "title": "ConvMesh: Reimagining Mesh Quality Through Convex Optimization",
+  "authors": "Alexander Valverde",
+  "authorsParsed": [
+    [
+      "Valverde",
+      "Alexander",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 11 Dec 2024 15:48:25 GMT"
+    }
+  ],
+  "updateDate": "2024-12-12",
+  "timestamp": 1733932105000,
+  "abstract": "  Mesh generation has become a critical topic in recent years, forming the\nfoundation of all 3D objects used across various applications, such as virtual\nreality, gaming, and 3D printing. With advancements in computational resources\nand machine learning, neural networks have emerged as powerful tools for\ngenerating high-quality 3D object representations, enabling accurate scene and\nobject reconstructions. Despite these advancements, many methods produce meshes\nthat lack realism or exhibit geometric and textural flaws, necessitating\nadditional processing to improve their quality. This research introduces a\nconvex optimization programming called disciplined convex programming to\nenhance existing meshes by refining their texture and geometry with a conic\nsolver. By focusing on a sparse set of point clouds from both the original and\ntarget meshes, this method demonstrates significant improvements in mesh\nquality with minimal data requirements. To evaluate the approach, the classical\ndolphin mesh dataset from Facebook AI was used as a case study, with\noptimization performed using the CVXPY library. The results reveal promising\npotential for streamlined and effective mesh refinement.\n",
+  "subjects": [
+    "Computer Science/Graphics",
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Mathematics/Optimization and Control"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "_NPjh2Ojhg-5vqVz0Jw077WbajSeJBst9ihvZnggo_w",
+  "pdfSize": "8426803"
+}

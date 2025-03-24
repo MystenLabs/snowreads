@@ -1,0 +1,37 @@
+{
+  "id": "2412.18843",
+  "title": "Improving the Readability of Automatically Generated Tests using Large\n  Language Models",
+  "authors": "Matteo Biagiola, Gianluca Ghislotti, Paolo Tonella",
+  "authorsParsed": [
+    [
+      "Biagiola",
+      "Matteo",
+      ""
+    ],
+    [
+      "Ghislotti",
+      "Gianluca",
+      ""
+    ],
+    [
+      "Tonella",
+      "Paolo",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 25 Dec 2024 09:08:53 GMT"
+    }
+  ],
+  "updateDate": "2024-12-30",
+  "timestamp": 1735117733000,
+  "abstract": "  Search-based test generators are effective at producing unit tests with high\ncoverage. However, such automatically generated tests have no meaningful test\nand variable names, making them hard to understand and interpret by developers.\nOn the other hand, large language models (LLMs) can generate highly readable\ntest cases, but they are not able to match the effectiveness of search-based\ngenerators, in terms of achieved code coverage.\n  In this paper, we propose to combine the effectiveness of search-based\ngenerators with the readability of LLM generated tests. Our approach focuses on\nimproving test and variable names produced by search-based tools, while keeping\ntheir semantics (i.e., their coverage) unchanged.\n  Our evaluation on nine industrial and open source LLMs show that our\nreadability improvement transformations are overall semantically-preserving and\nstable across multiple repetitions. Moreover, a human study with ten\nprofessional developers, show that our LLM-improved tests are as readable as\ndeveloper-written tests, regardless of the LLM employed.\n",
+  "subjects": [
+    "Computer Science/Software Engineering"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "OexICnmoCL9hzaHLEcnu7_7cUTB_7mFUW82iDBHqxKE",
+  "pdfSize": "542918"
+}

@@ -1,0 +1,43 @@
+{
+  "id": "2412.02597",
+  "title": "Randomized algorithms for Kroncecker tensor decomposition and\n  applications",
+  "authors": "Salman Ahmadi-Asl, Naeim Rezaeian, Andre L. F. de Almeida, Yipeng Liu",
+  "authorsParsed": [
+    [
+      "Ahmadi-Asl",
+      "Salman",
+      ""
+    ],
+    [
+      "Rezaeian",
+      "Naeim",
+      ""
+    ],
+    [
+      "de Almeida",
+      "Andre L. F.",
+      ""
+    ],
+    [
+      "Liu",
+      "Yipeng",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 3 Dec 2024 17:29:11 GMT"
+    }
+  ],
+  "updateDate": "2024-12-04",
+  "timestamp": 1733246951000,
+  "abstract": "  This paper proposes fast randomized algorithms for computing the Kronecker\nTensor Decomposition (KTD). The proposed algorithms can decompose a given\ntensor into the KTD format much faster than the existing state-of-the-art\nalgorithms. Our principal idea is to use the randomization framework to reduce\ncomputational complexity significantly. We provide extensive simulations to\nverify the effectiveness and performance of the proposed randomized algorithms\nwith several orders of magnitude acceleration compared to the deterministic\none. Our simulations use synthetics and real-world datasets with applications\nto tensor completion, video/image compression, image denoising, and image\nsuper-resolution\n",
+  "subjects": [
+    "Mathematics/Numerical Analysis",
+    "Computer Science/Numerical Analysis"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "NX_5G0sdbPyiX4fVxhlaaRtfXILWi0Rmsibc9P31yXI",
+  "pdfSize": "3264781"
+}

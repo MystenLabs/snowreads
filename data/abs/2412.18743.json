@@ -1,0 +1,39 @@
+{
+  "id": "2412.18743",
+  "title": "Successes and Limitations of Object-centric Models at Compositional\n  Generalisation",
+  "authors": "Milton L. Montero and Jeffrey S. Bowers and Gaurav Malhotra",
+  "authorsParsed": [
+    [
+      "Montero",
+      "Milton L.",
+      ""
+    ],
+    [
+      "Bowers",
+      "Jeffrey S.",
+      ""
+    ],
+    [
+      "Malhotra",
+      "Gaurav",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 25 Dec 2024 02:25:12 GMT"
+    }
+  ],
+  "updateDate": "2024-12-30",
+  "timestamp": 1735093512000,
+  "abstract": "  In recent years, it has been shown empirically that standard disentangled\nlatent variable models do not support robust compositional learning in the\nvisual domain. Indeed, in spite of being designed with the goal of factorising\ndatasets into their constituent factors of variations, disentangled models show\nextremely limited compositional generalisation capabilities. On the other hand,\nobject-centric architectures have shown promising compositional skills, albeit\nthese have 1) not been extensively tested and 2) experiments have been limited\nto scene composition -- where models must generalise to novel combinations of\nobjects in a visual scene instead of novel combinations of object properties.\nIn this work, we show that these compositional generalisation skills extend to\nthis later setting. Furthermore, we present evidence pointing to the source of\nthese skills and how they can be improved through careful training. Finally, we\npoint to one important limitation that still exists which suggests new\ndirections of research.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "h1D5S2CIlF7-QZfnAtICweLNB-wwlaou-XdyLmCj4MI",
+  "pdfSize": "1091529"
+}

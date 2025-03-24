@@ -1,0 +1,48 @@
+{
+  "id": "2412.07632",
+  "title": "Atomic-optical interferometry in fractured loops: a general solution for\n  Rydberg radio frequency receivers",
+  "authors": "Bartosz Kasza, Sebastian Bor\\'owka, Wojciech Wasilewski, Micha{\\l}\n  Parniak",
+  "authorsParsed": [
+    [
+      "Kasza",
+      "Bartosz",
+      ""
+    ],
+    [
+      "Borówka",
+      "Sebastian",
+      ""
+    ],
+    [
+      "Wasilewski",
+      "Wojciech",
+      ""
+    ],
+    [
+      "Parniak",
+      "Michał",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 10 Dec 2024 16:13:48 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Wed, 11 Dec 2024 13:12:18 GMT"
+    }
+  ],
+  "updateDate": "2024-12-12",
+  "timestamp": 1733847228000,
+  "abstract": "  The development of novel radio frequency atomic receivers brings attention to\nthe theoretical description of atom-light interactions in sophisticated,\nmultilevel schemes. Of special interest, are the schemes where several\ninteraction paths interfere with each other, bringing about the phase-sensitive\nmeasurement of detected radio fields. In the theoretical modeling of those\ncases, the common assumptions are often insufficient to determine the boundary\ndetection parameters, such as receiving bandwidth or saturation point, critical\nfor practical considerations of atomic sensing technology. This evokes the\nresurfacing of a long-standing problem on how to describe an atom-light\ninteraction in a fractured loop. In such a case, the quantum steady state is\nnot achieved even with constant, continuous interactions. Here we propose a\nmethod for modeling of such a system, basing our approach on the Fourier\nexpansion of a non-equilibrium steady state. The proposed solution is both\nnumerically effective and able to predict edge cases, such as saturation.\nFurthermore, as an example, we employ this method to provide a complete\ndescription of a Rydberg superheterodyne receiver, obtaining the boundary\nparameters describing the operation of this atomic detector.\n",
+  "subjects": [
+    "Physics/Atomic Physics",
+    "Physics/Optics",
+    "Physics/Quantum Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "qUbzDOilAgF2YNgmoDQmV61F215k7gzc0UQL0ZJbedI",
+  "pdfSize": "1072016"
+}

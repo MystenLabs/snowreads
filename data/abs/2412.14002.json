@@ -1,0 +1,39 @@
+{
+  "id": "2412.14002",
+  "title": "Operator Splitting for Convex Constrained Markov Decision Processes",
+  "authors": "Panagiotis D. Grontas, Anastasios Tsiamis, John Lygeros",
+  "authorsParsed": [
+    [
+      "Grontas",
+      "Panagiotis D.",
+      ""
+    ],
+    [
+      "Tsiamis",
+      "Anastasios",
+      ""
+    ],
+    [
+      "Lygeros",
+      "John",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 18 Dec 2024 16:17:25 GMT"
+    }
+  ],
+  "updateDate": "2024-12-19",
+  "timestamp": 1734538645000,
+  "abstract": "  We consider finite Markov decision processes (MDPs) with convex constraints\nand known dynamics. In principle, this problem is amenable to off-the-shelf\nconvex optimization solvers, but typically this approach suffers from poor\nscalability. In this work, we develop a first-order algorithm, based on the\nDouglas-Rachford splitting, that allows us to decompose the dynamics and\nconstraints. Thanks to this decoupling, we can incorporate a wide variety of\nconvex constraints. Our scheme consists of simple and easy-to-implement updates\nthat alternate between solving a regularized MDP and a projection. The inherent\npresence of regularized updates ensures last-iterate convergence, numerical\nstability, and, contrary to existing approaches, does not require us to\nregularize the problem explicitly. If the constraints are not attainable, we\nexploit salient properties of the Douglas-Rachord algorithm to detect\ninfeasibility and compute a policy that minimally violates the constraints. We\ndemonstrate the performance of our algorithm on two benchmark problems and show\nthat it compares favorably to competing approaches.\n",
+  "subjects": [
+    "Mathematics/Optimization and Control",
+    "Computer Science/Systems and Control",
+    "Electrical Engineering and Systems Science/Systems and Control"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "JHNdTQIzPZoFggUnlcNocieaZxH9SlfQx8fn8kpTmtA",
+  "pdfSize": "878955"
+}

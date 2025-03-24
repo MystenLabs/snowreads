@@ -1,0 +1,33 @@
+{
+  "id": "2412.02014",
+  "title": "Dynamic Prediction of High-density Generalized Functional Data with Fast\n  Generalized Functional Principal Component Analysis",
+  "authors": "Ying Jin and Andrew Leroux",
+  "authorsParsed": [
+    [
+      "Jin",
+      "Ying",
+      ""
+    ],
+    [
+      "Leroux",
+      "Andrew",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 2 Dec 2024 22:35:44 GMT"
+    }
+  ],
+  "updateDate": "2024-12-04",
+  "timestamp": 1733178944000,
+  "abstract": "  Dynamic prediction, which typically refers to the prediction of future\noutcomes using historical records, is often of interest in biomedical research.\nFor datasets with large sample sizes, high measurement density, and complex\ncorrelation structures, traditional methods are often infeasible because of the\ncomputational burden associated with both data scale and model complexity.\nMoreover, many models do not directly facilitate out-of-sample predictions for\ngeneralized outcomes. To address these issues, we develop a novel approach for\ndynamic predictions based on a recently developed method estimating complex\npatterns of variation for exponential family data: fast Generalized Functional\nPrincipal Components Analysis (fGFPCA). Our method is able to handle\nlarge-scale, high-density repeated measures much more efficiently with its\nimplementation feasible even on personal computational resources (e.g., a\nstandard desktop or laptop computer). The proposed method makes highly flexible\nand accurate predictions of future trajectories for data that exhibit high\ndegrees of nonlinearity, and allows for out-of-sample predictions to be\nobtained without reestimating any parameters. A simulation study is designed\nand implemented to illustrate the advantages of this method. To demonstrate its\npractical utility, we also conducted a case study to predict diurnal\nactive/inactive patterns using accelerometry data from the National Health and\nNutrition Examination Survey (NHANES) 2011-2014. Both the simulation study and\nthe data application demonstrate the better predictive performance and high\ncomputational efficiency of the proposed method compared to existing methods.\nThe proposed method also obtains more personalized prediction that improves as\nmore information becomes available, which is an essential goal of dynamic\nprediction that other methods fail to achieve.\n",
+  "subjects": [
+    "Statistics/Methodology",
+    "Statistics/Applications"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "ZLPoc4yVJQHOXGbZR70kJbLD-Ntb4A5beMQMqZjliZc",
+  "pdfSize": "2934724"
+}

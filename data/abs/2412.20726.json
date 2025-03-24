@@ -1,0 +1,54 @@
+{
+  "id": "2412.20726",
+  "title": "Beam Codebook Refinement for mmWave Devices with Random Orientations:\n  Concept and Experimental Validation",
+  "authors": "Bora Bozkurt, Ahmet Muaz Aktas, Hasan Atalay Gunel, Mohaned Chraiti,\n  Ali Gorcin, Ibrahim Hokelek",
+  "authorsParsed": [
+    [
+      "Bozkurt",
+      "Bora",
+      ""
+    ],
+    [
+      "Aktas",
+      "Ahmet Muaz",
+      ""
+    ],
+    [
+      "Gunel",
+      "Hasan Atalay",
+      ""
+    ],
+    [
+      "Chraiti",
+      "Mohaned",
+      ""
+    ],
+    [
+      "Gorcin",
+      "Ali",
+      ""
+    ],
+    [
+      "Hokelek",
+      "Ibrahim",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 30 Dec 2024 05:55:21 GMT"
+    }
+  ],
+  "updateDate": "2024-12-31",
+  "timestamp": 1735538121000,
+  "abstract": "  There is a growing interest in codebook-based beam-steering for\nmillimeter-wave (mmWave) systems due to its potential for low complexity and\nrapid beam search. A key focus of recent research has been the design of\ncodebooks that strike a trade-off between achievable gain and codebook size,\nwhich directly impacts beam search time. Statistical approaches have shown\npromise by leveraging the likelihood that certain beam directions\n(equivalently, sets of phase-shifter configurations) are more probable than\nothers. Such approaches are shown to be valid for static, non-rotating\ntransmission stations such as base stations. However, for the case of user\nterminals that are constantly changing orientation, the possible phase-shifter\nconfigurations become equally probable, rendering statistical methods less\nrelevant. On the other hand, user terminals come with a large number of\npossible steering vector configurations, which can span up to six orders of\nmagnitude. Therefore, efficient solutions to reduce the codebook size (set of\npossible steering vectors) without compromising array gain are needed. We\naddress this challenge by proposing a novel and practical codebook refinement\ntechnique, aiming to reduce the codebook size while maintaining array gain\nwithin $\\gamma$ dB of the maximum achievable gain at any random orientation of\nthe user terminal. We project that a steering vector at a given angle could\neffectively cover adjacent angles with a small gain loss compared to the\nmaximum achievable gain. We demonstrate experimentally that it is possible to\nreduce the codebook size from $1024^{16}$ to just a few configurations (e.g.,\nless than ten), covering all angles while maintaining the gain within\n$\\gamma=3$ dB of the maximum achievable gain.\n",
+  "subjects": [
+    "Computer Science/Information Theory",
+    "Electrical Engineering and Systems Science/Signal Processing",
+    "Mathematics/Information Theory"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "iEYVtOxqUI5E_NvYGl37YQZj4PhzwyY5IP8ht_tAtXM",
+  "pdfSize": "305435"
+}

@@ -1,0 +1,47 @@
+{
+  "id": "2412.02336",
+  "title": "Amodal Depth Anything: Amodal Depth Estimation in the Wild",
+  "authors": "Zhenyu Li, Mykola Lavreniuk, Jian Shi, Shariq Farooq Bhat, Peter Wonka",
+  "authorsParsed": [
+    [
+      "Li",
+      "Zhenyu",
+      ""
+    ],
+    [
+      "Lavreniuk",
+      "Mykola",
+      ""
+    ],
+    [
+      "Shi",
+      "Jian",
+      ""
+    ],
+    [
+      "Bhat",
+      "Shariq Farooq",
+      ""
+    ],
+    [
+      "Wonka",
+      "Peter",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 3 Dec 2024 09:56:38 GMT"
+    }
+  ],
+  "updateDate": "2024-12-04",
+  "timestamp": 1733219798000,
+  "abstract": "  Amodal depth estimation aims to predict the depth of occluded (invisible)\nparts of objects in a scene. This task addresses the question of whether models\ncan effectively perceive the geometry of occluded regions based on visible\ncues. Prior methods primarily rely on synthetic datasets and focus on metric\ndepth estimation, limiting their generalization to real-world settings due to\ndomain shifts and scalability challenges. In this paper, we propose a novel\nformulation of amodal depth estimation in the wild, focusing on relative depth\nprediction to improve model generalization across diverse natural images. We\nintroduce a new large-scale dataset, Amodal Depth In the Wild (ADIW), created\nusing a scalable pipeline that leverages segmentation datasets and compositing\ntechniques. Depth maps are generated using large pre-trained depth models, and\na scale-and-shift alignment strategy is employed to refine and blend depth\npredictions, ensuring consistency in ground-truth annotations. To tackle the\namodal depth task, we present two complementary frameworks: Amodal-DAV2, a\ndeterministic model based on Depth Anything V2, and Amodal-DepthFM, a\ngenerative model that integrates conditional flow matching principles. Our\nproposed frameworks effectively leverage the capabilities of large pre-trained\nmodels with minimal modifications to achieve high-quality amodal depth\npredictions. Experiments validate our design choices, demonstrating the\nflexibility of our models in generating diverse, plausible depth structures for\noccluded regions. Our method achieves a 69.5% improvement in accuracy over the\nprevious SoTA on the ADIW dataset.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "saTGrqoL2rExnJdWCTpr4iWusFxwIDec0n9C6OnUAOM",
+  "pdfSize": "3896122"
+}

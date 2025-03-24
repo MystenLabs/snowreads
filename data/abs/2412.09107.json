@@ -1,0 +1,27 @@
+{
+  "id": "2412.09107",
+  "title": "Divisibility of the Multiplicative Order Modulo Monic Irreducible\n  Polynomials Over Finite Fields",
+  "authors": "Joaquim Cera Da Concei\\c{c}\\~ao",
+  "authorsParsed": [
+    [
+      "Da Conceição",
+      "Joaquim Cera",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 12 Dec 2024 09:39:38 GMT"
+    }
+  ],
+  "updateDate": "2024-12-13",
+  "timestamp": 1733996378000,
+  "abstract": "  We consider the set of monic irreducible polynomials $P$ over a finite field\n$\\mathbb{F}_q$ such that the multiplicative order modulo $P$ of some a in\n$\\mathbb{F}_q(T)$ is divisible by a fixed positive integer $d$. Call $R_q(a,d)$\nthis set. We show the existence or non-existence of the density of $R_q(a,d)$\nfor three distinct notions of density. In particular, the sets $R_q(a,d)$ have\na Dirichlet density. Under some assumptions, we prove simple formulas for the\ndensity values.\n",
+  "subjects": [
+    "Mathematics/Number Theory"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "EJ24ghqrq491mrpA3MzU00FasXcbHGnjAVsck70OBcM",
+  "pdfSize": "298825"
+}

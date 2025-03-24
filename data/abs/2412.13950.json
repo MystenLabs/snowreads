@@ -1,0 +1,43 @@
+{
+  "id": "2412.13950",
+  "title": "Generation of Large District Heating System Models Using Open-Source\n  Data and Tools: An Exemplary Workflow",
+  "authors": "Jan Stock, Till Schmidt, Andr\\'e Xhonneux, Dirk M\\\"uller",
+  "authorsParsed": [
+    [
+      "Stock",
+      "Jan",
+      ""
+    ],
+    [
+      "Schmidt",
+      "Till",
+      ""
+    ],
+    [
+      "Xhonneux",
+      "André",
+      ""
+    ],
+    [
+      "Müller",
+      "Dirk",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 18 Dec 2024 15:30:32 GMT"
+    }
+  ],
+  "updateDate": "2024-12-19",
+  "timestamp": 1734535832000,
+  "abstract": "  District heating (DH) systems play a pivotal role in decarbonizing the\nbuilding sector's heat supply. While innovative low-exergy DH and cooling\nsystems are increasingly adopted in new developments, the transformation of\nexisting DH systems remains critical, as many still depend on fossil-based\nheating plants. Achieving a sustainable heat supply necessitates integrating\nrenewable energy and waste heat sources into current DH systems and enhancing\noperational efficiency through measures such as reduced supply temperatures and\nadvanced control algorithms. These improvements can reduce costs and CO2\nemissions but may require infrastructure adaptations, including pipe\nreplacements and building-level system adjustments.\n  This paper introduces a workflow for generating DH models using publicly\navailable data and open-source tools. Such models enable comprehensive analyses\nof existing DH systems, allowing for the evaluation of sustainable heat\nintegration, operational improvements, and the testing of analytical tools,\nsuch as simulation and optimization models. The workflow, detailed in this\nstudy, combines general structural data with computational estimations to\ncreate digital representations of DH systems. These models facilitate\nscenario-based analyses, tool benchmarking, and the identification of necessary\ninfrastructure adaptations.\n  Two example DH models generated using the proposed workflow are presented,\nfollowed by a discussion of the methodology's applicability and limitations.\nThis study demonstrates how leveraging open data and tools can advance the\ntransformation of DH systems, supporting the transition to a sustainable heat\nsupply infrastructure.\n",
+  "subjects": [
+    "Electrical Engineering and Systems Science/Systems and Control",
+    "Computer Science/Systems and Control"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "ZzrFNavBezK9gEk2Fqm5zcHJJpuPp4ai2G8d5uTyeW8",
+  "pdfSize": "19818313"
+}

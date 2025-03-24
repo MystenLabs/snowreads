@@ -1,0 +1,29 @@
+{
+  "id": "2412.10465",
+  "title": "On the polynomial equation\n  $P(Q(x_1,\\ldots,x_m))=Q(P(x_1),\\ldots,P(x_m))$",
+  "authors": "Arseny Mingajev",
+  "authorsParsed": [
+    [
+      "Mingajev",
+      "Arseny",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 12 Dec 2024 16:23:29 GMT"
+    }
+  ],
+  "updateDate": "2024-12-17",
+  "timestamp": 1734020609000,
+  "abstract": "  We consider the equation $P(Q(x_1,\\ldots,x_\\nu))=Q(P(x_1),\\ldots,P(x_\\nu))$\nin polynomials over the field of complex numbers and prove that if ${\\rm\ndeg}(P)>1$, then it is only solvable in polynomials that are affinely conjugate\nto monomials.\n",
+  "subjects": [
+    "Mathematics/Number Theory",
+    "Mathematics/Algebraic Geometry",
+    "Mathematics/Rings and Algebras"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "kTP77-li4Jx4ioGTMLgUv8Kax02N8KPd0nYLNZrtccc",
+  "pdfSize": "110404"
+}

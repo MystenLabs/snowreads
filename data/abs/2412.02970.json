@@ -1,0 +1,58 @@
+{
+  "id": "2412.02970",
+  "title": "Uncovering dynamics between SARS-CoV-2 wastewater concentrations and\n  community infections via Bayesian spatial functional concurrent regression",
+  "authors": "Thomas Y. Sun, Julia C. Schedler, Daniel R. Kowal, Rebecca Schneider,\n  Lauren B. Stadler, Loren Hopkins, and Katherine B. Ensor",
+  "authorsParsed": [
+    [
+      "Sun",
+      "Thomas Y.",
+      ""
+    ],
+    [
+      "Schedler",
+      "Julia C.",
+      ""
+    ],
+    [
+      "Kowal",
+      "Daniel R.",
+      ""
+    ],
+    [
+      "Schneider",
+      "Rebecca",
+      ""
+    ],
+    [
+      "Stadler",
+      "Lauren B.",
+      ""
+    ],
+    [
+      "Hopkins",
+      "Loren",
+      ""
+    ],
+    [
+      "Ensor",
+      "Katherine B.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 4 Dec 2024 02:32:14 GMT"
+    }
+  ],
+  "updateDate": "2024-12-05",
+  "timestamp": 1733279534000,
+  "abstract": "  Monitoring wastewater concentrations of SARS-CoV-2 yields a low-cost,\nnoninvasive method for tracking disease prevalence and provides early warning\nsigns of upcoming outbreaks in the serviced communities. There is tremendous\nclinical and public health interest in understanding the exact dynamics between\nwastewater viral loads and infection rates in the population. As both data\nsources may contain substantial noise and missingness, in addition to spatial\nand temporal dependencies, properly modeling this relationship must address\nthese numerous complexities simultaneously while providing interpretable and\nclear insights. We propose a novel Bayesian functional concurrent regression\nmodel that accounts for both spatial and temporal correlations while estimating\nthe dynamic effects between wastewater concentrations and positivity rates over\ntime. We explicitly model the time lag between the two series and provide full\nposterior inference on the possible delay between spikes in wastewater\nconcentrations and subsequent outbreaks. We estimate a time lag likely between\n5 to 11 days between spikes in wastewater levels and reported clinical\npositivity rates. Additionally, we find a dynamic relationship between\nwastewater concentration levels and the strength of its association with\npositivity rates that fluctuates between outbreaks and non-outbreaks.\n",
+  "subjects": [
+    "Statistics/Methodology",
+    "Statistics/Applications"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "Za-FdO1JpDsgpWTNXGPsbG86cwd1WgddyrULO8YqOf8",
+  "pdfSize": "2881526"
+}

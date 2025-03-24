@@ -1,0 +1,57 @@
+{
+  "id": "2412.10547",
+  "title": "Computational Analysis of the Temperature Profile Developed for a Hot\n  Zone of 2500{\\deg}C in an Induction Furnace",
+  "authors": "Juan C. Herrera, Laura L. Sandoval, Piyush Kumar, Sanjay S. Kumar,\n  Arturo Rodriguez, Vinod Kumar, Arturo Bronson",
+  "authorsParsed": [
+    [
+      "Herrera",
+      "Juan C.",
+      ""
+    ],
+    [
+      "Sandoval",
+      "Laura L.",
+      ""
+    ],
+    [
+      "Kumar",
+      "Piyush",
+      ""
+    ],
+    [
+      "Kumar",
+      "Sanjay S.",
+      ""
+    ],
+    [
+      "Rodriguez",
+      "Arturo",
+      ""
+    ],
+    [
+      "Kumar",
+      "Vinod",
+      ""
+    ],
+    [
+      "Bronson",
+      "Arturo",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 13 Dec 2024 20:49:36 GMT"
+    }
+  ],
+  "updateDate": "2024-12-17",
+  "timestamp": 1734122976000,
+  "abstract": "  Temperature gradients developed at ultra-high temperatures create a challenge\nfor temperature measurements that are required for material processing. At\nultra-high temperatures, the components of the system can react and change\nphases depending on their thermodynamic stability. These reactions change the\nsystem's physical properties, such as thermal conductivity and fluidity. This\nphenomenon complicates the extrapolation of temperature measurements, as they\ndepend on the thermal conductivity of multiple insulating layers. The proposed\nmodel is an induction furnace employing an electromagnetic field to generate\nheat reaching 2500 degrees Celsius. A heat transfer simulation applying the\nfinite element method determined temperatures and verified experimentally at\nkey locations on the surface of the experimental setup within the furnace. The\ncomputed temperature profile of cylindrical graphite crucibles embedded in a\nlarger cylindrical graphite body surrounded by zirconia grog is determined.\nCompared to experimental results, the simulation showed a percentage error of\napproximately 3.4 percent, confirming its accuracy.\n",
+  "subjects": [
+    "Physics/Computational Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "iON1FtSLQrwwDOwb96j-vcRiTrTt5V9fqybRtJAt6pk",
+  "pdfSize": "1389755"
+}

@@ -1,0 +1,55 @@
+{
+  "id": "2412.03278",
+  "title": "Generating Synthetic Genotypes using Diffusion Models",
+  "authors": "Philip Kenneweg and Raghuram Dandinasivara and Xiao Luo and Barbara\n  Hammer and Alexander Sch\\\"onhuth",
+  "authorsParsed": [
+    [
+      "Kenneweg",
+      "Philip",
+      ""
+    ],
+    [
+      "Dandinasivara",
+      "Raghuram",
+      ""
+    ],
+    [
+      "Luo",
+      "Xiao",
+      ""
+    ],
+    [
+      "Hammer",
+      "Barbara",
+      ""
+    ],
+    [
+      "Schönhuth",
+      "Alexander",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 4 Dec 2024 12:37:59 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Fri, 10 Jan 2025 13:16:55 GMT"
+    },
+    {
+      "version": "v3",
+      "created": "Thu, 30 Jan 2025 12:14:35 GMT"
+    }
+  ],
+  "updateDate": "2025-01-31",
+  "timestamp": 1733315879000,
+  "abstract": "  In this paper, we introduce the first diffusion model designed to generate\ncomplete synthetic human genotypes, which, by standard protocols, one can\nstraightforwardly expand into full-length, DNA-level genomes. The synthetic\ngenotypes mimic real human genotypes without just reproducing known genotypes,\nin terms of approved metrics. When training biomedically relevant classifiers\nwith synthetic genotypes, accuracy is near-identical to the accuracy achieved\nwhen training classifiers with real data. We further demonstrate that\naugmenting small amounts of real with synthetically generated genotypes\ndrastically improves performance rates. This addresses a significant challenge\nin translational human genetics: real human genotypes, although emerging in\nlarge volumes from genome wide association studies, are sensitive private data,\nwhich limits their public availability. Therefore, the integration of\nadditional, insensitive data when striving for rapid sharing of biomedical\nknowledge of public interest appears imperative.\n",
+  "subjects": [
+    "Computer Science/Computational Engineering, Finance, and Science"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "DioVimlhzpHmMr0psUQpvO0q6KDY_zxkU1iPfv2tK6g",
+  "pdfSize": "929212"
+}

@@ -1,0 +1,34 @@
+{
+  "id": "2412.01579",
+  "title": "Amplitude response and square wave describing functions",
+  "authors": "Thomas Chaffey, Fulvio Forni",
+  "authorsParsed": [
+    [
+      "Chaffey",
+      "Thomas",
+      ""
+    ],
+    [
+      "Forni",
+      "Fulvio",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 2 Dec 2024 15:01:08 GMT"
+    }
+  ],
+  "updateDate": "2024-12-03",
+  "timestamp": 1733151668000,
+  "abstract": "  An analogue of the describing function method is developed using square waves\nrather than sinusoids. Static nonlinearities map square waves to square waves,\nand their behavior is characterized by their response to square waves of\nvarying amplitude - their amplitude response. The output of an LTI system to a\nsquare wave input is approximated by a square wave, to give an analogue of the\ndescribing function. The classical describing function method for predicting\noscillations in feedback interconnections is generalized to this square wave\nsetting, and gives accurate predictions when oscillations are approximately\nsquare.\n",
+  "subjects": [
+    "Electrical Engineering and Systems Science/Systems and Control",
+    "Computer Science/Systems and Control",
+    "Mathematics/Optimization and Control"
+  ],
+  "license": "http://creativecommons.org/licenses/by-sa/4.0/",
+  "blobId": "BhEOLAi0j4n_56q4jcuSrR-niuycs3lZDHWT5llw9E8",
+  "pdfSize": "765816"
+}

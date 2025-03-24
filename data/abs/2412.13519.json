@@ -1,0 +1,33 @@
+{
+  "id": "2412.13519",
+  "title": "Open-Source Protein Language Models for Function Prediction and Protein\n  Design",
+  "authors": "Shivasankaran Vanaja Pandi, Bharath Ramsundar",
+  "authorsParsed": [
+    [
+      "Pandi",
+      "Shivasankaran Vanaja",
+      ""
+    ],
+    [
+      "Ramsundar",
+      "Bharath",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 18 Dec 2024 05:41:15 GMT"
+    }
+  ],
+  "updateDate": "2024-12-19",
+  "timestamp": 1734500475000,
+  "abstract": "  Protein language models (PLMs) have shown promise in improving the\nunderstanding of protein sequences, contributing to advances in areas such as\nfunction prediction and protein engineering. However, training these models\nfrom scratch requires significant computational resources, limiting their\naccessibility. To address this, we integrate a PLM into DeepChem, an\nopen-source framework for computational biology and chemistry, to provide a\nmore accessible platform for protein-related tasks.\n  We evaluate the performance of the integrated model on various protein\nprediction tasks, showing that it achieves reasonable results across\nbenchmarks. Additionally, we present an exploration of generating\nplastic-degrading enzyme candidates using the model's embeddings and latent\nspace manipulation techniques. While the results suggest that further\nrefinement is needed, this approach provides a foundation for future work in\nenzyme design. This study aims to facilitate the use of PLMs in research fields\nlike synthetic biology and environmental sustainability, even for those with\nlimited computational resources.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Quantitative Biology/Biomolecules"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "GGs2qPOzc-lpT9HcatFGnECzv1wj4SeiIG3uAKZ1ikw",
+  "pdfSize": "1630635"
+}

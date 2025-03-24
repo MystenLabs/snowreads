@@ -1,0 +1,48 @@
+{
+  "id": "2412.06956",
+  "title": "Microcontroller-Driven MPPT System for Enhanced Photovoltaic Efficiency:\n  An Experimental Approach in Nepal",
+  "authors": "Diwakar Khadka, Satish Adhikari, Atit Pokharel, Sandeep Marasinee,\n  Aayush Pathak",
+  "authorsParsed": [
+    [
+      "Khadka",
+      "Diwakar",
+      ""
+    ],
+    [
+      "Adhikari",
+      "Satish",
+      ""
+    ],
+    [
+      "Pokharel",
+      "Atit",
+      ""
+    ],
+    [
+      "Marasinee",
+      "Sandeep",
+      ""
+    ],
+    [
+      "Pathak",
+      "Aayush",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 9 Dec 2024 20:04:50 GMT"
+    }
+  ],
+  "updateDate": "2024-12-11",
+  "timestamp": 1733774690000,
+  "abstract": "  Solar energy utilization in places like Nepal, is often obstructed by\nunpredicted environmental factors and existing technological barriers. The\nchallenges encountered often result in fluctuating energy outputs, hindering\nthe transition to greener energy solutions. To tackle these issues, this study\nintroduces a custom-designed Maximum Power Point Tracking (MPPT) controller,\nseamlessly incorporated into a microcontroller-based battery charging system.\nThis approach seeks to enhance the efficiency of photovoltaic (PV) systems,\naligning with the global shift towards renewables. The research's primary\nobjective is to enhance PV module power yield employing MPPT techniques,\nthereby reducing dependency on non-renewable energy sources. Key goals include\nreal-time MPP tracking for optimal power extraction from PV modules and the\nintegration of a real-time monitoring mechanism for PV and battery states.\nLeveraging a coordinated interplay of sensors measuring temperature, voltage,\nand current, vital metrics are fed to the microcontroller. This, in turn,\ngenerates a precise Pulse Width Modulation (PWM) signal, fine-tuning the\nvoltage regulation of the buck-boost converter Metal Oxide Semiconductor Field\nEffect Transistor (MOSFET) for optimal operation. The adopted approach\nemphasizes monitoring environmental metrics, overseeing power outputs, and\ngenerating PWM signals to adeptly manage the buck-boost converter MOSFET\nvoltage. Concurrently, data is transmitted hourly to a cloud platform,\nfacilitating real-time monitoring capabilities showcasing the IoT application.\nAs a result of these integrations, an efficiency improvement of approximately\n37.28% was observed. In essence, this research underscores the profound impact\nof merging advanced technologies within the renewable energy sector, offering a\nrobust blueprint for enhancing energy stability and productivity.\n",
+  "subjects": [
+    "Electrical Engineering and Systems Science/Systems and Control",
+    "Computer Science/Systems and Control"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "3GQSl7W8WfrBPqtZ9ao9qOrMVZEmrB3kPcaDEfykEzc",
+  "pdfSize": "876912"
+}

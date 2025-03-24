@@ -1,0 +1,51 @@
+{
+  "id": "2412.10710",
+  "title": "Virtual Trial Room with Computer Vision and Machine Learning",
+  "authors": "Tulashi Prasad Joshi, Amrendra Kumar Yadav, Arjun Chhetri, Suraj\n  Agrahari, Umesh Kanta Ghimire",
+  "authorsParsed": [
+    [
+      "Joshi",
+      "Tulashi Prasad",
+      ""
+    ],
+    [
+      "Yadav",
+      "Amrendra Kumar",
+      ""
+    ],
+    [
+      "Chhetri",
+      "Arjun",
+      ""
+    ],
+    [
+      "Agrahari",
+      "Suraj",
+      ""
+    ],
+    [
+      "Ghimire",
+      "Umesh Kanta",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 14 Dec 2024 06:50:10 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Tue, 17 Dec 2024 13:41:32 GMT"
+    }
+  ],
+  "updateDate": "2024-12-18",
+  "timestamp": 1734159010000,
+  "abstract": "  Online shopping has revolutionized the retail industry, providing customers\nwith convenience and accessibility. However, customers often hesitate to\npurchase wearable products such as watches, jewelry, glasses, shoes, and\nclothes due to the lack of certainty regarding fit and suitability. This leads\nto significant return rates, causing problems for both customers and vendors.\nTo address this issue, a platform called the Virtual Trial Room with Computer\nVision and Machine Learning is designed which enables customers to easily check\nwhether a product will fit and suit them or not. To achieve this, an\nAI-generated 3D model of the human head was created from a single 2D image\nusing the DECA model. This 3D model was then superimposed with a custom-made 3D\nmodel of glass which is based on real-world measurements and fitted over the\nhuman head. To replicate the real-world look and feel, the model was retouched\nwith textures, lightness, and smoothness. Furthermore, a full-stack application\nwas developed utilizing various fornt-end and back-end technologies. This\napplication enables users to view 3D-generated results on the website,\nproviding an immersive and interactive experience.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "5Osb9ZnJA82enQolTGZm31FOHxrXAeNN77ee081715s",
+  "pdfSize": "3665039"
+}

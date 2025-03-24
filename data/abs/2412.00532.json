@@ -1,0 +1,61 @@
+{
+  "id": "2412.00532",
+  "title": "ChemTEB: Chemical Text Embedding Benchmark, an Overview of Embedding\n  Models Performance & Efficiency on a Specific Domain",
+  "authors": "Ali Shiraee Kasmaee, Mohammad Khodadad, Mohammad Arshi Saloot,\n  Nicholas Sherck, Stephen Dokas, Hamidreza Mahyar, Soheila Samiee",
+  "authorsParsed": [
+    [
+      "Kasmaee",
+      "Ali Shiraee",
+      ""
+    ],
+    [
+      "Khodadad",
+      "Mohammad",
+      ""
+    ],
+    [
+      "Saloot",
+      "Mohammad Arshi",
+      ""
+    ],
+    [
+      "Sherck",
+      "Nicholas",
+      ""
+    ],
+    [
+      "Dokas",
+      "Stephen",
+      ""
+    ],
+    [
+      "Mahyar",
+      "Hamidreza",
+      ""
+    ],
+    [
+      "Samiee",
+      "Soheila",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 30 Nov 2024 16:45:31 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Thu, 23 Jan 2025 20:59:08 GMT"
+    }
+  ],
+  "updateDate": "2025-01-27",
+  "timestamp": 1732985131000,
+  "abstract": "  Recent advancements in language models have started a new era of superior\ninformation retrieval and content generation, with embedding models playing an\nimportant role in optimizing data representation efficiency and performance.\nWhile benchmarks like the Massive Text Embedding Benchmark (MTEB) have\nstandardized the evaluation of general domain embedding models, a gap remains\nin specialized fields such as chemistry, which require tailored approaches due\nto domain-specific challenges. This paper introduces a novel benchmark, the\nChemical Text Embedding Benchmark (ChemTEB), designed specifically for the\nchemical sciences. ChemTEB addresses the unique linguistic and semantic\ncomplexities of chemical literature and data, offering a comprehensive suite of\ntasks on chemical domain data. Through the evaluation of 34 open-source and\nproprietary models using this benchmark, we illuminate the strengths and\nweaknesses of current methodologies in processing and understanding chemical\ninformation. Our work aims to equip the research community with a standardized,\ndomain-specific evaluation framework, promoting the development of more precise\nand efficient NLP models for chemistry-related applications. Furthermore, it\nprovides insights into the performance of generic models in a domain-specific\ncontext. ChemTEB comes with open-source code and data, contributing further to\nits accessibility and utility.\n",
+  "subjects": [
+    "Computer Science/Computation and Language"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "i87oGluvCoE3nK6hnQKwNBWa-4llU3h6nD7hIErAz7s",
+  "pdfSize": "829912"
+}

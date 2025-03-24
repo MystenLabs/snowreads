@@ -1,0 +1,52 @@
+{
+  "id": "2412.04318",
+  "title": "The Hyperfitting Phenomenon: Sharpening and Stabilizing LLMs for\n  Open-Ended Text Generation",
+  "authors": "Fredrik Carlsson, Fangyu Liu, Daniel Ward, Murathan Kurfali, Joakim\n  Nivre",
+  "authorsParsed": [
+    [
+      "Carlsson",
+      "Fredrik",
+      ""
+    ],
+    [
+      "Liu",
+      "Fangyu",
+      ""
+    ],
+    [
+      "Ward",
+      "Daniel",
+      ""
+    ],
+    [
+      "Kurfali",
+      "Murathan",
+      ""
+    ],
+    [
+      "Nivre",
+      "Joakim",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 5 Dec 2024 16:34:20 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Wed, 26 Feb 2025 17:51:31 GMT"
+    }
+  ],
+  "updateDate": "2025-02-27",
+  "timestamp": 1733416460000,
+  "abstract": "  This paper introduces the counter-intuitive generalization results of\noverfitting pre-trained large language models (LLMs) on very small datasets. In\nthe setting of open-ended text generation, it is well-documented that LLMs tend\nto generate repetitive and dull sequences, a phenomenon that is especially\napparent when generating using greedy decoding. This issue persists even with\nstate-of-the-art LLMs containing billions of parameters, trained via next-token\nprediction on large datasets. We find that by further fine-tuning these models\nto achieve a near-zero training loss on a small set of samples -- a process we\nrefer to as hyperfitting -- the long-sequence generative capabilities are\ngreatly enhanced. Greedy decoding with these Hyperfitted models even outperform\nTop-P sampling over long-sequences, both in terms of diversity and human\npreferences. This phenomenon extends to LLMs of various sizes, different\ndomains, and even autoregressive image generation. We further find this\nphenomena to be distinctly different from that of Grokking and double descent.\nSurprisingly, our experiments indicate that hyperfitted models rarely fall into\nrepeating sequences they were trained on, and even explicitly blocking these\nsequences results in high-quality output. All hyperfitted models produce\nextremely low-entropy predictions, often allocating nearly all probability to a\nsingle token.\n",
+  "subjects": [
+    "Computer Science/Computation and Language",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "_Jt4eqth42L0XBLTYaOPgpyV-fPJbp7q45VR2y7vzs0",
+  "pdfSize": "2671280"
+}

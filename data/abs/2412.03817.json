@@ -1,0 +1,42 @@
+{
+  "id": "2412.03817",
+  "title": "Detecting Redundant Health Survey Questions Using Language-agnostic BERT\n  Sentence Embedding (LaBSE)",
+  "authors": "Sunghoon Kang, Hyeoneui Kim, Hyewon Park, Ricky Taira",
+  "authorsParsed": [
+    [
+      "Kang",
+      "Sunghoon",
+      ""
+    ],
+    [
+      "Kim",
+      "Hyeoneui",
+      ""
+    ],
+    [
+      "Park",
+      "Hyewon",
+      ""
+    ],
+    [
+      "Taira",
+      "Ricky",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 5 Dec 2024 02:18:35 GMT"
+    }
+  ],
+  "updateDate": "2024-12-06",
+  "timestamp": 1733365115000,
+  "abstract": "  The goal of this work was to compute the semantic similarity among publicly\navailable health survey questions in order to facilitate the standardization of\nsurvey-based Person-Generated Health Data (PGHD). We compiled various health\nsurvey questions authored in both English and Korean from the NIH CDE\nRepository, PROMIS, Korean public health agencies, and academic publications.\nQuestions were drawn from various health lifelog domains. A randomized question\npairing scheme was used to generate a Semantic Text Similarity (STS) dataset\nconsisting of 1758 question pairs. Similarity scores between each question pair\nwere assigned by two human experts. The tagged dataset was then used to build\nthree classifiers featuring: Bag-of-Words, SBERT with BERT-based embeddings,\nand SBRET with LaBSE embeddings. The algorithms were evaluated using\ntraditional contingency statistics. Among the three algorithms, SBERT-LaBSE\ndemonstrated the highest performance in assessing question similarity across\nboth languages, achieving an Area Under the Receiver Operating Characteristic\n(ROC) and Precision-Recall Curves of over 0.99. Additionally, it proved\neffective in identifying cross-lingual semantic similarities.The SBERT-LaBSE\nalgorithm excelled at aligning semantically equivalent sentences across both\nlanguages but encountered challenges in capturing subtle nuances and\nmaintaining computational efficiency. Future research should focus on testing\nwith larger multilingual datasets and on calibrating and normalizing scores\nacross the health lifelog domains to improve consistency. This study introduces\nthe SBERT-LaBSE algorithm for calculating semantic similarity across two\nlanguages, showing it outperforms BERT-based models and the Bag of Words\napproach, highlighting its potential to improve semantic interoperability of\nsurvey-based PGHD across language barriers.\n",
+  "subjects": [
+    "Computer Science/Computation and Language"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "vh5032m77g2INYQ_BUKYbZOmB1c9UbrrdDoVKDx84wQ",
+  "pdfSize": "1839193"
+}

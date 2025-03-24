@@ -1,0 +1,37 @@
+{
+  "id": "2412.06653",
+  "title": "A Novel Approach to Process Discovery with Enhanced Loop Handling",
+  "authors": "Ali Nour Eldin and Benjamin Dalmas and Walid Gaaloul",
+  "authorsParsed": [
+    [
+      "Eldin",
+      "Ali Nour",
+      ""
+    ],
+    [
+      "Dalmas",
+      "Benjamin",
+      ""
+    ],
+    [
+      "Gaaloul",
+      "Walid",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 6 Dec 2024 17:00:53 GMT"
+    }
+  ],
+  "updateDate": "2024-12-10",
+  "timestamp": 1733504453000,
+  "abstract": "  Automated process discovery from event logs is a key component of process\nmining, allowing companies to acquire meaningful insights into their business\nprocesses. Despite significant research, present methods struggle to balance\nimportant quality dimensions: fitness, precision, generalization, and\ncomplexity, but is limited when dealing with complex loop structures. This\npaper introduces Bonita Miner, a novel approach to process model discovery that\ngenerates behaviorally accurate Business Process Model and Notation (BPMN)\ndiagrams. Bonita Miner incorporates an advanced filtering mechanism for\nDirectly Follows Graphs (DFGs) alongside innovative algorithms designed to\ncapture concurrency, splits, and loops, effectively addressing limitations of\nbalancing as much as possible these four metrics, either there exists a loop,\nwhich challenge in existing works. Our approach produces models that are\nsimpler and more reflective of the behavior of real-world processes, including\ncomplex loop dynamics. Empirical evaluations using real-world event logs\ndemonstrate that Bonita Miner outperforms existing methods in fitness,\nprecision, and generalization, while maintaining low model complexity.\n",
+  "subjects": [
+    "Computer Science/Databases"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "GELJ4F8lnqi5rGkNGQkEa-fSk-OkSOirrUlUltR0J-I",
+  "pdfSize": "2644517"
+}

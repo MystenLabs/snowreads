@@ -1,0 +1,46 @@
+{
+  "id": "2412.07296",
+  "title": "Diffusion behavior of Li ions in crystalline and amorphous Li-Zr-O and\n  Li-Nb-O phases",
+  "authors": "Daniel Mutter, Diego A. Pantano, Christian Els\\\"asser, Daniel F. Urban",
+  "authorsParsed": [
+    [
+      "Mutter",
+      "Daniel",
+      ""
+    ],
+    [
+      "Pantano",
+      "Diego A.",
+      ""
+    ],
+    [
+      "Elsässer",
+      "Christian",
+      ""
+    ],
+    [
+      "Urban",
+      "Daniel F.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 10 Dec 2024 08:25:32 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Tue, 28 Jan 2025 13:34:29 GMT"
+    }
+  ],
+  "updateDate": "2025-01-29",
+  "timestamp": 1733819132000,
+  "abstract": "  Li containing transition metal oxides are known as good ionic conductors.\nPerforming classical molecular dynamics simulations, the diffusion behavior of\nLi ions is investigated in crystalline and amorphous phases with the\nstoichiometries Li$_2$ZrO$_3$ and LiNbO$_3$. We first demonstrate the stability\nof the crystal structures for the used interatomic potential model and then\nanalyze the amorphous phases, which result from melt-and-quench simulations, in\nterms of radial distribution functions. Diffusivities of Li ions in those\nsystems are obtained from a statistical Arrhenius analysis of mean square\ndisplacement curves at different temperatures. The crystalline phase of\nLi$_2$ZrO$_3$ exhibits two well-defined migration mechanisms: vacancy-mediated\nmigration is dominant below and a site exchange of Li ions above a crossover\nregion between about 1700 and 1800 K. The latter mechanism also prevails in the\namorphous phases of Li$_2$ZrO$_3$ with a strongly reduced activation energy,\nwhich is due to a smaller equilibrium separation of Li ions as in the crystal\nstructure. This migration mechanism is found in amorphous LiNbO$_3$, too.\n",
+  "subjects": [
+    "Condensed Matter/Materials Science"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "PP3zV-MclMEGPm4jmptVniqrHW5httvrOqAAnnK38cQ",
+  "pdfSize": "1425181"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "2412.05348",
+  "title": "Accurate early detection of Parkinson's disease from SPECT imaging\n  through Convolutional Neural Networks",
+  "authors": "R. Prashanth",
+  "authorsParsed": [
+    [
+      "Prashanth",
+      "R.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 6 Dec 2024 16:14:02 GMT"
+    }
+  ],
+  "updateDate": "2024-12-10",
+  "timestamp": 1733501642000,
+  "abstract": "  Early and accurate detection of Parkinson's disease (PD) is a crucial\ndiagnostic challenge carrying immense clinical significance, for effective\ntreatment regimens and patient management. For instance, a group of subjects\ntermed SWEDD who are clinically diagnosed as PD, but show normal Single Photon\nEmission Computed Tomography (SPECT) scans, change their diagnosis as non-PD\nafter few years of follow up, and in the meantime, they are treated with PD\nmedications which do more harm than good. In this work, machine learning models\nare developed using features from SPECT images to detect early PD and SWEDD\nsubjects from normal. These models were observed to perform with high accuracy.\nIt is inferred from the study that these diagnostic models carry potential to\nhelp PD clinicians in the diagnostic process\n",
+  "subjects": [
+    "Electrical Engineering and Systems Science/Image and Video Processing",
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Machine Learning",
+    "Statistics/Applications"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "Gb0TOKTCreZTygi0vQRfCTihBn2Hm1PW-86OY36iazA",
+  "pdfSize": "435825"
+}

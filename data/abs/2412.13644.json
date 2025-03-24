@@ -1,0 +1,42 @@
+{
+  "id": "2412.13644",
+  "title": "Sequential Rank and Preference Learning with the Bayesian Mallows Model",
+  "authors": "{\\O}ystein S{\\o}rensen and Anja Stein and Waldir Leoncio Netto and\n  David S. Leslie",
+  "authorsParsed": [
+    [
+      "Sørensen",
+      "Øystein",
+      ""
+    ],
+    [
+      "Stein",
+      "Anja",
+      ""
+    ],
+    [
+      "Netto",
+      "Waldir Leoncio",
+      ""
+    ],
+    [
+      "Leslie",
+      "David S.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 18 Dec 2024 09:21:18 GMT"
+    }
+  ],
+  "updateDate": "2024-12-19",
+  "timestamp": 1734513678000,
+  "abstract": "  The Bayesian Mallows model is a flexible tool for analyzing data in the form\nof complete or partial rankings, and transitive or intransitive pairwise\npreferences. In many potential applications of preference learning, data arrive\nsequentially and it is of practical interest to update posterior beliefs and\npredictions efficiently, based on the currently available data. Despite this,\nmost algorithms proposed so far have focused on batch inference. In this paper\nwe present an algorithm for sequentially estimating the posterior distributions\nof the Bayesian Mallows model using nested sequential Monte Carlo. As it\nrequires minimum user input in form of tuning parameters, is straightforward to\nparallelize, and returns the marginal likelihood as a direct byproduct of\nestimation, the algorithm is an alternative to Markov chain Monte Carlo\ntechniques also in batch estimation settings.\n",
+  "subjects": [
+    "Statistics/Computation"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "e4gm8iPkGhh1FS3YIxwKIrKAqxKkq3-8XZWPXVsO1d8",
+  "pdfSize": "1958294"
+}

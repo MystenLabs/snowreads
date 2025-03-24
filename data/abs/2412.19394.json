@@ -1,0 +1,77 @@
+{
+  "id": "2412.19394",
+  "title": "An Engorgio Prompt Makes Large Language Model Babble on",
+  "authors": "Jianshuo Dong, Ziyuan Zhang, Qingjie Zhang, Tianwei Zhang, Hao Wang,\n  Hewu Li, Qi Li, Chao Zhang, Ke Xu, and Han Qiu",
+  "authorsParsed": [
+    [
+      "Dong",
+      "Jianshuo",
+      ""
+    ],
+    [
+      "Zhang",
+      "Ziyuan",
+      ""
+    ],
+    [
+      "Zhang",
+      "Qingjie",
+      ""
+    ],
+    [
+      "Zhang",
+      "Tianwei",
+      ""
+    ],
+    [
+      "Wang",
+      "Hao",
+      ""
+    ],
+    [
+      "Li",
+      "Hewu",
+      ""
+    ],
+    [
+      "Li",
+      "Qi",
+      ""
+    ],
+    [
+      "Zhang",
+      "Chao",
+      ""
+    ],
+    [
+      "Xu",
+      "Ke",
+      ""
+    ],
+    [
+      "Qiu",
+      "Han",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 27 Dec 2024 01:00:23 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Thu, 13 Feb 2025 03:00:18 GMT"
+    }
+  ],
+  "updateDate": "2025-02-14",
+  "timestamp": 1735261223000,
+  "abstract": "  Auto-regressive large language models (LLMs) have yielded impressive\nperformance in many real-world tasks. However, the new paradigm of these LLMs\nalso exposes novel threats. In this paper, we explore their vulnerability to\ninference cost attacks, where a malicious user crafts Engorgio prompts to\nintentionally increase the computation cost and latency of the inference\nprocess. We design Engorgio, a novel methodology, to efficiently generate\nadversarial Engorgio prompts to affect the target LLM's service availability.\nEngorgio has the following two technical contributions. (1) We employ a\nparameterized distribution to track LLMs' prediction trajectory. (2) Targeting\nthe auto-regressive nature of LLMs' inference process, we propose novel loss\nfunctions to stably suppress the appearance of the <EOS> token, whose\noccurrence will interrupt the LLM's generation process. We conduct extensive\nexperiments on 13 open-sourced LLMs with parameters ranging from 125M to 30B.\nThe results show that Engorgio prompts can successfully induce LLMs to generate\nabnormally long outputs (i.e., roughly 2-13$\\times$ longer to reach 90%+ of the\noutput length limit) in a white-box scenario and our real-world experiment\ndemonstrates Engergio's threat to LLM service with limited computing resources.\nThe code is released at: https://github.com/jianshuod/Engorgio-prompt.\n",
+  "subjects": [
+    "Computer Science/Cryptography and Security",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "thgNKXhDENQCxhdPFUz4JeW2daEq3fAMBIE7dZJBmWo",
+  "pdfSize": "1249938"
+}

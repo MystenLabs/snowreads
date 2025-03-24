@@ -1,0 +1,46 @@
+{
+  "id": "2412.19129",
+  "title": "The effect of grain boundary misorientation on hydrogen flux using a\n  phase-field based diffusion and trapping model",
+  "authors": "Abdelrahman Hussein, Byungki Kim, Kim Verbeken, Tom Depover",
+  "authorsParsed": [
+    [
+      "Hussein",
+      "Abdelrahman",
+      ""
+    ],
+    [
+      "Kim",
+      "Byungki",
+      ""
+    ],
+    [
+      "Verbeken",
+      "Kim",
+      ""
+    ],
+    [
+      "Depover",
+      "Tom",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 26 Dec 2024 09:12:15 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Mon, 30 Dec 2024 08:04:00 GMT"
+    }
+  ],
+  "updateDate": "2024-12-31",
+  "timestamp": 1735204335000,
+  "abstract": "  Understanding hydrogen-grain boundary (GB) interactions is critical to the\nanalysis of hydrogen embrittlement in metals. This work presents a mesoscale\nfully kinetic model to investigate the effect of GB misorientation on hydrogen\ndiffusion and trapping using phase-field based representative volume elements\n(RVEs). The flux equation consists of three terms: a diffusive term and two\nterms for high and low angle grain boundary (H/LAGB) trapping. Uptake\nsimulations showed that decreasing the grain size resulted in higher hydrogen\ncontent due to increasing the GB density. Permeation simulations showed that\nGBs are high flux paths due to their higher enrichment with hydrogen. Since\nHAGBs have higher enrichment than LAGBs, due to their higher trap-binding\nenergy, they generally have the highest hydrogen flux. Nevertheless, the flux\nshows a convoluted behavior as it depends on the local concentration, alignment\nof GB with external concentration gradient as well as the GB network\nconnectivity. Finally, decreasing the grain size resulted in a larger\nbreak-through time and a larger steady-state exit flux.\n",
+  "subjects": [
+    "Condensed Matter/Materials Science"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "7Hki0o0WkAcRefPJdtfz6afXIt1o4gqKhova-odYnd4",
+  "pdfSize": "4333859"
+}

@@ -1,0 +1,62 @@
+{
+  "id": "2412.10050",
+  "title": "ManipGPT: Is Affordance Segmentation by Large Vision Models Enough for\n  Articulated Object Manipulation?",
+  "authors": "Taewhan Kim, Hojin Bae, Zeming Li, Xiaoqi Li, Iaroslav Ponomarenko,\n  Ruihai Wu, Hao Dong",
+  "authorsParsed": [
+    [
+      "Kim",
+      "Taewhan",
+      ""
+    ],
+    [
+      "Bae",
+      "Hojin",
+      ""
+    ],
+    [
+      "Li",
+      "Zeming",
+      ""
+    ],
+    [
+      "Li",
+      "Xiaoqi",
+      ""
+    ],
+    [
+      "Ponomarenko",
+      "Iaroslav",
+      ""
+    ],
+    [
+      "Wu",
+      "Ruihai",
+      ""
+    ],
+    [
+      "Dong",
+      "Hao",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 13 Dec 2024 11:22:01 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Wed, 18 Dec 2024 07:08:26 GMT"
+    }
+  ],
+  "updateDate": "2024-12-19",
+  "timestamp": 1734088921000,
+  "abstract": "  Visual actionable affordance has emerged as a transformative approach in\nrobotics, focusing on perceiving interaction areas prior to manipulation.\nTraditional methods rely on pixel sampling to identify successful interaction\nsamples or processing pointclouds for affordance mapping. However, these\napproaches are computationally intensive and struggle to adapt to diverse and\ndynamic environments. This paper introduces ManipGPT, a framework designed to\npredict optimal interaction areas for articulated objects using a large\npre-trained vision transformer (ViT). We created a dataset of 9.9k simulated\nand real images to bridge the sim-to-real gap and enhance real-world\napplicability. By fine-tuning the vision transformer on this small dataset, we\nsignificantly improved part-level affordance segmentation, adapting the model's\nin-context segmentation capabilities to robot manipulation scenarios. This\nenables effective manipulation across simulated and real-world environments by\ngenerating part-level affordance masks, paired with an impedance adaptation\npolicy, sufficiently eliminating the need for complex datasets or perception\nsystems.\n",
+  "subjects": [
+    "Computer Science/Robotics",
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "h5QfCwyWR9prUag8gh-BadDZYONflnl8LtDV8yXkGKw",
+  "pdfSize": "1786400"
+}

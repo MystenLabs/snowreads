@@ -1,0 +1,79 @@
+{
+  "id": "2412.18431",
+  "title": "GeAR: Graph-enhanced Agent for Retrieval-augmented Generation",
+  "authors": "Zhili Shen, Chenxin Diao, Pavlos Vougiouklis, Pascual Merita, Shriram\n  Piramanayagam, Damien Graux, Dandan Tu, Zeren Jiang, Ruofei Lai, Yang Ren,\n  Jeff Z. Pan",
+  "authorsParsed": [
+    [
+      "Shen",
+      "Zhili",
+      ""
+    ],
+    [
+      "Diao",
+      "Chenxin",
+      ""
+    ],
+    [
+      "Vougiouklis",
+      "Pavlos",
+      ""
+    ],
+    [
+      "Merita",
+      "Pascual",
+      ""
+    ],
+    [
+      "Piramanayagam",
+      "Shriram",
+      ""
+    ],
+    [
+      "Graux",
+      "Damien",
+      ""
+    ],
+    [
+      "Tu",
+      "Dandan",
+      ""
+    ],
+    [
+      "Jiang",
+      "Zeren",
+      ""
+    ],
+    [
+      "Lai",
+      "Ruofei",
+      ""
+    ],
+    [
+      "Ren",
+      "Yang",
+      ""
+    ],
+    [
+      "Pan",
+      "Jeff Z.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 24 Dec 2024 13:45:22 GMT"
+    }
+  ],
+  "updateDate": "2024-12-25",
+  "timestamp": 1735047922000,
+  "abstract": "  Retrieval-augmented generation systems rely on effective document retrieval\ncapabilities. By design, conventional sparse or dense retrievers face\nchallenges in multi-hop retrieval scenarios. In this paper, we present GeAR,\nwhich advances RAG performance through two key innovations: (i) graph\nexpansion, which enhances any conventional base retriever, such as BM25, and\n(ii) an agent framework that incorporates graph expansion. Our evaluation\ndemonstrates GeAR's superior retrieval performance on three multi-hop question\nanswering datasets. Additionally, our system achieves state-of-the-art results\nwith improvements exceeding 10% on the challenging MuSiQue dataset, while\nrequiring fewer tokens and iterations compared to other multi-step retrieval\nsystems.\n",
+  "subjects": [
+    "Computer Science/Computation and Language",
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Information Retrieval"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "NPHYachbi8DNpqITub5Z9R9dvJhvqH10INHMa-oLJ78",
+  "pdfSize": "1463099"
+}

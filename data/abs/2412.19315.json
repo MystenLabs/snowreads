@@ -1,0 +1,37 @@
+{
+  "id": "2412.19315",
+  "title": "Towards a Single ASR Model That Generalizes to Disordered Speech",
+  "authors": "Jimmy Tobin, Katrin Tomanek, Subhashini Venugopalan",
+  "authorsParsed": [
+    [
+      "Tobin",
+      "Jimmy",
+      ""
+    ],
+    [
+      "Tomanek",
+      "Katrin",
+      ""
+    ],
+    [
+      "Venugopalan",
+      "Subhashini",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 26 Dec 2024 18:39:15 GMT"
+    }
+  ],
+  "updateDate": "2024-12-30",
+  "timestamp": 1735238355000,
+  "abstract": "  This study investigates the impact of integrating a dataset of disordered\nspeech recordings ($\\sim$1,000 hours) into the fine-tuning of a near\nstate-of-the-art ASR baseline system. Contrary to what one might expect,\ndespite the data being less than 1% of the training data of the ASR system, we\nfind a considerable improvement in disordered speech recognition accuracy.\nSpecifically, we observe a 33% improvement on prompted speech, and a 26%\nimprovement on a newly gathered spontaneous, conversational dataset of\ndisordered speech. Importantly, there is no significant performance decline on\nstandard speech recognition benchmarks. Further, we observe that the proposed\ntuning strategy helps close the gap between the baseline system and\npersonalized models by 64% highlighting the significant progress as well as the\nroom for improvement. Given the substantial benefits of our findings, this\nexperiment suggests that from a fairness perspective, incorporating a small\nfraction of high quality disordered speech data in a training recipe is an easy\nstep that could be done to make speech technology more accessible for users\nwith speech disabilities.\n",
+  "subjects": [
+    "Electrical Engineering and Systems Science/Audio and Speech Processing"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "Sm_dCSe_bm9QDymdDLZYyk0wAxDssJUCADMf0nvdXtA",
+  "pdfSize": "270665"
+}

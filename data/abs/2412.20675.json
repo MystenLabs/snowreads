@@ -1,0 +1,49 @@
+{
+  "id": "2412.20675",
+  "title": "Improved ICNN-LSTM Model Classification Based on Attitude Sensor Data\n  for Hazardous State Assessment of Magnetic Adhesion Climbing Wall Robots",
+  "authors": "Zhen Ma, He Xu, Jielong Dou, Yi Qin, Xueyu Zhang",
+  "authorsParsed": [
+    [
+      "Ma",
+      "Zhen",
+      ""
+    ],
+    [
+      "Xu",
+      "He",
+      ""
+    ],
+    [
+      "Dou",
+      "Jielong",
+      ""
+    ],
+    [
+      "Qin",
+      "Yi",
+      ""
+    ],
+    [
+      "Zhang",
+      "Xueyu",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 30 Dec 2024 02:59:57 GMT"
+    }
+  ],
+  "updateDate": "2024-12-31",
+  "timestamp": 1735527597000,
+  "abstract": "  Magnetic adhesion tracked climbing robots are widely utilized in\nhigh-altitude inspection, welding, and cleaning tasks due to their ability to\nperform various operations against gravity on vertical or inclined walls.\nHowever, during operation, the robot may experience overturning torque caused\nby its own weight and load, which can lead to the detachment of magnetic plates\nand subsequently pose safety risks. This paper proposes an improved ICNN-LSTM\nnetwork classification method based on Micro-Electro-Mechanical Systems (MEMS)\nattitude sensor data for real-time monitoring and assessment of hazardous\nstates in magnetic adhesion tracked climbing robots. Firstly, a data\nacquisition strategy for attitude sensors capable of capturing minute\nvibrations is designed. Secondly, a feature extraction and classification model\ncombining an Improved Convolutional Neural Network (ICNN) with a Long\nShort-Term Memory (LSTM) network is proposed. Experimental validation\ndemonstrates that the proposed minute vibration sensing method achieves\nsignificant results, and the proposed classification model consistently\nexhibits high accuracy compared to other models. The research findings provide\neffective technical support for the safe operation of climbing robots\n",
+  "subjects": [
+    "Computer Science/Robotics",
+    "Electrical Engineering and Systems Science/Signal Processing",
+    "Physics/Instrumentation and Detectors"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "CmibyayddmrF-VxvbhHXkaz_rs_BFSfuPa8ODM27N6g",
+  "pdfSize": "1503850"
+}

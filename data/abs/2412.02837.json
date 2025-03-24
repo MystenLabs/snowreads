@@ -1,0 +1,47 @@
+{
+  "id": "2412.02837",
+  "title": "Enhancing Robustness of CLIP to Common Corruptions through Bimodal\n  Test-Time Adaptation",
+  "authors": "Sarthak Kumar Maharana, Baoming Zhang, Leonid Karlinsky, Rogerio\n  Feris, Yunhui Guo",
+  "authorsParsed": [
+    [
+      "Maharana",
+      "Sarthak Kumar",
+      ""
+    ],
+    [
+      "Zhang",
+      "Baoming",
+      ""
+    ],
+    [
+      "Karlinsky",
+      "Leonid",
+      ""
+    ],
+    [
+      "Feris",
+      "Rogerio",
+      ""
+    ],
+    [
+      "Guo",
+      "Yunhui",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 3 Dec 2024 21:02:14 GMT"
+    }
+  ],
+  "updateDate": "2024-12-05",
+  "timestamp": 1733259734000,
+  "abstract": "  Although open-vocabulary classification models like Contrastive Language\nImage Pretraining (CLIP) have demonstrated strong zero-shot learning\ncapabilities, their robustness to common image corruptions remains poorly\nunderstood. Through extensive experiments, we show that zero-shot CLIP lacks\nrobustness to common image corruptions at increasing severity levels during\ntest-time, necessitating the adaptation of CLIP to unlabeled corrupted images\nusing test-time adaptation (TTA). However, we found that existing TTA methods\nhave severe limitations in adapting CLIP due to their unimodal nature. To\naddress these limitations, we propose \\framework, a bimodal TTA method\nspecially designed to improve CLIP's robustness to common image corruptions.\nThe key insight of our approach is not only to adapt the visual encoders for\nbetter image feature extraction but also to strengthen the alignment between\nimage and text features by promoting a stronger association between the image\nclass prototype, computed using pseudo-labels, and the corresponding text\nfeature. We evaluate our approach on benchmark image corruption datasets and\nachieve state-of-the-art results in TTA for CLIP, specifically for domains\ninvolving image corruption. Particularly, with a ViT-B/16 vision backbone, we\nobtain mean accuracy improvements of 9.7%, 5.94%, and 5.12% for CIFAR-10C,\nCIFAR-100C, and ImageNet-C, respectively.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "-Nhv_Gs3r8pXOWpd26lj4Gu7tIwEOhxl5RSpC7fCkek",
+  "pdfSize": "20246596"
+}

@@ -1,0 +1,38 @@
+{
+  "id": "2412.01610",
+  "title": "Stochastic Geometry and Dynamical System Analysis of Walker\n  Constellation Networks",
+  "authors": "Chang-Sik Choi, Bon-Jun Ku, Francois Baccelli",
+  "authorsParsed": [
+    [
+      "Choi",
+      "Chang-Sik",
+      ""
+    ],
+    [
+      "Ku",
+      "Bon-Jun",
+      ""
+    ],
+    [
+      "Baccelli",
+      "Francois",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 2 Dec 2024 15:29:54 GMT"
+    }
+  ],
+  "updateDate": "2024-12-03",
+  "timestamp": 1733153394000,
+  "abstract": "  In practice, low Earth orbit (LEO) and medium Earth orbit (MEO) satellite\nnetworks consist of multiple orbits, each populated with many satellites. A\nwidely used spatial architecture for satellites is the Walker constellation,\nwhere the longitudes of orbits are equally spaced and the satellites are\nperiodically distributed along the orbits. In this paper, we develop a\nstochastic geometry model for Walker constellations by constructing orbits that\nare invariant with respect to (w.r.t.) Earth's spin and satellites that are\ninvariant w.r.t. orbit-wise rotation. This model enables an analysis based on\ndynamical systems, which allows one to address structural properties such as\nperiodicity and ergodicity. It also enables a stochastic geometry analysis\nwhere, for a typical user at a given latitude, we derive the performance of\ndownlink communications as a function of key constellation parameters,\nincluding orbit inclination and altitude, the number of orbits, the number of\nsatellites, and the user latitude.\n",
+  "subjects": [
+    "Computer Science/Information Theory",
+    "Mathematics/Information Theory"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "BloNc8CUto-PMrjuW2C2OxEZo5nNMarIqAupnBqZwNY",
+  "pdfSize": "396210"
+}

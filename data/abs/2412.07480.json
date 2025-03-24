@@ -1,0 +1,42 @@
+{
+  "id": "2412.07480",
+  "title": "Optimizing pulsed blowing parameters for active separation control in a\n  one-sided diffuser using reinforcement learning",
+  "authors": "Alexandra M\\\"uller, Tobias Schesny, Ben Steinfurth and Julien Weiss",
+  "authorsParsed": [
+    [
+      "Müller",
+      "Alexandra",
+      ""
+    ],
+    [
+      "Schesny",
+      "Tobias",
+      ""
+    ],
+    [
+      "Steinfurth",
+      "Ben",
+      ""
+    ],
+    [
+      "Weiss",
+      "Julien",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 10 Dec 2024 12:56:40 GMT"
+    }
+  ],
+  "updateDate": "2024-12-11",
+  "timestamp": 1733835400000,
+  "abstract": "  Reinforcement learning is employed to optimize the periodic forcing signal of\na pulsed blowing system that controls flow separation in a fully-turbulent\n$Re_\\theta = 1000$ diffuser flow. Based on the state of the wind tunnel\nexperiment that is determined with wall shear-stress measurements, Proximal\nPolicy Optimization is used to iteratively adjust the forcing signal. Out of\nthe reward functions investigated in this study, the incremental reduction of\nflow reversal per action is shown to be the most sample efficient. Less than\n100 episodes are required to find the parameter combination that ensures the\nhighest control authority for a fixed mass flow consumption. Fully consistent\nwith recent studies, the algorithm suggests that the mass flow is used most\nefficiently when the actuation signal is characterized by a low duty cycle\nwhere the pulse duration is small compared to the pulsation period. The results\npresented in this paper promote the application of reinforcement learning for\noptimization tasks based on turbulent, experimental data.\n",
+  "subjects": [
+    "Physics/Fluid Dynamics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "MxyFkfUC21O62uykSEjzN9wRFtqnt9H9oGrvqB-x3c0",
+  "pdfSize": "950957"
+}

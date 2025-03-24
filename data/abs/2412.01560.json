@@ -1,0 +1,42 @@
+{
+  "id": "2412.01560",
+  "title": "Estimation during Design Phases of Suitable SRAM Cells for PUF\n  Applications Using Separatrix and Mismatch Metrics",
+  "authors": "Abdel Alheyasat, Gabriel Torrens, Sebastia A. Bota, Bartomeu Alorda",
+  "authorsParsed": [
+    [
+      "Alheyasat",
+      "Abdel",
+      ""
+    ],
+    [
+      "Torrens",
+      "Gabriel",
+      ""
+    ],
+    [
+      "Bota",
+      "Sebastia A.",
+      ""
+    ],
+    [
+      "Alorda",
+      "Bartomeu",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 2 Dec 2024 14:47:37 GMT"
+    }
+  ],
+  "updateDate": "2024-12-03",
+  "timestamp": 1733150857000,
+  "abstract": "  Physically unclonable functions (PUFs) are used as low-cost cryptographic\nprimitives in device authentication and secret key creation. SRAM-PUFs are\nwell-known as entropy sources; nevertheless, due of non-deterministic noise\nenvironment during the power-up process, they are subject to low\nchallenge-response repeatability. The dependability of SRAM-PUFs is usually\naccomplished by combining complex error correcting codes (ECCs) with fuzzy\nextractor structures resulting in an increase in power consumption, area, cost,\nand design complexity. In this study, we established effective metrics on the\nbasis of the separatrix concept and cell mismatch to estimate the percentage of\ncells that, due to the effect of variability, will tend to the same initial\nstate during power-up. The effects of noise and temperature in cell start-up\nprocesses were used to validate the proposed metrics. The presented metrics may\nbe applied at the SRAM-PUF design phases to investigate the impact of different\ndesign parameters on the percentage of reliable cells for PUF applications.\n",
+  "subjects": [
+    "Computer Science/Cryptography and Security"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "Ib-FgYfCjZl3CfxkxRBGSGUVJkNbO_DqzqCzxCfTaD4",
+  "pdfSize": "914501"
+}

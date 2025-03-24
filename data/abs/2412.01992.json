@@ -1,0 +1,53 @@
+{
+  "id": "2412.01992",
+  "title": "ChatCollab: Exploring Collaboration Between Humans and AI Agents in\n  Software Teams",
+  "authors": "Benjamin Klieger, Charis Charitsis, Miroslav Suzara, Sierra Wang, Nick\n  Haber, John C. Mitchell",
+  "authorsParsed": [
+    [
+      "Klieger",
+      "Benjamin",
+      ""
+    ],
+    [
+      "Charitsis",
+      "Charis",
+      ""
+    ],
+    [
+      "Suzara",
+      "Miroslav",
+      ""
+    ],
+    [
+      "Wang",
+      "Sierra",
+      ""
+    ],
+    [
+      "Haber",
+      "Nick",
+      ""
+    ],
+    [
+      "Mitchell",
+      "John C.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 2 Dec 2024 21:56:46 GMT"
+    }
+  ],
+  "updateDate": "2024-12-04",
+  "timestamp": 1733176606000,
+  "abstract": "  We explore the potential for productive team-based collaboration between\nhumans and Artificial Intelligence (AI) by presenting and conducting initial\ntests with a general framework that enables multiple human and AI agents to\nwork together as peers. ChatCollab's novel architecture allows agents - human\nor AI - to join collaborations in any role, autonomously engage in tasks and\ncommunication within Slack, and remain agnostic to whether their collaborators\nare human or AI. Using software engineering as a case study, we find that our\nAI agents successfully identify their roles and responsibilities, coordinate\nwith other agents, and await requested inputs or deliverables before\nproceeding. In relation to three prior multi-agent AI systems for software\ndevelopment, we find ChatCollab AI agents produce comparable or better software\nin an interactive game development task. We also propose an automated method\nfor analyzing collaboration dynamics that effectively identifies behavioral\ncharacteristics of agents with distinct roles, allowing us to quantitatively\ncompare collaboration dynamics in a range of experimental conditions. For\nexample, in comparing ChatCollab AI agents, we find that an AI CEO agent\ngenerally provides suggestions 2-4 times more often than an AI product manager\nor AI developer, suggesting agents within ChatCollab can meaningfully adopt\ndifferentiated collaborative roles. Our code and data can be found at:\nhttps://github.com/ChatCollab.\n",
+  "subjects": [
+    "Computer Science/Human-Computer Interaction",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "FnPT9ZNISnH0o6StIvxXHVT1qMvU3JaDI6wn5_IK008",
+  "pdfSize": "7259230"
+}

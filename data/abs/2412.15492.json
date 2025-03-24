@@ -1,0 +1,43 @@
+{
+  "id": "2412.15492",
+  "title": "DualGFL: Federated Learning with a Dual-Level Coalition-Auction Game",
+  "authors": "Xiaobing Chen, Xiangwei Zhou, Songyang Zhang, Mingxuan Sun",
+  "authorsParsed": [
+    [
+      "Chen",
+      "Xiaobing",
+      ""
+    ],
+    [
+      "Zhou",
+      "Xiangwei",
+      ""
+    ],
+    [
+      "Zhang",
+      "Songyang",
+      ""
+    ],
+    [
+      "Sun",
+      "Mingxuan",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 20 Dec 2024 02:13:27 GMT"
+    }
+  ],
+  "updateDate": "2024-12-23",
+  "timestamp": 1734660807000,
+  "abstract": "  Despite some promising results in federated learning using game-theoretical\nmethods, most existing studies mainly employ a one-level game in either a\ncooperative or competitive environment, failing to capture the complex dynamics\namong participants in practice. To address this issue, we propose DualGFL, a\nnovel Federated Learning framework with a Dual-level Game in\ncooperative-competitive environments. DualGFL includes a lower-level hedonic\ngame where clients form coalitions and an upper-level multi-attribute auction\ngame where coalitions bid for training participation. At the lower-level\nDualGFL, we introduce a new auction-aware utility function and propose a\nPareto-optimal partitioning algorithm to find a Pareto-optimal partition based\non clients' preference profiles. At the upper-level DualGFL, we formulate a\nmulti-attribute auction game with resource constraints and derive equilibrium\nbids to maximize coalitions' winning probabilities and profits. A greedy\nalgorithm is proposed to maximize the utility of the central server. Extensive\nexperiments on real-world datasets demonstrate DualGFL's effectiveness in\nimproving both server utility and client utility.\n",
+  "subjects": [
+    "Computer Science/Computer Science and Game Theory",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by-sa/4.0/",
+  "blobId": "m9bnWGtdd1H85_5FAifz0BGQ-emAmXtos1rtwnrhmzw",
+  "pdfSize": "4272280"
+}

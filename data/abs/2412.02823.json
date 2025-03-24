@@ -1,0 +1,38 @@
+{
+  "id": "2412.02823",
+  "title": "Minimization of Boolean Complexity in In-Context Concept Learning",
+  "authors": "Leroy Z. Wang, R. Thomas McCoy, Shane Steinert-Threlkeld",
+  "authorsParsed": [
+    [
+      "Wang",
+      "Leroy Z.",
+      ""
+    ],
+    [
+      "McCoy",
+      "R. Thomas",
+      ""
+    ],
+    [
+      "Steinert-Threlkeld",
+      "Shane",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 3 Dec 2024 20:41:37 GMT"
+    }
+  ],
+  "updateDate": "2024-12-05",
+  "timestamp": 1733258497000,
+  "abstract": "  What factors contribute to the relative success and corresponding\ndifficulties of in-context learning for Large Language Models (LLMs)? Drawing\non insights from the literature on human concept learning, we test LLMs on\ncarefully designed concept learning tasks, and show that task performance\nhighly correlates with the Boolean complexity of the concept. This suggests\nthat in-context learning exhibits a learning bias for simplicity in a way\nsimilar to humans.\n",
+  "subjects": [
+    "Computer Science/Computation and Language",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "2dgB5_JlhuQBEPJGR_e1fN000u_VG2P2vIX843gFzR8",
+  "pdfSize": "518003"
+}

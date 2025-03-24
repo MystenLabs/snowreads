@@ -1,0 +1,65 @@
+{
+  "id": "2412.15249",
+  "title": "LLMs for Literature Review: Are we there yet?",
+  "authors": "Shubham Agarwal, Gaurav Sahu, Abhay Puri, Issam H. Laradji,\n  Krishnamurthy DJ Dvijotham, Jason Stanley, Laurent Charlin, Christopher Pal",
+  "authorsParsed": [
+    [
+      "Agarwal",
+      "Shubham",
+      ""
+    ],
+    [
+      "Sahu",
+      "Gaurav",
+      ""
+    ],
+    [
+      "Puri",
+      "Abhay",
+      ""
+    ],
+    [
+      "Laradji",
+      "Issam H.",
+      ""
+    ],
+    [
+      "Dvijotham",
+      "Krishnamurthy DJ",
+      ""
+    ],
+    [
+      "Stanley",
+      "Jason",
+      ""
+    ],
+    [
+      "Charlin",
+      "Laurent",
+      ""
+    ],
+    [
+      "Pal",
+      "Christopher",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 15 Dec 2024 01:12:26 GMT"
+    }
+  ],
+  "updateDate": "2024-12-23",
+  "timestamp": 1734225146000,
+  "abstract": "  Literature reviews are an essential component of scientific research, but\nthey remain time-intensive and challenging to write, especially due to the\nrecent influx of research papers. This paper explores the zero-shot abilities\nof recent Large Language Models (LLMs) in assisting with the writing of\nliterature reviews based on an abstract. We decompose the task into two\ncomponents: 1. Retrieving related works given a query abstract, and 2. Writing\na literature review based on the retrieved results. We analyze how effective\nLLMs are for both components. For retrieval, we introduce a novel two-step\nsearch strategy that first uses an LLM to extract meaningful keywords from the\nabstract of a paper and then retrieves potentially relevant papers by querying\nan external knowledge base. Additionally, we study a prompting-based re-ranking\nmechanism with attribution and show that re-ranking doubles the normalized\nrecall compared to naive search methods, while providing insights into the\nLLM's decision-making process. In the generation phase, we propose a two-step\napproach that first outlines a plan for the review and then executes steps in\nthe plan to generate the actual review. To evaluate different LLM-based\nliterature review methods, we create test sets from arXiv papers using a\nprotocol designed for rolling use with newly released LLMs to avoid test set\ncontamination in zero-shot evaluations. We release this evaluation protocol to\npromote additional research and development in this regard. Our empirical\nresults suggest that LLMs show promising potential for writing literature\nreviews when the task is decomposed into smaller components of retrieval and\nplanning. Further, we demonstrate that our planning-based approach achieves\nhigher-quality reviews by minimizing hallucinated references in the generated\nreview by 18-26% compared to existing simpler LLM-based generation methods.\n",
+  "subjects": [
+    "Computer Science/Computation and Language",
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Digital Libraries",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "1hZbxkBLq_38VBaYftCQSF3YaGYShJzUKlPDd4PAkEw",
+  "pdfSize": "3222560"
+}

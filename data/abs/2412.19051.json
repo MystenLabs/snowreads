@@ -1,0 +1,32 @@
+{
+  "id": "2412.19051",
+  "title": "Performance Characterization and Optimizations of Traditional ML\n  Applications",
+  "authors": "Harsh Kumar, R. Govindarajan",
+  "authorsParsed": [
+    [
+      "Kumar",
+      "Harsh",
+      ""
+    ],
+    [
+      "Govindarajan",
+      "R.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 26 Dec 2024 04:13:52 GMT"
+    }
+  ],
+  "updateDate": "2024-12-30",
+  "timestamp": 1735186432000,
+  "abstract": "  Even in the era of Deep Learning based methods, traditional machine learning\nmethods with large data sets continue to attract significant attention.\nHowever, we find an apparent lack of a detailed performance characterization of\nthese methods in the context of large training datasets. In this work, we study\nthe system's behavior of a number of traditional ML methods as implemented in\npopular free software libraries/modules to identify critical performance\nbottlenecks experienced by these applications. The performance characterization\nstudy reveals several interesting insights on the performance of these\napplications. Then we evaluate the performance benefits of applying some\nwell-known optimizations at the levels of caches and the main memory. More\nspecifically, we test the usefulness of optimizations such as (i) software\nprefetching to improve cache performance and (ii) data layout and computation\nreordering optimizations to improve locality in DRAM accesses. These\noptimizations are implemented as modifications to the well-known scikit-learn\nlibrary, and hence can be easily leveraged by application programmers. We\nevaluate the impact of the proposed optimizations using a combination of\nsimulation and execution on a real system. The software prefetching\noptimization results in performance benefits varying from 5.2%-27.1% on\ndifferent ML applications while the data layout and computation reordering\napproaches yield 6.16%-28.0% performance improvement.\n",
+  "subjects": [
+    "Computer Science/Performance"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "wYKaLYctCirD2G6BNGFWj6eEqdywXDxndFcE_2woJzw",
+  "pdfSize": "664805"
+}

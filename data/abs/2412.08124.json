@@ -1,0 +1,37 @@
+{
+  "id": "2412.08124",
+  "title": "Stochastic Kinematic Optimal Control on SO(3)",
+  "authors": "Xi Wang, Xiaoyi Wang, Victor Solo",
+  "authorsParsed": [
+    [
+      "Wang",
+      "Xi",
+      ""
+    ],
+    [
+      "Wang",
+      "Xiaoyi",
+      ""
+    ],
+    [
+      "Solo",
+      "Victor",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 11 Dec 2024 06:19:52 GMT"
+    }
+  ],
+  "updateDate": "2024-12-12",
+  "timestamp": 1733897992000,
+  "abstract": "  In this paper, we develop a novel method for deriving a global optimal\ncontrol strategy for stochastic attitude kinematics on the special orthogonal\ngroup SO(3). We first introduce a stochastic Lie-Hamilton-Jacobi-Bellman\n(SL-HJB) equation on SO(3), which theoretically provides an optimality\ncondition for the global optimal control strategy of the stochastic attitude\nkinematics. Then we propose a novel numerical method, the Successive\nWigner-Galerkin Approximation (SWGA) method, to solve the SL-HJB equation on\nSO(3). The SWGA method leverages the Wigner-D functions to represent the\nGalerkin solution of the SL-HJB equation in a policy iteration framework,\nproviding a computationally efficient approach to derive a global optimal\ncontrol strategy for systems on SO(3). We demonstrate the effectiveness of the\nSWGA method through numerical simulation on stochastic attitude stabilization.\n",
+  "subjects": [
+    "Mathematics/Optimization and Control"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "BGqVpmETOq0yNvJiBcdbCqbp4SX0kKlea5xZYEj8Rl0",
+  "pdfSize": "1704750"
+}

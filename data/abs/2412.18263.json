@@ -1,0 +1,59 @@
+{
+  "id": "2412.18263",
+  "title": "High-Rank Irreducible Cartesian Tensor Decomposition and Bases of\n  Equivariant Spaces",
+  "authors": "Shihao Shao, Yikang Li, Zhouchen Lin, Qinghua Cui",
+  "authorsParsed": [
+    [
+      "Shao",
+      "Shihao",
+      ""
+    ],
+    [
+      "Li",
+      "Yikang",
+      ""
+    ],
+    [
+      "Lin",
+      "Zhouchen",
+      ""
+    ],
+    [
+      "Cui",
+      "Qinghua",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 24 Dec 2024 08:25:38 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Mon, 30 Dec 2024 18:07:15 GMT"
+    },
+    {
+      "version": "v3",
+      "created": "Tue, 7 Jan 2025 07:05:17 GMT"
+    },
+    {
+      "version": "v4",
+      "created": "Fri, 17 Jan 2025 16:40:21 GMT"
+    }
+  ],
+  "updateDate": "2025-01-20",
+  "timestamp": 1735028738000,
+  "abstract": "  Irreducible Cartesian tensors (ICTs) play a crucial role in the design of\nequivariant graph neural networks, as well as in theoretical chemistry and\nchemical physics. Meanwhile, the design space of available linear operations on\ntensors that preserve symmetry presents a significant challenge. The ICT\ndecomposition and a basis of this equivariant space are difficult to obtain for\nhigh-rank tensors. After decades of research, Bonvicini (2024) recently\nachieves an explicit ICT decomposition for $n=5$ with factorial time/space\ncomplexity. In this work we, for the first time, obtains decomposition matrices\nfor ICTs up to rank $n=9$ with reduced and affordable complexity, by\nconstructing what we call path matrices. The path matrices are obtained via\nperforming chain-like contractions with Clebsch-Gordan matrices following the\nparentage scheme. We prove and leverage that the concatenation of path matrices\nis an orthonormal change-of-basis matrix between the Cartesian tensor product\nspace and the spherical direct sum spaces. Furthermore, we identify a complete\northogonal basis for the equivariant space, rather than a spanning set\n(Pearce-Crump, 2023), through this path matrices technique. To the best of our\nknowledge, this is also the first analytic, rather than numerical, method for\ntheoretically obtaining arbitrary rank orthogonal ICT decomposition matrices\nand orthogonal equivariant bases. We further extend our result to the arbitrary\ntensor product and direct sum spaces, enabling free design between different\nspaces while keeping symmetry. The Python code is available at\nhttps://github.com/ShihaoShao-GH/ICT-decomposition-and-equivariant-bases, where\nthe $n=6,\\dots,9$ ICT decomposition matrices are obtained in 1s, 3s, 11s, and\n4m32s on 28-cores Intel(R) Xeon(R) Gold 6330 CPU @ 2.00GHz, respectively.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Physics/Mathematical Physics",
+    "Mathematics/Mathematical Physics",
+    "Physics/Chemical Physics",
+    "Physics/Computational Physics",
+    "Physics/Quantum Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "7OBLkxts4ihJ1Segvvonk4ndJGrDfte8NfAnFYoyt9c",
+  "pdfSize": "937018"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "2412.04614",
+  "title": "Extractive Structures Learned in Pretraining Enable Generalization on\n  Finetuned Facts",
+  "authors": "Jiahai Feng, Stuart Russell, Jacob Steinhardt",
+  "authorsParsed": [
+    [
+      "Feng",
+      "Jiahai",
+      ""
+    ],
+    [
+      "Russell",
+      "Stuart",
+      ""
+    ],
+    [
+      "Steinhardt",
+      "Jacob",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 5 Dec 2024 21:00:46 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Fri, 10 Jan 2025 08:07:16 GMT"
+    }
+  ],
+  "updateDate": "2025-01-13",
+  "timestamp": 1733432446000,
+  "abstract": "  Pretrained language models (LMs) can generalize to implications of facts that\nthey are finetuned on. For example, if finetuned on ``John Doe lives in Tokyo,\"\nLMs can correctly answer ``What language do the people in John Doe's city\nspeak?'' with ``Japanese''. However, little is known about the mechanisms that\nenable this generalization or how they are learned during pretraining. We\nintroduce extractive structures as a framework for describing how components in\nLMs (e.g., MLPs or attention heads) coordinate to enable this generalization.\nThe structures consist of informative components that store training facts as\nweight changes, and upstream and downstream extractive components that query\nand process the stored information to produce the correct implication. We\nhypothesize that extractive structures are learned during pretraining when\nencountering implications of previously known facts. This yields two\npredictions: a data ordering effect where extractive structures can be learned\nonly if facts precede their implications, and a weight grafting effect where\nextractive structures can be transferred to predict counterfactual\nimplications. We empirically demonstrate these phenomena in the OLMo-7b, Llama\n3-8b, Gemma 2-9b, and Qwen 2-7b models. Of independent interest, our results\nalso indicate that fact learning can occur at both early and late layers, which\nlead to different forms of generalization.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Computer Science/Computation and Language"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "mjaC0ITPt9mJaQw9CrpPhnWcJ0aJriJuiwvWBu8exzc",
+  "pdfSize": "1783730"
+}

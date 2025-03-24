@@ -1,0 +1,37 @@
+{
+  "id": "2412.16016",
+  "title": "Classification of torsion of elliptic curves over quartic fields",
+  "authors": "Maarten Derickx and Filip Najman",
+  "authorsParsed": [
+    [
+      "Derickx",
+      "Maarten",
+      ""
+    ],
+    [
+      "Najman",
+      "Filip",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 20 Dec 2024 16:08:13 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Tue, 18 Feb 2025 15:09:52 GMT"
+    }
+  ],
+  "updateDate": "2025-02-19",
+  "timestamp": 1734710893000,
+  "abstract": "  Let $E$ be an elliptic curve over a quartic field $K$. By the Mordell-Weil\ntheorem, $E(K)$ is a finitely generated group. We determine all the\npossibilities for the torsion group $E(K)_{tor}$ where $K$ ranges over all\nquartic fields $K$ and $E$ ranges over all elliptic curves over $K$. We show\nthat there are no sporadic torsion groups, or in other words, that all torsion\ngroups either do not appear or they appear for infinitely many non-isomorphic\nelliptic curves $E$.\n  Proving this requires showing that numerous modular curves $X_1(m,n)$ have no\nnon-cuspidal degree $4$ points. We deal with almost all the curves using one of\n3 methods: a method for the rank 0 cases requiring no computation; the Hecke\nsieve, a local method requiring computer-assisted computations; and the global\nmethod, an argument for the positive rank cases also requiring no computation.\nWe deal with the handful of remaining cases using ad hoc methods.\n",
+  "subjects": [
+    "Mathematics/Number Theory",
+    "Mathematics/Algebraic Geometry"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "ZtXMdyRwUB7W6HhJF9AD4wEWaFLsXOTsFd-hHONlWr8",
+  "pdfSize": "336186"
+}

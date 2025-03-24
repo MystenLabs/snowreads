@@ -1,0 +1,52 @@
+{
+  "id": "2412.13522",
+  "title": "Privacy-Preserving Cyberattack Detection in Blockchain-Based IoT Systems\n  Using AI and Homomorphic Encryption",
+  "authors": "Bui Duc Manh, Chi-Hieu Nguyen, Dinh Thai Hoang, Diep N. Nguyen, Ming\n  Zeng and Quoc-Viet Pham",
+  "authorsParsed": [
+    [
+      "Manh",
+      "Bui Duc",
+      ""
+    ],
+    [
+      "Nguyen",
+      "Chi-Hieu",
+      ""
+    ],
+    [
+      "Hoang",
+      "Dinh Thai",
+      ""
+    ],
+    [
+      "Nguyen",
+      "Diep N.",
+      ""
+    ],
+    [
+      "Zeng",
+      "Ming",
+      ""
+    ],
+    [
+      "Pham",
+      "Quoc-Viet",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 18 Dec 2024 05:46:53 GMT"
+    }
+  ],
+  "updateDate": "2024-12-19",
+  "timestamp": 1734500813000,
+  "abstract": "  This work proposes a novel privacy-preserving cyberattack detection framework\nfor blockchain-based Internet-of-Things (IoT) systems. In our approach,\nartificial intelligence (AI)-driven detection modules are strategically\ndeployed at blockchain nodes to identify real-time attacks, ensuring high\naccuracy and minimal delay. To achieve this efficiency, the model training is\nconducted by a cloud service provider (CSP). Accordingly, blockchain nodes send\ntheir data to the CSP for training, but to safeguard privacy, the data is\nencrypted using homomorphic encryption (HE) before transmission. This\nencryption method allows the CSP to perform computations directly on encrypted\ndata without the need for decryption, preserving data privacy throughout the\nlearning process. To handle the substantial volume of encrypted data, we\nintroduce an innovative packing algorithm in a Single-Instruction-Multiple-Data\n(SIMD) manner, enabling efficient training on HE-encrypted data. Building on\nthis, we develop a novel deep neural network training algorithm optimized for\nencrypted data. We further propose a privacy-preserving distributed learning\napproach based on the FedAvg algorithm, which parallelizes the training across\nmultiple workers, significantly improving computation time. Upon completion,\nthe CSP distributes the trained model to the blockchain nodes, enabling them to\nperform real-time, privacy-preserved detection. Our simulation results\ndemonstrate that our proposed method can not only mitigate the training time\nbut also achieve detection accuracy that is approximately identical to the\napproach without encryption, with a gap of around 0.01%. Additionally, our real\nimplementations on various blockchain consensus algorithms and hardware\nconfigurations show that our proposed framework can also be effectively adapted\nto real-world systems.\n",
+  "subjects": [
+    "Computer Science/Cryptography and Security"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "HaJ-do9Fs5BpTaywYF-b2cXgeZiLiaxLVME5LfX1FB8",
+  "pdfSize": "2133701"
+}

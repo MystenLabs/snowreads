@@ -1,0 +1,62 @@
+{
+  "id": "2412.09420",
+  "title": "Mixture of neural fields for heterogeneous reconstruction in cryo-EM",
+  "authors": "Axel Levy and Rishwanth Raghu and David Shustin and Adele Rui-Yang\n  Peng and Huan Li and Oliver Biggs Clarke and Gordon Wetzstein and Ellen D.\n  Zhong",
+  "authorsParsed": [
+    [
+      "Levy",
+      "Axel",
+      ""
+    ],
+    [
+      "Raghu",
+      "Rishwanth",
+      ""
+    ],
+    [
+      "Shustin",
+      "David",
+      ""
+    ],
+    [
+      "Peng",
+      "Adele Rui-Yang",
+      ""
+    ],
+    [
+      "Li",
+      "Huan",
+      ""
+    ],
+    [
+      "Clarke",
+      "Oliver Biggs",
+      ""
+    ],
+    [
+      "Wetzstein",
+      "Gordon",
+      ""
+    ],
+    [
+      "Zhong",
+      "Ellen D.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 12 Dec 2024 16:26:38 GMT"
+    }
+  ],
+  "updateDate": "2024-12-13",
+  "timestamp": 1734020798000,
+  "abstract": "  Cryo-electron microscopy (cryo-EM) is an experimental technique for protein\nstructure determination that images an ensemble of macromolecules in\nnear-physiological contexts. While recent advances enable the reconstruction of\ndynamic conformations of a single biomolecular complex, current methods do not\nadequately model samples with mixed conformational and compositional\nheterogeneity. In particular, datasets containing mixtures of multiple proteins\nrequire the joint inference of structure, pose, compositional class, and\nconformational states for 3D reconstruction. Here, we present Hydra, an\napproach that models both conformational and compositional heterogeneity fully\nab initio by parameterizing structures as arising from one of K neural fields.\nWe employ a new likelihood-based loss function and demonstrate the\neffectiveness of our approach on synthetic datasets composed of mixtures of\nproteins with large degrees of conformational variability. We additionally\ndemonstrate Hydra on an experimental dataset of a cellular lysate containing a\nmixture of different protein complexes. Hydra expands the expressivity of\nheterogeneous reconstruction methods and thus broadens the scope of cryo-EM to\nincreasingly complex samples.\n",
+  "subjects": [
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "syS5Vkix_gtUIWfnhh2RWtWhZGkLK6GdXM_y4R6-DHg",
+  "pdfSize": "17048376"
+}

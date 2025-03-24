@@ -1,0 +1,44 @@
+{
+  "id": "2412.19909",
+  "title": "Mouth Articulation-Based Anchoring for Improved Cross-Corpus Speech\n  Emotion Recognition",
+  "authors": "Shreya G. Upadhyay, Ali N. Salman, Carlos Busso, Chi-Chun Lee",
+  "authorsParsed": [
+    [
+      "Upadhyay",
+      "Shreya G.",
+      ""
+    ],
+    [
+      "Salman",
+      "Ali N.",
+      ""
+    ],
+    [
+      "Busso",
+      "Carlos",
+      ""
+    ],
+    [
+      "Lee",
+      "Chi-Chun",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 27 Dec 2024 20:00:45 GMT"
+    }
+  ],
+  "updateDate": "2024-12-31",
+  "timestamp": 1735329645000,
+  "abstract": "  Cross-corpus speech emotion recognition (SER) plays a vital role in numerous\npractical applications. Traditional approaches to cross-corpus emotion transfer\noften concentrate on adapting acoustic features to align with different\ncorpora, domains, or labels. However, acoustic features are inherently variable\nand error-prone due to factors like speaker differences, domain shifts, and\nrecording conditions. To address these challenges, this study adopts a novel\ncontrastive approach by focusing on emotion-specific articulatory gestures as\nthe core elements for analysis. By shifting the emphasis on the more stable and\nconsistent articulatory gestures, we aim to enhance emotion transfer learning\nin SER tasks. Our research leverages the CREMA-D and MSP-IMPROV corpora as\nbenchmarks and it reveals valuable insights into the commonality and\nreliability of these articulatory gestures. The findings highlight mouth\narticulatory gesture potential as a better constraint for improving emotion\nrecognition across different settings or domains.\n",
+  "subjects": [
+    "Computer Science/Sound",
+    "Computer Science/Machine Learning",
+    "Electrical Engineering and Systems Science/Audio and Speech Processing"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "LS7FVMASvQQ3bix-5yV7p3Bg0e0Ecww3lWAei2gT4fI",
+  "pdfSize": "1078693"
+}

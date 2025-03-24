@@ -1,0 +1,32 @@
+{
+  "id": "2412.04667",
+  "title": "Nafas: Breathing Gymnastics Application",
+  "authors": "Sadra Sabouri and Sepand Haghighi",
+  "authorsParsed": [
+    [
+      "Sabouri",
+      "Sadra",
+      ""
+    ],
+    [
+      "Haghighi",
+      "Sepand",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 5 Dec 2024 23:38:17 GMT"
+    }
+  ],
+  "updateDate": "2024-12-09",
+  "timestamp": 1733441897000,
+  "abstract": "  Long sessions of computer use introduce physical and mental health risks,\nparticularly for programmers and intensive computer users. Breathing exercises\ncan improve focus, reduce stress, and overall well-being. However, existing\ntools for such practices are often app-based, requiring users to leave their\nworkspace. In this technical report, we introduce Nafas, a command-line\ninterface (CLI) application designed specifically for computer users, enabling\nthem to perform breathing exercises directly within the terminal. Nafas offers\nstructured breathing programs with various levels tailored to the needs of busy\ndevelopers and other intensive computer users.\n",
+  "subjects": [
+    "Computer Science/Human-Computer Interaction"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "-nCL7I9RccZW2dqdFahGOdFydCwVO8-jCfkuHsfMahw",
+  "pdfSize": "577921"
+}

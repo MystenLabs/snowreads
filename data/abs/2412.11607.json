@@ -1,0 +1,27 @@
+{
+  "id": "2412.11607",
+  "title": "Nonlocal double phase Neumann and Robin problem with variable\n  $s(\\cdot,\\cdot)-$order",
+  "authors": "Mohammed Srati",
+  "authorsParsed": [
+    [
+      "Srati",
+      "Mohammed",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 16 Dec 2024 09:49:56 GMT"
+    }
+  ],
+  "updateDate": "2024-12-17",
+  "timestamp": 1734342596000,
+  "abstract": "  In this paper, we develop some properties of the $a_{x,y}(\\cdot)$-Neumann\nderivative for the nonlocal $s(\\cdot,\\cdot)$-order operator in fractional\nMusielak-Sobolev spaces with variable $s(\\cdot,\\cdot)-$order. Therefore we\nprove the basic proprieties of the correspondent function spaces. In the second\npart of this paper, by means of Ekeland's variational principal and direct\nvariational approach, we prove the existence of weak solutions to the following\ndouble phase Neumann and Robin problem with variable $s(\\cdot,\\cdot)-$order:\n$$\\left\\{\\begin{array} (-\\Delta)^{s_1(x,\\cdot)}_{a^1_{(x,\\cdot)}}\nu+(-\\Delta)^{s_2(x,\\cdot)}_{a^2_{(x,\\cdot)}} u\n+\\widehat{a}^1_x(|u|)u+\\widehat{a}^2_x(|u|)u &= \\lambda f(x,u) \\quad {\\rm in\\ }\n\\Omega, \\\\\n\\mathcal{N}^{s_1(x,\\cdot)}_{a^1(x,\\cdot)}u+\\mathcal{N}^{s_2(x,\\cdot)}_{a^2(x,\\cdot)}u+\\beta(x)\\left(\n\\widehat{a}^1_x(|u|)u+\\widehat{a}^2_x(|u|)u \\right) &= 0 \\quad {\\rm in\\ }\n\\mathbb{R}^N\\setminus \\Omega, \\end{array} \\right. $$ where\n$(-\\Delta)^{s_i(x,\\cdot)}_{a^i_{(x,\\cdot)}}$ and\n$\\mathcal{N}^{s_i(x,\\cdot)}_{a^i(x,\\cdot)}$ denote the variable\n$s_i(\\cdot,\\cdot)$-order fractional Laplace operator and the nonlocal normal\n$a_i(\\cdot,\\cdot)$-derivative of $s_i(\\cdot,\\cdot)$-order, respectively.\n",
+  "subjects": [
+    "Mathematics/Analysis of PDEs"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "TivuifY9HsQRnoIzUgyYu64H1ZrskJrUXiYi3Et8cmM",
+  "pdfSize": "304934"
+}

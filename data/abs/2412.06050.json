@@ -1,0 +1,47 @@
+{
+  "id": "2412.06050",
+  "title": "Concerning the Use of Turbulent Flow Data for Machine Learning",
+  "authors": "Mohammed Sardar, Ma{\\l}gorzata J. Zimo\\'n, Samuel Draycott, Alistair\n  Revell, and Alex Skillen",
+  "authorsParsed": [
+    [
+      "Sardar",
+      "Mohammed",
+      ""
+    ],
+    [
+      "Zimoń",
+      "Małgorzata J.",
+      ""
+    ],
+    [
+      "Draycott",
+      "Samuel",
+      ""
+    ],
+    [
+      "Revell",
+      "Alistair",
+      ""
+    ],
+    [
+      "Skillen",
+      "Alex",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 8 Dec 2024 20:05:03 GMT"
+    }
+  ],
+  "updateDate": "2024-12-10",
+  "timestamp": 1733688303000,
+  "abstract": "  This article describes some common issues encountered in the use of Direct\nNumerical Simulation (DNS) turbulent flow data for machine learning. We focus\non two specific issues; 1) the requirements for a fair validation set, and 2)\nthe pitfalls in downsampling DNS data before training. We attempt to shed light\non the impact these issues can have on machine learning and computer vision for\nturbulence. Further, we include statistical and spectral analysis for the\nhomogenous isotropic turbulence from the John Hopkins Turbulence Database, a\nKolmogorov flow, and a Rayleigh-B\\'enard Convection Cell using data generated\nby the authors, to concretely demonstrate these issues.\n",
+  "subjects": [
+    "Physics/Fluid Dynamics"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "FxUEfaR-O9eGFph0RddzTY3zBOi52FDVNEd2Hpz_HeM",
+  "pdfSize": "3562764"
+}

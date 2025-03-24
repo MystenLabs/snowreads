@@ -1,0 +1,32 @@
+{
+  "id": "2412.04394",
+  "title": "Bayesian Quantum Amplitude Estimation",
+  "authors": "Alexandra Ram\\^oa, Luis Paulo Santos",
+  "authorsParsed": [
+    [
+      "Ramôa",
+      "Alexandra",
+      ""
+    ],
+    [
+      "Santos",
+      "Luis Paulo",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 5 Dec 2024 18:09:41 GMT"
+    }
+  ],
+  "updateDate": "2024-12-06",
+  "timestamp": 1733422181000,
+  "abstract": "  Quantum amplitude estimation is a fundamental routine that offers a quadratic\nspeed-up over classical approaches. The original QAE protocol is based on phase\nestimation. The associated circuit depth and width, and the assumptions of\nfault tolerance, are unfavorable for near-term quantum technology. Subsequent\napproaches attempt to replace the original protocol with hybrid iterative\nquantum-classical strategies. In this work, we introduce BAE, a noise-aware\nBayesian algorithm for QAE that combines quantum circuits with a statistical\ninference backbone. BAE can dynamically characterize device noise and adapt to\nit in real-time. Problem-specific insights and approximations are used to keep\nthe problem tractable. We further propose an annealed variant of BAE, drawing\non methods from statistical inference, to enhance statistical robustness. Our\nproposal is parallelizable in both quantum and classical components, offers\ntools for fast noise model assessment, and can leverage preexisting\ninformation. Additionally, it accommodates experimental limitations and\npreferred cost trade-offs. We show that BAE achieves Heisenberg-limited\nestimation and benchmark it against other approaches, demonstrating its\ncompetitive performance in both noisy and noiseless scenarios.\n",
+  "subjects": [
+    "Physics/Quantum Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "VO1ZkujcbAjzAzR_uYzEl0WGwdRaEDoUFUh_613UeUA",
+  "pdfSize": "2832087"
+}

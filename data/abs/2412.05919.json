@@ -1,0 +1,27 @@
+{
+  "id": "2412.05919",
+  "title": "Estimating Spillover Effects in the Presence of Isolated Nodes",
+  "authors": "Bora Kim",
+  "authorsParsed": [
+    [
+      "Kim",
+      "Bora",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 8 Dec 2024 12:28:54 GMT"
+    }
+  ],
+  "updateDate": "2024-12-10",
+  "timestamp": 1733660934000,
+  "abstract": "  In estimating spillover effects under network interference, practitioners\noften use linear regression with either the number or fraction of treated\nneighbors as regressors. An often overlooked fact is that the latter is\nundefined for units without neighbors (``isolated nodes\"). The common practice\nis to impute this fraction as zero for isolated nodes. This paper shows that\nsuch practice introduces bias through theoretical derivations and simulations.\nCausal interpretations of the commonly used spillover regression coefficients\nare also provided.\n",
+  "subjects": [
+    "Economics/Econometrics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "gBfh_CTJbqg7ZdvSlbpD2IIwL-9hRh6KT_F8MeKTcOs",
+  "pdfSize": "508998"
+}

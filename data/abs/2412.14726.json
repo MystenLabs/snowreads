@@ -1,0 +1,50 @@
+{
+  "id": "2412.14726",
+  "title": "Towards a mathematical framework for modelling cell fate dynamics",
+  "authors": "Sean T. Vittadello, L\\'eo Diaz, Yujing Liu, Adriana Zanca, Michael\n  P.H. Stumpf",
+  "authorsParsed": [
+    [
+      "Vittadello",
+      "Sean T.",
+      ""
+    ],
+    [
+      "Diaz",
+      "Léo",
+      ""
+    ],
+    [
+      "Liu",
+      "Yujing",
+      ""
+    ],
+    [
+      "Zanca",
+      "Adriana",
+      ""
+    ],
+    [
+      "Stumpf",
+      "Michael P. H.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 19 Dec 2024 10:51:28 GMT"
+    }
+  ],
+  "updateDate": "2024-12-20",
+  "timestamp": 1734605488000,
+  "abstract": "  An adult human body is made up of some 30 to 40 trillion cells, all of which\nstem from a single fertilized egg cell. The process by which the right cells\nappear to arrive in their right numbers at the right time at the right place --\ndevelopment -- is only understood in the roughest of outlines. This process\ndoes not happen in isolation: the egg, the embryo, the developing foetus, and\nthe adult organism all interact intricately with their changing environments.\nConceptual and, increasingly, mathematical approaches to modelling development\nhave centred around Waddington's concept of an epigenetic landscape. This\nperspective enables us to talk about the molecular and cellular factors that\ncontribute to cells reaching their terminally differentiated state: their fate.\nThe landscape metaphor is however only a simplification of the complex process\nof development; it for instance does not consider environmental influences, a\ncontext which we argue needs to be explicitly taken into account and from the\noutset. When delving into the literature, it also quickly becomes clear that\nthere is a lack of consistency and agreement on even fundamental concepts; for\nexample, the precise meaning of what we refer to when talking about a `cell\ntype' or `cell state.' Here we engage with previous theoretical and\nmathematical approaches to modelling cell fate -- focused on trees, networks,\nand landscape descriptions -- and argue that they require a level of\nsimplification that can be problematic. We introduce random dynamical systems\nas one natural alternative. These provide a flexible conceptual and\nmathematical framework that is free of extraneous assumptions. We develop some\nof the basic concepts and discuss them in relation to now `classical'\ndepictions of cell fate dynamics, in particular Waddington's landscape.\n",
+  "subjects": [
+    "Quantitative Biology/Subcellular Processes",
+    "Condensed Matter/Statistical Mechanics",
+    "Mathematics/Dynamical Systems",
+    "Quantitative Biology/Cell Behavior"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "0naMnDiP75Nz4tGBdzrfJJt7ra-XRDfQkA2Kh-dex1M",
+  "pdfSize": "1122148"
+}

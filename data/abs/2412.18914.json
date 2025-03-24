@@ -1,0 +1,47 @@
+{
+  "id": "2412.18914",
+  "title": "Long-Range Tasks Using Short-Context LLMs: Incremental Reasoning With\n  Structured Memories",
+  "authors": "Dulhan Jayalath, James Bradley Wendt, Nicholas Monath, Sandeep Tata,\n  Beliz Gunel",
+  "authorsParsed": [
+    [
+      "Jayalath",
+      "Dulhan",
+      ""
+    ],
+    [
+      "Wendt",
+      "James Bradley",
+      ""
+    ],
+    [
+      "Monath",
+      "Nicholas",
+      ""
+    ],
+    [
+      "Tata",
+      "Sandeep",
+      ""
+    ],
+    [
+      "Gunel",
+      "Beliz",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 25 Dec 2024 14:14:31 GMT"
+    }
+  ],
+  "updateDate": "2024-12-30",
+  "timestamp": 1735136071000,
+  "abstract": "  Long-range tasks require reasoning over long inputs. Existing solutions\neither need large compute budgets, training data, access to model weights, or\nuse complex, task-specific approaches. We present PRISM, which alleviates these\nconcerns by processing information as a stream of chunks, maintaining a\nstructured in-context memory specified by a typed hierarchy schema. This\napproach demonstrates superior performance to baselines on diverse tasks while\nusing at least 4x smaller contexts than long-context models. Moreover, PRISM is\ntoken-efficient. By producing short outputs and efficiently leveraging\nkey-value (KV) caches, it achieves up to 54% cost reduction when compared to\nalternative short-context approaches. The method also scales down to tiny\ninformation chunks (e.g., 500 tokens) without increasing the number of tokens\nencoded or sacrificing quality. Furthermore, we show that it is possible to\ngenerate schemas to generalize our approach to new tasks with minimal effort.\n",
+  "subjects": [
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "A1wl9TABDQ-n1-DXoFNPX5jAiILiiMqixLwGL8WG5f4",
+  "pdfSize": "1366641"
+}

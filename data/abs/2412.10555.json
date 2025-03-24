@@ -1,0 +1,52 @@
+{
+  "id": "2412.10555",
+  "title": "Impact of Shoe Parameters on Gait Using Wearables",
+  "authors": "Nadeera Meghapathirana, Oshada Rathnayake, Thisali S Rathnayake,\n  Roshan Godaliyadda, Parakrama Ekanayake, Vijitha Herath",
+  "authorsParsed": [
+    [
+      "Meghapathirana",
+      "Nadeera",
+      ""
+    ],
+    [
+      "Rathnayake",
+      "Oshada",
+      ""
+    ],
+    [
+      "Rathnayake",
+      "Thisali S",
+      ""
+    ],
+    [
+      "Godaliyadda",
+      "Roshan",
+      ""
+    ],
+    [
+      "Ekanayake",
+      "Parakrama",
+      ""
+    ],
+    [
+      "Herath",
+      "Vijitha",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 13 Dec 2024 20:57:41 GMT"
+    }
+  ],
+  "updateDate": "2024-12-17",
+  "timestamp": 1734123461000,
+  "abstract": "  The study of biomechanics during locomotion provides valuable insights into\nthe effects of varying conditions on specific movement patterns. This research\nfocuses on examining the influence of different shoe parameters on walking\nbiomechanics, aiming to understand their impact on gait patterns. To achieve\nthis, various methodologies are explored to estimate human body biomechanics,\nincluding computer vision techniques and wearable devices equipped with\nadvanced sensors. Given privacy considerations and the need for robust,\naccurate measurements, this study employs wearable devices with Inertial\nMeasurement Unit (IMU) sensors. These devices offer a non-invasive, precise,\nand high-resolution approach to capturing biomechanical data during locomotion.\nRaw sensor data collected from wearable devices is processed using an Extended\nKalman Filter to reduce noise and extract meaningful information. This includes\ncalculating joint angles throughout the gait cycle, enabling a detailed\nanalysis of movement dynamics. The analysis identifies correlations between\nshoe parameters and key gait characteristics, such as stability, mobility, step\ntime, and propulsion forces. The findings provide deeper insights into how\nfootwear design influences walking efficiency and biomechanics. This study\npaves the way for advancements in footwear technology and contributes to the\ndevelopment of personalized solutions for enhancing gait performance and\nmobility.\n",
+  "subjects": [
+    "Computer Science/Computers and Society"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "AAbHsOi6mJlIaCNofEmb0IplTJv9nn7hraiXIAfVcAw",
+  "pdfSize": "6192692"
+}

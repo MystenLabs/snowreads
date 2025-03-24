@@ -1,0 +1,38 @@
+{
+  "id": "2412.11472",
+  "title": "Leveraging Foundation Language Models (FLMs) for Automated Cohort\n  Extraction from Large EHR Databases",
+  "authors": "Purity Mugambi, Alexandra Meliou and Madalina Fiterau",
+  "authorsParsed": [
+    [
+      "Mugambi",
+      "Purity",
+      ""
+    ],
+    [
+      "Meliou",
+      "Alexandra",
+      ""
+    ],
+    [
+      "Fiterau",
+      "Madalina",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 16 Dec 2024 06:19:35 GMT"
+    }
+  ],
+  "updateDate": "2024-12-17",
+  "timestamp": 1734329975000,
+  "abstract": "  A crucial step in cohort studies is to extract the required cohort from one\nor more study datasets. This step is time-consuming, especially when a\nresearcher is presented with a dataset that they have not previously worked\nwith. When the cohort has to be extracted from multiple datasets, cohort\nextraction can be extremely laborious. In this study, we present an approach\nfor partially automating cohort extraction from multiple electronic health\nrecord (EHR) databases. We formulate the guided multi-dataset cohort extraction\nproblem in which selection criteria are first converted into queries,\ntranslating them from natural language text to language that maps to database\nentities. Then, using FLMs, columns of interest identified from the queries are\nautomatically matched between the study databases. Finally, the generated\nqueries are run across all databases to extract the study cohort. We propose\nand evaluate an algorithm for automating column matching on two large, popular\nand publicly-accessible EHR databases -- MIMIC-III and eICU. Our approach\nachieves a high top-three accuracy of $92\\%$, correctly matching $12$ out of\nthe $13$ columns of interest, when using a small, pre-trained general purpose\nlanguage model. Furthermore, this accuracy is maintained even as the search\nspace (i.e., size of the database) increases.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "wzl-RcQQlKYVKEjAqb66aNsPdWYH1QtP_h9_9r4GmHo",
+  "pdfSize": "443448"
+}

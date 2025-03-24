@@ -1,0 +1,96 @@
+{
+  "id": "2412.03736",
+  "title": "Domain-specific Question Answering with Hybrid Search",
+  "authors": "Dewang Sultania, Zhaoyu Lu, Twisha Naik, Franck Dernoncourt, David\n  Seunghyun Yoon, Sanat Sharma, Trung Bui, Ashok Gupta, Tushar Vatsa, Suhas\n  Suresha, Ishita Verma, Vibha Belavadi, Cheng Chen, Michael Friedrich",
+  "authorsParsed": [
+    [
+      "Sultania",
+      "Dewang",
+      ""
+    ],
+    [
+      "Lu",
+      "Zhaoyu",
+      ""
+    ],
+    [
+      "Naik",
+      "Twisha",
+      ""
+    ],
+    [
+      "Dernoncourt",
+      "Franck",
+      ""
+    ],
+    [
+      "Yoon",
+      "David Seunghyun",
+      ""
+    ],
+    [
+      "Sharma",
+      "Sanat",
+      ""
+    ],
+    [
+      "Bui",
+      "Trung",
+      ""
+    ],
+    [
+      "Gupta",
+      "Ashok",
+      ""
+    ],
+    [
+      "Vatsa",
+      "Tushar",
+      ""
+    ],
+    [
+      "Suresha",
+      "Suhas",
+      ""
+    ],
+    [
+      "Verma",
+      "Ishita",
+      ""
+    ],
+    [
+      "Belavadi",
+      "Vibha",
+      ""
+    ],
+    [
+      "Chen",
+      "Cheng",
+      ""
+    ],
+    [
+      "Friedrich",
+      "Michael",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 4 Dec 2024 22:04:13 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Sat, 21 Dec 2024 20:28:23 GMT"
+    }
+  ],
+  "updateDate": "2024-12-24",
+  "timestamp": 1733349853000,
+  "abstract": "  Domain specific question answering is an evolving field that requires\nspecialized solutions to address unique challenges. In this paper, we show that\na hybrid approach combining a fine-tuned dense retriever with keyword based\nsparse search methods significantly enhances performance. Our system leverages\na linear combination of relevance signals, including cosine similarity from\ndense retrieval, BM25 scores, and URL host matching, each with tunable boost\nparameters. Experimental results indicate that this hybrid method outperforms\nour single-retriever system, achieving improved accuracy while maintaining\nrobust contextual grounding. These findings suggest that integrating multiple\nretrieval methodologies with weighted scoring effectively addresses the\ncomplexities of domain specific question answering in enterprise settings.\n",
+  "subjects": [
+    "Computer Science/Computation and Language"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "4B0bsO1Gw2T50RBORoQMIaJlH62OpJHsQ8pZmSwReQM",
+  "pdfSize": "338104"
+}

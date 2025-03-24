@@ -1,0 +1,38 @@
+{
+  "id": "2412.06270",
+  "title": "Machine learning interatomic potential for the low-modulus Ti-Nb-Zr\n  alloys in the vicinity of dynamical instability",
+  "authors": "Boburjon Mukhamedov, Ferenc Tasnadi and Igor A. Abrikosov",
+  "authorsParsed": [
+    [
+      "Mukhamedov",
+      "Boburjon",
+      ""
+    ],
+    [
+      "Tasnadi",
+      "Ferenc",
+      ""
+    ],
+    [
+      "Abrikosov",
+      "Igor A.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 9 Dec 2024 07:43:58 GMT"
+    }
+  ],
+  "updateDate": "2024-12-10",
+  "timestamp": 1733730238000,
+  "abstract": "  Traditionally, alloying and thermal treatment are considered as the main\ntools for design of new materials. Application of first-principles simulations\ncan significantly accelerate the process of materials design, however, to\naccount for both, multicomponent chemical disorder and finite temperature\neffects in theoretical simulations is a challenging task. In this work we have\ntrained machine learning interatomic potential to effectively simulate finite\ntemperature elastic properties of multicomponent \\beta-Ti94-xNbxZr6 alloys. Our\nsimulations predict the presence of the elinvar effect for the wide range of\ntemperatures. Importantly, we predict that in a vicinity of dynamical and\nmechanical instability, the \\beta-Ti94-xNbxZr6 alloys demonstrate strongly\nnon-linear concentration-dependence of elastic moduli, which leads to low\nvalues of moduli comparable to that of human bone. Moreover, these alloys\ndemonstrate a strong anisotropy of directional Young's modulus which can be\nhelpful for microstructure tailoring and design of materials with desired\nelastic properties.\n",
+  "subjects": [
+    "Condensed Matter/Materials Science",
+    "Physics/Computational Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "7aBnyl_54ZbTQUgonhJmdjMAXr_6WW_bKR0549hfkm0",
+  "pdfSize": "4278969"
+}

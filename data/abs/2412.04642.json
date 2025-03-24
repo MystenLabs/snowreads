@@ -1,0 +1,58 @@
+{
+  "id": "2412.04642",
+  "title": "Improving LLM Group Fairness on Tabular Data via In-Context Learning",
+  "authors": "Valeriia Cherepanova, Chia-Jung Lee, Nil-Jana Akpinar, Riccardo\n  Fogliato, Martin Andres Bertran, Michael Kearns, James Zou",
+  "authorsParsed": [
+    [
+      "Cherepanova",
+      "Valeriia",
+      ""
+    ],
+    [
+      "Lee",
+      "Chia-Jung",
+      ""
+    ],
+    [
+      "Akpinar",
+      "Nil-Jana",
+      ""
+    ],
+    [
+      "Fogliato",
+      "Riccardo",
+      ""
+    ],
+    [
+      "Bertran",
+      "Martin Andres",
+      ""
+    ],
+    [
+      "Kearns",
+      "Michael",
+      ""
+    ],
+    [
+      "Zou",
+      "James",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 5 Dec 2024 22:23:30 GMT"
+    }
+  ],
+  "updateDate": "2024-12-09",
+  "timestamp": 1733437410000,
+  "abstract": "  Large language models (LLMs) have been shown to be effective on tabular\nprediction tasks in the low-data regime, leveraging their internal knowledge\nand ability to learn from instructions and examples. However, LLMs can fail to\ngenerate predictions that satisfy group fairness, that is, produce equitable\noutcomes across groups. Critically, conventional debiasing approaches for\nnatural language tasks do not directly translate to mitigating group unfairness\nin tabular settings. In this work, we systematically investigate four empirical\napproaches to improve group fairness of LLM predictions on tabular datasets,\nincluding fair prompt optimization, soft prompt tuning, strategic selection of\nfew-shot examples, and self-refining predictions via chain-of-thought\nreasoning. Through experiments on four tabular datasets using both open-source\nand proprietary LLMs, we show the effectiveness of these methods in enhancing\ndemographic parity while maintaining high overall performance. Our analysis\nprovides actionable insights for practitioners in selecting the most suitable\napproach based on their specific requirements and constraints.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "-wNr8dg42QgihAO_05cRt1IBe_w3y1WPFfCIdC1PEZw",
+  "pdfSize": "2931233"
+}

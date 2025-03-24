@@ -1,0 +1,28 @@
+{
+  "id": "2412.04523",
+  "title": "Labeling questions inside issue trackers",
+  "authors": "Aidin Rasti",
+  "authorsParsed": [
+    [
+      "Rasti",
+      "Aidin",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 5 Dec 2024 15:12:46 GMT"
+    }
+  ],
+  "updateDate": "2024-12-09",
+  "timestamp": 1733411566000,
+  "abstract": "  One of the issues faced by the maintainers of popular open source software is\nthe triage of newly reported issues. Many of the issues submitted to issue\ntrackers are questions. Many people ask questions on issue trackers about their\nproblem instead of using a proper QA website like StackOverflow. This may seem\ninsignificant but for many of the big projects with thousands of users, this\nleads to spamming of the issue tracker. Reading and labeling these unrelated\nissues manually is a serious time consuming task and these unrelated questions\nadd to the burden. In fact, most often maintainers demand to not submit\nquestions in the issue tracker. To address this problem, first, we leveraged\ndozens of patterns to clean text of issues, we removed noises like logs, stack\ntraces, environment variables, error messages, etc. Second, we have implemented\na classification-based approach to automatically label unrelated questions.\nEmpirical evaluations on a dataset of more than 102,000 records show that our\napproach can label questions with an accuracy of over 81%.\n",
+  "subjects": [
+    "Computer Science/Software Engineering",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "K2tY2HGAHfGXGrSliVajemZpdCl7PkViZ0wb8YMgXTQ",
+  "pdfSize": "328285"
+}

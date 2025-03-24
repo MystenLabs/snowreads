@@ -1,0 +1,42 @@
+{
+  "id": "2412.08281",
+  "title": "Lachesis: Predicting LLM Inference Accuracy using Structural Properties\n  of Reasoning Paths",
+  "authors": "Naryeong Kim and Sungmin Kang and Gabin An and Shin Yoo",
+  "authorsParsed": [
+    [
+      "Kim",
+      "Naryeong",
+      ""
+    ],
+    [
+      "Kang",
+      "Sungmin",
+      ""
+    ],
+    [
+      "An",
+      "Gabin",
+      ""
+    ],
+    [
+      "Yoo",
+      "Shin",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 11 Dec 2024 10:56:47 GMT"
+    }
+  ],
+  "updateDate": "2024-12-12",
+  "timestamp": 1733914607000,
+  "abstract": "  Large Language Models are increasingly used to build agents to perform more\ncomplex tasks. As LLMs perform more complicated reasoning through longer\ninteractions, self-consistency, i.e., the idea that the answer obtained from\nsampling and marginalising a number of multiple independent inferences is more\nlikely to be correct, has received much attention as a simple validation\ntechnique. This paper aims to empirically verify this intuitive hypothesis by\npredicting the correctness of answers obtained using self-consistency from\nproperties of the samples of reasoning paths. We introduce Lachesis, a\npredictive model for self-consistency based LLM inferences, and empirically\nevaluate it using AutoFL, a recently proposed LLM-based fault localisation\ntechnique, as the target technique that uses self-consistency. Lachesis\nconverts collected reasoning paths from AutoFL using specifically designed\nreasoning path representations, and trains LSTM and GCN models to predict\nwhether a given set of reasoning paths would result in a correct answer. The\nresults suggest that Lachesis can predict the correctness of answers with a\nprecision of up to 0.8136, highlighting the possibility of training a\npredictive model that can allow early termination of inferences that are not\nlikely to be successful.\n",
+  "subjects": [
+    "Computer Science/Software Engineering"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "ssgdKsgdhEtcF1PQXAGtjGIHltMGYvaaO1PefjNSMKE",
+  "pdfSize": "1327727"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "2412.14509",
+  "title": "A Super-pixel-based Approach to the Stable Interpretation of Neural\n  Networks",
+  "authors": "Shizhan Gong, Jingwei Zhang, Qi Dou, Farzan Farnia",
+  "authorsParsed": [
+    [
+      "Gong",
+      "Shizhan",
+      ""
+    ],
+    [
+      "Zhang",
+      "Jingwei",
+      ""
+    ],
+    [
+      "Dou",
+      "Qi",
+      ""
+    ],
+    [
+      "Farnia",
+      "Farzan",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 19 Dec 2024 04:17:32 GMT"
+    }
+  ],
+  "updateDate": "2024-12-20",
+  "timestamp": 1734581852000,
+  "abstract": "  Saliency maps are widely used in the computer vision community for\ninterpreting neural network classifiers. However, due to the randomness of\ntraining samples and optimization algorithms, the resulting saliency maps\nsuffer from a significant level of stochasticity, making it difficult for\ndomain experts to capture the intrinsic factors that influence the neural\nnetwork's decision. In this work, we propose a novel pixel partitioning\nstrategy to boost the stability and generalizability of gradient-based saliency\nmaps. Through both theoretical analysis and numerical experiments, we\ndemonstrate that the grouping of pixels reduces the variance of the saliency\nmap and improves the generalization behavior of the interpretation method.\nFurthermore, we propose a sensible grouping strategy based on super-pixels\nwhich cluster pixels into groups that align well with the semantic meaning of\nthe images. We perform several numerical experiments on CIFAR-10 and ImageNet.\nOur empirical results suggest that the super-pixel-based interpretation maps\nconsistently improve the stability and quality over the pixel-based saliency\nmaps.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "2CfD5KDWWJL7fsjVAkM3bixBXF8i5CwYfEoec1AVY8o",
+  "pdfSize": "1845249"
+}

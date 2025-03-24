@@ -1,0 +1,43 @@
+{
+  "id": "2412.06064",
+  "title": "Implicit Delta Learning of High Fidelity Neural Network Potentials",
+  "authors": "Stephan Thaler, Cristian Gabellini, Nikhil Shenoy, Prudencio Tossou",
+  "authorsParsed": [
+    [
+      "Thaler",
+      "Stephan",
+      ""
+    ],
+    [
+      "Gabellini",
+      "Cristian",
+      ""
+    ],
+    [
+      "Shenoy",
+      "Nikhil",
+      ""
+    ],
+    [
+      "Tossou",
+      "Prudencio",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 8 Dec 2024 20:35:45 GMT"
+    }
+  ],
+  "updateDate": "2024-12-10",
+  "timestamp": 1733690145000,
+  "abstract": "  Neural network potentials (NNPs) offer a fast and accurate alternative to\nab-initio methods for molecular dynamics (MD) simulations but are hindered by\nthe high cost of training data from high-fidelity Quantum Mechanics (QM)\nmethods. Our work introduces the Implicit Delta Learning (IDLe) method, which\nreduces the need for high-fidelity QM data by leveraging cheaper semi-empirical\nQM computations without compromising NNP accuracy or inference cost. IDLe\nemploys an end-to-end multi-task architecture with fidelity-specific heads that\ndecode energies based on a shared latent representation of the input atomistic\nsystem. In various settings, IDLe achieves the same accuracy as single\nhigh-fidelity baselines while using up to 50x less high-fidelity data. This\nresult could significantly reduce data generation cost and consequently enhance\naccuracy and generalization, and expand chemical coverage for NNPs, advancing\nMD simulations for material science and drug discovery. Additionally, we\nprovide a novel set of 11 million semi-empirical QM calculations to support\nfuture multi-fidelity NNP modeling.\n",
+  "subjects": [
+    "Physics/Chemical Physics",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "fsemfkZMMeydBH8nejBxhFjsvmTSPwa4S0afwutlOZE",
+  "pdfSize": "1015879"
+}

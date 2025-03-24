@@ -1,0 +1,42 @@
+{
+  "id": "2412.10840",
+  "title": "Attention-driven GUI Grounding: Leveraging Pretrained Multimodal Large\n  Language Models without Fine-Tuning",
+  "authors": "Hai-Ming Xu, Qi Chen, Lei Wang, Lingqiao Liu",
+  "authorsParsed": [
+    [
+      "Xu",
+      "Hai-Ming",
+      ""
+    ],
+    [
+      "Chen",
+      "Qi",
+      ""
+    ],
+    [
+      "Wang",
+      "Lei",
+      ""
+    ],
+    [
+      "Liu",
+      "Lingqiao",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 14 Dec 2024 14:30:05 GMT"
+    }
+  ],
+  "updateDate": "2024-12-17",
+  "timestamp": 1734186605000,
+  "abstract": "  Recent advancements in Multimodal Large Language Models (MLLMs) have\ngenerated significant interest in their ability to autonomously interact with\nand interpret Graphical User Interfaces (GUIs). A major challenge in these\nsystems is grounding-accurately identifying critical GUI components such as\ntext or icons based on a GUI image and a corresponding text query.\nTraditionally, this task has relied on fine-tuning MLLMs with specialized\ntraining data to predict component locations directly. However, in this paper,\nwe propose a novel Tuning-free Attention-driven Grounding (TAG) method that\nleverages the inherent attention patterns in pretrained MLLMs to accomplish\nthis task without the need for additional fine-tuning. Our method involves\nidentifying and aggregating attention maps from specific tokens within a\ncarefully constructed query prompt. Applied to MiniCPM-Llama3-V 2.5, a\nstate-of-the-art MLLM, our tuning-free approach achieves performance comparable\nto tuning-based methods, with notable success in text localization.\nAdditionally, we demonstrate that our attention map-based grounding technique\nsignificantly outperforms direct localization predictions from MiniCPM-Llama3-V\n2.5, highlighting the potential of using attention maps from pretrained MLLMs\nand paving the way for future innovations in this domain.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "no1GBQbS5f-dfkvKQypaKs271gkxqcqr0J-NWZCqWJo",
+  "pdfSize": "5195873"
+}

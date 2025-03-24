@@ -1,0 +1,52 @@
+{
+  "id": "2412.02532",
+  "title": "Enhancing Vector Network Analysis With a Photonic Frequency Extender\n  Setup",
+  "authors": "Alexander Theis, Michael Kocybik, Maris Bauer, Georg von Freymann,\n  Fabian Friederich",
+  "authorsParsed": [
+    [
+      "Theis",
+      "Alexander",
+      ""
+    ],
+    [
+      "Kocybik",
+      "Michael",
+      ""
+    ],
+    [
+      "Bauer",
+      "Maris",
+      ""
+    ],
+    [
+      "von Freymann",
+      "Georg",
+      ""
+    ],
+    [
+      "Friederich",
+      "Fabian",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 3 Dec 2024 16:24:29 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Mon, 3 Feb 2025 09:51:03 GMT"
+    }
+  ],
+  "updateDate": "2025-02-04",
+  "timestamp": 1733243069000,
+  "abstract": "  We present a photonic ultra-wideband frequency extension for a commercial\nVector Network Analyzer (VNA) to perform free-space measurements in a frequency\nrange from 70 GHz up to 520 GHz with a Hz level resolution. The concept is\nbased on the synchronization of continuous-wave (CW) lasers with highly\nfrequency-stable electronic emitter sources as a reference. The use of CW\nphotomixers with bandwidths up to several terahertz allows for the\nstraightforward expansion of the covered frequency range to 1 THz or even\nbeyond. This can be achieved, for instance, by cascading additional lasers\nwithin the synchronization scheme. Consequently, the necessity for additional\nfrequency extender modules, as seen in current state-of-the-art VNAs, is\neliminated, thereby reducing the complexity and cost of the system\nsignificantly. To showcase the capabilities of the Photonic Vector Network\nAnalyzer (PVNA) extender concept, we conducted S21 transmission measurements of\nvarious cross-shaped bandpass filters and waveguide-coupled high-frequency (HF)\ncomponents. Additionally, the analyzed magnitude and phase data were either\ncompared to electro-magnetic (EM) simulations or referenced against data\nobtained from commercial electronic frequency extender modules.\n",
+  "subjects": [
+    "Physics/Optics",
+    "Physics/Applied Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "0tt50IvMZ2xrC-G9TfaBOUhbG05Exeer1s18mbw25JU",
+  "pdfSize": "1333697"
+}

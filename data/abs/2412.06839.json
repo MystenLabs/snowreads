@@ -1,0 +1,28 @@
+{
+  "id": "2412.06839",
+  "title": "A Neural Model of Rule Discovery with Relatively Short-Term Sequence\n  Memory",
+  "authors": "Naoya Arakawa",
+  "authorsParsed": [
+    [
+      "Arakawa",
+      "Naoya",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 7 Dec 2024 06:38:41 GMT"
+    }
+  ],
+  "updateDate": "2024-12-11",
+  "timestamp": 1733553521000,
+  "abstract": "  This report proposes a neural cognitive model for discovering regularities in\nevent sequences. In a fluid intelligence task, the subject is required to\ndiscover regularities from relatively short-term memory of the first-seen task.\nSome fluid intelligence tasks require discovering regularities in event\nsequences. Thus, a neural network model was constructed to explain fluid\nintelligence or regularity discovery in event sequences with relatively\nshort-term memory. The model was implemented and tested with delayed\nmatch-to-sample tasks.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "J2vRdPrFLRSroL7xyvZpNzRhWlg6eTV8umfdJ10yiMw",
+  "pdfSize": "574032"
+}

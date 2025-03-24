@@ -1,0 +1,48 @@
+{
+  "id": "2412.00575",
+  "title": "Multi-resolution Guided 3D GANs for Medical Image Translation",
+  "authors": "Juhyung Ha, Jong Sung Park, David Crandall, Eleftherios Garyfallidis,\n  Xuhong Zhang",
+  "authorsParsed": [
+    [
+      "Ha",
+      "Juhyung",
+      ""
+    ],
+    [
+      "Park",
+      "Jong Sung",
+      ""
+    ],
+    [
+      "Crandall",
+      "David",
+      ""
+    ],
+    [
+      "Garyfallidis",
+      "Eleftherios",
+      ""
+    ],
+    [
+      "Zhang",
+      "Xuhong",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 30 Nov 2024 20:11:55 GMT"
+    }
+  ],
+  "updateDate": "2024-12-03",
+  "timestamp": 1732997515000,
+  "abstract": "  Medical image translation is the process of converting from one imaging\nmodality to another, in order to reduce the need for multiple image\nacquisitions from the same patient. This can enhance the efficiency of\ntreatment by reducing the time, equipment, and labor needed. In this paper, we\nintroduce a multi-resolution guided Generative Adversarial Network (GAN)-based\nframework for 3D medical image translation. Our framework uses a 3D\nmulti-resolution Dense-Attention UNet (3D-mDAUNet) as the generator and a 3D\nmulti-resolution UNet as the discriminator, optimized with a unique combination\nof loss functions including voxel-wise GAN loss and 2.5D perception loss. Our\napproach yields promising results in volumetric image quality assessment (IQA)\nacross a variety of imaging modalities, body regions, and age groups,\ndemonstrating its robustness. Furthermore, we propose a synthetic-to-real\napplicability assessment as an additional evaluation to assess the\neffectiveness of synthetic data in downstream applications such as\nsegmentation. This comprehensive evaluation shows that our method produces\nsynthetic medical images not only of high-quality but also potentially useful\nin clinical applications. Our code is available at github.com/juhha/3D-mADUNet.\n",
+  "subjects": [
+    "Electrical Engineering and Systems Science/Image and Video Processing",
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "GwdzX6pW9WOuFzW7RidmCevBB_TOVT6WO5FhOwD6ipU",
+  "pdfSize": "1509173"
+}

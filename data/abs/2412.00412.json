@@ -1,0 +1,38 @@
+{
+  "id": "2412.00412",
+  "title": "Functional worst risk minimization",
+  "authors": "Philip Kennerberg, Ernst C. Wit",
+  "authorsParsed": [
+    [
+      "Kennerberg",
+      "Philip",
+      ""
+    ],
+    [
+      "Wit",
+      "Ernst C.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 30 Nov 2024 09:39:32 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Thu, 6 Feb 2025 16:05:48 GMT"
+    }
+  ],
+  "updateDate": "2025-02-07",
+  "timestamp": 1732959572000,
+  "abstract": "  The aim of this paper is to extend worst risk minimization, also called worst\naverage loss minimization, to the functional realm. This means finding a\nfunctional regression representation that will be robust to future distribution\nshifts on the basis of data from two environments. In the classical\nnon-functional realm, structural equations are based on a transfer matrix $B$.\nIn section~\\ref{sec:sfr}, we generalize this to consider a linear operator\n$\\mathcal{T}$ on square integrable processes that plays the the part of $B$. By\nrequiring that $(I-\\mathcal{T})^{-1}$ is bounded -- as opposed to $\\mathcal{T}$\n-- this will allow for a large class of unbounded operators to be considered.\nSection~\\ref{sec:worstrisk} considers two separate cases that both lead to the\nsame worst-risk decomposition. Remarkably, this decomposition has the same\nstructure as in the non-functional case. We consider any operator $\\mathcal{T}$\nthat makes $(I-\\mathcal{T})^{-1}$ bounded and define the future shift set in\nterms of the covariance functions of the shifts. In\nsection~\\ref{sec:minimizer}, we prove a necessary and sufficient condition for\nexistence of a minimizer to this worst risk in the space of square integrable\nkernels. Previously, such minimizers were expressed in terms of the unknown\neigenfunctions of the target and covariate integral operators (see for instance\n\\cite{HeMullerWang} and \\cite{YaoAOS}). This means that in order to estimate\nthe minimizer, one must first estimate these unknown eigenfunctions. In\ncontrast, the solution provided here will be expressed in any arbitrary\nON-basis. This completely removes any necessity of estimating eigenfunctions.\nThis pays dividends in section~\\ref{sec:estimation}, where we provide a family\nof estimators, that are consistent with a large sample bound. Proofs of all the\nresults are provided in the appendix.\n",
+  "subjects": [
+    "Mathematics/Statistics Theory",
+    "Mathematics/Probability",
+    "Statistics/Statistics Theory"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "MwmjB-RLCaJXDGhnTDXLQ7VAnM3NLfXuMBn5UZ-Gp0o",
+  "pdfSize": "566607"
+}

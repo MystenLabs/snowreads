@@ -1,0 +1,38 @@
+{
+  "id": "2412.16741",
+  "title": "Point defect formation at finite temperatures with machine learning\n  force fields",
+  "authors": "Irea Mosquera-Lois, Johan Klarbring and Aron Walsh",
+  "authorsParsed": [
+    [
+      "Mosquera-Lois",
+      "Irea",
+      ""
+    ],
+    [
+      "Klarbring",
+      "Johan",
+      ""
+    ],
+    [
+      "Walsh",
+      "Aron",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 21 Dec 2024 19:15:08 GMT"
+    }
+  ],
+  "updateDate": "2024-12-24",
+  "timestamp": 1734808508000,
+  "abstract": "  Point defects dictate the properties of many functional materials. The\nstandard approach to modelling the thermodynamics of defects relies on a static\ndescription, where the change in Gibbs free energy is approximated by the\ninternal energy. This approach has a low computational cost, but ignores\ncontributions from atomic vibrations and structural configurations that can be\naccessed at finite temperatures. We train a machine learning force field (MLFF)\nto explore dynamic defect behaviour using $\\mathrm{Te_i^{+1}}$ and\n$\\textit{V}{\\mathrm{_{Te}^{+2}}}$ in CdTe as exemplars. We consider the\ndifferent entropic contributions (e.g., electronic, spin, vibrational,\norientational, and configurational) and compare methods to compute the defect\nfree energies, ranging from a harmonic treatment to a fully anharmonic approach\nbased on thermodynamic integration. We find that metastable configurations are\npopulated at room temperature and thermal effects increase the predicted\nconcentration of $\\mathrm{Te_i^{+1}}$ by two orders of magnitude -- and can\nthus significantly affect the predicted properties. Overall, our study\nunderscores the importance of finite-temperature effects and the potential of\nMLFFs to model defect dynamics at both synthesis and device operating\ntemperatures.\n",
+  "subjects": [
+    "Condensed Matter/Materials Science",
+    "Physics/Chemical Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "g7ZBmaEnUpfJCytJzSoUBk_3yCfqJ704xdi4Jbc_x1k",
+  "pdfSize": "6724240"
+}

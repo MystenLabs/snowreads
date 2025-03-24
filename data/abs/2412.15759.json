@@ -1,0 +1,37 @@
+{
+  "id": "2412.15759",
+  "title": "ASPIRE: Assistive System for Performance Evaluation in IR",
+  "authors": "Georgios Peikos, Wojciech Kusa, and Symeon Symeonidis",
+  "authorsParsed": [
+    [
+      "Peikos",
+      "Georgios",
+      ""
+    ],
+    [
+      "Kusa",
+      "Wojciech",
+      ""
+    ],
+    [
+      "Symeonidis",
+      "Symeon",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 20 Dec 2024 10:25:28 GMT"
+    }
+  ],
+  "updateDate": "2024-12-23",
+  "timestamp": 1734690328000,
+  "abstract": "  Information Retrieval (IR) evaluation involves far more complexity than\nmerely presenting performance measures in a table. Researchers often need to\ncompare multiple models across various dimensions, such as the Precision-Recall\ntrade-off and response time, to understand the reasons behind the varying\nperformance of specific queries for different models. We introduce ASPIRE\n(Assistive System for Performance Evaluation in IR), a visual analytics tool\ndesigned to address these complexities by providing an extensive and\nuser-friendly interface for in-depth analysis of IR experiments. ASPIRE\nsupports four key aspects of IR experiment evaluation and analysis:\nsingle/multi-experiment comparisons, query-level analysis, query\ncharacteristics-performance interplay, and collection-based retrieval analysis.\nWe showcase the functionality of ASPIRE using the TREC Clinical Trials\ncollection. ASPIRE is an open-source toolkit available online:\nhttps://github.com/GiorgosPeikos/ASPIRE\n",
+  "subjects": [
+    "Computer Science/Information Retrieval"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "ixxRkSmuNeg__B--j0Qgwl1PXVSifgQOzudvbwdm25s",
+  "pdfSize": "5766308"
+}

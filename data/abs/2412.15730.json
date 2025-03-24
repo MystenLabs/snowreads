@@ -1,0 +1,38 @@
+{
+  "id": "2412.15730",
+  "title": "Convergence of a Hyperbolic Thermodynamically Compatible Finite Volume\n  scheme for the Euler equations",
+  "authors": "Michael Dumbser and M\\'aria Luk\\'a\\v{c}ov\\'a-Medvid'ov\\'a and Andrea\n  Thomann",
+  "authorsParsed": [
+    [
+      "Dumbser",
+      "Michael",
+      ""
+    ],
+    [
+      "Lukáčová-Medvid'ová",
+      "Mária",
+      ""
+    ],
+    [
+      "Thomann",
+      "Andrea",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 20 Dec 2024 09:53:43 GMT"
+    }
+  ],
+  "updateDate": "2024-12-23",
+  "timestamp": 1734688423000,
+  "abstract": "  We study the convergence of a novel family of thermodynamically compatible\nschemes for hyperbolic systems (HTC schemes) in the framework of dissipative\nweak solutions, applied to the Euler equations of compressible gas dynamics.\nTwo key novelties of our method are i) entropy is treated as one of the main\nfield quantities and ii) the total energy conservation is a consequence of\ncompatible discretization and application of the Abgrall flux.\n",
+  "subjects": [
+    "Mathematics/Numerical Analysis",
+    "Computer Science/Numerical Analysis"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "Nuk0Qn9sSb6Tpj7I-ZlUr2kAu1cJTO8WfInA27TmVNs",
+  "pdfSize": "1498323"
+}

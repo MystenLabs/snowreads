@@ -1,0 +1,43 @@
+{
+  "id": "2412.20363",
+  "title": "Exploring the Magnitude-Shape Plot Framework for Anomaly Detection in\n  Crowded Video Scenes",
+  "authors": "Zuzheng Wang, Fouzi Harrou, Ying Sun, Marc G Genton",
+  "authorsParsed": [
+    [
+      "Wang",
+      "Zuzheng",
+      ""
+    ],
+    [
+      "Harrou",
+      "Fouzi",
+      ""
+    ],
+    [
+      "Sun",
+      "Ying",
+      ""
+    ],
+    [
+      "Genton",
+      "Marc G",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 29 Dec 2024 05:58:50 GMT"
+    }
+  ],
+  "updateDate": "2024-12-31",
+  "timestamp": 1735451930000,
+  "abstract": "  Detecting anomalies in crowded video scenes is critical for public safety,\nenabling timely identification of potential threats. This study explores video\nanomaly detection within a Functional Data Analysis framework, focusing on the\napplication of the Magnitude-Shape (MS) Plot. Autoencoders are used to learn\nand reconstruct normal behavioral patterns from anomaly-free training data,\nresulting in low reconstruction errors for normal frames and higher errors for\nframes with potential anomalies. The reconstruction error matrix for each frame\nis treated as multivariate functional data, with the MS-Plot applied to analyze\nboth magnitude and shape deviations, enhancing the accuracy of anomaly\ndetection. Using its capacity to evaluate the magnitude and shape of\ndeviations, the MS-Plot offers a statistically principled and interpretable\nframework for anomaly detection. The proposed methodology is evaluated on two\nwidely used benchmark datasets, UCSD Ped2 and CUHK Avenue, demonstrating\npromising performance. It performs better than traditional univariate\nfunctional detectors (e.g., FBPlot, TVDMSS, Extremal Depth, and Outliergram)\nand several state-of-the-art methods. These results highlight the potential of\nthe MS-Plot-based framework for effective anomaly detection in crowded video\nscenes.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Statistics/Applications"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "9WzZerjz5jRCYHT4r7emN3i_fhnI9m1poZG8HPYGu2c",
+  "pdfSize": "3178889"
+}

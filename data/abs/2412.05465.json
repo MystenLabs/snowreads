@@ -1,0 +1,33 @@
+{
+  "id": "2412.05465",
+  "title": "Superconductivity-enhanced magnetic field noise",
+  "authors": "Shane P. Kelly and Yaroslav Tserkovnyak",
+  "authorsParsed": [
+    [
+      "Kelly",
+      "Shane P.",
+      ""
+    ],
+    [
+      "Tserkovnyak",
+      "Yaroslav",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 6 Dec 2024 23:34:20 GMT"
+    }
+  ],
+  "updateDate": "2024-12-10",
+  "timestamp": 1733528060000,
+  "abstract": "  We consider the stray magnetic field noise outside a two-dimensional\nsuperconductor. Our considerations are motivated by recent experiments, which\nobserved an enhancement in the magnetic field noise below the superconducting\ncritical temperature based on the relaxation of diamond nitrogen-vacancy\ncenters. Such enhancement is not captured by the standard two-fluid model for\nthe superconducting state, recently proposed to explain such NV relaxometry\nexperiments. Instead, we show that a microscopic BCS theory captures such an\nenhancement, and we compare with a similar theory and phenomenon, known as the\nHebel-Schlicter peak (or coherence peak), observed in the relaxation of nuclear\nspins in the material. The primary difference is that the NV probes\nlong-wavelength magnetic noise outside the sample, while the nuclear spin\nprobes local hyperfine noise inside the sample. Accordingly, the noise probed\nby the NV depends on its height and can probe, in pristine samples, the\nsuperfluid coherence length. Finally, we discuss potential avenues for NVs to\nprobe unconventional superconductivity via deviations from the above BCS\ntheory.\n",
+  "subjects": [
+    "Condensed Matter/Superconductivity",
+    "Condensed Matter/Materials Science"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "uA_ol8-UXIUfZx3XhJNwfXEmizKs5gGD_8bDciBqCh0",
+  "pdfSize": "649839"
+}

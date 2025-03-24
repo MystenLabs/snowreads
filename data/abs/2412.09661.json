@@ -1,0 +1,78 @@
+{
+  "id": "2412.09661",
+  "title": "Language model driven: a PROTAC generation pipeline with dual\n  constraints of structure and property",
+  "authors": "Jinsong Shao, Qineng Gong, Zeyu Yin, Yu Chen, Yajie Hao, Lei Zhang,\n  Linlin Jiang, Min Yao, Jinlong Li, Fubo Wang, Li Wang",
+  "authorsParsed": [
+    [
+      "Shao",
+      "Jinsong",
+      ""
+    ],
+    [
+      "Gong",
+      "Qineng",
+      ""
+    ],
+    [
+      "Yin",
+      "Zeyu",
+      ""
+    ],
+    [
+      "Chen",
+      "Yu",
+      ""
+    ],
+    [
+      "Hao",
+      "Yajie",
+      ""
+    ],
+    [
+      "Zhang",
+      "Lei",
+      ""
+    ],
+    [
+      "Jiang",
+      "Linlin",
+      ""
+    ],
+    [
+      "Yao",
+      "Min",
+      ""
+    ],
+    [
+      "Li",
+      "Jinlong",
+      ""
+    ],
+    [
+      "Wang",
+      "Fubo",
+      ""
+    ],
+    [
+      "Wang",
+      "Li",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 12 Dec 2024 10:15:12 GMT"
+    }
+  ],
+  "updateDate": "2024-12-16",
+  "timestamp": 1733998512000,
+  "abstract": "  The imperfect modeling of ternary complexes has limited the application of\ncomputer-aided drug discovery tools in PROTAC research and development. In this\nstudy, an AI-assisted approach for PROTAC molecule design pipeline named\nLM-PROTAC was developed, which stands for language model driven Proteolysis\nTargeting Chimera, by embedding a transformer-based generative model with dual\nconstraints on structure and properties, referred to as the DCT. This study\nutilized the fragmentation representation of molecules and developed a language\nmodel driven pipeline. Firstly, a language model driven affinity model for\nprotein compounds to screen molecular fragments with high affinity for the\ntarget protein. Secondly, structural and physicochemical properties of these\nfragments were constrained during the generation process to meet specific\nscenario requirements. Finally, a two-round screening of the preliminary\ngenerated molecules using a multidimensional property prediction model to\ngenerate a batch of PROTAC molecules capable of degrading disease-relevant\ntarget proteins for validation in vitro experiments, thus achieving a complete\nsolution for AI-assisted PROTAC drug generation. Taking the tumor key target\nWnt3a as an example, the LM-PROTAC pipeline successfully generated PROTAC\nmolecules capable of inhibiting Wnt3a. The results show that DCT can\nefficiently generate PROTAC that targets and hydrolyses Wnt3a.\n",
+  "subjects": [
+    "Quantitative Biology/Quantitative Methods",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "BlpzJ-vIdkTFrtX_Dm5wjfjndVNSOZ3w-AVGARTmw3A",
+  "pdfSize": "3258726"
+}

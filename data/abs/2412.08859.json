@@ -1,0 +1,57 @@
+{
+  "id": "2412.08859",
+  "title": "ViUniT: Visual Unit Tests for More Robust Visual Programming",
+  "authors": "Artemis Panagopoulou, Honglu Zhou, Silvio Savarese, Caiming Xiong,\n  Chris Callison-Burch, Mark Yatskar, Juan Carlos Niebles",
+  "authorsParsed": [
+    [
+      "Panagopoulou",
+      "Artemis",
+      ""
+    ],
+    [
+      "Zhou",
+      "Honglu",
+      ""
+    ],
+    [
+      "Savarese",
+      "Silvio",
+      ""
+    ],
+    [
+      "Xiong",
+      "Caiming",
+      ""
+    ],
+    [
+      "Callison-Burch",
+      "Chris",
+      ""
+    ],
+    [
+      "Yatskar",
+      "Mark",
+      ""
+    ],
+    [
+      "Niebles",
+      "Juan Carlos",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 12 Dec 2024 01:36:18 GMT"
+    }
+  ],
+  "updateDate": "2024-12-13",
+  "timestamp": 1733967378000,
+  "abstract": "  Programming based approaches to reasoning tasks have substantially expanded\nthe types of questions models can answer about visual scenes. Yet on benchmark\nvisual reasoning data, when models answer correctly, they produce incorrect\nprograms 33% of the time. These models are often right for the wrong reasons\nand risk unexpected failures on new data. Unit tests play a foundational role\nin ensuring code correctness and could be used to repair such failures. We\npropose Visual Unit Testing (ViUniT), a framework to improve the reliability of\nvisual programs by automatically generating unit tests. In our framework, a\nunit test is represented as a novel image and answer pair meant to verify the\nlogical correctness of a program produced for a given query. Our method\nleverages a language model to create unit tests in the form of image\ndescriptions and expected answers and image synthesis to produce corresponding\nimages. We conduct a comprehensive analysis of what constitutes an effective\nvisual unit test suite, exploring unit test generation, sampling strategies,\nimage generation methods, and varying the number of programs and unit tests.\nAdditionally, we introduce four applications of visual unit tests: best program\nselection, answer refusal, re-prompting, and unsupervised reward formulations\nfor reinforcement learning. Experiments with two models across three datasets\nin visual question answering and image-text matching demonstrate that ViUniT\nimproves model performance by 11.4%. Notably, it enables 7B open-source models\nto outperform gpt-4o-mini by an average of 7.7% and reduces the occurrence of\nprograms that are correct for the wrong reasons by 40%.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "PEwop-2TFsf1tljjiSDOyMAUUg0r6B44HWuNI7uYkUA",
+  "pdfSize": "3084498"
+}

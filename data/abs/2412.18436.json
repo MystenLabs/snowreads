@@ -1,0 +1,38 @@
+{
+  "id": "2412.18436",
+  "title": "Fundamental solutions for parabolic equations and systems: universal\n  existence, uniqueness, representation",
+  "authors": "Pascal Auscher and Khalid Baadi",
+  "authorsParsed": [
+    [
+      "Auscher",
+      "Pascal",
+      ""
+    ],
+    [
+      "Baadi",
+      "Khalid",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 24 Dec 2024 13:55:30 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Fri, 27 Dec 2024 17:38:58 GMT"
+    }
+  ],
+  "updateDate": "2024-12-30",
+  "timestamp": 1735048530000,
+  "abstract": "  In this paper, we develop a universal, conceptually simple and systematic\nmethod to prove well-posedness to Cauchy problems for weak solutions of\nparabolic equations with non-smooth, time-dependent, elliptic part having a\nvariational definition. Our classes of weak solutions are taken with minimal\nassumptions. We prove the existence and uniqueness of a fundamental solution\nwhich seems new in this generality: it is shown to always coincide with the\nassociated evolution family for the initial value problem with zero source and\nit yields representation of all weak solutions. Our strategy is a variational\napproach avoiding density arguments, a priori regularity of weak solutions or\nregularization by smooth operators. One of our main tools are embedding results\nwhich yield time continuity of our weak solutions going beyond the celebrated\nLions regularity theorem and that is addressing a variety of source terms. We\nillustrate our results with three concrete applications : second order\nuniformly elliptic part with Dirichlet boundary condition on domains,\nintegro-differential elliptic part, and second order degenerate elliptic part.\n",
+  "subjects": [
+    "Mathematics/Analysis of PDEs",
+    "Mathematics/Classical Analysis and ODEs",
+    "Mathematics/Functional Analysis"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "d4fjM7ve7m0a1qcLjyr1G-4wnd2EhMOjJerjo5YpCPk",
+  "pdfSize": "515225"
+}

@@ -1,0 +1,37 @@
+{
+  "id": "2412.11319",
+  "title": "Binary sequences meet the Fibonacci sequence",
+  "authors": "Piotr Miska, Bartosz Sobolewski, Maciej Ulas",
+  "authorsParsed": [
+    [
+      "Miska",
+      "Piotr",
+      ""
+    ],
+    [
+      "Sobolewski",
+      "Bartosz",
+      ""
+    ],
+    [
+      "Ulas",
+      "Maciej",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 15 Dec 2024 21:30:24 GMT"
+    }
+  ],
+  "updateDate": "2024-12-17",
+  "timestamp": 1734298224000,
+  "abstract": "  Let $(u_{n})_{n\\in \\mathbb{N}}$ be a $k$-automatic sequence with values in\nthe set $\\{0, 1\\}$. In the paper, we consider properties of sequences\n$(f(n))_{n\\in\\mathbb{N}}$ governed by the recurrence relations of the form\n$f(n)=af(n-u_{n}-1)+bf(n-u_{n}-2)$. One of our main results states that under\nmild assumptions on the sequence $(u_{n})_{n\\in \\mathbb{N}}$, the corresponding\nset of quotients $\\cal{V}(f):=\\{f(n+1)/f(n):\\;n\\in\\mathbb{N}\\}$ is finite and\n$k$-automatic. In particular, this property holds in the case when\n$u_{n}=T_{n}$, where $(T_{n})_{n\\in\\mathbb{N}}$ is the famous\nProuhet-Thue-Morse sequence. We also study the cardinality of $\\cal{V}(f)$ in\nthe case when $(u_{n})_{n\\in \\mathbb{N}}$ contains arbitrarily long blocks of\nzeros or is ultimately periodic.\n",
+  "subjects": [
+    "Mathematics/Number Theory"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "wqvQQEJO1ldjk1k1_dFV7XhQ-kR2Kd6OJin3-2dM2-g",
+  "pdfSize": "580754"
+}

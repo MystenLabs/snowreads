@@ -1,0 +1,27 @@
+{
+  "id": "2412.07923",
+  "title": "Asking Again and Again: Exploring LLM Robustness to Repeated Questions",
+  "authors": "Sagi Shaier",
+  "authorsParsed": [
+    [
+      "Shaier",
+      "Sagi",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 10 Dec 2024 21:09:12 GMT"
+    }
+  ],
+  "updateDate": "2024-12-12",
+  "timestamp": 1733864952000,
+  "abstract": "  This study examines whether large language models (LLMs), such as ChatGPT,\nspecifically the latest GPT-4o-mini, exhibit sensitivity to repeated prompts\nand whether repeating a question can improve response accuracy. We hypothesize\nthat reiterating a question within a single prompt might enhance the model's\nfocus on key elements of the query. To test this, we evaluate ChatGPT's\nperformance on a large sample of two reading comprehension datasets under both\nopen-book and closed-book settings, varying the repetition of each question to\n1, 3, or 5 times per prompt. Our findings indicate that the model does not\ndemonstrate sensitivity to repeated questions, highlighting its robustness and\nconsistency in this context.\n",
+  "subjects": [
+    "Computer Science/Computation and Language"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "8zIY4PLZa3dZrnZKjLvThlVabl57XbK695yPIpdZVYE",
+  "pdfSize": "218826"
+}

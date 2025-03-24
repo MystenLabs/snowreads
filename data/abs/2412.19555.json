@@ -1,0 +1,29 @@
+{
+  "id": "2412.19555",
+  "title": "Asymptotic Properties of the Maximum Likelihood Estimator for\n  Markov-switching Observation-driven Models",
+  "authors": "Frederik Krabbe",
+  "authorsParsed": [
+    [
+      "Krabbe",
+      "Frederik",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 27 Dec 2024 09:57:59 GMT"
+    }
+  ],
+  "updateDate": "2024-12-30",
+  "timestamp": 1735293479000,
+  "abstract": "  A Markov-switching observation-driven model is a stochastic process\n$((S_t,Y_t))_{t \\in \\mathbb{Z}}$ where (i) $(S_t)_{t \\in \\mathbb{Z}}$ is an\nunobserved Markov process taking values in a finite set and (ii) $(Y_t)_{t \\in\n\\mathbb{Z}}$ is an observed process such that the conditional distribution of\n$Y_t$ given all past $Y$'s and the current and all past $S$'s depends only on\nall past $Y$'s and $S_t$. In this paper, we prove the consistency and\nasymptotic normality of the maximum likelihood estimator for such model. As a\nspecial case hereof, we give conditions under which the maximum likelihood\nestimator for the widely applied Markov-switching generalised autoregressive\nconditional heteroscedasticity model introduced by Haas et al. (2004b) is\nconsistent and asymptotic normal.\n",
+  "subjects": [
+    "Economics/Econometrics",
+    "Mathematics/Statistics Theory",
+    "Statistics/Statistics Theory"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "Jk6dQCiDX1f3OdljhuDucFxr2OdogQBSRrtWaBcgKu8",
+  "pdfSize": "534876"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "2412.19832",
+  "title": "Back To The Future: A Hybrid Transformer-XGBoost Model for\n  Action-oriented Future-proofing Nowcasting",
+  "authors": "Ziheng Sun",
+  "authorsParsed": [
+    [
+      "Sun",
+      "Ziheng",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 21 Dec 2024 08:53:28 GMT"
+    }
+  ],
+  "updateDate": "2024-12-31",
+  "timestamp": 1734771208000,
+  "abstract": "  Inspired by the iconic movie Back to the Future, this paper explores an\ninnovative adaptive nowcasting approach that reimagines the relationship\nbetween present actions and future outcomes. In the movie, characters travel\nthrough time to manipulate past events, aiming to create a better future.\nAnalogously, our framework employs predictive insights about the future to\ninform and adjust present conditions. This dual-stage model integrates the\nforecasting power of Transformers (future visionary) with the interpretability\nand efficiency of XGBoost (decision maker), enabling a seamless loop of future\nprediction and present adaptation. Through experimentation with meteorological\ndatasets, we demonstrate the framework's advantage in achieving more accurate\nforecasting while guiding actionable interventions for real-time applications.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "CHNVzeI0QykJNURCPqHGlMRMcIY_klrbEDLOugUb6vU",
+  "pdfSize": "2255354"
+}

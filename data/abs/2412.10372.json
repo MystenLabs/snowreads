@@ -1,0 +1,47 @@
+{
+  "id": "2412.10372",
+  "title": "UniMed-CLIP: Towards a Unified Image-Text Pretraining Paradigm for\n  Diverse Medical Imaging Modalities",
+  "authors": "Muhammad Uzair Khattak, Shahina Kunhimon, Muzammal Naseer, Salman\n  Khan, and Fahad Shahbaz Khan",
+  "authorsParsed": [
+    [
+      "Khattak",
+      "Muhammad Uzair",
+      ""
+    ],
+    [
+      "Kunhimon",
+      "Shahina",
+      ""
+    ],
+    [
+      "Naseer",
+      "Muzammal",
+      ""
+    ],
+    [
+      "Khan",
+      "Salman",
+      ""
+    ],
+    [
+      "Khan",
+      "Fahad Shahbaz",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 13 Dec 2024 18:59:40 GMT"
+    }
+  ],
+  "updateDate": "2024-12-16",
+  "timestamp": 1734116380000,
+  "abstract": "  Vision-Language Models (VLMs) trained via contrastive learning have achieved\nnotable success in natural image tasks. However, their application in the\nmedical domain remains limited due to the scarcity of openly accessible,\nlarge-scale medical image-text datasets. Existing medical VLMs either train on\nclosed-source proprietary or relatively small open-source datasets that do not\ngeneralize well. Similarly, most models remain specific to a single or limited\nnumber of medical imaging domains, again restricting their applicability to\nother modalities. To address this gap, we introduce UniMed, a large-scale,\nopen-source multi-modal medical dataset comprising over 5.3 million image-text\npairs across six diverse imaging modalities: X-ray, CT, MRI, Ultrasound,\nPathology, and Fundus. UniMed is developed using a data-collection framework\nthat leverages Large Language Models (LLMs) to transform modality-specific\nclassification datasets into image-text formats while incorporating existing\nimage-text data from the medical domain, facilitating scalable VLM pretraining.\nUsing UniMed, we trained UniMed-CLIP, a unified VLM for six modalities that\nsignificantly outperforms existing generalist VLMs and matches\nmodality-specific medical VLMs, achieving notable gains in zero-shot\nevaluations. For instance, UniMed-CLIP improves over BiomedCLIP (trained on\nproprietary data) by an absolute gain of +12.61, averaged over 21 datasets,\nwhile using 3x less training data. To facilitate future research, we release\nUniMed dataset, training codes, and models at\nhttps://github.com/mbzuai-oryx/UniMed-CLIP.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "h8aHxQlctVNIydN6K-xHFI5so9Dd1O2NA3xlAt2gluU",
+  "pdfSize": "3638147"
+}

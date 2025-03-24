@@ -1,0 +1,41 @@
+{
+  "id": "2412.12646",
+  "title": "A Measurement-Based Spatially Consistent Channel Model for Distributed\n  MIMO in Industrial Environments",
+  "authors": "Christian Nelson, Sara Willhammar, Fredrik Tufvesson",
+  "authorsParsed": [
+    [
+      "Nelson",
+      "Christian",
+      ""
+    ],
+    [
+      "Willhammar",
+      "Sara",
+      ""
+    ],
+    [
+      "Tufvesson",
+      "Fredrik",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 17 Dec 2024 08:10:32 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Tue, 14 Jan 2025 08:31:35 GMT"
+    }
+  ],
+  "updateDate": "2025-01-15",
+  "timestamp": 1734423032000,
+  "abstract": "  Future wireless communication systems are envisioned to support\nultra-reliable and low-latency communication (URLLC), which will enable new\napplications such as compute offloading, wireless real-time control, and\nreliable monitoring. Distributed multiple-input multiple-output (D-MIMO) is one\nof the most promising technologies for delivering URLLC. This paper classifies\nobstruction and derives a channel model from a D-MIMO measurement campaign\ncarried out at a carrier frequency of 3.75 GHz with a bandwidth of 35 MHz using\ntwelve distributed fully coherent dipole antennas in an industrial environment.\nChannel characteristics are investigated, including statistical measures such\nas small-scale fading, large-scale fading, delay spread, and transition rates\nbetween line-of-sight and obstructed line-of-sight conditions for the different\nantenna elements, laying the foundations for an accurate channel model for\nD-MIMO systems in industrial environments. Furthermore, correlations of\nlarge-scale fading between antennas, spatial correlation, and tail\ndistributions are included to enable proper evaluations of reliability and rare\nevents. Based on the results, a channel model for D-MIMO in industrial\nenvironments is presented together with a recipe for its implementation.\n",
+  "subjects": [
+    "Electrical Engineering and Systems Science/Signal Processing"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "xYM9USC5H7j7R-dkoCojPCmzdaXAoVSxA7S0ij26f40",
+  "pdfSize": "7573121"
+}

@@ -1,0 +1,52 @@
+{
+  "id": "2412.12666",
+  "title": "Barkhausen noise in the columnar hexagonal organic ferroelectric BTA",
+  "authors": "Andrey Alekseevich Butkevich, Fabian T. Thome, Toni Seiler, Marcel\n  Hecker, Martijn Kemerink",
+  "authorsParsed": [
+    [
+      "Butkevich",
+      "Andrey Alekseevich",
+      ""
+    ],
+    [
+      "Thome",
+      "Fabian T.",
+      ""
+    ],
+    [
+      "Seiler",
+      "Toni",
+      ""
+    ],
+    [
+      "Hecker",
+      "Marcel",
+      ""
+    ],
+    [
+      "Kemerink",
+      "Martijn",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 17 Dec 2024 08:36:39 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Thu, 20 Feb 2025 08:35:31 GMT"
+    }
+  ],
+  "updateDate": "2025-02-21",
+  "timestamp": 1734424599000,
+  "abstract": "  Upon a polarization reversal within a ferroelectric material, one stable\nstate changes into another which is typically described by a progression of\nswitching events of smaller fractions of the material. These events give rise\nto crackling or Barkhausen noise and follow a characteristic distribution in\ntheir sizes. Barkhausen noise has been studied to better understand the\nswitching processes of ferroelectrics and has been applied for inorganic\nferroelectric materials and perovskites. In this work, we present results from\nkinetic Monte Carlo simulations investigating the switching process of the\nsmall organic molecular ferroelectric benzene-1,3,5-tricarboxamides (BTAs). For\ntemperatures below 175 K and sufficiently strong structural disorder, the\nsystem exhibits self-organized critical behavior; for higher temperatures, a\ncreep regime is entered. Our extracted power-law exponents are smaller than\nthose typically measured in inorganic crystals and ceramics which indicates\nthat in the more disordered material BTA larger spanning avalanches are\npossible. The system was experimentally investigated with a high-sensitivity\nsetup. No Barkhausen noise was observed which is consistent with the simulated\nevent sizes, lying several orders beneath the noise threshold of the\nexperimental setup. This finding corroborates the notion that switching in BTA\nprogresses along the 1D columns in the hexagonal liquid crystal lattice, with\nlittle coupling between the columns that could give rise to larger lateral\navalanches.\n",
+  "subjects": [
+    "Condensed Matter/Materials Science",
+    "Condensed Matter/Other Condensed Matter"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "GyareBPpkNnrw6eE3sC6stPpiZZAT5GeWnCf1G_kGhY",
+  "pdfSize": "2791976"
+}

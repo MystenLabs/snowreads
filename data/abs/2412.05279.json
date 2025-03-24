@@ -1,0 +1,42 @@
+{
+  "id": "2412.05279",
+  "title": "Perturb-and-Revise: Flexible 3D Editing with Generative Trajectories",
+  "authors": "Susung Hong, Johanna Karras, Ricardo Martin-Brualla, Ira\n  Kemelmacher-Shlizerman",
+  "authorsParsed": [
+    [
+      "Hong",
+      "Susung",
+      ""
+    ],
+    [
+      "Karras",
+      "Johanna",
+      ""
+    ],
+    [
+      "Martin-Brualla",
+      "Ricardo",
+      ""
+    ],
+    [
+      "Kemelmacher-Shlizerman",
+      "Ira",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 6 Dec 2024 18:59:53 GMT"
+    }
+  ],
+  "updateDate": "2024-12-09",
+  "timestamp": 1733511593000,
+  "abstract": "  The fields of 3D reconstruction and text-based 3D editing have advanced\nsignificantly with the evolution of text-based diffusion models. While existing\n3D editing methods excel at modifying color, texture, and style, they struggle\nwith extensive geometric or appearance changes, thus limiting their\napplications. We propose Perturb-and-Revise, which makes possible a variety of\nNeRF editing. First, we perturb the NeRF parameters with random initializations\nto create a versatile initialization. We automatically determine the\nperturbation magnitude through analysis of the local loss landscape. Then, we\nrevise the edited NeRF via generative trajectories. Combined with the\ngenerative process, we impose identity-preserving gradients to refine the\nedited NeRF. Extensive experiments demonstrate that Perturb-and-Revise\nfacilitates flexible, effective, and consistent editing of color, appearance,\nand geometry in 3D. For 360{\\deg} results, please visit our project page:\nhttps://susunghong.github.io/Perturb-and-Revise.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "qxOW1hzgmJwa54NWp7nThAhHS4pkdlBX9U8mK7QWwLw",
+  "pdfSize": "9616172"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2412.03251",
+  "title": "A Cut-free, Sound and Complete Russellian Theory of Definite\n  Descriptions",
+  "authors": "Andrzej Indrzejczak, Nils K\\\"urbis",
+  "authorsParsed": [
+    [
+      "Indrzejczak",
+      "Andrzej",
+      ""
+    ],
+    [
+      "Kürbis",
+      "Nils",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 4 Dec 2024 11:51:25 GMT"
+    }
+  ],
+  "updateDate": "2024-12-05",
+  "timestamp": 1733313085000,
+  "abstract": "  We present a sequent calculus for first-order logic with lambda terms and\ndefinite descriptions. The theory formalised by this calculus is essentially\nRussellian, but avoids some of its well known drawbacks and treats definite\ndescription as genuine terms. A constructive proof of the cut elimination\ntheorem and a Henkin-style proof of completeness are the main results of this\ncontribution.\n",
+  "subjects": [
+    "Computer Science/Logic in Computer Science",
+    "Mathematics/Logic"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "tsyKFYqNHNrlgK9H1rbfg5tbgugw911WccR-DRxTCBQ",
+  "pdfSize": "248558"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "2412.07868",
+  "title": "Filling the gap in the IERS C01 polar motion series in 1858.9-1860.9",
+  "authors": "Zinovy Malkin, Nina Golyandina, Roman Olenev",
+  "authorsParsed": [
+    [
+      "Malkin",
+      "Zinovy",
+      ""
+    ],
+    [
+      "Golyandina",
+      "Nina",
+      ""
+    ],
+    [
+      "Olenev",
+      "Roman",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 10 Dec 2024 19:15:10 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Sun, 2 Feb 2025 18:24:33 GMT"
+    }
+  ],
+  "updateDate": "2025-02-04",
+  "timestamp": 1733858110000,
+  "abstract": "  The C01 Earth orientation parameters (EOP) series provided by the\nInternational Earth Rotation and Reference Systems Service (IERS) is the\nlongest reliable record of the Earth's rotation. In particular, the polar\nmotion (PM) series beginning from 1846 provides a basis for investigation of\nthe long-term PM variations. However, the pole coordinate $Y_p$ in the IERS C01\nPM series has a 2-year gap, which makes this series not completely evenly\nspaced. This paper presents the results of the first attempt to overcome this\nproblem and discusses some ways to fill this gap. Two novel approaches were\nconsidered for this purpose: parametric astronomical model consisting of the\nbias and the Chandler and annual wobbles with linearly changing amplitudes, and\ndata-driven model based on Singular Spectrum Analysis (SSA). Both methods were\ntested with various options to ensure robust and reliable results. The results\nobtained by the two methods generally agree within the $Y_p$ errors in the IERS\nC01 series, but the results obtained by the SSA approach can be considered\npreferable because it is based on a more complete PM model.\n",
+  "subjects": [
+    "Physics/Geophysics",
+    "Astrophysics/Instrumentation and Methods for Astrophysics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "i7ZQW1g3j6bcCHo-1WKkCM3HFOcEKYGLk2FjtyMtPjM",
+  "pdfSize": "471271"
+}

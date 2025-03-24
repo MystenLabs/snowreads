@@ -1,0 +1,32 @@
+{
+  "id": "2412.17892",
+  "title": "LLM-Driven Feedback for Enhancing Conceptual Design Learning in Database\n  Systems Courses",
+  "authors": "Sara Riazi and Pedram Rooshenas",
+  "authorsParsed": [
+    [
+      "Riazi",
+      "Sara",
+      ""
+    ],
+    [
+      "Rooshenas",
+      "Pedram",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 23 Dec 2024 18:39:11 GMT"
+    }
+  ],
+  "updateDate": "2024-12-25",
+  "timestamp": 1734979151000,
+  "abstract": "  The integration of LLM-generated feedback into educational settings has shown\npromise in enhancing student learning outcomes. This paper presents a novel\nLLM-driven system that provides targeted feedback for conceptual designs in a\nDatabase Systems course. The system converts student-created\nentity-relationship diagrams (ERDs) into JSON format, allows the student to\nprune the diagram by isolating a relationship, extracts relevant requirements\nfor the selected relationship, and utilizes a large language model (LLM) to\ngenerate detailed feedback. Additionally, the system creates a tailored set of\nquestions and answers to further aid student understanding. Our pilot\nimplementation in a Database System course demonstrates effective feedback\ngeneration that helped the students improve their design skills.\n",
+  "subjects": [
+    "Computer Science/Databases"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "HI5DGHGkXuFVgnicBIFmrc95D1ZBhjKP_qeY7lRM9xc",
+  "pdfSize": "946586"
+}

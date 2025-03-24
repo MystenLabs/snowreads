@@ -1,0 +1,28 @@
+{
+  "id": "2412.06846",
+  "title": "Classifier-free guidance in LLMs Safety",
+  "authors": "Roman Smirnov",
+  "authorsParsed": [
+    [
+      "Smirnov",
+      "Roman",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 8 Dec 2024 02:11:33 GMT"
+    }
+  ],
+  "updateDate": "2024-12-11",
+  "timestamp": 1733623893000,
+  "abstract": "  The paper describes LLM unlearning without a retaining dataset, using the\nORPO reinforcement learning method with inference enhanced by modified\nclassifier-free guidance. Significant improvement in unlearning, without\ndegradation of the model, is achieved through direct training on synthetic\nreplacement data in CFG-aware training regime, with classifier-free guidance\napplied during the inference. This article is an extended version of the\nNeurIPS 2024 LLM-PC submission, which was awarded second prize.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "QWp6uulq8v_TKMPnhs1eZSIVCwGw55x5Qh9wlAbcm5U",
+  "pdfSize": "464734"
+}

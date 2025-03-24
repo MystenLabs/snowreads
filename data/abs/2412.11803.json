@@ -1,0 +1,67 @@
+{
+  "id": "2412.11803",
+  "title": "UAlign: Leveraging Uncertainty Estimations for Factuality Alignment on\n  Large Language Models",
+  "authors": "Boyang Xue, Fei Mi, Qi Zhu, Hongru Wang, Rui Wang, Sheng Wang, Erxin\n  Yu, Xuming Hu, and Kam-Fai Wong",
+  "authorsParsed": [
+    [
+      "Xue",
+      "Boyang",
+      ""
+    ],
+    [
+      "Mi",
+      "Fei",
+      ""
+    ],
+    [
+      "Zhu",
+      "Qi",
+      ""
+    ],
+    [
+      "Wang",
+      "Hongru",
+      ""
+    ],
+    [
+      "Wang",
+      "Rui",
+      ""
+    ],
+    [
+      "Wang",
+      "Sheng",
+      ""
+    ],
+    [
+      "Yu",
+      "Erxin",
+      ""
+    ],
+    [
+      "Hu",
+      "Xuming",
+      ""
+    ],
+    [
+      "Wong",
+      "Kam-Fai",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 16 Dec 2024 14:14:27 GMT"
+    }
+  ],
+  "updateDate": "2024-12-17",
+  "timestamp": 1734358467000,
+  "abstract": "  Despite demonstrating impressive capabilities, Large Language Models (LLMs)\nstill often struggle to accurately express the factual knowledge they possess,\nespecially in cases where the LLMs' knowledge boundaries are ambiguous. To\nimprove LLMs' factual expressions, we propose the UAlign framework, which\nleverages Uncertainty estimations to represent knowledge boundaries, and then\nexplicitly incorporates these representations as input features into prompts\nfor LLMs to Align with factual knowledge. First, we prepare the dataset on\nknowledge question-answering (QA) samples by calculating two uncertainty\nestimations, including confidence score and semantic entropy, to represent the\nknowledge boundaries for LLMs. Subsequently, using the prepared dataset, we\ntrain a reward model that incorporates uncertainty estimations and then employ\nthe Proximal Policy Optimization (PPO) algorithm for factuality alignment on\nLLMs. Experimental results indicate that, by integrating uncertainty\nrepresentations in LLM alignment, the proposed UAlign can significantly enhance\nthe LLMs' capacities to confidently answer known questions and refuse unknown\nquestions on both in-domain and out-of-domain tasks, showing reliability\nimprovements and good generalizability over various prompt- and training-based\nbaselines.\n",
+  "subjects": [
+    "Computer Science/Computation and Language"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "0H8WyK-U_oWfGFFi_Zbgu5G1vZ6OnKcfu6w13EuuIKg",
+  "pdfSize": "3301588"
+}

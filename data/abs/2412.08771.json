@@ -1,0 +1,34 @@
+{
+  "id": "2412.08771",
+  "title": "LLaVA-Zip: Adaptive Visual Token Compression with Intrinsic Image\n  Information",
+  "authors": "Ke Wang, Hong Xuan",
+  "authorsParsed": [
+    [
+      "Wang",
+      "Ke",
+      ""
+    ],
+    [
+      "Xuan",
+      "Hong",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 11 Dec 2024 20:46:06 GMT"
+    }
+  ],
+  "updateDate": "2024-12-13",
+  "timestamp": 1733949966000,
+  "abstract": "  Multi-modal large language models (MLLMs) utilizing instruction-following\ndata, such as LLaVA, have achieved great progress in the industry. A major\nlimitation in these models is that visual tokens consume a substantial portion\nof the maximum token limit in large language models (LLMs), leading to\nincreased computational demands and decreased performance when prompts include\nmultiple images or videos. Industry solutions often mitigate this issue by\nincreasing computational power, but this approach is less feasible in academic\nenvironments with limited resources. In this study, we propose Dynamic Feature\nMap Reduction (DFMR) based on LLaVA-1.5 to address the challenge of visual\ntoken overload. DFMR dynamically compresses the visual tokens, freeing up token\ncapacity. Our experimental results demonstrate that integrating DFMR into\nLLaVA-1.5 significantly improves the performance of LLaVA in varied visual\ntoken lengths, offering a promising solution for extending LLaVA to handle\nmulti-image and video scenarios in resource-constrained academic environments\nand it can also be applied in industry settings for data augmentation to help\nmitigate the scarcity of open-domain image-text pair datasets in the continued\npretraining stage.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "Lzx3VhbCnfsuGWft03w6D-upOd3BwAOExhX9n-wMeJo",
+  "pdfSize": "4923065"
+}

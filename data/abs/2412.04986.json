@@ -1,0 +1,38 @@
+{
+  "id": "2412.04986",
+  "title": "Power Plant Detection for Energy Estimation using GIS with Remote\n  Sensing, CNN & Vision Transformers",
+  "authors": "Blessing Austin-Gabriel, Cristian Noriega Monsalve, Aparna S. Varde",
+  "authorsParsed": [
+    [
+      "Austin-Gabriel",
+      "Blessing",
+      ""
+    ],
+    [
+      "Monsalve",
+      "Cristian Noriega",
+      ""
+    ],
+    [
+      "Varde",
+      "Aparna S.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 6 Dec 2024 12:15:11 GMT"
+    }
+  ],
+  "updateDate": "2024-12-10",
+  "timestamp": 1733487311000,
+  "abstract": "  In this research, we propose a hybrid model for power plant detection to\nassist energy estimation applications, by pipelining GIS (Geographical\nInformation Systems) having Remote Sensing capabilities with CNN (Convolutional\nNeural Networks) and ViT (Vision Transformers). Our proposed approach enables\nreal-time analysis with multiple data types on a common map via the GIS,\nentails feature-extraction abilities due to the CNN, and captures long-range\ndependencies through the ViT. This hybrid approach is found to enhance\nclassification, thus helping in the monitoring and operational management of\npower plants; hence assisting energy estimation and sustainable energy planning\nin the future. It exemplifies adequate deployment of machine learning methods\nin conjunction with domain-specific approaches to enhance performance.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "yVZzPdnbVDsyJ_skxxbs_Rp9MDLYllM9SOQJst-bJfY",
+  "pdfSize": "590150"
+}

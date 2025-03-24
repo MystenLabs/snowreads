@@ -1,0 +1,28 @@
+{
+  "id": "2412.13712",
+  "title": "An Algebraic Notion of Conditional Independence, and Its Application to\n  Knowledge Representation (full version)",
+  "authors": "Jesse Heyninck",
+  "authorsParsed": [
+    [
+      "Heyninck",
+      "Jesse",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 18 Dec 2024 10:52:57 GMT"
+    }
+  ],
+  "updateDate": "2024-12-19",
+  "timestamp": 1734519177000,
+  "abstract": "  Conditional independence is a crucial concept supporting adequate modelling\nand efficient reasoning in probabilistics. In knowledge representation, the\nidea of conditional independence has also been introduced for specific\nformalisms, such as propositional logic and belief revision. In this paper, the\nnotion of conditional independence is studied in the algebraic framework of\napproximation fixpoint theory. This gives a language-independent account of\nconditional independence that can be straightforwardly applied to any logic\nwith fixpoint semantics. It is shown how this notion allows to reduce global\nreasoning to parallel instances of local reasoning, leading to fixed-parameter\ntractability results. Furthermore, relations to existing notions of conditional\nindependence are discussed and the framework is applied to normal logic\nprogramming.\n",
+  "subjects": [
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Logic in Computer Science"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "eJaUVlxfkbGzhq8gww7LRprKC8c9Lsb9HuP7S7rl6W4",
+  "pdfSize": "347660"
+}

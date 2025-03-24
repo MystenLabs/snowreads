@@ -1,0 +1,33 @@
+{
+  "id": "2412.13721",
+  "title": "Flexible realizations existence: NP-completeness on sparse graphs and\n  algorithms",
+  "authors": "Petr La\\v{s}tovi\\v{c}ka and Jan Legersk\\'y",
+  "authorsParsed": [
+    [
+      "Laštovička",
+      "Petr",
+      ""
+    ],
+    [
+      "Legerský",
+      "Jan",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 18 Dec 2024 11:02:29 GMT"
+    }
+  ],
+  "updateDate": "2024-12-19",
+  "timestamp": 1734519749000,
+  "abstract": "  One of the questions in Rigidity Theory is whether a realization of the\nvertices of a graph in the plane is flexible, namely, if it allows a continuous\ndeformation preserving the edge lengths. A flexible realization of a connected\ngraph in the plane exists if and only if the graph has a so called\nNAC-coloring, which is surjective edge coloring by two colors such that for\neach cycle either all the edges have the same color or there are at least two\nedges of each color. The question whether a graph has a NAC-coloring, and hence\nalso the existence of a flexible realization, has been proven to be\nNP-complete. We show that this question is also NP-complete on graphs with\nmaximum degree five and on graphs with the average degree at most\n$4+\\varepsilon$ for every fixed $\\varepsilon >0$. The existence of a\nNAC-coloring is fixed parameter tractable when parametrized by treewidth. Since\nthe only existing implementation of checking the existence of a NAC-coloring is\nrather naive, we propose new algorithms along with their implementation, which\nis significantly faster. We also focus on searching all NAC-colorings of a\ngraph, since they provide useful information about its possible flexible\nrealizations.\n",
+  "subjects": [
+    "Computer Science/Computational Geometry",
+    "Mathematics/Combinatorics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "EGI9BQwm9lBmOCvXVFcUrCg8wRXdIcH5zavOXBxZHSk",
+  "pdfSize": "272367"
+}

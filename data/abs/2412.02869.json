@@ -1,0 +1,33 @@
+{
+  "id": "2412.02869",
+  "title": "Constrained Identifiability of Causal Effects",
+  "authors": "Yizuo Chen, Adnan Darwiche",
+  "authorsParsed": [
+    [
+      "Chen",
+      "Yizuo",
+      ""
+    ],
+    [
+      "Darwiche",
+      "Adnan",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 3 Dec 2024 22:08:45 GMT"
+    }
+  ],
+  "updateDate": "2024-12-05",
+  "timestamp": 1733263725000,
+  "abstract": "  We study the identification of causal effects in the presence of different\ntypes of constraints (e.g., logical constraints) in addition to the causal\ngraph. These constraints impose restrictions on the models (parameterizations)\ninduced by the causal graph, reducing the set of models considered by the\nidentifiability problem. We formalize the notion of constrained\nidentifiability, which takes a set of constraints as another input to the\nclassical definition of identifiability. We then introduce a framework for\ntesting constrained identifiability by employing tractable Arithmetic Circuits\n(ACs), which enables us to accommodate constraints systematically. We show that\nthis AC-based approach is at least as complete as existing algorithms (e.g.,\ndo-calculus) for testing classical identifiability, which only assumes the\nconstraint of strict positivity. We use examples to demonstrate the\neffectiveness of this AC-based approach by showing that unidentifiable causal\neffects may become identifiable under different types of constraints.\n",
+  "subjects": [
+    "Computer Science/Artificial Intelligence",
+    "Statistics/Methodology"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "y8p2elUVAAfujv-dZf0gY36deA7p4X-z05fb6F4M2GI",
+  "pdfSize": "1016535"
+}

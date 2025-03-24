@@ -1,0 +1,85 @@
+{
+  "id": "2412.07696",
+  "title": "SimVS: Simulating World Inconsistencies for Robust View Synthesis",
+  "authors": "Alex Trevithick, Roni Paiss, Philipp Henzler, Dor Verbin, Rundi Wu,\n  Hadi Alzayer, Ruiqi Gao, Ben Poole, Jonathan T. Barron, Aleksander Holynski,\n  Ravi Ramamoorthi, Pratul P. Srinivasan",
+  "authorsParsed": [
+    [
+      "Trevithick",
+      "Alex",
+      ""
+    ],
+    [
+      "Paiss",
+      "Roni",
+      ""
+    ],
+    [
+      "Henzler",
+      "Philipp",
+      ""
+    ],
+    [
+      "Verbin",
+      "Dor",
+      ""
+    ],
+    [
+      "Wu",
+      "Rundi",
+      ""
+    ],
+    [
+      "Alzayer",
+      "Hadi",
+      ""
+    ],
+    [
+      "Gao",
+      "Ruiqi",
+      ""
+    ],
+    [
+      "Poole",
+      "Ben",
+      ""
+    ],
+    [
+      "Barron",
+      "Jonathan T.",
+      ""
+    ],
+    [
+      "Holynski",
+      "Aleksander",
+      ""
+    ],
+    [
+      "Ramamoorthi",
+      "Ravi",
+      ""
+    ],
+    [
+      "Srinivasan",
+      "Pratul P.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 10 Dec 2024 17:35:12 GMT"
+    }
+  ],
+  "updateDate": "2024-12-11",
+  "timestamp": 1733852112000,
+  "abstract": "  Novel-view synthesis techniques achieve impressive results for static scenes\nbut struggle when faced with the inconsistencies inherent to casual capture\nsettings: varying illumination, scene motion, and other unintended effects that\nare difficult to model explicitly. We present an approach for leveraging\ngenerative video models to simulate the inconsistencies in the world that can\noccur during capture. We use this process, along with existing multi-view\ndatasets, to create synthetic data for training a multi-view harmonization\nnetwork that is able to reconcile inconsistent observations into a consistent\n3D scene. We demonstrate that our world-simulation strategy significantly\noutperforms traditional augmentation methods in handling real-world scene\nvariations, thereby enabling highly accurate static 3D reconstructions in the\npresence of a variety of challenging inconsistencies. Project page:\nhttps://alextrevithick.github.io/simvs\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Graphics",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "VtyspqltXWaU2PJGVcildbkXGCkchsXMMx8XbXhIobA",
+  "pdfSize": "33695707"
+}

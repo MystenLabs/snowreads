@@ -1,0 +1,38 @@
+{
+  "id": "2412.17288",
+  "title": "Multi-Modal Grounded Planning and Efficient Replanning For Learning\n  Embodied Agents with A Few Examples",
+  "authors": "Taewoong Kim, Byeonghwi Kim, Jonghyun Choi",
+  "authorsParsed": [
+    [
+      "Kim",
+      "Taewoong",
+      ""
+    ],
+    [
+      "Kim",
+      "Byeonghwi",
+      ""
+    ],
+    [
+      "Choi",
+      "Jonghyun",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 23 Dec 2024 05:20:01 GMT"
+    }
+  ],
+  "updateDate": "2024-12-24",
+  "timestamp": 1734931201000,
+  "abstract": "  Learning a perception and reasoning module for robotic assistants to plan\nsteps to perform complex tasks based on natural language instructions often\nrequires large free-form language annotations, especially for short high-level\ninstructions. To reduce the cost of annotation, large language models (LLMs)\nare used as a planner with few data. However, when elaborating the steps, even\nthe state-of-the-art planner that uses LLMs mostly relies on linguistic common\nsense, often neglecting the status of the environment at command reception,\nresulting in inappropriate plans. To generate plans grounded in the\nenvironment, we propose FLARE (Few-shot Language with environmental Adaptive\nReplanning Embodied agent), which improves task planning using both language\ncommand and environmental perception. As language instructions often contain\nambiguities or incorrect expressions, we additionally propose to correct the\nmistakes using visual cues from the agent. The proposed scheme allows us to use\na few language pairs thanks to the visual cues and outperforms state-of-the-art\napproaches. Our code is available at https://github.com/snumprlab/flare.\n",
+  "subjects": [
+    "Computer Science/Robotics",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "JdHUM2zIaZ5vOnvn8Ih_La8UZ5XUcHnj1xQ_cxQfMRE",
+  "pdfSize": "5775158"
+}

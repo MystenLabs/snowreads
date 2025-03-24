@@ -1,0 +1,44 @@
+{
+  "id": "2412.08739",
+  "title": "VEL: A Formally Verified Reasoner for OWL2 EL Profile",
+  "authors": "Atalay Mert Ileri, Nalen Rangarajan, Jack Cannell, Hande McGinty",
+  "authorsParsed": [
+    [
+      "Ileri",
+      "Atalay Mert",
+      ""
+    ],
+    [
+      "Rangarajan",
+      "Nalen",
+      ""
+    ],
+    [
+      "Cannell",
+      "Jack",
+      ""
+    ],
+    [
+      "McGinty",
+      "Hande",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 11 Dec 2024 19:17:28 GMT"
+    }
+  ],
+  "updateDate": "2024-12-13",
+  "timestamp": 1733944648000,
+  "abstract": "  Over the past two decades, the Web Ontology Language (OWL) has been\ninstrumental in advancing the development of ontologies and knowledge graphs,\nproviding a structured framework that enhances the semantic integration of\ndata. However, the reliability of deductive reasoning within these systems\nremains challenging, as evidenced by inconsistencies among popular reasoners in\nrecent competitions. This evidence underscores the limitations of current\ntesting-based methodologies, particularly in high-stakes domains such as\nhealthcare. To mitigate these issues, in this paper, we have developed VEL, a\nformally verified EL++ reasoner equipped with machine-checkable correctness\nproofs that ensure the validity of outputs across all possible inputs. This\nformalization, based on the algorithm of Baader et al., has been transformed\ninto executable OCaml code using the Coq proof assistant's extraction\ncapabilities. Our formalization revealed several errors in the original\ncompleteness proofs, which led to changes to the algorithm to ensure its\ncompleteness. Our work demonstrates the necessity of mechanization of reasoning\nalgorithms to ensure their correctness at theoretical and implementation\nlevels.\n",
+  "subjects": [
+    "Computer Science/Logic in Computer Science",
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Programming Languages"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "MrnZPV8oTGlPDe7IAejoLc69fTrQuT4fFGM2Jvo0CPI",
+  "pdfSize": "784579"
+}

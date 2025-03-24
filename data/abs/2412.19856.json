@@ -1,0 +1,34 @@
+{
+  "id": "2412.19856",
+  "title": "Fusion of Deep Learning and GIS for Advanced Remote Sensing Image\n  Analysis",
+  "authors": "Sajjad Afroosheh, Mohammadreza Askari",
+  "authorsParsed": [
+    [
+      "Afroosheh",
+      "Sajjad",
+      ""
+    ],
+    [
+      "Askari",
+      "Mohammadreza",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 25 Dec 2024 22:10:35 GMT"
+    }
+  ],
+  "updateDate": "2024-12-31",
+  "timestamp": 1735164635000,
+  "abstract": "  This paper presents an innovative framework for remote sensing image analysis\nby fusing deep learning techniques, specifically Convolutional Neural Networks\n(CNNs) and Long Short-Term Memory (LSTM) networks, with Geographic Information\nSystems (GIS). The primary objective is to enhance the accuracy and efficiency\nof spatial data analysis by overcoming challenges associated with high\ndimensionality, complex patterns, and temporal data processing. We implemented\noptimization algorithms, namely Particle Swarm Optimization (PSO) and Genetic\nAlgorithms (GA), to fine-tune model parameters, resulting in improved\nperformance metrics. Our findings reveal a significant increase in\nclassification accuracy from 78% to 92% and a reduction in prediction error\nfrom 12% to 6% after optimization. Additionally, the temporal accuracy of the\nmodels improved from 75% to 88%, showcasing the frameworks capability to\nmonitor dynamic changes effectively. The integration of GIS not only enriched\nthe spatial analysis but also facilitated a deeper understanding of the\nrelationships between geographical features. This research demonstrates that\ncombining advanced deep learning methods with GIS and optimization strategies\ncan significantly advance remote sensing applications, paving the way for\nfuture developments in environmental monitoring, urban planning, and resource\nmanagement.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Artificial Intelligence",
+    "Electrical Engineering and Systems Science/Signal Processing"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "b07aiJQJuUTQxur5zwG4ktpJ3GCDRJTCZPqGTrbW664",
+  "pdfSize": "1082881"
+}

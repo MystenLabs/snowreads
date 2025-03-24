@@ -1,0 +1,33 @@
+{
+  "id": "2412.15057",
+  "title": "Asymptotic Equivalence for Nonparametric Generalized Linear Models",
+  "authors": "Ion Grama and Michael Nussbaum",
+  "authorsParsed": [
+    [
+      "Grama",
+      "Ion",
+      ""
+    ],
+    [
+      "Nussbaum",
+      "Michael",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 19 Dec 2024 17:06:17 GMT"
+    }
+  ],
+  "updateDate": "2024-12-20",
+  "timestamp": 1734627977000,
+  "abstract": "  We establish that a non-Gaussian nonparametric regression model is\nasymptotically equivalent to a regression model with Gaussian noise. The\napproximation is in the sense of Le Cam's deficiency distance $\\Delta $; the\nmodels are then asymptotically equivalent for all purposes of statistical\ndecision with bounded loss. Our result concerns a sequence of independent but\nnot identically distributed observations with each distribution in the same\nreal-indexed exponential family. The canonical parameter is a value $f(t_i)$ of\na regression function $f$ at a grid point $t_i$ (nonparametric GLM). When $f$\nis in a H\\\"{o}lder ball with exponent $\\beta >\\frac 12 ,$ we establish global\nasymptotic equivalence to observations of a signal $\\Gamma (f(t))$ in Gaussian\nwhite noise, where $\\Gamma $ is related to a variance stabilizing\ntransformation in the exponential family. The result is a regression analog of\nthe recently established Gaussian approximation for the i.i.d. model. The proof\nis based on a functional version of the Hungarian construction for the partial\nsum process.\n",
+  "subjects": [
+    "Mathematics/Statistics Theory",
+    "Statistics/Statistics Theory"
+  ],
+  "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+  "blobId": "vpATszrU_A2A70YxdYl4D3COXdfQjQdar4jLkt64TNU",
+  "pdfSize": "335964"
+}

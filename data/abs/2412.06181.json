@@ -1,0 +1,38 @@
+{
+  "id": "2412.06181",
+  "title": "Enhancing Adversarial Resistance in LLMs with Recursion",
+  "authors": "Bryan Li, Sounak Bagchi, and Zizhan Wang",
+  "authorsParsed": [
+    [
+      "Li",
+      "Bryan",
+      ""
+    ],
+    [
+      "Bagchi",
+      "Sounak",
+      ""
+    ],
+    [
+      "Wang",
+      "Zizhan",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 9 Dec 2024 03:34:49 GMT"
+    }
+  ],
+  "updateDate": "2024-12-10",
+  "timestamp": 1733715289000,
+  "abstract": "  The increasing integration of Large Language Models (LLMs) into society\nnecessitates robust defenses against vulnerabilities from jailbreaking and\nadversarial prompts. This project proposes a recursive framework for enhancing\nthe resistance of LLMs to manipulation through the use of prompt simplification\ntechniques. By increasing the transparency of complex and confusing adversarial\nprompts, the proposed method enables more reliable detection and prevention of\nmalicious inputs. Our findings attempt to address a critical problem in AI\nsafety and security, providing a foundation for the development of systems able\nto distinguish harmless inputs from prompts containing malicious intent. As\nLLMs continue to be used in diverse applications, the importance of such\nsafeguards will only grow.\n",
+  "subjects": [
+    "Computer Science/Cryptography and Security",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "G0sPw_Wxikxy6P5lDeDznVv8fu7assubXxaOE3MEU_E",
+  "pdfSize": "919456"
+}

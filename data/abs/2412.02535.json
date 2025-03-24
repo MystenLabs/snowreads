@@ -1,0 +1,50 @@
+{
+  "id": "2412.02535",
+  "title": "Defending Against Diverse Attacks in Federated Learning Through\n  Consensus-Based Bi-Level Optimization",
+  "authors": "Nicol\\'as Garc\\'ia Trillos, Aditya Kumar Akash, Sixu Li, Konstantin\n  Riedl, Yuhua Zhu",
+  "authorsParsed": [
+    [
+      "Trillos",
+      "Nicolás García",
+      ""
+    ],
+    [
+      "Akash",
+      "Aditya Kumar",
+      ""
+    ],
+    [
+      "Li",
+      "Sixu",
+      ""
+    ],
+    [
+      "Riedl",
+      "Konstantin",
+      ""
+    ],
+    [
+      "Zhu",
+      "Yuhua",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 3 Dec 2024 16:26:56 GMT"
+    }
+  ],
+  "updateDate": "2024-12-04",
+  "timestamp": 1733243216000,
+  "abstract": "  Adversarial attacks pose significant challenges in many machine learning\napplications, particularly in the setting of distributed training and federated\nlearning, where malicious agents seek to corrupt the training process with the\ngoal of jeopardizing and compromising the performance and reliability of the\nfinal models. In this paper, we address the problem of robust federated\nlearning in the presence of such attacks by formulating the training task as a\nbi-level optimization problem. We conduct a theoretical analysis of the\nresilience of consensus-based bi-level optimization (CB$^2$O), an interacting\nmulti-particle metaheuristic optimization method, in adversarial settings.\nSpecifically, we provide a global convergence analysis of CB$^2$O in mean-field\nlaw in the presence of malicious agents, demonstrating the robustness of\nCB$^2$O against a diverse range of attacks. Thereby, we offer insights into how\nspecific hyperparameter choices enable to mitigate adversarial effects. On the\npractical side, we extend CB$^2$O to the clustered federated learning setting\nby proposing FedCB$^2$O, a novel interacting multi-particle system, and design\na practical algorithm that addresses the demands of real-world applications.\nExtensive experiments demonstrate the robustness of the FedCB$^2$O algorithm\nagainst label-flipping attacks in decentralized clustered federated learning\nscenarios, showcasing its effectiveness in practical contexts.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Computer Science/Cryptography and Security",
+    "Computer Science/Multiagent Systems",
+    "Mathematics/Analysis of PDEs"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "2OAQIWKfm505xYMnlG0tMvmYyTVPoR57nZZWeZ6IDeI",
+  "pdfSize": "3181484"
+}

@@ -1,0 +1,44 @@
+{
+  "id": "2412.00324",
+  "title": "Robust Table Integration in Data Lakes",
+  "authors": "Daomin Ji, Hui Luo, Zhifeng Bao, Shane Culpepper",
+  "authorsParsed": [
+    [
+      "Ji",
+      "Daomin",
+      ""
+    ],
+    [
+      "Luo",
+      "Hui",
+      ""
+    ],
+    [
+      "Bao",
+      "Zhifeng",
+      ""
+    ],
+    [
+      "Culpepper",
+      "Shane",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 30 Nov 2024 02:45:01 GMT"
+    }
+  ],
+  "updateDate": "2024-12-03",
+  "timestamp": 1732934701000,
+  "abstract": "  In this paper, we investigate the challenge of integrating tables from data\nlakes, focusing on three core tasks: 1) pairwise integrability judgment, which\ndetermines whether a tuple pair in a table is integrable, accounting for any\noccurrences of semantic equivalence or typographical errors; 2) integrable set\ndiscovery, which aims to identify all integrable sets in a table based on\npairwise integrability judgments established in the first task; 3) multi-tuple\nconflict resolution, which resolves conflicts among multiple tuples during\nintegration. We train a binary classifier to address the task of pairwise\nintegrability judgment. Given the scarcity of labeled data, we propose a\nself-supervised adversarial contrastive learning algorithm to perform\nclassification, which incorporates data augmentation methods and adversarial\nexamples to autonomously generate new training data. Upon the output of\npairwise integrability judgment, each integrable set is considered as a\ncommunity, a densely connected sub-graph where nodes and edges correspond to\ntuples in the table and their pairwise integrability, respectively. We proceed\nto investigate various community detection algorithms to address the integrable\nset discovery objective. Moving forward to tackle multi-tuple conflict\nresolution, we introduce an novel in-context learning methodology. This\napproach capitalizes on the knowledge embedded within pretrained large language\nmodels to effectively resolve conflicts that arise when integrating multiple\ntuples. Notably, our method minimizes the need for annotated data. Since no\nsuitable test collections are available for our tasks, we develop our own\nbenchmarks using two real-word dataset repositories: Real and Join. We conduct\nextensive experiments on these benchmarks to validate the robustness and\napplicability of our methodologies in the context of integrating tables within\ndata lakes.\n",
+  "subjects": [
+    "Computer Science/Databases",
+    "Computer Science/Information Retrieval",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "v4doayeGSvxGBuwliyAjgqkLf-yve0dVB4bLcgObZe0",
+  "pdfSize": "1359569"
+}

@@ -1,0 +1,47 @@
+{
+  "id": "2412.01747",
+  "title": "Continuous-Time Human Motion Field from Events",
+  "authors": "Ziyun Wang, Ruijun Zhang, Zi-Yan Liu, Yufu Wang, Kostas Daniilidis",
+  "authorsParsed": [
+    [
+      "Wang",
+      "Ziyun",
+      ""
+    ],
+    [
+      "Zhang",
+      "Ruijun",
+      ""
+    ],
+    [
+      "Liu",
+      "Zi-Yan",
+      ""
+    ],
+    [
+      "Wang",
+      "Yufu",
+      ""
+    ],
+    [
+      "Daniilidis",
+      "Kostas",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 2 Dec 2024 17:42:59 GMT"
+    }
+  ],
+  "updateDate": "2024-12-03",
+  "timestamp": 1733161379000,
+  "abstract": "  This paper addresses the challenges of estimating a continuous-time human\nmotion field from a stream of events. Existing Human Mesh Recovery (HMR)\nmethods rely predominantly on frame-based approaches, which are prone to\naliasing and inaccuracies due to limited temporal resolution and motion blur.\nIn this work, we predict a continuous-time human motion field directly from\nevents by leveraging a recurrent feed-forward neural network to predict human\nmotion in the latent space of possible human motions. Prior state-of-the-art\nevent-based methods rely on computationally intensive optimization across a\nfixed number of poses at high frame rates, which becomes prohibitively\nexpensive as we increase the temporal resolution. In comparison, we present the\nfirst work that replaces traditional discrete-time predictions with a\ncontinuous human motion field represented as a time-implicit function, enabling\nparallel pose queries at arbitrary temporal resolutions. Despite the promises\nof event cameras, few benchmarks have tested the limit of high-speed human\nmotion estimation. We introduce Beam-splitter Event Agile Human Motion\nDataset-a hardware-synchronized high-speed human dataset to fill this gap. On\nthis new data, our method improves joint errors by 23.8% compared to previous\nevent human methods while reducing the computational time by 69%.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by-sa/4.0/",
+  "blobId": "VB3IXSbL1qafA5Ph9VrKxRDXtJNvJyk5RCPqm-rSA0w",
+  "pdfSize": "6142034"
+}

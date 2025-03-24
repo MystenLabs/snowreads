@@ -1,0 +1,47 @@
+{
+  "id": "2412.04719",
+  "title": "Mix-Modality Person Re-Identification: A New and Practical Paradigm",
+  "authors": "Wei Liu and Xin Xu and Hua Chang and Xin Yuan and Zheng Wang",
+  "authorsParsed": [
+    [
+      "Liu",
+      "Wei",
+      ""
+    ],
+    [
+      "Xu",
+      "Xin",
+      ""
+    ],
+    [
+      "Chang",
+      "Hua",
+      ""
+    ],
+    [
+      "Yuan",
+      "Xin",
+      ""
+    ],
+    [
+      "Wang",
+      "Zheng",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 6 Dec 2024 02:19:57 GMT"
+    }
+  ],
+  "updateDate": "2024-12-31",
+  "timestamp": 1733451597000,
+  "abstract": "  Current visible-infrared cross-modality person re-identification research has\nonly focused on exploring the bi-modality mutual retrieval paradigm, and we\npropose a new and more practical mix-modality retrieval paradigm. Existing\nVisible-Infrared person re-identification (VI-ReID) methods have achieved some\nresults in the bi-modality mutual retrieval paradigm by learning the\ncorrespondence between visible and infrared modalities. However, significant\nperformance degradation occurs due to the modality confusion problem when these\nmethods are applied to the new mix-modality paradigm. Therefore, this paper\nproposes a Mix-Modality person re-identification (MM-ReID) task, explores the\ninfluence of modality mixing ratio on performance, and constructs mix-modality\ntest sets for existing datasets according to the new mix-modality testing\nparadigm. To solve the modality confusion problem in MM-ReID, we propose a\nCross-Identity Discrimination Harmonization Loss (CIDHL) adjusting the\ndistribution of samples in the hyperspherical feature space, pulling the\ncenters of samples with the same identity closer, and pushing away the centers\nof samples with different identities while aggregating samples with the same\nmodality and the same identity. Furthermore, we propose a Modality Bridge\nSimilarity Optimization Strategy (MBSOS) to optimize the cross-modality\nsimilarity between the query and queried samples with the help of the similar\nbridge sample in the gallery. Extensive experiments demonstrate that compared\nto the original performance of existing cross-modality methods on MM-ReID, the\naddition of our CIDHL and MBSOS demonstrates a general improvement.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "SusNYzqj9qsVPbfaRiJbbaThFQyIiz_B8_Q2DrISmZQ",
+  "pdfSize": "1923224"
+}

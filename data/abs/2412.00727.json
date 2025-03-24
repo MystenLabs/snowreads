@@ -1,0 +1,43 @@
+{
+  "id": "2412.00727",
+  "title": "Perturb and Recover: Fine-tuning for Effective Backdoor Removal from\n  CLIP",
+  "authors": "Naman Deep Singh, Francesco Croce, and Matthias Hein",
+  "authorsParsed": [
+    [
+      "Singh",
+      "Naman Deep",
+      ""
+    ],
+    [
+      "Croce",
+      "Francesco",
+      ""
+    ],
+    [
+      "Hein",
+      "Matthias",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 1 Dec 2024 08:39:12 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Thu, 12 Dec 2024 14:28:42 GMT"
+    }
+  ],
+  "updateDate": "2024-12-13",
+  "timestamp": 1733042352000,
+  "abstract": "  Vision-Language models like CLIP have been shown to be highly effective at\nlinking visual perception and natural language understanding, enabling\nsophisticated image-text capabilities, including strong retrieval and zero-shot\nclassification performance. Their widespread use, as well as the fact that CLIP\nmodels are trained on image-text pairs from the web, make them both a\nworthwhile and relatively easy target for backdoor attacks. As training\nfoundational models, such as CLIP, from scratch is very expensive, this paper\nfocuses on cleaning potentially poisoned models via fine-tuning. We first show\nthat existing cleaning techniques are not effective against simple structured\ntriggers used in Blended or BadNet backdoor attacks, exposing a critical\nvulnerability for potential real-world deployment of these models. Then, we\nintroduce PAR, Perturb and Recover, a surprisingly simple yet effective\nmechanism to remove backdoors from CLIP models. Through extensive experiments\nacross different encoders and types of backdoor attacks, we show that PAR\nachieves high backdoor removal rate while preserving good standard performance.\nFinally, we illustrate that our approach is effective even only with synthetic\ntext-image pairs, i.e. without access to real training data. The code and\nmodels are available at https://github.com/nmndeep/PerturbAndRecover.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Computer Science/Cryptography and Security",
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "Li4CrWjzkL_hpGOfsCn5m9tkYj0aj-1Gscfsu97MjYw",
+  "pdfSize": "4793280"
+}

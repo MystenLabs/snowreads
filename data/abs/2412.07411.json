@@ -1,0 +1,39 @@
+{
+  "id": "2412.07411",
+  "title": "DSFEC: Efficient and Deployable Deep Radar Object Detection",
+  "authors": "Gayathri Dandugula, Santhosh Boddana and Sudesh Mirashi",
+  "authorsParsed": [
+    [
+      "Dandugula",
+      "Gayathri",
+      ""
+    ],
+    [
+      "Boddana",
+      "Santhosh",
+      ""
+    ],
+    [
+      "Mirashi",
+      "Sudesh",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 10 Dec 2024 11:03:51 GMT"
+    }
+  ],
+  "updateDate": "2024-12-11",
+  "timestamp": 1733828631000,
+  "abstract": "  Deploying radar object detection models on resource-constrained edge devices\nlike the Raspberry Pi poses significant challenges due to the large size of the\nmodel and the limited computational power and the memory of the Pi. In this\nwork, we explore the efficiency of Depthwise Separable Convolutions in radar\nobject detection networks and integrate them into our model. Additionally, we\nintroduce a novel Feature Enhancement and Compression (FEC) module to the\nPointPillars feature encoder to further improve the model performance. With\nthese innovations, we propose the DSFEC-L model and its two versions, which\noutperform the baseline (23.9 mAP of Car class, 20.72 GFLOPs) on nuScenes\ndataset: 1). An efficient DSFEC-M model with a 14.6% performance improvement\nand a 60% reduction in GFLOPs. 2). A deployable DSFEC-S model with a 3.76%\nperformance improvement and a remarkable 78.5% reduction in GFLOPs. Despite\nmarginal performance gains, our deployable model achieves an impressive 74.5%\nreduction in runtime on the Raspberry Pi compared to the baseline.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "KcPJcb-xyYenh2gDysRz9Lw-IU8BjHpWWsdLKXiSyC0",
+  "pdfSize": "3233300"
+}

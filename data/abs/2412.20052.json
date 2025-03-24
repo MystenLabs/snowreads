@@ -1,0 +1,48 @@
+{
+  "id": "2412.20052",
+  "title": "Improving SSVEP BCI Spellers With Data Augmentation and Language Models",
+  "authors": "Joseph Zhang, Ruiming Zhang, Kipngeno Koech, David Hill and Kateryna\n  Shapovalenko",
+  "authorsParsed": [
+    [
+      "Zhang",
+      "Joseph",
+      ""
+    ],
+    [
+      "Zhang",
+      "Ruiming",
+      ""
+    ],
+    [
+      "Koech",
+      "Kipngeno",
+      ""
+    ],
+    [
+      "Hill",
+      "David",
+      ""
+    ],
+    [
+      "Shapovalenko",
+      "Kateryna",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 28 Dec 2024 06:52:11 GMT"
+    }
+  ],
+  "updateDate": "2024-12-31",
+  "timestamp": 1735368731000,
+  "abstract": "  Steady-State Visual Evoked Potential (SSVEP) spellers are a promising\ncommunication tool for individuals with disabilities. This Brain-Computer\nInterface utilizes scalp potential data from (electroencephalography) EEG\nelectrodes on a subject's head to decode specific letters or arbitrary targets\nthe subject is looking at on a screen. However, deep neural networks for SSVEP\nspellers often suffer from low accuracy and poor generalizability to unseen\nsubjects, largely due to the high variability in EEG data. In this study, we\npropose a hybrid approach combining data augmentation and language modeling to\nenhance the performance of SSVEP spellers. Using the Benchmark dataset from\nTsinghua University, we explore various data augmentation techniques, including\nfrequency masking, time masking, and noise injection, to improve the robustness\nof deep learning models. Additionally, we integrate a language model (CharRNN)\nwith EEGNet to incorporate linguistic context, significantly enhancing\nword-level decoding accuracy. Our results demonstrate accuracy improvements of\nup to 2.9 percent over the baseline, with time masking and language modeling\nshowing the most promise. This work paves the way for more accurate and\ngeneralizable SSVEP speller systems, offering improved communication solutions\nfor individuals with disabilities.\n",
+  "subjects": [
+    "Computer Science/Human-Computer Interaction",
+    "Computer Science/Neural and Evolutionary Computing"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "MKMMT4LMvwDTk6ATNu35ESQZaCZyMhnE-FoBEAcFNHM",
+  "pdfSize": "788561"
+}

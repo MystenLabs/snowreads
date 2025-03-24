@@ -1,0 +1,48 @@
+{
+  "id": "2412.17844",
+  "title": "Low-cost foil/paper based touch mode pressure sensing element as\n  artificial skin module for prosthetic hand",
+  "authors": "Rishabh B. Mishra, Sherjeel M. Khan, Sohail F. Shaikh, Aftab M.\n  Hussain, Muhammad M. Hussain",
+  "authorsParsed": [
+    [
+      "Mishra",
+      "Rishabh B.",
+      ""
+    ],
+    [
+      "Khan",
+      "Sherjeel M.",
+      ""
+    ],
+    [
+      "Shaikh",
+      "Sohail F.",
+      ""
+    ],
+    [
+      "Hussain",
+      "Aftab M.",
+      ""
+    ],
+    [
+      "Hussain",
+      "Muhammad M.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 18 Dec 2024 16:52:03 GMT"
+    }
+  ],
+  "updateDate": "2024-12-25",
+  "timestamp": 1734540723000,
+  "abstract": "  Capacitive pressure sensors have several advantages in areas such as\nrobotics, automation, aerospace, biomedical and consumer electronics. We\npresent mathematical modelling, finite element analysis (FEA), fabrication and\nexperimental characterization of ultra-low cost and paper-based, touch-mode,\nflexible capacitive pressure sensor element using Do-It-Yourself (DIY)\ntechnology. The pressure sensing element is utilized to design large-area\nelectronics skin for low-cost prosthetic hands. The presented sensor is\ncharacterized in normal, transition, touch and saturation modes. The sensor has\nhigher sensitivity and linearity in touch mode operation from 10 to 40 kPa of\napplied pressure compared to the normal (0 to 8 kPa), transition (8 to 10 kPa)\nand saturation mode (after 40 kPa) with response time of 15.85 ms. Advantages\nof the presented sensor are higher sensitivity, linear response, less diaphragm\narea, less von Mises stress at the clamped edges region, low temperature drift,\nrobust structure and less separation gap for large pressure measurement\ncompared to normal mode capacitive pressure sensors. The linear range of\npressure change is utilized for controlling the position of a servo motor for\nprecise movement in robotic arm using wireless communication, which can be\nutilized for designing skin-like structure for low-cost prosthetic hands.\n",
+  "subjects": [
+    "Computer Science/Robotics",
+    "Electrical Engineering and Systems Science/Signal Processing"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "NllN_7LNOVxTXsIthAeIjue5qNtQhuHUEM8lFX6ckpU",
+  "pdfSize": "1973780"
+}

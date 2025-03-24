@@ -1,0 +1,33 @@
+{
+  "id": "2412.17006",
+  "title": "Resilience Dynamics in Coupled Natural-Industrial Systems: A Surrogate\n  Modeling Approach for Assessing Climate Change Impacts on Industrial\n  Ecosystems",
+  "authors": "William Farlessyost and Shweta Singh",
+  "authorsParsed": [
+    [
+      "Farlessyost",
+      "William",
+      ""
+    ],
+    [
+      "Singh",
+      "Shweta",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 22 Dec 2024 13:00:14 GMT"
+    }
+  ],
+  "updateDate": "2024-12-24",
+  "timestamp": 1734872414000,
+  "abstract": "  Industrial ecosystems are coupled with natural systems through utilization of\nfeedstocks and waste disposal. To ensure resilience in production of industrial\nsystems under the threat of climate change scenarios, it is necessary to\nevaluate the impact of this coupling on productivity and waste generation. In\nthis work, we present a novel methodology for modeling and assessing the\nresilience of coupled natural-industrial ecosystems under climate change\nscenarios. We develop a computationally efficient framework that integrates\nliquid time-constant (LTC) neural networks as surrogate models to capture\ncomplex, nonlinear dynamics of coupled agricultural and industrial systems. The\napproach is demonstrated through a case study of a soybean-based biodiesel\nproduction network in Champaign County, Illinois. LTC models are trained to\ncapture dynamics of nodes and are then coupled and driven by statistically\ndownscaled climate projections for RCP 4.5 and 8.5 scenarios from 2006-2096.\nThe framework enables rapid simulation of system-wide material flow dynamics\nand exploration of cascading effects from climate-induced disruptions. Results\nreveal non-linear behaviors and potential tipping points in system resilience\nunder different climate scenarios and farm sizes. The RCP 8.5 scenario led to\nearlier and more frequent production failures, increased reliance on imports\nfor smaller farms, and complex patterns of waste accumulation and stock levels.\nThe methodology provides valuable insights into system vulnerabilities and\nadaptive capacities, offering decision support for enhancing the resilience and\nsustainability of coupled natural-industrial ecosystems in the face of climate\nchange. The framework's adaptability suggests potential applications across\nvarious industrial ecosystems and climate-sensitive sectors\n",
+  "subjects": [
+    "Electrical Engineering and Systems Science/Systems and Control",
+    "Computer Science/Systems and Control"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "tknQII550zpfQoUGZUivV97e42BvzVRtL0S4jXUkwlU",
+  "pdfSize": "2550578"
+}

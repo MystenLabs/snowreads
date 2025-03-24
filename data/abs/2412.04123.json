@@ -1,0 +1,32 @@
+{
+  "id": "2412.04123",
+  "title": "Insights on the Rotational State and Shape of Asteroid (203) Pompeja\n  from TESS Photometry",
+  "authors": "Oriel A. Humes, Josef Hanu\\v{s}",
+  "authorsParsed": [
+    [
+      "Humes",
+      "Oriel A.",
+      ""
+    ],
+    [
+      "Hanuš",
+      "Josef",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 5 Dec 2024 12:47:10 GMT"
+    }
+  ],
+  "updateDate": "2024-12-11",
+  "timestamp": 1733402830000,
+  "abstract": "  The Main Belt asteroid (203) Pompeja shows evidence of extreme variability in\nvisible and near-infrared spectral slope with time. The observed spectral\nvariability has been hypothesized to be attributed to spatial variations across\nPompeja's surface. In this scenario, the observed spectrum of Pompeja is\ndependent on the geometry of the Sun and the observer relative to the\nasteroid's spin pole and surface features. Knowledge of the rotational spin\npole and shape can be gleaned from light curves and photometric measurements.\nHowever, dense light curves of Pompeja are only available from two apparitions.\nFurther, previous estimates of Pompeja's sidereal period are close to being\nEarth-commensurate, making ground-based light curves difficult to obtain. To\novercome these difficulties, we implement a pipeline to extract a dense light\ncurve of Pompeja from cutouts of TESS Full Frame Images. We succeeded in\nobtaining a dense light curve of Pompeja covering $\\sim$22 complete rotations.\nWe measure a synodic period of $P_{syn} =24.092 \\pm 0.005$ hours and amplitude\nof 0.073 $\\pm$ 0.002 magnitudes during Pompeja's 2021 apparition in the TESS\nfield of view. We use this light curve to refine models of Pompeja's shape and\nspin pole orientation, yielding two spin pole solutions with sidereal periods\nand spin pole ecliptic coordinates of $P_{\\mathrm{sid}, 1} = 24.0485 \\pm\n0.0001$ hours, $\\lambda_1 = 132^{\\circ}$, $\\beta_1 = +41^{\\circ}$ and\n$P_{\\mathrm{sid}, 2} = 24.0484 \\pm 0.0001$ hours, $\\lambda_2 =307^{\\circ}$,\n$\\beta_2 =+34^{\\circ}$. Finally, we discuss the implications of the derived\nshape and spin models for spectral variability on Pompeja.\n",
+  "subjects": [
+    "Astrophysics/Earth and Planetary Astrophysics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "Ml5ZR5ek2mP5dCJeo77VZjTeIaGFEfLCTjVRqdYHSEE",
+  "pdfSize": "1003798"
+}

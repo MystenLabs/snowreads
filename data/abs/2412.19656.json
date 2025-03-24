@@ -1,0 +1,37 @@
+{
+  "id": "2412.19656",
+  "title": "Movable Antenna Aided Physical Layer Security with No Eavesdropper CSI",
+  "authors": "Zhenqiao Cheng, Chongjun Ouyang, and Xingqi Zhang",
+  "authorsParsed": [
+    [
+      "Cheng",
+      "Zhenqiao",
+      ""
+    ],
+    [
+      "Ouyang",
+      "Chongjun",
+      ""
+    ],
+    [
+      "Zhang",
+      "Xingqi",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 27 Dec 2024 14:05:08 GMT"
+    }
+  ],
+  "updateDate": "2024-12-30",
+  "timestamp": 1735308308000,
+  "abstract": "  A novel movable antenna (MA)-aided secure transmission framework is proposed\nto enhance the secrecy transmission rate without relying on the eavesdropper's\nchannel state information. Within this framework, a joint beamforming and\njamming scheme is proposed, where the power of the confidential signal is\nminimized by optimizing the positions of the MAs, and the residual power is\nused to jam the eavesdropper. An efficient gradient-based method is employed to\nsolve this non-convex problem. Numerical results are provided to demonstrate\nthe superiority of the MA-based framework over systems using traditional\nfixed-position antennas in secure transmission.\n",
+  "subjects": [
+    "Electrical Engineering and Systems Science/Signal Processing"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "zaV0bVV704TL5Lyq6BjdwxZKTjHH8dQOYAhAoUQpdbc",
+  "pdfSize": "333769"
+}

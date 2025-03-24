@@ -1,0 +1,38 @@
+{
+  "id": "2412.07242",
+  "title": "Optimization Can Learn Johnson Lindenstrauss Embeddings",
+  "authors": "Nikos Tsikouras, Constantine Caramanis, Christos Tzamos",
+  "authorsParsed": [
+    [
+      "Tsikouras",
+      "Nikos",
+      ""
+    ],
+    [
+      "Caramanis",
+      "Constantine",
+      ""
+    ],
+    [
+      "Tzamos",
+      "Christos",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 10 Dec 2024 07:07:04 GMT"
+    }
+  ],
+  "updateDate": "2024-12-11",
+  "timestamp": 1733814424000,
+  "abstract": "  Embeddings play a pivotal role across various disciplines, offering compact\nrepresentations of complex data structures. Randomized methods like\nJohnson-Lindenstrauss (JL) provide state-of-the-art and essentially\nunimprovable theoretical guarantees for achieving such representations. These\nguarantees are worst-case and in particular, neither the analysis, nor the\nalgorithm, takes into account any potential structural information of the data.\nThe natural question is: must we randomize? Could we instead use an\noptimization-based approach, working directly with the data? A first answer is\nno: as we show, the distance-preserving objective of JL has a non-convex\nlandscape over the space of projection matrices, with many bad stationary\npoints. But this is not the final answer.\n  We present a novel method motivated by diffusion models, that circumvents\nthis fundamental challenge: rather than performing optimization directly over\nthe space of projection matrices, we use optimization over the larger space of\nrandom solution samplers, gradually reducing the variance of the sampler. We\nshow that by moving through this larger space, our objective converges to a\ndeterministic (zero variance) solution, avoiding bad stationary points.\n  This method can also be seen as an optimization-based derandomization\napproach and is an idea and method that we believe can be applied to many other\nproblems.\n",
+  "subjects": [
+    "Statistics/Machine Learning",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "XmrtA7Q6E6AUnhR-_sVQkjOgvAijxuDRqJg65bn5sVs",
+  "pdfSize": "530207"
+}

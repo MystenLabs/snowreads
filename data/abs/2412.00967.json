@@ -1,0 +1,32 @@
+{
+  "id": "2412.00967",
+  "title": "Linear Probe Penalties Reduce LLM Sycophancy",
+  "authors": "Henry Papadatos, Rachel Freedman",
+  "authorsParsed": [
+    [
+      "Papadatos",
+      "Henry",
+      ""
+    ],
+    [
+      "Freedman",
+      "Rachel",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 1 Dec 2024 21:11:28 GMT"
+    }
+  ],
+  "updateDate": "2024-12-03",
+  "timestamp": 1733087488000,
+  "abstract": "  Large language models (LLMs) are often sycophantic, prioritizing agreement\nwith their users over accurate or objective statements. This problematic\nbehavior becomes more pronounced during reinforcement learning from human\nfeedback (RLHF), an LLM fine-tuning stage intended to align model outputs with\nhuman values. Instead of increasing accuracy and reliability, the reward model\nlearned from RLHF often rewards sycophancy. We develop a linear probing method\nto identify and penalize markers of sycophancy within the reward model,\nproducing rewards that discourage sycophantic behavior. Our experiments show\nthat constructing and optimizing against this surrogate reward function reduces\nsycophantic behavior in multiple open-source LLMs. Our results suggest a\ngeneralizable methodology for reducing unwanted LLM behaviors that are not\nsufficiently disincentivized by RLHF fine-tuning.\n",
+  "subjects": [
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "CQsrFxUGsb5tk1j33zPChrv4gA4hadTXU7NXRn-8x6U",
+  "pdfSize": "3917360"
+}

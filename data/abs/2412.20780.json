@@ -1,0 +1,37 @@
+{
+  "id": "2412.20780",
+  "title": "Effect of negative triangularity on SOL plasma turbulence in double-null\n  L-mode plasmas",
+  "authors": "Kyungtak Lim, Paolo Ricci, Leonard Lebrun",
+  "authorsParsed": [
+    [
+      "Lim",
+      "Kyungtak",
+      ""
+    ],
+    [
+      "Ricci",
+      "Paolo",
+      ""
+    ],
+    [
+      "Lebrun",
+      "Leonard",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 30 Dec 2024 07:58:28 GMT"
+    }
+  ],
+  "updateDate": "2024-12-31",
+  "timestamp": 1735545508000,
+  "abstract": "  The effects of negative triangularity (NT) on boundary plasma turbulence in\ndouble-null (DN) configurations are investigated using global, nonlinear,\nthree-dimensional, flux-driven two-fluid simulations. NT plasmas exhibit\nsuppressed interchange-driven instabilities, resulting in enhanced confinement\nand lower fluctuation levels compared to positive triangularity (PT) plasmas.\nThis reduction in interchange instability is associated with the weakening of\ncurvature effects in the unfavorable region, caused by the stretching of\nmagnetic field lines at the outer midplane. The magnetic disconnection between\nthe turbulent low-field side (LFS) and the quiescent high-field side (HFS)\nresults in most of the heat flux reaching the DN outer targets. In NT plasmas,\nthe power load on the outer target is reduced, while it increases on the inner\ntarget, indicating a reduced in-out power asymmetry compared PT plasmas.\nFurthermore, the analysis of power load asymmetry between the upper and lower\ntargets shows that the up-down power asymmetry is mitigated in NT plasmas,\nmainly due to the reduced total power crossing the separatrix. The reduction of\ninterchange instabilities in NT plasmas also affects the blob dynamics. A\nthree-dimensional blob analysis reveals that NT plasmas feature smaller blob\nsizes and slower propagation velocities. Finally, an analytical scaling law for\nblob size and velocity that includes plasma shaping effects is derived based on\nthe two-region model and is found to qualitatively capture the trends observed\nin nonlinear simulations.\n",
+  "subjects": [
+    "Physics/Plasma Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "972KMaHjaNfh5Gq9VEZ-ZsZ3Wcm7DidPO_LuihId6P8",
+  "pdfSize": "1329907"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "2412.08141",
+  "title": "Quantum geometric tensor and wavepacket dynamics in two-dimensional\n  non-Hermitian systems",
+  "authors": "Y.-M. Robin Hu, Elena A. Ostrovskaya and Eliezer Estrecho",
+  "authorsParsed": [
+    [
+      "Hu",
+      "Y. -M. Robin",
+      ""
+    ],
+    [
+      "Ostrovskaya",
+      "Elena A.",
+      ""
+    ],
+    [
+      "Estrecho",
+      "Eliezer",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 11 Dec 2024 06:56:00 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Mon, 17 Feb 2025 04:46:06 GMT"
+    }
+  ],
+  "updateDate": "2025-02-18",
+  "timestamp": 1733900160000,
+  "abstract": "  The quantum geometric tensor (QGT) characterizes the local geometry of\nquantum states, and its components directly account for the dynamical effects\nobserved, e.g., in condensed matter systems. In this work, we address the\nproblem of extending the QGT formalism to non-Hermitian systems with gain and\nloss. In particular, we investigate a wave-packet dynamics in two-band\nnon-Hermitian systems to elucidate how non-Hermiticity affects the definition\nof QGT. We employ first-order perturbation theory to account for non-adiabatic\ncorrections due to interband mixing. Our results suggest that two different\ngeneralizations of the QGT, one defined using only the right eigenstates and\nthe other one using both the left and right eigenstates, both play a\nsignificant role in wave-packet dynamics. We then determine the accuracy of the\nperturbative approach by simulating a wave-packet dynamics in a well studied\nphysical non-Hermitian system -- exciton polaritons in a semiconductor\nmicrocavity. Our work aids deeper understanding of quantum geometry and\ndynamical behaviour in non-Hermitian systems.\n",
+  "subjects": [
+    "Condensed Matter/Mesoscale and Nanoscale Physics",
+    "Physics/Quantum Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "7YUfLkMM5dayA22u7PBQW_1xlSCDM4w5EM79cI3dwro",
+  "pdfSize": "865096"
+}

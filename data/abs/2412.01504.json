@@ -1,0 +1,38 @@
+{
+  "id": "2412.01504",
+  "title": "3D Spine Shape Estimation from Single 2D DXA",
+  "authors": "Emmanuelle Bourigault, Amir Jamaludin, Andrew Zisserman",
+  "authorsParsed": [
+    [
+      "Bourigault",
+      "Emmanuelle",
+      ""
+    ],
+    [
+      "Jamaludin",
+      "Amir",
+      ""
+    ],
+    [
+      "Zisserman",
+      "Andrew",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 2 Dec 2024 13:58:26 GMT"
+    }
+  ],
+  "updateDate": "2024-12-03",
+  "timestamp": 1733147906000,
+  "abstract": "  Scoliosis is traditionally assessed based solely on 2D lateral deviations,\nbut recent studies have also revealed the importance of other imaging planes in\nunderstanding the deformation of the spine. Consequently, extracting the spinal\ngeometry in 3D would help quantify these spinal deformations and aid diagnosis.\nIn this study, we propose an automated general framework to estimate the 3D\nspine shape from 2D DXA scans. We achieve this by explicitly predicting the\nsagittal view of the spine from the DXA scan. Using these two orthogonal\nprojections of the spine (coronal in DXA, and sagittal from the prediction), we\nare able to describe the 3D shape of the spine. The prediction is learnt from\nover 30k paired images of DXA and MRI scans. We assess the performance of the\nmethod on a held out test set, and achieve high accuracy.\n",
+  "subjects": [
+    "Electrical Engineering and Systems Science/Image and Video Processing",
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "Jhy5aT8JyS577nk1JzdHPIVpDF6vZ6BBdDNpq3fX1Fk",
+  "pdfSize": "11040243"
+}

@@ -1,0 +1,47 @@
+{
+  "id": "2412.15229",
+  "title": "Building an Explainable Graph-based Biomedical Paper Recommendation\n  System (Technical Report)",
+  "authors": "Hermann Kroll, Christin K. Kreutz, Bill Matthias Thang, Philipp Schaer\n  and Wolf-Tilo Balke",
+  "authorsParsed": [
+    [
+      "Kroll",
+      "Hermann",
+      ""
+    ],
+    [
+      "Kreutz",
+      "Christin K.",
+      ""
+    ],
+    [
+      "Thang",
+      "Bill Matthias",
+      ""
+    ],
+    [
+      "Schaer",
+      "Philipp",
+      ""
+    ],
+    [
+      "Balke",
+      "Wolf-Tilo",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 5 Dec 2024 15:20:35 GMT"
+    }
+  ],
+  "updateDate": "2024-12-23",
+  "timestamp": 1733412035000,
+  "abstract": "  Digital libraries provide different access paths, allowing users to explore\ntheir collections. For instance, paper recommendation suggests literature\nsimilar to some selected paper. Their implementation is often cost-intensive,\nespecially if neural methods are applied. Additionally, it is hard for users to\nunderstand or guess why a recommendation should be relevant for them. That is\nwhy we tackled the problem from a different perspective. We propose XGPRec, a\ngraph-based and thus explainable method which we integrate into our existing\ngraph-based biomedical discovery system. Moreover, we show that XGPRec (1) can,\nin terms of computational costs, manage a real digital library collection with\n37M documents from the biomedical domain, (2) performs well on established test\ncollections and concept-centric information needs, and (3) generates\nexplanations that proved to be beneficial in a preliminary user study. We share\nour code so that user libraries can build upon XGPRec.\n",
+  "subjects": [
+    "Computer Science/Information Retrieval"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "VBTSHAyPXY5iKhB6W2dx0FxQAHYaJml5Ek23VcOIoAU",
+  "pdfSize": "1715904"
+}

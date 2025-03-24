@@ -1,0 +1,52 @@
+{
+  "id": "2412.02322",
+  "title": "Controlling the Latent Diffusion Model for Generative Image Shadow\n  Removal via Residual Generation",
+  "authors": "Xinjie Li, Yang Zhao, Dong Wang, Yuan Chen, Li Cao, Xiaoping Liu",
+  "authorsParsed": [
+    [
+      "Li",
+      "Xinjie",
+      ""
+    ],
+    [
+      "Zhao",
+      "Yang",
+      ""
+    ],
+    [
+      "Wang",
+      "Dong",
+      ""
+    ],
+    [
+      "Chen",
+      "Yuan",
+      ""
+    ],
+    [
+      "Cao",
+      "Li",
+      ""
+    ],
+    [
+      "Liu",
+      "Xiaoping",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 3 Dec 2024 09:38:14 GMT"
+    }
+  ],
+  "updateDate": "2024-12-04",
+  "timestamp": 1733218694000,
+  "abstract": "  Large-scale generative models have achieved remarkable advancements in\nvarious visual tasks, yet their application to shadow removal in images remains\nchallenging. These models often generate diverse, realistic details without\nadequate focus on fidelity, failing to meet the crucial requirements of shadow\nremoval, which necessitates precise preservation of image content. In contrast\nto prior approaches that aimed to regenerate shadow-free images from scratch,\nthis paper utilizes diffusion models to generate and refine image residuals.\nThis strategy fully uses the inherent detailed information within shadowed\nimages, resulting in a more efficient and faithful reconstruction of\nshadow-free content. Additionally, to revent the accumulation of errors during\nthe generation process, a crosstimestep self-enhancement training strategy is\nproposed. This strategy leverages the network itself to augment the training\ndata, not only increasing the volume of data but also enabling the network to\ndynamically correct its generation trajectory, ensuring a more accurate and\nrobust output. In addition, to address the loss of original details in the\nprocess of image encoding and decoding of large generative models, a\ncontent-preserved encoder-decoder structure is designed with a control\nmechanism and multi-scale skip connections to achieve high-fidelity shadow-free\nimage reconstruction. Experimental results demonstrate that the proposed method\ncan reproduce high-quality results based on a large latent diffusion prior and\nfaithfully preserve the original contents in shadow regions.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+  "blobId": "eXW5QlwxvQLrTKN-wvrZvc7Z5gWJNPbLSpB02ThZ9go",
+  "pdfSize": "21881574"
+}

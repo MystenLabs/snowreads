@@ -1,0 +1,39 @@
+{
+  "id": "2412.16181",
+  "title": "Minimum Weighted Feedback Arc Sets for Ranking from Pairwise Comparisons",
+  "authors": "Soroush Vahidi, Ioannis Koutis",
+  "authorsParsed": [
+    [
+      "Vahidi",
+      "Soroush",
+      ""
+    ],
+    [
+      "Koutis",
+      "Ioannis",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 10 Dec 2024 16:51:11 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Tue, 7 Jan 2025 22:12:47 GMT"
+    }
+  ],
+  "updateDate": "2025-01-09",
+  "timestamp": 1733849471000,
+  "abstract": "  The Minimum Weighted Feedback Arc Set (MWFAS) problem is fundamentally\nconnected to the Ranking Problem -- the task of deriving global rankings from\npairwise comparisons. Recent work [He et al. ICML2022] has advanced the\nstate-of-the-art for the Ranking Problem using learning-based methods,\nimproving upon multiple previous approaches. However, the connection to MWFAS\nremains underexplored. This paper investigates this relationship and presents\nefficient combinatorial algorithms for solving MWFAS, thus addressing the\nRanking Problem. Our experimental results demonstrate that these simple,\nlearning-free algorithms not only significantly outperform learning-based\nmethods in terms of speed but also generally achieve superior ranking accuracy.\n",
+  "subjects": [
+    "Computer Science/Information Retrieval",
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Data Structures and Algorithms",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "9ifcTklI_47W59jumMcg2X6191K9iq7ntUWl01BSUH0",
+  "pdfSize": "206315"
+}

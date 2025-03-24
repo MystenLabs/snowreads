@@ -1,0 +1,58 @@
+{
+  "id": "2412.16572",
+  "title": "Breaking the Context Bottleneck on Long Time Series Forecasting",
+  "authors": "Chao Ma, Yikai Hou, Xiang Li, Yinggang Sun, Haining Yu, Zhou Fang,\n  Jiaxing Qu",
+  "authorsParsed": [
+    [
+      "Ma",
+      "Chao",
+      ""
+    ],
+    [
+      "Hou",
+      "Yikai",
+      ""
+    ],
+    [
+      "Li",
+      "Xiang",
+      ""
+    ],
+    [
+      "Sun",
+      "Yinggang",
+      ""
+    ],
+    [
+      "Yu",
+      "Haining",
+      ""
+    ],
+    [
+      "Fang",
+      "Zhou",
+      ""
+    ],
+    [
+      "Qu",
+      "Jiaxing",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 21 Dec 2024 10:29:34 GMT"
+    }
+  ],
+  "updateDate": "2024-12-24",
+  "timestamp": 1734776974000,
+  "abstract": "  Long-term time-series forecasting is essential for planning and\ndecision-making in economics, energy, and transportation, where long foresight\nis required. To obtain such long foresight, models must be both efficient and\neffective in processing long sequence. Recent advancements have enhanced the\nefficiency of these models; however, the challenge of effectively leveraging\nlonger sequences persists. This is primarily due to the tendency of these\nmodels to overfit when presented with extended inputs, necessitating the use of\nshorter input lengths to maintain tolerable error margins. In this work, we\ninvestigate the multiscale modeling method and propose the Logsparse\nDecomposable Multiscaling (LDM) framework for the efficient and effective\nprocessing of long sequences. We demonstrate that by decoupling patterns at\ndifferent scales in time series, we can enhance predictability by reducing\nnon-stationarity, improve efficiency through a compact long input\nrepresentation, and simplify the architecture by providing clear task\nassignments. Experimental results demonstrate that LDM not only outperforms all\nbaselines in long-term forecasting benchmarks, but also reducing both training\ntime and memory costs.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "2Sp3qJSnzWwG3_h85FUpbNIN-Mg12lJSK6nnrZ0ierA",
+  "pdfSize": "5547377"
+}

@@ -1,0 +1,68 @@
+{
+  "id": "2412.18673",
+  "title": "Map2Text: New Content Generation from Low-Dimensional Visualizations",
+  "authors": "Xingjian Zhang, Ziyang Xiong, Shixuan Liu, Yutong Xie, Tolga Ergen,\n  Dongsub Shim, Hua Xu, Honglak Lee, Qiaozhu Me",
+  "authorsParsed": [
+    [
+      "Zhang",
+      "Xingjian",
+      ""
+    ],
+    [
+      "Xiong",
+      "Ziyang",
+      ""
+    ],
+    [
+      "Liu",
+      "Shixuan",
+      ""
+    ],
+    [
+      "Xie",
+      "Yutong",
+      ""
+    ],
+    [
+      "Ergen",
+      "Tolga",
+      ""
+    ],
+    [
+      "Shim",
+      "Dongsub",
+      ""
+    ],
+    [
+      "Xu",
+      "Hua",
+      ""
+    ],
+    [
+      "Lee",
+      "Honglak",
+      ""
+    ],
+    [
+      "Me",
+      "Qiaozhu",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 24 Dec 2024 20:16:13 GMT"
+    }
+  ],
+  "updateDate": "2024-12-30",
+  "timestamp": 1735071373000,
+  "abstract": "  Low-dimensional visualizations, or \"projection maps\" of datasets, are widely\nused across scientific research and creative industries as effective tools for\ninterpreting large-scale and complex information. These visualizations not only\nsupport understanding existing knowledge spaces but are often used implicitly\nto guide exploration into unknown areas. While powerful methods like TSNE or\nUMAP can create such visual maps, there is currently no systematic way to\nleverage them for generating new content. To bridge this gap, we introduce\nMap2Text, a novel task that translates spatial coordinates within\nlow-dimensional visualizations into new, coherent, and accurately aligned\ntextual content. This allows users to explore and navigate undiscovered\ninformation embedded in these spatial layouts interactively and intuitively. To\nevaluate the performance of Map2Text methods, we propose Atometric, an\nevaluation metric that provides a granular assessment of logical coherence and\nalignment of the atomic statements in the generated texts. Experiments\nconducted across various datasets demonstrate the versatility of Map2Text in\ngenerating scientific research hypotheses, crafting synthetic personas, and\ndevising strategies for testing large language models. Our findings highlight\nthe potential of Map2Text to unlock new pathways for interacting with and\nnavigating large-scale textual datasets, offering a novel framework for\nspatially guided content generation and discovery.\n",
+  "subjects": [
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Human-Computer Interaction"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "U4fBhL-Ba5jFWXAsY1FfoYu-Z9REZXwy_skENuB5B2Q",
+  "pdfSize": "1931723"
+}

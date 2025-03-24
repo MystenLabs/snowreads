@@ -1,0 +1,53 @@
+{
+  "id": "2412.03906",
+  "title": "Final-Model-Only Data Attribution with a Unifying View of Gradient-Based\n  Methods",
+  "authors": "Dennis Wei, Inkit Padhi, Soumya Ghosh, Amit Dhurandhar, Karthikeyan\n  Natesan Ramamurthy, Maria Chang",
+  "authorsParsed": [
+    [
+      "Wei",
+      "Dennis",
+      ""
+    ],
+    [
+      "Padhi",
+      "Inkit",
+      ""
+    ],
+    [
+      "Ghosh",
+      "Soumya",
+      ""
+    ],
+    [
+      "Dhurandhar",
+      "Amit",
+      ""
+    ],
+    [
+      "Ramamurthy",
+      "Karthikeyan Natesan",
+      ""
+    ],
+    [
+      "Chang",
+      "Maria",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 5 Dec 2024 06:24:26 GMT"
+    }
+  ],
+  "updateDate": "2024-12-06",
+  "timestamp": 1733379866000,
+  "abstract": "  Training data attribution (TDA) is the task of attributing model behavior to\nelements in the training data. This paper draws attention to the common setting\nwhere one has access only to the final trained model, and not the training\nalgorithm or intermediate information from training. To serve as a gold\nstandard for TDA in this \"final-model-only\" setting, we propose further\ntraining, with appropriate adjustment and averaging, to measure the sensitivity\nof the given model to training instances. We then unify existing gradient-based\nmethods for TDA by showing that they all approximate the further training gold\nstandard in different ways. We investigate empirically the quality of these\ngradient-based approximations to further training, for tabular, image, and text\ndatasets and models. We find that the approximation quality of first-order\nmethods is sometimes high but decays with the amount of further training. In\ncontrast, the approximations given by influence function methods are more\nstable but surprisingly lower in quality.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Statistics/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "dBLrDmL7luPpwPsUkjiGRW7gI0aIZ61cAh3Zkw4sUfM",
+  "pdfSize": "2171773"
+}

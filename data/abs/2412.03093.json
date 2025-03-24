@@ -1,0 +1,57 @@
+{
+  "id": "2412.03093",
+  "title": "Expanding Event Modality Applications through a Robust CLIP-Based\n  Encoder",
+  "authors": "Sungheon Jeong, Hanning Chen, Sanggeon Yun, Suhyeon Cho, Wenjun Huang,\n  Xiangjian Liu, Mohsen Imani",
+  "authorsParsed": [
+    [
+      "Jeong",
+      "Sungheon",
+      ""
+    ],
+    [
+      "Chen",
+      "Hanning",
+      ""
+    ],
+    [
+      "Yun",
+      "Sanggeon",
+      ""
+    ],
+    [
+      "Cho",
+      "Suhyeon",
+      ""
+    ],
+    [
+      "Huang",
+      "Wenjun",
+      ""
+    ],
+    [
+      "Liu",
+      "Xiangjian",
+      ""
+    ],
+    [
+      "Imani",
+      "Mohsen",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 4 Dec 2024 07:44:58 GMT"
+    }
+  ],
+  "updateDate": "2024-12-05",
+  "timestamp": 1733298298000,
+  "abstract": "  This paper introduces a powerful encoder that transfers CLIP`s capabilities\nto event-based data, enhancing its utility and expanding its applicability\nacross diverse domains. While large-scale datasets have significantly advanced\nimage-based models, the scarcity of comprehensive event datasets has limited\nperformance potential in event modality. To address this challenge, we adapt\nCLIP`s architecture to align event embeddings with image embeddings, supporting\nzero-shot learning and preserving text alignment while mitigating catastrophic\nforgetting. Our encoder achieves strong performance in object recognition, with\ncompetitive results in zero-shot and few-shot learning tasks. Notably, it\ngeneralizes effectively to events extracted from video data without requiring\nadditional training, highlighting its versatility. Additionally, we integrate\nthis encoder within a cross-modality framework that facilitates interaction\nacross five modalities-Image, Event, Text, Sound, and Depth-expanding the\npossibilities for cross-modal applications. Overall, this work underscores the\ntransformative potential of a robust event encoder, broadening the scope and\nutility of event-based data across various fields.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "HnvPlvE2HQaOoeqMeUs2u_-WuvcLjrkbkoTaHKjctTU",
+  "pdfSize": "3909811"
+}

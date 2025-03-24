@@ -1,0 +1,135 @@
+{
+  "id": "2412.18403",
+  "title": "Detectorless 3D terahertz imaging: achieving subwavelength resolution\n  with reflectance confocal interferometric microscopy",
+  "authors": "Jorge Silva, Martin Pl\\\"oschner, Karl Bertling, Mukund Ghantala, Tim\n  Gillespie, Jari Torniainen, Jeremy Herbert, Yah Leng Lim, Thomas Taimre,\n  Xiaoqiong Qi, Bogdan C. Donose, Tao Zhou, Hoi-Shun Lui, Dragan Indjin,\n  Yingjun Han, Lianhe Li, Alexander Valavanis, Edmund H. Linfield, A. Giles\n  Davies, Paul Dean, and Aleksandar D. Raki\\'c",
+  "authorsParsed": [
+    [
+      "Silva",
+      "Jorge",
+      ""
+    ],
+    [
+      "Plöschner",
+      "Martin",
+      ""
+    ],
+    [
+      "Bertling",
+      "Karl",
+      ""
+    ],
+    [
+      "Ghantala",
+      "Mukund",
+      ""
+    ],
+    [
+      "Gillespie",
+      "Tim",
+      ""
+    ],
+    [
+      "Torniainen",
+      "Jari",
+      ""
+    ],
+    [
+      "Herbert",
+      "Jeremy",
+      ""
+    ],
+    [
+      "Lim",
+      "Yah Leng",
+      ""
+    ],
+    [
+      "Taimre",
+      "Thomas",
+      ""
+    ],
+    [
+      "Qi",
+      "Xiaoqiong",
+      ""
+    ],
+    [
+      "Donose",
+      "Bogdan C.",
+      ""
+    ],
+    [
+      "Zhou",
+      "Tao",
+      ""
+    ],
+    [
+      "Lui",
+      "Hoi-Shun",
+      ""
+    ],
+    [
+      "Indjin",
+      "Dragan",
+      ""
+    ],
+    [
+      "Han",
+      "Yingjun",
+      ""
+    ],
+    [
+      "Li",
+      "Lianhe",
+      ""
+    ],
+    [
+      "Valavanis",
+      "Alexander",
+      ""
+    ],
+    [
+      "Linfield",
+      "Edmund H.",
+      ""
+    ],
+    [
+      "Davies",
+      "A. Giles",
+      ""
+    ],
+    [
+      "Dean",
+      "Paul",
+      ""
+    ],
+    [
+      "Rakić",
+      "Aleksandar D.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 24 Dec 2024 12:50:11 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Sat, 4 Jan 2025 15:44:28 GMT"
+    },
+    {
+      "version": "v3",
+      "created": "Mon, 27 Jan 2025 04:09:00 GMT"
+    }
+  ],
+  "updateDate": "2025-01-28",
+  "timestamp": 1735044611000,
+  "abstract": "  Terahertz imaging holds great potential for non-destructive material\ninspection, but practical implementation has been limited by resolution\nconstraints. In this study, we present a single-pixel THz imaging system based\non a confocal microscope architecture, utilising a quantum cascade laser as\nboth transmitter and phase-sensitive receiver. Our approach integrates laser\nfeedback interferometry detection to achieve a two-fold improvement in lateral\nresolution and a two-order-of-magnitude enhancement in axial resolution over\nconventional imaging through precise interferometric phase measurements. This\ntranslates to a lateral resolution near $\\lambda/2$ and a depth of focus better\nthan $\\lambda/5$, significantly outperforming traditional confocal systems. The\nsystem can produce a 0.5 Mpixel image in under two minutes, surpassing both\nraster-scanning single-pixel and multipixel focal-plane array-based imagers.\nCoherent operation enables simultaneous amplitude and phase image acquisition,\nand a custom visualisation method links amplitude to image saturation and phase\nto hue, enhancing material characterisation. A 3D tomographic analysis of a\nsilicon chip reveals subwavelength features, demonstrating the system's\npotential for high-resolution THz imaging and material analysis. This work sets\na new benchmark for THz imaging, overcoming key challenges and opening up\ntransformative possibilities for non-destructive material inspection and\ncharacterisation.\n",
+  "subjects": [
+    "Physics/Optics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "YMM5ZNattpxeXNgRDzQuM2500t6J-mE0ZtiVC2ctzuQ",
+  "pdfSize": "20416096"
+}

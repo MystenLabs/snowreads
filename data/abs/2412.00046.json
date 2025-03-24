@@ -1,0 +1,32 @@
+{
+  "id": "2412.00046",
+  "title": "Operations with f correlated fuzzy numbers",
+  "authors": "Diogo Sampaio da Silva, Roberto Antonio Cordeiro Prata",
+  "authorsParsed": [
+    [
+      "da Silva",
+      "Diogo Sampaio",
+      ""
+    ],
+    [
+      "Prata",
+      "Roberto Antonio Cordeiro",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 23 Nov 2024 17:06:02 GMT"
+    }
+  ],
+  "updateDate": "2024-12-03",
+  "timestamp": 1732381562000,
+  "abstract": "  We present a brief introduction to a class of interactive fuzzy numbers,\ncalled f correlated fuzzy numbers, which consist of pairs of fuzzy numbers\nwhere one is dependent on the other by a continuous montone injector function.\nWe present some results of operations with these numbers, obtaining equations\nthat can directly calculate the results of these operations using only basic\noperations with real numbers, intervals on the real line and the function that\nrelates the fuzzy numbers being considered.\n",
+  "subjects": [
+    "Mathematics/General Mathematics"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "ePvGCYlf0iXdrQJqSIHyw01RNYWQxdm6spYX8M07ju8",
+  "pdfSize": "79423"
+}

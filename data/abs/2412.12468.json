@@ -1,0 +1,97 @@
+{
+  "id": "2412.12468",
+  "title": "Transferable and Forecastable User Targeting Foundation Model",
+  "authors": "Bin Dou, Baokun Wang, Yun Zhu, Xiaotong Lin, Yike Xu, Xiaorui Huang,\n  Yang Chen, Yun Liu, Shaoshuai Han, Yongchao Liu, Tianyi Zhang, Yu Cheng,\n  Weiqiang Wang, Chuntao Hong",
+  "authorsParsed": [
+    [
+      "Dou",
+      "Bin",
+      ""
+    ],
+    [
+      "Wang",
+      "Baokun",
+      ""
+    ],
+    [
+      "Zhu",
+      "Yun",
+      ""
+    ],
+    [
+      "Lin",
+      "Xiaotong",
+      ""
+    ],
+    [
+      "Xu",
+      "Yike",
+      ""
+    ],
+    [
+      "Huang",
+      "Xiaorui",
+      ""
+    ],
+    [
+      "Chen",
+      "Yang",
+      ""
+    ],
+    [
+      "Liu",
+      "Yun",
+      ""
+    ],
+    [
+      "Han",
+      "Shaoshuai",
+      ""
+    ],
+    [
+      "Liu",
+      "Yongchao",
+      ""
+    ],
+    [
+      "Zhang",
+      "Tianyi",
+      ""
+    ],
+    [
+      "Cheng",
+      "Yu",
+      ""
+    ],
+    [
+      "Wang",
+      "Weiqiang",
+      ""
+    ],
+    [
+      "Hong",
+      "Chuntao",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 17 Dec 2024 02:05:09 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Thu, 20 Feb 2025 14:57:03 GMT"
+    }
+  ],
+  "updateDate": "2025-02-21",
+  "timestamp": 1734401109000,
+  "abstract": "  User targeting, the process of selecting targeted users from a pool of\ncandidates for non-expert marketers, has garnered substantial attention with\nthe advancements in digital marketing. However, existing user targeting methods\nencounter two significant challenges: (i) Poor cross-domain and cross-scenario\ntransferability and generalization, and (ii) Insufficient forecastability in\nreal-world applications. These limitations hinder their applicability across\ndiverse industrial scenarios. In this work, we propose FOUND, an\nindustrial-grade, transferable, and forecastable user targeting foundation\nmodel. To enhance cross-domain transferability, our framework integrates\nheterogeneous multi-scenario user data, aligning them with one-sentence\ntargeting demand inputs through contrastive pre-training. For improved\nforecastability, the text description of each user is derived based on\nanticipated future behaviors, while user representations are constructed from\nhistorical information. Experimental results demonstrate that our approach\nsignificantly outperforms existing baselines in cross-domain, real-world user\ntargeting scenarios, showcasing the superior capabilities of FOUND. Moreover,\nour method has been successfully deployed on the Alipay platform and is widely\nutilized across various scenarios.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "PAN8lxnAkAoKLiX7UPeRmkMtf6yVTaXXos5UYvB-Mwc",
+  "pdfSize": "1337178"
+}

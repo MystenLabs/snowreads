@@ -1,0 +1,37 @@
+{
+  "id": "2412.09544",
+  "title": "Sail into the Headwind: Alignment via Robust Rewards and Dynamic Labels\n  against Reward Hacking",
+  "authors": "Paria Rashidinejad, Yuandong Tian",
+  "authorsParsed": [
+    [
+      "Rashidinejad",
+      "Paria",
+      ""
+    ],
+    [
+      "Tian",
+      "Yuandong",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 12 Dec 2024 18:34:47 GMT"
+    }
+  ],
+  "updateDate": "2024-12-13",
+  "timestamp": 1734028487000,
+  "abstract": "  Aligning AI systems with human preferences typically suffers from the\ninfamous reward hacking problem, where optimization of an imperfect reward\nmodel leads to undesired behaviors. In this paper, we investigate reward\nhacking in offline preference optimization, which aims to improve an initial\nmodel using a preference dataset. We identify two types of reward hacking\nstemming from statistical fluctuations in the dataset: Type I Reward Hacking\ndue to subpar choices appearing more favorable, and Type II Reward Hacking due\nto decent choices appearing less favorable. We prove that many (mainstream or\ntheoretical) preference optimization methods suffer from both types of reward\nhacking. To mitigate Type I Reward Hacking, we propose POWER, a new preference\noptimization method that combines Guiasu's weighted entropy with a robust\nreward maximization objective. POWER enjoys finite-sample guarantees under\ngeneral function approximation, competing with the best covered policy in the\ndata. To mitigate Type II Reward Hacking, we analyze the learning dynamics of\npreference optimization and develop a novel technique that dynamically updates\npreference labels toward certain \"stationary labels\", resulting in diminishing\ngradients for untrustworthy samples. Empirically, POWER with dynamic labels\n(POWER-DL) consistently outperforms state-of-the-art methods on alignment\nbenchmarks, achieving improvements of up to 13.0 points on AlpacaEval 2.0 and\n11.5 points on Arena-Hard over DPO, while also improving or maintaining\nperformance on downstream tasks such as mathematical reasoning. Strong\ntheoretical guarantees and empirical results demonstrate the promise of\nPOWER-DL in mitigating reward hacking.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Computer Science/Artificial Intelligence",
+    "Mathematics/Optimization and Control",
+    "Mathematics/Statistics Theory",
+    "Statistics/Machine Learning",
+    "Statistics/Statistics Theory"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "1c-PZdMMjkNhJLguyxar0r5KPXfsVXgSobsi0aS-tlg",
+  "pdfSize": "1664815"
+}

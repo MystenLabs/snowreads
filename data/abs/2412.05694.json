@@ -1,0 +1,35 @@
+{
+  "id": "2412.05694",
+  "title": "Combining Genre Classification and Harmonic-Percussive Features with\n  Diffusion Models for Music-Video Generation",
+  "authors": "Leonardo Pina and Yongmin Li",
+  "authorsParsed": [
+    [
+      "Pina",
+      "Leonardo",
+      ""
+    ],
+    [
+      "Li",
+      "Yongmin",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 7 Dec 2024 16:43:02 GMT"
+    }
+  ],
+  "updateDate": "2024-12-10",
+  "timestamp": 1733589782000,
+  "abstract": "  This study presents a novel method for generating music visualisers using\ndiffusion models, combining audio input with user-selected artwork. The process\ninvolves two main stages: image generation and video creation. First, music\ncaptioning and genre classification are performed, followed by the retrieval of\nartistic style descriptions. A diffusion model then generates images based on\nthe user's input image and the derived artistic style descriptions. The video\ngeneration stage utilises the same diffusion model to interpolate frames,\ncontrolled by audio energy vectors derived from key musical features of\nharmonics and percussives. The method demonstrates promising results across\nvarious genres, and a new metric, Audio-Visual Synchrony (AVS), is introduced\nto quantitatively evaluate the synchronisation between visual and audio\nelements. Comparative analysis shows significantly higher AVS values for videos\ngenerated using the proposed method with audio energy vectors, compared to\nlinear interpolation. This approach has potential applications in diverse\nfields, including independent music video creation, film production, live music\nevents, and enhancing audio-visual experiences in public spaces.\n",
+  "subjects": [
+    "Computer Science/Multimedia",
+    "Computer Science/Graphics",
+    "Computer Science/Sound",
+    "Electrical Engineering and Systems Science/Audio and Speech Processing"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "1Shc00T2PmJ1MJEAQg8BHsksEfmhaX2idUplINlclIQ",
+  "pdfSize": "1994442"
+}

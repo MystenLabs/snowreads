@@ -1,0 +1,59 @@
+{
+  "id": "2412.12242",
+  "title": "OmniPrism: Learning Disentangled Visual Concept for Image Generation",
+  "authors": "Yangyang Li, Daqing Liu, Wu Liu, Allen He, Xinchen Liu, Yongdong\n  Zhang, Guoqing Jin",
+  "authorsParsed": [
+    [
+      "Li",
+      "Yangyang",
+      ""
+    ],
+    [
+      "Liu",
+      "Daqing",
+      ""
+    ],
+    [
+      "Liu",
+      "Wu",
+      ""
+    ],
+    [
+      "He",
+      "Allen",
+      ""
+    ],
+    [
+      "Liu",
+      "Xinchen",
+      ""
+    ],
+    [
+      "Zhang",
+      "Yongdong",
+      ""
+    ],
+    [
+      "Jin",
+      "Guoqing",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 16 Dec 2024 18:59:52 GMT"
+    }
+  ],
+  "updateDate": "2024-12-18",
+  "timestamp": 1734375592000,
+  "abstract": "  Creative visual concept generation often draws inspiration from specific\nconcepts in a reference image to produce relevant outcomes. However, existing\nmethods are typically constrained to single-aspect concept generation or are\neasily disrupted by irrelevant concepts in multi-aspect concept scenarios,\nleading to concept confusion and hindering creative generation. To address\nthis, we propose OmniPrism, a visual concept disentangling approach for\ncreative image generation. Our method learns disentangled concept\nrepresentations guided by natural language and trains a diffusion model to\nincorporate these concepts. We utilize the rich semantic space of a multimodal\nextractor to achieve concept disentanglement from given images and concept\nguidance. To disentangle concepts with different semantics, we construct a\npaired concept disentangled dataset (PCD-200K), where each pair shares the same\nconcept such as content, style, and composition. We learn disentangled concept\nrepresentations through our contrastive orthogonal disentangled (COD) training\npipeline, which are then injected into additional diffusion cross-attention\nlayers for generation. A set of block embeddings is designed to adapt each\nblock's concept domain in the diffusion models. Extensive experiments\ndemonstrate that our method can generate high-quality, concept-disentangled\nresults with high fidelity to text prompts and desired concepts.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "Iy_IB7jJDa3Z9E97M-AKupqTej8GS0PLTy914FtjmhU",
+  "pdfSize": "36664002"
+}

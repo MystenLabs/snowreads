@@ -1,0 +1,33 @@
+{
+  "id": "2412.10221",
+  "title": "On the product of Weak Asplund locally convex spaces",
+  "authors": "Jerzy Kakol and Arkady Leiderman",
+  "authorsParsed": [
+    [
+      "Kakol",
+      "Jerzy",
+      ""
+    ],
+    [
+      "Leiderman",
+      "Arkady",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 13 Dec 2024 15:46:44 GMT"
+    }
+  ],
+  "updateDate": "2024-12-16",
+  "timestamp": 1734104804000,
+  "abstract": "  For locally convex spaces, we systematize several known equivalent\ndefinitions of Fr\\'echet (G\\^ ateaux) Differentiability Spaces and Asplund\n(Weak Asplund) Spaces.\n  As an application, we extend the classical Mazur's theorem as follows: Let\n$E$ be a separable Baire locally convex space and let $Y$ be the product\n$\\prod_{\\alpha\\in A} E_{\\alpha}$ of any family of separable Fr\\'echet spaces;\nthen the product $E \\times Y$ is Weak Asplund. Also, we prove that the product\n$Y$ of any family of Banach spaces $(E_{\\alpha})$ is an Asplund locally convex\nspace if and only if each $E_{\\alpha}$ is Asplund.\n  Analogues of both results are valid under the same assumptions, if $Y$ is the\n$\\Sigma$-product of any family $(E_{\\alpha})$.\n",
+  "subjects": [
+    "Mathematics/Functional Analysis",
+    "Mathematics/General Topology"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "xW90-iRVbDXi0wtuLiEBQTDy41dlQeTDNmG9A0fMNco",
+  "pdfSize": "164749"
+}

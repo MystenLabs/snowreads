@@ -1,0 +1,48 @@
+{
+  "id": "2412.11564",
+  "title": "OTA-Key: Over the Air Key Management for Flexible and Reliable IoT\n  Device Provision",
+  "authors": "Qian Zhang, Yi He, Yue Xiao, Xiaoli Zhang and Chunhua Song",
+  "authorsParsed": [
+    [
+      "Zhang",
+      "Qian",
+      ""
+    ],
+    [
+      "He",
+      "Yi",
+      ""
+    ],
+    [
+      "Xiao",
+      "Yue",
+      ""
+    ],
+    [
+      "Zhang",
+      "Xiaoli",
+      ""
+    ],
+    [
+      "Song",
+      "Chunhua",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 16 Dec 2024 08:50:00 GMT"
+    }
+  ],
+  "updateDate": "2024-12-17",
+  "timestamp": 1734339000000,
+  "abstract": "  As the Internet of Things (IoT) industry advances, the imperative to secure\nIoT devices has become increasingly critical. Current practices in both\nindustry and academia advocate for the enhancement of device security through\nkey installation. However, it has been observed that, in practice, IoT vendors\nfrequently assign shared keys to batches of devices. This practice can expose\ndevices to risks, such as data theft by attackers or large-scale Distributed\nDenial of Service (DDoS) attacks. To address this issue, our intuition is to\nassign a unique key to each device. Unfortunately, this strategy proves to be\nhighly complex within the IoT context, as existing keys are typically hardcoded\ninto the firmware, necessitating the creation of bespoke firmware for each\ndevice. Furthermore, correct pairing of device keys with their respective\ndevices is crucial. Errors in this pairing process would incur substantial\nhuman and temporal resources to rectify and require extensive communication\nbetween IoT vendors, device manufacturers, and cloud platforms, leading to\nsignificant communication overhead. To overcome these challenges, we propose\nthe OTA-Key scheme. This approach fundamentally decouples device keys from the\nfirmware features stored in flash memory, utilizing an intermediary server to\nallocate unique device keys in two distinct stages and update keys. We\nconducted a formal security verification of our scheme using ProVerif and\nassessed its performance through a series of evaluations. The results\ndemonstrate that our scheme is secure and effectively manages the large-scale\ndistribution and updating of unique device keys. Additionally, it achieves\nsignificantly lower update times and data transfer volumes compared to other\nschemes.\n",
+  "subjects": [
+    "Computer Science/Cryptography and Security",
+    "Computer Science/Software Engineering"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "pTWaE0Du34jW0LUZVsf3MAA1_ushBEEVl_1vK3mzxBE",
+  "pdfSize": "1549877"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "2412.06160",
+  "title": "Obstacle-aware Gaussian Process Regression",
+  "authors": "Gaurav Shrivastava",
+  "authorsParsed": [
+    [
+      "Shrivastava",
+      "Gaurav",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 9 Dec 2024 02:50:20 GMT"
+    }
+  ],
+  "updateDate": "2024-12-10",
+  "timestamp": 1733712620000,
+  "abstract": "  Obstacle-aware trajectory navigation is crucial for many systems. For\nexample, in real-world navigation tasks, an agent must avoid obstacles, such as\nfurniture in a room, while planning a trajectory. Gaussian Process (GP)\nregression, in its current form, fits a curve to a set of data pairs, with each\npair consisting of an input point 'x' and its corresponding target regression\nvalue 'y(x)' (a positive data pair). However, to account for obstacles, we need\nto constrain the GP to avoid a target regression value 'y(x-)' for an input\npoint 'x-' (a negative data pair). Our proposed approach, 'GP-ND' (Gaussian\nProcess with Negative Datapairs), fits the model to the positive data pairs\nwhile avoiding the negative ones. Specifically, we model the negative data\npairs using small blobs of Gaussian distribution and maximize their KL\ndivergence from the GP. Our framework jointly optimizes for both positive and\nnegative data pairs. Our experiments show that GP-ND outperforms traditional GP\nlearning. Additionally, our framework does not affect the scalability of\nGaussian Process regression and helps the model converge faster as the data\nsize increases.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Mathematics/Probability",
+    "Statistics/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "IaCuWe31390bH8clQ7sDbbl0pcyHm94YErlXw7nyZ9c",
+  "pdfSize": "4925133"
+}

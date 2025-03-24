@@ -1,0 +1,42 @@
+{
+  "id": "2412.16843",
+  "title": "A mass-conserving contact line treatment for second-order conservative\n  phase field methods based on the generalized Navier boundary condition",
+  "authors": "Reed L. Brown, Shahab Mirjalili, Makrand A. Khanwale, Ali Mani",
+  "authorsParsed": [
+    [
+      "Brown",
+      "Reed L.",
+      ""
+    ],
+    [
+      "Mirjalili",
+      "Shahab",
+      ""
+    ],
+    [
+      "Khanwale",
+      "Makrand A.",
+      ""
+    ],
+    [
+      "Mani",
+      "Ali",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 22 Dec 2024 03:40:38 GMT"
+    }
+  ],
+  "updateDate": "2024-12-24",
+  "timestamp": 1734838838000,
+  "abstract": "  A mass-conserving contact line treatment for second-order conservative phase\nfield methods is presented and applied to the conservative diffuse interface\n(CDI) model. The treatment centers on a no-flux boundary condition for the\nphase field along with a slip boundary condition for the velocity that is based\non the generalized Navier boundary condition (GNBC). Since the CDI model is a\nsecond-order partial differential equation, it does not permit a second\n(contact angle) boundary condition, in contrast to the popular fourth-order\nCahn-Hilliard model. As such, we use one-sided stencils and extrapolations from\nthe interior of the domain to compute phase-field-related quantities on and\nnear the wall. Additionally, we propose novel modifications to the GNBC on the\ncontinuous and discrete levels that reduce spurious slip velocity when the\ncontact angle achieves its equilibrium value. The proposed treatment is\nvalidated with the equilibrium drop and two-phase Couette flow test cases.\n",
+  "subjects": [
+    "Physics/Fluid Dynamics"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "e4ToqYDJm8tbDxQ8_2NGZ_gZLuCLt0SbLCQP7buynjU",
+  "pdfSize": "1917062"
+}

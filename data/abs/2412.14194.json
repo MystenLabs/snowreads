@@ -1,0 +1,86 @@
+{
+  "id": "2412.14194",
+  "title": "Detecting Cognitive Impairment and Psychological Well-being among Older\n  Adults Using Facial, Acoustic, Linguistic, and Cardiovascular Patterns\n  Derived from Remote Conversations",
+  "authors": "Xiaofan Mu, Salman Seyedi, Iris Zheng, Zifan Jiang, Liu Chen, Bolaji\n  Omofojoye, Rachel Hershenberg, Allan I. Levey, Gari D. Clifford, Hiroko H.\n  Dodge, Hyeokhyen Kwon",
+  "authorsParsed": [
+    [
+      "Mu",
+      "Xiaofan",
+      ""
+    ],
+    [
+      "Seyedi",
+      "Salman",
+      ""
+    ],
+    [
+      "Zheng",
+      "Iris",
+      ""
+    ],
+    [
+      "Jiang",
+      "Zifan",
+      ""
+    ],
+    [
+      "Chen",
+      "Liu",
+      ""
+    ],
+    [
+      "Omofojoye",
+      "Bolaji",
+      ""
+    ],
+    [
+      "Hershenberg",
+      "Rachel",
+      ""
+    ],
+    [
+      "Levey",
+      "Allan I.",
+      ""
+    ],
+    [
+      "Clifford",
+      "Gari D.",
+      ""
+    ],
+    [
+      "Dodge",
+      "Hiroko H.",
+      ""
+    ],
+    [
+      "Kwon",
+      "Hyeokhyen",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 12 Dec 2024 23:42:46 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Mon, 23 Dec 2024 02:46:17 GMT"
+    },
+    {
+      "version": "v3",
+      "created": "Thu, 9 Jan 2025 20:16:41 GMT"
+    }
+  ],
+  "updateDate": "2025-01-13",
+  "timestamp": 1734046966000,
+  "abstract": "  The aging society urgently requires scalable methods to monitor cognitive\ndecline and identify social and psychological factors indicative of dementia\nrisk in older adults. Our machine learning (ML) models captured facial,\nacoustic, linguistic, and cardiovascular features from 39 individuals with\nnormal cognition or Mild Cognitive Impairment derived from remote video\nconversations and classified cognitive status, social isolation, neuroticism,\nand psychological well-being. Our model could distinguish Clinical Dementia\nRating Scale (CDR) of 0.5 (vs. 0) with 0.78 area under the receiver operating\ncharacteristic curve (AUC), social isolation with 0.75 AUC, neuroticism with\n0.71 AUC, and negative affect scales with 0.79 AUC. Recent advances in machine\nlearning offer new opportunities to remotely detect cognitive impairment and\nassess associated factors, such as neuroticism and psychological well-being.\nOur experiment showed that speech and language patterns were more useful for\nquantifying cognitive impairment, whereas facial expression and cardiovascular\npatterns using photoplethysmography (PPG) were more useful for quantifying\npersonality and psychological well-being.\n",
+  "subjects": [
+    "Computer Science/Human-Computer Interaction",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "bcivAjSlceVFUHxbgriYNUqF7tb1evNrNkTn8TK1IUs",
+  "pdfSize": "746643"
+}

@@ -1,0 +1,37 @@
+{
+  "id": "2412.12037",
+  "title": "Rate-Splitting Multiple Access for Integrated Sensing and\n  Communications: A First Experimental Study",
+  "authors": "Xinze Lyu, Sundar Aditya and Bruno Clerckx",
+  "authorsParsed": [
+    [
+      "Lyu",
+      "Xinze",
+      ""
+    ],
+    [
+      "Aditya",
+      "Sundar",
+      ""
+    ],
+    [
+      "Clerckx",
+      "Bruno",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 16 Dec 2024 18:03:30 GMT"
+    }
+  ],
+  "updateDate": "2024-12-17",
+  "timestamp": 1734372210000,
+  "abstract": "  A canonical use case of Integrated Sensing and Communications (ISAC) in\nmultiple-input multiple-output (MIMO) systems involves a multi-antenna\ntransmitter communicating with $K$ users and sensing targets in its vicinity.\nFor this setup, precoder and multiple access designs are of utmost importance,\nas the limited transmit power budget must be efficiently directed towards the\ndesired directions (users and targets) to maximize both communications and\nsensing performance. This problem has been widely investigated analytically\nunder various design choices, in particular (a) whether or not a dedicated\nsensing signal is needed, and (b) for different MIMO multiple access\ntechniques, such as Space Division Multiple Access (SDMA) and Rate-Splitting\nMultiple Access (RSMA). However, a conclusive answer on which design choice\nachieves the best ISAC performance, backed by experimental results, remains\nelusive. We address this vacuum by experimentally evaluating and comparing RSMA\nand SDMA for communicating with two users $(K = 2)$ and sensing (ranging) one\ntarget. Over three scenarios that are representative of \\emph{vehicular} ISAC,\ncovering different levels of inter-user interference and separation/integration\nbetween sensing and communications, we show that RSMA without a dedicated\nsensing signal achieves better ISAC performance -- i.e., higher sum throughput\n(upto $50\\%$ peak throughput gain) for similar radar SNR (between $20$ to\n$24{\\rm dB}$) -- than SDMA with a dedicated sensing signal. This first-ever\nexperimental study of RSMA ISAC demonstrates the feasibility and the\nsuperiority of RSMA for future multi-functional wireless systems.\n",
+  "subjects": [
+    "Electrical Engineering and Systems Science/Signal Processing"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "IgzqhYlVRB5XoniRM5kllu5fQB3SM4xS5oqPsS0CpKo",
+  "pdfSize": "6769684"
+}

@@ -1,0 +1,47 @@
+{
+  "id": "2412.12278",
+  "title": "Towards a Universal Synthetic Video Detector: From Face or Background\n  Manipulations to Fully AI-Generated Content",
+  "authors": "Rohit Kundu, Hao Xiong, Vishal Mohanty, Athula Balachandran, Amit K.\n  Roy-Chowdhury",
+  "authorsParsed": [
+    [
+      "Kundu",
+      "Rohit",
+      ""
+    ],
+    [
+      "Xiong",
+      "Hao",
+      ""
+    ],
+    [
+      "Mohanty",
+      "Vishal",
+      ""
+    ],
+    [
+      "Balachandran",
+      "Athula",
+      ""
+    ],
+    [
+      "Roy-Chowdhury",
+      "Amit K.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 16 Dec 2024 19:00:19 GMT"
+    }
+  ],
+  "updateDate": "2024-12-18",
+  "timestamp": 1734375619000,
+  "abstract": "  Existing DeepFake detection techniques primarily focus on facial\nmanipulations, such as face-swapping or lip-syncing. However, advancements in\ntext-to-video (T2V) and image-to-video (I2V) generative models now allow fully\nAI-generated synthetic content and seamless background alterations, challenging\nface-centric detection methods and demanding more versatile approaches.\n  To address this, we introduce the \\underline{U}niversal \\underline{N}etwork\nfor \\underline{I}dentifying \\underline{T}ampered and synth\\underline{E}tic\nvideos (\\texttt{UNITE}) model, which, unlike traditional detectors, captures\nfull-frame manipulations. \\texttt{UNITE} extends detection capabilities to\nscenarios without faces, non-human subjects, and complex background\nmodifications. It leverages a transformer-based architecture that processes\ndomain-agnostic features extracted from videos via the SigLIP-So400M foundation\nmodel. Given limited datasets encompassing both facial/background alterations\nand T2V/I2V content, we integrate task-irrelevant data alongside standard\nDeepFake datasets in training. We further mitigate the model's tendency to\nover-focus on faces by incorporating an attention-diversity (AD) loss, which\npromotes diverse spatial attention across video frames. Combining AD loss with\ncross-entropy improves detection performance across varied contexts.\nComparative evaluations demonstrate that \\texttt{UNITE} outperforms\nstate-of-the-art detectors on datasets (in cross-data settings) featuring\nface/background manipulations and fully synthetic T2V/I2V videos, showcasing\nits adaptability and generalizable detection capabilities.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "I-wTUMtB7KKRuel6F-N1f3O8M_IjYk3KG1i9rptP07c",
+  "pdfSize": "8005266"
+}

@@ -1,0 +1,49 @@
+{
+  "id": "2412.21124",
+  "title": "Adaptive Batch Size Schedules for Distributed Training of Language\n  Models with Data and Model Parallelism",
+  "authors": "Tim Tsz-Kit Lau, Weijian Li, Chenwei Xu, Han Liu, Mladen Kolar",
+  "authorsParsed": [
+    [
+      "Lau",
+      "Tim Tsz-Kit",
+      ""
+    ],
+    [
+      "Li",
+      "Weijian",
+      ""
+    ],
+    [
+      "Xu",
+      "Chenwei",
+      ""
+    ],
+    [
+      "Liu",
+      "Han",
+      ""
+    ],
+    [
+      "Kolar",
+      "Mladen",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 30 Dec 2024 17:55:28 GMT"
+    }
+  ],
+  "updateDate": "2024-12-31",
+  "timestamp": 1735581328000,
+  "abstract": "  An appropriate choice of batch sizes in large-scale model training is\ncrucial, yet it involves an intrinsic yet inevitable dilemma: large-batch\ntraining improves training efficiency in terms of memory utilization, while\ngeneralization performance often deteriorates due to small amounts of gradient\nnoise. Despite this dilemma, the common practice of choosing batch sizes in\nlanguage model training often prioritizes training efficiency -- employing\neither constant large sizes with data parallelism or implementing batch size\nwarmup schedules. However, such batch size schedule designs remain heuristic\nand often fail to adapt to training dynamics, presenting the challenge of\ndesigning adaptive batch size schedules. Given the abundance of available\ndatasets and the data-hungry nature of language models, data parallelism has\nbecome an indispensable distributed training paradigm, enabling the use of\nlarger batch sizes for gradient computation. However, vanilla data parallelism\nrequires replicas of model parameters, gradients, and optimizer states at each\nworker, which prohibits training larger models with billions of parameters. To\noptimize memory usage, more advanced parallelism strategies must be employed.\nIn this work, we propose general-purpose and theoretically principled adaptive\nbatch size schedules compatible with data parallelism and model parallelism. We\ndevelop a practical implementation with PyTorch Fully Sharded Data Parallel,\nfacilitating the pretraining of language models of different sizes. We\nempirically demonstrate that our proposed approaches outperform constant batch\nsizes and heuristic batch size warmup schedules in the pretraining of models in\nthe Llama family, with particular focus on smaller models with up to 3 billion\nparameters. We also establish theoretical convergence guarantees for such\nadaptive batch size schedules with Adam for general smooth nonconvex\nobjectives.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Mathematics/Optimization and Control",
+    "Statistics/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "QJnjBf0_dq5WLI-Yo93PIkqZ3XALXQU4ksa3NJZreuo",
+  "pdfSize": "1070793"
+}

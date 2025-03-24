@@ -1,0 +1,46 @@
+{
+  "id": "2412.04910",
+  "title": "Learning High-Degree Parities: The Crucial Role of the Initialization",
+  "authors": "Emmanuel Abbe, Elisabetta Cornacchia, Jan H\\k{a}z{\\l}a and Donald\n  Kougang-Yombi",
+  "authorsParsed": [
+    [
+      "Abbe",
+      "Emmanuel",
+      ""
+    ],
+    [
+      "Cornacchia",
+      "Elisabetta",
+      ""
+    ],
+    [
+      "Hązła",
+      "Jan",
+      ""
+    ],
+    [
+      "Kougang-Yombi",
+      "Donald",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 6 Dec 2024 10:05:10 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Thu, 27 Feb 2025 16:08:40 GMT"
+    }
+  ],
+  "updateDate": "2025-02-28",
+  "timestamp": 1733479510000,
+  "abstract": "  Parities have become a standard benchmark for evaluating learning algorithms.\nRecent works show that regular neural networks trained by gradient descent can\nefficiently learn degree $k$ parities on uniform inputs for constant $k$, but\nfail to do so when $k$ and $d-k$ grow with $d$ (here $d$ is the ambient\ndimension). However, the case where $k=d-O_d(1)$ (almost-full parities),\nincluding the degree $d$ parity (the full parity), has remained unsettled. This\npaper shows that for gradient descent on regular neural networks, learnability\ndepends on the initial weight distribution. On one hand, the discrete\nRademacher initialization enables efficient learning of almost-full parities,\nwhile on the other hand, its Gaussian perturbation with large enough constant\nstandard deviation $\\sigma$ prevents it. The positive result for almost-full\nparities is shown to hold up to $\\sigma=O(d^{-1})$, pointing to questions about\na sharper threshold phenomenon. Unlike statistical query (SQ) learning, where a\nsingleton function class like the full parity is trivially learnable, our\nnegative result applies to a fixed function and relies on an initial gradient\nalignment measure of potential broader relevance to neural networks learning.\n",
+  "subjects": [
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "pN7XMbuEWOuZ7UwNC3gsb9grh5ViZxN8MOBYuSYkVaY",
+  "pdfSize": "1384061"
+}

@@ -1,0 +1,37 @@
+{
+  "id": "2412.10760",
+  "title": "Fixed Order Scheduling with Deadlines",
+  "authors": "Andre Berger, Arman Rouhani, Marc Schroder",
+  "authorsParsed": [
+    [
+      "Berger",
+      "Andre",
+      ""
+    ],
+    [
+      "Rouhani",
+      "Arman",
+      ""
+    ],
+    [
+      "Schroder",
+      "Marc",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 14 Dec 2024 09:06:06 GMT"
+    }
+  ],
+  "updateDate": "2024-12-17",
+  "timestamp": 1734167166000,
+  "abstract": "  This paper studies a scheduling problem in a parallel machine setting, where\neach machine must adhere to a predetermined fixed order for processing the\njobs. Given $n$ jobs, each with processing times and deadlines, we aim to\nminimize the number of machines while ensuring deadlines are met and the fixed\norder is maintained. We show that the first-fit algorithm solves the problem\noptimally with unit processing times and is a 2-approximation in the following\nfour cases: (1) the order aligns with non-increasing slacks, (2) the order\naligns with non-decreasing slacks, (3) the order aligns with non-increasing\ndeadlines, and (4) the optimal solution uses at most 3 machines. For the\ngeneral problem we provide an $O(\\log n)$-approximation.\n",
+  "subjects": [
+    "Computer Science/Data Structures and Algorithms"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "I9NMy3_xPHaTOpa83RYBO6lWZ1uywO5T07wrYGKMz_c",
+  "pdfSize": "499677"
+}

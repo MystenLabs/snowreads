@@ -1,0 +1,37 @@
+{
+  "id": "2412.09318",
+  "title": "Benchmarking LLMs for Mimicking Child-Caregiver Language in Interaction",
+  "authors": "Jing Liu, Abdellah Fourtassi",
+  "authorsParsed": [
+    [
+      "Liu",
+      "Jing",
+      ""
+    ],
+    [
+      "Fourtassi",
+      "Abdellah",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 12 Dec 2024 14:43:03 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Fri, 13 Dec 2024 09:30:36 GMT"
+    }
+  ],
+  "updateDate": "2024-12-16",
+  "timestamp": 1734014583000,
+  "abstract": "  LLMs can generate human-like dialogues, yet their ability to simulate early\nchild-adult interactions remains largely unexplored. In this paper, we examined\nhow effectively LLMs can capture the distinctive features of child-caregiver\nlanguage in interaction, using both static and interactive benchmarking\nmethods. We found that state-of-the-art LLMs like Llama 3 and GPT-4o can\napproximate child-caregiver dialogues at the word and utterance level, but they\nstruggle to reproduce the child and caregiver's discursive patterns, exaggerate\nalignment, and fail to reach the level of diversity shown by humans. The\nbroader goal of this work is to initiate the development of a comprehensive\nbenchmark for LLMs in child-oriented applications.\n",
+  "subjects": [
+    "Computer Science/Computation and Language",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "mHlmgza9pbACDjwfY8OoDaUu4aaq4lzHZNoplTZ6fRE",
+  "pdfSize": "1266003"
+}

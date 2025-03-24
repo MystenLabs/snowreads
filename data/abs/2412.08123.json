@@ -1,0 +1,47 @@
+{
+  "id": "2412.08123",
+  "title": "The robustness of entanglement in non-Hermitian cavity optomechanical\n  system even away from exceptional points",
+  "authors": "Jia-Jia Wang, Yu-Hong He, Chang-Geng Liao, Rong-Xin Chen, and Jacob A.\n  Dunningham",
+  "authorsParsed": [
+    [
+      "Wang",
+      "Jia-Jia",
+      ""
+    ],
+    [
+      "He",
+      "Yu-Hong",
+      ""
+    ],
+    [
+      "Liao",
+      "Chang-Geng",
+      ""
+    ],
+    [
+      "Chen",
+      "Rong-Xin",
+      ""
+    ],
+    [
+      "Dunningham",
+      "Jacob A.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 11 Dec 2024 06:18:05 GMT"
+    }
+  ],
+  "updateDate": "2024-12-12",
+  "timestamp": 1733897885000,
+  "abstract": "  Quantum physics can be extended into the complex domain by considering\nnon-Hermitian Hamiltonians that are $\\mathcal{PT}$-symmetric. These exhibit\nexceptional points (EPs) where the eigenspectrum changes from purely real to\npurely imaginary values and have useful properties enabling applications such\nas accelerated entanglement generation and the delay of the sudden death of\nentanglement in noisy systems. An interesting question is whether similar\nbeneficial effects can be achieved away from EPs, since this would extend the\navailable parameter space and make experiments more accessible. We investigate\nthis by considering the more general case of pseudo-Hermitian Hamiltonians\nwhere two-mode squeezing interactions are incorporated into a\n$\\mathcal{PT}$-symmetric optomechanical system. The addition of squeezing is\nmotivated by an attempt to extend the lifetime of the system's entanglement. We\nderive analytic expressions for the entanglement dynamics under noise-free\nconditions and present numerical simulations that include the effects of noise.\nAlthough we find that the two-mode squeezing interactions do not generally\npreserve the initial entanglement, rich dynamics are observed in both the\npseudo-Hermitian and $\\mathcal{PT}$-symmetric cases, including the sudden death\nand revival of entanglement under certain conditions. We find that the sudden\ndisappearance of entanglement can be mitigated at EPs (similar to\n$\\mathcal{PT}$-symmetric systems) but also show that the revival of\nentanglement is quite robust to thermal noise in a group of parameters away\nfrom the EPs. Our study extends our understanding of non-Hermitian systems and\nopens a new perspective for the development of quantum devices in non-Hermitian\nsystems even away from EPs.\n",
+  "subjects": [
+    "Physics/Quantum Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "Mwhp2uOnhDNsybJphrMejkC-I3ursNrN0tPs-7YosM4",
+  "pdfSize": "1007680"
+}

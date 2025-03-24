@@ -1,0 +1,36 @@
+{
+  "id": "2412.04047",
+  "title": "Pathwise optimization for bridge-type estimators and its applications",
+  "authors": "Alessandro De Gregorio, Francesco Iafrate",
+  "authorsParsed": [
+    [
+      "De Gregorio",
+      "Alessandro",
+      ""
+    ],
+    [
+      "Iafrate",
+      "Francesco",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 5 Dec 2024 10:38:29 GMT"
+    }
+  ],
+  "updateDate": "2024-12-06",
+  "timestamp": 1733395109000,
+  "abstract": "  Sparse parametric models are of great interest in statistical learning and\nare often analyzed by means of regularized estimators. Pathwise methods allow\nto efficiently compute the full solution path for penalized estimators, for any\npossible value of the penalization parameter $\\lambda$. In this paper we deal\nwith the pathwise optimization for bridge-type problems; i.e. we are interested\nin the minimization of a loss function, such as negative log-likelihood or\nresidual sum of squares, plus the sum of $\\ell^q$ norms with $q\\in(0,1]$\ninvolving adpative coefficients. For some loss functions this regularization\nachieves asymptotically the oracle properties (such as the selection\nconsistency). Nevertheless, since the objective function involves nonconvex and\nnondifferentiable terms, the minimization problem is computationally\nchallenging.\n  The aim of this paper is to apply some general algorithms, arising from\nnonconvex optimization theory, to compute efficiently the path solutions for\nthe adaptive bridge estimator with multiple penalties. In particular, we take\ninto account two different approaches: accelerated proximal gradient descent\nand blockwise alternating optimization. The convergence and the path\nconsistency of these algorithms are discussed. In order to assess our methods,\nwe apply these algorithms to the penalized estimation of diffusion processes\nobserved at discrete times. This latter represents a recent research topic in\nthe field of statistics for time-dependent data.\n",
+  "subjects": [
+    "Statistics/Machine Learning",
+    "Computer Science/Machine Learning",
+    "Mathematics/Statistics Theory",
+    "Statistics/Computation",
+    "Statistics/Statistics Theory"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "TfVzdqlKVyGAw4CFobQgy3YJCoT4hzcDcKWQarhxTaM",
+  "pdfSize": "921851"
+}

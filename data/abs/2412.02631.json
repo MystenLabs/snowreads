@@ -1,0 +1,43 @@
+{
+  "id": "2412.02631",
+  "title": "Sharp-It: A Multi-view to Multi-view Diffusion Model for 3D Synthesis\n  and Manipulation",
+  "authors": "Yiftach Edelstein, Or Patashnik, Dana Cohen-Bar, Lihi Zelnik-Manor",
+  "authorsParsed": [
+    [
+      "Edelstein",
+      "Yiftach",
+      ""
+    ],
+    [
+      "Patashnik",
+      "Or",
+      ""
+    ],
+    [
+      "Cohen-Bar",
+      "Dana",
+      ""
+    ],
+    [
+      "Zelnik-Manor",
+      "Lihi",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 3 Dec 2024 17:58:07 GMT"
+    }
+  ],
+  "updateDate": "2024-12-04",
+  "timestamp": 1733248687000,
+  "abstract": "  Advancements in text-to-image diffusion models have led to significant\nprogress in fast 3D content creation. One common approach is to generate a set\nof multi-view images of an object, and then reconstruct it into a 3D model.\nHowever, this approach bypasses the use of a native 3D representation of the\nobject and is hence prone to geometric artifacts and limited in controllability\nand manipulation capabilities. An alternative approach involves native 3D\ngenerative models that directly produce 3D representations. These models,\nhowever, are typically limited in their resolution, resulting in lower quality\n3D objects. In this work, we bridge the quality gap between methods that\ndirectly generate 3D representations and ones that reconstruct 3D objects from\nmulti-view images. We introduce a multi-view to multi-view diffusion model\ncalled Sharp-It, which takes a 3D consistent set of multi-view images rendered\nfrom a low-quality object and enriches its geometric details and texture. The\ndiffusion model operates on the multi-view set in parallel, in the sense that\nit shares features across the generated views. A high-quality 3D model can then\nbe reconstructed from the enriched multi-view set. By leveraging the advantages\nof both 2D and 3D approaches, our method offers an efficient and controllable\nmethod for high-quality 3D content creation. We demonstrate that Sharp-It\nenables various 3D applications, such as fast synthesis, editing, and\ncontrolled generation, while attaining high-quality assets.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "ZvQgiTiNbuiAD_HnsIm05fcSaYunRWjyiqyQlGXeTp8",
+  "pdfSize": "7417846"
+}

@@ -1,0 +1,51 @@
+{
+  "id": "2412.04060",
+  "title": "Expand Heterogeneous Learning Systems with Selective Multi-Source\n  Knowledge Fusion",
+  "authors": "Gaole Dai, Huatao Xu, Yifan Yang, Rui Tan, Mo Li",
+  "authorsParsed": [
+    [
+      "Dai",
+      "Gaole",
+      ""
+    ],
+    [
+      "Xu",
+      "Huatao",
+      ""
+    ],
+    [
+      "Yang",
+      "Yifan",
+      ""
+    ],
+    [
+      "Tan",
+      "Rui",
+      ""
+    ],
+    [
+      "Li",
+      "Mo",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 5 Dec 2024 10:55:54 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Fri, 7 Feb 2025 03:21:45 GMT"
+    }
+  ],
+  "updateDate": "2025-02-10",
+  "timestamp": 1733396154000,
+  "abstract": "  Expanding existing learning systems to provide high-quality customized models\nfor more domains, such as new users, is challenged by the limited labeled data\nand the data and device heterogeneities. While knowledge distillation methods\ncould overcome label scarcity and device heterogeneity, they assume the\nteachers are fully reliable and overlook the data heterogeneity, which prevents\nthe direct adoption of existing models. To address this problem, this paper\nproposes a framework, HaT, to expand learning systems. It first selects\nmultiple high-quality models from the system at a low cost and then fuses their\nknowledge by assigning sample-wise weights to their predictions. Later, the\nfused knowledge is selectively injected into the customized models based on the\nknowledge quality. Extensive experiments on different tasks, modalities, and\nsettings show that HaT outperforms state-of-the-art baselines by up to 16.5%\naccuracy and saves up to 39% communication traffic.\n",
+  "subjects": [
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "ujooKPEnKCCVgTMP4HxBjdkK6OIc4HVD110gnuGDkyc",
+  "pdfSize": "1159197"
+}

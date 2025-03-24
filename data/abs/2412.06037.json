@@ -1,0 +1,39 @@
+{
+  "id": "2412.06037",
+  "title": "The emergence of chaos in population game dynamics induced by\n  comparisons",
+  "authors": "Jakub Bielawski, {\\L}ukasz Cholewa, Fryderyk Falniowski",
+  "authorsParsed": [
+    [
+      "Bielawski",
+      "Jakub",
+      ""
+    ],
+    [
+      "Cholewa",
+      "Łukasz",
+      ""
+    ],
+    [
+      "Falniowski",
+      "Fryderyk",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 8 Dec 2024 19:21:47 GMT"
+    }
+  ],
+  "updateDate": "2024-12-10",
+  "timestamp": 1733685707000,
+  "abstract": "  Precise description of population game dynamics introduced by revision\nprotocols - an economic model describing the agent's propensity to switch to a\nbetter-performing strategy - is of importance in economics and social sciences\nin general. In this setting innovation or imitation of others is the force\nwhich drives the evolution of the economic system. As the continuous-time game\ndynamics is relatively well understood, the same cannot be said about revision\ndriven dynamics in the discrete time. We investigate the behavior of agents in\na $2\\times 2$ anti-coordination game with symmetric random matching and a\nunique mixed Nash equilibrium. In continuous time the Nash equilibrium is\nattracting and induces a global evolutionary stable state. We show that in the\ndiscrete time one can construct (either innovative or imitative) revision\nprotocol and choose a level of the time step, under which the game dynamics is\nLi-Yorke chaotic, inducing complex and unpredictable behavior of the system,\nprecluding stable predictions of equilibrium. Moreover, we reveal that this\nunpredictability is encoded into any imitative revision protocol. Furthermore,\nwe show that for any such game there exists a perturbed pairwise proportional\nimitation protocol introducing chaotic behavior of the agents for sufficiently\nlarge time step.\n",
+  "subjects": [
+    "Mathematics/Dynamical Systems",
+    "Computer Science/Computer Science and Game Theory",
+    "Economics/Theoretical Economics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "Y6L7Zwb9AjVhiUdXAebAT-RrYbTV04qwjNZcmIGySe8",
+  "pdfSize": "1430283"
+}

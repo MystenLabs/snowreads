@@ -1,0 +1,42 @@
+{
+  "id": "2412.12255",
+  "title": "Toolkit for General 2d Scalar Potential in LCT",
+  "authors": "A. Liam Fitzpatrick, Emanuel Katz, Yuan Xin",
+  "authorsParsed": [
+    [
+      "Fitzpatrick",
+      "A. Liam",
+      ""
+    ],
+    [
+      "Katz",
+      "Emanuel",
+      ""
+    ],
+    [
+      "Xin",
+      "Yuan",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 16 Dec 2024 19:00:01 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Thu, 27 Feb 2025 18:46:52 GMT"
+    }
+  ],
+  "updateDate": "2025-02-28",
+  "timestamp": 1734375601000,
+  "abstract": "  We present efficient algorithms for obtaining the Hamiltonian in Lightcone\nConformal Truncation (LCT) for a 2d scalar field with a generic potential. We\napply this method to the sine-Gordon and sinh-Gordon models in $1+1d$, and find\nprecise agreement with integrability results when the scaling dimension\n$\\Delta$ of the deforming cosine/cosinh potential is in the range $ \\Delta \\leq\n1$. The agreement provides additional evidence for a recent conjecture for how\nto compute the effective lightcone Hamiltonian in this class of models. In\naddition, to high precision, we provide the first direct confirmation for the\nconjectured self-duality of the sinh-Gordon model ($\\Delta < 0)$, which relates\n$\\Delta \\leftrightarrow 4/\\Delta$. As the dimension approaches the upper limit\n$\\Delta=1$ from below, we show analytically that the Hamiltonian matrix\nelements exactly reproduce those of a free Majorana fermion, demonstrating how\nbosonization is manifested in the LCT basis. We comment on the possible\nextension of the approach to $\\Delta > 1$.\n",
+  "subjects": [
+    "Physics/High Energy Physics - Theory",
+    "Condensed Matter/Statistical Mechanics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "HTbSNWnRtLJRfxmR1GCE8p2Ed545eRl6g2vs0QzbQK4",
+  "pdfSize": "1381091"
+}

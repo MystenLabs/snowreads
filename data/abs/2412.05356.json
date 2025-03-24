@@ -1,0 +1,58 @@
+{
+  "id": "2412.05356",
+  "title": "The Mass Distribution of Stars Stripped in Binaries: The Effect of\n  Metallicity",
+  "authors": "B. Hovis-Afflerbach, Y. G\\\"otberg, A. Schootemeijer, J. Klencki, A. L.\n  Strom, B. A. Ludwig, M. R. Drout",
+  "authorsParsed": [
+    [
+      "Hovis-Afflerbach",
+      "B.",
+      ""
+    ],
+    [
+      "Götberg",
+      "Y.",
+      ""
+    ],
+    [
+      "Schootemeijer",
+      "A.",
+      ""
+    ],
+    [
+      "Klencki",
+      "J.",
+      ""
+    ],
+    [
+      "Strom",
+      "A. L.",
+      ""
+    ],
+    [
+      "Ludwig",
+      "B. A.",
+      ""
+    ],
+    [
+      "Drout",
+      "M. R.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 6 Dec 2024 19:00:00 GMT"
+    }
+  ],
+  "updateDate": "2024-12-10",
+  "timestamp": 1733511600000,
+  "abstract": "  Stars stripped of their hydrogen-rich envelopes through binary interaction\nare thought to be responsible for both hydrogen-poor supernovae and the hard\nionizing radiation observed in low-$Z$ galaxies. A population of these stars\nwas recently observed for the first time, but their prevalence remains unknown.\nIn preparation for such measurements, we estimate the mass distribution of hot,\nstripped stars using a population synthesis code that interpolates over\ndetailed single and binary stellar evolution tracks. We predict that for a\nconstant star-formation rate of $1 \\,M_\\odot$/yr and regardless of metallicity,\na population contains $\\sim$30,000 stripped stars with mass $M_{\\rm\nstrip}>1M_\\odot$ and $\\sim$4,000 stripped stars that are sufficiently massive\nto explode ($M_{\\rm strip}>2.6M_\\odot$). Below $M_{\\rm strip}=5M_\\odot$, the\ndistribution is metallicity-independent and can be described by a power law\nwith the exponent $\\alpha \\sim -2$. At higher masses and lower metallicity ($Z\n\\lesssim 0.002$), the mass distribution exhibits a drop. This originates from\nthe prediction, frequently seen in evolutionary models, that massive\nlow-metallicity stars do not expand substantially until central helium burning\nor later and therefore cannot form long-lived stripped stars. With weaker\nline-driven winds at low metallicity, this suggests that neither binary\ninteraction nor wind mass loss can efficiently strip massive stars at low\nmetallicity. As a result, a \"helium-star desert\" emerges around $M_{\\rm strip}\n=15\\, M_\\odot$ at $Z=0.002$, covering an increasingly large mass range with\ndecreasing metallicity. We note that these high-mass stars are those that\npotentially boost a galaxy's He$^+$-ionizing radiation and that participate in\nthe formation of merging black holes. This \"helium-star desert\" therefore\nmerits further study.\n",
+  "subjects": [
+    "Astrophysics/Solar and Stellar Astrophysics",
+    "Astrophysics/Astrophysics of Galaxies"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "mGnkXB8_kSc1oDxvp-r4a7eJydPVIpxtSzy8px4mst8",
+  "pdfSize": "4740021"
+}

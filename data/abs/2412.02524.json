@@ -1,0 +1,42 @@
+{
+  "id": "2412.02524",
+  "title": "General Resetting Theory for Group Avoidance",
+  "authors": "Juhee Lee, Seong-Gyu Yang, Hye Jin Park, Ludvig Lizana",
+  "authorsParsed": [
+    [
+      "Lee",
+      "Juhee",
+      ""
+    ],
+    [
+      "Yang",
+      "Seong-Gyu",
+      ""
+    ],
+    [
+      "Park",
+      "Hye Jin",
+      ""
+    ],
+    [
+      "Lizana",
+      "Ludvig",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 3 Dec 2024 16:18:24 GMT"
+    }
+  ],
+  "updateDate": "2024-12-04",
+  "timestamp": 1733242704000,
+  "abstract": "  We present a general theoretical framework for group resetting dynamics in\nmulti-agent systems in a drift potential. This setup contrasts with a typical\nresetting problem that involves a single searcher looking for a target, with\nresetting traditionally studied to optimize the search time to a target. More\nrecently, resetting has also been used as a regulatory mechanism to avoid\nadverse outcomes, such as preventing critically high water levels in dams or\ndeleveraging financial portfolios. Here, we extend current resetting theories\nto group dynamics, with applications ranging from bacterial evolution under\nantibiotic pressure to multiple-searcher optimization algorithms. Our framework\nincorporates extreme value statistics and renewal theory, from which we derive\na master equation for the center of mass distribution of a group of searchers.\nThis master equation allows us to calculate essential observables analytically.\nFor example, how the group's average position depends on group size, resetting\nrates, drift potential strength, and diffusion constants. This theoretical\napproach offers a new perspective on optimizing group search and regulatory\nmechanisms through resetting.\n",
+  "subjects": [
+    "Condensed Matter/Statistical Mechanics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "cL7pbgzmgbdBoLmn-WbXAGM3evtjzKFdE9ewafC8EoM",
+  "pdfSize": "648090"
+}

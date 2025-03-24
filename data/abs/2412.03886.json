@@ -1,0 +1,33 @@
+{
+  "id": "2412.03886",
+  "title": "Uniform Discretized Integrated Gradients: An effective attribution based\n  method for explaining large language models",
+  "authors": "Swarnava Sinha Roy and Ayan Kundu",
+  "authorsParsed": [
+    [
+      "Roy",
+      "Swarnava Sinha",
+      ""
+    ],
+    [
+      "Kundu",
+      "Ayan",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 5 Dec 2024 05:39:03 GMT"
+    }
+  ],
+  "updateDate": "2024-12-06",
+  "timestamp": 1733377143000,
+  "abstract": "  Integrated Gradients is a well-known technique for explaining deep learning\nmodels. It calculates feature importance scores by employing a gradient based\napproach computing gradients of the model output with respect to input features\nand accumulating them along a linear path. While this works well for continuous\nfeatures spaces, it may not be the most optimal way to deal with discrete\nspaces like word embeddings. For interpreting LLMs (Large Language Models),\nthere exists a need for a non-linear path where intermediate points, whose\ngradients are to be computed, lie close to actual words in the embedding space.\nIn this paper, we propose a method called Uniform Discretized Integrated\nGradients (UDIG) based on a new interpolation strategy where we choose a\nfavorable nonlinear path for computing attribution scores suitable for\npredictive language models. We evaluate our method on two types of NLP tasks-\nSentiment Classification and Question Answering against three metrics viz Log\nodds, Comprehensiveness and Sufficiency. For sentiment classification, we have\nused the SST2, IMDb and Rotten Tomatoes datasets for benchmarking and for\nQuestion Answering, we have used the fine-tuned BERT model on SQuAD dataset.\nOur approach outperforms the existing methods in almost all the metrics.\n",
+  "subjects": [
+    "Computer Science/Computation and Language",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "6MTDSZQ0WDoP9hpseKcqJRtOXqCVYPABGR5Y2QespAk",
+  "pdfSize": "1461410"
+}

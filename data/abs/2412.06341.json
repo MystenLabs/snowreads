@@ -1,0 +1,43 @@
+{
+  "id": "2412.06341",
+  "title": "Elastic-DETR: Making Image Resolution Learnable with Content-Specific\n  Network Prediction",
+  "authors": "Daeun Seo, Hoeseok Yang, Sihyeong Park, Hyungshin Kim",
+  "authorsParsed": [
+    [
+      "Seo",
+      "Daeun",
+      ""
+    ],
+    [
+      "Yang",
+      "Hoeseok",
+      ""
+    ],
+    [
+      "Park",
+      "Sihyeong",
+      ""
+    ],
+    [
+      "Kim",
+      "Hyungshin",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 9 Dec 2024 09:46:21 GMT"
+    }
+  ],
+  "updateDate": "2024-12-10",
+  "timestamp": 1733737581000,
+  "abstract": "  Multi-scale image resolution is a de facto standard approach in modern object\ndetectors, such as DETR. This technique allows for the acquisition of various\nscale information from multiple image resolutions. However, manual\nhyperparameter selection of the resolution can restrict its flexibility, which\nis informed by prior knowledge, necessitating human intervention. This work\nintroduces a novel strategy for learnable resolution, called Elastic-DETR,\nenabling elastic utilization of multiple image resolutions. Our network\nprovides an adaptive scale factor based on the content of the image with a\ncompact scale prediction module (< 2 GFLOPs). The key aspect of our method lies\nin how to determine the resolution without prior knowledge. We present two loss\nfunctions derived from identified key components for resolution optimization:\nscale loss, which increases adaptiveness according to the image, and\ndistribution loss, which determines the overall degree of scaling based on\nnetwork performance. By leveraging the resolution's flexibility, we can\ndemonstrate various models that exhibit varying trade-offs between accuracy and\ncomputational complexity. We empirically show that our scheme can unleash the\npotential of a wide spectrum of image resolutions without constraining\nflexibility. Our models on MS COCO establish a maximum accuracy gain of 3.5%p\nor 26% decrease in computation than MS-trained DN-DETR.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "gphrcmZ8g8NPyQ7P9yP7CUEgoC7B8A5Vb2Kw0fv0_k8",
+  "pdfSize": "5566046"
+}

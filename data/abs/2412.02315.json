@@ -1,0 +1,33 @@
+{
+  "id": "2412.02315",
+  "title": "Topology Reconstruction of a Resistor Network with Limited Boundary\n  Measurements: An Optimization Approach",
+  "authors": "Shivanagouda Biradar, Deepak U Patil",
+  "authorsParsed": [
+    [
+      "Biradar",
+      "Shivanagouda",
+      ""
+    ],
+    [
+      "Patil",
+      "Deepak U",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 3 Dec 2024 09:31:36 GMT"
+    }
+  ],
+  "updateDate": "2024-12-04",
+  "timestamp": 1733218296000,
+  "abstract": "  A problem of reconstruction of the topology and the respective edge\nresistance values of an unknown circular planar passive resistive network using\nlimitedly available resistance distance measurements is considered. We develop\na multistage topology reconstruction method, assuming that the number of\nboundary and interior nodes, the maximum and minimum edge conductance, and the\nKirchhoff index are known apriori. First, a maximal circular planar electrical\nnetwork consisting of edges with resistors and switches is constructed; no\ninterior nodes are considered. A sparse difference in convex program\n$\\mathbf{\\Pi}_1$ accompanied by round down algorithm is posed to determine the\nswitch positions. The solution gives us a topology that is then utilized to\ndevelop a heuristic method to place the interior nodes. The heuristic method\nconsists of reformulating $\\mathbf{\\Pi}_1$ as a difference of convex program\n$\\mathbf{\\Pi}_2$ with relaxed edge weight constraints and the quadratic cost.\nThe interior node placement thus obtained may lead to a non-planar topology. We\nthen use the modified Auslander, Parter, and Goldstein algorithm to obtain a\nset of planar network topologies and re-optimize the edge weights by solving\n$\\mathbf{\\Pi}_3$ for each topology. Optimization problems posed are difference\nof convex programming problem, as a consequence of constraints triangle\ninequality and the Kalmansons inequality. A numerical example is used to\ndemonstrate the proposed method.\n",
+  "subjects": [
+    "Electrical Engineering and Systems Science/Systems and Control",
+    "Computer Science/Systems and Control"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "t0XGaA5txwwWD1xWn5W7wdUdGhaxiLhpdfILgLouYmo",
+  "pdfSize": "20256199"
+}

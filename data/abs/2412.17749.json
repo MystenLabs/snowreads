@@ -1,0 +1,33 @@
+{
+  "id": "2412.17749",
+  "title": "Bivariate Matrix-valued Linear Regression (BMLR): Finite-sample\n  performance under Identifiability and Sparsity Assumptions",
+  "authors": "Nayel Bettache",
+  "authorsParsed": [
+    [
+      "Bettache",
+      "Nayel",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 23 Dec 2024 18:03:34 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Tue, 24 Dec 2024 12:58:39 GMT"
+    }
+  ],
+  "updateDate": "2024-12-25",
+  "timestamp": 1734977014000,
+  "abstract": "  This study explores the estimation of parameters in a matrix-valued linear\nregression model, where the $T$ responses $(Y_t)_{t=1}^T \\in \\mathbb{R}^{n\n\\times p}$ and predictors $(X_t)_{t=1}^T \\in \\mathbb{R}^{m \\times q}$ satisfy\nthe relationship $Y_t = A^* X_t B^* + E_t$ for all $t = 1, \\ldots, T$. In this\nmodel, $A^* \\in \\mathbb{R}_+^{n \\times m}$ has $L_1$-normalized rows, $B^* \\in\n\\mathbb{R}^{q \\times p}$, and $(E_t)_{t=1}^T$ are independent noise matrices\nfollowing a matrix Gaussian distribution. The primary objective is to estimate\nthe unknown parameters $A^*$ and $B^*$ efficiently.\n  We propose explicit optimization-free estimators and establish non-asymptotic\nconvergence rates to quantify their performance. Additionally, we extend our\nanalysis to scenarios where $A^*$ and $B^*$ exhibit sparse structures. To\nsupport our theoretical findings, we conduct numerical simulations that confirm\nthe behavior of the estimators, particularly with respect to the impact of the\ndimensions $n, m, p, q$, and the sample size $T$ on finite-sample performances.\nWe complete the simulations by investigating the denoising performances of our\nestimators on noisy real-world images.\n",
+  "subjects": [
+    "Mathematics/Statistics Theory",
+    "Statistics/Machine Learning",
+    "Statistics/Statistics Theory"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "3ssy7Aqgg9-_sKQOFPnAtq7AAmNUKFC6LPGtaKJ23Po",
+  "pdfSize": "1442775"
+}

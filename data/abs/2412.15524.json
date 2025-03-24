@@ -1,0 +1,43 @@
+{
+  "id": "2412.15524",
+  "title": "HREF: Human Response-Guided Evaluation of Instruction Following in\n  Language Models",
+  "authors": "Xinxi Lyu, Yizhong Wang, Hannaneh Hajishirzi, Pradeep Dasigi",
+  "authorsParsed": [
+    [
+      "Lyu",
+      "Xinxi",
+      ""
+    ],
+    [
+      "Wang",
+      "Yizhong",
+      ""
+    ],
+    [
+      "Hajishirzi",
+      "Hannaneh",
+      ""
+    ],
+    [
+      "Dasigi",
+      "Pradeep",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 20 Dec 2024 03:26:47 GMT"
+    }
+  ],
+  "updateDate": "2024-12-23",
+  "timestamp": 1734665207000,
+  "abstract": "  Evaluating the capability of Large Language Models (LLMs) in following\ninstructions has heavily relied on a powerful LLM as the judge, introducing\nunresolved biases that deviate the judgments from human judges. In this work,\nwe reevaluate various choices for automatic evaluation on a wide range of\ninstruction-following tasks. We experiment with methods that leverage\nhuman-written responses and observe that they enhance the reliability of\nautomatic evaluations across a wide range of tasks, resulting in up to a 3.2%\nimprovement in agreement with human judges. We also discovered that\nhuman-written responses offer an orthogonal perspective to model-generated\nresponses in following instructions and should be used as an additional context\nwhen comparing model responses. Based on these observations, we develop a new\nevaluation benchmark, Human Response-Guided Evaluation of Instruction Following\n(HREF), comprising 4,258 samples across 11 task categories with a composite\nevaluation setup, employing a composite evaluation setup that selects the most\nreliable method for each category. In addition to providing reliable\nevaluation, HREF emphasizes individual task performance and is free from\ncontamination. Finally, we study the impact of key design choices in HREF,\nincluding the size of the evaluation set, the judge model, the baseline model,\nand the prompt template. We host a live leaderboard that evaluates LLMs on the\nprivate evaluation set of HREF.\n",
+  "subjects": [
+    "Computer Science/Computation and Language",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "b2Pdh3RLbz7f0t6xt4fqVvzFtU4SphZCzGFweF6oQFM",
+  "pdfSize": "2348676"
+}

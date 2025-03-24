@@ -1,0 +1,102 @@
+{
+  "id": "2412.19864",
+  "title": "Micromegas with GEM preamplification for enhanced energy threshold in\n  low-background gaseous time projection chambers",
+  "authors": "J. Castel, S. Cebri\\'an, T. Dafni, D. D\\'iez-Ib\\'a\\~nez, J. Gal\\'an,\n  J.A. Garc\\'ia, A. Ezquerro, I.G Irastorza, G. Luz\\'on, C. Margalejo, H.\n  Mirallas, L. Obis, A. Ortiz de Sol\\'orzano, O. P\\'erez, J. Porr\\'on, M. J.\n  Puyuelo",
+  "authorsParsed": [
+    [
+      "Castel",
+      "J.",
+      ""
+    ],
+    [
+      "Cebrián",
+      "S.",
+      ""
+    ],
+    [
+      "Dafni",
+      "T.",
+      ""
+    ],
+    [
+      "Díez-Ibáñez",
+      "D.",
+      ""
+    ],
+    [
+      "Galán",
+      "J.",
+      ""
+    ],
+    [
+      "García",
+      "J. A.",
+      ""
+    ],
+    [
+      "Ezquerro",
+      "A.",
+      ""
+    ],
+    [
+      "Irastorza",
+      "I. G",
+      ""
+    ],
+    [
+      "Luzón",
+      "G.",
+      ""
+    ],
+    [
+      "Margalejo",
+      "C.",
+      ""
+    ],
+    [
+      "Mirallas",
+      "H.",
+      ""
+    ],
+    [
+      "Obis",
+      "L.",
+      ""
+    ],
+    [
+      "de Solórzano",
+      "A. Ortiz",
+      ""
+    ],
+    [
+      "Pérez",
+      "O.",
+      ""
+    ],
+    [
+      "Porrón",
+      "J.",
+      ""
+    ],
+    [
+      "Puyuelo",
+      "M. J.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 26 Dec 2024 12:41:03 GMT"
+    }
+  ],
+  "updateDate": "2024-12-31",
+  "timestamp": 1735216863000,
+  "abstract": "  Background: we develop the concept of a Micromegas (MICRO-MEsh GAseous\nStructure) readout plane with an additional GEM (Gas Electron Multiplier)\npreamplification stage placed a few mm above it, to increase the maximum\neffective gain of the combined readout. We implement it and test it in\nrealistic conditions for its application to low-background dark matter searches\nlike the TREX-DM experiment. Methods: for this, we use a Micromegas of\nmicrobulk type, built with radiopure materials. A small test chamber allowing\nfor systematic scanning of voltages and pressures is used. In addition, a\nTREX-DM full-scale set-up has also been built and tested, featuring a replica\nof the fully-patterned TREX-DM microbulk readout. Results: we report on GEM\neffective extra gain factors of about 90, 50 and 20 in 1, 4 and 10 bar of\nAr-1%iC$_{4}$H$_{10}$. Conclusions: the results here obtained show promise to\nlower the threshold of the experiment down to 50 eV$_{ee}$, corresponding to\nsubstantially enhanced sensitivity to low-mass WIMPs (Weakly Interacting\nMassive Particles).\n",
+  "subjects": [
+    "Physics/Instrumentation and Detectors"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "Sns-17IjinDiCJFN3VQggIhlVC65RVUUeXMRWllLpC8",
+  "pdfSize": "3073501"
+}

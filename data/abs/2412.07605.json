@@ -1,0 +1,42 @@
+{
+  "id": "2412.07605",
+  "title": "Fast Track to Winning Tickets: Repowering One-Shot Pruning for Graph\n  Neural Networks",
+  "authors": "Yanwei Yue, Guibin Zhang, Haoran Yang, Dawei Cheng",
+  "authorsParsed": [
+    [
+      "Yue",
+      "Yanwei",
+      ""
+    ],
+    [
+      "Zhang",
+      "Guibin",
+      ""
+    ],
+    [
+      "Yang",
+      "Haoran",
+      ""
+    ],
+    [
+      "Cheng",
+      "Dawei",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 10 Dec 2024 15:45:32 GMT"
+    }
+  ],
+  "updateDate": "2024-12-11",
+  "timestamp": 1733845532000,
+  "abstract": "  Graph Neural Networks (GNNs) demonstrate superior performance in various\ngraph learning tasks, yet their wider real-world application is hindered by the\ncomputational overhead when applied to large-scale graphs. To address the\nissue, the Graph Lottery Hypothesis (GLT) has been proposed, advocating the\nidentification of subgraphs and subnetworks, \\textit{i.e.}, winning tickets,\nwithout compromising performance. The effectiveness of current GLT methods\nlargely stems from the use of iterative magnitude pruning (IMP), which offers\nhigher stability and better performance than one-shot pruning. However,\nidentifying GLTs is highly computationally expensive, due to the iterative\npruning and retraining required by IMP. In this paper, we reevaluate the\ncorrelation between one-shot pruning and IMP: while one-shot tickets are\nsuboptimal compared to IMP, they offer a \\textit{fast track} to tickets with a\nstronger performance. We introduce a one-shot pruning and denoising framework\nto validate the efficacy of the \\textit{fast track}. Compared to current\nIMP-based GLT methods, our framework achieves a double-win situation of graph\nlottery tickets with \\textbf{higher sparsity} and \\textbf{faster speeds}.\nThrough extensive experiments across 4 backbones and 6 datasets, our method\ndemonstrates $1.32\\% - 45.62\\%$ improvement in weight sparsity and a $7.49\\% -\n22.71\\%$ increase in graph sparsity, along with a $1.7-44 \\times$ speedup over\nIMP-based methods and $95.3\\%-98.6\\%$ MAC savings.\n",
+  "subjects": [
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "kbuqGRQyxGvEvKldst9cQOzI1IdFXRahUKhBUBDSr8s",
+  "pdfSize": "3840918"
+}

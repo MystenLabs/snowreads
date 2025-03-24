@@ -1,0 +1,44 @@
+{
+  "id": "2412.02090",
+  "title": "MEP-Net: Generating Solutions to Scientific Problems with Limited\n  Knowledge by Maximum Entropy Principle",
+  "authors": "Wuyue Yang, Liangrong Peng, Guojie Li, Liu Hong",
+  "authorsParsed": [
+    [
+      "Yang",
+      "Wuyue",
+      ""
+    ],
+    [
+      "Peng",
+      "Liangrong",
+      ""
+    ],
+    [
+      "Li",
+      "Guojie",
+      ""
+    ],
+    [
+      "Hong",
+      "Liu",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 3 Dec 2024 02:21:29 GMT"
+    }
+  ],
+  "updateDate": "2024-12-04",
+  "timestamp": 1733192489000,
+  "abstract": "  Maximum entropy principle (MEP) offers an effective and unbiased approach to\ninferring unknown probability distributions when faced with incomplete\ninformation, while neural networks provide the flexibility to learn complex\ndistributions from data. This paper proposes a novel neural network\narchitecture, the MEP-Net, which combines the MEP with neural networks to\ngenerate probability distributions from moment constraints. We also provide a\ncomprehensive overview of the fundamentals of the maximum entropy principle,\nits mathematical formulations, and a rigorous justification for its\napplicability for non-equilibrium systems based on the large deviations\nprinciple. Through fruitful numerical experiments, we demonstrate that the\nMEP-Net can be particularly useful in modeling the evolution of probability\ndistributions in biochemical reaction networks and in generating complex\ndistributions from data.\n",
+  "subjects": [
+    "Statistics/Machine Learning",
+    "Computer Science/Machine Learning",
+    "Physics/Data Analysis, Statistics and Probability"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "onsmtIYh2c2pfzzXKM6NFNW8H6rz_zbt0unErPvhc2E",
+  "pdfSize": "8437231"
+}

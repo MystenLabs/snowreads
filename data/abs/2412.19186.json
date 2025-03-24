@@ -1,0 +1,28 @@
+{
+  "id": "2412.19186",
+  "title": "On optimal linear prediction",
+  "authors": "Inge S. Helland",
+  "authorsParsed": [
+    [
+      "Helland",
+      "Inge S.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 26 Dec 2024 11:50:10 GMT"
+    }
+  ],
+  "updateDate": "2024-12-30",
+  "timestamp": 1735213810000,
+  "abstract": "  The main purpose of this article is to prove that, under certain assumptions\nin a linear prediction setting, optimal methods based upon model reduction and\neven an optimal predictor can be provided. The optimality is formulated in\nterms of the expected mean square prediction error. The optimal model reduction\nturns out, under a certain assumption, to correspond to the statistical model\nfor partial least squares discussed by the author elsewhere, and under a\ncertain specific condition, the partial least squares predictors is proved to\nbe good compared to all other predictors. It is also proved in this article\nthat the situation with two different model reductions can be fit into a\nquantum mechanical setting. Thus, the article contains a synthesis of three\ncultures: mathematical statistics as a basis, algorithms introduced by\nchemometricians and used very much by applied scientists as a background, and\nfinally, notions from quantum foundation as an alternative point of view.\n",
+  "subjects": [
+    "Mathematics/Statistics Theory",
+    "Statistics/Statistics Theory"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "HFfqoS0mv5TwXyapXBXtE91JIWs0Gn2aytqHH6ASEho",
+  "pdfSize": "204039"
+}

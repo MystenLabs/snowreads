@@ -1,0 +1,42 @@
+{
+  "id": "2412.15905",
+  "title": "Vulnerability Detection in Popular Programming Languages with Language\n  Models",
+  "authors": "Syafiq Al Atiiq, Christian Gehrmann, Kevin Dahl\\'en",
+  "authorsParsed": [
+    [
+      "Atiiq",
+      "Syafiq Al",
+      ""
+    ],
+    [
+      "Gehrmann",
+      "Christian",
+      ""
+    ],
+    [
+      "Dahlén",
+      "Kevin",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 20 Dec 2024 13:57:27 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Mon, 23 Dec 2024 06:12:25 GMT"
+    }
+  ],
+  "updateDate": "2024-12-24",
+  "timestamp": 1734703047000,
+  "abstract": "  Vulnerability detection is crucial for maintaining software security, and\nrecent research has explored the use of Language Models (LMs) for this task.\nWhile LMs have shown promising results, their performance has been inconsistent\nacross datasets, particularly when generalizing to unseen code. Moreover, most\nstudies have focused on the C/C++ programming language, with limited attention\ngiven to other popular languages. This paper addresses this gap by\ninvestigating the effectiveness of LMs for vulnerability detection in\nJavaScript, Java, Python, PHP, and Go, in addition to C/C++ for comparison. We\nutilize the CVEFixes dataset to create a diverse collection of\nlanguage-specific vulnerabilities and preprocess the data to ensure quality and\nintegrity. We fine-tune and evaluate state-of-the-art LMs across the selected\nlanguages and find that the performance of vulnerability detection varies\nsignificantly. JavaScript exhibits the best performance, with considerably\nbetter and more practical detection capabilities compared to C/C++. We also\nexamine the relationship between code complexity and detection performance\nacross the six languages and find only a weak correlation between code\ncomplexity metrics and the models' F1 scores.\n",
+  "subjects": [
+    "Computer Science/Cryptography and Security",
+    "Computer Science/Software Engineering"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "WN8TNDSNr6vnlQSuvIGUohsZ6wX9RXW2U-UNB_TePqY",
+  "pdfSize": "915334"
+}

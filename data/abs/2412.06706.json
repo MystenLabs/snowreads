@@ -1,0 +1,58 @@
+{
+  "id": "2412.06706",
+  "title": "Asynchronous Agents with Perfect Recall: Model Reductions,\n  Knowledge-Based Construction, and Model Checking for Coalitional Strategies",
+  "authors": "Dilian Gurov, Filip Jamroga, Wojciech Jamroga, Mateusz Kami\\'nski,\n  Damian Kurpiewski, Wojciech Penczek, Teofil Sidoruk",
+  "authorsParsed": [
+    [
+      "Gurov",
+      "Dilian",
+      ""
+    ],
+    [
+      "Jamroga",
+      "Filip",
+      ""
+    ],
+    [
+      "Jamroga",
+      "Wojciech",
+      ""
+    ],
+    [
+      "Kamiński",
+      "Mateusz",
+      ""
+    ],
+    [
+      "Kurpiewski",
+      "Damian",
+      ""
+    ],
+    [
+      "Penczek",
+      "Wojciech",
+      ""
+    ],
+    [
+      "Sidoruk",
+      "Teofil",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 9 Dec 2024 17:54:08 GMT"
+    }
+  ],
+  "updateDate": "2024-12-10",
+  "timestamp": 1733766848000,
+  "abstract": "  Model checking of strategic abilities for agents with memory is a notoriously\nhard problem, and very few attempts have been made to tackle it. In this paper,\nwe present two important steps towards this goal. First, we take the\npartial-order reduction scheme that was recently proved to preserve individual\nand coalitional abilities of memoryless agents, and show that it also works for\nagents with memory. Secondly, we take the Knowledge-Based Subset Construction,\nthat was recently studied for synchronous concurrent games, and adapt it to\npreserve abilities of memoryful agents in asynchronous MAS.\n  On the way, we also propose a new execution semantics for strategies in\nasynchronous MAS, that combines elements of Concurrent Game Structures and\nInterleaved Interpreted Systems in a natural and intuitive way.\n",
+  "subjects": [
+    "Computer Science/Multiagent Systems",
+    "Computer Science/Logic in Computer Science"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "thUZXLEApLJPxl69khJIDB7ph94LP3jKvn8oH9O9Wvk",
+  "pdfSize": "254248"
+}

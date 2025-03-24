@@ -1,0 +1,59 @@
+{
+  "id": "2412.07801",
+  "title": "Learning to Correction: Explainable Feedback Generation for Visual\n  Commonsense Reasoning Distractor",
+  "authors": "Jiali Chen, Xusen Hei, Yuqi Xue, Yuancheng Wei, Jiayuan Xie, Yi Cai,\n  Qing Li",
+  "authorsParsed": [
+    [
+      "Chen",
+      "Jiali",
+      ""
+    ],
+    [
+      "Hei",
+      "Xusen",
+      ""
+    ],
+    [
+      "Xue",
+      "Yuqi",
+      ""
+    ],
+    [
+      "Wei",
+      "Yuancheng",
+      ""
+    ],
+    [
+      "Xie",
+      "Jiayuan",
+      ""
+    ],
+    [
+      "Cai",
+      "Yi",
+      ""
+    ],
+    [
+      "Li",
+      "Qing",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 8 Dec 2024 03:59:59 GMT"
+    }
+  ],
+  "updateDate": "2024-12-12",
+  "timestamp": 1733630399000,
+  "abstract": "  Large multimodal models (LMMs) have shown remarkable performance in the\nvisual commonsense reasoning (VCR) task, which aims to answer a multiple-choice\nquestion based on visual commonsense within an image. However, the ability of\nLMMs to correct potential visual commonsense errors in the distractor upon\ntheir occurrence is yet under-explored. Drawing inspiration from how a human\nteacher crafts challenging distractors to test students' comprehension of the\nconcepts or skills and assists them in identifying and correcting errors toward\nthe answer, we are the pioneering research for LMMs to simulate this error\ncorrection process. To this end, we employ GPT-4 as a ``teacher'' to collect\nthe explainable feedback dataset VCR-DF for error correction, which serves as a\nbenchmark to evaluate the ability of LMMs to identify misconceptions and\nclarify reasons behind the error in VCR distractors toward final answers. In\naddition, we propose an LMM-based Pedagogical Expert Instructed Feedback\nGeneration (PEIFG) model to incorporate the learnable expert prompts and\nmultimodal instruction as guidance for feedback generation. Experimental\nresults show that our PEIFG significantly outperforms existing LMMs. We believe\nthat our benchmark provides a new direction for evaluating the capabilities of\nLMMs.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Computation and Language"
+  ],
+  "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+  "blobId": "HZf_6FYv9QejqHLsCuf9_gQ5vppPtDqu2gWKbfqg3Bo",
+  "pdfSize": "1867821"
+}

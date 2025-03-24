@@ -1,0 +1,54 @@
+{
+  "id": "2412.14814",
+  "title": "Answer Set Networks: Casting Answer Set Programming into Deep Learning",
+  "authors": "Arseny Skryagin, Daniel Ochs, Phillip Deibert, Simon Kohaut, Devendra\n  Singh Dhami and Kristian Kersting",
+  "authorsParsed": [
+    [
+      "Skryagin",
+      "Arseny",
+      ""
+    ],
+    [
+      "Ochs",
+      "Daniel",
+      ""
+    ],
+    [
+      "Deibert",
+      "Phillip",
+      ""
+    ],
+    [
+      "Kohaut",
+      "Simon",
+      ""
+    ],
+    [
+      "Dhami",
+      "Devendra Singh",
+      ""
+    ],
+    [
+      "Kersting",
+      "Kristian",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 19 Dec 2024 13:09:06 GMT"
+    }
+  ],
+  "updateDate": "2024-12-20",
+  "timestamp": 1734613746000,
+  "abstract": "  Although Answer Set Programming (ASP) allows constraining neural-symbolic\n(NeSy) systems, its employment is hindered by the prohibitive costs of\ncomputing stable models and the CPU-bound nature of state-of-the-art solvers.\nTo this end, we propose Answer Set Networks (ASN), a NeSy solver. Based on\nGraph Neural Networks (GNN), ASNs are a scalable approach to ASP-based Deep\nProbabilistic Logic Programming (DPPL). Specifically, we show how to translate\nASPs into ASNs and demonstrate how ASNs can efficiently solve the encoded\nproblem by leveraging GPU's batching and parallelization capabilities. Our\nexperimental evaluations demonstrate that ASNs outperform state-of-the-art\nCPU-bound NeSy systems on multiple tasks. Simultaneously, we make the following\ntwo contributions based on the strengths of ASNs. Namely, we are the first to\nshow the finetuning of Large Language Models (LLM) with DPPLs, employing ASNs\nto guide the training with logic. Further, we show the \"constitutional\nnavigation\" of drones, i.e., encoding public aviation laws in an ASN for\nrouting Unmanned Aerial Vehicles in uncertain environments.\n",
+  "subjects": [
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Machine Learning",
+    "Computer Science/Symbolic Computation"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "Y-rc3Pg1DlSE7zHwPgYkQ5RiwRyH-bkVbO6J0XxGR5w",
+  "pdfSize": "1058116"
+}

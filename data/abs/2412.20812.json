@@ -1,0 +1,50 @@
+{
+  "id": "2412.20812",
+  "title": "The Smearing of Quasi-Particles: Signatures in the Entanglement Entropy\n  of Excited Many-Particle Systems",
+  "authors": "Jagannath Sutradhar, Jonathan Ruhman, Avraham Klein, Dimitri Gutman\n  and Richard Berkovits",
+  "authorsParsed": [
+    [
+      "Sutradhar",
+      "Jagannath",
+      ""
+    ],
+    [
+      "Ruhman",
+      "Jonathan",
+      ""
+    ],
+    [
+      "Klein",
+      "Avraham",
+      ""
+    ],
+    [
+      "Gutman",
+      "Dimitri",
+      ""
+    ],
+    [
+      "Berkovits",
+      "Richard",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 30 Dec 2024 09:07:14 GMT"
+    }
+  ],
+  "updateDate": "2024-12-31",
+  "timestamp": 1735549634000,
+  "abstract": "  The entanglement spectrum serves as a powerful tool for probing the structure\nand dynamics of quantum many-body systems, revealing key information about\nsymmetry, topology, and excitations. While the entanglement entropy (EE) of\nground states typically follows an area law, highly excited states obey a\nvolume law, leading to a striking contrast in their scaling behavior. In this\npaper, we investigate the crossover between these two regimes, focusing on the\nrole of quasi-particles (QPs) in mediating this transition. By analyzing the\nenergy dependence of EE in various many-body systems, we explore how the\npresence of long-lived QPs influences the entanglement structure of excited\nstates. We present numerical results for spinless fermions, a spin chain near a\nmany-body localization transition, and the Sachdev-Ye-Kitaev (SYK) model, which\nlacks a conventional QP description. Our findings are complemented by a\ntheoretical model based on Fermi liquid theory, providing insight into the\ninteraction-dependent scaling of EE and its consistency with numerical\nsimulations. We find that a hallmark of QPs is a linear dependence of the\neigenstate EE on energy, which breaks down at high energy and in the limit of\nstrong interaction. The slope of this linear dependence reflects the QP weight,\nwhich reduces with interaction strength.\n",
+  "subjects": [
+    "Condensed Matter/Quantum Gases",
+    "Condensed Matter/Mesoscale and Nanoscale Physics",
+    "Condensed Matter/Strongly Correlated Electrons",
+    "Physics/Quantum Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "lqbjoFs-sGXC6Doa8gyf3d7UMluY_auzGaCG7jdOlUw",
+  "pdfSize": "2493526"
+}

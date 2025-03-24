@@ -1,0 +1,54 @@
+{
+  "id": "2412.04970",
+  "title": "CMSO-transducing tree-like graph decompositions",
+  "authors": "Rutger Campbell, Bruno Guillon, Mamadou Moustapha Kant\\'e, Eun Jung\n  Kim and Noleen K\\\"ohler",
+  "authorsParsed": [
+    [
+      "Campbell",
+      "Rutger",
+      ""
+    ],
+    [
+      "Guillon",
+      "Bruno",
+      ""
+    ],
+    [
+      "Kanté",
+      "Mamadou Moustapha",
+      ""
+    ],
+    [
+      "Kim",
+      "Eun Jung",
+      ""
+    ],
+    [
+      "Köhler",
+      "Noleen",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 6 Dec 2024 11:41:13 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Tue, 7 Jan 2025 16:19:33 GMT"
+    }
+  ],
+  "updateDate": "2025-01-08",
+  "timestamp": 1733485273000,
+  "abstract": "  We show that given a graph G we can CMSO-transduce its modular decomposition,\nits split decomposition and its bi-join decomposition. This improves results by\nCourcelle [Logical Methods in Computer Science, 2006] who gave such\ntransductions using order-invariant MSO, a strictly more expressive logic than\nCMSO. Our methods more generally yield C2MSO-transductions of the canonical\ndecomposition of weakly-partitive set systems and weakly-bipartitive systems of\nbipartitions.\n",
+  "subjects": [
+    "Computer Science/Logic in Computer Science",
+    "Computer Science/Computational Complexity",
+    "Computer Science/Discrete Mathematics",
+    "Computer Science/Formal Languages and Automata Theory"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "GlkgY0zQjbtFGasbkqC8JQba_Uf56xEQWqUZbH-m_6I",
+  "pdfSize": "890332"
+}

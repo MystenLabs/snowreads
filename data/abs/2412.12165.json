@@ -1,0 +1,30 @@
+{
+  "id": "2412.12165",
+  "title": "Multimodal Approaches to Fair Image Classification: An Ethical\n  Perspective",
+  "authors": "Javon Hickmon",
+  "authorsParsed": [
+    [
+      "Hickmon",
+      "Javon",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 11 Dec 2024 19:58:31 GMT"
+    }
+  ],
+  "updateDate": "2024-12-18",
+  "timestamp": 1733947111000,
+  "abstract": "  In the rapidly advancing field of artificial intelligence, machine perception\nis becoming paramount to achieving increased performance. Image classification\nsystems are becoming increasingly integral to various applications, ranging\nfrom medical diagnostics to image generation; however, these systems often\nexhibit harmful biases that can lead to unfair and discriminatory outcomes.\nMachine Learning systems that depend on a single data modality, i.e. only\nimages or only text, can exaggerate hidden biases present in the training data,\nif the data is not carefully balanced and filtered. Even so, these models can\nstill harm underrepresented populations when used in improper contexts, such as\nwhen government agencies reinforce racial bias using predictive policing. This\nthesis explores the intersection of technology and ethics in the development of\nfair image classification models. Specifically, I focus on improving fairness\nand methods of using multiple modalities to combat harmful demographic bias.\nIntegrating multimodal approaches, which combine visual data with additional\nmodalities such as text and metadata, allows this work to enhance the fairness\nand accuracy of image classification systems. The study critically examines\nexisting biases in image datasets and classification algorithms, proposes\ninnovative methods for mitigating these biases, and evaluates the ethical\nimplications of deploying such systems in real-world scenarios. Through\ncomprehensive experimentation and analysis, the thesis demonstrates how\nmultimodal techniques can contribute to more equitable and ethical AI\nsolutions, ultimately advocating for responsible AI practices that prioritize\nfairness.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Computers and Society",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "Qj_sW5stAuRIVCW62TaZDIAaQ86bb7W_eyhiUxwi8aA",
+  "pdfSize": "5551769"
+}

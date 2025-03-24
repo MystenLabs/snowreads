@@ -1,0 +1,30 @@
+{
+  "id": "2412.06229",
+  "title": "LLMs as Debate Partners: Utilizing Genetic Algorithms and Adversarial\n  Search for Adaptive Arguments",
+  "authors": "Prakash Aryan",
+  "authorsParsed": [
+    [
+      "Aryan",
+      "Prakash",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 9 Dec 2024 06:03:48 GMT"
+    }
+  ],
+  "updateDate": "2024-12-10",
+  "timestamp": 1733724228000,
+  "abstract": "  This paper introduces DebateBrawl, an innovative AI-powered debate platform\nthat integrates Large Language Models (LLMs), Genetic Algorithms (GA), and\nAdversarial Search (AS) to create an adaptive and engaging debating experience.\nDebateBrawl addresses the limitations of traditional LLMs in strategic planning\nby incorporating evolutionary optimization and game-theoretic techniques. The\nsystem demonstrates remarkable performance in generating coherent, contextually\nrelevant arguments while adapting its strategy in real-time. Experimental\nresults involving 23 debates show balanced outcomes between AI and human\nparticipants, with the AI system achieving an average score of 2.72 compared to\nthe human average of 2.67 out of 10. User feedback indicates significant\nimprovements in debating skills and a highly satisfactory learning experience,\nwith 85% of users reporting improved debating abilities and 78% finding the AI\nopponent appropriately challenging. The system's ability to maintain high\nfactual accuracy (92% compared to 78% in human-only debates) while generating\ndiverse arguments addresses critical concerns in AI-assisted discourse.\nDebateBrawl not only serves as an effective educational tool but also\ncontributes to the broader goal of improving public discourse through\nAI-assisted argumentation. The paper discusses the ethical implications of AI\nin persuasive contexts and outlines the measures implemented to ensure\nresponsible development and deployment of the system, including robust\nfact-checking mechanisms and transparency in decision-making processes.\n",
+  "subjects": [
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Computation and Language",
+    "Computer Science/Computers and Society",
+    "Computer Science/Neural and Evolutionary Computing"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "roVmmwsuokPx-0GubAa7PYZwsthllaEUO0j1mKm_09s",
+  "pdfSize": "656105"
+}

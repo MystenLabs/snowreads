@@ -1,0 +1,53 @@
+{
+  "id": "2412.12157",
+  "title": "What Makes In-context Learning Effective for Mathematical Reasoning: A\n  Theoretical Analysis",
+  "authors": "Jiayu Liu, Zhenya Huang, Chaokun Wang, Xunpeng Huang, Chengxiang Zhai,\n  Enhong Chen",
+  "authorsParsed": [
+    [
+      "Liu",
+      "Jiayu",
+      ""
+    ],
+    [
+      "Huang",
+      "Zhenya",
+      ""
+    ],
+    [
+      "Wang",
+      "Chaokun",
+      ""
+    ],
+    [
+      "Huang",
+      "Xunpeng",
+      ""
+    ],
+    [
+      "Zhai",
+      "Chengxiang",
+      ""
+    ],
+    [
+      "Chen",
+      "Enhong",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 11 Dec 2024 11:38:11 GMT"
+    }
+  ],
+  "updateDate": "2024-12-18",
+  "timestamp": 1733917091000,
+  "abstract": "  Owing to the capability of in-context learning, large language models (LLMs)\nhave shown impressive performance across diverse mathematical reasoning\nbenchmarks. However, we find that few-shot demonstrations can sometimes bring\nnegative performance and their effectiveness on LLMs' reasoning abilities\nremains unreliable. To this end, in this paper, we aim to theoretically analyze\nthe impact of in-context demonstrations on LLMs' reasoning performance. We\nprove that the reasoning efficacy (measured by empirical prediction loss) can\nbe bounded by a LLM-oriented semantic similarity and an inference stability of\ndemonstrations, which is general for both one-shot and few-shot scenarios.\nBased on this finding, we propose a straightforward, generalizable, and\nlow-complexity demonstration selection method named LMS3. It can adaptively\nfacilitate to select the most pertinent samples for different LLMs and includes\na novel demonstration rejection mechanism to automatically filter out samples\nthat are unsuitable for few-shot learning. Through experiments on three\nrepresentative benchmarks, two LLM backbones, and multiple few-shot settings,\nwe verify that our LMS3 has superiority and achieves consistent improvements on\nall datasets, which existing methods have been unable to accomplish.\n",
+  "subjects": [
+    "Computer Science/Computation and Language",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "NhJi3_sTZzMZ6zEKYXrMJEwahSiOwO8enoJklvc4Zaw",
+  "pdfSize": "763297"
+}

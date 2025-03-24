@@ -1,0 +1,38 @@
+{
+  "id": "2412.07672",
+  "title": "FlexLLM: Exploring LLM Customization for Moving Target Defense on\n  Black-Box LLMs Against Jailbreak Attacks",
+  "authors": "Bocheng Chen and Hanqing Guo and Qiben Yan",
+  "authorsParsed": [
+    [
+      "Chen",
+      "Bocheng",
+      ""
+    ],
+    [
+      "Guo",
+      "Hanqing",
+      ""
+    ],
+    [
+      "Yan",
+      "Qiben",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 10 Dec 2024 17:02:28 GMT"
+    }
+  ],
+  "updateDate": "2024-12-11",
+  "timestamp": 1733850148000,
+  "abstract": "  Defense in large language models (LLMs) is crucial to counter the numerous\nattackers exploiting these systems to generate harmful content through\nmanipulated prompts, known as jailbreak attacks. Although many defense\nstrategies have been proposed, they often require access to the model's\ninternal structure or need additional training, which is impractical for\nservice providers using LLM APIs, such as OpenAI APIs or Claude APIs. In this\npaper, we propose a moving target defense approach that alters decoding\nhyperparameters to enhance model robustness against various jailbreak attacks.\nOur approach does not require access to the model's internal structure and\nincurs no additional training costs. The proposed defense includes two key\ncomponents: (1) optimizing the decoding strategy by identifying and adjusting\ndecoding hyperparameters that influence token generation probabilities, and (2)\ntransforming the decoding hyperparameters and model system prompts into dynamic\ntargets, which are continuously altered during each runtime. By continuously\nmodifying decoding strategies and prompts, the defense effectively mitigates\nthe existing attacks. Our results demonstrate that our defense is the most\neffective against jailbreak attacks in three of the models tested when using\nLLMs as black-box APIs. Moreover, our defense offers lower inference costs and\nmaintains comparable response quality, making it a potential layer of\nprotection when used alongside other defense methods.\n",
+  "subjects": [
+    "Computer Science/Cryptography and Security",
+    "Computer Science/Computation and Language"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "ImG-dDHKzNsDJA4i1YoANN6dDS1v-SStPR3K8ddi0Yg",
+  "pdfSize": "1224806"
+}

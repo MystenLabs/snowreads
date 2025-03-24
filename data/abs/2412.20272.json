@@ -1,0 +1,43 @@
+{
+  "id": "2412.20272",
+  "title": "Taming Thiemann's Hamiltonian constraint in canonical loop quantum\n  gravity: reversibility, eigenstates and graph-change analysis",
+  "authors": "Thiago L. M. Guedes, Guillermo A. Mena Marug\\'an, Markus M\\\"uller,\n  Francesca Vidotto",
+  "authorsParsed": [
+    [
+      "Guedes",
+      "Thiago L. M.",
+      ""
+    ],
+    [
+      "Marugán",
+      "Guillermo A. Mena",
+      ""
+    ],
+    [
+      "Müller",
+      "Markus",
+      ""
+    ],
+    [
+      "Vidotto",
+      "Francesca",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 28 Dec 2024 20:56:30 GMT"
+    }
+  ],
+  "updateDate": "2024-12-31",
+  "timestamp": 1735419390000,
+  "abstract": "  The Hamiltonian constraint remains an elusive object in loop quantum gravity\nbecause its action on spinnetworks leads to changes in their corresponding\ngraphs. As a result, calculations in loop quantum gravity are often considered\nunpractical, and neither the eigenstates of the Hamiltonian constraint, which\nform the physical space of states, nor the concrete effect of its\ngraph-changing character on observables are entirely known. Much worse, there\nis no reference value to judge whether the commonly adopted graph-preserving\napproximations lead to results anywhere close to the non-approximated dynamics.\nOur work sheds light on many of these issues, by devising a new numerical tool\nthat allows us to implement the action of the Hamiltonian constraint without\nthe need for approximations and to calculate expectation values for geometric\nobservables. To achieve that, we fill the theoretical gap left in the\nderivations of the action of the Hamiltonian constraint on spinnetworks: we\nprovide the first complete derivation of such action for the case of 4-valent\nspinnetworks, while updating the corresponding derivation for 3-valent\nspinnetworks. Our derivations also include the action of the volume operator.\nBy proposing a new approach to encode spinnetworks into functions of lists and\nthe derived formulas into functionals, we implement both the Hamiltonian\nconstraint and the volume operator numerically. We are able to transform\nspinnetworks with graph-changing dynamics perturbatively and verify that volume\nexpectation values have rather different behavior from the approximated,\ngraph-preserving results. Furthermore, using our tool we find a family of\npotentially relevant solutions of the Hamiltonian constraint. Our work paves\nthe way to a new generation of calculations in loop quantum gravity, in which\ngraph-changing results and their phenomenology can finally be accounted for and\nunderstood.\n",
+  "subjects": [
+    "Physics/General Relativity and Quantum Cosmology",
+    "Physics/Quantum Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "a3HrhZiIaZdQrRFvFUQRUffTOWNCOsEY15tvKSSXd00",
+  "pdfSize": "1701687"
+}

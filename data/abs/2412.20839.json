@@ -1,0 +1,52 @@
+{
+  "id": "2412.20839",
+  "title": "A rational design method for the Nagoya type-III antenna",
+  "authors": "Daniele Iannarelli, Francesco Napoli, Antonella Ingenito, Alessandro\n  Cardinali, Antonella De Ninno and Simone Mannori",
+  "authorsParsed": [
+    [
+      "Iannarelli",
+      "Daniele",
+      ""
+    ],
+    [
+      "Napoli",
+      "Francesco",
+      ""
+    ],
+    [
+      "Ingenito",
+      "Antonella",
+      ""
+    ],
+    [
+      "Cardinali",
+      "Alessandro",
+      ""
+    ],
+    [
+      "De Ninno",
+      "Antonella",
+      ""
+    ],
+    [
+      "Mannori",
+      "Simone",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 30 Dec 2024 10:07:58 GMT"
+    }
+  ],
+  "updateDate": "2024-12-31",
+  "timestamp": 1735553278000,
+  "abstract": "  The current study, as part of a PhD project on the design of a helicon\nthruster, aims to provide a rational methodology for the design of the helicon\nthruster's main component, i.e., the helicon antenna. A helicon thruster is an\ninnovative electrodeless plasma thruster that works by exciting helicon waves\nin a magnetized plasma, and its antenna is capable of producing a uniform,\nlow-temperature, high-density plasma. A magnetic nozzle is used to accelerate\nthe exhaust plasma in order to generate a propulsive thrust. In this paper, we\nconsider a simple helicon antenna, specifically the Nagoya type-III antenna. We\nconsider a common experimental setup consisting of a quartz tube with finite\nlength containing a uniform magnetized plasma and a Nagoya type-III antenna\nplaced at the tube centre. Considering previous studies on helicon waves\ntheory, we compare three different design methods, each based on simplifying\ndifferent modelling assumptions, and evaluate the predictions of these models\nwith results from full-wave 3D simulations. In particular, we concentrate on\nderiving a rational design method for the helicon antenna length, given the\ndimension of the quartz tube and the desired target plasma parameters. This\nwork aims to provide a practical and fast method for dimensioning the antenna\nlength, useful for initializing more accurate but computationally heavier\nfull-wave simulations in 3D geometry or simply for a rapid prototyping of the\nhelicon antenna. These results can be useful for the development of a helicon\nthruster but also for the design of a high-density radiofrequency plasma\nsource.\n",
+  "subjects": [
+    "Physics/Plasma Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "DVtWTmgGgfMyrt8bNd_6Qt9xusPNT6b0d2DWQGrDux0",
+  "pdfSize": "1654614"
+}

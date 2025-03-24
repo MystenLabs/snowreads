@@ -1,0 +1,112 @@
+{
+  "id": "2412.05789",
+  "title": "InfiniteWorld: A Unified Scalable Simulation Framework for General\n  Visual-Language Robot Interaction",
+  "authors": "Pengzhen Ren, Min Li, Zhen Luo, Xinshuai Song, Ziwei Chen, Weijia\n  Liufu, Yixuan Yang, Hao Zheng, Rongtao Xu, Zitong Huang, Tongsheng Ding,\n  Luyang Xie, Kaidong Zhang, Changfei Fu, Yang Liu, Liang Lin, Feng Zheng,\n  Xiaodan Liang",
+  "authorsParsed": [
+    [
+      "Ren",
+      "Pengzhen",
+      ""
+    ],
+    [
+      "Li",
+      "Min",
+      ""
+    ],
+    [
+      "Luo",
+      "Zhen",
+      ""
+    ],
+    [
+      "Song",
+      "Xinshuai",
+      ""
+    ],
+    [
+      "Chen",
+      "Ziwei",
+      ""
+    ],
+    [
+      "Liufu",
+      "Weijia",
+      ""
+    ],
+    [
+      "Yang",
+      "Yixuan",
+      ""
+    ],
+    [
+      "Zheng",
+      "Hao",
+      ""
+    ],
+    [
+      "Xu",
+      "Rongtao",
+      ""
+    ],
+    [
+      "Huang",
+      "Zitong",
+      ""
+    ],
+    [
+      "Ding",
+      "Tongsheng",
+      ""
+    ],
+    [
+      "Xie",
+      "Luyang",
+      ""
+    ],
+    [
+      "Zhang",
+      "Kaidong",
+      ""
+    ],
+    [
+      "Fu",
+      "Changfei",
+      ""
+    ],
+    [
+      "Liu",
+      "Yang",
+      ""
+    ],
+    [
+      "Lin",
+      "Liang",
+      ""
+    ],
+    [
+      "Zheng",
+      "Feng",
+      ""
+    ],
+    [
+      "Liang",
+      "Xiaodan",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 8 Dec 2024 02:59:04 GMT"
+    }
+  ],
+  "updateDate": "2024-12-10",
+  "timestamp": 1733626744000,
+  "abstract": "  Realizing scaling laws in embodied AI has become a focus. However, previous\nwork has been scattered across diverse simulation platforms, with assets and\nmodels lacking unified interfaces, which has led to inefficiencies in research.\nTo address this, we introduce InfiniteWorld, a unified and scalable simulator\nfor general vision-language robot interaction built on Nvidia Isaac Sim.\nInfiniteWorld encompasses a comprehensive set of physics asset construction\nmethods and generalized free robot interaction benchmarks. Specifically, we\nfirst built a unified and scalable simulation framework for embodied learning\nthat integrates a series of improvements in generation-driven 3D asset\nconstruction, Real2Sim, automated annotation framework, and unified 3D asset\nprocessing. This framework provides a unified and scalable platform for robot\ninteraction and learning. In addition, to simulate realistic robot interaction,\nwe build four new general benchmarks, including scene graph collaborative\nexploration and open-world social mobile manipulation. The former is often\noverlooked as an important task for robots to explore the environment and build\nscene knowledge, while the latter simulates robot interaction tasks with\ndifferent levels of knowledge agents based on the former. They can more\ncomprehensively evaluate the embodied agent's capabilities in environmental\nunderstanding, task planning and execution, and intelligent interaction. We\nhope that this work can provide the community with a systematic asset\ninterface, alleviate the dilemma of the lack of high-quality assets, and\nprovide a more comprehensive evaluation of robot interactions.\n",
+  "subjects": [
+    "Computer Science/Robotics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "m7CZ8t59rUbk1vWgnsSxx3Dq7uXu5zLysVZtykn-Y18",
+  "pdfSize": "10880851"
+}

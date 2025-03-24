@@ -1,0 +1,43 @@
+{
+  "id": "2412.02316",
+  "title": "Optimizing Plastic Waste Collection in Water Bodies Using Heterogeneous\n  Autonomous Surface Vehicles with Deep Reinforcement Learning",
+  "authors": "Alejandro Mendoza Barrionuevo, Samuel Yanes Luis, Daniel Guti\\'errez\n  Reina, Sergio L. Toral Mar\\'in",
+  "authorsParsed": [
+    [
+      "Barrionuevo",
+      "Alejandro Mendoza",
+      ""
+    ],
+    [
+      "Luis",
+      "Samuel Yanes",
+      ""
+    ],
+    [
+      "Reina",
+      "Daniel Gutiérrez",
+      ""
+    ],
+    [
+      "Marín",
+      "Sergio L. Toral",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 3 Dec 2024 09:32:02 GMT"
+    }
+  ],
+  "updateDate": "2024-12-04",
+  "timestamp": 1733218322000,
+  "abstract": "  This paper presents a model-free deep reinforcement learning framework for\ninformative path planning with heterogeneous fleets of autonomous surface\nvehicles to locate and collect plastic waste. The system employs two teams of\nvehicles: scouts and cleaners. Coordination between these teams is achieved\nthrough a deep reinforcement approach, allowing agents to learn strategies to\nmaximize cleaning efficiency. The primary objective is for the scout team to\nprovide an up-to-date contamination model, while the cleaner team collects as\nmuch waste as possible following this model. This strategy leads to\nheterogeneous teams that optimize fleet efficiency through inter-team\ncooperation supported by a tailored reward function. Different trainings of the\nproposed algorithm are compared with other state-of-the-art heuristics in two\ndistinct scenarios, one with high convexity and another with narrow corridors\nand challenging access. According to the obtained results, it is demonstrated\nthat deep reinforcement learning based algorithms outperform other benchmark\nheuristics, exhibiting superior adaptability. In addition, training with greedy\nactions further enhances performance, particularly in scenarios with intricate\nlayouts.\n",
+  "subjects": [
+    "Computer Science/Robotics",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "japo3ls14rB5NjPnXFr1PYmiusIROQM4vLejMhtpAGE",
+  "pdfSize": "15312844"
+}

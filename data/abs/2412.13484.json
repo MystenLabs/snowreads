@@ -1,0 +1,37 @@
+{
+  "id": "2412.13484",
+  "title": "Curriculum Learning for Cross-Lingual Data-to-Text Generation With Noisy\n  Data",
+  "authors": "Kancharla Aditya Hari, Manish Gupta, Vasudeva Varma",
+  "authorsParsed": [
+    [
+      "Hari",
+      "Kancharla Aditya",
+      ""
+    ],
+    [
+      "Gupta",
+      "Manish",
+      ""
+    ],
+    [
+      "Varma",
+      "Vasudeva",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 18 Dec 2024 04:00:18 GMT"
+    }
+  ],
+  "updateDate": "2024-12-19",
+  "timestamp": 1734494418000,
+  "abstract": "  Curriculum learning has been used to improve the quality of text generation\nsystems by ordering the training samples according to a particular schedule in\nvarious tasks. In the context of data-to-text generation (DTG), previous\nstudies used various difficulty criteria to order the training samples for\nmonolingual DTG. These criteria, however, do not generalize to the crosslingual\nvariant of the problem and do not account for noisy data. We explore multiple\ncriteria that can be used for improving the performance of cross-lingual DTG\nsystems with noisy data using two curriculum schedules. Using the alignment\nscore criterion for ordering samples and an annealing schedule to train the\nmodel, we show increase in BLEU score by up to 4 points, and improvements in\nfaithfulness and coverage of generations by 5-15% on average across 11 Indian\nlanguages and English in 2 separate datasets. We make code and data publicly\navailable\n",
+  "subjects": [
+    "Computer Science/Computation and Language"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "qsZmlzsKY73qFTDtetw-nVzghpgJgOLGgwI3j_ZBxbc",
+  "pdfSize": "773262"
+}

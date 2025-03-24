@@ -1,0 +1,47 @@
+{
+  "id": "2412.06300",
+  "title": "A Three-Tiered Hierarchical Computational Framework Bridging Molecular\n  Systems and Junction-Level Charge Transport",
+  "authors": "Xuan Ji, Qiang Qi, Yueqi Chen, Chen Zhou, Xi Yu",
+  "authorsParsed": [
+    [
+      "Ji",
+      "Xuan",
+      ""
+    ],
+    [
+      "Qi",
+      "Qiang",
+      ""
+    ],
+    [
+      "Chen",
+      "Yueqi",
+      ""
+    ],
+    [
+      "Zhou",
+      "Chen",
+      ""
+    ],
+    [
+      "Yu",
+      "Xi",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 9 Dec 2024 08:44:44 GMT"
+    }
+  ],
+  "updateDate": "2024-12-10",
+  "timestamp": 1733733884000,
+  "abstract": "  The Non-Equilibrium Green's Function (NEGF) method combined with ab initio\ncalculations has been widely used to study charge transport in molecular\njunctions. However, the significant computational demands of high-resolution\ncalculations for all device components pose challenges in simulating junctions\nwith complex molecular structures and understanding the functionality of\nmolecular devices. In this study, we developed a series of approximation\nmethods capable of effectively handling the molecular Hamiltonian, electrode\nself-energy, and their interfacial coupling at different levels of\napproximation. These methods, as three-tiered hierarchical levels, enable\nefficient charge transport computations ranging from individual molecules to\ncomplete junction systems, achieving an optimal balance between computational\ncost and accuracy, and are able to addresses specific research objectives by\nisolating and analyzing the dominant factors governing charge transport.\nIntegrated into a Question-Driven Hierarchical Computation (QDHC) framework, we\nshow this three-tiered framework significantly enhances the efficiency of\nanalyzing charge transport mechanisms, as validated through a series of\nbenchmark studies on diverse molecular junction systems, demonstrating its\ncapability to accurately and efficiently elucidate charge transport mechanisms\nin complex molecular devices.\n",
+  "subjects": [
+    "Physics/Computational Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "VaNxCEdMoINLjtRF4U5UWnlupBiwAw-BHVxIdTZzab0",
+  "pdfSize": "10410043"
+}

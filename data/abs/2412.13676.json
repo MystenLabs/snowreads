@@ -1,0 +1,38 @@
+{
+  "id": "2412.13676",
+  "title": "Robust UAV Jittering and Task Scheduling in Mobile Edge Computing with\n  Data Compression",
+  "authors": "Bin Li, Xiao Zhu, Junyi Wang",
+  "authorsParsed": [
+    [
+      "Li",
+      "Bin",
+      ""
+    ],
+    [
+      "Zhu",
+      "Xiao",
+      ""
+    ],
+    [
+      "Wang",
+      "Junyi",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 18 Dec 2024 10:03:07 GMT"
+    }
+  ],
+  "updateDate": "2024-12-19",
+  "timestamp": 1734516187000,
+  "abstract": "  Data compression technology is able to reduce data size, which can be applied\nto lower the cost of task offloading in mobile edge computing (MEC). This paper\naddresses the practical challenges for robust trajectory and scheduling\noptimization based on data compression in the unmanned aerial vehicle\n(UAV)-assisted MEC, aiming to minimize the sum energy cost of terminal users\nwhile maintaining robust performance during UAV flight. Considering the\nnon-convexity of the problem and the dynamic nature of the scenario, the\noptimization problem is reformulated as a Markov decision process. Then, a\nrandomized ensembled double Q-learning (REDQ) algorithm is adopted to solve the\nissue. The algorithm allows for higher feasible update-to-data ratio, enabling\nmore effective learning from observed data. The simulation results show that\nthe proposed scheme effectively reduces the energy consumption while ensuring\nflight robustness. Compared to the PPO and A2C algorithms, energy consumption\nis reduced by approximately $21.9\\%$ and $35.4\\%$, respectively. This method\ndemonstrates significant advantages in complex environments and holds great\npotential for practical applications.\n",
+  "subjects": [
+    "Computer Science/Emerging Technologies",
+    "Electrical Engineering and Systems Science/Signal Processing"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "g2aUcxToeh7CB7HOtaI3mPGYwb3xg1E-hUIvMgyEaHU",
+  "pdfSize": "763600"
+}

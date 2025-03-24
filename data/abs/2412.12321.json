@@ -1,0 +1,37 @@
+{
+  "id": "2412.12321",
+  "title": "Target-Following Online Resource Allocation Using Proxy Assignments",
+  "authors": "Chamsi Hssaine, Huseyin Topaloglu, Garrett van Ryzin",
+  "authorsParsed": [
+    [
+      "Hssaine",
+      "Chamsi",
+      ""
+    ],
+    [
+      "Topaloglu",
+      "Huseyin",
+      ""
+    ],
+    [
+      "van Ryzin",
+      "Garrett",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 16 Dec 2024 19:40:17 GMT"
+    }
+  ],
+  "updateDate": "2024-12-18",
+  "timestamp": 1734378017000,
+  "abstract": "  We study a target-following variation of online resource allocation. As in\nclassical resource allocation, the decision-maker must assign sequentially\narriving jobs to one of multiple available resources. However, in addition to\nthe assignment costs incurred from these decisions, the decision-maker is also\npenalized for deviating from exogenously given, nonstationary target\nallocations throughout the horizon. The goal is to minimize the total expected\nassignment and deviation penalty costs incurred throughout the horizon when the\ndistribution of assignment costs is unknown. In contrast to traditional online\nresource allocation, in our setting the timing of allocation decisions is\ncritical due to the nonstationarity of allocation targets. Examples of\npractical problems that fit this framework include many physical resource\nsettings where capacity is time-varying, such as manual warehouse processes\nwhere staffing levels change over time, and assignment of packages to outbound\ntrucks whose departure times are scheduled throughout the day. We first show\nthat naive extensions of state-of-the-art algorithms for classical resource\nallocation problems can fail dramatically when applied to target-following\nresource allocation. We then propose a novel ``proxy assignment\" primal-dual\nalgorithm for the target-following online resource allocation problem that uses\ncurrent arrivals to simulate the effect of future arrivals. We prove that our\nalgorithm incurs the optimal $O(\\sqrt{T})$ regret bound when the assignment\ncosts of the arriving jobs are drawn i.i.d. from a fixed distribution. We\ndemonstrate the practical performance of our approach by conducting numerical\nexperiments on synthetic datasets, as well as real-world datasets from retail\nfulfillment operations.\n",
+  "subjects": [
+    "Mathematics/Optimization and Control"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "c2IesfmMDXqQsGsyCD3RX0qfKNDJWWF-sokiP5eoWRA",
+  "pdfSize": "2888189"
+}

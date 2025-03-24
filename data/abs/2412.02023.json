@@ -1,0 +1,32 @@
+{
+  "id": "2412.02023",
+  "title": "A new flower pollination algorithm for equalization in synchronous\n  DS/CDMA multiuser communication systems",
+  "authors": "Luis M. San-Jos\\'e-Revuelta and Pablo Casaseca-de-la-Higuera",
+  "authorsParsed": [
+    [
+      "San-José-Revuelta",
+      "Luis M.",
+      ""
+    ],
+    [
+      "Casaseca-de-la-Higuera",
+      "Pablo",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 2 Dec 2024 23:03:03 GMT"
+    }
+  ],
+  "updateDate": "2024-12-04",
+  "timestamp": 1733180583000,
+  "abstract": "  This work proposes a modified version of an emerging nature-inspired\ntechnique, named Flower Pollination Algorithm (FPA), for equalizing digital\nmultiuser channels. This equalization involves two different tasks: 1)\nestimation of the channel impulse response, and 2) estimation of the users'\ntransmitted symbols. The new algorithm is developed and applied in a\nDirect-Sequence / Code-Division Multiple-Access (DS/CDMA) multiuser\ncommunications system. Important issues such as robustness, convergence speed\nand population diversity control have been in deep investigated. A method based\non the entropy of the flowers' fitness is proposed for in-service monitoring\nand adjusting population diversity. Numerical simulations analyze the\nperformance, showing comparisons with well-known conventional multiuser\ndetectors such as Matched Filter (MF), Minimum Mean Square Error Estimator\n(MMSEE) or several Bayesian schemes, as well as with other nature-inspired\nstrategies. Numerical analysis shows that the proposed algorithm enables\ntransmission at higher symbol rates under stronger fading and interference\nconditions, constituting an attractive alternative to previous algorithms, both\nconventional and nature-inspired, whose performance is frequently sensible to\nnear-far effects and multiple-access interference problems. These results have\nbeen validated by running hypothesis tests to confirm statistical significance.\n",
+  "subjects": [
+    "Electrical Engineering and Systems Science/Signal Processing"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "CIknY15UeCTBhOSDOg04W8VMfTfzF6_4vvY4j_rK30Q",
+  "pdfSize": "430351"
+}

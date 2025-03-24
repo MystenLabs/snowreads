@@ -1,0 +1,47 @@
+{
+  "id": "2412.12988",
+  "title": "Network Renormalization",
+  "authors": "Andrea Gabrielli, Diego Garlaschelli, Subodh P. Patil, and M.\n  \\'Angeles Serrano",
+  "authorsParsed": [
+    [
+      "Gabrielli",
+      "Andrea",
+      ""
+    ],
+    [
+      "Garlaschelli",
+      "Diego",
+      ""
+    ],
+    [
+      "Patil",
+      "Subodh P.",
+      ""
+    ],
+    [
+      "Serrano",
+      "M. Ángeles",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 17 Dec 2024 15:07:25 GMT"
+    }
+  ],
+  "updateDate": "2024-12-19",
+  "timestamp": 1734448045000,
+  "abstract": "  The renormalization group (RG) is a powerful theoretical framework developed\nto consistently transform the description of configurations of systems with\nmany degrees of freedom, along with the associated model parameters and\ncoupling constants, across different levels of resolution. It also provides a\nway to identify critical points of phase transitions and study the system's\nbehaviour around them by distinguishing between relevant and irrelevant\ndetails, the latter being unnecessary to describe the emergent macroscopic\nproperties. In traditional physical applications, the RG largely builds on the\nnotions of homogeneity, symmetry, geometry and locality to define metric\ndistances, scale transformations and self-similar coarse-graining schemes. More\nrecently, various approaches have tried to extend RG concepts to the ubiquitous\nrealm of complex networks where explicit geometric coordinates do not\nnecessarily exist, nodes and subgraphs can have very different properties, and\nhomogeneous lattice-like symmetries are absent. The strong heterogeneity of\nreal-world networks significantly complicates the definition of consistent\nrenormalization procedures. In this review, we discuss the main attempts, the\nmost important advances, and the remaining open challenges on the road to\nnetwork renormalization.\n",
+  "subjects": [
+    "Condensed Matter/Statistical Mechanics",
+    "Condensed Matter/Disordered Systems and Neural Networks",
+    "Physics/Mathematical Physics",
+    "Mathematics/Mathematical Physics",
+    "Mathematics/Probability",
+    "Physics/Data Analysis, Statistics and Probability"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "PTnLJMwOxOiOS26R2dhbGSq9HXjdhIgCsDg1iPzehfU",
+  "pdfSize": "11817949"
+}

@@ -1,0 +1,39 @@
+{
+  "id": "2412.21169",
+  "title": "Causality and Stability from Acoustic Geometry",
+  "authors": "Ignacy Sawicki, Georg Trenkler, Alexander Vikman",
+  "authorsParsed": [
+    [
+      "Sawicki",
+      "Ignacy",
+      ""
+    ],
+    [
+      "Trenkler",
+      "Georg",
+      ""
+    ],
+    [
+      "Vikman",
+      "Alexander",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 30 Dec 2024 18:46:51 GMT"
+    }
+  ],
+  "updateDate": "2024-12-31",
+  "timestamp": 1735584411000,
+  "abstract": "  Scalar-tensor theories with derivative interactions form backgrounds which\nspontaneously break Lorentz invariance. We investigate the dynamics of free\nscalar perturbations on general anisotropic backgrounds. We demonstrate that\nthe phonons move on null geodesics of an acoustic spacetime described by its\nown metric and own connection featuring nonmetricity with respect to the usual\nspacetime metric. We give distinct physical interpretations to the acoustic\nmetric and its inverse. The first defines rays and their phase velocities. The\nlatter defines momenta and the dispersion relation. We classify possible\nacoustic geometries and provide a physical interpretation for them.\n  We discuss the phonon properties that moving observers, inequivalent owing to\nthe breaking of Lorentz invariance, would measure. Ghosts and true gradient\ninstabilities are to be read off from invariant properties of the acoustic\nmetric - its signature and determinant. However, the choice of the observer's\nframe can cause some confusion and paradoxes, including apparent instabilities.\nFor instance, complex phonon energies can appear entirely due to the\nill-posedness of the Cauchy problem in the frame chosen. On the other hand,\nunbounded negative phonon energies can appear, without ghosts or gradient\ninstabilities, for observers moving supersonically, when phonon Cherenkov\nradiation can be emitted.\n  The action for phonons also gives an acoustically covariantly conserved\nenergy-momentum tensor (EMT) which is, however, not conserved in the usual\nspacetime. Nonetheless, in the presence of an acoustic timelike Killing vector,\nthe acoustic Hamiltonian functional is a conserved charge in both the acoustic\nand in the usual spacetimes, and even has the same value in both. Thus, the\nacoustic Hamiltonian can be used to bound the motion of phonons interacting\nwith other species living in the usual spacetime.\n",
+  "subjects": [
+    "Physics/General Relativity and Quantum Cosmology",
+    "Astrophysics/Cosmology and Nongalactic Astrophysics",
+    "Physics/High Energy Physics - Theory"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "kUvtGXdMyC8WSLJmriKxnE90njEDv_-6gGhUUPrFlrk",
+  "pdfSize": "3063357"
+}

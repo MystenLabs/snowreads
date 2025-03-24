@@ -1,0 +1,48 @@
+{
+  "id": "2412.14436",
+  "title": "ORBIT: Cost-Effective Dataset Curation for Large Language Model Domain\n  Adaptation with an Astronomy Case Study",
+  "authors": "Eric Modesitt, Ke Yang, Spencer Hulsey, Chengxiang Zhai, Volodymyr\n  Kindratenko",
+  "authorsParsed": [
+    [
+      "Modesitt",
+      "Eric",
+      ""
+    ],
+    [
+      "Yang",
+      "Ke",
+      ""
+    ],
+    [
+      "Hulsey",
+      "Spencer",
+      ""
+    ],
+    [
+      "Zhai",
+      "Chengxiang",
+      ""
+    ],
+    [
+      "Kindratenko",
+      "Volodymyr",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 19 Dec 2024 01:35:47 GMT"
+    }
+  ],
+  "updateDate": "2024-12-20",
+  "timestamp": 1734572147000,
+  "abstract": "  Recent advances in language modeling demonstrate the need for high-quality\ndomain-specific training data, especially for tasks that require specialized\nknowledge. General-purpose models, while versatile, often lack the depth needed\nfor expert-level tasks because of limited domain-specific information. Domain\nadaptation training can enhance these models, but it demands substantial,\nhigh-quality data. To address this, we propose ORBIT, a cost-efficient\nmethodology for curating massive, high-quality domain-specific datasets from\nnoisy web sources, tailored for training specialist large language models.\nUsing astronomy as a primary case study, we refined the 1.3T-token FineWeb-Edu\ndataset into a high-quality, 10B-token subset focused on astronomy. Fine-tuning\n\\textsc{LLaMA-3-8B} on a 1B-token astronomy subset improved performance on the\nMMLU astronomy benchmark from 69\\% to 76\\% and achieved top results on\nAstroBench, an astronomy-specific benchmark. Moreover, our model (Orbit-LLaMA)\noutperformed \\textsc{LLaMA-3-8B-base}, with GPT-4o evaluations preferring it in\n73\\% of cases across 1000 astronomy-specific questions. Additionally, we\nvalidated ORBIT's generalizability by applying it to law and medicine,\nachieving a significant improvement of data quality compared to an unfiltered\nbaseline. We open-source the ORBIT methodology, including the curated datasets,\nthe codebase, and the resulting model at\n\\href{https://github.com/ModeEric/ORBIT-Llama}{https://github.com/ModeEric/ORBIT-Llama}.\n",
+  "subjects": [
+    "Computer Science/Computation and Language",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "a-UAuaH22WZrSgENSzNcI7vAtMCqwiEpHtAlFmh6fnY",
+  "pdfSize": "2264977"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "2412.14829",
+  "title": "Mention Attention for Pronoun Translation",
+  "authors": "Gongbo Tang, Christian Hardmeier",
+  "authorsParsed": [
+    [
+      "Tang",
+      "Gongbo",
+      ""
+    ],
+    [
+      "Hardmeier",
+      "Christian",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 19 Dec 2024 13:19:19 GMT"
+    }
+  ],
+  "updateDate": "2024-12-20",
+  "timestamp": 1734614359000,
+  "abstract": "  Most pronouns are referring expressions, computers need to resolve what do\nthe pronouns refer to, and there are divergences on pronoun usage across\nlanguages. Thus, dealing with these divergences and translating pronouns is a\nchallenge in machine translation. Mentions are referring candidates of pronouns\nand have closer relations with pronouns compared to general tokens. We assume\nthat extracting additional mention features can help pronoun translation.\nTherefore, we introduce an additional mention attention module in the decoder\nto pay extra attention to source mentions but not non-mention tokens. Our\nmention attention module not only extracts features from source mentions, but\nalso considers target-side context which benefits pronoun translation. In\naddition, we also introduce two mention classifiers to train models to\nrecognize mentions, whose outputs guide the mention attention. We conduct\nexperiments on the WMT17 English-German translation task, and evaluate our\nmodels on general translation and pronoun translation, using BLEU, APT, and\ncontrastive evaluation metrics. Our proposed model outperforms the baseline\nTransformer model in terms of APT and BLEU scores, this confirms our hypothesis\nthat we can improve pronoun translation by paying additional attention to\nsource mentions, and shows that our introduced additional modules do not have\nnegative effect on the general translation quality.\n",
+  "subjects": [
+    "Computer Science/Computation and Language"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "hTWHDR2tPU9W8tfY8SxGDTzjipgxHzOS6qsWrr4Xa3A",
+  "pdfSize": "151851"
+}

@@ -1,0 +1,47 @@
+{
+  "id": "2412.00076",
+  "title": "Flaws of ImageNet, Computer Vision's Favourite Dataset",
+  "authors": "Nikita Kisel, Illia Volkov, Katerina Hanzelkova, Klara Janouskova,\n  Jiri Matas",
+  "authorsParsed": [
+    [
+      "Kisel",
+      "Nikita",
+      ""
+    ],
+    [
+      "Volkov",
+      "Illia",
+      ""
+    ],
+    [
+      "Hanzelkova",
+      "Katerina",
+      ""
+    ],
+    [
+      "Janouskova",
+      "Klara",
+      ""
+    ],
+    [
+      "Matas",
+      "Jiri",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 26 Nov 2024 16:47:59 GMT"
+    }
+  ],
+  "updateDate": "2024-12-03",
+  "timestamp": 1732639679000,
+  "abstract": "  Since its release, ImageNet-1k dataset has become a gold standard for\nevaluating model performance. It has served as the foundation for numerous\nother datasets and training tasks in computer vision. As models have improved\nin accuracy, issues related to label correctness have become increasingly\napparent. In this blog post, we analyze the issues in the ImageNet-1k dataset,\nincluding incorrect labels, overlapping or ambiguous class definitions,\ntraining-evaluation domain shifts, and image duplicates. The solutions for some\nproblems are straightforward. For others, we hope to start a broader\nconversation about refining this influential dataset to better serve future\nresearch.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "PTkwKWC4UmftIWkj1Tc4UrSUR4bssyOmkdKl_5KTpF4",
+  "pdfSize": "11209290"
+}

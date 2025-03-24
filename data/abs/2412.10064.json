@@ -1,0 +1,42 @@
+{
+  "id": "2412.10064",
+  "title": "Text2Cypher: Bridging Natural Language and Graph Databases",
+  "authors": "Makbule Gulcin Ozsoy, Leila Messallem, Jon Besga, Gianandrea Minneci",
+  "authorsParsed": [
+    [
+      "Ozsoy",
+      "Makbule Gulcin",
+      ""
+    ],
+    [
+      "Messallem",
+      "Leila",
+      ""
+    ],
+    [
+      "Besga",
+      "Jon",
+      ""
+    ],
+    [
+      "Minneci",
+      "Gianandrea",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 13 Dec 2024 11:50:51 GMT"
+    }
+  ],
+  "updateDate": "2024-12-16",
+  "timestamp": 1734090651000,
+  "abstract": "  Knowledge graphs use nodes, relationships, and properties to represent\narbitrarily complex data. When stored in a graph database, the Cypher query\nlanguage enables efficient modeling and querying of knowledge graphs. However,\nusing Cypher requires specialized knowledge, which can present a challenge for\nnon-expert users. Our work Text2Cypher aims to bridge this gap by translating\nnatural language queries into Cypher query language and extending the utility\nof knowledge graphs to non-technical expert users.\n  While large language models (LLMs) can be used for this purpose, they often\nstruggle to capture complex nuances, resulting in incomplete or incorrect\noutputs. Fine-tuning LLMs on domain-specific datasets has proven to be a more\npromising approach, but the limited availability of high-quality, publicly\navailable Text2Cypher datasets makes this challenging. In this work, we show\nhow we combined, cleaned and organized several publicly available datasets into\na total of 44,387 instances, enabling effective fine-tuning and evaluation.\nModels fine-tuned on this dataset showed significant performance gains, with\nimprovements in Google-BLEU and Exact Match scores over baseline models,\nhighlighting the importance of high-quality datasets and fine-tuning in\nimproving Text2Cypher performance.\n",
+  "subjects": [
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by-sa/4.0/",
+  "blobId": "_SNZuLlq9I_spsaYgeD-e_oDI6FFTE-qUWRINhskdvE",
+  "pdfSize": "722208"
+}

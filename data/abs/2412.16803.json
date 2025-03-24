@@ -1,0 +1,34 @@
+{
+  "id": "2412.16803",
+  "title": "Modeling the Dynamics of Sub-Millisecond Electroadhesive Engagement and\n  Release Times",
+  "authors": "Ahad M. Rauf, Sean Follmer",
+  "authorsParsed": [
+    [
+      "Rauf",
+      "Ahad M.",
+      ""
+    ],
+    [
+      "Follmer",
+      "Sean",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 21 Dec 2024 23:18:44 GMT"
+    }
+  ],
+  "updateDate": "2024-12-24",
+  "timestamp": 1734823124000,
+  "abstract": "  Electroadhesion is an electrically controllable switchable adhesive commonly\nused in soft robots and haptic user interfaces. It can form strong bonds to a\nwide variety of surfaces at low power consumption. However, electroadhesive\nclutches in the literature engage to and release from substrates several orders\nof magnitude slower than a traditional electrostatic model would predict,\nlimiting their usefulness in high-bandwidth applications. We develop a novel\nelectromechanical model for electroadhesion, factoring in polarization dynamics\nand contact mechanics between the dielectric and substrate. We show in\nsimulation and experimentally how different design parameters affect the\nengagement and release times of electroadhesive clutches to metallic\nsubstrates. In particular, we find that higher drive frequencies and narrower\nsubstrate aspect ratios enable significantly faster dynamics. We demonstrate\ndesigns with engagement times under 15 us and release times as low as 875 us,\nwhich are 10x and 17.1x faster, respectively, than the best times found in\nprior literature.\n",
+  "subjects": [
+    "Computer Science/Robotics",
+    "Computer Science/Human-Computer Interaction",
+    "Physics/Applied Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "5je0BHLAVlj918lN9xuSwUleFI0Xo3Kq9y0KHJLoSm8",
+  "pdfSize": "2494376"
+}

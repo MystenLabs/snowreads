@@ -1,0 +1,37 @@
+{
+  "id": "2412.13274",
+  "title": "Assessing fault-tolerant quantum advantage for $k$-SAT with structure",
+  "authors": "Martijn Brehm, Jordi Weggemans",
+  "authorsParsed": [
+    [
+      "Brehm",
+      "Martijn",
+      ""
+    ],
+    [
+      "Weggemans",
+      "Jordi",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 17 Dec 2024 19:06:38 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Sat, 21 Dec 2024 10:50:27 GMT"
+    }
+  ],
+  "updateDate": "2024-12-24",
+  "timestamp": 1734462398000,
+  "abstract": "  For many problems, quantum algorithms promise speedups over their classical\ncounterparts. However, these results predominantly rely on asymptotic\nworst-case analysis, which overlooks significant overheads due to error\ncorrection and the fact that real-world instances often contain exploitable\nstructure. In this work, we employ the hybrid benchmarking method to evaluate\nthe potential of quantum Backtracking and Grover's algorithm against the 2023\nSAT competition main track winner in solving random $k$-SAT instances with\ntunable structure, designed to represent industry-like scenarios, using both\n$T$-depth and $T$-count as cost metrics to estimate quantum run times. Our\nfindings reproduce the results of Campbell, Khurana, and Montanaro (Quantum\n'19) in the unstructured case using hybrid benchmarking. However, we offer a\nmore sobering perspective in practically relevant regimes: almost all quantum\nspeedups vanish, even asymptotically, when minimal structure is introduced or\nwhen $T$-count is considered instead of $T$-depth. Moreover, when the\nrequirement is for the algorithm to find a solution within a single day, we\nfind that only Grover's algorithm has the potential to outperform classical\nalgorithms, but only in a very limited regime and only when using $T$-depth. We\nalso discuss how more sophisticated heuristics could restore the asymptotic\nscaling advantage for quantum backtracking, but our findings suggest that the\npotential for practical quantum speedups in more structured $k$-SAT solving\nwill remain limited.\n",
+  "subjects": [
+    "Physics/Quantum Physics",
+    "Computer Science/Data Structures and Algorithms"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "nB9zATaT4dIQO6eo2LJmfR5yQFIW9s54DnXUq6bOGYY",
+  "pdfSize": "830431"
+}

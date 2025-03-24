@@ -1,0 +1,42 @@
+{
+  "id": "2412.04529",
+  "title": "ProtBoost: protein function prediction with Py-Boost and Graph Neural\n  Networks -- CAFA5 top2 solution",
+  "authors": "Alexander Chervov, Anton Vakhrushev, Sergei Fironov, Loredana\n  Martignetti",
+  "authorsParsed": [
+    [
+      "Chervov",
+      "Alexander",
+      ""
+    ],
+    [
+      "Vakhrushev",
+      "Anton",
+      ""
+    ],
+    [
+      "Fironov",
+      "Sergei",
+      ""
+    ],
+    [
+      "Martignetti",
+      "Loredana",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 5 Dec 2024 16:48:37 GMT"
+    }
+  ],
+  "updateDate": "2024-12-09",
+  "timestamp": 1733417317000,
+  "abstract": "  Predicting protein properties, functions and localizations are important\ntasks in bioinformatics. Recent progress in machine learning offers an\nopportunities for improving existing methods. We developed a new approach\ncalled ProtBoost, which relies on the strength of pretrained protein language\nmodels, the new Py-Boost gradient boosting method and Graph Neural Networks\n(GCN). The ProtBoost method was ranked second best model in the recent Critical\nAssessment of Functional Annotation (CAFA5) international challenge with more\nthan 1600 participants. Py-Boost is the first gradient boosting method capable\nof predicting thousands of targets simultaneously, making it an ideal fit for\ntasks like the CAFA challange. Our GCN-based approach performs stacking of many\nindividual models and boosts the performance significantly. Notably, it can be\napplied to any task where targets are arranged in a hierarchical structure,\nsuch as Gene Ontology. Additionally, we introduced new methods for leveraging\nthe graph structure of targets and present an analysis of protein language\nmodels for protein function prediction task. ProtBoost is publicly available\nat: https://github.com/btbpanda/CAFA5-protein-function-prediction-2nd-place.\n",
+  "subjects": [
+    "Quantitative Biology/Quantitative Methods"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "ktqEIVSjfEsXRZA4sNHtJB0JHHv2g33n2VI92VJTIsA",
+  "pdfSize": "1598075"
+}

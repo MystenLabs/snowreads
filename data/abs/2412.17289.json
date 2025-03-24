@@ -1,0 +1,42 @@
+{
+  "id": "2412.17289",
+  "title": "A Quantum Super-Krylov Method for Ground State Energy Estimation",
+  "authors": "Adam Byrne, William Kirby, Kirk M. Soodhalter, Sergiy Zhuk",
+  "authorsParsed": [
+    [
+      "Byrne",
+      "Adam",
+      ""
+    ],
+    [
+      "Kirby",
+      "William",
+      ""
+    ],
+    [
+      "Soodhalter",
+      "Kirk M.",
+      ""
+    ],
+    [
+      "Zhuk",
+      "Sergiy",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 23 Dec 2024 05:21:43 GMT"
+    }
+  ],
+  "updateDate": "2024-12-24",
+  "timestamp": 1734931303000,
+  "abstract": "  Krylov quantum diagonalization methods for ground state energy estimation\nhave emerged as a compelling use case for quantum computers. However, many\nexisting methods rely on subroutines, in particular the Hadamard test, that are\nchallenging on near-term quantum hardware. Motivated by this problem, we\npresent a quantum Krylov method that uses only time evolutions and recovery\nprobabilities, making it well adapted for current quantum computers. This is\nsupplemented with a classical post-processing derivative estimation algorithm.\nThe method ultimately estimates the eigenvalues of the commutator\nsuper-operator $X\\to[H,X]$, so we declare it a super-Krylov method. We propose\napplying this method to estimate the ground-state energy of two classes of\nHamiltonians: where either the highest energy is easily computable, or where\nthe lowest and highest energies have the same absolute value. We prove that the\nresulting ground energy estimate converges in the noise-free regime and provide\na classical numerical demonstration of the method in the presence of noise.\n",
+  "subjects": [
+    "Physics/Quantum Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "cfJpvb9SG7RNvbOlSEFfkmk9y04yQ3E7u9L_pDZ4yho",
+  "pdfSize": "2045830"
+}

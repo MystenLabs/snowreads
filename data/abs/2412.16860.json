@@ -1,0 +1,53 @@
+{
+  "id": "2412.16860",
+  "title": "Diffusion-Based Approaches in Medical Image Generation and Analysis",
+  "authors": "Abdullah al Nomaan Nafi, Md. Alamgir Hossain, Rakib Hossain Rifat, Md\n  Mahabub Uz Zaman, Md Manjurul Ahsan, Shivakumar Raman",
+  "authorsParsed": [
+    [
+      "Nafi",
+      "Abdullah al Nomaan",
+      ""
+    ],
+    [
+      "Hossain",
+      "Md. Alamgir",
+      ""
+    ],
+    [
+      "Rifat",
+      "Rakib Hossain",
+      ""
+    ],
+    [
+      "Zaman",
+      "Md Mahabub Uz",
+      ""
+    ],
+    [
+      "Ahsan",
+      "Md Manjurul",
+      ""
+    ],
+    [
+      "Raman",
+      "Shivakumar",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 22 Dec 2024 05:02:05 GMT"
+    }
+  ],
+  "updateDate": "2024-12-24",
+  "timestamp": 1734843725000,
+  "abstract": "  Data scarcity in medical imaging poses significant challenges due to privacy\nconcerns. Diffusion models, a recent generative modeling technique, offer a\npotential solution by generating synthetic and realistic data. However,\nquestions remain about the performance of convolutional neural network (CNN)\nmodels on original and synthetic datasets. If diffusion-generated samples can\nhelp CNN models perform comparably to those trained on original datasets,\nreliance on patient-specific data for training CNNs might be reduced. In this\nstudy, we investigated the effectiveness of diffusion models for generating\nsynthetic medical images to train CNNs in three domains: Brain Tumor MRI, Acute\nLymphoblastic Leukemia (ALL), and SARS-CoV-2 CT scans. A diffusion model was\ntrained to generate synthetic datasets for each domain. Pre-trained CNN\narchitectures were then trained on these synthetic datasets and evaluated on\nunseen real data. All three datasets achieved promising classification\nperformance using CNNs trained on synthetic data. Local Interpretable\nModel-Agnostic Explanations (LIME) analysis revealed that the models focused on\nrelevant image features for classification. This study demonstrates the\npotential of diffusion models to generate synthetic medical images for training\nCNNs in medical image analysis.\n",
+  "subjects": [
+    "Electrical Engineering and Systems Science/Image and Video Processing",
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "bfatUJjHCr5Oy37FQ3zguuCHZGhlAjSDF-c9WsO-beo",
+  "pdfSize": "10731302"
+}

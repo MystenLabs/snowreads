@@ -1,0 +1,42 @@
+{
+  "id": "2412.08857",
+  "title": "Dynamic prediction of an event using multiple longitudinal markers: a\n  model averaging approach",
+  "authors": "Reza Hashemi, Taban Baghfalaki, Viviane Philipps, Helene Jacqmin-Gadda",
+  "authorsParsed": [
+    [
+      "Hashemi",
+      "Reza",
+      ""
+    ],
+    [
+      "Baghfalaki",
+      "Taban",
+      ""
+    ],
+    [
+      "Philipps",
+      "Viviane",
+      ""
+    ],
+    [
+      "Jacqmin-Gadda",
+      "Helene",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 12 Dec 2024 01:33:47 GMT"
+    }
+  ],
+  "updateDate": "2024-12-13",
+  "timestamp": 1733967227000,
+  "abstract": "  Dynamic event prediction, using joint modeling of survival time and\nlongitudinal variables, is extremely useful in personalized medicine. However,\nthe estimation of joint models including many longitudinal markers is still a\ncomputational challenge because of the high number of random effects and\nparameters to be estimated. In this paper, we propose a model averaging\nstrategy to combine predictions from several joint models for the event,\nincluding one longitudinal marker only or pairwise longitudinal markers. The\nprediction is computed as the weighted mean of the predictions from the\none-marker or two-marker models, with the time-dependent weights estimated by\nminimizing the time-dependent Brier score. This method enables us to combine a\nlarge number of predictions issued from joint models to achieve a reliable and\naccurate individual prediction. Advantages and limits of the proposed methods\nare highlighted in a simulation study by comparison with the predictions from\nwell-specified and misspecified all-marker joint models as well as the\none-marker and two-marker joint models. Using the PBC2 data set, the method is\nused to predict the risk of death in patients with primary biliary cirrhosis.\nThe method is also used to analyze a French cohort study called the 3C data. In\nour study, seventeen longitudinal markers are considered to predict the risk of\ndeath.\n",
+  "subjects": [
+    "Statistics/Methodology"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "XzUj4dWuv6YUfdrWS2njspH3HJkWYsTMxWcJN170dzY",
+  "pdfSize": "577194"
+}

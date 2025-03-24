@@ -1,0 +1,37 @@
+{
+  "id": "2412.03486",
+  "title": "Tight PAC-Bayesian Risk Certificates for Contrastive Learning",
+  "authors": "Anna Van Elst, Debarghya Ghoshdastidar",
+  "authorsParsed": [
+    [
+      "Van Elst",
+      "Anna",
+      ""
+    ],
+    [
+      "Ghoshdastidar",
+      "Debarghya",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 4 Dec 2024 17:23:35 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Thu, 5 Dec 2024 09:26:26 GMT"
+    }
+  ],
+  "updateDate": "2024-12-06",
+  "timestamp": 1733333015000,
+  "abstract": "  Contrastive representation learning is a modern paradigm for learning\nrepresentations of unlabeled data via augmentations -- precisely, contrastive\nmodels learn to embed semantically similar pairs of samples (positive pairs)\ncloser than independently drawn samples (negative samples). In spite of its\nempirical success and widespread use in foundation models, statistical theory\nfor contrastive learning remains less explored. Recent works have developed\ngeneralization error bounds for contrastive losses, but the resulting risk\ncertificates are either vacuous (certificates based on Rademacher complexity or\n$f$-divergence) or require strong assumptions about samples that are\nunreasonable in practice. The present paper develops non-vacuous PAC-Bayesian\nrisk certificates for contrastive representation learning, considering the\npractical considerations of the popular SimCLR framework. Notably, we take into\naccount that SimCLR reuses positive pairs of augmented data as negative samples\nfor other data, thereby inducing strong dependence and making classical PAC or\nPAC-Bayesian bounds inapplicable. We further refine existing bounds on the\ndownstream classification loss by incorporating SimCLR-specific factors,\nincluding data augmentation and temperature scaling, and derive risk\ncertificates for the contrastive zero-one risk. The resulting bounds for\ncontrastive loss and downstream prediction are much tighter than those of\nprevious risk certificates, as demonstrated by experiments on CIFAR-10.\n",
+  "subjects": [
+    "Statistics/Machine Learning",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "Qks5EI4stHh_9qVJv9yxuvA0kHZcJvH6TS0Hw1bnd8A",
+  "pdfSize": "404117"
+}

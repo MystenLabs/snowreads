@@ -1,0 +1,27 @@
+{
+  "id": "2412.12199",
+  "title": "Stochastic Gradient Descent in the Optimal Control of Execution Costs",
+  "authors": "Simeon Kolev",
+  "authorsParsed": [
+    [
+      "Kolev",
+      "Simeon",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 14 Dec 2024 19:54:59 GMT"
+    }
+  ],
+  "updateDate": "2024-12-18",
+  "timestamp": 1734206099000,
+  "abstract": "  Bertsimas and Lo's seminal work laid the groundwork for addressing the\nimplementation shortfall dilemma in institutional investing, emphasizing the\nsignificance of market microstructure and price dynamics in minimizing\nexecution costs. However, the ability to derive a theoretical Optimum market\norder policy is an unrealistic assumption for many investors. This study aims\nto bridge this gap by proposing an approach that leverages stochastic gradient\ndescent (SGD) to derive alternative solutions for optimizing execution cost\npolicies in dynamic markets where explicit mathematical solutions may not yet\nexist. The proposed methodology assumes the existence of a mathematically\nderived optimal solution that is a function of the underlying market dynamics.\nBy iteratively refining strategies using SGD, economists can adapt their\napproaches over time based on evolving execution strategies. While these\nSGD-based solutions may not achieve optimality, they offer valuable insights\ninto optimizing policies under complex market frameworks. These results serve\nas a bridge for economists and mathematicians, facilitating the study of the\nOptimum policy volatile markets while offering SGD driven implementable\npolicies that closely approximate optimal outcomes within shorter time frames.\n",
+  "subjects": [
+    "Quantitative Finance/Trading and Market Microstructure"
+  ],
+  "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+  "blobId": "McbA6hyQZset3N-8tSZTksZ3nXpUJcQYiCp5dsBmq3E",
+  "pdfSize": "640319"
+}

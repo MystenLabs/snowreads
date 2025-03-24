@@ -1,0 +1,48 @@
+{
+  "id": "2412.19806",
+  "title": "Vitron: A Unified Pixel-level Vision LLM for Understanding, Generating,\n  Segmenting, Editing",
+  "authors": "Hao Fei, Shengqiong Wu, Hanwang Zhang, Tat-Seng Chua, Shuicheng Yan",
+  "authorsParsed": [
+    [
+      "Fei",
+      "Hao",
+      ""
+    ],
+    [
+      "Wu",
+      "Shengqiong",
+      ""
+    ],
+    [
+      "Zhang",
+      "Hanwang",
+      ""
+    ],
+    [
+      "Chua",
+      "Tat-Seng",
+      ""
+    ],
+    [
+      "Yan",
+      "Shuicheng",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 8 Oct 2024 08:39:04 GMT"
+    }
+  ],
+  "updateDate": "2024-12-31",
+  "timestamp": 1728376744000,
+  "abstract": "  Recent developments of vision large language models (LLMs) have seen\nremarkable progress, yet still encounter challenges towards multimodal\ngeneralists, such as coarse-grained instance-level understanding, lack of\nunified support for both images and videos, and insufficient coverage across\nvarious vision tasks. In this paper, we present VITRON, a universal pixel-level\nvision LLM designed for comprehensive understanding, generating, segmenting,\nand editing of both static images and dynamic videos. Building on top of an LLM\nbackbone, VITRON incorporates encoders for images, videos, and pixel-level\nregional visuals within its frontend modules, while employing state-of-the-art\nvisual specialists as its backend, via which VITRON supports a spectrum of\nvision end tasks, spanning visual comprehension to visual generation, from low\nlevel to high level. To ensure an effective and precise message passing from\nLLM to backend modules for function invocation, we propose a novel hybrid\nmethod by simultaneously integrating discrete textual instructions and\ncontinuous signal embeddings. Further, we design various pixel-level\nspatiotemporal vision-language alignment learning for VITRON to reach the best\nfine-grained visual capability. Finally, a cross-task synergy module is advised\nto learn to maximize the task-invariant fine-grained visual features, enhancing\nthe synergy between different visual tasks. Demonstrated over 12 visual tasks\nand evaluated across 22 datasets, VITRON showcases its extensive capabilities\nin the four main vision task clusters. Overall, this work illuminates the great\npotential of developing a more unified multimodal generalist. Project homepage:\nhttps://vitron-llm.github.io/\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Human-Computer Interaction"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "G8z7rKx1yyNzyWmIlRHOMvHqEH0plfPyBaXbwUPRaPU",
+  "pdfSize": "11834184"
+}

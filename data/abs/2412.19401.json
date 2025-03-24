@@ -1,0 +1,49 @@
+{
+  "id": "2412.19401",
+  "title": "Joint Optimization of Multimodal Transit Frequency and Shared Autonomous\n  Vehicle Fleet Size with Hybrid Metaheuristic and Nonlinear Programming",
+  "authors": "Max T.M. Ng, Hani S. Mahmassani, Draco Tong, Omer Verbas, Taner\n  Cokyasar",
+  "authorsParsed": [
+    [
+      "Ng",
+      "Max T. M.",
+      ""
+    ],
+    [
+      "Mahmassani",
+      "Hani S.",
+      ""
+    ],
+    [
+      "Tong",
+      "Draco",
+      ""
+    ],
+    [
+      "Verbas",
+      "Omer",
+      ""
+    ],
+    [
+      "Cokyasar",
+      "Taner",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 27 Dec 2024 01:33:42 GMT"
+    }
+  ],
+  "updateDate": "2024-12-30",
+  "timestamp": 1735263222000,
+  "abstract": "  This paper presents an optimization framework for the joint multimodal\ntransit frequency and shared autonomous vehicle (SAV) fleet size optimization,\na problem variant of the transit network frequency setting problem (TNFSP) that\nexplicitly considers mode choice behavior and route selection. To address the\nnon-linear non-convex optimization problem, we develop a hybrid solution\napproach that combines metaheuristics (particle swarm optimization, PSO) with\nlocal nonlinear programming (NLP) improvement, incorporating approximation\nmodels for SAV waiting time, multimodal route choice, and mode choice. Applied\nto the Chicago metropolitan area, our method achieves a 33.3% increase in\ntransit ridership.\n",
+  "subjects": [
+    "Electrical Engineering and Systems Science/Systems and Control",
+    "Computer Science/Systems and Control",
+    "Mathematics/Optimization and Control"
+  ],
+  "license": "http://creativecommons.org/licenses/by-sa/4.0/",
+  "blobId": "SRBuS0GXFjfflsCndv0pYdHGFjXjddv6MbWptOHthYs",
+  "pdfSize": "1967408"
+}

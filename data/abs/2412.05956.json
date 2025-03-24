@@ -1,0 +1,38 @@
+{
+  "id": "2412.05956",
+  "title": "Uncertainty-Aware Capacity Expansion for Real-World DER Deployment via\n  End-to-End Network Integration",
+  "authors": "Yiyuan Pan, Yiheng Xie, Steven Low",
+  "authorsParsed": [
+    [
+      "Pan",
+      "Yiyuan",
+      ""
+    ],
+    [
+      "Xie",
+      "Yiheng",
+      ""
+    ],
+    [
+      "Low",
+      "Steven",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 8 Dec 2024 14:29:04 GMT"
+    }
+  ],
+  "updateDate": "2024-12-10",
+  "timestamp": 1733668144000,
+  "abstract": "  The deployment of distributed energy resource (DER) devices plays a critical\nrole in distribution grids, offering multiple value streams, including\ndecarbonization, provision of ancillary services, non-wire alternatives, and\nenhanced grid flexibility. However, existing research on capacity expansion\nsuffers from two major limitations that undermine the realistic accuracy of the\nproposed models: (i) the lack of modeling of three-phase unbalanced AC\ndistribution networks, and (ii) the absence of explicit treatment of model\nuncertainty. To address these challenges, we develop a two-stage robust\noptimization model that incorporates a 3-phase unbalanced power flow model for\nsolving the capacity expansion problem. Furthermore, we integrate a predictive\nneural network with the optimization model in an end-to-end training framework\nto handle uncertain variables with provable guarantees. Finally, we validate\nthe proposed framework using real-world power grid data collected from our\npartner distribution system operators. The experimental results demonstrate\nthat our hybrid framework, which combines the strengths of optimization models\nand neural networks, provides tractable decision-making support for DER\ndeployments in real-world scenarios.\n",
+  "subjects": [
+    "Electrical Engineering and Systems Science/Systems and Control",
+    "Computer Science/Systems and Control"
+  ],
+  "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+  "blobId": "bTcqhTi8C1lqsNOv8QDoxuQE90-uN6wdyL3IX_aOHuk",
+  "pdfSize": "760399"
+}

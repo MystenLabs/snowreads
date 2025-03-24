@@ -1,0 +1,62 @@
+{
+  "id": "2412.15554",
+  "title": "Architecture-Aware Learning Curve Extrapolation via Graph Ordinary\n  Differential Equation",
+  "authors": "Yanna Ding, Zijie Huang, Xiao Shou, Yihang Guo, Yizhou Sun, Jianxi Gao",
+  "authorsParsed": [
+    [
+      "Ding",
+      "Yanna",
+      ""
+    ],
+    [
+      "Huang",
+      "Zijie",
+      ""
+    ],
+    [
+      "Shou",
+      "Xiao",
+      ""
+    ],
+    [
+      "Guo",
+      "Yihang",
+      ""
+    ],
+    [
+      "Sun",
+      "Yizhou",
+      ""
+    ],
+    [
+      "Gao",
+      "Jianxi",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 20 Dec 2024 04:28:02 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Mon, 23 Dec 2024 02:48:27 GMT"
+    },
+    {
+      "version": "v3",
+      "created": "Sun, 19 Jan 2025 02:54:49 GMT"
+    }
+  ],
+  "updateDate": "2025-01-22",
+  "timestamp": 1734668882000,
+  "abstract": "  Learning curve extrapolation predicts neural network performance from early\ntraining epochs and has been applied to accelerate AutoML, facilitating\nhyperparameter tuning and neural architecture search. However, existing methods\ntypically model the evolution of learning curves in isolation, neglecting the\nimpact of neural network (NN) architectures, which influence the loss landscape\nand learning trajectories. In this work, we explore whether incorporating\nneural network architecture improves learning curve modeling and how to\neffectively integrate this architectural information. Motivated by the\ndynamical system view of optimization, we propose a novel architecture-aware\nneural differential equation model to forecast learning curves continuously. We\nempirically demonstrate its ability to capture the general trend of fluctuating\nlearning curves while quantifying uncertainty through variational parameters.\nOur model outperforms current state-of-the-art learning curve extrapolation\nmethods and pure time-series modeling approaches for both MLP and CNN-based\nlearning curves. Additionally, we explore the applicability of our method in\nNeural Architecture Search scenarios, such as training configuration ranking.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Computer Science/Artificial Intelligence",
+    "Statistics/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "U2fzeRQJT3tnZnRYz7RwrhFWLqQ96MbJG71gyQngajU",
+  "pdfSize": "1224329"
+}

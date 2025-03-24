@@ -1,0 +1,62 @@
+{
+  "id": "2412.18279",
+  "title": "Improving Multi-Step Reasoning Abilities of Large Language Models with\n  Direct Advantage Policy Optimization",
+  "authors": "Jiacai Liu and Chaojie Wang and Chris Yuhao Liu and Liang Zeng and Rui\n  Yan and Yiwen Sun and Yang Liu and Yahui Zhou",
+  "authorsParsed": [
+    [
+      "Liu",
+      "Jiacai",
+      ""
+    ],
+    [
+      "Wang",
+      "Chaojie",
+      ""
+    ],
+    [
+      "Liu",
+      "Chris Yuhao",
+      ""
+    ],
+    [
+      "Zeng",
+      "Liang",
+      ""
+    ],
+    [
+      "Yan",
+      "Rui",
+      ""
+    ],
+    [
+      "Sun",
+      "Yiwen",
+      ""
+    ],
+    [
+      "Liu",
+      "Yang",
+      ""
+    ],
+    [
+      "Zhou",
+      "Yahui",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 24 Dec 2024 08:39:35 GMT"
+    }
+  ],
+  "updateDate": "2024-12-25",
+  "timestamp": 1735029575000,
+  "abstract": "  The role of reinforcement learning (RL) in enhancing the reasoning of large\nlanguage models (LLMs) is becoming increasingly significant. Despite the\nsuccess of RL in many scenarios, there are still many challenges in improving\nthe reasoning of LLMs. One challenge is the sparse reward, which makes\noptimization difficult for RL and necessitates a large amount of data samples.\nAnother challenge stems from the inherent instability of RL, particularly when\nusing Actor-Critic (AC) methods to derive optimal policies, which often leads\nto unstable training processes. To address these issues, we introduce Direct\nAdvantage Policy Optimization (DAPO), an novel step-level offline RL algorithm.\nUnlike standard alignment that rely solely outcome rewards to optimize policies\n(such as DPO), DAPO employs a critic function to predict the reasoning accuracy\nat each step, thereby generating dense signals to refine the generation\nstrategy. Additionally, the Actor and Critic components in DAPO are trained\nindependently, avoiding the co-training instability observed in standard AC\nalgorithms like PPO. We train DAPO on mathematical and code query datasets and\nthen evaluate its performance on multiple benchmarks. Our results show that\nDAPO can effectively enhance the mathematical and code capabilities on both SFT\nmodels and RL models, demonstrating the effectiveness of DAPO.\n",
+  "subjects": [
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "SrJ3II3SVTn1c4wNjXEe-3qC8R8U23Ft4A6hl5tmBms",
+  "pdfSize": "1302492"
+}

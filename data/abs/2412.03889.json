@@ -1,0 +1,53 @@
+{
+  "id": "2412.03889",
+  "title": "ShapeCraft: Body-Aware and Semantics-Aware 3D Object Design",
+  "authors": "Michelle Guo, Mia Tang, Hannah Cha, Ruohan Zhang, C. Karen Liu, Jiajun\n  Wu",
+  "authorsParsed": [
+    [
+      "Guo",
+      "Michelle",
+      ""
+    ],
+    [
+      "Tang",
+      "Mia",
+      ""
+    ],
+    [
+      "Cha",
+      "Hannah",
+      ""
+    ],
+    [
+      "Zhang",
+      "Ruohan",
+      ""
+    ],
+    [
+      "Liu",
+      "C. Karen",
+      ""
+    ],
+    [
+      "Wu",
+      "Jiajun",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 5 Dec 2024 05:41:34 GMT"
+    }
+  ],
+  "updateDate": "2024-12-06",
+  "timestamp": 1733377294000,
+  "abstract": "  For designing a wide range of everyday objects, the design process should be\naware of both the human body and the underlying semantics of the design\nspecification. However, these two objectives present significant challenges to\nthe current AI-based designing tools. In this work, we present a method to\nsynthesize body-aware 3D objects from a base mesh given an input body geometry\nand either text or image as guidance. The generated objects can be simulated on\nvirtual characters, or fabricated for real-world use. We propose to use a mesh\ndeformation procedure that optimizes for both semantic alignment as well as\ncontact and penetration losses. Using our method, users can generate both\nvirtual or real-world objects from text, image, or sketch, without the need for\nmanual artist intervention. We present both qualitative and quantitative\nresults on various object categories, demonstrating the effectiveness of our\napproach.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Graphics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "7o6y2T8V6T026Qoz1iXagsYAXXOn4ckBn_MLPP3QRUI",
+  "pdfSize": "8973662"
+}

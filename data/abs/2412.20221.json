@@ -1,0 +1,44 @@
+{
+  "id": "2412.20221",
+  "title": "Revisiting Cache Freshness for Emerging Real-Time Applications",
+  "authors": "Ziming Mao, Rishabh Iyer, Scott Shenker, Ion Stoica",
+  "authorsParsed": [
+    [
+      "Mao",
+      "Ziming",
+      ""
+    ],
+    [
+      "Iyer",
+      "Rishabh",
+      ""
+    ],
+    [
+      "Shenker",
+      "Scott",
+      ""
+    ],
+    [
+      "Stoica",
+      "Ion",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 28 Dec 2024 17:17:03 GMT"
+    }
+  ],
+  "updateDate": "2024-12-31",
+  "timestamp": 1735406223000,
+  "abstract": "  Caching is widely used in industry to improve application performance by\nreducing data-access latency and taking the load off the backend\ninfrastructure. TTLs have become the de-facto mechanism used to keep cached\ndata reasonably fresh (i.e., not too out of date with the backend). However,\nthe emergence of real-time applications requires tighter data freshness, which\nis impractical to achieve with TTLs. We discuss why this is the case, and\npropose a simple yet effective adaptive policy to achieve the desired\nfreshness.\n",
+  "subjects": [
+    "Computer Science/Operating Systems",
+    "Computer Science/Distributed, Parallel, and Cluster Computing",
+    "Computer Science/Networking and Internet Architecture"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "IGP1mkBE7W9SD7NL2K9PfbJqKx1AOCkxJNcg0Dcr-y4",
+  "pdfSize": "896581"
+}

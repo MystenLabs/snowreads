@@ -1,0 +1,28 @@
+{
+  "id": "2412.10949",
+  "title": "Security Engineering in IIIf, Part II -- Refinement and Noninterference",
+  "authors": "Florian Kamm\\\"uller",
+  "authorsParsed": [
+    [
+      "Kammüller",
+      "Florian",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 14 Dec 2024 20:06:27 GMT"
+    }
+  ],
+  "updateDate": "2024-12-17",
+  "timestamp": 1734206787000,
+  "abstract": "  In this paper, we add a second part to the process of Security Engineering to\nthe Isabelle Insider and Infrastructure framework (IIIf) [31,16] by addressing\nan old difficult task of refining Information Flow Security (IFC). We address\nthe classical notion of Noninterference representing absolute security in the\nsense of absence of information flows to lower levels. This notion is known to\nbe not preserved by specification refinements in general, a phenomenon known as\n\"refinement paradox\" [33]. We use a solution for this problem that has been\ngiven by Morgan [33] for the refinement calculus for sequential program\nspecifications and generalize it to general specifications of Infrastructures\nwith actors, decentralization and policies in the IIIf. As a running example to\nillustrate the problem, the concepts and the solution, we use an example of a\nFlightradar system specification [20].\n",
+  "subjects": [
+    "Computer Science/Software Engineering",
+    "Computer Science/Logic in Computer Science"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "wHObb-Kz3xM_gQGgSCUn-Ui_MIRSQ8SoLMBlHycbTN0",
+  "pdfSize": "1679170"
+}

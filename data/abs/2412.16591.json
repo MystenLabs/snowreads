@@ -1,0 +1,33 @@
+{
+  "id": "2412.16591",
+  "title": "Data-Driven Economic Agent-Based Models",
+  "authors": "Marco Pangallo, R. Maria del Rio-Chanona",
+  "authorsParsed": [
+    [
+      "Pangallo",
+      "Marco",
+      ""
+    ],
+    [
+      "del Rio-Chanona",
+      "R. Maria",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 21 Dec 2024 11:49:50 GMT"
+    }
+  ],
+  "updateDate": "2024-12-24",
+  "timestamp": 1734781790000,
+  "abstract": "  Economic agent-based models (ABMs) are becoming more and more data-driven,\nestablishing themselves as increasingly valuable tools for economic research\nand policymaking. We propose to classify the extent to which an ABM is\ndata-driven based on whether agent-level quantities are initialized from\nreal-world micro-data and whether the ABM's dynamics track empirical time\nseries. This paper discusses how making ABMs data-driven helps overcome\nlimitations of traditional ABMs and makes ABMs a stronger alternative to\nequilibrium models. We review state-of-the-art methods in parameter\ncalibration, initialization, and data assimilation, and then present successful\napplications that have generated new scientific knowledge and informed policy\ndecisions. This paper serves as a manifesto for data-driven ABMs, introducing a\ndefinition and classification and outlining the state of the field, and as a\nguide for those new to the field.\n",
+  "subjects": [
+    "Economics/General Economics",
+    "Quantitative Finance/Economics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "C31TDM3o6mEOX_fiBtZwGwJk_wT1BiUjpwsV0eJ_Gjs",
+  "pdfSize": "494924"
+}

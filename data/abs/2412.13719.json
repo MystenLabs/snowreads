@@ -1,0 +1,33 @@
+{
+  "id": "2412.13719",
+  "title": "Heuristic Planner for Communication-Constrained Multi-Agent Multi-Goal\n  Path Planning",
+  "authors": "J\\'achym Herynek and Stefan Edelkamp",
+  "authorsParsed": [
+    [
+      "Herynek",
+      "Jáchym",
+      ""
+    ],
+    [
+      "Edelkamp",
+      "Stefan",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 18 Dec 2024 11:00:46 GMT"
+    }
+  ],
+  "updateDate": "2024-12-19",
+  "timestamp": 1734519646000,
+  "abstract": "  In robotics, coordinating a group of robots is an essential task. This work\npresents the communication-constrained multi-agent multi-goal path planning\nproblem and proposes a graph-search based algorithm to address this task. Given\na fleet of robots, an environment represented by a weighted graph, and a\nsequence of goals, the aim is to visit all the goals without breaking the\ncommunication constraints between the agents, minimizing the completion time.\nThe resulting paths produced by our approach show how the agents can coordinate\ntheir individual paths, not only with respect to the next goal but also with\nrespect to all future goals, all the time keeping the communication within the\nfleet intact.\n",
+  "subjects": [
+    "Computer Science/Multiagent Systems",
+    "Computer Science/Robotics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "c6MXKMH5nJ7J7ZEcb51nJtw6cNS-MXodU7YIl80S5-k",
+  "pdfSize": "1327206"
+}

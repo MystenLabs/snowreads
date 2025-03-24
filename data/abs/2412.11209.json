@@ -1,0 +1,28 @@
+{
+  "id": "2412.11209",
+  "title": "A scattering construction for nonlinear wave equations on Kerr--Anti-de\n  Sitter spacetimes",
+  "authors": "Gemma L. Hood",
+  "authorsParsed": [
+    [
+      "Hood",
+      "Gemma L.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 15 Dec 2024 14:58:26 GMT"
+    }
+  ],
+  "updateDate": "2024-12-17",
+  "timestamp": 1734274706000,
+  "abstract": "  Existence of a large class of exponentially decaying solutions of the\nnonlinear massive wave equation $\\Box_g\\psi+\\alpha\\psi =\n\\mathcal{F}(\\psi,\\partial\\psi)$ on a Kerr--Anti-de Sitter exterior is\nestablished via a backwards scattering construction. Exponentially decaying\ndata is prescribed on the future event horizon, and Dirichlet data on the\ntimelike conformal boundary. The corresponding solutions exhibit the full\nfunctional degrees of freedom of the problem, but are exceptional in the sense\nthat (even) general solutions of the forward, linear ($\\mathcal{F}=0$) problem\nare known to decay at best inverse logarithmically. Our construction even\napplies outside of the \\textit{Hawking-Reall bound} on the spacetime angular\nmomentum, in which case, there exist exponentially growing mode solutions of\nthe forward problem. As for the analogous construction in the asymptotically\nflat case, the assumed exponential decay of the scattering data on the event\nhorizon is exploited to overcome the gravitational blueshift encountered in the\nbackwards construction.\n",
+  "subjects": [
+    "Physics/General Relativity and Quantum Cosmology",
+    "Physics/High Energy Physics - Theory"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "y0gVs9bDiuFKr_fb4p9XDAA2oLES6qW8L9VkrIEbbLg",
+  "pdfSize": "780624"
+}

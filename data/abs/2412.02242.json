@@ -1,0 +1,55 @@
+{
+  "id": "2412.02242",
+  "title": "U-Net in Medical Image Segmentation: A Review of Its Applications Across\n  Modalities",
+  "authors": "Fnu Neha, Deepshikha Bhati, Deepak Kumar Shukla, Sonavi Makarand\n  Dalvi, Nikolaos Mantzou, Safa Shubbar",
+  "authorsParsed": [
+    [
+      "Neha",
+      "Fnu",
+      ""
+    ],
+    [
+      "Bhati",
+      "Deepshikha",
+      ""
+    ],
+    [
+      "Shukla",
+      "Deepak Kumar",
+      ""
+    ],
+    [
+      "Dalvi",
+      "Sonavi Makarand",
+      ""
+    ],
+    [
+      "Mantzou",
+      "Nikolaos",
+      ""
+    ],
+    [
+      "Shubbar",
+      "Safa",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 3 Dec 2024 08:11:06 GMT"
+    }
+  ],
+  "updateDate": "2024-12-04",
+  "timestamp": 1733213466000,
+  "abstract": "  Medical imaging is essential in healthcare to provide key insights into\npatient anatomy and pathology, aiding in diagnosis and treatment. Non-invasive\ntechniques such as X-ray, Magnetic Resonance Imaging (MRI), Computed Tomography\n(CT), and Ultrasound (US), capture detailed images of organs, tissues, and\nabnormalities. Effective analysis of these images requires precise segmentation\nto delineate regions of interest (ROI), such as organs or lesions. Traditional\nsegmentation methods, relying on manual feature-extraction, are labor-intensive\nand vary across experts. Recent advancements in Artificial Intelligence (AI)\nand Deep Learning (DL), particularly convolutional models such as U-Net and its\nvariants (U-Net++ and U-Net 3+), have transformed medical image segmentation\n(MIS) by automating the process and enhancing accuracy. These models enable\nefficient, precise pixel-wise classification across various imaging modalities,\novercoming the limitations of manual segmentation. This review explores various\nmedical imaging techniques, examines the U-Net architectures and their\nadaptations, and discusses their application across different modalities. It\nalso identifies common challenges in MIS and proposes potential solutions.\n",
+  "subjects": [
+    "Electrical Engineering and Systems Science/Image and Video Processing",
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "_xd5547wWtLhzuDGrX7yKbA1fG-uhdsQjYsADWR6bIc",
+  "pdfSize": "3299071"
+}

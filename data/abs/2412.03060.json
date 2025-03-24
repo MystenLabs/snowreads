@@ -1,0 +1,62 @@
+{
+  "id": "2412.03060",
+  "title": "Single photonic qutrit in a collective Rydberg polariton",
+  "authors": "Yuechun Jiao, Oliver D. W. Hughes, Max Z. Festenstein, Zhengyang Bai,\n  Jianming Zhao, Weibin Li, Kevin J. Weatherill, and C. Stuart Adams",
+  "authorsParsed": [
+    [
+      "Jiao",
+      "Yuechun",
+      ""
+    ],
+    [
+      "Hughes",
+      "Oliver D. W.",
+      ""
+    ],
+    [
+      "Festenstein",
+      "Max Z.",
+      ""
+    ],
+    [
+      "Bai",
+      "Zhengyang",
+      ""
+    ],
+    [
+      "Zhao",
+      "Jianming",
+      ""
+    ],
+    [
+      "Li",
+      "Weibin",
+      ""
+    ],
+    [
+      "Weatherill",
+      "Kevin J.",
+      ""
+    ],
+    [
+      "Adams",
+      "C. Stuart",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 4 Dec 2024 06:30:42 GMT"
+    }
+  ],
+  "updateDate": "2024-12-05",
+  "timestamp": 1733293842000,
+  "abstract": "  We report on the coherent creation, control and read-out of a single photonic\nqutrit in a Rydberg ensemble. In each measurement, an optical photon is stored\nas a Rydberg polariton through electromagnetically induced transparency.\nEmploying two microwave fields, the polariton is driven into an arbitrary\nsuperposition of three collective states, each encoded in a Rydberg state. The\ncollective state is mapped into a photonic time-bin qutrit with the microwave\nfield and read out sequentially. The complete sequence, including preparation,\ncontrol, and read-out, is less than 1.8~$\\mu$s, which mitigates decoherence\nsignificantly. We measure the coherence of the qutrit with non-destructive\nRamsey interferometry, which is preferable for quantum information processing,\nand find good quantitative agreement with the theoretical model. The ability to\nwrite, process and read out the single photonic qutrit on microsecond time\nscales with microwave coupled Rydberg states demonstrates the coherent\nconnectivity among the high Hilbert space of the qutrit.Our study is an\nimportant step in exploring qutrit based quantum information processes and\nquantum simulation of topological physics with microwave coupled Rydberg atom\nensembles.\n",
+  "subjects": [
+    "Physics/Quantum Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "IvKKJINSsG85QQwiGT4jFSfrFIoMqt94SvyehzqCmTA",
+  "pdfSize": "1457624"
+}

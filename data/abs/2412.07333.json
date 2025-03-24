@@ -1,0 +1,53 @@
+{
+  "id": "2412.07333",
+  "title": "Fusion Embedding for Pose-Guided Person Image Synthesis with Diffusion\n  Model",
+  "authors": "Donghwna Lee, Kyungha Min, Kirok Kim, Seyoung Jeong, Jiwoo Jeong,\n  Wooju Kim",
+  "authorsParsed": [
+    [
+      "Lee",
+      "Donghwna",
+      ""
+    ],
+    [
+      "Min",
+      "Kyungha",
+      ""
+    ],
+    [
+      "Kim",
+      "Kirok",
+      ""
+    ],
+    [
+      "Jeong",
+      "Seyoung",
+      ""
+    ],
+    [
+      "Jeong",
+      "Jiwoo",
+      ""
+    ],
+    [
+      "Kim",
+      "Wooju",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 10 Dec 2024 09:25:01 GMT"
+    }
+  ],
+  "updateDate": "2024-12-11",
+  "timestamp": 1733822701000,
+  "abstract": "  Pose-Guided Person Image Synthesis (PGPIS) aims to synthesize high-quality\nperson images corresponding to target poses while preserving the appearance of\nthe source image. Recently, PGPIS methods that use diffusion models have\nachieved competitive performance. Most approaches involve extracting\nrepresentations of the target pose and source image and learning their\nrelationships in the generative model's training process. This approach makes\nit difficult to learn the semantic relationships between the input and target\nimages and complicates the model structure needed to enhance generation\nresults. To address these issues, we propose Fusion embedding for PGPIS using a\nDiffusion Model (FPDM). Inspired by the successful application of pre-trained\nCLIP models in text-to-image diffusion models, our method consists of two\nstages. The first stage involves training the fusion embedding of the source\nimage and target pose to align with the target image's embedding. In the second\nstage, the generative model uses this fusion embedding as a condition to\ngenerate the target image. We applied the proposed method to the benchmark\ndatasets DeepFashion and RWTH-PHOENIX-Weather 2014T, and conducted both\nquantitative and qualitative evaluations, demonstrating state-of-the-art (SOTA)\nperformance. An ablation study of the model structure showed that even a model\nusing only the second stage achieved performance close to the other PGPIS SOTA\nmodels. The code is available at https://github.com/dhlee-work/FPDM.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "geZFqO-TIkZqZGBfs0m0jLjmFt0QX_z4g6oO6SKdHMo",
+  "pdfSize": "32169545"
+}

@@ -1,0 +1,38 @@
+{
+  "id": "2412.17723",
+  "title": "Asynchronous Federated Learning: A Scalable Approach for Decentralized\n  Machine Learning",
+  "authors": "Ali Forootani, Raffaele Iervolino",
+  "authorsParsed": [
+    [
+      "Forootani",
+      "Ali",
+      ""
+    ],
+    [
+      "Iervolino",
+      "Raffaele",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 23 Dec 2024 17:11:02 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Sat, 11 Jan 2025 19:28:45 GMT"
+    }
+  ],
+  "updateDate": "2025-01-14",
+  "timestamp": 1734973862000,
+  "abstract": "  Federated Learning (FL) has emerged as a powerful paradigm for decentralized\nmachine learning, enabling collaborative model training across diverse clients\nwithout sharing raw data. However, traditional FL approaches often face\nlimitations in scalability and efficiency due to their reliance on synchronous\nclient updates, which can result in significant delays and increased\ncommunication overhead, particularly in heterogeneous and dynamic environments.\nTo address these challenges in this paper, we propose an Asynchronous Federated\nLearning (AFL) algorithm, which allows clients to update the global model\nindependently and asynchronously. Our key contributions include a comprehensive\nconvergence analysis of AFL in the presence of client delays and model\nstaleness. By leveraging martingale difference sequence theory and variance\nbounds, we ensure robust convergence despite asynchronous updates. Assuming\nstrongly convex local objective functions, we establish bounds on gradient\nvariance under random client sampling and derive a recursion formula\nquantifying the impact of client delays on convergence.\n  The proposed AFL algorithm addresses key limitations of traditional FL\nmethods, such as inefficiency due to global synchronization and susceptibility\nto client drift. It enhances scalability, robustness, and efficiency in\nreal-world settings with heterogeneous client populations and dynamic network\nconditions. Our results underscore the potential of AFL to drive advancements\nin distributed learning systems, particularly for large-scale,\nprivacy-preserving applications in resource-constrained environments.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Computer Science/Systems and Control",
+    "Electrical Engineering and Systems Science/Systems and Control"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "Od70tsyjtxUbk2_FiGXe6SBj31U2D3MFLR3UpjUt6bs",
+  "pdfSize": "533005"
+}

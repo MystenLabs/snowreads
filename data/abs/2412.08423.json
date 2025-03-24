@@ -1,0 +1,43 @@
+{
+  "id": "2412.08423",
+  "title": "On the injective dimension of unit Cartier and Frobenius modules",
+  "authors": "Manuel Blickle, Daniel Fink, Alexandria Wheeler, Wenliang Zhang",
+  "authorsParsed": [
+    [
+      "Blickle",
+      "Manuel",
+      ""
+    ],
+    [
+      "Fink",
+      "Daniel",
+      ""
+    ],
+    [
+      "Wheeler",
+      "Alexandria",
+      ""
+    ],
+    [
+      "Zhang",
+      "Wenliang",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 11 Dec 2024 14:43:06 GMT"
+    }
+  ],
+  "updateDate": "2024-12-12",
+  "timestamp": 1733928186000,
+  "abstract": "  Let $R$ be a regular $F$-finite ring of prime characteristic $p$. We prove\nthat the injective dimension of every unit Frobenius module $M$ in the category\nof unit Frobenius modules is at most\n$\\operatorname{dim}(\\operatorname{Supp}_R(M))+1$. We further show that for unit\nCartier modules the same bound holds over any noetherian $F$-finite ring $A$ of\nprime characteristic $p$. This shows that $\\dim A+1$ is a uniform upper bound\nfor the injective dimension of any unit Cartier module over a noetherian\n$F$-finite ring $A$.\n",
+  "subjects": [
+    "Mathematics/Commutative Algebra",
+    "Mathematics/Algebraic Geometry"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "ggH3k5Yr9sizXp2M8uTk2hqwJa7SMODDkOlZ-yHZD54",
+  "pdfSize": "155792"
+}

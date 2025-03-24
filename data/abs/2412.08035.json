@@ -1,0 +1,48 @@
+{
+  "id": "2412.08035",
+  "title": "Scalable, Validated Code Translation of Entire Projects using Large\n  Language Models",
+  "authors": "Hanliang Zhang, Cristina David, Meng Wang, Brandon Paulsen, Daniel\n  Kroening",
+  "authorsParsed": [
+    [
+      "Zhang",
+      "Hanliang",
+      ""
+    ],
+    [
+      "David",
+      "Cristina",
+      ""
+    ],
+    [
+      "Wang",
+      "Meng",
+      ""
+    ],
+    [
+      "Paulsen",
+      "Brandon",
+      ""
+    ],
+    [
+      "Kroening",
+      "Daniel",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 11 Dec 2024 02:31:46 GMT"
+    }
+  ],
+  "updateDate": "2024-12-12",
+  "timestamp": 1733884306000,
+  "abstract": "  Large language models (LLMs) show promise in code translation due to their\nability to generate idiomatic code. However, a significant limitation when\nusing LLMs for code translation is scalability: existing works have shown a\ndrop in translation success rates for code exceeding around 100 lines. We\novercome this limitation by developing a modular approach to translation, where\nwe partition the code into small code fragments which can be translated\nindependently and semantically validated (that is, checking I/O equivalence).\nWhen this approach is applied naively, we discover that LLMs are unreliable\nwhen translating features of the source language that do not have a direct\nmapping to the target language, and that the LLM often gets stuck in repair\nloops when attempting to fix errors. To address these issues, we introduce two\nkey concepts: (1) feature mapping, which integrates predefined translation\nrules with LLM-based translation to guide the LLM in navigating subtle language\ndifferences and producing semantically accurate code; and (2)\ntype-compatibility, which facilitates localized checks at the function\nsignature level to detect errors early, thereby narrowing the scope of\npotential repairs. We apply our approach to translating real-world Go codebases\nto Rust, demonstrating that we can consistently generate reliable Rust\ntranslations for projects up to 6,600 lines of code and 369 functions, with an\naverage of 73% of functions successfully validated for I/O equivalence,\nconsiderably higher than any existing work.\n",
+  "subjects": [
+    "Computer Science/Programming Languages",
+    "Computer Science/Software Engineering"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "ogzGlWyJTWOyUQywf8qXdIPtGWkQDYFlyh8bit2eDJ0",
+  "pdfSize": "402095"
+}

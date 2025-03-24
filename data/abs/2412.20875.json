@@ -1,0 +1,52 @@
+{
+  "id": "2412.20875",
+  "title": "Attention Is All You Need For Mixture-of-Depths Routing",
+  "authors": "Advait Gadhikar, Souptik Kumar Majumdar, Niclas Popp, Piyapat\n  Saranrittichai, Martin Rapp and Lukas Schott",
+  "authorsParsed": [
+    [
+      "Gadhikar",
+      "Advait",
+      ""
+    ],
+    [
+      "Majumdar",
+      "Souptik Kumar",
+      ""
+    ],
+    [
+      "Popp",
+      "Niclas",
+      ""
+    ],
+    [
+      "Saranrittichai",
+      "Piyapat",
+      ""
+    ],
+    [
+      "Rapp",
+      "Martin",
+      ""
+    ],
+    [
+      "Schott",
+      "Lukas",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 30 Dec 2024 11:25:54 GMT"
+    }
+  ],
+  "updateDate": "2024-12-31",
+  "timestamp": 1735557954000,
+  "abstract": "  Advancements in deep learning are driven by training models with increasingly\nlarger numbers of parameters, which in turn heightens the computational\ndemands. To address this issue, Mixture-of-Depths (MoD) models have been\nproposed to dynamically assign computations only to the most relevant parts of\nthe inputs, thereby enabling the deployment of large-parameter models with high\nefficiency during inference and training. These MoD models utilize a routing\nmechanism to determine which tokens should be processed by a layer, or skipped.\nHowever, conventional MoD models employ additional network layers specifically\nfor the routing which are difficult to train, and add complexity and deployment\noverhead to the model. In this paper, we introduce a novel attention-based\nrouting mechanism A-MoD that leverages the existing attention map of the\npreceding layer for routing decisions within the current layer. Compared to\nstandard routing, A-MoD allows for more efficient training as it introduces no\nadditional trainable parameters and can be easily adapted from pretrained\ntransformer models. Furthermore, it can increase the performance of the MoD\nmodel. For instance, we observe up to 2% higher accuracy on ImageNet compared\nto standard routing and isoFLOP ViT baselines. Furthermore, A-MoD improves the\nMoD training convergence, leading to up to 2x faster transfer learning.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+  "blobId": "PkgFIAhFPWmbSaeRe0R1vhB6BrYKHlRaGvCEmj4i1C4",
+  "pdfSize": "4054765"
+}

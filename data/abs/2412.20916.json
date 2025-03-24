@@ -1,0 +1,52 @@
+{
+  "id": "2412.20916",
+  "title": "Low-Light Image Enhancement via Generative Perceptual Priors",
+  "authors": "Han Zhou, Wei Dong, Xiaohong Liu, Yulun Zhang, Guangtao Zhai, Jun Chen",
+  "authorsParsed": [
+    [
+      "Zhou",
+      "Han",
+      ""
+    ],
+    [
+      "Dong",
+      "Wei",
+      ""
+    ],
+    [
+      "Liu",
+      "Xiaohong",
+      ""
+    ],
+    [
+      "Zhang",
+      "Yulun",
+      ""
+    ],
+    [
+      "Zhai",
+      "Guangtao",
+      ""
+    ],
+    [
+      "Chen",
+      "Jun",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 30 Dec 2024 12:51:52 GMT"
+    }
+  ],
+  "updateDate": "2024-12-31",
+  "timestamp": 1735563112000,
+  "abstract": "  Although significant progress has been made in enhancing visibility,\nretrieving texture details, and mitigating noise in Low-Light (LL) images, the\nchallenge persists in applying current Low-Light Image Enhancement (LLIE)\nmethods to real-world scenarios, primarily due to the diverse illumination\nconditions encountered. Furthermore, the quest for generating enhancements that\nare visually realistic and attractive remains an underexplored realm. In\nresponse to these challenges, we introduce a novel \\textbf{LLIE} framework with\nthe guidance of \\textbf{G}enerative \\textbf{P}erceptual \\textbf{P}riors\n(\\textbf{GPP-LLIE}) derived from vision-language models (VLMs). Specifically,\nwe first propose a pipeline that guides VLMs to assess multiple visual\nattributes of the LL image and quantify the assessment to output the global and\nlocal perceptual priors. Subsequently, to incorporate these generative\nperceptual priors to benefit LLIE, we introduce a transformer-based backbone in\nthe diffusion process, and develop a new layer normalization\n(\\textit{\\textbf{GPP-LN}}) and an attention mechanism\n(\\textit{\\textbf{LPP-Attn}}) guided by global and local perceptual priors.\nExtensive experiments demonstrate that our model outperforms current SOTA\nmethods on paired LL datasets and exhibits superior generalization on\nreal-world data. The code is released at\n\\url{https://github.com/LowLevelAI/GPP-LLIE}.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "6MGtnoBmemb-ZGR4Zpx2D5AkRFsZ1_vm10R85X5ZX4o",
+  "pdfSize": "11581652"
+}

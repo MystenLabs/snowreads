@@ -1,0 +1,38 @@
+{
+  "id": "2412.13881",
+  "title": "Understanding and Analyzing Model Robustness and Knowledge-Transfer in\n  Multilingual Neural Machine Translation using TX-Ray",
+  "authors": "Vageesh Saxena and Sharid Lo\\'aiciga and Nils Rethmeier",
+  "authorsParsed": [
+    [
+      "Saxena",
+      "Vageesh",
+      ""
+    ],
+    [
+      "Loáiciga",
+      "Sharid",
+      ""
+    ],
+    [
+      "Rethmeier",
+      "Nils",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 18 Dec 2024 14:21:58 GMT"
+    }
+  ],
+  "updateDate": "2024-12-19",
+  "timestamp": 1734531718000,
+  "abstract": "  Neural networks have demonstrated significant advancements in Neural Machine\nTranslation (NMT) compared to conventional phrase-based approaches. However,\nMultilingual Neural Machine Translation (MNMT) in extremely low-resource\nsettings remains underexplored. This research investigates how knowledge\ntransfer across languages can enhance MNMT in such scenarios. Using the Tatoeba\ntranslation challenge dataset from Helsinki NLP, we perform English-German,\nEnglish-French, and English-Spanish translations, leveraging minimal parallel\ndata to establish cross-lingual mappings. Unlike conventional methods relying\non extensive pre-training for specific language pairs, we pre-train our model\non English-English translations, setting English as the source language for all\ntasks. The model is fine-tuned on target language pairs using joint multi-task\nand sequential transfer learning strategies. Our work addresses three key\nquestions: (1) How can knowledge transfer across languages improve MNMT in\nextremely low-resource scenarios? (2) How does pruning neuron knowledge affect\nmodel generalization, robustness, and catastrophic forgetting? (3) How can\nTX-Ray interpret and quantify knowledge transfer in trained models? Evaluation\nusing BLEU-4 scores demonstrates that sequential transfer learning outperforms\nbaselines on a 40k parallel sentence corpus, showcasing its efficacy. However,\npruning neuron knowledge degrades performance, increases catastrophic\nforgetting, and fails to improve robustness or generalization. Our findings\nprovide valuable insights into the potential and limitations of knowledge\ntransfer and pruning in MNMT for extremely low-resource settings.\n",
+  "subjects": [
+    "Computer Science/Computation and Language",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "EEAPTgWBKJkAOQ5fTaGF7eESGcSghzFGEghpD3eIEHQ",
+  "pdfSize": "3707121"
+}

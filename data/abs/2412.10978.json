@@ -1,0 +1,67 @@
+{
+  "id": "2412.10978",
+  "title": "Labeling NIDS Rules with MITRE ATT&CK Techniques: Machine Learning vs.\n  Large Language Models",
+  "authors": "Nir Daniel, Florian Klaus Kaiser, Shay Giladi, Sapir Sharabi, Raz\n  Moyal, Shalev Shpolyansky, Andres Murillo, Aviad Elyashar and Rami Puzis",
+  "authorsParsed": [
+    [
+      "Daniel",
+      "Nir",
+      ""
+    ],
+    [
+      "Kaiser",
+      "Florian Klaus",
+      ""
+    ],
+    [
+      "Giladi",
+      "Shay",
+      ""
+    ],
+    [
+      "Sharabi",
+      "Sapir",
+      ""
+    ],
+    [
+      "Moyal",
+      "Raz",
+      ""
+    ],
+    [
+      "Shpolyansky",
+      "Shalev",
+      ""
+    ],
+    [
+      "Murillo",
+      "Andres",
+      ""
+    ],
+    [
+      "Elyashar",
+      "Aviad",
+      ""
+    ],
+    [
+      "Puzis",
+      "Rami",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 14 Dec 2024 21:52:35 GMT"
+    }
+  ],
+  "updateDate": "2024-12-17",
+  "timestamp": 1734213155000,
+  "abstract": "  Analysts in Security Operations Centers (SOCs) are often occupied with\ntime-consuming investigations of alerts from Network Intrusion Detection\nSystems (NIDS). Many NIDS rules lack clear explanations and associations with\nattack techniques, complicating the alert triage and the generation of attack\nhypotheses. Large Language Models (LLMs) may be a promising technology to\nreduce the alert explainability gap by associating rules with attack\ntechniques. In this paper, we investigate the ability of three prominent LLMs\n(ChatGPT, Claude, and Gemini) to reason about NIDS rules while labeling them\nwith MITRE ATT&CK tactics and techniques. We discuss prompt design and present\nexperiments performed with 973 Snort rules. Our results indicate that while\nLLMs provide explainable, scalable, and efficient initial mappings, traditional\nMachine Learning (ML) models consistently outperform them in accuracy,\nachieving higher precision, recall, and F1-scores. These results highlight the\npotential for hybrid LLM-ML approaches to enhance SOC operations and better\naddress the evolving threat landscape.\n",
+  "subjects": [
+    "Computer Science/Cryptography and Security"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "h2VZNWsfu6AZndyWCO2ho8-pNUMRyqhQTOrdLv_9kkQ",
+  "pdfSize": "981937"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "2412.05486",
+  "title": "A Scene Representation for Online Spatial Sonification",
+  "authors": "Lan Wu, Craig Jin, Monisha Mushtary Uttsha and Teresa Vidal-Calleja",
+  "authorsParsed": [
+    [
+      "Wu",
+      "Lan",
+      ""
+    ],
+    [
+      "Jin",
+      "Craig",
+      ""
+    ],
+    [
+      "Uttsha",
+      "Monisha Mushtary",
+      ""
+    ],
+    [
+      "Vidal-Calleja",
+      "Teresa",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 7 Dec 2024 01:15:07 GMT"
+    }
+  ],
+  "updateDate": "2024-12-10",
+  "timestamp": 1733534107000,
+  "abstract": "  Robotic perception is emerging as a crucial technology for navigation aids,\nparticularly benefiting individuals with visual impairments through\nsonification. This paper presents a novel mapping framework that accurately\nrepresents spatial geometry for sonification, transforming physical spaces into\nauditory experiences. By leveraging depth sensors, we convert incrementally\nbuilt 3D scenes into a compact 360-degree representation based on angular and\ndistance information, aligning with human auditory perception. Our proposed\nmapping framework utilises a sensor-centric structure, maintaining 2D circular\nor 3D cylindrical representations, and employs the VDB-GPDF for efficient\nonline mapping. We introduce two sonification modes-circular ranging and\ncircular ranging of objects-along with real-time user control over auditory\nfilters. Incorporating binaural room impulse responses, our framework provides\nperceptually robust auditory feedback. Quantitative and qualitative evaluations\ndemonstrate superior performance in accuracy, coverage, and timing compared to\nexisting approaches, with effective handling of dynamic objects. The\naccompanying video showcases the practical application of spatial sonification\nin room-like environments.\n",
+  "subjects": [
+    "Computer Science/Robotics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "ivUAofBNL9US3lNtIHlQnPjAdkHpgp7h22buLc1NjbU",
+  "pdfSize": "3447733"
+}

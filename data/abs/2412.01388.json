@@ -1,0 +1,56 @@
+{
+  "id": "2412.01388",
+  "title": "Harnessing Preference Optimisation in Protein LMs for Hit Maturation in\n  Cell Therapy",
+  "authors": "Katarzyna Janocha, Annabel Ling, Alice Godson, Yulia Lampi, Simon\n  Bornschein, Nils Y. Hammerla",
+  "authorsParsed": [
+    [
+      "Janocha",
+      "Katarzyna",
+      ""
+    ],
+    [
+      "Ling",
+      "Annabel",
+      ""
+    ],
+    [
+      "Godson",
+      "Alice",
+      ""
+    ],
+    [
+      "Lampi",
+      "Yulia",
+      ""
+    ],
+    [
+      "Bornschein",
+      "Simon",
+      ""
+    ],
+    [
+      "Hammerla",
+      "Nils Y.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 2 Dec 2024 11:21:58 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Tue, 3 Dec 2024 14:08:19 GMT"
+    }
+  ],
+  "updateDate": "2024-12-04",
+  "timestamp": 1733138518000,
+  "abstract": "  Cell and immunotherapy offer transformative potential for treating diseases\nlike cancer and autoimmune disorders by modulating the immune system. The\ndevelopment of these therapies is resource-intensive, with the majority of drug\ncandidates failing to progress beyond laboratory testing. While recent advances\nin machine learning have revolutionised areas such as protein engineering,\napplications in immunotherapy remain limited due to the scarcity of\nlarge-scale, standardised datasets and the complexity of cellular systems. In\nthis work, we address these challenges by leveraging a high-throughput\nexperimental platform to generate data suitable for fine-tuning protein\nlanguage models. We demonstrate how models fine-tuned using a preference task\nshow surprising correlations to biological assays, and how they can be\nleveraged for few-shot hit maturation in CARs. This proof-of-concept presents a\nnovel pathway for applying ML to immunotherapy and could generalise to other\ntherapeutic modalities.\n",
+  "subjects": [
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "BtfskAp8QhzbkYt7vtD00rm_JzCieV8MtgDSqt9rxpI",
+  "pdfSize": "780998"
+}

@@ -1,0 +1,45 @@
+{
+  "id": "2412.05251",
+  "title": "Uncertainty Quantification for Transformer Models for Dark-Pattern\n  Detection",
+  "authors": "Javier Mu\\~noz and \\'Alvaro Huertas-Garc\\'ia and Carlos\n  Mart\\'i-Gonz\\'alez and Enrique De Miguel Ambite",
+  "authorsParsed": [
+    [
+      "Muñoz",
+      "Javier",
+      ""
+    ],
+    [
+      "Huertas-García",
+      "Álvaro",
+      ""
+    ],
+    [
+      "Martí-González",
+      "Carlos",
+      ""
+    ],
+    [
+      "Ambite",
+      "Enrique De Miguel",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 6 Dec 2024 18:31:51 GMT"
+    }
+  ],
+  "updateDate": "2024-12-09",
+  "timestamp": 1733509911000,
+  "abstract": "  The opaque nature of transformer-based models, particularly in applications\nsusceptible to unethical practices such as dark-patterns in user interfaces,\nrequires models that integrate uncertainty quantification to enhance trust in\npredictions. This study focuses on dark-pattern detection, deceptive design\nchoices that manipulate user decisions, undermining autonomy and consent. We\npropose a differential fine-tuning approach implemented at the final\nclassification head via uncertainty quantification with transformer-based\npre-trained models. Employing a dense neural network (DNN) head architecture as\na baseline, we examine two methods capable of quantifying uncertainty:\nSpectral-normalized Neural Gaussian Processes (SNGPs) and Bayesian Neural\nNetworks (BNNs). These methods are evaluated on a set of open-source\nfoundational models across multiple dimensions: model performance, variance in\ncertainty of predictions and environmental impact during training and inference\nphases. Results demonstrate that integrating uncertainty quantification\nmaintains performance while providing insights into challenging instances\nwithin the models. Moreover, the study reveals that the environmental impact\ndoes not uniformly increase with the incorporation of uncertainty\nquantification techniques. The study's findings demonstrate that uncertainty\nquantification enhances transparency and provides measurable confidence in\npredictions, improving the explainability and clarity of black-box models. This\nfacilitates informed decision-making and mitigates the influence of\ndark-patterns on user interfaces. These results highlight the importance of\nincorporating uncertainty quantification techniques in developing machine\nlearning models, particularly in domains where interpretability and\ntrustworthiness are critical.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Computation and Language",
+    "Mathematics/Probability"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "k2RHdA_IHeX3Evc0pL_7Gt4w1_y3OEKL17IDUxCPJgg",
+  "pdfSize": "296280"
+}

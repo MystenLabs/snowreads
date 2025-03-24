@@ -1,0 +1,84 @@
+{
+  "id": "2412.17832",
+  "title": "MANGO: Multimodal Acuity traNsformer for intelliGent ICU Outcomes",
+  "authors": "Jiaqing Zhang, Miguel Contreras, Sabyasachi Bandyopadhyay, Andrea\n  Davidson, Jessica Sena, Yuanfang Ren, Ziyuan Guan, Tezcan Ozrazgat-Baslanti,\n  Tyler J. Loftus, Subhash Nerella, Azra Bihorac, Parisa Rashidi",
+  "authorsParsed": [
+    [
+      "Zhang",
+      "Jiaqing",
+      ""
+    ],
+    [
+      "Contreras",
+      "Miguel",
+      ""
+    ],
+    [
+      "Bandyopadhyay",
+      "Sabyasachi",
+      ""
+    ],
+    [
+      "Davidson",
+      "Andrea",
+      ""
+    ],
+    [
+      "Sena",
+      "Jessica",
+      ""
+    ],
+    [
+      "Ren",
+      "Yuanfang",
+      ""
+    ],
+    [
+      "Guan",
+      "Ziyuan",
+      ""
+    ],
+    [
+      "Ozrazgat-Baslanti",
+      "Tezcan",
+      ""
+    ],
+    [
+      "Loftus",
+      "Tyler J.",
+      ""
+    ],
+    [
+      "Nerella",
+      "Subhash",
+      ""
+    ],
+    [
+      "Bihorac",
+      "Azra",
+      ""
+    ],
+    [
+      "Rashidi",
+      "Parisa",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 13 Dec 2024 23:51:15 GMT"
+    }
+  ],
+  "updateDate": "2024-12-25",
+  "timestamp": 1734133875000,
+  "abstract": "  Estimation of patient acuity in the Intensive Care Unit (ICU) is vital to\nensure timely and appropriate interventions. Advances in artificial\nintelligence (AI) technologies have significantly improved the accuracy of\nacuity predictions. However, prior studies using machine learning for acuity\nprediction have predominantly relied on electronic health records (EHR) data,\noften overlooking other critical aspects of ICU stay, such as patient mobility,\nenvironmental factors, and facial cues indicating pain or agitation. To address\nthis gap, we present MANGO: the Multimodal Acuity traNsformer for intelliGent\nICU Outcomes, designed to enhance the prediction of patient acuity states,\ntransitions, and the need for life-sustaining therapy. We collected a\nmultimodal dataset ICU-Multimodal, incorporating four key modalities, EHR data,\nwearable sensor data, video of patient's facial cues, and ambient sensor data,\nwhich we utilized to train MANGO. The MANGO model employs a multimodal feature\nfusion network powered by Transformer masked self-attention method, enabling it\nto capture and learn complex interactions across these diverse data modalities\neven when some modalities are absent. Our results demonstrated that integrating\nmultiple modalities significantly improved the model's ability to predict\nacuity status, transitions, and the need for life-sustaining therapy. The\nbest-performing models achieved an area under the receiver operating\ncharacteristic curve (AUROC) of 0.76 (95% CI: 0.72-0.79) for predicting\ntransitions in acuity status and the need for life-sustaining therapy, while\n0.82 (95% CI: 0.69-0.89) for acuity status prediction...\n",
+  "subjects": [
+    "Electrical Engineering and Systems Science/Signal Processing",
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "yVGweotAEaxw_ZSmge4OoOsgdNDul048aXzJALDIrI0",
+  "pdfSize": "890781"
+}

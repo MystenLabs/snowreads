@@ -1,0 +1,42 @@
+{
+  "id": "2412.15530",
+  "title": "High-dimensional sliced inverse regression with endogeneity",
+  "authors": "Linh H. Nghiem, Francis.K.C. Hui, Samuel Muller, and A.H. Welsh",
+  "authorsParsed": [
+    [
+      "Nghiem",
+      "Linh H.",
+      ""
+    ],
+    [
+      "Hui",
+      "Francis. K. C.",
+      ""
+    ],
+    [
+      "Muller",
+      "Samuel",
+      ""
+    ],
+    [
+      "Welsh",
+      "A. H.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 20 Dec 2024 03:42:38 GMT"
+    }
+  ],
+  "updateDate": "2024-12-23",
+  "timestamp": 1734666158000,
+  "abstract": "  Sliced inverse regression (SIR) is a popular sufficient dimension reduction\nmethod that identifies a few linear transformations of the covariates without\nlosing regression information with the response. In high-dimensional settings,\nSIR can be combined with sparsity penalties to achieve sufficient dimension\nreduction and variable selection simultaneously. Nevertheless, both classical\nand sparse estimators assume the covariates are exogenous. However, endogeneity\ncan arise in a variety of situations, such as when variables are omitted or are\nmeasured with error. In this article, we show such endogeneity invalidates SIR\nestimators, leading to inconsistent estimation of the true central subspace. To\naddress this challenge, we propose a two-stage Lasso SIR estimator, which first\nconstructs a sparse high-dimensional instrumental variables model to obtain\nfitted values of the covariates spanned by the instruments, and then applies\nSIR augmented with a Lasso penalty on these fitted values. We establish\ntheoretical bounds for the estimation and selection consistency of the true\ncentral subspace for the proposed estimators, allowing the number of covariates\nand instruments to grow exponentially with the sample size. Simulation studies\nand applications to two real-world datasets in nutrition and genetics\nillustrate the superior empirical performance of the two-stage Lasso SIR\nestimator compared with existing methods that disregard endogeneity and/or\nnonlinearity in the outcome model.\n",
+  "subjects": [
+    "Statistics/Methodology"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "WR-geTuR07gxYtk-X1qy1Z_zzmhvOQSPoTDQ6oUeAn4",
+  "pdfSize": "630919"
+}

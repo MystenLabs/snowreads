@@ -1,0 +1,57 @@
+{
+  "id": "2412.11382",
+  "title": "Angle-Tuned Gross-Neveu Quantum Criticality in Twisted Bilayer Graphene:\n  A Quantum Monte Carlo Study",
+  "authors": "Cheng Huang, Nikolaos Parthenios, Maksim Ulybyshev, Xu Zhang, Fakher\n  F. Assaad, Laura Classen, and Zi Yang Meng",
+  "authorsParsed": [
+    [
+      "Huang",
+      "Cheng",
+      ""
+    ],
+    [
+      "Parthenios",
+      "Nikolaos",
+      ""
+    ],
+    [
+      "Ulybyshev",
+      "Maksim",
+      ""
+    ],
+    [
+      "Zhang",
+      "Xu",
+      ""
+    ],
+    [
+      "Assaad",
+      "Fakher F.",
+      ""
+    ],
+    [
+      "Classen",
+      "Laura",
+      ""
+    ],
+    [
+      "Meng",
+      "Zi Yang",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 16 Dec 2024 02:17:02 GMT"
+    }
+  ],
+  "updateDate": "2024-12-17",
+  "timestamp": 1734315422000,
+  "abstract": "  The tunability of twisted bilayber graphene (TBG) in particular and the 2D\nmoir\\'e materials in general has revealed fascinating quantum many-body states\nof matter. Unstrained magic-angle TBG at the charge-neutrality point is\nunderstood, both experimentally and theoretically, as a correlated insulating\nstate due to the interplay of long-range Coulomb interaction and the quantum\nmetric of the flat bands. However, the fate of the state as one continuously\ntunes the twist angle is still largely unknown. Theoretically, it was suggested\nthat due to the effective change of interaction strength, angle-tuned TBG might\nexhibit the first realization of the quantum critical point (QCP) between a\ncorrelated insulator and a Dirac semimetal - a condensed matter incarnation of\nthe chiral phase transition of the Gross-Neveu (GN) model studied in the\ncontext of quantum chromo dynamics. Here we show that TBG indeed realises an\nangle-tuned phase transition between a Dirac semimetal and an insulator\nconsistent with a GN quantum criticality in a numerically exact calculation.\nThe transition occurs because the angle effectively tunes the relative weight\nof kinetic and interaction energy and we map out how this qualitatively changes\nthe single-particle excitation spectrum. Our study is possible due to the\nrecently developed continuous field momentum-space quantum Monte Carlo method,\nwhich can fully take into account the long-range Coulomb and quantum metric of\nflat bands. From the single-particle spectrum, free energy and the analysis of\nthe order parameter of the insulating phase, at system sizes that were not\npossible before, we find a critical angle of $\\Theta_\\mathrm{c}$ $\\sim$\n1.20(1)$\\deg$. This offers the exciting possibility that by tuning away from\nthe magic angle (1.08$\\deg$), pristine TBG can mimic a fundamental phase\ntransition of Dirac fermions.\n",
+  "subjects": [
+    "Condensed Matter/Strongly Correlated Electrons"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "lqeXnhKMnxCzxEQd6xtJ6sl6lv4mQcxpXkBfZyJ4oI8",
+  "pdfSize": "1473006"
+}

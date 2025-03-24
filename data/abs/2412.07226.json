@@ -1,0 +1,32 @@
+{
+  "id": "2412.07226",
+  "title": "Attention Head Purification: A New Perspective to Harness CLIP for\n  Domain Generalization",
+  "authors": "Yingfan Wang and Guoliang Kang",
+  "authorsParsed": [
+    [
+      "Wang",
+      "Yingfan",
+      ""
+    ],
+    [
+      "Kang",
+      "Guoliang",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 10 Dec 2024 06:27:48 GMT"
+    }
+  ],
+  "updateDate": "2024-12-11",
+  "timestamp": 1733812068000,
+  "abstract": "  Domain Generalization (DG) aims to learn a model from multiple source domains\nto achieve satisfactory performance on unseen target domains. Recent works\nintroduce CLIP to DG tasks due to its superior image-text alignment and\nzeros-shot performance. Previous methods either utilize full fine-tuning or\nprompt-learning paradigms to harness CLIP for DG tasks. Those works focus on\navoiding catastrophic forgetting of the original knowledge encoded in CLIP but\nignore that the knowledge encoded in CLIP in nature may contain domain-specific\ncues that constrain its domain generalization performance. In this paper, we\npropose a new perspective to harness CLIP for DG, i.e., attention head\npurification. We observe that different attention heads may encode different\nproperties of an image and selecting heads appropriately may yield remarkable\nperformance improvement across domains. Based on such observations, we purify\nthe attention heads of CLIP from two levels, including task-level purification\nand domain-level purification. For task-level purification, we design\nhead-aware LoRA to make each head more adapted to the task we considered. For\ndomain-level purification, we perform head selection via a simple gating\nstrategy. We utilize MMD loss to encourage masked head features to be more\ndomain-invariant to emphasize more generalizable properties/heads. During\ntraining, we jointly perform task-level purification and domain-level\npurification. We conduct experiments on various representative DG benchmarks.\nThough simple, extensive experiments demonstrate that our method performs\nfavorably against previous state-of-the-arts.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "_L04tQViYGQn_XHHMgWTmUkUdB9Y7LJxovu10McAVQM",
+  "pdfSize": "3494178"
+}

@@ -1,0 +1,53 @@
+{
+  "id": "2412.06875",
+  "title": "VQ4ALL: Efficient Neural Network Representation via a Universal Codebook",
+  "authors": "Juncan Deng, Shuaiting Li, Zeyu Wang, Hong Gu, Kedong Xu, Kejie Huang",
+  "authorsParsed": [
+    [
+      "Deng",
+      "Juncan",
+      ""
+    ],
+    [
+      "Li",
+      "Shuaiting",
+      ""
+    ],
+    [
+      "Wang",
+      "Zeyu",
+      ""
+    ],
+    [
+      "Gu",
+      "Hong",
+      ""
+    ],
+    [
+      "Xu",
+      "Kedong",
+      ""
+    ],
+    [
+      "Huang",
+      "Kejie",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 9 Dec 2024 16:17:22 GMT"
+    }
+  ],
+  "updateDate": "2024-12-11",
+  "timestamp": 1733761042000,
+  "abstract": "  The rapid growth of the big neural network models puts forward new\nrequirements for lightweight network representation methods. The traditional\nmethods based on model compression have achieved great success, especially VQ\ntechnology which realizes the high compression ratio of models by sharing code\nwords. However, because each layer of the network needs to build a code table,\nthe traditional top-down compression technology lacks attention to the\nunderlying commonalities, resulting in limited compression rate and frequent\nmemory access. In this paper, we propose a bottom-up method to share the\nuniversal codebook among multiple neural networks, which not only effectively\nreduces the number of codebooks but also further reduces the memory access and\nchip area by storing static code tables in the built-in ROM. Specifically, we\nintroduce VQ4ALL, a VQ-based method that utilizes codewords to enable the\nconstruction of various neural networks and achieve efficient representations.\nThe core idea of our method is to adopt a kernel density estimation approach to\nextract a universal codebook and then progressively construct different low-bit\nnetworks by updating differentiable assignments. Experimental results\ndemonstrate that VQ4ALL achieves compression rates exceeding 16 $\\times$ while\npreserving high accuracy across multiple network architectures, highlighting\nits effectiveness and versatility.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "9wfqZ16uGDeeQ31ZZnvZMf6aGHzZGIlwW1RDji7z4HU",
+  "pdfSize": "2681501"
+}

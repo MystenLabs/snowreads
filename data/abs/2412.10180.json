@@ -1,0 +1,49 @@
+{
+  "id": "2412.10180",
+  "title": "A General Safety Framework for Autonomous Manipulation in Human\n  Environments",
+  "authors": "Jakob Thumm, Julian Balletshofer, Leonardo Maglanoc, Luis Muschal,\n  Matthias Althoff",
+  "authorsParsed": [
+    [
+      "Thumm",
+      "Jakob",
+      ""
+    ],
+    [
+      "Balletshofer",
+      "Julian",
+      ""
+    ],
+    [
+      "Maglanoc",
+      "Leonardo",
+      ""
+    ],
+    [
+      "Muschal",
+      "Luis",
+      ""
+    ],
+    [
+      "Althoff",
+      "Matthias",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 13 Dec 2024 14:52:41 GMT"
+    }
+  ],
+  "updateDate": "2024-12-16",
+  "timestamp": 1734101561000,
+  "abstract": "  Autonomous robots are projected to augment the manual workforce, especially\nin repetitive and hazardous tasks. For a successful deployment of such robots\nin human environments, it is crucial to guarantee human safety.\nState-of-the-art approaches to ensure human safety are either too restrictive\nto permit a natural human-robot collaboration or make strong assumptions that\ndo not hold when for autonomous robots, e.g., knowledge of a pre-defined\ntrajectory. Therefore, we propose SaRA-shield, a power and force limiting\nframework for AI-based manipulation in human environments that gives formal\nsafety guarantees while allowing for fast robot speeds. As recent studies have\nshown that unconstrained collisions allow for significantly higher contact\nforces than constrained collisions (clamping), we propose to classify contacts\nby their collision type using reachability analysis. We then verify that the\nkinetic energy of the robot is below pain and injury thresholds for the\ndetected collision type of the respective human body part in contact. Our\nreal-world experiments show that SaRA-shield can effectively reduce the speed\nof the robot to adhere to injury-preventing energy limits.\n",
+  "subjects": [
+    "Computer Science/Robotics",
+    "Computer Science/Systems and Control",
+    "Electrical Engineering and Systems Science/Systems and Control"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "i8XSQA7N-HRHxgsv3_jREoeIj9KkcRjcGme8-n08Hd4",
+  "pdfSize": "2210374"
+}

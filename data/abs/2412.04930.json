@@ -1,0 +1,42 @@
+{
+  "id": "2412.04930",
+  "title": "Video Decomposition Prior: A Methodology to Decompose Videos into Layers",
+  "authors": "Gaurav Shrivastava, Ser-Nam Lim, Abhinav Shrivastava",
+  "authorsParsed": [
+    [
+      "Shrivastava",
+      "Gaurav",
+      ""
+    ],
+    [
+      "Lim",
+      "Ser-Nam",
+      ""
+    ],
+    [
+      "Shrivastava",
+      "Abhinav",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 6 Dec 2024 10:35:45 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Mon, 9 Dec 2024 03:01:28 GMT"
+    }
+  ],
+  "updateDate": "2024-12-10",
+  "timestamp": 1733481345000,
+  "abstract": "  In the evolving landscape of video enhancement and editing methodologies, a\nmajority of deep learning techniques often rely on extensive datasets of\nobserved input and ground truth sequence pairs for optimal performance. Such\nreliance often falters when acquiring data becomes challenging, especially in\ntasks like video dehazing and relighting, where replicating identical motions\nand camera angles in both corrupted and ground truth sequences is complicated.\nMoreover, these conventional methodologies perform best when the test\ndistribution closely mirrors the training distribution. Recognizing these\nchallenges, this paper introduces a novel video decomposition prior `VDP'\nframework which derives inspiration from professional video editing practices.\nOur methodology does not mandate task-specific external data corpus collection,\ninstead pivots to utilizing the motion and appearance of the input video. VDP\nframework decomposes a video sequence into a set of multiple RGB layers and\nassociated opacity levels. These set of layers are then manipulated\nindividually to obtain the desired results. We addresses tasks such as video\nobject segmentation, dehazing, and relighting. Moreover, we introduce a novel\nlogarithmic video decomposition formulation for video relighting tasks, setting\na new benchmark over the existing methodologies. We observe the property of\nrelighting emerge as we optimize for our novel relighting decomposition\nformulation. We evaluate our approach on standard video datasets like DAVIS,\nREVIDE, & SDSD and show qualitative results on a diverse array of internet\nvideos. Project Page -\nhttps://www.cs.umd.edu/~gauravsh/video_decomposition/index.html for video\nresults.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "xXJgp4RR0PfloKNeIrPZR8PHG7pvXDFA9XmyW__PrIs",
+  "pdfSize": "3878129"
+}

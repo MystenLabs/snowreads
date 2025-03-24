@@ -1,0 +1,42 @@
+{
+  "id": "2412.06698",
+  "title": "Gen-3Diffusion: Realistic Image-to-3D Generation via 2D & 3D Diffusion\n  Synergy",
+  "authors": "Yuxuan Xue, Xianghui Xie, Riccardo Marin, Gerard Pons-Moll",
+  "authorsParsed": [
+    [
+      "Xue",
+      "Yuxuan",
+      ""
+    ],
+    [
+      "Xie",
+      "Xianghui",
+      ""
+    ],
+    [
+      "Marin",
+      "Riccardo",
+      ""
+    ],
+    [
+      "Pons-Moll",
+      "Gerard",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 9 Dec 2024 17:44:42 GMT"
+    }
+  ],
+  "updateDate": "2024-12-10",
+  "timestamp": 1733766282000,
+  "abstract": "  Creating realistic 3D objects and clothed avatars from a single RGB image is\nan attractive yet challenging problem. Due to its ill-posed nature, recent\nworks leverage powerful prior from 2D diffusion models pretrained on large\ndatasets. Although 2D diffusion models demonstrate strong generalization\ncapability, they cannot guarantee the generated multi-view images are 3D\nconsistent. In this paper, we propose Gen-3Diffusion: Realistic Image-to-3D\nGeneration via 2D & 3D Diffusion Synergy. We leverage a pre-trained 2D\ndiffusion model and a 3D diffusion model via our elegantly designed process\nthat synchronizes two diffusion models at both training and sampling time. The\nsynergy between the 2D and 3D diffusion models brings two major advantages: 1)\n2D helps 3D in generalization: the pretrained 2D model has strong\ngeneralization ability to unseen images, providing strong shape priors for the\n3D diffusion model; 2) 3D helps 2D in multi-view consistency: the 3D diffusion\nmodel enhances the 3D consistency of 2D multi-view sampling process, resulting\nin more accurate multi-view generation. We validate our idea through extensive\nexperiments in image-based objects and clothed avatar generation tasks. Results\nshow that our method generates realistic 3D objects and avatars with\nhigh-fidelity geometry and texture. Extensive ablations also validate our\ndesign choices and demonstrate the strong generalization ability to diverse\nclothing and compositional shapes. Our code and pretrained models will be\npublicly released on https://yuxuan-xue.com/gen-3diffusion.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "eedwlW4sBgvzKB6ED2oP7bS7ZuyAhrFK_dUAU0Pd5bc",
+  "pdfSize": "19902921"
+}

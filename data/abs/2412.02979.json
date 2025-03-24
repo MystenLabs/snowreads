@@ -1,0 +1,36 @@
+{
+  "id": "2412.02979",
+  "title": "Quantum information in Riemannian spaces",
+  "authors": "Pablo G. Camara",
+  "authorsParsed": [
+    [
+      "Camara",
+      "Pablo G.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 4 Dec 2024 02:45:05 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Thu, 12 Dec 2024 01:17:05 GMT"
+    },
+    {
+      "version": "v3",
+      "created": "Tue, 7 Jan 2025 13:55:14 GMT"
+    }
+  ],
+  "updateDate": "2025-01-08",
+  "timestamp": 1733280305000,
+  "abstract": "  We develop a diffeomorphism-invariant formulation of differential entropy for\nRiemannian spaces, addressing the lack of a fine-grained,\ncoordinate-independent notion of information for continuous variables in\nphysical space. We extend this formulation to the quantum domain by\ngeneralizing Wigner's quasiprobability density function to arbitrary Riemannian\nspaces and analytically continuing Shannon's differential entropy to include\ncontributions from intermediate virtual quantum states. To demonstrate this\nframework, we compute the quantum phase space entropy of the harmonic\noscillator energy eigenstates in Minkowski and anti-de Sitter geometries.\nAdditionally, we derive a generalized quantum entropic uncertainty relation,\nextending the Bialynicki-Birula and Mycielski inequality to curved backgrounds.\nThis work bridges concepts from information theory, geometry, and quantum\nphysics to provide a systematic approach to studying quantum information in\ncontinuous and curved sample spaces.\n",
+  "subjects": [
+    "Physics/Quantum Physics",
+    "Physics/High Energy Physics - Theory"
+  ],
+  "license": "http://creativecommons.org/licenses/by-sa/4.0/",
+  "blobId": "s7AGvzyBHd5tZZDOtSNTkrFn9YIpJI-X5LUYQziU8QQ",
+  "pdfSize": "418759"
+}

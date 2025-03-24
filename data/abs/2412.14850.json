@@ -1,0 +1,54 @@
+{
+  "id": "2412.14850",
+  "title": "Long-term stability of scientific X-ray CMOS detectors",
+  "authors": "Mingjun Liu, Qinyu Wu, Zhixing Ling, Chen Zhang, Weimin Yuan,\n  Shuang-Nan Zhang",
+  "authorsParsed": [
+    [
+      "Liu",
+      "Mingjun",
+      ""
+    ],
+    [
+      "Wu",
+      "Qinyu",
+      ""
+    ],
+    [
+      "Ling",
+      "Zhixing",
+      ""
+    ],
+    [
+      "Zhang",
+      "Chen",
+      ""
+    ],
+    [
+      "Yuan",
+      "Weimin",
+      ""
+    ],
+    [
+      "Zhang",
+      "Shuang-Nan",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 19 Dec 2024 13:40:49 GMT"
+    }
+  ],
+  "updateDate": "2024-12-20",
+  "timestamp": 1734615649000,
+  "abstract": "  In recent years, complementary metal-oxide-semiconductor (CMOS) sensors have\nbeen demonstrated to have significant potential in X-ray astronomy, where\nlong-term reliability is crucial for space X-ray telescopes. This study\nexamines the long-term stability of a scientific CMOS sensor, focusing on its\nbias, dark current, readout noise, and X-ray spectral performance. The sensor\nwas initially tested at -30 $^\\circ$C for 16 months, followed by accelerated\naging at 20 $^\\circ$C. After a total aging period of 610 days, the bias map,\ndark current, readout noise, gain, and energy resolution exhibited no\nobservable degradation. There are less than 50 pixels within the 4 k $\\times$ 4\nk array which show a decrease of the bias under 50 ms integration time by over\n10 digital numbers (DNs). First-order kinetic fitting of the gain evolution\npredicts a gain degeneration of 0.73% over 3 years and 2.41% over 10 years.\nThese results underscore the long-term reliability of CMOS sensors for\napplication in space missions.\n",
+  "subjects": [
+    "Astrophysics/Instrumentation and Methods for Astrophysics",
+    "Astrophysics/High Energy Astrophysical Phenomena",
+    "Physics/Instrumentation and Detectors"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "e8glzjgbbQqSrI9-6qjGtF173ARr8N6iiEcBSGIIREo",
+  "pdfSize": "3970470"
+}

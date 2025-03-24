@@ -1,0 +1,63 @@
+{
+  "id": "2412.13811",
+  "title": "Spatial Brain Tumor Concentration Estimation for Individualized\n  Radiotherapy Planning",
+  "authors": "Jonas Weidner and Michal Balcerak and Ivan Ezhov and Andr\\'e Datchev\n  and Laurin Lux and Lucas Zimmerand Daniel Rueckert and Bj\\\"orn Menze and\n  Benedikt Wiestler",
+  "authorsParsed": [
+    [
+      "Weidner",
+      "Jonas",
+      ""
+    ],
+    [
+      "Balcerak",
+      "Michal",
+      ""
+    ],
+    [
+      "Ezhov",
+      "Ivan",
+      ""
+    ],
+    [
+      "Datchev",
+      "André",
+      ""
+    ],
+    [
+      "Lux",
+      "Laurin",
+      ""
+    ],
+    [
+      "Rueckert",
+      "Lucas Zimmerand Daniel",
+      ""
+    ],
+    [
+      "Menze",
+      "Björn",
+      ""
+    ],
+    [
+      "Wiestler",
+      "Benedikt",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 18 Dec 2024 12:58:38 GMT"
+    }
+  ],
+  "updateDate": "2024-12-19",
+  "timestamp": 1734526718000,
+  "abstract": "  Biophysical modeling of brain tumors has emerged as a promising strategy for\npersonalizing radiotherapy planning by estimating the otherwise hidden\ndistribution of tumor cells within the brain. However, many existing\nstate-of-the-art methods are computationally intensive, limiting their\nwidespread translation into clinical practice. In this work, we propose an\nefficient and direct method that utilizes soft physical constraints to estimate\nthe tumor cell concentration from preoperative MRI of brain tumor patients. Our\napproach optimizes a 3D tumor concentration field by simultaneously minimizing\nthe difference between the observed MRI and a physically informed loss\nfunction. Compared to existing state-of-the-art techniques, our method\nsignificantly improves predicting tumor recurrence on two public datasets with\na total of 192 patients while maintaining a clinically viable runtime of under\none minute - a substantial reduction from the 30 minutes required by the\ncurrent best approach. Furthermore, we showcase the generalizability of our\nframework by incorporating additional imaging information and physical\nconstraints, highlighting its potential to translate to various medical\ndiffusion phenomena with imperfect data.\n",
+  "subjects": [
+    "Physics/Medical Physics",
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "qfCEMSJ7r8BHtILOSzkWxmqfrTVtuAY6EXrVnj4gD_U",
+  "pdfSize": "921411"
+}

@@ -1,0 +1,47 @@
+{
+  "id": "2412.08006",
+  "title": "A mechanical quantum memory for microwave photons",
+  "authors": "Alk{\\i}m B. Bozkurt, Omid Golami, Yue Yu, Hao Tian, Mohammad\n  Mirhosseini",
+  "authorsParsed": [
+    [
+      "Bozkurt",
+      "Alkım B.",
+      ""
+    ],
+    [
+      "Golami",
+      "Omid",
+      ""
+    ],
+    [
+      "Yu",
+      "Yue",
+      ""
+    ],
+    [
+      "Tian",
+      "Hao",
+      ""
+    ],
+    [
+      "Mirhosseini",
+      "Mohammad",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 11 Dec 2024 01:21:09 GMT"
+    }
+  ],
+  "updateDate": "2024-12-12",
+  "timestamp": 1733880069000,
+  "abstract": "  Long-lived mechanical oscillators are actively pursued as critical resources\nfor quantum storage, sensing, and transduction. However, achieving\ndeterministic quantum control while limiting mechanical dissipation remains a\npersistent challenge. Here, we demonstrate strong coupling between a transmon\nsuperconducting qubit and an ultra-long-lived nanomechanical oscillator\n($T_\\text{1} \\approx 25 \\text{ ms}$ at 5 GHz, $Q \\approx 0.8 \\times 10^9$) by\nleveraging the low acoustic loss in silicon and phononic bandgap engineering.\nThe qubit-oscillator system achieves large cooperativity ($C_{T_1}\\approx\n1.5\\times10^5$, $C_{T_2}\\approx 150$), enabling the generation of non-classical\nstates and the investigation of mechanisms underlying mechanical decoherence.\nWe show that dynamical decoupling$\\unicode{x2014}$implemented through the\nqubit$\\unicode{x2014}$can mitigate decoherence, leading to a mechanical\ncoherence time of $T_2\\approx 1 \\text{ ms}$. These findings extend the\nexceptional storage capabilities of mechanical oscillators to the quantum\nregime, putting them forward as compact bosonic elements for future\napplications in quantum computing and metrology.\n",
+  "subjects": [
+    "Physics/Quantum Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "JgOFwsTYeDZCdSWf3VWMjvMc9qr9AH-GIN6iBspbSJ0",
+  "pdfSize": "6714491"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "2412.18517",
+  "title": "Verma modules and finite-dimensional irreducible modules of the\n  universal Askey--Wilson algebra at roots of unity",
+  "authors": "Hau-Wen Huang",
+  "authorsParsed": [
+    [
+      "Huang",
+      "Hau-Wen",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 24 Dec 2024 15:53:15 GMT"
+    }
+  ],
+  "updateDate": "2024-12-25",
+  "timestamp": 1735055595000,
+  "abstract": "  Assume that $\\mathbb F$ is an algebraically closed field and fix a nonzero\nscalar $q\\in \\mathbb F$ with $q^4\\not=1$. The universal Askey--Wilson algebra\n$\\triangle_q$ is a unital associative algebra over $\\mathbb F$ defined by\ngenerators and relations. The generators are $A,B,C$ and the relations assert\nthat each of \\begin{gather*} A+\\frac{qBC-q^{-1}CB}{q^2-q^{-2}}, \\qquad\nB+\\frac{qCA-q^{-1}AC}{q^2-q^{-2}}, \\qquad C+\\frac{qAB-q^{-1}BA}{q^2-q^{-2}}\n\\end{gather*} commutes with $A,B,C$. The Verma $\\triangle_q$-modules are a\nfamily of infinite-dimensional $\\triangle_q$-modules with marginal weights.\nUnder the condition that $q$ is not a root of unity, it was shown that every\nfinite-dimensional irreducible $\\triangle_q$-module has a marginal weight and\nis isomorphic to a quotient of a Verma $\\triangle_q$-module. Assume that $q$ is\na root of unity. We prove that every finite-dimensional irreducible\n$\\triangle_q$-module with a marginal weight is isomorphic to a quotient of a\nVerma $\\triangle_q$-module. Properly speaking, two natural families of\nfinite-dimensional quotients of Verma $\\triangle_q$-modules contain all\nfinite-dimensional irreducible $\\triangle_q$-modules with marginal weights up\nto isomorphism. Furthermore, we classify the finite-dimensional irreducible\n$\\triangle_q$-modules with marginal weights up to isomorphism.\n",
+  "subjects": [
+    "Mathematics/Representation Theory"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "CJj9Em6EyrraW1D1szJXiFvY0444pn85XecGTbqS0wI",
+  "pdfSize": "462969"
+}

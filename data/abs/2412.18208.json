@@ -1,0 +1,38 @@
+{
+  "id": "2412.18208",
+  "title": "Quantum framework for Reinforcement Learning: integrating Markov\n  Decision Process, quantum arithmetic, and trajectory search",
+  "authors": "Thet Htar Su, Shaswot Shresthamali and Masaaki Kondo",
+  "authorsParsed": [
+    [
+      "Su",
+      "Thet Htar",
+      ""
+    ],
+    [
+      "Shresthamali",
+      "Shaswot",
+      ""
+    ],
+    [
+      "Kondo",
+      "Masaaki",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 24 Dec 2024 06:28:34 GMT"
+    }
+  ],
+  "updateDate": "2024-12-25",
+  "timestamp": 1735021714000,
+  "abstract": "  This paper introduces a quantum framework for addressing reinforcement\nlearning (RL) tasks, grounded in the quantum principles and leveraging a fully\nquantum model of the classical Markov Decision Process (MDP). By employing\nquantum concepts and a quantum search algorithm, this work presents the\nimplementation and optimization of the agent-environment interactions entirely\nwithin the quantum domain, eliminating reliance on classical computations. Key\ncontributions include the quantum-based state transitions, return calculation,\nand trajectory search mechanism that utilize quantum principles to demonstrate\nthe realization of RL processes through quantum phenomena. The implementation\nemphasizes the fundamental role of quantum superposition in enhancing\ncomputational efficiency for RL tasks. Experimental results demonstrate the\ncapacity of a quantum model to achieve quantum advantage in RL, highlighting\nthe potential of fully quantum implementations in decision-making tasks. This\nwork not only underscores the applicability of quantum computing in machine\nlearning but also contributes the field of quantum reinforcement learning (QRL)\nby offering a robust framework for understanding and exploiting quantum\ncomputing in RL systems.\n",
+  "subjects": [
+    "Physics/Quantum Physics",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "r1LPyHN8npVsUjIAl2ZD0h5eECtIpb6bJ0Yz7CbcMv8",
+  "pdfSize": "1747687"
+}

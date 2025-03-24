@@ -1,0 +1,49 @@
+{
+  "id": "2412.17909",
+  "title": "Continuous-variable designs and design-based shadow tomography from\n  random lattices",
+  "authors": "Jonathan Conrad, Joseph T. Iosue, Ansgar G. Burchards, Victor V.\n  Albert",
+  "authorsParsed": [
+    [
+      "Conrad",
+      "Jonathan",
+      ""
+    ],
+    [
+      "Iosue",
+      "Joseph T.",
+      ""
+    ],
+    [
+      "Burchards",
+      "Ansgar G.",
+      ""
+    ],
+    [
+      "Albert",
+      "Victor V.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 23 Dec 2024 19:04:47 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Thu, 23 Jan 2025 14:56:25 GMT"
+    }
+  ],
+  "updateDate": "2025-01-24",
+  "timestamp": 1734980687000,
+  "abstract": "  We investigate state designs for continuous-variable quantum systems using\nthe aid of lattice-like quantum states. These are code states of\nGottesman-Kitaev-Preskill (GKP) codes. We show that for an n-mode system, the\nset of all GKP states forms a rigged continuous-variable state 2-design. We use\nthese lattice state designs to construct a continuous variable shadow\ntomography protocol, derive sample complexity bounds for both global- and local\nGKP shadows under reasonable physical assumptions, and provide the physical\ngadgets needed to implement this protocol.\n",
+  "subjects": [
+    "Physics/Quantum Physics",
+    "Computer Science/Information Theory",
+    "Mathematics/Information Theory",
+    "Mathematics/Operator Algebras"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "ZCPIX0ACfowlNx9qkmdX7dg-6zS5VBm89s0suP1CPFM",
+  "pdfSize": "1108181"
+}

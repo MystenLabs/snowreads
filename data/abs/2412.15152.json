@@ -1,0 +1,42 @@
+{
+  "id": "2412.15152",
+  "title": "Measuring DNA Microswimmer Locomotion in Complex Flow Environments",
+  "authors": "Taryn Imamura, Teresa A. Kent, Rebecca E. Taylor, and Sarah\n  Bergbreiter",
+  "authorsParsed": [
+    [
+      "Imamura",
+      "Taryn",
+      ""
+    ],
+    [
+      "Kent",
+      "Teresa A.",
+      ""
+    ],
+    [
+      "Taylor",
+      "Rebecca E.",
+      ""
+    ],
+    [
+      "Bergbreiter",
+      "Sarah",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 19 Dec 2024 18:29:52 GMT"
+    }
+  ],
+  "updateDate": "2024-12-20",
+  "timestamp": 1734632992000,
+  "abstract": "  Microswimmers are sub-millimeter swimming microrobots that show potential as\na platform for controllable locomotion in applications including targeted cargo\ndelivery and minimally invasive surgery. To be viable for these target\napplications, microswimmers will eventually need to be able to navigate in\nenvironments with dynamic fluid flows and forces. Experimental studies with\nmicroswimmers towards this goal are currently rare because of the difficulty\nisolating intentional microswimmer motion from environment-induced motion. In\nthis work, we present a method for measuring microswimmer locomotion within a\ncomplex flow environment using fiducial microspheres. By tracking the particle\nmotion of ferromagnetic and non-magnetic polystyrene fiducial microspheres, we\ncapture the effect of fluid flow and field gradients on microswimmer\ntrajectories. We then determine the field-driven translation of these\nmicroswimmers relative to fluid flow and demonstrate the effectiveness of this\nmethod by illustrating the motion of multiple microswimmers through different\nflows.\n",
+  "subjects": [
+    "Computer Science/Robotics"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "PW3eZvFcNUGtpY-jQHVjYZiczVlwSiUAUUGBpuX_dgc",
+  "pdfSize": "2460634"
+}

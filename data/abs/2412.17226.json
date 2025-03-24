@@ -1,0 +1,53 @@
+{
+  "id": "2412.17226",
+  "title": "OLiDM: Object-aware LiDAR Diffusion Models for Autonomous Driving",
+  "authors": "Tianyi Yan, Junbo Yin, Xianpeng Lang, Ruigang Yang, Cheng-Zhong Xu,\n  Jianbing Shen",
+  "authorsParsed": [
+    [
+      "Yan",
+      "Tianyi",
+      ""
+    ],
+    [
+      "Yin",
+      "Junbo",
+      ""
+    ],
+    [
+      "Lang",
+      "Xianpeng",
+      ""
+    ],
+    [
+      "Yang",
+      "Ruigang",
+      ""
+    ],
+    [
+      "Xu",
+      "Cheng-Zhong",
+      ""
+    ],
+    [
+      "Shen",
+      "Jianbing",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 23 Dec 2024 02:43:29 GMT"
+    }
+  ],
+  "updateDate": "2024-12-24",
+  "timestamp": 1734921809000,
+  "abstract": "  To enhance autonomous driving safety in complex scenarios, various methods\nhave been proposed to simulate LiDAR point cloud data. Nevertheless, these\nmethods often face challenges in producing high-quality, diverse, and\ncontrollable foreground objects. To address the needs of object-aware tasks in\n3D perception, we introduce OLiDM, a novel framework capable of generating\nhigh-fidelity LiDAR data at both the object and the scene levels. OLiDM\nconsists of two pivotal components: the Object-Scene Progressive Generation\n(OPG) module and the Object Semantic Alignment (OSA) module. OPG adapts to\nuser-specific prompts to generate desired foreground objects, which are\nsubsequently employed as conditions in scene generation, ensuring controllable\noutputs at both the object and scene levels. This also facilitates the\nassociation of user-defined object-level annotations with the generated LiDAR\nscenes. Moreover, OSA aims to rectify the misalignment between foreground\nobjects and background scenes, enhancing the overall quality of the generated\nobjects. The broad effectiveness of OLiDM is demonstrated across various LiDAR\ngeneration tasks, as well as in 3D perception tasks. Specifically, on the\nKITTI-360 dataset, OLiDM surpasses prior state-of-the-art methods such as\nUltraLiDAR by 17.5 in FPD. Additionally, in sparse-to-dense LiDAR completion,\nOLiDM achieves a significant improvement over LiDARGen, with a 57.47\\% increase\nin semantic IoU. Moreover, OLiDM enhances the performance of mainstream 3D\ndetectors by 2.4\\% in mAP and 1.9\\% in NDS, underscoring its potential in\nadvancing object-aware 3D tasks. Code is available at:\nhttps://yanty123.github.io/OLiDM.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Robotics"
+  ],
+  "license": "http://creativecommons.org/licenses/by-sa/4.0/",
+  "blobId": "YunkkDew3KKfd7bqjFQa2ANtsZLTW5mtHSToZjuFTe0",
+  "pdfSize": "6034689"
+}

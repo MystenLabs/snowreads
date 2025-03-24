@@ -1,0 +1,58 @@
+{
+  "id": "2412.06601",
+  "title": "A switching Kalman filter approach to online mitigation and correction\n  of sensor corruption for inertial navigation",
+  "authors": "Artem Mustaev, Nicholas Galioto, Matt Boler, John D. Jakeman, Cosmin\n  Safta, Alex Gorodetsky",
+  "authorsParsed": [
+    [
+      "Mustaev",
+      "Artem",
+      ""
+    ],
+    [
+      "Galioto",
+      "Nicholas",
+      ""
+    ],
+    [
+      "Boler",
+      "Matt",
+      ""
+    ],
+    [
+      "Jakeman",
+      "John D.",
+      ""
+    ],
+    [
+      "Safta",
+      "Cosmin",
+      ""
+    ],
+    [
+      "Gorodetsky",
+      "Alex",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 9 Dec 2024 15:49:56 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Tue, 10 Dec 2024 21:00:27 GMT"
+    }
+  ],
+  "updateDate": "2024-12-12",
+  "timestamp": 1733759396000,
+  "abstract": "  This paper introduces a novel approach to detect and address faulty or\ncorrupted external sensors in the context of inertial navigation by leveraging\na switching Kalman Filter combined with parameter augmentation. Instead of\ndiscarding the corrupted data, the proposed method retains and processes it,\nrunning multiple observation models simultaneously and evaluating their\nlikelihoods to accurately identify the true state of the system. We demonstrate\nthe effectiveness of this approach to both identify the moment that a sensor\nbecomes faulty and to correct for the resulting sensor behavior to maintain\naccurate estimates. We demonstrate our approach on an application of balloon\nnavigation in the atmosphere and shuttle reentry. The results show that our\nmethod can accurately recover the true system state even in the presence of\nsignificant sensor bias, thereby improving the robustness and reliability of\nstate estimation systems under challenging conditions. We also provide a\nstatistical analysis of problem settings to determine when and where our method\nis most accurate and where it fails.\n",
+  "subjects": [
+    "Electrical Engineering and Systems Science/Systems and Control",
+    "Computer Science/Robotics",
+    "Computer Science/Systems and Control"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "j0kZbfw6b8Yk6PsAuEC1syCTomjWk3dU6CK0pIrVRpM",
+  "pdfSize": "3866306"
+}

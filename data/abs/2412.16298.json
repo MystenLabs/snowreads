@@ -1,0 +1,38 @@
+{
+  "id": "2412.16298",
+  "title": "Profile least squares estimation in networks with covariates",
+  "authors": "Swati Chandna, Benjamin Bagozzi and Snigdhansu Chatterjee",
+  "authorsParsed": [
+    [
+      "Chandna",
+      "Swati",
+      ""
+    ],
+    [
+      "Bagozzi",
+      "Benjamin",
+      ""
+    ],
+    [
+      "Chatterjee",
+      "Snigdhansu",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 20 Dec 2024 19:16:52 GMT"
+    }
+  ],
+  "updateDate": "2024-12-24",
+  "timestamp": 1734722212000,
+  "abstract": "  Many real world networks exhibit edge heterogeneity with different pairs of\nnodes interacting with different intensities. Further, nodes with similar\nattributes tend to interact more with each other. Thus, in the presence of\nobserved node attributes (covariates), it is of interest to understand the\nextent to which these covariates explain interactions between pairs of nodes\nand to suitably estimate the remaining structure due to unobserved factors. For\nexample, in the study of international relations, the extent to which\ncountry-pair specific attributes such as the number of material/verbal\nconflicts and volume of trade explain military alliances between different\ncountries can lead to valuable insights. We study the model where pairwise edge\nprobabilities are given by the sum of a linear edge covariate term and a\nresidual term to model the remaining heterogeneity from unobserved factors. We\napproach estimation of the model via profile least squares and show how it\nleads to a simple algorithm to estimate the linear covariate term and the\nresidual structure that is truly latent in the presence of observed covariates.\nOur framework lends itself naturally to a bootstrap procedure which is used to\ndraw inference on model parameters, such as to determine significance of the\nhomophily parameter or covariates in explaining the underlying network\nstructure. Application to four real network datasets and comparisons using\nsimulated data illustrate the usefulness of our approach.\n",
+  "subjects": [
+    "Statistics/Methodology",
+    "Statistics/Applications"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "cOWsIDKTYW4e72Eo_VS3bS8DsAhi_GP2UwuXsOgXpgM",
+  "pdfSize": "1400520"
+}

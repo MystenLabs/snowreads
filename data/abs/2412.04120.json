@@ -1,0 +1,61 @@
+{
+  "id": "2412.04120",
+  "title": "CrossSDF: 3D Reconstruction of Thin Structures From Cross-Sections",
+  "authors": "Thomas Walker, Salvatore Esposito, Daniel Rebain, Amir Vaxman, Arno\n  Onken, Changjian Li, Oisin Mac Aodha",
+  "authorsParsed": [
+    [
+      "Walker",
+      "Thomas",
+      ""
+    ],
+    [
+      "Esposito",
+      "Salvatore",
+      ""
+    ],
+    [
+      "Rebain",
+      "Daniel",
+      ""
+    ],
+    [
+      "Vaxman",
+      "Amir",
+      ""
+    ],
+    [
+      "Onken",
+      "Arno",
+      ""
+    ],
+    [
+      "Li",
+      "Changjian",
+      ""
+    ],
+    [
+      "Mac Aodha",
+      "Oisin",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 5 Dec 2024 12:38:18 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Tue, 10 Dec 2024 11:39:19 GMT"
+    }
+  ],
+  "updateDate": "2024-12-11",
+  "timestamp": 1733402298000,
+  "abstract": "  Reconstructing complex structures from planar cross-sections is a challenging\nproblem, with wide-reaching applications in medical imaging, manufacturing, and\ntopography. Out-of-the-box point cloud reconstruction methods can often fail\ndue to the data sparsity between slicing planes, while current bespoke methods\nstruggle to reconstruct thin geometric structures and preserve topological\ncontinuity. This is important for medical applications where thin vessel\nstructures are present in CT and MRI scans. This paper introduces CrossSDF, a\nnovel approach for extracting a 3D signed distance field from 2D signed\ndistances generated from planar contours. Our approach makes the training of\nneural SDFs contour-aware by using losses designed for the case where geometry\nis known within 2D slices. Our results demonstrate a significant improvement\nover existing methods, effectively reconstructing thin structures and producing\naccurate 3D models without the interpolation artifacts or over-smoothing of\nprior approaches.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "RodFdQR1kGc3ONv_uwNsz6x0OQ-JelkEAMTN4k_NjAI",
+  "pdfSize": "43587115"
+}

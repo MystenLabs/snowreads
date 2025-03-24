@@ -1,0 +1,43 @@
+{
+  "id": "2412.08780",
+  "title": "Reducing Popularity Influence by Addressing Position Bias",
+  "authors": "Andrii Dzhoha, Alexey Kurennoy, Vladimir Vlasov, Marjan Celikik",
+  "authorsParsed": [
+    [
+      "Dzhoha",
+      "Andrii",
+      ""
+    ],
+    [
+      "Kurennoy",
+      "Alexey",
+      ""
+    ],
+    [
+      "Vlasov",
+      "Vladimir",
+      ""
+    ],
+    [
+      "Celikik",
+      "Marjan",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 11 Dec 2024 21:16:37 GMT"
+    }
+  ],
+  "updateDate": "2024-12-13",
+  "timestamp": 1733951797000,
+  "abstract": "  Position bias poses a persistent challenge in recommender systems, with much\nof the existing research focusing on refining ranking relevance and driving\nuser engagement. However, in practical applications, the mitigation of position\nbias does not always result in detectable short-term improvements in ranking\nrelevance. This paper provides an alternative, practically useful view of what\nposition bias reduction methods can achieve. It demonstrates that position\ndebiasing can spread visibility and interactions more evenly across the\nassortment, effectively reducing a skew in the popularity of items induced by\nthe position bias through a feedback loop. We offer an explanation of how\nposition bias affects item popularity. This includes an illustrative model of\nthe item popularity histogram and the effect of the position bias on its\nskewness. Through offline and online experiments on our large-scale e-commerce\nplatform, we show that position debiasing can significantly improve assortment\nutilization, without any degradation in user engagement or financial metrics.\nThis makes the ranking fairer and helps attract more partners or content\nproviders, benefiting the customers and the business in the long term.\n",
+  "subjects": [
+    "Computer Science/Information Retrieval",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "urtYA3vPiNQWT8ZsDAvpZ2qWNud_5sTPIdVi3SBMUMo",
+  "pdfSize": "632479"
+}

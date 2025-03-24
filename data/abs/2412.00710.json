@@ -1,0 +1,52 @@
+{
+  "id": "2412.00710",
+  "title": "On-Chain Credit Risk Score (OCCR Score) in DeFi",
+  "authors": "Rik Ghosh (1), Arka Datta (1), Vidhi Aggarwal (1), Sudipan Sinha (1),\n  Abhimanyu Nag (1) ((1) Chainrisk)",
+  "authorsParsed": [
+    [
+      "Ghosh",
+      "Rik",
+      "",
+      "Chainrisk"
+    ],
+    [
+      "Datta",
+      "Arka",
+      "",
+      "Chainrisk"
+    ],
+    [
+      "Aggarwal",
+      "Vidhi",
+      "",
+      "Chainrisk"
+    ],
+    [
+      "Sinha",
+      "Sudipan",
+      "",
+      "Chainrisk"
+    ],
+    [
+      "Nag",
+      "Abhimanyu",
+      "",
+      "Chainrisk"
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 1 Dec 2024 07:18:04 GMT"
+    }
+  ],
+  "updateDate": "2024-12-03",
+  "timestamp": 1733037484000,
+  "abstract": "  Decentralized Finance (DeFi) and smart contracts are the next generation and\nfast-growing market for quick and safe interaction between lenders and\nborrowers. However for maintaining a streamline ecosystem it is necessary to\nunderstand the risk associated with the particular user under consideration. In\nthis paper we have developed 'On Chain Credit Risk Score' of a wallet is an\nanswer to quantifying the risk of the particular wallet, namely the probability\nthat the particular wallet may have a loan liquidated. 'On Chain Credit Risk\nScore (OCCR Score)' of wallets, will help lending borrowing protocols and other\nDeFi institutes to understand the risk involved in giving out loans to a wallet\nand may change the Loan-to-Value (LTV) Ratio and subsequently the Liquidation\nThreshold (LT) if required.\n",
+  "subjects": [
+    "Quantitative Finance/Risk Management"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "x_ys6cBubk9NtKTUtBizmngKVi2xmeWyIH5PQWt1G5g",
+  "pdfSize": "153679"
+}

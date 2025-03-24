@@ -1,0 +1,50 @@
+{
+  "id": "2412.16773",
+  "title": "Fast Multi-Group Gaussian Process Factor Models",
+  "authors": "Evren Gokcen, Anna I. Jasper, Adam Kohn, Christian K. Machens, Byron\n  M. Yu",
+  "authorsParsed": [
+    [
+      "Gokcen",
+      "Evren",
+      ""
+    ],
+    [
+      "Jasper",
+      "Anna I.",
+      ""
+    ],
+    [
+      "Kohn",
+      "Adam",
+      ""
+    ],
+    [
+      "Machens",
+      "Christian K.",
+      ""
+    ],
+    [
+      "Yu",
+      "Byron M.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 21 Dec 2024 21:00:15 GMT"
+    }
+  ],
+  "updateDate": "2024-12-24",
+  "timestamp": 1734814815000,
+  "abstract": "  Gaussian processes are now commonly used in dimensionality reduction\napproaches tailored to neuroscience, especially to describe changes in\nhigh-dimensional neural activity over time. As recording capabilities expand to\ninclude neuronal populations across multiple brain areas, cortical layers, and\ncell types, interest in extending Gaussian process factor models to\ncharacterize multi-population interactions has grown. However, the cubic\nruntime scaling of current methods with the length of experimental trials and\nthe number of recorded populations (groups) precludes their application to\nlarge-scale multi-population recordings. Here, we improve this scaling from\ncubic to linear in both trial length and group number. We present two\napproximate approaches to fitting multi-group Gaussian process factor models\nbased on (1) inducing variables and (2) the frequency domain. Empirically, both\nmethods achieved orders of magnitude speed-up with minimal impact on\nstatistical performance, in simulation and on neural recordings of hundreds of\nneurons across three brain areas. The frequency domain approach, in particular,\nconsistently provided the greatest runtime benefits with the fewest trade-offs\nin statistical performance. We further characterize the estimation biases\nintroduced by the frequency domain approach and demonstrate effective\nstrategies to mitigate them. This work enables a powerful class of analysis\ntechniques to keep pace with the growing scale of multi-population recordings,\nopening new avenues for exploring brain function.\n",
+  "subjects": [
+    "Statistics/Machine Learning",
+    "Computer Science/Machine Learning",
+    "Electrical Engineering and Systems Science/Signal Processing",
+    "Quantitative Biology/Neurons and Cognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "_6-Lfj0eHSG-kv8RvpoR_oAFBOGO_q0Fzcgbfx2tYhw",
+  "pdfSize": "1805778"
+}

@@ -1,0 +1,43 @@
+{
+  "id": "2412.19898",
+  "title": "A new constraint on galaxy-halo connections of [O II] emitters via HOD\n  modelling with angular clustering and luminosity functions from the Subaru\n  HSC survey",
+  "authors": "Shogo Ishikawa, Teppei Okumura, Masao Hayashi, Tsutomu T. Takeuchi",
+  "authorsParsed": [
+    [
+      "Ishikawa",
+      "Shogo",
+      ""
+    ],
+    [
+      "Okumura",
+      "Teppei",
+      ""
+    ],
+    [
+      "Hayashi",
+      "Masao",
+      ""
+    ],
+    [
+      "Takeuchi",
+      "Tsutomu T.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 27 Dec 2024 19:17:04 GMT"
+    }
+  ],
+  "updateDate": "2024-12-31",
+  "timestamp": 1735327024000,
+  "abstract": "  Establishing a robust connection model between emission-line galaxies (ELGs)\nand their host dark haloes is of paramount importance in anticipation of\nupcoming redshift surveys. In this paper, we propose a novel halo occupation\ndistribution (HOD) framework that incorporates galaxy luminosity, a key\nobservable reflecting ELG star-formation activity, into the galaxy occupation\nmodel. This innovation enables prediction of galaxy luminosity functions (LFs)\nand facilitates joint analyses using both angular correlation functions (ACFs)\nand LFs. Using physical information from luminosity, our model provides more\nrobust constraints on the ELG-halo connection compared to methods relying\nsolely on ACF and number density constraints. Our model was applied to [O\nII]-emitting galaxies observed at two redshift slices at $z=1.193$ and $1.471$\nfrom the Subaru Hyper Suprime-Cam PDR2. Our model effectively reproduces\nobserved ACFs and LFs observed in both redshift slices. Compared to the\nestablished \\citeauthor{geach12} HOD model, our approach offers a more nuanced\ndepiction of ELG occupation across halo mass ranges, suggesting a more\nrealistic representation of ELG environments. Our findings suggest that ELGs at\n$z\\sim1.4$ may evolve into Milky-Way-like galaxies, highlighting their role as\npotential building blocks in galaxy formation scenarios. By incorporating the\nLF as a constraint linking galaxy luminosity to halo properties, our HOD model\nprovides a more precise understanding of ELG-host halo relationships.\nFurthermore, this approach facilitates the generation of high-quality ELG mock\ncatalogues of for future surveys. As the LF is a fundamental observable, our\nframework is potentially applicable to diverse galaxy populations, offering a\nversatile tool for analysing data from next-generation galaxy surveys.\n",
+  "subjects": [
+    "Astrophysics/Astrophysics of Galaxies",
+    "Astrophysics/Cosmology and Nongalactic Astrophysics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "PwimcxP90j4btLku8ESJ7Jt_KyO7ND0gR34V4Jk6Ph8",
+  "pdfSize": "2241379"
+}

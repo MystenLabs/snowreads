@@ -1,0 +1,42 @@
+{
+  "id": "2412.13993",
+  "title": "Improved Physics-informed neural networks loss function regularization\n  with a variance-based term",
+  "authors": "John M. Hanna, Hugues Talbot, Irene E. Vignon-Clementel",
+  "authorsParsed": [
+    [
+      "Hanna",
+      "John M.",
+      ""
+    ],
+    [
+      "Talbot",
+      "Hugues",
+      ""
+    ],
+    [
+      "Vignon-Clementel",
+      "Irene E.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 18 Dec 2024 16:11:45 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Wed, 26 Feb 2025 20:31:35 GMT"
+    }
+  ],
+  "updateDate": "2025-02-28",
+  "timestamp": 1734538305000,
+  "abstract": "  In machine learning and statistical modeling, the mean square or absolute\nerror is commonly used as an error metric, also called a \"loss function.\" While\neffective in reducing the average error, this approach may fail to address\nlocalized outliers, leading to significant inaccuracies in regions with sharp\ngradients or discontinuities. This issue is particularly evident in\nphysics-informed neural networks (PINNs), where such localized errors are\nexpected and affect the overall solution. To overcome this limitation, we\npropose a novel loss function that combines the mean and the standard deviation\nof the chosen error metric. By minimizing this combined loss function, the\nmethod ensures a more uniform error distribution and reduces the impact of\nlocalized high-error regions. The proposed loss function is easy to implement\nand tested on problems of varying complexity: the 1D Poisson equation, the\nunsteady Burgers' equation, 2D linear elastic solid mechanics, and 2D steady\nNavier-Stokes equations. Results demonstrate improved solution quality and\nlower maximum error compared to the standard mean-based loss, with minimal\nimpact on computational time.\n",
+  "subjects": [
+    "Mathematics/Optimization and Control",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "HUeI5SToP8VaHAKuzBewtyvKL7G9K4f27gUrMDQ4ulI",
+  "pdfSize": "1650473"
+}

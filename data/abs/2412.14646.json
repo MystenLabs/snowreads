@@ -1,0 +1,32 @@
+{
+  "id": "2412.14646",
+  "title": "Optimization of Collective Bayesian Decision-Making in a Swarm of\n  Miniaturized Vibration-Sensing Robots",
+  "authors": "Thiemen Siemensma and Bahar Haghighat",
+  "authorsParsed": [
+    [
+      "Siemensma",
+      "Thiemen",
+      ""
+    ],
+    [
+      "Haghighat",
+      "Bahar",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 19 Dec 2024 08:56:02 GMT"
+    }
+  ],
+  "updateDate": "2024-12-20",
+  "timestamp": 1734598562000,
+  "abstract": "  Inspection of infrastructure using static sensor nodes has become a well\nestablished approach in recent decades. In this work, we present an\nexperimental setup to address a binary inspection task using mobile sensor\nnodes. The objective is to identify the predominant tile type in a 1mx1m tiled\nsurface composed of vibrating and non-vibrating tiles. A swarm of miniaturized\nrobots, equipped with onboard IMUs for sensing and IR sensors for collision\navoidance, performs the inspection. The decision-making approach leverages a\nBayesian algorithm, updating robots' belief using inference. The original\nalgorithm uses one of two information sharing strategies. We introduce a novel\ninformation sharing strategy, aiming to accelerate the decision-making. To\noptimize the algorithm parameters, we develop a simulation framework calibrated\nto our real-world setup in the high-fidelity Webots robotic simulator. We\nevaluate the three information sharing strategies through simulations and\nreal-world experiments. Moreover, we test the effectiveness of our optimization\nby placing swarms with optimized and non-optimized parameters in increasingly\ncomplex environments with varied spatial correlation and fill ratios. Results\nshow that our proposed information sharing strategy consistently outperforms\npreviously established information-sharing strategies in decision time.\nAdditionally, optimized parameters yield robust performance across different\nenvironments. Conversely, non-optimized parameters perform well in simpler\nscenarios but show reduced accuracy in complex settings.\n",
+  "subjects": [
+    "Computer Science/Robotics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "MTjYCAtD4xp0tIRQFn8F0gKk_DcWcikZWURr59TetKU",
+  "pdfSize": "7098864"
+}

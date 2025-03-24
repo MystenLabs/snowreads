@@ -1,0 +1,33 @@
+{
+  "id": "2412.17475",
+  "title": "Strange shadows of $\\ell_p$-balls",
+  "authors": "Zakhar Kabluchko and Mathias Sonnleitner",
+  "authorsParsed": [
+    [
+      "Kabluchko",
+      "Zakhar",
+      ""
+    ],
+    [
+      "Sonnleitner",
+      "Mathias",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 23 Dec 2024 11:00:34 GMT"
+    }
+  ],
+  "updateDate": "2024-12-24",
+  "timestamp": 1734951634000,
+  "abstract": "  We prove a large deviations principle for orthogonal projections of the unit\nball $\\mathbb{B}_p^n$ of $\\ell_p^n$ onto a random $k$-dimensional linear\nsubspace of $\\mathbb{R}^n$ as $n\\to\\infty$ in the case $2<p\\le \\infty$ and for\nthe intersection of $\\mathbb{B}_p^n$ with a random $k$-dimensional subspace in\nthe case $1\\le p <2$. The corresponding rate function is finite only on\n$L_q$-zonoids and their duals, respectively, and given in terms of the maximum\nentropy over suitable measures generating the $L_q$-zonoid, where\n$\\frac{1}{p}+\\frac{1}{q}=1$. In particular, we obtain that the renormalized\nprojections/sections almost surely tend to a $k$-dimensional Euclidean ball of\ncertain radius. Moreover, we identify the asymptotic probability that the\nrandom orthogonal projection remains within a ball of smaller radius. As a\nbyproduct we obtain an interesting inequality for the Gamma function.\n",
+  "subjects": [
+    "Mathematics/Probability",
+    "Mathematics/Functional Analysis"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "ds2Uw_ioSKdWmu_8Uf3aPCAXTdCU4P6eCN47JqUfYRg",
+  "pdfSize": "342449"
+}

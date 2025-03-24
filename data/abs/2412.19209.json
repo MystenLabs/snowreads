@@ -1,0 +1,37 @@
+{
+  "id": "2412.19209",
+  "title": "Context-Aware Deep Learning for Multi Modal Depression Detection",
+  "authors": "Genevieve Lam, Huang Dongyan, Weisi Lin",
+  "authorsParsed": [
+    [
+      "Lam",
+      "Genevieve",
+      ""
+    ],
+    [
+      "Dongyan",
+      "Huang",
+      ""
+    ],
+    [
+      "Lin",
+      "Weisi",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 26 Dec 2024 13:19:26 GMT"
+    }
+  ],
+  "updateDate": "2024-12-30",
+  "timestamp": 1735219166000,
+  "abstract": "  In this study, we focus on automated approaches to detect depression from\nclinical interviews using multi-modal machine learning (ML). Our approach\ndifferentiates from other successful ML methods such as context-aware analysis\nthrough feature engineering and end-to-end deep neural networks for depression\ndetection utilizing the Distress Analysis Interview Corpus. We propose a novel\nmethod that incorporates: (1) pre-trained Transformer combined with data\naugmentation based on topic modelling for textual data; and (2) deep 1D\nconvolutional neural network (CNN) for acoustic feature modeling. The\nsimulation results demonstrate the effectiveness of the proposed method for\ntraining multi-modal deep learning models. Our deep 1D CNN and Transformer\nmodels achieved state-of-the-art performance for audio and text modalities\nrespectively. Combining them in a multi-modal framework also outperforms\nstate-of-the-art for the combined setting. Code available at\nhttps://github.com/genandlam/multi-modal-depression-detection\n",
+  "subjects": [
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "hBciBaEvTnxa4iRGTBXg6iQKcmglOddOdg1EwHq94ys",
+  "pdfSize": "490608"
+}

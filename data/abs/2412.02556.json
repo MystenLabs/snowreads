@@ -1,0 +1,87 @@
+{
+  "id": "2412.02556",
+  "title": "Quadrupolar Density Structures in Driven Magnetic Reconnection\n  Experiments with a Guide Field",
+  "authors": "T. W. O. Varnish, J. Chen, S. Chowdhry, R. Datta, G. V. Dowhan, L. S.\n  Horan IV, N. M. Jordan, E. R. Neill, A. P. Shah, B. J. Sporer, R. Shapovalov,\n  R. D. McBride, J. D. Hare",
+  "authorsParsed": [
+    [
+      "Varnish",
+      "T. W. O.",
+      ""
+    ],
+    [
+      "Chen",
+      "J.",
+      ""
+    ],
+    [
+      "Chowdhry",
+      "S.",
+      ""
+    ],
+    [
+      "Datta",
+      "R.",
+      ""
+    ],
+    [
+      "Dowhan",
+      "G. V.",
+      ""
+    ],
+    [
+      "Horan",
+      "L. S.",
+      "IV"
+    ],
+    [
+      "Jordan",
+      "N. M.",
+      ""
+    ],
+    [
+      "Neill",
+      "E. R.",
+      ""
+    ],
+    [
+      "Shah",
+      "A. P.",
+      ""
+    ],
+    [
+      "Sporer",
+      "B. J.",
+      ""
+    ],
+    [
+      "Shapovalov",
+      "R.",
+      ""
+    ],
+    [
+      "McBride",
+      "R. D.",
+      ""
+    ],
+    [
+      "Hare",
+      "J. D.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 3 Dec 2024 16:47:22 GMT"
+    }
+  ],
+  "updateDate": "2024-12-04",
+  "timestamp": 1733244442000,
+  "abstract": "  Magnetic reconnection is a ubiquitous process in plasma physics, driving\nrapid and energetic events such as coronal mass ejections. Reconnection between\nmagnetic fields with arbitrary shear can be decomposed into an anti-parallel,\nreconnecting component, and a non-reconnecting guide-field component which is\nparallel to the reconnecting electric field. This guide field modifies the\nstructure of the reconnection layer and the reconnection rate. We present\nresults from experiments on the MAIZE pulsed-power generator (500 kA peak\ncurrent, 200 ns rise-time) which use two exploding wire arrays, tilted in\nopposite directions, to embed a guide field in the plasma flows with a relative\nstrength $b\\equiv B_g/B_{rec}=\\text{0, 0.4, or 1}$. The reconnection layers in\nthese experiments have widths which are less than the ion skin depth,\n$d_i=c/\\omega_{pi}$, indicating the importance of the Hall term, which\ngenerates a distinctive quadrupolar magnetic field structure along the\nseparatrices of the reconnection layer. Using laser imaging interferometry, we\nobserve quadrupolar structures in the line-integrated electron density,\nconsistent with the interaction of the embedded guide field with the\nquadrupolar Hall field. Our measurements extend over much larger length scales\n($40 d_i$) at higher $\\beta$ ($\\sim 1$) than previous experiments, providing an\ninsight into the global structure of the reconnection layer.\n",
+  "subjects": [
+    "Physics/Plasma Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "F2gPiXkEOEGeUgMpqWpDEsyBw2N9KB1QF-q8VgyesdI",
+  "pdfSize": "24951737"
+}

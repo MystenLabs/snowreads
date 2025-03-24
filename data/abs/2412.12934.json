@@ -1,0 +1,32 @@
+{
+  "id": "2412.12934",
+  "title": "Emergent short-range repulsion for attractively coupled active particles",
+  "authors": "Ritwick Sarkar, Urna Basu",
+  "authorsParsed": [
+    [
+      "Sarkar",
+      "Ritwick",
+      ""
+    ],
+    [
+      "Basu",
+      "Urna",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 17 Dec 2024 14:13:05 GMT"
+    }
+  ],
+  "updateDate": "2024-12-18",
+  "timestamp": 1734444785000,
+  "abstract": "  We show that heterogeneity in self-propulsion speed leads to the emergence of\neffective short-range repulsion among active particles coupled via strong\nattractive potentials. Taking the example of two harmonically coupled active\nBrownian particles, we analytically compute the stationary distribution of the\ndistance between them in the strong coupling regime, i.e., where the coupling\nstrength is much larger than the rotational diffusivity of the particles. The\neffective repulsion in this regime is manifest in the emergence of a minimum\ndistance between the particles, proportional to the difference in their\nself-propulsion speeds. Physically, this distance of the closest approach is\nassociated to the orientations of the particles being parallel to each other.\nWe show that the physical scenario remains qualitatively similar for any\nlong-range coupling potential, which is attractive everywhere. Moreover, we\nshow that, for a collection of $N$ particles interacting via pairwise\nattractive potentials, a short-range repulsion emerges for each pair of\nparticles with different self-propulsion speeds. Finally, we show that our\nresults are robust and hold irrespective of the specific active dynamics of the\nparticles.\n",
+  "subjects": [
+    "Condensed Matter/Statistical Mechanics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "N-uGq3EQcqbPI9fSIwPD9wDc53ot6wZITrVWhlfDVVw",
+  "pdfSize": "1199442"
+}

@@ -1,0 +1,43 @@
+{
+  "id": "2412.00739",
+  "title": "Quantum entanglement entropy and Tomonaga-Luttinger liquid to liquid\n  transition in biquadratic spin-1 XY chain with rhombic single-ion anisotropy",
+  "authors": "Yan-Wei Dai, Yao Heng Su, Sam Young Cho, Huan-Qiang Zhou",
+  "authorsParsed": [
+    [
+      "Dai",
+      "Yan-Wei",
+      ""
+    ],
+    [
+      "Su",
+      "Yao Heng",
+      ""
+    ],
+    [
+      "Cho",
+      "Sam Young",
+      ""
+    ],
+    [
+      "Zhou",
+      "Huan-Qiang",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 1 Dec 2024 09:16:58 GMT"
+    }
+  ],
+  "updateDate": "2024-12-03",
+  "timestamp": 1733044618000,
+  "abstract": "  Quantum phase transitions (QPTs) are investigated in biquadratic spin-$1$ XY\nchain with rhombic single-ion anisotropy by using the ground state energy (GE),\nthe bipartite entanglement entropy (BEE), and the mutual information (MI). It\nturns out that there are three spin nematic phases and two Tomonaga-Luttinger\n(TL) liquid phases with the central charge $c = 1$. The TL Liquid phases emerge\nroughly for biquadratic interaction strength two times stronger than the\nabsolute value of the single-ion anisotropy. The GE and the derivatives up to\nthe second order reveal a first-order QPT between spin nematic ferroquarupole\n(FQ) phases but cannot capture an evident signal of QPTs between the spin\nnematic phases and the TL Liquid phases as well as QPT between the two TL\nliquid phases. The TL liquid-to-liquid transition point features a highly\ndegenerate state and the spin-block entanglement entropy increases\nlogarithmically with block size. The BEE exhibits a divergent or convergent\nbehavior identifying the TL Liquid or spin nematic FQ phases, respectively.\nSimilarly, the MI and the spin-spin correlation are shown to decay\nalgebraically or exponentially with increasing the lattice distance in the TL\nLiquid or spin nematic FQ phases, respectively. In the TL liquid phase, the\nexponents $\\eta_I$ and $\\eta_z$ of the MI and the spin-spin correlation vary\nwith the interaction parameter of the biquadratic interaction strength and the\nrhombic single-ion anisotropy and satisfy the relationship of $\\eta_z <\\eta_I$.\nSuch changes of characteristic behavior of the BEE, the MI and the spin-spin\ncorrelation indicate an occurrence of the Berezinskii-Kosterlitz-Thouless\n(BKT)-type QPT between the TL Liquid phase and the spin nematic FQ phase. The\nstaggered spin fluctuation $\\langle S^x S^y \\rangle$ is shown to play a\nsignificant role for the emergence of the TL liquid phase and thus give rise to\nthe BKT-type QPT.\n",
+  "subjects": [
+    "Condensed Matter/Strongly Correlated Electrons",
+    "Physics/Quantum Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "cN0mVupeiwoIP7sDbpbX0hkc1cPAAo5ONVnxj9bAw80",
+  "pdfSize": "996413"
+}

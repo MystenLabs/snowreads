@@ -1,0 +1,57 @@
+{
+  "id": "2412.08046",
+  "title": "Optimal Reactive Operation of General Topology Supply Chain and\n  Manufacturing Networks under Disruptions",
+  "authors": "Daniel Ovalle, Joshua L. Pulsipher, Yixin Ye, Kyle Harshbarger, Scott\n  Bury, Carl D. Laird, and Ignacio E. Grossmann",
+  "authorsParsed": [
+    [
+      "Ovalle",
+      "Daniel",
+      ""
+    ],
+    [
+      "Pulsipher",
+      "Joshua L.",
+      ""
+    ],
+    [
+      "Ye",
+      "Yixin",
+      ""
+    ],
+    [
+      "Harshbarger",
+      "Kyle",
+      ""
+    ],
+    [
+      "Bury",
+      "Scott",
+      ""
+    ],
+    [
+      "Laird",
+      "Carl D.",
+      ""
+    ],
+    [
+      "Grossmann",
+      "Ignacio E.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 11 Dec 2024 02:50:59 GMT"
+    }
+  ],
+  "updateDate": "2024-12-12",
+  "timestamp": 1733885459000,
+  "abstract": "  Supply and manufacturing networks in the chemical industry involve diverse\nprocessing steps across different locations, rendering their operation\nvulnerable to disruptions from unplanned events. Optimal responses should\nconsider factors such as product allocation, delayed shipments, and price\nrenegotiation , among other factors. In such context, we propose a multiperiod\nmixed-integer linear programming model that integrates production, scheduling,\nshipping, and order management to minimize the financial impact of such\ndisruptions. The model accommodates arbitrary supply chain topologies and\nincorporates various disruption scenarios, offering adaptability to real-world\ncomplexities. A case study from the chemical industry demonstrates the\nscalability of the model under finer time discretization and explores the\ninfluence of disruption types and order management costs on optimal schedules.\nThis approach provides a tractable, adaptable framework for developing\nresponsive operational plans in supply chain and manufacturing networks under\nuncertainty.\n",
+  "subjects": [
+    "Mathematics/Optimization and Control"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "SkhF1Ig-8Agj55RWfQAopzmCa-ZhbSXTnd2wejs70AE",
+  "pdfSize": "8522013"
+}

@@ -1,0 +1,37 @@
+{
+  "id": "2412.02081",
+  "title": "Let's Think Var-by-Var: Large Language Models Enable Ad Hoc\n  Probabilistic Reasoning",
+  "authors": "Shepard Xia and Brian Lu and Jason Eisner",
+  "authorsParsed": [
+    [
+      "Xia",
+      "Shepard",
+      ""
+    ],
+    [
+      "Lu",
+      "Brian",
+      ""
+    ],
+    [
+      "Eisner",
+      "Jason",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 3 Dec 2024 01:53:06 GMT"
+    }
+  ],
+  "updateDate": "2024-12-04",
+  "timestamp": 1733190786000,
+  "abstract": "  A hallmark of intelligence is the ability to flesh out underspecified\nsituations using \"common sense.\" We propose to extract that common sense from\nlarge language models (LLMs), in a form that can feed into probabilistic\ninference. We focus our investigation on $\\textit{guesstimation}$ questions\nsuch as \"How much are Airbnb listings in Newark, NJ?\" Formulating a sensible\nanswer without access to data requires drawing on, and integrating, bits of\ncommon knowledge about how $\\texttt{Price}$ and $\\texttt{Location}$ may relate\nto other variables, such as $\\texttt{Property Type}$. Our framework answers\nsuch a question by synthesizing an $\\textit{ad hoc}$ probabilistic model. First\nwe prompt an LLM to propose a set of random variables relevant to the question,\nfollowed by moment constraints on their joint distribution. We then optimize\nthe joint distribution $p$ within a log-linear family to maximize the overall\nconstraint satisfaction. Our experiments show that LLMs can successfully be\nprompted to propose reasonable variables, and while the proposed numerical\nconstraints can be noisy, jointly optimizing for their satisfaction reconciles\nthem. When evaluated on probabilistic questions derived from three real-world\ntabular datasets, we find that our framework performs comparably to a direct\nprompting baseline in terms of total variation distance from the dataset\ndistribution, and is similarly robust to noise.\n",
+  "subjects": [
+    "Computer Science/Computation and Language"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "SUvsAIbMC2NHt3oyLb6d77o-VtxxYR-6KsDrPKAfBKo",
+  "pdfSize": "1700812"
+}

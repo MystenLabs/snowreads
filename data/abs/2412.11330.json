@@ -1,0 +1,42 @@
+{
+  "id": "2412.11330",
+  "title": "Exact Verification of First-Order Methods via Mixed-Integer Linear\n  Programming",
+  "authors": "Vinit Ranjan, Stefano Gualandi, Andrea Lodi, Bartolomeo Stellato",
+  "authorsParsed": [
+    [
+      "Ranjan",
+      "Vinit",
+      ""
+    ],
+    [
+      "Gualandi",
+      "Stefano",
+      ""
+    ],
+    [
+      "Lodi",
+      "Andrea",
+      ""
+    ],
+    [
+      "Stellato",
+      "Bartolomeo",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 15 Dec 2024 22:20:22 GMT"
+    }
+  ],
+  "updateDate": "2024-12-17",
+  "timestamp": 1734301222000,
+  "abstract": "  We present exact mixed-integer programming linear formulations for verifying\nthe performance of first-order methods for parametric quadratic optimization.\nWe formulate the verification problem as a mixed-integer linear program where\nthe objective is to maximize the infinity norm of the fixed-point residual\nafter a given number of iterations. Our approach captures a wide range of\ngradient, projection, proximal iterations through affine or piecewise affine\nconstraints. We derive tight polyhedral convex hull formulations of the\nconstraints representing the algorithm iterations. To improve the scalability,\nwe develop a custom bound tightening technique combining interval propagation,\noperator theory, and optimization-based bound tightening. Numerical examples,\nincluding linear and quadratic programs from network optimization and sparse\ncoding using Lasso, show that our method provides several orders of magnitude\nreductions in the worst-case fixed-point residuals, closely matching the true\nworst-case performance.\n",
+  "subjects": [
+    "Mathematics/Optimization and Control"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "KrTriNQ1JsJl6xe09x_XpsnNR2-BEUa2KsE04_hpsrk",
+  "pdfSize": "733041"
+}

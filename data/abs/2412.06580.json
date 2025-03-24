@@ -1,0 +1,28 @@
+{
+  "id": "2412.06580",
+  "title": "Challenges for Monte Carlo generators",
+  "authors": "J\\\"urgen Reuter",
+  "authorsParsed": [
+    [
+      "Reuter",
+      "Jürgen",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 9 Dec 2024 15:36:32 GMT"
+    }
+  ],
+  "updateDate": "2024-12-19",
+  "timestamp": 1733758592000,
+  "abstract": "  This contribution lists challenges of Monte Carlo event generators for future\nlepton, especially linear colliders. A lot of the recent development benefits\nfrom the achievements at the Large Hadron Collider (LHC), but several aspects\nare unique for lepton colliders like beam simulation, polarization, electroweak\nhigher order corrections and resummed QED corrections. We will describe the\nstatus of multi-purpose event generators and specialized codes and outline the\nchallenges for these tools until such a collider starts data taking.\n",
+  "subjects": [
+    "Physics/High Energy Physics - Phenomenology",
+    "Physics/High Energy Physics - Experiment"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "FgcWmeqN3Ri-p0voepetxHwDb5ExQmTfkXcpMAS8_2M",
+  "pdfSize": "145955"
+}

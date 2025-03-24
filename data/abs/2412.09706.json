@@ -1,0 +1,71 @@
+{
+  "id": "2412.09706",
+  "title": "Diffusion-Enhanced Test-time Adaptation with Text and Image Augmentation",
+  "authors": "Chun-Mei Feng and Yuanyang He and Jian Zou and Salman Khan and Huan\n  Xiong and Zhen Li and Wangmeng Zuo and Rick Siow Mong Goh and Yong Liu",
+  "authorsParsed": [
+    [
+      "Feng",
+      "Chun-Mei",
+      ""
+    ],
+    [
+      "He",
+      "Yuanyang",
+      ""
+    ],
+    [
+      "Zou",
+      "Jian",
+      ""
+    ],
+    [
+      "Khan",
+      "Salman",
+      ""
+    ],
+    [
+      "Xiong",
+      "Huan",
+      ""
+    ],
+    [
+      "Li",
+      "Zhen",
+      ""
+    ],
+    [
+      "Zuo",
+      "Wangmeng",
+      ""
+    ],
+    [
+      "Goh",
+      "Rick Siow Mong",
+      ""
+    ],
+    [
+      "Liu",
+      "Yong",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 12 Dec 2024 20:01:24 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Wed, 25 Dec 2024 10:01:48 GMT"
+    }
+  ],
+  "updateDate": "2024-12-30",
+  "timestamp": 1734033684000,
+  "abstract": "  Existing test-time prompt tuning (TPT) methods focus on single-modality data,\nprimarily enhancing images and using confidence ratings to filter out\ninaccurate images. However, while image generation models can produce visually\ndiverse images, single-modality data enhancement techniques still fail to\ncapture the comprehensive knowledge provided by different modalities.\nAdditionally, we note that the performance of TPT-based methods drops\nsignificantly when the number of augmented images is limited, which is not\nunusual given the computational expense of generative augmentation. To address\nthese issues, we introduce IT3A, a novel test-time adaptation method that\nutilizes a pre-trained generative model for multi-modal augmentation of each\ntest sample from unknown new domains. By combining augmented data from\npre-trained vision and language models, we enhance the ability of the model to\nadapt to unknown new test data. Additionally, to ensure that key semantics are\naccurately retained when generating various visual and text enhancements, we\nemploy cosine similarity filtering between the logits of the enhanced images\nand text with the original test data. This process allows us to filter out some\nspurious augmentation and inadequate combinations. To leverage the diverse\nenhancements provided by the generation model across different modals, we have\nreplaced prompt tuning with an adapter for greater flexibility in utilizing\ntext templates. Our experiments on the test datasets with distribution shifts\nand domain gaps show that in a zero-shot setting, IT3A outperforms\nstate-of-the-art test-time prompt tuning methods with a 5.50% increase in\naccuracy.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "6w54cdACWkSEGwxOrpRYwyEhIiw0stci8kd5unoO4o8",
+  "pdfSize": "10617670"
+}

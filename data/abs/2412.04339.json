@@ -1,0 +1,54 @@
+{
+  "id": "2412.04339",
+  "title": "Likelihood-Scheduled Score-Based Generative Modeling for Fully 3D PET\n  Image Reconstruction",
+  "authors": "George Webber, Yuya Mizuno, Oliver D. Howes, Alexander Hammers, Andrew\n  P. King, Andrew J. Reader",
+  "authorsParsed": [
+    [
+      "Webber",
+      "George",
+      ""
+    ],
+    [
+      "Mizuno",
+      "Yuya",
+      ""
+    ],
+    [
+      "Howes",
+      "Oliver D.",
+      ""
+    ],
+    [
+      "Hammers",
+      "Alexander",
+      ""
+    ],
+    [
+      "King",
+      "Andrew P.",
+      ""
+    ],
+    [
+      "Reader",
+      "Andrew J.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 5 Dec 2024 16:58:45 GMT"
+    }
+  ],
+  "updateDate": "2024-12-06",
+  "timestamp": 1733417925000,
+  "abstract": "  Medical image reconstruction with pre-trained score-based generative models\n(SGMs) has advantages over other existing state-of-the-art deep-learned\nreconstruction methods, including improved resilience to different scanner\nsetups and advanced image distribution modeling. SGM-based reconstruction has\nrecently been applied to simulated positron emission tomography (PET) datasets,\nshowing improved contrast recovery for out-of-distribution lesions relative to\nthe state-of-the-art. However, existing methods for SGM-based reconstruction\nfrom PET data suffer from slow reconstruction, burdensome hyperparameter tuning\nand slice inconsistency effects (in 3D). In this work, we propose a practical\nmethodology for fully 3D reconstruction that accelerates reconstruction and\nreduces the number of critical hyperparameters by matching the likelihood of an\nSGM's reverse diffusion process to a current iterate of the maximum-likelihood\nexpectation maximization algorithm. Using the example of low-count\nreconstruction from simulated $[^{18}$F]DPA-714 datasets, we show our\nmethodology can match or improve on the NRMSE and SSIM of existing\nstate-of-the-art SGM-based PET reconstruction while reducing reconstruction\ntime and the need for hyperparameter tuning. We evaluate our methodology\nagainst state-of-the-art supervised and conventional reconstruction algorithms.\nFinally, we demonstrate a first-ever implementation of SGM-based reconstruction\nfor real 3D PET data, specifically $[^{18}$F]DPA-714 data, where we integrate\nperpendicular pre-trained SGMs to eliminate slice inconsistency issues.\n",
+  "subjects": [
+    "Physics/Medical Physics",
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "lOr2JseU3O2jUOZvOnznS7saS_8GiI9_BwRxDfkUxkk",
+  "pdfSize": "11924414"
+}

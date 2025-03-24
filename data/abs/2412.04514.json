@@ -1,0 +1,42 @@
+{
+  "id": "2412.04514",
+  "title": "votess: A multi-target, GPU-capable, parallel Voronoi tessellator",
+  "authors": "Samridh Dev Singh, Chris Byrohl, Dylan Nelson",
+  "authorsParsed": [
+    [
+      "Singh",
+      "Samridh Dev",
+      ""
+    ],
+    [
+      "Byrohl",
+      "Chris",
+      ""
+    ],
+    [
+      "Nelson",
+      "Dylan",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 5 Dec 2024 02:07:32 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Wed, 11 Dec 2024 22:29:41 GMT"
+    }
+  ],
+  "updateDate": "2024-12-13",
+  "timestamp": 1733364452000,
+  "abstract": "  votess is a library for computing parallel 3D Voronoi tessellations on\nheterogeneous platforms, from CPUs and GPUs, to future accelerator\narchitectures. To do so, it leverages the SYCL abstraction layer to achieve\nportability and performance across these architectures. The core library is an\nimplementation of a Voronoi cell-by-cell computation algorithm, producing the\ngeometry of the cells and their neighbor connectivity information, rather than\na full combinatorial mesh data structure. This simplifies the Voronoi\ntessellation and makes it more suitable to data parallel architectures than\nalternatives such as sequential insertion or the Bowyer-Watson algorithm. The\nlibrary demonstrates significant performance improvements over established\nsingle-threaded programs and serves as a foundational tool for\nperformance-critical applications, such as on-the-fly computations in\nhydrodynamical codes.\n",
+  "subjects": [
+    "Astrophysics/Instrumentation and Methods for Astrophysics",
+    "Computer Science/Distributed, Parallel, and Cluster Computing"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "Z-a8t_g9OZi4NZhsj73X1KksBVW9T-j78YBPg4tiPZw",
+  "pdfSize": "364575"
+}

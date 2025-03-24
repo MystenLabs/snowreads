@@ -1,0 +1,54 @@
+{
+  "id": "2412.12848",
+  "title": "ClarityEthic: Explainable Moral Judgment Utilizing Contrastive Ethical\n  Insights from Large Language Models",
+  "authors": "Yuxi Sun, Wei Gao, Jing Ma, Hongzhan Lin, Ziyang Luo, Wenxuan Zhang",
+  "authorsParsed": [
+    [
+      "Sun",
+      "Yuxi",
+      ""
+    ],
+    [
+      "Gao",
+      "Wei",
+      ""
+    ],
+    [
+      "Ma",
+      "Jing",
+      ""
+    ],
+    [
+      "Lin",
+      "Hongzhan",
+      ""
+    ],
+    [
+      "Luo",
+      "Ziyang",
+      ""
+    ],
+    [
+      "Zhang",
+      "Wenxuan",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 17 Dec 2024 12:22:44 GMT"
+    }
+  ],
+  "updateDate": "2024-12-18",
+  "timestamp": 1734438164000,
+  "abstract": "  With the rise and widespread use of Large Language Models (LLMs), ensuring\ntheir safety is crucial to prevent harm to humans and promote ethical\nbehaviors. However, directly assessing value valence (i.e., support or oppose)\nby leveraging large-scale data training is untrustworthy and inexplainable. We\nassume that emulating humans to rely on social norms to make moral decisions\ncan help LLMs understand and predict moral judgment. However, capturing human\nvalues remains a challenge, as multiple related norms might conflict in\nspecific contexts. Consider norms that are upheld by the majority and promote\nthe well-being of society are more likely to be accepted and widely adopted\n(e.g., \"don't cheat,\"). Therefore, it is essential for LLM to identify the\nappropriate norms for a given scenario before making moral decisions. To this\nend, we introduce a novel moral judgment approach called \\textit{ClarityEthic}\nthat leverages LLMs' reasoning ability and contrastive learning to uncover\nrelevant social norms for human actions from different perspectives and select\nthe most reliable one to enhance judgment accuracy. Extensive experiments\ndemonstrate that our method outperforms state-of-the-art approaches in moral\njudgment tasks. Moreover, human evaluations confirm that the generated social\nnorms provide plausible explanations that support the judgments. This suggests\nthat modeling human moral judgment with the emulating humans moral strategy is\npromising for improving the ethical behaviors of LLMs.\n",
+  "subjects": [
+    "Computer Science/Computers and Society",
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Social and Information Networks"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "f6hYUlRyTUp5h5Xe1x5w3aeYaEqKCG-hkxblHqn8zqY",
+  "pdfSize": "1458763"
+}

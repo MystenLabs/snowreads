@@ -1,0 +1,47 @@
+{
+  "id": "2412.07828",
+  "title": "Equivariant localization for $D=4$ gauged supergravity",
+  "authors": "Pietro Benetti Genolini, Jerome P. Gauntlett, Yusheng Jiao, Alice\n  L\\\"uscher, James Sparks",
+  "authorsParsed": [
+    [
+      "Genolini",
+      "Pietro Benetti",
+      ""
+    ],
+    [
+      "Gauntlett",
+      "Jerome P.",
+      ""
+    ],
+    [
+      "Jiao",
+      "Yusheng",
+      ""
+    ],
+    [
+      "Lüscher",
+      "Alice",
+      ""
+    ],
+    [
+      "Sparks",
+      "James",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 10 Dec 2024 19:00:00 GMT"
+    }
+  ],
+  "updateDate": "2024-12-12",
+  "timestamp": 1733857200000,
+  "abstract": "  We consider supersymmetric solutions of $D=4$, $\\mathcal{N}=2$ Euclidean\ngauged supergravity coupled to an arbitrary number of vector multiplets. Such\nsolutions admit an R-symmetry Killing vector, $\\xi$, constructed as a bilinear\nin the Killing spinor. The Killing spinor bilinears can also be used to\nconstruct polyforms that are equivariantly closed under the action of the\nequivariant exterior derivative\n$\\mathrm{d}_\\xi=\\mathrm{d}-\\xi\\mathbin{\\rule[.2ex]{.4em}{.03em}\\rule[.2ex]{.03em}{.9ex}}\\,$.\nThis allows one to compute various flux integrals and the on-shell action using\nlocalization, without solving any supergravity equations, just assuming the\nsupersymmetric solutions exist. The flux integrals allow one to obtain\nimportant UV-IR relations, relating fixed point data in the bulk to data on the\nasymptotic AdS boundary, allowing one to express the gravitational free energy\nin terms of boundary SCFT data. We illustrate the formalism with a number of\nexamples, including classes of solutions which are unlikely to ever be\nconstructed in closed form.\n",
+  "subjects": [
+    "Physics/High Energy Physics - Theory"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "WEWn1kiQBbdx-SKtvHWNTwaNfXsuSLqBBPvsqAw6kvA",
+  "pdfSize": "933517"
+}

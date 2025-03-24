@@ -1,0 +1,53 @@
+{
+  "id": "2412.11652",
+  "title": "SE-GCL: An Event-Based Simple and Effective Graph Contrastive Learning\n  for Text Representation",
+  "authors": "Tao Meng, Wei Ai, Jianbin Li, Ze Wang, Yuntao Shou and Keqin Li",
+  "authorsParsed": [
+    [
+      "Meng",
+      "Tao",
+      ""
+    ],
+    [
+      "Ai",
+      "Wei",
+      ""
+    ],
+    [
+      "Li",
+      "Jianbin",
+      ""
+    ],
+    [
+      "Wang",
+      "Ze",
+      ""
+    ],
+    [
+      "Shou",
+      "Yuntao",
+      ""
+    ],
+    [
+      "Li",
+      "Keqin",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 16 Dec 2024 10:53:24 GMT"
+    }
+  ],
+  "updateDate": "2024-12-17",
+  "timestamp": 1734346404000,
+  "abstract": "  Text representation learning is significant as the cornerstone of natural\nlanguage processing. In recent years, graph contrastive learning (GCL) has been\nwidely used in text representation learning due to its ability to represent and\ncapture complex text information in a self-supervised setting. However, current\nmainstream graph contrastive learning methods often require the incorporation\nof domain knowledge or cumbersome computations to guide the data augmentation\nprocess, which significantly limits the application efficiency and scope of\nGCL. Additionally, many methods learn text representations only by constructing\nword-document relationships, which overlooks the rich contextual semantic\ninformation in the text. To address these issues and exploit representative\ntextual semantics, we present an event-based, simple, and effective graph\ncontrastive learning (SE-GCL) for text representation. Precisely, we extract\nevent blocks from text and construct internal relation graphs to represent\ninter-semantic interconnections, which can ensure that the most critical\nsemantic information is preserved. Then, we devise a streamlined, unsupervised\ngraph contrastive learning framework to leverage the complementary nature of\nthe event semantic and structural information for intricate feature data\ncapture. In particular, we introduce the concept of an event skeleton for core\nrepresentation semantics and simplify the typically complex data augmentation\ntechniques found in existing graph contrastive learning to boost algorithmic\nefficiency. We employ multiple loss functions to prompt diverse embeddings to\nconverge or diverge within a confined distance in the vector space, ultimately\nachieving a harmonious equilibrium. We conducted experiments on the proposed\nSE-GCL on four standard data sets (AG News, 20NG, SougouNews, and THUCNews) to\nverify its effectiveness in text representation learning.\n",
+  "subjects": [
+    "Computer Science/Computation and Language",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "w-V89Jbkbgesyn_iXRGgz5b2ivBim8ALrhS7HwqTKrs",
+  "pdfSize": "909749"
+}

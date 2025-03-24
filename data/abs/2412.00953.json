@@ -1,0 +1,47 @@
+{
+  "id": "2412.00953",
+  "title": "BIGCity: A Universal Spatiotemporal Model for Unified Trajectory and\n  Traffic State Data Analysis",
+  "authors": "Xie Yu, Jingyuan Wang, Yifan Yang, Qian Huang, Ke Qu",
+  "authorsParsed": [
+    [
+      "Yu",
+      "Xie",
+      ""
+    ],
+    [
+      "Wang",
+      "Jingyuan",
+      ""
+    ],
+    [
+      "Yang",
+      "Yifan",
+      ""
+    ],
+    [
+      "Huang",
+      "Qian",
+      ""
+    ],
+    [
+      "Qu",
+      "Ke",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 1 Dec 2024 20:10:55 GMT"
+    }
+  ],
+  "updateDate": "2024-12-03",
+  "timestamp": 1733083855000,
+  "abstract": "  Typical dynamic ST data includes trajectory data (representing\nindividual-level mobility) and traffic state data (representing\npopulation-level mobility). Traditional studies often treat trajectory and\ntraffic state data as distinct, independent modalities, each tailored to\nspecific tasks within a single modality. However, real-world applications, such\nas navigation apps, require joint analysis of trajectory and traffic state\ndata. Treating these data types as two separate domains can lead to suboptimal\nmodel performance. Although recent advances in ST data pre-training and ST\nfoundation models aim to develop universal models for ST data analysis, most\nexisting models are \"multi-task, solo-data modality\" (MTSM), meaning they can\nhandle multiple tasks within either trajectory data or traffic state data, but\nnot both simultaneously. To address this gap, this paper introduces BIGCity,\nthe first multi-task, multi-data modality (MTMD) model for ST data analysis.\nThe model targets two key challenges in designing an MTMD ST model: (1)\nunifying the representations of different ST data modalities, and (2) unifying\nheterogeneous ST analysis tasks. To overcome the first challenge, BIGCity\nintroduces a novel ST-unit that represents both trajectories and traffic states\nin a unified format. Additionally, for the second challenge, BIGCity adopts a\ntunable large model with ST task-oriented prompt, enabling it to perform a\nrange of heterogeneous tasks without the need for fine-tuning. Extensive\nexperiments on real-world datasets demonstrate that BIGCity achieves\nstate-of-the-art performance across 8 tasks, outperforming 18 baselines. To the\nbest of our knowledge, BIGCity is the first model capable of handling both\ntrajectories and traffic states for diverse heterogeneous tasks. Our code are\navailable at https://github.com/bigscity/BIGCity\n",
+  "subjects": [
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "1n3k7Y438WsvzJrLZHJX8KlYvCvFlhjWOft8OViEEDs",
+  "pdfSize": "5867645"
+}

@@ -1,0 +1,58 @@
+{
+  "id": "2412.00638",
+  "title": "Sketch-Guided Motion Diffusion for Stylized Cinemagraph Synthesis",
+  "authors": "Hao Jin, Hengyuan Chang, Xiaoxuan Xie, Zhengyang Wang, Xusheng Du,\n  Shaojun Hu, Haoran Xie",
+  "authorsParsed": [
+    [
+      "Jin",
+      "Hao",
+      ""
+    ],
+    [
+      "Chang",
+      "Hengyuan",
+      ""
+    ],
+    [
+      "Xie",
+      "Xiaoxuan",
+      ""
+    ],
+    [
+      "Wang",
+      "Zhengyang",
+      ""
+    ],
+    [
+      "Du",
+      "Xusheng",
+      ""
+    ],
+    [
+      "Hu",
+      "Shaojun",
+      ""
+    ],
+    [
+      "Xie",
+      "Haoran",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 1 Dec 2024 01:32:59 GMT"
+    }
+  ],
+  "updateDate": "2024-12-03",
+  "timestamp": 1733016779000,
+  "abstract": "  Designing stylized cinemagraphs is challenging due to the difficulty in\ncustomizing complex and expressive flow motions. To achieve intuitive and\ndetailed control of the generated cinemagraphs, freehand sketches can provide a\nbetter solution to convey personalized design requirements than only text\ninputs. In this paper, we propose Sketch2Cinemagraph, a sketch-guided framework\nthat enables the conditional generation of stylized cinemagraphs from freehand\nsketches. Sketch2Cinemagraph adopts text prompts for initial content generation\nand provides hand-drawn sketch controls for both spatial and motion cues. The\nlatent diffusion model is adopted to generate target stylized landscape images\nalong with realistic versions. Then, a pre-trained object detection model is\nutilized to segment and obtain masks for the flow regions. We proposed a novel\nlatent motion diffusion model to estimate the motion field in the fluid regions\nof the generated landscape images. The input motion sketches serve as the\nconditions to control the generated vector fields in the masked fluid regions\nwith the prompt. To synthesize the cinemagraph frames, the pixels within fluid\nregions are subsequently warped to the target locations for each timestep using\na frame generator. The results verified that Sketch2Cinemagraph can generate\nhigh-fidelity and aesthetically appealing stylized cinemagraphs with continuous\ntemporal flow from intuitive sketch inputs. We showcase the advantages of\nSketch2Cinemagraph through quantitative comparisons against the\nstate-of-the-art generation approaches.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Graphics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "PWuVc7xlyzQyxQ-7jRLSu-Nv1-6joePi-r36T2A87qI",
+  "pdfSize": "50910922"
+}

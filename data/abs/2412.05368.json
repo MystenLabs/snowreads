@@ -1,0 +1,38 @@
+{
+  "id": "2412.05368",
+  "title": "Multi- and Infinite-variate Integration and $L^2$-Approximation on\n  Hilbert Spaces with Gaussian Kernels",
+  "authors": "Michael Gnewuch, Klaus Ritter, Robin R\\\"u{\\ss}mann",
+  "authorsParsed": [
+    [
+      "Gnewuch",
+      "Michael",
+      ""
+    ],
+    [
+      "Ritter",
+      "Klaus",
+      ""
+    ],
+    [
+      "Rüßmann",
+      "Robin",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 6 Dec 2024 19:00:18 GMT"
+    }
+  ],
+  "updateDate": "2024-12-10",
+  "timestamp": 1733511618000,
+  "abstract": "  We study integration and $L^2$-approximation in the worst-case setting for\ndeterministic linear algorithms based on function evaluations. The underlying\nfunction space is a reproducing kernel Hilbert space with a Gaussian kernel of\ntensor product form. In the infinite-variate case, for both computational\nproblems, we establish matching upper and lower bounds for the polynomial\nconvergence rate of the $n$-th minimal error. In the multivariate case, we\nimprove several tractability results for the integration problem. For the\nproofs, we establish the following transference result together with an\nexplicit construction: Each of the computational problems on a space with a\nGaussian kernel is equivalent on the level of algorithms to the same problem on\na Hermite space with suitable parameters.\n",
+  "subjects": [
+    "Mathematics/Numerical Analysis",
+    "Computer Science/Numerical Analysis"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "vmS-AEOs7-zdUfpF6Ux8HBp7C5cDfSBB_2iH31xCA0o",
+  "pdfSize": "380434"
+}

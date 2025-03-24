@@ -1,0 +1,67 @@
+{
+  "id": "2412.07720",
+  "title": "ACDiT: Interpolating Autoregressive Conditional Modeling and Diffusion\n  Transformer",
+  "authors": "Jinyi Hu, Shengding Hu, Yuxuan Song, Yufei Huang, Mingxuan Wang, Hao\n  Zhou, Zhiyuan Liu, Wei-Ying Ma, Maosong Sun",
+  "authorsParsed": [
+    [
+      "Hu",
+      "Jinyi",
+      ""
+    ],
+    [
+      "Hu",
+      "Shengding",
+      ""
+    ],
+    [
+      "Song",
+      "Yuxuan",
+      ""
+    ],
+    [
+      "Huang",
+      "Yufei",
+      ""
+    ],
+    [
+      "Wang",
+      "Mingxuan",
+      ""
+    ],
+    [
+      "Zhou",
+      "Hao",
+      ""
+    ],
+    [
+      "Liu",
+      "Zhiyuan",
+      ""
+    ],
+    [
+      "Ma",
+      "Wei-Ying",
+      ""
+    ],
+    [
+      "Sun",
+      "Maosong",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 10 Dec 2024 18:13:20 GMT"
+    }
+  ],
+  "updateDate": "2024-12-11",
+  "timestamp": 1733854400000,
+  "abstract": "  The recent surge of interest in comprehensive multimodal models has\nnecessitated the unification of diverse modalities. However, the unification\nsuffers from disparate methodologies. Continuous visual generation necessitates\nthe full-sequence diffusion-based approach, despite its divergence from the\nautoregressive modeling in the text domain. We posit that autoregressive\nmodeling, i.e., predicting the future based on past deterministic experience,\nremains crucial in developing both a visual generation model and a potential\nunified multimodal model. In this paper, we explore an interpolation between\nthe autoregressive modeling and full-parameters diffusion to model visual\ninformation. At its core, we present ACDiT, an Autoregressive blockwise\nConditional Diffusion Transformer, where the block size of diffusion, i.e., the\nsize of autoregressive units, can be flexibly adjusted to interpolate between\ntoken-wise autoregression and full-sequence diffusion. ACDiT is easy to\nimplement, as simple as creating a Skip-Causal Attention Mask (SCAM) during\ntraining. During inference, the process iterates between diffusion denoising\nand autoregressive decoding that can make full use of KV-Cache. We verify the\neffectiveness of ACDiT on image and video generation tasks. We also demonstrate\nthat benefitted from autoregressive modeling, ACDiT can be seamlessly used in\nvisual understanding tasks despite being trained on the diffusion objective.\nThe analysis of the trade-off between autoregressive modeling and diffusion\ndemonstrates the potential of ACDiT to be used in long-horizon visual\ngeneration tasks. These strengths make it promising as the backbone of future\nunified models.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "5Ck7xBgr1LlWhNuN_oOoFC5toOlZowWRsNX6OnQNj0k",
+  "pdfSize": "5921570"
+}

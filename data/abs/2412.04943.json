@@ -1,0 +1,48 @@
+{
+  "id": "2412.04943",
+  "title": "A Subquadratic Time Approximation Algorithm for Individually Fair\n  k-Center",
+  "authors": "Matthijs Ebbens, Nicole Funk, Jan H\\\"ockendorff, Christian Sohler,\n  Vera Weil",
+  "authorsParsed": [
+    [
+      "Ebbens",
+      "Matthijs",
+      ""
+    ],
+    [
+      "Funk",
+      "Nicole",
+      ""
+    ],
+    [
+      "Höckendorff",
+      "Jan",
+      ""
+    ],
+    [
+      "Sohler",
+      "Christian",
+      ""
+    ],
+    [
+      "Weil",
+      "Vera",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 6 Dec 2024 11:00:16 GMT"
+    }
+  ],
+  "updateDate": "2024-12-09",
+  "timestamp": 1733482816000,
+  "abstract": "  We study the $k$-center problem in the context of individual fairness. Let\n$P$ be a set of $n$ points in a metric space and $r_x$ be the distance between\n$x \\in P$ and its $\\lceil n/k \\rceil$-th nearest neighbor. The problem asks to\noptimize the $k$-center objective under the constraint that, for every point\n$x$, there is a center within distance $r_x$. We give bicriteria\n$(\\beta,\\gamma)$-approximation algorithms that compute clusterings such that\nevery point $x \\in P$ has a center within distance $\\beta r_x$ and the\nclustering cost is at most $\\gamma$ times the optimal cost. Our main\ncontributions are a deterministic $O(n^2+ kn \\log n)$ time\n$(2,2)$-approximation algorithm and a randomized\n$O(nk\\log(n/\\delta)+k^2/\\varepsilon)$ time $(10,2+\\varepsilon)$-approximation\nalgorithm, where $\\delta$ denotes the failure probability. For the latter, we\ndevelop a randomized sampling procedure to compute constant factor\napproximations for the values $r_x$ for all $x\\in P$ in subquadratic time; we\nbelieve this procedure to be of independent interest within the context of\nindividual fairness.\n",
+  "subjects": [
+    "Computer Science/Data Structures and Algorithms",
+    "Computer Science/Computational Geometry"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "Uqw4aNfCJ0Tk-RLqUTU6FwnmxQ7I_Yh6htoZKjD6oRU",
+  "pdfSize": "210689"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "2412.18051",
+  "title": "Factuality or Fiction? Benchmarking Modern LLMs on Ambiguous QA with\n  Citations",
+  "authors": "Maya Patel, Aditi Anand",
+  "authorsParsed": [
+    [
+      "Patel",
+      "Maya",
+      ""
+    ],
+    [
+      "Anand",
+      "Aditi",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 23 Dec 2024 23:55:19 GMT"
+    }
+  ],
+  "updateDate": "2024-12-25",
+  "timestamp": 1734998119000,
+  "abstract": "  Benchmarking modern large language models (LLMs) on complex and realistic\ntasks is critical to advancing their development. In this work, we evaluate the\nfactual accuracy and citation performance of state-of-the-art LLMs on the task\nof Question Answering (QA) in ambiguous settings with source citations. Using\nthree recently published datasets-DisentQA-DupliCite, DisentQA-ParaCite, and\nAmbigQA-Cite-featuring a range of real-world ambiguities, we analyze the\nperformance of two leading LLMs, GPT-4o-mini and Claude-3.5. Our results show\nthat larger, recent models consistently predict at least one correct answer in\nambiguous contexts but fail to handle cases with multiple valid answers.\nAdditionally, all models perform equally poorly in citation generation, with\ncitation accuracy consistently at 0. However, introducing conflict-aware\nprompting leads to large improvements, enabling models to better address\nmultiple valid answers and improve citation accuracy, while maintaining their\nability to predict correct answers. These findings highlight the challenges and\nopportunities in developing LLMs that can handle ambiguity and provide reliable\nsource citations. Our benchmarking study provides critical insights and sets a\nfoundation for future improvements in trustworthy and interpretable QA systems.\n",
+  "subjects": [
+    "Computer Science/Computation and Language"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "gB9plmpMOcUYyC56J4DDgazik_PfrF6F_CEDJuY7-Ew",
+  "pdfSize": "241480"
+}

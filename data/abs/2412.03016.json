@@ -1,0 +1,148 @@
+{
+  "id": "2412.03016",
+  "title": "NinjaSat: Astronomical X-ray CubeSat Observatory",
+  "authors": "Toru Tamagawa, Teruaki Enoto, Takao Kitaguchi, Wataru Iwakiri, Yo\n  Kato, Masaki Numazawa, Tatehiro Mihara, Tomoshi Takeda, Naoyuki Ota, Sota\n  Watanabe, Amira Aoyama, Satoko Iwata, Takuya Takahashi, Kaede Yamasaki,\n  Chin-Ping Hu, Hiromitsu Takahashi, Yuto Yoshida, Hiroki Sato, Shoki Hayashi,\n  Yuanhui Zhou, Keisuke Uchiyama, Arata Jujo, Hirokazu Odaka, Tsubasa Tamba and\n  Kentaro Taniguchi",
+  "authorsParsed": [
+    [
+      "Tamagawa",
+      "Toru",
+      ""
+    ],
+    [
+      "Enoto",
+      "Teruaki",
+      ""
+    ],
+    [
+      "Kitaguchi",
+      "Takao",
+      ""
+    ],
+    [
+      "Iwakiri",
+      "Wataru",
+      ""
+    ],
+    [
+      "Kato",
+      "Yo",
+      ""
+    ],
+    [
+      "Numazawa",
+      "Masaki",
+      ""
+    ],
+    [
+      "Mihara",
+      "Tatehiro",
+      ""
+    ],
+    [
+      "Takeda",
+      "Tomoshi",
+      ""
+    ],
+    [
+      "Ota",
+      "Naoyuki",
+      ""
+    ],
+    [
+      "Watanabe",
+      "Sota",
+      ""
+    ],
+    [
+      "Aoyama",
+      "Amira",
+      ""
+    ],
+    [
+      "Iwata",
+      "Satoko",
+      ""
+    ],
+    [
+      "Takahashi",
+      "Takuya",
+      ""
+    ],
+    [
+      "Yamasaki",
+      "Kaede",
+      ""
+    ],
+    [
+      "Hu",
+      "Chin-Ping",
+      ""
+    ],
+    [
+      "Takahashi",
+      "Hiromitsu",
+      ""
+    ],
+    [
+      "Yoshida",
+      "Yuto",
+      ""
+    ],
+    [
+      "Sato",
+      "Hiroki",
+      ""
+    ],
+    [
+      "Hayashi",
+      "Shoki",
+      ""
+    ],
+    [
+      "Zhou",
+      "Yuanhui",
+      ""
+    ],
+    [
+      "Uchiyama",
+      "Keisuke",
+      ""
+    ],
+    [
+      "Jujo",
+      "Arata",
+      ""
+    ],
+    [
+      "Odaka",
+      "Hirokazu",
+      ""
+    ],
+    [
+      "Tamba",
+      "Tsubasa",
+      ""
+    ],
+    [
+      "Taniguchi",
+      "Kentaro",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 4 Dec 2024 04:07:46 GMT"
+    }
+  ],
+  "updateDate": "2024-12-05",
+  "timestamp": 1733285266000,
+  "abstract": "  NinjaSat is an X-ray CubeSat designed for agile, long-term continuous\nobservations of bright X-ray sources, with the size of 6U\n($100\\times200\\times300$ mm$^3$) and a mass of 8 kg. NinjaSat is capable of\npointing at X-ray sources with an accuracy of less than\n$0^{\\circ}\\hspace{-1.0mm}.1$ (2$\\sigma$ confidence level) with 3-axis attitude\ncontrol. The satellite bus is a commercially available NanoAvionics M6P,\nequipped with two non-imaging gas X-ray detectors covering an energy range of\n2-50 keV. A total effective area of 32 cm$^2$ at 6 keV is capable of observing\nX-ray sources with a flux of approximately 10$^{-10}$ erg cm$^{-2}$ s$^{-1}$.\nThe arrival time of each photon can be tagged with a time resolution of 61\n$\\mu$s. The two radiation belt monitors continuously measure the fluxes of\nprotons above 5 MeV and electrons above 200 keV trapped in the geomagnetic\nfield, alerting the X-ray detectors when the flux exceeds a threshold. The\nNinjaSat project started in 2020. Fabrication of the scientific payloads was\ncompleted in August 2022, and satellite integration and tests were completed in\nJuly 2023. NinjaSat was launched into a Sun-synchronous polar orbit at an\naltitude of about 530 km on 2023 November 11 by the SpaceX Transporter-9\nmission. After about three months of satellite commissioning and payload\nverification, we observed the Crab Nebula on February 9, 2024, and successfully\ndetected the 33.8262 ms pulsation from the neutron star. With this observation,\nNinjaSat met the minimum success criterion and stepped forward to scientific\nobservations as initially planned. By the end of November 2024, we successfully\nobserved 21 X-ray sources using NinjaSat. This achievement demonstrates that,\nwith careful target selection, we can conduct scientific observations\neffectively using CubeSats, contributing to time-domain astronomy.\n",
+  "subjects": [
+    "Astrophysics/Instrumentation and Methods for Astrophysics",
+    "Astrophysics/High Energy Astrophysical Phenomena"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "U9N-Fy44ZoDFIsdnGmUAmQSuMJYrVQ0KpVDIwZzPL8s",
+  "pdfSize": "2349105"
+}

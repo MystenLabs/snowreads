@@ -1,0 +1,35 @@
+{
+  "id": "2412.13071",
+  "title": "CLASP: Contrastive Language-Speech Pretraining for Multilingual\n  Multimodal Information Retrieval",
+  "authors": "Mohammad Mahdi Abootorabi and Ehsaneddin Asgari",
+  "authorsParsed": [
+    [
+      "Abootorabi",
+      "Mohammad Mahdi",
+      ""
+    ],
+    [
+      "Asgari",
+      "Ehsaneddin",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 17 Dec 2024 16:38:10 GMT"
+    }
+  ],
+  "updateDate": "2024-12-18",
+  "timestamp": 1734453490000,
+  "abstract": "  This study introduces CLASP (Contrastive Language-Speech Pretraining), a\nmultilingual, multimodal representation tailored for audio-text information\nretrieval. CLASP leverages the synergy between spoken content and textual data.\nDuring training, we utilize our newly introduced speech-text dataset, which\nencompasses 15 diverse categories ranging from fiction to religion. CLASP's\naudio component integrates audio spectrograms with a pre-trained\nself-supervised speech model, while its language encoding counterpart employs a\nsentence encoder pre-trained on over 100 languages. This unified lightweight\nmodel bridges the gap between various modalities and languages, enhancing its\neffectiveness in handling and retrieving multilingual and multimodal data. Our\nevaluations across multiple languages demonstrate that CLASP establishes new\nbenchmarks in HITS@1, MRR, and meanR metrics, outperforming traditional\nASR-based retrieval approaches in specific scenarios.\n",
+  "subjects": [
+    "Computer Science/Computation and Language",
+    "Computer Science/Information Retrieval",
+    "Computer Science/Sound",
+    "Electrical Engineering and Systems Science/Audio and Speech Processing"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "4XlgpSIBaSxEhbO73Y_EVnMftMEcYEhlLGCKet3yBXU",
+  "pdfSize": "6872369"
+}

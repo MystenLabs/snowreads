@@ -1,0 +1,37 @@
+{
+  "id": "2412.10084",
+  "title": "ProbeSDF: Light Field Probes for Neural Surface Reconstruction",
+  "authors": "Briac Toussaint, Diego Thomas, Jean-S\\'ebastien Franco",
+  "authorsParsed": [
+    [
+      "Toussaint",
+      "Briac",
+      ""
+    ],
+    [
+      "Thomas",
+      "Diego",
+      ""
+    ],
+    [
+      "Franco",
+      "Jean-Sébastien",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 13 Dec 2024 12:18:26 GMT"
+    }
+  ],
+  "updateDate": "2024-12-16",
+  "timestamp": 1734092306000,
+  "abstract": "  SDF-based differential rendering frameworks have achieved state-of-the-art\nmultiview 3D shape reconstruction. In this work, we re-examine this family of\napproaches by minimally reformulating its core appearance model in a way that\nsimultaneously yields faster computation and increased performance. To this\ngoal, we exhibit a physically-inspired minimal radiance parametrization\ndecoupling angular and spatial contributions, by encoding them with a small\nnumber of features stored in two respective volumetric grids of different\nresolutions. Requiring as little as four parameters per voxel, and a tiny MLP\ncall inside a single fully fused kernel, our approach allows to enhance\nperformance with both surface and image (PSNR) metrics, while providing a\nsignificant training speedup and real-time rendering. We show this performance\nto be consistently achieved on real data over two widely different and popular\napplication fields, generic object and human subject shape reconstruction,\nusing four representative and challenging datasets.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "EBXPeTrHgADnZVhkbVKpridjhn3SODKm-tdo2Iv17zY",
+  "pdfSize": "40095722"
+}

@@ -1,0 +1,47 @@
+{
+  "id": "2412.08971",
+  "title": "Motor Imagery Teleoperation of a Mobile Robot Using a Low-Cost\n  Brain-Computer Interface for Multi-Day Validation",
+  "authors": "Yujin An, Daniel Mitchell, John Lathrop, David Flynn, Soon-Jo Chung",
+  "authorsParsed": [
+    [
+      "An",
+      "Yujin",
+      ""
+    ],
+    [
+      "Mitchell",
+      "Daniel",
+      ""
+    ],
+    [
+      "Lathrop",
+      "John",
+      ""
+    ],
+    [
+      "Flynn",
+      "David",
+      ""
+    ],
+    [
+      "Chung",
+      "Soon-Jo",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 12 Dec 2024 06:07:28 GMT"
+    }
+  ],
+  "updateDate": "2024-12-13",
+  "timestamp": 1733983648000,
+  "abstract": "  Brain-computer interfaces (BCI) have the potential to provide transformative\ncontrol in prosthetics, assistive technologies (wheelchairs), robotics, and\nhuman-computer interfaces. While Motor Imagery (MI) offers an intuitive\napproach to BCI control, its practical implementation is often limited by the\nrequirement for expensive devices, extensive training data, and complex\nalgorithms, leading to user fatigue and reduced accessibility. In this paper,\nwe demonstrate that effective MI-BCI control of a mobile robot in real-world\nsettings can be achieved using a fine-tuned Deep Neural Network (DNN) with a\nsliding window, eliminating the need for complex feature extractions for\nreal-time robot control. The fine-tuning process optimizes the convolutional\nand attention layers of the DNN to adapt to each user's daily MI data streams,\nreducing training data by 70% and minimizing user fatigue from extended data\ncollection. Using a low-cost (~$3k), 16-channel, non-invasive, open-source\nelectroencephalogram (EEG) device, four users teleoperated a quadruped robot\nover three days. The system achieved 78% accuracy on a single-day validation\ndataset and maintained a 75% validation accuracy over three days without\nextensive retraining from day-to-day. For real-world robot command\nclassification, we achieved an average of 62% accuracy. By providing empirical\nevidence that MI-BCI systems can maintain performance over multiple days with\nreduced training data to DNN and a low-cost EEG device, our work enhances the\npracticality and accessibility of BCI technology. This advancement makes BCI\napplications more feasible for real-world scenarios, particularly in\ncontrolling robotic systems.\n",
+  "subjects": [
+    "Computer Science/Robotics"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "vzr4LWokN5_6HEcAvi7mojeMTgiCdFcnVO5H1TGv7TY",
+  "pdfSize": "4880169"
+}

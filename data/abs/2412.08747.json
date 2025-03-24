@@ -1,0 +1,50 @@
+{
+  "id": "2412.08747",
+  "title": "DeepNose: An Equivariant Convolutional Neural Network Predictive Of\n  Human Olfactory Percepts",
+  "authors": "Sergey Shuvaev, Khue Tran, Khristina Samoilova, Cyrille Mascart, and\n  Alexei Koulakov",
+  "authorsParsed": [
+    [
+      "Shuvaev",
+      "Sergey",
+      ""
+    ],
+    [
+      "Tran",
+      "Khue",
+      ""
+    ],
+    [
+      "Samoilova",
+      "Khristina",
+      ""
+    ],
+    [
+      "Mascart",
+      "Cyrille",
+      ""
+    ],
+    [
+      "Koulakov",
+      "Alexei",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 11 Dec 2024 19:35:24 GMT"
+    }
+  ],
+  "updateDate": "2024-12-13",
+  "timestamp": 1733945724000,
+  "abstract": "  The olfactory system employs responses of an ensemble of odorant receptors\n(ORs) to sense molecules and to generate olfactory percepts. Here we\nhypothesized that ORs can be viewed as 3D spatial filters that extract\nmolecular features relevant to the olfactory system, similarly to the\nspatio-temporal filters found in other sensory modalities. To build these\nfilters, we trained a convolutional neural network (CNN) to predict human\nolfactory percepts obtained from several semantic datasets. Our neural network,\nthe DeepNose, produced responses that are approximately invariant to the\nmolecules' orientation, due to its equivariant architecture. Our network offers\nhigh-fidelity perceptual predictions for different olfactory datasets. In\naddition, our approach allows us to identify molecular features that contribute\nto specific perceptual descriptors. Because the DeepNose network is designed to\nbe aligned with the biological system, our approach predicts distinct\nperceptual qualities for different stereoisomers. The architecture of the\nDeepNose relying on the processing of several molecules at the same time\npermits inferring the perceptual quality of odor mixtures. We propose that the\nDeepNose network can use 3D molecular shapes to generate high-quality\npredictions for human olfactory percepts and help identify molecular features\nresponsible for odor quality.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Condensed Matter/Disordered Systems and Neural Networks",
+    "Computer Science/Neural and Evolutionary Computing",
+    "Quantitative Biology/Neurons and Cognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "VR25XiliTtzu5I3dM_dCzDw4mAVdV6ZfFtvHu6vUgo4",
+  "pdfSize": "2726453"
+}

@@ -1,0 +1,59 @@
+{
+  "id": "2412.13394",
+  "title": "Distribution Shifts at Scale: Out-of-distribution Detection in Earth\n  Observation",
+  "authors": "Burak Ekim, Girmaw Abebe Tadesse, Caleb Robinson, Gilles Hacheme,\n  Michael Schmitt, Rahul Dodhia, Juan M. Lavista Ferres",
+  "authorsParsed": [
+    [
+      "Ekim",
+      "Burak",
+      ""
+    ],
+    [
+      "Tadesse",
+      "Girmaw Abebe",
+      ""
+    ],
+    [
+      "Robinson",
+      "Caleb",
+      ""
+    ],
+    [
+      "Hacheme",
+      "Gilles",
+      ""
+    ],
+    [
+      "Schmitt",
+      "Michael",
+      ""
+    ],
+    [
+      "Dodhia",
+      "Rahul",
+      ""
+    ],
+    [
+      "Ferres",
+      "Juan M. Lavista",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 18 Dec 2024 00:10:44 GMT"
+    }
+  ],
+  "updateDate": "2024-12-19",
+  "timestamp": 1734480644000,
+  "abstract": "  Training robust deep learning models is critical in Earth Observation, where\nglobally deployed models often face distribution shifts that degrade\nperformance, especially in low-data regions. Out-of-distribution (OOD)\ndetection addresses this challenge by identifying inputs that differ from\nin-distribution (ID) data. However, existing methods either assume access to\nOOD data or compromise primary task performance, making them unsuitable for\nreal-world deployment. We propose TARDIS, a post-hoc OOD detection method for\nscalable geospatial deployments. The core novelty lies in generating surrogate\nlabels by integrating information from ID data and unknown distributions,\nenabling OOD detection at scale. Our method takes a pre-trained model, ID data,\nand WILD samples, disentangling the latter into surrogate ID and surrogate OOD\nlabels based on internal activations, and fits a binary classifier as an OOD\ndetector. We validate TARDIS on EuroSAT and xBD datasets, across 17\nexperimental setups covering covariate and semantic shifts, showing that it\nperforms close to the theoretical upper bound in assigning surrogate ID and OOD\nsamples in 13 cases. To demonstrate scalability, we deploy TARDIS on the Fields\nof the World dataset, offering actionable insights into pre-trained model\nbehavior for large-scale deployments. The code is publicly available at\nhttps://github.com/microsoft/geospatial-ood-detection.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "q0keYoinPLZWeBfJaZ7sM00dPhUmHscnTVnCMGb5I7c",
+  "pdfSize": "36864997"
+}

@@ -1,0 +1,47 @@
+{
+  "id": "2412.10178",
+  "title": "SwiftTry: Fast and Consistent Video Virtual Try-On with Diffusion Models",
+  "authors": "Hung Nguyen, Quang Qui-Vinh Nguyen, Khoi Nguyen and Rang Nguyen",
+  "authorsParsed": [
+    [
+      "Nguyen",
+      "Hung",
+      ""
+    ],
+    [
+      "Nguyen",
+      "Quang Qui-Vinh",
+      ""
+    ],
+    [
+      "Nguyen",
+      "Khoi",
+      ""
+    ],
+    [
+      "Nguyen",
+      "Rang",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 13 Dec 2024 14:50:26 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Wed, 18 Dec 2024 18:05:43 GMT"
+    }
+  ],
+  "updateDate": "2024-12-19",
+  "timestamp": 1734101426000,
+  "abstract": "  Given an input video of a person and a new garment, the objective of this\npaper is to synthesize a new video where the person is wearing the specified\ngarment while maintaining spatiotemporal consistency. Although significant\nadvances have been made in image-based virtual try-on, extending these\nsuccesses to video often leads to frame-to-frame inconsistencies. Some\napproaches have attempted to address this by increasing the overlap of frames\nacross multiple video chunks, but this comes at a steep computational cost due\nto the repeated processing of the same frames, especially for long video\nsequences. To tackle these challenges, we reconceptualize video virtual try-on\nas a conditional video inpainting task, with garments serving as input\nconditions. Specifically, our approach enhances image diffusion models by\nincorporating temporal attention layers to improve temporal coherence. To\nreduce computational overhead, we propose ShiftCaching, a novel technique that\nmaintains temporal consistency while minimizing redundant computations.\nFurthermore, we introduce the TikTokDress dataset, a new video try-on dataset\nfeaturing more complex backgrounds, challenging movements, and higher\nresolution compared to existing public datasets. Extensive experiments\ndemonstrate that our approach outperforms current baselines, particularly in\nterms of video consistency and inference speed. The project page is available\nat https://swift-try.github.io/.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "coUP78H7WubbedYyj1Q6hTKqBi10LzFgo0fryfww6Bo",
+  "pdfSize": "19276767"
+}

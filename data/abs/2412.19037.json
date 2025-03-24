@@ -1,0 +1,43 @@
+{
+  "id": "2412.19037",
+  "title": "CL-attack: Textual Backdoor Attacks via Cross-Lingual Triggers",
+  "authors": "Jingyi Zheng, Tianyi Hu, Tianshuo Cong, Xinlei He",
+  "authorsParsed": [
+    [
+      "Zheng",
+      "Jingyi",
+      ""
+    ],
+    [
+      "Hu",
+      "Tianyi",
+      ""
+    ],
+    [
+      "Cong",
+      "Tianshuo",
+      ""
+    ],
+    [
+      "He",
+      "Xinlei",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 26 Dec 2024 03:13:03 GMT"
+    }
+  ],
+  "updateDate": "2024-12-30",
+  "timestamp": 1735182783000,
+  "abstract": "  Backdoor attacks significantly compromise the security of large language\nmodels by triggering them to output specific and controlled content. Currently,\ntriggers for textual backdoor attacks fall into two categories: fixed-token\ntriggers and sentence-pattern triggers. However, the former are typically easy\nto identify and filter, while the latter, such as syntax and style, do not\napply to all original samples and may lead to semantic shifts. In this paper,\ninspired by cross-lingual (CL) prompts of LLMs in real-world scenarios, we\npropose a higher-dimensional trigger method at the paragraph level, namely\nCL-attack. CL-attack injects the backdoor by using texts with specific\nstructures that incorporate multiple languages, thereby offering greater\nstealthiness and universality compared to existing backdoor attack techniques.\nExtensive experiments on different tasks and model architectures demonstrate\nthat CL-attack can achieve nearly 100% attack success rate with a low poisoning\nrate in both classification and generation tasks. We also empirically show that\nthe CL-attack is more robust against current major defense methods compared to\nbaseline backdoor attacks. Additionally, to mitigate CL-attack, we further\ndevelop a new defense called TranslateDefense, which can partially mitigate the\nimpact of CL-attack.\n",
+  "subjects": [
+    "Computer Science/Cryptography and Security",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "6207os0d9Pf9vwIGnu8Bt4mjHIvq5MauVnmj484zC-A",
+  "pdfSize": "441250"
+}

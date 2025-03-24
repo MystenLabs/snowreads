@@ -1,0 +1,78 @@
+{
+  "id": "2412.18299",
+  "title": "M-Ped: Multi-Prompt Ensemble Decoding for Large Language Models",
+  "authors": "Jiaxin Guo, Daimeng Wei, Yuanchang Luo, Shimin Tao, Hengchao Shang,\n  Zongyao Li, Shaojun Li, Jinlong Yang, Zhanglin Wu, Zhiqiang Rao and Hao Yang",
+  "authorsParsed": [
+    [
+      "Guo",
+      "Jiaxin",
+      ""
+    ],
+    [
+      "Wei",
+      "Daimeng",
+      ""
+    ],
+    [
+      "Luo",
+      "Yuanchang",
+      ""
+    ],
+    [
+      "Tao",
+      "Shimin",
+      ""
+    ],
+    [
+      "Shang",
+      "Hengchao",
+      ""
+    ],
+    [
+      "Li",
+      "Zongyao",
+      ""
+    ],
+    [
+      "Li",
+      "Shaojun",
+      ""
+    ],
+    [
+      "Yang",
+      "Jinlong",
+      ""
+    ],
+    [
+      "Wu",
+      "Zhanglin",
+      ""
+    ],
+    [
+      "Rao",
+      "Zhiqiang",
+      ""
+    ],
+    [
+      "Yang",
+      "Hao",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 24 Dec 2024 09:06:58 GMT"
+    }
+  ],
+  "updateDate": "2024-12-25",
+  "timestamp": 1735031218000,
+  "abstract": "  With the widespread application of Large Language Models (LLMs) in the field\nof Natural Language Processing (NLP), enhancing their performance has become a\nresearch hotspot. This paper presents a novel multi-prompt ensemble decoding\napproach designed to bolster the generation quality of LLMs by leveraging the\naggregation of outcomes from multiple prompts. Given a unique input $X$, we\nsubmit $n$ variations of prompts with $X$ to LLMs in batch mode to decode and\nderive probability distributions. For each token prediction, we calculate the\nensemble probability by averaging the $n$ probability distributions within the\nbatch, utilizing this aggregated probability to generate the token. This\ntechnique is dubbed Inner-Batch Ensemble. To facilitate efficient batch\ninference, we implement a Left-Padding strategy to maintain uniform input\nlengths across the n prompts. Through extensive experimentation on diverse NLP\ntasks, including machine translation, code generation, and text simplification,\nwe demonstrate the efficacy of our method in enhancing LLM performance. The\nresults show substantial improvements in BLEU scores, pass@$k$ rates, and LENS\nmetrics over conventional methods.\n",
+  "subjects": [
+    "Computer Science/Computation and Language",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "JbUhJ2FxHfrFGV_bPcsMlNG326Z8Z6YrOgyzb9nDa28",
+  "pdfSize": "1096565"
+}

@@ -1,0 +1,61 @@
+{
+  "id": "2412.15061",
+  "title": "Enhancing Dynamic Range of Sub-Quantum-Limit Measurements via Quantum\n  Deamplification",
+  "authors": "Qi Liu, Ming Xue, Xinwei Li, Denis V. Vasilyev, Ling-Na Wu, and Vladan\n  Vuleti\\'c",
+  "authorsParsed": [
+    [
+      "Liu",
+      "Qi",
+      ""
+    ],
+    [
+      "Xue",
+      "Ming",
+      ""
+    ],
+    [
+      "Li",
+      "Xinwei",
+      ""
+    ],
+    [
+      "Vasilyev",
+      "Denis V.",
+      ""
+    ],
+    [
+      "Wu",
+      "Ling-Na",
+      ""
+    ],
+    [
+      "Vuletić",
+      "Vladan",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 19 Dec 2024 17:08:27 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Thu, 2 Jan 2025 02:54:17 GMT"
+    },
+    {
+      "version": "v3",
+      "created": "Mon, 6 Jan 2025 15:01:08 GMT"
+    }
+  ],
+  "updateDate": "2025-01-07",
+  "timestamp": 1734628107000,
+  "abstract": "  Balancing high sensitivity with a broad dynamic range is a fundamental\nchallenge in measurement science, as improving one often compromises the other.\nWhile traditional quantum metrology has prioritized enhancing local\nsensitivity, a large dynamic range is crucial for applications such as atomic\nclocks, where extended phase interrogation times contribute to wider phase\nrange. In this Letter, we introduce a novel quantum deamplification mechanism\nthat extends dynamic range at a minimal cost of sensitivity. Our approach uses\ntwo sequential spin-squeezing operations to generate and detect an entangled\nprobe state, respectively. We demonstrate that the optimal quantum\ninterferometer limit can be approached through two-axis counter-twisting\ndynamics. Further expansion of dynamic range is possible by using sequential\nquantum deamplification interspersed with phase encoding processes.\nAdditionally, we show that robustness against detection noise can be enhanced\nby a hybrid sensing scheme that combines quantum deamplification with quantum\namplification. Our protocol is within the reach of state-of-the-art\natomic-molecular-optical platforms, offering a scalable, noise-resilient\npathway for entanglement-enhanced metrology.\n",
+  "subjects": [
+    "Physics/Quantum Physics",
+    "Condensed Matter/Quantum Gases"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "yUxYscf_glaKYcBf9eXJjDr4YDp865UppCTcOaOm5M0",
+  "pdfSize": "5634152"
+}

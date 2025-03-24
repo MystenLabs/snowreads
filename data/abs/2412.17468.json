@@ -1,0 +1,49 @@
+{
+  "id": "2412.17468",
+  "title": "Line Graph Vietoris-Rips Persistence Diagram for Topological Graph\n  Representation Learning",
+  "authors": "Jaesun Shin, Eunjoo Jeon, Taewon Cho, Namkyeong Cho, Youngjune Gwon",
+  "authorsParsed": [
+    [
+      "Shin",
+      "Jaesun",
+      ""
+    ],
+    [
+      "Jeon",
+      "Eunjoo",
+      ""
+    ],
+    [
+      "Cho",
+      "Taewon",
+      ""
+    ],
+    [
+      "Cho",
+      "Namkyeong",
+      ""
+    ],
+    [
+      "Gwon",
+      "Youngjune",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 23 Dec 2024 10:46:44 GMT"
+    }
+  ],
+  "updateDate": "2024-12-24",
+  "timestamp": 1734950804000,
+  "abstract": "  While message passing graph neural networks result in informative node\nembeddings, they may suffer from describing the topological properties of\ngraphs. To this end, node filtration has been widely used as an attempt to\nobtain the topological information of a graph using persistence diagrams.\nHowever, these attempts have faced the problem of losing node embedding\ninformation, which in turn prevents them from providing a more expressive graph\nrepresentation. To tackle this issue, we shift our focus to edge filtration and\nintroduce a novel edge filtration-based persistence diagram, named Topological\nEdge Diagram (TED), which is mathematically proven to preserve node embedding\ninformation as well as contain additional topological information. To implement\nTED, we propose a neural network based algorithm, named Line Graph\nVietoris-Rips (LGVR) Persistence Diagram, that extracts edge information by\ntransforming a graph into its line graph. Through LGVR, we propose two model\nframeworks that can be applied to any message passing GNNs, and prove that they\nare strictly more powerful than Weisfeiler-Lehman type colorings. Finally we\nempirically validate superior performance of our models on several graph\nclassification and regression benchmarks.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Computer Science/Artificial Intelligence",
+    "Mathematics/Algebraic Topology"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "j3matBVQdJiDA1xrzAA5i_ntk21h3SRwkdImLGx5s4k",
+  "pdfSize": "949119"
+}

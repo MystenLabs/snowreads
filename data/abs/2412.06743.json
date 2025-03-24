@@ -1,0 +1,42 @@
+{
+  "id": "2412.06743",
+  "title": "3D Graph Attention Networks for High Fidelity Pediatric Glioma\n  Segmentation",
+  "authors": "Harish Thangaraj, Diya Katariya, Eshaan Joshi, Sangeetha N",
+  "authorsParsed": [
+    [
+      "Thangaraj",
+      "Harish",
+      ""
+    ],
+    [
+      "Katariya",
+      "Diya",
+      ""
+    ],
+    [
+      "Joshi",
+      "Eshaan",
+      ""
+    ],
+    [
+      "N",
+      "Sangeetha",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 9 Dec 2024 18:36:36 GMT"
+    }
+  ],
+  "updateDate": "2024-12-10",
+  "timestamp": 1733769396000,
+  "abstract": "  Pediatric brain tumors, particularly gliomas, represent a significant cause\nof cancer related mortality in children with complex infiltrative growth\npatterns that complicate treatment. Early, accurate segmentation of these\ntumors in neuroimaging data is crucial for effective diagnosis and intervention\nplanning. This study presents a novel 3D UNet architecture with a spatial\nattention mechanism tailored for automated segmentation of pediatric gliomas.\nUsing the BraTS pediatric glioma dataset with multiparametric MRI data, the\nproposed model captures multi-scale features and selectively attends to tumor\nrelevant regions, enhancing segmentation precision and reducing interference\nfrom surrounding tissue. The model's performance is quantitatively evaluated\nusing the Dice similarity coefficient and HD95, demonstrating improved\ndelineation of complex glioma structured. This approach offers a promising\nadvancement in automating pediatric glioma segmentation, with the potential to\nimprove clinical decision making and outcomes.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "YJoVxgi_9T6HCTRMGaHfMhKar1njNNw65cgPM8Koe38",
+  "pdfSize": "2105661"
+}

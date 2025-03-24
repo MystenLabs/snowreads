@@ -1,0 +1,38 @@
+{
+  "id": "2412.12227",
+  "title": "EDformer: Embedded Decomposition Transformer for Interpretable\n  Multivariate Time Series Predictions",
+  "authors": "Sanjay Chakraborty, Ibrahim Delibasoglu and Fredrik Heintz",
+  "authorsParsed": [
+    [
+      "Chakraborty",
+      "Sanjay",
+      ""
+    ],
+    [
+      "Delibasoglu",
+      "Ibrahim",
+      ""
+    ],
+    [
+      "Heintz",
+      "Fredrik",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 16 Dec 2024 11:13:57 GMT"
+    }
+  ],
+  "updateDate": "2024-12-18",
+  "timestamp": 1734347637000,
+  "abstract": "  Time series forecasting is a crucial challenge with significant applications\nin areas such as weather prediction, stock market analysis, and scientific\nsimulations. This paper introduces an embedded decomposed transformer,\n'EDformer', for multivariate time series forecasting tasks. Without altering\nthe fundamental elements, we reuse the Transformer architecture and consider\nthe capable functions of its constituent parts in this work. Edformer first\ndecomposes the input multivariate signal into seasonal and trend components.\nNext, the prominent multivariate seasonal component is reconstructed across the\nreverse dimensions, followed by applying the attention mechanism and\nfeed-forward network in the encoder stage. In particular, the feed-forward\nnetwork is used for each variable frame to learn nonlinear representations,\nwhile the attention mechanism uses the time points of individual seasonal\nseries embedded within variate frames to capture multivariate correlations.\nTherefore, the trend signal is added with projection and performs the final\nforecasting. The EDformer model obtains state-of-the-art predicting results in\nterms of accuracy and efficiency on complex real-world time series datasets.\nThis paper also addresses model explainability techniques to provide insights\ninto how the model makes its predictions and why specific features or time\nsteps are important, enhancing the interpretability and trustworthiness of the\nforecasting results.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "k1cU7_wclwENIQwFBNU9c5Nlfwbyy3Pcb3MQBLrc2eM",
+  "pdfSize": "945495"
+}

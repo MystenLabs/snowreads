@@ -1,0 +1,36 @@
+{
+  "id": "2412.14790",
+  "title": "YOLOv11 Optimization for Efficient Resource Utilization",
+  "authors": "Areeg Fahad Rasheed and M. Zarkoosh",
+  "authorsParsed": [
+    [
+      "Rasheed",
+      "Areeg Fahad",
+      ""
+    ],
+    [
+      "Zarkoosh",
+      "M.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 19 Dec 2024 12:29:31 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Sat, 21 Dec 2024 13:27:16 GMT"
+    }
+  ],
+  "updateDate": "2024-12-24",
+  "timestamp": 1734611371000,
+  "abstract": "  The objective of this research is to optimize the eleventh iteration of You\nOnly Look Once (YOLOv11) by developing size-specific modified versions of the\narchitecture. These modifications involve pruning unnecessary layers and\nreconfiguring the main architecture of YOLOv11. Each proposed version is\ntailored to detect objects of specific size ranges, from small to large. To\nensure proper model selection based on dataset characteristics, we introduced\nan object classifier program. This program identifies the most suitable\nmodified version for a given dataset. The proposed models were evaluated on\nvarious datasets and compared with the original YOLOv11 and YOLOv8 models. The\nexperimental results highlight significant improvements in computational\nresource efficiency, with the proposed models maintaining the accuracy of the\noriginal YOLOv11. In some cases, the modified versions outperformed the\noriginal model regarding detection performance. Furthermore, the proposed\nmodels demonstrated reduced model sizes and faster inference times. Models\nweights and the object size classifier can be found in this repository\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "D7K-imeBF22xcX3hP89rHnX_LqJkXBS-RMbWkIDXSkI",
+  "pdfSize": "5607160"
+}

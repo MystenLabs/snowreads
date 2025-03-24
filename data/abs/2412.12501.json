@@ -1,0 +1,64 @@
+{
+  "id": "2412.12501",
+  "title": "Unleashing the Potential of Model Bias for Generalized Category\n  Discovery",
+  "authors": "Wenbin An, Haonan Lin, Jiahao Nie, Feng Tian, Wenkai Shi, Yaqiang Wu,\n  Qianying Wang, Ping Chen",
+  "authorsParsed": [
+    [
+      "An",
+      "Wenbin",
+      ""
+    ],
+    [
+      "Lin",
+      "Haonan",
+      ""
+    ],
+    [
+      "Nie",
+      "Jiahao",
+      ""
+    ],
+    [
+      "Tian",
+      "Feng",
+      ""
+    ],
+    [
+      "Shi",
+      "Wenkai",
+      ""
+    ],
+    [
+      "Wu",
+      "Yaqiang",
+      ""
+    ],
+    [
+      "Wang",
+      "Qianying",
+      ""
+    ],
+    [
+      "Chen",
+      "Ping",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 17 Dec 2024 03:05:27 GMT"
+    }
+  ],
+  "updateDate": "2024-12-18",
+  "timestamp": 1734404727000,
+  "abstract": "  Generalized Category Discovery is a significant and complex task that aims to\nidentify both known and undefined novel categories from a set of unlabeled\ndata, leveraging another labeled dataset containing only known categories. The\nprimary challenges stem from model bias induced by pre-training on only known\ncategories and the lack of precise supervision for novel ones, leading to\ncategory bias towards known categories and category confusion among different\nnovel categories, which hinders models' ability to identify novel categories\neffectively. To address these challenges, we propose a novel framework named\nSelf-Debiasing Calibration (SDC). Unlike prior methods that regard model bias\ntowards known categories as an obstacle to novel category identification, SDC\nprovides a novel insight into unleashing the potential of the bias to\nfacilitate novel category learning. Specifically, the output of the biased\nmodel serves two key purposes. First, it provides an accurate modeling of\ncategory bias, which can be utilized to measure the degree of bias and debias\nthe output of the current training model. Second, it offers valuable insights\nfor distinguishing different novel categories by transferring knowledge between\nsimilar categories. Based on these insights, SDC dynamically adjusts the output\nlogits of the current training model using the output of the biased model. This\napproach produces less biased logits to effectively address the issue of\ncategory bias towards known categories, and generates more accurate pseudo\nlabels for unlabeled data, thereby mitigating category confusion for novel\ncategories. Experiments on three benchmark datasets show that SDC outperforms\nSOTA methods, especially in the identification of novel categories. Our code\nand data are available at \\url{https://github.com/Lackel/SDC}.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Computer Science/Computation and Language",
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "DXJG2ag4fr_6I-pAZ_06eWSXtRkeZOUm1aNMYQMkOmI",
+  "pdfSize": "2119859"
+}

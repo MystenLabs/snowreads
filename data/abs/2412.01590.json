@@ -1,0 +1,73 @@
+{
+  "id": "2412.01590",
+  "title": "NCDD: Nearest Centroid Distance Deficit for Out-Of-Distribution\n  Detection in Gastrointestinal Vision",
+  "authors": "Sandesh Pokhrel, Sanjay Bhandari, Sharib Ali, Tryphon Lambrou, Anh\n  Nguyen, Yash Raj Shrestha, Angus Watson, Danail Stoyanov, Prashnna Gyawali,\n  Binod Bhattarai",
+  "authorsParsed": [
+    [
+      "Pokhrel",
+      "Sandesh",
+      ""
+    ],
+    [
+      "Bhandari",
+      "Sanjay",
+      ""
+    ],
+    [
+      "Ali",
+      "Sharib",
+      ""
+    ],
+    [
+      "Lambrou",
+      "Tryphon",
+      ""
+    ],
+    [
+      "Nguyen",
+      "Anh",
+      ""
+    ],
+    [
+      "Shrestha",
+      "Yash Raj",
+      ""
+    ],
+    [
+      "Watson",
+      "Angus",
+      ""
+    ],
+    [
+      "Stoyanov",
+      "Danail",
+      ""
+    ],
+    [
+      "Gyawali",
+      "Prashnna",
+      ""
+    ],
+    [
+      "Bhattarai",
+      "Binod",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 2 Dec 2024 15:07:55 GMT"
+    }
+  ],
+  "updateDate": "2024-12-03",
+  "timestamp": 1733152075000,
+  "abstract": "  The integration of deep learning tools in gastrointestinal vision holds the\npotential for significant advancements in diagnosis, treatment, and overall\npatient care. A major challenge, however, is these tools' tendency to make\noverconfident predictions, even when encountering unseen or newly emerging\ndisease patterns, undermining their reliability.\n  We address this critical issue of reliability by framing it as an\nout-of-distribution (OOD) detection problem, where previously unseen and\nemerging diseases are identified as OOD examples. However, gastrointestinal\nimages pose a unique challenge due to the overlapping feature representations\nbetween in- Distribution (ID) and OOD examples. Existing approaches often\noverlook this characteristic, as they are primarily developed for natural image\ndatasets, where feature distinctions are more apparent. Despite the overlap, we\nhypothesize that the features of an in-distribution example will cluster closer\nto the centroids of their ground truth class, resulting in a shorter distance\nto the nearest centroid. In contrast, OOD examples maintain an equal distance\nfrom all class centroids. Based on this observation, we propose a novel\nnearest-centroid distance deficit (NCCD) score in the feature space for\ngastrointestinal OOD detection.\n  Evaluations across multiple deep learning architectures and two publicly\navailable benchmarks, Kvasir2 and Gastrovision, demonstrate the effectiveness\nof our approach compared to several state-of-the-art methods. The code and\nimplementation details are publicly available at:\nhttps://github.com/bhattarailab/NCDD\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "8efh3pgY9PVqhDWoDsUTg9SLcl1DyMhWnc4WsGMIyoU",
+  "pdfSize": "7442237"
+}

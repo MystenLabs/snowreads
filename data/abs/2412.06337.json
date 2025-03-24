@@ -1,0 +1,37 @@
+{
+  "id": "2412.06337",
+  "title": "Higher order invariants of a graph based on the path sequence",
+  "authors": "Yirong Cai, Zikai Tang, Hanyuan Deng",
+  "authorsParsed": [
+    [
+      "Cai",
+      "Yirong",
+      ""
+    ],
+    [
+      "Tang",
+      "Zikai",
+      ""
+    ],
+    [
+      "Deng",
+      "Hanyuan",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 9 Dec 2024 09:41:19 GMT"
+    }
+  ],
+  "updateDate": "2024-12-10",
+  "timestamp": 1733737279000,
+  "abstract": "  Let $G=(V,E)$ be a simple and connected graph. A $h$-order invariant of $G$\nbased on the path sequence is defined from a set of real numbers\n${f(x_{0},x_{1},\\cdots,x_{h})}$ as\n$^{h}I_f(G)=\\sum\\limits_{v_{0}v_{1}v_{2}\\cdots\nv_{h}}f\\left(d_{0},d_{1},\\cdots,d_{h}\\right)$, where the sum runs over all\npaths $v_{0}v_{1}v_{2}\\cdots v_{h}$ of length $h$ and $d_{i}$ is the degree of\nvertex $v_i$ in $G$. In this paper, we first show that the $h$-order invariant\nof a starlike tree $S_{n}$ can be determined completely by its branches whose\nlength does not exceed $h$. And then we find conditions on the function $f$ for\nsome graph families $\\mathcal{G}$ such that any graph $G\\in\\mathcal{G}$ can be\ndetermined by the higher order invariants $^{h}I_f(G)$ for $0\\leqslant\nh\\leqslant \\rho$, where $\\rho$ is the length of a longest path in $G$.\n",
+  "subjects": [
+    "Mathematics/Combinatorics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "A2JA1G1FsrSUtoWRNddBN4b4vYUqlwS4Kb_IliymMHc",
+  "pdfSize": "217973"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "2412.05190",
+  "title": "A note on Erd\\H{o}s's mysterious remark",
+  "authors": "Zolt\\'an Kov\\'acs",
+  "authorsParsed": [
+    [
+      "Kovács",
+      "Zoltán",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 6 Dec 2024 17:15:14 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Mon, 9 Dec 2024 20:30:24 GMT"
+    }
+  ],
+  "updateDate": "2024-12-11",
+  "timestamp": 1733505314000,
+  "abstract": "  We give an alternative proof of the statement, by using elimination from\nalgebraic geometry, that the only set $S\\subset\\mathbb{R}^2$,\n$\\left|S\\right|=6$ such that all subsets that form a triangle are isosceles\ntriangles, is the regular pentagon with its center. Our proof can be extended\nto answer some related questions raised by Erd\\H{o}s.\n",
+  "subjects": [
+    "Computer Science/Computational Geometry",
+    "Mathematics/Metric Geometry"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "CAgyDcbBjMpONX2KQo1Rjt3iKfHKnjGYlilI2sG6Jmo",
+  "pdfSize": "312232"
+}

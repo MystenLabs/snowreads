@@ -1,0 +1,28 @@
+{
+  "id": "2412.16168",
+  "title": "Superposition through Active Learning lens",
+  "authors": "Akanksha Devkar",
+  "authorsParsed": [
+    [
+      "Devkar",
+      "Akanksha",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 5 Dec 2024 21:02:24 GMT"
+    }
+  ],
+  "updateDate": "2024-12-24",
+  "timestamp": 1733432544000,
+  "abstract": "  Superposition or Neuron Polysemanticity are important concepts in the field\nof interpretability and one might say they are these most intricately beautiful\nblockers in our path of decoding the Machine Learning black-box. The idea\nbehind this paper is to examine whether it is possible to decode Superposition\nusing Active Learning methods. While it seems that Superposition is an attempt\nto arrange more features in smaller space to better utilize the limited\nresources, it might be worth inspecting if Superposition is dependent on any\nother factors. This paper uses CIFAR-10 and Tiny ImageNet image datasets and\nthe ResNet18 model and compares Baseline and Active Learning models and the\npresence of Superposition in them is inspected across multiple criteria,\nincluding t-SNE visualizations, cosine similarity histograms, Silhouette\nScores, and Davies-Bouldin Indexes. Contrary to our expectations, the active\nlearning model did not significantly outperform the baseline in terms of\nfeature separation and overall accuracy. This suggests that non-informative\nsample selection and potential overfitting to uncertain samples may have\nhindered the active learning model's ability to generalize better suggesting\nmore sophisticated approaches might be needed to decode superposition and\npotentially reduce it.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "XNScs19oXN3jTazWOs5VPK9iHl5UUuxyQVj-SQRJ3jc",
+  "pdfSize": "3000082"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "2412.00098",
+  "title": "Fine-Tuning Large Language Models for Scientific Text Classification: A\n  Comparative Study",
+  "authors": "Zhyar Rzgar K Rostam and G\\'abor Kert\\'esz",
+  "authorsParsed": [
+    [
+      "Rostam",
+      "Zhyar Rzgar K",
+      ""
+    ],
+    [
+      "Kertész",
+      "Gábor",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 27 Nov 2024 18:58:53 GMT"
+    }
+  ],
+  "updateDate": "2024-12-03",
+  "timestamp": 1732733933000,
+  "abstract": "  The exponential growth of online textual content across diverse domains has\nnecessitated advanced methods for automated text classification. Large Language\nModels (LLMs) based on transformer architectures have shown significant success\nin this area, particularly in natural language processing (NLP) tasks. However,\ngeneral-purpose LLMs often struggle with domain-specific content, such as\nscientific texts, due to unique challenges like specialized vocabulary and\nimbalanced data. In this study, we fine-tune four state-of-the-art LLMs BERT,\nSciBERT, BioBERT, and BlueBERT on three datasets derived from the WoS-46985\ndataset to evaluate their performance in scientific text classification. Our\nexperiments reveal that domain-specific models, particularly SciBERT,\nconsistently outperform general-purpose models in both abstract-based and\nkeyword-based classification tasks. Additionally, we compare our achieved\nresults with those reported in the literature for deep learning models, further\nhighlighting the advantages of LLMs, especially when utilized in specific\ndomains. The findings emphasize the importance of domain-specific adaptations\nfor LLMs to enhance their effectiveness in specialized text classification\ntasks.\n",
+  "subjects": [
+    "Computer Science/Computation and Language"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "Z5UMDixDdOnsiQcZBp-pdEBdpmLbxus98MyhfJAzSDo",
+  "pdfSize": "278907"
+}

@@ -1,0 +1,37 @@
+{
+  "id": "2412.19167",
+  "title": "Fluid-particle interactions and fluctuation-dissipation relations II --\n  Gaussianity and Gaussianity breaking",
+  "authors": "Chiara Pezzotti, Massimiliano Giona, Giuseppe Procopio",
+  "authorsParsed": [
+    [
+      "Pezzotti",
+      "Chiara",
+      ""
+    ],
+    [
+      "Giona",
+      "Massimiliano",
+      ""
+    ],
+    [
+      "Procopio",
+      "Giuseppe",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 26 Dec 2024 10:57:48 GMT"
+    }
+  ],
+  "updateDate": "2024-12-30",
+  "timestamp": 1735210668000,
+  "abstract": "  The analysis of fluctuation-dissipation relations developed in Giona et al.\n(2024) for particle hydromechanics is extended to stochastic forcings\nalternative to Wiener processes, with the aim of addressing the occurrence of\nGaussian equilibrium densities or alternatively the breaking of the Gaussian\nparadigm at equilibrium. Preliminarly, it is discussed how the determination of\nthe fluctuational patterns starting from the Gaussian approach to Markov\nprocesses is practically unfeasible, and the moment analysis provides the\nsimplest way to achieve it. We show the existence of an uncountable family of\nwhite-noise processes, different from the distributional derivatives of Wiener\nprocesses, and satisfying the requirement of fluctuational independence, i.e.\nthe basic assumption on thermal fluctuations in the Kubo theory based on the\nLangevin condition. The importance of this extension is that it may provide a\ntransition from mesoscopic to microscopic (event-based) stochastic modeling. In\nthis framework, the derivatives of Wiener processes constitute a very peculiar,\nalbeit continuous, element of this class. The fluctuational patterns driven by\nnon-Wiener stochastic forcings display in general non-Gaussian velocity\nfluctuations at equilibrium, and the Gaussian case is recovered in the limit of\nsmall perturbations. Finally, a fully hydromechanic approach to anomalous\ndiffusion is provided, both in the subdiffusive and in the superdiffusive\ncases.\n",
+  "subjects": [
+    "Condensed Matter/Statistical Mechanics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "1hyuqpIjdyfAWg8TSjYzWXJ9y0y6yfYqA2GDduO8U0k",
+  "pdfSize": "824677"
+}

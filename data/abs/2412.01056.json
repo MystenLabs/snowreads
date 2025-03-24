@@ -1,0 +1,57 @@
+{
+  "id": "2412.01056",
+  "title": "Classifying Simulated Gait Impairments using Privacy-preserving\n  Explainable Artificial Intelligence and Mobile Phone Videos",
+  "authors": "Lauhitya Reddy, Ketan Anand, Shoibolina Kaushik, Corey Rodrigo, J.\n  Lucas McKay, Trisha M. Kesar, Hyeokhyen Kwon",
+  "authorsParsed": [
+    [
+      "Reddy",
+      "Lauhitya",
+      ""
+    ],
+    [
+      "Anand",
+      "Ketan",
+      ""
+    ],
+    [
+      "Kaushik",
+      "Shoibolina",
+      ""
+    ],
+    [
+      "Rodrigo",
+      "Corey",
+      ""
+    ],
+    [
+      "McKay",
+      "J. Lucas",
+      ""
+    ],
+    [
+      "Kesar",
+      "Trisha M.",
+      ""
+    ],
+    [
+      "Kwon",
+      "Hyeokhyen",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 2 Dec 2024 02:35:40 GMT"
+    }
+  ],
+  "updateDate": "2024-12-03",
+  "timestamp": 1733106940000,
+  "abstract": "  Accurate diagnosis of gait impairments is often hindered by subjective or\ncostly assessment methods, with current solutions requiring either expensive\nmulti-camera equipment or relying on subjective clinical observation. There is\na critical need for accessible, objective tools that can aid in gait assessment\nwhile preserving patient privacy. In this work, we present a mobile\nphone-based, privacy-preserving artificial intelligence (AI) system for\nclassifying gait impairments and introduce a novel dataset of 743 videos\ncapturing seven distinct gait patterns. The dataset consists of frontal and\nsagittal views of trained subjects simulating normal gait and six types of\npathological gait (circumduction, Trendelenburg, antalgic, crouch,\nParkinsonian, and vaulting), recorded using standard mobile phone cameras. Our\nsystem achieved 86.5% accuracy using combined frontal and sagittal views, with\nsagittal views generally outperforming frontal views except for specific gait\npatterns like Circumduction. Model feature importance analysis revealed that\nfrequency-domain features and entropy measures were critical for classifcation\nperformance, specifically lower limb keypoints proved most important for\nclassification, aligning with clinical understanding of gait assessment. These\nfindings demonstrate that mobile phone-based systems can effectively classify\ndiverse gait patterns while preserving privacy through on-device processing.\nThe high accuracy achieved using simulated gait data suggests their potential\nfor rapid prototyping of gait analysis systems, though clinical validation with\npatient data remains necessary. This work represents a significant step toward\naccessible, objective gait assessment tools for clinical, community, and\ntele-rehabilitation settings\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "QziIeeBdLJCherIn1z_id8anfnh2L4TEjgvUQLvdhHI",
+  "pdfSize": "2389454"
+}

@@ -1,0 +1,41 @@
+{
+  "id": "2412.14834",
+  "title": "Entropy Regularized Task Representation Learning for Offline\n  Meta-Reinforcement Learning",
+  "authors": "Mohammadreza Nakhaei, Aidan Scannell, Joni Pajarinen",
+  "authorsParsed": [
+    [
+      "Nakhaei",
+      "Mohammadreza",
+      ""
+    ],
+    [
+      "Scannell",
+      "Aidan",
+      ""
+    ],
+    [
+      "Pajarinen",
+      "Joni",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 19 Dec 2024 13:24:01 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Wed, 22 Jan 2025 13:07:07 GMT"
+    }
+  ],
+  "updateDate": "2025-01-23",
+  "timestamp": 1734614641000,
+  "abstract": "  Offline meta-reinforcement learning aims to equip agents with the ability to\nrapidly adapt to new tasks by training on data from a set of different tasks.\nContext-based approaches utilize a history of state-action-reward transitions\n-- referred to as the context -- to infer representations of the current task,\nand then condition the agent, i.e., the policy and value function, on the task\nrepresentations. Intuitively, the better the task representations capture the\nunderlying tasks, the better the agent can generalize to new tasks.\nUnfortunately, context-based approaches suffer from distribution mismatch, as\nthe context in the offline data does not match the context at test time,\nlimiting their ability to generalize to the test tasks. This leads to the task\nrepresentations overfitting to the offline training data. Intuitively, the task\nrepresentations should be independent of the behavior policy used to collect\nthe offline data. To address this issue, we approximately minimize the mutual\ninformation between the distribution over the task representations and behavior\npolicy by maximizing the entropy of behavior policy conditioned on the task\nrepresentations. We validate our approach in MuJoCo environments, showing that\ncompared to baselines, our task representations more faithfully represent the\nunderlying tasks, leading to outperforming prior methods in both\nin-distribution and out-of-distribution tasks.\n",
+  "subjects": [
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "XgZoOex3erGeiBwOn41VEF1vyBtYvhBsntFgM0z-yqE",
+  "pdfSize": "4422400"
+}

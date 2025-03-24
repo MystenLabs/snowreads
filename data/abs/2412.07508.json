@@ -1,0 +1,48 @@
+{
+  "id": "2412.07508",
+  "title": "Distributed Uplink Rate Splitting Multiple Access (DU-RSMA): Principles\n  and Performance Analysis",
+  "authors": "Apostolos A. Tegos, Yue Xiao, Sotiris A. Tegos, George K.\n  Karagiannidis and Panagiotis D. Diamantoulakis",
+  "authorsParsed": [
+    [
+      "Tegos",
+      "Apostolos A.",
+      ""
+    ],
+    [
+      "Xiao",
+      "Yue",
+      ""
+    ],
+    [
+      "Tegos",
+      "Sotiris A.",
+      ""
+    ],
+    [
+      "Karagiannidis",
+      "George K.",
+      ""
+    ],
+    [
+      "Diamantoulakis",
+      "Panagiotis D.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 10 Dec 2024 13:46:17 GMT"
+    }
+  ],
+  "updateDate": "2024-12-11",
+  "timestamp": 1733838377000,
+  "abstract": "  One of the main goals of the upcoming sixth-generation (6G) wireless networks\nis the ability to support higher network density, while ensuring a high quality\nof service for each user. In this paper, we introduce distributed uplink\nrate-splitting multiple access (DU-RSMA), define its basic principles, and\nprovide insights into its advantages. Specifically, a system with two remote\nradio heads (RRHs) and two users is investigated. To improve the performance of\nthe system, we consider that the RRHs can communicate through a feedback link,\nand thus they are able to decode the received messages either independently or\nwith the assistance of the other RRH, since the decoded information can be\nshared through the feedback link. It should be noted that this scheme increases\nthe achievable capacity region compared to the known multiple access schemes,\nwhich is also evaluated by a novel metric termed ``fill factor''. Both the case\nof adaptive transmission rates and the case of fixed transmission rates are\ninvestigated. To this end, the ergodic rate is investigated to cover the former\ncase, while the outage probability is studied for the latter. Closed-form\nexpressions are derived for both metrics. Finally, the analytical expressions\nare validated by simulation results, which explicitly show the impact of each\nparameter on the performance of the system, and prove that the proposed scheme\noutperforms the corresponding benchmarks.\n",
+  "subjects": [
+    "Computer Science/Information Theory",
+    "Mathematics/Information Theory"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "Ak_F9JSdI1_1g0ealCrDzvG4vRwM_-aE-NwdTPPOzvQ",
+  "pdfSize": "493833"
+}

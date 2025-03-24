@@ -1,0 +1,33 @@
+{
+  "id": "2412.15525",
+  "title": "Generalized Back-Stepping Experience Replay in Sparse-Reward\n  Environments",
+  "authors": "Guwen Lyu, Masahiro Sato",
+  "authorsParsed": [
+    [
+      "Lyu",
+      "Guwen",
+      ""
+    ],
+    [
+      "Sato",
+      "Masahiro",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 20 Dec 2024 03:31:23 GMT"
+    }
+  ],
+  "updateDate": "2024-12-23",
+  "timestamp": 1734665483000,
+  "abstract": "  Back-stepping experience replay (BER) is a reinforcement learning technique\nthat can accelerate learning efficiency in reversible environments. BER trains\nan agent with generated back-stepping transitions of collected experiences and\nnormal forward transitions. However, the original algorithm is designed for a\ndense-reward environment that does not require complex exploration, limiting\nthe BER technique to demonstrate its full potential. Herein, we propose an\nenhanced version of BER called Generalized BER (GBER), which extends the\noriginal algorithm to sparse-reward environments, particularly those with\ncomplex structures that require the agent to explore. GBER improves the\nperformance of BER by introducing relabeling mechanism and applying diverse\nsampling strategies. We evaluate our modified version, which is based on a\ngoal-conditioned deep deterministic policy gradient offline learning algorithm,\nacross various maze navigation environments. The experimental results indicate\nthat the GBER algorithm can significantly boost the performance and stability\nof the baseline algorithm in various sparse-reward environments, especially\nthose with highly structural symmetricity.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "oivF6pSZ89MMblajrpo-p1oDhS5CVF9hYo-SkMHTG3A",
+  "pdfSize": "821247"
+}

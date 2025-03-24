@@ -1,0 +1,46 @@
+{
+  "id": "2412.10019",
+  "title": "Performance of ChatGPT on tasks involving physics visual\n  representations: the case of the Brief Electricity and Magnetism Assessment",
+  "authors": "Giulia Polverini, Jakob Melin, Elias Onerud, and Bor Gregorcic",
+  "authorsParsed": [
+    [
+      "Polverini",
+      "Giulia",
+      ""
+    ],
+    [
+      "Melin",
+      "Jakob",
+      ""
+    ],
+    [
+      "Onerud",
+      "Elias",
+      ""
+    ],
+    [
+      "Gregorcic",
+      "Bor",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 13 Dec 2024 10:00:41 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Fri, 7 Feb 2025 15:03:00 GMT"
+    }
+  ],
+  "updateDate": "2025-02-10",
+  "timestamp": 1734084041000,
+  "abstract": "  Artificial intelligence-based chatbots are increasingly influencing physics\neducation due to their ability to interpret and respond to textual and visual\ninputs. This study evaluates the performance of two large multimodal\nmodel-based chatbots, ChatGPT-4 and ChatGPT-4o on the Brief Electricity and\nMagnetism Assessment (BEMA), a conceptual physics inventory rich in visual\nrepresentations such as vector fields, circuit diagrams, and graphs.\nQuantitative analysis shows that ChatGPT-4o outperforms both ChatGPT-4 and a\nlarge sample of university students, and demonstrates improvements in\nChatGPT-4o's vision interpretation ability over its predecessor ChatGPT-4.\nHowever, qualitative analysis of ChatGPT-4o's responses reveals persistent\nchallenges. We identified three types of difficulties in the chatbot's\nresponses to tasks on BEMA: (1) difficulties with visual interpretation, (2)\ndifficulties in providing correct physics laws or rules, and (3) difficulties\nwith spatial coordination and application of physics representations. Spatial\nreasoning tasks, particularly those requiring the use of the right-hand rule,\nproved especially problematic. These findings highlight that the most broadly\nused large multimodal model-based chatbot, ChatGPT-4o, still exhibits\nsignificant difficulties in engaging with physics tasks involving visual\nrepresentations. While the chatbot shows potential for educational\napplications, including personalized tutoring and accessibility support for\nstudents who are blind or have low vision, its limitations necessitate caution.\nOn the other hand, our findings can also be leveraged to design assessments\nthat are difficult for chatbots to solve.\n",
+  "subjects": [
+    "Physics/Physics Education"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "b2sQZJA5LkAlSRuKZ-npTbr73T3twTkMidELTu5UG0I",
+  "pdfSize": "3319730"
+}

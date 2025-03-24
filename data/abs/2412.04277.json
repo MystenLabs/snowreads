@@ -1,0 +1,77 @@
+{
+  "id": "2412.04277",
+  "title": "Arabic Stable LM: Adapting Stable LM 2 1.6B to Arabic",
+  "authors": "Zaid Alyafeai, Michael Pieler, Hannah Teufel, Jonathan Tow, Marco\n  Bellagente, Duy Phung, Nikhil Pinnaparaju, Reshinth Adithyan, Paulo Rocha,\n  Maksym Zhuravinskyi, Carlos Riquelme",
+  "authorsParsed": [
+    [
+      "Alyafeai",
+      "Zaid",
+      ""
+    ],
+    [
+      "Pieler",
+      "Michael",
+      ""
+    ],
+    [
+      "Teufel",
+      "Hannah",
+      ""
+    ],
+    [
+      "Tow",
+      "Jonathan",
+      ""
+    ],
+    [
+      "Bellagente",
+      "Marco",
+      ""
+    ],
+    [
+      "Phung",
+      "Duy",
+      ""
+    ],
+    [
+      "Pinnaparaju",
+      "Nikhil",
+      ""
+    ],
+    [
+      "Adithyan",
+      "Reshinth",
+      ""
+    ],
+    [
+      "Rocha",
+      "Paulo",
+      ""
+    ],
+    [
+      "Zhuravinskyi",
+      "Maksym",
+      ""
+    ],
+    [
+      "Riquelme",
+      "Carlos",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 5 Dec 2024 15:59:29 GMT"
+    }
+  ],
+  "updateDate": "2024-12-06",
+  "timestamp": 1733414369000,
+  "abstract": "  Large Language Models (LLMs) have shown impressive results in multiple\ndomains of natural language processing (NLP) but are mainly focused on the\nEnglish language. Recently, more LLMs have incorporated a larger proportion of\nmultilingual text to represent low-resource languages. In Arabic NLP, several\nArabic-centric LLMs have shown remarkable results on multiple benchmarks in the\npast two years. However, most Arabic LLMs have more than 7 billion parameters,\nwhich increases their hardware requirements and inference latency, when\ncompared to smaller LLMs. This paper introduces Arabic Stable LM 1.6B in a base\nand chat version as a small but powerful Arabic-centric LLM. Our Arabic Stable\nLM 1.6B chat model achieves impressive results on several benchmarks beating\nmultiple models with up to 8x the parameters. In addition, we show the benefit\nof mixing in synthetic instruction tuning data by augmenting our fine-tuning\ndata with a large synthetic dialogue dataset.\n",
+  "subjects": [
+    "Computer Science/Computation and Language"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "DhOwjSXN9znU8UIY90JgTmW4azjm5LmgB9jjnClDHGc",
+  "pdfSize": "2226780"
+}

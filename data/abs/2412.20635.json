@@ -1,0 +1,49 @@
+{
+  "id": "2412.20635",
+  "title": "NetFlowGen: Leveraging Generative Pre-training for Network Traffic\n  Dynamics",
+  "authors": "Jiawei Zhou, Woojeong Kim, Zhiying Xu, Alexander M. Rush, Minlan Yu",
+  "authorsParsed": [
+    [
+      "Zhou",
+      "Jiawei",
+      ""
+    ],
+    [
+      "Kim",
+      "Woojeong",
+      ""
+    ],
+    [
+      "Xu",
+      "Zhiying",
+      ""
+    ],
+    [
+      "Rush",
+      "Alexander M.",
+      ""
+    ],
+    [
+      "Yu",
+      "Minlan",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 30 Dec 2024 00:47:49 GMT"
+    }
+  ],
+  "updateDate": "2024-12-31",
+  "timestamp": 1735519669000,
+  "abstract": "  Understanding the traffic dynamics in networks is a core capability for\nautomated systems to monitor and analyze networking behaviors, reducing\nexpensive human efforts and economic risks through tasks such as traffic\nclassification, congestion prediction, and attack detection. However, it is\nstill challenging to accurately model network traffic with machine learning\napproaches in an efficient and broadly applicable manner. Task-specific models\ntrained from scratch are used for different networking applications, which\nlimits the efficiency of model development and generalization of model\ndeployment. Furthermore, while networking data is abundant, high-quality\ntask-specific labels are often insufficient for training individual models.\nLarge-scale self-supervised learning on unlabeled data provides a natural\npathway for tackling these challenges. We propose to pre-train a\ngeneral-purpose machine learning model to capture traffic dynamics with only\ntraffic data from NetFlow records, with the goal of fine-tuning for different\ndownstream tasks with small amount of labels. Our presented NetFlowGen\nframework goes beyond a proof-of-concept for network traffic pre-training and\naddresses specific challenges such as unifying network feature representations,\nlearning from large unlabeled traffic data volume, and testing on real\ndownstream tasks in DDoS attack detection. Experiments demonstrate promising\nresults of our pre-training framework on capturing traffic dynamics and\nadapting to different networking tasks.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Networking and Internet Architecture"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "Bu0umRNxlTVsskRWGm-XwWnJPIZexF51_WUNSvN3hDk",
+  "pdfSize": "1262808"
+}

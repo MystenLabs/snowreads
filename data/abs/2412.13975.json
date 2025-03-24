@@ -1,0 +1,33 @@
+{
+  "id": "2412.13975",
+  "title": "The number of descendants in a preferential attachment graph",
+  "authors": "Svante Janson and Tiffany Y. Y. Lo",
+  "authorsParsed": [
+    [
+      "Janson",
+      "Svante",
+      ""
+    ],
+    [
+      "Lo",
+      "Tiffany Y. Y.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 18 Dec 2024 15:54:37 GMT"
+    }
+  ],
+  "updateDate": "2024-12-19",
+  "timestamp": 1734537277000,
+  "abstract": "  We study the number $X^{(n)}$ of vertices that can be reached from the last\nadded vertex $n$ via a directed path (the descendants) in the standard\npreferential attachment graph. In this model, vertices are sequentially added,\neach born with outdegree $m\\ge 2$; the endpoint of each outgoing edge is chosen\namong previously added vertices with probability proportional to the current\ndegree of the vertex plus some number $\\rho$.\n  We show that $X^{(n)}/n^\\nu$ converges in distribution as $n\\to\\infty$, where\n$\\nu$ depends on both $m$ and $\\rho$, and the limiting distribution is given by\na product of a constant factor and the $(1-\\nu)$-th power of a Gamma(m/(m-1),1)\nvariable. The proof uses a P\\'olya urn representation of preferential\nattachment graphs, and the arguments of Janson (2024) where the same problem\nwas studied in uniform attachment graphs. Further results, including\nconvergence of all moments and analogues for the version with possible\nself-loops are provided.\n",
+  "subjects": [
+    "Mathematics/Probability",
+    "Mathematics/Combinatorics"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "Q8Q3fQGEWmTxQuPK1EqRZvDvEru9P1nBNcQ8OG3ZyRI",
+  "pdfSize": "593916"
+}

@@ -1,0 +1,94 @@
+{
+  "id": "2412.02725",
+  "title": "emg2pose: A Large and Diverse Benchmark for Surface Electromyographic\n  Hand Pose Estimation",
+  "authors": "Sasha Salter, Richard Warren, Collin Schlager, Adrian Spurr, Shangchen\n  Han, Rohin Bhasin, Yujun Cai, Peter Walkington, Anuoluwapo Bolarinwa, Robert\n  Wang, Nathan Danielson, Josh Merel, Eftychios Pnevmatikakis, Jesse Marshall",
+  "authorsParsed": [
+    [
+      "Salter",
+      "Sasha",
+      ""
+    ],
+    [
+      "Warren",
+      "Richard",
+      ""
+    ],
+    [
+      "Schlager",
+      "Collin",
+      ""
+    ],
+    [
+      "Spurr",
+      "Adrian",
+      ""
+    ],
+    [
+      "Han",
+      "Shangchen",
+      ""
+    ],
+    [
+      "Bhasin",
+      "Rohin",
+      ""
+    ],
+    [
+      "Cai",
+      "Yujun",
+      ""
+    ],
+    [
+      "Walkington",
+      "Peter",
+      ""
+    ],
+    [
+      "Bolarinwa",
+      "Anuoluwapo",
+      ""
+    ],
+    [
+      "Wang",
+      "Robert",
+      ""
+    ],
+    [
+      "Danielson",
+      "Nathan",
+      ""
+    ],
+    [
+      "Merel",
+      "Josh",
+      ""
+    ],
+    [
+      "Pnevmatikakis",
+      "Eftychios",
+      ""
+    ],
+    [
+      "Marshall",
+      "Jesse",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 2 Dec 2024 23:39:37 GMT"
+    }
+  ],
+  "updateDate": "2024-12-05",
+  "timestamp": 1733182777000,
+  "abstract": "  Hands are the primary means through which humans interact with the world.\nReliable and always-available hand pose inference could yield new and intuitive\ncontrol schemes for human-computer interactions, particularly in virtual and\naugmented reality. Computer vision is effective but requires one or multiple\ncameras and can struggle with occlusions, limited field of view, and poor\nlighting. Wearable wrist-based surface electromyography (sEMG) presents a\npromising alternative as an always-available modality sensing muscle activities\nthat drive hand motion. However, sEMG signals are strongly dependent on user\nanatomy and sensor placement, and existing sEMG models have required hundreds\nof users and device placements to effectively generalize. To facilitate\nprogress on sEMG pose inference, we introduce the emg2pose benchmark, the\nlargest publicly available dataset of high-quality hand pose labels and wrist\nsEMG recordings. emg2pose contains 2kHz, 16 channel sEMG and pose labels from a\n26-camera motion capture rig for 193 users, 370 hours, and 29 stages with\ndiverse gestures - a scale comparable to vision-based hand pose datasets. We\nprovide competitive baselines and challenging tasks evaluating real-world\ngeneralization scenarios: held-out users, sensor placements, and stages.\nemg2pose provides the machine learning community a platform for exploring\ncomplex generalization problems, holding potential to significantly enhance the\ndevelopment of sEMG-based human-computer interactions.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Human-Computer Interaction",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "ngrYXrfUOmJ6uLP_EncP6k2-Uf_a5c-Hx80rJUlpv-k",
+  "pdfSize": "4215904"
+}

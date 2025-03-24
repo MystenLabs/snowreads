@@ -1,0 +1,32 @@
+{
+  "id": "2412.03553",
+  "title": "BinSparX: Sparsified Binary Neural Networks for Reduced Hardware\n  Non-Idealities in Xbar Arrays",
+  "authors": "Akul Malhotra and Sumeet Kumar Gupta",
+  "authorsParsed": [
+    [
+      "Malhotra",
+      "Akul",
+      ""
+    ],
+    [
+      "Gupta",
+      "Sumeet Kumar",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 4 Dec 2024 18:50:12 GMT"
+    }
+  ],
+  "updateDate": "2024-12-05",
+  "timestamp": 1733338212000,
+  "abstract": "  Compute-in-memory (CiM)-based binary neural network (CiM-BNN) accelerators\nmarry the benefits of CiM and ultra-low precision quantization, making them\nhighly suitable for edge computing. However, CiM-enabled crossbar (Xbar) arrays\nare plagued with hardware non-idealities like parasitic resistances and device\nnon-linearities that impair inference accuracy, especially in scaled\ntechnologies. In this work, we first analyze the impact of Xbar non-idealities\non the inference accuracy of various CiM-BNNs, establishing that the unique\nproperties of CiM-BNNs make them more prone to hardware non-idealities compared\nto higher precision deep neural networks (DNNs). To address this issue, we\npropose BinSparX, a training-free technique that mitigates non-idealities in\nCiM-BNNs. BinSparX utilizes the distinct attributes of BNNs to reduce the\naverage current generated during the CiM operations in Xbar arrays. This is\nachieved by statically and dynamically sparsifying the BNN weights and\nactivations, respectively (which, in the context of BNNs, is defined as\nreducing the number of +1 weights and activations). This minimizes the IR drops\nacross the parasitic resistances, drastically mitigating their impact on\ninference accuracy. To evaluate our technique, we conduct experiments on\nResNet-18 and VGG-small CiM-BNNs designed at the 7nm technology node using\n8T-SRAM and 1T-1ReRAM. Our results show that BinSparX is highly effective in\nalleviating the impact of non-idealities, recouping the inference accuracy to\nnear-ideal (software) levels in some cases and providing accuracy boost of up\nto 77.25%. These benefits are accompanied by energy reduction, albeit at the\ncost of mild latency/area increase.\n",
+  "subjects": [
+    "Computer Science/Hardware Architecture"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "9-plF5eL_ukVb9KSW4-7UB2i5fVWQysrscQWh9M_hng",
+  "pdfSize": "1227646"
+}

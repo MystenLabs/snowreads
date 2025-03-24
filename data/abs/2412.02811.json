@@ -1,0 +1,44 @@
+{
+  "id": "2412.02811",
+  "title": "Kernel-based Koopman approximants for control: Flexible sampling, error\n  analysis, and stability",
+  "authors": "Lea Bold and Friedrich M. Philipp and Manuel Schaller and Karl\n  Worthmann",
+  "authorsParsed": [
+    [
+      "Bold",
+      "Lea",
+      ""
+    ],
+    [
+      "Philipp",
+      "Friedrich M.",
+      ""
+    ],
+    [
+      "Schaller",
+      "Manuel",
+      ""
+    ],
+    [
+      "Worthmann",
+      "Karl",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 3 Dec 2024 20:21:30 GMT"
+    }
+  ],
+  "updateDate": "2024-12-05",
+  "timestamp": 1733257290000,
+  "abstract": "  Data-driven techniques for analysis, modeling, and control of complex\ndynamical systems are on the uptake. Koopman theory provides the theoretical\nfoundation for the extremely popular kernel extended dynamic mode decomposition\n(kEDMD). In this work we propose a novel kEDMD scheme to approximate nonlinear\ncontrol systems accompanied by an in-depth error analysis. The main features of\nthe method are flexible sampling, regularization-based robustness, and an\nadroit decomposition into micro and macro grids. In addition, we prove\nproportionality, i.e., explicit dependence on the distance to the (controlled)\nequilibrium, of the derived uniform bounds on the full approximation error.\nLeveraging this key property, we rigorously show that asymptotic stability of\nthe data-driven surrogate (control) system implies asymptotic stability of the\noriginal (control) system and vice versa.\n",
+  "subjects": [
+    "Mathematics/Optimization and Control",
+    "Computer Science/Systems and Control",
+    "Electrical Engineering and Systems Science/Systems and Control"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "fBhQmf3bzk-_gA_ZRDoS3ZKtAMctULkal6DFX4PNBbo",
+  "pdfSize": "1318911"
+}

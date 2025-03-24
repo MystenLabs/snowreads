@@ -1,0 +1,50 @@
+{
+  "id": "2412.00072",
+  "title": "The Muon Space GNSS-R Surface Soil Moisture Product",
+  "authors": "Max Roberts, Ian Colwell, Clara Chew, Dallas Masters, Karl Nordstrom",
+  "authorsParsed": [
+    [
+      "Roberts",
+      "Max",
+      ""
+    ],
+    [
+      "Colwell",
+      "Ian",
+      ""
+    ],
+    [
+      "Chew",
+      "Clara",
+      ""
+    ],
+    [
+      "Masters",
+      "Dallas",
+      ""
+    ],
+    [
+      "Nordstrom",
+      "Karl",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 26 Nov 2024 04:01:42 GMT"
+    }
+  ],
+  "updateDate": "2024-12-03",
+  "timestamp": 1732593702000,
+  "abstract": "  Muon Space (Muon) is building a constellation of small satellites, many of\nwhich will carry global navigation satellite system-reflectometry (GNSS-R)\nreceivers. In preparation for the launch of this constellation, we have\ndeveloped a generalized deep learning retrieval pipeline, which now produces\noperational GNSS-R near-surface soil moisture retrievals using data from NASA's\nCyclone GNSS (CYGNSS) mission. In this article, we describe the input datasets,\npreprocessing methods, model architecture, development methods, and detail the\nsoil moisture products generated from these retrievals. The performance of this\nproduct is quantified against in situ measurements and compared to both the\ntarget dataset (retrievals from the Soil Moisture Active-Passive (SMAP)\nsatellite) and the v1.0 soil moisture product from the CYGNSS mission. The Muon\nSpace product achieves improvements in spatial resolution over SMAP with\ncomparable performance in many regions. An ubRMSE of 0.032 cm$^3$ cm$^{-3}$ for\nin situ soil moisture observations from SMAP core validation sites is shown,\nthough performance is lower than SMAP's when comparing in forests and/or\nmountainous terrain. The Muon Space product outperforms the v1.0 CYGNSS soil\nmoisture product in almost all aspects. This initial release serves as the\nfoundation of our operational soil moisture product, which soon will\nadditionally include data from Muon Space satellites.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Computer Science/Computational Engineering, Finance, and Science",
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Physics/Space Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by-sa/4.0/",
+  "blobId": "VSoxmfIxx_13VxgOjE_s_xhdhP6QJ7V1kwkOhfkCyWs",
+  "pdfSize": "15401649"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "2412.10139",
+  "title": "TACOMORE: Leveraging the Potential of LLMs in Corpus-based Discourse\n  Analysis with Prompt Engineering",
+  "authors": "Bingru Li and Han Wang",
+  "authorsParsed": [
+    [
+      "Li",
+      "Bingru",
+      ""
+    ],
+    [
+      "Wang",
+      "Han",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 13 Dec 2024 13:41:24 GMT"
+    }
+  ],
+  "updateDate": "2024-12-16",
+  "timestamp": 1734097284000,
+  "abstract": "  The capacity of LLMs to carry out automated qualitative analysis has been\nquestioned by corpus linguists, and it has been argued that corpus-based\ndiscourse analysis incorporating LLMs is hindered by issues of unsatisfying\nperformance, hallucination, and irreproducibility. Our proposed method,\nTACOMORE, aims to address these concerns by serving as an effective prompting\nframework in this domain. The framework consists of four principles, i.e.,\nTask, Context, Model and Reproducibility, and specifies five fundamental\nelements of a good prompt, i.e., Role Description, Task Definition, Task\nProcedures, Contextual Information and Output Format. We conduct experiments on\nthree LLMs, i.e., GPT-4o, Gemini-1.5-Pro and Gemini-1.5.Flash, and find that\nTACOMORE helps improve LLM performance in three representative discourse\nanalysis tasks, i.e., the analysis of keywords, collocates and concordances,\nbased on an open corpus of COVID-19 research articles. Our findings show the\nefficacy of the proposed prompting framework TACOMORE in corpus-based discourse\nanalysis in terms of Accuracy, Ethicality, Reasoning, and Reproducibility, and\nprovide novel insights into the application and evaluation of LLMs in automated\nqualitative studies.\n",
+  "subjects": [
+    "Computer Science/Computation and Language"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "GM5eJdqR2viTdFVfxrM8kN6uechFdU5hZm3Xxa1R09s",
+  "pdfSize": "1086842"
+}

@@ -1,0 +1,47 @@
+{
+  "id": "2412.00888",
+  "title": "DPE-Net: Dual-Parallel Encoder Based Network for Semantic Segmentation\n  of Polyps",
+  "authors": "Malik Abdul Manan, Feng Jinchao, Shahzad Ahmed, Abdul Raheem",
+  "authorsParsed": [
+    [
+      "Manan",
+      "Malik Abdul",
+      ""
+    ],
+    [
+      "Jinchao",
+      "Feng",
+      ""
+    ],
+    [
+      "Ahmed",
+      "Shahzad",
+      ""
+    ],
+    [
+      "Raheem",
+      "Abdul",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 1 Dec 2024 16:56:03 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Tue, 3 Dec 2024 13:30:51 GMT"
+    }
+  ],
+  "updateDate": "2024-12-04",
+  "timestamp": 1733072163000,
+  "abstract": "  In medical imaging, efficient segmentation of colon polyps plays a pivotal\nrole in minimally invasive solutions for colorectal cancer. This study\nintroduces a novel approach employing two parallel encoder branches within a\nnetwork for polyp segmentation. One branch of the encoder incorporates the dual\nconvolution blocks that have the capability to maintain feature information\nover increased depths, and the other block embraces the single convolution\nblock with the addition of the previous layer's feature, offering diversity in\nfeature extraction within the encoder, combining them before transpose layers\nwith a depth-wise concatenation operation. Our model demonstrated superior\nperformance, surpassing several established deep-learning architectures on the\nKvasir and CVC-ClinicDB datasets, achieved a Dice score of 0.919, a mIoU of\n0.866 for the Kvasir dataset, and a Dice score of 0.931 and a mIoU of 0.891 for\nthe CVC-ClinicDB. The visual and quantitative results highlight the efficacy of\nour model, potentially setting a new model in medical image segmentation.\n",
+  "subjects": [
+    "Electrical Engineering and Systems Science/Image and Video Processing",
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "ASDZxNqsH7E2OPzvMbUGqCWN3Zt5Ak1k--qO8RcExYw",
+  "pdfSize": "1615674"
+}

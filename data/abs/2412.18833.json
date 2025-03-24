@@ -1,0 +1,57 @@
+{
+  "id": "2412.18833",
+  "title": "Federated Learning with Partially Labeled Data: A Conditional\n  Distillation Approach",
+  "authors": "Pochuan Wang, Chen Shen, Masahiro Oda, Chiou-Shann Fuh, Kensaku Mori,\n  Weichung Wang, Holger R. Roth",
+  "authorsParsed": [
+    [
+      "Wang",
+      "Pochuan",
+      ""
+    ],
+    [
+      "Shen",
+      "Chen",
+      ""
+    ],
+    [
+      "Oda",
+      "Masahiro",
+      ""
+    ],
+    [
+      "Fuh",
+      "Chiou-Shann",
+      ""
+    ],
+    [
+      "Mori",
+      "Kensaku",
+      ""
+    ],
+    [
+      "Wang",
+      "Weichung",
+      ""
+    ],
+    [
+      "Roth",
+      "Holger R.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 25 Dec 2024 08:40:03 GMT"
+    }
+  ],
+  "updateDate": "2024-12-30",
+  "timestamp": 1735116003000,
+  "abstract": "  In medical imaging, developing generalized segmentation models that can\nhandle multiple organs and lesions is crucial. However, the scarcity of fully\nannotated datasets and strict privacy regulations present significant barriers\nto data sharing. Federated Learning (FL) allows decentralized model training,\nbut existing FL methods often struggle with partial labeling, leading to model\ndivergence and catastrophic forgetting. We propose ConDistFL, a novel FL\nframework incorporating conditional distillation to address these challenges.\nConDistFL enables effective learning from partially labeled datasets,\nsignificantly improving segmentation accuracy across distributed and\nnon-uniform datasets. In addition to its superior segmentation performance,\nConDistFL maintains computational and communication efficiency, ensuring its\nscalability for real-world applications. Furthermore, ConDistFL demonstrates\nremarkable generalizability, significantly outperforming existing FL methods in\nout-of-federation tests, even adapting to unseen contrast phases (e.g.,\nnon-contrast CT images) in our experiments. Extensive evaluations on 3D CT and\n2D chest X-ray datasets show that ConDistFL is an efficient, adaptable solution\nfor collaborative medical image segmentation in privacy-constrained settings.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "ddUibADJEpOl5d-kAQ906OaYhgae63uXkF-bIVUXKG4",
+  "pdfSize": "4231142"
+}

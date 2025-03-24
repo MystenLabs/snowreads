@@ -1,0 +1,32 @@
+{
+  "id": "2412.17209",
+  "title": "Classical simulability of Clifford+T circuits with Clifford-augmented\n  matrix product states",
+  "authors": "Zejun Liu and Bryan K. Clark",
+  "authorsParsed": [
+    [
+      "Liu",
+      "Zejun",
+      ""
+    ],
+    [
+      "Clark",
+      "Bryan K.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 23 Dec 2024 01:26:40 GMT"
+    }
+  ],
+  "updateDate": "2024-12-24",
+  "timestamp": 1734917200000,
+  "abstract": "  Generic quantum circuits typically require exponential resources for\nclassical simulation, yet understanding the limits of classical simulability\nremains a fundamental question. In this work, we investigate the classical\nsimulability of $N$-qubit Clifford circuits doped with $t$ number of $T$-gates\nby converting the circuits into Clifford-augmented matrix product states\n(CAMPS). We develop a simple disentangling algorithm to reduce the entanglement\nof the MPS component in CAMPS using control-Pauli gates, which replaces the\nstandard algorithm relying on heuristic optimization when $t\\lesssim N$,\nensuring that the entanglement of the MPS component of CAMPS does not increase\nfor $N$ specific $T$-gates. Using a simplified model, we explore in what cases\nthese $N$ $T$-gates happen sufficiently early in the circuit to make classical\nsimulatability of $t$-doped circuits out to $t=N$ possible. We give evidence\nthat in one-dimension where the $T$-gates are uniformly distributed over the\nqubits and in higher spatial dimensions where the $T$-gates are deep enough we\ngenerically expect polynomial or quasi-polynomial simulations when $t \\leq N$.\nWe further explore the representability of CAMPS in the regime of $t>N$,\nuncovering a non-trivial dependence of the MPS entanglement on the distribution\nof $T$-gates. While it is polynomially efficient to evaluate the expectation of\nPauli observable or the quantum magic in CAMPS, we propose algorithms for\nsampling, probability and amplitude estimation of bitstrings, and evaluation of\nentanglement R\\'enyi entropy from CAMPS, which, though still having exponential\ncomplexity, improve efficiency over the standard MPS simulations. This work\nestablishes a versatile framework based on CAMPS for understanding classical\nsimulatability of $t$-doped circuits and exploring the interplay between\nquantum entanglement and quantum magic on quantum systems.\n",
+  "subjects": [
+    "Physics/Quantum Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "NNS5HDKduqcspuAx_quQkEG0c_fUBpOmgLTrhrA2qpc",
+  "pdfSize": "1487975"
+}

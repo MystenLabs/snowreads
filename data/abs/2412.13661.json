@@ -1,0 +1,33 @@
+{
+  "id": "2412.13661",
+  "title": "A Generic Method for Integrating Lindblad Master Equations",
+  "authors": "Jiayin Gu, Fan Zhang",
+  "authorsParsed": [
+    [
+      "Gu",
+      "Jiayin",
+      ""
+    ],
+    [
+      "Zhang",
+      "Fan",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 18 Dec 2024 09:38:55 GMT"
+    }
+  ],
+  "updateDate": "2024-12-19",
+  "timestamp": 1734514735000,
+  "abstract": "  The time evolution of Markovian open quantum systems is governed by Lindblad\nmaster equations, whose solution can be formally written as the Lindbladian\nexponential acting on the initial density matrix. By expanding this Lindbladian\nexponential into the Taylor series, we propose a generic method for integrating\nLindblad master equations. In this method, the series is truncated, retaining a\nfinite number of terms, and the iterative actions of Lindbladian on the density\nmatrix follow the corresponding master equation. While mathematically\nequivalent to the widely-used vectorization method, our method offers\nsignificant improvements in the numerical efficiency, especially for systems\nwith many degrees of freedom. Moreover, our proposed method can be integrated\nseamlessly with tensor networks. Two illustrative examples, a two-level system\nexhibiting damped Rabi oscillations and a driven dissipative Heisenberg chain,\nare used to demonstrate the validity and effectiveness of our method.\n",
+  "subjects": [
+    "Physics/Quantum Physics",
+    "Condensed Matter/Statistical Mechanics"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "tZCKhVvbUmXdbablY4MbeAozDYCZjIvKydNmgavz4hU",
+  "pdfSize": "481696"
+}

@@ -1,0 +1,44 @@
+{
+  "id": "2412.05306",
+  "title": "Detection of Signals in Colored Noise: Roy's Largest Root Test for\n  Non-central $F$-matrices",
+  "authors": "Prathapasinghe Dharmawansa, Saman Atapattu, Jamie Evans and Merouane\n  Debbah",
+  "authorsParsed": [
+    [
+      "Dharmawansa",
+      "Prathapasinghe",
+      ""
+    ],
+    [
+      "Atapattu",
+      "Saman",
+      ""
+    ],
+    [
+      "Evans",
+      "Jamie",
+      ""
+    ],
+    [
+      "Debbah",
+      "Merouane",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 27 Nov 2024 00:07:39 GMT"
+    }
+  ],
+  "updateDate": "2024-12-10",
+  "timestamp": 1732666059000,
+  "abstract": "  This paper investigates the signal detection problem in colored noise with an\nunknown covariance matrix. In particular, we focus on detecting a non-random\nsignal by capitalizing on the leading eigenvalue (a.k.a. Roy's largest root) of\nthe whitened sample covariance matrix as the test statistic. To this end, the\nwhitened sample covariance matrix is constructed via \\(m\\)-dimensional \\(p \\)\nplausible signal-bearing samples and \\(m\\)-dimensional \\(n \\) noise-only\nsamples. Since the signal is non-random, the whitened sample covariance matrix\nturns out to have a {\\it non-central} \\(F\\)-distribution with a rank-one\nnon-centrality parameter. Therefore, the performance of the test entails the\nstatistical characterization of the leading eigenvalue of the non-central\n\\(F\\)-matrix, which we address by deriving its cumulative distribution function\n(c.d.f.) in closed-form by leveraging the powerful orthogonal polynomial\napproach in random matrix theory. This new c.d.f. has been instrumental in\nanalyzing the receiver operating characteristic (ROC) of the detector. We also\nextend our analysis into the high dimensional regime in which \\(m,n\\), and\n\\(p\\) diverge such that \\(m/n\\) and \\(m/p\\) remain fixed. It turns out that,\nwhen \\(m=n\\) and fixed, the power of the test improves if the signal-to-noise\nratio (SNR) is of at least \\(O(p)\\), whereas the corresponding SNR in the high\ndimensional regime is of at least \\(O(p^2)\\). Nevertheless, more intriguingly,\nfor \\(m<n\\) with the SNR of order \\(O(p)\\), the leading eigenvalue does not\nhave power to detect {\\it weak} signals in the high dimensional regime.\n",
+  "subjects": [
+    "Electrical Engineering and Systems Science/Signal Processing",
+    "Computer Science/Information Theory",
+    "Mathematics/Information Theory"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "bI8QBmzO6LZ7Nilg1hVNP8YFb8Qg9UI155AB8cQamZc",
+  "pdfSize": "1342487"
+}

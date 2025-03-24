@@ -1,0 +1,37 @@
+{
+  "id": "2412.11306",
+  "title": "Unimodal and Multimodal Static Facial Expression Recognition for Virtual\n  Reality Users with EmoHeVRDB",
+  "authors": "Thorben Ortmann, Qi Wang, Larissa Putzar",
+  "authorsParsed": [
+    [
+      "Ortmann",
+      "Thorben",
+      ""
+    ],
+    [
+      "Wang",
+      "Qi",
+      ""
+    ],
+    [
+      "Putzar",
+      "Larissa",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 15 Dec 2024 20:49:46 GMT"
+    }
+  ],
+  "updateDate": "2024-12-17",
+  "timestamp": 1734295786000,
+  "abstract": "  In this study, we explored the potential of utilizing Facial Expression\nActivations (FEAs) captured via the Meta Quest Pro Virtual Reality (VR) headset\nfor Facial Expression Recognition (FER) in VR settings. Leveraging the\nEmojiHeroVR Database (EmoHeVRDB), we compared several unimodal approaches and\nachieved up to 73.02% accuracy for the static FER task with seven emotion\ncategories. Furthermore, we integrated FEA and image data in multimodal\napproaches, observing significant improvements in recognition accuracy. An\nintermediate fusion approach achieved the highest accuracy of 80.42%,\nsignificantly surpassing the baseline evaluation result of 69.84% reported for\nEmoHeVRDB's image data. Our study is the first to utilize EmoHeVRDB's unique\nFEA data for unimodal and multimodal static FER, establishing new benchmarks\nfor FER in VR settings. Our findings highlight the potential of fusing\ncomplementary modalities to enhance FER accuracy in VR settings, where\nconventional image-based methods are severely limited by the occlusion caused\nby Head-Mounted Displays (HMDs).\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "At5L4Yb_DPZgcv1RCY7SVbkcI4CDzma1-7-xGuKAxUA",
+  "pdfSize": "1014832"
+}

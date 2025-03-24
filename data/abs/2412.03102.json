@@ -1,0 +1,52 @@
+{
+  "id": "2412.03102",
+  "title": "Lightweight Multiplane Images Network for Real-Time Stereoscopic\n  Conversion from Planar Video",
+  "authors": "Shanding Diao, Yang Zhao, Yuan Chen, Zhao Zhang, Wei Jia, Ronggang\n  Wang",
+  "authorsParsed": [
+    [
+      "Diao",
+      "Shanding",
+      ""
+    ],
+    [
+      "Zhao",
+      "Yang",
+      ""
+    ],
+    [
+      "Chen",
+      "Yuan",
+      ""
+    ],
+    [
+      "Zhang",
+      "Zhao",
+      ""
+    ],
+    [
+      "Jia",
+      "Wei",
+      ""
+    ],
+    [
+      "Wang",
+      "Ronggang",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 4 Dec 2024 08:04:14 GMT"
+    }
+  ],
+  "updateDate": "2024-12-05",
+  "timestamp": 1733299454000,
+  "abstract": "  With the rapid development of stereoscopic display technologies, especially\nglasses-free 3D screens, and virtual reality devices, stereoscopic conversion\nhas become an important task to address the lack of high-quality stereoscopic\nimage and video resources. Current stereoscopic conversion algorithms typically\nstruggle to balance reconstruction performance and inference efficiency. This\npaper proposes a planar video real-time stereoscopic conversion network based\non multi-plane images (MPI), which consists of a detail branch for generating\nMPI and a depth-semantic branch for perceiving depth information. Unlike models\nthat depend on explicit depth map inputs, the proposed method employs a\nlightweight depth-semantic branch to extract depth-aware features implicitly.\nTo optimize the lightweight branch, a heavy training but light inference\nstrategy is adopted, which involves designing a coarse-to-fine auxiliary branch\nthat is only used during the training stage. In addition, the proposed method\nsimplifies the MPI rendering process for stereoscopic conversion scenarios to\nfurther accelerate the inference. Experimental results demonstrate that the\nproposed method can achieve comparable performance to some state-of-the-art\n(SOTA) models and support real-time inference at 2K resolution. Compared to the\nSOTA TMPI algorithm, the proposed method obtains similar subjective quality\nwhile achieving over $40\\times$ inference acceleration.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+  "blobId": "3XxWwW47YaPZTtrJFpVRJI1je-FZ5Q8ZahIkpwy9Xv0",
+  "pdfSize": "2963526"
+}

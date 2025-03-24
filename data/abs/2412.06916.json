@@ -1,0 +1,87 @@
+{
+  "id": "2412.06916",
+  "title": "Rapid optimal work extraction from a quantum-dot information engine",
+  "authors": "Kushagra Aggarwal, Alberto Rolandi, Yikai Yang, Joseph Hickie, Daniel\n  Jirovec, Andrea Ballabio, Daniel Chrastina, Giovanni Isella, Mark T.\n  Mitchison, Mart\\'i Perarnau-Llobet, Natalia Ares",
+  "authorsParsed": [
+    [
+      "Aggarwal",
+      "Kushagra",
+      ""
+    ],
+    [
+      "Rolandi",
+      "Alberto",
+      ""
+    ],
+    [
+      "Yang",
+      "Yikai",
+      ""
+    ],
+    [
+      "Hickie",
+      "Joseph",
+      ""
+    ],
+    [
+      "Jirovec",
+      "Daniel",
+      ""
+    ],
+    [
+      "Ballabio",
+      "Andrea",
+      ""
+    ],
+    [
+      "Chrastina",
+      "Daniel",
+      ""
+    ],
+    [
+      "Isella",
+      "Giovanni",
+      ""
+    ],
+    [
+      "Mitchison",
+      "Mark T.",
+      ""
+    ],
+    [
+      "Perarnau-Llobet",
+      "Martí",
+      ""
+    ],
+    [
+      "Ares",
+      "Natalia",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 9 Dec 2024 19:03:40 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Tue, 17 Dec 2024 15:16:13 GMT"
+    },
+    {
+      "version": "v3",
+      "created": "Wed, 18 Dec 2024 09:32:26 GMT"
+    }
+  ],
+  "updateDate": "2024-12-19",
+  "timestamp": 1733771020000,
+  "abstract": "  The conversion of thermal energy into work is usually more efficient in the\nslow-driving regime, where the power output is vanishingly small. Efficient\nwork extraction for fast driving protocols remains an outstanding challenge at\nthe nanoscale, where fluctuations play a significant role. In this Letter, we\nuse a quantum-dot Szilard engine to extract work from thermal fluctuations with\nmaximum efficiency over two decades of driving speed. We design and implement a\nfamily of optimised protocols ranging from the slow- to the fast-driving\nregime, and measure the engine's efficiency as well as the mean and variance of\nits power output in each case. These optimised protocols exhibit significant\nimprovements in power and efficiency compared to the naive approach. Our\nresults also show that, when optimising for efficiency, boosting the power\noutput of a Szilard engine inevitably comes at the cost of increased power\nfluctuations.\n",
+  "subjects": [
+    "Physics/Quantum Physics",
+    "Condensed Matter/Mesoscale and Nanoscale Physics",
+    "Condensed Matter/Statistical Mechanics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "yjOkoTLHCnfdUy8FTRkvcYlKV98J8yi3VqbIEuJQ0gE",
+  "pdfSize": "2238367"
+}

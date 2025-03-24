@@ -1,0 +1,37 @@
+{
+  "id": "2412.21031",
+  "title": "The homological shift algebra of a monomial ideal",
+  "authors": "Antonino Ficarra, Ayesha Asloob Qureshi",
+  "authorsParsed": [
+    [
+      "Ficarra",
+      "Antonino",
+      ""
+    ],
+    [
+      "Qureshi",
+      "Ayesha Asloob",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 30 Dec 2024 15:57:47 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Tue, 28 Jan 2025 20:39:31 GMT"
+    }
+  ],
+  "updateDate": "2025-01-30",
+  "timestamp": 1735574267000,
+  "abstract": "  Let $S=K[x_1,\\dots,x_n]$ be the polynomial ring over a field $K$, and let\n$I\\subset S$ be a monomial ideal. In this paper, we introduce the $i$th\nhomological shift algebras\n$\\text{HS}_i(\\mathcal{R}(I))=S\\oplus\\bigoplus_{k\\ge1}\\text{HS}_i(I^k)$ of $I$.\nThese algebras have the structure of a finitely generated bigraded module over\nthe Rees algebra $\\mathcal{R}(I)$ of $I$. Hence, many invariants of\n$\\text{HS}_i(I^k)$, such as depth, associated primes, regularity, and the\n$\\text{v}$-number, exhibit well behaved asymptotic behavior. We particularly\ninvestigate $\\text{HS}_i(I^k)$ when $I$ has linear powers, and determine\nseveral families of monomial ideals $I$ for which $\\text{HS}_i(I^k)$ has linear\nresolution for all $k\\gg0$. Finally, we show that $\\text{HS}_i(I^k)$ is Golod\nfor all monomial ideals $I\\subset S$ and all $k\\gg0$.\n",
+  "subjects": [
+    "Mathematics/Commutative Algebra",
+    "Mathematics/Combinatorics"
+  ],
+  "license": "http://creativecommons.org/licenses/by-sa/4.0/",
+  "blobId": "WpCtsvGCmMXceWEMHB5gGqoGhHwKm6Krat-Hm_2eLhk",
+  "pdfSize": "275264"
+}

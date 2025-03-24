@@ -1,0 +1,72 @@
+{
+  "id": "2412.01800",
+  "title": "PhysGame: Uncovering Physical Commonsense Violations in Gameplay Videos",
+  "authors": "Meng Cao, Haoran Tang, Haoze Zhao, Hangyu Guo, Jiaheng Liu, Ge Zhang,\n  Ruyang Liu, Qiang Sun, Ian Reid, Xiaodan Liang",
+  "authorsParsed": [
+    [
+      "Cao",
+      "Meng",
+      ""
+    ],
+    [
+      "Tang",
+      "Haoran",
+      ""
+    ],
+    [
+      "Zhao",
+      "Haoze",
+      ""
+    ],
+    [
+      "Guo",
+      "Hangyu",
+      ""
+    ],
+    [
+      "Liu",
+      "Jiaheng",
+      ""
+    ],
+    [
+      "Zhang",
+      "Ge",
+      ""
+    ],
+    [
+      "Liu",
+      "Ruyang",
+      ""
+    ],
+    [
+      "Sun",
+      "Qiang",
+      ""
+    ],
+    [
+      "Reid",
+      "Ian",
+      ""
+    ],
+    [
+      "Liang",
+      "Xiaodan",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 2 Dec 2024 18:47:25 GMT"
+    }
+  ],
+  "updateDate": "2024-12-03",
+  "timestamp": 1733165245000,
+  "abstract": "  Recent advancements in video-based large language models (Video LLMs) have\nwitnessed the emergence of diverse capabilities to reason and interpret dynamic\nvisual content. Among them, gameplay videos stand out as a distinctive data\nsource, often containing glitches that defy physics commonsense. This\ncharacteristic renders them an effective benchmark for assessing the\nunder-explored capability of physical commonsense understanding in video LLMs.\nIn this paper, we propose PhysGame as a pioneering benchmark to evaluate\nphysical commonsense violations in gameplay videos. PhysGame comprises 880\nvideos associated with glitches spanning four fundamental domains (i.e.,\nmechanics, kinematics, optics, and material properties) and across 12 distinct\nphysical commonsense. Through extensively evaluating various state-ofthe-art\nvideo LLMs, our findings reveal that the performance of current open-source\nvideo LLMs significantly lags behind that of proprietary counterparts. To\nbridge this gap, we curate an instruction tuning dataset PhysInstruct with\n140,057 question-answering pairs to facilitate physical commonsense learning.\nIn addition, we also propose a preference optimization dataset PhysDPO with\n34,358 training pairs, where the dis-preferred responses are generated\nconditioned on misleading titles (i.e., meta information hacking), fewer frames\n(i.e., temporal hacking) and lower spatial resolutions (i.e., spatial hacking).\nBased on the suite of datasets, we propose PhysVLM as a physical\nknowledge-enhanced video LLM. Extensive experiments on both physical-oriented\nbenchmark PhysGame and general video understanding benchmarks demonstrate the\nstate-ofthe-art performance of PhysVLM.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "sClKDu0W_t8o4kgz84q6qEezZoe0ZFC4P-RVIGzY7oE",
+  "pdfSize": "6912622"
+}

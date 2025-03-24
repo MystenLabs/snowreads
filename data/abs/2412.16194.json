@@ -1,0 +1,27 @@
+{
+  "id": "2412.16194",
+  "title": "Multi-head attention debiasing and contrastive learning for mitigating\n  Dataset Artifacts in Natural Language Inference",
+  "authors": "Karthik Sivakoti",
+  "authorsParsed": [
+    [
+      "Sivakoti",
+      "Karthik",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 16 Dec 2024 17:12:21 GMT"
+    }
+  ],
+  "updateDate": "2024-12-24",
+  "timestamp": 1734369141000,
+  "abstract": "  While Natural Language Inference (NLI) models have achieved high performances\non benchmark datasets, there are still concerns whether they truly capture the\nintended task, or largely exploit dataset artifacts. Through detailed analysis\nof the Stanford Natural Language Inference (SNLI) dataset, we have uncovered\ncomplex patterns of various types of artifacts and their interactions, leading\nto the development of our novel structural debiasing approach. Our fine-grained\nanalysis of 9,782 validation examples reveals four major categories of\nartifacts: length-based patterns, lexical overlap, subset relationships, and\nnegation patterns. Our multi-head debiasing architecture achieves substantial\nimprovements across all bias categories: length bias accuracy improved from\n86.03% to 90.06%, overlap bias from 91.88% to 93.13%, subset bias from 95.43%\nto 96.49%, and negation bias from 88.69% to 94.64%. Overall, our approach\nreduces the error rate from 14.19% to 10.42% while maintaining high performance\non unbiased examples. Analysis of 1,026 error cases shows significant\nimprovement in handling neutral relationships, traditionally one of the most\nchallenging areas for NLI systems.\n",
+  "subjects": [
+    "Computer Science/Computation and Language"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "9ljBcfQXIVF-Dedt_YELRYZA9i-VbS92eBedcdgmqHg",
+  "pdfSize": "655495"
+}

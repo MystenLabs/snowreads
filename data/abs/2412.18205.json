@@ -1,0 +1,64 @@
+{
+  "id": "2412.18205",
+  "title": "An AI-directed analytical study on the optical transmission microscopic\n  images of Pseudomonas aeruginosa in planktonic and biofilm states",
+  "authors": "Bidisha Sengupta, Mousa Alrubayan, Yibin Wang, Esther Mallet, Angel\n  Torres, Ravyn Solis, Haifeng Wang, and Prabhakar Pradhan",
+  "authorsParsed": [
+    [
+      "Sengupta",
+      "Bidisha",
+      ""
+    ],
+    [
+      "Alrubayan",
+      "Mousa",
+      ""
+    ],
+    [
+      "Wang",
+      "Yibin",
+      ""
+    ],
+    [
+      "Mallet",
+      "Esther",
+      ""
+    ],
+    [
+      "Torres",
+      "Angel",
+      ""
+    ],
+    [
+      "Solis",
+      "Ravyn",
+      ""
+    ],
+    [
+      "Wang",
+      "Haifeng",
+      ""
+    ],
+    [
+      "Pradhan",
+      "Prabhakar",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 24 Dec 2024 06:21:08 GMT"
+    }
+  ],
+  "updateDate": "2024-12-25",
+  "timestamp": 1735021268000,
+  "abstract": "  Biofilms are resistant microbial cell aggregates that pose risks to health\nand food industries and produce environmental contamination. Accurate and\nefficient detection and prevention of biofilms are challenging and demand\ninterdisciplinary approaches. This multidisciplinary research reports the\napplication of a deep learning-based artificial intelligence (AI) model for\ndetecting biofilms produced by Pseudomonas aeruginosa with high accuracy.\nAptamer DNA templated silver nanocluster (Ag-NC) was used to prevent biofilm\nformation, which produced images of the planktonic states of the bacteria.\nLarge-volume bright field images of bacterial biofilms were used to design the\nAI model. In particular, we used U-Net with ResNet encoder enhancement to\nsegment biofilm images for AI analysis. Different degrees of biofilm structures\ncan be efficiently detected using ResNet18 and ResNet34 backbones. The\npotential applications of this technique are also discussed.\n",
+  "subjects": [
+    "Physics/Medical Physics",
+    "Physics/Biological Physics",
+    "Physics/Optics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "8iP39n23nuyr7aFl3fUByeYFV-9mY2r9XPkzaVEXBMQ",
+  "pdfSize": "765465"
+}

@@ -1,0 +1,38 @@
+{
+  "id": "2412.06951",
+  "title": "Analysing Public Transport User Sentiment on Low Resource Multilingual\n  Data",
+  "authors": "Rozina L. Myoya, Vukosi Marivate, Idris Abdulmumin",
+  "authorsParsed": [
+    [
+      "Myoya",
+      "Rozina L.",
+      ""
+    ],
+    [
+      "Marivate",
+      "Vukosi",
+      ""
+    ],
+    [
+      "Abdulmumin",
+      "Idris",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 9 Dec 2024 19:54:54 GMT"
+    }
+  ],
+  "updateDate": "2024-12-11",
+  "timestamp": 1733774094000,
+  "abstract": "  Public transport systems in many Sub-Saharan countries often receive less\nattention compared to other sectors, underscoring the need for innovative\nsolutions to improve the Quality of Service (QoS) and overall user experience.\nThis study explored commuter opinion mining to understand sentiments toward\nexisting public transport systems in Kenya, Tanzania, and South Africa. We used\na qualitative research design, analysing data from X (formerly Twitter) to\nassess sentiments across rail, mini-bus taxis, and buses. By leveraging\nMultilingual Opinion Mining techniques, we addressed the linguistic diversity\nand code-switching present in our dataset, thus demonstrating the application\nof Natural Language Processing (NLP) in extracting insights from\nunder-resourced languages. We employed PLMs such as AfriBERTa, AfroXLMR,\nAfroLM, and PuoBERTa to conduct the sentiment analysis. The results revealed\npredominantly negative sentiments in South Africa and Kenya, while the\nTanzanian dataset showed mainly positive sentiments due to the advertising\nnature of the tweets. Furthermore, feature extraction using the Word2Vec model\nand K-Means clustering illuminated semantic relationships and primary themes\nfound within the different datasets. By prioritising the analysis of user\nexperiences and sentiments, this research paves the way for developing more\nresponsive, user-centered public transport systems in Sub-Saharan countries,\ncontributing to the broader goal of improving urban mobility and\nsustainability.\n",
+  "subjects": [
+    "Computer Science/Computation and Language",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+  "blobId": "fpGeyGxl4yeqIBUSKgglsnO_6C9OmD_Wwmc5nEfW_94",
+  "pdfSize": "1026850"
+}

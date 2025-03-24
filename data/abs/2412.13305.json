@@ -1,0 +1,46 @@
+{
+  "id": "2412.13305",
+  "title": "Scene Modeling of Autonomous Vehicles Avoiding Stationary and Moving\n  Vehicles on Narrow Roads",
+  "authors": "Qianyi Zhang, Jinzheng Guang, Zhenzhong Cao, Jingtai Liu",
+  "authorsParsed": [
+    [
+      "Zhang",
+      "Qianyi",
+      ""
+    ],
+    [
+      "Guang",
+      "Jinzheng",
+      ""
+    ],
+    [
+      "Cao",
+      "Zhenzhong",
+      ""
+    ],
+    [
+      "Liu",
+      "Jingtai",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 17 Dec 2024 20:17:16 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Thu, 19 Dec 2024 14:45:54 GMT"
+    }
+  ],
+  "updateDate": "2024-12-20",
+  "timestamp": 1734466636000,
+  "abstract": "  Navigating narrow roads with oncoming vehicles is a significant challenge\nthat has garnered considerable public interest. These scenarios often involve\nsections that cannot accommodate two moving vehicles simultaneously due to the\npresence of stationary vehicles or limited road width. Autonomous vehicles must\ntherefore profoundly comprehend their surroundings to identify passable areas\nand execute sophisticated maneuvers. To address this issue, this paper presents\na comprehensive model for such an intricate scenario. The primary contribution\nis the principle of road width occupancy minimization, which models the narrow\nroad problem and identifies candidate meeting gaps. Additionally, the concept\nof homology classes is introduced to help initialize and optimize candidate\ntrajectories, while evaluation strategies are developed to select the optimal\ngap and most efficient trajectory. Qualitative and quantitative simulations\ndemonstrate that the proposed approach, SM-NR, achieves high scene pass rates,\nefficient movement, and robust decisions. Experiments conducted in tiny gap\nscenarios and conflict scenarios reveal that the autonomous vehicle can\nrobustly select meeting gaps and trajectories, compromising flexibly for safety\nwhile advancing bravely for efficiency.\n",
+  "subjects": [
+    "Computer Science/Robotics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "lm46iBPmDMBbApuI5irc8EeHZdHM4jYB92XL90t-x9E",
+  "pdfSize": "8054845"
+}

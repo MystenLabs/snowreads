@@ -1,0 +1,32 @@
+{
+  "id": "2412.01673",
+  "title": "Spatial SIR epidemic model with varying infectivity without movement of\n  individuals: Law of Large Numbers",
+  "authors": "Armand Kanga and Etienne Pardoux",
+  "authorsParsed": [
+    [
+      "Kanga",
+      "Armand",
+      ""
+    ],
+    [
+      "Pardoux",
+      "Etienne",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 2 Dec 2024 16:21:30 GMT"
+    }
+  ],
+  "updateDate": "2024-12-03",
+  "timestamp": 1733156490000,
+  "abstract": "  In this work, we use a new approach to study the spread of an infectious\ndisease. Indeed, we study a SIR epidemic model with variable infectivity, where\nthe individuals are distributed over a compact subset $D$ of $\\R^d$. We define\nempirical measures which describe the evolution of the state (susceptible,\ninfectious, recovered) of the individuals in the various locations, and the\ntotal force of infection in the population. In our model, the individuals do\nnot move. We establish a law of large numbers for these measures, as the\npopulation size tends to infinity.\n",
+  "subjects": [
+    "Mathematics/Probability"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "U1B7KxUVrL3wSem-Xt_KsZkw5dc2KIYk5fL6y6L0ZLw",
+  "pdfSize": "233369"
+}

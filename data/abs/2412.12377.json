@@ -1,0 +1,37 @@
+{
+  "id": "2412.12377",
+  "title": "Towards detecting Primordial non-Gaussianity in the CMB using Spherical\n  Convolutional Neural Networks",
+  "authors": "Jorik Melsen, Thomas Fl\\\"oss and P. Daniel Meerburg",
+  "authorsParsed": [
+    [
+      "Melsen",
+      "Jorik",
+      ""
+    ],
+    [
+      "Flöss",
+      "Thomas",
+      ""
+    ],
+    [
+      "Meerburg",
+      "P. Daniel",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 16 Dec 2024 22:12:25 GMT"
+    }
+  ],
+  "updateDate": "2024-12-18",
+  "timestamp": 1734387145000,
+  "abstract": "  This paper explores a novel application of spherical convolutional neural\nnetworks (CNNs) to detect primordial non-Gaussianity in the cosmic microwave\nbackground (CMB), a key probe of inflationary dynamics. While effective,\ntraditional estimators encounter computational challenges, especially when\nconsidering summary statistics beyond the bispectrum. We propose spherical CNNs\nas an alternative, directly analysing full-sky CMB maps to overcome limitations\nin previous machine learning (ML) approaches that relied on data summaries. By\ntraining on simulated CMB maps with varying amplitudes of non-Gaussianity, our\nspherical CNN models show promising alignment with optimal error bounds of\ntraditional methods, albeit at lower-resolution maps. While we explore several\ndifferent architectures, results from DeepSphere CNNs most closely match the\nFisher forecast for Gaussian test sets under noisy and masked conditions. Our\nstudy suggests that spherical CNNs could complement existing methods of\nnon-Gaussianity detection in future datasets, provided additional training data\nand parameter tuning are applied. We discuss the potential for CNN-based\ntechniques to scale with larger data volumes, paving the way for applications\nto future CMB data sets.\n",
+  "subjects": [
+    "Astrophysics/Cosmology and Nongalactic Astrophysics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "vDbNhr1eMp52AEEfX28YP4Z5XyiOPPqEbGa-Z1YCPVg",
+  "pdfSize": "377687"
+}

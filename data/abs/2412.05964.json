@@ -1,0 +1,42 @@
+{
+  "id": "2412.05964",
+  "title": "A Cross-Validation Study of Turkish Sentiment Analysis Datasets and\n  Tools",
+  "authors": "\\c{S}evval \\c{C}ak{\\i}c{\\i}, Dilara Karaduman, Mehmet Akif\n  \\c{C}{\\i}rlan, Ali H\\\"urriyeto\\u{g}lu",
+  "authorsParsed": [
+    [
+      "Çakıcı",
+      "Şevval",
+      ""
+    ],
+    [
+      "Karaduman",
+      "Dilara",
+      ""
+    ],
+    [
+      "Çırlan",
+      "Mehmet Akif",
+      ""
+    ],
+    [
+      "Hürriyetoğlu",
+      "Ali",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 8 Dec 2024 14:59:21 GMT"
+    }
+  ],
+  "updateDate": "2024-12-10",
+  "timestamp": 1733669961000,
+  "abstract": "  In recent years, sentiment analysis has gained increasing significance,\nprompting researchers to explore datasets in various languages, including\nTurkish. However, the limited availability of Turkish datasets has led to their\nmultifaceted usage in different studies, yielding diverse outcomes. To overcome\nthis challenge, a rigorous review was conducted of research articles published\nbetween 2012 and 2022. 31 studies were listed, and 23 Turkish datasets obtained\nfrom publicly available sources and email requests used in these studies were\ncollected. We labeled these 31 studies using a taxonomy. We provide a map of\nsentiment analysis datasets according to this taxonomy in Turkish over 10\nyears. Moreover, we run state-of-the-art sentiment analysis tools on these\ndatasets and analyzed performance across popular Turkish sentiment datasets. We\nobserved that the performance of the sentiment analysis tools significantly\ndepends on the characteristics of the target text. Our study fosters a more\nnuanced understanding of sentiment analysis in the Turkish language.\n",
+  "subjects": [
+    "Computer Science/Computation and Language"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "N8KNtWADnAOV6PPXf10vgiqx52-5AyjJ1KRdPXL2gNo",
+  "pdfSize": "211340"
+}

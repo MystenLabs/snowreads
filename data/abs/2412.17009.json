@@ -1,0 +1,61 @@
+{
+  "id": "2412.17009",
+  "title": "Generate to Discriminate: Expert Routing for Continual Learning",
+  "authors": "Yewon Byun, Sanket Vaibhav Mehta, Saurabh Garg, Emma Strubell, Michael\n  Oberst, Bryan Wilder, Zachary C. Lipton",
+  "authorsParsed": [
+    [
+      "Byun",
+      "Yewon",
+      ""
+    ],
+    [
+      "Mehta",
+      "Sanket Vaibhav",
+      ""
+    ],
+    [
+      "Garg",
+      "Saurabh",
+      ""
+    ],
+    [
+      "Strubell",
+      "Emma",
+      ""
+    ],
+    [
+      "Oberst",
+      "Michael",
+      ""
+    ],
+    [
+      "Wilder",
+      "Bryan",
+      ""
+    ],
+    [
+      "Lipton",
+      "Zachary C.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 22 Dec 2024 13:16:28 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Sat, 28 Dec 2024 04:42:02 GMT"
+    }
+  ],
+  "updateDate": "2024-12-31",
+  "timestamp": 1734873388000,
+  "abstract": "  In many real-world settings, regulations and economic incentives permit the\nsharing of models but not data across institutional boundaries. In such\nscenarios, practitioners might hope to adapt models to new domains, without\nlosing performance on previous domains (so-called catastrophic forgetting).\nWhile any single model may struggle to achieve this goal, learning an ensemble\nof domain-specific experts offers the potential to adapt more closely to each\nindividual institution. However, a core challenge in this context is\ndetermining which expert to deploy at test time. In this paper, we propose\nGenerate to Discriminate (G2D), a domain-incremental continual learning method\nthat leverages synthetic data to train a domain-discriminator that routes\nsamples at inference time to the appropriate expert. Surprisingly, we find that\nleveraging synthetic data in this capacity is more effective than using the\nsamples to \\textit{directly} train the downstream classifier (the more common\napproach to leveraging synthetic data in the lifelong learning literature). We\nobserve that G2D outperforms competitive domain-incremental learning methods on\ntasks in both vision and language modalities, providing a new perspective on\nthe use of synthetic data in the lifelong learning literature.\n",
+  "subjects": [
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "8SD2GdpWdgrz-SSkxGKyX4MzJDZTE8tThk4PEiTi1ww",
+  "pdfSize": "1262850"
+}

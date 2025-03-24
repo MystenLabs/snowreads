@@ -1,0 +1,32 @@
+{
+  "id": "2412.08403",
+  "title": "Relativistic Embedded Equation-of-Motion Coupled-Cluster Approach to the\n  Core-Ionized States of Actinides: A Case Study of Uranyl(VI) in\n  Cs$_2$UO$_2$Cl$_4$",
+  "authors": "Wilken Aldair Misael, Andre Severo Pereira Gomes",
+  "authorsParsed": [
+    [
+      "Misael",
+      "Wilken Aldair",
+      ""
+    ],
+    [
+      "Gomes",
+      "Andre Severo Pereira",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 11 Dec 2024 14:22:20 GMT"
+    }
+  ],
+  "updateDate": "2024-12-12",
+  "timestamp": 1733926940000,
+  "abstract": "  We investigate the core-level ionization energies of the bare uranyl ion\n(UO$_2^{2+}$) and its interaction with X-rays when it is hosted in the\nCs$_2$UO$_2$Cl$_4$ crystalline environment using a recent implementation of the\ncore-valence-separated relativistic equation-of-motion coupled-cluster method\n(CVS-EOM-CC). Our study evaluates different relativistic Hamiltonians, assesses\nbasis set and virtual space truncation effects, and examines the role of\norbital correlation and relaxation in simulating the spectroscopic observables.\nThe results of this investigation highlight the importance of computing\ntwo-electron interactions beyond the zeroth-order truncation (i.e. the Coulomb\nterm) when working in the tender and hard X-ray ranges. Additionally, we\ncompare different structural models using the frozen density embedding method\n(FDE). By contrasting the bare and embedded uranyl models, we observe\nsignificant changes in binding energies, highlighting the influence of the\nequatorial ligands of the uranyl ion on its spectroscopic observables. A\ncomparison between the embedded uranyl and supermolecular systems, excluding\nthe cesium atoms, reveals systematic differences, with binding energy\nvariations from experimental data remaining within 10 eV. Notably, the computed\nspin-orbit splittings for U $4d$ and $4f$ deviate by less than 0.7 eV,\ndemonstrating the validity of this protocol for computing binding energies in\nthe soft X-ray range.\n",
+  "subjects": [
+    "Physics/Chemical Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by-sa/4.0/",
+  "blobId": "npzbnmZy1vswVx0nwqG7AkoTb1tKlEEAxwSNz6i_tRk",
+  "pdfSize": "1130994"
+}

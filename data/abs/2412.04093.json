@@ -1,0 +1,32 @@
+{
+  "id": "2412.04093",
+  "title": "Practical Considerations for Agentic LLM Systems",
+  "authors": "Chris Sypherd, Vaishak Belle",
+  "authorsParsed": [
+    [
+      "Sypherd",
+      "Chris",
+      ""
+    ],
+    [
+      "Belle",
+      "Vaishak",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 5 Dec 2024 11:57:49 GMT"
+    }
+  ],
+  "updateDate": "2024-12-06",
+  "timestamp": 1733399869000,
+  "abstract": "  As the strength of Large Language Models (LLMs) has grown over recent years,\nso too has interest in their use as the underlying models for autonomous\nagents. Although LLMs demonstrate emergent abilities and broad expertise across\nnatural language domains, their inherent unpredictability makes the\nimplementation of LLM agents challenging, resulting in a gap between related\nresearch and the real-world implementation of such systems. To bridge this gap,\nthis paper frames actionable insights and considerations from the research\ncommunity in the context of established application paradigms to enable the\nconstruction and facilitate the informed deployment of robust LLM agents.\nNamely, we position relevant research findings into four broad\ncategories--Planning, Memory, Tools, and Control Flow--based on common\npractices in application-focused literature and highlight practical\nconsiderations to make when designing agentic LLMs for real-world applications,\nsuch as handling stochasticity and managing resources efficiently. While we do\nnot conduct empirical evaluations, we do provide the necessary background for\ndiscussing critical aspects of agentic LLM designs, both in academia and\nindustry.\n",
+  "subjects": [
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "y650uM5_gQJtJp4L9t7aQM9ALX-mnhTWe44DWSheGwc",
+  "pdfSize": "1136724"
+}

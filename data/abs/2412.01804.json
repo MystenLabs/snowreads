@@ -1,0 +1,31 @@
+{
+  "id": "2412.01804",
+  "title": "The Loop-by-Loop Baikov Representation -- Strategies and Implementation",
+  "authors": "Hjalte Frellesvig",
+  "authorsParsed": [
+    [
+      "Frellesvig",
+      "Hjalte",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 2 Dec 2024 18:49:32 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Wed, 18 Dec 2024 15:41:29 GMT"
+    }
+  ],
+  "updateDate": "2024-12-19",
+  "timestamp": 1733165372000,
+  "abstract": "  In this paper, we discuss the Baikov representation of Feynman integrals in\nits standard and loop-by-loop variants. The Baikov representation is a\nparametric representation, which has as its defining feature the fact that the\nintegration variables are the propagators of the Feynman integral. For the\nloop-by-loop Baikov representation, we discuss in detail a strategy for how to\nmake an optimal parametrization which is one that minimizes the number of extra\nintegration variables that have to be introduced for a given Feynman integral.\nFurthermore, we present a Mathematica implementation, named BaikovPackage, that\nis able to generate the Baikov representation in its standard and loop-by-loop\nvarieties. We also discuss some subtleties and open problems regarding Baikov\nrepresentations.\n",
+  "subjects": [
+    "Physics/High Energy Physics - Theory"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "PNOvea_DtO-hykKx16_GXwWxeZXwYoMe4jc6RSTzyk0",
+  "pdfSize": "4254066"
+}

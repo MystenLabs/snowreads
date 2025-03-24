@@ -1,0 +1,38 @@
+{
+  "id": "2412.10913",
+  "title": "Quantifying Extreme Opinions on Reddit Amidst the 2023\n  Israeli-Palestinian Conflict",
+  "authors": "Alessio Guerra, Marcello Lepre, Oktay Karakus",
+  "authorsParsed": [
+    [
+      "Guerra",
+      "Alessio",
+      ""
+    ],
+    [
+      "Lepre",
+      "Marcello",
+      ""
+    ],
+    [
+      "Karakus",
+      "Oktay",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 14 Dec 2024 17:52:28 GMT"
+    }
+  ],
+  "updateDate": "2024-12-17",
+  "timestamp": 1734198748000,
+  "abstract": "  This study investigates the dynamics of extreme opinions on social media\nduring the 2023 Israeli-Palestinian conflict, utilising a comprehensive dataset\nof over 450,000 posts from four Reddit subreddits (r/Palestine, r/Judaism,\nr/IsraelPalestine, and r/worldnews). A lexicon-based, unsupervised methodology\nwas developed to measure \"extreme opinions\" by considering factors such as\nanger, polarity, and subjectivity. The analysis identifies significant peaks in\nextremism scores that correspond to pivotal real-life events, such as the IDF's\nbombings of Al Quds Hospital and the Jabalia Refugee Camp, and the end of a\nceasefire following a terrorist attack. Additionally, this study explores the\ndistribution and correlation of these scores across different subreddits and\nover time, providing insights into the propagation of polarised sentiments in\nresponse to conflict events. By examining the quantitative effects of each\nscore on extremism and analysing word cloud similarities through Jaccard\nindices, the research offers a nuanced understanding of the factors driving\nextreme online opinions. This approach underscores the potential of social\nmedia analytics in capturing the complex interplay between real-world events\nand online discourse, while also highlighting the limitations and challenges of\nmeasuring extremism in social media contexts.\n",
+  "subjects": [
+    "Computer Science/Social and Information Networks",
+    "Computer Science/Computation and Language"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "C2kEKgpWh3SRwW6FTIF6_7x5hR4AswBBx82Ih40mOh4",
+  "pdfSize": "1268835"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "2412.05310",
+  "title": "Spatially modulated plasma profile for turbulence and instabilities\n  mitigation in fusion plasma",
+  "authors": "Ilya Shesterikov",
+  "authorsParsed": [
+    [
+      "Shesterikov",
+      "Ilya",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 27 Nov 2024 20:32:54 GMT"
+    }
+  ],
+  "updateDate": "2024-12-10",
+  "timestamp": 1732739574000,
+  "abstract": "  This work explores a novel approach to mitigating turbulence in fusion\nplasmas through spatially modulated plasma profiles. By imposing a harmonic\nmodulation on plasma parameters, we introduce conditions that alter the\npropagation characteristics of turbulent and MHD waves, a primary source of\ntransport and instabilities in fusion devices. This modulation approach\nresembles bandgap formation in solid-state and photonic crystals, where spatial\nperiodicity suppresses wave propagation within specific frequency bands. The\nmathematical framework developed here essentially resembles the parametric\nresonance of the harmonic oscillator. It reveals how a controlled spatial\nvariation of turbulent wave phase velocity can effectively attenuate turbulence\nand instabilities. Several methods for implementing this modulation in plasma,\nincluding RF waves, static magnetic field perturbations, and modulated density\nprofiles, are proposed as potential paths for achieving stable confinement.\nThis concept could provide a versatile and potentially more controllable\nalternative to existing turbulence suppression techniques, with the goal of\nimproving stability and confinement across a variety of magnetized fusion\nconfigurations.\n",
+  "subjects": [
+    "Physics/Plasma Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "riDcTrIt3915BUc7WVwOjxf0EtaNMyF1F8Mh-4sOrSk",
+  "pdfSize": "236714"
+}

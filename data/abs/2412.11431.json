@@ -1,0 +1,48 @@
+{
+  "id": "2412.11431",
+  "title": "Optimized Quran Passage Retrieval Using an Expanded QA Dataset and\n  Fine-Tuned Language Models",
+  "authors": "Mohamed Basem, Islam Oshallah, Baraa Hikal, Ali Hamdi, and Ammar\n  Mohamed",
+  "authorsParsed": [
+    [
+      "Basem",
+      "Mohamed",
+      ""
+    ],
+    [
+      "Oshallah",
+      "Islam",
+      ""
+    ],
+    [
+      "Hikal",
+      "Baraa",
+      ""
+    ],
+    [
+      "Hamdi",
+      "Ali",
+      ""
+    ],
+    [
+      "Mohamed",
+      "Ammar",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 16 Dec 2024 04:03:58 GMT"
+    }
+  ],
+  "updateDate": "2024-12-17",
+  "timestamp": 1734321838000,
+  "abstract": "  Understanding the deep meanings of the Qur'an and bridging the language gap\nbetween modern standard Arabic and classical Arabic is essential to improve the\nquestion-and-answer system for the Holy Qur'an. The Qur'an QA 2023 shared task\ndataset had a limited number of questions with weak model retrieval. To address\nthis challenge, this work updated the original dataset and improved the model\naccuracy. The original dataset, which contains 251 questions, was reviewed and\nexpanded to 629 questions with question diversification and reformulation,\nleading to a comprehensive set of 1895 categorized into single-answer,\nmulti-answer, and zero-answer types. Extensive experiments fine-tuned\ntransformer models, including AraBERT, RoBERTa, CAMeLBERT, AraELECTRA, and\nBERT. The best model, AraBERT-base, achieved a MAP@10 of 0.36 and MRR of 0.59,\nrepresenting improvements of 63% and 59%, respectively, compared to the\nbaseline scores (MAP@10: 0.22, MRR: 0.37). Additionally, the dataset expansion\nled to improvements in handling \"no answer\" cases, with the proposed approach\nachieving a 75% success rate for such instances, compared to the baseline's\n25%. These results demonstrate the effect of dataset improvement and model\narchitecture optimization in increasing the performance of QA systems for the\nHoly Qur'an, with higher accuracy, recall, and precision.\n",
+  "subjects": [
+    "Computer Science/Computation and Language",
+    "Computer Science/Information Retrieval"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "Mhp4HkAtt0bxKxgPfnd-eoVJGz_O1_YLJ3GlZaz8pqU",
+  "pdfSize": "412158"
+}

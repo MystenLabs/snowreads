@@ -1,0 +1,67 @@
+{
+  "id": "2412.03809",
+  "title": "EditScout: Locating Forged Regions from Diffusion-based Edited Images\n  with Multimodal LLM",
+  "authors": "Quang Nguyen, Truong Vu, Trong-Tung Nguyen, Yuxin Wen, Preston K\n  Robinette, Taylor T Johnson, Tom Goldstein, Anh Tran, Khoi Nguyen",
+  "authorsParsed": [
+    [
+      "Nguyen",
+      "Quang",
+      ""
+    ],
+    [
+      "Vu",
+      "Truong",
+      ""
+    ],
+    [
+      "Nguyen",
+      "Trong-Tung",
+      ""
+    ],
+    [
+      "Wen",
+      "Yuxin",
+      ""
+    ],
+    [
+      "Robinette",
+      "Preston K",
+      ""
+    ],
+    [
+      "Johnson",
+      "Taylor T",
+      ""
+    ],
+    [
+      "Goldstein",
+      "Tom",
+      ""
+    ],
+    [
+      "Tran",
+      "Anh",
+      ""
+    ],
+    [
+      "Nguyen",
+      "Khoi",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 5 Dec 2024 02:05:33 GMT"
+    }
+  ],
+  "updateDate": "2024-12-06",
+  "timestamp": 1733364333000,
+  "abstract": "  Image editing technologies are tools used to transform, adjust, remove, or\notherwise alter images. Recent research has significantly improved the\ncapabilities of image editing tools, enabling the creation of photorealistic\nand semantically informed forged regions that are nearly indistinguishable from\nauthentic imagery, presenting new challenges in digital forensics and media\ncredibility. While current image forensic techniques are adept at localizing\nforged regions produced by traditional image manipulation methods, current\ncapabilities struggle to localize regions created by diffusion-based\ntechniques. To bridge this gap, we present a novel framework that integrates a\nmultimodal Large Language Model (LLM) for enhanced reasoning capabilities to\nlocalize tampered regions in images produced by diffusion model-based editing\nmethods. By leveraging the contextual and semantic strengths of LLMs, our\nframework achieves promising results on MagicBrush, AutoSplice, and PerfBrush\n(novel diffusion-based dataset) datasets, outperforming previous approaches in\nmIoU and F1-score metrics. Notably, our method excels on the PerfBrush dataset,\na self-constructed test set featuring previously unseen types of edits. Here,\nwhere traditional methods typically falter, achieving markedly low scores, our\napproach demonstrates promising performance.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "khj7_18cQitjJlaQ7N3vhX9dEmVU8jKqKrEOre-NTog",
+  "pdfSize": "7775156"
+}

@@ -1,0 +1,48 @@
+{
+  "id": "2412.10239",
+  "title": "Variable Stiffness & Dynamic Force Sensor for Tissue Palpation",
+  "authors": "Abu Bakar Dawood, Zhenyu Zhang, Martin Angelmahr, Alberto Arezzo,\n  Kaspar Althoefer",
+  "authorsParsed": [
+    [
+      "Dawood",
+      "Abu Bakar",
+      ""
+    ],
+    [
+      "Zhang",
+      "Zhenyu",
+      ""
+    ],
+    [
+      "Angelmahr",
+      "Martin",
+      ""
+    ],
+    [
+      "Arezzo",
+      "Alberto",
+      ""
+    ],
+    [
+      "Althoefer",
+      "Kaspar",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 13 Dec 2024 16:09:04 GMT"
+    }
+  ],
+  "updateDate": "2024-12-16",
+  "timestamp": 1734106144000,
+  "abstract": "  Palpation of human tissue during Minimally Invasive Surgery is hampered due\nto restricted access. In this extended abstract, we present a variable\nstiffness and dynamic force range sensor that has the potential to address this\nchallenge. The sensor utilises light reflection to estimate sensor deformation,\nand from this, the force applied. Experimental testing at different pressures\n(0, 0.5 and 1 PSI) shows that stiffness and force range increases with\npressure. The force calibration results when compared with measured forces\nproduced an average RMSE of 0.016, 0.0715 and 0.1284 N respectively, for these\npressures.\n",
+  "subjects": [
+    "Physics/Medical Physics",
+    "Computer Science/Robotics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "ugA37DepeN2vzARqcf544GA649f-Z9mcuG_34SuLAyQ",
+  "pdfSize": "593988"
+}

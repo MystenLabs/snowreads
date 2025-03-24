@@ -1,0 +1,47 @@
+{
+  "id": "2412.06094",
+  "title": "No dilute core produced in simulations of giant impacts onto Jupiter",
+  "authors": "T. D. Sandnes, V. R. Eke, J. A. Kegerreis, R. J. Massey, L. F. A.\n  Teodoro",
+  "authorsParsed": [
+    [
+      "Sandnes",
+      "T. D.",
+      ""
+    ],
+    [
+      "Eke",
+      "V. R.",
+      ""
+    ],
+    [
+      "Kegerreis",
+      "J. A.",
+      ""
+    ],
+    [
+      "Massey",
+      "R. J.",
+      ""
+    ],
+    [
+      "Teodoro",
+      "L. F. A.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 8 Dec 2024 22:53:18 GMT"
+    }
+  ],
+  "updateDate": "2024-12-10",
+  "timestamp": 1733698398000,
+  "abstract": "  A giant impact has been proposed as a possible formation mechanism for\nJupiter's dilute core - the planet's inferred internal structure in which the\ntransition between its core of heavy elements and its predominantly\nhydrogen-helium envelope is gradual rather than a discrete interface. A past\nsimulation suggested that a head-on impact of a 10 $M_\\oplus$ planet into an\nalmost fully formed, differentiated Jupiter could lead to a post-impact planet\nwith a smooth compositional gradient and a central heavy-element fraction as\nlow as $Z\\approx0.5$. Here, we present simulations of giant impacts onto\nJupiter using improved numerical methods to reassess the feasibility of this\nscenario. We use the REMIX smoothed particle hydrodynamics (SPH) formulation,\nwhich has been newly developed to improve the treatment of mixing in SPH\nsimulations, in particular between dissimilar materials. We perform a suite of\ngiant impact simulations to probe the effects of impact speed, impact angle,\npre-impact planet structure, and material equations of state on the evolution\nof heavy elements during a giant impact onto Jupiter. In all of our\nsimulations, heavy elements re-settle over short timescales to form a\ndifferentiated core, even in cases where the core is initially disrupted into a\ntransiently mixed state. A dilute core is not produced in any of our\nsimulations. Our results, combined with recent observations that indicate that\nSaturn also has a dilute core, suggest that such structures are produced as\npart of the extended formation and evolution of giant planets, rather than\nthrough extreme, low-likelihood giant impacts.\n",
+  "subjects": [
+    "Astrophysics/Earth and Planetary Astrophysics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "yoLHLWiF7lNDMUEKsx6XXWWsgRKKhxdORvPsDTdHPVc",
+  "pdfSize": "6287458"
+}

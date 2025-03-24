@@ -1,0 +1,39 @@
+{
+  "id": "2412.14210",
+  "title": "Mobilizing Waldo: Evaluating Multimodal AI for Public Mobilization",
+  "authors": "Manuel Cebrian, Petter Holme, and Niccolo Pescetelli",
+  "authorsParsed": [
+    [
+      "Cebrian",
+      "Manuel",
+      ""
+    ],
+    [
+      "Holme",
+      "Petter",
+      ""
+    ],
+    [
+      "Pescetelli",
+      "Niccolo",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 18 Dec 2024 00:10:11 GMT"
+    }
+  ],
+  "updateDate": "2024-12-20",
+  "timestamp": 1734480611000,
+  "abstract": "  Advancements in multimodal Large Language Models (LLMs), such as OpenAI's\nGPT-4o, offer significant potential for mediating human interactions across\nvarious contexts. However, their use in areas such as persuasion, influence,\nand recruitment raises ethical and security concerns. To evaluate these models\nethically in public influence and persuasion scenarios, we developed a\nprompting strategy using \"Where's Waldo?\" images as proxies for complex,\ncrowded gatherings. This approach provides a controlled, replicable environment\nto assess the model's ability to process intricate visual information,\ninterpret social dynamics, and propose engagement strategies while avoiding\nprivacy concerns. By positioning Waldo as a hypothetical agent tasked with\nface-to-face mobilization, we analyzed the model's performance in identifying\nkey individuals and formulating mobilization tactics. Our results show that\nwhile the model generates vivid descriptions and creative strategies, it cannot\naccurately identify individuals or reliably assess social dynamics in these\nscenarios. Nevertheless, this methodology provides a valuable framework for\ntesting and benchmarking the evolving capabilities of multimodal LLMs in social\ncontexts.\n",
+  "subjects": [
+    "Computer Science/Human-Computer Interaction",
+    "Computer Science/Computers and Society",
+    "Computer Science/Social and Information Networks"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "105MLjXAIJ-3Vvfs4_tlk-6SMCDZZ8Gl9S9j6LJ7qgQ",
+  "pdfSize": "214573"
+}

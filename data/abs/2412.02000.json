@@ -1,0 +1,53 @@
+{
+  "id": "2412.02000",
+  "title": "Who's Gaming the System? A Causally-Motivated Approach for Detecting\n  Strategic Adaptation",
+  "authors": "Trenton Chang, Lindsay Warrenburg, Sae-Hwan Park, Ravi B. Parikh,\n  Maggie Makar, Jenna Wiens",
+  "authorsParsed": [
+    [
+      "Chang",
+      "Trenton",
+      ""
+    ],
+    [
+      "Warrenburg",
+      "Lindsay",
+      ""
+    ],
+    [
+      "Park",
+      "Sae-Hwan",
+      ""
+    ],
+    [
+      "Parikh",
+      "Ravi B.",
+      ""
+    ],
+    [
+      "Makar",
+      "Maggie",
+      ""
+    ],
+    [
+      "Wiens",
+      "Jenna",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 2 Dec 2024 22:07:48 GMT"
+    }
+  ],
+  "updateDate": "2024-12-04",
+  "timestamp": 1733177268000,
+  "abstract": "  In many settings, machine learning models may be used to inform decisions\nthat impact individuals or entities who interact with the model. Such entities,\nor agents, may game model decisions by manipulating their inputs to the model\nto obtain better outcomes and maximize some utility. We consider a multi-agent\nsetting where the goal is to identify the \"worst offenders:\" agents that are\ngaming most aggressively. However, identifying such agents is difficult without\nknowledge of their utility function. Thus, we introduce a framework in which\neach agent's tendency to game is parameterized via a scalar. We show that this\ngaming parameter is only partially identifiable. By recasting the problem as a\ncausal effect estimation problem where different agents represent different\n\"treatments,\" we prove that a ranking of all agents by their gaming parameters\nis identifiable. We present empirical results in a synthetic data study\nvalidating the usage of causal effect estimation for gaming detection and show\nin a case study of diagnosis coding behavior in the U.S. that our approach\nhighlights features associated with gaming.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "_DDQz3h8AkAUrCqKWa9rAFQ-Jqzme0YOu7ABB6GHwu8",
+  "pdfSize": "2542907"
+}

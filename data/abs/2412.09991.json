@@ -1,0 +1,63 @@
+{
+  "id": "2412.09991",
+  "title": "Visual Object Tracking across Diverse Data Modalities: A Review",
+  "authors": "Mengmeng Wang, Teli Ma, Shuo Xin, Xiaojun Hou, Jiazheng Xing, Guang\n  Dai, Jingdong Wang, and Yong Liu",
+  "authorsParsed": [
+    [
+      "Wang",
+      "Mengmeng",
+      ""
+    ],
+    [
+      "Ma",
+      "Teli",
+      ""
+    ],
+    [
+      "Xin",
+      "Shuo",
+      ""
+    ],
+    [
+      "Hou",
+      "Xiaojun",
+      ""
+    ],
+    [
+      "Xing",
+      "Jiazheng",
+      ""
+    ],
+    [
+      "Dai",
+      "Guang",
+      ""
+    ],
+    [
+      "Wang",
+      "Jingdong",
+      ""
+    ],
+    [
+      "Liu",
+      "Yong",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 13 Dec 2024 09:25:18 GMT"
+    }
+  ],
+  "updateDate": "2024-12-16",
+  "timestamp": 1734081918000,
+  "abstract": "  Visual Object Tracking (VOT) is an attractive and significant research area\nin computer vision, which aims to recognize and track specific targets in video\nsequences where the target objects are arbitrary and class-agnostic. The VOT\ntechnology could be applied in various scenarios, processing data of diverse\nmodalities such as RGB, thermal infrared and point cloud. Besides, since no one\nsensor could handle all the dynamic and varying environments, multi-modal VOT\nis also investigated. This paper presents a comprehensive survey of the recent\nprogress of both single-modal and multi-modal VOT, especially the deep learning\nmethods. Specifically, we first review three types of mainstream single-modal\nVOT, including RGB, thermal infrared and point cloud tracking. In particular,\nwe conclude four widely-used single-modal frameworks, abstracting their schemas\nand categorizing the existing inheritors. Then we summarize four kinds of\nmulti-modal VOT, including RGB-Depth, RGB-Thermal, RGB-LiDAR and RGB-Language.\nMoreover, the comparison results in plenty of VOT benchmarks of the discussed\nmodalities are presented. Finally, we provide recommendations and insightful\nobservations, inspiring the future development of this fast-growing literature.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "-XJLcgXDzYPi1VnWGkhEFpZkcLYJa9hx_7vWsXNtaB4",
+  "pdfSize": "15502585"
+}

@@ -1,0 +1,35 @@
+{
+  "id": "2412.04766",
+  "title": "DAWN-SI: Data-Aware and Noise-Informed Stochastic Interpolation for\n  Solving Inverse Problems",
+  "authors": "Shadab Ahamed, Eldad Haber",
+  "authorsParsed": [
+    [
+      "Ahamed",
+      "Shadab",
+      ""
+    ],
+    [
+      "Haber",
+      "Eldad",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 6 Dec 2024 04:18:49 GMT"
+    }
+  ],
+  "updateDate": "2024-12-09",
+  "timestamp": 1733458729000,
+  "abstract": "  Inverse problems, which involve estimating parameters from incomplete or\nnoisy observations, arise in various fields such as medical imaging,\ngeophysics, and signal processing. These problems are often ill-posed,\nrequiring regularization techniques to stabilize the solution. In this work, we\nemploy $\\textit{Stochastic Interpolation}$ (SI), a generative framework that\nintegrates both deterministic and stochastic processes to map a simple\nreference distribution, such as a Gaussian, to the target distribution. Our\nmethod $\\textbf{DAWN-SI}$: $\\textbf{D}$ata-$\\textbf{AW}$are and\n$\\textbf{N}$oise-informed $\\textbf{S}$tochastic $\\textbf{I}$nterpolation\nincorporates data and noise embedding, allowing the model to access\nrepresentations about the measured data explicitly and also account for noise\nin the observations, making it particularly robust in scenarios where data is\nnoisy or incomplete. By learning a time-dependent velocity field, SI not only\nprovides accurate solutions but also enables uncertainty quantification by\ngenerating multiple plausible outcomes. Unlike pre-trained diffusion models,\nwhich may struggle in highly ill-posed settings, our approach is trained\nspecifically for each inverse problem and adapts to varying noise levels. We\nvalidate the effectiveness and robustness of our method through extensive\nnumerical experiments on tasks such as image deblurring and tomography.\n",
+  "subjects": [
+    "Electrical Engineering and Systems Science/Image and Video Processing",
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "wkKYHELXxnxU_Q_nTJYlDbrmZaft2z5vNVKTKYOpMgc",
+  "pdfSize": "37575090"
+}

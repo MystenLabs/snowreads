@@ -1,0 +1,33 @@
+{
+  "id": "2412.00494",
+  "title": "Mapped coercivity for the stationary Navier-Stokes equations and their\n  finite element approximations",
+  "authors": "Roland Becker, Malte Braack",
+  "authorsParsed": [
+    [
+      "Becker",
+      "Roland",
+      ""
+    ],
+    [
+      "Braack",
+      "Malte",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 30 Nov 2024 14:31:32 GMT"
+    }
+  ],
+  "updateDate": "2024-12-03",
+  "timestamp": 1732977092000,
+  "abstract": "  This paper addresses the challenge of proving the existence of solutions for\nnonlinear equations in Banach spaces, focusing on the Navier-Stokes equations\nand discretizations of thom. Traditional methods, such as monotonicity-based\napproaches and fixed-point theorems, often face limitations in handling general\nnonlinear operators or finite element discretizations. A novel concept, mapped\ncoercivity, provides a unifying framework to analyze nonlinear operators\nthrough a continuous mapping. We apply these ideas to saddle-point problems in\nBanach spaces, emphasizing both infinite-dimensional formulations and finite\nelement discretizations. Our analysis includes stabilization techniques to\nrestore coercivity in finite-dimensional settings, ensuring stability and\nexistence of solutions. For linear problems, we explore the relationship\nbetween the inf-sup condition and mapped coercivity, using the Stokes equation\nas a case study. For nonlinear saddle-point systems, we extend the framework to\nmapped coercivity via surjective mappings, enabling concise proofs of existence\nof solutions for various stabilized Navier-Stokes finite element methods. These\ninclude Brezzi-Pitk\\\"aranta, a simple variant, and local projection\nstabilization (LPS) techniques, with extensions to convection-dominant flows.\nThe proposed methodology offers a robust tool for analyzing nonlinear PDEs and\ntheir discretizations, bypassing traditional decompositions and providing a\nfoundation for future developments in computational fluid dynamics.\n",
+  "subjects": [
+    "Mathematics/Numerical Analysis",
+    "Computer Science/Numerical Analysis"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "SqGLRb8Sr-18vYwf7glXqGhLiY9scUF6Q-fBHEe57M4",
+  "pdfSize": "242768"
+}

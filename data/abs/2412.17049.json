@@ -1,0 +1,45 @@
+{
+  "id": "2412.17049",
+  "title": "Modular Conversational Agents for Surveys and Interviews",
+  "authors": "Jiangbo Yu, Jinhua Zhao, Luis Miranda-Moreno, Matthew Korp",
+  "authorsParsed": [
+    [
+      "Yu",
+      "Jiangbo",
+      ""
+    ],
+    [
+      "Zhao",
+      "Jinhua",
+      ""
+    ],
+    [
+      "Miranda-Moreno",
+      "Luis",
+      ""
+    ],
+    [
+      "Korp",
+      "Matthew",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 22 Dec 2024 15:00:16 GMT"
+    }
+  ],
+  "updateDate": "2024-12-24",
+  "timestamp": 1734879616000,
+  "abstract": "  Surveys and interviews (structured, semi-structured, or unstructured) are\nwidely used for collecting insights on emerging or hypothetical scenarios.\nTraditional human-led methods often face challenges related to cost,\nscalability, and consistency. Recently, various domains have begun to explore\nthe use of conversational agents (chatbots) powered by large language models\n(LLMs). However, as public investments and policies on infrastructure and\nservices often involve substantial public stakes and environmental risks, there\nis a need for a rigorous, transparent, privacy-preserving, and cost-efficient\ndevelopment framework tailored for such major decision-making processes. This\npaper addresses this gap by introducing a modular approach and its resultant\nparameterized process for designing conversational agents. We detail the system\narchitecture, integrating engineered prompts, specialized knowledge bases, and\ncustomizable, goal-oriented conversational logic in the proposed approach. We\ndemonstrate the adaptability, generalizability, and efficacy of our modular\napproach through three empirical studies: (1) travel preference surveys,\nhighlighting multimodal (voice, text, and image generation) capabilities; (2)\npublic opinion elicitation on a newly constructed, novel infrastructure\nproject, showcasing question customization and multilingual (English and\nFrench) capabilities; and (3) transportation expert consultation about future\ntransportation systems, highlighting real-time, clarification request\ncapabilities for open-ended questions, resilience in handling erratic inputs,\nand efficient transcript post-processing. The results show the effectiveness of\nthis modular approach and how it addresses key ethical, privacy, security, and\ntoken consumption concerns, setting the stage for the next-generation surveys\nand interviews.\n",
+  "subjects": [
+    "Computer Science/Human-Computer Interaction",
+    "Computer Science/Computation and Language",
+    "Computer Science/Computers and Society",
+    "Computer Science/Multimedia"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "1wmNfDmx2-OFB64bmb60eC68XOVl0ZBGuU0cTDZ-YuE",
+  "pdfSize": "1161970"
+}

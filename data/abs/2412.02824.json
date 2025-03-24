@@ -1,0 +1,32 @@
+{
+  "id": "2412.02824",
+  "title": "Semi-Blind Channel Estimation for Beyond Diagonal RIS",
+  "authors": "Gilderlan T de Araujo, Andre L. F. de Almeida",
+  "authorsParsed": [
+    [
+      "de Araujo",
+      "Gilderlan T",
+      ""
+    ],
+    [
+      "de Almeida",
+      "Andre L. F.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 3 Dec 2024 20:41:45 GMT"
+    }
+  ],
+  "updateDate": "2024-12-05",
+  "timestamp": 1733258505000,
+  "abstract": "  The channel estimation problem has been widely discussed in traditional\nreconfigurable intelligent surface assisted multiple-input multiple-output.\nHowever, solutions for channel estimation adapted to beyond diagonal RIS need\nfurther study, and few recent works have been proposed to tackle this problem.\nMoreover, methods that avoid or minimize the use of pilot sequences are of\ninterest. This work formulates a data-driven (semi-blind) joint channel and\nsymbol estimation algorithm for beyond diagonal RIS that avoids a prior\npilot-assisted stage while providing decoupled estimates of the involved\ncommunication channels. The proposed receiver builds upon a PARATUCK tensor\nmodel for the received signal, from which a trilinear alternating estimation\nscheme is derived. Preliminary numerical results demonstrate the proposed\nmethod's performance for selected system setups. The symbol error rate\nperformance is also compared with that of a linear receiver operating with\nperfect knowledge of the cascaded channel.\n",
+  "subjects": [
+    "Electrical Engineering and Systems Science/Signal Processing"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "Ym9dIM9Myhwu4qLBwNnOnFVWKjteYM5HlqPukvEYPl4",
+  "pdfSize": "520919"
+}

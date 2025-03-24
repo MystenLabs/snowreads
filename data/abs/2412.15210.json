@@ -1,0 +1,39 @@
+{
+  "id": "2412.15210",
+  "title": "Tokenisation is NP-Complete",
+  "authors": "Philip Whittington, Gregor Bachmann, Tiago Pimentel",
+  "authorsParsed": [
+    [
+      "Whittington",
+      "Philip",
+      ""
+    ],
+    [
+      "Bachmann",
+      "Gregor",
+      ""
+    ],
+    [
+      "Pimentel",
+      "Tiago",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 19 Dec 2024 18:59:46 GMT"
+    }
+  ],
+  "updateDate": "2024-12-20",
+  "timestamp": 1734634786000,
+  "abstract": "  In this work, we prove the NP-completeness of two variants of tokenisation,\ndefined as the problem of compressing a dataset to at most $\\delta$ symbols by\neither finding a vocabulary directly (direct tokenisation), or selecting a\nsequence of merge operations (bottom-up tokenisation).\n",
+  "subjects": [
+    "Computer Science/Data Structures and Algorithms",
+    "Computer Science/Computation and Language",
+    "Computer Science/Formal Languages and Automata Theory"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "nB1ympULvdcYp26Hr2-wywZy-XFKCLtJ-8ruZa5y_4k",
+  "pdfSize": "664240"
+}

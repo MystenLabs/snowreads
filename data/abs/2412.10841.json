@@ -1,0 +1,27 @@
+{
+  "id": "2412.10841",
+  "title": "On the classification of smooth toric surfaces with exactly one\n  exceptional curve",
+  "authors": "Victor Batyrev",
+  "authorsParsed": [
+    [
+      "Batyrev",
+      "Victor",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 14 Dec 2024 14:30:12 GMT"
+    }
+  ],
+  "updateDate": "2024-12-17",
+  "timestamp": 1734186612000,
+  "abstract": "  We classify all smooth projective toric surfaces $S$ containing exactly one\nexceptional curve. We show that every such surface $S$ is isomorphic to either\n$\\mathbb{F}_1$ or a surface $S_r$ defined by a rational number $r \\in\n\\mathbb{Q} \\setminus \\mathbb{Z}$ $(r >1)$. If $a:= [ r]$ then $S_r$ is obtained\nfrom the minimal desingularization of the weighted projective plane\n$\\mathbb{P}(1, 2, 2a+1)$ by toric blow-ups whose quantity equals the level of\nthe rational number $\\{ r \\} \\in (0,1)$ in the classical Farey tree. Moreover,\nwe show that if $r = b/c$ with coprime $b$ and $c$, then $S_r$ is the minimal\ndesingularization of the weighted projective plane $\\mathbb{P}(1, c, b)$. We\napply $2$-dimensional regular fans $\\Sigma_r$ of toric surfaces $S_r$ for\nconstructing $2$-dimensional colored fans $\\Sigma^c$ of minimal horospherical\n$3$-folds having a regular $SL(2) \\times \\mathbb{G}_m$-action. The latter are\nminimal toric $3$-folds $V_r$ classified by Z. Guan. We establish a direct\ncombinatorial connection between the $3$-dimensional fans\n$\\widetilde{\\Sigma}^c_r$ of $3$-folds $V_r$ and the $2$-dimensional fans\n$\\Sigma_r$ of surfaces $S_r$.\n",
+  "subjects": [
+    "Mathematics/Algebraic Geometry"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "auU0CLQr1_JeMRsnmL_XnwTdtghtBtKC6QB2GhUgjmA",
+  "pdfSize": "234293"
+}

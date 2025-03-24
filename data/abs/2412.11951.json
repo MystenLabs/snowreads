@@ -1,0 +1,48 @@
+{
+  "id": "2412.11951",
+  "title": "The Impact of Generalization Techniques on the Interplay Among Privacy,\n  Utility, and Fairness in Image Classification",
+  "authors": "Ahmad Hassanpour, Amir Zarei, Khawla Mallat, Anderson Santana de\n  Oliveira, Bian Yang",
+  "authorsParsed": [
+    [
+      "Hassanpour",
+      "Ahmad",
+      ""
+    ],
+    [
+      "Zarei",
+      "Amir",
+      ""
+    ],
+    [
+      "Mallat",
+      "Khawla",
+      ""
+    ],
+    [
+      "de Oliveira",
+      "Anderson Santana",
+      ""
+    ],
+    [
+      "Yang",
+      "Bian",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 16 Dec 2024 16:35:31 GMT"
+    }
+  ],
+  "updateDate": "2024-12-17",
+  "timestamp": 1734366931000,
+  "abstract": "  This study investigates the trade-offs between fairness, privacy, and utility\nin image classification using machine learning (ML). Recent research suggests\nthat generalization techniques can improve the balance between privacy and\nutility. One focus of this work is sharpness-aware training (SAT) and its\nintegration with differential privacy (DP-SAT) to further improve this balance.\nAdditionally, we examine fairness in both private and non-private learning\nmodels trained on datasets with synthetic and real-world biases. We also\nmeasure the privacy risks involved in these scenarios by performing membership\ninference attacks (MIAs) and explore the consequences of eliminating\nhigh-privacy risk samples, termed outliers. Moreover, we introduce a new\nmetric, named \\emph{harmonic score}, which combines accuracy, privacy, and\nfairness into a single measure.\n  Through empirical analysis using generalization techniques, we achieve an\naccuracy of 81.11\\% under $(8, 10^{-5})$-DP on CIFAR-10, surpassing the 79.5\\%\nreported by De et al. (2022). Moreover, our experiments show that memorization\nof training samples can begin before the overfitting point, and generalization\ntechniques do not guarantee the prevention of this memorization. Our analysis\nof synthetic biases shows that generalization techniques can amplify model bias\nin both private and non-private models. Additionally, our results indicate that\nincreased bias in training data leads to reduced accuracy, greater\nvulnerability to privacy attacks, and higher model bias. We validate these\nfindings with the CelebA dataset, demonstrating that similar trends persist\nwith real-world attribute imbalances. Finally, our experiments show that\nremoving outlier data decreases accuracy and further amplifies model bias.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "jI4QFvhEOnhBQZXcB5SU6yDKPKzsHdpYENaUKQv25Xk",
+  "pdfSize": "1793716"
+}

@@ -1,0 +1,44 @@
+{
+  "id": "2412.15814",
+  "title": "Unveiling the Mechanisms of DAI: A Logic-Based Approach to Stablecoin\n  Analysis",
+  "authors": "Francesco De Sclavis, Giuseppe Galano, Aldo Glielmo, Matteo Nardelli",
+  "authorsParsed": [
+    [
+      "De Sclavis",
+      "Francesco",
+      ""
+    ],
+    [
+      "Galano",
+      "Giuseppe",
+      ""
+    ],
+    [
+      "Glielmo",
+      "Aldo",
+      ""
+    ],
+    [
+      "Nardelli",
+      "Matteo",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 20 Dec 2024 11:43:51 GMT"
+    }
+  ],
+  "updateDate": "2024-12-23",
+  "timestamp": 1734695031000,
+  "abstract": "  Stablecoins are digital assets designed to maintain a stable value, typically\npegged to traditional currencies. Despite their growing prominence, many\nstablecoins have struggled to consistently meet stability expectations, and\ntheir underlying mechanisms often remain opaque and challenging to analyze.\nThis paper focuses on the DAI stablecoin, which combines\ncrypto-collateralization and algorithmic mechanisms. We propose a formal\nlogic-based framework for representing the policies and operations of DAI,\nimplemented in Prolog and released as open-source software. Our framework\nenables detailed analysis and simulation of DAI's stability mechanisms,\nproviding a foundation for understanding its robustness and identifying\npotential vulnerabilities.\n",
+  "subjects": [
+    "Computer Science/Cryptography and Security",
+    "Computer Science/Distributed, Parallel, and Cluster Computing",
+    "Computer Science/Logic in Computer Science"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "xCrJzSZH_uhxD5ZSeKDq-we0qboAdqunNAsd4fHutJM",
+  "pdfSize": "794930"
+}

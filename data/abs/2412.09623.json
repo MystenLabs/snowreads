@@ -1,0 +1,67 @@
+{
+  "id": "2412.09623",
+  "title": "OmniDrag: Enabling Motion Control for Omnidirectional Image-to-Video\n  Generation",
+  "authors": "Weiqi Li, Shijie Zhao, Chong Mou, Xuhan Sheng, Zhenyu Zhang, Qian\n  Wang, Junlin Li, Li Zhang, Jian Zhang",
+  "authorsParsed": [
+    [
+      "Li",
+      "Weiqi",
+      ""
+    ],
+    [
+      "Zhao",
+      "Shijie",
+      ""
+    ],
+    [
+      "Mou",
+      "Chong",
+      ""
+    ],
+    [
+      "Sheng",
+      "Xuhan",
+      ""
+    ],
+    [
+      "Zhang",
+      "Zhenyu",
+      ""
+    ],
+    [
+      "Wang",
+      "Qian",
+      ""
+    ],
+    [
+      "Li",
+      "Junlin",
+      ""
+    ],
+    [
+      "Zhang",
+      "Li",
+      ""
+    ],
+    [
+      "Zhang",
+      "Jian",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 12 Dec 2024 18:59:56 GMT"
+    }
+  ],
+  "updateDate": "2024-12-13",
+  "timestamp": 1734029996000,
+  "abstract": "  As virtual reality gains popularity, the demand for controllable creation of\nimmersive and dynamic omnidirectional videos (ODVs) is increasing. While\nprevious text-to-ODV generation methods achieve impressive results, they\nstruggle with content inaccuracies and inconsistencies due to reliance solely\non textual inputs. Although recent motion control techniques provide\nfine-grained control for video generation, directly applying these methods to\nODVs often results in spatial distortion and unsatisfactory performance,\nespecially with complex spherical motions. To tackle these challenges, we\npropose OmniDrag, the first approach enabling both scene- and object-level\nmotion control for accurate, high-quality omnidirectional image-to-video\ngeneration. Building on pretrained video diffusion models, we introduce an\nomnidirectional control module, which is jointly fine-tuned with temporal\nattention layers to effectively handle complex spherical motion. In addition,\nwe develop a novel spherical motion estimator that accurately extracts\nmotion-control signals and allows users to perform drag-style ODV generation by\nsimply drawing handle and target points. We also present a new dataset, named\nMove360, addressing the scarcity of ODV data with large scene and object\nmotions. Experiments demonstrate the significant superiority of OmniDrag in\nachieving holistic scene-level and fine-grained object-level control for ODV\ngeneration. The project page is available at\nhttps://lwq20020127.github.io/OmniDrag.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "PclxqYJezvcg8wvqP44YvAq_9ryADA_4Rp9AuOeckeo",
+  "pdfSize": "15876401"
+}

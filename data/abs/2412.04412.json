@@ -1,0 +1,42 @@
+{
+  "id": "2412.04412",
+  "title": "Reduction of thermal instability of soliton states in coupled\n  Kerr-microresonators",
+  "authors": "Brandon D. Stone, Lala Rukh, Gabriel M. Colaci\\'on, and Tara E. Drake",
+  "authorsParsed": [
+    [
+      "Stone",
+      "Brandon D.",
+      ""
+    ],
+    [
+      "Rukh",
+      "Lala",
+      ""
+    ],
+    [
+      "Colación",
+      "Gabriel M.",
+      ""
+    ],
+    [
+      "Drake",
+      "Tara E.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 5 Dec 2024 18:33:33 GMT"
+    }
+  ],
+  "updateDate": "2024-12-06",
+  "timestamp": 1733423613000,
+  "abstract": "  Kerr-microresonator frequency combs in integrated photonics waveguides are\npromising technologies for next-generation positioning, navigation, and timing\napplications, with advantages that include platforms that are mass-producible\nand CMOS-compatible and spectra that are phase-coherent and octave-spanning.\nFundamental thermal noise in the resonator material typically limits the timing\nand frequency stability of a microcomb. The small optical mode volume of the\nmicroresonators exaggerates this effect, as it both increases the magnitude and\nshortens the timescale of thermodynamic fluctuations. In this work, we\ninvestigate thermal instability in silicon nitride microring resonators as well\nas techniques for reducing their effects on the microcomb light. We\ncharacterize the time-dependent thermal response in silicon nitride microring\nresonators through experimental measurements and finite element method\nsimulations. Through fast control of the pump laser frequency, we reduce\nthermal recoil due to heating. Finally, we demonstrate the utility of a coupled\nmicroresonator system with tunable mode interactions to stabilize a soliton\npulse against thermal shifts.\n",
+  "subjects": [
+    "Physics/Optics"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "I9GpiKcGyaWjfiNM7RWWgOfLIMRhOAdcbzwlkN_Ks3k",
+  "pdfSize": "9334803"
+}

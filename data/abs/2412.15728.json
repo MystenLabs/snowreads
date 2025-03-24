@@ -1,0 +1,28 @@
+{
+  "id": "2412.15728",
+  "title": "fluke: Federated Learning Utility frameworK for Experimentation and\n  research",
+  "authors": "Mirko Polato",
+  "authorsParsed": [
+    [
+      "Polato",
+      "Mirko",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 20 Dec 2024 09:51:23 GMT"
+    }
+  ],
+  "updateDate": "2024-12-23",
+  "timestamp": 1734688283000,
+  "abstract": "  Since its inception in 2016, Federated Learning (FL) has been gaining\ntremendous popularity in the machine learning community. Several frameworks\nhave been proposed to facilitate the development of FL algorithms, but\nresearchers often resort to implementing their algorithms from scratch,\nincluding all baselines and experiments. This is because existing frameworks\nare not flexible enough to support their needs or the learning curve to extend\nthem is too steep. In this paper, we present \\fluke, a Python package designed\nto simplify the development of new FL algorithms. fluke is specifically\ndesigned for prototyping purposes and is meant for researchers or practitioners\nfocusing on the learning components of a federated system. fluke is\nopen-source, and it can be either used out of the box or extended with new\nalgorithms with minimal overhead.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "Bo2H5Bpkl2Xa3hdwhnzAaEkfsABVeg5ODRtAUxN1UiI",
+  "pdfSize": "129327"
+}

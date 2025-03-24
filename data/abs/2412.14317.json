@@ -1,0 +1,27 @@
+{
+  "id": "2412.14317",
+  "title": "Multi-user QKD using quotient graph states derived from\n  continuous-variable dual-rail cluster states",
+  "authors": "Akash nag Oruganti",
+  "authorsParsed": [
+    [
+      "Oruganti",
+      "Akash nag",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 18 Dec 2024 20:35:12 GMT"
+    }
+  ],
+  "updateDate": "2024-12-20",
+  "timestamp": 1734554112000,
+  "abstract": "  Multipartite entangled states are fundamental resources for multi-user\nquantum cryptographic tasks. Despite significant advancements in generating\nlarge-scale continuous-variable (CV) cluster states, particularly the dual-rail\ncluster state because of its utility in measurement-based quantum computation,\nits application in quantum cryptography has remained largely unexplored. In\nthis paper, we introduce a novel protocol for generating three user conference\nkeys using a CV dual-rail cluster state. We develop the concept of a quotient\ngraph state by applying a node coloring scheme to the infinite dual-rail graph,\nresulting in a six-mode pure graph state suitable for cryptographic\napplications. Our results demonstrate that the proposed protocol achieves\nperformance close to that of GHZ-based protocols for quantum conference key\nagreement (QCKA), with GHZ states performing slightly better. However, a key\nadvantage of our protocol lies in its ability to generate bipartite keys\npost-QCKA, a feature not achievable with GHZ states. Additionally, compared to\na downstream access network using two-mode squeezed vacuum states, our protocol\nachieves superior performance in generating bipartite keys. Furthermore, we\nextend our analysis to the finite-size regime and consider the impact of using\nimpure squeezed states for generating the multipartite entangled states,\nreflecting experimental imperfections. Our findings indicate that even with\nfinite resources and non-ideal state preparation, the proposed protocol\nmaintains its advantages. We also introduce a more accurate method to estimate\nthe capacity of a protocol to generate bipartite keys in a quantum network.\n",
+  "subjects": [
+    "Physics/Quantum Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "4rwHQxoGBs301Vp0aOqJRUgi8dzPN2VoCXMFR8kwPAU",
+  "pdfSize": "1095669"
+}

@@ -1,0 +1,43 @@
+{
+  "id": "2412.19137",
+  "title": "Renormalized Volume, Polyakov Anomaly and Orbifold Riemann Surfaces",
+  "authors": "Hossein Mohammadi, Ali Naseh, Behrad Taghavi",
+  "authorsParsed": [
+    [
+      "Mohammadi",
+      "Hossein",
+      ""
+    ],
+    [
+      "Naseh",
+      "Ali",
+      ""
+    ],
+    [
+      "Taghavi",
+      "Behrad",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 26 Dec 2024 09:41:30 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Thu, 23 Jan 2025 13:55:06 GMT"
+    }
+  ],
+  "updateDate": "2025-01-24",
+  "timestamp": 1735206090000,
+  "abstract": "  In arXiv:2310.17536, two of the authors studied the function\n$\\mathscr{S}_{\\boldsymbol{m}} = S_{\\boldsymbol{m}} - \\pi \\sum_{i=1}^n (m_i -\n\\tfrac{1}{m_i}) \\log \\mathsf{h}_{i}$ for orbifold Riemann surfaces of signature\n$(g;m_1,...,m_{n_e};n_p)$ on the generalized Schottky space\n$\\mathfrak{S}_{g,n}(\\boldsymbol{m})$. In this paper, we prove the holographic\nduality between $\\mathscr{S}_{\\boldsymbol{m}}$ and the renormalized hyperbolic\nvolume $V_{\\text{ren}}$ of the corresponding Schottky 3-orbifolds with lines of\nconical singularity that reach the conformal boundary. In case of the classical\nLiouville action on $\\mathfrak{S}_{g}$ and\n$\\mathfrak{S}_{g,n}(\\boldsymbol{\\infty})$, the holography principle was proved\nin arXiv:hep-th/0005106v2 and arXiv:1508.02102, respectively. Our result\nimplies that $V_{\\text{ren}}$ acts as K\\\"ahler potential for a particular\ncombination of the Weil-Petersson and Takhtajan-Zograf metrics that appears in\nthe local index theorem for orbifold Riemann surfaces arXiv:1701.00771.\nMoreover, we demonstrate that under the conformal transformations, the change\nof function $\\mathscr{S}_{\\boldsymbol{m}}$ is equivalent to the Polyakov\nanomaly, which indicates that the function $\\mathscr{S}_{\\boldsymbol{m}}$ is a\nconsistent height function with a unique hyperbolic solution. Consequently, the\nassociated renormalized hyperbolic volume $V_{\\text{ren}}$ also admits a\nPolyakov anomaly formula. The method we used to establish this equivalence may\nprovide an alternative approach to derive the renormalized Polyakov anomaly for\nRiemann surfaces with punctures (cusps), as described in arXiv:0909.0807.\n",
+  "subjects": [
+    "Physics/High Energy Physics - Theory",
+    "Physics/Mathematical Physics",
+    "Mathematics/Mathematical Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "XAVMOF1M_QNYlSlq6brSCAFppKUfR53VOpKssaRT3uc",
+  "pdfSize": "1281896"
+}

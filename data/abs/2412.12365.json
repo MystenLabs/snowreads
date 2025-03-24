@@ -1,0 +1,45 @@
+{
+  "id": "2412.12365",
+  "title": "On the Role of Surrogates in Conformal Inference of Individual Causal\n  Effects",
+  "authors": "Chenyin Gao, Peter B. Gilbert, Larry Han",
+  "authorsParsed": [
+    [
+      "Gao",
+      "Chenyin",
+      ""
+    ],
+    [
+      "Gilbert",
+      "Peter B.",
+      ""
+    ],
+    [
+      "Han",
+      "Larry",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 16 Dec 2024 21:36:11 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Tue, 21 Jan 2025 21:40:40 GMT"
+    }
+  ],
+  "updateDate": "2025-01-23",
+  "timestamp": 1734384971000,
+  "abstract": "  Learning the Individual Treatment Effect (ITE) is essential for personalized\ndecision-making, yet causal inference has traditionally focused on aggregated\ntreatment effects. While integrating conformal prediction with causal inference\ncan provide valid uncertainty quantification for ITEs, the resulting prediction\nintervals are often excessively wide, limiting their practical utility. To\naddress this limitation, we introduce \\underline{S}urrogate-assisted\n\\underline{C}onformal \\underline{I}nference for \\underline{E}fficient\nI\\underline{N}dividual \\underline{C}ausal \\underline{E}ffects (SCIENCE), a\nframework designed to construct more efficient prediction intervals for ITEs.\nSCIENCE accommodates the covariate shifts between source data and target data\nand applies to various data configurations, including semi-supervised and\nsurrogate-assisted semi-supervised learning. Leveraging semi-parametric\nefficiency theory, SCIENCE produces rate double-robust prediction intervals\nunder mild rate convergence conditions, permitting the use of flexible\nnon-parametric models to estimate nuisance functions. We quantify efficiency\ngains by comparing semi-parametric efficiency bounds with and without the\nsurrogates. Simulation studies demonstrate that our surrogate-assisted\nintervals offer substantial efficiency improvements over existing methods while\nmaintaining valid group-conditional coverage. Applied to the phase 3 Moderna\nCOVE COVID-19 vaccine trial, SCIENCE illustrates how multiple surrogate markers\ncan be leveraged to generate more efficient prediction intervals.\n",
+  "subjects": [
+    "Statistics/Methodology",
+    "Mathematics/Statistics Theory",
+    "Statistics/Applications",
+    "Statistics/Machine Learning",
+    "Statistics/Statistics Theory"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "Rx_NokQyTMjxb3CqU4lYM_XjS7LpkxFbJ5XoHJvSEgI",
+  "pdfSize": "740012"
+}

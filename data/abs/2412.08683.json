@@ -1,0 +1,49 @@
+{
+  "id": "2412.08683",
+  "title": "Emotional Vietnamese Speech-Based Depression Diagnosis Using Dynamic\n  Attention Mechanism",
+  "authors": "Quang-Anh N.D., Manh-Hung Ha, Thai Kim Dinh, Minh-Duc Pham, Ninh\n  Nguyen Van",
+  "authorsParsed": [
+    [
+      "D.",
+      "Quang-Anh N.",
+      ""
+    ],
+    [
+      "Ha",
+      "Manh-Hung",
+      ""
+    ],
+    [
+      "Dinh",
+      "Thai Kim",
+      ""
+    ],
+    [
+      "Pham",
+      "Minh-Duc",
+      ""
+    ],
+    [
+      "Van",
+      "Ninh Nguyen",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 11 Dec 2024 18:52:39 GMT"
+    }
+  ],
+  "updateDate": "2024-12-13",
+  "timestamp": 1733943159000,
+  "abstract": "  Major depressive disorder is a prevalent and serious mental health condition\nthat negatively impacts your emotions, thoughts, actions, and overall\nperception of the world. It is complicated to determine whether a person is\ndepressed due to the symptoms of depression not apparent. However, their voice\ncan be one of the factor from which we can acknowledge signs of depression.\nPeople who are depressed express discomfort, sadness and they may speak slowly,\ntrembly, and lose emotion in their voices. In this study, we proposed the\nDynamic Convolutional Block Attention Module (Dynamic-CBAM) to utilized with in\nan Attention-GRU Network to classify the emotions by analyzing the audio signal\nof humans. Based on the results, we can diagnose which patients are depressed\nor prone to depression then so that treatment and prevention can be started as\nsoon as possible. The research delves into the intricate computational steps\ninvolved in implementing a Attention-GRU deep learning architecture. Through\nexperimentation, the model has achieved an impressive recognition with\nUnweighted Accuracy (UA) rate of 0.87 and 0.86 Weighted Accuracy (WA) rate and\nF1 rate of 0.87 in the VNEMOS dataset. Training code is released in\nhttps://github.com/fiyud/Emotional-Vietnamese-Speech-Based-Depression-Diagnosis-Using-Dynamic-Attention-Mechanism\n",
+  "subjects": [
+    "Computer Science/Sound",
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Electrical Engineering and Systems Science/Audio and Speech Processing"
+  ],
+  "license": "http://creativecommons.org/licenses/by-sa/4.0/",
+  "blobId": "C3OZ3oMM50PI2EWwMvTWrzfFtzTKIjspgvNsfu8FGLo",
+  "pdfSize": "1288933"
+}

@@ -1,0 +1,37 @@
+{
+  "id": "2412.05735",
+  "title": "REGE: A Method for Incorporating Uncertainty in Graph Embeddings",
+  "authors": "Zohair Shafi, Germans Savcisens, Tina Eliassi-Rad",
+  "authorsParsed": [
+    [
+      "Shafi",
+      "Zohair",
+      ""
+    ],
+    [
+      "Savcisens",
+      "Germans",
+      ""
+    ],
+    [
+      "Eliassi-Rad",
+      "Tina",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 7 Dec 2024 20:09:09 GMT"
+    }
+  ],
+  "updateDate": "2024-12-10",
+  "timestamp": 1733602149000,
+  "abstract": "  Machine learning models for graphs in real-world applications are prone to\ntwo primary types of uncertainty: (1) those that arise from incomplete and\nnoisy data and (2) those that arise from uncertainty of the model in its\noutput. These sources of uncertainty are not mutually exclusive. Additionally,\nmodels are susceptible to targeted adversarial attacks, which exacerbate both\nof these uncertainties. In this work, we introduce Radius Enhanced Graph\nEmbeddings (REGE), an approach that measures and incorporates uncertainty in\ndata to produce graph embeddings with radius values that represent the\nuncertainty of the model's output. REGE employs curriculum learning to\nincorporate data uncertainty and conformal learning to address the uncertainty\nin the model's output. In our experiments, we show that REGE's graph embeddings\nperform better under adversarial attacks by an average of 1.5% (accuracy)\nagainst state-of-the-art methods.\n",
+  "subjects": [
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "LbWCi5dL08UHYvY8QvmpOylvDrAAQUPa2S_ghjILtKU",
+  "pdfSize": "6341405"
+}

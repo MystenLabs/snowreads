@@ -1,0 +1,36 @@
+{
+  "id": "2412.17853",
+  "title": "Zero Shot Time Series Forecasting Using Kolmogorov Arnold Networks",
+  "authors": "Abhiroop Bhattacharya, Nandinee Haq",
+  "authorsParsed": [
+    [
+      "Bhattacharya",
+      "Abhiroop",
+      ""
+    ],
+    [
+      "Haq",
+      "Nandinee",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 19 Dec 2024 20:23:46 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Fri, 14 Feb 2025 14:50:40 GMT"
+    }
+  ],
+  "updateDate": "2025-02-17",
+  "timestamp": 1734639826000,
+  "abstract": "  Accurate energy price forecasting is crucial for participants in day-ahead\nenergy markets, as it significantly influences their decision-making processes.\nWhile machine learning-based approaches have shown promise in enhancing these\nforecasts, they often remain confined to the specific markets on which they are\ntrained, thereby limiting their adaptability to new or unseen markets. In this\npaper, we introduce a cross-domain adaptation model designed to forecast energy\nprices by learning market-invariant representations across different markets\nduring the training phase. We propose a doubly residual N-BEATS network with\nKolmogorov Arnold networks at its core for time series forecasting. These\nnetworks, grounded in the Kolmogorov-Arnold representation theorem, offer a\npowerful way to approximate multivariate continuous functions. The cross domain\nadaptation model was generated with an adversarial framework. The model's\neffectiveness was tested in predicting day-ahead electricity prices in a zero\nshot fashion. In comparison with baseline models, our proposed framework shows\npromising results. By leveraging the Kolmogorov-Arnold networks, our model can\npotentially enhance its ability to capture complex patterns in energy price\ndata, thus improving forecast accuracy across diverse market conditions. This\naddition not only enriches the model's representational capacity but also\ncontributes to a more robust and flexible forecasting tool adaptable to various\nenergy markets.\n",
+  "subjects": [
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "ruyjorIlvvz0equJ-N15ov9NqLaSfoM13fc7hBYcW2c",
+  "pdfSize": "447916"
+}

@@ -1,0 +1,71 @@
+{
+  "id": "2412.04094",
+  "title": "Magnetic Resonance Imaging Feature-Based Subtyping and Model Ensemble\n  for Enhanced Brain Tumor Segmentation",
+  "authors": "Zhifan Jiang, Daniel Capell\\'an-Mart\\'in, Abhijeet Parida, Austin\n  Tapp, Xinyang Liu, Mar\\'ia J. Ledesma-Carbayo, Syed Muhammad Anwar, Marius\n  George Linguraru",
+  "authorsParsed": [
+    [
+      "Jiang",
+      "Zhifan",
+      ""
+    ],
+    [
+      "Capellán-Martín",
+      "Daniel",
+      ""
+    ],
+    [
+      "Parida",
+      "Abhijeet",
+      ""
+    ],
+    [
+      "Tapp",
+      "Austin",
+      ""
+    ],
+    [
+      "Liu",
+      "Xinyang",
+      ""
+    ],
+    [
+      "Ledesma-Carbayo",
+      "María J.",
+      ""
+    ],
+    [
+      "Anwar",
+      "Syed Muhammad",
+      ""
+    ],
+    [
+      "Linguraru",
+      "Marius George",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 5 Dec 2024 12:00:00 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Thu, 12 Dec 2024 22:13:21 GMT"
+    },
+    {
+      "version": "v3",
+      "created": "Fri, 20 Dec 2024 22:37:27 GMT"
+    }
+  ],
+  "updateDate": "2024-12-24",
+  "timestamp": 1733400000000,
+  "abstract": "  Accurate and automatic segmentation of brain tumors in multi-parametric\nmagnetic resonance imaging (mpMRI) is essential for quantitative measurements,\nwhich play an increasingly important role in clinical diagnosis and prognosis.\nThe International Brain Tumor Segmentation (BraTS) Challenge 2024 offers a\nunique benchmarking opportunity, including various types of brain tumors in\nboth adult and pediatric populations, such as pediatric brain tumors (PED),\nmeningiomas (MEN-RT) and brain metastases (MET), among others. Compared to\nprevious editions, BraTS 2024 has implemented changes to substantially increase\nclinical relevance, such as refined tumor regions for evaluation. We propose a\ndeep learning-based ensemble approach that integrates state-of-the-art\nsegmentation models. Additionally, we introduce innovative, adaptive pre- and\npost-processing techniques that employ MRI-based radiomic analyses to\ndifferentiate tumor subtypes. Given the heterogeneous nature of the tumors\npresent in the BraTS datasets, this approach enhances the precision and\ngeneralizability of segmentation models. On the final testing sets, our method\nachieved mean lesion-wise Dice similarity coefficients of 0.926, 0.801, and\n0.688 for the whole tumor in PED, MEN-RT, and MET, respectively. These results\ndemonstrate the effectiveness of our approach in improving segmentation\nperformance and generalizability for various brain tumor types.\n  The source code of our implementation is available at\nhttps://github.com/Precision-Medical-Imaging-Group/HOPE-Segmenter-Kids.\nAdditionally, an open-source web-application is accessible at\nhttps://segmenter.hope4kids.io/ which uses the docker container\naparida12/brats-peds-2024:v20240913 .\n",
+  "subjects": [
+    "Electrical Engineering and Systems Science/Image and Video Processing",
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "jAGfX1ysqVn2fvJtM2AZA_y7GEtFfKScC4XHlDKo5Jw",
+  "pdfSize": "6092280"
+}

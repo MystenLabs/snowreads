@@ -1,0 +1,35 @@
+{
+  "id": "2412.10053",
+  "title": "De-Biasing Structure Function Estimates From Sparse Time Series of the\n  Solar Wind: A Data-Driven Approach",
+  "authors": "Daniel Wrench, Tulasi N. Parashar",
+  "authorsParsed": [
+    [
+      "Wrench",
+      "Daniel",
+      ""
+    ],
+    [
+      "Parashar",
+      "Tulasi N.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 13 Dec 2024 11:34:48 GMT"
+    }
+  ],
+  "updateDate": "2024-12-16",
+  "timestamp": 1734089688000,
+  "abstract": "  Structure functions, which represent the moments of the increments of a\nstochastic process, are essential complementary statistics to power spectra for\nanalysing the self-similar behaviour of a time series. However, many real-world\nenvironmental datasets, such as those collected by spacecraft monitoring the\nsolar wind, contain gaps, which inevitably corrupt the statistics. The nature\nof this corruption for structure functions remains poorly understood - indeed,\noften overlooked. Here we simulate gaps in a large set of magnetic field\nintervals from Parker Solar Probe in order to characterize the behaviour of the\nstructure function of a sparse time series of solar wind turbulence. We\nquantify the resultant error with regards to the overall shape of the structure\nfunction, and its slope in the inertial range. Noting the consistent\nunderestimation of the true curve when using linear interpolation, we\ndemonstrate the ability of an empirical correction factor to de-bias these\nestimates. This correction, \"learnt\" from the data from a single spacecraft, is\nshown to generalize well to data from a solar wind regime elsewhere in the\nheliosphere, producing smaller errors, on average, for missing fractions >25%.\nGiven this success, we apply the correction to gap-affected Voyager intervals\nfrom the inner heliosheath and local interstellar medium, obtaining spectral\nindices similar to those from previous studies. This work provides a tool for\nfuture studies of fragmented solar wind time series, such as those from\nVoyager, MAVEN, and OMNI, as well as sparsely-sampled astrophysical and\ngeophysical processes more generally.\n",
+  "subjects": [
+    "Astrophysics/Solar and Stellar Astrophysics",
+    "Physics/Space Physics",
+    "Statistics/Applications",
+    "Statistics/Methodology"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "IFFaCWIa3nEzrRaLWg__XySn9FD7D5_XOf_tXViLhdI",
+  "pdfSize": "2361379"
+}

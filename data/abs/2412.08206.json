@@ -1,0 +1,42 @@
+{
+  "id": "2412.08206",
+  "title": "Mixed-Integer Linear Optimization via Learning-Based Two-Layer Large\n  Neighborhood Search",
+  "authors": "Wenbo Liu, Akang Wang, Wenguo Yang, Qingjiang Shi",
+  "authorsParsed": [
+    [
+      "Liu",
+      "Wenbo",
+      ""
+    ],
+    [
+      "Wang",
+      "Akang",
+      ""
+    ],
+    [
+      "Yang",
+      "Wenguo",
+      ""
+    ],
+    [
+      "Shi",
+      "Qingjiang",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 11 Dec 2024 08:53:12 GMT"
+    }
+  ],
+  "updateDate": "2024-12-12",
+  "timestamp": 1733907192000,
+  "abstract": "  Mixed-integer linear programs (MILPs) are extensively used to model practical\nproblems such as planning and scheduling. A prominent method for solving MILPs\nis large neighborhood search (LNS), which iteratively seeks improved solutions\nwithin specific neighborhoods. Recent advancements have integrated machine\nlearning techniques into LNS to guide the construction of these neighborhoods\neffectively. However, for large-scale MILPs, the search step in LNS becomes a\ncomputational bottleneck, relying on off-the-shelf solvers to optimize\nauxiliary MILPs of substantial size. To address this challenge, we introduce a\ntwo-layer LNS (TLNS) approach that employs LNS to solve both the original MILP\nand its auxiliary MILPs, necessitating the optimization of only small-sized\nMILPs using off-the-shelf solvers. Additionally, we incorporate a lightweight\ngraph transformer model to inform neighborhood design. We conduct extensive\ncomputational experiments using public benchmarks. The results indicate that\nour learning-based TLNS approach achieves remarkable performance gains--up to\n66% and 96% over LNS and state-of-the-art MILP solvers, respectively.\n",
+  "subjects": [
+    "Mathematics/Optimization and Control"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "QioHfyFiq7YIkB_Ga3NsO7PkydO32VX-cBKxRX4ogH0",
+  "pdfSize": "1267637"
+}

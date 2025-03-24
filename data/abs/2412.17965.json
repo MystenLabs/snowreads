@@ -1,0 +1,39 @@
+{
+  "id": "2412.17965",
+  "title": "LMV-RPA: Large Model Voting-based Robotic Process Automation",
+  "authors": "Osama Abdellatif, Ahmed Ayman, Ali Hamdi",
+  "authorsParsed": [
+    [
+      "Abdellatif",
+      "Osama",
+      ""
+    ],
+    [
+      "Ayman",
+      "Ahmed",
+      ""
+    ],
+    [
+      "Hamdi",
+      "Ali",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 23 Dec 2024 20:28:22 GMT"
+    }
+  ],
+  "updateDate": "2024-12-25",
+  "timestamp": 1734985702000,
+  "abstract": "  Automating high-volume unstructured data processing is essential for\noperational efficiency. Optical Character Recognition (OCR) is critical but\noften struggles with accuracy and efficiency in complex layouts and ambiguous\ntext. These challenges are especially pronounced in large-scale tasks requiring\nboth speed and precision. This paper introduces LMV-RPA, a Large Model\nVoting-based Robotic Process Automation system to enhance OCR workflows.\nLMV-RPA integrates outputs from OCR engines such as Paddle OCR, Tesseract OCR,\nEasy OCR, and DocTR with Large Language Models (LLMs) like LLaMA 3 and\nGemini-1.5-pro. Using a majority voting mechanism, it processes OCR outputs\ninto structured JSON formats, improving accuracy, particularly in complex\nlayouts. The multi-phase pipeline processes text extracted by OCR engines\nthrough LLMs, combining results to ensure the most accurate outputs. LMV-RPA\nachieves 99 percent accuracy in OCR tasks, surpassing baseline models with 94\npercent, while reducing processing time by 80 percent. Benchmark evaluations\nconfirm its scalability and demonstrate that LMV-RPA offers a faster, more\nreliable, and efficient solution for automating large-scale document processing\ntasks.\n",
+  "subjects": [
+    "Computer Science/Robotics",
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Software Engineering"
+  ],
+  "license": "http://creativecommons.org/licenses/by-sa/4.0/",
+  "blobId": "z5qOWzHwthOQUBwAv89L5hvB6NBhE7KX3Gnv9j2_T60",
+  "pdfSize": "424050"
+}

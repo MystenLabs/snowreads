@@ -1,0 +1,48 @@
+{
+  "id": "2412.08116",
+  "title": "DAKD: Data Augmentation and Knowledge Distillation using Diffusion\n  Models for SAR Oil Spill Segmentation",
+  "authors": "Jaeho Moon, Jeonghwan Yun, Jaehyun Kim, Jaehyup Lee, Munchurl Kim",
+  "authorsParsed": [
+    [
+      "Moon",
+      "Jaeho",
+      ""
+    ],
+    [
+      "Yun",
+      "Jeonghwan",
+      ""
+    ],
+    [
+      "Kim",
+      "Jaehyun",
+      ""
+    ],
+    [
+      "Lee",
+      "Jaehyup",
+      ""
+    ],
+    [
+      "Kim",
+      "Munchurl",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 11 Dec 2024 05:50:33 GMT"
+    }
+  ],
+  "updateDate": "2024-12-12",
+  "timestamp": 1733896233000,
+  "abstract": "  Oil spills in the ocean pose severe environmental risks, making early\ndetection essential. Synthetic aperture radar (SAR) based oil spill\nsegmentation offers robust monitoring under various conditions but faces\nchallenges due to the limited labeled data and inherent speckle noise in SAR\nimagery. To address these issues, we propose (i) a diffusion-based Data\nAugmentation and Knowledge Distillation (DAKD) pipeline and (ii) a novel SAR\noil spill segmentation network, called SAROSS-Net. In our DAKD pipeline, we\npresent a diffusion-based SAR-JointNet that learns to generate realistic SAR\nimages and their labels for segmentation, by effectively modeling joint\ndistribution with balancing two modalities. The DAKD pipeline augments the\ntraining dataset and distills knowledge from SAR-JointNet by utilizing\ngenerated soft labels (pixel-wise probability maps) to supervise our\nSAROSS-Net. The SAROSS-Net is designed to selectively transfer high-frequency\nfeatures from noisy SAR images, by employing novel Context-Aware Feature\nTransfer blocks along skip connections. We demonstrate our SAR-JointNet can\ngenerate realistic SAR images and well-aligned segmentation labels, providing\nthe augmented data to train SAROSS-Net with enhanced generalizability. Our\nSAROSS-Net trained with the DAKD pipeline significantly outperforms existing\nSAR oil spill segmentation methods with large margins.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "4iQq2W85bCmYtBos2FdZTf0lquVsUwrDzv9zS8PMGmA",
+  "pdfSize": "19517200"
+}

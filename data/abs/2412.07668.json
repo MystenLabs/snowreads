@@ -1,0 +1,57 @@
+{
+  "id": "2412.07668",
+  "title": "Automating Business Intelligence Requirements with Generative AI and\n  Semantic Search",
+  "authors": "Nimrod Busany, Ethan Hadar, Hananel Hadad, Gil Rosenblum, Zofia\n  Maszlanka, Okhaide Akhigbe, and Daniel Amyot",
+  "authorsParsed": [
+    [
+      "Busany",
+      "Nimrod",
+      ""
+    ],
+    [
+      "Hadar",
+      "Ethan",
+      ""
+    ],
+    [
+      "Hadad",
+      "Hananel",
+      ""
+    ],
+    [
+      "Rosenblum",
+      "Gil",
+      ""
+    ],
+    [
+      "Maszlanka",
+      "Zofia",
+      ""
+    ],
+    [
+      "Akhigbe",
+      "Okhaide",
+      ""
+    ],
+    [
+      "Amyot",
+      "Daniel",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 10 Dec 2024 16:57:48 GMT"
+    }
+  ],
+  "updateDate": "2024-12-11",
+  "timestamp": 1733849868000,
+  "abstract": "  Eliciting requirements for Business Intelligence (BI) systems remains a\nsignificant challenge, particularly in changing business environments. This\npaper introduces a novel AI-driven system, called AutoBIR, that leverages\nsemantic search and Large Language Models (LLMs) to automate and accelerate the\nspecification of BI requirements. The system facilitates intuitive interaction\nwith stakeholders through a conversational interface, translating user inputs\ninto prototype analytic code, descriptions, and data dependencies.\nAdditionally, AutoBIR produces detailed test-case reports, optionally enhanced\nwith visual aids, streamlining the requirement elicitation process. By\nincorporating user feedback, the system refines BI reporting and system design,\ndemonstrating practical applications for expediting data-driven\ndecision-making. This paper explores the broader potential of generative AI in\ntransforming BI development, illustrating its role in enhancing data\nengineering practice for large-scale, evolving systems.\n",
+  "subjects": [
+    "Computer Science/Software Engineering"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "1wVu5wrPbW6_G2ftzL0EbLQtjPCLRIwgWX6CHh_3dl4",
+  "pdfSize": "1322351"
+}

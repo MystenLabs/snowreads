@@ -1,0 +1,38 @@
+{
+  "id": "2412.05947",
+  "title": "Materials-Discovery Workflows Guided by Symbolic Regression: Identifying\n  Acid-Stable Oxides for Electrocatalysis",
+  "authors": "Akhil S. Nair, Lucas Foppa, Matthias Scheffler",
+  "authorsParsed": [
+    [
+      "Nair",
+      "Akhil S.",
+      ""
+    ],
+    [
+      "Foppa",
+      "Lucas",
+      ""
+    ],
+    [
+      "Scheffler",
+      "Matthias",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 8 Dec 2024 14:09:15 GMT"
+    }
+  ],
+  "updateDate": "2024-12-10",
+  "timestamp": 1733666955000,
+  "abstract": "  The efficiency of active learning (AL) approaches to identify materials with\ndesired properties relies on the knowledge of a few parameters describing the\nproperty. However, these parameters are unknown if the property is governed by\na high intricacy of many atomistic processes. Here, we develop an AL workflow\nbased on the sure-independence screening and sparsifying operator (SISSO)\nsymbolic-regression approach. SISSO identifies the few, key parameters\ncorrelated with a given materials property via analytical expressions, out of\nmany offered primary features. Crucially, we train ensembles of SISSO models in\norder to quantify mean predictions and their uncertainty, enabling the use of\nSISSO in AL. By combining bootstrap sampling to obtain training datasets with\nMonte-Carlo feature dropout, the high prediction errors observed by a single\nSISSO model are improved. Besides, the feature dropout procedure alleviates the\noverconfidence issues observed in the widely used bagging approach. We\ndemonstrate the SISSO-guided AL workflow by identifying acid-stable oxides for\nwater splitting using high-quality DFT-HSE06 calculations. From a pool of 1470\nmaterials, 12 acid-stable materials are identified in only 30 AL iterations.\nThe materials property maps provided by SISSO along with the uncertainty\nestimates reduce the risk of missing promising portions of the materials space\nthat were overlooked in the initial, possibly biased dataset.\n",
+  "subjects": [
+    "Condensed Matter/Materials Science",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "46PkGqzOxD_7JNut9608idWFABm4l5eYLywKYyXbifQ",
+  "pdfSize": "2513034"
+}

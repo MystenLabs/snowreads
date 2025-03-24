@@ -1,0 +1,43 @@
+{
+  "id": "2412.09768",
+  "title": "Nonlocal transfer of high-dimensional unitary operations",
+  "authors": "Dilip Paneru, Francesco Di Colandrea, Alessio D'Errico, Ebrahim Karimi",
+  "authorsParsed": [
+    [
+      "Paneru",
+      "Dilip",
+      ""
+    ],
+    [
+      "Di Colandrea",
+      "Francesco",
+      ""
+    ],
+    [
+      "D'Errico",
+      "Alessio",
+      ""
+    ],
+    [
+      "Karimi",
+      "Ebrahim",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 13 Dec 2024 00:20:36 GMT"
+    }
+  ],
+  "updateDate": "2024-12-16",
+  "timestamp": 1734049236000,
+  "abstract": "  Highly correlated biphoton states are powerful resources in quantum optics,\nboth for fundamental tests of the theory and practical applications. In\nparticular, high-dimensional spatial correlation has been used in several\nquantum information processing and sensing tasks, for instance, in ghost\nimaging experiments along with several quantum key distribution protocols.\nHere, we introduce a technique that exploits spatial correlations, whereby one\ncan nonlocally access the result of an arbitrary unitary operator on an\narbitrary input state without the need to perform any operation themselves. The\nmethod is experimentally validated on a set of spatially periodic unitary\noperations in one-dimensional and two-dimensional spaces. Our findings pave the\nway for efficiently distributing quantum simulations and computations in future\ninstances of quantum networks where users with limited resources can nonlocally\naccess the results of complex unitary transformations via a centrally located\nquantum processor.\n",
+  "subjects": [
+    "Physics/Quantum Physics",
+    "Physics/Optics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "k4osUuDT6JjPdIk7riNBuquJrn5tZFbAL-83W2ZuxSc",
+  "pdfSize": "1546044"
+}

@@ -1,0 +1,43 @@
+{
+  "id": "2412.13537",
+  "title": "Models for common knowledge logic",
+  "authors": "Yoshihito Tanaka",
+  "authorsParsed": [
+    [
+      "Tanaka",
+      "Yoshihito",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 18 Dec 2024 06:27:25 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Mon, 6 Jan 2025 06:19:25 GMT"
+    },
+    {
+      "version": "v3",
+      "created": "Thu, 9 Jan 2025 06:09:01 GMT"
+    },
+    {
+      "version": "v4",
+      "created": "Tue, 14 Jan 2025 06:53:51 GMT"
+    },
+    {
+      "version": "v5",
+      "created": "Thu, 6 Feb 2025 05:46:02 GMT"
+    }
+  ],
+  "updateDate": "2025-02-07",
+  "timestamp": 1734503245000,
+  "abstract": "  In this paper, we discuss models of the common knowledge logic. The common\nknowledge logic is a multi-modal logic that includes the modal operators\n$\\mathsf{K}_{i}$ ($i\\in\\mathcal{I}$, where $\\mathcal{I}$ is a finite set of\nagents) and $\\mathsf{C}$ in the language. The intended meanings of\n$\\mathsf{K}_{i}\\phi$ ($i\\in\\mathcal{I}$) and $\\mathsf{C}\\phi$ are ''the agent\n$i$ knows $\\phi$'' ($i\\in\\mathcal{I}$) and ''$\\phi$ is common knowledge among\n$\\mathcal{I}$'', respectively. Semantically, this can be expressed as follows:\n$\\mathsf{C}\\phi$ is true if and only if all of $\\phi$, $\\mathsf{E}\\phi$,\n$\\mathsf{E}^{2}\\phi$, $\\mathsf{E}^{3}\\phi,\\ldots$ are true, where\n$\\mathsf{E}\\phi=\\bigwedge_{i\\in\\mathcal{I}}\\mathsf{K}_{i}\\phi$. A Kripke frame\nthat satisfies the condition is $\\langle W,R_{\\mathsf{K}_{i}}\n(i\\in\\mathcal{I}), R_{\\mathsf{C}}\\rangle$, where $R_{\\mathsf{C}}$ is the\nreflexive and transitive closure of\n$R_{\\mathsf{E}}=\\bigcup_{i\\in\\mathcal{I}}R_{\\mathsf{K}_{i}}$. We refer to such\nKripke frames as CKL-frames. An algebra that satisfies the condition is a modal\nalgebra with modal operators $\\mathrm{K}_{i}$ ($i\\in\\mathcal{I}$) and\n$\\mathrm{C}$, which satisfies that $\\mathrm{C}x\\leq x$, $\\mathrm{C}\nx\\leq\\mathrm{E}\\mathrm{C} x$, and $\\mathrm{C} x$ is the greatest lower bound of\nthe set $\\{\\mathrm{E}^{n} x\\mid n\\in\\omega\\}$, where $\\mathrm{E}\nx=\\bigwedge_{i\\in\\mathcal{I}} \\mathrm{K}_{i} x$. We refer to such modal\nalgebras as CKL-algebras. In this paper, we show that the class of CKL-frames\nis modally definable, whereas the class of CKL-algebras is not. That is, the\nclass of CKL-algebras does not form a variety, and there exists a modal algebra\nin which the common knowledge logic is valid, but $\\mathrm{C}x$ is not the\ngreatest lower bound of the set $\\{\\mathrm{E}^{n} x\\mid n\\in\\omega\\}$.\n",
+  "subjects": [
+    "Mathematics/Logic"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "jypDtFlPBec16Okn6xhr-I7MMLHKuHkVTeRCK1No4go",
+  "pdfSize": "196771"
+}

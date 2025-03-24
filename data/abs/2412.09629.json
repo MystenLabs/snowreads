@@ -1,0 +1,50 @@
+{
+  "id": "2412.09629",
+  "title": "Online Adaptive Real-Time Beamforming Design for Dynamic Environments in\n  Cell-Free Systems",
+  "authors": "Guanghui Chen, Zheng Wang, Hongxin Lin, Pengguang Du, Yongming Huang",
+  "authorsParsed": [
+    [
+      "Chen",
+      "Guanghui",
+      ""
+    ],
+    [
+      "Wang",
+      "Zheng",
+      ""
+    ],
+    [
+      "Lin",
+      "Hongxin",
+      ""
+    ],
+    [
+      "Du",
+      "Pengguang",
+      ""
+    ],
+    [
+      "Huang",
+      "Yongming",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 27 Nov 2024 03:56:14 GMT"
+    }
+  ],
+  "updateDate": "2024-12-16",
+  "timestamp": 1732679774000,
+  "abstract": "  In this paper, we consider real-time beamforming design for dynamic wireless\nenvironments with varying channels and different numbers of access points (APs)\nand users in cell-free systems. Specifically, a sum-rate maximization\noptimization problem is formulated for the beamforming design in dynamic\nwireless environments of cell-free systems. To efficiently solve it, a\nhigh-generalization network (HGNet) is proposed to adapt to the changing\nnumbers of APs and users. Then, a high-generalization beamforming module is\nalso designed in HGNet to extract the valuable features for the varying\nchannels, and we theoretically prove that such a high-generalization\nbeamforming module is able to reduce the upper bound of the generalization\nerror. Subsequently, by online adaptively updating about 3% of the parameters\nof HGNet, an online adaptive updating (OAU) algorithm is proposed to enable the\nonline adaptive real-time beamforming design for improving the sum rate.\nNumerical results demonstrate that the proposed HGNet with OAU algorithm\nachieves a higher sum rate with a lower computational cost on the order of\nmilliseconds, thus realizing the real-time beamforming design for dynamic\nwireless environments in cell-free systems.\n",
+  "subjects": [
+    "Electrical Engineering and Systems Science/Signal Processing",
+    "Computer Science/Information Theory",
+    "Computer Science/Networking and Internet Architecture",
+    "Mathematics/Information Theory"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "ms80gv_CLhaxDmZ6bikqaGebQp1dKhjpi9u-Zat64a0",
+  "pdfSize": "625567"
+}

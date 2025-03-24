@@ -1,0 +1,39 @@
+{
+  "id": "2412.12202",
+  "title": "A multi-theoretical kernel-based approach to social network-based\n  recommendation",
+  "authors": "Xin Li, Mengyue Wang, T.-P. Liang",
+  "authorsParsed": [
+    [
+      "Li",
+      "Xin",
+      ""
+    ],
+    [
+      "Wang",
+      "Mengyue",
+      ""
+    ],
+    [
+      "Liang",
+      "T. -P.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 15 Dec 2024 09:23:14 GMT"
+    }
+  ],
+  "updateDate": "2024-12-18",
+  "timestamp": 1734254594000,
+  "abstract": "  Recommender systems are a critical component of e-commercewebsites. The rapid\ndevelopment of online social networking services provides an opportunity to\nexplore social networks together with information used in traditional\nrecommender systems, such as customer demographics, product characteristics,\nand transactions. It also provides more applications for recommender systems.\nTo tackle this social network-based recommendation problem, previous studies\ngenerally built trust models in light of the social influence theory. This\nstudy inspects a spectrumof social network theories to systematicallymodel\nthemultiple facets of a social network and infer user preferences. In order to\neffectively make use of these heterogonous theories, we take a kernel-based\nmachine learning paradigm, design and select kernels describing individual\nsimilarities according to social network theories, and employ a non-linear\nmultiple kernel learning algorithm to combine the kernels into a unified model.\nThis design also enables us to consider multiple theories' interactions in\nassessing individual behaviors. We evaluate our proposed approach on a\nreal-world movie review data set. The experiments show that our approach\nprovides more accurate recommendations than trust-based methods and the\ncollaborative filtering approach. Further analysis shows that kernels derived\nfrom contagion theory and homophily theory contribute a larger portion of the\nmodel.\n",
+  "subjects": [
+    "Computer Science/Social and Information Networks",
+    "Computer Science/Information Retrieval",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "LldWegP5SMMEeeddAIatx_I_co4sR9PeUls1xRgBdPY",
+  "pdfSize": "691641"
+}

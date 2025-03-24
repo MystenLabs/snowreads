@@ -1,0 +1,42 @@
+{
+  "id": "2412.08719",
+  "title": "Short-time simulation of quantum dynamics by Pauli measurements",
+  "authors": "Paul K. Faehrmann, Jens Eisert, Maria Kieferova, Richard Kueng",
+  "authorsParsed": [
+    [
+      "Faehrmann",
+      "Paul K.",
+      ""
+    ],
+    [
+      "Eisert",
+      "Jens",
+      ""
+    ],
+    [
+      "Kieferova",
+      "Maria",
+      ""
+    ],
+    [
+      "Kueng",
+      "Richard",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 11 Dec 2024 19:00:03 GMT"
+    }
+  ],
+  "updateDate": "2024-12-13",
+  "timestamp": 1733943603000,
+  "abstract": "  Simulating the dynamics of complex quantum systems is a central application\nof quantum devices. Here, we propose leveraging the power of measurements to\nsimulate short-time quantum dynamics of physically prepared quantum states in\nclassical post-processing using a truncated Taylor series approach. While\nlimited to short simulation times, our hybrid quantum-classical method is\nequipped with rigorous error bounds. It is extendable to estimate low-order\nTaylor approximations of smooth, time-dependent functions of tractable linear\ncombinations of measurable operators. These insights can be made use of in the\ncontext of Hamiltonian learning and device verification, short-time imaginary\ntime evolution, or the application of intractable operations to sub-universal\nquantum simulators in classical post-processing.\n",
+  "subjects": [
+    "Physics/Quantum Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "48WhSkTjyAC8u-mPBcety-PhefvJdPQVp3MrzrRymoc",
+  "pdfSize": "215692"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2412.11510",
+  "title": "Asplund spaces and the finest locally convex topology",
+  "authors": "J. Kakol and A. Leiderman",
+  "authorsParsed": [
+    [
+      "Kakol",
+      "J.",
+      ""
+    ],
+    [
+      "Leiderman",
+      "A.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 16 Dec 2024 07:39:23 GMT"
+    }
+  ],
+  "updateDate": "2024-12-17",
+  "timestamp": 1734334763000,
+  "abstract": "  In our previous paper we systematized several known equivalent definitions of\nFr\\'echet (G\\^ ateaux) Differentiability Spaces and Asplund (weak Asplund)\nSpaces. As an application, we extended the classical Mazur's theorem, and also\nproved that the product of any family of Banach spaces $(E_{\\alpha})$ is an\nAsplund lcs if and only if each $E_{\\alpha}$ is Asplund. The actual work\ncontinues this line of research in the frame of locally convex spaces,\nincluding the classes of Fr\\'echet spaces (i.e. metrizable and complete locally\nconvex spaces) and projective limits, quojections, $(LB)$-spaces and\n$(LF)$-spaces, as well as, the class of free locally convex spaces $L(X)$ over\nTychonoff spaces $X$.\n  First we prove some \"negative\" results: We show that for every infinite\nTychonoff space $X$ the space $L(X)$ is not even a G\\^ ateaux Differentiability\nSpace (GDS in short) and contains no infinite-dimensional Baire vector\nsubspaces.\n  On the other hand, we show that all barrelled GDS spaces are quasi-Baire\nspaces, what implies that strict $(LF)$-spaces are not GDS. This fact refers,\nfor example, to concrete important spaces\n  $D^{m}(\\Omega)$, $D(\\Omega)$, $D(\\mathbb{R}^{\\omega})$.\n  A special role of the space $\\varphi$, i.e. an $\\aleph_{0}$-dimensional\nvector space equipped with the finest locally convex topology, in this line of\nresearch has been distinguished and analysed. It seems that little is known\nabout the Asplund property for Fr\\'echet spaces. We show however that a\nquojection $E$, i.e. a Fr\\'echet space which is a strict projective limit of\nthe corresponding Banach spaces $E_n$, is an Asplund (weak Asplund) space if\nand only if each\n  Banach space $E_n$ is Asplund (weak Asplund). In particular, every reflexive\nquojection is Asplund.\n  Some applications and several illustrating examples are provided.\n",
+  "subjects": [
+    "Mathematics/Functional Analysis",
+    "Mathematics/General Topology"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "RuENdPPPKyk0woJt5R2c5c7nwfVh8x3XdVaoYK3-4Jw",
+  "pdfSize": "293383"
+}

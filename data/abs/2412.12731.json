@@ -1,0 +1,57 @@
+{
+  "id": "2412.12731",
+  "title": "SentiQNF: A Novel Approach to Sentiment Analysis Using Quantum\n  Algorithms and Neuro-Fuzzy Systems",
+  "authors": "Kshitij Dave, Nouhaila Innan, Bikash K. Behera, Zahid Mumtaz, Saif\n  Al-Kuwari, Ahmed Farouk",
+  "authorsParsed": [
+    [
+      "Dave",
+      "Kshitij",
+      ""
+    ],
+    [
+      "Innan",
+      "Nouhaila",
+      ""
+    ],
+    [
+      "Behera",
+      "Bikash K.",
+      ""
+    ],
+    [
+      "Mumtaz",
+      "Zahid",
+      ""
+    ],
+    [
+      "Al-Kuwari",
+      "Saif",
+      ""
+    ],
+    [
+      "Farouk",
+      "Ahmed",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 17 Dec 2024 09:54:17 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Thu, 23 Jan 2025 09:53:47 GMT"
+    }
+  ],
+  "updateDate": "2025-01-24",
+  "timestamp": 1734429257000,
+  "abstract": "  Sentiment analysis is an essential component of natural language processing,\nused to analyze sentiments, attitudes, and emotional tones in various contexts.\nIt provides valuable insights into public opinion, customer feedback, and user\nexperiences. Researchers have developed various classical machine learning and\nneuro-fuzzy approaches to address the exponential growth of data and the\ncomplexity of language structures in sentiment analysis. However, these\napproaches often fail to determine the optimal number of clusters, interpret\nresults accurately, handle noise or outliers efficiently, and scale effectively\nto high-dimensional data. Additionally, they are frequently insensitive to\ninput variations. In this paper, we propose a novel hybrid approach for\nsentiment analysis called the Quantum Fuzzy Neural Network (QFNN), which\nleverages quantum properties and incorporates a fuzzy layer to overcome the\nlimitations of classical sentiment analysis algorithms. In this study, we test\nthe proposed approach on two Twitter datasets: the Coronavirus Tweets Dataset\n(CVTD) and the General Sentimental Tweets Dataset (GSTD), and compare it with\nclassical and hybrid algorithms. The results demonstrate that QFNN outperforms\nall classical, quantum, and hybrid algorithms, achieving 100% and 90% accuracy\nin the case of CVTD and GSTD, respectively. Furthermore, QFNN demonstrates its\nrobustness against six different noise models, providing the potential to\ntackle the computational complexity associated with sentiment analysis on a\nlarge scale in a noisy environment. The proposed approach expedites sentiment\ndata processing and precisely analyses different forms of textual data, thereby\nenhancing sentiment classification and insights associated with sentiment\nanalysis.\n",
+  "subjects": [
+    "Computer Science/Computation and Language",
+    "Physics/Quantum Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "4vGy_pNsr9U28YyH3oCfRySCoSiPF5Cm8VK1xYfC-Bs",
+  "pdfSize": "1643924"
+}

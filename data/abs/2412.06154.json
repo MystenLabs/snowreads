@@ -1,0 +1,63 @@
+{
+  "id": "2412.06154",
+  "title": "MoSH: Modeling Multi-Objective Tradeoffs with Soft and Hard Bounds",
+  "authors": "Edward Chen, Natalie Dullerud, Thomas Niedermayr, Elizabeth Kidd,\n  Ransalu Senanayake, Pang Wei Koh, Sanmi Koyejo, Carlos Guestrin",
+  "authorsParsed": [
+    [
+      "Chen",
+      "Edward",
+      ""
+    ],
+    [
+      "Dullerud",
+      "Natalie",
+      ""
+    ],
+    [
+      "Niedermayr",
+      "Thomas",
+      ""
+    ],
+    [
+      "Kidd",
+      "Elizabeth",
+      ""
+    ],
+    [
+      "Senanayake",
+      "Ransalu",
+      ""
+    ],
+    [
+      "Koh",
+      "Pang Wei",
+      ""
+    ],
+    [
+      "Koyejo",
+      "Sanmi",
+      ""
+    ],
+    [
+      "Guestrin",
+      "Carlos",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 9 Dec 2024 02:32:20 GMT"
+    }
+  ],
+  "updateDate": "2024-12-10",
+  "timestamp": 1733711540000,
+  "abstract": "  Countless science and engineering applications in multi-objective\noptimization (MOO) necessitate that decision-makers (DMs) select a\nPareto-optimal solution which aligns with their preferences. Evaluating\nindividual solutions is often expensive, necessitating cost-sensitive\noptimization techniques. Due to competing objectives, the space of trade-offs\nis also expansive -- thus, examining the full Pareto frontier may prove\noverwhelming to a DM. Such real-world settings generally have loosely-defined\nand context-specific desirable regions for each objective function that can aid\nin constraining the search over the Pareto frontier. We introduce a novel\nconceptual framework that operationalizes these priors using soft-hard\nfunctions, SHFs, which allow for the DM to intuitively impose soft and hard\nbounds on each objective -- which has been lacking in previous MOO frameworks.\nLeveraging a novel minimax formulation for Pareto frontier sampling, we propose\na two-step process for obtaining a compact set of Pareto-optimal points which\nrespect the user-defined soft and hard bounds: (1) densely sample the Pareto\nfrontier using Bayesian optimization, and (2) sparsify the selected set to\nsurface to the user, using robust submodular function optimization. We prove\nthat (2) obtains the optimal compact Pareto-optimal set of points from (1). We\nfurther show that many practical problems fit within the SHF framework and\nprovide extensive empirical validation on diverse domains, including\nbrachytherapy, engineering design, and large language model personalization.\nSpecifically, for brachytherapy, our approach returns a compact set of points\nwith over 3% greater SHF-defined utility than the next best approach. Among the\nother diverse experiments, our approach consistently leads in utility, allowing\nthe DM to reach >99% of their maximum possible desired utility within\nvalidation of 5 points.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "LdY-S9E7b2D73jips-m_ivaYIzgzN--BbTxuqF2lZoc",
+  "pdfSize": "3283877"
+}

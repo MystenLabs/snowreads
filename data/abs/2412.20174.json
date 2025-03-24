@@ -1,0 +1,37 @@
+{
+  "id": "2412.20174",
+  "title": "Explicit bounds on common projective torsion points of elliptic curves",
+  "authors": "Christian B\\\"ohning, Hans-Christian Graf von Bothmer, David Hubbard",
+  "authorsParsed": [
+    [
+      "Böhning",
+      "Christian",
+      ""
+    ],
+    [
+      "von Bothmer",
+      "Hans-Christian Graf",
+      ""
+    ],
+    [
+      "Hubbard",
+      "David",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 28 Dec 2024 15:06:15 GMT"
+    }
+  ],
+  "updateDate": "2024-12-31",
+  "timestamp": 1735398375000,
+  "abstract": "  Suppose E_1, E_2 are elliptic curves (over the complex numbers) together with\nstandard double coverings of the projective line identifying a point and its\ninverse on E_i. Bogomolov, Fu and Tschinkel have asked if the number of common\nimages of torsion points on the elliptic curves under these double coverings is\nuniformly bounded in the case when the branch loci of the double coverings do\nnot coincide, and recently this was answered affirmatively by various authors,\nbut realistic effective bounds are unknown. In this article we obtain such\nbounds for common projective torsion points on elliptic curves under some mild\nextra assumptions on the reduction type of the input data at given primes. The\nmethod is based on Raynaud's original groundbreaking work on the Manin-Mumford\nconjecture. In particular, we generalise several of his results to cases of bad\nreduction using techniques from logarithmic algebraic geometry.\n",
+  "subjects": [
+    "Mathematics/Algebraic Geometry"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "aduBuVT4SDFxzGKSPQYfR423pgHqwNdpyITaHeDuy4A",
+  "pdfSize": "383102"
+}

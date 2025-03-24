@@ -1,0 +1,28 @@
+{
+  "id": "2412.05863",
+  "title": "Run 3 performance and advances in heavy-flavor jet tagging in CMS",
+  "authors": "Uttiya Sarkar",
+  "authorsParsed": [
+    [
+      "Sarkar",
+      "Uttiya",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 8 Dec 2024 09:00:25 GMT"
+    }
+  ],
+  "updateDate": "2024-12-10",
+  "timestamp": 1733648425000,
+  "abstract": "  Identification of hadronic jets originating from heavy-flavor quarks is\nextremely important to several physics analyses in High Energy Physics, such as\nstudies of the properties of the top quark and the Higgs boson, and searches\nfor new physics. Recent algorithms used in the CMS experiment were developed\nusing state-of-the-art machine-learning techniques to distinguish jets emerging\nfrom the decay of heavy flavour (charm and bottom) quarks from those arising\nfrom light-flavor (udsg) ones. Increasingly complex deep neural network\narchitectures, such as graphs and transformers, have helped achieve\nunprecedented accuracies in jet tagging. New advances in tagging algorithms,\nalong with new calibration methods using flavour-enriched selections of\nproton-proton collision events, allow us to estimate flavour tagging\nperformances with the CMS detector during early Run 3 of the LHC.\n",
+  "subjects": [
+    "Physics/High Energy Physics - Experiment",
+    "Physics/Data Analysis, Statistics and Probability"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "i2IeyouNh2tpXuZT8y3FedCOro4G4KS5Cy1zl2QJewQ",
+  "pdfSize": "5799591"
+}

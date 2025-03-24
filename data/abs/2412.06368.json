@@ -1,0 +1,39 @@
+{
+  "id": "2412.06368",
+  "title": "Measuring Pre-training Data Quality without Labels for Time Series\n  Foundation Models",
+  "authors": "Songkang Wen, Vasilii Feofanov, Jianfeng Zhang",
+  "authorsParsed": [
+    [
+      "Wen",
+      "Songkang",
+      ""
+    ],
+    [
+      "Feofanov",
+      "Vasilii",
+      ""
+    ],
+    [
+      "Zhang",
+      "Jianfeng",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 9 Dec 2024 10:38:30 GMT"
+    }
+  ],
+  "updateDate": "2024-12-10",
+  "timestamp": 1733740710000,
+  "abstract": "  Recently, there has been a growing interest in time series foundation models\nthat generalize across different downstream tasks. A key to strong foundation\nmodels is a diverse pre-training dataset, which is particularly challenging to\ncollect for time series classification. In this work, we explore the\nperformance of a contrastive-learning-based foundation model as a function of\nthe data used for pre-training. We introduce contrastive accuracy, a new\nmeasure to evaluate the quality of the representation space learned by the\nfoundation model. Our experiments reveal the positive correlation between the\nproposed measure and the accuracy of the model on a collection of downstream\ntasks. This suggests that the contrastive accuracy can serve as a criterion to\nsearch for time series datasets that can enhance the pre-training and improve\nthereby the foundation model's generalization.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Computer Science/Artificial Intelligence",
+    "Statistics/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "EEVsBcYZso_m7XUrMt02lsx7RCJwwgjX6Y9O-gPiyuc",
+  "pdfSize": "690641"
+}

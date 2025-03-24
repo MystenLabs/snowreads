@@ -1,0 +1,58 @@
+{
+  "id": "2412.11051",
+  "title": "DisCo-DSO: Coupling Discrete and Continuous Optimization for Efficient\n  Generative Design in Hybrid Spaces",
+  "authors": "Jacob F. Pettit, Chak Shing Lee, Jiachen Yang, Alex Ho, Daniel\n  Faissol, Brenden Petersen, Mikel Landajuela",
+  "authorsParsed": [
+    [
+      "Pettit",
+      "Jacob F.",
+      ""
+    ],
+    [
+      "Lee",
+      "Chak Shing",
+      ""
+    ],
+    [
+      "Yang",
+      "Jiachen",
+      ""
+    ],
+    [
+      "Ho",
+      "Alex",
+      ""
+    ],
+    [
+      "Faissol",
+      "Daniel",
+      ""
+    ],
+    [
+      "Petersen",
+      "Brenden",
+      ""
+    ],
+    [
+      "Landajuela",
+      "Mikel",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 15 Dec 2024 04:51:54 GMT"
+    }
+  ],
+  "updateDate": "2024-12-17",
+  "timestamp": 1734238314000,
+  "abstract": "  We consider the challenge of black-box optimization within hybrid\ndiscrete-continuous and variable-length spaces, a problem that arises in\nvarious applications, such as decision tree learning and symbolic regression.\nWe propose DisCo-DSO (Discrete-Continuous Deep Symbolic Optimization), a novel\napproach that uses a generative model to learn a joint distribution over\ndiscrete and continuous design variables to sample new hybrid designs. In\ncontrast to standard decoupled approaches, in which the discrete and continuous\nvariables are optimized separately, our joint optimization approach uses fewer\nobjective function evaluations, is robust against non-differentiable\nobjectives, and learns from prior samples to guide the search, leading to\nsignificant improvement in performance and sample efficiency. Our experiments\non a diverse set of optimization tasks demonstrate that the advantages of\nDisCo-DSO become increasingly evident as the complexity of the problem\nincreases. In particular, we illustrate DisCo-DSO's superiority over the\nstate-of-the-art methods for interpretable reinforcement learning with decision\ntrees.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Mathematics/Optimization and Control"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "-0eaqr1PXxE3CdvRru_YvfijxUB-jjsfDmHxSQscKrA",
+  "pdfSize": "30184124"
+}

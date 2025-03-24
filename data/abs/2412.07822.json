@@ -1,0 +1,48 @@
+{
+  "id": "2412.07822",
+  "title": "MAGE: A Multi-Agent Engine for Automated RTL Code Generation",
+  "authors": "Yujie Zhao, Hejia Zhang, Hanxian Huang, Zhongming Yu, Jishen Zhao",
+  "authorsParsed": [
+    [
+      "Zhao",
+      "Yujie",
+      ""
+    ],
+    [
+      "Zhang",
+      "Hejia",
+      ""
+    ],
+    [
+      "Huang",
+      "Hanxian",
+      ""
+    ],
+    [
+      "Yu",
+      "Zhongming",
+      ""
+    ],
+    [
+      "Zhao",
+      "Jishen",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 10 Dec 2024 21:53:55 GMT"
+    }
+  ],
+  "updateDate": "2024-12-12",
+  "timestamp": 1733867635000,
+  "abstract": "  The automatic generation of RTL code (e.g., Verilog) through natural language\ninstructions has emerged as a promising direction with the advancement of large\nlanguage models (LLMs). However, producing RTL code that is both syntactically\nand functionally correct remains a significant challenge. Existing\nsingle-LLM-agent approaches face substantial limitations because they must\nnavigate between various programming languages and handle intricate generation,\nverification, and modification tasks. To address these challenges, this paper\nintroduces MAGE, the first open-source multi-agent AI system designed for\nrobust and accurate Verilog RTL code generation. We propose a novel\nhigh-temperature RTL candidate sampling and debugging system that effectively\nexplores the space of code candidates and significantly improves the quality of\nthe candidates. Furthermore, we design a novel Verilog-state checkpoint\nchecking mechanism that enables early detection of functional errors and\ndelivers precise feedback for targeted fixes, significantly enhancing the\nfunctional correctness of the generated RTL code. MAGE achieves a 95.7% rate of\nsyntactic and functional correctness code generation on VerilogEval-Human 2\nbenchmark, surpassing the state-of-the-art Claude-3.5-sonnet by 23.3 %,\ndemonstrating a robust and reliable approach for AI-driven RTL design\nworkflows.\n",
+  "subjects": [
+    "Computer Science/Hardware Architecture",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "0Es-1egK9kXZZbFMqaUo3fkNbH7wbTatq5FJcSQck-k",
+  "pdfSize": "1120762"
+}

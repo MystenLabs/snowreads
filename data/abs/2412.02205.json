@@ -1,0 +1,133 @@
+{
+  "id": "2412.02205",
+  "title": "DataLab: A Unified Platform for LLM-Powered Business Intelligence",
+  "authors": "Luoxuan Weng, Yinghao Tang, Yingchaojie Feng, Zhuo Chang, Peng Chen,\n  Ruiqin Chen, Haozhe Feng, Chen Hou, Danqing Huang, Yang Li, Huaming Rao,\n  Haonan Wang, Canshi Wei, Xiaofeng Yang, Yuhui Zhang, Yifeng Zheng, Xiuqi\n  Huang, Minfeng Zhu, Yuxin Ma, Bin Cui, Wei Chen",
+  "authorsParsed": [
+    [
+      "Weng",
+      "Luoxuan",
+      ""
+    ],
+    [
+      "Tang",
+      "Yinghao",
+      ""
+    ],
+    [
+      "Feng",
+      "Yingchaojie",
+      ""
+    ],
+    [
+      "Chang",
+      "Zhuo",
+      ""
+    ],
+    [
+      "Chen",
+      "Peng",
+      ""
+    ],
+    [
+      "Chen",
+      "Ruiqin",
+      ""
+    ],
+    [
+      "Feng",
+      "Haozhe",
+      ""
+    ],
+    [
+      "Hou",
+      "Chen",
+      ""
+    ],
+    [
+      "Huang",
+      "Danqing",
+      ""
+    ],
+    [
+      "Li",
+      "Yang",
+      ""
+    ],
+    [
+      "Rao",
+      "Huaming",
+      ""
+    ],
+    [
+      "Wang",
+      "Haonan",
+      ""
+    ],
+    [
+      "Wei",
+      "Canshi",
+      ""
+    ],
+    [
+      "Yang",
+      "Xiaofeng",
+      ""
+    ],
+    [
+      "Zhang",
+      "Yuhui",
+      ""
+    ],
+    [
+      "Zheng",
+      "Yifeng",
+      ""
+    ],
+    [
+      "Huang",
+      "Xiuqi",
+      ""
+    ],
+    [
+      "Zhu",
+      "Minfeng",
+      ""
+    ],
+    [
+      "Ma",
+      "Yuxin",
+      ""
+    ],
+    [
+      "Cui",
+      "Bin",
+      ""
+    ],
+    [
+      "Chen",
+      "Wei",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 3 Dec 2024 06:47:15 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Wed, 4 Dec 2024 16:12:08 GMT"
+    }
+  ],
+  "updateDate": "2024-12-05",
+  "timestamp": 1733208435000,
+  "abstract": "  Business intelligence (BI) transforms large volumes of data within modern\norganizations into actionable insights for informed decision-making. Recently,\nlarge language model (LLM)-based agents have streamlined the BI workflow by\nautomatically performing task planning, reasoning, and actions in executable\nenvironments based on natural language (NL) queries. However, existing\napproaches primarily focus on individual BI tasks such as NL2SQL and NL2VIS.\nThe fragmentation of tasks across different data roles and tools lead to\ninefficiencies and potential errors due to the iterative and collaborative\nnature of BI. In this paper, we introduce DataLab, a unified BI platform that\nintegrates a one-stop LLM-based agent framework with an augmented computational\nnotebook interface. DataLab supports a wide range of BI tasks for different\ndata roles by seamlessly combining LLM assistance with user customization\nwithin a single environment. To achieve this unification, we design a domain\nknowledge incorporation module tailored for enterprise-specific BI tasks, an\ninter-agent communication mechanism to facilitate information sharing across\nthe BI workflow, and a cell-based context management strategy to enhance\ncontext utilization efficiency in BI notebooks. Extensive experiments\ndemonstrate that DataLab achieves state-of-the-art performance on various BI\ntasks across popular research benchmarks. Moreover, DataLab maintains high\neffectiveness and efficiency on real-world datasets from Tencent, achieving up\nto a 58.58% increase in accuracy and a 61.65% reduction in token cost on\nenterprise-specific BI tasks.\n",
+  "subjects": [
+    "Computer Science/Databases",
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Computation and Language"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "yaE1Kr2dKv-vqmGn16okHHOScLYq2KaquKOsWBHxaF0",
+  "pdfSize": "2957850"
+}

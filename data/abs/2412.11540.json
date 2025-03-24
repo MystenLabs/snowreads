@@ -1,0 +1,53 @@
+{
+  "id": "2412.11540",
+  "title": "SP$^2$T: Sparse Proxy Attention for Dual-stream Point Transformer",
+  "authors": "Jiaxu Wan, Hong Zhang, Ziqi He, Qishu Wang, Ding Yuan, Yifan Yang",
+  "authorsParsed": [
+    [
+      "Wan",
+      "Jiaxu",
+      ""
+    ],
+    [
+      "Zhang",
+      "Hong",
+      ""
+    ],
+    [
+      "He",
+      "Ziqi",
+      ""
+    ],
+    [
+      "Wang",
+      "Qishu",
+      ""
+    ],
+    [
+      "Yuan",
+      "Ding",
+      ""
+    ],
+    [
+      "Yang",
+      "Yifan",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 16 Dec 2024 08:21:09 GMT"
+    }
+  ],
+  "updateDate": "2024-12-17",
+  "timestamp": 1734337269000,
+  "abstract": "  In 3D understanding, point transformers have yielded significant advances in\nbroadening the receptive field. However, further enhancement of the receptive\nfield is hindered by the constraints of grouping attention. The proxy-based\nmodel, as a hot topic in image and language feature extraction, uses global or\nlocal proxies to expand the model's receptive field. But global proxy-based\nmethods fail to precisely determine proxy positions and are not suited for\ntasks like segmentation and detection in the point cloud, and exist local\nproxy-based methods for image face difficulties in global-local balance, proxy\nsampling in various point clouds, and parallel cross-attention computation for\nsparse association. In this paper, we present SP$^2$T, a local proxy-based dual\nstream point transformer, which promotes global receptive field while\nmaintaining a balance between local and global information. To tackle robust 3D\nproxy sampling, we propose a spatial-wise proxy sampling with vertex-based\npoint proxy associations, ensuring robust point-cloud sampling in many scales\nof point cloud. To resolve economical association computation, we introduce\nsparse proxy attention combined with table-based relative bias, which enables\nlow-cost and precise interactions between proxy and point features.\nComprehensive experiments across multiple datasets reveal that our model\nachieves SOTA performance in downstream tasks. The code has been released in\nhttps://github.com/TerenceWallel/Sparse-Proxy-Point-Transformer .\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "7rJw2ToQouTD-ixyD7BG57OV1F6FlqDUQvxQJ1ARqoE",
+  "pdfSize": "8632760"
+}

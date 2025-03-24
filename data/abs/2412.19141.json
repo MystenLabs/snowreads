@@ -1,0 +1,47 @@
+{
+  "id": "2412.19141",
+  "title": "How Panel Layouts Define Manga: Insights from Visual Ablation\n  Experiments",
+  "authors": "Siyuan Feng, Teruya Yoshinaga, Katsuhiko Hayashi, Koki Washio and\n  Hidetaka Kamigaito",
+  "authorsParsed": [
+    [
+      "Feng",
+      "Siyuan",
+      ""
+    ],
+    [
+      "Yoshinaga",
+      "Teruya",
+      ""
+    ],
+    [
+      "Hayashi",
+      "Katsuhiko",
+      ""
+    ],
+    [
+      "Washio",
+      "Koki",
+      ""
+    ],
+    [
+      "Kamigaito",
+      "Hidetaka",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 26 Dec 2024 09:53:37 GMT"
+    }
+  ],
+  "updateDate": "2024-12-30",
+  "timestamp": 1735206817000,
+  "abstract": "  Today, manga has gained worldwide popularity. However, the question of how\nvarious elements of manga, such as characters, text, and panel layouts, reflect\nthe uniqueness of a particular work, or even define it, remains an unexplored\narea. In this paper, we aim to quantitatively and qualitatively analyze the\nvisual characteristics of manga works, with a particular focus on panel layout\nfeatures. As a research method, we used facing page images of manga as input to\ntrain a deep learning model for predicting manga titles, examining\nclassification accuracy to quantitatively analyze these features. Specifically,\nwe conducted ablation studies by limiting page image information to panel\nframes to analyze the characteristics of panel layouts. Through a series of\nquantitative experiments using all 104 works, 12 genres, and 10,122 facing page\nimages from the Manga109 dataset, as well as qualitative analysis using\nGrad-CAM, our study demonstrates that the uniqueness of manga works is strongly\nreflected in their panel layouts.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "f_Wh234OI2XWub9_mSQtxK1Hr126G5Djbklc-Orm30U",
+  "pdfSize": "2807217"
+}

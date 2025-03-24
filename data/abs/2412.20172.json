@@ -1,0 +1,52 @@
+{
+  "id": "2412.20172",
+  "title": "On dataset transferability in medical image classification",
+  "authors": "Dovile Juodelyte, Enzo Ferrante, Yucheng Lu, Prabhant Singh, Joaquin\n  Vanschoren, Veronika Cheplygina",
+  "authorsParsed": [
+    [
+      "Juodelyte",
+      "Dovile",
+      ""
+    ],
+    [
+      "Ferrante",
+      "Enzo",
+      ""
+    ],
+    [
+      "Lu",
+      "Yucheng",
+      ""
+    ],
+    [
+      "Singh",
+      "Prabhant",
+      ""
+    ],
+    [
+      "Vanschoren",
+      "Joaquin",
+      ""
+    ],
+    [
+      "Cheplygina",
+      "Veronika",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 28 Dec 2024 15:00:04 GMT"
+    }
+  ],
+  "updateDate": "2024-12-31",
+  "timestamp": 1735398004000,
+  "abstract": "  Current transferability estimation methods designed for natural image\ndatasets are often suboptimal in medical image classification. These methods\nprimarily focus on estimating the suitability of pre-trained source model\nfeatures for a target dataset, which can lead to unrealistic predictions, such\nas suggesting that the target dataset is the best source for itself. To address\nthis, we propose a novel transferability metric that combines feature quality\nwith gradients to evaluate both the suitability and adaptability of source\nmodel features for target tasks. We evaluate our approach in two new scenarios:\nsource dataset transferability for medical image classification and\ncross-domain transferability. Our results show that our method outperforms\nexisting transferability metrics in both settings. We also provide insight into\nthe factors influencing transfer performance in medical image classification,\nas well as the dynamics of cross-domain transfer from natural to medical\nimages. Additionally, we provide ground-truth transfer performance benchmarking\nresults to encourage further research into transferability estimation for\nmedical image classification. Our code and experiments are available at\nhttps://github.com/DovileDo/transferability-in-medical-imaging.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "TATmE7ypFtMv-fQ1lqKxg0RTqUbV2oJNDZx_3nYQmtA",
+  "pdfSize": "1592572"
+}

@@ -1,0 +1,72 @@
+{
+  "id": "2412.01928",
+  "title": "MALT: Improving Reasoning with Multi-Agent LLM Training",
+  "authors": "Sumeet Ramesh Motwani, Chandler Smith, Rocktim Jyoti Das, Rafael\n  Rafailov, Ivan Laptev, Philip H. S. Torr, Fabio Pizzati, Ronald Clark,\n  Christian Schroeder de Witt",
+  "authorsParsed": [
+    [
+      "Motwani",
+      "Sumeet Ramesh",
+      ""
+    ],
+    [
+      "Smith",
+      "Chandler",
+      ""
+    ],
+    [
+      "Das",
+      "Rocktim Jyoti",
+      ""
+    ],
+    [
+      "Rafailov",
+      "Rafael",
+      ""
+    ],
+    [
+      "Laptev",
+      "Ivan",
+      ""
+    ],
+    [
+      "Torr",
+      "Philip H. S.",
+      ""
+    ],
+    [
+      "Pizzati",
+      "Fabio",
+      ""
+    ],
+    [
+      "Clark",
+      "Ronald",
+      ""
+    ],
+    [
+      "de Witt",
+      "Christian Schroeder",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 2 Dec 2024 19:30:36 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Thu, 27 Feb 2025 11:25:02 GMT"
+    }
+  ],
+  "updateDate": "2025-02-28",
+  "timestamp": 1733167836000,
+  "abstract": "  Large Language Models (LLMs) often produce answers with a single\nchain-of-thought, which restricts their ability to explore reasoning paths or\nself-correct flawed outputs in complex tasks. In this paper, we introduce MALT\n(Multi-Agent LLM Training), a novel post-training strategy that divides the\nreasoning process into generation, verification, and refinement steps using a\nsequential pipeline of heterogeneous agents. During data generation, each agent\nis repeatedly sampled to form a multi-agent search tree, where final outputs\nare graded against ground-truth data. We then apply value iteration to\npropagate reward signals back to each role-conditioned model, automatically\nproducing multi-agent post-training data without human or teacher-model\nsupervision. Our off-policy approach allows each agent to specialize by\nlearning from correct and incorrect trajectories, ultimately improving the\nend-to-end reasoning chain. On MATH, GSM8K, and CSQA, MALT surpasses the same\nbaseline LLM with a relative improvement of 15.66%, 7.42%, and 9.40%\nrespectively, making it an important advance towards multi-agent cooperative\ntraining.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "vrPWWb0Y71oh9JNSjo6ghZb5GsGtGqMidXmkTzv2iOU",
+  "pdfSize": "706040"
+}

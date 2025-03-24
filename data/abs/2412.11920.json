@@ -1,0 +1,38 @@
+{
+  "id": "2412.11920",
+  "title": "How to avoid order reduction in third-order exponential Runge--Kutta\n  methods for problems with non-commutative operators?",
+  "authors": "Thi Tam Dang, Trung Hau Hoang",
+  "authorsParsed": [
+    [
+      "Dang",
+      "Thi Tam",
+      ""
+    ],
+    [
+      "Hoang",
+      "Trung Hau",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 16 Dec 2024 16:06:54 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Tue, 24 Dec 2024 22:15:02 GMT"
+    }
+  ],
+  "updateDate": "2024-12-30",
+  "timestamp": 1734365214000,
+  "abstract": "  This paper investigates the performance of a subclass of exponential\nintegrators, specifically explicit exponential Runge--Kutta methods. It is well\nknown that third-order methods can suffer from order reduction when applied to\nlinearized problems involving unbounded and non-commuting operators. In this\nwork, we consider a fourth-stage third-order Runge--Kutta method, which\nsuccessfully achieves the expected order of accuracy and avoids order\nreduction, as long as all required order conditions are satisfied. The\nconvergence analysis is carried out under the assumption of higher regularity\nfor the initial data. Numerical experiments are provided to validate the\ntheoretical results.\n",
+  "subjects": [
+    "Mathematics/Numerical Analysis",
+    "Computer Science/Numerical Analysis",
+    "Mathematics/Functional Analysis"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "AIW-3c5zAExSfLvfFwHouIwdD8WLx_JDIDZRfsGOwJU",
+  "pdfSize": "436621"
+}

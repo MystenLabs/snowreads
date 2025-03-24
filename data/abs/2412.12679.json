@@ -1,0 +1,42 @@
+{
+  "id": "2412.12679",
+  "title": "Detecting Document-level Paraphrased Machine Generated Content:\n  Mimicking Human Writing Style and Involving Discourse Features",
+  "authors": "Yupei Li, Manuel Milling, Lucia Specia, Bj\\\"orn W. Schuller",
+  "authorsParsed": [
+    [
+      "Li",
+      "Yupei",
+      ""
+    ],
+    [
+      "Milling",
+      "Manuel",
+      ""
+    ],
+    [
+      "Specia",
+      "Lucia",
+      ""
+    ],
+    [
+      "Schuller",
+      "Björn W.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 17 Dec 2024 08:47:41 GMT"
+    }
+  ],
+  "updateDate": "2024-12-18",
+  "timestamp": 1734425261000,
+  "abstract": "  The availability of high-quality APIs for Large Language Models (LLMs) has\nfacilitated the widespread creation of Machine-Generated Content (MGC), posing\nchallenges such as academic plagiarism and the spread of misinformation.\nExisting MGC detectors often focus solely on surface-level information,\noverlooking implicit and structural features. This makes them susceptible to\ndeception by surface-level sentence patterns, particularly for longer texts and\nin texts that have been subsequently paraphrased.\n  To overcome these challenges, we introduce novel methodologies and datasets.\nBesides the publicly available dataset Plagbench, we developed the paraphrased\nLong-Form Question and Answer (paraLFQA) and paraphrased Writing Prompts\n(paraWP) datasets using GPT and DIPPER, a discourse paraphrasing tool, by\nextending artifacts from their original versions. To address the challenge of\ndetecting highly similar paraphrased texts, we propose MhBART, an\nencoder-decoder model designed to emulate human writing style while\nincorporating a novel difference score mechanism. This model outperforms strong\nclassifier baselines and identifies deceptive sentence patterns. To better\ncapture the structure of longer texts at document level, we propose\nDTransformer, a model that integrates discourse analysis through PDTB\npreprocessing to encode structural features. It results in substantial\nperformance gains across both datasets -- 15.5\\% absolute improvement on\nparaLFQA, 4\\% absolute improvement on paraWP, and 1.5\\% absolute improvement on\nM4 compared to SOTA approaches.\n",
+  "subjects": [
+    "Computer Science/Computation and Language"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "8_JJQB-5mMOszb1VADU3pUclowRUMXq1B0Fih3Lx2Mw",
+  "pdfSize": "1127737"
+}

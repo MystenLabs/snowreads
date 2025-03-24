@@ -1,0 +1,47 @@
+{
+  "id": "2412.09917",
+  "title": "Improving the predictive power of empirical shell-model Hamiltonians",
+  "authors": "J. A. Purcell, B. A. Brown, B. C. He, S. R. Stroberg, and W. B.\n  Walters",
+  "authorsParsed": [
+    [
+      "Purcell",
+      "J. A.",
+      ""
+    ],
+    [
+      "Brown",
+      "B. A.",
+      ""
+    ],
+    [
+      "He",
+      "B. C.",
+      ""
+    ],
+    [
+      "Stroberg",
+      "S. R.",
+      ""
+    ],
+    [
+      "Walters",
+      "W. B.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 13 Dec 2024 07:10:21 GMT"
+    }
+  ],
+  "updateDate": "2024-12-16",
+  "timestamp": 1734073821000,
+  "abstract": "  We present two developments which enhance the predictive power of empirical\nshell model Hamiltonians for cases in which calibration data is sparse. A\nrecent improvement in the ab initio derivation of effective Hamiltonians leads\nto a much better starting point for the optimization procedure. In addition, we\nintroduce a protocol to avoid over-fitting, enabling a more reliable\nextrapolation beyond available data. These developments will enable more robust\npredictions for exotic isotopes produced at rare isotope beam facilities and in\nastrophysical environments.\n",
+  "subjects": [
+    "Physics/Nuclear Theory"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "p9HLQxYwxuU6b2HHVpxKiGPZMXKa7hqFRFqUL6UqUeo",
+  "pdfSize": "1141348"
+}

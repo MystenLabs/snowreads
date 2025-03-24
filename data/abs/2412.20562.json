@@ -1,0 +1,43 @@
+{
+  "id": "2412.20562",
+  "title": "Some Necessary and Sufficient Conditions for Diophantine Graphs",
+  "authors": "M. A. Seoud, A. Elsonbaty, A. Nasr, M. Anwar",
+  "authorsParsed": [
+    [
+      "Seoud",
+      "M. A.",
+      ""
+    ],
+    [
+      "Elsonbaty",
+      "A.",
+      ""
+    ],
+    [
+      "Nasr",
+      "A.",
+      ""
+    ],
+    [
+      "Anwar",
+      "M.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 29 Dec 2024 20:17:34 GMT"
+    }
+  ],
+  "updateDate": "2024-12-31",
+  "timestamp": 1735503454000,
+  "abstract": "  A linear Diophantine equation $ax + by = n$ is solvable if and only if\ngcd$(a; b)$ divides $n$. A graph $G$ of order $n$ is called Diophantine if\nthere exists a labeling function $f$ of vertices such that gcd$(f(u); f(v))$\ndivides $n$ for every two adjacent vertices $u; v$ in $G$. In this work,\nmaximal Diophantine graphs on $n$ vertices, $D_n$, are defined, studied and\ngeneralized. The independence number, the number of vertices with full degree\nand the clique number of $D_n$ are computed. Each of these quantities is the\nbasis of a necessary condition for the existence of such a labeling.\n",
+  "subjects": [
+    "Mathematics/Combinatorics",
+    "Mathematics/Number Theory"
+  ],
+  "license": "http://creativecommons.org/licenses/by-sa/4.0/",
+  "blobId": "yYxaPFpCCCESrIPxdR7e-lHrKMefW7JPeJRyaemcQ9A",
+  "pdfSize": "219849"
+}

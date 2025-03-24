@@ -1,0 +1,53 @@
+{
+  "id": "2412.14922",
+  "title": "RobustFT: Robust Supervised Fine-tuning for Large Language Models under\n  Noisy Response",
+  "authors": "Junyu Luo, Xiao Luo, Kaize Ding, Jingyang Yuan, Zhiping Xiao, Ming\n  Zhang",
+  "authorsParsed": [
+    [
+      "Luo",
+      "Junyu",
+      ""
+    ],
+    [
+      "Luo",
+      "Xiao",
+      ""
+    ],
+    [
+      "Ding",
+      "Kaize",
+      ""
+    ],
+    [
+      "Yuan",
+      "Jingyang",
+      ""
+    ],
+    [
+      "Xiao",
+      "Zhiping",
+      ""
+    ],
+    [
+      "Zhang",
+      "Ming",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 19 Dec 2024 15:00:18 GMT"
+    }
+  ],
+  "updateDate": "2024-12-20",
+  "timestamp": 1734620418000,
+  "abstract": "  Supervised fine-tuning (SFT) plays a crucial role in adapting large language\nmodels (LLMs) to specific domains or tasks. However, as demonstrated by\nempirical experiments, the collected data inevitably contains noise in\npractical applications, which poses significant challenges to model performance\non downstream tasks. Therefore, there is an urgent need for a noise-robust SFT\nframework to enhance model capabilities in downstream tasks. To address this\nchallenge, we introduce a robust SFT framework (RobustFT) that performs noise\ndetection and relabeling on downstream task data. For noise identification, our\napproach employs a multi-expert collaborative system with inference-enhanced\nmodels to achieve superior noise detection. In the denoising phase, we utilize\na context-enhanced strategy, which incorporates the most relevant and confident\nknowledge followed by careful assessment to generate reliable annotations.\nAdditionally, we introduce an effective data selection mechanism based on\nresponse entropy, ensuring only high-quality samples are retained for\nfine-tuning. Extensive experiments conducted on multiple LLMs across five\ndatasets demonstrate RobustFT's exceptional performance in noisy scenarios.\n",
+  "subjects": [
+    "Computer Science/Computation and Language",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "qq1YfJvnOO2G8l_9yHrVYgRWHsSBRgvGWkUKbn6Eqyw",
+  "pdfSize": "1126655"
+}

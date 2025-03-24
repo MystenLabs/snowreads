@@ -1,0 +1,66 @@
+{
+  "id": "2412.00401",
+  "title": "PAL -- Parallel active learning for machine-learned potentials",
+  "authors": "Chen Zhou, Marlen Neubert, Yuri Koide, Yumeng Zhang, Van-Quan Vuong,\n  Tobias Schl\\\"oder, Stefanie Dehnen, Pascal Friederich",
+  "authorsParsed": [
+    [
+      "Zhou",
+      "Chen",
+      ""
+    ],
+    [
+      "Neubert",
+      "Marlen",
+      ""
+    ],
+    [
+      "Koide",
+      "Yuri",
+      ""
+    ],
+    [
+      "Zhang",
+      "Yumeng",
+      ""
+    ],
+    [
+      "Vuong",
+      "Van-Quan",
+      ""
+    ],
+    [
+      "Schlöder",
+      "Tobias",
+      ""
+    ],
+    [
+      "Dehnen",
+      "Stefanie",
+      ""
+    ],
+    [
+      "Friederich",
+      "Pascal",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 30 Nov 2024 08:49:53 GMT"
+    }
+  ],
+  "updateDate": "2024-12-03",
+  "timestamp": 1732956593000,
+  "abstract": "  Constructing datasets representative of the target domain is essential for\ntraining effective machine learning models. Active learning (AL) is a promising\nmethod that iteratively extends training data to enhance model performance\nwhile minimizing data acquisition costs. However, current AL workflows often\nrequire human intervention and lack parallelism, leading to inefficiencies and\nunderutilization of modern computational resources. In this work, we introduce\nPAL, an automated, modular, and parallel active learning library that\nintegrates AL tasks and manages their execution and communication on shared-\nand distributed-memory systems using the Message Passing Interface (MPI). PAL\nprovides users with the flexibility to design and customize all components of\ntheir active learning scenarios, including machine learning models with\nuncertainty estimation, oracles for ground truth labeling, and strategies for\nexploring the target space. We demonstrate that PAL significantly reduces\ncomputational overhead and improves scalability, achieving substantial\nspeed-ups through asynchronous parallelization on CPU and GPU hardware.\nApplications of PAL to several real-world scenarios - including ground-state\nreactions in biomolecular systems, excited-state dynamics of molecules,\nsimulations of inorganic clusters, and thermo-fluid dynamics - illustrate its\neffectiveness in accelerating the development of machine learning models. Our\nresults show that PAL enables efficient utilization of high-performance\ncomputing resources in active learning workflows, fostering advancements in\nscientific research and engineering applications.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Condensed Matter/Materials Science",
+    "Computer Science/Distributed, Parallel, and Cluster Computing",
+    "Physics/Chemical Physics",
+    "Physics/Computational Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "-aIobVX_DXQcVC-VqlXP6mzlYe6rSOpiOEaSth4Mjcw",
+  "pdfSize": "6689141"
+}

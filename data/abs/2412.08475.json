@@ -1,0 +1,28 @@
+{
+  "id": "2412.08475",
+  "title": "Rethinking Mean Square Error: Why Information is a Superior Assessment\n  of Estimators",
+  "authors": "Paul Vos",
+  "authorsParsed": [
+    [
+      "Vos",
+      "Paul",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 11 Dec 2024 15:42:35 GMT"
+    }
+  ],
+  "updateDate": "2024-12-12",
+  "timestamp": 1733931755000,
+  "abstract": "  James-Stein (JS) estimators have been described as showing the inadequacy of\nmaximum likelihood estimation when assessed using mean square error (MSE). We\nclaim the problem is not with maximum likelihood (ML) but with MSE. When MSE is\nreplaced with a measure $\\Lambda$ of the information utilized by a statistic,\nlikelihood based methods are superior. The information measure $\\Lambda$\ndescribes not just point estimators but extends to Fisher's view of estimation\nso that we not only reconsider how estimators are assessed but also how we\ndefine an estimator. Fisher information and his views on the role of\nparameters, interpretation of probability, and logic of statistical inference\nfit well with $\\Lambda$ as measure of information.\n",
+  "subjects": [
+    "Mathematics/Statistics Theory",
+    "Statistics/Statistics Theory"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "YS0EchqT69DTX6TtOa0JxiWGiMiQL0DyqLnUEEaLcTM",
+  "pdfSize": "521887"
+}

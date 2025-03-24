@@ -1,0 +1,34 @@
+{
+  "id": "2412.07288",
+  "title": "Image Classification Using Singular Value Decomposition and Optimization",
+  "authors": "Isabela M. Yepes, Manasvi Goyal",
+  "authorsParsed": [
+    [
+      "Yepes",
+      "Isabela M.",
+      ""
+    ],
+    [
+      "Goyal",
+      "Manasvi",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 10 Dec 2024 08:17:13 GMT"
+    }
+  ],
+  "updateDate": "2024-12-11",
+  "timestamp": 1733818633000,
+  "abstract": "  This study investigates the applicability of Singular Value Decomposition for\nthe image classification of specific breeds of cats and dogs using fur color as\nthe primary identifying feature. Sequential Quadratic Programming (SQP) is\nemployed to construct optimally weighted templates. The proposed method\nachieves 69% accuracy using the Frobenius norm at rank 10. The results\npartially validate the assumption that dominant features, such as fur color,\ncan be effectively captured through low-rank approximations. However, the\naccuracy suggests that additional features or methods may be required for more\nrobust classification, highlighting the trade-off between simplicity and\nperformance in resource-constrained environments.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Numerical Analysis",
+    "Mathematics/Numerical Analysis"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "ZlTM1mOsh6xKHarIi6brPqjtmphF9lNjjY5SvIswjTM",
+  "pdfSize": "5218747"
+}

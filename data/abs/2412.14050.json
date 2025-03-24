@@ -1,0 +1,45 @@
+{
+  "id": "2412.14050",
+  "title": "Cross-Lingual Transfer of Debiasing and Detoxification in Multilingual\n  LLMs: An Extensive Investigation",
+  "authors": "Vera Neplenbroek, Arianna Bisazza, Raquel Fern\\'andez",
+  "authorsParsed": [
+    [
+      "Neplenbroek",
+      "Vera",
+      ""
+    ],
+    [
+      "Bisazza",
+      "Arianna",
+      ""
+    ],
+    [
+      "Fernández",
+      "Raquel",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 18 Dec 2024 17:05:08 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Fri, 20 Dec 2024 11:55:35 GMT"
+    },
+    {
+      "version": "v3",
+      "created": "Fri, 14 Feb 2025 15:39:29 GMT"
+    }
+  ],
+  "updateDate": "2025-02-17",
+  "timestamp": 1734541508000,
+  "abstract": "  Recent generative large language models (LLMs) show remarkable performance in\nnon-English languages, but when prompted in those languages they tend to\nexpress higher harmful social biases and toxicity levels. Prior work has shown\nthat finetuning on specialized datasets can mitigate this behavior, and doing\nso in English can transfer to other languages. In this work, we investigate the\nimpact of different finetuning methods on the model's bias and toxicity, but\nalso on its ability to produce fluent and diverse text. We reduce biases by\nfinetuning on curated non-harmful text, but find only direct preference\noptimization to be effective for mitigating toxicity. The mitigation caused by\napplying these methods in English also transfers to non-English languages. We\nfind evidence that the extent to which transfer takes place can be predicted by\nthe amount of data in a given language present in the model's pretraining data.\nHowever, this transfer of bias and toxicity mitigation often comes at the\nexpense of decreased language generation ability in non-English languages,\nhighlighting the importance of developing language-specific bias and toxicity\nmitigation methods.\n",
+  "subjects": [
+    "Computer Science/Computation and Language"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "E38N5YSCGwV-at7gx0ymYyHFqvRTwOrWxR8deAxPUyw",
+  "pdfSize": "1167281"
+}

@@ -1,0 +1,59 @@
+{
+  "id": "2412.01849",
+  "title": "Towards Data-centric Machine Learning on Directed Graphs: a Survey",
+  "authors": "Henan Sun, Xunkai Li, Daohan Su, Junyi Han, Rong-Hua Li, Guoren Wang",
+  "authorsParsed": [
+    [
+      "Sun",
+      "Henan",
+      ""
+    ],
+    [
+      "Li",
+      "Xunkai",
+      ""
+    ],
+    [
+      "Su",
+      "Daohan",
+      ""
+    ],
+    [
+      "Han",
+      "Junyi",
+      ""
+    ],
+    [
+      "Li",
+      "Rong-Hua",
+      ""
+    ],
+    [
+      "Wang",
+      "Guoren",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 28 Nov 2024 06:09:12 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Wed, 11 Dec 2024 08:28:37 GMT"
+    }
+  ],
+  "updateDate": "2024-12-12",
+  "timestamp": 1732774152000,
+  "abstract": "  In recent years, Graph Neural Networks (GNNs) have made significant advances\nin processing structured data. However, most of them primarily adopted a\nmodel-centric approach, which simplifies graphs by converting them into\nundirected formats and emphasizes model designs. This approach is inherently\nlimited in real-world applications due to the unavoidable information loss in\nsimple undirected graphs and the model optimization challenges that arise when\nexceeding the upper bounds of this sub-optimal data representational capacity.\nAs a result, there has been a shift toward data-centric methods that prioritize\nimproving graph quality and representation. Specifically, various types of\ngraphs can be derived from naturally structured data, including heterogeneous\ngraphs, hypergraphs, and directed graphs. Among these, directed graphs offer\ndistinct advantages in topological systems by modeling causal relationships,\nand directed GNNs have been extensively studied in recent years. However, a\ncomprehensive survey of this emerging topic is still lacking. Therefore, we aim\nto provide a comprehensive review of directed graph learning, with a particular\nfocus on a data-centric perspective. Specifically, we first introduce a novel\ntaxonomy for existing studies. Subsequently, we re-examine these methods from\nthe data-centric perspective, with an emphasis on understanding and improving\ndata representation. It demonstrates that a deep understanding of directed\ngraphs and their quality plays a crucial role in model performance.\nAdditionally, we explore the diverse applications of directed GNNs across 10+\ndomains, highlighting their broad applicability. Finally, we identify key\nopportunities and challenges within the field, offering insights that can guide\nfuture research and development in directed graph learning.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Databases",
+    "Computer Science/Social and Information Networks"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "NExFoB5x8fcVGLlCvhi1agxPdbb7Gg_UrUccSvzqYe8",
+  "pdfSize": "1059028"
+}

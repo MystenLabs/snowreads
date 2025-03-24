@@ -1,0 +1,43 @@
+{
+  "id": "2412.00594",
+  "title": "Simulating Rotating Newtonian Universes",
+  "authors": "Bal\\'azs P\\'al and Tze Goh and G\\'abor R\\'acz and Istv\\'an Szapudi",
+  "authorsParsed": [
+    [
+      "Pál",
+      "Balázs",
+      ""
+    ],
+    [
+      "Goh",
+      "Tze",
+      ""
+    ],
+    [
+      "Rácz",
+      "Gábor",
+      ""
+    ],
+    [
+      "Szapudi",
+      "István",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 30 Nov 2024 21:46:58 GMT"
+    }
+  ],
+  "updateDate": "2024-12-03",
+  "timestamp": 1733003218000,
+  "abstract": "  We present the results of a novel type of numerical simulation that realizes\na rotating Universe with a shear-free, rigid body rotation inspired by a\nG\\\"{o}del-like metric. We run cosmological simulations of unperturbed glasses\nwith various degrees of rotation in the Einstein-de Sitter and the $\\Lambda$CDM\ncosmologies. To achieve this, we use the StePS N-body code capable of\nsimulating the infinite Universe, overcoming the technical obstacles of\nclassical toroidal (periodic) topologies that would otherwise prevent us from\nrunning such simulations. Results show a clear anisotropy between the polar and\nequatorial expansion rates with more than $1\\%$ deviation from the isotropic\ncase for maximal rotation without closed timeline curves within the horizon,\n$\\omega_{0} \\approx 10^{-3}$ Gyr$^{-1}$; a considerable effect in the era of\nprecision cosmology.\n",
+  "subjects": [
+    "Astrophysics/Cosmology and Nongalactic Astrophysics",
+    "Physics/Computational Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "Zf58OUlpAiYMcExdCHsgLzT-BO-lSRKBqePCllwee2E",
+  "pdfSize": "489546"
+}

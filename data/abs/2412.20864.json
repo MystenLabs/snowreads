@@ -1,0 +1,29 @@
+{
+  "id": "2412.20864",
+  "title": "Enhancing Annotated Bibliography Generation with LLM Ensembles",
+  "authors": "Sergio Bermejo",
+  "authorsParsed": [
+    [
+      "Bermejo",
+      "Sergio",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 30 Dec 2024 11:07:05 GMT"
+    }
+  ],
+  "updateDate": "2024-12-31",
+  "timestamp": 1735556825000,
+  "abstract": "  This work proposes a novel approach to enhancing annotated bibliography\ngeneration through Large Language Model (LLM) ensembles. In particular,\nmultiple LLMs in different roles -- controllable text generation, evaluation,\nand summarization -- are introduced and validated using a systematic\nmethodology to enhance model performance in scholarly tasks. Output diversity\namong the ensemble that generates text is obtained using different LLM\nparameters, followed by an LLM acting as a judge to assess relevance, accuracy,\nand coherence. Responses selected by several combining strategies are then\nmerged and refined through summarization and redundancy removal techniques. The\npreliminary experimental validation demonstrates that the combined outputs from\nthe LLM ensemble improve coherence and relevance compared to individual\nresponses, leading to a 38% improvement in annotation quality and a 51%\nreduction in content redundancy, thus highlighting the potential for automating\ncomplex scholarly tasks while maintaining high-quality standards.\n",
+  "subjects": [
+    "Computer Science/Computation and Language",
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "0ip9fz4okyUjPfspyBvd6FPpzzqohDsuBLhkKJ-I7J0",
+  "pdfSize": "153041"
+}

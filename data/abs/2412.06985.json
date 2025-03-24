@@ -1,0 +1,46 @@
+{
+  "id": "2412.06985",
+  "title": "Ground Perturbation Detection via Lower-Limb Kinematic States During\n  Locomotion",
+  "authors": "Maria T. Tagliaferri, Leonardo Campeggi, Owen N. Beck, and Inseung\n  Kang",
+  "authorsParsed": [
+    [
+      "Tagliaferri",
+      "Maria T.",
+      ""
+    ],
+    [
+      "Campeggi",
+      "Leonardo",
+      ""
+    ],
+    [
+      "Beck",
+      "Owen N.",
+      ""
+    ],
+    [
+      "Kang",
+      "Inseung",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 9 Dec 2024 20:49:26 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Wed, 11 Dec 2024 17:29:15 GMT"
+    }
+  ],
+  "updateDate": "2024-12-12",
+  "timestamp": 1733777366000,
+  "abstract": "  Falls during daily ambulation activities are a leading cause of injury in\nolder adults due to delayed physiological responses to disturbances of balance.\nLower-limb exoskeletons have the potential to mitigate fall incidents by\ndetecting and reacting to perturbations before the user. Although commonly\nused, the standard metric for perturbation detection, whole-body angular\nmomentum, is poorly suited for exoskeleton applications due to computational\ndelays and additional tunings. To address this, we developed a novel ground\nperturbation detector using lower-limb kinematic states during locomotion. To\nidentify perturbations, we tracked deviations in the kinematic states from\ntheir nominal steady-state trajectories. Using a data-driven approach, we\nfurther optimized our detector with an open-source ground perturbation\nbiomechanics dataset. A pilot experimental validation with five able-bodied\nsubjects demonstrated that our model detected ground perturbations with 97.8%\naccuracy and only a delay of 23.1% within the gait cycle, outperforming the\nbenchmark by 46.8% in detection accuracy. The results of our study offer\nexciting promise for our detector and its potential utility to enhance the\ncontrollability of robotic assistive exoskeletons.\n",
+  "subjects": [
+    "Computer Science/Robotics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "tiARrPGWE8TgKJuRe7zb-BLCYOAN5M3XAhzoxXNVjF4",
+  "pdfSize": "1049263"
+}

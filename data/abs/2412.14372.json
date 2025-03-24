@@ -1,0 +1,37 @@
+{
+  "id": "2412.14372",
+  "title": "Python Agent in Ludii",
+  "authors": "Izaias S. de Lima Neto (1), Marco A. A. de Aguiar Vieira (1), Anderson\n  R. Tavares (1) ((1) Instituto de Inform\\'atica, Universidade Federal do Rio\n  Grande do Sul)",
+  "authorsParsed": [
+    [
+      "Neto",
+      "Izaias S. de Lima",
+      ""
+    ],
+    [
+      "Vieira",
+      "Marco A. A. de Aguiar",
+      ""
+    ],
+    [
+      "Tavares",
+      "Anderson R.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 18 Dec 2024 22:12:52 GMT"
+    }
+  ],
+  "updateDate": "2024-12-20",
+  "timestamp": 1734559972000,
+  "abstract": "  Ludii is a Java general game system with a considerable number of board\ngames, with an API for developing new agents and a game description language to\ncreate new games. To improve versatility and ease development, we provide\nPython interfaces for agent programming. This allows the use of Python modules\nto implement general game playing agents.\n  As a means of enabling Python for creating Ludii agents, the interfaces are\nimplemented using different Java libraries: jpy and Py4J. The main goal of this\nwork is to determine which version is faster. To do so, we conducted a\nperformance analysis of two different GGP algorithms, Minimax adapted to GGP\nand MCTS. The analysis was performed across several combinatorial games with\nvarying depth, branching factor, and ply time. For reproducibility, we provide\ntutorials and repositories.\n  Our analysis includes predictive models using regression, which suggest that\njpy is faster than Py4J, however slower than a native Java Ludii agent, as\nexpected.\n",
+  "subjects": [
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "DnSUCu1_dbs6Cd2a7S3EMIwJRFSPdl2ApeHYvssvhP4",
+  "pdfSize": "1544879"
+}

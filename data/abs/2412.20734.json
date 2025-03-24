@@ -1,0 +1,51 @@
+{
+  "id": "2412.20734",
+  "title": "Field-free, Quasi-continuous Operation of Optical Nanofiber Interface\n  with Two-dimensional Ferromagnetic Trap",
+  "authors": "Ruijuan Liu, Jinggu Wu, Yuan Jiang, Yanting Zhao, and Saijun Wu",
+  "authorsParsed": [
+    [
+      "Liu",
+      "Ruijuan",
+      ""
+    ],
+    [
+      "Wu",
+      "Jinggu",
+      ""
+    ],
+    [
+      "Jiang",
+      "Yuan",
+      ""
+    ],
+    [
+      "Zhao",
+      "Yanting",
+      ""
+    ],
+    [
+      "Wu",
+      "Saijun",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 30 Dec 2024 06:16:54 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Tue, 31 Dec 2024 04:42:46 GMT"
+    }
+  ],
+  "updateDate": "2025-01-03",
+  "timestamp": 1735539414000,
+  "abstract": "  A soft ferromagnetic foil uniformizes Tesla-level magnetic fields generated\nby attached permanent magnets, producing a uniform and electronically tunable\nsurface field on the opposite side. By arranging $n$ precisely fabricated\nrectangular foils, a nearly ideal magnetic quadrupole field with a substantial\ngradient can be created at center. This robust and tunable field configuration\nis useful for 2-dimensional magneto-optical trapping (2D-MOT) and magnetic\nguiding of cold atoms. In this work, by aligning an optical nanofiber (ONF) to\nthe zero-field line of a 2-foil-based planar 2D-MOT, we demonstrate field-free\noperation of the quantum optical interface in a quasi-continuous manner,\nwithout switching off the magnetic field. Transient transmission spectroscopy\nis performed with a measurement repetition rate as high as 250~kHz. An\nanomalous line broadening is observed, which is not fully understood, but is\npartly explained by a small residual field along the zero-field line. Through\nadditional field measurements and simulations, we clarify that this residual\nfield can be eliminated in an $n$=4 assembly, resulting in an ultra-straight 2D\ntrap to support efficient sub-Doppler cooling and uniform light-atom\ninteraction over exceptionally long field-free distances $l$. With the strong\nfield gradient to support atom guiding, the ferromagnetic device may also\nenable new quantum optical scenarios featuring interactions between co-guided\natoms and photons.\n",
+  "subjects": [
+    "Physics/Atomic Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "jBsPEkGUlfAOkfp6XUkKW9ab0e0QnP_ZcPldyxOdjMQ",
+  "pdfSize": "3581903"
+}

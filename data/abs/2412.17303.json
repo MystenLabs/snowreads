@@ -1,0 +1,48 @@
+{
+  "id": "2412.17303",
+  "title": "When Focus Enhances Utility: Target Range LDP Frequency Estimation and\n  Unknown Item Discovery",
+  "authors": "Bo Jiang, Wanrong Zhang, Donghang Lu, Jian Du, and Qiang Yan",
+  "authorsParsed": [
+    [
+      "Jiang",
+      "Bo",
+      ""
+    ],
+    [
+      "Zhang",
+      "Wanrong",
+      ""
+    ],
+    [
+      "Lu",
+      "Donghang",
+      ""
+    ],
+    [
+      "Du",
+      "Jian",
+      ""
+    ],
+    [
+      "Yan",
+      "Qiang",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 23 Dec 2024 05:50:11 GMT"
+    }
+  ],
+  "updateDate": "2024-12-24",
+  "timestamp": 1734933011000,
+  "abstract": "  Local Differential Privacy (LDP) protocols enable the collection of\nrandomized client messages for data analysis, without the necessity of a\ntrusted data curator. Such protocols have been successfully deployed in\nreal-world scenarios by major tech companies like Google, Apple, and Microsoft.\nIn this paper, we propose a Generalized Count Mean Sketch (GCMS) protocol that\ncaptures many existing frequency estimation protocols. Our method significantly\nimproves the three-way trade-offs between communication, privacy, and accuracy.\nWe also introduce a general utility analysis framework that enables optimizing\nparameter designs. {Based on that, we propose an Optimal Count Mean Sketch\n(OCMS) framework that minimizes the variance for collecting items with targeted\nfrequencies.} Moreover, we present a novel protocol for collecting data within\nunknown domain, as our frequency estimation protocols only work effectively\nwith known data domain. Leveraging the stability-based histogram technique\nalongside the Encryption-Shuffling-Analysis (ESA) framework, our approach\nemploys an auxiliary server to construct histograms without accessing original\ndata messages. This protocol achieves accuracy akin to the central DP model\nwhile offering local-like privacy guarantees and substantially lowering\ncomputational costs.\n",
+  "subjects": [
+    "Computer Science/Cryptography and Security",
+    "Computer Science/Databases"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "WZlyxCzcjBPItc6X6OUAGo-SiRRRvfDcHGXBB_iwNaY",
+  "pdfSize": "1708835"
+}

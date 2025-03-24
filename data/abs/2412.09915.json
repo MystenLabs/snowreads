@@ -1,0 +1,38 @@
+{
+  "id": "2412.09915",
+  "title": "Two-dimensional Constacyclic Codes over $\\mathbb{F}_q$",
+  "authors": "Vidya Sagar, Shikha Patel, Shayan Srinivasa Garani",
+  "authorsParsed": [
+    [
+      "Sagar",
+      "Vidya",
+      ""
+    ],
+    [
+      "Patel",
+      "Shikha",
+      ""
+    ],
+    [
+      "Garani",
+      "Shayan Srinivasa",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 13 Dec 2024 07:06:11 GMT"
+    }
+  ],
+  "updateDate": "2024-12-16",
+  "timestamp": 1734073571000,
+  "abstract": "  We consider two-dimensional $(\\lambda_1, \\lambda_2)$-constacyclic codes over\n$\\mathbb{F}_{q}$ of area $M N$, where $q$ is some power of prime $p$ with\n$\\gcd(M,p)=1$ and $\\gcd(N,p)=1$. With the help of common zero (CZ) set, we\ncharacterize 2-D constacyclic codes. Further, we provide an algorithm to\nconstruct an ideal basis of these codes by using their essential common zero\n(ECZ) sets. We describe the dual of 2-D constacyclic codes. Finally, we provide\nan encoding scheme for generating 2-D constacyclic codes. We present an example\nto illustrate that 2-D constacyclic codes can have better minimum distance\ncompared to their cyclic counterparts with the same code size and code rate.\n",
+  "subjects": [
+    "Computer Science/Information Theory",
+    "Mathematics/Information Theory"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "2449k1O8qGzXYxQdvvXr63XVo-DRE-EUTHqy23tFSDw",
+  "pdfSize": "769839"
+}

@@ -1,0 +1,39 @@
+{
+  "id": "2412.13838",
+  "title": "Machine-learning Accelerated Descriptor Design for Catalyst Discovery: A\n  CO$_2$ to Methanol Conversion Case Study",
+  "authors": "Prajwal Pisal, Ondrej Krejci, Patrick Rinke",
+  "authorsParsed": [
+    [
+      "Pisal",
+      "Prajwal",
+      ""
+    ],
+    [
+      "Krejci",
+      "Ondrej",
+      ""
+    ],
+    [
+      "Rinke",
+      "Patrick",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 18 Dec 2024 13:30:48 GMT"
+    }
+  ],
+  "updateDate": "2024-12-19",
+  "timestamp": 1734528648000,
+  "abstract": "  Transforming CO$_2$ into methanol represents a crucial step towards closing\nthe carbon cycle, with thermoreduction technology nearing industrial\napplication. However, obtaining high methanol yields and ensuring the stability\nof heterocatalysts remain significant challenges. Herein, we present a\nsophisticated computational framework to accelerate the discovery of novel\nthermal heterogeneous catalysts, using machine-learned force fields. We propose\na new catalytic descriptor, termed adsorption energy distribution, that\naggregates the binding energies for different catalyst facets, binding sites,\nand adsorbates. The descriptor is versatile and can easily be adjusted to a\nspecific reaction through careful choice of the key-step reactants and reaction\nintermediates. By applying unsupervised machine learning and statistical\nanalysis to a dataset comprising nearly 160 metallic alloys, we offer a\npowerful tool for catalyst discovery. Finally, we propose new promising\ncandidate materials such as ZnRh and ZnPt$_3$, which to our knowledge, have not\nyet been tested, and discuss their possible advantage in terms of stability.\n",
+  "subjects": [
+    "Physics/Chemical Physics",
+    "Condensed Matter/Materials Science",
+    "Physics/Computational Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "FqN31i46rYhZW4Z741QOs2CY0wa_oxGVwevoLm-VPY4",
+  "pdfSize": "4656453"
+}

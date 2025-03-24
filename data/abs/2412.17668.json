@@ -1,0 +1,43 @@
+{
+  "id": "2412.17668",
+  "title": "The Graph Coloring Game on $4\\times n$-Grids",
+  "authors": "Caroline Brosse, Nicolas Martins, Nicolas Nisse, Rudini Sampaio",
+  "authorsParsed": [
+    [
+      "Brosse",
+      "Caroline",
+      ""
+    ],
+    [
+      "Martins",
+      "Nicolas",
+      ""
+    ],
+    [
+      "Nisse",
+      "Nicolas",
+      ""
+    ],
+    [
+      "Sampaio",
+      "Rudini",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 23 Dec 2024 15:54:14 GMT"
+    }
+  ],
+  "updateDate": "2024-12-24",
+  "timestamp": 1734969254000,
+  "abstract": "  The graph coloring game is a famous two-player game (re)introduced by\nBodlaender in $1991$. Given a graph $G$ and $k \\in \\mathbb{N}$, Alice and Bob\nalternately (starting with Alice) color an uncolored vertex with some color in\n$\\{1,\\cdots,k\\}$ such that no two adjacent vertices receive a same color. If\neventually all vertices are colored, then Alice wins and Bob wins otherwise.\nThe game chromatic number $\\chi_g(G)$ is the smallest integer $k$ such that\nAlice has a winning strategy with $k$ colors in $G$. It has been recently\n(2020) shown that, given a graph $G$ and $k\\in \\mathbb{N}$, deciding whether\n$\\chi_g(G)\\leq k$ is PSPACE-complete. Surprisingly, this parameter is not well\nunderstood even in ``simple\" graph classes. Let $P_n$ denote the path with\n$n\\geq 1$ vertices. For instance, in the case of Cartesian grids, it is easy to\nshow that $\\chi_g(P_m \\times P_n) \\leq 5$ since $\\chi_g(G)\\leq \\Delta+1$ for\nany graph $G$ with maximum degree $\\Delta$. However, the exact value is only\nknown for small values of $m$, namely $\\chi_g(P_1\\times P_n)=3$,\n$\\chi_g(P_2\\times P_n)=4$ and $\\chi_g(P_3\\times P_n) =4$ for $n\\geq 4$\n[Raspaud, Wu, 2009]. Here, we prove that, for every $n\\geq 18$,\n$\\chi_g(P_4\\times P_n) =4$.\n",
+  "subjects": [
+    "Mathematics/Combinatorics",
+    "Computer Science/Discrete Mathematics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "ibIMuB3OkbzhIYS4QKgQRWFG-8axLC8AGc8rhFZ52qw",
+  "pdfSize": "276943"
+}

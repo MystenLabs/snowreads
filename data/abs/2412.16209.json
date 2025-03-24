@@ -1,0 +1,38 @@
+{
+  "id": "2412.16209",
+  "title": "Challenges learning from imbalanced data using tree-based models:\n  Prevalence estimates systematically depend on hyperparameters and can be\n  upwardly biased",
+  "authors": "Nathan Phelps, Daniel J. Lizotte, and Douglas G. Woolford",
+  "authorsParsed": [
+    [
+      "Phelps",
+      "Nathan",
+      ""
+    ],
+    [
+      "Lizotte",
+      "Daniel J.",
+      ""
+    ],
+    [
+      "Woolford",
+      "Douglas G.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 17 Dec 2024 19:38:29 GMT"
+    }
+  ],
+  "updateDate": "2024-12-24",
+  "timestamp": 1734464309000,
+  "abstract": "  Imbalanced binary classification problems arise in many fields of study. When\nusing machine learning models for these problems, it is common to subsample the\nmajority class (i.e., undersampling) to create a (more) balanced dataset for\nmodel training. This biases the model's predictions because the model learns\nfrom a dataset that does not follow the same data generating process as new\ndata. One way of accounting for this bias is to analytically map the resulting\npredictions to new values based on the sampling rate for the majority class,\nwhich was used to create the training dataset. While this approach may work\nwell for some machine learning models, we have found that calibrating a random\nforest this way has unintended negative consequences, including prevalence\nestimates that can be upwardly biased. These prevalence estimates depend on\nboth i) the number of predictors considered at each split in the random forest;\nand ii) the sampling rate used. We explain the former using known properties of\nrandom forests and analytical calibration. However, in investigating the latter\nissue, we made a surprising discovery - contrary to the widespread belief that\ndecision trees are biased towards the majority class, they actually can be\nbiased towards the minority class.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Statistics/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "BZ-hXbNbGToLFtHPHhzzvOJoICqnt1ytWx7y6izAHLg",
+  "pdfSize": "843675"
+}

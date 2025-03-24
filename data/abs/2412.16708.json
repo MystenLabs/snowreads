@@ -1,0 +1,47 @@
+{
+  "id": "2412.16708",
+  "title": "Towards More Robust Retrieval-Augmented Generation: Evaluating RAG Under\n  Adversarial Poisoning Attacks",
+  "authors": "Jinyan Su, Jin Peng Zhou, Zhengxin Zhang, Preslav Nakov, Claire Cardie",
+  "authorsParsed": [
+    [
+      "Su",
+      "Jinyan",
+      ""
+    ],
+    [
+      "Zhou",
+      "Jin Peng",
+      ""
+    ],
+    [
+      "Zhang",
+      "Zhengxin",
+      ""
+    ],
+    [
+      "Nakov",
+      "Preslav",
+      ""
+    ],
+    [
+      "Cardie",
+      "Claire",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 21 Dec 2024 17:31:52 GMT"
+    }
+  ],
+  "updateDate": "2024-12-24",
+  "timestamp": 1734802312000,
+  "abstract": "  Retrieval-Augmented Generation (RAG) systems have emerged as a promising\nsolution to mitigate LLM hallucinations and enhance their performance in\nknowledge-intensive domains. However, these systems are vulnerable to\nadversarial poisoning attacks, where malicious passages injected into retrieval\ndatabases can mislead the model into generating factually incorrect outputs. In\nthis paper, we investigate both the retrieval and the generation components of\nRAG systems to understand how to enhance their robustness against such attacks.\nFrom the retrieval perspective, we analyze why and how the adversarial contexts\nare retrieved and assess how the quality of the retrieved passages impacts\ndownstream generation. From a generation perspective, we evaluate whether LLMs'\nadvanced critical thinking and internal knowledge capabilities can be leveraged\nto mitigate the impact of adversarial contexts, i.e., using skeptical prompting\nas a self-defense mechanism. Our experiments and findings provide actionable\ninsights into designing safer and more resilient retrieval-augmented\nframeworks, paving the way for their reliable deployment in real-world\napplications.\n",
+  "subjects": [
+    "Computer Science/Information Retrieval"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "UdRNCV59viigsiiXLOCoOVN6m5t7X9-KQVjx1ViB1wo",
+  "pdfSize": "6851159"
+}

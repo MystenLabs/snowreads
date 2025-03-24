@@ -1,0 +1,38 @@
+{
+  "id": "2412.02735",
+  "title": "CPP-UT-Bench: Can LLMs Write Complex Unit Tests in C++?",
+  "authors": "Vaishnavi Bhargava, Rajat Ghosh, Debojyoti Dutta",
+  "authorsParsed": [
+    [
+      "Bhargava",
+      "Vaishnavi",
+      ""
+    ],
+    [
+      "Ghosh",
+      "Rajat",
+      ""
+    ],
+    [
+      "Dutta",
+      "Debojyoti",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 3 Dec 2024 18:35:24 GMT"
+    }
+  ],
+  "updateDate": "2024-12-05",
+  "timestamp": 1733250924000,
+  "abstract": "  We introduce CPP-UT-Bench, a benchmark dataset to measure C++ unit test\ngeneration capability of a large language model (LLM). CPP-UT-Bench aims to\nreflect a broad and diverse set of C++ codebases found in the real world. The\ndataset includes 2,653 {code, unit test} pairs drawn from 14 different\nopensource C++ codebases spanned across nine diverse domains including machine\nlearning, software testing, parsing, standard input-output, data engineering,\nlogging, complete expression evaluation, key value storage, and server\nprotocols. We demonstrated the effectiveness of CPP-UT-Bench as a benchmark\ndataset through extensive experiments in in-context learning,\nparameter-efficient fine-tuning (PEFT), and full-parameter fine-tuning. We also\ndiscussed the challenges of the dataset compilation and insights we learned\nfrom in-context learning and fine-tuning experiments. Besides the CPP-UT-Bench\ndataset and data compilation code, we are also offering the fine-tuned model\nweights for further research. For nine out of ten experiments, our fine-tuned\nLLMs outperformed the corresponding base models by an average of more than 70%.\n",
+  "subjects": [
+    "Computer Science/Software Engineering",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "y7FctPWJ0z1__OsSh1KpXCvMoUUOOuGkR_gVS0dki9c",
+  "pdfSize": "1330007"
+}

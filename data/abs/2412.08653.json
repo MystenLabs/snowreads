@@ -1,0 +1,33 @@
+{
+  "id": "2412.08653",
+  "title": "What AI evaluations for preventing catastrophic risks can and cannot do",
+  "authors": "Peter Barnett, Lisa Thiergart",
+  "authorsParsed": [
+    [
+      "Barnett",
+      "Peter",
+      ""
+    ],
+    [
+      "Thiergart",
+      "Lisa",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 26 Nov 2024 18:00:36 GMT"
+    }
+  ],
+  "updateDate": "2024-12-13",
+  "timestamp": 1732644036000,
+  "abstract": "  AI evaluations are an important component of the AI governance toolkit,\nunderlying current approaches to safety cases for preventing catastrophic\nrisks. Our paper examines what these evaluations can and cannot tell us.\nEvaluations can establish lower bounds on AI capabilities and assess certain\nmisuse risks given sufficient effort from evaluators.\n  Unfortunately, evaluations face fundamental limitations that cannot be\novercome within the current paradigm. These include an inability to establish\nupper bounds on capabilities, reliably forecast future model capabilities, or\nrobustly assess risks from autonomous AI systems. This means that while\nevaluations are valuable tools, we should not rely on them as our main way of\nensuring AI systems are safe. We conclude with recommendations for incremental\nimprovements to frontier AI safety, while acknowledging these fundamental\nlimitations remain unsolved.\n",
+  "subjects": [
+    "Computer Science/Computers and Society",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "O0kC9IHAwEesMS_3yca7aXpnhKJKb9UQYxfPptqk3FA",
+  "pdfSize": "1965705"
+}

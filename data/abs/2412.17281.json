@@ -1,0 +1,37 @@
+{
+  "id": "2412.17281",
+  "title": "Non-Convex Tensor Recovery from Local Measurements",
+  "authors": "Tongle Wu, Ying Sun, Jicong Fan",
+  "authorsParsed": [
+    [
+      "Wu",
+      "Tongle",
+      ""
+    ],
+    [
+      "Sun",
+      "Ying",
+      ""
+    ],
+    [
+      "Fan",
+      "Jicong",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 23 Dec 2024 05:04:56 GMT"
+    }
+  ],
+  "updateDate": "2024-12-24",
+  "timestamp": 1734930296000,
+  "abstract": "  Motivated by the settings where sensing the entire tensor is infeasible, this\npaper proposes a novel tensor compressed sensing model, where measurements are\nonly obtained from sensing each lateral slice via mutually independent\nmatrices. Leveraging the low tubal rank structure, we reparameterize the\nunknown tensor ${\\boldsymbol {\\mathcal X}}^\\star$ using two compact tensor\nfactors and formulate the recovery problem as a nonconvex minimization problem.\nTo solve the problem, we first propose an alternating minimization algorithm,\ntermed \\textsf{Alt-PGD-Min}, that iteratively optimizes the two factors using a\nprojected gradient descent and an exact minimization step, respectively.\nDespite nonconvexity, we prove that \\textsf{Alt-PGD-Min} achieves\n$\\epsilon$-accuracy recovery with $\\mathcal O\\left( \\kappa^2 \\log\n\\frac{1}{\\epsilon}\\right)$ iteration complexity and $\\mathcal O\\left(\n\\kappa^6rn_3\\log n_3 \\left( \\kappa^2r\\left(n_1 + n_2 \\right) + n_1 \\log\n\\frac{1}{\\epsilon}\\right) \\right)$ sample complexity, where $\\kappa$ denotes\ntensor condition number of $\\boldsymbol{\\mathcal X}^\\star$. To further\naccelerate the convergence, especially when the tensor is ill-conditioned with\nlarge $\\kappa$, we prove \\textsf{Alt-ScalePGD-Min} that preconditions the\ngradient update using an approximate Hessian that can be computed efficiently.\nWe show that \\textsf{Alt-ScalePGD-Min} achieves $\\kappa$ independent iteration\ncomplexity $\\mathcal O(\\log \\frac{1}{\\epsilon})$ and improves the sample\ncomplexity to $\\mathcal O\\left( \\kappa^4 rn_3 \\log n_3 \\left(\n\\kappa^4r(n_1+n_2) + n_1 \\log \\frac{1}{\\epsilon}\\right) \\right)$. Experiments\nvalidate the effectiveness of the proposed methods.\n",
+  "subjects": [
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "62oTH671GfWx2cQM1wAMO_2EaZmGnsTP371ag47eDVo",
+  "pdfSize": "1002989"
+}

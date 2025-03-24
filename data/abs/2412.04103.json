@@ -1,0 +1,32 @@
+{
+  "id": "2412.04103",
+  "title": "Restricted Boltzmann machine network versus Jastrow correlated wave\n  function for the two-dimensional Hubbard model",
+  "authors": "Karthik V and Amal Medhi",
+  "authorsParsed": [
+    [
+      "V",
+      "Karthik",
+      ""
+    ],
+    [
+      "Medhi",
+      "Amal",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 5 Dec 2024 12:14:34 GMT"
+    }
+  ],
+  "updateDate": "2024-12-06",
+  "timestamp": 1733400874000,
+  "abstract": "  We consider a restricted Boltzmann Machine (RBM) correlated BCS wave function\nas the ground state of the two-dimensional Hubbard model and study its\nelectronic and magnetic properties as a function of hole doping. We compare the\nresults with those obtained by using conventional Jastrow projectors. The\nresults show that the RBM wave function outperforms the Jastrow projected ones\nin the underdoped region inmterms of the variational energy. Computation of\nsuperconducting (SC) correlations in the model shows that the RBM wave function\ngives slightly weaker SC correlations as compared to the Jastrow projected wave\nfunctions. A significant advantage of the RBM wave function is that it\nspontaneously gives rise to strong antiferromagnetic (AF) correlations in the\nunderdoped region even though the wave function does not incorporate any\nexplicit AF order. In comparison, AF correlations in the Jastrow projected wave\nfunctions are found to be very weak. These and other results obtained show that\nthe RBM wave function provides an improved description of the phase diagram of\nthe model. The work also demonstrates the power of neural-network quantum state\n(NQS) wave functions in the study of strongly correlated electron systems.\n",
+  "subjects": [
+    "Condensed Matter/Strongly Correlated Electrons"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "CDFmqEmA2TvHAogV0y5s22Rpp3pt2rtUL7naJ-SwrF4",
+  "pdfSize": "407312"
+}

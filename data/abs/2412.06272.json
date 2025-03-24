@@ -1,0 +1,39 @@
+{
+  "id": "2412.06272",
+  "title": "Methods for Legal Citation Prediction in the Age of LLMs: An Australian\n  Law Case Study",
+  "authors": "Ehsan Shareghi, Jiuzhou Han, Paul Burgess",
+  "authorsParsed": [
+    [
+      "Shareghi",
+      "Ehsan",
+      ""
+    ],
+    [
+      "Han",
+      "Jiuzhou",
+      ""
+    ],
+    [
+      "Burgess",
+      "Paul",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 9 Dec 2024 07:46:14 GMT"
+    }
+  ],
+  "updateDate": "2024-12-10",
+  "timestamp": 1733730374000,
+  "abstract": "  In recent years, Large Language Models (LLMs) have shown great potential\nacross a wide range of legal tasks. Despite these advances, mitigating\nhallucination remains a significant challenge, with state-of-the-art LLMs still\nfrequently generating incorrect legal references. In this paper, we focus on\nthe problem of legal citation prediction within the Australian law context,\nwhere correctly identifying and citing relevant legislations or precedents is\ncritical. We compare several approaches: prompting general purpose and\nlaw-specialised LLMs, retrieval-only pipelines with both generic and\ndomain-specific embeddings, task-specific instruction-tuning of LLMs, and\nhybrid strategies that combine LLMs with retrieval augmentation, query\nexpansion, or voting ensembles. Our findings indicate that domain-specific\npre-training alone is insufficient for achieving satisfactory citation accuracy\neven after law-specialised pre-training. In contrast, instruction tuning on our\ntask-specific dataset dramatically boosts performance reaching the best results\nacross all settings. We also highlight that database granularity along with the\ntype of embeddings play a critical role in the performance of retrieval\nsystems. Among retrieval-based approaches, hybrid methods consistently\noutperform retrieval-only setups, and among these, ensemble voting delivers the\nbest result by combining the predictive quality of instruction-tuned LLMs with\nthe retrieval system.\n",
+  "subjects": [
+    "Computer Science/Computation and Language",
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Information Retrieval"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "-4quJ4W6vnqArjuPyf3jjnYYX8GrQcZ9Ti0jUtys5Uk",
+  "pdfSize": "713229"
+}

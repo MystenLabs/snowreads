@@ -1,0 +1,47 @@
+{
+  "id": "2412.05158",
+  "title": "Gaining Explainability from a CNN for Stereotype Detection Based on Mice\n  Stopping Behavior",
+  "authors": "Raul Alfredo de Sousa Silva, Yasmine Belaidouni, Rabah Iguernaissi,\n  Djamal Merad, S\\'everine Dubuisson",
+  "authorsParsed": [
+    [
+      "Silva",
+      "Raul Alfredo de Sousa",
+      ""
+    ],
+    [
+      "Belaidouni",
+      "Yasmine",
+      ""
+    ],
+    [
+      "Iguernaissi",
+      "Rabah",
+      ""
+    ],
+    [
+      "Merad",
+      "Djamal",
+      ""
+    ],
+    [
+      "Dubuisson",
+      "Séverine",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 6 Dec 2024 16:22:00 GMT"
+    }
+  ],
+  "updateDate": "2024-12-09",
+  "timestamp": 1733502120000,
+  "abstract": "  Understanding the behavior of laboratory animals is a key to find answers\nabout diseases and neurodevelopmental disorders that also affects humans. One\nbehavior of interest is the stopping, as it correlates with exploration,\nfeeding and sleeping habits of individuals. To improve comprehension of\nanimal's behavior, we focus on identifying trait revealing age/sex of mice\nthrough the series of stopping spots of each individual. We track 4 mice using\nLiveMouseTracker (LMT) system during 3 days. Then, we build a stack of 2D\nhistograms of the stop positions. This stack of histograms passes through a\nshallow CNN architecture to classify mice in terms of age and sex. We observe\nthat female mice show more recognizable behavioral patterns, reaching a\nclassification accuracy of more than 90%, while males, which do not present as\nmany distinguishable patterns, reach an accuracy of 62.5%. To gain\nexplainability from the model, we look at the activation function of the\nconvolutional layers and found that some regions of the cage are preferentially\nexplored by females. Males, especially juveniles, present behavior patterns\nthat oscillate between juvenile female and adult male.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "TFJkYtDh6PwTEh-V72H46Jh-KEjUGeaY5alD0j7Mq64",
+  "pdfSize": "1031991"
+}

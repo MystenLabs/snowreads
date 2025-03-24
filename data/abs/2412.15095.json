@@ -1,0 +1,34 @@
+{
+  "id": "2412.15095",
+  "title": "A Full Transformer-based Framework for Automatic Pain Estimation using\n  Videos",
+  "authors": "Stefanos Gkikas, Manolis Tsiknakis",
+  "authorsParsed": [
+    [
+      "Gkikas",
+      "Stefanos",
+      ""
+    ],
+    [
+      "Tsiknakis",
+      "Manolis",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 19 Dec 2024 17:45:08 GMT"
+    }
+  ],
+  "updateDate": "2024-12-20",
+  "timestamp": 1734630308000,
+  "abstract": "  The automatic estimation of pain is essential in designing an optimal pain\nmanagement system offering reliable assessment and reducing the suffering of\npatients. In this study, we present a novel full transformer-based framework\nconsisting of a Transformer in Transformer (TNT) model and a Transformer\nleveraging cross-attention and self-attention blocks. Elaborating on videos\nfrom the BioVid database, we demonstrate state-of-the-art performances, showing\nthe efficacy, efficiency, and generalization capability across all the primary\npain estimation tasks.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "lvz35m3__uTVNFYpzwy-lpXJMb0orQVexTZo255587w",
+  "pdfSize": "1521629"
+}

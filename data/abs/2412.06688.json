@@ -1,0 +1,32 @@
+{
+  "id": "2412.06688",
+  "title": "Probabilistic Targeted Factor Analysis",
+  "authors": "Miguel C. Herculano and Santiago Montoya-Bland\\'on",
+  "authorsParsed": [
+    [
+      "Herculano",
+      "Miguel C.",
+      ""
+    ],
+    [
+      "Montoya-Blandón",
+      "Santiago",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 9 Dec 2024 17:30:33 GMT"
+    }
+  ],
+  "updateDate": "2024-12-10",
+  "timestamp": 1733765433000,
+  "abstract": "  We develop a probabilistic variant of Partial Least Squares (PLS) we call\nProbabilistic Targeted Factor Analysis (PTFA), which can be used to extract\ncommon factors in predictors that are useful to predict a set of predetermined\ntarget variables. Along with the technique, we provide an efficient\nexpectation-maximization (EM) algorithm to learn the parameters and forecast\nthe targets of interest. We develop a number of extensions to missing-at-random\ndata, stochastic volatility, and mixed-frequency data for real-time\nforecasting. In a simulation exercise, we show that PTFA outperforms PLS at\nrecovering the common underlying factors affecting both features and target\nvariables delivering better in-sample fit, and providing valid forecasts under\ncontamination such as measurement error or outliers. Finally, we provide two\napplications in Economics and Finance where PTFA performs competitively\ncompared with PLS and Principal Component Analysis (PCA) at out-of-sample\nforecasting.\n",
+  "subjects": [
+    "Economics/Econometrics"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "n1qr5IwFjsJI3E8gJoSNOG3fZI8Kie4p3-ZcYlWp9G0",
+  "pdfSize": "833777"
+}

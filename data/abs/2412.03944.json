@@ -1,0 +1,37 @@
+{
+  "id": "2412.03944",
+  "title": "Chain-of-Thought in Large Language Models: Decoding, Projection, and\n  Activation",
+  "authors": "Hao Yang, Qianghua Zhao and Lei Li",
+  "authorsParsed": [
+    [
+      "Yang",
+      "Hao",
+      ""
+    ],
+    [
+      "Zhao",
+      "Qianghua",
+      ""
+    ],
+    [
+      "Li",
+      "Lei",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 5 Dec 2024 07:47:29 GMT"
+    }
+  ],
+  "updateDate": "2024-12-06",
+  "timestamp": 1733384849000,
+  "abstract": "  Chain-of-Thought prompting has significantly enhanced the reasoning\ncapabilities of large language models, with numerous studies exploring factors\ninfluencing its performance. However, the underlying mechanisms remain poorly\nunderstood. To further demystify the operational principles, this work examines\nthree key aspects: decoding, projection, and activation, aiming to elucidate\nthe changes that occur within models when employing Chainof-Thought. Our\nfindings reveal that LLMs effectively imitate exemplar formats while\nintegrating them with their understanding of the question, exhibiting\nfluctuations in token logits during generation but ultimately producing a more\nconcentrated logits distribution, and activating a broader set of neurons in\nthe final layers, indicating more extensive knowledge retrieval compared to\nstandard prompts. Our code and data will be publicly avialable when the paper\nis accepted.\n",
+  "subjects": [
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+  "blobId": "_5dWlrwLathqkeblKy5A7kw-lXDqF3uu99Ak2ahGPVY",
+  "pdfSize": "3238713"
+}

@@ -1,0 +1,37 @@
+{
+  "id": "2412.20576",
+  "title": "Air entrainment and gas transfer processes in wave breaking events",
+  "authors": "Simone Di Giorgio, Sergio Pirozzoli, Alessandro Iafrati",
+  "authorsParsed": [
+    [
+      "Di Giorgio",
+      "Simone",
+      ""
+    ],
+    [
+      "Pirozzoli",
+      "Sergio",
+      ""
+    ],
+    [
+      "Iafrati",
+      "Alessandro",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 29 Dec 2024 20:54:01 GMT"
+    }
+  ],
+  "updateDate": "2024-12-31",
+  "timestamp": 1735505641000,
+  "abstract": "  We investigate gas transfer processes occurring at the air-water interface of\nprogressive water waves using high-fidelity numerical simulations. Waves with\nvarying initial steepness, including regular wave patterns, mild spilling and\nintense plunging breakers are examined. A multiphase solver is employed to\nmodel gas flux and diffusion processes enabling precise estimation of the\nair-water interface area and gas transfer velocity, achieving an accuracy\nunattainable in experiments. We reveal that the volume of gas transferred\nacross the air-water interface increases significantly with the amount of air\nentrained due to wave breaking, peak values in the gas transfer velocity being\nconcurrent with peaks in energy dissipation rate and air entrainment.\nFurthermore, the gas transfer velocity is observed to scale approximately as\nthe one-fourth power of the energy dissipation rate, consistent with previous\ntheoretical predictions. We anticipate that the present findings can help\nreduce the substantial uncertainty associated with parameterizing fundamental\nnatural processes, such as CO2 absorption by the oceans.\n",
+  "subjects": [
+    "Physics/Fluid Dynamics"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "74Qd-GdfP2ywMikOqq0u7sqLoFhDmV9SdhOk6TM0Z4M",
+  "pdfSize": "11652878"
+}

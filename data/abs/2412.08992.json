@@ -1,0 +1,63 @@
+{
+  "id": "2412.08992",
+  "title": "Benchmarking of GPU-optimized Quantum-Inspired Evolutionary Optimization\n  Algorithm using Functional Analysis",
+  "authors": "Kandula Eswara Sai Kumar, Supreeth B S, Rajas Dalvi, Aman Mittal,\n  Aakif Akhtar, Ferdin Don Bosco, Rut Lineswala, Abhishek Chopra",
+  "authorsParsed": [
+    [
+      "Kumar",
+      "Kandula Eswara Sai",
+      ""
+    ],
+    [
+      "S",
+      "Supreeth B",
+      ""
+    ],
+    [
+      "Dalvi",
+      "Rajas",
+      ""
+    ],
+    [
+      "Mittal",
+      "Aman",
+      ""
+    ],
+    [
+      "Akhtar",
+      "Aakif",
+      ""
+    ],
+    [
+      "Bosco",
+      "Ferdin Don",
+      ""
+    ],
+    [
+      "Lineswala",
+      "Rut",
+      ""
+    ],
+    [
+      "Chopra",
+      "Abhishek",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 12 Dec 2024 06:47:23 GMT"
+    }
+  ],
+  "updateDate": "2024-12-13",
+  "timestamp": 1733986043000,
+  "abstract": "  This article presents a comparative analysis of GPU-parallelized\nimplementations of the quantum-inspired evolutionary optimization (QIEO)\napproach and one of the well-known classical metaheuristic techniques, the\ngenetic algorithm (GA). The study assesses the performance of both algorithms\non highly non-linear, non-convex, and non-separable function optimization\nproblems, viz., Ackley, Rosenbrock, and Rastrigin, that are representative of\nthe complex real-world optimization problems. The performance of these\nalgorithms is checked by varying the population sizes by keeping all other\nparameters constant and comparing the fitness value it reached along with the\nnumber of function evaluations they required for convergence. The results\ndemonstrate that QIEO performs better for these functions than GA, by achieving\nthe target fitness with fewer function evaluations and significantly reducing\nthe total optimization time approximately three times for the Ackley function\nand four times for the Rosenbrock and Rastrigin functions. Furthermore, QIEO\nexhibits greater consistency across trials, with a steady convergence rate that\nleads to a more uniform number of function evaluations, highlighting its\nreliability in solving challenging optimization problems. The findings indicate\nthat QIEO is a promising alternative to GA for these kind of functions.\n",
+  "subjects": [
+    "Computer Science/Computational Engineering, Finance, and Science",
+    "Computer Science/Neural and Evolutionary Computing"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "dbWEqQB17EXpMTqsFI5y_ZaZ56FS_kyRuGLSR6VMuZE",
+  "pdfSize": "1636904"
+}

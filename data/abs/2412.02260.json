@@ -1,0 +1,39 @@
+{
+  "id": "2412.02260",
+  "title": "BiCSI: A Binary Encoding and Fingerprint-Based Matching Algorithm for\n  Wi-Fi Indoor Positioning",
+  "authors": "Pei Tang, Jingtao Guo, and Ivan Wang-Hei Ho",
+  "authorsParsed": [
+    [
+      "Tang",
+      "Pei",
+      ""
+    ],
+    [
+      "Guo",
+      "Jingtao",
+      ""
+    ],
+    [
+      "Ho",
+      "Ivan Wang-Hei",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 3 Dec 2024 08:34:34 GMT"
+    }
+  ],
+  "updateDate": "2024-12-04",
+  "timestamp": 1733214874000,
+  "abstract": "  Traditional global positioning systems often underperform indoors, whereas\nWi-Fi has become an effective medium for various radio sensing services.\nSpecifically, utilizing channel state information (CSI) from Wi-Fi networks\nprovides a non-contact method for precise indoor positioning; yet, accurately\ninterpreting the complex CSI matrix to develop a reliable strategy for physical\nsimilarity measurement remains challenging. This paper presents BiCSI, which\nmerges binary encoding with fingerprint-based techniques to improve position\nmatching for detecting semi-stationary targets. Inspired by gene sequencing\nprocesses, BiCSI initially converts CSI matrices into binary sequences and\nemploys Hamming distances to evaluate signal similarity. The results show that\nBiCSI achieves an average accuracy above 98% and a mean absolute error (MAE) of\nless than three centimeters, outperforming algorithms directly dependent on\nphysical measurements by at least two-fold. Moreover, the proposed method for\nextracting feature vectors from CSI matrices as fingerprints significantly\nreduces data storage requirements to the kilobyte range, far below the\nmegabytes typically required by conventional machine learning models.\nAdditionally, the results demonstrate that the proposed algorithm adapts well\nto multiple physical similarity metrics, and remains robust over different time\nperiods, enhancing its utility and versatility in various scenarios.\n",
+  "subjects": [
+    "Electrical Engineering and Systems Science/Signal Processing",
+    "Computer Science/Information Theory",
+    "Mathematics/Information Theory"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "T5kohs-F6Gity4OKOQs3AZJ3qHHhGeOXaNrUECQTZHg",
+  "pdfSize": "1296618"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2412.13339",
+  "title": "Accelerating the Operation of Complex Workflows through Standard Data\n  Interfaces",
+  "authors": "Taylor Paul, William Regli",
+  "authorsParsed": [
+    [
+      "Paul",
+      "Taylor",
+      ""
+    ],
+    [
+      "Regli",
+      "William",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 17 Dec 2024 21:22:22 GMT"
+    }
+  ],
+  "updateDate": "2024-12-19",
+  "timestamp": 1734470542000,
+  "abstract": "  In this position paper we argue for standardizing how we share and process\ndata in scientific workflows at the network-level to maximize step re-use and\nworkflow portability across platforms and networks in pursuit of a foundational\nworkflow stack. We look to evolve workflows from steps connected point-to-point\nin a directed acyclic graph (DAG) to steps connected via shared channels in a\nmessage system implemented as a network service. To start this evolution, we\ncontribute: a preliminary reference model, architecture, and open tools to\nimplement the architecture today. Our goal stands to improve the deployment and\noperation of complex workflows by decoupling data sharing and data processing\nin workflow steps. We seek the workflow community's input on this approach's\nmerit, related research to explore and initial requirements from the workflows\ncommunity to inform future research.\n",
+  "subjects": [
+    "Computer Science/Distributed, Parallel, and Cluster Computing",
+    "Computer Science/Networking and Internet Architecture"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "y0EAkPTu7J-KUeasp7bgrzBdYvwKrTcv7twLn8qMqVA",
+  "pdfSize": "859110"
+}

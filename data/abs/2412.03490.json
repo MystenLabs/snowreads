@@ -1,0 +1,42 @@
+{
+  "id": "2412.03490",
+  "title": "Data Fusion of Semantic and Depth Information in the Context of Object\n  Detection",
+  "authors": "Md Abu Yusuf, Md Rezaul Karim Khan, Partha Pratim Saha, Mohammed\n  Mahbubur Rahaman",
+  "authorsParsed": [
+    [
+      "Yusuf",
+      "Md Abu",
+      ""
+    ],
+    [
+      "Khan",
+      "Md Rezaul Karim",
+      ""
+    ],
+    [
+      "Saha",
+      "Partha Pratim",
+      ""
+    ],
+    [
+      "Rahaman",
+      "Mohammed Mahbubur",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 4 Dec 2024 17:26:30 GMT"
+    }
+  ],
+  "updateDate": "2024-12-05",
+  "timestamp": 1733333190000,
+  "abstract": "  Considerable study has already been conducted regarding autonomous driving in\nmodern era. An autonomous driving system must be extremely good at detecting\nobjects surrounding the car to ensure safety. In this paper, classification,\nand estimation of an object's (pedestrian) position (concerning an ego 3D\ncoordinate system) are studied and the distance between the ego vehicle and the\nobject in the context of autonomous driving is measured. To classify the\nobject, faster Region-based Convolution Neural Network (R-CNN) with inception\nv2 is utilized. First, a network is trained with customized dataset to estimate\nthe reference position of objects as well as the distance from the vehicle.\nFrom camera calibration to computing the distance, cutting-edge technologies of\ncomputer vision algorithms in a series of processes are applied to generate a\n3D reference point of the region of interest. The foremost step in this process\nis generating a disparity map using the concept of stereo vision.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+  "blobId": "lZsZstBp3LVNCBr0erMjUohLlRr9IjB2b3QQtwYeN2I",
+  "pdfSize": "612117"
+}

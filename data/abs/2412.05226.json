@@ -1,0 +1,32 @@
+{
+  "id": "2412.05226",
+  "title": "Partial Wavefunction Collapse Under Repeated Weak Measurement of a\n  non-Conserved Observable",
+  "authors": "Carter Swift and Nandini Trivedi",
+  "authorsParsed": [
+    [
+      "Swift",
+      "Carter",
+      ""
+    ],
+    [
+      "Trivedi",
+      "Nandini",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 6 Dec 2024 17:58:38 GMT"
+    }
+  ],
+  "updateDate": "2024-12-09",
+  "timestamp": 1733507918000,
+  "abstract": "  Two hallmarks of quantum non-demolition (QND) measurement are the\nensemble-level conservation of the expectation value of the measured observable\n$A$ and the eventual, inevitable collapse of the system into some eigenstate of\n$A$. This requires that $A$ commutes with $H$, the system's Hamiltonian. In\nwhat we term \"non-QND\" measurement, $A$ does not commute with $H$ and these two\ncharacteristics clearly cannot be present as the system's dynamics prevent\n$\\langle A \\rangle$ from reaching a stable value. However, in this paper we\nfind that under non-QND conditions, QND-like behavior can still arise, but is\nseen in the behavior of a secondary observable we call $B$, with the condition\nthat $B$ commutes with both $A$ and $H$. In such cases, the expectation value\nof $B$ is conserved and the system at least partially collapses with respect to\neigenstates of $B$. We show as an example how this surprising result applies to\na Heisenberg chain, where we demonstrate that local measurements on a single\nsite can reveal information about the entire system.\n",
+  "subjects": [
+    "Physics/Quantum Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "d2Z969BWuAmn-mKtTuQ7gGO5MyvYexT2NmyODuV-EGY",
+  "pdfSize": "440716"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "2412.01046",
+  "title": "Improving Detail in Pluralistic Image Inpainting with Feature\n  Dequantization",
+  "authors": "Kyungri Park and Woohwan Jung",
+  "authorsParsed": [
+    [
+      "Park",
+      "Kyungri",
+      ""
+    ],
+    [
+      "Jung",
+      "Woohwan",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 2 Dec 2024 02:06:04 GMT"
+    }
+  ],
+  "updateDate": "2024-12-03",
+  "timestamp": 1733105164000,
+  "abstract": "  Pluralistic Image Inpainting (PII) offers multiple plausible solutions for\nrestoring missing parts of images and has been successfully applied to various\napplications including image editing and object removal. Recently, VQGAN-based\nmethods have been proposed and have shown that they significantly improve the\nstructural integrity in the generated images. Nevertheless, the\nstate-of-the-art VQGAN-based model PUT faces a critical challenge: degradation\nof detail quality in output images due to feature quantization. Feature\nquantization restricts the latent space and causes information loss, which\nnegatively affects the detail quality essential for image inpainting. To tackle\nthe problem, we propose the FDM (Feature Dequantization Module) specifically\ndesigned to restore the detail quality of images by compensating for the\ninformation loss. Furthermore, we develop an efficient training method for FDM\nwhich drastically reduces training costs. We empirically demonstrate that our\nmethod significantly enhances the detail quality of the generated images with\nnegligible training and inference overheads.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "9tTe3k3ptTE3QKBCw8R9FDcBx6yoCuT7hcRQ3D-7fPc",
+  "pdfSize": "6929202"
+}

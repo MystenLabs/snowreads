@@ -1,0 +1,44 @@
+{
+  "id": "2412.10537",
+  "title": "ExclaveFL: Providing Transparency to Federated Learning using Exclaves",
+  "authors": "Jinnan Guo, Kapil Vaswani, Andrew Paverd, Peter Pietzuch",
+  "authorsParsed": [
+    [
+      "Guo",
+      "Jinnan",
+      ""
+    ],
+    [
+      "Vaswani",
+      "Kapil",
+      ""
+    ],
+    [
+      "Paverd",
+      "Andrew",
+      ""
+    ],
+    [
+      "Pietzuch",
+      "Peter",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 13 Dec 2024 20:20:30 GMT"
+    }
+  ],
+  "updateDate": "2024-12-17",
+  "timestamp": 1734121230000,
+  "abstract": "  In federated learning (FL), data providers jointly train a model without\ndisclosing their training data. Despite its privacy benefits, a malicious data\nprovider can simply deviate from the correct training protocol without being\ndetected, thus attacking the trained model. While current solutions have\nexplored the use of trusted execution environment (TEEs) to combat such\nattacks, there is a mismatch with the security needs of FL: TEEs offer\nconfidentiality guarantees, which are unnecessary for FL and make them\nvulnerable to side-channel attacks, and focus on coarse-grained attestation,\nwhich does not capture the execution of FL training.\n  We describe ExclaveFL, an FL platform that achieves end-to-end transparency\nand integrity for detecting attacks. ExclaveFL achieves this by employing a new\nhardware security abstraction, exclaves, which focus on integrity-only\nguarantees. ExclaveFL uses exclaves to protect the execution of FL tasks, while\ngenerating signed statements containing fine-grained, hardware-based\nattestation reports of task execution at runtime. ExclaveFL then enables\nauditing using these statements to construct an attested dataflow graph and\nthen check that the FL training jobs satisfies claims, such as the absence of\nattacks. Our experiments show that ExclaveFL introduces a less than 9% overhead\nwhile detecting a wide-range of attacks.\n",
+  "subjects": [
+    "Computer Science/Cryptography and Security",
+    "Computer Science/Distributed, Parallel, and Cluster Computing",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "W-Rf3d75gDH25HQ5gJW3_a4MtdcT02kn_PLVRR_k8zU",
+  "pdfSize": "1094163"
+}

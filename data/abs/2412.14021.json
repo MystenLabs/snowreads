@@ -1,0 +1,48 @@
+{
+  "id": "2412.14021",
+  "title": "Flow Exporter Impact on Intelligent Intrusion Detection Systems",
+  "authors": "Daniela Pinto, Jo\\~ao Vitorino, Eva Maia, Ivone Amorim, Isabel\n  Pra\\c{c}a",
+  "authorsParsed": [
+    [
+      "Pinto",
+      "Daniela",
+      ""
+    ],
+    [
+      "Vitorino",
+      "João",
+      ""
+    ],
+    [
+      "Maia",
+      "Eva",
+      ""
+    ],
+    [
+      "Amorim",
+      "Ivone",
+      ""
+    ],
+    [
+      "Praça",
+      "Isabel",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 18 Dec 2024 16:38:20 GMT"
+    }
+  ],
+  "updateDate": "2024-12-19",
+  "timestamp": 1734539900000,
+  "abstract": "  High-quality datasets are critical for training machine learning models, as\ninconsistencies in feature generation can hinder the accuracy and reliability\nof threat detection. For this reason, ensuring the quality of the data in\nnetwork intrusion detection datasets is important. A key component of this is\nusing reliable tools to generate the flows and features present in the\ndatasets. This paper investigates the impact of flow exporters on the\nperformance and reliability of machine learning models for intrusion detection.\nUsing HERA, a tool designed to export flows and extract features, the raw\nnetwork packets of two widely used datasets, UNSW-NB15 and CIC-IDS2017, were\nprocessed from PCAP files to generate new versions of these datasets. These\nwere compared to the original ones in terms of their influence on the\nperformance of several models, including Random Forest, XGBoost, LightGBM, and\nExplainable Boosting Machine. The results obtained were significant. Models\ntrained on the HERA version of the datasets consistently outperformed those\ntrained on the original dataset, showing improvements in accuracy and\nindicating a better generalisation. This highlighted the importance of flow\ngeneration in the model's ability to differentiate between benign and malicious\ntraffic.\n",
+  "subjects": [
+    "Computer Science/Cryptography and Security",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "zXrb1RFptYnqTxWXD65FREKQGzv21mwwe8s3nBgAfkU",
+  "pdfSize": "254055"
+}

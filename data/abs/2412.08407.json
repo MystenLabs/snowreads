@@ -1,0 +1,78 @@
+{
+  "id": "2412.08407",
+  "title": "Polymer Composites Informatics for Flammability, Thermal, Mechanical and\n  Electrical Property Predictions",
+  "authors": "Huan Tran, Chiho Kim, Rishi Gurnani, Oliver Hvidsten, Justin\n  DeSimpliciis, Rampi Ramprasad, Karim Gadelrab, Charles Tuffile, Nicola\n  Molinari, Daniil Kitchaev, Mordechai Kornbluth",
+  "authorsParsed": [
+    [
+      "Tran",
+      "Huan",
+      ""
+    ],
+    [
+      "Kim",
+      "Chiho",
+      ""
+    ],
+    [
+      "Gurnani",
+      "Rishi",
+      ""
+    ],
+    [
+      "Hvidsten",
+      "Oliver",
+      ""
+    ],
+    [
+      "DeSimpliciis",
+      "Justin",
+      ""
+    ],
+    [
+      "Ramprasad",
+      "Rampi",
+      ""
+    ],
+    [
+      "Gadelrab",
+      "Karim",
+      ""
+    ],
+    [
+      "Tuffile",
+      "Charles",
+      ""
+    ],
+    [
+      "Molinari",
+      "Nicola",
+      ""
+    ],
+    [
+      "Kitchaev",
+      "Daniil",
+      ""
+    ],
+    [
+      "Kornbluth",
+      "Mordechai",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 11 Dec 2024 14:27:56 GMT"
+    }
+  ],
+  "updateDate": "2024-12-12",
+  "timestamp": 1733927276000,
+  "abstract": "  Polymer composite performance depends significantly on the polymer matrix,\nadditives, processing conditions, and measurement setups. Traditional\nphysics-based optimization methods for these parameters can be slow,\nlabor-intensive, and costly, as they require physical manufacturing and\ntesting. Here, we introduce a first step in extending Polymer Informatics, an\nAI-based approach proven effective for neat polymer design, into the realm of\npolymer composites. We curate a comprehensive database of commercially\navailable polymer composites, develop a scheme for machine-readable data\nrepresentation, and train machine-learning models for 15 flame-resistant,\nmechanical, thermal, and electrical properties, validating them on entirely\nunseen data. Future advancements are planned to drive the AI-assisted design of\nfunctional and sustainable polymer composites.\n",
+  "subjects": [
+    "Condensed Matter/Soft Condensed Matter",
+    "Condensed Matter/Materials Science"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "UZ2z_RLA7mKzGbiIWHo1oMFTa0-7sT6zncBI0OuIsSo",
+  "pdfSize": "2492841"
+}

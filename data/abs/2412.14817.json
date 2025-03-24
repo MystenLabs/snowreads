@@ -1,0 +1,27 @@
+{
+  "id": "2412.14817",
+  "title": "Corrosion detection by identification of a nonlinear Robin boundary\n  condition",
+  "authors": "David Johansson",
+  "authorsParsed": [
+    [
+      "Johansson",
+      "David",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 19 Dec 2024 13:10:05 GMT"
+    }
+  ],
+  "updateDate": "2024-12-20",
+  "timestamp": 1734613805000,
+  "abstract": "  We study an inverse boundary value problem in corrosion detection. The model\nis based on a conductivity equation with nonlinear Robin boundary condition. We\nprove that the nonlinear Robin term can be identified locally from Cauchy data\nmeasurements on a subset of the boundary. A possible strategy for turning a\nlocal identification result into a global one is suggested, and a partial\nresult is proved in this direction. The inversion method is an adaptation to\nthis nonlinear Robin problem of a method originally developed for semilinear\nelliptic equations. The strategy is based on linearization and relies on\nparametrizing solutions of the nonlinear equation on solutions of the\nlinearized equation.\n",
+  "subjects": [
+    "Mathematics/Analysis of PDEs"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "IUwg6d8Bfwq2yeFd-9YfWt-PV2tKor_zjD8d-xv_w4c",
+  "pdfSize": "296993"
+}

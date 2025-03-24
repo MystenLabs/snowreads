@@ -1,0 +1,43 @@
+{
+  "id": "2412.10632",
+  "title": "An Incremental Algorithm for Algebraic Program Analysis",
+  "authors": "Chenyu Zhou, Yuzhou Fang, Jingbo Wang, Chao Wang",
+  "authorsParsed": [
+    [
+      "Zhou",
+      "Chenyu",
+      ""
+    ],
+    [
+      "Fang",
+      "Yuzhou",
+      ""
+    ],
+    [
+      "Wang",
+      "Jingbo",
+      ""
+    ],
+    [
+      "Wang",
+      "Chao",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 14 Dec 2024 01:18:32 GMT"
+    }
+  ],
+  "updateDate": "2024-12-17",
+  "timestamp": 1734139112000,
+  "abstract": "  We propose a method for conducting algebraic program analysis (APA)\nincrementally in response to changes of the program under analysis. APA is a\nprogram analysis paradigm that consists of two distinct steps: computing a path\nexpression that succinctly summarizes the set of program paths of interest, and\ninterpreting the path expression using a properly-defined semantic algebra to\nobtain program properties of interest. In this context, the goal of an\nincremental algorithm is to reduce the analysis time by leveraging the\nintermediate results computed before the program changes. We have made two main\ncontributions. First, we propose a data structure for efficiently representing\npath expression as a tree together with a tree-based interpreting method.\nSecond, we propose techniques for efficiently updating the program properties\nin response to changes of the path expression. We have implemented our method\nand evaluated it on thirteen Java applications from the DaCapo benchmark suite.\nThe experimental results show that both our method for incrementally computing\npath expression and our method for incrementally interpreting path expression\nare effective in speeding up the analysis. Compared to the baseline APA and two\nstate-of-the-art APA methods, the speedup of our method ranges from 160X to\n4761X depending on the types of program analyses performed.\n",
+  "subjects": [
+    "Computer Science/Programming Languages",
+    "Computer Science/Software Engineering"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "fRhX4M-0eYbMRP5oXfI2jcFzLKs5VZwFTmWbK0-kReM",
+  "pdfSize": "1340789"
+}

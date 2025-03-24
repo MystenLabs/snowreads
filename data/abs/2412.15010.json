@@ -1,0 +1,33 @@
+{
+  "id": "2412.15010",
+  "title": "Robust Federated Learning in the Face of Covariate Shift: A Magnitude\n  Pruning with Hybrid Regularization Framework for Enhanced Model Aggregation",
+  "authors": "Ozgu Goksu, Nicolas Pugeault",
+  "authorsParsed": [
+    [
+      "Goksu",
+      "Ozgu",
+      ""
+    ],
+    [
+      "Pugeault",
+      "Nicolas",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 19 Dec 2024 16:22:37 GMT"
+    }
+  ],
+  "updateDate": "2024-12-20",
+  "timestamp": 1734625357000,
+  "abstract": "  The development of highly sophisticated neural networks has allowed for fast\nprogress in every field of computer vision, however, applications where\nannotated data is prohibited due to privacy or security concerns remain\nchallenging. Federated Learning (FL) offers a promising framework for\nindividuals aiming to collaboratively develop a shared model while preserving\ndata privacy. Nevertheless, our findings reveal that variations in data\ndistribution among clients can profoundly affect FL methodologies, primarily\ndue to instabilities in the aggregation process. We also propose a novel FL\nframework to mitigate the adverse effects of covariate shifts among federated\nclients by combining individual parameter pruning and regularization techniques\nto improve the robustness of individual clients' models to aggregate. Each\nclient's model is optimized through magnitude-based pruning and the addition of\ndropout and noise injection layers to build more resilient decision pathways in\nthe networks and improve the robustness of the model's parameter aggregation\nstep. The proposed framework is capable of extracting robust representations\neven in the presence of very large covariate shifts among client data\ndistributions and in the federation of a small number of clients. Empirical\nfindings substantiate the effectiveness of our proposed methodology across\ncommon benchmark datasets, including CIFAR10, MNIST, SVHN, and Fashion MNIST.\nFurthermore, we introduce the CelebA-Gender dataset, specifically designed to\nevaluate performance on a more realistic domain. The proposed method is capable\nof extracting robust representations even in the presence of both high and low\ncovariate shifts among client data distributions.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "ghR7HETDLprass1GHP_hQBjrzyD8HDN9S-DjByUflMs",
+  "pdfSize": "2176204"
+}

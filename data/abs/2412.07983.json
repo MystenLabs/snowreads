@@ -1,0 +1,32 @@
+{
+  "id": "2412.07983",
+  "title": "Analysis and extensions of the Multi-Layer Born method",
+  "authors": "Randy Bartels and Olivier Pinaud",
+  "authorsParsed": [
+    [
+      "Bartels",
+      "Randy",
+      ""
+    ],
+    [
+      "Pinaud",
+      "Olivier",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 10 Dec 2024 23:57:10 GMT"
+    }
+  ],
+  "updateDate": "2024-12-12",
+  "timestamp": 1733875030000,
+  "abstract": "  Simulating scalar wave propagation in strongly heterogeneous media comes at a\nsteep computational cost, and the widely used approach to simplification -\nsplit-step operators - sacrifices accuracy. The recently proposed multi-layer\nBorn method has sought to resolve that problem, but because it discards\nevanescent modes, also produces large errors. In this work our main goal is to\npropose solutions to this critical issue by including evanescent modes in the\nsimulation. We work in a setting where backscattering can be neglected,\nallowing us to only calculate forward propagation, and derive two possible\nschemes. A rigorous mathematical analysis of the numerical errors shows one\nmethod is more accurate. This analysis is also helpful for choosing optimally\nthe discretization parameters. In addition, we propose high order versions of\nthe multi-layer Born method that offer a lower computational cost for a given\ntolerance.\n",
+  "subjects": [
+    "Physics/Optics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "CRqxwjKo11LO5pC9xTHTI3fyqn5Nica-IhnPGCdJ9-Q",
+  "pdfSize": "353066"
+}

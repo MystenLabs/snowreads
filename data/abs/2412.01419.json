@@ -1,0 +1,38 @@
+{
+  "id": "2412.01419",
+  "title": "CSP-AIT-Net: A contrastive learning-enhanced spatiotemporal graph\n  attention framework for short-term metro OD flow prediction with asynchronous\n  inflow tracking",
+  "authors": "Yichen Wang, Chengcheng Yu",
+  "authorsParsed": [
+    [
+      "Wang",
+      "Yichen",
+      ""
+    ],
+    [
+      "Yu",
+      "Chengcheng",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 2 Dec 2024 12:00:06 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Sat, 8 Feb 2025 15:51:41 GMT"
+    }
+  ],
+  "updateDate": "2025-02-11",
+  "timestamp": 1733140806000,
+  "abstract": "  Accurate origin-destination (OD) passenger flow prediction is crucial for\nenhancing metro system efficiency, optimizing scheduling, and improving\npassenger experiences. However, current models often fail to effectively\ncapture the asynchronous departure characteristics of OD flows and underutilize\nthe inflow and outflow data, which limits their prediction accuracy. To address\nthese issues, we propose CSP-AIT-Net, a novel spatiotemporal graph attention\nframework designed to enhance OD flow prediction by incorporating asynchronous\ninflow tracking and advanced station semantics representation. Our framework\nrestructures the OD flow prediction paradigm by first predicting outflows and\nthen decomposing OD flows using a spatiotemporal graph attention mechanism. To\nenhance computational efficiency, we introduce a masking mechanism and propose\nasynchronous passenger flow graphs that integrate inflow and OD flow with\nconservation constraints. Furthermore, we employ contrastive learning to\nextract high-dimensional land use semantics of metro stations, enriching the\ncontextual understanding of passenger mobility patterns. Validation of the\nShanghai metro system demonstrates improvement in short-term OD flow prediction\naccuracy over state-of-the-art methods. This work contributes to enhancing\nmetro operational efficiency, scheduling precision, and overall system safety.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Computational Engineering, Finance, and Science"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "RqQPzSf4ojTSSpMljmnhUxw03nAML9nd0lI3AzhyFYI",
+  "pdfSize": "1229756"
+}

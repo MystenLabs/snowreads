@@ -1,0 +1,42 @@
+{
+  "id": "2412.09388",
+  "title": "All You Need in Knowledge Distillation Is a Tailored Coordinate System",
+  "authors": "Junjie Zhou, Ke Zhu, Jianxin Wu",
+  "authorsParsed": [
+    [
+      "Zhou",
+      "Junjie",
+      ""
+    ],
+    [
+      "Zhu",
+      "Ke",
+      ""
+    ],
+    [
+      "Wu",
+      "Jianxin",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 12 Dec 2024 15:56:20 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Wed, 12 Feb 2025 10:55:54 GMT"
+    }
+  ],
+  "updateDate": "2025-02-13",
+  "timestamp": 1734018980000,
+  "abstract": "  Knowledge Distillation (KD) is essential in transferring dark knowledge from\na large teacher to a small student network, such that the student can be much\nmore efficient than the teacher but with comparable accuracy. Existing KD\nmethods, however, rely on a large teacher trained specifically for the target\ntask, which is both very inflexible and inefficient. In this paper, we argue\nthat a SSL-pretrained model can effectively act as the teacher and its dark\nknowledge can be captured by the coordinate system or linear subspace where the\nfeatures lie in. We then need only one forward pass of the teacher, and then\ntailor the coordinate system (TCS) for the student network. Our TCS method is\nteacher-free and applies to diverse architectures, works well for KD and\npractical few-shot learning, and allows cross-architecture distillation with\nlarge capacity gap. Experiments show that TCS achieves significantly higher\naccuracy than state-of-the-art KD methods, while only requiring roughly half of\ntheir training time and GPU memory costs.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "A2VpSwulOfTB5oLDDA0x8PTJ4iDSsDxdZNbITZry1Dc",
+  "pdfSize": "450669"
+}

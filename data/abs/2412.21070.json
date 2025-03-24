@@ -1,0 +1,32 @@
+{
+  "id": "2412.21070",
+  "title": "Numerical analysis of a stabilized scheme for an optimal control problem\n  governed by a parabolic convection--diffusion equation",
+  "authors": "Christos Pervolianakis",
+  "authorsParsed": [
+    [
+      "Pervolianakis",
+      "Christos",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 30 Dec 2024 16:39:07 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Mon, 20 Jan 2025 18:35:44 GMT"
+    }
+  ],
+  "updateDate": "2025-01-22",
+  "timestamp": 1735576747000,
+  "abstract": "  We consider an optimal control problem on a bounded domain\n$\\Omega\\subset\\mathbb{R}^2,$ governed by a parabolic convection--diffusion\nequation with pointwise control constraints. We follow the\noptimize--then--discretize--approach, where for the state and the co-state\nvariables, we consider the piecewise finite element method alongside the\nalgebraic flux correction method for its stabilization and the for temporal\ndiscretization, we use the backward Euler method for the state variable and the\nexplicit Euler method for the co-state variable. The discrete control variable\nis obtained by projecting the discretized adjoint state onto the set of\nadmissible controls. The resulting stabilized fully--discrete scheme is\nnonlinear and a fixed point argument is used in order to prove its existence\nand uniqueness under a mild condition between the time step $k$ and the mesh\nstep $h,$ e.g., $k = \\mathcal{O}(h^{1+\\epsilon}),\\,0<\\epsilon<1.$ Further, for\nsufficiently regular solution, we derive error estimates in $L^2$ and $H^1$\nnorm with respect on space and $\\ell^\\infty$ norm in time for the state and the\nco-state variables. For the control variable we also derive an $L^2$ estimate\nfor its error with respect to spatial variable and $\\ell^\\infty$ in time.\nFinally, we present numerical experiments that validate the the order of\nconvergence of the stabilized fully--discrete scheme via the algebraic flux\ncorrection method as well as we test the stabilized fully--discrete scheme in\noptimal control problems governed by a convection--dominant equation where the\nsolution possesses interior or boundary layers.\n",
+  "subjects": [
+    "Mathematics/Numerical Analysis",
+    "Computer Science/Numerical Analysis"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "1dW2c7ezY6vG0Ds5nUa7Nd3xwoQRd5gBxiBs56GZE6s",
+  "pdfSize": "13471564"
+}

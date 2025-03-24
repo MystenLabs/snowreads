@@ -1,0 +1,28 @@
+{
+  "id": "2412.20915",
+  "title": "Petrov Types for the Weyl Tensor via the Riemannian-to-Lorentzian Bridge",
+  "authors": "Amir Babak Aazami",
+  "authorsParsed": [
+    [
+      "Aazami",
+      "Amir Babak",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 30 Dec 2024 12:51:00 GMT"
+    }
+  ],
+  "updateDate": "2024-12-31",
+  "timestamp": 1735563060000,
+  "abstract": "  We analyze oriented Riemannian 4-manifolds whose Weyl tensors $W$ satisfy the\nconformally invariant condition $W(T,\\cdot,\\cdot,T) = 0$ for some nonzero\nvector $T$. While this can be algebraically classified via $W$'s normal form,\nwe find a further geometric classification by deforming the metric into a\nLorentzian one via $T$. We show that such a $W$ will have the analogue of\nPetrov Types from general relativity, that only Types I and D can occur, and\nthat each is completely determined by the number of critical points of $W$'s\nassociated Lorentzian quadratic form. A similar result holds for the Lorentzian\nversion of this question, with $T$ timelike.\n",
+  "subjects": [
+    "Mathematics/Differential Geometry",
+    "Physics/General Relativity and Quantum Cosmology"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "tYesHKd6GH-Lh00pGeTPmWs6sO7TdW-1kQXJiJ-9wjo",
+  "pdfSize": "239810"
+}

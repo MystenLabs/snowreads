@@ -1,0 +1,37 @@
+{
+  "id": "2412.17348",
+  "title": "ORIGAMI: A generative transformer architecture for predictions from\n  semi-structured data",
+  "authors": "Thomas R\\\"uckstie\\ss, Alana Huang, Robin Vujanic",
+  "authorsParsed": [
+    [
+      "Rückstieß",
+      "Thomas",
+      ""
+    ],
+    [
+      "Huang",
+      "Alana",
+      ""
+    ],
+    [
+      "Vujanic",
+      "Robin",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 23 Dec 2024 07:21:17 GMT"
+    }
+  ],
+  "updateDate": "2024-12-24",
+  "timestamp": 1734938477000,
+  "abstract": "  Despite the popularity and widespread use of semi-structured data formats\nsuch as JSON, end-to-end supervised learning applied directly to such data\nremains underexplored. We present ORIGAMI (Object RepresentatIon via Generative\nAutoregressive ModellIng), a transformer-based architecture that directly\nprocesses nested key/value pairs while preserving their hierarchical semantics.\nOur key technical contributions include: (1) a structure-preserving tokenizer,\n(2) a novel key/value position encoding scheme, and (3) a grammar-constrained\ntraining and inference framework that ensures valid outputs and accelerates\ntraining convergence. These enhancements enable efficient end-to-end modeling\nof semi-structured data. By reformulating classification as next-token\nprediction, ORIGAMI naturally handles both single-label and multi-label tasks\nwithout architectural modifications. Empirical evaluation across diverse\ndomains demonstrates ORIGAMI's effectiveness: On standard tabular benchmarks\nconverted to JSON, ORIGAMI remains competitive with classical and\nstate-of-the-art approaches. On native JSON datasets, we outperform baselines\non multi-label classification and specialized models such as convolutional and\ngraph neural networks on a code classification task. Through extensive ablation\nstudies, we validate the impact of each architectural component and establish\nORIGAMI as a robust framework for end-to-end learning on semi-structured data.\n",
+  "subjects": [
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "wT2ucq9U1HMScVtyFJhma2S7lgaKvtw19HEY9dJjhs8",
+  "pdfSize": "3365913"
+}

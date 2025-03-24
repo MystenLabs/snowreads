@@ -1,0 +1,57 @@
+{
+  "id": "2412.07189",
+  "title": "When Graph Meets Retrieval Augmented Generation for Wireless Networks: A\n  Tutorial and Case Study",
+  "authors": "Yang Xiong, Ruichen Zhang, Yinqiu Liu, Dusit Niyato, Zehui Xiong,\n  Ying-Chang Liang, and Shiwen Mao",
+  "authorsParsed": [
+    [
+      "Xiong",
+      "Yang",
+      ""
+    ],
+    [
+      "Zhang",
+      "Ruichen",
+      ""
+    ],
+    [
+      "Liu",
+      "Yinqiu",
+      ""
+    ],
+    [
+      "Niyato",
+      "Dusit",
+      ""
+    ],
+    [
+      "Xiong",
+      "Zehui",
+      ""
+    ],
+    [
+      "Liang",
+      "Ying-Chang",
+      ""
+    ],
+    [
+      "Mao",
+      "Shiwen",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 10 Dec 2024 04:55:57 GMT"
+    }
+  ],
+  "updateDate": "2024-12-11",
+  "timestamp": 1733806557000,
+  "abstract": "  The rapid development of next-generation networking technologies underscores\ntheir transformative role in revolutionizing modern communication systems,\nenabling faster, more reliable, and highly interconnected solutions. However,\nsuch development has also brought challenges to network optimizations. Thanks\nto the emergence of Large Language Models (LLMs) in recent years, tools\nincluding Retrieval Augmented Generation (RAG) have been developed and applied\nin various fields including networking, and have shown their effectiveness.\nTaking one step further, the integration of knowledge graphs into RAG\nframeworks further enhanced the performance of RAG in networking applications\nsuch as Intent-Driven Networks (IDNs) and spectrum knowledge maps by providing\nmore contextually relevant responses through more accurate retrieval of related\nnetwork information. This paper introduces the RAG framework that integrates\nknowledge graphs in its database and explores such framework's application in\nnetworking. We begin by exploring RAG's applications in networking and the\nlimitations of conventional RAG and present the advantages that knowledge\ngraphs' structured knowledge representation brings to the retrieval and\ngeneration processes. Next, we propose a detailed GraphRAG-based framework for\nnetworking, including a step-by-step tutorial on its construction. Our\nevaluation through a case study on channel gain prediction demonstrates\nGraphRAG's enhanced capability in generating accurate, contextually rich\nresponses, surpassing traditional RAG models. Finally, we discuss key future\ndirections for applying knowledge-graphs-empowered RAG frameworks in\nnetworking, including robust updates, mitigation of hallucination, and enhanced\nsecurity measures for networking applications.\n",
+  "subjects": [
+    "Computer Science/Networking and Internet Architecture"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "lozL5_Aiyxw-VYIsfce1lpfTr-HXqEPfYYygn38X1wg",
+  "pdfSize": "5283679"
+}

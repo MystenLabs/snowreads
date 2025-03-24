@@ -1,0 +1,69 @@
+{
+  "id": "2412.12742",
+  "title": "Subspace Implicit Neural Representations for Real-Time Cardiac Cine MR\n  Imaging",
+  "authors": "Wenqi Huang, Veronika Spieker, Siying Xu, Gastao Cruz, Claudia Prieto,\n  Julia Schnabel, Kerstin Hammernik, Thomas Kuestner, Daniel Rueckert",
+  "authorsParsed": [
+    [
+      "Huang",
+      "Wenqi",
+      ""
+    ],
+    [
+      "Spieker",
+      "Veronika",
+      ""
+    ],
+    [
+      "Xu",
+      "Siying",
+      ""
+    ],
+    [
+      "Cruz",
+      "Gastao",
+      ""
+    ],
+    [
+      "Prieto",
+      "Claudia",
+      ""
+    ],
+    [
+      "Schnabel",
+      "Julia",
+      ""
+    ],
+    [
+      "Hammernik",
+      "Kerstin",
+      ""
+    ],
+    [
+      "Kuestner",
+      "Thomas",
+      ""
+    ],
+    [
+      "Rueckert",
+      "Daniel",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 17 Dec 2024 10:06:37 GMT"
+    }
+  ],
+  "updateDate": "2024-12-18",
+  "timestamp": 1734429997000,
+  "abstract": "  Conventional cardiac cine MRI methods rely on retrospective gating, which\nlimits temporal resolution and the ability to capture continuous cardiac\ndynamics, particularly in patients with arrhythmias and beat-to-beat\nvariations. To address these challenges, we propose a reconstruction framework\nbased on subspace implicit neural representations for real-time cardiac cine\nMRI of continuously sampled radial data. This approach employs two multilayer\nperceptrons to learn spatial and temporal subspace bases, leveraging the\nlow-rank properties of cardiac cine MRI. Initialized with low-resolution\nreconstructions, the networks are fine-tuned using spoke-specific loss\nfunctions to recover spatial details and temporal fidelity. Our method directly\nutilizes the continuously sampled radial k-space spokes during training,\nthereby eliminating the need for binning and non-uniform FFT. This approach\nachieves superior spatial and temporal image quality compared to conventional\nbinned methods at the acceleration rate of 10 and 20, demonstrating potential\nfor high-resolution imaging of dynamic cardiac events and enhancing diagnostic\ncapability.\n",
+  "subjects": [
+    "Electrical Engineering and Systems Science/Image and Video Processing",
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "mV1-AY6LjistaERBrNaX-j9lRbMGZFoRY0M525vvxns",
+  "pdfSize": "4275978"
+}

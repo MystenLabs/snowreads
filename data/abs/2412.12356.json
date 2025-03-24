@@ -1,0 +1,47 @@
+{
+  "id": "2412.12356",
+  "title": "New Python-based Architecture for the Keck Observatory Archive",
+  "authors": "R. Moseley, G. Bruce Berriman, Christopher R. Gelino, John C. Good,\n  and Toba Oluyide",
+  "authorsParsed": [
+    [
+      "Moseley",
+      "R.",
+      ""
+    ],
+    [
+      "Berriman",
+      "G. Bruce",
+      ""
+    ],
+    [
+      "Gelino",
+      "Christopher R.",
+      ""
+    ],
+    [
+      "Good",
+      "John C.",
+      ""
+    ],
+    [
+      "Oluyide",
+      "Toba",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 16 Dec 2024 21:03:24 GMT"
+    }
+  ],
+  "updateDate": "2024-12-18",
+  "timestamp": 1734383004000,
+  "abstract": "  We describe the development of the Keck Observatory Archive (KOA) Data\nDiscovery Service, a web-based dashboard that returns metadata for wide-area\nqueries of the entire archive in seconds. Currently in beta, this dashboard\nwill support exploration, visualization, and data access across multiple\ninstruments. This effort is underpinned by an open-source, VO-compliant query\ninfrastructure and will offer services that can be hosted on web pages or in\nJupyter notebooks. The effort also informs the design of a new, modern landing\npage that meets the expectations of accessibility and ease of use.\n  The new query infrastructure is based on nexsciTAP, a component-based,\nDBMS-agnostic Python implementation of the IVOA Table Access Protocol,\ndeveloped at NExScI and integrated into the NASA Exoplanet Archive and the NEID\nArchive, and into the PyKOA Python client. This infrastructure incorporates\nR-tree spatial indexing, built as memory-mapped files as part of Montage, a\nsoftware toolkit used to create composite astronomical images. Although R-trees\nare used most often in geospatial analysis, here they enable searches of the\nentire KOA archive, an eclectic collection of 100 million records of imaging\nand spectroscopic data, in 2 seconds, and they speed up spatial searches by\nx20. The front end is built on the open-source Plotly-Dash framework, which\nallows users to build an interactive user interface based on a single Python\nfile.\n",
+  "subjects": [
+    "Astrophysics/Instrumentation and Methods for Astrophysics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "dhK26SvtjMII82GNqaGzt2qLNalFbJQR0NnaHtzGLhI",
+  "pdfSize": "109025"
+}

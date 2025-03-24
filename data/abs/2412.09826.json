@@ -1,0 +1,60 @@
+{
+  "id": "2412.09826",
+  "title": "Precise Antigen-Antibody Structure Predictions Enhance Antibody\n  Development with HelixFold-Multimer",
+  "authors": "Jie Gao, Jing Hu, Lihang Liu, Yang Xue, Kunrui Zhu, Xiaonan Zhang,\n  Xiaomin Fang",
+  "authorsParsed": [
+    [
+      "Gao",
+      "Jie",
+      ""
+    ],
+    [
+      "Hu",
+      "Jing",
+      ""
+    ],
+    [
+      "Liu",
+      "Lihang",
+      ""
+    ],
+    [
+      "Xue",
+      "Yang",
+      ""
+    ],
+    [
+      "Zhu",
+      "Kunrui",
+      ""
+    ],
+    [
+      "Zhang",
+      "Xiaonan",
+      ""
+    ],
+    [
+      "Fang",
+      "Xiaomin",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 13 Dec 2024 03:36:23 GMT"
+    }
+  ],
+  "updateDate": "2024-12-16",
+  "timestamp": 1734060983000,
+  "abstract": "  The accurate prediction of antigen-antibody structures is essential for\nadvancing immunology and therapeutic development, as it helps elucidate\nmolecular interactions that underlie immune responses. Despite recent progress\nwith deep learning models like AlphaFold and RoseTTAFold, accurately modeling\nantigen-antibody complexes remains a challenge due to their unique evolutionary\ncharacteristics. HelixFold-Multimer, a specialized model developed for this\npurpose, builds on the framework of AlphaFold-Multimer and demonstrates\nimproved precision for antigen-antibody structures. HelixFold-Multimer not only\nsurpasses other models in accuracy but also provides essential insights into\nantibody development, enabling more precise identification of binding sites,\nimproved interaction prediction, and enhanced design of therapeutic antibodies.\nThese advances underscore HelixFold-Multimer's potential in supporting antibody\nresearch and therapeutic innovation.\n",
+  "subjects": [
+    "Quantitative Biology/Biomolecules",
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Computational Engineering, Finance, and Science",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "lqNbp4w_3QtaLBvdkcdfbXV5YiIPbVvU5t2QFMy70Qw",
+  "pdfSize": "2623402"
+}

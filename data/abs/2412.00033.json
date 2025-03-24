@@ -1,0 +1,33 @@
+{
+  "id": "2412.00033",
+  "title": "Can an AI Agent Safely Run a Government? Existence of Probably\n  Approximately Aligned Policies",
+  "authors": "Fr\\'ed\\'eric Berdoz and Roger Wattenhofer",
+  "authorsParsed": [
+    [
+      "Berdoz",
+      "Frédéric",
+      ""
+    ],
+    [
+      "Wattenhofer",
+      "Roger",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 21 Nov 2024 11:36:45 GMT"
+    }
+  ],
+  "updateDate": "2024-12-03",
+  "timestamp": 1732189005000,
+  "abstract": "  While autonomous agents often surpass humans in their ability to handle vast\nand complex data, their potential misalignment (i.e., lack of transparency\nregarding their true objective) has thus far hindered their use in critical\napplications such as social decision processes. More importantly, existing\nalignment methods provide no formal guarantees on the safety of such models.\nDrawing from utility and social choice theory, we provide a novel quantitative\ndefinition of alignment in the context of social decision-making. Building on\nthis definition, we introduce probably approximately aligned (i.e.,\nnear-optimal) policies, and we derive a sufficient condition for their\nexistence. Lastly, recognizing the practical difficulty of satisfying this\ncondition, we introduce the relaxed concept of safe (i.e., nondestructive)\npolicies, and we propose a simple yet robust method to safeguard the black-box\npolicy of any autonomous agent, ensuring all its actions are verifiably safe\nfor the society.\n",
+  "subjects": [
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Computers and Society"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "bGxZTtvH1yvSToyB2sXh3nMEs2Gsd1Hss662upVF7DY",
+  "pdfSize": "618042"
+}

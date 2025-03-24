@@ -1,0 +1,52 @@
+{
+  "id": "2412.03786",
+  "title": "Validation of NSFsim as a Grad-Shafranov Equilibrium Solver at DIII-D",
+  "authors": "Randall Clark, Maxim Nurgaliev, Eduard Khayrutdinov, Georgy Subbotin,\n  Anders Welander, Dmitri M. Orlov",
+  "authorsParsed": [
+    [
+      "Clark",
+      "Randall",
+      ""
+    ],
+    [
+      "Nurgaliev",
+      "Maxim",
+      ""
+    ],
+    [
+      "Khayrutdinov",
+      "Eduard",
+      ""
+    ],
+    [
+      "Subbotin",
+      "Georgy",
+      ""
+    ],
+    [
+      "Welander",
+      "Anders",
+      ""
+    ],
+    [
+      "Orlov",
+      "Dmitri M.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 5 Dec 2024 00:31:45 GMT"
+    }
+  ],
+  "updateDate": "2024-12-20",
+  "timestamp": 1733358705000,
+  "abstract": "  Plasma shape is a significant factor that must be considered for any Fusion\nPilot Plant (FPP) as it has significant consequences for plasma stability and\ncore confinement. A new simulator, NSFsim, has been developed based on a\nhistorically successful code, DINA, offering tools to simulate both transport\nand plasma shape. Specifically, NSFsim is a free boundary equilibrium and\ntransport solver and has been configured to match the properties of the DIII-D\ntokamak. This paper is focused on validating the Grad-Shafranov (GS) solver of\nNSFsim by analyzing its ability to recreate the plasma shape, the poloidal flux\ndistribution, and the measurements of the simulated diagnostic signals\noriginating from flux loops and magnetic probes in DIII-D. Five different\nplasma shapes are simulated to show the robustness of NSFsim to different\nplasma conditions; these shapes are Lower Single Null (LSN), Upper Single Null\n(USN), Double Null (DN), Inner Wall Limited (IWL), and Negative Triangularity\n(NT). The NSFsim results are compared against real measured signals, magnetic\nprofile fits from EFIT, and another plasma equilibrium simulator, GSevolve.\nEFIT reconstructions of shots are readily available at DIII-D, but GSevolve was\nmanually ran by us to provide simulation data to compare against.\n",
+  "subjects": [
+    "Physics/Plasma Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "A77iNNX3NU4ySExXmJdibFwF7e5ettlQQJhUolPayxQ",
+  "pdfSize": "1423332"
+}

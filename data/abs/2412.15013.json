@@ -1,0 +1,76 @@
+{
+  "id": "2412.15013",
+  "title": "MitraClip Device Automated Localization in 3D Transesophageal\n  Echocardiography via Deep Learning",
+  "authors": "Riccardo Munaf\\`o and Simone Saitta and Luca Vicentini and Davide\n  Tondi and Veronica Ruozzi and Francesco Sturla and Giacomo Ingallina and\n  Andrea Guidotti and Eustachio Agricola and Emiliano Votta",
+  "authorsParsed": [
+    [
+      "Munafò",
+      "Riccardo",
+      ""
+    ],
+    [
+      "Saitta",
+      "Simone",
+      ""
+    ],
+    [
+      "Vicentini",
+      "Luca",
+      ""
+    ],
+    [
+      "Tondi",
+      "Davide",
+      ""
+    ],
+    [
+      "Ruozzi",
+      "Veronica",
+      ""
+    ],
+    [
+      "Sturla",
+      "Francesco",
+      ""
+    ],
+    [
+      "Ingallina",
+      "Giacomo",
+      ""
+    ],
+    [
+      "Guidotti",
+      "Andrea",
+      ""
+    ],
+    [
+      "Agricola",
+      "Eustachio",
+      ""
+    ],
+    [
+      "Votta",
+      "Emiliano",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 19 Dec 2024 16:26:18 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Sun, 2 Feb 2025 16:53:25 GMT"
+    }
+  ],
+  "updateDate": "2025-02-04",
+  "timestamp": 1734625578000,
+  "abstract": "  The MitraClip is the most widely percutaneous treatment for mitral\nregurgitation, typically performed under the real-time guidance of 3D\ntransesophagel echocardiography (TEE). However, artifacts and low image\ncontrast in echocardiography hinder accurate clip visualization. This study\npresents an automated pipeline for clip detection from 3D TEE images. An\nAttention UNet was employed to segment the device, while a DenseNet classifier\npredicted its configuration among ten possible states, ranging from fully\nclosed to fully open. Based on the predicted configuration, a template model\nderived from computer-aided design (CAD) was automatically registered to refine\nthe segmentation and enable quantitative characterization of the device. The\npipeline was trained and validated on 196 3D TEE images acquired using a heart\nsimulator, with ground-truth annotations refined through CAD-based templates.\nThe Attention UNet achieved an average surface distance of 0.76 mm and 95%\nHausdorff distance of 2.44 mm for segmentation, while the DenseNet achieved an\naverage weighted F1-score of 0.75 for classification. Post-refinement,\nsegmentation accuracy improved, with average surface distance and 95% Hausdorff\ndistance reduced to 0.75 mm and 2.05 mm, respectively. This pipeline enhanced\nclip visualization, providing fast and accurate detection with quantitative\nfeedback, potentially improving procedural efficiency and reducing adverse\noutcomes.\n",
+  "subjects": [
+    "Quantitative Biology/Quantitative Methods"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "69BbuXbCudIgDOewovqXjOzO2JAJOvmYml25PdHmFzg",
+  "pdfSize": "5251917"
+}

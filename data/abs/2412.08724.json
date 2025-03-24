@@ -1,0 +1,47 @@
+{
+  "id": "2412.08724",
+  "title": "Separability Lindblad equation for dynamical open-system entanglement",
+  "authors": "Julien Pinske, Laura Ares, Benjamin Hinrichs, Martin Kolb, and Jan\n  Sperling",
+  "authorsParsed": [
+    [
+      "Pinske",
+      "Julien",
+      ""
+    ],
+    [
+      "Ares",
+      "Laura",
+      ""
+    ],
+    [
+      "Hinrichs",
+      "Benjamin",
+      ""
+    ],
+    [
+      "Kolb",
+      "Martin",
+      ""
+    ],
+    [
+      "Sperling",
+      "Jan",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 11 Dec 2024 19:00:08 GMT"
+    }
+  ],
+  "updateDate": "2024-12-13",
+  "timestamp": 1733943608000,
+  "abstract": "  Providing entanglement for the design of quantum technologies in the presence\nof noise constitutes today's main challenge in quantum information science. A\nframework is required that assesses the build-up of entanglement in realistic\nsettings. In this work, we put forth a new class of nonlinear quantum master\nequations in Lindblad form that unambiguously identify dynamical entanglement\nin open quantum systems via deviations from a separable evolution. This\nseparability Lindblad equation restricts quantum trajectories to classically\ncorrelated states only. Unlike many conventional approaches, here the\nentangling capabilities of a process are not characterized by input-output\nrelations, but separability is imposed at each instant of time. We solve these\nequations for crucial examples, thereby quantifying the dynamical impact of\nentanglement in non-equilibrium scenarios. Our results allow to benchmark the\nengineering of entangled states through dissipation. The separability Lindblad\nequation provides a unique path to characterizing quantum correlations caused\nby arbitrary system-bath interactions, specifically tailored for the noisy\nintermediate-scale quantum era.\n",
+  "subjects": [
+    "Physics/Quantum Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "VOTLiJtu3F61WKVGPQPHrgX3pjxFLH8XIZAjlzZapt0",
+  "pdfSize": "1181239"
+}

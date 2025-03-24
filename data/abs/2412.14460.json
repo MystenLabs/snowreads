@@ -1,0 +1,43 @@
+{
+  "id": "2412.14460",
+  "title": "A tensor-train reduced basis solver for parameterized partial\n  differential equations",
+  "authors": "Nicholas Mueller, Yiran Zhao, Santiago Badia, Tiangang Cui",
+  "authorsParsed": [
+    [
+      "Mueller",
+      "Nicholas",
+      ""
+    ],
+    [
+      "Zhao",
+      "Yiran",
+      ""
+    ],
+    [
+      "Badia",
+      "Santiago",
+      ""
+    ],
+    [
+      "Cui",
+      "Tiangang",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 19 Dec 2024 02:20:51 GMT"
+    }
+  ],
+  "updateDate": "2024-12-20",
+  "timestamp": 1734574851000,
+  "abstract": "  In this manuscript we present the tensor-train reduced basis method, a novel\nprojection-based reduced-order model for the efficient solution of\nparameterized partial differential equations. Despite their popularity and\nconsiderable computational advantages with respect to their full order\ncounterparts, reduced-order models are typically characterized by a\nconsiderable offline computational cost. The proposed approach addresses this\nissue by efficiently representing high dimensional finite element quantities\nwith the tensor train format. This method entails numerous benefits, namely,\nthe smaller number of operations required to compute the reduced subspaces, the\ncheaper hyper-reduction strategy employed to reduce the complexity of the PDE\nresidual and Jacobian, and the decreased dimensionality of the projection\nsubspaces for a fixed accuracy. We provide a posteriori estimates that\ndemonstrate the accuracy of the proposed method, we test its computational\nperformance for the heat equation and transient linear elasticity on\nthree-dimensional Cartesian geometries.\n",
+  "subjects": [
+    "Mathematics/Numerical Analysis",
+    "Computer Science/Numerical Analysis"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "3BfYikyAbSCxBmoOk6iqhaSSjY1OkqcF3VkGI2005XE",
+  "pdfSize": "421014"
+}

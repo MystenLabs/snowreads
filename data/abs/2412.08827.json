@@ -1,0 +1,39 @@
+{
+  "id": "2412.08827",
+  "title": "A Debiased Estimator for the Mediation Functional in\n  Ultra-High-Dimensional Setting in the Presence of Interaction Effects",
+  "authors": "Shi Bo, AmirEmad Ghassami, Debarghya Mukherjee",
+  "authorsParsed": [
+    [
+      "Bo",
+      "Shi",
+      ""
+    ],
+    [
+      "Ghassami",
+      "AmirEmad",
+      ""
+    ],
+    [
+      "Mukherjee",
+      "Debarghya",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 11 Dec 2024 23:58:28 GMT"
+    }
+  ],
+  "updateDate": "2024-12-13",
+  "timestamp": 1733961508000,
+  "abstract": "  Mediation analysis is crucial in many fields of science for understanding the\nmechanisms or processes through which an independent variable affects an\noutcome, thereby providing deeper insights into causal relationships and\nimproving intervention strategies. Despite advances in analyzing the mediation\neffect with fixed/low-dimensional mediators and covariates, our understanding\nof estimation and inference of mediation functional in the presence of\n(ultra)-high-dimensional mediators and covariates is still limited. In this\npaper, we present an estimator for mediation functional in a high-dimensional\nsetting that accommodates the interaction between covariates and treatment in\ngenerating mediators, as well as interactions between both covariates and\ntreatment and mediators and treatment in generating the response. We\ndemonstrate that our estimator is $\\sqrt{n}$-consistent and asymptotically\nnormal, thus enabling reliable inference on direct and indirect treatment\neffects with asymptotically valid confidence intervals. A key technical\ncontribution of our work is to develop a multi-step debiasing technique, which\nmay also be valuable in other statistical settings with similar structural\ncomplexities where accurate estimation depends on debiasing.\n",
+  "subjects": [
+    "Statistics/Methodology",
+    "Mathematics/Statistics Theory",
+    "Statistics/Statistics Theory"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "_mMkSwUSeagT3GbX515S6Z982-W596k_7nFv_FgROag",
+  "pdfSize": "404125"
+}

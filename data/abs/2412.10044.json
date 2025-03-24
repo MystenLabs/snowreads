@@ -1,0 +1,52 @@
+{
+  "id": "2412.10044",
+  "title": "Data-Driven Quantification of Battery Degradation Modes via Critical\n  Features from Charging",
+  "authors": "Yuanhao Cheng (1), Hanyu Bai (1), Yichen Liang (1), Xiaofan Cui (2),\n  Weiren Jiang (3), Ziyou Song (1) ((1) Department of Mechanical Engineering,\n  National University of Singapore, (2) Department of Electrical and Computer\n  Engineering, University of California, Los Angeles, (3) Farasis Energy USA,\n  Inc.)",
+  "authorsParsed": [
+    [
+      "Cheng",
+      "Yuanhao",
+      ""
+    ],
+    [
+      "Bai",
+      "Hanyu",
+      ""
+    ],
+    [
+      "Liang",
+      "Yichen",
+      ""
+    ],
+    [
+      "Cui",
+      "Xiaofan",
+      ""
+    ],
+    [
+      "Jiang",
+      "Weiren",
+      ""
+    ],
+    [
+      "Song",
+      "Ziyou",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 13 Dec 2024 11:11:19 GMT"
+    }
+  ],
+  "updateDate": "2024-12-16",
+  "timestamp": 1734088279000,
+  "abstract": "  Battery degradation modes influence the aging behavior of Li-ion batteries,\nleading to accelerated capacity loss and potential safety issues. Quantifying\nthese aging mechanisms poses challenges for both online and offline diagnostics\nin charging station applications. Data-driven algorithms have emerged as\neffective tools for addressing state-of-health issues by learning hard-to-model\nelectrochemical properties from data. This paper presents a data-driven method\nfor quantifying battery degradation modes. Ninety-one statistical features are\nextracted from the incremental capacity curve derived from 1/3C charging data.\nThese features are then screened based on dispersion, contribution, and\ncorrelation. Subsequently, machine learning models, including four baseline\nalgorithms and a feedforward neural network, are used to estimate the\ndegradation modes. Experimental validation indicates that the feedforward\nneural network outperforms the others, achieving a root mean square error of\naround 10\\% across all three degradation modes (i.e., loss of lithium\ninventory, loss of active material on the positive electrode, and loss of\nactive material on the negative electrode). The findings in this paper\ndemonstrate the potential of machine learning for diagnosing battery\ndegradation modes in charging station scenarios.\n",
+  "subjects": [
+    "Electrical Engineering and Systems Science/Signal Processing"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "1OyJW2b-xNvgkA-a2JHRBszBpwlDn0iUUOsJ7uG-F-A",
+  "pdfSize": "6353543"
+}

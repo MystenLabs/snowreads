@@ -1,0 +1,33 @@
+{
+  "id": "2412.03037",
+  "title": "Cost-Performance Evaluation of General Compute Instances: AWS, Azure,\n  GCP, and OCI",
+  "authors": "Jay Tharwani and Arnab A Purkayastha",
+  "authorsParsed": [
+    [
+      "Tharwani",
+      "Jay",
+      ""
+    ],
+    [
+      "Purkayastha",
+      "Arnab A",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 4 Dec 2024 05:18:44 GMT"
+    }
+  ],
+  "updateDate": "2024-12-05",
+  "timestamp": 1733289524000,
+  "abstract": "  Cloud computing has become the cornerstone of modern IT infrastructure,\noffering a wide range of general-purpose instances optimized for diverse\nworkloads. This paper provides a comparative analysis of cost and performance\nfor general-purpose compute instances across four major cloud providers: AWS,\nAzure, Google Cloud Platform (GCP), and Oracle Cloud Infrastructure (OCI).\nUsing standardized configurations of 4 vCPUs and 16 GiB of RAM, the study\nevaluates instances based on processor architecture (Intel, AMD, ARM), pricing\nmodels, and performance benchmarks. Key findings reveal that ARM-based\ninstances deliver superior price-performance ratios for cost-sensitive\nworkloads, while Intel-based instances excel in enterprise-grade applications\nrequiring versatility and reliability. The results aim to guide organizations\nin selecting the most cost-effective and performance-efficient cloud resources\nfor their specific needs.\n",
+  "subjects": [
+    "Computer Science/Distributed, Parallel, and Cluster Computing",
+    "Computer Science/Performance"
+  ],
+  "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+  "blobId": "pUnzpCTEmc5q850cBeHoJ9k1JMex1ILrCTaSM9XZntI",
+  "pdfSize": "632708"
+}

@@ -1,0 +1,48 @@
+{
+  "id": "2412.05583",
+  "title": "Electrocardiogram (ECG) Based Cardiac Arrhythmia Detection and\n  Classification using Machine Learning Algorithms",
+  "authors": "Atit Pokharel, Shashank Dahal, Pratik Sapkota, Bhupendra Bimal Chhetri",
+  "authorsParsed": [
+    [
+      "Pokharel",
+      "Atit",
+      ""
+    ],
+    [
+      "Dahal",
+      "Shashank",
+      ""
+    ],
+    [
+      "Sapkota",
+      "Pratik",
+      ""
+    ],
+    [
+      "Chhetri",
+      "Bhupendra Bimal",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 7 Dec 2024 08:29:44 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Tue, 10 Dec 2024 15:35:33 GMT"
+    }
+  ],
+  "updateDate": "2024-12-11",
+  "timestamp": 1733560184000,
+  "abstract": "  The rapid advancements in Artificial Intelligence, specifically Machine\nLearning (ML) and Deep Learning (DL), have opened new prospects in medical\nsciences for improved diagnosis, prognosis, and treatment of severe health\nconditions. This paper focuses on the development of an ML model with high\npredictive accuracy to classify arrhythmic electrocardiogram (ECG) signals. The\nECG signals datasets utilized in this study were sourced from the PhysioNet and\nMIT-BIH databases. The research commenced with binary classification, where an\noptimized Bidirectional Long Short-Term Memory (Bi-LSTM) model yielded\nexcellent results in differentiating normal and atrial fibrillation signals. A\npivotal aspect of this research was a survey among medical professionals, which\nnot only validated the practicality of AI-based ECG classifiers but also\nidentified areas for improvement, including accuracy and the inclusion of more\narrhythmia types. These insights drove the development of an advanced\nConvolutional Neural Network (CNN) system capable of classifying five different\ntypes of ECG signals with better accuracy and precision. The CNN model's robust\nperformance was ensured through rigorous stratified 5-fold cross validation. A\nweb portal was also developed to demonstrate real-world utility, offering\naccess to the trained model for real-time classification. This study highlights\nthe potential applications of such models in remote health monitoring,\npredictive healthcare, assistive diagnostic tools, and simulated environments\nfor educational training and interdisciplinary collaboration between data\nscientists and medical personnel.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Computer Science/Artificial Intelligence",
+    "Electrical Engineering and Systems Science/Image and Video Processing"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "GSUZrQBZeX0GxwLpZp0TRbAnjQerTm0u1WxetYCY_go",
+  "pdfSize": "1080107"
+}

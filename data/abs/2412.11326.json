@@ -1,0 +1,28 @@
+{
+  "id": "2412.11326",
+  "title": "Spatial Cross-Recurrence Quantification Analysis for Multi-Platform\n  Contact Tracing and Epidemiology Research",
+  "authors": "K. J. Patten",
+  "authorsParsed": [
+    [
+      "Patten",
+      "K. J.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 15 Dec 2024 22:07:32 GMT"
+    }
+  ],
+  "updateDate": "2024-12-17",
+  "timestamp": 1734300452000,
+  "abstract": "  Contact tracing is an essential tool in slowing and containing outbreaks of\ncontagious diseases. Current contact tracing methods range from interviews with\npublic health personnel to Bluetooth pings from smartphones. While all methods\noffer various benefits, it is difficult for different methods to integrate with\none another. Additionally, for contact tracing mobile applications, data\nprivacy is a concern to many as GPS data from users is saved to either a\ncentral server or the user's device. The current paper describes a method\ncalled spatial cross-recurrence quantification analysis (SpaRQ) that can\ncombine and analyze contact tracing data, regardless of how it has been\nobtained, and generate a risk profile for the user without storing GPS data.\nFurthermore, the plots from SpaRQ can be used to investigate the nature of the\ninfectious agent, such as how long it can remain viable in air or on surfaces\nafter an infected person has passed, the chance of infection based on exposure\ntime, and what type of exposure is maximally infective.\n",
+  "subjects": [
+    "Statistics/Methodology",
+    "Statistics/Applications"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "E5JhZc3prrDLdAeTu0JD8gUXxw_1EHT2MonFkoSvBxU",
+  "pdfSize": "291574"
+}

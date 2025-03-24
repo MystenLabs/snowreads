@@ -1,0 +1,68 @@
+{
+  "id": "2412.05183",
+  "title": "Privacy Drift: Evolving Privacy Concerns in Incremental Learning",
+  "authors": "Sayyed Farid Ahamed, Soumya Banerjee, Sandip Roy, Aayush Kapoor, Marc\n  Vucovich, Kevin Choi, Abdul Rahman, Edward Bowen, Sachin Shetty",
+  "authorsParsed": [
+    [
+      "Ahamed",
+      "Sayyed Farid",
+      ""
+    ],
+    [
+      "Banerjee",
+      "Soumya",
+      ""
+    ],
+    [
+      "Roy",
+      "Sandip",
+      ""
+    ],
+    [
+      "Kapoor",
+      "Aayush",
+      ""
+    ],
+    [
+      "Vucovich",
+      "Marc",
+      ""
+    ],
+    [
+      "Choi",
+      "Kevin",
+      ""
+    ],
+    [
+      "Rahman",
+      "Abdul",
+      ""
+    ],
+    [
+      "Bowen",
+      "Edward",
+      ""
+    ],
+    [
+      "Shetty",
+      "Sachin",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 6 Dec 2024 17:04:09 GMT"
+    }
+  ],
+  "updateDate": "2024-12-09",
+  "timestamp": 1733504649000,
+  "abstract": "  In the evolving landscape of machine learning (ML), Federated Learning (FL)\npresents a paradigm shift towards decentralized model training while preserving\nuser data privacy. This paper introduces the concept of ``privacy drift\", an\ninnovative framework that parallels the well-known phenomenon of concept drift.\nWhile concept drift addresses the variability in model accuracy over time due\nto changes in the data, privacy drift encapsulates the variation in the leakage\nof private information as models undergo incremental training. By defining and\nexamining privacy drift, this study aims to unveil the nuanced relationship\nbetween the evolution of model performance and the integrity of data privacy.\nThrough rigorous experimentation, we investigate the dynamics of privacy drift\nin FL systems, focusing on how model updates and data distribution shifts\ninfluence the susceptibility of models to privacy attacks, such as membership\ninference attacks (MIA). Our results highlight a complex interplay between\nmodel accuracy and privacy safeguards, revealing that enhancements in model\nperformance can lead to increased privacy risks. We provide empirical evidence\nfrom experiments on customized datasets derived from CIFAR-100 (Canadian\nInstitute for Advanced Research, 100 classes), showcasing the impact of data\nand concept drift on privacy. This work lays the groundwork for future research\non privacy-aware machine learning, aiming to achieve a delicate balance between\nmodel accuracy and data privacy in decentralized environments.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Computer Science/Cryptography and Security"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "RF0CagmXVSnqDDISSdM6X00-4c6lPSAGtey7O7r0pEY",
+  "pdfSize": "662425"
+}

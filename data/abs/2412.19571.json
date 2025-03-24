@@ -1,0 +1,47 @@
+{
+  "id": "2412.19571",
+  "title": "xFLIE: Leveraging Actionable Hierarchical Scene Representations for\n  Autonomous Semantic-Aware Inspection Missions",
+  "authors": "Vignesh Kottayam Viswanathan, Mario A.V. Saucedo, Sumeet Gajanan\n  Satpute, Christoforos Kanellakis and George Nikolakopoulos",
+  "authorsParsed": [
+    [
+      "Viswanathan",
+      "Vignesh Kottayam",
+      ""
+    ],
+    [
+      "Saucedo",
+      "Mario A. V.",
+      ""
+    ],
+    [
+      "Satpute",
+      "Sumeet Gajanan",
+      ""
+    ],
+    [
+      "Kanellakis",
+      "Christoforos",
+      ""
+    ],
+    [
+      "Nikolakopoulos",
+      "George",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 27 Dec 2024 10:26:59 GMT"
+    }
+  ],
+  "updateDate": "2024-12-30",
+  "timestamp": 1735295219000,
+  "abstract": "  This article presents xFLIE, a fully integrated 3D hierarchical scene graph\nbased autonomous inspection architecture. Specifically, we present a\ntightly-coupled solution of incremental 3D Layered Semantic Graphs (LSG)\nconstruction and real-time exploitation by a multi-modal autonomy, First-Look\nbased Inspection and Exploration (FLIE) planner, to address the task of\ninspection of apriori unknown semantic targets of interest in unknown\nenvironments. This work aims to address the challenge of maintaining, in\naddition to or as an alternative to volumetric models, an intuitive scene\nrepresentation during large-scale inspection missions. Through its\ncontributions, the proposed architecture aims to provide a high-level\nmulti-tiered abstract environment representation whilst simultaneously\nmaintaining a tractable foundation for rapid and informed decision-making\ncapable of enhancing inspection planning through scene understanding, what\nshould it inspect ?, and reasoning, why should it inspect ?. The proposed LSG\nframework is designed to leverage the concept of nesting lower local graphs, at\nmultiple layers of abstraction, with the abstract concepts grounded on the\nfunctionality of the integrated FLIE planner. Through intuitive scene\nrepresentation, the proposed architecture offers an easily digestible\nenvironment model for human operators which helps to improve situational\nawareness and their understanding of the operating environment. We highlight\nthe use-case benefits of hierarchical and semantic path-planning capability\nover LSG to address queries, by the integrated planner as well as the human\noperator. The validity of the proposed architecture is evaluated in large-scale\nsimulated outdoor urban scenarios as well as being deployed onboard a Boston\nDynamics Spot quadruped robot for extensive outdoor field experiments.\n",
+  "subjects": [
+    "Computer Science/Robotics"
+  ],
+  "license": "http://creativecommons.org/licenses/by-sa/4.0/",
+  "blobId": "7N8_lgYF-WmwUzOVSG-1wP97Z8ZckAwXc8Q3EHHoOKE",
+  "pdfSize": "33014205"
+}

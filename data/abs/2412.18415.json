@@ -1,0 +1,58 @@
+{
+  "id": "2412.18415",
+  "title": "Multilingual Mathematical Reasoning: Advancing Open-Source LLMs in Hindi\n  and English",
+  "authors": "Avinash Anand, Kritarth Prasad, Chhavi Kirtani, Ashwin R Nair,\n  Manvendra Kumar Nema, Raj Jaiswal, Rajiv Ratn Shah",
+  "authorsParsed": [
+    [
+      "Anand",
+      "Avinash",
+      ""
+    ],
+    [
+      "Prasad",
+      "Kritarth",
+      ""
+    ],
+    [
+      "Kirtani",
+      "Chhavi",
+      ""
+    ],
+    [
+      "Nair",
+      "Ashwin R",
+      ""
+    ],
+    [
+      "Nema",
+      "Manvendra Kumar",
+      ""
+    ],
+    [
+      "Jaiswal",
+      "Raj",
+      ""
+    ],
+    [
+      "Shah",
+      "Rajiv Ratn",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 24 Dec 2024 13:07:29 GMT"
+    }
+  ],
+  "updateDate": "2024-12-25",
+  "timestamp": 1735045649000,
+  "abstract": "  Large Language Models (LLMs) excel in linguistic tasks but struggle with\nmathematical reasoning, particularly in non English languages like Hindi. This\nresearch aims to enhance the mathematical reasoning skills of smaller, resource\nefficient open-source LLMs in both Hindi and English. We evaluate models like\nOpenHathi 7B, LLaMA-2 7B, WizardMath 7B, Mistral 7B, LLeMMa 7B, MAmmoTH 7B,\nGemini Pro, and GPT-4 using zero-shot, few-shot chain-of-thought (CoT) methods,\nand supervised fine-tuning. Our approach incorporates curriculum learning,\nprogressively training models on increasingly difficult problems, a novel\nDecomposition Strategy to simplify complex arithmetic operations, and a\nStructured Solution Design that divides solutions into phases. Our experiments\nresult in notable performance enhancements. WizardMath 7B exceeds Gemini's\naccuracy on English datasets by +6% and matches Gemini's performance on Hindi\ndatasets. Adopting a bilingual approach that combines English and Hindi samples\nachieves results comparable to individual language models, demonstrating the\ncapability to learn mathematical reasoning in both languages. This research\nhighlights the potential for improving mathematical reasoning in open-source\nLLMs.\n",
+  "subjects": [
+    "Computer Science/Computation and Language",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "DDGRYEnG_K8lVu4tLv1BolZWtHMUi-XmVa0q8Xy64HE",
+  "pdfSize": "542296"
+}

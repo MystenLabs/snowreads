@@ -1,0 +1,47 @@
+{
+  "id": "2412.10456",
+  "title": "FovealNet: Advancing AI-Driven Gaze Tracking Solutions for Optimized\n  Foveated Rendering System Performance in Virtual Reality",
+  "authors": "Wenxuan Liu, Monde Duinkharjav, Qi Sun, Sai Qian Zhang",
+  "authorsParsed": [
+    [
+      "Liu",
+      "Wenxuan",
+      ""
+    ],
+    [
+      "Duinkharjav",
+      "Monde",
+      ""
+    ],
+    [
+      "Sun",
+      "Qi",
+      ""
+    ],
+    [
+      "Zhang",
+      "Sai Qian",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 12 Dec 2024 08:03:54 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Tue, 31 Dec 2024 01:43:37 GMT"
+    }
+  ],
+  "updateDate": "2025-01-03",
+  "timestamp": 1733990634000,
+  "abstract": "  Leveraging real-time eye-tracking, foveated rendering optimizes hardware\nefficiency and enhances visual quality virtual reality (VR). This approach\nleverages eye-tracking techniques to determine where the user is looking,\nallowing the system to render high-resolution graphics only in the foveal\nregion-the small area of the retina where visual acuity is highest, while the\nperipheral view is rendered at lower resolution. However, modern deep\nlearning-based gaze-tracking solutions often exhibit a long-tail distribution\nof tracking errors, which can degrade user experience and reduce the benefits\nof foveated rendering by causing misalignment and decreased visual quality.\n  This paper introduces \\textit{FovealNet}, an advanced AI-driven gaze tracking\nframework designed to optimize system performance by strategically enhancing\ngaze tracking accuracy. To further reduce the implementation cost of the gaze\ntracking algorithm, FovealNet employs an event-based cropping method that\neliminates over $64.8\\%$ of irrelevant pixels from the input image.\nAdditionally, it incorporates a simple yet effective token-pruning strategy\nthat dynamically removes tokens on the fly without compromising tracking\naccuracy. Finally, to support different runtime rendering configurations, we\npropose a system performance-aware multi-resolution training strategy, allowing\nthe gaze tracking DNN to adapt and optimize overall system performance more\neffectively. Evaluation results demonstrate that FovealNet achieves at least\n$1.42\\times$ speed up compared to previous methods and 13\\% increase in\nperceptual quality for foveated output.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+  "blobId": "sMuC2rMBxdS2rucrrITFI5Y1RppurfVmjll8PXk60Mo",
+  "pdfSize": "3616963"
+}

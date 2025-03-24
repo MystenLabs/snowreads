@@ -1,0 +1,32 @@
+{
+  "id": "2412.03729",
+  "title": "Mostly contracting random maps",
+  "authors": "Pablo G. Barrientos and Dominique Malicet",
+  "authorsParsed": [
+    [
+      "Barrientos",
+      "Pablo G.",
+      ""
+    ],
+    [
+      "Malicet",
+      "Dominique",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 4 Dec 2024 21:50:13 GMT"
+    }
+  ],
+  "updateDate": "2024-12-06",
+  "timestamp": 1733349013000,
+  "abstract": "  We study the long-term behavior of the iteration of a random map consisting\nof Lipschitz transformations on a compact metric space, independently and\nrandomly selected according to a fixed probability measure. Such a random map\nis said to be \\emph{mostly contracting} if all Lyapunov exponents associated\nwith stationary measures are negative. This requires introducing the notion of\n(maximal) Lyapunov exponent in this general context of Lipschitz\ntransformations on compact metric spaces. We show that this class is open with\nrespect to the appropriate topology and satisfies the strong law of large\nnumbers for non-uniquely ergodic systems, the limit theorem for the law of\nrandom iterations, the global Palis' conjecture, and that the associated\nannealed Koopman operator is quasi-compact. This implies many statistical\nproperties such as central limit theorems, large deviations, statistical\nstability, and the continuity and H\\\"older continuity of Lyapunov exponents.\n  Examples from this class of random maps include random products of circle\n$C^1$ diffeomorphisms, interval $C^1$ diffeomorphisms onto their images, and\n$C^1$ diffeomorphisms of a Cantor set on a line, all considered under the\nassumption of no common invariant measure. This class also includes projective\nactions of locally constant linear cocycles under the assumptions of simplicity\nof the first Lyapunov exponent and some kind of irreducibility.\n  One of the main tools to prove the above results is the generalization of\nKingman's subadditive ergodic theorem and the uniform Kingman's subadditive\nergodic theorem for general Markov operators. These results are of independent\ninterest, as they may have broad applications in other contexts.\n",
+  "subjects": [
+    "Mathematics/Dynamical Systems"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "UfE-sPyaoGQ9g3rW5-_GqfymMCUeToWxuOnSXE6pSEA",
+  "pdfSize": "921450"
+}

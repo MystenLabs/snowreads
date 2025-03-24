@@ -1,0 +1,64 @@
+{
+  "id": "2412.09805",
+  "title": "Universal Inceptive GNNs by Eliminating the Smoothness-generalization\n  Dilemma",
+  "authors": "Ming Gu, Zhuonan Zheng, Sheng Zhou, Meihan Liu, Jiawei Chen, Tanyu\n  Qiao, Liangcheng Li, Jiajun Bu",
+  "authorsParsed": [
+    [
+      "Gu",
+      "Ming",
+      ""
+    ],
+    [
+      "Zheng",
+      "Zhuonan",
+      ""
+    ],
+    [
+      "Zhou",
+      "Sheng",
+      ""
+    ],
+    [
+      "Liu",
+      "Meihan",
+      ""
+    ],
+    [
+      "Chen",
+      "Jiawei",
+      ""
+    ],
+    [
+      "Qiao",
+      "Tanyu",
+      ""
+    ],
+    [
+      "Li",
+      "Liangcheng",
+      ""
+    ],
+    [
+      "Bu",
+      "Jiajun",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 13 Dec 2024 02:44:47 GMT"
+    }
+  ],
+  "updateDate": "2024-12-16",
+  "timestamp": 1734057887000,
+  "abstract": "  Graph Neural Networks (GNNs) have demonstrated remarkable success in various\ndomains, such as transaction and social net-works. However, their application\nis often hindered by the varyinghomophily levels across different orders of\nneighboring nodes, ne-cessitating separate model designs for homophilic and\nheterophilicgraphs. In this paper, we aim to develop a unified framework\nca-pable of handling neighborhoods of various orders and homophilylevels.\nThrough theoretical exploration, we identify a previouslyoverlooked\narchitectural aspect in multi-hop learning: the cascadedependency, which leads\nto asmoothness-generalization dilemma.This dilemma significantly affects the\nlearning process, especiallyin the context of high-order neighborhoods and\nheterophilic graphs.To resolve this issue, we propose an Inceptive Graph Neural\nNet-work (IGNN), a universal message-passing framework that replacesthe cascade\ndependency with an inceptive architecture. IGNN pro-vides independent\nrepresentations for each hop, allowing personal-ized generalization\ncapabilities, and captures neighborhood-wiserelationships to select appropriate\nreceptive fields. Extensive ex-periments show that our IGNN outperforms 23\nbaseline methods,demonstrating superior performance on both homophilic and\nhet-erophilic graphs, while also scaling efficiently to large graphs.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Social and Information Networks"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "e90Pfbi7A1hziMP_D3KYNXVmPzmhELDyOA-seyTgmlo",
+  "pdfSize": "985886"
+}

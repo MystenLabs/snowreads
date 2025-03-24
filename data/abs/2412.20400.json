@@ -1,0 +1,49 @@
+{
+  "id": "2412.20400",
+  "title": "Design of an improved microstrip antenna operating at a frequency band\n  of 28GHz",
+  "authors": "S. O. Zakariyya, B. O. Sadiq, R. A. Alao, J. A. Adesina, E. Obi",
+  "authorsParsed": [
+    [
+      "Zakariyya",
+      "S. O.",
+      ""
+    ],
+    [
+      "Sadiq",
+      "B. O.",
+      ""
+    ],
+    [
+      "Alao",
+      "R. A.",
+      ""
+    ],
+    [
+      "Adesina",
+      "J. A.",
+      ""
+    ],
+    [
+      "Obi",
+      "E.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 29 Dec 2024 08:29:50 GMT"
+    }
+  ],
+  "updateDate": "2024-12-31",
+  "timestamp": 1735460990000,
+  "abstract": "  The design of an improved microstrip antenna operating in the 28 GHz\nfrequency spectrum is the main goal of this work. The design used a Roger RT\n5880 LZ substrate with a thickness and permittivity of 0.762mm and 1.96,\nrespectively. The antenna was simulated in CST Microwave Studio. As the antenna\nfeed, a quarter-wave transformer was used to provide an impedance match of 50\nohms. To improve the antenna's performance, a Ushaped element was added to the\nground plane. The antenna resonated at 28 GHz frequency, according to\nsimulation data, with a return loss of -21.4 dB, VSWR of 1.18, bandwidth of\n2.026 GHz, and gain of 8.19 dB. The proposed antenna exhibits a performance\nimprovement in terms of gain and bandwidth due to the addition of U-shaped\nelement when benchmarked with existing designs in the literature work\n",
+  "subjects": [
+    "Electrical Engineering and Systems Science/Signal Processing",
+    "Computer Science/Emerging Technologies",
+    "Computer Science/Networking and Internet Architecture"
+  ],
+  "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+  "blobId": "t1vVZDFNnynRQvE64nqD83lRNicgAYaFJEnTTAUwKA4",
+  "pdfSize": "251197"
+}

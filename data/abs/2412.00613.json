@@ -1,0 +1,48 @@
+{
+  "id": "2412.00613",
+  "title": "Revisit Non-parametric Two-sample Testing as a Semi-supervised Learning\n  Problem",
+  "authors": "Xunye Tian, Liuhua Peng, Zhijian Zhou, Mingming Gong, Feng Liu",
+  "authorsParsed": [
+    [
+      "Tian",
+      "Xunye",
+      ""
+    ],
+    [
+      "Peng",
+      "Liuhua",
+      ""
+    ],
+    [
+      "Zhou",
+      "Zhijian",
+      ""
+    ],
+    [
+      "Gong",
+      "Mingming",
+      ""
+    ],
+    [
+      "Liu",
+      "Feng",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 30 Nov 2024 23:23:52 GMT"
+    }
+  ],
+  "updateDate": "2024-12-03",
+  "timestamp": 1733009032000,
+  "abstract": "  Learning effective data representations is crucial in answering if two\nsamples X and Y are from the same distribution (a.k.a. the non-parametric\ntwo-sample testing problem), which can be categorized into: i) learning\ndiscriminative representations (DRs) that distinguish between two samples in a\nsupervised-learning paradigm, and ii) learning inherent representations (IRs)\nfocusing on data's inherent features in an unsupervised-learning paradigm.\nHowever, both paradigms have issues: learning DRs reduces the data points\navailable for the two-sample testing phase, and learning purely IRs misses\ndiscriminative cues. To mitigate both issues, we propose a novel perspective to\nconsider non-parametric two-sample testing as a semi-supervised learning (SSL)\nproblem, introducing the SSL-based Classifier Two-Sample Test (SSL-C2ST)\nframework. While a straightforward implementation of SSL-C2ST might directly\nuse existing state-of-the-art (SOTA) SSL methods to train a classifier with\nlabeled data (with sample indexes X or Y) and unlabeled data (the remaining\nones in the two samples), conventional two-sample testing data often exhibits\nsubstantial overlap between samples and violates SSL methods' assumptions,\nresulting in low test power. Therefore, we propose a two-step approach: first,\nlearn IRs using all data, then fine-tune IRs with only labelled data to learn\nDRs, which can both utilize information from whole dataset and adapt the\ndiscriminative power to the given data. Extensive experiments and theoretical\nanalysis demonstrate that SSL-C2ST outperforms traditional C2ST by effectively\nleveraging unlabeled data. We also offer a stronger empirically designed test\nachieving the SOTA performance in many two-sample testing datasets.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Statistics/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "_tRjDh0R2rucUIsqeu-hrgD8MvPpmCAKCne4_EkvIzE",
+  "pdfSize": "947369"
+}

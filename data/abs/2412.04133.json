@@ -1,0 +1,44 @@
+{
+  "id": "2412.04133",
+  "title": "Simulating matrix models with tensor networks",
+  "authors": "Enrico M. Brehm, Yibin Guo, Karl Jansen, and Enrico Rinaldi",
+  "authorsParsed": [
+    [
+      "Brehm",
+      "Enrico M.",
+      ""
+    ],
+    [
+      "Guo",
+      "Yibin",
+      ""
+    ],
+    [
+      "Jansen",
+      "Karl",
+      ""
+    ],
+    [
+      "Rinaldi",
+      "Enrico",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 5 Dec 2024 12:57:58 GMT"
+    }
+  ],
+  "updateDate": "2024-12-06",
+  "timestamp": 1733403478000,
+  "abstract": "  Matrix models, as quantum mechanical systems without explicit spatial\ndependence, provide valuable insights into higher-dimensional gauge and\ngravitational theories, especially within the framework of string theory, where\nthey can describe quantum black holes via the holographic principle. Simulating\nthese models allows for exploration of their kinematic and dynamic properties,\nparticularly in parameter regimes that are analytically intractable. In this\nstudy, we examine the potential of tensor network techniques for such\nsimulations. Specifically, we construct ground states as matrix product states\nand analyse features such as their entanglement structure.\n",
+  "subjects": [
+    "Physics/High Energy Physics - Theory",
+    "Condensed Matter/Strongly Correlated Electrons",
+    "Physics/Quantum Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "KwbfkdkCFmPJMoCwAP8nnP8mVmS7OWcK7pkxdJtjTWQ",
+  "pdfSize": "2887612"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "2412.05339",
+  "title": "PyTerrier-GenRank: The PyTerrier Plugin for Reranking with Large\n  Language Models",
+  "authors": "Kaustubh D. Dhole",
+  "authorsParsed": [
+    [
+      "Dhole",
+      "Kaustubh D.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 6 Dec 2024 04:30:00 GMT"
+    }
+  ],
+  "updateDate": "2024-12-10",
+  "timestamp": 1733459400000,
+  "abstract": "  Using LLMs as rerankers requires experimenting with various hyperparameters,\nsuch as prompt formats, model choice, and reformulation strategies. We\nintroduce PyTerrier-GenRank, a PyTerrier plugin to facilitate seamless\nreranking experiments with LLMs, supporting popular ranking strategies like\npointwise and listwise prompting. We validate our plugin through HuggingFace\nand OpenAI hosted endpoints.\n",
+  "subjects": [
+    "Computer Science/Information Retrieval",
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Computation and Language"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "jd9ZfBKgYeMKwPimTm5a7JwP3R7bjBjZjgPWb1he5y8",
+  "pdfSize": "129770"
+}

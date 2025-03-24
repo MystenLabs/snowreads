@@ -1,0 +1,42 @@
+{
+  "id": "2412.15433",
+  "title": "Quantifying detection rates for dangerous capabilities: a theoretical\n  model of dangerous capability evaluations",
+  "authors": "Paolo Bova and Alessandro Di Stefano and The Anh Han",
+  "authorsParsed": [
+    [
+      "Bova",
+      "Paolo",
+      ""
+    ],
+    [
+      "Di Stefano",
+      "Alessandro",
+      ""
+    ],
+    [
+      "Han",
+      "The Anh",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 19 Dec 2024 22:31:34 GMT"
+    }
+  ],
+  "updateDate": "2024-12-23",
+  "timestamp": 1734647494000,
+  "abstract": "  We present a quantitative model for tracking dangerous AI capabilities over\ntime. Our goal is to help the policy and research community visualise how\ndangerous capability testing can give us an early warning about approaching AI\nrisks. We first use the model to provide a novel introduction to dangerous\ncapability testing and how this testing can directly inform policy. Decision\nmakers in AI labs and government often set policy that is sensitive to the\nestimated danger of AI systems, and may wish to set policies that condition on\nthe crossing of a set threshold for danger. The model helps us to reason about\nthese policy choices. We then run simulations to illustrate how we might fail\nto test for dangerous capabilities. To summarise, failures in dangerous\ncapability testing may manifest in two ways: higher bias in our estimates of AI\ndanger, or larger lags in threshold monitoring. We highlight two drivers of\nthese failure modes: uncertainty around dynamics in AI capabilities and\ncompetition between frontier AI labs. Effective AI policy demands that we\naddress these failure modes and their drivers. Even if the optimal targeting of\nresources is challenging, we show how delays in testing can harm AI policy. We\noffer preliminary recommendations for building an effective testing ecosystem\nfor dangerous capabilities and advise on a research agenda.\n",
+  "subjects": [
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Computers and Society",
+    "Computer Science/Multiagent Systems",
+    "Economics/General Economics",
+    "Quantitative Finance/Economics",
+    "Statistics/Applications"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "rL49wZdoHc5YM2BdBYV-AP6jPuH-OtJb_PmVUAIvnw0",
+  "pdfSize": "1155968"
+}

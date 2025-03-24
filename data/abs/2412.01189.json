@@ -1,0 +1,27 @@
+{
+  "id": "2412.01189",
+  "title": "MiningGPT -- A Domain-Specific Large Language Model for the Mining\n  Industry",
+  "authors": "Kurukulasooriya Fernando ana Gianluca Demartini",
+  "authorsParsed": [
+    [
+      "Demartini",
+      "Kurukulasooriya Fernando ana Gianluca",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 2 Dec 2024 06:47:59 GMT"
+    }
+  ],
+  "updateDate": "2024-12-03",
+  "timestamp": 1733122079000,
+  "abstract": "  Recent advancements of generative LLMs (Large Language Models) have exhibited\nhuman-like language capabilities but have shown a lack of domain-specific\nunderstanding. Therefore, the research community has started the development of\ndomain-specific LLMs for many domains. In this work we focus on discussing how\nto build mining domain-specific LLMs, as the global mining industry contributes\nsignificantly to the worldwide economy. We report on MiningGPT, a mining\ndomain-specific instruction-following 7B parameter LLM model which showed a\n14\\% higher mining domain knowledge test score as compared to its parent model\nMistral 7B instruct.\n",
+  "subjects": [
+    "Computer Science/Computation and Language"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "DaYx8IoSVLoBOK3w1QBqYg-gt4tTLEBTiNmY1jMDbFE",
+  "pdfSize": "3628925"
+}

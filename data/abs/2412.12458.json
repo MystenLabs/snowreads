@@ -1,0 +1,47 @@
+{
+  "id": "2412.12458",
+  "title": "An Application of the Ornstein-Uhlenbeck Process to Pairs Trading",
+  "authors": "Jirat Suchato, Sean Wiryadi, Danran Chen, Ava Zhao, Michael Yue",
+  "authorsParsed": [
+    [
+      "Suchato",
+      "Jirat",
+      ""
+    ],
+    [
+      "Wiryadi",
+      "Sean",
+      ""
+    ],
+    [
+      "Chen",
+      "Danran",
+      ""
+    ],
+    [
+      "Zhao",
+      "Ava",
+      ""
+    ],
+    [
+      "Yue",
+      "Michael",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 17 Dec 2024 01:42:50 GMT"
+    }
+  ],
+  "updateDate": "2024-12-18",
+  "timestamp": 1734399770000,
+  "abstract": "  We conduct a preliminary analysis of a pairs trading strategy using the\nOrnstein-Uhlenbeck (OU) process to model stock price spreads. We compare this\napproach to a naive pairs trading strategy that uses a rolling window to\ncalculate mean and standard deviation parameters. Our findings suggest that the\nOU model captures signals and trends effectively but underperforms the naive\nmodel on a risk-return basis, likely due to non-stationary pairs and parameter\ntuning limitations.\n",
+  "subjects": [
+    "Quantitative Finance/Trading and Market Microstructure"
+  ],
+  "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+  "blobId": "Jt11G0wgOOgk7UP4Jem7CnE_WA4pTzr8P8nJjfk9mys",
+  "pdfSize": "832534"
+}

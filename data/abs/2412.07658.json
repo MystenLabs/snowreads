@@ -1,0 +1,59 @@
+{
+  "id": "2412.07658",
+  "title": "TraSCE: Trajectory Steering for Concept Erasure",
+  "authors": "Anubhav Jain, Yuya Kobayashi, Takashi Shibuya, Yuhta Takida, Nasir\n  Memon, Julian Togelius, Yuki Mitsufuji",
+  "authorsParsed": [
+    [
+      "Jain",
+      "Anubhav",
+      ""
+    ],
+    [
+      "Kobayashi",
+      "Yuya",
+      ""
+    ],
+    [
+      "Shibuya",
+      "Takashi",
+      ""
+    ],
+    [
+      "Takida",
+      "Yuhta",
+      ""
+    ],
+    [
+      "Memon",
+      "Nasir",
+      ""
+    ],
+    [
+      "Togelius",
+      "Julian",
+      ""
+    ],
+    [
+      "Mitsufuji",
+      "Yuki",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 10 Dec 2024 16:45:03 GMT"
+    }
+  ],
+  "updateDate": "2024-12-11",
+  "timestamp": 1733849103000,
+  "abstract": "  Recent advancements in text-to-image diffusion models have brought them to\nthe public spotlight, becoming widely accessible and embraced by everyday\nusers. However, these models have been shown to generate harmful content such\nas not-safe-for-work (NSFW) images. While approaches have been proposed to\nerase such abstract concepts from the models, jail-breaking techniques have\nsucceeded in bypassing such safety measures. In this paper, we propose TraSCE,\nan approach to guide the diffusion trajectory away from generating harmful\ncontent. Our approach is based on negative prompting, but as we show in this\npaper, conventional negative prompting is not a complete solution and can\neasily be bypassed in some corner cases. To address this issue, we first\npropose a modification of conventional negative prompting. Furthermore, we\nintroduce a localized loss-based guidance that enhances the modified negative\nprompting technique by steering the diffusion trajectory. We demonstrate that\nour proposed method achieves state-of-the-art results on various benchmarks in\nremoving harmful content including ones proposed by red teams; and erasing\nartistic styles and objects. Our proposed approach does not require any\ntraining, weight modifications, or training data (both image or prompt), making\nit easier for model owners to erase new concepts.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "vychMNLsQ19S4fgK716oC0TqWj3TfhYtv4U04leJqx0",
+  "pdfSize": "12315724"
+}

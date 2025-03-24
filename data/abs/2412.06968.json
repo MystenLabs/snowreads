@@ -1,0 +1,32 @@
+{
+  "id": "2412.06968",
+  "title": "SphereUFormer: A U-Shaped Transformer for Spherical 360 Perception",
+  "authors": "Yaniv Benny, Lior Wolf",
+  "authorsParsed": [
+    [
+      "Benny",
+      "Yaniv",
+      ""
+    ],
+    [
+      "Wolf",
+      "Lior",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 9 Dec 2024 20:23:10 GMT"
+    }
+  ],
+  "updateDate": "2024-12-11",
+  "timestamp": 1733775790000,
+  "abstract": "  This paper proposes a novel method for omnidirectional 360$\\degree$\nperception. Most common previous methods relied on equirectangular projection.\nThis representation is easily applicable to 2D operation layers but introduces\ndistortions into the image. Other methods attempted to remove the distortions\nby maintaining a sphere representation but relied on complicated convolution\nkernels that failed to show competitive results. In this work, we introduce a\ntransformer-based architecture that, by incorporating a novel ``Spherical Local\nSelf-Attention'' and other spherically-oriented modules, successfully operates\nin the spherical domain and outperforms the state-of-the-art in 360$\\degree$\nperception benchmarks for depth estimation and semantic segmentation.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "yRao2ZvF4lFOW3CpCWf3-Abg1eMZQfJaWhg23RNVymk",
+  "pdfSize": "27377017"
+}

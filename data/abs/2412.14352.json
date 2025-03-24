@@ -1,0 +1,37 @@
+{
+  "id": "2412.14352",
+  "title": "A Survey on LLM Inference-Time Self-Improvement",
+  "authors": "Xiangjue Dong, Maria Teleki, James Caverlee",
+  "authorsParsed": [
+    [
+      "Dong",
+      "Xiangjue",
+      ""
+    ],
+    [
+      "Teleki",
+      "Maria",
+      ""
+    ],
+    [
+      "Caverlee",
+      "James",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 18 Dec 2024 21:37:07 GMT"
+    }
+  ],
+  "updateDate": "2024-12-20",
+  "timestamp": 1734557827000,
+  "abstract": "  Techniques that enhance inference through increased computation at test-time\nhave recently gained attention. In this survey, we investigate the current\nstate of LLM Inference-Time Self-Improvement from three different perspectives:\nIndependent Self-improvement, focusing on enhancements via decoding or sampling\nmethods; Context-Aware Self-Improvement, leveraging additional context or\ndatastore; and Model-Aided Self-Improvement, achieving improvement through\nmodel collaboration. We provide a comprehensive review of recent relevant\nstudies, contribute an in-depth taxonomy, and discuss challenges and\nlimitations, offering insights for future research.\n",
+  "subjects": [
+    "Computer Science/Computation and Language"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "P9ORb6qXULaHJRa80mXd-D27WqBZ_k9aP0wMdXgAui8",
+  "pdfSize": "730845"
+}

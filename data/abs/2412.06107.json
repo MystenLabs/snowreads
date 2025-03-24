@@ -1,0 +1,32 @@
+{
+  "id": "2412.06107",
+  "title": "Infusing Prompts with Syntax and Semantics",
+  "authors": "Anton Bulle Labate, Fabio Gagliardi Cozman",
+  "authorsParsed": [
+    [
+      "Labate",
+      "Anton Bulle",
+      ""
+    ],
+    [
+      "Cozman",
+      "Fabio Gagliardi",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 8 Dec 2024 23:49:38 GMT"
+    }
+  ],
+  "updateDate": "2024-12-10",
+  "timestamp": 1733701778000,
+  "abstract": "  Despite impressive success, language models often generate outputs with\nflawed linguistic structure. We analyze the effect of directly infusing various\nkinds of syntactic and semantic information into large language models. To\ndemonstrate the value of our proposals, we focus on the translation of natural\nlanguage queries to SQL, in particular dealing with languages with less\nresources than English, to better investigate how much help we can get from low\ncost syntactic and semantic information. We show that linguistic analysis can\nsignificantly boost language models, to the point that we have surpassed\nprevious best systems.\n",
+  "subjects": [
+    "Computer Science/Computation and Language"
+  ],
+  "license": "http://creativecommons.org/licenses/by-sa/4.0/",
+  "blobId": "V50MxkQo7q0MWkbrZdMVTB5bVXYi5ZC7HmwgA4isSmE",
+  "pdfSize": "123844"
+}

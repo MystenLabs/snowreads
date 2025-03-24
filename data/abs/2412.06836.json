@@ -1,0 +1,44 @@
+{
+  "id": "2412.06836",
+  "title": "GRUvader: Sentiment-Informed Stock Market Prediction",
+  "authors": "Akhila Mamillapalli, Bayode Ogunleye, Sonia Timoteo Inacio and\n  Olamilekan Shobayo",
+  "authorsParsed": [
+    [
+      "Mamillapalli",
+      "Akhila",
+      ""
+    ],
+    [
+      "Ogunleye",
+      "Bayode",
+      ""
+    ],
+    [
+      "Inacio",
+      "Sonia Timoteo",
+      ""
+    ],
+    [
+      "Shobayo",
+      "Olamilekan",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 7 Dec 2024 04:56:17 GMT"
+    }
+  ],
+  "updateDate": "2024-12-11",
+  "timestamp": 1733547377000,
+  "abstract": "  Stock price prediction is challenging due to global economic instability,\nhigh volatility, and the complexity of financial markets. Hence, this study\ncompared several machine learning algorithms for stock market prediction and\nfurther examined the influence of a sentiment analysis indicator on the\nprediction of stock prices. Our results were two-fold. Firstly, we used a\nlexicon-based sentiment analysis approach to identify sentiment features, thus\nevidencing the correlation between the sentiment indicator and stock price\nmovement. Secondly, we proposed the use of GRUvader, an optimal gated recurrent\nunit network, for stock market prediction. Our findings suggest that\nstand-alone models struggled compared with AI-enhanced models. Thus, our paper\nmakes further recommendations on latter systems.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Computer Science/Artificial Intelligence",
+    "Statistics/Applications"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "YUUSN63cEzluux8vpjvK-lKFfPLisSyr7PhVHsDS9l8",
+  "pdfSize": "1086241"
+}

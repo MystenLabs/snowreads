@@ -1,0 +1,52 @@
+{
+  "id": "2412.14971",
+  "title": "AI and Cultural Context: An Empirical Investigation of Large Language\n  Models' Performance on Chinese Social Work Professional Standards",
+  "authors": "Zia Qi, Brian E. Perron, Miao Wang, Cao Fang, Sitao Chen, Bryan G.\n  Victor",
+  "authorsParsed": [
+    [
+      "Qi",
+      "Zia",
+      ""
+    ],
+    [
+      "Perron",
+      "Brian E.",
+      ""
+    ],
+    [
+      "Wang",
+      "Miao",
+      ""
+    ],
+    [
+      "Fang",
+      "Cao",
+      ""
+    ],
+    [
+      "Chen",
+      "Sitao",
+      ""
+    ],
+    [
+      "Victor",
+      "Bryan G.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 19 Dec 2024 15:48:27 GMT"
+    }
+  ],
+  "updateDate": "2024-12-20",
+  "timestamp": 1734623307000,
+  "abstract": "  Objective: This study examines how well leading Chinese and Western large\nlanguage models understand and apply Chinese social work principles, focusing\non their foundational knowledge within a non-Western professional setting. We\ntest whether the cultural context in the developing country influences model\nreasoning and accuracy.\n  Method: Using a published self-study version of the Chinese National Social\nWork Examination (160 questions) covering jurisprudence and applied knowledge,\nwe administered three testing conditions to eight cloud-based large language\nmodels - four Chinese and four Western. We examined their responses following\nofficial guidelines and evaluated their explanations' reasoning quality.\n  Results: Seven models exceeded the 60-point passing threshold in both\nsections. Chinese models performed better in jurisprudence (median = 77.0 vs.\n70.3) but slightly lower in applied knowledge (median = 65.5 vs. 67.0). Both\ngroups showed cultural biases, particularly regarding gender equality and\nfamily dynamics. Models demonstrated strong professional terminology knowledge\nbut struggled with culturally specific interventions. Valid reasoning in\nincorrect answers ranged from 16.4% to 45.0%.\n  Conclusions: While both Chinese and Western models show foundational\nknowledge of Chinese social work principles, technical language proficiency\ndoes not ensure cultural competence. Chinese models demonstrate advantages in\nregulatory content, yet both Chinese and Western models struggle with\nculturally nuanced practice scenarios. These findings contribute to informing\nresponsible AI integration into cross-cultural social work practice.\n",
+  "subjects": [
+    "Computer Science/Computers and Society"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "6ld0WUaV1OqMu7bfPUx-YnIEzd6wxLVLjSWnSR0ZPOw",
+  "pdfSize": "704590"
+}

@@ -1,0 +1,57 @@
+{
+  "id": "2412.00829",
+  "title": "Weak Lensing Reconstruction by Counting Galaxies: Improvement with DES\n  Y3 Galaxies",
+  "authors": "Jian Qin, Pengjie Zhang, Yu Yu, Haojie Xu, Ji Yao, Yuan Shi, Huanyuan\n  Shan",
+  "authorsParsed": [
+    [
+      "Qin",
+      "Jian",
+      ""
+    ],
+    [
+      "Zhang",
+      "Pengjie",
+      ""
+    ],
+    [
+      "Yu",
+      "Yu",
+      ""
+    ],
+    [
+      "Xu",
+      "Haojie",
+      ""
+    ],
+    [
+      "Yao",
+      "Ji",
+      ""
+    ],
+    [
+      "Shi",
+      "Yuan",
+      ""
+    ],
+    [
+      "Shan",
+      "Huanyuan",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 1 Dec 2024 14:33:09 GMT"
+    }
+  ],
+  "updateDate": "2024-12-03",
+  "timestamp": 1733063589000,
+  "abstract": "  In \\citep{Qin+}, we attempted to reconstruct the weak lensing convergence map\n$\\hat{\\kappa}$ from cosmic magnification by linearly weighting the DECaLS\ngalaxy overdensities in different magnitude bins of $grz$ photometry bands. The\n$\\hat{\\kappa}$ map is correlated with cosmic shear at 20-$\\sigma$ significance.\nHowever, the low galaxy number density in the DECaLS survey prohibits the\nmeasurement of $\\hat{\\kappa}$ auto-correlation. In this paper, we apply the\nreconstruction method to the Dark Energy Survey Year 3 (DES Y3) galaxies from\nthe DES Data Release 2 (DR2). With greater survey depth and higher galaxy\nnumber density, convergence-shear cross-correlation signals are detected with\n$S/N\\approx 9,16,20$ at $0.4<z_\\kappa<0.6,0.6<z_\\kappa<0.8$ and\n$0.8<z_\\kappa<1.0$ respectively. More remarkably, the\n$\\hat{\\kappa}-\\hat{\\kappa}$ correlations of the $0.4<z_\\kappa<0.6$ and\n$0.6<z_\\kappa<0.8$ bins show reasonably good agreement with predictions based\non theoretical interpretation of $\\hat{\\kappa}-\\gamma$ measurement. This result\ntakes a step further towards the cosmological application of our lensing\nreconstruction method.\n",
+  "subjects": [
+    "Astrophysics/Cosmology and Nongalactic Astrophysics"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "s_bbnRio2MrETDzHHsrqNmdFADdgIlFIWl_HtMW34m8",
+  "pdfSize": "1056857"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "2412.15925",
+  "title": "MiniGPT-Pancreas: Multimodal Large Language Model for Pancreas Cancer\n  Classification and Detection",
+  "authors": "Andrea Moglia, Elia Clement Nastasio, Luca Mainardi, Pietro Cerveri",
+  "authorsParsed": [
+    [
+      "Moglia",
+      "Andrea",
+      ""
+    ],
+    [
+      "Nastasio",
+      "Elia Clement",
+      ""
+    ],
+    [
+      "Mainardi",
+      "Luca",
+      ""
+    ],
+    [
+      "Cerveri",
+      "Pietro",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 20 Dec 2024 14:18:16 GMT"
+    }
+  ],
+  "updateDate": "2024-12-23",
+  "timestamp": 1734704296000,
+  "abstract": "  Problem: Pancreas radiological imaging is challenging due to the small size,\nblurred boundaries, and variability of shape and position of the organ among\npatients. Goal: In this work we present MiniGPT-Pancreas, a Multimodal Large\nLanguage Model (MLLM), as an interactive chatbot to support clinicians in\npancreas cancer diagnosis by integrating visual and textual information.\nMethods: MiniGPT-v2, a general-purpose MLLM, was fine-tuned in a cascaded way\nfor pancreas detection, tumor classification, and tumor detection with\nmultimodal prompts combining questions and computed tomography scans from the\nNational Institute of Health (NIH), and Medical Segmentation Decathlon (MSD)\ndatasets. The AbdomenCT-1k dataset was used to detect the liver, spleen,\nkidney, and pancreas. Results: MiniGPT-Pancreas achieved an Intersection over\nUnion (IoU) of 0.595 and 0.550 for the detection of pancreas on NIH and MSD\ndatasets, respectively. For the pancreas cancer classification task on the MSD\ndataset, accuracy, precision, and recall were 0.876, 0.874, and 0.878,\nrespectively. When evaluating MiniGPT-Pancreas on the AbdomenCT-1k dataset for\nmulti-organ detection, the IoU was 0.8399 for the liver, 0.722 for the kidney,\n0.705 for the spleen, and 0.497 for the pancreas. For the pancreas tumor\ndetection task, the IoU score was 0.168 on the MSD dataset. Conclusions:\nMiniGPT-Pancreas represents a promising solution to support clinicians in the\nclassification of pancreas images with pancreas tumors. Future research is\nneeded to improve the score on the detection task, especially for pancreas\ntumors.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by-sa/4.0/",
+  "blobId": "J5XCtYaIYvD2oL4jPjnwS8W3_YFgucc_SpfJJ0uHm1o",
+  "pdfSize": "4928966"
+}

@@ -1,0 +1,47 @@
+{
+  "id": "2412.10323",
+  "title": "Transient Blurring of the Scintillation Arc of Pulsar B1737+13",
+  "authors": "Yen-Hua Chen and Samuel Siegel and Daniel Baker and Ue-Li Pen and Dan\n  Stinebring",
+  "authorsParsed": [
+    [
+      "Chen",
+      "Yen-Hua",
+      ""
+    ],
+    [
+      "Siegel",
+      "Samuel",
+      ""
+    ],
+    [
+      "Baker",
+      "Daniel",
+      ""
+    ],
+    [
+      "Pen",
+      "Ue-Li",
+      ""
+    ],
+    [
+      "Stinebring",
+      "Dan",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 13 Dec 2024 18:01:51 GMT"
+    }
+  ],
+  "updateDate": "2025-02-11",
+  "timestamp": 1734112911000,
+  "abstract": "  For many pulsars, the scattering structures responsible for scintillation are\ntypically dominated by a single, thin screen along the line of sight, which\npersists for years or decades. In recent years, an increasing number of\ndoubly-lensed events have been observed, where a secondary lens crosses the\nline of sight. This causes additional or distorted scintillation arcs over time\nscales ranging from days to months. In this work we report such a transient\nevent for pulsar B1737+13 and propose a possible lensing geometry including the\ndistance to both lenses, and the orientation of the main screen. Using phase\nretrieval techniques to separate the two lenses in the wavefield, we report a\ncurvature and rate of motion of features associated with the secondary lens as\nit passed through the line of sight. By fitting the annual variation of the\ncurvature, we report a possible distance and orientation for the main screen.\nThe distance of the secondary lens is found by mapping the secondary feature\nonto the sky and tracking its position over time for different distances. We\nvalidate this method using B0834+06, for which the screen solutions are known\nthrough VLBI, and successfully recover the correct solution for the secondary\nfeature. With the identified lensing geometry, we are able to estimate the size\nof the secondary lens, 1 - 3 au. Although this an appropriate size for a\nstructure that could cause an extreme scattering event, we do not have\nconclusive evidence for or against that possibility.\n",
+  "subjects": [
+    "Astrophysics/Astrophysics of Galaxies"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "5SlslOUaSz-gldVe3bjlHAQEM4U0WuE_QioNpkA8iQw",
+  "pdfSize": "3364598"
+}

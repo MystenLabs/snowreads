@@ -1,0 +1,44 @@
+{
+  "id": "2412.18771",
+  "title": "RIS-Assisted MIMO CV-QKD at THz Frequencies: Channel Estimation and SKR\n  Analysis",
+  "authors": "Sushil Kumar, Soumya P. Dash, Debasish Ghose, and George C.\n  Alexandropoulos",
+  "authorsParsed": [
+    [
+      "Kumar",
+      "Sushil",
+      ""
+    ],
+    [
+      "Dash",
+      "Soumya P.",
+      ""
+    ],
+    [
+      "Ghose",
+      "Debasish",
+      ""
+    ],
+    [
+      "Alexandropoulos",
+      "George C.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 25 Dec 2024 04:11:53 GMT"
+    }
+  ],
+  "updateDate": "2024-12-30",
+  "timestamp": 1735099913000,
+  "abstract": "  In this paper, a multiple-input multiple-output (MIMO) wireless system\nincorporating a reconfigurable intelligent surface (RIS) to efficiently operate\nat terahertz (THz) frequencies is considered. The transmitter, Alice, employs\ncontinuous-variable quantum key distribution (CV-QKD) to communicate secret\nkeys to the receiver, Bob, which utilizes either homodyne or heterodyne\ndetection. The latter node applies the least-squared approach to estimate the\neffective MIMO channel gain matrix prior to receiving the secret key, and this\nestimation is made available to Alice via an error-free feedback channel. An\neavesdropper, Eve, is assumed to employ a collective Gaussian entanglement\nattack on the feedback channel to avail the estimated channel state\ninformation. We present a novel closed-form expression for the secret key rate\n(SKR) performance of the proposed RIS-assisted THz CV-QKD system. The effect of\nvarious system parameters, such as the number of RIS elements and their phase\nconfigurations, the channel estimation error, and the detector noise, on the\nSKR performance are studied via numerical evaluation of the derived formula. It\nis demonstrated that the RIS contributes to larger SKR for larger link\ndistances, and that heterodyne detection is preferable over homodyne at lower\npilot symbol powers.\n",
+  "subjects": [
+    "Computer Science/Information Theory",
+    "Electrical Engineering and Systems Science/Signal Processing",
+    "Mathematics/Information Theory"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "VAExhgtBLHqf1KzOpHVAGdSmji2NUOX-X_lrqwwdfjM",
+  "pdfSize": "910854"
+}

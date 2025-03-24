@@ -1,0 +1,37 @@
+{
+  "id": "2412.14986",
+  "title": "Chain-of-MetaWriting: Linguistic and Textual Analysis of How Small\n  Language Models Write Young Students Texts",
+  "authors": "Ioana Buhnila, Georgeta Cislaru, Amalia Todirascu",
+  "authorsParsed": [
+    [
+      "Buhnila",
+      "Ioana",
+      ""
+    ],
+    [
+      "Cislaru",
+      "Georgeta",
+      ""
+    ],
+    [
+      "Todirascu",
+      "Amalia",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 19 Dec 2024 15:58:53 GMT"
+    }
+  ],
+  "updateDate": "2024-12-20",
+  "timestamp": 1734623933000,
+  "abstract": "  Large Language Models (LLMs) have been used to generate texts in response to\ndifferent writing tasks: reports, essays, story telling. However, language\nmodels do not have a meta-representation of the text writing process, nor\ninherent communication learning needs, comparable to those of young human\nstudents. This paper introduces a fine-grained linguistic and textual analysis\nof multilingual Small Language Models' (SLMs) writing. With our method,\nChain-of-MetaWriting, SLMs can imitate some steps of the human writing process,\nsuch as planning and evaluation. We mainly focused on short story and essay\nwriting tasks in French for schoolchildren and undergraduate students\nrespectively. Our results show that SLMs encounter difficulties in assisting\nyoung students on sensitive topics such as violence in the schoolyard, and they\nsometimes use words too complex for the target audience. In particular, the\noutput is quite different from the human produced texts in term of text\ncohesion and coherence regarding temporal connectors, topic progression,\nreference.\n",
+  "subjects": [
+    "Computer Science/Computation and Language"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "3cJI4g4w-zDYNBYQ9_EetV0ITHXFIcfrZM5gyAxQGfs",
+  "pdfSize": "738983"
+}

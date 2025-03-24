@@ -1,0 +1,56 @@
+{
+  "id": "2412.17131",
+  "title": "LLMsAgainstHate @ NLU of Devanagari Script Languages 2025: Hate Speech\n  Detection and Target Identification in Devanagari Languages via Parameter\n  Efficient Fine-Tuning of LLMs",
+  "authors": "Rushendra Sidibomma, Pransh Patwa, Parth Patwa, Aman Chadha, Vinija\n  Jain, Amitava Das",
+  "authorsParsed": [
+    [
+      "Sidibomma",
+      "Rushendra",
+      ""
+    ],
+    [
+      "Patwa",
+      "Pransh",
+      ""
+    ],
+    [
+      "Patwa",
+      "Parth",
+      ""
+    ],
+    [
+      "Chadha",
+      "Aman",
+      ""
+    ],
+    [
+      "Jain",
+      "Vinija",
+      ""
+    ],
+    [
+      "Das",
+      "Amitava",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 22 Dec 2024 18:38:24 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Thu, 26 Dec 2024 11:43:37 GMT"
+    }
+  ],
+  "updateDate": "2024-12-30",
+  "timestamp": 1734892704000,
+  "abstract": "  The detection of hate speech has become increasingly important in combating\nonline hostility and its real-world consequences. Despite recent advancements,\nthere is limited research addressing hate speech detection in\nDevanagari-scripted languages, where resources and tools are scarce. While\nlarge language models (LLMs) have shown promise in language-related tasks,\ntraditional fine-tuning approaches are often infeasible given the size of the\nmodels. In this paper, we propose a Parameter Efficient Fine tuning (PEFT)\nbased solution for hate speech detection and target identification. We evaluate\nmultiple LLMs on the Devanagari dataset provided by (Thapa et al., 2025), which\ncontains annotated instances in 2 languages - Hindi and Nepali. The results\ndemonstrate the efficacy of our approach in handling Devanagari-scripted\ncontent.\n",
+  "subjects": [
+    "Computer Science/Computation and Language"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "RgULfC_ZoHCl9jysFn7hOzCK1rWXC0O7D4X-9XM3QLo",
+  "pdfSize": "246659"
+}

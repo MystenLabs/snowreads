@@ -1,0 +1,46 @@
+{
+  "id": "2412.15669",
+  "title": "WigglyEyes: Inferring Eye Movements from Keypress Data",
+  "authors": "Yujun Zhu, Danqing Shi, Hee-Seung Moon, Antti Oulasvirta",
+  "authorsParsed": [
+    [
+      "Zhu",
+      "Yujun",
+      ""
+    ],
+    [
+      "Shi",
+      "Danqing",
+      ""
+    ],
+    [
+      "Moon",
+      "Hee-Seung",
+      ""
+    ],
+    [
+      "Oulasvirta",
+      "Antti",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 20 Dec 2024 08:35:12 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Thu, 13 Feb 2025 19:25:17 GMT"
+    }
+  ],
+  "updateDate": "2025-02-17",
+  "timestamp": 1734683712000,
+  "abstract": "  We present a model for inferring where users look during interaction based on\nkeypress data only. Given a key log, it outputs a scanpath that tells,\nmoment-by-moment, how the user had moved eyes while entering those keys. The\nmodel can be used as a proxy for human data in cases where collecting real eye\ntracking data is expensive or impossible. Our technical insight is three-fold:\nfirst, we present an inference architecture that considers the individual\ncharacteristics of the user, inferred as a low-dimensional parameter vector;\nsecond, we present a novel loss function for synchronizing inferred eye\nmovements with the keypresses; third, we train the model using a hybrid\napproach with both human data and synthetically generated data. The approach\ncan be applied in interactive systems where predictive models of user behavior\nare available. We report results from evaluation in the challenging case of\ntouchscreen typing, where the model accurately inferred real eye movements.\n",
+  "subjects": [
+    "Computer Science/Human-Computer Interaction"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "PaalZKEF0ozyx7HZBHH0EJ0ofVaWXC6WW198UZMkjzg",
+  "pdfSize": "4529228"
+}

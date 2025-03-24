@@ -1,0 +1,43 @@
+{
+  "id": "2412.11796",
+  "title": "Discrete Poincar\\'e inequalities: a review on proofs, equivalent\n  formulations, and behavior of constants",
+  "authors": "Alexandre Ern and Johnny Guzm\\'an and Pratyush Potu and Martin\n  Vohral\\'ik",
+  "authorsParsed": [
+    [
+      "Ern",
+      "Alexandre",
+      ""
+    ],
+    [
+      "Guzmán",
+      "Johnny",
+      ""
+    ],
+    [
+      "Potu",
+      "Pratyush",
+      ""
+    ],
+    [
+      "Vohralík",
+      "Martin",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 16 Dec 2024 14:09:17 GMT"
+    }
+  ],
+  "updateDate": "2024-12-17",
+  "timestamp": 1734358157000,
+  "abstract": "  We investigate discrete Poincar\\'e inequalities on piecewise polynomial\nsubspaces of the Sobolev spaces H(curl) and H(div) in three space dimensions.\nWe characterize the dependence of the constants on the continuous-level\nconstants, the shape regularity and cardinality of the underlying tetrahedral\nmesh, and the polynomial degree. One important focus is on meshes being local\npatches (stars) of tetrahedra from a larger tetrahedral mesh. We also review\nvarious equivalent results to the discrete Poincar\\'e inequalities, namely\nstability of discrete constrained minimization problems, discrete inf-sup\nconditions, bounds on operator norms of piecewise polynomial vector potential\noperators (Poincar\\'e maps), and existence of graph-stable commuting\nprojections.\n",
+  "subjects": [
+    "Mathematics/Numerical Analysis",
+    "Computer Science/Numerical Analysis"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "xQBpffcTCFDbQcHLbzW5QGz8CktTtnt-2uvkEN_cBrM",
+  "pdfSize": "393558"
+}

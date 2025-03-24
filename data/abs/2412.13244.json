@@ -1,0 +1,47 @@
+{
+  "id": "2412.13244",
+  "title": "iRBSM: A Deep Implicit 3D Breast Shape Model",
+  "authors": "Maximilian Weiherer, Antonia von Riedheim, Vanessa Br\\'ebant, Bernhard\n  Egger, Christoph Palm",
+  "authorsParsed": [
+    [
+      "Weiherer",
+      "Maximilian",
+      ""
+    ],
+    [
+      "von Riedheim",
+      "Antonia",
+      ""
+    ],
+    [
+      "Brébant",
+      "Vanessa",
+      ""
+    ],
+    [
+      "Egger",
+      "Bernhard",
+      ""
+    ],
+    [
+      "Palm",
+      "Christoph",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 17 Dec 2024 18:51:27 GMT"
+    }
+  ],
+  "updateDate": "2024-12-19",
+  "timestamp": 1734461487000,
+  "abstract": "  We present the first deep implicit 3D shape model of the female breast,\nbuilding upon and improving the recently proposed Regensburg Breast Shape Model\n(RBSM). Compared to its PCA-based predecessor, our model employs implicit\nneural representations; hence, it can be trained on raw 3D breast scans and\neliminates the need for computationally demanding non-rigid registration -- a\ntask that is particularly difficult for feature-less breast shapes. The\nresulting model, dubbed iRBSM, captures detailed surface geometry including\nfine structures such as nipples and belly buttons, is highly expressive, and\noutperforms the RBSM on different surface reconstruction tasks. Finally,\nleveraging the iRBSM, we present a prototype application to 3D reconstruct\nbreast shapes from just a single image. Model and code publicly available at\nhttps://rbsm.re-mic.de/implicit.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "JWksbtnBI8nOm40MahsIkRqr4RV5fnThoz2c6hbQZFo",
+  "pdfSize": "16045559"
+}

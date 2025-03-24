@@ -1,0 +1,29 @@
+{
+  "id": "2412.01918",
+  "title": "Linear Reduction and Homotopy Control for Steady Drift-Diffusion Systems\n  in Narrow Convex Domains",
+  "authors": "Joseph W. Jerome",
+  "authorsParsed": [
+    [
+      "Jerome",
+      "Joseph W.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 2 Dec 2024 19:06:41 GMT"
+    }
+  ],
+  "updateDate": "2024-12-04",
+  "timestamp": 1733166401000,
+  "abstract": "  This article develops and applies results, originally introduced in earlier\nwork, for the existence of homotopy curves, terminating at a desired solution.\nWe describe the principal hypotheses and results in section two; right inverse\napproximation is at the core of the theory. We apply this theory in section\nthree to the basic drift-diffusion equations. The carrier densities are not\nassumed to satisfy Boltzmann statistics and the Einstein relations are not\nassumed. By proving the existence of the homotopy curve, we validate the\nunderlying computational framework of a predictor/corrector scheme, where the\ncorrector utilizes an approximate Newton method. The analysis depends on the\nassumption of domains of narrow width. However, no assumption is made regarding\nthe domain diameter.\n",
+  "subjects": [
+    "Mathematics/Numerical Analysis",
+    "Computer Science/Numerical Analysis",
+    "Mathematics/Analysis of PDEs"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "G1Lw8JOzqNatxXxqvtSXAD4oX53tPb5IQGOXonpuQAo",
+  "pdfSize": "203112"
+}

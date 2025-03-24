@@ -1,0 +1,29 @@
+{
+  "id": "2412.06707",
+  "title": "An Operator Theoretic Approach to Birkhoff's Problem 111",
+  "authors": "Miles Gould",
+  "authorsParsed": [
+    [
+      "Gould",
+      "Miles",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 9 Dec 2024 17:56:54 GMT"
+    }
+  ],
+  "updateDate": "2024-12-10",
+  "timestamp": 1733767014000,
+  "abstract": "  In 1946, Garrett Birkhoff proved that the $n\\times n$ doubly stochastic\nmatrices comprise the convex hull of the $n\\times n$ permutation matrices,\nwhich in turn make up the extreme points of this polytope. He proposed his\nproblem 111, which asks whether there exists a topology on infinite matrices\nfor which this applies to the closed convex hull of the\n$\\mathbb{N}\\times\\mathbb{N}$ permutation matrices. As Isbell showed in 1955,\nthis equality is not achieved in the line-sum norm. In this paper, we use the\ndomain of operator theory, and its many topologies, to improve on his negative\nresult by showing that Birkhoff's problem is not solved in any of these\ntopologies. In Kendall's 1960 paper on this problem, he gave an answer to the\naffirmative, as well as a topology for which closed convex hull comprises the\ndoubly substochastic matrices. We also show that Kendall's secondary theorem\nalso applies for all the locally convex Hausdorff topologies finer than than\nKendall's (namely that of entry-wise convergence) which make the continuous\ndual of the matrix space no larger than the predual of the von Neumann algebra\ncontaining them. We then show that this is a theoretical upper limit topologies\nwith this closure property. We also discuss the exposed points of this hull for\nthese several topologies. Moreover, we show that, in these topologies, the\nclosed affine hull of these permutation matrices comprise all operators with\nreal-entry matrix coefficients.\n",
+  "subjects": [
+    "Mathematics/Operator Algebras",
+    "Mathematics/Functional Analysis",
+    "Mathematics/Representation Theory"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "okrYRebWthK7kp9mpx7ouj_2XWazOjElwHlxVMNbRhI",
+  "pdfSize": "201612"
+}

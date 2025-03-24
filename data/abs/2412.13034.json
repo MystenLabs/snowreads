@@ -1,0 +1,48 @@
+{
+  "id": "2412.13034",
+  "title": "Unified calibration and spatial mapping of fine particulate matter data\n  from multiple low-cost air pollution sensor networks in Baltimore, Maryland",
+  "authors": "Claire Heffernan, Kirsten Koehler, Drew R. Gentner, Roger D. Peng,\n  Abhirup Datta",
+  "authorsParsed": [
+    [
+      "Heffernan",
+      "Claire",
+      ""
+    ],
+    [
+      "Koehler",
+      "Kirsten",
+      ""
+    ],
+    [
+      "Gentner",
+      "Drew R.",
+      ""
+    ],
+    [
+      "Peng",
+      "Roger D.",
+      ""
+    ],
+    [
+      "Datta",
+      "Abhirup",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 17 Dec 2024 15:59:04 GMT"
+    }
+  ],
+  "updateDate": "2024-12-18",
+  "timestamp": 1734451144000,
+  "abstract": "  Low-cost air pollution sensor networks are increasingly being deployed\nglobally, supplementing sparse regulatory monitoring with localized air quality\ndata. In some areas, like Baltimore, Maryland, there are only few regulatory\n(reference) devices but multiple low-cost networks. While there are many\navailable methods to calibrate data from each network individually, separate\ncalibration of each network leads to conflicting air quality predictions. We\ndevelop a general Bayesian spatial filtering model combining data from multiple\nnetworks and reference devices, providing dynamic calibrations (informed by the\nlatest reference data) and unified predictions (combining information from all\navailable sensors) for the entire region. This method accounts for\nnetwork-specific bias and noise (observation models), as different networks can\nuse different types of sensors, and uses a Gaussian process (state-space model)\nto capture spatial correlations. We apply the method to calibrate PM$_{2.5}$\ndata from Baltimore in June and July 2023 -- a period including days of\nhazardous concentrations due to wildfire smoke. Our method helps mitigate the\neffects of preferential sampling of one network in Baltimore, results in better\npredictions and narrower confidence intervals. Our approach can be used to\ncalibrate low-cost air pollution sensor data in Baltimore and any other areas\nwith multiple low-cost networks.\n",
+  "subjects": [
+    "Statistics/Applications",
+    "Statistics/Methodology"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "vnT2rivvRbd_4J5TZ7fnEFyNwaxtRtrBXrQ2Netx600",
+  "pdfSize": "10722303"
+}

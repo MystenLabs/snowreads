@@ -1,0 +1,37 @@
+{
+  "id": "2412.05476",
+  "title": "Digging for Decision Trees: A Case Study in Strategy Sampling and\n  Learning",
+  "authors": "Carlos E. Budde, Pedro R. D'Argenio, Arnd Hartmanns",
+  "authorsParsed": [
+    [
+      "Budde",
+      "Carlos E.",
+      ""
+    ],
+    [
+      "D'Argenio",
+      "Pedro R.",
+      ""
+    ],
+    [
+      "Hartmanns",
+      "Arnd",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 7 Dec 2024 00:31:40 GMT"
+    }
+  ],
+  "updateDate": "2024-12-10",
+  "timestamp": 1733531500000,
+  "abstract": "  We introduce a formal model of transportation in an open-pit mine for the\npurpose of optimising the mine's operations. The model is a network of Markov\nautomata (MA); the optimisation goal corresponds to maximising a time-bounded\nexpected reward property. Today's model checking algorithms exacerbate the\nstate space explosion problem by applying a discretisation approach to such\nproperties on MA. We show that model checking is infeasible even for small mine\ninstances. Instead, we propose statistical model checking with lightweight\nstrategy sampling or table-based Q-learning over untimed strategies as an\nalternative to approach the optimisation task, using the Modest Toolset's modes\ntool. We add support for partial observability to modes so that strategies can\nbe based on carefully selected model features, and we implement a connection\nfrom modes to the dtControl tool to convert sampled or learned strategies into\ndecision trees. We experimentally evaluate the adequacy of our new tooling on\nthe open-pit mine case study. Our experiments demonstrate the limitations of\nQ-learning, the impact of feature selection, and the usefulness of decision\ntrees as an explainable representation.\n",
+  "subjects": [
+    "Computer Science/Formal Languages and Automata Theory"
+  ],
+  "license": "http://creativecommons.org/licenses/by-sa/4.0/",
+  "blobId": "mFIBKCJZ0BXcbu2R73K5rg_3y2rgvgAcu9A_FAn3ps0",
+  "pdfSize": "2026192"
+}

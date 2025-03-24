@@ -1,0 +1,37 @@
+{
+  "id": "2412.04334",
+  "title": "Fractional counting process at L\\'evy times and its applications",
+  "authors": "Shilpa Garg, Ashok Kumar Pathak, Aditya Maheshwari",
+  "authorsParsed": [
+    [
+      "Garg",
+      "Shilpa",
+      ""
+    ],
+    [
+      "Pathak",
+      "Ashok Kumar",
+      ""
+    ],
+    [
+      "Maheshwari",
+      "Aditya",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 5 Dec 2024 16:49:02 GMT"
+    }
+  ],
+  "updateDate": "2024-12-06",
+  "timestamp": 1733417342000,
+  "abstract": "  Traditionally, fractional counting processes, such as the fractional Poisson\nprocess, etc. have been defined using fractional differential and integral\noperators. Recently, Laskin (2024) introduced a generalized fractional counting\nprocess (FCP) by changing the probability mass function (pmf) of the time\nfractional Poisson process using the generalized three-parameter Mittag-Leffler\nfunction. Here, we study some additional properties for the FCP and introduce a\ntime-changed fractional counting process (TCFCP), defined by time-changing the\nFCP with an independent L\\'evy subordinator. We derive distributional\nproperties such as the Laplace transform, probability generating function, the\nmoments generating function, mean, and variance for the TCFCP. Some results\nrelated to waiting time distribution and the first passage time distribution\nare also discussed. We define the multiplicative and additive compound variants\nfor the FCP and the TCFCP and examine their distributional characteristics with\nsome typical examples. We explore some interesting connections of the TCFCP\nwith Bell polynomials by introducing subordinated generalized fractional Bell\npolynomials. It is shown that the moments of the TCFCP can be represented in\nterms of the subordinated generalized fractional Bell polynomials. Finally, we\npresent the application of the FCP in a shock deterioration model.\n",
+  "subjects": [
+    "Mathematics/Probability"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "2rvVWjxAXtV4_al6rX0W6AlhawfStqRlohpMlsjstX4",
+  "pdfSize": "275781"
+}

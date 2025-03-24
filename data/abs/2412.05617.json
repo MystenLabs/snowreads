@@ -1,0 +1,28 @@
+{
+  "id": "2412.05617",
+  "title": "Leveraging Security Observability to Strengthen Security of Digital\n  Ecosystem Architecture",
+  "authors": "Renjith Ramachandran",
+  "authorsParsed": [
+    [
+      "Ramachandran",
+      "Renjith",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 7 Dec 2024 11:17:29 GMT"
+    }
+  ],
+  "updateDate": "2024-12-10",
+  "timestamp": 1733570249000,
+  "abstract": "  In the current fast-paced digital environment, enterprises are striving to\noffer a seamless and integrated customer experience across multiple\ntouchpoints. This improved experience often leads to higher conversion rates\nand increased customer loyalty. To deliver such an experience, enterprises must\nthink beyond the traditional boundaries of their architecture. The architecture\nof the digital ecosystem is expanding and becoming more complex, achieved\neither by developing advanced features in-house or by integrating with\nthird-party solutions, thus extending the boundaries of the enterprise\narchitecture. This complexity poses significant challenges for both\nobservability and security in a digital ecosystem, both of which are essential\nfor maintaining robust and resilient systems. Observability entails monitoring\nand understanding the internal state of a system through logging, tracing, and\nmetrics collection, allowing organizations to diagnose performance issues and\ndetect anomalies in real time. Meanwhile, security is focused on protecting\nsensitive data and ensuring service integrity by defending against threats and\nvulnerabilities. The data collected through these observability practices can\nbe analyzed to identify patterns and detect potential security threats or data\nleaks. This paper examines the interconnections between observability and\nsecurity within digital ecosystem architectures, emphasizing how improved\nobservability can strengthen security measures. The paper also discusses\nstudies conducted in the AI/ML field aimed at enhancing security through the\nuse of observability. These studies explore how advanced machine learning\ntechniques can be applied to observability data to improve security measures\nand detect anomalies more effectively.\n",
+  "subjects": [
+    "Computer Science/Cryptography and Security",
+    "Computer Science/Software Engineering"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "-PDwtfeKXFeidyPqLVkigf8sPiFEQUHlwMii8ykZtrI",
+  "pdfSize": "203496"
+}

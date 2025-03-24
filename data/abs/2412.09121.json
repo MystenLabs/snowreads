@@ -1,0 +1,33 @@
+{
+  "id": "2412.09121",
+  "title": "MMD-OPT : Maximum Mean Discrepancy Based Sample Efficient Collision Risk\n  Minimization for Autonomous Driving",
+  "authors": "Basant Sharma, Arun Kumar Singh",
+  "authorsParsed": [
+    [
+      "Sharma",
+      "Basant",
+      ""
+    ],
+    [
+      "Singh",
+      "Arun Kumar",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 12 Dec 2024 09:57:10 GMT"
+    }
+  ],
+  "updateDate": "2024-12-13",
+  "timestamp": 1733997430000,
+  "abstract": "  We propose MMD-OPT: a sample-efficient approach for minimizing the risk of\ncollision under arbitrary prediction distribution of the dynamic obstacles.\nMMD-OPT is based on embedding distribution in Reproducing Kernel Hilbert Space\n(RKHS) and the associated Maximum Mean Discrepancy (MMD). We show how these two\nconcepts can be used to define a sample efficient surrogate for collision risk\nestimate. We perform extensive simulations to validate the effectiveness of\nMMD-OPT on both synthetic and real-world datasets. Importantly, we show that\ntrajectory optimization with our MMD-based collision risk surrogate leads to\nsafer trajectories at low sample regimes than popular alternatives based on\nConditional Value at Risk (CVaR).\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Computer Science/Robotics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "9Gra_NylcnuUuNN3NHXrMq6oBLqeErro98yHF7GEtUA",
+  "pdfSize": "4627938"
+}

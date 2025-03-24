@@ -1,0 +1,53 @@
+{
+  "id": "2412.03206",
+  "title": "Experimental reservoir computing with diffractively coupled VCSELs",
+  "authors": "Moritz Pfl\\\"uger, Daniel Brunner, Tobias Heuser, James A. Lott,\n  Stephan Reitzenstein, Ingo Fischer",
+  "authorsParsed": [
+    [
+      "Pflüger",
+      "Moritz",
+      ""
+    ],
+    [
+      "Brunner",
+      "Daniel",
+      ""
+    ],
+    [
+      "Heuser",
+      "Tobias",
+      ""
+    ],
+    [
+      "Lott",
+      "James A.",
+      ""
+    ],
+    [
+      "Reitzenstein",
+      "Stephan",
+      ""
+    ],
+    [
+      "Fischer",
+      "Ingo",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 4 Dec 2024 10:45:20 GMT"
+    }
+  ],
+  "updateDate": "2024-12-05",
+  "timestamp": 1733309120000,
+  "abstract": "  We present experiments on reservoir computing (RC) using a network of\nvertical-cavity surface-emitting lasers (VCSELs) that we diffractively couple\nvia an external cavity. Our optical reservoir computer consists of 24 physical\nVCSEL nodes. We evaluate the system's memory and solve the 2-bit XOR task and\nthe 3-bit header recognition (HR) task with bit error ratios (BERs) below 1\\,\\%\nand the 2-bit digital-to-analog conversion (DAC) task with a root-mean-square\nerror (RMSE) of 0.067.\n",
+  "subjects": [
+    "Computer Science/Emerging Technologies",
+    "Physics/Optics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "JZSvMnXv8bkxq2e8h0t1J941gmxskqBdm8VYuAKrw_w",
+  "pdfSize": "1190916"
+}

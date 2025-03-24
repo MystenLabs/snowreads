@@ -1,0 +1,38 @@
+{
+  "id": "2412.16372",
+  "title": "Angular Resolution of a Bayesian Search for Anisotropic Stochastic\n  Gravitational Wave Backgrounds with LISA",
+  "authors": "Malachy Bloom, Alexander Criswell, and Vuk Mandic",
+  "authorsParsed": [
+    [
+      "Bloom",
+      "Malachy",
+      ""
+    ],
+    [
+      "Criswell",
+      "Alexander",
+      ""
+    ],
+    [
+      "Mandic",
+      "Vuk",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 20 Dec 2024 22:08:27 GMT"
+    }
+  ],
+  "updateDate": "2024-12-24",
+  "timestamp": 1734732507000,
+  "abstract": "  The Laser Interferometer Space Antenna (LISA), a spaceborne gravitational\nwave (GW) detector set to launch in 2035, will observe several stochastic GW\nbackgrounds in the mHz frequency band. At least one of these signals -- arising\nfrom the tens of millions of unresolved white dwarf binaries in the Milky Way\n-- is expected to be highly anisotropic on the sky. We evaluate the angular\nresolution of LISA and its ability to characterize anisotropic stochastic GW\nbackgrounds (ASGWBs) using the Bayesian Spherical Harmonic formalism in the\nBayesian LISA Inference Package (BLIP). We use \\blip to simulate and analyze\nASGWB signals in LISA across a large grid in total observing time, ASGWB\namplitude, and angular size. We consider the ability of the \\blip anisotropic\nsearch algorithm to both characterize single point sources and to separate two\npoint sources on the sky, using a full-width half-max (FWHM) metric to measure\nthe quality and spread of the recovered spatial distributions. We find that the\nnumber of spherical harmonic coefficients used in the anisotropic search model\nis the primary factor that limits the search's angular resolution. Notably,\nthis trend continues until computational limitations become relevant around\n$\\ell_{\\mathrm{max}}=16$; this exceeds the maximum angular resolution achieved\nby other map-making techniques for LISA ASGWBs.\n",
+  "subjects": [
+    "Physics/General Relativity and Quantum Cosmology",
+    "Astrophysics/Instrumentation and Methods for Astrophysics"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "2ZF8QMRJXsvmvfnrsZnm62qP_UBvwljU0fVMRdFh-XY",
+  "pdfSize": "1989768"
+}

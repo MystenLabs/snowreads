@@ -1,0 +1,28 @@
+{
+  "id": "2412.12393",
+  "title": "Emergence of Power-Law and Other Wealth Distributions in Crowd of\n  Heterogeneous Agents",
+  "authors": "Jake J. Xia",
+  "authorsParsed": [
+    [
+      "Xia",
+      "Jake J.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 16 Dec 2024 23:01:39 GMT"
+    }
+  ],
+  "updateDate": "2024-12-18",
+  "timestamp": 1734390099000,
+  "abstract": "  This study investigates the emergence of power-law and other concentrated\ndistributions through a feedback loop model in crowd interactions. Agents act\nby their response functions to observations and external forces, while\nobservations change by the aggregated actions of all agents, weighted by their\nrespective influence, i.e. power or wealth. Agents wealth dynamically adjust\nbased on the alignment between an agents actions and observation outcomes:\nagents gain wealth when their actions align with observed trends and lose\nwealth otherwise. A reward function, that describes the change of agents wealth\nat each time step, manifests the differences of response functions of agents to\nobservations. When all agents responses are set to zero and feedback loop is\nbroken, agents wealth follow a normal or lognormal distribution. Otherwise,\nthis response-reward iterative feedback mechanism results in concentrated\nwealth distributions, characterized by a small number of dominant agents and\nthe marginalization of the majority. Contrasted to past studies, such\nconcentration is not limited only to asymptotic behavior at the upper tail for\nlarge variables, nor does it require the reward function to be linear to agents\nprevious wealth as formulated in random growth model and network preferential\nattachment. Probability density functions for various distributions are more\nvisually distinguishable for small values at the lower tail. In application of\nthis model, key differences in income and wealth distributions in the US vs\nJapan are attributed to different response functions of agents in the two\ncountries. The model applicability extends beyond social systems to other\nmany-body systems with analogous feedback mechanisms, where power-law\ndistributions represent a rare subset of general concentrated outcomes.\n",
+  "subjects": [
+    "Economics/General Economics",
+    "Quantitative Finance/Economics"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "J3b0BY3sazF0hkhcymXthraHekvGf9G_IrWOjwnOVB4",
+  "pdfSize": "287067"
+}

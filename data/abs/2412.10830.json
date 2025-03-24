@@ -1,0 +1,152 @@
+{
+  "id": "2412.10830",
+  "title": "A Novel Low-Background Photomultiplier Tube Developed for Xenon Based\n  Detectors",
+  "authors": "Youhui Yun, Zhizhen Zhou, Baoguo An, Zhixing Gao, Ke Han, Jianglai\n  Liu, Yuanzi Liang, Yang Liu, Yue Meng, Zhicheng Qian, Xiaofeng Shang, Lin Si,\n  Ziyan Song, Hao Wang, Mingxin Wang, Shaobo Wang, Liangyu Wu, Weihao Wu, Yuan\n  Wu, Binbin Yan, Xiyu Yan, Zhe Yuan, Tao Zhang, Qiang Zhao, Xinning Zeng",
+  "authorsParsed": [
+    [
+      "Yun",
+      "Youhui",
+      ""
+    ],
+    [
+      "Zhou",
+      "Zhizhen",
+      ""
+    ],
+    [
+      "An",
+      "Baoguo",
+      ""
+    ],
+    [
+      "Gao",
+      "Zhixing",
+      ""
+    ],
+    [
+      "Han",
+      "Ke",
+      ""
+    ],
+    [
+      "Liu",
+      "Jianglai",
+      ""
+    ],
+    [
+      "Liang",
+      "Yuanzi",
+      ""
+    ],
+    [
+      "Liu",
+      "Yang",
+      ""
+    ],
+    [
+      "Meng",
+      "Yue",
+      ""
+    ],
+    [
+      "Qian",
+      "Zhicheng",
+      ""
+    ],
+    [
+      "Shang",
+      "Xiaofeng",
+      ""
+    ],
+    [
+      "Si",
+      "Lin",
+      ""
+    ],
+    [
+      "Song",
+      "Ziyan",
+      ""
+    ],
+    [
+      "Wang",
+      "Hao",
+      ""
+    ],
+    [
+      "Wang",
+      "Mingxin",
+      ""
+    ],
+    [
+      "Wang",
+      "Shaobo",
+      ""
+    ],
+    [
+      "Wu",
+      "Liangyu",
+      ""
+    ],
+    [
+      "Wu",
+      "Weihao",
+      ""
+    ],
+    [
+      "Wu",
+      "Yuan",
+      ""
+    ],
+    [
+      "Yan",
+      "Binbin",
+      ""
+    ],
+    [
+      "Yan",
+      "Xiyu",
+      ""
+    ],
+    [
+      "Yuan",
+      "Zhe",
+      ""
+    ],
+    [
+      "Zhang",
+      "Tao",
+      ""
+    ],
+    [
+      "Zhao",
+      "Qiang",
+      ""
+    ],
+    [
+      "Zeng",
+      "Xinning",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 14 Dec 2024 13:23:46 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Sun, 9 Feb 2025 05:59:43 GMT"
+    }
+  ],
+  "updateDate": "2025-02-18",
+  "timestamp": 1734182626000,
+  "abstract": "  Photomultiplier tubes (PMTs) are essential in xenon detectors like PandaX,\nLZ, and XENON experiments for dark matter searches and neutrino properties\nmeasurement. To minimize PMT-induced backgrounds, stringent requirements on PMT\nradioactivity are crucial. A novel 2-inch low-background R12699 PMT has been\ndeveloped through a collaboration between the PandaX team and Hamamatsu\nPhotonics K.K. corporation. Radioactivity measurements conducted with a\nhigh-purity germanium detector show levels of approximately 0.08 mBq/PMT for\n$\\rm^{60}Co$ and 0.06~mBq/PMT for the $\\rm^{238}U$ late chain, achieving a\n15-fold reduction compared to R11410 PMT used in PandaX-4T. The radon emanation\nrate is below 3.2 $\\rm \\mu$Bq/PMT (@90\\% confidence level), while the surface\n$\\rm^{210}Po$ activity is less than 18.4 $\\mu$Bq/cm$^2$. The electrical\nperformance of these PMTs at cryogenic temperature was evaluated. With an\noptimized readout base, the gain was enhanced by 30\\%, achieving an average\ngain of $4.23 \\times 10^6$ at -1000~V and -100~$^{\\circ}$C. The dark count rate\naveraged 2.5~Hz per channel. Compactness, low radioactivity, and robust\nelectrical performance in the cryogenic temperature make the R12699 PMT ideal\nfor next-generation liquid xenon detectors and other rare event searches.\n",
+  "subjects": [
+    "Physics/Instrumentation and Detectors",
+    "Physics/High Energy Physics - Experiment"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "FXIe3iDPaHGtM2UXpF4gPLVYUmoAsJmO39qo4bQqjo8",
+  "pdfSize": "5023148"
+}

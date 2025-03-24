@@ -1,0 +1,42 @@
+{
+  "id": "2412.00554",
+  "title": "Unveiling Performance Challenges of Large Language Models in\n  Low-Resource Healthcare: A Demographic Fairness Perspective",
+  "authors": "Yue Zhou, Barbara Di Eugenio and Lu Cheng",
+  "authorsParsed": [
+    [
+      "Zhou",
+      "Yue",
+      ""
+    ],
+    [
+      "Di Eugenio",
+      "Barbara",
+      ""
+    ],
+    [
+      "Cheng",
+      "Lu",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 30 Nov 2024 18:52:30 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Sat, 7 Dec 2024 19:00:45 GMT"
+    }
+  ],
+  "updateDate": "2024-12-10",
+  "timestamp": 1732992750000,
+  "abstract": "  This paper studies the performance of large language models (LLMs),\nparticularly regarding demographic fairness, in solving real-world healthcare\ntasks. We evaluate state-of-the-art LLMs with three prevalent learning\nframeworks across six diverse healthcare tasks and find significant challenges\nin applying LLMs to real-world healthcare tasks and persistent fairness issues\nacross demographic groups. We also find that explicitly providing demographic\ninformation yields mixed results, while LLM's ability to infer such details\nraises concerns about biased health predictions. Utilizing LLMs as autonomous\nagents with access to up-to-date guidelines does not guarantee performance\nimprovement. We believe these findings reveal the critical limitations of LLMs\nin healthcare fairness and the urgent need for specialized research in this\narea.\n",
+  "subjects": [
+    "Computer Science/Computation and Language",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "N5nOrM9hgqzje1gZ_rrHc8iQMi7CbSgI9ci7A2T_dYc",
+  "pdfSize": "497178"
+}

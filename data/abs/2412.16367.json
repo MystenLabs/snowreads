@@ -1,0 +1,65 @@
+{
+  "id": "2412.16367",
+  "title": "A Layered Swarm Optimization Method for Fitting Battery Thermal Runaway\n  Models to Accelerating Rate Calorimetry Data",
+  "authors": "Saakaar Bhatnagar, Andrew Comerford, Zelu Xu, Simone Reitano, Luigi\n  Scrimieri, Luca Giuliano, Araz Banaeizadeh",
+  "authorsParsed": [
+    [
+      "Bhatnagar",
+      "Saakaar",
+      ""
+    ],
+    [
+      "Comerford",
+      "Andrew",
+      ""
+    ],
+    [
+      "Xu",
+      "Zelu",
+      ""
+    ],
+    [
+      "Reitano",
+      "Simone",
+      ""
+    ],
+    [
+      "Scrimieri",
+      "Luigi",
+      ""
+    ],
+    [
+      "Giuliano",
+      "Luca",
+      ""
+    ],
+    [
+      "Banaeizadeh",
+      "Araz",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 20 Dec 2024 21:57:48 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Tue, 24 Dec 2024 08:47:57 GMT"
+    },
+    {
+      "version": "v3",
+      "created": "Thu, 6 Feb 2025 20:58:54 GMT"
+    }
+  ],
+  "updateDate": "2025-02-10",
+  "timestamp": 1734731868000,
+  "abstract": "  Thermal runaway in lithium ion batteries is a critical safety concern for the\nbattery industry due to its potential to cause uncontrolled temperature rises\nand subsequent fires that can engulf the battery pack and its surroundings.\nModeling and simulation offer cost effective tools for designing strategies to\nmitigate thermal runaway. Accurately simulating the chemical kinetics of\nthermal runaway,commonly represented by systems of Arrhenius based Ordinary\nDifferential Equations (ODEs), requires fitting kinetic parameters to\nexperimental calorimetry data, such as Accelerating Rate Calorimetry (ARC)\nmeasurements. However, existing fitting methods often rely on empirical\nassumptions and simplifications that compromise generality or require manual\ntuning during the fitting process. Particle Swarm Optimization (PSO) offers a\npromising approach for directly fitting kinetic parameters to experimental\ndata. Yet, for systems involving large search spaces, such as those created by\nmultiple Arrhenius ODEs, the computational cost of fitting can become\nprohibitive. This work introduces a divide and conquer approach based on PSO to\nfit N equation Arrhenius ODE models to ARC data. The proposed method achieves\naccurate parameter fitting while maintaining low computational costs. The\nresulting fit is analyzed using two distinct ARC datasets, highlighting the\nmethods flexibility. The resulting models are further validated through\nsimulations of 3D ARC and oven tests, showing excellent agreement with\nexperimental data and alignment with expected trends.\n",
+  "subjects": [
+    "Computer Science/Computational Engineering, Finance, and Science"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "bw3Bjwt8uoOsgIqipxFeiujwVM6hNgj9JbAAnaqWeSA",
+  "pdfSize": "955376"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "2412.11056",
+  "title": "Overview of TREC 2024 Medical Video Question Answering (MedVidQA) Track",
+  "authors": "Deepak Gupta and Dina Demner-Fushman",
+  "authorsParsed": [
+    [
+      "Gupta",
+      "Deepak",
+      ""
+    ],
+    [
+      "Demner-Fushman",
+      "Dina",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 15 Dec 2024 05:18:01 GMT"
+    }
+  ],
+  "updateDate": "2024-12-17",
+  "timestamp": 1734239881000,
+  "abstract": "  One of the key goals of artificial intelligence (AI) is the development of a\nmultimodal system that facilitates communication with the visual world (image\nand video) using a natural language query. Earlier works on medical question\nanswering primarily focused on textual and visual (image) modalities, which may\nbe inefficient in answering questions requiring demonstration. In recent years,\nsignificant progress has been achieved due to the introduction of large-scale\nlanguage-vision datasets and the development of efficient deep neural\ntechniques that bridge the gap between language and visual understanding.\nImprovements have been made in numerous vision-and-language tasks, such as\nvisual captioning visual question answering, and natural language video\nlocalization. Most of the existing work on language vision focused on creating\ndatasets and developing solutions for open-domain applications. We believe\nmedical videos may provide the best possible answers to many first aid, medical\nemergency, and medical education questions. With increasing interest in AI to\nsupport clinical decision-making and improve patient engagement, there is a\nneed to explore such challenges and develop efficient algorithms for medical\nlanguage-video understanding and generation. Toward this, we introduced new\ntasks to foster research toward designing systems that can understand medical\nvideos to provide visual answers to natural language questions, and are\nequipped with multimodal capability to generate instruction steps from the\nmedical video. These tasks have the potential to support the development of\nsophisticated downstream applications that can benefit the public and medical\nprofessionals.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "ZrLuRlgCKHzp3oPsGLY4GorbCM2MczfgIVw3lnwZR54",
+  "pdfSize": "1082346"
+}

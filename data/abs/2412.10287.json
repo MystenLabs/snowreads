@@ -1,0 +1,32 @@
+{
+  "id": "2412.10287",
+  "title": "Single-Source Regular Path Querying in Terms of Linear Algebra",
+  "authors": "Georgiy Belyanin, Semyon Grigoriev",
+  "authorsParsed": [
+    [
+      "Belyanin",
+      "Georgiy",
+      ""
+    ],
+    [
+      "Grigoriev",
+      "Semyon",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 13 Dec 2024 17:10:28 GMT"
+    }
+  ],
+  "updateDate": "2024-12-16",
+  "timestamp": 1734109828000,
+  "abstract": "  A given edge-labelled graph two-way regular path queries (2-RPQs) allow one\nto use regular languages over labelled edges and inverted edges to constraint\npaths of interest. 2-RPQs are (partially) adopted in different real-world graph\nanalysis systems and are a part of the GQL ISO standard. But the performance of\n2-RPQs on real-world graphs is still a bottleneck for wider adoption. A new\nsingle-source 2-RPQ algorithm based on linear algebra is proposed. Utilization\nof high-performance sparse linear algebra libraries for the algorithm\nimplementation allows one to achieve significant speedup over competitors on\nreal-world data and queries. Our implementation demonstrates better performance\non average on Wikidata and the respective query log in comparison with\nMillenniumDB, FalkorDB, and the algorithm of Diego Arroyuelo et al.\n",
+  "subjects": [
+    "Computer Science/Data Structures and Algorithms"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "PAACmwFjsknKpdGaVtzkdRyHcMJzuFk2cKdSs4XOqLw",
+  "pdfSize": "1797540"
+}

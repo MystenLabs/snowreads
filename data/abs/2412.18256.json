@@ -1,0 +1,43 @@
+{
+  "id": "2412.18256",
+  "title": "Robust Semi-Supervised Learning in Open Environments",
+  "authors": "Lan-Zhe Guo, Lin-Han Jia, Jie-Jing Shao, Yu-Feng Li",
+  "authorsParsed": [
+    [
+      "Guo",
+      "Lan-Zhe",
+      ""
+    ],
+    [
+      "Jia",
+      "Lin-Han",
+      ""
+    ],
+    [
+      "Shao",
+      "Jie-Jing",
+      ""
+    ],
+    [
+      "Li",
+      "Yu-Feng",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 24 Dec 2024 08:13:01 GMT"
+    }
+  ],
+  "updateDate": "2024-12-25",
+  "timestamp": 1735027981000,
+  "abstract": "  Semi-supervised learning (SSL) aims to improve performance by exploiting\nunlabeled data when labels are scarce. Conventional SSL studies typically\nassume close environments where important factors (e.g., label, feature,\ndistribution) between labeled and unlabeled data are consistent. However, more\npractical tasks involve open environments where important factors between\nlabeled and unlabeled data are inconsistent. It has been reported that\nexploiting inconsistent unlabeled data causes severe performance degradation,\neven worse than the simple supervised learning baseline. Manually verifying the\nquality of unlabeled data is not desirable, therefore, it is important to study\nrobust SSL with inconsistent unlabeled data in open environments. This paper\nbriefly introduces some advances in this line of research, focusing on\ntechniques concerning label, feature, and data distribution inconsistency in\nSSL, and presents the evaluation benchmarks. Open research problems are also\ndiscussed for reference purposes.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "7oSN5ic2ml-Tixp3U50u-f2-Rzd1ehue14QHCyD0u1Y",
+  "pdfSize": "374671"
+}

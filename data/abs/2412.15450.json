@@ -1,0 +1,27 @@
+{
+  "id": "2412.15450",
+  "title": "Fietje: An open, efficient LLM for Dutch",
+  "authors": "Bram Vanroy",
+  "authorsParsed": [
+    [
+      "Vanroy",
+      "Bram",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 19 Dec 2024 23:06:01 GMT"
+    }
+  ],
+  "updateDate": "2024-12-23",
+  "timestamp": 1734649561000,
+  "abstract": "  This paper introduces Fietje, a family of small language models (SLMs)\nspecifically designed for the Dutch language. The model is based on Phi 2, an\nEnglish-centric model of 2.7 billion parameters. Fietje demonstrated\ncompetitive results with larger language models upon its release. A core\nemphasis of this work is transparency and reproducibility: Fietje is fully\nopen-source, with model weights, datasets, training, and evaluation code all\npublicly accessible.\n  The paper discusses the performance of Fietje and many other models on an\nextensive evaluation suite of benchmarks on reasoning, sentiment analysis,\nworld knowledge, linguistic acceptability and word sense disambiguation.\nEvaluation results illustrate the rapid progress in the field of LLMs, where\nrecent small models outperform older, larger models that were fine-tuned for\nDutch. This trend signals an exciting future for Dutch language processing,\nsuggesting that even compact LLMs are becoming increasingly capable.\nFurthermore, ongoing and future efforts to adapt LLMs to Dutch are poised to\nenhance these models even further, broadening their applicability and\naccessibility. Fietje is only an intermediate step in improving accessibility\nto language technology for users of the Dutch language.\n",
+  "subjects": [
+    "Computer Science/Computation and Language"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "HikvLcRcVzTReqQzGGdcMiyAcJXKEmxWP9Lpl0-xWN4",
+  "pdfSize": "882575"
+}

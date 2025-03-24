@@ -1,0 +1,38 @@
+{
+  "id": "2412.07022",
+  "title": "Dense Cross-Connected Ensemble Convolutional Neural Networks for\n  Enhanced Model Robustness",
+  "authors": "Longwei Wang, Xueqian Li, Zheng Zhang",
+  "authorsParsed": [
+    [
+      "Wang",
+      "Longwei",
+      ""
+    ],
+    [
+      "Li",
+      "Xueqian",
+      ""
+    ],
+    [
+      "Zhang",
+      "Zheng",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 9 Dec 2024 22:09:13 GMT"
+    }
+  ],
+  "updateDate": "2024-12-11",
+  "timestamp": 1733782153000,
+  "abstract": "  The resilience of convolutional neural networks against input variations and\nadversarial attacks remains a significant challenge in image recognition tasks.\nMotivated by the need for more robust and reliable image recognition systems,\nwe propose the Dense Cross-Connected Ensemble Convolutional Neural Network\n(DCC-ECNN). This novel architecture integrates the dense connectivity principle\nof DenseNet with the ensemble learning strategy, incorporating intermediate\ncross-connections between different DenseNet paths to facilitate extensive\nfeature sharing and integration. The DCC-ECNN architecture leverages DenseNet's\nefficient parameter usage and depth while benefiting from the robustness of\nensemble learning, ensuring a richer and more resilient feature representation.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "4FtWq_sV-mi2QU70rUsxBFU3IkNrbC0MIbxyka2z3YA",
+  "pdfSize": "261158"
+}

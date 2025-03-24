@@ -1,0 +1,27 @@
+{
+  "id": "2412.14070",
+  "title": "Some estimates for generalized Wigner matrix linear spectral statistics",
+  "authors": "Benjamin Landon",
+  "authorsParsed": [
+    [
+      "Landon",
+      "Benjamin",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 18 Dec 2024 17:13:23 GMT"
+    }
+  ],
+  "updateDate": "2024-12-19",
+  "timestamp": 1734542003000,
+  "abstract": "  We consider the characteristic function of linear spectral statistics of\ngeneralized Wigner matrices. We provide an expansion of the characteristic\nfunction with error $\\mathcal{O} ( N^{-1})$ around its limiting Gaussian form,\nand identify sub-leading non-Gaussian corrections of size $\\mathcal{O}\n(N^{-1/2})$. Prior expansions with this error rate held only for Wigner\nmatrices; only a weaker error rate was available for more general matrix\nensembles. We provide some applications.\n",
+  "subjects": [
+    "Mathematics/Probability"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "ur8P7nDG6qhKw3HaZxNHl5xazngjsYQQcSLtOMCpr5U",
+  "pdfSize": "861706"
+}

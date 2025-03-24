@@ -1,0 +1,42 @@
+{
+  "id": "2412.03853",
+  "title": "Automated LaTeX Code Generation from Handwritten Math Expressions Using\n  Vision Transformer",
+  "authors": "Jayaprakash Sundararaj, Akhil Vyas, Benjamin Gonzalez-Maldonado",
+  "authorsParsed": [
+    [
+      "Sundararaj",
+      "Jayaprakash",
+      ""
+    ],
+    [
+      "Vyas",
+      "Akhil",
+      ""
+    ],
+    [
+      "Gonzalez-Maldonado",
+      "Benjamin",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 5 Dec 2024 03:58:13 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Sat, 7 Dec 2024 10:55:44 GMT"
+    }
+  ],
+  "updateDate": "2024-12-10",
+  "timestamp": 1733371093000,
+  "abstract": "  Transforming mathematical expressions into LaTeX poses a significant\nchallenge. In this paper, we examine the application of advanced\ntransformer-based architectures to address the task of converting handwritten\nor digital mathematical expression images into corresponding LaTeX code. As a\nbaseline, we utilize the current state-of-the-art CNN encoder and LSTM decoder.\nAdditionally, we explore enhancements to the CNN-RNN architecture by replacing\nthe CNN encoder with the pretrained ResNet50 model with modification to suite\nthe grey scale input. Further, we experiment with vision transformer model and\ncompare with Baseline and CNN-LSTM model. Our findings reveal that the vision\ntransformer architectures outperform the baseline CNN-RNN framework, delivering\nhigher overall accuracy and BLEU scores while achieving lower Levenshtein\ndistances. Moreover, these results highlight the potential for further\nimprovement through fine-tuning of model parameters. To encourage open\nresearch, we also provide the model implementation, enabling reproduction of\nour results and facilitating further research in this domain.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Computation and Language"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "1ezWlBpgtW4O5Y09GlQjbF7LOT8DoOfmqRJfGa0_PmY",
+  "pdfSize": "400219"
+}

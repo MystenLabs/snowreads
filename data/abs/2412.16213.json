@@ -1,0 +1,41 @@
+{
+  "id": "2412.16213",
+  "title": "AdvIRL: Reinforcement Learning-Based Adversarial Attacks on 3D NeRF\n  Models",
+  "authors": "Tommy Nguyen and Mehmet Ergezer and Christian Green",
+  "authorsParsed": [
+    [
+      "Nguyen",
+      "Tommy",
+      ""
+    ],
+    [
+      "Ergezer",
+      "Mehmet",
+      ""
+    ],
+    [
+      "Green",
+      "Christian",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 18 Dec 2024 01:01:30 GMT"
+    }
+  ],
+  "updateDate": "2024-12-24",
+  "timestamp": 1734483690000,
+  "abstract": "  The increasing deployment of AI models in critical applications has exposed\nthem to significant risks from adversarial attacks. While adversarial\nvulnerabilities in 2D vision models have been extensively studied, the threat\nlandscape for 3D generative models, such as Neural Radiance Fields (NeRF),\nremains underexplored. This work introduces \\textit{AdvIRL}, a novel framework\nfor crafting adversarial NeRF models using Instant Neural Graphics Primitives\n(Instant-NGP) and Reinforcement Learning. Unlike prior methods, \\textit{AdvIRL}\ngenerates adversarial noise that remains robust under diverse 3D\ntransformations, including rotations and scaling, enabling effective black-box\nattacks in real-world scenarios. Our approach is validated across a wide range\nof scenes, from small objects (e.g., bananas) to large environments (e.g.,\nlighthouses). Notably, targeted attacks achieved high-confidence\nmisclassifications, such as labeling a banana as a slug and a truck as a\ncannon, demonstrating the practical risks posed by adversarial NeRFs. Beyond\nattacking, \\textit{AdvIRL}-generated adversarial models can serve as\nadversarial training data to enhance the robustness of vision systems. The\nimplementation of \\textit{AdvIRL} is publicly available at\n\\url{https://github.com/Tommy-Nguyen-cpu/AdvIRL/tree/MultiView-Clean}, ensuring\nreproducibility and facilitating future research.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Computers and Society",
+    "Computer Science/Graphics",
+    "Electrical Engineering and Systems Science/Image and Video Processing"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "BmfgcQPtfK9f5AewMxnX7FvM-fX2v80F5ymmBZOz4RE",
+  "pdfSize": "6100292"
+}

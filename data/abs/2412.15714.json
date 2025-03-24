@@ -1,0 +1,48 @@
+{
+  "id": "2412.15714",
+  "title": "AutoLife: Automatic Life Journaling with Smartphones and LLMs",
+  "authors": "Huatao Xu, Panrong Tong, Mo Li, Mani Srivastava",
+  "authorsParsed": [
+    [
+      "Xu",
+      "Huatao",
+      ""
+    ],
+    [
+      "Tong",
+      "Panrong",
+      ""
+    ],
+    [
+      "Li",
+      "Mo",
+      ""
+    ],
+    [
+      "Srivastava",
+      "Mani",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 20 Dec 2024 09:37:02 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Mon, 23 Dec 2024 10:45:32 GMT"
+    }
+  ],
+  "updateDate": "2024-12-24",
+  "timestamp": 1734687422000,
+  "abstract": "  This paper introduces a novel mobile sensing application - life journaling -\ndesigned to generate semantic descriptions of users' daily lives. We present\nAutoLife, an automatic life journaling system based on commercial smartphones.\nAutoLife only inputs low-cost sensor data (without photos or audio) from\nsmartphones and can automatically generate comprehensive life journals for\nusers. To achieve this, we first derive time, motion, and location contexts\nfrom multimodal sensor data, and harness the zero-shot capabilities of Large\nLanguage Models (LLMs), enriched with commonsense knowledge about human lives,\nto interpret diverse contexts and generate life journals. To manage the task\ncomplexity and long sensing duration, a multilayer framework is proposed, which\ndecomposes tasks and seamlessly integrates LLMs with other techniques for life\njournaling. This study establishes a real-life dataset as a benchmark and\nextensive experiment results demonstrate that AutoLife produces accurate and\nreliable life journals.\n",
+  "subjects": [
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Computation and Language",
+    "Computer Science/Human-Computer Interaction"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "wV_PNKJmDBXsAz7Sjc3IAChC4e1Q5_jHpCtrF4_Hz3Q",
+  "pdfSize": "6460230"
+}

@@ -1,0 +1,34 @@
+{
+  "id": "2412.16713",
+  "title": "A Unifying Family of Data-Adaptive Partitioning Algorithms",
+  "authors": "Guy B. Oldaker IV and Maria Emelianenko",
+  "authorsParsed": [
+    [
+      "Oldaker",
+      "Guy B.",
+      "IV"
+    ],
+    [
+      "Emelianenko",
+      "Maria",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 21 Dec 2024 17:54:53 GMT"
+    }
+  ],
+  "updateDate": "2024-12-24",
+  "timestamp": 1734803693000,
+  "abstract": "  Clustering algorithms remain valuable tools for grouping and summarizing the\nmost important aspects of data. Example areas where this is the case include\nimage segmentation, dimension reduction, signals analysis, model order\nreduction, numerical analysis, and others. As a consequence, many clustering\napproaches have been developed to satisfy the unique needs of each particular\nfield. In this article, we present a family of data-adaptive partitioning\nalgorithms that unifies several well-known methods (e.g., k-means and\nk-subspaces). Indexed by a single parameter and employing a common minimization\nstrategy, the algorithms are easy to use and interpret, and scale well to\nlarge, high-dimensional problems. In addition, we develop an adaptive mechanism\nthat (a) exhibits skill at automatically uncovering data structures and problem\nparameters without any expert knowledge and, (b) can be used to augment other\nexisting methods. By demonstrating the performance of our methods on examples\nfrom disparate fields including subspace clustering, model order reduction, and\nmatrix approximation, we hope to highlight their versatility and potential for\nextending the boundaries of existing scientific domains. We believe our\nfamily's parametrized structure represents a synergism of algorithms that will\nfoster new developments and directions, not least within the data science\ncommunity.\n",
+  "subjects": [
+    "Mathematics/Numerical Analysis",
+    "Computer Science/Machine Learning",
+    "Computer Science/Numerical Analysis"
+  ],
+  "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+  "blobId": "I_hmTQb4FSLipdV9xpAWSsecRV7ox6cyU1Wm6hNzUvs",
+  "pdfSize": "699952"
+}

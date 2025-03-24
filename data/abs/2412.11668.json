@@ -1,0 +1,32 @@
+{
+  "id": "2412.11668",
+  "title": "Online Writer Retrieval with Chinese Handwritten Phrases: A Synergistic\n  Temporal-Frequency Representation Learning Approach",
+  "authors": "Peirong Zhang, Lianwen Jin",
+  "authorsParsed": [
+    [
+      "Zhang",
+      "Peirong",
+      ""
+    ],
+    [
+      "Jin",
+      "Lianwen",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 16 Dec 2024 11:19:22 GMT"
+    }
+  ],
+  "updateDate": "2024-12-17",
+  "timestamp": 1734347962000,
+  "abstract": "  Currently, the prevalence of online handwriting has spurred a critical need\nfor effective retrieval systems to accurately search relevant handwriting\ninstances from specific writers, known as online writer retrieval. Despite the\ngrowing demand, this field suffers from a scarcity of well-established\nmethodologies and public large-scale datasets. This paper tackles these\nchallenges with a focus on Chinese handwritten phrases. First, we propose\nDOLPHIN, a novel retrieval model designed to enhance handwriting\nrepresentations through synergistic temporal-frequency analysis. For frequency\nfeature learning, we propose the HFGA block, which performs gated\ncross-attention between the vanilla temporal handwriting sequence and its\nhigh-frequency sub-bands to amplify salient writing details. For temporal\nfeature learning, we propose the CAIR block, tailored to promote channel\ninteraction and reduce channel redundancy. Second, to address data deficit, we\nintroduce OLIWER, a large-scale online writer retrieval dataset encompassing\nover 670,000 Chinese handwritten phrases from 1,731 individuals. Through\nextensive evaluations, we demonstrate the superior performance of DOLPHIN over\nexisting methods. In addition, we explore cross-domain writer retrieval and\nreveal the pivotal role of increasing feature alignment in bridging the\ndistributional gap between different handwriting data. Our findings emphasize\nthe significance of point sampling frequency and pressure features in improving\nhandwriting representation quality and retrieval performance. Code and dataset\nare available at https://github.com/SCUT-DLVCLab/DOLPHIN.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "fIVUCF79QF85KYGVBOKMN4CsjGFD3ID7POcF9ofeKKM",
+  "pdfSize": "2341533"
+}

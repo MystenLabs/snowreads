@@ -1,0 +1,28 @@
+{
+  "id": "2412.19479",
+  "title": "Generative Adversarial Network on Motion-Blur Image Restoration",
+  "authors": "Zhengdong Li",
+  "authorsParsed": [
+    [
+      "Li",
+      "Zhengdong",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 27 Dec 2024 06:12:50 GMT"
+    }
+  ],
+  "updateDate": "2024-12-30",
+  "timestamp": 1735279970000,
+  "abstract": "  In everyday life, photographs taken with a camera often suffer from motion\nblur due to hand vibrations or sudden movements. This phenomenon can\nsignificantly detract from the quality of the images captured, making it an\ninteresting challenge to develop a deep learning model that utilizes the\nprinciples of adversarial networks to restore clarity to these blurred pixels.\nIn this project, we will focus on leveraging Generative Adversarial Networks\n(GANs) to effectively deblur images affected by motion blur. A GAN-based\nTensorflow model is defined, training and evaluating by GoPro dataset which\ncomprises paired street view images featuring both clear and blurred versions.\nThis adversarial training process between Discriminator and Generator helps to\nproduce increasingly realistic images over time. Peak Signal-to-Noise Ratio\n(PSNR) and Structural Similarity Index Measure (SSIM) are the two evaluation\nmetrics used to provide quantitative measures of image quality, allowing us to\nevaluate the effectiveness of the deblurring process. Mean PSNR in 29.1644 and\nmean SSIM in 0.7459 with average 4.6921 seconds deblurring time are achieved in\nthis project. The blurry pixels are sharper in the output of GAN model shows a\ngood image restoration effect in real world applications.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Electrical Engineering and Systems Science/Image and Video Processing"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "L0sCeoFLFNluhuBKgA9y0YWbqCtxq8-GOxUQNBhdPIs",
+  "pdfSize": "5676717"
+}

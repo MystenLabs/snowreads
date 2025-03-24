@@ -1,0 +1,38 @@
+{
+  "id": "2412.02084",
+  "title": "Comparative Analysis of Black-Box and White-Box Machine Learning Model\n  in Phishing Detection",
+  "authors": "Abdullah Fajar, Setiadi Yazid, Indra Budi",
+  "authorsParsed": [
+    [
+      "Fajar",
+      "Abdullah",
+      ""
+    ],
+    [
+      "Yazid",
+      "Setiadi",
+      ""
+    ],
+    [
+      "Budi",
+      "Indra",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 3 Dec 2024 02:00:47 GMT"
+    }
+  ],
+  "updateDate": "2024-12-04",
+  "timestamp": 1733191247000,
+  "abstract": "  Background: Explainability in phishing detection model can support a further\nsolution of phishing attack mitigation by increasing trust and understanding\nhow phishing can be detected. Objective: The aims of this study to determine\nand best recommendation to apply an approach which has several components with\nabilities to fulfil the critical needs Methods: A methodology starting with\nanalyzing both black-box and white-box models to get the pros and cons\nspecifically in phishing detection. The conclusion of the analysis will be\nvalidated by experiment using a set of well-known algorithms and public\nphishing datasets. Experimental metrics covers 3 measurements such as\npredictive accuracy and explainability metrics. Conclusion: Both models are\ncomparable in terms of interpretability and consistency, with room for\nimprovement in diverse datasets. EBM as an example of white-box model is\ngenerally better suited for applications requiring explainability and\nactionable insights. Finally, each model, white-box and black-box model has\npositive and negative aspects both for performance metric and for explainable\nmetric. It is important to consider the objective of model usage.\n",
+  "subjects": [
+    "Computer Science/Cryptography and Security",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "1MNZLUwjqrtcG14yfzrlDUEsnR5PUM5LR74ajRg4w2g",
+  "pdfSize": "720236"
+}

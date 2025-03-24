@@ -1,0 +1,55 @@
+{
+  "id": "2412.01496",
+  "title": "RaD: A Metric for Medical Image Distribution Comparison in Out-of-Domain\n  Detection and Other Applications",
+  "authors": "Nicholas Konz, Yuwen Chen, Hanxue Gu, Haoyu Dong, Yaqian Chen, Maciej\n  A. Mazurowski",
+  "authorsParsed": [
+    [
+      "Konz",
+      "Nicholas",
+      ""
+    ],
+    [
+      "Chen",
+      "Yuwen",
+      ""
+    ],
+    [
+      "Gu",
+      "Hanxue",
+      ""
+    ],
+    [
+      "Dong",
+      "Haoyu",
+      ""
+    ],
+    [
+      "Chen",
+      "Yaqian",
+      ""
+    ],
+    [
+      "Mazurowski",
+      "Maciej A.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 2 Dec 2024 13:49:14 GMT"
+    }
+  ],
+  "updateDate": "2024-12-03",
+  "timestamp": 1733147354000,
+  "abstract": "  Determining whether two sets of images belong to the same or different domain\nis a crucial task in modern medical image analysis and deep learning, where\ndomain shift is a common problem that commonly results in decreased model\nperformance. This determination is also important to evaluate the output\nquality of generative models, e.g., image-to-image translation models used to\nmitigate domain shift. Current metrics for this either rely on the (potentially\nbiased) choice of some downstream task such as segmentation, or adopt\ntask-independent perceptual metrics (e.g., FID) from natural imaging which\ninsufficiently capture anatomical consistency and realism in medical images. We\nintroduce a new perceptual metric tailored for medical images: Radiomic Feature\nDistance (RaD), which utilizes standardized, clinically meaningful and\ninterpretable image features. We show that RaD is superior to other metrics for\nout-of-domain (OOD) detection in a variety of experiments. Furthermore, RaD\noutperforms previous perceptual metrics (FID, KID, etc.) for image-to-image\ntranslation by correlating more strongly with downstream task performance as\nwell as anatomical consistency and realism, and shows similar utility for\nevaluating unconditional image generation. RaD also offers additional benefits\nsuch as interpretability, as well as stability and computational efficiency at\nlow sample sizes. Our results are supported by broad experiments spanning four\nmulti-domain medical image datasets, nine downstream tasks, six image\ntranslation models, and other factors, highlighting the broad potential of RaD\nfor medical image analysis.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Machine Learning",
+    "Electrical Engineering and Systems Science/Image and Video Processing",
+    "Statistics/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "biFyFNRgpd-65nTSwgJnM838LE1XT4jNxbZY8Vyynho",
+  "pdfSize": "10849736"
+}

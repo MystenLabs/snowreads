@@ -1,0 +1,47 @@
+{
+  "id": "2412.15401",
+  "title": "Quantile Mediation Analytics",
+  "authors": "Canyi Chen, Yinqiu He, Huixia J. Wang, Gongjun Xu, Peter X.-K. Song",
+  "authorsParsed": [
+    [
+      "Chen",
+      "Canyi",
+      ""
+    ],
+    [
+      "He",
+      "Yinqiu",
+      ""
+    ],
+    [
+      "Wang",
+      "Huixia J.",
+      ""
+    ],
+    [
+      "Xu",
+      "Gongjun",
+      ""
+    ],
+    [
+      "Song",
+      "Peter X. -K.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 19 Dec 2024 21:07:30 GMT"
+    }
+  ],
+  "updateDate": "2024-12-23",
+  "timestamp": 1734642450000,
+  "abstract": "  Mediation analytics help examine if and how an intermediate variable mediates\nthe influence of an exposure variable on an outcome of interest. Quantiles,\nrather than the mean, of an outcome are scientifically relevant to the\ncomparison among specific subgroups in practical studies. Albeit some empirical\nstudies available in the literature, there lacks a thorough theoretical\ninvestigation of quantile-based mediation analysis, which hinders practitioners\nfrom using such methods to answer important scientific questions. To address\nthis significant technical gap, in this paper, we develop a quantile mediation\nanalysis methodology to facilitate the identification, estimation, and testing\nof quantile mediation effects under a hypothesized directed acyclic graph. We\nestablish two key estimands, quantile natural direct effect (qNDE) and quantile\nnatural indirect effect (qNIE), in the counterfactual framework, both of which\nhave closed-form expressions. To overcome the issue that the null hypothesis of\nno mediation effect is composite, we establish a powerful adaptive bootstrap\nmethod that is shown theoretically and numerically to achieve a proper type I\nerror control. We illustrate the proposed quantile mediation analysis\nmethodology through both extensive simulation experiments and a real-world\ndataset in that we investigate the mediation effect of lipidomic biomarkers for\nthe influence of exposure to phthalates on early childhood obesity clinically\ndiagnosed by 95\\% percentile of body mass index.\n",
+  "subjects": [
+    "Statistics/Methodology"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "dsutrwhr-iR4U2Rt4ANNSrE74elv5Dv4y908HTq7guw",
+  "pdfSize": "484078"
+}

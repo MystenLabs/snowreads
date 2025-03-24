@@ -1,0 +1,34 @@
+{
+  "id": "2412.03551",
+  "title": "SPICE: Smart Projection Interface for Cooking Enhancement",
+  "authors": "Vera Prohaska and Eduardo Castell\\'o Ferrer",
+  "authorsParsed": [
+    [
+      "Prohaska",
+      "Vera",
+      ""
+    ],
+    [
+      "Ferrer",
+      "Eduardo Castelló",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 4 Dec 2024 18:49:26 GMT"
+    }
+  ],
+  "updateDate": "2024-12-05",
+  "timestamp": 1733338166000,
+  "abstract": "  Tangible User Interfaces (TUI) for human--computer interaction (HCI) provide\nthe user with physical representations of digital information with the aim to\novercome the limitations of screen-based interfaces. Although many compelling\ndemonstrations of TUIs exist in the literature, there is a lack of research on\nTUIs intended for daily two-handed tasks and processes, such as cooking. In\nresponse to this gap, we propose SPICE (Smart Projection Interface for Cooking\nEnhancement). SPICE investigates TUIs in a kitchen setting, aiming to transform\nthe recipe following experience from simply text-based to tangibly interactive.\nSPICE includes a tracking system, an agent-based software, and vision large\nlanguage models to create and interpret a kitchen environment where recipe\ninformation is projected directly onto the cooking surface. We conducted a\ncomparative usability study of SPICE and text-based recipe following with 30\nparticipants, assessing the task difficulty, total duration, and efficiency, as\nwell as user confidence and taste perception. The results indicate that SPICE\nallowed participants to perform the recipe with less stops and in shorter time\nwhile also improving self-reported efficiency, confidence, and taste. Despite\nthis, participants self-reported no change in overall difficulty, which is a\ndirection for future research. Overall, the SPICE project demonstrates the\npotential of using TUIs to improve everyday activities, paving the way for\nfuture research in HCI and new computing interfaces.\n",
+  "subjects": [
+    "Computer Science/Human-Computer Interaction",
+    "Computer Science/Emerging Technologies",
+    "Computer Science/Multimedia"
+  ],
+  "license": "http://creativecommons.org/licenses/by-sa/4.0/",
+  "blobId": "Q45zc2YYvgyxeDFs4LAzfvc2vjEjUOwjyMtwwFvAxhw",
+  "pdfSize": "3667580"
+}

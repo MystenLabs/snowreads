@@ -1,0 +1,58 @@
+{
+  "id": "2412.06974",
+  "title": "MV-DUSt3R+: Single-Stage Scene Reconstruction from Sparse Views In 2\n  Seconds",
+  "authors": "Zhenggang Tang, Yuchen Fan, Dilin Wang, Hongyu Xu, Rakesh Ranjan,\n  Alexander Schwing, Zhicheng Yan",
+  "authorsParsed": [
+    [
+      "Tang",
+      "Zhenggang",
+      ""
+    ],
+    [
+      "Fan",
+      "Yuchen",
+      ""
+    ],
+    [
+      "Wang",
+      "Dilin",
+      ""
+    ],
+    [
+      "Xu",
+      "Hongyu",
+      ""
+    ],
+    [
+      "Ranjan",
+      "Rakesh",
+      ""
+    ],
+    [
+      "Schwing",
+      "Alexander",
+      ""
+    ],
+    [
+      "Yan",
+      "Zhicheng",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 9 Dec 2024 20:34:55 GMT"
+    }
+  ],
+  "updateDate": "2024-12-11",
+  "timestamp": 1733776495000,
+  "abstract": "  Recent sparse multi-view scene reconstruction advances like DUSt3R and MASt3R\nno longer require camera calibration and camera pose estimation. However, they\nonly process a pair of views at a time to infer pixel-aligned pointmaps. When\ndealing with more than two views, a combinatorial number of error prone\npairwise reconstructions are usually followed by an expensive global\noptimization, which often fails to rectify the pairwise reconstruction errors.\nTo handle more views, reduce errors, and improve inference time, we propose the\nfast single-stage feed-forward network MV-DUSt3R. At its core are multi-view\ndecoder blocks which exchange information across any number of views while\nconsidering one reference view. To make our method robust to reference view\nselection, we further propose MV-DUSt3R+, which employs cross-reference-view\nblocks to fuse information across different reference view choices. To further\nenable novel view synthesis, we extend both by adding and jointly training\nGaussian splatting heads. Experiments on multi-view stereo reconstruction,\nmulti-view pose estimation, and novel view synthesis confirm that our methods\nimprove significantly upon prior art. Code will be released.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "6AAFJaugngG2gqc7Dh306YiAYrYVkyPsD6j5l1wxNAw",
+  "pdfSize": "10440129"
+}

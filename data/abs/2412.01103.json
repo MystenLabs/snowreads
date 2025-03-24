@@ -1,0 +1,28 @@
+{
+  "id": "2412.01103",
+  "title": "FRIDAY: Real-time Learning DNN-based Stable LQR controller for Nonlinear\n  Systems under Uncertain Disturbances",
+  "authors": "Takahito Fujimori",
+  "authorsParsed": [
+    [
+      "Fujimori",
+      "Takahito",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 2 Dec 2024 04:22:18 GMT"
+    }
+  ],
+  "updateDate": "2024-12-04",
+  "timestamp": 1733113338000,
+  "abstract": "  Linear Quadratic Regulator (LQR) is often combined with feedback\nlinearization (FBL) for nonlinear systems that have the nonlinearity additive\nto the input. Conventional approaches estimate and cancel the nonlinearity\nbased on the first principle or data-driven methods such as Gaussian Processes\n(GPs). However, the former needs an elaborate modeling process, and the latter\nprovides a fixed learned model, which may be suffering when the model dynamics\nare changing. In this letter, we take a Deep Neural Network (DNN) using a\nreal-time-updated dataset to approximate the unknown nonlinearity while the\ncontroller is running. Spectrally normalizing the weights in each time-step, we\nstably incorporate the DNN prediction to an LQR controller and compensate for\nthe nonlinear term. Leveraging the property of the bounded Lipschitz constant\nof the DNN, we provide theoretical analysis and locally exponential stability\nof the proposed controller. Simulation results show that our controller\nsignificantly outperforms Baseline controllers in trajectory tracking cases.\n",
+  "subjects": [
+    "Electrical Engineering and Systems Science/Systems and Control",
+    "Computer Science/Systems and Control"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "Jh3XSGKiBwdRBwuxCT1bNSmq6pFPUq1JMEhcC2pOKjg",
+  "pdfSize": "1790459"
+}

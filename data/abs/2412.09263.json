@@ -1,0 +1,47 @@
+{
+  "id": "2412.09263",
+  "title": "First Train to Generate, then Generate to Train: UnitedSynT5 for\n  Few-Shot NLI",
+  "authors": "Sourav Banerjee, Anush Mahajan, Ayushi Agarwal, Eishkaran Singh",
+  "authorsParsed": [
+    [
+      "Banerjee",
+      "Sourav",
+      ""
+    ],
+    [
+      "Mahajan",
+      "Anush",
+      ""
+    ],
+    [
+      "Agarwal",
+      "Ayushi",
+      ""
+    ],
+    [
+      "Singh",
+      "Eishkaran",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 12 Dec 2024 13:21:09 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Fri, 13 Dec 2024 06:28:11 GMT"
+    }
+  ],
+  "updateDate": "2024-12-16",
+  "timestamp": 1734009669000,
+  "abstract": "  Natural Language Inference (NLI) tasks require identifying the relationship\nbetween sentence pairs, typically classified as entailment, contradiction, or\nneutrality. While the current state-of-the-art (SOTA) model, Entailment\nFew-Shot Learning (EFL), achieves a 93.1% accuracy on the Stanford Natural\nLanguage Inference (SNLI) dataset, further advancements are constrained by the\ndataset's limitations. To address this, we propose a novel approach leveraging\nsynthetic data augmentation to enhance dataset diversity and complexity. We\npresent UnitedSynT5, an advanced extension of EFL that leverages a T5-based\ngenerator to synthesize additional premise-hypothesis pairs, which are\nrigorously cleaned and integrated into the training data. These augmented\nexamples are processed within the EFL framework, embedding labels directly into\nhypotheses for consistency. We train a GTR-T5-XL model on this expanded\ndataset, achieving a new benchmark of 94.7% accuracy on the SNLI dataset, 94.0%\naccuracy on the E-SNLI dataset, and 92.6% accuracy on the MultiNLI dataset,\nsurpassing the previous SOTA models. This research demonstrates the potential\nof synthetic data augmentation in improving NLI models, offering a path forward\nfor further advancements in natural language understanding tasks.\n",
+  "subjects": [
+    "Computer Science/Computation and Language",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "XD5tj84RyLsuHa6Qu73eplKBsIpHP00QtrpuxvYPBoM",
+  "pdfSize": "473689"
+}

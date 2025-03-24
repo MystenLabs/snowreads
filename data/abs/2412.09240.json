@@ -1,0 +1,43 @@
+{
+  "id": "2412.09240",
+  "title": "VLMs meet UDA: Boosting Transferability of Open Vocabulary Segmentation\n  with Unsupervised Domain Adaptation",
+  "authors": "Roberto Alcover-Couso, Marcos Escudero-Vi\\~nolo, Juan C. SanMiguel and\n  Jesus Bescos",
+  "authorsParsed": [
+    [
+      "Alcover-Couso",
+      "Roberto",
+      ""
+    ],
+    [
+      "Escudero-Viñolo",
+      "Marcos",
+      ""
+    ],
+    [
+      "SanMiguel",
+      "Juan C.",
+      ""
+    ],
+    [
+      "Bescos",
+      "Jesus",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 12 Dec 2024 12:49:42 GMT"
+    }
+  ],
+  "updateDate": "2024-12-13",
+  "timestamp": 1734007782000,
+  "abstract": "  Segmentation models are typically constrained by the categories defined\nduring training. To address this, researchers have explored two independent\napproaches: adapting Vision-Language Models (VLMs) and leveraging synthetic\ndata. However, VLMs often struggle with granularity, failing to disentangle\nfine-grained concepts, while synthetic data-based methods remain limited by the\nscope of available datasets.\n  This paper proposes enhancing segmentation accuracy across diverse domains by\nintegrating Vision-Language reasoning with key strategies for Unsupervised\nDomain Adaptation (UDA). First, we improve the fine-grained segmentation\ncapabilities of VLMs through multi-scale contextual data, robust text\nembeddings with prompt augmentation, and layer-wise fine-tuning in our proposed\nFoundational-Retaining Open Vocabulary Semantic Segmentation (FROVSS)\nframework. Next, we incorporate these enhancements into a UDA framework by\nemploying distillation to stabilize training and cross-domain mixed sampling to\nboost adaptability without compromising generalization. The resulting\nUDA-FROVSS framework is the first UDA approach to effectively adapt across\ndomains without requiring shared categories.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "tqJfTNjZSbrvTJWcUWYZfzsQCwOZWpli0Iq5wXCOd5E",
+  "pdfSize": "7048274"
+}

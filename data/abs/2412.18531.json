@@ -1,0 +1,66 @@
+{
+  "id": "2412.18531",
+  "title": "Automated Code Review In Practice",
+  "authors": "Umut Cihan, Vahid Haratian, Arda \\.I\\c{c}\\\"oz, Mert Kaan G\\\"ul,\n  \\\"Omercan Devran, Emircan Furkan Bayendur, Baykal Mehmet U\\c{c}ar, Eray\n  T\\\"uz\\\"un",
+  "authorsParsed": [
+    [
+      "Cihan",
+      "Umut",
+      ""
+    ],
+    [
+      "Haratian",
+      "Vahid",
+      ""
+    ],
+    [
+      "İçöz",
+      "Arda",
+      ""
+    ],
+    [
+      "Gül",
+      "Mert Kaan",
+      ""
+    ],
+    [
+      "Devran",
+      "Ömercan",
+      ""
+    ],
+    [
+      "Bayendur",
+      "Emircan Furkan",
+      ""
+    ],
+    [
+      "Uçar",
+      "Baykal Mehmet",
+      ""
+    ],
+    [
+      "Tüzün",
+      "Eray",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 24 Dec 2024 16:24:45 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Sat, 28 Dec 2024 08:16:43 GMT"
+    }
+  ],
+  "updateDate": "2024-12-31",
+  "timestamp": 1735057485000,
+  "abstract": "  Code review is a widespread practice to improve software quality and transfer\nknowledge. It is often seen as time-consuming due to the need for manual effort\nand potential delays. Several AI-assisted tools, such as Qodo, GitHub Copilot,\nand Coderabbit, provide automated reviews using large language models (LLMs).\nThe effects of such tools in the industry are yet to be examined.\n  This study examines the impact of LLM-based automated code review tools in an\nindustrial setting. The study was conducted within a software development\nenvironment that adopted an AI-assisted review tool (based on open-source Qodo\nPR Agent). Around 238 practitioners across ten projects had access to the tool.\nWe focused on three projects with 4,335 pull requests, 1,568 of which underwent\nautomated reviews. Data collection comprised three sources: (1) a quantitative\nanalysis of pull request data, including comment labels indicating whether\ndevelopers acted on the automated comments, (2) surveys sent to developers\nregarding their experience with reviews on individual pull requests, and (3) a\nbroader survey of 22 practitioners capturing their general opinions on\nautomated reviews.\n  73.8% of automated comments were resolved. However, the average pull request\nclosure duration increased from five hours 52 minutes to eight hours 20\nminutes, with varying trends across projects. Most practitioners reported a\nminor improvement in code quality due to automated reviews.\n  The LLM-based tool proved useful in software development, enhancing bug\ndetection, increasing awareness of code quality, and promoting best practices.\nHowever, it also led to longer pull request closure times and introduced\ndrawbacks like faulty reviews, unnecessary corrections, and irrelevant\ncomments.\n",
+  "subjects": [
+    "Computer Science/Software Engineering"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "pQorGOgRIJWBYvobEISRzuiwBHS1JeiZFlOBaoAKF9M",
+  "pdfSize": "1003700"
+}

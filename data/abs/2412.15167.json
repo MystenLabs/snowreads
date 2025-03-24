@@ -1,0 +1,502 @@
+{
+  "id": "2412.15167",
+  "title": "Pointing Accuracy Improvements for the South Pole Telescope with Machine\n  Learning",
+  "authors": "P. M. Chichura, A. Rahlin, A. J. Anderson, B. Ansarinejad, M.\n  Archipley, L. Balkenhol, K. Benabed, A. N. Bender, B. A. Benson, F.\n  Bianchini, L. E. Bleem, F. R. Bouchet, L. Bryant, E. Camphuis, J. E.\n  Carlstrom, C. L. Chang, P. Chaubal, A. Chokshi, T.-L. Chou, A. Coerver, T. M.\n  Crawford, C. Daley, T. de Haan, K. R. Dibert, M. A. Dobbs, M. Doohan, A.\n  Doussot, D. Dutcher, W. Everett, C. Feng, K. R. Ferguson, K. Fichman, A.\n  Foster, S. Galli, A. E. Gambrel, R. W. Gardner, F. Ge, N. Goeckner-Wald, R.\n  Gualtieri, F. Guidi, S. Guns, N. W. Halverson, E. Hivon, G. P. Holder, W. L.\n  Holzapfel, J. C. Hood, A. Hryciuk, N. Huang, F. K\\'eruzor\\'e, A. R. Khalife,\n  J. Kim, L. Knox, M. Korman, K. Kornoelje, C.-L. Kuo, K. Levy, A. E. Lowitz,\n  C. Lu, A. Maniyar, D. P. Marrone, E. S. Martsen, F. Menanteau, M. Millea, J.\n  Montgomery, Y. Nakato, T. Natoli, G. I. Noble, Y. Omori, S. Padin, Z. Pan, P.\n  Paschos, K. A. Phadke, A. W. Pollak, K. Prabhu, W. Quan, M. Rahimi, C. L.\n  Reichardt, M. Rouble, J. E. Ruhl, E. Schiappucci, J. A. Sobrin, A. A. Stark,\n  J. Stephen, C. Tandoi, B. Thorne, C. Trendafilova, C. Umilta, J.\n  Veitch-Michaelis, J. D. Vieira, A. Vitrier, Y. Wan, N. Whitehorn, W. L. K.\n  Wu, M. R. Young, K. Zagorski, J. A. Zebrowski",
+  "authorsParsed": [
+    [
+      "Chichura",
+      "P. M.",
+      ""
+    ],
+    [
+      "Rahlin",
+      "A.",
+      ""
+    ],
+    [
+      "Anderson",
+      "A. J.",
+      ""
+    ],
+    [
+      "Ansarinejad",
+      "B.",
+      ""
+    ],
+    [
+      "Archipley",
+      "M.",
+      ""
+    ],
+    [
+      "Balkenhol",
+      "L.",
+      ""
+    ],
+    [
+      "Benabed",
+      "K.",
+      ""
+    ],
+    [
+      "Bender",
+      "A. N.",
+      ""
+    ],
+    [
+      "Benson",
+      "B. A.",
+      ""
+    ],
+    [
+      "Bianchini",
+      "F.",
+      ""
+    ],
+    [
+      "Bleem",
+      "L. E.",
+      ""
+    ],
+    [
+      "Bouchet",
+      "F. R.",
+      ""
+    ],
+    [
+      "Bryant",
+      "L.",
+      ""
+    ],
+    [
+      "Camphuis",
+      "E.",
+      ""
+    ],
+    [
+      "Carlstrom",
+      "J. E.",
+      ""
+    ],
+    [
+      "Chang",
+      "C. L.",
+      ""
+    ],
+    [
+      "Chaubal",
+      "P.",
+      ""
+    ],
+    [
+      "Chokshi",
+      "A.",
+      ""
+    ],
+    [
+      "Chou",
+      "T. -L.",
+      ""
+    ],
+    [
+      "Coerver",
+      "A.",
+      ""
+    ],
+    [
+      "Crawford",
+      "T. M.",
+      ""
+    ],
+    [
+      "Daley",
+      "C.",
+      ""
+    ],
+    [
+      "de Haan",
+      "T.",
+      ""
+    ],
+    [
+      "Dibert",
+      "K. R.",
+      ""
+    ],
+    [
+      "Dobbs",
+      "M. A.",
+      ""
+    ],
+    [
+      "Doohan",
+      "M.",
+      ""
+    ],
+    [
+      "Doussot",
+      "A.",
+      ""
+    ],
+    [
+      "Dutcher",
+      "D.",
+      ""
+    ],
+    [
+      "Everett",
+      "W.",
+      ""
+    ],
+    [
+      "Feng",
+      "C.",
+      ""
+    ],
+    [
+      "Ferguson",
+      "K. R.",
+      ""
+    ],
+    [
+      "Fichman",
+      "K.",
+      ""
+    ],
+    [
+      "Foster",
+      "A.",
+      ""
+    ],
+    [
+      "Galli",
+      "S.",
+      ""
+    ],
+    [
+      "Gambrel",
+      "A. E.",
+      ""
+    ],
+    [
+      "Gardner",
+      "R. W.",
+      ""
+    ],
+    [
+      "Ge",
+      "F.",
+      ""
+    ],
+    [
+      "Goeckner-Wald",
+      "N.",
+      ""
+    ],
+    [
+      "Gualtieri",
+      "R.",
+      ""
+    ],
+    [
+      "Guidi",
+      "F.",
+      ""
+    ],
+    [
+      "Guns",
+      "S.",
+      ""
+    ],
+    [
+      "Halverson",
+      "N. W.",
+      ""
+    ],
+    [
+      "Hivon",
+      "E.",
+      ""
+    ],
+    [
+      "Holder",
+      "G. P.",
+      ""
+    ],
+    [
+      "Holzapfel",
+      "W. L.",
+      ""
+    ],
+    [
+      "Hood",
+      "J. C.",
+      ""
+    ],
+    [
+      "Hryciuk",
+      "A.",
+      ""
+    ],
+    [
+      "Huang",
+      "N.",
+      ""
+    ],
+    [
+      "Kéruzoré",
+      "F.",
+      ""
+    ],
+    [
+      "Khalife",
+      "A. R.",
+      ""
+    ],
+    [
+      "Kim",
+      "J.",
+      ""
+    ],
+    [
+      "Knox",
+      "L.",
+      ""
+    ],
+    [
+      "Korman",
+      "M.",
+      ""
+    ],
+    [
+      "Kornoelje",
+      "K.",
+      ""
+    ],
+    [
+      "Kuo",
+      "C. -L.",
+      ""
+    ],
+    [
+      "Levy",
+      "K.",
+      ""
+    ],
+    [
+      "Lowitz",
+      "A. E.",
+      ""
+    ],
+    [
+      "Lu",
+      "C.",
+      ""
+    ],
+    [
+      "Maniyar",
+      "A.",
+      ""
+    ],
+    [
+      "Marrone",
+      "D. P.",
+      ""
+    ],
+    [
+      "Martsen",
+      "E. S.",
+      ""
+    ],
+    [
+      "Menanteau",
+      "F.",
+      ""
+    ],
+    [
+      "Millea",
+      "M.",
+      ""
+    ],
+    [
+      "Montgomery",
+      "J.",
+      ""
+    ],
+    [
+      "Nakato",
+      "Y.",
+      ""
+    ],
+    [
+      "Natoli",
+      "T.",
+      ""
+    ],
+    [
+      "Noble",
+      "G. I.",
+      ""
+    ],
+    [
+      "Omori",
+      "Y.",
+      ""
+    ],
+    [
+      "Padin",
+      "S.",
+      ""
+    ],
+    [
+      "Pan",
+      "Z.",
+      ""
+    ],
+    [
+      "Paschos",
+      "P.",
+      ""
+    ],
+    [
+      "Phadke",
+      "K. A.",
+      ""
+    ],
+    [
+      "Pollak",
+      "A. W.",
+      ""
+    ],
+    [
+      "Prabhu",
+      "K.",
+      ""
+    ],
+    [
+      "Quan",
+      "W.",
+      ""
+    ],
+    [
+      "Rahimi",
+      "M.",
+      ""
+    ],
+    [
+      "Reichardt",
+      "C. L.",
+      ""
+    ],
+    [
+      "Rouble",
+      "M.",
+      ""
+    ],
+    [
+      "Ruhl",
+      "J. E.",
+      ""
+    ],
+    [
+      "Schiappucci",
+      "E.",
+      ""
+    ],
+    [
+      "Sobrin",
+      "J. A.",
+      ""
+    ],
+    [
+      "Stark",
+      "A. A.",
+      ""
+    ],
+    [
+      "Stephen",
+      "J.",
+      ""
+    ],
+    [
+      "Tandoi",
+      "C.",
+      ""
+    ],
+    [
+      "Thorne",
+      "B.",
+      ""
+    ],
+    [
+      "Trendafilova",
+      "C.",
+      ""
+    ],
+    [
+      "Umilta",
+      "C.",
+      ""
+    ],
+    [
+      "Veitch-Michaelis",
+      "J.",
+      ""
+    ],
+    [
+      "Vieira",
+      "J. D.",
+      ""
+    ],
+    [
+      "Vitrier",
+      "A.",
+      ""
+    ],
+    [
+      "Wan",
+      "Y.",
+      ""
+    ],
+    [
+      "Whitehorn",
+      "N.",
+      ""
+    ],
+    [
+      "Wu",
+      "W. L. K.",
+      ""
+    ],
+    [
+      "Young",
+      "M. R.",
+      ""
+    ],
+    [
+      "Zagorski",
+      "K.",
+      ""
+    ],
+    [
+      "Zebrowski",
+      "J. A.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 19 Dec 2024 18:41:56 GMT"
+    }
+  ],
+  "updateDate": "2024-12-20",
+  "timestamp": 1734633716000,
+  "abstract": "  We present improvements to the pointing accuracy of the South Pole Telescope\n(SPT) using machine learning. The ability of the SPT to point accurately at the\nsky is limited by its structural imperfections, which are impacted by the\nextreme weather at the South Pole. Pointing accuracy is particularly important\nduring SPT participation in observing campaigns with the Event Horizon\nTelescope (EHT), which requires stricter accuracy than typical observations\nwith the SPT. We compile a training dataset of historical observations of\nastronomical sources made with the SPT-3G and EHT receivers on the SPT. We\ntrain two XGBoost models to learn a mapping from current weather conditions to\ntwo telescope drive control arguments -- one which corrects for errors in\nazimuth and the other for errors in elevation. Our trained models achieve root\nmean squared errors on withheld test data of $2.14''$ in cross-elevation and\n$3.57''$ in elevation, well below our goal of $5''$ along each axis. We deploy\nour models on the telescope control system and perform further in situ test\nobservations during the EHT observing campaign in 2024 April. Our models result\nin significantly improved pointing accuracy: for sources within the range of\ninput variables where the models are best trained, average combined pointing\nerror improved 33%, from $15.9''$ to $10.6''$. These improvements, while\nsignificant, fall shy of our ultimate goal, but they serve as a proof of\nconcept for the development of future models. Planned upgrades to the EHT\nreceiver on the SPT will necessitate even stricter pointing accuracy which will\nbe achievable with our methods.\n",
+  "subjects": [
+    "Astrophysics/Instrumentation and Methods for Astrophysics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "0mwMoROtFC9F89oUhCNAi5H11yp3HlKtEPuVkUoo1O0",
+  "pdfSize": "3086342"
+}

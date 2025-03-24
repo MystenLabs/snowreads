@@ -1,0 +1,27 @@
+{
+  "id": "2412.11587",
+  "title": "Similar operator topologies on the space of positive contractions",
+  "authors": "Valentin Gillet",
+  "authorsParsed": [
+    [
+      "Gillet",
+      "Valentin",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 16 Dec 2024 09:19:39 GMT"
+    }
+  ],
+  "updateDate": "2024-12-17",
+  "timestamp": 1734340779000,
+  "abstract": "  In this article, we study the similarity of the Polish operator topologies\n$\\texttt{WOT}$, $\\texttt{SOT}$, $\\texttt{SOT}\\mbox{$_{*}$}$ and\n$\\texttt{SOT}\\mbox{$^{*}$}$ on the set of the positive contractions on $\\ell_p$\nwith $p > 1$. Using the notion of norming vector for a positive operator, we\nprove that these topologies are similar on $\\mathcal{P}_1(\\ell_2)$, that is\nthey have the same dense sets in $\\mathcal{P}_1(\\ell_2)$. In particular, these\ntopologies will share the same comeager sets in $\\mathcal{P}_1(\\ell_2)$. We\nthen apply these results to the study of typical properties of positive\ncontractions on $\\ell_p$-spaces in the Baire category sense. In particular, we\nprove that a typical positive contraction $T \\in (\\mathcal{P}_1(\\ell_2),\n\\texttt{SOT})$ has no eigenvalue. This stands in strong contrast to a result of\nEisner and M\\'atrai, stating that the point spectrum of a typical contraction\n$T \\in (\\mathcal{B}_1(\\ell_2), \\texttt{SOT})$ contains the whole unit disk. As\na consequence of our results, we obtain that a typical positive contraction $T\n\\in (\\mathcal{P}_1(\\ell_2), \\texttt{WOT})$ (resp. $T \\in\n(\\mathcal{P}_1(\\ell_2), \\texttt{SOT}\\mbox{$_{*}$})$) has no eigenvalue.\n",
+  "subjects": [
+    "Mathematics/Functional Analysis"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "UAVLJmpQZms5_AFF0x-o2IPMLG5WlJNqWrn1MGBNdSw",
+  "pdfSize": "330919"
+}

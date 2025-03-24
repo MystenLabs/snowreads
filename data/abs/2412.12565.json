@@ -1,0 +1,47 @@
+{
+  "id": "2412.12565",
+  "title": "PBVS 2024 Solution: Self-Supervised Learning and Sampling Strategies for\n  SAR Classification in Extreme Long-Tail Distribution",
+  "authors": "Yuhyun Kim, Minwoo Kim, Hyobin Park, Jinwook Jung, Dong-Geol Choi",
+  "authorsParsed": [
+    [
+      "Kim",
+      "Yuhyun",
+      ""
+    ],
+    [
+      "Kim",
+      "Minwoo",
+      ""
+    ],
+    [
+      "Park",
+      "Hyobin",
+      ""
+    ],
+    [
+      "Jung",
+      "Jinwook",
+      ""
+    ],
+    [
+      "Choi",
+      "Dong-Geol",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 17 Dec 2024 05:49:16 GMT"
+    }
+  ],
+  "updateDate": "2024-12-18",
+  "timestamp": 1734414556000,
+  "abstract": "  The Multimodal Learning Workshop (PBVS 2024) aims to improve the performance\nof automatic target recognition (ATR) systems by leveraging both Synthetic\nAperture Radar (SAR) data, which is difficult to interpret but remains\nunaffected by weather conditions and visible light, and Electro-Optical (EO)\ndata for simultaneous learning. The subtask, known as the Multi-modal Aerial\nView Imagery Challenge - Classification, focuses on predicting the class label\nof a low-resolution aerial image based on a set of SAR-EO image pairs and their\nrespective class labels. The provided dataset consists of SAR-EO pairs,\ncharacterized by a severe long-tail distribution with over a 1000-fold\ndifference between the largest and smallest classes, making typical long-tail\nmethods difficult to apply. Additionally, the domain disparity between the SAR\nand EO datasets complicates the effectiveness of standard multimodal methods.\nTo address these significant challenges, we propose a two-stage learning\napproach that utilizes self-supervised techniques, combined with multimodal\nlearning and inference through SAR-to-EO translation for effective EO\nutilization. In the final testing phase of the PBVS 2024 Multi-modal Aerial\nView Image Challenge - Classification (SAR Classification) task, our model\nachieved an accuracy of 21.45%, an AUC of 0.56, and a total score of 0.30,\nplacing us 9th in the competition.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "VsEc38YtRKWBREyDID_Xrr5p4DoIu6XD0m5fBwxoq6U",
+  "pdfSize": "231388"
+}

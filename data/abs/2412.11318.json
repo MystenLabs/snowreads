@@ -1,0 +1,43 @@
+{
+  "id": "2412.11318",
+  "title": "Generics are puzzling. Can language models find the missing piece?",
+  "authors": "Gustavo Cilleruelo Calder\\'on, Emily Allaway, Barry Haddow, Alexandra\n  Birch",
+  "authorsParsed": [
+    [
+      "Calderón",
+      "Gustavo Cilleruelo",
+      ""
+    ],
+    [
+      "Allaway",
+      "Emily",
+      ""
+    ],
+    [
+      "Haddow",
+      "Barry",
+      ""
+    ],
+    [
+      "Birch",
+      "Alexandra",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 15 Dec 2024 21:30:21 GMT"
+    }
+  ],
+  "updateDate": "2024-12-17",
+  "timestamp": 1734298221000,
+  "abstract": "  Generic sentences express generalisations about the world without explicit\nquantification. Although generics are central to everyday communication,\nbuilding a precise semantic framework has proven difficult, in part because\nspeakers use generics to generalise properties with widely different\nstatistical prevalence. In this work, we study the implicit quantification and\ncontext-sensitivity of generics by leveraging language models as models of\nlanguage. We create ConGen, a dataset of 2873 naturally occurring generic and\nquantified sentences in context, and define p-acceptability, a metric based on\nsurprisal that is sensitive to quantification. Our experiments show generics\nare more context-sensitive than determiner quantifiers and about 20% of\nnaturally occurring generics we analyze express weak generalisations. We also\nexplore how human biases in stereotypes can be observed in language models.\n",
+  "subjects": [
+    "Computer Science/Computation and Language",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "iDaNFh_15i528bA9HdnQQPaIjLEbBiqZG4U-bGoO_hM",
+  "pdfSize": "509081"
+}

@@ -1,0 +1,45 @@
+{
+  "id": "2412.15438",
+  "title": "Efficient Neural Network Encoding for 3D Color Lookup Tables",
+  "authors": "Vahid Zehtab, David B. Lindell, Marcus A. Brubaker, Michael S. Brown",
+  "authorsParsed": [
+    [
+      "Zehtab",
+      "Vahid",
+      ""
+    ],
+    [
+      "Lindell",
+      "David B.",
+      ""
+    ],
+    [
+      "Brubaker",
+      "Marcus A.",
+      ""
+    ],
+    [
+      "Brown",
+      "Michael S.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 19 Dec 2024 22:41:26 GMT"
+    }
+  ],
+  "updateDate": "2024-12-23",
+  "timestamp": 1734648086000,
+  "abstract": "  3D color lookup tables (LUTs) enable precise color manipulation by mapping\ninput RGB values to specific output RGB values. 3D LUTs are instrumental in\nvarious applications, including video editing, in-camera processing,\nphotographic filters, computer graphics, and color processing for displays.\nWhile an individual LUT does not incur a high memory overhead, software and\ndevices may need to store dozens to hundreds of LUTs that can take over 100 MB.\nThis work aims to develop a neural network architecture that can encode\nhundreds of LUTs in a single compact representation. To this end, we propose a\nmodel with a memory footprint of less than 0.25 MB that can reconstruct 512\nLUTs with only minor color distortion ($\\bar{\\Delta}E_M$ $\\leq$ 2.0) over the\nentire color gamut. We also show that our network can weight colors to provide\nfurther quality gains on natural image colors ($\\bar{\\Delta}{E}_M$ $\\leq$ 1.0).\nFinally, we show that minor modifications to the network architecture enable a\nbijective encoding that produces LUTs that are invertible, allowing for reverse\ncolor processing. Our code is available at https://github.com/vahidzee/ennelut.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Machine Learning",
+    "Electrical Engineering and Systems Science/Image and Video Processing"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "OA9ULkAzQl3dFqJsqVlOU41wE2ev-DuQmT7AYEc3JiQ",
+  "pdfSize": "21186171"
+}

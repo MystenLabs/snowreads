@@ -1,0 +1,49 @@
+{
+  "id": "2412.02883",
+  "title": "TDD-Bench Verified: Can LLMs Generate Tests for Issues Before They Get\n  Resolved?",
+  "authors": "Toufique Ahmed, Martin Hirzel, Rangeet Pan, Avraham Shinnar, Saurabh\n  Sinha",
+  "authorsParsed": [
+    [
+      "Ahmed",
+      "Toufique",
+      ""
+    ],
+    [
+      "Hirzel",
+      "Martin",
+      ""
+    ],
+    [
+      "Pan",
+      "Rangeet",
+      ""
+    ],
+    [
+      "Shinnar",
+      "Avraham",
+      ""
+    ],
+    [
+      "Sinha",
+      "Saurabh",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 3 Dec 2024 22:38:05 GMT"
+    }
+  ],
+  "updateDate": "2024-12-05",
+  "timestamp": 1733265485000,
+  "abstract": "  Test-driven development (TDD) is the practice of writing tests first and\ncoding later, and the proponents of TDD expound its numerous benefits. For\ninstance, given an issue on a source code repository, tests can clarify the\ndesired behavior among stake-holders before anyone writes code for the\nagreed-upon fix. Although there has been a lot of work on automated test\ngeneration for the practice \"write code first, test later\", there has been\nlittle such automation for TDD. Ideally, tests for TDD should be fail-to-pass\n(i.e., fail before the issue is resolved and pass after) and have good adequacy\nwith respect to covering the code changed during issue resolution. This paper\nintroduces TDD-Bench Verified, a high-quality benchmark suite of 449 issues\nmined from real-world GitHub code repositories. The benchmark's evaluation\nharness runs only relevant tests in isolation for simple yet accurate coverage\nmeasurements, and the benchmark's dataset is filtered both by human judges and\nby execution in the harness. This paper also presents Auto-TDD, an LLM-based\nsolution that takes as input an issue description and a codebase (prior to\nissue resolution) and returns as output a test that can be used to validate the\nchanges made for resolving the issue. Our evaluation shows that Auto-TDD yields\na better fail-to-pass rate than the strongest prior work while also yielding\nhigh coverage adequacy. Overall, we hope that this work helps make developers\nmore productive at resolving issues while simultaneously leading to more robust\nfixes.\n",
+  "subjects": [
+    "Computer Science/Software Engineering",
+    "Computer Science/Computation and Language",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "ktJqgJdS6iXGeHLYcxz68suXExbD2uZRAANd_caujZ8",
+  "pdfSize": "2104951"
+}

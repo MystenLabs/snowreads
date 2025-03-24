@@ -1,0 +1,34 @@
+{
+  "id": "2412.16580",
+  "title": "Existence of monostable fronts for a KPP infinite-difference numerical\n  scheme",
+  "authors": "Louis Gar\\'enaux and Hermen Jan Hupkes",
+  "authorsParsed": [
+    [
+      "Garénaux",
+      "Louis",
+      ""
+    ],
+    [
+      "Hupkes",
+      "Hermen Jan",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 21 Dec 2024 10:56:32 GMT"
+    }
+  ],
+  "updateDate": "2024-12-24",
+  "timestamp": 1734778592000,
+  "abstract": "  We study the existence of traveling wave solutions for a numerical\ncounterpart of the KPP equation. We obtain the existence of monostable fronts\nfor all super-critical speeds in the regime where the spatial step size is\nsmall. The key strategy is to transfer the invertibility of certain linear\noperators related to the front solutions from the continuous setting to the\ndiscrete case we are interested in. We rely on resolvent bounds which are\nuniform with respect to the step size, a procedure which is also known as\nspectral convergence. The approach is also able to handle infinite range\ndiscretizations with geometrically decaying coefficients that are allowed to\nhave both signs, which prevents the use of the comparison principle.\n",
+  "subjects": [
+    "Mathematics/Numerical Analysis",
+    "Computer Science/Numerical Analysis",
+    "Mathematics/Analysis of PDEs"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "hwcB_HD7H7H837KUQuiEUF1KxI8hbMZ0JU6Ib6cvS84",
+  "pdfSize": "241489"
+}

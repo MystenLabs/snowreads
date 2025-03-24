@@ -1,0 +1,52 @@
+{
+  "id": "2412.20311",
+  "title": "Narrowband parallel coherent LiDAR with frequency interleaving",
+  "authors": "Long Wang, Liang Hu, Wenhai Jiao, Yaxin Shang, Jianping Chen, and\n  Guiling Wu",
+  "authorsParsed": [
+    [
+      "Wang",
+      "Long",
+      ""
+    ],
+    [
+      "Hu",
+      "Liang",
+      ""
+    ],
+    [
+      "Jiao",
+      "Wenhai",
+      ""
+    ],
+    [
+      "Shang",
+      "Yaxin",
+      ""
+    ],
+    [
+      "Chen",
+      "Jianping",
+      ""
+    ],
+    [
+      "Wu",
+      "Guiling",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 29 Dec 2024 01:10:45 GMT"
+    }
+  ],
+  "updateDate": "2024-12-31",
+  "timestamp": 1735434645000,
+  "abstract": "  The high demand for 3D imaging in intelligent robotics is motivating the\nadvances of coherent LiDARs towards high performances with low complexity/cost.\nHowever, the current coherent LiDARs suffer from the tight coupling between the\nhigh ranging-imaging performance and the high complexity/cost. Herein, we\npropose a narrowband parallel coherent LiDAR with frequency-interleaving\narchitecture. The LiDAR architecture utilizes narrowband signals for ranging,\nand interleaves multi-channel sparse and narrowband signals in frequency domain\nat the receiving end to significantly reduce the required bandwidth and the\nnumber of detection branches, facilitating massive parallelization with low\nsystem complexity/cost. In experiments, a ranging precision of 0.49 mm that\napproaches the shot noise limit, and a power sensitivity of -95 dBm (~9\nphotons) are achieved. Parallel 3D imaging with an equivalent imaging rate of\n10 Mpixel/s and a 2 cm ranging precision is also demonstrated using only two\n150 MHz receiving branches. With these desirable properties, this new LiDAR\nopens an avenue for the LiDAR ecosystem.\n",
+  "subjects": [
+    "Physics/Optics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "kL314C0ZDMZaIJF8Sanw6FAFgBrmrjn8i6g0ih1pjjc",
+  "pdfSize": "1564083"
+}

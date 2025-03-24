@@ -1,0 +1,44 @@
+{
+  "id": "2412.15325",
+  "title": "Quantum simulating continuum field theories with large-spin lattice\n  models",
+  "authors": "Gabriele Calliari, Marco Di Liberto, Hannes Pichler, Torsten V. Zache",
+  "authorsParsed": [
+    [
+      "Calliari",
+      "Gabriele",
+      ""
+    ],
+    [
+      "Di Liberto",
+      "Marco",
+      ""
+    ],
+    [
+      "Pichler",
+      "Hannes",
+      ""
+    ],
+    [
+      "Zache",
+      "Torsten V.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 19 Dec 2024 19:00:01 GMT"
+    }
+  ],
+  "updateDate": "2024-12-23",
+  "timestamp": 1734634801000,
+  "abstract": "  Simulating the real-time dynamics of quantum field theories (QFTs) is one of\nthe most promising applications of quantum simulators. Regularizing a bosonic\nQFT for quantum simulation purposes typically involves a truncation in Hilbert\nspace in addition to a discretization of space. Here, we discuss how to perform\nsuch a regularization of scalar QFTs using multi-level or qudit systems, and\nshow that this enables quantitative predictions in the continuum limit by\nextrapolating results obtained for large-spin lattice models. With extensive\nmatrix-product state simulations, we numerically demonstrate the sequence of\nextrapolations that leads to quantitative agreement of observables for the\nintegrable sine-Gordon (sG) QFT. We further show how to prepare static and\nmoving soliton excitations, and analyze their scattering dynamics, in agreement\nwith a semi-classical model and analytical predictions. Finally, we illustrate\nhow a non-integrable perturbation of the sG model gives rise to dynamics\nreminiscent of string breaking and plasma oscillations in gauge theories. Our\nmethods are directly applicable in state-of-the-art analog quantum simulators,\nopening the door to implementing a wide variety of scalar field theories and\ntackling long-standing questions in non-equilibrium QFT like the fate of the\nfalse vacuum.\n",
+  "subjects": [
+    "Physics/Quantum Physics",
+    "Condensed Matter/Quantum Gases",
+    "Physics/High Energy Physics - Lattice"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "7IK0BY1GlAUlVIXoUcLBsucoodgSy6dSnZqRjfrMI8s",
+  "pdfSize": "6760589"
+}

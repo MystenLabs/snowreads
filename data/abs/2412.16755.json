@@ -1,0 +1,37 @@
+{
+  "id": "2412.16755",
+  "title": "A Novel Approach to Tomato Harvesting Using a Hybrid Gripper with\n  Semantic Segmentation and Keypoint Detection",
+  "authors": "Shahid Ansari, Mahendra Kumar Gohil, Bishakh Bhattacharya",
+  "authorsParsed": [
+    [
+      "Ansari",
+      "Shahid",
+      ""
+    ],
+    [
+      "Gohil",
+      "Mahendra Kumar",
+      ""
+    ],
+    [
+      "Bhattacharya",
+      "Bishakh",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 21 Dec 2024 20:08:47 GMT"
+    }
+  ],
+  "updateDate": "2024-12-24",
+  "timestamp": 1734811727000,
+  "abstract": "  Current agriculture and farming industries are able to reap advancements in\nrobotics and automation technology to harvest fruits and vegetables using\nrobots with adaptive grasping forces based on the compliance or softness of the\nfruit or vegetable. A successful operation depends on using a gripper that can\nadapt to the mechanical properties of the crops. This paper proposes a new\nrobotic harvesting approach for tomato fruit using a novel hybrid gripper with\na soft caging effect. It uses its six flexible passive auxetic structures based\non fingers with rigid outer exoskeletons for good gripping strength and shape\nconformability. The gripper is actuated through a scotch-yoke mechanism using a\nservo motor. To perform tomato picking operations through a gripper, a vision\nsystem based on a depth camera and RGB camera implements the fruit\nidentification process. It incorporates deep learning-based keypoint detection\nof the tomato's pedicel and body for localization in an occluded and variable\nambient light environment and semantic segmentation of ripe and unripe\ntomatoes. In addition, robust trajectory planning of the robotic arm based on\ninput from the vision system and control of robotic gripper movements are\ncarried out for secure tomato handling. The tunable grasping force of the\ngripper would allow the robotic handling of fruits with a broad range of\ncompliance.\n",
+  "subjects": [
+    "Computer Science/Robotics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "uDzMslNny6rDEiP2NaIXDFZ82FXiUpaEppkMwRKBDvs",
+  "pdfSize": "17578700"
+}

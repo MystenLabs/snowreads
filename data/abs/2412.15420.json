@@ -1,0 +1,40 @@
+{
+  "id": "2412.15420",
+  "title": "On the equivalence of Lp-parabolicity and Lq-liouville property on\n  weighted graphs",
+  "authors": "Lu Hao and Yuhua Sun",
+  "authorsParsed": [
+    [
+      "Hao",
+      "Lu",
+      ""
+    ],
+    [
+      "Sun",
+      "Yuhua",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 19 Dec 2024 22:08:56 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Thu, 9 Jan 2025 13:18:31 GMT"
+    },
+    {
+      "version": "v3",
+      "created": "Fri, 17 Jan 2025 13:50:44 GMT"
+    }
+  ],
+  "updateDate": "2025-01-20",
+  "timestamp": 1734646136000,
+  "abstract": "  We study the relationship between the $L^p$-parabolicity, the $L^q$-Liouville\nproperty for positive superharmonic functions, and the existence of nonharmonic\npositive solutions to the system\n  \\begin{align*}\n  \\left\\{\n  \\begin{array}{lr}\n  -\\Delta u\\geq 0,\n  \\Delta(|\\Delta u|^{p-2}\\Delta u)\\geq 0,\n  \\end{array}\n  \\right.\n  \\end{align*}\n  on weighted graphs, where $1\\leq p< \\infty$ and $(p, q)$ are H\\\"{o}lder\nconjugate exponent pair. Moreover, some new technique is developed to establish\nthe estimate of green function under volume doubling and Poincar\\'{e}\ninequality conditions, and the sharp volume growth conditions for the\n$L^p$-parabolicity can be derived on some graphs.\n",
+  "subjects": [
+    "Mathematics/Analysis of PDEs"
+  ],
+  "license": "http://creativecommons.org/licenses/by-sa/4.0/",
+  "blobId": "hgyFTANcXwKngnZU87Ih2T1i3R1734-FqYOJjQ34YjI",
+  "pdfSize": "280593"
+}

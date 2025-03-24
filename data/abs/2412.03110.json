@@ -1,0 +1,29 @@
+{
+  "id": "2412.03110",
+  "title": "On numerators of bigraded symmetric orbifold Hilbert series and\n  $q,t$-Kostka Macdonald polynomials",
+  "authors": "Yannick Mvondo-She",
+  "authorsParsed": [
+    [
+      "Mvondo-She",
+      "Yannick",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 4 Dec 2024 08:19:44 GMT"
+    }
+  ],
+  "updateDate": "2024-12-05",
+  "timestamp": 1733300384000,
+  "abstract": "  We show that the numerators of bigraded symmetric orbifold Hilbert series are\nthe (transpose of the) matrix of $q,t$-Kostka Macdonald coefficients $K_d =\n\\left( K_{\\lambda \\mu} \\left( q,t \\right) \\right)_{\\lambda, \\mu \\in\n\\mathcal{P}_d}$ for partitions $\\lambda = \\mu$ in the set of partitions\n$\\mathcal{P}_d$ of odd positive numbers $d$ with $d=2n-1$ and $n \\in\n\\mathbb{N}$, such that $\\lambda = \\mu = \\left( 1 \\right)$ if $n=1$, and\n$\\lambda = \\mu = \\left( n, 1^{n-1} \\right)$ if $n > 1$. These polynomials are\nalso shown to be eigenvalues of a differential operator arising from a\nrecurrence relation and acting on the Hilbert series.\n",
+  "subjects": [
+    "Physics/High Energy Physics - Theory",
+    "Physics/Mathematical Physics",
+    "Mathematics/Mathematical Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "ti1Xi-buN_TEFOCj0IF0dWkL9DNs7_KqCc_X6ymKgJU",
+  "pdfSize": "182277"
+}

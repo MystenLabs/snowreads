@@ -1,0 +1,41 @@
+{
+  "id": "2412.21023",
+  "title": "EdgeRAG: Online-Indexed RAG for Edge Devices",
+  "authors": "Korakit Seemakhupt, Sihang Liu and Samira Khan",
+  "authorsParsed": [
+    [
+      "Seemakhupt",
+      "Korakit",
+      ""
+    ],
+    [
+      "Liu",
+      "Sihang",
+      ""
+    ],
+    [
+      "Khan",
+      "Samira",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 30 Dec 2024 15:46:53 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Tue, 31 Dec 2024 20:40:43 GMT"
+    }
+  ],
+  "updateDate": "2025-01-03",
+  "timestamp": 1735573613000,
+  "abstract": "  Deploying Retrieval Augmented Generation (RAG) on resource-constrained edge\ndevices is challenging due to limited memory and processing power. In this\nwork, we propose EdgeRAG which addresses the memory constraint by pruning\nembeddings within clusters and generating embeddings on-demand during\nretrieval. To avoid the latency of generating embeddings for large tail\nclusters, EdgeRAG pre-computes and stores embeddings for these clusters, while\nadaptively caching remaining embeddings to minimize redundant computations and\nfurther optimize latency. The result from BEIR suite shows that EdgeRAG offers\nsignificant latency reduction over the baseline IVF index, but with similar\ngeneration quality while allowing all of our evaluated datasets to fit into the\nmemory.\n",
+  "subjects": [
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "Ag2UjYK-Ke00faILX0Nh6N3W1mrtAsrhFP-xjV4PmVk",
+  "pdfSize": "885558"
+}

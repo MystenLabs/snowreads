@@ -1,0 +1,47 @@
+{
+  "id": "2412.19601",
+  "title": "Arbitrarily Fast Multivariable Least-squares MRAC",
+  "authors": "Liu Hsu, Ramon R. Costa, Fernando Lizarralde, Alessandro Jacoud\n  Peixoto",
+  "authorsParsed": [
+    [
+      "Hsu",
+      "Liu",
+      ""
+    ],
+    [
+      "Costa",
+      "Ramon R.",
+      ""
+    ],
+    [
+      "Lizarralde",
+      "Fernando",
+      ""
+    ],
+    [
+      "Peixoto",
+      "Alessandro Jacoud",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 27 Dec 2024 11:51:46 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Wed, 12 Feb 2025 16:43:25 GMT"
+    }
+  ],
+  "updateDate": "2025-02-13",
+  "timestamp": 1735300306000,
+  "abstract": "  A novel least-squares model-reference direct adaptive control (LS-MRAC)\nalgorithm for multivariable (MIMO) plants is presented. The controller\nparameters are directly updated based on the output tracking error. The control\nlaw is crucially modified to reduce the relative degree of the error model to\nzero. A complete Lyapunov-based stability analysis as well as a tracking error\nconvergence characterization is provided demonstrating that the LS-MRAC can\nachieve arbitrarily fast tracking while maintaining satisfactory parameter\nconvergence for appropriate adaptation gains. Simulation results show a\nsignificant improvement in tracking performance compared to previous methods.\n",
+  "subjects": [
+    "Electrical Engineering and Systems Science/Systems and Control",
+    "Computer Science/Systems and Control"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "ckPAdHbrucoWKLMF2_Fms2rDwjISZjvI4_wORtVoEug",
+  "pdfSize": "1111887"
+}

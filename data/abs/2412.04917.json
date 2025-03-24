@@ -1,0 +1,44 @@
+{
+  "id": "2412.04917",
+  "title": "Continuous Speech Tokens Makes LLMs Robust Multi-Modality Learners",
+  "authors": "Ze Yuan, Yanqing Liu, Shujie Liu, Sheng Zhao",
+  "authorsParsed": [
+    [
+      "Yuan",
+      "Ze",
+      ""
+    ],
+    [
+      "Liu",
+      "Yanqing",
+      ""
+    ],
+    [
+      "Liu",
+      "Shujie",
+      ""
+    ],
+    [
+      "Zhao",
+      "Sheng",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 6 Dec 2024 10:16:04 GMT"
+    }
+  ],
+  "updateDate": "2024-12-09",
+  "timestamp": 1733480164000,
+  "abstract": "  Recent advances in GPT-4o like multi-modality models have demonstrated\nremarkable progress for direct speech-to-speech conversation, with real-time\nspeech interaction experience and strong speech understanding ability. However,\ncurrent research focuses on discrete speech tokens to align with discrete text\ntokens for language modelling, which depends on an audio codec with residual\nconnections or independent group tokens, such a codec usually leverages large\nscale and diverse datasets training to ensure that the discrete speech codes\nhave good representation for varied domain, noise, style data reconstruction as\nwell as a well-designed codec quantizer and encoder-decoder architecture for\ndiscrete token language modelling. This paper introduces Flow-Omni, a\ncontinuous speech token based GPT-4o like model, capable of real-time speech\ninteraction and low streaming latency. Specifically, first, instead of\ncross-entropy loss only, we combine flow matching loss with a pretrained\nautoregressive LLM and a small MLP network to predict the probability\ndistribution of the continuous-valued speech tokens from speech prompt. second,\nwe incorporated the continuous speech tokens to Flow-Omni multi-modality\ntraining, thereby achieving robust speech-to-speech performance with discrete\ntext tokens and continuous speech tokens together. Experiments demonstrate\nthat, compared to discrete text and speech multi-modality training and its\nvariants, the continuous speech tokens mitigate robustness issues by avoiding\nthe inherent flaws of discrete speech code's representation loss for LLM.\n",
+  "subjects": [
+    "Computer Science/Sound",
+    "Electrical Engineering and Systems Science/Audio and Speech Processing",
+    "Electrical Engineering and Systems Science/Signal Processing"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "z66A2g0b7rLc9n4UHmci4v_LZzfwTEcjvORF5RJsNqM",
+  "pdfSize": "511683"
+}

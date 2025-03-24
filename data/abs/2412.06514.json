@@ -1,0 +1,43 @@
+{
+  "id": "2412.06514",
+  "title": "A Finite Volume Method for Elastic Waves in Heterogeneous, Anisotropic\n  and Fractured Media",
+  "authors": "Ingrid Kristine Jacobsen, Inga Berre, Jan Martin Nordbotten, Ivar\n  Stefansson",
+  "authorsParsed": [
+    [
+      "Jacobsen",
+      "Ingrid Kristine",
+      ""
+    ],
+    [
+      "Berre",
+      "Inga",
+      ""
+    ],
+    [
+      "Nordbotten",
+      "Jan Martin",
+      ""
+    ],
+    [
+      "Stefansson",
+      "Ivar",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 9 Dec 2024 14:15:53 GMT"
+    }
+  ],
+  "updateDate": "2024-12-10",
+  "timestamp": 1733753753000,
+  "abstract": "  Numerical modeling of elastic wave propagation in the subsurface requires\napplicability to heterogeneous, anisotropic and discontinuous media, as well as\nsupport of free surface boundary conditions. Here we study the cell-centered\nfinite volume method Multi-Point Stress Approximation with weak symmetry\n(MPSA-W) for solving the elastic wave equation. Finite volume methods are\ngeometrically flexible, locally conserving and they are suitable for handling\nmaterial discontinuities and anisotropies. For discretization in time we have\nutilized the Newmark method, thereby developing an MPSA-Newmark discretization\nfor the elastic wave equation. An important aspect of this work is the\nintegration of absorbing boundary conditions into the MPSA-Newmark method to\nlimit possible boundary reflections.\n  Verification of the MPSA-Newmark discretization is achieved through numerical\nconvergence analyses in 3D relative to a known solution, demonstrating the\nexpected convergence rates of order two in time and up to order two in space.\nWith the inclusion of absorbing boundary conditions, the resulting\ndiscretization is verified by considering convergence in a quasi-1d setting, as\nwell as through energy decay analyses for waves with various wave incidence\nangles. Lastly, the versatility of the MPSA-Newmark discretization is\ndemonstrated through simulation examples of wave propagation in fractured,\nheterogeneous and transversely isotropic media.\n",
+  "subjects": [
+    "Mathematics/Numerical Analysis",
+    "Computer Science/Numerical Analysis"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "NLbXAjgLDc_HaByEqADvC-pDDrwss8L_Hpte2ahbkWw",
+  "pdfSize": "1520697"
+}

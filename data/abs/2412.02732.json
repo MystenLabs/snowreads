@@ -1,0 +1,201 @@
+{
+  "id": "2412.02732",
+  "title": "Prithvi-EO-2.0: A Versatile Multi-Temporal Foundation Model for Earth\n  Observation Applications",
+  "authors": "Daniela Szwarcman, Sujit Roy, Paolo Fraccaro, {\\TH}orsteinn El\\'i\n  G\\'islason, Benedikt Blumenstiel, Rinki Ghosal, Pedro Henrique de Oliveira,\n  Joao Lucas de Sousa Almeida, Rocco Sedona, Yanghui Kang, Srija Chakraborty,\n  Sizhe Wang, Carlos Gomes, Ankur Kumar, Myscon Truong, Denys Godwin, Hyunho\n  Lee, Chia-Yu Hsu, Ata Akbari Asanjan, Besart Mujeci, Disha Shidham, Trevor\n  Keenan, Paulo Arevalo, Wenwen Li, Hamed Alemohammad, Pontus Olofsson,\n  Christopher Hain, Robert Kennedy, Bianca Zadrozny, David Bell, Gabriele\n  Cavallaro, Campbell Watson, Manil Maskey, Rahul Ramachandran, Juan Bernabe\n  Moreno",
+  "authorsParsed": [
+    [
+      "Szwarcman",
+      "Daniela",
+      ""
+    ],
+    [
+      "Roy",
+      "Sujit",
+      ""
+    ],
+    [
+      "Fraccaro",
+      "Paolo",
+      ""
+    ],
+    [
+      "Gíslason",
+      "Þorsteinn Elí",
+      ""
+    ],
+    [
+      "Blumenstiel",
+      "Benedikt",
+      ""
+    ],
+    [
+      "Ghosal",
+      "Rinki",
+      ""
+    ],
+    [
+      "de Oliveira",
+      "Pedro Henrique",
+      ""
+    ],
+    [
+      "Almeida",
+      "Joao Lucas de Sousa",
+      ""
+    ],
+    [
+      "Sedona",
+      "Rocco",
+      ""
+    ],
+    [
+      "Kang",
+      "Yanghui",
+      ""
+    ],
+    [
+      "Chakraborty",
+      "Srija",
+      ""
+    ],
+    [
+      "Wang",
+      "Sizhe",
+      ""
+    ],
+    [
+      "Gomes",
+      "Carlos",
+      ""
+    ],
+    [
+      "Kumar",
+      "Ankur",
+      ""
+    ],
+    [
+      "Truong",
+      "Myscon",
+      ""
+    ],
+    [
+      "Godwin",
+      "Denys",
+      ""
+    ],
+    [
+      "Lee",
+      "Hyunho",
+      ""
+    ],
+    [
+      "Hsu",
+      "Chia-Yu",
+      ""
+    ],
+    [
+      "Asanjan",
+      "Ata Akbari",
+      ""
+    ],
+    [
+      "Mujeci",
+      "Besart",
+      ""
+    ],
+    [
+      "Shidham",
+      "Disha",
+      ""
+    ],
+    [
+      "Keenan",
+      "Trevor",
+      ""
+    ],
+    [
+      "Arevalo",
+      "Paulo",
+      ""
+    ],
+    [
+      "Li",
+      "Wenwen",
+      ""
+    ],
+    [
+      "Alemohammad",
+      "Hamed",
+      ""
+    ],
+    [
+      "Olofsson",
+      "Pontus",
+      ""
+    ],
+    [
+      "Hain",
+      "Christopher",
+      ""
+    ],
+    [
+      "Kennedy",
+      "Robert",
+      ""
+    ],
+    [
+      "Zadrozny",
+      "Bianca",
+      ""
+    ],
+    [
+      "Bell",
+      "David",
+      ""
+    ],
+    [
+      "Cavallaro",
+      "Gabriele",
+      ""
+    ],
+    [
+      "Watson",
+      "Campbell",
+      ""
+    ],
+    [
+      "Maskey",
+      "Manil",
+      ""
+    ],
+    [
+      "Ramachandran",
+      "Rahul",
+      ""
+    ],
+    [
+      "Moreno",
+      "Juan Bernabe",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 3 Dec 2024 17:59:50 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Mon, 3 Feb 2025 15:21:58 GMT"
+    }
+  ],
+  "updateDate": "2025-02-04",
+  "timestamp": 1733248790000,
+  "abstract": "  This technical report presents Prithvi-EO-2.0, a new geospatial foundation\nmodel that offers significant improvements over its predecessor,\nPrithvi-EO-1.0. Trained on 4.2M global time series samples from NASA's\nHarmonized Landsat and Sentinel-2 data archive at 30m resolution, the new 300M\nand 600M parameter models incorporate temporal and location embeddings for\nenhanced performance across various geospatial tasks. Through extensive\nbenchmarking with GEO-Bench, the 600M version outperforms the previous\nPrithvi-EO model by 8\\% across a range of tasks. It also outperforms six other\ngeospatial foundation models when benchmarked on remote sensing tasks from\ndifferent domains and resolutions (i.e. from 0.1m to 15m). The results\ndemonstrate the versatility of the model in both classical earth observation\nand high-resolution applications. Early involvement of end-users and subject\nmatter experts (SMEs) are among the key factors that contributed to the\nproject's success. In particular, SME involvement allowed for constant feedback\non model and dataset design, as well as successful customization for diverse\nSME-led applications in disaster response, land use and crop mapping, and\necosystem dynamics monitoring. Prithvi-EO-2.0 is available on Hugging Face and\nIBM terratorch, with additional resources on GitHub. The project exemplifies\nthe Trusted Open Science approach embraced by all involved organizations.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "atnUNJmsAaI66by7C-89JM7CWJB4m0ivRn96ZZV6Qqc",
+  "pdfSize": "21360430"
+}

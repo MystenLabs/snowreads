@@ -1,0 +1,33 @@
+{
+  "id": "2412.12112",
+  "title": "Generative Modeling of Neural Dynamics via Latent Stochastic\n  Differential Equations",
+  "authors": "Ahmed ElGazzar and Marcel van Gerven",
+  "authorsParsed": [
+    [
+      "ElGazzar",
+      "Ahmed",
+      ""
+    ],
+    [
+      "van Gerven",
+      "Marcel",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 1 Dec 2024 09:36:03 GMT"
+    }
+  ],
+  "updateDate": "2024-12-18",
+  "timestamp": 1733045763000,
+  "abstract": "  We propose a probabilistic framework for developing computational models of\nbiological neural systems. In this framework, physiological recordings are\nviewed as discrete-time partial observations of an underlying continuous-time\nstochastic dynamical system which implements computations through its state\nevolution. To model this dynamical system, we employ a system of coupled\nstochastic differential equations with differentiable drift and diffusion\nfunctions and use variational inference to infer its states and parameters.\nThis formulation enables seamless integration of existing mathematical models\nin the literature, neural networks, or a hybrid of both to learn and compare\ndifferent models. We demonstrate this in our framework by developing a\ngenerative model that combines coupled oscillators with neural networks to\ncapture latent population dynamics from single-cell recordings. Evaluation\nacross three neuroscience datasets spanning different species, brain regions,\nand behavioral tasks show that these hybrid models achieve competitive\nperformance in predicting stimulus-evoked neural and behavioral responses\ncompared to sophisticated black-box approaches while requiring an order of\nmagnitude fewer parameters, providing uncertainty estimates, and offering a\nnatural language for interpretation.\n",
+  "subjects": [
+    "Quantitative Biology/Neurons and Cognition",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "gIRh9oC8jKAurN2uz4MJXQbJXhEJ_vGZVJGB70EzeWo",
+  "pdfSize": "5237283"
+}

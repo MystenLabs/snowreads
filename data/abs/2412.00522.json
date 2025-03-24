@@ -1,0 +1,70 @@
+{
+  "id": "2412.00522",
+  "title": "Extending the atomic decomposition and many-body representation, a\n  chemistry-motivated monomer-centered approach for machine learning potentials",
+  "authors": "Qi Yu, Ruitao Ma, Chen Qu, Riccardo Conte, Apurba Nandi, Priyanka\n  Pandey, Paul L. Houston, Dong H. Zhang, Joel M. Bowman",
+  "authorsParsed": [
+    [
+      "Yu",
+      "Qi",
+      ""
+    ],
+    [
+      "Ma",
+      "Ruitao",
+      ""
+    ],
+    [
+      "Qu",
+      "Chen",
+      ""
+    ],
+    [
+      "Conte",
+      "Riccardo",
+      ""
+    ],
+    [
+      "Nandi",
+      "Apurba",
+      ""
+    ],
+    [
+      "Pandey",
+      "Priyanka",
+      ""
+    ],
+    [
+      "Houston",
+      "Paul L.",
+      ""
+    ],
+    [
+      "Zhang",
+      "Dong H.",
+      ""
+    ],
+    [
+      "Bowman",
+      "Joel M.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 30 Nov 2024 16:13:44 GMT"
+    }
+  ],
+  "updateDate": "2024-12-03",
+  "timestamp": 1732983224000,
+  "abstract": "  Most widely used machine learned (ML) potentials for condensed phase\napplications rely on many-body permutationally invariant polynomial (PIP) or\natom-centered neural networks (NN). However, these approaches often lack\nchemical interpretability in atomistic energy decomposition and the\ncomputational efficiency of traditional force fields has not been fully\nachieved. Here, we present a novel method that combines aspects of both\napproaches, and achieves state-of-the-art balance of accuracy and force\nfield-level speed. This method utilizes a monomer-centered representation,\nwhere the potential energy is decomposed into the sum of chemically meaningful\nmonomeric energies. Without sophisticated neural network design, the structural\ndescriptors of monomers are described by 1-body and 2-body effective\ninteractions, enforced by appropriate sets of PIPs as inputs to the feed\nforward NN. We demonstrate the performance of this method through systematic\nassessments of models for gas-phase water trimer, liquid water, and also liquid\nCO2. The high accuracy, fast speed, and flexibility of this method provide a\nnew route for constructing accurate ML potentials and enabling large-scale\nquantum and classical simulations for complex molecular systems.\n",
+  "subjects": [
+    "Physics/Chemical Physics",
+    "Condensed Matter/Disordered Systems and Neural Networks",
+    "Physics/Atomic and Molecular Clusters",
+    "Physics/Computational Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "vTKCsLd4sXOrXg0EJP56xWlRmktdw0bLIEO95_nSq9A",
+  "pdfSize": "5052644"
+}

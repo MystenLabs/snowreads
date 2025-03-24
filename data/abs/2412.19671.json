@@ -1,0 +1,42 @@
+{
+  "id": "2412.19671",
+  "title": "Lattice properties of the sharp partial order",
+  "authors": "Cecilia R. Cimadamore, Laura A. Rueda, N\\'estor Thome and Melina V.\n  Verdecchia",
+  "authorsParsed": [
+    [
+      "Cimadamore",
+      "Cecilia R.",
+      ""
+    ],
+    [
+      "Rueda",
+      "Laura A.",
+      ""
+    ],
+    [
+      "Thome",
+      "Néstor",
+      ""
+    ],
+    [
+      "Verdecchia",
+      "Melina V.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 27 Dec 2024 14:38:40 GMT"
+    }
+  ],
+  "updateDate": "2024-12-30",
+  "timestamp": 1735310320000,
+  "abstract": "  The aim of this paper is to study lattice properties of the sharp partial\norder for complex matrices having index at most 1. We investigate the down-set\nof a fixed matrix $B$ under this partial order via isomorphisms with two\ndifferent partially ordered sets of projectors. These are, respectively, the\nset of projectors that commute with a certain (nonsingular) block of a\nHartwig-Spindelb\\\"ock decomposition of $B$ and the set of projectors that\ncommute with the Jordan canonical form of that block. Using these isomorphisms,\nwe study the lattice structure of the down-sets and we give properties of them.\nNecessary and sufficient conditions under which the down-set of B is a lattice\nwere found, in which case we describe its elements completely. We also show\nthat every down-set of $B$ has a distinguished Boolean subalgebra and we give a\ndescription of its elements. We characterize the matrices that are above a\ngiven matrix in terms of its Jordan canonical form. Mitra (1987) showed that\nthe set of all $n \\times n$ complex matrices having index at most 1 with $n\\geq\n4$ is not a lower semilattice. We extend this result to $n=3$ and prove that it\nis a lower semilattice with $n=2$. We also answer negatively a conjecture given\nby Mitra, Bhimasankaram and Malik (2010). As a last application, we\ncharacterize solutions of some matrix equations via the established\nisomorphisms.\n",
+  "subjects": [
+    "Mathematics/Rings and Algebras"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "vxzNfraLUpQC2IwaW64K6yHqHHJ6TNn-VKGROHqCYsM",
+  "pdfSize": "476901"
+}

@@ -1,0 +1,47 @@
+{
+  "id": "2412.05961",
+  "title": "FOF-X: Towards Real-time Detailed Human Reconstruction from a Single\n  Image",
+  "authors": "Qiao Feng, Yebin Liu, Yu-Kun Lai, Jingyu Yang, Kun Li",
+  "authorsParsed": [
+    [
+      "Feng",
+      "Qiao",
+      ""
+    ],
+    [
+      "Liu",
+      "Yebin",
+      ""
+    ],
+    [
+      "Lai",
+      "Yu-Kun",
+      ""
+    ],
+    [
+      "Yang",
+      "Jingyu",
+      ""
+    ],
+    [
+      "Li",
+      "Kun",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 8 Dec 2024 14:46:29 GMT"
+    }
+  ],
+  "updateDate": "2024-12-10",
+  "timestamp": 1733669189000,
+  "abstract": "  We introduce FOF-X for real-time reconstruction of detailed human geometry\nfrom a single image. Balancing real-time speed against high-quality results is\na persistent challenge, mainly due to the high computational demands of\nexisting 3D representations. To address this, we propose Fourier Occupancy\nField (FOF), an efficient 3D representation by learning the Fourier series. The\ncore of FOF is to factorize a 3D occupancy field into a 2D vector field,\nretaining topology and spatial relationships within the 3D domain while\nfacilitating compatibility with 2D convolutional neural networks. Such a\nrepresentation bridges the gap between 3D and 2D domains, enabling the\nintegration of human parametric models as priors and enhancing the\nreconstruction robustness. Based on FOF, we design a new reconstruction\nframework, FOF-X, to avoid the performance degradation caused by texture and\nlighting. This enables our real-time reconstruction system to better handle the\ndomain gap between training images and real images. Additionally, in FOF-X, we\nenhance the inter-conversion algorithms between FOF and mesh representations\nwith a Laplacian constraint and an automaton-based discontinuity matcher,\nimproving both quality and robustness. We validate the strengths of our\napproach on different datasets and real-captured data, where FOF-X achieves new\nstate-of-the-art results. The code will be released for research purposes.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "SEPs4f5YTz9k4lSNjocr7tqDsoVKeJtA9qbBwAfkowQ",
+  "pdfSize": "23871199"
+}

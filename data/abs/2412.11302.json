@@ -1,0 +1,37 @@
+{
+  "id": "2412.11302",
+  "title": "Sequence-Level Leakage Risk of Training Data in Large Language Models",
+  "authors": "Trishita Tiwari and G. Edward Suh",
+  "authorsParsed": [
+    [
+      "Tiwari",
+      "Trishita",
+      ""
+    ],
+    [
+      "Suh",
+      "G. Edward",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 15 Dec 2024 20:27:45 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Mon, 3 Feb 2025 19:53:16 GMT"
+    }
+  ],
+  "updateDate": "2025-02-05",
+  "timestamp": 1734294465000,
+  "abstract": "  This work performs an analysis of sequence-level probabilities for\nquantifying the of risk training data extraction from Large Language Models\n(LLMs). Per-sequence extraction probabilities provide finer-grained information\nthan has been studied in prior work. We re-analyze the effects of decoding\nschemes, model sizes, prefix lengths, partial sequence leakages, and token\npositions to uncover new insights that were not possible in previous works due\nto their choice of metrics. We perform this study on two pre-trained models,\nLlama and OPT, trained on the Common Crawl and The Pile respectively. We\ndiscover that 1) Extraction Rate, the predominant metric used in prior\nquantification work, underestimates the threat of leakage of training data in\nrandomized LLMs by as much as 2.14X. 2) Although on average, larger models and\nlonger prefixes can extract more data, this is not true for a substantial\nportion of individual sequences. 30.4-41.5% of our sequences are easier to\nextract with either shorter prefixes or smaller models. 3) Contrary to previous\nbeliefs, partial leakage in commonly used decoding schemes like top-k and top-p\nis not easier than leaking verbatim training data. 4) Extracting later tokens\nin a sequence is as much as 10.12X easier than extracting earlier tokens. The\ninsights gained from our analysis shed light on the nature of memorization of\ntraining data on a per-sequence basis.\n",
+  "subjects": [
+    "Computer Science/Computation and Language",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "QdythcjxfYUb8gXxRosMeQrKRKa0CmkvrvHFaOLD7jQ",
+  "pdfSize": "703971"
+}

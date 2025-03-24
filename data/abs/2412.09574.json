@@ -1,0 +1,73 @@
+{
+  "id": "2412.09574",
+  "title": "Omnidirectional shuttling to avoid valley excitations in Si/SiGe quantum\n  wells",
+  "authors": "R\\'obert N\\'emeth, Vatsal K. Bandaru, Pedro Alves, Merritt P. Losert,\n  Emma Brann, Owen M. Eskandari, Hudaiba Soomro, Avani Vivrekar, M. A.\n  Eriksson, and Mark Friesen",
+  "authorsParsed": [
+    [
+      "Németh",
+      "Róbert",
+      ""
+    ],
+    [
+      "Bandaru",
+      "Vatsal K.",
+      ""
+    ],
+    [
+      "Alves",
+      "Pedro",
+      ""
+    ],
+    [
+      "Losert",
+      "Merritt P.",
+      ""
+    ],
+    [
+      "Brann",
+      "Emma",
+      ""
+    ],
+    [
+      "Eskandari",
+      "Owen M.",
+      ""
+    ],
+    [
+      "Soomro",
+      "Hudaiba",
+      ""
+    ],
+    [
+      "Vivrekar",
+      "Avani",
+      ""
+    ],
+    [
+      "Eriksson",
+      "M. A.",
+      ""
+    ],
+    [
+      "Friesen",
+      "Mark",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 12 Dec 2024 18:53:13 GMT"
+    }
+  ],
+  "updateDate": "2024-12-13",
+  "timestamp": 1734029593000,
+  "abstract": "  Conveyor-mode shuttling is a key approach for implementing intermediate-range\ncoupling between electron-spin qubits in quantum dots. Initial shuttling\nresults are encouraging; however, long shuttling trajectories are guaranteed to\nencounter regions of low conduction-band valley energy splittings, due to the\npresence of random-alloy disorder in Si/SiGe quantum wells. Here, we\ntheoretically explore two schemes for avoiding valley-state excitations at\nthese valley minima, by allowing the electrons to detour around them. The\nmultichannel shuttling scheme allows electrons to tunnel between parallel\nchannels, while a two-dimensional (2D) shuttler provides full omnidirectional\ncontrol. Through simulations, we estimate shuttling fidelities for these two\nschemes, obtaining a clear preference for the 2D shuttler. Based on these\nencouraging results, we propose a full qubit architecture based on 2D\nshuttling, which enables all-to-all connectivity within qubit plaquettes and\nhigh-fidelity communication between plaquettes.\n",
+  "subjects": [
+    "Physics/Quantum Physics",
+    "Condensed Matter/Mesoscale and Nanoscale Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "v9QAjzD3lNm4aZ4rx9lfOMNC5UhH2dkdE9G1QF1uYQM",
+  "pdfSize": "5084055"
+}

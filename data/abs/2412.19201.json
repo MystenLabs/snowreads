@@ -1,0 +1,42 @@
+{
+  "id": "2412.19201",
+  "title": "GAIS: A Novel Approach to Instance Selection with Graph Attention\n  Networks",
+  "authors": "Zahiriddin Rustamov, Ayham Zaitouny, Rafat Damseh, Nazar Zaki",
+  "authorsParsed": [
+    [
+      "Rustamov",
+      "Zahiriddin",
+      ""
+    ],
+    [
+      "Zaitouny",
+      "Ayham",
+      ""
+    ],
+    [
+      "Damseh",
+      "Rafat",
+      ""
+    ],
+    [
+      "Zaki",
+      "Nazar",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 26 Dec 2024 12:51:14 GMT"
+    }
+  ],
+  "updateDate": "2024-12-30",
+  "timestamp": 1735217474000,
+  "abstract": "  Instance selection (IS) is a crucial technique in machine learning that aims\nto reduce dataset size while maintaining model performance. This paper\nintroduces a novel method called Graph Attention-based Instance Selection\n(GAIS), which leverages Graph Attention Networks (GATs) to identify the most\ninformative instances in a dataset. GAIS represents the data as a graph and\nuses GATs to learn node representations, enabling it to capture complex\nrelationships between instances. The method processes data in chunks, applies\nrandom masking and similarity thresholding during graph construction, and\nselects instances based on confidence scores from the trained GAT model.\nExperiments on 13 diverse datasets demonstrate that GAIS consistently\noutperforms traditional IS methods in terms of effectiveness, achieving high\nreduction rates (average 96\\%) while maintaining or improving model\nperformance. Although GAIS exhibits slightly higher computational costs, its\nsuperior performance in maintaining accuracy with significantly reduced\ntraining data makes it a promising approach for graph-based data selection.\n",
+  "subjects": [
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "LmC0h4WW7_j7081C4tVGoCE9ab2EogOGlad2Wr2CGlg",
+  "pdfSize": "378893"
+}

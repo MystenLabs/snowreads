@@ -1,0 +1,47 @@
+{
+  "id": "2412.16506",
+  "title": "Unsupervised Domain Adaptive Person Search via Dual Self-Calibration",
+  "authors": "Linfeng Qi, Huibing Wang, Jiqing Zhang, Jinjia Peng, Yang Wang",
+  "authorsParsed": [
+    [
+      "Qi",
+      "Linfeng",
+      ""
+    ],
+    [
+      "Wang",
+      "Huibing",
+      ""
+    ],
+    [
+      "Zhang",
+      "Jiqing",
+      ""
+    ],
+    [
+      "Peng",
+      "Jinjia",
+      ""
+    ],
+    [
+      "Wang",
+      "Yang",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 21 Dec 2024 06:54:00 GMT"
+    }
+  ],
+  "updateDate": "2024-12-24",
+  "timestamp": 1734764040000,
+  "abstract": "  Unsupervised Domain Adaptive (UDA) person search focuses on employing the\nmodel trained on a labeled source domain dataset to a target domain dataset\nwithout any additional annotations. Most effective UDA person search methods\ntypically utilize the ground truth of the source domain and pseudo-labels\nderived from clustering during the training process for domain adaptation.\nHowever, the performance of these approaches will be significantly restricted\nby the disrupting pseudo-labels resulting from inter-domain disparities. In\nthis paper, we propose a Dual Self-Calibration (DSCA) framework for UDA person\nsearch that effectively eliminates the interference of noisy pseudo-labels by\nconsidering both the image-level and instance-level features perspectives.\nSpecifically, we first present a simple yet effective Perception-Driven\nAdaptive Filter (PDAF) to adaptively predict a dynamic filter threshold based\non input features. This threshold assists in eliminating noisy pseudo-boxes and\nother background interference, allowing our approach to focus on foreground\ntargets and avoid indiscriminate domain adaptation. Besides, we further propose\na Cluster Proxy Representation (CPR) module to enhance the update strategy of\ncluster representation, which mitigates the pollution of clusters from\nmisidentified instances and effectively streamlines the training process for\nunlabeled target domains. With the above design, our method can achieve\nstate-of-the-art (SOTA) performance on two benchmark datasets, with 80.2% mAP\nand 81.7% top-1 on the CUHK-SYSU dataset, with 39.9% mAP and 81.6% top-1 on the\nPRW dataset, which is comparable to or even exceeds the performance of some\nfully supervised methods. Our source code is available at\nhttps://github.com/whbdmu/DSCA.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+  "blobId": "_Xr2BsXO9tJcS88va1ve0Ew0k3esm1IzO-qldbniIM0",
+  "pdfSize": "4511532"
+}

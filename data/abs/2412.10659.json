@@ -1,0 +1,64 @@
+{
+  "id": "2412.10659",
+  "title": "MEATRD: Multimodal Anomalous Tissue Region Detection Enhanced with\n  Spatial Transcriptomics",
+  "authors": "Kaichen Xu, Qilong Wu, Yan Lu, Yinan Zheng, Wenlin Li, Xingjie Tang,\n  Jun Wang, and Xiaobo Sun",
+  "authorsParsed": [
+    [
+      "Xu",
+      "Kaichen",
+      ""
+    ],
+    [
+      "Wu",
+      "Qilong",
+      ""
+    ],
+    [
+      "Lu",
+      "Yan",
+      ""
+    ],
+    [
+      "Zheng",
+      "Yinan",
+      ""
+    ],
+    [
+      "Li",
+      "Wenlin",
+      ""
+    ],
+    [
+      "Tang",
+      "Xingjie",
+      ""
+    ],
+    [
+      "Wang",
+      "Jun",
+      ""
+    ],
+    [
+      "Sun",
+      "Xiaobo",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 14 Dec 2024 03:09:04 GMT"
+    }
+  ],
+  "updateDate": "2024-12-17",
+  "timestamp": 1734145744000,
+  "abstract": "  The detection of anomalous tissue regions (ATRs) within affected tissues is\ncrucial in clinical diagnosis and pathological studies. Conventional automated\nATR detection methods, primarily based on histology images alone, falter in\ncases where ATRs and normal tissues have subtle visual differences. The recent\nspatial transcriptomics (ST) technology profiles gene expressions across tissue\nregions, offering a molecular perspective for detecting ATRs. However, there is\na dearth of ATR detection methods that effectively harness complementary\ninformation from both histology images and ST. To address this gap, we propose\nMEATRD, a novel ATR detection method that integrates histology image and ST\ndata. MEATRD is trained to reconstruct image patches and gene expression\nprofiles of normal tissue spots (inliers) from their multimodal embeddings,\nfollowed by learning a one-class classification AD model based on latent\nmultimodal reconstruction errors. This strategy harmonizes the strengths of\nreconstruction-based and one-class classification approaches. At the heart of\nMEATRD is an innovative masked graph dual-attention transformer (MGDAT)\nnetwork, which not only facilitates cross-modality and cross-node information\nsharing but also addresses the model over-generalization issue commonly seen in\nreconstruction-based AD methods. Additionally, we demonstrate that\nmodality-specific, task-relevant information is collated and condensed in\nmultimodal bottleneck encoding generated in MGDAT, marking the first\ntheoretical analysis of the informational properties of multimodal bottleneck\nencoding. Extensive evaluations across eight real ST datasets reveal MEATRD's\nsuperior performance in ATR detection, surpassing various state-of-the-art AD\nmethods. Remarkably, MEATRD also proves adept at discerning ATRs that only show\nslight visual deviations from normal tissues.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Machine Learning",
+    "Quantitative Biology/Quantitative Methods"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "LVce9DsFT5kRcQsavHeV_vPUlp70Nzg2O5iUYxktn_Q",
+  "pdfSize": "8274574"
+}

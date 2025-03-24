@@ -1,0 +1,42 @@
+{
+  "id": "2412.04649",
+  "title": "Generating Whole-Body Avoidance Motion through Localized Proximity\n  Sensing",
+  "authors": "Simone Borelli, Francesco Giovinazzo, Francesco Grella, Giorgio\n  Cannata",
+  "authorsParsed": [
+    [
+      "Borelli",
+      "Simone",
+      ""
+    ],
+    [
+      "Giovinazzo",
+      "Francesco",
+      ""
+    ],
+    [
+      "Grella",
+      "Francesco",
+      ""
+    ],
+    [
+      "Cannata",
+      "Giorgio",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 5 Dec 2024 22:44:54 GMT"
+    }
+  ],
+  "updateDate": "2024-12-09",
+  "timestamp": 1733438694000,
+  "abstract": "  This paper presents a novel control algorithm for robotic manipulators in\nunstructured environments using proximity sensors partially distributed on the\nplatform. The proposed approach exploits arrays of multi zone Time-of-Flight\n(ToF) sensors to generate a sparse point cloud representation of the robot\nsurroundings. By employing computational geometry techniques, we fuse the\nknowledge of robot geometric model with ToFs sensory feedback to generate\nwhole-body motion tasks, allowing to move both sensorized and non-sensorized\nlinks in response to unpredictable events such as human motion. In particular,\nthe proposed algorithm computes the pair of closest points between the\nenvironment cloud and the robot links, generating a dynamic avoidance motion\nthat is implemented as the highest priority task in a two-level hierarchical\narchitecture. Such a design choice allows the robot to work safely alongside\nhumans even without a complete sensorization over the whole surface.\nExperimental validation demonstrates the algorithm effectiveness both in static\nand dynamic scenarios, achieving comparable performances with respect to well\nestablished control techniques that aim to move the sensors mounting positions\non the robot body. The presented algorithm exploits any arbitrary point on the\nrobot surface to perform avoidance motion, showing improvements in the distance\nmargin up to 100 mm, due to the rendering of virtual avoidance tasks on\nnon-sensorized links.\n",
+  "subjects": [
+    "Computer Science/Robotics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "PJFRK5zEVkJUfyhVGju9mqk6vIgqb67ojU0FnKLLRKo",
+  "pdfSize": "19092709"
+}

@@ -1,0 +1,72 @@
+{
+  "id": "2412.16507",
+  "title": "Adapting Whisper for Code-Switching through Encoding Refining and\n  Language-Aware Decoding",
+  "authors": "Jiahui Zhao, Hao Shi, Chenrui Cui, Tianrui Wang, Hexin Liu, Zhaoheng\n  Ni, Lingxuan Ye, Longbiao Wang",
+  "authorsParsed": [
+    [
+      "Zhao",
+      "Jiahui",
+      ""
+    ],
+    [
+      "Shi",
+      "Hao",
+      ""
+    ],
+    [
+      "Cui",
+      "Chenrui",
+      ""
+    ],
+    [
+      "Wang",
+      "Tianrui",
+      ""
+    ],
+    [
+      "Liu",
+      "Hexin",
+      ""
+    ],
+    [
+      "Ni",
+      "Zhaoheng",
+      ""
+    ],
+    [
+      "Ye",
+      "Lingxuan",
+      ""
+    ],
+    [
+      "Wang",
+      "Longbiao",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 21 Dec 2024 07:06:44 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Tue, 24 Dec 2024 04:08:22 GMT"
+    },
+    {
+      "version": "v3",
+      "created": "Sun, 5 Jan 2025 05:55:00 GMT"
+    }
+  ],
+  "updateDate": "2025-01-07",
+  "timestamp": 1734764804000,
+  "abstract": "  Code-switching (CS) automatic speech recognition (ASR) faces challenges due\nto the language confusion resulting from accents, auditory similarity, and\nseamless language switches. Adaptation on the pre-trained multi-lingual model\nhas shown promising performance for CS-ASR. In this paper, we adapt Whisper,\nwhich is a large-scale multilingual pre-trained speech recognition model, to CS\nfrom both encoder and decoder parts. First, we propose an encoder refiner to\nenhance the encoder's capacity of intra-sentence swithching. Second, we propose\nusing two sets of language-aware adapters with different language prompt\nembeddings to achieve language-specific decoding information in each decoder\nlayer. Then, a fusion module is added to fuse the language-aware decoding. The\nexperimental results using the SEAME dataset show that, compared with the\nbaseline model, the proposed approach achieves a relative MER reduction of 4.1%\nand 7.2% on the dev_man and dev_sge test sets, respectively, surpassing\nstate-of-the-art methods. Through experiments, we found that the proposed\nmethod significantly improves the performance on non-native language in CS\nspeech, indicating that our approach enables Whisper to better distinguish\nbetween the two languages.\n",
+  "subjects": [
+    "Computer Science/Computation and Language",
+    "Computer Science/Sound",
+    "Electrical Engineering and Systems Science/Audio and Speech Processing"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "LmsRuIMJ1SXmDs_UknKg9K8JZb4RUAxocDEzyryM8no",
+  "pdfSize": "418052"
+}

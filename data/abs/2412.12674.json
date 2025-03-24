@@ -1,0 +1,27 @@
+{
+  "id": "2412.12674",
+  "title": "Train More Parameters But Mind Their Placement: Insights into Language\n  Adaptation with PEFT",
+  "authors": "Jenny Kunz",
+  "authorsParsed": [
+    [
+      "Kunz",
+      "Jenny",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 17 Dec 2024 08:44:00 GMT"
+    }
+  ],
+  "updateDate": "2024-12-18",
+  "timestamp": 1734425040000,
+  "abstract": "  Smaller LLMs still face significant challenges even in medium-resourced\nlanguages, particularly when it comes to language-specific knowledge -- a\nproblem not easily resolved with machine-translated data. In this case study on\nIcelandic, we aim to enhance the generation performance of an LLM by\nspecialising it using unstructured text corpora. A key focus is on preventing\ninterference with the models' capabilities of handling longer context during\nthis adaptation. Through ablation studies using various parameter-efficient\nfine-tuning (PEFT) methods and setups, we find that increasing the number of\ntrainable parameters leads to better and more robust language adaptation. LoRAs\nplaced in the feed-forward layers and bottleneck adapters show promising\nresults with sufficient parameters, while prefix tuning and (IA)3 are not\nsuitable. Although improvements are consistent in 0-shot summarisation, some\nadapted models struggle with longer context lengths, an issue that can be\nmitigated by adapting only the final layers.\n",
+  "subjects": [
+    "Computer Science/Computation and Language"
+  ],
+  "license": "http://creativecommons.org/licenses/by-sa/4.0/",
+  "blobId": "Z1exMz441O_muSsizleh7WhXP0VMxtFTa70rYVrb-_s",
+  "pdfSize": "239339"
+}

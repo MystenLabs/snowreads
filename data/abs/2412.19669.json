@@ -1,0 +1,58 @@
+{
+  "id": "2412.19669",
+  "title": "Toward Scalable Multirobot Control: Fast Policy Learning in Distributed\n  MPC",
+  "authors": "Xinglong Zhang, Wei Pan, Cong Li, Xin Xu, Xiangke Wang, Ronghua Zhang,\n  Dewen Hu",
+  "authorsParsed": [
+    [
+      "Zhang",
+      "Xinglong",
+      ""
+    ],
+    [
+      "Pan",
+      "Wei",
+      ""
+    ],
+    [
+      "Li",
+      "Cong",
+      ""
+    ],
+    [
+      "Xu",
+      "Xin",
+      ""
+    ],
+    [
+      "Wang",
+      "Xiangke",
+      ""
+    ],
+    [
+      "Zhang",
+      "Ronghua",
+      ""
+    ],
+    [
+      "Hu",
+      "Dewen",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 27 Dec 2024 14:31:52 GMT"
+    }
+  ],
+  "updateDate": "2024-12-30",
+  "timestamp": 1735309912000,
+  "abstract": "  Distributed model predictive control (DMPC) is promising in achieving optimal\ncooperative control in multirobot systems (MRS). However, real-time DMPC\nimplementation relies on numerical optimization tools to periodically calculate\nlocal control sequences online. This process is computationally demanding and\nlacks scalability for large-scale, nonlinear MRS. This article proposes a novel\ndistributed learning-based predictive control (DLPC) framework for scalable\nmultirobot control. Unlike conventional DMPC methods that calculate open-loop\ncontrol sequences, our approach centers around a computationally fast and\nefficient distributed policy learning algorithm that generates explicit\nclosed-loop DMPC policies for MRS without using numerical solvers. The policy\nlearning is executed incrementally and forward in time in each prediction\ninterval through an online distributed actor-critic implementation. The control\npolicies are successively updated in a receding-horizon manner, enabling fast\nand efficient policy learning with the closed-loop stability guarantee. The\nlearned control policies could be deployed online to MRS with varying robot\nscales, enhancing scalability and transferability for large-scale MRS.\nFurthermore, we extend our methodology to address the multirobot safe learning\nchallenge through a force field-inspired policy learning approach. We validate\nour approach's effectiveness, scalability, and efficiency through extensive\nexperiments on cooperative tasks of large-scale wheeled robots and multirotor\ndrones. Our results demonstrate the rapid learning and deployment of DMPC\npolicies for MRS with scales up to 10,000 units.\n",
+  "subjects": [
+    "Computer Science/Robotics",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "UxVVBcojmyyO_AJ2oGFGAQInc5zQHBe_tpT4e81zkcg",
+  "pdfSize": "5745415"
+}

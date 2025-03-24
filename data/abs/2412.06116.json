@@ -1,0 +1,48 @@
+{
+  "id": "2412.06116",
+  "title": "How Accurate is the Positioning in VR? Using Motion Capture and Robotics\n  to Compare Positioning Capabilities of Popular VR Headsets",
+  "authors": "Adam Banaszczyk, Miko{\\l}aj {\\L}ysakowski, Micha{\\l} R. Nowicki, Piotr\n  Skrzypczy\\'nski, S{\\l}awomir K. Tadeja",
+  "authorsParsed": [
+    [
+      "Banaszczyk",
+      "Adam",
+      ""
+    ],
+    [
+      "Łysakowski",
+      "Mikołaj",
+      ""
+    ],
+    [
+      "Nowicki",
+      "Michał R.",
+      ""
+    ],
+    [
+      "Skrzypczyński",
+      "Piotr",
+      ""
+    ],
+    [
+      "Tadeja",
+      "Sławomir K.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 9 Dec 2024 00:37:50 GMT"
+    }
+  ],
+  "updateDate": "2024-12-10",
+  "timestamp": 1733704670000,
+  "abstract": "  In this paper, we introduce a new methodology for assessing the positioning\naccuracy of virtual reality (VR) headsets, utilizing a cooperative industrial\nrobot to simulate user head trajectories in a reproducible manner. We conduct a\ncomprehensive evaluation of two popular VR headsets, i.e., Meta Quest 2 and\nMeta Quest Pro. Using head movement trajectories captured from realistic VR\ngame scenarios with motion capture, we compared the performance of these\nheadsets in terms of precision and reliability. Our analysis revealed that both\ndevices exhibit high positioning accuracy, with no significant differences\nbetween them. These findings may provide insights for developers and\nresearchers seeking to optimize their VR experiences in particular contexts\nsuch as manufacturing.\n",
+  "subjects": [
+    "Computer Science/Robotics",
+    "Computer Science/Human-Computer Interaction"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "6d_v-Cu8UqwKtV4ZXvgeECSjHiWLZrfAyyRCeJUmMvk",
+  "pdfSize": "13132421"
+}

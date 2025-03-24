@@ -1,0 +1,44 @@
+{
+  "id": "2412.06164",
+  "title": "Polyhedral Discretizations for Elliptic PDEs",
+  "authors": "Junyu Liu, Daniele Panozzo, Mario Botsch, Teseo Schneider",
+  "authorsParsed": [
+    [
+      "Liu",
+      "Junyu",
+      ""
+    ],
+    [
+      "Panozzo",
+      "Daniele",
+      ""
+    ],
+    [
+      "Botsch",
+      "Mario",
+      ""
+    ],
+    [
+      "Schneider",
+      "Teseo",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 9 Dec 2024 02:53:28 GMT"
+    }
+  ],
+  "updateDate": "2024-12-10",
+  "timestamp": 1733712808000,
+  "abstract": "  We study the use of polyhedral discretizations for the solution of heat\ndiffusion and elastodynamic problems in computer graphics. Polyhedral meshes\nare more natural for certain applications than pure triangular or quadrilateral\nmeshes, which thus received significant interest as an alternative\nrepresentation. We consider finite element methods using barycentric\ncoordinates as basis functions and the modern virtual finite element approach.\nWe evaluate them on a suite of classical graphics problems to understand their\nbenefits and limitations compared to standard techniques on simplicial\ndiscretizations. Our analysis provides recommendations and a benchmark for\ndeveloping polyhedral meshing techniques and corresponding analysis techniques.\n",
+  "subjects": [
+    "Computer Science/Graphics",
+    "Computer Science/Numerical Analysis",
+    "Mathematics/Numerical Analysis"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "XKQ9xYL--s8PSWndTOASNChFfyHiZ60jHq9-LJG5crw",
+  "pdfSize": "27718046"
+}

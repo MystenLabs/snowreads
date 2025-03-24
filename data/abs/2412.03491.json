@@ -1,0 +1,54 @@
+{
+  "id": "2412.03491",
+  "title": "Beyond algorithm hyperparameters: on preprocessing hyperparameters and\n  associated pitfalls in machine learning applications",
+  "authors": "Christina Sauer, Anne-Laure Boulesteix, Luzia Han{\\ss}um, Farina\n  Hodiamont, Claudia Bausewein, and Theresa Ullmann",
+  "authorsParsed": [
+    [
+      "Sauer",
+      "Christina",
+      ""
+    ],
+    [
+      "Boulesteix",
+      "Anne-Laure",
+      ""
+    ],
+    [
+      "Hanßum",
+      "Luzia",
+      ""
+    ],
+    [
+      "Hodiamont",
+      "Farina",
+      ""
+    ],
+    [
+      "Bausewein",
+      "Claudia",
+      ""
+    ],
+    [
+      "Ullmann",
+      "Theresa",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 4 Dec 2024 17:29:10 GMT"
+    }
+  ],
+  "updateDate": "2024-12-05",
+  "timestamp": 1733333350000,
+  "abstract": "  Adequately generating and evaluating prediction models based on supervised\nmachine learning (ML) is often challenging, especially for less experienced\nusers in applied research areas. Special attention is required in settings\nwhere the model generation process involves hyperparameter tuning, i.e.\ndata-driven optimization of different types of hyperparameters to improve the\npredictive performance of the resulting model. Discussions about tuning\ntypically focus on the hyperparameters of the ML algorithm (e.g., the minimum\nnumber of observations in each terminal node for a tree-based algorithm). In\nthis context, it is often neglected that hyperparameters also exist for the\npreprocessing steps that are applied to the data before it is provided to the\nalgorithm (e.g., how to handle missing feature values in the data). As a\nconsequence, users experimenting with different preprocessing options to\nimprove model performance may be unaware that this constitutes a form of\nhyperparameter tuning - albeit informal and unsystematic - and thus may fail to\nreport or account for this optimization. To illuminate this issue, this paper\nreviews and empirically illustrates different procedures for generating and\nevaluating prediction models, explicitly addressing the different ways\nalgorithm and preprocessing hyperparameters are typically handled by applied ML\nusers. By highlighting potential pitfalls, especially those that may lead to\nexaggerated performance claims, this review aims to further improve the quality\nof predictive modeling in ML applications.\n",
+  "subjects": [
+    "Statistics/Machine Learning",
+    "Computer Science/Machine Learning",
+    "Statistics/Methodology"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "df8CDdxabKd4-oTNdo9WTC22rn211coGNUYfXJ_65ag",
+  "pdfSize": "5067156"
+}

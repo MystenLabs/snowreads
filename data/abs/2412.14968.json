@@ -1,0 +1,48 @@
+{
+  "id": "2412.14968",
+  "title": "An Overview on Over-the-air Electromagnetic Signal Processing",
+  "authors": "Davide Dardari, Giulia Torcolacci, Gianni Pasolini, Nicolo Decarli",
+  "authorsParsed": [
+    [
+      "Dardari",
+      "Davide",
+      ""
+    ],
+    [
+      "Torcolacci",
+      "Giulia",
+      ""
+    ],
+    [
+      "Pasolini",
+      "Gianni",
+      ""
+    ],
+    [
+      "Decarli",
+      "Nicolo",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 19 Dec 2024 15:47:22 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Fri, 20 Dec 2024 07:46:12 GMT"
+    }
+  ],
+  "updateDate": "2024-12-23",
+  "timestamp": 1734623242000,
+  "abstract": "  This article provides a tutorial on over-the-air electromagnetic signal\nprocessing (ESP) for next-generation wireless networks, addressing the\nlimitations of digital processing to enhance the efficiency and sustainability\nof future 6th Generation (6G) systems. It explores the integration of\nelectromagnetism and signal processing (SP) highlighting how their convergence\ncan drive innovations for 6G technologies. Key topics include electromagnetic\n(EM) wave-based processing, the application of metamaterials and advanced\nantennas to optimize EM field manipulation with a reduced number of\nradiofrequency chains, and their applications in holographic multiple-input\nmultiple-output systems. By showcasing enabling technologies and use cases, the\narticle demonstrates how wave-based processing can minimize energy consumption,\ncomplexity, and latency, offering an effective framework for more sustainable\nand efficient wireless systems. This article aims to assist researchers and\nprofessionals in integrating advanced EM technologies with conventional SP\nmethods.\n",
+  "subjects": [
+    "Electrical Engineering and Systems Science/Signal Processing",
+    "Computer Science/Information Theory",
+    "Mathematics/Information Theory"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "fPHNvBBdnb0Ssy5wDUB4cKnSU-zi0_Ap33ICjIUzId8",
+  "pdfSize": "6343045"
+}

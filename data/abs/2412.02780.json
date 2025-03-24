@@ -1,0 +1,88 @@
+{
+  "id": "2412.02780",
+  "title": "WxC-Bench: A Novel Dataset for Weather and Climate Downstream Tasks",
+  "authors": "Rajat Shinde, Christopher E. Phillips, Kumar Ankur, Aman Gupta, Simon\n  Pfreundschuh, Sujit Roy, Sheyenne Kirkland, Vishal Gaur, Amy Lin, Aditi\n  Sheshadri, Udaysankar Nair, Manil Maskey, Rahul Ramachandran",
+  "authorsParsed": [
+    [
+      "Shinde",
+      "Rajat",
+      ""
+    ],
+    [
+      "Phillips",
+      "Christopher E.",
+      ""
+    ],
+    [
+      "Ankur",
+      "Kumar",
+      ""
+    ],
+    [
+      "Gupta",
+      "Aman",
+      ""
+    ],
+    [
+      "Pfreundschuh",
+      "Simon",
+      ""
+    ],
+    [
+      "Roy",
+      "Sujit",
+      ""
+    ],
+    [
+      "Kirkland",
+      "Sheyenne",
+      ""
+    ],
+    [
+      "Gaur",
+      "Vishal",
+      ""
+    ],
+    [
+      "Lin",
+      "Amy",
+      ""
+    ],
+    [
+      "Sheshadri",
+      "Aditi",
+      ""
+    ],
+    [
+      "Nair",
+      "Udaysankar",
+      ""
+    ],
+    [
+      "Maskey",
+      "Manil",
+      ""
+    ],
+    [
+      "Ramachandran",
+      "Rahul",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 3 Dec 2024 19:20:27 GMT"
+    }
+  ],
+  "updateDate": "2024-12-05",
+  "timestamp": 1733253627000,
+  "abstract": "  High-quality machine learning (ML)-ready datasets play a foundational role in\ndeveloping new artificial intelligence (AI) models or fine-tuning existing\nmodels for scientific applications such as weather and climate analysis.\nUnfortunately, despite the growing development of new deep learning models for\nweather and climate, there is a scarcity of curated, pre-processed machine\nlearning (ML)-ready datasets. Curating such high-quality datasets for\ndeveloping new models is challenging particularly because the modality of the\ninput data varies significantly for different downstream tasks addressing\ndifferent atmospheric scales (spatial and temporal). Here we introduce\nWxC-Bench (Weather and Climate Bench), a multi-modal dataset designed to\nsupport the development of generalizable AI models for downstream use-cases in\nweather and climate research. WxC-Bench is designed as a dataset of datasets\nfor developing ML-models for a complex weather and climate system, addressing\nselected downstream tasks as machine learning phenomenon. WxC-Bench encompasses\nseveral atmospheric processes from meso-$\\beta$ (20 - 200 km) scale to synoptic\nscales (2500 km), such as aviation turbulence, hurricane intensity and track\nmonitoring, weather analog search, gravity wave parameterization, and natural\nlanguage report generation. We provide a comprehensive description of the\ndataset and also present a technical validation for baseline analysis. The\ndataset and code to prepare the ML-ready data have been made publicly available\non Hugging Face -- https://huggingface.co/datasets/nasa-impact/WxC-Bench\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by-sa/4.0/",
+  "blobId": "e0rS_nr6YcV_MymYOSoF0Dip7GRBfdRTKSW2fMQMq_M",
+  "pdfSize": "19055555"
+}

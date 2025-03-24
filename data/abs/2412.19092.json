@@ -1,0 +1,52 @@
+{
+  "id": "2412.19092",
+  "title": "TrajGEOS: Trajectory Graph Enhanced Orientation-based Sequential Network\n  for Mobility Prediction",
+  "authors": "Zhaoping Hu, Zongyuan Huang, Jinming Yang, Tao Yang, Yaohui Jin,\n  Yanyan Xu",
+  "authorsParsed": [
+    [
+      "Hu",
+      "Zhaoping",
+      ""
+    ],
+    [
+      "Huang",
+      "Zongyuan",
+      ""
+    ],
+    [
+      "Yang",
+      "Jinming",
+      ""
+    ],
+    [
+      "Yang",
+      "Tao",
+      ""
+    ],
+    [
+      "Jin",
+      "Yaohui",
+      ""
+    ],
+    [
+      "Xu",
+      "Yanyan",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 26 Dec 2024 07:18:38 GMT"
+    }
+  ],
+  "updateDate": "2024-12-30",
+  "timestamp": 1735197518000,
+  "abstract": "  Human mobility studies how people move to access their needed resources and\nplays a significant role in urban planning and location-based services. As a\nparamount task of human mobility modeling, next location prediction is\nchallenging because of the diversity of users' historical trajectories that\ngives rise to complex mobility patterns and various contexts. Deep sequential\nmodels have been widely used to predict the next location by leveraging the\ninherent sequentiality of trajectory data. However, they do not fully leverage\nthe relationship between locations and fail to capture users' multi-level\npreferences. This work constructs a trajectory graph from users' historical\ntraces and proposes a \\textbf{Traj}ectory \\textbf{G}raph \\textbf{E}nhanced\n\\textbf{O}rientation-based \\textbf{S}equential network (TrajGEOS) for\nnext-location prediction tasks. TrajGEOS introduces hierarchical graph\nconvolution to capture location and user embeddings. Such embeddings consider\nnot only the contextual feature of locations but also the relation between\nthem, and serve as additional features in downstream modules. In addition, we\ndesign an orientation-based module to learn users' mid-term preferences from\nsequential modeling modules and their recent trajectories. Extensive\nexperiments on three real-world LBSN datasets corroborate the value of graph\nand orientation-based modules and demonstrate that TrajGEOS outperforms the\nstate-of-the-art methods on the next location prediction task.\n",
+  "subjects": [
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "r9i3L53muwu2-Jc7yEzgMJ7YnbvAxT9fCKqnr9tTX0U",
+  "pdfSize": "5323040"
+}

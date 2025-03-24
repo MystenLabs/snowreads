@@ -1,0 +1,42 @@
+{
+  "id": "2412.03962",
+  "title": "Local Curvature Smoothing with Stein's Identity for Efficient Score\n  Matching",
+  "authors": "Genki Osada, Makoto Shing, Takashi Nishide",
+  "authorsParsed": [
+    [
+      "Osada",
+      "Genki",
+      ""
+    ],
+    [
+      "Shing",
+      "Makoto",
+      ""
+    ],
+    [
+      "Nishide",
+      "Takashi",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 5 Dec 2024 08:26:13 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Fri, 6 Dec 2024 04:11:24 GMT"
+    }
+  ],
+  "updateDate": "2024-12-09",
+  "timestamp": 1733387173000,
+  "abstract": "  The training of score-based diffusion models (SDMs) is based on score\nmatching. The challenge of score matching is that it includes a computationally\nexpensive Jacobian trace. While several methods have been proposed to avoid\nthis computation, each has drawbacks, such as instability during training and\napproximating the learning as learning a denoising vector field rather than a\ntrue score. We propose a novel score matching variant, local curvature\nsmoothing with Stein's identity (LCSS). The LCSS bypasses the Jacobian trace by\napplying Stein's identity, enabling regularization effectiveness and efficient\ncomputation. We show that LCSS surpasses existing methods in sample generation\nperformance and matches the performance of denoising score matching, widely\nadopted by most SDMs, in evaluations such as FID, Inception score, and bits per\ndimension. Furthermore, we show that LCSS enables realistic image generation\neven at a high resolution of $1024 \\times 1024$.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "Oii21RMmPnBJ2KYMhPCKXudXqs_zXToMGvP96SUi1EA",
+  "pdfSize": "21496503"
+}

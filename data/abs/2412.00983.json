@@ -1,0 +1,45 @@
+{
+  "id": "2412.00983",
+  "title": "Dual-Use Commercial and Military Communications on a Single Platform\n  using RAN Domain Specific Language",
+  "authors": "Alan Gatherer, Chaitali Sengupta, Sudipta Sen, Jeffery H. Reed",
+  "authorsParsed": [
+    [
+      "Gatherer",
+      "Alan",
+      ""
+    ],
+    [
+      "Sengupta",
+      "Chaitali",
+      ""
+    ],
+    [
+      "Sen",
+      "Sudipta",
+      ""
+    ],
+    [
+      "Reed",
+      "Jeffery H.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 1 Dec 2024 22:16:24 GMT"
+    }
+  ],
+  "updateDate": "2024-12-03",
+  "timestamp": 1733091384000,
+  "abstract": "  Despite the success of the O-RAN Alliance in developing a set of\ninteroperable interfaces, development of unique Radio Access Network (RAN)\ndeployments remains challenging. This is especially true for military\ncommunications, where deployments are highly specialized with limited volume.\nThe construction and maintenance of the RAN, which is a real time embedded\nsystem, is an ill-defined NP problem requiring teams of specialized system\nengineers, with specialized knowledge of the hardware platform. In this paper,\nwe introduce a RAN Domain Specific Language (RDSL(TM)) to formally describe use\ncases, constraints, and multi-vendor hardware/software abstraction to allow\nautomation of RAN construction. In this DSL, system requirements are\ndeclarative, and performance constraints are guaranteed by construction using\nan automated system solver. Using our RAN system solver platform, Gabriel(TM)\nwe show how a system engineer can confidently modify RAN functionality without\nknowledge of the underlying hardware. We show benefits for specific system\nrequirements when compared to the manually optimized, default configuration of\nthe Intel FlexRAN(TM), and conclude that DSL/automation driven construction of\nthe RAN can lead to significant power and latency benefits when the deployment\nconstraints are tuned for a specific case. We give examples of how constraints\nand requirements can be formatted in a \"Kubernetes style\" YAML format which\nallows the use of other tools, such as Ansible, to integrate the generation of\nthese requirements into higher level automation flows such as Service\nManagement and Orchestration (SMO).\n",
+  "subjects": [
+    "Electrical Engineering and Systems Science/Systems and Control",
+    "Computer Science/Hardware Architecture",
+    "Computer Science/Programming Languages",
+    "Computer Science/Systems and Control"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "C1g3JCp73aCkUZGJxaR5kXhfPjfbbayP4cZY_MsuR_4",
+  "pdfSize": "1216415"
+}

@@ -1,0 +1,68 @@
+{
+  "id": "2412.04478",
+  "title": "LibEvolutionEval: A Benchmark and Study for Version-Specific Code\n  Generation",
+  "authors": "Sachit Kuhar, Wasi Uddin Ahmad, Zijian Wang, Nihal Jain, Haifeng Qian,\n  Baishakhi Ray, Murali Krishna Ramanathan, Xiaofei Ma, Anoop Deoras",
+  "authorsParsed": [
+    [
+      "Kuhar",
+      "Sachit",
+      ""
+    ],
+    [
+      "Ahmad",
+      "Wasi Uddin",
+      ""
+    ],
+    [
+      "Wang",
+      "Zijian",
+      ""
+    ],
+    [
+      "Jain",
+      "Nihal",
+      ""
+    ],
+    [
+      "Qian",
+      "Haifeng",
+      ""
+    ],
+    [
+      "Ray",
+      "Baishakhi",
+      ""
+    ],
+    [
+      "Ramanathan",
+      "Murali Krishna",
+      ""
+    ],
+    [
+      "Ma",
+      "Xiaofei",
+      ""
+    ],
+    [
+      "Deoras",
+      "Anoop",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 19 Nov 2024 21:52:23 GMT"
+    }
+  ],
+  "updateDate": "2024-12-09",
+  "timestamp": 1732053143000,
+  "abstract": "  Recent advancements in code completion models have primarily focused on local\nfile contexts. However, these studies do not fully capture the complexity of\nreal-world software development, which often requires the use of\nrapidly-evolving public libraries. To fill the gap, we introduce\nLibEvolutionEval, a detailed study requiring an understanding of library\nevolution to perform in-line code completion accurately. LibEvolutionEval\nprovides a version-specific code-completion task comprised of eight libraries\n(torch, torchvision, scipy, pil, tqdm, pyyaml, matplotlib, and pandas) as they\nevolve over the year along with a detailed analysis of the evolution of two\npopular and well-maintained public libraries: PyTorch and Matplotlib. We\nevaluate popular public models and find that public library evolution\nsignificantly influences model performance. We explored mitigation methods by\nstudying how retrieved version-specific library documentation and prompting can\nimprove the model's capability in handling these fast-evolving packages, paving\na promising future path in better handling fast-evolving libraries.\n",
+  "subjects": [
+    "Computer Science/Software Engineering",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "hf6tpbJOPiIP_eHIe3tbUcHN8YZDowcgPQ6xYxbEAA8",
+  "pdfSize": "1709705"
+}

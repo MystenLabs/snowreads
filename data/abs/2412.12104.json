@@ -1,0 +1,43 @@
+{
+  "id": "2412.12104",
+  "title": "Reservoir Computing Generalized",
+  "authors": "Tomoyuki Kubota, Yusuke Imai, Sumito Tsunegi, Kohei Nakajima",
+  "authorsParsed": [
+    [
+      "Kubota",
+      "Tomoyuki",
+      ""
+    ],
+    [
+      "Imai",
+      "Yusuke",
+      ""
+    ],
+    [
+      "Tsunegi",
+      "Sumito",
+      ""
+    ],
+    [
+      "Nakajima",
+      "Kohei",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 23 Nov 2024 05:02:47 GMT"
+    }
+  ],
+  "updateDate": "2024-12-18",
+  "timestamp": 1732338167000,
+  "abstract": "  A physical neural network (PNN) has both the strong potential to solve\nmachine learning tasks and intrinsic physical properties, such as high-speed\ncomputation and energy efficiency. Reservoir computing (RC) is an excellent\nframework for implementing an information processing system with a dynamical\nsystem by attaching a trained readout, thus accelerating the wide use of\nunconventional materials for a PNN. However, RC requires the dynamics to\nreproducibly respond to input sequence, which limits the type of substance\navailable for building information processors. Here we propose a novel\nframework called generalized reservoir computing (GRC) by turning this\nrequirement on its head, making conventional RC a special case. Using\nsubstances that do not respond the same to identical inputs (e.g., a real\nspin-torque oscillator), we propose mechanisms aimed at obtaining a reliable\noutput and show that processed inputs in the unconventional substance are\nretrievable. Finally, we demonstrate that, based on our framework,\nspatiotemporal chaos, which is thought to be unusable as a computational\nresource, can be used to emulate complex nonlinear dynamics, including large\nscale spatiotemporal chaos. Overall, our framework removes the limitation to\nbuilding an information processing device and opens a path to constructing a\ncomputational system using a wider variety of physical dynamics.\n",
+  "subjects": [
+    "Nonlinear Sciences/Chaotic Dynamics",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "ccp7HuUgnQACezTF0YWzI6S0s1Th8rgCH0yxPY3VBUI",
+  "pdfSize": "40214939"
+}

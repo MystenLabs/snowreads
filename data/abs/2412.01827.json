@@ -1,0 +1,63 @@
+{
+  "id": "2412.01827",
+  "title": "RandAR: Decoder-only Autoregressive Visual Generation in Random Orders",
+  "authors": "Ziqi Pang, Tianyuan Zhang, Fujun Luan, Yunze Man, Hao Tan, Kai Zhang,\n  William T. Freeman, Yu-Xiong Wang",
+  "authorsParsed": [
+    [
+      "Pang",
+      "Ziqi",
+      ""
+    ],
+    [
+      "Zhang",
+      "Tianyuan",
+      ""
+    ],
+    [
+      "Luan",
+      "Fujun",
+      ""
+    ],
+    [
+      "Man",
+      "Yunze",
+      ""
+    ],
+    [
+      "Tan",
+      "Hao",
+      ""
+    ],
+    [
+      "Zhang",
+      "Kai",
+      ""
+    ],
+    [
+      "Freeman",
+      "William T.",
+      ""
+    ],
+    [
+      "Wang",
+      "Yu-Xiong",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 2 Dec 2024 18:59:53 GMT"
+    }
+  ],
+  "updateDate": "2024-12-03",
+  "timestamp": 1733165993000,
+  "abstract": "  We introduce RandAR, a decoder-only visual autoregressive (AR) model capable\nof generating images in arbitrary token orders. Unlike previous decoder-only AR\nmodels that rely on a predefined generation order, RandAR removes this\ninductive bias, unlocking new capabilities in decoder-only generation. Our\nessential design enables random order by inserting a \"position instruction\ntoken\" before each image token to be predicted, representing the spatial\nlocation of the next image token. Trained on randomly permuted token sequences\n-- a more challenging task than fixed-order generation, RandAR achieves\ncomparable performance to its conventional raster-order counterpart. More\nimportantly, decoder-only transformers trained from random orders acquire new\ncapabilities. For the efficiency bottleneck of AR models, RandAR adopts\nparallel decoding with KV-Cache at inference time, enjoying 2.5x acceleration\nwithout sacrificing generation quality. Additionally, RandAR supports\ninpainting, outpainting and resolution extrapolation in a zero-shot manner. We\nhope RandAR inspires new directions for decoder-only visual generation models\nand broadens their applications across diverse scenarios. Our project page is\nat https://rand-ar.github.io/.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "5Of4iasWOj23krHyEKSuwhsy411ZknWwEq6RtIaYUUg",
+  "pdfSize": "18030255"
+}

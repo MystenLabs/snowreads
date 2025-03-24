@@ -1,0 +1,57 @@
+{
+  "id": "2412.09072",
+  "title": "Cross-View Completion Models are Zero-shot Correspondence Estimators",
+  "authors": "Honggyu An, Jinhyeon Kim, Seonghoon Park, Jaewoo Jung, Jisang Han,\n  Sunghwan Hong, Seungryong Kim",
+  "authorsParsed": [
+    [
+      "An",
+      "Honggyu",
+      ""
+    ],
+    [
+      "Kim",
+      "Jinhyeon",
+      ""
+    ],
+    [
+      "Park",
+      "Seonghoon",
+      ""
+    ],
+    [
+      "Jung",
+      "Jaewoo",
+      ""
+    ],
+    [
+      "Han",
+      "Jisang",
+      ""
+    ],
+    [
+      "Hong",
+      "Sunghwan",
+      ""
+    ],
+    [
+      "Kim",
+      "Seungryong",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 12 Dec 2024 08:58:20 GMT"
+    }
+  ],
+  "updateDate": "2024-12-13",
+  "timestamp": 1733993900000,
+  "abstract": "  In this work, we explore new perspectives on cross-view completion learning\nby drawing an analogy to self-supervised correspondence learning. Through our\nanalysis, we demonstrate that the cross-attention map within cross-view\ncompletion models captures correspondence more effectively than other\ncorrelations derived from encoder or decoder features. We verify the\neffectiveness of the cross-attention map by evaluating on both zero-shot\nmatching and learning-based geometric matching and multi-frame depth\nestimation. Project page is available at https://cvlab-kaist.github.io/ZeroCo/.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "yIyzZbhZ3HBSDE20u9hoqyn9e79HRg0jc1Ts9jIaHvA",
+  "pdfSize": "17812566"
+}

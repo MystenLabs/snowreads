@@ -1,0 +1,48 @@
+{
+  "id": "2412.09817",
+  "title": "Enhancing Multimodal Large Language Models Complex Reason via Similarity\n  Computation",
+  "authors": "Xiaofeng Zhang, Fanshuo Zeng, Yihao Quan, Zheng Hui, Jiawei Yao",
+  "authorsParsed": [
+    [
+      "Zhang",
+      "Xiaofeng",
+      ""
+    ],
+    [
+      "Zeng",
+      "Fanshuo",
+      ""
+    ],
+    [
+      "Quan",
+      "Yihao",
+      ""
+    ],
+    [
+      "Hui",
+      "Zheng",
+      ""
+    ],
+    [
+      "Yao",
+      "Jiawei",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 13 Dec 2024 03:13:44 GMT"
+    }
+  ],
+  "updateDate": "2024-12-16",
+  "timestamp": 1734059624000,
+  "abstract": "  Multimodal large language models have experienced rapid growth, and numerous\ndifferent models have emerged. The interpretability of LVLMs remains an\nunder-explored area. Especially when faced with more complex tasks such as\nchain-of-thought reasoning, its internal mechanisms still resemble a black box\nthat is difficult to decipher. By studying the interaction and information flow\nbetween images and text, we noticed that in models such as LLaVA1.5, image\ntokens that are semantically related to text are more likely to have\ninformation flow convergence in the LLM decoding layer, and these image tokens\nreceive higher attention scores. However, those image tokens that are less\nrelevant to the text do not have information flow convergence, and they only\nget very small attention scores. To efficiently utilize the image information,\nwe propose a new image token reduction method, Simignore, which aims to improve\nthe complex reasoning ability of LVLMs by computing the similarity between\nimage and text embeddings and ignoring image tokens that are irrelevant and\nunimportant to the text. Through extensive experiments, we demonstrate the\neffectiveness of our method for complex reasoning tasks. The paper's source\ncode can be accessed from \\url{https://github.com/FanshuoZeng/Simignore}.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Computation and Language"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "pWQ8mJNv7ZvsGt3T_QhO4Z0MGEhEopPRcEWGXJumwcY",
+  "pdfSize": "1613980"
+}

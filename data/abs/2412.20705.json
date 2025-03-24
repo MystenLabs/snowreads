@@ -1,0 +1,37 @@
+{
+  "id": "2412.20705",
+  "title": "Global smooth solutions to the irrotational Euler-Riesz system in three\n  dimensions",
+  "authors": "Young-Pil Choi, Jinwook Jung, Yoonjung Lee",
+  "authorsParsed": [
+    [
+      "Choi",
+      "Young-Pil",
+      ""
+    ],
+    [
+      "Jung",
+      "Jinwook",
+      ""
+    ],
+    [
+      "Lee",
+      "Yoonjung",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 30 Dec 2024 04:41:56 GMT"
+    }
+  ],
+  "updateDate": "2024-12-31",
+  "timestamp": 1735533716000,
+  "abstract": "  This paper investigates the global dynamics of the Euler--Riesz system in\nthree dimensions, focusing on the well-posedness and large-time behavior of\nsolutions near equilibrium. The system generalizes classical interactions by\nincorporating the Riesz interactions $\\nabla (-\\Delta)^{-\\sigma/2}(\\rho - 1)$.\nWe show that the system admits a global smooth solution for small irrotational\ninitial perturbations. Specifically, we establish that if the initial data is\nsufficiently small, the solution remains regular globally in time and decays\nover time at a rate dependent on $\\sigma$.\n",
+  "subjects": [
+    "Mathematics/Analysis of PDEs"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "Rl5jOwhVgpBdfFt_hOorMtjPukU3kCxUwPDF639uYVs",
+  "pdfSize": "463748"
+}

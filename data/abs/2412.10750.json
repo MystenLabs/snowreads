@@ -1,0 +1,82 @@
+{
+  "id": "2412.10750",
+  "title": "Chip-to-chip photonic quantum teleportation over optical fibers of\n  12.3km",
+  "authors": "Dongning Liu, Zhanping Jin, Jingyuan Liu, Xiaotong Zou, Xiaosong Ren,\n  Hao Li, Lixing You, Xue Feng, Fang Liu, Kaiyu Cui, Yidong Huang and Wei Zhang",
+  "authorsParsed": [
+    [
+      "Liu",
+      "Dongning",
+      ""
+    ],
+    [
+      "Jin",
+      "Zhanping",
+      ""
+    ],
+    [
+      "Liu",
+      "Jingyuan",
+      ""
+    ],
+    [
+      "Zou",
+      "Xiaotong",
+      ""
+    ],
+    [
+      "Ren",
+      "Xiaosong",
+      ""
+    ],
+    [
+      "Li",
+      "Hao",
+      ""
+    ],
+    [
+      "You",
+      "Lixing",
+      ""
+    ],
+    [
+      "Feng",
+      "Xue",
+      ""
+    ],
+    [
+      "Liu",
+      "Fang",
+      ""
+    ],
+    [
+      "Cui",
+      "Kaiyu",
+      ""
+    ],
+    [
+      "Huang",
+      "Yidong",
+      ""
+    ],
+    [
+      "Zhang",
+      "Wei",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 14 Dec 2024 08:35:09 GMT"
+    }
+  ],
+  "updateDate": "2024-12-17",
+  "timestamp": 1734165309000,
+  "abstract": "  Quantum teleportation is a crucial function in quantum networks. The\nimplementation of photonic quantum teleportation could be highly simplified by\nquantum photonic circuits. To extend chip-to-chip teleportation distance, more\neffort is needed on both chip design and system implementation. In this work,\nwe demonstrate a chip-to-chip photonic quantum teleportation over optical\nfibers under the scenario of star-topology quantum network. Time-bin encoded\nquantum states are used to achieve a long teleportation distance. Three\nphotonic quantum circuits are designed and fabricated on a single chip, each\nserving specific functions: heralded single-photon generation at the user node,\nentangled photon pair generation and Bell state measurement at the relay node,\nand projective measurement of the teleported photons at the central node. The\nunbalanced Mach-Zehnder interferometers (UMZI) for time-bin encoding in these\nquantum photonic circuits are optimized to reduce insertion losses and suppress\nnoise photons generated on the chip. Besides, an active feedback system is\nemployed to suppress the impact of fiber length fluctuation between the\ncircuits, achieving a stable quantum interference for the Bell state\nmeasurement in the relay node. As the result, a photonic quantum teleportation\nover optical fibers of 12.3km is achieved based on these quantum photonic\ncircuits, showing the potential of chip integration on the development of\nquantum networks.\n",
+  "subjects": [
+    "Physics/Quantum Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "70SmiX_jgRsl9iJdOMJ15g8oZH0aMO_-ARtJPDunC6I",
+  "pdfSize": "1248110"
+}

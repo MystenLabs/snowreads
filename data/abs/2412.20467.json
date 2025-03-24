@@ -1,0 +1,32 @@
+{
+  "id": "2412.20467",
+  "title": "Utilizing Multimodal Data for Edge Case Robust Call-sign Recognition and\n  Understanding",
+  "authors": "Alexander Blatt, Dietrich Klakow",
+  "authorsParsed": [
+    [
+      "Blatt",
+      "Alexander",
+      ""
+    ],
+    [
+      "Klakow",
+      "Dietrich",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 29 Dec 2024 13:45:11 GMT"
+    }
+  ],
+  "updateDate": "2024-12-31",
+  "timestamp": 1735479911000,
+  "abstract": "  Operational machine-learning based assistant systems must be robust in a wide\nrange of scenarios. This hold especially true for the air-traffic control (ATC)\ndomain. The robustness of an architecture is particularly evident in edge\ncases, such as high word error rate (WER) transcripts resulting from noisy ATC\nrecordings or partial transcripts due to clipped recordings. To increase the\nedge-case robustness of call-sign recognition and understanding (CRU), a core\ntasks in ATC speech processing, we propose the multimodal call-sign-command\nrecovery model (CCR). The CCR architecture leads to an increase in the edge\ncase performance of up to 15%. We demonstrate this on our second proposed\narchitecture, CallSBERT. A CRU model that has less parameters, can be\nfine-tuned noticeably faster and is more robust during fine-tuning than the\nstate of the art for CRU. Furthermore, we demonstrate that optimizing for edge\ncases leads to a significantly higher accuracy across a wide operational range.\n",
+  "subjects": [
+    "Computer Science/Computation and Language"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "s92qWTaHKANQuOLE7UfQUMOZxbyhMRdJXn8jD0Dp2Mc",
+  "pdfSize": "1812043"
+}

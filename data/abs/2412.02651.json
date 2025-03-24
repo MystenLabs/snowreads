@@ -1,0 +1,33 @@
+{
+  "id": "2412.02651",
+  "title": "Costs of Bayesian Parameter Estimation in Third-Generation Gravitational\n  Wave Detectors: a Review of Acceleration Methods",
+  "authors": "Qian Hu and John Veitch",
+  "authorsParsed": [
+    [
+      "Hu",
+      "Qian",
+      ""
+    ],
+    [
+      "Veitch",
+      "John",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 3 Dec 2024 18:24:56 GMT"
+    }
+  ],
+  "updateDate": "2024-12-04",
+  "timestamp": 1733250296000,
+  "abstract": "  Bayesian inference with stochastic sampling has been widely used to obtain\nthe properties of gravitational wave (GW) sources. Although computationally\nintensive, its cost remains manageable for current second-generation GW\ndetectors because of the relatively low event rate and signal-to-noise ratio\n(SNR). The third-generation (3G) GW detectors are expected to detect hundreds\nof thousands of compact binary coalescence events every year with substantially\nhigher SNR and longer signal duration, presenting significant computational\nchallenges. In this study, we systematically evaluate the computational costs\nof source parameter estimation (PE) in the 3G era by modeling the PE time cost\nas a function of SNR and signal duration. We examine the standard PE method\nalongside acceleration methods including relative binning, multibanding, and\nreduced order quadrature. We predict that PE for a one-month-observation\ncatalog with 3G detectors could require billions to quadrillions of CPU core\nhours with the standard PE method, whereas acceleration techniques can reduce\nthis demand to millions of core hours. These findings highlight the necessity\nfor more efficient PE methods to enable cost-effective and environmentally\nsustainable data analysis for 3G detectors. In addition, we assess the accuracy\nof accelerated PE methods, emphasizing the need for careful treatment in\nhigh-SNR scenarios.\n",
+  "subjects": [
+    "Physics/General Relativity and Quantum Cosmology",
+    "Astrophysics/Instrumentation and Methods for Astrophysics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "UqGJbkSa0WQvUGL0Zc8qpob1Q1LTfrTAUiDN2_qIJTo",
+  "pdfSize": "728723"
+}

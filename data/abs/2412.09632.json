@@ -1,0 +1,38 @@
+{
+  "id": "2412.09632",
+  "title": "Methods to Assess the UK Government's Current Role as a Data Provider\n  for AI",
+  "authors": "Neil Majithia, Elena Simperl",
+  "authorsParsed": [
+    [
+      "Majithia",
+      "Neil",
+      ""
+    ],
+    [
+      "Simperl",
+      "Elena",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 27 Nov 2024 19:53:05 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Wed, 18 Dec 2024 15:55:28 GMT"
+    }
+  ],
+  "updateDate": "2024-12-23",
+  "timestamp": 1732737185000,
+  "abstract": "  Governments typically collect and steward a vast amount of high-quality data\non their citizens and institutions, and the UK government is exploring how it\ncan better publish and provision this data to the benefit of the AI landscape.\nHowever, the compositions of generative AI training corpora remain closely\nguarded secrets, making the planning of data sharing initiatives difficult. To\naddress this, we devise two methods to assess UK government data usage for the\ntraining of Large Language Models (LLMs) and 'peek behind the curtain' in order\nto observe the UK government's current contributions as a data provider for AI.\nThe first method, an ablation study that utilises LLM 'unlearning', seeks to\nexamine the importance of the information held on UK government websites for\nLLMs and their performance in citizen query tasks. The second method, an\ninformation leakage study, seeks to ascertain whether LLMs are aware of the\ninformation held in the datasets published on the UK government's open data\ninitiative data$.$gov$.$uk. Our findings indicate that UK government websites\nare important data sources for AI (heterogenously across subject matters) while\ndata$.$gov$.$uk is not. This paper serves as a technical report, explaining\nin-depth the designs, mechanics, and limitations of the above experiments. It\nis accompanied by a complementary non-technical report on the ODI website in\nwhich we summarise the experiments and key findings, interpret them, and build\na set of actionable recommendations for the UK government to take forward as it\nseeks to design AI policy. While we focus on UK open government data, we\nbelieve that the methods introduced in this paper present a reproducible\napproach to tackle the opaqueness of AI training corpora and provide\norganisations a framework to evaluate and maximize their contributions to AI\ndevelopment.\n",
+  "subjects": [
+    "Computer Science/Computers and Society",
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Information Retrieval"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "KBpT5srtfnLWkT2-C861IO5fyC6TSNmAuYRBSbrzbd8",
+  "pdfSize": "1195499"
+}

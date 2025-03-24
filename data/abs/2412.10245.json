@@ -1,0 +1,47 @@
+{
+  "id": "2412.10245",
+  "title": "Regression trees for nonparametric diagnostics of sequential positivity\n  violations in longitudinal causal inference",
+  "authors": "Arthur Chatton and Michael Schomaker and Miguel-Angel Luque-Fernandez\n  and Robert W. Platt and Mireille E. Schnitzer",
+  "authorsParsed": [
+    [
+      "Chatton",
+      "Arthur",
+      ""
+    ],
+    [
+      "Schomaker",
+      "Michael",
+      ""
+    ],
+    [
+      "Luque-Fernandez",
+      "Miguel-Angel",
+      ""
+    ],
+    [
+      "Platt",
+      "Robert W.",
+      ""
+    ],
+    [
+      "Schnitzer",
+      "Mireille E.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 13 Dec 2024 16:14:27 GMT"
+    }
+  ],
+  "updateDate": "2024-12-16",
+  "timestamp": 1734106467000,
+  "abstract": "  Sequential positivity is often a necessary assumption for drawing causal\ninferences, such as through marginal structural modeling. Unfortunately,\nverification of this assumption can be challenging because it usually relies on\nmultiple parametric propensity score models, unlikely all correctly specified.\nTherefore, we propose a new algorithm, called \"sequential Positivity Regression\nTree\" (sPoRT), to check this assumption with greater ease under either static\nor dynamic treatment strategies. This algorithm also identifies the subgroups\nfound to be violating this assumption, allowing for insights about the nature\nof the violations and potential solutions. We first present different versions\nof sPoRT based on either stratifying or pooling over time. Finally, we\nillustrate its use in a real-life application of HIV-positive children in\nSouthern Africa with and without pooling over time. An R notebook showing how\nto use sPoRT is available at github.com/ArthurChatton/sPoRT-notebook.\n",
+  "subjects": [
+    "Statistics/Methodology"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "fnuZbht-VuKzsof7Dhuo1a6Odc4khHdr5dPS9EOUBCM",
+  "pdfSize": "479527"
+}

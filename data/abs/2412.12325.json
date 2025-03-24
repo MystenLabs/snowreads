@@ -1,0 +1,32 @@
+{
+  "id": "2412.12325",
+  "title": "Prey-taxis vs an external signal: short-wave asymptotic and stability\n  analysis",
+  "authors": "Andrey Morgulis and Karrar Malal",
+  "authorsParsed": [
+    [
+      "Morgulis",
+      "Andrey",
+      ""
+    ],
+    [
+      "Malal",
+      "Karrar",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 16 Dec 2024 19:44:23 GMT"
+    }
+  ],
+  "updateDate": "2024-12-18",
+  "timestamp": 1734378263000,
+  "abstract": "  We consider two models of predator-prey community with prey-taxis, one relies\non Patlak-Keller-Segel law (Lee et al, 2009), the other one employs the\nCattaneo model of heat transfer following Dolak and Hillen (2003). Thus, the\nformer one uses the prey density gradient for directing the predators flux, and\nthe latter one -- for directing the vector density of sources of the predators\nflux. We assume the predators to be also capable of responding to an external\nsignal in the same manner. Additionally, we assume that some scaling makes the\ndimensionless prey diffusivity and the wavelength of the external signal small\nquantities of the same order. In the case of Cattaneo's model, we additionally\nassume the resistivity to varying the predators flux to be as high as the\nreciprocal of the prey diffusivity. With these assumptions we construct the\ncomplete asymptotic expansion of the short-wave solution. We use this\nasymptotic to examine the effect of the short-wave signal on the formation of\nspatiotemporal patterns. We do so by comparing the stability of equilibria with\nno signal to that of the quasi-equilibria, by which we mean the simplest\npatterns directly forced by the external signal. Historically, such an approach\ngoes back to Kapitza's theory for upside-down pendulum, and it had been already\napplied to examining other predator-prey systems and/or other limits (Morgulis\nand Ilin, 2020, Morgulis, 2023). This time the overall conclusion is that the\nexternal signal is likely not capable of creating the instability domain in the\nparametric space from nothing but it can substantially widen the one that is\nnon-empty with no signal. The details, however, essentially depend on the speed\nat which the external signal propagates and on the system kinetics, at least\nwhen the signal amplitude is small\n",
+  "subjects": [
+    "Quantitative Biology/Populations and Evolution"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "pajRky34yUvdX6jFTnal0V92DU5vCLK74L3L24TsEHE",
+  "pdfSize": "371518"
+}

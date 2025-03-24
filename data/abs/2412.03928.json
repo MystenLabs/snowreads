@@ -1,0 +1,54 @@
+{
+  "id": "2412.03928",
+  "title": "MT3DNet: Multi-Task learning Network for 3D Surgical Scene\n  Reconstruction",
+  "authors": "Mithun Parab, Pranay Lendave, Jiyoung Kim, Thi Quynh Dan Nguyen,\n  Palash Ingle",
+  "authorsParsed": [
+    [
+      "Parab",
+      "Mithun",
+      ""
+    ],
+    [
+      "Lendave",
+      "Pranay",
+      ""
+    ],
+    [
+      "Kim",
+      "Jiyoung",
+      ""
+    ],
+    [
+      "Nguyen",
+      "Thi Quynh Dan",
+      ""
+    ],
+    [
+      "Ingle",
+      "Palash",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 5 Dec 2024 07:07:35 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Wed, 11 Dec 2024 21:06:05 GMT"
+    }
+  ],
+  "updateDate": "2024-12-13",
+  "timestamp": 1733382455000,
+  "abstract": "  In image-assisted minimally invasive surgeries (MIS), understanding surgical\nscenes is vital for real-time feedback to surgeons, skill evaluation, and\nimproving outcomes through collaborative human-robot procedures. Within this\ncontext, the challenge lies in accurately detecting, segmenting, and estimating\nthe depth of surgical scenes depicted in high-resolution images, while\nsimultaneously reconstructing the scene in 3D and providing segmentation of\nsurgical instruments along with detection labels for each instrument. To\naddress this challenge, a novel Multi-Task Learning (MTL) network is proposed\nfor performing these tasks concurrently. A key aspect of this approach involves\novercoming the optimization hurdles associated with handling multiple tasks\nconcurrently by integrating a Adversarial Weight Update into the MTL framework,\nthe proposed MTL model achieves 3D reconstruction through the integration of\nsegmentation, depth estimation, and object detection, thereby enhancing the\nunderstanding of surgical scenes, which marks a significant advancement\ncompared to existing studies that lack 3D capabilities. Comprehensive\nexperiments on the EndoVis2018 benchmark dataset underscore the adeptness of\nthe model in efficiently addressing all three tasks, demonstrating the efficacy\nof the proposed techniques.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Human-Computer Interaction",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "WV_7qtlIPN7rz28jbArVzcBgEqb_3ccINeS8ykdXrtY",
+  "pdfSize": "8747359"
+}

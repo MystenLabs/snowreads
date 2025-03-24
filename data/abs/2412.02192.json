@@ -1,0 +1,54 @@
+{
+  "id": "2412.02192",
+  "title": "Thallus: An RDMA-based Columnar Data Transport Protocol",
+  "authors": "Jayjeet Chakraborty, Matthieu Dorier, Philip Carns, Robert Ross,\n  Carlos Maltzahn, Heiner Litz",
+  "authorsParsed": [
+    [
+      "Chakraborty",
+      "Jayjeet",
+      ""
+    ],
+    [
+      "Dorier",
+      "Matthieu",
+      ""
+    ],
+    [
+      "Carns",
+      "Philip",
+      ""
+    ],
+    [
+      "Ross",
+      "Robert",
+      ""
+    ],
+    [
+      "Maltzahn",
+      "Carlos",
+      ""
+    ],
+    [
+      "Litz",
+      "Heiner",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 3 Dec 2024 06:14:11 GMT"
+    }
+  ],
+  "updateDate": "2024-12-04",
+  "timestamp": 1733206451000,
+  "abstract": "  The volume of data generated and stored in contemporary global data centers\nis experiencing exponential growth. This rapid data growth necessitates\nefficient processing and analysis to extract valuable business insights. In\ndistributed data processing systems, data undergoes exchanges between the\ncompute servers that contribute significantly to the total data processing\nduration in adequately large clusters, necessitating efficient data transport\nprotocols. Traditionally, data transport frameworks such as JDBC and ODBC have\nused TCP/IP-over-Ethernet as their underlying network protocol. Such frameworks\nrequire serializing the data into a single contiguous buffer before handing it\noff to the network card, primarily due to the requirement of contiguous data in\nTCP/IP. In OLAP use cases, this serialization process is costly for columnar\ndata batches as it involves numerous memory copies that hurt data transport\nduration and overall data processing performance. We study the serialization\noverhead in the context of a widely-used columnar data format, Apache Arrow,\nand propose leveraging RDMA to transport Arrow data over Infiniband in a\nzero-copy manner. We design and implement Thallus, an RDMA-based columnar data\ntransport protocol for Apache Arrow based on the Thallium framework from the\nMochi ecosystem, compare it with a purely Thallium RPC-based implementation,\nand show substantial performance improvements can be achieved by using RDMA for\ncolumnar data transport.\n",
+  "subjects": [
+    "Computer Science/Distributed, Parallel, and Cluster Computing",
+    "Computer Science/Databases",
+    "Computer Science/Operating Systems"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "De7pF5RmV1_MB3ygfyLstGZAa5IwjQdcWfIuFZ-OS44",
+  "pdfSize": "481363"
+}

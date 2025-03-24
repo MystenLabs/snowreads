@@ -1,0 +1,43 @@
+{
+  "id": "2412.09504",
+  "title": "High Precision Binding Energies from Physics Informed Machine Learning",
+  "authors": "Ian Bentley, James Tedder, Marwan Gebran, Ayan Paul",
+  "authorsParsed": [
+    [
+      "Bentley",
+      "Ian",
+      ""
+    ],
+    [
+      "Tedder",
+      "James",
+      ""
+    ],
+    [
+      "Gebran",
+      "Marwan",
+      ""
+    ],
+    [
+      "Paul",
+      "Ayan",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 12 Dec 2024 17:54:34 GMT"
+    }
+  ],
+  "updateDate": "2024-12-13",
+  "timestamp": 1734026074000,
+  "abstract": "  Twelve physics informed machine learning models have been trained to model\nbinding energy residuals. Our approach begins with determining the difference\nbetween measured experimental binding energies and three different mass models.\nThen four machine learning approaches are used to train on each energy\ndifference. The most successful ML technique both in interpolation and\nextrapolation is the least squares boosted ensemble of trees. The best model\nresulting from that technique utilizes eight physical features to model the\ndifference between experimental atomic binding energy values in AME 2012 and\nthe Duflo Zucker mass model. This resulted in a model that fit the training\ndata with a standard deviation of 17 keV and that has a standard deviation of\n92 keV when compared all of the values in the AME 2020. The extrapolation\ncapability of each model is discussed and the accuracy of predicting new mass\nmeasurements has also been tested.\n",
+  "subjects": [
+    "Physics/Nuclear Theory",
+    "Physics/Computational Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "6ye6K85-BtTmGIVn1kilrA2fzxZ9oPaM1MrMfyiHSPs",
+  "pdfSize": "4657131"
+}

@@ -1,0 +1,37 @@
+{
+  "id": "2412.12970",
+  "title": "Graph Burning On Large $p$-Caterpillars",
+  "authors": "Danielle Cox, M.E. Messinger, Kerry Ojakian",
+  "authorsParsed": [
+    [
+      "Cox",
+      "Danielle",
+      ""
+    ],
+    [
+      "Messinger",
+      "M. E.",
+      ""
+    ],
+    [
+      "Ojakian",
+      "Kerry",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 17 Dec 2024 14:54:22 GMT"
+    }
+  ],
+  "updateDate": "2024-12-18",
+  "timestamp": 1734447262000,
+  "abstract": "  Graph burning models the spread of information or contagion in a graph. At\neach time step, two events occur: neighbours of already burned vertices become\nburned, and a new vertex is chosen to be burned. The big conjecture is known as\nthe {\\it burning number conjecture}: for any connected graph on $n$ vertices,\nall $n$ vertices can be burned after at most $\\lceil \\sqrt{n}\\ \\rceil$ time\nsteps. It is well-known that to prove the conjecture, it suffices to prove it\nfor trees. We prove the conjecture for sufficiently large $p$-caterpillars.\n",
+  "subjects": [
+    "Mathematics/Combinatorics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "wS6s_e9jKgjvYnWohWnsIMnVpPVtrn65Pq1rQJasK44",
+  "pdfSize": "859640"
+}

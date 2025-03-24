@@ -1,0 +1,44 @@
+{
+  "id": "2412.03775",
+  "title": "WithdrarXiv: A Large-Scale Dataset for Retraction Study",
+  "authors": "Delip Rao, Jonathan Young, Thomas Dietterich, Chris Callison-Burch",
+  "authorsParsed": [
+    [
+      "Rao",
+      "Delip",
+      ""
+    ],
+    [
+      "Young",
+      "Jonathan",
+      ""
+    ],
+    [
+      "Dietterich",
+      "Thomas",
+      ""
+    ],
+    [
+      "Callison-Burch",
+      "Chris",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 4 Dec 2024 23:36:23 GMT"
+    }
+  ],
+  "updateDate": "2024-12-06",
+  "timestamp": 1733355383000,
+  "abstract": "  Retractions play a vital role in maintaining scientific integrity, yet\nsystematic studies of retractions in computer science and other STEM fields\nremain scarce. We present WithdrarXiv, the first large-scale dataset of\nwithdrawn papers from arXiv, containing over 14,000 papers and their associated\nretraction comments spanning the repository's entire history through September\n2024. Through careful analysis of author comments, we develop a comprehensive\ntaxonomy of retraction reasons, identifying 10 distinct categories ranging from\ncritical errors to policy violations. We demonstrate a simple yet highly\naccurate zero-shot automatic categorization of retraction reasons, achieving a\nweighted average F1-score of 0.96. Additionally, we release WithdrarXiv-SciFy,\nan enriched version including scripts for parsed full-text PDFs, specifically\ndesigned to enable research in scientific feasibility studies, claim\nverification, and automated theorem proving. These findings provide valuable\ninsights for improving scientific quality control and automated verification\nsystems. Finally, and most importantly, we discuss ethical issues and take a\nnumber of steps to implement responsible data release while fostering open\nscience in this area.\n",
+  "subjects": [
+    "Computer Science/Computation and Language",
+    "Computer Science/Digital Libraries",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "OJo9ZgXaHEGLtISxxfXVJOBkEjvFlblwMVBqCQgUL9A",
+  "pdfSize": "645741"
+}

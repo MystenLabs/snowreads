@@ -1,0 +1,38 @@
+{
+  "id": "2412.17971",
+  "title": "Functional independent component analysis by choice of norm: a framework\n  for near-perfect classification",
+  "authors": "Marc Vidal, Marc Leman and Ana M. Aguilera",
+  "authorsParsed": [
+    [
+      "Vidal",
+      "Marc",
+      ""
+    ],
+    [
+      "Leman",
+      "Marc",
+      ""
+    ],
+    [
+      "Aguilera",
+      "Ana M.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 23 Dec 2024 20:35:28 GMT"
+    }
+  ],
+  "updateDate": "2024-12-25",
+  "timestamp": 1734986128000,
+  "abstract": "  We develop a theory for functional independent component analysis in an\ninfinite-dimensional framework using Sobolev spaces that accommodate smoother\nfunctions. The notion of penalized kurtosis is introduced motivated by\nSilverman's method for smoothing principal components. This approach allows for\na classical definition of independent components obtained via projection onto\nthe eigenfunctions of a smoothed kurtosis operator mapping a whitened\nfunctional random variable. We discuss the theoretical properties of this\noperator in relation to a generalized Fisher discriminant function and the\nrelationship it entails with the Feldman-H\\'ajek dichotomy for Gaussian\nmeasures, both of which are critical to the principles of functional\nclassification. The proposed estimators are a particularly competitive\nalternative in binary classification of functional data and can eventually\nachieve the so-called near-perfect classification, which is a genuine\nphenomenon of high-dimensional data. Our methods are illustrated through\nsimulations, various real datasets, and used to model electroencephalographic\nbiomarkers for the diagnosis of depressive disorder.\n",
+  "subjects": [
+    "Mathematics/Statistics Theory",
+    "Statistics/Statistics Theory"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "zwSghIvYhuK_Tmd8SCvFe2ZAOiGlMmhdu2-PhTt_zec",
+  "pdfSize": "1292405"
+}

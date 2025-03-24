@@ -1,0 +1,37 @@
+{
+  "id": "2412.17096",
+  "title": "Marangoni flow driven hysteresis and azimuthal symmetry breaking in\n  evaporating binary droplets",
+  "authors": "Duarte Rocha, Detlef Lohse and Christian Diddens",
+  "authorsParsed": [
+    [
+      "Rocha",
+      "Duarte",
+      ""
+    ],
+    [
+      "Lohse",
+      "Detlef",
+      ""
+    ],
+    [
+      "Diddens",
+      "Christian",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 22 Dec 2024 17:11:11 GMT"
+    }
+  ],
+  "updateDate": "2024-12-24",
+  "timestamp": 1734887471000,
+  "abstract": "  The non-uniform evaporation rate at the liquid-gas interface of binary\ndroplets induces solutal Marangoni flows. In glycerol-water mixtures (positive\nMarangoni number, where the more volatile fluid has higher surface tension),\nthese flows stabilise into steady patterns. Conversely, in water-ethanol\nmixtures (negative Marangoni number, where the less volatile fluid has higher\nsurface tension), Marangoni instabilities emerge, producing seemingly chaotic\nflows. This behaviour arises from the opposing signs of the Marangoni number.\nPerturbations locally reducing surface tension at the interface drive Marangoni\nflows away from the perturbed region. Incompressibility enforces a return flow,\ndrawing fluid from the bulk towards the interface. In mixtures with a negative\nMarangoni number, preferential evaporation of the lower-surface-tension\ncomponent leads to a higher concentration of the higher-surface-tension\ncomponent at the interface as compared to the bulk. The return flow therefore\ncreates a positive feedback loop, further reducing surface tension and\nenhancing the instability. We investigate bistable quasi-stationary solutions\nin evaporating binary droplets with negative Marangoni numbers and we examine\nsymmetry breaking across a range of Marangoni number and contact angles.\nRemarkably, droplets with low contact angle show instabilities at lower\ncritical Marangoni numbers than droplets with larger contact angles. Our\nnumerical simulations reveal that interactions between droplet height profiles\nand non-uniform evaporation rates trigger azimuthal Marangoni instabilities in\nflat droplets. This geometrically confined instability can even destabilise\nmixtures with positive Marangoni numbers, particularly for concave liquid-gas\ninterfaces. Finally, through Lyapunov exponent analysis, we confirm the chaotic\nnature of flows in droplets with a negative Marangoni number.\n",
+  "subjects": [
+    "Physics/Fluid Dynamics"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "ajE8jeBEDA914MIeNddKhG6-zeLsH9yfwD0fD0SENV8",
+  "pdfSize": "12029551"
+}

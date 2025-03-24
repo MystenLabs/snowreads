@@ -1,0 +1,48 @@
+{
+  "id": "2412.18857",
+  "title": "Computing Approximate Graph Edit Distance via Optimal Transport",
+  "authors": "Qihao Cheng, Da Yan, Tianhao Wu, Zhongyi Huang, Qin Zhang",
+  "authorsParsed": [
+    [
+      "Cheng",
+      "Qihao",
+      ""
+    ],
+    [
+      "Yan",
+      "Da",
+      ""
+    ],
+    [
+      "Wu",
+      "Tianhao",
+      ""
+    ],
+    [
+      "Huang",
+      "Zhongyi",
+      ""
+    ],
+    [
+      "Zhang",
+      "Qin",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 25 Dec 2024 09:55:14 GMT"
+    }
+  ],
+  "updateDate": "2024-12-30",
+  "timestamp": 1735120514000,
+  "abstract": "  Given a graph pair $(G^1, G^2)$, graph edit distance (GED) is defined as the\nminimum number of edit operations converting $G^1$ to $G^2$. GED is a\nfundamental operation widely used in many applications, but its exact\ncomputation is NP-hard, so the approximation of GED has gained a lot of\nattention. Data-driven learning-based methods have been found to provide\nsuperior results compared to classical approximate algorithms, but they\ndirectly fit the coupling relationship between a pair of vertices from their\nvertex features. We argue that while pairwise vertex features can capture the\ncoupling cost (discrepancy) of a pair of vertices, the vertex coupling matrix\nshould be derived from the vertex-pair cost matrix through a more\nwell-established method that is aware of the global context of the graph pair,\nsuch as optimal transport. In this paper, we propose an ensemble approach that\nintegrates a supervised learning-based method and an unsupervised method, both\nbased on optimal transport. Our learning method, GEDIOT, is based on inverse\noptimal transport that leverages a learnable Sinkhorn algorithm to generate the\ncoupling matrix. Our unsupervised method, GEDGW, models GED computation as a\nlinear combination of optimal transport and its variant, Gromov-Wasserstein\ndiscrepancy, for node and edge operations, respectively, which can be solved\nefficiently without needing the ground truth. Our ensemble method, GEDHOT,\ncombines GEDIOT and GEDGW to further boost the performance. Extensive\nexperiments demonstrate that our methods significantly outperform the existing\nmethods in terms of the performance of GED computation, edit path generation,\nand model generalizability.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "BPJJyXHthQIoQkCAga1hn9IPo5mIU5GZKJQ71lgU0rE",
+  "pdfSize": "2531139"
+}

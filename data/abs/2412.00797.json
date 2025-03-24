@@ -1,0 +1,38 @@
+{
+  "id": "2412.00797",
+  "title": "Online Poisoning Attack Against Reinforcement Learning under Black-box\n  Environments",
+  "authors": "Jianhui Li, Bokang Zhang, Junfeng Wu",
+  "authorsParsed": [
+    [
+      "Li",
+      "Jianhui",
+      ""
+    ],
+    [
+      "Zhang",
+      "Bokang",
+      ""
+    ],
+    [
+      "Wu",
+      "Junfeng",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 1 Dec 2024 12:43:23 GMT"
+    }
+  ],
+  "updateDate": "2024-12-03",
+  "timestamp": 1733057003000,
+  "abstract": "  This paper proposes an online environment poisoning algorithm tailored for\nreinforcement learning agents operating in a black-box setting, where an\nadversary deliberately manipulates training data to lead the agent toward a\nmischievous policy. In contrast to prior studies that primarily investigate\nwhite-box settings, we focus on a scenario characterized by \\textit{unknown}\nenvironment dynamics to the attacker and a \\textit{flexible} reinforcement\nlearning algorithm employed by the targeted agent. We first propose an attack\nscheme that is capable of poisoning the reward functions and state transitions.\nThe poisoning task is formalized as a constrained optimization problem,\nfollowing the framework of \\cite{ma2019policy}. Given the transition\nprobabilities are unknown to the attacker in a black-box environment, we apply\na stochastic gradient descent algorithm, where the exact gradients are\napproximated using sample-based estimates. A penalty-based method along with a\nbilevel reformulation is then employed to transform the problem into an\nunconstrained counterpart and to circumvent the double-sampling issue. The\nalgorithm's effectiveness is validated through a maze environment.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Computer Science/Cryptography and Security"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "ckVI4ih6x1H8DbyAbEIviih6NM-wIiLULUGzUueiMXU",
+  "pdfSize": "1795542"
+}

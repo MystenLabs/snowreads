@@ -1,0 +1,38 @@
+{
+  "id": "2412.12712",
+  "title": "Differential Games for a Mixed ODE-PDE System",
+  "authors": "Mauro Garavello, Elena Rossi, Abraham Sylla",
+  "authorsParsed": [
+    [
+      "Garavello",
+      "Mauro",
+      ""
+    ],
+    [
+      "Rossi",
+      "Elena",
+      ""
+    ],
+    [
+      "Sylla",
+      "Abraham",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 17 Dec 2024 09:27:48 GMT"
+    }
+  ],
+  "updateDate": "2024-12-18",
+  "timestamp": 1734427668000,
+  "abstract": "  Motivated by a vaccination coverage problem, we consider here a zero-sum\ndifferential game governed by a differential system consisting of a hyperbolic\npartial differential equation (PDE) and an ordinary differential equation\n(ODE). Two players act through their respective controls to influence the\nevolution of the system with the aim of minimizing their objective functionals\n$\\mathcal F_1$ and $\\mathcal F_2$, under the assumption that $\\mathcal F_1\n+\\mathcal F_2 = 0$. First we prove a well posedness and a stability result for\nthe differential system, once the control functions are fixed. Then we\nintroduce the concept of non-anticipating strategies for both players and we\nconsider the associated value functions, which solve two infinite-dimensional\nHamilton-Jacobi-Isaacs equations in the viscosity sense.\n",
+  "subjects": [
+    "Mathematics/Analysis of PDEs",
+    "Mathematics/Optimization and Control"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "8DdhlXRDfp5zqCbLKigbYYG_feyywh3isNG3wxYuNUE",
+  "pdfSize": "356745"
+}

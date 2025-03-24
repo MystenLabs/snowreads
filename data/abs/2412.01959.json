@@ -1,0 +1,31 @@
+{
+  "id": "2412.01959",
+  "title": "Development and Application of a Decentralized Domain Name Service",
+  "authors": "Guang Yang",
+  "authorsParsed": [
+    [
+      "Yang",
+      "Guang",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 2 Dec 2024 20:39:56 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Tue, 24 Dec 2024 00:46:00 GMT"
+    }
+  ],
+  "updateDate": "2024-12-25",
+  "timestamp": 1733171996000,
+  "abstract": "  The current Domain Name System (DNS), as a core infrastructure of the\ninternet, exhibits several shortcomings: its centralized architecture leads to\ncensorship risks and single points of failure, making domain name resolution\nvulnerable to attacks. The lack of encryption in the resolution process exposes\nit to DNS hijacking and cache poisoning attacks. Additionally, the high\noperational costs limit participation and innovation among small to\nmedium-sized users. To address these issues, this paper proposes a\nDecentralized Domain Name Service (DDNS) based on blockchain (Phicoin) and\ndistributed storage (IPFS). By leveraging the immutability of blockchain and\nthe content verification of IPFS, the system achieves decentralized storage and\ndistribution of domain name records, eliminating the centralized dependencies\nof traditional DNS. With a block time of 15 seconds, the system supports rapid\nbroadcasting of domain name updates, significantly improving resolution\nefficiency. The DDNS aims to serve as a complement or backup to the existing\nDNS system, providing a pollution-resistant, censorship-resistant,\nhigh-performance, and low-cost domain name resolution solution, offering a new\ntechnical path for the security and stability of the internet.\n",
+  "subjects": [
+    "Computer Science/Networking and Internet Architecture"
+  ],
+  "license": "http://creativecommons.org/licenses/by-sa/4.0/",
+  "blobId": "UI5-oXGlnh_9VUZO7d3eZQ14beZhWH0ZpJAIvxgiGWg",
+  "pdfSize": "575971"
+}

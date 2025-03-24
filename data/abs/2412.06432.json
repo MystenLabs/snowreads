@@ -1,0 +1,43 @@
+{
+  "id": "2412.06432",
+  "title": "Integrating Expert Labels into LLM-based Emission Goal Detection:\n  Example Selection vs Automatic Prompt Design",
+  "authors": "Marco Wrzalik, Adrian Ulges, Anne Uersfeld, Florian Faust",
+  "authorsParsed": [
+    [
+      "Wrzalik",
+      "Marco",
+      ""
+    ],
+    [
+      "Ulges",
+      "Adrian",
+      ""
+    ],
+    [
+      "Uersfeld",
+      "Anne",
+      ""
+    ],
+    [
+      "Faust",
+      "Florian",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 9 Dec 2024 12:20:33 GMT"
+    }
+  ],
+  "updateDate": "2024-12-10",
+  "timestamp": 1733746833000,
+  "abstract": "  We address the detection of emission reduction goals in corporate reports, an\nimportant task for monitoring companies' progress in addressing climate change.\nSpecifically, we focus on the issue of integrating expert feedback in the form\nof labeled example passages into LLM-based pipelines, and compare the two\nstrategies of (1) a dynamic selection of few-shot examples and (2) the\nautomatic optimization of the prompt by the LLM itself. Our findings on a\npublic dataset of 769 climate-related passages from real-world business reports\nindicate that automatic prompt optimization is the superior approach, while\ncombining both methods provides only limited benefit. Qualitative results\nindicate that optimized prompts do indeed capture many intricacies of the\ntargeted emission goal extraction task.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Computer Science/Computation and Language"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "pPDuwqzcXC99F2Ck71JF9nGXWLaVrHgpElHPIojNPuE",
+  "pdfSize": "100416"
+}

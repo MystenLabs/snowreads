@@ -1,0 +1,39 @@
+{
+  "id": "2412.15956",
+  "title": "Black-Box Uniform Stability for Non-Euclidean Empirical Risk\n  Minimization",
+  "authors": "Simon Vary, David Mart\\'inez-Rubio, Patrick Rebeschini",
+  "authorsParsed": [
+    [
+      "Vary",
+      "Simon",
+      ""
+    ],
+    [
+      "Martínez-Rubio",
+      "David",
+      ""
+    ],
+    [
+      "Rebeschini",
+      "Patrick",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 20 Dec 2024 14:50:47 GMT"
+    }
+  ],
+  "updateDate": "2024-12-23",
+  "timestamp": 1734706247000,
+  "abstract": "  We study first-order algorithms that are uniformly stable for empirical risk\nminimization (ERM) problems that are convex and smooth with respect to\n$p$-norms, $p \\geq 1$. We propose a black-box reduction method that, by\nemploying properties of uniformly convex regularizers, turns an optimization\nalgorithm for H\\\"older smooth convex losses into a uniformly stable learning\nalgorithm with optimal statistical risk bounds on the excess risk, up to a\nconstant factor depending on $p$. Achieving a black-box reduction for uniform\nstability was posed as an open question by (Attia and Koren, 2022), which had\nsolved the Euclidean case $p=2$. We explore applications that leverage\nnon-Euclidean geometry in addressing binary classification problems.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Mathematics/Optimization and Control",
+    "Statistics/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "WPTZL8XbjgPHgpPrzvu6KkUp0K6HS_F7oJlvEMx7ac0",
+  "pdfSize": "530378"
+}

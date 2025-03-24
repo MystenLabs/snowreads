@@ -1,0 +1,41 @@
+{
+  "id": "2412.10944",
+  "title": "Sequential Diversification with Provable Guarantees",
+  "authors": "Honglian Wang, Sijing Tu, Aristides Gionis",
+  "authorsParsed": [
+    [
+      "Wang",
+      "Honglian",
+      ""
+    ],
+    [
+      "Tu",
+      "Sijing",
+      ""
+    ],
+    [
+      "Gionis",
+      "Aristides",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 14 Dec 2024 19:39:02 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Mon, 17 Feb 2025 10:32:38 GMT"
+    }
+  ],
+  "updateDate": "2025-02-18",
+  "timestamp": 1734205142000,
+  "abstract": "  Diversification is a useful tool for exploring large collections of\ninformation items. It has been used to reduce redundancy and cover multiple\nperspectives in information-search settings. Diversification finds applications\nin many different domains, including presenting search results of\ninformation-retrieval systems and selecting suggestions for recommender\nsystems.\n  Interestingly, existing measures of diversity are defined over \\emph{sets} of\nitems, rather than evaluating \\emph{sequences} of items. This design choice\ncomes in contrast with commonly-used relevance measures, which are distinctly\ndefined over sequences of items, taking into account the ranking of items. The\nimportance of employing sequential measures is that information items are\nalmost always presented in a sequential manner, and during their\ninformation-exploration activity users tend to prioritize items with\nhigher~ranking.\n  In this paper, we study the problem of \\emph{maximizing sequential\ndiversity}. This is a new measure of \\emph{diversity}, which accounts for the\n\\emph{ranking} of the items, and incorporates \\emph{item relevance} and\n\\emph{user behavior}. The overarching framework can be instantiated with\ndifferent diversity measures, and here we consider the measures of\n\\emph{sum~diversity} and \\emph{coverage~diversity}. The problem was recently\nproposed by Coppolillo et al.~\\citep{coppolillo2024relevance}, where they\nintroduce empirical methods that work well in practice. Our paper is a\ntheoretical treatment of the problem: we establish the problem hardness and\npresent algorithms with constant approximation guarantees for both diversity\nmeasures we consider. Experimentally, we demonstrate that our methods are\ncompetitive against strong baselines.\n",
+  "subjects": [
+    "Computer Science/Data Structures and Algorithms"
+  ],
+  "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+  "blobId": "PWDmqd4mr8DEthCbZIbuEq73iLs8NeXrrDlmmtDnAbI",
+  "pdfSize": "423022"
+}

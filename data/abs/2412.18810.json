@@ -1,0 +1,47 @@
+{
+  "id": "2412.18810",
+  "title": "DebiasDiff: Debiasing Text-to-image Diffusion Models with\n  Self-discovering Latent Attribute Directions",
+  "authors": "Yilei Jiang, Weihong Li, Yiyuan Zhang, Minghong Cai, Xiangyu Yue",
+  "authorsParsed": [
+    [
+      "Jiang",
+      "Yilei",
+      ""
+    ],
+    [
+      "Li",
+      "Weihong",
+      ""
+    ],
+    [
+      "Zhang",
+      "Yiyuan",
+      ""
+    ],
+    [
+      "Cai",
+      "Minghong",
+      ""
+    ],
+    [
+      "Yue",
+      "Xiangyu",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 25 Dec 2024 07:30:20 GMT"
+    }
+  ],
+  "updateDate": "2024-12-30",
+  "timestamp": 1735111820000,
+  "abstract": "  While Diffusion Models (DM) exhibit remarkable performance across various\nimage generative tasks, they nonetheless reflect the inherent bias presented in\nthe training set. As DMs are now widely used in real-world applications, these\nbiases could perpetuate a distorted worldview and hinder opportunities for\nminority groups. Existing methods on debiasing DMs usually requires model\nre-training with a human-crafted reference dataset or additional classifiers,\nwhich suffer from two major limitations: (1) collecting reference datasets\ncauses expensive annotation cost; (2) the debiasing performance is heavily\nconstrained by the quality of the reference dataset or the additional\nclassifier. To address the above limitations, we propose DebiasDiff, a\nplug-and-play method that learns attribute latent directions in a\nself-discovering manner, thus eliminating the reliance on such reference\ndataset. Specifically, DebiasDiff consists of two parts: a set of attribute\nadapters and a distribution indicator. Each adapter in the set aims to learn an\nattribute latent direction, and is optimized via noise composition through a\nself-discovering process. Then, the distribution indicator is multiplied by the\nset of adapters to guide the generation process towards the prescribed\ndistribution. Our method enables debiasing multiple attributes in DMs\nsimultaneously, while remaining lightweight and easily integrable with other\nDMs, eliminating the need for re-training. Extensive experiments on debiasing\ngender, racial, and their intersectional biases show that our method\noutperforms previous SOTA by a large margin.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "kyqvQeBR9AyDFQ--nxsWi5ZTbAYkgqoF5LAiMiYq7x8",
+  "pdfSize": "3159165"
+}

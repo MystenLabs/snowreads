@@ -1,0 +1,53 @@
+{
+  "id": "2412.14718",
+  "title": "A Comprehensive Forecasting Framework based on Multi-Stage Hierarchical\n  Forecasting Reconciliation and Adjustment",
+  "authors": "Zhengchao Yang, Mithun Ghosh, Anish Saha, Dong Xu, Konstantin Shmakov,\n  Kuang-chih Lee",
+  "authorsParsed": [
+    [
+      "Yang",
+      "Zhengchao",
+      ""
+    ],
+    [
+      "Ghosh",
+      "Mithun",
+      ""
+    ],
+    [
+      "Saha",
+      "Anish",
+      ""
+    ],
+    [
+      "Xu",
+      "Dong",
+      ""
+    ],
+    [
+      "Shmakov",
+      "Konstantin",
+      ""
+    ],
+    [
+      "Lee",
+      "Kuang-chih",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 19 Dec 2024 10:33:19 GMT"
+    }
+  ],
+  "updateDate": "2024-12-20",
+  "timestamp": 1734604399000,
+  "abstract": "  Ads demand forecasting for Walmart's ad products plays a critical role in\nenabling effective resource planning, allocation, and management of ads\nperformance. In this paper, we introduce a comprehensive demand forecasting\nsystem that tackles hierarchical time series forecasting in business settings.\nThough traditional hierarchical reconciliation methods ensure forecasting\ncoherence, they often trade off accuracy for coherence especially at lower\nlevels and fail to capture the seasonality unique to each time-series in the\nhierarchy. Thus, we propose a novel framework \"Multi-Stage Hierarchical\nForecasting Reconciliation and Adjustment (Multi-Stage HiFoReAd)\" to address\nthe challenges of preserving seasonality, ensuring coherence, and improving\naccuracy. Our system first utilizes diverse models, ensembled through Bayesian\nOptimization (BO), achieving base forecasts. The generated base forecasts are\nthen passed into the Multi-Stage HiFoReAd framework. The initial stage refines\nthe hierarchy using Top-Down forecasts and \"harmonic alignment.\" The second\nstage aligns the higher levels' forecasts using MinTrace algorithm, following\nwhich the last two levels undergo \"harmonic alignment\" and \"stratified\nscaling\", to eventually achieve accurate and coherent forecasts across the\nwhole hierarchy. Our experiments on Walmart's internal Ads-demand dataset and 3\nother public datasets, each with 4 hierarchical levels, demonstrate that the\naverage Absolute Percentage Error from the cross-validation sets improve from\n3% to 40% across levels against BO-ensemble of models (LGBM, MSTL+ETS, Prophet)\nas well as from 1.2% to 92.9% against State-Of-The-Art models. In addition, the\nforecasts at all hierarchical levels are proved to be coherent. The proposed\nframework has been deployed and leveraged by Walmart's ads, sales and\noperations teams to track future demands, make informed decisions and plan\nresources.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Computer Science/Distributed, Parallel, and Cluster Computing"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "90wkouDubdtE6ApMEbJq6Eg0N0pdERwRq7FlNdcCUvI",
+  "pdfSize": "2874765"
+}

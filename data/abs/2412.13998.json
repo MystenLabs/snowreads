@@ -1,0 +1,43 @@
+{
+  "id": "2412.13998",
+  "title": "Few-shot Steerable Alignment: Adapting Rewards and LLM Policies with\n  Neural Processes",
+  "authors": "Katarzyna Kobalczyk, Claudio Fanconi, Hao Sun, Mihaela van der Schaar",
+  "authorsParsed": [
+    [
+      "Kobalczyk",
+      "Katarzyna",
+      ""
+    ],
+    [
+      "Fanconi",
+      "Claudio",
+      ""
+    ],
+    [
+      "Sun",
+      "Hao",
+      ""
+    ],
+    [
+      "van der Schaar",
+      "Mihaela",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 18 Dec 2024 16:14:59 GMT"
+    }
+  ],
+  "updateDate": "2024-12-19",
+  "timestamp": 1734538499000,
+  "abstract": "  As large language models (LLMs) become increasingly embedded in everyday\napplications, ensuring their alignment with the diverse preferences of\nindividual users has become a critical challenge. Currently deployed approaches\ntypically assume homogeneous user objectives and rely on single-objective\nfine-tuning. However, human preferences are inherently heterogeneous,\ninfluenced by various unobservable factors, leading to conflicting signals in\npreference data. Existing solutions addressing this diversity often require\ncostly datasets labelled for specific objectives and involve training multiple\nreward models or LLM policies, which is computationally expensive and\nimpractical. In this work, we present a novel framework for few-shot steerable\nalignment, where users' underlying preferences are inferred from a small sample\nof their choices. To achieve this, we extend the Bradley-Terry-Luce model to\nhandle heterogeneous preferences with unobserved variability factors and\npropose its practical implementation for reward modelling and LLM fine-tuning.\nThanks to our proposed approach of functional parameter-space conditioning,\nLLMs trained with our framework can be adapted to individual preferences at\ninference time, generating outputs over a continuum of behavioural modes. We\nempirically validate the effectiveness of methods, demonstrating their ability\nto capture and align with diverse human preferences in a data-efficient manner.\nOur code is made available at:\nhttps://github.com/kasia-kobalczyk/few-shot-steerable-alignment.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "vcgZvleZkniqfbMiKNdm_IcPRDyy7djFAbCX8z_BZms",
+  "pdfSize": "1232089"
+}

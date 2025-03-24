@@ -1,0 +1,66 @@
+{
+  "id": "2412.16844",
+  "title": "Sim911: Towards Effective and Equitable 9-1-1 Dispatcher Training with\n  an LLM-Enabled Simulation",
+  "authors": "Zirong Chen, Elizabeth Chason, Noah Mladenovski, Erin Wilson, Kristin\n  Mullen, Stephen Martini, Meiyi Ma",
+  "authorsParsed": [
+    [
+      "Chen",
+      "Zirong",
+      ""
+    ],
+    [
+      "Chason",
+      "Elizabeth",
+      ""
+    ],
+    [
+      "Mladenovski",
+      "Noah",
+      ""
+    ],
+    [
+      "Wilson",
+      "Erin",
+      ""
+    ],
+    [
+      "Mullen",
+      "Kristin",
+      ""
+    ],
+    [
+      "Martini",
+      "Stephen",
+      ""
+    ],
+    [
+      "Ma",
+      "Meiyi",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 22 Dec 2024 03:43:51 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Tue, 24 Dec 2024 03:02:32 GMT"
+    },
+    {
+      "version": "v3",
+      "created": "Thu, 26 Dec 2024 04:41:11 GMT"
+    }
+  ],
+  "updateDate": "2024-12-30",
+  "timestamp": 1734839031000,
+  "abstract": "  Emergency response services are vital for enhancing public safety by\nsafeguarding the environment, property, and human lives. As frontline members\nof these services, 9-1-1 dispatchers have a direct impact on response times and\nthe overall effectiveness of emergency operations. However, traditional\ndispatcher training methods, which rely on role-playing by experienced\npersonnel, are labor-intensive, time-consuming, and often neglect the specific\nneeds of underserved communities. To address these challenges, we introduce\nSim911, the first training simulation for 9-1-1 dispatchers powered by Large\nLanguage Models (LLMs). Sim911 enhances training through three key technical\ninnovations: (1) knowledge construction, which utilizes archived 9-1-1 call\ndata to generate simulations that closely mirror real-world scenarios; (2)\ncontext-aware controlled generation, which employs dynamic prompts and vector\nbases to ensure that LLM behavior aligns with training objectives; and (3)\nvalidation with looped correction, which filters out low-quality responses and\nrefines the system performance.\n",
+  "subjects": [
+    "Computer Science/Computation and Language",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "Jx_psSk0T_oSaXYbpykxRwNhXVJJzGIjoay7nn4VzJk",
+  "pdfSize": "11577852"
+}

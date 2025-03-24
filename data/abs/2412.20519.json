@@ -1,0 +1,39 @@
+{
+  "id": "2412.20519",
+  "title": "Goal-Conditioned Data Augmentation for Offline Reinforcement Learning",
+  "authors": "Xingshuai Huang, Di Wu Member, and Benoit Boulet",
+  "authorsParsed": [
+    [
+      "Huang",
+      "Xingshuai",
+      ""
+    ],
+    [
+      "Member",
+      "Di Wu",
+      ""
+    ],
+    [
+      "Boulet",
+      "Benoit",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 29 Dec 2024 16:42:30 GMT"
+    }
+  ],
+  "updateDate": "2024-12-31",
+  "timestamp": 1735490550000,
+  "abstract": "  Offline reinforcement learning (RL) enables policy learning from\npre-collected offline datasets, relaxing the need to interact directly with the\nenvironment. However, limited by the quality of offline datasets, it generally\nfails to learn well-qualified policies in suboptimal datasets. To address\ndatasets with insufficient optimal demonstrations, we introduce\nGoal-cOnditioned Data Augmentation (GODA), a novel goal-conditioned\ndiffusion-based method for augmenting samples with higher quality. Leveraging\nrecent advancements in generative modeling, GODA incorporates a novel\nreturn-oriented goal condition with various selection mechanisms. Specifically,\nwe introduce a controllable scaling technique to provide enhanced return-based\nguidance during data sampling. GODA learns a comprehensive distribution\nrepresentation of the original offline datasets while generating new data with\nselectively higher-return goals, thereby maximizing the utility of limited\noptimal demonstrations. Furthermore, we propose a novel adaptive gated\nconditioning method for processing noised inputs and conditions, enhancing the\ncapture of goal-oriented guidance. We conduct experiments on the D4RL benchmark\nand real-world challenges, specifically traffic signal control (TSC) tasks, to\ndemonstrate GODA's effectiveness in enhancing data quality and superior\nperformance compared to state-of-the-art data augmentation methods across\nvarious offline RL algorithms.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Robotics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "mTTZ2vfnxQRkYPFj6IR5HhW-nSiuxXSSCK1ispWyMps",
+  "pdfSize": "12332314"
+}

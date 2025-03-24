@@ -1,0 +1,50 @@
+{
+  "id": "2412.07327",
+  "title": "Gradient Diffusion: Enhancing Existing Neural Models with Homeostatic\n  Control and Tuning",
+  "authors": "Lennart P. L. Landsmeer, Mario Negrello, Said Hamdioui, Christos\n  Strydis",
+  "authorsParsed": [
+    [
+      "Landsmeer",
+      "Lennart P. L.",
+      ""
+    ],
+    [
+      "Negrello",
+      "Mario",
+      ""
+    ],
+    [
+      "Hamdioui",
+      "Said",
+      ""
+    ],
+    [
+      "Strydis",
+      "Christos",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 10 Dec 2024 09:17:22 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Wed, 11 Dec 2024 19:42:27 GMT"
+    },
+    {
+      "version": "v3",
+      "created": "Tue, 7 Jan 2025 14:27:38 GMT"
+    }
+  ],
+  "updateDate": "2025-01-08",
+  "timestamp": 1733822242000,
+  "abstract": "  Realistic brain modeling requires precise estimation of numerous unobserved\nparameters, a task hindered by complex nonlinearities and the inaccessibility\nof the brain's full dynamical state. Current multicompartmental-model\nsimulations predominantly rely on gradient-free optimization methods, which\nsuffer from the ``curse of dimensionality'' and are incompatible with online\ntuning crucial for emulating biological homeostasis. Gradient-based methods\noffer superior scalability and facilitate online adaptation but are currently\ninaccessible within existing brain simulators due to the significant resource\ninvestment and incompatibility with established simulators. This work\nintroduces a novel methodology for computing parameter gradients for any\nexisting model-and-simulator combination, enabling both offline and online\ntuning, including the implementation of homeostatic-control mechanisms. Our\napproach seamlessly integrates traditional simulations with gradient-based\noptimization, facilitating scalable, robust and adaptive brain simulation\nwithout the need for developing new simulators.\n",
+  "subjects": [
+    "Quantitative Biology/Neurons and Cognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "whPmK4GSEJGX3qO_O7VKa90KKjVIEYjXmGrKpLGQBiA",
+  "pdfSize": "1110007"
+}

@@ -1,0 +1,51 @@
+{
+  "id": "2412.11000",
+  "title": "Upper limit of spin relaxation in suspended graphene",
+  "authors": "Aron W. Cummings, Simon M.-M. Dubois, Pedro Alc\\'azar Guerrero,\n  Jean-Christophe Charlier, and Stephan Roche",
+  "authorsParsed": [
+    [
+      "Cummings",
+      "Aron W.",
+      ""
+    ],
+    [
+      "Dubois",
+      "Simon M. -M.",
+      ""
+    ],
+    [
+      "Guerrero",
+      "Pedro Alcázar",
+      ""
+    ],
+    [
+      "Charlier",
+      "Jean-Christophe",
+      ""
+    ],
+    [
+      "Roche",
+      "Stephan",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 15 Dec 2024 00:19:30 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Fri, 20 Dec 2024 21:24:22 GMT"
+    }
+  ],
+  "updateDate": "2024-12-30",
+  "timestamp": 1734221970000,
+  "abstract": "  We use a combination of molecular dynamics and quantum transport simulations\nto investigate the upper limit of spin transport in suspended graphene. We find\nthat thermally-induced atomic-scale corrugations are the dominant factor,\nlimiting spin lifetimes to ~10 ns by inducing a strongly-varying local\nspin-orbit coupling. These extremely short-range corrugations appear even when\nthe height profile appears to be smooth, suggesting they may be present in any\ngraphene device. We discuss our results in the context of experiments, and\nbriefly consider approaches to suppress these short-range corrugations and\nfurther enhance spin lifetimes in graphene-based spin devices.\n",
+  "subjects": [
+    "Condensed Matter/Mesoscale and Nanoscale Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "TAkBgvkNFJvC4vT8b0Gweo-1lnOZIVTeymrzmgbTmgI",
+  "pdfSize": "12173283"
+}

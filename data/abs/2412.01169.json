@@ -1,0 +1,60 @@
+{
+  "id": "2412.01169",
+  "title": "OmniFlow: Any-to-Any Generation with Multi-Modal Rectified Flows",
+  "authors": "Shufan Li, Konstantinos Kallidromitis, Akash Gokul, Zichun Liao,\n  Yusuke Kato, Kazuki Kozuka, Aditya Grover",
+  "authorsParsed": [
+    [
+      "Li",
+      "Shufan",
+      ""
+    ],
+    [
+      "Kallidromitis",
+      "Konstantinos",
+      ""
+    ],
+    [
+      "Gokul",
+      "Akash",
+      ""
+    ],
+    [
+      "Liao",
+      "Zichun",
+      ""
+    ],
+    [
+      "Kato",
+      "Yusuke",
+      ""
+    ],
+    [
+      "Kozuka",
+      "Kazuki",
+      ""
+    ],
+    [
+      "Grover",
+      "Aditya",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 2 Dec 2024 06:13:01 GMT"
+    }
+  ],
+  "updateDate": "2024-12-03",
+  "timestamp": 1733119981000,
+  "abstract": "  We introduce OmniFlow, a novel generative model designed for any-to-any\ngeneration tasks such as text-to-image, text-to-audio, and audio-to-image\nsynthesis. OmniFlow advances the rectified flow (RF) framework used in\ntext-to-image models to handle the joint distribution of multiple modalities.\nIt outperforms previous any-to-any models on a wide range of tasks, such as\ntext-to-image and text-to-audio synthesis. Our work offers three key\ncontributions: First, we extend RF to a multi-modal setting and introduce a\nnovel guidance mechanism, enabling users to flexibly control the alignment\nbetween different modalities in the generated outputs. Second, we propose a\nnovel architecture that extends the text-to-image MMDiT architecture of Stable\nDiffusion 3 and enables audio and text generation. The extended modules can be\nefficiently pretrained individually and merged with the vanilla text-to-image\nMMDiT for fine-tuning. Lastly, we conduct a comprehensive study on the design\nchoices of rectified flow transformers for large-scale audio and text\ngeneration, providing valuable insights into optimizing performance across\ndiverse modalities. The Code will be available at\nhttps://github.com/jacklishufan/OmniFlows.\n",
+  "subjects": [
+    "Computer Science/Multimedia",
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Sound",
+    "Electrical Engineering and Systems Science/Audio and Speech Processing"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "SjLHtQ-9HOzFyb2rpTqPl9v7CgIXllfeVyZDqQReTrU",
+  "pdfSize": "5000673"
+}

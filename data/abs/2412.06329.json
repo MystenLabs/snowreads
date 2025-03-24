@@ -1,0 +1,77 @@
+{
+  "id": "2412.06329",
+  "title": "Normalizing Flows are Capable Generative Models",
+  "authors": "Shuangfei Zhai, Ruixiang Zhang, Preetum Nakkiran, David Berthelot,\n  Jiatao Gu, Huangjie Zheng, Tianrong Chen, Miguel Angel Bautista, Navdeep\n  Jaitly, Josh Susskind",
+  "authorsParsed": [
+    [
+      "Zhai",
+      "Shuangfei",
+      ""
+    ],
+    [
+      "Zhang",
+      "Ruixiang",
+      ""
+    ],
+    [
+      "Nakkiran",
+      "Preetum",
+      ""
+    ],
+    [
+      "Berthelot",
+      "David",
+      ""
+    ],
+    [
+      "Gu",
+      "Jiatao",
+      ""
+    ],
+    [
+      "Zheng",
+      "Huangjie",
+      ""
+    ],
+    [
+      "Chen",
+      "Tianrong",
+      ""
+    ],
+    [
+      "Bautista",
+      "Miguel Angel",
+      ""
+    ],
+    [
+      "Jaitly",
+      "Navdeep",
+      ""
+    ],
+    [
+      "Susskind",
+      "Josh",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 9 Dec 2024 09:28:06 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Tue, 10 Dec 2024 03:19:52 GMT"
+    }
+  ],
+  "updateDate": "2024-12-11",
+  "timestamp": 1733736486000,
+  "abstract": "  Normalizing Flows (NFs) are likelihood-based models for continuous inputs.\nThey have demonstrated promising results on both density estimation and\ngenerative modeling tasks, but have received relatively little attention in\nrecent years. In this work, we demonstrate that NFs are more powerful than\npreviously believed. We present TarFlow: a simple and scalable architecture\nthat enables highly performant NF models. TarFlow can be thought of as a\nTransformer-based variant of Masked Autoregressive Flows (MAFs): it consists of\na stack of autoregressive Transformer blocks on image patches, alternating the\nautoregression direction between layers. TarFlow is straightforward to train\nend-to-end, and capable of directly modeling and generating pixels. We also\npropose three key techniques to improve sample quality: Gaussian noise\naugmentation during training, a post training denoising procedure, and an\neffective guidance method for both class-conditional and unconditional\nsettings. Putting these together, TarFlow sets new state-of-the-art results on\nlikelihood estimation for images, beating the previous best methods by a large\nmargin, and generates samples with quality and diversity comparable to\ndiffusion models, for the first time with a stand-alone NF model. We make our\ncode available at https://github.com/apple/ml-tarflow.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "fqqRXN7hWPXWohPqHF2CVFou10FiZ7AuCbecjHueqNs",
+  "pdfSize": "11980564"
+}

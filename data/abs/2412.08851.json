@@ -1,0 +1,58 @@
+{
+  "id": "2412.08851",
+  "title": "Quantum Kernel-Based Long Short-term Memory for Climate Time-Series\n  Forecasting",
+  "authors": "Yu-Chao Hsu, Nan-Yow Chen, Tai-Yu Li, Po-Heng (Henry) Lee, Kuan-Cheng\n  Chen",
+  "authorsParsed": [
+    [
+      "Hsu",
+      "Yu-Chao",
+      "",
+      "Henry"
+    ],
+    [
+      "Chen",
+      "Nan-Yow",
+      "",
+      "Henry"
+    ],
+    [
+      "Li",
+      "Tai-Yu",
+      "",
+      "Henry"
+    ],
+    [
+      "Po-Heng",
+      "",
+      "",
+      "Henry"
+    ],
+    [
+      "Lee",
+      "",
+      ""
+    ],
+    [
+      "Chen",
+      "Kuan-Cheng",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 12 Dec 2024 01:16:52 GMT"
+    }
+  ],
+  "updateDate": "2024-12-13",
+  "timestamp": 1733966212000,
+  "abstract": "  We present the Quantum Kernel-Based Long short-memory (QK-LSTM) network,\nwhich integrates quantum kernel methods into classical LSTM architectures to\nenhance predictive accuracy and computational efficiency in climate time-series\nforecasting tasks, such as Air Quality Index (AQI) prediction. By embedding\nclassical inputs into high-dimensional quantum feature spaces, QK-LSTM captures\nintricate nonlinear dependencies and temporal dynamics with fewer trainable\nparameters. Leveraging quantum kernel methods allows for efficient computation\nof inner products in quantum spaces, addressing the computational challenges\nfaced by classical models and variational quantum circuit-based models.\nDesigned for the Noisy Intermediate-Scale Quantum (NISQ) era, QK-LSTM supports\nscalable hybrid quantum-classical implementations. Experimental results\ndemonstrate that QK-LSTM outperforms classical LSTM networks in AQI\nforecasting, showcasing its potential for environmental monitoring and\nresource-constrained scenarios, while highlighting the broader applicability of\nquantum-enhanced machine learning frameworks in tackling large-scale,\nhigh-dimensional climate datasets.\n",
+  "subjects": [
+    "Physics/Quantum Physics",
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "EN63dJHzg1scLl1CzNmHil0RWXcXvuiOiGP2BkGdO5k",
+  "pdfSize": "3627098"
+}

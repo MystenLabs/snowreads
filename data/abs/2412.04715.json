@@ -1,0 +1,50 @@
+{
+  "id": "2412.04715",
+  "title": "Addressing Attribute Leakages in Diffusion-based Image Editing without\n  Training",
+  "authors": "Sunung Mun, Jinhwan Nam, Sunghyun Cho, Jungseul Ok",
+  "authorsParsed": [
+    [
+      "Mun",
+      "Sunung",
+      ""
+    ],
+    [
+      "Nam",
+      "Jinhwan",
+      ""
+    ],
+    [
+      "Cho",
+      "Sunghyun",
+      ""
+    ],
+    [
+      "Ok",
+      "Jungseul",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 6 Dec 2024 02:10:07 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Tue, 10 Dec 2024 13:10:18 GMT"
+    },
+    {
+      "version": "v3",
+      "created": "Thu, 12 Dec 2024 04:32:38 GMT"
+    }
+  ],
+  "updateDate": "2024-12-13",
+  "timestamp": 1733451007000,
+  "abstract": "  Diffusion models have become a cornerstone in image editing, offering\nflexibility with language prompts and source images. However, a key challenge\nis attribute leakage, where unintended modifications occur in non-target\nregions or within target regions due to attribute interference. Existing\nmethods often suffer from leakage due to naive text embeddings and inadequate\nhandling of End-of-Sequence (EOS) token embeddings. To address this, we propose\nALE-Edit (Attribute-leakage-free editing), a novel framework to minimize\nattribute leakage with three components: (1) Object-Restricted Embeddings (ORE)\nto localize object-specific attributes in text embeddings, (2) Region-Guided\nBlending for Cross-Attention Masking (RGB-CAM) to align attention with target\nregions, and (3) Background Blending (BB) to preserve non-edited regions.\nAdditionally, we introduce ALE-Bench, a benchmark for evaluating attribute\nleakage with new metrics for target-external and target-internal leakage.\nExperiments demonstrate that our framework significantly reduces attribute\nleakage while maintaining high editing quality, providing an efficient and\ntuning-free solution for multi-object image editing.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "cZB9BbgMX00fHW2tnituEqbglmYvWVtK2byhKyF45w0",
+  "pdfSize": "17781944"
+}

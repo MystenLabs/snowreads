@@ -1,0 +1,37 @@
+{
+  "id": "2412.20790",
+  "title": "Frequency-Masked Embedding Inference: A Non-Contrastive Approach for\n  Time Series Representation Learning",
+  "authors": "En Fu, Yanyan Hu",
+  "authorsParsed": [
+    [
+      "Fu",
+      "En",
+      ""
+    ],
+    [
+      "Hu",
+      "Yanyan",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 30 Dec 2024 08:12:17 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Mon, 6 Jan 2025 12:17:43 GMT"
+    }
+  ],
+  "updateDate": "2025-01-07",
+  "timestamp": 1735546337000,
+  "abstract": "  Contrastive learning underpins most current self-supervised time series\nrepresentation methods. The strategy for constructing positive and negative\nsample pairs significantly affects the final representation quality. However,\ndue to the continuous nature of time series semantics, the modeling approach of\ncontrastive learning struggles to accommodate the characteristics of time\nseries data. This results in issues such as difficulties in constructing hard\nnegative samples and the potential introduction of inappropriate biases during\npositive sample construction. Although some recent works have developed several\nscientific strategies for constructing positive and negative sample pairs with\nimproved effectiveness, they remain constrained by the contrastive learning\nframework. To fundamentally overcome the limitations of contrastive learning,\nthis paper introduces Frequency-masked Embedding Inference (FEI), a novel\nnon-contrastive method that completely eliminates the need for positive and\nnegative samples. The proposed FEI constructs 2 inference branches based on a\nprompting strategy: 1) Using frequency masking as prompts to infer the\nembedding representation of the target series with missing frequency bands in\nthe embedding space, and 2) Using the target series as prompts to infer its\nfrequency masking embedding. In this way, FEI enables continuous semantic\nrelationship modeling for time series. Experiments on 8 widely used time series\ndatasets for classification and regression tasks, using linear evaluation and\nend-to-end fine-tuning, show that FEI significantly outperforms existing\ncontrastive-based methods in terms of generalization. This study provides new\ninsights into self-supervised representation learning for time series. The code\nis available at\nhttps://github.com/USTBInnovationPark/Frequency-masked-Embedding-Inference.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "emd5823iPGDe5HXAQoO1DI5iQiD-0vR_RecMC8_tpBo",
+  "pdfSize": "1400362"
+}

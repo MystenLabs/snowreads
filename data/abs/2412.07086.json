@@ -1,0 +1,32 @@
+{
+  "id": "2412.07086",
+  "title": "A Fixed Point Iteration Technique for Proving Correctness of Slicing for\n  Probabilistic Programs",
+  "authors": "Torben Amtoft, Anindya Banerjee",
+  "authorsParsed": [
+    [
+      "Amtoft",
+      "Torben",
+      ""
+    ],
+    [
+      "Banerjee",
+      "Anindya",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 10 Dec 2024 01:03:36 GMT"
+    }
+  ],
+  "updateDate": "2024-12-11",
+  "timestamp": 1733792616000,
+  "abstract": "  When proving the correctness of a method for slicing probabilistic programs,\nit was previously discovered by the authors that for a fixed point iteration to\nwork one needs a non-standard starting point for the iteration.\n  This paper presents and explores this technique in a general setting; it\nstates the lemmas that must be established to use the technique to prove the\ncorrectness of a program transformation, and sketches how to apply the\ntechnique to slicing of probabilistic programs.\n",
+  "subjects": [
+    "Computer Science/Programming Languages"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "OZgIgZodhWkIwBwEypFYajHkzrxfoNBwffZGKetXKtg",
+  "pdfSize": "174322"
+}

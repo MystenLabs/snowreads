@@ -1,0 +1,58 @@
+{
+  "id": "2412.10644",
+  "title": "Model-driven deep neural network for enhanced direction finding with\n  commodity 5G gNodeB",
+  "authors": "Shengheng Liu, Zihuan Mao, Xingkang Li, Mengguan Pan, Peng Liu,\n  Yongming Huang, Xiaohu You",
+  "authorsParsed": [
+    [
+      "Liu",
+      "Shengheng",
+      ""
+    ],
+    [
+      "Mao",
+      "Zihuan",
+      ""
+    ],
+    [
+      "Li",
+      "Xingkang",
+      ""
+    ],
+    [
+      "Pan",
+      "Mengguan",
+      ""
+    ],
+    [
+      "Liu",
+      "Peng",
+      ""
+    ],
+    [
+      "Huang",
+      "Yongming",
+      ""
+    ],
+    [
+      "You",
+      "Xiaohu",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 14 Dec 2024 02:09:36 GMT"
+    }
+  ],
+  "updateDate": "2024-12-17",
+  "timestamp": 1734142176000,
+  "abstract": "  Pervasive and high-accuracy positioning has become increasingly important as\na fundamental enabler for intelligent connected devices in mobile networks.\nNevertheless, current wireless networks heavily rely on pure model-driven\ntechniques to achieve positioning functionality, often succumbing to\nperformance deterioration due to hardware impairments in practical scenarios.\nHere we reformulate the direction finding or angle-of-arrival (AoA) estimation\nproblem as an image recovery task of the spatial spectrum and propose a new\nmodel-driven deep neural network (MoD-DNN) framework. The proposed MoD-DNN\nscheme comprises three modules: a multi-task autoencoder-based beamformer, a\ncoarray spectrum generation module, and a model-driven deep learning-based\nspatial spectrum reconstruction module. Our technique enables automatic\ncalibration of angular-dependent phase error thereby enhancing the resilience\nof direction-finding precision against realistic system non-idealities. We\nvalidate the proposed scheme both using numerical simulations and field tests.\nThe results show that the proposed MoD-DNN framework enables effective spectrum\ncalibration and accurate AoA estimation. To the best of our knowledge, this\nstudy marks the first successful demonstration of hybrid data-and-model-driven\ndirection finding utilizing readily available commodity 5G gNodeB.\n",
+  "subjects": [
+    "Electrical Engineering and Systems Science/Signal Processing",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "-bBnPrt4I-ydOUMng28MQqvjP1e5VSLX5ZB2rdrdO3U",
+  "pdfSize": "2086568"
+}

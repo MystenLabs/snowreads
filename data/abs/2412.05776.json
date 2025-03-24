@@ -1,0 +1,33 @@
+{
+  "id": "2412.05776",
+  "title": "ProtGO: A Transformer based Fusion Model for accurately predicting Gene\n  Ontology (GO) Terms from full scale Protein Sequences",
+  "authors": "Azwad Tamir, Jiann-Shiun Yuan",
+  "authorsParsed": [
+    [
+      "Tamir",
+      "Azwad",
+      ""
+    ],
+    [
+      "Yuan",
+      "Jiann-Shiun",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 8 Dec 2024 02:09:45 GMT"
+    }
+  ],
+  "updateDate": "2024-12-10",
+  "timestamp": 1733623785000,
+  "abstract": "  Recent developments in next generation sequencing technology have led to the\ncreation of extensive, open-source protein databases consisting of hundreds of\nmillions of sequences. To render these sequences applicable in biomedical\napplications, they must be meticulously annotated by wet lab testing or\nextracting them from existing literature. Over the last few years, researchers\nhave developed numerous automatic annotation systems, particularly deep\nlearning models based on machine learning and artificial intelligence, to\naddress this issue. In this work, we propose a transformer-based fusion model\ncapable of predicting Gene Ontology (GO) terms from full-scale protein\nsequences, achieving state-of-the-art accuracy compared to other contemporary\nmachine learning annotation systems. The approach performs particularly well on\nclustered split datasets, which comprise training and testing samples\noriginating from distinct distributions that are structurally diverse. This\ndemonstrates that the model is able to understand both short and long term\ndependencies within the enzyme's structure and can precisely identify the\nmotifs associated with the various GO terms. Furthermore, the technique is\nlightweight and less computationally expensive compared to the benchmark\nmethods, while at the same time not unaffected by sequence length, rendering it\nappropriate for diverse applications with varying sequence lengths.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Quantitative Biology/Genomics"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "qOPqNHiAbrSZ1bEW8WJhTJSvwyCrdc41JdzKxFYcrXM",
+  "pdfSize": "494554"
+}

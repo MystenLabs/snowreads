@@ -1,0 +1,59 @@
+{
+  "id": "2412.20192",
+  "title": "Learning physical unknowns from hydrodynamic shock and material\n  interface features in ICF capsule implosions",
+  "authors": "Daniel A. Serino, Evan Bell, Marc Klasky, Ben S. Southworth,\n  Balasubramanya Nadiga, Trevor Wilcox, and Oleg Korobkin",
+  "authorsParsed": [
+    [
+      "Serino",
+      "Daniel A.",
+      ""
+    ],
+    [
+      "Bell",
+      "Evan",
+      ""
+    ],
+    [
+      "Klasky",
+      "Marc",
+      ""
+    ],
+    [
+      "Southworth",
+      "Ben S.",
+      ""
+    ],
+    [
+      "Nadiga",
+      "Balasubramanya",
+      ""
+    ],
+    [
+      "Wilcox",
+      "Trevor",
+      ""
+    ],
+    [
+      "Korobkin",
+      "Oleg",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 28 Dec 2024 16:05:41 GMT"
+    }
+  ],
+  "updateDate": "2024-12-31",
+  "timestamp": 1735401941000,
+  "abstract": "  In high energy density physics (HEDP) and inertial confinement fusion (ICF),\npredictive modeling is complicated by uncertainty in parameters that\ncharacterize various aspects of the modeled system, such as those\ncharacterizing material properties, equation of state (EOS), opacities, and\ninitial conditions. Typically, however, these parameters are not directly\nobservable. What is observed instead is a time sequence of radiographic\nprojections using X-rays. In this work, we define a set of sparse hydrodynamic\nfeatures derived from the outgoing shock profile and outer material edge, which\ncan be obtained from radiographic measurements, to directly infer such\nparameters. Our machine learning (ML)-based methodology involves a pipeline of\ntwo architectures, a radiograph-to-features network (R2FNet) and a\nfeatures-to-parameters network (F2PNet), that are trained independently and\nlater combined to approximate a posterior distribution for the parameters from\nradiographs. We show that the estimated parameters can be used in a\nhydrodynamics code to obtain density fields and hydrodynamic shock and outer\nedge features that are consistent with the data. Finally, we demonstrate that\nfeatures resulting from an unknown EOS model can be successfully mapped onto\nparameters of a chosen analytical EOS model, implying that network predictions\nare learning physics, with a degree of invariance to the underlying choice of\nEOS model.\n",
+  "subjects": [
+    "Physics/Computational Physics",
+    "Computer Science/Machine Learning",
+    "Physics/High Energy Physics - Phenomenology"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "JT3kSZph_-u0OBnmgXXc4KqxfDgsy5gfR79P6dj8Lec",
+  "pdfSize": "5685844"
+}

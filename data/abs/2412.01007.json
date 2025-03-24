@@ -1,0 +1,62 @@
+{
+  "id": "2412.01007",
+  "title": "CoRNStack: High-Quality Contrastive Data for Better Code Ranking",
+  "authors": "Tarun Suresh, Revanth Gangi Reddy, Yifei Xu, Zach Nussbaum, Andriy\n  Mulyar, Brandon Duderstadt, Heng Ji",
+  "authorsParsed": [
+    [
+      "Suresh",
+      "Tarun",
+      ""
+    ],
+    [
+      "Reddy",
+      "Revanth Gangi",
+      ""
+    ],
+    [
+      "Xu",
+      "Yifei",
+      ""
+    ],
+    [
+      "Nussbaum",
+      "Zach",
+      ""
+    ],
+    [
+      "Mulyar",
+      "Andriy",
+      ""
+    ],
+    [
+      "Duderstadt",
+      "Brandon",
+      ""
+    ],
+    [
+      "Ji",
+      "Heng",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 1 Dec 2024 23:54:12 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Wed, 4 Dec 2024 20:01:42 GMT"
+    }
+  ],
+  "updateDate": "2024-12-06",
+  "timestamp": 1733097252000,
+  "abstract": "  Effective code retrieval plays a crucial role in advancing code generation,\nbug fixing, and software maintenance, particularly as software systems increase\nin complexity. While current code embedding models have demonstrated promise in\nretrieving code snippets for small-scale, well-defined tasks, they often\nunderperform in more demanding real-world applications such as bug localization\nwithin GitHub repositories. We hypothesize that a key issue is their reliance\non noisy and inconsistent datasets for training, which impedes their ability to\ngeneralize to more complex retrieval scenarios. To address these limitations,\nwe introduce CoRNStack, a large-scale, high-quality contrastive training\ndataset for code that spans multiple programming languages. This dataset is\ncurated using consistency filtering to eliminate noisy positives and is further\nenriched with mined hard negatives, thereby facilitating more effective\nlearning. We demonstrate that contrastive training of embedding models using\nCoRNStack leads to state-of-the-art performance across a variety of code\nretrieval tasks. Furthermore, the dataset can be leveraged for training code\nreranking models, a largely underexplored area compared to text reranking. Our\nfinetuned code reranking model significantly improves the ranking quality over\nthe retrieved results. Finally, by employing our code retriever and reranker\ntogether, we demonstrate significant improvements in function localization for\nGitHub issues, an important component of real-world software development.\n",
+  "subjects": [
+    "Computer Science/Computation and Language",
+    "Computer Science/Information Retrieval"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "duXEcyr1fnUk7SaR0Vbwg3-rvA82EHqSRHhFbrLrbEw",
+  "pdfSize": "947776"
+}

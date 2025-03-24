@@ -1,0 +1,89 @@
+{
+  "id": "2412.09417",
+  "title": "Reinforcement Learning Within the Classical Robotics Stack: A Case Study\n  in Robot Soccer",
+  "authors": "Adam Labiosa, Zhihan Wang, Siddhant Agarwal, William Cong, Geethika\n  Hemkumar, Abhinav Narayan Harish, Benjamin Hong, Josh Kelle, Chen Li, Yuhao\n  Li, Zisen Shao, Peter Stone and Josiah P. Hanna",
+  "authorsParsed": [
+    [
+      "Labiosa",
+      "Adam",
+      ""
+    ],
+    [
+      "Wang",
+      "Zhihan",
+      ""
+    ],
+    [
+      "Agarwal",
+      "Siddhant",
+      ""
+    ],
+    [
+      "Cong",
+      "William",
+      ""
+    ],
+    [
+      "Hemkumar",
+      "Geethika",
+      ""
+    ],
+    [
+      "Harish",
+      "Abhinav Narayan",
+      ""
+    ],
+    [
+      "Hong",
+      "Benjamin",
+      ""
+    ],
+    [
+      "Kelle",
+      "Josh",
+      ""
+    ],
+    [
+      "Li",
+      "Chen",
+      ""
+    ],
+    [
+      "Li",
+      "Yuhao",
+      ""
+    ],
+    [
+      "Shao",
+      "Zisen",
+      ""
+    ],
+    [
+      "Stone",
+      "Peter",
+      ""
+    ],
+    [
+      "Hanna",
+      "Josiah P.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 12 Dec 2024 16:25:10 GMT"
+    }
+  ],
+  "updateDate": "2024-12-13",
+  "timestamp": 1734020710000,
+  "abstract": "  Robot decision-making in partially observable, real-time, dynamic, and\nmulti-agent environments remains a difficult and unsolved challenge. Model-free\nreinforcement learning (RL) is a promising approach to learning decision-making\nin such domains, however, end-to-end RL in complex environments is often\nintractable. To address this challenge in the RoboCup Standard Platform League\n(SPL) domain, we developed a novel architecture integrating RL within a\nclassical robotics stack, while employing a multi-fidelity sim2real approach\nand decomposing behavior into learned sub-behaviors with heuristic selection.\nOur architecture led to victory in the 2024 RoboCup SPL Challenge Shield\nDivision. In this work, we fully describe our system's architecture and\nempirically analyze key design decisions that contributed to its success. Our\napproach demonstrates how RL-based behaviors can be integrated into complete\nrobot behavior architectures.\n",
+  "subjects": [
+    "Computer Science/Robotics",
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "ls79onPP8vB1jgADszp7dn0N_wPE1KxgJKEUEvlk_CE",
+  "pdfSize": "1286719"
+}

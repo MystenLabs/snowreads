@@ -1,0 +1,48 @@
+{
+  "id": "2412.03373",
+  "title": "Exploring trends in audio mixes and masters: Insights from a dataset\n  analysis",
+  "authors": "Angeliki Mourgela, Elio Quinton, Spyridon Bissas, Joshua D. Reiss,\n  David Ronan",
+  "authorsParsed": [
+    [
+      "Mourgela",
+      "Angeliki",
+      ""
+    ],
+    [
+      "Quinton",
+      "Elio",
+      ""
+    ],
+    [
+      "Bissas",
+      "Spyridon",
+      ""
+    ],
+    [
+      "Reiss",
+      "Joshua D.",
+      ""
+    ],
+    [
+      "Ronan",
+      "David",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 4 Dec 2024 15:01:20 GMT"
+    }
+  ],
+  "updateDate": "2024-12-05",
+  "timestamp": 1733324480000,
+  "abstract": "  We present an analysis of a dataset of audio metrics and aesthetic\nconsiderations about mixes and masters provided by the web platform MixCheck\nstudio. The platform is designed for educational purposes, primarily targeting\namateur music producers, and aimed at analysing their recordings prior to them\nbeing released. The analysis focuses on the following data points: integrated\nloudness, mono compatibility, presence of clipping and phase issues,\ncompression and tonal profile across 30 user-specified genres. Both mixed\n(mixes) and mastered audio (masters) are included in the analysis, where mixes\nrefer to the initial combination and balance of individual tracks, and masters\nrefer to the final refined version optimized for distribution. Results show\nthat loudness-related issues along with dynamics issues are the most prevalent,\nparticularly in mastered audio. However mastered audio presents better results\nin compression than just mixed audio. Additionally, results show that mastered\naudio has a lower percentage of stereo field and phase issues.\n",
+  "subjects": [
+    "Computer Science/Sound",
+    "Electrical Engineering and Systems Science/Audio and Speech Processing"
+  ],
+  "license": "http://creativecommons.org/licenses/by-sa/4.0/",
+  "blobId": "85NOfwPxAwVEHFihImCxgLJWUS9r-JJXK_7NtaVTpz8",
+  "pdfSize": "1592548"
+}

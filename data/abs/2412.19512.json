@@ -1,0 +1,52 @@
+{
+  "id": "2412.19512",
+  "title": "Safeguard Fine-Tuned LLMs Through Pre- and Post-Tuning Model Merging",
+  "authors": "Hua Farn, Hsuan Su, Shachi H Kumar, Saurav Sahay, Shang-Tse Chen,\n  Hung-yi Lee",
+  "authorsParsed": [
+    [
+      "Farn",
+      "Hua",
+      ""
+    ],
+    [
+      "Su",
+      "Hsuan",
+      ""
+    ],
+    [
+      "Kumar",
+      "Shachi H",
+      ""
+    ],
+    [
+      "Sahay",
+      "Saurav",
+      ""
+    ],
+    [
+      "Chen",
+      "Shang-Tse",
+      ""
+    ],
+    [
+      "Lee",
+      "Hung-yi",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 27 Dec 2024 08:03:22 GMT"
+    }
+  ],
+  "updateDate": "2024-12-30",
+  "timestamp": 1735286602000,
+  "abstract": "  Fine-tuning large language models (LLMs) for downstream tasks is a widely\nadopted approach, but it often leads to safety degradation in safety-aligned\nLLMs. Currently, many solutions address this issue by incorporating additional\nsafety data, which can be impractical in many cases. In this paper, we address\nthe question: How can we improve downstream task performance while preserving\nsafety in LLMs without relying on additional safety data? We propose a simple\nand effective method that maintains the inherent safety of LLMs while enhancing\ntheir downstream task performance: merging the weights of pre- and\npost-fine-tuned safety-aligned models. Experimental results across various\ndownstream tasks, models, and merging methods demonstrate that this approach\neffectively mitigates safety degradation while improving downstream task\nperformance, offering a practical solution for adapting safety-aligned LLMs.\n",
+  "subjects": [
+    "Computer Science/Computation and Language"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "4YZH7w6tQOjzV_dUCq3Y67T8Hv0M4ZRLwIf6VbnkLzA",
+  "pdfSize": "4218307"
+}

@@ -1,0 +1,38 @@
+{
+  "id": "2412.04168",
+  "title": "Towards scalable active steering protocols for genuinely entangled state\n  manifolds",
+  "authors": "Samuel Morales, Silvia Pappalardi, and Reinhold Egger",
+  "authorsParsed": [
+    [
+      "Morales",
+      "Samuel",
+      ""
+    ],
+    [
+      "Pappalardi",
+      "Silvia",
+      ""
+    ],
+    [
+      "Egger",
+      "Reinhold",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 5 Dec 2024 14:04:14 GMT"
+    }
+  ],
+  "updateDate": "2024-12-06",
+  "timestamp": 1733407454000,
+  "abstract": "  We introduce and analyze an active steering protocol designed to target\nmultipartite entangled states. The protocol involves multiple qubits subjected\nto weak Bell pair measurements with active feedback, where the feedback\noperations are optimized to maximize the Quantum Fisher Information. Our scheme\nefficiently reaches a genuinely entangled one-parameter state manifold.\nNumerical simulations for systems with up to 20 qubits suggest that the\nprotocol is scalable and allows high multipartite entanglement across the\nsystem.\n",
+  "subjects": [
+    "Physics/Quantum Physics",
+    "Condensed Matter/Quantum Gases"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "eOisaWPSkLunwlGOQ55qYUWwrw6qW3aIEpF0FziDxPo",
+  "pdfSize": "675793"
+}

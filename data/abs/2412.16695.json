@@ -1,0 +1,28 @@
+{
+  "id": "2412.16695",
+  "title": "Power Law Behavior of Center-Like Decaying Oscillation : Exponent\n  through Perturbation Theory and Optimization",
+  "authors": "Sandip Saha",
+  "authorsParsed": [
+    [
+      "Saha",
+      "Sandip",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 21 Dec 2024 16:43:13 GMT"
+    }
+  ],
+  "updateDate": "2024-12-24",
+  "timestamp": 1734799393000,
+  "abstract": "  In dynamical systems theory, there is a lack of a straightforward rule to\ndistinguish exact center solutions from decaying center-like solutions, as both\nrequire the damping force function to be zero [1, 2]. By adopting a multi-scale\nperturbative method, we have demonstrated a general rule for the decaying\ncenter-like power law behavior, characterized by an exponent of 1/3 . The\ninvestigation began with a physical question about the higher-order\nnonlinearity in a damping force function, which exhibits birhythmic and\ntrirhythmic behavior under a transition to a decaying center-type solution.\nUsing numerical optimization algorithms, we identified the power law exponent\nfor decaying center-type behavior across various rhythmic conditions. For all\nscenarios, we consistently observed a decaying power law with an exponent of\n1/3 .Our study aims to elucidate their dynamical differences, contributing to\ntheoretical insights and practical applications where distinguishing between\ndifferent types of center-like behaviour is crucial. This key result would be\nbeneficial for studying the multi-rhythmic nature of biological and engineering\nsystems.\n",
+  "subjects": [
+    "Mathematics/Dynamical Systems",
+    "Nonlinear Sciences/Adaptation and Self-Organizing Systems"
+  ],
+  "license": "http://creativecommons.org/licenses/by-sa/4.0/",
+  "blobId": "_xQoHPSIwvbJM04BpWwmbGGxjR9Qox6zWoIiW1_3aEE",
+  "pdfSize": "393393"
+}

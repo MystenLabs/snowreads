@@ -1,0 +1,42 @@
+{
+  "id": "2412.18785",
+  "title": "Simultaneously Recovering Multi-Person Meshes and Multi-View Cameras\n  with Human Semantics",
+  "authors": "Buzhen Huang, Jingyi Ju, Yuan Shu, Yangang Wang",
+  "authorsParsed": [
+    [
+      "Huang",
+      "Buzhen",
+      ""
+    ],
+    [
+      "Ju",
+      "Jingyi",
+      ""
+    ],
+    [
+      "Shu",
+      "Yuan",
+      ""
+    ],
+    [
+      "Wang",
+      "Yangang",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 25 Dec 2024 05:35:30 GMT"
+    }
+  ],
+  "updateDate": "2024-12-30",
+  "timestamp": 1735104930000,
+  "abstract": "  Dynamic multi-person mesh recovery has broad applications in sports\nbroadcasting, virtual reality, and video games. However, current multi-view\nframeworks rely on a time-consuming camera calibration procedure. In this work,\nwe focus on multi-person motion capture with uncalibrated cameras, which mainly\nfaces two challenges: one is that inter-person interactions and occlusions\nintroduce inherent ambiguities for both camera calibration and motion capture;\nthe other is that a lack of dense correspondences can be used to constrain\nsparse camera geometries in a dynamic multi-person scene. Our key idea is to\nincorporate motion prior knowledge to simultaneously estimate camera parameters\nand human meshes from noisy human semantics. We first utilize human information\nfrom 2D images to initialize intrinsic and extrinsic parameters. Thus, the\napproach does not rely on any other calibration tools or background features.\nThen, a pose-geometry consistency is introduced to associate the detected\nhumans from different views. Finally, a latent motion prior is proposed to\nrefine the camera parameters and human motions. Experimental results show that\naccurate camera parameters and human motions can be obtained through a one-step\nreconstruction. The code are publicly available\nat~\\url{https://github.com/boycehbz/DMMR}.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "Xy33xP6YWM11p0fmSMxbvWaji_N5wPLMTgs8SJ2vbq8",
+  "pdfSize": "11283362"
+}

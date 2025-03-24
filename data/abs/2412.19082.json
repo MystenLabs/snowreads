@@ -1,0 +1,37 @@
+{
+  "id": "2412.19082",
+  "title": "Social Optima in Linear Quadratic Graphon Field Control: Analysis via\n  Infinite Dimensional Approach",
+  "authors": "De-xuan Xu, Zhun Gou, and Nan-jing Huang",
+  "authorsParsed": [
+    [
+      "Xu",
+      "De-xuan",
+      ""
+    ],
+    [
+      "Gou",
+      "Zhun",
+      ""
+    ],
+    [
+      "Huang",
+      "Nan-jing",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 26 Dec 2024 06:46:19 GMT"
+    }
+  ],
+  "updateDate": "2024-12-30",
+  "timestamp": 1735195579000,
+  "abstract": "  This paper is concerned with linear quadratic graphon field social control\nproblem where the noises of individual agents are correlated. Compared with the\nwell-studied mean field system, the graphon field system consists of a large\nnumber of agents coupled weakly via a weighted undirected graph where each node\nrepresents an individual agent. Another notable feature of this paper is that\nthe dynamics of states of agents are driven by Brownian motions with a\ncorrelation matrix. The infinite dimensional approach is adopted to design the\ncentralized and decentralized controls for our large population system. By\ngraphon theory, we prove that the linear quadratic (LQ) social optimum control\nproblem under the centralized information pattern is equivalent to an LQ\noptimal control problem concerned with a stochastic evolution equation, and the\nfeedback-type optimal centralized control is obtained. Then, by designing an\nauxiliary infinite dimensional optimal control problem through agent number\n$N\\rightarrow\\infty$, a set of decentralized strategies are constructed, which\nare further shown to be asymptotically social optimal.\n",
+  "subjects": [
+    "Mathematics/Optimization and Control"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "yTlshWoU7v4fGRgpVNDjP4cY5eC6I850iam-iLI2LI0",
+  "pdfSize": "351624"
+}

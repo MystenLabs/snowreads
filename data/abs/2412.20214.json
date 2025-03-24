@@ -1,0 +1,58 @@
+{
+  "id": "2412.20214",
+  "title": "Actively-trained magnetic Moment Tensor Potentials reproduce mechanical,\n  dynamical, and thermal properties of paramagnetic CrN",
+  "authors": "Alexey S. Kotykhov, Max Hodapp, Christian Tantardini, Konstantin\n  Kravtsov, Ivan Kruglov, Alexander V. Shapeev, Ivan S. Novikov",
+  "authorsParsed": [
+    [
+      "Kotykhov",
+      "Alexey S.",
+      ""
+    ],
+    [
+      "Hodapp",
+      "Max",
+      ""
+    ],
+    [
+      "Tantardini",
+      "Christian",
+      ""
+    ],
+    [
+      "Kravtsov",
+      "Konstantin",
+      ""
+    ],
+    [
+      "Kruglov",
+      "Ivan",
+      ""
+    ],
+    [
+      "Shapeev",
+      "Alexander V.",
+      ""
+    ],
+    [
+      "Novikov",
+      "Ivan S.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 28 Dec 2024 16:54:47 GMT"
+    }
+  ],
+  "updateDate": "2024-12-31",
+  "timestamp": 1735404887000,
+  "abstract": "  We present a protocol for automated fitting of magnetic Moment Tensor\nPotential explicitly including magnetic moments in its functional form. For the\nfitting of this potential we use energies, forces, stresses, and magnetic\nforces (negative derivatives of energies with respect to magnetic moments) of\nconfigurations selected with an active learning algorithm. These selected\nconfigurations are computed using constrained density functional theory, which\nenables calculating energies and their derivatives for both equilibrium and\nnon-equilibrium (excited) magnetic states. We test our protocol on the system\nof B1-CrN and demonstrate that the automatically trained magnetic Moment Tensor\nPotential reproduces mechanical, dynamical, and thermal properties, of B1-CrN\nin the paramagnetic state with respect to density functional theory and\nexperiments.\n",
+  "subjects": [
+    "Condensed Matter/Materials Science",
+    "Physics/Atomic Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "WV3onG6PetMZN9DDB9UDW2Ylh3tONJv45MOxGSSDF4s",
+  "pdfSize": "3142110"
+}

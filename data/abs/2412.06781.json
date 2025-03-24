@@ -1,0 +1,43 @@
+{
+  "id": "2412.06781",
+  "title": "Around the World in 80 Timesteps: A Generative Approach to Global Visual\n  Geolocation",
+  "authors": "Nicolas Dufour and David Picard and Vicky Kalogeiton and Loic Landrieu",
+  "authorsParsed": [
+    [
+      "Dufour",
+      "Nicolas",
+      ""
+    ],
+    [
+      "Picard",
+      "David",
+      ""
+    ],
+    [
+      "Kalogeiton",
+      "Vicky",
+      ""
+    ],
+    [
+      "Landrieu",
+      "Loic",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 9 Dec 2024 18:59:04 GMT"
+    }
+  ],
+  "updateDate": "2024-12-10",
+  "timestamp": 1733770744000,
+  "abstract": "  Global visual geolocation predicts where an image was captured on Earth.\nSince images vary in how precisely they can be localized, this task inherently\ninvolves a significant degree of ambiguity. However, existing approaches are\ndeterministic and overlook this aspect. In this paper, we aim to close the gap\nbetween traditional geolocalization and modern generative methods. We propose\nthe first generative geolocation approach based on diffusion and Riemannian\nflow matching, where the denoising process operates directly on the Earth's\nsurface. Our model achieves state-of-the-art performance on three visual\ngeolocation benchmarks: OpenStreetView-5M, YFCC-100M, and iNat21. In addition,\nwe introduce the task of probabilistic visual geolocation, where the model\npredicts a probability distribution over all possible locations instead of a\nsingle point. We introduce new metrics and baselines for this task,\ndemonstrating the advantages of our diffusion-based approach. Codes and models\nwill be made available.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "bkcLq0XSqL6IXp3l8Pl14ANIlxmpUZDXQMnRaNDoXUI",
+  "pdfSize": "4255704"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "2412.20101",
+  "title": "Exponential sums twisted by general arithmetic functions",
+  "authors": "Anji Dong, Nicolas Robles, Alexandru Zaharescu and Dirk Zeindler",
+  "authorsParsed": [
+    [
+      "Dong",
+      "Anji",
+      ""
+    ],
+    [
+      "Robles",
+      "Nicolas",
+      ""
+    ],
+    [
+      "Zaharescu",
+      "Alexandru",
+      ""
+    ],
+    [
+      "Zeindler",
+      "Dirk",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 28 Dec 2024 09:56:50 GMT"
+    }
+  ],
+  "updateDate": "2024-12-31",
+  "timestamp": 1735379810000,
+  "abstract": "  We examine exponential sums of the form $\\sum_{n \\le X} w(n) e^{2\\pi i\\alpha\nn^k}$, for $k=1,2$, where $\\alpha$ satisfies a generalized Diophantine\napproximation and where $w$ are different arithmetic functions that might be\nmultiplicative, additive, or neither. A strategy is shown on how to bound these\nsums for a wide class of functions $w$ belonging within the same ecosystem.\nUsing this new technology we are able to improve current results on minor arcs\nthat have recently appeared in the literature of the Hardy-Littlewood circle\nmethod. Lastly, we show how a bound on $\\sum_{n \\le X} |\\mu(n)| e^{2\\pi i\\alpha\nn}$ can be used to study partitions asymptotics over squarefree parts and\nexplain their connection to the zeros of the Riemann zeta-function.\n",
+  "subjects": [
+    "Mathematics/Number Theory"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "CdAuNXGYiZFxw99likRVJMNA7c8Az1Mm65hUaY2pmI0",
+  "pdfSize": "1374170"
+}

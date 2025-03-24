@@ -1,0 +1,27 @@
+{
+  "id": "2412.03126",
+  "title": "Completing the Functional Approach in Object-Oriented Languages",
+  "authors": "Martin Pluemicke",
+  "authorsParsed": [
+    [
+      "Pluemicke",
+      "Martin",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 4 Dec 2024 08:43:46 GMT"
+    }
+  ],
+  "updateDate": "2024-12-05",
+  "timestamp": 1733301826000,
+  "abstract": "  Over the last two decades practically all object-oriented programming\nlanguages have introduced features that are well-known from functional\nprogramming languages. But many features that were introduced were fragmentary.\nIn Java-TX we address the latter features and propose a completion. Java-TX\n(i.e. Type eXtended) is a language based on Java. The predominant new features\nare global type inference and real function types for lambda expressions.\nGlobal type inference means that all type annotations can be omitted, and the\ncompiler infers them without losing the static type property. We introduce the\nfunction types in a similar fashion as in Scala but additionally integrated\nthem into the Java target-typing as proposed in the so-called strawman\napproach. In this paper, we provide an integrated presentation of all Java-TX\nfeatures. The focus is therby on the automatic inference of type parameters for\nclasses and their methods, and on the heterogeneous translation of function\ntypes, which permits the preservation of the argument and return types in\nbytecode.\n",
+  "subjects": [
+    "Computer Science/Programming Languages"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "_dB3-jt_mxxHKuf9HxQD_7r_vdwNXGHBXCH7CYTLFSI",
+  "pdfSize": "354922"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "2412.01421",
+  "title": "Network Simulation with Complex Cyber-attack Scenarios",
+  "authors": "Tiago Dias, Jo\\~ao Vitorino, Eva Maia, Isabel Pra\\c{c}a",
+  "authorsParsed": [
+    [
+      "Dias",
+      "Tiago",
+      ""
+    ],
+    [
+      "Vitorino",
+      "João",
+      ""
+    ],
+    [
+      "Maia",
+      "Eva",
+      ""
+    ],
+    [
+      "Praça",
+      "Isabel",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 2 Dec 2024 12:00:53 GMT"
+    }
+  ],
+  "updateDate": "2024-12-03",
+  "timestamp": 1733140853000,
+  "abstract": "  Network Intrusion Detection (NID) systems can benefit from Machine Learning\n(ML) models to detect complex cyber-attacks. However, to train them with a\ngreat amount of high-quality data, it is necessary to perform reliable\nsimulations of multiple interacting machines. This paper presents a network\nsimulation solution for the creation of NID datasets with complex attack\nscenarios. This solution was integrated in the Airbus CyberRange platform to\nbenefit from its simulation capabilities of generating benign and malicious\ntraffic patterns that represent realistic cyber-attacks targeting a computer\nnetwork. A realistic vulnerable network topology was configured in the\nCyberRange and three different attack scenarios were implemented:\nMan-in-the-Middle (MitM), Denial-of-Service (DoS), and Brute-Force (BF).\n",
+  "subjects": [
+    "Computer Science/Cryptography and Security"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "vEHj9O79yIgCO6MyzI7ulvE2xn8nSeCmCDqiyvOgqgM",
+  "pdfSize": "321021"
+}

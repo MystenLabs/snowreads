@@ -1,0 +1,38 @@
+{
+  "id": "2412.04716",
+  "title": "Fermionic quantum walkers coupled to a bosonic reservoir",
+  "authors": "Olivier Bourget, Alain Joye and Dominique Spehner",
+  "authorsParsed": [
+    [
+      "Bourget",
+      "Olivier",
+      ""
+    ],
+    [
+      "Joye",
+      "Alain",
+      ""
+    ],
+    [
+      "Spehner",
+      "Dominique",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 6 Dec 2024 02:12:41 GMT"
+    }
+  ],
+  "updateDate": "2024-12-09",
+  "timestamp": 1733451161000,
+  "abstract": "  We analyze the discrete-time dynamics of a model of non-interacting fermions\non a finite graph coupled to an infinite reservoir formed by a bosonic quantum\nwalk on Z. This dynamics consists of consecutive applications of free\nevolutions of the fermions and bosons followed by a local coupling between\nthem. The unitary operator implementing this coupling generates fermionic\ntransitions between two fixed vertices induced by absorption and emission of\nbosons at a single lattice site. The free fermion evolution is given by a\nsecond-quantized single-particle unitary operator satisfying some genericity\nassumptions, in particular it produces hopping of fermions between all\nvertices. The free boson evolution is given by the second-quantized shift\noperator on Z. We derive explicitly the Heisenberg dynamics of fermionic\nobservables and obtain a systematic expansion in the large-coupling regime,\nwhich we control by using spectral methods. We also prove that the reduced\nstate of the fermions converges in the large-time limit to an\ninfinite-temperature Gibbs\n",
+  "subjects": [
+    "Physics/Mathematical Physics",
+    "Mathematics/Mathematical Physics"
+  ],
+  "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+  "blobId": "SDLxHGMSEH6wYDed3Xbogsj6seeSmLmwhPtxl58p9Xo",
+  "pdfSize": "336077"
+}

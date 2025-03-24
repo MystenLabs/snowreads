@@ -1,0 +1,42 @@
+{
+  "id": "2412.00941",
+  "title": "Limit-sure reachability for small memory policies in POMDPs is\n  NP-complete",
+  "authors": "Ali Asadi, Krishnendu Chatterjee, Raimundo Saona, Ali Shafiee",
+  "authorsParsed": [
+    [
+      "Asadi",
+      "Ali",
+      ""
+    ],
+    [
+      "Chatterjee",
+      "Krishnendu",
+      ""
+    ],
+    [
+      "Saona",
+      "Raimundo",
+      ""
+    ],
+    [
+      "Shafiee",
+      "Ali",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 1 Dec 2024 19:26:03 GMT"
+    }
+  ],
+  "updateDate": "2024-12-03",
+  "timestamp": 1733081163000,
+  "abstract": "  A standard model that arises in several applications in sequential decision\nmaking is partially observable Markov decision processes (POMDPs) where a\ndecision-making agent interacts with an uncertain environment. A basic\nobjective in such POMDPs is the reachability objective, where given a target\nset of states, the goal is to eventually arrive at one of them. The limit-sure\nproblem asks whether reachability can be ensured with probability arbitrarily\nclose to 1. In general, the limit-sure reachability problem for POMDPs is\nundecidable. However, in many practical cases the most relevant question is the\nexistence of policies with a small amount of memory. In this work, we study the\nlimit-sure reachability problem for POMDPs with a fixed amount of memory. We\nestablish that the computational complexity of the problem is NP-complete.\n",
+  "subjects": [
+    "Computer Science/Computational Complexity"
+  ],
+  "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+  "blobId": "TNzQZbNpQZGV05mKoUbGk-YIndnQVl07Uu-94Tkl4m4",
+  "pdfSize": "304727"
+}

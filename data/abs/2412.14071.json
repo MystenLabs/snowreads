@@ -1,0 +1,75 @@
+{
+  "id": "2412.14071",
+  "title": "Inverse Design of Nonlinear Mechanics of Bio-inspired Materials Through\n  Interface Engineering and Bayesian Optimization",
+  "authors": "Wei Zhang, Mingjian Tang, Haoxuan Mu, Xingzi Yang, Xiaowei Zeng, Rui\n  Tuo, Wei (Wayne) Chen, Wei Gao",
+  "authorsParsed": [
+    [
+      "Zhang",
+      "Wei",
+      "",
+      "Wayne"
+    ],
+    [
+      "Tang",
+      "Mingjian",
+      "",
+      "Wayne"
+    ],
+    [
+      "Mu",
+      "Haoxuan",
+      "",
+      "Wayne"
+    ],
+    [
+      "Yang",
+      "Xingzi",
+      "",
+      "Wayne"
+    ],
+    [
+      "Zeng",
+      "Xiaowei",
+      "",
+      "Wayne"
+    ],
+    [
+      "Tuo",
+      "Rui",
+      "",
+      "Wayne"
+    ],
+    [
+      "Wei",
+      "",
+      "",
+      "Wayne"
+    ],
+    [
+      "Chen",
+      "",
+      ""
+    ],
+    [
+      "Gao",
+      "Wei",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 18 Dec 2024 17:13:34 GMT"
+    }
+  ],
+  "updateDate": "2024-12-19",
+  "timestamp": 1734542014000,
+  "abstract": "  In many biological materials such as nacre and bone, the material structure\nconsists of hard grains and soft interfaces, with the interfaces playing a\nsignificant role in the material's mechanical behavior. This type of structures\nhas been utilized in the design of various bio-inspired composite materials.\nSuch applications often require the materials to exhibit a specified nonlinear\nstress-strain relationship. A key challenge lies in identifying appropriate\ninterface properties from an infinite search space to achieve a given target\nstress-strain curve. This study introduces a Bayesian optimization (BO)\nframework specifically tailored for the inverse design of interfaces in\nbio-inspired composites. As a notable advantage, this method is capable of\nexpanding the design space, allowing the discovery of optimal solutions even\nwhen the target curve deviates significantly from the initial dataset.\nFurthermore, our results show that BO can identify distinct interface designs\nthat produce similar target stress-strain responses, yet differ in their\ndeformation and failure mechanisms. These findings highlight the potential of\nthe proposed BO framework to address a wide range of inverse design challenges\nin nonlinear mechanics problems.\n",
+  "subjects": [
+    "Condensed Matter/Materials Science",
+    "Physics/Applied Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "QjRwed3hkAA3d94FAZF9KmH4Gx-9SaLKhcQ9rrmxOa8",
+  "pdfSize": "3326850"
+}

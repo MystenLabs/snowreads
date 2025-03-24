@@ -1,0 +1,62 @@
+{
+  "id": "2412.13547",
+  "title": "Turbo-GS: Accelerating 3D Gaussian Fitting for High-Quality Radiance\n  Fields",
+  "authors": "Tao Lu, Ankit Dhiman, R Srinath, Emre Arslan, Angela Xing, Yuanbo\n  Xiangli, R Venkatesh Babu, Srinath Sridhar",
+  "authorsParsed": [
+    [
+      "Lu",
+      "Tao",
+      ""
+    ],
+    [
+      "Dhiman",
+      "Ankit",
+      ""
+    ],
+    [
+      "Srinath",
+      "R",
+      ""
+    ],
+    [
+      "Arslan",
+      "Emre",
+      ""
+    ],
+    [
+      "Xing",
+      "Angela",
+      ""
+    ],
+    [
+      "Xiangli",
+      "Yuanbo",
+      ""
+    ],
+    [
+      "Babu",
+      "R Venkatesh",
+      ""
+    ],
+    [
+      "Sridhar",
+      "Srinath",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 18 Dec 2024 06:46:40 GMT"
+    }
+  ],
+  "updateDate": "2024-12-19",
+  "timestamp": 1734504400000,
+  "abstract": "  Novel-view synthesis is an important problem in computer vision with\napplications in 3D reconstruction, mixed reality, and robotics. Recent methods\nlike 3D Gaussian Splatting (3DGS) have become the preferred method for this\ntask, providing high-quality novel views in real time. However, the training\ntime of a 3DGS model is slow, often taking 30 minutes for a scene with 200\nviews. In contrast, our goal is to reduce the optimization time by training for\nfewer steps while maintaining high rendering quality. Specifically, we combine\nthe guidance from both the position error and the appearance error to achieve a\nmore effective densification. To balance the rate between adding new Gaussians\nand fitting old Gaussians, we develop a convergence-aware budget control\nmechanism. Moreover, to make the densification process more reliable, we\nselectively add new Gaussians from mostly visited regions. With these designs,\nwe reduce the Gaussian optimization steps to one-third of the previous approach\nwhile achieving a comparable or even better novel view rendering quality. To\nfurther facilitate the rapid fitting of 4K resolution images, we introduce a\ndilation-based rendering technique. Our method, Turbo-GS, speeds up\noptimization for typical scenes and scales well to high-resolution (4K)\nscenarios on standard datasets. Through extensive experiments, we show that our\nmethod is significantly faster in optimization than other methods while\nretaining quality. Project page: https://ivl.cs.brown.edu/research/turbo-gs.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "reqkh5zHtqhDlADlfdXJiOXR9KqL17IA8p2mfJCePcI",
+  "pdfSize": "26577204"
+}

@@ -1,0 +1,60 @@
+{
+  "id": "2412.12456",
+  "title": "Graph Learning in the Era of LLMs: A Survey from the Perspective of\n  Data, Models, and Tasks",
+  "authors": "Xunkai Li, Zhengyu Wu, Jiayi Wu, Hanwen Cui, Jishuo Jia, Rong-Hua Li,\n  Guoren Wang",
+  "authorsParsed": [
+    [
+      "Li",
+      "Xunkai",
+      ""
+    ],
+    [
+      "Wu",
+      "Zhengyu",
+      ""
+    ],
+    [
+      "Wu",
+      "Jiayi",
+      ""
+    ],
+    [
+      "Cui",
+      "Hanwen",
+      ""
+    ],
+    [
+      "Jia",
+      "Jishuo",
+      ""
+    ],
+    [
+      "Li",
+      "Rong-Hua",
+      ""
+    ],
+    [
+      "Wang",
+      "Guoren",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 17 Dec 2024 01:41:17 GMT"
+    }
+  ],
+  "updateDate": "2024-12-18",
+  "timestamp": 1734399677000,
+  "abstract": "  With the increasing prevalence of cross-domain Text-Attributed Graph (TAG)\nData (e.g., citation networks, recommendation systems, social networks, and\nai4science), the integration of Graph Neural Networks (GNNs) and Large Language\nModels (LLMs) into a unified Model architecture (e.g., LLM as enhancer, LLM as\ncollaborators, LLM as predictor) has emerged as a promising technological\nparadigm. The core of this new graph learning paradigm lies in the synergistic\ncombination of GNNs' ability to capture complex structural relationships and\nLLMs' proficiency in understanding informative contexts from the rich textual\ndescriptions of graphs. Therefore, we can leverage graph description texts with\nrich semantic context to fundamentally enhance Data quality, thereby improving\nthe representational capacity of model-centric approaches in line with\ndata-centric machine learning principles. By leveraging the strengths of these\ndistinct neural network architectures, this integrated approach addresses a\nwide range of TAG-based Task (e.g., graph learning, graph reasoning, and graph\nquestion answering), particularly in complex industrial scenarios (e.g.,\nsupervised, few-shot, and zero-shot settings). In other words, we can treat\ntext as a medium to enable cross-domain generalization of graph learning Model,\nallowing a single graph model to effectively handle the diversity of downstream\ngraph-based Task across different data domains. This work serves as a\nfoundational reference for researchers and practitioners looking to advance\ngraph learning methodologies in the rapidly evolving landscape of LLM. We\nconsistently maintain the related open-source materials at\n\\url{https://github.com/xkLi-Allen/Awesome-GNN-in-LLMs-Papers}.\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Computation and Language",
+    "Computer Science/Databases"
+  ],
+  "license": "http://creativecommons.org/licenses/by-sa/4.0/",
+  "blobId": "UaE0xkJEmkkmEyPCfujLtr0HTv5PSVV5j8cqdU-FsnM",
+  "pdfSize": "387742"
+}

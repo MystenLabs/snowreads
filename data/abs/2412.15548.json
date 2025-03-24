@@ -1,0 +1,37 @@
+{
+  "id": "2412.15548",
+  "title": "Polaris: Multi-Fidelity Design Space Exploration of Deep Learning\n  Accelerators",
+  "authors": "Chirag Sakhuja and Charles Hong and Calvin Lin",
+  "authorsParsed": [
+    [
+      "Sakhuja",
+      "Chirag",
+      ""
+    ],
+    [
+      "Hong",
+      "Charles",
+      ""
+    ],
+    [
+      "Lin",
+      "Calvin",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 20 Dec 2024 04:14:43 GMT"
+    }
+  ],
+  "updateDate": "2024-12-23",
+  "timestamp": 1734668083000,
+  "abstract": "  This paper presents a tool for automatically exploring the design space of\ndeep learning accelerators (DLAs).\n  Our main advancement is Starlight, a data-driven performance model that uses\ntransfer learning to bridge the gap between fast, low-fidelity evaluation\nmethods (such as analytical models) and slow, high-fidelity evaluation methods\n(such as RTL simulation). Starlight is fast: It can provide 6,500 predictions\nper second, allowing the evaluation of millions of configurations per hour.\nStarlight is accurate: It predicts the energy-delay product measured by RTL\nsimulation with 99\\% accuracy. And Starlight can be trained efficiently: It can\nbe trained with 61\\% fewer samples than DOSA's state-of-the-art data-driven\nperformance predictor.\n  Our second contribution is Polaris, a design-space exploration tool that uses\nStarlight to efficiently search the large, complex hardware/software co-design\nspace of DLAs. In under 35 minutes, Polaris produces DLA designs that match the\nperformance of designs that take six hours to produce with DOSA. And in under\n3.3 hours, Polaris produces DLA designs that reduce energy-delay product by\n2.7$\\times$ over the best designs found by DOSA.\n",
+  "subjects": [
+    "Computer Science/Hardware Architecture"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "wopb-U-coG-SrThN6z0RkdAXCfxIO1GUQDMgYH03cXk",
+  "pdfSize": "722079"
+}

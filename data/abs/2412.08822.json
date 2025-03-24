@@ -1,0 +1,53 @@
+{
+  "id": "2412.08822",
+  "title": "Predicting Performance of Microfluidic-Based Alginate Microfibers with\n  Feature-Supplemented Deep Neural Networks",
+  "authors": "Nicholus R. Clinkinbeard, Justin Sehlin, Meharpal Singh Bhatti,\n  Marilyn McNamarra, Reza Montazami, and Nicole N. Hashemi",
+  "authorsParsed": [
+    [
+      "Clinkinbeard",
+      "Nicholus R.",
+      ""
+    ],
+    [
+      "Sehlin",
+      "Justin",
+      ""
+    ],
+    [
+      "Bhatti",
+      "Meharpal Singh",
+      ""
+    ],
+    [
+      "McNamarra",
+      "Marilyn",
+      ""
+    ],
+    [
+      "Montazami",
+      "Reza",
+      ""
+    ],
+    [
+      "Hashemi",
+      "Nicole N.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 11 Dec 2024 23:37:36 GMT"
+    }
+  ],
+  "updateDate": "2024-12-13",
+  "timestamp": 1733960256000,
+  "abstract": "  Selection of solution concentrations and flow rates for the fabrication of\nmicrofibers using a microfluidic device is a largely empirical endeavor of\ntrial-and-error, largely due to the difficulty of modeling such a multiphysics\nprocess. Machine learning, including deep neural networks, provides the\npotential for allowing the determination of flow rates and solution\ncharacteristics by using past fabrication data to train and validate a model.\nUnfortunately, microfluidics suffers from low amounts of data, which can lead\nto inaccuracies and overtraining. To reduce the errors inherent with developing\npredictive and design models using a deep neural network, two approaches are\ninvestigated: dataset expansion using the statistical properties of available\nsamples and model enhancement through introduction of physics-related\nparameters, specifically dimensionless numbers such as the Reynolds, capillary,\nWeber, and Peclet numbers. Results show that introduction of these parameters\nprovides enhanced predictive capability leading to increased accuracy, while no\nsuch improvements are yet observed for design parameter selection.\n",
+  "subjects": [
+    "Physics/Fluid Dynamics",
+    "Condensed Matter/Materials Science"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "UA0E58hBA30xYA2ebPkIDN2FoZ7jtNglgwizRe7PNuo",
+  "pdfSize": "5302079"
+}

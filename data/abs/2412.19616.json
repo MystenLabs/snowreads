@@ -1,0 +1,52 @@
+{
+  "id": "2412.19616",
+  "title": "Gradient Weight-normalized Low-rank Projection for Efficient LLM\n  Training",
+  "authors": "Jia-Hong Huang, Yixian Shen, Hongyi Zhu, Stevan Rudinac, Evangelos\n  Kanoulas",
+  "authorsParsed": [
+    [
+      "Huang",
+      "Jia-Hong",
+      ""
+    ],
+    [
+      "Shen",
+      "Yixian",
+      ""
+    ],
+    [
+      "Zhu",
+      "Hongyi",
+      ""
+    ],
+    [
+      "Rudinac",
+      "Stevan",
+      ""
+    ],
+    [
+      "Kanoulas",
+      "Evangelos",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 27 Dec 2024 12:23:39 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Sun, 5 Jan 2025 07:12:27 GMT"
+    }
+  ],
+  "updateDate": "2025-01-07",
+  "timestamp": 1735302219000,
+  "abstract": "  Large Language Models (LLMs) have shown remarkable performance across various\ntasks, but the escalating demands on computational resources pose significant\nchallenges, particularly in the extensive utilization of full fine-tuning for\ndownstream tasks. To address this, parameter-efficient fine-tuning (PEFT)\nmethods have been developed, but they often underperform compared to full\nfine-tuning and struggle with memory efficiency. In this work, we introduce\nGradient Weight-Normalized Low-Rank Projection (GradNormLoRP), a novel approach\nthat enhances both parameter and memory efficiency while maintaining comparable\nperformance to full fine-tuning. GradNormLoRP normalizes the weight matrix to\nimprove gradient conditioning, facilitating better convergence during\noptimization. Additionally, it applies low-rank approximations to the weight\nand gradient matrices, significantly reducing memory usage during training.\nExtensive experiments demonstrate that our 8-bit GradNormLoRP reduces optimizer\nmemory usage by up to 89.5% and enables the pre-training of large LLMs, such as\nLLaMA 7B, on consumer-level GPUs like the NVIDIA RTX 4090, without additional\ninference costs. Moreover, GradNormLoRP outperforms existing low-rank methods\nin fine-tuning tasks. For instance, when fine-tuning the RoBERTa model on all\nGLUE tasks with a rank of 8, GradNormLoRP achieves an average score of 80.65,\nsurpassing LoRA's score of 79.23. These results underscore GradNormLoRP as a\npromising alternative for efficient LLM pre-training and fine-tuning. Source\ncode:\nhttps://github.com/Jhhuangkay/Gradient-Weight-normalized-Low-rank-Projection-for-Efficient-LLM-Training\n",
+  "subjects": [
+    "Computer Science/Machine Learning",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "7VKoNRa16jGKFDUPylj6QFLZWKAA0o1gGs0RE2qXUII",
+  "pdfSize": "598708"
+}

@@ -1,0 +1,39 @@
+{
+  "id": "2412.06577",
+  "title": "Effect of simple shear on knotted polymer coils and globules",
+  "authors": "Andrey Milchev, Maurice P. Schmitt, Peter Virnau",
+  "authorsParsed": [
+    [
+      "Milchev",
+      "Andrey",
+      ""
+    ],
+    [
+      "Schmitt",
+      "Maurice P.",
+      ""
+    ],
+    [
+      "Virnau",
+      "Peter",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 9 Dec 2024 15:29:57 GMT"
+    }
+  ],
+  "updateDate": "2024-12-10",
+  "timestamp": 1733758197000,
+  "abstract": "  We explore the effect of Couette flow on knotted linear polymer chains with\nextensive Molecular Dynamics (MD) simulations. Hydrodynamic interactions are\naccounted for by means of Multi-Particle Collision Dynamics (MPCD). The polymer\nchain, containing originally a simple trefoil knot at rest, is described by a\ncoarse-grained bead-spring model in a coil or globular state. We demonstrate\nthat under shear existing loosely localized knots in polymer coils typically\ntighten to several segments beyond a certain shear rate threshold. At large\nshear rates the polymer undergoes a tumbling-like motion during which knot\nsizes can fluctuate. In contrast, sheared knotted globules unwind into a\nconvoluted pearl-necklace structure of sub-globules that folds back onto itself\nand in which knot types change over time.\n",
+  "subjects": [
+    "Condensed Matter/Soft Condensed Matter",
+    "Condensed Matter/Statistical Mechanics",
+    "Physics/Computational Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "A3wNn_LazRn81l9gpY0VxWHjRi4Beu7mwaP1Xsdw5pY",
+  "pdfSize": "12427678"
+}

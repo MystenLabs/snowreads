@@ -1,0 +1,27 @@
+{
+  "id": "2412.01276",
+  "title": "Shadow of the (Hierarchical) Tree: Reconciling Symbolic and Predictive\n  Components of the Neural Code for Syntax",
+  "authors": "Elliot Murphy",
+  "authorsParsed": [
+    [
+      "Murphy",
+      "Elliot",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 2 Dec 2024 08:44:16 GMT"
+    }
+  ],
+  "updateDate": "2024-12-03",
+  "timestamp": 1733129056000,
+  "abstract": "  Natural language syntax can serve as a major test for how to integrate two\ninfamously distinct frameworks: symbolic representations and connectionist\nneural networks. Building on a recent neurocomputational architecture for\nsyntax (ROSE), I discuss the prospects of reconciling the neural code for\nhierarchical 'vertical' syntax with linear and predictive 'horizontal'\nprocesses via a hybrid neurosymbolic model. I argue that the former can be\naccounted for via the higher levels of ROSE in terms of vertical phrase\nstructure representations, while the latter can explain horizontal forms of\nlinguistic information via the tuning of the lower levels to statistical and\nperceptual inferences. One prediction of this is that artificial language\nmodels will contribute to the cognitive neuroscience of horizontal\nmorphosyntax, but much less so to hierarchically compositional structures. I\nclaim that this perspective helps resolve many current tensions in the\nliterature. Options for integrating these two neural codes are discussed, with\nparticular emphasis on how predictive coding mechanisms can serve as interfaces\nbetween symbolic oscillatory phase codes and population codes for the\nstatistics of linearized aspects of syntax. Lastly, I provide a neurosymbolic\nmathematical model for how to inject symbolic representations into a neural\nregime encoding lexico-semantic statistical features.\n",
+  "subjects": [
+    "Computer Science/Computation and Language"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "5g1w5PIGekZCZpw36hUQ6rGWWxf86s48cYQgo6y3wMA",
+  "pdfSize": "468456"
+}

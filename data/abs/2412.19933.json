@@ -1,0 +1,41 @@
+{
+  "id": "2412.19933",
+  "title": "The Degree of (Extended) Justified Representation and Its Optimization",
+  "authors": "Biaoshuai Tao, Chengkai Zhang, Houyu Zhou",
+  "authorsParsed": [
+    [
+      "Tao",
+      "Biaoshuai",
+      ""
+    ],
+    [
+      "Zhang",
+      "Chengkai",
+      ""
+    ],
+    [
+      "Zhou",
+      "Houyu",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 27 Dec 2024 21:42:41 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Tue, 18 Feb 2025 02:45:53 GMT"
+    }
+  ],
+  "updateDate": "2025-02-19",
+  "timestamp": 1735335761000,
+  "abstract": "  Justified Representation (JR)/Extended Justified Representation (EJR) is a\ndesirable axiom in multiwinner approval voting. In contrast to that (E)JR only\nrequires at least \\emph{one} voter to be represented in every cohesive group,\nwe study its optimization version that maximizes the \\emph{number} of\nrepresented voters in each group. Given an instance, we say a winning committee\nprovides a JR degree (EJR degree, resp.) of $c$ if at least $c$ voters in each\n$\\ell$-cohesive group ($1$-cohesive group, resp.) have approved $\\ell$ ($1$,\nresp.) winning candidates. Hence, every (E)JR committee provides the (E)JR\ndegree of at least $1$. Besides proposing this new property, we propose the\noptimization problem of finding a winning committee that achieves the maximum\npossible (E)JR degree, called \\MDJR and \\MDEJR, corresponding to JR and EJR\nrespectively.\n  We study the computational complexity and approximability of \\MDJR of \\MDEJR.\nAn (E)JR committee, which can be found in polynomial time, straightforwardly\ngives a $(k/n)$-approximation. We also show that the original algorithms for\nfinding a JR and an EJR winner committee are also $1/k$ and $1/(k+1)$\napproximation algorithms for \\MDJR and \\MDEJR respectively. On the other hand,\nwe show that it is NP-hard to approximate \\MDJR and \\MDEJR to within a factor\nof $\\left(k/n\\right)^{1-\\epsilon}$ and to within a factor of\n$(1/k)^{1-\\varepsilon}$, for any $\\epsilon>0$, which complements the positive\nresults. Next, we study the fixed-parameter-tractability of this problem. We\nshow that both problems are W[2]-hard if $k$, the size of the winning\ncommittee, is specified as the parameter. However, when $c_{\\text{max}}$, the\nmaximum value of $c$ such that a committee that provides an (E)JR degree of $c$\nexists, is additionally given as a parameter, we show that both \\MDJR and\n\\MDEJR are fixed-parameter-tractable.\n",
+  "subjects": [
+    "Computer Science/Computer Science and Game Theory"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "_N4Xybn4P0-nYw1cwcZvvh9DbVXEWovAgjo5sxDO1F4",
+  "pdfSize": "729070"
+}

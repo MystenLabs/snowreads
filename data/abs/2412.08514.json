@@ -1,0 +1,33 @@
+{
+  "id": "2412.08514",
+  "title": "Image-Based Malware Classification Using QR and Aztec Codes",
+  "authors": "Atharva Khadilkar and Mark Stamp",
+  "authorsParsed": [
+    [
+      "Khadilkar",
+      "Atharva",
+      ""
+    ],
+    [
+      "Stamp",
+      "Mark",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 11 Dec 2024 16:25:06 GMT"
+    }
+  ],
+  "updateDate": "2024-12-12",
+  "timestamp": 1733934306000,
+  "abstract": "  In recent years, the use of image-based techniques for malware detection has\ngained prominence, with numerous studies demonstrating the efficacy of deep\nlearning approaches such as Convolutional Neural Networks (CNN) in classifying\nimages derived from executable files. In this paper, we consider an innovative\nmethod that relies on an image conversion process that consists of transforming\nfeatures extracted from executable files into QR and Aztec codes. These codes\ncapture structural patterns in a format that may enhance the learning\ncapabilities of CNNs. We design and implement CNN architectures tailored to the\nunique properties of these codes and apply them to a comprehensive analysis\ninvolving two extensive malware datasets, both of which include a significant\ncorpus of benign samples. Our results yield a split decision, with CNNs trained\non QR and Aztec codes outperforming the state of the art on one of the\ndatasets, but underperforming more typical techniques on the other dataset.\nThese results indicate that the use of QR and Aztec codes as a form of feature\nengineering holds considerable promise in the malware domain, and that\nadditional research is needed to better understand the relative strengths and\nweaknesses of such an approach.\n",
+  "subjects": [
+    "Computer Science/Cryptography and Security",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "6V94frwgH5EZ9MXAeRGX3n9huuiohY0oTlkGzR3qQNo",
+  "pdfSize": "672501"
+}

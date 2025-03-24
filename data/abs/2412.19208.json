@@ -1,0 +1,62 @@
+{
+  "id": "2412.19208",
+  "title": "Developing Explainable Machine Learning Model using Augmented Concept\n  Activation Vector",
+  "authors": "Reza Hassanpour, Kasim Oztoprak, Niels Netten, Tony Busker, Mortaza S.\n  Bargh, Sunil Choenni, Beyza Kizildag, Leyla Sena Kilinc",
+  "authorsParsed": [
+    [
+      "Hassanpour",
+      "Reza",
+      ""
+    ],
+    [
+      "Oztoprak",
+      "Kasim",
+      ""
+    ],
+    [
+      "Netten",
+      "Niels",
+      ""
+    ],
+    [
+      "Busker",
+      "Tony",
+      ""
+    ],
+    [
+      "Bargh",
+      "Mortaza S.",
+      ""
+    ],
+    [
+      "Choenni",
+      "Sunil",
+      ""
+    ],
+    [
+      "Kizildag",
+      "Beyza",
+      ""
+    ],
+    [
+      "Kilinc",
+      "Leyla Sena",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 26 Dec 2024 13:18:16 GMT"
+    }
+  ],
+  "updateDate": "2024-12-30",
+  "timestamp": 1735219096000,
+  "abstract": "  Machine learning models use high dimensional feature spaces to map their\ninputs to the corresponding class labels. However, these features often do not\nhave a one-to-one correspondence with physical concepts understandable by\nhumans, which hinders the ability to provide a meaningful explanation for the\ndecisions made by these models. We propose a method for measuring the\ncorrelation between high-level concepts and the decisions made by a machine\nlearning model. Our method can isolate the impact of a given high-level concept\nand accurately measure it quantitatively. Additionally, this study aims to\ndetermine the prevalence of frequent patterns in machine learning models, which\noften occur in imbalanced datasets. We have successfully applied the proposed\nmethod to fundus images and managed to quantitatively measure the impact of\nradiomic patterns on the model decisions.\n",
+  "subjects": [
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "PvNgJZexpU9_cOnmOtNx1HaFVcIlf4u8bxl9Hxt923w",
+  "pdfSize": "2618652"
+}

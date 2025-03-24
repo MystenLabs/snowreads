@@ -1,0 +1,33 @@
+{
+  "id": "2412.07307",
+  "title": "Mathematical model of COVID-19 with imperfect vaccine and virus mutation",
+  "authors": "Ceren G\\\"urb\\\"uz Can, Sebaheddin \\c{S}evgin",
+  "authorsParsed": [
+    [
+      "Can",
+      "Ceren Gürbüz",
+      ""
+    ],
+    [
+      "Şevgin",
+      "Sebaheddin",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 10 Dec 2024 08:44:13 GMT"
+    }
+  ],
+  "updateDate": "2024-12-11",
+  "timestamp": 1733820253000,
+  "abstract": "  This study examines the effect of a partially protective vaccine on COVID-19\ninfection with the original and mutant virus with the help of a deterministic\nmathematical model developed. The model we developed consists of five\ncompartments and thirteen parameters. The model consists of S (susceptible), V\n(vaccinated), I_1 (infected with original virus), I_2 (infected with mutant\nvirus) and R (recover) subcompartments. With the established model, imperfect\nvaccines and mutant virus for the COVID-19 pandemic in Turkey were examined. We\nexamined the effect of both artificial active immunity (vaccinated) and natural\nactive immunity (passing disease) in the model. Since it is known that the\nrecovery and death rates of the original virus and the mutant virus are\ndifferent in COVID-19, we considered it in the study. We performed local\nstability and global stability analysis by calculating the disease-free\nequilibrium point and endemic equilibrium point of the model. We also obtained\nthe basic reproduction number with the help of the next generation matrix\nmethod. We estimated three model parameters with parameter estimation and\nidentified model-sensitive parameters with local sensitivity analysis. Next, we\nshowed the existence of a backward bifurcation using the Castillo-Chavez and\nSong Bifurcation Theorem. Additionally, to illustrate the underlying\nfundamental mechanisms of the model dynamics and to support the analytical\nfindings, we presented three distinct simulations.\n",
+  "subjects": [
+    "Mathematics/Dynamical Systems",
+    "Quantitative Biology/Populations and Evolution"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "1ZZpwDtZzCVOR1IITTsz1DkrSqQBKQAG6pkarTHPYgM",
+  "pdfSize": "1213712"
+}

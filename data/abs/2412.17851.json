@@ -1,0 +1,33 @@
+{
+  "id": "2412.17851",
+  "title": "Noisereduce: Domain General Noise Reduction for Time Series Signals",
+  "authors": "Tim Sainburg and Asaf Zorea",
+  "authorsParsed": [
+    [
+      "Sainburg",
+      "Tim",
+      ""
+    ],
+    [
+      "Zorea",
+      "Asaf",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 19 Dec 2024 17:43:43 GMT"
+    }
+  ],
+  "updateDate": "2024-12-25",
+  "timestamp": 1734630223000,
+  "abstract": "  Extracting signals from noisy backgrounds is a fundamental problem in signal\nprocessing across a variety of domains. In this paper, we introduce\nNoisereduce, an algorithm for minimizing noise across a variety of domains,\nincluding speech, bioacoustics, neurophysiology, and seismology. Noisereduce\nuses spectral gating to estimate a frequency-domain mask that effectively\nseparates signals from noise. It is fast, lightweight, requires no training\ndata, and handles both stationary and non-stationary noise, making it both a\nversatile tool and a convenient baseline for comparison with domain-specific\napplications. We provide a detailed overview of Noisereduce and evaluate its\nperformance on a variety of time-domain signals.\n",
+  "subjects": [
+    "Electrical Engineering and Systems Science/Signal Processing",
+    "Computer Science/Sound"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "upICDwJHWQx84rS3qnXB1dLnPGv5rAK7w-pKpTWXXCs",
+  "pdfSize": "14450497"
+}

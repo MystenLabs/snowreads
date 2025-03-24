@@ -1,0 +1,33 @@
+{
+  "id": "2412.10525",
+  "title": "RowDetr: End-to-End Row Detection Using Polynomials",
+  "authors": "Rahul Harsha Cheppally and Ajay Sharda",
+  "authorsParsed": [
+    [
+      "Cheppally",
+      "Rahul Harsha",
+      ""
+    ],
+    [
+      "Sharda",
+      "Ajay",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 13 Dec 2024 19:38:36 GMT"
+    }
+  ],
+  "updateDate": "2024-12-17",
+  "timestamp": 1734118716000,
+  "abstract": "  Crop row detection has garnered significant interest due to its critical role\nin enabling navigation in GPS-denied environments, such as under-canopy\nagricultural settings. To address this challenge, we propose RowDetr, an\nend-to-end neural network that utilizes smooth polynomial functions to\ndelineate crop boundaries in image space. A novel energy-based loss function,\nPolyOptLoss, is introduced to enhance learning robustness, even with noisy\nlabels. The proposed model demonstrates a 3% improvement over Agronav in key\nperformance metrics while being six times faster, making it well-suited for\nreal-time applications. Additionally, metrics from lane detection studies were\nadapted to comprehensively evaluate the system, showcasing its accuracy and\nadaptability in various scenarios.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Robotics"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "SzJ3JP43FVRRh0ilmX8pX9KIiyqgYO5p30-hXvkVIOU",
+  "pdfSize": "19703562"
+}

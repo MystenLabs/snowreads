@@ -1,0 +1,36 @@
+{
+  "id": "2412.01476",
+  "title": "ConsistentFeature: A Plug-and-Play Component for Neural Network\n  Regularization",
+  "authors": "RuiZhe Jiang, Haotian Lei",
+  "authorsParsed": [
+    [
+      "Jiang",
+      "RuiZhe",
+      ""
+    ],
+    [
+      "Lei",
+      "Haotian",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 2 Dec 2024 13:21:31 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Fri, 24 Jan 2025 14:16:46 GMT"
+    }
+  ],
+  "updateDate": "2025-01-27",
+  "timestamp": 1733145691000,
+  "abstract": "  Over-parameterized neural network models often lead to significant\nperformance discrepancies between training and test sets, a phenomenon known as\noverfitting. To address this, researchers have proposed numerous regularization\ntechniques tailored to various tasks and model architectures. In this paper, we\nintroduce a simple perspective on overfitting: models learn different\nrepresentations in different i.i.d. datasets. Based on this viewpoint, we\npropose an adaptive method, ConsistentFeature, that regularizes the model by\nconstraining feature differences across random subsets of the same training\nset. Due to minimal prior assumptions, this approach is applicable to almost\nany architecture and task. Our experiments show that it effectively reduces\noverfitting, with low sensitivity to hyperparameters and minimal computational\ncost. It demonstrates particularly strong memory suppression and promotes\nnormal convergence, even when the model has already started to overfit. Even in\nthe absence of significant overfitting, our method consistently improves\naccuracy and reduces validation loss.\n",
+  "subjects": [
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "f4NHO0zExu_OgTeYmariq410UT4Q6BVU45aEhDkLOAc",
+  "pdfSize": "24445100"
+}

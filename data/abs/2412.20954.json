@@ -1,0 +1,101 @@
+{
+  "id": "2412.20954",
+  "title": "AGON: Automated Design Framework for Customizing Processors from ISA\n  Documents",
+  "authors": "Chongxiao Li, Di Huang, Pengwei Jin, Tianyun Ma, Husheng Han, Shuyao\n  Cheng, Yifan Hao, Yongwei Zhao, Guanglin Xu, Zidong Du, Rui Zhang, Xiaqing\n  Li, Yuanbo Wen, Xing Hu, Qi Guo",
+  "authorsParsed": [
+    [
+      "Li",
+      "Chongxiao",
+      ""
+    ],
+    [
+      "Huang",
+      "Di",
+      ""
+    ],
+    [
+      "Jin",
+      "Pengwei",
+      ""
+    ],
+    [
+      "Ma",
+      "Tianyun",
+      ""
+    ],
+    [
+      "Han",
+      "Husheng",
+      ""
+    ],
+    [
+      "Cheng",
+      "Shuyao",
+      ""
+    ],
+    [
+      "Hao",
+      "Yifan",
+      ""
+    ],
+    [
+      "Zhao",
+      "Yongwei",
+      ""
+    ],
+    [
+      "Xu",
+      "Guanglin",
+      ""
+    ],
+    [
+      "Du",
+      "Zidong",
+      ""
+    ],
+    [
+      "Zhang",
+      "Rui",
+      ""
+    ],
+    [
+      "Li",
+      "Xiaqing",
+      ""
+    ],
+    [
+      "Wen",
+      "Yuanbo",
+      ""
+    ],
+    [
+      "Hu",
+      "Xing",
+      ""
+    ],
+    [
+      "Guo",
+      "Qi",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 30 Dec 2024 13:50:20 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Tue, 21 Jan 2025 08:38:01 GMT"
+    }
+  ],
+  "updateDate": "2025-01-22",
+  "timestamp": 1735566620000,
+  "abstract": "  Customized processors are attractive solutions for vast domain-specific\napplications due to their high energy efficiency. However, designing a\nprocessor in traditional flows is time-consuming and expensive. To address\nthis, researchers have explored methods including the use of agile development\ntools like Chisel or SpinalHDL, high-level synthesis (HLS) from programming\nlanguages like C or SystemC, and more recently, leveraging large language\nmodels (LLMs) to generate hardware description language (HDL) code from natural\nlanguage descriptions. However, each method has limitations in terms of\nexpressiveness, correctness, and performance, leading to a persistent\ncontradiction between the level of automation and the effectiveness of the\ndesign. Overall, how to automatically design highly efficient and practical\nprocessors with minimal human effort remains a challenge.\n  In this paper, we propose AGON, a novel framework designed to leverage LLMs\nfor the efficient design of out-of-order (OoO) customized processors with\nminimal human effort. Central to AGON is the nano-operator function (nOP\nfunction) based Intermediate Representation (IR), which bridges high-level\ndescriptions and hardware implementations while decoupling functionality from\nperformance optimization, thereby providing an automatic design framework that\nis expressive and efficient, has correctness guarantees, and enables PPA\n(Power, Performance, and Area) optimization.\n  Experimental results show that superior to previous LLM-assisted automatic\ndesign flows, AGON facilitates designing a series of customized OoO processors\nthat achieve on average 2.35 $\\times$ speedup compared with BOOM, a\ngeneral-purpose CPU designed by experts, with minimal design effort.\n",
+  "subjects": [
+    "Computer Science/Hardware Architecture"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "xBB6RXQkFTzJqWGUkbM18QjGJRwe8vUM4g62aQUb4M0",
+  "pdfSize": "1010708"
+}

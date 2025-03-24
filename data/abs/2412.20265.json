@@ -1,0 +1,35 @@
+{
+  "id": "2412.20265",
+  "title": "Overcoming Intensity Limits for Long-Distance Quantum Key Distribution",
+  "authors": "Ibrahim Almosallam",
+  "authorsParsed": [
+    [
+      "Almosallam",
+      "Ibrahim",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 28 Dec 2024 20:40:23 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Thu, 2 Jan 2025 07:26:59 GMT"
+    },
+    {
+      "version": "v3",
+      "created": "Sat, 22 Feb 2025 01:43:59 GMT"
+    }
+  ],
+  "updateDate": "2025-02-25",
+  "timestamp": 1735418423000,
+  "abstract": "  Quantum Key Distribution (QKD) enables the sharing of cryptographic keys\nsecured by quantum mechanics. The BB84 protocol assumed single-photon sources,\nbut practical systems rely on weak coherent pulses vulnerable to\nphoton-number-splitting (PNS) attacks. The Gottesman-Lo-L\\\"utkenhaus-Preskill\n(GLLP) framework addressed these imperfections, deriving secure key rate bounds\nunder limited PNS scenarios. The Decoy-state protocol further improved\nperformance by refining single-photon yield estimates, but still considered\nmulti-photon states as insecure, thereby limiting intensities and constraining\nkey rate and distance. More recently, finite-key security bounds for\ndecoy-state QKD have been extended to address general attacks, ensuring\nsecurity against adversaries capable of exploiting arbitrary strategies. In\nthis work, we focus on a specific class of attacks, the generalized PNS attack,\nand demonstrate that higher pulse intensities can be securely used by employing\nBayesian inference to estimate key parameters directly from observed data. By\nraising the pulse intensity to 10 photons, we achieve a 50-fold increase in key\nrate and a 62.2% increase in operational range (about 200 km) compared to the\ndecoy-state protocol. Furthermore, we accurately model after-pulsing using a\nHidden Markov Model and reveal inaccuracies in decoy-state calculations that\nmay produce erroneous key-rate estimates. While this methodology does not\naddress all possible attacks, it provides a new approach to security proofs in\nQKD by shifting from worst-case assumption analysis to observation-dependent\ninference, advancing the reach and efficiency of discrete-variable QKD\nprotocols.\n",
+  "subjects": [
+    "Physics/Quantum Physics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "yG758hRREfTKH-CqyEI7nRA3Fz38n1fGmNcm3OoxTg0",
+  "pdfSize": "3222927"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "2412.09884",
+  "title": "Benchmarking Table Comprehension In The Wild",
+  "authors": "Yikang Pan, Yi Zhu, Rand Xie, Yizhi Liu",
+  "authorsParsed": [
+    [
+      "Pan",
+      "Yikang",
+      ""
+    ],
+    [
+      "Zhu",
+      "Yi",
+      ""
+    ],
+    [
+      "Xie",
+      "Rand",
+      ""
+    ],
+    [
+      "Liu",
+      "Yizhi",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 13 Dec 2024 05:52:37 GMT"
+    }
+  ],
+  "updateDate": "2024-12-16",
+  "timestamp": 1734069157000,
+  "abstract": "  Large Language Models (LLMs), while being increasingly dominant on a myriad\nof knowledge-intensive activities, have only had limited success understanding\nlengthy table-text mixtures, such as academic papers and financial reports.\nRecent advances of long-context LLMs have opened up new possibilities for this\nfield. Nonetheless, we identify two roadblocks: (1) Prior benchmarks of table\nquestion answering (TableQA) have focused on isolated tables without context,\nmaking it hard to evaluate models in real-world scenarios. (2) Prior benchmarks\nhave focused on some narrow skill sets of table comprehension such as table\nrecognition, data manipulation/calculation, table summarization etc., while a\nskilled human employs those skills collectively. In this work, we introduce\nTableQuest, a new benchmark designed to evaluate the holistic table\ncomprehension capabilities of LLMs in the natural table-rich context of\nfinancial reports. We employ a rigorous data processing and filtering procedure\nto ensure that the question-answer pairs are logical, reasonable, and diverse.\nWe experiment with 7 state-of-the-art models, and find that despite reasonable\naccuracy in locating facts, they often falter when required to execute more\nsophisticated reasoning or multi-step calculations. We conclude with a\nqualitative study of the failure modes and discuss the challenges of\nconstructing a challenging benchmark. We make the evaluation data, judging\nprocedure and results of this study publicly available to facilitate research\nin this field.\n",
+  "subjects": [
+    "Computer Science/Computation and Language"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "MWrL2PfHUJe_rTD1k9Vcgz01Sf_aLN67YvF4uFw5KSM",
+  "pdfSize": "989438"
+}

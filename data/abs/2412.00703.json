@@ -1,0 +1,36 @@
+{
+  "id": "2412.00703",
+  "title": "Thunderscapes: Simulating the Dynamics of Mesoscale Convective System",
+  "authors": "Tianchen Hao",
+  "authorsParsed": [
+    [
+      "Hao",
+      "Tianchen",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sun, 1 Dec 2024 06:54:41 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Wed, 18 Dec 2024 05:40:51 GMT"
+    },
+    {
+      "version": "v3",
+      "created": "Fri, 20 Dec 2024 17:07:12 GMT"
+    }
+  ],
+  "updateDate": "2024-12-23",
+  "timestamp": 1733036081000,
+  "abstract": "  A Mesoscale Convective System (MCS) is a collection of thunderstorms that\nfunction as a system, representing a widely discussed phenomenon in both the\nnatural sciences and visual effects industries, and embodying the untamed\nforces of nature.In this paper, we present the first interactive, physically\ninspired mesoscale thunderstorms simulation model that integrates\nGrabowski-style cloud microphysics with atmospheric electrification processes.\nOur model simulates thunderclouds development and lightning flashes within a\nunified meteorological framework, providing a realistic and interactive\napproach for graphical applications. By incorporating key physical principles,\nit effectively links cloud formation, electrification, and lightning\ngeneration. The simulation also encompasses various thunderstorm types and\ntheir corresponding lightning activities.\n",
+  "subjects": [
+    "Physics/Fluid Dynamics",
+    "Computer Science/Graphics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "z9dWta5IgQIwnGPf0k7OMJzqiHzJ4S0pwvEdVDN3MmM",
+  "pdfSize": "19337749"
+}

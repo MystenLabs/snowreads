@@ -1,0 +1,38 @@
+{
+  "id": "2412.11969",
+  "title": "Random Sums of Weighted Orthogonal Polynomials in ${\\mathbb C}^d$",
+  "authors": "T. Bloom, D. Dauvergne and N. Levenberg",
+  "authorsParsed": [
+    [
+      "Bloom",
+      "T.",
+      ""
+    ],
+    [
+      "Dauvergne",
+      "D.",
+      ""
+    ],
+    [
+      "Levenberg",
+      "N.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 16 Dec 2024 16:50:08 GMT"
+    }
+  ],
+  "updateDate": "2024-12-17",
+  "timestamp": 1734367808000,
+  "abstract": "  We consider random polynomials of the form $G_n(z):= \\sum_{|\\alpha|\\leq n}\n\\xi^{(n)}_{\\alpha}p_{n,\\alpha}(z)$ where $\\{\\xi^{(n)}_{\\alpha}\\}_{|\\alpha|\\leq\nn}$ are i.i.d. (complex) random variables and $\\{p_{n,\\alpha}\\}_{|\\alpha|\\leq\nn}$ form a basis for $\\mathcal P_n$, the holomorphic polynomials of degree at\nmost $n$ in ${\\mathbb C}^d$. In particular, this includes the setting where\n$\\{p_{n,\\alpha}\\}$ are orthonormal in a space $L^2(e^{-2n Q} \\tau)$, where\n$\\tau$ is a compactly supported Bernstein-Markov measure and $Q$ is a\ncontinuous weight function. Under an optimal moment condition on the random\nvariables $\\{\\xi^{(n)}_{\\alpha}\\}$, in dimension $d=1$ we prove convergence in\nprobability of the zero measure to the weighted equilibrium measure, and in\ndimension $d \\ge 2$ we prove convergence of zero currents.\n",
+  "subjects": [
+    "Mathematics/Probability",
+    "Mathematics/Complex Variables"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "L7lz3XnnJN0YUkdx0l-AZzFqiZB5D_eQjZxxXg8zmLY",
+  "pdfSize": "285344"
+}

@@ -1,0 +1,63 @@
+{
+  "id": "2412.15047",
+  "title": "Measuring, Modeling, and Helping People Account for Privacy Risks in\n  Online Self-Disclosures with AI",
+  "authors": "Isadora Krsek, Anubha Kabra, Yao Dou, Tarek Naous, Laura A. Dabbish,\n  Alan Ritter, Wei Xu, Sauvik Das",
+  "authorsParsed": [
+    [
+      "Krsek",
+      "Isadora",
+      ""
+    ],
+    [
+      "Kabra",
+      "Anubha",
+      ""
+    ],
+    [
+      "Dou",
+      "Yao",
+      ""
+    ],
+    [
+      "Naous",
+      "Tarek",
+      ""
+    ],
+    [
+      "Dabbish",
+      "Laura A.",
+      ""
+    ],
+    [
+      "Ritter",
+      "Alan",
+      ""
+    ],
+    [
+      "Xu",
+      "Wei",
+      ""
+    ],
+    [
+      "Das",
+      "Sauvik",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 19 Dec 2024 16:53:40 GMT"
+    }
+  ],
+  "updateDate": "2024-12-20",
+  "timestamp": 1734627220000,
+  "abstract": "  In pseudonymous online fora like Reddit, the benefits of self-disclosure are\noften apparent to users (e.g., I can vent about my in-laws to understanding\nstrangers), but the privacy risks are more abstract (e.g., will my partner be\nable to tell that this is me?). Prior work has sought to develop natural\nlanguage processing (NLP) tools that help users identify potentially risky\nself-disclosures in their text, but none have been designed for or evaluated\nwith the users they hope to protect. Absent this assessment, these tools will\nbe limited by the social-technical gap: users need assistive tools that help\nthem make informed decisions, not paternalistic tools that tell them to avoid\nself-disclosure altogether. To bridge this gap, we conducted a study with N =\n21 Reddit users; we had them use a state-of-the-art NLP disclosure detection\nmodel on two of their authored posts and asked them questions to understand if\nand how the model helped, where it fell short, and how it could be improved to\nhelp them make more informed decisions. Despite its imperfections, users\nresponded positively to the model and highlighted its use as a tool that can\nhelp them catch mistakes, inform them of risks they were unaware of, and\nencourage self-reflection. However, our work also shows how, to be useful and\nusable, AI for supporting privacy decision-making must account for posting\ncontext, disclosure norms, and users' lived threat models, and provide\nexplanations that help contextualize detected risks.\n",
+  "subjects": [
+    "Computer Science/Human-Computer Interaction",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "OgEyNL9cYT8dnd3JN4t5VuzWvbHqKFQvfakhPFP7Nuo",
+  "pdfSize": "1949907"
+}

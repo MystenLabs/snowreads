@@ -1,0 +1,80 @@
+{
+  "id": "2412.07755",
+  "title": "SAT: Spatial Aptitude Training for Multimodal Language Models",
+  "authors": "Arijit Ray, Jiafei Duan, Reuben Tan, Dina Bashkirova, Rose Hendrix,\n  Kiana Ehsani, Aniruddha Kembhavi, Bryan A. Plummer, Ranjay Krishna, Kuo-Hao\n  Zeng, Kate Saenko",
+  "authorsParsed": [
+    [
+      "Ray",
+      "Arijit",
+      ""
+    ],
+    [
+      "Duan",
+      "Jiafei",
+      ""
+    ],
+    [
+      "Tan",
+      "Reuben",
+      ""
+    ],
+    [
+      "Bashkirova",
+      "Dina",
+      ""
+    ],
+    [
+      "Hendrix",
+      "Rose",
+      ""
+    ],
+    [
+      "Ehsani",
+      "Kiana",
+      ""
+    ],
+    [
+      "Kembhavi",
+      "Aniruddha",
+      ""
+    ],
+    [
+      "Plummer",
+      "Bryan A.",
+      ""
+    ],
+    [
+      "Krishna",
+      "Ranjay",
+      ""
+    ],
+    [
+      "Zeng",
+      "Kuo-Hao",
+      ""
+    ],
+    [
+      "Saenko",
+      "Kate",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 10 Dec 2024 18:52:45 GMT"
+    }
+  ],
+  "updateDate": "2024-12-11",
+  "timestamp": 1733856765000,
+  "abstract": "  Spatial perception is a fundamental component of intelligence. While many\nstudies highlight that large multimodal language models (MLMs) struggle to\nreason about space, they only test for static spatial reasoning, such as\ncategorizing the relative positions of objects. Meanwhile, real-world\ndeployment requires dynamic capabilities like perspective-taking and egocentric\naction recognition. As a roadmap to improving spatial intelligence, we\nintroduce SAT, Spatial Aptitude Training, which goes beyond static relative\nobject position questions to the more dynamic tasks. SAT contains 218K\nquestion-answer pairs for 22K synthetic scenes across a training and testing\nset. Generated using a photo-realistic physics engine, our dataset can be\narbitrarily scaled and easily extended to new actions, scenes, and 3D assets.\nWe find that even MLMs that perform relatively well on static questions\nstruggle to accurately answer dynamic spatial questions. Further, we show that\nSAT instruction-tuning data improves not only dynamic spatial reasoning on SAT,\nbut also zero-shot performance on existing real-image spatial benchmarks:\n$23\\%$ on CVBench, $8\\%$ on the harder BLINK benchmark, and $18\\%$ on VSR. When\ninstruction-tuned on SAT, our 13B model matches larger proprietary MLMs like\nGPT4-V and Gemini-3-1.0 in spatial reasoning. Our data/code is available at\nhttp://arijitray1993.github.io/SAT/ .\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Graphics",
+    "Computer Science/Robotics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "6TfWbPG_y95zoIK4jCjfD4tJ6-79TwTl7fhvVRihI5I",
+  "pdfSize": "3663121"
+}

@@ -1,0 +1,38 @@
+{
+  "id": "2412.20715",
+  "title": "ChartAdapter: Large Vision-Language Model for Chart Summarization",
+  "authors": "Peixin Xu, Yujuan Ding, Wenqi Fan",
+  "authorsParsed": [
+    [
+      "Xu",
+      "Peixin",
+      ""
+    ],
+    [
+      "Ding",
+      "Yujuan",
+      ""
+    ],
+    [
+      "Fan",
+      "Wenqi",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 30 Dec 2024 05:07:34 GMT"
+    }
+  ],
+  "updateDate": "2024-12-31",
+  "timestamp": 1735535254000,
+  "abstract": "  Chart summarization, which focuses on extracting key information from charts\nand interpreting it in natural language, is crucial for generating and\ndelivering insights through effective and accessible data analysis. Traditional\nmethods for chart understanding and summarization often rely on multi-stage\npipelines, which may produce suboptimal semantic alignment between visual and\ntextual information. In comparison, recently developed LLM-based methods are\nmore dependent on the capability of foundation images or languages, while\nignoring the characteristics of chart data and its relevant challenges. To\naddress these limitations, we propose ChartAdapter, a novel lightweight\ntransformer module designed to bridge the gap between charts and textual\nsummaries. ChartAdapter employs learnable query vectors to extract implicit\nsemantics from chart data and incorporates a cross-modal alignment projector to\nenhance vision-to-language generative learning. By integrating ChartAdapter\nwith an LLM, we enable end-to-end training and efficient chart summarization.\nTo further enhance the training, we introduce a three-stage hierarchical\ntraining procedure and develop a large-scale dataset specifically curated for\nchart summarization, comprising 190,618 samples. Experimental results on the\nstandard Chart-to-Text testing set demonstrate that our approach significantly\noutperforms existing methods, including state-of-the-art models, in generating\nhigh-quality chart summaries. Ablation studies further validate the\neffectiveness of key components in ChartAdapter. This work highlights the\npotential of tailored LLM-based approaches to advance chart understanding and\nsets a strong foundation for future research in this area.\n",
+  "subjects": [
+    "Computer Science/Multimedia",
+    "Computer Science/Computation and Language"
+  ],
+  "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+  "blobId": "B2r2g6ue3ZJtJyIrnmQvTnYaxgqnR6l6R7CNOnwGboQ",
+  "pdfSize": "1838307"
+}

@@ -1,0 +1,38 @@
+{
+  "id": "2412.11672",
+  "title": "LLM-DaaS: LLM-driven Drone-as-a-Service Operations from Text User\n  Requests",
+  "authors": "Lillian Wassim, Kamal Mohamed, and Ali Hamdi",
+  "authorsParsed": [
+    [
+      "Wassim",
+      "Lillian",
+      ""
+    ],
+    [
+      "Mohamed",
+      "Kamal",
+      ""
+    ],
+    [
+      "Hamdi",
+      "Ali",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 16 Dec 2024 11:25:56 GMT"
+    }
+  ],
+  "updateDate": "2024-12-17",
+  "timestamp": 1734348356000,
+  "abstract": "  We propose LLM-DaaS, a novel Drone-as-a-Service (DaaS) framework that\nleverages Large Language Models (LLMs) to transform free-text user requests\ninto structured, actionable DaaS operation tasks. Our approach addresses the\nkey challenge of interpreting and structuring natural language input to\nautomate drone service operations under uncertain conditions. The system is\ncomposed of three main components: free-text request processing, structured\nrequest generation, and dynamic DaaS selection and composition. First, we\nfine-tune different LLM models such as Phi-3.5, LLaMA-3.2 7b and Gemma 2b on a\ndataset of text user requests mapped to structured DaaS requests. Users\ninteract with our model in a free conversational style, discussing package\ndelivery requests, while the fine-tuned LLM extracts DaaS metadata such as\ndelivery time, source and destination locations, and package weight. The DaaS\nservice selection model is designed to select the best available drone capable\nof delivering the requested package from the delivery point to the nearest\noptimal destination. Additionally, the DaaS composition model composes a\nservice from a set of the best available drones to deliver the package from the\nsource to the final destination. Second, the system integrates real-time\nweather data to optimize drone route planning and scheduling, ensuring safe and\nefficient operations. Simulations demonstrate the system's ability to\nsignificantly improve task accuracy, operational efficiency, and establish\nLLM-DaaS as a robust solution for DaaS operations in uncertain environments.\n",
+  "subjects": [
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Human-Computer Interaction"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "kMCgkUOIxEnQs_rmHW2rypK582WCg2PnnIF-I737sPE",
+  "pdfSize": "1333718"
+}

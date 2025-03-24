@@ -1,0 +1,56 @@
+{
+  "id": "2412.08918",
+  "title": "CSSinger: End-to-End Chunkwise Streaming Singing Voice Synthesis System\n  Based on Conditional Variational Autoencoder",
+  "authors": "Jianwei Cui, Yu Gu, Shihao Chen, Jie Zhang, Liping Chen, Lirong Dai",
+  "authorsParsed": [
+    [
+      "Cui",
+      "Jianwei",
+      ""
+    ],
+    [
+      "Gu",
+      "Yu",
+      ""
+    ],
+    [
+      "Chen",
+      "Shihao",
+      ""
+    ],
+    [
+      "Zhang",
+      "Jie",
+      ""
+    ],
+    [
+      "Chen",
+      "Liping",
+      ""
+    ],
+    [
+      "Dai",
+      "Lirong",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 12 Dec 2024 04:01:28 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Fri, 13 Dec 2024 13:43:11 GMT"
+    }
+  ],
+  "updateDate": "2024-12-16",
+  "timestamp": 1733976088000,
+  "abstract": "  Singing Voice Synthesis (SVS) aims to generate singing voices of high\nfidelity and expressiveness. Conventional SVS systems usually utilize an\nacoustic model to transform a music score into acoustic features, followed by a\nvocoder to reconstruct the singing voice. It was recently shown that end-to-end\nmodeling is effective in the fields of SVS and Text to Speech (TTS). In this\nwork, we thus present a fully end-to-end SVS method together with a chunkwise\nstreaming inference to address the latency issue for practical usages. Note\nthat this is the first attempt to fully implement end-to-end streaming audio\nsynthesis using latent representations in VAE. We have made specific\nimprovements to enhance the performance of streaming SVS using latent\nrepresentations. Experimental results demonstrate that the proposed method\nachieves synthesized audio with high expressiveness and pitch accuracy in both\nstreaming SVS and TTS tasks.\n",
+  "subjects": [
+    "Electrical Engineering and Systems Science/Audio and Speech Processing"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "6p0qyIGv9H7b0ldlX0kF0UMJr7eKID5q9Tdmtp0EKo0",
+  "pdfSize": "3829419"
+}

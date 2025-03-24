@@ -1,0 +1,47 @@
+{
+  "id": "2412.13370",
+  "title": "Inverse design of anisotropic microstructures using physics-augmented\n  neural networks",
+  "authors": "Asghar A. Jadoon, Karl A. Kalina, Manuel K. Rausch, Reese Jones, Jan\n  N. Fuhg",
+  "authorsParsed": [
+    [
+      "Jadoon",
+      "Asghar A.",
+      ""
+    ],
+    [
+      "Kalina",
+      "Karl A.",
+      ""
+    ],
+    [
+      "Rausch",
+      "Manuel K.",
+      ""
+    ],
+    [
+      "Jones",
+      "Reese",
+      ""
+    ],
+    [
+      "Fuhg",
+      "Jan N.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 17 Dec 2024 22:57:07 GMT"
+    }
+  ],
+  "updateDate": "2024-12-19",
+  "timestamp": 1734476227000,
+  "abstract": "  Composite materials often exhibit mechanical anisotropy owing to the material\nproperties or geometrical configurations of the microstructure. This makes\ntheir inverse design a two-fold problem. First, we must learn the type and\norientation of anisotropy and then find the optimal design parameters to\nachieve the desired mechanical response. In our work, we solve this challenge\nby first training a forward surrogate model based on the macroscopic\nstress-strain data obtained via computational homogenization for a given\nmultiscale material. To this end, we use partially Input Convex Neural Networks\n(pICNNs) to obtain a polyconvex representation of the strain energy in terms of\nthe invariants of the Cauchy-Green deformation tensor. The network architecture\nand the strain energy function are modified to incorporate, by construction,\nphysics and mechanistic assumptions into the framework. While training the\nneural network, we find the type of anisotropy, if any, along with the\npreferred directions. Once the model is trained, we solve the inverse problem\nusing an evolution strategy to obtain the design parameters that give a desired\nmechanical response. We test the framework against synthetic macroscale and\nalso homogenized data. For cases where polyconvexity might be violated during\nthe homogenization process, we present viable alternate formulations. The\ntrained model is also integrated into a finite element framework to invert\ndesign parameters that result in a desired macroscopic response. We show that\nthe invariant-based model is able to solve the inverse problem for a\nstress-strain dataset with a different preferred direction than the one it was\ntrained on and is able to not only learn the polyconvex potentials of\nhyperelastic materials but also recover the correct parameters for the inverse\ndesign problem.\n",
+  "subjects": [
+    "Computer Science/Computational Engineering, Finance, and Science"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "blobId": "RD5_YrmWaNhOnigENxeQe-9-nsuF_n5WK1C56bciH18",
+  "pdfSize": "20529391"
+}

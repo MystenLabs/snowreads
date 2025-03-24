@@ -1,0 +1,53 @@
+{
+  "id": "2412.14905",
+  "title": "Dehallucinating Parallel Context Extension for Retrieval-Augmented\n  Generation",
+  "authors": "Zexiong Ma, Shengnan An, Zeqi Lin, Yanzhen Zou, Jian-Guang Lou, Bing\n  Xie",
+  "authorsParsed": [
+    [
+      "Ma",
+      "Zexiong",
+      ""
+    ],
+    [
+      "An",
+      "Shengnan",
+      ""
+    ],
+    [
+      "Lin",
+      "Zeqi",
+      ""
+    ],
+    [
+      "Zou",
+      "Yanzhen",
+      ""
+    ],
+    [
+      "Lou",
+      "Jian-Guang",
+      ""
+    ],
+    [
+      "Xie",
+      "Bing",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 19 Dec 2024 14:37:11 GMT"
+    }
+  ],
+  "updateDate": "2024-12-20",
+  "timestamp": 1734619031000,
+  "abstract": "  Large language models (LLMs) are susceptible to generating hallucinated\ninformation, despite the integration of retrieval-augmented generation (RAG).\nParallel context extension (PCE) is a line of research attempting to\neffectively integrating parallel (unordered) contexts, while it still suffers\nfrom hallucinations when adapted to RAG scenarios. In this paper, we propose\nDePaC (Dehallucinating Parallel Context Extension), which alleviates the\nhallucination problem with context-aware negative training and\ninformation-calibrated aggregation. DePaC is designed to alleviate two types of\nin-context hallucination: fact fabrication (i.e., LLMs present claims that are\nnot supported by the contexts) and fact omission (i.e., LLMs fail to present\nclaims that can be supported by the contexts). Specifically, (1) for fact\nfabrication, we apply the context-aware negative training that fine-tunes the\nLLMs with negative supervisions, thus explicitly guiding the LLMs to refuse to\nanswer when contexts are not related to questions; (2) for fact omission, we\npropose the information-calibrated aggregation which prioritizes context\nwindows with higher information increment from their contexts. The experimental\nresults on nine RAG tasks demonstrate that DePaC significantly alleviates the\ntwo types of hallucination and consistently achieves better performances on\nthese tasks.\n",
+  "subjects": [
+    "Computer Science/Computation and Language",
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+  "blobId": "IhxLG-NRGp9zNuES1DJd8CRaLy1oMWUeUljYlyQjZbE",
+  "pdfSize": "906749"
+}

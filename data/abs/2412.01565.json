@@ -1,0 +1,68 @@
+{
+  "id": "2412.01565",
+  "title": "A dynamic implicit 3D material point-to-rigid body contact approach for\n  large deformation analysis",
+  "authors": "Robert E. Bird, Giuliano Pretti, William M. Coombs, Charles E.\n  Augarde, Yaseen U. Sharif, Michael J. Brown, Gareth Carter, Catriona\n  Macdonald, Kirstin Johnson",
+  "authorsParsed": [
+    [
+      "Bird",
+      "Robert E.",
+      ""
+    ],
+    [
+      "Pretti",
+      "Giuliano",
+      ""
+    ],
+    [
+      "Coombs",
+      "William M.",
+      ""
+    ],
+    [
+      "Augarde",
+      "Charles E.",
+      ""
+    ],
+    [
+      "Sharif",
+      "Yaseen U.",
+      ""
+    ],
+    [
+      "Brown",
+      "Michael J.",
+      ""
+    ],
+    [
+      "Carter",
+      "Gareth",
+      ""
+    ],
+    [
+      "Macdonald",
+      "Catriona",
+      ""
+    ],
+    [
+      "Johnson",
+      "Kirstin",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 2 Dec 2024 14:50:44 GMT"
+    }
+  ],
+  "updateDate": "2024-12-03",
+  "timestamp": 1733151044000,
+  "abstract": "  Accurate and robust modelling of large deformation three dimensional contact\ninteraction is an important area of engineering, but it is also challenging\nfrom a computational mechanics perspective. This is particularly the case when\nthere is significant interpenetration and evolution of the contact surfaces,\nsuch as the case of a relatively rigid body interacting with a highly\ndeformable body. The numerical challenges come from several non-linear sources:\nlarge deformation mechanics, history dependent material behaviour and\nslip/stick frictional contact. In this paper the Material Point Method (MPM) is\nadopted to represent the deformable material, combined with a discretised rigid\nbody which provides an accurate representation of the contact surface. The\nthree dimensional interaction between the bodies is detected though the use of\ndomains associated with each material point. This provides a general and\nconsistent representation of the extent of the deformable body without\nintroducing boundary representation in the material point method. The dynamic\ngoverning equations allows the trajectory of the rigid body to evolve based on\nthe interaction with the deformable body and the governing equations are solved\nwithin an efficient implicit framework. The performance of the method is\ndemonstrated on a number of benchmark problems with analytical solutions. The\nmethod is also applied to the specific case of soil-structure interaction,\nusing geotechnical centrifuge experimental data that confirms the veracity of\nthe proposed approach.\n",
+  "subjects": [
+    "Mathematics/Numerical Analysis",
+    "Computer Science/Numerical Analysis"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "n6IU9zgRpJKrz4BXb_fLYijUyJcxBP36_AWmhR8ZWBs",
+  "pdfSize": "14193626"
+}

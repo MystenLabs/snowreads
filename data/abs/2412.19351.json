@@ -1,0 +1,55 @@
+{
+  "id": "2412.19351",
+  "title": "ETTA: Elucidating the Design Space of Text-to-Audio Models",
+  "authors": "Sang-gil Lee, Zhifeng Kong, Arushi Goel, Sungwon Kim, Rafael Valle,\n  Bryan Catanzaro",
+  "authorsParsed": [
+    [
+      "Lee",
+      "Sang-gil",
+      ""
+    ],
+    [
+      "Kong",
+      "Zhifeng",
+      ""
+    ],
+    [
+      "Goel",
+      "Arushi",
+      ""
+    ],
+    [
+      "Kim",
+      "Sungwon",
+      ""
+    ],
+    [
+      "Valle",
+      "Rafael",
+      ""
+    ],
+    [
+      "Catanzaro",
+      "Bryan",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 26 Dec 2024 21:13:12 GMT"
+    }
+  ],
+  "updateDate": "2024-12-30",
+  "timestamp": 1735247592000,
+  "abstract": "  Recent years have seen significant progress in Text-To-Audio (TTA) synthesis,\nenabling users to enrich their creative workflows with synthetic audio\ngenerated from natural language prompts. Despite this progress, the effects of\ndata, model architecture, training objective functions, and sampling strategies\non target benchmarks are not well understood. With the purpose of providing a\nholistic understanding of the design space of TTA models, we set up a\nlarge-scale empirical experiment focused on diffusion and flow matching models.\nOur contributions include: 1) AF-Synthetic, a large dataset of high quality\nsynthetic captions obtained from an audio understanding model; 2) a systematic\ncomparison of different architectural, training, and inference design choices\nfor TTA models; 3) an analysis of sampling methods and their Pareto curves with\nrespect to generation quality and inference speed. We leverage the knowledge\nobtained from this extensive analysis to propose our best model dubbed\nElucidated Text-To-Audio (ETTA). When evaluated on AudioCaps and MusicCaps,\nETTA provides improvements over the baselines trained on publicly available\ndata, while being competitive with models trained on proprietary data. Finally,\nwe show ETTA's improved ability to generate creative audio following complex\nand imaginative captions -- a task that is more challenging than current\nbenchmarks.\n",
+  "subjects": [
+    "Computer Science/Sound",
+    "Computer Science/Computation and Language",
+    "Computer Science/Machine Learning",
+    "Electrical Engineering and Systems Science/Audio and Speech Processing"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "hyjBy1t6AtRzQAm3svuNurlFkfQx4BcI6DA_uuhyoFw",
+  "pdfSize": "685242"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "2412.06437",
+  "title": "Minimization of the first eigenvalue for the Lam\\'e system",
+  "authors": "Antoine Henrot, Antoine Lemenant, Yannick Privat",
+  "authorsParsed": [
+    [
+      "Henrot",
+      "Antoine",
+      ""
+    ],
+    [
+      "Lemenant",
+      "Antoine",
+      ""
+    ],
+    [
+      "Privat",
+      "Yannick",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 9 Dec 2024 12:26:45 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Tue, 17 Dec 2024 12:31:59 GMT"
+    }
+  ],
+  "updateDate": "2024-12-18",
+  "timestamp": 1733747205000,
+  "abstract": "  In this article, we address the problem of determining a domain in\n$\\mathbb{R}^N$ that minimizes the first eigenvalue of the Lam\\'e system under a\nvolume constraint. We begin by establishing the existence of such an optimal\ndomain within the class of quasi-open sets, showing that in the physically\nrelevant dimensions $N = 2$ and $3$, the optimal domain is indeed an open set.\nAdditionally, we derive both first and second-order optimality conditions.\nLeveraging these conditions, we demonstrate that in two dimensions, the disk\ncannot be the optimal shape when the Poisson ratio is below a specific\nthreshold, whereas above this value, it serves as a local minimizer. We also\nextend our analysis to show that the disk is nonoptimal for Poisson ratios\n$\\nu$ satisfying $\\nu \\leq 0.4$.\n",
+  "subjects": [
+    "Mathematics/Analysis of PDEs",
+    "Mathematics/Spectral Theory"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "butWllntA4MlwNUEbyUezZkCxLUMu6UIvxU5kqXT11I",
+  "pdfSize": "852238"
+}

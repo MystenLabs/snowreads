@@ -1,0 +1,86 @@
+{
+  "id": "2412.17943",
+  "title": "Optimizing Prompt Strategies for SAM: Advancing lesion Segmentation\n  Across Diverse Medical Imaging Modalities",
+  "authors": "Yuli Wang, Victoria Shi, Wen-Chi Hsu, Yuwei Dai, Sophie Yao, Zhusi\n  Zhong, Zishu Zhang, Jing Wu, Aaron Maxwell, Scott Collins, Zhicheng Jiao, and\n  Harrison X. Bai",
+  "authorsParsed": [
+    [
+      "Wang",
+      "Yuli",
+      ""
+    ],
+    [
+      "Shi",
+      "Victoria",
+      ""
+    ],
+    [
+      "Hsu",
+      "Wen-Chi",
+      ""
+    ],
+    [
+      "Dai",
+      "Yuwei",
+      ""
+    ],
+    [
+      "Yao",
+      "Sophie",
+      ""
+    ],
+    [
+      "Zhong",
+      "Zhusi",
+      ""
+    ],
+    [
+      "Zhang",
+      "Zishu",
+      ""
+    ],
+    [
+      "Wu",
+      "Jing",
+      ""
+    ],
+    [
+      "Maxwell",
+      "Aaron",
+      ""
+    ],
+    [
+      "Collins",
+      "Scott",
+      ""
+    ],
+    [
+      "Jiao",
+      "Zhicheng",
+      ""
+    ],
+    [
+      "Bai",
+      "Harrison X.",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 23 Dec 2024 19:54:42 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Sat, 28 Dec 2024 15:39:00 GMT"
+    }
+  ],
+  "updateDate": "2024-12-31",
+  "timestamp": 1734983682000,
+  "abstract": "  Purpose: To evaluate various Segmental Anything Model (SAM) prompt strategies\nacross four lesions datasets and to subsequently develop a reinforcement\nlearning (RL) agent to optimize SAM prompt placement. Materials and Methods:\nThis retrospective study included patients with four independent ovarian, lung,\nrenal, and breast tumor datasets. Manual segmentation and SAM-assisted\nsegmentation were performed for all lesions. A RL model was developed to\npredict and select SAM points to maximize segmentation performance. Statistical\nanalysis of segmentation was conducted using pairwise t-tests. Results: Results\nshow that increasing the number of prompt points significantly improves\nsegmentation accuracy, with Dice coefficients rising from 0.272 for a single\npoint to 0.806 for five or more points in ovarian tumors. The prompt location\nalso influenced performance, with surface and union-based prompts outperforming\ncenter-based prompts, achieving mean Dice coefficients of 0.604 and 0.724 for\novarian and breast tumors, respectively. The RL agent achieved a peak Dice\ncoefficient of 0.595 for ovarian tumors, outperforming random and alternative\nRL strategies. Additionally, it significantly reduced segmentation time,\nachieving a nearly 10-fold improvement compared to manual methods using SAM.\nConclusion: While increased SAM prompts and non-centered prompts generally\nimproved segmentation accuracy, each pathology and modality has specific\noptimal thresholds and placement strategies. Our RL agent achieved superior\nperformance compared to other agents while achieving a significant reduction in\nsegmentation time.\n",
+  "subjects": [
+    "Electrical Engineering and Systems Science/Image and Video Processing"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "QdynizmdIO8RS82JvCPzqEorCY9GfyK1zrtUomASFPE",
+  "pdfSize": "2528264"
+}

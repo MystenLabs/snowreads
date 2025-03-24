@@ -1,0 +1,27 @@
+{
+  "id": "2412.02841",
+  "title": "New approach for the incoherent and coherent combination of pulsed\n  lasers",
+  "authors": "Hocine Djellout",
+  "authorsParsed": [
+    [
+      "Djellout",
+      "Hocine",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 3 Dec 2024 21:14:09 GMT"
+    }
+  ],
+  "updateDate": "2024-12-05",
+  "timestamp": 1733260449000,
+  "abstract": "  This work focuses on the incoherent and coherent combination of pulsed laser\nbeams, building on previous research [1] that addressed the combination of\ncontinuous-wave laser beams. For the pulsed combination, we have focused on the\ntemporal evolution of the combined intensity at the image plane. Simulation\nresults show that at the pulse peak, the combined intensity profile is the\nsame, whether in continuous-wave or pulsed mode, for both coherent and\nincoherent combinations. However, we observe spatial thinning of the combined\nbeams in the case of incoherent pulsed combination when the pulse widths are\nless than 100 fs. At the front of the pulse, we observe lateral lobes near the\nfocal point, which disappear as we approach the peak of the pulse. Similar to\nthe continuous-wave laser beam combination, our simulations show that in both\ncoherent and incoherent pulsed combinations, the filling factor has no impact\non the formation of secondary lobes or on the proportion of energy in the\ncentral lobe. Furthermore, with the new configuration, we are no longer\nconstrained by paraxial optics, as the number of lasers that can be combined is\narbitrary, and their positions can be chosen freely in space.\n",
+  "subjects": [
+    "Physics/Optics"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "Y4iw-3lvdiT6qsKdSrOYyu89sqzAtmLWX2xeFupJSSQ",
+  "pdfSize": "3135240"
+}

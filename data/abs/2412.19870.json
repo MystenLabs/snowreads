@@ -1,0 +1,32 @@
+{
+  "id": "2412.19870",
+  "title": "A Novel Differential Frequency Dielectric Resonator Based Microwave\n  Sensor for Angular Displacement Detection",
+  "authors": "A. V. Praveen Kumara, and Premsai Regalla",
+  "authorsParsed": [
+    [
+      "Kumara",
+      "A. V. Praveen",
+      ""
+    ],
+    [
+      "Regalla",
+      "Premsai",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 27 Dec 2024 13:11:59 GMT"
+    }
+  ],
+  "updateDate": "2024-12-31",
+  "timestamp": 1735305119000,
+  "abstract": "  A differential frequency microwave sensor for angular displacement detection\nis reported. A metal strip-loaded cylindrical dielectric resonator (SLCDR) is\nexcited with a 50 ohm microstrip transmission line through a rectangular slot\nmade on its ground plane. Analysis of the transmission coefficient (|S21|) of\nthe circuit shows that for the parallel alignment of SLCDR, dual-transmission\nzeros are excited at frequencies fL and fH, while for the perpendicular\nalignment, a single transmission zero is excited at f0 such that fL < f0 < fH.\nIn the range, frequency fL increases towards f0 while fH decreases towards f0.\nBased on this trend, a differential frequency parameter f = fH-fL is framed as\nthe indicator of the angular displacement following a simulation study with\nANSYS HFSS. Subsequent prototype fabrication and VNA measurement confirm the\nsimulations with 15.5 MHz/0 sensitivity over the sensitivity over 900 dynamic\nrange with excellent linearity. Subsequently, using linear inverse regression,\nthe measured differential frequencies are mapped to the angular displacement,\nand the calculated regression metrics prove very good mapping.\n",
+  "subjects": [
+    "Physics/Instrumentation and Detectors"
+  ],
+  "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+  "blobId": "QP7ZZvJmdlVshZWUuLuH_tGfOe86PsA2eWMLFMCemCA",
+  "pdfSize": "588040"
+}

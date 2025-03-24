@@ -1,0 +1,53 @@
+{
+  "id": "2412.15614",
+  "title": "Technical Report for ICML 2024 TiFA Workshop MLLM Attack Challenge:\n  Suffix Injection and Projected Gradient Descent Can Easily Fool An MLLM",
+  "authors": "Yangyang Guo and Ziwei Xu and Xilie Xu and YongKang Wong and Liqiang\n  Nie and Mohan Kankanhalli",
+  "authorsParsed": [
+    [
+      "Guo",
+      "Yangyang",
+      ""
+    ],
+    [
+      "Xu",
+      "Ziwei",
+      ""
+    ],
+    [
+      "Xu",
+      "Xilie",
+      ""
+    ],
+    [
+      "Wong",
+      "YongKang",
+      ""
+    ],
+    [
+      "Nie",
+      "Liqiang",
+      ""
+    ],
+    [
+      "Kankanhalli",
+      "Mohan",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 20 Dec 2024 07:17:50 GMT"
+    }
+  ],
+  "updateDate": "2024-12-23",
+  "timestamp": 1734679070000,
+  "abstract": "  This technical report introduces our top-ranked solution that employs two\napproaches, \\ie suffix injection and projected gradient descent (PGD) , to\naddress the TiFA workshop MLLM attack challenge. Specifically, we first append\nthe text from an incorrectly labeled option (pseudo-labeled) to the original\nquery as a suffix. Using this modified query, our second approach applies the\nPGD method to add imperceptible perturbations to the image. Combining these two\ntechniques enables successful attacks on the LLaVA 1.5 model.\n",
+  "subjects": [
+    "Computer Science/Cryptography and Security",
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "Ine2_rVo15WheDHvbKxrfzLvTpRONsPkBrh1S9R2zMo",
+  "pdfSize": "248027"
+}

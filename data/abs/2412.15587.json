@@ -1,0 +1,38 @@
+{
+  "id": "2412.15587",
+  "title": "Dexterous Manipulation Based on Prior Dexterous Grasp Pose Knowledge",
+  "authors": "Hengxu Yan, Haoshu Fang, Cewu Lu",
+  "authorsParsed": [
+    [
+      "Yan",
+      "Hengxu",
+      ""
+    ],
+    [
+      "Fang",
+      "Haoshu",
+      ""
+    ],
+    [
+      "Lu",
+      "Cewu",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 20 Dec 2024 05:46:29 GMT"
+    }
+  ],
+  "updateDate": "2024-12-23",
+  "timestamp": 1734673589000,
+  "abstract": "  Dexterous manipulation has received considerable attention in recent\nresearch. Predominantly, existing studies have concentrated on reinforcement\nlearning methods to address the substantial degrees of freedom in hand\nmovements. Nonetheless, these methods typically suffer from low efficiency and\naccuracy. In this work, we introduce a novel reinforcement learning approach\nthat leverages prior dexterous grasp pose knowledge to enhance both efficiency\nand accuracy. Unlike previous work, they always make the robotic hand go with a\nfixed dexterous grasp pose, We decouple the manipulation process into two\ndistinct phases: initially, we generate a dexterous grasp pose targeting the\nfunctional part of the object; after that, we employ reinforcement learning to\ncomprehensively explore the environment. Our findings suggest that the majority\nof learning time is expended in identifying the appropriate initial position\nand selecting the optimal manipulation viewpoint. Experimental results\ndemonstrate significant improvements in learning efficiency and success rates\nacross four distinct tasks.\n",
+  "subjects": [
+    "Computer Science/Robotics",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "F_ACQMHaG5xZk6shqXcQa50JDFqgD9Y7pOMteqEf5oE",
+  "pdfSize": "2246573"
+}

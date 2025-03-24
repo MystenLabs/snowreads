@@ -1,0 +1,40 @@
+{
+  "id": "2412.00333",
+  "title": "Gaussians on their Way: Wasserstein-Constrained 4D Gaussian Splatting\n  with State-Space Modeling",
+  "authors": "Junli Deng and Yihao Luo",
+  "authorsParsed": [
+    [
+      "Deng",
+      "Junli",
+      ""
+    ],
+    [
+      "Luo",
+      "Yihao",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Sat, 30 Nov 2024 03:16:28 GMT"
+    },
+    {
+      "version": "v2",
+      "created": "Thu, 5 Dec 2024 05:42:59 GMT"
+    },
+    {
+      "version": "v3",
+      "created": "Sat, 1 Feb 2025 16:10:44 GMT"
+    }
+  ],
+  "updateDate": "2025-02-04",
+  "timestamp": 1732936588000,
+  "abstract": "  Dynamic scene rendering has taken a leap forward with the rise of 4D Gaussian\nSplatting, but there's still one elusive challenge: how to make 3D Gaussians\nmove through time as naturally as they would in the real world, all while\nkeeping the motion smooth and consistent. In this paper, we unveil a fresh\napproach that blends state-space modeling with Wasserstein geometry, paving the\nway for a more fluid and coherent representation of dynamic scenes. We\nintroduce a State Consistency Filter that merges prior predictions with the\ncurrent observations, enabling Gaussians to stay true to their way over time.\nWe also employ Wasserstein distance regularization to ensure smooth, consistent\nupdates of Gaussian parameters, reducing motion artifacts. Lastly, we leverage\nWasserstein geometry to capture both translational motion and shape\ndeformations, creating a more physically plausible model for dynamic scenes.\nOur approach guides Gaussians along their natural way in the Wasserstein space,\nachieving smoother, more realistic motion and stronger temporal coherence.\nExperimental results show significant improvements in rendering quality and\nefficiency, outperforming current state-of-the-art techniques.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "blobId": "8CIZjCcyCSpEBs4Npx2mvt7y8pdjdtcWzLmxwvtVzE0",
+  "pdfSize": "7911894"
+}

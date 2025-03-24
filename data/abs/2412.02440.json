@@ -1,0 +1,32 @@
+{
+  "id": "2412.02440",
+  "title": "Model Determination for High-Dimensional Longitudinal Data with Missing\n  Observations: An Application to Microfinance Data",
+  "authors": "Lotta R\\\"uter, Melanie Schienle",
+  "authorsParsed": [
+    [
+      "Rüter",
+      "Lotta",
+      ""
+    ],
+    [
+      "Schienle",
+      "Melanie",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 3 Dec 2024 13:24:58 GMT"
+    }
+  ],
+  "updateDate": "2024-12-04",
+  "timestamp": 1733232298000,
+  "abstract": "  We propose an adaption of the multiple imputation random lasso procedure\ntailored to longitudinal data with unobserved fixed effects which provides\nrobust variable selection in the presence of complex missingness, high\ndimensionality and multicollinearity. We apply it to identify social and\nfinancial success factors of microfinance institutions (MFIs) in a data-driven\nway from a comprehensive, balanced, and global panel with 136 characteristics\nfor 213 MFIs over a six-year period. We discover the importance of staff\nstructure for MFI success and find that profitability is the most important\ndeterminant of financial success. Our results indicate that financial\nsustainability and breadth of outreach can be increased simultaneously while\nthe relationship with depth of outreach is more mixed.\n",
+  "subjects": [
+    "Statistics/Applications"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "W9yAeWCz_p5Jx2SmAdQf65BFlPIx0uXHQ2jLGP9xHME",
+  "pdfSize": "7123154"
+}

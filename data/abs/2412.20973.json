@@ -1,0 +1,28 @@
+{
+  "id": "2412.20973",
+  "title": "A Qualitative Analysis of Kernel Extension for Higher Order Proof\n  Checking",
+  "authors": "Shuai Wang",
+  "authorsParsed": [
+    [
+      "Wang",
+      "Shuai",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 30 Dec 2024 14:24:54 GMT"
+    }
+  ],
+  "updateDate": "2024-12-31",
+  "timestamp": 1735568694000,
+  "abstract": "  For the sake of reliability, the kernels of Interactive Theorem Provers\n(ITPs) are generally kept relatively small. On top of the kernel, additional\nsymbols and inference rules are defined. This paper presents an analysis of how\nkernel extension reduces the size of proofs and impacts proof checking.\n",
+  "subjects": [
+    "Computer Science/Logic in Computer Science",
+    "Computer Science/Symbolic Computation"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "xio2PIzDjlic7k7lXOwH7nEDyqQKXmODuB2dO40hS4M",
+  "pdfSize": "103259"
+}

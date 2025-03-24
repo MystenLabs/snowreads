@@ -1,0 +1,39 @@
+{
+  "id": "2412.05206",
+  "title": "ConQRet: Benchmarking Fine-Grained Evaluation of Retrieval Augmented\n  Argumentation with LLM Judges",
+  "authors": "Kaustubh D. Dhole, Kai Shu, Eugene Agichtein",
+  "authorsParsed": [
+    [
+      "Dhole",
+      "Kaustubh D.",
+      ""
+    ],
+    [
+      "Shu",
+      "Kai",
+      ""
+    ],
+    [
+      "Agichtein",
+      "Eugene",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Fri, 6 Dec 2024 17:35:52 GMT"
+    }
+  ],
+  "updateDate": "2024-12-09",
+  "timestamp": 1733506552000,
+  "abstract": "  Computational argumentation, which involves generating answers or summaries\nfor controversial topics like abortion bans and vaccination, has become\nincreasingly important in today's polarized environment. Sophisticated LLM\ncapabilities offer the potential to provide nuanced, evidence-based answers to\nsuch questions through Retrieval-Augmented Argumentation (RAArg), leveraging\nreal-world evidence for high-quality, grounded arguments. However, evaluating\nRAArg remains challenging, as human evaluation is costly and difficult for\ncomplex, lengthy answers on complicated topics. At the same time, re-using\nexisting argumentation datasets is no longer sufficient, as they lack long,\ncomplex arguments and realistic evidence from potentially misleading sources,\nlimiting holistic evaluation of retrieval effectiveness and argument quality.\nTo address these gaps, we investigate automated evaluation methods using\nmultiple fine-grained LLM judges, providing better and more interpretable\nassessments than traditional single-score metrics and even previously reported\nhuman crowdsourcing. To validate the proposed techniques, we introduce ConQRet,\na new benchmark featuring long and complex human-authored arguments on debated\ntopics, grounded in real-world websites, allowing an exhaustive evaluation\nacross retrieval effectiveness, argument quality, and groundedness. We validate\nour LLM Judges on a prior dataset and the new ConQRet benchmark. Our proposed\nLLM Judges and the ConQRet benchmark can enable rapid progress in computational\nargumentation and can be naturally extended to other complex\nretrieval-augmented generation tasks.\n",
+  "subjects": [
+    "Computer Science/Computation and Language",
+    "Computer Science/Artificial Intelligence",
+    "Computer Science/Information Retrieval"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "w9WJBgvIpKxEmB15ZLMqD0vIr__LqQ315rfUd9iCyBE",
+  "pdfSize": "1216840"
+}

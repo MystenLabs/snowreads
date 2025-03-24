@@ -1,0 +1,73 @@
+{
+  "id": "2412.07770",
+  "title": "From an Image to a Scene: Learning to Imagine the World from a Million\n  360 Videos",
+  "authors": "Matthew Wallingford, Anand Bhattad, Aditya Kusupati, Vivek Ramanujan,\n  Matt Deitke, Sham Kakade, Aniruddha Kembhavi, Roozbeh Mottaghi, Wei-Chiu Ma,\n  Ali Farhadi",
+  "authorsParsed": [
+    [
+      "Wallingford",
+      "Matthew",
+      ""
+    ],
+    [
+      "Bhattad",
+      "Anand",
+      ""
+    ],
+    [
+      "Kusupati",
+      "Aditya",
+      ""
+    ],
+    [
+      "Ramanujan",
+      "Vivek",
+      ""
+    ],
+    [
+      "Deitke",
+      "Matt",
+      ""
+    ],
+    [
+      "Kakade",
+      "Sham",
+      ""
+    ],
+    [
+      "Kembhavi",
+      "Aniruddha",
+      ""
+    ],
+    [
+      "Mottaghi",
+      "Roozbeh",
+      ""
+    ],
+    [
+      "Ma",
+      "Wei-Chiu",
+      ""
+    ],
+    [
+      "Farhadi",
+      "Ali",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Tue, 10 Dec 2024 18:59:44 GMT"
+    }
+  ],
+  "updateDate": "2024-12-11",
+  "timestamp": 1733857184000,
+  "abstract": "  Three-dimensional (3D) understanding of objects and scenes play a key role in\nhumans' ability to interact with the world and has been an active area of\nresearch in computer vision, graphics, and robotics. Large scale synthetic and\nobject-centric 3D datasets have shown to be effective in training models that\nhave 3D understanding of objects. However, applying a similar approach to\nreal-world objects and scenes is difficult due to a lack of large-scale data.\nVideos are a potential source for real-world 3D data, but finding diverse yet\ncorresponding views of the same content has shown to be difficult at scale.\nFurthermore, standard videos come with fixed viewpoints, determined at the time\nof capture. This restricts the ability to access scenes from a variety of more\ndiverse and potentially useful perspectives. We argue that large scale 360\nvideos can address these limitations to provide: scalable corresponding frames\nfrom diverse views. In this paper, we introduce 360-1M, a 360 video dataset,\nand a process for efficiently finding corresponding frames from diverse\nviewpoints at scale. We train our diffusion-based model, Odin, on 360-1M.\nEmpowered by the largest real-world, multi-view dataset to date, Odin is able\nto freely generate novel views of real-world scenes. Unlike previous methods,\nOdin can move the camera through the environment, enabling the model to infer\nthe geometry and layout of the scene. Additionally, we show improved\nperformance on standard novel view synthesis and 3D reconstruction benchmarks.\n",
+  "subjects": [
+    "Computer Science/Computer Vision and Pattern Recognition",
+    "Computer Science/Machine Learning"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "L7lq3FB2Gzmn_ZMntV1ycwbts_AvS2c7CuRJB5ghQHM",
+  "pdfSize": "12816132"
+}

@@ -1,0 +1,47 @@
+{
+  "id": "2412.03072",
+  "title": "Preference-based opponent shaping in differentiable games",
+  "authors": "Xinyu Qiao, Yudong Hu, Congying Han, Weiyan Wu, Tiande Guo",
+  "authorsParsed": [
+    [
+      "Qiao",
+      "Xinyu",
+      ""
+    ],
+    [
+      "Hu",
+      "Yudong",
+      ""
+    ],
+    [
+      "Han",
+      "Congying",
+      ""
+    ],
+    [
+      "Wu",
+      "Weiyan",
+      ""
+    ],
+    [
+      "Guo",
+      "Tiande",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 4 Dec 2024 06:49:21 GMT"
+    }
+  ],
+  "updateDate": "2024-12-05",
+  "timestamp": 1733294961000,
+  "abstract": "  Strategy learning in game environments with multi-agent is a challenging\nproblem. Since each agent's reward is determined by the joint strategy, a\ngreedy learning strategy that aims to maximize its own reward may fall into a\nlocal optimum. Recent studies have proposed the opponent modeling and shaping\nmethods for game environments. These methods enhance the efficiency of strategy\nlearning by modeling the strategies and updating processes of other agents.\nHowever, these methods often rely on simple predictions of opponent strategy\nchanges. Due to the lack of modeling behavioral preferences such as cooperation\nand competition, they are usually applicable only to predefined scenarios and\nlack generalization capabilities. In this paper, we propose a novel\nPreference-based Opponent Shaping (PBOS) method to enhance the strategy\nlearning process by shaping agents' preferences towards cooperation. We\nintroduce the preference parameter, which is incorporated into the agent's loss\nfunction, thus allowing the agent to directly consider the opponent's loss\nfunction when updating the strategy. We update the preference parameters\nconcurrently with strategy learning to ensure that agents can adapt to any\ncooperative or competitive game environment. Through a series of experiments,\nwe verify the performance of PBOS algorithm in a variety of differentiable\ngames. The experimental results show that the PBOS algorithm can guide the\nagent to learn the appropriate preference parameters, so as to achieve better\nreward distribution in multiple game environments.\n",
+  "subjects": [
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "bXTDN-6fY4syAkNG-wnkILudvzzSKXSDKRaVbniootw",
+  "pdfSize": "4637987"
+}

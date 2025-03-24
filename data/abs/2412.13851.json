@@ -1,0 +1,42 @@
+{
+  "id": "2412.13851",
+  "title": "From approximation error to optimality gap -- Explaining the performance\n  impact of opportunity cost approximation in integrated demand management and\n  vehicle routing",
+  "authors": "David Fleckenstein, Robert Klein, Vienna Klein, Claudius Steinhardt",
+  "authorsParsed": [
+    [
+      "Fleckenstein",
+      "David",
+      ""
+    ],
+    [
+      "Klein",
+      "Robert",
+      ""
+    ],
+    [
+      "Klein",
+      "Vienna",
+      ""
+    ],
+    [
+      "Steinhardt",
+      "Claudius",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Wed, 18 Dec 2024 13:46:46 GMT"
+    }
+  ],
+  "updateDate": "2024-12-19",
+  "timestamp": 1734529606000,
+  "abstract": "  The widespread adoption of digital distribution channels both enables and\nforces more and more logistical service providers to manage booking processes\nactively to maintain competitiveness. As a result, their operational planning\nis no longer limited to solving vehicle routing problems. Instead, demand\nmanagement decisions and vehicle routing decisions are optimized integratively\nwith the aim of maximizing revenue and minimizing fulfillment cost. The\nresulting integrated demand management and vehicle routing problems (i-DMVRPs)\ncan be formulated as Markov decision process models and, theoretically, can be\nsolved via the well-known Bellman equation. Unfortunately, the Bellman equation\nis intractable for realistic-sized instances. Thus, in the literature, i-DMVRPs\nare often addressed via decomposition-based solution approaches involving an\nopportunity cost approximation as a key component. Despite its importance, to\nthe best of our knowledge, there is neither a technique to systematically\nanalyze how the accuracy of the opportunity cost approximation translates into\noverall solution quality nor are there general guidelines on when to apply\nwhich class of approximation approach. In this work, we address this research\ngap by proposing an explainability technique that quantifies and visualizes the\nmagnitude of approximation errors, their immediate impact, and their relevance\nin specific regions of the state space. Exploiting reward decomposition, it\nfurther yields a characterization of different types of approximation errors.\nApplying the technique to a generic i-DMVRP in a full-factorial computational\nstudy and comparing the results with observations in existing literature, we\nshow that the technique contributes to better explaining algorithmic\nperformance and provides guidance for the algorithm selection and development\nprocess.\n",
+  "subjects": [
+    "Computer Science/Artificial Intelligence"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "ZwdHcDQSyOBb1PIUyqtFYNrsc255I9JQVZd3ChklCME",
+  "pdfSize": "2013820"
+}

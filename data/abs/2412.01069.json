@@ -1,0 +1,39 @@
+{
+  "id": "2412.01069",
+  "title": "The Promise and Peril of Generative AI: Evidence from GPT-4 as Sell-Side\n  Analysts",
+  "authors": "Edward Li, Zhiyuan Tu, Dexin Zhou",
+  "authorsParsed": [
+    [
+      "Li",
+      "Edward",
+      ""
+    ],
+    [
+      "Tu",
+      "Zhiyuan",
+      ""
+    ],
+    [
+      "Zhou",
+      "Dexin",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Mon, 2 Dec 2024 03:08:18 GMT"
+    }
+  ],
+  "updateDate": "2024-12-03",
+  "timestamp": 1733108898000,
+  "abstract": "  We investigate how advanced large language models (LLMs), specifically GPT-4,\nprocess corporate disclosures to forecast earnings. Using earnings press\nreleases issued around GPT-4's knowledge cutoff date, we address two questions:\n(1) Do GPT-generated earnings forecasts outperform analysts in accuracy? (2)\nHow is GPT's performance related to its processing of textual and quantitative\ninformation? Our findings suggest that GPT forecasts are significantly less\naccurate than those of analysts. This underperformance can be traced to GPT's\ndistinct textual and quantitative approaches: its textual processing follows a\nconsistent, generalized pattern across firms, highlighting its strengths in\nlanguage tasks. In contrast, its quantitative processing capabilities vary\nsignificantly across firms, revealing limitations tied to the uneven\navailability of domain-specific training data. Additionally, there is some\nevidence that GPT's forecast accuracy diminishes beyond its knowledge cutoff,\nunderscoring the need to evaluate LLMs under hindsight-free conditions.\nOverall, this study provides a novel exploration of the \"black box\" of GPT-4's\ninformation processing, offering insights into LLMs' potential and challenges\nin financial applications.\n",
+  "subjects": [
+    "Quantitative Finance/General Finance",
+    "Economics/General Economics",
+    "Quantitative Finance/Economics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "YmijqSBVgoUkihkzIYQyYv8wLGZKVlzfa-xGhCBad58",
+  "pdfSize": "1421801"
+}

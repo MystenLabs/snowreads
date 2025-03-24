@@ -1,0 +1,32 @@
+{
+  "id": "2412.19042",
+  "title": "On off-diagonal $F$-Ramsey numbers",
+  "authors": "Sammy Luo, Zixuan Xu",
+  "authorsParsed": [
+    [
+      "Luo",
+      "Sammy",
+      ""
+    ],
+    [
+      "Xu",
+      "Zixuan",
+      ""
+    ]
+  ],
+  "versions": [
+    {
+      "version": "v1",
+      "created": "Thu, 26 Dec 2024 03:33:05 GMT"
+    }
+  ],
+  "updateDate": "2024-12-30",
+  "timestamp": 1735183985000,
+  "abstract": "  A graph is $(t_1, t_2)$-Ramsey if any red-blue coloring of its edges contains\neither a red copy of $K_{t_1}$ or a blue copy of $K_{t_2}$. The size Ramsey\nnumber is the minimum number of edges contained in a $(t_1,t_2)$-Ramsey graph.\nGeneralizing the notion of size Ramsey numbers, the $F$-Ramsey number $r_F(t_1,\nt_2)$ is defined to be the minimum number of copies of $F$ in a\n$(t_1,t_2)$-Ramsey graph. It is easy to see that $r_{K_s}(t_1,t_2)\\le\n\\binom{r(t_1,t_2)}{s}$. Recently, Fox, Tidor, and Zhang showed that equality\nholds in this bound when $s=3$ and $t_1=t_2$, i.e. $r_{K_3}(t,t) =\n\\binom{r(t,t)}{3}$. They further conjectured that\n$r_{K_s}(t,t)=\\binom{r(t,t)}{s}$ for all $s\\le t$, in response to a question of\nSpiro.\n  In this work, we study the off-diagonal variant of this conjecture: is it\ntrue that $r_{K_s}(t_1,t_2)=\\binom{r(t_1,t_2)}{s}$ whenever $s\\le\n\\max(t_1,t_2)$? Harnessing the constructions used in the recent breakthrough\nwork of Mattheus and Verstra\\\"ete on the asymptotics of $r(4,t)$, we show that\nwhen $t_1$ is $3$ or $4$, the above equality holds up to a lower order term in\nthe exponent.\n",
+  "subjects": [
+    "Mathematics/Combinatorics"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "blobId": "lru0lHjEK-SBTrXEb_UAsZJsfKpumNE3xpG9RwioTZo",
+  "pdfSize": "150879"
+}
