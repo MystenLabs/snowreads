@@ -197,7 +197,11 @@ const CollectionListPage: React.FC<ICategoryListPageProps> = ({
                       ? "Discover how artificial intelligence understands humor and how good a comedian it can be."
                         : category === "Mysten Labs Research"
                         ? "A collection of papers published by Mysten Labs researchers."
-                        : ""}
+                          : category === "Scaling Culture with NFTs"
+                          ? "Dive into the evolving NFT landscape, where taxonomy meets technology, AI art sparks debate, and blockchain gaming redefines community engagement."
+                            : category === "Metaverse: An Immersive Cyberspace"
+                            ? "AI sidekicks, endless virtual worlds, and the challenge of keeping it all connected. Strap in, the future is loading!"
+                              : ""}
                 </span>
                 <br />
                 <br />
