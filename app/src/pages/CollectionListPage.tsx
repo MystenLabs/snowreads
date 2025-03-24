@@ -60,7 +60,9 @@ const CollectionListPage: React.FC<ICategoryListPageProps> = ({
       "Scientific Wonder of Pop Culture":
         "nLkXsss6zqfehkBlwe4v5vZCe092hWxLPk9SK-IiWWA",
       "Is AI Fun": "9QwHCR56V-mjax-uhOKILs1I9yg6C4rjtgeFckVohIM",
-      "Mysten Labs Research": "g56vpiiC2iJ2ZSeGDjW7lLGRO2w-m5ll7GMHmBmZL0A"
+      "Mysten Labs Research": "g56vpiiC2iJ2ZSeGDjW7lLGRO2w-m5ll7GMHmBmZL0A",
+      "Scaling Culture with NFTs": "Y7bKI1aoeM2dyk7xhATMCjCIVHWuSqQu6X18MQpCce0",
+      "Metaverse: An Immersive Cyberspace": "0J0S7A3AIK39zmmW88ptrstvIXiWWvlkFFnPOUIzi6g"
     };
     return categoryToWavBlobMap[category] || "defaultBlobId";
   };
