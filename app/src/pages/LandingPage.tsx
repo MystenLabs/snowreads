@@ -246,6 +246,18 @@ const LandingPage: React.FC = () => {
       documents: allCollectionsData["Mysten Labs Research"].count,
       size: allCollectionsData["Mysten Labs Research"].size,
     },
+    {
+      icon: "/mysten_labs_research_icon.svg",
+      title: "Scaling Culture with NFTs",
+      documents: allCollectionsData["Scaling Culture with NFTs"].count,
+      size: allCollectionsData["Scaling Culture with NFTs"].size,
+    },
+    {
+      icon: "/mysten_labs_research_icon.svg",
+      title: "Metaverse: An Immersive Cyberspace",
+      documents: allCollectionsData["Metaverse: An Immersive Cyberspace"].count,
+      size: allCollectionsData["Metaverse: An Immersive Cyberspace"].size,
+    },
   ];
 
   return (
