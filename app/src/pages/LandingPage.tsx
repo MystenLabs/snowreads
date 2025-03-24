@@ -111,7 +111,7 @@ const LANDING_PAGE_CATEGORIES: CategoryArg[] = [
     categoryName: "Nonlinear Sciences",
     subCategories: [
       "Adaptation and Self-Organizing Systems",
-      "Cellular Automata and Lattice Gases",
+      "Exactly Solvable and Integrable Systems",
       "Chaotic Dynamics",
       "Pattern Formation and Solitons",
     ],
