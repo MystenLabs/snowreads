@@ -12,7 +12,7 @@ const WalrusMetadataContainer: React.FC<IWalrusMetadataContainerProps> = ({
         {blobId && (
           <li>
             <a
-              href={`https://walruscan.com/testnet/blob/${blobId}`}
+              href={`https://walruscan.com/mainnet/blob/${blobId}`}
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-[#8B28D2]  font-medium"

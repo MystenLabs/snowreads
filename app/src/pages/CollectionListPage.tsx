@@ -56,13 +56,13 @@ const CollectionListPage: React.FC<ICategoryListPageProps> = ({
   const getWavBlobIdForCategory = (category: string): string => {
     const categoryToWavBlobMap: { [key: string]: string } = {
       "The Science of Everyday Decisions":
-        "4OHVF4tu1Nq1itT78G5NqCYP3Ffra2QHV19cfDu9rfc",
+        "OGjf1RKmU1NH67P7s0WZEYdIIb6OEP69R9x3b6fx7L8",
       "Scientific Wonder of Pop Culture":
-        "nLkXsss6zqfehkBlwe4v5vZCe092hWxLPk9SK-IiWWA",
-      "Is AI Fun": "9QwHCR56V-mjax-uhOKILs1I9yg6C4rjtgeFckVohIM",
-      "Mysten Labs Research": "g56vpiiC2iJ2ZSeGDjW7lLGRO2w-m5ll7GMHmBmZL0A",
-      "Scaling Culture with NFTs": "Y7bKI1aoeM2dyk7xhATMCjCIVHWuSqQu6X18MQpCce0",
-      "Metaverse: An Immersive Cyberspace": "0J0S7A3AIK39zmmW88ptrstvIXiWWvlkFFnPOUIzi6g"
+        "nyhIqvK2ldPQscrca5vqEGLlmDeJt_hIJJyLzoVntKc",
+      "Is AI Fun": "aZ9iSjjLZcPt6yNfptL-0tBdWmfXbCteY27k946L-Sk",
+      "Mysten Labs Research": "j0cHM3i_vLQmrnBr1eE0iPPbZ1N7V739rnTl9KvCKL4",
+      "Scaling Culture with NFTs": "v-pDgeKC70-8x3KYWjLhvS2nfTXcd8F5yI4Om8KeQks",
+      "Metaverse: An Immersive Cyberspace": "UXgOrg1Jd71sAkbKs1fkVF-09AmkOogKTF0tx3nzOcA"
     };
     return categoryToWavBlobMap[category] || "defaultBlobId";
   };
@@ -130,7 +130,7 @@ const CollectionListPage: React.FC<ICategoryListPageProps> = ({
                   <div className="md:-mt-6 ">
                   {wavBlobId !== "defaultBlobId" && 
                     <AudioSummaryContainer
-                      src={`https://aggregator.walrus-testnet.walrus.space/v1/blobs/${wavBlobId}`}
+                      src={`https://aggregator.walrus-mainnet.walrus.space/v1/blobs/${wavBlobId}`}
                     />
                   }
                     <PaperCardContainer
