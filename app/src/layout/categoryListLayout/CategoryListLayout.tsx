@@ -30,7 +30,15 @@ const CategoryListLayout: React.FC<ICategoryListLayout> = ({ label }) => {
               {
                 id: "Mysten Labs Research",
                 label: "Mysten Labs Research"
-              }
+              },
+              {
+                id: "Scaling Culture with NFTs",
+                label: "Scaling Culture with NFTs",
+              },
+              {
+                id: "Metaverse: An Immersive Cyberspace",
+                label: "Metaverse: An Immersive Cyberspace",
+              },
             ]}
           />
         )}

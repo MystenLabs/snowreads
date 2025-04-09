@@ -14,6 +14,7 @@ const PDFViewerPage: React.FC = () => {
   const [numPages, setNumPages] = useState<number | null>(null);
   const [timeoutReached, setTimeoutReached] = useState(false); // Track if 10 seconds passed
   const [isLoading, setIsLoading] = useState(false); // Resolve "Use different canvas or ensure previous operations were cancelled or completed."
+  const [isStickied, setIsStickied] = useState(false); // Track if the header is stickied (based on scroll)
 
   const canvasRefs = useRef<(HTMLCanvasElement | null)[]>([]); // Array of canvas refs for each page
 
@@ -30,7 +31,7 @@ const PDFViewerPage: React.FC = () => {
     const loadPDF = async () => {
       try {
         const loadingTask = pdfjs.getDocument(
-          `https://aggregator.walrus-testnet.walrus.space/v1/blobs/${blobIdDecoded}`
+          `https://aggregator.walrus-mainnet.walrus.space/v1/blobs/${blobIdDecoded}`,
         );
         const pdf = await loadingTask.promise;
         setNumPages(pdf.numPages); // Set numPages once the PDF is loaded
@@ -83,7 +84,7 @@ const PDFViewerPage: React.FC = () => {
                 context.rotate((180 * Math.PI) / 180);
                 context.translate(
                   -canvas.width / outputScale,
-                  -canvas.height / outputScale
+                  -canvas.height / outputScale,
                 );
                 break;
               case 270:
@@ -121,9 +122,28 @@ const PDFViewerPage: React.FC = () => {
     };
   }, [blobIdDecoded, numPages, isLoading]);
 
+  useEffect(() => {
+    const header = document.querySelector("header");
+    if (!header) return;
+
+    const headerHeight = header.clientHeight;
+
+    const handleScroll = () => {
+      setIsStickied(window.scrollY > headerHeight);
+    };
+
+    window.addEventListener("scroll", handleScroll, { passive: true });
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   return (
     <div>
-      <header className="w-full bg-primary border-b border-gray-300">
+      <header
+        className={`w-full bg-primary border-b border-gray-300 sticky top-0 z-50 transition-shadow duration-300 ${isStickied ? "shadow-md" : "shadow-none"}`}
+      >
         <div className="flex items-center justify-between p-4">
           <div className="logo">
             <Link to="/">
@@ -131,13 +151,12 @@ const PDFViewerPage: React.FC = () => {
             </Link>
           </div>
           <a
-            href={`https://aggregator.walrus-testnet.walrus.space/v1/blobs/${blobIdDecoded}`}
+            href={`https://aggregator.walrus-mainnet.walrus.space/v1/blobs/${blobIdDecoded}`}
             download
-            className={`text-sm border-2 border-solid p-[8px] rounded-lg ${
-              !numPages
+            className={`text-sm border-2 border-solid p-[8px] rounded-lg ${!numPages
                 ? "bg-gray-400 text-gray-600 cursor-not-allowed border-gray-400"
                 : "text-[#8B28D2] border-[#8B28D2] hover:bg-[#8B28D2] hover:text-white"
-            }`}
+              }`}
             style={{ pointerEvents: !numPages ? "none" : "auto" }} // Disable link click
           >
             Download from Walrus

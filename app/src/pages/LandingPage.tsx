@@ -111,7 +111,7 @@ const LANDING_PAGE_CATEGORIES: CategoryArg[] = [
     categoryName: "Nonlinear Sciences",
     subCategories: [
       "Adaptation and Self-Organizing Systems",
-      "Cellular Automata and Lattice Gases",
+      "Exactly Solvable and Integrable Systems",
       "Chaotic Dynamics",
       "Pattern Formation and Solitons",
     ],
@@ -119,7 +119,7 @@ const LANDING_PAGE_CATEGORIES: CategoryArg[] = [
 ];
 
 async function fetchPapersForSubCategory(
-  path: string
+  path: string,
 ): Promise<IPaperTrimmed[]> {
   const resp = await fetch(path);
   return await resp.json();
@@ -127,17 +127,17 @@ async function fetchPapersForSubCategory(
 
 // This fills all papers for every category in LANDING_PAGE_CATEGORIES.
 async function updateAllPapers(allPapers: AllPapers) {
-  let promises = [];
+  const promises = [];
   for (const catArg of LANDING_PAGE_CATEGORIES) {
     const cat = allPapers.categories.find(
-      (cat) => cat.name === catArg.categoryName
+      (cat) => cat.name === catArg.categoryName,
     );
     if (!cat) {
       throw `Did not find ${catArg.categoryName}`;
     }
     for (const subCatArg of catArg.subCategories) {
       const subCat = cat.subCategories.find(
-        (subCat) => subCat.name === subCatArg
+        (subCat) => subCat.name === subCatArg,
       );
       if (!subCat) {
         throw `Did not find ${catArg.categoryName}->${subCatArg}`;
@@ -146,7 +146,7 @@ async function updateAllPapers(allPapers: AllPapers) {
       promises.push(
         fetchPapersForSubCategory(data).then((papers) => {
           subCat.papers = papers;
-        })
+        }),
       );
     }
   }
@@ -197,7 +197,7 @@ const LandingPage: React.FC = () => {
         console.log("Promises finished");
         setAllPapersData(data);
         setActiveCategory(
-          data.categories.find((cat) => cat.name === "Computer Science")
+          data.categories.find((cat) => cat.name === "Computer Science"),
         );
       })
       .catch((error) => {
@@ -209,7 +209,7 @@ const LandingPage: React.FC = () => {
     if (!allPapersData) return;
     setActiveCategorySize(
       allPapersData.categories.find((cat) => cat.name === activeCategory?.name)!
-        .size
+        .size,
     );
   }, [activeCategory, allPapersData]);
 
@@ -235,16 +235,28 @@ const LandingPage: React.FC = () => {
       size: allCollectionsData["Scientific Wonder of Pop Culture"].size,
     },
     {
-      icon: "/comp_sci_icon.png",
+      icon: "/fun.svg",
       title: "Is AI Fun?",
       documents: allCollectionsData["Is AI Fun"].count,
       size: allCollectionsData["Is AI Fun"].size,
     },
     {
-      icon: "/mysten_labs_research_icon.svg",
+      icon: "/research.svg",
       title: "Mysten Labs Research",
       documents: allCollectionsData["Mysten Labs Research"].count,
       size: allCollectionsData["Mysten Labs Research"].size,
+    },
+    {
+      icon: "/scaling.svg",
+      title: "Scaling Culture with NFTs",
+      documents: allCollectionsData["Scaling Culture with NFTs"].count,
+      size: allCollectionsData["Scaling Culture with NFTs"].size,
+    },
+    {
+      icon: "/metaverse.svg",
+      title: "Metaverse: An Immersive Cyberspace",
+      documents: allCollectionsData["Metaverse: An Immersive Cyberspace"].count,
+      size: allCollectionsData["Metaverse: An Immersive Cyberspace"].size,
     },
   ];
 
@@ -279,7 +291,7 @@ const LandingPage: React.FC = () => {
         </h1>
       </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-5 w-full px-4 sm:px-8 md:px-12 max-w-[1024px] pb-10">
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-5 w-full px-4 sm:px-8 md:px-12 max-w-[1024px] pb-10">
         {collections.map((item, index) => (
           <CategoryCard
             key={index}
@@ -305,8 +317,8 @@ const LandingPage: React.FC = () => {
             onClick={() =>
               setActiveCategory(
                 allPapersData.categories.find(
-                  (cat) => cat.name === catArg.categoryName
-                )
+                  (cat) => cat.name === catArg.categoryName,
+                ),
               )
             }
             className={`${activeCategory?.name === catArg.categoryName ? "bg-tertiary" : "bg-white"} text-black rounded-full px-4 py-2 tx-sm`}
@@ -326,12 +338,12 @@ const LandingPage: React.FC = () => {
       <div className="container mx-auto p-4 max-w-[1200px]">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           {LANDING_PAGE_CATEGORIES.find(
-            (cat) => cat.categoryName === activeCategory?.name
+            (cat) => cat.categoryName === activeCategory?.name,
           )?.subCategories.map((subCategoryName) =>
             allPapersData.categories
               .find((cat) => cat.name === activeCategory?.name)
               ?.subCategories.find(
-                (subCat) => subCat.name === subCategoryName
+                (subCat) => subCat.name === subCategoryName,
               ) ? (
               <PaperCardContainer
                 key={subCategoryName}
@@ -342,14 +354,14 @@ const LandingPage: React.FC = () => {
                   allPapersData.categories
                     .find((cat) => cat.name === activeCategory?.name)
                     ?.subCategories.find(
-                      (subCat) => subCat.name === subCategoryName
+                      (subCat) => subCat.name === subCategoryName,
                     )?.count
                 }
                 size={
                   allPapersData.categories
                     .find((cat) => cat.name === activeCategory?.name)
                     ?.subCategories.find(
-                      (subCat) => subCat.name === subCategoryName
+                      (subCat) => subCat.name === subCategoryName,
                     )?.size
                 }
                 maxHeight="600px"
@@ -357,12 +369,12 @@ const LandingPage: React.FC = () => {
                 {allPapersData.categories
                   .find((cat) => cat.name === activeCategory?.name)!
                   .subCategories.find(
-                    (subCat) => subCat.name === subCategoryName
+                    (subCat) => subCat.name === subCategoryName,
                   )!.papers.length > 0 ? (
                   allPapersData.categories
                     .find((cat) => cat.name === activeCategory?.name)!
                     .subCategories.find(
-                      (subCat) => subCat.name === subCategoryName
+                      (subCat) => subCat.name === subCategoryName,
                     )!
                     .papers.sort((lhs, rhs) => rhs.timestamp - lhs.timestamp)
                     .map((paper) => {
@@ -391,7 +403,7 @@ const LandingPage: React.FC = () => {
               </PaperCardContainer>
             ) : (
               <p>No papers available for {subCategoryName}</p>
-            )
+            ),
           )}
         </div>
 
@@ -406,7 +418,7 @@ const LandingPage: React.FC = () => {
             <div className="text-sm font-medium text-gray-600 sm:text-right">
               {
                 allPapersData.categories.find(
-                  (cat) => cat.name === activeCategory?.name
+                  (cat) => cat.name === activeCategory?.name,
                 )?.count
               }{" "}
               Documents, {formatBytes(activeCategorySize)}

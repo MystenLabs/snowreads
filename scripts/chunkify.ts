@@ -4,9 +4,9 @@ import { Dirent } from 'fs';
 
 const PDF_DIR = `${__dirname}/../data/pdf`
 const ABS_DIR = `${__dirname}/../data/abs`
-const MAX_TOTAL_BLOB_SIZE = 1073741824;
+const MAX_TOTAL_BLOB_SIZE = 1073741824 / 2;
 const MAX_FILES_PER_COMMAND = 100;
-const MAX_EPOCHS = 183;
+const MAX_EPOCHS = 12;
 
 type FileData = {
     size: number;

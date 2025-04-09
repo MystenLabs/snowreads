@@ -1,0 +1,492 @@
+[
+  {
+    "id": "2206.03018",
+    "submitter": "Lik Hang Lee Dr.",
+    "authors": "Lik-Hang Lee, Pengyuan Zhou, Tristan Braud, Pan Hui",
+    "title": "What is the Metaverse? An Immersive Cyberspace and Open Challenges",
+    "comments": "7 pages, 2 figures",
+    "journal-ref": null,
+    "doi": null,
+    "report-no": null,
+    "categories": "cs.MM cs.CY",
+    "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "abstract": "  The Metaverse refers to a virtual-physical blended space in which multiple\nusers can concurrently interact with a unified computer-generated environment\nand other users, which can be regarded as the next significant milestone of the\ncurrent cyberspace. This article primarily discusses the development and\nchallenges of the Metaverse. We first briefly describe the development of\ncyberspace and the necessity of technology enablers. Accordingly, our bottom-up\napproach highlights three critical technology enablers for the Metaverse:\nnetworks, systems, and users. Also, we highlight a number of indispensable\nissues, under technological and ecosystem perspectives, that build and sustain\nthe Metaverse.\n",
+    "versions": [
+      {
+        "version": "v1",
+        "created": "Tue, 7 Jun 2022 05:22:42 GMT"
+      }
+    ],
+    "update_date": "2022-06-08",
+    "authors_parsed": [
+      [
+        "Lee",
+        "Lik-Hang",
+        ""
+      ],
+      [
+        "Zhou",
+        "Pengyuan",
+        ""
+      ],
+      [
+        "Braud",
+        "Tristan",
+        ""
+      ],
+      [
+        "Hui",
+        "Pan",
+        ""
+      ]
+    ]
+  },
+  {
+    "id": "2209.05456",
+    "submitter": "Eduard Hartwich",
+    "authors": "Eduard Hartwich, Philipp Ollig, Gilbert Fridgen, Alexander Rieger",
+    "title": "Probably Something: A Multi-Layer Taxonomy of Non-Fungible Tokens",
+    "comments": "26 pages, 3 tables, 2 figures",
+    "journal-ref": null,
+    "doi": null,
+    "report-no": null,
+    "categories": "cs.CY",
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "abstract": "  Purpose: This paper aims to establish a fundamental and comprehensive\nunderstanding of Non-Fungible Tokens (NFTs) by identifying and structuring\ncommon characteristics within a taxonomy. NFTs are hyped and increasingly\nmarketed as essential building blocks of the Metaverse. However, the dynamic\nevolution of the NFT space has posed challenges for those seeking to develop a\ndeep and comprehensive understanding of NFTs, their features, and capabilities.\n  Design/methodology/approach: Utilizing common guidelines for the creation of\ntaxonomies, we developed (over three iterations), a multi-layer taxonomy based\non workshops and interviews with 11 academic and 15 industry experts. Through\nan evaluation of 25 NFTs, we demonstrate the usefulness of our taxonomy.\n  Findings: The taxonomy has four layers, 14 dimensions and 42 characteristics,\nwhich describe NFTs in terms of reference object, token properties, token\ndistribution, and realizable value.\n  Originality: Our framework is the first to systematically cover the emerging\nNFT phenomenon. It is concise yet extendible and presents many avenues for\nfuture research in a plethora of disciplines. The characteristics identified in\nour taxonomy are useful for NFT and Metaverse related research in Finance,\nMarketing, Law, and Information Systems. Additionally, the taxonomy can serve\nas an information source for policymakers as they consider NFT regulation.\n",
+    "versions": [
+      {
+        "version": "v1",
+        "created": "Mon, 29 Aug 2022 18:00:30 GMT"
+      }
+    ],
+    "update_date": "2022-09-13",
+    "authors_parsed": [
+      [
+        "Hartwich",
+        "Eduard",
+        ""
+      ],
+      [
+        "Ollig",
+        "Philipp",
+        ""
+      ],
+      [
+        "Fridgen",
+        "Gilbert",
+        ""
+      ],
+      [
+        "Rieger",
+        "Alexander",
+        ""
+      ]
+    ]
+  },
+  {
+    "id": "2304.09240",
+    "submitter": "Azzam Mourad",
+    "authors": "Hani Sami, Ahmad Hammoud, Mouhamad Arafeh, Mohamad Wazzeh, Sarhad\n  Arisdakessian, Mario Chahoud, Osama Wehbi, Mohamad Ajaj, Azzam Mourad, Hadi\n  Otrok, Omar Abdel Wahab, Rabeb Mizouni, Jamal Bentahar, Chamseddine Talhi,\n  Zbigniew Dziong, Ernesto Damiani, Mohsen Guizani",
+    "title": "The Metaverse: Survey, Trends, Novel Pipeline Ecosystem & Future\n  Directions",
+    "comments": "IEEE Communications Surveys & Tutorials 2024",
+    "journal-ref": null,
+    "doi": "10.1109/COMST.2024.3392642",
+    "report-no": null,
+    "categories": "cs.CY cs.AI cs.CV cs.NI",
+    "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "abstract": "  The Metaverse offers a second world beyond reality, where boundaries are\nnon-existent, and possibilities are endless through engagement and immersive\nexperiences using the virtual reality (VR) technology. Many disciplines can\nbenefit from the advancement of the Metaverse when accurately developed,\nincluding the fields of technology, gaming, education, art, and culture.\nNevertheless, developing the Metaverse environment to its full potential is an\nambiguous task that needs proper guidance and directions. Existing surveys on\nthe Metaverse focus only on a specific aspect and discipline of the Metaverse\nand lack a holistic view of the entire process. To this end, a more holistic,\nmulti-disciplinary, in-depth, and academic and industry-oriented review is\nrequired to provide a thorough study of the Metaverse development pipeline. To\naddress these issues, we present in this survey a novel multi-layered pipeline\necosystem composed of (1) the Metaverse computing, networking, communications\nand hardware infrastructure, (2) environment digitization, and (3) user\ninteractions. For every layer, we discuss the components that detail the steps\nof its development. Also, for each of these components, we examine the impact\nof a set of enabling technologies and empowering domains (e.g., Artificial\nIntelligence, Security & Privacy, Blockchain, Business, Ethics, and Social) on\nits advancement. In addition, we explain the importance of these technologies\nto support decentralization, interoperability, user experiences, interactions,\nand monetization. Our presented study highlights the existing challenges for\neach component, followed by research directions and potential solutions. To the\nbest of our knowledge, this survey is the most comprehensive and allows users,\nscholars, and entrepreneurs to get an in-depth understanding of the Metaverse\necosystem to find their opportunities and potentials for contribution.\n",
+    "versions": [
+      {
+        "version": "v1",
+        "created": "Tue, 18 Apr 2023 18:58:14 GMT"
+      }
+    ],
+    "update_date": "2024-05-20",
+    "authors_parsed": [
+      [
+        "Sami",
+        "Hani",
+        ""
+      ],
+      [
+        "Hammoud",
+        "Ahmad",
+        ""
+      ],
+      [
+        "Arafeh",
+        "Mouhamad",
+        ""
+      ],
+      [
+        "Wazzeh",
+        "Mohamad",
+        ""
+      ],
+      [
+        "Arisdakessian",
+        "Sarhad",
+        ""
+      ],
+      [
+        "Chahoud",
+        "Mario",
+        ""
+      ],
+      [
+        "Wehbi",
+        "Osama",
+        ""
+      ],
+      [
+        "Ajaj",
+        "Mohamad",
+        ""
+      ],
+      [
+        "Mourad",
+        "Azzam",
+        ""
+      ],
+      [
+        "Otrok",
+        "Hadi",
+        ""
+      ],
+      [
+        "Wahab",
+        "Omar Abdel",
+        ""
+      ],
+      [
+        "Mizouni",
+        "Rabeb",
+        ""
+      ],
+      [
+        "Bentahar",
+        "Jamal",
+        ""
+      ],
+      [
+        "Talhi",
+        "Chamseddine",
+        ""
+      ],
+      [
+        "Dziong",
+        "Zbigniew",
+        ""
+      ],
+      [
+        "Damiani",
+        "Ernesto",
+        ""
+      ],
+      [
+        "Guizani",
+        "Mohsen",
+        ""
+      ]
+    ]
+  },
+  {
+    "id": "2307.03194",
+    "submitter": "Patrici Calvo",
+    "authors": "Patrici Calvo",
+    "title": "Cryptoart: Ethical Challenges of the NFT Revolution",
+    "comments": null,
+    "journal-ref": null,
+    "doi": null,
+    "report-no": null,
+    "categories": "cs.CY",
+    "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+    "abstract": "  The digital transformation of the art world has become a revolution for the\nsector. Cryptoart, based on non-fungible tokens (NFT), is attracting the\nattention of artists, collectors and enthusiasts for its ability to tokenise\nany element that can be sold as art in the digital market. That means it is\nable to become a scarce resource and an economic asset by encapsulating the\nmarket value of a piece of digital art, which may or may not have a reference\nin the real world. This study will delve into the ethical aspects underlying\nwhat is known as the NFT Revolution, particularly impacts related to the abuse\nor destruction of cultural heritage, speculation and the generation of economic\nbubbles and environmental unsustainability.\n",
+    "versions": [
+      {
+        "version": "v1",
+        "created": "Sun, 2 Jul 2023 08:56:50 GMT"
+      }
+    ],
+    "update_date": "2023-07-10",
+    "authors_parsed": [
+      [
+        "Calvo",
+        "Patrici",
+        ""
+      ]
+    ]
+  },
+  {
+    "id": "2308.10559",
+    "submitter": "Leila Ismail Prof.",
+    "authors": "Leila Ismail and Rajkumar Buyya",
+    "title": "Metaverse: A Vision, Architectural Elements, and Future Directions for\n  Scalable and Realtime Virtual Worlds",
+    "comments": null,
+    "journal-ref": null,
+    "doi": null,
+    "report-no": null,
+    "categories": "cs.HC cs.AI",
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "abstract": "  With the emergence of Cloud computing, Internet of Things-enabled\nHuman-Computer Interfaces, Generative Artificial Intelligence, and\nhigh-accurate Machine and Deep-learning recognition and predictive models,\nalong with the Post Covid-19 proliferation of social networking, and remote\ncommunications, the Metaverse gained a lot of popularity. Metaverse has the\nprospective to extend the physical world using virtual and augmented reality so\nthe users can interact seamlessly with the real and virtual worlds using\navatars and holograms. It has the potential to impact people in the way they\ninteract on social media, collaborate in their work, perform marketing and\nbusiness, teach, learn, and even access personalized healthcare. Several works\nin the literature examine Metaverse in terms of hardware wearable devices, and\nvirtual reality gaming applications. However, the requirements of realizing the\nMetaverse in realtime and at a large-scale need yet to be examined for the\ntechnology to be usable. To address this limitation, this paper presents the\ntemporal evolution of Metaverse definitions and captures its evolving\nrequirements. Consequently, we provide insights into Metaverse requirements. In\naddition to enabling technologies, we lay out architectural elements for\nscalable, reliable, and efficient Metaverse systems, and a classification of\nexisting Metaverse applications along with proposing required future research\ndirections.\n",
+    "versions": [
+      {
+        "version": "v1",
+        "created": "Mon, 21 Aug 2023 08:23:10 GMT"
+      },
+      {
+        "version": "v2",
+        "created": "Thu, 24 Aug 2023 12:54:50 GMT"
+      }
+    ],
+    "update_date": "2023-08-25",
+    "authors_parsed": [
+      [
+        "Ismail",
+        "Leila",
+        ""
+      ],
+      [
+        "Buyya",
+        "Rajkumar",
+        ""
+      ]
+    ]
+  },
+  {
+    "id": "2310.01815",
+    "submitter": "Ye Wang",
+    "authors": "Vivian Ziemke, Benjamin Estermann, Roger Wattenhofer, Ye Wang",
+    "title": "What Determines the Price of NFTs?",
+    "comments": null,
+    "journal-ref": null,
+    "doi": null,
+    "report-no": null,
+    "categories": "cs.CE cs.LG",
+    "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "abstract": "  In the evolving landscape of digital art, Non-Fungible Tokens (NFTs) have\nemerged as a groundbreaking platform, bridging the realms of art and\ntechnology. NFTs serve as the foundational framework that has revolutionized\nthe market for digital art, enabling artists to showcase and monetize their\ncreations in unprecedented ways. NFTs combine metadata stored on the blockchain\nwith off-chain data, such as images, to create a novel form of digital\nownership. It is not fully understood how these factors come together to\ndetermine NFT prices. In this study, we analyze both on-chain and off-chain\ndata of NFT collections trading on OpenSea to understand what influences NFT\npricing. Our results show that while text and image data of the NFTs can be\nused to explain price variations within collections, the extracted features do\nnot generalize to new, unseen collections. Furthermore, we find that an NFT\ncollection's trading volume often relates to its online presence, like social\nmedia followers and website traffic.\n",
+    "versions": [
+      {
+        "version": "v1",
+        "created": "Tue, 3 Oct 2023 06:09:59 GMT"
+      }
+    ],
+    "update_date": "2023-10-04",
+    "authors_parsed": [
+      [
+        "Ziemke",
+        "Vivian",
+        ""
+      ],
+      [
+        "Estermann",
+        "Benjamin",
+        ""
+      ],
+      [
+        "Wattenhofer",
+        "Roger",
+        ""
+      ],
+      [
+        "Wang",
+        "Ye",
+        ""
+      ]
+    ]
+  },
+  {
+    "id": "2312.07693",
+    "submitter": "Henrik Bj{\\o}rn Axelsen",
+    "authors": "Henrik Axelsen, Sebastian Axelsen, Valdemar Licht, Jason Potts",
+    "title": "Scaling Culture in Blockchain Gaming: Generative AI and Pseudonymous\n  Engagement",
+    "comments": null,
+    "journal-ref": null,
+    "doi": null,
+    "report-no": null,
+    "categories": "cs.HC",
+    "license": "http://creativecommons.org/licenses/by-sa/4.0/",
+    "abstract": "  Managing rapidly growing decentralized gaming communities brings unique\nchallenges at the nexus of cultural economics and technology. This paper\nintroduces a streamlined analytical framework that utilizes Large Language\nModels (LLMs), in this instance open-access generative pre-trained transformer\n(GPT) models, offering an efficient solution with deeper insights into\ncommunity dynamics. The framework aids moderators in identifying pseudonymous\nactor intent, moderating toxic behavior, rewarding desired actions to avoid\nunintended consequences of blockchain-based gaming, and gauging community\nsentiment as communities venture into metaverse platforms and plan for\nhypergrowth. This framework strengthens community controls, eases onboarding,\nand promotes a common moral mission across communities while reducing agency\ncosts by 95 pct. Highlighting the transformative role of generative AI, the\npaper emphasizes its potential to redefine the cost of cultural production. It\nshowcases the utility of GPTs in digital community management, expanding their\nimplications in cultural economics and transmedia storytelling.\n",
+    "versions": [
+      {
+        "version": "v1",
+        "created": "Tue, 12 Dec 2023 19:38:43 GMT"
+      }
+    ],
+    "update_date": "2023-12-14",
+    "authors_parsed": [
+      [
+        "Axelsen",
+        "Henrik",
+        ""
+      ],
+      [
+        "Axelsen",
+        "Sebastian",
+        ""
+      ],
+      [
+        "Licht",
+        "Valdemar",
+        ""
+      ],
+      [
+        "Potts",
+        "Jason",
+        ""
+      ]
+    ]
+  },
+  {
+    "id": "2401.03461",
+    "submitter": "Ljubisa Bojic",
+    "authors": "Ljubisa Bojic, Joerg Matthes, Milan Cabarkapa",
+    "title": "Amplification of Addictive New Media Features in the Metaverse",
+    "comments": "14 pages, 1 figure, 1 table",
+    "journal-ref": null,
+    "doi": null,
+    "report-no": null,
+    "categories": "cs.CY cs.AI",
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "abstract": "  The emergence of the metaverse, envisioned as a hyperreal virtual universe\nfacilitating boundless human interaction, stands to revolutionize our\nconception of media, with significant impacts on addiction, creativity,\nrelationships, and social polarization. This paper aims to dissect the\naddictive potential of the metaverse due to its immersive and interactive\nfeatures, scrutinize the effects of its recommender systems on creativity and\nsocial polarization, and explore potential consequences stemming from the\nmetaverse development. We employed a literature review methodology, drawing\nparallels from the research on new media platforms and examining the\nprogression of reality-mimicking features in media from historical perspectives\nto understand this transformative digital frontier. The findings suggest that\nthese immersive and interactive features could potentially exacerbate media\naddiction. The designed recommender systems, while aiding personalization and\nuser engagement, might contribute to social polarization and affect the\ndiversity of creative output. However, our conclusions are based primarily on\ntheoretical propositions from studies conducted on existing media platforms and\nlack empirical support specific to the metaverse. Therefore, this paper\nidentifies a critical gap requiring further research, through empirical studies\nfocused on metaverse use and addiction and exploration of privacy, security,\nand ethical implications associated with this burgeoning digital universe. As\nthe development of the metaverse accelerates, it is incumbent on scholars,\ntechnologists, and policymakers to navigate its multilayered impacts\nthoughtfully to balance innovation with societal well-being.\n",
+    "versions": [
+      {
+        "version": "v1",
+        "created": "Sun, 7 Jan 2024 11:50:07 GMT"
+      }
+    ],
+    "update_date": "2024-01-09",
+    "authors_parsed": [
+      [
+        "Bojic",
+        "Ljubisa",
+        ""
+      ],
+      [
+        "Matthes",
+        "Joerg",
+        ""
+      ],
+      [
+        "Cabarkapa",
+        "Milan",
+        ""
+      ]
+    ]
+  },
+  {
+    "id": "2403.05205",
+    "submitter": "Liang Yang",
+    "authors": "Liang Yang, Shi-Ting Ni, Yuyang Wang, Ao Yu, Jyh-An Lee, Pan Hui",
+    "title": "Interoperability of the Metaverse: A Digital Ecosystem Perspective\n  Review",
+    "comments": null,
+    "journal-ref": null,
+    "doi": null,
+    "report-no": null,
+    "categories": "cs.CY",
+    "license": "http://creativecommons.org/licenses/by-sa/4.0/",
+    "abstract": "  The Metaverse is at the vanguard of the impending digital revolution, with\nthe potential to significantly transform industries and lifestyles. However, in\n2023, skepticism surfaced within industrial and academic spheres, raising\nconcerns that excitement may outpace actual technological progress.\nInteroperability, recognized as a major barrier to the Metaverse's full\npotential, is central to this debate. CoinMarketCap's report in February 2023\nindicated that of over 240 metaverse initiatives, most existed in isolation,\nunderscoring the interoperability challenge. Despite consensus on its critical\nrole, there is a research gap in exploring the impact on the Metaverse,\nsignificance, and developmental extent. Our study bridges this gap via a\nsystematic literature review and content analysis of the Web of Science (WoS)\nand Scopus databases, yielding 74 publications after a rigorous selection\nprocess. Interoperability, difficult to define due to varied contexts and lack\nof standardization, is central to the Metaverse, often seen as a digital\necosystem. Urs Gasser's framework, outlining technological, data, human, and\ninstitutional dimensions, systematically addresses interoperability\ncomplexities. Incorporating this framework, we dissect the literature for a\ncomprehensive Metaverse interoperability overview. Our study seeks to establish\nbenchmarks for future inquiries, navigating the complex field of Metaverse\ninteroperability studies and contributing to academic advancement.\n",
+    "versions": [
+      {
+        "version": "v1",
+        "created": "Fri, 8 Mar 2024 10:38:01 GMT"
+      },
+      {
+        "version": "v2",
+        "created": "Wed, 20 Mar 2024 17:05:20 GMT"
+      },
+      {
+        "version": "v3",
+        "created": "Thu, 13 Jun 2024 07:43:41 GMT"
+      },
+      {
+        "version": "v4",
+        "created": "Sat, 15 Jun 2024 12:39:26 GMT"
+      }
+    ],
+    "update_date": "2024-06-18",
+    "authors_parsed": [
+      [
+        "Yang",
+        "Liang",
+        ""
+      ],
+      [
+        "Ni",
+        "Shi-Ting",
+        ""
+      ],
+      [
+        "Wang",
+        "Yuyang",
+        ""
+      ],
+      [
+        "Yu",
+        "Ao",
+        ""
+      ],
+      [
+        "Lee",
+        "Jyh-An",
+        ""
+      ],
+      [
+        "Hui",
+        "Pan",
+        ""
+      ]
+    ]
+  },
+  {
+    "id": "2409.11790",
+    "submitter": "Ruiqiang Li",
+    "authors": "Ruiqiang Li, Brian Yecies, Qin Wang, Shiping Chen, Jun Shen",
+    "title": "Empowering Visual Artists with Tokenized Digital Assets with NFTs",
+    "comments": "46 pages,9 figures",
+    "journal-ref": null,
+    "doi": null,
+    "report-no": null,
+    "categories": "cs.CR",
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "abstract": "  The Non-Fungible Tokens (NFTs) has the transformative impact on the visual\narts industry by examining the nexus between empowering art practices and\nleveraging blockchain technology. First, we establish the context for this\nstudy by introducing some basic but critical technological aspects and\naffordances of the blockchain domain. Second, we revisit the creative practices\ninvolved in producing traditional artwork, covering various types, production\nprocesses, trading, and monetization methods. Third, we introduce and define\nthe key fundamentals of the blockchain ecosystem, including its structure,\nconsensus algorithms, smart contracts, and digital wallets. Fourth, we narrow\nthe focus to NFTs, detailing their history, mechanics, lifecycle, and\nstandards, as well as their application in the art world. In particular, we\noutline the key processes for minting and trading NFTs in various marketplaces\nand discuss the relevant market dynamics and pricing. We also consider major\nsecurity concerns, such as wash trading, to underscore some of the central\ncybersecurity issues facing this domain. Finally, we conclude by considering\nfuture research directions, emphasizing improvements in user experience,\nsecurity, and privacy. Through this innovative research overview, which\nincludes input from creative industry and cybersecurity sdomain expertise, we\noffer some new insights into how NFTs can empower visual artists and reshape\nthe wider copyright industries.\n",
+    "versions": [
+      {
+        "version": "v1",
+        "created": "Wed, 18 Sep 2024 08:16:16 GMT"
+      },
+      {
+        "version": "v2",
+        "created": "Fri, 20 Sep 2024 06:01:39 GMT"
+      }
+    ],
+    "update_date": "2024-09-23",
+    "authors_parsed": [
+      [
+        "Li",
+        "Ruiqiang",
+        ""
+      ],
+      [
+        "Yecies",
+        "Brian",
+        ""
+      ],
+      [
+        "Wang",
+        "Qin",
+        ""
+      ],
+      [
+        "Chen",
+        "Shiping",
+        ""
+      ],
+      [
+        "Shen",
+        "Jun",
+        ""
+      ]
+    ]
+  }
+]

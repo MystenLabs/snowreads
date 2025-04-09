@@ -40,7 +40,19 @@ const CategoryCard: React.FC<ICategoryCardProps> = ({
           style={{ backgroundImage: `url('/mysten_labs_research_bg_img.svg')` }}
         />
       )}
-        
+      {title === "Scaling Culture with NFTs" && (
+        <div
+          className="absolute bottom-[-35px] right-[38px] w-[162px] h-[148px] bg-no-repeat bg-contain"
+          style={{ backgroundImage: `url('/scaling_bg.png')` }}
+        />
+      )}
+      {title === "Metaverse: An Immersive Cyberspace" && (
+        <div
+          className="absolute bottom-[-6px] right-[-2px] w-[128px] h-[128px] bg-no-repeat bg-contain"
+          style={{ backgroundImage: `url('/metaverse_bg.png')` }}
+        />
+      )}
+
       <div className="flex py-2">
         <div className="w-11 h-11 rounded-lg bg-teal-100 flex items-center justify-center mr-4">
           <img src={icon} alt={`${title} icon`} className="w-5 h-5" />
