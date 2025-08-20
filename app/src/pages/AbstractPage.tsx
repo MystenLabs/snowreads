@@ -95,15 +95,22 @@ const AbstractPage: React.FC<IAbstractPageProps> = ({ arxiv_id }) => {
           ).toLocaleDateString(),
           fileSize: data.pdfSize,
           authors: data.authorsParsed.map((author: string[]) => ({
-            name: `${author[1]} ${author[0]}`,
+            name: `${author[1]} ${author[2]} ${author[0]}`,
             link: `https://www.google.com/search?q=${encodeURIComponent(
-              `${author[1]} ${author[0]}`
+              `${author[1]} ${author[2]} ${author[0]}`
             )}`, // Creating Google search link for the author's full name
           })),
           abstract: data.abstract,
           subjects: data.subjects.join(", "),
           license: data.license,
-          citation: `arXiv:${data.id} [${data.subjects[0]}]`,
+          citation: data.title === "Post-Quantum Readiness in EdDSA Chains" ? `@misc{cryptoeprint:2025/1368,
+      author = {Foteini Baldimtsi and Kostas Kryptos Chalkias and Arnab Roy},
+      title = {Post-Quantum Readiness in {EdDSA} Chains},
+      howpublished = {Cryptology {ePrint} Archive, Paper 2025/1368},
+      year = {2025},
+      url = {https://eprint.iacr.org/2025/1368}
+}
+` : `arXiv:${data.id} [${data.subjects[0]}]`,
           submissionHistory: data.versions
             .map((version: any) => `[${version.version}] ${version.created}`)
             .join(", "),

@@ -1,7 +1,7 @@
 export const formatBytes = (bytes: number, decimals = 2) => {
   if (bytes === 0) return "0 Bytes";
 
-  const k = 1024;
+  const k = 1000;
   const dm = decimals < 0 ? 0 : decimals;
   const sizes = ["Bytes", "KB", "MB", "GB", "TB", "PB", "EB", "ZB", "YB"];
 
@@ -11,16 +11,18 @@ export const formatBytes = (bytes: number, decimals = 2) => {
 };
 
 // Currently only supports simple-textit
-const MATCHERS = [{
-  name: 'simple-textit',
-  pattern: /\$\\textit{([^}]+)}\$/g,
-  replace: '<i>$1</i>'
-}];
+const MATCHERS = [
+  {
+    name: "simple-textit",
+    pattern: /\$\\textit{([^}]+)}\$/g,
+    replace: "<i>$1</i>",
+  },
+];
 
 // Quick and easy way to replace some latex text to html
 export function latexToHtml(text: string): string {
   for (const matcher of MATCHERS) {
     text = text.replace(matcher.pattern, matcher.replace);
   }
-  return text
+  return text;
 }
