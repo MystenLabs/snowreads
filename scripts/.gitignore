@@ -1,1 +1,7 @@
 .env
+.env.mainnet
+.env.testnet
+
+/dummies/**/*
+
+*.log
