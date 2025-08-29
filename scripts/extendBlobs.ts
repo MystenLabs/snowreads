@@ -25,17 +25,17 @@ function priceForEncodedLength(
 
 // --- Configuration ---
 
-dotenv.config({ path: path.join(__dirname, ".env.testnet") });
+dotenv.config({ path: path.join(__dirname, ".env.mainnet") });
 
 const SUI_NETWORK =
   (process.env.SUI_NETWORK as "mainnet" | "testnet") || "mainnet";
 const WAL_PACKAGE_ID = process.env.WAL_PACKAGE_ID!;
 const PHRASE = process.env.PHRASE;
 const SYSTEM_OBJECT_ID = process.env.SYSTEM_OBJECT_ID;
-const EPOCHS_TO_EXTEND = 1;
+const EPOCHS_TO_EXTEND = 12;
 const BATCH_SIZE = 50; // PTB transaction limit is 1024 commands. 50 blobs is safe.
 const MAX_RETRIES = 3;
-const RETRY_DELAY_MS = 30_000; // 30 seconds
+const RETRY_DELAY_MS = 3_000; // 3 seconds
 const BATCH_DELAY_MS = 1_000; // 1 second between successful batches
 
 // const PATHS = {
@@ -43,7 +43,7 @@ const BATCH_DELAY_MS = 1_000; // 1 second between successful batches
 // };
 
 const PATHS = {
-  INPUT_FILE: path.join(__dirname, "dummies", "objectIdMap.json"),
+  INPUT_FILE: path.join(__dirname, "..", "data", "blob-object-ids.json"),
   SUCCESS_LOG: path.join(__dirname, "extend_success.log"),
   FAILURE_LOG: path.join(__dirname, "extend_failure.log"),
 };
@@ -144,8 +144,8 @@ async function main() {
 
   const { storagePricePerUnit, packageId } = await getWalrusSystemInfo(client);
 
-  for (let i = 0; i < allBlobIds.length; i += BATCH_SIZE) {
-    const batchIds = allBlobIds.slice(i, i + BATCH_SIZE);
+  for (let i = 0; i < idsToProcess.length; i += BATCH_SIZE) {
+    const batchIds = idsToProcess.slice(i, i + BATCH_SIZE);
     const batchNumber = i / BATCH_SIZE + 1;
     const totalBatches = Math.ceil(idsToProcess.length / BATCH_SIZE);
     console.log(
