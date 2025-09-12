@@ -142,7 +142,7 @@ const InformationPopup: React.FC<{
             <Button
               content={"GET STARTED"}
               primary
-              href="https://docs.walrus.site/walrus-sites/intro.html"
+              href="https://docs.wal.app/walrus-sites/intro.html"
             />
           </div>
         </div>
