@@ -2,5 +2,12 @@
   "routes": {
     "/*": "/index.html"
   },
+  "site_name": "Snowreads",
+  "metadata": {
+    "link": "https://snowreads.wal.app",
+    "description": "This is the Snowreads walrus site.",
+    "project_url": "https://github.com/MystenLabs/snowreads",
+    "creator": "MystenLabs"
+  },
   "object_id": "0xcdee2bd7aab813ed76a00f71df68e6254d2ccccf1257746a58b805da9f3b9769"
 }
