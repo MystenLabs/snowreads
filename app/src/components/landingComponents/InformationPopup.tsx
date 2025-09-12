@@ -116,7 +116,7 @@ const InformationPopup: React.FC<{
               title="Walrus Sites"
               description="Web sites hosted entirely on Walrus."
               accordionContent={[
-                "Walrus Sites take decentralized storage to the next level by allowing users to host websites entirely on Walrus. Once deployed, a Walrus Site exists on the decentralized network, accessible from anywhere in the world through portals like walrus.site. These sites can also be linked to objects on Sui and additionally leverage Sui’s naming service, SuiNS, allowing each site to have a human-readable name instead of a long, complex URL.",
+                "Walrus Sites take decentralized storage to the next level by allowing users to host websites entirely on Walrus. Once deployed, a Walrus Site exists on the decentralized network, accessible from anywhere in the world through portals like wal.app. These sites can also be linked to objects on Sui and additionally leverage Sui’s naming service, SuiNS, allowing each site to have a human-readable name instead of a long, complex URL.",
               ]}
               isOpen={openAccordionIndex === 2} // Open if the index matches
               onToggle={() => handleAccordionToggle(2)} // Toggle function for this item
