@@ -9,18 +9,21 @@ const WalrusMetadataContainer: React.FC<IWalrusMetadataContainerProps> = ({
         Walrus Metadata
       </h2>
       <ul className="space-y-2">
-        {blobId && (
-          <li>
-            <a
-              href={`https://walruscan.com/mainnet/blob/${blobId}`}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="hover:text-[#8B28D2]  font-medium"
-            >
-              Blob on Walrus
-            </a>
-          </li>
-        )}
+        <li>
+          <a
+            href={blobId ? `https://walruscan.com/mainnet/blob/${blobId}` : undefined}
+            target="_blank"
+            rel="noopener noreferrer"
+            className={`font-medium ${
+              blobId
+                ? "hover:text-[#8B28D2] text-black"
+                : "text-gray-400 cursor-not-allowed"
+            }`}
+            style={{ pointerEvents: blobId ? "auto" : "none" }}
+          >
+            Blob on Walrus
+          </a>
+        </li>
       </ul>
     </div>
   );

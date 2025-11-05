@@ -9,8 +9,9 @@ import { Spinner } from "../components/common/Spinner";
 pdfjs.GlobalWorkerOptions.workerSrc = "/pdf.worker.min.mjs";
 
 const PDFViewerPage: React.FC = () => {
-  const { blobId } = useParams<string>();
-  const blobIdDecoded = decodeURIComponent(blobId!); //
+  const { filename } = useParams<string>();
+  const relativePdfPath = `/pdfs/${decodeURIComponent(filename!)}`; // Relative path for download link
+  const pdfPath = `${window.location.origin}${relativePdfPath}`; // Construct absolute URL for pdf.js
   const [numPages, setNumPages] = useState<number | null>(null);
   const [timeoutReached, setTimeoutReached] = useState(false); // Track if 10 seconds passed
   const [isLoading, setIsLoading] = useState(false); // Resolve "Use different canvas or ensure previous operations were cancelled or completed."
@@ -19,7 +20,7 @@ const PDFViewerPage: React.FC = () => {
   const canvasRefs = useRef<(HTMLCanvasElement | null)[]>([]); // Array of canvas refs for each page
 
   useEffect(() => {
-    if (!blobIdDecoded) return; // If no URL parameter is found, exit early
+    if (!pdfPath) return; // If no URL parameter is found, exit early
 
     // Set a 10-second timeout to show the error message
     const timeout = setTimeout(() => {
@@ -30,9 +31,8 @@ const PDFViewerPage: React.FC = () => {
 
     const loadPDF = async () => {
       try {
-        const loadingTask = pdfjs.getDocument(
-          `https://aggregator.walrus-mainnet.walrus.space/v1/blobs/${blobIdDecoded}`,
-        );
+        // Load PDF from local path (e.g., "/pdfs/2412.00023v1.pdf")
+        const loadingTask = pdfjs.getDocument(pdfPath);
         const pdf = await loadingTask.promise;
         setNumPages(pdf.numPages); // Set numPages once the PDF is loaded
 
@@ -120,7 +120,7 @@ const PDFViewerPage: React.FC = () => {
     return () => {
       clearTimeout(timeout); // Clear timeout if PDF loads or component unmounts
     };
-  }, [blobIdDecoded, numPages, isLoading]);
+  }, [pdfPath, numPages, isLoading]);
 
   useEffect(() => {
     const header = document.querySelector("header");
@@ -151,8 +151,8 @@ const PDFViewerPage: React.FC = () => {
             </Link>
           </div>
           <a
-            href={`https://aggregator.walrus-mainnet.walrus.space/v1/blobs/${blobIdDecoded}`}
-            download
+            href={relativePdfPath}
+            download={relativePdfPath ? relativePdfPath.split('/').pop() : 'paper.pdf'} // Extract filename from path
             className={`text-sm border-2 border-solid p-[8px] rounded-lg ${!numPages
                 ? "bg-gray-400 text-gray-600 cursor-not-allowed border-gray-400"
                 : "text-[#8B28D2] border-[#8B28D2] hover:bg-[#8B28D2] hover:text-white"

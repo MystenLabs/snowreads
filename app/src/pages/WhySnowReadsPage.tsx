@@ -53,11 +53,11 @@ const WhySnowReadsPage: React.FC = () => {
             anywhere in the world through portals like{" "}
             <a
               className="font-bold"
-              href="https://docs.walrus.site/walrus-sites/intro.html"
+              href="https://docs.wal.app/walrus-sites/intro.html"
               target="_blank"
               rel="noopener noreferrer"
             >
-              walrus.site
+              wal.app
             </a>
             . These sites can also be linked to objects on{" "}
             <a

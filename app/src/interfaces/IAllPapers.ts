@@ -3,7 +3,6 @@ export interface IPaperTrimmed {
   title: string;
   authorsParsed: string[][];
   timestamp: number;
-  metadataBlobId: string;
 }
 
 export interface ISubCategory {

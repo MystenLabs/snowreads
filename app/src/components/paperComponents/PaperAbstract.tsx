@@ -54,6 +54,10 @@ const PaperAbstract: React.FC<IPaperAbstractProps> = ({
   const getCategoryAndSubcategoryFromCitation = (citation: string) => {
     if (!citation) return { category: "Home", subcategory: "" };
 
+    if (citation.includes("@misc")) {
+      return { category: "Computer Science", subcategory: "Cryptography and Security" };
+    }
+
     // Extract category and subcategory from citation
     const citationParts = citation.match(/\[(.*?)\]/); // Extract text inside square brackets
     if (!citationParts || citationParts.length < 2)
@@ -141,7 +145,12 @@ const PaperAbstract: React.FC<IPaperAbstractProps> = ({
         <h2 id="cite-as" className="text-xl font-semibold py-4 w-3/5">
           Cite As
         </h2>
-        <p className="text-gray-700 mb-4">{citation}</p>
+        {title === "Post-Quantum Readiness in EdDSA Chains" ?
+          <pre id="bibtex">
+            <p className="text-gray-700 mb-4">{citation}</p>
+          </pre> :
+          <p className="text-gray-700 mb-4">{citation}</p>
+        }
 
         <h2
           id="submission-history"

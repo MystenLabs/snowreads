@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import { useLocation } from "react-router-dom";
 import SidebarNav from "../components/common/SideNavbar";
 import PaperAbstract from "../components/paperComponents/PaperAbstract";
 import { Spinner } from "../components/common/Spinner";
@@ -7,18 +6,19 @@ import { IAbstractPageProps } from "../interfaces/IAbstractPageProps";
 import InformationPopup from "../components/landingComponents/InformationPopup";
 import ViewPDFButton from "../components/paperComponents/ViewPDFButton";
 import WalrusMetadataContainer from "../components/paperComponents/WalrusMetadataContainer";
+import { useWalrusMetadata } from "../contexts/WalrusMetadataContext";
 
 const AbstractPage: React.FC<IAbstractPageProps> = ({ arxiv_id }) => {
-  const location = useLocation();
-  let metadataBlobId = location.state?.metadataBlobId;
   const [paperData, setPaperData] = useState<any>(null);
   const [isLoading, setIsLoading] = useState(true);
   const [submissionAndUpdateText, setSubmissionAndUpdateText] = useState<
     string | null
   >(null);
   const [isSmallScreen, setIsSmallScreen] = useState<boolean>(false);
-
   const [abstractHeight, setAbstractHeight] = useState<number>(0);
+
+  // Use Walrus metadata context
+  const { loadMetadata, getBlobId } = useWalrusMetadata();
 
   const handleAbstractHeightChange = (height: number) => {
     setAbstractHeight(height);
@@ -40,20 +40,9 @@ const AbstractPage: React.FC<IAbstractPageProps> = ({ arxiv_id }) => {
         // console.log("response:");
         // console.log(response);
 
-        if (!metadataBlobId) {
-          console.log("No state.metadataBlobId");
-          console.log("Fetching index.js");
-          const index_resp = await fetch("/index.json");
-          const index = await index_resp.json();
-          const withUnderscore = arxiv_id.replace(".", "_");
-          metadataBlobId = index[withUnderscore];
-        } else {
-          console.log("state.metadataBlobId already provided");
-        }
-        console.log(metadataBlobId);
-        const response = await fetch(
-          `https://aggregator.walrus-mainnet.walrus.space/v1/blobs/${metadataBlobId}`
-        );
+        // Fetch metadata directly from local abs file
+        console.log(`Fetching metadata for ${arxiv_id}`);
+        const response = await fetch(`/abs/${arxiv_id}.json`);
 
         if (!response.ok) {
           throw new Error("Failed to fetch paper data");
@@ -95,24 +84,26 @@ const AbstractPage: React.FC<IAbstractPageProps> = ({ arxiv_id }) => {
           ).toLocaleDateString(),
           fileSize: data.pdfSize,
           authors: data.authorsParsed.map((author: string[]) => ({
-            name: `${author[1]} ${author[0]}`,
+            name: `${author[1]} ${author[2]} ${author[0]}`,
             link: `https://www.google.com/search?q=${encodeURIComponent(
-              `${author[1]} ${author[0]}`
+              `${author[1]} ${author[2]} ${author[0]}`
             )}`, // Creating Google search link for the author's full name
           })),
           abstract: data.abstract,
           subjects: data.subjects.join(", "),
           license: data.license,
-          citation: `arXiv:${data.id} [${data.subjects[0]}]`,
+          citation: data.title === "Post-Quantum Readiness in EdDSA Chains" ? `@misc{cryptoeprint:2025/1368,
+      author = {Foteini Baldimtsi and Kostas Kryptos Chalkias and Arnab Roy},
+      title = {Post-Quantum Readiness in {EdDSA} Chains},
+      howpublished = {Cryptology {ePrint} Archive, Paper 2025/1368},
+      year = {2025},
+      url = {https://eprint.iacr.org/2025/1368}
+}
+` : `arXiv:${data.id} [${data.subjects[0]}]`,
           submissionHistory: data.versions
             .map((version: any) => `[${version.version}] ${version.created}`)
             .join(", "),
-          blobId: data.blobId,
-          objectId: data.objectId,
-          registeredEpoch: data.registeredEpoch,
-          certifiedEpoch: data.certifiedEpoch,
-          startEpoch: data.startEpoch,
-          endEpoch: data.endEpoch,
+          pdfPath: data.pdfPath, // Local path to PDF
         };
 
         setPaperData({ paperDetails });
@@ -125,6 +116,11 @@ const AbstractPage: React.FC<IAbstractPageProps> = ({ arxiv_id }) => {
 
     fetchPaperData();
   }, [arxiv_id]);
+
+  useEffect(() => {
+    // Lazy-load Walrus metadata when AbstractPage is first visited
+    loadMetadata();
+  }, [loadMetadata]);
 
   useEffect(() => {
     // Function to check screen size and set the flag
@@ -176,11 +172,11 @@ const AbstractPage: React.FC<IAbstractPageProps> = ({ arxiv_id }) => {
         />
         <div style={isSmallScreen ? { visibility: "hidden" } : {}}>
           <ViewPDFButton
-            pdfBlobId={paperData.paperDetails.blobId}
+            pdfBlobId={paperData.paperDetails.pdfPath}
             dynamicMarginTop={abstractHeight}
           />
           <WalrusMetadataContainer
-            blobId={paperData.paperDetails.blobId}
+            blobId={getBlobId(arxiv_id) || undefined}
           />
         </div>
       </main>

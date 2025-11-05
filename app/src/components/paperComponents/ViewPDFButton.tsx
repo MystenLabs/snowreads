@@ -26,7 +26,9 @@ const ViewPDFButton: React.FC<IViewPDFButtonProps> = ({
   }, []);
 
   const handleViewPDF = () => {
-    window.open(`/pdf-viewer/${pdfBlobId}`);
+    // Strip leading slash from pdfBlobId (e.g., "/pdfs/2412.21140v1.pdf" -> "pdfs/2412.21140v1.pdf")
+    const cleanPath = pdfBlobId.startsWith('/') ? pdfBlobId.substring(1) : pdfBlobId;
+    window.open(`/pdf-viewer/${cleanPath}`);
   };
 
   return (
