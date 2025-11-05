@@ -386,7 +386,6 @@ const LandingPage: React.FC = () => {
                           .join(", "),
                         link: `/abs/${paper.id}`,
                         arxiv_id: paper.id,
-                        metadataBlobId: paper.metadataBlobId,
                       };
 
                       return (

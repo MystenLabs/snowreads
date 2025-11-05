@@ -16,7 +16,6 @@ export const PaperCard: React.FC<IPaperCardProps> = ({
   return (
   <Link
     to={paper.link}
-    state={{ metadataBlobId: paper.metadataBlobId }}
     className="block bg-secondary p-4 my-2 rounded-md">
     <div className="flex space-x-4 items-start">
       {/* <span className="text-sm font-medium">{index + 1}.</span> */}

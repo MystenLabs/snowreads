@@ -189,8 +189,7 @@ const CategoryListPage: React.FC<ICategoryListPageProps> = ({ label }) => {
                             .map((author) => author.join(" "))
                             .join(", "),
                           link: `/abs/${paper.id}`,
-                          arxiv_id: paper.id,
-                          metadataBlobId: paper.metadataBlobId
+                          arxiv_id: paper.id
                         };
 
                         return (

@@ -20,7 +20,7 @@ const CollectionListPage: React.FC<ICategoryListPageProps> = ({
   const { category } = useParams();
   const navigate = useNavigate();
   const [activeSubcategorySize, setActiveSubcategorySize] = useState<number>(0);
-  const [wavBlobId, setWavBlobId] = useState<string>("");
+  const [audioSrc, setAudioSrc] = useState<string>("");
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
@@ -47,24 +47,22 @@ const CollectionListPage: React.FC<ICategoryListPageProps> = ({
   }, [category, navigate]);
 
   useEffect(() => {
-    // Logic to fetch or generate the new wavBlobId based on the category
-    const newWavBlobId = getWavBlobIdForCategory(category!);
-    setWavBlobId(newWavBlobId);
+    // Get audio path for the category
+    const newAudioSrc = getAudioPathForCategory(category!);
+    setAudioSrc(newAudioSrc);
   }, [category]);
 
-  // Function to get wavBlobId based on category
-  const getWavBlobIdForCategory = (category: string): string => {
-    const categoryToWavBlobMap: { [key: string]: string } = {
-      "The Science of Everyday Decisions":
-        "OGjf1RKmU1NH67P7s0WZEYdIIb6OEP69R9x3b6fx7L8",
-      "Scientific Wonder of Pop Culture":
-        "nyhIqvK2ldPQscrca5vqEGLlmDeJt_hIJJyLzoVntKc",
-      "Is AI Fun": "aZ9iSjjLZcPt6yNfptL-0tBdWmfXbCteY27k946L-Sk",
-      "Mysten Labs Research": "j0cHM3i_vLQmrnBr1eE0iPPbZ1N7V739rnTl9KvCKL4",
-      "Scaling Culture with NFTs": "v-pDgeKC70-8x3KYWjLhvS2nfTXcd8F5yI4Om8KeQks",
-      "Metaverse: An Immersive Cyberspace": "UXgOrg1Jd71sAkbKs1fkVF-09AmkOogKTF0tx3nzOcA"
+  // Function to get audio MP3 path based on category
+  const getAudioPathForCategory = (category: string): string => {
+    const categoryToAudioMap: { [key: string]: string } = {
+      "The Science of Everyday Decisions": "/mp3s/the_science_of_everyday_decisions.mp3",
+      "Scientific Wonder of Pop Culture": "/mp3s/scientific_wonder_of_pop_culture.mp3",
+      "Is AI Fun": "/mp3s/is_ai_fun.mp3",
+      "Mysten Labs Research": "/mp3s/mystenlabs_papers_podcast.mp3",
+      "Scaling Culture with NFTs": "/mp3s/scaling_culture.mp3",
+      "Metaverse: An Immersive Cyberspace": "/mp3s/metaverse.mp3"
     };
-    return categoryToWavBlobMap[category] || "defaultBlobId";
+    return categoryToAudioMap[category] || "";
   };
 
   return (
@@ -128,9 +126,9 @@ const CollectionListPage: React.FC<ICategoryListPageProps> = ({
                   <Spinner />
                 ) : (
                   <div className="md:-mt-6 ">
-                  {wavBlobId !== "defaultBlobId" && 
+                  {audioSrc &&
                     <AudioSummaryContainer
-                      src={`https://aggregator.walrus-mainnet.walrus.space/v1/blobs/${wavBlobId}`}
+                      src={audioSrc}
                     />
                   }
                     <PaperCardContainer
@@ -152,7 +150,6 @@ const CollectionListPage: React.FC<ICategoryListPageProps> = ({
                               id: any;
                               title: any;
                               authorsParsed: any[][];
-                              metadataBlobId: string;
                             }) => {
                               const mappedPaper = {
                                 id: paper.id,
@@ -161,7 +158,6 @@ const CollectionListPage: React.FC<ICategoryListPageProps> = ({
                                   .map((author: any[]) => author.join(" "))
                                   .join(", "),
                                 link: `/abs/${paper.id}`,
-                                metadataBlobId: paper.metadataBlobId,
                                 arxiv_id: paper.id,
                               };
 
